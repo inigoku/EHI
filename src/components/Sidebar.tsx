@@ -1,0 +1,304 @@
+import React from "react";
+import { Chapter } from "../chapters";
+import { Search, Book, PenTool, CheckCircle, Flame, Star, Menu, X, ArrowUpRight } from "lucide-react";
+import { motion, AnimatePresence } from "motion/react";
+import { ReadingTheme } from "./ReadingSettings";
+
+interface SidebarProps {
+  chapters: Chapter[];
+  activeChapterId: string;
+  onChapterSelect: (id: string) => void;
+  openGlossary: () => void;
+  openJournal: () => void;
+  isOpen: boolean;
+  setIsOpen: (isOpen: boolean) => void;
+  theme: ReadingTheme;
+}
+
+export const Sidebar: React.FC<SidebarProps> = ({
+  chapters,
+  activeChapterId,
+  onChapterSelect,
+  openGlossary,
+  openJournal,
+  isOpen,
+  setIsOpen,
+  theme,
+}) => {
+  const [searchQuery, setSearchQuery] = React.useState<string>("");
+  const [completedChapters, setCompletedChapters] = React.useState<string[]>([]);
+
+  // Load completed chapters
+  React.useEffect(() => {
+    const handleStorageChange = () => {
+      const keys = Object.keys(localStorage);
+      const reflections = keys
+        .filter((k) => k.startsWith("reflection_"))
+        .map((k) => k.replace("reflection_", ""));
+      setCompletedChapters(reflections);
+    };
+
+    handleStorageChange();
+    window.addEventListener("storage", handleStorageChange);
+    
+    // Custom trigger event
+    const interval = setInterval(handleStorageChange, 2000);
+
+    return () => {
+      window.removeEventListener("storage", handleStorageChange);
+      clearInterval(interval);
+    };
+  }, []);
+
+  const filteredChapters = chapters.filter(
+    (c) =>
+      c.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      c.subtitle?.toLowerCase().includes(searchQuery.toLowerCase()) ||
+      c.content.toLowerCase().includes(searchQuery.toLowerCase())
+  );
+
+  const getProgressPercentage = () => {
+    if (chapters.length === 0) return 0;
+    return Math.round((completedChapters.length / chapters.length) * 100);
+  };
+
+  // Group chapters by section for beautiful table of contents
+  const groupedChapters = React.useMemo(() => {
+    // 1. Map every chapter ID to its resolved section name using the full, unfiltered list
+    const chapterSectionMap: { [id: string]: string } = {};
+    let currentSection = "INTRODUCCIÓN";
+    chapters.forEach((c) => {
+      if (c.section) {
+        currentSection = c.section;
+      }
+      chapterSectionMap[c.id] = currentSection;
+    });
+
+    // 2. Group the filtered chapters using the pre-resolved sections
+    const groups: { [key: string]: Chapter[] } = {};
+    filteredChapters.forEach((c) => {
+      const sec = chapterSectionMap[c.id] || "INTRODUCCIÓN";
+      if (!groups[sec]) {
+        groups[sec] = [];
+      }
+      groups[sec].push(c);
+    });
+    return groups;
+  }, [chapters, filteredChapters]);
+
+  const handleSelectChapter = (id: string) => {
+    onChapterSelect(id);
+    if (window.innerWidth < 1024) {
+      setIsOpen(false);
+    }
+  };
+
+  // Editorial styles mapping based on theme
+  const sc = React.useMemo(() => {
+    switch (theme) {
+      case "paper":
+        return {
+          bg: "bg-[#F9F6F1]",
+          text: "text-[#1A1A1A]",
+          textMuted: "text-[#1A1A1A]/60",
+          border: "border-[#1A1A1A]/10",
+          borderBottom: "border-[#1A1A1A]/10",
+          itemActive: "font-semibold bg-[#1A1A1A]/5 border-[#1A1A1A]/10 text-[#1A1A1A]",
+          itemHover: "hover:bg-[#1A1A1A]/5 text-[#1A1A1A]/60 hover:text-[#1A1A1A]",
+          lineActive: "bg-[#1A1A1A]",
+          progressBg: "bg-[#1A1A1A]/10",
+          progressBar: "bg-[#1A1A1A]",
+          button: "bg-[#1A1A1A]/5 border-[#1A1A1A]/10 text-[#1A1A1A] hover:bg-[#1A1A1A]/10",
+          input: "bg-[#1A1A1A]/5 border-[#1A1A1A]/10 text-[#1A1A1A] placeholder-[#1A1A1A]/40 focus:border-[#1A1A1A]/40",
+          icon: "text-[#1A1A1A]/80",
+        };
+      case "sepia":
+        return {
+          bg: "bg-[#FAF6EE]",
+          text: "text-[#2C1E11]",
+          textMuted: "text-[#2C1E11]/60",
+          border: "border-[#2C1E11]/10",
+          borderBottom: "border-[#2C1E11]/10",
+          itemActive: "font-semibold bg-[#2C1E11]/5 border-[#2C1E11]/10 text-[#2C1E11]",
+          itemHover: "hover:bg-[#2C1E11]/5 text-[#2C1E11]/60 hover:text-[#2C1E11]",
+          lineActive: "bg-[#2C1E11]",
+          progressBg: "bg-[#2C1E11]/10",
+          progressBar: "bg-amber-800",
+          button: "bg-[#2C1E11]/5 border-[#2C1E11]/10 text-[#2C1E11] hover:bg-[#2C1E11]/10",
+          input: "bg-[#2C1E11]/5 border-[#2C1E11]/10 text-[#2C1E11] placeholder-[#2C1E11]/40 focus:border-[#2C1E11]/40",
+          icon: "text-amber-800",
+        };
+      case "cosmic":
+      default:
+        return {
+          bg: "bg-[#0D0E12]",
+          text: "text-[#E4E6EB]",
+          textMuted: "text-[#E4E6EB]/60",
+          border: "border-[#E4E6EB]/10",
+          borderBottom: "border-[#E4E6EB]/10",
+          itemActive: "font-semibold bg-[#E4E6EB]/5 border-[#E4E6EB]/10 text-[#E4E6EB]",
+          itemHover: "hover:bg-[#E4E6EB]/5 text-[#E4E6EB]/60 hover:text-[#E4E6EB]",
+          lineActive: "bg-amber-500",
+          progressBg: "bg-[#E4E6EB]/10",
+          progressBar: "bg-amber-500",
+          button: "bg-[#E4E6EB]/5 border-[#E4E6EB]/10 text-[#E4E6EB] hover:bg-[#E4E6EB]/10",
+          input: "bg-[#E4E6EB]/5 border-[#E4E6EB]/10 text-[#E4E6EB] placeholder-[#E4E6EB]/40 focus:border-amber-500/30",
+          icon: "text-amber-500",
+        };
+    }
+  }, [theme]);
+
+  return (
+    <>
+      {/* Mobile Menu Trigger Header */}
+      <div className={`lg:hidden fixed top-0 left-0 right-0 h-16 ${sc.bg} border-b ${sc.border} z-40 px-5 flex items-center justify-between transition-colors duration-300`}>
+        <div className="flex items-center gap-2">
+          <Book className={`w-5 h-5 ${sc.icon}`} />
+          <span className={`font-display font-bold text-sm tracking-wide ${sc.text} uppercase`}>
+            El Horizonte Interior
+          </span>
+        </div>
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className={`p-2 rounded-xl ${sc.button} border transition-colors cursor-pointer`}
+        >
+          {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+        </button>
+      </div>
+
+      {/* Main Sidebar Element */}
+      <aside
+        className={`fixed lg:sticky top-16 lg:top-0 left-0 bottom-0 lg:h-screen w-full lg:w-80 ${sc.bg} border-r ${sc.border} z-40 flex flex-col transition-all duration-300 lg:transform-none ${
+          isOpen ? "translate-x-0" : "-translate-x-full lg:translate-x-0"
+        }`}
+      >
+        {/* Book Header & Title (Desktop Only) */}
+        <div className={`hidden lg:flex flex-col p-6 border-b ${sc.border} space-y-1`}>
+          <div className="flex items-center gap-2">
+            <Book className={`w-5 h-5 ${sc.icon}`} />
+            <h1 className={`font-display font-bold text-base tracking-wide ${sc.text} uppercase`}>
+              El Horizonte Interior
+            </h1>
+          </div>
+          <p className={`text-[10px] font-mono ${sc.textMuted} uppercase tracking-widest`}>
+            Por Íñigo Barrera Barceló
+          </p>
+        </div>
+
+        {/* Progress Card */}
+        <div className={`p-5 border-b ${sc.border} space-y-3`}>
+          <div className="flex items-center justify-between">
+            <span className={`text-[10px] font-mono uppercase tracking-wider ${sc.textMuted}`}>
+              Progreso de Bitácora
+            </span>
+            <span className={`text-xs font-mono font-bold ${sc.text}`}>{getProgressPercentage()}%</span>
+          </div>
+          <div className={`w-full h-1.5 ${sc.progressBg} rounded-full overflow-hidden`}>
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: `${getProgressPercentage()}%` }}
+              className={`h-full ${sc.progressBar} rounded-full`}
+            />
+          </div>
+          <div className={`flex items-center justify-between text-[10px] ${sc.textMuted} font-sans`}>
+            <span>{completedChapters.length} de {chapters.length} cap. explorados</span>
+            <div className={`flex items-center gap-0.5 ${theme === "cosmic" ? "text-amber-500" : ""}`}>
+              <Flame className="w-3 h-3" />
+              <span className="font-semibold">Lector Activo</span>
+            </div>
+          </div>
+        </div>
+
+        {/* Tools and triggers */}
+        <div className={`px-5 py-3 border-b ${sc.border} grid grid-cols-2 gap-2`}>
+          <button
+            onClick={openGlossary}
+            className={`flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl border ${sc.button} active:scale-95 transition-all text-xs font-semibold cursor-pointer`}
+          >
+            Glosario
+            <ArrowUpRight className="w-3.5 h-3.5" />
+          </button>
+          <button
+            onClick={openJournal}
+            className={`flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl border ${sc.button} active:scale-95 transition-all text-xs font-semibold cursor-pointer`}
+          >
+            <PenTool className="w-3.5 h-3.5" />
+            Bitácora
+          </button>
+        </div>
+
+        {/* Search Bar */}
+        <div className={`p-4 border-b ${sc.border}`}>
+          <div className="relative">
+            <Search className={`absolute left-3 top-2.5 w-4 h-4 ${sc.textMuted}`} />
+            <input
+              type="text"
+              placeholder="Buscar por palabra..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className={`w-full border rounded-xl py-1.5 pl-9 pr-3 text-xs ${sc.input} font-sans transition-colors outline-none`}
+            />
+          </div>
+        </div>
+
+        {/* Scrollable Table of Contents grouped by sections */}
+        <nav className="flex-1 overflow-y-auto p-4 space-y-6">
+          {(Object.entries(groupedChapters) as [string, Chapter[]][]).map(([section, items]) => (
+            <div key={section} className="space-y-2">
+              <h3 className={`text-[10px] font-sans tracking-[0.2em] ${sc.textMuted} font-bold uppercase px-2 mb-1.5 border-l ${sc.lineActive} border-l-2 pl-2`}>
+                {section}
+              </h3>
+              <div className="space-y-1">
+                {items.map((item) => {
+                  const isActive = item.id === activeChapterId;
+                  const isDone = completedChapters.includes(item.id);
+                  return (
+                    <button
+                      key={item.id}
+                      onClick={() => handleSelectChapter(item.id)}
+                      className={`w-full text-left p-2.5 rounded-xl transition-all flex items-start gap-2 group border ${
+                        isActive ? sc.itemActive : `bg-transparent border-transparent ${sc.itemHover}`
+                      }`}
+                    >
+                      {/* Chapter completed status */}
+                      {isDone ? (
+                        <CheckCircle className="w-3.5 h-3.5 text-emerald-500 shrink-0 mt-0.5" />
+                      ) : (
+                        <Star
+                          className={`w-3.5 h-3.5 shrink-0 mt-0.5 transition-colors ${
+                            isActive ? "text-amber-500/50" : "text-slate-400 group-hover:text-slate-600"
+                          }`}
+                        />
+                      )}
+                      
+                      <div className="flex-1 min-w-0">
+                        <div className="font-display font-medium text-xs leading-normal">
+                          {item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && `${item.chapterNumber}. `}
+                          {item.title}
+                        </div>
+                        {isActive && (
+                          <div className={`h-px w-8 ${sc.lineActive} mt-1.5`} />
+                        )}
+                        {item.subtitle && (
+                          <div className={`text-[10px] ${sc.textMuted} font-sans mt-0.5 truncate leading-tight`}>
+                            {item.subtitle}
+                          </div>
+                        )}
+                      </div>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ))}
+
+          {filteredChapters.length === 0 && (
+            <div className={`text-center py-8 ${sc.textMuted} font-sans text-xs`}>
+              No se encontraron capítulos.
+            </div>
+          )}
+        </nav>
+      </aside>
+    </>
+  );
+};

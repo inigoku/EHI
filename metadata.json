@@ -1,0 +1,6 @@
+{
+  "name": "El Horizonte Interior",
+  "description": "Libro interactivo 'El Horizonte Interior: Un experimento de pensamiento' de Íñigo Barrera Barceló.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
