@@ -83,6 +83,46 @@ import imgTp from "../assets/images/ilustracion_tp.png";
 // @ts-ignore
 import imgTxiki from "../assets/images/ilustracion_txiki.png";
 
+// Import Cuentos illustrations
+// @ts-ignore
+import cuento01 from "../assets/images/cuentos/01_tarel_inicio.png";
+// @ts-ignore
+import cuentoAguaRetira from "../assets/images/cuentos/02_tarel_mitad.png";
+// @ts-ignore
+import cuento02 from "../assets/images/cuentos/03_burbuja.png";
+// @ts-ignore
+import cuento03 from "../assets/images/cuentos/04_nino.png";
+// @ts-ignore
+import cuento04 from "../assets/images/cuentos/05_red_nombres.png";
+// @ts-ignore
+import cuento05 from "../assets/images/cuentos/06_casa_respiraba.png";
+// @ts-ignore
+import cuento06 from "../assets/images/cuentos/07_maquina.png";
+// @ts-ignore
+import cuento07 from "../assets/images/cuentos/08_huesped.png";
+// @ts-ignore
+import cuento08 from "../assets/images/cuentos/09_puentes.png";
+// @ts-ignore
+import cuentoInt from "../assets/images/cuentos/10_borde_interludio.png";
+// @ts-ignore
+import cuento09 from "../assets/images/cuentos/11_musica.png";
+// @ts-ignore
+import cuento10 from "../assets/images/cuentos/12_cuerda.png";
+// @ts-ignore
+import cuento11 from "../assets/images/cuentos/13_ciudad.png";
+// @ts-ignore
+import cuento12 from "../assets/images/cuentos/14_reloj.png";
+// @ts-ignore
+import cuento13 from "../assets/images/cuentos/15_sala.png";
+// @ts-ignore
+import cuento14 from "../assets/images/cuentos/16_perros.png";
+// @ts-ignore
+import cuentoEq from "../assets/images/cuentos/17_el_que_queda.png";
+// @ts-ignore
+import cuentoTxiki from "../assets/images/cuentos/18_txiki_cierre.png";
+// @ts-ignore
+import cuentoM87 from "../assets/images/cuentos/19_M87_puente.png";
+
 interface IllustrationViewerProps {
   illustration?: Illustration;
 }
@@ -127,6 +167,27 @@ const imageMap: Record<string, string> = {
   il_oceano_olas: imgOceanoOlas,
   il_tp: imgTp,
   il_txiki: imgTxiki,
+
+  // Cuentos illustrations mapping
+  cuento_01: cuento01,
+  cuento_agua_retira: cuentoAguaRetira,
+  cuento_02: cuento02,
+  cuento_03: cuento03,
+  cuento_04: cuento04,
+  cuento_05: cuento05,
+  cuento_06: cuento06,
+  cuento_07: cuento07,
+  cuento_08: cuento08,
+  cuento_int: cuentoInt,
+  cuento_09: cuento09,
+  cuento_10: cuento10,
+  cuento_11: cuento11,
+  cuento_12: cuento12,
+  cuento_13: cuento13,
+  cuento_14: cuento14,
+  cuento_eq: cuentoEq,
+  cuento_txiki: cuentoTxiki,
+  cuento_m87: cuentoM87,
 };
 
 export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration }) => {
