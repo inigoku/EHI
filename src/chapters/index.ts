@@ -4,6 +4,7 @@ import { group3 } from "./group3";
 import { group4 } from "./group4";
 import { group5 } from "./group5";
 import { group6 } from "./group6";
+import { cuentosList } from "./cuentos";
 
 export const allChapters: Chapter[] = [
   ...group1,
@@ -16,4 +17,5 @@ export const allChapters: Chapter[] = [
   ...group6
 ];
 
+export { cuentosList };
 export type { Chapter, Illustration } from "./group1";

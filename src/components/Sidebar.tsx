@@ -15,6 +15,8 @@ interface SidebarProps {
   isOpen: boolean;
   setIsOpen: (isOpen: boolean) => void;
   theme: ReadingTheme;
+  mode: "essay" | "cuentos";
+  onModeChange: (mode: "essay" | "cuentos") => void;
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({
@@ -26,6 +28,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
   isOpen,
   setIsOpen,
   theme,
+  mode,
+  onModeChange,
 }) => {
   const [searchQuery, setSearchQuery] = React.useState<string>("");
   const [completedChapters, setCompletedChapters] = React.useState<string[]>([]);
@@ -215,6 +219,35 @@ export const Sidebar: React.FC<SidebarProps> = ({
               <Flame className="w-3 h-3" />
               <span className="font-semibold">Lector Activo</span>
             </div>
+          </div>
+        </div>
+
+        {/* Mode Switcher */}
+        <div className={`px-5 py-3 border-b ${sc.border} flex items-center justify-between`}>
+          <span className={`text-[10px] font-mono uppercase tracking-wider ${sc.textMuted}`}>
+            Modo de Lectura
+          </span>
+          <div className="flex bg-slate-950/40 p-0.5 rounded-lg border border-amber-500/10">
+            <button
+              onClick={() => onModeChange("essay")}
+              className={`text-[9px] font-sans font-bold px-2 py-1 rounded-md transition-all cursor-pointer ${
+                mode === "essay"
+                  ? "bg-amber-500/15 text-amber-500 border border-amber-500/15 shadow-sm"
+                  : `${sc.textMuted} hover:${sc.text}`
+              }`}
+            >
+              Ensayo
+            </button>
+            <button
+              onClick={() => onModeChange("cuentos")}
+              className={`text-[9px] font-sans font-bold px-2 py-1 rounded-md transition-all cursor-pointer ${
+                mode === "cuentos"
+                  ? "bg-amber-500/15 text-amber-500 border border-amber-500/15 shadow-sm"
+                  : `${sc.textMuted} hover:${sc.text}`
+              }`}
+            >
+              Cuentos
+            </button>
           </div>
         </div>
 

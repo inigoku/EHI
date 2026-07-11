@@ -3,6 +3,7 @@ import { Chapter } from "./group1";
 export const group3: Chapter[] = [
   {
     id: "interludio",
+    linkedCuentosId: "cuento9",
     title: "INTERLUDIO: EL BORDE QUE CRUZAMOS CADA NOCHE",
     section: "INTERLUDIO",
     content: `Hay un momento que casi todo el mundo ha experimentado y casi nadie ha sabido nombrar.
@@ -206,6 +207,7 @@ Cada noche practicamos la contracción sin disolvernos. Cruzamos el borde y volv
   },
   {
     id: "cap6",
+    linkedCuentosId: "cuento5",
     chapterNumber: "6",
     title: "LA MUERTE COMO RETORNO",
     content: `> *El agua de Tarel regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
@@ -677,6 +679,7 @@ La postura más honesta es agnóstica. No sabemos si el cerebro usa computación
   },
   {
     id: "cap8",
+    linkedCuentosId: "cuento4",
     chapterNumber: "8",
     title: "EL ENTRELAZAMIENTO",
     content: `En 2013, Maldacena y Susskind reformularon la pregunta de qué es el entrelazamiento cuántico. ER=EPR afirma que el entrelazamiento entre dos sistemas cuánticos no es solo correlación estadística —es conexión geométrica. Dos partículas entrelazadas están unidas por puente de Einstein-Rosen microscópico: estructura topológica en el espacio-tiempo que conecta sus interiores aunque sus exteriores estén separados por cualquier distancia.

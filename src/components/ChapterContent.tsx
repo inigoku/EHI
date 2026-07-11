@@ -1,5 +1,5 @@
 import React from "react";
-import { Chapter, Illustration } from "../chapters";
+import { Chapter, Illustration, allChapters, cuentosList } from "../chapters";
 import { IllustrationViewer } from "./IllustrationViewer";
 import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
@@ -13,6 +13,8 @@ interface ChapterContentProps {
   onTermClick: (termName: string) => void;
   theme: "cosmic" | "paper" | "sepia";
   fontSize: "sm" | "base" | "lg" | "xl" | "2xl";
+  readingMode: "essay" | "cuentos";
+  onSwitchMode: (mode: "essay" | "cuentos", targetId?: string) => void;
 }
 
 export const ChapterContent: React.FC<ChapterContentProps> = ({
@@ -24,6 +26,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   onTermClick,
   theme,
   fontSize,
+  readingMode,
+  onSwitchMode,
 }) => {
   const containerRef = React.useRef<HTMLDivElement>(null);
   const [reflection, setReflection] = React.useState<string>("");
@@ -69,6 +73,18 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       default:
         return "text-base";
     }
+  };
+
+  const getLinkedChapterTitle = (id?: string) => {
+    if (!id) return "";
+    const chap = allChapters.find((c) => c.id === id);
+    return chap ? chap.title : "";
+  };
+
+  const getLinkedCuentoTitle = (id?: string) => {
+    if (!id) return "";
+    const cuento = cuentosList.find((c) => c.id === id);
+    return cuento ? cuento.title : "";
   };
 
   // Highlight words of interest in the glossary
@@ -541,15 +557,22 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         initial={{ opacity: 0, y: 15 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.5 }}
-        className={`text-center py-6 sm:py-10 border-b ${tc.border} space-y-3`}
+        className={`text-center py-6 sm:py-10 border-b ${tc.border} space-y-4`}
       >
-        {chapter.section && (
+        {readingMode === "essay" && chapter.section && (
           <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
             {chapter.section}
           </span>
         )}
+        {readingMode === "cuentos" && (
+          <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
+            Antología de Cuentos
+          </span>
+        )}
         <h1 className={`font-display font-semibold text-2xl sm:text-5xl ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-slate-100"} tracking-tight max-w-3xl mx-auto leading-tight`}>
-          {chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && `Capítulo ${chapter.chapterNumber}: `}
+          {readingMode === "essay" 
+            ? (chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && `Capítulo ${chapter.chapterNumber}: `)
+            : (chapter.chapterNumber ? `Relato ${chapter.chapterNumber}: ` : "")}
           {chapter.title}
         </h1>
         {chapter.subtitle && (
@@ -557,98 +580,227 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             {chapter.subtitle}
           </p>
         )}
+
+        {/* Links between Ensayo and Cuentos */}
+        {readingMode === "cuentos" && chapter.linkedChapterId && (
+          <div className="pt-2">
+            <button
+              onClick={() => onSwitchMode("essay", chapter.linkedChapterId)}
+              className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer"
+            >
+              📖 Leer ensayo relacionado: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
+            </button>
+          </div>
+        )}
+        {readingMode === "essay" && chapter.linkedCuentosId && (
+          <div className="pt-2">
+            <button
+              onClick={() => onSwitchMode("cuentos", chapter.linkedCuentosId)}
+              className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer"
+            >
+              📖 Leer cuento relacionado: "{getLinkedCuentoTitle(chapter.linkedCuentosId)}"
+            </button>
+          </div>
+        )}
       </motion.div>
 
-      {/* Grid layout for Chapter reading and Illustration */}
-      <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-        {/* Main Text Content */}
-        <div className={`lg:col-span-8 p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
-          <motion.div
-            key={`content-${chapter.id}`}
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: 0.2 }}
-            className="space-y-2 prose prose-invert max-w-none"
-          >
-            {highlightTerms(chapter.content)}
-          </motion.div>
-        </div>
-
-        {/* Right Panel: Illustration & Notes */}
-        <div className="lg:col-span-4 space-y-6">
+      {/* Grid or Centered layout depending on readingMode */}
+      {readingMode === "cuentos" ? (
+        <div className="max-w-3xl mx-auto space-y-8">
+          {/* Cuentos mode: Illustration is at the beginning, centered and large */}
           {chapter.illustration && (
-            <div className={`space-y-3 ${tc.subtleCard} rounded-2xl p-5 shadow-lg`}>
-              <span className={`text-[10px] font-sans uppercase tracking-widest ${tc.textMuted} block mb-1 text-center`}>
-                Visualización de Concepto
+            <div className={`space-y-4 p-5 sm:p-6 rounded-2xl border ${tc.border} bg-slate-950/20 max-w-lg mx-auto shadow-lg`}>
+              <span className={`text-[9px] font-sans uppercase tracking-widest ${tc.textMuted} block mb-1 text-center font-semibold`}>
+                Ilustración del Relato
               </span>
               <IllustrationViewer illustration={chapter.illustration} />
-              <div className="text-center pt-2">
-                <h4 className={`font-display font-semibold text-sm ${tc.accent}`}>
+              <div className="text-center">
+                <h4 className={`font-display font-semibold text-base ${tc.accent}`}>
                   {chapter.illustration.title}
                 </h4>
-                <p className={`text-xs ${tc.textMuted} font-sans mt-1 leading-relaxed`}>
-                  {chapter.illustration.description}
-                </p>
+                {chapter.illustration.description && (
+                  <p className={`text-xs ${tc.textMuted} font-sans mt-1.5 leading-relaxed max-w-md mx-auto`}>
+                    {chapter.illustration.description}
+                  </p>
+                )}
               </div>
             </div>
           )}
 
-          {/* Reflection Journal Bitácora */}
-          <div className={`${tc.subtleCard} rounded-2xl p-5 shadow-lg space-y-4`}>
-            <div className={`flex items-center justify-between border-b ${tc.border} pb-2`}>
-              <div className="flex items-center gap-2">
-                <PenTool className={`w-4 h-4 ${tc.accent}`} />
-                <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
-                  Bitácora de Reflexión
-                </h4>
-              </div>
-              {reflection && (
-                <button
-                  onClick={clearReflection}
-                  className={`text-[10px] ${tc.textMuted} hover:text-red-400 transition-colors cursor-pointer`}
-                >
-                  Borrar
-                </button>
-              )}
-            </div>
-
-            <p className={`text-[11px] ${tc.textMuted} leading-relaxed font-sans`}>
-              Escribe tus reflexiones, apuntes de física, o pensamientos que te despierte este capítulo. Se guardarán automáticamente en tu navegador.
-            </p>
-
-            <textarea
-              value={reflection}
-              onChange={(e) => {
-                setReflection(e.target.value);
-                setIsSaved(false);
-              }}
-              placeholder="¿Qué ecos resuenan en tu horizonte interno tras leer este capítulo?..."
-              className={`w-full h-32 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
-            />
-
-            <button
-              onClick={saveReflection}
-              className={`w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-xs font-semibold tracking-wide transition-all ${
-                isSaved
-                  ? "bg-emerald-500/10 border border-emerald-500/50 text-emerald-500"
-                  : `${tc.accentBg} cursor-pointer`
-              }`}
+          {/* Main Story Content */}
+          <div className={`p-6 sm:p-12 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} shadow-md transition-all duration-300`}>
+            <motion.div
+              key={`content-${chapter.id}`}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="space-y-2 prose prose-invert max-w-none font-serif text-justify leading-relaxed text-base sm:text-lg"
             >
-              {isSaved ? (
-                <>
-                  <Check className="w-4 h-4" />
-                  ¡Guardado en Bitácora!
-                </>
-              ) : (
-                <>
-                  <Save className="w-4 h-4" />
-                  Guardar en Bitácora
-                </>
-              )}
-            </button>
+              {highlightTerms(chapter.content)}
+            </motion.div>
+          </div>
+
+          {/* Reflection Journal Bitácora (Centered under the story) */}
+          <div className="max-w-xl mx-auto pt-4">
+            <div className={`${tc.subtleCard} rounded-2xl p-5 shadow-lg space-y-4`}>
+              <div className={`flex items-center justify-between border-b ${tc.border} pb-2`}>
+                <div className="flex items-center gap-2">
+                  <PenTool className={`w-4 h-4 ${tc.accent}`} />
+                  <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
+                    Bitácora de Reflexión
+                  </h4>
+                </div>
+                {reflection && (
+                  <button
+                    onClick={clearReflection}
+                    className={`text-[10px] ${tc.textMuted} hover:text-red-400 transition-colors cursor-pointer`}
+                  >
+                    Borrar
+                  </button>
+                )}
+              </div>
+
+              <p className={`text-[11px] ${tc.textMuted} leading-relaxed font-sans`}>
+                Escribe tus reflexiones, apuntes, o sensaciones que te despierte este relato. Se guardarán automáticamente.
+              </p>
+
+              <textarea
+                value={reflection}
+                onChange={(e) => {
+                  setReflection(e.target.value);
+                  setIsSaved(false);
+                }}
+                placeholder="¿Qué resonó en tu interior tras leer este relato?..."
+                className={`w-full h-28 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
+              />
+
+              <button
+                onClick={saveReflection}
+                className={`w-full flex items-center justify-center gap-2 py-2 px-4 rounded-xl text-xs font-semibold tracking-wide transition-all ${
+                  isSaved
+                    ? "bg-emerald-500/10 border border-emerald-500/50 text-emerald-500"
+                    : `${tc.accentBg} cursor-pointer`
+                }`}
+              >
+                {isSaved ? (
+                  <>
+                    <Check className="w-4 h-4" />
+                    ¡Guardado en Bitácora!
+                  </>
+                ) : (
+                  <>
+                    <Save className="w-4 h-4" />
+                    Guardar en Bitácora
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+
+          {/* Links at bottom of story */}
+          {chapter.linkedChapterId && (
+            <div className="flex justify-center pt-2">
+              <button
+                onClick={() => onSwitchMode("essay", chapter.linkedChapterId)}
+                className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
+              >
+                📖 Regresar al ensayo correspondiente: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
+              </button>
+            </div>
+          )}
+        </div>
+      ) : (
+        /* Essay 2-column Grid Layout */
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          {/* Main Text Content */}
+          <div className={`lg:col-span-8 p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
+            <motion.div
+              key={`content-${chapter.id}`}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="space-y-2 prose prose-invert max-w-none"
+            >
+              {highlightTerms(chapter.content)}
+            </motion.div>
+          </div>
+
+          {/* Right Panel: Illustration & Notes */}
+          <div className="lg:col-span-4 space-y-6">
+            {chapter.illustration && (
+              <div className={`space-y-3 ${tc.subtleCard} rounded-2xl p-5 shadow-lg`}>
+                <span className={`text-[10px] font-sans uppercase tracking-widest ${tc.textMuted} block mb-1 text-center`}>
+                  Visualización de Concepto
+                </span>
+                <IllustrationViewer illustration={chapter.illustration} />
+                <div className="text-center pt-2">
+                  <h4 className={`font-display font-semibold text-sm ${tc.accent}`}>
+                    {chapter.illustration.title}
+                  </h4>
+                  <p className={`text-xs ${tc.textMuted} font-sans mt-1 leading-relaxed`}>
+                    {chapter.illustration.description}
+                  </p>
+                </div>
+              </div>
+            )}
+
+            {/* Reflection Journal Bitácora */}
+            <div className={`${tc.subtleCard} rounded-2xl p-5 shadow-lg space-y-4`}>
+              <div className={`flex items-center justify-between border-b ${tc.border} pb-2`}>
+                <div className="flex items-center gap-2">
+                  <PenTool className={`w-4 h-4 ${tc.accent}`} />
+                  <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
+                    Bitácora de Reflexión
+                  </h4>
+                </div>
+                {reflection && (
+                  <button
+                    onClick={clearReflection}
+                    className={`text-[10px] ${tc.textMuted} hover:text-red-400 transition-colors cursor-pointer`}
+                  >
+                    Borrar
+                  </button>
+                )}
+              </div>
+
+              <p className={`text-[11px] ${tc.textMuted} leading-relaxed font-sans`}>
+                Escribe tus reflexiones, apuntes de física, o pensamientos que te despierte este capítulo. Se guardarán automáticamente en tu navegador.
+              </p>
+
+              <textarea
+                value={reflection}
+                onChange={(e) => {
+                  setReflection(e.target.value);
+                  setIsSaved(false);
+                }}
+                placeholder="¿Qué ecos resuenan en tu horizonte interno tras leer este capítulo?..."
+                className={`w-full h-32 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
+              />
+
+              <button
+                onClick={saveReflection}
+                className={`w-full flex items-center justify-center gap-2 py-2.5 px-4 rounded-xl text-xs font-semibold tracking-wide transition-all ${
+                  isSaved
+                    ? "bg-emerald-500/10 border border-emerald-500/50 text-emerald-500"
+                    : `${tc.accentBg} cursor-pointer`
+                }`}
+              >
+                {isSaved ? (
+                  <>
+                    <Check className="w-4 h-4" />
+                    ¡Guardado en Bitácora!
+                  </>
+                ) : (
+                  <>
+                    <Save className="w-4 h-4" />
+                    Guardar en Bitácora
+                  </>
+                )}
+              </button>
+            </div>
           </div>
         </div>
-      </div>
+      )}
 
       {/* Navigation Footer */}
       <div className={`flex items-center justify-between pt-6 border-t ${tc.border}`}>
@@ -666,7 +818,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         </button>
 
         <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
-          Parte {chapter.chapterNumber} de 20
+          {readingMode === "essay" 
+            ? `Parte ${chapter.chapterNumber || "Especial"} de 20`
+            : `Relato ${chapter.chapterNumber || "Prólogo"} de ${cuentosList.length - 1}`}
         </span>
 
         <button

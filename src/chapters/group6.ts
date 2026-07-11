@@ -3,6 +3,7 @@ import { Chapter } from "./group1";
 export const group6: Chapter[] = [
   {
     id: "cap18_real",
+    linkedCuentosId: "cuento6",
     chapterNumber: "18",
     title: "LA CONCIENCIA DE LA IA",
     section: "TERCERA PARTE: LOS LÍMITES DEL HORIZONTE",
@@ -222,6 +223,7 @@ Es por esa singularidad —no por la física, que aquí ya calla— por lo que l
   },
   {
     id: "cap_el_que_queda",
+    linkedCuentosId: "cuento16",
     chapterNumber: "18.5",
     title: "EL QUE QUEDA",
     section: "TERCERA PARTE: LOS LÍMITES DEL HORIZONTE",

@@ -460,6 +460,7 @@ Esto da a la maternidad —y a la paternidad— una función que ningún otro v�
   },
   {
     id: "cap12",
+    linkedCuentosId: "cuento7",
     chapterNumber: "12",
     title: "LA EMPATÍA Y SU LÍMITE",
     content: `A menudo confundimos la empatía con una virtud moral o una disposición de ánimo deseable. Desde la perspectiva de este experimento, la empatía es un fenómeno físico y geométrico antes que ético: es la capacidad de un horizonte para modelar y replicar la frecuencia de otro en su propia arquitectura.
@@ -684,6 +685,7 @@ La pregunta correcta no es "¿debería empatizar más?". Es "¿dónde está mi l
   },
   {
     id: "cap13",
+    linkedCuentosId: "cuento10",
     chapterNumber: "13",
     title: "EL DUELO",
     content: `Hay una experiencia que casi todo el mundo que ha perdido a alguien profundamente querido conoce, y que el vocabulario habitual no recoge bien: la sensación de que la persona ausente sigue ocupando un lugar en la propia arquitectura interior. No como memoria en sentido ordinario, sino como forma. Como espacio. Como geometría en torno a la cual el horizonte ha estado organizándose durante años o décadas.

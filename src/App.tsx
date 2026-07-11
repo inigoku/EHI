@@ -1,5 +1,5 @@
 import React from "react";
-import { allChapters, Chapter } from "./chapters";
+import { allChapters, Chapter, cuentosList } from "./chapters";
 import { Sidebar } from "./components/Sidebar";
 import { ChapterContent } from "./components/ChapterContent";
 import { GlossaryDrawer } from "./components/GlossaryDrawer";
@@ -9,8 +9,17 @@ import { motion, AnimatePresence } from "motion/react";
 import { Book, Compass, EyeOff, Layout } from "lucide-react";
 
 export default function App() {
-  // State for active reading
+  // State for reading mode: essay or cuentos
+  const [readingMode, setReadingMode] = React.useState<"essay" | "cuentos">(() => {
+    return (localStorage.getItem("reading_mode") as "essay" | "cuentos") || "essay";
+  });
+
+  // State for active reading chapter/cuento
   const [activeChapterId, setActiveChapterId] = React.useState<string>(() => {
+    const mode = localStorage.getItem("reading_mode") || "essay";
+    if (mode === "cuentos") {
+      return localStorage.getItem("last_read_cuento") || "cuento0";
+    }
     return localStorage.getItem("last_read_chapter") || "cap0";
   });
 
@@ -33,8 +42,16 @@ export default function App() {
 
   // Save states to localStorage
   React.useEffect(() => {
-    localStorage.setItem("last_read_chapter", activeChapterId);
-  }, [activeChapterId]);
+    localStorage.setItem("reading_mode", readingMode);
+  }, [readingMode]);
+
+  React.useEffect(() => {
+    if (readingMode === "cuentos") {
+      localStorage.setItem("last_read_cuento", activeChapterId);
+    } else {
+      localStorage.setItem("last_read_chapter", activeChapterId);
+    }
+  }, [activeChapterId, readingMode]);
 
   React.useEffect(() => {
     localStorage.setItem("reading_theme", theme);
@@ -48,28 +65,59 @@ export default function App() {
     localStorage.setItem("reading_focus_mode", String(focusMode));
   }, [focusMode]);
 
+  // Current list of items to show in navigation and sidebar
+  const currentChaptersList = React.useMemo(() => {
+    return readingMode === "essay" ? allChapters : cuentosList;
+  }, [readingMode]);
+
   // Find active chapter object
   const activeChapter = React.useMemo(() => {
-    return allChapters.find((c) => c.id === activeChapterId) || allChapters[0];
-  }, [activeChapterId]);
+    return currentChaptersList.find((c) => c.id === activeChapterId) || currentChaptersList[0];
+  }, [activeChapterId, currentChaptersList]);
 
   // Next / Prev chapter navigation
   const activeIndex = React.useMemo(() => {
-    return allChapters.findIndex((c) => c.id === activeChapterId);
-  }, [activeChapterId]);
+    return currentChaptersList.findIndex((c) => c.id === activeChapterId);
+  }, [activeChapterId, currentChaptersList]);
 
   const hasPrev = activeIndex > 0;
-  const hasNext = activeIndex < allChapters.length - 1;
+  const hasNext = activeIndex < currentChaptersList.length - 1;
 
   const handlePrev = () => {
     if (hasPrev) {
-      setActiveChapterId(allChapters[activeIndex - 1].id);
+      setActiveChapterId(currentChaptersList[activeIndex - 1].id);
     }
   };
 
   const handleNext = () => {
     if (hasNext) {
-      setActiveChapterId(allChapters[activeIndex + 1].id);
+      setActiveChapterId(currentChaptersList[activeIndex + 1].id);
+    }
+  };
+
+  // Switch between Ensayo and Cuentos, trying to preserve position via links
+  const handleModeChange = (newMode: "essay" | "cuentos") => {
+    if (newMode === readingMode) return;
+    
+    const activeItem = currentChaptersList.find(c => c.id === activeChapterId);
+    let targetId = newMode === "essay" ? "cap0" : "cuento0";
+    
+    if (activeItem) {
+      if (newMode === "essay" && activeItem.linkedChapterId) {
+        targetId = activeItem.linkedChapterId;
+      } else if (newMode === "cuentos" && activeItem.linkedCuentosId) {
+        targetId = activeItem.linkedCuentosId;
+      }
+    }
+    
+    setReadingMode(newMode);
+    setActiveChapterId(targetId);
+  };
+
+  const handleSwitchMode = (newMode: "essay" | "cuentos", targetId?: string) => {
+    setReadingMode(newMode);
+    if (targetId) {
+      setActiveChapterId(targetId);
     }
   };
 
@@ -132,7 +180,7 @@ export default function App() {
           >
             <div className="flex flex-col">
               <span className={`text-[10px] uppercase tracking-[0.2em] font-sans font-bold ${themeColors.textMuted}`}>
-                ENSAYO INTERACTIVO
+                {readingMode === "essay" ? "Ensayo Interactivo" : "Antología de Cuentos"}
               </span>
               <span className="text-xl italic font-display leading-tight">
                 El Horizonte Interior
@@ -142,7 +190,12 @@ export default function App() {
             <div className={`flex items-center gap-6 font-sans text-xs uppercase tracking-widest ${themeColors.textMuted}`}>
               <span>Autor: <strong className={`font-semibold ${themeColors.text}`}>Í. Barrera Barceló</strong></span>
               <span className="opacity-30">|</span>
-              <span>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 20</strong></span>
+              <span>
+                {readingMode === "essay" 
+                  ? <>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 20</strong></>
+                  : <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber || "Prólogo"} de 16</strong></>
+                }
+              </span>
             </div>
           </motion.header>
         )}
@@ -152,7 +205,7 @@ export default function App() {
       <div className="flex-1 flex flex-col lg:flex-row relative">
         {/* Navigation Sidebar */}
         <Sidebar
-          chapters={allChapters}
+          chapters={currentChaptersList}
           activeChapterId={activeChapterId}
           onChapterSelect={setActiveChapterId}
           openGlossary={() => {
@@ -163,6 +216,8 @@ export default function App() {
           isOpen={isSidebarOpen}
           setIsOpen={setIsSidebarOpen}
           theme={theme}
+          mode={readingMode}
+          onModeChange={handleModeChange}
         />
 
         {/* Content reader frame */}
@@ -194,6 +249,8 @@ export default function App() {
             onTermClick={handleTermClick}
             theme={theme}
             fontSize={fontSize}
+            readingMode={readingMode}
+            onSwitchMode={handleSwitchMode}
           />
 
           {/* Reader config floating side box - Hidden in focus mode */}
@@ -230,7 +287,7 @@ export default function App() {
       <JournalViewer
         isOpen={isJournalOpen}
         onClose={() => setIsJournalOpen(false)}
-        chapters={allChapters}
+        chapters={currentChaptersList}
         onChapterSelect={setActiveChapterId}
         theme={theme}
       />

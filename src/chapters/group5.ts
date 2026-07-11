@@ -3,6 +3,7 @@ import { Chapter } from "./group1";
 export const group5: Chapter[] = [
   {
     id: "cap14_real",
+    linkedCuentosId: "cuento12",
     chapterNumber: "14",
     title: "ALZHEIMER — LA DISOLUCIÓN DEL HORIZONTE DESDE DENTRO",
     section: "TERCERA PARTE: LOS LÍMITES DEL HORIZONTE",
@@ -157,6 +158,7 @@ Ese es el límite último del modelo: no la pregunta por qué hay conciencia, si
   },
   {
     id: "cap15_real",
+    linkedCuentosId: "cuento13",
     chapterNumber: "15",
     title: "PARKINSON, TRAUMA Y OTRAS GEOMETRÍAS ROTAS",
     content: `La adicción es un secuestro. Alguien —la sustancia, el comportamiento compulsivo— toma el control del horizonte y lo desvía hacia un attractor que no eligió el sujeto. El paciente adicto *sabe* que se está destruyendo, pero su sistema de recompensa ha sido secuestrado por una señal más fuerte que la supervivencia misma. Es como si un intruso irrumpiera en la sala de control y apagara todos los monitores excepto uno.
@@ -331,6 +333,7 @@ Y el sufrimiento de muchas de estas condiciones proviene no de la topología en 
   },
   {
     id: "cap16_real",
+    linkedCuentosId: "cuento14",
     chapterNumber: "16",
     title: "EL HORIZONTE HERIDO",
     content: `Hasta aquí hemos hablado de horizontes individuales: cómo nacen, cómo se entrelazan, cómo se rompen. Pero falta una pregunta que, una vez planteada, no se deja aplazar.
@@ -506,6 +509,7 @@ Estas preguntas no tienen respuestas fáciles. El modelo del horizonte no las re
   },
   {
     id: "cap17_real",
+    linkedCuentosId: "cuento15",
     chapterNumber: "17",
     title: "LAS MASCOTAS Y EL HORIZONTE",
     content: `Hasta ahora hemos hablado del entrelazamiento como algo que ocurre entre dos personas. Pero la arquitectura del horizonte no se detiene en la frontera de nuestra especie.

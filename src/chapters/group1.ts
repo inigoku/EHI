@@ -12,11 +12,14 @@ export interface Chapter {
   section?: string;
   content: string; // Keep text as a string to preserve structure and formatting
   illustration?: Illustration;
+  linkedChapterId?: string;
+  linkedCuentosId?: string;
 }
 
 export const group1: Chapter[] = [
   {
     id: "cap0",
+    linkedCuentosId: "cuento0",
     chapterNumber: "0",
     title: "EL EXPERIMENTO EXPLICADO A MI MADRE",
     subtitle: "(O: Cómo leer este libro sin haber estudiado física)",
@@ -120,6 +123,7 @@ Todo es provisional. Todo es juego. Pero hay juegos que, por el mero hecho de ju
   },
   {
     id: "tarel",
+    linkedCuentosId: "cuento1",
     title: "LA COSTUMBRE DEL AGUA",
     subtitle: "(Cuento de Tarel)",
     content: `El agua empezó a retirarse sin aviso.

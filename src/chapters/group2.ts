@@ -208,6 +208,7 @@ Esto es, incluso dentro de la física teórica, altamente especulativo. Extender
   },
   {
     id: "cap3",
+    linkedCuentosId: "cuento2",
     chapterNumber: "3",
     title: "LA COINCIDENCIA QUE NO ES CASUAL",
     content: `Hay dos teorías que no deberían tener nada que ver entre sí.
@@ -525,6 +526,7 @@ And tú —esta conciencia particular que lee estas palabras en este instante—
   },
   {
     id: "cap5",
+    linkedCuentosId: "cuento3",
     chapterNumber: "5",
     title: "EL NACIMIENTO COMO EMERGENCIA",
     content: `Hay un momento en la formación de una burbuja de jabón que ocurre demasiado rápido para verlo. El film se estira, se curva, and en algún instante —no sabes exactamente cuándo— se cierra sobre sí mismo. Antes, hay una superficie abierta con dos lados que se comunican. Después, hay una burbuja: una frontera cerrada, un adentro que ya no puede comunicarse con el afuera sin destruirse. El momento del cierre no tiene señal. La burbuja no anuncia su propia formación. Simplemente ocurre.
