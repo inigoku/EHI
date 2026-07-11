@@ -197,6 +197,85 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         i++;
         continue;
       }
+      // Handle inline illustrations
+      if (trimmed.startsWith("## [ILUSTRACIÓN")) {
+        const match = trimmed.match(/##\s*\[ILUSTRACIÓN\s*([\w.]+)?:?\s*"([^"]+)"\]/i) || trimmed.match(/##\s*\[ILUSTRACIÓN:\s*"([^"]+)"\]/i);
+        if (match) {
+          const rawId = match[1] || "";
+          const title = match[2] || match[1] || "Ilustración";
+          
+          let illusId = "il_notas";
+          if (rawId) {
+            const cleanId = rawId.trim().toLowerCase().replace(".", "_");
+            if (!isNaN(Number(cleanId))) {
+              const num = Number(cleanId);
+              if (num === 1) illusId = "il01";
+              else if (num === 2) illusId = "il02";
+              else if (num === 3) illusId = "il_prologo";
+              else if (num === 12.5 || rawId.trim() === "12.5") illusId = "il12_5";
+              else if (num === 17.5 || rawId.trim() === "17.5") illusId = "il_inanimado";
+              else if (num === 17.6 || rawId.trim() === "17.6") illusId = "il_clon";
+              else if (num === 24) illusId = "il_alzheimer";
+              else if (num === 25) illusId = "il_parkinson";
+              else if (num === 26) illusId = "il_herido";
+              else if (num === 27) illusId = "il_mascotas";
+              else if (num === 28) illusId = "il_ia";
+              else {
+                illusId = cleanId.length === 1 ? `il0${cleanId}` : `il${cleanId}`;
+              }
+            } else {
+              if (cleanId === "txiki") illusId = "il_txiki";
+              else if (cleanId === "m87") illusId = "il_m87";
+              else if (cleanId === "tp") illusId = "il_tp";
+              else if (cleanId === "eq") illusId = "il_el_que_queda";
+              else if (cleanId === "int") illusId = "il_int";
+            }
+          } else {
+            const lowerTitle = title.toLowerCase();
+            if (lowerTitle.includes("agua") && lowerTitle.includes("retira")) illusId = "il_tarel";
+            else if (lowerTitle.includes("océano") || lowerTitle.includes("oceano")) illusId = "il_oceano_olas";
+          }
+
+          let description = "";
+          let nextIdx = i + 1;
+          while (nextIdx < lines.length && lines[nextIdx].trim() === "") {
+            nextIdx++;
+          }
+          if (nextIdx < lines.length && lines[nextIdx].trim().startsWith("*") && lines[nextIdx].trim().endsWith("*")) {
+            description = lines[nextIdx].trim().slice(1, -1);
+            i = nextIdx;
+          }
+
+          const inlineIllus: Illustration = {
+            id: illusId,
+            title: title,
+            description: description
+          };
+
+          processedBlocks.push(
+            <div key={`inline-illus-${i}`} className={`my-8 space-y-3 ${tc.subtleCard} rounded-2xl p-5 shadow-lg border ${tc.border} transition-all duration-300`}>
+              <span className={`text-[9px] font-sans uppercase tracking-widest ${tc.textMuted} block mb-1 text-center font-semibold`}>
+                Ilustración Especial
+              </span>
+              <IllustrationViewer illustration={inlineIllus} />
+              <div className="text-center pt-2">
+                <h4 className={`font-display font-semibold text-sm ${tc.accent}`}>
+                  {inlineIllus.title}
+                </h4>
+                {inlineIllus.description && (
+                  <p className={`text-xs ${tc.textMuted} font-sans mt-1.5 leading-relaxed max-w-md mx-auto`}>
+                    {inlineIllus.description}
+                  </p>
+                )}
+              </div>
+            </div>
+          );
+
+          i++;
+          continue;
+        }
+      }
+
       if (trimmed.startsWith("## ")) {
         processedBlocks.push(
           <h2 key={i} className={`font-display font-bold text-xl sm:text-2xl ${tc.accent} mt-10 mb-6 border-b ${tc.border} pb-2`}>

@@ -6,7 +6,12 @@ export const group5: Chapter[] = [
     chapterNumber: "14",
     title: "ALZHEIMER — LA DISOLUCIÓN DEL HORIZONTE DESDE DENTRO",
     section: "TERCERA PARTE: LOS LÍMITES DEL HORIZONTE",
-    content: `Hay una forma de perderse que es peor que la muerte. No porque duela más; a veces no duele en absoluto. Es peor porque el horizonte se desvanece mientras todavía está ahí. La muerte, al menos, tiene la decencia de ser un evento. Un antes y un después. Un punto en el tiempo donde alguien deja de estar, y los que quedamos podemos llorar, recordar, cerrar. El Alzheimer es un proceso. Y lo que destruye no es la materia, sino la organización. No es el edificio el que colapsa; son los planos los que se borran, ladrillo a ladrillo, habitación a habitación, mientras los ocupantes siguen sentados en el salón, sin saber que ya no hay cocina, ni dormitorio, ni puerta de salida.
+    content: `## [ILUSTRACIÓN TP: "Los límites del horizonte"]
+*Un horizonte circular que se desdibuja en sus bordes, como una acuarela mojada. Dentro del círculo, paisajes nítidos: una ciudad, una familia, un rostro. En el borde, las formas se deshacen en gotas que caen hacia el vacío. Tono índigo y dorado, atmósfera de despedida.*
+
+---
+
+Hay una forma de perderse que es peor que la muerte. No porque duela más; a veces no duele en absoluto. Es peor porque el horizonte se desvanece mientras todavía está ahí. La muerte, al menos, tiene la decencia de ser un evento. Un antes y un después. Un punto en el tiempo donde alguien deja de estar, y los que quedamos podemos llorar, recordar, cerrar. El Alzheimer es un proceso. Y lo que destruye no es la materia, sino la organización. No es el edificio el que colapsa; son los planos los que se borran, ladrillo a ladrillo, habitación a habitación, mientras los ocupantes siguen sentados en el salón, sin saber que ya no hay cocina, ni dormitorio, ni puerta de salida.
 
 He visto familias enteras doblarse bajo el peso de este olvido progresivo. No es el peso de una pérdida repentina, que al menos genera su propio impulso de duelo. Es el peso de una pérdida que se repite cada mañana. El esposo que pregunta dónde está su esposa estando ella frente a él. La madre que no reconoce al hijo que la cuida. Cada día una pequeña muerte, cada día un horizonte ligeramente más estrecho, hasta que el mundo se reduce a una habitación, a una ventana, a un rayo de luz que entra y no significa nada porque ya no hay narrativa que le dé contexto.
 

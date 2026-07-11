@@ -395,7 +395,12 @@ Quizás esa es la respuesta.
     chapterNumber: "7",
     title: "EL TIEMPO DEL VÍNCULO",
     section: "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO",
-    content: `Hay una experiencia que casi todo el mundo ha tenido y muy pocos han sabido articular. Ocurre en conversaciones que no quieres que terminen. En tardes con alguien que llevas años sin ver. En el momento en que miras el reloj y han pasado tres horas sin que ninguna de las dos personas haya consultado el teléfono. El tiempo no ha desaparecido —ha cambiado de densidad. Ha ocurrido más por unidad de hora que lo que suele ocurrir.
+    content: `## [ILUSTRACIÓN 10: "El horizonte en vínculo"]
+*Dos burbujas que se tocan. En el punto de contacto, la piel se vuelve transparente. Dentro de cada burbuja, paisajes distintos que se superponen en la zona de contacto. Partículas de luz viajando entre ellas sin atravesar el espacio.*
+
+---
+
+Hay una experiencia que casi todo el mundo ha tenido y muy pocos han sabido articular. Ocurre en conversaciones que no quieres que terminen. En tardes con alguien que llevas años sin ver. En el momento en que miras el reloj y han pasado tres horas sin que ninguna de las dos personas haya consultado el teléfono. El tiempo no ha desaparecido —ha cambiado de densidad. Ha ocurrido más por unidad de hora que lo que suele ocurrir.
 
 La experiencia contraria también existe: una reunión que se extiende sin propósito. Una espera sin información. El tiempo no se acelera —se espesa. Cada minuto tiene el peso de diez.
 

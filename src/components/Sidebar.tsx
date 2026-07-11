@@ -3,6 +3,8 @@ import { Chapter } from "../chapters";
 import { Search, Book, PenTool, CheckCircle, Flame, Star, Menu, X, ArrowUpRight } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { ReadingTheme } from "./ReadingSettings";
+// @ts-ignore
+import portadaImg from "../assets/images/portada.png";
 
 interface SidebarProps {
   chapters: Chapter[];
@@ -173,16 +175,23 @@ export const Sidebar: React.FC<SidebarProps> = ({
         }`}
       >
         {/* Book Header & Title (Desktop Only) */}
-        <div className={`hidden lg:flex flex-col p-6 border-b ${sc.border} space-y-1`}>
-          <div className="flex items-center gap-2">
-            <Book className={`w-5 h-5 ${sc.icon}`} />
-            <h1 className={`font-display font-bold text-base tracking-wide ${sc.text} uppercase`}>
-              El Horizonte Interior
-            </h1>
+        <div className={`hidden lg:flex flex-col p-6 border-b ${sc.border} space-y-3`}>
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-16 rounded-md overflow-hidden border border-amber-500/20 shadow-md flex-shrink-0 bg-slate-900">
+              <img src={portadaImg} alt="Portada" className="w-full h-full object-cover" />
+            </div>
+            <div className="flex flex-col justify-center">
+              <div className="flex items-center gap-1.5">
+                <Book className={`w-3.5 h-3.5 ${sc.icon}`} />
+                <h1 className={`font-display font-bold text-sm tracking-wide ${sc.text} uppercase`}>
+                  El Horizonte Interior
+                </h1>
+              </div>
+              <p className={`text-[9px] font-mono ${sc.textMuted} uppercase tracking-widest mt-0.5`}>
+                Por Íñigo Barrera Barceló
+              </p>
+            </div>
           </div>
-          <p className={`text-[10px] font-mono ${sc.textMuted} uppercase tracking-widest`}>
-            Por Íñigo Barrera Barceló
-          </p>
         </div>
 
         {/* Progress Card */}

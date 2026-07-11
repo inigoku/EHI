@@ -271,7 +271,12 @@ Click.`,
     chapterNumber: "19",
     title: "LO QUE LA HIPÓTESIS NO PUEDE DECIR",
     section: "CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO",
-    content: `Todo experimento de pensamiento encuentra eventualmente su límite. No porque la imaginación se agote —sino porque la pregunta que se hace exige herramientas que el experimento no tiene.
+    content: `## [ILUSTRACIÓN 18: "El límite del experimento"]
+*Mapa antiguo desplegado. Territorio dibujado con precisión en el centro. En los bordes, el territorio se disuelve en papel en blanco. Un compás abierto al máximo. Nota a mano: "El mapa no es el territorio."*
+
+---
+
+Todo experimento de pensamiento encuentra eventualmente su límite. No porque la imaginación se agote —sino porque la pregunta que se hace exige herramientas que el experimento no tiene.
 
 Hay una diferencia entre no saber algo todavía y saber que algo no puede ser sabido desde donde estamos parados. El primer caso es una invitación: ábrete camino, inventa instrumentos nuevos, espera. El segundo caso es una pared de cristal: la puedes ver, puedes describirla, puedes sentir su frío contra la frente, pero atravesarla requeriría dejar de ser quien eres. Requeriría un punto de vista que el universo, en su arquitectura actual, no parece ofrecer a criaturas como nosotros.
 
@@ -284,6 +289,13 @@ La honestidad epistemológica —saber qué no sabemos— es el último cuidado 
 ---
 
 ## El mapa y el territorio
+
+---
+
+## [ILUSTRACIÓN 19: "El mapa y el territorio"]
+*Cartógrafo dibujando desde DENTRO del mapa. Su mano, pluma, mesa están en el territorio mismo. No hay posición externa. En el borde, el dibujo se disuelve. Brújula girando sin detenerse.*
+
+---
 
 ### Primero: la escala — o por qué esto es un mapa, no un motor
 

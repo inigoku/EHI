@@ -136,7 +136,7 @@ Yo era archivista. O eso decía mi nombramiento. En realidad miraba despacio lo 
 
 Anoté la primera franja de barro sin urgencia, como quien corrige un mapa antiguo sin saber todavía qué ciudad quedará al otro lado de la corrección.
 
-—Antes no estaba —dijo Kema, señalando el borde oscuro bajo su casa—. El agua lo cubría.
+—Antes no estaba —dijo Kema, señalando el borde oscuro bajo su casa—. El agua lo sabe.
 —¿Qué sabe?
 —Cuándo soltar... y cuándo quedarse.
 
@@ -247,6 +247,11 @@ El pulpo, con 500 millones de neuronas distribuidas en los tentáculos, desafía
 El perro —Txiki— comparte con los humanos los sistemas neurológicos básicos de la experiencia emocional: amígdala, hipocampo, sistema límbico completo. Los estudios de neuroimagen muestran que el cerebro de un perro responde al olor de su humano con la misma activación del núcleo caudado que los humanos experimentan con personas queridas. No es parecido: es el mismo circuito, la misma química, la misma arquitectura. La Declaración de Cambridge sobre la Conciencia (2012), firmada por neurocientíficos prominentes, afirma que los mamíferos no humanos, las aves y muchos otros animales poseen los sustratos neurológicos que generan estados conscientes. No que se comporten como si fueran conscientes. Que *son* conscientes.
 
 La pregunta ya no es si. Es cuánta, de qué tipo, y qué implica.
+
+---
+
+## [ILUSTRACIÓN TXIKI: "Txiki"]
+*Perro mestizo de pelo corto color canela con mancha blanca en el pecho, abrazado por un niño. Ambos llevan medallas colgadas del cuello. La mirada del perro no es la de una máquina: es la de alguien que está presente.*
 
 ---
 

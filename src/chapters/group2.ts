@@ -81,6 +81,11 @@ El 10 de abril de 2019, el Event Horizon Telescope publicó la primera imagen di
 
 ---
 
+## [ILUSTRACIÓN M87: "M87*, el primer agujero negro fotografiado"]
+*Primera imagen directa del horizonte de sucesos de un agujero negro, captada por el Event Horizon Telescope en 2019. El anillo brillante es gas caliente orbitando el horizonte; la sombra oscura central es el propio horizonte. La imagen confirma las predicciones de la relatividad general con una precisión sin precedentes. Crédito: EHT Collaboration.*
+
+---
+
 ### Los agujeros negros cantan
 
 En 2015, el observatorio LIGO detectó algo que Einstein había predicho cien años antes: ondas gravitacionales. El espacio-tiempo no es un escenario rígido donde ocurren las cosas: es un tejido elástico que se estira y comprime. Cuando dos agujeros negros orbitan entre sí, distorsionan ese tejido, emitiendo ondas que viajan a la velocidad de la luz. Cuando los agujeros se fusionan, la onda es tan intensa que puede detectarse desde miles de millones de años luz.
@@ -390,6 +395,11 @@ El efecto Casimir demuestra que el vacío cuántico ejerce fuerza real. Hendrik 
 > **En la vida diaria es como:** el silencio antes de la música: no es ausencia, es posibilidad llena que ejerce presión real sobre lo que va a ocurrir.
 
 Si la conciencia tiene la estructura de un horizonte de sucesos, ¿de qué campo emerge? La respuesta que ofrece la física es la misma que da sobre cualquier horizonte real: emerge del vacío cuántico y retorna a él. No de la nada, sino de la plenitud sin forma. No del cero, sino del campo donde todo es posible y nada está decidido.
+
+---
+
+## [ILUSTRACIÓN: "El océano y las olas"]
+*Océano oscuro, vasto. Una ola se levanta, toma forma, viaja, rompe. El agua que era ola retorna al océano. Otra ola se levanta. No es la misma ola, pero es el mismo océano. Las olas no viajan: el movimiento viaja a través del agua. El agua permanece.*
 
 ---
 
