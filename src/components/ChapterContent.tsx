@@ -996,6 +996,11 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Main Text Content */}
           <div className={`lg:col-span-8 p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
+            {chapter.illustration && (
+              <div className="flex justify-center mb-8 select-none">
+                <IllustrationViewer illustration={chapter.illustration} />
+              </div>
+            )}
             <motion.div
               key={`content-${chapter.id}`}
               initial={{ opacity: 0 }}
@@ -1007,13 +1012,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             </motion.div>
           </div>
 
-          {/* Right Panel: Illustration & Notes */}
+          {/* Right Panel: Notes */}
           <div className="lg:col-span-4 space-y-6">
-            {chapter.illustration && (
-              <div className="flex flex-col items-center select-none py-2">
-                <IllustrationViewer illustration={chapter.illustration} />
-              </div>
-            )}
 
             {/* Reflection Journal Bitácora */}
             <div className={`${tc.subtleCard} rounded-2xl p-5 shadow-lg space-y-4`}>
