@@ -345,7 +345,6 @@ Pero hay más. Tronick encontró que no es la ausencia de señal la que daña: e
 La ciencia moderna ha creado, sin buscarlo, cuatro experimentos naturales que separan estas capas. No para jerarquizar vínculos, sino para entender qué hace cada una.
 
 | Situación | ¿Qué aporta? | Qué significa para el horizonte |
-|-----------|-------------|--------------------------------|
 | **Fecundación in vitro** | Las tres capas, con una pausa de 3-5 días en medio de cultivo. | El horizonte emerge de un reservorio que incluye un acto de intención parental explícita. |
 | **Donación de óvulos** | La plantilla de una mujer, el útero y la crianza de otra. | La gestante calibra qué genes se expresan. El parecido que la gente reconoce entre gestante y bebé es, a menudo, resonancia rítmica, no genética. |
 | **Vientre de alquiler** | El útero de una mujer, la crianza de otra. | El horizonte se condensa con inscripciones prosódicas y hormonales de la gestante. La crianza posterior opera sobre ese reservorio ya configurado. |

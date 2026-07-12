@@ -140,8 +140,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         const rows = tableLines.filter(l => !l.match(/^\|[\s:-|]+\|$/));
 
         if (rows.length > 0) {
-          // Detect if we have a header separator line (e.g. |---|) as the second element
-          const hasHeader = tableLines.length > 1 && tableLines[1].match(/^\|[\s:-|]+\|$/);
+          // Always treat the first row as a header row if there are multiple rows
+          const hasHeader = rows.length > 1;
           let headerRow: string[] = [];
           let bodyRows: string[][] = [];
 
@@ -996,7 +996,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Main Text Content */}
           <div className={`lg:col-span-8 p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
-            {chapter.illustration && (
+            {chapter.illustration && !chapter.content.includes("[ILUSTRACIÓN") && (
               <div className="flex justify-center mb-8 select-none">
                 <IllustrationViewer illustration={chapter.illustration} />
               </div>

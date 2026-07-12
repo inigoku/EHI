@@ -492,7 +492,6 @@ La encapsulación no es una propiedad exclusiva del software, ni la evaporación
 La siguiente tabla actúa como la piedra de Rosetta de este libro, traduciendo los conceptos centrales del horizonte a sus equivalentes exactos en tres dominios fundamentales:
 
 | Dimensión de Análisis | Filosofía del Horizonte | Ingeniería de Software | Física de Agujeros Negros | Filosofías Orientales |
-| :--- | :--- | :--- | :--- | :--- |
 | **El Origen / El Vacío** | El Reservorio (potencial puro de información desestructurada). | El *Heap* (memoria dinámica global sin asignar, pool común). | Vacío cuántico / Campo subyacente y fluctuaciones. | *Hun Dun* (caos primitivo, Taoísmo) / *Shunyata* (Vacío, Budismo) / *Brahman nirguna* (Hinduismo). |
 | **Nacimiento / Identidad** | Condensación (establecimiento de la frontera circular del yo). | Instanciación y Encapsulamiento (creación del objeto, variables \`private\`). | Colapso gravitatorio / Formación de horizonte de sucesos (Schwarzschild). | Los 7 orificios en *Hun Dun* (Taoísmo) / *Maya* / *Brahman saguna* (Hinduismo). |
 | **Experiencia Subjetiva** | Estado privado (perspectiva de primera persona accesible desde dentro). | Estado interno (\`private fields\` ocultos tras la interfaz). | Región interior del horizonte (inaccesible para observador externo). | *Atman* (el sí mismo, Hinduismo) / Haz de percepciones (Hume/Budismo). |
