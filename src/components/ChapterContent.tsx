@@ -104,6 +104,13 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     { key: "Transición de fase", label: "Transición de fase" },
     { key: "Soft hair / huella", label: "Soft hair / huella" },
     { key: "soft hair", label: "soft hair" },
+    { key: "huella", label: "huella" },
+    { key: "scrambling cuántico", label: "scrambling cuántico" },
+    { key: "vacío cuántico", label: "vacío cuántico" },
+    { key: "información integrada", label: "información integrada" },
+    { key: "horizonte de sucesos", label: "horizonte de sucesos" },
+    { key: "radiación de Hawking", label: "radiación de Hawking" },
+    { key: "ER=EPR", label: "ER=EPR" },
   ];
 
   const highlightTerms = (text: string) => {
@@ -502,7 +509,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           <button
             key={match.index}
             onClick={() => onTermClick(matchedTerm)}
-            className={`px-1.5 py-0.5 rounded-md ${tc.highlight} font-medium transition-all text-xs sm:text-sm inline-flex items-center gap-0.5 cursor-pointer`}
+            className={`inline cursor-pointer transition-all duration-150 ${tc.termLink}`}
+            style={{ background: "none", border: "none", padding: 0, margin: 0, font: "inherit", lineHeight: "inherit" }}
           >
             {matchedTerm}
           </button>
@@ -540,6 +548,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           inputBg: "bg-[#1A1A1A]/5 border border-[#1A1A1A]/10 text-[#1A1A1A]",
           inputText: "text-[#1A1A1A]",
           highlight: "bg-[#1A1A1A]/5 border-[#1A1A1A]/15 text-[#1A1A1A] hover:bg-[#1A1A1A]/10",
+          termLink: "text-[#1A1A1A] underline decoration-dotted decoration-[#1A1A1A]/50 underline-offset-[3px] hover:decoration-[#1A1A1A] hover:text-[#1A1A1A]",
           blockquote: "border-l-2 border-[#1A1A1A]/40 pl-4 py-1 italic text-[#1A1A1A]/80",
         };
       case "sepia":
@@ -561,6 +570,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           inputBg: "bg-[#2C1E11]/5 border-amber-850/10 text-[#2C1E11]",
           inputText: "text-[#2C1E11]",
           highlight: "bg-amber-800/5 border border-amber-800/15 text-amber-800 hover:bg-amber-800/10",
+          termLink: "text-amber-800 underline decoration-dotted decoration-amber-800/50 underline-offset-[3px] hover:decoration-amber-800 hover:text-amber-900",
           blockquote: "border-l-2 border-amber-800/40 pl-4 py-1 italic text-amber-900/80",
         };
       case "cosmic":
@@ -583,6 +593,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           inputBg: "bg-slate-950/60 border border-slate-800 text-slate-300",
           inputText: "text-slate-300",
           highlight: "bg-amber-500/5 border border-amber-500/15 text-amber-400 hover:bg-amber-500/10",
+          termLink: "text-amber-400 underline decoration-dotted decoration-amber-500/50 underline-offset-[3px] hover:decoration-amber-400 hover:text-amber-300",
           blockquote: "border-l-2 border-amber-500 pl-4 py-1 italic text-slate-400",
         };
     }

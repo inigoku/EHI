@@ -129,6 +129,7 @@ Todo es provisional. Todo es juego. Pero hay juegos que, por el mero hecho de ju
   {
     id: "tarel",
     linkedCuentosId: "cuento1",
+    section: "PRIMERA PARTE: EL CICLO DEL HORIZONTE",
     title: "LA COSTUMBRE DEL AGUA",
     subtitle: "(Cuento de Tarel)",
     content: `El agua empezó a retirarse sin aviso.
@@ -212,6 +213,7 @@ Nadie supo decir si había dejado algo atrás.
   {
     id: "cap1",
     chapterNumber: "1",
+    section: "PRIMERA PARTE: EL CICLO DEL HORIZONTE",
     title: "LA TRAMPA DEL INTERRUPTOR",
     content: `Txiki tenía una manera particular de mirar. No la mirada errática del animal que escanea amenazas. No la mirada vacía del animal que procesa estímulos sin que haya nadie detrás. Era algo más quieto: una atención sostenida, dirigida, que reconocía. Que se quedaba. Que *estaba*.
 
