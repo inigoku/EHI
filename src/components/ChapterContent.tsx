@@ -308,21 +308,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           };
 
           processedBlocks.push(
-            <div key={`inline-illus-${i}`} className={`my-8 space-y-3 ${tc.subtleCard} rounded-2xl p-5 shadow-lg border ${tc.border} transition-all duration-300`}>
-              <span className={`text-[9px] font-sans uppercase tracking-widest ${tc.textMuted} block mb-1 text-center font-semibold`}>
-                Ilustración Especial
-              </span>
+            <div key={`inline-illus-${i}`} className="my-10 flex justify-center select-none">
               <IllustrationViewer illustration={inlineIllus} />
-              <div className="text-center pt-2">
-                <h4 className={`font-display font-semibold text-sm ${tc.accent}`}>
-                  {inlineIllus.title}
-                </h4>
-                {inlineIllus.description && (
-                  <p className={`text-xs ${tc.textMuted} font-sans mt-1.5 leading-relaxed max-w-md mx-auto`}>
-                    {inlineIllus.description}
-                  </p>
-                )}
-              </div>
             </div>
           );
 
@@ -917,21 +904,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         <div className="max-w-3xl mx-auto space-y-8">
           {/* Cuentos mode: Illustration is at the beginning, centered and large */}
           {chapter.illustration && (
-            <div className={`space-y-4 p-5 sm:p-6 rounded-2xl border ${tc.border} bg-slate-950/20 max-w-lg mx-auto shadow-lg`}>
-              <span className={`text-[9px] font-sans uppercase tracking-widest ${tc.textMuted} block mb-1 text-center font-semibold`}>
-                Ilustración del Relato
-              </span>
+            <div className="flex justify-center my-8 select-none">
               <IllustrationViewer illustration={chapter.illustration} />
-              <div className="text-center">
-                <h4 className={`font-display font-semibold text-base ${tc.accent}`}>
-                  {chapter.illustration.title}
-                </h4>
-                {chapter.illustration.description && (
-                  <p className={`text-xs ${tc.textMuted} font-sans mt-1.5 leading-relaxed max-w-md mx-auto`}>
-                    {chapter.illustration.description}
-                  </p>
-                )}
-              </div>
             </div>
           )}
 
@@ -1036,19 +1010,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           {/* Right Panel: Illustration & Notes */}
           <div className="lg:col-span-4 space-y-6">
             {chapter.illustration && (
-              <div className={`space-y-3 ${tc.subtleCard} rounded-2xl p-5 shadow-lg`}>
-                <span className={`text-[10px] font-sans uppercase tracking-widest ${tc.textMuted} block mb-1 text-center`}>
-                  Visualización de Concepto
-                </span>
+              <div className="flex flex-col items-center select-none py-2">
                 <IllustrationViewer illustration={chapter.illustration} />
-                <div className="text-center pt-2">
-                  <h4 className={`font-display font-semibold text-sm ${tc.accent}`}>
-                    {chapter.illustration.title}
-                  </h4>
-                  <p className={`text-xs ${tc.textMuted} font-sans mt-1 leading-relaxed`}>
-                    {chapter.illustration.description}
-                  </p>
-                </div>
               </div>
             )}
 
