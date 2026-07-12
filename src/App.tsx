@@ -1,5 +1,5 @@
 import React from "react";
-import { allChapters, Chapter, cuentosList, poemasList } from "./chapters";
+import { allChapters, Chapter, cuentosList, poemasList, reconstruccionChapters } from "./chapters";
 import { Sidebar } from "./components/Sidebar";
 import { ChapterContent } from "./components/ChapterContent";
 import { GlossaryDrawer } from "./components/GlossaryDrawer";
@@ -9,12 +9,12 @@ import { motion, AnimatePresence } from "motion/react";
 import { Book, Compass, EyeOff, Layout } from "lucide-react";
 
 export default function App() {
-  // State for reading mode: essay or cuentos or poemas
-  const [readingMode, setReadingMode] = React.useState<"essay" | "cuentos" | "poemas">(() => {
-    return (localStorage.getItem("reading_mode") as "essay" | "cuentos" | "poemas") || "essay";
+  // State for reading mode: essay or cuentos or poemas or reconstruccion
+  const [readingMode, setReadingMode] = React.useState<"essay" | "cuentos" | "poemas" | "reconstruccion">(() => {
+    return (localStorage.getItem("reading_mode") as "essay" | "cuentos" | "poemas" | "reconstruccion") || "essay";
   });
 
-  // State for active reading chapter/cuento/poema
+  // State for active reading chapter/cuento/poema/reconstruccion
   const [activeChapterId, setActiveChapterId] = React.useState<string>(() => {
     const mode = localStorage.getItem("reading_mode") || "essay";
     if (mode === "cuentos") {
@@ -22,6 +22,9 @@ export default function App() {
     }
     if (mode === "poemas") {
       return localStorage.getItem("last_read_poema") || "poema0";
+    }
+    if (mode === "reconstruccion") {
+      return localStorage.getItem("last_read_reconstruccion") || "recon1";
     }
     return localStorage.getItem("last_read_chapter") || "cap0";
   });
@@ -53,6 +56,8 @@ export default function App() {
       localStorage.setItem("last_read_cuento", activeChapterId);
     } else if (readingMode === "poemas") {
       localStorage.setItem("last_read_poema", activeChapterId);
+    } else if (readingMode === "reconstruccion") {
+      localStorage.setItem("last_read_reconstruccion", activeChapterId);
     } else {
       localStorage.setItem("last_read_chapter", activeChapterId);
     }
@@ -74,7 +79,8 @@ export default function App() {
   const currentChaptersList = React.useMemo(() => {
     if (readingMode === "essay") return allChapters;
     if (readingMode === "cuentos") return cuentosList;
-    return poemasList;
+    if (readingMode === "poemas") return poemasList;
+    return reconstruccionChapters;
   }, [readingMode]);
 
   // Find active chapter object
@@ -102,13 +108,14 @@ export default function App() {
     }
   };
 
-  // Switch between Ensayo, Cuentos and Poemas, trying to preserve position via links
-  const handleModeChange = (newMode: "essay" | "cuentos" | "poemas") => {
+  // Switch between Ensayo, Cuentos, Poemas and Reconstrucción, trying to preserve position via links
+  const handleModeChange = (newMode: "essay" | "cuentos" | "poemas" | "reconstruccion") => {
     if (newMode === readingMode) return;
     
     let targetId = "cap0";
     if (newMode === "cuentos") targetId = "cuento0";
     if (newMode === "poemas") targetId = "poema0";
+    if (newMode === "reconstruccion") targetId = "recon1";
     
     const activeItem = currentChaptersList.find(c => c.id === activeChapterId);
     if (activeItem) {
@@ -123,7 +130,7 @@ export default function App() {
     setActiveChapterId(targetId);
   };
 
-  const handleSwitchMode = (newMode: "essay" | "cuentos" | "poemas", targetId?: string) => {
+  const handleSwitchMode = (newMode: "essay" | "cuentos" | "poemas" | "reconstruccion", targetId?: string) => {
     setReadingMode(newMode);
     if (targetId) {
       setActiveChapterId(targetId);
@@ -189,7 +196,7 @@ export default function App() {
           >
             <div className="flex flex-col">
               <span className={`text-[10px] uppercase tracking-[0.2em] font-sans font-bold ${themeColors.textMuted}`}>
-                {readingMode === "essay" ? "Ensayo Interactivo" : readingMode === "cuentos" ? "Antología de Cuentos" : "Antología Poética"}
+                {readingMode === "essay" ? "Ensayo Interactivo" : readingMode === "cuentos" ? "Antología de Cuentos" : readingMode === "poemas" ? "Antología Poética" : "Reconstrucción"}
               </span>
               <span className="text-xl italic font-display leading-tight">
                 El Horizonte Interior
@@ -204,7 +211,7 @@ export default function App() {
                   <>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 26</strong></>
                 ) : readingMode === "cuentos" ? (
                   <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber || "Prólogo"} de 16</strong></>
-                ) : (
+                ) : readingMode === "poemas" ? (
                   <>Poema: <strong className={`font-semibold ${themeColors.text}`}>{
                     activeChapterId === "poema_glosario"
                       ? "Glosario"
@@ -212,6 +219,8 @@ export default function App() {
                       ? `Enlace ${activeChapterId.replace("poema_arq", "")} de 4`
                       : `Reconstrucción ${activeChapterId.replace("poema_recon", "")} de 6`
                   }</strong></>
+                ) : (
+                  <>Reconstrucción: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 6</strong></>
                 )}
               </span>
             </div>

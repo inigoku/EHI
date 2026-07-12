@@ -15,8 +15,8 @@ interface SidebarProps {
   isOpen: boolean;
   setIsOpen: (isOpen: boolean) => void;
   theme: ReadingTheme;
-  mode: "essay" | "cuentos" | "poemas";
-  onModeChange: (mode: "essay" | "cuentos" | "poemas") => void;
+  mode: "essay" | "cuentos" | "poemas" | "reconstruccion";
+  onModeChange: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({
@@ -227,10 +227,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <span className={`text-[10px] font-mono uppercase tracking-wider ${sc.textMuted}`}>
             Modo de Lectura
           </span>
-          <div className="flex bg-slate-950/40 p-0.5 rounded-lg border border-amber-500/10">
+          <div className="flex bg-slate-950/40 p-0.5 rounded-lg border border-amber-500/10 flex-wrap gap-0.5 max-w-[190px] justify-center">
             <button
               onClick={() => onModeChange("essay")}
-              className={`text-[9px] font-sans font-bold px-2 py-1 rounded-md transition-all cursor-pointer ${
+              className={`text-[9px] font-sans font-bold px-1.5 py-1 rounded-md transition-all cursor-pointer ${
                 mode === "essay"
                   ? "bg-amber-500/15 text-amber-500 border border-amber-500/15 shadow-sm"
                   : `${sc.textMuted} hover:${sc.text}`
@@ -240,7 +240,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </button>
             <button
               onClick={() => onModeChange("cuentos")}
-              className={`text-[9px] font-sans font-bold px-2 py-1 rounded-md transition-all cursor-pointer ${
+              className={`text-[9px] font-sans font-bold px-1.5 py-1 rounded-md transition-all cursor-pointer ${
                 mode === "cuentos"
                   ? "bg-amber-500/15 text-amber-500 border border-amber-500/15 shadow-sm"
                   : `${sc.textMuted} hover:${sc.text}`
@@ -250,13 +250,23 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </button>
             <button
               onClick={() => onModeChange("poemas")}
-              className={`text-[9px] font-sans font-bold px-2 py-1 rounded-md transition-all cursor-pointer ${
+              className={`text-[9px] font-sans font-bold px-1.5 py-1 rounded-md transition-all cursor-pointer ${
                 mode === "poemas"
                   ? "bg-amber-500/15 text-amber-500 border border-amber-500/15 shadow-sm"
                   : `${sc.textMuted} hover:${sc.text}`
               }`}
             >
               Poemas
+            </button>
+            <button
+              onClick={() => onModeChange("reconstruccion")}
+              className={`text-[9px] font-sans font-bold px-1.5 py-1 rounded-md transition-all cursor-pointer ${
+                mode === "reconstruccion"
+                  ? "bg-amber-500/15 text-amber-500 border border-amber-500/15 shadow-sm"
+                  : `${sc.textMuted} hover:${sc.text}`
+              }`}
+            >
+              Reconstrucción
             </button>
           </div>
         </div>

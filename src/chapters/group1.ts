@@ -14,6 +14,11 @@ export interface Chapter {
   illustration?: Illustration;
   linkedChapterId?: string;
   linkedCuentosId?: string;
+  // Extra fields for Reconstrucción tabbed content
+  narrativa?: string;
+  ensayo?: string;
+  poema?: string;
+  cierre?: string;
 }
 
 export const group1: Chapter[] = [

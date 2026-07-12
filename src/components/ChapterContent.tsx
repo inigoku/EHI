@@ -13,8 +13,8 @@ interface ChapterContentProps {
   onTermClick: (termName: string) => void;
   theme: "cosmic" | "paper" | "sepia";
   fontSize: "sm" | "base" | "lg" | "xl" | "2xl";
-  readingMode: "essay" | "cuentos" | "poemas";
-  onSwitchMode: (mode: "essay" | "cuentos" | "poemas", targetId?: string) => void;
+  readingMode: "essay" | "cuentos" | "poemas" | "reconstruccion";
+  onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion", targetId?: string) => void;
 }
 
 export const ChapterContent: React.FC<ChapterContentProps> = ({
@@ -32,6 +32,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const containerRef = React.useRef<HTMLDivElement>(null);
   const [reflection, setReflection] = React.useState<string>("");
   const [isSaved, setIsSaved] = React.useState<boolean>(false);
+  
+  // Tab state for Reconstrucción mode: narrativa, ensayo, or poema
+  const [reconstructTab, setReconstructTab] = React.useState<"narrativa" | "ensayo" | "poema">("narrativa");
 
   // Scroll to top on chapter change
   React.useEffect(() => {
@@ -42,6 +45,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     const saved = localStorage.getItem(`reflection_${chapter.id}`);
     setReflection(saved || "");
     setIsSaved(false);
+    
+    // Reset tab to default
+    setReconstructTab("narrativa");
   }, [chapter.id]);
 
   const saveReflection = () => {
@@ -600,13 +606,20 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             {chapter.section}
           </span>
         )}
+        {readingMode === "reconstruccion" && (
+          <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
+            RECONSTRUCCIÓN
+          </span>
+        )}
         <h1 className={`font-display font-semibold text-2xl sm:text-5xl ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-slate-100"} tracking-tight max-w-3xl mx-auto leading-tight`}>
           {readingMode === "essay" 
             ? (chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && `Capítulo ${chapter.chapterNumber}: `)
             : readingMode === "cuentos"
             ? (chapter.chapterNumber ? `Relato ${chapter.chapterNumber}: ` : "")
+            : readingMode === "reconstruccion"
+            ? `Parte ${chapter.chapterNumber.replace("R", "")}: `
             : ""}
-          {chapter.title}
+          {chapter.title.replace(/^(I|II|III|IV|V|VI)\.\s*/i, "")}
         </h1>
         {chapter.subtitle && (
           <p className={`font-serif text-sm sm:text-base ${tc.textMuted} italic max-w-2xl mx-auto`}>
@@ -638,7 +651,168 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       </motion.div>
 
       {/* Grid or Centered layout depending on readingMode */}
-      {readingMode === "poemas" ? (
+      {readingMode === "reconstruccion" ? (
+        <div className="max-w-4xl mx-auto space-y-6 select-text">
+          {/* Sub-tabs for Reconstrucción: Ensayo, Narrativa, Poema */}
+          <div className="flex justify-center border-b border-amber-500/10 pb-2 mb-6">
+            <div className="flex bg-slate-950/40 p-1 rounded-xl border border-amber-500/10">
+              <button
+                onClick={() => setReconstructTab("narrativa")}
+                className={`px-4 py-2 rounded-lg text-xs font-sans font-bold tracking-wider uppercase transition-all cursor-pointer ${
+                  reconstructTab === "narrativa"
+                    ? "bg-amber-500/20 text-amber-400 shadow-md border border-amber-500/20"
+                    : `${tc.textMuted} hover:text-amber-300`
+                }`}
+              >
+                Narrativa
+              </button>
+              <button
+                onClick={() => setReconstructTab("ensayo")}
+                className={`px-4 py-2 rounded-lg text-xs font-sans font-bold tracking-wider uppercase transition-all cursor-pointer ${
+                  reconstructTab === "ensayo"
+                    ? "bg-amber-500/20 text-amber-400 shadow-md border border-amber-500/20"
+                    : `${tc.textMuted} hover:text-amber-300`
+                }`}
+              >
+                Ensayo
+              </button>
+              <button
+                onClick={() => setReconstructTab("poema")}
+                className={`px-4 py-2 rounded-lg text-xs font-sans font-bold tracking-wider uppercase transition-all cursor-pointer ${
+                  reconstructTab === "poema"
+                    ? "bg-amber-500/20 text-amber-400 shadow-md border border-amber-500/20"
+                    : `${tc.textMuted} hover:text-amber-300`
+                }`}
+              >
+                Poema
+              </button>
+            </div>
+          </div>
+
+          {/* Tab Content Display */}
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={`${chapter.id}-${reconstructTab}`}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -10 }}
+              transition={{ duration: 0.3 }}
+              className="w-full"
+            >
+              {reconstructTab === "poema" ? (
+                /* Poema tab: Premium Full page background illustration layout inside card */
+                <div className={`w-full relative rounded-3xl overflow-hidden shadow-2xl border ${tc.border} ${tc.subtleCard} min-h-[50vh] flex flex-col justify-between`}>
+                  {/* Background Illustration Container */}
+                  {chapter.illustration && (
+                    <div className="absolute inset-0 z-0">
+                      <div className="w-full h-full opacity-[0.25] mix-blend-screen pointer-events-none select-none">
+                        <IllustrationViewer illustration={chapter.illustration} variant="background" />
+                      </div>
+                      <div className={`absolute inset-0 bg-gradient-to-t ${
+                        theme === "cosmic"
+                          ? "from-[#0D0E12] via-[#0D0E12]/92 to-[#0D0E12]/40"
+                          : theme === "sepia"
+                          ? "from-[#FAF6EE] via-[#FAF6EE]/92 to-[#FAF6EE]/40"
+                          : "from-[#F9F6F1] via-[#F9F6F1]/92 to-[#F9F6F1]/40"
+                      }`} />
+                    </div>
+                  )}
+
+                  {/* Poem Text Panel */}
+                  <div className="relative z-10 p-8 sm:p-16 flex-1 flex flex-col items-center justify-center text-center">
+                    <div
+                      className={`max-w-2xl mx-auto space-y-6 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-lg tracking-wide ${
+                        theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
+                      }`}
+                      style={{ whiteSpace: "pre-line" }}
+                    >
+                      {chapter.poema || ""}
+                    </div>
+
+                    {/* Cierre section inside Poem tab */}
+                    {chapter.cierre && (
+                      <div className={`mt-10 pt-8 border-t border-amber-500/10 max-w-xl mx-auto text-left leading-relaxed text-sm opacity-90 ${
+                        theme === "cosmic" ? "text-slate-300" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
+                      }`}>
+                        <span className="text-[10px] font-sans uppercase tracking-[0.2em] font-bold text-amber-500 block mb-3 text-center">Cierre</span>
+                        <div className="space-y-4">
+                          {chapter.cierre.split('\n\n').map((paragraph, pIdx) => (
+                            <p key={pIdx} className="indent-4 text-justify">{paragraph}</p>
+                          ))}
+                        </div>
+                      </div>
+                    )}
+                  </div>
+                </div>
+              ) : (
+                /* Narrativa or Ensayo tab: Regular reading text */
+                <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
+                  <div className="space-y-4 prose prose-invert max-w-none text-justify leading-relaxed text-base">
+                    {reconstructTab === "narrativa" ? (
+                      highlightTerms(chapter.narrativa || "")
+                    ) : (
+                      highlightTerms(chapter.ensayo || "")
+                    )}
+                  </div>
+                </div>
+              )}
+            </motion.div>
+          </AnimatePresence>
+
+          {/* Reflection Journal Bitácora (Centered under the story) */}
+          <div className="max-w-xl mx-auto pt-4">
+            <div className={`${tc.subtleCard} rounded-2xl p-5 shadow-lg space-y-4`}>
+              <div className={`flex items-center justify-between border-b ${tc.border} pb-2`}>
+                <div className="flex items-center gap-2">
+                  <PenTool className={`w-4 h-4 ${tc.accent}`} />
+                  <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
+                    Bitácora de Reflexión: {reconstructTab.toUpperCase()}
+                  </h4>
+                </div>
+                {reflection && (
+                  <button
+                    onClick={clearReflection}
+                    className={`text-[10px] ${tc.textMuted} hover:text-red-400 transition-colors cursor-pointer`}
+                  >
+                    Borrar
+                  </button>
+                )}
+              </div>
+
+              <textarea
+                value={reflection}
+                onChange={(e) => {
+                  setReflection(e.target.value);
+                  setIsSaved(false);
+                }}
+                placeholder={`¿Qué resonó en tu interior tras leer este capítulo (${reconstructTab})?...`}
+                className={`w-full h-28 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
+              />
+
+              <button
+                onClick={saveReflection}
+                className={`w-full flex items-center justify-center gap-2 py-2 px-4 rounded-xl text-xs font-semibold tracking-wide transition-all ${
+                  isSaved
+                    ? "bg-emerald-500/10 border border-emerald-500/50 text-emerald-500"
+                    : `${tc.accentBg} cursor-pointer`
+                }`}
+              >
+                {isSaved ? (
+                  <>
+                    <Check className="w-4 h-4" />
+                    ¡Guardado!
+                  </>
+                ) : (
+                  <>
+                    <Save className="w-4 h-4" />
+                    Guardar en Bitácora
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
+      ) : readingMode === "poemas" ? (
         <div className="max-w-4xl mx-auto space-y-8 select-text">
           {/* Poemas mode: Full page background illustration layout */}
           <div className={`w-full relative rounded-3xl overflow-hidden shadow-2xl border ${tc.border} ${tc.subtleCard} min-h-[60vh] flex flex-col justify-between`}>
@@ -930,6 +1104,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             ? `Parte ${chapter.chapterNumber || "Especial"} de 26`
             : readingMode === "cuentos"
             ? `Relato ${chapter.chapterNumber || "Prólogo"} de ${cuentosList.length - 1}`
+            : readingMode === "reconstruccion"
+            ? `Parte ${chapter.chapterNumber.replace("R", "")} de 6`
             : chapter.id === "poema_glosario"
             ? "Glosario"
             : chapter.id.startsWith("poema_arq")
