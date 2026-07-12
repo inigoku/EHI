@@ -3,6 +3,7 @@ import { Chapter } from "./group1";
 export const group4: Chapter[] = [
   {
     id: "cap9",
+    linkedCuentosId: "cuento5",
     chapterNumber: "9",
     title: "EL AMOR",
     content: `El entrelazamiento es automático e involuntario. Dos horizontes que han estado en contacto sostenido quedan acoplados independientemente de si quieren estarlo, independientemente de si el contacto fue amoroso u hostil. El agredido del cuaderno de agravios no eligió inscribir al otro en su arquitectura —ocurrió porque veinte años de anticipación adversarial construyeron ese modelo sin permiso.
@@ -141,6 +142,7 @@ El amor que no se practica —que no se nombra, que no se reorganiza, que no se 
   },
   {
     id: "cap10",
+    linkedCuentosId: "cuento6",
     chapterNumber: "10",
     title: "LA ADICCIÓN",
     content: `### La voluntad como función del horizonte
@@ -287,6 +289,7 @@ El papel del vínculo en la recuperación es crucial. La oxitocina —la molécu
   },
   {
     id: "cap11",
+    linkedCuentosId: "cuento7",
     chapterNumber: "11",
     title: "EL VÍNCULO MADRE-HIJO",
     content: `El capítulo 10 describió la oxitocina como la única vía de activación del sistema de recompensa que no destruye los receptores que necesita. Pero dejaba una pregunta sin responder: ¿dónde aprende el sistema, exactamente, qué intensidad de señal vincular es suficiente para registrarse como «estar en el sitio correcto»?
@@ -460,7 +463,7 @@ Esto da a la maternidad —y a la paternidad— una función que ningún otro v�
   },
   {
     id: "cap12",
-    linkedCuentosId: "cuento7",
+    linkedCuentosId: "cuento11",
     chapterNumber: "12",
     title: "LA EMPATÍA Y SU LÍMITE",
     content: `A menudo confundimos la empatía con una virtud moral o una disposición de ánimo deseable. Desde la perspectiva de este experimento, la empatía es un fenómeno físico y geométrico antes que ético: es la capacidad de un horizonte para modelar y replicar la frecuencia de otro en su propia arquitectura.

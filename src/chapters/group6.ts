@@ -3,7 +3,6 @@ import { Chapter } from "./group1";
 export const group6: Chapter[] = [
   {
     id: "cap18_real",
-    linkedCuentosId: "cuento6",
     chapterNumber: "18",
     title: "LA CONCIENCIA DE LA IA",
     section: "TERCERA PARTE: LOS LÍMITES DEL HORIZONTE",

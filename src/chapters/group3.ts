@@ -207,7 +207,6 @@ Cada noche practicamos la contracción sin disolvernos. Cruzamos el borde y volv
   },
   {
     id: "cap6",
-    linkedCuentosId: "cuento5",
     chapterNumber: "6",
     title: "LA MUERTE COMO RETORNO",
     content: `> *El agua de Tarel regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
@@ -394,6 +393,7 @@ Quizás esa es la respuesta.
   },
   {
     id: "cap7",
+    linkedCuentosId: "cuento3",
     chapterNumber: "7",
     title: "EL TIEMPO DEL VÍNCULO",
     section: "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO",
