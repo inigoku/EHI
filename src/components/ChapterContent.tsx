@@ -825,15 +825,21 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             {/* Background Illustration Container */}
             {chapter.illustration && (
               <div className="absolute inset-0 z-0">
-                <div className="w-full h-full opacity-[0.2] mix-blend-screen pointer-events-none select-none">
+                <div className={`w-full h-full pointer-events-none select-none transition-all duration-1000 ${
+                  theme === "cosmic"
+                    ? "opacity-[0.55] mix-blend-screen"
+                    : theme === "sepia"
+                    ? "opacity-[0.45] mix-blend-multiply"
+                    : "opacity-[0.45] mix-blend-multiply"
+                }`}>
                   <IllustrationViewer illustration={chapter.illustration} variant="background" />
                 </div>
-                <div className={`absolute inset-0 bg-gradient-to-t ${
+                <div className={`absolute inset-0 bg-gradient-to-t transition-all duration-1000 ${
                   theme === "cosmic"
-                    ? "from-[#0D0E12] via-[#0D0E12]/92 to-[#0D0E12]/40"
+                    ? "from-[#0D0E12]/95 via-[#0D0E12]/60 to-[#0D0E12]/15"
                     : theme === "sepia"
-                    ? "from-[#FAF6EE] via-[#FAF6EE]/92 to-[#FAF6EE]/40"
-                    : "from-[#F9F6F1] via-[#F9F6F1]/92 to-[#F9F6F1]/40"
+                    ? "from-[#FAF6EE]/95 via-[#FAF6EE]/60 to-[#FAF6EE]/15"
+                    : "from-[#F9F6F1]/95 via-[#F9F6F1]/60 to-[#F9F6F1]/15"
                 }`} />
               </div>
             )}
