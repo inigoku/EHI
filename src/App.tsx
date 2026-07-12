@@ -208,9 +208,25 @@ export default function App() {
               <span className="opacity-30">|</span>
               <span>
                 {readingMode === "essay" ? (
-                  <>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 26</strong></>
+                  activeChapter.chapterNumber ? (
+                    !isNaN(Number(activeChapter.chapterNumber)) ? (
+                      <>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 26</strong></>
+                    ) : (
+                      <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
+                    )
+                  ) : (
+                    <><strong className={`font-semibold ${themeColors.text}`}>Interludio</strong></>
+                  )
                 ) : readingMode === "cuentos" ? (
-                  <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber || "Prólogo"} de 16</strong></>
+                  activeChapter.chapterNumber ? (
+                    !isNaN(Number(activeChapter.chapterNumber)) ? (
+                      <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 16</strong></>
+                    ) : (
+                      <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
+                    )
+                  ) : (
+                    <>Relato: <strong className={`font-semibold ${themeColors.text}`}>Prólogo</strong></>
+                  )
                 ) : readingMode === "poemas" ? (
                   <>Poema: <strong className={`font-semibold ${themeColors.text}`}>{
                     activeChapterId === "poema_glosario"
@@ -220,7 +236,9 @@ export default function App() {
                       : `Reconstrucción ${activeChapterId.replace("poema_recon", "")} de 6`
                   }</strong></>
                 ) : (
-                  <>Reconstrucción: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 6</strong></>
+                  activeChapter.chapterNumber && (
+                    <>Reconstrucción: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber.replace("R", "")} de 6</strong></>
+                  )
                 )}
               </span>
             </div>

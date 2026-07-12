@@ -633,11 +633,11 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         )}
         <h1 className={`font-display font-semibold text-2xl sm:text-5xl ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-slate-100"} tracking-tight max-w-3xl mx-auto leading-tight`}>
           {readingMode === "essay" 
-            ? (chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && `Capítulo ${chapter.chapterNumber}: `)
+            ? (chapter.chapterNumber && chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && `Capítulo ${chapter.chapterNumber}: `)
             : readingMode === "cuentos"
             ? (chapter.chapterNumber ? `Relato ${chapter.chapterNumber}: ` : "")
             : readingMode === "reconstruccion"
-            ? `Parte ${chapter.chapterNumber.replace("R", "")}: `
+            ? (chapter.chapterNumber ? `Parte ${chapter.chapterNumber.replace("R", "")}: ` : "")
             : ""}
           {chapter.title.replace(/^(I|II|III|IV|V|VI)\.\s*/i, "")}
         </h1>

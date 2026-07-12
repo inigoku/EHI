@@ -335,7 +335,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       
                       <div className="flex-1 min-w-0">
                         <div className="font-display font-medium text-xs leading-normal">
-                          {item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && `${item.chapterNumber}. `}
+                          {item.chapterNumber && item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && `${item.chapterNumber}. `}
                           {item.title}
                         </div>
                         {isActive && (
