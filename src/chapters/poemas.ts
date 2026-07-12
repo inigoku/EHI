@@ -2,66 +2,102 @@ import { Chapter } from "./group1";
 
 export const poemasList: Chapter[] = [
   {
-    id: "poema0",
-    title: "LA ARQUITECTURA CON UN HUECO",
+    id: "poema_arq1",
+    title: "LA ARQUITECTURA CON UN HUECO — I",
     section: "POESÍA DE ENLACE",
-    content: `#### I.
-El jabón se estira en mis manos,
+    content: `El jabón se estira en mis manos,
 se curva.
 De repente, formo una esfera:
 un dentro y un fuera
 que antes no existían.
+
 El horizonte no es la línea que busco en el mapa.
 Es la frontera viva
 que siento en mi propia piel.
+
 Yo soy la cantidad de orquesta
 que no está en ningún músico.
+
 Yo soy el vacío que, al colapsar,
 crea algo parecido a una estrella.
+
 El agua se retira.
 Yo no arranco,
-yo me despido.
-
-#### I I.
-El remo tocó fondo
+yo me despido.`,
+    illustration: {
+      id: "il17",
+      title: "La arquitectura con un hueco",
+      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
+    }
+  },
+  {
+    id: "poema_arq2",
+    title: "LA ARQUITECTURA CON UN HUECO — II",
+    section: "POESÍA DE ENLACE",
+    content: `El remo tocó fondo
 donde antes había metro.
+
 No digo que el agua bajara.
 Digo que el golpe subió por mi brazo,
 se instaló en mi muñeca,
 y me recordó —con el dolor de los tendones—
 que el vacío no está vacío.
+
 Yo he visto al horizonte emerger de mi propio reservorio.
 Yo lo he visto retornar.
+
 Aprendí a no repetir para entender,
 sino a repetir para anclarme.
-Eso es todo.
-Y es suficiente.
 
-#### I I I.
-Me preguntaste por la lealtad de la materia
+Eso es todo.
+Y es suficiente.`,
+    illustration: {
+      id: "il17",
+      title: "La arquitectura con un hueco",
+      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
+    }
+  },
+  {
+    id: "poema_arq3",
+    title: "LA ARQUITECTURA CON UN HUECO — III",
+    section: "POESÍA DE ENLACE",
+    content: `Me preguntaste por la lealtad de la materia
 y yo, cobarde, te hablé de información irrecuperable.
+
 Perdóname.
 Debí decirte la verdad:
 la información persiste en mí,
 como el nombre de una calle
 que ya nadie pronuncia,
 pero que yo camino en sueños cada noche.
+
 Aprendí a esperar.
 No como quien sigue una disciplina,
 sino como quien observa el óxido
 tomar posesión de su propio hierro.
+
 Sin rabia.
 Pero con esta certeza que me pesa
 y me duele en el centro del pecho.
+
 He visto al horizonte contraerse.
 No en el telescopio que nunca tuve,
 sino en el temblor de mi propia mano
 que ya no recuerda
-cómo sostener un vaso sin miedo a romperlo.
-
-#### I V.
-Y el agua volvió a mi orilla
+cómo sostener un vaso sin miedo a romperlo.`,
+    illustration: {
+      id: "il17",
+      title: "La arquitectura con un hueco",
+      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
+    }
+  },
+  {
+    id: "poema_arq4",
+    title: "LA ARQUITECTURA CON UN HUECO — IV",
+    section: "POESÍA DE ENLACE",
+    content: `Y el agua volvió a mi orilla
 sin aviso.
+
 Y yo no supe
 —ni como archivista de mis propias grietas,
 ni como el niño que fui—
@@ -69,18 +105,29 @@ si la ciudad que perdí había regresado
 o si era otra ciudad,
 una más fría,
 con la misma orilla de siempre.
+
 El agua volvió de noche.
 Nadie supo si trajo algo.
 Nadie supo si dejó algo en mi casa.
+
 Pero al alba,
 miré mis manos
 abiertas.
+
 Y entendí.
 Tal vez,
-eso era la respuesta.
-
-#### GLOSARIO ÍNTIMO
-*Phi*
+eso era la respuesta.`,
+    illustration: {
+      id: "il17",
+      title: "La arquitectura con un hueco",
+      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
+    }
+  },
+  {
+    id: "poema_glosario",
+    title: "LA ARQUITECTURA CON UN HUECO — GLOSARIO ÍNTIMO",
+    section: "POESÍA DE ENLACE",
+    content: `*Phi*
 La parte de mí que todavía le pertenece a quien se fue.
 
 *Reservorio*
@@ -91,13 +138,13 @@ Esta casa con un hueco, que aprendí a habitar para no morir de frío.`,
     illustration: {
       id: "il17",
       title: "La arquitectura con un hueco",
-      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío, muebles dispuestos como si alguien estuviera sentado en el centro. El vacío no es oscuro, sino que brilla."
+      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
     }
   },
   {
-    id: "poema1",
-    title: "I. LA ARQUITECTURA QUE EMERGE",
-    section: "RECONSTRUCCIÓN",
+    id: "poema_recon1",
+    title: "RECONSTRUCCIÓN — I: LA ARQUITECTURA QUE EMERGE",
+    section: "RECONSTRUCCIÓN (POEMAS)",
     content: `La materia recuerda  
 incluso cuando parece blanda.  
  
@@ -176,7 +223,7 @@ para que algo pueda volver.
  
 Como la luz  
 que se detiene  
-in una concavidad mínima.  
+en una concavidad mínima.  
  
 Como la ciudad perdida  
 que insiste  
@@ -190,18 +237,14 @@ qué recuerda.
  
 El hueco respira.  
  
-Y yo respiro con él.`,
-    illustration: {
-      id: "il17",
-      title: "La arquitectura que emerge",
-      description: "Una estructura arquitectónica abstracta flotando sobre el agua, con una luz brillante que emerge del centro y líneas de fuerza geométricas que la conectan."
-    }
+Y yo respiro con él.`
   },
   {
-    id: "poema2",
-    title: "II. LA FORMA QUE VUELVE",
+    id: "poema_recon2",
+    title: "RECONSTRUCCIÓN — II: LA FORMA QUE VUELVE",
+    section: "RECONSTRUCCIÓN (POEMAS)",
     content: `Mi madre apareció  
-in la esquina.  
+en la esquina.  
  
 No estaba.  
  
@@ -250,16 +293,12 @@ que no recuerda nada.
  
 La forma volvió.  
  
-Y yo volví con ella.`,
-    illustration: {
-      id: "il11",
-      title: "La forma que vuelve",
-      description: "Dos relojes de arena superpuestos midiendo el tiempo cronológico y el tiempo del vínculo, donde la arena dibuja contornos familiares."
-    }
+Y yo volví con ella.`
   },
   {
-    id: "poema3",
-    title: "III. EL PESO DE LA LUZ",
+    id: "poema_recon3",
+    title: "RECONSTRUCCIÓN — III: EL PESO DE LA LUZ",
+    section: "RECONSTRUCCIÓN (POEMAS)",
     content: `La luz pesa.  
  
 No ilumina.  
@@ -290,16 +329,12 @@ deja caer.
  
 La luz pesa.  
  
-Y yo peso con ella.`,
-    illustration: {
-      id: "il16",
-      title: "El peso de la luz",
-      description: "Una figura con un brillo cálido en su interior, sosteniendo y procesando ondas de luz que parecen tener una textura densa y tangible."
-    }
+Y yo peso con ella.`
   },
   {
-    id: "poema4",
-    title: "IV. LA TENSIÓN QUE SE ABRE",
+    id: "poema_recon4",
+    title: "RECONSTRUCCIÓN — IV: LA TENSIÓN QUE SE ABRE",
+    section: "RECONSTRUCCIÓN (POEMAS)",
     content: `La tensión abre.  
  
 No rompe.  
@@ -331,16 +366,12 @@ La tensión avanza.
 Y yo lloro  
 porque no sé  
 si debo seguirla  
-o detenerla.`,
-    illustration: {
-      id: "il14",
-      title: "La tensión que se abre",
-      description: "Un puente colgante estirado hasta su límite bajo una tormenta eléctrica, revelando la tensión geométrica de la estructura."
-    }
+o detenerla.`
   },
   {
-    id: "poema5",
-    title: "V. LA RUPTURA QUE INSISTE",
+    id: "poema_recon5",
+    title: "RECONSTRUCCIÓN — V: LA RUPTURA QUE INSISTE",
+    section: "RECONSTRUCCIÓN (POEMAS)",
     content: `La ruptura insiste.  
  
 No avisa.  
@@ -369,16 +400,12 @@ La ruptura insiste.
 Y yo lloro  
 porque no sé  
 si debo detenerla  
-o dejarla avanzar.`,
-    illustration: {
-      id: "il_herido",
-      title: "La ruptura que insiste",
-      description: "Una grieta profunda que se abre a través de una superficie lisa y brillante, revelando un abismo oscuro lleno de correlaciones de luz."
-    }
+o dejarla avanzar.`
   },
   {
-    id: "poema6",
-    title: "VI. EL RECONOCIMIENTO QUE UNE",
+    id: "poema_recon6",
+    title: "RECONSTRUCCIÓN — VI: EL RECONOCIMIENTO QUE UNE",
+    section: "RECONSTRUCCIÓN (POEMAS)",
     content: `Al final,  
 no éramos ruptura.  
  
@@ -406,11 +433,6 @@ que nunca estuvimos separados.
  
 Solo estábamos mirando  
 desde lugares distintos  
-la misma arquitectura.`,
-    illustration: {
-      id: "il13",
-      title: "El reconocimiento que une",
-      description: "Dos horizontes esféricos y luminosos conectados por un puente de luz, alineando sus formas en una perfecta simetría."
-    }
+la misma arquitectura.`
   }
 ];

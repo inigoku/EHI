@@ -201,11 +201,17 @@ export default function App() {
               <span className="opacity-30">|</span>
               <span>
                 {readingMode === "essay" ? (
-                  <>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 20</strong></>
+                  <>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 26</strong></>
                 ) : readingMode === "cuentos" ? (
                   <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber || "Prólogo"} de 16</strong></>
                 ) : (
-                  <>Poema: <strong className={`font-semibold ${themeColors.text}`}>{activeChapterId === "poema0" ? "Especial" : activeChapterId.replace("poema", "")} de 6</strong></>
+                  <>Poema: <strong className={`font-semibold ${themeColors.text}`}>{
+                    activeChapterId === "poema_glosario"
+                      ? "Glosario"
+                      : activeChapterId.startsWith("poema_arq")
+                      ? `Enlace ${activeChapterId.replace("poema_arq", "")} de 4`
+                      : `Reconstrucción ${activeChapterId.replace("poema_recon", "")} de 6`
+                  }</strong></>
                 )}
               </span>
             </div>

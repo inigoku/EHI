@@ -641,20 +641,22 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       {readingMode === "poemas" ? (
         <div className="max-w-4xl mx-auto space-y-8 select-text">
           {/* Poemas mode: Full page background illustration layout */}
-          <div className="w-full relative rounded-3xl overflow-hidden shadow-2xl border border-amber-500/10 min-h-[60vh] flex flex-col justify-between">
+          <div className={`w-full relative rounded-3xl overflow-hidden shadow-2xl border ${tc.border} ${tc.subtleCard} min-h-[60vh] flex flex-col justify-between`}>
             {/* Background Illustration Container */}
-            <div className="absolute inset-0 z-0">
-              <div className="w-full h-full opacity-[0.2] mix-blend-screen pointer-events-none select-none">
-                <IllustrationViewer illustration={chapter.illustration} variant="background" />
+            {chapter.illustration && (
+              <div className="absolute inset-0 z-0">
+                <div className="w-full h-full opacity-[0.2] mix-blend-screen pointer-events-none select-none">
+                  <IllustrationViewer illustration={chapter.illustration} variant="background" />
+                </div>
+                <div className={`absolute inset-0 bg-gradient-to-t ${
+                  theme === "cosmic"
+                    ? "from-[#0D0E12] via-[#0D0E12]/92 to-[#0D0E12]/40"
+                    : theme === "sepia"
+                    ? "from-[#FAF6EE] via-[#FAF6EE]/92 to-[#FAF6EE]/40"
+                    : "from-[#F9F6F1] via-[#F9F6F1]/92 to-[#F9F6F1]/40"
+                }`} />
               </div>
-              <div className={`absolute inset-0 bg-gradient-to-t ${
-                theme === "cosmic"
-                  ? "from-[#0D0E12] via-[#0D0E12]/92 to-[#0D0E12]/40"
-                  : theme === "sepia"
-                  ? "from-[#FAF6EE] via-[#FAF6EE]/92 to-[#FAF6EE]/40"
-                  : "from-[#F9F6F1] via-[#F9F6F1]/92 to-[#F9F6F1]/40"
-              }`} />
-            </div>
+            )}
 
             {/* Poem Text Panel */}
             <div className="relative z-10 p-8 sm:p-20 flex-1 flex flex-col items-center justify-center text-center">
@@ -925,10 +927,14 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
         <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
           {readingMode === "essay" 
-            ? `Parte ${chapter.chapterNumber || "Especial"} de 20`
+            ? `Parte ${chapter.chapterNumber || "Especial"} de 26`
             : readingMode === "cuentos"
             ? `Relato ${chapter.chapterNumber || "Prólogo"} de ${cuentosList.length - 1}`
-            : `Poema ${chapter.id === "poema0" ? "Especial" : chapter.id.replace("poema", "")} de 6`}
+            : chapter.id === "poema_glosario"
+            ? "Glosario"
+            : chapter.id.startsWith("poema_arq")
+            ? `Poema Enlace ${chapter.id.replace("poema_arq", "")} de 4`
+            : `Poema Reconstrucción ${chapter.id.replace("poema_recon", "")} de 6`}
         </span>
 
         <button
