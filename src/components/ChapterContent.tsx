@@ -700,24 +700,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               className="w-full"
             >
               {reconstructTab === "poema" ? (
-                /* Poema tab: Premium Full page background illustration layout inside card */
+                /* Poema tab: Clean layout inside card (without background image) */
                 <div className={`w-full relative rounded-3xl overflow-hidden shadow-2xl border ${tc.border} ${tc.subtleCard} min-h-[50vh] flex flex-col justify-between`}>
-                  {/* Background Illustration Container */}
-                  {chapter.illustration && (
-                    <div className="absolute inset-0 z-0">
-                      <div className="w-full h-full opacity-[0.25] mix-blend-screen pointer-events-none select-none">
-                        <IllustrationViewer illustration={chapter.illustration} variant="background" />
-                      </div>
-                      <div className={`absolute inset-0 bg-gradient-to-t ${
-                        theme === "cosmic"
-                          ? "from-[#0D0E12] via-[#0D0E12]/92 to-[#0D0E12]/40"
-                          : theme === "sepia"
-                          ? "from-[#FAF6EE] via-[#FAF6EE]/92 to-[#FAF6EE]/40"
-                          : "from-[#F9F6F1] via-[#F9F6F1]/92 to-[#F9F6F1]/40"
-                      }`} />
-                    </div>
-                  )}
-
                   {/* Poem Text Panel */}
                   <div className="relative z-10 p-8 sm:p-16 flex-1 flex flex-col items-center justify-center text-center">
                     <div
