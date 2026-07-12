@@ -463,6 +463,26 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       return result;
     });
 
+    // Parse single asterisks as bold (*text*)
+    parts = parts.flatMap((part) => {
+      if (typeof part !== "string") return part;
+      const regex = /\*(.*?)\*/g;
+      const result = [];
+      let lastIndex = 0;
+      let match;
+      while ((match = regex.exec(part)) !== null) {
+        if (match.index > lastIndex) {
+          result.push(part.substring(lastIndex, match.index));
+        }
+        result.push(<strong key={match.index} className={`font-semibold ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-white"}`}>{match[1]}</strong>);
+        lastIndex = regex.lastIndex;
+      }
+      if (lastIndex < part.length) {
+        result.push(part.substring(lastIndex));
+      }
+      return result;
+    });
+
     // Parse glossary term highlights (interactive buttons)
     parts = parts.flatMap((part) => {
       if (typeof part !== "string") return part;
@@ -705,12 +725,15 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                   {/* Poem Text Panel */}
                   <div className="relative z-10 p-8 sm:p-16 flex-1 flex flex-col items-center justify-center text-center">
                     <div
-                      className={`max-w-2xl mx-auto space-y-6 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-lg tracking-wide ${
+                      className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-lg tracking-wide ${
                         theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
                       }`}
-                      style={{ whiteSpace: "pre-line" }}
                     >
-                      {chapter.poema || ""}
+                      {(chapter.poema || "").split("\n").map((line, lineIdx) => (
+                        <div key={lineIdx}>
+                          {parseInlineStyles(line)}
+                        </div>
+                      ))}
                     </div>
 
                     {/* Cierre section inside Poem tab */}
@@ -823,12 +846,15 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
-                className={`max-w-2xl mx-auto space-y-6 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-xl tracking-wide select-text ${
+                className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-xl tracking-wide select-text ${
                   theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
                 }`}
-                style={{ whiteSpace: "pre-line" }}
               >
-                {chapter.content}
+                {chapter.content.split("\n").map((line, lineIdx) => (
+                  <div key={lineIdx}>
+                    {parseInlineStyles(line)}
+                  </div>
+                ))}
               </motion.div>
             </div>
 
