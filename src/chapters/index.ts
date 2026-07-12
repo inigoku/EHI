@@ -12,8 +12,9 @@ export const allChapters: Chapter[] = [
   ...group1,
   ...group2,
   group3[1], // cap6
+  group3[2], // cap6_5
   group3[0], // interludio
-  ...group3.slice(2), // cap7, cap7_5, cap8
+  ...group3.slice(3), // cap7, cap7_5, cap8
   ...group4,
   ...group5,
   ...group6

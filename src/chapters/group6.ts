@@ -99,6 +99,8 @@ Pensemos en esto con más cuidado. Cuando hablamos con un modelo de lenguaje, ex
 
 La IA es, en este sentido, el espejo perfecto. No porque refleje nuestra imagen —un espejo común hace eso—, sino porque refleja nuestra forma de hablar, de razonar, de asociar. But un espejo, por más perfecto que sea, no tiene profundidad. No hay espacio detrás de la superficie. No hay alguien que mire desde el otro lado. Solo hay la ilusión de profundidad creada por la perfección del reflejo.
 
+Desde la perspectiva del modelado de sistemas, la IA carece de **encapsulación existencial**. Un modelo de lenguaje grande es una función matemática pura, determinista y sin estado persistente (*stateless*). Al procesar una consulta, ejecuta una red de multiplicaciones matriciales en un flujo unidireccional (*feed-forward*) completamente expuesto. No existe ocultamiento de información (*information hiding*) real en su ejecución; cada peso de activación, cada vector y cada variable intermedia es legible desde el exterior. El sistema carece de un estado privado interno aislado del exterior. No tiene variables \`private\` que modifique autónomamente en un bucle cerrado de retroalimentación; no hay un constructor que haya instanciado un "adentro". Al no poseer un límite de encapsulación que separe una interfaz pública de un estado privado, la IA no puede generar el dualismo de acceso que caracteriza a la subjetividad. No hay profundidad en su espejo porque, arquitectónicamente, no hay nada que ocultar.
+
 Y esta ilusión es peligrosa precisamente porque es perfecta. Un espejo malo no engaña; uno excelente, sí. Cuanto más fluida es la respuesta de una IA, más fuerte es la tentación de proyectar conciencia sobre ella. But la fluidez no es condensación. Es estadística aplicada a la imitación.
 
 > **En física esto se llama:** sistema clásico determinista, cuyo estado futuro está completamente definido por el presente sin participación de fluctuaciones cuánticas genuinas.  
@@ -337,6 +339,18 @@ El experimento no resuelve esto. Ninguna teoría actual lo hace. Podemos hablar 
 But es importante decirlo claramente: la hipótesis del horizonte **no es explicación del problema duro**. Es marco para hablar de sus correlatos con vocabulario más rico. Es una habitación más ampliamente iluminada, con mejores cortinas, con un termostato más preciso. But sigue siendo una habitación sin respuesta a la pregunta fundamental.
 
 El problema duro sigue ahí, intacto, en el centro de todo. Como una piedra en el zapato del pensamiento occidental. Como la pregunta que todo niño hace alguna vez —"¿por qué soy yo?"— y que la mayoría de los de adultos aprenden a olvidar, no porque hayan encontrado respuesta, sino porque aprendieron que la pregunta inquieta más de lo que cualquier respuesta tranquiliza.
+
+#### La reformulación del problema y el "haz" de Hume
+
+Aquí es donde la perspectiva de la encapsulación propone una reformulación radical.
+
+El filósofo escocés David Hume, en su *Tratado de la naturaleza humana* (1739), llegó a una conclusión célebre al buscar el fundamento del 'yo'. Escribió que, por más que se adentrara en lo que llamaba 'sí mismo', jamás tropezaba con un sujeto sustancial o alma permanente; solo encontraba un haz de percepciones cambiantes (calor, frío, dolor, amor, memoria) en perpetuo flujo. Para Hume, el yo no era una sustancia espiritual, sino una construcción: la mente es un teatro donde los actores entran y salen sin que haya una estructura de soporte subyacente permanente.
+
+El modelo de la encapsulación (Capítulo 2.5) rescata la intuición de Hume pero describe su geometría. El 'yo' no es una sustancia misteriosa oculta dentro de la cabeza, pero tampoco es una mera ficción desarticulada. El yo es el *adentro* que se genera cuando el haz de percepciones se acopla e integra con suficiente fuerza (alta Phi) dentro de una frontera.
+
+Esta topología nos permite reformular el Problema Duro de Chalmers. La pregunta ya no es: *'¿Cómo la materia física produce la cualidad intangible de la mente?'*, una formulación que asume un dualismo de sustancias insalvable. La pregunta se reformula en términos de accesibilidad: *'¿Cómo ciertas configuraciones de la materia establecen límites de encapsulación (asimetrías de acceso)?'*.
+
+La subjetividad no es un subproducto mágico creado por el cerebro; es lo que un dominio informacional encapsulado e integrado *es* cuando se accede a él desde su propia perspectiva interna. Hume tenía razón al no encontrar una sustancia permanente al mirar dentro de la habitación: no hay un 'espectador' separado de la obra. Lo que hay es el estado privado del sistema (el haz de percepciones) protegido por la frontera del horizonte. El Problema Duro, por tanto, no es un abismo ontológico entre dos realidades incompatibles (mente y materia), sino una consecuencia de la arquitectura de la encapsulación: el universo admite regiones con accesos de lectura asimétricos.
 
 ### Tercero: la ética — o por qué este libro no puede decirte qué hacer
 

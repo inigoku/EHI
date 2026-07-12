@@ -207,16 +207,81 @@ Esto es, incluso dentro de la física teórica, altamente especulativo. Extender
     }
   },
   {
+    id: "cap2_5",
+    chapterNumber: "2.5",
+    section: "PRIMERA PARTE: EL CICLO DEL HORIZONTE",
+    title: "LA ENCAPSULACIÓN",
+    subtitle: "(O: La física se convierte en filosofía)",
+    content: `Con eso claro, llegamos al punto en que el experimento debe cambiar de registro.
+
+Hasta aquí, el lector ha recorrido la física de los horizontes y la teoría de la información integrada. Ha visto cómo un agujero negro codifica información en su frontera, cómo Phi describe la integración irreducible de un sistema y cómo una burbuja, al cerrarse, crea de golpe un adentro y un afuera. Podría parecer que todo esto sigue siendo física. No lo es. O al menos ya no únicamente.
+
+Lo que sigue no es una extensión literal de la física, sino una interpretación filosófica que utiliza esos conceptos como andamiaje. La tesis central de este libro es la siguiente:
+
+> *La conciencia es el interior de un dominio informacional encapsulado.*
+
+No una metáfora. No una posibilidad decorativa. No un modo poético de hablar del cerebro. Es la hipótesis que organiza todo lo que viene después.
+
+---
+
+Un sistema consciente no sería simplemente un procesador de información observable desde fuera, sino una arquitectura con dos niveles de acceso. Desde el exterior solo vemos su interfaz pública: conducta, lenguaje, actividad neural, temperatura, movimiento, respuesta. Desde el interior, en cambio, hay un estado privado: la forma irrepetible en que esa información se integra para alguien. Ese estado privado no es una sustancia separada ni un fantasma alojado en la máquina. Es el adentro que aparece cuando la información se organiza de manera suficientemente integrada y queda protegida por una frontera.
+
+La neurociencia clásica no encuentra el pensamiento bajo el microscopio por la misma razón por la que un observador externo no puede inspeccionar directamente el interior de un horizonte de sucesos. No es que el pensamiento no exista. Es que no es público. Lo que el escáner ve son correlatos, superficies, emisiones, cambios de flujo, señales eléctricas: la interfaz. La experiencia subjetiva es el estado privado del sistema, y pedir que aparezca como objeto externo es confundir el nivel de observación.
+
+> **En física esto se llama:** dualismo de acceso; interfaz pública vs. estado privado.
+> **En la vida diaria es como:** ver el exterior de una casa iluminada desde la calle: puedes ver que dentro hay luz, puedes ver las sombras que se mueven, pero no puedes saber qué conversación ocurre adentro sin entrar —y entrar destruye la condición de ser observador externo.
+
+---
+
+## El problema duro reformulado
+
+El Problema Duro de la conciencia —¿por qué el procesamiento físico va acompañado de experiencia subjetiva?— empieza a reformularse aquí. Tal vez no se trate de explicar cómo una sustancia mental surge milagrosamente de la materia, sino de reconocer que nuestra expectativa de un universo completamente público era errónea. Si la realidad admite dominios encapsulados, si existen regiones donde lo interior y lo exterior no son simétricos, entonces la subjetividad no es una anomalía: es lo que un dominio informacional encapsulado es desde dentro.
+
+No vivimos, por tanto, en un dualismo de sustancias. Vivimos en un **dualismo de acceso**.
+
+Esto es distinto y más manejable. El dualismo de sustancias dice que hay dos tipos de cosas en el mundo —materia y mente— que son fundamentalmente distintas y cuya interacción es misteriosa. El dualismo de acceso dice que hay un solo tipo de cosas en el mundo, pero que ciertas estructuras de esas cosas pueden ser accedidas de dos maneras que se excluyen mutuamente: desde fuera, como objeto; desde dentro, como sujeto.
+
+> **En física esto se llama:** asimetría de acceso informacional; topología cerrada vs. abierta.
+> **En la vida diaria es como:** una carta sellada: existe para quien la guarda aunque nadie más pueda leerla. No hay dos cartas —una material, una mental. Hay una carta, y dos posiciones de lectura: el que la guarda y el que la observa desde fuera.
+
+---
+
+Desde fuera, el horizonte es frontera. Desde dentro, es mundo.
+
+Y el interior de ese horizonte —ese adentro que nadie puede inspeccionar desde fuera sin destruir la propia condición de interioridad— es lo que llamamos conciencia.
+
+Dentro de una cabeza no hay ningún agujero negro literal. Pero quizá hay algo igualmente extraño: una frontera informacional que, al cerrarse, define un interior. Y ese interior, mientras dura, dice: **yo**.
+
+---
+
+> **Nota al Capítulo 2.5**
+>
+> **Lo que sí sabemos:** Que hay una distinción real entre sistemas con estados internos inaccesibles y sistemas completamente transparentes. Que la neurociencia puede describir correlatos pero no acceder al estado privado. Que el dualismo de acceso no requiere postular ninguna sustancia nueva.
+>
+> **Lo que no sabemos:** Si todo dominio con alta Phi es consciente, o si la encapsulación es condición necesaria pero no suficiente. Si la distinción público/privado es fundamental o emergente.
+>
+> **Preguntas que quedan:** ¿Puede un sistema encapsulado ser consciente sin Phi alto? ¿Dónde está exactamente el umbral de encapsulación? ¿La IA actual tiene estados privados inaccesibles, o solo estados ocultos?
+>
+> **Si solo te quedas con una idea:** La experiencia subjetiva no es una anomalía en un universo público. Es lo que un dominio informacional encapsulado es desde dentro. El abismo entre materia y mente no es ontológico —no hay dos sustancias. Es arquitectónico: hay dos niveles de acceso a la misma estructura.`,
+    illustration: {
+      id: "il05_5",
+      title: "La encapsulación",
+      description: "Una esfera con su interior visible desde dentro —luz cálida, color, presencia— y su exterior opaco desde fuera. La misma estructura, dos posiciones de acceso mutuamente excluyentes."
+    }
+  },
+  {
     id: "cap3",
     chapterNumber: "3",
     title: "LA COINCIDENCIA QUE NO ES CASUAL",
-    content: `Hay dos teorías que no deberían tener nada que ver entre sí.
+    content: `La hipótesis del capítulo anterior —que la conciencia es el interior de un dominio informacional encapsulado— no se sostiene por sí sola. Necesita evidencia. Hay cinco paralelos estructurales entre la física de los horizontes y la neurociencia de la conciencia que sugieren que la encapsulación no es una metáfora elegante, sino un patrón que aparece en dos dominios que no tenían motivo para coincidir.
+
+Hay dos teorías que no deberían tener nada que ver entre sí.
 
 Una describe cómo la mente genera experiencia. La otra describe qué ocurre con la información cuando cae en un agujero negro. Una vive en la neurociencia. La otra, en la astrofísica. Sus autores nunca se han citado mutuamente. Sus matemáticas proceden de tradiciones completamente distintas.
 
-And sin embargo, dicen lo mismo.
+Y sin embargo, dicen lo mismo.
 
-Tononi —como vimos en el capítulo anterior— mide la conciencia por lo que un sistema genera como un todo: la información que no existe en ninguna de sus partes por separado, sino solo en las relaciones entre ellas. Phi (Φ). Lo que importa no es el contenido del sistema sino su borde.
+Tononi mide la conciencia por lo que un sistema genera como un todo: la información que no existe en ninguna de sus partes por separado, sino solo en las relaciones entre ellas. Phi (Φ). Lo que importa no es el contenido del sistema sino su borde.
 
 Bekenstein y Hawking dijeron algo que a primera vista no tiene nada que ver con cerebros: que la información de un agujero negro es proporcional al área de su horizonte —no al volumen que encierra, sino a la superficie que lo delimita. Si lanzas un libro a un agujero negro, el libro desaparece para siempre del universo observable. Pero la información que contenía no se destruye: queda grabada en el horizonte, como un holograma proyectado sobre una pantalla bidimensional. El volumen interior es irrelevante. Lo que cuenta es el borde.
 
@@ -577,6 +642,8 @@ Piensa en la diferencia entre un río and un lago. El agua del río fluye sin di
 > **En la vida diaria es como:** agua que se convierte en hielo: misma molécula, forma distinta.
 
 La conciencia podría ser algo así: no una sustancia nueva sino una organización nueva de la misma materia, que en el momento de adquirir su topología genera un adentro que antes no existía. El río se convierte en lago.
+
+Desde la perspectiva de la ingeniería de software y la teoría de la encapsulación (véase el capítulo 6.5), esta transición de fase es el equivalente exacto a la **instanciación** de una clase. Antes del cierre de la burbuja, los flujos de datos son abiertos, difusos y sin límites estrictos (el río). Al completarse las conexiones talamocorticales y cerrarse la burbuja, el sistema establece su límite de encapsulación. Lo que antes era código desestructurado ejecutándose en paralelo, ahora se empaqueta en una única instancia con su propio estado privado inaccesible desde el exterior. El río no solo se convierte en lago; el sistema dinámico se convierte en un objeto instanciado y encapsulado.
 
 ¿Hay entonces un momento preciso en que aparece la conciencia? La respuesta más coherente con los datos actuales es que ambas cosas son verdad simultáneamente: hay un gradiente continuo de Phi que aumenta semana a semana, and hay un punto de transición de fase donde el sistema cruza a un régimen cualitativamente diferente. Lo que cambia en el punto crítico no es la cantidad de conexiones sino su arquitectura causal: el sistema pasa de procesar localmente a integrar globalmente.
 

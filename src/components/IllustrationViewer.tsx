@@ -17,6 +17,8 @@ import img04 from "../assets/images/ilustracion_04.png";
 // @ts-ignore
 import img05 from "../assets/images/ilustracion_05.png";
 // @ts-ignore
+import img05_5 from "../assets/images/ilustracion_05_5.png";
+// @ts-ignore
 import img06 from "../assets/images/ilustracion_06.png";
 // @ts-ignore
 import img07 from "../assets/images/ilustracion_07.png";
@@ -26,6 +28,8 @@ import img08 from "../assets/images/ilustracion_08.png";
 import imgInt from "../assets/images/ilustracion_int.png";
 // @ts-ignore
 import img09 from "../assets/images/ilustracion_09.png";
+// @ts-ignore
+import img09_5 from "../assets/images/ilustracion_09_5.png";
 // @ts-ignore
 import img10 from "../assets/images/ilustracion_10.png";
 // @ts-ignore
@@ -158,11 +162,13 @@ const imageMap: Record<string, string> = {
   il_tarel: imgTarel,
   il04: img04,
   il05: img05,
+  il05_5: img05_5,
   il06: img06,
   il07: img07,
   il08: img08,
   il_int: imgInt,
   il09: img09,
+  il09_5: img09_5,
   il10: img10,
   il11: img11,
   il12: img12,
