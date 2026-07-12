@@ -16,6 +16,84 @@ interface ChapterContentProps {
   readingMode: "essay" | "cuentos" | "poemas" | "reconstruccion";
   onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion", targetId?: string) => void;
 }
+// Helper to detect if the main chapter illustration is already embedded inline in the text
+const isIllustrationDuplicate = (chapter: Chapter, readingMode: string): boolean => {
+  if (!chapter.illustration) return false;
+  
+  const lines = chapter.content.split("\n");
+  for (let line of lines) {
+    const trimmed = line.trim();
+    if (trimmed.startsWith("## [ILUSTRACIÓN")) {
+      const match = trimmed.match(/##\s*\[ILUSTRACIÓN\s*([\w.]+)?:?\s*"([^"]+)"\]/i) || trimmed.match(/##\s*\[ILUSTRACIÓN:\s*"([^"]+)"\]/i);
+      if (match) {
+        const rawId = match[1] || "";
+        const title = match[2] || match[1] || "Ilustración";
+        
+        let illusId = "il_notas";
+        if (rawId) {
+          const cleanId = rawId.trim().toLowerCase().replace(".", "_");
+          if (readingMode === "cuentos") {
+            if (cleanId === "1" || cleanId === "01") illusId = "cuento_01";
+            else if (cleanId === "2" || cleanId === "02") illusId = "cuento_02";
+            else if (cleanId === "3" || cleanId === "03") illusId = "cuento_03";
+            else if (cleanId === "4" || cleanId === "04") illusId = "cuento_04";
+            else if (cleanId === "5" || cleanId === "05") illusId = "cuento_05";
+            else if (cleanId === "6" || cleanId === "06") illusId = "cuento_06";
+            else if (cleanId === "7" || cleanId === "07") illusId = "cuento_07";
+            else if (cleanId === "8" || cleanId === "08") illusId = "cuento_08";
+            else if (cleanId === "9" || cleanId === "09") illusId = "cuento_09";
+            else if (cleanId === "10") illusId = "cuento_10";
+            else if (cleanId === "11") illusId = "cuento_11";
+            else if (cleanId === "12") illusId = "cuento_12";
+            else if (cleanId === "13") illusId = "cuento_13";
+            else if (cleanId === "14") illusId = "cuento_14";
+            else if (cleanId === "eq") illusId = "cuento_eq";
+            else if (cleanId === "int") illusId = "cuento_int";
+            else if (cleanId === "txiki") illusId = "cuento_txiki";
+            else if (cleanId === "m87") illusId = "cuento_m87";
+          } else {
+            if (!isNaN(Number(cleanId))) {
+              const num = Number(cleanId);
+              if (num === 1) illusId = "il01";
+              else if (num === 2) illusId = "il02";
+              else if (num === 3) illusId = "il_prologo";
+              else if (num === 12.5 || rawId.trim() === "12.5") illusId = "il12_5";
+              else if (num === 17.5 || rawId.trim() === "17.5") illusId = "il_inanimado";
+              else if (num === 17.6 || rawId.trim() === "17.6") illusId = "il_clon";
+              else if (num === 24) illusId = "il_alzheimer";
+              else if (num === 25) illusId = "il_parkinson";
+              else if (num === 26) illusId = "il_herido";
+              else if (num === 27) illusId = "il_mascotas";
+              else if (num === 28) illusId = "il_ia";
+              else {
+                illusId = cleanId.length === 1 ? `il0${cleanId}` : `il${cleanId}`;
+              }
+            } else {
+              if (cleanId === "txiki") illusId = "il_txiki";
+              else if (cleanId === "m87") illusId = "il_m87";
+              else if (cleanId === "tp") illusId = "il_tp";
+              else if (cleanId === "eq") illusId = "il_el_que_queda";
+              else if (cleanId === "int") illusId = "il_int";
+            }
+          }
+        } else {
+          const lowerTitle = title.toLowerCase();
+          if (readingMode === "cuentos") {
+            if (lowerTitle.includes("agua") && lowerTitle.includes("retira")) illusId = "cuento_agua_retira";
+            else if (lowerTitle.includes("océano") || lowerTitle.includes("oceano")) illusId = "il_oceano_olas";
+          } else {
+            if (lowerTitle.includes("agua") && lowerTitle.includes("retira")) illusId = "il_tarel";
+            else if (lowerTitle.includes("océano") || lowerTitle.includes("oceano")) illusId = "il_oceano_olas";
+          }
+        }
+        if (illusId === chapter.illustration.id) {
+          return true;
+        }
+      }
+    }
+  }
+  return false;
+};
 
 export const ChapterContent: React.FC<ChapterContentProps> = ({
   chapter,
@@ -996,7 +1074,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
           {/* Main Text Content */}
           <div className={`lg:col-span-8 p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
-            {chapter.illustration && !chapter.content.includes("[ILUSTRACIÓN") && (
+            {chapter.illustration && !isIllustrationDuplicate(chapter, readingMode) && (
               <div className="flex justify-center mb-8 select-none">
                 <IllustrationViewer illustration={chapter.illustration} />
               </div>
