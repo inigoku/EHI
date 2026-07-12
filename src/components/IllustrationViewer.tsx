@@ -87,6 +87,11 @@ import imgTp from "../assets/images/ilustracion_tp.png";
 // @ts-ignore
 import imgTxiki from "../assets/images/ilustracion_txiki.png";
 
+// @ts-ignore
+import imgLadron from "../assets/images/ilustracion_ladron.png";
+// @ts-ignore
+import imgLuthier from "../assets/images/ilustracion_luthier.png";
+
 // Import Cuentos illustrations
 // @ts-ignore
 import cuento01 from "../assets/images/cuentos/01_tarel_inicio.png";
@@ -197,6 +202,10 @@ const imageMap: Record<string, string> = {
   il_oceano_olas: imgOceanoOlas,
   il_tp: imgTp,
   il_txiki: imgTxiki,
+  il_ladron: imgLadron,
+  cuento_ladron: imgLadron,
+  il_luthier: imgLuthier,
+  cuento_luthier: imgLuthier,
 
   // Cuentos illustrations mapping
   cuento_01: cuento01,

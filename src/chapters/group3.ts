@@ -737,6 +737,7 @@ Los estudios muestran que este desajuste tiene consecuencias de salud medibles: 
   },
   {
     id: "cap7_5",
+    linkedCuentosId: "cuento_luthier",
     chapterNumber: "7.5",
     title: "ENTRELAZAMIENTO PARA NO FÍSICOS",
     content: `Hay una experiencia que no tiene nombre en el lenguaje ordinario.

@@ -211,6 +211,7 @@ Nadie supo decir si había dejado algo atrás.
   },
   {
     id: "cap1",
+    linkedCuentosId: "cuento_ladron",
     chapterNumber: "1",
     section: "PRIMERA PARTE: EL CICLO DEL HORIZONTE",
     title: "LA TRAMPA DEL INTERRUPTOR",
