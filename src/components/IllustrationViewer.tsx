@@ -121,7 +121,30 @@ import cuentoEq from "../assets/images/cuentos/17_el_que_queda.png";
 // @ts-ignore
 import cuentoTxiki from "../assets/images/cuentos/18_txiki_cierre.png";
 // @ts-ignore
+// @ts-ignore
 import cuentoM87 from "../assets/images/cuentos/19_M87_puente.png";
+
+// Poemas background images
+// @ts-ignore
+import poemaArq1 from "../assets/images/poemas/imagen_p181_1.png";
+// @ts-ignore
+import poemaArq2 from "../assets/images/poemas/imagen_p191_1.png";
+// @ts-ignore
+import poemaArq3 from "../assets/images/poemas/imagen_p201_1.png";
+// @ts-ignore
+import poemaArq4 from "../assets/images/poemas/imagen_p217_1.png";
+// @ts-ignore
+import poemaGlosario from "../assets/images/poemas/imagen_p231_1.png";
+// @ts-ignore
+import poemaRecon1 from "../assets/images/poemas/imagen_p234_1.png";
+// @ts-ignore
+import poemaRecon2 from "../assets/images/poemas/imagen_p244_1.png";
+// @ts-ignore
+import poemaRecon3 from "../assets/images/poemas/imagen_p254_1.png";
+// @ts-ignore
+import poemaRecon4 from "../assets/images/poemas/imagen_p268_1.png";
+// @ts-ignore
+import poemaRecon5 from "../assets/images/poemas/imagen_p274_1.png";
 
 interface IllustrationViewerProps {
   illustration?: Illustration;
@@ -189,6 +212,19 @@ const imageMap: Record<string, string> = {
   cuento_eq: cuentoEq,
   cuento_txiki: cuentoTxiki,
   cuento_m87: cuentoM87,
+
+  // Poem backgrounds mapping
+  poema_arq1: poemaArq1,
+  poema_arq2: poemaArq2,
+  poema_arq3: poemaArq3,
+  poema_arq4: poemaArq4,
+  poema_glosario: poemaGlosario,
+  poema_recon1: poemaRecon1,
+  poema_recon2: poemaRecon2,
+  poema_recon3: poemaRecon3,
+  poema_recon4: poemaRecon4,
+  poema_recon5: poemaRecon5,
+  poema_recon6: poemaRecon5, // Fallback for Part VI
 };
 
 export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration, variant = "default" }) => {

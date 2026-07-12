@@ -25,9 +25,9 @@ El agua se retira.
 Yo no arranco,
 yo me despido.`,
     illustration: {
-      id: "il17",
-      title: "La arquitectura con un hueco",
-      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
+      id: "poema_arq1",
+      title: "La arquitectura con un hueco — I",
+      description: "Fondo de página del poema I en el documento de fusión."
     }
   },
   {
@@ -52,9 +52,9 @@ sino a repetir para anclarme.
 Eso es todo.
 Y es suficiente.`,
     illustration: {
-      id: "il17",
-      title: "La arquitectura con un hueco",
-      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
+      id: "poema_arq2",
+      title: "La arquitectura con un hueco — II",
+      description: "Fondo de página del poema II en el documento de fusión."
     }
   },
   {
@@ -86,9 +86,9 @@ sino en el temblor de mi propia mano
 que ya no recuerda
 cómo sostener un vaso sin miedo a romperlo.`,
     illustration: {
-      id: "il17",
-      title: "La arquitectura con un hueco",
-      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
+      id: "poema_arq3",
+      title: "La arquitectura con un hueco — III",
+      description: "Fondo de página del poema III en el documento de fusión."
     }
   },
   {
@@ -118,9 +118,9 @@ Y entendí.
 Tal vez,
 eso era la respuesta.`,
     illustration: {
-      id: "il17",
-      title: "La arquitectura con un hueco",
-      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
+      id: "poema_arq4",
+      title: "La arquitectura con un hueco — IV",
+      description: "Fondo de página del poema IV en el documento de fusión."
     }
   },
   {
@@ -136,15 +136,20 @@ Mi propia capacidad para seguir esperando, aunque ya no sepa qué.
 *Duelo*
 Esta casa con un hueco, que aprendí a habitar para no morir de frío.`,
     illustration: {
-      id: "il17",
-      title: "La arquitectura con un hueco",
-      description: "Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío."
+      id: "poema_glosario",
+      title: "Glosario Íntimo",
+      description: "Fondo de página del glosario en el documento de fusión."
     }
   },
   {
     id: "poema_recon1",
     title: "RECONSTRUCCIÓN — I: LA ARQUITECTURA QUE EMERGE",
     section: "RECONSTRUCCIÓN (POEMAS)",
+    illustration: {
+      id: "poema_recon1",
+      title: "Reconstrucción — I",
+      description: "Fondo de página del poema I en el documento de fusión."
+    },
     content: `La materia recuerda  
 incluso cuando parece blanda.  
  
@@ -243,6 +248,11 @@ Y yo respiro con él.`
     id: "poema_recon2",
     title: "RECONSTRUCCIÓN — II: LA FORMA QUE VUELVE",
     section: "RECONSTRUCCIÓN (POEMAS)",
+    illustration: {
+      id: "poema_recon2",
+      title: "Reconstrucción — II",
+      description: "Fondo de página del poema II en el documento de fusión."
+    },
     content: `Mi madre apareció  
 en la esquina.  
  
@@ -299,6 +309,11 @@ Y yo volví con ella.`
     id: "poema_recon3",
     title: "RECONSTRUCCIÓN — III: EL PESO DE LA LUZ",
     section: "RECONSTRUCCIÓN (POEMAS)",
+    illustration: {
+      id: "poema_recon3",
+      title: "Reconstrucción — III",
+      description: "Fondo de página del poema III en el documento de fusión."
+    },
     content: `La luz pesa.  
  
 No ilumina.  
@@ -335,6 +350,11 @@ Y yo peso con ella.`
     id: "poema_recon4",
     title: "RECONSTRUCCIÓN — IV: LA TENSIÓN QUE SE ABRE",
     section: "RECONSTRUCCIÓN (POEMAS)",
+    illustration: {
+      id: "poema_recon4",
+      title: "Reconstrucción — IV",
+      description: "Fondo de página del poema IV en el documento de fusión."
+    },
     content: `La tensión abre.  
  
 No rompe.  
@@ -372,6 +392,11 @@ o detenerla.`
     id: "poema_recon5",
     title: "RECONSTRUCCIÓN — V: LA RUPTURA QUE INSISTE",
     section: "RECONSTRUCCIÓN (POEMAS)",
+    illustration: {
+      id: "poema_recon5",
+      title: "Reconstrucción — V",
+      description: "Fondo de página del poema V en el documento de fusión."
+    },
     content: `La ruptura insiste.  
  
 No avisa.  
@@ -406,6 +431,11 @@ o dejarla avanzar.`
     id: "poema_recon6",
     title: "RECONSTRUCCIÓN — VI: EL RECONOCIMIENTO QUE UNE",
     section: "RECONSTRUCCIÓN (POEMAS)",
+    illustration: {
+      id: "poema_recon6",
+      title: "Reconstrucción — VI",
+      description: "Fondo de página del poema VI en el documento de fusión."
+    },
     content: `Al final,  
 no éramos ruptura.  
  
