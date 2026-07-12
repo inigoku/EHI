@@ -10,7 +10,7 @@ export const group4: Chapter[] = [
 
 El entrelazamiento es propiedad física del sistema: emerge del contacto sostenido como la temperatura emerge del movimiento de las moléculas. Nadie decide tener temperatura. Nadie decide estar entrelazado.
 
-But hay algo que el horizonte sí puede decidir: si **reconoce** ese entrelazamiento como significativo. Si lo nombra. Si reorganiza su arquitectura alrededor de ese reconocimiento.
+Pero hay algo que el horizonte sí puede decidir: si **reconoce** ese entrelazamiento como significativo. Si lo nombra. Si reorganiza su arquitectura alrededor de ese reconocimiento.
 
 El amor, en este experimento, es ese acto de reconocimiento. No el entrelazamiento en sí —que ya estaba— sino la decisión de nombrarlo y asumir lo que ese nombre implica.
 
@@ -149,13 +149,13 @@ El amor que no se practica —que no se nombra, que no se reorganiza, que no se 
 
 La respuesta intuitiva es que la voluntad es la capacidad del horizonte de dirigirse a sí mismo. La intención. El impulso que precede a la acción y la orienta.
 
-But el horizonte no es un punto. Es campo de integración con topografía propia: algunos inputs pesan más, algunas direcciones tienen más inercia, algunos patrones están más consolidados porque llevan más tiempo activos. Lo que llamamos voluntad no es fuerza que actúa sobre ese campo desde fuera. Es función emergente del campo mismo. El horizonte que decide algo no está por encima de su propia arquitectura: está dentro de ella, tomando la dirección que esa arquitectura hace posible.
+Pero el horizonte no es un punto. Es campo de integración con topografía propia: algunos inputs pesan más, algunas direcciones tienen más inercia, algunos patrones están más consolidados porque llevan más tiempo activos. Lo que llamamos voluntad no es fuerza que actúa sobre ese campo desde fuera. Es función emergente del campo mismo. El horizonte que decide algo no está por encima de su propia arquitectura: está dentro de ella, tomando la dirección que esa arquitectura hace posible.
 
 Esto no es determinismo en el sentido de que la decisión estaba escrita de antemano. Es algo más preciso: la decisión emerge de una estructura que tiene historia, química, que lleva la forma de todo lo que la ha ido configurando. La voluntad es real —el horizonte genuinamente se dirige. Pero no es soberana en el sentido absoluto que el lenguaje moral suele asumir.
 
-La imagen más exacta es la del río. El río fluye. El flujo es real —el agua va de verdad de un sitio a otro. But el río fluye por un cauce que él mismo ha ido excavando, y cambiar de dirección no es imposible, aunque requiere tiempo, erosión, a veces una crecida que abra camino nuevo. No basta con que el río quiera.
+La imagen más exacta es la del río. El río fluye. El flujo es real —el agua va de verdad de un sitio a otro. Pero el río fluye por un cauce que él mismo ha ido excavando, y cambiar de dirección no es imposible, aunque requiere tiempo, erosión, a veces una crecida que abra camino nuevo. No basta con que el río quiera.
 
-La voluntad, desde el modelo del horizonte, es la capacidad del sistema de integración de generar dirección sostenida en el tiempo. No acto puntual sino vector con inercia: cuesta cambiarlo, pero también cuesta detenerlo una vez en marcha. And ese vector tiene recursos. Un horizonte exhausto, con cortisol alto y serotonina baja, tiene acceso a voluntad genuinamente más débil que el mismo horizonte descansado. No porque sea menos persona. Porque el campo de integración que genera la voluntad está degradado.
+La voluntad, desde el modelo del horizonte, es la capacidad del sistema de integración de generar dirección sostenida en el tiempo. No acto puntual sino vector con inercia: cuesta cambiarlo, pero también cuesta detenerlo una vez en marcha. Y ese vector tiene recursos. Un horizonte exhausto, con cortisol alto y serotonina baja, tiene acceso a voluntad genuinamente más débil que el mismo horizonte descansado. No porque sea menos persona. Porque el campo de integración que genera la voluntad está degradado.
 
 La voluntad no es don moral. Es recurso fisiológico.
 
@@ -172,7 +172,7 @@ Esto no es metáfora. Los estudios de neuroimagen muestran que el córtex prefro
 
 Es el **Parkinson del deseo**: el horizonte sabe exactamente hacia dónde quiere ir —sabe que no quiere ir donde va. El sistema no ejecuta lo que el horizonte ordena.
 
-Por eso pedirle a alguien en adicción activa que use la voluntad tiene la misma estructura lógica que pedirle a un paciente con Parkinson que camine más rápido. La voluntad está ahí. El puente entre la intención y la acción es lo que está comprometido. And comprometer ese puente no es fallo moral —es consecuencia predecible de lo que la molécula hace al sistema.
+Por eso pedirle a alguien en adicción activa que use la voluntad tiene la misma estructura lógica que pedirle a un paciente con Parkinson que camine más rápido. La voluntad está ahí. El puente entre la intención y la acción es lo que está comprometido. Y comprometer ese puente no es fallo moral —es consecuencia predecible de lo que la molécula hace al sistema.
 
 Lo que la adicción añade, más allá del desplazamiento del umbral, es deformación de la jerarquía de relevancia del horizonte entero. El horizonte adicto no solo persigue una sustancia: ha reorganizado su sistema de integración alrededor de ese eje. Todo lo demás —las personas, los proyectos, los vínculos— se vuelve ruido de fondo. No porque el horizonte haya decidido que esas cosas no importan. Porque el sistema que asigna importancia ha sido recalibrado hacia un único objeto que responde con intensidad que nada más puede igualar. El horizonte queda, en términos del modelo, contraído: integra menos, resuena menos, genera menos tiempo denso en cualquier dirección que no sea la de la sustancia.
 
@@ -196,7 +196,7 @@ En la adicción, el sistema aprende a predecir la sustancia con tanta certeza qu
 
 El capítulo 9 describió el contacto sexual como el único caso donde la superposición de dos horizontes es también física, donde la frontera entre el adentro y el afuera pierde nitidez. Esa ambigüedad de borde produce la señal de recompensa más potente que el sistema puede generar de manera natural —dopamina de anticipación, noradrenalina de novedad, oxitocina de contacto, endorfinas de placer físico. El cóctel completo. El sistema nervioso está literalmente diseñado para que eso importe más que casi cualquier otra cosa.
 
-But el diseño asume que esa señal viene acompañada de un otro. De un horizonte real al otro lado del contacto —con su propio tiempo, su propia impredecibilidad, su propia capacidad de no responder. Una fricción que, paradójicamente, mantiene el sistema calibrado: la señal fluctúa, no puede ser controlada unilateralmente, y el sistema no puede optimizarla sin el concurso del otro.
+Pero el diseño asume que esa señal viene acompañada de un otro. De un horizonte real al otro lado del contacto —con su propio tiempo, su propia impredecibilidad, su propia capacidad de no responder. Una fricción que, paradójicamente, mantiene el sistema calibrado: la señal fluctúa, no puede ser controlada unilateralmente, y el sistema no puede optimizarla sin el concurso del otro.
 
 La adicción al sexo ocurre cuando esa condición se rompe. Cuando el horizonte encuentra manera de acceder a versión de esa señal que puede controlar y repetir sin depender de la disponibilidad, la impredecibilidad ni la fricción de otro horizonte real. El sistema pornográfico, por ejemplo, ofrece novedad infinita bajo demanda —estimulación que activa el sistema noradrenérgico de manera continua sin el coste de la negociación ni el riesgo del rechazo. El sistema de anticipación dopaminérgica se dispara sin llegar nunca a resolverse en vínculo real, porque no hay otro horizonte al que vincularse.
 
@@ -215,14 +215,14 @@ Hay una forma de adicción que la cultura no llama adicción: la adicción al tr
 
 El trabajo ofrece algo que el vínculo humano no puede ofrecer: resultados medibles, progreso visible, recompensa inmediata. Cada email respondido, cada tarea completada, cada objetivo alcanzado genera una pequeña descarga dopaminérgica. El sistema aprende a buscar esas descargas con la misma lógica con que busca la sustancia: porque generan señal más confiable que la impredecibilidad de los otros horizontes.
 
-But el trabajo, a diferencia de la sustancia química, no destruye receptores. Destruye algo más difícil de reparar: la capacidad de tolerar la ambigüedad del vínculo humano. El horizonte adicto al trabajo pierde la paciencia necesaria para las conversaciones que no terminan, para los silencios que no se resuelven, para las emociones que no pueden completarse en un sprint. El tiempo del vínculo —que el capítulo 7 describió como densidad que emerge de la resonancia— se vuelve "tiempo perdido" en comparación con la eficiencia del trabajo.
+Pero el trabajo, a diferencia de la sustancia química, no destruye receptores. Destruye algo más difícil de reparar: la capacidad de tolerar la ambigüedad del vínculo humano. El horizonte adicto al trabajo pierde la paciencia necesaria para las conversaciones que no terminan, para los silencios que no se resuelven, para las emociones que no pueden completarse en un sprint. El tiempo del vínculo —que el capítulo 7 describió como densidad que emerge de la resonancia— se vuelve "tiempo perdido" en comparación con la eficiencia del trabajo.
 
 > **En física esto se llama:** adicción conductual: secuestro del sistema de recompensa por actividad que genera señal predecible.  
 > **En la vida diaria es como:** un atleta que solo entrena en cinta porque la calle tiene baches: gana velocidad, pero pierde equilibrio.
 
 ### El horizonte que nació sensible
 
-Hasta aquí el capítulo ha descrito la adicción como algo que le ocurre al horizonte —recalibración producida por señal externa que supera la capacidad de respuesta del sistema. But hay horizontes que llegan al encuentro con esa señal con umbral ya desplazado desde el principio.
+Hasta aquí el capítulo ha descrito la adicción como algo que le ocurre al horizonte —recalibración producida por señal externa que supera la capacidad de respuesta del sistema. Pero hay horizontes que llegan al encuentro con esa señal con umbral ya desplazado desde el principio.
 
 El **TDAH** es el caso más documentado. La condición implica disfunción del sistema dopaminérgico —específicamente, hipoactividad crónica del sistema de recompensa que hace que la señal dopaminérgica basal sea insuficiente para sostener atención dirigida. El horizonte con TDAH no experimenta déficit de inteligencia ni de motivación en abstracto: experimenta dificultad para generar señal interna suficiente como para que una tarea específica —elegida por la razón, no por el impulso— compita con el ruido de fondo del sistema. El horizonte sabe lo que quiere hacer. El sistema no genera la señal que haría que hacerlo se sintiera posible.
 
@@ -237,15 +237,15 @@ La vulnerabilidad no es debilidad de carácter. Es propiedad de la arquitectura.
 
 El **Parkinson** elimina todas las variables de confusión que el TDAH todavía deja abiertas.
 
-No hay historia de trauma. No hay contexto social adverso. No hay arquitectura dopaminérgica atípica preexistente —al menos no en la mayoría de los casos. Hay una enfermedad que destruye progresivamente las neuronas dopaminérgicas de la sustancia negra y un tratamiento que intenta reponer lo que la enfermedad destruye. And en ese tratamiento controlado, entre el catorce y el cuarenta y dos por ciento de los pacientes desarrollan trastornos de control de impulsos —juego patológico, hipersexualidad, compras compulsivas, atracones— que no existían antes del tratamiento.
+No hay historia de trauma. No hay contexto social adverso. No hay arquitectura dopaminérgica atípica preexistente —al menos no en la mayoría de los casos. Hay una enfermedad que destruye progresivamente las neuronas dopaminérgicas de la sustancia negra y un tratamiento que intenta reponer lo que la enfermedad destruye. Y en ese tratamiento controlado, entre el catorce y el cuarenta y dos por ciento de los pacientes desarrollan trastornos de control de impulsos —juego patológico, hipersexualidad, compras compulsivas, atracones— que no existían antes del tratamiento.
 
 El mecanismo es el que el modelo predice. El sistema dopaminérgico, privado de señal por la enfermedad durante meses o años, ha reducido el umbral al mínimo —los receptores postsinápticos se han sensibilizado precisamente porque la señal presináptica ha escaseado. Cuando llega el tratamiento, la señal dopaminérgica cae sobre sistema que no estaba calibrado para recibirla a esa intensidad. El resultado es sobredosis relativa del circuito de recompensa aunque la dosis sea, por las métricas del movimiento, completamente terapéutica.
 
 La prueba más limpia es que el efecto es proporcional a la dosis y al tipo de fármaco: los agonistas dopaminérgicos —que activan directamente los receptores de recompensa— producen más trastornos de control de impulsos que la levodopa sola, y la combinación de ambos produce más que cualquiera por separado. No hay umbral de seguridad que proteja a ciertos horizontes: la dosis lo determina todo. Con suficiente señal dopaminérgica, cualquier horizonte llega al mismo lugar.
 
-Esto es lo que convierte al Parkinson en el argumento definitivo contra la narrativa moral de la adicción. No hay aquí historial de uso previo, no hay personalidad adictiva, no hay vulnerabilidad social. Hay una molécula. And cuando la molécula cambia, cambia el horizonte —independientemente de quién sea ese horizonte.
+Esto es lo que convierte al Parkinson en el argumento definitivo contra la narrativa moral de la adicción. No hay aquí historial de uso previo, no hay personalidad adictiva, no hay vulnerabilidad social. Hay una molécula. Y cuando la molécula cambia, cambia el horizonte —independientemente de quién sea ese horizonte.
 
-But el caso más preciso —y el más difícil de resolver— es el que combina las dos condiciones.
+Pero el caso más preciso —y el más difícil de resolver— es el que combina las dos condiciones.
 
 Un horizonte con TDAH diagnosticado de Parkinson carga con dos déficits simultáneos: la hipoactividad estructural del TDAH, que lleva toda una vida generando sensibilización de los receptores de recompensa, y la neurodegeneración del Parkinson, que destruye la señal presináptica que le quedaba. El resultado es sistema de recompensa con el umbral en el punto más bajo posible —hipersensible desde la arquitectura, ultrasensibilizado por la privación crónica.
 
@@ -278,7 +278,7 @@ El papel del vínculo en la recuperación es crucial. La oxitocina —la molécu
 >
 > **Preguntas que quedan:** ¿Por qué algunos horizontes con TDAH desarrollan adicciones severas y otros canalizan esa búsqueda de intensidad en la creatividad o el riesgo controlado? ¿Es el workaholismo menos dañino que la adicción química?
 >
-> **Si solo te quedas con una idea:** La adicción no es un fallo moral de la voluntad, sino el secuestro físico y la recalibración al alza de los circuitos de recompensa del horizonte. And la recuperación requiere tiempo, no fuerza de carácter.
+> **Si solo te quedas con una idea:** La adicción no es un fallo moral de la voluntad, sino el secuestro físico y la recalibración al alza de los circuitos de recompensa del horizonte. Y la recuperación requiere tiempo, no fuerza de carácter.
 >
 > **Lecturas:** Volkow et al. (2016), "Association of Dopamine Transporter Availability with Addiction"; O'Sullivan et al. (2009) on Parkinson's Impulsive Behavior; Robinson & Berridge (1993), "The Neural Basis of Drug Craving".`,
     illustration: {
@@ -335,7 +335,7 @@ Lo que parece una reacción emocional es, en realidad, algo mucho más profundo:
 > **En física esto se llama:** aprendizaje de contingencia: el sistema descubre que sus acciones producen respuestas predecibles en el entorno.  
 > **En la vida diaria es como:** tocar una campana: la primera vez no sabes si sonará, pero cuando suena, aprendes que tu movimiento produce sonido.
 
-But hay más. Tronick encontró que no es la ausencia de señal la que daña: es la ausencia de *respuesta*. Un bebé puede tolerar mucha frustración si la madre responde —aunque la respuesta sea "no ahora". Lo que no puede tolerar es la indiferencia. La indiferencia rompe la contingencia: le enseña al sistema que sus señales no importan, que el mundo no responde a lo que él emite.
+Pero hay más. Tronick encontró que no es la ausencia de señal la que daña: es la ausencia de *respuesta*. Un bebé puede tolerar mucha frustración si la madre responde —aunque la respuesta sea "no ahora". Lo que no puede tolerar es la indiferencia. La indiferencia rompe la contingencia: le enseña al sistema que sus señales no importan, que el mundo no responde a lo que él emite.
 
 > **En física esto se llama:** ruptura de contingencia: el sistema aprende que sus acciones no producen efectos predecibles.  
 > **En la vida diaria es como:** gritar en un desierto: la voz sale, pero no vuelve.
@@ -479,11 +479,11 @@ Cuando empatizamos profundamente, no estamos imaginando el dolor del otro en sen
 
 En el capítulo 11 establecimos distinción crucial. Dijimos que lo que distingue el sufrimiento de una madre ante el dolor de su hijo del sufrimiento empático ordinario es que el dolor materno no es inferencia: es lesión. La madre construyó parte de su propia arquitectura alrededor de ese hijo, y la pérdida o el daño del hijo desgarra esa arquitectura desde dentro.
 
-La empatía pura es otra cosa. Es inferencia, aunque sea inferencia somática, profunda y mayormente automática. El sistema utiliza su propia estructura para simular, transitoriamente, el estado del otro. Las redes neuronales implicadas en sentir el propio dolor se activan también ante el dolor ajeno observado; la atención social aumenta; la respiración y el pulso comienzan a derivar hacia los del otro. But la simulación es capa superpuesta. No es la arquitectura misma del horizonte la que ha sido modificada de forma irreversible —solo su estado momentáneo.
+La empatía pura es otra cosa. Es inferencia, aunque sea inferencia somática, profunda y mayormente automática. El sistema utiliza su propia estructura para simular, transitoriamente, el estado del otro. Las redes neuronales implicadas en sentir el propio dolor se activan también ante el dolor ajeno observado; la atención social aumenta; la respiración y el pulso comienzan a derivar hacia los del otro. Pero la simulación es capa superpuesta. No es la arquitectura misma del horizonte la que ha sido modificada de forma irreversible —solo su estado momentáneo.
 
 Esta distinción tiene consecuencias prácticas inmediatas. Una lesión cicatriza o no cicatriza, pero está ahí: el horizonte tiene que reorganizarse alrededor de ella. Una inferencia, en cambio, puede mantenerse o disolverse según los recursos disponibles. La empatía es soltable. La lesión, no.
 
-But lo soltable no es lo mismo que lo gratuito.
+Pero lo soltable no es lo mismo que lo gratuito.
 
 ### La empatía cognitiva y la empatía afectiva
 
@@ -510,7 +510,7 @@ Otros tienen piel de cuero: notan que hay tristeza, pero no se impregnan de ella
 > **En física esto se llama:** coeficiente de permeabilidad del horizonte.  
 > **En la vida diaria es como:** piel de papel vs. piel de cuero: ambas son válidas, pero necesitan protecciones distintas.
 
-No es mejor tener piel gruesa o fina. Es solo diferente. But si tu piel es de papel y trabajas en un hospital, necesitas aprender a ponerte un impermeable de vez en cuando. Si tu piel es de cuero y tienes hijos, necesitas aprender a bajarla a veces, o no sentirás lo que ellos sienten.
+No es mejor tener piel gruesa o fina. Es solo diferente. Pero si tu piel es de papel y trabajas en un hospital, necesitas aprender a ponerte un impermeable de vez en cuando. Si tu piel es de cuero y tienes hijos, necesitas aprender a bajarla a veces, o no sentirás lo que ellos sienten.
 
 La permeabilidad no es virtud ni defecto. Es parámetro estructural, en gran medida calibrado durante la primera infancia. Como vimos en el capítulo 11, la sincronía temprana entre madre e hijo no solo enseña al niño que el otro existe —enseña hasta qué punto el otro debe ser tratado como información urgente. Un horizonte que se calibró en entorno donde la lectura precisa del estado del otro era cuestión de supervivencia desarrolla permeabilidad muy alta. Lo que en la infancia fue habilidad protectora se convierte, en la vida adulta, en vulnerabilidad estructural: el horizonte sigue tratando cualquier señal externa con grado de urgencia que la situación ya no requiere.
 
@@ -528,7 +528,7 @@ Un horizonte saludable resuelve esta restricción mediante capacidad de acoplars
 
 Cuando la permeabilidad es excesiva, el desacoplamiento no ocurre. El horizonte permanece resonando con cada señal ajena hasta que la siguiente lo sobrescribe. No hay periodo de retorno. La frecuencia base —la del propio horizonte— deja de ser el estado por defecto y pasa a ser, en el mejor de los casos, memoria.
 
-El resultado, sostenido en el tiempo, es lo que la neurociencia clínica llama fatiga por compasión o burnout empático. En los términos de este experimento: horizonte que procesa entropía externa a tasa que amenaza su integridad estructural. El sistema ha consumido tanto Phi modelando a los demás que ya no le queda capacidad para modelarse a sí mismo. And un horizonte que ha perdido su propio modelo no es exactamente un horizonte. Es reservorio sin frontera.
+El resultado, sostenido en el tiempo, es lo que la neurociencia clínica llama fatiga por compasión o burnout empático. En los términos de este experimento: horizonte que procesa entropía externa a tasa que amenaza su integridad estructural. El sistema ha consumido tanto Phi modelando a los demás que ya no le queda capacidad para modelarse a sí mismo. Y un horizonte que ha perdido su propio modelo no es exactamente un horizonte. Es reservorio sin frontera.
 
 > **En física esto se llama:** burnout empático, colapso de Phi por sobreuso.  
 > **En la vida diaria es como:** un espejo que refleja tanto que olvida quién es el que mira.
@@ -537,7 +537,7 @@ El resultado, sostenido en el tiempo, es lo que la neurociencia clínica llama f
 
 Cuando un horizonte se acerca al umbral de saturación, suele reaccionar de la única manera que puede sin construir nada nuevo: contrayéndose de golpe. Se aísla. Se vuelve cínico. Deja de coger el teléfono. Levanta el muro.
 
-El muro funciona, en cierto sentido. Detiene el sufrimiento. But detiene también la conexión, y con ella, parte significativa de lo que hacía que el horizonte fuera quien era. La contracción abrupta no devuelve al horizonte a su frecuencia base. Lo lleva a frecuencia más baja, más estrecha, en la que ninguna otra resuena pero tampoco la propia se sostiene sin esfuerzo. El horizonte aislado no es horizonte intacto: es horizonte que ha perdido más de lo que protegía.
+El muro funciona, en cierto sentido. Detiene el sufrimiento. Pero detiene también la conexión, y con ella, parte significativa de lo que hacía que el horizonte fuera quien era. La contracción abrupta no devuelve al horizonte a su frecuencia base. Lo lleva a frecuencia más baja, más estrecha, en la que ninguna otra resuena pero tampoco la propia se sostiene sin esfuerzo. El horizonte aislado no es horizonte intacto: es horizonte que ha perdido más de lo que protegía.
 
 > **En física esto se llama:** contracción defensiva, muro como auto-daño.  
 > **En la vida diaria es como:** cerrar todas las ventanas para no sentir frío, y quedarte sin aire.
@@ -571,7 +571,7 @@ La diferencia entre arder con el otro y sostenerlo mientras arde no es de intens
 
 ### La empatía como campo de interferencias
 
-Hasta aquí hemos tratado la empatía como operación entre dos horizontes: uno que emite y otro que recibe. But la empatía real ocurre en espacios sociales donde múltiples horizontes emiten simultáneamente, y donde la señal de uno no llega pura sino mezclada con la de todos los demás.
+Hasta aquí hemos tratado la empatía como operación entre dos horizontes: uno que emite y otro que recibe. Pero la empatía real ocurre en espacios sociales donde múltiples horizontes emiten simultáneamente, y donde la señal de uno no llega pura sino mezclada con la de todos los demás.
 
 Imagina una sala de espera de urgencias. Hay quien llora en silencio, quien grita, quien espera con expresión petrificada, quien habla por teléfono con voz quebrada, quien duerme en la silla de al lado como si nada. El horizonte permeable no recibe estas señales una a una: las recibe todas a la vez, superpuestas, sin filtro jerárquico que las ordene por urgencia real.
 
@@ -615,28 +615,28 @@ Hay un fenómeno que parece empatía invertida. No es que el horizonte reciba la
 > **En física esto se llama:** acoplamiento forzado o sincronización de fase liderada, donde un oscilador de mayor amplitud impone su frecuencia a los de menor amplitud.  
 > **En la vida diaria es como:** cuando alguien entra en una habitación y el silencio se reorganiza alrededor de su voz, aunque no haya hablado todavía.
 
-El carisma no es belleza ni inteligencia ni virtud. Son horizontes hermosos, brillantes y buenos que carecen de carisma, y horizontes ordinarios que lo irradian con una naturalidad que desconcierta. Desde el modelo, el carisma es una propiedad informacional: la coherencia interna del horizonte es tan alta que su señal llega a los demás sin ruido, sin contradicción, sin las microfugas que suelen distraer. Cuando un horizonte carismático habla, el otro no escucha palabras: recibe un estado. And estados son mucho más contagiosos que argumentos.
+El carisma no es belleza ni inteligencia ni virtud. Son horizontes hermosos, brillantes y buenos que carecen de carisma, y horizontes ordinarios que lo irradian con una naturalidad que desconcierta. Desde el modelo, el carisma es una propiedad informacional: la coherencia interna del horizonte es tan alta que su señal llega a los demás sin ruido, sin contradicción, sin las microfugas que suelen distraer. Cuando un horizonte carismático habla, el otro no escucha palabras: recibe un estado. Y estados son mucho más contagiosos que argumentos.
 
 Esto explica algo que la psicología social documenta desde hace décadas: el carisma no depende del contenido sino de la entrega. Un horizonte que duda de sí mismo emite interferencia. La duda es información que compite con el mensaje. El horizonte carismático, en cambio, ha resuelto —o nunca tuvo— la pregunta de si merece ocupar el espacio que ocupa. Esa ausencia de duda no es arrogancia: es silencio de fondo excepcionalmente bajo. El mensaje llega limpio porque no hay otros mensajes simultáneos.
 
 > **En física esto se llama:** alta relación señal-ruido, coherencia de fase.  
 > **En la vida diaria es como:** la diferencia entre un violinista que mira sus dedos mientras toca y uno que cierra los ojos: el segundo transmite más porque interfiere menos.
 
-But el carisma tiene geometría peligrosa. Un horizonte que impone frecuencia puede hacerlo para expandir la libertad del otro —el líder que enseña, el artista que abre— o para anularla. La diferencia no está en el mecanismo sino en la dirección: el carisma generoso amplía el horizonte ajeno, le muestra correlaciones que no había visto, le ofrece frecuencias nuevas que puede adoptar o rechazar. El carisma depredador, en cambio, comprime el horizonte ajeno hasta que solo puede resonar con él. Es la secta, el culto a la personalidad, la relación tóxica donde el carisma del otro se convierte en tu única fuente de coherencia.
+Pero el carisma tiene geometría peligrosa. Un horizonte que impone frecuencia puede hacerlo para expandir la libertad del otro —el líder que enseña, el artista que abre— o para anularla. La diferencia no está en el mecanismo sino en la dirección: el carisma generoso amplía el horizonte ajeno, le muestra correlaciones que no había visto, le ofrece frecuencias nuevas que puede adoptar o rechazar. El carisma depredador, en cambio, comprime el horizonte ajeno hasta que solo puede resonar con él. Es la secta, el culto a la personalidad, la relación tóxica donde el carisma del otro se convierte en tu única fuente de coherencia.
 
 > **En física esto se llama:** amplificación paramétrica versus colapso forzado del espacio de fases del oscilador acoplado.  
 > **En la vida diaria es como:** la diferencia entre un fuego que calma y un fuego que quema todo el oxígeno de la habitación.
 
-La vulnerabilidad del carisma es que depende de una coherencia que ningún horizonte puede sostener indefinidamente. Los líderes carismáticos que envejecen mal son los que confundieron la coherencia con la verdad: creyeron que porque su señal imponía frecuencia, su frecuencia era la correcta. And cuando el horizonte se agrieta —porque todos se agrietan— la caída es más visible porque la señal era tan clara que la interferencia nueva resulta intolerable. El carisma no envejece bien cuando no ha dejado espacio para la duda.
+La vulnerabilidad del carisma es que depende de una coherencia que ningún horizonte puede sostener indefinidamente. Los líderes carismáticos que envejecen mal son los que confundieron la coherencia con la verdad: creyeron que porque su señal imponía frecuencia, su frecuencia era la correcta. Y cuando el horizonte se agrieta —porque todos se agrietan— la caída es más visible porque la señal era tan clara que la interferencia nueva resulta intolerable. El carisma no envejece bien cuando no ha dejado espacio para la duda.
 
 Esto nos lleva a una distinción útil. Hay carismas que invitan a la resonancia y carismas que exigen la sumisión. El primero es un horizonte que dice: "aquí hay una frecuencia, si te sirve, úsala". El segundo es un horizonte que dice: "mi frecuencia es la única que cuenta". El modelo no tiene vocabulario moral para distinguirlos, pero tiene vocabulario geométrico: uno preserva los grados de libertad del horizonte ajeno, el otro los reduce.
 
 > **En física esto se llama:** conservación versus reducción de la dimensionalidad del sistema acoplado.  
 > **En la vida diaria es como:** la diferencia entre un anfitrión que ofrece asiento y uno que te indica dónde debes sentarte, cómo debes sentarte, y cuánto tiempo.
 
-La relación entre carisma y empatía es, entonces, de espejo inverso. La empatía es receptividad: el horizonte se abre a la frecuencia del otro. El carisma es transmisividad: el horizonte ofrece una frecuencia que el otro puede adoptar. Los dos mecanismos comparten la misma infraestructura neural —circuito de espejo, insula, cíngulo anterior— pero operan en direcciones opuestas. El empático lee; el carismático escribe. And cuando alguien posee ambas capacidades en grado alto, el resultado es una presencia que simultáneamente comprende e impone: el tipo de persona ante la cual no puedes mentir, pero tampoco puedes dejar de seguir.
+La relación entre carisma y empatía es, entonces, de espejo inverso. La empatía es receptividad: el horizonte se abre a la frecuencia del otro. El carisma es transmisividad: el horizonte ofrece una frecuencia que el otro puede adoptar. Los dos mecanismos comparten la misma infraestructura neural —circuito de espejo, insula, cíngulo anterior— pero operan en direcciones opuestas. El empático lee; el carismático escribe. Y cuando alguien posee ambas capacidades en grado alto, el resultado es una presencia que simultáneamente comprende e impone: el tipo de persona ante la cual no puedes mentir, pero tampoco puedes dejar de seguir.
 
-Eso no es santidad. Es arquitectura. And como toda arquitectura, puede usarse para sostener o para aprisionar.
+Eso no es santidad. Es arquitectura. Y como toda arquitectura, puede usarse para sostener o para aprisionar.
 
 ### La empatía en la cultura
 
@@ -647,11 +647,11 @@ Estas diferencias culturales no son arbitrarias. Tienen que ver con la estructur
 > **En física esto se llama:** el campo social calibra los parámetros del sistema individual.  
 > **En la vida diaria es como:** un termostato ajustado a la temperatura de la casa: no es que el termostato sea distinto, es que la casa necesita otra temperatura.
 
-But hay un límite. La cultura puede calibrar la empatía hacia arriba o hacia abajo, pero no puede eliminar la necesidad de alguna forma de acoplamiento con los demás. Los humanos somos una especie social: nuestro sistema nervioso se desarrolla en presencia de otros, y su funcionamiento óptimo requiere señales sociales. La cultura que elimina por completo la empatía no produce autonomía: produce aislamiento patológico.
+Pero hay un límite. La cultura puede calibrar la empatía hacia arriba o hacia abajo, pero no puede eliminar la necesidad de alguna forma de acoplamiento con los demás. Los humanos somos una especie social: nuestro sistema nervioso se desarrolla en presencia de otros, y su funcionamiento óptimo requiere señales sociales. La cultura que elimina por completo la empatía no produce autonomía: produce aislamiento patológico.
 
 ### El límite como frontera viva
 
-Todo horizonte tiene límite. No es fallo: es condición de existencia. Un horizonte sin límite no es horizonte más grande: es reservorio. And el reservorio, por definición, no tiene adentro ni afuera, no tiene quién empatice ni con quién. La empatía requiere frontera, y la frontera requiere límite.
+Todo horizonte tiene límite. No es fallo: es condición de existencia. Un horizonte sin límite no es horizonte más grande: es reservorio. Y el reservorio, por definición, no tiene adentro ni afuera, no tiene quién empatice ni con quién. La empatía requiere frontera, y la frontera requiere límite.
 
 > **En física esto se llama:** límite como condición de existencia del horizonte.  
 > **En la vida diaria es como:** una membrana celular: sin ella, no hay célula, solo sopa.
@@ -677,13 +677,13 @@ La pregunta correcta no es "¿debería empatizar más?". Es "¿dónde está mi l
 >
 > **Preguntas que quedan:** ¿Cómo enseñar anclaje? ¿Es el límite empático fijo o entrenable? ¿Puede una cultura eliminar la empatía sin producir patología?
 >
-> **Si solo te quedas con una idea:** Empatizar sin ancla no es virtud. Es evaporación. And un horizonte evaporado no puede cuidar a nadie.
+> **Si solo te quedas con una idea:** Empatizar sin ancla no es virtud. Es evaporación. Y un horizonte evaporado no puede cuidar a nadie.
 >
 > **Lecturas:** Singer & Klimecki (2014), "Empathy and compassion"; Ainley, Maister & Tsakiris (2015); Fukushima, Terasawa & Umeda (2011); Decety (2011), "The Neuroevolution of Empathy".`,
     illustration: {
       id: "il16",
       title: "La piel emocional",
-      description: "Tres figuras con pieles visibles: Papel (transparente, ondas atraviesan), Cuero (opaca, rebotan), Ancla (glowing core, procesa and libera). Readers can visualize the emotional boundary."
+      description: "Tres figuras con pieles visibles: Papel (transparente, ondas atraviesan), Cuero (opaca, rebotan), Ancla (glowing core, procesa y libera). Readers can visualize the emotional boundary."
     }
   },
   {
@@ -739,9 +739,9 @@ Las culturas que han eliminado los ritos del duelo —que esperan que la gente "
 
 La maquinaria cognitiva responsable de esto se conoce relativamente bien. El cerebro humano construye, durante el entrelazamiento sostenido con otro, modelo predictivo complejo de ese otro: cómo se mueve, qué dice, qué piensa probablemente en cada situación. Ese modelo se ejecuta continuamente, en paralelo con la percepción del mundo, anticipando las respuestas del otro antes de que ocurran. Esa anticipación es lo que permite la sincronía del vínculo del que hablamos en el capítulo 7: dos horizontes que llevan años juntos no se predicen tanto como anticipan, en el mismo instante, lo que está a punto de ocurrir.
 
-Cuando uno de los dos muere, el modelo del otro no se borra. Sigue corriendo. Las predicciones se siguen produciendo. And cada predicción, al no encontrar confirmación —al no llegar la respuesta que el modelo esperaba—, genera error de predicción que el sistema interpreta como dolor.
+Cuando uno de los dos muere, el modelo del otro no se borra. Sigue corriendo. Las predicciones se siguen produciendo. Y cada predicción, al no encontrar confirmación —al no llegar la respuesta que el modelo esperaba—, genera error de predicción que el sistema interpreta como dolor.
 
-But —y aquí está el punto que la neurociencia ha tardado en reconocer— las predicciones no cesan porque el sistema no puede dejar de hacerlas sin desmantelar parte de sí mismo. El modelo no es módulo separable. Está distribuido por toda la arquitectura del horizonte: implica memoria, percepción, regulación emocional, sentido del tiempo. Apagarlo significaría apagar gran parte de lo que hace que el horizonte sea ese horizonte.
+Pero —y aquí está el punto que la neurociencia ha tardado en reconocer— las predicciones no cesan porque el sistema no puede dejar de hacerlas sin desmantelar parte de sí mismo. El modelo no es módulo separable. Está distribuido por toda la arquitectura del horizonte: implica memoria, percepción, regulación emocional, sentido del tiempo. Apagarlo significaría apagar gran parte de lo que hace que el horizonte sea ese horizonte.
 
 > **En física esto se llama:** modelo predictivo persistente, no modular.  
 > **En la vida diaria es como:** seguir hablando en una conversación que el otro ya abandonó: no puedes parar porque la conversación eres tú.
@@ -770,7 +770,7 @@ La muerte de una mascota es otro. Para quienes no tienen mascotas, parece exager
 > **En física esto se llama:** duelo sin contenedor social: pérdida real sin rituales de reconocimiento.  
 > **En la vida diaria es como:** gritar bajo el agua: el grito es real, pero nadie lo oye.
 
-La ruptura amorosa también es duelo no reconocido. El otro sigue vivo, pero el entrelazamiento que el horizonte había nombrado como amor ha sido cortado. La arquitectura reorganizada alrededor de ese vínculo no puede "pasar página" porque la inscripción persiste. And la cultura, que valora la "superación", presiona para que el horizonte se recupere rápidamente, sin entender que la recuperación requiere reorganización, no negación.
+La ruptura amorosa también es duelo no reconocido. El otro sigue vivo, pero el entrelazamiento que el horizonte había nombrado como amor ha sido cortado. La arquitectura reorganizada alrededor de ese vínculo no puede "pasar página" porque la inscripción persiste. Y la cultura, que valora la "superación", presiona para que el horizonte se recupere rápidamente, sin entender que la recuperación requiere reorganización, no negación.
 
 ### El duelo en el cuerpo
 
@@ -790,7 +790,7 @@ Lo que la literatura clínica ha empezado a llamar, con cierta cautela, *continu
 
 La viuda que no quiere que su marido se disuelva llega habiendo intuido esto sin haberlo formulado. No quiere disolver. No quiere olvidar. Quiere llevar al marido dentro sin que el peso de llevarlo le impida moverse. Esa formulación —*llevarlo y seguir*— es la formulación correcta del duelo viable. No es resolución. Es reorganización. La arquitectura no recupera la simetría que tenía cuando los dos estaban; pero aprende a sostener la asimetría sin colapsar.
 
-Esto no es comunicar con el muerto. Es reconocer que el muerto está, sin emitir, en la geometría del horizonte vivo. And aceptar que esa presencia geométrica es la única forma de presencia que ya es posible —y que es, en cierto modo, suficiente.
+Esto no es comunicar con el muerto. Es reconocer que el muerto está, sin emitir, en la geometría del horizonte vivo. Y aceptar que esa presencia geométrica es la única forma de presencia que ya es posible —y que es, en cierto modo, suficiente.
 
 ### La pérdida de un hijo
 
@@ -801,7 +801,7 @@ El capítulo 11 describió la maternidad como fabricación del reservorio. Cuand
 > **En física esto se llama:** pérdida de la condensación que uno ayudó a producir.  
 > **En la vida diaria es como:** un escultor que ve destruida su obra maestra: no es solo la pérdida de algo bello, es la pérdida de algo que salió de sus manos.
 
-Este duelo no tiene nombre suficiente. No es "duelo complicado": es duelo imposible. El modelo no puede predecir cómo se reorganiza un horizonte que ha perdido la condensación que fabricó. Solo puede decir que la reorganización, si ocurre, toma décadas, no meses. And que muchas veces no ocurre.
+Este duelo no tiene nombre suficiente. No es "duelo complicado": es duelo imposible. El modelo no puede predecir cómo se reorganiza un horizonte que ha perdido la condensación que fabricó. Solo puede decir que la reorganización, si ocurre, toma décadas, no meses. Y que muchas veces no ocurre.
 
 ### El experimento no consuela
 
@@ -821,7 +821,7 @@ Eso no es consuelo. Pero puede ser compañía.
 >
 > **Preguntas que quedan:** ¿Es "continuing bonds" adaptación o evitación? ¿Cómo distinguir reorganización sana de colapso evitado? ¿Por qué algunas culturas sanan el duelo mejor que otras?
 >
-> **Si solo te quedas con una idea:** El duelo no es olvidar. Es aprender a caminar con una mochila que no puedes quitarte. And a veces, lo más honesto que puedes hacer es simplemente seguir caminando.
+> **Si solo te quedas con una idea:** El duelo no es olvidar. Es aprender a caminar con una mochila que no puedes quitarte. Y a veces, lo más honesto que puedes hacer es simplemente seguir caminando.
 >
 > **Lecturas:** O'Connor (2019), "Grief"; DSM-5 (trastorno de duelo prolongado); Klass, Silverman & Nickman (1996), "Continuing Bonds"; Stroebe & Schut (1999), "The Dual Process Model of Coping with Bereavement".` ,
     illustration: {

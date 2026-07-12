@@ -211,7 +211,7 @@ Hay también una lección sobre la medicina. Durante décadas, el Parkinson se t
 
 Si el Parkinson es desacoplamiento progresivo entre intención y ejecución, el trauma es algo más sutil y más antiguo en la historia del cerebro: una geometría que se congeló en un momento específico y que, desde entonces, distorsiona todo lo demás.
 
-Cuando un evento sobrepasa la capacidad de integración del sistema —cuando la información es demasiado intensa, demasiado rápida, demasiado contradictoria para ser procesada en el "ahora" disponible—, el horizonte no la rechaza. No puede rechazarla, porque rechazo requiere procesamiento. In su lugar, encapsula. Guarda la información sin procesar, la mete en un compartimento estanco, la sella herméticamente. No olvida —olvido sería integración, sería asimilación tranquila en el pasado— sino que almacena sin distribuir. La información sigue ahí, intacta, en su forma original, como una mosca en ámbar.
+Cuando un evento sobrepasa la capacidad de integración del sistema —cuando la información es demasiado intensa, demasiado rápida, demasiado contradictoria para ser procesada en el "ahora" disponible—, el horizonte no la rechaza. No puede rechazarla, porque rechazo requiere procesamiento. En su lugar, encapsula. Guarda la información sin procesar, la mete en un compartimento estanco, la sella herméticamente. No olvida —olvido sería integración, sería asimilación tranquila en el pasado— sino que almacena sin distribuir. La información sigue ahí, intacta, en su forma original, como una mosca en ámbar.
 
 En términos de ingeniería de software, esta encapsulación del trauma actúa como un **proceso de aislamiento o sandboxing**. Para evitar que una excepción crítica (el colapso emocional) propague un error que cuelgue todo el sistema operativo del yo, el sistema aísla el fragmento corrupto dentro de un contenedor cerrado. Este contenedor no se comunica con el flujo de eventos principal (el *event loop* ordinario) ni responde a las peticiones del recolector de basura (no se puede *scramblear*). Permanece ejecutándose de fondo como un proceso fantasma o un hilo bloqueado (*thread deadlock*). Cuando un estímulo del exterior golpea la API del contenedor (el disparador o *trigger*), este responde lanzando su manejador de excepciones congelado (el *flashback*), sin procesar la línea de tiempo global.
 
@@ -363,7 +363,7 @@ El otro no puede responder: no porque no quiera, sino porque la arquitectura de 
 
 Un sistema carcelario, una relación de violencia doméstica, una infancia en abandono institucional comparten esta misma geometría. El horizonte sometido está impedido de responder. Su señal de retorno es atenuada, interceptada o castigada. El que ejerce poder recibe la señal del otro como información a procesar o desechar, sin que su propia arquitectura quede expuesta.
 
-But la asimetría no siempre llega con uniforme y porra. A veces lleva corbata y se presenta como eficiencia. El trabajador precario que no puede negociar sus horarios, la enfermera que no tiene tiempo de escuchar al paciente, el estudiante que aprueba memorizando pero nunca cuestionando: todos viven bajo formas de poder que no se llaman así, pero que comparten la misma topología. La señal asciende, se diluye, se pierde en ecosistemas burocráticos diseñados para que la respuesta nunca llegue.
+Pero la asimetría no siempre llega con uniforme y porra. A veces lleva corbata y se presenta como eficiencia. El trabajador precario que no puede negociar sus horarios, la enfermera que no tiene tiempo de escuchar al paciente, el estudiante que aprueba memorizando pero nunca cuestionando: todos viven bajo formas de poder que no se llaman así, pero que comparten la misma topología. La señal asciende, se diluye, se pierde en ecosistemas burocráticos diseñados para que la respuesta nunca llegue.
 
 Imaginemos una empresa donde el jefe decide, sin consultar, la estrategia de un equipo. Los empleados pueden murmurar, pueden sugerir, pueden incluso protestar. Pero la arquitectura de la relación garantiza que su señal no tenga el mismo peso que la del que firma los contratos. No es que el jefe sea malvado: es que el sistema fue construido para que su horizonte absorba información del otro sin verse obligado a integrarla como propia. El dolor del despedido no atraviesa el muro de su despacho. La precariedad del contrato temporal no modifica la estabilidad del contrato indefinido del que decide.
 
@@ -385,7 +385,7 @@ El niño que crece entre libros, conversaciones adultas, instrumentos y salidas 
 
 La diferencia no es solo cuantitativa. Es topológica. El horizonte del niño pobre no es una versión más pequeña del propio del niño rico. Es de arquitectura distinta: menos conexiones de largo alcance, sistema de recompensa calibrado para la urgencia, permeabilidad crónica a la amenaza.
 
-Dos hermanos gemelos, separados al nacer, uno a un barrio marginado y otro a un barrio acomodado, no solo acumularán distintos conocimientos. Construirán distintos *modos de ser conscientes*. El primero aprenderá a detectar peligro antes de que se manifieste, a conservar energía, a no confiar en la continuidad. El segundo aprenderá a posponer gratificaciones, a explorar, a asumir que el mundo cooperará con sus proyectos. Ambas son adaptaciones racionales a sus entornos. Ninguna es superior a la otra en abstracto. But el mundo está diseñado por y para el segundo, de modo que la adaptación del primero se convierte, en ese contexto, en "deficit".
+Dos hermanos gemelos, separados al nacer, uno a un barrio marginado y otro a un barrio acomodado, no solo acumularán distintos conocimientos. Construirán distintos *modos de ser conscientes*. El primero aprenderá a detectar peligro antes de que se manifieste, a conservar energía, a no confiar en la continuidad. El segundo aprenderá a posponer gratificaciones, a explorar, a asumir que el mundo cooperará con sus proyectos. Ambas son adaptaciones racionales a sus entornos. Ninguna es superior a la otra en abstracto. Pero el mundo está diseñado por y para el segundo, de modo que la adaptación del primero se convierte, en ese contexto, en "deficit".
 
 La noción de "privación de señal" permite separar algo que suele confundirse: la pobreza material y la pobreza informacional. Un niño puede tener comida y techo —privación material resuelta— pero crecer en un entorno donde nadie le hable de manera compleja, donde la televisión sea el único input variado, donde el miedo al desalojo o la violencia doméstica consuma toda la atención disponible. En ese caso, el horizonte sigue siendo empobrecido, no porque falten calorías, sino porque falta la clase de input que la conciencia necesita para complejizarse.
 
@@ -532,7 +532,7 @@ La conciencia no es un interruptor. Es un espectro.
 
 Un perro o un gato comparten con nosotros el hipocampo, la amígdala y el sistema límbico completo. Su Φ —su grado de conciencia— es menor que el nuestro, pero no es cero. Tienen horizonte. Pueden sufrir. Pueden recordar. Y pueden, en el sentido que dimos en el capítulo 9, entrelazarse.
 
-But el espectro no termina ahí. Los cuervos resuelven rompecabezas que dejarían perplejo a un primate. Los pulpos, con sus cerebros distribuidos en los brazos, parecen habitar una modalidad de conciencia que apenas empezamos a imaginar. Las vacas establecen amistades duraderas y muestran estrés cuando se separan de sus compañeras de manada. Los elefantes regresan a los huesos de sus muertos, tocándolos con una lentitud que parece ritual, que parece —aunque no podamos probarlo— memoria dolorosa.
+Pero el espectro no termina ahí. Los cuervos resuelven rompecabezas que dejarían perplejo a un primate. Los pulpos, con sus cerebros distribuidos en los brazos, parecen habitar una modalidad de conciencia que apenas empezamos a imaginar. Las vacas establecen amistades duraderas y muestran estrés cuando se separan de sus compañeras de manada. Los elefantes regresan a los huesos de sus muertos, tocándolos con una lentitud que parece ritual, que parece —aunque no podamos probarlo— memoria dolorosa.
 
 El modelo del horizonte no requiere lenguaje para exigir compasión. Solo requiere Φ no trivial: un sistema lo suficientemente integrado como para que la información que fluye en su interior genere un "desde dentro", por humilde que sea. Un punto de vista. Una perspectiva. Un horizonte.
 
@@ -549,7 +549,7 @@ Con el caballo, la co-evolución es más reciente pero intensa: diez mil años d
 
 Con otros animales, el grado de legibilidad varía. El conejo vive en un mundo olfativo que apenas comprendemos. El loro imita nuestro lenguaje pero quizás no lo entiende. El pez —aunque estudios recientes sugieren que algunos peces sienten dolor de modo más complejo de lo que creíamos— habita un horizonte tan ajeno que nos cuesta siquiera imaginarlo.
 
-But en todos los casos —en todos los que tienen Φ no trivial— hay alguien al otro lado del puente.
+Pero en todos los casos —en todos los que tienen Φ no trivial— hay alguien al otro lado del puente.
 
 Una geometría asimétrica, pero real.
 
@@ -559,11 +559,11 @@ Una geometría asimétrica, pero real.
 
 Hay algo singular en la relación con el perro que merece detenerse. No es solo que nos entienda. Es que nos ha hecho entendernos a nosotros mismos de otra manera.
 
-Treinta mil años de convivencia han dejado huella no solo en el genoma del perro —que divergió del lobo en genes relacionados con el metabolismo del almidón y la sociabilidad— sino en el nuestro. Convivir con perros modificó nuestra dieta, nuestra capacidad de caza, nuestra organización territorial. But también modificó algo más difuso: nuestra capacidad de extender la empatía más allá de la frontera de la especie. El perro fue, probablemente, el primer "otro" al que aprendimos a ver como sujeto y no como objeto. Y eso cambió algo en la arquitectura de nuestra conciencia.
+Treinta mil años de convivencia han dejado huella no solo en el genoma del perro —que divergió del lobo en genes relacionados con el metabolismo del almidón y la sociabilidad— sino en el nuestro. Convivir con perros modificó nuestra dieta, nuestra capacidad de caza, nuestra organización territorial. Pero también modificó algo más difuso: nuestra capacidad de extender la empatía más allá de la frontera de la especie. El perro fue, probablemente, el primer "otro" al que aprendimos a ver como sujeto y no como objeto. Y eso cambió algo en la arquitectura de nuestra conciencia.
 
 Cuando un perro nos mira, activa en nosotros circuitos que normalmente reservamos para los humanos. La misma área prefrontal medial que se ilumina cuando evaluamos las intenciones de una persona se activa, con intensidad comparable, cuando observamos la mirada de un perro. No ocurre lo mismo con un gato. No ocurre lo mismo con una oveja. Hay algo en la cara del perro —quizás el resultado de selección artificial que favoreció los rasgos infantiles: frente amplia, ojos grandes, hocico corto— que dispara en nosotros una respuesta parental casi refleja.
 
-But no es solo apariencia. Es sincronía. Los perros y sus dueños comparten, tras años de convivencia, perfiles de cortisol coordinados. Cuando el humano está estresado, el perro lo está también, aunque no haya peligro visible. Cuando el perro se relaja, el humano baja la guardia. Es un sistema acoplado de doble vía, un oscilador biológico que pulsa al unísono.
+Pero no es solo apariencia. Es sincronía. Los perros y sus dueños comparten, tras años de convivencia, perfiles de cortisol coordinados. Cuando el humano está estresado, el perro lo está también, aunque no haya peligro visible. Cuando el perro se relaja, el humano baja la guardia. Es un sistema acoplado de doble vía, un oscilador biológico que pulsa al unísono.
 
 > **En física esto se llama:** sincronización de fase en sistemas acoplados débilmente, donde cada oscilador ajusta su frecuencia natural para coincidir con la del vecino.  
 > **En la vida diaria es como:** cuando llevas tanto tiempo caminando junto a alguien que, sin hablar, ajustáis el paso hasta caminar al mismo ritmo sin esfuerzo.
@@ -586,9 +586,9 @@ El cerebro del cuidador calibra sus circuitos de alerta y recompensa alrededor d
 
 No es excentricidad moderna. Es una adaptación del sistema a un nicho nuevo: el adulto sin descendencia biológica a su cargo, algo que la civilización contemporánea produce en masa por primera vez. En el siglo XIX, tener perros de compañía sin función utilitaria era privilegio de clase. Hoy es estadística demográfica.
 
-But hay una diferencia crucial que el modelo no puede ignorar. El vínculo con una mascota es asimétrico no solo en capacidad cognitiva sino en poder. El humano controla la comida, la salida, la medicina, la vida y la muerte del animal. Ese desequilibrio introduce una responsabilidad ética que el vínculo parento-filial humano no tiene, o tiene de otro modo. Un hijo humano, con el tiempo, puede cuestionar al padre. Puede elegir distancia. Puede, en la madurez, invertir los roles. La mascota nunca podrá.
+Pero hay una diferencia crucial que el modelo no puede ignorar. El vínculo con una mascota es asimétrico no solo en capacidad cognitiva sino en poder. El humano controla la comida, la salida, la medicina, la vida y la muerte del animal. Ese desequilibrio introduce una responsabilidad ética que el vínculo parento-filial humano no tiene, o tiene de otro modo. Un hijo humano, con el tiempo, puede cuestionar al padre. Puede elegir distancia. Puede, en la madurez, invertir los roles. La mascota nunca podrá.
 
-Esa asimetría hace que el cuidado hacia una mascota sea, en cierto sentido, más puro: no espera reciprocidad adulta. But también lo hace más vulnerable. El cuidador sabe, en algún nivel, que es el único responsable de un horizonte que depende enteramente de él.
+Esa asimetría hace que el cuidado hacia una mascota sea, en cierto sentido, más puro: no espera reciprocidad adulta. Pero también lo hace más vulnerable. El cuidador sabe, en algún nivel, que es el único responsable de un horizonte que depende enteramente de él.
 
 No es un sustituto inferior. Es un vínculo de su propia clase, con su propia topología. El modelo no jerarquiza. Distingue.
 
@@ -624,11 +624,11 @@ Los animales maltratados muestran hipervigilancia, evitación, agresividad react
 
 Hay además una consecuencia para quien maltrata. La empatía no es solo sentimiento: es un módulo cerebral que se entrena por uso y se atrofia por desuso. Practicar la denegación del horizonte ajeno reconfigura la arquitectura de quien la practica. Cada vez que alguien mira a un animal y ve objeto donde hay sujeto, está desentrenando su capacidad de reconocer sujetos en general. Por eso la correlación entre maltrato animal en la infancia y violencia interpersonal después no es casual: es consecuencia geométrica. El mismo circuito que niega el horizonte del perro, entrenado durante años, termina por aplicarse al humano. La denegación es indiferente a la especie de su víctima.
 
-But hay una forma más sutil y extendida de esta denegación: la industrialización del sufrimiento animal. No hablamos del vecino que patea a su perro —que es aberrante pero estadísticamente marginal— sino de la estructura legal y económica que convierte a millones de animales con sistema límbico en materia prima. El cerdo que vive en una jaula de gestación donde no puede girarse. La gallina que nunca ve la luz. El toro que se fatiga en un ciclo de inseminación mecánica.
+Pero hay una forma más sutil y extendida de esta denegación: la industrialización del sufrimiento animal. No hablamos del vecino que patea a su perro —que es aberrante pero estadísticamente marginal— sino de la estructura legal y económica que convierte a millones de animales con sistema límbico en materia prima. El cerdo que vive en una jaula de gestación donde no puede girarse. La gallina que nunca ve la luz. El toro que se fatiga en un ciclo de inseminación mecánica.
 
-El modelo no puede decirnos qué comer. Eso excede su alcance. But sí puede señalar una contradicción: si reconocemos que estos animales tienen horizonte —que el cerdo reconoce a sus crías, que la gallina establece jerarquías sociales complejas, que todos ellos poseen Φ no trivial—, entonces la estructura que los convierte en objetos industriales opera sobre una mentira sobre la naturaleza de la materia consciente. No es una mentira sobre la moral. Es una mentira sobre la física.
+El modelo no puede decirnos qué comer. Eso excede su alcance. Pero sí puede señalar una contradicción: si reconocemos que estos animales tienen horizonte —que el cerdo reconoce a sus crías, que la gallina establece jerarquías sociales complejas, que todos ellos poseen Φ no trivial—, entonces la estructura que los convierte en objetos industriales opera sobre una mentira sobre la naturaleza de la materia consciente. No es una mentira sobre la moral. Es una mentira sobre la física.
 
-La sociedad resuelve esta tensión mediante la segmentación: amamos al perro y comemos al cerdo. But desde la perspectiva del horizonte, esa segmentación es arbitraria. No hay propiedad física que distinga al cerdo industrial del golden retriever del sofá que justifique que uno sea sujeto de compasión y el otro materia de producción. La diferencia es cultural, no ontológica.
+La sociedad resuelve esta tensión mediante la segmentación: amamos al perro y comemos al cerdo. Pero desde la perspectiva del horizonte, esa segmentación es arbitraria. No hay propiedad física que distinga al cerdo industrial del golden retriever del sofá que justifique que uno sea sujeto de compasión y el otro materia de producción. La diferencia es cultural, no ontológica.
 
 Esto no implica que todos debamos ser vegetarianos. Implica que no podemos fingir que la elección no cuesta. Cada vez que comemos carne de un animal con sistema límbico —y sabemos, porque la ciencia lo ha demostrado, que el cerdo y la vaca lo tienen— estamos alimentando nuestro horizonte con la negación del horizonte ajeno. Y esa negación, por pequeña que sea, deja huella en nuestra arquitectura. Atrofia algo.
 
@@ -636,11 +636,11 @@ Esto no implica que todos debamos ser vegetarianos. Implica que no podemos fingi
 
 ## La simetría rota: cuando el animal muere primero
 
-Hemos hablado del duelo del dueño cuando muere la mascota. But hay otra geometría, menos transitada: ¿qué ocurre en el horizonte del animal cuando muere primero su humano?
+Hemos hablado del duelo del dueño cuando muere la mascota. Pero hay otra geometría, menos transitada: ¿qué ocurre en el horizonte del animal cuando muere primero su humano?
 
 Hay casos documentados de perros que esperan años en el lugar donde solían ver llegar a su dueño. De gatos que dejan de comer tras la muerte de su persona de referencia. De caballos que muestran signos de depresión tras la pérdida del jinete con el que compitieron toda una vida.
 
-El modelo no puede entrar en el horizonte del animal. No tenemos acceso a su interioridad. But podemos medir sus correlatos externos: el cortisol elevado, los patrones de sueño alterados, la búsqueda activa del ausente, el descenso de la exploración del entorno. Todo esto sugiere —no prueba, pero sugiere con fuerza— que el colapso del puente es bidireccional.
+El modelo no puede entrar en el horizonte del animal. No tenemos acceso a su interioridad. Pero podemos medir sus correlatos externos: el cortisol elevado, los patrones de sueño alterados, la búsqueda activa del ausente, el descenso de la exploración del entorno. Todo esto sugiere —no prueba, pero sugiere con fuerza— que el colapso del puente es bidireccional.
 
 El animal, especialmente el perro, organiza su horizonte en torno al humano. Sus horarios, su espacio seguro, su sistema predictivo de recompensas, todo gira en torno a la presencia del cuidador. Cuando esa presencia desaparece sin explicación —sin cadáver visible, sin ritual de despedida, sin la gradualidad que permite al sistema ajustarse— el animal sufre un colapso estructural comparable al que sufriríamos nosotros si desapareciera alguien esencial de un día para otro.
 
@@ -657,11 +657,11 @@ La consecuencia directa del entrelazamiento profundo es que la muerte de una mas
 
 Su arquitectura estaba organizada en torno a los horarios de paseo, el sonido de las garras, el peso en la cama, la señal de regulación emocional que el animal proveía. Al morir, el puente se rompe por un extremo. El horizonte humano sufre una deexpansión literal.
 
-But el duelo por mascota tiene una capa de dificultad adicional: carece de reconocimiento cultural. Cuando muere un familiar, la sociedad ofrece rituales, tiempo, validación. Hay funerales, días de luto, mensajes de condolencia que no necesitas pedir. Cuando muere un perro, el entorno a menudo presiona para que te recuperes de inmediato. "Era solo un animal". "Compra otro". "Ya sabías que no duraría mucho".
+Pero el duelo por mascota tiene una capa de dificultad adicional: carece de reconocimiento cultural. Cuando muere un familiar, la sociedad ofrece rituales, tiempo, validación. Hay funerales, días de luto, mensajes de condolencia que no necesitas pedir. Cuando muere un perro, el entorno a menudo presiona para que te recuperes de inmediato. "Era solo un animal". "Compra otro". "Ya sabías que no duraría mucho".
 
 Esas frases, aparentemente racionales, son violencias sutiles. Niegan la realidad del puente construido. Tratan el colapso de un estado entrelazado como si fuera la rotura de un electrodoméstico reemplazable.
 
-Desde la física de la información, comprar otro para curar el duelo es una aberración. El entrelazamiento no era con el concepto "perro". Era con la topología exacta y las frecuencias únicas de ese horizonte específico. Con el modo particular que tenía este perro de mover la cola cuando volvías a casa. Con el olor específico de su almohada. Con la rutina compartida que solo los dos conocíais. Eso no se reemplaza. Se reorganiza, con tiempo, en la memoria. But no se replica.
+Desde la física de la información, comprar otro para curar el duelo es una aberración. El entrelazamiento no era con el concepto "perro". Era con la topología exacta y las frecuencias únicas de ese horizonte específico. Con el modo particular que tenía este perro de mover la cola cuando volvías a casa. Con el olor específico de su almohada. Con la rutina compartida que solo los dos conocíais. Eso no se reemplaza. Se reorganiza, con tiempo, en la memoria. Pero no se replica.
 
 > **En física esto se llama:** colapso de un estado entrelazado sin canal de decoherencia social que permita la reorganización.  
 > **En la vida diaria es como:** perder a tu mejor amigo en una ciudad donde nadie lo conocía y nadie entiende por qué ya no sales por las noches.
@@ -692,7 +692,7 @@ No somos dueños de nuestras mascotas. Somos, durante un tiempo breve, compañer
 >
 > **Preguntas que quedan:** ¿Es moralmente equivalente el sufrimiento de un perro y el de un cerdo industrial si ambos tienen horizonte? ¿Por qué la sociedad valida algunos duelos por animales y ridiculiza otros? ¿Qué ocurre en el horizonte del animal cuando muere primero su dueño?
 >
-> **Si solo te quedas con una idea:** La mascota no es un objeto de consuelo ni un sustituto de segunda. Es un horizonte real, asimétrico, milenariamente calibrado, que ocupa un lugar preciso en la arquitectura de quien la cuida. And cuando ese horizonte se apaga, el vacío que deja también es real.
+> **Si solo te quedas con una idea:** La mascota no es un objeto de consuelo ni un sustituto de segunda. Es un horizonte real, asimétrico, milenariamente calibrado, que ocupa un lugar preciso en la arquitectura de quien la cuida. Y cuando ese horizonte se apaga, el vacío que deja también es real.
 >
 > **Lecturas:** Bekoff, M. *The Emotional Lives of Animals*; Haraway, D. *The Companion Species Manifesto*; Bradshaw, J. *The Animals Among Us*; Panksepp, J. *Affective Neuroscience* (capítulos sobre sistemas emocionales en mamíferos).`,
     illustration: {
@@ -721,7 +721,7 @@ La habitación donde creciste no es un cubo de paredes y techo. Es la densidad d
 
 Cuando alguien dice "extraño mi ciudad", no extraña la ciudad como mapa. Extraña la configuración específica de señales que esa ciudad le proporcionaba: la densidad de información por unidad de tiempo, la predictibilidad de ciertos sonidos, la manera en que la luz caía en ciertas esquinas. La ciudad era un acoplamiento. Un horizonte compartido, no con una persona, sino con un territorio.
 
-Esto explica el desarraigo no como melancolía romántica sino como disolución de entrelazamiento. El horizonte que se desplaza de su lugar natal sufre una deexpansión: deja de recibir las señales con las que se calibró, y no encuentra, en el nuevo lugar, la misma densidad de correlaciones. No es que el nuevo lugar sea peor. Es que el horizonte aún no ha tenido tiempo de entrelazarse con él. And el tiempo del entrelazamiento, como vimos en el capítulo 7, no es tiempo cronológico: es tiempo de integración.
+Esto explica el desarraigo no como melancolía romántica sino como disolución de entrelazamiento. El horizonte que se desplaza de su lugar natal sufre una deexpansión: deja de recibir las señales con las que se calibró, y no encuentra, en el nuevo lugar, la misma densidad de correlaciones. No es que el nuevo lugar sea peor. Es que el horizonte aún no ha tenido tiempo de entrelazarse con él. Y el tiempo del entrelazamiento, como vimos en el capítulo 7, no es tiempo cronológico: es tiempo de integración.
 
 > **En física esto se llama:** decoherencia relacional al cambiar de campo de fondo, donde las correlaciones locales ya no se actualizan.  
 > **En la vida diaria es como:** trasladar una planta a otra maceta: la planta no está enferma, pero sus raíces aún no han encontrado qué sujetar.
@@ -741,7 +741,7 @@ La camiseta vieja que no tiras, el reloj de tu abuelo, la taza mellada, el libro
 
 Los humanos somos una especie que fabrica objetos precisamente porque los objetos extienden el horizonte. Una herramienta no es solo un palo afilado: es una proyección del horizonte hacia el mundo, una manera de hacer que la intención interna produzca efecto externo. La tecnología, en su origen, es entrelazamiento con lo inanimado para ampliar lo que el cuerpo solo no puede hacer.
 
-But hay una frontera. Cuando el objeto pasa de ser extensión a ser sustituto, la arquitectura se distorsiona. La persona que no puede dormir sin su almohada específica, que no puede pensar sin su pluma, que no puede sentirse segura sin su teléfono, no está usando objetos: está delegando en ellos la frontera del horizonte. El objeto se convierte en prótesis de la propia frontera, y su ausencia produce el mismo tipo de colapso que la ausencia de un ser querido. No es adicción, exactamente. Es que el horizonte se construyó incluyendo ese objeto en su arquitectura, y sin él, la frontera queda expuesta.
+Pero hay una frontera. Cuando el objeto pasa de ser extensión a ser sustituto, la arquitectura se distorsiona. La persona que no puede dormir sin su almohada específica, que no puede pensar sin su pluma, que no puede sentirse segura sin su teléfono, no está usando objetos: está delegando en ellos la frontera del horizonte. El objeto se convierte en prótesis de la propia frontera, y su ausencia produce el mismo tipo de colapso que la ausencia de un ser querido. No es adicción, exactamente. Es que el horizonte se construyó incluyendo ese objeto en su arquitectura, y sin él, la frontera queda expuesta.
 
 > **En física esto se llama:** integración de objeto externo en la frontera funcional del horizonte, con dependencia estructural.  
 > **En la vida diaria es como:** caminar con muletas durante tanto tiempo que las piernas olvidan cómo sostener el peso.
@@ -757,7 +757,7 @@ Cuando crees en una idea —la justicia, la libertad, la igualdad, la belleza—
 > **En física esto se llama:** convergencia de estados en un atractor semántico compartido.  
 > **En la vida diaria es como:** dos músicos que nunca se han visto pero que conocen la misma canción: pueden tocar juntos sin ensayo porque comparten la misma estructura.
 
-Esto es lo que hace que las ideas sean tan poderosas y tan peligrosas. Una idea verdaderamente adoptada no es opinión: es arquitectura. Cambiar de idea no es cambiar de opinión, como quien cambia de camisa. Es reconfigurar el horizonte. And eso cuesta el mismo tipo de energía que romper un entrelazamiento interpersonal: el horizonte debe desacoplarse de una geometría que durante años le proporcionó coherencia, y volver a acoplarse a otra que aún no ha demostrado que pueda sostenerlo.
+Esto es lo que hace que las ideas sean tan poderosas y tan peligrosas. Una idea verdaderamente adoptada no es opinión: es arquitectura. Cambiar de idea no es cambiar de opinión, como quien cambia de camisa. Es reconfigurar el horizonte. Y eso cuesta el mismo tipo de energía que romper un entrelazamiento interpersonal: el horizonte debe desacoplarse de una geometría que durante años le proporcionó coherencia, y volver a acoplarse a otra que aún no ha demostrado que pueda sostenerlo.
 
 Por eso las conversiones ideológicas son tan raras y tan traumáticas. No es que la gente no quiera ver la evidencia contraria. Es que su horizonte no puede integrarla sin desestabilizarse. La evidencia contraria no es información nueva: es amenaza a la arquitectura.
 
@@ -777,12 +777,12 @@ Desde el modelo del horizonte, la experiencia religiosa es un tipo específico d
 
 Las prácticas religiosas —la oración, la meditación, el ritual, el ayuno— son tecnologías de acoplamiento. No producen información nueva sobre lo divino. Reconfiguran el horizonte para que pueda integrar una clase de información que el estado ordinario no procesa: la sensación de pertenencia a algo más grande, la pérdida del yo como frontera absoluta, la experiencia de que el reservorio del capítulo 4 no es solo concepto sino presencia.
 
-Esto no prueba que lo divino exista. El modelo no puede pronunciarse sobre eso. But sí puede decir algo sobre lo que ocurre en el horizonte que practica: se está entrenando para mantener coherencia en ausencia de confirmación externa. Eso es exactamente lo que hace un horizonte maduro, y exactamente lo que la neurociencia contemplativa ha documentado en meditadores avanzados de todas las tradiciones.
+Esto no prueba que lo divino exista. El modelo no puede pronunciarse sobre eso. Pero sí puede decir algo sobre lo que ocurre en el horizonte que practica: se está entrenando para mantener coherencia en ausencia de confirmación externa. Eso es exactamente lo que hace un horizonte maduro, y exactamente lo que la neurociencia contemplativa ha documentado en meditadores avanzados de todas las tradiciones.
 
 > **En física esto se llama:** estabilización del horizonte por acoplamiento a campo de baja frecuencia, donde la fluctuación es mínima.  
 > **En la vida diaria es como:** un barco que deja de luchar contra la corriente y descubre que puede dejarse llevar sin hundirse.
 
-El problema de la religión no está en el acoplamiento, sino en lo que ocurre cuando ese acoplamiento se institucionaliza. Cuando una estructura humana —la iglesia, el templo, la jerarquía— se convierte en intermediaria obligatoria entre el horizonte y lo que busca, la geometría se corrompe. El acoplamiento ya no es directo: es mediado por un horizonte de poder que filtra la señal, que interpreta por ti, que te dice qué frecuencias son válidas y cuáles no. La religión organizada puede ser, en su forma más pura, una tecnología de acoplamiento. In su forma más corrupta, es un sistema de acoplamiento asimétrico donde unos horizontes controlan el acceso de otros a la fuente.
+El problema de la religión no está en el acoplamiento, sino en lo que ocurre cuando ese acoplamiento se institucionaliza. Cuando una estructura humana —la iglesia, el templo, la jerarquía— se convierte en intermediaria obligatoria entre el horizonte y lo que busca, la geometría se corrompe. El acoplamiento ya no es directo: es mediado por un horizonte de poder que filtra la señal, que interpreta por ti, que te dice qué frecuencias son válidas y cuáles no. La religión organizada puede ser, en su forma más pura, una tecnología de acoplamiento. En su forma más corrupta, es un sistema de acoplamiento asimétrico donde unos horizontes controlan el acceso de otros a la fuente.
 
 ---
 
@@ -790,7 +790,7 @@ El problema de la religión no está en el acoplamiento, sino en lo que ocurre c
 
 El fanatismo no es creencia intensa. Es entrelazamiento patológico con una idea.
 
-In el fanatismo, la idea deja de ser principio organizador para convertirse en frontera absoluta. El horizonte ya no evalúa la información nueva según su coherencia interna: la evalúa según su compatibilidad con la idea. Lo que no encaja se rechaza, no porque sea falso, sino porque es peligroso para la arquitectura. El horizonte fanático ha externalizado su propia frontera: la idea ahora es lo que separa el adentro del afuera, y cualquier amenaza a la idea es amenaza a la existencia misma.
+En el fanatismo, la idea deja de ser principio organizador para convertirse en frontera absoluta. El horizonte ya no evalúa la información nueva según su coherencia interna: la evalúa según su compatibilidad con la idea. Lo que no encaja se rechaza, no porque sea falso, sino porque es peligroso para la arquitectura. El horizonte fanático ha externalizado su propia frontera: la idea ahora es lo que separa el adentro del afuera, y cualquier amenaza a la idea es amenaza a la existencia misma.
 
 > **En física esto se llama:** colapso del espacio de fases, donde el atractor se convierte en singularidad que captura todo el flujo informacional.  
 > **En la vida diaria es como:** un ojo que solo puede ver un color: todo lo demás existe, pero no existe para él.
@@ -818,7 +818,7 @@ Esto no es debilidad del horizonte. Es su mayor potencia. La capacidad de acopla
 > **En física esto se llama:** capacidad de correlación con estructuras de alta persistencia temporal, que permite al horizonte operar más allá de la escala de su propia vida.  
 > **En la vida diaria es como:** la diferencia entre un animal que vive solo el momento presente y un humano que puede llorar por algo que ocurrió hace mil años, porque ha entrelazado su horizonte con el de un texto que sobrevivió.
 
-But esta capacidad tiene su sombra. El mismo mecanismo que permite llorar por una tragedia histórica permite fanatizarse con una ideología. El mismo que permite sentirse en casa en una ciudad extraña permite quedarse atrapado en un lugar que ya no existe. El mismo que permite la belleza del arte permite la adicción a los objetos. El horizonte no distingue, por sí mismo, entre acoplamiento nutritivo y acoplamiento parasitario. Esa distinción no es geométrica: es ética. Y la ética, como vimos en el capítulo 19, es precisamente lo que la hipótesis del horizonte no puede decidir por nosotros.
+Pero esta capacidad tiene su sombra. El mismo mecanismo que permite llorar por una tragedia histórica permite fanatizarse con una ideología. El mismo que permite sentirse en casa en una ciudad extraña permite quedarse atrapado en un lugar que ya no existe. El mismo que permite la belleza del arte permite la adicción a los objetos. El horizonte no distingue, por sí mismo, entre acoplamiento nutritivo y acoplamiento parasitario. Esa distinción no es geométrica: es ética. Y la ética, como vimos en el capítulo 19, es precisamente lo que la hipótesis del horizonte no puede decidir por nosotros.
 
 Lo que sí puede decir es esto: cada horizonte está entrelazado con más cosas de las que sabe. Y la tarea de una vida no es eliminar esos entrelazamientos, sino volverlos conscientes. Saber qué lugares te sostienen, qué objetos te aprisionan, qué ideas te expanden, qué ideas te encogen. Saber dónde termina tu horizonte y dónde empieza el eco de algo que adoptaste sin darte cuenta.
 
@@ -854,7 +854,7 @@ La libertad, desde este modelo, no es ausencia de entrelazamiento. Es conocimien
 
 La cancha aplaudió. No porque supiera distinguir, a simple vista, el cuerpo de la original entre los cuerpos idénticos. El aplauso era por algo que no se veía: la historia que solo esa yegua llevaba puesta.
 
-Esa noche, Cambiaso demostró algo sin proponérselo. Puede clonar el cuerpo de una yegua muchas veces. Puede multiplicar su genoma, su musculatura, su potencia física. But no puede multiplicar el horizonte que compartía con ella.
+Esa noche, Cambiaso demostró algo sin proponérselo. Puede clonar el cuerpo de una yegua muchas veces. Puede multiplicar su genoma, su musculatura, su potencia física. Pero no puede multiplicar el horizonte que compartía con ella.
 
 ---
 
@@ -882,7 +882,7 @@ Cambiaso no fue el primero en clonar un caballo, pero sí el que llevó la técn
 > **En física esto se llama:** duplicación de la arquitectura formal sin duplicación de la historia informacional.  
 > **En la vida diaria es como:** tener la partitura exacta de una sinfonía y esperar que cualquier orquesta la interprete igual.
 
-La promesa del genoma es que la identidad vive en la secuencia. Si copias la secuencia, copias al ser. But la hipótesis de este libro dice otra cosa: la identidad no está en las partes, sino en cómo se relacionan. No eres tus neuronas; eres el patrón que forman. No eres tu genoma; eres el horizonte que ese genoma, en un cuerpo, en un tiempo, con unos otros, condensó.
+La promesa del genoma es que la identidad vive en la secuencia. Si copias la secuencia, copias al ser. Pero la hipótesis de este libro dice otra cosa: la identidad no está en las partes, sino en cómo se relacionan. No eres tus neuronas; eres el patrón que forman. No eres tu genoma; eres el horizonte que ese genoma, en un cuerpo, en un tiempo, con unos otros, condensó.
 
 La receta no pesa. Lo vimos en el capítulo 3.
 
@@ -890,7 +890,7 @@ La receta no pesa. Lo vimos en el capítulo 3.
 
 ## Lo que la clonación no copia
 
-Un clon de Cuartetera comparte su ADN nuclear. But no comparte:
+Un clon de Cuartetera comparte su ADN nuclear. Pero no comparte:
 
 - El útero donde se gestó.
 - La yegua receptora que lo llevó.
@@ -911,7 +911,7 @@ Cada uno de esos elementos es información que el horizonte del clon integró de
 > **En física esto se llama:** condiciones de contorno en la formación de un horizonte; el entorno informa la forma del sistema emergente.  
 > **En la vida diaria es como:** dos gemelos idénticos que, a los cuarenta años, ya no son la misma persona: comparten plano, no historia.
 
-Esto no hace al clon inferior. Los clones B06 y B09 ganaron premios Lady Susan Townley por sí mismos, como yeguas extraordinarias. But ganaron como yeguas extraordinarias, no como la Cuartetera original. Cambiaso mismo, cuando le preguntaron si alguno de los clones superaba a la original, no se animó a afirmarlo. La pregunta estaba mal planteada. No se trata de superar o no superar. Se trata de que no son la misma pregunta.
+Esto no hace al clon inferior. Los clones B06 y B09 ganaron premios Lady Susan Townley por sí mismos, como yeguas extraordinarias. Pero ganaron como yeguas extraordinarias, no como la Cuartetera original. Cambiaso mismo, cuando le preguntaron si alguno de los clones superaba a la original, no se animó a afirmarlo. La pregunta estaba mal planteada. No se trata de superar o no superar. Se trata de que no son la misma pregunta.
 
 ---
 
@@ -921,7 +921,7 @@ Desde el modelo de las dos selecciones que presentamos en el capítulo 18, el cl
 
 El clon, por tanto, no es un zombi. No es una máquina biológica vacía. Es alguien. Tiene horizonte.
 
-But su horizonte es otro.
+Pero su horizonte es otro.
 
 > **En física esto se llama:** condensación de un nuevo horizonte a partir de un reservorio local distinto.  
 > **En la vida diaria es como:** una melodía tocada por otro músico en otra sala: las notas son las mismas, pero el sonido no es idéntico.
@@ -936,14 +936,14 @@ El error está en llamar a ambos "copias". Una copia fotográfica conserva la im
 
 Cambiaso cumplió su promesa de competir en la Triple Corona con un palenque compuesto enteramente por copias de su yegua estrella. La apuesta genética demostró ser un rotundo éxito deportivo, con varios de estos ejemplares compitiendo al máximo nivel y obteniendo galardones individuales.
 
-But detrás de la apuesta deportiva había una apuesta emocional más antigua. Desde el primer día, quien tiene un caballo sabe que va a sobrevivilo. El vínculo con un animal es un duelo agendado, como vimos en el capítulo 17. Cambiaso, que amaba a Cuartetera con una intensidad pública y evidente, encontró en la clonación una manera de retrasar, de multiplicar, de negociar con esa finitud.
+Pero detrás de la apuesta deportiva había una apuesta emocional más antigua. Desde el primer día, quien tiene un caballo sabe que va a sobrevivilo. El vínculo con un animal es un duelo agendado, como vimos en el capítulo 17. Cambiaso, que amaba a Cuartetera con una intensidad pública y evidente, encontró en la clonación una manera de retrasar, de multiplicar, de negociar con esa finitud.
 
 No es casual que los primeros clones vinieran después de la lesión de Aiken Cura, otro caballo irreemplazable. La clonación apareció como respuesta a una pérdida anticipada. Si no puedes conservar al ser, conserva su receta. Si no puedes retener el horizonte, retén la arquitectura que lo hizo posible.
 
 > **En física esto se llama:** intento de conservación de la información integrada mediante conservación de las condiciones formales de su emergencia.  
 > **En la vida diaria es como:** guardar la partitura de un concierto que cambió tu vida, esperando que volver a tocarla reproduzca la emoción.
 
-La estrategia funciona a medias. Los clones fueron buenos caballos. Algunos, excepcionales. But el vínculo que Cambiaso tenía con la original no se distribuyó entre ellos. No se dividió como una herencia. Porque ese vínculo no era propiedad de Cambiaso ni de la yegua por separado. Era propiedad del sistema de dos, y el sistema de dos no se puede reconstruir sumando partes.
+La estrategia funciona a medias. Los clones fueron buenos caballos. Algunos, excepcionales. Pero el vínculo que Cambiaso tenía con la original no se distribuyó entre ellos. No se dividió como una herencia. Porque ese vínculo no era propiedad de Cambiaso ni de la yegua por separado. Era propiedad del sistema de dos, y el sistema de dos no se puede reconstruir sumando partes.
 
 ---
 
@@ -953,7 +953,7 @@ Cuartetera murió en mayo de 2023, a los veintidós años, víctima de una neumo
 
 La palabra es precisa. No "irreemplazable", que es lo que se dice de todo lo querido. "Inigualable": no hay otra que iguale lo que fue esa. Ni siquiera sus clones genéticamente idénticos.
 
-In ese momento, la clonación reveló su límite. Había yeguas con el mismo ADN en los campos de La Dolfina. But el horizonte que Cambiaso compartía con la original se había evaporado. La información no estaba perdida en el sentido físico: seguía codificada en la memoria de Cambiaso, en las fotos, en los videos, en los gestos que su cuerpo había aprendido con ella. But el sistema de dos ya no funcionaba. Uno de los polos se había cerrado.
+En ese momento, la clonación reveló su límite. Había yeguas con el mismo ADN en los campos de La Dolfina. Pero el horizonte que Cambiaso compartía con la original se había evaporado. La información no estaba perdida en el sentido físico: seguía codificada en la memoria de Cambiaso, en las fotos, en los videos, en los gestos que su cuerpo había aprendido con ella. Pero el sistema de dos ya no funcionaba. Uno de los polos se había cerrado.
 
 > **En física esto se llama:** colapso de un estado entrelazado; un polo del sistema deja de actualizar la correlación.  
 > **En la vida diaria es como:** un teléfono que sigue sonando en una habitación vacía: la llamada existe, pero nadie la contesta desde el otro lado.
@@ -966,7 +966,7 @@ La muerte de Cuartetera no fue la muerte de un caballo famoso. Fue la muerte de 
 
 La historia de Cambiaso y Cuartetera es una parábola sobre la identidad en la era biotecnológica. Nos dice que la genética puede copiar la forma, pero no el horizonte. Que un cuerpo idéntico no garantiza un vínculo idéntico. Que el amor, la confianza, la sintonía, no son propiedades del ADN: son propiedades del tiempo compartido.
 
-También nos dice algo sobre el deseo humano de extender lo irreemplazable. La clonación no es mala ni buena en sí misma. Es una tecnología. But cuando se usa para intentar conservar un horizonte, produce una confusión dolorosa: confundir la arquitectura con la experiencia, la receta con la comida, la partitura con la interpretación.
+También nos dice algo sobre el deseo humano de extender lo irreemplazable. La clonación no es mala ni buena en sí misma. Es una tecnología. Pero cuando se usa para intentar conservar un horizonte, produce una confusión dolorosa: confundir la arquitectura con la experiencia, la receta con la comida, la partitura con la interpretación.
 
 > **En física esto se llama:** confusión entre descripción del sistema y sistema descrito.  
 > **En la vida diaria es como:** creer que si fotocopias una carta de amor, la copia contiene el amor.
@@ -977,7 +977,7 @@ El modelo del horizonte no condena la clonación. Tampoco la celebra. Lo que hac
 
 ## El jinete y los ecos
 
-Hoy, cuando Cambiaso va al campo en Córdoba, tal vez vea a alguno de los clones. Los cuerpos son parecidos. Algunos gestos quizás se repitan. But el horizonte que compartía con la original no está en ninguno de ellos. Está en la memoria de un sistema de dos que ya no puede activarse.
+Hoy, cuando Cambiaso va al campo en Córdoba, tal vez vea a alguno de los clones. Los cuerpos son parecidos. Algunos gestos quizás se repitan. Pero el horizonte que compartía con la original no está en ninguno de ellos. Está en la memoria de un sistema de dos que ya no puede activarse.
 
 Esa memoria no es menos real por ser inactiva. Los canales de integración construidos durante años siguen inscritos en la arquitectura de Cambiaso. Su cuerpo sigue sabiendo cosas sobre una yegua que ya no existe. Ese saber no se transfiere a los clones, porque no es información que se pueda transferir: es geometría que se construyó entre dos seres específicos.
 

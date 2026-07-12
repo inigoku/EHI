@@ -126,7 +126,7 @@ Y esto explica algo que ya sabemos de propia experiencia: del sueño profundo no
 
 ¿Es entonces el sueño profundo el estado más parecido a la muerte? Sí, con una diferencia estructural decisiva: el sueño profundo mantiene la arquitectura sináptica intacta y el metabolismo basal activo. El mecanismo de recuperación está garantizado. Cada noche cruzamos ese borde y volvemos. La muerte es el cruce sin retorno.
 
-But hay algo más. Algo que los estudios recientes han encontrado en el umbral de la muerte que no aparece en el sueño profundo, y que cambia la imagen completa.
+Pero hay algo más. Algo que los estudios recientes han encontrado en el umbral de la muerte que no aparece en el sueño profundo, y que cambia la imagen completa.
 
 En 2013, el equipo de Jimo Borjigin en la Universidad de Michigan detectó algo inesperado en ratas sometidas a paro cardíaco inducido: en el momento del colapso, el cerebro no cae suavemente hacia el silencio. Hay una activación gamma intensa y coherente —no el ruido caótico del estrés, sino una señal organizada y sincronizada que recuerda más al sueño REM que al sueño profundo. En 2023, el mismo equipo publicó resultados similares en pacientes humanos.
 
@@ -139,7 +139,7 @@ Si el horizonte del sueño profundo está opaco y contraído, el horizonte en el
 
 Superficialmente, la meditación profunda y el sueño profundo se parecen. Quietud, inmovilidad, ojos cerrados, reducción del pensamiento discursivo. Un observador externo podría confundirlos.
 
-But la firma neurológica es radicalmente opuesta.
+Pero la firma neurológica es radicalmente opuesta.
 
 En el sueño profundo: ondas delta lentas de alta amplitud, sincronización masiva, Phi bajo, el córtex no propaga señales más allá de su región local. En meditación profunda de practicantes avanzados: ondas gamma de alta frecuencia, amplitud extraordinaria, sincronización de larga distancia entre regiones frontales, parietales y occipitales, Phi elevado o máximo.
 
@@ -181,7 +181,7 @@ Ese medio segundo de no-yo al despertar bruscamente no es un fallo del sistema. 
 
 La vigilia ordinaria es el horizonte activo, integrado, abierto al mundo y a sí mismo. El sueño REM es el horizonte que se ha vuelto hacia dentro, procesando con toda su potencia pero sin contacto exterior. El sueño profundo es el horizonte contraído hasta casi su límite mínimo, la aproximación cotidiana al estado en que la información integrada cae a cero. La meditación profunda es el horizonte que se expande en la dirección contraria, más allá de la vigilia ordinaria, hacia una integración que la actividad normal nunca alcanza. Y la muerte es, quizás, la contracción definitiva —seguida, según los datos de Borjigin y la cartografía del Bardo Thodol, de un destello final en que el horizonte hace algo que no habíamos anticipado.
 
-Cada noche practicamos la contracción sin disolvernos. Cruzamos el borde y volvemos. El yo reaparece en medio segundo, reconstruye la historia, retoma el hilo. And esa facilidad con que regresa —esa automaticidad asombrosa de la reconstrucción— es la mejor evidencia de que el horizonte sabe lo que es. Incluso cuando nadie está mirando.
+Cada noche practicamos la contracción sin disolvernos. Cruzamos el borde y volvemos. El yo reaparece en medio segundo, reconstruye la historia, retoma el hilo. Y esa facilidad con que regresa —esa automaticidad asombrosa de la reconstrucción— es la mejor evidencia de que el horizonte sabe lo que es. Incluso cuando nadie está mirando.
 
 > **En física esto se llama:** estabilidad estructural del atractor del yo: el sistema vuelve a su configuración habitual después de perturbaciones.  
 > **En la vida diaria es como:** una habitación que, al encender la luz, recupera instantáneamente su forma: las sillas, la mesa, la ventana —todo vuelve a estar donde estaba, sin que tengas que recordar dónde.
@@ -227,7 +227,7 @@ Cuando un agujero negro está presente, distorsiona este baile. Cerca del horizo
 > **En física esto se llama:** creación de partículas por campo curvo; fluctuaciones del vacío separadas por gravedad.  
 > **En la vida diaria es como:** una pareja que camina junta al borde de un acantilado: el viento es tan fuerte que uno cae y el otro es lanzado hacia atrás. Ninguno quería separarse, pero la geometría del lugar los separó.
 
-La paradoja es profunda: el agujero negro no irradia porque tenga calor interno. Irradia porque el vacío mismo, visto desde su gravedad, tiene temperatura. El horizonte no es una superficie física: es una frontera causal. And esa frontera, al interactuar con el vacío cuántico, produce radiación como un hierro caliente produce vapor al mojarse.
+La paradoja es profunda: el agujero negro no irradia porque tenga calor interno. Irradia porque el vacío mismo, visto desde su gravedad, tiene temperatura. El horizonte no es una superficie física: es una frontera causal. Y esa frontera, al interactuar con el vacío cuántico, produce radiación como un hierro caliente produce vapor al mojarse.
 
 > **En física esto se llama:** temperatura de Hawking proporcional a la gravedad superficial del horizonte.  
 > **En la vida diaria es como:** una ventana muy fría en invierno: el cristal no está caliente, pero el contraste de temperaturas hace que se forme escarcha.
@@ -249,7 +249,7 @@ La resolución que hoy parece más probable —aunque no está demostrada— es 
 
 En sus últimas fracciones de segundo, la temperatura sube de manera catastrófica. El horizonte se adelgaza. La frontera entre el adentro y el afuera se vuelve cada vez más tenue, hasta que en el régimen de Planck la física semiclásica deja de ser válida y lo que ocurre a continuación es, honestamente, desconocido.
 
-Lo que sí sabemos: hay un instante en que el horizonte deja de existir. No se contrae hasta un punto —desaparece. La frontera que separaba el adentro del afuera cesa de ser frontera. And con ella, cesa el interior.
+Lo que sí sabemos: hay un instante en que el horizonte deja de existir. No se contrae hasta un punto —desaparece. La frontera que separaba el adentro del afuera cesa de ser frontera. Y con ella, cesa el interior.
 
 Tres cosas pueden quedar después:
 
@@ -281,9 +281,9 @@ Hay un fenómeno que la física no ha explicado y que la medicina apenas empieza
 
 El patrón es reconosible: una sensación de paz profunda, la experiencia de salir del cuerpo y observarlo desde arriba, el paso por un túnel oscuro hacia una luz brillante, un encuentro con seres de luz o con personas fallecidas, una revisión de la vida —no como juicio sino como comprensión— y, finalmente, el retorno al cuerpo, a menudo con resistencia.
 
-Los escépticos atribuyen todo esto a la anoxia cerebral, a la desregulación del córtex visual, a la liberación masiva de dimetiltriptamina endógena —la molécula de los sueños— en el momento del colapso. And es cierto que muchos de estos fenómenos pueden reproducirse artificialmente: pilotos en centrífugas de alta G reportan túneles de luz; pacientes con estimulación eléctrica del temporal reportan sentir presencias.
+Los escépticos atribuyen todo esto a la anoxia cerebral, a la desregulación del córtex visual, a la liberación masiva de dimetiltriptamina endógena —la molécula de los sueños— en el momento del colapso. Y es cierto que muchos de estos fenómenos pueden reproducirse artificialmente: pilotos en centrífugas de alta G reportan túneles de luz; pacientes con estimulación eléctrica del temporal reportan sentir presencias.
 
-But hay detalles que no encajan. Pacientes con actividad cerebral mínima —electroencefalograma plano— han reportado experiencias complejas y coherentes que solo pudieron verificar después de recuperarse: conversaciones que ocurrieron en la sala mientras estaban clínicamente muertos, detalles visuales que no podrían haber visto desde su posición, objetos colocados en estantes altos que no podrían haber visto desde la camilla.
+Pero hay detalles que no encajan. Pacientes con actividad cerebral mínima —electroencefalograma plano— han reportado experiencias complejas y coherentes que solo pudieron verificar después de recuperarse: conversaciones que ocurrieron en la sala mientras estaban clínicamente muertos, detalles visuales que no podrían haber visto desde su posición, objetos colocados en estantes altos que no podrían haber visto desde la camilla.
 
 > **En física esto se llama:** correlatos neurales de la experiencia cercana a la muerte; datos anecdóticos que desafían el modelo materialista estricto.  
 > **En la vida diaria es como:** una radio que sigue emitiendo música después de que se cortó la corriente: no debería funcionar, pero durante unos segundos sigue sonando.
@@ -357,7 +357,7 @@ Lo que la pregunta revela, al hacerse, es que nosotros queremos que la ciudad ha
 
 Los habitantes de Tarel encontraron la orilla exactamente donde había estado. El mismo lodo, las mismas piedras. No había señales de que el agua hubiera llevado algo ni dejado algo.
 
-But el agua no era la misma. El campo cuántico en que se mueven sus moléculas ha sido perturbado de maneras que ningún instrumento puede medir completamente. Las correlaciones están ahí. Matemáticamente presentes. Operacionalmente inaccesibles.
+Pero el agua no era la misma. El campo cuántico en que se mueven sus moléculas ha sido perturbado de maneras que ningún instrumento puede medir completamente. Las correlaciones están ahí. Matemáticamente presentes. Operacionalmente inaccesibles.
 
 La ciudad no volvió. El agua que volvió no era nueva. El horizonte se evaporó, y el reservorio, perturbado, recibió lo que el horizonte había sido —no como memoria sino como textura invisible del campo.
 
@@ -382,7 +382,7 @@ Quizás esa es la respuesta.
 >
 > **Preguntas que quedan:** ¿Es el karma "geometría del reservorio" o reduccionismo inadmisible? ¿Puede la física hablar del "intervalo" sin culturalizarlo? ¿Por qué las ECM son tan similares entre personas de culturas distintas?
 >
-> **Si solo te quedas con una idea:** La muerte no es apagarse. Es evaporarse: la frontera se disuelve, el interior retorna al campo. Lo que fuiste no desaparece; se mezcla. And el campo, perturbado, nunca vuelve a ser exactamente el mismo.
+> **Si solo te quedas con una idea:** La muerte no es apagarse. Es evaporarse: la frontera se disuelve, el interior retorna al campo. Lo que fuiste no desaparece; se mezcla. Y el campo, perturbado, nunca vuelve a ser exactamente el mismo.
 >
 > **Lecturas:** Hawking (1974); Hawking, Perry & Strominger (2016, soft hair); Bardo Thödol (trad. Evans-Wentz); Borjigin et al. (2013, 2023); Maldacena & Susskind (2013, ER=EPR).`,
     illustration: {
@@ -515,7 +515,7 @@ El dolor y el aburrimiento confirman el modelo desde el otro lado. El dolor sobr
 > **En física esto se llama:** desacoplamiento temporal por sobrecarga o subcarga del sistema.  
 > **En la vida diaria es como:** un atasco de tráfico: las manecillas del reloj avanzan, pero tú no llegas a ningún sitio.
 
-El **flujo** —el estado que Csikszentmihalyi documentó en artistas, deportistas y cirujanos— es el caso opuesto. La tasa de integración es máxima: el sistema absorbe y procesa sin fricción. And el tiempo desaparece.
+El **flujo** —el estado que Csikszentmihalyi documentó en artistas, deportistas y cirujanos— es el caso opuesto. La tasa de integración es máxima: el sistema absorbe y procesa sin fricción. Y el tiempo desaparece.
 
 > **En física esto se llama:** régimen de flujo: Phi máximo sin resistencia.  
 > **En la vida diaria es como:** un río que fluye cuesta abajo: vas rápido, no sientes esfuerzo, y cuando miras atrás no sabes cuánto has recorrido.
@@ -568,7 +568,7 @@ Hay un fenómeno que confirma esto de manera dramática: el síndrome de Capgras
 
 ### El tiempo en el dolor crónico
 
-El dolor agudo contrae el tiempo: cada segundo se expande hasta llenar la conciencia. Pero el dolor crónico hace algo más insidioso. Después de meses o años de dolor constante, el sistema deja de registrarlo como novedad. El dolor se convierte en fondo, en línea de base. And con él, el tiempo se aplana. Los días se vuelven intercambiables. La mañana es igual a la tarde. El martes es igual al jueves.
+El dolor agudo contrae el tiempo: cada segundo se expande hasta llenar la conciencia. Pero el dolor crónico hace algo más insidioso. Después de meses o años de dolor constante, el sistema deja de registrarlo como novedad. El dolor se convierte en fondo, en línea de base. Y con él, el tiempo se aplana. Los días se vuelven intercambiables. La mañana es igual a la tarde. El martes es igual al jueves.
 
 > **En física esto se llama:** habituación: el sistema deja de responder a estímulos constantes porque no aportan información nueva.  
 > **En la vida diaria es como:** vivir junto a una autopista: al principio oyes cada coche, pero al cabo de un mes el ruido desaparece —aunque siga estando ahí.
@@ -659,7 +659,7 @@ La velocidad y densidad del tiempo del vínculo están condicionadas por el prot
 
 El tiempo no es solo idividual: es colectivo. Los humanos somos la única especie que sincroniza sus ritmos internos a escala masiva. Los relojes, los horarios, los calendarios, las zonas horarias —son tecnologías de coordinación temporal que permiten que millones de horizontes individuales operen como un sistema mayor.
 
-But esta sincronización tiene un coste. El tiempo social es un promedio: la hora del almuerzo es las dos porque la mayoría puede comer a las dos, no porque a las dos tengas hambre. El horario laboral es de nueve a cinco porque la coordinación productiva lo requiere, no porque tu cuerpo funcione mejor en esas horas. El resultado es un desajuste crónico entre el tiempo interno y el tiempo externo que los neurocientíficos llaman "desfase social del jet lag".
+Pero esta sincronización tiene un coste. El tiempo social es un promedio: la hora del almuerzo es las dos porque la mayoría puede comer a las dos, no porque a las dos tengas hambre. El horario laboral es de nueve a cinco porque la coordinación productiva lo requiere, no porque tu cuerpo funcione mejor en esas horas. El resultado es un desajuste crónico entre el tiempo interno y el tiempo externo que los neurocientíficos llaman "desfase social del jet lag".
 
 > **En física esto se llama:** forzamiento de fase: un sistema oscilante obligado a sincronizarse con una frecuencia que no es la suya.  
 > **En la vida diaria es como:** bailar una coreografía cuando tu cuerpo quiere improvisar: sigues el ritmo, pero no es tu ritmo.
@@ -676,7 +676,7 @@ Los estudios muestran que este desajuste tiene consecuencias de salud medibles: 
 >
 > **Preguntas que quedan:** ¿Puede el tiempo subjetivo ser propiedad física, no psicológica? ¿Qué pasa con el tiempo en el duelo? ¿Por qué el dolor crónico aplana el tiempo de manera diferente al dolor agudo?
 >
-> **Si solo te quedas con una idea:** El tiempo no pasa. Se integra. And con alguien que resuena contigo, se integra más por minuto.
+> **Si solo te quedas con una idea:** El tiempo no pasa. Se integra. Y con alguien que resuena contigo, se integra más por minuto.
 >
 > **Lecturas:** Hasson et al. (2012), brain-to-brain coupling; Csikszentmihalyi (1990), "Flow"; Eagleman (2009), tiempo subjetivo; dopamina y percepción temporal (Parkinson); Roenneberg (2012), desfase social.`,
     illustration: {
@@ -768,18 +768,18 @@ No sabemos si dos cerebros pueden estar entrelazados en el sentido físico. Sabe
 > **En física esto se llama:** correlación clásica ≠ entrelazamiento cuántico.  
 > **En la vida diaria es como:** dos amigos que llevan la misma camiseta porque se la compraron juntos (correlación clásica) vs. dos gemelos que eligen la misma camiseta sin comunicarse (algo más profundo).
 
-Lo que sí podemos decir es que el entrelazamiento cuántico ofrece un vocabulario preciso para hablar de conexiones que no dependen de la proximidad espacial. And esa precisión es útil incluso si la conexión entre cerebros resulta ser solo correlación clásica, porque nos obliga a distinguir entre "estar cerca" y "estar conectado" —dos cosas que la intuición tiende a confundir.
+Lo que sí podemos decir es que el entrelazamiento cuántico ofrece un vocabulario preciso para hablar de conexiones que no dependen de la proximidad espacial. Y esa precisión es útil incluso si la conexión entre cerebros resulta ser solo correlación clásica, porque nos obliga a distinguir entre "estar cerca" y "estar conectado" —dos cosas que la intuición tiende a confundir.
 
 ### ¿Puede el entrelazamiento explicar la mente?
 
-Algunos teóricos —Roger Penrose entre ellos— han propuesto que la conciencia depende de procesos cuánticos en el cerebro. La idea es que la mente hace algo que los ordenadores clásicos no pueden hacer: comprender, intuir, crear. And que ese "algo" requiere computación cuántica.
+Algunos teóricos —Roger Penrose entre ellos— han propuesto que la conciencia depende de procesos cuánticos en el cerebro. La idea es que la mente hace algo que los ordenadores clásicos no pueden hacer: comprender, intuir, crear. Y que ese "algo" requiere computación cuántica.
 
 La mayoría de los neurocientíficos y físicos rechaza esta hipótesis. El cerebro es caliente, húmedo, ruidoso —exactamente el tipo de entorno donde la decoherencia destruye los estados cuánticos en fracciones de segundo. Los cálculos sugieren que cualquier superposición cuántica en una neurona se destruiría mucho antes de que pudiera influir en el comportamiento del sistema.
 
 > **En física esto se llama:** decoherencia en sistemas biológicos: los tiempos de coherencia son demasiado cortos para computación cuántica significativa.  
 > **En la vida diaria es como:** intentar escribir un poema en una hoja que se deshace al tacto: la tinta no se seca porque el papel ya no existe.
 
-But hay una vuelta de tuerca. En 2022, un equipo de la Universidad de Shanghai publicó resultados que sugieren que ciertos complejos de clorofila en algas mantienen estados cuánticos coherentes durante tiempos mucho mayores de lo esperado, a temperatura ambiente. Si la naturaleza ha encontrado maneras de proteger la coherencia cuántica en sistemas biológicos, quizás el cerebro también lo ha hecho —de maneras que todavía no entendemos.
+Pero hay una vuelta de tuerca. En 2022, un equipo de la Universidad de Shanghai publicó resultados que sugieren que ciertos complejos de clorofila en algas mantienen estados cuánticos coherentes durante tiempos mucho mayores de lo esperado, a temperatura ambiente. Si la naturaleza ha encontrado maneras de proteger la coherencia cuántica en sistemas biológicos, quizás el cerebro también lo ha hecho —de maneras que todavía no entendemos.
 
 > **En física esto se llama:** biología cuántica: fenómenos cuánticos en sistemas vivos.  
 > **En la vida diaria es como:** descubrir que una planta de tu jardín tiene Wi-Fi: no debería ser posible, pero ahí está.
@@ -812,7 +812,7 @@ La postura más honesta es agnóstica. No sabemos si el cerebro usa computación
     title: "EL ENTRELAZAMIENTO",
     content: `En 2013, Maldacena y Susskind reformularon la pregunta de qué es el entrelazamiento cuántico. ER=EPR afirma que el entrelazamiento entre dos sistemas cuánticos no es solo correlación estadística —es conexión geométrica. Dos partículas entrelazadas están unidas por puente de Einstein-Rosen microscópico: estructura topológica en el espacio-tiempo que conecta sus interiores aunque sus exteriores estén separados por cualquier distancia.
 
-El puente es no-traversable: no se puede enviar información más rápido que la luz. But la geometría existe. La conexión es real en el sentido en que lo es cualquier curvatura del espacio.
+El puente es no-traversable: no se puede enviar información más rápido que la luz. Pero la geometría existe. La conexión es real en el sentido en que lo es cualquier curvatura del espacio.
 
 > **En física esto se llama:** puente de Einstein-Rosen.  
 > **En la vida diaria es como:** un túnel que conecta dos montañas: no puedes viajar por él, pero las montañas comparten raíz.
@@ -852,7 +852,7 @@ El mecanismo es el **solapamiento yo-otro**: el cerebro incorpora a las personas
 
 El otro horizonte se incorpora a la arquitectura interna del propio horizonte. Sus patrones, sus ritmos, sus modos de reacción forman parte de cómo el sistema procesa el mundo. La integración es literal, no metafórica.
 
-And aquí está el detalle crítico: esto no depende del afecto. Depende de la **familiaridad**.
+Y aquí está el detalle crítico: esto no depende del afecto. Depende de la **familiaridad**.
 
 ### El entrelazamiento adversarial
 
@@ -880,7 +880,7 @@ La empatía no es imaginación. No es "ponerse en el lugar del otro". Es resonan
 > **En física esto se llama:** acoplamiento resonante entre osciladores acoplados.  
 > **En la vida diaria es como:** dos violines afinados: cuando uno suena, el otro vibra sin que lo toquen.
 
-But la empatía tiene límites. No podemos resonar con lo que no podemos modelar. Un torturador no siente la tortura de su víctima no porque carezca de neuronas espejo —las tiene— sino porque ha construido un modelo de la víctima que no incluye su experiencia subjetiva. La deshumanización no es ausencia de empatía: es empatía dirigida a un modelo que excluye la interioridad del otro.
+Pero la empatía tiene límites. No podemos resonar con lo que no podemos modelar. Un torturador no siente la tortura de su víctima no porque carezca de neuronas espejo —las tiene— sino porque ha construido un modelo de la víctima que no incluye su experiencia subjetiva. La deshumanización no es ausencia de empatía: es empatía dirigida a un modelo que excluye la interioridad del otro.
 
 > **En física esto se llama:** el modelo interno determina qué señales son resonadas y cuáles son filtradas.  
 > **En la vida diaria es como:** un filtro de agua: no deja de haber agua, pero lo que pasa es solo lo que el filtro permite.
@@ -896,7 +896,7 @@ Para el amor, esto produce el duelo reconocible: el giro hacia donde debería es
 
 El fantasma no es alucinación ni patología. Es consecuencia directa de haber construido un modelo de alta precisión de alguien que ya no está ahí para generar las señales que ese modelo esperaba.
 
-La física ofrece una imagen: es **scrambling incompleto**. El horizonte del otro se disolvió —su información se distribuyó en el reservorio. But el horizonte superviviente todavía está organizado alrededor de recibir señales del otro. Los canales de integración que se construyeron durante veinte años siguen abiertos. El entrelazamiento persiste incluso cuando uno de los dos polos ha desaparecido, porque estaba inscrito en la arquitectura del horizonte superviviente, no solo en la relación entre los dos.
+La física ofrece una imagen: es **scrambling incompleto**. El horizonte del otro se disolvió —su información se distribuyó en el reservorio. Pero el horizonte superviviente todavía está organizado alrededor de recibir señales del otro. Los canales de integración que se construyeron durante veinte años siguen abiertos. El entrelazamiento persiste incluso cuando uno de los dos polos ha desaparecido, porque estaba inscrito en la arquitectura del horizonte superviviente, no solo en la relación entre los dos.
 
 > **En física esto se llama:** entrelazamiento unilateral: la estructura de acoplamiento persiste en un polo después de que el otro ha desaparecido.  
 > **En la vida diaria es como:** un auricular que sigue emitiendo la voz de alguien que ya colgó: el cable sigue conectado, aunque el otro extremo esté vacío.
@@ -910,7 +910,7 @@ Cuando un vínculo se rompe de manera brisca, el horizonte que queda no tiene ti
 > **En física esto se llama:** discrepancia predicción-percepción: el modelo interno genera expectativas que el mundo no cumple.  
 > **En la vida diaria es como:** seguir el GPS hacia una dirección que ya no existe: la voz te dice "gire a la derecha" pero no hay calle.
 
-Las rupturas graduales son diferentes. Dan tiempo al horizonte para reajustar, para cerrar canales, para reconstruir su arquitectura sin el otro. But también dan tiempo para que el entrelazamiento se profundice antes de romperse. No hay una respuesta general sobre qué tipo de ruptura es más dolorosa: depende de la arquitectura del horizonte, de la historia del vínculo, de las condiciones del entorno.
+Las rupturas graduales son diferentes. Dan tiempo al horizonte para reajustar, para cerrar canales, para reconstruir su arquitectura sin el otro. Pero también dan tiempo para que el entrelazamiento se profundice antes de romperse. No hay una respuesta general sobre qué tipo de ruptura es más dolorosa: depende de la arquitectura del horizonte, de la historia del vínculo, de las condiciones del entorno.
 
 ### La asimetría del entrelazamiento
 
