@@ -126,15 +126,15 @@ import cuentoM87 from "../assets/images/cuentos/19_M87_puente.png";
 
 // Poemas background images
 // @ts-ignore
-import poemaArq1 from "../assets/images/poemas/imagen_p181_1.png";
+import poemaArq1 from "../assets/images/poemas/clean_poema_arq1.png";
 // @ts-ignore
-import poemaArq2 from "../assets/images/poemas/imagen_p191_1.png";
+import poemaArq2 from "../assets/images/poemas/clean_poema_arq2.png";
 // @ts-ignore
-import poemaArq3 from "../assets/images/poemas/imagen_p201_1.png";
+import poemaArq3 from "../assets/images/poemas/clean_poema_arq3.png";
 // @ts-ignore
-import poemaArq4 from "../assets/images/poemas/imagen_p217_1.png";
+import poemaArq4 from "../assets/images/poemas/clean_poema_arq4.png";
 // @ts-ignore
-import poemaGlosario from "../assets/images/poemas/imagen_p231_1.png";
+import poemaGlosario from "../assets/images/poemas/clean_poema_glosario.png";
 // @ts-ignore
 import poemaRecon1 from "../assets/images/poemas/imagen_p234_1.png";
 // @ts-ignore
