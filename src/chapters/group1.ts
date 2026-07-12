@@ -84,7 +84,6 @@ Eso es lo que la física llama **Phi (Φ)**: una medida de cuánto un sistema es
 No necesitas recordar los términos técnicos. Cuando veas una palabra que no entiendes, imagina la analogía:
 
 | Término técnico | Imagina... |
-|----------------|------------|
 | Horizonte de sucesos | La piel de la burbuja |
 | Reservorio | El océano antes de las olas |
 | Phi (Φ) | Qué tan "red" es una red |
@@ -303,7 +302,6 @@ Giulio Tononi propuso que los sistemas conscientes no solo procesan información
 Tononi formalizó esto con phi (Φ): la información que un sistema genera como un todo, por encima de lo que generarían sus partes independientemente. Phi es bajo en un termostato. Es alto en un cerebro humano despierto. Es intermedio en un perro. Es distribuido de manera extraña en un pulpo. Y cae drásticamente bajo anestesia.
 
 | Sistema | Phi (aprox) | ¿Experiencia? |
-|---------|-------------|---------------|
 | Termostato | ~0 | No (caso límite) |
 | Gusano C. elegans | Muy bajo | Algo, mínimo |
 | Abeja | Bajo-medio | Algo más, flexible |
