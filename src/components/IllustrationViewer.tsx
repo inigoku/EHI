@@ -125,6 +125,7 @@ import cuentoM87 from "../assets/images/cuentos/19_M87_puente.png";
 
 interface IllustrationViewerProps {
   illustration?: Illustration;
+  variant?: "default" | "background";
 }
 
 const imageMap: Record<string, string> = {
@@ -190,11 +191,26 @@ const imageMap: Record<string, string> = {
   cuento_m87: cuentoM87,
 };
 
-export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration }) => {
+export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration, variant = "default" }) => {
   if (!illustration) return null;
 
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
   const imgSrc = imageMap[illustration.id];
+
+  if (variant === "background") {
+    if (!imgSrc) return null;
+    return (
+      <motion.img
+        src={imgSrc}
+        alt={illustration.title}
+        className="w-full h-full object-cover select-none pointer-events-none"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+        referrerPolicy="no-referrer"
+      />
+    );
+  }
 
   if (!imgSrc) {
     return (

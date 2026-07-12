@@ -1,5 +1,5 @@
 import React from "react";
-import { allChapters, Chapter, cuentosList } from "./chapters";
+import { allChapters, Chapter, cuentosList, poemasList } from "./chapters";
 import { Sidebar } from "./components/Sidebar";
 import { ChapterContent } from "./components/ChapterContent";
 import { GlossaryDrawer } from "./components/GlossaryDrawer";
@@ -9,16 +9,19 @@ import { motion, AnimatePresence } from "motion/react";
 import { Book, Compass, EyeOff, Layout } from "lucide-react";
 
 export default function App() {
-  // State for reading mode: essay or cuentos
-  const [readingMode, setReadingMode] = React.useState<"essay" | "cuentos">(() => {
-    return (localStorage.getItem("reading_mode") as "essay" | "cuentos") || "essay";
+  // State for reading mode: essay or cuentos or poemas
+  const [readingMode, setReadingMode] = React.useState<"essay" | "cuentos" | "poemas">(() => {
+    return (localStorage.getItem("reading_mode") as "essay" | "cuentos" | "poemas") || "essay";
   });
 
-  // State for active reading chapter/cuento
+  // State for active reading chapter/cuento/poema
   const [activeChapterId, setActiveChapterId] = React.useState<string>(() => {
     const mode = localStorage.getItem("reading_mode") || "essay";
     if (mode === "cuentos") {
       return localStorage.getItem("last_read_cuento") || "cuento0";
+    }
+    if (mode === "poemas") {
+      return localStorage.getItem("last_read_poema") || "poema0";
     }
     return localStorage.getItem("last_read_chapter") || "cap0";
   });
@@ -48,6 +51,8 @@ export default function App() {
   React.useEffect(() => {
     if (readingMode === "cuentos") {
       localStorage.setItem("last_read_cuento", activeChapterId);
+    } else if (readingMode === "poemas") {
+      localStorage.setItem("last_read_poema", activeChapterId);
     } else {
       localStorage.setItem("last_read_chapter", activeChapterId);
     }
@@ -67,7 +72,9 @@ export default function App() {
 
   // Current list of items to show in navigation and sidebar
   const currentChaptersList = React.useMemo(() => {
-    return readingMode === "essay" ? allChapters : cuentosList;
+    if (readingMode === "essay") return allChapters;
+    if (readingMode === "cuentos") return cuentosList;
+    return poemasList;
   }, [readingMode]);
 
   // Find active chapter object
@@ -95,13 +102,15 @@ export default function App() {
     }
   };
 
-  // Switch between Ensayo and Cuentos, trying to preserve position via links
-  const handleModeChange = (newMode: "essay" | "cuentos") => {
+  // Switch between Ensayo, Cuentos and Poemas, trying to preserve position via links
+  const handleModeChange = (newMode: "essay" | "cuentos" | "poemas") => {
     if (newMode === readingMode) return;
     
-    const activeItem = currentChaptersList.find(c => c.id === activeChapterId);
-    let targetId = newMode === "essay" ? "cap0" : "cuento0";
+    let targetId = "cap0";
+    if (newMode === "cuentos") targetId = "cuento0";
+    if (newMode === "poemas") targetId = "poema0";
     
+    const activeItem = currentChaptersList.find(c => c.id === activeChapterId);
     if (activeItem) {
       if (newMode === "essay" && activeItem.linkedChapterId) {
         targetId = activeItem.linkedChapterId;
@@ -114,7 +123,7 @@ export default function App() {
     setActiveChapterId(targetId);
   };
 
-  const handleSwitchMode = (newMode: "essay" | "cuentos", targetId?: string) => {
+  const handleSwitchMode = (newMode: "essay" | "cuentos" | "poemas", targetId?: string) => {
     setReadingMode(newMode);
     if (targetId) {
       setActiveChapterId(targetId);
@@ -180,7 +189,7 @@ export default function App() {
           >
             <div className="flex flex-col">
               <span className={`text-[10px] uppercase tracking-[0.2em] font-sans font-bold ${themeColors.textMuted}`}>
-                {readingMode === "essay" ? "Ensayo Interactivo" : "Antología de Cuentos"}
+                {readingMode === "essay" ? "Ensayo Interactivo" : readingMode === "cuentos" ? "Antología de Cuentos" : "Antología Poética"}
               </span>
               <span className="text-xl italic font-display leading-tight">
                 El Horizonte Interior
@@ -191,10 +200,13 @@ export default function App() {
               <span>Autor: <strong className={`font-semibold ${themeColors.text}`}>Í. Barrera Barceló</strong></span>
               <span className="opacity-30">|</span>
               <span>
-                {readingMode === "essay" 
-                  ? <>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 20</strong></>
-                  : <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber || "Prólogo"} de 16</strong></>
-                }
+                {readingMode === "essay" ? (
+                  <>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 20</strong></>
+                ) : readingMode === "cuentos" ? (
+                  <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber || "Prólogo"} de 16</strong></>
+                ) : (
+                  <>Poema: <strong className={`font-semibold ${themeColors.text}`}>{activeChapterId === "poema0" ? "Especial" : activeChapterId.replace("poema", "")} de 6</strong></>
+                )}
               </span>
             </div>
           </motion.header>

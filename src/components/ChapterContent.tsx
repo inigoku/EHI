@@ -13,8 +13,8 @@ interface ChapterContentProps {
   onTermClick: (termName: string) => void;
   theme: "cosmic" | "paper" | "sepia";
   fontSize: "sm" | "base" | "lg" | "xl" | "2xl";
-  readingMode: "essay" | "cuentos";
-  onSwitchMode: (mode: "essay" | "cuentos", targetId?: string) => void;
+  readingMode: "essay" | "cuentos" | "poemas";
+  onSwitchMode: (mode: "essay" | "cuentos" | "poemas", targetId?: string) => void;
 }
 
 export const ChapterContent: React.FC<ChapterContentProps> = ({
@@ -595,10 +595,17 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             Antología de Cuentos
           </span>
         )}
+        {readingMode === "poemas" && chapter.section && (
+          <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
+            {chapter.section}
+          </span>
+        )}
         <h1 className={`font-display font-semibold text-2xl sm:text-5xl ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-slate-100"} tracking-tight max-w-3xl mx-auto leading-tight`}>
           {readingMode === "essay" 
             ? (chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && `Capítulo ${chapter.chapterNumber}: `)
-            : (chapter.chapterNumber ? `Relato ${chapter.chapterNumber}: ` : "")}
+            : readingMode === "cuentos"
+            ? (chapter.chapterNumber ? `Relato ${chapter.chapterNumber}: ` : "")
+            : ""}
           {chapter.title}
         </h1>
         {chapter.subtitle && (
@@ -631,7 +638,80 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       </motion.div>
 
       {/* Grid or Centered layout depending on readingMode */}
-      {readingMode === "cuentos" ? (
+      {readingMode === "poemas" ? (
+        <div className="max-w-4xl mx-auto space-y-8 select-text">
+          {/* Poemas mode: Full page background illustration layout */}
+          <div className="w-full relative rounded-3xl overflow-hidden shadow-2xl border border-amber-500/10 min-h-[60vh] flex flex-col justify-between">
+            {/* Background Illustration Container */}
+            <div className="absolute inset-0 z-0">
+              <div className="w-full h-full opacity-[0.2] mix-blend-screen pointer-events-none select-none">
+                <IllustrationViewer illustration={chapter.illustration} variant="background" />
+              </div>
+              <div className={`absolute inset-0 bg-gradient-to-t ${
+                theme === "cosmic"
+                  ? "from-[#0D0E12] via-[#0D0E12]/92 to-[#0D0E12]/40"
+                  : theme === "sepia"
+                  ? "from-[#FAF6EE] via-[#FAF6EE]/92 to-[#FAF6EE]/40"
+                  : "from-[#F9F6F1] via-[#F9F6F1]/92 to-[#F9F6F1]/40"
+              }`} />
+            </div>
+
+            {/* Poem Text Panel */}
+            <div className="relative z-10 p-8 sm:p-20 flex-1 flex flex-col items-center justify-center text-center">
+              <motion.div
+                key={`content-${chapter.id}`}
+                initial={{ opacity: 0, y: 15 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.8, delay: 0.1 }}
+                className={`max-w-2xl mx-auto space-y-6 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-xl tracking-wide select-text ${
+                  theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
+                }`}
+                style={{ whiteSpace: "pre-line" }}
+              >
+                {chapter.content}
+              </motion.div>
+            </div>
+
+            {/* Reflection Journal Bitácora (Collapsible inside the poem view) */}
+            <div className="relative z-10 max-w-xl mx-auto w-full px-6 pb-6">
+              <details className={`group rounded-2xl border ${tc.border} bg-slate-950/20 backdrop-blur-sm p-4 transition-all duration-300`}>
+                <summary className={`flex items-center justify-between cursor-pointer select-none text-[10px] sm:text-xs font-semibold ${tc.text} tracking-wider font-display uppercase`}>
+                  <div className="flex items-center gap-2">
+                    <PenTool className={`w-3.5 h-3.5 ${tc.accent}`} />
+                    <span>Bitácora de Reflexión Poética</span>
+                  </div>
+                  <span className="text-[10px] text-amber-500/70 group-open:hidden">Desplegar</span>
+                  <span className="text-[10px] text-amber-500/70 hidden group-open:inline">Plegar</span>
+                </summary>
+                <div className="mt-4 space-y-4">
+                  <p className={`text-[10px] ${tc.textMuted} leading-relaxed font-sans`}>
+                    Anota los ecos y sensaciones íntimas que te inspira esta poesía. Se guardarán localmente.
+                  </p>
+                  <textarea
+                    value={reflection}
+                    onChange={(e) => {
+                      setReflection(e.target.value);
+                      setIsSaved(false);
+                    }}
+                    placeholder="Escribe tus impresiones..."
+                    className={`w-full h-20 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
+                  />
+                  <button
+                    onClick={saveReflection}
+                    className={`w-full flex items-center justify-center gap-2 py-1.5 px-3 rounded-xl text-xs font-semibold tracking-wide transition-all ${
+                      isSaved
+                        ? "bg-emerald-500/10 border border-emerald-500/50 text-emerald-500"
+                        : `${tc.accentBg} cursor-pointer`
+                    }`}
+                  >
+                    {isSaved ? "¡Apunte Guardado!" : "Guardar Apunte"}
+                  </button>
+                </div>
+              </details>
+            </div>
+          </div>
+        </div>
+      ) : readingMode === "cuentos" ? (
         <div className="max-w-3xl mx-auto space-y-8">
           {/* Cuentos mode: Illustration is at the beginning, centered and large */}
           {chapter.illustration && (
@@ -846,7 +926,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
           {readingMode === "essay" 
             ? `Parte ${chapter.chapterNumber || "Especial"} de 20`
-            : `Relato ${chapter.chapterNumber || "Prólogo"} de ${cuentosList.length - 1}`}
+            : readingMode === "cuentos"
+            ? `Relato ${chapter.chapterNumber || "Prólogo"} de ${cuentosList.length - 1}`
+            : `Poema ${chapter.id === "poema0" ? "Especial" : chapter.id.replace("poema", "")} de 6`}
         </span>
 
         <button
