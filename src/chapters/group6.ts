@@ -802,7 +802,7 @@ Y este libro, también.`
 
 **Gauge local**: simetría de un sistema físico que puede variar punto a punto; en el modelo, describe la arquitectura específica de un horizonte.
 
-**Histéresis**: propiedad por la cual un sistema conserva el efecto de su historia; en el libro, la dificultad de cambiar la topología de un horizonte once formada.
+**Histéresis**: propiedad por la cual un sistema conserva el efecto de su historia; en el libro, la dificultad de cambiar la topología de un horizonte una vez formada.
 
 **Horizonte de sucesos**: frontera más allá de la cual la información no puede escapar; en conciencia, el límite entre lo que el sistema integra y lo que queda fuera.
 
