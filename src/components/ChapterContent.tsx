@@ -720,10 +720,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               className="w-full"
             >
               {reconstructTab === "poema" ? (
-                /* Poema tab: Clean layout inside card (without background image) */
-                <div className={`w-full relative rounded-3xl overflow-hidden shadow-2xl border ${tc.border} ${tc.subtleCard} min-h-[50vh] flex flex-col justify-between`}>
-                  {/* Poem Text Panel */}
-                  <div className="relative z-10 p-8 sm:p-16 flex-1 flex flex-col items-center justify-center text-center">
+                /* Poema tab: Same background as Narrativa and Ensayo */
+                <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300 flex flex-col items-center justify-center`}>
+                  <div className="w-full text-center py-4">
                     <div
                       className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-lg tracking-wide ${
                         theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
