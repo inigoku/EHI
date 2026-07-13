@@ -1078,10 +1078,10 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           )}
         </div>
       ) : (
-        /* Essay 2-column Grid Layout */
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        /* Centered Essay Layout */
+        <div className="max-w-3xl mx-auto space-y-8 select-text">
           {/* Main Text Content */}
-          <div className={`lg:col-span-8 p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
+          <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
             {chapter.illustration && !isIllustrationDuplicate(chapter, readingMode) && (
               <div className="flex justify-center mb-8 select-none">
                 <IllustrationViewer illustration={chapter.illustration} />
@@ -1108,10 +1108,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             )}
           </div>
 
-          {/* Right Panel: Notes */}
-          <div className="lg:col-span-4 space-y-6">
-
-            {/* Reflection Journal Bitácora */}
+          {/* Reflection Journal Bitácora (Centered below the text) */}
+          <div className="max-w-xl mx-auto pt-4">
             <div className={`${tc.subtleCard} rounded-2xl p-5 shadow-lg space-y-4`}>
               <div className={`flex items-center justify-between border-b ${tc.border} pb-2`}>
                 <div className="flex items-center gap-2">
