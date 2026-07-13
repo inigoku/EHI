@@ -272,6 +272,7 @@ Click.`,
   {
     id: "cap18_6",
     chapterNumber: "18.6",
+    section: "CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO",
     title: "LA TOPOLOGÍA DEL EGO Y EL OCÉANO INCONSCIENTE",
     content: `Hay una voz en tu cabeza que dice «yo». Es la voz que decide qué ropa ponerte por la mañana, la que se ofende cuando alguien te interrumpe en una reunión, la que narra tu vida mientras caminas por la calle. Durante siglos, hemos asumido que esa voz es el piloto del sistema. El director ejecutivo que está al mando de la maquinaria.
 
@@ -346,6 +347,7 @@ En la cumbre de la Individuación junguiana, o de la iluminación budista, el ho
   {
     id: "cap18_7",
     chapterNumber: "18.7",
+    section: "CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO",
     title: "EL POSTULADO DE EXCLUSIÓN Y EL TESTIGO QUE NO COMPITE",
     content: `El capítulo anterior dejó una pregunta sin cerrar, y este experimento le debe una respuesta honesta: si el Ego es la membrana del horizonte, y bajo esa membrana conviven complejos con vida propia —voces que Jung documentó negociando, saboteando, incluso hablando en primera persona dentro de un sueño—, ¿quién está realmente experimentando? ¿El horizonte entero, o cada complejo por separado, dentro de su propio sub-horizonte?
 
