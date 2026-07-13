@@ -1184,7 +1184,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
         <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
           {readingMode === "essay" 
-            ? `Parte ${chapter.chapterNumber || "Especial"} de 30`
+            ? `Parte ${chapter.chapterNumber || "Especial"} de 33`
             : readingMode === "cuentos"
             ? `Relato ${chapter.chapterNumber || "Prólogo"} de ${cuentosList.length - 1}`
             : readingMode === "reconstruccion"

@@ -99,6 +99,10 @@ import img18_6 from "../assets/images/ilustracion_ego_inconsciente.png";
 import img18_7 from "../assets/images/ilustracion_testigo_exclusion.png";
 // @ts-ignore
 import img20_5 from "../assets/images/ilustracion_cosmoteandrica.png";
+// @ts-ignore
+import img12_5_alien from "../assets/images/ilustracion_alien.png";
+// @ts-ignore
+import img12_6_cosmic from "../assets/images/ilustracion_cosmic.png";
 
 // Import Cuentos illustrations
 // @ts-ignore
@@ -218,6 +222,8 @@ const imageMap: Record<string, string> = {
   il18_6: img18_6,
   il18_7: img18_7,
   il20_5: img20_5,
+  il12_5_alien: img12_5_alien,
+  il12_6_cosmic: img12_6_cosmic,
 
   // Cuentos illustrations mapping
   cuento_01: cuento01,
