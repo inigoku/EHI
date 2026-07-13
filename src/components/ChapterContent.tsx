@@ -1096,6 +1096,16 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             >
               {highlightTerms(chapter.content)}
             </motion.div>
+            {readingMode === "essay" && chapter.id === "cap20_5" && (
+              <div className="mt-8 flex justify-center border-t border-amber-500/10 pt-6">
+                <button
+                  onClick={() => onSwitchMode("reconstruccion")}
+                  className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
+                >
+                  🔧 Ir a la Reconstrucción del Límite correspondiente
+                </button>
+              </div>
+            )}
           </div>
 
           {/* Right Panel: Notes */}
@@ -1176,7 +1186,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
         <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
           {readingMode === "essay" 
-            ? `Parte ${chapter.chapterNumber || "Especial"} de 26`
+            ? `Parte ${chapter.chapterNumber || "Especial"} de 30`
             : readingMode === "cuentos"
             ? `Relato ${chapter.chapterNumber || "Prólogo"} de ${cuentosList.length - 1}`
             : readingMode === "reconstruccion"
