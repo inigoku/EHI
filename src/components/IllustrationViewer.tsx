@@ -91,6 +91,14 @@ import imgTxiki from "../assets/images/ilustracion_txiki.png";
 import imgLadron from "../assets/images/ilustracion_ladron.png";
 // @ts-ignore
 import imgLuthier from "../assets/images/ilustracion_luthier.png";
+// @ts-ignore
+import img13_5 from "../assets/images/ilustracion_os_sufrimiento.png";
+// @ts-ignore
+import img18_6 from "../assets/images/ilustracion_ego_inconsciente.png";
+// @ts-ignore
+import img18_7 from "../assets/images/ilustracion_testigo_exclusion.png";
+// @ts-ignore
+import img20_5 from "../assets/images/ilustracion_cosmoteandrica.png";
 
 // Import Cuentos illustrations
 // @ts-ignore
@@ -206,6 +214,10 @@ const imageMap: Record<string, string> = {
   cuento_ladron: imgLadron,
   il_luthier: imgLuthier,
   cuento_luthier: imgLuthier,
+  il13_5: img13_5,
+  il18_6: img18_6,
+  il18_7: img18_7,
+  il20_5: img20_5,
 
   // Cuentos illustrations mapping
   cuento_01: cuento01,
