@@ -1342,6 +1342,7 @@ Esta es, quizás, la versión más quieta y más completa de la soledad topológ
   },
   {
     id: "cap17_8_cosmic",
+    linkedCuentosId: "cuento_mussara",
     chapterNumber: "17.8",
     title: "GEOMETRÍAS NO EUCLIDIANAS Y EL TERROR CÓSMICO",
     content: `Hay una presunción de seguridad en la forma en que habitamos el mundo. Damos por sentado que el espacio es plano, que las líneas paralelas nunca se cruzan, y que la mente es una fortaleza capaz de procesar cualquier cosa que los ojos le envíen, siempre que le demos el tiempo suficiente. A lo largo de este libro hemos visto que la conciencia es una burbuja topológica, un horizonte de sucesos que aísla un estado privado (el adentro) del vasto caos de la realidad (el afuera).

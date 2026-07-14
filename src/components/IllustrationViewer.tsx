@@ -245,6 +245,7 @@ const imageMap: Record<string, string> = {
   cuento_eq: cuentoEq,
   cuento_txiki: cuentoTxiki,
   cuento_m87: cuentoM87,
+  cuento_mussara: img17_8_cosmic,
 
   // Poem backgrounds mapping
   poema_arq1: poemaArq1,
