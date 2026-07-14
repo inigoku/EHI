@@ -519,7 +519,7 @@ El modelado de sistemas complejos y la física de horizontes nos muestran que es
 >
 > **Lecturas:** Chalmers, D. (1995), "Facing up to the problem of consciousness"; Tononi, G. (2015), "Integrated Information Theory: From Consciousness to its Physical Substrate"; Parnas, D. (1972), "On the Criteria to be Used in Decomposing Systems into Modules".`,
     illustration: {
-      id: "il_notas",
+      id: "il_tp",
       title: "La tabla de equivalencias",
       description: "Una Rosetta Stone que unifica física, software y filosofías de la conciencia."
     }

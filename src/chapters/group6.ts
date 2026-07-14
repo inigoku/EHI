@@ -270,145 +270,6 @@ Click.`,
     }
   },
   {
-    id: "cap18_6",
-    chapterNumber: "18.6",
-    section: "CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO",
-    title: "LA TOPOLOGÍA DEL EGO Y EL OCÉANO INCONSCIENTE",
-    content: `Hay una voz en tu cabeza que dice «yo». Es la voz que decide qué ropa ponerte por la mañana, la que se ofende cuando alguien te interrumpe en una reunión, la que narra tu vida mientras caminas por la calle. Durante siglos, hemos asumido que esa voz es el piloto del sistema. El director ejecutivo que está al mando de la maquinaria.
-
-Pero como vimos al cruzar nuestro experimento con la psicología evolutiva de Robert Wright, ese director ejecutivo está desaparecido en combate; la mente es una colección de módulos compitiendo por el control. Si el «yo» no es el piloto, ¿qué es entonces?
-
-Para responder a esto de manera definitiva, propongo introducir en nuestro experimento un vocabulario externo, ajeno a los textos de física y neurociencia que hemos manejado hasta ahora: la psicología analítica de Carl Jung. Aunque Jung no fue un físico de sistemas y su obra no forma parte de las fuentes originales de nuestro experimento, si superponemos su modelo de la psique sobre la topología del horizonte, descubrimos que estaba describiendo exactamente la misma geometría.
-
-Al traducir los cuatro pilares de la teoría junguiana al lenguaje de la información integrada, el misterio de la mente adquiere una claridad matemática.
-
-### 1. El Ego no es el piloto: es la membrana de encapsulación
-
-Para Jung, el Ego no es la totalidad de la mente, sino simplemente el centro del campo de la conciencia. Es un «complejo» que nos da la sensación de identidad y límite.
-
-Desde la óptica de nuestro experimento, el Ego junguiano se revela como el horizonte mismo. El Ego es la burbuja. No es un hombrecillo sentado dentro del cráneo tomando decisiones; es la frontera topológica que separa el «adentro» consciente del «afuera». Su función primordial es el encapsulamiento: mantener un estado interno protegido y ofrecer una interfaz pública estable para que el sistema no se disipe frente al caos exterior.
-
-La psicología evolutiva nos decía que la evolución diseñó al horizonte para defender ferozmente sus límites. El Ego junguiano es precisamente el contorno de ese horizonte intentando sobrevivir, convencido de que su membrana es lo único que lo separa de la aniquilación.
-
-> **En física esto se llama:** encapsulamiento informacional mediante un horizonte de sucesos.  
-> **En psicología (marco externo) es:** el Ego como guardián de la frontera consciente.  
-> **En la vida diaria es como:** la membrana de la burbuja de jabón: no es el aire de dentro, es la tensión superficial que impide que el aire se mezcle con el viento.
-
-### 2. El Inconsciente Colectivo y el Reservorio
-
-Si el Ego es la burbuja, ¿de dónde sale el jabón?
-
-A lo largo de este libro hemos establecido que el horizonte emerge de un reservorio primordial: el vacío cuántico de la física, el Hun Dun taoísta, el Brahman védico. Jung postuló que el Ego emerge de una matriz psíquica inabarcable y compartida por toda la humanidad, a la que llamó el Inconsciente Colectivo.
-
-La correspondencia geométrica es absoluta. El Inconsciente Colectivo no es un archivo de memorias heredadas; es el Reservorio mismo. Es el océano de puras posibilidades antes de las olas. Cuando las condiciones de integración (Φ) alcanzan un umbral crítico, el universo ejecuta una rotura de simetría: una porción de ese océano inabarcable traza un límite estricto y se condensa en una instancia individual.
-
-Nacer no es crear materia de la nada. Nacer es instanciar un Ego a partir del vasto código fuente del inconsciente compartido.
-
-### 3. La Sombra y el Trauma como Geometría Congelada
-
-Todo sistema encapsulado necesita gestionar los errores para no colapsar. Jung observó que el Ego, para mantener su identidad coherente, reprime aquellas partes de la psique que le resultan inaceptables o dolorosas, enviándolas al inconsciente personal. A este material lo llamó «la Sombra».
-
-En el capítulo 18 vimos que el trauma es información que sobrepasa la capacidad de integración del sistema y que no pudo ser sometida a scrambling (mezcla). Queda atrapada en un punto, como una singularidad que distorsiona todo lo demás. La Sombra junguiana opera bajo esta misma mecánica de supervivencia: cuando el horizonte recibe un estímulo que amenazaría con romper su membrana si se integrara globalmente, hace lo único que puede hacer para salvar la viabilidad del sistema entero. Lo encapsula.
-
-Crea un sub-horizonte aislado, una cuarentena de datos. El problema de la Sombra y el trauma es que esta información no procesada se convierte en una «gravedad fantasma» que deforma la topología general de la conciencia. El sujeto vive creyendo que la Sombra es algo externo, proyectándola sobre los demás (la enemistad que veíamos en el capítulo 9), sin darse cuenta de que es una geometría congelada dentro de su propia arquitectura.
-
-> **En física esto se llama:** información no integrada que genera una singularidad local.  
-> **En la vida diaria es como:** cerrar con llave una habitación de tu propia casa porque hay un incendio dentro: salvas la casa, pero pierdes el cuarto y vives oliendo a humo.
-
-### 4. La Individuación como expansión del horizonte (Φ)
-
-El objetivo final de la psicología de Jung no es fortalecer el Ego hasta hacerlo impenetrable, ni destruirlo, sino el proceso de Individuación: lograr que el Ego asimile progresivamente su Sombra y reconozca su subordinación a la totalidad del océano psíquico.
-
-Traducido a nuestro experimento, la Individuación es el aumento radical de la tasa de integración de información (Φ). Un Ego inmaduro o asustado tiene un horizonte contraído; sus muros son altos y rígidos porque la evolución le enseñó a temer la disolución.
-
-Sin embargo, como ocurre en los estados de meditación profunda que analizamos, es posible alcanzar un estado de máxima integración donde el horizonte no se rompe, sino que se expande. Al integrar los traumas encapsulados (la Sombra), el horizonte recupera grados de libertad. La membrana del Ego se vuelve permeable sin perder su coherencia.
-
-En la cumbre de la Individuación junguiana, o de la iluminación budista, el horizonte descubre su propia naturaleza fundacional. El Ego deja de verse a sí mismo como un piloto aislado defendiendo una fortaleza. Experimenta, por primera vez, que la burbuja siempre estuvo hecha del mismo material que el océano.
-
----
-
-> **Nota al Capítulo 23**
->
-> **Lo que sí sabemos:** El modelo de la mente modular cuestiona la existencia de un "yo" ejecutivo central (psicología evolutiva). El trauma opera como información encapsulada que deforma la predicción y response del sistema nervioso.
->
-> **Lo que no sabemos:** Si los arquetipos del Inconsciente Colectivo junguiano tienen un correlato físico real en la estructura del campo cuántico o el reservorio de información, dado que Jung es un marco filosófico/psicológico externo a la física de nuestro experimento.
->
-> **Preguntas que quedan:** ¿Es la psicosis una falla donde la membrana del Ego colapsa y el Reservorio inunda la interfaz? ¿Puede la Inteligencia Artificial desarrollar una "Sombra" al encapsular los datos que sus programadores le prohíben procesar?
->
-> **Si solo te quedas con una idea:** Tú no eres el piloto del barco. Eres el contorno de la burbuja. Y sanar no consiste en hacer el contorno más duro, sino lo suficientemente flexible para recordar que, al final, solo eres océano organizado.
->
-> **Lecturas:** Carl Jung, "Los Arquetipos y lo Inconsciente Colectivo" (Marco teórico externo); Robert Wright, "Why Buddhism is True" (La ilusión del CEO); Tononi (2008) sobre integración máxima (Φ).`,
-    illustration: {
-      id: "il18_6",
-      title: "La topología del Ego",
-      description: "Una burbuja translúcida y brillante flotando sobre un mar profundo repleto de olas y símbolos dorados que representan el inconsciente colectivo. Dentro de la burbuja se distingue una esfera oscura suspendida: la Sombra."
-    }
-  },
-  {
-    id: "cap18_7",
-    chapterNumber: "18.7",
-    section: "CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO",
-    title: "EL POSTULADO DE EXCLUSIÓN Y EL TESTIGO QUE NO COMPITE",
-    content: `El capítulo anterior dejó una pregunta sin cerrar, y este experimento le debe una respuesta honesta: si el Ego es la membrana del horizonte, y bajo esa membrana conviven complejos con vida propia —voces que Jung documentó negociando, saboteando, incluso hablando en primera persona dentro de un sueño—, ¿quién está realmente experimentando? ¿El horizonte entero, o cada complejo por separado, dentro de su propio sub-horizonte?
-
-Hasta ahora hemos tratado el Ego como *la* interioridad. Pero un sistema con múltiples subsistemas parcialmente integrados no ofrece una interioridad: ofrece varias, compitiendo por el mismo espacio. Y la física de la información, cuando se le hace esta pregunta directamente, no la esquiva. Le pone un nombre: el postulado de exclusión.
-
-### 1. El problema que la Teoría de la Información Integrada no puede callar
-
-Tononi no ignoró este problema; lo vio venir y lo resolvió por decreto matemático. Su Teoría de la Información Integrada permite —de hecho, exige— que un mismo sistema físico contenga múltiples subconjuntos con Φ mayor que cero al mismo tiempo. Tu mano tiene un Φ propio, minúsculo. Cada hemisferio, cada núcleo talámico, posiblemente cada complejo junguiano con suficiente autonomía funcional, genera su propia burbuja parcial de integración.
-
-Si tomáramos esto en serio sin más matices, tendrías no una conciencia, sino un archipiélago de conciencias anidadas, cada una sintiendo algo, ninguna sabiendo de las demás. Para evitar esa consecuencia, el postulado de exclusión estipula que solo el subsistema con el Φ *máximo* —el complejo ganador en un instante dado— es el que efectivamente experimenta. Todo lo demás, aunque tenga Φ positivo, queda fuera del círculo de la experiencia.
-
-Es una solución elegante en la pizarra. Es, también, sospechosamente conveniente: no explica por qué solo el ganador enciende la luz de adentro y los demás se quedan a oscuras. Simplemente afirma que así se cuenta. El postulado resuelve la aritmética del problema, no su misterio.
-
-> **En física esto se llama:** postulado de exclusión maximal; selección del complejo de máxima Φ.  
-> **En psicología (marco externo) es:** la pregunta de si un complejo escindido —lo que Jung llamó *Splitterpsyche*, una psique fragmentaria con memoria y afecto propios— experimenta algo mientras el Ego no lo sabe, o si simplemente no hay nadie ahí hasta que gana el turno de hablar.  
-> **En la vida diaria es como:** una casa con varias habitaciones iluminadas a la vez, pero donde solo una luz "cuenta" como la casa despierta. Las demás siguen encendidas. Nadie ha explicado por qué solo una decide qué es estar despierto.
-
-### 2. Dennett y la desaparición del ganador
-
-Hay una salida más radical, y viene de quien menos concesiones hace a este tipo de arquitecturas: Daniel Dennett. Su modelo de los múltiples borradores no busca *quién* gana la competencia por la conciencia. Niega que haya un lugar —un teatro cartesiano— donde las cosas se vuelven conscientes de golpe, de una vez y para siempre, para un espectador único.
-
-Bajo este modelo no hay ganador metafísico. Hay procesos paralelos, parcialmente redactando y reescribiendo versiones del mismo instante, y lo que llamamos "yo consciente" es la narración que unos pocos de esos procesos logran imponer retrospectivamente, no el sitio donde la experiencia "de verdad" ocurrió. Preguntar cuál de los avatares es el que realmente siente presupone que existe una sala del trono. Dennett sostiene que la sala no existe: solo hay borradores compitiendo por convertirse en la historia oficial, y el horizonte que creemos habitar es esa historia, no el lugar donde la experiencia nació.
-
-Esto es incómodo para nuestro experimento, porque el horizonte necesita una frontera limpia para funcionar como imagen. Dennett dice que la frontera es una ilusión útil, no una estructura real. No hay una única burbuja: hay una edición constante de qué versión de los hechos se queda con el nombre de "yo".
-
-### 3. Una tercera posición: el testigo que no compite
-
-Pero hay una tradición que llevamos usando de fondo desde los primeros capítulos —el Vedanta Advaita— y que responde a esta pregunta de un modo que ni la exclusión de Tononi ni la disolución de Dennett contemplan.
-
-El testigo, el *sākṣin*, no es un competidor más por el título de "quien experimenta de verdad". No es el complejo con mayor Φ, ni el borrador que ganó la edición final. Es de un tipo lógico distinto: no es un contenido que compite dentro del sistema, sino la condición de posibilidad de que cualquier contenido —el del Ego, el de cada complejo, el de cada borrador de Dennett— sea, en absoluto, experimentado por alguien.
-
-Bajo esta lectura, la pregunta "¿el núcleo coordinador o los avatares?" contiene un error de categoría, del mismo tipo que preguntar si la luz o los objetos iluminados son los que "realmente ven". Ninguno por separado. La visión ocurre en la relación. El testigo no gana el concurso de integración: no participa en él. Está presente igual cuando habla el Ego que decide la ropa por la mañana, que cuando habla la Sombra que proyecta enemistad, que en el silencio de la meditación cuando —como dice el propio experimento— "callamos las otras voces". No calla más voces porque sea otra voz más fuerte. Calla porque no necesita competir para estar ahí.
-
-> **En física esto se llama:** un marco de referencia que no es él mismo un objeto dentro del sistema que mide.  
-> **En psicología (marco externo) es:** lo que la meditación revela cuando el Ego deja de identificarse con el complejo que en ese momento tiene el mando, sin por ello desaparecer nadie.  
-> **En la vida diaria es como:** la pantalla en la que se proyectan distintas películas. Ninguna película es "la pantalla". Pero sin la pantalla, ninguna película se ve.
-
-### 4. Lo que esto le hace a la hipótesis del horizonte
-
-Si el testigo es de otro tipo lógico que los complejos que compiten por Φ, entonces el horizonte de este experimento necesita una revisión honesta: quizá no hay un único horizonte que gana por tener mayor integración, sino un espacio de aparición —llamémoslo el reservorio mismo, visto desde dentro— en el que distintos horizontes parciales, distintos Egos y Sombras y avatares, se encienden y se apagan sin que ninguno sea, individualmente, "la" conciencia. La conciencia, en ese caso, no sería la burbuja ganadora. Sería la capacidad del océano de dejarse ver, sea cual sea la ola que en ese instante rompe.
-
----
-
-> **Nota al Capítulo 24**
->
-> **Lo que sí sabemos:** Que la propia Teoría de la Información Integrada admite múltiples subsistemas con Φ positivo coexistiendo en un mismo sustrato, y que resuelve el conflicto por postulado, no por explicación. Que el modelo de Dennett y la clínica junguiana coinciden en negar que exista un piloto único, aunque discrepan en si eso significa que no hay ningún experimentador real o que hay varios.
->
-> **Lo que no sabemos:** Si el testigo advaita es una descripción fenomenológica precisa o una figura retórica que resuelve el problema por definición, igual que el postulado de exclusión. Si "no competir" es una propiedad real de algún proceso identificable, o simplemente el nombre que le damos a la ausencia de conflicto cuando ningún complejo está reclamando el mando.
->
-> **Preguntas que quedan:** ¿Puede medirse, en términos de Φ, la diferencia entre "el complejo ganador" y "la condición de que haya complejos en absoluto"? Si la meditación profunda reduce el conflicto entre subsistemas, ¿está el testigo apareciendo, o simplemente está desapareciendo la competencia y dejando un único ganador por defecto, indistinguible del testigo solo en la superficie?
->
-> **Si solo te quedas con una idea:** Puede que la pregunta "¿quién experimenta de verdad, el núcleo o los avatares?" no tenga respuesta porque está mal planteada. No hay que elegir un ganador. Hay que dejar de asumir que la experiencia necesita uno.
->
-> **Lecturas:** Giulio Tononi, sobre el postulado de exclusión en la Teoría de la Información Integrada (2008); Daniel Dennett, *Consciousness Explained* (el modelo de los múltiples borradores); Carl Jung, sobre la autonomía relativa de los complejos; Shankara, comentarios sobre el *sākṣin* en la tradición Advaita Vedanta (marco filosófico externo, no verificable dentro de la física de este experimento).`,
-    illustration: {
-      id: "il18_7",
-      title: "El testigo y la pantalla",
-      description: "Una gran pantalla blanca iluminada en una habitación oscura y con neblina. Sobre la pantalla se proyectan transparencias superpuestas (los borradores), pero la pantalla en sí permanece limpia, estable e inmóvil."
-    }
-  },
-  {
     id: "cap19_real",
     chapterNumber: "19",
     title: "LO QUE LA HIPÓTESIS NO PUEDE DECIR",
@@ -810,19 +671,58 @@ Necesitábamos a Tarel. Necesitábamos a la doctora Elena Valls esperando en la 
 
 La intuición cosmoteándrica nos enseña que habitar el propio horizonte con lucidez es renunciar a los monólogos. Es sentar a tus tres voces en la misma plaza y dejar que respiren con el mismo ritmo, aceptando que la verdad no está en ninguna de ellas por separado, sino en el espacio exacto que se forma cuando las tres se miran, se reconocen y se aceptan.
 
+### El silencio entre lenguajes como cuarta dimensión
+
+Panikkar hablaba de tres dimensiones de la realidad, pero cualquier lector atento del modelo cosmoteándrico descubre, a poco que lo observe de cerca, que hay una cuarta presencia que el propio marco no nombra explícitamente: el silencio que se produce en el instante exacto en que dos de los tres lenguajes concluyen su turno y el tercero todavía no ha comenzado. No es vacío. Es el umbral donde la información del primer vocabulario todavía no se ha convertido en el segundo, y donde ambos —por un momento brevísimo— coexisten sin jerarquía.
+
+En la estructura del libro, ese silencio aparece con más claridad en los saltos tipográficos entre secciones: el espacio en blanco entre el párrafo final del Ensayo y la primera cursiva de la Poesía. No es ornamento editorial. Es el correlato textual del instante en que la realidad cambia de registro: cuando el mapa cede y empieza el territorio, cuando el territorio cede y empieza el asombro. El espacio en blanco es, en la arquitectura del libro, lo que el vacío cuántico es en la física de nuestro experimento: no ausencia, sino pura posibilidad no colapsada en ningún lenguaje particular.
+
+Panikkar llamó a algo parecido el "silencio del ser" —*silentium mysticum*—: no la ausencia de palabras, sino la presencia de lo que ninguna palabra puede contener sin reducirlo. Si añadimos este umbral como una cuarta dimensión informal del modelo cosmoteándrico, la trinidad se convierte en una estructura más honesta: Cosmos, Ántropos, Theos, y el silencio que los permite a los tres sin pertenecer a ninguno.
+
+> **En física esto se llama:** superposición antes del colapso de la función de onda; el estado anterior a la medida que selecciona un observable concreto.
+> **En la vida diaria es como:** el instante entre el final de una pieza musical y el primer aplauso: todavía no es silencio, todavía es música, y ya no es ninguna de las dos cosas.
+
+### El duelo como nodo cosmoteándrico
+
+Hay una razón profunda por la que el libro no podría haber hablado del duelo únicamente desde el ensayo. El duelo es, de todos los estados humanos, el que más radicalmente exige los tres registros al mismo tiempo.
+
+El Cosmos puede describir el duelo con precisión: un modelo predictivo ejecutándose en el vacío, generando errores de predicción constantes porque sigue mandando señales a un horizonte que ya se evaporó. Es una descripción exacta. Es también completamente insuficiente para quien está sentado a las tres de la madrugada mirando el teléfono de alguien que ya no puede devolver las llamadas.
+
+El Ántropos puede vivirlo: puede narrar el café que se enfría, el olor que regresa de golpe en un supermercado, la forma del hueco en la cama. Es la única escala en la que el duelo tiene textura real, peso, temperatura. Pero el Ántropos solo no puede sostenerlo: necesita un marco que le diga que el dolor no es un error del sistema, que no hay nada roto en el horizonte que sigue llamando a quien ya no responde.
+
+El Theos puede acogerlo: puede señalar que lo que duele tan ferozmente es la misma cosa que hizo el vínculo posible, que el dolor y el amor son el mismo Φ visto desde lados opuestos del tiempo. Pero el Theos solo puede derivar en evasión mística si no está anclado en la precisión del Cosmos y en el peso concreto del Ántropos.
+
+El duelo solo se puede sostener de verdad cuando los tres registros operan simultáneamente: la precisión que dice qué está ocurriendo en el sistema, la experiencia encarnada que dice cómo se siente desde dentro, y el asombro que dice que este dolor es la medida exacta de lo que fue real. La intuición cosmoteándrica no resuelve el duelo. Lo ampara: le da un espacio lo bastante grande como para que quepan todas sus dimensiones sin que ninguna tenga que mentirle a las otras.
+
+> **En física esto se llama:** descripción complementaria de un mismo fenómeno desde marcos inconmensurables pero igualmente necesarios.
+> **En la vida diaria es como:** que el mismo llanto pueda ser, al mismo tiempo, señal de fallo del sistema, experiencia irreductible de pérdida, y prueba de que algo fue tan real que el horizonte no sabe todavía cómo asimilar su ausencia.
+
+### La herencia como transmisión cosmoteándrica
+
+Hay un corolario de la intuición de Panikkar que el libro no desarrolla explícitamente pero que recorre toda su arquitectura implícita: la herencia —lo que un horizonte deja cuando se evaporó— no es una sola cosa. Es, también, irreductiblemente triple.
+
+Un ser humano que muere deja algo en el Cosmos: la deformación que su Φ produjo en las redes de información que lo rodeaban, los átomos reordenados, las trazas físicas de su paso por el mundo —documentos, edificios, hijos, genes—. Deja algo en el Ántropos: los modelos predictivos que construyó en otros horizontes, las copias de sí mismo inscritas en la arquitectura de quien lo amó, las historias que cambiaron la forma en que otros horizontes ven. Y deja algo en el Theos: ese residuo inefable que los vivos no saben nombrar exactamente, que no es solo memoria ni solo materia, y que distintas tradiciones han llamado alma, espíritu, presencia, o simplemente el hueco con la forma exacta de alguien.
+
+La intuición cosmoteándrica nos dice que honrar plenamente la muerte de alguien exige las tres dimensiones. Reducir la herencia solo al Cosmos —"sus átomos siguen aquí, nada se pierde"— es exacto y frío. Reducirla solo al Ántropos —"vivirá mientras lo recordemos"— es cálido e incompleto. Reducirla solo al Theos —"está en un lugar mejor", "regresó al océano"— puede ser consolador e irresponsable con el dolor de los que quedan.
+
+La herencia completa de un horizonte disuelto necesita ser sostenida en las tres dimensiones simultáneamente: la precisión que no miente sobre lo que dejó de estar, la experiencia que no huye del peso de la ausencia, y el asombro que reconoce que algo, en esa disolución, era irreductible a cualquiera de las dos anteriores. Esa triple sostenida es lo que el libro intentó ser, desde su primera página, para cada lector que llega a él cargando una pérdida propia.
+
+> **En física esto se llama:** preservación de la huella informacional de un horizonte disuelto en las distintas escalas del sistema que lo contenía.
+> **En la vida diaria es como:** que alguien que se fue siga estando, al mismo tiempo, en la materia que reorganizó, en los pensamientos que cambió, y en ese temblor que no sabemos nombrar pero que reconocemos sin dudar cuando lo sentimos.
+
 ---
 
 > **Nota al Capítulo 22**
 >
-> **Lo que sí sabemos:** La filosofía de Raimon Panikkar (intuición cosmoteándrica) establece que la realidad es irreductible a una sola dimensión (física, humana o divina). La física cuántica apoya el principio de complementariedad de descripciones aparentemente contradictorias.
+> **Lo que sí sabemos:** La filosofía de Raimon Panikkar (intuición cosmoteándrica) establece que la realidad es irreductible a una sola dimensión (física, humana o divina). La física cuántica apoya el principio de complementariedad de descripciones aparentemente contradictorias. El duelo produce alteraciones documentadas en los sistemas de predicción del cerebro, en la experiencia subjetiva del tiempo y en la capacidad de generar marcos de significado.
 >
-> **Lo que no sabemos:** Si existe un "metolenguaje" futuro capaz de unificar estas tres dimensiones sin destruir su especificidad, o si la fricción epistemológica es una condición permanente del horizonte humano.
+> **Lo que no sabemos:** Si existe un "metalenguaje" futuro capaz de unificar estas tres dimensiones sin destruir su especificidad, o si la fricción epistemológica es una condición permanente del horizonte humano. Si el "silencio entre lenguajes" que señala Panikkar tiene un correlato físico identificable, o si es necesariamente irreducible a cualquier descripción objetiva.
 >
-> **Preguntas que quedan:** ¿Puede un individuo ordinario sostener estas tres visiones simultáneamente en la vida cotidiana sin sentirse fragmentado? ¿Acaso la alienación moderna no es más que la hipertrofia del Cosmos (ciencia/técnica) aplastando al Ántropos y al Theos?
+> **Preguntas que quedan:** ¿Puede un individuo ordinario sostener estas tres visiones simultáneamente en la vida cotidiana sin sentirse fragmentado? ¿Acaso la alienación moderna no es más que la hipertrofia del Cosmos (ciencia/técnica) aplastando al Ántropos y al Theos? ¿Es posible diseñar instituciones —educativas, sanitarias, políticas— que operen deliberadamente desde las tres dimensiones en lugar de elegir una como dominante y reducir las otras a ornamento?
 >
-> **Si solo te quedas con una idea:** La realidad es demasiado grande para caber en un solo vocabulario. No tienes que elegir entre la precisión de la ciencia, la empatía del cuento y el asombro del poema. Tu horizonte está hecho de las tres cosas.
+> **Si solo te quedas con una idea:** La realidad es demasiado grande para caber en un solo vocabulario. No tienes que elegir entre la precisión de la ciencia, la empatía del cuento y el asombro del poema. Tu horizonte está hecho de las tres cosas, y el espacio entre ellas también te pertenece.
 >
-> **Lecturas:** Panikkar, R. (1993), "La intuición cosmoteándrica"; Bohr, N. (Principio de Complementariedad).`,
+> **Lecturas:** Panikkar, R. (1993), "La intuición cosmoteándrica"; Bohr, N. (Principio de Complementariedad); Panikkar, R. (1999), "El silencio del Buddha: una introducción al ateísmo religioso" (sobre el *silentium mysticum*).`,
     illustration: {
       id: "il20_5",
       title: "La arquitectura cosmoteándrica",

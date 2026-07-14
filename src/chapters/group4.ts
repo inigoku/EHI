@@ -896,19 +896,67 @@ Tanto la física como el budismo sugieren que la iluminación no es un viaje má
 
 El camino espiritual no es una huida mística. Es el acto más elevado de lucidez estructural. La psicología evolutiva nos enseña de qué ilusiones biológicas debemos liberarnos, y la física de los horizontes nos revela el vasto tejido cosmológico que nos sostendrá cuando, por fin, esa ilusión se desvanezca.
 
+### Los módulos como procesos en segundo plano
+
+Si el "yo" no es un CEO sino una colección de módulos compitiendo por el control, conviene preguntarse cómo se organiza esa competencia sin que el sistema entero colapse en el caos. La respuesta de Wright —y la de buena parte de la psicología evolutiva moderna— es que la mente funciona más como un sistema operativo multitarea que como una jerarquía de mando. En cada instante, docenas de módulos evolutivos corren en segundo plano, evaluando el entorno según su propio criterio estrecho: el módulo de estatus social calcula si acabas de perder prestigio; el módulo de detección de amenazas escanea rostros en busca de hostilidad; el módulo de búsqueda de pareja rastrea señales de interés romántico. Cada uno procesa sus datos de forma independiente y silenciosa, sin coordinación central, hasta que uno de ellos genera un sentimiento lo bastante intenso como para acaparar los recursos de atención consciente.
+
+Lo que llamamos "decidir" no es más que el módulo ganador tomando temporalmente el micrófono de la narrativa. Y como cada módulo fue optimizado para un problema evolutivo distinto —evitar depredadores, conseguir pareja, mantener estatus, proteger a la descendencia—, no existe garantía alguna de que sus prioridades sean coherentes entre sí. De ahí la sensación, tan común, de estar en guerra con uno mismo: no es metáfora. Es una descripción precisa de un sistema distribuido sin árbitro central, donde distintos procesos compiten legítimamente por el mismo cuerpo.
+
+En el lenguaje topológico de nuestro experimento, esto añade una capa de matiz al horizonte único: dentro de la burbuja mayor que llamamos "yo", existen sub-horizontes menores, cada uno con su propio grado de integración local, que se disputan momento a momento el privilegio de definir el estado público del sistema completo.
+
+> **En física esto se llama:** procesamiento paralelo distribuido sin coordinador central.
+> **En la vida diaria es como:** una sala de redacción con varios periodistas gritando titulares distintos sobre la misma noticia, y el director publicando, cada vez, el que grite más fuerte.
+
+### El elefante y el jinete
+
+El psicólogo Jonathan Haidt propuso una metáfora que encaja con precisión quirúrgica en esta arquitectura: la mente consciente, razonadora, verbal —la que cree estar al mando— es apenas un jinete sentado sobre un elefante. El elefante es el conjunto de procesos automáticos, emocionales, evolutivamente antiguos que realmente deciden hacia dónde caminar. El jinete puede tirar de las riendas, puede sugerir, puede negociar, pero cuando el elefante decide moverse con fuerza en una dirección, el jinete rara vez logra detenerlo. Lo que sí puede hacer —y esto es crucial— es inventar después una historia razonable sobre por qué el elefante fue exactamente donde quería ir.
+
+Esta es la función que la psicología cognitiva llama racionalización post-hoc, y que Wright documenta extensamente: no razonamos para descubrir la verdad, razonamos para justificar lo que el elefante ya decidió por motivos evolutivos que nada tienen que ver con la verdad. El jinete es el departamento de relaciones públicas del elefante, no su piloto.
+
+Traducido a nuestra arquitectura del horizonte: la interfaz pública que el sistema le muestra al mundo —las razones que das cuando alguien te pregunta por qué hiciste algo— rara vez coincide con el proceso interno real que generó la acción. No porque mientas deliberadamente, sino porque el sistema está diseñado para generar explicaciones convincentes, no explicaciones exactas. La API pública fue optimizada por la evolución para parecer coherente ante los demás, no para reportar con fidelidad el estado privado que la originó.
+
+> **En física esto se llama:** discrepancia entre proceso generador y reporte de salida (output).
+> **En la vida diaria es como:** un vocero de prensa que da una explicación pulida de una decisión que, en realidad, se tomó por pánico en una sala a la que él nunca tuvo acceso.
+
+### La sed que la evolución nunca quiso saciar
+
+Wright dedica buena parte de su obra al concepto budista de *Tanha*, la sed o el anhelo, y a por qué la evolución lo diseñó deliberadamente para que nunca se apague del todo. Desde la perspectiva darwiniana, un organismo completamente satisfecho es un organismo que deja de competir por recursos, de buscar pareja, de acumular estatus. La satisfacción total sería, evolutivamente, un callejón sin salida: un gen que produjera contentamiento permanente perdería la carrera frente a genes que mantuvieran a su portador insatisfecho, hambriento de más, siempre un paso detrás del placer que cree perseguir.
+
+Por eso el placer, en el diseño evolutivo, funciona como un anzuelo con fecha de caducidad programada: la comida sabe increíble durante los primeros bocados y luego el placer decae, no porque el cuerpo esté satisfecho de verdad, sino porque el sistema necesita que sigas buscando la próxima fuente de calorías en lugar de quedarte inmóvil disfrutando de la que ya tienes. El estatus social produce una euforia breve tras cada logro, seguida casi de inmediato por la sensación de que el logro anterior ya no cuenta y hace falta el siguiente. Es la rueda de hámster que Wright identifica como el motor mismo del sufrimiento budista: no la ausencia de placer, sino su carácter deliberadamente incompleto, diseñado para mantenerte corriendo.
+
+En el lenguaje de nuestro experimento, esto es un modelo predictivo que la evolución configuró con un error de calibración permanente e intencional: el sistema nunca recibe la señal de "misión cumplida" porque esa señal, evolutivamente, sería letal para la propagación de los genes que la producen. El horizonte está diseñado para sentirse siempre ligeramente incompleto, porque un horizonte satisfecho deja de expandirse, y un horizonte que deja de expandirse deja de competir.
+
+> **En física esto se llama:** un modelo predictivo con umbral de satisfacción deliberadamente inalcanzable.
+> **En la vida diaria es como:** perseguir un horizonte real, el que separa el cielo del mar: por mucho que camines hacia él, se mantiene siempre a la misma distancia. No es que camines mal. Es que el horizonte fue diseñado para no ser alcanzado nunca.
+
+### La meditación como intervención en el sistema operativo, no como escape de él
+
+Una objeción frecuente a la propuesta de Wright —y a la síntesis que ofrece nuestro experimento entre psicología evolutiva y topología del horizonte— es que la meditación suena demasiado a escapismo: si los módulos evolutivos son el motor real del comportamiento y el "yo" consciente no los controla, ¿qué consigue exactamente sentarse a observar la propia mente durante cuarenta minutos cada mañana?
+
+La respuesta de Wright es técnicamente precisa y merece traducirse al lenguaje del horizonte. La meditación no desactiva los módulos evolutivos ni elimina el elefante. No puede hacerlo, porque los módulos son hardware, y el hardware no se reescribe desde el nivel de la interfaz de usuario. Lo que la práctica sostenida sí logra, documentado con suficiente consistencia en la neurociencia contemplativa, es cambiar la relación entre el módulo que genera un sentimiento y la reacción automática que ese sentimiento solía desencadenar. Crea un espacio —fino al principio, más ancho con la práctica— entre el estímulo y la respuesta.
+
+En el lenguaje de nuestro experimento, esto equivale a insertar una capa de indirección en la API pública del horizonte: el módulo de miedo sigue generando su señal, el módulo de estatus sigue calculando victorias y derrotas, el módulo de apego sigue tirando con fuerza hacia los patrones familiares. Pero el horizonte gana, lentamente, la capacidad de observar esa señal antes de ejecutarla. No de eliminarla —la señal sigue llegando—, sino de verla llegar, reconocer su origen evolutivo, y elegir si actuar desde ella o no. Es un privilegio de acceso modificado, no una reescritura del kernel.
+
+Wright documenta que esto cambia, con el tiempo, la textura subjetiva de la experiencia: no porque el mundo haya cambiado ni porque los módulos se hayan desactivado, sino porque el horizonte ya no confunde la señal con la realidad. El dolor sigue siendo dolor. El deseo sigue siendo deseo. Pero ya no son secuestradores automáticos; son mensajeros cuyo mensaje puede leerse sin ser obedecido. Y esa diferencia —entre recibir una señal y ser la señal— es, en la escala de una vida humana, prácticamente todo.
+
+> **En física esto se llama:** inserción de una capa de indirección entre señal de entrada y respuesta ejecutada; aumento del tiempo de latencia antes de la respuesta motora.
+> **En la vida diaria es como:** aprender a ver el cartel de "salida de emergencia" en el cine sin que tu cuerpo se levante a correr cada vez que lo lees. La señal sigue ahí. Solo has aprendido a distinguir entre información y orden.
+
+El camino espiritual no es una huida mística. Es el acto más elevado de lucidez estructural. La psicología evolutiva nos enseña de qué ilusiones biológicas debemos liberarnos, y la física de los horizontes nos revela el vasto tejido cosmológico que nos sostendrá cuando, por fin, esa ilusión se desvanezca.
+
 ---
 
 > **Nota al Capítulo 16**
 >
-> **Lo que sí sabemos:** La psicología evolucionista confirma que la mente es modular y que los sentimientos son adaptaciones para la supervivencia genética, no para la percepción objetiva de la realidad (Wright).
+> **Lo que sí sabemos:** La psicología evolucionista confirma que la mente es modular y que los sentimientos son adaptaciones para la supervivencia genética, no para la percepción objetiva de la realidad (Wright). La racionalización post-hoc está ampliamente documentada en neurociencia cognitiva: el cerebro genera explicaciones coherentes para decisiones tomadas por procesos a los que la conciencia verbal no tiene acceso directo.
 >
-> **Lo que no sabemos:** Si la reducción del "ruido evolutivo" a través de la meditación permite realmente un acceso cognitivo a la topología del campo cuántico, o si es simplemente otra experiencia fenomenológica autogenerada.
+> **Lo que no sabemos:** Si la reducción del "ruido evolutivo" a través de la meditación permite realmente un acceso cognitivo a la topología del campo cuántico, o si es simplemente otra experiencia fenomenológica autogenerada. Si el umbral de satisfacción deliberadamente inalcanzable puede recalibrarse de forma permanente mediante la práctica contemplativa, o si vuelve a resetearse en cuanto cesa la atención sostenida.
 >
-> **Preguntas que quedan:** Si el sufrimiento es un diseño evolutivo para mantener cohesionado el horizonte, ¿es la iluminación budista un "hackeo" que desmantela el instinto de supervivencia biológica? ¿Puede un horizonte iluminado seguir funcionando en el mundo social ordinario?
+> **Preguntas que quedan:** Si el sufrimiento es un diseño evolutivo para mantener cohesionado el horizonte, ¿es la iluminación budista un "hackeo" que desmantela el instinto de supervivencia biológica? ¿Puede un horizonte iluminado seguir funcionando en el mundo social ordinario? Si el jinete no controla al elefante, ¿qué está haciendo exactamente la meditación cuando parece darle al jinete más influencia sobre hacia dónde camina el animal?
 >
 > **Si solo te quedas con una idea:** Tus emociones dolorosas no son la verdad del universo; son el sistema de alarmas que la evolución instaló en tu burbuja para evitar que reviente. Al apagar la alarma, la burbuja descubre que siempre fue parte del océano.
 >
-> **Lecturas:** Wright, R. (2017), "Why Buddhism is True"; Cosmides & Tooby (1992), "Cognitive Adaptations for Social Exchange".`,
+> **Lecturas:** Wright, R. (2017), "Why Buddhism is True"; Cosmides & Tooby (1992), "Cognitive Adaptations for Social Exchange"; Haidt, J. (2006), "The Happiness Hypothesis" (la metáfora del elefante y el jinete).`,
     illustration: {
       id: "il13_5",
       title: "El sistema operativo del dolor",
