@@ -1378,7 +1378,7 @@ El experimento del horizonte explica esta frase literalmente: la muerte (entendi
 
 El terror lovecraftiano siempre culmina en el momento de la mirada: un marinero ve a la criatura emerger del mar y, sin que medie ningún ataque físico, su mente se quiebra irrevocablemente. ¿Por qué mirar destruye el cerebro?
 
-Aquí es donde nuestro experimento sobre el vínculo, el entrelazamiento y el amor ofrece su respuesta más atrradora. En capítulos anteriores establecimos, usando la dualidad ER=EPR de Maldacena y Susskind, que la empatía humana y el reconocimiento mutuo no son meras proyecciones psicológicas, sino la construcción de geometría compartida. Cuando prestas atención sostenida a otro, tu horizonte intenta modelar la arquitectura del otro, creando un puente (un agujero de gusano semántico). Tu cerebro intenta predecir al otro incluyendo parte de su código en el tuyo.
+Aquí es donde nuestro experimento sobre el vínculo, el entrelazamiento y el amor ofrece su respuesta más aterradora. En capítulos anteriores establecimos, usando la dualidad ER=EPR de Maldacena y Susskind, que la empatía humana y el reconocimiento mutuo no son meras proyecciones psicológicas, sino la construcción de geometría compartida. Cuando prestas atención sostenida a otro, tu horizonte intenta modelar la arquitectura del otro, creando un puente (un agujero de gusano semántico). Tu cerebro intenta predecir al otro incluyendo parte de su código en el tuyo.
 
 ¿Qué ocurre cuando un humano mira a un Primigenio? Su Sistema Operativo biológico hace lo único que sabe hacer frente a un ser consciente: intenta modelarlo. Intenta abrir un puente ER=EPR para entrelazarse y predecir sus intenciones.
 
