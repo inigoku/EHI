@@ -946,7 +946,7 @@ El camino espiritual no es una huida mística. Es el acto más elevado de lucide
 
 ---
 
-> **Nota al Capítulo 16**
+> **Nota al Capítulo 13.5**
 >
 > **Lo que sí sabemos:** La psicología evolucionista confirma que la mente es modular y que los sentimientos son adaptaciones para la supervivencia genética, no para la percepción objetiva de la realidad (Wright). La racionalización post-hoc está ampliamente documentada en neurociencia cognitiva: el cerebro genera explicaciones coherentes para decisiones tomadas por procesos a los que la conciencia verbal no tiene acceso directo.
 >
