@@ -35,19 +35,19 @@ export const LandingPage: React.FC<LandingPageProps> = ({
 
   React.useEffect(() => {
     if (videoRef.current) {
-      videoRef.current.currentTime = 0.2;
+      videoRef.current.currentTime = 0.4;
     }
   }, []);
 
   const handleLoadedData = () => {
     if (videoRef.current) {
-      videoRef.current.currentTime = 0.2;
+      videoRef.current.currentTime = 0.4;
     }
   };
 
   const handleEnded = () => {
     if (videoRef.current) {
-      videoRef.current.currentTime = 0.2;
+      videoRef.current.currentTime = 0.4;
       videoRef.current.play().catch(() => {});
     }
   };
@@ -113,7 +113,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         {/* Background Video */}
         <video
           ref={videoRef}
-          src="/eHI-intro.mp4#t=0.2"
+          src="/eHI-intro.mp4#t=0.4"
           className="absolute inset-0 w-full h-full object-cover opacity-80 select-none pointer-events-none"
           autoPlay
           muted
