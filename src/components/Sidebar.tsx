@@ -15,8 +15,8 @@ interface SidebarProps {
   isOpen: boolean;
   setIsOpen: (isOpen: boolean) => void;
   theme: ReadingTheme;
-  mode: "essay" | "cuentos" | "poemas" | "reconstruccion";
-  onModeChange: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
+  mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion";
+  onModeChange: (mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({
@@ -158,12 +158,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
     <>
       {/* Mobile Menu Trigger Header */}
       <div className={`lg:hidden fixed top-0 left-0 right-0 h-16 ${sc.bg} border-b ${sc.border} z-40 px-5 flex items-center justify-between transition-colors duration-300`}>
-        <div className="flex items-center gap-2">
-          <Book className={`w-5 h-5 ${sc.icon}`} />
-          <span className={`font-display font-bold text-sm tracking-wide ${sc.text} uppercase`}>
+        <button
+          onClick={() => {
+            onModeChange("home");
+            setIsOpen(false);
+          }}
+          className="flex items-center gap-2 cursor-pointer group text-left border-0 bg-transparent p-0 outline-none"
+        >
+          <Book className={`w-5 h-5 ${sc.icon} group-hover:scale-110 transition-transform`} />
+          <span className={`font-display font-bold text-sm tracking-wide ${sc.text} uppercase group-hover:text-amber-500 transition-colors`}>
             El Horizonte Interior
           </span>
-        </div>
+        </button>
         <button
           onClick={() => setIsOpen(!isOpen)}
           className={`p-2 rounded-xl ${sc.button} border transition-colors cursor-pointer`}
@@ -180,14 +186,17 @@ export const Sidebar: React.FC<SidebarProps> = ({
       >
         {/* Book Header & Title (Desktop Only) */}
         <div className={`hidden lg:flex flex-col p-6 border-b ${sc.border} space-y-3`}>
-          <div className="flex items-center gap-3">
-            <div className="w-12 h-16 rounded-md overflow-hidden border border-amber-500/20 shadow-md flex-shrink-0 bg-slate-900">
+          <button
+            onClick={() => onModeChange("home")}
+            className="flex items-center gap-3 cursor-pointer group text-left border-0 bg-transparent p-0 outline-none w-full"
+          >
+            <div className="w-12 h-16 rounded-md overflow-hidden border border-amber-500/20 shadow-md flex-shrink-0 bg-slate-900 group-hover:scale-105 transition-transform">
               <img src={portadaImg} alt="Portada" className="w-full h-full object-cover" />
             </div>
             <div className="flex flex-col justify-center">
               <div className="flex items-center gap-1.5">
-                <Book className={`w-3.5 h-3.5 ${sc.icon}`} />
-                <h1 className={`font-display font-bold text-sm tracking-wide ${sc.text} uppercase`}>
+                <Book className={`w-3.5 h-3.5 ${sc.icon} group-hover:text-amber-500 transition-colors`} />
+                <h1 className={`font-display font-bold text-sm tracking-wide ${sc.text} uppercase group-hover:text-amber-500 transition-colors`}>
                   El Horizonte Interior
                 </h1>
               </div>
@@ -195,14 +204,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 Por Íñigo Barrera Barceló
               </p>
             </div>
-          </div>
+          </button>
         </div>
 
         {/* Progress Card */}
         <div className={`p-5 border-b ${sc.border} space-y-3`}>
           <div className="flex items-center justify-between">
             <span className={`text-[10px] font-mono uppercase tracking-wider ${sc.textMuted}`}>
-              Progreso de Bitácora
+              Progreso de Lectura
             </span>
             <span className={`text-xs font-mono font-bold ${sc.text}`}>{getProgressPercentage()}%</span>
           </div>
@@ -227,7 +236,17 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <span className={`text-[10px] font-mono uppercase tracking-wider ${sc.textMuted}`}>
             Modo de Lectura
           </span>
-          <div className="flex bg-slate-950/40 p-0.5 rounded-lg border border-amber-500/10 flex-wrap gap-0.5 max-w-[190px] justify-center">
+          <div className="flex bg-slate-950/40 p-0.5 rounded-lg border border-amber-500/10 flex-wrap gap-0.5 max-w-[210px] justify-center">
+            <button
+              onClick={() => onModeChange("home")}
+              className={`text-[9px] font-sans font-bold px-1.5 py-1 rounded-md transition-all cursor-pointer ${
+                mode === "home"
+                  ? "bg-amber-500/15 text-amber-500 border border-amber-500/15 shadow-sm"
+                  : `${sc.textMuted} hover:${sc.text}`
+              }`}
+            >
+              Inicio
+            </button>
             <button
               onClick={() => onModeChange("essay")}
               className={`text-[9px] font-sans font-bold px-1.5 py-1 rounded-md transition-all cursor-pointer ${
@@ -285,7 +304,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             className={`flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl border ${sc.button} active:scale-95 transition-all text-xs font-semibold cursor-pointer`}
           >
             <PenTool className="w-3.5 h-3.5" />
-            Bitácora
+            Reflexiones
           </button>
         </div>
 

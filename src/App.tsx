@@ -4,19 +4,20 @@ import { Sidebar } from "./components/Sidebar";
 import { ChapterContent } from "./components/ChapterContent";
 import { GlossaryDrawer } from "./components/GlossaryDrawer";
 import { JournalViewer } from "./components/JournalViewer";
+import { LandingPage } from "./components/LandingPage";
 import { ReadingSettings, ReadingTheme, FontSize } from "./components/ReadingSettings";
 import { motion, AnimatePresence } from "motion/react";
 import { Book, Compass, EyeOff, Layout } from "lucide-react";
 
 export default function App() {
-  // State for reading mode: essay or cuentos or poemas or reconstruccion
-  const [readingMode, setReadingMode] = React.useState<"essay" | "cuentos" | "poemas" | "reconstruccion">(() => {
-    return (localStorage.getItem("reading_mode") as "essay" | "cuentos" | "poemas" | "reconstruccion") || "essay";
+  // State for reading mode: home, essay, cuentos, poemas or reconstruccion
+  const [readingMode, setReadingMode] = React.useState<"home" | "essay" | "cuentos" | "poemas" | "reconstruccion">(() => {
+    return (localStorage.getItem("reading_mode") as "home" | "essay" | "cuentos" | "poemas" | "reconstruccion") || "home";
   });
 
   // State for active reading chapter/cuento/poema/reconstruccion
   const [activeChapterId, setActiveChapterId] = React.useState<string>(() => {
-    const mode = localStorage.getItem("reading_mode") || "essay";
+    const mode = localStorage.getItem("reading_mode") || "home";
     if (mode === "cuentos") {
       return localStorage.getItem("last_read_cuento") || "cuento0";
     }
@@ -77,7 +78,7 @@ export default function App() {
 
   // Current list of items to show in navigation and sidebar
   const currentChaptersList = React.useMemo(() => {
-    if (readingMode === "essay") return allChapters;
+    if (readingMode === "essay" || readingMode === "home") return allChapters;
     if (readingMode === "cuentos") return cuentosList;
     if (readingMode === "poemas") return poemasList;
     return reconstruccionChapters;
@@ -109,13 +110,14 @@ export default function App() {
   };
 
   // Switch between Ensayo, Cuentos, Poemas and Reconstrucción, trying to preserve position via links
-  const handleModeChange = (newMode: "essay" | "cuentos" | "poemas" | "reconstruccion") => {
+  const handleModeChange = (newMode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion") => {
     if (newMode === readingMode) return;
     
     let targetId = "cap0";
     if (newMode === "cuentos") targetId = "cuento0";
     if (newMode === "poemas") targetId = "poema0";
     if (newMode === "reconstruccion") targetId = "recon1";
+    if (newMode === "home") targetId = "cap0";
     
     const activeItem = currentChaptersList.find(c => c.id === activeChapterId);
     if (activeItem) {
@@ -130,7 +132,7 @@ export default function App() {
     setActiveChapterId(targetId);
   };
 
-  const handleSwitchMode = (newMode: "essay" | "cuentos" | "poemas" | "reconstruccion", targetId?: string) => {
+  const handleSwitchMode = (newMode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion", targetId?: string) => {
     setReadingMode(newMode);
     if (targetId) {
       setActiveChapterId(targetId);
@@ -182,6 +184,31 @@ export default function App() {
         return "bg-[#0D0E12] text-[#E4E6EB] font-serif";
     }
   };
+
+  if (readingMode === "home") {
+    return (
+      <LandingPage
+        theme={theme}
+        onStartReading={(mode, chapterId) => {
+          setReadingMode(mode);
+          if (chapterId) {
+            setActiveChapterId(chapterId);
+          } else {
+            if (mode === "essay") setActiveChapterId("cap0");
+            else if (mode === "cuentos") setActiveChapterId("cuento0");
+            else if (mode === "poemas") setActiveChapterId("poema0");
+            else if (mode === "reconstruccion") setActiveChapterId("recon1");
+          }
+          window.scrollTo({ top: 0, behavior: "smooth" });
+        }}
+        openGlossary={() => {
+          setReadingMode("essay");
+          setSelectedGlossaryTerm(undefined);
+          setIsGlossaryOpen(true);
+        }}
+      />
+    );
+  }
 
   return (
     <div className={`min-h-screen flex flex-col font-serif transition-colors duration-300 ${getThemeBackgroundClass()}`}>
