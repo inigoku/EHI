@@ -24,6 +24,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
 }) => {
   const [phraseIndex, setPhraseIndex] = React.useState(0);
   const infoSectionRef = React.useRef<HTMLDivElement>(null);
+  const videoRef = React.useRef<HTMLVideoElement>(null);
 
   React.useEffect(() => {
     const timer = setInterval(() => {
@@ -31,6 +32,25 @@ export const LandingPage: React.FC<LandingPageProps> = ({
     }, 4500);
     return () => clearInterval(timer);
   }, []);
+
+  React.useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0.2;
+    }
+  }, []);
+
+  const handleLoadedData = () => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0.2;
+    }
+  };
+
+  const handleEnded = () => {
+    if (videoRef.current) {
+      videoRef.current.currentTime = 0.2;
+      videoRef.current.play().catch(() => {});
+    }
+  };
 
   const scrollToInfo = () => {
     infoSectionRef.current?.scrollIntoView({ behavior: "smooth" });
@@ -92,12 +112,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       <section className="relative w-full h-[90vh] flex flex-col justify-between overflow-hidden bg-slate-950 z-10">
         {/* Background Video */}
         <video
-          src="/eHI-intro.mp4"
+          ref={videoRef}
+          src="/eHI-intro.mp4#t=0.2"
           className="absolute inset-0 w-full h-full object-cover opacity-80 select-none pointer-events-none"
           autoPlay
-          loop
           muted
           playsInline
+          onLoadedData={handleLoadedData}
+          onEnded={handleEnded}
         />
 
         {/* Ambient Dark Gradients (Softer to let the video shine) */}
