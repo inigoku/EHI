@@ -330,7 +330,7 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
           Doble clic para ampliar
         </div>
       </div>
-      {illustration.description && (
+      {isTxiki && illustration.description && (
         <p className="text-[11px] sm:text-xs text-gray-400 font-sans italic max-w-[260px] sm:max-w-[320px] text-center leading-snug">
           {illustration.description}
         </p>
