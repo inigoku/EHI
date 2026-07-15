@@ -84,7 +84,7 @@ const isIllustrationDuplicate = (chapter: Chapter, readingMode: string): boolean
             else if (lowerTitle.includes("ladrón") || lowerTitle.includes("ladron")) illusId = "cuento_ladron";
             else if (lowerTitle.includes("luthier")) illusId = "cuento_luthier";
           } else {
-            if (lowerTitle.includes("agua") && lowerTitle.includes("retira")) illusId = "il_tarel";
+            if (lowerTitle.includes("agua") && lowerTitle.includes("retira")) illusId = "cuento_agua_retira";
             else if (lowerTitle.includes("océano") || lowerTitle.includes("oceano")) illusId = "il_oceano_olas";
             else if (lowerTitle.includes("ladrón") || lowerTitle.includes("ladron")) illusId = "il_ladron";
             else if (lowerTitle.includes("luthier")) illusId = "il_luthier";
@@ -370,7 +370,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               else if (lowerTitle.includes("ladrón") || lowerTitle.includes("ladron")) illusId = "cuento_ladron";
               else if (lowerTitle.includes("luthier")) illusId = "cuento_luthier";
             } else {
-              if (lowerTitle.includes("agua") && lowerTitle.includes("retira")) illusId = "il_tarel";
+              if (lowerTitle.includes("agua") && lowerTitle.includes("retira")) illusId = "cuento_agua_retira";
               else if (lowerTitle.includes("océano") || lowerTitle.includes("oceano")) illusId = "il_oceano_olas";
               else if (lowerTitle.includes("ladrón") || lowerTitle.includes("ladron")) illusId = "il_ladron";
               else if (lowerTitle.includes("luthier")) illusId = "il_luthier";

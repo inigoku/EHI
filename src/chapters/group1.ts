@@ -179,6 +179,13 @@ El archivo cambió. Ya no guardaba solo historias del agua, sino de lo que queda
 
 Aparecieron semillas bajo el limo, herramientas oxidadas, marcas que no sabíamos si interpretar como pasado o como futuro.
 
+---
+
+## [ILUSTRACIÓN: "El agua se retira"]
+*Muelles podridos emergiendo. Anillos de amarre en el lodo. Marcas de niveles pasados como anillos de árbol en los postes. El agua como huésped que recoge sus cosas.*
+
+---
+
 Encontré un texto sin firma, casi borrado por la sal:
 
 > *"El agua nos sostiene mientras recordemos que también la sostenemos."*
@@ -204,9 +211,9 @@ Nadie supo decir si había dejado algo atrás.
 
 > **Si solo te quedas con una idea:** Tarel no es metáfora decorativa. Es el experimento en forma de cuento: algo emerge del agua, algo vive sobre el agua, algo retorna al agua. Y entre esos tres instantes, hay una ciudad que amó, recordó, perdió, construyó. El hecho de que ya no sea localizable en el agua no borra que estuvo.`,
     illustration: {
-      id: "il_tarel",
-      title: "El agua se retira",
-      description: "Muelles podridos emergiendo. Anillos de amarre en el lodo. Marcas de niveles pasados como anillos de árbol en los postes. El agua como huésped que recoge sus cosas."
+      id: "cuento_01",
+      title: "Tarel antes del agua",
+      description: "La ciudad flotante desde arriba. Casas de madera sobre pilotes, cuerdas gastadas, barcas amarradas. El agua es espejo."
     }
   },
   {
