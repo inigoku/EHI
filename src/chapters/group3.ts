@@ -480,12 +480,7 @@ La identidad del objeto desaparece, pero la deformación que causó en el sistem
     title: "LA TABLA DE LAS EQUIVALENCIAS",
     subtitle: "(O: La Rosetta Stone de la conciencia)",
     section: "PRIMERA PARTE: EL CICLO DEL HORIZONTE",
-    content: `## [ILUSTRACIÓN: "La Rosetta Stone de la conciencia"]
-*Una gran estela de piedra texturizada. Sus inscripciones brillan en cuatro columnas de distinta naturaleza: símbolos matemáticos de física, líneas de código de programación, caracteres sánscritos y círculos de luz dorada concéntricos. Todo converge en un diseño único.*
-
----
-
-Para consolidar las intuiciones de la primera parte del libro, es útil trazar un mapa comparativo. Este experimento no propone metáforas aisladas: sugiere que la conciencia comparte una **topología informacional** común con otras estructuras del universo físico, lógico y espiritual.
+    content: `Para consolidar las intuiciones de la primera parte del libro, es útil trazar un mapa comparativo. Este experimento no propone metáforas aisladas: sugiere que la conciencia comparte una **topología informacional** común con otras estructuras del universo físico, lógico y espiritual.
 
 La encapsulación no es una propiedad exclusiva del software, ni la evaporación pertenece solo a la termodinámica de los agujeros negros, ni el vacío es un concepto de uso exclusivo de los místicos orientales. Todos estos lenguajes describen las mismas transiciones de fase y límites de acceso bajo escalas diferentes.
 
