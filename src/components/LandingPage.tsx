@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { BookOpen, Compass, Heart, Layers, ArrowDown, ArrowRight, Book, Feather } from "lucide-react";
+import { BookOpen, Compass, Heart, Layers, ArrowDown, ArrowRight, Book, Feather, Volume2, VolumeX } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
 
 interface LandingPageProps {
@@ -25,6 +25,44 @@ export const LandingPage: React.FC<LandingPageProps> = ({
   const [phraseIndex, setPhraseIndex] = React.useState(0);
   const infoSectionRef = React.useRef<HTMLDivElement>(null);
   const videoRef = React.useRef<HTMLVideoElement>(null);
+  const audioRef = React.useRef<HTMLAudioElement>(null);
+  const [isMuted, setIsMuted] = React.useState(false);
+
+  React.useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = 0.4;
+      audioRef.current.play().catch((err) => {
+        console.log("Autoplay blocked:", err);
+      });
+    }
+  }, []);
+
+  React.useEffect(() => {
+    const handleFirstInteraction = () => {
+      if (audioRef.current && audioRef.current.paused && !isMuted) {
+        audioRef.current.play().catch(() => {});
+      }
+      window.removeEventListener("click", handleFirstInteraction);
+      window.removeEventListener("touchstart", handleFirstInteraction);
+    };
+    window.addEventListener("click", handleFirstInteraction);
+    window.addEventListener("touchstart", handleFirstInteraction);
+    return () => {
+      window.removeEventListener("click", handleFirstInteraction);
+      window.removeEventListener("touchstart", handleFirstInteraction);
+    };
+  }, [isMuted]);
+
+  const toggleMute = () => {
+    if (audioRef.current) {
+      const nextMuted = !audioRef.current.muted;
+      audioRef.current.muted = nextMuted;
+      setIsMuted(nextMuted);
+      if (!nextMuted && audioRef.current.paused) {
+        audioRef.current.play().catch(() => {});
+      }
+    }
+  };
 
   React.useEffect(() => {
     const timer = setInterval(() => {
@@ -120,6 +158,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           playsInline
           onLoadedData={handleLoadedData}
           onEnded={handleEnded}
+        />
+
+        {/* Background Audio */}
+        <audio
+          ref={audioRef}
+          src="/dream-in-orbit.mp3"
+          loop
+          autoPlay
         />
 
         {/* Ambient Dark Gradients (Softer to let the video shine) */}
@@ -392,6 +438,19 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           </p>
         </div>
       </footer>
+
+      {/* Floating Sound Toggle Button */}
+      <button
+        onClick={toggleMute}
+        className="fixed bottom-6 right-6 z-50 p-4 rounded-full bg-slate-950/70 border border-white/10 text-white backdrop-blur-md shadow-2xl hover:bg-slate-900/90 active:scale-95 transition-all cursor-pointer flex items-center justify-center hover:border-amber-500/30"
+        title={isMuted ? "Activar música" : "Silenciar música"}
+      >
+        {isMuted ? (
+          <VolumeX className="w-6 h-6 text-slate-400" />
+        ) : (
+          <Volume2 className="w-6 h-6 text-amber-400" />
+        )}
+      </button>
     </div>
   );
 };
