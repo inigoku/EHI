@@ -477,11 +477,6 @@ Si la conciencia tiene la estructura de un horizonte de sucesos, ¿de qué campo
 
 ---
 
-## [ILUSTRACIÓN: "El océano y las olas"]
-*Océano oscuro, vasto. Una ola se levanta, toma forma, viaja, rompe. El agua que era ola retorna al océano. Otra ola se levanta. No es la misma ola, pero es el mismo océano. Las olas no viajan: el movimiento viaja a través del agua. El agua permanece.*
-
----
-
 ## Hun Dun: el caos que es plenitud
 
 Los taoístas no midieron el reservorio. Lo contemplaron.
@@ -491,6 +486,13 @@ El capítulo 25 del Tao Te Ching describe el origen de todas las cosas como "alg
 El Zhuangzi cuenta que el soberano del centro se llamaba Hun Dun. Los soberanos del Norte y del Sur —Shu y Hu, Rapidez e Impetuosidad— quisieron corresponder a su generosidad dándole lo que todo ser tiene: siete orificios para ver, oír, comer, respirar. Abrieron uno por día. Al séptimo día, Hun Dun murió.
 
 La moraleja es precisa: cada sentido que abre es una distinción que se impone. Cada orificio es una ventana que cierra otra. Hun Dun muere en el momento exacto en que la conciencia adquiere su arquitectura ordinaria: la que divide sujeto de objeto, interior de exterior, yo de mundo. Y sin embargo, sin esos siete orificios no hay experiencia posible. No hay amor, no hay pensamiento, no hay la pregunta que genera este experimento. La conciencia individual es simultáneamente una degradación del Hun Dun y su única manifestación posible. El taoísmo no resuelve esa paradoja —la habita.
+
+---
+
+## [ILUSTRACIÓN 7: "Hun Dun y los siete orificios"]
+*Hun Dun como masa redonda, sin rasgos, sonriendo. Shu y Hu con cuerpos angulosos se acercan con herramientas. Secuencia: cada día abren un orificio. Hun Dun se vuelve más definido, más triste. Al séptimo día, se desvanece en polvo de estrellas.*
+
+---
 
 Pero hay más en la tradición china que Hun Dun. El concepto de **Qi** —la energía vital que circula por todo lo existente— es otra manera de nombrar el reservorio. El Qi no es una sustancia particular sino la capacidad de transformación misma: el movimiento que hace que una semilla se convierta en árbol, que un pensamiento se convierta en acción, que una herida se convierta en cicatriz. En la medicina tradicional china, la enfermedad no es invasión de un agente externo sino bloqueo o desarmonía en el flujo del Qi. El acupuntor no inyecta nada: redirige el flujo. No cura la parte: restaura la totalidad.
 
@@ -597,9 +599,9 @@ Y tú —esta conciencia particular que lee estas palabras en este instante— e
 >
 > **Lecturas:** Tao Te Ching (cap. 25); Zhuangzi (Hun Dun); Shankaracharya (Vedanta advaita, *Vivekachudamani*); Casimir (1948); Bose & Einstein (1924); Leggett (2001, condensados de Bose-Einstein).`,
     illustration: {
-      id: "il07",
-      title: "Hun Dun y los siete orificios",
-      description: "Hun Dun como masa redonda, sin rasgos, sonriendo. Shu y Hu con cuerpos angulosos se acercan con herramientas. Secuencia: cada día abren un orificio. Hun Dun se vuelve más definido, más triste. Al séptimo día, se desvanece en polvo de estrellas."
+      id: "il_oceano_olas",
+      title: "El océano y las olas",
+      description: "Océano oscuro, vasto. Una ola se levanta, toma forma, viaja, rompe. El agua que era ola retorna al océano. Otra ola se levanta. No es la misma ola, pero es el mismo océano. Las olas no viajan: el movimiento viaja a través del agua. El agua permanece."
     }
   },
   {
