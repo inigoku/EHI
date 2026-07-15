@@ -262,7 +262,7 @@ La pregunta ya no es si. Es cuánta, de qué tipo, y qué implica.
 ---
 
 ## [ILUSTRACIÓN TXIKI: "Txiki"]
-*Perro mestizo de pelo corto color canela con mancha blanca en el pecho, abrazado por un niño. Ambos llevan medallas colgadas del cuello. La mirada del perro no es la de una máquina: es la de alguien que está presente.*
+*El autor con Txiki*
 
 ---
 
