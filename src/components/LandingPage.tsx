@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { BookOpen, Compass, Heart, Layers, ArrowDown, ArrowRight, Book, Feather, Volume2, VolumeX } from "lucide-react";
+import { BookOpen, Compass, Heart, Layers, ArrowDown, ArrowRight, Book, Feather, Volume2, VolumeX, Waves, Network } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
 
 interface LandingPageProps {
@@ -296,22 +296,22 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           {/* Card 2 */}
           <div className={`p-8 rounded-2xl border ${tc.cardBg} space-y-4 transition-all duration-300`}>
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${tc.accentBg} ${tc.accentText}`}>
-              <Layers className="w-6 h-6" />
+              <Waves className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-display font-semibold">2. El Eco</h3>
+            <h3 className="text-xl font-display font-semibold">2. El Océano</h3>
             <p className={`text-sm leading-relaxed ${tc.textMuted} font-sans`}>
-              La información que cruza el umbral de la conciencia no se pierde. Queda retenida en la superficie de nuestro horizonte como un eco eterno, estructurando quiénes somos.
+              El "vacío" no está vacío. Es un reservorio de posibilidad del que emergen las conciencias individuales y las formas, similar a cómo las olas emergen de la superficie del agua.
             </p>
           </div>
 
           {/* Card 3 */}
           <div className={`p-8 rounded-2xl border ${tc.cardBg} space-y-4 transition-all duration-300`}>
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${tc.accentBg} ${tc.accentText}`}>
-              <Heart className="w-6 h-6" />
+              <Network className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-display font-semibold">3. La Luz</h3>
+            <h3 className="text-xl font-display font-semibold">3. La Red</h3>
             <p className={`text-sm leading-relaxed ${tc.textMuted} font-sans`}>
-              El entrelazamiento cuántico y la geometría conectan horizontes individuales. Aquello que denominamos vínculos o amor es el puente geométrico entre dos interiores.
+              La conciencia no radica en elementos aislados, sino en la forma en que se conectan. Representa la información integrada (Phi) que hace al sistema más que la suma de sus partes.
             </p>
           </div>
         </div>
