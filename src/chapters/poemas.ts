@@ -4,7 +4,7 @@ export const poemasList: Chapter[] = [
   {
     id: "poema_arq1",
     title: "LA ARQUITECTURA CON UN HUECO — I",
-    section: "POESÍA DE ENLACE",
+    section: "LA ARQUITECTURA CON UN HUECO",
     content: `El jabón se estira en mis manos,
 se curva.
 De repente, formo una esfera:
@@ -33,7 +33,7 @@ yo me despido.`,
   {
     id: "poema_arq2",
     title: "LA ARQUITECTURA CON UN HUECO — II",
-    section: "POESÍA DE ENLACE",
+    section: "LA ARQUITECTURA CON UN HUECO",
     content: `El remo tocó fondo
 donde antes había metro.
 
@@ -60,7 +60,7 @@ Y es suficiente.`,
   {
     id: "poema_arq3",
     title: "LA ARQUITECTURA CON UN HUECO — III",
-    section: "POESÍA DE ENLACE",
+    section: "LA ARQUITECTURA CON UN HUECO",
     content: `Me preguntaste por la lealtad de la materia
 y yo, cobarde, te hablé de información irrecuperable.
 
@@ -94,7 +94,7 @@ cómo sostener un vaso sin miedo a romperlo.`,
   {
     id: "poema_arq4",
     title: "LA ARQUITECTURA CON UN HUECO — IV",
-    section: "POESÍA DE ENLACE",
+    section: "LA ARQUITECTURA CON UN HUECO",
     content: `Y el agua volvió a mi orilla
 sin aviso.
 
@@ -126,7 +126,7 @@ eso era la respuesta.`,
   {
     id: "poema_glosario",
     title: "LA ARQUITECTURA CON UN HUECO — GLOSARIO ÍNTIMO",
-    section: "POESÍA DE ENLACE",
+    section: "LA ARQUITECTURA CON UN HUECO",
     content: `**Horizonte.** La distancia a la que puedo quererte sin disolverme.
 
 **Interfaz.** Todo lo que enseño de mí para que no haga falta entrar.
