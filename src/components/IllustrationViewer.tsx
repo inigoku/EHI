@@ -144,6 +144,8 @@ import cuentoTxiki from "../assets/images/cuentos/18_txiki_cierre.png";
 // @ts-ignore
 // @ts-ignore
 import cuentoM87 from "../assets/images/cuentos/19_M87_puente.png";
+// @ts-ignore
+import cuentoMussara from "../assets/images/cuentos/ilustracion_mussara.png";
 
 // Poemas background images
 // @ts-ignore
@@ -245,7 +247,7 @@ const imageMap: Record<string, string> = {
   cuento_eq: cuentoEq,
   cuento_txiki: cuentoTxiki,
   cuento_m87: cuentoM87,
-  cuento_mussara: img17_8_cosmic,
+  cuento_mussara: cuentoMussara,
 
   // Poem backgrounds mapping
   poema_arq1: poemaArq1,
