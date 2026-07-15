@@ -208,7 +208,7 @@ Esto es, incluso dentro de la física teórica, altamente especulativo. Extender
   },
   {
     id: "cap2_5",
-    chapterNumber: "2.5",
+    chapterNumber: "3",
     section: "PRIMERA PARTE: EL CICLO DEL HORIZONTE",
     title: "LA ENCAPSULACIÓN",
     subtitle: "(O: La física se convierte en filosofía)",
@@ -268,7 +268,7 @@ Dentro de una cabeza no hay ningún agujero negro literal. Pero quizá hay algo 
 
 ---
 
-> **Nota al Capítulo 2.5**
+> **Nota al Capítulo 3**
 >
 > **Lo que sí sabemos:** Que hay una distinción real entre sistemas con estados internos inaccesibles y sistemas completamente transparentes. Que la neurociencia puede describir correlatos pero no acceder al estado privado. Que el dualismo de acceso no requiere postular ninguna sustancia nueva.
 >
@@ -285,7 +285,8 @@ Dentro de una cabeza no hay ningún agujero negro literal. Pero quizá hay algo 
   },
   {
     id: "cap3",
-    chapterNumber: "3",
+    section: "PRIMERA PARTE: EL CICLO DEL HORIZONTE",
+    chapterNumber: "4",
     title: "LA COINCIDENCIA QUE NO ES CASUAL",
     content: `La hipótesis del capítulo anterior —que la conciencia es el interior de un dominio informacional encapsulado— no se sostiene por sí sola. Necesita evidencia. Hay cinco paralelos estructurales entre la física de los horizontes y la neurociencia de la conciencia que sugieren que la encapsulación no es una metáfora elegante, sino un patrón que aparece en dos dominios que no tenían motivo para coincidir.
 
@@ -441,7 +442,7 @@ Cuando una metáfora es a la vez la columna del relato y la afirmación científ
 
 ---
 
-> **Nota al Capítulo 3**
+> **Nota al Capítulo 4**
 >
 > **Lo que sí sabemos:** Phi y la entropía de Bekenstein-Hawking comparten forma matemática. Los cinco paralelos son estructurales, no probatorios. IIT ha generado predicciones empíricas parciales —anestesia, coma, estados de mínima conciencia— que merecen atención. El principio holográfico está matemáticamente bien fundado en la física de agujeros negros.
 >
@@ -460,7 +461,8 @@ Cuando una metáfora es a la vez la columna del relato y la afirmación científ
   },
   {
     id: "cap4",
-    chapterNumber: "4",
+    section: "PRIMERA PARTE: EL CICLO DEL HORIZONTE",
+    chapterNumber: "5",
     title: "EL RESERVORIO",
     content: `Hay un silencio que no está vacío. El músico lo conoce: el instante antes de que empiece la música, cuando la sala está en tensión, el director ha levantado la batuta, y lo que va a ocurrir está presente sin haber ocurrido todavía. Ese silencio no es ausencia de sonido —está lleno de posibilidad no realizada.
 
@@ -544,7 +546,7 @@ En 1924, Satyendra Nath Bose y Albert Einstein predijeron que si enfriabas un ga
 Esta es la imagen más fiel de lo que podría ser la emergencia de la conciencia desde el reservorio. No una construcción progresiva de piezas —neurona por neurona, sinapsis por sinapsis— sino una condensación: el colapso del espacio de posibilidades en una instancia particular. El reservorio no fabrica la conciencia; la conciencia es la rotura de simetría del reservorio, la condensación de correlaciones en un horizonte localizado.
 
 > **En física esto se llama:** condensación de Bose-Einstein, rotura de simetría, transición de fase.  
-> **En la vida diaria es como:** la burbuja de jabón del capítulo 5: no se construye poco a poco, se cierra de golpe cuando las condiciones son las correctas. O como el momento en que una conversación aburrida de repente se vuelve interesante: no porque nadie haya adado una pieza nueva, sino porque el campo entre los interlocutores ha cambiado de fase.
+> **En la vida diaria es como:** la burbuja de jabón del capítulo 6: no se construye poco a poco, se cierra de golpe cuando las condiciones son las correctas. O como el momento en que una conversación aburrida de repente se vuelve interesante: no porque nadie haya adado una pieza nueva, sino porque el campo entre los interlocutores ha cambiado de fase.
 
 Los gemelos monocigóticos ofrecen un experimento natural de esta idea. Comparten material genético idéntico —la misma "temperatura" del reservorio— y sin embargo desarrollan horizontes distintos. La diferencia no está en el reservorio sino en las condiciones de condensación: posición en el útero, flujo sanguíneo, exposición a hormonas, pequeñas variaciones que amplifican diferencias. El reservorio es el mismo, pero cada condensación es irrepetible.
 
@@ -585,7 +587,7 @@ Y tú —esta conciencia particular que lee estas palabras en este instante— e
 
 ---
 
-> **Nota al Capítulo 4**
+> **Nota al Capítulo 5**
 >
 > **Lo que sí sabemos:** El vacío cuántico ejerce fuerza real (efecto Casimir, verificado experimentalmente). Las tres tradiciones —física, taoísmo, vedanta— describen algo estructuralmente similar: un campo activo anterior a toda forma. La condensación de Bose-Einstein demuestra que la coherencia puede emerger de forma no constructiva.
 >
@@ -606,8 +608,9 @@ Y tú —esta conciencia particular que lee estas palabras en este instante— e
   },
   {
     id: "cap5",
+    section: "PRIMERA PARTE: EL CICLO DEL HORIZONTE",
     linkedCuentosId: "cuento2",
-    chapterNumber: "5",
+    chapterNumber: "6",
     title: "EL NACIMIENTO COMO EMERGENCIA",
     content: `Hay un momento en la formación de una burbuja de jabón que ocurre demasiado rápido para verlo. El film se estira, se curva, y en algún instante —no sabes exactamente cuándo— se cierra sobre sí mismo. Antes, hay una superficie abierta con dos lados que se comunican. Después, hay una burbuja: una frontera cerrada, un adentro que ya no puede comunicarse con el afuera sin destruirse. El momento del cierre no tiene señal. La burbuja no anuncia su propia formación. Simplemente ocurre.
 
@@ -659,7 +662,7 @@ Piensa en la diferencia entre un río y un lago. El agua del río fluye sin dire
 
 La conciencia podría ser algo así: no una sustancia nueva sino una organización nueva de la misma materia, que en el momento de adquirir su topología genera un adentro que antes no existía. El río se convierte en lago.
 
-Desde la perspectiva de la ingeniería de software y la teoría de la encapsulación (véase el capítulo 6.5), esta transición de fase es el equivalente exacto a la **instanciación** de una clase. Antes del cierre de la burbuja, los flujos de datos son abiertos, difusos y sin límites estrictos (el río). Al completarse las conexiones talamocorticales y cerrarse la burbuja, el sistema establece su límite de encapsulación. Lo que antes era código desestructurado ejecutándose en paralelo, ahora se empaqueta en una única instancia con su propio estado privado inaccesible desde el exterior. El río no solo se convierte en lago; el sistema dinámico se convierte en un objeto instanciado y encapsulado.
+Desde la perspectiva de la ingeniería de software y la teoría de la encapsulación (véase el capítulo 8), esta transición de fase es el equivalente exacto a la **instanciación** de una clase. Antes del cierre de la burbuja, los flujos de datos son abiertos, difusos y sin límites estrictos (el río). Al completarse las conexiones talamocorticales y cerrarse la burbuja, el sistema establece su límite de encapsulación. Lo que antes era código desestructurado ejecutándose en paralelo, ahora se empaqueta en una única instancia con su propio estado privado inaccesible desde el exterior. El río no solo se convierte en lago; el sistema dinámico se convierte en un objeto instanciado y encapsulado.
 
 ¿Hay entonces un momento preciso en que aparece la conciencia? La respuesta más coherente con los datos actuales es que ambas cosas son verdad simultáneamente: hay un gradiente continuo de Phi que aumenta semana a semana, y hay un punto de transición de fase donde el sistema cruza a un régimen cualitativamente diferente. Lo que cambia en el punto crítico no es la cantidad de conexiones sino su arquitectura causal: el sistema pasa de procesar localmente a integrar globalmente.
 
@@ -758,7 +761,7 @@ La única cosa que el experimento no puede decir —y que quizás ninguna teorí
 
 ---
 
-> **Nota al Capítulo 5**
+> **Nota al Capítulo 6**
 >
 > **Lo que sí sabemos:** La ventana 28-32 es hipótesis neurocientífica con evidencia de EEG fetal. Los delta brushes son reales. La migración neuronal radial y la poda sináptica son procesos documentados. La "cuarta trimestre" es un concepto bien establecido en neurodesarrollo infantil. La condensación de Bose-Einstein es un fenómeno físico real, aunque su aplicación a la conciencia es metafórica.
 >

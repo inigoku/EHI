@@ -3,8 +3,9 @@ import { Chapter } from "./group1";
 export const group4: Chapter[] = [
   {
     id: "cap9",
+    section: "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO",
     linkedCuentosId: "cuento5",
-    chapterNumber: "9",
+    chapterNumber: "13",
     title: "EL AMOR",
     content: `El entrelazamiento es automático e involuntario. Dos horizontes que han estado en contacto sostenido quedan acoplados independientemente de si quieren estarlo, independientemente de si el contacto fue amoroso u hostil. El agredido del cuaderno de agravios no eligió inscribir al otro en su arquitectura —ocurrió porque veinte años de anticipación adversarial construyeron ese modelo sin permiso.
 
@@ -89,7 +90,7 @@ El horizonte que ha reconocido queda en posición particular: ha asumido el cost
 
 ### El amor y el tiempo
 
-El capítulo 7 describió cómo el tiempo subjetivo depende de la tasa de integración. El amor altera esa tasa de manera específica. En las primeras fases del amor romántico, la tasa de integración es altísima: cada encuentro con el otro reconfigura el sistema, cada conversación produce novedad, cada silencio compartido tiene densidad inusual. El tiempo con el amado se siente más denso que el tiempo sin él.
+El capítulo 10 describió cómo el tiempo subjetivo depende de la tasa de integración. El amor altera esa tasa de manera específica. En las primeras fases del amor romántico, la tasa de integración es altísima: cada encuentro con el otro reconfigura el sistema, cada conversación produce novedad, cada silencio compartido tiene densidad inusual. El tiempo con el amado se siente más denso que el tiempo sin él.
 
 Pero hay un efecto adicional. Cuando dos horizontes amorosos están separados, el tiempo se dilata de manera que no ocurre en la ausencia de otros vínculos. La espera se vuelve más larga no porque el reloj marque más lento sino porque el sistema integra menos información por unidad de tiempo: la mayor parte de la capacidad de integración está ocupada modelando al ausente, anticipando el reencuentro, procesando la señal nula que el ausente genera.
 
@@ -123,7 +124,7 @@ El amor que no se practica —que no se nombra, que no se reorganiza, que no se 
 
 ---
 
-> **Nota al Capítulo 9**
+> **Nota al Capítulo 13**
 >
 > **Lo que sí sabemos:** El modelo de autoexpansión (Aron & Aron) y la reducción de la respuesta de amenaza en presencia del ser querido (Coan) son reales. Los tres sistemas del amor (Fisher) están bien documentados. La transición de la pasión al apego es un patrón reconocible.
 >
@@ -142,8 +143,9 @@ El amor que no se practica —que no se nombra, que no se reorganiza, que no se 
   },
   {
     id: "cap10",
+    section: "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO",
     linkedCuentosId: "cuento6",
-    chapterNumber: "10",
+    chapterNumber: "14",
     title: "LA ADICCIÓN",
     content: `### La voluntad como función del horizonte
 
@@ -194,7 +196,7 @@ En la adicción, el sistema aprende a predecir la sustancia con tanta certeza qu
 
 ### Cuando el amor se vuelve el objeto
 
-El capítulo 9 describió el contacto sexual como el único caso donde la superposición de dos horizontes es también física, donde la frontera entre el adentro y el afuera pierde nitidez. Esa ambigüedad de borde produce la señal de recompensa más potente que el sistema puede generar de manera natural —dopamina de anticipación, noradrenalina de novedad, oxitocina de contacto, endorfinas de placer físico. El cóctel completo. El sistema nervioso está literalmente diseñado para que eso importe más que casi cualquier otra cosa.
+El capítulo 13 describió el contacto sexual como el único caso donde la superposición de dos horizontes es también física, donde la frontera entre el adentro y el afuera pierde nitidez. Esa ambigüedad de borde produce la señal de recompensa más potente que el sistema puede generar de manera natural —dopamina de anticipación, noradrenalina de novedad, oxitocina de contacto, endorfinas de placer físico. El cóctel completo. El sistema nervioso está literalmente diseñado para que eso importe más que casi cualquier otra cosa.
 
 Pero el diseño asume que esa señal viene acompañada de un otro. De un horizonte real al otro lado del contacto —con su propio tiempo, su propia impredecibilidad, su propia capacidad de no responder. Una fricción que, paradójicamente, mantiene el sistema calibrado: la señal fluctúa, no puede ser controlada unilateralmente, y el sistema no puede optimizarla sin el concurso del otro.
 
@@ -202,7 +204,7 @@ La adicción al sexo ocurre cuando esa condición se rompe. Cuando el horizonte 
 
 El resultado es exactamente el del mecanismo general de la adicción: el umbral se desplaza hacia arriba. La intimidad real —con su fricción, sus silencios, su impredecibilidad— genera señal que el sistema, recalibrado por la hiperestimulación artificial, ya no encuentra suficiente. No porque el otro haya cambiado. Porque el sistema de recompensa ya no puede procesar lo que el otro ofrece a la intensidad que ahora requiere para registrarlo.
 
-Lo que hace que la adicción al sexo sea caso específico es que el circuito que secuestra es exactamente el circuito del amor. Los mismos receptores, el mismo sistema de anticipación dopaminérgica, la misma zona de ambigüedad del horizonte que el capítulo 9 describió como sede del vínculo más profundo. La adicción al sexo no es exceso de amor —es lo opuesto: es el sistema del amor persiguiendo la señal del amor sin el amor. Dopamina sin oxitocina. La química sin el otro.
+Lo que hace que la adicción al sexo sea caso específico es que el circuito que secuestra es exactamente el circuito del amor. Los mismos receptores, el mismo sistema de anticipación dopaminérgica, la misma zona de ambigüedad del horizonte que el capítulo 13 describió como sede del vínculo más profundo. La adicción al sexo no es exceso de amor —es lo opuesto: es el sistema del amor persiguiendo la señal del amor sin el amor. Dopamina sin oxitocina. La química sin el otro.
 
 El horizonte que ha llegado ahí no solo pierde acceso a la señal del vínculo. Pierde también la capacidad de resonar con otro horizonte en esa frecuencia —que es exactamente la frecuencia que necesitaría para recalibrarse. El lazo se corta por los dos extremos a la vez.
 
@@ -215,7 +217,7 @@ Hay una forma de adicción que la cultura no llama adicción: la adicción al tr
 
 El trabajo ofrece algo que el vínculo humano no puede ofrecer: resultados medibles, progreso visible, recompensa inmediata. Cada email respondido, cada tarea completada, cada objetivo alcanzado genera una pequeña descarga dopaminérgica. El sistema aprende a buscar esas descargas con la misma lógica con que busca la sustancia: porque generan señal más confiable que la impredecibilidad de los otros horizontes.
 
-Pero el trabajo, a diferencia de la sustancia química, no destruye receptores. Destruye algo más difícil de reparar: la capacidad de tolerar la ambigüedad del vínculo humano. El horizonte adicto al trabajo pierde la paciencia necesaria para las conversaciones que no terminan, para los silencios que no se resuelven, para las emociones que no pueden completarse en un sprint. El tiempo del vínculo —que el capítulo 7 describió como densidad que emerge de la resonancia— se vuelve "tiempo perdido" en comparación con la eficiencia del trabajo.
+Pero el trabajo, a diferencia de la sustancia química, no destruye receptores. Destruye algo más difícil de reparar: la capacidad de tolerar la ambigüedad del vínculo humano. El horizonte adicto al trabajo pierde la paciencia necesaria para las conversaciones que no terminan, para los silencios que no se resuelven, para las emociones que no pueden completarse en un sprint. El tiempo del vínculo —que el capítulo 10 describió como densidad que emerge de la resonancia— se vuelve "tiempo perdido" en comparación con la eficiencia del trabajo.
 
 > **En física esto se llama:** adicción conductual: secuestro del sistema de recompensa por actividad que genera señal predecible.  
 > **En la vida diaria es como:** un atleta que solo entrena en cinta porque la calle tiene baches: gana velocidad, pero pierde equilibrio.
@@ -270,7 +272,7 @@ El papel del vínculo en la recuperación es crucial. La oxitocina —la molécu
 
 ---
 
-> **Nota al Capítulo 10**
+> **Nota al Capítulo 14**
 >
 > **Lo que sí sabemos:** El secuestro del córtex prefrontal por sustancias y la deformación de la jerarquía de relevancia (recalibración dopaminérgica) son reales. El tratamiento del Parkinson genera descontrol de impulsos. El workaholismo es adicción conductual reconocida. El TDAH aumenta la vulnerabilidad a la adicción.
 >
@@ -289,24 +291,25 @@ El papel del vínculo en la recuperación es crucial. La oxitocina —la molécu
   },
   {
     id: "cap11",
+    section: "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO",
     linkedCuentosId: "cuento7",
-    chapterNumber: "11",
+    chapterNumber: "15",
     title: "EL VÍNCULO MADRE-HIJO",
-    content: `El capítulo 10 describió la oxitocina como la única vía de activación del sistema de recompensa que no destruye los receptores que necesita. Pero dejaba una pregunta sin responder: ¿dónde aprende el sistema, exactamente, qué intensidad de señal vincular es suficiente para registrarse como «estar en el sitio correcto»?
+    content: `El capítulo 14 describió la oxitocina como la única vía de activación del sistema de recompensa que no destruye los receptores que necesita. Pero dejaba una pregunta sin responder: ¿dónde aprende el sistema, exactamente, qué intensidad de señal vincular es suficiente para registrarse como «estar en el sitio correcto»?
 
 La respuesta: el umbral del vínculo se calibra en el primer vínculo. Y el primer vínculo es el único caso en toda la geometría del horizonte donde un sistema fabrica las condiciones de existencia de otro. No los acopla —los **fabrica**.
 
 ## La asimetría fundacional
 
-El capítulo 9 describió el amor como entrelazamiento reconocido entre dos horizontes que ya existían. El capítulo 8 mostró que ese entrelazamiento puede ser adversarial y aun así inscribirse con la misma profundidad. Todos esos casos comparten un supuesto que no se nombra: que los dos horizontes implicados existen previamente y se encuentran.
+El capítulo 13 describió el amor como entrelazamiento reconocido entre dos horizontes que ya existían. El capítulo 12 mostró que ese entrelazamiento puede ser adversarial y aun así inscribirse con la misma profundidad. Todos esos casos comparten un supuesto que no se nombra: que los dos horizontes implicados existen previamente y se encuentran.
 
 El vínculo madre-hijo no satisface ese supuesto.
 
-En la maternidad, uno de los dos horizontes **no existe todavía** cuando el otro empieza a reorganizarse alrededor de él. La madre no incluye al hijo en su yo en el sentido del capítulo 9 —la madre **reorganiza su arquitectura durante meses en torno a un horizonte que aún no se ha condensado**. Es entrelazamiento con objeto que todavía no es objeto. Cuando el horizonte del hijo finalmente se cierra —la transición de fase del capítulo 5— lo hace dentro de un reservorio que ya estaba esperándolo con geometría específica. La madre no encuentra al hijo. La madre fabrica el reservorio del cual el hijo emerge.
+En la maternidad, uno de los dos horizontes **no existe todavía** cuando el otro empieza a reorganizarse alrededor de él. La madre no incluye al hijo en su yo en el sentido del capítulo 13 —la madre **reorganiza su arquitectura durante meses en torno a un horizonte que aún no se ha condensado**. Es entrelazamiento con objeto que todavía no es objeto. Cuando el horizonte del hijo finalmente se cierra —la transición de fase del capítulo 6— lo hace dentro de un reservorio que ya estaba esperándolo con geometría específica. La madre no encuentra al hijo. La madre fabrica el reservorio del cual el hijo emerge.
 
 Eso da al vínculo una asimetría que en cualquier otro contexto sería patológica.
 
-En el capítulo 9, el amor no correspondido se describió como puente de Einstein-Rosen anclado en un solo extremo. La maternidad temprana **es exactamente esa geometría**. El hijo no puede aún reciprocar; el horizonte del hijo no tiene todavía la integración necesaria para incluir a la madre en un yo que aún se está formando. Y sin embargo, el vínculo funciona. No falla por la asimetría —**se construye sobre ella**.
+En el capítulo 13, el amor no correspondido se describió como puente de Einstein-Rosen anclado en un solo extremo. La maternidad temprana **es exactamente esa geometría**. El hijo no puede aún reciprocar; el horizonte del hijo no tiene todavía la integración necesaria para incluir a la madre en un yo que aún se está formando. Y sin embargo, el vínculo funciona. No falla por la asimetría —**se construye sobre ella**.
 
 Toda la teoría del entrelazamiento del libro hasta aquí ha asumido reciprocidad como condición de sostenibilidad. La maternidad demuestra que la reciprocidad puede emerger del vínculo en lugar de ser su requisito previo. La madre sostiene la asimetría el tiempo necesario para que el horizonte del hijo se desarrolle hasta poder participar, y luego —en el caso de desarrollo neurotípico estándar— la asimetría disminuye gradualmente sin desaparecer del todo.
 
@@ -321,7 +324,7 @@ Lo que la cultura llama «ser madre» con una sola palabra es, físicamente, tre
 
 **El útero** —la gestación— es la única capa que actúa antes de que el horizonte se cierre. Incluye hormonas que cruzan la placenta, el ritmo cardíaco materno, la voz, la prosodia del idioma. Desde la semana veinticinco, el feto responde de manera diferenciada a estímulos acústicos: reconoce la voz materna, distingue lenguas, prefiere las músicas que ha oído repetidamente. Esa experiencia integrada antes del umbral configura la forma específica de las correlaciones internas que el horizonte va a tener cuando se cierre. No determina al horizonte —pero deja en él firma que ningún otro adulto podrá replicar.
 
-**La crianza** —el encuentro— opera después del umbral, entre dos horizontes ya formados. Es donde se calibra el sistema de recompensa que el capítulo 10 describió. Cada llanto que recibe respuesta, cada hambre que encuentra alimento, cada presencia que se sostiene, enseña al sistema del hijo qué intensidad de señal oxitocínica es la línea de base que va a buscar el resto de su vida.
+**La crianza** —el encuentro— opera después del umbral, entre dos horizontes ya formados. Es donde se calibra el sistema de recompensa que el capítulo 14 describió. Cada llanto que recibe respuesta, cada hambre que encuentra alimento, cada presencia que se sostiene, enseña al sistema del hijo qué intensidad de señal oxitocínica es la línea de base que va a buscar el resto de su vida.
 
 > **En física esto se llama:** inscripciones secuenciales en multicapa.  
 > **En la vida diaria es como:** un instrumento musical: primero se fabrica (planta), luego se barniza (útero), luego se afina (crianza). Cada paso hace algo distinto.
@@ -366,7 +369,7 @@ Esta transición es brutal para ambos horizontes. El hijo, que nunca antes habí
 
 ## La lesión del horizonte
 
-Lo que distingue el sufrimiento de la madre cuando algo le ocurre al hijo del sufrimiento empático que el capítulo 12 va a describir es preciso: no es inferencia, es **lesión**.
+Lo que distingue el sufrimiento de la madre cuando algo le ocurre al hijo del sufrimiento empático que el capítulo 16 va a describir es preciso: no es inferencia, es **lesión**.
 
 En la empatía ordinaria, dos horizontes separados se modelan mutuamente y registran, a través de ese modelado, una versión atenuada del estado del otro. Hay un puente, y ese puente tiene coste cognitivo y límite de fidelidad.
 
@@ -394,7 +397,7 @@ La paradoja constitutiva de este vínculo es estructural: su función biológica
 
 Pero la asimetría fundacional hace este desenlace físicamente costoso para la madre. Su arquitectura se organizó durante meses alrededor de un horizonte que no existía, y luego durante años alrededor de uno que dependía críticamente de ella. Cuando ese horizonte se vuelve capaz de regularse solo, la arquitectura materna no puede simplemente reconfigurarse.
 
-Lo que el lenguaje ordinario llama «nido vacío» tiene descripción precisa: arquitectura organizada durante dos décadas en torno a presencia activa que ahora opera a baja frecuencia o a distancia. No es ausencia —es presencia atenuada que el sistema sigue procesando como si fuera inminente. La madre ejecuta voluntariamente la deexpansión que en el capítulo 9 era coste involuntario de la pérdida, y lo hace sin permitir que el hijo la perciba como retirada.
+Lo que el lenguaje ordinario llama «nido vacío» tiene descripción precisa: arquitectura organizada durante dos décadas en torno a presencia activa que ahora opera a baja frecuencia o a distancia. No es ausencia —es presencia atenuada que el sistema sigue procesando como si fuera inminente. La madre ejecuta voluntariamente la deexpansión que en el capítulo 13 era coste involuntario de la pérdida, y lo hace sin permitir que el hijo la perciba como retirada.
 
 Existe una variante extrema: el hijo adulto que corta el vínculo unilateralmente. No es duelo —el hijo sigue vivo. Es algo intermedio que produce una figura específica: el **fantasma del hijo vivo**. Un horizonte que la madre fabricó, que sigue existiendo, y que ha decidido no contestar. La inscripción en la arquitectura materna sigue operando aunque el otro lado haya dejado de actualizarla. Es uno de los duelos más difíciles que el modelo identifica precisamente porque carece del trabajo de cierre que otros duelos permiten.
 
@@ -434,16 +437,16 @@ La evidencia sugiere que lo que importa no es el número de cuidadores sino la c
 
 ## Lo que este capítulo cierra
 
-El capítulo 10 planteó la oxitocina como antídoto sin desarrollar dónde se calibra la sensibilidad oxitocínica. Este capítulo cierra esa pregunta. La calibración inicial del sistema de recompensa —el sentido de qué intensidad de señal vincular cuenta como suficiente— ocurre en la crianza. No en la genética, que aporta el rango de respuesta posible. No en la gestación, que prepara el reservorio. En la crianza: en los miles de episodios de regulación mutua entre el horizonte recién condensado y los adultos que lo acompañan.
+El capítulo 14 planteó la oxitocina como antídoto sin desarrollar dónde se calibra la sensibilidad oxitocínica. Este capítulo cierra esa pregunta. La calibración inicial del sistema de recompensa —el sentido de qué intensidad de señal vincular cuenta como suficiente— ocurre en la crianza. No en la genética, que aporta el rango de respuesta posible. No en la gestación, que prepara el reservorio. En la crianza: en los miles de episodios de regulación mutua entre el horizonte recién condensado y los adultos que lo acompañan.
 
-Esto da a la maternidad —y a la paternidad— una función que ningún otro vínculo cumple: es donde el horizonte del hijo aprende qué es sentirse en el sitio correcto. El capítulo 10 mostró qué pasa cuando esa calibración se desplaza. Este capítulo muestra dónde se establece. Y el capítulo 12 va a mostrar cómo esa calibración temprana determina, a lo largo de la vida, cuánto puede un horizonte resonar con otros sin sobrecargarse.
+Esto da a la maternidad —y a la paternidad— una función que ningún otro vínculo cumple: es donde el horizonte del hijo aprende qué es sentirse en el sitio correcto. El capítulo 14 mostró qué pasa cuando esa calibración se desplaza. Este capítulo muestra dónde se establece. Y el capítulo 16 va a mostrar cómo esa calibración temprana determina, a lo largo de la vida, cuánto puede un horizonte resonar con otros sin sobrecargarse.
 
 > **En física esto se llama:** calibración de la línea de base del receptor.  
 > **En la vida diaria es como:** afinar un instrumento musical por primera vez: la nota que le das al principio es la afinación que va a buscar siempre.
 
 ---
 
-> **Nota al Capítulo 11**
+> **Nota al Capítulo 15**
 >
 > **Lo que sí sabemos:** El acoplamiento cerebral madre-hijo (brain coupling) y el microquimerismo materno-fetal son reales. La discontinuidad de capas en adopción y FIV es medible. La depresión postparto afecta la calibración del sistema de apego del hijo. La still face paradigm (Tronick) demuestra la importancia de la contingencia.
 >
@@ -462,12 +465,13 @@ Esto da a la maternidad —y a la paternidad— una función que ningún otro v�
   },
   {
     id: "cap12",
+    section: "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO",
     linkedCuentosId: "cuento11",
-    chapterNumber: "12",
+    chapterNumber: "16",
     title: "LA EMPATÍA Y SU LÍMITE",
     content: `A menudo confundimos la empatía con una virtud moral o una disposición de ánimo deseable. Desde la perspectiva de este experimento, la empatía es un fenómeno físico y geométrico antes que ético: es la capacidad de un horizonte para modelar y replicar la frecuencia de otro en su propia arquitectura.
 
-Cuando empatizamos profundamente, no estamos imaginando el dolor del otro en sentido figurado. Nuestro horizonte modifica temporalmente su geometría para integrar la información que el otro está emitiendo. Por un instante, dos fronteras se solapan y los tiempos subjetivos se sincronizan. Es el mismo mecanismo que en el capítulo 7 generaba el tiempo del vínculo —aplicado ahora a encuentro breve, a veces de segundos, con alguien que ni siquiera nos importa particularmente.
+Cuando empatizamos profundamente, no estamos imaginando el dolor del otro en sentido figurado. Nuestro horizonte modifica temporalmente su geometría para integrar la información que el otro está emitiendo. Por un instante, dos fronteras se solapan y los tiempos subjetivos se sincronizan. Es el mismo mecanismo que en el capítulo 10 generaba el tiempo del vínculo —aplicado ahora a encuentro breve, a veces de segundos, con alguien que ni siquiera nos importa particularmente.
 
 > **En física esto se llama:** resonancia transitoria de horizontes.  
 > **En la vida diaria es como:** cuando alguien cerca llora y tu cuerpo se tensa antes de que tu mente "decida" sentir algo.
@@ -476,7 +480,7 @@ Cuando empatizamos profundamente, no estamos imaginando el dolor del otro en sen
 
 ### Inferencia, no lesión
 
-En el capítulo 11 establecimos distinción crucial. Dijimos que lo que distingue el sufrimiento de una madre ante el dolor de su hijo del sufrimiento empático ordinario es que el dolor materno no es inferencia: es lesión. La madre construyó parte de su propia arquitectura alrededor de ese hijo, y la pérdida o el daño del hijo desgarra esa arquitectura desde dentro.
+En el capítulo 15 establecimos distinción crucial. Dijimos que lo que distingue el sufrimiento de una madre ante el dolor de su hijo del sufrimiento empático ordinario es que el dolor materno no es inferencia: es lesión. La madre construyó parte de su propia arquitectura alrededor de ese hijo, y la pérdida o el daño del hijo desgarra esa arquitectura desde dentro.
 
 La empatía pura es otra cosa. Es inferencia, aunque sea inferencia somática, profunda y mayormente automática. El sistema utiliza su propia estructura para simular, transitoriamente, el estado del otro. Las redes neuronales implicadas en sentir el propio dolor se activan también ante el dolor ajeno observado; la atención social aumenta; la respiración y el pulso comienzan a derivar hacia los del otro. Pero la simulación es capa superpuesta. No es la arquitectura misma del horizonte la que ha sido modificada de forma irreversible —solo su estado momentáneo.
 
@@ -511,7 +515,7 @@ Otros tienen piel de cuero: notan que hay tristeza, pero no se impregnan de ella
 
 No es mejor tener piel gruesa o fina. Es solo diferente. Pero si tu piel es de papel y trabajas en un hospital, necesitas aprender a ponerte un impermeable de vez en cuando. Si tu piel es de cuero y tienes hijos, necesitas aprender a bajarla a veces, o no sentirás lo que ellos sienten.
 
-La permeabilidad no es virtud ni defecto. Es parámetro estructural, en gran medida calibrado durante la primera infancia. Como vimos en el capítulo 11, la sincronía temprana entre madre e hijo no solo enseña al niño que el otro existe —enseña hasta qué punto el otro debe ser tratado como información urgente. Un horizonte que se calibró en entorno donde la lectura precisa del estado del otro era cuestión de supervivencia desarrolla permeabilidad muy alta. Lo que en la infancia fue habilidad protectora se convierte, en la vida adulta, en vulnerabilidad estructural: el horizonte sigue tratando cualquier señal externa con grado de urgencia que la situación ya no requiere.
+La permeabilidad no es virtud ni defecto. Es parámetro estructural, en gran medida calibrado durante la primera infancia. Como vimos en el capítulo 15, la sincronía temprana entre madre e hijo no solo enseña al niño que el otro existe —enseña hasta qué punto el otro debe ser tratado como información urgente. Un horizonte que se calibró en entorno donde la lectura precisa del estado del otro era cuestión de supervivencia desarrolla permeabilidad muy alta. Lo que en la infancia fue habilidad protectora se convierte, en la vida adulta, en vulnerabilidad estructural: el horizonte sigue tratando cualquier señal externa con grado de urgencia que la situación ya no requiere.
 
 > **En física esto se llama:** calibración temprana del umbral de respuesta que persiste en contextos donde ya no es adaptativa.  
 > **En la vida diaria es como:** un detector de humo tan sensible que se dispara cuando hierves agua.
@@ -596,7 +600,7 @@ Esto tiene implicación inesperada. La empatía no es don que se tiene o no se t
 
 ### La empatía adversarial: cuando el horizonte no quiere sentir
 
-Hay un caso que la descripción ordinaria de la empatía omite: la empatía con alguien a quien se considera enemigo. El capítulo 8 describió el entrelazamiento adversarial como geometría compartida de la misma profundidad que el amoroso. La empatía funciona igual en ambos casos: el horizonte modela al otro, replica su frecuencia, integra su información. La diferencia no está en el mecanismo sino en la valencia —en lo que el horizonte hace con la información una vez integrada.
+Hay un caso que la descripción ordinaria de la empatía omite: la empatía con alguien a quien se considera enemigo. El capítulo 12 describió el entrelazamiento adversarial como geometría compartida de la misma profundidad que el amoroso. La empatía funciona igual en ambos casos: el horizonte modela al otro, replica su frecuencia, integra su información. La diferencia no está en el mecanismo sino en la valencia —en lo que el horizonte hace con la información una vez integrada.
 
 El torturador que conoce exactamente qué le duele a su víctima no carece de empatía. Tiene empatía de alta precisión orientada hacia un fin que la cultura no puede nombrar sin horror. El horizonte que empatiza para dañar no es horizonte roto: es horizonte que ha desconectado la resonancia de la respuesta. Siente lo que siente el otro —o más precisamente, sabe lo que el otro siente— y usa ese conocimiento para maximizar el daño.
 
@@ -668,7 +672,7 @@ La pregunta correcta no es "¿debería empatizar más?". Es "¿dónde está mi l
 
 ---
 
-> **Nota al Capítulo 12**
+> **Nota al Capítulo 16**
 >
 > **Lo que sí sabemos:** La empatía afectiva agota; la compasión no (Singer et al.). La interocepción correlaciona con precisión empática. La empatía cognitiva y afectiva operan por circuitos parcialmente distintos. El burnout en trabajadores de emergencia está correlacionado con densidad de señal, no con intensidad individual.
 >
@@ -687,8 +691,9 @@ La pregunta correcta no es "¿debería empatizar más?". Es "¿dónde está mi l
   },
   {
     id: "cap13",
+    section: "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO",
     linkedCuentosId: "cuento10",
-    chapterNumber: "13",
+    chapterNumber: "17",
     title: "EL DUELO",
     content: `Hay una experiencia que casi todo el mundo que ha perdido a alguien profundamente querido conoce, y que el vocabulario habitual no recoge bien: la sensación de que la persona ausente sigue ocupando un lugar en la propia arquitectura interior. No como memoria en sentido ordinario, sino como forma. Como espacio. Como geometría en torno a la cual el horizonte ha estado organizándose durante años o décadas.
 
@@ -703,14 +708,14 @@ No hay versión de *pasar página* que signifique deshacer la inscripción del o
 
 ### Lo que el duelo no es
 
-El capítulo 8 describió cómo el modelo persistente del otro después de su muerte no es exactamente memoria —es sistema predictivo que sigue corriendo en ausencia de los datos que lo calibraban—. El caso era el vecino. La relación había sido adversarial. El modelo se había construido al precio de la vigilancia, no del amor.
+El capítulo 12 describió cómo el modelo persistente del otro después de su muerte no es exactamente memoria —es sistema predictivo que sigue corriendo en ausencia de los datos que lo calibraban—. El caso era el vecino. La relación había sido adversarial. El modelo se había construido al precio de la vigilancia, no del amor.
 
-El caso del duelo en sentido propio es distinto. Cuando el entrelazamiento ha sido amoroso —cuando, como dijimos en el capítulo 9, el horizonte reconoció el entrelazamiento y eligió mantenerlo—, lo que persiste tras la pérdida no es solo modelo del otro. Es la parte de la propia arquitectura que se construyó alrededor de ese modelo.
+El caso del duelo en sentido propio es distinto. Cuando el entrelazamiento ha sido amoroso —cuando, como dijimos en el capítulo 13, el horizonte reconoció el entrelazamiento y eligió mantenerlo—, lo que persiste tras la pérdida no es solo modelo del otro. Es la parte de la propia arquitectura que se construyó alrededor de ese modelo.
 
 > **En física esto se llama:** arquitectura reorganizada alrededor de presencia ausente.  
 > **En la vida diaria es como:** una viuda que dice: "Es la forma en la que estoy hecha por dentro. Cada movimiento que hago, lo hago contra esa forma o con ella."
 
-En el capítulo 11 dijimos que el vínculo entre madre e hijo no es inferencia sino lesión. El duelo por alguien profundamente querido es estructuralmente más cercano al dolor materno que a la empatía ordinaria. El horizonte no está simulando temporalmente al otro: se ha construido a sí mismo, durante décadas, alrededor de la presencia del otro. La pérdida no es, por tanto, pérdida de información. Es pérdida de arquitectura.
+En el capítulo 15 dijimos que el vínculo entre madre e hijo no es inferencia sino lesión. El duelo por alguien profundamente querido es estructuralmente más cercano al dolor materno que a la empatía ordinaria. El horizonte no está simulando temporalmente al otro: se ha construido a sí mismo, durante décadas, alrededor de la presencia del otro. La pérdida no es, por tanto, pérdida de información. Es pérdida de arquitectura.
 
 ### La arquitectura con un hueco
 
@@ -736,7 +741,7 @@ Las culturas que han eliminado los ritos del duelo —que esperan que la gente "
 
 ### El modelo que sigue corriendo
 
-La maquinaria cognitiva responsable de esto se conoce relativamente bien. El cerebro humano construye, durante el entrelazamiento sostenido con otro, modelo predictivo complejo de ese otro: cómo se mueve, qué dice, qué piensa probablemente en cada situación. Ese modelo se ejecuta continuamente, en paralelo con la percepción del mundo, anticipando las respuestas del otro antes de que ocurran. Esa anticipación es lo que permite la sincronía del vínculo del que hablamos en el capítulo 7: dos horizontes que llevan años juntos no se predicen tanto como anticipan, en el mismo instante, lo que está a punto de ocurrir.
+La maquinaria cognitiva responsable de esto se conoce relativamente bien. El cerebro humano construye, durante el entrelazamiento sostenido con otro, modelo predictivo complejo de ese otro: cómo se mueve, qué dice, qué piensa probablemente en cada situación. Ese modelo se ejecuta continuamente, en paralelo con la percepción del mundo, anticipando las respuestas del otro antes de que ocurran. Esa anticipación es lo que permite la sincronía del vínculo del que hablamos en el capítulo 10: dos horizontes que llevan años juntos no se predicen tanto como anticipan, en el mismo instante, lo que está a punto de ocurrir.
 
 Cuando uno de los dos muere, el modelo del otro no se borra. Sigue corriendo. Las predicciones se siguen produciendo. Y cada predicción, al no encontrar confirmación —al no llegar la respuesta que el modelo esperaba—, genera error de predicción que el sistema interpreta como dolor.
 
@@ -795,7 +800,7 @@ Esto no es comunicar con el muerto. Es reconocer que el muerto está, sin emitir
 
 Hay un caso que desafía todo lo que este capítulo ha dicho. La pérdida de un hijo —especialmente un hijo joven— no encaja en el modelo del duelo por entrelazamiento amoroso. Es algo más profundo.
 
-El capítulo 11 describió la maternidad como fabricación del reservorio. Cuando ese reservorio se cierra —cuando el hijo muere— lo que se pierde no es solo un entrelazamiento. Es la condensación misma que la madre ayudó a producir. Es el horizonte que fabricó, que contenía parte de su propia arquitectura, que llevaba sus células en su cuerpo. El microquimerismo que la conectaba físicamente con su hijo sigue ahí después de que el hijo ha muerto. La madre lleva, literalmente, partes de un horizonte que ya no existe.
+El capítulo 15 describió la maternidad como fabricación del reservorio. Cuando ese reservorio se cierra —cuando el hijo muere— lo que se pierde no es solo un entrelazamiento. Es la condensación misma que la madre ayudó a producir. Es el horizonte que fabricó, que contenía parte de su propia arquitectura, que llevaba sus células en su cuerpo. El microquimerismo que la conectaba físicamente con su hijo sigue ahí después de que el hijo ha muerto. La madre lleva, literalmente, partes de un horizonte que ya no existe.
 
 > **En física esto se llama:** pérdida de la condensación que uno ayudó a producir.  
 > **En la vida diaria es como:** un escultor que ve destruida su obra maestra: no es solo la pérdida de algo bello, es la pérdida de algo que salió de sus manos.
@@ -812,7 +817,7 @@ Eso no es consuelo. Pero puede ser compañía.
 
 ---
 
-> **Nota al Capítulo 13**
+> **Nota al Capítulo 17**
 >
 > **Lo que sí sabemos:** El DSM-5 incluyó "trastorno de duelo prolongado" como categoría diagnóstica, pero fue controvertido. Los modelos predictivos persisten post-muerte. El continuing bonds es un modelo clínico reconocido. La cardiomiopatía de takotsubo es real. El duelo no reconocido (aborto, mascota, ruptura) tiene efectos documentados.
 >
@@ -831,7 +836,8 @@ Eso no es consuelo. Pero puede ser compañía.
   },
   {
     id: "cap13_5",
-    chapterNumber: "13.5",
+    section: "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO",
+    chapterNumber: "18",
     title: "EL SISTEMA OPERATIVO Y LA INTERFAZ DEL SUFRIMIENTO",
     content: `Si has estado prestando atención a tu propia mente, seguramente habrás notado lo fácil que es ser secuestrado por una emoción. Un comentario trivial de un compañero de trabajo despierta una furia desproporcionada; un olor te sumerge en una nostalgia repentina; una barra de chocolate anula todas tus decisiones dietéticas previas. Durante esos instantes, sientes que hay un "yo" al mando, pero un observador imparcial concluiría que eres una marioneta respondiendo a estímulos.
 
@@ -946,7 +952,7 @@ El camino espiritual no es una huida mística. Es el acto más elevado de lucide
 
 ---
 
-> **Nota al Capítulo 13.5**
+> **Nota al Capítulo 18**
 >
 > **Lo que sí sabemos:** La psicología evolucionista confirma que la mente es modular y que los sentimientos son adaptaciones para la supervivencia genética, no para la percepción objetiva de la realidad (Wright). La racionalización post-hoc está ampliamente documentada en neurociencia cognitiva: el cerebro genera explicaciones coherentes para decisiones tomadas por procesos a los que la conciencia verbal no tiene acceso directo.
 >

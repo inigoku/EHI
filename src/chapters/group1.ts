@@ -14,6 +14,7 @@ export interface Chapter {
   illustration?: Illustration;
   linkedChapterId?: string;
   linkedCuentosId?: string;
+  featured?: boolean;
   // Extra fields for Reconstrucción tabbed content
   narrativa?: string;
   ensayo?: string;
@@ -145,7 +146,7 @@ Yo era archivista. O eso decía mi nombramiento. En realidad miraba despacio lo 
 
 Anoté la primera franja de barro sin urgencia, como quien corrige un mapa antiguo sin saber todavía qué ciudad quedará al otro lado de la corrección.
 
-—Antes no estaba —dijo Kema, señalando el borde oscuro bajo su casa—. El agua lo sabe.
+—Antes no estaba —dijo Kema, señalando el borde oscuro bajo su casa—. El agua lo cubría. El agua lo sabe.
 —¿Qué sabe?
 —Cuándo soltar... y cuándo quedarse.
 
@@ -154,8 +155,6 @@ Lo escribí, aunque no supe en qué categoría archivarlo.
 El agua se retiró sin prisa. No arrancó: se despidió. Muelles podridos. Anillos de amarre incrustados en lodo. Marcas de niveles pasados que nadie quiso leer como profecía.
 
 Era un huésped que recoge sus cosas mientras duermes y deja la habitación lista para alguien que no llegará.
-
----
 
 En el archivo vivían dos relatos. Uno decía que Tarel siempre había flotado. El otro, que huimos hacia el agua tras una guerra o tras una sed tan vieja que ya no dolía. En ambos aparecía la misma palabra, escrita con trazos distintos: **hogar**.
 
@@ -171,7 +170,7 @@ Nadie respondió de inmediato. Tomé nota de la frase como se toma nota del clim
 
 Tarel se dividió sin romperse. Algunas familias desmontaron sus casas con una eficiencia que daba miedo. Quemaron algas secas. Prometieron volver. Prometieron escribir. No todos miraban atrás al irse.
 
-Otros se quedaron y aprendieron el habla del barro: dónde pisar sin hundirse, cuándo esperar, qué sonido anuncia quiebre y cuál solo cansancio. Algunos se quedaron ajustando el paso, otros siguió repisando la misma huella.
+Otros se quedaron y aprendieron el habla del barro: dónde pisar sin hundirse, cuándo esperar, qué sonido anuncia quiebre y cuál solo cansancio. Algunos se quedaron ajustando el paso, otros siguieron repisando la misma huella.
 
 Los niños caminaron. Algunos lloraron la flotación perdida. Otros mostraron ampollas nuevas como medallas que nadie les había dado.
 
@@ -209,7 +208,9 @@ Nadie supo decir si había dejado algo atrás.
 
 ---
 
-> **Si solo te quedas con una idea:** Tarel no es metáfora decorativa. Es el experimento en forma de cuento: algo emerge del agua, algo vive sobre el agua, algo retorna al agua. Y entre esos tres instantes, hay una ciudad que amó, recordó, perdió, construyó. El hecho de que ya no sea localizable en el agua no borra que estuvo.`,
+> **Si solo te quedas con una idea:** Tarel no es metáfora decorativa. Es el experimento en forma de cuento: algo emerge del agua, algo vive sobre el agua, algo retorna al agua. Y entre esos tres instantes, hay una ciudad que amó, recordó, perdió, construyó. El hecho de que ya no sea localizable en el agua no borra que estuvo.
+
+---`,
     illustration: {
       id: "cuento_01",
       title: "Tarel antes del agua",

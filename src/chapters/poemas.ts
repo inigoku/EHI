@@ -599,42 +599,72 @@ Y yo peso con ella.`
     id: "poema_recon4",
     title: "RECONSTRUCCIÓN — IV: LA TENSIÓN QUE SE ABRE",
     section: "RECONSTRUCCIÓN (POEMAS)",
-    content: `La tensión se nota primero en la base del cuello, 
-un tirón seco que viaja por la clavícula hasta entumecer los dedos que sujetan el bolígrafo.
-
-No hay rotura todavía.
-
-Es el esfuerzo del aire por sostener el peso de la habitación completa.
-
-El diafragma se vuelve rígido como madera curada.
-El pulso golpea en la sien izquierda con la regularidad de un reloj de cuarzo barato.
-
-Tirar de la cuerda.
-Sentir cómo cede la fibra antes del chasquido.
-
-Sostener la respiración
-para que la distancia entre nosotros no se acorte demasiado rápido.`
+    content: `La tensión abre.  
+ 
+No rompe.  
+ 
+No quiebra.  
+ 
+No destruye.  
+ 
+La tensión estira  
+lo que el mundo  
+ya no puede sostener.  
+ 
+El vaso tiembla.  
+ 
+La calle respira.  
+ 
+Las voces golpean.  
+ 
+El aire se endurece.  
+ 
+Yo me abro  
+sin querer abrirme.  
+ 
+Yo me quiebro  
+sin querer quebrarme.  
+ 
+La tensión avanza.  
+ 
+Y yo lloro  
+porque no sé  
+si debo seguirla  
+o detenerla.`
   },
   {
     id: "poema_recon5",
     title: "RECONSTRUCCIÓN — V: LA RUPTURA QUE INSISTE",
     section: "RECONSTRUCCIÓN (POEMAS)",
-    content: `Una taza de cerámica blanca cae sobre el parquet y no se rompe en mil pedazos: se divide limpiamente en dos mitades perfectas.
-
-La grieta avanza por el pasillo.
-
-No hay drama en el crujido.
-
-Es el movimiento natural de las paredes de la casa cuando el frío de enero contrae los cimientos.
-
-Salgo a la calle sin abrigo.
-Un ficus viejo ha levantado tres baldosas de la acera con una fuerza silenciosa que tardó quince años en acumular.
-
-Las dos mitades de la taza siguen sobre la mesa de la cocina.
-Ninguna de las dos reclama el agua que contenían.
-
-Dejar ir es esto:
-mirar la línea divisoria y no intentar aplicar pegamento.`
+    content: `La ruptura insiste.  
+ 
+No avisa.  
+ 
+No espera.  
+ 
+No perdona.  
+ 
+La ruptura abre  
+lo que yo quería  
+mantener cerrado.  
+ 
+La plaza respira  
+con un hueco nuevo.  
+ 
+El hombre avanza  
+con una ausencia vieja.  
+ 
+Yo corro  
+porque no sé  
+cómo sostener  
+lo que se rompe.  
+ 
+La ruptura insiste.  
+ 
+Y yo lloro  
+porque no sé  
+si debo detenerla  
+o dejarla avanzar.`
   },
   {
     id: "poema_recon6",
@@ -658,7 +688,15 @@ Y el mundo
 era la suma  
 de nuestras tres respiraciones.  
  
-Lloré.
-Y era luz.`
+Lloré,  
+no por dolor,  
+sino por claridad.  
+ 
+Porque entendí  
+que nunca estuvimos separados.  
+ 
+Solo estábamos mirando  
+desde lugares distintos  
+la misma arquitectura.`
   }
 ];
