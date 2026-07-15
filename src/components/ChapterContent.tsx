@@ -446,14 +446,36 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         continue;
       }
 
-      // Regular blockquote
-      if (trimmed.startsWith("> ")) {
+      // Horizontal rule
+      if (trimmed === "---") {
         processedBlocks.push(
-          <blockquote key={i} className={tc.blockquote}>
-            {trimmed.replace("> ", "")}
-          </blockquote>
+          <hr key={i} className="my-6 border-0 border-t border-amber-500/20" />
         );
         i++;
+        continue;
+      }
+
+      // Lone > (empty blockquote line) — skip
+      if (trimmed === ">") {
+        i++;
+        continue;
+      }
+
+      // Regular blockquote — group consecutive > lines into one block
+      if (trimmed.startsWith("> ") || trimmed === ">") {
+        const blockLines: string[] = [];
+        while (i < lines.length && (lines[i].trim().startsWith("> ") || lines[i].trim() === ">")) {
+          const content = lines[i].trim();
+          blockLines.push(content === ">" ? "" : content.replace(/^> /, ""));
+          i++;
+        }
+        processedBlocks.push(
+          <blockquote key={`bq-${i}`} className={`${tc.blockquote} space-y-1`}>
+            {blockLines.map((bl, bi) =>
+              bl === "" ? <div key={bi} className="h-1" /> : <p key={bi} className="leading-relaxed">{parseInlineStyles(bl)}</p>
+            )}
+          </blockquote>
+        );
         continue;
       }
 
