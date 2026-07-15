@@ -449,5 +449,259 @@ que nunca estuvimos separados.
 Solo estábamos mirando  
 desde lugares distintos  
 la misma arquitectura.`
+  },
+  {
+    id: "poema_frialdad1",
+    title: "I. CARTOGRAFÍA DEL ECO",
+    section: "LA FRIALDAD DE UNA CIUDAD APAGADA",
+    content: `Dentro no hay un corazón.
+Hay un ruido.
+Un temblor pequeño, como si el cuerpo
+intentara recordar algo que ya no sabe.
+La piel no separa nada.
+Es un lugar abierto,
+una frontera cansada
+por donde entra lo que no quiero
+y sale lo poco que aún guardo.
+
+El cuerpo es un espacio prestado.
+Una habitación sin ventanas
+donde la luz entra tarde
+y se va demasiado pronto.
+
+Cada gesto deja un rastro mínimo:
+un frío,
+un peso,
+una ausencia.
+
+Con eso intento decir “sigo aquí”.
+
+Y debajo de la lengua, todavía,
+una frialdad que no se va.`,
+    illustration: {
+      id: "poema_frialdad1",
+      title: "Cartografía del Eco",
+      description: "Una línea quebrada, como un cable que ya no conduce nada, terminando en un punto apagado sobre un mapa borrado por la lluvia."
+    }
+  },
+  {
+    id: "poema_frialdad2",
+    title: "II. CANTO DE MUERTE",
+    section: "LA FRIALDAD DE UNA CIUDAD APAGADA",
+    content: `Una llave que no abre nada.
+Un libro abierto por una página
+que no recuerdo haber leído.
+La cama dividida en dos silencios.
+
+Nada se mueve.
+Las cosas esperan,
+como si supieran que nadie va a volver.
+
+Un trozo de pan duro.
+Una mancha de vino que ya es parte de la mesa.
+La luz entrando de lado,
+dibujando la ausencia con precisión cruel.
+
+El cuerpo cede.
+No protesta.
+Solo se deja ir,
+como una herramienta que ha olvidado su función.
+
+La memoria no desaparece:
+se llena de otras cosas,
+como un hueco en la tierra
+que recoge agua oscura.
+
+El silencio es un órgano nuevo.
+Un músculo que aprende a no sonar.
+
+Y yo escucho,
+por si dentro de la madera,
+o en la fruta que se pudre,
+hubiera alguna respuesta.
+
+Al final,
+una mano abierta.
+Un poco de sal.
+Y el viento haciendo lo que puede.`,
+    illustration: {
+      id: "poema_frialdad2",
+      title: "Canto de Muerte",
+      description: "Una silla vacía cuya sombra se proyecta enorme, bajo una iluminación dramática que evoca la ausencia absoluta."
+    }
+  },
+  {
+    id: "poema_frialdad3",
+    title: "III. QUEJIDO DE LA VUELTA",
+    section: "LA FRIALDAD DE UNA CIUDAD APAGADA",
+    content: `**I.**
+Se acabó el pacto con la luz.
+La semana gira como una puerta vieja
+y yo entro en el día
+con un cansancio que no se explica.
+El pan pesa.
+El agua no llega.
+La sed busca un lugar donde quedarse
+y no lo encuentra.
+Yo, que un día tuve un espacio propio,
+regreso a este sitio que no me reconoce.
+Coso las horas con un hilo fino,
+como si así pudiera sostenerme.
+No espero milagros.
+Solo que duela un poco menos.
+
+**II.**
+Cada lunes muerde.
+Una dentellada fría en la nuca
+que me recuerda que ya no soy quien era.
+Mi sombra se quedó en una cama
+que ya no es mía.
+Allí sigue,
+como una piel que no supe llevarme.
+El mundo es un lugar de camisas planchadas
+y nombres que no significan nada.
+Todo sabe a ceniza.
+
+**III.**
+Mirad mis manos.
+Aún guardan la sal de un cuerpo que ya no está,
+el temblor de algo que se abrió demasiado pronto,
+la marca de un grillete que no rompí.
+A la oficina no llevo herramientas.
+Llevo esto:
+un hueso que roe por dentro,
+un temblor que nadie oye
+pero que sostiene el edificio entero.
+La luz es una deuda.
+Y yo la pago como puedo.`,
+    illustration: {
+      id: "poema_frialdad3",
+      title: "Quejido de la Vuelta",
+      description: "Una llave de hierro torcida sobre una mesa de madera gastada con una sombra circular perfecta."
+    }
+  },
+  {
+    id: "poema_frialdad4",
+    title: "IV. VILLANCICO CIBERNÉTICO PARA UN SOLSTICIO TEMPLADO",
+    section: "LA FRIALDAD DE UNA CIUDAD APAGADA",
+    content: `La noche es un archivo viejo
+que se abre con errores.
+Las luces de la ciudad fingen alegría,
+pero no engañan a nadie.
+Aquí no nieva.
+Solo cae un cansancio blanco
+que se pega a las manos.
+El frío es un dato.
+La magia, un recuerdo que ya no arranca.
+La Navidad, un mensaje automático
+que llega aunque no lo quieras.
+Buscamos sentido,
+pero el sistema no responde.
+Error 404.
+Y aun así,
+debajo de la mesa,
+una mano encuentra otra.
+No arregla nada,
+pero hace menos frío.`,
+    illustration: {
+      id: "poema_frialdad4",
+      title: "Villancico Cibernético",
+      description: "Una bombilla de filamento apenas iluminada colgando sobre un rectángulo negro apagado."
+    }
+  },
+  {
+    id: "poema_frialdad5",
+    title: "V. PROTOCOLO DE SALIDA",
+    section: "LA FRIALDAD DE UNA CIUDAD APAGADA",
+    content: `Una pastilla blanca sobre la mesa.
+Un punto de partida que no elegí.
+Un pequeño sistema
+que me mantiene en pie.
+El miedo ya no es un pozo.
+Es una carretera larga
+que cruzo cada día
+sin mirar los lados.
+Luego llega el silencio,
+como una manta fina.
+La maquinaria funciona,
+pero no sabe por qué.
+Cruzo la mañana como puedo:
+un reloj ajustado a la fuerza,
+anclado con manos temblorosas.
+La paz es un barniz.
+Se pega, pero no cura.
+Me mantiene erguido
+mientras la casa se cae despacio.
+Y otra vez aquí,
+con el sabor a metal en la garganta
+y el día volviendo,
+como una pared blanca
+que no puedo evitar.`,
+    illustration: {
+      id: "poema_frialdad5",
+      title: "Protocolo de Salida",
+      description: "Una pastilla redonda blanca sobre una mesa de madera con una sombra circular perfecta."
+    }
+  },
+  {
+    id: "poema_frialdad6",
+    title: "VI. MONTSE XXI",
+    section: "LA FRIALDAD DE UNA CIUDAD APAGADA",
+    content: `La habitación mira hacia un invierno que no termina de llegar.
+El silencio pesa, pero no molesta.
+Es un silencio que acompaña,
+como si alguien respirara muy despacio en la esquina.
+
+Ella aparece sin entrar.
+Una sombra roja,
+un eco de voz que no necesita cuerpo.
+En el cristal,
+traza con la uña una curva que no significa nada
+y, aun así, lo dice todo.
+
+Barcelona se extiende ahí fuera,
+con sus luces cansadas,
+sus calles que no prometen nada,
+sus balcones donde nadie canta.
+Los plátanos de sombra tiemblan en la acera,
+desnudos,
+como si también esperaran algo
+que no llega.
+
+**Montse** mira la ciudad
+como quien mira un amor que ya no duele
+pero tampoco se olvida.
+Donde quería escribir “volver”,
+solo encuentra “quedarse un momento”.
+Donde quería escribir “vida”,
+el papel responde con una calma rara,
+como si aceptara que no hay más.
+
+Ella sabe que la memoria no se reconstruye.
+Que lo perdido no vuelve.
+Que lo que queda es otra cosa:
+una presencia tenue,
+una voz que se enciende cuando cae la noche,
+un temblor que no pide explicación.
+
+A veces, entre el cemento,
+un ficus viejo deja salir un brote verde,
+una grieta mínima
+que insiste en seguir viva.
+No es un milagro.
+Es un error hermoso.
+Una luz breve
+que no promete nada
+pero acompaña.
+
+**Montse** cierra el cuaderno.
+La ciudad respira.
+La nieve no cae.
+Y aun así, hace frío.`,
+    illustration: {
+      id: "poema_frialdad6",
+      title: "Montse XXI",
+      description: "Una ventana empañada con una línea descendente trazada con un dedo en la condensación."
+    }
   }
 ];

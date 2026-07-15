@@ -168,6 +168,18 @@ import poemaRecon3 from "../assets/images/poemas/imagen_p254_1.png";
 import poemaRecon4 from "../assets/images/poemas/imagen_p268_1.png";
 // @ts-ignore
 import poemaRecon5 from "../assets/images/poemas/imagen_p274_1.png";
+// @ts-ignore
+import poemaFrialdad1 from "../assets/images/poemas/clean_frialdad_eco.jpg";
+// @ts-ignore
+import poemaFrialdad2 from "../assets/images/poemas/clean_frialdad_muerte.jpg";
+// @ts-ignore
+import poemaFrialdad3 from "../assets/images/poemas/clean_frialdad_vuelta.jpg";
+// @ts-ignore
+import poemaFrialdad4 from "../assets/images/poemas/clean_frialdad_ciber.jpg";
+// @ts-ignore
+import poemaFrialdad5 from "../assets/images/poemas/clean_frialdad_salida.jpg";
+// @ts-ignore
+import poemaFrialdad6 from "../assets/images/poemas/clean_frialdad_montse.jpg";
 
 interface IllustrationViewerProps {
   illustration?: Illustration;
@@ -261,6 +273,12 @@ const imageMap: Record<string, string> = {
   poema_recon4: poemaRecon4,
   poema_recon5: poemaRecon5,
   poema_recon6: poemaRecon5, // Fallback for Part VI
+  poema_frialdad1: poemaFrialdad1,
+  poema_frialdad2: poemaFrialdad2,
+  poema_frialdad3: poemaFrialdad3,
+  poema_frialdad4: poemaFrialdad4,
+  poema_frialdad5: poemaFrialdad5,
+  poema_frialdad6: poemaFrialdad6,
 };
 
 export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration, variant = "default" }) => {
