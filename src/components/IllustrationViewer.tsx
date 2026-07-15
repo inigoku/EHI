@@ -105,6 +105,8 @@ import img17_7_alien from "../assets/images/ilustracion_alien.png";
 import img17_8_cosmic from "../assets/images/ilustracion_cosmic.png";
 // @ts-ignore
 import imgMatrix from "../assets/images/ilustracion_matrix.jpg";
+// @ts-ignore
+import imgRunner from "../assets/images/ilustracion_runner.jpg";
 
 // Import Cuentos illustrations
 // @ts-ignore
@@ -241,6 +243,7 @@ const imageMap: Record<string, string> = {
   il17_7_alien: img17_7_alien,
   il17_8_cosmic: img17_8_cosmic,
   il_matrix: imgMatrix,
+  il_runner: imgRunner,
 
   // Cuentos illustrations mapping
   cuento_01: cuento01,
