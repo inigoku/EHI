@@ -4,6 +4,8 @@ import { IllustrationViewer } from "./IllustrationViewer";
 import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 // @ts-ignore
+import part1Bg from "../assets/images/part1_bg.png";
+// @ts-ignore
 import part2Bg from "../assets/images/part2_bg.jpg";
 // @ts-ignore
 import part3Bg from "../assets/images/part3_bg.jpg";
@@ -1111,8 +1113,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         <div className="max-w-3xl mx-auto space-y-8 select-text">
           {/* Main Text Content */}
           <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300 relative overflow-hidden`}>
-            {/* Background Image for Part 2, Part 3 & Part 4 */}
+            {/* Background Image for Part 1, Part 2, Part 3 & Part 4 */}
             {readingMode === "essay" && (
+              chapter.section?.includes("PRIMERA PARTE") ||
               chapter.section?.includes("SEGUNDA PARTE") || 
               chapter.section?.includes("TERCERA PARTE") || 
               chapter.section?.includes("CUARTA PARTE")
@@ -1120,7 +1123,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               <div className="absolute inset-0 z-0 select-none pointer-events-none">
                 <img
                   src={
-                    chapter.section?.includes("SEGUNDA PARTE") 
+                    chapter.section?.includes("PRIMERA PARTE")
+                      ? part1Bg
+                      : chapter.section?.includes("SEGUNDA PARTE") 
                       ? part2Bg 
                       : chapter.section?.includes("TERCERA PARTE") 
                       ? part3Bg 
