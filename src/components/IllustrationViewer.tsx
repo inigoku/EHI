@@ -329,14 +329,14 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
     );
   }
 
-  const isTxiki = illustration.id.includes("txiki");
+  const isOriginalFormat = illustration.id.includes("txiki") || illustration.id.includes("epilogo");
 
   return (
     <>
-      <div className="flex flex-col items-center gap-2.5 mx-auto w-full max-w-[280px] sm:max-w-[340px]">
+      <div className="flex flex-col items-center gap-2.5 mx-auto w-full max-w-[280px] sm:max-w-[340px] md:max-w-[480px]">
       <div 
         onDoubleClick={() => setIsOpen(true)}
-        className={`w-full ${isTxiki ? "" : "aspect-square"} bg-slate-950/40 border border-amber-500/10 rounded-2xl p-4 flex items-center justify-center relative shadow-lg shadow-amber-500/2 overflow-hidden group cursor-zoom-in select-none`}
+        className={`w-full ${isOriginalFormat ? "" : "aspect-square"} bg-slate-950/40 border border-amber-500/10 rounded-2xl p-4 flex items-center justify-center relative shadow-lg shadow-amber-500/2 overflow-hidden group cursor-zoom-in select-none`}
         title="Doble clic para ampliar"
       >
         {/* Absolute corner designs */}
@@ -348,7 +348,7 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
         <motion.img
           src={imgSrc}
           alt={illustration.title}
-          className={`rounded-xl transition-transform duration-300 group-hover:scale-[1.02] ${isTxiki ? "w-full h-auto" : "w-full h-full object-cover"}`}
+          className={`rounded-xl transition-transform duration-300 group-hover:scale-[1.02] ${isOriginalFormat ? "w-full h-auto object-contain" : "w-full h-full object-cover"}`}
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.6 }}
@@ -360,8 +360,8 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
           Doble clic para ampliar
         </div>
       </div>
-      {isTxiki && illustration.description && (
-        <p className="text-[11px] sm:text-xs text-gray-400 font-sans italic max-w-[260px] sm:max-w-[320px] text-center leading-snug">
+      {isOriginalFormat && illustration.description && (
+        <p className="text-[11px] sm:text-xs text-gray-400 font-sans italic max-w-[260px] sm:max-w-[400px] text-center leading-snug">
           {illustration.description}
         </p>
       )}
