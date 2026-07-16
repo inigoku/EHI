@@ -1,0 +1,409 @@
+/* DialogosHorizonte.css — estilos de la sección "Diálogos con el Horizonte".
+   Paleta: agua de noche, hueso, ámbar de incubadora. Todo cuelga de variables
+   para retematizar desde el sitio si hace falta. */
+
+.dh {
+  --dh-fondo: #0b1218;
+  --dh-panel: #101a22;
+  --dh-tinta: #e9e4d8;
+  --dh-tinta-suave: #9aa8b5;
+  --dh-ambar: #c99f56;
+  --dh-linea: rgba(201, 159, 86, 0.55);
+  --dh-borde: rgba(233, 228, 216, 0.12);
+  --dh-serif: Georgia, "Iowan Old Style", "Times New Roman", serif;
+  --dh-sans: system-ui, -apple-system, "Segoe UI", sans-serif;
+
+  max-width: 44rem;
+  margin: 0 auto;
+  padding: 3rem 1.25rem 4rem;
+  background: var(--dh-fondo);
+  color: var(--dh-tinta);
+  font-family: var(--dh-sans);
+}
+
+/* ---------- cabecera ---------- */
+
+.dh-eyebrow {
+  font-size: 0.7rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--dh-ambar);
+  margin: 0 0 0.5rem;
+}
+
+.dh h2 {
+  font-family: var(--dh-serif);
+  font-weight: 400;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  margin: 0 0 0.75rem;
+  color: var(--dh-tinta);
+}
+
+.dh-intro {
+  color: var(--dh-tinta-suave);
+  line-height: 1.6;
+  max-width: 36rem;
+  margin: 0;
+}
+
+/* ---------- la línea del horizonte (firma) ---------- */
+
+.dh-linea {
+  height: 1px;
+  margin: 2rem 0;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--dh-linea) 30%,
+    var(--dh-linea) 70%,
+    transparent
+  );
+}
+
+.dh-linea[data-viva] {
+  animation: dh-respira 2.4s ease-in-out infinite;
+}
+
+@keyframes dh-respira {
+  0%,
+  100% {
+    opacity: 0.4;
+    transform: scaleX(0.96);
+  }
+  50% {
+    opacity: 1;
+    transform: scaleX(1);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .dh-linea[data-viva] {
+    animation: none;
+    opacity: 1;
+  }
+}
+
+/* ---------- formulario ---------- */
+
+.dh-label {
+  display: block;
+  font-size: 0.75rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dh-tinta-suave);
+  margin-bottom: 0.5rem;
+}
+
+.dh textarea {
+  width: 100%;
+  box-sizing: border-box;
+  background: var(--dh-panel);
+  border: 1px solid var(--dh-borde);
+  border-radius: 4px;
+  color: var(--dh-tinta);
+  font-family: var(--dh-serif);
+  font-size: 1.05rem;
+  line-height: 1.6;
+  padding: 0.9rem 1rem;
+  resize: vertical;
+}
+
+.dh textarea:focus-visible,
+.dh input:focus-visible,
+.dh select:focus-visible,
+.dh button:focus-visible {
+  outline: 2px solid var(--dh-ambar);
+  outline-offset: 2px;
+}
+
+.dh textarea::placeholder {
+  color: var(--dh-tinta-suave);
+  font-style: italic;
+}
+
+.dh-acciones {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 0.9rem;
+  flex-wrap: wrap;
+}
+
+.dh-boton {
+  background: transparent;
+  border: 1px solid var(--dh-ambar);
+  color: var(--dh-ambar);
+  font-family: var(--dh-sans);
+  font-size: 0.85rem;
+  letter-spacing: 0.06em;
+  padding: 0.65rem 1.4rem;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.dh-boton:hover:not(:disabled) {
+  background: var(--dh-ambar);
+  color: var(--dh-fondo);
+}
+
+.dh-boton:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.dh-espera {
+  font-family: var(--dh-serif);
+  font-style: italic;
+  color: var(--dh-tinta-suave);
+  font-size: 0.95rem;
+}
+
+.dh-error {
+  margin-top: 0.9rem;
+  color: #d99a8a;
+  font-size: 0.9rem;
+  line-height: 1.5;
+}
+
+/* ---------- respuesta ---------- */
+
+.dh-respuesta {
+  margin-top: 2.5rem;
+  padding: 1.75rem 1.5rem;
+  background: var(--dh-panel);
+  border: 1px solid var(--dh-borde);
+  border-radius: 4px;
+}
+
+.dh-pregunta-eco {
+  font-family: var(--dh-serif);
+  font-style: italic;
+  color: var(--dh-tinta-suave);
+  margin: 0 0 1.25rem;
+  font-size: 1.05rem;
+}
+
+.dh-texto {
+  font-family: var(--dh-serif);
+  font-size: 1.05rem;
+  line-height: 1.75;
+}
+
+.dh-texto p {
+  margin: 0 0 1em;
+}
+
+.dh-texto p:last-child {
+  margin-bottom: 0;
+}
+
+/* ---------- fuentes ---------- */
+
+.dh-fuentes {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--dh-borde);
+}
+
+.dh-fuentes-titulo {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--dh-tinta-suave);
+  margin-bottom: 0.5rem;
+}
+
+.dh-fuentes ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dh-fuentes li {
+  margin: 0.3rem 0;
+}
+
+.dh-fuentes a {
+  color: var(--dh-ambar);
+  text-decoration: none;
+  font-size: 0.88rem;
+  border-bottom: 1px solid transparent;
+}
+
+.dh-fuentes a:hover {
+  border-bottom-color: var(--dh-ambar);
+}
+
+.dh-meta {
+  margin: 1.25rem 0 0;
+  font-size: 0.75rem;
+  color: var(--dh-tinta-suave);
+}
+
+/* ---------- bitácora ---------- */
+
+.dh-bitacora {
+  margin-top: 3rem;
+}
+
+.dh-bitacora h3 {
+  font-family: var(--dh-serif);
+  font-weight: 400;
+  font-size: 1.15rem;
+  color: var(--dh-tinta-suave);
+  margin: 0 0 1rem;
+}
+
+.dh-lista {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.dh-entrada {
+  border-top: 1px solid var(--dh-borde);
+}
+
+.dh-entrada:last-child {
+  border-bottom: 1px solid var(--dh-borde);
+}
+
+.dh-entrada-cab {
+  display: block;
+  width: 100%;
+  text-align: left;
+  background: none;
+  border: none;
+  color: inherit;
+  padding: 0.9rem 0.25rem;
+  cursor: pointer;
+  font-family: inherit;
+}
+
+.dh-entrada-cab:hover .dh-entrada-pregunta {
+  color: var(--dh-ambar);
+}
+
+.dh-entrada-fecha {
+  display: block;
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--dh-tinta-suave);
+  margin-bottom: 0.25rem;
+}
+
+.dh-entrada-pregunta {
+  font-family: var(--dh-serif);
+  font-style: italic;
+  font-size: 1rem;
+  color: var(--dh-tinta);
+  transition: color 0.15s;
+}
+
+.dh-entrada-cuerpo {
+  padding: 0.25rem 0.25rem 1.5rem;
+}
+
+.dh-borrar {
+  margin-top: 1rem;
+  background: none;
+  border: none;
+  color: var(--dh-tinta-suave);
+  font-size: 0.78rem;
+  cursor: pointer;
+  padding: 0.25rem 0;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.dh-borrar:hover {
+  color: #d99a8a;
+}
+
+/* ---------- configuración ---------- */
+
+.dh-config {
+  margin-top: 3rem;
+  border-top: 1px solid var(--dh-borde);
+  padding-top: 1rem;
+}
+
+.dh-config summary {
+  cursor: pointer;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--dh-tinta-suave);
+}
+
+.dh-config-cuerpo {
+  margin-top: 1.25rem;
+  display: grid;
+  gap: 1rem;
+  max-width: 26rem;
+}
+
+.dh-config label {
+  display: grid;
+  gap: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--dh-tinta-suave);
+}
+
+.dh-config input,
+.dh-config select {
+  background: var(--dh-panel);
+  border: 1px solid var(--dh-borde);
+  border-radius: 4px;
+  color: var(--dh-tinta);
+  padding: 0.55rem 0.7rem;
+  font-size: 0.9rem;
+  font-family: var(--dh-sans);
+}
+
+.dh-nota {
+  font-size: 0.78rem;
+  color: var(--dh-tinta-suave);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.dh-nota code {
+  color: var(--dh-ambar);
+  font-size: 0.9em;
+}
+
+.dh-export {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.dh-boton-sec {
+  background: transparent;
+  border: 1px solid var(--dh-borde);
+  color: var(--dh-tinta-suave);
+  font-size: 0.8rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dh-boton-sec:hover {
+  border-color: var(--dh-ambar);
+  color: var(--dh-ambar);
+}
+
+/* ---------- móvil ---------- */
+
+@media (max-width: 480px) {
+  .dh {
+    padding: 2rem 1rem 3rem;
+  }
+  .dh-respuesta {
+    padding: 1.25rem 1rem;
+  }
+}

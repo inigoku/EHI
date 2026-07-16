@@ -1,7 +1,8 @@
 import React from "react";
 import { Chapter } from "../chapters";
 import { motion, AnimatePresence } from "motion/react";
-import { X, BookOpen, PenTool, Clipboard, Check, Trash2, Download } from "lucide-react";
+import { X, BookOpen, PenTool, Clipboard, Check, Trash2, Download, Compass } from "lucide-react";
+import DialogosHorizonte from "./DialogosHorizonte";
 
 interface JournalViewerProps {
   isOpen: boolean;
@@ -18,6 +19,7 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
   onChapterSelect,
   theme,
 }) => {
+  const [tab, setTab] = React.useState<"reflexiones" | "dialogos">("reflexiones");
   const [reflections, setReflections] = React.useState<{ [key: string]: string }>({});
   const [copiedId, setCopiedId] = React.useState<string | null>(null);
 
@@ -147,19 +149,25 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
             {/* Header */}
             <div className={`p-6 border-b ${sc.border} flex items-center justify-between`}>
               <div className="flex items-center gap-3">
-                <PenTool className={`w-5 h-5 ${sc.icon}`} />
+                {tab === "reflexiones" ? (
+                  <PenTool className={`w-5 h-5 ${sc.icon}`} />
+                ) : (
+                  <Compass className={`w-5 h-5 ${sc.icon}`} />
+                )}
                 <div>
                   <h3 className="font-display font-semibold text-lg">
-                    Tu Bitácora de Lectura
+                    {tab === "reflexiones" ? "Tu Bitácora de Lectura" : "Diálogos con el Horizonte"}
                   </h3>
                   <p className={`text-[10px] font-sans uppercase tracking-wider ${sc.textMuted}`}>
-                    Compilación de reflexiones de "El Horizonte Interior"
+                    {tab === "reflexiones"
+                      ? 'Compilación de reflexiones de "El Horizonte Interior"'
+                      : "Pregúntale al Horizonte, queda anotado en la bitácora"}
                   </p>
                 </div>
               </div>
 
               <div className="flex items-center gap-2">
-                {totalWritten > 0 && (
+                {tab === "reflexiones" && totalWritten > 0 && (
                   <>
                     <button
                       onClick={copyAllReflections}
@@ -186,7 +194,38 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
               </div>
             </div>
 
+            {/* Tabs */}
+            <div className={`px-6 pt-4 border-b ${sc.border} flex items-center gap-2`}>
+              <button
+                onClick={() => setTab("reflexiones")}
+                className={`flex items-center gap-1.5 pb-3 px-1 text-xs font-sans font-semibold uppercase tracking-wider border-b-2 transition-colors cursor-pointer ${
+                  tab === "reflexiones"
+                    ? `${sc.icon} border-current`
+                    : `${sc.textMuted} border-transparent hover:${sc.text}`
+                }`}
+              >
+                <PenTool className="w-3.5 h-3.5" />
+                Reflexiones
+              </button>
+              <button
+                onClick={() => setTab("dialogos")}
+                className={`flex items-center gap-1.5 pb-3 px-1 text-xs font-sans font-semibold uppercase tracking-wider border-b-2 transition-colors cursor-pointer ${
+                  tab === "dialogos"
+                    ? `${sc.icon} border-current`
+                    : `${sc.textMuted} border-transparent hover:${sc.text}`
+                }`}
+              >
+                <Compass className="w-3.5 h-3.5" />
+                Diálogos con el Horizonte
+              </button>
+            </div>
+
             {/* Inner Content */}
+            {tab === "dialogos" ? (
+              <div className="flex-1 overflow-y-auto">
+                <DialogosHorizonte />
+              </div>
+            ) : (
             <div className="flex-1 overflow-y-auto p-6 space-y-6">
               {totalWritten === 0 ? (
                 <div className="flex flex-col items-center justify-center h-full text-center max-w-sm mx-auto space-y-3">
@@ -257,9 +296,10 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                 </div>
               )}
             </div>
+            )}
 
             {/* Mobile Actions Footer */}
-            {totalWritten > 0 && (
+            {tab === "reflexiones" && totalWritten > 0 && (
               <div className={`sm:hidden p-4 border-t ${sc.border} grid grid-cols-2 gap-2`}>
                 <button
                   onClick={copyAllReflections}
