@@ -589,7 +589,7 @@ Que el reservorio te reciba, cuando llegue el momento, con la misma generosidad 
 Y que, mientras tanto, la orilla te sea suficiente.
 
 ## [ILUSTRACIÓN epilogo: "La orilla en el horizonte"]
-*Un observador contemplando el horizonte cósmico sobre el mar al atardecer.*`,
+*Y que, mientras tanto, la orilla te sea suficiente.*`,
     illustration: {
       id: "il_orilla",
       title: "La orilla",
