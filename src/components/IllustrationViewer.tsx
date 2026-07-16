@@ -140,6 +140,8 @@ import cuento10 from "../assets/images/cuentos/12_cuerda.png";
 // @ts-ignore
 import cuento11 from "../assets/images/cuentos/13_ciudad.png";
 // @ts-ignore
+import cuentoSegundoCuaderno from "../assets/images/cuentos/segundo_cuaderno.png";
+// @ts-ignore
 import cuento12 from "../assets/images/cuentos/14_reloj.png";
 // @ts-ignore
 import cuento13 from "../assets/images/cuentos/15_sala.png";
@@ -267,6 +269,7 @@ const imageMap: Record<string, string> = {
   cuento_09: cuento09,
   cuento_10: cuento10,
   cuento_11: cuento11,
+  cuento_segundo_cuaderno: cuentoSegundoCuaderno,
   cuento_12: cuento12,
   cuento_13: cuento13,
   cuento_14: cuento14,
