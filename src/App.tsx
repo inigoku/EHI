@@ -5,6 +5,7 @@ import { ChapterContent } from "./components/ChapterContent";
 import { GlossaryDrawer } from "./components/GlossaryDrawer";
 import { JournalViewer } from "./components/JournalViewer";
 import { LandingPage } from "./components/LandingPage";
+import { PathLanding } from "./components/PathLanding";
 import { ReadingSettings, ReadingTheme, FontSize } from "./components/ReadingSettings";
 import { motion, AnimatePresence } from "motion/react";
 import { Book, Compass, EyeOff, Layout } from "lucide-react";
@@ -46,6 +47,10 @@ export default function App() {
   const [selectedGlossaryTerm, setSelectedGlossaryTerm] = React.useState<string | undefined>(undefined);
   const [isJournalOpen, setIsJournalOpen] = React.useState<boolean>(false);
   const [isSidebarOpen, setIsSidebarOpen] = React.useState<boolean>(false);
+
+  // Path Landing states
+  const [visitedModes, setVisitedModes] = React.useState<Record<string, boolean>>({});
+  const [activePathLanding, setActivePathLanding] = React.useState<"essay" | "cuentos" | "poemas" | "reconstruccion" | null>(null);
 
   // Save states to localStorage
   React.useEffect(() => {
@@ -130,10 +135,28 @@ export default function App() {
     
     setReadingMode(newMode);
     setActiveChapterId(targetId);
+
+    // Activación desde menú: solo la primera vez en la sesión
+    if (newMode !== "home") {
+      if (!visitedModes[newMode]) {
+        setActivePathLanding(newMode);
+        setVisitedModes(prev => ({ ...prev, [newMode]: true }));
+      } else {
+        setActivePathLanding(null);
+      }
+    } else {
+      setActivePathLanding(null);
+    }
   };
 
   const handleSwitchMode = (newMode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion", targetId?: string) => {
     setReadingMode(newMode);
+    if (newMode !== "home") {
+      setVisitedModes(prev => ({ ...prev, [newMode]: true }));
+      setActivePathLanding(null); // Omitir Landing al usar enlaces directos dentro del texto
+    } else {
+      setActivePathLanding(null);
+    }
     if (targetId) {
       setActiveChapterId(targetId);
     }
@@ -191,6 +214,8 @@ export default function App() {
         theme={theme}
         onStartReading={(mode, chapterId) => {
           setReadingMode(mode);
+          setActivePathLanding(mode); // Activar siempre al ir desde la pantalla principal
+          setVisitedModes(prev => ({ ...prev, [mode]: true }));
           if (chapterId) {
             setActiveChapterId(chapterId);
           } else {
@@ -279,7 +304,10 @@ export default function App() {
         <Sidebar
           chapters={currentChaptersList}
           activeChapterId={activeChapterId}
-          onChapterSelect={setActiveChapterId}
+          onChapterSelect={(id) => {
+            setActiveChapterId(id);
+            setActivePathLanding(null); // Omitir Landing al pulsar capítulo específico en Sidebar
+          }}
           openGlossary={() => {
             setSelectedGlossaryTerm(undefined);
             setIsGlossaryOpen(true);
@@ -311,19 +339,27 @@ export default function App() {
             </motion.div>
           )}
 
-          {/* Book Content view */}
-          <ChapterContent
-            chapter={activeChapter}
-            onPrev={handlePrev}
-            onNext={handleNext}
-            hasPrev={hasPrev}
-            hasNext={hasNext}
-            onTermClick={handleTermClick}
-            theme={theme}
-            fontSize={fontSize}
-            readingMode={readingMode}
-            onSwitchMode={handleSwitchMode}
-          />
+          {/* Book Content view or Path Landing */}
+          {activePathLanding ? (
+            <PathLanding
+              mode={activePathLanding}
+              theme={theme}
+              onClose={() => setActivePathLanding(null)}
+            />
+          ) : (
+            <ChapterContent
+              chapter={activeChapter}
+              onPrev={handlePrev}
+              onNext={handleNext}
+              hasPrev={hasPrev}
+              hasNext={hasNext}
+              onTermClick={handleTermClick}
+              theme={theme}
+              fontSize={fontSize}
+              readingMode={readingMode}
+              onSwitchMode={handleSwitchMode}
+            />
+          )}
 
           {/* Reader config floating side box - Hidden in focus mode */}
           <AnimatePresence>
