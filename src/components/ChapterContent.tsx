@@ -7,6 +7,8 @@ import { motion, AnimatePresence } from "motion/react";
 import part2Bg from "../assets/images/part2_bg.jpg";
 // @ts-ignore
 import part3Bg from "../assets/images/part3_bg.jpg";
+// @ts-ignore
+import part4Bg from "../assets/images/part4_bg.png";
 
 interface ChapterContentProps {
   chapter: Chapter;
@@ -1109,11 +1111,21 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         <div className="max-w-3xl mx-auto space-y-8 select-text">
           {/* Main Text Content */}
           <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300 relative overflow-hidden`}>
-            {/* Background Image for Part 2 & Part 3 */}
-            {readingMode === "essay" && (chapter.section?.includes("SEGUNDA PARTE") || chapter.section?.includes("TERCERA PARTE")) && (
+            {/* Background Image for Part 2, Part 3 & Part 4 */}
+            {readingMode === "essay" && (
+              chapter.section?.includes("SEGUNDA PARTE") || 
+              chapter.section?.includes("TERCERA PARTE") || 
+              chapter.section?.includes("CUARTA PARTE")
+            ) && (
               <div className="absolute inset-0 z-0 select-none pointer-events-none">
                 <img
-                  src={chapter.section?.includes("SEGUNDA PARTE") ? part2Bg : part3Bg}
+                  src={
+                    chapter.section?.includes("SEGUNDA PARTE") 
+                      ? part2Bg 
+                      : chapter.section?.includes("TERCERA PARTE") 
+                      ? part3Bg 
+                      : part4Bg
+                  }
                   alt="Fondo de la Sección"
                   className={`w-full h-full object-cover transition-opacity duration-1000 ${
                     theme === "cosmic"
