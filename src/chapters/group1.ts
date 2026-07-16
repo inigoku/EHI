@@ -269,11 +269,6 @@ La pregunta ya no es si. Es cuánta, de qué tipo, y qué implica.
 
 ---
 
-## [ILUSTRACIÓN TXIKI: "Txiki"]
-*El autor con Txiki*
-
----
-
 ### La anestesia como experimento natural
 
 Hay un experimento que hacemos millones de veces al día sin pensar en sus implicaciones: la anestesia general.

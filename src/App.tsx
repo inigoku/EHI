@@ -272,7 +272,7 @@ export default function App() {
                 ) : readingMode === "cuentos" ? (
                   activeChapter.chapterNumber ? (
                     !isNaN(Number(activeChapter.chapterNumber)) ? (
-                      <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 17</strong></>
+                      <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 18</strong></>
                     ) : (
                       <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
                     )
@@ -284,7 +284,7 @@ export default function App() {
                     activeChapterId === "poema_glosario"
                       ? "Glosario"
                       : activeChapterId.startsWith("poema_arq")
-                      ? `Enlace ${activeChapterId.replace("poema_arq", "")} de 4`
+                      ? `Enlace ${activeChapterId.replace("poema_arq", "")} de 8`
                       : `Reconstrucción ${activeChapterId.replace("poema_recon", "")} de 6`
                   }</strong></>
                 ) : (

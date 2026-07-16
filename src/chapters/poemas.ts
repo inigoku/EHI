@@ -3,7 +3,124 @@ import { Chapter } from "./group1";
 export const poemasList: Chapter[] = [
   {
     id: "poema_arq1",
-    title: "LA ARQUITECTURA CON UN HUECO — I",
+    title: "LA ARQUITECTURA CON UN HUECO — I: EL ARCHIVISTA",
+    section: "LA ARQUITECTURA CON UN HUECO",
+    content: `El agua se fue como se van
+los huéspedes educados:
+de noche,
+dejando la habitación lista
+para alguien que no conozco.
+
+Anoté la primera franja de barro
+con la letra de los días normales.
+Hay caligrafías que no saben
+que están escribiendo una despedida.
+
+Los niños enseñan las ampollas
+como monedas de un país
+que todavía no existe.
+
+Yo dejo huecos en el cuaderno.
+Y de noche, dormido,
+todavía remo.`,
+    illustration: {
+      id: "poema_arq1",
+      title: "El archivista",
+      description: "Un cuaderno abierto sobre un muelle de madera, junto a un remo apoyado. La tinta de la última línea se difumina levemente, como si el papel también estuviera húmedo."
+    }
+  },
+  {
+    id: "poema_arq2",
+    title: "LA ARQUITECTURA CON UN HUECO — II: EL RELOJERO",
+    section: "LA ARQUITECTURA CON UN HUECO",
+    content: `Dos horas al día
+alguien limpia el cristal.
+
+Abro el reloj de plata
+con el pulso de antes,
+que vuelve de visita
+y no se quita el abrigo.
+
+El balancín hace su trabajo:
+ida, vuelta, ida.
+Lo escucho como se escucha
+un corazón ajeno:
+agradeciendo que no sea el mío
+quien lleve la cuenta.
+
+Cuando la mañana empieza a espesarse
+lo sé antes que los dedos.
+Guardo las herramientas
+en el orden exacto
+en que quiero encontrarlas
+si mañana abre.`,
+    illustration: {
+      id: "poema_arq2",
+      title: "El relojero",
+      description: "Un reloj de bolsillo de plata abierto sobre un paño oscuro, el mecanismo visible y limpio. Unas manos de anciano, con un temblor apenas sugerido, sostienen una herramienta diminuta bajo una luz de mañana."
+    }
+  },
+  {
+    id: "poema_arq3",
+    title: "LA ARQUITECTURA CON UN HUECO — III: EL LUTHIER",
+    section: "LA ARQUITECTURA CON UN HUECO",
+    content: `Nunca he entrado en una caja
+de las que afino.
+Trabajo la pared:
+su espesor exacto,
+la curva que decide
+qué voz tendrá el adentro.
+
+Me traen grietas
+envueltas en jerséis de lana.
+Las cierro sin taparlas.
+Cobro por la honestidad
+de la línea que queda.
+
+Y cuando pasa el autobús,
+la tienda entera responde:
+cada madera con su nota,
+ninguna con la mía.`,
+    illustration: {
+      id: "poema_arq3",
+      title: "El luthier",
+      description: "Un taller de lutería lleno de instrumentos colgados de las paredes. Sobre el mostrador, una viola envuelta a medias en un jersey de lana, con una grieta fina y honesta visible en la tapa."
+    }
+  },
+  {
+    id: "poema_arq4",
+    title: "LA ARQUITECTURA CON UN HUECO — IV: LA CANCIÓN",
+    section: "LA ARQUITECTURA CON UN HUECO",
+    content: `Cuatro notas:
+la que sube, la que baja,
+el silencio,
+otra vez.
+
+No sé cuándo las guardé.
+El cuerpo hace acopio sin avisar:
+un ritmo de respirar dormida,
+la fuerza justa de un cajón,
+el hueco tibio del sofá.
+
+Ahora las canto yo,
+a la hora en que ella cocinaba,
+un poco más despacio
+o igual:
+nunca lo medimos.
+
+La cocina las reconoce.
+Eso basta.
+O no basta,
+pero suena.`,
+    illustration: {
+      id: "poema_arq4",
+      title: "La canción",
+      description: "Una cocina vacía al atardecer, con una olla al fuego. En el aire, sugeridas apenas, cuatro notas musicales dibujadas como trazos de humo que suben desde los fogones."
+    }
+  },
+  {
+    id: "poema_arq5",
+    title: "LA ARQUITECTURA CON UN HUECO — V",
     section: "LA ARQUITECTURA CON UN HUECO",
     content: `El jabón se estira en mis manos,
 se curva.
@@ -25,14 +142,14 @@ El agua se retira.
 Yo no arranco,
 yo me despido.`,
     illustration: {
-      id: "poema_arq1",
-      title: "La arquitectura con un hueco — I",
-      description: "Fondo de página del poema I en el documento de fusión."
+      id: "poema_arq5",
+      title: "La arquitectura con un hueco — V",
+      description: "Fondo de página del poema V en el documento de fusión."
     }
   },
   {
-    id: "poema_arq2",
-    title: "LA ARQUITECTURA CON UN HUECO — II",
+    id: "poema_arq6",
+    title: "LA ARQUITECTURA CON UN HUECO — VI",
     section: "LA ARQUITECTURA CON UN HUECO",
     content: `El remo tocó fondo
 donde antes había metro.
@@ -49,14 +166,14 @@ Yo lo he visto retornar.
 Aprendí a no repetir para entender,
 sino a repetir para anclarme.`,
     illustration: {
-      id: "poema_arq2",
-      title: "La arquitectura con un hueco — II",
-      description: "Fondo de página del poema II en el documento de fusión."
+      id: "poema_arq6",
+      title: "La arquitectura con un hueco — VI",
+      description: "Fondo de página del poema VI en el documento de fusión."
     }
   },
   {
-    id: "poema_arq3",
-    title: "LA ARQUITECTURA CON UN HUECO — III",
+    id: "poema_arq7",
+    title: "LA ARQUITECTURA CON UN HUECO — VII",
     section: "LA ARQUITECTURA CON UN HUECO",
     content: `Me preguntaste por la lealtad de la materia
 y yo, cobarde, te hablé de información irrecuperable.
@@ -83,14 +200,14 @@ sino en el temblor de mi propia mano
 que ya no recuerda
 cómo sostener un vaso sin miedo a romperlo.`,
     illustration: {
-      id: "poema_arq3",
-      title: "La arquitectura con un hueco — III",
-      description: "Fondo de página del poema III en el documento de fusión."
+      id: "poema_arq7",
+      title: "La arquitectura con un hueco — VII",
+      description: "Fondo de página del poema VII en el documento de fusión."
     }
   },
   {
-    id: "poema_arq4",
-    title: "LA ARQUITECTURA CON UN HUECO — IV",
+    id: "poema_arq8",
+    title: "LA ARQUITECTURA CON UN HUECO — VIII",
     section: "LA ARQUITECTURA CON UN HUECO",
     content: `Y el agua volvió a mi orilla
 sin aviso.
@@ -115,9 +232,9 @@ Y entendí.
 Tal vez,
 eso era la respuesta.`,
     illustration: {
-      id: "poema_arq4",
-      title: "La arquitectura con un hueco — IV",
-      description: "Fondo de página del poema IV en el documento de fusión."
+      id: "poema_arq8",
+      title: "La arquitectura con un hueco — VIII",
+      description: "Fondo de página del poema VIII en el documento de fusión."
     }
   },
   {

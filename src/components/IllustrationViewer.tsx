@@ -277,10 +277,10 @@ const imageMap: Record<string, string> = {
   cuento_sintonizadores: cuentoSintonizadores,
 
   // Poem backgrounds mapping
-  poema_arq1: poemaArq1,
-  poema_arq2: poemaArq2,
-  poema_arq3: poemaArq3,
-  poema_arq4: poemaArq4,
+  poema_arq5: poemaArq1,
+  poema_arq6: poemaArq2,
+  poema_arq7: poemaArq3,
+  poema_arq8: poemaArq4,
   poema_glosario: poemaGlosario,
   poema_recon1: poemaRecon1,
   poema_recon2: poemaRecon2,

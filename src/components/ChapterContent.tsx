@@ -1259,7 +1259,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             : chapter.id === "poema_glosario"
             ? "Glosario"
             : chapter.id.startsWith("poema_arq")
-            ? `Poema Enlace ${chapter.id.replace("poema_arq", "")} de 4`
+            ? `Poema Enlace ${chapter.id.replace("poema_arq", "")} de 8`
             : `Poema Reconstrucción ${chapter.id.replace("poema_recon", "")} de 6`}
         </span>
 
