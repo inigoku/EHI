@@ -360,6 +360,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 else if (cleanId === "tp") illusId = "il_tp";
                 else if (cleanId === "eq") illusId = "il_el_que_queda";
                 else if (cleanId === "int") illusId = "il_int";
+                else if (cleanId === "epilogo") illusId = "il_epilogo";
               }
             }
           } else {

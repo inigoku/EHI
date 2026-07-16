@@ -586,7 +586,10 @@ Hasta entonces, gracias por haber estado aquí. Gracias por haber compartido est
 
 Que el reservorio te reciba, cuando llegue el momento, con la misma generosidad con la que te dio lo que eres ahora.
 
-Y que, mientras tanto, la orilla te sea suficiente.`,
+Y que, mientras tanto, la orilla te sea suficiente.
+
+## [ILUSTRACIÓN epilogo: "La orilla en el horizonte"]
+*Un observador contemplando el horizonte cósmico sobre el mar al atardecer.*`,
     illustration: {
       id: "il_orilla",
       title: "La orilla",

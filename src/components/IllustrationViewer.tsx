@@ -86,6 +86,8 @@ import imgOceanoOlas from "../assets/images/ilustracion_oceano_olas.png";
 import imgTp from "../assets/images/ilustracion_tp.png";
 // @ts-ignore
 import imgTxiki from "../assets/images/ilustracion_txiki.png";
+// @ts-ignore
+import imgEpilogo from "../assets/images/epilogo.jpg";
 
 // @ts-ignore
 import imgLadron from "../assets/images/ilustracion_ladron.png";
@@ -234,6 +236,7 @@ const imageMap: Record<string, string> = {
   il_oceano_olas: imgOceanoOlas,
   il_tp: imgTp,
   il_txiki: imgTxiki,
+  il_epilogo: imgEpilogo,
   il_ladron: imgLadron,
   cuento_ladron: imgLadron,
   il_luthier: imgLuthier,
