@@ -3,6 +3,8 @@ import { Chapter, Illustration, allChapters, cuentosList } from "../chapters";
 import { IllustrationViewer } from "./IllustrationViewer";
 import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+// @ts-ignore
+import part2Bg from "../assets/images/part2_bg.jpg";
 
 interface ChapterContentProps {
   chapter: Chapter;
@@ -1104,9 +1106,32 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         /* Centered Essay Layout */
         <div className="max-w-3xl mx-auto space-y-8 select-text">
           {/* Main Text Content */}
-          <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
+          <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300 relative overflow-hidden`}>
+            {/* Background Image for Part 2 */}
+            {readingMode === "essay" && chapter.section?.includes("SEGUNDA PARTE") && (
+              <div className="absolute inset-0 z-0 select-none pointer-events-none">
+                <img
+                  src={part2Bg}
+                  alt="Fondo Segunda Parte"
+                  className={`w-full h-full object-cover transition-opacity duration-1000 ${
+                    theme === "cosmic"
+                      ? "opacity-[0.14] mix-blend-screen"
+                      : "opacity-[0.08] mix-blend-multiply"
+                  }`}
+                  referrerPolicy="no-referrer"
+                />
+                <div className={`absolute inset-0 bg-gradient-to-b transition-all duration-1000 ${
+                  theme === "cosmic"
+                    ? "from-[#14161D]/80 via-transparent to-[#14161D]/90"
+                    : theme === "sepia"
+                    ? "from-[#FAF6EE]/80 via-transparent to-[#FAF6EE]/90"
+                    : "from-white/80 via-transparent to-white/90"
+                }`} />
+              </div>
+            )}
+            
             {chapter.illustration && !isIllustrationDuplicate(chapter, readingMode) && (
-              <div className="flex justify-center mb-8 select-none">
+              <div className="flex justify-center mb-8 select-none relative z-10">
                 <IllustrationViewer illustration={chapter.illustration} />
               </div>
             )}
@@ -1115,12 +1140,12 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="space-y-2 prose prose-invert max-w-none"
+              className="space-y-2 prose prose-invert max-w-none relative z-10"
             >
               {highlightTerms(chapter.content)}
             </motion.div>
             {readingMode === "essay" && chapter.id === "cap20_5" && (
-              <div className="mt-8 flex justify-center border-t border-amber-500/10 pt-6">
+              <div className="mt-8 flex justify-center border-t border-amber-500/10 pt-6 relative z-10">
                 <button
                   onClick={() => onSwitchMode("reconstruccion")}
                   className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
