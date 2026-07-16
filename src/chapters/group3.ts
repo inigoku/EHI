@@ -599,6 +599,9 @@ La tasa de integración está regulada, minuto a minuto, por neurotransmisores:
 > **En física esto se llama:** dopamina como calibrador del reloj interno.  
 > **En la vida diaria es como:** un reloj que se adelanta: crees que vas tarde, pero el reloj está roto.
 
+## [ILUSTRACIÓN 11: "El tiempo del vínculo"]
+*Dos relojes de arena superpuestos: uno para el tiempo cronológico y otro para la densidad del tiempo compartido.*
+
 ### La memoria como constructor del tiempo
 
 No recordamos el tiempo como lo vivimos. Lo reconstruimos. Cada vez que recordamos un evento, el cerebro lo reescribe: añade detalles que no estaban, omite otros que sí lo estaban, colorea el recuerdo con el estado emocional presente. La memoria no es archivo: es narrativa en constante revisión.
