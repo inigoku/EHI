@@ -272,7 +272,7 @@ export default function App() {
                 ) : readingMode === "cuentos" ? (
                   activeChapter.chapterNumber ? (
                     !isNaN(Number(activeChapter.chapterNumber)) ? (
-                      <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 16</strong></>
+                      <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 17</strong></>
                     ) : (
                       <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
                     )

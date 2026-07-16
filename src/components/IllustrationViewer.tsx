@@ -154,6 +154,8 @@ import cuentoTxiki from "../assets/images/cuentos/18_txiki_cierre.png";
 import cuentoM87 from "../assets/images/cuentos/19_M87_puente.png";
 // @ts-ignore
 import cuentoMussara from "../assets/images/cuentos/ilustracion_mussara.png";
+// @ts-ignore
+import cuentoSintonizadores from "../assets/images/cuentos/20_sintonizadores.png";
 
 // Poemas background images
 // @ts-ignore
@@ -272,6 +274,7 @@ const imageMap: Record<string, string> = {
   cuento_txiki: cuentoTxiki,
   cuento_m87: cuentoM87,
   cuento_mussara: cuentoMussara,
+  cuento_sintonizadores: cuentoSintonizadores,
 
   // Poem backgrounds mapping
   poema_arq1: poemaArq1,
@@ -329,7 +332,10 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
     );
   }
 
-  const isOriginalFormat = illustration.id.includes("txiki") || illustration.id.includes("epilogo");
+  const isOriginalFormat =
+    illustration.id.includes("txiki") ||
+    illustration.id.includes("epilogo") ||
+    illustration.id.includes("sintonizadores");
 
   return (
     <>
