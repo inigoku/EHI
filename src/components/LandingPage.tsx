@@ -1,9 +1,11 @@
 import React from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { BookOpen, Compass, Heart, Layers, ArrowDown, ArrowRight, Book, Feather, Volume2, VolumeX, Waves, Network } from "lucide-react";
+import { BookOpen, Compass, Heart, Layers, ArrowDown, ArrowRight, Book, Feather, Waves, Network } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
 import { Language, uiStrings } from "../i18n";
 import { LanguageToggle } from "./LanguageToggle";
+import { SoundControl } from "./SoundControl";
+import { useAudioPrefs } from "../hooks/useAudioPrefs";
 
 interface LandingPageProps {
   theme: ReadingTheme;
@@ -26,16 +28,25 @@ export const LandingPage: React.FC<LandingPageProps> = ({
   const infoSectionRef = React.useRef<HTMLDivElement>(null);
   const videoRef = React.useRef<HTMLVideoElement>(null);
   const audioRef = React.useRef<HTMLAudioElement>(null);
-  const [isMuted, setIsMuted] = React.useState(false);
+  const { volume, setVolume, isMuted, toggleMute } = useAudioPrefs();
 
   React.useEffect(() => {
     if (audioRef.current) {
-      audioRef.current.volume = 0.4;
+      audioRef.current.volume = volume;
+      audioRef.current.muted = isMuted;
       audioRef.current.play().catch((err) => {
         console.log("Autoplay blocked:", err);
       });
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
+
+  React.useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = volume;
+      audioRef.current.muted = isMuted;
+    }
+  }, [volume, isMuted]);
 
   React.useEffect(() => {
     const handleFirstInteraction = () => {
@@ -52,17 +63,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       window.removeEventListener("touchstart", handleFirstInteraction);
     };
   }, [isMuted]);
-
-  const toggleMute = () => {
-    if (audioRef.current) {
-      const nextMuted = !audioRef.current.muted;
-      audioRef.current.muted = nextMuted;
-      setIsMuted(nextMuted);
-      if (!nextMuted && audioRef.current.paused) {
-        audioRef.current.play().catch(() => {});
-      }
-    }
-  };
 
   React.useEffect(() => {
     const timer = setInterval(() => {
@@ -440,18 +440,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         </div>
       </footer>
 
-      {/* Floating Sound Toggle Button */}
-      <button
-        onClick={toggleMute}
-        className="fixed bottom-6 right-6 z-50 p-4 rounded-full bg-slate-950/70 border border-white/10 text-white backdrop-blur-md shadow-2xl hover:bg-slate-900/90 active:scale-95 transition-all cursor-pointer flex items-center justify-center hover:border-amber-500/30"
-        title={isMuted ? t.landing.muteOff : t.landing.muteOn}
-      >
-        {isMuted ? (
-          <VolumeX className="w-6 h-6 text-slate-400" />
-        ) : (
-          <Volume2 className="w-6 h-6 text-amber-400" />
-        )}
-      </button>
+      <SoundControl
+        isMuted={isMuted}
+        onToggleMute={toggleMute}
+        volume={volume}
+        onVolumeChange={setVolume}
+        muteLabel={t.landing.muteOn}
+        unmuteLabel={t.landing.muteOff}
+      />
     </div>
   );
 };

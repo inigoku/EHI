@@ -5,6 +5,7 @@ import { ChapterContent } from "./components/ChapterContent";
 import { GlossaryDrawer } from "./components/GlossaryDrawer";
 import { JournalViewer } from "./components/JournalViewer";
 import { LandingPage } from "./components/LandingPage";
+import { ChapterMusicPlayer } from "./components/ChapterMusicPlayer";
 import { PathLanding } from "./components/PathLanding";
 import { ReadingSettings, ReadingTheme, FontSize } from "./components/ReadingSettings";
 import { motion, AnimatePresence } from "motion/react";
@@ -422,6 +423,8 @@ export default function App() {
         theme={theme}
         language={language}
       />
+
+      <ChapterMusicPlayer readingMode={readingMode} language={language} />
     </div>
   );
 }
