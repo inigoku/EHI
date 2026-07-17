@@ -146,6 +146,10 @@ export interface UiStrings {
     chapterPrefix: (n: string) => string;
     storyPrefix: (n: string) => string;
     partPrefix: (n: string) => string;
+    reconTabNarrativa: string;
+    reconTabEnsayo: string;
+    reconTabPoema: string;
+    reconCierreLabel: string;
     readRelatedEssay: string;
     readRelatedStory: string;
     backToEssay: string;
@@ -337,6 +341,10 @@ export const uiStrings: Record<Language, UiStrings> = {
       chapterPrefix: (n) => `Capítulo ${n}: `,
       storyPrefix: (n) => `Relato ${n}: `,
       partPrefix: (n) => `Parte ${n}: `,
+      reconTabNarrativa: "Narrativa",
+      reconTabEnsayo: "Ensayo",
+      reconTabPoema: "Poema",
+      reconCierreLabel: "Cierre",
       readRelatedEssay: "Leer ensayo relacionado",
       readRelatedStory: "Leer cuento relacionado",
       backToEssay: "Regresar al ensayo correspondiente",
@@ -526,6 +534,10 @@ export const uiStrings: Record<Language, UiStrings> = {
       chapterPrefix: (n) => `Chapter ${n}: `,
       storyPrefix: (n) => `Story ${n}: `,
       partPrefix: (n) => `Part ${n}: `,
+      reconTabNarrativa: "Narrative",
+      reconTabEnsayo: "Essay",
+      reconTabPoema: "Poem",
+      reconCierreLabel: "Closing",
       readRelatedEssay: "Read the related essay",
       readRelatedStory: "Read the related story",
       backToEssay: "Return to the corresponding essay",

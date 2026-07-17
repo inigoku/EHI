@@ -25,6 +25,10 @@ export interface Chapter {
   ensayo?: string;
   poema?: string;
   cierre?: string;
+  narrativaEn?: string;
+  ensayoEn?: string;
+  poemaEn?: string;
+  cierreEn?: string;
 }
 
 export const group1: Chapter[] = [

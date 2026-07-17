@@ -127,13 +127,21 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const displaySubtitle = language === "en" && chapter.subtitleEn ? chapter.subtitleEn : chapter.subtitle;
   const displaySection = language === "en" && chapter.sectionEn ? chapter.sectionEn : chapter.section;
   const displayContent = language === "en" && chapter.contentEn ? chapter.contentEn : chapter.content;
-  const showPendingBanner = language === "en" && !chapter.contentEn;
+  const displayNarrativa = language === "en" && chapter.narrativaEn ? chapter.narrativaEn : chapter.narrativa;
+  const displayEnsayo = language === "en" && chapter.ensayoEn ? chapter.ensayoEn : chapter.ensayo;
+  const displayPoema = language === "en" && chapter.poemaEn ? chapter.poemaEn : chapter.poema;
+  const displayCierre = language === "en" && chapter.cierreEn ? chapter.cierreEn : chapter.cierre;
+  const showPendingBanner =
+    language === "en" &&
+    (readingMode === "reconstruccion" ? !chapter.narrativaEn : !chapter.contentEn);
   const containerRef = React.useRef<HTMLDivElement>(null);
   const [reflection, setReflection] = React.useState<string>("");
   const [isSaved, setIsSaved] = React.useState<boolean>(false);
 
   // Tab state for Reconstrucción mode: narrativa, ensayo, or poema
   const [reconstructTab, setReconstructTab] = React.useState<"narrativa" | "ensayo" | "poema">("narrativa");
+  const reconTabLabel =
+    reconstructTab === "narrativa" ? t.reconTabNarrativa : reconstructTab === "ensayo" ? t.reconTabEnsayo : t.reconTabPoema;
 
   // Scroll to top on chapter change
   React.useEffect(() => {
@@ -817,7 +825,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     : `${tc.textMuted} hover:text-amber-300`
                 }`}
               >
-                Narrativa
+                {t.reconTabNarrativa}
               </button>
               <button
                 onClick={() => setReconstructTab("ensayo")}
@@ -827,7 +835,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     : `${tc.textMuted} hover:text-amber-300`
                 }`}
               >
-                Ensayo
+                {t.reconTabEnsayo}
               </button>
               <button
                 onClick={() => setReconstructTab("poema")}
@@ -837,7 +845,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     : `${tc.textMuted} hover:text-amber-300`
                 }`}
               >
-                Poema
+                {t.reconTabPoema}
               </button>
             </div>
           </div>
@@ -861,7 +869,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                         theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
                       }`}
                     >
-                      {(chapter.poema || "").split("\n").map((line, lineIdx) => (
+                      {(displayPoema || "").split("\n").map((line, lineIdx) => (
                         <div key={lineIdx}>
                           {parseInlineStyles(line)}
                         </div>
@@ -869,13 +877,13 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     </div>
 
                     {/* Cierre section inside Poem tab */}
-                    {chapter.cierre && (
+                    {displayCierre && (
                       <div className={`mt-10 pt-8 border-t border-amber-500/10 max-w-xl mx-auto text-left leading-relaxed text-sm opacity-90 ${
                         theme === "cosmic" ? "text-slate-300" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
                       }`}>
-                        <span className="text-[10px] font-sans uppercase tracking-[0.2em] font-bold text-amber-500 block mb-3 text-center">Cierre</span>
+                        <span className="text-[10px] font-sans uppercase tracking-[0.2em] font-bold text-amber-500 block mb-3 text-center">{t.reconCierreLabel}</span>
                         <div className="space-y-4">
-                          {chapter.cierre.split('\n\n').map((paragraph, pIdx) => (
+                          {displayCierre.split('\n\n').map((paragraph, pIdx) => (
                             <p key={pIdx} className="indent-4 text-justify">{paragraph}</p>
                           ))}
                         </div>
@@ -888,9 +896,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
                   <div className="space-y-4 prose prose-invert max-w-none text-justify leading-relaxed text-base">
                     {reconstructTab === "narrativa" ? (
-                      highlightTerms(chapter.narrativa || "")
+                      highlightTerms(displayNarrativa || "")
                     ) : (
-                      highlightTerms(chapter.ensayo || "")
+                      highlightTerms(displayEnsayo || "")
                     )}
                   </div>
                 </div>
@@ -905,7 +913,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 <div className="flex items-center gap-2">
                   <PenTool className={`w-4 h-4 ${tc.accent}`} />
                   <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
-                    {t.reflectionBoxTitleRecon(reconstructTab.toUpperCase())}
+                    {t.reflectionBoxTitleRecon(reconTabLabel.toUpperCase())}
                   </h4>
                 </div>
                 {reflection && (
@@ -924,7 +932,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                   setReflection(e.target.value);
                   setIsSaved(false);
                 }}
-                placeholder={t.placeholderRecon(reconstructTab)}
+                placeholder={t.placeholderRecon(reconTabLabel.toLowerCase())}
                 className={`w-full h-28 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
               />
 
