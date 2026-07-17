@@ -59,58 +59,58 @@ export const poemasList: Chapter[] = [
   },
   {
     id: "poema_arq5",
-    title: "LA ARQUITECTURA CON UN HUECO — V",
-    titleEn: "THE ARCHITECTURE WITH A HOLLOW — V",
+    title: "LA ARQUITECTURA CON UN HUECO — V: LA BURBUJA",
+    titleEn: "THE ARCHITECTURE WITH A HOLLOW — V: THE BUBBLE",
     section: "LA ARQUITECTURA CON UN HUECO",
     sectionEn: "THE ARCHITECTURE WITH A HOLLOW",
     content: "El jabón se estira en mis manos,\nse curva.\nDe repente, formo una esfera:\nun dentro y un fuera\nque antes no existían.\n\nEl horizonte no es la línea que busco en el mapa.\nEs la frontera viva\nque siento en mi propia piel.\n\nYo soy la cantidad de orquesta\nque no está en ningún músico.\n\nYo soy el vacío que, al colapsar,\ncrea algo parecido a una estrella.\n\nEl agua se retira.\nYo no arranco,\nyo me despido.",
     contentEn: "The soap stretches in my hands,\nit curves.\nSuddenly, I form a sphere:\nan inside and an outside\nthat did not exist before.\n\nThe horizon is not the line I seek on the map.\nIt is the living boundary\nthat I feel on my own skin.\n\nI am the sum of the orchestra\nthat is in no single musician.\n\nI am the void that, upon collapsing,\ncreates something like a star.\n\nThe water recedes.\nI do not tear away,\nI say goodbye.",
     illustration: {
       id: "poema_arq5",
-      title: "La arquitectura con un hueco — V",
-      description: "Fondo de página del poema V en el documento de fusión."
+      title: "La burbuja",
+      description: "Una esfera de jabón tensándose entre dos manos en el instante justo de cerrarse, atrapando un reflejo curvo de luz y agua."
     }
   },
   {
     id: "poema_arq6",
-    title: "LA ARQUITECTURA CON UN HUECO — VI",
-    titleEn: "THE ARCHITECTURE WITH A HOLLOW — VI",
+    title: "LA ARQUITECTURA CON UN HUECO — VI: EL REMO",
+    titleEn: "THE ARCHITECTURE WITH A HOLLOW — VI: THE OAR",
     section: "LA ARQUITECTURA CON UN HUECO",
     sectionEn: "THE ARCHITECTURE WITH A HOLLOW",
     content: "El remo tocó fondo\ndonde antes había metro.\n\nNo digo que el agua bajara.\nDigo que el golpe subió por mi brazo,\nse instaló en mi muñeca,\ny me recordó —con el dolor de los tendones—\nque el vacío no está vacío.\n\nYo he visto al horizonte emerger de mi propio reservorio.\nYo lo he visto retornar.\n\nAprendí a no repetir para entender,\nsino a repetir para anclarme.",
     contentEn: "The oar touched bottom\nwhere before there was a meter.\n\nI am not saying the water receded.\nI am saying the impact rose through my arm,\nsettled in my wrist,\nand reminded me —with the ache of the tendons—\nthat the void is not empty.\n\nI have seen the horizon emerge from my own reservoir.\nI have seen it return.\n\nI learned not to repeat to understand,\nbut to repeat to anchor myself.",
     illustration: {
       id: "poema_arq6",
-      title: "La arquitectura con un hueco — VI",
-      description: "Fondo de página del poema VI en el documento de fusión."
+      title: "El remo",
+      description: "Un remo de madera hundido hasta tocar el fondo de una laguna poco profunda, la muñeca de quien rema apenas visible sobre la superficie oscura."
     }
   },
   {
     id: "poema_arq7",
-    title: "LA ARQUITECTURA CON UN HUECO — VII",
-    titleEn: "THE ARCHITECTURE WITH A HOLLOW — VII",
+    title: "LA ARQUITECTURA CON UN HUECO — VII: EL TEMBLOR",
+    titleEn: "THE ARCHITECTURE WITH A HOLLOW — VII: THE TREMOR",
     section: "LA ARQUITECTURA CON UN HUECO",
     sectionEn: "THE ARCHITECTURE WITH A HOLLOW",
     content: "Me preguntaste por la lealtad de la materia\ny yo, cobarde, te hablé de información irrecuperable.\n\nPerdóname.\nDebí decirte la verdad:\nla información persiste en mí,\ncomo el nombre de una calle\nque ya nadie pronuncia,\npero que yo camino en sueños cada noche.\n\nAprendí a esperar.\nNo como quien sigue una disciplina,\nsino como quien observa el óxido\ntomar posesión de su propio hierro.\n\nSin rabia.\nPero con esta certeza que me pesa\ny me duele en el centro del pecho.\n\nHe visto al horizonte contraerse.\nNo en el telescopio que nunca tuve,\nsino en el temblor de mi propia mano\nque ya no recuerda\ncómo sostener un vaso sin miedo a romperlo.",
     contentEn: "You asked me about the loyalty of matter\nand I, a coward, spoke to you of irretrievable information.\n\nForgive me.\nI should have told you the truth:\ninformation persists in me,\nlike the name of a street\nthat no one pronounces anymore,\nbut that I walk in dreams every night.\n\nI learned to wait.\nNot like one who follows a discipline,\nbut like one who watches the rust\ntake possession of its own iron.\n\nWithout rage.\nBut with this certainty that weighs on me\nand aches in the center of my chest.\n\nI have seen the horizon contract.\nNot in the telescope I never had,\nbut in the tremor of my own hand\nthat no longer remembers\nhow to hold a glass without fear of breaking it.",
     illustration: {
       id: "poema_arq7",
-      title: "La arquitectura con un hueco — VII",
-      description: "Fondo de página del poema VII en el documento de fusión."
+      title: "El temblor",
+      description: "Un vaso de agua sostenido por una mano temblorosa, ondas concéntricas en la superficie del agua, luz baja y cálida como de telescopio apagado."
     }
   },
   {
     id: "poema_arq8",
-    title: "LA ARQUITECTURA CON UN HUECO — VIII",
-    titleEn: "THE ARCHITECTURE WITH A HOLLOW — VIII",
+    title: "LA ARQUITECTURA CON UN HUECO — VIII: LA ORILLA",
+    titleEn: "THE ARCHITECTURE WITH A HOLLOW — VIII: THE SHORE",
     section: "LA ARQUITECTURA CON UN HUECO",
     sectionEn: "THE ARCHITECTURE WITH A HOLLOW",
     content: "Y el agua volvió a mi orilla\nsin aviso.\n\nY yo no supe\n—ni como archivista de mis propias grietas,\nni como el niño que fui—\nsi la ciudad que perdí había regresado\no si era otra ciudad,\nuna más fría,\ncon la misma orilla de siempre.\n\nEl agua volvió de noche.\nNadie supo si trajo algo.\nNadie supo si dejó algo en mi casa.\n\nPero al alba,\nmiré mis manos\nabiertas.\n\nY entendí.\nTal vez,\neso era la respuesta.",
     contentEn: "And the water returned to my shore\nwithout warning.\n\nAnd I did not know\n—neither as archivist of my own fissures,\nnor as the boy I was—\nif the city I lost had returned\nor if it was another city,\na colder one,\nwith the same shore as always.\n\nThe water returned at night.\nNo one knew if it brought anything.\nNo one knew if it left anything in my house.\n\nBut at dawn,\nI looked at my hands\nopen.\n\nAnd I understood.\nPerhaps,\nthat was the answer.",
     illustration: {
       id: "poema_arq8",
-      title: "La arquitectura con un hueco — VIII",
-      description: "Fondo de página del poema VIII en el documento de fusión."
+      title: "La orilla",
+      description: "Dos manos abiertas al alba junto a la orilla de una laguna en calma, la misma línea de barro y piedras de siempre, luz fría del amanecer."
     }
   },
   {
@@ -218,7 +218,12 @@ export const poemasList: Chapter[] = [
     section: "RECONSTRUCCIÓN (POEMAS)",
     sectionEn: "RECONSTRUCTION (POEMS)",
     content: "La materia recuerda  \nincluso cuando parece blanda.  \n \nLa curva del jabón  \nabrió un hueco en mis manos.  \n \nLa luz se detuvo  \nen esa concavidad mínima  \ncomo si supiera algo  \nque yo aún no sabía nombrar.  \n \nEl agua retrocedió  \nunos centímetros.  \n \nEl golpe del remo  \nsubió por mi brazo  \ny se instaló en la muñeca:  \nno dolió,  \npero avisó.  \n \nEl horizonte interior  \nse movió sin ruido.  \n \nNo era tristeza.  \nNo era miedo.  \n \nEra un desplazamiento suave,  \nuna frontera viva  \nque respondía  \na la respiración.  \n \nHay calles que ya no existen  \npero siguen caminándose en sueños.  \n \nLa ciudad perdida  \nrespira en mí  \ncon la calma del óxido.  \n \nEl óxido avanza sin prisa.  \nToma posesión  \nde su propio hierro.  \n \nEl tiempo hace lo mismo:  \nno destruye,  \nreescribe.  \n \nA veces me tiembla la mano.  \n \nNo por miedo.  \n \nPor acumulación de horizontes.  \n \nPor todas las veces  \nque sostuvo algo  \nque podía romperse.  \n \nPor todas las veces  \nque acompañó un hueco  \nsin saberlo.  \n \nEl hueco no aparece  \npara ser llenado.  \n \nAparece para ser visto.  \n \nY en esa visión  \nempieza una arquitectura.  \n \nNo se construye.  \n \nEmerge.  \n \nComo el agua  \nque se retira  \npara que algo pueda volver.  \n \nComo la luz  \nque se detiene  \nen una concavidad mínima.  \n \nComo la ciudad perdida  \nque insiste  \nen seguir respirando.  \n \nComo la mano  \nque tiembla  \nporque recuerda  \nincluso cuando no sabe  \nqué recuerda.  \n \nEl hueco respira.  \n \nY yo respiro con él.",
-    contentEn: "Matter remembers\neven when it seems soft.\n\nThe curve of the soap\nopened a hollow in my hands.\n\nThe light stopped\nin that minimal concavity\nas if it knew something\nthat I still did not know how to name.\n\nThe water receded\na few centimeters.\n\nThe strike of the oar\nclimbed up my arm\nand settled in my wrist:\nit did not hurt,\nbut it warned.\n\nThe inner horizon\nmoved without a sound.\n\nIt was not sadness.\nIt was not fear.\n\nIt was a gentle displacement,\na living boundary\nthat responded\nto breath.\n\nThere are streets that no longer exist\nbut are still walked in dreams.\n\nThe lost city\nbreathes in me\nwith the calm of rust.\n\nRust advances without haste.\nIt takes possession\nof its own iron.\n\nTime does the same:\nit does not destroy,\nit rewrites.\n\nSometimes my hand trembles.\n\nNot from fear.\n\nFrom an accumulation of horizons.\n\nFor all the times\nit held something\nthat could break.\n\nFor all the times\nit accompanied a hollow\nwithout knowing it.\n\nThe hollow does not appear\nto be filled.\n\nIt appears to be seen.\n\nAnd in that vision\nan architecture begins.\n\nIt is not built.\n\nIt emerges.\n\nLike the water\nthat withdraws\nso that something can return.\n\nLike the light\nthat stops\nin a minimal concavity.\n\nLike the lost city\nthat insists\non continuing to breathe.\n\nLike the hand\nthat trembles\nbecause it remembers\neven when it does not know\nwhat it remembers.\n\nThe hollow breathes.\n\nAnd I breathe with it."
+    contentEn: "Matter remembers\neven when it seems soft.\n\nThe curve of the soap\nopened a hollow in my hands.\n\nThe light stopped\nin that minimal concavity\nas if it knew something\nthat I still did not know how to name.\n\nThe water receded\na few centimeters.\n\nThe strike of the oar\nclimbed up my arm\nand settled in my wrist:\nit did not hurt,\nbut it warned.\n\nThe inner horizon\nmoved without a sound.\n\nIt was not sadness.\nIt was not fear.\n\nIt was a gentle displacement,\na living boundary\nthat responded\nto breath.\n\nThere are streets that no longer exist\nbut are still walked in dreams.\n\nThe lost city\nbreathes in me\nwith the calm of rust.\n\nRust advances without haste.\nIt takes possession\nof its own iron.\n\nTime does the same:\nit does not destroy,\nit rewrites.\n\nSometimes my hand trembles.\n\nNot from fear.\n\nFrom an accumulation of horizons.\n\nFor all the times\nit held something\nthat could break.\n\nFor all the times\nit accompanied a hollow\nwithout knowing it.\n\nThe hollow does not appear\nto be filled.\n\nIt appears to be seen.\n\nAnd in that vision\nan architecture begins.\n\nIt is not built.\n\nIt emerges.\n\nLike the water\nthat withdraws\nso that something can return.\n\nLike the light\nthat stops\nin a minimal concavity.\n\nLike the lost city\nthat insists\non continuing to breathe.\n\nLike the hand\nthat trembles\nbecause it remembers\neven when it does not know\nwhat it remembers.\n\nThe hollow breathes.\n\nAnd I breathe with it.",
+    illustration: {
+      id: "poema_recon1",
+      title: "Terra incógnita",
+      description: "Un mapa antiguo de tierras imaginarias sobre una mesa de trabajo, un compás de latón abierto sobre el papel, la inscripción «El mapa no es el territorio» en una esquina."
+    }
   },
   {
     id: "poema_recon2",
@@ -227,7 +232,12 @@ export const poemasList: Chapter[] = [
     section: "RECONSTRUCCIÓN (POEMAS)",
     sectionEn: "RECONSTRUCTION (POEMS)",
     content: "Mi madre apareció  \nen la esquina.  \n \nNo estaba.  \n \nPero apareció.  \n \nComo aparece  \nla forma  \nque nunca se fue.  \n \nLa luz la sostuvo  \nun instante.  \n \nEl aire la recordó.  \n \nLa calle  \nabrió un hueco  \npara que pudiera estar.  \n \nNo habló.  \n \nNo miró.  \n \nNo respiró.  \n \nPero estaba.  \n \nComo está  \nla marca del vaso.  \n \nComo está  \nla grieta del cristal.  \n \nComo está  \nla retirada del agua.  \n \nComo está  \nla concavidad mínima  \ndel jabón.  \n \nMi madre apareció  \nporque la materia  \nrecuerda.  \n \nIncluso cuando parece  \nque no recuerda nada.  \n \nLa forma volvió.  \n \nY yo volví con ella.",
-    contentEn: "My mother appeared\non the corner.\n\nShe was not there.\n\nBut she appeared.\n\nThe way it appears,\nthe form\nthat never left.\n\nThe light held her\nfor an instant.\n\nThe air remembered her.\n\nThe street\nopened a hollow\nso she could be there.\n\nShe did not speak.\n\nShe did not look.\n\nShe did not breathe.\n\nBut she was there.\n\nThe way it remains,\nthe mark of the glass.\n\nThe way it remains,\nthe crack in the crystal.\n\nThe way it remains,\nthe retreat of the water.\n\nThe way it remains,\nthe minimal concavity\nof the soap.\n\nMy mother appeared\nbecause matter\nremembers.\n\nEven when it seems\nthat it remembers nothing.\n\nThe form returned.\n\nAnd I returned with her."
+    contentEn: "My mother appeared\non the corner.\n\nShe was not there.\n\nBut she appeared.\n\nThe way it appears,\nthe form\nthat never left.\n\nThe light held her\nfor an instant.\n\nThe air remembered her.\n\nThe street\nopened a hollow\nso she could be there.\n\nShe did not speak.\n\nShe did not look.\n\nShe did not breathe.\n\nBut she was there.\n\nThe way it remains,\nthe mark of the glass.\n\nThe way it remains,\nthe crack in the crystal.\n\nThe way it remains,\nthe retreat of the water.\n\nThe way it remains,\nthe minimal concavity\nof the soap.\n\nMy mother appeared\nbecause matter\nremembers.\n\nEven when it seems\nthat it remembers nothing.\n\nThe form returned.\n\nAnd I returned with her.",
+    illustration: {
+      id: "poema_recon2",
+      title: "El castillo de arena",
+      description: "Una niña construye un castillo de arena en la orilla al atardecer, con la marca de una mano abierta impresa en la arena junto a ella."
+    }
   },
   {
     id: "poema_recon3",
@@ -236,7 +246,12 @@ export const poemasList: Chapter[] = [
     section: "RECONSTRUCCIÓN (POEMAS)",
     sectionEn: "RECONSTRUCTION (POEMS)",
     content: "La luz pesa.  \n \nNo ilumina.  \n \nSe apoya.  \n \nDescansa.  \n \nRespira.  \n \nLa luz busca huecos.  \n \nEncuentra grietas.  \n \nHabita concavidades.  \n \nSe queda  \ndonde el mundo  \nse retira.  \n \nLa luz recuerda  \nlo que la materia  \nno puede decir.  \n \nLa luz sostiene  \nlo que el tiempo  \ndeja caer.  \n \nLa luz pesa.  \n \nY yo peso con ella.",
-    contentEn: "Light is heavy.\n\nIt does not illuminate.\n\nIt leans.\n\nIt rests.\n\nIt breathes.\n\nLight seeks hollows.\n\nIt finds cracks.\n\nIt inhabits concavities.\n\nIt stays\nwhere the world\nwithdraws.\n\nLight remembers\nwhat matter\ncannot say.\n\nLight holds\nwhat time\nlets fall.\n\nLight is heavy.\n\nAnd I am heavy with it."
+    contentEn: "Light is heavy.\n\nIt does not illuminate.\n\nIt leans.\n\nIt rests.\n\nIt breathes.\n\nLight seeks hollows.\n\nIt finds cracks.\n\nIt inhabits concavities.\n\nIt stays\nwhere the world\nwithdraws.\n\nLight remembers\nwhat matter\ncannot say.\n\nLight holds\nwhat time\nlets fall.\n\nLight is heavy.\n\nAnd I am heavy with it.",
+    illustration: {
+      id: "poema_recon3",
+      title: "Las orillas de Tarel",
+      description: "Una anciana en un muelle de madera extiende las manos hacia siluetas doradas y translúcidas que emergen del agua, con las palabras memorias, historias y Tarel del pasado escritas en la corriente."
+    }
   },
   {
     id: "poema_recon4",
@@ -245,7 +260,12 @@ export const poemasList: Chapter[] = [
     section: "RECONSTRUCCIÓN (POEMAS)",
     sectionEn: "RECONSTRUCTION (POEMS)",
     content: "La tensión abre.  \n \nNo rompe.  \n \nNo quiebra.  \n \nNo destruye.  \n \nLa tensión estira  \nlo que el mundo  \nya no puede sostener.  \n \nEl vaso tiembla.  \n \nLa calle respira.  \n \nLas voces golpean.  \n \nEl aire se endurece.  \n \nYo me abro  \nsin querer abrirme.  \n \nYo me quiebro  \nsin querer quebrarme.  \n \nLa tensión avanza.  \n \nY yo lloro  \nporque no sé  \nsi debo seguirla  \no detenerla.",
-    contentEn: "The tension opens.\n\nIt does not break.\n\nIt does not shatter.\n\nIt does not destroy.\n\nThe tension stretches\nwhat the world\ncan no longer sustain.\n\nThe glass trembles.\n\nThe street breathes.\n\nThe voices strike.\n\nThe air hardens.\n\nI open\nwithout wanting to open.\n\nI shatter\nwithout wanting to shatter.\n\nThe tension advances.\n\nAnd I weep\nbecause I do not know\nwhether to follow it\nor stop it."
+    contentEn: "The tension opens.\n\nIt does not break.\n\nIt does not shatter.\n\nIt does not destroy.\n\nThe tension stretches\nwhat the world\ncan no longer sustain.\n\nThe glass trembles.\n\nThe street breathes.\n\nThe voices strike.\n\nThe air hardens.\n\nI open\nwithout wanting to open.\n\nI shatter\nwithout wanting to shatter.\n\nThe tension advances.\n\nAnd I weep\nbecause I do not know\nwhether to follow it\nor stop it.",
+    illustration: {
+      id: "poema_recon4",
+      title: "El escritorio",
+      description: "Un escritorio de estudio nocturno con un libro abierto sobre agujeros negros y el Tao Te Ching, notas manuscritas de física, y una fotografía enmarcada de un perro pequeño."
+    }
   },
   {
     id: "poema_recon5",
@@ -254,7 +274,12 @@ export const poemasList: Chapter[] = [
     section: "RECONSTRUCCIÓN (POEMAS)",
     sectionEn: "RECONSTRUCTION (POEMS)",
     content: "La ruptura insiste.  \n \nNo avisa.  \n \nNo espera.  \n \nNo perdona.  \n \nLa ruptura abre  \nlo que yo quería  \nmantener cerrado.  \n \nLa plaza respira  \ncon un hueco nuevo.  \n \nEl hombre avanza  \ncon una ausencia vieja.  \n \nYo corro  \nporque no sé  \ncómo sostener  \nlo que se rompe.  \n \nLa ruptura insiste.  \n \nY yo lloro  \nporque no sé  \nsi debo detenerla  \no dejarla avanzar.",
-    contentEn: "The rupture insists.\n\nIt does not warn.\n\nIt does not wait.\n\nIt does not forgive.\n\nThe rupture opens\nwhat I wanted\nto keep closed.\n\nThe square breathes\nwith a new hollow.\n\nThe man advances\nwith an old absence.\n\nI run\nbecause I do not know\nhow to hold\nwhat breaks.\n\nThe rupture insists.\n\nAnd I weep\nbecause I do not know\nif I should stop it\nor let it advance."
+    contentEn: "The rupture insists.\n\nIt does not warn.\n\nIt does not wait.\n\nIt does not forgive.\n\nThe rupture opens\nwhat I wanted\nto keep closed.\n\nThe square breathes\nwith a new hollow.\n\nThe man advances\nwith an old absence.\n\nI run\nbecause I do not know\nhow to hold\nwhat breaks.\n\nThe rupture insists.\n\nAnd I weep\nbecause I do not know\nif I should stop it\nor let it advance.",
+    illustration: {
+      id: "poema_recon5",
+      title: "El horizonte que une",
+      description: "Una esfera de jabón traslúcida que contiene un océano y un cielo estrellado a la vez, sus bordes irisados fundiendo ambos mundos en uno."
+    }
   },
   {
     id: "poema_recon6",
@@ -263,6 +288,11 @@ export const poemasList: Chapter[] = [
     section: "RECONSTRUCCIÓN (POEMAS)",
     sectionEn: "RECONSTRUCTION (POEMS)",
     content: "Al final,  \nno éramos ruptura.  \n \nÉramos eco.  \n \nÉramos tres formas  \nde sostener el mismo cuerpo.  \n \nTú eras hueco.  \n \nÉl era límite.  \n \nYo era tensión.  \n \nY el mundo  \nera la suma  \nde nuestras tres respiraciones.  \n \nLloré,  \nno por dolor,  \nsino por claridad.  \n \nPorque entendí  \nque nunca estuvimos separados.  \n \nSolo estábamos mirando  \ndesde lugares distintos  \nla misma arquitectura.",
-    contentEn: "In the end,\nwe were not rupture.\n\nWe were echo.\n\nWe were three forms\nof sustaining the same body.\n\nYou were hollow.\n\nHe was boundary.\n\nI was tension.\n\nAnd the world\nwas the sum\nof our three breaths.\n\nI wept,\nnot from pain,\nbut from clarity.\n\nBecause I understood\nthat we were never apart.\n\nWe were only looking\nfrom different places\nat the same architecture."
+    contentEn: "In the end,\nwe were not rupture.\n\nWe were echo.\n\nWe were three forms\nof sustaining the same body.\n\nYou were hollow.\n\nHe was boundary.\n\nI was tension.\n\nAnd the world\nwas the sum\nof our three breaths.\n\nI wept,\nnot from pain,\nbut from clarity.\n\nBecause I understood\nthat we were never apart.\n\nWe were only looking\nfrom different places\nat the same architecture.",
+    illustration: {
+      id: "poema_recon6",
+      title: "El reconocimiento",
+      description: "Dos horizontes —el mar y el cosmos— fundidos dentro de una misma esfera translúcida, sin borde visible entre ellos."
+    }
   }
 ];

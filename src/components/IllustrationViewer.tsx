@@ -161,6 +161,14 @@ import cuentoSintonizadores from "../assets/images/cuentos/20_sintonizadores.png
 
 // Poemas background images
 // @ts-ignore
+import poemaElArchivista from "../assets/images/poemas/el_archivista.png";
+// @ts-ignore
+import poemaElRelojero from "../assets/images/poemas/el_relojero.png";
+// @ts-ignore
+import poemaElLuthier from "../assets/images/poemas/el_luthier.png";
+// @ts-ignore
+import poemaLaCancion from "../assets/images/poemas/la_cancion.png";
+// @ts-ignore
 import poemaArq1 from "../assets/images/poemas/clean_poema_arq1.png";
 // @ts-ignore
 import poemaArq2 from "../assets/images/poemas/clean_poema_arq2.png";
@@ -281,6 +289,10 @@ const imageMap: Record<string, string> = {
   cuento_sintonizadores: cuentoSintonizadores,
 
   // Poem backgrounds mapping
+  poema_arq1: poemaElArchivista,
+  poema_arq2: poemaElRelojero,
+  poema_arq3: poemaElLuthier,
+  poema_arq4: poemaLaCancion,
   poema_arq5: poemaArq1,
   poema_arq6: poemaArq2,
   poema_arq7: poemaArq3,
