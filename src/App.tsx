@@ -297,6 +297,8 @@ export default function App() {
                       ? t.header.glossary
                       : activeChapterId.startsWith("poema_arq")
                       ? `${t.header.link} ${activeChapterId.replace("poema_arq", "")} ${t.header.of} 8`
+                      : activeChapterId.startsWith("poema_frialdad")
+                      ? `${activeChapterId.replace("poema_frialdad", "")} ${t.header.of} 6`
                       : `${t.header.sectionReconstruccion} ${activeChapterId.replace("poema_recon", "")} ${t.header.of} 6`
                   }</strong></>
                 ) : (

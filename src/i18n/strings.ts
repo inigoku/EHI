@@ -140,6 +140,7 @@ export interface UiStrings {
     prologueOf: (total: number) => string;
     reconOf: (n: string) => string;
     poemLinkOf: (n: string) => string;
+    poemFrialdadOf: (n: string) => string;
     poemReconOf: (n: string) => string;
     poemGlossaryLabel: string;
     chapterPrefix: (n: string) => string;
@@ -330,6 +331,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       prologueOf: (total) => `Relato Prólogo de ${total}`,
       reconOf: (n) => `Parte ${n} de 6`,
       poemLinkOf: (n) => `Poema Enlace ${n} de 8`,
+      poemFrialdadOf: (n) => `Poema Frialdad ${n} de 6`,
       poemReconOf: (n) => `Poema Reconstrucción ${n} de 6`,
       poemGlossaryLabel: "Glosario",
       chapterPrefix: (n) => `Capítulo ${n}: `,
@@ -518,6 +520,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       prologueOf: (total) => `Story Prologue of ${total}`,
       reconOf: (n) => `Part ${n} of 6`,
       poemLinkOf: (n) => `Poem Link ${n} of 8`,
+      poemFrialdadOf: (n) => `Coldness Poem ${n} of 6`,
       poemReconOf: (n) => `Poem Reconstruction ${n} of 6`,
       poemGlossaryLabel: "Glossary",
       chapterPrefix: (n) => `Chapter ${n}: `,
