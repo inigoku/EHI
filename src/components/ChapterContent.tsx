@@ -246,7 +246,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
         // Process the collected table lines
         // Check if there is at least one line (excluding separators)
-        const rows = tableLines.filter(l => !l.match(/^\|[\s:-|]+\|$/));
+        const rows = tableLines.filter(l => !l.match(/^\|[\s:|-]+\|$/));
 
         if (rows.length > 0) {
           // Always treat the first row as a header row if there are multiple rows

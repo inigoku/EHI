@@ -40,6 +40,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   const t = uiStrings[language];
   const getTitle = (c: Chapter) => (language === "en" && c.titleEn ? c.titleEn : c.title);
   const getSection = (c: Chapter) => (language === "en" && c.sectionEn ? c.sectionEn : c.section);
+  const getSubtitle = (c: Chapter) => (language === "en" && c.subtitleEn ? c.subtitleEn : c.subtitle);
   const [searchQuery, setSearchQuery] = React.useState<string>("");
   const [completedChapters, setCompletedChapters] = React.useState<string[]>([]);
 
@@ -378,7 +379,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         )}
                         {item.subtitle && (
                           <div className={`text-[10px] ${sc.textMuted} font-sans mt-0.5 truncate leading-tight`}>
-                            {item.subtitle}
+                            {getSubtitle(item)}
                           </div>
                         )}
                       </div>
