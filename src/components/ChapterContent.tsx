@@ -3,6 +3,7 @@ import { Chapter, Illustration, allChapters, cuentosList } from "../chapters";
 import { IllustrationViewer } from "./IllustrationViewer";
 import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
+import { Language, uiStrings } from "../i18n";
 // @ts-ignore
 import part1Bg from "../assets/images/part1_bg.png";
 // @ts-ignore
@@ -23,6 +24,7 @@ interface ChapterContentProps {
   fontSize: "sm" | "base" | "lg" | "xl" | "2xl";
   readingMode: "essay" | "cuentos" | "poemas" | "reconstruccion";
   onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion", targetId?: string) => void;
+  language: Language;
 }
 // Helper to detect if the main chapter illustration is already embedded inline in the text
 const isIllustrationDuplicate = (chapter: Chapter, readingMode: string): boolean => {
@@ -118,11 +120,18 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   fontSize,
   readingMode,
   onSwitchMode,
+  language,
 }) => {
+  const t = uiStrings[language].chapterContent;
+  const displayTitle = language === "en" && chapter.titleEn ? chapter.titleEn : chapter.title;
+  const displaySubtitle = language === "en" && chapter.subtitleEn ? chapter.subtitleEn : chapter.subtitle;
+  const displaySection = language === "en" && chapter.sectionEn ? chapter.sectionEn : chapter.section;
+  const displayContent = language === "en" && chapter.contentEn ? chapter.contentEn : chapter.content;
+  const showPendingBanner = language === "en" && !chapter.contentEn;
   const containerRef = React.useRef<HTMLDivElement>(null);
   const [reflection, setReflection] = React.useState<string>("");
   const [isSaved, setIsSaved] = React.useState<boolean>(false);
-  
+
   // Tab state for Reconstrucción mode: narrativa, ensayo, or poema
   const [reconstructTab, setReconstructTab] = React.useState<"narrativa" | "ensayo" | "poema">("narrativa");
 
@@ -147,7 +156,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   };
 
   const clearReflection = () => {
-    if (confirm("¿Estás seguro de que quieres borrar tu reflexión para este capítulo?")) {
+    if (confirm(t.confirmClearReflection)) {
       localStorage.removeItem(`reflection_${chapter.id}`);
       setReflection("");
     }
@@ -174,13 +183,15 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const getLinkedChapterTitle = (id?: string) => {
     if (!id) return "";
     const chap = allChapters.find((c) => c.id === id);
-    return chap ? chap.title : "";
+    if (!chap) return "";
+    return language === "en" && chap.titleEn ? chap.titleEn : chap.title;
   };
 
   const getLinkedCuentoTitle = (id?: string) => {
     if (!id) return "";
     const cuento = cuentosList.find((c) => c.id === id);
-    return cuento ? cuento.title : "";
+    if (!cuento) return "";
+    return language === "en" && cuento.titleEn ? cuento.titleEn : cuento.title;
   };
 
   // Highlight words of interest in the glossary
@@ -404,7 +415,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
           processedBlocks.push(
             <div key={`inline-illus-${i}`} className="my-10 flex justify-center select-none">
-              <IllustrationViewer illustration={inlineIllus} />
+              <IllustrationViewer illustration={inlineIllus} language={language} />
             </div>
           );
 
@@ -726,39 +737,39 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         transition={{ duration: 0.5 }}
         className={`text-center py-6 sm:py-10 border-b ${tc.border} space-y-4`}
       >
-        {readingMode === "essay" && chapter.section && (
+        {readingMode === "essay" && displaySection && (
           <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
-            {chapter.section}
+            {displaySection}
           </span>
         )}
         {readingMode === "cuentos" && (
           <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
-            Antología de Cuentos
+            {uiStrings[language].header.sectionCuentos}
           </span>
         )}
-        {readingMode === "poemas" && chapter.section && (
+        {readingMode === "poemas" && displaySection && (
           <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
-            {chapter.section}
+            {displaySection}
           </span>
         )}
         {readingMode === "reconstruccion" && (
           <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
-            RECONSTRUCCIÓN
+            {uiStrings[language].header.sectionReconstruccion.toUpperCase()}
           </span>
         )}
         <h1 className={`font-display font-semibold text-2xl sm:text-5xl ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-slate-100"} tracking-tight max-w-3xl mx-auto leading-tight`}>
-          {readingMode === "essay" 
-            ? (chapter.chapterNumber && chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && `Capítulo ${chapter.chapterNumber}: `)
+          {readingMode === "essay"
+            ? (chapter.chapterNumber && chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && t.chapterPrefix(chapter.chapterNumber))
             : readingMode === "cuentos"
-            ? (chapter.chapterNumber ? `Relato ${chapter.chapterNumber}: ` : "")
+            ? (chapter.chapterNumber ? t.storyPrefix(chapter.chapterNumber) : "")
             : readingMode === "reconstruccion"
-            ? (chapter.chapterNumber ? `Parte ${chapter.chapterNumber.replace("R", "")}: ` : "")
+            ? (chapter.chapterNumber ? t.partPrefix(chapter.chapterNumber.replace("R", "")) : "")
             : ""}
-          {chapter.title.replace(/^(I|II|III|IV|V|VI)\.\s*/i, "")}
+          {displayTitle.replace(/^(I|II|III|IV|V|VI)\.\s*/i, "")}
         </h1>
-        {chapter.subtitle && (
+        {displaySubtitle && (
           <p className={`font-serif text-sm sm:text-base ${tc.textMuted} italic max-w-2xl mx-auto`}>
-            {chapter.subtitle}
+            {displaySubtitle}
           </p>
         )}
 
@@ -769,7 +780,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               onClick={() => onSwitchMode("essay", chapter.linkedChapterId)}
               className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer"
             >
-              📖 Leer ensayo relacionado: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
+              📖 {t.readRelatedEssay}: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
             </button>
           </div>
         )}
@@ -779,8 +790,15 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               onClick={() => onSwitchMode("cuentos", chapter.linkedCuentosId)}
               className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer"
             >
-              📖 Leer cuento relacionado: "{getLinkedCuentoTitle(chapter.linkedCuentosId)}"
+              📖 {t.readRelatedStory}: "{getLinkedCuentoTitle(chapter.linkedCuentosId)}"
             </button>
+          </div>
+        )}
+        {showPendingBanner && (
+          <div className="pt-2">
+            <span className="inline-flex items-center gap-1.5 text-[11px] text-amber-500/80 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5">
+              {t.pendingTranslation}
+            </span>
           </div>
         )}
       </motion.div>
@@ -887,7 +905,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 <div className="flex items-center gap-2">
                   <PenTool className={`w-4 h-4 ${tc.accent}`} />
                   <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
-                    Bitácora de Reflexión: {reconstructTab.toUpperCase()}
+                    {t.reflectionBoxTitleRecon(reconstructTab.toUpperCase())}
                   </h4>
                 </div>
                 {reflection && (
@@ -895,7 +913,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     onClick={clearReflection}
                     className={`text-[10px] ${tc.textMuted} hover:text-red-400 transition-colors cursor-pointer`}
                   >
-                    Borrar
+                    {t.delete}
                   </button>
                 )}
               </div>
@@ -906,7 +924,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                   setReflection(e.target.value);
                   setIsSaved(false);
                 }}
-                placeholder={`¿Qué resonó en tu interior tras leer este capítulo (${reconstructTab})?...`}
+                placeholder={t.placeholderRecon(reconstructTab)}
                 className={`w-full h-28 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
               />
 
@@ -921,12 +939,12 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 {isSaved ? (
                   <>
                     <Check className="w-4 h-4" />
-                    ¡Guardado!
+                    {t.savedNote}
                   </>
                 ) : (
                   <>
                     <Save className="w-4 h-4" />
-                    Guardar en Bitácora
+                    {t.saveButton}
                   </>
                 )}
               </button>
@@ -947,7 +965,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     ? "opacity-[0.45] mix-blend-multiply"
                     : "opacity-[0.45] mix-blend-multiply"
                 }`}>
-                  <IllustrationViewer illustration={chapter.illustration} variant="background" />
+                  <IllustrationViewer illustration={chapter.illustration} variant="background" language={language} />
                 </div>
                 <div className={`absolute inset-0 bg-gradient-to-t transition-all duration-1000 ${
                   theme === "cosmic"
@@ -970,7 +988,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                   theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
                 }`}
               >
-                {chapter.content.split("\n").map((line, lineIdx) => (
+                {displayContent.split("\n").map((line, lineIdx) => (
                   <div key={lineIdx}>
                     {parseInlineStyles(line)}
                   </div>
@@ -984,14 +1002,14 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 <summary className={`flex items-center justify-between cursor-pointer select-none text-[10px] sm:text-xs font-semibold ${tc.text} tracking-wider font-display uppercase`}>
                   <div className="flex items-center gap-2">
                     <PenTool className={`w-3.5 h-3.5 ${tc.accent}`} />
-                    <span>Bitácora de Reflexión Poética</span>
+                    <span>{t.reflectionBoxTitlePoetic}</span>
                   </div>
-                  <span className="text-[10px] text-amber-500/70 group-open:hidden">Desplegar</span>
-                  <span className="text-[10px] text-amber-500/70 hidden group-open:inline">Plegar</span>
+                  <span className="text-[10px] text-amber-500/70 group-open:hidden">{t.expand}</span>
+                  <span className="text-[10px] text-amber-500/70 hidden group-open:inline">{t.collapse}</span>
                 </summary>
                 <div className="mt-4 space-y-4">
                   <p className={`text-[10px] ${tc.textMuted} leading-relaxed font-sans`}>
-                    Anota los ecos y sensaciones íntimas que te inspira esta poesía. Se guardarán localmente.
+                    {t.hintPoem}
                   </p>
                   <textarea
                     value={reflection}
@@ -999,7 +1017,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                       setReflection(e.target.value);
                       setIsSaved(false);
                     }}
-                    placeholder="Escribe tus impresiones..."
+                    placeholder={t.placeholderPoem}
                     className={`w-full h-20 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
                   />
                   <button
@@ -1010,7 +1028,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                         : `${tc.accentBg} cursor-pointer`
                     }`}
                   >
-                    {isSaved ? "¡Apunte Guardado!" : "Guardar Apunte"}
+                    {isSaved ? t.savedNote : t.saveNote}
                   </button>
                 </div>
               </details>
@@ -1022,7 +1040,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           {/* Cuentos mode: Illustration is at the beginning, centered and large */}
           {chapter.illustration && (
             <div className="flex justify-center my-8 select-none">
-              <IllustrationViewer illustration={chapter.illustration} />
+              <IllustrationViewer illustration={chapter.illustration} language={language} />
             </div>
           )}
 
@@ -1035,7 +1053,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               transition={{ duration: 0.6, delay: 0.2 }}
               className="space-y-2 prose prose-invert max-w-none font-serif text-justify leading-relaxed text-base sm:text-lg"
             >
-              {highlightTerms(chapter.content)}
+              {highlightTerms(displayContent)}
             </motion.div>
           </div>
 
@@ -1046,7 +1064,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 <div className="flex items-center gap-2">
                   <PenTool className={`w-4 h-4 ${tc.accent}`} />
                   <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
-                    Bitácora de Reflexión
+                    {t.reflectionBoxTitle}
                   </h4>
                 </div>
                 {reflection && (
@@ -1054,13 +1072,13 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     onClick={clearReflection}
                     className={`text-[10px] ${tc.textMuted} hover:text-red-400 transition-colors cursor-pointer`}
                   >
-                    Borrar
+                    {t.delete}
                   </button>
                 )}
               </div>
 
               <p className={`text-[11px] ${tc.textMuted} leading-relaxed font-sans`}>
-                Escribe tus reflexiones, apuntes, o sensaciones que te despierte este relato. Se guardarán automáticamente.
+                {t.hintCuento}
               </p>
 
               <textarea
@@ -1069,7 +1087,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                   setReflection(e.target.value);
                   setIsSaved(false);
                 }}
-                placeholder="¿Qué resonó en tu interior tras leer este relato?..."
+                placeholder={t.placeholderCuento}
                 className={`w-full h-28 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
               />
 
@@ -1084,12 +1102,12 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 {isSaved ? (
                   <>
                     <Check className="w-4 h-4" />
-                    ¡Guardado en Bitácora!
+                    {t.savedButton}
                   </>
                 ) : (
                   <>
                     <Save className="w-4 h-4" />
-                    Guardar en Bitácora
+                    {t.saveButton}
                   </>
                 )}
               </button>
@@ -1103,7 +1121,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 onClick={() => onSwitchMode("essay", chapter.linkedChapterId)}
                 className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
               >
-                📖 Regresar al ensayo correspondiente: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
+                📖 {t.backToEssay}: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
               </button>
             </div>
           )}
@@ -1151,7 +1169,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             
             {chapter.illustration && !isIllustrationDuplicate(chapter, readingMode) && (
               <div className="flex justify-center mb-8 select-none relative z-10">
-                <IllustrationViewer illustration={chapter.illustration} />
+                <IllustrationViewer illustration={chapter.illustration} language={language} />
               </div>
             )}
             <motion.div
@@ -1161,7 +1179,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               transition={{ duration: 0.6, delay: 0.2 }}
               className="space-y-2 prose prose-invert max-w-none relative z-10"
             >
-              {highlightTerms(chapter.content)}
+              {highlightTerms(displayContent)}
             </motion.div>
             {readingMode === "essay" && chapter.id === "cap20_5" && (
               <div className="mt-8 flex justify-center border-t border-amber-500/10 pt-6 relative z-10">
@@ -1182,7 +1200,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 <div className="flex items-center gap-2">
                   <PenTool className={`w-4 h-4 ${tc.accent}`} />
                   <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
-                    Bitácora de Reflexión
+                    {t.reflectionBoxTitle}
                   </h4>
                 </div>
                 {reflection && (
@@ -1190,13 +1208,13 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     onClick={clearReflection}
                     className={`text-[10px] ${tc.textMuted} hover:text-red-400 transition-colors cursor-pointer`}
                   >
-                    Borrar
+                    {t.delete}
                   </button>
                 )}
               </div>
 
               <p className={`text-[11px] ${tc.textMuted} leading-relaxed font-sans`}>
-                Escribe tus reflexiones, apuntes de física, o pensamientos que te despierte este capítulo. Se guardarán automáticamente en tu navegador.
+                {t.hintEssay}
               </p>
 
               <textarea
@@ -1205,7 +1223,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                   setReflection(e.target.value);
                   setIsSaved(false);
                 }}
-                placeholder="¿Qué ecos resuenan en tu horizonte interno tras leer este capítulo?..."
+                placeholder={t.placeholderEssay}
                 className={`w-full h-32 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
               />
 
@@ -1220,12 +1238,12 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 {isSaved ? (
                   <>
                     <Check className="w-4 h-4" />
-                    ¡Guardado en Bitácora!
+                    {t.savedButton}
                   </>
                 ) : (
                   <>
                     <Save className="w-4 h-4" />
-                    Guardar en Bitácora
+                    {t.saveButton}
                   </>
                 )}
               </button>
@@ -1246,21 +1264,21 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           } disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all active:scale-95 text-xs sm:text-sm font-semibold cursor-pointer`}
         >
           <ChevronLeft className="w-4 h-4" />
-          Anterior
+          {t.prev}
         </button>
 
         <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
-          {readingMode === "essay" 
-            ? `Parte ${chapter.chapterNumber || "Especial"} de 33`
+          {readingMode === "essay"
+            ? t.partOf(chapter.chapterNumber || uiStrings[language].header.interludio, 33)
             : readingMode === "cuentos"
-            ? `Relato ${chapter.chapterNumber || "Prólogo"} de ${cuentosList.length - 1}`
+            ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))
             : readingMode === "reconstruccion"
-            ? `Parte ${chapter.chapterNumber.replace("R", "")} de 6`
+            ? t.reconOf(chapter.chapterNumber.replace("R", ""))
             : chapter.id === "poema_glosario"
-            ? "Glosario"
+            ? t.poemGlossaryLabel
             : chapter.id.startsWith("poema_arq")
-            ? `Poema Enlace ${chapter.id.replace("poema_arq", "")} de 8`
-            : `Poema Reconstrucción ${chapter.id.replace("poema_recon", "")} de 6`}
+            ? t.poemLinkOf(chapter.id.replace("poema_arq", ""))
+            : t.poemReconOf(chapter.id.replace("poema_recon", ""))}
         </span>
 
         <button
@@ -1272,7 +1290,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               : "border-amber-500/20 bg-amber-500/5 text-amber-400 hover:bg-amber-500/10"
           } disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all active:scale-95 text-xs sm:text-sm font-semibold cursor-pointer`}
         >
-          Siguiente
+          {t.next}
           <ChevronRight className="w-4 h-4" />
         </button>
       </div>

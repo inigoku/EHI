@@ -3,6 +3,7 @@ import { Chapter } from "../chapters";
 import { motion, AnimatePresence } from "motion/react";
 import { X, BookOpen, PenTool, Clipboard, Check, Trash2, Download, Compass } from "lucide-react";
 import DialogosHorizonte from "./DialogosHorizonte";
+import { Language, uiStrings } from "../i18n";
 
 interface JournalViewerProps {
   isOpen: boolean;
@@ -10,6 +11,7 @@ interface JournalViewerProps {
   chapters: Chapter[];
   onChapterSelect: (id: string) => void;
   theme: string;
+  language: Language;
 }
 
 export const JournalViewer: React.FC<JournalViewerProps> = ({
@@ -18,7 +20,10 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
   chapters,
   onChapterSelect,
   theme,
+  language,
 }) => {
+  const t = uiStrings[language].journal;
+  const getTitle = (c: Chapter) => (language === "en" && c.titleEn ? c.titleEn : c.title);
   const [tab, setTab] = React.useState<"reflexiones" | "dialogos">("reflexiones");
   const [reflections, setReflections] = React.useState<{ [key: string]: string }>({});
   const [copiedId, setCopiedId] = React.useState<string | null>(null);
@@ -48,7 +53,7 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
   };
 
   const deleteReflection = (id: string) => {
-    if (confirm("¿Estás seguro de que deseas borrar esta reflexión permanente?")) {
+    if (confirm(t.confirmDelete)) {
       localStorage.removeItem(`reflection_${id}`);
       loadReflections();
     }
@@ -58,18 +63,18 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
     const text = Object.entries(reflections)
       .map(([id, content]) => {
         const chap = chapters.find((c) => c.id === id);
-        return `[Capítulo ${chap?.chapterNumber || "Intro"}] ${chap?.title}\n${content}\n`;
+        return `[${t.chapterLabel} ${chap?.chapterNumber || t.introLabel}] ${chap ? getTitle(chap) : ""}\n${content}\n`;
       })
       .join("\n---\n\n");
     navigator.clipboard.writeText(text);
-    alert("¡Todas tus reflexiones han sido copiadas al portapapeles!");
+    alert(t.copiedAlert);
   };
 
   const exportAsTxt = () => {
     const text = Object.entries(reflections)
       .map(([id, content]) => {
         const chap = chapters.find((c) => c.id === id);
-        return `[Capítulo ${chap?.chapterNumber || "Intro"}] ${chap?.title}\nReflexión:\n${content}\n`;
+        return `[${t.chapterLabel} ${chap?.chapterNumber || t.introLabel}] ${chap ? getTitle(chap) : ""}\n${t.tabReflections}:\n${content}\n`;
       })
       .join("\n---\n\n");
     
@@ -156,12 +161,10 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                 )}
                 <div>
                   <h3 className="font-display font-semibold text-lg">
-                    {tab === "reflexiones" ? "Tu Bitácora de Lectura" : "Diálogos con el Horizonte"}
+                    {tab === "reflexiones" ? t.title : t.dialogosTitle}
                   </h3>
                   <p className={`text-[10px] font-sans uppercase tracking-wider ${sc.textMuted}`}>
-                    {tab === "reflexiones"
-                      ? 'Compilación de reflexiones de "El Horizonte Interior"'
-                      : "Pregúntale al Horizonte, queda anotado en la bitácora"}
+                    {tab === "reflexiones" ? t.subtitle : t.dialogosSubtitle}
                   </p>
                 </div>
               </div>
@@ -174,14 +177,14 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                       className={`hidden sm:flex items-center gap-1.5 py-1.5 px-3 rounded-lg border text-xs font-medium cursor-pointer ${sc.button}`}
                     >
                       <Clipboard className="w-3.5 h-3.5" />
-                      Copiar Todo
+                      {t.copyAll}
                     </button>
                     <button
                       onClick={exportAsTxt}
                       className={`hidden sm:flex items-center gap-1.5 py-1.5 px-3 rounded-lg border text-xs font-medium cursor-pointer ${sc.button}`}
                     >
                       <Download className="w-3.5 h-3.5" />
-                      Descargar TXT
+                      {t.downloadTxt}
                     </button>
                   </>
                 )}
@@ -205,7 +208,7 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                 }`}
               >
                 <PenTool className="w-3.5 h-3.5" />
-                Reflexiones
+                {t.tabReflections}
               </button>
               <button
                 onClick={() => setTab("dialogos")}
@@ -216,7 +219,7 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                 }`}
               >
                 <Compass className="w-3.5 h-3.5" />
-                Diálogos con el Horizonte
+                {t.tabDialogos}
               </button>
             </div>
 
@@ -231,10 +234,10 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                 <div className="flex flex-col items-center justify-center h-full text-center max-w-sm mx-auto space-y-3">
                   <PenTool className="w-12 h-12 opacity-30" />
                   <h4 className={`font-display font-medium text-sm ${sc.textMuted}`}>
-                    La bitácora está vacía
+                    {t.emptyTitle}
                   </h4>
                   <p className={`text-xs ${sc.textMuted} leading-relaxed font-sans`}>
-                    Escribe tus apuntes y reflexiones en el bloque lateral que encontrarás al final de cada capítulo para verlos reunidos aquí.
+                    {t.emptyDesc}
                   </p>
                 </div>
               ) : (
@@ -257,10 +260,10 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                             className="text-left group/btn cursor-pointer"
                           >
                             <span className={`text-[10px] font-mono uppercase tracking-wider ${sc.icon}`}>
-                              Capítulo {chap.chapterNumber !== "0" ? chap.chapterNumber : "Intro"}
+                              {t.chapterLabel} {chap.chapterNumber !== "0" ? chap.chapterNumber : t.introLabel}
                             </span>
                             <h4 className="font-display font-semibold text-sm hover:opacity-85 transition-opacity flex items-center gap-1">
-                              {chap.title}
+                              {getTitle(chap)}
                               <BookOpen className="w-3.5 h-3.5 opacity-0 group-hover/btn:opacity-100 transition-opacity" />
                             </h4>
                           </button>
@@ -269,7 +272,7 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                             <button
                               onClick={() => copyToClipboard(content, id)}
                               className={`p-1.5 rounded-lg border cursor-pointer ${sc.button}`}
-                              title="Copiar"
+                              title={t.copyTooltip}
                             >
                               {copiedId === id ? (
                                 <Check className="w-3.5 h-3.5 text-emerald-500" />
@@ -280,7 +283,7 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                             <button
                               onClick={() => deleteReflection(id)}
                               className={`p-1.5 rounded-lg border cursor-pointer ${sc.button} hover:text-red-500`}
-                              title="Borrar"
+                              title={t.deleteTooltip}
                             >
                               <Trash2 className="w-3.5 h-3.5" />
                             </button>
@@ -306,14 +309,14 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
                   className={`flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl text-xs font-semibold cursor-pointer ${sc.button}`}
                 >
                   <Clipboard className="w-4 h-4" />
-                  Copiar Todo
+                  {t.copyAll}
                 </button>
                 <button
                   onClick={exportAsTxt}
                   className={`flex items-center justify-center gap-1.5 py-2.5 px-4 rounded-xl text-xs font-semibold cursor-pointer ${sc.button}`}
                 >
                   <Download className="w-4 h-4" />
-                  Descargar TXT
+                  {t.downloadTxt}
                 </button>
               </div>
             )}

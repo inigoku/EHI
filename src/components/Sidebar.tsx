@@ -3,6 +3,8 @@ import { Chapter } from "../chapters";
 import { Search, Book, PenTool, CheckCircle, Flame, Star, Menu, X, ArrowUpRight } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { ReadingTheme } from "./ReadingSettings";
+import { Language, uiStrings } from "../i18n";
+import { LanguageToggle } from "./LanguageToggle";
 // @ts-ignore
 import portadaImg from "../assets/images/portada.png";
 
@@ -17,6 +19,8 @@ interface SidebarProps {
   theme: ReadingTheme;
   mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion";
   onModeChange: (mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
+  language: Language;
+  setLanguage: (language: Language) => void;
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({
@@ -30,7 +34,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
   theme,
   mode,
   onModeChange,
+  language,
+  setLanguage,
 }) => {
+  const t = uiStrings[language];
+  const getTitle = (c: Chapter) => (language === "en" && c.titleEn ? c.titleEn : c.title);
+  const getSection = (c: Chapter) => (language === "en" && c.sectionEn ? c.sectionEn : c.section);
   const [searchQuery, setSearchQuery] = React.useState<string>("");
   const [completedChapters, setCompletedChapters] = React.useState<string[]>([]);
 
@@ -56,12 +65,16 @@ export const Sidebar: React.FC<SidebarProps> = ({
     };
   }, []);
 
-  const filteredChapters = chapters.filter(
-    (c) =>
-      c.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      c.subtitle?.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      c.content.toLowerCase().includes(searchQuery.toLowerCase())
-  );
+  const filteredChapters = chapters.filter((c) => {
+    const q = searchQuery.toLowerCase();
+    return (
+      c.title.toLowerCase().includes(q) ||
+      c.titleEn?.toLowerCase().includes(q) ||
+      c.subtitle?.toLowerCase().includes(q) ||
+      c.content.toLowerCase().includes(q) ||
+      c.contentEn?.toLowerCase().includes(q)
+    );
+  });
 
   const getProgressPercentage = () => {
     if (chapters.length === 0) return 0;
@@ -72,10 +85,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
   const groupedChapters = React.useMemo(() => {
     // 1. Map every chapter ID to its resolved section name using the full, unfiltered list
     const chapterSectionMap: { [id: string]: string } = {};
-    let currentSection = "INTRODUCCIÓN";
+    let currentSection = t.sidebar.introSection;
     chapters.forEach((c) => {
-      if (c.section) {
-        currentSection = c.section;
+      if (getSection(c)) {
+        currentSection = getSection(c)!;
       }
       chapterSectionMap[c.id] = currentSection;
     });
@@ -83,14 +96,14 @@ export const Sidebar: React.FC<SidebarProps> = ({
     // 2. Group the filtered chapters using the pre-resolved sections
     const groups: { [key: string]: Chapter[] } = {};
     filteredChapters.forEach((c) => {
-      const sec = chapterSectionMap[c.id] || "INTRODUCCIÓN";
+      const sec = chapterSectionMap[c.id] || t.sidebar.introSection;
       if (!groups[sec]) {
         groups[sec] = [];
       }
       groups[sec].push(c);
     });
     return groups;
-  }, [chapters, filteredChapters]);
+  }, [chapters, filteredChapters, language]);
 
   const handleSelectChapter = (id: string) => {
     onChapterSelect(id);
@@ -167,15 +180,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
         >
           <Book className={`w-5 h-5 ${sc.icon} group-hover:scale-110 transition-transform`} />
           <span className={`font-display font-bold text-sm tracking-wide ${sc.text} uppercase group-hover:text-amber-500 transition-colors`}>
-            El Horizonte Interior
+            {t.header.bookTitle}
           </span>
         </button>
-        <button
-          onClick={() => setIsOpen(!isOpen)}
-          className={`p-2 rounded-xl ${sc.button} border transition-colors cursor-pointer`}
-        >
-          {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-        </button>
+        <div className="flex items-center gap-2">
+          <LanguageToggle language={language} setLanguage={setLanguage} variant={theme === "cosmic" ? "dark" : "light"} />
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className={`p-2 rounded-xl ${sc.button} border transition-colors cursor-pointer`}
+          >
+            {isOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+          </button>
+        </div>
       </div>
 
       {/* Main Sidebar Element */}
@@ -197,11 +213,11 @@ export const Sidebar: React.FC<SidebarProps> = ({
               <div className="flex items-center gap-1.5">
                 <Book className={`w-3.5 h-3.5 ${sc.icon} group-hover:text-amber-500 transition-colors`} />
                 <h1 className={`font-display font-bold text-sm tracking-wide ${sc.text} uppercase group-hover:text-amber-500 transition-colors`}>
-                  El Horizonte Interior
+                  {t.header.bookTitle}
                 </h1>
               </div>
               <p className={`text-[9px] font-mono ${sc.textMuted} uppercase tracking-widest mt-0.5`}>
-                Por Íñigo Barrera Barceló
+                {t.sidebar.byAuthor}
               </p>
             </div>
           </button>
@@ -211,7 +227,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <div className={`p-5 border-b ${sc.border} space-y-3`}>
           <div className="flex items-center justify-between">
             <span className={`text-[10px] font-mono uppercase tracking-wider ${sc.textMuted}`}>
-              Progreso de Lectura
+              {t.sidebar.readingProgress}
             </span>
             <span className={`text-xs font-mono font-bold ${sc.text}`}>{getProgressPercentage()}%</span>
           </div>
@@ -223,10 +239,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
             />
           </div>
           <div className={`flex items-center justify-between text-[10px] ${sc.textMuted} font-sans`}>
-            <span>{completedChapters.length} de {chapters.length} cap. explorados</span>
+            <span>{t.sidebar.chaptersExplored(completedChapters.length, chapters.length)}</span>
             <div className={`flex items-center gap-0.5 ${theme === "cosmic" ? "text-amber-500" : ""}`}>
               <Flame className="w-3 h-3" />
-              <span className="font-semibold">Lector Activo</span>
+              <span className="font-semibold">{t.sidebar.activeReader}</span>
             </div>
           </div>
         </div>
@@ -234,7 +250,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
         {/* Mode Switcher */}
         <div className={`px-5 py-3 border-b ${sc.border} flex items-center justify-between`}>
           <span className={`text-[10px] font-mono uppercase tracking-wider ${sc.textMuted}`}>
-            Modo de Lectura
+            {t.sidebar.readingMode}
           </span>
           <div className="flex bg-slate-950/40 p-0.5 rounded-lg border border-amber-500/10 flex-wrap gap-0.5 max-w-[210px] justify-center">
             <button
@@ -245,7 +261,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   : `${sc.textMuted} hover:${sc.text}`
               }`}
             >
-              Inicio
+              {t.nav.home}
             </button>
             <button
               onClick={() => onModeChange("essay")}
@@ -255,7 +271,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   : `${sc.textMuted} hover:${sc.text}`
               }`}
             >
-              Ensayo
+              {t.nav.essay}
             </button>
             <button
               onClick={() => onModeChange("cuentos")}
@@ -265,7 +281,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   : `${sc.textMuted} hover:${sc.text}`
               }`}
             >
-              Cuentos
+              {t.nav.cuentos}
             </button>
             <button
               onClick={() => onModeChange("poemas")}
@@ -275,7 +291,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   : `${sc.textMuted} hover:${sc.text}`
               }`}
             >
-              Poemas
+              {t.nav.poemas}
             </button>
             <button
               onClick={() => onModeChange("reconstruccion")}
@@ -285,7 +301,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   : `${sc.textMuted} hover:${sc.text}`
               }`}
             >
-              Reconstrucción
+              {t.nav.reconstruccion}
             </button>
           </div>
         </div>
@@ -296,7 +312,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             onClick={openGlossary}
             className={`flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl border ${sc.button} active:scale-95 transition-all text-xs font-semibold cursor-pointer`}
           >
-            Glosario
+            {t.sidebar.glossary}
             <ArrowUpRight className="w-3.5 h-3.5" />
           </button>
           <button
@@ -304,7 +320,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             className={`flex items-center justify-center gap-1.5 py-2 px-3 rounded-xl border ${sc.button} active:scale-95 transition-all text-xs font-semibold cursor-pointer`}
           >
             <PenTool className="w-3.5 h-3.5" />
-            Reflexiones
+            {t.sidebar.reflections}
           </button>
         </div>
 
@@ -314,7 +330,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             <Search className={`absolute left-3 top-2.5 w-4 h-4 ${sc.textMuted}`} />
             <input
               type="text"
-              placeholder="Buscar por palabra..."
+              placeholder={t.sidebar.searchPlaceholder}
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className={`w-full border rounded-xl py-1.5 pl-9 pr-3 text-xs ${sc.input} font-sans transition-colors outline-none`}
@@ -355,7 +371,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       <div className="flex-1 min-w-0">
                         <div className="font-display font-medium text-xs leading-normal">
                           {item.chapterNumber && item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && `${item.chapterNumber}. `}
-                          {item.title}
+                          {getTitle(item)}
                         </div>
                         {isActive && (
                           <div className={`h-px w-8 ${sc.lineActive} mt-1.5`} />
@@ -375,7 +391,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
           {filteredChapters.length === 0 && (
             <div className={`text-center py-8 ${sc.textMuted} font-sans text-xs`}>
-              No se encontraron capítulos.
+              {t.sidebar.noChaptersFound}
             </div>
           )}
         </nav>

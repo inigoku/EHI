@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "motion/react";
 import { BookOpen, Feather, Book, Layers, ArrowRight } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
+import { Language, uiStrings } from "../i18n";
 
 // @ts-ignore
 import essayLandingImg from "../assets/images/landing/essay_landing.jpg";
@@ -17,6 +18,7 @@ type ReadingMode = "essay" | "cuentos" | "poemas" | "reconstruccion";
 interface PathLandingProps {
   mode: ReadingMode;
   theme: ReadingTheme;
+  language: Language;
   onClose: () => void;
 }
 
@@ -32,49 +34,51 @@ interface PathContent {
 export const PathLanding: React.FC<PathLandingProps> = ({
   mode,
   theme,
+  language,
   onClose,
 }) => {
+  const t = uiStrings[language].pathLanding;
   const content = React.useMemo<PathContent>(() => {
     switch (mode) {
       case "essay":
         return {
-          title: "Ensayo Interactivo",
-          subtitle: "La Geometría de la Conciencia y la Física del Alma",
-          description: "La columna vertebral del experimento. 26 capítulos donde se explora de forma rigurosa pero accesible la hipótesis holográfica de la mente, conectando la termodinámica de agujeros negros, el vacío cuántico y la Teoría de Información Integrada con las intuiciones de la sabiduría taoísta antigua.",
+          title: t.essayTitle,
+          subtitle: t.essaySubtitle,
+          description: t.essayDescription,
           image: essayLandingImg,
           icon: <BookOpen className="w-5 h-5" />,
-          btnText: "Iniciar Ensayo",
+          btnText: t.essayBtn,
         };
       case "cuentos":
         return {
-          title: "Cuentos de Tarel",
-          subtitle: "Fábulas de la Frontera",
-          description: "16 relatos alegóricos y poéticos que encarnan los conceptos matemáticos en historias vivas. Sigue las andanzas de Tarel en su ciudad suspendida sobre el agua en el silencio, y descubre laberintos donde el deseo es un interruptor que dobla la geometría del espacio.",
+          title: t.cuentosTitle,
+          subtitle: t.cuentosSubtitle,
+          description: t.cuentosDescription,
           image: storiesLandingImg,
           icon: <Feather className="w-5 h-5" />,
-          btnText: "Leer Relatos",
+          btnText: t.cuentosBtn,
         };
       case "poemas":
         return {
-          title: "Antología Poética: Ecos en el Borde",
-          subtitle: "Lírica del Límite Emocional",
-          description: "Versos libres y glosarios líricos que traducen al lenguaje del sentimiento las implicaciones físicas de la frontera: el dolor de la asimetría, el duelo concebido como una arquitectura con un hueco y el amor como el entrelazamiento geométrico de dos mundos.",
+          title: t.poemasTitle,
+          subtitle: t.poemasSubtitle,
+          description: t.poemasDescription,
           image: poemsLandingImg,
           icon: <Book className="w-5 h-5" />,
-          btnText: "Explorar Poemas",
+          btnText: t.poemasBtn,
         };
       case "reconstruccion":
       default:
         return {
-          title: "Planos de la Reconstrucción",
-          subtitle: "Síntesis Tridimensional de la Conciencia",
-          description: "6 planos integrales de síntesis. Un modo poliédrico e interactivo donde la narrativa, el ensayo teórico y la lírica poética se muestran en paralelo en pestañas, permitiendo al lector reconstruir los fragmentos del horizonte tras su evaporación.",
+          title: t.reconTitle,
+          subtitle: t.reconSubtitle,
+          description: t.reconDescription,
           image: reconstructLandingImg,
           icon: <Layers className="w-5 h-5" />,
-          btnText: "Ver Planos",
+          btnText: t.reconBtn,
         };
     }
-  }, [mode]);
+  }, [mode, t]);
 
   // Theme-based styling configurations
   const sc = React.useMemo(() => {
@@ -138,7 +142,7 @@ export const PathLanding: React.FC<PathLandingProps> = ({
               {content.icon}
             </span>
             <span className={`text-xs font-mono uppercase tracking-[0.2em] font-bold ${sc.accentText}`}>
-              Línea de Exploración
+              {t.explorationLine}
             </span>
           </div>
 

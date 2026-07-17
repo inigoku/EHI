@@ -1,5 +1,6 @@
 import React from "react";
 import { Settings, ZoomIn, ZoomOut, Eye, Sun, Moon, Coffee } from "lucide-react";
+import { Language, uiStrings } from "../i18n";
 
 export type ReadingTheme = "cosmic" | "paper" | "sepia";
 export type FontSize = "sm" | "base" | "lg" | "xl" | "2xl";
@@ -11,6 +12,7 @@ interface ReadingSettingsProps {
   setFontSize: (size: FontSize) => void;
   focusMode: boolean;
   setFocusMode: (mode: boolean) => void;
+  language: Language;
 }
 
 export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
@@ -20,14 +22,9 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
   setFontSize,
   focusMode,
   setFocusMode,
+  language,
 }) => {
-  const fontSizes: { value: FontSize; label: string } = [
-    { value: "sm", label: "Pequeño" },
-    { value: "base", label: "Normal" },
-    { value: "lg", label: "Grande" },
-    { value: "xl", label: "Muy Grande" },
-    { value: "2xl", label: "Extra Grande" },
-  ] as any;
+  const t = uiStrings[language];
 
   const increaseFontSize = () => {
     const sizes: FontSize[] = ["sm", "base", "lg", "xl", "2xl"];
@@ -89,13 +86,13 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
       <div className={`flex items-center gap-2 border-b ${rs.border} pb-2 mb-2`}>
         <Settings className={`w-4 h-4 ${rs.icon}`} />
         <span className={`font-display text-xs font-semibold uppercase tracking-wider ${rs.text}`}>
-          Ajustes de Lectura
+          {t.settings.title}
         </span>
       </div>
 
       {/* Themes */}
       <div className="space-y-1.5">
-        <span className={`text-[10px] font-mono uppercase ${rs.textMuted}`}>Esquema de Color</span>
+        <span className={`text-[10px] font-mono uppercase ${rs.textMuted}`}>{t.settings.colorScheme}</span>
         <div className="grid grid-cols-3 gap-1.5 font-sans">
           <button
             onClick={() => setTheme("cosmic")}
@@ -104,7 +101,7 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
             }`}
           >
             <Moon className="w-3.5 h-3.5" />
-            Cosmos
+            {t.settings.cosmos}
           </button>
           <button
             onClick={() => setTheme("paper")}
@@ -113,7 +110,7 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
             }`}
           >
             <Sun className="w-3.5 h-3.5" />
-            Papel
+            {t.settings.paper}
           </button>
           <button
             onClick={() => setTheme("sepia")}
@@ -122,14 +119,14 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
             }`}
           >
             <Coffee className="w-3.5 h-3.5" />
-            Ámbar
+            {t.settings.amber}
           </button>
         </div>
       </div>
 
       {/* Font sizes */}
       <div className="space-y-1.5">
-        <span className={`text-[10px] font-mono uppercase ${rs.textMuted}`}>Tamaño del Texto</span>
+        <span className={`text-[10px] font-mono uppercase ${rs.textMuted}`}>{t.settings.textSize}</span>
         <div className="flex items-center justify-between gap-2 font-sans">
           <button
             onClick={decreaseFontSize}
@@ -139,11 +136,11 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
             <ZoomOut className="w-4 h-4" />
           </button>
           <span className={`text-xs ${rs.text} font-medium`}>
-            {fontSize === "sm" && "Pequeño"}
-            {fontSize === "base" && "Normal"}
-            {fontSize === "lg" && "Grande"}
-            {fontSize === "xl" && "Muy Grande"}
-            {fontSize === "2xl" && "Extra Grande"}
+            {fontSize === "sm" && t.settings.small}
+            {fontSize === "base" && t.settings.normal}
+            {fontSize === "lg" && t.settings.large}
+            {fontSize === "xl" && t.settings.veryLarge}
+            {fontSize === "2xl" && t.settings.extraLarge}
           </span>
           <button
             onClick={increaseFontSize}
@@ -158,8 +155,8 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
       {/* Focus mode */}
       <div className={`flex items-center justify-between pt-2 border-t ${rs.border} font-sans`}>
         <div className="flex flex-col">
-          <span className={`text-xs font-medium ${rs.text}`}>Modo Enfoque</span>
-          <span className={`text-[10px] ${rs.textMuted}`}>Ocultar distracciones</span>
+          <span className={`text-xs font-medium ${rs.text}`}>{t.settings.focusMode}</span>
+          <span className={`text-[10px] ${rs.textMuted}`}>{t.settings.hideDistractions}</span>
         </div>
         <button
           onClick={() => setFocusMode(!focusMode)}

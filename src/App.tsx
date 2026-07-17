@@ -9,8 +9,18 @@ import { PathLanding } from "./components/PathLanding";
 import { ReadingSettings, ReadingTheme, FontSize } from "./components/ReadingSettings";
 import { motion, AnimatePresence } from "motion/react";
 import { Book, Compass, EyeOff, Layout } from "lucide-react";
+import { Language, uiStrings, getInitialLanguage, persistLanguage } from "./i18n";
+import { LanguageToggle } from "./components/LanguageToggle";
 
 export default function App() {
+  // Language state: defaults to browser language, remembers manual choice
+  const [language, setLanguage] = React.useState<Language>(() => getInitialLanguage());
+  const t = uiStrings[language];
+
+  React.useEffect(() => {
+    persistLanguage(language);
+  }, [language]);
+
   // State for reading mode: home, essay, cuentos, poemas or reconstruccion
   const [readingMode, setReadingMode] = React.useState<"home" | "essay" | "cuentos" | "poemas" | "reconstruccion">(() => {
     return (localStorage.getItem("reading_mode") as "home" | "essay" | "cuentos" | "poemas" | "reconstruccion") || "home";
@@ -212,6 +222,8 @@ export default function App() {
     return (
       <LandingPage
         theme={theme}
+        language={language}
+        setLanguage={setLanguage}
         onStartReading={(mode, chapterId) => {
           setReadingMode(mode);
           setActivePathLanding(mode); // Activar siempre al ir desde la pantalla principal
@@ -248,51 +260,53 @@ export default function App() {
           >
             <div className="flex flex-col">
               <span className={`text-[10px] uppercase tracking-[0.2em] font-sans font-bold ${themeColors.textMuted}`}>
-                {readingMode === "essay" ? "Ensayo Interactivo" : readingMode === "cuentos" ? "Antología de Cuentos" : readingMode === "poemas" ? "Antología Poética" : "Reconstrucción"}
+                {readingMode === "essay" ? t.header.sectionEssay : readingMode === "cuentos" ? t.header.sectionCuentos : readingMode === "poemas" ? t.header.sectionPoemas : t.header.sectionReconstruccion}
               </span>
               <span className="text-xl italic font-display leading-tight">
-                El Horizonte Interior
+                {t.header.bookTitle}
               </span>
             </div>
 
             <div className={`flex items-center gap-6 font-sans text-xs uppercase tracking-widest ${themeColors.textMuted}`}>
-              <span>Autor: <strong className={`font-semibold ${themeColors.text}`}>Í. Barrera Barceló</strong></span>
+              <span>{t.header.author}: <strong className={`font-semibold ${themeColors.text}`}>Í. Barrera Barceló</strong></span>
               <span className="opacity-30">|</span>
               <span>
                 {readingMode === "essay" ? (
                   activeChapter.chapterNumber ? (
                     !isNaN(Number(activeChapter.chapterNumber)) ? (
-                      <>Parte: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 26</strong></>
+                      <>{t.header.part}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} 26</strong></>
                     ) : (
                       <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
                     )
                   ) : (
-                    <><strong className={`font-semibold ${themeColors.text}`}>Interludio</strong></>
+                    <><strong className={`font-semibold ${themeColors.text}`}>{t.header.interludio}</strong></>
                   )
                 ) : readingMode === "cuentos" ? (
                   activeChapter.chapterNumber ? (
                     !isNaN(Number(activeChapter.chapterNumber)) ? (
-                      <>Relato: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} de 18</strong></>
+                      <>{t.header.story}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} 18</strong></>
                     ) : (
                       <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
                     )
                   ) : (
-                    <>Relato: <strong className={`font-semibold ${themeColors.text}`}>Prólogo</strong></>
+                    <>{t.header.story}: <strong className={`font-semibold ${themeColors.text}`}>{t.header.prologue}</strong></>
                   )
                 ) : readingMode === "poemas" ? (
-                  <>Poema: <strong className={`font-semibold ${themeColors.text}`}>{
+                  <>{t.header.poem}: <strong className={`font-semibold ${themeColors.text}`}>{
                     activeChapterId === "poema_glosario"
-                      ? "Glosario"
+                      ? t.header.glossary
                       : activeChapterId.startsWith("poema_arq")
-                      ? `Enlace ${activeChapterId.replace("poema_arq", "")} de 8`
-                      : `Reconstrucción ${activeChapterId.replace("poema_recon", "")} de 6`
+                      ? `${t.header.link} ${activeChapterId.replace("poema_arq", "")} ${t.header.of} 8`
+                      : `${t.header.sectionReconstruccion} ${activeChapterId.replace("poema_recon", "")} ${t.header.of} 6`
                   }</strong></>
                 ) : (
                   activeChapter.chapterNumber && (
-                    <>Reconstrucción: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber.replace("R", "")} de 6</strong></>
+                    <>{t.header.sectionReconstruccion}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber.replace("R", "")} {t.header.of} 6</strong></>
                   )
                 )}
               </span>
+              <span className="opacity-30">|</span>
+              <LanguageToggle language={language} setLanguage={setLanguage} variant={theme === "cosmic" ? "dark" : "light"} />
             </div>
           </motion.header>
         )}
@@ -318,6 +332,8 @@ export default function App() {
           theme={theme}
           mode={readingMode}
           onModeChange={handleModeChange}
+          language={language}
+          setLanguage={setLanguage}
         />
 
         {/* Content reader frame */}
@@ -334,7 +350,7 @@ export default function App() {
                 className="flex items-center gap-2 py-2.5 px-4 rounded-xl bg-amber-500 text-slate-950 text-xs font-bold shadow-lg shadow-amber-500/20 active:scale-95 transition-all cursor-pointer"
               >
                 <Layout className="w-4 h-4" />
-                Mostrar Menú
+                {t.header.showMenu}
               </button>
             </motion.div>
           )}
@@ -344,6 +360,7 @@ export default function App() {
             <PathLanding
               mode={activePathLanding}
               theme={theme}
+              language={language}
               onClose={() => setActivePathLanding(null)}
             />
           ) : (
@@ -358,6 +375,7 @@ export default function App() {
               fontSize={fontSize}
               readingMode={readingMode}
               onSwitchMode={handleSwitchMode}
+              language={language}
             />
           )}
 
@@ -377,6 +395,7 @@ export default function App() {
                   setFontSize={setFontSize}
                   focusMode={focusMode}
                   setFocusMode={setFocusMode}
+                  language={language}
                 />
               </motion.div>
             )}
@@ -390,6 +409,7 @@ export default function App() {
         onClose={() => setIsGlossaryOpen(false)}
         selectedTermName={selectedGlossaryTerm}
         theme={theme}
+        language={language}
       />
 
       <JournalViewer
@@ -398,6 +418,7 @@ export default function App() {
         chapters={currentChaptersList}
         onChapterSelect={setActiveChapterId}
         theme={theme}
+        language={language}
       />
     </div>
   );

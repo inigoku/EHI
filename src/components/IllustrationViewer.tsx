@@ -196,6 +196,7 @@ import poemaFrialdad6 from "../assets/images/poemas/clean_frialdad_montse.jpg";
 interface IllustrationViewerProps {
   illustration?: Illustration;
   variant?: "default" | "background";
+  language?: "es" | "en";
 }
 
 const imageMap: Record<string, string> = {
@@ -299,8 +300,11 @@ const imageMap: Record<string, string> = {
   poema_frialdad6: poemaFrialdad6,
 };
 
-export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration, variant = "default" }) => {
+export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration, variant = "default", language = "es" }) => {
   if (!illustration) return null;
+
+  const zoomHint = language === "en" ? "Double click to enlarge" : "Doble clic para ampliar";
+  const closeLabel = language === "en" ? "Close enlarged view" : "Cerrar ampliación";
 
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
   const imgSrc = imageMap[illustration.id];
@@ -346,7 +350,7 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
       <div 
         onDoubleClick={() => setIsOpen(true)}
         className={`w-full ${isOriginalFormat ? "" : "aspect-square"} bg-slate-950/40 border border-amber-500/10 rounded-2xl p-4 flex items-center justify-center relative shadow-lg shadow-amber-500/2 overflow-hidden group cursor-zoom-in select-none`}
-        title="Doble clic para ampliar"
+        title={zoomHint}
       >
         {/* Absolute corner designs */}
         <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-amber-500/30" />
@@ -366,7 +370,7 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
 
         {/* Hover zoom badge */}
         <div className="absolute bottom-3 right-3 bg-slate-950/80 border border-amber-500/20 text-amber-500/70 p-1.5 px-2.5 rounded-lg opacity-0 group-hover:opacity-100 transition-all duration-300 pointer-events-none text-[10px] font-sans font-medium tracking-wide">
-          Doble clic para ampliar
+          {zoomHint}
         </div>
       </div>
       {isOriginalFormat && illustration.description && (
@@ -392,7 +396,7 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
                 setIsOpen(false);
               }}
               className="absolute top-6 right-6 p-2.5 rounded-full bg-slate-900 border border-amber-500/20 text-gray-400 hover:text-amber-500 transition-colors cursor-pointer hover:border-amber-500/40 shadow-lg"
-              aria-label="Cerrar ampliación"
+              aria-label={closeLabel}
             >
               <X className="w-6 h-6" />
             </button>

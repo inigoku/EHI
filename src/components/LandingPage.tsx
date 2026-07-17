@@ -2,26 +2,26 @@ import React from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { BookOpen, Compass, Heart, Layers, ArrowDown, ArrowRight, Book, Feather, Volume2, VolumeX, Waves, Network } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
+import { Language, uiStrings } from "../i18n";
+import { LanguageToggle } from "./LanguageToggle";
 
 interface LandingPageProps {
   theme: ReadingTheme;
+  language: Language;
+  setLanguage: (language: Language) => void;
   onStartReading: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion", chapterId?: string) => void;
   openGlossary: () => void;
 }
 
-const INTRO_PHRASES = [
-  "¿Y si tu conciencia tuviera la misma geometría que un agujero negro?",
-  "Una frontera viva que separa el adentro del afuera.",
-  "No guardamos recuerdos en cajones. Los proyectamos en la piel de nuestro horizonte.",
-  "Un viaje entre la física cuántica, la filosofía de la mente y la experiencia humana.",
-  "Cruza el límite del Horizonte Interior."
-];
-
 export const LandingPage: React.FC<LandingPageProps> = ({
   theme,
+  language,
+  setLanguage,
   onStartReading,
   openGlossary,
 }) => {
+  const t = uiStrings[language];
+  const INTRO_PHRASES = t.landing.introPhrases;
   const [phraseIndex, setPhraseIndex] = React.useState(0);
   const infoSectionRef = React.useRef<HTMLDivElement>(null);
   const videoRef = React.useRef<HTMLVideoElement>(null);
@@ -176,10 +176,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         <header className="relative w-full max-w-7xl mx-auto px-6 py-8 flex justify-between items-center z-20">
           <div className="flex flex-col">
             <span className="text-[10px] text-amber-400 font-bold uppercase tracking-[0.3em] font-sans">
-              Hipótesis Holográfica
+              {t.landing.hypothesisLabel}
             </span>
             <span className="text-xl font-display italic text-white leading-none mt-1">
-              El Horizonte Interior
+              {t.header.bookTitle}
             </span>
           </div>
           <div className="flex items-center gap-6 font-sans text-xs tracking-wider text-slate-300">
@@ -187,37 +187,38 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               onClick={() => onStartReading("essay")}
               className="hover:text-amber-400 transition-colors hidden sm:inline cursor-pointer"
             >
-              Ensayo
+              {t.nav.essay}
             </button>
             <button
               onClick={() => onStartReading("cuentos")}
               className="hover:text-amber-400 transition-colors hidden sm:inline cursor-pointer"
             >
-              Cuentos
+              {t.nav.cuentos}
             </button>
             <button
               onClick={() => onStartReading("poemas")}
               className="hover:text-amber-400 transition-colors hidden sm:inline cursor-pointer"
             >
-              Poemas
+              {t.nav.poemas}
             </button>
             <button
               onClick={() => onStartReading("reconstruccion")}
               className="hover:text-amber-400 transition-colors hidden sm:inline cursor-pointer"
             >
-              Reconstrucción
+              {t.nav.reconstruccion}
             </button>
             <button
               onClick={openGlossary}
               className="hover:text-amber-400 transition-colors hidden sm:inline cursor-pointer"
             >
-              Glosario
+              {t.sidebar.glossary}
             </button>
+            <LanguageToggle language={language} setLanguage={setLanguage} variant="dark" />
             <button
               onClick={() => onStartReading("essay")}
               className="bg-white/10 hover:bg-white/20 text-white font-bold py-2 px-4 rounded-xl border border-white/10 backdrop-blur-md transition-all active:scale-95 cursor-pointer"
             >
-              Comenzar
+              {t.landing.start}
             </button>
           </div>
         </header>
@@ -246,15 +247,15 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             onClick={() => onStartReading("essay")}
             className="flex items-center gap-2 px-8 py-4 rounded-xl bg-amber-500 text-slate-950 font-sans font-bold hover:bg-amber-400 active:scale-95 transition-all shadow-xl shadow-amber-500/10 cursor-pointer"
           >
-            Comenzar Lectura
+            {t.landing.startReading}
             <ArrowRight className="w-4 h-4" />
           </button>
-          
+
           <button
             onClick={scrollToInfo}
             className="text-slate-400 hover:text-white flex flex-col items-center text-xs tracking-widest font-sans transition-colors cursor-pointer mt-4"
           >
-            <span>DESCUBRIR MÁS</span>
+            <span>{t.landing.discoverMore}</span>
             <motion.div
               animate={{ y: [0, 6, 0] }}
               transition={{ repeat: Infinity, duration: 1.5 }}
@@ -270,13 +271,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       <section ref={infoSectionRef} className="py-24 px-6 sm:px-12 max-w-5xl mx-auto relative z-20">
         <div className="text-center max-w-3xl mx-auto space-y-6">
           <span className={`text-xs font-mono uppercase tracking-[0.2em] ${tc.accentText} bg-amber-500/10 px-3 py-1 rounded-full font-bold`}>
-            El Horizonte de Sucesos de la Mente
+            {t.landing.sectionLabel}
           </span>
           <h2 className="text-3xl md:text-5xl font-display italic mt-2">
-            Un puente entre la geometría y el alma
+            {t.landing.bridgeTitle}
           </h2>
           <p className={`text-base md:text-lg leading-relaxed ${tc.textMuted} font-serif`}>
-            <em>El Horizonte Interior</em> es una exploración sobre la conciencia que desafía las fronteras tradicionales entre la ciencia y la experiencia vital. A través del prisma de la física teórica y el principio holográfico, esta obra plantea una hipótesis atrevida: que la mente no está guardada dentro del cerebro, sino escrita en su periferia geométrica.
+            <em>{t.header.bookTitle}</em> {t.landing.synopsis}
           </p>
         </div>
 
@@ -287,9 +288,9 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${tc.accentBg} ${tc.accentText}`}>
               <Compass className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-display font-semibold">1. La Burbuja</h3>
+            <h3 className="text-xl font-display font-semibold">{t.landing.card1Title}</h3>
             <p className={`text-sm leading-relaxed ${tc.textMuted} font-sans`}>
-              La conciencia funciona como un horizonte. No es una barrera física, sino una frontera geométrica viva que define y organiza un interior en contraposición a un exterior.
+              {t.landing.card1Desc}
             </p>
           </div>
 
@@ -298,9 +299,9 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${tc.accentBg} ${tc.accentText}`}>
               <Waves className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-display font-semibold">2. El Océano</h3>
+            <h3 className="text-xl font-display font-semibold">{t.landing.card2Title}</h3>
             <p className={`text-sm leading-relaxed ${tc.textMuted} font-sans`}>
-              El "vacío" no está vacío. Es un reservorio de posibilidad del que emergen las conciencias individuales y las formas, similar a cómo las olas emergen de la superficie del agua.
+              {t.landing.card2Desc}
             </p>
           </div>
 
@@ -309,9 +310,9 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <div className={`w-12 h-12 rounded-xl flex items-center justify-center ${tc.accentBg} ${tc.accentText}`}>
               <Network className="w-6 h-6" />
             </div>
-            <h3 className="text-xl font-display font-semibold">3. La Red</h3>
+            <h3 className="text-xl font-display font-semibold">{t.landing.card3Title}</h3>
             <p className={`text-sm leading-relaxed ${tc.textMuted} font-sans`}>
-              La conciencia no radica en elementos aislados, sino en la forma en que se conectan. Representa la información integrada (Phi) que hace al sistema más que la suma de sus partes.
+              {t.landing.card3Desc}
             </p>
           </div>
         </div>
@@ -322,15 +323,15 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center max-w-2xl mx-auto mb-16 space-y-3">
             <h2 className="text-3xl md:text-4xl font-display italic">
-              Cuatro Senderos de Exploración
+              {t.landing.pathsTitle}
             </h2>
             <p className={`text-sm ${tc.textMuted} font-sans`}>
-              La obra está diseñada como una estructura poliédrica. Elige la puerta que resuene con tu curiosidad.
+              {t.landing.pathsSubtitle}
             </p>
           </div>
 
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            
+
             {/* Path 1: Ensayo */}
             <div
               onClick={() => onStartReading("essay")}
@@ -341,14 +342,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                   <BookOpen className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-display font-bold">Ensayo Interactivo</h4>
+                  <h4 className="text-lg font-display font-bold">{t.landing.pathEssayTitle}</h4>
                   <p className={`text-xs ${tc.textMuted} font-sans mt-2 leading-relaxed`}>
-                    La columna vertebral teórica. 26 capítulos donde la física moderna dialoga directamente con la metafísica y la experiencia consciente.
+                    {t.landing.pathEssayDesc}
                   </p>
                 </div>
               </div>
               <div className={`flex items-center gap-1.5 text-xs font-mono font-bold ${tc.accentText} mt-4`}>
-                <span>Comenzar Ensayo</span>
+                <span>{t.landing.pathEssayBtn}</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
               </div>
             </div>
@@ -363,14 +364,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                   <Feather className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-display font-bold">Cuentos de Tarel</h4>
+                  <h4 className="text-lg font-display font-bold">{t.landing.pathCuentosTitle}</h4>
                   <p className={`text-xs ${tc.textMuted} font-sans mt-2 leading-relaxed`}>
-                    16 relatos alegóricos. La física explicada mediante fábulas, desde la ciudad sumergida en el silencio hasta el laberinto del interruptor.
+                    {t.landing.pathCuentosDesc}
                   </p>
                 </div>
               </div>
               <div className={`flex items-center gap-1.5 text-xs font-mono font-bold ${tc.accentText} mt-4`}>
-                <span>Leer Relatos</span>
+                <span>{t.landing.pathCuentosBtn}</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
               </div>
             </div>
@@ -385,14 +386,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                   <Book className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-display font-bold">Antología Poética</h4>
+                  <h4 className="text-lg font-display font-bold">{t.landing.pathPoemasTitle}</h4>
                   <p className={`text-xs ${tc.textMuted} font-sans mt-2 leading-relaxed`}>
-                    Poesía y glosarios líricos. Los ecos emocionales del horizonte traducidos en versos libres y arquitecturas metafóricas.
+                    {t.landing.pathPoemasDesc}
                   </p>
                 </div>
               </div>
               <div className={`flex items-center gap-1.5 text-xs font-mono font-bold ${tc.accentText} mt-4`}>
-                <span>Explorar Poemas</span>
+                <span>{t.landing.pathPoemasBtn}</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
               </div>
             </div>
@@ -407,14 +408,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                   <Layers className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-lg font-display font-bold">La Reconstrucción</h4>
+                  <h4 className="text-lg font-display font-bold">{t.landing.pathReconTitle}</h4>
                   <p className={`text-xs ${tc.textMuted} font-sans mt-2 leading-relaxed`}>
-                    6 planos de síntesis. Un modo integrador donde ensayo, narrativa y poesía se fusionan en pestañas en paralelo.
+                    {t.landing.pathReconDesc}
                   </p>
                 </div>
               </div>
               <div className={`flex items-center gap-1.5 text-xs font-mono font-bold ${tc.accentText} mt-4`}>
-                <span>Ver Planos</span>
+                <span>{t.landing.pathReconBtn}</span>
                 <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
               </div>
             </div>
@@ -427,14 +428,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       <footer className={`py-12 border-t ${tc.border} text-center relative z-20`}>
         <div className="max-w-4xl mx-auto px-6 space-y-4">
           <p className="font-display italic text-lg leading-none">
-            El Horizonte Interior
+            {t.header.bookTitle}
           </p>
           <p className={`text-xs ${tc.textMuted} font-sans`}>
-            Una propuesta filosófico-científica sobre la conciencia humana.
+            {t.landing.footerTagline}
           </p>
           <div className={`h-px w-16 bg-amber-500/30 mx-auto my-4`} />
           <p className={`text-[10px] font-mono ${tc.textMuted} uppercase tracking-widest`}>
-            © {new Date().getFullYear()} Íñigo Barrera Barceló. Todos los derechos reservados.
+            © {new Date().getFullYear()} Íñigo Barrera Barceló. {t.landing.footerRights}
           </p>
         </div>
       </footer>
@@ -443,7 +444,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       <button
         onClick={toggleMute}
         className="fixed bottom-6 right-6 z-50 p-4 rounded-full bg-slate-950/70 border border-white/10 text-white backdrop-blur-md shadow-2xl hover:bg-slate-900/90 active:scale-95 transition-all cursor-pointer flex items-center justify-center hover:border-amber-500/30"
-        title={isMuted ? "Activar música" : "Silenciar música"}
+        title={isMuted ? t.landing.muteOff : t.landing.muteOn}
       >
         {isMuted ? (
           <VolumeX className="w-6 h-6 text-slate-400" />

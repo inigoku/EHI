@@ -15,6 +15,11 @@ export interface Chapter {
   linkedChapterId?: string;
   linkedCuentosId?: string;
   featured?: boolean;
+  // English translations (optional; when absent, the Spanish original is shown with a pending-translation notice)
+  titleEn?: string;
+  subtitleEn?: string;
+  sectionEn?: string;
+  contentEn?: string;
   // Extra fields for Reconstrucción tabbed content
   narrativa?: string;
   ensayo?: string;

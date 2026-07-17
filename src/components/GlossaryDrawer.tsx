@@ -1,12 +1,17 @@
 import React from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { X, BookOpen, Lightbulb, Activity } from "lucide-react";
+import { Language, uiStrings } from "../i18n";
 
 export interface GlossaryTerm {
   term: string;
   physicsName: string;
   metaphor: string;
   description: string;
+  termEn: string;
+  physicsNameEn: string;
+  metaphorEn: string;
+  descriptionEn: string;
 }
 
 export const glossaryTerms: GlossaryTerm[] = [
@@ -14,43 +19,71 @@ export const glossaryTerms: GlossaryTerm[] = [
     term: "Horizonte",
     physicsName: "Horizonte de sucesos",
     metaphor: "La piel de la burbuja",
-    description: "La frontera causal que separa un 'adentro' de un 'afuera'. No es una barrera material física, sino un límite geométrico y de información más allá del cual ningún suceso exterior puede penetrar y nada del interior puede escapar."
+    description: "La frontera causal que separa un 'adentro' de un 'afuera'. No es una barrera material física, sino un límite geométrico y de información más allá del cual ningún suceso exterior puede penetrar y nada del interior puede escapar.",
+    termEn: "Horizon",
+    physicsNameEn: "Event horizon",
+    metaphorEn: "The skin of the bubble",
+    descriptionEn: "The causal boundary separating an 'inside' from an 'outside'. It isn't a physical material barrier, but a geometric and informational limit beyond which no outside event can penetrate and nothing inside can escape."
   },
   {
     term: "Reservorio",
     physicsName: "Vacío cuántico / Campo primordial",
     metaphor: "El océano antes de las olas",
-    description: "El campo continuo de potencialidad pura del que emergen todas las conciencias individuales y al que regresan al disolverse. En física cuántica, el vacío no está vacío, sino lleno de energía y fluctuaciones que dan origen a la materia."
+    description: "El campo continuo de potencialidad pura del que emergen todas las conciencias individuales y al que regresan al disolverse. En física cuántica, el vacío no está vacío, sino lleno de energía y fluctuaciones que dan origen a la materia.",
+    termEn: "Reservoir",
+    physicsNameEn: "Quantum vacuum / Primordial field",
+    metaphorEn: "The ocean before the waves",
+    descriptionEn: "The continuous field of pure potentiality from which every individual consciousness emerges, and to which they return upon dissolving. In quantum physics, the vacuum isn't empty — it's full of energy and fluctuations that give rise to matter."
   },
   {
     term: "Phi (Φ)",
     physicsName: "Información integrada",
     metaphor: "Qué tan 'red' es una red",
-    description: "La medida cuantitativa de la conciencia según la IIT. Representa cuánta información genera un sistema unificado por encima de la simple suma de sus partes. Un cerebro despierto tiene un Phi alto; anestesiado o dispersado tiene un Phi bajo."
+    description: "La medida cuantitativa de la conciencia según la IIT. Representa cuánta información genera un sistema unificado por encima de la simple suma de sus partes. Un cerebro despierto tiene un Phi alto; anestesiado o dispersado tiene un Phi bajo.",
+    termEn: "Phi (Φ)",
+    physicsNameEn: "Integrated information",
+    metaphorEn: "How much of a 'network' a network really is",
+    descriptionEn: "The quantitative measure of consciousness according to IIT. It represents how much information a unified system generates beyond the simple sum of its parts. An awake brain has a high Phi; an anesthetized or scattered one has a low Phi."
   },
   {
     term: "Scrambling",
     physicsName: "Dispersión cuántica de información",
     metaphor: "Echar tinta en agua",
-    description: "El proceso por el cual la información local se esparce e integra tan profundamente en el entorno que se vuelve indetectable de forma individual. La información no desaparece (se conserva físicamente), pero es operativamente inaccesible."
+    description: "El proceso por el cual la información local se esparce e integra tan profundamente en el entorno que se vuelve indetectable de forma individual. La información no desaparece (se conserva físicamente), pero es operativamente inaccesible.",
+    termEn: "Scrambling",
+    physicsNameEn: "Quantum information scrambling",
+    metaphorEn: "Dropping ink into water",
+    descriptionEn: "The process by which local information spreads and integrates so deeply into its surroundings that it becomes individually undetectable. The information doesn't disappear (it's physically conserved), but it becomes operationally inaccessible."
   },
   {
     term: "Entrelazamiento",
     physicsName: "Correlación no-local (EPR / ER)",
     metaphor: "Dos cuerdas de guitarra que vibran juntas",
-    description: "La conexión invisible y geométrica entre dos partes de un sistema que han estado en contacto. Según el postulado ER=EPR, las partículas entrelazadas comparten un túnel microscópico en el espacio-tiempo que une sus interiores."
+    description: "La conexión invisible y geométrica entre dos partes de un sistema que han estado en contacto. Según el postulado ER=EPR, las partículas entrelazadas comparten un túnel microscópico en el espacio-tiempo que une sus interiores.",
+    termEn: "Entanglement",
+    physicsNameEn: "Non-local correlation (EPR / ER)",
+    metaphorEn: "Two guitar strings vibrating together",
+    descriptionEn: "The invisible, geometric connection between two parts of a system that have been in contact. According to the ER=EPR conjecture, entangled particles share a microscopic tunnel through spacetime that joins their interiors."
   },
   {
     term: "Transición de fase",
     physicsName: "Cambio de estado crítico",
     metaphor: "Agua que se convierte en hielo",
-    description: "El momento exacto en que un cambio cuantitativo continuo resulta en un salto cualitativo abrupto. El cerebro cruzando de un feto en desarrollo a una conciencia individual es una transición de fase organizativa."
+    description: "El momento exacto en que un cambio cuantitativo continuo resulta en un salto cualitativo abrupto. El cerebro cruzando de un feto en desarrollo a una conciencia individual es una transición de fase organizativa.",
+    termEn: "Phase transition",
+    physicsNameEn: "Critical state change",
+    metaphorEn: "Water turning into ice",
+    descriptionEn: "The exact moment a continuous quantitative change results in an abrupt qualitative leap. A developing fetus's brain crossing over into individual consciousness is an organizational phase transition."
   },
   {
     term: "Soft hair / huella",
     physicsName: "Deformación permanente del vacío",
     metaphor: "La forma que el viento dejó en el agua",
-    description: "Las marcas permanentes e infinitesimales que un horizonte deja en la geometría del espacio-tiempo o del reservorio tras evaporarse. Asegura que lo que existió deja una firma geométrica eterna en el universo."
+    description: "Las marcas permanentes e infinitesimales que un horizonte deja en la geometría del espacio-tiempo o del reservorio tras evaporarse. Asegura que lo que existió deja una firma geométrica eterna en el universo.",
+    termEn: "Soft hair / imprint",
+    physicsNameEn: "Permanent deformation of the vacuum",
+    metaphorEn: "The shape the wind left on the water",
+    descriptionEn: "The permanent, infinitesimal marks a horizon leaves on the geometry of spacetime, or of the reservoir, after evaporating. It guarantees that whatever existed leaves an eternal geometric signature on the universe."
   }
 ];
 
@@ -59,9 +92,11 @@ interface GlossaryDrawerProps {
   onClose: () => void;
   selectedTermName?: string;
   theme: string;
+  language: Language;
 }
 
-export const GlossaryDrawer: React.FC<GlossaryDrawerProps> = ({ isOpen, onClose, selectedTermName, theme }) => {
+export const GlossaryDrawer: React.FC<GlossaryDrawerProps> = ({ isOpen, onClose, selectedTermName, theme, language }) => {
+  const t = uiStrings[language].glossaryDrawer;
   const [activeTerm, setActiveTerm] = React.useState<GlossaryTerm>(glossaryTerms[0]);
 
   React.useEffect(() => {
@@ -154,7 +189,7 @@ export const GlossaryDrawer: React.FC<GlossaryDrawerProps> = ({ isOpen, onClose,
               <div className="flex items-center gap-2">
                 <BookOpen className={`w-5 h-5 ${sc.icon}`} />
                 <h3 className="font-display font-medium text-lg tracking-wide">
-                  El Experimento Explicado
+                  {t.title}
                 </h3>
               </div>
               <button
@@ -169,19 +204,19 @@ export const GlossaryDrawer: React.FC<GlossaryDrawerProps> = ({ isOpen, onClose,
             <div className="flex-1 overflow-y-auto p-5 space-y-6">
               {/* Metaphor table card list */}
               <div className="grid grid-cols-2 gap-2 font-sans">
-                {glossaryTerms.map((t) => {
-                  const isActive = activeTerm.term === t.term;
+                {glossaryTerms.map((gt) => {
+                  const isActive = activeTerm.term === gt.term;
                   return (
                     <button
-                      key={t.term}
-                      onClick={() => setActiveTerm(t)}
+                      key={gt.term}
+                      onClick={() => setActiveTerm(gt)}
                       className={`text-left p-3 rounded-xl border transition-all cursor-pointer ${
                         isActive ? sc.itemActive : sc.itemInactive
                       }`}
                     >
-                      <div className="font-display font-semibold text-xs tracking-wide">{t.term}</div>
+                      <div className="font-display font-semibold text-xs tracking-wide">{language === "en" ? gt.termEn : gt.term}</div>
                       <div className="text-[10px] font-sans mt-1 italic truncate opacity-80">
-                        {t.metaphor}
+                        {language === "en" ? gt.metaphorEn : gt.metaphor}
                       </div>
                     </button>
                   );
@@ -197,19 +232,19 @@ export const GlossaryDrawer: React.FC<GlossaryDrawerProps> = ({ isOpen, onClose,
               >
                 <div>
                   <div className={`text-[10px] tracking-wider ${sc.label} font-medium`}>
-                    Concepto de la Hipótesis
+                    {t.conceptLabel}
                   </div>
                   <h4 className="font-display text-xl font-semibold mt-1">
-                    {activeTerm.term}
+                    {language === "en" ? activeTerm.termEn : activeTerm.term}
                   </h4>
                 </div>
 
                 <div className={`flex gap-3 p-3 rounded-xl border ${sc.physBox}`}>
                   <Activity className="w-5 h-5 shrink-0 mt-0.5 opacity-80" />
                   <div>
-                    <div className="text-[10px] font-sans opacity-70">En Física se llama:</div>
+                    <div className="text-[10px] font-sans opacity-70">{t.physicsLabel}</div>
                     <div className="font-sans text-xs font-semibold">
-                      {activeTerm.physicsName}
+                      {language === "en" ? activeTerm.physicsNameEn : activeTerm.physicsName}
                     </div>
                   </div>
                 </div>
@@ -217,16 +252,16 @@ export const GlossaryDrawer: React.FC<GlossaryDrawerProps> = ({ isOpen, onClose,
                 <div className={`flex gap-3 p-3 rounded-xl border ${sc.metaBox}`}>
                   <Lightbulb className="w-5 h-5 shrink-0 mt-0.5 opacity-85" />
                   <div>
-                    <div className="text-[10px] font-sans opacity-75">Para la vida diaria es como:</div>
+                    <div className="text-[10px] font-sans opacity-75">{t.metaphorLabel}</div>
                     <div className="font-sans text-xs font-semibold italic">
-                      {activeTerm.metaphor}
+                      {language === "en" ? activeTerm.metaphorEn : activeTerm.metaphor}
                     </div>
                   </div>
                 </div>
 
                 <div className={`pt-2 border-t ${sc.border}`}>
                   <p className="font-serif text-sm leading-relaxed opacity-90">
-                    {activeTerm.description}
+                    {language === "en" ? activeTerm.descriptionEn : activeTerm.description}
                   </p>
                 </div>
               </motion.div>
@@ -234,7 +269,7 @@ export const GlossaryDrawer: React.FC<GlossaryDrawerProps> = ({ isOpen, onClose,
 
             {/* Footer */}
             <div className={`p-4 border-t ${sc.border} text-center text-[10px] font-sans ${sc.textMuted}`}>
-              Usa los términos resaltados en el texto para abrir este panel.
+              {t.footerHint}
             </div>
           </motion.div>
         </>
