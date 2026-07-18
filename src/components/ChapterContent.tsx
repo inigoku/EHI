@@ -145,9 +145,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
   // Scroll to top on chapter change
   React.useEffect(() => {
-    if (containerRef.current) {
-      containerRef.current.scrollIntoView({ behavior: "smooth" });
-    }
+    window.scrollTo({ top: 0, behavior: "smooth" });
     // Load saved reflection
     const saved = localStorage.getItem(`reflection_${chapter.id}`);
     setReflection(saved || "");
@@ -222,8 +220,32 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     { key: "ER=EPR", label: "ER=EPR" },
   ];
 
+  // Lookup used to turn story titles inside a table-of-contents section into working links.
+  // Keyed by uppercased title/titleEn; Spanish and English both point to the same chapter id.
+  const cuentosTitleToId = React.useMemo(() => {
+    const map = new Map<string, string>();
+    for (const c of cuentosList) {
+      map.set(c.title.toUpperCase(), c.id);
+      if (c.titleEn) map.set(c.titleEn.toUpperCase(), c.id);
+    }
+    return map;
+  }, []);
+
+  const resolveIndexLinkId = (innerText: string): string | null => {
+    const normalized = innerText.trim().toUpperCase();
+    if (!normalized) return null;
+    const exact = cuentosTitleToId.get(normalized);
+    if (exact) return exact;
+    // Fallback for entries like "Txiki" that are a substring of the full chapter title ("CODA: TXIKI").
+    for (const [title, id] of cuentosTitleToId) {
+      if (title.includes(normalized)) return id;
+    }
+    return null;
+  };
+
   const highlightTerms = (text: string) => {
     if (!text) return [];
+    let inIndexSection = false;
     
     // Simple custom markdown to html line formatter
     const lines = text.split("\n");
@@ -327,6 +349,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
       // Handle Headers
       if (trimmed.startsWith("### ")) {
+        // Note: don't clear inIndexSection here — the "Índice" section has its own
+        // "Primera parte" / "Segunda parte" ### subheadings nested inside it.
         processedBlocks.push(
           <h3 key={i} className={`font-display font-semibold text-lg sm:text-xl ${tc.accent} mt-8 mb-4 border-b ${tc.border} pb-2`}>
             {trimmed.replace("### ", "")}
@@ -433,6 +457,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       }
 
       if (trimmed.startsWith("## ")) {
+        const headingText = trimmed.replace("## ", "").trim().toLowerCase();
+        inIndexSection = headingText === "índice" || headingText === "table of contents";
         processedBlocks.push(
           <h2 key={i} className={`font-display font-bold text-xl sm:text-2xl ${tc.accent} mt-10 mb-6 border-b ${tc.border} pb-2`}>
             {trimmed.replace("## ", "")}
@@ -525,7 +551,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         if (match) {
           processedBlocks.push(
             <li key={i} className="ml-6 list-decimal mb-2 leading-relaxed font-serif">
-              {parseInlineStyles(match[2])}
+              {parseInlineStyles(match[2], { linkTitles: inIndexSection })}
             </li>
           );
           i++;
@@ -560,7 +586,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       // Default paragraph
       processedBlocks.push(
         <p key={i} className="mb-6 leading-relaxed tracking-wide font-serif text-justify text-base sm:text-lg opacity-90">
-          {parseInlineStyles(line)}
+          {parseInlineStyles(line, { linkTitles: inIndexSection })}
         </p>
       );
       i++;
@@ -570,7 +596,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   };
 
   // Helper to parse bold, italics, and glossary buttons in paragraph text
-  const parseInlineStyles = (text: string) => {
+  const parseInlineStyles = (text: string, options?: { linkTitles?: boolean }) => {
     let parts: (string | React.ReactNode)[] = [text];
 
     // Parse bold markdown (**text**)
@@ -593,7 +619,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       return result;
     });
 
-    // Parse single asterisks as bold (*text*)
+    // Parse single asterisks as bold (*text*), or as a link to the referenced
+    // story when inside a table-of-contents section (linkTitles option).
     parts = parts.flatMap((part) => {
       if (typeof part !== "string") return part;
       const regex = /\*(.*?)\*/g;
@@ -604,7 +631,22 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         if (match.index > lastIndex) {
           result.push(part.substring(lastIndex, match.index));
         }
-        result.push(<strong key={match.index} className={`font-semibold ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-white"}`}>{match[1]}</strong>);
+        const innerText = match[1];
+        const linkTargetId = options?.linkTitles ? resolveIndexLinkId(innerText) : null;
+        if (linkTargetId) {
+          result.push(
+            <button
+              key={match.index}
+              onClick={() => onSwitchMode("cuentos", linkTargetId)}
+              className={`font-semibold italic cursor-pointer transition-all duration-150 ${tc.termLink}`}
+              style={{ background: "none", border: "none", padding: 0, margin: 0, font: "inherit", lineHeight: "inherit" }}
+            >
+              {innerText}
+            </button>
+          );
+        } else {
+          result.push(<strong key={match.index} className={`font-semibold ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-white"}`}>{innerText}</strong>);
+        }
         lastIndex = regex.lastIndex;
       }
       if (lastIndex < part.length) {
@@ -1260,49 +1302,55 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         </div>
       )}
 
-      {/* Navigation Footer */}
-      <div className={`flex items-center justify-between pt-6 border-t ${tc.border}`}>
-        <button
-          onClick={onPrev}
-          disabled={!hasPrev}
-          className={`flex items-center gap-2 px-4 py-2.5 rounded-xl border ${
-            theme === "paper" || theme === "sepia"
-              ? `border-[#1A1A1A]/10 text-[#1A1A1A] hover:bg-[#1A1A1A]/5`
-              : "border-slate-800 text-slate-400 hover:border-slate-700 hover:text-slate-200"
-          } disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all active:scale-95 text-xs sm:text-sm font-semibold cursor-pointer`}
-        >
-          <ChevronLeft className="w-4 h-4" />
-          {t.prev}
-        </button>
+      {/* Navigation Footer - fixed so it stays visible while reading, not just at the end of the chapter */}
+      <div
+        className={`fixed bottom-0 left-0 lg:left-80 right-0 z-30 border-t ${tc.border} backdrop-blur-md ${
+          theme === "paper" ? "bg-[#F9F6F1]/95" : theme === "sepia" ? "bg-[#FAF6EE]/95" : "bg-[#0D0E12]/90"
+        }`}
+      >
+        <div className="max-w-5xl mx-auto flex items-center justify-between px-5 sm:px-8 lg:px-12 py-3">
+          <button
+            onClick={onPrev}
+            disabled={!hasPrev}
+            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl border ${
+              theme === "paper" || theme === "sepia"
+                ? `border-[#1A1A1A]/10 text-[#1A1A1A] hover:bg-[#1A1A1A]/5`
+                : "border-slate-800 text-slate-400 hover:border-slate-700 hover:text-slate-200"
+            } disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all active:scale-95 text-xs sm:text-sm font-semibold cursor-pointer`}
+          >
+            <ChevronLeft className="w-4 h-4" />
+            <span className="hidden sm:inline">{t.prev}</span>
+          </button>
 
-        <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
-          {readingMode === "essay"
-            ? t.partOf(chapter.chapterNumber || uiStrings[language].header.interludio, 33)
-            : readingMode === "cuentos"
-            ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))
-            : readingMode === "reconstruccion"
-            ? t.reconOf(chapter.chapterNumber.replace("R", ""))
-            : chapter.id === "poema_glosario"
-            ? t.poemGlossaryLabel
-            : chapter.id.startsWith("poema_arq")
-            ? t.poemLinkOf(chapter.id.replace("poema_arq", ""))
-            : chapter.id.startsWith("poema_frialdad")
-            ? t.poemFrialdadOf(chapter.id.replace("poema_frialdad", ""))
-            : t.poemReconOf(chapter.id.replace("poema_recon", ""))}
-        </span>
+          <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
+            {readingMode === "essay"
+              ? t.partOf(chapter.chapterNumber || uiStrings[language].header.interludio, 33)
+              : readingMode === "cuentos"
+              ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))
+              : readingMode === "reconstruccion"
+              ? t.reconOf(chapter.chapterNumber.replace("R", ""))
+              : chapter.id === "poema_glosario"
+              ? t.poemGlossaryLabel
+              : chapter.id.startsWith("poema_arq")
+              ? t.poemLinkOf(chapter.id.replace("poema_arq", ""))
+              : chapter.id.startsWith("poema_frialdad")
+              ? t.poemFrialdadOf(chapter.id.replace("poema_frialdad", ""))
+              : t.poemReconOf(chapter.id.replace("poema_recon", ""))}
+          </span>
 
-        <button
-          onClick={onNext}
-          disabled={!hasNext}
-          className={`flex items-center gap-2 px-4 py-2.5 rounded-xl border ${
-            theme === "paper" || theme === "sepia"
-              ? `border-[#1A1A1A]/10 text-[#1A1A1A] hover:bg-[#1A1A1A]/5`
-              : "border-amber-500/20 bg-amber-500/5 text-amber-400 hover:bg-amber-500/10"
-          } disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all active:scale-95 text-xs sm:text-sm font-semibold cursor-pointer`}
-        >
-          {t.next}
-          <ChevronRight className="w-4 h-4" />
-        </button>
+          <button
+            onClick={onNext}
+            disabled={!hasNext}
+            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl border ${
+              theme === "paper" || theme === "sepia"
+                ? `border-[#1A1A1A]/10 text-[#1A1A1A] hover:bg-[#1A1A1A]/5`
+                : "border-amber-500/20 bg-amber-500/5 text-amber-400 hover:bg-amber-500/10"
+            } disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all active:scale-95 text-xs sm:text-sm font-semibold cursor-pointer`}
+          >
+            <span className="hidden sm:inline">{t.next}</span>
+            <ChevronRight className="w-4 h-4" />
+          </button>
+        </div>
       </div>
     </div>
   );

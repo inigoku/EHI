@@ -8,6 +8,9 @@ interface SoundControlProps {
   onVolumeChange: (volume: number) => void;
   muteLabel: string;
   unmuteLabel: string;
+  /** Full positioning classes for standalone use. Pass "" to render as a plain
+   * flex item instead, so a parent can place it next to other controls. */
+  positionClassName?: string;
 }
 
 export const SoundControl: React.FC<SoundControlProps> = ({
@@ -17,20 +20,21 @@ export const SoundControl: React.FC<SoundControlProps> = ({
   onVolumeChange,
   muteLabel,
   unmuteLabel,
+  positionClassName = "fixed bottom-6 right-6 z-50",
 }) => {
   const isSilent = isMuted || volume <= 0;
 
   return (
-    <div className="fixed bottom-6 right-6 z-50 flex items-center gap-3 py-2.5 pl-2.5 pr-4 rounded-full bg-slate-950/70 border border-white/10 backdrop-blur-md shadow-2xl">
+    <div className={`${positionClassName} flex items-center gap-2 py-1 pl-1 pr-3 rounded-full bg-slate-950/70 border border-white/10 backdrop-blur-md shadow-2xl`}>
       <button
         onClick={onToggleMute}
-        className="p-1.5 rounded-full hover:bg-white/5 active:scale-95 transition-all cursor-pointer flex items-center justify-center shrink-0"
+        className="p-1 rounded-full hover:bg-white/5 active:scale-95 transition-all cursor-pointer flex items-center justify-center shrink-0"
         title={isMuted ? unmuteLabel : muteLabel}
       >
         {isSilent ? (
-          <VolumeX className="w-5 h-5 text-slate-400" />
+          <VolumeX className="w-4 h-4 text-slate-400" />
         ) : (
-          <Volume2 className="w-5 h-5 text-amber-400" />
+          <Volume2 className="w-4 h-4 text-amber-400" />
         )}
       </button>
       <input
@@ -40,7 +44,7 @@ export const SoundControl: React.FC<SoundControlProps> = ({
         step={0.01}
         value={volume}
         onChange={(e) => onVolumeChange(Number(e.target.value))}
-        className="w-20 accent-amber-400 cursor-pointer"
+        className="w-20 h-3 accent-amber-400 cursor-pointer"
         aria-label={isMuted ? unmuteLabel : muteLabel}
       />
     </div>

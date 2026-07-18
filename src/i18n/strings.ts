@@ -23,7 +23,6 @@ export interface UiStrings {
     poem: string;
     glossary: string;
     link: string;
-    showMenu: string;
     languageToggleLabel: string;
   };
   sidebar: {
@@ -50,8 +49,6 @@ export interface UiStrings {
     large: string;
     veryLarge: string;
     extraLarge: string;
-    focusMode: string;
-    hideDistractions: string;
   };
   landing: {
     hypothesisLabel: string;
@@ -199,7 +196,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       poem: "Poema",
       glossary: "Glosario",
       link: "Enlace",
-      showMenu: "Mostrar Menú",
       languageToggleLabel: "Idioma",
     },
     sidebar: {
@@ -226,8 +222,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       large: "Grande",
       veryLarge: "Muy Grande",
       extraLarge: "Extra Grande",
-      focusMode: "Modo Enfoque",
-      hideDistractions: "Ocultar distracciones",
     },
     landing: {
       hypothesisLabel: "Hipótesis Holográfica",
@@ -392,7 +386,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       poem: "Poem",
       glossary: "Glossary",
       link: "Link",
-      showMenu: "Show Menu",
       languageToggleLabel: "Language",
     },
     sidebar: {
@@ -419,8 +412,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       large: "Large",
       veryLarge: "Very Large",
       extraLarge: "Extra Large",
-      focusMode: "Focus Mode",
-      hideDistractions: "Hide distractions",
     },
     landing: {
       hypothesisLabel: "Holographic Hypothesis",

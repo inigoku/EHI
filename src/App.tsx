@@ -7,11 +7,11 @@ import { JournalViewer } from "./components/JournalViewer";
 import { LandingPage } from "./components/LandingPage";
 import { ChapterMusicPlayer } from "./components/ChapterMusicPlayer";
 import { PathLanding } from "./components/PathLanding";
-import { ReadingSettings, ReadingTheme, FontSize } from "./components/ReadingSettings";
-import { motion, AnimatePresence } from "motion/react";
-import { Book, Compass, EyeOff, Layout } from "lucide-react";
+import { ReadingTheme, FontSize } from "./components/ReadingSettings";
 import { Language, uiStrings, getInitialLanguage, persistLanguage } from "./i18n";
 import { LanguageToggle } from "./components/LanguageToggle";
+import { HeaderControls } from "./components/HeaderControls";
+import { useAudioPrefs } from "./hooks/useAudioPrefs";
 
 export default function App() {
   // Language state: defaults to browser language, remembers manual choice
@@ -49,9 +49,7 @@ export default function App() {
   const [fontSize, setFontSize] = React.useState<FontSize>(() => {
     return (localStorage.getItem("reading_font_size") as FontSize) || "base";
   });
-  const [focusMode, setFocusMode] = React.useState<boolean>(() => {
-    return localStorage.getItem("reading_focus_mode") === "true";
-  });
+  const { volume, setVolume, isMuted, toggleMute } = useAudioPrefs();
 
   // Drawer states
   const [isGlossaryOpen, setIsGlossaryOpen] = React.useState<boolean>(false);
@@ -87,10 +85,6 @@ export default function App() {
   React.useEffect(() => {
     localStorage.setItem("reading_font_size", fontSize);
   }, [fontSize]);
-
-  React.useEffect(() => {
-    localStorage.setItem("reading_focus_mode", String(focusMode));
-  }, [focusMode]);
 
   // Current list of items to show in navigation and sidebar
   const currentChaptersList = React.useMemo(() => {
@@ -250,70 +244,75 @@ export default function App() {
 
   return (
     <div className={`min-h-screen flex flex-col font-serif transition-colors duration-300 ${getThemeBackgroundClass()}`}>
-      {/* Top Banner (Header) - Hidden in Focus Mode or Mobile header is active */}
-      <AnimatePresence>
-        {!focusMode && (
-          <motion.header
-            initial={{ height: 0, opacity: 0 }}
-            animate={{ height: "auto", opacity: 1 }}
-            exit={{ height: 0, opacity: 0 }}
-            className={`hidden lg:flex h-20 border-b ${themeColors.border} items-center justify-between px-12 z-30 shrink-0 transition-all duration-300`}
-          >
-            <div className="flex flex-col">
-              <span className={`text-[10px] uppercase tracking-[0.2em] font-sans font-bold ${themeColors.textMuted}`}>
-                {readingMode === "essay" ? t.header.sectionEssay : readingMode === "cuentos" ? t.header.sectionCuentos : readingMode === "poemas" ? t.header.sectionPoemas : t.header.sectionReconstruccion}
-              </span>
-              <span className="text-xl italic font-display leading-tight">
-                {t.header.bookTitle}
-              </span>
-            </div>
+      {/* Top Banner (Header) - fixed, always visible (doesn't scroll with the text) */}
+      <header
+        className={`hidden lg:flex fixed top-0 left-0 lg:left-80 right-0 h-20 border-b ${themeColors.border} ${themeColors.bg} items-center justify-between px-12 z-30 shrink-0 transition-colors duration-300`}
+      >
+        <div className="flex flex-col">
+          <span className={`text-[10px] uppercase tracking-[0.2em] font-sans font-bold ${themeColors.textMuted}`}>
+            {readingMode === "essay" ? t.header.sectionEssay : readingMode === "cuentos" ? t.header.sectionCuentos : readingMode === "poemas" ? t.header.sectionPoemas : t.header.sectionReconstruccion}
+          </span>
+          <span className="text-xl italic font-display leading-tight">
+            {t.header.bookTitle}
+          </span>
+        </div>
 
-            <div className={`flex items-center gap-6 font-sans text-xs uppercase tracking-widest ${themeColors.textMuted}`}>
-              <span>{t.header.author}: <strong className={`font-semibold ${themeColors.text}`}>Í. Barrera Barceló</strong></span>
-              <span className="opacity-30">|</span>
-              <span>
-                {readingMode === "essay" ? (
-                  activeChapter.chapterNumber ? (
-                    !isNaN(Number(activeChapter.chapterNumber)) ? (
-                      <>{t.header.part}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} 26</strong></>
-                    ) : (
-                      <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
-                    )
-                  ) : (
-                    <><strong className={`font-semibold ${themeColors.text}`}>{t.header.interludio}</strong></>
-                  )
-                ) : readingMode === "cuentos" ? (
-                  activeChapter.chapterNumber ? (
-                    !isNaN(Number(activeChapter.chapterNumber)) ? (
-                      <>{t.header.story}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} 18</strong></>
-                    ) : (
-                      <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
-                    )
-                  ) : (
-                    <>{t.header.story}: <strong className={`font-semibold ${themeColors.text}`}>{t.header.prologue}</strong></>
-                  )
-                ) : readingMode === "poemas" ? (
-                  <>{t.header.poem}: <strong className={`font-semibold ${themeColors.text}`}>{
-                    activeChapterId === "poema_glosario"
-                      ? t.header.glossary
-                      : activeChapterId.startsWith("poema_arq")
-                      ? `${t.header.link} ${activeChapterId.replace("poema_arq", "")} ${t.header.of} 8`
-                      : activeChapterId.startsWith("poema_frialdad")
-                      ? `${activeChapterId.replace("poema_frialdad", "")} ${t.header.of} 6`
-                      : `${t.header.sectionReconstruccion} ${activeChapterId.replace("poema_recon", "")} ${t.header.of} 6`
-                  }</strong></>
+        <div className={`flex items-center gap-6 font-sans text-xs uppercase tracking-widest ${themeColors.textMuted}`}>
+          <span>{t.header.author}: <strong className={`font-semibold ${themeColors.text}`}>Í. Barrera Barceló</strong></span>
+          <span className="opacity-30">|</span>
+          <span>
+            {readingMode === "essay" ? (
+              activeChapter.chapterNumber ? (
+                !isNaN(Number(activeChapter.chapterNumber)) ? (
+                  <>{t.header.part}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} 26</strong></>
                 ) : (
-                  activeChapter.chapterNumber && (
-                    <>{t.header.sectionReconstruccion}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber.replace("R", "")} {t.header.of} 6</strong></>
-                  )
-                )}
-              </span>
-              <span className="opacity-30">|</span>
-              <LanguageToggle language={language} setLanguage={setLanguage} variant={theme === "cosmic" ? "dark" : "light"} />
-            </div>
-          </motion.header>
-        )}
-      </AnimatePresence>
+                  <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
+                )
+              ) : (
+                <><strong className={`font-semibold ${themeColors.text}`}>{t.header.interludio}</strong></>
+              )
+            ) : readingMode === "cuentos" ? (
+              activeChapter.chapterNumber ? (
+                !isNaN(Number(activeChapter.chapterNumber)) ? (
+                  <>{t.header.story}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} 18</strong></>
+                ) : (
+                  <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
+                )
+              ) : (
+                <>{t.header.story}: <strong className={`font-semibold ${themeColors.text}`}>{t.header.prologue}</strong></>
+              )
+            ) : readingMode === "poemas" ? (
+              <>{t.header.poem}: <strong className={`font-semibold ${themeColors.text}`}>{
+                activeChapterId === "poema_glosario"
+                  ? t.header.glossary
+                  : activeChapterId.startsWith("poema_arq")
+                  ? `${t.header.link} ${activeChapterId.replace("poema_arq", "")} ${t.header.of} 8`
+                  : activeChapterId.startsWith("poema_frialdad")
+                  ? `${activeChapterId.replace("poema_frialdad", "")} ${t.header.of} 6`
+                  : `${t.header.sectionReconstruccion} ${activeChapterId.replace("poema_recon", "")} ${t.header.of} 6`
+              }</strong></>
+            ) : (
+              activeChapter.chapterNumber && (
+                <>{t.header.sectionReconstruccion}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber.replace("R", "")} {t.header.of} 6</strong></>
+              )
+            )}
+          </span>
+          <span className="opacity-30">|</span>
+          <LanguageToggle language={language} setLanguage={setLanguage} variant={theme === "cosmic" ? "dark" : "light"} />
+          <HeaderControls
+            theme={theme}
+            setTheme={setTheme}
+            fontSize={fontSize}
+            setFontSize={setFontSize}
+            language={language}
+            isMuted={isMuted}
+            toggleMute={toggleMute}
+            volume={volume}
+            setVolume={setVolume}
+            variant={theme === "cosmic" ? "dark" : "light"}
+          />
+        </div>
+      </header>
 
       {/* Main split layout container */}
       <div className="flex-1 flex flex-col lg:flex-row relative">
@@ -333,6 +332,13 @@ export default function App() {
           isOpen={isSidebarOpen}
           setIsOpen={setIsSidebarOpen}
           theme={theme}
+          setTheme={setTheme}
+          fontSize={fontSize}
+          setFontSize={setFontSize}
+          isMuted={isMuted}
+          toggleMute={toggleMute}
+          volume={volume}
+          setVolume={setVolume}
           mode={readingMode}
           onModeChange={handleModeChange}
           language={language}
@@ -340,23 +346,7 @@ export default function App() {
         />
 
         {/* Content reader frame */}
-        <main className="flex-1 p-5 sm:p-8 lg:p-12 overflow-y-auto mt-16 lg:mt-0 max-w-5xl mx-auto w-full">
-          {/* Active indicator bar */}
-          {focusMode && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="fixed bottom-6 right-6 z-40"
-            >
-              <button
-                onClick={() => setFocusMode(false)}
-                className="flex items-center gap-2 py-2.5 px-4 rounded-xl bg-amber-500 text-slate-950 text-xs font-bold shadow-lg shadow-amber-500/20 active:scale-95 transition-all cursor-pointer"
-              >
-                <Layout className="w-4 h-4" />
-                {t.header.showMenu}
-              </button>
-            </motion.div>
-          )}
+        <main className="flex-1 p-5 sm:p-8 lg:p-12 pb-24 overflow-y-auto mt-16 lg:mt-20 max-w-5xl mx-auto w-full">
 
           {/* Book Content view or Path Landing */}
           {activePathLanding ? (
@@ -381,28 +371,6 @@ export default function App() {
               language={language}
             />
           )}
-
-          {/* Reader config floating side box - Hidden in focus mode */}
-          <AnimatePresence>
-            {!focusMode && (
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                exit={{ opacity: 0, y: 20 }}
-                className="mt-12 max-w-sm mx-auto"
-              >
-                <ReadingSettings
-                  theme={theme}
-                  setTheme={setTheme}
-                  fontSize={fontSize}
-                  setFontSize={setFontSize}
-                  focusMode={focusMode}
-                  setFocusMode={setFocusMode}
-                  language={language}
-                />
-              </motion.div>
-            )}
-          </AnimatePresence>
         </main>
       </div>
 
@@ -424,7 +392,7 @@ export default function App() {
         language={language}
       />
 
-      <ChapterMusicPlayer readingMode={readingMode} language={language} />
+      <ChapterMusicPlayer readingMode={readingMode} volume={volume} isMuted={isMuted} />
     </div>
   );
 }

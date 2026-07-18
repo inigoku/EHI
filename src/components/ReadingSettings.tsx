@@ -1,5 +1,5 @@
 import React from "react";
-import { Settings, ZoomIn, ZoomOut, Eye, Sun, Moon, Coffee } from "lucide-react";
+import { Settings, ZoomIn, ZoomOut, Sun, Moon, Coffee } from "lucide-react";
 import { Language, uiStrings } from "../i18n";
 
 export type ReadingTheme = "cosmic" | "paper" | "sepia";
@@ -10,8 +10,6 @@ interface ReadingSettingsProps {
   setTheme: (theme: ReadingTheme) => void;
   fontSize: FontSize;
   setFontSize: (size: FontSize) => void;
-  focusMode: boolean;
-  setFocusMode: (mode: boolean) => void;
   language: Language;
 }
 
@@ -20,8 +18,6 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
   setTheme,
   fontSize,
   setFontSize,
-  focusMode,
-  setFocusMode,
   language,
 }) => {
   const t = uiStrings[language];
@@ -150,22 +146,6 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
             <ZoomIn className="w-4 h-4" />
           </button>
         </div>
-      </div>
-
-      {/* Focus mode */}
-      <div className={`flex items-center justify-between pt-2 border-t ${rs.border} font-sans`}>
-        <div className="flex flex-col">
-          <span className={`text-xs font-medium ${rs.text}`}>{t.settings.focusMode}</span>
-          <span className={`text-[10px] ${rs.textMuted}`}>{t.settings.hideDistractions}</span>
-        </div>
-        <button
-          onClick={() => setFocusMode(!focusMode)}
-          className={`p-2 rounded-xl border transition-all cursor-pointer ${
-            focusMode ? rs.buttonActive : rs.buttonInactive
-          }`}
-        >
-          <Eye className="w-4 h-4" />
-        </button>
       </div>
     </div>
   );

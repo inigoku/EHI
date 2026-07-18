@@ -2,9 +2,10 @@ import React from "react";
 import { Chapter } from "../chapters";
 import { Search, Book, PenTool, CheckCircle, Flame, Star, Menu, X, ArrowUpRight } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
-import { ReadingTheme } from "./ReadingSettings";
+import { ReadingSettings, ReadingTheme, FontSize } from "./ReadingSettings";
 import { Language, uiStrings } from "../i18n";
 import { LanguageToggle } from "./LanguageToggle";
+import { HeaderControls } from "./HeaderControls";
 // @ts-ignore
 import portadaImg from "../assets/images/portada.png";
 
@@ -17,6 +18,13 @@ interface SidebarProps {
   isOpen: boolean;
   setIsOpen: (isOpen: boolean) => void;
   theme: ReadingTheme;
+  setTheme: (theme: ReadingTheme) => void;
+  fontSize: FontSize;
+  setFontSize: (size: FontSize) => void;
+  isMuted: boolean;
+  toggleMute: () => void;
+  volume: number;
+  setVolume: (volume: number) => void;
   mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion";
   onModeChange: (mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
   language: Language;
@@ -32,6 +40,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
   isOpen,
   setIsOpen,
   theme,
+  setTheme,
+  fontSize,
+  setFontSize,
+  isMuted,
+  toggleMute,
+  volume,
+  setVolume,
   mode,
   onModeChange,
   language,
@@ -186,6 +201,18 @@ export const Sidebar: React.FC<SidebarProps> = ({
         </button>
         <div className="flex items-center gap-2">
           <LanguageToggle language={language} setLanguage={setLanguage} variant={theme === "cosmic" ? "dark" : "light"} />
+          <HeaderControls
+            theme={theme}
+            setTheme={setTheme}
+            fontSize={fontSize}
+            setFontSize={setFontSize}
+            language={language}
+            isMuted={isMuted}
+            toggleMute={toggleMute}
+            volume={volume}
+            setVolume={setVolume}
+            variant={theme === "cosmic" ? "dark" : "light"}
+          />
           <button
             onClick={() => setIsOpen(!isOpen)}
             className={`p-2 rounded-xl ${sc.button} border transition-colors cursor-pointer`}

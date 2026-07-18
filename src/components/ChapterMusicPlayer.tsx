@@ -1,7 +1,4 @@
 import React from "react";
-import { SoundControl } from "./SoundControl";
-import { useAudioPrefs } from "../hooks/useAudioPrefs";
-import { Language, uiStrings } from "../i18n";
 
 type ReadingMode = "essay" | "cuentos" | "poemas" | "reconstruccion";
 
@@ -14,13 +11,14 @@ const TRACK_BY_MODE: Record<ReadingMode, string> = {
 
 interface ChapterMusicPlayerProps {
   readingMode: ReadingMode;
-  language: Language;
+  volume: number;
+  isMuted: boolean;
 }
 
-export const ChapterMusicPlayer: React.FC<ChapterMusicPlayerProps> = ({ readingMode, language }) => {
-  const t = uiStrings[language];
+// Renderless: just owns the <audio> element and swaps tracks per reading block.
+// The visible sound control lives in HeaderControls.
+export const ChapterMusicPlayer: React.FC<ChapterMusicPlayerProps> = ({ readingMode, volume, isMuted }) => {
   const audioRef = React.useRef<HTMLAudioElement>(null);
-  const { volume, setVolume, isMuted, toggleMute } = useAudioPrefs();
   const track = TRACK_BY_MODE[readingMode];
 
   // Keep the <audio> element's volume/muted state in sync with the shared prefs.
@@ -61,17 +59,5 @@ export const ChapterMusicPlayer: React.FC<ChapterMusicPlayerProps> = ({ readingM
     };
   }, [isMuted]);
 
-  return (
-    <>
-      <audio ref={audioRef} src={track} loop autoPlay />
-      <SoundControl
-        isMuted={isMuted}
-        onToggleMute={toggleMute}
-        volume={volume}
-        onVolumeChange={setVolume}
-        muteLabel={t.landing.muteOn}
-        unmuteLabel={t.landing.muteOff}
-      />
-    </>
-  );
+  return <audio ref={audioRef} src={track} loop autoPlay />;
 };
