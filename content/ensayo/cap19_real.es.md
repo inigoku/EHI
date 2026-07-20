@@ -1,7 +1,7 @@
 ---
 title: LO QUE LA HIPÓTESIS NO PUEDE DECIR
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 34
+chapterNumber: 35
 illustrationId: il_mapayterritorio
 illustrationTitle: El límite del experimento
 illustrationDescription: Mapa antiguo desplegado. Territorio dibujado con precisión en el centro. En los bordes, el territorio se disuelve en papel en blanco. Un compás abierto al máximo. Nota a mano: "El mapa no es el territorio."
@@ -164,7 +164,7 @@ La hipótesis no puede confirmar ni descartar esto. Deja la puerta abierta. Y a 
 
 ---
 
-> **Nota al Capítulo 34**
+> **Nota al Capítulo 35**
 >
 > **Lo que sí sabemos:** El experimento tiene cinco límites claros. Reconocerlos es fortaleza, no debilidad.
 >

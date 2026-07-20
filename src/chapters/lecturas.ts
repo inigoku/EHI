@@ -26,6 +26,7 @@ const ORDER = [
   "cap_three_body",
   "cap17_8_cosmic",
   "cap_matrix",
+  "cap_cartografia_singularidades",
 ];
 
 export const lecturasTopologicas: Chapter[] = ORDER.map((id) => {

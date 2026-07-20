@@ -160,7 +160,7 @@ The hypothesis can neither confirm nor rule this out. It leaves the door open. A
 
 ---
 
-> **Note to Chapter 34**
+> **Note to Chapter 35**
 >
 > **What we do know:** The experiment has five clear limits. Recognizing them is a strength, not a weakness.
 >
