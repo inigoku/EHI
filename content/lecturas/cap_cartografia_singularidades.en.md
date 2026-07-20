@@ -47,6 +47,10 @@ Dalí built a bunker around his psyche.
 
 His painting is a sealed capsule where the exterior world does not enter without first submitting to the paranoiac-critical method: a machine that multiplies images, that folds reality over itself until the original and its reflection can no longer be told apart. This encapsulation is not aesthetic. It is survival.
 
+> **In physics this is called:** an event horizon. The boundary separating what can escape outward from what remains trapped forever; nothing crosses it without first being transformed by the system's inner physics.
+
+> **In daily life it is like:** a locked diary. What gets written inside it may be catharsis, invention, or lies, but it never comes back out exactly as it went in: by the time someone finally reads it, it has already been rewritten by the hand that kept it.
+
 The method has a manifesto-work: *Metamorphosis of Narcissus*. A crouching figure by the water is, simultaneously, a self-absorbed youth and a stone hand holding an egg from which a flower sprouts. There is no trick: both readings are simultaneous and complete, and the eye cannot hold on to both at once. Dalí has built a superposed image, and every viewer collapses it in their own way. Freud, who received him in London in 1938 with that painting under his arm, admitted to the young Spaniard what he denied the rest of the surrealists: that there was a serious psychological problem there. It was not a compliment. It was a diagnosis.
 
 ## [ILUSTRACIÓN cart_narciso: "Metamorphosis of Narcissus"]
@@ -78,6 +82,10 @@ One need only trace her transmutations to measure her mass. In *Galarina* she is
 
 But, like every singularity, Gala is not directly observable. We do not see her in the paintings as she really is: we see her transmuted into Leda, into a virgin, into architecture. She is the invisible mass that curves Dalinian space, and she only manifests through the gravity she exerts on everything else.
 
+> **In physics this is called:** dark matter, or a black hole itself before its first photograph: a mass that is never observed directly, only inferred from the curvature it imposes on everything around it.
+
+> **In daily life it is like:** knowing the wind is blowing by the way a treetop bends. No one sees the wind; everyone sees its effects, and from them reconstructs its shape.
+
 The definitive proof came through absence. When Gala died, in 1982, the system was left without a center: Dalí shut himself in Púbol Castle —which he had bought for her, and which, while she lived, he could only visit with her written invitation— stopped eating, was burned in a nighttime fire, all but stopped painting. The singularity had disappeared, and the horizon, with no mass to sustain it, began its final collapse. Dalí's last seven years are not biography: they are the empirical verification of his own cosmology.
 
 ### Lorca: the retained information
@@ -105,6 +113,10 @@ Look at him in the two-headed portraits of the 1930s and '40s: Marie-Thérèse's
 *Pablo Picasso, oil on canvas, 1937. Tate, London.*
 
 That double face is the key to his entire body of work. Picasso does not have a single horizon: he has many, superposed. His self is not a point with a defined position; it is a wave spanning all possible states until the act of painting collapses the wave and materializes a style, a temporary identity. He formulated it himself, without physics, before the portrait of Gertrude Stein: when told that she did not resemble that mask-like face he had painted, he replied that she would come to resemble it. It was not arrogance: it was the conviction that the painting does not record a state, but anticipates it —that observation does not copy reality, it produces it.
+
+> **In physics this is called:** quantum superposition and wave-function collapse. Before measurement, a particle does not occupy a single state: it occupies all of them at once, until the act of observing forces the system to settle on one.
+
+> **In daily life it is like:** a coin still in the air. While it spins it is neither heads nor tails: it is both at once, and only becomes a fact when it lands on the table.
 
 The first collapse has a date and a corpse. In 1901, his friend Carles Casagemas shoots himself in a Paris café over a woman. Picasso, nineteen years old, buries his friend and then paints the entire world blue for three years: beggars, the blind, consumed mothers, Casagemas himself laid out with a hole in his temple. The Blue Period is not a tonal exercise: it is the first demonstration that a single trauma can tint the whole perceptual spectrum, that the mass of one death can curve all the light of a system. Then came the rose period —the acrobats, itinerant tenderness— and then the axe blow: between *The Old Guitarist* and *Les Demoiselles d'Avignon* there is no narrative transition. There is a jump. The five women of the brothel on Carrer d'Avinyó, with their Iberian and African mask-faces, do not evolve from anything prior: they erupt, the way a particle erupts where classical physics did not expect it.
 
@@ -145,6 +157,10 @@ His *Constellations* encapsulate infinity in a matchbox: bubbles where gravity d
 
 And his entanglement is horizontal, democratic, total. His thin black lines tie a star to a woman, the woman to a bird, the bird to a primordial stain. There is no hierarchy: an ant from *The Farm* is entangled with the farthest star. If Dalí entangles to survive and Picasso to possess, Miró entangles to celebrate.
 
+> **In physics this is called:** multipartite entanglement. Not a bond between two particles, but a network where measuring the state of any node instantly alters that of all the others, with no hierarchical center.
+
+> **In daily life it is like:** a spiderweb covered in dew: touch a single thread and the whole web trembles equally, because none of its points matters more than any other.
+
 But let no one mistake lightness for anesthesia. The pain of the war is in his lines, even if only as contained tension: in the black of *The Reaper*, in the violence of the savage paintings of the 1930s, in the taut stroke of *Constellations* painted while fleeing. The rope tying the star to the woman is strained by history; it simply does not break.
 
 Miró's old age is the exact reverse of Dalí's. Where one disintegrated against his will, the other emptied himself by choice. The three canvases of *Blue I, II, and III* are nearly bare fields: a trail of dots, a red line, an expanse of blue that Miró himself compared to preparing a rite. It had taken a whole lifetime to earn the right to paint almost nothing. And when the world wanted to turn him into a classic, he answered by burning and slashing his own canvases —the *burnt canvases* of 1973, exhibited with the burns in plain view—: at eighty, the lightest of the three still refused to let his universe become heritage. Dissolution, too, must be defended.
@@ -154,6 +170,10 @@ He also destroys the arrow of time. His time is that of wonder, where a minute b
 ## IV. The three-body problem
 
 These three systems did not orbit in isolation: they perturbed one another.
+
+> **In physics this is called:** the three-body problem. In celestial mechanics, three masses that attract one another have no closed-form solution: each one's trajectory is permanently altered by the presence of the other two, and none of them ever orbits alone again.
+
+> **In daily life it is like:** three siblings raised in the same house. None of them can be explained without the other two: every character bends, if only a little, under the simple gravity of sharing a table.
 
 Dalí needed Picasso the way one needs a gravitational field to measure oneself against. He visited him in Paris in 1926, before the Louvre —"I have come to see you before the Louvre"; "You did very well"— and never stopped orbiting him after that. It was Picasso who paid for the passage of his first trip to America, the trip that launched him to celebrity; Dalí repaid him for decades by sending postcards and tributes that the man from Málaga, a communist offended by the other's open Francoism, never answered. A perfect entanglement in its asymmetry: Dalí could not stop transmitting; Picasso had no need to receive. Decades later, the man from Empordà still defined himself by contrast: "Picasso is Spanish, so am I. Picasso is a genius, so am I. Picasso is a communist, I am not." Dalinian encapsulation was built, in part, as a shield against that greater mass: to avoid being absorbed by the Picassian field, Dalí had to relentlessly increase the density of his own myth.
 
@@ -193,14 +213,12 @@ The observer is not outside the system. The observer is the system.
 
 > *For Tarel, who knows that every closing is a new singularity.*
 
-## Notes
-
-1. Forsythe, A., Williams, T., and Reilly, R. G. "What paint can tell us: A fractal analysis of neurological changes in seven artists." *Neuropsychology*, 31(1), 2017. The fractal analysis of Dalí's late brushstrokes, read here as the evaporation of the self. It should be noted that his diagnosis —a parkinsonian syndrome rather than confirmed Parkinson's— remains a matter of clinical debate.
-2. On the limits of the analogy. The metaphor structuring this chapter is cartographic, not ontological: it lends geometry, not laws. A black hole, according to the information paradox, threatens to destroy what falls into it; the work of art does exactly the opposite: it does not destroy information, it transforms it into perceptible structure. The horizon of the self, moreover, is permeable in both directions, and the observer is never external to the system being measured.
-3. Hawking, S. *A Brief History of Time*. Bantam Books, 1988. Black hole radiation and the information paradox, the framework applied here metaphorically to the self.
-4. Bekenstein, J. D. "Black Holes and Entropy." *Physical Review D*, 7(8), 1973. Bekenstein-Hawking entropy as an analogy for the transformation —not the loss— of information.
-5. Dalí, S. *Diary of a Genius*. Destino, 1964, and *The Secret Life of Salvador Dalí*, 1942. Primary sources on the paranoiac-critical method, the genesis of the soft watches, and the relationship with Gala.
-6. Gibson, I. *The Shameful Life of Salvador Dalí*. Faber & Faber, 1997. Documentation of the Dalí–Lorca relationship and the 1938 London meeting with Freud.
-7. Richardson, J. *A Life of Picasso*. Random House, 1991–2007 (3 vols.). Chronology and analysis of Picasso's periods, including the Casagemas episode.
-8. Miró, J. *Selected Writings and Interviews*. Polígrafa, 1978. Miró's statements on the universal within the intimate and on the "assassination of painting."
-9. Tononi, G., and Koch, C. "Consciousness: Here, There and Everywhere?" *Philosophical Transactions of the Royal Society B*, 370, 2015. Integrated Information Theory, the bridge between physics and phenomenology underlying the whole chapter.
+> **Note to Chapter 34**
+>
+> **What we do know:** Fractal analysis of Dalí's late brushstrokes (Forsythe, Williams, and Reilly, 2017) detected alterations that precede his clinical diagnosis, though the diagnosis itself —a parkinsonian syndrome rather than confirmed Parkinson's— remains a matter of clinical debate. The chronology of the three painters is extensively documented: the paranoiac-critical method, the genesis of the soft watches, and the relationship with Gala (Dalí, *Diary of a Genius*, 1964); the truncated friendship with Lorca and the 1938 London meeting with Freud (Gibson, 1997); Picasso's periods and the Casagemas episode (Richardson, 1991–2007); and Miró's statements on the universal within the intimate and on the "assassination of painting" (Miró, *Selected Writings and Interviews*, 1978).
+>
+> **What we don't know:** Whether the event-horizon metaphor adds anything beyond geometry to an artist's biography, or whether it is only an elegant way of naming what art criticism already knew how to say in other words. Whether Integrated Information Theory (Tononi and Koch, 2015) can be applied, even loosely, to a pictorial style and not only to a brain. A black hole, according to the information paradox (Hawking, 1988; Bekenstein, 1973), threatens to destroy what falls into it; the work of art does the opposite —it transforms information into perceptible structure, never annihilating it— and that asymmetry is precisely what this chapter never quite resolves.
+>
+> **Questions that remain:** Does whoever reads this seal, inhabit, or dissolve their own horizon? Is it possible to choose one's own answer, or has the mass of each person's biography already decided it in advance? And if the observer is never external to the system being observed, what part of these three painters do we go on carrying, without knowing it, every time we look at one of their paintings?
+>
+> **If you take away only one idea:** There is no single correct way to survive one's own inner mass. Sealing it, inhabiting it, or dissolving it are three equally valid answers to the same problem, and none is transferable from one biography to another. The only thing that truly matters is not pretending there is no curvature.

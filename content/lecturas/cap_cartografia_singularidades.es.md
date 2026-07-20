@@ -51,6 +51,10 @@ Dalí levantó un búnker alrededor de su psique.
 
 Su pintura es una cápsula sellada donde el mundo exterior no entra sin someterse antes al método paranoico-crítico: una máquina que multiplica las imágenes, que dobla la realidad sobre sí misma hasta que el original y su reflejo ya no pueden distinguirse. Esta encapsulación no es estética. Es supervivencia.
 
+> **En física esto se llama:** un horizonte de sucesos. La frontera que separa lo que puede escapar hacia el exterior de lo que queda atrapado para siempre; nada la cruza sin ser antes transformado por la física interior del sistema.
+
+> **En la vida diaria es como:** un diario cerrado con llave. Lo que se escribe ahí dentro puede ser desahogo, invención o mentira, pero nunca sale tal cual entró: cuando por fin alguien lo lee, ya ha sido reescrito por la mano que lo guardó.
+
 El método tiene una obra manifiesto: la *Metamorfosis de Narciso*. Una figura agachada junto al agua es, a la vez, un muchacho ensimismado y una mano pétrea que sostiene un huevo del que brota una flor. No hay truco: ambas lecturas son simultáneas y completas, y el ojo no puede quedarse con las dos a la vez. Dalí ha construido una imagen en superposición, y cada espectador la colapsa a su manera. Freud, que lo recibió en Londres en 1938 con ese cuadro bajo el brazo, admitió ante el joven español lo que negaba al resto de los surrealistas: que allí había un problema psicológico serio. No era un cumplido. Era un diagnóstico.
 
 ## [ILUSTRACIÓN cart_narciso: "Metamorfosis de Narciso"]
@@ -82,6 +86,10 @@ Basta seguir sus transmutaciones para medir su masa. En *Galarina* es carne sere
 
 Pero, como toda singularidad, Gala es inobservable directamente. No la vemos en los cuadros como realmente es: la vemos transmutada en Leda, en virgen, en arquitectura. Es la masa invisible que curva el espacio daliniano, y solo se manifiesta a través de la gravedad que ejerce sobre todo lo demás.
 
+> **En física esto se llama:** materia oscura, o el propio agujero negro antes de su primera fotografía: una masa que nunca se observa de forma directa, solo se infiere por la curvatura que impone en todo lo que la rodea.
+
+> **En la vida diaria es como:** saber que sopla el viento por cómo se dobla la copa de un árbol. Nadie ve el viento; todos ven sus efectos, y con ellos reconstruyen su forma.
+
 La prueba definitiva llegó por ausencia. Cuando Gala murió, en 1982, el sistema se quedó sin centro: Dalí se encerró en el castillo de Púbol —que había comprado para ella y que en vida de Gala solo podía visitar con invitación escrita de su esposa—, dejó de comer, se quemó en un incendio nocturno, dejó prácticamente de pintar. La singularidad había desaparecido y el horizonte, sin masa que lo sostuviera, comenzó su colapso final. Los últimos siete años de Dalí no son biografía: son la comprobación empírica de su propia cosmología.
 
 ### Lorca: la información retenida
@@ -109,6 +117,10 @@ Miradlo en los retratos bicéfalos de los años treinta y cuarenta: la placidez 
 *Pablo Picasso, óleo sobre lienzo, 1937. Tate, Londres.*
 
 Ese rostro doble es la clave de toda su obra. Picasso no tiene un horizonte único: tiene muchos, superpuestos. Su yo no es un punto con posición definida; es una onda que abarca todos los estados posibles hasta que el acto de pintar colapsa la onda y materializa un estilo, una identidad temporal. Él mismo lo formuló, sin física, ante el retrato de Gertrude Stein: cuando le objetaron que ella no se parecía a ese rostro de máscara que le había pintado, respondió que ya se parecería. No era arrogancia: era la convicción de que el cuadro no registra un estado, sino que lo anticipa —de que la observación no copia la realidad, la produce.
+
+> **En física esto se llama:** superposición cuántica y colapso de la función de onda. Antes de la medición, una partícula no ocupa un solo estado: los ocupa todos a la vez, hasta que el acto de observar obliga al sistema a decidirse por uno.
+
+> **En la vida diaria es como:** una moneda todavía en el aire. Mientras gira no es cara ni cruz: es las dos cosas a la vez, y solo al caer sobre la mesa se convierte en un hecho.
 
 El primer colapso tiene fecha y cadáver. En 1901, su amigo Carles Casagemas se pega un tiro en un café de París por una mujer. Picasso, que tiene diecinueve años, entierra al amigo y a continuación pinta el mundo entero de azul durante tres años: mendigos, ciegos, madres consumidas, el propio Casagemas amortajado con la sien agujereada. La Etapa Azul no es un ejercicio tonal: es la primera demostración de que un trauma puede teñir la totalidad del espectro perceptivo, de que la masa de un solo muerto puede curvar toda la luz de un sistema. Después vino el rosa —los saltimbanquis, la ternura itinerante— y después el hachazo: entre el *Viejo guitarrista ciego* y *Las señoritas de Avignon* no hay transición narrativa. Hay un salto. Las cinco mujeres del burdel de la calle Avinyó, con sus rostros de máscara ibérica y africana, no evolucionan de nada anterior: irrumpen, como irrumpe una partícula donde la física clásica no la esperaba.
 
@@ -149,6 +161,10 @@ Sus *Constelaciones* encapsulan el infinito en una caja de cerillas: burbujas do
 
 Y su entrelazamiento es horizontal, democrático, total. Sus líneas finas y negras atan una estrella a una mujer, la mujer a un pájaro, el pájaro a una mancha primigenia. No hay jerarquía: una hormiga de *La masía* está entrelazada con el astro más lejano. Si Dalí entrelaza para sobrevivir y Picasso para poseer, Miró entrelaza para celebrar.
 
+> **En física esto se llama:** entrelazamiento multipartito. No un vínculo entre dos partículas, sino una red donde medir el estado de cualquier nodo altera instantáneamente el de todos los demás, sin que exista un centro jerárquico.
+
+> **En la vida diaria es como:** una telaraña cubierta de rocío: toca un solo hilo y toda la red tiembla por igual, porque ninguno de sus puntos es más importante que otro.
+
 Pero que nadie confunda levedad con anestesia. El dolor de la guerra está en sus líneas, aunque sea como tensión contenida: en el negro de *El segador*, en la violencia de las pinturas salvajes de los años treinta, en el trazo tirante de unas *Constelaciones* pintadas huyendo. La cuerda que ata la estrella a la mujer está tensada por la historia; simplemente, no se rompe.
 
 La vejez de Miró es el reverso exacto de la de Dalí. Donde uno se desintegraba sin querer, el otro se vació por voluntad propia. Los tres lienzos de *Azul I, II y III* son campos casi desnudos: un rastro de puntos, una línea roja, una extensión de azul que el propio Miró comparó con la preparación de un rito. Había tardado toda una vida en ganarse el derecho a pintar casi nada. Y cuando el mundo quiso convertirlo en clásico, respondió quemando y acuchillando sus propias telas —las *telas cremades* de 1973, expuestas con las quemaduras a la vista—: a los ochenta años, el más leve de los tres seguía negándose a que su universo se convirtiera en patrimonio. La disolución también hay que defenderla.
@@ -158,6 +174,10 @@ También destruye la flecha del tiempo. Su tiempo es el del asombro, donde un mi
 ## IV. El problema de los tres cuerpos
 
 Estos tres sistemas no orbitaron aislados: se perturbaron mutuamente.
+
+> **En física esto se llama:** el problema de los tres cuerpos. En mecánica celeste, tres masas que se atraen mutuamente no tienen solución cerrada: la trayectoria de cada una queda alterada para siempre por la presencia de las otras dos, y ninguna vuelve a orbitar en soledad.
+
+> **En la vida diaria es como:** tres hermanos criados en la misma casa. Ninguno se explica sin los otros dos: cada carácter se curva, aunque sea un poco, por la simple gravedad de compartir mesa.
 
 Dalí necesitó a Picasso como se necesita un campo gravitatorio contra el que medirse. Lo visitó en París en 1926, antes que al Louvre —«He venido a verle a usted antes que al Louvre»; «Ha hecho usted muy bien»—, y ya no dejó nunca de orbitarlo. Fue Picasso quien le pagó el pasaje de su primer viaje a América, el viaje que lo lanzó a la celebridad; Dalí correspondió durante décadas enviándole postales y homenajes que el malagueño, comunista y ofendido por el franquismo confeso del otro, jamás respondió. Un entrelazamiento perfecto en su asimetría: Dalí no podía dejar de emitir; Picasso no necesitaba recibir. Décadas después, el ampurdanés seguía definiéndose por contraste: «Picasso es español, yo también. Picasso es genial, yo también. Picasso es comunista, yo tampoco». La encapsulación daliniana se construyó, en parte, como blindaje frente a esa masa mayor: para no ser absorbido por el campo picassiano, Dalí tuvo que aumentar sin descanso la densidad de su propio mito.
 
@@ -197,14 +217,12 @@ El observador no está fuera del sistema. El observador es el sistema.
 
 > *Para Tarel, que sabe que cada cierre es una nueva singularidad.*
 
-## Notas
-
-1. Forsythe, A., Williams, T. y Reilly, R. G. «What paint can tell us: A fractal analysis of neurological changes in seven artists». *Neuropsychology*, 31(1), 2017. El análisis fractal de las pinceladas tardías de Dalí, que aquí leemos como evaporación del yo. Conviene señalar que su diagnóstico —síndrome parkinsoniano más que Parkinson confirmado— sigue siendo objeto de debate clínico.
-2. Sobre los límites de la analogía. La metáfora que vertebra este capítulo es cartográfica, no ontológica: presta geometría, no leyes. Un agujero negro, según la paradoja de la información, amenaza con destruir lo que cae en él; la obra de arte hace exactamente lo contrario: no destruye información, la transforma en estructura perceptible. El horizonte del yo, además, es permeable en ambos sentidos, y el observador nunca es externo al sistema que mide.
-3. Hawking, S. *A Brief History of Time*. Bantam Books, 1988. La radiación de los agujeros negros y la paradoja de la información, marco que aquí se aplica metafóricamente al yo.
-4. Bekenstein, J. D. «Black Holes and Entropy». *Physical Review D*, 7(8), 1973. La entropía de Bekenstein-Hawking como analogía de la transformación —no la pérdida— de la información.
-5. Dalí, S. *Diario de un genio*. Destino, 1964, y *La vida secreta de Salvador Dalí*, 1942. Fuentes primarias sobre el método paranoico-crítico, la génesis de los relojes blandos y la relación con Gala.
-6. Gibson, I. *The Shameful Life of Salvador Dalí*. Faber & Faber, 1997. La documentación de la relación Dalí–Lorca y del encuentro con Freud en Londres en 1938.
-7. Richardson, J. *A Life of Picasso*. Random House, 1991–2007 (3 vols.). Cronología y análisis de las etapas picassianas, incluido el episodio Casagemas.
-8. Miró, J. *Escritos y declaraciones*. Polígrafa, 1978. Las declaraciones de Miró sobre lo universal en lo íntimo y sobre el «asesinato de la pintura».
-9. Tononi, G. y Koch, C. «Consciousness: Here, There and Everywhere?». *Philosophical Transactions of the Royal Society B*, 370, 2015. La Teoría de la Información Integrada, puente entre física y fenomenología que subyace a todo el capítulo.
+> **Nota al Capítulo 34**
+>
+> **Lo que sí sabemos:** El análisis fractal de las pinceladas tardías de Dalí (Forsythe, Williams y Reilly, 2017) detectó alteraciones que preceden a su diagnóstico clínico, aunque el diagnóstico mismo —síndrome parkinsoniano más que Parkinson confirmado— sigue siendo objeto de debate. La cronología de los tres pintores está extensamente documentada: el método paranoico-crítico, la génesis de los relojes blandos y la relación con Gala (Dalí, *Diario de un genio*, 1964), la amistad truncada con Lorca y el encuentro con Freud en Londres en 1938 (Gibson, 1997), las etapas picassianas y el episodio Casagemas (Richardson, 1991–2007), y las declaraciones de Miró sobre lo universal en lo íntimo y el «asesinato de la pintura» (Miró, *Escritos y declaraciones*, 1978).
+>
+> **Lo que no sabemos:** Si la metáfora del horizonte de sucesos añade algo más que geometría a la biografía de un artista, o si es solo una forma elegante de nombrar lo que la crítica de arte ya sabía decir con otras palabras. Si la Teoría de la Información Integrada (Tononi y Koch, 2015) admite aplicarse, aunque sea de forma laxa, a un estilo pictórico y no solo a un cerebro. Un agujero negro, según la paradoja de la información (Hawking, 1988; Bekenstein, 1973), amenaza con destruir lo que cae en él; la obra de arte hace lo contrario —transforma la información en estructura perceptible, nunca la aniquila—, y esa asimetría es la que este capítulo nunca termina de resolver.
+>
+> **Preguntas que quedan:** ¿Sella, habita o disuelve su propio horizonte quien lee esto? ¿Es posible elegir la propia respuesta, o la masa de la biografía de cada uno ya la ha decidido de antemano? Y si el espectador nunca es externo al sistema que observa, ¿qué parte de estos tres pintores seguimos cargando nosotros, sin saberlo, cada vez que miramos uno de sus cuadros?
+>
+> **Si solo te quedas con una idea:** No existe una única manera correcta de sobrevivir a la propia masa interior. Sellarla, habitarla o disolverla son tres respuestas igual de válidas al mismo problema, y ninguna es transferible de una biografía a otra. Lo único que de verdad importa es no fingir que no hay curvatura.
