@@ -146,7 +146,7 @@ Every thought experiment finds, sooner or later, its limit in the flesh of exper
 
 ---
 
-> **Note to Chapter 36**
+> **Note to Chapter 37**
 >
 > **What we do know:** Meditation changes brain structure (neuroplasticity). Precise vocabulary provides relief (narrative therapy).
 >

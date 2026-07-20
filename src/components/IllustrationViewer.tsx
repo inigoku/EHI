@@ -281,6 +281,11 @@ const imageMap: Record<string, string> = {
   cart_masia: "https://upload.wikimedia.org/wikipedia/en/3/33/TheFarmMiro21to22.jpg",
   cart_constelaciones: "https://upload.wikimedia.org/wikipedia/en/3/39/MiroMorningStar.JPG",
 
+  // "Historia de un relevo" — real news photos of the 2026 World Cup final
+  // goal and the 2007 Messi/Yamal charity-calendar photo
+  cart_ferran_gol: "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-19T215113Z_1479842861_UP1EM7J1OPCXN_RTRMADP_3_SOCCER-WORLDCUP-ESP-ARG-1024x706.jpg",
+  cart_messi_yamal: "https://i.abcnewsfe.com/a/098c18d3-8236-4244-8a8a-85a58d51d9ed/messi-yamal-3-ap-gmh-260717_1784294935058_hpMain_4x3.jpg",
+
   // Cuentos illustrations mapping
   cuento_01: cuento01,
   cuento_agua_retira: cuentoAguaRetira,
