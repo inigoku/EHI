@@ -21,6 +21,8 @@ import json
 import re
 import ssl
 import sys
+import time
+import urllib.error
 import urllib.request
 from pathlib import Path
 from typing import Optional
@@ -150,20 +152,54 @@ def is_url(path_str: str) -> bool:
     return path_str.startswith("http://") or path_str.startswith("https://")
 
 
+_image_cache: dict = {}
+_last_request_time = 0.0
+_MIN_REQUEST_INTERVAL = 1.0  # seconds between outgoing requests, to avoid tripping rate limits
+_MAX_RETRIES = 4
+
+
+def _fetch_url(path_str: str, ca_bundle: Optional[str]) -> bytes:
+    global _last_request_time
+    ctx = ssl.create_default_context(cafile=ca_bundle) if ca_bundle else None
+    # Wikimedia (and some other hosts) reject requests with no/blank
+    # User-Agent, so identify ourselves as a real browser-ish client.
+    request = urllib.request.Request(
+        path_str, headers={"User-Agent": "Mozilla/5.0 (compatible; generate-book-pdf/1.0)"}
+    )
+    for attempt in range(1, _MAX_RETRIES + 1):
+        wait = _MIN_REQUEST_INTERVAL - (time.monotonic() - _last_request_time)
+        if wait > 0:
+            time.sleep(wait)
+        try:
+            _last_request_time = time.monotonic()
+            with urllib.request.urlopen(request, timeout=15, context=ctx) as resp:
+                return resp.read()
+        except urllib.error.HTTPError as exc:
+            _last_request_time = time.monotonic()
+            if exc.code == 429 and attempt < _MAX_RETRIES:
+                retry_after = exc.headers.get("Retry-After") if exc.headers else None
+                delay = float(retry_after) if retry_after and retry_after.isdigit() else 2 ** attempt
+                print(f"  ({path_str}: rate-limited, retrying in {delay:.0f}s "
+                      f"[{attempt}/{_MAX_RETRIES}])", file=sys.stderr)
+                time.sleep(delay)
+                continue
+            raise
+    raise RuntimeError("unreachable")  # loop always returns or raises
+
+
 def load_image_bytes(path_str: str, base_dir: Path, ca_bundle: Optional[str]) -> Optional[bytes]:
     """Load image bytes from a local path or a remote URL. Returns None (and
     warns on stderr) rather than raising, so one bad illustration never
-    aborts the whole book."""
+    aborts the whole book. Remote fetches are cached, throttled, and retried
+    with backoff on HTTP 429 (Wikimedia rate-limits bursts of anonymous
+    requests, which a multi-image chapter will otherwise trigger easily)."""
     if is_url(path_str):
+        if path_str in _image_cache:
+            return _image_cache[path_str]
         try:
-            ctx = ssl.create_default_context(cafile=ca_bundle) if ca_bundle else None
-            # Wikimedia (and some other hosts) reject requests with no/blank
-            # User-Agent, so identify ourselves as a real browser-ish client.
-            request = urllib.request.Request(
-                path_str, headers={"User-Agent": "Mozilla/5.0 (compatible; generate-book-pdf/1.0)"}
-            )
-            with urllib.request.urlopen(request, timeout=15, context=ctx) as resp:
-                return resp.read()
+            data = _fetch_url(path_str, ca_bundle)
+            _image_cache[path_str] = data
+            return data
         except Exception as exc:  # noqa: BLE001 - deliberately broad, this is a best-effort fetch
             print(f"warning: could not download illustration '{path_str}': {exc}", file=sys.stderr)
             return None
