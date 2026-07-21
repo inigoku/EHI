@@ -1,0 +1,34 @@
+{
+  "title": "El Horizonte Interior",
+  "subtitle": "Muestra generada a partir de la tabla de contenidos",
+  "author": "Iñigo Barrera",
+  "language": "es",
+  "cover_image": "../src/assets/images/portada.png",
+  "illustrations": {
+    "il01": "../src/assets/images/ilustracion_01.png",
+    "il_prologo": "../src/assets/images/ilustracion_03.png",
+    "il04": "../src/assets/images/ilustracion_04.png",
+    "il_singularidades": "../src/assets/images/ilustracion_singularidades.png",
+    "cart_construccion": "https://upload.wikimedia.org/wikipedia/en/8/89/SalvadorDali-SoftConstructionWithBeans.jpg",
+    "cart_guernica": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg",
+    "cart_narciso": "https://upload.wikimedia.org/wikipedia/en/2/21/Metamorphosis_of_Narcissus.jpg"
+  },
+  "chapters": [
+    {
+      "id": "prologo",
+      "content_file": "../content/ensayo/prologo.es.md"
+    },
+    {
+      "id": "cap0",
+      "content_file": "../content/ensayo/cap0.es.md"
+    },
+    {
+      "id": "cap1",
+      "content_file": "../content/ensayo/cap1.es.md"
+    },
+    {
+      "id": "cap_cartografia_singularidades",
+      "content_file": "../content/lecturas/cap_cartografia_singularidades.es.md"
+    }
+  ]
+}
