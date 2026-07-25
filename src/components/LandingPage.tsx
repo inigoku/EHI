@@ -74,24 +74,13 @@ export const LandingPage: React.FC<LandingPageProps> = ({
     return () => clearInterval(timer);
   }, []);
 
-  // Bucle del vídeo de intro: al terminar, vuelve al segundo 1.0 (como en la
-  // versión original; el fotograma 0 no forma parte del bucle).
-  const LOOP_START = 1.0;
-
+  // Vídeo de intro: arranque explícito al montar (el componente se desmonta
+  // al cambiar de página, así que hay que asegurar el play cada vez que vuelve)
   React.useEffect(() => {
-    if (videoARef.current) videoARef.current.currentTime = LOOP_START;
-  }, []);
-
-  const handleVideoLoaded = () => {
-    if (videoARef.current) videoARef.current.currentTime = LOOP_START;
-  };
-
-  const handleVideoEnded = () => {
-    if (videoARef.current) {
-      videoARef.current.currentTime = LOOP_START;
+    if (page === 0 && videoARef.current) {
       videoARef.current.play().catch(() => {});
     }
-  };
+  }, [page]);
 
   // Navegación secuencial entre páginas
   const goNext = () => setPage((p) => Math.min(p + 1, TOTAL_PAGES - 1));
@@ -196,13 +185,12 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             <section className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-slate-950">
               <video
                 ref={videoARef}
-                src="/eHI-intro.mp4#t=1.0"
+                src="/eHI-intro.mp4"
                 className="absolute inset-0 w-full h-full object-cover opacity-80 select-none pointer-events-none"
                 autoPlay
                 muted
+                loop
                 playsInline
-                onLoadedData={handleVideoLoaded}
-                onEnded={handleVideoEnded}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-slate-950/40" />
               <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,rgba(2,6,23,0.4))] pointer-events-none" />
