@@ -221,11 +221,14 @@ export default function App() {
         setLanguage={setLanguage}
         onStartReading={(mode, chapterId) => {
           setReadingMode(mode);
-          setActivePathLanding(mode); // Activar siempre al ir desde la pantalla principal
           setVisitedModes(prev => ({ ...prev, [mode]: true }));
           if (chapterId) {
+            // Enlace directo a una pieza concreta (p. ej. palabras flotantes):
+            // ir directamente al texto, sin pasar por el landing del camino.
             setActiveChapterId(chapterId);
+            setActivePathLanding(null);
           } else {
+            setActivePathLanding(mode); // Activar landing al entrar solo al modo
             if (mode === "essay") setActiveChapterId("cap0");
             else if (mode === "cuentos") setActiveChapterId("cuento0");
             else if (mode === "poemas") setActiveChapterId("poema0");

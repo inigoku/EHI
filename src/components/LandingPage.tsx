@@ -116,6 +116,15 @@ export const LandingPage: React.FC<LandingPageProps> = ({
   const goNext = () => setPage((p) => Math.min(p + 1, TOTAL_PAGES - 1));
   const goPrev = () => setPage((p) => Math.max(p - 1, 0));
 
+  // Al cambiar de página, empezar siempre desde el principio (ventana y
+  // cualquier scroll interno de la sección anterior)
+  React.useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "auto" });
+    document.querySelectorAll("section.overflow-y-auto").forEach((el) => {
+      (el as HTMLElement).scrollTop = 0;
+    });
+  }, [page]);
+
   // Flechas del teclado para navegar entre páginas de la landing
   React.useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
