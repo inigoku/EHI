@@ -30,8 +30,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({
   const [phraseIndex, setPhraseIndex] = React.useState(0);
   const [page, setPage] = React.useState(0);
   const videoARef = React.useRef<HTMLVideoElement>(null);
-  const videoBRef = React.useRef<HTMLVideoElement>(null);
-  const [showVideoB, setShowVideoB] = React.useState(false);
   const audioRef = React.useRef<HTMLAudioElement>(null);
   const { volume, setVolume, isMuted, toggleMute } = useAudioPrefs();
 
@@ -76,40 +74,23 @@ export const LandingPage: React.FC<LandingPageProps> = ({
     return () => clearInterval(timer);
   }, []);
 
-  // Bucle seamless del vídeo de intro: dos instancias que se alternan con un
-  // crossfade antes de que la activa llegue al final (el vídeo tiene un salto
-  // brusco si vuelve al segundo 1.0 de golpe).
+  // Bucle del vídeo de intro: al terminar, vuelve al segundo 1.0 (como en la
+  // versión original; el fotograma 0 no forma parte del bucle).
   const LOOP_START = 1.0;
-  const FADE_BEFORE_END = 1.2; // segundos antes del final en que empieza el fundido
 
   React.useEffect(() => {
     if (videoARef.current) videoARef.current.currentTime = LOOP_START;
-    if (videoBRef.current) videoBRef.current.currentTime = LOOP_START;
   }, []);
 
-  React.useEffect(() => {
-    const active = (showVideoB ? videoBRef : videoARef).current;
-    const standby = (showVideoB ? videoARef : videoBRef).current;
-    if (!active || !standby) return;
+  const handleVideoLoaded = () => {
+    if (videoARef.current) videoARef.current.currentTime = LOOP_START;
+  };
 
-    let raf = 0;
-    let swapped = false;
-    const tick = () => {
-      if (!swapped && active.duration && active.currentTime >= active.duration - FADE_BEFORE_END) {
-        swapped = true;
-        standby.currentTime = LOOP_START;
-        standby.play().catch(() => {});
-        setShowVideoB((v) => !v);
-        active.pause();
-      }
-      raf = requestAnimationFrame(tick);
-    };
-    raf = requestAnimationFrame(tick);
-    return () => cancelAnimationFrame(raf);
-  }, [showVideoB]);
-
-  const handleVideoLoaded = (ref: React.RefObject<HTMLVideoElement | null>) => {
-    if (ref.current) ref.current.currentTime = LOOP_START;
+  const handleVideoEnded = () => {
+    if (videoARef.current) {
+      videoARef.current.currentTime = LOOP_START;
+      videoARef.current.play().catch(() => {});
+    }
   };
 
   // Navegación secuencial entre páginas
@@ -216,23 +197,12 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               <video
                 ref={videoARef}
                 src="/eHI-intro.mp4#t=1.0"
-                className={`absolute inset-0 w-full h-full object-cover select-none pointer-events-none transition-opacity duration-1000 ${
-                  showVideoB ? "opacity-0" : "opacity-80"
-                }`}
+                className="absolute inset-0 w-full h-full object-cover opacity-80 select-none pointer-events-none"
                 autoPlay
                 muted
                 playsInline
-                onLoadedData={() => handleVideoLoaded(videoARef)}
-              />
-              <video
-                ref={videoBRef}
-                src="/eHI-intro.mp4#t=1.0"
-                className={`absolute inset-0 w-full h-full object-cover select-none pointer-events-none transition-opacity duration-1000 ${
-                  showVideoB ? "opacity-80" : "opacity-0"
-                }`}
-                muted
-                playsInline
-                onLoadedData={() => handleVideoLoaded(videoBRef)}
+                onLoadedData={handleVideoLoaded}
+                onEnded={handleVideoEnded}
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-slate-950/40" />
               <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,rgba(2,6,23,0.4))] pointer-events-none" />
