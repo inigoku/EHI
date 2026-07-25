@@ -58,6 +58,10 @@ export interface UiStrings {
     sectionLabel: string;
     bridgeTitle: string;
     synopsis: string;
+    floatingTitle: string;
+    floatingHint: string;
+    prevPage: string;
+    nextPage: string;
     card1Title: string;
     card1Desc: string;
     card2Title: string;
@@ -169,6 +173,14 @@ export interface UiStrings {
     collapse: string;
     confirmClearReflection: string;
     pendingTranslation: string;
+    journeyLabel: string;
+    journeyStepEssay: string;
+    journeyStepCuento: string;
+    journeyStepPoema: string;
+    journeyContinueCuento: string;
+    journeyContinuePoema: string;
+    journeyResumeEssay: string;
+    journeyHint: string;
   };
 }
 
@@ -230,6 +242,10 @@ export const uiStrings: Record<Language, UiStrings> = {
       startReading: "Comenzar Lectura",
       sectionLabel: "El Horizonte de Sucesos de la Mente",
       bridgeTitle: "Un puente entre la geometría y el alma",
+      floatingTitle: "Las palabras de la obra",
+      floatingHint: "Toca una palabra para leer donde vive",
+      prevPage: "Página anterior",
+      nextPage: "Página siguiente",
       synopsis:
         "El Horizonte Interior es una exploración sobre la conciencia que desafía las fronteras tradicionales entre la ciencia y la experiencia vital. A través del prisma de la física teórica y el principio holográfico, esta obra plantea una hipótesis atrevida: que la mente no está guardada dentro del cerebro, sino escrita en su periferia geométrica.",
       card1Title: "1. La Burbuja",
@@ -361,6 +377,14 @@ export const uiStrings: Record<Language, UiStrings> = {
       collapse: "Plegar",
       confirmClearReflection: "¿Estás seguro de que quieres borrar tu reflexión para este capítulo?",
       pendingTranslation: "Traducción al inglés pendiente. Mostrando el texto original en español.",
+      journeyLabel: "El recorrido",
+      journeyStepEssay: "Ensayo",
+      journeyStepCuento: "Cuento",
+      journeyStepPoema: "Poema",
+      journeyContinueCuento: "Continuar el viaje al cuento",
+      journeyContinuePoema: "Continuar el viaje al poema",
+      journeyResumeEssay: "Retomar el ensayo",
+      journeyHint: "Cada capítulo del ensayo desemboca en un cuento, y cada cuento en un poema. Sigue el hilo.",
     },
   },
   en: {
@@ -420,6 +444,10 @@ export const uiStrings: Record<Language, UiStrings> = {
       startReading: "Start Reading",
       sectionLabel: "The Event Horizon of the Mind",
       bridgeTitle: "A bridge between geometry and the soul",
+      floatingTitle: "The words of the work",
+      floatingHint: "Touch a word to read where it lives",
+      prevPage: "Previous page",
+      nextPage: "Next page",
       synopsis:
         "is an exploration of consciousness that challenges the traditional boundaries between science and lived experience. Through the lens of theoretical physics and the holographic principle, this work proposes a bold hypothesis: that the mind is not stored inside the brain, but written on its geometric periphery.",
       card1Title: "1. The Bubble",
@@ -551,6 +579,14 @@ export const uiStrings: Record<Language, UiStrings> = {
       collapse: "Collapse",
       confirmClearReflection: "Are you sure you want to delete your reflection for this chapter?",
       pendingTranslation: "English translation pending. Showing the original Spanish text.",
+      journeyLabel: "The journey",
+      journeyStepEssay: "Essay",
+      journeyStepCuento: "Story",
+      journeyStepPoema: "Poem",
+      journeyContinueCuento: "Continue the journey to the story",
+      journeyContinuePoema: "Continue the journey to the poem",
+      journeyResumeEssay: "Resume the essay",
+      journeyHint: "Each essay chapter flows into a story, and each story into a poem. Follow the thread.",
     },
   },
 };

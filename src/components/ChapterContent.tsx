@@ -1,5 +1,6 @@
 import React from "react";
 import { Chapter, Illustration, allChapters, cuentosList } from "../chapters";
+import { JourneyNav } from "./JourneyNav";
 import { IllustrationViewer } from "./IllustrationViewer";
 import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
@@ -143,6 +144,40 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const [reconstructTab, setReconstructTab] = React.useState<"narrativa" | "ensayo" | "poema">("narrativa");
   const reconTabLabel =
     reconstructTab === "narrativa" ? t.reconTabNarrativa : reconstructTab === "ensayo" ? t.reconTabEnsayo : t.reconTabPoema;
+
+  // Reading progress (0..1) based on window scroll
+  const [readProgress, setReadProgress] = React.useState<number>(0);
+  React.useEffect(() => {
+    const onScroll = () => {
+      const el = document.documentElement;
+      const total = el.scrollHeight - el.clientHeight;
+      setReadProgress(total > 0 ? Math.min(1, Math.max(0, el.scrollTop / total)) : 0);
+    };
+    onScroll();
+    window.addEventListener("scroll", onScroll, { passive: true });
+    window.addEventListener("resize", onScroll);
+    return () => {
+      window.removeEventListener("scroll", onScroll);
+      window.removeEventListener("resize", onScroll);
+    };
+  }, [chapter.id]);
+
+  // Keyboard navigation: ← previous, → next (ignored while typing)
+  React.useEffect(() => {
+    const onKey = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === "TEXTAREA" || target.tagName === "INPUT" || target.isContentEditable)) return;
+      if (e.key === "ArrowRight" && hasNext) {
+        e.preventDefault();
+        onNext();
+      } else if (e.key === "ArrowLeft" && hasPrev) {
+        e.preventDefault();
+        onPrev();
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [hasNext, hasPrev, onNext, onPrev]);
 
   // Scroll to top on chapter change
   React.useEffect(() => {
@@ -539,7 +574,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       if (trimmed.startsWith("- ") || trimmed.startsWith("* ")) {
         const rawContent = trimmed.substring(2);
         processedBlocks.push(
-          <li key={i} className="ml-6 list-disc mb-2 leading-relaxed font-serif">
+          <li key={i} className="ml-6 list-disc mb-2 leading-relaxed font-serif text-left">
             {parseInlineStyles(rawContent)}
           </li>
         );
@@ -552,7 +587,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         const match = trimmed.match(/^(\d+)\.\s(.*)/);
         if (match) {
           processedBlocks.push(
-            <li key={i} className="ml-6 list-decimal mb-2 leading-relaxed font-serif">
+            <li key={i} className="ml-6 list-decimal mb-2 leading-relaxed font-serif text-left">
               {parseInlineStyles(match[2], { linkTitles: inIndexSection })}
             </li>
           );
@@ -830,7 +865,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           <div className="pt-2">
             <button
               onClick={() => onSwitchMode("essay", chapter.linkedChapterId)}
-              className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer"
+              className="inline-flex items-center gap-1.5 max-w-full text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer whitespace-normal text-center leading-snug break-words"
             >
               📖 {t.readRelatedEssay}: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
             </button>
@@ -840,7 +875,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           <div className="pt-2">
             <button
               onClick={() => onSwitchMode("cuentos", chapter.linkedCuentosId)}
-              className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer"
+              className="inline-flex items-center gap-1.5 max-w-full text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer whitespace-normal text-center leading-snug break-words"
             >
               📖 {t.readRelatedStory}: "{getLinkedCuentoTitle(chapter.linkedCuentosId)}"
             </button>
@@ -1171,12 +1206,21 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             <div className="flex justify-center pt-2">
               <button
                 onClick={() => onSwitchMode("essay", chapter.linkedChapterId)}
-                className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
+                className="inline-flex items-center gap-1.5 max-w-full text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm whitespace-normal text-center leading-snug break-words"
               >
                 📖 {t.backToEssay}: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
               </button>
             </div>
           )}
+
+          {/* Recorrido guiado: desde el cuento, continuar al poema */}
+          <JourneyNav
+            chapter={chapter}
+            readingMode={readingMode}
+            language={language}
+            theme={theme}
+            onSwitchMode={onSwitchMode}
+          />
         </div>
       ) : (
         /* Centered Essay Layout */
@@ -1301,8 +1345,25 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               </button>
             </div>
           </div>
+
+          {/* Recorrido guiado: desde el ensayo, continuar al cuento */}
+          <JourneyNav
+            chapter={chapter}
+            readingMode={readingMode}
+            language={language}
+            theme={theme}
+            onSwitchMode={onSwitchMode}
+          />
         </div>
       )}
+
+      {/* Reading progress bar - thin line under the header showing how far into the piece the reader is */}
+      <div className="fixed top-16 lg:top-20 left-0 lg:left-80 right-0 h-[3px] z-40 pointer-events-none">
+        <div
+          className="h-full bg-gradient-to-r from-amber-500/70 to-amber-400 shadow-[0_0_8px_rgba(245,158,11,0.45)] transition-[width] duration-150 ease-out"
+          style={{ width: `${readProgress * 100}%` }}
+        />
+      </div>
 
       {/* Navigation Footer - fixed so it stays visible while reading, not just at the end of the chapter */}
       <div
