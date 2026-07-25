@@ -74,13 +74,25 @@ export const LandingPage: React.FC<LandingPageProps> = ({
     return () => clearInterval(timer);
   }, []);
 
-  // Vídeo de intro: arranque explícito al montar (el componente se desmonta
-  // al cambiar de página, así que hay que asegurar el play cada vez que vuelve)
+  // Vídeo de intro: código idéntico al de la landing original.
   React.useEffect(() => {
-    if (page === 0 && videoARef.current) {
+    if (videoARef.current) {
+      videoARef.current.currentTime = 1.0;
+    }
+  }, []);
+
+  const handleLoadedData = () => {
+    if (videoARef.current) {
+      videoARef.current.currentTime = 1.0;
+    }
+  };
+
+  const handleEnded = () => {
+    if (videoARef.current) {
+      videoARef.current.currentTime = 1.0;
       videoARef.current.play().catch(() => {});
     }
-  }, [page]);
+  };
 
   // Navegación secuencial entre páginas
   const goNext = () => setPage((p) => Math.min(p + 1, TOTAL_PAGES - 1));
@@ -171,73 +183,78 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         autoPlay
       />
 
+      {/* ══════════ PÁGINA 1: VÍDEO — siempre montada, igual que la landing
+           original; las demás páginas se superponen encima al navegar ══════════ */}
+      <section
+        className="absolute inset-0 w-full h-full flex flex-col justify-between overflow-hidden bg-slate-950"
+        style={{ visibility: page === 0 ? "visible" : "hidden" }}
+      >
+        <video
+          ref={videoARef}
+          src="/eHI-intro.mp4#t=1.0"
+          className="absolute inset-0 w-full h-full object-cover opacity-80 select-none pointer-events-none"
+          autoPlay
+          muted
+          playsInline
+          onLoadedData={handleLoadedData}
+          onEnded={handleEnded}
+        />
+        <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-slate-950/40" />
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,rgba(2,6,23,0.4))] pointer-events-none" />
+
+        <header className="relative w-full max-w-7xl mx-auto px-6 py-8 flex justify-between items-center z-20">
+          <div className="flex flex-col">
+            <span className="text-[10px] text-amber-400 font-bold uppercase tracking-[0.3em] font-sans">
+              {t.landing.hypothesisLabel}
+            </span>
+            <span className="text-xl font-display italic text-white leading-none mt-1">
+              {t.header.bookTitle}
+            </span>
+          </div>
+          <div className="flex items-center gap-6 font-sans text-xs tracking-wider text-slate-300">
+            <LanguageToggle language={language} setLanguage={setLanguage} variant="dark" />
+          </div>
+        </header>
+
+        <div className="relative flex-1 flex items-center justify-center z-20 max-w-5xl mx-auto w-full px-6">
+          <div className="flex flex-col items-center justify-center text-center">
+            <AnimatePresence mode="wait">
+              <motion.p
+                key={phraseIndex}
+                initial={{ opacity: 0, y: 25, filter: "blur(5px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                exit={{ opacity: 0, y: -25, filter: "blur(5px)" }}
+                transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
+                className="font-display text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-amber-50/95 italic font-medium leading-relaxed tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)] min-h-[180px] md:min-h-[160px] flex items-center justify-center max-w-4xl"
+              >
+                {INTRO_PHRASES[phraseIndex]}
+              </motion.p>
+            </AnimatePresence>
+          </div>
+        </div>
+
+        <div className="relative pb-24 flex flex-col items-center z-20 gap-4">
+          <button
+            onClick={() => onStartReading("essay")}
+            className="flex items-center gap-2 px-8 py-4 rounded-xl bg-amber-500 text-slate-950 font-sans font-bold hover:bg-amber-400 active:scale-95 transition-all shadow-xl shadow-amber-500/10 cursor-pointer"
+          >
+            {t.landing.startReading}
+            <ArrowRight className="w-4 h-4" />
+          </button>
+        </div>
+      </section>
+
+      {/* Páginas 2-4: se superponen al vídeo con transición */}
       <AnimatePresence mode="wait">
-        <motion.div
-          key={page}
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -30 }}
-          transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
-          className="h-full"
-        >
-          {/* ══════════ PÁGINA 1: VÍDEO ══════════ */}
-          {page === 0 && (
-            <section className="relative w-full h-full flex flex-col justify-between overflow-hidden bg-slate-950">
-              <video
-                ref={videoARef}
-                src="/eHI-intro.mp4"
-                className="absolute inset-0 w-full h-full object-cover opacity-80 select-none pointer-events-none"
-                autoPlay
-                muted
-                loop
-                playsInline
-              />
-              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-slate-950/40" />
-              <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,transparent_40%,rgba(2,6,23,0.4))] pointer-events-none" />
-
-              <header className="relative w-full max-w-7xl mx-auto px-6 py-8 flex justify-between items-center z-20">
-                <div className="flex flex-col">
-                  <span className="text-[10px] text-amber-400 font-bold uppercase tracking-[0.3em] font-sans">
-                    {t.landing.hypothesisLabel}
-                  </span>
-                  <span className="text-xl font-display italic text-white leading-none mt-1">
-                    {t.header.bookTitle}
-                  </span>
-                </div>
-                <div className="flex items-center gap-6 font-sans text-xs tracking-wider text-slate-300">
-                  <LanguageToggle language={language} setLanguage={setLanguage} variant="dark" />
-                </div>
-              </header>
-
-              <div className="relative flex-1 flex items-center justify-center z-20 max-w-5xl mx-auto w-full px-6">
-                <div className="flex flex-col items-center justify-center text-center">
-                  <AnimatePresence mode="wait">
-                    <motion.p
-                      key={phraseIndex}
-                      initial={{ opacity: 0, y: 25, filter: "blur(5px)" }}
-                      animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
-                      exit={{ opacity: 0, y: -25, filter: "blur(5px)" }}
-                      transition={{ duration: 1.0, ease: [0.16, 1, 0.3, 1] }}
-                      className="font-display text-2xl sm:text-3xl md:text-5xl lg:text-6xl text-amber-50/95 italic font-medium leading-relaxed tracking-wide drop-shadow-[0_4px_12px_rgba(0,0,0,0.5)] min-h-[180px] md:min-h-[160px] flex items-center justify-center max-w-4xl"
-                    >
-                      {INTRO_PHRASES[phraseIndex]}
-                    </motion.p>
-                  </AnimatePresence>
-                </div>
-              </div>
-
-              <div className="relative pb-24 flex flex-col items-center z-20 gap-4">
-                <button
-                  onClick={() => onStartReading("essay")}
-                  className="flex items-center gap-2 px-8 py-4 rounded-xl bg-amber-500 text-slate-950 font-sans font-bold hover:bg-amber-400 active:scale-95 transition-all shadow-xl shadow-amber-500/10 cursor-pointer"
-                >
-                  {t.landing.startReading}
-                  <ArrowRight className="w-4 h-4" />
-                </button>
-              </div>
-            </section>
-          )}
-
+        {page > 0 && (
+          <motion.div
+            key={page}
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0, y: -30 }}
+            transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
+            className="absolute inset-0 h-full"
+          >
           {/* ══════════ PÁGINA 2: PALABRAS FLOTANTES ══════════ */}
           {page === 1 && (
             <FloatingWords
@@ -250,7 +267,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
 
           {/* ══════════ PÁGINA 3: LAS CLAVES ══════════ */}
           {page === 2 && (
-            <section className="h-full overflow-y-auto px-6 sm:px-12 py-16 flex flex-col justify-center">
+            <section className={`h-full overflow-y-auto px-6 sm:px-12 py-16 flex flex-col justify-center ${tc.bg}`}>
               <div className="text-center max-w-3xl mx-auto space-y-6">
                 <span className={`text-xs font-mono uppercase tracking-[0.2em] ${tc.accentText} bg-amber-500/10 px-3 py-1 rounded-full font-bold`}>
                   {t.landing.sectionLabel}
@@ -297,7 +314,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
 
           {/* ══════════ PÁGINA 4: MODOS DE LECTURA ══════════ */}
           {page === 3 && (
-            <section className={`h-full overflow-y-auto px-6 py-16 flex flex-col justify-center ${theme === "cosmic" ? "bg-slate-950/40" : theme === "sepia" ? "bg-[#FAF6EE]/50" : "bg-neutral-50"}`}>
+            <section className={`h-full overflow-y-auto px-6 py-16 flex flex-col justify-center ${tc.bg}`}>
               <div className="max-w-6xl mx-auto w-full">
                 <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
                   <h2 className="text-3xl md:text-4xl font-display italic">
@@ -410,7 +427,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({
               </div>
             </section>
           )}
-        </motion.div>
+          </motion.div>
+        )}
       </AnimatePresence>
 
       {/* ══════════ NAVEGACIÓN SECUENCIAL (fija) ══════════ */}
