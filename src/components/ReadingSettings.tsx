@@ -1,6 +1,7 @@
 import React from "react";
-import { Settings, ZoomIn, ZoomOut, Sun, Moon, Coffee } from "lucide-react";
+import { Settings, ZoomIn, ZoomOut, Sun, Moon, Coffee, MessagesSquare } from "lucide-react";
 import { Language, uiStrings } from "../i18n";
+import { DialogosSettings } from "./DialogosSettings";
 
 export type ReadingTheme = "cosmic" | "paper" | "sepia";
 export type FontSize = "sm" | "base" | "lg" | "xl" | "2xl";
@@ -145,6 +146,17 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
           >
             <ZoomIn className="w-4 h-4" />
           </button>
+        </div>
+      </div>
+
+      {/* Diálogos con el Horizonte: API key, modelo y exportación */}
+      <div className={`space-y-1.5 border-t ${rs.border} pt-3`}>
+        <span className={`flex items-center gap-1.5 text-[10px] font-mono uppercase ${rs.textMuted}`}>
+          <MessagesSquare className="w-3 h-3" />
+          Diálogos con el Horizonte
+        </span>
+        <div className={`${rs.text} text-xs`}>
+          <DialogosSettings />
         </div>
       </div>
     </div>

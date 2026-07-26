@@ -7,18 +7,14 @@ import React, { useEffect, useMemo, useRef, useState } from "react";
 import {
   preguntarAlHorizonte,
   claveGuardada,
-  guardarClave,
-  estimarTokens,
-  MODELO_POR_DEFECTO,
-  type ModoContexto,
+  modeloGuardado,
+  contextoGuardado,
 } from "./horizonte";
 import {
   cargarEntradasLocales,
   guardarEntradasLocales,
   nuevaEntrada,
   todasLasEntradas,
-  exportarJSON,
-  exportarTS,
   type DialogoEntrada,
 } from "./dialogos";
 import "./DialogosHorizonte.css";
@@ -74,13 +70,11 @@ export default function DialogosHorizonte({
     todasLasEntradas()
   );
   const [abierta, setAbierta] = useState<string | null>(null);
-  const [clave, setClave] = useState(() => claveGuardada() || "");
-  const [modelo, setModelo] = useState(MODELO_POR_DEFECTO);
-  const [modoContexto, setModoContexto] = useState<ModoContexto>("completa");
+  // La clave, el modelo y el contexto se configuran desde la rueda de ajustes
+  // global (DialogosSettings); aquí solo se leen al preguntar.
   const respuestaRef = useRef<HTMLDivElement>(null);
 
   const ultima = entradas.length > 0 ? entradas[0] : null;
-  const tokens = useMemo(() => estimarTokens(modoContexto), [modoContexto]);
 
   useEffect(() => {
     if (!cargando) return;
@@ -99,9 +93,9 @@ export default function DialogosHorizonte({
     setFraseIdx(0);
     try {
       const r = await preguntarAlHorizonte(q, {
-        apiKey: apiKey || clave || undefined,
-        modelo,
-        modoContexto,
+        apiKey: apiKey || claveGuardada() || undefined,
+        modelo: modeloGuardado(),
+        modoContexto: contextoGuardado(),
       });
       const entrada = nuevaEntrada({
         pregunta: q,
@@ -268,72 +262,10 @@ export default function DialogosHorizonte({
       )}
 
       {!modoExposicion && (
-        <details className="dh-config">
-          <summary>Configuración y exportación</summary>
-          <div className="dh-config-cuerpo">
-            <label>
-              Clave de API de Gemini
-              <input
-                type="password"
-                value={clave}
-                onChange={(e) => {
-                  setClave(e.target.value);
-                  guardarClave(e.target.value.trim());
-                }}
-                placeholder="Se guarda solo en este navegador"
-                autoComplete="off"
-              />
-            </label>
-            <label>
-              Modelo
-              <select
-                value={modelo}
-                onChange={(e) => setModelo(e.target.value)}
-              >
-                <option value="gemini-2.5-flash">
-                  gemini-2.5-flash (recomendado)
-                </option>
-                <option value="gemini-2.5-pro">gemini-2.5-pro</option>
-                <option value="gemini-flash-latest">gemini-flash-latest</option>
-              </select>
-            </label>
-            <label>
-              Contexto de la obra
-              <select
-                value={modoContexto}
-                onChange={(e) =>
-                  setModoContexto(e.target.value as ModoContexto)
-                }
-              >
-                <option value="completa">Obra completa</option>
-                <option value="esencial">Esencial (más rápido y barato)</option>
-              </select>
-            </label>
-            <p className="dh-nota">
-              Contexto actual: ~{Math.round(tokens / 1000)}k tokens por
-              pregunta.
-            </p>
-            <div className="dh-export">
-              <button
-                className="dh-boton-sec"
-                onClick={() => exportarJSON(todasLasEntradas())}
-              >
-                Exportar JSON
-              </button>
-              <button
-                className="dh-boton-sec"
-                onClick={() => exportarTS(cargarEntradasLocales())}
-              >
-                Exportar como TS
-              </button>
-            </div>
-            <p className="dh-nota">
-              «Exportar como TS» genera el fragmento para pegar en{" "}
-              <code>dialogosGuardados</code> (dialogos.ts) y hacer permanentes
-              las entradas de este navegador.
-            </p>
-          </div>
-        </details>
+        <p className="dh-nota" style={{ textAlign: "center" }}>
+          La configuración (clave de API, modelo y exportación) está en la rueda
+          de ajustes de la barra superior.
+        </p>
       )}
     </section>
   );

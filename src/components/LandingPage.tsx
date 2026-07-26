@@ -270,7 +270,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({
 
           {/* ══════════ PÁGINA 3: LAS CLAVES ══════════ */}
           {page === 2 && (
-            <section className={`h-full overflow-y-auto px-6 sm:px-12 py-16 flex flex-col justify-center ${tc.bg}`}>
+            <section className={`h-full overflow-y-auto px-6 sm:px-12 py-16 flex flex-col ${tc.bg}`}>
+              <div className="my-auto w-full">
               <div className="text-center max-w-3xl mx-auto space-y-6">
                 <span className={`text-xs font-mono uppercase tracking-[0.2em] ${tc.accentText} bg-amber-500/10 px-3 py-1 rounded-full font-bold`}>
                   {t.landing.sectionLabel}
@@ -312,12 +313,14 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                   </p>
                 </div>
               </div>
+              </div>
             </section>
           )}
 
           {/* ══════════ PÁGINA 4: MODOS DE LECTURA ══════════ */}
           {page === 3 && (
-            <section className={`h-full overflow-y-auto px-6 py-16 flex flex-col justify-center ${tc.bg}`}>
+            <section className={`h-full overflow-y-auto px-6 py-16 flex flex-col ${tc.bg}`}>
+              <div className="my-auto w-full">
               <div className="max-w-6xl mx-auto w-full">
                 <div className="text-center max-w-2xl mx-auto mb-12 space-y-3">
                   <h2 className="text-3xl md:text-4xl font-display italic">
@@ -427,6 +430,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                     © {new Date().getFullYear()} Íñigo Barrera Barceló. {t.landing.footerRights}
                   </p>
                 </div>
+              </div>
               </div>
             </section>
           )}

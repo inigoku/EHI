@@ -183,6 +183,50 @@ function resolverClave(explicita?: string): string | null {
 }
 
 // ---------------------------------------------------------------------------
+// Preferencias de diálogos (modelo y contexto), compartidas entre la rueda de
+// configuración global y la sección de Diálogos
+// ---------------------------------------------------------------------------
+
+const MODELO_LS = "hi:gemini_modelo";
+const CONTEXTO_LS = "hi:dialogos_contexto";
+
+export const MODELO_POR_DEFECTO = "gemini-3.6-flash";
+
+export function modeloGuardado(): string {
+  try {
+    return localStorage.getItem(MODELO_LS) || MODELO_POR_DEFECTO;
+  } catch {
+    return MODELO_POR_DEFECTO;
+  }
+}
+
+export function guardarModelo(modelo: string): void {
+  try {
+    if (modelo) localStorage.setItem(MODELO_LS, modelo);
+    else localStorage.removeItem(MODELO_LS);
+  } catch {
+    /* almacenamiento no disponible */
+  }
+}
+
+export function contextoGuardado(): ModoContexto {
+  try {
+    const v = localStorage.getItem(CONTEXTO_LS);
+    return v === "esencial" ? "esencial" : "completa";
+  } catch {
+    return "completa";
+  }
+}
+
+export function guardarContexto(modo: ModoContexto): void {
+  try {
+    localStorage.setItem(CONTEXTO_LS, modo);
+  } catch {
+    /* almacenamiento no disponible */
+  }
+}
+
+// ---------------------------------------------------------------------------
 // Llamada a Gemini
 // ---------------------------------------------------------------------------
 
@@ -202,8 +246,6 @@ interface GeminiResponse {
   error?: { code?: number; message?: string };
 }
 
-export const MODELO_POR_DEFECTO = "gemini-2.5-flash";
-
 export async function preguntarAlHorizonte(
   pregunta: string,
   opciones: OpcionesPregunta = {}
@@ -215,8 +257,8 @@ export async function preguntarAlHorizonte(
         "o define VITE_GEMINI_API_KEY."
     );
   }
-  const modelo = opciones.modelo || MODELO_POR_DEFECTO;
-  const contexto = construirContexto(opciones.modoContexto || "completa");
+  const modelo = opciones.modelo || modeloGuardado();
+  const contexto = construirContexto(opciones.modoContexto || contextoGuardado());
 
   const cuerpo = {
     system_instruction: { parts: [{ text: SYSTEM_PROMPT_HORIZONTE }] },
