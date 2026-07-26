@@ -98,10 +98,12 @@ export const LandingPage: React.FC<LandingPageProps> = ({
   const goNext = () => setPage((p) => Math.min(p + 1, TOTAL_PAGES - 1));
   const goPrev = () => setPage((p) => Math.max(p - 1, 0));
 
-  // Al cambiar de página, empezar siempre desde el principio (ventana y
-  // cualquier scroll interno de la sección anterior)
+  // Al cambiar de página, empezar siempre desde el principio (ventana, el
+  // contenedor de páginas y cualquier sección con scroll interno)
   React.useEffect(() => {
     window.scrollTo({ top: 0, behavior: "auto" });
+    const pagesEl = document.getElementById("landing-pages");
+    if (pagesEl) pagesEl.scrollTop = 0;
     document.querySelectorAll("section.overflow-y-auto").forEach((el) => {
       (el as HTMLElement).scrollTop = 0;
     });
@@ -253,7 +255,8 @@ export const LandingPage: React.FC<LandingPageProps> = ({
             animate={{ opacity: 1, y: 0 }}
             exit={{ opacity: 0, y: -30 }}
             transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
-            className="absolute inset-0 h-full"
+            className="absolute inset-0 h-full overflow-y-auto"
+            id="landing-pages"
           >
           {/* ══════════ PÁGINA 2: PALABRAS FLOTANTES ══════════ */}
           {page === 1 && (
