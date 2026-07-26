@@ -574,7 +574,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       if (trimmed.startsWith("- ") || trimmed.startsWith("* ")) {
         const rawContent = trimmed.substring(2);
         processedBlocks.push(
-          <li key={i} className="ml-0 pl-0 list-none mb-2 leading-relaxed font-serif !text-left [text-align-last:left] align-top">
+          <li key={i} className="!ml-0 !pl-0 list-none mb-2 leading-relaxed font-serif !text-left [text-align-last:left] align-top">
             {parseInlineStyles(rawContent)}
           </li>
         );
@@ -587,7 +587,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         const match = trimmed.match(/^(\d+)\.\s(.*)/);
         if (match) {
           processedBlocks.push(
-            <li key={i} className="ml-0 pl-0 list-none mb-2 leading-relaxed font-serif !text-left [text-align-last:left] flex items-start gap-2">
+            <li key={i} className="!ml-0 !pl-0 list-none mb-2 leading-relaxed font-serif !text-left [text-align-last:left] flex items-start gap-2">
               <span className="shrink-0">{match[1]}.</span>
               <span className="flex-1">{parseInlineStyles(match[2], { linkTitles: inIndexSection })}</span>
             </li>
