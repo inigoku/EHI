@@ -273,9 +273,12 @@ export async function preguntarAlHorizonte(
     ],
     tools: [{ google_search: {} }],
     generationConfig: {
-      temperature: opciones.temperatura ?? 0.6,
+      // Los modelos Gemini 3 están optimizados para temperature 1.0 (valores
+      // bajos degradan la respuesta) y no aceptan thinkingBudget (parámetro de
+      // la generación 2.5). thinkingLevel "low" mantiene la latencia baja.
+      temperature: opciones.temperatura ?? 1.0,
       maxOutputTokens: 4096,
-      thinkingConfig: { thinkingBudget: 0 },
+      thinkingConfig: { thinkingLevel: "low" },
     },
   };
 
