@@ -1071,7 +1071,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
-                className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-xl tracking-wide select-text ${
+                className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-xl tracking-wide select-text text-left ${
                   theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
                 }`}
               >

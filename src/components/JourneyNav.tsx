@@ -117,7 +117,7 @@ export const JourneyNav: React.FC<JourneyNavProps> = ({
           <span className="text-[10px] font-sans font-bold uppercase tracking-[0.2em] text-amber-500/80">
             {ctaLabel}
           </span>
-          <span className={`font-display italic text-sm sm:text-base truncate ${isDark ? "text-slate-100" : "text-slate-800"}`}>
+          <span className={`font-display italic text-sm sm:text-base leading-snug break-words ${isDark ? "text-slate-100" : "text-slate-800"}`}>
             “{next.title}”
           </span>
         </span>
