@@ -396,19 +396,23 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         />
                       )}
                       
-                      <div className="flex-1 min-w-0">
-                        <div className="font-display font-medium text-xs leading-normal">
-                          {item.chapterNumber && item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && `${item.chapterNumber}. `}
-                          {getTitle(item)}
-                        </div>
-                        {isActive && (
-                          <div className={`h-px w-8 ${sc.lineActive} mt-1.5`} />
+                      <div className="flex-1 min-w-0 flex items-start gap-1.5">
+                        {item.chapterNumber && item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && (
+                          <span className="shrink-0 font-display font-medium text-xs leading-normal">{item.chapterNumber}.</span>
                         )}
-                        {item.subtitle && (
-                          <div className={`text-[10px] ${sc.textMuted} font-sans mt-0.5 truncate leading-tight`}>
-                            {getSubtitle(item)}
+                        <div className="flex-1 min-w-0">
+                          <div className="font-display font-medium text-xs leading-normal">
+                            {getTitle(item)}
                           </div>
-                        )}
+                          {isActive && (
+                            <div className={`h-px w-8 ${sc.lineActive} mt-1.5`} />
+                          )}
+                          {item.subtitle && (
+                            <div className={`text-[10px] ${sc.textMuted} font-sans mt-0.5 truncate leading-tight`}>
+                              {getSubtitle(item)}
+                            </div>
+                          )}
+                        </div>
                       </div>
                     </button>
                   );
