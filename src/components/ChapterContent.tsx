@@ -1139,7 +1139,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.6, delay: 0.2 }}
-              className="space-y-2 prose prose-invert max-w-none font-serif text-justify leading-relaxed text-base sm:text-lg"
+              className="space-y-2 prose prose-invert max-w-none font-serif leading-relaxed text-base sm:text-lg"
             >
               {highlightTerms(displayContent)}
             </motion.div>
