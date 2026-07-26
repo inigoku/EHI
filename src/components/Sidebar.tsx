@@ -400,8 +400,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
                         {item.chapterNumber && item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && (
                           <span className="shrink-0 font-display font-medium text-xs leading-normal">{item.chapterNumber}.</span>
                         )}
-                        <div className="flex-1 min-w-0">
-                          <div className="font-display font-medium text-xs leading-normal">
+                        <div className="flex-1 min-w-0 text-left">
+                          <div className="font-display font-medium text-xs leading-normal text-left">
                             {getTitle(item)}
                           </div>
                           {isActive && (
