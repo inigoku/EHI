@@ -12,9 +12,11 @@ There is a specific smell. I am not going to describe it because the description
 
 ---
 
-What I learned much later is called the freeze response.
+What I learned much later has a name: the freeze response.
 
-It is not what people think it is. People think that fear always produces flight or fight, and that freezing is a failure: the body betraying the person. But freezing is an ancient and efficient response: when neither flight nor fight is possible, the nervous system reduces visibility. The body becomes still, small, minimal. It consumes less. It waits.
+For years I thought it had been cowardice. That a body which does not flee and does not fight is a body that fails. It took me a long time to find someone who explained it to me differently: that when fleeing and fighting are not possible, what is left is not weakness, it is the last thing a body has to try to survive — becoming still, small, minimal. Consuming less. Waiting for it to pass.
+
+Accepting that sentence cost me more than keeping the silence had.
 
 The problem with waiting is that the body stores what happened while it waited. Not as a story that is told, not as a declarative episode: as a physical recognition, faster than thought. The body that once again encounters the smell, the angle of light, the temperature of that kind of room does what it did then: it becomes still, small, minimal.
 

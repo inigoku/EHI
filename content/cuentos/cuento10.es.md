@@ -105,6 +105,6 @@ A veces pensaba que si Clara pudiera escucharlo, se reiría un poco. No por burl
 
 Otras veces no pensaba nada. La tarareaba y ya.
 
-Era suficiente. O no era suficiente, pero era lo que había, que a veces viene a ser lo mismo.
+Como ingeniero sabía que hay problemas que no se resuelven: se cierran. No es lo mismo. Este llevaba meses cerrado sin estar resuelto, y aun así, cada vez que lo tarareaba, dolía un poco menos.
 
 ---

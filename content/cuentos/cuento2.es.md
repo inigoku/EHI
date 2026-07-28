@@ -111,6 +111,6 @@ Lo que Elena llevaba a casa esa noche —y las noches siguientes, y muchas noche
 
 Que quizás eso era suficiente por ahora.
 
-O no suficiente, pero sí lo más honesto.
+En el cuaderno, debajo de las constantes y las horas, seguía la pregunta escrita con el bolígrafo pequeño: *¿Cuándo es eso?* Quince años después, seguía sin poder responderla con el bolígrafo grande.
 
 ---

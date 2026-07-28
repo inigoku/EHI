@@ -58,7 +58,7 @@ What happened the first time was that a bird landed on the lowest branch of the 
 
 —Then it lasted a long time.
 
-That wasn't what I wanted to hear either. But it was, once again, the right answer.
+He didn't say anything else. We both just sat there quietly for a while, me trying to make the bird's silence —the one that was no longer there— last a little longer.
 
 ---
 
@@ -70,7 +70,7 @@ I would ask her sometimes, during those long summer after-dinner hours that the 
 
 —Because when you're older there are too many things to do.
 
-That didn't seem like the reason to me, or not the whole reason. Mr. Montserrat didn't have many things to do —he spent his afternoons in the wooden chair, he had reduced everything to that— and it didn't last for him the way it did for me either.
+I was left with the question more than the answer, which is what usually happens when you ask a grown-up something like that. Besides, I had a problem with that reason: Mr. Montserrat didn't have many things to do —he spent his afternoons in the wooden chair, he had reduced everything to that— and it didn't last for him the way it did for me either.
 
 I didn't find the reason. Or I found it once and then couldn't get it back. That also happens with certain things.
 
@@ -112,7 +112,7 @@ Now I am in my late forties and summers last as long as they last.
 
 Sometimes, in August, I look for a shadow and close my eyes for a moment. Something doesn't always happen. When it does, it lasts as long as it seems to me to last, which sometimes is a little and sometimes is more than I expected.
 
-I don't write it down. But I keep it.
+I don't name it, I don't measure it, I don't carry the notebook with me. But somewhere in a drawer in my head that old system is still there, waiting: one more shadow-time, unrecorded.
 
 ---
 ---

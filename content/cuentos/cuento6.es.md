@@ -73,6 +73,6 @@ La máquina aprende lo que le enseñas.
 
 Lo que yo enseñé a la mía, durante mucho tiempo, fue una cosa. Luego intenté enseñarle otra. Todavía lo intento. Algunos días va mejor que otros y eso, he llegado a entender, es exactamente lo que cabría esperar de un sistema que está en proceso de aprender algo nuevo.
 
-El sistema sigue. Ese también es un resultado. No el más brillante, pero sí el más honesto.
+No hay versión final. Solo la que tengo instalada hoy, con sus parches, con los fallos que ya conozco y los que todavía no. Actualizo cuando puedo. El sistema sigue corriendo.
 
 ---

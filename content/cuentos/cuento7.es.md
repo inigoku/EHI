@@ -35,7 +35,7 @@ Lo que sí puedo hacer es advertirte: cuando el idioma no llegue, no es que el s
 
 Te daré mis miedos disfrazados de cautela. Eso es lo que más me preocupa.
 
-Hay cosas que me dan miedo y que, si no tengo cuidado, te las daré como si fueran saber. El miedo a la opinión de los demás, que es muy mío y no tiene por qué ser tuyo. El miedo a no ser suficiente, que también es mío y que ya ha hecho bastante daño en mí como para que no lo necesites heredado. La desconfianza específica ante ciertas situaciones que en mi experiencia salieron mal y que en la tuya podrían salir de otra manera, porque tú no eres yo y el mundo que encuentres no será el que encontré yo.
+Hay cosas que me dan miedo y que, si no tengo cuidado, te las daré como si fueran saber. El miedo a la opinión de los demás, que es muy mío y no tiene por qué ser tuyo. Y uno más concreto, más mío todavía: tenía ocho años cuando alguien se rió de mí en clase por decir mal una palabra, y desde entonces mido cada frase antes de soltarla, como si las palabras pudieran morder de vuelta. Esa cautela me ha sido útil a mí. A ti podría dártela como si fuera sabiduría, cuando es solo una cicatriz con forma de consejo.
 
 Lo que practico, en los ratos que tengo para pensar mientras te sostengo y espero que te duermas, es separar lo que sé de lo que temo. Lo que te doy porque tiene valor y lo que te daría porque me alivia a mí.
 

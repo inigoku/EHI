@@ -71,6 +71,6 @@ Lo cerré y se lo devolví. El tic del balancín llegaba amortiguado a través d
 
 *Va bien*, dijo. *Por ahora va bien.*
 
-Eso era lo que podía decirse. Era lo honesto. Y era, en ese contexto, suficiente.
+Eso no lo escribí en su historia clínica. No hay campo en el formulario para «va bien, por ahora» — y sin embargo era la nota más exacta que tenía ese día.
 
 ---

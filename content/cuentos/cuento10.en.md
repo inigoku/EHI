@@ -98,7 +98,7 @@ Sometimes he thought that if Clara could hear him, she would laugh a little. Not
 
 Other times he thought nothing. He just hummed it and that was it.
 
-It was enough. Or it was not enough, but it was what there was, which sometimes amounts to the same thing.
+As an engineer he knew there are problems that are never solved: they are closed. It is not the same thing. This one had been closed for months without being solved, and still, every time he hummed it, it hurt a little less.
 
 ---
 ---

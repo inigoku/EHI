@@ -68,7 +68,7 @@ The machine learns what you teach it.
 
 What I taught mine, for a long time, was one thing. Then I tried to teach it another. I am still trying. Some days go better than others, and that, I have come to understand, is exactly what one would expect from a system that is in the process of learning something new.
 
-The system continues. That too is a result. Not the most brilliant, but the most honest.
+There is no final version. Only the one I have installed today, with its patches, with the bugs I already know about and the ones I don't yet. I update when I can. The system keeps running.
 
 ---
 ---

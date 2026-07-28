@@ -106,7 +106,7 @@ What Elena took home that night—and the following nights, and many nights afte
 
 That perhaps that was enough for now.
 
-Or not enough, but the most honest thing.
+In the notebook, beneath the vitals and the hours, the question was still there, written with the smaller pen: *When is that?* Fifteen years later, she still could not answer it with the larger one.
 
 ---
 ---

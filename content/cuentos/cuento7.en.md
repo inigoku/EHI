@@ -30,7 +30,7 @@ What I can do is warn you: when language falls short, it is not that the feeling
 
 I will give you my fears disguised as caution. That is what worries me most.
 
-There are things that frighten me and that, if I am not careful, I will give to you as if they were knowledge. The fear of others' opinions, which is very much mine and need not be yours. The fear of not being enough, which is also mine and has already done enough damage in me that you do not need to inherit it. The specific distrust of certain situations that in my experience went wrong and that in yours might turn out differently, because you are not me and the world you find will not be the one I found.
+There are things that frighten me and that, if I am not careful, I will give to you as if they were knowledge. The fear of others' opinions, which is very much mine and need not be yours. And a more specific one, even more mine: I was eight years old when someone laughed at me in class for saying a word wrong, and ever since I weigh every sentence before I let it go, as if words could bite back. That caution has served me well. To you I might hand it over as if it were wisdom, when it is only a scar shaped like advice.
 
 What I practice, in the moments I have to think while I hold you and wait for you to fall asleep, is separating what I know from what I fear. What I give you because it has value and what I would give you because it brings relief to me.
 

@@ -17,9 +17,11 @@ Hay un olor específico. No voy a describirlo porque la descripción lo converti
 
 ---
 
-Lo que aprendí mucho después se llama respuesta de congelación.
+Lo que aprendí mucho después tiene un nombre: respuesta de congelación.
 
-No es lo que la gente piensa que es. La gente piensa que el miedo produce siempre huida o ataque, y que la congelación es una falla: el cuerpo traicionando a la persona. Pero la congelación es una respuesta antigua y eficiente: cuando ni la huida ni el ataque son posibles, el sistema nervioso reduce la visibilidad. El cuerpo se vuelve quieto, pequeño, mínimo. Consume menos. Espera.
+Durante años pensé que había sido cobardía. Que un cuerpo que no huye y no pelea es un cuerpo que falla. Tardé en encontrar a alguien que me lo explicara de otra manera: que cuando huir y pelear no son posibles, lo que queda no es debilidad, es lo último que le queda a un cuerpo para intentar sobrevivir — hacerse quieto, pequeño, mínimo. Consumir menos. Esperar a que pase.
+
+Me costó más aceptar esa frase de lo que me había costado guardar el silencio.
 
 El problema con esperar es que el cuerpo guarda lo que ocurrió mientras esperaba. No como historia que se cuenta, no como episodio declarativo: como reconocimiento físico, más rápido que el pensamiento. El cuerpo que vuelve a encontrar el olor, el ángulo de luz, la temperatura de ese tipo de sala hace lo que hizo entonces: se hace quieto, pequeño, mínimo.
 

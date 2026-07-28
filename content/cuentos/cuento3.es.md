@@ -63,7 +63,7 @@ Lo que pasó la primera vez fue que un pájaro aterrizó en la rama más baja de
 
 —Entonces duró mucho.
 
-Eso tampoco era lo que yo quería escuchar. Pero era, de nuevo, lo correcto.
+No dijo nada más. Nos quedamos los dos callados un rato, y yo intentando que el silencio del pájaro —el que ya no estaba— durara un poco más.
 
 ---
 
@@ -75,7 +75,7 @@ Yo se lo preguntaba a veces, en las sobremesas largas de verano que los adultos 
 
 —Porque de mayor hay demasiadas cosas que hacer.
 
-Esa no me parecía la razón, o no la razón completa. El señor Montserrat no tenía muchas cosas que hacer —pasaba las tardes en la silla de madera, lo había reducido todo a eso— y tampoco le duraba como a mí.
+Me quedé con la pregunta más que con la respuesta, que es lo que suele pasar cuando le preguntas algo así a un mayor. Además tenía un problema con esa razón: el señor Montserrat no tenía muchas cosas que hacer —pasaba las tardes en la silla de madera, lo había reducido todo a eso— y tampoco le duraba como a mí.
 
 No encontré la razón. O la encontré una vez y luego no pude recuperarla. Eso también pasa con ciertas cosas.
 
@@ -117,6 +117,6 @@ Ahora tengo cuarenta y muchos y los veranos duran lo que duran.
 
 A veces, en agosto, busco una sombra y cierro los ojos un momento. No siempre pasa algo. Cuando pasa, dura lo que me parece que dura, que a veces es poco y a veces es más de lo que esperaba.
 
-No lo apunto. Pero lo guardo.
+No le pongo nombre, no lo mido, no llevo el cuaderno encima. Pero en algún cajón de la cabeza sigue el sistema aquel, esperando: un tiempo-de-sombra más, sin apuntar.
 
 ---
