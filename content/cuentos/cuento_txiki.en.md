@@ -2,6 +2,10 @@
 title: CODA: TXIKI
 ---
 
+*This is not one of the stories. It is what lies beneath all of them, without fiction's disguise.*
+
+---
+
 I was ten years old when the whole family moved from San Sebastián to Palma. I lost all my friends at once, the city I knew by heart, every corner I didn't need to look at to recognize. I shut myself in. There is no other way to say it: I stopped letting the world in. My siblings did the same on their own —they too had lost what was theirs—, and a quiet sadness settled into the house, one that nobody names because nobody knows what to do with it.
 
 Then a cousin of my mother's, a hunter, owner of the best hunting dog in the area, offered us a puppy. A dachshund mix with the soul of a hound: intelligent, fast, and, above all, incapable of being near anyone without asking for affection. My parents thought he would keep us company.

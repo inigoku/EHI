@@ -49,9 +49,9 @@ What must be known is that the characters in these stories —the archivist, the
 
 9. *The One Who Plays the String from the Other Apartment*
 10. *The Bridges Without Passage*
-11. *The Music Left in the Room*
-12. *The City of Small Losses*
-13. *The Second Notebook* — Continuation of the City of Small Losses
+11. *The City of Small Losses*
+12. *The Second Notebook* — Continuation of the City of Small Losses
+13. *The Music Left in the Room*
 14. *The Clock of the Body*
 15. *The Room Where No One Asked*
 16. *The House of the Talking Dogs*
@@ -64,7 +64,7 @@ What must be known is that the characters in these stories —the archivist, the
 
 *The One Who Remains* — Final Tale
 
-**Coda**
+**Coda** *(memory, not fiction)*
 
 *Txiki* — A dog, a move, a mended grief
 

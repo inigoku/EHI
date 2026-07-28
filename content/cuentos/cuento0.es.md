@@ -50,9 +50,9 @@ Lo que sí hay que saber es que los personajes de estos cuentos —el archivista
 
 9. *El que toca la cuerda desde la otra casa*
 10. *Los puentes sin paso*
-11. *La música que quedó en la habitación*
-12. *La ciudad de las pequeñas pérdidas*
-13. *El segundo cuaderno* — Continuación de la ciudad de las pequeñas pérdidas
+11. *La ciudad de las pequeñas pérdidas*
+12. *El segundo cuaderno* — Continuación de la ciudad de las pequeñas pérdidas
+13. *La música que quedó en la habitación*
 14. *El reloj del cuerpo*
 15. *La sala donde nadie preguntaba*
 16. *La casa de los perros que hablan*
@@ -65,7 +65,7 @@ Lo que sí hay que saber es que los personajes de estos cuentos —el archivista
 
 *El que queda* — Cuento final
 
-**Coda**
+**Coda** *(memoria, no ficción)*
 
 *Txiki* — Un perro, una mudanza, un duelo reparado
 

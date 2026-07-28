@@ -1,6 +1,6 @@
 ---
 title: EL SEGUNDO CUADERNO
-chapterNumber: 13
+chapterNumber: 12
 linkedChapterId: cap14_real
 illustrationId: cuento_segundo_cuaderno
 illustrationTitle: El segundo cuaderno

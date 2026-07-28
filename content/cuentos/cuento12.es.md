@@ -1,6 +1,6 @@
 ---
 title: LA CIUDAD DE LAS PEQUEÑAS PÉRDIDAS
-chapterNumber: 12
+chapterNumber: 11
 linkedChapterId: cap14_real
 illustrationId: cuento_11
 illustrationTitle: La ciudad evaporada

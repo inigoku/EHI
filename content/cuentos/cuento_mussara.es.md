@@ -7,6 +7,10 @@ illustrationTitle: La niebla de la Mussara
 illustrationDescription: Las ruinas de la iglesia de San Salvador en La Mussara cubiertas por una densa niebla roja y gris. En primer plano, una piedra con grietas geométricas no euclidianas. El cielo muestra una sutil distorsión en espiral con estrellas imposibles. Tonos grises, índigo y gres roig.
 ---
 
+*Esto no lo escribió el archivista. Es un texto encontrado: notas que el propio profesor mecanografió para sí mismo y nunca envió a ninguna revista, recuperadas de un cajón mucho después de que dejara la facultad. Las dejo con su vocabulario intacto —la corteza entorrinal, la métrica hiperbólica, el desbordamiento fenomenológico— porque ese vocabulario es lo único a lo que pudo agarrarse. Un hombre que sabe nombrarlo todo y de pronto no sabe nombrar lo que le pasó, nombra lo de siempre con más fuerza de la necesaria. Eso también es un síntoma.*
+
+---
+
 ### I. La marinada
 
 Hay en los páramos del Baix Camp, alzándose sobre las crestas calizas de las montañas de Prades, un lugar donde el gres rojo y el viento del mar traman una conspiración contra la estabilidad del entendimiento. Los mapas catastrales lo nombran La Mussara, un villorrio abandonado en 1959 cuyo perfil en ruinas —coronado por los restos de la iglesia de San Salvador— destaca sobre los desfiladeros como una corona de dientes cariados expuestos a la intemperie.

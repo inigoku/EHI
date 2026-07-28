@@ -1,6 +1,6 @@
 ---
 title: LA MÚSICA QUE QUEDÓ EN LA HABITACIÓN
-chapterNumber: 11
+chapterNumber: 13
 linkedChapterId: cap13
 illustrationId: cuento_09
 illustrationTitle: La música en el aire

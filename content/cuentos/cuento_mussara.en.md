@@ -2,6 +2,10 @@
 title: THE FOG OF LA MUSSARA
 ---
 
+*The archivist did not write this. It is a found text: notes the professor typed for himself and never sent to any journal, recovered from a drawer long after he left the faculty. I leave the vocabulary intact —the entorhinal cortex, the hyperbolic metric, the phenomenological overflow— because that vocabulary was the only thing he had left to hold onto. A man who can name everything and suddenly cannot name what happened to him names the usual things harder than necessary. That, too, is a symptom.*
+
+---
+
 ### I. The Marinada
 
 There is, in the moorlands of the Baix Camp, rising above the limestone crests of the Prades mountains, a place where the red sandstone and the sea wind weave a conspiracy against the stability of understanding. Cadastral maps name it La Mussara, a hamlet abandoned in 1959 whose ruined profile—crowned by the remains of the church of San Salvador—stands out against the gorges like a crown of decayed teeth exposed to the elements.
