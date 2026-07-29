@@ -358,6 +358,11 @@ export default function App() {
               theme={theme}
               language={language}
               onClose={() => setActivePathLanding(null)}
+              onSelectChapter={(chapterId, targetMode) => {
+                setReadingMode(targetMode);
+                setActiveChapterId(chapterId);
+                setActivePathLanding(null);
+              }}
             />
           ) : (
             <ChapterContent
