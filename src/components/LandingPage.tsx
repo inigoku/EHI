@@ -498,16 +498,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         </div>
       </div>
 
-      {/* Indicación de avance en la primera página */}
-      {page === 0 && (
-        <motion.div
-          animate={{ y: [0, 6, 0] }}
-          transition={{ repeat: Infinity, duration: 1.5 }}
-          className="fixed bottom-16 left-1/2 -translate-x-1/2 z-40 pointer-events-none"
-        >
-          <ArrowDown className="w-4 h-4 text-amber-500" />
-        </motion.div>
-      )}
+
 
       <SoundControl
         isMuted={isMuted}
