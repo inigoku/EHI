@@ -203,6 +203,95 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
     }
   }, [theme]);
 
+  const areSequentiallyAdjacent = React.useCallback((id1: string, id2: string) => {
+    const idx1 = nodes.findIndex(n => n.id === id1);
+    const idx2 = nodes.findIndex(n => n.id === id2);
+    if (idx1 === -1 || idx2 === -1) return false;
+    return Math.abs(idx1 - idx2) === 1 || Math.abs(idx1 - idx2) === nodes.length - 1;
+  }, [nodes]);
+
+  const hasConceptualLink = React.useCallback((id1: string, id2: string) => {
+    return conceptualLinks.some(l => 
+      (l.fromId === id1 && l.toId === id2) || (l.fromId === id2 && l.toId === id1)
+    );
+  }, [conceptualLinks]);
+
+  const getLinkStyle = React.useCallback((X: string, Y: string, isSequential: boolean) => {
+    const S = selectedNodeId;
+    
+    // Default inactive/dim styles
+    const defaultSeq = {
+      stroke: theme === "cosmic" ? "rgba(255, 255, 255, 0.08)" : "rgba(0, 0, 0, 0.06)",
+      strokeWidth: 1,
+      opacity: 0.15,
+      strokeDasharray: undefined,
+    };
+    const defaultConceptual = {
+      stroke: theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)",
+      strokeWidth: 0.5,
+      opacity: 0.1,
+      strokeDasharray: "4 4",
+    };
+
+    if (!S) {
+      return isSequential ? defaultSeq : defaultConceptual;
+    }
+
+    const nodeX = nodes.find(n => n.id === X);
+    const colorHex = nodeX ? getColorHex(nodeX.color) : getColorHex("amber");
+
+    if (isSequential) {
+      // 1. Weight 100: Adjacent (sequential) link involving S
+      if (X === S || Y === S) {
+        return {
+          stroke: colorHex,
+          strokeWidth: 2.5,
+          opacity: 1.0,
+          strokeDasharray: undefined,
+        };
+      }
+      // 2. Weight 50: Adjacent of a conceptual direct link of S
+      if (hasConceptualLink(X, S) || hasConceptualLink(Y, S)) {
+        return {
+          stroke: theme === "cosmic" ? "rgba(251, 191, 36, 0.45)" : "rgba(217, 119, 6, 0.45)",
+          strokeWidth: 1.4,
+          opacity: 0.55,
+          strokeDasharray: undefined,
+        };
+      }
+      return defaultSeq;
+    } else {
+      // 1. Weight 75: Conceptual direct link involving S
+      if (X === S || Y === S) {
+        return {
+          stroke: colorHex,
+          strokeWidth: 1.8,
+          opacity: 0.8,
+          strokeDasharray: "4 4",
+        };
+      }
+      // 2. Weight 50: Conceptual direct link involving a sequential neighbor of S
+      if (areSequentiallyAdjacent(X, S) || areSequentiallyAdjacent(Y, S)) {
+        return {
+          stroke: theme === "cosmic" ? "rgba(251, 191, 36, 0.45)" : "rgba(217, 119, 6, 0.45)",
+          strokeWidth: 1.2,
+          opacity: 0.5,
+          strokeDasharray: "4 4",
+        };
+      }
+      // 3. Weight 25: Conceptual direct link of a conceptual direct of S
+      if (hasConceptualLink(X, S) || hasConceptualLink(Y, S)) {
+        return {
+          stroke: theme === "cosmic" ? "rgba(251, 191, 36, 0.25)" : "rgba(217, 119, 6, 0.25)",
+          strokeWidth: 0.8,
+          opacity: 0.3,
+          strokeDasharray: "4 4",
+        };
+      }
+      return defaultConceptual;
+    }
+  }, [selectedNodeId, theme, nodes, getColorHex, hasConceptualLink, areSequentiallyAdjacent]);
+
   // Theme-based styling configurations
   const sc = React.useMemo(() => {
     switch (theme) {
@@ -297,6 +386,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
               if (idx === nodes.length - 1) return null;
               const nextNode = nodes[idx + 1];
               const isHighlighted = selectedNodeId === node.id || selectedNodeId === nextNode.id;
+              const style = getLinkStyle(node.id, nextNode.id, true);
               return (
                 <line
                   key={`seq-link-${idx}`}
@@ -304,14 +394,10 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                   y1={node.y}
                   x2={nextNode.x}
                   y2={nextNode.y}
-                  stroke={
-                    isHighlighted
-                      ? getColorHex(node.color)
-                      : theme === "cosmic"
-                      ? "rgba(251, 191, 36, 0.12)"
-                      : "rgba(71, 85, 105, 0.1)"
-                  }
-                  strokeWidth={isHighlighted ? 2.5 : 1}
+                  stroke={style.stroke}
+                  strokeWidth={style.strokeWidth}
+                  opacity={style.opacity}
+                  strokeDasharray={style.strokeDasharray}
                   className="transition-all duration-300"
                 />
               );
@@ -321,21 +407,17 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
             {nodes.length > 1 && (() => {
               const first = nodes[0];
               const last = nodes[nodes.length - 1];
-              const isHighlighted = selectedNodeId === first.id || selectedNodeId === last.id;
+              const style = getLinkStyle(last.id, first.id, true);
               return (
                 <line
                   x1={last.x}
                   y1={last.y}
                   x2={first.x}
                   y2={first.y}
-                  stroke={
-                    isHighlighted
-                      ? getColorHex(last.color)
-                      : theme === "cosmic"
-                      ? "rgba(251, 191, 36, 0.12)"
-                      : "rgba(71, 85, 105, 0.1)"
-                  }
-                  strokeWidth={isHighlighted ? 2.5 : 1}
+                  stroke={style.stroke}
+                  strokeWidth={style.strokeWidth}
+                  opacity={style.opacity}
+                  strokeDasharray={style.strokeDasharray}
                   className="transition-all duration-300"
                 />
               );
@@ -347,7 +429,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
               const toNode = nodes.find(n => n.id === link.toId);
               if (!fromNode || !toNode) return null;
               
-              const isHighlighted = selectedNodeId === fromNode.id || selectedNodeId === toNode.id;
+              const style = getLinkStyle(fromNode.id, toNode.id, false);
               
               return (
                 <line
@@ -356,17 +438,10 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                   y1={fromNode.y}
                   x2={toNode.x}
                   y2={toNode.y}
-                  stroke={
-                    isHighlighted
-                      ? theme === "cosmic"
-                        ? "rgba(251, 191, 36, 0.35)"
-                        : "rgba(217, 119, 6, 0.35)"
-                      : theme === "cosmic"
-                      ? "rgba(255, 255, 255, 0.05)"
-                      : "rgba(0, 0, 0, 0.04)"
-                  }
-                  strokeWidth={isHighlighted ? 1.2 : 0.6}
-                  strokeDasharray="4 4"
+                  stroke={style.stroke}
+                  strokeWidth={style.strokeWidth}
+                  opacity={style.opacity}
+                  strokeDasharray={style.strokeDasharray}
                   className="transition-all duration-300 pointer-events-none"
                 />
               );
