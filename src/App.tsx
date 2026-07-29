@@ -142,14 +142,10 @@ export default function App() {
     setReadingMode(newMode);
     setActiveChapterId(targetId);
 
-    // Activación desde menú: solo la primera vez en la sesión
+    // Activación desde menú: siempre va a la landing correspondiente
     if (newMode !== "home") {
-      if (!visitedModes[newMode]) {
-        setActivePathLanding(newMode);
-        setVisitedModes(prev => ({ ...prev, [newMode]: true }));
-      } else {
-        setActivePathLanding(null);
-      }
+      setActivePathLanding(newMode);
+      setVisitedModes(prev => ({ ...prev, [newMode]: true }));
     } else {
       setActivePathLanding(null);
       setLandingPageNum(0);
@@ -347,21 +343,6 @@ export default function App() {
           setVolume={setVolume}
           mode={readingMode}
           onModeChange={handleModeChange}
-          onOpenPathLanding={(targetMode) => {
-            setReadingMode(targetMode);
-            setActivePathLanding(targetMode);
-            let targetId = "cap0";
-            if (targetMode === "cuentos") targetId = "cuento0";
-            if (targetMode === "poemas") targetId = "poema0";
-            if (targetMode === "reconstruccion") targetId = "recon1";
-            setActiveChapterId(targetId);
-            setIsSidebarOpen(false);
-          }}
-          onOpenGraph={() => {
-            setReadingMode("home");
-            setLandingPageNum(4);
-            setIsSidebarOpen(false);
-          }}
           language={language}
           setLanguage={setLanguage}
         />

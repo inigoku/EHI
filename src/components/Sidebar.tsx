@@ -27,8 +27,6 @@ interface SidebarProps {
   setVolume: (volume: number) => void;
   mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion";
   onModeChange: (mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
-  onOpenPathLanding?: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
-  onOpenGraph?: () => void;
   language: Language;
   setLanguage: (language: Language) => void;
 }
@@ -51,8 +49,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
   setVolume,
   mode,
   onModeChange,
-  onOpenPathLanding,
-  onOpenGraph,
   language,
   setLanguage,
 }) => {
@@ -372,71 +368,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
         {/* Scrollable Table of Contents grouped by sections */}
         <nav className="flex-1 overflow-y-auto p-4 space-y-6">
-          {/* Welcome Landings Navigation Grid */}
-          <div className="space-y-2 mb-4">
-            <h3 className={`text-[9px] font-sans tracking-[0.2em] ${sc.textMuted} font-bold uppercase px-2 mb-2 border-l ${sc.lineActive} border-l-2 pl-2`}>
-              {language === "es" ? "Presentaciones de los Caminos" : "Path Welcome Covers"}
-            </h3>
-            <div className="grid grid-cols-2 gap-2">
-              <button
-                onClick={() => onOpenPathLanding && onOpenPathLanding("essay")}
-                className={`p-2 rounded-xl border text-left flex flex-col justify-between transition-all hover:scale-[1.01] active:scale-[0.99] cursor-pointer ${
-                  mode === "essay" ? sc.itemActive : `${sc.button}`
-                }`}
-              >
-                <span className="text-amber-500 text-xs">📖</span>
-                <span className="font-display font-bold text-[9px] uppercase tracking-wide mt-1 truncate w-full">
-                  {language === "es" ? "Ensayo" : "Essay"}
-                </span>
-              </button>
-              <button
-                onClick={() => onOpenPathLanding && onOpenPathLanding("cuentos")}
-                className={`p-2 rounded-xl border text-left flex flex-col justify-between transition-all hover:scale-[1.01] active:scale-[0.99] cursor-pointer ${
-                  mode === "cuentos" ? sc.itemActive : `${sc.button}`
-                }`}
-              >
-                <span className="text-purple-500 text-xs">🔮</span>
-                <span className="font-display font-bold text-[9px] uppercase tracking-wide mt-1 truncate w-full">
-                  {language === "es" ? "Cuentos" : "Stories"}
-                </span>
-              </button>
-              <button
-                onClick={() => onOpenPathLanding && onOpenPathLanding("poemas")}
-                className={`p-2 rounded-xl border text-left flex flex-col justify-between transition-all hover:scale-[1.01] active:scale-[0.99] cursor-pointer ${
-                  mode === "poemas" ? sc.itemActive : `${sc.button}`
-                }`}
-              >
-                <span className="text-rose-500 text-xs">✍️</span>
-                <span className="font-display font-bold text-[9px] uppercase tracking-wide mt-1 truncate w-full">
-                  {language === "es" ? "Poemas" : "Poems"}
-                </span>
-              </button>
-              <button
-                onClick={() => onOpenPathLanding && onOpenPathLanding("reconstruccion")}
-                className={`p-2 rounded-xl border text-left flex flex-col justify-between transition-all hover:scale-[1.01] active:scale-[0.99] cursor-pointer ${
-                  mode === "reconstruccion" ? sc.itemActive : `${sc.button}`
-                }`}
-              >
-                <span className="text-cyan-500 text-xs">🔧</span>
-                <span className="font-display font-bold text-[9px] uppercase tracking-wide mt-1 truncate w-full">
-                  {language === "es" ? "Reconstrucción" : "Reconstruction"}
-                </span>
-              </button>
-            </div>
-            
-            {/* Direct Link to the Interactive Relations Graph on page 5 */}
-            <button
-              onClick={() => onOpenGraph && onOpenGraph()}
-              className={`w-full text-left p-2 rounded-xl border ${sc.button} flex items-center justify-center gap-2 hover:scale-[1.01] active:scale-[0.99] transition-all cursor-pointer mt-2`}
-            >
-              <span className="text-amber-500 text-xs">🕸️</span>
-              <span className="font-display font-bold text-[9px] uppercase tracking-wide text-amber-500/90">
-                {language === "es" ? "Mapa de Relaciones" : "Relations Map"}
-              </span>
-            </button>
-          </div>
 
-          <div className={`h-px ${sc.border} my-4`} />
           {(Object.entries(groupedChapters) as [string, Chapter[]][]).map(([section, items]) => (
             <div key={section} className="space-y-2">
               <h3 className={`text-[10px] font-sans tracking-[0.2em] ${sc.textMuted} font-bold uppercase px-2 mb-1.5 border-l ${sc.lineActive} border-l-2 pl-2`}>
