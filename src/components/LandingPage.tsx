@@ -448,7 +448,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           {page === 4 && (
             <section className={`h-full overflow-y-auto px-6 py-16 flex flex-col ${tc.bg}`}>
               <div className="my-auto w-full">
-                <div className="max-w-5xl mx-auto w-full">
+                <div className="max-w-7xl mx-auto w-full">
                   <RelationsGraph
                     theme={theme}
                     language={language}

@@ -53,9 +53,9 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
     );
   }, []);
 
-  const centerX = 400;
-  const centerY = 205;
-  const radius = 100;
+  const centerX = 210;
+  const centerY = 210;
+  const radius = 105;
 
   const nodes = React.useMemo(() => {
     return essayChapters.map((ch, idx) => {
@@ -97,7 +97,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       const parentNode = nodes.find(n => n.id === cuento.linkedChapterId || (n.linkedCuentosId === cuento.id));
       if (!parentNode) return null;
       
-      const r2 = 130; // Ring 2 (Cuentos)
+      const r2 = 135; // Ring 2 (Cuentos)
       const x = centerX + r2 * Math.cos(parentNode.angle);
       const y = centerY + r2 * Math.sin(parentNode.angle);
       
@@ -143,7 +143,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       const parentNode = nodes.find(n => n.id === parentId);
       if (!parentNode) return null;
       
-      const r4 = 190; // Ring 4 (Reconstrucciones)
+      const r4 = 195; // Ring 4 (Reconstrucciones)
       const x = centerX + r4 * Math.cos(parentNode.angle);
       const y = centerY + r4 * Math.sin(parentNode.angle);
       
@@ -218,7 +218,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       const parentNode = nodes.find(n => n.id === parentId);
       if (!parentNode) return null;
       
-      const r3 = 160; // Ring 3 (Poemas)
+      const r3 = 165; // Ring 3 (Poemas)
       const x = centerX + r3 * Math.cos(parentNode.angle);
       const y = centerY + r3 * Math.sin(parentNode.angle);
       
@@ -389,12 +389,28 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       return isSequential ? defaultSeq : defaultConceptual;
     }
 
+    // Resolve S to parent essay node if it is a satellite
+    const S_parent = (() => {
+      if (nodes.some(n => n.id === S)) return S;
+      
+      const cNode = cuentoNodes.find(c => c.id === S);
+      if (cNode) return cNode.linkedChapterId;
+      
+      const pNode = poemaNodes.find(p => p.id === S);
+      if (pNode) return pNode.linkedChapterId;
+      
+      const rNode = reconNodes.find(r => r.id === S);
+      if (rNode) return rNode.linkedChapterId;
+      
+      return S;
+    })();
+
     const nodeX = nodes.find(n => n.id === X);
     const colorHex = nodeX ? getColorHex(nodeX.color) : getColorHex("amber");
 
     if (isSequential) {
-      // 1. Weight 100: Adjacent (sequential) link involving S
-      if (X === S || Y === S) {
+      // 1. Weight 100: Adjacent (sequential) link involving S_parent
+      if (X === S_parent || Y === S_parent) {
         return {
           stroke: colorHex,
           strokeWidth: 2.5,
@@ -402,8 +418,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
           strokeDasharray: undefined,
         };
       }
-      // 2. Weight 50: Adjacent of a conceptual direct link of S
-      if (hasConceptualLink(X, S) || hasConceptualLink(Y, S)) {
+      // 2. Weight 50: Adjacent of a conceptual direct link of S_parent
+      if (hasConceptualLink(X, S_parent) || hasConceptualLink(Y, S_parent)) {
         return {
           stroke: theme === "cosmic" ? "rgba(251, 191, 36, 0.45)" : "rgba(217, 119, 6, 0.45)",
           strokeWidth: 1.4,
@@ -413,8 +429,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       }
       return defaultSeq;
     } else {
-      // 1. Weight 75: Conceptual direct link involving S
-      if (X === S || Y === S) {
+      // 1. Weight 75: Conceptual direct link involving S_parent
+      if (X === S_parent || Y === S_parent) {
         return {
           stroke: colorHex,
           strokeWidth: 1.8,
@@ -422,8 +438,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
           strokeDasharray: "4 4",
         };
       }
-      // 2. Weight 50: Conceptual direct link involving a sequential neighbor of S
-      if (areSequentiallyAdjacent(X, S) || areSequentiallyAdjacent(Y, S)) {
+      // 2. Weight 50: Conceptual direct link involving a sequential neighbor of S_parent
+      if (areSequentiallyAdjacent(X, S_parent) || areSequentiallyAdjacent(Y, S_parent)) {
         return {
           stroke: theme === "cosmic" ? "rgba(251, 191, 36, 0.45)" : "rgba(217, 119, 6, 0.45)",
           strokeWidth: 1.2,
@@ -431,8 +447,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
           strokeDasharray: "4 4",
         };
       }
-      // 3. Weight 25: Conceptual direct link of a conceptual direct of S
-      if (hasConceptualLink(X, S) || hasConceptualLink(Y, S)) {
+      // 3. Weight 25: Conceptual direct link of a conceptual direct of S_parent
+      if (hasConceptualLink(X, S_parent) || hasConceptualLink(Y, S_parent)) {
         return {
           stroke: theme === "cosmic" ? "rgba(251, 191, 36, 0.25)" : "rgba(217, 119, 6, 0.25)",
           strokeWidth: 0.8,
@@ -442,7 +458,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       }
       return defaultConceptual;
     }
-  }, [selectedNodeId, theme, nodes, getColorHex, hasConceptualLink, areSequentiallyAdjacent]);
+  }, [selectedNodeId, theme, nodes, getColorHex, hasConceptualLink, areSequentiallyAdjacent, cuentoNodes, poemaNodes, reconNodes]);
 
   // Theme-based styling configurations
   const sc = React.useMemo(() => {
@@ -522,8 +538,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
           )}
           
           <svg
-            viewBox="0 0 800 410"
-            className="w-full h-auto max-h-[50vh] select-none z-10"
+            viewBox="0 0 420 420"
+            className="w-full h-auto max-h-[65vh] select-none z-10"
           >
             {/* Glow Filter */}
             <defs>
@@ -600,49 +616,221 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
             })}
 
             {/* Corona guidelines (concentric circle paths) */}
-            <circle cx={centerX} cy={centerY} r={100} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.05)" : "rgba(0, 0, 0, 0.04)"} strokeWidth={1} className="pointer-events-none" />
-            <circle cx={centerX} cy={centerY} r={130} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
-            <circle cx={centerX} cy={centerY} r={160} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
-            <circle cx={centerX} cy={centerY} r={190} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
+            <circle cx={centerX} cy={centerY} r={105} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.05)" : "rgba(0, 0, 0, 0.04)"} strokeWidth={1} className="pointer-events-none" />
+            <circle cx={centerX} cy={centerY} r={135} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
+            <circle cx={centerX} cy={centerY} r={165} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
+            <circle cx={centerX} cy={centerY} r={195} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
 
-            {/* Radial connectors to satellites */}
-            {nodes.map((node) => {
-              const hasCuento = cuentoNodes.some(c => c.linkedChapterId === node.id);
-              const hasPoema = poemaNodes.some(p => p.linkedChapterId === node.id);
-              const hasRecon = reconNodes.some(r => r.linkedChapterId === node.id);
-              
-              if (!hasCuento && !hasPoema && !hasRecon) return null;
-              
-              let maxRadius = 100;
-              if (hasCuento) maxRadius = 130;
-              if (hasPoema) maxRadius = 160;
-              if (hasRecon) maxRadius = 190;
-              
-              const x2 = centerX + maxRadius * Math.cos(node.angle);
-              const y2 = centerY + maxRadius * Math.sin(node.angle);
-              
-              const isHighlighted = selectedNodeId === node.id || 
-                cuentoNodes.some(c => c.linkedChapterId === node.id && selectedNodeId === c.id) ||
-                poemaNodes.some(p => p.linkedChapterId === node.id && selectedNodeId === p.id) ||
-                reconNodes.some(r => r.linkedChapterId === node.id && selectedNodeId === r.id);
+            {/* Sequential Links for Cuentos (Corona 2) */}
+            {cuentoNodes.map((node, idx) => {
+              if (idx === cuentoNodes.length - 1) return null;
+              const nextNode = cuentoNodes[idx + 1];
+              const isHighlighted = selectedNodeId === node.id || selectedNodeId === nextNode.id;
               
               return (
                 <line
-                  key={`radial-${node.id}`}
+                  key={`cuento-seq-${idx}`}
                   x1={node.x}
                   y1={node.y}
-                  x2={x2}
-                  y2={y2}
+                  x2={nextNode.x}
+                  y2={nextNode.y}
                   stroke={
                     isHighlighted
-                      ? theme === "cosmic"
-                        ? "rgba(251, 191, 36, 0.25)"
-                        : "rgba(217, 119, 6, 0.25)"
+                      ? getColorHex("purple")
                       : theme === "cosmic"
-                      ? "rgba(255, 255, 255, 0.04)"
-                      : "rgba(0, 0, 0, 0.03)"
+                      ? "rgba(192, 132, 252, 0.1)"
+                      : "rgba(147, 51, 234, 0.08)"
                   }
-                  strokeWidth={isHighlighted ? 1 : 0.5}
+                  strokeWidth={isHighlighted ? 2.0 : 0.6}
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })}
+            {cuentoNodes.length > 1 && (() => {
+              const first = cuentoNodes[0];
+              const last = cuentoNodes[cuentoNodes.length - 1];
+              const isHighlighted = selectedNodeId === first.id || selectedNodeId === last.id;
+              return (
+                <line
+                  x1={last.x}
+                  y1={last.y}
+                  x2={first.x}
+                  y2={first.y}
+                  stroke={
+                    isHighlighted
+                      ? getColorHex("purple")
+                      : theme === "cosmic"
+                      ? "rgba(192, 132, 252, 0.1)"
+                      : "rgba(147, 51, 234, 0.08)"
+                  }
+                  strokeWidth={isHighlighted ? 2.0 : 0.6}
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })()}
+
+            {/* Sequential Links for Poemas (Corona 3) */}
+            {poemaNodes.map((node, idx) => {
+              if (idx === poemaNodes.length - 1) return null;
+              const nextNode = poemaNodes[idx + 1];
+              const isHighlighted = selectedNodeId === node.id || selectedNodeId === nextNode.id;
+              
+              return (
+                <line
+                  key={`poema-seq-${idx}`}
+                  x1={node.x}
+                  y1={node.y}
+                  x2={nextNode.x}
+                  y2={nextNode.y}
+                  stroke={
+                    isHighlighted
+                      ? getColorHex("rose")
+                      : theme === "cosmic"
+                      ? "rgba(244, 63, 94, 0.1)"
+                      : "rgba(225, 29, 72, 0.08)"
+                  }
+                  strokeWidth={isHighlighted ? 2.0 : 0.6}
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })}
+            {poemaNodes.length > 1 && (() => {
+              const first = poemaNodes[0];
+              const last = poemaNodes[poemaNodes.length - 1];
+              const isHighlighted = selectedNodeId === first.id || selectedNodeId === last.id;
+              return (
+                <line
+                  x1={last.x}
+                  y1={last.y}
+                  x2={first.x}
+                  y2={first.y}
+                  stroke={
+                    isHighlighted
+                      ? getColorHex("rose")
+                      : theme === "cosmic"
+                      ? "rgba(244, 63, 94, 0.1)"
+                      : "rgba(225, 29, 72, 0.08)"
+                  }
+                  strokeWidth={isHighlighted ? 2.0 : 0.6}
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })()}
+
+            {/* Sequential Links for Reconstruccion (Corona 4) */}
+            {reconNodes.map((node, idx) => {
+              if (idx === reconNodes.length - 1) return null;
+              const nextNode = reconNodes[idx + 1];
+              const isHighlighted = selectedNodeId === node.id || selectedNodeId === nextNode.id;
+              
+              return (
+                <line
+                  key={`recon-seq-${idx}`}
+                  x1={node.x}
+                  y1={node.y}
+                  x2={nextNode.x}
+                  y2={nextNode.y}
+                  stroke={
+                    isHighlighted
+                      ? getColorHex("cyan")
+                      : theme === "cosmic"
+                      ? "rgba(56, 189, 248, 0.1)"
+                      : "rgba(2, 132, 199, 0.08)"
+                  }
+                  strokeWidth={isHighlighted ? 2.0 : 0.6}
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })}
+            {reconNodes.length > 1 && (() => {
+              const first = reconNodes[0];
+              const last = reconNodes[reconNodes.length - 1];
+              const isHighlighted = selectedNodeId === first.id || selectedNodeId === last.id;
+              return (
+                <line
+                  x1={last.x}
+                  y1={last.y}
+                  x2={first.x}
+                  y2={first.y}
+                  stroke={
+                    isHighlighted
+                      ? getColorHex("cyan")
+                      : theme === "cosmic"
+                      ? "rgba(56, 189, 248, 0.1)"
+                      : "rgba(2, 132, 199, 0.08)"
+                  }
+                  strokeWidth={isHighlighted ? 2.0 : 0.6}
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })()}
+
+            {/* Radial Spoke connectors for Cuentos (Corona 2) */}
+            {cuentoNodes.map((cNode) => {
+              const isSelected = selectedNodeId === cNode.id || selectedNodeId === cNode.linkedChapterId;
+              return (
+                <line
+                  key={`radial-cuento-${cNode.id}`}
+                  x1={cNode.parentX}
+                  y1={cNode.parentY}
+                  x2={cNode.x}
+                  y2={cNode.y}
+                  stroke={
+                    isSelected
+                      ? getColorHex("purple")
+                      : theme === "cosmic"
+                      ? "rgba(192, 132, 252, 0.12)"
+                      : "rgba(147, 51, 234, 0.08)"
+                  }
+                  strokeWidth={isSelected ? 1.5 : 0.5}
+                  strokeDasharray="1 3"
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })}
+
+            {/* Radial Spoke connectors for Poemas (Corona 3) */}
+            {poemaNodes.map((pNode) => {
+              const isSelected = selectedNodeId === pNode.id || selectedNodeId === pNode.linkedChapterId;
+              return (
+                <line
+                  key={`radial-poema-${pNode.id}`}
+                  x1={pNode.parentX}
+                  y1={pNode.parentY}
+                  x2={pNode.x}
+                  y2={pNode.y}
+                  stroke={
+                    isSelected
+                      ? getColorHex("rose")
+                      : theme === "cosmic"
+                      ? "rgba(244, 63, 94, 0.12)"
+                      : "rgba(225, 29, 72, 0.08)"
+                  }
+                  strokeWidth={isSelected ? 1.5 : 0.5}
+                  strokeDasharray="1 3"
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })}
+
+            {/* Radial Spoke connectors for Reconstruccion (Corona 4) */}
+            {reconNodes.map((rNode) => {
+              const isSelected = selectedNodeId === rNode.id || selectedNodeId === rNode.linkedChapterId;
+              return (
+                <line
+                  key={`radial-recon-${rNode.id}`}
+                  x1={rNode.parentX}
+                  y1={rNode.parentY}
+                  x2={rNode.x}
+                  y2={rNode.y}
+                  stroke={
+                    isSelected
+                      ? getColorHex("cyan")
+                      : theme === "cosmic"
+                      ? "rgba(56, 189, 248, 0.12)"
+                      : "rgba(2, 132, 199, 0.08)"
+                  }
+                  strokeWidth={isSelected ? 1.5 : 0.5}
                   strokeDasharray="1 3"
                   className="transition-all duration-300 pointer-events-none"
                 />
