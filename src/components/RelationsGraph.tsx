@@ -3,12 +3,12 @@ import { motion } from "motion/react";
 import { ArrowRight, BookOpen, Feather } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
 import { Language } from "../i18n";
-import { allChapters, cuentosList } from "../chapters";
+import { allChapters, cuentosList, poemasList, reconstruccionChapters } from "../chapters";
 
 interface RelationsGraphProps {
   theme: ReadingTheme;
   language: Language;
-  onSelectChapter: (chapterId: string, mode: "essay" | "cuentos") => void;
+  onSelectChapter: (chapterId: string, mode: "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
 }
 
 export const RelationsGraph: React.FC<RelationsGraphProps> = ({
@@ -55,7 +55,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
 
   const centerX = 400;
   const centerY = 205;
-  const radius = 135;
+  const radius = 100;
 
   const nodes = React.useMemo(() => {
     return essayChapters.map((ch, idx) => {
@@ -97,10 +97,9 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       const parentNode = nodes.find(n => n.id === cuento.linkedChapterId || (n.linkedCuentosId === cuento.id));
       if (!parentNode) return null;
       
-      const offsetRadius = 38;
-      const angleOffset = 0.08;
-      const x = centerX + (radius + offsetRadius) * Math.cos(parentNode.angle + angleOffset);
-      const y = centerY + (radius + offsetRadius) * Math.sin(parentNode.angle + angleOffset);
+      const r2 = 130; // Ring 2 (Cuentos)
+      const x = centerX + r2 * Math.cos(parentNode.angle);
+      const y = centerY + r2 * Math.sin(parentNode.angle);
       
       return {
         id: cuento.id,
@@ -126,6 +125,127 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
     }>;
   }, [nodes]);
 
+  const reconNodes = React.useMemo(() => {
+    return reconstruccionChapters.map((recon) => {
+      const parentId = (() => {
+        const num = parseInt(recon.id.replace("recon", ""));
+        const mapping: Record<number, string> = {
+          1: "cap14_real",
+          2: "cap15_real",
+          3: "cap16_real",
+          4: "cap17_real",
+          5: "cap18_real",
+          6: "cap19_real",
+        };
+        return mapping[num] || "cap20_real";
+      })();
+      
+      const parentNode = nodes.find(n => n.id === parentId);
+      if (!parentNode) return null;
+      
+      const r4 = 190; // Ring 4 (Reconstrucciones)
+      const x = centerX + r4 * Math.cos(parentNode.angle);
+      const y = centerY + r4 * Math.sin(parentNode.angle);
+      
+      return {
+        id: recon.id,
+        title: recon.title,
+        chapterNumber: "R",
+        parentX: parentNode.x,
+        parentY: parentNode.y,
+        linkedChapterId: parentNode.id,
+        x,
+        y,
+        recon,
+      };
+    }).filter(Boolean) as Array<{
+      id: string;
+      title: string;
+      chapterNumber: string;
+      parentX: number;
+      parentY: number;
+      linkedChapterId: string;
+      x: number;
+      y: number;
+      recon: any;
+    }>;
+  }, [nodes]);
+
+  const poemaNodes = React.useMemo(() => {
+    return poemasList.map((poema) => {
+      const parentId = (() => {
+        if (poema.id.startsWith("poema_arq")) {
+          const num = parseInt(poema.id.replace("poema_arq", ""));
+          const mapping: Record<number, string> = {
+            1: "cap1",
+            2: "cap2",
+            3: "cap2_5",
+            4: "cap3",
+            5: "cap4",
+            6: "cap5",
+            7: "cap6",
+            8: "cap6_5",
+          };
+          return mapping[num] || "cap1";
+        }
+        if (poema.id.startsWith("poema_frialdad")) {
+          const num = parseInt(poema.id.replace("poema_frialdad", ""));
+          const mapping: Record<number, string> = {
+            1: "cap7",
+            2: "cap7_5",
+            3: "cap8",
+            4: "cap9",
+            5: "cap10",
+            6: "cap11",
+          };
+          return mapping[num] || "cap9";
+        }
+        if (poema.id.startsWith("poema_recon")) {
+          const num = parseInt(poema.id.replace("poema_recon", ""));
+          const mapping: Record<number, string> = {
+            1: "cap14_real",
+            2: "cap15_real",
+            3: "cap16_real",
+            4: "cap17_real",
+            5: "cap18_real",
+            6: "cap19_real",
+          };
+          return mapping[num] || "cap14_real";
+        }
+        return "cap20_5"; // poema_glosario
+      })();
+
+      const parentNode = nodes.find(n => n.id === parentId);
+      if (!parentNode) return null;
+      
+      const r3 = 160; // Ring 3 (Poemas)
+      const x = centerX + r3 * Math.cos(parentNode.angle);
+      const y = centerY + r3 * Math.sin(parentNode.angle);
+      
+      return {
+        id: poema.id,
+        title: poema.title,
+        chapterNumber: "P",
+        parentX: parentNode.x,
+        parentY: parentNode.y,
+        linkedChapterId: parentNode.id,
+        x,
+        y,
+        poema,
+      };
+    }).filter(Boolean) as Array<{
+      id: string;
+      title: string;
+      chapterNumber: string;
+      parentX: number;
+      parentY: number;
+      linkedChapterId: string;
+      x: number;
+      y: number;
+      poema: any;
+    }>;
+  }, [nodes]);
+
   const conceptualLinks = React.useMemo(() => [
     { fromId: "cap1", toId: "cap8" },
     { fromId: "cap1", toId: "cap20_real" },
@@ -143,6 +263,10 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
     { fromId: "cap8", toId: "cap13" },
     { fromId: "cap8", toId: "cap20_real" },
     { fromId: "cap9", toId: "cap16_real" },
+    { fromId: "cap10", toId: "cap18_real" },
+    { fromId: "cap10", toId: "cap20_real" },
+    { fromId: "cap13", toId: "cap17_real" },
+    { fromId: "cap15_real", toId: "cap20_5" },
     { fromId: "cap10", toId: "cap18_real" },
     { fromId: "cap10", toId: "cap20_real" },
     { fromId: "cap13", toId: "cap17_real" },
@@ -178,8 +302,34 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         linkedId: cuentoNode.linkedChapterId,
       };
     }
+    const poemaNode = poemaNodes.find(p => p.id === selectedNodeId);
+    if (poemaNode) {
+      return {
+        type: "poemas" as const,
+        id: poemaNode.id,
+        number: "Poema",
+        title: poemaNode.title,
+        subtitle: language === "es" ? "Composición lírica complementaria" : "Complementary lyrical composition",
+        section: language === "es" ? "POEMAS: LA RESONANCIA" : "POEMS: THE RESONANCE",
+        color: "rose",
+        linkedId: poemaNode.linkedChapterId,
+      };
+    }
+    const reconNode = reconNodes.find(r => r.id === selectedNodeId);
+    if (reconNode) {
+      return {
+        type: "reconstruccion" as const,
+        id: reconNode.id,
+        number: `R${reconNode.recon.chapterNumber || ""}`,
+        title: reconNode.title,
+        subtitle: language === "es" ? "Fusión integradora multiformato" : "Multiformat integrative fusion",
+        section: language === "es" ? "CUARTA PARTE: LA RECONSTRUCCIÓN" : "PART FOUR: THE RECONSTRUCTION",
+        color: "cyan",
+        linkedId: reconNode.linkedChapterId,
+      };
+    }
     return null;
-  }, [selectedNodeId, nodes, cuentoNodes, language]);
+  }, [selectedNodeId, nodes, cuentoNodes, poemaNodes, reconNodes, language]);
 
   const getColorHex = React.useCallback((color: string) => {
     if (theme === "cosmic") {
@@ -189,6 +339,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         case "orange": return "#FB923C";
         case "amber": return "#FBBF24";
         case "purple": return "#C084FC";
+        case "rose": return "#F43F5E";
         default: return "#94A3B8";
       }
     } else {
@@ -198,6 +349,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         case "orange": return "#EA580C";
         case "amber": return "#D97706";
         case "purple": return "#9333EA";
+        case "rose": return "#E11D48";
         default: return "#475569";
       }
     }
@@ -447,26 +599,52 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
               );
             })}
 
-            {/* Orbit paths for Cuentos */}
-            {cuentoNodes.map((cNode) => {
-              const isHighlighted = selectedNodeId === cNode.id || selectedNodeId === cNode.linkedChapterId;
+            {/* Corona guidelines (concentric circle paths) */}
+            <circle cx={centerX} cy={centerY} r={100} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.05)" : "rgba(0, 0, 0, 0.04)"} strokeWidth={1} className="pointer-events-none" />
+            <circle cx={centerX} cy={centerY} r={130} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
+            <circle cx={centerX} cy={centerY} r={160} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
+            <circle cx={centerX} cy={centerY} r={190} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
+
+            {/* Radial connectors to satellites */}
+            {nodes.map((node) => {
+              const hasCuento = cuentoNodes.some(c => c.linkedChapterId === node.id);
+              const hasPoema = poemaNodes.some(p => p.linkedChapterId === node.id);
+              const hasRecon = reconNodes.some(r => r.linkedChapterId === node.id);
+              
+              if (!hasCuento && !hasPoema && !hasRecon) return null;
+              
+              let maxRadius = 100;
+              if (hasCuento) maxRadius = 130;
+              if (hasPoema) maxRadius = 160;
+              if (hasRecon) maxRadius = 190;
+              
+              const x2 = centerX + maxRadius * Math.cos(node.angle);
+              const y2 = centerY + maxRadius * Math.sin(node.angle);
+              
+              const isHighlighted = selectedNodeId === node.id || 
+                cuentoNodes.some(c => c.linkedChapterId === node.id && selectedNodeId === c.id) ||
+                poemaNodes.some(p => p.linkedChapterId === node.id && selectedNodeId === p.id) ||
+                reconNodes.some(r => r.linkedChapterId === node.id && selectedNodeId === r.id);
+              
               return (
                 <line
-                  key={`orbit-link-${cNode.id}`}
-                  x1={cNode.parentX}
-                  y1={cNode.parentY}
-                  x2={cNode.x}
-                  y2={cNode.y}
+                  key={`radial-${node.id}`}
+                  x1={node.x}
+                  y1={node.y}
+                  x2={x2}
+                  y2={y2}
                   stroke={
                     isHighlighted
-                      ? getColorHex("purple")
+                      ? theme === "cosmic"
+                        ? "rgba(251, 191, 36, 0.25)"
+                        : "rgba(217, 119, 6, 0.25)"
                       : theme === "cosmic"
-                      ? "rgba(192, 132, 252, 0.18)"
-                      : "rgba(147, 51, 234, 0.12)"
+                      ? "rgba(255, 255, 255, 0.04)"
+                      : "rgba(0, 0, 0, 0.03)"
                   }
-                  strokeWidth={isHighlighted ? 2 : 0.8}
-                  strokeDasharray="3 3"
-                  className="transition-all duration-300"
+                  strokeWidth={isHighlighted ? 1 : 0.5}
+                  strokeDasharray="1 3"
+                  className="transition-all duration-300 pointer-events-none"
                 />
               );
             })}
@@ -584,6 +762,118 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                 </g>
               );
             })}
+
+            {/* Render Poemas Satellite Nodes */}
+            {poemaNodes.map((pNode) => {
+              const isSelected = selectedNodeId === pNode.id;
+              const roseHex = getColorHex("rose");
+
+              return (
+                <g
+                  key={pNode.id}
+                  onClick={() => setSelectedNodeId(pNode.id)}
+                  className="cursor-pointer group"
+                >
+                  {/* Pulsing glow for selection */}
+                  {isSelected && (
+                    <motion.circle
+                      cx={pNode.x}
+                      cy={pNode.y}
+                      r={11}
+                      fill="none"
+                      stroke={roseHex}
+                      strokeWidth={1.5}
+                      initial={{ scale: 0.8, opacity: 0.6 }}
+                      animate={{ scale: 1.7, opacity: 0 }}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 1.8,
+                        ease: "easeOut",
+                      }}
+                    />
+                  )}
+
+                  <circle
+                    cx={pNode.x}
+                    cy={pNode.y}
+                    r={isSelected ? 7.5 : 5.5}
+                    fill={isSelected ? roseHex : theme === "cosmic" ? "#881337" : "#fff1f2"}
+                    stroke={isSelected ? roseHex : theme === "cosmic" ? "rgba(244, 63, 94, 0.3)" : "rgba(225, 29, 72, 0.3)"}
+                    strokeWidth={1}
+                    className="transition-all duration-300 group-hover:scale-110"
+                    filter={isSelected ? "url(#glow)" : undefined}
+                    style={{ transformOrigin: `${pNode.x}px ${pNode.y}px` }}
+                  />
+
+                  <text
+                    x={pNode.x}
+                    y={pNode.y + 2.5}
+                    textAnchor="middle"
+                    fill={isSelected ? (theme === "cosmic" ? "#0D0E12" : "#ffffff") : theme === "cosmic" ? "#f43f5e" : "#e11d48"}
+                    className="font-sans font-bold select-none transition-colors duration-300"
+                    style={{ fontSize: isSelected ? "7px" : "6px" }}
+                  >
+                    {pNode.chapterNumber}
+                  </text>
+                </g>
+              );
+            })}
+
+            {/* Render Reconstruccion Satellite Nodes */}
+            {reconNodes.map((rNode) => {
+              const isSelected = selectedNodeId === rNode.id;
+              const cyanHex = getColorHex("cyan");
+
+              return (
+                <g
+                  key={rNode.id}
+                  onClick={() => setSelectedNodeId(rNode.id)}
+                  className="cursor-pointer group"
+                >
+                  {/* Pulsing glow for selection */}
+                  {isSelected && (
+                    <motion.circle
+                      cx={rNode.x}
+                      cy={rNode.y}
+                      r={11}
+                      fill="none"
+                      stroke={cyanHex}
+                      strokeWidth={1.5}
+                      initial={{ scale: 0.8, opacity: 0.6 }}
+                      animate={{ scale: 1.7, opacity: 0 }}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 1.8,
+                        ease: "easeOut",
+                      }}
+                    />
+                  )}
+
+                  <circle
+                    cx={rNode.x}
+                    cy={rNode.y}
+                    r={isSelected ? 7.5 : 5.5}
+                    fill={isSelected ? cyanHex : theme === "cosmic" ? "#0f766e" : "#ecfeff"}
+                    stroke={isSelected ? cyanHex : theme === "cosmic" ? "rgba(56, 189, 248, 0.3)" : "rgba(2, 132, 199, 0.3)"}
+                    strokeWidth={1}
+                    className="transition-all duration-300 group-hover:scale-110"
+                    filter={isSelected ? "url(#glow)" : undefined}
+                    style={{ transformOrigin: `${rNode.x}px ${rNode.y}px` }}
+                  />
+
+                  <text
+                    x={rNode.x}
+                    y={rNode.y + 2.5}
+                    textAnchor="middle"
+                    fill={isSelected ? (theme === "cosmic" ? "#0D0E12" : "#ffffff") : theme === "cosmic" ? "#38bdf8" : "#0284c7"}
+                    className="font-sans font-bold select-none transition-colors duration-300"
+                    style={{ fontSize: isSelected ? "7px" : "6px" }}
+                  >
+                    {rNode.chapterNumber}
+                  </text>
+                </g>
+              );
+            })}
           </svg>
         </div>
 
@@ -608,10 +898,20 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                         <BookOpen className="w-3.5 h-3.5" />
                         Capítulo {selectedInfo.number}
                       </>
-                    ) : (
+                    ) : selectedInfo.type === "cuentos" ? (
                       <>
                         <Feather className="w-3.5 h-3.5" />
                         {textStrings.story}
+                      </>
+                    ) : selectedInfo.type === "poemas" ? (
+                      <>
+                        <Feather className="w-3.5 h-3.5" />
+                        {language === "es" ? "Poema" : "Poem"}
+                      </>
+                    ) : (
+                      <>
+                        <BookOpen className="w-3.5 h-3.5" />
+                        {language === "es" ? "Reconstrucción" : "Reconstruction"} {selectedInfo.number}
                       </>
                     )}
                   </span>
@@ -683,7 +983,14 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                   onClick={() => onSelectChapter(selectedInfo.id, selectedInfo.type)}
                   className={`w-full flex items-center justify-center gap-2 py-3 rounded-xl font-sans font-bold hover:scale-[1.01] active:scale-[0.99] transition-all cursor-pointer ${sc.btnPrimary}`}
                 >
-                  {selectedInfo.type === "essay" ? textStrings.readChapter : textStrings.readCuento}
+                  {selectedInfo.type === "essay" 
+                    ? textStrings.readChapter 
+                    : selectedInfo.type === "cuentos"
+                    ? textStrings.readCuento
+                    : selectedInfo.type === "poemas"
+                    ? (language === "es" ? "Leer Poema" : "Read Poem")
+                    : (language === "es" ? "Iniciar Reconstrucción" : "Start Reconstruction")
+                  }
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>

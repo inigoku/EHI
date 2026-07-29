@@ -464,10 +464,18 @@ export const LandingPage: React.FC<LandingPageProps> = ({
 
       {/* ══════════ NAVEGACIÓN SECUENCIAL (fija) ══════════ */}
       {/* Flecha anterior */}
-      {page > 0 && (
+      {page > 0 ? (
         <button
           onClick={goPrev}
           aria-label={t.landing.prevPage}
+          className="fixed left-4 sm:left-6 top-1/2 -translate-y-1/2 z-50 p-3 rounded-full border border-white/15 bg-slate-950/50 backdrop-blur-md text-slate-300 hover:text-amber-400 hover:border-amber-500/40 transition-all active:scale-95 cursor-pointer"
+        >
+          <ArrowLeft className="w-5 h-5" />
+        </button>
+      ) : (
+        <button
+          onClick={() => setPage(TOTAL_PAGES - 1)}
+          aria-label={language === "es" ? "Ir al Mapa de Relaciones" : "Go to Relations Map"}
           className="fixed left-4 sm:left-6 top-1/2 -translate-y-1/2 z-50 p-3 rounded-full border border-white/15 bg-slate-950/50 backdrop-blur-md text-slate-300 hover:text-amber-400 hover:border-amber-500/40 transition-all active:scale-95 cursor-pointer"
         >
           <ArrowLeft className="w-5 h-5" />
