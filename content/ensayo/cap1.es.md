@@ -29,8 +29,7 @@ William James escribió en 1890 que la conciencia no es una cosa sino un proceso
 
 Un termostato procesa información: entrada, procesamiento, salida. Pero no hay nadie que procesa. No hay punto de vista. Partirlo en dos no produce dos termostatos con la mitad de experiencia. Produce dos piezas de plástico y metal.
 
-> **En física esto se llama:** Phi (Φ) cercano a cero.  
-> **En física esto se llama:** un sistema sin integración de información.  
+> **En física esto se llama:** Phi (Φ) cercano a cero; un sistema sin integración de información.  
 > **En la vida diaria es como:** un interruptor que no siente nada al cambiar de posición. O como una calculadora: procesa, pero no hay nadie en casa.
 
 El gusano *Caenorhabditis elegans* tiene 302 neuronas y 7.000 conexiones sinápticas, todas mapeadas. Es el único sistema nervioso completo que la humanidad ha cartografiado en su totalidad. Con esas 302 neuronas, el gusano busca comida, huye del calor, evita toxinas, responde al daño con comportamientos que en animales más complejos llamaríamos dolor. No tiene cerebro: tiene una red de neuronas distribuidas por su cuerpo. ¿Hay experiencia ahí? Probablemente algo —muy pequeño, muy simple, tan diferente de la nuestra que no tenemos palabras para describirla. Pero «probably algo» es radicalmente distinto a «definitivamente nada».

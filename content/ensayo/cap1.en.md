@@ -24,8 +24,7 @@ William James wrote in 1890 that consciousness is not a thing but a process, and
 
 A thermostat processes information: input, processing, output. But there is no one doing the processing. There is no point of view. Splitting it in two doesn't produce two thermostats with half the experience. It produces two pieces of plastic and metal.
 
-> **In physics this is called:** Phi (Φ) close to zero.  
-> **In physics this is called:** a system without information integration.  
+> **In physics this is called:** Phi (Φ) close to zero; a system without information integration.  
 > **In daily life it is like:** a switch that feels nothing when changing position. Or like a calculator: it processes, but nobody is home.
 
 The worm *Caenorhabditis elegans* has 302 neurons and 7,000 synaptic connections, all mapped. It is the only complete nervous system that humanity has fully charted. With those 302 neurons, the worm seeks food, flees from heat, avoids toxins, and responds to damage with behaviors that in more complex animals we would call pain. It doesn't have a brain: it has a network of neurons distributed throughout its body. Is there experience there? Probably something—very small, very simple, so different from ours that we don't have words to describe it. But "probably something" is radically different from "definitely nothing."
