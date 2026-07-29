@@ -452,22 +452,25 @@ export const LandingPage: React.FC<LandingPageProps> = ({
 
       {/* Flecha siguiente */}
       {page < TOTAL_PAGES - 1 && (
-        <div className="fixed right-4 sm:right-6 top-1/2 -translate-y-1/2 z-50 flex items-center">
+        <div className="fixed right-4 sm:right-6 top-1/2 -translate-y-1/2 z-50 flex items-center justify-center">
           {page === 0 && (
-            <motion.span
-              initial={{ opacity: 0, x: 10 }}
-              animate={{ opacity: 1, x: 0 }}
-              className="mr-3 text-[10px] sm:text-xs font-mono font-bold uppercase tracking-wider text-amber-400 bg-slate-950/70 border border-amber-500/25 px-3 py-1.5 rounded-lg backdrop-blur-sm pointer-events-none hidden md:inline-block shadow-[0_0_15px_rgba(245,158,11,0.1)]"
-            >
-              {language === "es" ? "Explorar hipótesis" : "Explore hypothesis"}
-            </motion.span>
+            <motion.div
+              className="absolute -inset-2.5 rounded-full bg-amber-500/20 blur-md pointer-events-none"
+              animate={{
+                scale: [0.95, 1.18, 0.95],
+                opacity: [0.35, 0.75, 0.35],
+              }}
+              transition={{
+                duration: 2.5,
+                repeat: Infinity,
+                ease: "easeInOut",
+              }}
+            />
           )}
           <button
             onClick={goNext}
             aria-label={t.landing.nextPage}
-            className={`p-4 sm:p-5 rounded-full border border-amber-500/40 bg-amber-500/15 backdrop-blur-md text-amber-400 hover:bg-amber-500/30 hover:border-amber-500/80 transition-all active:scale-90 cursor-pointer shadow-lg ${
-              page === 0 ? "animate-pulse shadow-amber-500/20" : ""
-            }`}
+            className="p-4 sm:p-5 rounded-full border border-amber-500/40 bg-amber-500/15 backdrop-blur-md text-amber-400 hover:bg-amber-500/30 hover:border-amber-500/80 transition-all active:scale-90 cursor-pointer shadow-lg z-10"
           >
             <ArrowRight className="w-6 h-6" />
           </button>
