@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from "react";
-import { motion } from "motion/react";
-import { Info, RefreshCw, Zap, ShieldAlert, Activity } from "lucide-react";
+import { motion, AnimatePresence } from "motion/react";
+import { Info, RefreshCw, Zap, ShieldAlert, BookOpen, Brain, Eye, HelpCircle, HardDrive } from "lucide-react";
 import { Language } from "../i18n";
 
 interface PhiSimulatorProps {
@@ -20,15 +20,20 @@ const PARTITIONS = [
 ];
 
 export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) => {
-  // Node coordinates inside a 400x400 space
+  const isEs = language === "es";
+
+  // State to track current tutorial step
+  const [activeStep, setActiveStep] = useState<number>(0);
+
+  // Node coordinates inside a 400x400 space (A, B, C, D in a diamond pattern)
   const nodes = [
-    { id: "A", x: 200, y: 80 },
-    { id: "B", x: 320, y: 200 },
-    { id: "C", x: 200, y: 320 },
-    { id: "D", x: 80, y: 200 },
+    { id: "A", x: 200, y: 70, labelEs: "Cerebro (Núcleo)", labelEn: "Brain (Core)", icon: Brain },
+    { id: "B", x: 330, y: 200, labelEs: "Ojo (Sensorial)", labelEn: "Eye (Sensory)", icon: Eye },
+    { id: "C", x: 200, y: 330, labelEs: "Mano (Motor)", labelEn: "Hand (Motor)", icon: HelpCircle },
+    { id: "D", x: 70, y: 200, labelEs: "Memoria (Hipocampo)", labelEn: "Memory (Hipocampus)", icon: HardDrive },
   ];
 
-  // Default active connections to form a loop: A -> B -> C -> D -> A
+  // Connection weights: A-B, B-C, etc. Toggled directly between 0, 0.5, and 1.0 on click
   const [weights, setWeights] = useState<Record<string, number>>({
     "A-B": 1.0,
     "B-C": 1.0,
@@ -44,72 +49,14 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
     "D-B": 0.0,
   });
 
-  const [selectedEdge, setSelectedEdge] = useState<string | null>(null);
+  const [hoveredEdge, setHoveredEdge] = useState<string | null>(null);
 
-  // Reset to default loop
-  const handleReset = () => {
-    setWeights({
-      "A-B": 1.0,
-      "B-C": 1.0,
-      "C-D": 1.0,
-      "D-A": 1.0,
-      "B-A": 0.0,
-      "C-B": 0.0,
-      "D-C": 0.0,
-      "A-D": 0.0,
-      "A-C": 0.0,
-      "C-A": 0.0,
-      "B-D": 0.0,
-      "D-B": 0.0,
-    });
-    setSelectedEdge(null);
-  };
-
-  const handlePresetHigh = () => {
-    // Rich bidirectional loop
-    setWeights({
-      "A-B": 1.0,
-      "B-A": 0.8,
-      "B-C": 1.0,
-      "C-B": 0.8,
-      "C-D": 1.0,
-      "D-C": 0.8,
-      "D-A": 1.0,
-      "A-D": 0.8,
-      "A-C": 0.5,
-      "C-A": 0.5,
-      "B-D": 0.5,
-      "D-B": 0.5,
-    });
-    setSelectedEdge(null);
-  };
-
-  const handlePresetFeedforward = () => {
-    // Feedforward flow without feedback loops
-    setWeights({
-      "A-B": 1.0,
-      "B-C": 1.0,
-      "C-D": 1.0,
-      "D-A": 0.0,
-      "B-A": 0.0,
-      "C-B": 0.0,
-      "D-C": 0.0,
-      "A-D": 0.0,
-      "A-C": 0.0,
-      "C-A": 0.0,
-      "B-D": 0.0,
-      "D-B": 0.0,
-    });
-    setSelectedEdge(null);
-  };
-
-  // Perform calculations for Phi and MIP
+  // Calculate integration values
   const { phi, mip, mipCutCoords } = useMemo(() => {
     let minPhi = Infinity;
     let bestPartition = PARTITIONS[0];
 
     PARTITIONS.forEach((part) => {
-      // Flow from P1 to P2
       let flow1to2 = 0;
       part.p1.forEach((u) => {
         part.p2.forEach((v) => {
@@ -117,7 +64,6 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
         });
       });
 
-      // Flow from P2 to P1
       let flow2to1 = 0;
       part.p2.forEach((v) => {
         part.p1.forEach((u) => {
@@ -125,7 +71,6 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
         });
       });
 
-      // Phi is the minimum information crossing in either direction
       const sizeFactor = 2.0 - Math.abs(part.p1.length - part.p2.length) / 4.0;
       const partPhi = Math.min(flow1to2, flow2to1) * sizeFactor;
 
@@ -135,7 +80,7 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
       }
     });
 
-    // Compute visual coords for MIP cut line
+    // Calculate cut division line visual coords
     const p1 = bestPartition.p1;
     let sumX1 = 0, sumY1 = 0;
     p1.forEach((id) => {
@@ -160,7 +105,7 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
     const dx = c2.x - c1.x;
     const dy = c2.y - c1.y;
     const len = Math.sqrt(dx * dx + dy * dy);
-    
+
     let cutCoords = null;
     if (len > 0) {
       const px = -dy / len;
@@ -181,7 +126,69 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
     };
   }, [weights]);
 
-  // Color configurations based on theme
+  // Click handler to cycle weights: 0 -> 0.5 -> 1.0 -> 0
+  const handleEdgeClick = (edgeKey: string) => {
+    setWeights((prev) => {
+      const current = prev[edgeKey] || 0;
+      let next = 0;
+      if (current === 0) next = 0.5;
+      else if (current === 0.5) next = 1.0;
+      else next = 0.0;
+
+      return {
+        ...prev,
+        [edgeKey]: next,
+      };
+    });
+  };
+
+  const getExplanation = () => {
+    if (phi === 0) {
+      return isEs
+        ? "El sistema no integra información. Las partes actúan de forma aislada o puramente lineal (inconsciente)."
+        : "The system does not integrate information. Parts act in isolation or in a purely linear fashion (unconscious).";
+    } else if (phi <= 0.5) {
+      return isEs
+        ? "Integración mínima. Hay bucles de retroalimentación pequeños. Emerge un destello rudimentario de presencia o reactividad interna."
+        : "Minimal integration. Small feedback loops are present. A rudimentary flash of internal presence or reactivity emerges.";
+    } else if (phi <= 1.2) {
+      return isEs
+        ? "Integración media. Las partes comparten estados reflexivos complejos. Cohesión de memoria y procesamiento sensorio-motor."
+        : "Medium integration. Parts share complex reflective states. Cohesion of memory and sensory-motor processing.";
+    } else {
+      return isEs
+        ? "Alta integración. La red es fuertemente indivisible. Emerge una experiencia unificada coherente: la base física de la conciencia."
+        : "High integration. The network is strongly indivisible. A unified, coherent experience emerges: the physical basis of consciousness.";
+    }
+  };
+
+  // Pre-configured tutorial presets
+  const applyPreset = (stepIdx: number) => {
+    setActiveStep(stepIdx);
+    if (stepIdx === 0) {
+      // Unidirectional feedforward loop
+      setWeights({
+        "A-B": 1.0, "B-C": 1.0, "C-D": 1.0, "D-A": 0.0,
+        "B-A": 0.0, "C-B": 0.0, "D-C": 0.0, "A-D": 0.0,
+        "A-C": 0.0, "C-A": 0.0, "B-D": 0.0, "D-B": 0.0,
+      });
+    } else if (stepIdx === 1) {
+      // Simple feedback loop (A <-> B)
+      setWeights({
+        "A-B": 1.0, "B-A": 1.0, "B-C": 0.0, "C-B": 0.0,
+        "C-D": 0.0, "D-C": 0.0, "D-A": 0.0, "A-D": 0.0,
+        "A-C": 0.0, "C-A": 0.0, "B-D": 0.0, "D-B": 0.0,
+      });
+    } else if (stepIdx === 2) {
+      // Dense bidirectional network
+      setWeights({
+        "A-B": 1.0, "B-A": 0.8, "B-C": 1.0, "C-B": 0.8,
+        "C-D": 1.0, "D-C": 0.8, "D-A": 1.0, "A-D": 0.8,
+        "A-C": 0.5, "C-A": 0.5, "B-D": 0.5, "D-B": 0.5,
+      });
+    }
+  };
+
   const sc = useMemo(() => {
     if (theme === "sepia") {
       return {
@@ -191,9 +198,10 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
         activeNode: "#d97706",
         textMuted: "text-[#2C1E11]/70",
         btnPreset: "bg-[#2C1E11]/10 hover:bg-[#2C1E11]/20 text-[#2C1E11]",
-        accent: "text-amber-800",
+        btnActive: "bg-[#2C1E11] text-amber-50",
         meterBg: "bg-amber-900/10",
         meterBar: "bg-amber-700",
+        activeGlow: "rgba(217, 119, 6, 0.4)",
       };
     } else if (theme === "paper") {
       return {
@@ -203,9 +211,10 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
         activeNode: "#059669",
         textMuted: "text-[#1A1A1A]/70",
         btnPreset: "bg-[#1A1A1A]/5 hover:bg-[#1A1A1A]/10 text-[#1A1A1A]",
-        accent: "text-[#1A1A1A] font-bold",
+        btnActive: "bg-[#1A1A1A] text-white",
         meterBg: "bg-slate-100",
         meterBar: "bg-slate-800",
+        activeGlow: "rgba(5, 150, 105, 0.4)",
       };
     } else {
       // cosmic
@@ -216,80 +225,54 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
         activeNode: "#FBBF24",
         textMuted: "text-slate-400",
         btnPreset: "bg-white/5 hover:bg-white/10 text-slate-300",
+        btnActive: "bg-amber-500 text-slate-950 font-bold",
         accent: "text-amber-400",
         meterBg: "bg-slate-900/60 border border-white/5",
         meterBar: "bg-gradient-to-r from-amber-500 to-amber-400 shadow-md shadow-amber-500/20",
+        activeGlow: "rgba(251, 191, 36, 0.4)",
       };
     }
   }, [theme]);
 
-  // Dynamic descriptions
-  const getExplanation = () => {
-    const isEs = language === "es";
-    if (phi === 0) {
-      return isEs
-        ? "Φ = 0: El sistema no integra información. Al ser feedforward o estar desconectado, es divisible sin pérdida. No posee conciencia unificada."
-        : "Φ = 0: The system does not integrate information. Being feedforward or disconnected, it is divisible without loss. It has no unified consciousness.";
-    } else if (phi <= 0.5) {
-      return isEs
-        ? "Φ bajo: Hay bucles de retroalimentación débiles. Emerge una integración básica, pero la experiencia subjetiva es frágil y limitada."
-        : "Low Φ: Weak feedback loops exist. Basic integration emerges, but the subjective experience is fragile and limited.";
-    } else if (phi < 1.2) {
-      return isEs
-        ? "Φ moderado: Estructura circular con flujo continuo. El sistema funciona como una entidad irreductible. Hay un nivel apreciable de conciencia."
-        : "Moderate Φ: Circular structure with continuous flow. The system operates as an irreducible entity. A notable level of consciousness is present.";
-    } else {
-      return isEs
-        ? "Φ alto: Red densa y bidireccional de alta cohesión. La información está intrínsecamente integrada como un todo indisoluble."
-        : "High Φ: Dense, bidirectional network with high cohesion. Information is intrinsically integrated as an indissoluble whole.";
-    }
-  };
-
-  const getColorHex = (color: string) => {
-    if (theme === "cosmic") {
-      switch (color) {
-        case "purple": return "#C084FC";
-        default: return "#FBBF24";
-      }
-    } else {
-      switch (color) {
-        case "purple": return "#9333EA";
-        default: return "#D97706";
-      }
-    }
-  };
-
   return (
     <div className={`rounded-2xl border ${sc.cardBg} p-5 sm:p-6 shadow-xl transition-all duration-300`}>
-      <div className="flex flex-col md:flex-row gap-6">
-        
-        {/* Left column: SVG Interactive graph */}
-        <div className="flex-1 flex flex-col items-center justify-center relative">
-          <div className="absolute top-2 left-2 z-20 flex flex-wrap gap-1.5">
-            <button
-              onClick={handleReset}
-              title={language === "es" ? "Bucle simple" : "Simple loop"}
-              className={`p-1.5 rounded-lg ${sc.btnPreset} transition-colors active:scale-95`}
-            >
-              <RefreshCw className="w-4 h-4" />
-            </button>
-            <button
-              onClick={handlePresetHigh}
-              className={`text-xs px-2.5 py-1 rounded-lg ${sc.btnPreset} transition-colors font-medium flex items-center gap-1`}
-            >
-              <Zap className="w-3 h-3 text-amber-500" />
-              {language === "es" ? "Alta Integración" : "High Integration"}
-            </button>
-            <button
-              onClick={handlePresetFeedforward}
-              className={`text-xs px-2.5 py-1 rounded-lg ${sc.btnPreset} transition-colors font-medium flex items-center gap-1`}
-            >
-              <ShieldAlert className="w-3 h-3 text-slate-500" />
-              {language === "es" ? "Feedforward (Φ=0)" : "Feedforward (Φ=0)"}
-            </button>
-          </div>
+      {/* Title block */}
+      <div className="border-b border-white/5 pb-4 mb-4 flex items-center justify-between">
+        <div>
+          <h4 className="font-display font-medium text-base tracking-wide flex items-center gap-2">
+            <BookOpen className="w-5 h-5 text-amber-500" />
+            {isEs ? "Experimentación Táctil: Información Integrada" : "Tactile Experiment: Integrated Information"}
+          </h4>
+          <p className="text-xs opacity-75 mt-0.5 font-sans">
+            {isEs 
+              ? "Toca las conexiones en el diagrama para regular el flujo de información."
+              : "Touch connections in the diagram to regulate the flow of information."}
+          </p>
+        </div>
+        <button
+          onClick={() => {
+            setWeights({
+              "A-B": 0.0, "B-C": 0.0, "C-D": 0.0, "D-A": 0.0,
+              "B-A": 0.0, "C-B": 0.0, "D-C": 0.0, "A-D": 0.0,
+              "A-C": 0.0, "C-A": 0.0, "B-D": 0.0, "D-B": 0.0,
+            });
+            setActiveStep(-1);
+          }}
+          className="text-[10px] font-mono uppercase tracking-wider px-2 py-1 bg-red-500/10 text-red-400 hover:bg-red-500/20 rounded border border-red-500/10 transition-colors"
+        >
+          {isEs ? "Limpiar Todo" : "Clear All"}
+        </button>
+      </div>
 
+      <div className="flex flex-col lg:flex-row gap-6">
+        
+        {/* Left panel: Constellation graph (SVG) */}
+        <div className="flex-[5] flex flex-col items-center justify-center relative p-2 bg-black/10 rounded-xl">
           <svg viewBox="0 0 400 400" className="w-full max-w-[340px] aspect-square select-none z-10">
+            
+            {/* Accretion/Network glow background */}
+            <circle cx="200" cy="200" r="140" fill="none" stroke={sc.activeGlow} strokeWidth="1" strokeDasharray="3 9" className="opacity-20 animate-spin" style={{ transformOrigin: "200px 200px", animationDuration: "120s" }} />
+            
             {/* Draw connections */}
             {Object.entries(weights).map(([key, wVal]) => {
               const w = wVal as number;
@@ -305,33 +288,39 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
               const tx = toNode.x + shift * Math.cos(angle + Math.PI / 2);
               const ty = toNode.y + shift * Math.sin(angle + Math.PI / 2);
 
-              const startX = fx + 24 * Math.cos(angle);
-              const startY = fy + 24 * Math.sin(angle);
-              const endX = tx - 26 * Math.cos(angle);
-              const endY = ty - 26 * Math.sin(angle);
+              const startX = fx + 26 * Math.cos(angle);
+              const startY = fy + 26 * Math.sin(angle);
+              const endX = tx - 28 * Math.cos(angle);
+              const endY = ty - 28 * Math.sin(angle);
 
-              const isSelected = selectedEdge === key;
+              const isHovered = hoveredEdge === key;
               const isFlowing = w > 0;
-              const strokeColor = isSelected
+              
+              // Color setup: Amber if hovered/selected, Purple if flowing, dim grey if off
+              const strokeColor = isHovered
                 ? "#FBBF24"
                 : isFlowing
-                ? getColorHex("purple")
+                ? w === 0.5
+                  ? theme === "cosmic" ? "rgba(192, 132, 252, 0.45)" : "rgba(147, 51, 234, 0.4)"
+                  : theme === "cosmic" ? "#C084FC" : "#9333EA"
                 : theme === "cosmic"
                 ? "rgba(255,255,255,0.06)"
                 : "rgba(0,0,0,0.04)";
 
-              const strokeWidth = isSelected ? 3.5 : isFlowing ? 1.5 + w * 2.5 : 1;
+              const strokeWidth = isHovered ? 4.5 : isFlowing ? (w === 0.5 ? 2.2 : 3.8) : 1.2;
 
               return (
-                <g key={key} className="cursor-pointer" onClick={() => setSelectedEdge(key)}>
-                  <line
-                    x1={startX}
-                    y1={startY}
-                    x2={endX}
-                    y2={endY}
-                    stroke="transparent"
-                    strokeWidth={15}
-                  />
+                <g 
+                  key={key} 
+                  className="cursor-pointer group" 
+                  onClick={() => handleEdgeClick(key)}
+                  onMouseEnter={() => setHoveredEdge(key)}
+                  onMouseLeave={() => setHoveredEdge(null)}
+                >
+                  {/* Invisible broad click target line */}
+                  <line x1={startX} y1={startY} x2={endX} y2={endY} stroke="transparent" strokeWidth={16} />
+                  
+                  {/* Visual Connection Link Line */}
                   <line
                     x1={startX}
                     y1={startY}
@@ -342,109 +331,113 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
                     strokeDasharray={!isFlowing ? "3 3" : undefined}
                     className="transition-all duration-300"
                   />
+
+                  {/* Flowing Information Particles (glowing dots moving along the path) */}
+                  {isFlowing && (
+                    <circle r={w === 0.5 ? 2 : 3.2} fill={theme === "cosmic" ? "#FFF" : "#A78BFA"} filter={theme === "cosmic" ? "drop-shadow(0px 0px 3px #C084FC)" : undefined}>
+                      <animateMotion
+                        dur={w === 0.5 ? "2.5s" : "1.2s"}
+                        repeatCount="indefinite"
+                        path={`M ${startX} ${startY} L ${endX} ${endY}`}
+                      />
+                    </circle>
+                  )}
+
+                  {/* Directed Arrow Pointer Head */}
                   {isFlowing && (
                     <path
-                      d={`M ${endX} ${endY} L ${endX - 8 * Math.cos(angle - 0.4)} ${
-                        endY - 8 * Math.sin(angle - 0.4)
-                      } L ${endX - 8 * Math.cos(angle + 0.4)} ${
-                        endY - 8 * Math.sin(angle + 0.4)
+                      d={`M ${endX} ${endY} L ${endX - 7 * Math.cos(angle - 0.45)} ${
+                        endY - 7 * Math.sin(angle - 0.45)
+                      } L ${endX - 7 * Math.cos(angle + 0.45)} ${
+                        endY - 7 * Math.sin(angle + 0.45)
                       } Z`}
                       fill={strokeColor}
                       className="transition-all duration-300"
                     />
                   )}
+
+                  {/* Small floating numeric tag to explicitly show the weight */}
                   {isFlowing && (
-                    <text
-                      x={(startX + endX) / 2 + 12 * Math.cos(angle + Math.PI / 2)}
-                      y={(startY + endY) / 2 + 12 * Math.sin(angle + Math.PI / 2) + 3}
-                      fill={isSelected ? "#FBBF24" : theme === "cosmic" ? "#A78BFA" : "#6D28D9"}
-                      fontSize="9px"
-                      fontWeight="bold"
-                      textAnchor="middle"
-                    >
-                      {w.toFixed(1)}
-                    </text>
+                    <g transform={`translate(${(startX + endX) / 2 + 13 * Math.cos(angle + Math.PI / 2)}, ${(startY + endY) / 2 + 13 * Math.sin(angle + Math.PI / 2) + 3})`}>
+                      <text
+                        fill={isHovered ? "#FBBF24" : theme === "cosmic" ? "#C084FC" : "#7C3AED"}
+                        fontSize="8px"
+                        fontWeight="bold"
+                        textAnchor="middle"
+                        className="font-mono bg-black/60 px-1 rounded"
+                      >
+                        {w.toFixed(1)}
+                      </text>
+                    </g>
                   )}
                 </g>
               );
             })}
 
-            {/* MIP Cut Line */}
+            {/* MIP Cut Line (LASER RED DIVISION CUT) */}
             {phi > 0 && mipCutCoords && (
-              <line
-                x1={mipCutCoords.x1}
-                y1={mipCutCoords.y1}
-                x2={mipCutCoords.x2}
-                y2={mipCutCoords.y2}
-                stroke="#EF4444"
-                strokeWidth={2}
-                strokeDasharray="4 4"
-                className="transition-all duration-300 opacity-60"
-              />
+              <g>
+                <line
+                  x1={mipCutCoords.x1}
+                  y1={mipCutCoords.y1}
+                  x2={mipCutCoords.x2}
+                  y2={mipCutCoords.y2}
+                  stroke="#EF4444"
+                  strokeWidth={2}
+                  strokeDasharray="4 3"
+                  className="animate-pulse"
+                />
+                <circle cx={mipCutCoords.x1} cy={mipCutCoords.y1} r="2.5" fill="#EF4444" />
+                <circle cx={mipCutCoords.x2} cy={mipCutCoords.y2} r="2.5" fill="#EF4444" />
+              </g>
             )}
 
-            {/* Render Nodes */}
+            {/* Render Nodes (Constellation Cells) */}
             {nodes.map((node) => {
+              const IconComp = node.icon;
               const isLinked = Object.keys(weights).some(
                 (k) => (k.startsWith(`${node.id}-`) && weights[k] > 0) || (k.endsWith(`-${node.id}`) && weights[k] > 0)
               );
 
               return (
                 <g key={node.id} className="pointer-events-none">
+                  {/* Glowing pulsing aura around active nodes */}
                   {isLinked && phi > 0 && (
                     <circle
                       cx={node.x}
                       cy={node.y}
-                      r={22}
+                      r={24}
                       fill="none"
                       stroke={sc.activeNode}
-                      strokeWidth={1.5}
-                      className="opacity-40"
+                      strokeWidth={1}
+                      className="opacity-20 animate-pulse"
                     />
                   )}
+                  {/* Main Circle node */}
                   <circle
                     cx={node.x}
                     cy={node.y}
-                    r={18}
+                    r={20}
                     fill={sc.nodeBg}
                     stroke={isLinked ? sc.activeNode : sc.nodeStroke}
                     strokeWidth={2}
                     className="transition-colors duration-300"
                   />
+                  {/* SVG Icon inside the node for intuitive visualization */}
+                  <g transform={`translate(${node.x - 7.5}, ${node.y - 8})`} className="opacity-80">
+                    <IconComp className="w-[15px] h-[15px]" style={{ color: isLinked ? (theme === "cosmic" ? "#FFF" : sc.nodeStroke) : "#94A3B8" }} />
+                  </g>
+                  {/* Label under/beside nodes */}
                   <text
                     x={node.x}
-                    y={node.y + 4.5}
+                    y={node.y + (node.y > 200 ? 32 : -26)}
                     textAnchor="middle"
-                    fill={isLinked ? (theme === "cosmic" ? "#FFF" : sc.nodeStroke) : sc.textMuted}
-                    fontSize="12px"
+                    fill={isLinked ? (theme === "cosmic" ? "#E4E6EB" : "#1A1A1A") : sc.textMuted}
+                    fontSize="9px"
                     fontWeight="bold"
-                    fontFamily="monospace"
+                    className="font-sans"
                   >
-                    {node.id}
-                  </text>
-                  <text
-                    x={node.x}
-                    y={node.y + (node.y > 200 ? 30 : -24)}
-                    textAnchor="middle"
-                    fill={sc.textMuted}
-                    fontSize="8px"
-                    className="font-mono tracking-wider uppercase opacity-70"
-                  >
-                    {language === "es"
-                      ? node.id === "A"
-                        ? "Núcleo"
-                        : node.id === "B"
-                        ? "Sensorial"
-                        : node.id === "C"
-                        ? "Motor"
-                        : "Memoria"
-                      : node.id === "A"
-                      ? "Core"
-                      : node.id === "B"
-                      ? "Sensory"
-                      : node.id === "C"
-                      ? "Motor"
-                      : "Memory"}
+                    {isEs ? node.labelEs : node.labelEn}
                   </text>
                 </g>
               );
@@ -452,23 +445,108 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
           </svg>
         </div>
 
-        {/* Right column: Phi gauge and sliders */}
-        <div className="flex-1 flex flex-col justify-between space-y-4">
+        {/* Right panel: Didactic steps and Phi gauge */}
+        <div className="flex-[6] flex flex-col justify-between space-y-4">
           <div className="space-y-3">
-            <h4 className="font-display font-medium text-sm tracking-wider uppercase flex items-center gap-1.5">
-              <Activity className="w-4 h-4 text-amber-500" />
-              {language === "es" ? "Medidor de Integración (IIT)" : "Integration Meter (IIT)"}
-            </h4>
+            
+            {/* Step-by-Step Didactic Guide */}
+            <div className="space-y-2">
+              <span className="text-[10px] font-mono uppercase tracking-widest opacity-60 flex items-center gap-1">
+                <BookOpen className="w-3 h-3 text-amber-500" />
+                {isEs ? "Guía Interactiva Paso a Paso" : "Step-by-Step Interactive Guide"}
+              </span>
+              
+              <div className="grid grid-cols-3 gap-1.5">
+                <button
+                  onClick={() => applyPreset(0)}
+                  className={`text-[10px] px-2 py-1.5 rounded transition-all font-mono uppercase border ${
+                    activeStep === 0 
+                      ? "bg-amber-500/20 border-amber-500 text-amber-400 font-bold" 
+                      : "bg-black/10 border-white/5 hover:bg-black/20 text-slate-400"
+                  }`}
+                >
+                  {isEs ? "1. Unidireccional" : "1. Feedforward"}
+                </button>
+                <button
+                  onClick={() => applyPreset(1)}
+                  className={`text-[10px] px-2 py-1.5 rounded transition-all font-mono uppercase border ${
+                    activeStep === 1 
+                      ? "bg-amber-500/20 border-amber-500 text-amber-400 font-bold" 
+                      : "bg-black/10 border-white/5 hover:bg-black/20 text-slate-400"
+                  }`}
+                >
+                  {isEs ? "2. Bucle Simple" : "2. Simple Loop"}
+                </button>
+                <button
+                  onClick={() => applyPreset(2)}
+                  className={`text-[10px] px-2 py-1.5 rounded transition-all font-mono uppercase border ${
+                    activeStep === 2 
+                      ? "bg-amber-500/20 border-amber-500 text-amber-400 font-bold" 
+                      : "bg-black/10 border-white/5 hover:bg-black/20 text-slate-400"
+                  }`}
+                >
+                  {isEs ? "3. Red Completa" : "3. Full Network"}
+                </button>
+              </div>
+
+              {/* Explanatory text for the current step */}
+              <div className="p-3 bg-white/5 border border-white/5 rounded-lg text-xs leading-relaxed font-serif">
+                {activeStep === 0 && (
+                  isEs ? (
+                    <>
+                      <strong>Paso 1 (Φ = 0.0):</strong> La información fluye en un solo sentido. El ojo estimula el cerebro y la mano se mueve, pero no hay bucles de retorno. El sistema procesa información de forma lineal. <em>Es una máquina inconsciente</em> (como un termostato o una cámara de fotos).
+                    </>
+                  ) : (
+                    <>
+                      <strong>Step 1 (Φ = 0.0):</strong> Information flows in a single direction. The eye triggers the brain, and the hand moves, but there are no return loops. Processing is linear. <em>This is an unconscious machine</em> (like a thermostat or camera).
+                    </>
+                  )
+                )}
+                {activeStep === 1 && (
+                  isEs ? (
+                    <>
+                      <strong>Paso 2 (Φ &gt; 0):</strong> ¡Has creado retroalimentación! Al conectar el Cerebro de vuelta al Ojo, la señal viaja en bucle cerrado. Ahora, el sistema integra información sobre sí mismo. Emerge un nivel básico de experiencia sensible.
+                    </>
+                  ) : (
+                    <>
+                      <strong>Step 2 (Φ &gt; 0):</strong> You created feedback! By connecting the Brain back to the Eye, the signal travels in a closed loop. The system now integrates information about itself. A basic level of sensitive experience emerges.
+                    </>
+                  )
+                )}
+                {activeStep === 2 && (
+                  isEs ? (
+                    <>
+                      <strong>Paso 3 (Φ Máximo):</strong> Una red densa de retroalimentación en todas las áreas. Toda la información se vuelve indisoluble: ya no puedes cortar el sistema en partes sin destruir la experiencia completa. Emerge la <strong>conciencia integrada</strong>.
+                    </>
+                  ) : (
+                    <>
+                      <strong>Step 3 (Max Φ):</strong> A dense network of feedback across all areas. All information becomes indissoluble: you can no longer cut the system into parts without destroying the whole experience. <strong>Integrated consciousness</strong> emerges.
+                    </>
+                  )
+                )}
+                {activeStep === -1 && (
+                  isEs ? (
+                    <>
+                      <strong>Diseña tu propio sistema:</strong> Haz clic en cualquier conexión. Si está inactiva (punteada), activará un flujo medio (0.5); si vuelves a pulsar, será flujo máximo (1.0). Construye bucles para ver cómo sube la integración Φ.
+                    </>
+                  ) : (
+                    <>
+                      <strong>Design your own system:</strong> Click any connection. If inactive (dotted), it turns into medium flow (0.5); click again for max flow (1.0). Build feedback loops to see integration Φ rise.
+                    </>
+                  )
+                )}
+              </div>
+            </div>
 
             {/* Phi Value Gauge */}
             <div className={`p-4 rounded-xl ${sc.meterBg} flex flex-col items-center justify-center relative overflow-hidden`}>
-              <span className="text-xs font-mono opacity-70 uppercase tracking-widest">
-                {language === "es" ? "Información Integrada" : "Integrated Information"}
+              <span className="text-[10px] font-mono opacity-70 uppercase tracking-widest text-center">
+                {isEs ? "Grado de Información Integrada (Conciencia Subjetiva)" : "Degree of Integrated Information (Subjective Consciousness)"}
               </span>
               <span className="text-4xl sm:text-5xl font-display font-bold my-1 tracking-tighter">
                 Φ = {phi}
               </span>
-              <div className="w-full h-2 bg-black/20 rounded-full mt-2 overflow-hidden">
+              <div className="w-full h-2.5 bg-black/20 rounded-full mt-2 overflow-hidden border border-white/5">
                 <div
                   className={`h-full rounded-full transition-all duration-500 ${sc.meterBar}`}
                   style={{ width: `${Math.min(100, (phi / 2.0) * 100)}%` }}
@@ -476,8 +554,8 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
               </div>
             </div>
 
-            {/* Explanation box */}
-            <p className="text-xs font-serif leading-relaxed italic p-3 bg-black/10 rounded-lg">
+            {/* Dynamic system diagnostic message */}
+            <p className="text-xs font-serif leading-relaxed italic p-3 bg-black/20 rounded-lg text-center">
               {getExplanation()}
             </p>
 
@@ -487,64 +565,23 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
                 <Info className="w-4 h-4 shrink-0 mt-0.5" />
                 <div>
                   <strong className="block font-semibold">
-                    {language === "es" ? "Corte de Información Mínimo (MIP)" : "Minimum Information Cut (MIP)"}
+                    {isEs ? "El Punto de Fractura Mínimo (MIP)" : "Minimum Fracture Point (MIP)"}
                   </strong>
-                  {language === "es" ? (
-                    <>
-                      El sistema es más vulnerable en la división: <code className="font-mono text-white bg-black/30 px-1 rounded">{mip.label}</code>.
-                      El flujo a través de esta sección limita la cohesión del todo.
-                    </>
-                  ) : (
-                    <>
-                      The system is most vulnerable at the cut: <code className="font-mono text-white bg-black/30 px-1 rounded">{mip.label}</code>.
-                      Flow across this partition bounds the cohesion of the whole.
-                    </>
-                  )}
+                  <p className="mt-0.5 leading-normal opacity-90">
+                    {isEs ? (
+                      <>
+                        El corte <code className="font-mono text-white bg-black/40 px-1 rounded">{mip.label}</code> es la línea roja láser del diagrama.
+                        Representa la división que divide el sistema con el menor esfuerzo. La fuerza de esta frontera es la que limita el Φ total.
+                      </>
+                    ) : (
+                      <>
+                        The cut <code className="font-mono text-white bg-black/40 px-1 rounded">{mip.label}</code> is the red laser line in the diagram.
+                        It represents the division that splits the system with the least effort. The strength of this boundary bounds total Φ.
+                      </>
+                    )}
+                  </p>
                 </div>
               </div>
-            )}
-          </div>
-
-          {/* Interactive controls */}
-          <div className="space-y-3 pt-3 border-t border-white/5">
-            {selectedEdge ? (
-              <div className="space-y-2">
-                <div className="flex justify-between text-xs font-mono">
-                  <span>{language === "es" ? "Conexión Seleccionada" : "Selected Connection"}: <strong className="text-amber-500">{selectedEdge}</strong></span>
-                  <span className="font-bold">{weights[selectedEdge] > 0 ? `${(weights[selectedEdge] * 100).toFixed(0)}%` : (language === "es" ? "Inactiva" : "Inactive")}</span>
-                </div>
-                <div className="flex items-center gap-3">
-                  <input
-                    type="range"
-                    min="0"
-                    max="1"
-                    step="0.1"
-                    value={weights[selectedEdge]}
-                    onChange={(e) => {
-                      const val = parseFloat(e.target.value);
-                      setWeights((prev) => ({ ...prev, [selectedEdge]: val }));
-                    }}
-                    className="flex-1 accent-amber-500 cursor-pointer h-1 bg-slate-800 rounded-lg appearance-none"
-                  />
-                  <button
-                    onClick={() => {
-                      setWeights((prev) => ({
-                        ...prev,
-                        [selectedEdge]: weights[selectedEdge] > 0 ? 0.0 : 1.0,
-                      }));
-                    }}
-                    className="text-xs px-2.5 py-1 bg-amber-500/10 text-amber-400 hover:bg-amber-500/20 rounded border border-amber-500/25 transition-colors"
-                  >
-                    {weights[selectedEdge] > 0 ? (language === "es" ? "Apagar" : "Turn Off") : (language === "es" ? "Encender" : "Turn On")}
-                  </button>
-                </div>
-              </div>
-            ) : (
-              <p className="text-[11px] text-slate-500 italic text-center py-2">
-                {language === "es"
-                  ? "Toca cualquier flecha o conexión punteada para regular su flujo."
-                  : "Touch any arrow or dotted connection to regulate its flow."}
-              </p>
             )}
           </div>
         </div>
