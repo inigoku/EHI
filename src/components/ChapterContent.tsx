@@ -5,6 +5,8 @@ import { IllustrationViewer } from "./IllustrationViewer";
 import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { Language, uiStrings } from "../i18n";
+import { PhiSimulator } from "./PhiSimulator";
+import { HorizonSimulator } from "./HorizonSimulator";
 // @ts-ignore
 import part1Bg from "../assets/images/part1_bg.png";
 // @ts-ignore
@@ -491,6 +493,28 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           i++;
           continue;
         }
+      }
+
+      // Handle Phi simulation block
+      if (trimmed === "## [SIMULACIÓN PHI]" || trimmed === "## [SIMULACION PHI]" || trimmed === "## [SIMULATION PHI]") {
+        processedBlocks.push(
+          <div key={`sim-phi-${i}`} className="my-8">
+            <PhiSimulator language={language} theme={theme} />
+          </div>
+        );
+        i++;
+        continue;
+      }
+
+      // Handle Event Horizon simulation block
+      if (trimmed === "## [SIMULACIÓN HORIZONTE]" || trimmed === "## [SIMULACION HORIZONTE]" || trimmed === "## [SIMULATION HORIZONTE]" || trimmed === "## [SIMULATION HORIZON]") {
+        processedBlocks.push(
+          <div key={`sim-horizon-${i}`} className="my-8">
+            <HorizonSimulator language={language} theme={theme} />
+          </div>
+        );
+        i++;
+        continue;
       }
 
       if (trimmed.startsWith("## ")) {

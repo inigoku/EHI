@@ -70,6 +70,8 @@ This asymmetry is one of the most philosophically rich facts in modern physics. 
 > **In physics this is called:** gravitational time dilation, Schwarzschild coordinates vs. free-falling observer coordinates.  
 > **In daily life it is like:** two people watching the same farewell: one from the shore, the other from the departing ship. The same goodbye, two speeds. For one, the other moves away slower and slower until stopping on the horizon. For the other, the shore recedes at a constant speed and then disappears. Both are right. Neither is completely right.
 
+## [SIMULATION HORIZONTE]
+
 ---
 
 ### They exist. We have photographed them.

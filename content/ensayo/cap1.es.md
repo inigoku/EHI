@@ -99,6 +99,8 @@ Tononi formalizó esto con phi (Φ): la información que un sistema genera como 
 | Humano despierto | Muy alto | Lo más complejo que conocemos |
 | Cerebro bajo anestesia | Caída drástica | ¿Dónde va el "alguien"? |
 
+## [SIMULACIÓN PHI]
+
 > **En física esto se llama:** Phi (Φ), información integrada; Teoría de la Información Integrada (IIT).  
 > **En la vida diaria es como:** una orquesta. No es que cada músico toque su parte —es que todos tocan juntos de manera que surge algo que ninguno toca solo. Una grabación de cada músico por separado no es la sinfonía. La sinfonía está en las relaciones.
 

@@ -94,6 +94,8 @@ Tononi formalized this with phi (Φ): the information a system generates as a wh
 | Awake human | Very high | The most complex we know |
 | Brain under anesthesia | Drastic drop | Where does the "someone" go? |
 
+## [SIMULATION PHI]
+
 > **In physics this is called:** Phi (Φ), integrated information; Integrated Information Theory (IIT).  
 > **In daily life it is like:** an orchestra. It isn't that each musician plays their part—it's that they all play together in a way that something emerges which no one plays alone. A recording of each musician separately is not the symphony. The symphony is in the relationships.
 

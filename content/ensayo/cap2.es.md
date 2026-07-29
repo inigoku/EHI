@@ -74,6 +74,8 @@ Esta asimetría es uno de los hechos más filosóficamente ricos de la física m
 > **En física esto se llama:** dilatación temporal gravitatoria, coordenadas de Schwarzschild vs. coordenadas del observador en caída libre.  
 > **En la vida diaria es como:** dos personas viendo la misma despedida: una desde la orilla, otra desde el barco que parte. El mismo adiós, dos velocidades. Para uno, el otro se aleja cada vez más lento hasta detenerse en el horizonte. Para el otro, la orilla se aleja a velocidad constante y luego desaparece. Ambos tienen razón. Ninguno tiene la razón completa.
 
+## [SIMULACIÓN HORIZONTE]
+
 ---
 
 ### Existen. Los hemos fotografiado.
