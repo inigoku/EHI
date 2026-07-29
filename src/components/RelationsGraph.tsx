@@ -126,6 +126,29 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
     }>;
   }, [nodes]);
 
+  const conceptualLinks = React.useMemo(() => [
+    { fromId: "cap1", toId: "cap8" },
+    { fromId: "cap1", toId: "cap20_real" },
+    { fromId: "cap2", toId: "cap10" },
+    { fromId: "cap2", toId: "cap15_real" },
+    { fromId: "cap3", toId: "cap11" },
+    { fromId: "cap4", toId: "cap12" },
+    { fromId: "cap4", toId: "cap19_real" },
+    { fromId: "cap5", toId: "cap13_5" },
+    { fromId: "cap5", toId: "cap18_real" },
+    { fromId: "cap6", toId: "cap14_real" },
+    { fromId: "cap6", toId: "cap20_5" },
+    { fromId: "cap7", toId: "cap12" },
+    { fromId: "cap7", toId: "cap17_real" },
+    { fromId: "cap8", toId: "cap13" },
+    { fromId: "cap8", toId: "cap20_real" },
+    { fromId: "cap9", toId: "cap16_real" },
+    { fromId: "cap10", toId: "cap18_real" },
+    { fromId: "cap10", toId: "cap20_real" },
+    { fromId: "cap13", toId: "cap17_real" },
+    { fromId: "cap15_real", toId: "cap20_5" },
+  ], []);
+
   const [selectedNodeId, setSelectedNodeId] = React.useState<string>(() => nodes[0]?.id || "");
 
   const selectedInfo = React.useMemo(() => {
@@ -317,6 +340,37 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                 />
               );
             })()}
+
+            {/* Drawing Conceptual Links */}
+            {conceptualLinks.map((link, idx) => {
+              const fromNode = nodes.find(n => n.id === link.fromId);
+              const toNode = nodes.find(n => n.id === link.toId);
+              if (!fromNode || !toNode) return null;
+              
+              const isHighlighted = selectedNodeId === fromNode.id || selectedNodeId === toNode.id;
+              
+              return (
+                <line
+                  key={`conceptual-link-${idx}`}
+                  x1={fromNode.x}
+                  y1={fromNode.y}
+                  x2={toNode.x}
+                  y2={toNode.y}
+                  stroke={
+                    isHighlighted
+                      ? theme === "cosmic"
+                        ? "rgba(251, 191, 36, 0.35)"
+                        : "rgba(217, 119, 6, 0.35)"
+                      : theme === "cosmic"
+                      ? "rgba(255, 255, 255, 0.05)"
+                      : "rgba(0, 0, 0, 0.04)"
+                  }
+                  strokeWidth={isHighlighted ? 1.2 : 0.6}
+                  strokeDasharray="4 4"
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })}
 
             {/* Orbit paths for Cuentos */}
             {cuentoNodes.map((cNode) => {
