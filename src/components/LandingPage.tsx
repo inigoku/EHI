@@ -238,10 +238,10 @@ export const LandingPage: React.FC<LandingPageProps> = ({
         <div className="relative pb-24 flex flex-col items-center z-20 gap-4">
           <button
             onClick={() => onStartReading("essay")}
-            className="flex items-center gap-2 px-8 py-4 rounded-xl bg-amber-500 text-slate-950 font-sans font-bold hover:bg-amber-400 active:scale-95 transition-all shadow-xl shadow-amber-500/10 cursor-pointer"
+            className="flex items-center gap-2 px-6 py-2.5 rounded-xl border border-amber-500/40 text-amber-400 hover:bg-amber-500 hover:text-slate-950 font-sans font-semibold text-xs active:scale-95 transition-all cursor-pointer bg-slate-950/20 backdrop-blur-sm"
           >
             {t.landing.startReading}
-            <ArrowRight className="w-4 h-4" />
+            <ArrowRight className="w-3.5 h-3.5" />
           </button>
         </div>
       </section>
@@ -452,13 +452,26 @@ export const LandingPage: React.FC<LandingPageProps> = ({
 
       {/* Flecha siguiente */}
       {page < TOTAL_PAGES - 1 && (
-        <button
-          onClick={goNext}
-          aria-label={t.landing.nextPage}
-          className="fixed right-4 sm:right-6 top-1/2 -translate-y-1/2 z-50 p-3 rounded-full border border-amber-500/30 bg-amber-500/10 backdrop-blur-md text-amber-400 hover:bg-amber-500/25 hover:border-amber-500/60 transition-all active:scale-95 cursor-pointer"
-        >
-          <ArrowRight className="w-5 h-5" />
-        </button>
+        <div className="fixed right-4 sm:right-6 top-1/2 -translate-y-1/2 z-50 flex items-center">
+          {page === 0 && (
+            <motion.span
+              initial={{ opacity: 0, x: 10 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="mr-3 text-[10px] sm:text-xs font-mono font-bold uppercase tracking-wider text-amber-400 bg-slate-950/70 border border-amber-500/25 px-3 py-1.5 rounded-lg backdrop-blur-sm pointer-events-none hidden md:inline-block shadow-[0_0_15px_rgba(245,158,11,0.1)]"
+            >
+              {language === "es" ? "Explorar hipótesis" : "Explore hypothesis"}
+            </motion.span>
+          )}
+          <button
+            onClick={goNext}
+            aria-label={t.landing.nextPage}
+            className={`p-4 sm:p-5 rounded-full border border-amber-500/40 bg-amber-500/15 backdrop-blur-md text-amber-400 hover:bg-amber-500/30 hover:border-amber-500/80 transition-all active:scale-90 cursor-pointer shadow-lg ${
+              page === 0 ? "animate-pulse shadow-amber-500/20" : ""
+            }`}
+          >
+            <ArrowRight className="w-6 h-6" />
+          </button>
+        </div>
       )}
 
       {/* Puntos de progreso + etiqueta */}
