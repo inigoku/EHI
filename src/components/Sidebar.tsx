@@ -28,6 +28,7 @@ interface SidebarProps {
   mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion";
   onModeChange: (mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
   onOpenPathLanding?: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
+  onOpenGraph?: () => void;
   language: Language;
   setLanguage: (language: Language) => void;
 }
@@ -51,6 +52,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
   mode,
   onModeChange,
   onOpenPathLanding,
+  onOpenGraph,
   language,
   setLanguage,
 }) => {
@@ -384,7 +386,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
               >
                 <span className="text-amber-500 text-xs">📖</span>
                 <span className="font-display font-bold text-[9px] uppercase tracking-wide mt-1 truncate w-full">
-                  {language === "es" ? "Ensayo y Grafo" : "Essay & Graph"}
+                  {language === "es" ? "Ensayo" : "Essay"}
                 </span>
               </button>
               <button
@@ -421,6 +423,17 @@ export const Sidebar: React.FC<SidebarProps> = ({
                 </span>
               </button>
             </div>
+            
+            {/* Direct Link to the Interactive Relations Graph on page 5 */}
+            <button
+              onClick={() => onOpenGraph && onOpenGraph()}
+              className={`w-full text-left p-2 rounded-xl border ${sc.button} flex items-center justify-center gap-2 hover:scale-[1.01] active:scale-[0.99] transition-all cursor-pointer mt-2`}
+            >
+              <span className="text-amber-500 text-xs">🕸️</span>
+              <span className="font-display font-bold text-[9px] uppercase tracking-wide text-amber-500/90">
+                {language === "es" ? "Mapa de Relaciones" : "Relations Map"}
+              </span>
+            </button>
           </div>
 
           <div className={`h-px ${sc.border} my-4`} />

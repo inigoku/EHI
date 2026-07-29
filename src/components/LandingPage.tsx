@@ -7,6 +7,7 @@ import { LanguageToggle } from "./LanguageToggle";
 import { SoundControl } from "./SoundControl";
 import { FloatingWords } from "./FloatingWords";
 import { useAudioPrefs } from "../hooks/useAudioPrefs";
+import { RelationsGraph } from "./RelationsGraph";
 
 interface LandingPageProps {
   theme: ReadingTheme;
@@ -14,9 +15,10 @@ interface LandingPageProps {
   setLanguage: (language: Language) => void;
   onStartReading: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion", chapterId?: string) => void;
   openGlossary: () => void;
+  initialPage?: number;
 }
 
-const TOTAL_PAGES = 4;
+const TOTAL_PAGES = 5;
 
 export const LandingPage: React.FC<LandingPageProps> = ({
   theme,
@@ -24,11 +26,17 @@ export const LandingPage: React.FC<LandingPageProps> = ({
   setLanguage,
   onStartReading,
   openGlossary,
+  initialPage = 0,
 }) => {
   const t = uiStrings[language];
   const INTRO_PHRASES = t.landing.introPhrases;
   const [phraseIndex, setPhraseIndex] = React.useState(0);
-  const [page, setPage] = React.useState(0);
+  const [page, setPage] = React.useState(initialPage);
+
+  React.useEffect(() => {
+    setPage(initialPage);
+  }, [initialPage]);
+
   const videoARef = React.useRef<HTMLVideoElement>(null);
   const audioRef = React.useRef<HTMLAudioElement>(null);
   const { volume, setVolume, isMuted, toggleMute } = useAudioPrefs();
@@ -173,6 +181,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
     t.landing.floatingTitle,
     t.landing.sectionLabel,
     t.landing.pathsTitle,
+    language === "es" ? "Mapa de Relaciones" : "Relations Map",
   ];
 
   return (
@@ -431,6 +440,21 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                   </p>
                 </div>
               </div>
+              </div>
+            </section>
+          )}
+
+          {/* ══════════ PÁGINA 5: MAPA DE RELACIONES ══════════ */}
+          {page === 4 && (
+            <section className={`h-full overflow-y-auto px-6 py-16 flex flex-col ${tc.bg}`}>
+              <div className="my-auto w-full">
+                <div className="max-w-5xl mx-auto w-full">
+                  <RelationsGraph
+                    theme={theme}
+                    language={language}
+                    onSelectChapter={(id, mode) => onStartReading(mode, id)}
+                  />
+                </div>
               </div>
             </section>
           )}

@@ -60,6 +60,7 @@ export default function App() {
   // Path Landing states
   const [visitedModes, setVisitedModes] = React.useState<Record<string, boolean>>({});
   const [activePathLanding, setActivePathLanding] = React.useState<"essay" | "cuentos" | "poemas" | "reconstruccion" | null>(null);
+  const [landingPageNum, setLandingPageNum] = React.useState<number>(0);
 
   // Save states to localStorage
   React.useEffect(() => {
@@ -151,6 +152,7 @@ export default function App() {
       }
     } else {
       setActivePathLanding(null);
+      setLandingPageNum(0);
     }
   };
 
@@ -219,6 +221,7 @@ export default function App() {
         theme={theme}
         language={language}
         setLanguage={setLanguage}
+        initialPage={landingPageNum}
         onStartReading={(mode, chapterId) => {
           setReadingMode(mode);
           setVisitedModes(prev => ({ ...prev, [mode]: true }));
@@ -354,6 +357,11 @@ export default function App() {
             setActiveChapterId(targetId);
             setIsSidebarOpen(false);
           }}
+          onOpenGraph={() => {
+            setReadingMode("home");
+            setLandingPageNum(4);
+            setIsSidebarOpen(false);
+          }}
           language={language}
           setLanguage={setLanguage}
         />
@@ -368,11 +376,6 @@ export default function App() {
               theme={theme}
               language={language}
               onClose={() => setActivePathLanding(null)}
-              onSelectChapter={(chapterId, targetMode) => {
-                setReadingMode(targetMode);
-                setActiveChapterId(chapterId);
-                setActivePathLanding(null);
-              }}
             />
           ) : (
             <ChapterContent
