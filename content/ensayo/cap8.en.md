@@ -10,6 +10,8 @@ The bridge is non-traversable: information cannot be sent faster than light. But
 > **In physics this is called:** an Einstein-Rosen bridge.  
 > **In daily life it is like:** a tunnel connecting two mountains: you cannot travel through it, but the mountains share a root.
 
+## [SIMULACIÓN ENTRELAZAMIENTO]
+
 If entanglement creates shared geometry, two entangled systems are not simply two systems that correlate—they are two systems that share topology. They have a partially common inside. Their horizons are not entirely separate.
 
 ### The neurobiology of attachment

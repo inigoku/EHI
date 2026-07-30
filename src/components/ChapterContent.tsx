@@ -7,6 +7,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { Language, uiStrings } from "../i18n";
 import { PhiSimulator } from "./PhiSimulator";
 import { HorizonSimulator } from "./HorizonSimulator";
+import { EntanglementSimulator } from "./EntanglementSimulator";
 // @ts-ignore
 import part1Bg from "../assets/images/part1_bg.png";
 // @ts-ignore
@@ -511,6 +512,17 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         processedBlocks.push(
           <div key={`sim-horizon-${i}`} className="my-8">
             <HorizonSimulator language={language} theme={theme} />
+          </div>
+        );
+        i++;
+        continue;
+      }
+
+      // Handle Entanglement simulation block
+      if (trimmed === "## [SIMULACIÓN ENTRELAZAMIENTO]" || trimmed === "## [SIMULACION ENTRELAZAMIENTO]" || trimmed === "## [SIMULATION ENTANGLEMENT]" || trimmed === "## [ENTANGLEMENT SIMULATOR]") {
+        processedBlocks.push(
+          <div key={`sim-entanglement-${i}`} className="my-8">
+            <EntanglementSimulator language={language} theme={theme} />
           </div>
         );
         i++;

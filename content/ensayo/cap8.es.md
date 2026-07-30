@@ -15,6 +15,8 @@ El puente es no-traversable: no se puede enviar información más rápido que la
 > **En física esto se llama:** puente de Einstein-Rosen.  
 > **En la vida diaria es como:** un túnel que conecta dos montañas: no puedes viajar por él, pero las montañas comparten raíz.
 
+## [SIMULACIÓN ENTRELAZAMIENTO]
+
 Si el entrelazamiento crea geometría compartida, dos sistemas entrelazados no son simplemente dos sistemas que correlacionan —son dos sistemas que comparten topología. Tienen un adentro parcialmente común. Sus horizontes no son del todo separados.
 
 ### La neurobiología del apego
