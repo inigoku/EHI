@@ -27,10 +27,10 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
 
   // Node coordinates inside a 400x400 space (A, B, C, D in a diamond pattern)
   const nodes = [
-    { id: "A", x: 200, y: 70, labelEs: "Cerebro (Núcleo)", labelEn: "Brain (Core)", icon: Brain },
-    { id: "B", x: 330, y: 200, labelEs: "Ojo (Sensorial)", labelEn: "Eye (Sensory)", icon: Eye },
-    { id: "C", x: 200, y: 330, labelEs: "Mano (Motor)", labelEn: "Hand (Motor)", icon: HelpCircle },
-    { id: "D", x: 70, y: 200, labelEs: "Memoria (Hipocampo)", labelEn: "Memory (Hipocampus)", icon: HardDrive },
+    { id: "A", x: 200, y: 75, labelEs: "Cerebro (Núcleo)", labelEn: "Brain (Core)", icon: Brain },
+    { id: "B", x: 325, y: 200, labelEs: "Ojo (Sensorial)", labelEn: "Eye (Sensory)", icon: Eye },
+    { id: "C", x: 200, y: 325, labelEs: "Mano (Motor)", labelEn: "Hand (Motor)", icon: HelpCircle },
+    { id: "D", x: 75, y: 200, labelEs: "Memoria (Hipocampo)", labelEn: "Memory (Hipocampus)", icon: HardDrive },
   ];
 
   // Connection weights: A-B, B-C, etc. Toggled directly between 0, 0.5, and 1.0 on click
@@ -193,60 +193,106 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
     if (theme === "sepia") {
       return {
         cardBg: "bg-[#F3EDE0] border-[#2C1E11]/15 text-[#2C1E11]",
-        nodeBg: "#EEDCBE",
-        nodeStroke: "#854d0e",
-        activeNode: "#d97706",
         textMuted: "text-[#2C1E11]/70",
         btnPreset: "bg-[#2C1E11]/10 hover:bg-[#2C1E11]/20 text-[#2C1E11]",
         btnActive: "bg-[#2C1E11] text-amber-50",
         meterBg: "bg-amber-900/10",
         meterBar: "bg-amber-700",
-        activeGlow: "rgba(217, 119, 6, 0.4)",
+        // SVG Styles
+        waterGradientStart: "#2D1B08",
+        waterGradientEnd: "#1C0F02",
+        waterBlobColor: "rgba(217, 119, 6, 0.06)",
+        sphereActiveStart: "#FFFBEB",
+        sphereActiveMid: "#D97706",
+        sphereActiveEnd: "#78350F",
+        sphereInactiveStart: "#F3EDE0",
+        sphereInactiveMid: "#8C7E6B",
+        sphereInactiveEnd: "#453C30",
+        tubeBg: "rgba(217, 119, 6, 0.15)",
+        tubeActive: "#D97706",
+        particleColor: "#FBBF24",
       };
     } else if (theme === "paper") {
       return {
         cardBg: "bg-white border-[#1A1A1A]/10 text-[#1A1A1A]",
-        nodeBg: "#F3F4F6",
-        nodeStroke: "#374151",
-        activeNode: "#059669",
         textMuted: "text-[#1A1A1A]/70",
         btnPreset: "bg-[#1A1A1A]/5 hover:bg-[#1A1A1A]/10 text-[#1A1A1A]",
         btnActive: "bg-[#1A1A1A] text-white",
         meterBg: "bg-slate-100",
         meterBar: "bg-slate-800",
-        activeGlow: "rgba(5, 150, 105, 0.4)",
+        // SVG Styles
+        waterGradientStart: "#F0FDF4",
+        waterGradientEnd: "#DCFCE7",
+        waterBlobColor: "rgba(5, 150, 105, 0.04)",
+        sphereActiveStart: "#ECFDF5",
+        sphereActiveMid: "#059669",
+        sphereActiveEnd: "#064E3B",
+        sphereInactiveStart: "#F9FAFB",
+        sphereInactiveMid: "#9CA3AF",
+        sphereInactiveEnd: "#374151",
+        tubeBg: "rgba(5, 150, 105, 0.12)",
+        tubeActive: "#059669",
+        particleColor: "#34D399",
       };
     } else {
       // cosmic
       return {
         cardBg: "bg-[#15171F] border-white/5 text-[#E4E6EB]",
-        nodeBg: "#1E293B",
-        nodeStroke: "rgba(255,255,255,0.15)",
-        activeNode: "#FBBF24",
         textMuted: "text-slate-400",
         btnPreset: "bg-white/5 hover:bg-white/10 text-slate-300",
         btnActive: "bg-amber-500 text-slate-950 font-bold",
-        accent: "text-amber-400",
         meterBg: "bg-slate-900/60 border border-white/5",
         meterBar: "bg-gradient-to-r from-amber-500 to-amber-400 shadow-md shadow-amber-500/20",
-        activeGlow: "rgba(251, 191, 36, 0.4)",
+        // SVG Styles
+        waterGradientStart: "#051625",
+        waterGradientEnd: "#01050A",
+        waterBlobColor: "rgba(59, 130, 246, 0.05)",
+        sphereActiveStart: "#FFFBEB",
+        sphereActiveMid: "#FBBF24",
+        sphereActiveEnd: "#9A3412",
+        sphereInactiveStart: "#F1F5F9",
+        sphereInactiveMid: "#475569",
+        sphereInactiveEnd: "#0F172A",
+        tubeBg: "rgba(167, 139, 250, 0.08)",
+        tubeActive: "#8B5CF6",
+        particleColor: "#A78BFA",
       };
     }
   }, [theme]);
 
   return (
     <div className={`rounded-2xl border ${sc.cardBg} p-5 sm:p-6 shadow-xl transition-all duration-300`}>
+      {/* CSS custom keyframe animations for watery drifting background */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        @keyframes floatBlob1 {
+          0% { transform: translate(0, 0) scale(1); }
+          50% { transform: translate(25px, -35px) scale(1.1); }
+          100% { transform: translate(0, 0) scale(1); }
+        }
+        @keyframes floatBlob2 {
+          0% { transform: translate(0, 0) scale(1.05); }
+          50% { transform: translate(-30px, 20px) scale(0.9); }
+          100% { transform: translate(0, 0) scale(1.05); }
+        }
+        .water-blob-1 {
+          animation: floatBlob1 18s ease-in-out infinite;
+        }
+        .water-blob-2 {
+          animation: floatBlob2 22s ease-in-out infinite;
+        }
+      `}} />
+
       {/* Title block */}
       <div className="border-b border-white/5 pb-4 mb-4 flex items-center justify-between">
         <div>
           <h4 className="font-display font-medium text-base tracking-wide flex items-center gap-2">
             <BookOpen className="w-5 h-5 text-amber-500" />
-            {isEs ? "Experimentación Táctil: Información Integrada" : "Tactile Experiment: Integrated Information"}
+            {isEs ? "Experimentación Táctil: Información Integrada" : "Tactile Simulation: Integrated Information"}
           </h4>
           <p className="text-xs opacity-75 mt-0.5 font-sans">
             {isEs 
-              ? "Toca las conexiones en el diagrama para regular el flujo de información."
-              : "Touch connections in the diagram to regulate the flow of information."}
+              ? "Toca las conexiones de gel en el agua para regular el flujo de información."
+              : "Touch fluid connections in the water to regulate information flow."}
           </p>
         </div>
         <button
@@ -258,22 +304,62 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
             });
             setActiveStep(-1);
           }}
-          className="text-[10px] font-mono uppercase tracking-wider px-2 py-1 bg-red-500/10 text-red-400 hover:bg-red-500/20 rounded border border-red-500/10 transition-colors"
+          className="text-[10px] font-mono uppercase tracking-wider px-2.5 py-1 bg-red-500/10 text-red-400 hover:bg-red-500/20 rounded border border-red-500/10 transition-colors"
         >
-          {isEs ? "Limpiar Todo" : "Clear All"}
+          {isEs ? "Limpiar" : "Clear"}
         </button>
       </div>
 
       <div className="flex flex-col lg:flex-row gap-6">
         
-        {/* Left panel: Constellation graph (SVG) */}
-        <div className="flex-[5] flex flex-col items-center justify-center relative p-2 bg-black/10 rounded-xl">
-          <svg viewBox="0 0 400 400" className="w-full max-w-[340px] aspect-square select-none z-10">
+        {/* Left panel: Constellation graph (SVG) with volumetric spheres and tubes on watery background */}
+        <div className="flex-[5] flex flex-col items-center justify-center relative p-1.5 bg-black/15 rounded-2xl overflow-hidden border border-white/5 shadow-inner">
+          <svg viewBox="0 0 400 400" className="w-full max-w-[345px] aspect-square select-none z-10 rounded-xl">
             
-            {/* Accretion/Network glow background */}
-            <circle cx="200" cy="200" r="140" fill="none" stroke={sc.activeGlow} strokeWidth="1" strokeDasharray="3 9" className="opacity-20 animate-spin" style={{ transformOrigin: "200px 200px", animationDuration: "120s" }} />
+            <defs>
+              {/* Watery background linear gradient */}
+              <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stopColor={sc.waterGradientStart} />
+                <stop offset="100%" stopColor={sc.waterGradientEnd} />
+              </linearGradient>
+
+              {/* Active node 3D sphere radial gradient */}
+              <radialGradient id="sphereActive" cx="32%" cy="32%" r="68%">
+                <stop offset="0%" stopColor={sc.sphereActiveStart} />
+                <stop offset="35%" stopColor={sc.sphereActiveMid} />
+                <stop offset="100%" stopColor={sc.sphereActiveEnd} />
+              </radialGradient>
+
+              {/* Inactive node 3D sphere radial gradient */}
+              <radialGradient id="sphereInactive" cx="32%" cy="32%" r="68%">
+                <stop offset="0%" stopColor={sc.sphereInactiveStart} />
+                <stop offset="45%" stopColor={sc.sphereInactiveMid} />
+                <stop offset="100%" stopColor={sc.sphereInactiveEnd} />
+              </radialGradient>
+
+              {/* Node Drop Shadow */}
+              <filter id="sphereShadow" x="-20%" y="-20%" width="140%" height="140%">
+                <feDropShadow dx="3" dy="6" stdDeviation="5" floodColor="#000000" floodOpacity="0.65" />
+              </filter>
+              
+              {/* Volumetric Tube Glow filter */}
+              <filter id="tubeGlow" x="-10%" y="-10%" width="120%" height="120%">
+                <feGaussianBlur stdDeviation="3" result="blur" />
+                <feComposite in="SourceGraphic" in2="blur" operator="over" />
+              </filter>
+            </defs>
+
+            {/* Aqueous depth background rect */}
+            <rect width="400" height="400" fill="url(#waterGrad)" />
             
-            {/* Draw connections */}
+            {/* Shifting liquid blobs in background (water current) */}
+            <circle cx="120" cy="150" r="110" fill={sc.waterBlobColor} className="water-blob-1 filter blur-[35px]" />
+            <circle cx="280" cy="260" r="120" fill={sc.waterBlobColor} className="water-blob-2 filter blur-[40px]" />
+            
+            {/* Radial coordinate rings */}
+            <circle cx="200" cy="200" r="130" fill="none" stroke="rgba(255,255,255,0.03)" strokeWidth="1" strokeDasharray="4 8" />
+
+            {/* Draw synaptic gel tubes (Volumetric Connections) */}
             {Object.entries(weights).map(([key, wVal]) => {
               const w = wVal as number;
               const [fromId, toId] = key.split("-");
@@ -282,89 +368,135 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
 
               const angle = Math.atan2(toNode.y - fromNode.y, toNode.x - fromNode.x);
               
-              const shift = 6;
+              const shift = 6.5;
               const fx = fromNode.x + shift * Math.cos(angle + Math.PI / 2);
               const fy = fromNode.y + shift * Math.sin(angle + Math.PI / 2);
               const tx = toNode.x + shift * Math.cos(angle + Math.PI / 2);
               const ty = toNode.y + shift * Math.sin(angle + Math.PI / 2);
 
-              const startX = fx + 26 * Math.cos(angle);
-              const startY = fy + 26 * Math.sin(angle);
-              const endX = tx - 28 * Math.cos(angle);
-              const endY = ty - 28 * Math.sin(angle);
+              // Clear spacing from spheres center
+              const startX = fx + 28 * Math.cos(angle);
+              const startY = fy + 28 * Math.sin(angle);
+              const endX = tx - 30 * Math.cos(angle);
+              const endY = ty - 30 * Math.sin(angle);
 
               const isHovered = hoveredEdge === key;
               const isFlowing = w > 0;
+
+              // Volumetric styling variables
+              const tubeWidth = isFlowing ? (w === 0.5 ? 9 : 14) : 4;
+              const coreWidth = isFlowing ? (w === 0.5 ? 4 : 8) : 1;
               
-              // Color setup: Amber if hovered/selected, Purple if flowing, dim grey if off
-              const strokeColor = isHovered
-                ? "#FBBF24"
-                : isFlowing
-                ? w === 0.5
-                  ? theme === "cosmic" ? "rgba(192, 132, 252, 0.45)" : "rgba(147, 51, 234, 0.4)"
-                  : theme === "cosmic" ? "#C084FC" : "#9333EA"
-                : theme === "cosmic"
-                ? "rgba(255,255,255,0.06)"
-                : "rgba(0,0,0,0.04)";
-
-              const strokeWidth = isHovered ? 4.5 : isFlowing ? (w === 0.5 ? 2.2 : 3.8) : 1.2;
-
               return (
                 <g 
                   key={key} 
-                  className="cursor-pointer group" 
+                  className="cursor-pointer" 
                   onClick={() => handleEdgeClick(key)}
                   onMouseEnter={() => setHoveredEdge(key)}
                   onMouseLeave={() => setHoveredEdge(null)}
                 >
-                  {/* Invisible broad click target line */}
-                  <line x1={startX} y1={startY} x2={endX} y2={endY} stroke="transparent" strokeWidth={16} />
-                  
-                  {/* Visual Connection Link Line */}
+                  {/* Broad invisible mouse click target line */}
+                  <line x1={startX} y1={startY} x2={endX} y2={endY} stroke="transparent" strokeWidth={24} />
+
+                  {/* 1. Cast shadow of the gel tube on the water background */}
+                  {isFlowing && (
+                    <line
+                      x1={startX}
+                      y1={startY}
+                      x2={endX}
+                      y2={endY}
+                      stroke="#000"
+                      strokeWidth={tubeWidth}
+                      strokeLinecap="round"
+                      className="opacity-45 filter blur-[3px]"
+                      transform="translate(2, 4)"
+                    />
+                  )}
+
+                  {/* 2. Tube Outer Sheath (Gel Pipe) */}
                   <line
                     x1={startX}
                     y1={startY}
                     x2={endX}
                     y2={endY}
-                    stroke={strokeColor}
-                    strokeWidth={strokeWidth}
-                    strokeDasharray={!isFlowing ? "3 3" : undefined}
-                    className="transition-all duration-300"
+                    stroke={isFlowing ? sc.tubeActive : (theme === "cosmic" ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)")}
+                    strokeWidth={tubeWidth}
+                    strokeLinecap="round"
+                    strokeDasharray={!isFlowing ? "4 4" : undefined}
+                    className="opacity-20 transition-all duration-300"
                   />
 
-                  {/* Flowing Information Particles (glowing dots moving along the path) */}
+                  {/* 3. Fluid Liquid Core (inside the sheath) */}
                   {isFlowing && (
-                    <circle r={w === 0.5 ? 2 : 3.2} fill={theme === "cosmic" ? "#FFF" : "#A78BFA"} filter={theme === "cosmic" ? "drop-shadow(0px 0px 3px #C084FC)" : undefined}>
-                      <animateMotion
-                        dur={w === 0.5 ? "2.5s" : "1.2s"}
-                        repeatCount="indefinite"
-                        path={`M ${startX} ${startY} L ${endX} ${endY}`}
-                      />
-                    </circle>
-                  )}
-
-                  {/* Directed Arrow Pointer Head */}
-                  {isFlowing && (
-                    <path
-                      d={`M ${endX} ${endY} L ${endX - 7 * Math.cos(angle - 0.45)} ${
-                        endY - 7 * Math.sin(angle - 0.45)
-                      } L ${endX - 7 * Math.cos(angle + 0.45)} ${
-                        endY - 7 * Math.sin(angle + 0.45)
-                      } Z`}
-                      fill={strokeColor}
-                      className="transition-all duration-300"
+                    <line
+                      x1={startX}
+                      y1={startY}
+                      x2={endX}
+                      y2={endY}
+                      stroke={sc.tubeActive}
+                      strokeWidth={coreWidth}
+                      strokeLinecap="round"
+                      className="opacity-60 transition-all duration-300"
+                      filter="url(#tubeGlow)"
                     />
                   )}
 
-                  {/* Small floating numeric tag to explicitly show the weight */}
+                  {/* 4. Cylindrical 3D Specular Highlight Line (simulates 3D gloss/reflection) */}
                   {isFlowing && (
-                    <g transform={`translate(${(startX + endX) / 2 + 13 * Math.cos(angle + Math.PI / 2)}, ${(startY + endY) / 2 + 13 * Math.sin(angle + Math.PI / 2) + 3})`}>
+                    <line
+                      x1={startX + 1 * Math.cos(angle + Math.PI / 2)}
+                      y1={startY + 1 * Math.sin(angle + Math.PI / 2)}
+                      x2={endX + 1 * Math.cos(angle + Math.PI / 2)}
+                      y2={endY + 1 * Math.sin(angle + Math.PI / 2)}
+                      stroke="#FFF"
+                      strokeWidth={1.5}
+                      strokeLinecap="round"
+                      className="opacity-45 transition-all duration-300"
+                    />
+                  )}
+
+                  {/* Glowing signal packet drifting inside the watery core */}
+                  {isFlowing && (
+                    <g>
+                      <circle r={w === 0.5 ? 3.5 : 5.5} fill="#FFF" className="opacity-30 filter blur-[1px]">
+                        <animateMotion
+                          dur={w === 0.5 ? "2.6s" : "1.4s"}
+                          repeatCount="indefinite"
+                          path={`M ${startX} ${startY} L ${endX} ${endY}`}
+                        />
+                      </circle>
+                      <circle r={w === 0.5 ? 2 : 3} fill="#FFF">
+                        <animateMotion
+                          dur={w === 0.5 ? "2.6s" : "1.4s"}
+                          repeatCount="indefinite"
+                          path={`M ${startX} ${startY} L ${endX} ${endY}`}
+                        />
+                      </circle>
+                    </g>
+                  )}
+
+                  {/* Directed volume arrow head pointer */}
+                  {isFlowing && (
+                    <path
+                      d={`M ${endX} ${endY} L ${endX - 9 * Math.cos(angle - 0.4)} ${
+                        endY - 9 * Math.sin(angle - 0.4)
+                      } L ${endX - 9 * Math.cos(angle + 0.4)} ${
+                        endY - 9 * Math.sin(angle + 0.4)
+                      } Z`}
+                      fill={isHovered ? "#FBBF24" : sc.tubeActive}
+                      className="transition-all duration-300 opacity-80"
+                    />
+                  )}
+
+                  {/* Hover weight number tag */}
+                  {isFlowing && (
+                    <g transform={`translate(${(startX + endX) / 2 + 15 * Math.cos(angle + Math.PI / 2)}, ${(startY + endY) / 2 + 15 * Math.sin(angle + Math.PI / 2) + 3})`}>
                       <text
-                        fill={isHovered ? "#FBBF24" : theme === "cosmic" ? "#C084FC" : "#7C3AED"}
-                        fontSize="8px"
+                        fill={isHovered ? "#FBBF24" : (theme === "cosmic" ? "#A78BFA" : sc.tubeActive)}
+                        fontSize="8.5px"
                         fontWeight="bold"
                         textAnchor="middle"
-                        className="font-mono bg-black/60 px-1 rounded"
+                        className="font-mono filter drop-shadow-[0_1px_2px_rgba(0,0,0,0.5)]"
                       >
                         {w.toFixed(1)}
                       </text>
@@ -374,25 +506,34 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
               );
             })}
 
-            {/* MIP Cut Line (LASER RED DIVISION CUT) */}
+            {/* MIP Cut division (Glowing Red Laser Laser Divider) */}
             {phi > 0 && mipCutCoords && (
               <g>
+                {/* Red Laser shadow */}
                 <line
                   x1={mipCutCoords.x1}
                   y1={mipCutCoords.y1}
                   x2={mipCutCoords.x2}
                   y2={mipCutCoords.y2}
                   stroke="#EF4444"
-                  strokeWidth={2}
-                  strokeDasharray="4 3"
+                  strokeWidth={3}
+                  className="opacity-40 filter blur-[2px]"
+                />
+                {/* Core laser line */}
+                <line
+                  x1={mipCutCoords.x1}
+                  y1={mipCutCoords.y1}
+                  x2={mipCutCoords.x2}
+                  y2={mipCutCoords.y2}
+                  stroke="#FF8A8A"
+                  strokeWidth={1.5}
+                  strokeDasharray="5 3"
                   className="animate-pulse"
                 />
-                <circle cx={mipCutCoords.x1} cy={mipCutCoords.y1} r="2.5" fill="#EF4444" />
-                <circle cx={mipCutCoords.x2} cy={mipCutCoords.y2} r="2.5" fill="#EF4444" />
               </g>
             )}
 
-            {/* Render Nodes (Constellation Cells) */}
+            {/* Render Nodes as 3D Volumetric Spheres */}
             {nodes.map((node) => {
               const IconComp = node.icon;
               const isLinked = Object.keys(weights).some(
@@ -401,41 +542,46 @@ export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) =
 
               return (
                 <g key={node.id} className="pointer-events-none">
-                  {/* Glowing pulsing aura around active nodes */}
+                  {/* Glowing halo behind active 3D spheres */}
                   {isLinked && phi > 0 && (
                     <circle
                       cx={node.x}
                       cy={node.y}
-                      r={24}
+                      r={30}
                       fill="none"
-                      stroke={sc.activeNode}
-                      strokeWidth={1}
-                      className="opacity-20 animate-pulse"
+                      stroke={sc.tubeActive}
+                      strokeWidth={1.5}
+                      className="opacity-25 animate-pulse"
                     />
                   )}
-                  {/* Main Circle node */}
+
+                  {/* 3D Sphere Element with radial lighting */}
                   <circle
                     cx={node.x}
                     cy={node.y}
-                    r={20}
-                    fill={sc.nodeBg}
-                    stroke={isLinked ? sc.activeNode : sc.nodeStroke}
-                    strokeWidth={2}
-                    className="transition-colors duration-300"
+                    r={24}
+                    fill={isLinked ? "url(#sphereActive)" : "url(#sphereInactive)"}
+                    filter="url(#sphereShadow)"
+                    className="transition-all duration-300"
                   />
-                  {/* SVG Icon inside the node for intuitive visualization */}
-                  <g transform={`translate(${node.x - 7.5}, ${node.y - 8})`} className="opacity-80">
-                    <IconComp className="w-[15px] h-[15px]" style={{ color: isLinked ? (theme === "cosmic" ? "#FFF" : sc.nodeStroke) : "#94A3B8" }} />
+
+                  {/* SVG Icon centered on the sphere */}
+                  <g transform={`translate(${node.x - 7.5}, ${node.y - 7.5})`} className="opacity-95">
+                    <IconComp 
+                      className="w-[15px] h-[15px]" 
+                      style={{ color: isLinked ? "#FFF" : "rgba(255, 255, 255, 0.45)" }} 
+                    />
                   </g>
-                  {/* Label under/beside nodes */}
+
+                  {/* Label positioning adjusted around the sphere */}
                   <text
                     x={node.x}
-                    y={node.y + (node.y > 200 ? 32 : -26)}
+                    y={node.y + (node.y > 200 ? 38 : -32)}
                     textAnchor="middle"
                     fill={isLinked ? (theme === "cosmic" ? "#E4E6EB" : "#1A1A1A") : sc.textMuted}
                     fontSize="9px"
                     fontWeight="bold"
-                    className="font-sans"
+                    className="font-sans filter drop-shadow-[0_1px_1px_rgba(0,0,0,0.1)]"
                   >
                     {isEs ? node.labelEs : node.labelEn}
                   </text>
