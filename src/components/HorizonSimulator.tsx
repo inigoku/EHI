@@ -190,15 +190,20 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
 
   return (
     <div className={`rounded-2xl border ${sc.cardBg} p-5 sm:p-6 shadow-xl transition-all duration-300`}>
-      {/* CSS custom keyframe animations for accretion disk rotation */}
+      {/* CSS custom keyframe animations for local axis rotations */}
       <style dangerouslySetInnerHTML={{ __html: `
-        @keyframes spinAccretion {
+        @keyframes spinLocal {
           from { transform: rotate(0deg); }
           to { transform: rotate(360deg); }
         }
         .animate-spin-disk {
-          transform-origin: 160px 160px;
-          animation: spinAccretion 8s linear infinite;
+          animation: spinLocal 12s linear infinite;
+        }
+        .animate-spin-disk-fast {
+          animation: spinLocal 8s linear infinite;
+        }
+        .animate-spin-horizon {
+          animation: spinLocal 3.5s linear infinite;
         }
       `}} />
 
@@ -278,13 +283,14 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               </radialGradient>
 
               {/* Front horizontal accretion disk gradient */}
-              <linearGradient id="frontDisk" x1="0%" y1="0%" x2="100%" y2="0%">
-                <stop offset="0%" stopColor="#EA580C" stopOpacity="0.0" />
-                <stop offset="35%" stopColor={sc.diskGlow} stopOpacity="0.85" />
-                <stop offset="50%" stopColor="#FFFBEB" stopOpacity="1" />
-                <stop offset="65%" stopColor={sc.diskGlow} stopOpacity="0.85" />
-                <stop offset="100%" stopColor="#EA580C" stopOpacity="0.0" />
-              </linearGradient>
+              <radialGradient id="frontDiskGrad" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stopColor="#000000" stopOpacity="0" />
+                <stop offset="60%" stopColor={sc.diskColor} stopOpacity="0.1" />
+                <stop offset="75%" stopColor={sc.diskGlow} stopOpacity="0.95" />
+                <stop offset="85%" stopColor="#FFFBEB" stopOpacity="1" />
+                <stop offset="95%" stopColor={sc.diskColor} stopOpacity="0.4" />
+                <stop offset="100%" stopColor="#000000" stopOpacity="0" />
+              </radialGradient>
 
               {/* Gravitational redshift transition gradient for the ship plume */}
               <linearGradient id="ionPlume" x1="100%" y1="50%" x2="0%" y2="50%">
@@ -315,6 +321,13 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               <path d={`M ${cx - 95} ${cy + 15} A 96 96 0 0 0 ${cx - 15} ${cy + 95}`} fill="none" stroke={sc.starColor} strokeWidth="0.6" strokeDasharray="1 22" />
             </g>
 
+            {/* Gravitational coordinate grid (very subtle, inside layout borders) */}
+            <g opacity="0.15">
+              <circle cx={cx} cy={cy} r="140" fill="none" stroke={sc.gridLine} strokeWidth="0.8" />
+              <circle cx={cx} cy={cy} r="105" fill="none" stroke={sc.gridLine} strokeWidth="0.8" />
+              <circle cx={cx} cy={cy} r="75" fill="none" stroke={sc.gridLine} strokeWidth="0.8" />
+            </g>
+
             {/* 1. Lensed Accretion Halo (Light from behind the black hole warped by gravity into a circle) */}
             <circle
               cx={cx}
@@ -324,36 +337,42 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               className="opacity-95"
             />
 
-            {/* Swirling Relativistic Accretion Disk (Spins along the orbital plane) */}
-            <g transform="rotate(-14, 160, 160)">
-              <g className="animate-spin-disk">
-                {/* Plasma gas wisps and hot spots swirling in orbit */}
-                <path d={`M ${cx - 110} ${cy} A 110 110 0 0 1 ${cx} ${cy - 110}`} fill="none" stroke={sc.diskGlow} strokeWidth="6" strokeLinecap="round" className="opacity-30" />
-                <path d={`M ${cx + 120} ${cy} A 120 120 0 0 1 ${cx} ${cy + 120}`} fill="none" stroke={sc.diskColor} strokeWidth="8" strokeLinecap="round" className="opacity-25" />
-                <path d={`M ${cx} ${cy - 90} A 90 90 0 0 1 ${cx + 90} ${cy}`} fill="none" stroke="#FFF" strokeWidth="4" strokeLinecap="round" className="opacity-40 filter blur-[1px]" />
-                
-                {/* Dark Dust Lane gaps inside the rotating disk */}
-                <circle cx={cx - 85} cy={cy - 40} r="7" fill="#020205" className="opacity-80 filter blur-[2px]" />
-                <circle cx={cx + 95} cy={cy + 30} r="9" fill="#020205" className="opacity-85 filter blur-[3px]" />
+            {/* Swirling Relativistic System local frame (Translated to center, child coordinates around 0,0) */}
+            <g transform={`translate(${cx}, ${cy}) rotate(-14)`}>
+              
+              {/* Lensed Back Accretion Disk - Swirling gas threads */}
+              <g className="animate-spin-disk-fast">
+                <circle cx={0} cy={0} r={Rs + 18} fill="none" stroke={sc.diskColor} strokeWidth="4" strokeDasharray="40 120" className="opacity-45" />
+                <circle cx={0} cy={0} r={Rs + 28} fill="none" stroke={sc.diskGlow} strokeWidth="3" strokeDasharray="80 100" className="opacity-40" />
+                <circle cx={0} cy={0} r={Rs + 35} fill="none" stroke="#7C2D12" strokeWidth="6" strokeDasharray="110 90" className="opacity-30" />
               </g>
+
+              {/* The Event Horizon Sphere (Solid Black Hole center) */}
+              <circle cx={0} cy={0} r={Rs} fill="#000000" />
+
+              {/* Frame-Dragging Swirls (plasma filaments right on the event horizon border itself!) */}
+              <g className="animate-spin-horizon">
+                <circle cx={0} cy={0} r={Rs} fill="none" stroke="rgba(245, 158, 11, 0.7)" strokeWidth="1.8" strokeDasharray="14 36" />
+                <circle cx={0} cy={0} r={Rs - 2} fill="none" stroke="rgba(239, 68, 68, 0.85)" strokeWidth="1.2" strokeDasharray="8 22" />
+              </g>
+
+              {/* Front Accretion Disk (Tilted and Squashed Ellipse representing the horizontal flow) */}
+              <g transform="scale(1.0, 0.24)">
+                <g className="animate-spin-disk">
+                  {/* Glowing main disk track */}
+                  <circle cx={0} cy={0} r={Rs + 65} fill="none" stroke="url(#frontDiskGrad)" strokeWidth="22" className="opacity-95" />
+                  
+                  {/* Swirling gas filaments orbiting along the squashed ellipse */}
+                  <circle cx={0} cy={0} r={Rs + 48} fill="none" stroke="#FFFBEB" strokeWidth="3.5" strokeDasharray="40 180" className="opacity-55" />
+                  <circle cx={0} cy={0} r={Rs + 78} fill="none" stroke={sc.diskGlow} strokeWidth="4.5" strokeDasharray="80 140" className="opacity-40" />
+                  
+                  {/* Dust lane gaps inside the front disk */}
+                  <circle cx="-100" cy="0" r="14" fill="#020205" className="opacity-95 filter blur-[1.5px]" />
+                  <circle cx="95" cy="25" r="16" fill="#020205" className="opacity-95 filter blur-[2px]" />
+                </g>
+              </g>
+
             </g>
-
-            {/* Front horizontal accretion disk (crosses in front of the event horizon) */}
-            <path
-              d={`M ${cx - 130} ${cy} C ${cx - 65} ${cy + 32}, ${cx + 65} ${cy + 32}, ${cx + 130} ${cy} C ${cx + 50} ${cy - 12}, ${cx - 50} ${cy - 12}, ${cx - 130} ${cy}`}
-              fill="url(#frontDisk)"
-              className="opacity-85"
-            />
-
-            {/* Event Horizon Sphere (Pure Black hole singularity boundary) */}
-            <circle
-              cx={cx}
-              cy={cy}
-              r={Rs}
-              fill="#000000"
-              stroke="rgba(255,255,255,0.06)"
-              strokeWidth="0.8"
-            />
 
             {/* Foreground Accretion Disk Silhouette (Dust lane blocking some back-warped light) */}
             <path
@@ -361,7 +380,7 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               fill="none"
               stroke="#0b0704"
               strokeWidth="2.5"
-              className="opacity-60"
+              className="opacity-60 pointer-events-none"
             />
 
             {/* Falling Spaceship / Concept Bubble (Perfect visibility, no opacity fade) */}
