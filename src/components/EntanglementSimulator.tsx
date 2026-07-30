@@ -217,13 +217,14 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
         const t = i / steps;
         const x = xLeft + t * dx;
         
-        // Base bridge parabola height
-        const yBase = yCenter - 25 * (4 * t * (1 - t));
+        // Correct mathematical Bezier height equation for Q 160, yCenter-25:
+        // y(t) = yCenter - 2 * H * t * (1 - t)
+        const yBase = yCenter - 50 * t * (1 - t);
         
         // Winding angle
         const angle = t * Math.PI * 2 * cfg.cycles + cfg.phase;
         
-        // Wrapping coordinates around the bridge
+        // Amplitude of wrapping stretches and grows with entanglement strength
         const amplitude = baseAmp * cfg.ampScale * strength;
         const y = yBase + Math.sin(angle) * amplitude;
         const z = Math.cos(angle); // Positive means in front of bridge, Negative means behind
@@ -384,6 +385,14 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
                 <stop offset="0%" stopColor={sc.waterStart} />
                 <stop offset="100%" stopColor={sc.waterEnd} />
               </linearGradient>
+
+              {/* Clipping Masks to keep Sphere borders 100% round and clean */}
+              <clipPath id="clipLeft">
+                <circle cx={xLeft} cy={yCenter} r={32} />
+              </clipPath>
+              <clipPath id="clipRight">
+                <circle cx={xRight} cy={yCenter} r={32} />
+              </clipPath>
             </defs>
 
             {/* Background space/atmosphere */}
@@ -512,31 +521,63 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
               />
             )}
 
-            {/* Left 3D Sphere (Radius increased to 32 for massive presence) */}
+            {/* Left 3D Sphere - Clipped to keep outer border perfectly smooth and round */}
             <g filter="url(#auraGlow)">
+              {/* Background gradient shadow circle */}
+              <circle cx={xLeft} cy={yCenter} r={32} fill={sc.sphereEnd} />
+              
+              {/* Clipped texture layer */}
+              <g clipPath="url(#clipLeft)">
+                <circle
+                  cx={xLeft}
+                  cy={yCenter}
+                  r={32}
+                  fill="url(#sphere3D)"
+                  filter="url(#organicTexture)"
+                />
+              </g>
+              
+              {/* Semi-transparent shiny glass highlight overlay */}
               <circle
                 cx={xLeft}
                 cy={yCenter}
                 r={32}
-                fill="url(#sphere3D)"
-                filter="url(#organicTexture)"
+                fill="none"
+                stroke="rgba(255, 255, 255, 0.15)"
+                strokeWidth="1.2"
               />
             </g>
 
-            {/* Right 3D Sphere (Radius increased to 32 for massive presence) */}
+            {/* Right 3D Sphere - Clipped to keep outer border perfectly smooth and round */}
             <g filter="url(#auraGlow)">
+              {/* Background gradient shadow circle */}
+              <circle cx={xRight} cy={yCenter} r={32} fill={sc.sphereEnd} />
+              
+              {/* Clipped texture layer */}
+              <g clipPath="url(#clipRight)">
+                <circle
+                  cx={xRight}
+                  cy={yCenter}
+                  r={32}
+                  fill="url(#sphere3D)"
+                  filter="url(#organicTexture)"
+                />
+              </g>
+
+              {/* Semi-transparent shiny glass highlight overlay */}
               <circle
                 cx={xRight}
                 cy={yCenter}
                 r={32}
-                fill="url(#sphere3D)"
-                filter="url(#organicTexture)"
+                fill="none"
+                stroke="rgba(255, 255, 255, 0.15)"
+                strokeWidth="1.2"
               />
             </g>
 
-            {/* Drag guide vectors (arrows beside spheres showing they can drag) */}
+            {/* Drag guide vectors shifted down to avoid overlaps */}
             {!isDragging && (
-              <g opacity="0.35" transform={`translate(160, ${yCenter + 52})`} className="animate-pulse">
+              <g opacity="0.35" transform={`translate(160, 205)`} className="animate-pulse">
                 <text x="0" y="0" textAnchor="middle" fill="#FFF" fontSize="8px" fontFamily="monospace" letterSpacing="1">
                   {isEs ? "ARRAS-TRAR" : "DRAG"}
                 </text>
