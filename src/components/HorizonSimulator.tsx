@@ -17,14 +17,14 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
   const [selectedItem, setSelectedItem] = useState<string>(items[0]);
   const [isRunning, setIsRunning] = useState<boolean>(false);
 
-  // Perspective: "observer" (earth) or "object" (subjective inside)
+  // Perspective: "observer" (Earth view) or "object" (falling inside)
   const [perspective, setPerspective] = useState<"observer" | "object">("observer");
 
-  // Rs is event horizon radius
-  const [Rs, setRs] = useState<number>(60);
+  // Rs is event horizon radius (scaled down to fit 320x320 viewBox perfectly)
+  const [Rs, setRs] = useState<number>(45);
 
-  // Distance from center (Rs .. 220)
-  const [r, setR] = useState<number>(220);
+  // Distance from center (Rs .. 140). Bounded to prevent any clipping.
+  const [r, setR] = useState<number>(140);
 
   // Clocks
   const [tObserver, setTObserver] = useState<number>(0.0);
@@ -38,20 +38,20 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
     const normalizedR = Math.max(r, Rs + 0.5);
     const ratio = Rs / normalizedR;
 
-    // Time dilation factor (gamma)
+    // Relativistic Time dilation factor (gamma)
     const g = 1 / Math.sqrt(1 - ratio);
 
-    // Redshift color (HSL): Blue/Cyan (190) -> Orange (30) -> Red (0)
+    // Realistic Redshift: Cyan/Blue (190) -> Orange (30) -> Red (0)
     const hue = Math.max(0, 195 - ratio * 205);
-    const lightness = Math.max(8, 55 - ratio * 45);
+    const lightness = Math.max(8, 60 - ratio * 48);
     const color = `hsl(${hue}, 95%, ${lightness}%)`;
 
-    // Opacity fades near horizon due to extreme redshift (photons lose all energy)
-    const op = Math.max(0.02, 1 - ratio * 0.95);
+    // Opacity fades as light loses all energy near the horizon
+    const op = Math.max(0.01, 1 - ratio * 0.98);
 
-    // Radial stretch (spaghettification)
-    const sX = 1 + ratio * 3.0;
-    const sY = Math.max(0.3, 1 - ratio * 0.6);
+    // Spaghettification factors (extreme radial stretch, lateral compression)
+    const sX = 1 + ratio * 3.2;
+    const sY = Math.max(0.25, 1 - ratio * 0.65);
 
     return {
       gamma: g,
@@ -62,10 +62,10 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
     };
   }, [r, Rs]);
 
-  // Reset function
+  // Reset simulation state
   const handleReset = () => {
     setIsRunning(false);
-    setR(220);
+    setR(140);
     setTObserver(0.0);
     setTSubjective(0.0);
   };
@@ -84,8 +84,7 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
       if (perspective === "observer") {
         // Observer's view: object slows down exponentially near Rs and NEVER crosses Rs
         setR((prevR) => {
-          const baseSpeed = 50; // pixels per sec
-          // Coordinate speed decreases as we approach Rs
+          const baseSpeed = 45; // coordinate falling speed
           const speed = baseSpeed * (1 - Rs / prevR);
           const nextR = prevR - speed * dt;
           return Math.max(Rs + 0.05, nextR);
@@ -95,15 +94,14 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
       } else {
         // Object's view: falls at a steady speed, crosses Rs smoothly, and hits singularity (r = 0)
         setR((prevR) => {
-          const baseSpeed = 60; // constant subjective falling speed
+          const baseSpeed = 50; // constant subjective falling speed
           const nextR = prevR - baseSpeed * dt;
-          if (nextR <= 5) {
+          if (nextR <= 3) {
             setIsRunning(false); // reached singularity
             return 0.1;
           }
           return nextR;
         });
-        // For the falling object, subjective clock runs at normal rate
         setTSubjective((prev) => prev + dt);
         // From object's perspective, external observer's clock runs infinitely fast (ticks accelerated)
         setTObserver((prev) => prev + dt * gamma);
@@ -133,8 +131,11 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
         btnActive: "bg-[#2C1E11] text-amber-50 hover:bg-[#2C1E11]/90",
         btnInactive: "bg-[#2C1E11]/10 hover:bg-[#2C1E11]/20 text-[#2C1E11]",
         panelBg: "bg-[#EEDCBE]/50 border border-amber-900/10",
-        gridLine: "rgba(133, 77, 14, 0.09)",
-        wellGlow: "rgba(217, 119, 6, 0.06)",
+        gridLine: "rgba(133, 77, 14, 0.06)",
+        spaceBg: "#1F1206",
+        diskColor: "#C2410C",
+        diskGlow: "#9A3412",
+        starColor: "rgba(251, 191, 36, 0.4)",
       };
     } else if (theme === "paper") {
       return {
@@ -143,8 +144,11 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
         btnActive: "bg-[#1A1A1A] text-white hover:bg-black",
         btnInactive: "bg-[#1A1A1A]/5 hover:bg-[#1A1A1A]/10 text-[#1A1A1A]",
         panelBg: "bg-[#F3F4F6] border border-slate-200",
-        gridLine: "rgba(0, 0, 0, 0.06)",
-        wellGlow: "rgba(15, 23, 42, 0.03)",
+        gridLine: "rgba(0, 0, 0, 0.04)",
+        spaceBg: "#F3F4F6",
+        diskColor: "#059669",
+        diskGlow: "#10B981",
+        starColor: "rgba(55, 65, 81, 0.2)",
       };
     } else {
       // cosmic
@@ -154,8 +158,11 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
         btnActive: "bg-amber-500 text-slate-950 hover:bg-amber-400 font-semibold shadow-lg shadow-amber-500/10",
         btnInactive: "bg-white/5 hover:bg-white/10 text-slate-300",
         panelBg: "bg-slate-950/40 border border-white/5",
-        gridLine: "rgba(255, 255, 255, 0.07)",
-        wellGlow: "rgba(251, 191, 36, 0.05)",
+        gridLine: "rgba(255, 255, 255, 0.05)",
+        spaceBg: "#020205",
+        diskColor: "#EA580C",
+        diskGlow: "#F97316",
+        starColor: "rgba(255, 255, 255, 0.65)",
       };
     }
   }, [theme]);
@@ -170,18 +177,18 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
 
   // Checkpoint analysis text
   const getCheckpointInfo = () => {
-    if (r > 160) {
+    if (r > 115) {
       return isEs
-        ? "Espacio Plano: Gravedad débil. El tiempo de la nave corre casi idéntico al tuyo. El redshift es inapreciable."
-        : "Flat Spacetime: Weak gravity. The ship's time runs almost identical to yours. Redshift is negligible.";
-    } else if (r > Rs + 10) {
+        ? "Espacio Seguro: La gravedad es débil. Tu reloj y el del viajero marchan casi al unísono."
+        : "Safe Space: Weak gravity. Your clock and the traveler's tick almost in unison.";
+    } else if (r > Rs + 5) {
       return isEs
-        ? "Pozo Gravitatorio: La nave se estira por fuerzas de marea y se enrojece. Su tiempo transcurre al 50% de tu velocidad."
-        : "Gravity Well: The ship is stretched by tidal forces and turns orange. Its clock runs at 50% of your speed.";
+        ? "Frontera de Marea: La luz de la nave se desplaza al naranja por corrimiento al rojo gravitatorio. El tiempo corre al 50%."
+        : "Tidal Boundary: The ship's light shifts to orange via gravitational redshift. Time runs at 50% speed.";
     } else {
       return isEs
-        ? "Límite del Horizonte: Para ti, el tiempo de la nave se ha congelado. Nunca la verás cruzar. Para ella, el cruce ocurrió al instante."
-        : "Horizon Edge: For you, the ship's clock has frozen. You will never see it cross. For the ship, it crossed instantly.";
+        ? "Horizonte de Sucesos: Tiempo exterior congelado para ti. Para el viajero, el cruce ya ocurrió de forma inmediata."
+        : "Event Horizon: External time frozen for you. For the traveler, the crossing occurred instantly.";
     }
   };
 
@@ -196,8 +203,8 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
           </h4>
           <p className="text-xs opacity-75 mt-0.5 font-sans">
             {isEs 
-              ? "Experimenta cómo cambia el tiempo y la luz cerca del horizonte."
-              : "Experience how time and light warp near the horizon."}
+              ? "Observa el estiramiento y el enrojecimiento de un objeto al caer al abismo."
+              : "Watch the stretching and reddening of an object falling into the abyss."}
           </p>
         </div>
 
@@ -226,103 +233,169 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
 
       <div className="flex flex-col md:flex-row gap-6">
         
-        {/* Left column: SVG Gravitational Well representation */}
-        <div className="flex-1 flex flex-col items-center justify-center relative overflow-hidden bg-black/35 rounded-xl min-h-[300px] border border-white/5">
+        {/* Left column: SVG Photorealistic Gravitational representation */}
+        <div className="flex-1 flex flex-col items-center justify-center relative overflow-hidden bg-[#020205] rounded-xl min-h-[300px] border border-white/5 shadow-2xl">
           
           <svg viewBox="0 0 320 320" className="w-full max-w-[300px] aspect-square select-none z-10">
-            {/* Draw concentric gravity funnel coordinates (warped space grid) */}
-            <circle cx={cx} cy={cy} r={220} fill={sc.wellGlow} stroke={sc.gridLine} strokeWidth={0.8} />
-            <circle cx={cx} cy={cy} r={170} fill={sc.wellGlow} stroke={sc.gridLine} strokeWidth={0.8} />
-            <circle cx={cx} cy={cy} r={120} fill={sc.wellGlow} stroke={sc.gridLine} strokeWidth={1} />
-            <circle cx={cx} cy={cy} r={80} fill={sc.wellGlow} stroke={sc.gridLine} strokeWidth={1.2} />
+            <defs>
+              {/* Soft stars glow filter */}
+              <filter id="starGlow" x="-50%" y="-50%" width="200%" height="200%">
+                <feGaussianBlur stdDeviation="0.8" result="blur" />
+                <feMerge>
+                  <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
 
-            {/* Warped gravitational funnel grid radial segments */}
-            {Array.from({ length: 12 }).map((_, idx) => {
-              const angle = (idx * Math.PI) / 6;
-              // Curved paths pulling grid into the black hole center
-              const startX = cx + 220 * Math.cos(angle);
-              const startY = cy + 220 * Math.sin(angle);
-              const endX = cx + Rs * Math.cos(angle);
-              const endY = cy + Rs * Math.sin(angle);
-              
-              // We draw slightly curved lines towards the center using quadratic bezier
-              const midAngle = angle - 0.08;
-              const midX = cx + (Rs + 60) * Math.cos(midAngle);
-              const midY = cy + (Rs + 60) * Math.sin(midAngle);
+              {/* Accretion disk lensed background halo (Einstein Ring shader) */}
+              <radialGradient id="einsteinRing" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stopColor="#000000" stopOpacity="1" />
+                <stop offset="42%" stopColor="#000000" stopOpacity="1" />
+                <stop offset="45%" stopColor={sc.diskColor} stopOpacity="0.9" />
+                <stop offset="55%" stopColor={sc.diskGlow} stopOpacity="0.75" />
+                <stop offset="70%" stopColor="#EA580C" stopOpacity="0.25" />
+                <stop offset="100%" stopColor="#000000" stopOpacity="0" />
+              </radialGradient>
 
-              return (
-                <path
-                  key={idx}
-                  d={`M ${startX} ${startY} Q ${midX} ${midY} ${endX} ${endY}`}
-                  fill="none"
-                  stroke={sc.gridLine}
-                  strokeWidth={0.8}
-                  className="opacity-70"
-                />
-              );
-            })}
+              {/* Front horizontal accretion disk gradient */}
+              <linearGradient id="frontDisk" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stopColor="#EA580C" stopOpacity="0.0" />
+                <stop offset="35%" stopColor={sc.diskGlow} stopOpacity="0.85" />
+                <stop offset="50%" stopColor="#FFFBEB" stopOpacity="1" />
+                <stop offset="65%" stopColor={sc.diskGlow} stopOpacity="0.85" />
+                <stop offset="100%" stopColor="#EA580C" stopOpacity="0.0" />
+              </linearGradient>
 
-            {/* Glowing Einstein Ring Accretion Disk (gravitational lensing light warp) */}
+              {/* Gravitational redshift transition gradient for the ship plume */}
+              <linearGradient id="ionPlume" x1="100%" y1="50%" x2="0%" y2="50%">
+                <stop offset="0%" stopColor="#60A5FA" stopOpacity="0.9" />
+                <stop offset="100%" stopColor="#3B82F6" stopOpacity="0.0" />
+              </linearGradient>
+            </defs>
+
+            {/* Deep Space Background */}
+            <rect width="320" height="320" fill={sc.spaceBg} />
+
+            {/* Twinkling star field */}
+            <g opacity="0.85">
+              <circle cx="40" cy="50" r="0.8" fill={sc.starColor} />
+              <circle cx="280" cy="70" r="1.2" fill={sc.starColor} filter="url(#starGlow)" />
+              <circle cx="50" cy="250" r="1" fill={sc.starColor} />
+              <circle cx="290" cy="240" r="0.6" fill={sc.starColor} />
+              <circle cx="100" cy="30" r="1.5" fill={sc.starColor} filter="url(#starGlow)" />
+              <circle cx="220" cy="20" r="0.8" fill={sc.starColor} />
+              <circle cx="220" cy="300" r="1.3" fill={sc.starColor} />
+              <circle cx="90" cy="290" r="0.8" fill={sc.starColor} />
+            </g>
+
+            {/* Gravitational lensing distorted background stars (stretched into concentric arcs) */}
+            <g opacity="0.65">
+              {/* Concentric warped star arcs representing bent light rays */}
+              <path d={`M ${cx - 70} ${cy - 12} A 71 71 0 0 1 ${cx - 12} ${cy - 70}`} fill="none" stroke={sc.starColor} strokeWidth="0.8" strokeDasharray="1 18" />
+              <path d={`M ${cx + 70} ${cy + 12} A 71 71 0 0 1 ${cx + 12} ${cy + 70}`} fill="none" stroke={sc.starColor} strokeWidth="0.8" strokeDasharray="1 15" />
+              <path d={`M ${cx - 95} ${cy + 15} A 96 96 0 0 0 ${cx - 15} ${cy + 95}`} fill="none" stroke={sc.starColor} strokeWidth="0.6" strokeDasharray="1 22" />
+            </g>
+
+            {/* Gravitational coordinate grid (very subtle, inside layout borders) */}
+            <g opacity="0.25">
+              <circle cx={cx} cy={cy} r="140" fill="none" stroke={sc.gridLine} strokeWidth="0.8" />
+              <circle cx={cx} cy={cy} r="105" fill="none" stroke={sc.gridLine} strokeWidth="0.8" />
+              <circle cx={cx} cy={cy} r="75" fill="none" stroke={sc.gridLine} strokeWidth="0.8" />
+              {/* Curved funnel lines to show coordinate contraction */}
+              {Array.from({ length: 8 }).map((_, idx) => {
+                const angle = (idx * Math.PI) / 4;
+                const startX = cx + 140 * Math.cos(angle);
+                const startY = cy + 140 * Math.sin(angle);
+                const endX = cx + Rs * Math.cos(angle);
+                const endY = cy + Rs * Math.sin(angle);
+                return (
+                  <line
+                    key={idx}
+                    x1={startX}
+                    y1={startY}
+                    x2={endX}
+                    y2={endY}
+                    stroke={sc.gridLine}
+                    strokeWidth="0.6"
+                    strokeDasharray="2 6"
+                  />
+                );
+              })}
+            </g>
+
+            {/* 1. Lensed Accretion Halo (Light from behind the black hole warped by gravity into a circle) */}
             <circle
               cx={cx}
               cy={cy}
-              r={Rs + 10}
-              fill="none"
-              stroke="url(#accretionDiskGlow)"
-              strokeWidth={16}
-              className="opacity-60"
-            />
-            
-            {/* Warp Accretion Disk halo outline */}
-            <circle
-              cx={cx}
-              cy={cy}
-              r={Rs + 4}
-              fill="none"
-              stroke="#EA580C"
-              strokeWidth={1}
-              className="opacity-40 animate-pulse"
+              r={Rs + 38}
+              fill="url(#einsteinRing)"
+              className="opacity-95"
             />
 
-            {/* The Event Horizon boundary itself (absolute black hole) */}
+            {/* 2. Front horizontal accretion disk (crosses in front of the event horizon) */}
+            {/* Warp accretion disk path curving around the front */}
+            <path
+              d={`M ${cx - 130} ${cy} C ${cx - 65} ${cy + 32}, ${cx + 65} ${cy + 32}, ${cx + 130} ${cy} C ${cx + 50} ${cy - 12}, ${cx - 50} ${cy - 12}, ${cx - 130} ${cy}`}
+              fill="url(#frontDisk)"
+              className="opacity-80"
+            />
+
+            {/* 3. Event Horizon Sphere (Pure Black hole singularity boundary) */}
             <circle
               cx={cx}
               cy={cy}
               r={Rs}
-              fill="#000002"
-              stroke={theme === "cosmic" ? "rgba(251,191,36,0.3)" : "rgba(0,0,0,0.15)"}
-              strokeWidth={2}
+              fill="#000000"
+              stroke="rgba(255,255,255,0.06)"
+              strokeWidth="0.8"
             />
 
-            {/* Accretion disk gradient shader */}
-            <defs>
-              <radialGradient id="accretionDiskGlow" cx="50%" cy="50%" r="50%">
-                <stop offset="0%" stopColor="#F97316" stopOpacity="1" />
-                <stop offset="60%" stopColor="#EA580C" stopOpacity="0.4" />
-                <stop offset="90%" stopColor="#7C2D12" stopOpacity="0.1" />
-                <stop offset="100%" stopColor="#000000" stopOpacity="0" />
-              </radialGradient>
-            </defs>
+            {/* 4. Foreground Accretion Disk Silhouette (Dust lane blocking some back-warped light) */}
+            <path
+              d={`M ${cx - 110} ${cy + 4} C ${cx - 50} ${cy + 22}, ${cx + 50} ${cy + 22}, ${cx + 110} ${cy + 4}`}
+              fill="none"
+              stroke="#0b0704"
+              strokeWidth="2.5"
+              className="opacity-60"
+            />
 
-            {/* The falling ship/concept bubble */}
-            {r > 0 && (
+            {/* Falling Spaceship / Concept Bubble */}
+            {r > 1 && (
               <g 
                 transform={`translate(${objX}, ${objY}) scale(${stretchX}, ${stretchY})`}
                 style={{ opacity: perspective === "observer" ? opacity : 1 }}
               >
-                {/* Spaghettification trail */}
-                <ellipse cx={0} cy={0} rx={18} ry={5} fill={redshiftColor} className="opacity-25 blur-sm" />
-                <circle cx={0} cy={0} r={4.5} fill={redshiftColor} />
-                {/* Floating concept name */}
+                {/* Spaghettification plasma glow trail */}
+                <ellipse cx={0} cy={0} rx={18} ry={4} fill={redshiftColor} className="opacity-25 filter blur-[2px]" />
+                
+                {/* Ion Thruster engine glow (active when falling) */}
+                {isRunning && r > Rs && (
+                  <path
+                    d="M 6 -2 L 18 -4 L 18 4 L 6 2 Z"
+                    fill="url(#ionPlume)"
+                    transform="scale(0.8, 1)"
+                    className="opacity-90"
+                  />
+                )}
+
+                {/* Sleek metallic triangular spaceship probe hull */}
+                <path
+                  d="M -7 -4 L 7 0 L -7 4 L -4 0 Z"
+                  fill={theme === "paper" ? "#374151" : "#E2E8F0"}
+                  stroke={redshiftColor}
+                  strokeWidth="0.8"
+                />
+
+                {/* Concept label overlay text */}
                 <text
-                  x={0}
+                  x={-2}
                   y={-12}
                   textAnchor="middle"
                   fill={redshiftColor}
                   fontSize="11px"
                   fontWeight="bold"
-                  transform="scale(0.8, 1.8)" // adjust text warp
-                  className="font-sans filter drop-shadow-[0_1px_3px_rgba(0,0,0,0.7)]"
+                  transform="scale(0.7, 1.8)" // counter-act spaghettification scale so text stays readable
+                  className="font-sans filter drop-shadow-[0_1.5px_2px_rgba(0,0,0,0.85)]"
                 >
                   {selectedItem}
                 </text>
@@ -330,17 +403,17 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
             )}
           </svg>
 
-          {/* Dilation gamma factor indicator overlay */}
-          <div className="absolute bottom-3 left-3 bg-black/60 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/5 font-mono text-[10px] text-slate-300 flex items-center gap-1.5">
+          {/* Time dilation indicator */}
+          <div className="absolute bottom-3 left-3 bg-black/75 backdrop-blur-md px-3 py-1.5 rounded-lg border border-white/5 font-mono text-[10px] text-slate-300 flex items-center gap-1.5">
             <span className="w-1.5 h-1.5 bg-amber-500 rounded-full animate-ping" />
-            {isEs ? "DILATACIÓN TEMPORAL" : "TIME DILATION"} (γ):{" "}
+            {isEs ? "DILATACIÓN (γ):" : "DILATION (γ):"}{" "}
             <span className={gamma > 100 ? "text-red-500 font-bold" : "text-amber-400 font-bold"}>
               {gamma > 1000 ? "∞" : `${gamma.toFixed(2)}x`}
             </span>
           </div>
         </div>
 
-        {/* Right column: Timers and interactive control */}
+        {/* Right column: Clocks & control panel */}
         <div className="flex-1 flex flex-col justify-between space-y-4">
           <div className="space-y-4">
             
@@ -367,11 +440,11 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               </div>
             </div>
 
-            {/* Relativity clocks */}
+            {/* Clocks comparison */}
             <div className="grid grid-cols-2 gap-4">
               <div className={`p-3.5 rounded-xl ${sc.panelBg} flex flex-col`}>
                 <span className="text-[10px] font-mono opacity-70 uppercase tracking-wider block">
-                  {isEs ? "Reloj de la Tierra" : "Clock on Earth"}
+                  {isEs ? "Tiempo de la Tierra" : "Earth Clock"}
                 </span>
                 <span className="text-2xl font-mono font-bold mt-1 text-slate-100">
                   {tObserver.toFixed(2)}s
@@ -383,7 +456,7 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
 
               <div className={`p-3.5 rounded-xl ${sc.panelBg} flex flex-col border border-red-500/5`}>
                 <span className="text-[10px] font-mono opacity-70 uppercase tracking-wider block">
-                  {isEs ? "Reloj del Viajero" : "Traveler's Clock"}
+                  {isEs ? "Tiempo en la Nave" : "Spaceship Clock"}
                 </span>
                 <span className="text-2xl font-mono font-bold mt-1 text-amber-400">
                   {tSubjective.toFixed(2)}s
@@ -394,7 +467,7 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               </div>
             </div>
 
-            {/* Didactic diagnostic block */}
+            {/* Diagnostic helper block */}
             <div className="p-3 bg-black/10 rounded-lg text-xs leading-relaxed font-serif text-center italic">
               {getCheckpointInfo()}
             </div>
@@ -408,7 +481,7 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               <input
                 type="range"
                 min={perspective === "observer" ? Rs + 0.1 : 0.0}
-                max="220"
+                max="140"
                 step="1"
                 value={r}
                 disabled={isRunning}
@@ -421,29 +494,29 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               />
             </div>
 
-            {/* Alert messages for extreme horizon */}
-            {r < Rs + 6 && (
+            {/* Informational warning blocks */}
+            {r < Rs + 5 && (
               <div className="p-3 bg-red-500/5 border border-red-500/10 rounded-lg flex items-start gap-2 text-xs text-red-400">
                 <AlertTriangle className="w-4 h-4 shrink-0 mt-0.5" />
                 <div className="leading-relaxed">
                   {perspective === "observer" ? (
                     isEs ? (
                       <>
-                        <strong>Paradoja del Observador:</strong> El objeto parece detenido para siempre en el borde. Su velocidad aparente de caída es cero. El tiempo de la Tierra vuela al infinito, congelando al viajero en tu presente.
+                        <strong>Congelación Temporal:</strong> Para ti, la nave se enrojece hasta apagarse y se queda flotando en el borde indefinidamente. Su tiempo se detiene en tu presente.
                       </>
                     ) : (
                       <>
-                        <strong>Observer Paradox:</strong> The object appears frozen forever at the boundary. Its coordinate speed drops to zero. Earth time flies to infinity, locking the traveler in your present.
+                        <strong>Time Freezing:</strong> For you, the ship turns red and fades away, freezing at the event horizon indefinitely. Its time stops in your present.
                       </>
                     )
                   ) : (
                     isEs ? (
                       <>
-                        <strong>Cruce sin Retorno:</strong> Desde la nave, el cruce ocurre sin detenerse. El reloj corre normal. El universo entero parece acelerar su tiempo hasta el infinito a tus espaldas en el momento del cruce.
+                        <strong>Singularidad Inevitable:</strong> La nave cruza el horizonte sin frenar. A tus espaldas, el tiempo exterior avanza hacia el infinito. Estás cruzando la frontera de no retorno.
                       </>
                     ) : (
                       <>
-                        <strong>Crossing No Return:</strong> From inside, the crossing occurs without stopping. The traveler's clock ticks normally. The external universe appears to accelerate to infinity behind you at the crossing moment.
+                        <strong>Inevitable Singularity:</strong> The ship crosses the horizon without slowing down. Behind you, external time accelerates to infinity. You are crossing the point of no return.
                       </>
                     )
                   )}
@@ -462,12 +535,12 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               {isRunning ? (
                 <>
                   <Pause className="w-4 h-4" />
-                  {isEs ? "Pausar Simulación" : "Pause Simulation"}
+                  {isEs ? "Pausar" : "Pause"}
                 </>
               ) : (
                 <>
                   <Play className="w-4 h-4" />
-                  {isEs ? "Iniciar Simulación" : "Start Simulation"}
+                  {isEs ? "Iniciar Caída" : "Start Fall"}
                 </>
               )}
             </button>
