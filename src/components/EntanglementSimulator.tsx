@@ -37,7 +37,25 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
 
   // Distance between the two black hole horizons (from 70px to 250px)
   const [distance, setDistance] = useState<number>(110);
-  const [isDragging, setIsDragging] = useState<boolean>(false);
+  
+  // Actual accumulated quantum entanglement strength E(t) from 0.0 to 1.0
+  const [entanglement, setEntanglement] = useState<number>(0.2);
+
+  // Dragging state: 'distance' | 'camera' | null
+  const [dragMode, setDragMode] = useState<"distance" | "camera" | null>(null);
+  
+  // Camera offsets (pan/pitch offsets driven by mouse drag on background)
+  const [camX, setCamX] = useState<number>(0);
+  const [camY, setCamY] = useState<number>(0);
+
+  const dragStartRef = useRef<{ x: number; y: number; camX: number; camY: number; distance: number }>({
+    x: 0,
+    y: 0,
+    camX: 0,
+    camY: 0,
+    distance: 110,
+  });
+
   const svgRef = useRef<SVGSVGElement | null>(null);
 
   // Spark burst animation trigger when bridge snaps
@@ -57,16 +75,79 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
 
   const handleReset = () => {
     setDistance(110);
+    setEntanglement(0.2);
+    setCamX(0);
+    setCamY(0);
+    setDragMode(null);
   };
 
-  // Handle snapping spark burst animation
+  // Center coordinate of spheres: y is 130, x is offset from center (160)
+  const yCenter = 130;
+  const xLeftBase = 160 - distance / 2;
+  const xRightBase = 160 + distance / 2;
+
+  // Apply parallax displacement to the spheres (drift with camera offset)
+  const xLeft = xLeftBase + camX * 0.22;
+  const xRight = xRightBase + camX * 0.22;
+  const ySphere = yCenter + camY * 0.12;
+
+  // Track current distance and snap state in Refs for the continuous simulation loop
+  const distanceRef = useRef<number>(distance);
+  const critDistanceRef = useRef<number>(CRIT_DISTANCE);
+
+  useEffect(() => {
+    distanceRef.current = distance;
+  }, [distance]);
+
+  // Continuous physics simulation loop to calculate E(t) integration in real-time
+  useEffect(() => {
+    let requestId: number;
+    let prevTime: number | null = null;
+
+    const simulate = (time: number) => {
+      if (prevTime !== null) {
+        const dt = (time - prevTime) / 1000; // time delta in seconds
+        const currentDist = distanceRef.current;
+        const critDist = critDistanceRef.current;
+
+        setEntanglement((prevE) => {
+          if (currentDist >= critDist) {
+            return 0; // snapped immediately
+          }
+
+          // Target maximum capacity allowed by current distance
+          const targetE = 1 - currentDist / critDist;
+
+          if (prevE < targetE) {
+            // Charging/Growing phase: rate coefficient is K / distance (inversely proportional)
+            const K = 120; // speed tuning constant
+            const speedCoeff = K / Math.max(10, currentDist);
+            const delta = speedCoeff * (targetE - prevE) * dt;
+            return Math.min(targetE, prevE + delta);
+          } else {
+            // Stretching/Decaying phase: decays back to the elastic limit at a constant rate
+            const decayRate = 2.4;
+            const delta = decayRate * (prevE - targetE) * dt;
+            return Math.max(targetE, prevE - delta);
+          }
+        });
+      }
+      prevTime = time;
+      requestId = requestAnimationFrame(simulate);
+    };
+
+    requestId = requestAnimationFrame(simulate);
+    return () => cancelAnimationFrame(requestId);
+  }, []);
+
+  // Handle snapping spark burst animation trigger
   useEffect(() => {
     if (prevDistance.current < CRIT_DISTANCE && distance >= CRIT_DISTANCE) {
       // Snapped! Trigger burst
-      setBurst({ active: true, x: 160, y: 130, radius: 5 });
+      setBurst({ active: true, x: 160 + camX * 0.22, y: ySphere, radius: 5 });
     }
     prevDistance.current = distance;
-  }, [distance]);
+  }, [distance, ySphere, camX]);
 
   // Animate the spark burst frame-by-frame
   useEffect(() => {
@@ -83,37 +164,81 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
     }
   }, [burst]);
 
-  // Center coordinate of spheres: y is 130, x is offset from center (160)
-  const yCenter = 130;
-  const xLeft = 160 - distance / 2;
-  const xRight = 160 + distance / 2;
-
   // Drag handlers on SVG
-  const handleStartDrag = () => {
-    setIsDragging(true);
-  };
-
-  const handleDrag = (e: React.MouseEvent<SVGSVGElement> | React.TouchEvent<SVGSVGElement>) => {
-    if (!isDragging || !svgRef.current) return;
+  const handleStartDrag = (e: React.MouseEvent<SVGSVGElement> | React.TouchEvent<SVGSVGElement>) => {
+    if (!svgRef.current) return;
 
     let clientX = 0;
+    let clientY = 0;
     if ("touches" in e) {
       if (e.touches.length === 0) return;
       clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
     } else {
       clientX = e.clientX;
+      clientY = e.clientY;
     }
 
     const rect = svgRef.current.getBoundingClientRect();
-    const mouseX = ((clientX - rect.left) / rect.width) * 320; // scale to 320 units
+    const mouseX = ((clientX - rect.left) / rect.width) * 320;
+    const mouseY = ((clientY - rect.top) / rect.height) * 320;
 
-    // Calculate new distance symmetrically around the 160 center
-    const newDist = Math.max(70, Math.min(255, Math.abs(mouseX - 160) * 2));
-    setDistance(newDist);
+    // Check if click was near either sphere
+    const distToLeft = Math.hypot(mouseX - xLeft, mouseY - ySphere);
+    const distToRight = Math.hypot(mouseX - xRight, mouseY - ySphere);
+
+    if (distToLeft < 45 || distToRight < 45) {
+      // Dragging a sphere to adjust distance
+      setDragMode("distance");
+    } else {
+      // Dragging empty space to rotate camera
+      setDragMode("camera");
+    }
+
+    dragStartRef.current = {
+      x: clientX,
+      y: clientY,
+      camX,
+      camY,
+      distance,
+    };
+  };
+
+  const handleDrag = (e: React.MouseEvent<SVGSVGElement> | React.TouchEvent<SVGSVGElement>) => {
+    if (!dragMode || !svgRef.current) return;
+
+    let clientX = 0;
+    let clientY = 0;
+    if ("touches" in e) {
+      if (e.touches.length === 0) return;
+      clientX = e.touches[0].clientX;
+      clientY = e.touches[0].clientY;
+    } else {
+      clientX = e.clientX;
+      clientY = e.clientY;
+    }
+
+    const start = dragStartRef.current;
+
+    if (dragMode === "distance") {
+      const rect = svgRef.current.getBoundingClientRect();
+      const mouseX = ((clientX - rect.left) / rect.width) * 320;
+      // Calculate new distance symmetrically around center 160
+      const newDist = Math.max(70, Math.min(255, Math.abs(mouseX - 160) * 2));
+      setDistance(newDist);
+    } else if (dragMode === "camera") {
+      // Calculate delta dragging
+      const dx = clientX - start.x;
+      const dy = clientY - start.y;
+
+      // Map dragging to camera offsets (bounded)
+      setCamX(Math.max(-50, Math.min(50, start.camX + dx * 0.65)));
+      setCamY(Math.max(-30, Math.min(30, start.camY + dy * 0.6)));
+    }
   };
 
   const handleEndDrag = () => {
-    setIsDragging(false);
+    setDragMode(null);
   };
 
   // Aesthetic color tokens based on theme
@@ -179,19 +304,31 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
     }
   }, [theme]);
 
-  // Calculate wormhole thickness: gets thin as it stretches
+  // Compute 3D rotation angles for the entire SVG container diorama
+  const rotateY = useMemo(() => (camX / 50) * 15, [camX]); // Yaw (horizontal tilt)
+  const rotateX = useMemo(() => -(camY / 30) * 10, [camY]); // Pitch (vertical tilt)
+
+  // Calculate wormhole thickness: driven directly by the actual integrated E(t) strength
   const bridgeWidth = useMemo(() => {
     if (!isEntangled) return 0;
-    const ratio = distance / CRIT_DISTANCE;
-    return Math.max(2.0, 11 * (1 - ratio)); // thicker bridge for better presence
-  }, [distance, isEntangled]);
+    return Math.max(2.0, 11 * entanglement); 
+  }, [entanglement, isEntangled]);
 
   // Generate 4 distinct creeping vine stems wrapping around the bridge, divided into front & back elements
+  // The ivy branches and leaf sizes now sprout dynamically relative to E(t) instead of instantaneous distance!
   const vinesData = useMemo(() => {
-    if (!isEntangled) return { behindSegments: [], frontSegments: [], behindLeaves: [], frontLeaves: [] };
+    if (!isEntangled || entanglement <= 0.02) {
+      return { behindSegments: [], frontSegments: [], behindLeaves: [], frontLeaves: [] };
+    }
 
-    const strength = 1 - distance / CRIT_DISTANCE; // 0 (snapped) to 1.0 (closest)
-    const dx = xRight - xLeft;
+    const strength = entanglement; // vines sprout and grow according to the simulated E(t) value!
+    
+    // Connect vines exactly to the camera-shifted endpoints of the spheres
+    const xa = xLeft;
+    const xb = xRight;
+    const ya = ySphere;
+    const yb = ySphere;
+    const dx = xb - xa;
     
     // Vine parameters (cycles, starting phase, amplitude scalar, leaf density, colors)
     const configs = [
@@ -215,17 +352,17 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
 
       for (let i = 0; i <= steps; i++) {
         const t = i / steps;
-        const x = xLeft + t * dx;
+        const x = xa + t * dx;
         
         // Correct mathematical Bezier height equation for Q 160, yCenter-25:
         // y(t) = yCenter - 2 * H * t * (1 - t)
-        const yBase = yCenter - 50 * t * (1 - t);
+        const yBase = ya + (yb - ya) * t - 50 * t * (1 - t);
         
         // Winding angle
         const angle = t * Math.PI * 2 * cfg.cycles + cfg.phase;
         
         // Amplitude of wrapping stretches and grows with entanglement strength
-        const amplitude = baseAmp * cfg.ampScale * strength;
+        const amplitude = baseAmp * cfg.ampScale;
         const y = yBase + Math.sin(angle) * amplitude;
         const z = Math.cos(angle); // Positive means in front of bridge, Negative means behind
 
@@ -289,7 +426,22 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
       behindLeaves,
       frontLeaves,
     };
-  }, [distance, xLeft, xRight, isEntangled, bridgeWidth, sc, theme]);
+  }, [entanglement, xLeft, xRight, ySphere, isEntangled, bridgeWidth, sc, theme]);
+
+  // Rate of charging indicator text
+  const getGrowthRateText = () => {
+    if (!isEntangled) return isEs ? "Desconectado" : "Disconnected";
+    const targetE = 1 - distance / CRIT_DISTANCE;
+    if (Math.abs(entanglement - targetE) < 0.01) {
+      return isEs ? "Estable (Máx. Capacidad)" : "Stable (Max Capacity)";
+    }
+    if (entanglement < targetE) {
+      // Growth rate is inversely proportional to distance
+      const chargingSpeed = (120 / distance).toFixed(1);
+      return isEs ? `Cargando (+${chargingSpeed}x/s)` : `Charging (+${chargingSpeed}x/s)`;
+    }
+    return isEs ? "Estirando (Disipación)" : "Stretching (Dissipating)";
+  };
 
   return (
     <div className={`rounded-2xl border ${sc.cardBg} p-5 sm:p-6 shadow-xl transition-all duration-300`}>
@@ -327,20 +479,23 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
           </h4>
           <p className="text-xs opacity-75 mt-0.5 font-sans">
             {isEs 
-              ? "Experimenta cómo múltiples tallos de enredaderas trepan y rodean el puente en 3D."
-              : "Experience how multiple crawling ivy stems climb and physically wrap the bridge in 3D."}
+              ? "El vínculo crece con el tiempo a una velocidad inversamente proporcional a la distancia."
+              : "The connection grows over time at a rate inversely proportional to the distance."}
           </p>
         </div>
       </div>
 
       <div className="flex flex-col md:flex-row gap-6">
         
-        {/* Left column: SVG Interactive Arena */}
-        <div className="flex-1 flex flex-col items-center justify-center relative overflow-hidden bg-black/40 rounded-xl min-h-[300px] border border-white/5 shadow-inner">
+        {/* Left column: SVG Interactive Arena with 3D Parallax & Rotation */}
+        <div 
+          className="flex-1 flex flex-col items-center justify-center relative overflow-hidden bg-black/40 rounded-xl min-h-[300px] border border-white/5 shadow-inner"
+          style={{ perspective: "600px" }}
+        >
           <svg 
             ref={svgRef}
             viewBox="0 0 320 320" 
-            className="w-full max-w-[300px] aspect-square select-none z-10 cursor-pointer"
+            className="w-full max-w-[300px] aspect-square select-none z-10 cursor-grab active:cursor-grabbing"
             onMouseMove={handleDrag}
             onTouchMove={handleDrag}
             onMouseDown={handleStartDrag}
@@ -348,6 +503,11 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
             onMouseUp={handleEndDrag}
             onTouchEnd={handleEndDrag}
             onMouseLeave={handleEndDrag}
+            style={{
+              transform: `rotateX(${rotateX}deg) rotateY(${rotateY}deg)`,
+              transformStyle: "preserve-3d",
+              transition: dragMode ? "none" : "transform 0.4s cubic-bezier(0.16, 1, 0.3, 1)",
+            }}
           >
             <defs>
               {/* Organic fractal noise filter for 3D sphere texture */}
@@ -388,23 +548,39 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
 
               {/* Clipping Masks to keep Sphere borders 100% round and clean */}
               <clipPath id="clipLeft">
-                <circle cx={xLeft} cy={yCenter} r={32} />
+                <circle cx={xLeft} cy={ySphere} r={32} />
               </clipPath>
               <clipPath id="clipRight">
-                <circle cx={xRight} cy={yCenter} r={32} />
+                <circle cx={xRight} cy={ySphere} r={32} />
               </clipPath>
             </defs>
 
-            {/* Background space/atmosphere */}
-            <rect width="320" height="320" fill="#010306" />
+            {/* Background Space - Parallax drift opposite to camera drag */}
+            <rect 
+              width="320" 
+              height="320" 
+              fill="#010306" 
+            />
 
-            {/* Glowing vertical ocean reflection bands under the spheres */}
+            {/* Twinkling star field - Parallax drift opposite to drag (-0.4x) */}
+            <g opacity="0.85" transform={`translate(${-camX * 0.4}, ${-camY * 0.15})`}>
+              <circle cx="40" cy="50" r="0.8" fill={sc.starColor} />
+              <circle cx="280" cy="70" r="1.2" fill={sc.starColor} filter="url(#starGlow)" />
+              <circle cx="50" cy="250" r="1" fill={sc.starColor} />
+              <circle cx="290" cy="240" r="0.6" fill={sc.starColor} />
+              <circle cx="100" cy="30" r="1.5" fill={sc.starColor} filter="url(#starGlow)" />
+              <circle cx="220" cy="20" r="0.8" fill={sc.starColor} />
+              <circle cx="220" cy="300" r="1.3" fill={sc.starColor} />
+              <circle cx="90" cy="290" r="0.8" fill={sc.starColor} />
+            </g>
+
+            {/* Glowing vertical ocean reflection bands under the spheres (follows sphere position + camera) */}
             {isEntangled && (
               <g opacity="0.45" filter="url(#auraGlow)">
-                <ellipse cx={xLeft} cy={235} rx="30" ry="4.5" fill={sc.sphereMid} />
-                <ellipse cx={xRight} cy={235} rx="30" ry="4.5" fill={sc.sphereMid} />
+                <ellipse cx={xLeft} cy={235 + camY * 0.15} rx="30" ry="4.5" fill={sc.sphereMid} opacity={0.3 + 0.7 * entanglement} />
+                <ellipse cx={xRight} cy={235 + camY * 0.15} rx="30" ry="4.5" fill={sc.sphereMid} opacity={0.3 + 0.7 * entanglement} />
                 {/* Wormhole floor reflection */}
-                <ellipse cx={160} cy={240} rx={distance / 2} ry="5" fill={sc.bridgeColor} opacity="0.6" />
+                <ellipse cx={160 + camX * 0.22} cy={240 + camY * 0.15} rx={distance / 2} ry="5" fill={sc.bridgeColor} opacity={0.6 * entanglement} />
               </g>
             )}
 
@@ -444,32 +620,35 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
             {/* RENDER PHASE 2: Einstein-Rosen Bridge (Quantum Wormhole) */}
             {isEntangled && (
               <g filter="url(#auraGlow)">
-                {/* Thick back connection tunnel casing */}
+                {/* Thick back connection casing */}
                 <path
-                  d={`M ${xLeft},${yCenter} Q 160,${yCenter - 25} ${xRight},${yCenter}`}
+                  d={`M ${xLeft},${ySphere} Q 160 + ${camX * 0.22},${ySphere - 25} ${xRight},${ySphere}`}
                   fill="none"
                   stroke={sc.bridgeGlow}
                   strokeWidth={bridgeWidth + 4}
                   strokeLinecap="round"
+                  opacity={0.3 + 0.7 * entanglement}
                 />
                 
                 {/* Core energy flow bridge thread */}
                 <path
-                  d={`M ${xLeft},${yCenter} Q 160,${yCenter - 25} ${xRight},${yCenter}`}
+                  d={`M ${xLeft},${ySphere} Q 160 + ${camX * 0.22},${ySphere - 25} ${xRight},${ySphere}`}
                   fill="none"
                   stroke={sc.bridgeColor}
                   strokeWidth={bridgeWidth}
                   strokeLinecap="round"
+                  opacity={0.4 + 0.6 * entanglement}
                 />
 
                 {/* Helix winding sub-threads for organic look */}
                 <path
-                  d={`M ${xLeft},${yCenter} Q 160,${yCenter - 10} ${xRight},${yCenter}`}
+                  d={`M ${xLeft},${ySphere} Q 160 + ${camX * 0.22},${ySphere - 10} ${xRight},${ySphere}`}
                   fill="none"
                   stroke="#FFF"
                   strokeWidth={Math.max(0.6, bridgeWidth * 0.25)}
                   strokeDasharray="8 12"
-                  className="bridge-flow opacity-60"
+                  className="bridge-flow"
+                  opacity={0.2 + 0.7 * entanglement}
                 />
               </g>
             )}
@@ -524,13 +703,13 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
             {/* Left 3D Sphere - Clipped to keep outer border perfectly smooth and round */}
             <g filter="url(#auraGlow)">
               {/* Background gradient shadow circle */}
-              <circle cx={xLeft} cy={yCenter} r={32} fill={sc.sphereEnd} />
+              <circle cx={xLeft} cy={ySphere} r={32} fill={sc.sphereEnd} />
               
               {/* Clipped texture layer */}
               <g clipPath="url(#clipLeft)">
                 <circle
                   cx={xLeft}
-                  cy={yCenter}
+                  cy={ySphere}
                   r={32}
                   fill="url(#sphere3D)"
                   filter="url(#organicTexture)"
@@ -540,7 +719,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
               {/* Semi-transparent shiny glass highlight overlay */}
               <circle
                 cx={xLeft}
-                cy={yCenter}
+                cy={ySphere}
                 r={32}
                 fill="none"
                 stroke="rgba(255, 255, 255, 0.15)"
@@ -551,13 +730,13 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
             {/* Right 3D Sphere - Clipped to keep outer border perfectly smooth and round */}
             <g filter="url(#auraGlow)">
               {/* Background gradient shadow circle */}
-              <circle cx={xRight} cy={yCenter} r={32} fill={sc.sphereEnd} />
+              <circle cx={xRight} cy={ySphere} r={32} fill={sc.sphereEnd} />
               
               {/* Clipped texture layer */}
               <g clipPath="url(#clipRight)">
                 <circle
                   cx={xRight}
-                  cy={yCenter}
+                  cy={ySphere}
                   r={32}
                   fill="url(#sphere3D)"
                   filter="url(#organicTexture)"
@@ -567,7 +746,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
               {/* Semi-transparent shiny glass highlight overlay */}
               <circle
                 cx={xRight}
-                cy={yCenter}
+                cy={ySphere}
                 r={32}
                 fill="none"
                 stroke="rgba(255, 255, 255, 0.15)"
@@ -575,8 +754,8 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
               />
             </g>
 
-            {/* Drag guide vectors shifted down to avoid overlaps */}
-            {!isDragging && (
+            {/* Drag guide vectors (remains fixed relative to the user) */}
+            {!dragMode && (
               <g opacity="0.35" transform={`translate(160, 205)`} className="animate-pulse">
                 <text x="0" y="0" textAnchor="middle" fill="#FFF" fontSize="8px" fontFamily="monospace" letterSpacing="1">
                   {isEs ? "ARRAS-TRAR" : "DRAG"}
@@ -587,24 +766,26 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
 
             {/* Ocean Surface Ground Floor (Wavy parallax lines) */}
             <g>
-              {/* Back wave layer */}
+              {/* Back wave layer - Parallax drift slightly opposite (-0.15x) */}
               <path
                 d="M -40,240 Q 0,232 40,240 T 120,240 T 200,240 T 280,240 T 360,240 L 360,325 L -40,325 Z"
                 fill="url(#seaGrad)"
+                transform={`translate(${-camX * 0.15}, ${-camY * 0.05})`}
                 className="ocean-wave-1 opacity-70"
               />
 
-              {/* Middle wave layer (reflective color highlight) */}
+              {/* Middle wave layer (reflective color highlight) - Stable base (0x) */}
               <path
                 d="M -40,248 Q 20,240 80,248 T 200,248 T 320,248 L 320,325 L -40,325 Z"
                 fill={sc.waveColor1}
                 className="ocean-wave-2"
               />
 
-              {/* Front wave layer (dark depth) */}
+              {/* Front wave layer (dark depth) - Parallax drift strongly forward (0.55x) */}
               <path
                 d="M -40,256 Q 10,248 60,256 T 160,256 T 260,256 T 360,256 L 360,325 L -40,325 Z"
                 fill={sc.waveColor2}
+                transform={`translate(${camX * 0.55}, ${camY * 0.15})`}
                 className="ocean-wave-1"
               />
             </g>
@@ -618,7 +799,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
             {/* Connection Status panel */}
             <div className={`p-4 rounded-xl ${sc.panelBg} flex flex-col items-center justify-center relative overflow-hidden`}>
               <span className="text-[10px] font-mono opacity-70 uppercase tracking-widest text-center">
-                {isEs ? "Estado de Conexión de Horizontes" : "Horizon Connection State"}
+                {isEs ? "Nivel de Entrelazamiento Cuántico" : "Quantum Entanglement Level"}
               </span>
               <span className={`text-2xl font-display font-bold mt-1.5 flex items-center gap-2 ${
                 isEntangled ? "text-amber-500" : "text-red-500 animate-pulse"
@@ -626,7 +807,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
                 {isEntangled ? (
                   <>
                     <Zap className="w-5 h-5 animate-bounce" />
-                    {isEs ? "ENTRELAZADO (ER = EPR)" : "ENTANGLED (ER = EPR)"}
+                    {`${(entanglement * 100).toFixed(0)}%`}
                   </>
                 ) : (
                   <>
@@ -636,15 +817,20 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
                 )}
               </span>
               
-              {/* Distance meter bar */}
+              {/* Entanglement level charging bar */}
               <div className="w-full h-1.5 bg-black/25 rounded-full mt-3 overflow-hidden border border-white/5">
                 <div
-                  className={`h-full rounded-full transition-all duration-300 ${
+                  className={`h-full rounded-full transition-all duration-100 ${
                     isEntangled ? "bg-amber-500" : "bg-red-500"
                   }`}
-                  style={{ width: `${(distance / 255) * 100}%` }}
+                  style={{ width: `${entanglement * 100}%` }}
                 />
               </div>
+
+              {/* Dynamic growth rate label */}
+              <span className="text-[9px] font-mono opacity-60 mt-1.5 tracking-wider uppercase block">
+                {getGrowthRateText()}
+              </span>
             </div>
 
             {/* Didactic explanation block */}
@@ -652,21 +838,21 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
               {isEntangled ? (
                 isEs ? (
                   <>
-                    <strong>Puente Einstein-Rosen Estable:</strong> Los dos horizontes están conectados por un micro-agujero de gusano (ER). Aunque los separes, comparten una misma región interna. Emerge el vínculo cuántico.
+                    <strong>Acumulación Temporal del Vínculo:</strong> El entrelazamiento no es instantáneo. Requiere tiempo para tejerse ($E(t)$), y su velocidad de crecimiento es inversamente proporcional a la distancia. A menor distancia, la hiedra espacio-temporal brota mucho más rápido.
                   </>
                 ) : (
                   <>
-                    <strong>Stable Einstein-Rosen Bridge:</strong> Both horizons are connected by a microscopic wormhole (ER). Even as you separate them, they share a common internal region. Quantum bond emerges.
+                    <strong>Temporal Accumulation of the Bond:</strong> Entanglement is not instant. Spacetime takes time to weave the connection ($E(t)$), and its growth rate is inversely proportional to distance. Closer horizons sprout ivy much faster.
                   </>
                 )
               ) : (
                 isEs ? (
                   <>
-                    <strong>Decoherencia Cuántica:</strong> La separación superó el límite crítico ({CRIT_DISTANCE}px). El puente de espacio-tiempo se estiró demasiado y colapsó. La información de los horizontes ya no está unida.
+                    <strong>Decoherencia Cuántica:</strong> La separación superó el límite crítico ({CRIT_DISTANCE}px). El puente de espacio-tiempo colapsó. La información de los horizontes ya no está unida.
                   </>
                 ) : (
                   <>
-                    <strong>Quantum Decoherence:</strong> The separation exceeded the critical limit ({CRIT_DISTANCE}px). The spacetime bridge stretched too far and collapsed. The information inside the horizons is no longer linked.
+                    <strong>Quantum Decoherence:</strong> The separation exceeded the critical limit ({CRIT_DISTANCE}px). The spacetime bridge collapsed. The information inside the horizons is no longer linked.
                   </>
                 )
               )}
@@ -713,7 +899,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
             className={`w-full text-xs py-2.5 rounded-lg flex items-center justify-center gap-1.5 transition-all active:scale-95 ${sc.btnPreset}`}
           >
             <RefreshCw className="w-4 h-4" />
-            {isEs ? "Reiniciar Distancia" : "Reset Distance"}
+            {isEs ? "Reiniciar Escena" : "Reset Scene"}
           </button>
 
         </div>
