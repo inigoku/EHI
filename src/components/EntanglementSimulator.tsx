@@ -7,11 +7,36 @@ interface EntanglementSimulatorProps {
   theme: "cosmic" | "paper" | "sepia";
 }
 
+interface VinePoint {
+  x: number;
+  y: number;
+  z: number;
+  angle: number;
+}
+
+interface VineSegment {
+  x1: number;
+  y1: number;
+  x2: number;
+  y2: number;
+  color: string;
+  width: number;
+}
+
+interface VineLeaf {
+  x: number;
+  y: number;
+  angle: number;
+  size: number;
+  color: string;
+  stroke: string;
+}
+
 export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ language, theme }) => {
   const isEs = language === "es";
 
-  // Distance between the two black hole horizons (from 50px to 250px)
-  const [distance, setDistance] = useState<number>(100);
+  // Distance between the two black hole horizons (from 70px to 250px)
+  const [distance, setDistance] = useState<number>(110);
   const [isDragging, setIsDragging] = useState<boolean>(false);
   const svgRef = useRef<SVGSVGElement | null>(null);
 
@@ -23,15 +48,15 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
     radius: 0,
   });
 
-  const prevDistance = useRef<number>(100);
+  const prevDistance = useRef<number>(110);
 
   // Critical threshold distance where ER bridge breaks
-  const CRIT_DISTANCE = 175;
+  const CRIT_DISTANCE = 185;
 
   const isEntangled = distance < CRIT_DISTANCE;
 
   const handleReset = () => {
-    setDistance(100);
+    setDistance(110);
   };
 
   // Handle snapping spark burst animation
@@ -83,7 +108,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
     const mouseX = ((clientX - rect.left) / rect.width) * 320; // scale to 320 units
 
     // Calculate new distance symmetrically around the 160 center
-    const newDist = Math.max(50, Math.min(255, Math.abs(mouseX - 160) * 2));
+    const newDist = Math.max(70, Math.min(255, Math.abs(mouseX - 160) * 2));
     setDistance(newDist);
   };
 
@@ -148,7 +173,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
         sphereEnd: "#0369A1",
         bridgeColor: "#8B5CF6",
         bridgeGlow: "rgba(139, 92, 246, 0.5)",
-        vineColor: "#065F46", // emerald vine
+        vineColor: "#059669", // emerald vine
         leafColor: "#10B981", // glowing neon green leaves
       };
     }
@@ -158,77 +183,112 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
   const bridgeWidth = useMemo(() => {
     if (!isEntangled) return 0;
     const ratio = distance / CRIT_DISTANCE;
-    return Math.max(1.5, 9 * (1 - ratio));
+    return Math.max(2.0, 11 * (1 - ratio)); // thicker bridge for better presence
   }, [distance, isEntangled]);
 
-  // Generate 4 distinct creeping vine stems wrapping around the bridge, creating a realistic tangled ivy cluster
+  // Generate 4 distinct creeping vine stems wrapping around the bridge, divided into front & back elements
   const vinesData = useMemo(() => {
-    if (!isEntangled) return [];
+    if (!isEntangled) return { behindSegments: [], frontSegments: [], behindLeaves: [], frontLeaves: [] };
 
     const strength = 1 - distance / CRIT_DISTANCE; // 0 (snapped) to 1.0 (closest)
     const dx = xRight - xLeft;
     
-    // 4 distinct vine stem configurations wrapping the bridge dynamically
+    // Vine parameters (cycles, starting phase, amplitude scalar, leaf density, colors)
     const configs = [
-      { cycles: 5.0, phase: 0.0, amp: 3.5, color: sc.vineColor, leafColor: sc.leafColor, leafDensity: 0.75 },
-      { cycles: 3.2, phase: 1.8, amp: 6.0, color: theme === "sepia" ? "#9A3412" : "#047857", leafColor: theme === "sepia" ? "#C2410C" : "#10B981", leafDensity: 0.55 },
-      { cycles: 4.5, phase: 3.2, amp: 2.2, color: theme === "sepia" ? "#78350F" : "#064E3B", leafColor: theme === "sepia" ? "#EA580C" : "#059669", leafDensity: 0.65 },
-      { cycles: 6.2, phase: 4.8, amp: 4.8, color: theme === "sepia" ? "#B45309" : "#115E59", leafColor: theme === "sepia" ? "#F59E0B" : "#6EE7B7", leafDensity: 0.45 },
+      { cycles: 4.8, phase: 0.0, ampScale: 0.9, color: sc.vineColor, leafColor: sc.leafColor, leafDensity: 0.75 },
+      { cycles: 3.0, phase: 1.6, ampScale: 1.3, color: theme === "sepia" ? "#9A3412" : "#047857", leafColor: theme === "sepia" ? "#C2410C" : "#10B981", leafDensity: 0.55 },
+      { cycles: 4.2, phase: 3.2, ampScale: 1.0, color: theme === "sepia" ? "#78350F" : "#064E3B", leafColor: theme === "sepia" ? "#EA580C" : "#059669", leafDensity: 0.65 },
+      { cycles: 5.8, phase: 4.6, ampScale: 1.15, color: theme === "sepia" ? "#B45309" : "#115E59", leafColor: theme === "sepia" ? "#F59E0B" : "#6EE7B7", leafDensity: 0.45 },
     ];
 
-    return configs.map((cfg, vineIdx) => {
-      const steps = 16; // spacing steps along each stem
-      const points: string[] = [];
-      const leaves: { x: number; y: number; angle: number; size: number; color: string; stroke: string }[] = [];
+    const behindSegments: VineSegment[] = [];
+    const frontSegments: VineSegment[] = [];
+    const behindLeaves: VineLeaf[] = [];
+    const frontLeaves: VineLeaf[] = [];
+
+    // The winding radius/amplitude dynamically wraps the bridge thickness + offset
+    const baseAmp = bridgeWidth * 0.5 + 2.8;
+
+    configs.forEach((cfg, vineIdx) => {
+      const steps = 38; // fine segments for smooth curves
+      const points: VinePoint[] = [];
 
       for (let i = 0; i <= steps; i++) {
         const t = i / steps;
         const x = xLeft + t * dx;
         
-        // Bridge parabolic path height at t
+        // Base bridge parabola height
         const yBase = yCenter - 25 * (4 * t * (1 - t));
         
-        // Wrapping angle along the length
+        // Winding angle
         const angle = t * Math.PI * 2 * cfg.cycles + cfg.phase;
         
-        // Amplitude of wrapping stretches and grows with entanglement strength
-        const amplitude = cfg.amp * strength;
-        
+        // Wrapping coordinates around the bridge
+        const amplitude = baseAmp * cfg.ampScale * strength;
         const y = yBase + Math.sin(angle) * amplitude;
+        const z = Math.cos(angle); // Positive means in front of bridge, Negative means behind
 
-        if (i === 0) {
-          points.push(`M ${x},${y}`);
+        points.push({ x, y, z, angle });
+      }
+
+      // 1. Build segments (lines connecting points)
+      for (let i = 0; i < steps; i++) {
+        const p1 = points[i];
+        const p2 = points[i + 1];
+        
+        // Determine segment depth based on average Z coordinate
+        const avgZ = (p1.z + p2.z) / 2;
+        const segment: VineSegment = {
+          x1: p1.x,
+          y1: p1.y,
+          x2: p2.x,
+          y2: p2.y,
+          color: cfg.color,
+          width: Math.max(0.8, 1.8 * strength * (1.1 - 0.2 * (i/steps))),
+        };
+
+        if (avgZ < 0) {
+          behindSegments.push(segment);
         } else {
-          points.push(`L ${x},${y}`);
-        }
-
-        // Staggered leaf generation on all 4 stems
-        if (i > 0 && i < steps) {
-          // pseudo-random placement probability per step
-          const shouldPlaceLeaf = (Math.sin(i * 3.5 + vineIdx * 2.1) + 1) / 2 < cfg.leafDensity;
-          const leafSize = Math.max(0, 4.4 * strength * (0.8 + Math.sin(i * 1.5 + vineIdx) * 0.25));
-
-          if (shouldPlaceLeaf && leafSize > 0.6) {
-            leaves.push({
-              x,
-              y,
-              angle: (angle * 180) / Math.PI + (i % 2 === 0 ? 30 : -30),
-              size: leafSize,
-              color: cfg.leafColor,
-              stroke: cfg.color,
-            });
-          }
+          frontSegments.push(segment);
         }
       }
 
-      return {
-        path: points.join(" "),
-        color: cfg.color,
-        width: Math.max(0.6, 1.4 * strength),
-        leaves,
-      };
+      // 2. Build leaves (placed at specific steps)
+      for (let i = 2; i < steps - 1; i += 2) {
+        const p = points[i];
+        
+        // pseudo-random placement probability per step
+        const shouldPlaceLeaf = (Math.sin(i * 3.5 + vineIdx * 2.1) + 1) / 2 < cfg.leafDensity;
+        const leafSize = Math.max(0, 8.8 * strength * (0.8 + Math.sin(i * 1.5 + vineIdx) * 0.25)); // enlarged size (up to 8.8px)
+
+        if (shouldPlaceLeaf && leafSize > 1.2) {
+          const leaf: VineLeaf = {
+            x: p.x,
+            y: p.y,
+            angle: (p.angle * 180) / Math.PI + (i % 3 === 0 ? 30 : -30),
+            size: leafSize,
+            color: cfg.leafColor,
+            stroke: cfg.color,
+          };
+
+          // Leaves depth follows the point's Z coordinate
+          if (p.z < 0) {
+            behindLeaves.push(leaf);
+          } else {
+            frontLeaves.push(leaf);
+          }
+        }
+      }
     });
-  }, [distance, xLeft, xRight, isEntangled, sc, theme]);
+
+    return {
+      behindSegments,
+      frontSegments,
+      behindLeaves,
+      frontLeaves,
+    };
+  }, [distance, xLeft, xRight, isEntangled, bridgeWidth, sc, theme]);
 
   return (
     <div className={`rounded-2xl border ${sc.cardBg} p-5 sm:p-6 shadow-xl transition-all duration-300`}>
@@ -266,8 +326,8 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
           </h4>
           <p className="text-xs opacity-75 mt-0.5 font-sans">
             {isEs 
-              ? "Experimenta cómo múltiples tallos de enredaderas trepan e invaden el puente espacio-temporal."
-              : "Experience how multiple crawling ivy stems climb and cover the spacetime bridge."}
+              ? "Experimenta cómo múltiples tallos de enredaderas trepan y rodean el puente en 3D."
+              : "Experience how multiple crawling ivy stems climb and physically wrap the bridge in 3D."}
           </p>
         </div>
       </div>
@@ -332,17 +392,50 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
             {/* Glowing vertical ocean reflection bands under the spheres */}
             {isEntangled && (
               <g opacity="0.45" filter="url(#auraGlow)">
-                <ellipse cx={xLeft} cy={235} rx="24" ry="4" fill={sc.sphereMid} />
-                <ellipse cx={xRight} cy={235} rx="24" ry="4" fill={sc.sphereMid} />
+                <ellipse cx={xLeft} cy={235} rx="30" ry="4.5" fill={sc.sphereMid} />
+                <ellipse cx={xRight} cy={235} rx="30" ry="4.5" fill={sc.sphereMid} />
                 {/* Wormhole floor reflection */}
                 <ellipse cx={160} cy={240} rx={distance / 2} ry="5" fill={sc.bridgeColor} opacity="0.6" />
               </g>
             )}
 
-            {/* Einstein-Rosen Bridge (Quantum Wormhole) */}
+            {/* RENDER PHASE 1: Stems and leaves BEHIND the bridge (Z < 0) */}
             {isEntangled && (
               <g filter="url(#auraGlow)">
-                {/* 1. Thick back connection tunnel casing */}
+                {/* Behind vine segments */}
+                {vinesData.behindSegments.map((seg, idx) => (
+                  <line
+                    key={`seg-b-${idx}`}
+                    x1={seg.x1}
+                    y1={seg.y1}
+                    x2={seg.x2}
+                    y2={seg.y2}
+                    stroke={seg.color}
+                    strokeWidth={seg.width}
+                    strokeLinecap="round"
+                    opacity={0.8}
+                  />
+                ))}
+
+                {/* Behind leaves */}
+                {vinesData.behindLeaves.map((leaf, idx) => (
+                  <path
+                    key={`leaf-b-${idx}`}
+                    d={`M 0,0 Q ${leaf.size},-${leaf.size * 0.75} ${leaf.size * 1.8},0 Q ${leaf.size},${leaf.size * 0.75} 0,0`}
+                    fill={leaf.color}
+                    stroke={leaf.stroke}
+                    strokeWidth="0.5"
+                    transform={`translate(${leaf.x}, ${leaf.y}) rotate(${leaf.angle})`}
+                    opacity={0.88}
+                  />
+                ))}
+              </g>
+            )}
+
+            {/* RENDER PHASE 2: Einstein-Rosen Bridge (Quantum Wormhole) */}
+            {isEntangled && (
+              <g filter="url(#auraGlow)">
+                {/* Thick back connection tunnel casing */}
                 <path
                   d={`M ${xLeft},${yCenter} Q 160,${yCenter - 25} ${xRight},${yCenter}`}
                   fill="none"
@@ -351,7 +444,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
                   strokeLinecap="round"
                 />
                 
-                {/* 2. Core energy flow bridge thread */}
+                {/* Core energy flow bridge thread */}
                 <path
                   d={`M ${xLeft},${yCenter} Q 160,${yCenter - 25} ${xRight},${yCenter}`}
                   fill="none"
@@ -360,42 +453,47 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
                   strokeLinecap="round"
                 />
 
-                {/* 3. Helix winding sub-threads for organic look */}
+                {/* Helix winding sub-threads for organic look */}
                 <path
                   d={`M ${xLeft},${yCenter} Q 160,${yCenter - 10} ${xRight},${yCenter}`}
                   fill="none"
                   stroke="#FFF"
-                  strokeWidth={Math.max(0.5, bridgeWidth * 0.25)}
+                  strokeWidth={Math.max(0.6, bridgeWidth * 0.25)}
                   strokeDasharray="8 12"
                   className="bridge-flow opacity-60"
                 />
-                
-                {/* 4. Multiple creeping vine stems and leaves wrapping around the bridge */}
-                {vinesData.map((vine, vineIndex) => (
-                  <g key={`vine-group-${vineIndex}`}>
-                    {/* The creeping stem path */}
-                    <path
-                      d={vine.path}
-                      fill="none"
-                      stroke={vine.color}
-                      strokeWidth={vine.width}
-                      strokeLinecap="round"
-                      opacity={0.8}
-                    />
+              </g>
+            )}
 
-                    {/* Staggered leaves on this stem */}
-                    {vine.leaves.map((leaf, leafIndex) => (
-                      <path
-                        key={`leaf-${vineIndex}-${leafIndex}`}
-                        d={`M 0,0 Q ${leaf.size},-${leaf.size * 0.75} ${leaf.size * 1.8},0 Q ${leaf.size},${leaf.size * 0.75} 0,0`}
-                        fill={leaf.color}
-                        stroke={leaf.stroke}
-                        strokeWidth="0.5"
-                        transform={`translate(${leaf.x}, ${leaf.y}) rotate(${leaf.angle})`}
-                        opacity={0.92}
-                      />
-                    ))}
-                  </g>
+            {/* RENDER PHASE 3: Stems and leaves IN FRONT of the bridge (Z >= 0) */}
+            {isEntangled && (
+              <g filter="url(#auraGlow)">
+                {/* Front vine segments */}
+                {vinesData.frontSegments.map((seg, idx) => (
+                  <line
+                    key={`seg-f-${idx}`}
+                    x1={seg.x1}
+                    y1={seg.y1}
+                    x2={seg.x2}
+                    y2={seg.y2}
+                    stroke={seg.color}
+                    strokeWidth={seg.width}
+                    strokeLinecap="round"
+                    opacity={0.85}
+                  />
+                ))}
+
+                {/* Front leaves */}
+                {vinesData.frontLeaves.map((leaf, idx) => (
+                  <path
+                    key={`leaf-f-${idx}`}
+                    d={`M 0,0 Q ${leaf.size},-${leaf.size * 0.75} ${leaf.size * 1.8},0 Q ${leaf.size},${leaf.size * 0.75} 0,0`}
+                    fill={leaf.color}
+                    stroke={leaf.stroke}
+                    strokeWidth="0.5"
+                    transform={`translate(${leaf.x}, ${leaf.y}) rotate(${leaf.angle})`}
+                    opacity={0.95}
+                  />
                 ))}
               </g>
             )}
@@ -414,23 +512,23 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
               />
             )}
 
-            {/* Left 3D Sphere with organic marble texture */}
+            {/* Left 3D Sphere (Radius increased to 32 for massive presence) */}
             <g filter="url(#auraGlow)">
               <circle
                 cx={xLeft}
                 cy={yCenter}
-                r={26}
+                r={32}
                 fill="url(#sphere3D)"
                 filter="url(#organicTexture)"
               />
             </g>
 
-            {/* Right 3D Sphere with organic marble texture */}
+            {/* Right 3D Sphere (Radius increased to 32 for massive presence) */}
             <g filter="url(#auraGlow)">
               <circle
                 cx={xRight}
                 cy={yCenter}
-                r={26}
+                r={32}
                 fill="url(#sphere3D)"
                 filter="url(#organicTexture)"
               />
@@ -438,7 +536,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
 
             {/* Drag guide vectors (arrows beside spheres showing they can drag) */}
             {!isDragging && (
-              <g opacity="0.35" transform={`translate(160, ${yCenter + 45})`} className="animate-pulse">
+              <g opacity="0.35" transform={`translate(160, ${yCenter + 52})`} className="animate-pulse">
                 <text x="0" y="0" textAnchor="middle" fill="#FFF" fontSize="8px" fontFamily="monospace" letterSpacing="1">
                   {isEs ? "ARRAS-TRAR" : "DRAG"}
                 </text>
@@ -541,7 +639,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
               </div>
               <input
                 type="range"
-                min="50"
+                min="70"
                 max="250"
                 step="1"
                 value={distance}
