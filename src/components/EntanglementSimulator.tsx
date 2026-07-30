@@ -148,7 +148,7 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
         sphereEnd: "#0369A1",
         bridgeColor: "#8B5CF6",
         bridgeGlow: "rgba(139, 92, 246, 0.5)",
-        vineColor: "#059669", // emerald vine
+        vineColor: "#065F46", // emerald vine
         leafColor: "#10B981", // glowing neon green leaves
       };
     }
@@ -161,63 +161,74 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
     return Math.max(1.5, 9 * (1 - ratio));
   }, [distance, isEntangled]);
 
-  // Generate double helix vines wrapping around the bridge, growing/shrinking with strength
+  // Generate 4 distinct creeping vine stems wrapping around the bridge, creating a realistic tangled ivy cluster
   const vinesData = useMemo(() => {
-    if (!isEntangled) return { vinePath1: "", vinePath2: "", leaves: [] };
+    if (!isEntangled) return [];
 
     const strength = 1 - distance / CRIT_DISTANCE; // 0 (snapped) to 1.0 (closest)
-    const steps = 14; // spacing segments
-    const points1: string[] = [];
-    const points2: string[] = [];
-    const leaves: { x: number; y: number; angle: number; size: number }[] = [];
-
     const dx = xRight - xLeft;
+    
+    // 4 distinct vine stem configurations wrapping the bridge dynamically
+    const configs = [
+      { cycles: 5.0, phase: 0.0, amp: 3.5, color: sc.vineColor, leafColor: sc.leafColor, leafDensity: 0.75 },
+      { cycles: 3.2, phase: 1.8, amp: 6.0, color: theme === "sepia" ? "#9A3412" : "#047857", leafColor: theme === "sepia" ? "#C2410C" : "#10B981", leafDensity: 0.55 },
+      { cycles: 4.5, phase: 3.2, amp: 2.2, color: theme === "sepia" ? "#78350F" : "#064E3B", leafColor: theme === "sepia" ? "#EA580C" : "#059669", leafDensity: 0.65 },
+      { cycles: 6.2, phase: 4.8, amp: 4.8, color: theme === "sepia" ? "#B45309" : "#115E59", leafColor: theme === "sepia" ? "#F59E0B" : "#6EE7B7", leafDensity: 0.45 },
+    ];
 
-    for (let i = 0; i <= steps; i++) {
-      const t = i / steps;
-      const x = xLeft + t * dx;
-      
-      // Bridge parabolic path height at t
-      const yBase = yCenter - 25 * (4 * t * (1 - t));
-      
-      // Double helix rotation wrappers: 3.5 cycles
-      const angle = t * Math.PI * 7;
-      
-      // Amplitude of wrapping stretches and grows with entanglement strength
-      const amplitude = 5.5 * strength;
-      
-      const y1 = yBase + Math.sin(angle) * amplitude;
-      const y2 = yBase - Math.sin(angle) * amplitude;
+    return configs.map((cfg, vineIdx) => {
+      const steps = 16; // spacing steps along each stem
+      const points: string[] = [];
+      const leaves: { x: number; y: number; angle: number; size: number; color: string; stroke: string }[] = [];
 
-      if (i === 0) {
-        points1.push(`M ${x},${y1}`);
-        points2.push(`M ${x},${y2}`);
-      } else {
-        points1.push(`L ${x},${y1}`);
-        points2.push(`L ${x},${y2}`);
-      }
+      for (let i = 0; i <= steps; i++) {
+        const t = i / steps;
+        const x = xLeft + t * dx;
+        
+        // Bridge parabolic path height at t
+        const yBase = yCenter - 25 * (4 * t * (1 - t));
+        
+        // Wrapping angle along the length
+        const angle = t * Math.PI * 2 * cfg.cycles + cfg.phase;
+        
+        // Amplitude of wrapping stretches and grows with entanglement strength
+        const amplitude = cfg.amp * strength;
+        
+        const y = yBase + Math.sin(angle) * amplitude;
 
-      // Add ivy/vine leaves along the helix wraps
-      if (i > 0 && i < steps) {
-        const leafSize = Math.max(0, 4.8 * strength); // grows larger as horizons approach
-        if (leafSize > 0.6) {
-          // Alternating leaves on both wraps
-          leaves.push({
-            x,
-            y: i % 2 === 0 ? y1 : y2,
-            angle: (angle * 180) / Math.PI + (i % 2 === 0 ? 35 : -35),
-            size: leafSize,
-          });
+        if (i === 0) {
+          points.push(`M ${x},${y}`);
+        } else {
+          points.push(`L ${x},${y}`);
+        }
+
+        // Staggered leaf generation on all 4 stems
+        if (i > 0 && i < steps) {
+          // pseudo-random placement probability per step
+          const shouldPlaceLeaf = (Math.sin(i * 3.5 + vineIdx * 2.1) + 1) / 2 < cfg.leafDensity;
+          const leafSize = Math.max(0, 4.4 * strength * (0.8 + Math.sin(i * 1.5 + vineIdx) * 0.25));
+
+          if (shouldPlaceLeaf && leafSize > 0.6) {
+            leaves.push({
+              x,
+              y,
+              angle: (angle * 180) / Math.PI + (i % 2 === 0 ? 30 : -30),
+              size: leafSize,
+              color: cfg.leafColor,
+              stroke: cfg.color,
+            });
+          }
         }
       }
-    }
 
-    return {
-      vinePath1: points1.join(" "),
-      vinePath2: points2.join(" "),
-      leaves,
-    };
-  }, [distance, xLeft, xRight, isEntangled]);
+      return {
+        path: points.join(" "),
+        color: cfg.color,
+        width: Math.max(0.6, 1.4 * strength),
+        leaves,
+      };
+    });
+  }, [distance, xLeft, xRight, isEntangled, sc, theme]);
 
   return (
     <div className={`rounded-2xl border ${sc.cardBg} p-5 sm:p-6 shadow-xl transition-all duration-300`}>
@@ -255,8 +266,8 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
           </h4>
           <p className="text-xs opacity-75 mt-0.5 font-sans">
             {isEs 
-              ? "A mayor cercanía, más fuerte es el vínculo y más follaje de enredadera cubre el puente."
-              : "Closer distance yields stronger bonds, covering the bridge with growing ivy/vines."}
+              ? "Experimenta cómo múltiples tallos de enredaderas trepan e invaden el puente espacio-temporal."
+              : "Experience how multiple crawling ivy stems climb and cover the spacetime bridge."}
           </p>
         </div>
       </div>
@@ -359,35 +370,32 @@ export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ la
                   className="bridge-flow opacity-60"
                 />
                 
-                {/* 4. Organic double-helix vine / enredadera wraps */}
-                <path
-                  d={vinesData.vinePath1}
-                  fill="none"
-                  stroke={sc.vineColor}
-                  strokeWidth="1.4"
-                  strokeLinecap="round"
-                  opacity={0.85}
-                />
-                <path
-                  d={vinesData.vinePath2}
-                  fill="none"
-                  stroke={sc.vineColor}
-                  strokeWidth="1.0"
-                  strokeLinecap="round"
-                  opacity={0.65}
-                />
+                {/* 4. Multiple creeping vine stems and leaves wrapping around the bridge */}
+                {vinesData.map((vine, vineIndex) => (
+                  <g key={`vine-group-${vineIndex}`}>
+                    {/* The creeping stem path */}
+                    <path
+                      d={vine.path}
+                      fill="none"
+                      stroke={vine.color}
+                      strokeWidth={vine.width}
+                      strokeLinecap="round"
+                      opacity={0.8}
+                    />
 
-                {/* 5. Ivy leaves growing on the vine */}
-                {vinesData.leaves.map((leaf, index) => (
-                  <path
-                    key={`leaf-${index}`}
-                    d={`M 0,0 Q ${leaf.size},-${leaf.size * 0.7} ${leaf.size * 1.8},0 Q ${leaf.size},${leaf.size * 0.7} 0,0`}
-                    fill={sc.leafColor}
-                    stroke={sc.vineColor}
-                    strokeWidth="0.6"
-                    transform={`translate(${leaf.x}, ${leaf.y}) rotate(${leaf.angle})`}
-                    opacity={0.95}
-                  />
+                    {/* Staggered leaves on this stem */}
+                    {vine.leaves.map((leaf, leafIndex) => (
+                      <path
+                        key={`leaf-${vineIndex}-${leafIndex}`}
+                        d={`M 0,0 Q ${leaf.size},-${leaf.size * 0.75} ${leaf.size * 1.8},0 Q ${leaf.size},${leaf.size * 0.75} 0,0`}
+                        fill={leaf.color}
+                        stroke={leaf.stroke}
+                        strokeWidth="0.5"
+                        transform={`translate(${leaf.x}, ${leaf.y}) rotate(${leaf.angle})`}
+                        opacity={0.92}
+                      />
+                    ))}
+                  </g>
                 ))}
               </g>
             )}
