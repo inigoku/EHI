@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef, useMemo } from "react";
-import { Play, Pause, RotateCcw, AlertTriangle, Eye, Navigation, Info } from "lucide-react";
+import { Play, Pause, RotateCcw, AlertTriangle, Eye, Navigation } from "lucide-react";
 import { Language } from "../i18n";
 
 interface HorizonSimulatorProps {
@@ -20,7 +20,7 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
   // Perspective: "observer" (Earth view) or "object" (falling inside)
   const [perspective, setPerspective] = useState<"observer" | "object">("observer");
 
-  // Rs is event horizon radius (scaled down to fit 320x320 viewBox perfectly)
+  // Rs is event horizon radius (scaled to fit perfectly in 320x320 viewBox)
   const [Rs, setRs] = useState<number>(45);
 
   // Distance from center (Rs .. 140). Bounded to prevent any clipping.
@@ -34,29 +34,25 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
   const previousTimeRef = useRef<number | null>(null);
 
   // Physics Calculations
-  const { gamma, redshiftColor, opacity, stretchX, stretchY } = useMemo(() => {
+  const { gamma, redshiftColor, stretchX, stretchY } = useMemo(() => {
     const normalizedR = Math.max(r, Rs + 0.5);
     const ratio = Rs / normalizedR;
 
     // Relativistic Time dilation factor (gamma)
     const g = 1 / Math.sqrt(1 - ratio);
 
-    // Realistic Redshift: Cyan/Blue (190) -> Orange (30) -> Red (0)
+    // Highly visible Redshift: Bright Cyan/Blue (195) -> Intense Orange (30) -> Glowing Neon Red (0)
     const hue = Math.max(0, 195 - ratio * 205);
-    const lightness = Math.max(8, 60 - ratio * 48);
-    const color = `hsl(${hue}, 95%, ${lightness}%)`;
+    const lightness = Math.max(45, 60 - ratio * 15); // Kept bright (>= 45%) for perfect visibility
+    const color = `hsl(${hue}, 100%, ${lightness}%)`;
 
-    // Opacity fades as light loses all energy near the horizon
-    const op = Math.max(0.01, 1 - ratio * 0.98);
-
-    // Spaghettification factors (extreme radial stretch, lateral compression)
-    const sX = 1 + ratio * 3.2;
-    const sY = Math.max(0.25, 1 - ratio * 0.65);
+    // Dramatic Spaghettification factors (extreme radial stretch, lateral compression)
+    const sX = 1 + ratio * 4.2; // Stretches up to ~5.2x
+    const sY = Math.max(0.12, 1 - ratio * 0.88); // Compresses down to 0.12x (thin thread)
 
     return {
       gamma: g,
       redshiftColor: color,
-      opacity: op,
       stretchX: sX,
       stretchY: sY,
     };
@@ -194,6 +190,18 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
 
   return (
     <div className={`rounded-2xl border ${sc.cardBg} p-5 sm:p-6 shadow-xl transition-all duration-300`}>
+      {/* CSS custom keyframe animations for accretion disk rotation */}
+      <style dangerouslySetInnerHTML={{ __html: `
+        @keyframes spinAccretion {
+          from { transform: rotate(0deg); }
+          to { transform: rotate(360deg); }
+        }
+        .animate-spin-disk {
+          transform-origin: 160px 160px;
+          animation: spinAccretion 8s linear infinite;
+        }
+      `}} />
+
       {/* Header Selector */}
       <div className="border-b border-white/5 pb-4 mb-4 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
         <div>
@@ -203,8 +211,8 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
           </h4>
           <p className="text-xs opacity-75 mt-0.5 font-sans">
             {isEs 
-              ? "Observa el estiramiento y el enrojecimiento de un objeto al caer al abismo."
-              : "Watch the stretching and reddening of an object falling into the abyss."}
+              ? "Observa la deformación física y el desplazamiento al rojo (redshift) de la nave."
+              : "Observe the physical deformation and redshift of the falling ship."}
           </p>
         </div>
 
@@ -243,6 +251,18 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
                 <feGaussianBlur stdDeviation="0.8" result="blur" />
                 <feMerge>
                   <feMergeNode in="blur" />
+                  <feMergeNode in="SourceGraphic" />
+                </feMerge>
+              </filter>
+
+              {/* Glowing neon filter for ship to keep it perfectly visible */}
+              <filter id="shipGlow" x="-30%" y="-30%" width="160%" height="160%">
+                <feGaussianBlur stdDeviation="1.5" result="blur" />
+                <feComponentTransfer in="blur" result="glow">
+                  <feFuncA type="linear" slope="0.85" />
+                </feComponentTransfer>
+                <feMerge>
+                  <feMergeNode in="glow" />
                   <feMergeNode in="SourceGraphic" />
                 </feMerge>
               </filter>
@@ -290,37 +310,9 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
 
             {/* Gravitational lensing distorted background stars (stretched into concentric arcs) */}
             <g opacity="0.65">
-              {/* Concentric warped star arcs representing bent light rays */}
               <path d={`M ${cx - 70} ${cy - 12} A 71 71 0 0 1 ${cx - 12} ${cy - 70}`} fill="none" stroke={sc.starColor} strokeWidth="0.8" strokeDasharray="1 18" />
               <path d={`M ${cx + 70} ${cy + 12} A 71 71 0 0 1 ${cx + 12} ${cy + 70}`} fill="none" stroke={sc.starColor} strokeWidth="0.8" strokeDasharray="1 15" />
               <path d={`M ${cx - 95} ${cy + 15} A 96 96 0 0 0 ${cx - 15} ${cy + 95}`} fill="none" stroke={sc.starColor} strokeWidth="0.6" strokeDasharray="1 22" />
-            </g>
-
-            {/* Gravitational coordinate grid (very subtle, inside layout borders) */}
-            <g opacity="0.25">
-              <circle cx={cx} cy={cy} r="140" fill="none" stroke={sc.gridLine} strokeWidth="0.8" />
-              <circle cx={cx} cy={cy} r="105" fill="none" stroke={sc.gridLine} strokeWidth="0.8" />
-              <circle cx={cx} cy={cy} r="75" fill="none" stroke={sc.gridLine} strokeWidth="0.8" />
-              {/* Curved funnel lines to show coordinate contraction */}
-              {Array.from({ length: 8 }).map((_, idx) => {
-                const angle = (idx * Math.PI) / 4;
-                const startX = cx + 140 * Math.cos(angle);
-                const startY = cy + 140 * Math.sin(angle);
-                const endX = cx + Rs * Math.cos(angle);
-                const endY = cy + Rs * Math.sin(angle);
-                return (
-                  <line
-                    key={idx}
-                    x1={startX}
-                    y1={startY}
-                    x2={endX}
-                    y2={endY}
-                    stroke={sc.gridLine}
-                    strokeWidth="0.6"
-                    strokeDasharray="2 6"
-                  />
-                );
-              })}
             </g>
 
             {/* 1. Lensed Accretion Halo (Light from behind the black hole warped by gravity into a circle) */}
@@ -332,15 +324,28 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               className="opacity-95"
             />
 
-            {/* 2. Front horizontal accretion disk (crosses in front of the event horizon) */}
-            {/* Warp accretion disk path curving around the front */}
+            {/* Swirling Relativistic Accretion Disk (Spins along the orbital plane) */}
+            <g transform="rotate(-14, 160, 160)">
+              <g className="animate-spin-disk">
+                {/* Plasma gas wisps and hot spots swirling in orbit */}
+                <path d={`M ${cx - 110} ${cy} A 110 110 0 0 1 ${cx} ${cy - 110}`} fill="none" stroke={sc.diskGlow} strokeWidth="6" strokeLinecap="round" className="opacity-30" />
+                <path d={`M ${cx + 120} ${cy} A 120 120 0 0 1 ${cx} ${cy + 120}`} fill="none" stroke={sc.diskColor} strokeWidth="8" strokeLinecap="round" className="opacity-25" />
+                <path d={`M ${cx} ${cy - 90} A 90 90 0 0 1 ${cx + 90} ${cy}`} fill="none" stroke="#FFF" strokeWidth="4" strokeLinecap="round" className="opacity-40 filter blur-[1px]" />
+                
+                {/* Dark Dust Lane gaps inside the rotating disk */}
+                <circle cx={cx - 85} cy={cy - 40} r="7" fill="#020205" className="opacity-80 filter blur-[2px]" />
+                <circle cx={cx + 95} cy={cy + 30} r="9" fill="#020205" className="opacity-85 filter blur-[3px]" />
+              </g>
+            </g>
+
+            {/* Front horizontal accretion disk (crosses in front of the event horizon) */}
             <path
               d={`M ${cx - 130} ${cy} C ${cx - 65} ${cy + 32}, ${cx + 65} ${cy + 32}, ${cx + 130} ${cy} C ${cx + 50} ${cy - 12}, ${cx - 50} ${cy - 12}, ${cx - 130} ${cy}`}
               fill="url(#frontDisk)"
-              className="opacity-80"
+              className="opacity-85"
             />
 
-            {/* 3. Event Horizon Sphere (Pure Black hole singularity boundary) */}
+            {/* Event Horizon Sphere (Pure Black hole singularity boundary) */}
             <circle
               cx={cx}
               cy={cy}
@@ -350,7 +355,7 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               strokeWidth="0.8"
             />
 
-            {/* 4. Foreground Accretion Disk Silhouette (Dust lane blocking some back-warped light) */}
+            {/* Foreground Accretion Disk Silhouette (Dust lane blocking some back-warped light) */}
             <path
               d={`M ${cx - 110} ${cy + 4} C ${cx - 50} ${cy + 22}, ${cx + 50} ${cy + 22}, ${cx + 110} ${cy + 4}`}
               fill="none"
@@ -359,43 +364,43 @@ export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, th
               className="opacity-60"
             />
 
-            {/* Falling Spaceship / Concept Bubble */}
+            {/* Falling Spaceship / Concept Bubble (Perfect visibility, no opacity fade) */}
             {r > 1 && (
               <g 
                 transform={`translate(${objX}, ${objY}) scale(${stretchX}, ${stretchY})`}
-                style={{ opacity: perspective === "observer" ? opacity : 1 }}
+                filter="url(#shipGlow)"
               >
                 {/* Spaghettification plasma glow trail */}
-                <ellipse cx={0} cy={0} rx={18} ry={4} fill={redshiftColor} className="opacity-25 filter blur-[2px]" />
+                <ellipse cx={0} cy={0} rx={22} ry={4} fill={redshiftColor} className="opacity-40 filter blur-[1px]" />
                 
                 {/* Ion Thruster engine glow (active when falling) */}
                 {isRunning && r > Rs && (
                   <path
-                    d="M 6 -2 L 18 -4 L 18 4 L 6 2 Z"
+                    d="M 6 -2.5 L 20 -5 L 20 5 L 6 2.5 Z"
                     fill="url(#ionPlume)"
                     transform="scale(0.8, 1)"
-                    className="opacity-90"
+                    className="opacity-95"
                   />
                 )}
 
-                {/* Sleek metallic triangular spaceship probe hull */}
+                {/* Sleek metallic triangular spaceship probe hull (highlighted edge for visibility) */}
                 <path
-                  d="M -7 -4 L 7 0 L -7 4 L -4 0 Z"
-                  fill={theme === "paper" ? "#374151" : "#E2E8F0"}
+                  d="M -8 -4.5 L 8 0 L -8 4.5 L -5 0 Z"
+                  fill={theme === "paper" ? "#1E293B" : "#F8FAFC"}
                   stroke={redshiftColor}
-                  strokeWidth="0.8"
+                  strokeWidth="1.2"
                 />
 
-                {/* Concept label overlay text */}
+                {/* Concept label overlay text (perfectly readable at all times) */}
                 <text
                   x={-2}
-                  y={-12}
+                  y={-14}
                   textAnchor="middle"
                   fill={redshiftColor}
-                  fontSize="11px"
+                  fontSize="12px"
                   fontWeight="bold"
-                  transform="scale(0.7, 1.8)" // counter-act spaghettification scale so text stays readable
-                  className="font-sans filter drop-shadow-[0_1.5px_2px_rgba(0,0,0,0.85)]"
+                  transform="scale(0.68, 1.8)" // counter-act spaghettification scale so text stays readable
+                  className="font-sans filter drop-shadow-[0_1.5px_3px_rgba(0,0,0,0.95)]"
                 >
                   {selectedItem}
                 </text>
