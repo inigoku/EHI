@@ -1,7 +1,7 @@
 ---
 title: LA IDEMPOTENCIA DEL SER
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 22
+chapterNumber: 23
 linkedCuentosId: cuento_sintonizadores
 illustrationId: il22_1
 illustrationTitle: La idempotencia del ser
@@ -97,7 +97,7 @@ El sistema inmunitario es, en esencia, una maquinaria dedicada por completo a un
 
 Ni un ataque total ni una tolerancia total son salud. La salud es una frontera que sabe filtrar: que deja pasar el oxígeno, el alimento, la información útil, y detiene selectivamente lo que amenaza con disolver la identidad del sistema entero. Nadie describiría un sistema inmunitario sano como uno que ha "eliminado su membrana" para dejar de discriminar entre propio y ajeno; lo describiríamos, con razón, como muerto. La madurez inmunológica no es la desaparición de la frontera. Es su afinamiento.
 
-Esto es, palabra por palabra, lo que la Individuación junguiana nos pedía en el capítulo anterior cuando hablábamos de un horizonte que "se vuelve permeable sin perder su coherencia". Ahora tenemos, además de la metáfora, el mecanismo: una frontera madura no es una frontera más débil, es una frontera con mejores receptores. Sabe qué dejar pasar de la Sombra —qué proyecciones reconocer como propias, qué impulsos reintegrar sin que amenacen la identidad del Ego— sin necesitar, para hacerlo, tragarse a la Sombra entera y convertirla en tejido propio indiferenciado. Sigue habiendo dos horizontes. Lo que cambia es la calidad de la aduana que los conecta.
+Esto es, palabra por palabra, lo que la Individuación junguiana nos pedía en el capítulo 21 cuando hablábamos de un horizonte que "se vuelve permeable sin perder su coherencia". Ahora tenemos, además de la metáfora, el mecanismo: una frontera madura no es una frontera más débil, es una frontera con mejores receptores. Sabe qué dejar pasar de la Sombra —qué proyecciones reconocer como propias, qué impulsos reintegrar sin que amenacen la identidad del Ego— sin necesitar, para hacerlo, tragarse a la Sombra entera y convertirla en tejido propio indiferenciado. Sigue habiendo dos horizontes. Lo que cambia es la calidad de la aduana que los conecta.
 
 ## VIII.
 
@@ -105,7 +105,7 @@ El límite que, al cerrarse sobre sí, dice por primera vez "yo soy".
 
 ---
 
-### Nota al Capítulo 22
+### Nota al Capítulo 23
 
 **Lo que sí sabemos:** que el horizonte de sucesos, la encapsulación informática, la membrana celular y la clausura topológica comparten una misma lógica formal —la frontera no separa, constituye— y que esa lógica, aplicada al problema de la Sombra y el Ego, obliga a elegir entre Sombra-anidada y Sombra-disjunta, sin término medio cómodo. Sabemos también que la física cuántica tiene, en la monogamia del entrelazamiento, un precedente serio para la intuición de que la integración máxima no se reparte entre varios centros a la vez.
 

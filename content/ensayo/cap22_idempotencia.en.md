@@ -92,7 +92,7 @@ The immune system is, in essence, a mechanism dedicated entirely to a single pro
 
 Neither total attack nor total tolerance is health. Health is a boundary that knows how to filter: that lets oxygen, food, and useful information pass, and selectively stops what threatens to dissolve the identity of the entire system. No one would describe a healthy immune system as one that has "eliminated its membrane" to stop discriminating between self and other; we would describe it, with good reason, as dead. Immunological maturity is not the disappearance of the boundary. It is its refinement.
 
-This is, word for word, what Jungian Individuation asked of us in the previous chapter when we spoke of a horizon that "becomes permeable without losing its coherence." Now we have, in addition to the metaphor, the mechanism: a mature boundary is not a weaker boundary, it is a boundary with better receptors. It knows what to let pass from the Shadow—what projections to recognize as its own, what impulses to reintegrate without threatening the Ego's identity—without needing, to do so, to swallow the entire Shadow and convert it into undifferentiated self-tissue. There remain two horizons. What changes is the quality of the customs connecting them.
+This is, word for word, what Jungian Individuation asked of us in Chapter 21 when we spoke of a horizon that "becomes permeable without losing its coherence." Now we have, in addition to the metaphor, the mechanism: a mature boundary is not a weaker boundary, it is a boundary with better receptors. It knows what to let pass from the Shadow—what projections to recognize as its own, what impulses to reintegrate without threatening the Ego's identity—without needing, to do so, to swallow the entire Shadow and convert it into undifferentiated self-tissue. There remain two horizons. What changes is the quality of the customs connecting them.
 
 ## VIII.
 
@@ -100,7 +100,7 @@ The limit that, closing upon itself, says for the first time "I am."
 
 ---
 
-### Note to Chapter 22
+### Note to Chapter 23
 
 **What we do know:** that the event horizon, information encapsulation, the cell membrane, and topological closure share the same formal logic—the boundary does not separate, it constitutes—and that this logic, applied to the problem of the Shadow and the Ego, forces a choice between Shadow-nested and Shadow-disjoint, with no comfortable middle ground. We also know that quantum physics has, in the monogamy of entanglement, a serious precedent for the intuition that maximum integration is not distributed among several centers at once.
 
