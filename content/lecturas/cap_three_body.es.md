@@ -2,7 +2,7 @@
 title: EL BOSQUE OSCURO Y EL COLAPSO HOLOGRÁFICO
 subtitle: (Una lectura topológica de El Problema de los Tres Cuerpos)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 31
+chapterNumber: 32
 illustrationId: il_threebody
 illustrationTitle: El colapso holográfico
 illustrationDescription: Una enorme hoja bidimensional dorada y brillante aplana lentamente un sistema solar con planetas y soles incandescentes en un espacio profundo tridimensional lleno de líneas de coordenadas.

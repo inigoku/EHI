@@ -35,6 +35,7 @@ const ORDER = [
   "poema_frialdad4",
   "poema_frialdad5",
   "poema_frialdad6",
+  "poema_sintonizadores",
   "poema_recon1",
   "poema_recon2",
   "poema_recon3",

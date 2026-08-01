@@ -1,7 +1,7 @@
 ---
 title: EL QUE QUEDA
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 27
+chapterNumber: 28
 linkedCuentosId: cuento16
 illustrationId: il_el_que_queda
 illustrationTitle: El que queda

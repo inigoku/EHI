@@ -1,7 +1,7 @@
 ---
 title: THE TUNERS
 chapterNumber: 18
-linkedChapterId: cap2
+linkedChapterId: cap22_idempotencia
 illustrationId: cuento_sintonizadores
 illustrationTitle: The three shores
 illustrationDescription: A vertical triptych joined by a golden horizon line: above, a pile-dwelling village by a lagoon with an arm sunk in the water; in the center, an isolation tank with a silhouette suspended in dark liquid facing a city; below, ruins wrapped in fog on a mountain.
@@ -47,6 +47,16 @@ Mateu never heard it. That was what he decided.
 He did the only thing he knew how to do and that Gaff did not know, or did not want to do: instead of pulling toward himself, he pushed inward. An asymmetric, unilateral coupling, with no return: he pressed his own horizon—alive, whole—against the wise man's residue, and wrapped it, and carried it into his own structure before Gaff could close his hand.
 
 It cost what Bernat had always said it would cost to do that alive and not dead: a tear that does not close. Mateu came out of the water with the wise man's phrase hidden in some fold of himself that he himself could not read, and with a new and permanent tension behind his eyes, like a rope taut for life between two posts that no longer coincide.
+
+Bernat did not ask him what he had done. He stood looking at him for a long time, with that way of looking of his that was half diagnosis and half mourning, and in the end he spoke like someone correcting an apprentice who had passed the wrong exam.
+
+—You wanted to keep it inside you. As if it could become part of you, one more room in your own house.
+
+—I have kept it —said Mateu, water still dripping from his arms—. There it is. It hasn't gone anywhere.
+
+—There it is, yes. But not inside. —Bernat touched his temple, not with affection but with the precision of someone pointing to a spot on a map—. What is kept whole, undistributed, always stays beside you. Never inside. You can carry a neighbor with you for a lifetime, Mateu. You cannot turn them into a room in your own house without one of the two ceasing to be who they were, and you have not let the wise man cease to be the wise man, nor have you ceased to be you. That is why it hurts. If it had truly mixed with you, you wouldn't feel anything strange behind your eyes: you would simply be, without further ado, a little different. What you feel there is the proof that he remains another, stuck to you, not distributed in you.
+
+Mateu never asked him again if that was good or bad. Over the years he would understand that Bernat was right about something he hadn't known how to explain to him that night: that the tension behind his eyes was not the weight of another's phrase floating inside his head, but the daily proof that two horizons can touch, brush, pull on each other for whole decades, and stubbornly remain two.
 
 —You have hidden what we were looking for inside your own head —said Gaff, without anger, almost with professional curiosity—. That is not reading. That is burying yourself alive with the dead man.
 

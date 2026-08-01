@@ -1,7 +1,7 @@
 ---
 title: EL HORIZONTE HERIDO
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 23
+chapterNumber: 24
 linkedCuentosId: cuento14
 illustrationId: il_herido
 illustrationTitle: La frontera herida

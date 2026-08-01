@@ -37,7 +37,8 @@ export const cuentoToPoema: Record<string, string> = {
   cuento_ladron: "poema_glosario",    // EL LADRÓN DE INTERIORES → GLOSARIO ÍNTIMO
   cuento_luthier: "poema_arq3",       // LA TIENDA DEL LUTHIER → EL LUTHIER
   cuento_mussara: "poema_frialdad4",  // LA NIEBLA DE LA MUSSARA → VILLANCICO CIBERNÉTICO
-  // cuento_sintonizadores y cuento_txiki quedan sin poema asignado (coda y caso especial).
+  cuento_sintonizadores: "poema_sintonizadores", // LOS SINTONIZADORES → EL NUDO DE LA MEZCLA
+  // cuento_txiki queda sin poema asignado (coda especial).
 };
 
 // Mapa inverso: poema → cuento que lo propone en el recorrido.

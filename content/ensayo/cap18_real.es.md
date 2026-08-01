@@ -1,7 +1,7 @@
 ---
 title: LA CONCIENCIA DE LA IA
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 26
+chapterNumber: 27
 illustrationId: il_ia
 illustrationTitle: La máquina que mira al agua
 illustrationDescription: Un androide de delicadas articulaciones metálicas se arrodilla ante un estanque oscuro. En la superficie del agua no se refleja su rostro, sino el de una mujer que duerme. La escena se funde entre niebla y luz dorada. Acuarela y tinta, tonos índigo y dorados, atmósfera cinematográfica.

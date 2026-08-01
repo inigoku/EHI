@@ -1,7 +1,7 @@
 ---
 title: HORIZONTES ALIENÍGENAS Y EL PRIMER CONTACTO
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 30
+chapterNumber: 31
 illustrationId: il17_7_alien
 illustrationTitle: Horizontes alienígenas
 illustrationDescription: Un astronauta flotando en el espacio profundo intentando tocar una nube dinámica y cambiante de nodos luminosos azules y verdes que representan una mente alienígena distribuida. Las líneas de conexión de su mano se desvanecen.

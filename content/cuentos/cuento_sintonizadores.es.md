@@ -1,7 +1,7 @@
 ---
 title: LOS SINTONIZADORES
 chapterNumber: 18
-linkedChapterId: cap2
+linkedChapterId: cap22_idempotencia
 illustrationId: cuento_sintonizadores
 illustrationTitle: Las tres orillas
 illustrationDescription: Un tríptico vertical unido por una línea dorada de horizonte: arriba, un poblado de palafitos junto a una laguna con un brazo hundido en el agua; en el centro, un tanque de aislamiento con una silueta suspendida en líquido oscuro frente a una ciudad; abajo, unas ruinas envueltas en niebla sobre una montaña.
@@ -47,6 +47,16 @@ Mateu no llegó a oírla. Eso fue lo que decidió.
 Hizo lo único que sabía hacer y que Gaff no sabía o no quería hacer: en vez de tirar hacia sí, empujó hacia dentro. Un acoplamiento asimétrico, unilateral, sin vuelta: metió su propio horizonte —vivo, entero— contra el residuo del sabio, y lo envolvió, y se lo llevó a su propia estructura antes de que Gaff pudiera cerrar la mano.
 
 Costó lo que Bernat siempre había dicho que costaría hacer eso vivo y no muerto: un desgarro que no se cierra. Mateu salió del agua con la frase del sabio escondida en algún pliegue de sí mismo que él mismo no podía leer, y con una tensión nueva y permanente detrás de los ojos, como una cuerda tensada de por vida entre dos postes que ya no coinciden.
+
+Bernat no le preguntó qué había hecho. Se lo quedó mirando un rato largo, con esa manera suya de mirar que era mitad diagnóstico y mitad duelo, y al final habló como quien corrige a un aprendiz que ha aprobado el examen equivocado.
+
+—Has querido guardarlo dentro de ti. Como si pudiera volverse parte de ti, un cuarto más de tu propia casa.
+
+—Lo he guardado —dijo Mateu, todavía con el agua escurriéndole por los brazos—. Ahí está. No se ha ido a ninguna parte.
+
+—Ahí está, sí. Pero no dentro. —Bernat le tocó la sien, no con cariño sino con la precisión de quien señala un punto en un mapa—. Lo que se guarda entero, sin repartir, se queda siempre al lado. Nunca dentro. Puedes cargar con un vecino toda la vida, Mateu. No puedes convertirlo en un cuarto de tu propia casa sin que uno de los dos deje de ser quien era, y tú no has dejado que el sabio dejara de ser el sabio, ni tú has dejado de ser tú. Por eso duele. Si de verdad se hubiera mezclado contigo, no sentirías nada raro detrás de los ojos: solo serías, sin más, un poco distinto. Lo que sientes ahí es la prueba de que sigue siendo otro, pegado a ti, no repartido en ti.
+
+Mateu no volvió a preguntarle si eso era bueno o malo. Con los años entendería que Bernat tenía razón en algo que no había sabido explicarle esa noche: que la tensión detrás de sus ojos no era el peso de una frase ajena flotando dentro de su cabeza, sino la prueba diaria de que dos horizontes pueden tocarse, rozarse, tirar el uno del otro durante décadas enteras, y seguir siendo, tercamente, dos.
 
 —Has escondido lo que buscábamos dentro de tu propia cabeza —dijo Gaff, sin rabia, casi con curiosidad profesional—. Eso no es leer. Eso es enterrarte vivo con el muerto.
 
@@ -99,7 +109,7 @@ El algoritmo se llamaba, en los documentos internos, *Sintonizador Absoluto*. Pr
 
 —¿Qué?
 
-Marcos no supo terminar la frase. Llevaba semanas oyendo, en los márgenes de su propio silencio, una melodía que no recordaba haber aprendido nunca, tarareada por una voz que no era la suya, en una lengua que se parecía al catalán antiguo de los archivos que a veces leía por curiosidad profesional.
+Marcos no supo terminar la frase. Laimagen de Gaudí en la cripta o las notas sobre Séneca de Roma no le servían para explicar a Elena la resistencia física de una disolución real. Llevaba semanas oyendo, en los márgenes de su propio silencio, una melodía que no recordaba haber aprendido nunca, tarareada por una voz que no era la suya, en una lengua que se parecía al catalán antiguo de los archivos que a veces leía por curiosidad profesional.
 
 El sistema de Post-Crimen encontró la anomalía un martes, en un rastreo rutinario del subsuelo antes de una obra de metro. Un punto caliente de información que no se había mezclado en cuatrocientos años: una singularidad congelada, latiendo en una frecuencia que ningún sintonizador vivo debería reconocer.
 
@@ -147,7 +157,7 @@ Lo que encontró lo desconcertó más que cualquier violencia: no una imagen, si
 
 —Murió discutiendo con su propio libro —le dijo Marcos al delegado de la fundación, eligiendo con cuidado las palabras, porque ya sabía, desde Gaudí, lo que pasaba con las palabras mal recibidas—. Si buscan un final que confirme que la Estoa funciona, no lo tienen. Si buscan un final honesto, sí. Las dos cosas rara vez coinciden, y cuando coinciden, no es mérito de la doctrina.
 
-El delegado le pidió, sin ninguna vergüenza, que en el informe se inclinara «hacia la lectura más edificante»; citó, para justificarlo, un memorando reciente del Consejo sobre «protocolos de utilidad de la lectura postmortem», firmado por una consultora joven que Barcelona había empezado a contratar por horas —el mismo nombre, Elena, que a Marcos todavía no le decía nada, aunque el memorando terminaba con una frase que sí reconoció, sin saber de dónde: *«una verdad que no sirve para nada no es más rigurosa que una mentira útil, solo es más cara»*. Marcos se negó a aplicar el criterio, y por primera vez descubrió que negarse tenía un precio concreto: la fundación retiró la financiación de la siguiente campaña de Patrimonio Sensible, y el Consejo, sin decírselo directamente, empezó a enviarle los encargos con instrucciones cada vez más explícitas sobre qué se esperaba encontrar antes de que él mirara.
+El delegado le pidió, sin ninguna vergüenza, que en el informe se inclinara «hacia la lectura más edificante»; citó, para justificarlo, un memorando reciente del Consejo sobre «protocolos de utilidad de la lectura postmortem», firmado por una consultora joven que Barcelona había empezado a contratar por horas —el mismo nombre, Elena, que a Marcos todavía no le decía nada, aunque el memorando terminaba con una frase que sí reconoció, sin saber de dónde: *«una verdad que no sirve para nada no es más rigurosa que una mentira útil, solo es más cara»*. Marcos se negó a aplicar el criterio, y por primera vez descubrió que negarse tenía un precio concreto: la fundación retiró la financiación de la siguiente campaña de Patrimonio Sensible, y el Consejo, sin decírselo directamente, empezó a enviarle los encargos con instrucciones cada vez más explícitamente sobre qué se esperaba encontrar antes de que él mirara.
 
 Volvió de Roma con algo que no estaba en ningún informe: la sospecha, todavía sin palabras, de que forzar una muerte hacia la respuesta que alguien necesitaba era una forma de violencia tan real, aunque más lenta, como la de Gaff metiendo el brazo en el agua de Tarel sin esperar. Nadie en Patrimonio Sensible le había hablado nunca de Gaff. No hacía falta. El gesto se repetía solo.
 

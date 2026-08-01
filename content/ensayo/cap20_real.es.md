@@ -1,7 +1,7 @@
 ---
 title: EL EXPERIMENTO COMO PRÁCTICA
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 37
+chapterNumber: 38
 illustrationId: il_practica
 illustrationTitle: El experimento como práctica
 illustrationDescription: Un niño construyendo castillo de arena. Torres, fosos, puentes. Al fondo, el océano que lo devorará. El niño lo sabe, y aun así construye. En la arena, huella de mano pequeña.
