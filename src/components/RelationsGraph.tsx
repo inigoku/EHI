@@ -174,6 +174,9 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
   const poemaNodes = React.useMemo(() => {
     return poemasList.map((poema) => {
       const parentId = (() => {
+        if (poema.id === "poema_sintonizadores") {
+          return "cap22_idempotencia";
+        }
         if (poema.id.startsWith("poema_arq")) {
           const num = parseInt(poema.id.replace("poema_arq", ""));
           const mapping: Record<number, string> = {

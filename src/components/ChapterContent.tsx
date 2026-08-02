@@ -1431,6 +1431,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               ? t.reconOf(chapter.chapterNumber.replace("R", ""))
               : chapter.id === "poema_glosario"
               ? t.poemGlossaryLabel
+              : chapter.id === "poema_sintonizadores"
+              ? t.poemFrialdadOf("7")
               : chapter.id.startsWith("poema_arq")
               ? t.poemLinkOf(chapter.id.replace("poema_arq", ""))
               : chapter.id.startsWith("poema_frialdad")
