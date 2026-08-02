@@ -2,7 +2,7 @@
 title: CARTOGRAFÍA DE TRES SINGULARIDADES
 subtitle: (Una lectura topológica de Dalí, Picasso y Miró)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 35
+chapterNumber: 36
 illustrationId: il_singularidades
 illustrationTitle: Cartografía de tres singularidades
 illustrationDescription: Tres horizontes de sucesos de naturaleza distinta —una cápsula sellada, un prisma en superposición perpetua y un cosmos disuelto en constelaciones— orbitándose mutuamente sobre un fondo de estrellas.

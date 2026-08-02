@@ -2,7 +2,7 @@
 title: LÁGRIMAS EN LA LLUVIA Y EL UNICORNIO SINTÉTICO
 subtitle: (La independencia de sustrato y la caducidad del horizonte)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 30
+chapterNumber: 31
 illustrationId: il_runner
 illustrationTitle: El unicornio sintético
 illustrationDescription: Un unicornio de origami de papel de aluminio brillante se posa sobre el asfalto mojado de una calle futurista lluviosa y oscura con reflejos de neón de tonos azules y rosa.

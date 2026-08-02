@@ -1,7 +1,7 @@
 ---
 title: LAS MASCOTAS Y EL HORIZONTE
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 25
+chapterNumber: 26
 linkedCuentosId: cuento15
 illustrationId: il_mascotas
 illustrationTitle: El perro y el puente invisible

@@ -6,6 +6,7 @@ const ORDER = [
   "cap18_6",
   "cap18_7",
   "cap22_idempotencia",
+  "cap23_experimentos_mentales",
   "cap16_real",
   "cap17_real",
   "cap17_5_real",

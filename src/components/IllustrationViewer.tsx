@@ -117,6 +117,8 @@ import imgSingularidades from "../assets/images/ilustracion_singularidades.png";
 import imgIdempotencia from "../assets/images/ilustracion_idempotencia.jpg";
 // @ts-ignore
 import imgPoemaSintonizadores from "../assets/images/ilustracion_poema_sintonizadores.jpg";
+// @ts-ignore
+import img23_1 from "../assets/images/ilustracion_23_1.jpg";
 
 // Import Cuentos illustrations
 // @ts-ignore
@@ -272,6 +274,7 @@ const imageMap: Record<string, string> = {
   il_singularidades: imgSingularidades,
   il22_1: imgIdempotencia,
   poema_sintonizadores: imgPoemaSintonizadores,
+  il23_1: img23_1,
 
   // "Cartografía de tres singularidades" — public reference images of the
   // actual paintings discussed (hotlinked from Wikipedia/Wikimedia Commons)

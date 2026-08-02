@@ -1,7 +1,7 @@
 ---
 title: ADOLFO CAMBIASO Y LA YEGUA QUE NO CABE EN EL ADN
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 29
+chapterNumber: 30
 illustrationId: il_clon
 illustrationTitle: El clon y el horizonte
 illustrationDescription: Un jinete y una yegua en el centro de una cancha de polo al atardecer. A su alrededor, varias yeguas idénticas esperan en la penumbra, como ecos de la misma forma. Entre el jinete y la yegua central flota una red tenue de líneas doradas: la geometría de un vínculo que no se puede trasladar. Acuarela y tinta, tonos índigo y dorados.
