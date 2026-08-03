@@ -164,7 +164,7 @@ La hipótesis no puede confirmar ni descartar esto. Deja la puerta abierta. Y a 
 
 ---
 
-> **Nota al Capítulo 36**
+> **Nota al Capítulo 38**
 >
 > **Lo que sí sabemos:** El experimento tiene cinco límites claros. Reconocerlos es fortaleza, no debilidad.
 >
