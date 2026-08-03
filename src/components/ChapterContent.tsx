@@ -6,6 +6,7 @@ import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw } from "luci
 import { motion, AnimatePresence } from "motion/react";
 import { Language, uiStrings } from "../i18n";
 import { PhiSimulator } from "./PhiSimulator";
+import { NarrationPlayer } from "./NarrationPlayer";
 import { HorizonSimulator } from "./HorizonSimulator";
 import { EntanglementSimulator } from "./EntanglementSimulator";
 // @ts-ignore
@@ -907,6 +908,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               📖 {t.readRelatedEssay}: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
             </button>
           </div>
+        )}
+        {readingMode === "cuentos" && (
+          <NarrationPlayer chapterId={chapter.id} language={language === "en" ? "en" : "es"} />
         )}
         {readingMode === "essay" && chapter.linkedCuentosId && (
           <div className="pt-2">

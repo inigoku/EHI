@@ -1,0 +1,2 @@
+Los .mp3 generados por scripts/generate_narration.py van aquí. No se
+versionan (ver .gitignore) porque son binarios grandes y regenerables.

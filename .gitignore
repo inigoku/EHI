@@ -6,3 +6,6 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Audio narrado generado por scripts/generate_narration.py (binario, regenerable)
+public/audio/*.mp3
