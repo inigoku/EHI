@@ -29,7 +29,7 @@ Antes de que esas conexiones alcancen el córtex definitivo, existe el **subplat
 Entre las semanas 28 y 32 aparece en el EEG fetal una firma eléctrica única: los **delta brushes**. Ondas lentas de gran amplitud con ráfagas de actividad rápida superpuestas, como si el cerebro tocara simultáneamente dos registros temporales distintos. La hipótesis más consolidada es que el cerebro fetal las usa para testear y reforzar sus propias conexiones antes de que el mundo exterior empiece a configurarlas. Es actividad endógena —generada desde dentro, no como respuesta a estímulo externo.
 
 > **En física esto se llama:** actividad endógena, auto-verificación de correlaciones.  
-> **En la vida diaria es como:** un músico que afinando su instrumento antes de que empiece la orquesta.
+> **En la vida diaria es como:** un músico afinando su instrumento antes de que empiece la orquesta.
 
 El horizonte que se examina a sí mismo, verificando que las correlaciones que construye son coherentes, antes de abrirse al input sensorial masivo que llegará con el nacimiento.
 
@@ -65,11 +65,11 @@ Desde la perspectiva de la ingeniería de software y la teoría de la encapsulac
 > **En física esto se llama:** punto crítico, donde las propiedades del sistema cambian cualitativamente aunque las variables locales cambien continuamente.  
 > **En la vida diaria es como:** el punto de ebullición del agua: la temperatura sube de forma continua, pero en 100 grados algo cualitativamente nuevo ocurre.
 
-### La cuarta trimestre
+### El cuarto trimestre
 
 Los humanos somos una paradoja evolutiva. Nacemos tan inmaduros que, comparados con otros mamíferos, parecemos fetos que salieron demasiado pronto. Un potrillo nace y en pocas horas trota junto a su madre. Un cachorro de lobo abre los ojos a las dos semanas y empieza a explorar a las tres. Un bebé humano no sostiene su cabeza hasta los tres meses, no gatea hasta los nueve, no camina hasta el año.
 
-La razón es biomecánica: el canal del parto humano es estrecho porque caminamos erguidos, y la cabeza fetal no puede crecer más sin hacer imposible el nacimiento. La evolución resolvió el dilema de la manera más drástica: sacar al feto antes de que el cerebro termine de desarrollarse. El primer año de vida extrauterina es, en muchos sentidos, una continuación del desarrollo fetal. Los neurocientíficos lo llaman la "cuarta trimestre": un periodo en que el cerebro sigue construyendo sus conexiones a un ritmo vertiginoso, pero ahora con input sensorial del mundo exterior.
+La razón es biomecánica: el canal del parto humano es estrecho porque caminamos erguidos, y la cabeza fetal no puede crecer más sin hacer imposible el nacimiento. La evolución resolvió el dilema de la manera más drástica: sacar al feto antes de que el cerebro termine de desarrollarse. El primer año de vida extrauterina es, en muchos sentidos, una continuación del desarrollo fetal. Los neurocientíficos lo llaman el "cuarto trimestre": un periodo en que el cerebro sigue construyendo sus conexiones a un ritmo vertiginoso, pero ahora con input sensorial del mundo exterior.
 
 > **En física esto se llama:** compromiso evolutivo, solución de trade-off entre variables incompatibles.  
 > **En la vida diaria es como:** un edificio al que le falta la fachada pero ya tiene los cimientos: habita, pero no está terminado.
@@ -84,7 +84,7 @@ El parto no es una transición pasiva. Es un evento biológico violento, coordin
 
 Durante el trabajo de parto, tanto la madre como el feto experimentan un pico masivo de cortisol —la hormona del estrés. En cualquier otro contexto, este nivel de cortisol sería patológico. En el parto, es necesario. El cortisol fetal acelera la maduración pulmonar, estimula la producción de surfactante —la sustancia que permite que los pulmones se abran al primer aliento— y reorganiza el sistema cardiovascular para soportar la vida fuera de la placenta.
 
-El primer llanto no es emoción. Es química. Es el diafragma contrayéndose por primera vez, forzando aire en pulmones que nunca antes se han abierto. La primera respiración rompe el circuito fetal: la sangre deja de fluir por el ductus arterioso y el foramen oval —dos atajos que bypassaban los pulmones en el útero— y empieza a circular por el sistema pulmonar. En cuestión de minutos, la fisiología del feto se convierte en la del recién nacido.
+El primer llanto no es emoción. Es química. Es el diafragma contrayéndose por primera vez, forzando aire en pulmones que nunca antes se han abierto. La primera respiración rompe el circuito fetal: la sangre deja de fluir por el ductus arterioso y el foramen oval —dos atajos que evitaban los pulmones en el útero— y empieza a circular por el sistema pulmonar. En cuestión de minutos, la fisiología del feto se convierte en la del recién nacido.
 
 > **En física esto se llama:** transición de fase inducida por perturbación, quench.  
 > **En la vida diaria es como:** un cristal que se forma cuando se agita la solución: la perturbación es necesaria para que ocurra la transición.
@@ -118,7 +118,7 @@ Los mamíferos marinos presentan un caso inverso. Las ballenas y delfines nacen 
 > **En física esto se llama:** diferentes puntos críticos en sistemas con parámetros de control distintos.  
 > **En la vida diaria es como:** agua que hierve a distintas temperaturas según la presión: la transición es la misma, pero las condiciones cambian.
 
-Los cuervos, que poseen inteligencia comparable a la de los grandes simios, presentan un patrón de desarrollo cerebral muy diferente al de los mamíferos. Su pallium —la estructura equivalente al córtex— se organiza de manera distinta, sin las seis capadas laminares que caracterizan a los mamíferos. Si la conciencia requiere cierto tipo de arquitectura, los cuervos sugieren que hay múltiples caminos para llegar a ella. Si no la requiere, entonces el criterio debe ser más profundo que la anatomía.
+Los cuervos, que poseen inteligencia comparable a la de los grandes simios, presentan un patrón de desarrollo cerebral muy diferente al de los mamíferos. Su pallium —la estructura equivalente al córtex— se organiza de manera distinta, sin las seis capas laminares que caracterizan a los mamíferos. Si la conciencia requiere cierto tipo de arquitectura, los cuervos sugieren que hay múltiples caminos para llegar a ella. Si no la requiere, entonces el criterio debe ser más profundo que la anatomía.
 
 ### La paradoja del gusano y el feto
 
