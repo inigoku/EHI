@@ -51,6 +51,8 @@ Un conjunto no es solo una lista de elementos: es una lista dotada de una noció
 > **En física esto se llama:** clausura topológica e idempotencia: cerrar un conjunto una vez lo completa; cerrarlo una segunda vez no añade nada.
 > **En la vida diaria es como:** una puerta que ya encajaba bien en su marco. Volver a cerrarla no la deja "más cerrada"; o está cerrada, o no lo está.
 
+El objeto de software de la sección III y esta clausura topológica no comparten solo la afición por esconder cosas: comparten, sin que lo hayamos buscado, la misma palabra. En programación funcional, un *closure* es una función empaquetada junto con las variables de su entorno en el momento exacto de crearse —cierra sobre ese entorno, y da igual cuántas veces se la vuelva a invocar después: no va a capturar nada nuevo del contexto original, que puede incluso haber dejado de existir. No es la misma operación matemática que la clausura de un conjunto —una cierra funciones sobre su entorno léxico, la otra cierra conjuntos sobre sus puntos de acumulación—, pero el parecido no es casualidad de diccionario: las dos describen lo mismo con otro vocabulario, algo que empaqueta en el instante de nacer todo lo que necesitará para no depender nunca más de dónde vino.
+
 ## V. Introducción formal a la clausura topológica
 
 Antes de construir los puentes, y para que nadie tenga que tomar la palabra de este libro sin poder verificarla, vale la pena decir con precisión qué es exactamente una clausura, en vez de dejarla solo como imagen.

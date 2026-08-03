@@ -46,6 +46,8 @@ A set is not just a list of elements: it is a list endowed with a notion of clos
 > **In physics this is called:** topological closure and idempotency: closing a set once completes it; closing it a second time adds nothing.
 > **In daily life it is like:** a door that already fit well in its frame. Closing it again does not leave it "more closed"; either it is closed, or it is not.
 
+The software object from section III and this topological closure don't just share a fondness for hiding things: they share, without our having looked for it, the very same word. In functional programming, a *closure* is a function packaged together with the variables of its environment at the exact moment it is created—it closes over that environment, and no matter how many times it's invoked afterward, it will never capture anything new from the original context, which may by then no longer even exist. It is not the same mathematical operation as the closure of a set—one closes functions over their lexical environment, the other closes sets over their accumulation points—but the resemblance is not a dictionary coincidence: both describe the same thing in different vocabularies, something that packages at the instant of its birth everything it will ever need, so as never again to depend on where it came from.
+
 ## V. Formal Introduction to Topological Closure
 
 Before building the bridges, and so that no one has to take this book's word without being able to verify it, it is worthwhile to say precisely what a closure is, rather than leaving it only as an image.
