@@ -125,7 +125,7 @@ Pero si la información cae en un agujero negro y el agujero emite radiación t�
 
 Hawking apostó —literalmente, con una enciclopedia— a que la información sí se destruía. Leonard Susskind apostó a que no. Duró décadas. En 2004, Hawking admitió que había perdido la apuesta. La información no se destruye. Pero tampoco sale de manera sencilla. Se scramblea: se mezcla, se distribuye, se convierte en correlaciones tan complejas entre todas las partículas de la radiación que reconstruirla requeriría medir cada partícula emitida y sus correlaciones cuánticas. La información está ahí, pero está escondida en el ruido.
 
-> **En física esto se llama:** paradoja de la información de Hawking, complementariedad de black holes, principio holográfico como resolución.  
+> **En física esto se llama:** paradoja de la información de Hawking, complementariedad de agujeros negros, principio holográfico como resolución.  
 > **En la vida diaria es como:** una carta que metes en una trituradora industrial: la información no desaparece, se mezcla. En principio es posible. En la práctica, es imposible. La información existe, pero está scrambled.
 
 ---
