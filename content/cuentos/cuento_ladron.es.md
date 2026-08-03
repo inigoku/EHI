@@ -72,14 +72,13 @@ La séptima cerradura se abría con la mano desnuda.
 
 No pedía herramienta, ni paciencia, ni nada que había sido requerido antes. Pedía solo que él pusiera la palma abierta sobre ella y esperara. El ladrón puso la mano. Sintió bajo la piel algo que latía como un ser vivo. Y por un instante tuvo la certeza de que al otro lado de aquella última lámina no había un objeto, que lo que fuera que la casa guardaba tras siete cerraduras no era una cosa que pudiera sacarse y llevarse.
 
-Así que apretó la palma... y la cerradura cedió.
-¡Y la caja desapareció!
+Apretó la palma. La cerradura cedió. Y la caja desapareció.
 
 En el instante exacto en que la última barrera se rendía, la caja entera —todo, dentro y fuera— dejó de estar, como si nunca hubiese estado. No quedó hueco en el aire ni marca en la mesa. No quedó nada que robar, porque ya no había un dentro del que sacarlo.
 
 El ladrón se quedó con la palma abierta sobre el sitio donde había estado la caja muy quieto, como delante de la sexta cerradura, y entendió, sin palabras, porque hay cosas que no se pueden decir, por qué había desaparecido.
 
-Entendió que tesoro no estaba dentro de la caja, sino que era el adentro.Y que al abrirlo del todo, lo había hecho desaparecer.
+Entendió que el tesoro no estaba dentro de la caja, sino que era el adentro. Y que al abrirlo del todo, lo había hecho desaparecer.
 
 Bajó la mano y salió de la casa al final de la ciudad al final del camino con las manos vacías, que en algunas ciudades es la única manera honesta de volver de ciertos sitios.
 
