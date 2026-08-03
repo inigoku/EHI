@@ -65,7 +65,7 @@ Si la conciencia funciona así, las conciencias más simples "operarían" a ritm
 
 ### ⑤ La identidad está en todas partes a la vez
 
-Lo que hace que este agujero negro sea este agujero negro está codificado en las correlaciones entre todas las partes de su horizonte. No hay un "centro" del agujero donde guardar un archivo que diga "soy el agujero número 7". Su identidad está distribuida, holográfica, presente en cada punto de la superficie como la melodía está presente en cada fragmento de la partitura —not completamente, pero suficientemente como para reconstruir el todo.
+Lo que hace que este agujero negro sea este agujero negro está codificado en las correlaciones entre todas las partes de su horizonte. No hay un "centro" del agujero donde guardar un archivo que diga "soy el agujero número 7". Su identidad está distribuida, holográfica, presente en cada punto de la superficie como la melodía está presente en cada fragmento de la partitura —no completamente, pero suficientemente como para reconstruir el todo.
 
 Lo que hace que tú seas tú no está en ninguna neurona concreta, sino en el patrón de cómo se relacionan todas. Si reemplazaras tus neuronas una por una con réplicas exactas funcionales, seguirías siendo tú. Si las desconectaras todas y las volvieras a conectar al azar, ya no serías tú —aunque las mismas neuronas estuvieran ahí. La identidad no es sustancia: es relación. No eres los ingredientes: eres la receta. Y la receta no pesa.
 
