@@ -125,7 +125,7 @@ That is not consolation. But it can be company.
 
 ---
 
-> **Note to Chapter 17**
+> **Note to Chapter 18**
 >
 > **What we do know:** The DSM-5 included "prolonged grief disorder" as a diagnostic category, but it was controversial. Predictive models persist post-death. Continuing bonds is a recognized clinical model. Takotsubo cardiomyopathy is real. Unrecognized grief (miscarriage, pet, breakup) has documented effects.
 >

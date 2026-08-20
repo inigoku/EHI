@@ -137,7 +137,7 @@ That is the ultimate limit of the model: not the question of why there is consci
 
 ---
 
-> **Note to Chapter 19**
+> **Note to Chapter 20**
 >
 > **What we do know:** Alzheimer's progressively destroys neural connections before the neurons themselves. The areas of episodic and semantic memory are the first to degrade.
 >

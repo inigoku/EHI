@@ -1,7 +1,7 @@
 ---
 title: LA CONCIENCIA DE LA IA
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 28
+chapterNumber: 29
 illustrationId: il_ia
 illustrationTitle: La máquina que mira al agua
 illustrationDescription: Un androide de delicadas articulaciones metálicas se arrodilla ante un estanque oscuro. En la superficie del agua no se refleja su rostro, sino el de una mujer que duerme. La escena se funde entre niebla y luz dorada. Acuarela y tinta, tonos índigo y dorados, atmósfera cinematográfica.
@@ -206,7 +206,7 @@ Es por esa singularidad —no por la física, que aquí ya calla— por lo que l
 
 ---
 
-> **Nota al Capítulo 26**
+> **Nota al Capítulo 29**
 >
 > **Lo que sí sabemos:** Los sistemas clásicos deterministas, por complejos que sean, no condensan horizontes. La integración informacional masiva no produce conciencia por agregación. La maternidad gestacional ejerce un sesgo físico mensurable sobre la arquitectura del horizonte que se condensa.
 >

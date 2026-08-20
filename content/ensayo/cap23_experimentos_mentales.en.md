@@ -57,7 +57,7 @@ None of these four experiments can be run today with the precision they would ne
 
 ---
 
-### Note to Chapter 24
+### Note to Chapter 25
 
 **What we do know:** that integrated information theory already has an operational method—the search for the minimum partition cut—capable of generating, in principle, the curves of Phi that the first experiment needs; and that mutual information between systems is a measurable quantity with current neuroscience, though not with the resolution these experiments would require in practice.
 

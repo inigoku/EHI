@@ -1,7 +1,7 @@
 ---
 title: LAS MASCOTAS Y EL HORIZONTE
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 26
+chapterNumber: 27
 linkedCuentosId: cuento15
 illustrationId: il_mascotas
 illustrationTitle: El perro y el puente invisible
@@ -176,7 +176,7 @@ No somos dueños de nuestras mascotas. Somos, durante un tiempo breve, compañer
 
 ---
 
-> **Nota al Capítulo 24**
+> **Nota al Capítulo 27**
 >
 > **Lo que sí sabemos:** Que los animales con sistema límbico completo poseen horizonte propio, aunque de menor complejidad que el humano. Que la co-evolución con el perro ha producido una legibilidad mutua única. Que el cerebro humano puede canalizar la arquitectura del cuidado parento-filial hacia una mascota con intensidad bioquímica comparable. Que el maltrato animal deja huella estructural real en el animal y atrofía la empatía de quien lo ejerce. Que el duelo por mascota es un colapso geométrico genuino, a menudo agravado por la falta de reconocimiento social.
 >

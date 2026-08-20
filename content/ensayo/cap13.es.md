@@ -1,7 +1,7 @@
 ---
 title: EL DUELO
 section: SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO
-chapterNumber: 17
+chapterNumber: 18
 linkedCuentosId: cuento10
 illustrationId: il17
 illustrationTitle: La arquitectura con un hueco
@@ -130,7 +130,7 @@ Eso no es consuelo. Pero puede ser compañía.
 
 ---
 
-> **Nota al Capítulo 17**
+> **Nota al Capítulo 18**
 >
 > **Lo que sí sabemos:** El DSM-5 incluyó "trastorno de duelo prolongado" como categoría diagnóstica, pero fue controvertido. Los modelos predictivos persisten post-muerte. El continuing bonds es un modelo clínico reconocido. La cardiomiopatía de takotsubo es real. El duelo no reconocido (aborto, mascota, ruptura) tiene efectos documentados.
 >

@@ -202,7 +202,7 @@ It is because of that singularity—not because of physics, which falls silent h
 
 ---
 
-> **Note to Chapter 26**
+> **Note to Chapter 29**
 >
 > **What we do know:** Deterministic classical systems, however complex, do not condense horizons. Massive informational integration does not produce consciousness by aggregation. Gestational motherhood exerts a measurable physical bias on the architecture of the horizon that condenses.
 >

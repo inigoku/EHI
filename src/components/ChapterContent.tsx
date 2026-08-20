@@ -1428,7 +1428,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
           <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
             {readingMode === "essay"
-              ? t.partOf(chapter.chapterNumber || uiStrings[language].header.interludio, 33)
+              ? t.partOf(chapter.chapterNumber || uiStrings[language].header.interludio, 34)
               : readingMode === "cuentos"
               ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))
               : readingMode === "reconstruccion"
