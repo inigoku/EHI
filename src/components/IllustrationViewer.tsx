@@ -114,6 +114,8 @@ import imgThreeBody from "../assets/images/ilustracion_trescuerpos.jpg";
 // @ts-ignore
 import imgSingularidades from "../assets/images/ilustracion_singularidades.png";
 // @ts-ignore
+import imgTraductor from "../assets/images/ilustracion_traductor.png";
+// @ts-ignore
 import imgIdempotencia from "../assets/images/ilustracion_idempotencia.jpg";
 // @ts-ignore
 import imgPoemaSintonizadores from "../assets/images/ilustracion_poema_sintonizadores.jpg";
@@ -272,6 +274,7 @@ const imageMap: Record<string, string> = {
   il_runner: imgRunner,
   il_threebody: imgThreeBody,
   il_singularidades: imgSingularidades,
+  il_traductor: imgTraductor,
   il22_1: imgIdempotencia,
   poema_sintonizadores: imgPoemaSintonizadores,
   il23_1: img23_1,
