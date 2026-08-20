@@ -62,10 +62,6 @@ There is no clean way to separate, in this case, commercial strategy from aesthe
 
 Almost everything said so far comes from Dalí, from his biographers, or from those who negotiated with Gala—never from her. There is one partial exception. Gala corresponded throughout her life with Dimitri Gomberg, the Moscow lawyer who married her mother when Gala was a child and whom she always called father. In a 1943 letter, already settled into her role beside Dalí, she describes herself in terms that might sound like traditional resignation—she says that, like every Russian woman, she personally tries to help her husband in everything—and then explains exactly what that help consists of: she poses as a model, acts as secretary for the practical side of their life, because he is entirely submerged in creative work and incapable of dealing with such matters. She closes with a sentence that could have been lifted from this very chapter: that she is not especially brilliant, but that they both work for the one thing that truly matters, the possibility for a talent to express itself.
 
-> **In physics this is called:** the system emitting, for once, a signal about its own internal state rather than about the object it observes.  
-> **In software this is called:** an internal debug log documenting, from inside the process itself, how a component is implemented—something that almost never shows up in the public API documentation.  
-> **In daily life it's like:** finding, among someone's papers, the explanation for why they did what they did—not someone else's theory about their life, but their own.
-
 It is the only time, among everything that survives, that Gala explains her function in her own words, and not before a gallerist or before posterity, but privately, to a stepfather on the other side of a world war. There is a second piece, this time on the input side, that Dalí himself put in writing. On finishing *The Persistence of Memory* in 1931, he watched Gala's face as she looked at the completed painting and saw in it—these are nearly his own words—the unmistakable contraction of wonder. That, he said, was what convinced him the image worked, because Gala was never wrong when judging the authenticity of an enigma.
 
 ## [ILUSTRACIÓN cart_relojes: "The Persistence of Memory"]
@@ -114,10 +110,6 @@ In those same years of silence, José Ortega Spottorno offered Delibes the edito
 
 Fifty years after her death, the Fundación Miguel Delibes organized an exhibition devoted entirely to her: *Ángeles, el equilibrio de Miguel Delibes*. Her children insisted on a distinction worth keeping: it was not a tribute to their mother, but the last tribute, posthumous, from her husband to her. Even the institution honoring her fifty years later does so through his gaze.
 
-> **In physics this is called:** a point source whose radiation arrives by many different paths, but always from the same emitter.  
-> **In software this is called:** an API with multiple endpoints that, underneath, all call the same backend service: the source never changes, only the route.  
-> **In daily life it's like:** a sincere tribute that, however often repeated, is still told in the same voice.
-
 ### George Henry Lewes: the inverted translator
 
 Almost every time this structure gets told, the genius is a man and the translator a woman. The case of Marian Evans—whom the world knew, and still knows, as George Eliot—reverses the roles without reversing the structure.
@@ -132,10 +124,6 @@ It was Lewes who, around 1856, convinced Evans to leave translation and criticis
 
 From then on, Lewes acted as something very close to what would today be called a literary agent: he negotiated contracts and advances with the publisher John Blackwood, managed the household finances, and hosted a weekly salon that served, among other things, to keep Eliot's name visible in the right circles. And he filtered in the other direction too: he read the reviews before she did and kept the negative ones from her, while telling publishers themselves that his author had such an extreme sensitivity that the slightest criticism could make her stop writing for good.
 
-> **In physics this is called:** an amplifier with output gain control that also selectively clips the return noise before it can feed back into the source.  
-> **In software this is called:** a logging layer that only lets errors above a certain threshold reach the team's alerts, silencing the rest before they reach the source.  
-> **In daily life it's like:** an agent who negotiates the contract and, on top of that, decides which letters—and which reviews—even get opened.
-
 Not all recent scholarship accepts this image of the devoted protector at face value. Literary historian Beverley Park Rilett has argued that much of that narrative—Lewes as the indispensable shield of a fragile Eliot—comes largely from Lewes's own letters and memoirs, and may overstate both his intervention and her fragility. It is the same debate, with the genders reversed, this chapter already raised about Gala: how much of the documented help was real necessity, and how much was the narrative the translator himself built about his own function.
 
 There is, however, an asymmetry this case does not share with the previous two. Lewes was not only Eliot's translator: he had his own career, body of work, and reputation as a critic, philosopher, and physiologist, including a biography of Goethe still cited today. Unlike Gala or Ángeles de Castro—almost entirely accessible only through the genius they translated—Lewes left behind an archive of his own, independent of hers.
@@ -145,6 +133,8 @@ There is, however, an asymmetry this case does not share with the previous two. 
 > **In daily life it's like:** a household where both of them keep a diary. A hundred years later there are two versions of the same story, not one.
 
 Lewes died on 30 November 1878. Eliot never wrote another novel. She spent the two years she had left editing his unfinished manuscript, *Problems of Life and Mind*; she married John Walter Cross in May 1880 and died eight months later.
+
+It is worth not overstating the parallel with Dalí or Delibes here. Eliot was not paralyzed: she completed and published Lewes's unfinished work, managed his estate, and, within two years, chose to remarry. None of that is paralysis. What she lost, more precisely, was not executive capacity in general—that kept working—but the specific register Lewes had helped her find: fiction. She stopped writing novels, not living. That is a distinction worth not skipping just because it fits less neatly than the other two cases.
 
 ### What the myth leaves out
 
@@ -164,7 +154,7 @@ Sustaining another horizon's translation for decades—negotiating their world, 
 
 The structure described in this chapter is an extreme version of the entanglement this book called love, extended from the purely affective register into the executive one. When the translator disappears, what is lost is not only a source of companionship or emotional regulation. It is the part of the system that literally knew how to convert the inner note into something the world could receive.
 
-That explains, with more precision than any tale of genius and muse, why Dalí never painted again after Gala's death, why Eliot never wrote another novel in the two years she had left after Lewes's death, and why Delibes's Nicolás—like Delibes himself, probably—is paralyzed by the most elementary tasks of daily life in the weeks following the loss. It is not weakness of character. It is the structural description of what happens when a horizon suddenly loses the part of its own cognition that resided, by full right and without metaphor, in another person.
+That explains, with more precision than any tale of genius and muse, why Dalí never painted again after Gala's death, why Delibes's Nicolás—like Delibes himself, probably—is paralyzed by the most elementary tasks of daily life in the weeks following the loss, and why Eliot, without being paralyzed, never wrote another novel either in the two years she had left after Lewes's death. It is not weakness of character. It is the structural description of what happens when a horizon suddenly loses the part of its own cognition that resided, by full right and without metaphor, in another person.
 
 And if there really was input translation as well as output translation in all three cases, the loss is more complete than the image of a piano missing half its keyboard suggests. It is not only that the remaining keys cannot play the whole piece. It is that, for a while, no one knows which piece was worth playing. Delibes did not only stop writing when Ángeles died: he turned down the editorship of *El País* in those same years, the most ambitious project ever offered to him in his career, and he did so because his mind, he said, no longer took in anything that large. He had not lost the capacity to run a newspaper. He had lost the person who, for thirty years, had told him which projects were his size.
 
@@ -182,7 +172,7 @@ What this reading describes is not a case apart from grief. It is a lens that ma
 >
 > **What we do not know:** How much of Gala's role was devotion, how much was shared economic strategy, or both at once—her own biographers disagree. Whether Gala's diary, written in an adopted third language, reflects her experience unmediated or is itself, in its own way, a construction of self for a posterity she may have imagined at some point. How Ángeles de Castro herself, in her own words rather than in the speech, the dedication, or the exhibition that name her, would have described the function this chapter attributes to her: that private notebook, if it ever existed, has not reached us. How much of the narrative of Lewes as the indispensable shield of a fragile Eliot reflects the real relationship, and how much was built, in large part, by Lewes himself in his own letters and memoirs—that is the central question of the Rilett article cited below.
 >
-> **Remaining questions:** Can such an asymmetric translation be sustained without the translator losing part of their own horizon in the process? Does this structure change when both members of a couple are, each in their own way, narrow-register geniuses? Is input translation—deciding what counts as signal before the work exists—a distinct function from output translation, or are they the same mechanism applied at two points in the cycle? Does archival asymmetry depend on the gender of the translator, or simply on whether the translator already had a voice of their own, recognized, before taking on that function?
+> **Remaining questions:** Can such an asymmetric translation be sustained without the translator losing part of their own horizon in the process? Does this structure change when both members of a couple are, each in their own way, narrow-register geniuses? Is input translation—deciding what counts as signal before the work exists—a distinct function from output translation, or are they the same mechanism applied at two points in the cycle? Does archival asymmetry depend on the gender of the translator, or simply on whether the translator already had a voice of their own, recognized, before taking on that function? Is the loss of a translator always general paralysis, or can it show up as the loss of one specific register while the rest of the system keeps working?
 >
 > **If you only take away one idea:** Behind many horizons the world calls brilliant stands another horizon, almost always less visible, that learned to translate them. Losing that translator is not losing companionship. It is losing part of one's own system.
 >
