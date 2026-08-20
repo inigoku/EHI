@@ -122,6 +122,9 @@ Fue Lewes quien, hacia 1856, convenció a Evans de abandonar la traducción y la
 > **En software esto se llama:** un proxy de entrada que no solo enruta las peticiones, sino que reescribe la cabecera de origen antes de que lleguen al núcleo.  
 > **En la vida diaria es como:** un mánager que no solo decide qué disco grabar, sino bajo qué nombre artístico va a venderse.
 
+## [ILUSTRACIÓN cart_eliot: "George Eliot"]
+*Frederic William Burton, dibujo a tiza, 1865. National Portrait Gallery, Londres. Eliot lo consideró su mejor semblanza y ese mismo año autorizó su "traducción" al aguafuerte por el grabador Paul Rajon.*
+
 A partir de ahí, Lewes ejerció como algo muy parecido a lo que hoy se llamaría un agente literario: negoció los contratos y los anticipos con el editor John Blackwood, gestionó las finanzas del hogar y sostuvo un salón semanal que servía, entre otras cosas, para mantener el nombre de Eliot visible en los círculos adecuados. Y filtraba también en el otro sentido: leía las reseñas antes que ella y le ocultaba las negativas, mientras alimentaba ante los propios editores la idea de que su autora tenía una sensibilidad tan extrema que la más mínima crítica podía hacer que dejara de escribir para siempre.
 
 No toda la crítica reciente acepta sin más esta imagen del protector devoto. La historiadora literaria Beverley Park Rilett ha argumentado que buena parte de esa narrativa —Lewes como escudo indispensable de una Eliot frágil— procede sobre todo de las propias cartas y memorias de Lewes, y puede exagerar tanto su intervención como la fragilidad de ella. Es la misma discusión, con los géneros invertidos, que este capítulo ya señaló a propósito de Gala: cuánto de la ayuda documentada fue necesidad real y cuánto fue la narrativa que el propio traductor construyó sobre su función.

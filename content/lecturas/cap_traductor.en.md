@@ -122,6 +122,9 @@ It was Lewes who, around 1856, convinced Evans to leave translation and criticis
 > **In software this is called:** an entry proxy that not only routes requests, but rewrites the origin header before they reach the core.  
 > **In daily life it's like:** a manager who decides not only which record to cut, but under what artist name it will be sold.
 
+## [ILUSTRACIÓN cart_eliot: "George Eliot"]
+*Frederic William Burton, chalk drawing, 1865. National Portrait Gallery, London. Eliot considered it her best likeness, and that same year authorized its "translation" into an etching by engraver Paul Rajon.*
+
 From then on, Lewes acted as something very close to what would today be called a literary agent: he negotiated contracts and advances with the publisher John Blackwood, managed the household finances, and hosted a weekly salon that served, among other things, to keep Eliot's name visible in the right circles. And he filtered in the other direction too: he read the reviews before she did and kept the negative ones from her, while telling publishers themselves that his author had such an extreme sensitivity that the slightest criticism could make her stop writing for good.
 
 Not all recent scholarship accepts this image of the devoted protector at face value. Literary historian Beverley Park Rilett has argued that much of that narrative—Lewes as the indispensable shield of a fragile Eliot—comes largely from Lewes's own letters and memoirs, and may overstate both his intervention and her fragility. It is the same debate, with the genders reversed, this chapter already raised about Gala: how much of the documented help was real necessity, and how much was the narrative the translator himself built about his own function.

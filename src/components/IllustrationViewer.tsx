@@ -301,6 +301,10 @@ const imageMap: Record<string, string> = {
   cart_ferran_gol: "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-19T215113Z_1479842861_UP1EM7J1OPCXN_RTRMADP_3_SOCCER-WORLDCUP-ESP-ARG-1024x706.jpg",
   cart_messi_yamal: "https://i.abcnewsfe.com/a/098c18d3-8236-4244-8a8a-85a58d51d9ed/messi-yamal-3-ap-gmh-260717_1784294935058_hpMain_4x3.jpg",
 
+  // "El traductor" — real 1865 chalk portrait of George Eliot by Frederic
+  // William Burton, public domain (NPG 669), hotlinked from Wikimedia Commons
+  cart_eliot: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/George_Eliot_%281865%29_by_Frederick_William_Burton.jpg/800px-George_Eliot_%281865%29_by_Frederick_William_Burton.jpg",
+
   // Cuentos illustrations mapping
   cuento_01: cuento01,
   cuento_agua_retira: cuentoAguaRetira,
