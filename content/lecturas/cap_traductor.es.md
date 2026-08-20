@@ -77,6 +77,11 @@ Lo que sí resulta inequívoco es lo que ocurrió cuando el sistema se rompió. 
 
 Miguel Delibes documentó una variante mucho más privada de la misma estructura, aunque de forma indirecta: no en una biografía, sino en una novela que tardó casi dos décadas en escribir después de vivir el hecho que la origina. En *Señora de rojo sobre fondo gris* (1991), Nicolás, un pintor, dirige un largo monólogo a su hija —encarcelada por motivos políticos— mientras revive, en saltos temporales, la enfermedad repentina y la muerte de su mujer. La novela es trasunto apenas velado de la propia vida de Delibes: su esposa, Ángeles de Castro, murió el 22 de noviembre de 1974, a los cincuenta y un años, de un tumor cerebral, tras darle siete hijos. Delibes esperó casi veinte años para publicar lo que él mismo describió como homenaje a su mejor mitad.
 
+El título no es una metáfora inventada. *Mujer de rojo* es un retrato real de Ángeles de Castro que pintó Eduardo García Benito en 1962 y que Delibes colgó detrás de su escritorio, donde permaneció el resto de su vida. Escribía, literalmente, bajo su mirada.
+
+## [ILUSTRACIÓN il_mujer_rojo: "La señora de rojo"]
+*Ilustración evocadora del retrato de Ángeles de Castro que da título a la novela, no reproducción de la obra original.*
+
 La traducción de Ángeles de Castro —tanto en el relato de Delibes como en lo que se sabe de la relación real— operaba sobre todo en el registro doméstico: sostenía, organizaba y traducía la vida cotidiana de alguien cuya energía estaba casi enteramente comprometida en otra parte. En la novela, era ella quien restauraba casas para que él pudiera trabajar en silencio, quien gestionaba su agenda sin necesidad de consultarle, quien —en palabras que el propio Delibes puso en boca de Nicolás— le desbrozaba el camino para que él trabajase despreocupado.
 
 > **En física esto se llama:** traducción en el registro doméstico frente a traducción en el registro público: misma función, distinta interfaz de salida.  

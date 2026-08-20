@@ -77,6 +77,11 @@ What is unambiguous is what happened when the system broke. Gala died in June 19
 
 Miguel Delibes documented a much more private variant of the same structure, though indirectly: not in a biography, but in a novel that took him nearly two decades to write after living through the event that gave rise to it. In *Señora de rojo sobre fondo gris* (1991), Nicolás, a painter, delivers a long monologue to his daughter—imprisoned for political reasons—while reliving, in temporal jumps, his wife's sudden illness and death. The novel is a thinly veiled account of Delibes's own life: his wife, Ángeles de Castro, died on 22 November 1974, at fifty-one, of a brain tumor, after bearing him seven children. Delibes waited nearly twenty years to publish what he himself described as a tribute to his better half.
 
+The title is not an invented metaphor. *Mujer de rojo* (Woman in Red) is a real portrait of Ángeles de Castro painted by Eduardo García Benito in 1962, which Delibes hung behind his desk, where it stayed for the rest of his life. He wrote, literally, under her gaze.
+
+## [ILUSTRACIÓN il_mujer_rojo: "The Lady in Red"]
+*Evocative illustration of the portrait of Ángeles de Castro that gives the novel its title, not a reproduction of the original work.*
+
 Ángeles de Castro's translation—both in Delibes's telling and in what is known of the real relationship—operated mostly in the domestic register: she sustained, organized, and translated the daily life of someone whose energy was almost entirely committed elsewhere. In the novel, it is she who restores houses so he can work in silence, who manages his calendar without needing to consult him, who—in words Delibes himself put in Nicolás's mouth—cleared his path so he could work without worry.
 
 > **In physics this is called:** translation in the domestic register versus translation in the public register: the same function, a different output interface.  
