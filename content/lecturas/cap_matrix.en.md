@@ -87,7 +87,7 @@ By returning to the Avalon of the source code, Neo guarantees that the "water" o
 
 ---
 
-> **Note to Chapter 34**
+> **Note to Chapter 35**
 >
 > **What we do know:** The integrated information model (Φ) strictly requires the coexistence of integration and differentiation to generate a high value; massive homogeneity destroys Φ. During extreme sensory deprivation, the brain reorganizes its integration toward endogenous patterns.
 >

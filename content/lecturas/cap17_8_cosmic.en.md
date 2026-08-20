@@ -120,7 +120,7 @@ The sacred, in this reading, is not the opposite of the scientific or the ration
 
 ---
 
-> **Note to Chapter 33**
+> **Note to Chapter 34**
 >
 > **What we do know:** H.P. Lovecraft's philosophy (cosmic terror) and the AdS/CFT correspondence suggest that three-dimensional perception could be a filter for a higher-dimensional structure. Integrated Information Theory predicts system saturation due to data overload. Sleep, even in ordinary human brains, produces a measurable and well-documented drop in global functional connectivity compared to wakefulness. The experience of the sublime—documented by Kant and explored in the psychology of emotion—produces awe rather than terror precisely when the incommensurable object is perceived from a distance that buffers the signal. Cultural buffering systems—ritual, myth, taboo, contemplative practice—have existed in all known cultures as mechanisms for managing contact with that which surpasses individual architecture.
 >

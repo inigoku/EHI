@@ -2,7 +2,7 @@
 title: HISTORIA DE UN RELEVO
 subtitle: (La idea que cruzó todos los horizontes)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 36
+chapterNumber: 37
 illustrationId: cart_ferran_gol
 illustrationTitle: El gol de Ferran Torres
 illustrationDescription: Ferran Torres celebra con sus compañeros el gol de la victoria en la prórroga de la final del Mundial 2026 (MetLife Stadium, Nueva Jersey, 19 de julio de 2026).
@@ -101,7 +101,7 @@ Después cada uno volvió a su lado del horizonte. Uno hacia la evaporación, se
 
 ---
 
-> **Nota al Capítulo 36**
+> **Nota al Capítulo 37**
 >
 > **Lo que sí sabemos:** El modelo de información integrada (Φ) exige la coexistencia de integración y diferenciación para alcanzar un valor alto; una totalidad irreducible no puede desmontarse en piezas sin dejar de ser lo que era. La genealogía de banquillos está documentada: Cruyff refunda La Masia como estructura en 1988; Guardiola la amplifica desde 2008; Del Bosque alinea la columna azulgrana y gana Sudáfrica 2010; Luis Enrique gana un triplete con el Barça en 2015 y dos Champions con el PSG en 2025 y 2026; Xavi fracasa y Flick restaura el estilo; De la Fuente gana la Eurocopa de 2024 y el Mundial de 2026. La genealogía de jugadores es igual de verificable: Xavi, Busquets y Rodri ocupan la misma posición en generaciones distintas; la selección femenina gana su Mundial en 2023 con canteranas al mando. La fotografía de Messi bañando a Yamal bebé, tomada en 2007, existe; el abrazo del 19 de julio de 2026, también.
 >

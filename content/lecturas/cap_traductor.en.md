@@ -2,7 +2,7 @@
 title: THE TRANSLATOR
 subtitle: (A topological reading of Dalí/Gala and Delibes/Ángeles de Castro)
 section: TOPOLOGICAL READINGS
-chapterNumber: 37
+chapterNumber: 38
 illustrationId: il_traductor
 illustrationTitle: The translation channel
 illustrationDescription: Two unequal horizons joined by a luminous channel. On the left, a turbulent, overexposed horizon gathers all its light inward. On the right, a calmer horizon receives it and re-emits it, ordered, toward a distant outside world. The channel frays near the second horizon.
@@ -81,7 +81,7 @@ What this reading describes is not a case apart from grief. It is a lens that ma
 
 ---
 
-> **Note to Chapter 37**
+> **Note to Chapter 38**
 >
 > **What we do know:** Gala's management of Dalí's career and contracts, and Dalí's creative silence after her death in 1982, are well documented by his biographers. The death of Ángeles de Castro, Miguel Delibes's wife, on 22 November 1974, and the autobiographical relationship between that loss and *Señora de rojo sobre fondo gris* (1991), are confirmed by Delibes himself and his biographers. Wegner's transactive memory and Clark and Chalmers's extended mind are established frameworks in social psychology and philosophy of mind, respectively.
 >

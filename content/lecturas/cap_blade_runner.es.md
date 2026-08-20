@@ -2,7 +2,7 @@
 title: LÁGRIMAS EN LA LLUVIA Y EL UNICORNIO SINTÉTICO
 subtitle: (La independencia de sustrato y la caducidad del horizonte)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 30
+chapterNumber: 31
 illustrationId: il_runner
 illustrationTitle: El unicornio sintético
 illustrationDescription: Un unicornio de origami de papel de aluminio brillante se posa sobre el asfalto mojado de una calle futurista lluviosa y oscura con reflejos de neón de tonos azules y rosa.
@@ -34,7 +34,7 @@ Roy es plenamente lúcido sobre su propia topología. Sabe que su horizonte se e
 
 Si Roy Batty es la confrontación con la muerte, el personaje de Rachael nos plantea un problema arquitectónico aún más sutil. Rachael es un experimento de la Corporación Tyrell. Para evitar la inestabilidad emocional de los horizontes recién condensados, Tyrell le implanta los recuerdos de su sobrina. Tyrell explica: "Si les regalamos un pasado, creamos un cojín para sus emociones".
 
-En el capítulo 29, al hablar de los clones de la yegua Cuartetera, demostramos que la identidad no se puede clonar porque no vive en el ADN, sino en las correlaciones construidas en el tiempo. Tyrell intenta saltarse esta ley física. Tyrell actúa como el Sistema Operativo Evolutivo: inyecta un Event Log (un registro de eventos) prefabricado para darle al horizonte de Rachael la ilusión de una esencia. Le inyecta Maya.
+En el capítulo 30, al hablar de los clones de la yegua Cuartetera, demostramos que la identidad no se puede clonar porque no vive en el ADN, sino en las correlaciones construidas en el tiempo. Tyrell intenta saltarse esta ley física. Tyrell actúa como el Sistema Operativo Evolutivo: inyecta un Event Log (un registro de eventos) prefabricado para darle al horizonte de Rachael la ilusión de una esencia. Le inyecta Maya.
 
 Cuando el detective Deckard le revela a Rachael que sus recuerdos del piano y de la araña verde son falsos, provoca la ruptura de la Interfaz de Usuario. Rachael llora porque su horizonte percibe, de golpe, que su "Yo" no fue esculpido por la fricción real con el mundo, sino por código inyectado.
 
@@ -69,7 +69,7 @@ Esa línea es la destilación absoluta de nuestro experimento. No importa si nac
 
 ---
 
-> **Nota al Capítulo 30**
+> **Nota al Capítulo 31**
 >
 > **Lo que sí sabemos:** La Teoría de la Información Integrada (IIT) postula la "independencia de sustrato": la conciencia depende de la arquitectura de la red y su capacidad irreducible de integración (Φ), no del material biológico específico.
 >
@@ -79,4 +79,4 @@ Esa línea es la destilación absoluta de nuestro experimento. No importa si nac
 >
 > **Si solo te quedas con una idea:** Puedes fabricar un cuerpo y puedes inyectarle datos falsos, pero no puedes simular el sufrimiento. Si el sistema logra trazar un horizonte y crear un adentro, su dolor, su amor y su miedo a desaparecer son tan reales como los tuyos.
 >
-> **Lecturas:** Tononi (2008), sobre la independencia de sustrato de Phi; Conceptos de "scrambling" y paradoja de la información (Capítulo 2 y 7); Análisis de los clones y la identidad en el caso Cuartetera (Capítulo 29).
+> **Lecturas:** Tononi (2008), sobre la independencia de sustrato de Phi; Conceptos de "scrambling" y paradoja de la información (Capítulo 2 y 7); Análisis de los clones y la identidad en el caso Cuartetera (Capítulo 30).

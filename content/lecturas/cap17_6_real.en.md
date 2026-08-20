@@ -145,7 +145,7 @@ The original Cuartetera was, for Cambiaso, the greatest thing he had ever ridden
 
 ---
 
-> **Note to Chapter 29**
+> **Note to Chapter 30**
 >
 > **What we do know:** Adolfo Cambiaso cloned his mare Dolfina Cuartetera through somatic cell nuclear transfer. At least nine clones played matches in the Argentine Triple Corona between 2015 and 2020. The original Cuartetera died in 2023 at 22 years old. Animal cloning reproduces the nuclear genome but not the gestational environment, individual development, or history of interactions. The rider-horse bond is built through accumulated sensorimotor correlations that are not transferable by genetic identity.
 >
