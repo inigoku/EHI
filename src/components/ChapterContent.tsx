@@ -90,6 +90,7 @@ const isIllustrationDuplicate = (chapter: Chapter, readingMode: string): boolean
               else if (cleanId === "eq") illusId = "il_el_que_queda";
               else if (cleanId === "int") illusId = "il_int";
               else if (cleanId.startsWith("cart_")) illusId = cleanId;
+              else illusId = cleanId;
             }
           }
         } else {
@@ -453,6 +454,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 else if (cleanId === "int") illusId = "il_int";
                 else if (cleanId === "epilogo") illusId = "il_epilogo";
                 else if (cleanId.startsWith("cart_")) illusId = cleanId;
+                else illusId = cleanId;
               }
             }
           } else {
