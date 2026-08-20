@@ -10,7 +10,8 @@ illustrationDescription: Dos horizontes desiguales unidos por un canal luminoso.
 
 Hay una clase de horizonte que la biografía cultural documenta una y otra vez sin encontrarle nunca un nombre preciso: el genio que no sabe encontrar el banco. El compositor incapaz de firmar un contrato sin ayuda. El pintor que, a los setenta años, no sabría calentarse una sopa sin quemar la cazuela. No es incompetencia. Es reparto.
 
-> **En física esto se llama:** un sistema que ha invertido casi toda su capacidad de integración en un único registro, dejando el resto sin desarrollar.  
+> **En física esto se llama:** un sistema que ha canalizado casi toda su energía disponible hacia un único grado de libertad, dejando los demás modos sin excitar.  
+> **En software esto se llama:** un proceso que ha volcado casi todos sus recursos de cómputo en un único hilo de ejecución, dejando el resto de módulos sin implementar.  
 > **En la vida diaria es como:** un violinista de nivel mundial que nunca aprendió a conducir, porque las horas que otros pasaron aprendiendo a conducir él las pasó, desde los cinco años, con el violín bajo la barbilla.
 
 ---
@@ -23,7 +24,8 @@ Todo horizonte necesita alguna forma de traducirse al mundo exterior: la parte d
 
 En 1998, los filósofos Andy Clark y David Chalmers propusieron un experimento mental que ha resultado extraordinariamente fértil. Imaginaron a Otto, un hombre con alzhéimer temprano que lleva siempre una libreta donde anota cada dirección y cada dato que su memoria biológica ya no retiene, y a Inga, cuya memoria funciona con normalidad. La libreta de Otto, argumentaron, cumple exactamente el mismo papel que la memoria biológica de Inga: está siempre disponible, él confía en ella sin cuestionarla, actúa directamente a partir de lo que dice. Si eso es así, la libreta no es una ayuda externa a la mente de Otto. Es parte de su mente.
 
-> **En física esto se llama:** extensión del sistema cognitivo a estructuras externas fiables y transparentes.  
+> **En física esto se llama:** un sistema abierto que ha incorporado un reservorio externo a su propio estado, hasta el punto de que ya no tiene sentido trazar la frontera entre el sistema y ese reservorio.  
+> **En software esto se llama:** una caché externa consistente y de baja latencia: el proceso deja de distinguir entre lo que vive en memoria local y lo que vive fuera, porque el tiempo de acceso es indistinguible.  
 > **En la vida diaria es como:** la agenda del teléfono que ya no te sabes de memoria porque, en la práctica, ya no hace falta: forma parte de cómo recuerdas.
 
 Clark y Chalmers hablaban de libretas y calculadoras. Pero una libreta no tiene agenda propia, ni cansancio, ni vida interior. Cuando la función de traducción no la cumple un objeto sino otro horizonte completo, el sistema resultante no es una mente ampliada por una herramienta. Es una mente ampliada por otra mente, dispuesta, durante años o décadas, a subordinar buena parte de su propio ejercicio al del primero.
@@ -34,21 +36,24 @@ Daniel Wegner le dio a este fenómeno, en 1985, un nombre que ha demostrado ser 
 
 Wegner documentó después lo que ocurre cuando ese sistema se rompe: la pérdida de un cónyuge de largo recorrido no solo priva de compañía. Priva de acceso operativo a capacidades que, aunque nunca residieron en el propio cerebro, formaban parte activa de la cognición cotidiana de quien queda.
 
-> **En física esto se llama:** sistema cognitivo distribuido entre dos horizontes, ninguno completo por separado.  
+> **En física esto se llama:** dos subsistemas acoplados que comparten un único estado global: ninguno de los dos, medido por separado, contiene toda la información del sistema conjunto.  
+> **En software esto se llama:** una arquitectura distribuida sin redundancia: cada nodo aloja una función exclusiva y ninguno replica los datos del otro; si un nodo cae, esa función deja de existir en el sistema, no solo en ese nodo.  
 > **En la vida diaria es como:** una empresa de dos socios donde solo uno sabe hablar con los bancos: si ese socio se va, la empresa no pierde un empleado. Pierde una función entera.
 
 ### Gala: el traductor económico
 
 Pocos casos están tan documentados como el matrimonio de Salvador Dalí y Gala. Se conocieron en el verano de 1929 en Cadaqués: Dalí tenía veinticinco años y vivía, según describen sus biógrafos, atrapado entre fobias, rituales obsesivos y una timidez extrema que le habría hecho casi imposible sostener la vida pública que su fama futura exigiría. Gala, que dejó a Paul Éluard y a la hija de ambos para quedarse con él, asumió con el tiempo una función que iba mucho más allá de la de musa: administraba los contratos, fijaba los precios, negociaba con los galeristas y exigía anticipos con una firmeza que sus propios interlocutores describieron como legendaria. Dalí llegó a firmar buena parte de su producción posterior como «Gala Salvador Dalí» —reconocimiento, casi literal, de que su obra ya no era separable de la gestión de ella.
 
-> **En física esto se llama:** delegación funcional del canal de salida del sistema.  
+> **En física esto se llama:** un oscilador que solo puede emitir señal hacia el exterior si está acoplado a un segundo oscilador que hace de antena.  
+> **En software esto se llama:** un núcleo de negocio sin capa de presentación: genera el dato correcto, pero no expone ninguna interfaz capaz de serializarlo o enviarlo a un cliente externo.  
 > **En la vida diaria es como:** un genio que puede generar la señal más pura del mundo, pero necesita otro instrumento entero para que esa señal llegue a alguna parte.
 
 Pero la traducción de Gala no se quedaba en la salida del sistema. En 1941, según documenta su biógrafo Ian Gibson, fue ella quien convenció a Dalí de que su etapa surrealista ya había dado de sí todo lo que podía dar, y de que le esperaba algo mayor si estaba dispuesto a dejarla atrás. Los años siguientes trajeron el giro que el propio Dalí llamaría clasicismo y, más tarde, misticismo nuclear: perspectiva renacentista, proporción áurea, temas religiosos, una geometría que sustituía el desbordamiento del método paranoico-crítico por una forma que el ojo podía seguir de principio a fin. Gala no se limitó a vender ese giro una vez ocurrido. Lo propuso antes de que ocurriera.
 
 Eso desplaza la función de traductor de la salida del sistema a su entrada. No es solo que Gala convirtiera la obra ya hecha en contratos y galerías. Es que, en algún momento, empezó a intervenir en la gramática con la que esa obra iba a hacerse —qué parte del desbordamiento interior de Dalí merecía forma clásica y cuál seguía siendo, simplemente, ruido. Un traductor de salida transmite la señal tal como llega. Un traductor de entrada decide, antes de eso, qué cuenta como señal.
 
-> **En física esto se llama:** filtro de entrada que determina qué modos del sistema se amplifican y cuáles se atenúan, no solo cómo se transmite la salida ya generada.  
+> **En física esto se llama:** un filtro colocado antes del propio oscilador, que determina qué frecuencias llegan siquiera a excitarlo, no solo cómo se retransmite la señal que ya emitió.  
+> **En software esto se llama:** un middleware de entrada que valida y transforma cada petición antes de que llegue al núcleo, decidiendo qué solicitudes son válidas antes de que el núcleo llegue a procesarlas.  
 > **En la vida diaria es como:** la diferencia entre un editor que corrige el manuscrito ya escrito y uno que, antes de que se escriba una línea, decide qué libro merece la pena escribir.
 
 No hay manera limpia de separar, en este caso, la estrategia comercial de la calibración estética. El clasicismo de posguerra era más vendible en el mercado americano que el surrealismo de los años treinta, y Gala lo sabía. Pero también era una forma más contenida, más gobernada por reglas externas, para un horizonte cuya turbulencia interior quizá necesitara precisamente esa contención para seguir siendo productiva sin agotarse. El aterrizaje comercial y el aterrizaje formal no compitieron entre sí en este caso. Fueron, probablemente, la misma operación vista desde los dos lados del mismo canal.
@@ -57,7 +62,8 @@ No hay manera limpia de separar, en este caso, la estrategia comercial de la cal
 
 De casi todo lo dicho hasta aquí sabemos por Dalí, por sus biógrafos o por quienes negociaron con Gala, nunca por ella. Hay una excepción parcial. Gala mantuvo correspondencia durante toda su vida con Dimitri Gomberg, el abogado moscovita que se casó con su madre cuando ella era niña y al que siempre llamó padre. En una carta de 1943, ya instalada en su papel junto a Dalí, se describe a sí misma en términos que podrían parecer de resignación tradicional —dice que, como toda mujer rusa, intenta ayudar en todo a su marido— y a continuación explica en qué consiste exactamente esa ayuda: posa como modelo, hace de secretaria en la parte práctica de la vida, porque él está sumergido por completo en el trabajo creativo y es incapaz de ocuparse de esas cosas. Y cierra con una frase que podría estar sacada de este mismo capítulo: que ella no es especialmente brillante, pero que ambos trabajan para lo único que de verdad importa, que un talento pueda expresarse.
 
-> **En física esto se llama:** el sistema describiendo, desde dentro, su propia arquitectura de traducción.  
+> **En física esto se llama:** el sistema emitiendo, por una vez, una señal sobre su propio estado interno en lugar de sobre el objeto que observa.  
+> **En software esto se llama:** un log de depuración interno que documenta, desde dentro del propio proceso, cómo está implementado un componente —algo que casi nunca aparece en la documentación pública de la API.  
 > **En la vida diaria es como:** encontrar, entre los papeles de alguien, la explicación de por qué hacía lo que hacía —no una teoría ajena sobre su vida, sino la suya propia.
 
 Es la única vez, entre todo lo que se conserva, en que Gala explica su función con sus propias palabras y no ante un galerista ni ante la posteridad, sino en privado, a un padrastro al otro lado de una guerra mundial. Y hay una segunda pieza, esta vez del lado de la entrada del sistema, que Dalí mismo dejó por escrito. Al terminar *La persistencia de la memoria* en 1931, miró la cara de Gala mientras ella observaba el cuadro terminado, y vio en ella —son casi sus palabras— la contracción inconfundible del asombro. Eso, dijo, fue lo que le convenció de que la imagen funcionaba, porque Gala nunca se equivocaba al juzgar la autenticidad de un enigma.
@@ -84,14 +90,16 @@ El título no es una metáfora inventada. *Mujer de rojo* es un retrato real de 
 
 La traducción de Ángeles de Castro —tanto en el relato de Delibes como en lo que se sabe de la relación real— operaba sobre todo en el registro doméstico: sostenía, organizaba y traducía la vida cotidiana de alguien cuya energía estaba casi enteramente comprometida en otra parte. En la novela, era ella quien restauraba casas para que él pudiera trabajar en silencio, quien gestionaba su agenda sin necesidad de consultarle, quien —en palabras que el propio Delibes puso en boca de Nicolás— le desbrozaba el camino para que él trabajase despreocupado.
 
-> **En física esto se llama:** traducción en el registro doméstico frente a traducción en el registro público: misma función, distinta interfaz de salida.  
+> **En física esto se llama:** el mismo campo, medido con dos instrumentos distintos: la magnitud física no cambia, solo la escala en la que queda registrada.  
+> **En software esto se llama:** el mismo adaptador expuesto tras dos interfaces distintas: una API pública documentada y un socket interno que solo usan procesos de confianza.  
 > **En la vida diaria es como:** la diferencia entre un representante que negocia tu sueldo y alguien que se acuerda de que hoy tenías cita con el médico. Los dos te traducen al mundo. Solo cambia la sala.
 
 ### Los ángeles que no eran ángeles
 
 Pero *Señora de rojo* no describe solo traducción de salida. En la novela, Nicolás atribuye su capacidad de pintar a unos ángeles que bajan, o no, según los días. Cuando su mujer enferma, los ángeles dejan de bajar: se enfrenta al lienzo en blanco, destroza pinceles, rechaza invitaciones a dar conferencias porque, dice, un pintor que no sabe pintar no tiene derecho a hablar de pintura. Solo al final, en una escena nocturna en la que ella lo encuentra revisando sus propios cuadros, Nicolás admite lo que llevaba meses evitando decirse: que nunca fueron ángeles. Que era ella. Que la fe de su mujer lo fecundaba porque la energía creadora era, de alguna manera, transmisible —y que la actividad creadora resulta imposible si nadie empuja desde detrás.
 
-> **En física esto se llama:** el sistema atribuyendo a una fuente externa mística lo que en realidad era un componente de entrada perfectamente identificable.  
+> **En física esto se llama:** un sistema que atribuye a una fuerza externa no identificada una interacción que, medida con el instrumento adecuado, resulta perfectamente localizable.  
+> **En software esto se llama:** un sistema que registra sus mejores resultados como "suerte" o "inspiración" cuando en realidad dependen de un servicio upstream que nadie ha instrumentado ni monitorizado.  
 > **En la vida diaria es como:** llamar "suerte" a la persona que, cada mañana, sin que nadie se lo pida, te deja el camino despejado.
 
 Esto no queda en la ficción. Delibes reconoció, en entrevista, que le ocurrió exactamente lo mismo que a Nicolás: que escribía para ella, y que cuando le faltó su juicio le faltó la referencia, y que dejó de escribir durante años. Y hay un dato anterior a la enfermedad, no posterior: Ángeles fue la única persona que leyó el manuscrito de *La sombra del ciprés es alargada* antes de que Delibes lo presentara al Premio Nadal de 1947 —el premio que, según él mismo admitió, decidió si iba a seguir escribiendo o no. No hay ángeles en esa anécdota. Hay una primera lectora, y una decisión editorial, antes incluso de que el resto del mundo tuviera nada que leer.
@@ -106,7 +114,8 @@ En esos mismos años de silencio, José Ortega Spottorno le ofreció a Delibes l
 
 Cincuenta años después de su muerte, la Fundación Miguel Delibes organizó una exposición dedicada enteramente a ella: *Ángeles, el equilibrio de Miguel Delibes*. Sus hijos insistieron en una precisión que conviene no perder: no era un homenaje a su madre, sino el último homenaje, póstumo, de su padre a ella. Incluso la institución que la reivindica cincuenta años después la reivindica a través de la mirada de él.
 
-> **En física esto se llama:** señal pública, pero emitida siempre desde el mismo transmisor.  
+> **En física esto se llama:** una fuente puntual cuya radiación llega por muchos caminos distintos, pero siempre desde el mismo emisor.  
+> **En software esto se llama:** una API con múltiples endpoints que, por debajo, llaman siempre al mismo servicio backend: la fuente no cambia, solo la ruta de acceso.  
 > **En la vida diaria es como:** un homenaje sincero que, por más que se repita, sigue contándose con la misma voz.
 
 ### Lo que el mito no cuenta
@@ -115,7 +124,8 @@ Las dos historias tienden a contarse como leyendas de amor. Merece la pena resis
 
 De Gala sabemos, gracias en parte a su propio empeño en gestionar también su reputación, bastante más de lo que solemos saber de un traductor doméstico: tuvo amantes, mantuvo un castillo propio, dejó constancia documental de su ambición, y hasta un diario que escribió solo para sí y que nadie leyó hasta treinta años después de su muerte. De Ángeles de Castro hemos recuperado más de lo que el mito reconoce —un seudónimo público, un discurso académico, una exposición institucional—, pero cada una de esas piezas la nombra a través de la voz de otro: el marido que firmaba, el marido que hablaba, el marido cuyos hijos organizaron el homenaje. La asimetría no es que de una sepamos más y de la otra menos. Es que Gala, en algún momento, escribió para sí misma sabiendo que nadie iba a leerla todavía. Ángeles de Castro nunca tuvo ese cuaderno propio, o si lo tuvo, no ha llegado hasta nosotros. La conocemos casi enteramente a través de la memoria de Nicolás —es decir, a través de la memoria de Delibes.
 
-> **En física esto se llama:** asimetría de archivo: quién queda documentado y quién no depende de quién sostiene la pluma.  
+> **En física esto se llama:** asimetría de medición: qué variables del sistema quedan registradas depende de dónde se coloca el instrumento, no de la magnitud real del fenómeno.  
+> **En software esto se llama:** asimetría de logging: qué componente queda instrumentado y cuál no depende de quién escribió el sistema de trazas, no de cuánto trabajó cada componente.  
 > **En la vida diaria es como:** una casa donde solo uno de los dos escribe el diario. Cien años después, la historia de la pareja es la historia que ese diario cuenta.
 
 Sostener la traducción de otro horizonte durante décadas —negociar su mundo, organizar su tiempo, absorber su torpeza social— es trabajo, aunque el lenguaje del amor romántico prefiera no llamarlo así.
@@ -128,7 +138,8 @@ Eso explica, con más precisión que cualquier relato sobre genio y musa, por qu
 
 Y si de verdad hubo, en ambos casos, traducción de entrada además de salida, la pérdida es todavía más completa de lo que sugiere la imagen del piano sin la mitad del teclado. No es solo que las teclas que quedan no puedan tocar la pieza entera. Es que, durante un tiempo, nadie sabe qué pieza merecía tocarse. Delibes no solo dejó de escribir cuando murió Ángeles: rechazó dirigir *El País* en esos mismos años, el proyecto más ambicioso que le ofrecieron en toda su carrera, y lo hizo porque su cabeza —dijo— ya no asimilaba nada tan grande. No había perdido la capacidad de dirigir un periódico. Había perdido a la persona que, durante treinta años, le había dicho qué proyectos merecían su tamaño.
 
-> **En física esto se llama:** pérdida de un componente distribuido del sistema cognitivo, no solo pérdida afectiva.  
+> **En física esto se llama:** colapso parcial de un sistema acoplado: al desaparecer uno de los subsistemas, el otro no vuelve a su estado previo a la unión, porque parte de su propio estado dependía del acoplamiento.  
+> **En software esto se llama:** caída de un servicio del que dependía otro sin mecanismo de failover: el proceso principal sigue en pie, pero una función entera deja de responder.  
 > **En la vida diaria es como:** un piano al que le falta, de repente, la mitad del teclado. Las teclas que quedan siguen sonando bien. Pero ya no se puede tocar la pieza entera.
 
 Lo que esta lectura describe no es un caso aparte del duelo. Es una lente que lo agranda: cuando lo perdido no era solo compañía sino arquitectura funcional compartida, el duelo no es solo la ausencia de alguien. Es la pérdida de una parte de la propia capacidad de estar en el mundo.
