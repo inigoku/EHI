@@ -73,7 +73,7 @@ Los protagonistas comprenden entonces la ley final de nuestra hipótesis: "Cada 
 
 ---
 
-> **Nota al Capítulo 31**
+> **Nota al Capítulo 32**
 >
 > **Lo que sí sabemos:** La correspondencia holográfica describe cómo un volumen puede proyectarse en una superficie de menor dimensión (AdS/CFT). La física asume la conservación de la información a pesar del scrambling cuántico final.
 >

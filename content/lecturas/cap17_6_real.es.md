@@ -74,7 +74,7 @@ Esto no hace al clon inferior. Los clones B06 y B09 ganaron premios Lady Susan T
 
 ## El horizonte del clon
 
-Desde el modelo de las dos selecciones que presentamos en el capítulo 26, el clon equino es un caso instructivo. Sí pasa por la primera selección: es un sistema biológico estable, con sistema nervioso complejo, con Φ no trivial. Sí pasa por la segunda selección: fue gestado en un útero de yegua, con todas las señales bioquímicas, rítmicas y físicas que eso implica.
+Desde el modelo de las dos selecciones que presentamos en el capítulo 28, el clon equino es un caso instructivo. Sí pasa por la primera selección: es un sistema biológico estable, con sistema nervioso complejo, con Φ no trivial. Sí pasa por la segunda selección: fue gestado en un útero de yegua, con todas las señales bioquímicas, rítmicas y físicas que eso implica.
 
 El clon, por tanto, no es un zombi. No es una máquina biológica vacía. Es alguien. Tiene horizonte.
 
@@ -93,7 +93,7 @@ El error está en llamar a ambos "copias". Una copia fotográfica conserva la im
 
 Cambiaso cumplió su promesa de competir en la Triple Corona con un palenque compuesto enteramente por copias de su yegua estrella. La apuesta genética demostró ser un rotundo éxito deportivo, con varios de estos ejemplares compitiendo al máximo nivel y obteniendo galardones individuales.
 
-Pero detrás de la apuesta deportiva había una apuesta emocional más antigua. Desde el primer día, quien tiene un caballo sabe que va a sobrevivilo. El vínculo con un animal es un duelo agendado, como vimos en el capítulo 24. Cambiaso, que amaba a Cuartetera con una intensidad pública y evidente, encontró en la clonación una manera de retrasar, de multiplicar, de negociar con esa finitud.
+Pero detrás de la apuesta deportiva había una apuesta emocional más antigua. Desde el primer día, quien tiene un caballo sabe que va a sobrevivilo. El vínculo con un animal es un duelo agendado, como vimos en el capítulo 26. Cambiaso, que amaba a Cuartetera con una intensidad pública y evidente, encontró en la clonación una manera de retrasar, de multiplicar, de negociar con esa finitud.
 
 No es casual que los primeros clones vinieran después de la lesión de Aiken Cura, otro caballo irreemplazable. La clonación apareció como respuesta a una pérdida anticipada. Si no puedes conservar al ser, conserva su receta. Si no puedes retener el horizonte, retén la arquitectura que lo hizo posible.
 
@@ -149,7 +149,7 @@ La Cuartetera original era, para Cambiaso, lo máximo a lo que se había subido.
 
 ---
 
-> **Nota al Capítulo 28**
+> **Nota al Capítulo 29**
 >
 > **Lo que sí sabemos:** Adolfo Cambiaso clonó a su yegua Dolfina Cuartetera mediante transferencia nuclear de células somáticas. Al menos nueve clones jugaron partidos de la Triple Corona Argentina entre 2015 y 2020. Cuartetera original murió en 2023 a los 22 años. La clonación animal reproduce el genoma nuclear pero no el entorno gestacional, el desarrollo individual ni la historia de interacciones. El vínculo jinete-caballo se construye mediante correlaciones sensoriomotrices acumuladas que no son transferibles por identidad genética.
 >
@@ -159,4 +159,4 @@ La Cuartetera original era, para Cambiaso, lo máximo a lo que se había subido.
 >
 > **Si solo te quedas con una idea:** Puedes copiar el cuerpo, pero no el encuentro. La identidad no vive en el ADN: vive en las correlaciones que un cuerpo construye con otros cuerpos a lo largo del tiempo. Por eso Cuartetera fue inigualable, aunque sus clones compartieran su mismo código.
 >
-> **Lecturas:** Datos sobre clonación equina y el caso Cuartetera en prensa especializada (2015-2023); conceptos de identidad holográfica y entrelazamiento del capítulo 4; modelo de las dos selecciones del capítulo 26; discusión sobre duelo por mascotas del capítulo 24.
+> **Lecturas:** Datos sobre clonación equina y el caso Cuartetera en prensa especializada (2015-2023); conceptos de identidad holográfica y entrelazamiento del capítulo 4; modelo de las dos selecciones del capítulo 28; discusión sobre duelo por mascotas del capítulo 26.

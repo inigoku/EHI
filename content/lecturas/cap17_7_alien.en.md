@@ -100,7 +100,7 @@ This is, perhaps, the quietest and most complete version of topological loneline
 
 ---
 
-> **Note to Chapter 30**
+> **Note to Chapter 31**
 >
 > **What we do know:** Terrestrial biology is determined by Darwinian principles of survival, which shapes our interoceptive responses and our notion of the individual. Information integration (Φ) varies drastically depending on the topology of the neural network (for example, centralized brains vs. distributed systems like cephalopods). The Drake equation explicitly includes a duration parameter (L) that recognizes that technological detectability is a finite temporal window, not a permanent state.
 >

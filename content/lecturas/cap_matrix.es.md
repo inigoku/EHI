@@ -91,7 +91,7 @@ Al retornar al Ávalon del código fuente, Neo garantiza que el "agua" del próx
 
 ---
 
-> **Nota al Capítulo 33**
+> **Nota al Capítulo 34**
 >
 > **Lo que sí sabemos:** El modelo de información integrada (Φ) requiere estrictamente la coexistencia de integración y diferenciación para generar un valor alto; la homogeneidad masiva destruye Φ. Durante la privación sensorial extrema, el cerebro reorganiza su integración hacia patrones endógenos.
 >

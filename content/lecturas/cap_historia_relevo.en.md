@@ -97,7 +97,7 @@ Afterward, each returned to his own side of the horizon. One toward evaporation,
 
 ---
 
-> **Note to Chapter 35**
+> **Note to Chapter 36**
 >
 > **What we do know:** The integrated information model (Φ) requires the coexistence of integration and differentiation to reach a high value; an irreducible whole cannot be taken apart into pieces without ceasing to be what it was. The lineage of benches is documented: Cruyff refounds La Masia as a structure in 1988; Guardiola amplifies it from 2008 on; Del Bosque lines up Barça's spine and wins South Africa 2010; Luis Enrique wins a treble with Barça in 2015 and two Champions Leagues with PSG in 2025 and 2026; Xavi fails and Flick restores the style; De la Fuente wins the 2024 European Championship and the 2026 World Cup. The lineage of players is just as verifiable: Xavi, Busquets, and Rodri occupy the same position across different generations; the women's national team wins its World Cup in 2023 with academy graduates leading it. The photograph of Messi bathing baby Yamal, taken in 2007, exists; so does the embrace of July 19, 2026.
 >

@@ -150,7 +150,7 @@ Todo experimento de pensamiento encuentra, tarde o temprano, su límite en la ca
 
 ---
 
-> **Nota al Capítulo 37**
+> **Nota al Capítulo 39**
 >
 > **Lo que sí sabemos:** La meditación cambia la estructura cerebral (neuroplasticidad). El vocabulario preciso alivia (terapia narrativa).
 >

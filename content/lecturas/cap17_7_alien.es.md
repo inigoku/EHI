@@ -104,7 +104,7 @@ Esta es, quizás, la versión más quieta y más completa de la soledad topológ
 
 ---
 
-> **Nota al Capítulo 30**
+> **Nota al Capítulo 31**
 >
 > **Lo que sí sabemos:** La biología terrestre está determinada por principios darwinianos de supervivencia, lo que moldea nuestras respuestas interoceptivas y nuestra noción de individuo. La integración de información (Φ) varía drásticamente dependiendo de la topología de la red neuronal (por ejemplo, cerebros centralizados vs. sistemas distribuidos como los cefalópodos). La ecuación de Drake incluye explícitamente un parámetro de duración (L) que reconoce que la detectabilidad tecnológica es una ventana temporal finita, no un estado permanente.
 >

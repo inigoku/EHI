@@ -215,7 +215,7 @@ The observer is not outside the system. The observer is the system.
 
 > *For Tarel, who knows that every closing is a new singularity.*
 
-> **Note to Chapter 34**
+> **Note to Chapter 35**
 >
 > **What we do know:** Fractal analysis of Dalí's late brushstrokes (Forsythe, Williams, and Reilly, 2017) detected alterations that precede his clinical diagnosis, though the diagnosis itself —a parkinsonian syndrome rather than confirmed Parkinson's— remains a matter of clinical debate. The chronology of the three painters is extensively documented: the paranoiac-critical method, the genesis of the soft watches, and the relationship with Gala (Dalí, *Diary of a Genius*, 1964); the truncated friendship with Lorca and the 1938 London meeting with Freud (Gibson, 1997); Picasso's periods and the Casagemas episode (Richardson, 1991–2007); and Miró's statements on the universal within the intimate and on the "assassination of painting" (Miró, *Selected Writings and Interviews*, 1978).
 >

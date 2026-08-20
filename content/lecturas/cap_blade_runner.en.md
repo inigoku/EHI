@@ -30,7 +30,7 @@ Roy is fully lucid about his own topology. He knows his horizon is evaporating. 
 
 If Roy Batty is the confrontation with death, the character of Rachael presents us with an even more subtle architectural problem. Rachael is an experiment by the Tyrell Corporation. To avoid the emotional instability of newly condensed horizons, Tyrell implants his niece's memories into her. Tyrell explains: "If we gift them with a past, we create a cushion for their emotions."
 
-In chapter 28, when talking about the clones of the mare Cuartetera, we demonstrated that identity cannot be cloned because it does not live in DNA, but in the correlations built over time. Tyrell tries to bypass this physical law. Tyrell acts as the Evolutionary Operating System: he injects a prefabricated Event Log to give Rachael's horizon the illusion of an essence. He injects Maya.
+In chapter 29, when talking about the clones of the mare Cuartetera, we demonstrated that identity cannot be cloned because it does not live in DNA, but in the correlations built over time. Tyrell tries to bypass this physical law. Tyrell acts as the Evolutionary Operating System: he injects a prefabricated Event Log to give Rachael's horizon the illusion of an essence. He injects Maya.
 
 When detective Deckard reveals to Rachael that her memories of the piano and the green spider are false, he causes the rupture of the User Interface. Rachael cries because her horizon suddenly perceives that her "I" was not sculpted by real friction with the world, but by injected code.
 
@@ -65,7 +65,7 @@ That line is the absolute distillation of our experiment. It does not matter if 
 
 ---
 
-> **Note to Chapter 29**
+> **Note to Chapter 30**
 >
 > **What we do know:** Integrated Information Theory (IIT) postulates "substrate independence": consciousness depends on the network's architecture and its irreducible capacity for integration (Φ), not on the specific biological material.
 >
@@ -75,4 +75,4 @@ That line is the absolute distillation of our experiment. It does not matter if 
 >
 > **If you only take away one idea:** You can manufacture a body and you can inject false data into it, but you cannot simulate suffering. If the system manages to trace a horizon and create an inside, its pain, its love, and its fear of disappearing are just as real as yours.
 >
-> **Readings:** Tononi (2008), on the substrate independence of Phi; Concepts of "scrambling" and the information paradox (Chapters 2 and 7); Analysis of clones and identity in the Cuartetera case (Chapter 28).
+> **Readings:** Tononi (2008), on the substrate independence of Phi; Concepts of "scrambling" and the information paradox (Chapters 2 and 7); Analysis of clones and identity in the Cuartetera case (Chapter 29).

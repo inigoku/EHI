@@ -70,7 +70,7 @@ This does not make the clone inferior. The clones B06 and B09 won Lady Susan Tow
 
 ## The horizon of the clone
 
-From the perspective of the two-selection model we presented in Chapter 26, the equine clone is an instructive case. It does pass the first selection: it is a stable biological system, with a complex nervous system, with non-trivial Φ. It does pass the second selection: it was gestated in a mare's womb, with all the biochemical, rhythmic, and physical signals that implies.
+From the perspective of the two-selection model we presented in Chapter 28, the equine clone is an instructive case. It does pass the first selection: it is a stable biological system, with a complex nervous system, with non-trivial Φ. It does pass the second selection: it was gestated in a mare's womb, with all the biochemical, rhythmic, and physical signals that implies.
 
 The clone, therefore, is not a zombie. It is not an empty biological machine. It is someone. It has a horizon.
 
@@ -89,7 +89,7 @@ The mistake lies in calling both "copies." A photographic copy preserves the ima
 
 Cambiaso fulfilled his promise to compete in the Triple Corona with a string composed entirely of copies of his star mare. The genetic wager proved to be a resounding sporting success, with several of these specimens competing at the highest level and obtaining individual awards.
 
-But behind the sporting wager lay an older emotional wager. From day one, anyone who owns a horse knows they are going to outlive it. The bond with an animal is scheduled grief, as we saw in Chapter 24. Cambiaso, who loved Cuartetera with a public and evident intensity, found in cloning a way to delay, to multiply, to negotiate with that finitude.
+But behind the sporting wager lay an older emotional wager. From day one, anyone who owns a horse knows they are going to outlive it. The bond with an animal is scheduled grief, as we saw in Chapter 26. Cambiaso, who loved Cuartetera with a public and evident intensity, found in cloning a way to delay, to multiply, to negotiate with that finitude.
 
 It is no coincidence that the first clones came after the injury to Aiken Cura, another irreplaceable horse. Cloning appeared as a response to an anticipated loss. If you cannot preserve the being, preserve its recipe. If you cannot retain the horizon, retain the architecture that made it possible.
 
@@ -145,7 +145,7 @@ The original Cuartetera was, for Cambiaso, the greatest thing he had ever ridden
 
 ---
 
-> **Note to Chapter 28**
+> **Note to Chapter 29**
 >
 > **What we do know:** Adolfo Cambiaso cloned his mare Dolfina Cuartetera through somatic cell nuclear transfer. At least nine clones played matches in the Argentine Triple Corona between 2015 and 2020. The original Cuartetera died in 2023 at 22 years old. Animal cloning reproduces the nuclear genome but not the gestational environment, individual development, or history of interactions. The rider-horse bond is built through accumulated sensorimotor correlations that are not transferable by genetic identity.
 >
@@ -155,4 +155,4 @@ The original Cuartetera was, for Cambiaso, the greatest thing he had ever ridden
 >
 > **If you only take away one idea:** You can copy the body, but not the encounter. Identity does not live in DNA: it lives in the correlations that a body builds with other bodies over time. That is why Cuartetera was unequaled, even if her clones shared her exact code.
 >
-> **Readings:** Data on equine cloning and the Cuartetera case in specialized press (2015-2023); concepts of holographic identity and entanglement from Chapter 4; the two-selection model from Chapter 26; discussion on grieving for pets from Chapter 24.
+> **Readings:** Data on equine cloning and the Cuartetera case in specialized press (2015-2023); concepts of holographic identity and entanglement from Chapter 4; the two-selection model from Chapter 28; discussion on grieving for pets from Chapter 26.

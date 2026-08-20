@@ -69,7 +69,7 @@ The protagonists then understand the final law of our hypothesis: "Every horizon
 
 ---
 
-> **Note to Chapter 31**
+> **Note to Chapter 32**
 >
 > **What we do know:** Holographic correspondence describes how a volume can be projected onto a lower-dimensional surface (AdS/CFT). Physics assumes the conservation of information despite final quantum scrambling.
 >
