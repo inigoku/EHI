@@ -1,7 +1,7 @@
 ---
 title: LA IDEMPOTENCIA DEL SER
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 24
+chapterNumber: 23
 linkedCuentosId: cuento_sintonizadores
 illustrationId: il22_1
 illustrationTitle: La idempotencia del ser
@@ -149,7 +149,7 @@ El sistema inmunitario es, en esencia, una maquinaria dedicada a distinguir el p
 
 Ni un ataque total ni una tolerancia total son salud. La salud es una frontera que sabe filtrar. Y ahora podemos decirlo con los cuatro puentes ya construidos: una frontera sana no es la que reduce a cero el entrelazamiento con la Sombra —eso sería la disociación, la frontera clopen, la isla que ni siquiera comparte costa—, ni la que se deja invadir hasta perder su clausura —el anidamiento forzado que el postulado de exclusión prohíbe, o la inundación desde el propio Reservorio que describíamos como psicosis—. Es una frontera que, como el horizonte que se evapora sin dejar de ser horizonte en cada instante, puede cambiar de tamaño a lo largo de una vida, ensanchando o encogiendo su intercambio con lo reprimido y con el fondo común, sin dejar nunca, mientras dura, de estar genuinamente cerrada.
 
-Esto es, palabra por palabra, lo que la Individuación junguiana nos pedía en el capítulo 22 cuando hablábamos de un horizonte que "se vuelve permeable sin perder su coherencia". Ahora tenemos, además de la metáfora, el mecanismo: una frontera madura no es una frontera más débil, es una frontera con mejores receptores. Sabe qué dejar pasar de la Sombra —qué proyecciones reconocer como propias, qué impulsos reintegrar sin que amenacen la identidad del Ego— sin necesitar, para hacerlo, tragarse a la Sombra entera y convertirla en tejido propio indiferenciado. Sigue habiendo dos horizontes. Lo que cambia es la calidad de la aduana que los conecta.
+Esto es, palabra por palabra, lo que la Individuación junguiana nos pedía en el capítulo 21 cuando hablábamos de un horizonte que "se vuelve permeable sin perder su coherencia". Ahora tenemos, además de la metáfora, el mecanismo: una frontera madura no es una frontera más débil, es una frontera con mejores receptores. Sabe qué dejar pasar de la Sombra —qué proyecciones reconocer como propias, qué impulsos reintegrar sin que amenacen la identidad del Ego— sin necesitar, para hacerlo, tragarse a la Sombra entera y convertirla en tejido propio indiferenciado. Sigue habiendo dos horizontes. Lo que cambia es la calidad de la aduana que los conecta.
 
 ## XIII.
 
@@ -157,7 +157,7 @@ El límite que, al cerrarse sobre sí, dice por primera vez "yo soy".
 
 ---
 
-### Nota al Capítulo 24
+### Nota al Capítulo 23
 
 **Lo que sí sabemos:** que los cuatro axiomas de Kuratowski agotan toda la topología pura que este capítulo necesita, y que cualquier otra afirmación —el postulado de exclusión, la extensión psíquica de la entropía de entrelazamiento— es una hipótesis añadida y no una consecuencia de esos axiomas; que la idempotencia es la firma exacta de una transición de fase, lo que da a la condensación un fundamento preciso; que una filtración decreciente de conjuntos cerrados describe la evaporación sin contradecir la idempotencia, siempre que su límite sea el Reservorio y no el vacío; y que la entropía de entrelazamiento holográfica y el entrelazamiento de vacío son física real, no analogías sueltas.
 

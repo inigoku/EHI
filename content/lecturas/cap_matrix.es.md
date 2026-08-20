@@ -2,7 +2,7 @@
 title: LA CAVERNA DE SILICIO Y LA ANOMALÍA VIRAL
 subtitle: (Una lectura topológica de The Matrix)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 35
+chapterNumber: 34
 illustrationId: il_matrix
 illustrationTitle: La caverna de silicio
 illustrationDescription: Un cuerpo humano suspendido en una cápsula cibernética dorada cuyas conexiones se extienden como raíces en una torre de servidores, bajo una lluvia de códigos binarios.

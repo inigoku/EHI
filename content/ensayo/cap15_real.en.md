@@ -158,7 +158,7 @@ And the suffering of many of these conditions stems not from the topology itself
 
 ---
 
-> **Note to Chapter 21**
+> **Note to Chapter 20**
 >
 > **What we do know:** Parkinson's decouples the horizon from the body; it does not destroy the horizon. Dopamine calibrates time before movement. Trauma freezes information in points of the horizon that cannot be reintegrated. Neurodivergent conditions have different informational topologies, not absent horizons.
 >

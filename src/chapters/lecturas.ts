@@ -28,6 +28,7 @@ const ORDER = [
   "cap_matrix",
   "cap_cartografia_singularidades",
   "cap_historia_relevo",
+  "cap_traductor",
 ];
 
 export const lecturasTopologicas: Chapter[] = ORDER.map((id) => {

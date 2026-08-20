@@ -171,7 +171,7 @@ We are not the owners of our pets. We are, for a brief time, companions on a jou
 
 ---
 
-> **Note to Chapter 27**
+> **Note to Chapter 26**
 >
 > **What we do know:** That animals with a complete limbic system possess their own horizon, although of lesser complexity than the human one. That co-evolution with the dog has produced a unique mutual legibility. That the human brain can channel the architecture of parent-child care toward a pet with comparable biochemical intensity. That animal abuse leaves a real structural footprint on the animal and atrophies the empathy of the one who exercises it. That pet grief is a genuine geometric collapse, often aggravated by a lack of social recognition.
 >

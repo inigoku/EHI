@@ -1,7 +1,8 @@
 ---
 title: THE TRANSLATOR
-section: PART TWO: THE HORIZON IN BOND
-chapterNumber: 17
+subtitle: (A topological reading of Dalí/Gala and Delibes/Ángeles de Castro)
+section: TOPOLOGICAL READINGS
+chapterNumber: 37
 illustrationId: il_traductor
 illustrationTitle: The translation channel
 illustrationDescription: Two unequal horizons joined by a luminous channel. On the left, a turbulent, overexposed horizon gathers all its light inward. On the right, a calmer horizon receives it and re-emits it, ordered, toward a distant outside world. The channel frays near the second horizon.
@@ -14,7 +15,7 @@ There is a type of horizon that cultural biography documents again and again wit
 
 ---
 
-The previous chapter described the horizon's permeability: how much of another's signal it lets in. This chapter describes something different, and in a way inverse: how much of its own signal a horizon manages to get out without another's help.
+This book has described the horizon's permeability: how much of another's signal it lets in. This reading takes up something different, and in a way inverse: how much of its own signal a horizon manages to get out without another's help.
 
 Every horizon needs some way of translating itself to the outside world: the part of oneself capable of talking to a clerk, signing what needs signing, remembering to eat. In most horizons that function coexists, more or less integrated, with the rest of the architecture. In some it doesn't. And when it doesn't, someone else usually ends up doing it.
 
@@ -69,18 +70,18 @@ Sustaining another horizon's translation for decades—negotiating their world, 
 
 ### When the translator disappears
 
-The structure described in this chapter is an extreme version of the entanglement Chapter 13 called love, extended from the purely affective register into the executive one. When the translator disappears, what is lost is not only a source of companionship or emotional regulation. It is the part of the system that literally knew how to convert the inner note into something the world could receive.
+The structure described in this chapter is an extreme version of the entanglement this book called love, extended from the purely affective register into the executive one. When the translator disappears, what is lost is not only a source of companionship or emotional regulation. It is the part of the system that literally knew how to convert the inner note into something the world could receive.
 
 That explains, with more precision than any tale of genius and muse, why Dalí never painted again after Gala's death, and why Delibes's Nicolás—like Delibes himself, probably—is paralyzed by the most elementary tasks of daily life in the weeks following the loss. It is not weakness of character. It is the structural description of what happens when a horizon suddenly loses the part of its own cognition that resided, by full right and without metaphor, in another person.
 
 > **In physics this is called:** loss of a distributed component of the cognitive system, not merely an affective loss.  
 > **In daily life it's like:** a piano that has suddenly lost half its keyboard. The remaining keys still sound fine. But the whole piece can no longer be played.
 
-What this chapter describes is not a case apart from the grief discussed in the next chapter. It is a lens that magnifies it: when what was lost was not only company but shared functional architecture, grief is not only the absence of someone. It is the loss of part of one's own capacity to be in the world.
+What this reading describes is not a case apart from grief. It is a lens that magnifies it: when what was lost was not only company but shared functional architecture, grief is not only the absence of someone. It is the loss of part of one's own capacity to be in the world.
 
 ---
 
-> **Note to Chapter 17**
+> **Note to Chapter 37**
 >
 > **What we do know:** Gala's management of Dalí's career and contracts, and Dalí's creative silence after her death in 1982, are well documented by his biographers. The death of Ángeles de Castro, Miguel Delibes's wife, on 22 November 1974, and the autobiographical relationship between that loss and *Señora de rojo sobre fondo gris* (1991), are confirmed by Delibes himself and his biographers. Wegner's transactive memory and Clark and Chalmers's extended mind are established frameworks in social psychology and philosophy of mind, respectively.
 >

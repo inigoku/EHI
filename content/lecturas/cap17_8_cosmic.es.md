@@ -1,7 +1,7 @@
 ---
 title: GEOMETRÍAS NO EUCLIDIANAS Y EL TERROR CÓSMICO
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 34
+chapterNumber: 33
 linkedCuentosId: cuento_mussara
 illustrationId: il17_8_cosmic
 illustrationTitle: Geometrías no euclidianas

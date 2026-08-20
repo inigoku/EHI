@@ -144,7 +144,7 @@ The immune system is, in essence, a mechanism dedicated to distinguishing the se
 
 Neither total attack nor total tolerance is health. Health is a boundary that knows how to filter. And now we can say it with the four bridges already built: a healthy boundary is not the one that reduces to zero the entanglement with the Shadow—that would be dissociation, the clopen boundary, the island that does not even share a coast—, nor the one that allows itself to be invaded until it loses its closure—the forced nesting that the exclusion postulate prohibits, or the inundation from the Reservoir itself that we described as psychosis—. It is a boundary that, like the horizon that evaporates without ceasing to be a horizon in each instant, can change size over a lifetime, widening or shrinking its exchange with what is repressed and with the common background, without ever ceasing, while it lasts, to be genuinely closed.
 
-This is, word for word, what Jungian Individuation asked of us in Chapter 22 when we spoke of a horizon that "becomes permeable without losing its coherence." Now we have, in addition to the metaphor, the mechanism: a mature boundary is not a weaker boundary, it is a boundary with better receptors. It knows what to let pass from the Shadow—what projections to recognize as its own, what impulses to reintegrate without threatening the Ego's identity—without needing, to do so, to swallow the entire Shadow and convert it into undifferentiated self-tissue. There remain two horizons. What changes is the quality of the customs connecting them.
+This is, word for word, what Jungian Individuation asked of us in Chapter 21 when we spoke of a horizon that "becomes permeable without losing its coherence." Now we have, in addition to the metaphor, the mechanism: a mature boundary is not a weaker boundary, it is a boundary with better receptors. It knows what to let pass from the Shadow—what projections to recognize as its own, what impulses to reintegrate without threatening the Ego's identity—without needing, to do so, to swallow the entire Shadow and convert it into undifferentiated self-tissue. There remain two horizons. What changes is the quality of the customs connecting them.
 
 ## XIII.
 
@@ -152,7 +152,7 @@ The limit that, closing upon itself, says for the first time "I am."
 
 ---
 
-### Note to Chapter 24
+### Note to Chapter 23
 
 **What we do know:** that Kuratowski's four axioms exhaust all the pure topology that this chapter needs, and that any other statement—the exclusion postulate, the psychic extension of entanglement entropy—is an added hypothesis and not a consequence of those axioms; that idempotency is the exact signature of a phase transition, which gives condensation a precise foundation; that a decreasing filtration of closed sets describes evaporation without contradicting idempotency, provided its limit is the Reservoir and not the vacuum; and that holographic entanglement entropy and vacuum entanglement are real physics, not loose analogies.
 

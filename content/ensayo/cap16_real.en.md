@@ -157,7 +157,7 @@ These questions do not have easy answers. The horizon model does not resolve the
 
 ---
 
-> **Note to Chapter 26**
+> **Note to Chapter 25**
 >
 > **What we do know:** Childhood poverty affects cognitive development. Intergroup contact in equal status reduces prejudice (Allport, Pettigrew). Democracies tend to be more resilient than dictatorships.
 >

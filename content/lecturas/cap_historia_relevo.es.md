@@ -2,7 +2,7 @@
 title: HISTORIA DE UN RELEVO
 subtitle: (La idea que cruzó todos los horizontes)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 37
+chapterNumber: 36
 illustrationId: cart_ferran_gol
 illustrationTitle: El gol de Ferran Torres
 illustrationDescription: Ferran Torres celebra con sus compañeros el gol de la victoria en la prórroga de la final del Mundial 2026 (MetLife Stadium, Nueva Jersey, 19 de julio de 2026).

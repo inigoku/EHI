@@ -1,7 +1,7 @@
 ---
 title: EL ENTRELAZAMIENTO CON LUGARES, COSAS, IDEAS, RELIGIÓN Y FANATISMO
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 28
+chapterNumber: 27
 illustrationId: il_inanimado
 illustrationTitle: El entrelazamiento con lo inanimado
 illustrationDescription: Una habitación con objetos dispersos: un reloj viejo, una silla, un libro abierto. Desde cada objeto, líneas tenues de luz dorada e índigo se elevan y conectan con la silueta de una persona que duerme en el centro. La persona no toca nada, pero las líneas la sostienen. Acuarela y tinta, atmósfera de sueño y memoria.
@@ -131,7 +131,7 @@ La libertad, desde este modelo, no es ausencia de entrelazamiento. Es conocimien
 
 ---
 
-> **Nota al Capítulo 28**
+> **Nota al Capítulo 27**
 >
 > **Lo que sí sabemos:** Los humanos forman vínculos de apego con lugares (topofilia), objetos (transitional objects, Winnicott) e ideas (identidad ideológica). La religión activa circuitos neuronales similares a los del apego interpersonal. El fanatismo correlaciona con rigidez cognitiva y reducción de la exposición a información discrepante.
 >

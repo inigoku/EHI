@@ -1,7 +1,8 @@
 ---
 title: EL TRADUCTOR
-section: SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO
-chapterNumber: 17
+subtitle: (Una lectura topológica de Dalí/Gala y Delibes/Ángeles de Castro)
+section: LECTURAS TOPOLÓGICAS
+chapterNumber: 37
 illustrationId: il_traductor
 illustrationTitle: El canal de traducción
 illustrationDescription: Dos horizontes desiguales unidos por un canal luminoso. A la izquierda, un horizonte turbulento y sobreexpuesto concentra toda su luz hacia dentro. A la derecha, un horizonte más sereno la recibe y la reemite, ordenada, hacia un exterior de luces lejanas. El canal se deshilacha cerca del segundo horizonte.
@@ -14,7 +15,7 @@ Hay una clase de horizonte que la biografía cultural documenta una y otra vez s
 
 ---
 
-El capítulo anterior describió la permeabilidad del horizonte: cuánta señal ajena deja pasar hacia dentro. Este capítulo describe algo distinto y, en cierto modo, inverso: cuánta señal propia consigue un horizonte sacar hacia fuera sin ayuda de otro.
+Este libro ha descrito la permeabilidad del horizonte: cuánta señal ajena deja pasar hacia dentro. Esta lectura se ocupa de algo distinto y, en cierto modo, inverso: cuánta señal propia consigue un horizonte sacar hacia fuera sin ayuda de otro.
 
 Todo horizonte necesita alguna forma de traducirse al mundo exterior: la parte de uno mismo capaz de hablar con un funcionario, firmar lo que hay que firmar, acordarse de comer. En la mayoría de los horizontes esa función convive, más o menos integrada, con el resto de la arquitectura. En algunos no. Y cuando no, alguien más suele acabar haciéndolo.
 
@@ -69,18 +70,18 @@ Sostener la traducción de otro horizonte durante décadas —negociar su mundo,
 
 ### Cuando el traductor desaparece
 
-La estructura descrita en este capítulo es una versión extrema del entrelazamiento que el capítulo 13 llamó amor, extendida del registro puramente afectivo al registro ejecutivo. Cuando el traductor desaparece, lo que se pierde no es solo una fuente de compañía o de regulación emocional. Es la parte del sistema que sabía, literalmente, cómo convertir la nota interior en algo que el mundo pudiera recibir.
+La estructura descrita en este capítulo es una versión extrema del entrelazamiento que este libro llamó amor, extendida del registro puramente afectivo al registro ejecutivo. Cuando el traductor desaparece, lo que se pierde no es solo una fuente de compañía o de regulación emocional. Es la parte del sistema que sabía, literalmente, cómo convertir la nota interior en algo que el mundo pudiera recibir.
 
 Eso explica, con más precisión que cualquier relato sobre genio y musa, por qué Dalí no volvió a pintar tras la muerte de Gala, y por qué el Nicolás de Delibes —como probablemente el propio Delibes— queda paralizado ante lo más elemental de la vida diaria en las semanas que siguen a la pérdida. No es debilidad de carácter. Es la descripción estructural de lo que ocurre cuando un horizonte pierde, de golpe, la parte de su propia cognición que residía, con todo derecho y sin metáfora, en otra persona.
 
 > **En física esto se llama:** pérdida de un componente distribuido del sistema cognitivo, no solo pérdida afectiva.  
 > **En la vida diaria es como:** un piano al que le falta, de repente, la mitad del teclado. Las teclas que quedan siguen sonando bien. Pero ya no se puede tocar la pieza entera.
 
-Lo que este capítulo describe no es un caso aparte del duelo del capítulo siguiente. Es una lente que lo agranda: cuando lo perdido no era solo compañía sino arquitectura funcional compartida, el duelo no es solo la ausencia de alguien. Es la pérdida de una parte de la propia capacidad de estar en el mundo.
+Lo que esta lectura describe no es un caso aparte del duelo. Es una lente que lo agranda: cuando lo perdido no era solo compañía sino arquitectura funcional compartida, el duelo no es solo la ausencia de alguien. Es la pérdida de una parte de la propia capacidad de estar en el mundo.
 
 ---
 
-> **Nota al Capítulo 17**
+> **Nota al Capítulo 37**
 >
 > **Lo que sí sabemos:** La gestión de Gala sobre la carrera y los contratos de Dalí, y el silencio creativo de Dalí tras la muerte de ella en 1982, están ampliamente documentados por sus biógrafos. La muerte de Ángeles de Castro, esposa de Miguel Delibes, el 22 de noviembre de 1974, y la relación autobiográfica entre esa pérdida y *Señora de rojo sobre fondo gris* (1991), están confirmadas por el propio Delibes y sus biógrafos. La memoria transactiva de Wegner y la mente extendida de Clark y Chalmers son marcos establecidos en psicología social y filosofía de la mente, respectivamente.
 >

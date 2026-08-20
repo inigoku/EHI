@@ -1,7 +1,7 @@
 ---
 title: EL HORIZONTE HERIDO
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 26
+chapterNumber: 25
 linkedCuentosId: cuento14
 illustrationId: il_herido
 illustrationTitle: La frontera herida
@@ -162,7 +162,7 @@ Estas preguntas no tienen respuestas fáciles. El modelo del horizonte no las re
 
 ---
 
-> **Nota al Capítulo 26**
+> **Nota al Capítulo 25**
 >
 > **Lo que sí sabemos:** La pobreza infantil afecta el desarrollo cognitivo. El contacto intergrupal en igualdad de estatus reduce el prejuicio (Allport, Pettigrew). Las democracias tienden a ser más resilientes que las dictaduras.
 >

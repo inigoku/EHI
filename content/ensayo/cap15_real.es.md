@@ -1,7 +1,7 @@
 ---
 title: PARKINSON, TRAUMA Y OTRAS GEOMETRÍAS ROTAS
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 21
+chapterNumber: 20
 linkedCuentosId: cuento13
 illustrationId: il_parkinson
 illustrationTitle: El director sin orquesta
@@ -163,7 +163,7 @@ Y el sufrimiento de muchas de estas condiciones proviene no de la topología en 
 
 ---
 
-> **Nota al Capítulo 21**
+> **Nota al Capítulo 20**
 >
 > **Lo que sí sabemos:** El Parkinson desacopla el horizonte del cuerpo, no destruye el horizonte. La dopamina calibra el tiempo antes que el movimiento. El trauma congela información en puntos del horizonte que no pueden reintegrarse. Las condiciones neurodiversas tienen topologías informacionales diferentes, no horizontes ausentes.
 >

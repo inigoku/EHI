@@ -127,7 +127,7 @@ Freedom, from this model, is not the absence of entanglement. It is knowledge of
 
 ---
 
-> **Note to Chapter 28**
+> **Note to Chapter 27**
 >
 > **What we do know:** Humans form attachment bonds with places (topophilia), objects (transitional objects, Winnicott), and ideas (ideological identity). Religion activates neural circuits similar to those of interpersonal attachment. Fanaticism correlates with cognitive rigidity and reduced exposure to discrepant information.
 >
