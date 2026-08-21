@@ -303,7 +303,7 @@ const imageMap: Record<string, string> = {
 
   // "El traductor" — real 1865 chalk portrait of George Eliot by Frederic
   // William Burton, public domain (NPG 669), hotlinked from Wikimedia Commons
-  cart_eliot: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/George_Eliot_%281865%29_by_Frederick_William_Burton.jpg/800px-George_Eliot_%281865%29_by_Frederick_William_Burton.jpg",
+  cart_eliot: "https://upload.wikimedia.org/wikipedia/commons/1/1b/George_Eliot_(1865)_by_Frederick_William_Burton.jpg",
 
   // Cuentos illustrations mapping
   cuento_01: cuento01,
