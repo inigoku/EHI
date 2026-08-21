@@ -395,7 +395,8 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
   const isOriginalFormat =
     illustration.id.includes("txiki") ||
     illustration.id.includes("epilogo") ||
-    illustration.id.includes("sintonizadores");
+    illustration.id.includes("sintonizadores") ||
+    illustration.id === "il_mujer_rojo";
 
   return (
     <>
