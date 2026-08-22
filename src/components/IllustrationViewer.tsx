@@ -94,6 +94,8 @@ import imgPortada from "../assets/images/portada.png";
 // Manga pages (Edición Joven)
 // @ts-ignore
 import mangaCap1P1 from "../assets/images/manga/manga_cap1_p1.jpg";
+// @ts-ignore
+import mangaCap1P2 from "../assets/images/manga/manga_cap1_p2.jpg";
 
 // @ts-ignore
 import imgLadron from "../assets/images/ilustracion_ladron.png";
@@ -272,6 +274,7 @@ const imageMap: Record<string, string> = {
   il_epilogo: imgEpilogo,
   il_portada: imgPortada,
   manga_cap1_p1: mangaCap1P1,
+  manga_cap1_p2: mangaCap1P2,
   il_ladron: imgLadron,
   cuento_ladron: imgLadron,
   il_luthier: imgLuthier,

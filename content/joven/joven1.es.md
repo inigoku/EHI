@@ -25,7 +25,7 @@ chapterNumber: 1
 
 ## [ILUSTRACIÓN manga_cap1_p2: "Página 2"]
 
-*Ilustración pendiente de generación.*
+*Gerard toca el libro "El Horizonte Interior", que estalla en un vórtice de luz y lo arrastra a un paisaje de burbujas y estrellas.*
 
 - **Viñeta 1 (Cenital):** Gerard llega a una pequeña sala circular. En el centro, en un pedestal de cristal iluminado, hay un único libro antiguo con una cubierta metálica: "EL HORIZONTE INTERIOR". El relieve muestra una burbuja de jabón conteniendo un pequeño agujero negro.
 - **Viñeta 2 (Detalle):** Gerard toca el relieve de la burbuja. SFX: ¡¡ZAS!! (Un zumbido eléctrico).
