@@ -33,6 +33,8 @@ Aspect, A., Dalibard, J., & Roger, G. (1982). Experimental Test of Bell's Inequa
 
 Baars, B.J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
 
+Bailey, J.M., & Pillard, R.C. (1991). A Genetic Study of Male Sexual Orientation. *Archives of General Psychiatry*, 48(12).
+
 Beach, T.G., et al. (2012). Circle of Willis atherosclerosis: Association with Alzheimer's disease, neuritic plaques and neurofibrillary tangles. *Acta Neuropathologica*, 123(1).
 
 Bekenstein, J.D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8).
@@ -40,6 +42,8 @@ Bekenstein, J.D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8).
 Bekoff, M. (2007). *The Emotional Lives of Animals*. New World Library.
 
 Bell, J.S. (1964). On the Einstein Podolsky Rosen Paradox. *Physics Physique Fizika*, 1(3).
+
+Blanchard, R., & Bogaert, A.F. (1996). Homosexuality in men and number of older brothers. *American Journal of Psychiatry*, 153(1).
 
 Boddy, A.M., et al. (2015). Fetal microchimerism and maternal health: A review and evolutionary framework. *BioEssays*, 37(10).
 
@@ -63,6 +67,8 @@ Coan, J.A., & Beckes, L. (2011). Social baseline theory. In: *Handbook of Person
 
 Coan, J.A., & Sbarra, D.A. (2015). Social baseline theory: The social regulation of risk and effort. *Current Opinion in Psychology*, 1.
 
+Colapinto, J. (2000). *As Nature Made Him: The Boy Who Was Raised as a Girl*. HarperCollins.
+
 Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience*. Harper & Row.
 
 Damasio, A. (1999). *The Feeling of What Happens: Body and Emotion in the Making of Consciousness*. Harcourt Brace.
@@ -72,6 +78,8 @@ Deacon, T.W. (2011). *Incomplete Nature: How Mind Emerged from Matter*. W.W. Nor
 Decety, J. (2011). The Neuroevolution of Empathy. *Annals of the New York Academy of Sciences*, 1231(1).
 
 Dehaene, S. (2014). *Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts*. Viking.
+
+Diamond, L.M. (2008). *Sexual Fluidity: Understanding Women's Love and Desire*. Harvard University Press.
 
 Eagleman, D.M. (2009). Brain Time. In: *What's Next? Dispatches on the Future of Science*. Vintage.
 
@@ -83,11 +91,17 @@ Event Horizon Telescope Collaboration. (2019). First M87 Event Horizon Telescope
 
 Event Horizon Telescope Collaboration. (2022). First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way. *The Astrophysical Journal Letters*, 930(2).
 
+Fausto-Sterling, A. (2000). The Five Sexes, Revisited. *The Sciences*, 40(4).
+
 Feldman, R. (2015). The adaptive human parental brain: Implications for children's social-emotional development. *Current Opinion in Psychology*, 15.
 
 Fisher, H. (2004). *Why We Love: The Nature and Chemistry of Romantic Love*. Henry Holt & Co.
 
 Fukushima, H., Terasawa, Y., & Umeda, S. (2011). Association between interoception and empathy: Evidence from heartbeat-evoked brain potential. *International Journal of Psychophysiology*, 79(2).
+
+Ganna, A., et al. (2019). Large-scale GWAS reveals insights into the genetic architecture of same-sex sexual behavior. *Science*, 365(6456).
+
+Hamer, D.H., et al. (1993). A linkage between DNA markers on the X chromosome and male sexual orientation. *Science*, 261(5119).
 
 Hameroff, S., & Penrose, R. (2014). Consciousness in the universe: A review of the 'Orch OR' theory. *Physics of Life Reviews*, 11(1).
 
@@ -105,7 +119,13 @@ Hodges, J.R., & Patterson, K. (2007). Semantic dementia and fluent primary progr
 
 Hossenfelder, S. (2018). *Lost in Math: How Beauty Leads Physics Astray*. Basic Books.
 
+Imperato-McGinley, J., et al. (1974). Steroid 5α-Reductase Deficiency in Man: An Inherited Form of Male Pseudohermaphroditism. *Science*, 186(4170).
+
+Kinsey, A.C., Pomeroy, W.B., & Martin, C.E. (1948). *Sexual Behavior in the Human Male*. W.B. Saunders.
+
 Klass, D., Silverman, P.R., & Nickman, S.L. (1996). *Continuing Bonds: New Understandings of Grief*. Taylor & Francis.
+
+Klein, F. (1985). The Klein Sexual Orientation Grid. In: *Bisexualities: Theory and Research*. Haworth Press.
 
 Klimecki, O.M., Leiberg, S., Ricard, M., & Singer, T. (2014). Differential pattern of functional brain plasticity after compassion and empathy training. *Social Cognitive and Affective Neuroscience*, 9(6).
 
@@ -143,6 +163,8 @@ Roenneberg, T. (2012). *Internal Time: Chronotypes, Social Jet Lag, and Why You'
 
 Sacks, O. (1973). *Awakenings*. Duckworth.
 
+Sax, L. (2002). How Common Is Intersex? A Response to Anne Fausto-Sterling. *Journal of Sex Research*, 39(3).
+
 Schwarzschild, K. (1916). Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie. *Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften*, 189-196.
 
 Searle, J.R. (1980). Minds, brains, and programs. *Behavioral and Brain Sciences*, 3(3).
@@ -171,11 +193,19 @@ Tronick, E. (2007). *The Neurobehavioral and Social-Emotional Development of Inf
 
 Tuan, Y.-F. (1974). *Topophilia: A Study of Environmental Perception, Attitudes, and Values*. Prentice-Hall.
 
+Turban, J.L., Beckwith, N., & Reisner, S.L. (2019). Association Between Recalled Exposure to Gender Identity Conversion Efforts and Psychological Distress and Suicide Attempts Among Transgender Adults. *JAMA Psychiatry*, 77(1).
+
 van der Kolk, B. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
 Volkow, N.D., et al. (2016). Neurobiologic Advances from the Brain Disease Model of Addiction. *New England Journal of Medicine*, 374(4).
 
 Winnicott, D.W. (1971). *Playing and Reality*. Tavistock Publications.
+
+World Health Organization. (1990/2019). *International Statistical Classification of Diseases and Related Health Problems* (ICD-10/ICD-11).
+
+Yogyakarta Principles. (2006/2017). *The Application of International Human Rights Law in Relation to Sexual Orientation, Gender Identity, Gender Expression and Sex Characteristics*.
+
+Zhou, J.N., Hofman, M.A., Gooren, L.J.G., & Swaab, D.F. (1995). A sex difference in the human brain and its relation to transsexuality. *Nature*, 378(6552).
 
 Zurek, W.H. (2003). Decoherence, einselection, and the quantum origins of the classical. *Reviews of Modern Physics*, 75(3).
 
