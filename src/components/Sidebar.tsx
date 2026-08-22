@@ -6,6 +6,7 @@ import { ReadingSettings, ReadingTheme, FontSize } from "./ReadingSettings";
 import { Language, uiStrings } from "../i18n";
 import { LanguageToggle } from "./LanguageToggle";
 import { HeaderControls } from "./HeaderControls";
+import { findConceptualLink } from "../chapters/conceptualLinks";
 // @ts-ignore
 import portadaImg from "../assets/images/portada.png";
 
@@ -130,6 +131,25 @@ export const Sidebar: React.FC<SidebarProps> = ({
     return groups;
   }, [chapters, filteredChapters, language]);
 
+  // Progress broken down by section ("Parte"), so the reader sees which part
+  // of the book they're in rather than a single undifferentiated percentage.
+  const progressSegments = React.useMemo(() => {
+    return groupedChapters.map((g) => ({
+      key: g.key,
+      section: g.section,
+      done: g.items.filter((c) => completedChapters.includes(c.id)).length,
+      total: g.items.length,
+      isCurrent: g.items.some((c) => c.id === activeChapterId),
+    }));
+  }, [groupedChapters, completedChapters, activeChapterId]);
+
+  // The active chapter's cross-referenced chapter, if any, resolved to its title.
+  const seeAlsoChapter = React.useMemo(() => {
+    const linkedId = findConceptualLink(activeChapterId);
+    if (!linkedId) return null;
+    return chapters.find((c) => c.id === linkedId) || null;
+  }, [activeChapterId, chapters]);
+
   const handleSelectChapter = (id: string) => {
     onChapterSelect(id);
     if (window.innerWidth < 1024) {
@@ -150,8 +170,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
           itemActive: "font-semibold bg-[#1A1A1A]/5 border-[#1A1A1A]/10 text-[#1A1A1A]",
           itemHover: "hover:bg-[#1A1A1A]/5 text-[#1A1A1A]/60 hover:text-[#1A1A1A]",
           lineActive: "bg-[#1A1A1A]",
+          seeAlsoBorder: "border-[#1A1A1A]/40",
           progressBg: "bg-[#1A1A1A]/10",
           progressBar: "bg-[#1A1A1A]",
+          progressBarCurrent: "bg-[#1A1A1A]/45",
           button: "bg-[#1A1A1A]/5 border-[#1A1A1A]/10 text-[#1A1A1A] hover:bg-[#1A1A1A]/10",
           input: "bg-[#1A1A1A]/5 border-[#1A1A1A]/10 text-[#1A1A1A] placeholder-[#1A1A1A]/40 focus:border-[#1A1A1A]/40",
           icon: "text-[#1A1A1A]/80",
@@ -166,11 +188,31 @@ export const Sidebar: React.FC<SidebarProps> = ({
           itemActive: "font-semibold bg-[#2C1E11]/5 border-[#2C1E11]/10 text-[#2C1E11]",
           itemHover: "hover:bg-[#2C1E11]/5 text-[#2C1E11]/60 hover:text-[#2C1E11]",
           lineActive: "bg-[#2C1E11]",
+          seeAlsoBorder: "border-[#2C1E11]/40",
           progressBg: "bg-[#2C1E11]/10",
           progressBar: "bg-amber-800",
+          progressBarCurrent: "bg-amber-800/45",
           button: "bg-[#2C1E11]/5 border-[#2C1E11]/10 text-[#2C1E11] hover:bg-[#2C1E11]/10",
           input: "bg-[#2C1E11]/5 border-[#2C1E11]/10 text-[#2C1E11] placeholder-[#2C1E11]/40 focus:border-[#2C1E11]/40",
           icon: "text-amber-800",
+        };
+      case "campo":
+        return {
+          bg: "bg-[#EDE6D6]",
+          text: "text-[#1B2430]",
+          textMuted: "text-[#1B2430]/60",
+          border: "border-[#1B2430]/20",
+          borderBottom: "border-[#1B2430]/20",
+          itemActive: "font-semibold bg-[#B4472A]/8 border-[#B4472A]/25 text-[#1B2430]",
+          itemHover: "hover:bg-[#1B2430]/5 text-[#1B2430]/60 hover:text-[#1B2430]",
+          lineActive: "bg-[#B4472A]",
+          seeAlsoBorder: "border-[#B4472A]/40",
+          progressBg: "bg-[#1B2430]/10",
+          progressBar: "bg-[#2F6B4F]",
+          progressBarCurrent: "bg-[#B4472A]",
+          button: "bg-[#1B2430]/5 border-[#1B2430]/20 text-[#1B2430] hover:bg-[#1B2430]/10",
+          input: "bg-[#1B2430]/5 border-[#1B2430]/20 text-[#1B2430] placeholder-[#1B2430]/40 focus:border-[#1B2430]/40",
+          icon: "text-[#B4472A]",
         };
       case "cosmic":
       default:
@@ -183,8 +225,10 @@ export const Sidebar: React.FC<SidebarProps> = ({
           itemActive: "font-semibold bg-[#E4E6EB]/5 border-[#E4E6EB]/10 text-[#E4E6EB]",
           itemHover: "hover:bg-[#E4E6EB]/5 text-[#E4E6EB]/60 hover:text-[#E4E6EB]",
           lineActive: "bg-amber-500",
+          seeAlsoBorder: "border-amber-500/40",
           progressBg: "bg-[#E4E6EB]/10",
           progressBar: "bg-amber-500",
+          progressBarCurrent: "bg-amber-500/45",
           button: "bg-[#E4E6EB]/5 border-[#E4E6EB]/10 text-[#E4E6EB] hover:bg-[#E4E6EB]/10",
           input: "bg-[#E4E6EB]/5 border-[#E4E6EB]/10 text-[#E4E6EB] placeholder-[#E4E6EB]/40 focus:border-amber-500/30",
           icon: "text-amber-500",
@@ -268,13 +312,31 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </span>
             <span className={`text-xs font-mono font-bold ${sc.text}`}>{getProgressPercentage()}%</span>
           </div>
-          <div className={`w-full h-1.5 ${sc.progressBg} rounded-full overflow-hidden`}>
-            <motion.div
-              initial={{ width: 0 }}
-              animate={{ width: `${getProgressPercentage()}%` }}
-              className={`h-full ${sc.progressBar} rounded-full`}
-            />
-          </div>
+          {progressSegments.length > 1 ? (
+            <div className="flex items-center gap-[3px]" title={progressSegments.map((s) => s.section).join(" · ")}>
+              {progressSegments.map((seg) => (
+                <div
+                  key={seg.key}
+                  title={`${seg.section} — ${seg.done}/${seg.total}`}
+                  className={`flex-1 h-1.5 ${sc.progressBg} rounded-full overflow-hidden`}
+                >
+                  <motion.div
+                    initial={{ width: 0 }}
+                    animate={{ width: `${seg.total > 0 ? (seg.done / seg.total) * 100 : 0}%` }}
+                    className={`h-full rounded-full ${seg.isCurrent ? sc.progressBarCurrent : sc.progressBar}`}
+                  />
+                </div>
+              ))}
+            </div>
+          ) : (
+            <div className={`w-full h-1.5 ${sc.progressBg} rounded-full overflow-hidden`}>
+              <motion.div
+                initial={{ width: 0 }}
+                animate={{ width: `${getProgressPercentage()}%` }}
+                className={`h-full ${sc.progressBar} rounded-full`}
+              />
+            </div>
+          )}
           <div className={`flex items-center justify-between text-[10px] ${sc.textMuted} font-sans`}>
             <span>{t.sidebar.chaptersExplored(completedChapters.length, chapters.length)}</span>
             <div className={`flex items-center gap-0.5 ${theme === "cosmic" ? "text-amber-500" : ""}`}>
@@ -437,6 +499,19 @@ export const Sidebar: React.FC<SidebarProps> = ({
                     </button>
                   );
                 })}
+                {seeAlsoChapter && items.some((item) => item.id === activeChapterId) && (
+                  <button
+                    onClick={() => handleSelectChapter(seeAlsoChapter.id)}
+                    className={`w-full text-left ml-3 pl-3 py-1.5 border-l-2 ${sc.seeAlsoBorder} flex flex-col gap-0 cursor-pointer group`}
+                  >
+                    <span className={`text-[9px] font-mono uppercase tracking-widest ${sc.icon}`}>
+                      {t.sidebar.seeAlso}
+                    </span>
+                    <span className={`text-[11px] font-display ${sc.textMuted} group-hover:opacity-80 truncate`}>
+                      {getTitle(seeAlsoChapter)}
+                    </span>
+                  </button>
+                )}
               </div>
             </div>
           ))}

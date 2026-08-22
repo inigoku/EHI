@@ -38,6 +38,8 @@ export interface UiStrings {
     searchPlaceholder: string;
     noChaptersFound: string;
     introSection: string;
+    relationsMap: string;
+    seeAlso: string;
   };
   settings: {
     title: string;
@@ -45,6 +47,7 @@ export interface UiStrings {
     cosmos: string;
     paper: string;
     amber: string;
+    campo: string;
     textSize: string;
     small: string;
     normal: string;
@@ -235,6 +238,8 @@ export const uiStrings: Record<Language, UiStrings> = {
       searchPlaceholder: "Buscar por palabra...",
       noChaptersFound: "No se encontraron capítulos.",
       introSection: "INTRODUCCIÓN",
+      relationsMap: "Constelación de Capítulos",
+      seeAlso: "Ver también",
     },
     settings: {
       title: "Ajustes de Lectura",
@@ -242,6 +247,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       cosmos: "Cosmos",
       paper: "Papel",
       amber: "Ámbar",
+      campo: "Campo",
       textSize: "Tamaño del Texto",
       small: "Pequeño",
       normal: "Normal",
@@ -451,12 +457,15 @@ export const uiStrings: Record<Language, UiStrings> = {
       searchPlaceholder: "Search by word...",
       noChaptersFound: "No chapters found.",
       introSection: "INTRODUCTION",
+      relationsMap: "Constellation of Chapters",
+      seeAlso: "See also",
     },
     settings: {
       title: "Reading Settings",
       colorScheme: "Color Scheme",
       cosmos: "Cosmos",
       paper: "Paper",
+      campo: "Field",
       amber: "Amber",
       textSize: "Text Size",
       small: "Small",

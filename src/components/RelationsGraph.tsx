@@ -4,17 +4,20 @@ import { ArrowRight, BookOpen, Feather } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
 import { Language } from "../i18n";
 import { allChapters, cuentosList, poemasList, reconstruccionChapters } from "../chapters";
+import { conceptualLinks as sharedConceptualLinks } from "../chapters/conceptualLinks";
 
 interface RelationsGraphProps {
   theme: ReadingTheme;
   language: Language;
   onSelectChapter: (chapterId: string, mode: "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
+  initialSelectedId?: string;
 }
 
 export const RelationsGraph: React.FC<RelationsGraphProps> = ({
   theme,
   language,
   onSelectChapter,
+  initialSelectedId,
 }) => {
   const textStrings = React.useMemo(() => {
     return {
@@ -249,34 +252,12 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
     }>;
   }, [nodes]);
 
-  const conceptualLinks = React.useMemo(() => [
-    { fromId: "cap1", toId: "cap8" },
-    { fromId: "cap1", toId: "cap20_real" },
-    { fromId: "cap2", toId: "cap10" },
-    { fromId: "cap2", toId: "cap15_real" },
-    { fromId: "cap3", toId: "cap11" },
-    { fromId: "cap4", toId: "cap12" },
-    { fromId: "cap4", toId: "cap19_real" },
-    { fromId: "cap5", toId: "cap13_5" },
-    { fromId: "cap5", toId: "cap18_real" },
-    { fromId: "cap6", toId: "cap14_real" },
-    { fromId: "cap6", toId: "cap20_5" },
-    { fromId: "cap7", toId: "cap12" },
-    { fromId: "cap7", toId: "cap17_real" },
-    { fromId: "cap8", toId: "cap13" },
-    { fromId: "cap8", toId: "cap20_real" },
-    { fromId: "cap9", toId: "cap16_real" },
-    { fromId: "cap10", toId: "cap18_real" },
-    { fromId: "cap10", toId: "cap20_real" },
-    { fromId: "cap13", toId: "cap17_real" },
-    { fromId: "cap15_real", toId: "cap20_5" },
-    { fromId: "cap10", toId: "cap18_real" },
-    { fromId: "cap10", toId: "cap20_real" },
-    { fromId: "cap13", toId: "cap17_real" },
-    { fromId: "cap15_real", toId: "cap20_5" },
-  ], []);
+  const conceptualLinks = sharedConceptualLinks;
 
-  const [selectedNodeId, setSelectedNodeId] = React.useState<string>(() => nodes[0]?.id || "");
+  const [selectedNodeId, setSelectedNodeId] = React.useState<string>(() => {
+    if (initialSelectedId && nodes.some((n) => n.id === initialSelectedId)) return initialSelectedId;
+    return nodes[0]?.id || "";
+  });
 
   const selectedInfo = React.useMemo(() => {
     const essayNode = nodes.find(n => n.id === selectedNodeId);

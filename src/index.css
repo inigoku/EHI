@@ -24,6 +24,14 @@
   background: rgba(156, 163, 175, 0.45);
 }
 
+/* "Campo" theme: a faint graph-paper grid behind the reading surface */
+.theme-campo-grid {
+  background-image:
+    linear-gradient(rgba(27, 36, 48, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(27, 36, 48, 0.05) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
 /* Base custom styles to style blockquotes and code elegantly */
 blockquote {
   border-left-width: 3px;

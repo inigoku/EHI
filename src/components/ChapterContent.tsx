@@ -2,13 +2,14 @@ import React from "react";
 import { Chapter, Illustration, allChapters, cuentosList, jovenList } from "../chapters";
 import { JourneyNav } from "./JourneyNav";
 import { IllustrationViewer } from "./IllustrationViewer";
-import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw } from "lucide-react";
+import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw, Compass } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { Language, uiStrings } from "../i18n";
 import { PhiSimulator } from "./PhiSimulator";
 import { NarrationPlayer } from "./NarrationPlayer";
 import { HorizonSimulator } from "./HorizonSimulator";
 import { EntanglementSimulator } from "./EntanglementSimulator";
+import { ReadingTheme } from "./ReadingSettings";
 // @ts-ignore
 import part1Bg from "../assets/images/part1_bg.png";
 // @ts-ignore
@@ -25,11 +26,12 @@ interface ChapterContentProps {
   hasPrev: boolean;
   hasNext: boolean;
   onTermClick: (termName: string) => void;
-  theme: "cosmic" | "paper" | "sepia";
+  theme: ReadingTheme;
   fontSize: "sm" | "base" | "lg" | "xl" | "2xl";
   readingMode: "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven";
   onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven", targetId?: string) => void;
   language: Language;
+  onOpenConstellation?: () => void;
 }
 // Helper to detect if the main chapter illustration is already embedded inline in the text
 const isIllustrationDuplicate = (chapter: Chapter, readingMode: string): boolean => {
@@ -128,6 +130,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   readingMode,
   onSwitchMode,
   language,
+  onOpenConstellation,
 }) => {
   const t = uiStrings[language].chapterContent;
   const displayTitle = language === "en" && chapter.titleEn ? chapter.titleEn : chapter.title;
@@ -551,32 +554,102 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         continue;
       }
 
-      // Handle custom comparison bento blocks
-      // Format: > **En física esto se llama:**... or > **En la vida diaria es como:**...
-      if (trimmed.startsWith("> **En física esto se llama:**")) {
-        const value = trimmed.replace("> **En física esto se llama:**", "").trim();
-        processedBlocks.push(
-          <div key={i} className={`${tc.bentoPhys} rounded-xl p-4 my-4 font-mono text-xs sm:text-sm shadow-sm relative overflow-hidden group`}>
-            <div className={`absolute top-0 right-0 px-2 py-0.5 ${tc.bentoPhysTag} text-[9px] uppercase tracking-widest font-sans rounded-bl-lg`}>
-              Física
+      // Handle custom comparison bento blocks: physics / software / daily-life registers,
+      // in both Spanish and English source markdown.
+      const bentoRegisters: Array<{
+        prefixes: string[];
+        box: string;
+        tag: string;
+        title: string;
+        label: string;
+        font: string;
+        italic?: boolean;
+      }> = [
+        {
+          prefixes: ["> **En física esto se llama:**", "> **In physics this is called:**"],
+          box: tc.bentoPhys,
+          tag: tc.bentoPhysTag,
+          title: tc.bentoPhysTitle,
+          label: language === "en" ? "Physics" : "Física",
+          font: "font-mono",
+        },
+        {
+          prefixes: ["> **En software esto se llama:**", "> **In software this is called:**"],
+          box: tc.bentoSoftware,
+          tag: tc.bentoSoftwareTag,
+          title: tc.bentoSoftwareTitle,
+          label: language === "en" ? "Software" : "Software",
+          font: "font-mono",
+        },
+        {
+          prefixes: ["> **En la vida diaria es como:**", "> **In daily life it's like:**", "> **In everyday life it's like:**"],
+          box: tc.bentoMeta,
+          tag: tc.bentoMetaTag,
+          title: tc.bentoMetaTitle,
+          label: language === "en" ? "Everyday Life" : "Metáfora",
+          font: "font-sans",
+          italic: true,
+        },
+      ];
+
+      // In the "campo" theme, a complete física→software→vida-diaria triad renders
+      // as one connected diagram (stamps + arrows) instead of three separate cards.
+      if (theme === "campo") {
+        const findPrefix = (lineText: string | undefined, register: (typeof bentoRegisters)[number]) =>
+          lineText ? register.prefixes.find((p) => lineText.trim().startsWith(p)) : undefined;
+
+        const physPrefix = findPrefix(trimmed, bentoRegisters[0]);
+        const softLine = lines[i + 1];
+        const lifeLine = lines[i + 2];
+        const softPrefix = findPrefix(softLine, bentoRegisters[1]);
+        const lifePrefix = findPrefix(lifeLine, bentoRegisters[2]);
+
+        if (physPrefix && softPrefix && lifePrefix) {
+          const rows = [
+            { r: bentoRegisters[0], prefix: physPrefix, text: trimmed },
+            { r: bentoRegisters[1], prefix: softPrefix, text: softLine!.trim() },
+            { r: bentoRegisters[2], prefix: lifePrefix, text: lifeLine!.trim() },
+          ];
+          processedBlocks.push(
+            <div key={i} className={`${tc.border} border rounded-lg p-4 my-4 relative`} style={{ background: "rgba(255,255,255,0.35)" }}>
+              {rows.map((row, ri) => {
+                const value = row.text.replace(row.prefix!, "").trim();
+                const tagColorClass = row.r.title;
+                return (
+                  <React.Fragment key={ri}>
+                    <div className="flex items-start gap-3">
+                      <span className={`shrink-0 inline-block text-[9px] font-sans font-bold uppercase tracking-widest border rounded px-2 py-0.5 ${row.r.tag} ${tagColorClass}`}>
+                        {row.r.label}
+                      </span>
+                      <span className={`font-mono text-xs sm:text-sm leading-relaxed ${tc.text}`}>{value}</span>
+                    </div>
+                    {ri < rows.length - 1 && (
+                      <div className={`text-center text-sm my-2 ${tc.textMuted}`}>↓</div>
+                    )}
+                  </React.Fragment>
+                );
+              })}
             </div>
-            <strong className={`${tc.bentoPhysTitle} block mb-1`}>En física esto se llama:</strong>
-            <span>{value}</span>
-          </div>
-        );
-        i++;
-        continue;
+          );
+          i += 3;
+          continue;
+        }
       }
 
-      if (trimmed.startsWith("> **En la vida diaria es como:**")) {
-        const value = trimmed.replace("> **En la vida diaria es como:**", "").trim();
+      const matchedRegister = bentoRegisters
+        .map((r) => ({ r, prefix: r.prefixes.find((p) => trimmed.startsWith(p)) }))
+        .find((m) => m.prefix);
+
+      if (matchedRegister) {
+        const { r, prefix } = matchedRegister;
+        const value = trimmed.replace(prefix!, "").trim();
         processedBlocks.push(
-          <div key={i} className={`${tc.bentoMeta} rounded-xl p-4 my-4 font-sans text-xs sm:text-sm shadow-sm relative overflow-hidden group`}>
-            <div className={`absolute top-0 right-0 px-2 py-0.5 ${tc.bentoMetaTag} text-[9px] uppercase tracking-widest font-mono rounded-bl-lg`}>
-              Metáfora
+          <div key={i} className={`${r.box} rounded-xl p-4 my-4 ${r.font} text-xs sm:text-sm shadow-sm relative overflow-hidden group`}>
+            <div className={`absolute top-0 right-0 px-2 py-0.5 ${r.tag} text-[9px] uppercase tracking-widest font-sans rounded-bl-lg`}>
+              {r.label}
             </div>
-            <strong className={`${tc.bentoMetaTitle} block mb-1`}>En la vida diaria es como:</strong>
-            <span className="italic">{value}</span>
+            <strong className={`${r.title} block mb-1`}>{prefix!.replace(/^> \*\*/, "").replace(/\*\*$/, "")}</strong>
+            <span className={r.italic ? "italic" : undefined}>{value}</span>
           </div>
         );
         i++;
@@ -694,7 +767,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         if (match.index > lastIndex) {
           result.push(part.substring(lastIndex, match.index));
         }
-        result.push(<strong key={match.index} className={`font-semibold ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-white"}`}>{match[1]}</strong>);
+        result.push(<strong key={match.index} className={`font-semibold ${tc.text}`}>{match[1]}</strong>);
         lastIndex = regex.lastIndex;
       }
       if (lastIndex < part.length) {
@@ -729,7 +802,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             </button>
           );
         } else {
-          result.push(<strong key={match.index} className={`font-semibold ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-white"}`}>{innerText}</strong>);
+          result.push(<strong key={match.index} className={`font-semibold ${tc.text}`}>{innerText}</strong>);
         }
         lastIndex = regex.lastIndex;
       }
@@ -789,6 +862,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           bentoPhys: "bg-[#1A1A1A]/5 border border-[#1A1A1A]/10 text-[#1A1A1A]",
           bentoPhysTag: "bg-[#1A1A1A]/10 text-[#1A1A1A]/80",
           bentoPhysTitle: "text-[#1A1A1A] font-semibold",
+          bentoSoftware: "bg-[#1A1A1A]/5 border border-[#1A1A1A]/10 text-[#1A1A1A]",
+          bentoSoftwareTag: "bg-[#1A1A1A]/10 text-[#1A1A1A]/80",
+          bentoSoftwareTitle: "text-[#1A1A1A] font-semibold",
           bentoMeta: "bg-[#1A1A1A]/5 border border-[#1A1A1A]/10 text-[#1A1A1A]",
           bentoMetaTag: "bg-[#1A1A1A]/10 text-[#1A1A1A]/80",
           bentoMetaTitle: "text-[#1A1A1A] font-semibold",
@@ -811,6 +887,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           bentoPhys: "bg-amber-950/5 border border-amber-900/10 text-[#2C1E11]",
           bentoPhysTag: "bg-amber-900/10 text-amber-900",
           bentoPhysTitle: "text-amber-900 font-semibold",
+          bentoSoftware: "bg-amber-900/5 border border-amber-950/10 text-[#2C1E11]",
+          bentoSoftwareTag: "bg-amber-950/10 text-amber-950",
+          bentoSoftwareTitle: "text-amber-950 font-semibold",
           bentoMeta: "bg-amber-800/5 border border-amber-800/10 text-[#2C1E11]",
           bentoMetaTag: "bg-amber-800/10 text-amber-800",
           bentoMetaTitle: "text-amber-800 font-semibold",
@@ -821,6 +900,31 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           highlight: "bg-amber-800/5 border border-amber-800/15 text-amber-800 hover:bg-amber-800/10",
           termLink: "text-amber-800 underline decoration-dotted decoration-amber-800/50 underline-offset-[3px] hover:decoration-amber-800 hover:text-amber-900",
           blockquote: "border-l-2 border-amber-800/40 pl-4 py-1 italic text-amber-900/80",
+        };
+      case "campo":
+        return {
+          text: "text-[#1B2430]",
+          textMuted: "text-[#1B2430]/60",
+          border: "border-[#1B2430]/20",
+          accent: "text-[#B4472A]",
+          accentMuted: "text-[#B4472A]/80",
+          accentBg: "bg-[#B4472A]/5 border-[#B4472A]/20 text-[#B4472A] hover:bg-[#B4472A]/10",
+          bentoPhys: "bg-[#6B4423]/5 border border-[#6B4423]/25 text-[#1B2430]",
+          bentoPhysTag: "bg-[#6B4423]/12 text-[#6B4423]",
+          bentoPhysTitle: "text-[#6B4423] font-semibold",
+          bentoSoftware: "bg-[#2F6B4F]/5 border border-[#2F6B4F]/25 text-[#1B2430]",
+          bentoSoftwareTag: "bg-[#2F6B4F]/12 text-[#2F6B4F]",
+          bentoSoftwareTitle: "text-[#2F6B4F] font-semibold",
+          bentoMeta: "bg-[#B4472A]/5 border border-[#B4472A]/25 text-[#1B2430]",
+          bentoMetaTag: "bg-[#B4472A]/12 text-[#B4472A]",
+          bentoMetaTitle: "text-[#B4472A] font-semibold",
+          cardBg: "bg-[#F3EEE2]",
+          subtleCard: "bg-[#1B2430]/5 border border-[#1B2430]/20 text-[#1B2430]",
+          inputBg: "bg-[#1B2430]/5 border-[#1B2430]/20 text-[#1B2430]",
+          inputText: "text-[#1B2430]",
+          highlight: "bg-[#B4472A]/5 border border-[#B4472A]/20 text-[#B4472A] hover:bg-[#B4472A]/10",
+          termLink: "text-[#B4472A] underline decoration-solid decoration-[#B4472A]/60 underline-offset-[3px] hover:decoration-[#B4472A] hover:text-[#8f3720]",
+          blockquote: "border-l-2 border-[#B4472A]/50 pl-4 py-1 italic text-[#1B2430]/75",
         };
       case "cosmic":
       default:
@@ -834,6 +938,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           bentoPhys: "bg-indigo-950/20 border border-indigo-500/20 text-indigo-300",
           bentoPhysTag: "bg-indigo-500/10 text-indigo-400",
           bentoPhysTitle: "text-indigo-400 font-semibold",
+          bentoSoftware: "bg-emerald-950/20 border border-emerald-500/20 text-emerald-200",
+          bentoSoftwareTag: "bg-emerald-500/10 text-emerald-400",
+          bentoSoftwareTitle: "text-emerald-400 font-semibold",
           bentoMeta: "bg-amber-950/20 border border-amber-500/20 text-amber-200",
           bentoMetaTag: "bg-amber-500/10 text-amber-400",
           bentoMetaTitle: "text-amber-400 font-semibold",
@@ -855,6 +962,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         return "bg-white text-[#1A1A1A] border-[#1A1A1A]/10 select-text";
       case "sepia":
         return "bg-amber-50/5 text-[#2C1E11] border-amber-800/10 select-text";
+      case "campo":
+        return "bg-[#1B2430]/5 text-[#1B2430] border-[#1B2430]/20 select-text";
       case "cosmic":
       default:
         return "bg-[#14161D]/50 text-slate-300 border-slate-800/60 select-text";
@@ -896,7 +1005,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             {uiStrings[language].header.sectionJoven.toUpperCase()}
           </span>
         )}
-        <h1 className={`font-display font-semibold text-2xl sm:text-5xl ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-slate-100"} tracking-tight max-w-3xl mx-auto leading-tight`}>
+        <h1 className={`font-display font-semibold text-2xl sm:text-5xl ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : theme === "campo" ? "text-[#1B2430]" : "text-slate-100"} tracking-tight max-w-3xl mx-auto leading-tight`}>
           {readingMode === "essay"
             ? (chapter.chapterNumber && chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && t.chapterPrefix(chapter.chapterNumber))
             : readingMode === "cuentos"
@@ -1114,6 +1223,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     ? "from-[#0D0E12]/95 via-[#0D0E12]/60 to-[#0D0E12]/15"
                     : theme === "sepia"
                     ? "from-[#FAF6EE]/95 via-[#FAF6EE]/60 to-[#FAF6EE]/15"
+                    : theme === "campo"
+                    ? "from-[#F3EEE2]/95 via-[#F3EEE2]/60 to-[#F3EEE2]/15"
                     : "from-[#F9F6F1]/95 via-[#F9F6F1]/60 to-[#F9F6F1]/15"
                 }`} />
               </div>
@@ -1392,6 +1503,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                     ? "from-[#14161D]/80 via-transparent to-[#14161D]/90"
                     : theme === "sepia"
                     ? "from-[#FAF6EE]/80 via-transparent to-[#FAF6EE]/90"
+                    : theme === "campo"
+                    ? "from-[#F3EEE2]/80 via-transparent to-[#F3EEE2]/90"
                     : "from-white/80 via-transparent to-white/90"
                 }`} />
               </div>
@@ -1502,7 +1615,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       {/* Navigation Footer - fixed so it stays visible while reading, not just at the end of the chapter */}
       <div
         className={`fixed bottom-0 left-0 lg:left-80 right-0 z-30 border-t ${tc.border} backdrop-blur-md ${
-          theme === "paper" ? "bg-[#F9F6F1]/95" : theme === "sepia" ? "bg-[#FAF6EE]/95" : "bg-[#0D0E12]/90"
+          theme === "paper" ? "bg-[#F9F6F1]/95" : theme === "sepia" ? "bg-[#FAF6EE]/95" : theme === "campo" ? "bg-[#F3EEE2]/95" : "bg-[#0D0E12]/90"
         }`}
       >
         <div className="max-w-5xl mx-auto flex items-center justify-between px-5 sm:px-8 lg:px-12 py-3">
@@ -1510,14 +1623,25 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             onClick={onPrev}
             disabled={!hasPrev}
             className={`flex items-center gap-2 px-4 py-2.5 rounded-xl border ${
-              theme === "paper" || theme === "sepia"
-                ? `border-[#1A1A1A]/10 text-[#1A1A1A] hover:bg-[#1A1A1A]/5`
+              theme === "paper" || theme === "sepia" || theme === "campo"
+                ? `${tc.border} ${tc.text} hover:bg-black/5`
                 : "border-slate-800 text-slate-400 hover:border-slate-700 hover:text-slate-200"
             } disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all active:scale-95 text-xs sm:text-sm font-semibold cursor-pointer`}
           >
             <ChevronLeft className="w-4 h-4" />
             <span className="hidden sm:inline">{t.prev}</span>
           </button>
+
+          {onOpenConstellation && readingMode === "essay" && (
+            <button
+              onClick={onOpenConstellation}
+              title={uiStrings[language].sidebar.relationsMap}
+              className={`hidden sm:flex items-center gap-1.5 px-3 py-2 rounded-lg border ${tc.border} ${tc.textMuted} hover:opacity-70 transition-opacity cursor-pointer text-[11px] font-mono`}
+            >
+              <Compass className="w-3.5 h-3.5" />
+              <span className="hidden md:inline">{uiStrings[language].sidebar.relationsMap}</span>
+            </button>
+          )}
 
           <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
             {readingMode === "essay"
@@ -1545,6 +1669,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             className={`flex items-center gap-2 px-4 py-2.5 rounded-xl border ${
               theme === "paper" || theme === "sepia"
                 ? `border-[#1A1A1A]/10 text-[#1A1A1A] hover:bg-[#1A1A1A]/5`
+                : theme === "campo"
+                ? `${tc.border} ${tc.accent} hover:bg-black/5`
                 : "border-amber-500/20 bg-amber-500/5 text-amber-400 hover:bg-amber-500/10"
             } disabled:opacity-30 disabled:hover:bg-transparent disabled:cursor-not-allowed transition-all active:scale-95 text-xs sm:text-sm font-semibold cursor-pointer`}
           >
