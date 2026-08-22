@@ -21,7 +21,7 @@ chapterNumber: 2
 
 ## [ILUSTRACIÓN manga_cap2_p4: "Página 4"]
 
-*Ilustración pendiente de generación.*
+*Gerard choca contra el espejo al intentar cruzarlo; Íñigo le explica el Horizonte Interior mientras la burbuja de Sandra se aleja flotando.*
 
 - **Viñeta 1 (Acción):** Gerard intenta saltar a través del espejo para abrazar a Sandra.
 - **Viñeta 2 (Acción/Impacto):** ¡¡PLAF!! El espejo se ondula como agua, pero no se rompe. Gerard rebota hacia atrás y cae al suelo. SFX: ¡¡ZAS!!
