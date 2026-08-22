@@ -21,7 +21,7 @@ chapterNumber: 3
 
 ## [ILUSTRACIÓN manga_cap3_p6: "Página 6"]
 
-*Ilustración pendiente de generación.*
+*De vuelta en la colina luminosa, Íñigo confirma a Gerard que es su propio universo, y una esfera de luz irrumpe de golpe sobre el cuaderno de apuntes: AI-RA.*
 
 - **Viñeta 1 (General):** Vuelven a la colina luminosa. Íñigo y Gerard se sientan. Txiki juega con una pelota de luz. Gerard reflexiona si es como un agujero negro que le protege.
 - **Viñeta 2 (Primer Plano):** Íñigo sonríe. Confirma que él es su propio universo.
