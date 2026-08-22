@@ -4,6 +4,7 @@ import { Sidebar } from "./components/Sidebar";
 import { ChapterContent } from "./components/ChapterContent";
 import { GlossaryDrawer } from "./components/GlossaryDrawer";
 import { JournalViewer } from "./components/JournalViewer";
+import { ConstellationDrawer } from "./components/ConstellationDrawer";
 import { LandingPage } from "./components/LandingPage";
 import { ChapterMusicPlayer } from "./components/ChapterMusicPlayer";
 import { PathLanding } from "./components/PathLanding";
@@ -58,6 +59,7 @@ export default function App() {
   const [isGlossaryOpen, setIsGlossaryOpen] = React.useState<boolean>(false);
   const [selectedGlossaryTerm, setSelectedGlossaryTerm] = React.useState<string | undefined>(undefined);
   const [isJournalOpen, setIsJournalOpen] = React.useState<boolean>(false);
+  const [isConstellationOpen, setIsConstellationOpen] = React.useState<boolean>(false);
   const [isSidebarOpen, setIsSidebarOpen] = React.useState<boolean>(false);
 
   // Path Landing states
@@ -201,6 +203,13 @@ export default function App() {
           textMuted: "text-[#2C1E11]/60",
           border: "border-[#2C1E11]/10",
         };
+      case "campo":
+        return {
+          bg: "bg-[#F3EEE2]",
+          text: "text-[#1B2430]",
+          textMuted: "text-[#1B2430]/60",
+          border: "border-[#1B2430]/15",
+        };
       case "cosmic":
       default:
         return {
@@ -219,6 +228,8 @@ export default function App() {
         return "bg-[#F9F6F1] text-[#1A1A1A] font-serif";
       case "sepia":
         return "bg-[#FAF6EE] text-[#2C1E11] font-serif";
+      case "campo":
+        return "bg-[#F3EEE2] text-[#1B2430] font-serif theme-campo-grid";
       case "cosmic":
       default:
         return "bg-[#0D0E12] text-[#E4E6EB] font-serif";
@@ -388,6 +399,7 @@ export default function App() {
               readingMode={readingMode}
               onSwitchMode={handleSwitchMode}
               language={language}
+              onOpenConstellation={() => setIsConstellationOpen(true)}
             />
           )}
         </main>
@@ -409,6 +421,15 @@ export default function App() {
         onChapterSelect={setActiveChapterId}
         theme={theme}
         language={language}
+      />
+
+      <ConstellationDrawer
+        isOpen={isConstellationOpen}
+        onClose={() => setIsConstellationOpen(false)}
+        theme={theme}
+        language={language}
+        currentChapterId={activeChapterId}
+        onSelectChapter={(id, mode) => handleSwitchMode(mode, id)}
       />
 
       <ChapterMusicPlayer readingMode={readingMode} volume={volume} isMuted={isMuted} />

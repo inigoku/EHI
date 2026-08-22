@@ -1,9 +1,9 @@
 import React from "react";
-import { Settings, ZoomIn, ZoomOut, Sun, Moon, Coffee, MessagesSquare } from "lucide-react";
+import { Settings, ZoomIn, ZoomOut, Sun, Moon, Coffee, Compass, MessagesSquare } from "lucide-react";
 import { Language, uiStrings } from "../i18n";
 import { DialogosSettings } from "./DialogosSettings";
 
-export type ReadingTheme = "cosmic" | "paper" | "sepia";
+export type ReadingTheme = "cosmic" | "paper" | "sepia" | "campo";
 export type FontSize = "sm" | "base" | "lg" | "xl" | "2xl";
 
 interface ReadingSettingsProps {
@@ -63,6 +63,17 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
           buttonInactive: "bg-[#2C1E11]/5 border-[#2C1E11]/10 hover:bg-[#2C1E11]/10 text-[#2C1E11]",
           buttonZoom: "border-[#2C1E11]/10 bg-[#2C1E11]/5 hover:bg-[#2C1E11]/10 text-[#2C1E11] disabled:opacity-35",
         };
+      case "campo":
+        return {
+          bg: "bg-[#B4472A]/5 border-[#1B2430]/15 text-[#1B2430]",
+          text: "text-[#1B2430]",
+          textMuted: "text-[#1B2430]/60",
+          border: "border-[#1B2430]/15",
+          icon: "text-[#B4472A]",
+          buttonActive: "bg-[#1B2430] border-[#1B2430] text-[#F3EEE2] shadow-sm",
+          buttonInactive: "bg-[#1B2430]/5 border-[#1B2430]/15 hover:bg-[#1B2430]/10 text-[#1B2430]",
+          buttonZoom: "border-[#1B2430]/15 bg-[#1B2430]/5 hover:bg-[#1B2430]/10 text-[#1B2430] disabled:opacity-35",
+        };
       case "cosmic":
       default:
         return {
@@ -90,7 +101,7 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
       {/* Themes */}
       <div className="space-y-1.5">
         <span className={`text-[10px] font-mono uppercase ${rs.textMuted}`}>{t.settings.colorScheme}</span>
-        <div className="grid grid-cols-3 gap-1.5 font-sans">
+        <div className="grid grid-cols-2 gap-1.5 font-sans">
           <button
             onClick={() => setTheme("cosmic")}
             className={`flex items-center justify-center gap-1.5 p-2 rounded-xl text-xs font-medium border transition-all cursor-pointer ${
@@ -117,6 +128,15 @@ export const ReadingSettings: React.FC<ReadingSettingsProps> = ({
           >
             <Coffee className="w-3.5 h-3.5" />
             {t.settings.amber}
+          </button>
+          <button
+            onClick={() => setTheme("campo")}
+            className={`flex items-center justify-center gap-1.5 p-2 rounded-xl text-xs font-medium border transition-all cursor-pointer ${
+              theme === "campo" ? rs.buttonActive : rs.buttonInactive
+            }`}
+          >
+            <Compass className="w-3.5 h-3.5" />
+            {t.settings.campo}
           </button>
         </div>
       </div>
