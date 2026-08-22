@@ -1,7 +1,7 @@
 ---
 title: LA CALIBRACIÓN DEL HORIZONTE
 subtitle: (Orientación, identidad y sexo no son elección ni error)
-section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
+section: LECTURAS TOPOLÓGICAS
 chapterNumber: 39
 illustrationId: il_calibracion
 illustrationTitle: La calibración del horizonte
