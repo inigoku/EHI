@@ -145,6 +145,13 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const [reflection, setReflection] = React.useState<string>("");
   const [isSaved, setIsSaved] = React.useState<boolean>(false);
 
+  // Count of essay/lecturas chapters with a purely numeric chapterNumber, for
+  // the footer's "Part N of TOTAL" label — computed instead of hardcoded so
+  // it never goes stale as chapters are added, moved, or renumbered.
+  const numberedEssayChapterCount = React.useMemo(() => {
+    return allChapters.filter((c) => c.chapterNumber && !isNaN(Number(c.chapterNumber))).length;
+  }, []);
+
   // Tab state for Reconstrucción mode: narrativa, ensayo, or poema
   const [reconstructTab, setReconstructTab] = React.useState<"narrativa" | "ensayo" | "poema">("narrativa");
   const reconTabLabel =
@@ -1430,7 +1437,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
           <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
             {readingMode === "essay"
-              ? t.partOf(chapter.chapterNumber || uiStrings[language].header.interludio, 34)
+              ? t.partOf(chapter.chapterNumber || uiStrings[language].header.interludio, numberedEssayChapterCount)
               : readingMode === "cuentos"
               ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))
               : readingMode === "reconstruccion"

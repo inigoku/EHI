@@ -95,6 +95,13 @@ export default function App() {
     return reconstruccionChapters;
   }, [readingMode]);
 
+  // Count of essay/lecturas chapters with a purely numeric chapterNumber, for
+  // the "PART: N of TOTAL" header — computed instead of hardcoded so it never
+  // goes stale as chapters are added, moved, or renumbered.
+  const numberedEssayChapterCount = React.useMemo(() => {
+    return allChapters.filter((c) => c.chapterNumber && !isNaN(Number(c.chapterNumber))).length;
+  }, []);
+
   // Find active chapter object
   const activeChapter = React.useMemo(() => {
     return currentChaptersList.find((c) => c.id === activeChapterId) || currentChaptersList[0];
@@ -266,7 +273,7 @@ export default function App() {
             {readingMode === "essay" ? (
               activeChapter.chapterNumber ? (
                 !isNaN(Number(activeChapter.chapterNumber)) ? (
-                  <>{t.header.part}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} 26</strong></>
+                  <>{t.header.part}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} {numberedEssayChapterCount}</strong></>
                 ) : (
                   <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
                 )
