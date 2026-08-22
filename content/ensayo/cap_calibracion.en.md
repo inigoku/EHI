@@ -2,7 +2,7 @@
 title: THE HORIZON'S CALIBRATION
 subtitle: (Orientation, identity, and sex are neither a choice nor an error)
 section: PART THREE: THE LIMITS OF THE HORIZON
-chapterNumber: 38.5
+chapterNumber: 39
 illustrationId: il_calibracion
 illustrationTitle: The horizon's calibration
 illustrationDescription: A spherical horizon with several internal axes of light crossing at its center, each a different color, none subordinate to the others. From outside, other horizons project beams trying to force those axes into a single external pattern, without succeeding. The central horizon stays stable, coherent, lit from within.
@@ -101,7 +101,7 @@ This chapter doesn't fully explain any of the three variables it describes. It c
 
 ---
 
-> **Note to Chapter 38.5**
+> **Note to Chapter 39**
 >
 > **What we do know:** the Kinsey scale (Kinsey, Pomeroy & Martin, 1948) and the Klein grid (1985) are established frameworks for measuring orientation as a continuous, non-binary variable; twin studies (Bailey & Pillard, 1991) show partial heritability of sexual orientation; the genome-wide association study by Ganna et al. (2019), with close to 500,000 participants, identified five loci with weak statistical association that together explain between 8% and 25% of observed variation, without allowing individual prediction; the fraternal birth order effect (Blanchard & Bogaert) is widely replicated across diverse populations; Zhou et al. (1995) documented a structural difference in the bed nucleus of the stria terminalis between trans women and cisgender men; the World Health Organization removed homosexuality from its disease list in 1990 and reclassified gender incongruence out of mental disorders in 2019; major international medical and psychological bodies have condemned conversion therapy, the Turban, Beckwith & Reisner study (2019) of 27,715 transgender people found an association between recalled exposure to such attempts and more than double the lifetime risk of a suicide attempt; Imperato-McGinley et al. (1974) documented 5-alpha-reductase deficiency in Dominican families and the shift to male identity in most cases after puberty; and Malta became, in 2015, the first country to ban non-consensual genital "normalizing" surgery on intersex minors by law.
 >

@@ -2,7 +2,7 @@
 title: LA CALIBRACIÓN DEL HORIZONTE
 subtitle: (Orientación, identidad y sexo no son elección ni error)
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 38.5
+chapterNumber: 39
 illustrationId: il_calibracion
 illustrationTitle: La calibración del horizonte
 illustrationDescription: Un horizonte esférico con varios ejes internos de luz que se cruzan en su centro, cada uno de un color distinto y ninguno subordinado a los demás. Desde fuera, otros horizontes proyectan haces que intentan forzar esos ejes a alinearse con un único patrón externo, sin conseguirlo. El horizonte central permanece estable, coherente, iluminado desde dentro.
@@ -101,7 +101,7 @@ Este capítulo no explica por completo ninguna de las tres variables que describ
 
 ---
 
-> **Nota al Capítulo 38.5**
+> **Nota al Capítulo 39**
 >
 > **Lo que sí sabemos:** la escala de Kinsey, Pomeroy y Martin (1948) y la rejilla de Klein (1985) son marcos establecidos para medir la orientación como variable continua, no binaria; los estudios de gemelos (Bailey & Pillard, 1991) muestran heredabilidad parcial de la orientación sexual; el estudio de asociación de genoma completo de Ganna et al. (2019), con cerca de 500.000 participantes, identificó cinco loci con asociación estadística débil que en conjunto explican entre el 8% y el 25% de la variación observada, sin permitir predicción individual; el efecto del orden de nacimiento fraterno (Blanchard & Bogaert) está ampliamente replicado en poblaciones diversas; Zhou et al. (1995) documentaron una diferencia estructural en el núcleo central del lecho de la estría terminal entre mujeres trans y hombres cisgénero; la Organización Mundial de la Salud retiró la homosexualidad de su lista de enfermedades en 1990 y reclasificó la incongruencia de género fuera de los trastornos mentales en 2019; los principales cuerpos médicos y psicológicos internacionales han condenado la terapia de conversión, el estudio de Turban, Beckwith & Reisner (2019) sobre 27.715 personas trans encontró una asociación entre la exposición recordada a esos intentos y un riesgo de intento de suicidio más del doble mayor a lo largo de la vida; Imperato-McGinley et al. (1974) documentaron el déficit de 5-alfa-reductasa en familias de la República Dominicana y el cambio de identidad hacia el género masculino en la mayoría de los casos tras la pubertad; y Malta se convirtió en 2015 en el primer país en prohibir por ley la cirugía de "normalización" genital no consentida en menores intersexuales.
 >
