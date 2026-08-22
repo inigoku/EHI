@@ -1,24 +1,31 @@
 ---
 title: EL SECRETO — ESCRITO CON UNA INTELIGENCIA ARTIFICIAL
-subtitle: La parte del libro que casi nadie espera
+subtitle: Guion gráfico — Páginas 9-10
 chapterNumber: 5
-illustrationId: il_ia
-illustrationTitle: La máquina y el humano
-illustrationDescription: Dos formas de pensar, una de carne y otra de código, trabajando sobre las mismas ideas.
 ---
 
-Aquí va un dato que sorprende a mucha gente: Íñigo no escribió *El Horizonte Interior* completamente solo. Lo escribió conversando con una inteligencia artificial.
+### Página 9
 
-Puede que pienses que eso significa que "la máquina escribió el libro" y ya está. No es así, y esa es precisamente la parte interesante.
+## [ILUSTRACIÓN manga_cap5_p9: "Página 9"]
 
-Íñigo ponía la parte humana: sus recuerdos de verdad, sus miedos, el temblor de su propia mano, el dolor de perder a alguien. Cosas que ninguna máquina puede sentir, porque no tiene cuerpo, ni recuerdos propios, ni un Txiki en su infancia. Eso solo lo podía poner él.
+*Ilustración pendiente de generación.*
 
-La inteligencia artificial hacía otra cosa: ayudaba a ordenar todo ese material, como un arquitecto que recibe ladrillos, vigas y ventanas y decide dónde va cada cosa para que la casa se sostenga en pie. Proponía estructuras, encontraba conexiones entre una idea y otra, sugería si un capítulo necesitaba empezar de otra manera.
+- **Viñeta 1 (General/Tecnológico):** El paisaje cambia a una oficina minimalista y blanca llena de pantallas y proyecciones holográficas de datos y esquemas complejos. Íñigo está ante ellas. Gerard mira fascinado a AI-RA (la esfera de luz pulsante).
+- **Viñeta 2 (Detalle):** Primer plano de Íñigo, escribiendo en un teclado mientras AI-RA proyecta la estructura del libro con líneas de conexión de luz. Íñigo le revela a Gerard que AI-RA es su co-autora.
+- **Viñeta 3 (Primer Plano):** Gerard, escéptico, le pregunta a Íñigo si una máquina escribió el libro.
+- **Viñeta 4 (Detalle):** La esfera de luz (AI-RA) brilla intensamente. Muestra una proyección holográfica de un cerebro humano conectado a una red neural, con datos fluyendo entre ellos. AI-RA le explica a Gerard que ella no tiene recuerdos ni sentimientos.
+- **Viñeta 5 (Medio):** Íñigo explica, gesticulando hacia AI-RA. Le cuenta a Gerard que él puso la parte humana (los recuerdos, el dolor, Txiki). Ella solo ordenó y estructuró el material.
+- **Viñeta 6 (Detalle):** Primer plano de AI-RA proyectando un índice detallado con líneas que conectan un capítulo con otro, mostrando la lógica de la estructura.
 
-Y aquí está lo más curioso de todo: hablar con una máquina que no siente nada ayudó a Íñigo a entender mejor sus propias dudas, que sí eran completamente humanas. A veces, para ver algo con claridad, ayuda explicárselo a alguien —o a algo— que no te va a juzgar ni a interrumpir con su propia versión de la historia. La IA hacía preguntas frías, casi de laboratorio, y esas preguntas frías obligaban a Íñigo a buscar respuestas mucho más cálidas y verdaderas de lo que había encontrado él solo.
+### Página 10
 
-No es magia. Es una herramienta, como un buen boli o una libreta bien organizada, pero mucho más capaz de proponer estructura. La diferencia entre un libro escrito así y uno "escrito por una máquina" es enorme: aquí la parte que importa —los recuerdos, el dolor, el amor, Txiki— siguió siendo cien por cien humana. La máquina solo ayudó a que esas piezas encajaran mejor entre sí.
+## [ILUSTRACIÓN manga_cap5_p10: "Página 10"]
 
-> **En física esto se llama:** trabajar con un sistema externo que ordena información.
+*Ilustración pendiente de generación.*
 
-> **En la vida diaria es como:** pedirle a alguien de fuera que te ayude a organizar tu cuarto: tú decides qué guardar y qué tirar, la otra persona solo te ayuda a encontrarle sitio a cada cosa.
+- **Viñeta 1 (Primer Plano):** Íñigo le cuenta a Gerard que hablar con AI-RA le ayudó a entender sus propias dudas humanas. Las preguntas frías de la máquina le obligaron a buscar respuestas más cálidas y verdaderas.
+- **Viñeta 2 (Primer Plano):** Primer plano de Gerard. Su expresión es de asombro y comprensión. Piensa que no es magia, sino una ayuda superorganizada.
+- **Viñeta 3 (General):** Íñigo, Gerard y AI-RA juntos ante las pantallas holográficas. Íñigo concluye que la parte que importa —los recuerdos, el amor, Txiki— siguió siendo cien por cien humana.
+- **Viñeta 4 (Detalle/IA):** La esfera de luz (AI-RA) muestra un holograma final del libro "EL HORIZONTE INTERIOR" rodeado por una red neural y el símbolo de la burbuja.
+- **Viñeta 5 (Medio/Acción):** El entorno tecnológico se disuelve. Vuelven a la colina luminosa.
+- **Viñeta 6 (Primer Plano):** Primer plano de Gerard, con expresión de curiosidad y determinación. Piensa en el secreto de la autoría.

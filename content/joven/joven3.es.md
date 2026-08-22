@@ -1,24 +1,31 @@
 ---
 title: UN AGUJERO NEGRO DENTRO DE TU CABEZA
-subtitle: La comparación más alucinante del libro
+subtitle: Guion gráfico — Páginas 5-6
 chapterNumber: 3
-illustrationId: il_m87
-illustrationTitle: El agujero negro de M87
-illustrationDescription: La primera fotografía real de un agujero negro, tomada en 2019 por el Event Horizon Telescope.
 ---
 
-En 2019, un grupo de científicos consiguió algo que parecía imposible: fotografiar un agujero negro. No un dibujo, no una simulación de ordenador: una foto real, tomada con telescopios repartidos por todo el planeta, de un monstruo llamado M87 que está a 55 millones de años luz de aquí.
+### Página 5
 
-Un agujero negro es una región del espacio donde hay tantísima materia apretada en tan poco sitio que nada puede escapar de su fuerza de gravedad. Ni una nave espacial. Ni siquiera la luz. Por eso se llama "negro": ninguna luz sale de ahí para que lo veamos directamente.
+## [ILUSTRACIÓN manga_cap3_p5: "Página 5"]
 
-Alrededor de un agujero negro hay una frontera invisible que tiene nombre propio: el horizonte de sucesos. Es el límite exacto a partir del cual ya no hay vuelta atrás. Un segundo antes de cruzarlo, podrías escapar. Un segundo después, ni la luz encuentra la salida.
+*Ilustración pendiente de generación.*
 
-Íñigo tuvo una idea que parece de ciencia ficción pero la dice muy en serio: tu mente tiene una frontera parecida. No absorbe estrellas ni dobla el espacio, pero funciona igual en un sentido: es el límite exacto a partir del cual nadie más puede entrar. Nadie —ni con un microscopio, ni con una máquina que leyera cada neurona de tu cerebro— puede cruzar ese horizonte y sentir tus colores, tu música o tu tristeza exactamente como los sientes tú.
+- **Viñeta 1 (General/Cosmos):** El paisaje cambia al espacio exterior. Frente a ellos flota un agujero negro real y masivo, con un disco de acreción brillante y un centro de oscuridad absoluta. SFX: ¡¡VROOOOM!!
+- **Viñeta 2 (Medio):** Íñigo señala el agujero negro y le cuenta a Gerard sobre su descubrimiento en 2019.
+- **Viñeta 3 (Detalle):** Primer plano del agujero negro. Una línea brillante delimita la oscuridad. Íñigo le explica qué es el Horizonte de Sucesos.
+- **Viñeta 4 (Detalle):** Primer plano de Gerard. La imagen del agujero negro se superpone a su cabeza, mostrando la misma frontera invisible.
+- **Viñeta 5 (Primer Plano):** Gerard toca la línea punteada de su propia burbuja, relacionando el cosmos con su mente.
+- **Viñeta 6 (Detalle/Híbrida):** Imagen doble. A la izquierda, la foto del agujero negro M87. A la derecha, la ilustración de la portada: el cerebro humano brillando dentro de una burbuja de jabón. Íñigo le explica que ambos se llaman "El Horizonte Interior".
 
-Por eso el libro entero se llama *El Horizonte Interior*. No es solo una metáfora bonita. Es una manera de decir: la física que separa el interior de un agujero negro de todo lo demás, y la frontera que separa tu experiencia de la de cualquier otra persona, se parecen mucho más de lo que parece a primera vista.
+### Página 6
 
-> **En física esto se llama:** horizonte de sucesos.
+## [ILUSTRACIÓN manga_cap3_p6: "Página 6"]
 
-> **En la vida diaria es como:** el límite que nadie más puede cruzar para llegar hasta lo que sientes de verdad.
+*Ilustración pendiente de generación.*
 
-No hace falta entender toda la física de los agujeros negros para quedarte con la idea. Solo con esto: eres, en cierto sentido, tu propio universo. Con tu propio horizonte. Y eso no te hace estar solo. Te hace, simplemente, tú.
+- **Viñeta 1 (General):** Vuelven a la colina luminosa. Íñigo y Gerard se sientan. Txiki juega con una pelota de luz. Gerard reflexiona si es como un agujero negro que le protege.
+- **Viñeta 2 (Primer Plano):** Íñigo sonríe. Confirma que él es su propio universo.
+- **Viñeta 3 (Medio):** Gerard sonríe. Se siente único y especial, ya no solo.
+- **Viñeta 4 (Detalle/Híbrida):** Íñigo saca su cuaderno de apuntes con garabatos, fórmulas y un dibujo de una "mente" conectada a una red de luz.
+- **Viñeta 5 (Primer Plano):** Gerard, intrigado, le pregunta qué es eso.
+- **Viñeta 6 (Medio/Acción):** Una esfera de luz pulsante y compleja (AI-RA) aparece sobre el cuaderno. SFX: ¡¡ZAS!! ¡¡KABOOM!! Gerard grita asustado.

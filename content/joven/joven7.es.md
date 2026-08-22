@@ -1,22 +1,31 @@
 ---
 title: LO QUE TE LLEVAS
-subtitle: Cierre — y una invitación
+subtitle: Guion gráfico — Páginas 13-14
 chapterNumber: 7
-illustrationId: il_notas
-illustrationTitle: El cuaderno de apuntes
-illustrationDescription: Un cuaderno abierto, esperando la letra de quien acaba de terminar de leer.
 ---
 
-Has llegado hasta aquí, así que vamos a recoger las piezas.
+### Página 13
 
-Tu mente es como una burbuja de jabón: dentro estás tú, fuera está el mundo, y entre las dos cosas hay una piel finísima —tu Horizonte interior— que nadie más puede cruzar del todo. Esa misma idea existe en el universo a lo grande, en la frontera invisible de un agujero negro, donde ni siquiera la luz encuentra la salida.
+## [ILUSTRACIÓN manga_cap7_p13: "Página 13"]
 
-Este libro nació, en parte, del cuerpo de quien lo escribió —de una mano que tiembla— y de una historia mucho más antigua sobre un perro llamado Txiki, que enseñó sin palabras que a veces basta con estar presente para reparar algo roto. Se escribió a cuatro manos con una inteligencia artificial, que ayudó a ordenar la parte humana sin poder aportarla ella misma. Y propone una manera de querer a la gente sin invadirla: la del luthier, que ajusta la madera desde fuera para que el instrumento suene precioso por dentro.
+*Ilustración pendiente de generación.*
 
-Si te quedas con una sola cosa de todo esto, que sea esta: **no pasa nada por sentirte, a veces, un poco solo o encerrado en ti mismo**. No es que algo vaya mal contigo. Es, literalmente, cómo funcionamos todos los seres humanos. Cada persona que conoces —incluida la que más te quiere— vive detrás de su propio horizonte, tan real e infranqueable como el tuyo.
+- **Viñeta 1 (General):** El vórtice deposita a Gerard de nuevo en la pequeña sala circular de la "Librería del Horizonte". SFX: ¡¡THUMP!!
+- **Viñeta 2 (Medio/Detalle):** Gerard, un poco mareado, en el suelo de la librería. Se levanta y mira a su alrededor. Todo está polvoriento y en silencio, exactamente igual que al principio. Piensa si ha sido todo un sueño.
+- **Viñeta 3 (Cenital):** Gerard se acerca al pedestal de cristal. El libro "EL HORIZONTE INTERIOR" está cerrado y frío, con el mismo aspecto metálico. Se asombra.
+- **Viñeta 4 (Medio):** Gerard abre el libro por la primera página. El texto denso de antes le parece claro y familiar. Ve las ilustraciones de la burbuja y el agujero negro con nuevos ojos.
+- **Viñeta 5 (Primer Plano):** Gerard mira hacia arriba, determinado. Cierra el libro y sale de la librería. La lluvia ha parado y la ciudad se ve hermosa, bañada por la luz del atardecer. Piensa que el mundo sigue igual, pero él ya no se siente solo.
+- **Viñeta 6 (Medio/Acción):** Gerard camina con paso firme por la calle. Saca un pequeño cuaderno en blanco de su bolsillo (su propia bitácora). Piensa en todo lo que tiene que escribir. ¡El viaje de verdad empieza ahora!
 
-Lo que sí puedes hacer es cuidar tu burbuja —tus pensamientos, tus recuerdos, lo que sientes— y aprender a resonar con la gente que te importa, en vez de esperar a que alguien entre a arreglarte por dentro, o intentar entrar tú a arreglar a otro.
+### Página 14 — Cierre / Invitación
 
-Debajo de este capítulo tienes una Bitácora: un espacio para escribir lo que se te ha quedado rondando después de leer esto. Nadie más la va a leer si tú no quieres. Úsala como uses tu propia burbuja: como algo tuyo, que decides cuándo y cómo compartir.
+## [ILUSTRACIÓN manga_cap7_p14: "Página 14"]
 
-Y si después de esto te queda curiosidad por leer la versión completa —la de los adultos, con más física, más cuentos y más poesía— ya sabes dónde encontrarla: en el resto de este mismo libro.
+*Ilustración pendiente de generación.*
+
+- **Viñeta 1 (Aislada, grande):** Una imagen potente y limpia de Gerard, sentado en la colina luminosa de la aventura, con Txiki a su lado. Al fondo, Íñigo y AI-RA saludan. Gerard está escribiendo en su cuaderno con una sonrisa. Texto (Narrador, grande): TÚ ERES TU PROPIO UNIVERSO.
+- **Viñeta 2:** Plano detalle de las manos de Gerard escribiendo en su bitácora abierta: "Mi Horizonte Interior es..." Gerard piensa en invitar al lector.
+- **Viñeta 3 (Medio/Invitación):** Gerard en el jardín, mirando al lector. Fondo rayado de página de cuaderno. Texto (Cartela): TU BITÁCORA. Texto (Íñigo, bocadillo, O.C., voz desde el libro): Este es tu espacio, Gerard —y lector—. Nadie más lo leerá si tú no quieres. Úsalo como usas tu burbuja.
+- **Viñeta 4:** Líneas en blanco punteadas.
+- **Viñeta 5:** Líneas en blanco punteadas.
+- **Viñeta 6 (Pequeña, final):** Una pompa de jabón solitaria y brillante flotando hacia arriba contra un cielo estrellado. Dentro se ve el reflejo diminuto de Gerard, Íñigo y Txiki. SFX: ¡¡POP!! (Sonido suave al final, símbolo de que la idea se libera). Texto (Narrador): FIN.

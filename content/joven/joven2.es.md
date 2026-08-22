@@ -1,22 +1,31 @@
 ---
 title: TU BURBUJA DE JABÓN
-subtitle: Lo que te separa del mundo también es lo que te hace tú
+subtitle: Guion gráfico — Páginas 3-4
 chapterNumber: 2
-illustrationId: il_portada
-illustrationTitle: El cerebro dentro de la burbuja
-illustrationDescription: Una mente entera, con sus ciudades y sus caminos, sostenida dentro de una esfera translúcida en medio del cosmos.
 ---
 
-Piensa en una pompa de jabón. Por dentro tiene aire. Por fuera tiene... todo lo demás: el jardín, el viento, la gente mirando. Y entre las dos cosas hay una piel tan fina que casi no se ve, pero que sostiene la pompa entera. Si esa piel se rompe, no queda "un poco de burbuja". Deja de haber burbuja.
+### Página 3
 
-Tu mente funciona parecido. Dentro tienes tus pensamientos, tus recuerdos, lo que sientes cuando ves una peli triste o cuando alguien te hace una foto sin avisar y te da vergüenza. Fuera está todo lo demás: tus amigos, tu familia, el resto del universo. Y entre las dos cosas hay una frontera que separa lo que eres tú de lo que no eres tú.
+## [ILUSTRACIÓN manga_cap2_p3: "Página 3"]
 
-A esa frontera, Íñigo la llama el Horizonte interior.
+*Ilustración pendiente de generación.*
 
-No es una pared. No es una puerta con cerradura. Es más bien como el borde de la pompa: no se puede tocar, pero sin ella no habría "dentro" ni "fuera". Gracias a esa frontera existe algo que puedes llamar "yo".
+- **Viñeta 1 (Medio):** Gerard se levanta asombrado. Un perro pequeño y esponjoso (Txiki) se le acerca ladrando amistosamente.
+- **Viñeta 2 (Medio):** Aparece Íñigo (60s, con un bastón), un anciano sabio, caminando entre la hierba luminosa.
+- **Viñeta 3 (Primer Plano):** Gerard, sorprendido, se da cuenta de que el anciano le conoce.
+- **Viñeta 4 (General):** Un laberinto de espejos que se extiende hasta el infinito.
+- **Viñeta 5 (Detalle):** Gerard ve el reflejo de su mejor amiga, Sandra (13 años, con un pañuelo en el pelo), en uno de los espejos, separada de él.
+- **Viñeta 6 (Detalle):** El reflejo de Sandra saluda y le dice algo, pero su voz suena lejana y distorsionada.
 
-Aquí viene la parte importante: nadie puede cruzar esa frontera de verdad. Tu mejor amiga puede conocerte desde que tenías tres años, saber qué serie estás viendo, adivinar qué vas a pedir en la pizzería. Pero nunca va a poder meterse dentro de tu cabeza y sentir exactamente lo que tú sientes cuando escuchas tu canción favorita. Puede acercarse muchísimo. Cruzar del todo, nunca.
+### Página 4
 
-Esto no es triste, aunque la primera vez que lo piensas puede darte un poco de vértigo. Es, simplemente, cómo funcionamos todos. Cada persona que conoces —tus padres, tu mejor amigo, la persona que más quieres en el mundo— tiene su propia burbuja, tan cerrada e intransferible como la tuya.
+## [ILUSTRACIÓN manga_cap2_p4: "Página 4"]
 
-> **Tu turno:** la próxima vez que pienses "nadie me entiende del todo", recuerda que es literalmente cierto para todo el mundo, todo el tiempo. No es un fallo tuyo. Es la piel de la burbuja haciendo su trabajo.
+*Ilustración pendiente de generación.*
+
+- **Viñeta 1 (Acción):** Gerard intenta saltar a través del espejo para abrazar a Sandra.
+- **Viñeta 2 (Acción/Impacto):** ¡¡PLAF!! El espejo se ondula como agua, pero no se rompe. Gerard rebota hacia atrás y cae al suelo. SFX: ¡¡ZAS!!
+- **Viñeta 3 (Medio):** Íñigo se acerca a Gerard, que está en el suelo frotándose la cabeza. Txiki le lame la mano. Íñigo le explica que es el "Horizonte Interior".
+- **Viñeta 4 (Detalle):** La burbuja de Sandra se aleja flotando en el cosmos. Íñigo le explica a Gerard la imposibilidad de entrar en la mente de otra persona.
+- **Viñeta 5 (Primer Plano):** Gerard, pensativo, entiende que su soledad no es un fallo, sino su protección.
+- **Viñeta 6 (Detalle):** Gerard mira su propia mano. Una tenue línea punteada de luz rodea su cuerpo, definiendo su Horizonte Interior.
