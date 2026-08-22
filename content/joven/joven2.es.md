@@ -8,7 +8,7 @@ chapterNumber: 2
 
 ## [ILUSTRACIÓN manga_cap2_p3: "Página 3"]
 
-*Ilustración pendiente de generación.*
+*Txiki cachorro recibe a Gerard entre burbujas gigantes; Íñigo aparece en la colina, y el reflejo de Sandra le saluda desde un laberinto de espejos.*
 
 - **Viñeta 1 (Medio):** Gerard se levanta asombrado. Un perro pequeño y esponjoso (Txiki) se le acerca ladrando amistosamente.
 - **Viñeta 2 (Medio):** Aparece Íñigo (60s, con un bastón), un anciano sabio, caminando entre la hierba luminosa.
