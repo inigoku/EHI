@@ -551,32 +551,58 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         continue;
       }
 
-      // Handle custom comparison bento blocks
-      // Format: > **En física esto se llama:**... or > **En la vida diaria es como:**...
-      if (trimmed.startsWith("> **En física esto se llama:**")) {
-        const value = trimmed.replace("> **En física esto se llama:**", "").trim();
-        processedBlocks.push(
-          <div key={i} className={`${tc.bentoPhys} rounded-xl p-4 my-4 font-mono text-xs sm:text-sm shadow-sm relative overflow-hidden group`}>
-            <div className={`absolute top-0 right-0 px-2 py-0.5 ${tc.bentoPhysTag} text-[9px] uppercase tracking-widest font-sans rounded-bl-lg`}>
-              Física
-            </div>
-            <strong className={`${tc.bentoPhysTitle} block mb-1`}>En física esto se llama:</strong>
-            <span>{value}</span>
-          </div>
-        );
-        i++;
-        continue;
-      }
+      // Handle custom comparison bento blocks: physics / software / daily-life registers,
+      // in both Spanish and English source markdown.
+      const bentoRegisters: Array<{
+        prefixes: string[];
+        box: string;
+        tag: string;
+        title: string;
+        label: string;
+        font: string;
+        italic?: boolean;
+      }> = [
+        {
+          prefixes: ["> **En física esto se llama:**", "> **In physics this is called:**"],
+          box: tc.bentoPhys,
+          tag: tc.bentoPhysTag,
+          title: tc.bentoPhysTitle,
+          label: language === "en" ? "Physics" : "Física",
+          font: "font-mono",
+        },
+        {
+          prefixes: ["> **En software esto se llama:**", "> **In software this is called:**"],
+          box: tc.bentoSoftware,
+          tag: tc.bentoSoftwareTag,
+          title: tc.bentoSoftwareTitle,
+          label: language === "en" ? "Software" : "Software",
+          font: "font-mono",
+        },
+        {
+          prefixes: ["> **En la vida diaria es como:**", "> **In daily life it's like:**", "> **In everyday life it's like:**"],
+          box: tc.bentoMeta,
+          tag: tc.bentoMetaTag,
+          title: tc.bentoMetaTitle,
+          label: language === "en" ? "Everyday Life" : "Metáfora",
+          font: "font-sans",
+          italic: true,
+        },
+      ];
 
-      if (trimmed.startsWith("> **En la vida diaria es como:**")) {
-        const value = trimmed.replace("> **En la vida diaria es como:**", "").trim();
+      const matchedRegister = bentoRegisters
+        .map((r) => ({ r, prefix: r.prefixes.find((p) => trimmed.startsWith(p)) }))
+        .find((m) => m.prefix);
+
+      if (matchedRegister) {
+        const { r, prefix } = matchedRegister;
+        const value = trimmed.replace(prefix!, "").trim();
         processedBlocks.push(
-          <div key={i} className={`${tc.bentoMeta} rounded-xl p-4 my-4 font-sans text-xs sm:text-sm shadow-sm relative overflow-hidden group`}>
-            <div className={`absolute top-0 right-0 px-2 py-0.5 ${tc.bentoMetaTag} text-[9px] uppercase tracking-widest font-mono rounded-bl-lg`}>
-              Metáfora
+          <div key={i} className={`${r.box} rounded-xl p-4 my-4 ${r.font} text-xs sm:text-sm shadow-sm relative overflow-hidden group`}>
+            <div className={`absolute top-0 right-0 px-2 py-0.5 ${r.tag} text-[9px] uppercase tracking-widest font-sans rounded-bl-lg`}>
+              {r.label}
             </div>
-            <strong className={`${tc.bentoMetaTitle} block mb-1`}>En la vida diaria es como:</strong>
-            <span className="italic">{value}</span>
+            <strong className={`${r.title} block mb-1`}>{prefix!.replace(/^> \*\*/, "").replace(/\*\*$/, "")}</strong>
+            <span className={r.italic ? "italic" : undefined}>{value}</span>
           </div>
         );
         i++;
@@ -789,6 +815,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           bentoPhys: "bg-[#1A1A1A]/5 border border-[#1A1A1A]/10 text-[#1A1A1A]",
           bentoPhysTag: "bg-[#1A1A1A]/10 text-[#1A1A1A]/80",
           bentoPhysTitle: "text-[#1A1A1A] font-semibold",
+          bentoSoftware: "bg-[#1A1A1A]/5 border border-[#1A1A1A]/10 text-[#1A1A1A]",
+          bentoSoftwareTag: "bg-[#1A1A1A]/10 text-[#1A1A1A]/80",
+          bentoSoftwareTitle: "text-[#1A1A1A] font-semibold",
           bentoMeta: "bg-[#1A1A1A]/5 border border-[#1A1A1A]/10 text-[#1A1A1A]",
           bentoMetaTag: "bg-[#1A1A1A]/10 text-[#1A1A1A]/80",
           bentoMetaTitle: "text-[#1A1A1A] font-semibold",
@@ -811,6 +840,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           bentoPhys: "bg-amber-950/5 border border-amber-900/10 text-[#2C1E11]",
           bentoPhysTag: "bg-amber-900/10 text-amber-900",
           bentoPhysTitle: "text-amber-900 font-semibold",
+          bentoSoftware: "bg-amber-900/5 border border-amber-950/10 text-[#2C1E11]",
+          bentoSoftwareTag: "bg-amber-950/10 text-amber-950",
+          bentoSoftwareTitle: "text-amber-950 font-semibold",
           bentoMeta: "bg-amber-800/5 border border-amber-800/10 text-[#2C1E11]",
           bentoMetaTag: "bg-amber-800/10 text-amber-800",
           bentoMetaTitle: "text-amber-800 font-semibold",
@@ -834,6 +866,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
           bentoPhys: "bg-indigo-950/20 border border-indigo-500/20 text-indigo-300",
           bentoPhysTag: "bg-indigo-500/10 text-indigo-400",
           bentoPhysTitle: "text-indigo-400 font-semibold",
+          bentoSoftware: "bg-emerald-950/20 border border-emerald-500/20 text-emerald-200",
+          bentoSoftwareTag: "bg-emerald-500/10 text-emerald-400",
+          bentoSoftwareTitle: "text-emerald-400 font-semibold",
           bentoMeta: "bg-amber-950/20 border border-amber-500/20 text-amber-200",
           bentoMetaTag: "bg-amber-500/10 text-amber-400",
           bentoMetaTitle: "text-amber-400 font-semibold",
