@@ -8,7 +8,7 @@ chapterNumber: 3
 
 ## [ILUSTRACIÓN manga_cap3_p5: "Página 5"]
 
-*Ilustración pendiente de generación.*
+*El agujero negro M87 flota ante Gerard e Íñigo; el "Horizonte de Sucesos" se superpone al rostro de Gerard, y la imagen final une el agujero negro con el cerebro dentro de la burbuja.*
 
 - **Viñeta 1 (General/Cosmos):** El paisaje cambia al espacio exterior. Frente a ellos flota un agujero negro real y masivo, con un disco de acreción brillante y un centro de oscuridad absoluta. SFX: ¡¡VROOOOM!!
 - **Viñeta 2 (Medio):** Íñigo señala el agujero negro y le cuenta a Gerard sobre su descubrimiento en 2019.
