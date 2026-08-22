@@ -37,22 +37,18 @@ intricate but elegant and uncluttered, calm rather than dramatic, square book-pl
 
 const ai = new GoogleGenAI({ apiKey });
 
-const response = await ai.models.generateImages({
-  model: "imagen-4.0-generate-001",
-  prompt,
-  config: {
-    numberOfImages: 1,
-    aspectRatio: "1:1",
-    personGeneration: "allow_adult",
-  },
+const response = await ai.models.generateContent({
+  model: "gemini-2.5-flash-image",
+  contents: prompt,
 });
 
-const img = response.generatedImages?.[0]?.image;
-if (!img?.imageBytes) {
+const parts = response.candidates?.[0]?.content?.parts || [];
+const imagePart = parts.find((p) => p.inlineData?.data);
+if (!imagePart) {
   console.error("No se recibió imagen. Respuesta completa:", JSON.stringify(response, null, 2));
   process.exit(1);
 }
 
 const outPath = new URL("../src/assets/images/ilustracion_calibracion.png", import.meta.url);
-await writeFile(outPath, Buffer.from(img.imageBytes, "base64"));
+await writeFile(outPath, Buffer.from(imagePart.inlineData.data, "base64"));
 console.log("Guardada en", outPath.pathname);
