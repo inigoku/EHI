@@ -97,7 +97,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
     return Math.round((completedChapters.length / chapters.length) * 100);
   };
 
-  // Group chapters by section for beautiful table of contents
+  // Group chapters by section for beautiful table of contents.
+  // Grouped by *contiguous run*, not by section name: if a section label
+  // reappears later after another section interrupts it (e.g. an essay
+  // chapter placed after the Lecturas Topológicas block but still labeled
+  // with an earlier essay part), it starts a new visual group in its real
+  // reading-order position instead of being merged back into the earlier
+  // occurrence of that same label.
   const groupedChapters = React.useMemo(() => {
     // 1. Map every chapter ID to its resolved section name using the full, unfiltered list
     const chapterSectionMap: { [id: string]: string } = {};
@@ -109,14 +115,17 @@ export const Sidebar: React.FC<SidebarProps> = ({
       chapterSectionMap[c.id] = currentSection;
     });
 
-    // 2. Group the filtered chapters using the pre-resolved sections
-    const groups: { [key: string]: Chapter[] } = {};
+    // 2. Group the filtered chapters using the pre-resolved sections, starting
+    // a new group whenever the section changes from the previous chapter's.
+    const groups: { key: string; section: string; items: Chapter[] }[] = [];
     filteredChapters.forEach((c) => {
       const sec = chapterSectionMap[c.id] || t.sidebar.introSection;
-      if (!groups[sec]) {
-        groups[sec] = [];
+      const last = groups[groups.length - 1];
+      if (last && last.section === sec) {
+        last.items.push(c);
+      } else {
+        groups.push({ key: `${sec}-${groups.length}`, section: sec, items: [c] });
       }
-      groups[sec].push(c);
     });
     return groups;
   }, [chapters, filteredChapters, language]);
@@ -369,8 +378,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
         {/* Scrollable Table of Contents grouped by sections */}
         <nav className="flex-1 overflow-y-auto p-4 space-y-6">
 
-          {(Object.entries(groupedChapters) as [string, Chapter[]][]).map(([section, items]) => (
-            <div key={section} className="space-y-2">
+          {groupedChapters.map(({ key, section, items }) => (
+            <div key={key} className="space-y-2">
               <h3 className={`text-[10px] font-sans tracking-[0.2em] ${sc.textMuted} font-bold uppercase px-2 mb-1.5 border-l ${sc.lineActive} border-l-2 pl-2`}>
                 {section}
               </h3>

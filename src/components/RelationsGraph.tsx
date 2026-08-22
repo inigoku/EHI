@@ -274,6 +274,9 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
     { fromId: "cap10", toId: "cap20_real" },
     { fromId: "cap13", toId: "cap17_real" },
     { fromId: "cap15_real", toId: "cap20_5" },
+    { fromId: "cap_calibracion", toId: "cap11" },
+    { fromId: "cap_calibracion", toId: "cap2_5" },
+    { fromId: "cap_calibracion", toId: "cap18_real" },
   ], []);
 
   const [selectedNodeId, setSelectedNodeId] = React.useState<string>(() => nodes[0]?.id || "");
