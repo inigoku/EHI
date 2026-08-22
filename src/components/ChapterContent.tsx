@@ -1,5 +1,5 @@
 import React from "react";
-import { Chapter, Illustration, allChapters, cuentosList } from "../chapters";
+import { Chapter, Illustration, allChapters, cuentosList, jovenList } from "../chapters";
 import { JourneyNav } from "./JourneyNav";
 import { IllustrationViewer } from "./IllustrationViewer";
 import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw } from "lucide-react";
@@ -27,8 +27,8 @@ interface ChapterContentProps {
   onTermClick: (termName: string) => void;
   theme: "cosmic" | "paper" | "sepia";
   fontSize: "sm" | "base" | "lg" | "xl" | "2xl";
-  readingMode: "essay" | "cuentos" | "poemas" | "reconstruccion";
-  onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion", targetId?: string) => void;
+  readingMode: "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven";
+  onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven", targetId?: string) => void;
   language: Language;
 }
 // Helper to detect if the main chapter illustration is already embedded inline in the text
@@ -891,6 +891,11 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             {uiStrings[language].header.sectionReconstruccion.toUpperCase()}
           </span>
         )}
+        {readingMode === "joven" && (
+          <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
+            {uiStrings[language].header.sectionJoven.toUpperCase()}
+          </span>
+        )}
         <h1 className={`font-display font-semibold text-2xl sm:text-5xl ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : "text-slate-100"} tracking-tight max-w-3xl mx-auto leading-tight`}>
           {readingMode === "essay"
             ? (chapter.chapterNumber && chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && t.chapterPrefix(chapter.chapterNumber))
@@ -1272,6 +1277,85 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             onSwitchMode={onSwitchMode}
           />
         </div>
+      ) : readingMode === "joven" ? (
+        <div className="max-w-3xl mx-auto space-y-8">
+          {/* Edición Joven: illustration up top, centered and large, same layout as Cuentos */}
+          {chapter.illustration && (
+            <div className="flex justify-center my-8 select-none">
+              <IllustrationViewer illustration={chapter.illustration} language={language} />
+            </div>
+          )}
+
+          {/* Main Chapter Content */}
+          <div className={`p-6 sm:p-12 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} shadow-md transition-all duration-300`}>
+            <motion.div
+              key={`content-${chapter.id}`}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="space-y-2 prose prose-invert max-w-none font-serif leading-relaxed text-base sm:text-lg"
+            >
+              {highlightTerms(displayContent)}
+            </motion.div>
+          </div>
+
+          {/* Reflection Journal Bitácora (Centered under the chapter) */}
+          <div className="max-w-xl mx-auto pt-4">
+            <div className={`${tc.subtleCard} rounded-2xl p-5 shadow-lg space-y-4`}>
+              <div className={`flex items-center justify-between border-b ${tc.border} pb-2`}>
+                <div className="flex items-center gap-2">
+                  <PenTool className={`w-4 h-4 ${tc.accent}`} />
+                  <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
+                    {t.reflectionBoxTitle}
+                  </h4>
+                </div>
+                {reflection && (
+                  <button
+                    onClick={clearReflection}
+                    className={`text-[10px] ${tc.textMuted} hover:text-red-400 transition-colors cursor-pointer`}
+                  >
+                    {t.delete}
+                  </button>
+                )}
+              </div>
+
+              <p className={`text-[11px] ${tc.textMuted} leading-relaxed font-sans`}>
+                {t.hintJoven}
+              </p>
+
+              <textarea
+                value={reflection}
+                onChange={(e) => {
+                  setReflection(e.target.value);
+                  setIsSaved(false);
+                }}
+                placeholder={t.placeholderJoven}
+                className={`w-full h-28 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
+              />
+
+              <button
+                onClick={saveReflection}
+                className={`w-full flex items-center justify-center gap-2 py-2 px-4 rounded-xl text-xs font-semibold tracking-wide transition-all ${
+                  isSaved
+                    ? "bg-emerald-500/10 border border-emerald-500/50 text-emerald-500"
+                    : `${tc.accentBg} cursor-pointer`
+                }`}
+              >
+                {isSaved ? (
+                  <>
+                    <Check className="w-4 h-4" />
+                    {t.savedButton}
+                  </>
+                ) : (
+                  <>
+                    <Save className="w-4 h-4" />
+                    {t.saveButton}
+                  </>
+                )}
+              </button>
+            </div>
+          </div>
+        </div>
       ) : (
         /* Centered Essay Layout */
         <div className="max-w-3xl mx-auto space-y-8 select-text">
@@ -1442,6 +1526,8 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))
               : readingMode === "reconstruccion"
               ? t.reconOf(chapter.chapterNumber.replace("R", ""))
+              : readingMode === "joven"
+              ? t.jovenOf(chapter.chapterNumber || "1", jovenList.length)
               : chapter.id === "poema_glosario"
               ? t.poemGlossaryLabel
               : chapter.id === "poema_sintonizadores"

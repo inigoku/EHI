@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "motion/react";
-import { BookOpen, Feather, Book, Layers, ArrowRight } from "lucide-react";
+import { BookOpen, Feather, Book, Layers, Sparkles, ArrowRight } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
 import { Language, uiStrings } from "../i18n";
 
@@ -12,8 +12,10 @@ import storiesLandingImg from "../assets/images/landing/stories_landing.png";
 import poemsLandingImg from "../assets/images/landing/poems_landing.png";
 // @ts-ignore
 import reconstructLandingImg from "../assets/images/landing/reconstruct_landing.png";
+// @ts-ignore
+import jovenLandingImg from "../assets/images/ilustracion_luthier.png";
 
-type ReadingMode = "essay" | "cuentos" | "poemas" | "reconstruccion";
+type ReadingMode = "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven";
 
 interface PathLandingProps {
   mode: ReadingMode;
@@ -67,6 +69,15 @@ export const PathLanding: React.FC<PathLandingProps> = ({
           image: poemsLandingImg,
           icon: <Book className="w-5 h-5" />,
           btnText: t.poemasBtn,
+        };
+      case "joven":
+        return {
+          title: t.jovenTitle,
+          subtitle: t.jovenSubtitle,
+          description: t.jovenDescription,
+          image: jovenLandingImg,
+          icon: <Sparkles className="w-5 h-5" />,
+          btnText: t.jovenBtn,
         };
       case "reconstruccion":
       default:

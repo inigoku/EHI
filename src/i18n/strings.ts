@@ -7,6 +7,7 @@ export interface UiStrings {
     cuentos: string;
     poemas: string;
     reconstruccion: string;
+    joven: string;
   };
   header: {
     bookTitle: string;
@@ -14,6 +15,7 @@ export interface UiStrings {
     sectionCuentos: string;
     sectionPoemas: string;
     sectionReconstruccion: string;
+    sectionJoven: string;
     author: string;
     part: string;
     of: string;
@@ -82,6 +84,9 @@ export interface UiStrings {
     pathReconTitle: string;
     pathReconDesc: string;
     pathReconBtn: string;
+    pathJovenTitle: string;
+    pathJovenDesc: string;
+    pathJovenBtn: string;
     footerTagline: string;
     footerRights: string;
     muteOn: string;
@@ -106,6 +111,10 @@ export interface UiStrings {
     reconSubtitle: string;
     reconDescription: string;
     reconBtn: string;
+    jovenTitle: string;
+    jovenSubtitle: string;
+    jovenDescription: string;
+    jovenBtn: string;
   };
   glossaryDrawer: {
     title: string;
@@ -140,6 +149,7 @@ export interface UiStrings {
     storyOf: (n: string, total: number) => string;
     prologueOf: (total: number) => string;
     reconOf: (n: string) => string;
+    jovenOf: (n: string, total: number) => string;
     poemLinkOf: (n: string) => string;
     poemFrialdadOf: (n: string) => string;
     poemReconOf: (n: string) => string;
@@ -162,9 +172,11 @@ export interface UiStrings {
     placeholderPoem: string;
     placeholderCuento: string;
     placeholderEssay: string;
+    placeholderJoven: string;
     hintCuento: string;
     hintEssay: string;
     hintPoem: string;
+    hintJoven: string;
     saveButton: string;
     savedButton: string;
     saveNote: string;
@@ -192,6 +204,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       cuentos: "Cuentos",
       poemas: "Poemas",
       reconstruccion: "Reconstrucción",
+      joven: "Edición Joven",
     },
     header: {
       bookTitle: "El Horizonte Interior",
@@ -199,6 +212,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       sectionCuentos: "Antología de Cuentos",
       sectionPoemas: "Antología Poética",
       sectionReconstruccion: "Reconstrucción",
+      sectionJoven: "Edición Joven (13 años)",
       author: "Autor",
       part: "Parte",
       of: "de",
@@ -275,6 +289,10 @@ export const uiStrings: Record<Language, UiStrings> = {
       pathReconDesc:
         "6 planos de síntesis. Un modo integrador donde ensayo, narrativa y poesía se fusionan en pestañas en paralelo.",
       pathReconBtn: "Ver Planos",
+      pathJovenTitle: "Edición Joven",
+      pathJovenDesc:
+        "La misma hipótesis, contada para lectores de 13 años: la burbuja, el agujero negro, Txiki, el secreto de la IA y el luthier, en 7 capítulos breves.",
+      pathJovenBtn: "Leer la Edición Joven",
       footerTagline: "Una propuesta filosófico-científica sobre la conciencia humana.",
       footerRights: "Todos los derechos reservados.",
       muteOn: "Silenciar música",
@@ -309,6 +327,11 @@ export const uiStrings: Record<Language, UiStrings> = {
       reconDescription:
         "6 planos integrales de síntesis. Un modo poliédrico e interactivo donde la narrativa, el ensayo teórico y la lírica poética se muestran en paralelo en pestañas, permitiendo al lector reconstruir los fragmentos del horizonte tras su evaporación.",
       reconBtn: "Ver Planos",
+      jovenTitle: "Edición Joven",
+      jovenSubtitle: "El Horizonte Interior contado a los 13 años",
+      jovenDescription:
+        "7 capítulos breves que recorren las mismas ideas centrales del libro —la burbuja, el agujero negro, Txiki, el secreto de la inteligencia artificial y el luthier— con un lenguaje directo, pensado para leerse de un tirón.",
+      jovenBtn: "Empezar a Leer",
     },
     glossaryDrawer: {
       title: "El Experimento Explicado",
@@ -344,6 +367,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       storyOf: (n, total) => `Relato ${n} de ${total}`,
       prologueOf: (total) => `Relato Prólogo de ${total}`,
       reconOf: (n) => `Parte ${n} de 6`,
+      jovenOf: (n, total) => `Capítulo ${n} de ${total}`,
       poemLinkOf: (n) => `Poema Enlace ${n} de 8`,
       poemFrialdadOf: (n) => `Poema Frialdad ${n} de 7`,
       poemReconOf: (n) => `Poema Reconstrucción ${n} de 6`,
@@ -366,9 +390,11 @@ export const uiStrings: Record<Language, UiStrings> = {
       placeholderPoem: "Escribe tus impresiones...",
       placeholderCuento: "¿Qué resonó en tu interior tras leer este relato?...",
       placeholderEssay: "¿Qué ecos resuenan en tu horizonte interno tras leer este capítulo?...",
+      placeholderJoven: "¿Qué se te ha quedado rondando después de leer esto?...",
       hintCuento: "Escribe tus reflexiones, apuntes, o sensaciones que te despierte este relato. Se guardarán automáticamente.",
       hintEssay: "Escribe tus reflexiones, apuntes de física, o pensamientos que te despierte este capítulo. Se guardarán automáticamente en tu navegador.",
       hintPoem: "Anota los ecos y sensaciones íntimas que te inspira esta poesía. Se guardarán localmente.",
+      hintJoven: "Escribe lo que quieras: nadie más la va a leer si tú no quieres. Se guarda solo en este navegador.",
       saveButton: "Guardar en Bitácora",
       savedButton: "¡Guardado en Bitácora!",
       saveNote: "Guardar Apunte",
@@ -394,6 +420,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       cuentos: "Stories",
       poemas: "Poems",
       reconstruccion: "Reconstruction",
+      joven: "Young Edition",
     },
     header: {
       bookTitle: "The Inner Horizon",
@@ -401,6 +428,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       sectionCuentos: "Short Story Anthology",
       sectionPoemas: "Poetry Anthology",
       sectionReconstruccion: "Reconstruction",
+      sectionJoven: "Young Edition (age 13)",
       author: "Author",
       part: "Part",
       of: "of",
@@ -477,6 +505,10 @@ export const uiStrings: Record<Language, UiStrings> = {
       pathReconDesc:
         "6 planes of synthesis. An integrative mode where essay, narrative, and poetry merge in parallel tabs.",
       pathReconBtn: "View the Planes",
+      pathJovenTitle: "Young Edition",
+      pathJovenDesc:
+        "The same hypothesis, told for 13-year-old readers: the bubble, the black hole, Txiki, the AI secret, and the luthier, in 7 short chapters.",
+      pathJovenBtn: "Read the Young Edition",
       footerTagline: "A philosophical-scientific proposal about human consciousness.",
       footerRights: "All rights reserved.",
       muteOn: "Mute music",
@@ -511,6 +543,11 @@ export const uiStrings: Record<Language, UiStrings> = {
       reconDescription:
         "6 integral planes of synthesis. A polyhedral, interactive mode where narrative, theoretical essay, and poetic lyric appear side by side in parallel tabs, letting the reader reconstruct the fragments of the horizon after its evaporation.",
       reconBtn: "View the Planes",
+      jovenTitle: "Young Edition",
+      jovenSubtitle: "The Inner Horizon, told for 13-year-olds",
+      jovenDescription:
+        "7 short chapters covering the book's core ideas — the bubble, the black hole, Txiki, the AI secret, and the luthier — in plain language, meant to be read in one sitting.",
+      jovenBtn: "Start Reading",
     },
     glossaryDrawer: {
       title: "The Experiment Explained",
@@ -546,6 +583,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       storyOf: (n, total) => `Story ${n} of ${total}`,
       prologueOf: (total) => `Story Prologue of ${total}`,
       reconOf: (n) => `Part ${n} of 6`,
+      jovenOf: (n, total) => `Chapter ${n} of ${total}`,
       poemLinkOf: (n) => `Poem Link ${n} of 8`,
       poemFrialdadOf: (n) => `Coldness Poem ${n} of 7`,
       poemReconOf: (n) => `Poem Reconstruction ${n} of 6`,
@@ -568,9 +606,11 @@ export const uiStrings: Record<Language, UiStrings> = {
       placeholderPoem: "Write your impressions...",
       placeholderCuento: "What resonated within you after reading this story?...",
       placeholderEssay: "What echoes resonate in your inner horizon after reading this chapter?...",
+      placeholderJoven: "What's stuck with you after reading this?...",
       hintCuento: "Write your reflections, notes, or feelings this story awakened in you. They'll be saved automatically.",
       hintEssay: "Write your reflections, physics notes, or thoughts this chapter awakened in you. They'll be saved automatically in your browser.",
       hintPoem: "Jot down the echoes and intimate feelings this poem stirs in you. They'll be saved locally.",
+      hintJoven: "Write whatever you want: nobody else will read it unless you want them to. It's only saved in this browser.",
       saveButton: "Save to Journal",
       savedButton: "Saved to Journal!",
       saveNote: "Save Note",
