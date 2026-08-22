@@ -91,6 +91,10 @@ import imgEpilogo from "../assets/images/epilogo.jpg";
 // @ts-ignore
 import imgPortada from "../assets/images/portada.png";
 
+// Manga pages (Edición Joven)
+// @ts-ignore
+import mangaCap1P1 from "../assets/images/manga/manga_cap1_p1.jpg";
+
 // @ts-ignore
 import imgLadron from "../assets/images/ilustracion_ladron.png";
 // @ts-ignore
@@ -267,6 +271,7 @@ const imageMap: Record<string, string> = {
   il_txiki: imgTxiki,
   il_epilogo: imgEpilogo,
   il_portada: imgPortada,
+  manga_cap1_p1: mangaCap1P1,
   il_ladron: imgLadron,
   cuento_ladron: imgLadron,
   il_luthier: imgLuthier,
@@ -398,7 +403,10 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
     );
   }
 
+  const isMangaPage = illustration.id.startsWith("manga_");
+
   const isOriginalFormat =
+    isMangaPage ||
     illustration.id.includes("txiki") ||
     illustration.id.includes("epilogo") ||
     illustration.id.includes("sintonizadores") ||
@@ -406,8 +414,12 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
 
   return (
     <>
-      <div className="flex flex-col items-center gap-2.5 mx-auto w-full max-w-[280px] sm:max-w-[340px] md:max-w-[480px]">
-      <div 
+      <div
+        className={`flex flex-col items-center gap-2.5 mx-auto w-full ${
+          isMangaPage ? "max-w-[420px] sm:max-w-[520px] md:max-w-[620px]" : "max-w-[280px] sm:max-w-[340px] md:max-w-[480px]"
+        }`}
+      >
+      <div
         onDoubleClick={() => setIsOpen(true)}
         className={`w-full ${isOriginalFormat ? "" : "aspect-square"} bg-slate-950/40 border border-amber-500/10 rounded-2xl p-4 flex items-center justify-center relative shadow-lg shadow-amber-500/2 overflow-hidden group cursor-zoom-in select-none`}
         title={zoomHint}

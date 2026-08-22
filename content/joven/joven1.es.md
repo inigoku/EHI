@@ -12,7 +12,7 @@ chapterNumber: 1
 
 ## [ILUSTRACIÓN manga_cap1_p1: "Página 1"]
 
-*Ilustración pendiente de generación.*
+*Gerard llega, bajo la lluvia, a la puerta de la Librería del Horizonte y entra en sus pasillos infinitos.*
 
 - **Viñeta 1 (General):** Ciudad gris y lluviosa al atardecer. Edificios antiguos. Gerard camina rápido con una camiseta característica, mirando un mapa. Tono opresivo.
 - **Viñeta 2 (Medio):** Gerard se detiene ante una puerta de madera oscura con un cartel apenas legible: "LIBRERÍA DEL HORIZONTE". El pomo tiene grabado el símbolo de una pompa de jabón.
