@@ -11,7 +11,6 @@ const ORDER = [
   "cap17_real",
   "cap17_5_real",
   "cap18_real",
-  "cap_calibracion",
   "cap_el_que_queda",
 ];
 
