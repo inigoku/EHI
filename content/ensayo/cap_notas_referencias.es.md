@@ -197,6 +197,8 @@ Turban, J.L., Beckwith, N., & Reisner, S.L. (2019). Association Between Recalled
 
 van der Kolk, B. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
+Vilsmeier, J.K., Kossmeier, M., Voracek, M., & Tran, U.S. (2023). The fraternal birth-order effect as a statistical artefact: convergent evidence from probability calculus, simulated data, and multiverse meta-analysis. *PeerJ*, 11.
+
 Volkow, N.D., et al. (2016). Neurobiologic Advances from the Brain Disease Model of Addiction. *New England Journal of Medicine*, 374(4).
 
 Winnicott, D.W. (1971). *Playing and Reality*. Tavistock Publications.
