@@ -21,7 +21,7 @@ chapterNumber: 4
 
 ## [ILUSTRACIÓN manga_cap4_p8: "Página 8"]
 
-*Ilustración pendiente de generación.*
+*El cachorro Txiki entra corriendo en la habitación del niño Íñigo y lo hace reír; de vuelta en el presente, Gerard entiende que el dolor cambia cuando no estás solo.*
 
 - **Viñeta 1 (Flashback/Medio/Acción):** La puerta de la habitación se abre de golpe. Un cachorro de perro pequeño y esponjoso (el joven Txiki) entra corriendo, emocionado, tropezando con sus propias patas. SFX: ¡¡TOC TOC!! ¡¡SCRAAAATCH!!
 - **Viñeta 2 (Flashback/Detalle):** Primer plano del cachorro Txiki saltando sobre el regazo del joven Íñigo, lamiéndole la cara con entusiasmo. Íñigo se ríe por primera vez en meses. SFX: ¡¡LICK!! ¡¡WOOF!! ¡¡JAJAJA!!
