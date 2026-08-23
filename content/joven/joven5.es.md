@@ -8,7 +8,7 @@ chapterNumber: 5
 
 ## [ILUSTRACIÓN manga_cap5_p9: "Página 9"]
 
-*Ilustración pendiente de generación.*
+*En una oficina llena de hologramas, Íñigo presenta a Gerard a su coautora AI-RA, que confiesa no tener recuerdos ni sentimientos.*
 
 - **Viñeta 1 (General/Tecnológico):** El paisaje cambia a una oficina minimalista y blanca llena de pantallas y proyecciones holográficas de datos y esquemas complejos. Íñigo está ante ellas. Gerard mira fascinado a AI-RA (la esfera de luz pulsante).
 - **Viñeta 2 (Detalle):** Primer plano de Íñigo, escribiendo en un teclado mientras AI-RA proyecta la estructura del libro con líneas de conexión de luz. Íñigo le revela a Gerard que AI-RA es su co-autora.
