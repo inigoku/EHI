@@ -8,7 +8,7 @@ chapterNumber: 7
 
 ## [ILUSTRACIÓN manga_cap7_p13: "Página 13"]
 
-*Ilustración pendiente de generación.*
+*Gerard vuelve a caer en la Librería del Horizonte, reabre el libro con nuevos ojos y sale a una ciudad ya sin lluvia, dispuesto a empezar su propia bitácora.*
 
 - **Viñeta 1 (General):** El vórtice deposita a Gerard de nuevo en la pequeña sala circular de la "Librería del Horizonte". SFX: ¡¡THUMP!!
 - **Viñeta 2 (Medio/Detalle):** Gerard, un poco mareado, en el suelo de la librería. Se levanta y mira a su alrededor. Todo está polvoriento y en silencio, exactamente igual que al principio. Piensa si ha sido todo un sueño.
