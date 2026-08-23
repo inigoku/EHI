@@ -13,7 +13,7 @@ import poemsLandingImg from "../assets/images/landing/poems_landing.png";
 // @ts-ignore
 import reconstructLandingImg from "../assets/images/landing/reconstruct_landing.png";
 // @ts-ignore
-import jovenLandingImg from "../assets/images/ilustracion_luthier.png";
+import jovenLandingImg from "../assets/images/manga/manga_portada.jpg";
 
 type ReadingMode = "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven";
 

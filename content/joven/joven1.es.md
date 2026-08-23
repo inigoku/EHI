@@ -1,35 +1,31 @@
 ---
 title: ANTES DE ABRIR LA BURBUJA
-subtitle: Guion gráfico — Prólogo y Páginas 1-2
+subtitle: Gerard descubre la Librería del Horizonte
 chapterNumber: 1
 ---
 
-### Prólogo: La llamada de la Burbuja
+El mundo de los adultos era ruidoso y complicado. Gerard tenía trece años y llevaba tiempo sintiendo que nadie lo entendía de verdad. Su padre le había hablado una vez de una librería distinta a todas las demás, casi sin darle importancia. Gerard no había vuelto a pensar en eso hasta esa tarde, cuando caminaba bajo la lluvia con un viejo mapa en las manos, buscando una calle que no aparecía en ningún plano normal.
 
-> **Contexto:** El mundo de los adultos es ruidoso y complejo. Gerard, un chico de 13 años curioso y que se siente incomprendido, busca la verdad en los libros antiguos. Su padre le habló de una librería única. Usando un viejo mapa, Gerard se adentra en la ciudad brumosa en busca de respuestas.
+La encontró al fin: una puerta de madera oscura, casi escondida entre dos edificios. El cartel estaba tan gastado que apenas se leía: "LIBRERÍA DEL HORIZONTE". En el pomo, alguien había grabado hacía mucho tiempo el dibujo de una burbuja de jabón. La puerta chirrió al abrirse.
 
-### Página 1
+Dentro no había nada parecido a una librería normal. Estanterías altísimas se perdían en la oscuridad, llenas de libros que brillaban con luz propia, como si cada uno guardara una estrella pequeña. El aire olía a papel viejo... y, de alguna forma, también a estrellas. Gerard caminó entre los pasillos estrechos, sintiéndose observado. Vio títulos raros, como *Física Cuántica para Principiantes* o *El Luthier Silencioso*. "¿Tantos?", pensó, un poco agobiado. Al final de un pasillo brillaba una luz distinta a las demás: más cálida, más cercana. Se acercó despacio.
 
 ## [ILUSTRACIÓN manga_cap1_p1: "Página 1"]
 
 *Gerard llega, bajo la lluvia, a la puerta de la Librería del Horizonte y entra en sus pasillos infinitos.*
 
-- **Viñeta 1 (General):** Ciudad gris y lluviosa al atardecer. Edificios antiguos. Gerard camina rápido con una camiseta característica, mirando un mapa. Tono opresivo.
-- **Viñeta 2 (Medio):** Gerard se detiene ante una puerta de madera oscura con un cartel apenas legible: "LIBRERÍA DEL HORIZONTE". El pomo tiene grabado el símbolo de una pompa de jabón.
-- **Viñeta 3 (Detalle):** La mano de Gerard abre la puerta con un chirrido. SFX: ¡¡CRIIIIK!!
-- **Viñeta 4 (General):** Interior caótico y maravilloso de la librería. Estanterías altísimas que llegan al techo, repletas de libros que brillan tenuemente. El aire huele a papel viejo y estrellas. Silencio absoluto.
-- **Viñeta 5 (Medio):** Gerard camina entre los pasillos estrechos, sintiéndose observado. Ve títulos como "Física Cuántica para Principiantes" y "El Luthier Silencioso". Se siente abrumado.
-- **Viñeta 6 (Medio):** Al final de un pasillo, una luz brilla tenuemente. Gerard se acerca con cautela.
+La luz lo llevó hasta una sala pequeña y redonda. En el centro, sobre un pedestal de cristal iluminado, había un único libro con la portada de metal: *El Horizonte Interior*. En el dibujo de la tapa, una burbuja de jabón guardaba dentro, imposible y diminuto, un agujero negro.
 
-### Página 2
+Gerard no pudo resistirse. Tocó el dibujo con la punta de los dedos.
+
+**¡¡ZAS!!**
+
+Un zumbido eléctrico recorrió el metal. La tapa se abrió sola, y de las páginas salió disparada una luz cegadora, mezclada con un remolino de tinta negra que giraba cada vez más rápido. **¡¡KABOOM!! ¡¡SUUUUM!!** Gerard gritó cuando el suelo desapareció bajo sus pies y algo tiró de él hacia dentro del propio libro.
+
+Cuando el remolino se cerró, la librería volvió a quedarse en silencio. El pedestal estaba vacío. El libro había desaparecido.
+
+Gerard, en cambio, cayó con suavidad —**¡bump!**— sobre una hierba que brillaba con luz propia, bajo un cielo lleno de estrellas donde flotaban burbujas de jabón enormes, como planetas.
 
 ## [ILUSTRACIÓN manga_cap1_p2: "Página 2"]
 
 *Gerard toca el libro "El Horizonte Interior", que estalla en un vórtice de luz y lo arrastra a un paisaje de burbujas y estrellas.*
-
-- **Viñeta 1 (Cenital):** Gerard llega a una pequeña sala circular. En el centro, en un pedestal de cristal iluminado, hay un único libro antiguo con una cubierta metálica: "EL HORIZONTE INTERIOR". El relieve muestra una burbuja de jabón conteniendo un pequeño agujero negro.
-- **Viñeta 2 (Detalle):** Gerard toca el relieve de la burbuja. SFX: ¡¡ZAS!! (Un zumbido eléctrico).
-- **Viñeta 3 (Detalle):** La cubierta metálica se abre. De sus páginas explota una luz cegadora y tinta negra que forma un vórtice giratorio. SFX: ¡¡KABOOM!! ¡¡SUUUUM!!
-- **Viñeta 4 (Medio/Acción):** Gerard es succionado hacia abajo, gritando. El entorno de la librería desaparece.
-- **Viñeta 5 (Detalle):** El vórtice se cierra. La librería vuelve a estar en silencio. El pedestal está vacío. El libro ha desaparecido.
-- **Viñeta 6 (Transición):** Un nuevo paisaje de fantasía. Hierba luminosa bajo un cielo estrellado. Burbujas de jabón gigantes flotan. Gerard cae suavemente sobre la hierba. SFX: ¡BUMP!
