@@ -227,6 +227,21 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           </div>
         </header>
 
+        {/* Cartelito flotante: acceso directo a la Edición Joven (manga) */}
+        <motion.button
+          onClick={() => onStartReading("joven")}
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1, duration: 0.6 }}
+          className="absolute top-20 sm:top-24 right-4 sm:right-6 z-20 flex items-center gap-2 pl-3 pr-4 py-2 rounded-full border border-amber-400/50 bg-slate-950/40 backdrop-blur-sm text-amber-300 hover:bg-amber-500 hover:text-slate-950 font-sans text-[10px] sm:text-[11px] font-bold tracking-wide transition-all active:scale-95 cursor-pointer shadow-lg shadow-amber-500/10"
+        >
+          <span className="relative flex h-2 w-2 shrink-0">
+            <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75" />
+            <span className="relative inline-flex rounded-full h-2 w-2 bg-amber-400" />
+          </span>
+          {t.landing.mangaTeaser}
+        </motion.button>
+
         <div className="relative flex-1 flex items-center justify-center z-20 max-w-5xl mx-auto w-full px-6">
           <div className="flex flex-col items-center justify-center text-center">
             <AnimatePresence mode="wait">
