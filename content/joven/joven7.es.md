@@ -21,7 +21,7 @@ chapterNumber: 7
 
 ## [ILUSTRACIÓN manga_cap7_p14: "Página 14"]
 
-*Ilustración pendiente de generación.*
+*El libro se despide en color: Gerard escribe en su bitácora en la colina, invita al lector a abrir la suya, y una última burbuja se lleva el reflejo de los tres hacia las estrellas. Fin.*
 
 - **Viñeta 1 (Aislada, grande):** Una imagen potente y limpia de Gerard, sentado en la colina luminosa de la aventura, con Txiki a su lado. Al fondo, Íñigo y AI-RA saludan. Gerard está escribiendo en su cuaderno con una sonrisa. Texto (Narrador, grande): TÚ ERES TU PROPIO UNIVERSO.
 - **Viñeta 2:** Plano detalle de las manos de Gerard escribiendo en su bitácora abierta: "Mi Horizonte Interior es..." Gerard piensa en invitar al lector.
