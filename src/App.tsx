@@ -283,7 +283,11 @@ export default function App() {
     );
   }
 
-  if (readingMode === "joven" && jovenViewMode === "manga" && !activePathLanding) {
+  if (readingMode === "joven" && jovenViewMode === "manga") {
+    // El modo manga es una experiencia completa en sí misma (incluida su
+    // propia portada): nunca pasa por la pantalla de presentación (Path
+    // Landing) de los demás modos, ni al entrar ni al volver a él desde
+    // otra parte de la web.
     const storedPageId = localStorage.getItem("joven_manga_page_id");
     const storedPage = storedPageId ? mangaPages.find((p) => p.id === storedPageId) : undefined;
     const initialPageId =
@@ -298,6 +302,7 @@ export default function App() {
         onSwitchToText={(chapterId) => {
           setJovenViewMode("texto");
           setActiveChapterId(chapterId);
+          setActivePathLanding(null); // Ir directo al capítulo, sin pantalla de presentación
         }}
         onExitHome={() => setReadingMode("home")}
       />
