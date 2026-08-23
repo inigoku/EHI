@@ -57,6 +57,8 @@ export interface UiStrings {
   };
   landing: {
     hypothesisLabel: string;
+    mangaTeaser: string;
+    mangaTeaserBurst: string;
     start: string;
     discoverMore: string;
     startReading: string;
@@ -257,6 +259,8 @@ export const uiStrings: Record<Language, UiStrings> = {
     },
     landing: {
       hypothesisLabel: "Hipótesis Holográfica",
+      mangaTeaser: "Versión Manga · 13 años",
+      mangaTeaserBurst: "NUEVO",
       start: "Comenzar",
       discoverMore: "DESCUBRIR MÁS",
       startReading: "Comenzar Lectura",
@@ -476,6 +480,8 @@ export const uiStrings: Record<Language, UiStrings> = {
     },
     landing: {
       hypothesisLabel: "Holographic Hypothesis",
+      mangaTeaser: "Manga Edition · Age 13",
+      mangaTeaserBurst: "NEW",
       start: "Start",
       discoverMore: "DISCOVER MORE",
       startReading: "Start Reading",

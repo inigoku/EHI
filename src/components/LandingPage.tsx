@@ -227,6 +227,36 @@ export const LandingPage: React.FC<LandingPageProps> = ({
           </div>
         </header>
 
+        {/* Cartelito flotante estilo portada de manga: acceso directo a la Edición Joven */}
+        <motion.button
+          onClick={() => onStartReading("joven")}
+          initial={{ opacity: 0, y: -10, rotate: -8 }}
+          animate={{ opacity: 1, y: 0, rotate: -4 }}
+          whileHover={{ rotate: 0, scale: 1.04 }}
+          whileTap={{ scale: 0.97 }}
+          transition={{ delay: 1, duration: 0.6 }}
+          className="absolute top-20 sm:top-24 right-4 sm:right-6 z-20 cursor-pointer"
+        >
+          <div
+            className="relative flex items-center gap-1.5 pl-4 pr-3 py-2 bg-[#F4F1EA] text-slate-950 border-[3px] border-slate-950 font-display font-black uppercase tracking-wide text-[10px] sm:text-xs shadow-[3px_3px_0_rgba(0,0,0,0.9)] transition-shadow hover:shadow-[1px_1px_0_rgba(0,0,0,0.9)]"
+            style={{
+              backgroundImage: "radial-gradient(rgba(0,0,0,0.16) 1px, transparent 1.3px)",
+              backgroundSize: "5px 5px",
+            }}
+          >
+            {t.landing.mangaTeaser}
+          </div>
+          <div
+            className="absolute -top-3.5 -left-3.5 w-9 h-9 bg-amber-500 text-slate-950 flex items-center justify-center text-[7px] font-display font-black leading-none rotate-[-14deg] select-none"
+            style={{
+              clipPath:
+                "polygon(50% 0%,61% 35%,98% 35%,68% 57%,79% 91%,50% 70%,21% 91%,32% 57%,2% 35%,39% 35%)",
+            }}
+          >
+            {t.landing.mangaTeaserBurst}
+          </div>
+        </motion.button>
+
         <div className="relative flex-1 flex items-center justify-center z-20 max-w-5xl mx-auto w-full px-6">
           <div className="flex flex-col items-center justify-center text-center">
             <AnimatePresence mode="wait">

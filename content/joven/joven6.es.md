@@ -1,24 +1,31 @@
 ---
 title: EL LUTHIER — CÓMO SONAR SIN ROMPERTE
-subtitle: La manera de querer a alguien sin perderte a ti mismo
+subtitle: Guion gráfico — Páginas 11-12
 chapterNumber: 6
-illustrationId: il_luthier
-illustrationTitle: La tienda del Luthier
-illustrationDescription: El taller de un luthier, lleno de virutas y violines colgados, con luz cálida de sol.
 ---
 
-Si cada persona vive dentro de su propia burbuja, con su propio Horizonte que nadie más puede cruzar... ¿cómo hacemos amigos? ¿Cómo llegamos a querer a alguien de verdad si nunca vamos a poder meternos literalmente dentro de su cabeza?
+### Página 11
 
-El libro responde a esto con la historia de un luthier: una persona que fabrica y repara instrumentos de cuerda, como violines o guitarras.
+## [ILUSTRACIÓN manga_cap6_p11: "Página 11"]
 
-Un buen luthier nunca abre el instrumento por dentro para "arreglar" directamente las cuerdas desde ahí. Eso destrozaría el instrumento. Lo que hace es trabajar la madera por fuera: la lija, la tensa, ajusta cada pieza con paciencia, para que cuando el instrumento reciba una vibración —el roce de un arco, el golpe de un dedo—, su interior suene precioso sin romperse.
+*En su taller, Íñigo le enseña a Gerard que un luthier trabaja la madera desde fuera para que el violín suene por dentro sin romperse.*
 
-Nosotros hacemos exactamente lo mismo con las personas que queremos.
+- **Viñeta 1 (General):** El entorno cambia de nuevo. Ahora están en un taller de luthier clásico y cálido, lleno de virutas de madera en el suelo. Violines y violonchelos cuelgan de las paredes. Íñigo sostiene un violín. Gerard observa con curiosidad.
+- **Viñeta 2 (Detalle):** Primer plano de Íñigo, señalando las efes (aberturas) de la tapa del violín. Le cuenta a Gerard que un buen luthier nunca toca el instrumento por dentro para arreglar las cuerdas, eso lo rompería.
+- **Viñeta 3 (Detalle):** Primer plano de Íñigo pasando un paño suave por la madera exterior del violín. Explica que el luthier trabaja la madera por fuera: la lija, la tensa, ajusta cada pieza con paciencia.
+- **Viñeta 4 (Medio/Acción):** Íñigo toca suavemente las cuerdas con el arco. El violín emite una nota cálida y vibrante. Gerard sonríe al sentir la vibración en el aire. SFX: ¡¡VRRROOOOMM!!
+- **Viñeta 5 (Primer Plano):** Primer plano de Gerard. La metáfora ha calado hondo en él. Entiende que no puede meterse en la burbuja de Sandra para arreglarla.
+- **Viñeta 6 (Medio):** Gerard e Íñigo de pie en el taller. Txiki se acerca y se frota contra la pierna de Gerard. Íñigo le cuenta que querer es resonar desde fuera, estar presente.
 
-No podemos entrar en la burbuja de un amigo para "arreglarle" lo que le pasa por dentro. No funciona así, y tratar de forzarlo casi siempre hace daño a los dos. Lo que sí podemos hacer es trabajar desde fuera, con cuidado: escuchar de verdad, estar presentes en el momento adecuado, decir la palabra justa (o no decir nada, como hacía Txiki), para que esa persona, al recibir nuestra "vibración" —nuestra compañía—, pueda sonar bien por dentro sin romperse.
+### Página 12
 
-Eso es querer a alguien sin invadirlo: resonar con su burbuja en lugar de intentar meterte dentro.
+## [ILUSTRACIÓN manga_cap6_p12: "Página 12"]
 
-Y funciona también al revés. Tú también eres un instrumento. Cuando dejas que alguien de confianza esté cerca —sin que eso signifique contarle absolutamente todo, ni dejar que decida por ti— estás dejando que esa persona ajuste la madera desde fuera para que tú también puedas sonar mejor.
+*Gerard imagina cómo acompañará a Sandra sin invadirla; luego Íñigo, Txiki y AI-RA se despiden de él, le entregan el libro y el vórtice de luz vuelve a formarse.*
 
-> **Tu turno:** piensa en una persona con la que "resuenas" bien, alguien con quien te sientes más tú mismo cuando estáis juntos. No hace falta que sepas explicar por qué. Solo date cuenta de que ocurre.
+- **Viñeta 2 (Detalle):** El fondo se disuelve y vemos una imagen mental (burbuja de pensamiento) de Gerard y Sandra juntos en un parque, riendo. Gerard piensa que cuando Sandra esté triste, no intentará darle mil consejos.
+- **Viñeta 3 (Primer Plano):** Primer plano de Gerard. Su expresión es serena y madura. Piensa en simplemente estar ahí, dejar que ella sea ella misma.
+- **Viñeta 4 (Transición):** Viñeta de transición. Vuelven a la colina luminosa. Íñigo y Gerard están de pie, listos para la despedida. AI-RA flota cerca. Íñigo le felicita por el viaje.
+- **Viñeta 5 (Medio):** Íñigo entrega el libro original (con la cubierta de metal) a Gerard. Le dice que es hora de volver a casa.
+- **Viñeta 6 (Primer Plano):** Primer plano de Gerard, recibiendo el libro con ambas manos, emocionado. Lo abraza contra su pecho. Agradece a Íñigo, Txiki y AI-RA.
+- **Viñeta 7 (Primer Plano/Acción):** Primer plano de la cara de Gerard, con los ojos cerrados y una sonrisa brillante. El vórtice de luz empieza a formarse de nuevo a su alrededor. SFX: ¡¡SUUUUM!! ¡¡ZAS!!

@@ -91,6 +91,36 @@ import imgEpilogo from "../assets/images/epilogo.jpg";
 // @ts-ignore
 import imgPortada from "../assets/images/portada.png";
 
+// Manga pages (Edición Joven)
+// @ts-ignore
+import mangaCap1P1 from "../assets/images/manga/manga_cap1_p1.jpg";
+// @ts-ignore
+import mangaCap1P2 from "../assets/images/manga/manga_cap1_p2.jpg";
+// @ts-ignore
+import mangaCap2P3 from "../assets/images/manga/manga_cap2_p3.jpg";
+// @ts-ignore
+import mangaCap2P4 from "../assets/images/manga/manga_cap2_p4.jpg";
+// @ts-ignore
+import mangaCap3P5 from "../assets/images/manga/manga_cap3_p5.jpg";
+// @ts-ignore
+import mangaCap3P6 from "../assets/images/manga/manga_cap3_p6.jpg";
+// @ts-ignore
+import mangaCap4P7 from "../assets/images/manga/manga_cap4_p7.jpg";
+// @ts-ignore
+import mangaCap4P8 from "../assets/images/manga/manga_cap4_p8.jpg";
+// @ts-ignore
+import mangaCap5P9 from "../assets/images/manga/manga_cap5_p9.jpg";
+// @ts-ignore
+import mangaCap5P10 from "../assets/images/manga/manga_cap5_p10.jpg";
+// @ts-ignore
+import mangaCap6P11 from "../assets/images/manga/manga_cap6_p11.jpg";
+// @ts-ignore
+import mangaCap6P12 from "../assets/images/manga/manga_cap6_p12.jpg";
+// @ts-ignore
+import mangaCap7P13 from "../assets/images/manga/manga_cap7_p13.jpg";
+// @ts-ignore
+import mangaCap7P14 from "../assets/images/manga/manga_cap7_p14.jpg";
+
 // @ts-ignore
 import imgLadron from "../assets/images/ilustracion_ladron.png";
 // @ts-ignore
@@ -267,6 +297,20 @@ const imageMap: Record<string, string> = {
   il_txiki: imgTxiki,
   il_epilogo: imgEpilogo,
   il_portada: imgPortada,
+  manga_cap1_p1: mangaCap1P1,
+  manga_cap1_p2: mangaCap1P2,
+  manga_cap2_p3: mangaCap2P3,
+  manga_cap2_p4: mangaCap2P4,
+  manga_cap3_p5: mangaCap3P5,
+  manga_cap3_p6: mangaCap3P6,
+  manga_cap4_p7: mangaCap4P7,
+  manga_cap4_p8: mangaCap4P8,
+  manga_cap5_p9: mangaCap5P9,
+  manga_cap5_p10: mangaCap5P10,
+  manga_cap6_p11: mangaCap6P11,
+  manga_cap6_p12: mangaCap6P12,
+  manga_cap7_p13: mangaCap7P13,
+  manga_cap7_p14: mangaCap7P14,
   il_ladron: imgLadron,
   cuento_ladron: imgLadron,
   il_luthier: imgLuthier,
@@ -398,7 +442,10 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
     );
   }
 
+  const isMangaPage = illustration.id.startsWith("manga_");
+
   const isOriginalFormat =
+    isMangaPage ||
     illustration.id.includes("txiki") ||
     illustration.id.includes("epilogo") ||
     illustration.id.includes("sintonizadores") ||
@@ -406,8 +453,12 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
 
   return (
     <>
-      <div className="flex flex-col items-center gap-2.5 mx-auto w-full max-w-[280px] sm:max-w-[340px] md:max-w-[480px]">
-      <div 
+      <div
+        className={`flex flex-col items-center gap-2.5 mx-auto w-full ${
+          isMangaPage ? "max-w-[420px] sm:max-w-[520px] md:max-w-[620px]" : "max-w-[280px] sm:max-w-[340px] md:max-w-[480px]"
+        }`}
+      >
+      <div
         onDoubleClick={() => setIsOpen(true)}
         className={`w-full ${isOriginalFormat ? "" : "aspect-square"} bg-slate-950/40 border border-amber-500/10 rounded-2xl p-4 flex items-center justify-center relative shadow-lg shadow-amber-500/2 overflow-hidden group cursor-zoom-in select-none`}
         title={zoomHint}

@@ -1,24 +1,31 @@
 ---
 title: EL TEMBLOR Y TXIKI
-subtitle: Por qué Íñigo necesitaba escribir este libro
+subtitle: Guion gráfico — Páginas 7-8
 chapterNumber: 4
-illustrationId: il_txiki
-illustrationTitle: Txiki
-illustrationDescription: Un perro pequeño y leal, el que enseñó sin palabras lo que a este libro le cuesta un libro entero explicar.
 ---
 
-Los libros no salen de la nada. Este salió, en parte, del cuerpo de quien lo escribió.
+### Página 7
 
-Íñigo tiene una enfermedad llamada Parkinson. Hace que una mano le tiemble sin que él se lo pida, y que a veces su cuerpo no le obedezca del todo. Imagina querer escribir tu nombre y que la mano no coopere exactamente como quieres: así, más o menos. Escribir este libro, para él, no fue solo pensar ideas bonitas sobre agujeros negros. Fue también intentar entender su propio cuerpo, que de pronto se comporta como si tuviera reglas nuevas que nadie le explicó.
+## [ILUSTRACIÓN manga_cap4_p7: "Página 7"]
 
-Además de eso, escribió el libro para acompañar el duelo: la tristeza que queda cuando pierdes a alguien que quieres. El duelo no se explica fácil ni con física ni con nada. Pero hay una historia, muy anterior a los agujeros negros y a las burbujas, que a Íñigo le enseñó algo importante sobre cómo se cura ese tipo de dolor. Y para eso hay que ir a cuando tenía diez años.
+*La mano de Íñigo tiembla ante Gerard; le confiesa que es Parkinson, y un flashback lo lleva de vuelta a la habitación vacía de su mudanza de niño.*
 
-Su familia se mudó de ciudad. De golpe, perdió a todos sus amigos, las calles que conocía de memoria, cada rincón que no necesitaba mirar dos veces. Se encerró en sí mismo, como le pasa a mucha gente cuando pierde algo grande. Nadie en casa sabía muy bien qué hacer con esa tristeza silenciosa.
+- **Viñeta 1 (Medio):** Vuelven a la colina luminosa. Íñigo está junto a Txiki (adulto). De pronto, la mano derecha de Íñigo comienza a temblar visiblemente. Intenta ocultarla. Gerard lo nota.
+- **Viñeta 2 (Detalle):** Primer plano de Íñigo revelando su mano temblorosa. Su expresión es de aceptación, no de tristeza. Le cuenta a Gerard que es Parkinson reciente.
+- **Viñeta 3 (Primer Plano):** Gerard mira a Íñigo preocupado. Le pregunta si escribió el libro para arreglar su cuerpo.
+- **Viñeta 4 (Medio):** Íñigo niega. Le dice que el libro no es para arreglar el cuerpo, sino para acompañar el dolor, usando una lección antigua.
+- **Viñeta 5 (Flashback/Medio):** El fondo se vuelve oscuro y borroso. Vemos la silueta de un niño solo (Íñigo de 10 años) en una habitación vacía rodeada de cajas de mudanza. Íñigo le cuenta a Gerard que se encerró en sí mismo tras perder su mundo.
+- **Viñeta 6 (Flashback/Primer Plano):** La cara solitaria del joven Íñigo. Piensa en el sentido de un mundo que no puede controlar.
 
-Entonces llegó un cachorro. Se llamaba Txiki. En pocas semanas era el rey de la casa, y en pocos meses, el miembro más querido de la familia.
+### Página 8
 
-Lo curioso es lo que hizo Txiki sin decir una sola palabra, porque los perros no hablan: no distrajo a Íñigo de su tristeza. Lo obligó, con su sola presencia, a volver a engancharse con algo vivo. No le explicó nada. No le dio consejos. Simplemente estuvo ahí, todos los días, pidiendo cariño sin pedir explicaciones a cambio.
+## [ILUSTRACIÓN manga_cap4_p8: "Página 8"]
 
-Íñigo tardó décadas en entenderlo del todo, pero la lección era esta: a veces no hacen falta palabras ni razones para reparar un dolor. Solo hace falta que alguien —o algo— se quede a tu lado sin exigirte nada.
+*El cachorro Txiki entra corriendo en la habitación del niño Íñigo y lo hace reír; de vuelta en el presente, Gerard entiende que el dolor cambia cuando no estás solo.*
 
-> **Tu turno:** piensa en alguien o en algo (una persona, una mascota, incluso un lugar) que te haya ayudado a estar mejor solo con estar presente, sin decir gran cosa. Anótalo en tu Bitácora si te apetece.
+- **Viñeta 1 (Flashback/Medio/Acción):** La puerta de la habitación se abre de golpe. Un cachorro de perro pequeño y esponjoso (el joven Txiki) entra corriendo, emocionado, tropezando con sus propias patas. SFX: ¡¡TOC TOC!! ¡¡SCRAAAATCH!!
+- **Viñeta 2 (Flashback/Detalle):** Primer plano del cachorro Txiki saltando sobre el regazo del joven Íñigo, lamiéndole la cara con entusiasmo. Íñigo se ríe por primera vez en meses. SFX: ¡¡LICK!! ¡¡WOOF!! ¡¡JAJAJA!!
+- **Viñeta 3 (Flashback/Medio):** Íñigo niño acaricia a Txiki. El cachorro se queda quieto, dándole cariño silencioso. La atmósfera cambia de oscura a luminosa. Íñigo le cuenta a Gerard que Txiki no le dio consejos, solo estuvo ahí.
+- **Viñeta 4 (Flashback/Primer Plano):** Íñigo niño acariciando a Txiki con una sonrisa de paz. Piensa que solo necesita su presencia.
+- **Viñeta 5 (Transición):** La escena vuelve a la colina luminosa del presente. El viejo Íñigo está junto al perro adulto Txiki. Le cuenta a Gerard que tardó décadas en entender la lección: a veces, la mejor cura es solo estar presente.
+- **Viñeta 6 (Medio):** Gerard acaricia a Txiki cariñosamente. Comprende que el dolor cambia cuando no estás solo. Íñigo sonríe. AI-RA flota sobre ellos. Íñigo le dice que este libro es como Txiki, solo quiere estar a su lado.
