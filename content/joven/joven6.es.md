@@ -8,7 +8,7 @@ chapterNumber: 6
 
 ## [ILUSTRACIÓN manga_cap6_p11: "Página 11"]
 
-*Ilustración pendiente de generación.*
+*En su taller, Íñigo le enseña a Gerard que un luthier trabaja la madera desde fuera para que el violín suene por dentro sin romperse.*
 
 - **Viñeta 1 (General):** El entorno cambia de nuevo. Ahora están en un taller de luthier clásico y cálido, lleno de virutas de madera en el suelo. Violines y violonchelos cuelgan de las paredes. Íñigo sostiene un violín. Gerard observa con curiosidad.
 - **Viñeta 2 (Detalle):** Primer plano de Íñigo, señalando las efes (aberturas) de la tapa del violín. Le cuenta a Gerard que un buen luthier nunca toca el instrumento por dentro para arreglar las cuerdas, eso lo rompería.
