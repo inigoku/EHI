@@ -8,6 +8,8 @@ import { ConstellationDrawer } from "./components/ConstellationDrawer";
 import { LandingPage } from "./components/LandingPage";
 import { ChapterMusicPlayer } from "./components/ChapterMusicPlayer";
 import { PathLanding } from "./components/PathLanding";
+import { MangaReader } from "./components/MangaReader";
+import { mangaPages } from "./chapters/mangaPages";
 import { ReadingTheme, FontSize } from "./components/ReadingSettings";
 import { Language, uiStrings, getInitialLanguage, persistLanguage } from "./i18n";
 import { LanguageToggle } from "./components/LanguageToggle";
@@ -45,6 +47,17 @@ export default function App() {
     }
     return localStorage.getItem("last_read_chapter") || "cap0";
   });
+
+  // Edición Joven: manga mode (full-screen page flip through the manga art)
+  // vs. texto mode (the usual sidebar + prose chapter view). Defaults to
+  // manga so the book opens "como un manga de verdad" the first time.
+  const [jovenViewMode, setJovenViewMode] = React.useState<"manga" | "texto">(() => {
+    return (localStorage.getItem("joven_view_mode") as "manga" | "texto") || "manga";
+  });
+
+  React.useEffect(() => {
+    localStorage.setItem("joven_view_mode", jovenViewMode);
+  }, [jovenViewMode]);
 
   // Settings states
   const [theme, setTheme] = React.useState<ReadingTheme>(() => {
@@ -270,6 +283,27 @@ export default function App() {
     );
   }
 
+  if (readingMode === "joven" && jovenViewMode === "manga" && !activePathLanding) {
+    const storedPageId = localStorage.getItem("joven_manga_page_id");
+    const storedPage = storedPageId ? mangaPages.find((p) => p.id === storedPageId) : undefined;
+    const initialPageId =
+      (storedPage && storedPage.chapterId === activeChapterId ? storedPage.id : undefined) ||
+      mangaPages.find((p) => p.chapterId === activeChapterId)?.id ||
+      mangaPages[0].id;
+
+    return (
+      <MangaReader
+        pages={mangaPages}
+        initialPageId={initialPageId}
+        onSwitchToText={(chapterId) => {
+          setJovenViewMode("texto");
+          setActiveChapterId(chapterId);
+        }}
+        onExitHome={() => setReadingMode("home")}
+      />
+    );
+  }
+
   return (
     <div className={`min-h-screen flex flex-col font-serif transition-colors duration-300 ${getThemeBackgroundClass()}`}>
       {/* Top Banner (Header) - fixed, always visible (doesn't scroll with the text) */}
@@ -373,6 +407,8 @@ export default function App() {
           onModeChange={handleModeChange}
           language={language}
           setLanguage={setLanguage}
+          jovenViewMode={jovenViewMode}
+          onJovenViewModeChange={setJovenViewMode}
         />
 
         {/* Content reader frame */}

@@ -1,6 +1,6 @@
 import React from "react";
 import { Chapter } from "../chapters";
-import { Search, Book, PenTool, CheckCircle, Flame, Star, Menu, X, ArrowUpRight } from "lucide-react";
+import { Search, Book, PenTool, CheckCircle, Flame, Star, Menu, X, ArrowUpRight, BookImage } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { ReadingSettings, ReadingTheme, FontSize } from "./ReadingSettings";
 import { Language, uiStrings } from "../i18n";
@@ -30,6 +30,8 @@ interface SidebarProps {
   onModeChange: (mode: "home" | "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven") => void;
   language: Language;
   setLanguage: (language: Language) => void;
+  jovenViewMode?: "manga" | "texto";
+  onJovenViewModeChange?: (mode: "manga" | "texto") => void;
 }
 
 export const Sidebar: React.FC<SidebarProps> = ({
@@ -52,6 +54,8 @@ export const Sidebar: React.FC<SidebarProps> = ({
   onModeChange,
   language,
   setLanguage,
+  jovenViewMode,
+  onJovenViewModeChange,
 }) => {
   const t = uiStrings[language];
   const getTitle = (c: Chapter) => (language === "en" && c.titleEn ? c.titleEn : c.title);
@@ -414,6 +418,19 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </button>
           </div>
         </div>
+
+        {/* Volver al modo manga (solo visible leyendo la Edición Joven en modo texto) */}
+        {mode === "joven" && jovenViewMode === "texto" && onJovenViewModeChange && (
+          <div className={`px-5 py-3 border-b ${sc.border}`}>
+            <button
+              onClick={() => onJovenViewModeChange("manga")}
+              className={`w-full flex items-center justify-center gap-2 py-2 px-3 rounded-xl border ${sc.button} active:scale-95 transition-all text-xs font-semibold cursor-pointer`}
+            >
+              <BookImage className="w-3.5 h-3.5" />
+              {language === "en" ? "Switch to Manga Mode" : "Volver al Modo Manga"}
+            </button>
+          </div>
+        )}
 
         {/* Tools and triggers */}
         <div className={`px-5 py-3 border-b ${sc.border} grid grid-cols-2 gap-2`}>

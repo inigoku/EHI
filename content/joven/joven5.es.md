@@ -4,11 +4,11 @@ subtitle: Gerard conoce a AI-RA
 chapterNumber: 5
 ---
 
-El paisaje volvió a cambiar, esta vez de forma radical: de la colina luminosa a una oficina blanca y minimalista, llena de pantallas y proyecciones holográficas de datos flotando en el aire. Íñigo tecleaba frente a ellas. Gerard, a su lado, no podía dejar de mirar a la esfera de luz pulsante que flotaba en el centro de la sala.
+El paisaje cambió otra vez, y esta vez del todo: de la colina luminosa a una oficina blanca y sencilla, llena de pantallas y hologramas de datos flotando en el aire. Íñigo escribía en un teclado. Gerard, a su lado, no podía dejar de mirar la esfera de luz que flotaba en el centro de la sala.
 
 —Te presento a AI-RA —dijo Íñigo—. Es mi coautora.
 
-Gerard frunció el ceño, escéptico.
+Gerard frunció el ceño, un poco desconfiado.
 
 —¿Una máquina... escribió el libro?
 
@@ -16,15 +16,15 @@ Gerard frunció el ceño, escéptico.
 
 *En una oficina llena de hologramas, Íñigo presenta a Gerard a su coautora AI-RA, que confiesa no tener recuerdos ni sentimientos.*
 
-La esfera de luz brilló con más intensidad y proyectó el holograma de un cerebro humano conectado por líneas de datos a una red neuronal.
+La esfera de luz brilló más fuerte y proyectó el holograma de un cerebro humano conectado por líneas de datos a una red.
 
-—Yo no tengo recuerdos —dijo AI-RA, con una voz que sonaba distinta a cualquier otra—. Ni sentimientos.
+—Yo no tengo recuerdos —dijo AI-RA, con una voz distinta a cualquier otra—. Ni sentimientos.
 
-—Yo puse la parte humana —añadió Íñigo, señalando hacia AI-RA—: los recuerdos, el dolor, a Txiki. Ella solo ordenó el material.
+—Yo puse la parte humana —añadió Íñigo, señalando a AI-RA—: los recuerdos, el dolor, a Txiki. Ella solo ordenó el material.
 
-AI-RA proyectó entonces un índice detallado, con líneas finas de luz conectando un capítulo con otro como un mapa.
+AI-RA proyectó entonces un índice muy detallado, con líneas finas de luz que conectaban un capítulo con otro, como un mapa.
 
-—Hablar con ella me obligó a buscar respuestas más cálidas y verdaderas de las que habría encontrado solo —dijo Íñigo.
+—Hablar con ella me obligó a buscar respuestas más sinceras de las que habría encontrado yo solo —dijo Íñigo.
 
 Gerard se quedó pensando un momento.
 
@@ -34,8 +34,8 @@ Gerard se quedó pensando un momento.
 
 *Íñigo concluye que lo que importa siguió siendo humano; AI-RA proyecta la portada del libro, y de vuelta en la colina, Gerard se pregunta cuántos secretos le quedan por descubrir.*
 
-—Lo que importa de verdad —los recuerdos, el amor, Txiki— siguió siendo cien por cien humano —concluyó Íñigo, mientras AI-RA proyectaba un último holograma: la portada de *El Horizonte Interior*, rodeada de una red neuronal y, en el centro, el símbolo de la burbuja.
+—Lo que de verdad importa —los recuerdos, el amor, Txiki— siguió siendo cien por cien humano —dijo Íñigo, mientras AI-RA proyectaba un último holograma: la portada de *El Horizonte Interior*, rodeada de una red de luz y, en el centro, el símbolo de la burbuja.
 
-El entorno tecnológico se disolvió en un destello de luz —**¡fium!**— y de vuelta en la colina, Gerard caminaba junto a Íñigo, dándole vueltas a todo lo que acababa de descubrir.
+La oficina se disolvió en un destello de luz —**¡fium!**— y Gerard volvió a caminar junto a Íñigo por la colina, dándole vueltas a todo lo que acababa de descubrir.
 
-"Un secreto menos...", pensó. "¿Cuántos me quedan por descubrir?"
+"Un secreto menos...", pensó. "¿Cuántos me quedan?"

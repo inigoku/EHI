@@ -4,13 +4,13 @@ subtitle: El secreto de Íñigo y el cachorro que lo salvó
 chapterNumber: 4
 ---
 
-De vuelta en la colina luminosa, con Txiki ya tranquilo a su lado, Íñigo se quedó quieto un momento. Su mano derecha había empezado a temblar, y él intentó esconderla en el bolsillo del abrigo. Pero Gerard ya lo había visto.
+De vuelta en la colina luminosa, con Txiki tranquilo a su lado, Íñigo se quedó quieto un momento. Su mano derecha empezó a temblar, y él intentó esconderla en el bolsillo del abrigo. Pero Gerard ya lo había visto.
 
 —¡Íñigo! ¿Por qué te tiembla tanto? —preguntó, preocupado.
 
-Íñigo dejó de esconder la mano y la miró él mismo, con una calma que sorprendió a Gerard.
+Íñigo dejó de esconder la mano y la miró él mismo, tranquilo. Eso sorprendió a Gerard.
 
-—Es Parkinson, Gerard. Lo sé desde hace unos meses —dijo, sin dramatismo.
+—Es Parkinson, Gerard. Lo sé desde hace unos meses —dijo, sin darle mayor drama.
 
 —Íñigo... ¿por eso empezaste a escribir "El Horizonte Interior"? —preguntó Gerard—. ¿Creías que podría curarte?
 
@@ -40,6 +40,6 @@ De vuelta en el presente, el Íñigo adulto acarició a Txiki, ya crecido, mient
 
 Gerard también acarició al perro, pensativo.
 
-—Entonces el dolor... cambia cuando no estás solo —dijo, más para sí mismo que para Íñigo.
+—Entonces el dolor... cambia cuando no estás solo —dijo, casi para sí mismo.
 
 Íñigo sonrió y asintió.
