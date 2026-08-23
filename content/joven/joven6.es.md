@@ -21,7 +21,7 @@ chapterNumber: 6
 
 ## [ILUSTRACIÓN manga_cap6_p12: "Página 12"]
 
-*Ilustración pendiente de generación.*
+*Gerard imagina cómo acompañará a Sandra sin invadirla; luego Íñigo, Txiki y AI-RA se despiden de él, le entregan el libro y el vórtice de luz vuelve a formarse.*
 
 - **Viñeta 2 (Detalle):** El fondo se disuelve y vemos una imagen mental (burbuja de pensamiento) de Gerard y Sandra juntos en un parque, riendo. Gerard piensa que cuando Sandra esté triste, no intentará darle mil consejos.
 - **Viñeta 3 (Primer Plano):** Primer plano de Gerard. Su expresión es serena y madura. Piensa en simplemente estar ahí, dejar que ella sea ella misma.
