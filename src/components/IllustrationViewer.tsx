@@ -110,6 +110,8 @@ import mangaCap4P7 from "../assets/images/manga/manga_cap4_p7.jpg";
 import mangaCap4P8 from "../assets/images/manga/manga_cap4_p8.jpg";
 // @ts-ignore
 import mangaCap5P9 from "../assets/images/manga/manga_cap5_p9.jpg";
+// @ts-ignore
+import mangaCap5P10 from "../assets/images/manga/manga_cap5_p10.jpg";
 
 // @ts-ignore
 import imgLadron from "../assets/images/ilustracion_ladron.png";
@@ -296,6 +298,7 @@ const imageMap: Record<string, string> = {
   manga_cap4_p7: mangaCap4P7,
   manga_cap4_p8: mangaCap4P8,
   manga_cap5_p9: mangaCap5P9,
+  manga_cap5_p10: mangaCap5P10,
   il_ladron: imgLadron,
   cuento_ladron: imgLadron,
   il_luthier: imgLuthier,

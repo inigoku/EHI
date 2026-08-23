@@ -21,7 +21,7 @@ chapterNumber: 5
 
 ## [ILUSTRACIÓN manga_cap5_p10: "Página 10"]
 
-*Ilustración pendiente de generación.*
+*Íñigo concluye que lo que importa siguió siendo humano; AI-RA proyecta la portada del libro, y de vuelta en la colina, Gerard se pregunta cuántos secretos le quedan por descubrir.*
 
 - **Viñeta 1 (Primer Plano):** Íñigo le cuenta a Gerard que hablar con AI-RA le ayudó a entender sus propias dudas humanas. Las preguntas frías de la máquina le obligaron a buscar respuestas más cálidas y verdaderas.
 - **Viñeta 2 (Primer Plano):** Primer plano de Gerard. Su expresión es de asombro y comprensión. Piensa que no es magia, sino una ayuda superorganizada.
