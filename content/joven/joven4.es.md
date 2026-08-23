@@ -8,7 +8,7 @@ chapterNumber: 4
 
 ## [ILUSTRACIÓN manga_cap4_p7: "Página 7"]
 
-*Ilustración pendiente de generación.*
+*La mano de Íñigo tiembla ante Gerard; le confiesa que es Parkinson, y un flashback lo lleva de vuelta a la habitación vacía de su mudanza de niño.*
 
 - **Viñeta 1 (Medio):** Vuelven a la colina luminosa. Íñigo está junto a Txiki (adulto). De pronto, la mano derecha de Íñigo comienza a temblar visiblemente. Intenta ocultarla. Gerard lo nota.
 - **Viñeta 2 (Detalle):** Primer plano de Íñigo revelando su mano temblorosa. Su expresión es de aceptación, no de tristeza. Le cuenta a Gerard que es Parkinson reciente.
