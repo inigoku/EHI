@@ -20,7 +20,9 @@ export const MangaReader: React.FC<MangaReaderProps> = ({ pages, initialPageId, 
   );
   const [index, setIndex] = React.useState<number>(initialIndex);
   const page = pages[index];
+  const isCover = page.pageNumber === 0;
   const chapter = jovenList.find((c) => c.id === page.chapterId);
+  const totalNumberedPages = pages.filter((p) => p.pageNumber > 0).length;
 
   React.useEffect(() => {
     localStorage.setItem("joven_manga_page_id", page.id);
@@ -57,7 +59,7 @@ export const MangaReader: React.FC<MangaReaderProps> = ({ pages, initialPageId, 
             Edición Joven · Modo Manga
           </span>
           <span className="text-xs sm:text-sm font-display italic text-slate-200 truncate max-w-[50vw]">
-            {chapter ? chapter.title : ""}
+            {isCover ? "El Horizonte Interior" : chapter ? chapter.title : ""}
           </span>
         </div>
 
@@ -85,7 +87,7 @@ export const MangaReader: React.FC<MangaReaderProps> = ({ pages, initialPageId, 
           <motion.img
             key={page.id}
             src={page.src}
-            alt={`Página ${page.pageNumber}`}
+            alt={isCover ? "Portada" : `Página ${page.pageNumber}`}
             initial={{ opacity: 0, scale: 0.98 }}
             animate={{ opacity: 1, scale: 1 }}
             exit={{ opacity: 0, scale: 0.98 }}
@@ -107,7 +109,7 @@ export const MangaReader: React.FC<MangaReaderProps> = ({ pages, initialPageId, 
       {/* Footer: progress + page counter */}
       <footer className="shrink-0 flex flex-col items-center gap-2 px-6 pb-4 pt-1">
         <span className="text-[11px] font-mono text-slate-400">
-          Página {page.pageNumber} de {pages.length}
+          {isCover ? "Portada" : `Página ${page.pageNumber} de ${totalNumberedPages}`}
         </span>
         <div className="w-full max-w-xs h-1 rounded-full bg-white/10 overflow-hidden">
           <div

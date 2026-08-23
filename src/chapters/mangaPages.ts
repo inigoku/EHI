@@ -1,4 +1,6 @@
 // @ts-ignore
+import portada from "../assets/images/manga/manga_portada.jpg";
+// @ts-ignore
 import cap1p1 from "../assets/images/manga/manga_cap1_p1.jpg";
 // @ts-ignore
 import cap1p2 from "../assets/images/manga/manga_cap1_p2.jpg";
@@ -40,6 +42,7 @@ export interface MangaPage {
 }
 
 export const mangaPages: MangaPage[] = [
+  { id: "manga_portada", chapterId: "joven1", pageNumber: 0, src: portada },
   { id: "manga_cap1_p1", chapterId: "joven1", pageNumber: 1, src: cap1p1 },
   { id: "manga_cap1_p2", chapterId: "joven1", pageNumber: 2, src: cap1p2 },
   { id: "manga_cap2_p3", chapterId: "joven2", pageNumber: 3, src: cap2p3 },
