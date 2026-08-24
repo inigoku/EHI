@@ -1,9 +1,9 @@
 import React from "react";
 import { motion } from "motion/react";
-import { ArrowRight, BookOpen, Feather } from "lucide-react";
+import { ArrowRight, BookOpen, Feather, Sparkles } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
 import { Language } from "../i18n";
-import { allChapters, cuentosList, poemasList, reconstruccionChapters } from "../chapters";
+import { allChapters, cuentosList, poemasList, reconstruccionChapters, lecturasTopologicas } from "../chapters";
 import { conceptualLinks as sharedConceptualLinks } from "../chapters/conceptualLinks";
 
 interface RelationsGraphProps {
@@ -29,6 +29,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         story: "Relato de Acompañamiento",
         connections: "Nodos Conectados",
         noCuentos: "Este capítulo es de lectura teórica pura",
+        lectura: "Lectura Topológica",
+        readLectura: "Leer esta Lectura",
       },
       en: {
         graphTitle: "Chapter Constellation",
@@ -38,6 +40,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         story: "Narrative Story",
         connections: "Linked Connections",
         noCuentos: "This chapter is pure theoretical reading",
+        lectura: "Topological Reading",
+        readLectura: "Read this Reading",
       }
     }[language];
   }, [language]);
@@ -56,8 +60,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
     );
   }, []);
 
-  const centerX = 210;
-  const centerY = 210;
+  const centerX = 240;
+  const centerY = 240;
   const radius = 105;
 
   const nodes = React.useMemo(() => {
@@ -252,6 +256,32 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
     }>;
   }, [nodes]);
 
+  // Ring 5 (Lecturas Topológicas): its own independent sequential ring,
+  // like the essay ring, since most of these chapters have no single
+  // "parent" essay chapter to hang off of as a satellite.
+  const lecturaNodes = React.useMemo(() => {
+    return lecturasTopologicas.map((ch, idx) => {
+      const angle = (idx / lecturasTopologicas.length) * 2 * Math.PI - Math.PI / 2;
+      const r5 = 225; // Ring 5 (Lecturas Topológicas)
+      const x = centerX + r5 * Math.cos(angle);
+      const y = centerY + r5 * Math.sin(angle);
+
+      return {
+        id: ch.id,
+        title: ch.title,
+        chapterNumber: "L",
+        linkedCuentosId: ch.linkedCuentosId,
+        x,
+        y,
+        angle,
+        color: "indigo",
+        chapter: ch,
+      };
+    });
+  }, []);
+
+  const conceptualLinkNodes = React.useMemo(() => [...nodes, ...lecturaNodes], [nodes, lecturaNodes]);
+
   const conceptualLinks = sharedConceptualLinks;
 
   const [selectedNodeId, setSelectedNodeId] = React.useState<string>(() => {
@@ -312,8 +342,21 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         linkedId: reconNode.linkedChapterId,
       };
     }
+    const lecturaNode = lecturaNodes.find(l => l.id === selectedNodeId);
+    if (lecturaNode) {
+      return {
+        type: "lecturas" as const,
+        id: lecturaNode.id,
+        number: lecturaNode.chapter.chapterNumber || "",
+        title: lecturaNode.title,
+        subtitle: lecturaNode.chapter.subtitle || "",
+        section: language === "es" ? "LECTURAS TOPOLÓGICAS" : "TOPOLOGICAL READINGS",
+        color: "indigo",
+        linkedId: lecturaNode.linkedCuentosId,
+      };
+    }
     return null;
-  }, [selectedNodeId, nodes, cuentoNodes, poemaNodes, reconNodes, language]);
+  }, [selectedNodeId, nodes, cuentoNodes, poemaNodes, reconNodes, lecturaNodes, language]);
 
   const getColorHex = React.useCallback((color: string) => {
     if (theme === "cosmic") {
@@ -324,6 +367,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         case "amber": return "#FBBF24";
         case "purple": return "#C084FC";
         case "rose": return "#F43F5E";
+        case "indigo": return "#818CF8";
         default: return "#94A3B8";
       }
     } else {
@@ -334,6 +378,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         case "amber": return "#D97706";
         case "purple": return "#9333EA";
         case "rose": return "#E11D48";
+        case "indigo": return "#4F46E5";
         default: return "#475569";
       }
     }
@@ -389,7 +434,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       return S;
     })();
 
-    const nodeX = nodes.find(n => n.id === X);
+    const nodeX = nodes.find(n => n.id === X) || lecturaNodes.find(n => n.id === X);
     const colorHex = nodeX ? getColorHex(nodeX.color) : getColorHex("amber");
 
     if (isSequential) {
@@ -442,7 +487,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       }
       return defaultConceptual;
     }
-  }, [selectedNodeId, theme, nodes, getColorHex, hasConceptualLink, areSequentiallyAdjacent, cuentoNodes, poemaNodes, reconNodes]);
+  }, [selectedNodeId, theme, nodes, getColorHex, hasConceptualLink, areSequentiallyAdjacent, cuentoNodes, poemaNodes, reconNodes, lecturaNodes]);
 
   // Theme-based styling configurations
   const sc = React.useMemo(() => {
@@ -522,7 +567,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
           )}
           
           <svg
-            viewBox="0 0 420 420"
+            viewBox="0 0 480 480"
             className="w-full h-auto max-h-[65vh] select-none z-10"
           >
             {/* Glow Filter */}
@@ -577,8 +622,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
 
             {/* Drawing Conceptual Links */}
             {conceptualLinks.map((link, idx) => {
-              const fromNode = nodes.find(n => n.id === link.fromId);
-              const toNode = nodes.find(n => n.id === link.toId);
+              const fromNode = conceptualLinkNodes.find(n => n.id === link.fromId);
+              const toNode = conceptualLinkNodes.find(n => n.id === link.toId);
               if (!fromNode || !toNode) return null;
               
               const style = getLinkStyle(fromNode.id, toNode.id, false);
@@ -604,6 +649,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
             <circle cx={centerX} cy={centerY} r={135} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
             <circle cx={centerX} cy={centerY} r={165} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
             <circle cx={centerX} cy={centerY} r={195} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
+            <circle cx={centerX} cy={centerY} r={225} fill="none" stroke={theme === "cosmic" ? "rgba(255, 255, 255, 0.03)" : "rgba(0, 0, 0, 0.02)"} strokeWidth={1} className="pointer-events-none" />
 
             {/* Sequential Links for Cuentos (Corona 2) */}
             {cuentoNodes.map((node, idx) => {
@@ -742,6 +788,54 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                       : theme === "cosmic"
                       ? "rgba(56, 189, 248, 0.1)"
                       : "rgba(2, 132, 199, 0.08)"
+                  }
+                  strokeWidth={isHighlighted ? 2.0 : 0.6}
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })()}
+
+            {/* Sequential Links for Lecturas Topológicas (Corona 5) */}
+            {lecturaNodes.map((node, idx) => {
+              if (idx === lecturaNodes.length - 1) return null;
+              const nextNode = lecturaNodes[idx + 1];
+              const isHighlighted = selectedNodeId === node.id || selectedNodeId === nextNode.id;
+
+              return (
+                <line
+                  key={`lectura-seq-${idx}`}
+                  x1={node.x}
+                  y1={node.y}
+                  x2={nextNode.x}
+                  y2={nextNode.y}
+                  stroke={
+                    isHighlighted
+                      ? getColorHex("indigo")
+                      : theme === "cosmic"
+                      ? "rgba(129, 140, 248, 0.1)"
+                      : "rgba(79, 70, 229, 0.08)"
+                  }
+                  strokeWidth={isHighlighted ? 2.0 : 0.6}
+                  className="transition-all duration-300 pointer-events-none"
+                />
+              );
+            })}
+            {lecturaNodes.length > 1 && (() => {
+              const first = lecturaNodes[0];
+              const last = lecturaNodes[lecturaNodes.length - 1];
+              const isHighlighted = selectedNodeId === first.id || selectedNodeId === last.id;
+              return (
+                <line
+                  x1={last.x}
+                  y1={last.y}
+                  x2={first.x}
+                  y2={first.y}
+                  stroke={
+                    isHighlighted
+                      ? getColorHex("indigo")
+                      : theme === "cosmic"
+                      ? "rgba(129, 140, 248, 0.1)"
+                      : "rgba(79, 70, 229, 0.08)"
                   }
                   strokeWidth={isHighlighted ? 2.0 : 0.6}
                   className="transition-all duration-300 pointer-events-none"
@@ -1046,6 +1140,62 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                 </g>
               );
             })}
+
+            {/* Render Lecturas Topológicas Nodes (Corona 5) */}
+            {lecturaNodes.map((lNode) => {
+              const isSelected = selectedNodeId === lNode.id;
+              const indigoHex = getColorHex("indigo");
+
+              return (
+                <g
+                  key={lNode.id}
+                  onClick={() => setSelectedNodeId(lNode.id)}
+                  className="cursor-pointer group"
+                >
+                  {/* Pulsing glow for selection */}
+                  {isSelected && (
+                    <motion.circle
+                      cx={lNode.x}
+                      cy={lNode.y}
+                      r={11}
+                      fill="none"
+                      stroke={indigoHex}
+                      strokeWidth={1.5}
+                      initial={{ scale: 0.8, opacity: 0.6 }}
+                      animate={{ scale: 1.7, opacity: 0 }}
+                      transition={{
+                        repeat: Infinity,
+                        duration: 1.8,
+                        ease: "easeOut",
+                      }}
+                    />
+                  )}
+
+                  <circle
+                    cx={lNode.x}
+                    cy={lNode.y}
+                    r={isSelected ? 7.5 : 5.5}
+                    fill={isSelected ? indigoHex : theme === "cosmic" ? "#312e81" : "#eef2ff"}
+                    stroke={isSelected ? indigoHex : theme === "cosmic" ? "rgba(129, 140, 248, 0.3)" : "rgba(79, 70, 229, 0.3)"}
+                    strokeWidth={1}
+                    className="transition-all duration-300 group-hover:scale-110"
+                    filter={isSelected ? "url(#glow)" : undefined}
+                    style={{ transformOrigin: `${lNode.x}px ${lNode.y}px` }}
+                  />
+
+                  <text
+                    x={lNode.x}
+                    y={lNode.y + 2.5}
+                    textAnchor="middle"
+                    fill={isSelected ? (theme === "cosmic" ? "#0D0E12" : "#ffffff") : theme === "cosmic" ? "#818cf8" : "#4f46e5"}
+                    className="font-sans font-bold select-none transition-colors duration-300"
+                    style={{ fontSize: isSelected ? "7px" : "6px" }}
+                  >
+                    {lNode.chapterNumber}
+                  </text>
+                </g>
+              );
+            })}
           </svg>
         </div>
 
@@ -1080,10 +1230,15 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                         <Feather className="w-3.5 h-3.5" />
                         {language === "es" ? "Poema" : "Poem"}
                       </>
-                    ) : (
+                    ) : selectedInfo.type === "reconstruccion" ? (
                       <>
                         <BookOpen className="w-3.5 h-3.5" />
                         {language === "es" ? "Reconstrucción" : "Reconstruction"} {selectedInfo.number}
+                      </>
+                    ) : (
+                      <>
+                        <Sparkles className="w-3.5 h-3.5" />
+                        {textStrings.lectura}
                       </>
                     )}
                   </span>
@@ -1111,7 +1266,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                   
                   {selectedInfo.linkedId ? (
                     <div className="flex flex-col gap-1.5">
-                      {selectedInfo.type === "essay" ? (() => {
+                      {(selectedInfo.type === "essay" || selectedInfo.type === "lecturas") ? (() => {
                         const linkedCuento = cuentosList.find(cuento => cuento.id === selectedInfo.linkedId);
                         if (!linkedCuento) return null;
                         return (
@@ -1152,16 +1307,18 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
               {/* Action Buttons */}
               <div className="pt-6">
                 <button
-                  onClick={() => onSelectChapter(selectedInfo.id, selectedInfo.type)}
+                  onClick={() => onSelectChapter(selectedInfo.id, selectedInfo.type === "lecturas" ? "essay" : selectedInfo.type)}
                   className={`w-full flex items-center justify-center gap-2 py-3 rounded-xl font-sans font-bold hover:scale-[1.01] active:scale-[0.99] transition-all cursor-pointer ${sc.btnPrimary}`}
                 >
-                  {selectedInfo.type === "essay" 
-                    ? textStrings.readChapter 
+                  {selectedInfo.type === "essay"
+                    ? textStrings.readChapter
                     : selectedInfo.type === "cuentos"
                     ? textStrings.readCuento
                     : selectedInfo.type === "poemas"
                     ? (language === "es" ? "Leer Poema" : "Read Poem")
-                    : (language === "es" ? "Iniciar Reconstrucción" : "Start Reconstruction")
+                    : selectedInfo.type === "reconstruccion"
+                    ? (language === "es" ? "Iniciar Reconstrucción" : "Start Reconstruction")
+                    : textStrings.readLectura
                   }
                   <ArrowRight className="w-4 h-4" />
                 </button>
