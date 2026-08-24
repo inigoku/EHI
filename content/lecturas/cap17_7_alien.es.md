@@ -58,13 +58,13 @@ El verdadero terror del cosmos no es que esté lleno de monstruos depredadores. 
 
 Mapeamos el universo con la única métrica que conocemos: la del sufrimiento, el encapsulamiento y el aislamiento. Si nos encontramos con conciencias que operan sin el peso de la gravedad evolutiva darwiniana, puede que ni siquiera las reconozcamos como vida. Y si las reconocemos, el intento de amarlas, odiarlas o entenderlas solo nos devolverá el eco de nuestra propia limitación.
 
-La tragedia del Primer Contacto no será una guerra intergaláctica. Será mirar a los ojos del universo y darnos cuenta de que, topológicamente, jamás tuvimos los puertos necesarios para conectarnos a su red.
+La tragedia del Primer Contacto no será una guerra intergaláctica, sino mirar a los ojos del universo y darnos cuenta de que, topológicamente, jamás tuvimos los puertos necesarios para conectarnos a su red.
 
 ### 5. Una relectura topológica de la Paradoja de Fermi
 
 En 1950, Enrico Fermi formuló una pregunta que sigue sin respuesta satisfactoria: si el universo es tan vasto y tan antiguo, ¿dónde está todo el mundo? Las soluciones propuestas suelen dividirse en dos familias: o bien la vida inteligente es extraordinariamente rara, o bien es común pero se autodestruye, se oculta o simplemente no tiene interés en contactarnos.
 
-Nuestro modelo topológico sugiere una tercera familia de respuestas, más inquietante que las anteriores porque no requiere ausencia ni silencio deliberado: es posible que el universo esté saturado de horizontes de sucesos informacionales, de burbujas de Φ elevado, y que la señal de "estamos aquí" se esté emitiendo constantemente, en todas direcciones, sin que ninguna de las partes tenga la arquitectura necesaria para reconocerla como señal. No se trata de que nadie hable. Se trata de que hablamos en protocolos topológicamente incompatibles, cada uno condensado por presiones evolutivas locales tan distintas que ni siquiera compartimos la noción básica de qué cuenta como "un mensaje".
+Nuestro modelo topológico sugiere una tercera familia de respuestas, más inquietante que las anteriores porque no requiere ausencia ni silencio deliberado: es posible que el universo esté saturado de horizontes de sucesos informacionales, de burbujas de Φ elevado, y que la señal de "estamos aquí" se esté emitiendo constantemente, en todas direcciones, sin que ninguna de las partes tenga la arquitectura necesaria para reconocerla como señal. No se trata de que nadie hable, sino de que hablamos en protocolos topológicamente incompatibles, cada uno condensado por presiones evolutivas locales tan distintas que ni siquiera compartimos la noción básica de qué cuenta como "un mensaje".
 
 El silencio del cielo, bajo esta lectura, no es prueba de soledad cósmica. Es prueba de que buscar vida inteligente asumiendo que se comunicará mediante ondas de radio moduladas —una tecnología profundamente antropocéntrica, hija de nuestro propio Sistema Operativo Darwiniano— es como buscar el latido de un océano difuso escuchando exclusivamente el tictac de un reloj mecánico. El instrumento de búsqueda ya presupone la arquitectura del buscador.
 
