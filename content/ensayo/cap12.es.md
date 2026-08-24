@@ -111,6 +111,23 @@ La diferencia entre arder con el otro y sostenerlo mientras arde no es de intens
 > **En física esto se llama:** compasión anclada vs. empatía sin retorno.  
 > **En la vida diaria es como:** la diferencia entre caer al agua para salvar a alguien (y ahogarse los dos) y tenderle una cuerda desde la orilla.
 
+### No arreglar: acompañar
+
+Hay una pregunta que casi todo el mundo se hace, tarde o temprano, frente a alguien a quien quiere: un amigo que atraviesa una ruptura, un duelo, una crisis sin solución rápida. ¿Qué se supone que tengo que hacer?
+
+La intuición más común es incompleta, y a veces directamente equivocada: decirle qué hacer. Ofrecer el diagnóstico, la solución, el plan de tres pasos. Es una intuición comprensible —ver sufrir a alguien que quieres genera una presión real de actuar—, pero el modelo del horizonte sugiere que, la mayoría de las veces, hace lo contrario de lo que ayuda.
+
+El capítulo 5 describió el Wu Wei como la acción que no fuerza: el carpintero que deja que la madera le diga dónde cortar, en vez de imponerle una forma que la madera no tiene. Un horizonte roto —por una pérdida, por un fracaso, por cualquier reorganización violenta de su arquitectura— tiene su propio grano y su propio ritmo de reparación, el mismo que el capítulo 7 describió al hablar de la herida que cicatriza. Decirle a alguien qué hacer con su dolor es, casi siempre, cortar contra ese grano: imponerle una velocidad, una dirección, un resultado, que responden más a la urgencia de quien mira que a la física real del sistema que está sanando.
+
+Lo que la ayuda necesita, entonces, no es dirección. Es exactamente la cuerda desde la orilla de la sección anterior: presencia anclada, sostenida, que no exige que el otro cambie de ritmo para merecerla. El capítulo 12 describió la línea de base social de Coan: la mera presencia de alguien familiar ya baja la respuesta de amenaza del sistema nervioso, sin que haga falta que esa presencia diga, sugiera o resuelva nada. No es un paso previo a la ayuda real. Ya es la ayuda real.
+
+> **En física esto se llama:** presencia como señal de regulación pasiva; el horizonte se repara con la energía que ya tiene, no con la que otro le presta.  
+> **En la vida diaria es como:** quedarte sentado junto a alguien mientras un hueso suelda: no aceleras el proceso poniéndole prisa, pero tu presencia le baja el pulso lo suficiente como para que el hueso haga lo que ya sabe hacer.
+
+Esto no significa retirarse ni guardar silencio por norma. Significa algo más preciso: que la utilidad de estar ahí no depende de tener razón sobre lo que el otro debería hacer. Respetar el horizonte ajeno es, entre otras cosas, aceptar que su reparación le pertenece a él —que el mismo mecanismo que cerró la herida sin que nadie se la cerrara desde fuera es el que tiene que cerrar esta— y que el papel de quien acompaña no es sustituir ese mecanismo, sino sostener las condiciones para que siga funcionando.
+
+Al final de este libro hay una coda dedicada a un perro. Termina con una frase que, hasta ahora, quedaba sin explicar: *"Su compañía no tapó aquel duelo. Lo reparó, que es distinto."* Un perro no puede decirle a nadie qué hacer. Solo puede estar. Y a veces, como descubrió un niño de diez años mucho antes de que existiera este experimento, eso es exactamente lo que un horizonte roto necesita para volver a cerrarse por sí solo.
+
 ### La empatía como campo de interferencias
 
 Hasta aquí hemos tratado la empatía como operación entre dos horizontes: uno que emite y otro que recibe. Pero la empatía real ocurre en espacios sociales donde múltiples horizontes emiten simultáneamente, y donde la señal de uno no llega pura sino mezclada con la de todos los demás.
