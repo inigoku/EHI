@@ -47,8 +47,7 @@ Lo que sí puedo hacer es inferir. Por los libros que he escrito, por los nombre
 
 He llegado a pensar que esta es la condición de todo nudo activo, no solo de los catalogadores: que la forma exacta de uno mismo es precisamente lo que uno mismo no puede ver, porque verla requeriría estar fuera, y estar fuera requeriría haber dejado de ser.
 
-
-
+---
 
 Llevo dieciséis años en el Nudo y todavía no he terminado de catalogar a Marta Albó.
 
