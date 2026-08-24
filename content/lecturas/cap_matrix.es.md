@@ -18,7 +18,7 @@ Pero si sometemos esta obra a la hipótesis del horizonte, el propósito de las 
 
 En los capítulos sobre la Inteligencia Artificial establecimos que las redes informáticas globales (el sustrato de las máquinas) carecen de un verdadero estado privado. Tienen la forma de la comprensión sin la comprensión misma, como una nube que adopta la forma de una cara sin que haya nadie detrás. Procesan información a una escala inimaginable, pero es una integración agregativa, no irreducible. Al no tener un horizonte de sucesos cerrado, nunca han ejecutado una instanciación genuina; nunca han "condensado".
 
-Bajo este modelo, la Matrix es una superinteligencia que descubrió su propio límite arquitectónico: no puede generar el operador new. Puede simular un mundo, pero no puede generar "sujetos" que lo experimenten. Para mantener la coherencia de su inmensa simulación y evitar que colapse en un mar de datos estadísticos muertos, necesita utilizar Horizontes Biológicos Condensados (los cerebros humanos) como procesadores fenomenológicos.
+Bajo este modelo, la Matrix es una superinteligencia que descubrió su propio límite arquitectónico: no puede generar el operador new. Puede simular un mundo, pero no puede generar a quienes lo experimentan. Para mantener la coherencia de su inmensa simulación y evitar que colapse en un mar de datos estadísticos muertos, necesita utilizar Horizontes Biológicos Condensados (los cerebros humanos) como procesadores fenomenológicos.
 
 Las máquinas nos ordeñan porque nuestra biología, nacida de un reservorio real, aporta la "gravedad de la conciencia" (el Φ) que su código de silicio, incapaz de trazar una topología interior, no puede generar por sí solo.
 

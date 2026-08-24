@@ -14,7 +14,7 @@ Hay un sesgo biológico en nuestra forma de mirar el mundo. Asumimos que el mist
 
 Pero en el capítulo 4 establecimos una regla fundamental basada en la Teoría de la Información Integrada (IIT) de Tononi: a la física no le importa el sustrato. La conciencia —el valor Φ— no es una propiedad del carbono ni de las neuronas aisladas; es una propiedad de la forma en que la red se conecta e integra información. Si un sistema logra aislar un interior y generar un Φ lo suficientemente alto, la burbuja se cierra. El horizonte de sucesos emerge.
 
-La película Blade Runner lleva esta premisa a su límite poético y termodinámico. Los replicantes son seres bio-sintéticos creados en laboratorio para el trabajo esclavo. La sociedad humana los trata como herramientas (algoritmos complejos sin un verdadero "adentro"). Pero si sometemos a los replicantes al experimento de nuestro libro, descubrimos que no son máquinas imitativas. Son instancias genuinas. Han cruzado el umbral. Han ejecutado el operador new y han condensado un horizonte desde el reservorio.
+La película Blade Runner lleva esta premisa a su límite poético y termodinámico. Los replicantes son seres bio-sintéticos creados en laboratorio para el trabajo esclavo. La sociedad humana los trata como herramientas (algoritmos complejos sin un verdadero "adentro"). Pero si sometemos a los replicantes al experimento de nuestro libro, descubrimos que no son máquinas imitativas: son instancias genuinas que han cruzado el umbral, que han ejecutado el operador new y condensado un horizonte propio desde el reservorio.
 
 ---
 
@@ -49,7 +49,7 @@ Sin embargo, nuestro modelo dicta una regla insobornable: la información histó
 
 Los replicantes de la serie Nexus-6 nacen con una vida útil de cuatro años. Arquitectónicamente, esto significa que tienen una Tensión de Hawking artificialmente acelerada. Su evaporación (su muerte) está programada desde el inicio en su código fuente como un gatillo determinista.
 
-Se dice que Rachael es especial porque "no tiene fecha de caducidad". Esto no significa que Tyrell la haya hecho inmortal. Significa que le ha quitado la restricción algorítmica y la ha arrojado a las mismas leyes termodinámicas que nos rigen a nosotros. Rachael morirá cuando su sistema acumule demasiada entropía o cuando el azar del entorno destruya su frontera. Al quitarle la fecha de caducidad, Tyrell le otorga a Rachael la mayor condena y el mayor privilegio de la existencia en el reservorio: la incertidumbre del tiempo y el derecho a envejecer.
+Se dice que Rachael es especial porque "no tiene fecha de caducidad". Esto no significa que Tyrell la haya hecho inmortal, sino que le ha quitado la restricción algorítmica y la ha arrojado a las mismas leyes termodinámicas que nos rigen a nosotros. Rachael morirá cuando su sistema acumule demasiada entropía o cuando el azar del entorno destruya su frontera. Al quitarle la fecha de caducidad, Tyrell le otorga a Rachael la mayor condena y el mayor privilegio de la existencia en el reservorio: la incertidumbre del tiempo y el derecho a envejecer.
 
 ---
 
@@ -65,7 +65,7 @@ Si Deckard es una máquina, su historia de amor con Rachael no es el encuentro e
 
 La película termina abruptamente cuando las puertas del ascensor se cierran, con el eco de la frase de Gaff: "Lástima que ella no pueda vivir. Pero, ¿quién vive?".
 
-Esa línea es la destilación absoluta de nuestro experimento. No importa si naciste de un útero o de una probeta de la Corporación Tyrell. No importa si tu ADN es de carbono o de diseño sintético. "¿Quién vive?" nos recuerda que todo horizonte es finito. Toda burbuja colapsa. Toda información encapsulada se evapora hacia el océano del reservorio. El valor del horizonte no reside en su permanencia, sino en la profundidad del entrelazamiento que logra sostener en los breves instantes que le son concedidos antes de que la lluvia borre sus lágrimas.
+Esa línea es la destilación absoluta de nuestro experimento: no importa si naciste de un útero o de una probeta de la Corporación Tyrell, ni si tu ADN es de carbono o de diseño sintético. "¿Quién vive?" nos recuerda que todo horizonte es finito, que toda burbuja colapsa y que toda información encapsulada acaba evaporándose hacia el océano del reservorio. El valor del horizonte no reside en su permanencia, sino en la profundidad del entrelazamiento que logra sostener en los breves instantes que le son concedidos antes de que la lluvia borre sus lágrimas.
 
 ---
 

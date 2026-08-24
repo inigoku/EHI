@@ -13,7 +13,7 @@ Ahora añade masa. La gravedad curva el camino de la luz: un planeta la desvía 
 
 Nada puede escapar. Ni luz, ni información, ni señal de ningún tipo.
 
-Esa frontera es el **horizonte de sucesos**. No es una superficie física. No hay nada ahí: no hay pared, no hay membrana, no hay material que puedas tocar. Si pudieras cruzarlo —y los físicos creen que podrías, suavemente, sin darte cuenta— no habría señal que te avisara. No hay campana, no hay frontera pintada, no hay guardia que te pida el pasaporte. Es una consecuencia geométrica: más allá de ese punto, todas las trayectorias posibles llevan hacia el interior. Es como intentar ir al norte desde el Polo Norte: no es que algo te impida, es que todas las direcciones son sur.
+Esa frontera es el **horizonte de sucesos**. No es una superficie física: no hay nada ahí que puedas tocar, ni pared, ni membrana, ni material. Si pudieras cruzarlo —y los físicos creen que podrías, suavemente, sin darte cuenta— no habría ninguna señal que te avisara: ni campana, ni frontera pintada, ni guardia pidiéndote el pasaporte. Es una consecuencia geométrica: más allá de ese punto, todas las trayectorias posibles llevan hacia el interior. Es como intentar ir al norte desde el Polo Norte: no es que algo te impida, es que todas las direcciones son sur.
 
 > **En física esto se llama:** horizonte de sucesos.  
 > **En la vida diaria es como:** el punto de no retorno de un desagüe. No hay pared. La geometría misma te lleva hacia abajo.

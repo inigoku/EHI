@@ -8,9 +8,9 @@ illustrationTitle: La calibración del horizonte
 illustrationDescription: Un horizonte esférico con varios ejes internos de luz que se cruzan en su centro, cada uno de un color distinto y ninguno subordinado a los demás. Desde fuera, otros horizontes proyectan haces que intentan forzar esos ejes a alinearse con un único patrón externo, sin conseguirlo. El horizonte central permanece estable, coherente, iluminado desde dentro.
 ---
 
-El capítulo 28 describió dos selecciones que operan sobre el Reservorio antes de que un horizonte exista como tal: una que decide qué configuraciones son lo bastante estables para durar, y otra —el sesgo del entorno inmediato en el momento de la condensación— que decide qué forma concreta, entre las estables, toma ese horizonte. Ninguna de las dos selecciones pide permiso. Ninguna de las dos es reversible después del hecho.
+El capítulo 28 describió dos selecciones que operan sobre el Reservorio antes de que un horizonte exista como tal: una que decide qué configuraciones son lo bastante estables para durar, y otra —el sesgo del entorno inmediato en el momento de la condensación— que decide qué forma concreta, entre las estables, toma ese horizonte. Ninguna de las dos selecciones pide permiso, y ninguna es reversible después del hecho.
 
-Este capítulo aplica esa misma maquinaria a tres preguntas que la cultura ha tratado casi siempre como si fueran una sola: a quién desea un horizonte, quién sabe que es, y qué cuerpo tiene. Son tres ejes distintos. Ninguno de los tres se elige. Ninguno de los tres es un error de calibración.
+Este capítulo aplica esa misma maquinaria a tres preguntas que la cultura ha tratado casi siempre como si fueran una sola: a quién desea un horizonte, quién sabe que es, y qué cuerpo tiene. Son tres ejes distintos, y ninguno de los tres se elige ni es un error de calibración.
 
 > **En física esto se llama:** tres grados de libertad independientes de un mismo sistema, cada uno con su propia dinámica y su propio proceso de selección.  
 > **En la vida diaria es como:** la altura, el color de ojos y el tipo de sangre de una persona: rasgos que coexisten en el mismo cuerpo sin que ninguno determine a los otros.
