@@ -27,6 +27,8 @@ export const conceptualLinks: ConceptualLink[] = [
   { fromId: "cap10", toId: "cap20_real" },
   { fromId: "cap13", toId: "cap17_real" },
   { fromId: "cap15_real", toId: "cap20_5" },
+  { fromId: "cap6", toId: "cap12" },
+  { fromId: "cap8", toId: "cap12" },
   { fromId: "cap_traductor", toId: "cap_calibracion" },
 ];
 
