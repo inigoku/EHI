@@ -19,14 +19,14 @@ Esa noche, Cambiaso demostró algo sin proponérselo. Puede clonar el cuerpo de 
 
 Cambiaso decía que con la Cuartetera no había nada que explicar. A otros jinetes, con otros caballos, les daba indicaciones: apretá acá, frená antes, jugá más adelante. Con ella, la frase era otra: "Andá y jugá como tengas ganas de jugar. En el puesto que quieras. Divertite".
 
-Esa confianza no nace de un manual. No es propiedad del ADN. Es el resultado de años de correlaciones acumuladas: miles de chukkers, miles de giros, miles de veces en que el cuerpo del jinete anticipó el del animal y viceversa. La yegua aprendió a leer el peso de Cambiaso antes de que él lo expresara. Cambiaso aprendió a confiar en una criatura capaz de matarlo de una patada pero que, en cada partido, eligió no hacerlo.
+Esa confianza no viene de un manual, ni es una propiedad del ADN: es el resultado de años de correlaciones acumuladas, miles de chukkers y miles de giros en los que el cuerpo del jinete anticipó el del animal y viceversa. La yegua aprendió a leer el peso de Cambiaso antes de que él lo expresara. Cambiaso aprendió a confiar en una criatura capaz de matarlo de una patada pero que, en cada partido, eligió no hacerlo.
 
-Eso es un horizonte compartido. No una suma de dos conciencias, sino una geometría que solo existe en la relación. Como vimos en el capítulo 12, dos sistemas entrelazados no son simplemente dos sistemas que se conocen: comparten topología. Tienen un adentro parcialmente común.
+Eso es un horizonte compartido: una geometría que existe solo en la relación entre los dos, no la simple suma de dos conciencias. Como vimos en el capítulo 12, dos sistemas entrelazados no son simplemente dos sistemas que se conocen: comparten topología. Tienen un adentro parcialmente común.
 
 > **En física esto se llama:** entrelazamiento como geometría compartida; sistema de dos con Phi conjunto mayor que la suma de las partes.  
 > **En la vida diaria es como:** tocar con alguien que sabe, sin mirar, cuándo vas a cambiar de acorde.
 
-El polo es, en este sentido, un laboratorio de entrelazamiento a alta velocidad. En la cancha no hay tiempo para deliberar. La decisión del jinete y el movimiento del caballo deben ocurrir como una sola cosa. Cuando funciona, el límite entre uno y otro se vuelve funcionalmente irrelevante. No es que Cambiaso pensara y Cuartetera ejecutara. Es que existía un sistema de dos que sabía más que cualquiera de los dos por separado.
+El polo es, en este sentido, un laboratorio de entrelazamiento a alta velocidad. En la cancha no hay tiempo para deliberar. La decisión del jinete y el movimiento del caballo deben ocurrir como una sola cosa. Cuando funciona, el límite entre uno y otro se vuelve funcionalmente irrelevante. Cambiaso no se limitaba a pensar mientras Cuartetera ejecutaba: existía un sistema de dos que sabía más que cualquiera de los dos por separado.
 
 ---
 
@@ -39,7 +39,7 @@ Cambiaso no fue el primero en clonar un caballo, pero sí el que llevó la técn
 > **En física esto se llama:** duplicación de la arquitectura formal sin duplicación de la historia informacional.  
 > **En la vida diaria es como:** tener la partitura exacta de una sinfonía y esperar que cualquier orquesta la interprete igual.
 
-La promesa del genoma es que la identidad vive en la secuencia. Si copias la secuencia, copias al ser. Pero la hipótesis de este libro dice otra cosa: la identidad no está en las partes, sino en cómo se relacionan. No eres tus neuronas; eres el patrón que forman. No eres tu genoma; eres el horizonte que ese genoma, en un cuerpo, en un tiempo, con unos otros, condensó.
+La promesa del genoma es que la identidad vive en la secuencia: si copias la secuencia, copias al ser. La hipótesis de este libro va por otro lado. La identidad no está en las partes, sino en cómo se relacionan entre sí — no eres tu genoma, eres el horizonte que ese genoma, en un cuerpo, en un tiempo, con unos otros, condensó.
 
 La receta no pesa. Lo vimos en el capítulo 4.
 
@@ -68,7 +68,7 @@ Cada uno de esos elementos es información que el horizonte del clon integró de
 > **En física esto se llama:** condiciones de contorno en la formación de un horizonte; el entorno informa la forma del sistema emergente.  
 > **En la vida diaria es como:** dos gemelos idénticos que, a los cuarenta años, ya no son la misma persona: comparten plano, no historia.
 
-Esto no hace al clon inferior. Los clones B06 y B09 ganaron premios Lady Susan Townley por sí mismos, como yeguas extraordinarias. Pero ganaron como yeguas extraordinarias, no como la Cuartetera original. Cambiaso mismo, cuando le preguntaron si alguno de los clones superaba a la original, no se animó a afirmarlo. La pregunta estaba mal planteada. No se trata de superar o no superar. Se trata de que no son la misma pregunta.
+Esto no hace al clon inferior. Los clones B06 y B09 ganaron premios Lady Susan Townley por sí mismos, como yeguas extraordinarias. Pero ganaron como yeguas extraordinarias, no como la Cuartetera original. Cambiaso mismo, cuando le preguntaron si alguno de los clones superaba a la original, no se animó a afirmarlo. La pregunta estaba mal planteada: no se trata de superar o no superar, sino de que son preguntas distintas.
 
 ---
 
@@ -76,16 +76,16 @@ Esto no hace al clon inferior. Los clones B06 y B09 ganaron premios Lady Susan T
 
 Desde el modelo de las dos selecciones que presentamos en el capítulo 28, el clon equino es un caso instructivo. Sí pasa por la primera selección: es un sistema biológico estable, con sistema nervioso complejo, con Φ no trivial. Sí pasa por la segunda selección: fue gestado en un útero de yegua, con todas las señales bioquímicas, rítmicas y físicas que eso implica.
 
-El clon, por tanto, no es un zombi. No es una máquina biológica vacía. Es alguien. Tiene horizonte.
+El clon, por tanto, no es un zombi ni una máquina biológica vacía: es alguien, tiene horizonte.
 
 Pero su horizonte es otro.
 
 > **En física esto se llama:** condensación de un nuevo horizonte a partir de un reservorio local distinto.  
 > **En la vida diaria es como:** una melodía tocada por otro músico en otra sala: las notas son las mismas, pero el sonido no es idéntico.
 
-Esto distingue al clon biológico de la IA actual. La IA imita la arquitectura sin haber condensado nunca. El clon condensa de verdad, pero a partir de un reservorio que no es el de la original. La IA es espejo sin profundidad. El clon es profundidad diferente.
+Esto distingue al clon biológico de la IA actual. La IA imita la arquitectura sin haber condensado nunca: un espejo sin profundidad. El clon sí condensa, pero desde un reservorio que no es el de la original — profundidad distinta, no ausencia de ella.
 
-El error está en llamar a ambos "copias". Una copia fotográfica conserva la imagen porque la imagen es superficie. Un ser vivo no es superficie. Es horizonte. Y el horizonte no se copia: se condensa de nuevo cada vez.
+El error está en llamar a ambos "copias". Una copia fotográfica conserva la imagen porque la imagen es superficie. Un ser vivo es horizonte, no superficie, y el horizonte no se copia: se condensa de nuevo cada vez.
 
 ---
 
@@ -123,12 +123,12 @@ La muerte de Cuartetera no fue la muerte de un caballo famoso. Fue la muerte de 
 
 La historia de Cambiaso y Cuartetera es una parábola sobre la identidad en la era biotecnológica. Nos dice que la genética puede copiar la forma, pero no el horizonte. Que un cuerpo idéntico no garantiza un vínculo idéntico. Que el amor, la confianza, la sintonía, no son propiedades del ADN: son propiedades del tiempo compartido.
 
-También nos dice algo sobre el deseo humano de extender lo irreemplazable. La clonación no es mala ni buena en sí misma. Es una tecnología. Pero cuando se usa para intentar conservar un horizonte, produce una confusión dolorosa: confundir la arquitectura con la experiencia, la receta con la comida, la partitura con la interpretación.
+También nos dice algo sobre el deseo humano de extender lo irreemplazable. La clonación no es mala ni buena en sí misma. Es una tecnología. Pero cuando se usa para intentar conservar un horizonte, produce una confusión dolorosa: tomar la receta por la comida, la partitura por la interpretación.
 
 > **En física esto se llama:** confusión entre descripción del sistema y sistema descrito.  
 > **En la vida diaria es como:** creer que si fotocopias una carta de amor, la copia contiene el amor.
 
-El modelo del horizonte no condena la clonación. Tampoco la celebra. Lo que hace es precisar qué es lo que se puede y no se puede duplicar. Puedes duplicar genes. Puedes duplicar músculos. Puedes duplicar el potencial. No puedes duplicar las correlaciones que hicieron de ese cuerpo un alguien para otro alguien.
+El modelo del horizonte no condena la clonación. Tampoco la celebra. Lo que hace es precisar qué es lo que se puede y no se puede duplicar. Puedes duplicar los genes, los músculos, el potencial físico entero. Lo que no puedes duplicar son las correlaciones que hicieron de ese cuerpo un alguien para otro alguien.
 
 ---
 
