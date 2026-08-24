@@ -61,7 +61,7 @@ Y hay una segunda pérdida, más íntima, que ya conocemos de este mismo experim
 *   **La singularidad (El Teseracto):** Al cruzar el horizonte de sucesos, el relato respeta la regla termodinámica de que ninguna partícula ni radiación puede escapar de allí. El horizonte se traga la información, tal y como exige la termodinámica.
 *   **La trampa magistral:** Para enviar datos al pasado, la película postula que la gravedad es la única fuerza capaz de atravesar el hiperespacio de dimensiones superiores y cruzar el tiempo. No se envía materia atrás ni se deshace la entropía propia; se empuja la gravedad a través de un espacio pentadimensional.
 
-El veredicto topológico para esta obra es que evita pedirle a la condición de frontera que retroceda en nuestro universo tridimensional. A cambio, delega el problema a dimensiones superiores donde el tiempo es un terreno físico que se puede escalar, manteniendo el horizonte tridimensional intacto.
+El veredicto topológico para esta obra es que evita pedirle a la condición de frontera que retroceda en nuestro universo tridimensional. A cambio, delega el problema a dimensiones superiores donde el tiempo es un terreno físico que se puede escalar, manteniendo el horizonte tridimensional intacto. Pero el mecanismo concreto —codificar información clásica en variaciones gravitatorias y leerla en el pasado a través de un teseracto— no tiene ningún marco teórico real detrás: ni siquiera las hipótesis de branas con gravedad fugándose a dimensiones extra proponen un canal así. Es, en el fondo, la misma operación sin definir que le exigimos a Vengadores, solo que aquí se disfraza de recurso visual en vez de multiverso.
 
 ---
 
@@ -72,7 +72,7 @@ Puestas una junto a otra, las cuatro ficciones dejan de parecer alternativas equ
 *   **Wells:** Nada. Solo avanza. Gratis.
 *   **El agujero de gusano hacia atrás:** Le pide a la frontera que ceda en un bucle recién creado; el universo responde con un acople cuántico destructivo.
 *   **Vengadores:** Evita pedirlo, pero exige saltar entre componentes de un estado cuántico como si fueran lugares físicos, rompiendo la continuidad personal del horizonte.
-*   **Interstellar:** Respeta el horizonte tridimensional, pero hace trampa pidiendo que la gravedad viaje libremente hacia atrás a través de dimensiones superiores.
+*   **Interstellar:** Respeta el horizonte tridimensional, pero pide la misma operación sin definir que Vengadores —solo que disfrazada de gravedad cruzando dimensiones superiores en vez de multiverso.
 
 Cada ficción negocia con el horizonte a su manera. Wells es la única que ni siquiera necesita negociar: se limita a avanzar.
 
