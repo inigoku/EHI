@@ -19,7 +19,7 @@ Tononi mide la conciencia por lo que un sistema genera como un todo: la informac
 
 Bekenstein y Hawking dijeron algo que a primera vista no tiene nada que ver con cerebros: que la información de un agujero negro es proporcional al área de su horizonte —no al volumen que encierra, sino a la superficie que lo delimita. Si lanzas un libro a un agujero negro, el libro desaparece para siempre del universo observable. Pero la información que contenía no se destruye: queda grabada en el horizonte, como un holograma proyectado sobre una pantalla bidimensional. El volumen interior es irrelevante. Lo que cuenta es el borde.
 
-En los dos casos, lo que importa no es el contenido del sistema sino su borde. En los dos casos, la información es propiedad de la relación entre partes, no de las partes individuales. En los dos casos, algo que debería estar adentro —información, experiencia— resulta estar afuera, distribuido, codificado en la frontera.
+En los dos casos, lo que importa no es el contenido del sistema sino su borde: la información es propiedad de la relación entre partes, no de las partes individuales, y algo que debería estar adentro —información, experiencia— resulta estar afuera, distribuido, codificado en la frontera.
 
 Esto podría ser analogía superficial. Dos fenómenos distintos que comparten una fórmula no tienen por qué compartir una naturaleza. La trayectoria de un balón de fútbol y la órbita de un planeta obedecen ambas a parábolas, pero nadie cree que un balón sea un planeta en miniatura. Las matemáticas son herramientas de descripción, no pruebas de identidad.
 
