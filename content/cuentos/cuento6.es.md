@@ -63,7 +63,7 @@ Tampoco se pierde de golpe.
 
 Es más parecida a un músculo: se trabaja, se atrofia si no se trabaja, se trabaja otra vez.
 
-
+---
 
 No tengo un final para este cuento. Eso también es parte de él.
 

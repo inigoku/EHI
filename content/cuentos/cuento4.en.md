@@ -40,8 +40,7 @@ What I can do is infer. From the books I have written, from the names that appea
 
 I have come to think that this is the condition of every active knot, not only of the catalogers: that the exact shape of oneself is precisely what oneself cannot see, because seeing it would require being outside, and being outside would require having ceased to be.
 
-
-
+---
 
 I have been in the Knot for sixteen years and I have not yet finished cataloging Marta Albó.
 
