@@ -8,9 +8,9 @@ illustrationTitle: El horizonte de sucesos
 illustrationDescription: La primera fotografía real de un horizonte de sucesos, tomada en 2019. El límite exacto a partir del cual nada —ni la luz, ni el tiempo viajando hacia atrás— puede escapar.
 ---
 
-Hay una pregunta que casi todo relato de viajes en el tiempo evita hacerse en serio. La pregunta habitual es si es lógicamente posible; la que de verdad importa aquí es qué le está permitido cruzar a un horizonte. Las ecuaciones de Einstein no tienen ninguna objeción de fondo: son simétricas en el tiempo, igual que las de Newton o las de Maxwell, y admiten matemáticamente soluciones donde el pasado y el futuro son intercambiables. Nuestro experimento mental —la conciencia como un dominio informacional encapsulado, un horizonte que solo deja entrar información y nunca la deja salir— aplicado sin trampas al viaje en el tiempo da un veredicto más fino que "imposible". Viajar al futuro sale gratis. Viajar al pasado por un agujero de gusano queda acotado a un horizonte que se resiste activamente a cerrarse. Y saltar de rama en un multiverso solo funciona pidiéndole prestada a otra teoría una operación que esa teoría ni siquiera reconoce.
+Hay una pregunta que casi todo relato de viajes en el tiempo evita hacerse en serio. La pregunta habitual es si es lógicamente posible; la que de verdad importa aquí es qué le está permitido cruzar a un horizonte. Las ecuaciones de Einstein no tienen ninguna objeción de fondo: son simétricas en el tiempo, igual que las de Newton o las de Maxwell, y admiten matemáticamente soluciones donde el pasado y el futuro son intercambiables. Nuestro experimento mental —la conciencia como un dominio informacional encapsulado, ese horizonte interior que ya definimos en capítulos anteriores y que solo deja entrar información sin dejarla salir jamás— aplicado sin trampas al viaje en el tiempo da un veredicto más fino que "imposible". Viajar al futuro sale gratis. Viajar al pasado por un agujero de gusano queda acotado a un horizonte que se resiste activamente a cerrarse. Y saltar de rama en un multiverso solo funciona pidiéndole prestada a otra teoría una operación que esa teoría ni siquiera reconoce.
 
-Tres obras nos sirven para trazar ese mapa: *La Máquina del Tiempo* de H.G. Wells, la física real de los agujeros de gusano, y *Vengadores: Endgame*.
+Varias obras nos sirven para trazar ese mapa: *La Máquina del Tiempo* de H.G. Wells, la física real de los agujeros de gusano, *Vengadores: Endgame* e *Interstellar*.
 
 ---
 
@@ -39,7 +39,7 @@ Un agujero de gusano transitable solo se convierte en máquina del tiempo si des
 
 Atravesarlo hacia el lado atrasado es otra historia, y Kip Thorne encontró algo revelador: nunca puedes llegar a un momento anterior a la construcción del propio agujero de gusano. El bucle cerrado solo existe desde el instante en que lo fabricas, nunca antes. Construir la máquina crea un horizonte nuevo —uno que no existía— y el viaje al pasado solo es posible dentro de ese horizonte recién nacido, jamás fuera de él.
 
-Y hay más: es precisamente este tipo de agujero de gusano el que llevó a Hawking a proponer la **conjetura de protección cronológica**. Cerca del momento en que el bucle estaría a punto de cerrarse sobre sí mismo, las fluctuaciones cuánticas del vacío que circulan por él se retroalimentan y divergen, probablemente destruyendo la máquina antes de que nadie pueda usarla. El universo, en este modelo, no impone el veto por decreto: lo desestabiliza activamente, casi como un horizonte que se defiende a sí mismo, justo en el momento en que se acerca a violar la condición de frontera.
+Y hay más: es precisamente este tipo de agujero de gusano el que llevó a Hawking a proponer la **conjetura de protección cronológica**. Cerca del momento en que el bucle estaría a punto de cerrarse sobre sí mismo, las fluctuaciones cuánticas del vacío que circulan por él se retroalimentan y divergen. **Es exactamente el mismo fenómeno que ocurre cuando acercas un micrófono a su propio altavoz: un acople instantáneo y exponencial que destroza el sistema.** El universo, en este modelo, no impone el veto por decreto: lo desestabiliza activamente, casi como un horizonte que se defiende a sí mismo, justo en el momento en que se acerca a violar la condición de frontera.
 
 ---
 
@@ -53,13 +53,26 @@ Y hay una segunda pérdida, más íntima, que ya conocemos de este mismo experim
 
 ---
 
-### 5. Tres respuestas, un solo criterio
+### 5. El puente gravitatorio y la trampa pentadimensional
 
-Puestas una junto a otra, las tres ficciones dejan de parecer alternativas equivalentes y se ordenan según una sola pregunta: ¿qué le piden a la condición de frontera?
+*Interstellar* encaja en este mapa como un cuarto paradigma que negocia con el horizonte de una manera radicalmente distinta.
 
-- **Wells**: nada. Solo avanza. Gratis.
-- **El agujero de gusano hacia atrás**: le pide que ceda dentro de un horizonte que él mismo acaba de crear —y el universo, según Hawking, se resiste activamente a concedérselo.
-- **Vengadores**: evita pedírselo del todo, a cambio de pedirle prestada a otra teoría una operación que esa teoría ni siquiera define, y sin lograr, aun así, la continuidad personal que era el objetivo.
+*   **La dilatación (Gargantúa):** Cuando la tripulación desciende al planeta acuático, experimentan un viaje al futuro masivo. Físicamente es idéntico a la máquina de Wells: la entropía personal sube y el horizonte no se violenta. Sale gratis.
+*   **La singularidad (El Teseracto):** Al cruzar el horizonte de sucesos, el relato respeta la regla termodinámica de que ninguna partícula ni radiación puede escapar de allí. El horizonte se traga la información, tal y como exige la termodinámica.
+*   **La trampa magistral:** Para enviar datos al pasado, la película postula que la gravedad es la única fuerza capaz de atravesar el hiperespacio de dimensiones superiores y cruzar el tiempo. No se envía materia atrás ni se deshace la entropía propia; se empuja la gravedad a través de un espacio pentadimensional.
+
+El veredicto topológico para esta obra es que evita pedirle a la condición de frontera que retroceda en nuestro universo tridimensional. A cambio, delega el problema a dimensiones superiores donde el tiempo es un terreno físico que se puede escalar, manteniendo el horizonte tridimensional intacto.
+
+---
+
+### 6. Cuatro respuestas, un solo criterio
+
+Puestas una junto a otra, las cuatro ficciones dejan de parecer alternativas equivalentes y se ordenan según una sola pregunta: ¿qué le piden a la condición de frontera?
+
+*   **Wells:** Nada. Solo avanza. Gratis.
+*   **El agujero de gusano hacia atrás:** Le pide a la frontera que ceda en un bucle recién creado; el universo responde con un acople cuántico destructivo.
+*   **Vengadores:** Evita pedirlo, pero exige saltar entre componentes de un estado cuántico como si fueran lugares físicos, rompiendo la continuidad personal del horizonte.
+*   **Interstellar:** Respeta el horizonte tridimensional, pero hace trampa pidiendo que la gravedad viaje libremente hacia atrás a través de dimensiones superiores.
 
 Cada ficción negocia con el horizonte a su manera. Wells es la única que ni siquiera necesita negociar: se limita a avanzar.
 
@@ -75,4 +88,4 @@ Cada ficción negocia con el horizonte a su manera. Wells es la única que ni si
 >
 > **Si solo te quedas con una idea:** viajar al futuro nunca ha sido el problema —ya lo hacemos, un poco, cada vez que un satélite GPS corrige su reloj—. El problema siempre fue pedirle a un horizonte que devuelva lo que ya se tragó.
 >
-> **Lecturas:** H.G. Wells, *La Máquina del Tiempo* (1895); Kip Thorne, *Black Holes and Time Warps* sobre agujeros de gusano y protección cronológica; S. Hawking (1992) sobre la conjetura de protección cronológica; Roger Penrose sobre la *Past Hypothesis* y la entropía inicial del universo; Marvel Studios, *Avengers: Endgame* (2019).
+> **Lecturas:** H.G. Wells, *La Máquina del Tiempo* (1895); Kip Thorne, *Black Holes and Time Warps* sobre agujeros de gusano y protección cronológica; S. Hawking (1992) sobre la conjetura de protección cronológica; Roger Penrose sobre la *Past Hypothesis* y la entropía inicial del universo; Marvel Studios, *Avengers: Endgame* (2019); Christopher Nolan, *Interstellar* (2014).
