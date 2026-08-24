@@ -127,6 +127,21 @@ El dato relevante es que los tres estados del Bardo tienen correspondencias espe
 > **En física esto se llama:** tres interpretaciones de la conservación de información.  
 > **En la vida diaria es como:** tres respuestas a "¿qué queda de alguien cuando muere?": nada (nunca dejó de ser todo), todo (pero no como identidad), o condiciones que configuran lo siguiente.
 
+### La herida que cicatriza
+
+Hay una manera de contar este capítulo entero que no necesita ecuaciones. Se la debo a Gerard, que tenía trece años cuando se la escuché por primera vez.
+
+Le había explicado el ciclo completo: cómo una estrella, al agotar su combustible, colapsa sobre sí misma en cuestión de segundos —el núcleo aplastándose, las capas exteriores cayendo a una fracción de la velocidad de la luz, la supernova que durante unas semanas brilla más que toda su galaxia—. Y cómo, después, el agujero negro que queda tarda eones en evaporarse: un goteo casi imperceptible de radiación que, para un agujero negro de masa estelar, puede tardar más tiempo del que lleva existiendo el universo entero.
+
+Gerard se quedó pensando y dijo algo que yo no había conseguido formular con esa limpieza en años escribiendo sobre esto: que el nacimiento del horizonte era una herida —algo que se abre de golpe, con violencia, en el tejido liso del vacío— y que la evaporación era la manera que tiene esa herida de cicatrizar. Lenta. Silenciosa. Sin que nadie lo note desde fuera hasta que, un día, ya no queda nada que curar.
+
+No conocía el Tao Te Ching. No había leído a Zhuangzi ni oído hablar de Hun Dun. Y sin embargo había llegado, él solo, a la misma imagen que el capítulo 5 tomó prestada del taoísmo hace ya varios cientos de páginas: el reservorio como una plenitud sin herida, y el horizonte como el corte que esa plenitud tiene que sufrir para poder, durante un tiempo, ser alguien.
+
+> **En física esto se llama:** asimetría temporal entre el colapso gravitatorio (segundos) y la evaporación de Hawking (eones); nacer y morir no son procesos simétricos en el tiempo.  
+> **En la vida diaria es como:** una herida y su cicatriz: abrirse toma un instante. Cerrarse, toda una vida.
+
+Hay, sin embargo, un matiz que vale la pena añadirle a su imagen —y que no la corrige, la completa—. Una herida que cicatriza de verdad casi nunca deja la piel exactamente como estaba antes de abrirse. Queda una marca: más pálida, más fina, pero ahí. Y eso, casi al pie de la letra, es lo que la física dice que le ocurre al reservorio.
+
 ### El karma como geometría del reservorio
 
 Lo que las tres tradiciones llaman de maneras distintas —saṃskāra, Te, karma— apunta a la misma estructura: la información que el horizonte imprimió en el campo durante su existencia no desaparece con él. No como identidad, no como memoria, no como nadie que la posea. Como condición. Como la forma que el viento dejó en el agua antes de calmarse.
