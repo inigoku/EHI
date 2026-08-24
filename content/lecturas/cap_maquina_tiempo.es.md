@@ -3,9 +3,9 @@ title: LA PLAYA AL FINAL DEL TIEMPO Y LA RAMA QUE NO ERES TÚ
 subtitle: (Una lectura topológica de La Máquina del Tiempo, los agujeros de gusano y las paradojas del viaje temporal)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 40
-illustrationId: il_m87
-illustrationTitle: El horizonte de sucesos
-illustrationDescription: La primera fotografía real de un horizonte de sucesos, tomada en 2019. El límite exacto a partir del cual nada —ni la luz, ni el tiempo viajando hacia atrás— puede escapar.
+illustrationId: il_maquina_tiempo
+illustrationTitle: La playa al final del tiempo
+illustrationDescription: La máquina de Wells varada en la arena, bajo el sol rojo y moribundo del final del tiempo. En el horizonte, donde el mar se encuentra con el cielo, la línea del agua se curva sutilmente hacia dentro: el borde de un agujero de gusano.
 ---
 
 Hay una pregunta que casi todo relato de viajes en el tiempo evita hacerse en serio. La pregunta habitual es si es lógicamente posible; la que de verdad importa aquí es qué le está permitido cruzar a un horizonte. Las ecuaciones de Einstein no tienen ninguna objeción de fondo: son simétricas en el tiempo, igual que las de Newton o las de Maxwell, y admiten matemáticamente soluciones donde el pasado y el futuro son intercambiables. Nuestro experimento mental —la conciencia como un dominio informacional encapsulado, ese horizonte interior que ya definimos en capítulos anteriores y que solo deja entrar información sin dejarla salir jamás— aplicado sin trampas al viaje en el tiempo da un veredicto más fino que "imposible". Viajar al futuro sale gratis. Viajar al pasado por un agujero de gusano queda acotado a un horizonte que se resiste activamente a cerrarse. Y saltar de rama en un multiverso solo funciona pidiéndole prestada a otra teoría una operación que esa teoría ni siquiera reconoce.

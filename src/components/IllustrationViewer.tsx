@@ -81,6 +81,8 @@ import imgNotas from "../assets/images/ilustracion_22.png";
 // @ts-ignore
 import imgM87 from "../assets/images/ilustracion_m87.png";
 // @ts-ignore
+import imgMaquinaTiempo from "../assets/images/ilustracion_maquina_tiempo.jpg";
+// @ts-ignore
 import imgOceanoOlas from "../assets/images/ilustracion_oceano_olas.png";
 // @ts-ignore
 import imgTp from "../assets/images/ilustracion_tp.png";
@@ -292,6 +294,7 @@ const imageMap: Record<string, string> = {
   il_orilla: imgOrilla,
   il_notas: imgNotas,
   il_m87: imgM87,
+  il_maquina_tiempo: imgMaquinaTiempo,
   il_oceano_olas: imgOceanoOlas,
   il_tp: imgTp,
   il_txiki: imgTxiki,
