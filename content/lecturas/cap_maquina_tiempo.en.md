@@ -116,6 +116,9 @@ There's a fourth case worth a place here, though for a different reason than the
 
 Maybe the reason these four answers and these four counterexamples pull at us so much isn't the physics they put into play, but what they let slip about the horizon of whoever is watching them. Each of us is, right now, a Cooper with no ship, sealing instants we will never touch again, at a rate of twenty-four per second. There is no tesseract for the horizon that is me writing this, or for the one that is you, reading it a while later. I don't know what to do with that thought. I'm leaving it here, unresolved, because I'm not sure resolving it is the right thing to do.
 
+## [ILUSTRACIÓN il_horizonte_escritor: "The horizon that is me writing this"]
+*A writer encircled by the Möbius strip of his own sealed instants: a window, a clock, a train, a child playing, an embrace — frames of an entire life coiled with no beginning and no end around his desk.*
+
 ---
 
 > **Note to Chapter 40**

@@ -120,6 +120,9 @@ Hay un cuarto caso que merece un lugar aquí, aunque por una razón distinta a l
 
 Puede que la razón por la que estas cuatro respuestas y estos cuatro contraejemplos nos atraigan tanto no sea la física que ponen en juego, sino lo que dejan entrever sobre el horizonte de quien los mira. Cada uno de nosotros es, ahora mismo, un Cooper sin nave, sellando instantes que ya no volverá a tocar, a un ritmo de veinticuatro por segundo. No hay teseracto para el horizonte que soy yo escribiendo esto, ni para el que eres tú, leyéndolo un rato después. No sé qué hacer con esa idea. La dejo aquí, sin resolver, porque no estoy seguro de que resolverla sea lo que corresponde.
 
+## [ILUSTRACIÓN il_horizonte_escritor: "El horizonte que soy yo escribiendo esto"]
+*Un escritor rodeado por la cinta de Möbius de sus propios instantes sellados: una ventana, un reloj, un tren, un niño jugando, un abrazo, fotogramas de una vida entera enroscados sin principio ni final alrededor de su escritorio.*
+
 ---
 
 > **Nota al Capítulo 40**
