@@ -229,16 +229,6 @@ import poemaArq4 from "../assets/images/poemas/clean_poema_arq4.png";
 // @ts-ignore
 import poemaGlosario from "../assets/images/poemas/clean_poema_glosario.png";
 // @ts-ignore
-import poemaRecon1 from "../assets/images/poemas/imagen_p234_1.png";
-// @ts-ignore
-import poemaRecon2 from "../assets/images/poemas/imagen_p244_1.png";
-// @ts-ignore
-import poemaRecon3 from "../assets/images/poemas/imagen_p254_1.png";
-// @ts-ignore
-import poemaRecon4 from "../assets/images/poemas/imagen_p268_1.png";
-// @ts-ignore
-import poemaRecon5 from "../assets/images/poemas/imagen_p274_1.png";
-// @ts-ignore
 import poemaFrialdad1 from "../assets/images/poemas/clean_frialdad_eco.jpg";
 // @ts-ignore
 import poemaFrialdad2 from "../assets/images/poemas/clean_frialdad_muerte.jpg";
@@ -395,12 +385,6 @@ const imageMap: Record<string, string> = {
   poema_arq7: poemaArq3,
   poema_arq8: poemaArq4,
   poema_glosario: poemaGlosario,
-  poema_recon1: poemaRecon1,
-  poema_recon2: poemaRecon2,
-  poema_recon3: poemaRecon3,
-  poema_recon4: poemaRecon4,
-  poema_recon5: poemaRecon5,
-  poema_recon6: poemaRecon5, // Fallback for Part VI
   poema_frialdad1: poemaFrialdad1,
   poema_frialdad2: poemaFrialdad2,
   poema_frialdad3: poemaFrialdad3,

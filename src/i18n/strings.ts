@@ -6,7 +6,6 @@ export interface UiStrings {
     essay: string;
     cuentos: string;
     poemas: string;
-    reconstruccion: string;
     joven: string;
   };
   header: {
@@ -14,7 +13,6 @@ export interface UiStrings {
     sectionEssay: string;
     sectionCuentos: string;
     sectionPoemas: string;
-    sectionReconstruccion: string;
     sectionJoven: string;
     author: string;
     part: string;
@@ -86,9 +84,6 @@ export interface UiStrings {
     pathPoemasTitle: string;
     pathPoemasDesc: string;
     pathPoemasBtn: string;
-    pathReconTitle: string;
-    pathReconDesc: string;
-    pathReconBtn: string;
     pathJovenTitle: string;
     pathJovenDesc: string;
     pathJovenBtn: string;
@@ -112,10 +107,6 @@ export interface UiStrings {
     poemasSubtitle: string;
     poemasDescription: string;
     poemasBtn: string;
-    reconTitle: string;
-    reconSubtitle: string;
-    reconDescription: string;
-    reconBtn: string;
     jovenTitle: string;
     jovenSubtitle: string;
     jovenDescription: string;
@@ -153,27 +144,19 @@ export interface UiStrings {
     interludeLabel: string;
     storyOf: (n: string, total: number) => string;
     prologueOf: (total: number) => string;
-    reconOf: (n: string) => string;
     jovenOf: (n: string, total: number) => string;
     poemLinkOf: (n: string) => string;
     poemFrialdadOf: (n: string) => string;
-    poemReconOf: (n: string) => string;
     poemGlossaryLabel: string;
     chapterPrefix: (n: string) => string;
     storyPrefix: (n: string) => string;
     partPrefix: (n: string) => string;
-    reconTabNarrativa: string;
-    reconTabEnsayo: string;
-    reconTabPoema: string;
-    reconCierreLabel: string;
     readRelatedEssay: string;
     readRelatedStory: string;
     backToEssay: string;
     reflectionBoxTitle: string;
-    reflectionBoxTitleRecon: (tab: string) => string;
     reflectionBoxTitlePoetic: string;
     delete: string;
-    placeholderRecon: (tab: string) => string;
     placeholderPoem: string;
     placeholderCuento: string;
     placeholderEssay: string;
@@ -208,7 +191,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       essay: "Ensayo",
       cuentos: "Cuentos",
       poemas: "Poemas",
-      reconstruccion: "Reconstrucción",
       joven: "Edición Joven",
     },
     header: {
@@ -216,7 +198,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       sectionEssay: "Ensayo Interactivo",
       sectionCuentos: "Antología de Cuentos",
       sectionPoemas: "Antología Poética",
-      sectionReconstruccion: "Reconstrucción",
       sectionJoven: "Edición Joven (13 años)",
       author: "Autor",
       part: "Parte",
@@ -295,10 +276,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       pathPoemasDesc:
         "Poesía y glosarios líricos. Los ecos emocionales del horizonte traducidos en versos libres y arquitecturas metafóricas.",
       pathPoemasBtn: "Explorar Poemas",
-      pathReconTitle: "La Reconstrucción",
-      pathReconDesc:
-        "6 planos de síntesis. Un modo integrador donde ensayo, narrativa y poesía se fusionan en pestañas en paralelo.",
-      pathReconBtn: "Ver Planos",
       pathJovenTitle: "Edición Joven",
       pathJovenDesc:
         "La misma hipótesis, contada para lectores de 13 años: la burbuja, el agujero negro, Txiki, el secreto de la IA y el luthier, en 7 capítulos breves.",
@@ -332,11 +309,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       poemasDescription:
         "Versos libres y glosarios líricos que traducen al lenguaje del sentimiento las implicaciones físicas de la frontera: el dolor de la asimetría, el duelo concebido como una arquitectura con un hueco y el amor como el entrelazamiento geométrico de dos mundos.",
       poemasBtn: "Explorar Poemas",
-      reconTitle: "Planos de la Reconstrucción",
-      reconSubtitle: "Síntesis Tridimensional de la Conciencia",
-      reconDescription:
-        "6 planos integrales de síntesis. Un modo poliédrico e interactivo donde la narrativa, el ensayo teórico y la lírica poética se muestran en paralelo en pestañas, permitiendo al lector reconstruir los fragmentos del horizonte tras su evaporación.",
-      reconBtn: "Ver Planos",
       jovenTitle: "Edición Joven",
       jovenSubtitle: "El Horizonte Interior contado a los 13 años",
       jovenDescription:
@@ -376,27 +348,19 @@ export const uiStrings: Record<Language, UiStrings> = {
       interludeLabel: "Interludio",
       storyOf: (n, total) => `Relato ${n} de ${total}`,
       prologueOf: (total) => `Relato Prólogo de ${total}`,
-      reconOf: (n) => `Parte ${n} de 6`,
       jovenOf: (n, total) => `Capítulo ${n} de ${total}`,
       poemLinkOf: (n) => `Poema Enlace ${n} de 8`,
       poemFrialdadOf: (n) => `Poema Frialdad ${n} de 7`,
-      poemReconOf: (n) => `Poema Reconstrucción ${n} de 6`,
       poemGlossaryLabel: "Glosario",
       chapterPrefix: (n) => `Capítulo ${n}: `,
       storyPrefix: (n) => `Relato ${n}: `,
       partPrefix: (n) => `Parte ${n}: `,
-      reconTabNarrativa: "Narrativa",
-      reconTabEnsayo: "Ensayo",
-      reconTabPoema: "Poema",
-      reconCierreLabel: "Cierre",
       readRelatedEssay: "Leer ensayo relacionado",
       readRelatedStory: "Leer cuento relacionado",
       backToEssay: "Regresar al ensayo correspondiente",
       reflectionBoxTitle: "Bitácora de Reflexión",
-      reflectionBoxTitleRecon: (tab) => `Bitácora de Reflexión: ${tab}`,
       reflectionBoxTitlePoetic: "Bitácora de Reflexión Poética",
       delete: "Borrar",
-      placeholderRecon: (tab) => `¿Qué resonó en tu interior tras leer este capítulo (${tab})?...`,
       placeholderPoem: "Escribe tus impresiones...",
       placeholderCuento: "¿Qué resonó en tu interior tras leer este relato?...",
       placeholderEssay: "¿Qué ecos resuenan en tu horizonte interno tras leer este capítulo?...",
@@ -429,7 +393,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       essay: "Essay",
       cuentos: "Stories",
       poemas: "Poems",
-      reconstruccion: "Reconstruction",
       joven: "Young Edition",
     },
     header: {
@@ -437,7 +400,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       sectionEssay: "Interactive Essay",
       sectionCuentos: "Short Story Anthology",
       sectionPoemas: "Poetry Anthology",
-      sectionReconstruccion: "Reconstruction",
       sectionJoven: "Young Edition (age 13)",
       author: "Author",
       part: "Part",
@@ -516,10 +478,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       pathPoemasDesc:
         "Poetry and lyrical glossaries. The emotional echoes of the horizon translated into free verse and metaphorical architectures.",
       pathPoemasBtn: "Explore the Poems",
-      pathReconTitle: "The Reconstruction",
-      pathReconDesc:
-        "6 planes of synthesis. An integrative mode where essay, narrative, and poetry merge in parallel tabs.",
-      pathReconBtn: "View the Planes",
       pathJovenTitle: "Young Edition",
       pathJovenDesc:
         "The same hypothesis, told for 13-year-old readers: the bubble, the black hole, Txiki, the AI secret, and the luthier, in 7 short chapters.",
@@ -553,11 +511,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       poemasDescription:
         "Free verse and lyrical glossaries that translate the physical implications of the boundary into the language of feeling: the pain of asymmetry, grief conceived as an architecture with a hollow, and love as the geometric entanglement of two worlds.",
       poemasBtn: "Explore the Poems",
-      reconTitle: "Planes of the Reconstruction",
-      reconSubtitle: "Three-Dimensional Synthesis of Consciousness",
-      reconDescription:
-        "6 integral planes of synthesis. A polyhedral, interactive mode where narrative, theoretical essay, and poetic lyric appear side by side in parallel tabs, letting the reader reconstruct the fragments of the horizon after its evaporation.",
-      reconBtn: "View the Planes",
       jovenTitle: "Young Edition",
       jovenSubtitle: "The Inner Horizon, told for 13-year-olds",
       jovenDescription:
@@ -597,27 +550,19 @@ export const uiStrings: Record<Language, UiStrings> = {
       interludeLabel: "Interlude",
       storyOf: (n, total) => `Story ${n} of ${total}`,
       prologueOf: (total) => `Story Prologue of ${total}`,
-      reconOf: (n) => `Part ${n} of 6`,
       jovenOf: (n, total) => `Chapter ${n} of ${total}`,
       poemLinkOf: (n) => `Poem Link ${n} of 8`,
       poemFrialdadOf: (n) => `Coldness Poem ${n} of 7`,
-      poemReconOf: (n) => `Poem Reconstruction ${n} of 6`,
       poemGlossaryLabel: "Glossary",
       chapterPrefix: (n) => `Chapter ${n}: `,
       storyPrefix: (n) => `Story ${n}: `,
       partPrefix: (n) => `Part ${n}: `,
-      reconTabNarrativa: "Narrative",
-      reconTabEnsayo: "Essay",
-      reconTabPoema: "Poem",
-      reconCierreLabel: "Closing",
       readRelatedEssay: "Read the related essay",
       readRelatedStory: "Read the related story",
       backToEssay: "Return to the corresponding essay",
       reflectionBoxTitle: "Reading Journal",
-      reflectionBoxTitleRecon: (tab) => `Reading Journal: ${tab}`,
       reflectionBoxTitlePoetic: "Poetic Reading Journal",
       delete: "Delete",
-      placeholderRecon: (tab) => `What resonated within you after reading this chapter (${tab})?...`,
       placeholderPoem: "Write your impressions...",
       placeholderCuento: "What resonated within you after reading this story?...",
       placeholderEssay: "What echoes resonate in your inner horizon after reading this chapter?...",

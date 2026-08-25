@@ -58,18 +58,3 @@ export function indexByChapterId(modules: Record<string, string>, suffix: string
   }
   return map;
 }
-
-// Splits a body marked up with "## SECTION" headers (used for Reconstrucción's
-// Narrativa/Ensayo/Poema/Cierre tabs) into { section: text }. Section names are
-// matched case-insensitively; the returned keys are lowercased.
-export function parseSections(body: string): Record<string, string> {
-  const sections: Record<string, string> = {};
-  const parts = body.split(/^##\s+(\S+)\s*$/m);
-  // parts[0] is any text before the first "## " header (should be empty/whitespace).
-  for (let i = 1; i < parts.length; i += 2) {
-    const name = parts[i].trim().toLowerCase();
-    const text = trimBlankLines(parts[i + 1] || "");
-    sections[name] = text;
-  }
-  return sections;
-}

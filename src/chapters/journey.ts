@@ -16,19 +16,13 @@ import { poemasList } from "./poemas";
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const cuentoToPoema: Record<string, string> = {
-  cuento0: "poema_recon1",            // EL HORIZONTE INTERIOR → LA ARQUITECTURA QUE EMERGE
   cuento1: "poema_arq6",              // LA COSTUMBRE DEL AGUA → EL REMO
   cuento2: "poema_arq5",              // LA BURBUJA QUE NO ANUNCIÓ SU CIERRE → LA BURBUJA
-  cuento3: "poema_recon3",            // EL NIÑO QUE APRENDIÓ A MEDIR EL TIEMPO → EL PESO DE LA LUZ
-  cuento4: "poema_recon2",            // LA RED DE LOS NOMBRES → LA FORMA QUE VUELVE
-  cuento5: "poema_recon4",            // LA CASA QUE RESPIRABA → LA TENSIÓN QUE SE ABRE
   cuento6: "poema_arq7",              // LA MÁQUINA QUE APRENDÍA A ESPERAR → EL TEMBLOR
-  cuento7: "poema_recon6",            // EL HUÉSPED EN LA PIEL → EL RECONOCIMIENTO QUE UNE
   cuento8: "poema_frialdad5",         // LOS PUENTES SIN PASO → PROTOCOLO DE SALIDA
   cuento9: "poema_arq8",              // EL BORDE QUE CRUZAMOS CADA NOCHE → LA ORILLA
   cuento10: "poema_arq4",             // LA MÚSICA QUE QUEDÓ EN LA HABITACIÓN → LA CANCIÓN
   cuento11: "poema_frialdad6",        // EL QUE TOCA LA CUERDA DESDE LA OTRA CASA → MONTSE XXI
-  cuento12: "poema_recon5",           // LA CIUDAD DE LAS PEQUEÑAS PÉRDIDAS → LA RUPTURA QUE INSISTE
   cuento12b: "poema_arq1",            // EL SEGUNDO CUADERNO → EL ARCHIVISTA
   cuento13: "poema_arq2",             // EL RELOJ DEL CUERPO → EL RELOJERO
   cuento14: "poema_frialdad3",        // LA SALA DONDE NADIE PREGUNTABA → QUEJIDO DE LA VUELTA

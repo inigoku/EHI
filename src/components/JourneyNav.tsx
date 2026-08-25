@@ -12,10 +12,10 @@ import { Language, uiStrings } from "../i18n";
 
 interface JourneyNavProps {
   chapter: Chapter;
-  readingMode: "essay" | "cuentos" | "poemas" | "reconstruccion";
+  readingMode: "essay" | "cuentos" | "poemas";
   language: Language;
   theme: "cosmic" | "paper" | "sepia";
-  onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion", targetId?: string) => void;
+  onSwitchMode: (mode: "essay" | "cuentos" | "poemas", targetId?: string) => void;
 }
 
 // Tarjeta de "recorrido guiado" que aparece al final de cada pieza y propone

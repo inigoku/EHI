@@ -5,7 +5,6 @@ import { group4 } from "./group4";
 import { group5 } from "./group5";
 import { lecturasTopologicas } from "./lecturas";
 import { group6 } from "./group6";
-import { reconstruccionChapters } from "./reconstruccion";
 import { cuentosList } from "./cuentos";
 import { poemasList } from "./poemas";
 import { jovenList } from "./joven";
@@ -21,5 +20,5 @@ export const allChapters: Chapter[] = [
   ...group6
 ];
 
-export { cuentosList, poemasList, reconstruccionChapters, lecturasTopologicas, jovenList };
+export { cuentosList, poemasList, lecturasTopologicas, jovenList };
 export type { Chapter, Illustration } from "./group1";

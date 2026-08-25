@@ -28,8 +28,8 @@ interface ChapterContentProps {
   onTermClick: (termName: string) => void;
   theme: ReadingTheme;
   fontSize: "sm" | "base" | "lg" | "xl" | "2xl";
-  readingMode: "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven";
-  onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven", targetId?: string) => void;
+  readingMode: "essay" | "cuentos" | "poemas" | "joven";
+  onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "joven", targetId?: string) => void;
   language: Language;
   onOpenConstellation?: () => void;
 }
@@ -137,13 +137,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const displaySubtitle = language === "en" && chapter.subtitleEn ? chapter.subtitleEn : chapter.subtitle;
   const displaySection = language === "en" && chapter.sectionEn ? chapter.sectionEn : chapter.section;
   const displayContent = language === "en" && chapter.contentEn ? chapter.contentEn : chapter.content;
-  const displayNarrativa = language === "en" && chapter.narrativaEn ? chapter.narrativaEn : chapter.narrativa;
-  const displayEnsayo = language === "en" && chapter.ensayoEn ? chapter.ensayoEn : chapter.ensayo;
-  const displayPoema = language === "en" && chapter.poemaEn ? chapter.poemaEn : chapter.poema;
-  const displayCierre = language === "en" && chapter.cierreEn ? chapter.cierreEn : chapter.cierre;
-  const showPendingBanner =
-    language === "en" &&
-    (readingMode === "reconstruccion" ? !chapter.narrativaEn : !chapter.contentEn);
+  const showPendingBanner = language === "en" && !chapter.contentEn;
   const containerRef = React.useRef<HTMLDivElement>(null);
   const [reflection, setReflection] = React.useState<string>("");
   const [isSaved, setIsSaved] = React.useState<boolean>(false);
@@ -154,11 +148,6 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const numberedEssayChapterCount = React.useMemo(() => {
     return allChapters.filter((c) => c.chapterNumber && !isNaN(Number(c.chapterNumber))).length;
   }, []);
-
-  // Tab state for Reconstrucción mode: narrativa, ensayo, or poema
-  const [reconstructTab, setReconstructTab] = React.useState<"narrativa" | "ensayo" | "poema">("narrativa");
-  const reconTabLabel =
-    reconstructTab === "narrativa" ? t.reconTabNarrativa : reconstructTab === "ensayo" ? t.reconTabEnsayo : t.reconTabPoema;
 
   // Reading progress (0..1) based on window scroll
   const [readProgress, setReadProgress] = React.useState<number>(0);
@@ -201,9 +190,6 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     const saved = localStorage.getItem(`reflection_${chapter.id}`);
     setReflection(saved || "");
     setIsSaved(false);
-    
-    // Reset tab to default
-    setReconstructTab("narrativa");
   }, [chapter.id]);
 
   const saveReflection = () => {
@@ -995,11 +981,6 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             {displaySection}
           </span>
         )}
-        {readingMode === "reconstruccion" && (
-          <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
-            {uiStrings[language].header.sectionReconstruccion.toUpperCase()}
-          </span>
-        )}
         {readingMode === "joven" && (
           <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
             {uiStrings[language].header.sectionJoven.toUpperCase()}
@@ -1010,8 +991,6 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             ? (chapter.chapterNumber && chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && t.chapterPrefix(chapter.chapterNumber))
             : readingMode === "cuentos"
             ? (chapter.chapterNumber ? t.storyPrefix(chapter.chapterNumber) : "")
-            : readingMode === "reconstruccion"
-            ? (chapter.chapterNumber ? t.partPrefix(chapter.chapterNumber.replace("R", "")) : "")
             : ""}
           {displayTitle.replace(/^(I|II|III|IV|V|VI)\.\s*/i, "")}
         </h1>
@@ -1055,154 +1034,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       </motion.div>
 
       {/* Grid or Centered layout depending on readingMode */}
-      {readingMode === "reconstruccion" ? (
-        <div className="max-w-4xl mx-auto space-y-6 select-text">
-          {/* Sub-tabs for Reconstrucción: Ensayo, Narrativa, Poema */}
-          <div className="flex justify-center border-b border-amber-500/10 pb-2 mb-6">
-            <div className="flex bg-slate-950/40 p-1 rounded-xl border border-amber-500/10">
-              <button
-                onClick={() => setReconstructTab("narrativa")}
-                className={`px-4 py-2 rounded-lg text-xs font-sans font-bold tracking-wider uppercase transition-all cursor-pointer ${
-                  reconstructTab === "narrativa"
-                    ? "bg-amber-500/20 text-amber-400 shadow-md border border-amber-500/20"
-                    : `${tc.textMuted} hover:text-amber-300`
-                }`}
-              >
-                {t.reconTabNarrativa}
-              </button>
-              <button
-                onClick={() => setReconstructTab("ensayo")}
-                className={`px-4 py-2 rounded-lg text-xs font-sans font-bold tracking-wider uppercase transition-all cursor-pointer ${
-                  reconstructTab === "ensayo"
-                    ? "bg-amber-500/20 text-amber-400 shadow-md border border-amber-500/20"
-                    : `${tc.textMuted} hover:text-amber-300`
-                }`}
-              >
-                {t.reconTabEnsayo}
-              </button>
-              <button
-                onClick={() => setReconstructTab("poema")}
-                className={`px-4 py-2 rounded-lg text-xs font-sans font-bold tracking-wider uppercase transition-all cursor-pointer ${
-                  reconstructTab === "poema"
-                    ? "bg-amber-500/20 text-amber-400 shadow-md border border-amber-500/20"
-                    : `${tc.textMuted} hover:text-amber-300`
-                }`}
-              >
-                {t.reconTabPoema}
-              </button>
-            </div>
-          </div>
-
-          {/* Tab Content Display */}
-          <AnimatePresence mode="wait">
-            <motion.div
-              key={`${chapter.id}-${reconstructTab}`}
-              initial={{ opacity: 0, y: 10 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -10 }}
-              transition={{ duration: 0.3 }}
-              className="w-full"
-            >
-              {reconstructTab === "poema" ? (
-                /* Poema tab: Same background as Narrativa and Ensayo */
-                <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300 flex flex-col items-center justify-center`}>
-                  <div className="w-full text-center py-4">
-                    <div
-                      className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-lg tracking-wide ${
-                        theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
-                      }`}
-                    >
-                      {(displayPoema || "").split("\n").map((line, lineIdx) => (
-                        <div key={lineIdx}>
-                          {parseInlineStyles(line)}
-                        </div>
-                      ))}
-                    </div>
-
-                    {/* Cierre section inside Poem tab */}
-                    {displayCierre && (
-                      <div className={`mt-10 pt-8 border-t border-amber-500/10 max-w-xl mx-auto text-left leading-relaxed text-sm opacity-90 ${
-                        theme === "cosmic" ? "text-slate-300" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
-                      }`}>
-                        <span className="text-[10px] font-sans uppercase tracking-[0.2em] font-bold text-amber-500 block mb-3 text-center">{t.reconCierreLabel}</span>
-                        <div className="space-y-4">
-                          {displayCierre.split('\n\n').map((paragraph, pIdx) => (
-                            <p key={pIdx} className="indent-4 text-justify">{paragraph}</p>
-                          ))}
-                        </div>
-                      </div>
-                    )}
-                  </div>
-                </div>
-              ) : (
-                /* Narrativa or Ensayo tab: Regular reading text */
-                <div className={`p-6 sm:p-10 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} transition-all duration-300`}>
-                  <div className="space-y-4 prose prose-invert max-w-none text-justify leading-relaxed text-base">
-                    {reconstructTab === "narrativa" ? (
-                      highlightTerms(displayNarrativa || "")
-                    ) : (
-                      highlightTerms(displayEnsayo || "")
-                    )}
-                  </div>
-                </div>
-              )}
-            </motion.div>
-          </AnimatePresence>
-
-          {/* Reflection Journal Bitácora (Centered under the story) */}
-          <div className="max-w-xl mx-auto pt-4">
-            <div className={`${tc.subtleCard} rounded-2xl p-5 shadow-lg space-y-4`}>
-              <div className={`flex items-center justify-between border-b ${tc.border} pb-2`}>
-                <div className="flex items-center gap-2">
-                  <PenTool className={`w-4 h-4 ${tc.accent}`} />
-                  <h4 className={`font-display font-medium text-xs uppercase tracking-wider ${tc.text}`}>
-                    {t.reflectionBoxTitleRecon(reconTabLabel.toUpperCase())}
-                  </h4>
-                </div>
-                {reflection && (
-                  <button
-                    onClick={clearReflection}
-                    className={`text-[10px] ${tc.textMuted} hover:text-red-400 transition-colors cursor-pointer`}
-                  >
-                    {t.delete}
-                  </button>
-                )}
-              </div>
-
-              <textarea
-                value={reflection}
-                onChange={(e) => {
-                  setReflection(e.target.value);
-                  setIsSaved(false);
-                }}
-                placeholder={t.placeholderRecon(reconTabLabel.toLowerCase())}
-                className={`w-full h-28 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} placeholder:opacity-30 focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
-              />
-
-              <button
-                onClick={saveReflection}
-                className={`w-full flex items-center justify-center gap-2 py-2 px-4 rounded-xl text-xs font-semibold tracking-wide transition-all ${
-                  isSaved
-                    ? "bg-emerald-500/10 border border-emerald-500/50 text-emerald-500"
-                    : `${tc.accentBg} cursor-pointer`
-                }`}
-              >
-                {isSaved ? (
-                  <>
-                    <Check className="w-4 h-4" />
-                    {t.savedNote}
-                  </>
-                ) : (
-                  <>
-                    <Save className="w-4 h-4" />
-                    {t.saveButton}
-                  </>
-                )}
-              </button>
-            </div>
-          </div>
-        </div>
-      ) : readingMode === "poemas" ? (
+      {readingMode === "poemas" ? (
         <div className="max-w-4xl mx-auto space-y-8 select-text">
           {/* Poemas mode: Full page background illustration layout */}
           <div className={`w-full relative rounded-3xl overflow-hidden shadow-2xl border ${tc.border} ${tc.subtleCard} min-h-[60vh] flex flex-col justify-between`}>
@@ -1524,16 +1356,6 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             >
               {highlightTerms(displayContent)}
             </motion.div>
-            {readingMode === "essay" && chapter.id === "cap20_5" && (
-              <div className="mt-8 flex justify-center border-t border-amber-500/10 pt-6 relative z-10">
-                <button
-                  onClick={() => onSwitchMode("reconstruccion")}
-                  className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
-                >
-                  🔧 Ir a la Reconstrucción del Límite correspondiente
-                </button>
-              </div>
-            )}
           </div>
 
           {/* Reflection Journal Bitácora (Centered below the text) */}
@@ -1648,8 +1470,6 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               ? t.partOf(chapter.chapterNumber || uiStrings[language].header.interludio, numberedEssayChapterCount)
               : readingMode === "cuentos"
               ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))
-              : readingMode === "reconstruccion"
-              ? t.reconOf(chapter.chapterNumber.replace("R", ""))
               : readingMode === "joven"
               ? t.jovenOf(chapter.chapterNumber || "1", jovenList.length)
               : chapter.id === "poema_glosario"
@@ -1658,9 +1478,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               ? t.poemFrialdadOf("7")
               : chapter.id.startsWith("poema_arq")
               ? t.poemLinkOf(chapter.id.replace("poema_arq", ""))
-              : chapter.id.startsWith("poema_frialdad")
-              ? t.poemFrialdadOf(chapter.id.replace("poema_frialdad", ""))
-              : t.poemReconOf(chapter.id.replace("poema_recon", ""))}
+              : t.poemFrialdadOf(chapter.id.replace("poema_frialdad", ""))}
           </span>
 
           <button
