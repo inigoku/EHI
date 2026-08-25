@@ -5,6 +5,8 @@ import { Illustration } from "../chapters";
 
 // @ts-ignore
 import imgTarelAguaPortada from "../assets/images/tarel_agua/portada.jpg";
+// @ts-ignore
+import imgTarelAguaP1 from "../assets/images/tarel_agua/pagina1.jpg";
 
 // Import all PNG illustrations
 // @ts-ignore
@@ -250,6 +252,7 @@ interface IllustrationViewerProps {
 
 const imageMap: Record<string, string> = {
   tarel_agua_portada: imgTarelAguaPortada,
+  tarel_agua_p1: imgTarelAguaP1,
   il01: img01,
   il02: img02,
   il_prologo: imgPrologo,
