@@ -13,16 +13,30 @@ import { poemasList } from "./poemas";
 //
 // Para cambiar una correspondencia, edita el id del poema junto al cuento.
 // Para que un cuento no proponga poema, elimina su línea del mapa.
+//
+// Tras retirar la sección Reconstrucción, los 16 poemas que quedan ya
+// bastaban para cubrir 16 de los 21 cuentos con recorrido; los 6 restantes
+// (antes emparejados con poemas de Reconstrucción) comparten aquí el poema
+// más afín temáticamente con otro cuento en vez de quedar sin recorrido.
+// Nota: el mapa inverso `poemaToCuento` solo puede recordar un cuento por
+// poema, así que en esos 6 casos compartidos prevalece el cuento que ya
+// tenía asignado el poema (por ir después en este objeto).
 // ─────────────────────────────────────────────────────────────────────────────
 
 export const cuentoToPoema: Record<string, string> = {
+  cuento0: "poema_arq1",              // EL HORIZONTE INTERIOR (nota del archivista) → EL ARCHIVISTA (comparte con cuento12b)
   cuento1: "poema_arq6",              // LA COSTUMBRE DEL AGUA → EL REMO
   cuento2: "poema_arq5",              // LA BURBUJA QUE NO ANUNCIÓ SU CIERRE → LA BURBUJA
+  cuento3: "poema_arq2",              // EL NIÑO QUE APRENDIÓ A MEDIR EL TIEMPO → EL RELOJERO (comparte con cuento13)
+  cuento4: "poema_glosario",          // LA RED DE LOS NOMBRES → GLOSARIO ÍNTIMO (comparte con cuento_ladron)
+  cuento5: "poema_arq4",              // LA CASA QUE RESPIRABA → LA CANCIÓN (comparte con cuento10)
   cuento6: "poema_arq7",              // LA MÁQUINA QUE APRENDÍA A ESPERAR → EL TEMBLOR
+  cuento7: "poema_arq7",              // EL HUÉSPED EN LA PIEL → EL TEMBLOR (comparte con cuento6)
   cuento8: "poema_frialdad5",         // LOS PUENTES SIN PASO → PROTOCOLO DE SALIDA
   cuento9: "poema_arq8",              // EL BORDE QUE CRUZAMOS CADA NOCHE → LA ORILLA
   cuento10: "poema_arq4",             // LA MÚSICA QUE QUEDÓ EN LA HABITACIÓN → LA CANCIÓN
   cuento11: "poema_frialdad6",        // EL QUE TOCA LA CUERDA DESDE LA OTRA CASA → MONTSE XXI
+  cuento12: "poema_frialdad1",        // LA CIUDAD DE LAS PEQUEÑAS PÉRDIDAS → CARTOGRAFÍA DEL ECO (comparte con cuento15)
   cuento12b: "poema_arq1",            // EL SEGUNDO CUADERNO → EL ARCHIVISTA
   cuento13: "poema_arq2",             // EL RELOJ DEL CUERPO → EL RELOJERO
   cuento14: "poema_frialdad3",        // LA SALA DONDE NADIE PREGUNTABA → QUEJIDO DE LA VUELTA
