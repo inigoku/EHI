@@ -10,6 +10,7 @@ import { ChapterMusicPlayer } from "./components/ChapterMusicPlayer";
 import { PathLanding } from "./components/PathLanding";
 import { MangaReader } from "./components/MangaReader";
 import { mangaPages } from "./chapters/mangaPages";
+import { tarelAguaPages } from "./chapters/tarelAguaPages";
 import { ReadingTheme, FontSize } from "./components/ReadingSettings";
 import { Language, uiStrings, getInitialLanguage, persistLanguage } from "./i18n";
 import { LanguageToggle } from "./components/LanguageToggle";
@@ -55,6 +56,11 @@ export default function App() {
   React.useEffect(() => {
     localStorage.setItem("joven_view_mode", jovenViewMode);
   }, [jovenViewMode]);
+
+  // One-shot ilustrado de "La costumbre del agua": una experiencia de
+  // lectura completa (como el manga), pero independiente de cualquier
+  // reading mode existente — se abre y se cierra con su propio flag.
+  const [showTarelAguaReader, setShowTarelAguaReader] = React.useState<boolean>(false);
 
   // Settings states
   const [theme, setTheme] = React.useState<ReadingTheme>(() => {
@@ -291,12 +297,47 @@ export default function App() {
       <MangaReader
         pages={mangaPages}
         initialPageId={initialPageId}
+        eyebrow="Edición Joven · Modo Manga"
+        coverTitle="El Horizonte Interior"
+        resolveChapterTitle={(chapterId) => jovenList.find((c) => c.id === chapterId)?.title}
+        storageKey="joven_manga_page_id"
         onSwitchToText={(chapterId) => {
           setJovenViewMode("texto");
           setActiveChapterId(chapterId);
           setActivePathLanding(null); // Ir directo al capítulo, sin pantalla de presentación
         }}
         onExitHome={() => setReadingMode("home")}
+      />
+    );
+  }
+
+  if (showTarelAguaReader) {
+    // One-shot ilustrado independiente: no forma parte de ningún reading
+    // mode existente, así que se resuelve con su propio flag en vez de
+    // sumarse a la unión de readingMode.
+    const storedPageId = localStorage.getItem("tarel_agua_page_id");
+    const initialPageId =
+      (storedPageId && tarelAguaPages.some((p) => p.id === storedPageId) ? storedPageId : undefined) ||
+      tarelAguaPages[0].id;
+
+    return (
+      <MangaReader
+        pages={tarelAguaPages}
+        initialPageId={initialPageId}
+        eyebrow="Lecturas Ilustradas · One-shot"
+        coverTitle="La costumbre del agua"
+        resolveChapterTitle={() => "La costumbre del agua"}
+        storageKey="tarel_agua_page_id"
+        onSwitchToText={() => {
+          setShowTarelAguaReader(false);
+          setReadingMode("cuentos");
+          setActiveChapterId("cuento1");
+          setActivePathLanding(null);
+        }}
+        onExitHome={() => {
+          setShowTarelAguaReader(false);
+          setReadingMode("home");
+        }}
       />
     );
   }
@@ -429,6 +470,7 @@ export default function App() {
               onSwitchMode={handleSwitchMode}
               language={language}
               onOpenConstellation={() => setIsConstellationOpen(true)}
+              onOpenIllustratedOneShot={() => setShowTarelAguaReader(true)}
             />
           )}
         </main>

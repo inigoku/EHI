@@ -2,18 +2,34 @@ import React from "react";
 import { motion, AnimatePresence } from "motion/react";
 import { ChevronLeft, ChevronRight, BookOpen, Home } from "lucide-react";
 import { MangaPage } from "../chapters/mangaPages";
-import { jovenList } from "../chapters";
 
 interface MangaReaderProps {
   pages: MangaPage[];
   initialPageId: string;
+  eyebrow: string;
+  coverTitle: string;
+  resolveChapterTitle: (chapterId: string) => string | undefined;
+  storageKey: string;
   onSwitchToText: (chapterId: string) => void;
   onExitHome: () => void;
 }
 
-// Full-screen, page-by-page reader for the Edición Joven manga: no sidebar,
-// no chapter prose — just the pages, flipped one at a time like a real comic.
-export const MangaReader: React.FC<MangaReaderProps> = ({ pages, initialPageId, onSwitchToText, onExitHome }) => {
+// Full-screen, page-by-page reader shared by every illustrated one-shot in
+// the app (Edición Joven's manga, and any other page-by-page story): no
+// sidebar, no chapter prose — just the pages, flipped one at a time like a
+// real comic. The caller supplies the pages, the labels, and where "last
+// read page" is remembered, so this component has no knowledge of any
+// specific story.
+export const MangaReader: React.FC<MangaReaderProps> = ({
+  pages,
+  initialPageId,
+  eyebrow,
+  coverTitle,
+  resolveChapterTitle,
+  storageKey,
+  onSwitchToText,
+  onExitHome,
+}) => {
   const initialIndex = Math.max(
     0,
     pages.findIndex((p) => p.id === initialPageId)
@@ -21,12 +37,12 @@ export const MangaReader: React.FC<MangaReaderProps> = ({ pages, initialPageId, 
   const [index, setIndex] = React.useState<number>(initialIndex);
   const page = pages[index];
   const isCover = page.pageNumber === 0;
-  const chapter = jovenList.find((c) => c.id === page.chapterId);
+  const chapterTitle = resolveChapterTitle(page.chapterId);
   const totalNumberedPages = pages.filter((p) => p.pageNumber > 0).length;
 
   React.useEffect(() => {
-    localStorage.setItem("joven_manga_page_id", page.id);
-  }, [page.id]);
+    localStorage.setItem(storageKey, page.id);
+  }, [page.id, storageKey]);
 
   const hasPrev = index > 0;
   const hasNext = index < pages.length - 1;
@@ -56,10 +72,10 @@ export const MangaReader: React.FC<MangaReaderProps> = ({ pages, initialPageId, 
 
         <div className="flex flex-col items-center">
           <span className="text-[9px] font-sans uppercase tracking-[0.2em] text-amber-500 font-bold">
-            Edición Joven · Modo Manga
+            {eyebrow}
           </span>
           <span className="text-xs sm:text-sm font-display italic text-slate-200 truncate max-w-[50vw]">
-            {isCover ? "El Horizonte Interior" : chapter ? chapter.title : ""}
+            {isCover ? coverTitle : chapterTitle || ""}
           </span>
         </div>
 
