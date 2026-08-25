@@ -42,4 +42,9 @@ illustrationDescription: El Archivista, encapuchado y con farolillo y cuaderno, 
 
 ---
 
-> **Estado: borrador.** Este fichero reúne por ahora la portada y las páginas 1-6 del one-shot ilustrado basado en el cuento «La costumbre del agua» (`content/cuentos/cuento1.es.md`). Queda pendiente la página 7, la última (guion y prompt ya definidos, ilustración por generar). No está enlazado a ningún modo de lectura de la app todavía — se integrará como sección propia cuando esté completo.
+## [ILUSTRACIÓN tarel_agua_p7: "Página 7"]
+*Unos meses después: la luna llena sobre el canal vacío; Tarel reconstruida junto al arco "TAREL", habitantes cruzando el puente; la ciudad completa de nuevo con el agua-espejo restaurada, el Archivista de espaldas frente al agua. "Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás."*
+
+---
+
+> **Estado: completo.** Las 7 páginas interiores y la portada del one-shot ilustrado basado en el cuento «La costumbre del agua» (`content/cuentos/cuento1.es.md`) ya están reunidas aquí. Sigue sin enlazar a ningún modo de lectura de la app — pendiente de decidir cómo integrarlo (sección propia, lector a página completa, etc.) antes de fusionarlo a `main`.
