@@ -1,6 +1,6 @@
 import React from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { BookOpen, Compass, Layers, ArrowDown, ArrowRight, ArrowLeft, Book, Feather, Waves, Network, Sparkles } from "lucide-react";
+import { BookOpen, Compass, ArrowDown, ArrowRight, ArrowLeft, Book, Feather, Waves, Network, Sparkles } from "lucide-react";
 import { ReadingTheme } from "./ReadingSettings";
 import { Language, uiStrings } from "../i18n";
 import { LanguageToggle } from "./LanguageToggle";
@@ -13,7 +13,7 @@ interface LandingPageProps {
   theme: ReadingTheme;
   language: Language;
   setLanguage: (language: Language) => void;
-  onStartReading: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven", chapterId?: string) => void;
+  onStartReading: (mode: "essay" | "cuentos" | "poemas" | "joven", chapterId?: string) => void;
   openGlossary: () => void;
   initialPage?: number;
 }
@@ -430,27 +430,6 @@ export const LandingPage: React.FC<LandingPageProps> = ({
                     </div>
                     <div className={`flex items-center gap-1.5 text-xs font-mono font-bold ${tc.accentText} mt-4`}>
                       <span>{t.landing.pathPoemasBtn}</span>
-                      <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
-                    </div>
-                  </div>
-
-                  <div
-                    onClick={() => onStartReading("reconstruccion")}
-                    className={`p-6 rounded-2xl border ${tc.cardBg} ${tc.cardHover} transition-all duration-300 group cursor-pointer flex flex-col justify-between min-h-[230px]`}
-                  >
-                    <div className="space-y-4">
-                      <div className={`w-10 h-10 rounded-lg flex items-center justify-center ${tc.accentBg} ${tc.accentText} group-hover:scale-110 transition-transform`}>
-                        <Layers className="w-5 h-5" />
-                      </div>
-                      <div>
-                        <h4 className="text-lg font-display font-bold">{t.landing.pathReconTitle}</h4>
-                        <p className={`text-xs ${tc.textMuted} font-sans mt-2 leading-relaxed`}>
-                          {t.landing.pathReconDesc}
-                        </p>
-                      </div>
-                    </div>
-                    <div className={`flex items-center gap-1.5 text-xs font-mono font-bold ${tc.accentText} mt-4`}>
-                      <span>{t.landing.pathReconBtn}</span>
                       <ArrowRight className="w-3.5 h-3.5 group-hover:translate-x-1 transition-transform" />
                     </div>
                   </div>

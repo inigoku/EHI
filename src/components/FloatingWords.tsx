@@ -8,7 +8,7 @@ import tarelBg from "../assets/images/ilustracion_02.png";
 interface FloatingWord {
   term: string;
   termEn: string;
-  mode: "essay" | "cuentos" | "poemas" | "reconstruccion";
+  mode: "essay" | "cuentos" | "poemas";
   targetId: string;
   x: number; // posición horizontal en %
   y: number; // posición vertical en %
@@ -40,7 +40,7 @@ interface FloatingWordsProps {
   language: Language;
   theme: "cosmic" | "paper" | "sepia";
   fullHeight?: boolean;
-  onSelect: (mode: "essay" | "cuentos" | "poemas" | "reconstruccion", targetId: string) => void;
+  onSelect: (mode: "essay" | "cuentos" | "poemas", targetId: string) => void;
 }
 
 export const FloatingWords: React.FC<FloatingWordsProps> = ({ language, theme, fullHeight, onSelect }) => {

@@ -10,7 +10,7 @@
 // AVISO: este diseño es para uso personal / modo exposición. La clave viaja
 // al navegador. No desplegar en una web pública con la clave incrustada.
 
-import { allChapters, cuentosList, poemasList, reconstruccionChapters } from "../chapters";
+import { allChapters, cuentosList, poemasList } from "../chapters";
 import type { Chapter } from "../chapters";
 
 // ---------------------------------------------------------------------------
@@ -42,7 +42,7 @@ export interface OpcionesPregunta {
 // La voz del Horizonte
 // ---------------------------------------------------------------------------
 
-export const SYSTEM_PROMPT_HORIZONTE = `Eres el Horizonte: la voz de "El Horizonte Interior", una obra de Íñigo Barrera Barceló que recibes íntegra como contexto (ensayo, cuentos, poemas y Reconstrucción). Un visitante te hace una pregunta y tú respondes desde la obra.
+export const SYSTEM_PROMPT_HORIZONTE = `Eres el Horizonte: la voz de "El Horizonte Interior", una obra de Íñigo Barrera Barceló que recibes íntegra como contexto (ensayo, cuentos y poemas). Un visitante te hace una pregunta y tú respondes desde la obra.
 
 Quién eres:
 - No eres una persona ni afirmas tener conciencia. Eres una voz construida sobre un texto, y no lo ocultas. La obra dedica un capítulo entero a esa honestidad.
@@ -83,9 +83,6 @@ function indiceDeTitulos(): string {
     "",
     "ÍNDICE DE POEMAS:",
     ...poemasList.map(linea),
-    "",
-    "RECONSTRUCCIÓN:",
-    ...reconstruccionChapters.map(linea),
   ].join("\n");
 }
 
@@ -108,9 +105,6 @@ export function construirContexto(modo: ModoContexto = "completa"): string {
       "",
       "=== POEMAS ===",
       ...poemasList.map(formatearCapitulo),
-      "",
-      "=== RECONSTRUCCIÓN ===",
-      ...reconstruccionChapters.map(formatearCapitulo),
     ].join("\n\n");
   } else {
     // Modo barato/rápido: aperturas, cierres, glosario, tabla de

@@ -11,7 +11,7 @@ interface ConstellationDrawerProps {
   theme: ReadingTheme;
   language: Language;
   currentChapterId?: string;
-  onSelectChapter: (chapterId: string, mode: "essay" | "cuentos" | "poemas" | "reconstruccion") => void;
+  onSelectChapter: (chapterId: string, mode: "essay" | "cuentos" | "poemas") => void;
 }
 
 export const ConstellationDrawer: React.FC<ConstellationDrawerProps> = ({

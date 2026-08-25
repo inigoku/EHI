@@ -22,15 +22,6 @@ export interface Chapter {
   subtitleEn?: string;
   sectionEn?: string;
   contentEn?: string;
-  // Extra fields for Reconstrucción tabbed content
-  narrativa?: string;
-  ensayo?: string;
-  poema?: string;
-  cierre?: string;
-  narrativaEn?: string;
-  ensayoEn?: string;
-  poemaEn?: string;
-  cierreEn?: string;
 }
 
 // The actual essay text lives in standalone .md files under /content/ensayo —

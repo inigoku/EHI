@@ -1,12 +1,11 @@
 import React from "react";
 
-type ReadingMode = "essay" | "cuentos" | "poemas" | "reconstruccion" | "joven";
+type ReadingMode = "essay" | "cuentos" | "poemas" | "joven";
 
 const TRACK_BY_MODE: Record<ReadingMode, string> = {
   essay: "/tides-of-quiet.mp3",
   cuentos: "/anoche-cuando-dormia.mp3",
   poemas: "/cielo-de-vaso.mp3",
-  reconstruccion: "/silent-aegean.mp3",
   joven: "/anoche-cuando-dormia.mp3",
 };
 
