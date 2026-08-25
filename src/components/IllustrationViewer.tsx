@@ -13,6 +13,8 @@ import imgTarelAguaP2 from "../assets/images/tarel_agua/pagina2.jpg";
 import imgTarelAguaP3 from "../assets/images/tarel_agua/pagina3.jpg";
 // @ts-ignore
 import imgTarelAguaP4 from "../assets/images/tarel_agua/pagina4.jpg";
+// @ts-ignore
+import imgTarelAguaP5 from "../assets/images/tarel_agua/pagina5.jpg";
 
 // Import all PNG illustrations
 // @ts-ignore
@@ -262,6 +264,7 @@ const imageMap: Record<string, string> = {
   tarel_agua_p2: imgTarelAguaP2,
   tarel_agua_p3: imgTarelAguaP3,
   tarel_agua_p4: imgTarelAguaP4,
+  tarel_agua_p5: imgTarelAguaP5,
   il01: img01,
   il02: img02,
   il_prologo: imgPrologo,

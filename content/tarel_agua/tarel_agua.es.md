@@ -32,4 +32,9 @@ illustrationDescription: El Archivista, encapuchado y con farolillo y cuaderno, 
 
 ---
 
-> **Estado: borrador.** Este fichero reúne por ahora la portada y las páginas 1-4 del one-shot ilustrado basado en el cuento «La costumbre del agua» (`content/cuentos/cuento1.es.md`). Quedan pendientes las páginas 5 a 7 (guion y prompts ya definidos, ilustraciones por generar). No está enlazado a ningún modo de lectura de la app todavía — se integrará como sección propia cuando estén todas las páginas.
+## [ILUSTRACIÓN tarel_agua_p5: "Página 5"]
+*La villa de Tarel se divide: unos desmontan sus casas y parten en barca, otros se quedan aprendiendo a caminar sobre el barro; las manos curtidas de Tarel siguen atando cuerdas nuevas.*
+
+---
+
+> **Estado: borrador.** Este fichero reúne por ahora la portada y las páginas 1-5 del one-shot ilustrado basado en el cuento «La costumbre del agua» (`content/cuentos/cuento1.es.md`). Quedan pendientes las páginas 6 y 7 (guion y prompts ya definidos, ilustraciones por generar). No está enlazado a ningún modo de lectura de la app todavía — se integrará como sección propia cuando estén todas las páginas.
