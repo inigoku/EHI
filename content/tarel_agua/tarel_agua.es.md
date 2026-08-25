@@ -27,4 +27,9 @@ illustrationDescription: El Archivista, encapuchado y con farolillo y cuaderno, 
 
 ---
 
-> **Estado: borrador.** Este fichero reúne por ahora la portada y las páginas 1-3 del one-shot ilustrado basado en el cuento «La costumbre del agua» (`content/cuentos/cuento1.es.md`). Quedan pendientes las páginas 4 a 7 (guion y prompts ya definidos, ilustraciones por generar). No está enlazado a ningún modo de lectura de la app todavía — se integrará como sección propia cuando estén todas las páginas.
+## [ILUSTRACIÓN tarel_agua_p4: "Página 4"]
+*Barcos metálicos de la Delegación del Continente atracando junto a Tarel; los delegados caminando con cuidado sobre las tablas, midiendo y anotando cifras. "Habrá que elegir quedarse o irse."*
+
+---
+
+> **Estado: borrador.** Este fichero reúne por ahora la portada y las páginas 1-4 del one-shot ilustrado basado en el cuento «La costumbre del agua» (`content/cuentos/cuento1.es.md`). Quedan pendientes las páginas 5 a 7 (guion y prompts ya definidos, ilustraciones por generar). No está enlazado a ningún modo de lectura de la app todavía — se integrará como sección propia cuando estén todas las páginas.
