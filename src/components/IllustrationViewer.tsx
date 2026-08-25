@@ -3,6 +3,9 @@ import { motion, AnimatePresence } from "motion/react";
 import { X } from "lucide-react";
 import { Illustration } from "../chapters";
 
+// @ts-ignore
+import imgTarelAguaPortada from "../assets/images/tarel_agua/portada.jpg";
+
 // Import all PNG illustrations
 // @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
@@ -246,6 +249,7 @@ interface IllustrationViewerProps {
 }
 
 const imageMap: Record<string, string> = {
+  tarel_agua_portada: imgTarelAguaPortada,
   il01: img01,
   il02: img02,
   il_prologo: imgPrologo,
