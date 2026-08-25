@@ -136,8 +136,6 @@ import img18_6 from "../assets/images/ilustracion_ego_inconsciente.png";
 // @ts-ignore
 import img18_7 from "../assets/images/ilustracion_testigo_exclusion.png";
 // @ts-ignore
-import img20_5 from "../assets/images/ilustracion_cosmoteandrica.png";
-// @ts-ignore
 import img17_7_alien from "../assets/images/ilustracion_alien.png";
 // @ts-ignore
 import img17_8_cosmic from "../assets/images/ilustracion_cosmic.png";
@@ -314,7 +312,6 @@ const imageMap: Record<string, string> = {
   il13_5: img13_5,
   il18_6: img18_6,
   il18_7: img18_7,
-  il20_5: img20_5,
   il17_7_alien: img17_7_alien,
   il17_8_cosmic: img17_8_cosmic,
   il_matrix: imgMatrix,

@@ -3,7 +3,6 @@ import { Chapter, loadEssayChapters } from "./group1";
 const ORDER = [
   "cap19_real",
   "cap20_real",
-  "cap20_5",
   "cap_epilogo_real",
   "cap_nota_autor",
   "cap_glosario",
