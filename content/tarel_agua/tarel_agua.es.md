@@ -37,4 +37,9 @@ illustrationDescription: El Archivista, encapuchado y con farolillo y cuaderno, 
 
 ---
 
-> **Estado: borrador.** Este fichero reúne por ahora la portada y las páginas 1-5 del one-shot ilustrado basado en el cuento «La costumbre del agua» (`content/cuentos/cuento1.es.md`). Quedan pendientes las páginas 6 y 7 (guion y prompts ya definidos, ilustraciones por generar). No está enlazado a ningún modo de lectura de la app todavía — se integrará como sección propia cuando estén todas las páginas.
+## [ILUSTRACIÓN tarel_agua_p6: "Página 6"]
+*El Archivista hunde las manos en el último resto de laguna bajo el cielo estrellado; secuencia onírica de la laguna dormida, una masa vasta que respira; despierta con los puños cerrados, como si todavía sujetara algo.*
+
+---
+
+> **Estado: borrador.** Este fichero reúne por ahora la portada y las páginas 1-6 del one-shot ilustrado basado en el cuento «La costumbre del agua» (`content/cuentos/cuento1.es.md`). Queda pendiente la página 7, la última (guion y prompt ya definidos, ilustración por generar). No está enlazado a ningún modo de lectura de la app todavía — se integrará como sección propia cuando esté completo.
