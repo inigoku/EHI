@@ -16,6 +16,8 @@ import imgPoemasPintoresP3 from "../assets/images/poemas_pintores/pagina3.jpg";
 // @ts-ignore
 import imgPoemasPintoresP4 from "../assets/images/poemas_pintores/pagina4.jpg";
 // @ts-ignore
+import imgPoemasPintoresP5 from "../assets/images/poemas_pintores/pagina5.jpg";
+// @ts-ignore
 import imgTarelAguaP1 from "../assets/images/tarel_agua/pagina1.jpg";
 // @ts-ignore
 import imgTarelAguaP2 from "../assets/images/tarel_agua/pagina2.jpg";
@@ -279,6 +281,7 @@ const imageMap: Record<string, string> = {
   poemas_pintores_p2: imgPoemasPintoresP2,
   poemas_pintores_p3: imgPoemasPintoresP3,
   poemas_pintores_p4: imgPoemasPintoresP4,
+  poemas_pintores_p5: imgPoemasPintoresP5,
   tarel_agua_p1: imgTarelAguaP1,
   tarel_agua_p2: imgTarelAguaP2,
   tarel_agua_p3: imgTarelAguaP3,
