@@ -22,6 +22,11 @@ illustrationDescription: Un hombre dormido en una silla junto a una barca varada
 
 ---
 
+## [ILUSTRACIÓN poemas_pintores_p4: "Página 4 — La canción (Marc Chagall)"]
+*Una cocina flotando sin suelo ni paredes en un cielo azul nocturno; cuatro notas de humo sólido salen de una olla que nunca hierve del todo; en un sofá suspendido, un hueco luminoso con forma de cuerpo dormido. Un hombre canta sin tocar el suelo. Lenguaje visual de Marc Chagall.*
+
+---
+
 > **Estado: borrador.** Un pintor moderno distinto por cada uno de los 16 poemas de `content/poemas/` (referencia de lenguaje visual — paleta, técnica, composición — nunca reproducción de una obra concreta), una página surrealista por poema. Guion completo de las 16 páginas y su pintor asignado ya definido; por ahora solo existe la página 1 ("El archivista", Andrew Wyeth). No está enlazado a ningún modo de lectura de la app todavía.
 >
 > **Pintores asignados (guion completo):** 1. El archivista → Andrew Wyeth. 2. El relojero → Edward Hopper. 3. El luthier → Pierre Bonnard. 4. La canción → Marc Chagall. 5. La burbuja → Wassily Kandinsky. 6. El remo → Winslow Homer. 7. El temblor → Egon Schiele. 8. La orilla → Georgia O'Keeffe. 9. Glosario íntimo → Paul Klee. 10. Cartografía del eco → Yves Tanguy. 11. Canto de muerte → Käthe Kollwitz. 12. Quejido de la vuelta → George Grosz. 13. Villancico cibernético → Fernand Léger. 14. Protocolo de salida → Salvador Dalí. 15. Montse XXI → Edvard Munch. 16. El nudo de la mezcla → Gustav Klimt.
