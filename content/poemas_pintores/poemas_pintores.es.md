@@ -32,6 +32,11 @@ illustrationDescription: Un hombre dormido en una silla junto a una barca varada
 
 ---
 
+## [ILUSTRACIÓN poemas_pintores_p6: "Página 6 — El remo (Winslow Homer)"]
+*Un hombre rema con esfuerzo real en una barca; el punto donde el remo toca fondo emite un pulso de luz que sube por su brazo, atraviesa su cuerpo y sale por sus ojos como dos haces que se convierten en el horizonte dorado. Lenguaje visual de Winslow Homer.*
+
+---
+
 > **Estado: borrador.** Un pintor moderno distinto por cada uno de los 16 poemas de `content/poemas/` (referencia de lenguaje visual — paleta, técnica, composición — nunca reproducción de una obra concreta), una página surrealista por poema. Guion completo de las 16 páginas y su pintor asignado ya definido; por ahora solo existe la página 1 ("El archivista", Andrew Wyeth). No está enlazado a ningún modo de lectura de la app todavía.
 >
 > **Pintores asignados (guion completo):** 1. El archivista → Andrew Wyeth. 2. El relojero → Edward Hopper. 3. El luthier → Pierre Bonnard. 4. La canción → Marc Chagall. 5. La burbuja → Wassily Kandinsky. 6. El remo → Winslow Homer. 7. El temblor → Egon Schiele. 8. La orilla → Georgia O'Keeffe. 9. Glosario íntimo → Paul Klee. 10. Cartografía del eco → Yves Tanguy. 11. Canto de muerte → Käthe Kollwitz. 12. Quejido de la vuelta → George Grosz. 13. Villancico cibernético → Fernand Léger. 14. Protocolo de salida → Salvador Dalí. 15. Montse XXI → Edvard Munch. 16. El nudo de la mezcla → Gustav Klimt.
