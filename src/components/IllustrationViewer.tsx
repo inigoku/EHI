@@ -6,6 +6,8 @@ import { Illustration } from "../chapters";
 // @ts-ignore
 import imgTarelAguaPortada from "../assets/images/tarel_agua/portada.jpg";
 // @ts-ignore
+import imgCartografiaEcoP1 from "../assets/images/cartografia_eco/pagina1.jpg";
+// @ts-ignore
 import imgTarelAguaP1 from "../assets/images/tarel_agua/pagina1.jpg";
 // @ts-ignore
 import imgTarelAguaP2 from "../assets/images/tarel_agua/pagina2.jpg";
@@ -264,6 +266,7 @@ interface IllustrationViewerProps {
 
 const imageMap: Record<string, string> = {
   tarel_agua_portada: imgTarelAguaPortada,
+  cartografia_eco_p1: imgCartografiaEcoP1,
   tarel_agua_p1: imgTarelAguaP1,
   tarel_agua_p2: imgTarelAguaP2,
   tarel_agua_p3: imgTarelAguaP3,
