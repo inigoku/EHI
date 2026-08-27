@@ -8,22 +8,6 @@ import imgTarelAguaPortada from "../assets/images/tarel_agua/portada.jpg";
 // @ts-ignore
 import imgCartografiaEcoP1 from "../assets/images/cartografia_eco/pagina1.jpg";
 // @ts-ignore
-import imgPoemasPintoresP1 from "../assets/images/poemas_pintores/pagina1.jpg";
-// @ts-ignore
-import imgPoemasPintoresP2 from "../assets/images/poemas_pintores/pagina2.jpg";
-// @ts-ignore
-import imgPoemasPintoresP3 from "../assets/images/poemas_pintores/pagina3.jpg";
-// @ts-ignore
-import imgPoemasPintoresP4 from "../assets/images/poemas_pintores/pagina4.jpg";
-// @ts-ignore
-import imgPoemasPintoresP5 from "../assets/images/poemas_pintores/pagina5.jpg";
-// @ts-ignore
-import imgPoemasPintoresP6 from "../assets/images/poemas_pintores/pagina6.jpg";
-// @ts-ignore
-import imgPoemasPintoresP7 from "../assets/images/poemas_pintores/pagina7.jpg";
-// @ts-ignore
-import imgPoemasPintoresP8 from "../assets/images/poemas_pintores/pagina8.jpg";
-// @ts-ignore
 import imgTarelAguaP1 from "../assets/images/tarel_agua/pagina1.jpg";
 // @ts-ignore
 import imgTarelAguaP2 from "../assets/images/tarel_agua/pagina2.jpg";
@@ -283,14 +267,6 @@ interface IllustrationViewerProps {
 const imageMap: Record<string, string> = {
   tarel_agua_portada: imgTarelAguaPortada,
   cartografia_eco_p1: imgCartografiaEcoP1,
-  poemas_pintores_p1: imgPoemasPintoresP1,
-  poemas_pintores_p2: imgPoemasPintoresP2,
-  poemas_pintores_p3: imgPoemasPintoresP3,
-  poemas_pintores_p4: imgPoemasPintoresP4,
-  poemas_pintores_p5: imgPoemasPintoresP5,
-  poemas_pintores_p6: imgPoemasPintoresP6,
-  poemas_pintores_p7: imgPoemasPintoresP7,
-  poemas_pintores_p8: imgPoemasPintoresP8,
   tarel_agua_p1: imgTarelAguaP1,
   tarel_agua_p2: imgTarelAguaP2,
   tarel_agua_p3: imgTarelAguaP3,
@@ -488,7 +464,8 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
     illustration.id.includes("txiki") ||
     illustration.id.includes("epilogo") ||
     illustration.id.includes("sintonizadores") ||
-    illustration.id === "il_mujer_rojo";
+    illustration.id === "il_mujer_rojo" ||
+    illustration.id.startsWith("poema_");
 
   return (
     <>

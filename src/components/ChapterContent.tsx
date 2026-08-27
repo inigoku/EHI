@@ -1037,89 +1037,67 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
       {/* Grid or Centered layout depending on readingMode */}
       {readingMode === "poemas" ? (
-        <div className="max-w-4xl mx-auto space-y-8 select-text">
-          {/* Poemas mode: Full page background illustration layout */}
-          <div className={`w-full relative rounded-3xl overflow-hidden shadow-2xl border ${tc.border} ${tc.subtleCard} min-h-[60vh] flex flex-col justify-between`}>
-            {/* Background Illustration Container */}
-            {chapter.illustration && (
-              <div className="absolute inset-0 z-0">
-                <div className={`w-full h-full pointer-events-none select-none transition-all duration-1000 ${
-                  theme === "cosmic"
-                    ? "opacity-[0.55] mix-blend-screen"
-                    : theme === "sepia"
-                    ? "opacity-[0.45] mix-blend-multiply"
-                    : "opacity-[0.45] mix-blend-multiply"
-                }`}>
-                  <IllustrationViewer illustration={chapter.illustration} variant="background" language={language} />
+        <div className="max-w-3xl mx-auto space-y-8 select-text">
+          {/* Poemas mode: illustration shown clear and complete above the poem, no dimming */}
+          {chapter.illustration && (
+            <div className="flex justify-center select-none">
+              <IllustrationViewer illustration={chapter.illustration} language={language} />
+            </div>
+          )}
+
+          {/* Poem Text Panel */}
+          <div className={`w-full rounded-3xl shadow-2xl border ${tc.border} ${tc.subtleCard} p-8 sm:p-16 flex flex-col items-center justify-center text-center`}>
+            <motion.div
+              key={`content-${chapter.id}`}
+              initial={{ opacity: 0, y: 15 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.8, delay: 0.1 }}
+              className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-xl tracking-wide select-text text-left ${tc.text}`}
+            >
+              {displayContent.split("\n").map((line, lineIdx) => (
+                <div key={lineIdx}>
+                  {parseInlineStyles(line)}
                 </div>
-                <div className={`absolute inset-0 bg-gradient-to-t transition-all duration-1000 ${
-                  theme === "cosmic"
-                    ? "from-[#0D0E12]/95 via-[#0D0E12]/60 to-[#0D0E12]/15"
-                    : theme === "sepia"
-                    ? "from-[#FAF6EE]/95 via-[#FAF6EE]/60 to-[#FAF6EE]/15"
-                    : theme === "campo"
-                    ? "from-[#F3EEE2]/95 via-[#F3EEE2]/60 to-[#F3EEE2]/15"
-                    : "from-[#F9F6F1]/95 via-[#F9F6F1]/60 to-[#F9F6F1]/15"
-                }`} />
+              ))}
+            </motion.div>
+          </div>
+
+          {/* Reflection Journal Bitácora (Collapsible below the poem) */}
+          <div className="max-w-xl mx-auto w-full">
+            <details className={`group rounded-2xl border ${tc.border} ${tc.subtleCard} p-4 transition-all duration-300`}>
+              <summary className={`flex items-center justify-between cursor-pointer select-none text-[10px] sm:text-xs font-semibold ${tc.text} tracking-wider font-display uppercase`}>
+                <div className="flex items-center gap-2">
+                  <PenTool className={`w-3.5 h-3.5 ${tc.accent}`} />
+                  <span>{t.reflectionBoxTitlePoetic}</span>
+                </div>
+                <span className="text-[10px] text-amber-500/70 group-open:hidden">{t.expand}</span>
+                <span className="text-[10px] text-amber-500/70 hidden group-open:inline">{t.collapse}</span>
+              </summary>
+              <div className="mt-4 space-y-4">
+                <p className={`text-[10px] ${tc.textMuted} leading-relaxed font-sans`}>
+                  {t.hintPoem}
+                </p>
+                <textarea
+                  value={reflection}
+                  onChange={(e) => {
+                    setReflection(e.target.value);
+                    setIsSaved(false);
+                  }}
+                  placeholder={t.placeholderPoem}
+                  className={`w-full h-20 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
+                />
+                <button
+                  onClick={saveReflection}
+                  className={`w-full flex items-center justify-center gap-2 py-1.5 px-3 rounded-xl text-xs font-semibold tracking-wide transition-all ${
+                    isSaved
+                      ? "bg-emerald-500/10 border border-emerald-500/50 text-emerald-500"
+                      : `${tc.accentBg} cursor-pointer`
+                  }`}
+                >
+                  {isSaved ? t.savedNote : t.saveNote}
+                </button>
               </div>
-            )}
-
-            {/* Poem Text Panel */}
-            <div className="relative z-10 p-8 sm:p-20 flex-1 flex flex-col items-center justify-center text-center">
-              <motion.div
-                key={`content-${chapter.id}`}
-                initial={{ opacity: 0, y: 15 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.8, delay: 0.1 }}
-                className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-xl tracking-wide select-text text-left ${
-                  theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
-                }`}
-              >
-                {displayContent.split("\n").map((line, lineIdx) => (
-                  <div key={lineIdx}>
-                    {parseInlineStyles(line)}
-                  </div>
-                ))}
-              </motion.div>
-            </div>
-
-            {/* Reflection Journal Bitácora (Collapsible inside the poem view) */}
-            <div className="relative z-10 max-w-xl mx-auto w-full px-6 pb-6">
-              <details className={`group rounded-2xl border ${tc.border} bg-slate-950/20 backdrop-blur-sm p-4 transition-all duration-300`}>
-                <summary className={`flex items-center justify-between cursor-pointer select-none text-[10px] sm:text-xs font-semibold ${tc.text} tracking-wider font-display uppercase`}>
-                  <div className="flex items-center gap-2">
-                    <PenTool className={`w-3.5 h-3.5 ${tc.accent}`} />
-                    <span>{t.reflectionBoxTitlePoetic}</span>
-                  </div>
-                  <span className="text-[10px] text-amber-500/70 group-open:hidden">{t.expand}</span>
-                  <span className="text-[10px] text-amber-500/70 hidden group-open:inline">{t.collapse}</span>
-                </summary>
-                <div className="mt-4 space-y-4">
-                  <p className={`text-[10px] ${tc.textMuted} leading-relaxed font-sans`}>
-                    {t.hintPoem}
-                  </p>
-                  <textarea
-                    value={reflection}
-                    onChange={(e) => {
-                      setReflection(e.target.value);
-                      setIsSaved(false);
-                    }}
-                    placeholder={t.placeholderPoem}
-                    className={`w-full h-20 bg-transparent border ${tc.border} rounded-xl p-3 text-xs ${tc.text} focus:outline-none focus:border-amber-500/40 font-sans resize-none transition-all`}
-                  />
-                  <button
-                    onClick={saveReflection}
-                    className={`w-full flex items-center justify-center gap-2 py-1.5 px-3 rounded-xl text-xs font-semibold tracking-wide transition-all ${
-                      isSaved
-                        ? "bg-emerald-500/10 border border-emerald-500/50 text-emerald-500"
-                        : `${tc.accentBg} cursor-pointer`
-                    }`}
-                  >
-                    {isSaved ? t.savedNote : t.saveNote}
-                  </button>
-                </div>
-              </details>
-            </div>
+            </details>
           </div>
         </div>
       ) : readingMode === "cuentos" ? (
