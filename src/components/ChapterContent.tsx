@@ -143,6 +143,10 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   const containerRef = React.useRef<HTMLDivElement>(null);
   const [reflection, setReflection] = React.useState<string>("");
   const [isSaved, setIsSaved] = React.useState<boolean>(false);
+  const [showPoemIllustrationAlone, setShowPoemIllustrationAlone] = React.useState<boolean>(false);
+  React.useEffect(() => {
+    setShowPoemIllustrationAlone(false);
+  }, [chapter.id]);
 
   // Count of essay/lecturas chapters with a purely numeric chapterNumber, for
   // the footer's "Part N of TOTAL" label — computed instead of hardcoded so
@@ -1038,42 +1042,50 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
       {/* Grid or Centered layout depending on readingMode */}
       {readingMode === "poemas" ? (
         <div className="max-w-4xl mx-auto space-y-8 select-text">
-          {/* Poemas mode: Full page background illustration layout */}
           <div className={`w-full relative rounded-3xl overflow-hidden shadow-2xl border ${tc.border} ${tc.subtleCard} min-h-[60vh] flex flex-col justify-between`}>
-            {/* Background Illustration Container */}
             {chapter.illustration && (
               <div className="absolute inset-0 z-0">
-                <div className={`w-full h-full pointer-events-none select-none transition-all duration-1000 ${
-                  theme === "cosmic"
-                    ? "opacity-[0.55] mix-blend-screen"
-                    : theme === "sepia"
-                    ? "opacity-[0.45] mix-blend-multiply"
-                    : "opacity-[0.45] mix-blend-multiply"
-                }`}>
-                  <IllustrationViewer illustration={chapter.illustration} variant="background" language={language} />
+                <div
+                  className={`w-full h-full pointer-events-none select-none transition-all duration-1000 ${
+                    theme === "cosmic" ? "opacity-[0.55] mix-blend-screen" : theme === "sepia" ? "opacity-[0.45] mix-blend-multiply" : "opacity-[0.45] mix-blend-multiply"
+                  }`}
+                >
+                  <IllustrationViewer
+                    illustration={chapter.illustration}
+                    variant="background"
+                    language={language}
+                    aloneOpen={showPoemIllustrationAlone}
+                    onAloneClose={() => setShowPoemIllustrationAlone(false)}
+                  />
                 </div>
-                <div className={`absolute inset-0 bg-gradient-to-t transition-all duration-1000 ${
-                  theme === "cosmic"
-                    ? "from-[#0D0E12]/95 via-[#0D0E12]/60 to-[#0D0E12]/15"
-                    : theme === "sepia"
-                    ? "from-[#FAF6EE]/95 via-[#FAF6EE]/60 to-[#FAF6EE]/15"
-                    : theme === "campo"
-                    ? "from-[#F3EEE2]/95 via-[#F3EEE2]/60 to-[#F3EEE2]/15"
-                    : "from-[#F9F6F1]/95 via-[#F9F6F1]/60 to-[#F9F6F1]/15"
-                }`} />
+                <div
+                  className={`absolute inset-0 bg-gradient-to-t transition-all duration-1000 ${
+                    theme === "cosmic"
+                      ? "from-[#0D0E12]/95 via-[#0D0E12]/60 to-[#0D0E12]/15"
+                      : theme === "sepia"
+                      ? "from-[#FAF6EE]/95 via-[#FAF6EE]/60 to-[#FAF6EE]/15"
+                      : theme === "campo"
+                      ? "from-[#F3EEE2]/95 via-[#F3EEE2]/60 to-[#F3EEE2]/15"
+                      : "from-[#F9F6F1]/95 via-[#F9F6F1]/60 to-[#F9F6F1]/15"
+                  }`}
+                />
               </div>
             )}
-
-            {/* Poem Text Panel */}
+            {chapter.illustration && (
+              <button
+                onClick={() => setShowPoemIllustrationAlone(true)}
+                className="absolute top-4 right-4 z-20 inline-flex items-center gap-1.5 text-[11px] sm:text-xs text-amber-500/90 hover:text-amber-400 font-sans border border-amber-500/30 rounded-lg py-1.5 px-3 bg-slate-950/40 hover:bg-slate-950/60 backdrop-blur-sm transition-colors cursor-pointer"
+              >
+                🔍 {language === "en" ? "View illustration" : "Ver ilustración"}
+              </button>
+            )}
             <div className="relative z-10 p-8 sm:p-20 flex-1 flex flex-col items-center justify-center text-center">
               <motion.div
                 key={`content-${chapter.id}`}
                 initial={{ opacity: 0, y: 15 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.8, delay: 0.1 }}
-                className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-xl tracking-wide select-text text-left ${
-                  theme === "cosmic" ? "text-amber-100/90" : theme === "sepia" ? "text-[#2C1E11]" : "text-[#1A1A1A]"
-                }`}
+                className={`max-w-2xl mx-auto space-y-2 font-serif italic leading-relaxed sm:leading-loose text-base sm:text-xl tracking-wide select-text text-left ${tc.text}`}
               >
                 {displayContent.split("\n").map((line, lineIdx) => (
                   <div key={lineIdx}>
@@ -1083,9 +1095,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               </motion.div>
             </div>
 
-            {/* Reflection Journal Bitácora (Collapsible inside the poem view) */}
+            {/* Reflection Journal Bitácora (Collapsible below the poem) */}
             <div className="relative z-10 max-w-xl mx-auto w-full px-6 pb-6">
-              <details className={`group rounded-2xl border ${tc.border} bg-slate-950/20 backdrop-blur-sm p-4 transition-all duration-300`}>
+              <details className={`group rounded-2xl border ${tc.border} ${tc.subtleCard} p-4 transition-all duration-300`}>
                 <summary className={`flex items-center justify-between cursor-pointer select-none text-[10px] sm:text-xs font-semibold ${tc.text} tracking-wider font-display uppercase`}>
                   <div className="flex items-center gap-2">
                     <PenTool className={`w-3.5 h-3.5 ${tc.accent}`} />
