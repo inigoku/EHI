@@ -33,6 +33,7 @@ interface ChapterContentProps {
   language: Language;
   onOpenConstellation?: () => void;
   onOpenIllustratedOneShot?: () => void;
+  onOpenElQueQuedaOneShot?: () => void;
 }
 // Helper to detect if the main chapter illustration is already embedded inline in the text
 const isIllustrationDuplicate = (chapter: Chapter, readingMode: string): boolean => {
@@ -133,6 +134,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   language,
   onOpenConstellation,
   onOpenIllustratedOneShot,
+  onOpenElQueQuedaOneShot,
 }) => {
   const t = uiStrings[language].chapterContent;
   const displayTitle = language === "en" && chapter.titleEn ? chapter.titleEn : chapter.title;
@@ -1232,6 +1234,17 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
               >
                 💧 Leer la versión ilustrada de este cuento
+              </button>
+            </div>
+          )}
+
+          {chapter.id === "cuento16" && onOpenElQueQuedaOneShot && (
+            <div className="flex justify-center pt-2">
+              <button
+                onClick={onOpenElQueQuedaOneShot}
+                className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
+              >
+                🖥️ Leer la versión ilustrada de este cuento
               </button>
             </div>
           )}

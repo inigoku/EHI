@@ -11,6 +11,7 @@ import { PathLanding } from "./components/PathLanding";
 import { MangaReader } from "./components/MangaReader";
 import { mangaPages } from "./chapters/mangaPages";
 import { tarelAguaPages } from "./chapters/tarelAguaPages";
+import { elQuedaPages } from "./chapters/elQuedaPages";
 import { ReadingTheme, FontSize } from "./components/ReadingSettings";
 import { Language, uiStrings, getInitialLanguage, persistLanguage } from "./i18n";
 import { LanguageToggle } from "./components/LanguageToggle";
@@ -61,6 +62,10 @@ export default function App() {
   // lectura completa (como el manga), pero independiente de cualquier
   // reading mode existente — se abre y se cierra con su propio flag.
   const [showTarelAguaReader, setShowTarelAguaReader] = React.useState<boolean>(false);
+
+  // One-shot ilustrado de "El que queda": mismo patrón que el de arriba,
+  // otra experiencia de lectura independiente con su propio flag.
+  const [showElQueQuedaReader, setShowElQueQuedaReader] = React.useState<boolean>(false);
 
   // Settings states
   const [theme, setTheme] = React.useState<ReadingTheme>(() => {
@@ -342,6 +347,37 @@ export default function App() {
     );
   }
 
+  if (showElQueQuedaReader) {
+    // One-shot ilustrado independiente: no forma parte de ningún reading
+    // mode existente, así que se resuelve con su propio flag en vez de
+    // sumarse a la unión de readingMode.
+    const storedPageId = localStorage.getItem("el_que_queda_page_id");
+    const initialPageId =
+      (storedPageId && elQuedaPages.some((p) => p.id === storedPageId) ? storedPageId : undefined) ||
+      elQuedaPages[0].id;
+
+    return (
+      <MangaReader
+        pages={elQuedaPages}
+        initialPageId={initialPageId}
+        eyebrow="Lecturas Ilustradas · One-shot"
+        coverTitle="El que queda"
+        resolveChapterTitle={() => "El que queda"}
+        storageKey="el_que_queda_page_id"
+        onSwitchToText={() => {
+          setShowElQueQuedaReader(false);
+          setReadingMode("cuentos");
+          setActiveChapterId("cuento16");
+          setActivePathLanding(null);
+        }}
+        onExitHome={() => {
+          setShowElQueQuedaReader(false);
+          setReadingMode("home");
+        }}
+      />
+    );
+  }
+
   return (
     <div className={`min-h-screen flex flex-col font-serif transition-colors duration-300 ${getThemeBackgroundClass()}`}>
       {/* Top Banner (Header) - fixed, always visible (doesn't scroll with the text) */}
@@ -471,6 +507,7 @@ export default function App() {
               language={language}
               onOpenConstellation={() => setIsConstellationOpen(true)}
               onOpenIllustratedOneShot={() => setShowTarelAguaReader(true)}
+              onOpenElQueQuedaOneShot={() => setShowElQueQuedaReader(true)}
             />
           )}
         </main>
