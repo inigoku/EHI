@@ -52,6 +52,6 @@ if (!imagePart) {
   process.exit(1);
 }
 
-const outPath = new URL("../src/assets/images/poemas/glosario_intimo.png", import.meta.url);
+const outPath = new URL("../src/assets/images/poemas/clean_poema_glosario.png", import.meta.url);
 await writeFile(outPath, Buffer.from(imagePart.inlineData.data, "base64"));
 console.log("Guardada en", outPath.pathname);
