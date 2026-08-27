@@ -1,4 +1,5 @@
 import React from "react";
+import { createPortal } from "react-dom";
 import { motion, AnimatePresence } from "motion/react";
 import { X } from "lucide-react";
 import { Illustration } from "../chapters";
@@ -262,7 +263,61 @@ interface IllustrationViewerProps {
   illustration?: Illustration;
   variant?: "default" | "background";
   language?: "es" | "en";
+  /** For variant="background": externally controls a full-screen "illustration alone" modal. */
+  aloneOpen?: boolean;
+  onAloneClose?: () => void;
 }
+
+const AloneModal: React.FC<{
+  imgSrc: string;
+  title: string;
+  description?: string;
+  closeLabel: string;
+  onClose: () => void;
+}> = ({ imgSrc, title, description, closeLabel, onClose }) => (
+  <motion.div
+    initial={{ opacity: 0 }}
+    animate={{ opacity: 1 }}
+    exit={{ opacity: 0 }}
+    onClick={onClose}
+    className="fixed inset-0 z-50 bg-slate-950/95 backdrop-blur-md flex items-center justify-center p-4 cursor-zoom-out"
+  >
+    <button
+      onClick={(e) => {
+        e.stopPropagation();
+        onClose();
+      }}
+      className="absolute top-6 right-6 p-2.5 rounded-full bg-slate-900 border border-amber-500/20 text-gray-400 hover:text-amber-500 transition-colors cursor-pointer hover:border-amber-500/40 shadow-lg"
+      aria-label={closeLabel}
+    >
+      <X className="w-6 h-6" />
+    </button>
+
+    <motion.div
+      initial={{ y: 20, opacity: 0 }}
+      animate={{ y: 0, opacity: 1 }}
+      exit={{ y: 20, opacity: 0 }}
+      transition={{ delay: 0.1 }}
+      className="absolute bottom-6 left-5 right-5 sm:left-1/2 sm:-translate-x-1/2 sm:max-w-xl w-auto bg-slate-900/90 border border-amber-500/20 rounded-xl p-4 text-center backdrop-blur-sm pointer-events-none shadow-2xl"
+    >
+      <h4 className="font-display font-semibold text-amber-500 text-sm">{title}</h4>
+      {description && (
+        <p className="text-xs text-gray-400 font-sans mt-1.5 leading-relaxed">{description}</p>
+      )}
+    </motion.div>
+
+    <motion.img
+      initial={{ scale: 0.9, opacity: 0 }}
+      animate={{ scale: 1, opacity: 1 }}
+      exit={{ scale: 0.9, opacity: 0 }}
+      transition={{ type: "spring", damping: 25, stiffness: 200 }}
+      src={imgSrc}
+      alt={title}
+      className="max-w-full max-h-[80vh] object-contain rounded-2xl shadow-2xl border border-amber-500/10 pointer-events-auto select-none"
+      onClick={(e) => e.stopPropagation()}
+    />
+  </motion.div>
+);
 
 const imageMap: Record<string, string> = {
   tarel_agua_portada: imgTarelAguaPortada,
@@ -418,7 +473,7 @@ const imageMap: Record<string, string> = {
   poema_frialdad6: poemaFrialdad6,
 };
 
-export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration, variant = "default", language = "es" }) => {
+export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration, variant = "default", language = "es", aloneOpen = false, onAloneClose }) => {
   if (!illustration) return null;
 
   const zoomHint = language === "en" ? "Double click to enlarge" : "Doble clic para ampliar";
@@ -430,15 +485,31 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
   if (variant === "background") {
     if (!imgSrc) return null;
     return (
-      <motion.img
-        src={imgSrc}
-        alt={illustration.title}
-        className="w-full h-full object-cover select-none pointer-events-none"
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 1 }}
-        referrerPolicy="no-referrer"
-      />
+      <>
+        <motion.img
+          src={imgSrc}
+          alt={illustration.title}
+          className="w-full h-full object-cover select-none pointer-events-none"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1 }}
+          referrerPolicy="no-referrer"
+        />
+        {createPortal(
+          <AnimatePresence>
+            {aloneOpen && onAloneClose && (
+              <AloneModal
+                imgSrc={imgSrc}
+                title={illustration.title}
+                description={illustration.description}
+                closeLabel={closeLabel}
+                onClose={onAloneClose}
+              />
+            )}
+          </AnimatePresence>,
+          document.body
+        )}
+      </>
     );
   }
 
