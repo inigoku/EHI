@@ -13,6 +13,7 @@ import { mangaPages } from "./chapters/mangaPages";
 import { tarelAguaPages } from "./chapters/tarelAguaPages";
 import { elQuedaPages } from "./chapters/elQuedaPages";
 import { phiTrampaInterruptorPages } from "./chapters/phiTrampaInterruptorPages";
+import { sintonizadoresComicPages } from "./chapters/sintonizadoresComicPages";
 import { ReadingTheme, FontSize } from "./components/ReadingSettings";
 import { Language, uiStrings, getInitialLanguage, persistLanguage } from "./i18n";
 import { LanguageToggle } from "./components/LanguageToggle";
@@ -71,6 +72,10 @@ export default function App() {
   // One-shot ilustrado divulgativo de "La trampa del interruptor" (cap1 del
   // ensayo): mismo patrón que los dos anteriores, flag independiente.
   const [showPhiTrampaInterruptorReader, setShowPhiTrampaInterruptorReader] = React.useState<boolean>(false);
+
+  // One-shot ilustrado (línea clara, cómic de varias viñetas) de "Los
+  // sintonizadores": mismo patrón que los tres anteriores, flag independiente.
+  const [showSintonizadoresComicReader, setShowSintonizadoresComicReader] = React.useState<boolean>(false);
 
   // Settings states
   const [theme, setTheme] = React.useState<ReadingTheme>(() => {
@@ -414,6 +419,37 @@ export default function App() {
     );
   }
 
+  if (showSintonizadoresComicReader) {
+    // One-shot ilustrado independiente: no forma parte de ningún reading
+    // mode existente, así que se resuelve con su propio flag en vez de
+    // sumarse a la unión de readingMode.
+    const storedPageId = localStorage.getItem("sint_comic_page_id");
+    const initialPageId =
+      (storedPageId && sintonizadoresComicPages.some((p) => p.id === storedPageId) ? storedPageId : undefined) ||
+      sintonizadoresComicPages[0].id;
+
+    return (
+      <MangaReader
+        pages={sintonizadoresComicPages}
+        initialPageId={initialPageId}
+        eyebrow="Lecturas Ilustradas · One-shot"
+        coverTitle="Los sintonizadores"
+        resolveChapterTitle={() => "Los sintonizadores"}
+        storageKey="sint_comic_page_id"
+        onSwitchToText={() => {
+          setShowSintonizadoresComicReader(false);
+          setReadingMode("cuentos");
+          setActiveChapterId("cuento_sintonizadores");
+          setActivePathLanding(null);
+        }}
+        onExitHome={() => {
+          setShowSintonizadoresComicReader(false);
+          setReadingMode("home");
+        }}
+      />
+    );
+  }
+
   return (
     <div className={`min-h-screen flex flex-col font-serif transition-colors duration-300 ${getThemeBackgroundClass()}`}>
       {/* Top Banner (Header) - fixed, always visible (doesn't scroll with the text) */}
@@ -545,6 +581,7 @@ export default function App() {
               onOpenIllustratedOneShot={() => setShowTarelAguaReader(true)}
               onOpenElQueQuedaOneShot={() => setShowElQueQuedaReader(true)}
               onOpenPhiTrampaInterruptorOneShot={() => setShowPhiTrampaInterruptorReader(true)}
+              onOpenSintonizadoresComicOneShot={() => setShowSintonizadoresComicReader(true)}
             />
           )}
         </main>

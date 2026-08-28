@@ -35,6 +35,7 @@ interface ChapterContentProps {
   onOpenIllustratedOneShot?: () => void;
   onOpenElQueQuedaOneShot?: () => void;
   onOpenPhiTrampaInterruptorOneShot?: () => void;
+  onOpenSintonizadoresComicOneShot?: () => void;
 }
 // Helper to detect if the main chapter illustration is already embedded inline in the text
 const isIllustrationDuplicate = (chapter: Chapter, readingMode: string): boolean => {
@@ -137,6 +138,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   onOpenIllustratedOneShot,
   onOpenElQueQuedaOneShot,
   onOpenPhiTrampaInterruptorOneShot,
+  onOpenSintonizadoresComicOneShot,
 }) => {
   const t = uiStrings[language].chapterContent;
   const displayTitle = language === "en" && chapter.titleEn ? chapter.titleEn : chapter.title;
@@ -1176,6 +1178,17 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 className="inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 font-sans border border-amber-500/40 rounded-xl py-2.5 px-5 bg-amber-500/10 hover:bg-amber-500/20 transition-colors cursor-pointer shadow-md shadow-amber-500/10"
               >
                 🖥️ Leer la versión ilustrada de este cuento
+              </button>
+            </div>
+          )}
+
+          {chapter.id === "cuento_sintonizadores" && onOpenSintonizadoresComicOneShot && (
+            <div className="flex justify-center -mt-4">
+              <button
+                onClick={onOpenSintonizadoresComicOneShot}
+                className="inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 font-sans border border-amber-500/40 rounded-xl py-2.5 px-5 bg-amber-500/10 hover:bg-amber-500/20 transition-colors cursor-pointer shadow-md shadow-amber-500/10"
+              >
+                🌊 Leer la versión cómic de este cuento
               </button>
             </div>
           )}
