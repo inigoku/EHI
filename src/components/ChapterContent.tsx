@@ -1145,6 +1145,29 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             </div>
           )}
 
+          {/* Versión ilustrada (cómic): botón destacado al principio, antes del texto, para que sea fácil de ver */}
+          {chapter.id === "cuento1" && onOpenIllustratedOneShot && (
+            <div className="flex justify-center -mt-4">
+              <button
+                onClick={onOpenIllustratedOneShot}
+                className="inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 font-sans border border-amber-500/40 rounded-xl py-2.5 px-5 bg-amber-500/10 hover:bg-amber-500/20 transition-colors cursor-pointer shadow-md shadow-amber-500/10"
+              >
+                💧 Leer la versión ilustrada de este cuento
+              </button>
+            </div>
+          )}
+
+          {chapter.id === "cuento16" && onOpenElQueQuedaOneShot && (
+            <div className="flex justify-center -mt-4">
+              <button
+                onClick={onOpenElQueQuedaOneShot}
+                className="inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 font-sans border border-amber-500/40 rounded-xl py-2.5 px-5 bg-amber-500/10 hover:bg-amber-500/20 transition-colors cursor-pointer shadow-md shadow-amber-500/10"
+              >
+                🖥️ Leer la versión ilustrada de este cuento
+              </button>
+            </div>
+          )}
+
           {/* Main Story Content */}
           <div className={`p-6 sm:p-12 rounded-2xl border ${getThemeClasses()} ${getFontSizeClass()} shadow-md transition-all duration-300`}>
             <motion.div
@@ -1223,28 +1246,6 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 className="inline-flex items-center gap-1.5 max-w-full text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm whitespace-normal text-center leading-snug break-words"
               >
                 📖 {t.backToEssay}: "{getLinkedChapterTitle(chapter.linkedChapterId)}"
-              </button>
-            </div>
-          )}
-
-          {chapter.id === "cuento1" && onOpenIllustratedOneShot && (
-            <div className="flex justify-center pt-2">
-              <button
-                onClick={onOpenIllustratedOneShot}
-                className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
-              >
-                💧 Leer la versión ilustrada de este cuento
-              </button>
-            </div>
-          )}
-
-          {chapter.id === "cuento16" && onOpenElQueQuedaOneShot && (
-            <div className="flex justify-center pt-2">
-              <button
-                onClick={onOpenElQueQuedaOneShot}
-                className="inline-flex items-center gap-1.5 text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1.5 px-4 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer shadow-sm"
-              >
-                🖥️ Leer la versión ilustrada de este cuento
               </button>
             </div>
           )}
