@@ -99,18 +99,32 @@ export const MangaReader: React.FC<MangaReaderProps> = ({
           <ChevronLeft className="w-5 h-5 sm:w-6 sm:h-6" />
         </button>
 
-        <AnimatePresence mode="wait">
-          <motion.img
-            key={page.id}
-            src={page.src}
-            alt={isCover ? "Portada" : `Página ${page.pageNumber}`}
-            initial={{ opacity: 0, scale: 0.98 }}
-            animate={{ opacity: 1, scale: 1 }}
-            exit={{ opacity: 0, scale: 0.98 }}
-            transition={{ duration: 0.25 }}
-            className="max-h-full max-w-full sm:max-w-[70vh] w-auto h-auto object-contain rounded-lg border border-white/10 shadow-2xl shadow-black/60"
-          />
-        </AnimatePresence>
+        <div className="flex flex-col items-center gap-3 max-h-full max-w-full sm:max-w-[70vh]">
+          <AnimatePresence mode="wait">
+            <motion.img
+              key={`img-${page.id}`}
+              src={page.src}
+              alt={isCover ? "Portada" : `Página ${page.pageNumber}`}
+              initial={{ opacity: 0, scale: 0.98 }}
+              animate={{ opacity: 1, scale: 1 }}
+              exit={{ opacity: 0, scale: 0.98 }}
+              transition={{ duration: 0.25 }}
+              className={`max-w-full w-auto h-auto object-contain rounded-lg border border-white/10 shadow-2xl shadow-black/60 ${page.caption ? "max-h-[62vh]" : "max-h-full"}`}
+            />
+            {page.caption && (
+              <motion.p
+                key={`caption-${page.id}`}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                exit={{ opacity: 0, y: 8 }}
+                transition={{ duration: 0.25, delay: 0.1 }}
+                className="max-w-md text-center text-sm sm:text-base font-serif italic text-slate-200 leading-relaxed bg-slate-950/60 border border-white/10 rounded-xl px-4 py-3"
+              >
+                {page.caption}
+              </motion.p>
+            )}
+          </AnimatePresence>
+        </div>
 
         <button
           onClick={goNext}
