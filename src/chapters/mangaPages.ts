@@ -39,6 +39,8 @@ export interface MangaPage {
   chapterId: string;
   pageNumber: number;
   src: string;
+  /** Optional narration caption overlaid on the page (e.g. a line of the original prose). */
+  caption?: string;
 }
 
 export const mangaPages: MangaPage[] = [
