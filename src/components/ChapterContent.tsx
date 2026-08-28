@@ -34,6 +34,7 @@ interface ChapterContentProps {
   onOpenConstellation?: () => void;
   onOpenIllustratedOneShot?: () => void;
   onOpenElQueQuedaOneShot?: () => void;
+  onOpenPhiTrampaInterruptorOneShot?: () => void;
 }
 // Helper to detect if the main chapter illustration is already embedded inline in the text
 const isIllustrationDuplicate = (chapter: Chapter, readingMode: string): boolean => {
@@ -135,6 +136,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   onOpenConstellation,
   onOpenIllustratedOneShot,
   onOpenElQueQuedaOneShot,
+  onOpenPhiTrampaInterruptorOneShot,
 }) => {
   const t = uiStrings[language].chapterContent;
   const displayTitle = language === "en" && chapter.titleEn ? chapter.titleEn : chapter.title;
@@ -1029,6 +1031,16 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               className="inline-flex items-center gap-1.5 max-w-full text-xs text-amber-500 hover:text-amber-400 font-sans border border-amber-500/20 rounded-lg py-1 px-3 bg-amber-500/5 hover:bg-amber-500/10 transition-colors cursor-pointer whitespace-normal text-center leading-snug break-words"
             >
               📖 {t.readRelatedStory}: "{getLinkedCuentoTitle(chapter.linkedCuentosId)}"
+            </button>
+          </div>
+        )}
+        {readingMode === "essay" && chapter.id === "cap1" && onOpenPhiTrampaInterruptorOneShot && (
+          <div className="pt-2">
+            <button
+              onClick={onOpenPhiTrampaInterruptorOneShot}
+              className="inline-flex items-center gap-2 text-sm font-semibold text-amber-400 hover:text-amber-300 font-sans border border-amber-500/40 rounded-xl py-2.5 px-5 bg-amber-500/10 hover:bg-amber-500/20 transition-colors cursor-pointer shadow-md shadow-amber-500/10"
+            >
+              💡 Leer el cómic divulgativo de este capítulo
             </button>
           </div>
         )}
