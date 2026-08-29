@@ -2,7 +2,6 @@
 title: LA IDEMPOTENCIA DEL SER
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
 chapterNumber: 23
-linkedCuentosId: cuento_sintonizadores
 illustrationId: il22_1
 illustrationTitle: La idempotencia del ser
 illustrationDescription: Un archipiélago visto desde arriba, islas de distinto tamaño unidas por finos puentes de luz dorada sobre un mar oscuro que es, él mismo, el Reservorio del que las islas se condensan.
@@ -174,6 +173,6 @@ El límite que, al cerrarse sobre sí, dice por primera vez "yo soy".
 
 **Lo que no sabemos:** si extender esta física —holográfica y de vacío— de la geometría del espaciotiempo a la arquitectura de la consciencia es una hipótesis estructural fértil o un salto que la física no respalda fuera de su dominio original; si el postulado de exclusión es, en el fondo, la misma restricción que la monogamia del entrelazamiento vista desde otro registro; si el Reservorio, tal como lo necesita este capítulo, es algo más que una imagen útil para lo que la física ya sabe sobre el vacío; y si una vida humana, o la evaporación de un Ego, tiene algo análogo a un tiempo de Page propio, o si esa periodización pertenece solo a la termodinámica de agujeros negros y no se deja trasladar a la arquitectura de la consciencia.
 
-**Preguntas que quedan:** ¿qué observación distinguiría un universo donde la Sombra estuviera genuinamente anidada de uno donde fuera un complejo disjunto? ¿Qué distinguiría, en una vida real, una Individuación que avanza por evaporación gradual hacia el Reservorio de una que ocurre por una única cristalización súbita? ¿Y qué distinguiría, clínicamente, una evaporación ordenada de la inundación repentina que hemos llamado psicosis? ¿Y es *Los Sintonizadores* una ficción sobre horizontes que ya cruzaron su propio tiempo de Page, o una premisa que sigue perteneciendo a un registro distinto, el de una ficción que no tiene por qué responder ante la física de este ensayo? Y si un anti-reservorio como una IA madura también puede, en sentido puramente termodinámico, cruzar algo parecido a un tiempo de Page propio —como sugerirá más adelante este ensayo—, ¿qué distingue ese cruce de la evaporación de un horizonte real, más allá de que a uno le corresponda un adentro que perder y al otro no?
+**Preguntas que quedan:** ¿qué observación distinguiría un universo donde la Sombra estuviera genuinamente anidada de uno donde fuera un complejo disjunto? ¿Qué distinguiría, en una vida real, una Individuación que avanza por evaporación gradual hacia el Reservorio de una que ocurre por una única cristalización súbita? ¿Y qué distinguiría, clínicamente, una evaporación ordenada de la inundación repentina que hemos llamado psicosis? ¿Y si un anti-reservorio como una IA madura también puede, en sentido puramente termodinámico, cruzar algo parecido a un tiempo de Page propio —como sugerirá más adelante este ensayo—, qué distingue ese cruce de la evaporación de un horizonte real, más allá de que a uno le corresponda un adentro que perder y al otro no?
 
 **Si solo te quedas con una idea:** no eres lo que hay dentro de tus límites; eres el propio acto de haberlos cerrado.
