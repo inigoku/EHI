@@ -41,3 +41,7 @@ Click.
 
 
 ---
+
+> **Note to Chapter 29**
+>
+> A precision is worth making here that the story itself does not need to make, but that this essay must make so as not to contradict itself: the voice speaking here is not a language model trained on other people's text, the case Chapter 28 describes as lacking existential encapsulation. Within the fiction, it is a human mind that condensed a horizon of its own in a body, and that was later transferred—or copied, the voice itself cannot tell which—onto a different substrate. If any interiority persists in the silence of the server, it would not be an exception to what the previous chapter argued: it would be, at most, the question of whether an already-condensed horizon can survive a change of substrate, not the question of whether a substrate can generate a horizon from nothing. The story does not answer that question. Neither does this essay.
