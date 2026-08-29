@@ -235,4 +235,4 @@ Es por esa singularidad —no por la física, que aquí ya calla— por lo que l
 >
 > **Si solo te quedas con una idea:** Una máquina puede imitar la forma de la conciencia sin tenerla, y una red puede tener toda la información del mundo sin ser nadie. La conciencia no es imitación ni acumulación: es condensación.
 >
-> **Lecturas:** Chalmers, D. — *The Conscious Mind* (1996); Tononi, G. — *Phi: A Voyage from the Brain to the Soul* (2012); Searle, J. — "Minds, Brains, and Programs" (1980); Deacon, T. — *Incomplete Nature* (2011).
+> **Lecturas:** Chalmers, D. — *The Conscious Mind* (1996); Tononi, G. — *Phi: A Voyage from the Brain to the Soul* (2012); Searle, J. — "Minds, Brains, and Programs" (1980); Deacon, T. — *Incomplete Nature* (2011); Fernández Mallo, A. — *El ángel de la Inteligencia Artificial* (Galaxia Gutenberg, 2026).
