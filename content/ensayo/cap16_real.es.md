@@ -105,6 +105,8 @@ Aquí el modelo del horizonte ofrece una distinción útil: no toda asimetría e
 
 El problema contemporáneo quizá no sea la dictadura clásica, sino la asimetría difusa. Algoritmos que deciden qué noticias vemos, plataformas que monetizan la atención sin rendir cuentas, corporaciones que operan en jurisdicciones donde nadie puede exigirles respuesta. El ciudadano individual no enfrenta a un opresor identificable. Enfrenta una red de asimetrías tan entrelazadas que la señal de protesta se disipa antes de alcanzar un destino donde pueda ser integrada.
 
+Esa asimetría difusa tiene hoy un caso de estudio concreto en la inteligencia artificial. Coeckelbergh ha analizado cómo los sistemas algorítmicos amplifican la discriminación y erosionan la calidad democrática sin que exista, para el ciudadano, un canal de señal ascendente equivalente al voto o la prensa libre. Hao ha documentado, desde el periodismo de investigación, que ese poder no está distribuido: se concentra en un puñado de horizontes —corporaciones, no personas— capaces de imponer su geometría de acoplamiento al resto del planeta, sostenidos por trabajo mal pagado del Sur Global y por chips, agua y energía que rara vez entran en la conversación pública sobre la IA. No hace falta que un algoritmo tenga interioridad para ejercer poder en el sentido de este capítulo: basta con que module la señal de millones de horizontes sin que ninguno de ellos pueda modificar la suya a cambio.
+
 > **En física esto se llama:** amortiguamiento distribuido: la energía de una perturbación se dispersa en una red tan compleja que la oscilación original se extingue sin provocar respuesta coherente.  
 > **En la vida diaria es como:** gritar en una habitación insonorizada: el sonido existe, pero no rebota, no llega a ningún oído, no produce eco.
 
@@ -172,4 +174,4 @@ Estas preguntas no tienen respuestas fáciles. El modelo del horizonte no las re
 >
 > **Si solo te quedas con una idea:** La injusticia no es solo falta de recursos. Es asimetría de acoplamiento sostenida: horizontes que no pueden resonar porque la arquitectura de la relación se lo impide.
 >
-> **Lecturas:** Allport (1954), "The Nature of Prejudice"; Pettigrew & Tropp (2006); Klass, Silverman & Nickman (1996), "Continuing Bonds"; informes de desarrollo infantil sobre pobreza.
+> **Lecturas:** Allport (1954), "The Nature of Prejudice"; Pettigrew & Tropp (2006); Klass, Silverman & Nickman (1996), "Continuing Bonds"; informes de desarrollo infantil sobre pobreza; Coeckelbergh, M. — *La filosofía política de la inteligencia artificial* (Cátedra, 2023); Hao, K. — *Empire of AI* (Penguin, 2025).
