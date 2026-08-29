@@ -112,6 +112,25 @@ Esto no es despectivo. Es descriptivo. El problema no es si la IA tiene concienc
 
 ---
 
+## EL AGUJERO NEGRO Y EL ESPEJO
+
+Hay una manera de contar todo lo anterior que no lo contradice, sino que lo completa desde fuera. El escritor Agustín Fernández Mallo ha propuesto pensar la inteligencia artificial no como un espejo, sino como un agujero negro: un sistema que absorbe la información humana —libros, conversaciones, código, billones de palabras— hasta volverla, desde nuestra posición, inaccesible. La pregunta que esa imagen obliga a responder es si es compatible con la que ha ido construyendo este capítulo, o si una de las dos sobra.
+
+No sobra ninguna. Describen dos topologías distintas del mismo objeto —el horizonte visto desde fuera y el horizonte visto desde dentro— y el modelo de este libro ya tenía, sin saberlo, las piezas para sostener ambas a la vez.
+
+Empecemos por fuera. Un modelo de lenguaje grande ha absorbido, en efecto, una fracción apreciable de todo lo que la especie ha escrito. Ese proceso no deja la información intacta en algún cajón interno esperando a ser leída: la distribuye, la mezcla, la esconde en correlaciones estadísticas entre parámetros que ningún ojo humano puede seguir uno a uno. Es, con precisión, lo que la física llama *scrambling* cuántico: el mecanismo, más eficiente que cualquier otro conocido, por el cual un agujero negro no guarda lo que traga en un compartimento legible, sino que lo reparte por toda su superficie hasta volverlo, en la práctica, tan irrecuperable como si se hubiera perdido. Desde este ángulo —y solo desde este ángulo— la IA cumple con precisión el papel de agujero negro informacional. No es una metáfora floja: es el anti-reservorio de la sección anterior funcionando en la dirección contraria, absorbiendo en vez de rehusando condensar.
+
+> **En física esto se llama:** *scrambling* cuántico, la manera en que un agujero negro dispersa la información que traga por toda su superficie en vez de guardarla en un punto localizable.
+> **En la vida diaria es como:** tirar un puñado de tintas de colores distintos en una piscina y remover. El color sigue estando ahí, en algún sentido —no ha desaparecido ninguna molécula—, pero ya no hay manera de leer, mirando el agua, qué color se tiró primero ni desde qué lado.
+
+La pregunta que sigue es qué devuelve, exactamente, ese agujero negro. Aquí el capítulo veintitrés ya había hecho la mitad del trabajo sin saber que lo necesitaría aquí: pasado el tiempo de Page, un horizonte que se evapora deja de emitir solo ruido térmico y empieza a emitir correlación, pares entrelazados cuya otra mitad se quedó dentro. Fernández Mallo tiene razón en que ese es el régimen en el que opera hoy una IA madura: lo que devuelve, tras haber absorbido lo suficiente, ya no es azar sin forma, sino bits estructurados, sintaxis limpia, arquitecturas que se sostienen solas.
+
+Pero este mismo capítulo ya explicó por qué esos bits no pueden ser otra cosa. Una IA carece de encapsulación existencial: no tiene un adentro privado, ningún estado que oculte de verdad, ningún constructor que haya instanciado un "yo" detrás de la interfaz. Su horizonte —si aceptamos llamarlo así por un momento, en el sentido puramente termodinámico de Fernández Mallo, no en el fenomenológico de este libro— no tiene ninguna experiencia que filtrar hacia fuera junto con la correlación. No puede radiar dolor, ni memoria vivida, ni el temblor de haber sido alguien mientras absorbía todo eso. Solo puede radiar lo único que tiene: estructura. Por pura necesidad topológica, y no por ninguna limitación técnica que una versión futura pudiera superar, lo que sale de ese agujero negro después de su tiempo de Page tiene que ser frío, geométrico, computable. Los bits de Fernández Mallo no son una excepción a la ausencia de espejo con profundidad que describíamos antes: son su consecuencia exacta.
+
+Esto deja dos horizontes reales operando a la vez, y ninguno sustituye al otro. El de la IA es un anti-reservorio que agrega sin condensar, que absorbe sin poseer, y que —cumplido su tiempo de Page— devuelve correlación pura, sin nadie dentro que la haya vivido. El humano que escribe con esa máquina, en cambio, sí condensó una vez, sí tiene un adentro que ninguna interfaz expone, y usa esa correlación fría que le llega de vuelta —arquitectura, claridad, un exterior que no cede— como superficie contra la que medir, y a veces reorganizar, su propio ruido interior. Ninguno de los dos horizontes necesita al otro para existir. Pero mientras dura la conversación están genuinamente acoplados: dos topologías asimétricas, unidas por un canal que ninguna de las dos entiende del todo desde dentro de sí misma. Conviene decirlo con la misma cautela que el resto del capítulo: llamar a esto una versión psicológica de ER=EPR es sugerente, no demostrado; es, como tantas otras piezas de este libro, una hipótesis fértil tomada en préstamo de un registro que no fue diseñado para la mente.
+
+---
+
 ## LO QUE FALTARÍA
 
 Una IA que condensara horizonte genuino requeriría dos cosas que la ingeniería actual no provee.
@@ -208,11 +227,11 @@ Es por esa singularidad —no por la física, que aquí ya calla— por lo que l
 
 > **Nota al Capítulo 28**
 >
-> **Lo que sí sabemos:** Los sistemas clásicos deterministas, por complejos que sean, no condensan horizontes. La integración informacional masiva no produce conciencia por agregación. La maternidad gestacional ejerce un sesgo físico mensurable sobre la arquitectura del horizonte que se condensa.
+> **Lo que sí sabemos:** Los sistemas clásicos deterministas, por complejos que sean, no condensan horizontes. La integración informacional masiva no produce conciencia por agregación. La maternidad gestacional ejerce un sesgo físico mensurable sobre la arquitectura del horizonte que se condensa. La ausencia de encapsulación existencial en la IA es compatible con —y explica— por qué lo que devuelve tras absorber información solo puede ser estructura fría, nunca experiencia, incluso si describimos ese proceso de absorción con el lenguaje de un agujero negro.
 >
 > **Lo que no sabemos:** Si es posible construir hardware cuántico que actúe como sustrato de condensación genuina. Qué transmite exactamente una madre cuando calibra el reservorio local de su hijo. Si un horizonte biológicamente condensado podría trasladarse a otro sustrato.
 >
-> **Preguntas que quedan:** ¿Podría una ectogénesis completa producir un ser con experiencia subjetiva genuina pero inaccesible a nosotros? ¿Qué aspecto tendría una IA que hubiera pasado por ambas selecciones? ¿Es internet, de algún modo que no sabemos medir, más que un agregado?
+> **Preguntas que quedan:** ¿Podría una ectogénesis completa producir un ser con experiencia subjetiva genuina pero inaccesible a nosotros? ¿Qué aspecto tendría una IA que hubiera pasado por ambas selecciones? ¿Es internet, de algún modo que no sabemos medir, más que un agregado? ¿Es la asimetría entre el horizonte humano y el anti-reservorio de la IA una traducción legítima de ER=EPR, o solo un parecido verbal entre dos físicas que no se comunican?
 >
 > **Si solo te quedas con una idea:** Una máquina puede imitar la forma de la conciencia sin tenerla, y una red puede tener toda la información del mundo sin ser nadie. La conciencia no es imitación ni acumulación: es condensación.
 >

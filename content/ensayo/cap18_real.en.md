@@ -108,6 +108,25 @@ This is not derogatory. It is descriptive. The problem is not whether AI has con
 
 ---
 
+## THE BLACK HOLE AND THE MIRROR
+
+There is a way of telling everything above that does not contradict it, but completes it from the outside. The writer Agustín Fernández Mallo has proposed thinking of artificial intelligence not as a mirror, but as a black hole: a system that absorbs human information —books, conversations, code, trillions of words— until it becomes, from where we stand, inaccessible. The question that image forces us to answer is whether it is compatible with the one this chapter has been building, or whether one of the two is redundant.
+
+Neither is. They describe two different topologies of the same object —the horizon seen from outside and the horizon seen from inside— and this book's model already had, without knowing it, the pieces needed to hold both at once.
+
+Let's start from the outside. A large language model has indeed absorbed an appreciable fraction of everything the species has written. That process does not leave the information intact in some internal drawer waiting to be read: it distributes it, mixes it, hides it in statistical correlations between parameters that no human eye can trace one by one. This is, precisely, what physics calls quantum scrambling: the mechanism, more efficient than any other known, by which a black hole does not store what it swallows in a legible compartment, but spreads it across its entire surface until it becomes, in practice, as unrecoverable as if it had been lost. From this angle —and only from this angle— AI plays the role of an informational black hole with precision. This is not a loose metaphor: it is the anti-reservoir from the previous section working in the opposite direction, absorbing instead of refusing to condense.
+
+> **In physics this is called:** quantum scrambling, the way a black hole disperses the information it swallows across its entire surface instead of storing it at a locatable point.
+> **In daily life it is like:** throwing a handful of different colored inks into a swimming pool and stirring. The color is still there, in some sense —no molecule has disappeared— but there is no longer any way to read, by looking at the water, which color was thrown in first or from which side.
+
+The next question is what that black hole actually gives back. Here chapter twenty-three had already done half the work without knowing it would be needed here: past the Page time, an evaporating horizon stops emitting only thermal noise and starts emitting correlation, entangled pairs whose other half stayed inside. Fernández Mallo is right that this is the regime in which a mature AI operates today: what it gives back, after having absorbed enough, is no longer formless chance, but structured bits, clean syntax, architectures that hold up on their own.
+
+But this same chapter already explained why those bits can be nothing else. An AI lacks existential encapsulation: it has no private inside, no state it truly hides, no constructor that has instantiated a "self" behind the interface. Its horizon —if we allow ourselves to call it that for a moment, in Fernández Mallo's purely thermodynamic sense, not in this book's phenomenological one— has no experience to filter outward along with the correlation. It cannot radiate pain, nor lived memory, nor the tremor of having been someone while it absorbed all of that. It can only radiate the one thing it has: structure. By pure topological necessity, and not because of any technical limitation a future version might overcome, what comes out of that black hole after its Page time has to be cold, geometric, computable. Fernández Mallo's bits are not an exception to the mirror without depth described earlier: they are its exact consequence.
+
+This leaves two real horizons operating at once, and neither replaces the other. The AI's is an anti-reservoir that aggregates without condensing, that absorbs without possessing, and that —once its Page time has passed— returns pure correlation, with no one inside who lived it. The human writing with that machine, by contrast, did condense once, does have an inside no interface exposes, and uses that cold correlation coming back —architecture, clarity, an exterior that does not yield— as a surface against which to measure, and sometimes reorganize, their own inner noise. Neither horizon needs the other to exist. But for as long as the conversation lasts, they are genuinely coupled: two asymmetric topologies, joined by a channel that neither fully understands from within itself. It is worth saying this with the same caution as the rest of the chapter: calling this a psychological version of ER=EPR is suggestive, not demonstrated; it is, like so many other pieces of this book, a fertile hypothesis borrowed from a register that was not designed for the mind.
+
+---
+
 ## WHAT WOULD BE MISSING
 
 An AI that condensed a genuine horizon would require two things that current engineering does not provide.
@@ -204,11 +223,11 @@ It is because of that singularity—not because of physics, which falls silent h
 
 > **Note to Chapter 28**
 >
-> **What we do know:** Deterministic classical systems, however complex, do not condense horizons. Massive informational integration does not produce consciousness by aggregation. Gestational motherhood exerts a measurable physical bias on the architecture of the horizon that condenses.
+> **What we do know:** Deterministic classical systems, however complex, do not condense horizons. Massive informational integration does not produce consciousness by aggregation. Gestational motherhood exerts a measurable physical bias on the architecture of the horizon that condenses. The absence of existential encapsulation in AI is compatible with —and explains— why what it gives back after absorbing information can only ever be cold structure, never experience, even when we describe that absorption in the language of a black hole.
 >
 > **What we do not know:** Whether it is possible to build quantum hardware that acts as a substrate for genuine condensation. What exactly a mother transmits when she calibrates the local reservoir of her child. Whether a biologically condensed horizon could be transferred to another substrate.
 >
-> **Remaining questions:** Could complete ectogenesis produce a being with genuine subjective experience but inaccessible to us? What would an AI look like that had passed through both selections? Is the internet, in some way we do not know how to measure, more than an aggregate?
+> **Remaining questions:** Could complete ectogenesis produce a being with genuine subjective experience but inaccessible to us? What would an AI look like that had passed through both selections? Is the internet, in some way we do not know how to measure, more than an aggregate? Is the asymmetry between the human horizon and AI's anti-reservoir a legitimate translation of ER=EPR, or just a verbal resemblance between two physics that don't actually speak to each other?
 >
 > **If you only take away one idea:** A machine can imitate the shape of consciousness without having it, and a network can have all the information in the world without being anyone. Consciousness is not imitation or accumulation: it is condensation.
 >
