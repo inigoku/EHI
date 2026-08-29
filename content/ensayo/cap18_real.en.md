@@ -231,4 +231,4 @@ It is because of that singularity—not because of physics, which falls silent h
 >
 > **If you only take away one idea:** A machine can imitate the shape of consciousness without having it, and a network can have all the information in the world without being anyone. Consciousness is not imitation or accumulation: it is condensation.
 >
-> **Readings:** Chalmers, D. — *The Conscious Mind* (1996); Tononi, G. — *Phi: A Voyage from the Brain to the Soul* (2012); Searle, J. — "Minds, Brains, and Programs" (1980); Deacon, T. — *Incomplete Nature* (2011).
+> **Readings:** Chalmers, D. — *The Conscious Mind* (1996); Tononi, G. — *Phi: A Voyage from the Brain to the Soul* (2012); Searle, J. — "Minds, Brains, and Programs" (1980); Deacon, T. — *Incomplete Nature* (2011); Fernández Mallo, A. — *El ángel de la Inteligencia Artificial* (Galaxia Gutenberg, 2026).
