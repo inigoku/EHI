@@ -100,6 +100,8 @@ Here the horizon model offers a useful distinction: not all asymmetry is tyranni
 
 The contemporary problem is perhaps not the classic dictatorship, but diffuse asymmetry. Algorithms that decide what news we see, platforms that monetize attention without accountability, corporations that operate in jurisdictions where no one can demand a response from them. The individual citizen does not face an identifiable oppressor. They face a network of asymmetries so entangled that the signal of protest dissipates before reaching a destination where it can be integrated.
 
+That diffuse asymmetry has, today, a concrete case study in artificial intelligence. Coeckelbergh has analyzed how algorithmic systems amplify discrimination and erode democratic quality without the citizen having any upward signal channel equivalent to the vote or a free press. Hao has documented, through investigative journalism, that this power is not distributed: it is concentrated in a handful of horizons —corporations, not people— capable of imposing their coupling geometry on the rest of the planet, sustained by underpaid labor from the Global South and by chips, water, and energy that rarely enter the public conversation about AI. An algorithm does not need interiority to exercise power in this chapter's sense: it is enough that it modulate the signal of millions of horizons without any of them being able to modify its own in return.
+
 > **In physics this is called:** distributed damping: the energy of a perturbation disperses in a network so complex that the original oscillation extinguishes without provoking a coherent response.  
 > **In daily life it is like:** shouting in a soundproof room: the sound exists, but it does not bounce, it reaches no ear, it produces no echo.
 
@@ -167,4 +169,4 @@ These questions do not have easy answers. The horizon model does not resolve the
 >
 > **If you only take away one idea:** Injustice is not just a lack of resources. It is sustained coupling asymmetry: horizons that cannot resonate because the architecture of the relationship prevents it.
 >
-> **Readings:** Allport (1954), "The Nature of Prejudice"; Pettigrew & Tropp (2006); Klass, Silverman & Nickman (1996), "Continuing Bonds"; child development reports on poverty.
+> **Readings:** Allport (1954), "The Nature of Prejudice"; Pettigrew & Tropp (2006); Klass, Silverman & Nickman (1996), "Continuing Bonds"; child development reports on poverty; Coeckelbergh, M. — *La filosofía política de la inteligencia artificial* (Cátedra, 2023); Hao, K. — *Empire of AI* (Penguin, 2025).

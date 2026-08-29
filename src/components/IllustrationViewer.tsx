@@ -353,6 +353,7 @@ const imageMap: Record<string, string> = {
   il17: img17,
   il18: img18,
   il19: img19,
+  il22: imgNotas, // Inline "## [ILUSTRACIÓN 22: ...]" marker resolves to "il22"; same image as il_notas.
   il23: img23,
   il_alzheimer: imgAlzheimer,
   il_parkinson: imgParkinson,

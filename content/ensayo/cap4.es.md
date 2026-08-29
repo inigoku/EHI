@@ -136,7 +136,7 @@ Y tú —esta conciencia particular que lee estas palabras en este instante— e
 >
 > **Lo que sí sabemos:** El vacío cuántico ejerce fuerza real (efecto Casimir, verificado experimentalmente). Las tres tradiciones —física, taoísmo, vedanta— describen algo estructuralmente similar: un campo activo anterior a toda forma. La condensación de Bose-Einstein demuestra que la coherencia puede emerger de forma no constructiva.
 >
-> **Lo que no sabemos:** Si el vacío cuántico es "conciencia" en ningún sentido que las tradiciones reconozcan. Hun Dun no es campo cuántico. Brahman no es función de onda. La convergencia es resonancia, no identidad.
+> **Lo que no sabemos:** Si el vacío cuántico es "conciencia" en ningún sentido que las tradiciones reconozcan. Hun Dun no es campo cuántico. Brahman no es función de onda. La convergencia es resonancia, no identidad. Y algo metodológico que conviene marcar aquí con la misma honestidad con que este ensayo etiqueta otros préstamos filosóficos: si la "plenitud sin forma" es una descripción ontológica o solo la imagen más accesible para presentar lo que el capítulo 23 define con rigor —el Reservorio como complemento de la unión de todas las clausuras ya condensadas, R = X \ ⋃ᵢ Eᵢ—. Esa definición no presupone plenitud ni vacío: presupone solo lo que todavía no se ha cerrado. Hun Dun y Brahman ilustran esa idea; no la sostienen.
 >
 > **Preguntas que quedan:** ¿Es la convergencia evidencia mutua o seducción de la matemática compartida? ¿Puede la física "demostrar" el misticismo? ¿Qué ocurre con la información del horizonte cuando retorna al reservorio —se pierde, se conserva, se transforma?
 >

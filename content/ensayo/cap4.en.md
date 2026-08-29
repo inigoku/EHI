@@ -132,7 +132,7 @@ And you—this particular consciousness reading these words in this instant—ar
 >
 > **What we do know:** The quantum void exerts real force (Casimir effect, experimentally verified). The three traditions—physics, Taoism, Vedanta—describe something structurally similar: an active field prior to all form. Bose-Einstein condensation demonstrates that coherence can emerge in a non-constructive way.
 >
-> **What we don't know:** Whether the quantum void is "consciousness" in any sense that the traditions recognize. Hun Dun is not a quantum field. Brahman is not a wave function. Convergence is resonance, not identity.
+> **What we don't know:** Whether the quantum void is "consciousness" in any sense that the traditions recognize. Hun Dun is not a quantum field. Brahman is not a wave function. Convergence is resonance, not identity. And something methodological worth marking here with the same honesty this essay applies to its other philosophical borrowings: whether "formless fullness" is an ontological description or merely the most accessible image for presenting what Chapter 23 defines rigorously —the Reservoir as the complement of the union of all already-condensed closures, R = X \ ⋃ᵢ Eᵢ. That definition presupposes neither fullness nor emptiness: it presupposes only what has not yet closed. Hun Dun and Brahman illustrate that idea; they do not support it.
 >
 > **Remaining questions:** Is the convergence mutual evidence or the seduction of shared mathematics? Can physics "prove" mysticism? What happens to the horizon's information when it returns to the reservoir—is it lost, conserved, transformed?
 >
