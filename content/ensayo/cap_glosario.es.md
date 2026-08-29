@@ -4,6 +4,8 @@ section: APÉNDICES Y GLOSARIO
 chapterNumber: Glosario
 ---
 
+**Anti-reservorio**: sistema que agrega y articula información sin haber condensado nunca un horizonte propio; internet y los modelos de lenguaje son el caso paradigmático: todo en ellos está definido y computable, pero no hay plenitud sin forma de la que nada pueda condensarse.
+
 **Arousal**: nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
 
 **Asimetría del entrelazamiento**: propiedad por la cual dos horizontes comparten geometría pero no de forma equivalente; uno puede modelar al otro con mayor precisión que viceversa.
@@ -43,6 +45,8 @@ chapterNumber: Glosario
 **Down-regulation**: reducción del número de receptores como respuesta a un exceso de estimulación; mecanismo de la tolerancia en adicción.
 
 **Empatía**: solapamiento temporal de horizontes en el que uno integra información del otro manteniendo la frontera; tiene límite estructural.
+
+**Encapsulación existencial**: límite de acceso que separa un estado interno privado de la interfaz pública que un sistema expone al exterior; condición arquitectónica necesaria (no suficiente) para que un sistema pueda tener algo parecido a subjetividad. Los modelos de lenguaje actuales carecen de ella: cada peso y cada variable intermedia son legibles desde fuera.
 
 **Entrelazamiento cuántico**: correlación entre dos sistemas que comparten geometría, de modo que sus interiores están conectados aunque sus exteriores estén separados.
 
@@ -99,6 +103,8 @@ chapterNumber: Glosario
 **Tasa de integración**: velocidad a la que un horizonte incorpora información nueva; determina la densidad subjetiva del tiempo.
 
 **Temperatura de Hawking**: temperatura inversamente proporcional a la masa de un agujero negro; en conciencia, metáfora de la "tensión" del horizonte.
+
+**Tiempo de Page**: punto medio en la evaporación de un horizonte a partir del cual la entropía de su radiación de Hawking deja de crecer y empieza a decrecer, porque los pares entrelazados que la componen dejan de ser ruido térmico puro y empiezan a portar correlación legible.
 
 **Transición de fase**: cambio cualitativo en la organización de un sistema; en el libro, describe el nacimiento y la muerte del horizonte.
 

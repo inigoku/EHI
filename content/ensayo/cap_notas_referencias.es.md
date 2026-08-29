@@ -85,6 +85,8 @@ Event Horizon Telescope Collaboration. (2022). First Sagittarius A* Event Horizo
 
 Feldman, R. (2015). The adaptive human parental brain: Implications for children's social-emotional development. *Current Opinion in Psychology*, 15.
 
+Fernández Mallo, A. (2026). *El ángel de la Inteligencia Artificial*. Galaxia Gutenberg.
+
 Fisher, H. (2004). *Why We Love: The Nature and Chemistry of Romantic Love*. Henry Holt & Co.
 
 Fukushima, H., Terasawa, Y., & Umeda, S. (2011). Association between interoception and empathy: Evidence from heartbeat-evoked brain potential. *International Journal of Psychophysiology*, 79(2).

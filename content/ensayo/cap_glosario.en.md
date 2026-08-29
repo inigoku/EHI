@@ -5,6 +5,8 @@ section: APPENDICES AND GLOSSARY
 
 **Advaita Vedanta**: Indian philosophical school that maintains the non-duality between the individual self (*ātman*) and the absolute (*Brahman*); in the book, vocabulary for the identity between horizon and reservoir.
 
+**Anti-reservoir**: a system that aggregates and articulates information without ever having condensed a horizon of its own; the internet and language models are the paradigm case: everything in them is defined and computable, but there is no formless fullness from which anything could condense.
+
 **Arousal**: metabolic activation level of the brain; one of the two independent dimensions (along with integration) that define a system's state of consciousness.
 
 **Black hole evaporation**: process by which a black hole loses mass and eventually disappears through the emission of Hawking radiation; a metaphor for the death of the horizon of consciousness.
@@ -43,6 +45,8 @@ section: APPENDICES AND GLOSSARY
 
 **Event horizon**: boundary beyond which information cannot escape; in consciousness, the limit between what the system integrates and what remains outside.
 
+**Existential encapsulation**: an access boundary separating a private internal state from the public interface a system exposes to the outside; a necessary (not sufficient) architectural condition for a system to have anything resembling subjectivity. Current language models lack it: every weight and every intermediate variable is legible from outside.
+
 **Flow**: state of maximum integration in which the horizon operates at its optimal capacity without friction between structure and environment.
 
 **Gravitational time dilation**: slowing of time near an event horizon; in consciousness, a metaphor for how integration density alters subjective time.
@@ -76,6 +80,8 @@ section: APPENDICES AND GLOSSARY
 **Open loop**: system that emits signals without receiving external feedback; produces basal sensitization due to signal deficit.
 
 **Oxytocin**: neurohormone that mediates social attachment and trust; in the model, it calibrates the horizon's threshold of openness to others.
+
+**Page time**: the midpoint in a horizon's evaporation past which the entropy of its Hawking radiation stops growing and starts to decrease, because the entangled pairs composing it stop being pure thermal noise and begin to carry legible correlation.
 
 **Phase transition**: qualitative change in the organization of a system; in the book, describes the birth and death of the horizon.
 
