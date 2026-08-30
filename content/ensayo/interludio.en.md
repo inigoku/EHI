@@ -38,6 +38,14 @@ That means there are two possible directions from wakefulness. One downwards—s
 
 ---
 
+## The interface of causality
+
+David Hume had already seen this with a clarity contemporary neuroscience sometimes forgets: we never perceive the fabric of causality itself, only the constant conjunction of events through our own interface. We know that low arousal and high integration coincide in deep meditation: that is a measurable, repeatable fact, a real quadrant on the map. But the map does not say what produces what. There is no visible thread joining the brain's state to the texture of what it feels like to meditate, in the same way there is no observable bridge connecting the electrical discharge of a biological tissue to the private experience of a thought.
+
+And there is something even more uncomfortable: causality itself may belong to the interface, not the territory. The fundamental laws of physics are symmetric in time; the arrow running from cause to effect is not written into them, but into the way a system that needs to predict in order to survive keeps its accounts of the world. If that is so, asking what causes consciousness might be a grammatically correct and geometrically mistaken question: like asking what lies north of the North Pole. It doesn't fail because it's hard. It fails because it starts from a map that runs out before it gets there.
+
+---
+
 ## REM sleep: the horizon looking inward
 
 If you connected an electroencephalogram to someone in REM sleep and read it without knowing the context, you would conclude you are looking at an awake brain. The high-frequency activity, the cortical desynchronization, the elevated metabolism—everything points to wakefulness. In fact, the brain during REM sleep consumes as much energy as during active wakefulness. And yet the person is asleep. Completely paralyzed, disconnected from the outside world, generating an experience that has no point of contact with consensual reality.
@@ -189,10 +197,10 @@ Every night we practice contraction without dissolving. We cross the edge and re
 >
 > **What we do know:** REM sleep has the electrical signature of wakefulness with the prefrontal cortex turned off. Deep sleep shows massive delta waves and minimum Phi. The deep meditation of experts shows high-amplitude gamma and elevated Phi. Borjigin et al. (2013, 2023) documented a coherent gamma surge in cardiac arrest. Tononi's synaptic homeostasis hypothesis has growing experimental evidence. Adenosine regulates sleep debt.
 >
-> **What we do not know:** Whether the terminal gamma surge is the neural correlate of near-death experiences. Whether the turiya is a measurable state distinct from deep sleep. Why selective insomnia affects the coherence but not the quantity of slow waves.
+> **What we do not know:** Whether the terminal gamma surge is the neural correlate of near-death experiences. Whether the turiya is a measurable state distinct from deep sleep. Why selective insomnia affects the coherence but not the quantity of slow waves. The reading of Hume's argument on causality is faithful to his text; that the arrow of time belongs to the interface and not the territory is our own interpretation, not an established consensus.
 >
 > **Remaining questions:** Why does the system expand instead of contract at the threshold of death? Is deep meditation a "third path" between wakefulness and sleep, or something qualitatively different? Can lucid dreaming teach us something about the nature of the self?
 >
 > **If you only take away one idea:** Every night you cross the edge of your own horizon and return. Death is the same crossing, with no guaranteed return.
 >
-> **Readings:** Borjigin et al. (2013), "Surge of neurophysiological coherence..."; Borjigin et al. (2023), "GAMMA coherence..."; Mandukya Upanishad (turiya); Bardo Thodol; Tononi (2008) on Phi and states of consciousness; Tononi & Cirelli (2014), synapses and sleep.
+> **Readings:** Borjigin et al. (2013), "Surge of neurophysiological coherence..."; Borjigin et al. (2023), "GAMMA coherence..."; Mandukya Upanishad (turiya); Bardo Thodol; Tononi (2008) on Phi and states of consciousness; Tononi & Cirelli (2014), synapses and sleep; Hume, D., *An Enquiry Concerning Human Understanding* (1748), on constant conjunction.

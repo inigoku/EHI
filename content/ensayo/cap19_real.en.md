@@ -46,6 +46,8 @@ Think of it as a map. A road map doesn't tell you what trees are on each curve, 
 
 The horizon hypothesis is a formal map: a mathematical structure that organizes questions and suggests connections between domains that do not usually speak to each other. It is not a causal mechanism: it does not predict which neuron will fire when, it does not allow intervening in a brain to modify its "Hawking temperature", it offers no experimental pathway to detect a "horizon of consciousness" in a functional scanner. There is, as far as we know, no signal we can measure in an electroencephalogram that corresponds directly to the curvature of an information horizon.
 
+David Hume, in his *An Enquiry Concerning Human Understanding* (1748), had already seen this with a clarity contemporary neuroscience sometimes forgets: we never perceive the fabric of causality itself, only the constant conjunction of events that follow one another. There is no visible thread joining cause to effect —only the reliable repetition that A precedes B—. In the same way, there is no observable bridge connecting the electrical discharge of a biological tissue to the private texture of a thought. The horizon hypothesis does not claim to find that lost thread. It aims, like every formal map, to show us the geometry of the room we are locked inside, not the mechanism that lights it.
+
 This may seem like a weakness. But let us remember that Shannon's information theory also does not predict which transistor will heat up at what moment in a computer, and yet it has allowed us to build the Internet. The theory of evolution also does not predict which fly will land on which flower at three in the afternoon, and yet it explains why flowers exist and why flies exist. A framework can be immensely useful without being immediately operative.
 
 It is useful as a map. Useless as a tool. And that is fine. Not all maps have to be keys. Not all understanding has to translate into control. Sometimes, understanding that two territories that seemed separate are connected by a bridge is enough progress for a single generation of thought.
@@ -170,4 +172,4 @@ The hypothesis can neither confirm nor rule this out. It leaves the door open. A
 >
 > **If you only take away one idea:** This book is a map, not the territory. And the map cannot tell you why you choose the path you choose.
 >
-> **Readings:** Chalmers (1995), "Facing Up to the Problem of Consciousness"; Hume (is-ought gap).
+> **Readings:** Chalmers (1995), "Facing Up to the Problem of Consciousness"; Hume (is-ought gap); Hume, D., *An Enquiry Concerning Human Understanding* (1748), on constant conjunction and the limit of observable causality.

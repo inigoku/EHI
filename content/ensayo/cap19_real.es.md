@@ -50,6 +50,8 @@ Piensa en ello como un mapa. Un mapa de carreteras no te dice qué árboles hay 
 
 La hipótesis del horizonte es un mapa formal: una estructura matemática que organiza preguntas y sugiere conexiones entre dominios que habitualmente no se hablan. No es un mecanismo causal: no predice qué neurona disparará cuándo, no permite intervenir en un cerebro para modificar su "temperatura de Hawking", no ofrece vía experimental para detectar un "horizonte de conciencia" en un escáner funcional. No hay, hasta donde sabemos, ninguna señal que podamos medir en un electroencefalograma que corresponda directamente a la curvatura de un horizonte de información.
 
+David Hume, en su *Investigación sobre el entendimiento humano* (1748), ya había visto esto con una claridad que la neurociencia contemporánea a veces olvida: nunca percibimos el tejido de la causalidad misma, solo la conjunción constante de eventos que se suceden uno tras otro. No hay un hilo visible que una la causa con el efecto —solo la repetición fiable de que A precede a B—. De manera análoga, no hay un puente observable que conecte la descarga eléctrica de un tejido biológico con la textura privada de un pensamiento. La hipótesis del horizonte no pretende encontrar ese hilo perdido. Pretende, como todo mapa formal, mostrarnos la geometría de la habitación en la que estamos encerrados, no el mecanismo que la enciende.
+
 Esto puede parecer una debilidad. Pero recordemos que la teoría de la información de Shannon tampoco predice qué transistor se calentará en qué momento de una computadora, y sin embargo ha permitido construir Internet. La teoría de la evolución tampoco predice qué mosca se posará en qué flor a las tres de la tarde, y sin embargo explica por qué existen las flores y por qué existen las moscas. Un marco puede ser inmensamente útil sin ser inmediatamente operativo.
 
 Es útil como mapa. Inútil como herramienta. Y eso está bien. No todos los mapas tienen que ser llaves. No toda comprensión tiene que traducirse en control. A veces, entender que dos territorios que parecían separados están conectados por un puente es suficiente avance para una sola generación de pensamiento.
@@ -174,4 +176,4 @@ La hipótesis no puede confirmar ni descartar esto. Deja la puerta abierta. Y a 
 >
 > **Si solo te quedas con una idea:** Este libro es un mapa, no el territorio. Y el mapa no puede decirte por qué eliges el camino que eliges.
 >
-> **Lecturas:** Chalmers (1995), "Facing Up to the Problem of Consciousness"; Hume (is-ought gap).
+> **Lecturas:** Chalmers (1995), "Facing Up to the Problem of Consciousness"; Hume (is-ought gap); Hume, D., *Investigación sobre el entendimiento humano* (1748), sobre la conjunción constante y el límite de la causalidad observable.

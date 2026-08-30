@@ -42,6 +42,14 @@ Eso significa que hay dos direcciones posibles desde la vigilia. Una hacia abajo
 
 ---
 
+## La interfaz de la causalidad
+
+David Hume ya lo había visto con una claridad que la neurociencia contemporánea a veces olvida: nunca percibimos el tejido de la causalidad misma, solo la conjunción constante de eventos a través de nuestra propia interfaz. Sabemos que el arousal bajo y la integración alta coinciden en la meditación profunda: eso es un hecho medible, repetible, un cuadrante real en el mapa. Pero el mapa no dice qué produce qué. No hay un hilo visible que una el estado del cerebro con la textura de lo que se siente al meditar, del mismo modo que no hay un puente observable que conecte la descarga eléctrica de un tejido biológico con la experiencia privada de un pensamiento.
+
+Y hay algo más incómodo todavía: puede que la propia causalidad pertenezca a la interfaz, no al territorio. Las leyes físicas fundamentales son simétricas en el tiempo; la flecha que va de la causa al efecto no está escrita en ellas, sino en la manera en que un sistema que necesita prever para sobrevivir contabiliza el mundo. Si eso es así, preguntar qué causa la conciencia podría ser una pregunta gramaticalmente correcta y geométricamente mal planteada: como preguntar qué hay al norte del Polo Norte. No falla por difícil. Falla por partir de un mapa que se acaba antes de llegar ahí.
+
+---
+
 ## El sueño REM: el horizonte que mira hacia dentro
 
 Si conectaras un electroencefalograma a alguien en sueño REM y lo leyeran sin saber el contexto, concluirías que estás mirando un cerebro despierto. La actividad de alta frecuencia, la desincronización cortical, el metabolismo elevado —todo apunta a vigilia. De hecho el cerebro durante el sueño REM consume tanta energía como durante la vigilia activa. Y sin embargo la persona está dormida. Completamente paralizada, desconectada del mundo exterior, generando una experiencia que no tiene ningún punto de contacto con la realidad consensuada.
@@ -193,10 +201,10 @@ Cada noche practicamos la contracción sin disolvernos. Cruzamos el borde y volv
 >
 > **Lo que sí sabemos:** El sueño REM tiene firma eléctrica de vigilia con prefrontal apagada. El sueño profundo muestra ondas delta masivas y Phi mínimo. La meditación profunda de expertos muestra gamma de alta amplitud y Phi elevado. Borjigin et al. (2013, 2023) documentaron destello gamma coherente en paro cardíaco. La hipótesis de la homeostasis sináptica de Tononi tiene evidencia experimental creciente. La adenosina regula la deuda de sueño.
 >
-> **Lo que no sabemos:** Si el destello gamma terminal es correlato neural de las experiencias cercanas a la muerte. Si el turiya es estado mensurable distinto del sueño profundo. Por qué el insomnio selectivo afecta la coherencia pero no la cantidad de ondas lentas.
+> **Lo que no sabemos:** Si el destello gamma terminal es correlato neural de las experiencias cercanas a la muerte. Si el turiya es estado mensurable distinto del sueño profundo. Por qué el insomnio selectivo afecta la coherencia pero no la cantidad de ondas lentas. La lectura del argumento de Hume sobre la causalidad es fiel a su texto; que la flecha del tiempo pertenezca a la interfaz y no al territorio es interpretación propia, no un consenso establecido.
 >
 > **Preguntas que quedan:** ¿Por qué el sistema expande en lugar de contraer en el umbral de la muerte? ¿Es la meditación profunda un "tercer camino" entre vigilia y sueño, o algo cualitativamente distinto? ¿Puede el sueño lúcido enseñarnos algo sobre la naturaleza del yo?
 >
 > **Si solo te quedas con una idea:** Cada noche cruzas el borde de tu propio horizonte y vuelves. La muerte es el mismo cruce, sin retorno garantizado.
 >
-> **Lecturas:** Borjigin et al. (2013), "Surge of neurophysiological coherence..."; Borjigin et al. (2023), "GAMMA coherence..."; Mandukya Upanishad (turiya); Bardo Thodol; Tononi (2008) sobre Phi y estados de conciencia; Tononi & Cirelli (2014), sinapsis y sueño.
+> **Lecturas:** Borjigin et al. (2013), "Surge of neurophysiological coherence..."; Borjigin et al. (2023), "GAMMA coherence..."; Mandukya Upanishad (turiya); Bardo Thodol; Tononi (2008) sobre Phi y estados de conciencia; Tononi & Cirelli (2014), sinapsis y sueño; Hume, D., *Investigación sobre el entendimiento humano* (1748), sobre la conjunción constante.
