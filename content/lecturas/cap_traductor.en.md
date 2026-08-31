@@ -2,7 +2,7 @@
 title: THE TRANSLATOR
 subtitle: (A topological reading of Dalí/Gala, Delibes/Ángeles de Castro, and Eliot/Lewes)
 section: TOPOLOGICAL READINGS
-chapterNumber: 38
+chapterNumber: 39
 illustrationId: il_traductor
 illustrationTitle: The translation channel
 illustrationDescription: Two unequal horizons joined by a luminous channel. On the left, a turbulent, overexposed horizon gathers all its light inward. On the right, a calmer horizon receives it and re-emits it, ordered, toward a distant outside world. The channel frays near the second horizon.
@@ -169,7 +169,7 @@ What this reading describes is not a case apart from grief. It is a lens that ma
 
 ---
 
-> **Note to Chapter 38**
+> **Note to Chapter 39**
 >
 > **What we do know:** Gala's management of Dalí's career and contracts, and Dalí's creative silence after her death in 1982, are well documented by his biographers. Ian Gibson documents that in 1941 it was Gala who actively drove Dalí's turn toward classicism, leaving his Surrealist period behind. Gala's letter to her stepfather Dimitri Gomberg (1943) and her unpublished diary, released in 2011, are catalogued at the Centre for Dalinian Studies and were central to the MNAC's 2018 exhibition. The death of Ángeles de Castro, Miguel Delibes's wife, on 22 November 1974, and the autobiographical relationship between that loss and *Señora de rojo sobre fondo gris* (1991), are confirmed by Delibes himself and his biographers, as is his 1975 induction address at the Real Academia Española, Julián Marías's public reply at that same event, and his refusal of the editorship of *El País* in those years. Wegner's transactive memory and Clark and Chalmers's extended mind are established frameworks in social psychology and philosophy of mind, respectively. The relationship between Marian Evans (George Eliot) and George Henry Lewes, his role in Evans's move from translation and criticism into fiction, the choice of the male pseudonym, the negotiation of contracts with John Blackwood, and Lewes's death in 1878, are documented in the standard biographies of both and discussed specifically in Rilett (2017).
 >

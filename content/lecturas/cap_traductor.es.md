@@ -2,7 +2,7 @@
 title: EL TRADUCTOR
 subtitle: (Una lectura topológica de Dalí/Gala, Delibes/Ángeles de Castro y Eliot/Lewes)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 38
+chapterNumber: 39
 illustrationId: il_traductor
 illustrationTitle: El canal de traducción
 illustrationDescription: Dos horizontes desiguales unidos por un canal luminoso. A la izquierda, un horizonte turbulento y sobreexpuesto concentra toda su luz hacia dentro. A la derecha, un horizonte más sereno la recibe y la reemite, ordenada, hacia un exterior de luces lejanas. El canal se deshilacha cerca del segundo horizonte.
@@ -169,7 +169,7 @@ Lo que esta lectura describe no es un caso aparte del duelo. Es una lente que lo
 
 ---
 
-> **Nota al Capítulo 38**
+> **Nota al Capítulo 39**
 >
 > **Lo que sí sabemos:** La gestión de Gala sobre la carrera y los contratos de Dalí, y el silencio creativo de Dalí tras la muerte de ella en 1982, están ampliamente documentados por sus biógrafos. Ian Gibson documenta que en 1941 fue Gala quien impulsó activamente el giro de Dalí hacia el clasicismo, dejando atrás su etapa surrealista. La carta de Gala a su padrastro Dimitri Gomberg (1943) y el diario inédito de Gala, publicado en 2011, están catalogados en el Centro de Estudios Dalinianos y fueron centrales en la exposición del MNAC de 2018. La muerte de Ángeles de Castro, esposa de Miguel Delibes, el 22 de noviembre de 1974, y la relación autobiográfica entre esa pérdida y *Señora de rojo sobre fondo gris* (1991), están confirmadas por el propio Delibes y sus biógrafos, así como su discurso de ingreso en la Real Academia Española (1975), la respuesta pública de Julián Marías en ese mismo acto, y su rechazo de la dirección de *El País* en esos años. La memoria transactiva de Wegner y la mente extendida de Clark y Chalmers son marcos establecidos en psicología social y filosofía de la mente, respectivamente. La relación entre Marian Evans (George Eliot) y George Henry Lewes, su papel en el paso de Evans de la traducción y la crítica a la ficción, la elección del seudónimo masculino, la gestión de los contratos con John Blackwood y la muerte de Lewes en 1878, están documentados en las biografías estándar de ambos y discutidos específicamente en Rilett (2017).
 >
