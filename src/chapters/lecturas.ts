@@ -23,6 +23,7 @@ const ORDER = [
   "cap17_6_real",
   "cap_blade_runner",
   "cap17_7_alien",
+  "cap_lenguaje_entrelazamiento",
   "cap_three_body",
   "cap17_8_cosmic",
   "cap_matrix",

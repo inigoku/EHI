@@ -2,7 +2,7 @@
 title: THE HORIZON'S CALIBRATION
 subtitle: (Orientation, identity, and sex are neither a choice nor an error)
 section: TOPOLOGICAL READINGS
-chapterNumber: 39
+chapterNumber: 40
 illustrationId: il_calibracion
 illustrationTitle: The horizon's calibration
 illustrationDescription: A spherical horizon with several internal axes of light crossing at its center, each a different color, none subordinate to the others. From outside, other horizons project beams trying to force those axes into a single external pattern, without succeeding. The central horizon stays stable, coherent, lit from within.
@@ -79,7 +79,7 @@ Back to the other three variables from the start of this section: there are fert
 
 ### Discrimination as a failure of translation
 
-Chapter 38 described translation as the function that converts a horizon's inner signal into something the outside world can receive, and it also described what happens when that translation is denied to someone capable of providing it for themself: there, the translator was missing by absence. Here, it is missing by refusal. Discrimination against a horizon for its orientation or its identity is not the absence of a translation channel. It is the active decision, sustained institutionally for centuries, not to translate a signal that arrives perfectly clear, and to declare instead that the signal itself is corrupted.
+Chapter 39 described translation as the function that converts a horizon's inner signal into something the outside world can receive, and it also described what happens when that translation is denied to someone capable of providing it for themself: there, the translator was missing by absence. Here, it is missing by refusal. Discrimination against a horizon for its orientation or its identity is not the absence of a translation channel. It is the active decision, sustained institutionally for centuries, not to translate a signal that arrives perfectly clear, and to declare instead that the signal itself is corrupted.
 
 So-called conversion therapy is the best-documented case of what happens when that refusal turns into active intervention: the attempt to forcibly recalibrate a system that was never miscalibrated. The American Psychiatric Association, the World Health Organization, and virtually every relevant medical and psychological body have condemned it as ineffective and harmful. The study by Turban, Beckwith, and Reisner, published in 2019 using the largest survey ever conducted of transgender people in the United States — over 27,000 responses — found that those who recalled having been subjected to such conversion attempts were more than twice as likely, over their lifetime, to have attempted suicide; if the exposure had happened before age ten, the likelihood was four times higher. The harm didn't depend on whether the person administering the "therapy" was a licensed professional or an untrained religious guide. The mechanism of harm wasn't in the method. It was in the premise: the conviction that there was something to correct.
 
@@ -101,7 +101,7 @@ This chapter doesn't fully explain any of the three variables it describes. It c
 
 ---
 
-> **Note to Chapter 39**
+> **Note to Chapter 40**
 >
 > **What we do know:** the Kinsey scale (Kinsey, Pomeroy & Martin, 1948) and the Klein grid (1985) are established frameworks for measuring orientation as a continuous, non-binary variable; twin studies (Bailey & Pillard, 1991) show partial heritability of sexual orientation; the genome-wide association study by Ganna et al. (2019), with close to 500,000 participants, identified five loci with weak statistical association that together explain between 8% and 25% of observed variation, without allowing individual prediction; the fraternal birth order effect (Blanchard & Bogaert) is widely replicated across diverse populations; Zhou et al. (1995) documented a structural difference in the bed nucleus of the stria terminalis between trans women and cisgender men; the World Health Organization removed homosexuality from its disease list in 1990 and reclassified gender incongruence out of mental disorders in 2019; major international medical and psychological bodies have condemned conversion therapy, the Turban, Beckwith & Reisner study (2019) of 27,715 transgender people found an association between recalled exposure to such attempts and more than double the lifetime risk of a suicide attempt; Imperato-McGinley et al. (1974) documented 5-alpha-reductase deficiency in Dominican families and the shift to male identity in most cases after puberty; and Malta became, in 2015, the first country to ban non-consensual genital "normalizing" surgery on intersex minors by law.
 >

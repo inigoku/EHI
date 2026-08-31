@@ -121,7 +121,7 @@ Maybe the reason these four answers and these four counterexamples pull at us so
 
 ---
 
-> **Note to Chapter 40**
+> **Note to Chapter 41**
 >
 > **What we do know:** time dilation (by velocity or by gravity) is real, measured, verified travel into the future; General Relativity admits solutions with closed timelike curves, but all the known ones require exotic matter or unphysical configurations.
 >
