@@ -2,7 +2,7 @@
 title: CARTOGRAFÍA DE TRES SINGULARIDADES
 subtitle: (Una lectura topológica de Dalí, Picasso y Miró)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 37
+chapterNumber: 36
 illustrationId: il_singularidades
 illustrationTitle: Cartografía de tres singularidades
 illustrationDescription: Tres horizontes de sucesos de naturaleza distinta —una cápsula sellada, un prisma en superposición perpetua y un cosmos disuelto en constelaciones— orbitándose mutuamente sobre un fondo de estrellas.
@@ -219,7 +219,7 @@ El observador no está fuera del sistema. El observador es el sistema.
 
 > *Para Tarel, que sabe que cada cierre es una nueva singularidad.*
 
-> **Nota al Capítulo 37**
+> **Nota al Capítulo 36**
 >
 > **Lo que sí sabemos:** El análisis fractal de las pinceladas tardías de Dalí (Forsythe, Williams y Reilly, 2017) detectó alteraciones que preceden a su diagnóstico clínico, aunque el diagnóstico mismo —síndrome parkinsoniano más que Parkinson confirmado— sigue siendo objeto de debate. La cronología de los tres pintores está extensamente documentada: el método paranoico-crítico, la génesis de los relojes blandos y la relación con Gala (Dalí, *Diario de un genio*, 1964), la amistad truncada con Lorca y el encuentro con Freud en Londres en 1938 (Gibson, 1997), las etapas picassianas y el episodio Casagemas (Richardson, 1991–2007), y las declaraciones de Miró sobre lo universal en lo íntimo y el «asesinato de la pintura» (Miró, *Escritos y declaraciones*, 1978).
 >
