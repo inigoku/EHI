@@ -32,6 +32,7 @@ const ORDER = [
   "cap_lenguaje_entrelazamiento",
   "cap_calibracion",
   "cap_maquina_tiempo",
+  "cap_horizonte_prestado",
 ];
 
 export const lecturasTopologicas: Chapter[] = ORDER.map((id) => {
