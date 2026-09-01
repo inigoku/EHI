@@ -95,6 +95,9 @@ El final de la novela no resuelve esto con más traducción. Lo resuelve reescri
 
 Sue Burke plantea, en Semiosis (2018), el caso que ninguna de las lecturas anteriores se atreve a plantear: ¿y si el otro lado del horizonte no tiene sistema nervioso? Los colonos humanos que llegan al planeta Pax se encuentran con Stevland, un bambú arcoíris longevo, inteligente y sin ningún órgano que un humano reconocería como boca, oído o cerebro. Toda su interfaz con el exterior es química: el sabor de su fruta, el aroma que libera, las sustancias que intercambia por sus raíces. No hay una sola palabra, en el sentido acústico o visual con el que este capítulo ha trabajado hasta ahora. Hay, en su lugar, metabolismo convertido en mensaje.
 
+## [ILUSTRACIÓN il_semiosis: "El fruto que habla"]
+*Ilustración original de este capítulo. Acuarela y tinta.*
+
 Esto obliga a invertir el orden habitual de las preguntas. Con Roky, con los ariekei, con Estraven, la pregunta era siempre cómo construir el protocolo, dando por hecho que había alguien al otro lado con quien construirlo. Con Stevland, antes de preguntar cómo, los colonos —y los lectores— tienen que preguntarse algo más básico: si Φ suficiente para sostener un adentro puede condensarse en un organismo sésil, sin nada parecido a una red neuronal centralizada, cuya única forma de actuar sobre el mundo es liberar o retener compuestos orgánicos. El libro no da esa respuesta por sentada en ningún otro capítulo, y Semiosis no la da gratis tampoco: la sostiene a lo largo de generaciones enteras de colonos que dudan, cada una a su manera, de si están hablando con alguien o simplemente comiendo.
 
 > **En física esto se llama:** un canal cuya velocidad de propagación está limitada por difusión molecular, órdenes de magnitud más lento que cualquier canal acústico u óptico, y que por eso resulta indistinguible del ruido de fondo para cualquier receptor calibrado en la escala de tiempo equivocada.

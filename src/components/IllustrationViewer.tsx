@@ -181,6 +181,8 @@ import img23_1 from "../assets/images/ilustracion_23_1.jpg";
 import imgCalibracion from "../assets/images/ilustracion_calibracion.png";
 // @ts-ignore
 import imgHijosTiempo from "../assets/images/ilustracion_hijos_tiempo.jpg";
+// @ts-ignore
+import imgSemiosis from "../assets/images/ilustracion_semiosis.jpg";
 
 // Import Cuentos illustrations
 // @ts-ignore
@@ -411,6 +413,7 @@ const imageMap: Record<string, string> = {
   il23_1: img23_1,
   il_calibracion: imgCalibracion,
   il_hijos_tiempo: imgHijosTiempo,
+  il_semiosis: imgSemiosis,
 
   // "Cartografía de tres singularidades" — public reference images of the
   // actual paintings discussed (hotlinked from Wikipedia/Wikimedia Commons)
