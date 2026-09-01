@@ -2,15 +2,15 @@
 title: EL PROTOCOLO Y EL PUENTE
 subtitle: (Una lectura topológica de Proyecto Hail Mary, Embassytown y La mano izquierda de la oscuridad)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 33
+chapterNumber: 39
 illustrationId: il_protocolo
 illustrationTitle: El protocolo y el puente
 illustrationDescription: Dos horizontes de arquitectura radicalmente distinta —uno orgánico y cálido, otro cristalino y frío— separados por un abismo oscuro. Entre ambos, un puente hecho de símbolos matemáticos y fragmentos de lenguaje que todavía se está construyendo, incompleto en el centro, con las dos figuras trabajando cada una desde su orilla.
 ---
 
-El capítulo anterior dejó una conclusión incómoda: que el entrelazamiento —lo que este libro llama amor, empatía, reconocimiento— exige arquitecturas compatibles, y que frente a una arquitectura radicalmente ajena, ningún esfuerzo de buena voluntad basta para abrir el puente. Pero esa conclusión mezclaba, sin distinguirlas, dos cosas distintas.
+El capítulo sobre el primer contacto extraterrestre (capítulo 32) dejó una conclusión incómoda: que el entrelazamiento —lo que este libro llama amor, empatía, reconocimiento— exige arquitecturas compatibles, y que frente a una arquitectura radicalmente ajena, ningún esfuerzo de buena voluntad basta para abrir el puente. Pero esa conclusión mezclaba, sin distinguirlas, dos cosas distintas.
 
-Una es la arquitectura: la topología misma de un horizonte, si tiene Ego, si tiene Sombra, si su Φ es suficiente para sostener un adentro con autoridad propia sobre un afuera. La otra es el protocolo: el código concreto con el que ese horizonte, ya condensado, intenta anunciarse hacia fuera. Una lengua, una sintaxis, un conjunto de señales acordadas de antemano. El capítulo anterior trató ambas cosas como si fueran una sola, y concluyó, con cierta desolación, que la incompatibilidad de una implica la imposibilidad de la otra.
+Una es la arquitectura: la topología misma de un horizonte, si tiene Ego, si tiene Sombra, si su Φ es suficiente para sostener un adentro con autoridad propia sobre un afuera. La otra es el protocolo: el código concreto con el que ese horizonte, ya condensado, intenta anunciarse hacia fuera. Una lengua, una sintaxis, un conjunto de señales acordadas de antemano. Aquel capítulo trató ambas cosas como si fueran una sola, y concluyó, con cierta desolación, que la incompatibilidad de una implica la imposibilidad de la otra.
 
 Tres novelas, leídas juntas, obligan a matizar esa desolación. Ninguna de las tres niega que la arquitectura importa. Pero las tres muestran, cada una a su manera, que el protocolo no es un mero canal neutro que transmite lo que la arquitectura ya decidió. Puede construirse desde cero cuando no existe. Puede ser, él mismo, la condición que decide qué cuenta como arquitectura suficiente para hablar. Y puede ser algo que no se encuentra ya hecho, sino que hay que ganarse, despacio, antes de que el entrelazamiento más profundo se abra paso.
 
@@ -20,7 +20,7 @@ Tres novelas, leídas juntas, obligan a matizar esa desolación. Ninguna de las 
 
 Ryland Grace y Roky, el ingeniero de Erid que protagoniza la novela de Andy Weir, no comparten una sola palabra al despertar el uno junto al otro en órbita de Tau Ceti. No comparten, tampoco, una sola arquitectura sensorial. Roky es ciego en el sentido humano —su especie «ve» por ecolocalización, procesando el mundo como un campo de vibraciones acústicas— y respira una atmósfera de amoníaco a presiones que fundirían el cuerpo de Grace en segundos, separados siempre por un cristal que ninguno de los dos puede cruzar.
 
-Si el capítulo anterior fuera la última palabra sobre el contacto entre arquitecturas incompatibles, el entrelazamiento entre Grace y Roky sería, con toda certeza, imposible: no hay resonancia posible entre un sistema nervioso centralizado y bilateral y una arquitectura de percepción acústica distribuida que ni siquiera comparte con la humana el plano básico de qué cuenta como «ver». Y sin embargo la novela documenta, con un detalle casi procedimental, cómo el entrelazamiento se construye igual.
+Si aquel capítulo fuera la última palabra sobre el contacto entre arquitecturas incompatibles, el entrelazamiento entre Grace y Roky sería, con toda certeza, imposible: no hay resonancia posible entre un sistema nervioso centralizado y bilateral y una arquitectura de percepción acústica distribuida que ni siquiera comparte con la humana el plano básico de qué cuenta como «ver». Y sin embargo la novela documenta, con un detalle casi procedimental, cómo el entrelazamiento se construye igual.
 
 No lo hace encontrando un protocolo ya compatible entre ambas especies —no existe ninguno—, sino inventando uno nuevo desde el referente más neutro que ambos pueden compartir: las matemáticas y la física, idénticas para cualquier horizonte capaz de sobrevivir en un universo regido por las mismas leyes. Grace dibuja la tabla periódica con luces de colores. Roky responde con secuencias de tonos que codifican números primos. Cada palabra nueva que ambos acuerdan —amigo, peligro, presión, tiempo— se ancla primero a un experimento compartido, ejecutado y verificado por los dos, nunca a una traducción supuesta o a un gesto que uno de los dos interpreta desde su propio marco. El protocolo tarda semanas de trabajo conjunto en construirse desde ese cero absoluto.
 
@@ -29,7 +29,7 @@ No lo hace encontrando un protocolo ya compatible entre ambas especies —no exi
 
 Lo decisivo, para los términos de este libro, es que el entrelazamiento que Grace y Roky terminan construyendo no es una versión debilitada o simbólica del que este libro llamó amor. Es completo: hacia el final de la novela, Grace sacrifica su propio regreso a la Tierra —el motivo entero de la misión, la posibilidad de volver a ver a los suyos— para salvar el sol de Erid del mismo astrófago que amenaza el Sol humano, no porque comparta la arquitectura de Roky, sino porque el protocolo que construyeron juntos, letra a letra, tono a tono, terminó por abrir un puente tan real como cualquier entrelazamiento nacido entre dos arquitecturas ya afines desde el principio.
 
-La lección que Proyecto Hail Mary añade a la del capítulo anterior es, entonces, una corrección importante: la incompatibilidad arquitectónica no cierra necesariamente la puerta al entrelazamiento. Lo que hace es obligar a que el protocolo se construya con trabajo explícito y verificable, en vez de encontrarse ya hecho por herencia evolutiva compartida, como ocurre entre dos humanos que aprenden a hablar sin saber que están aprendiendo un protocolo en absoluto.
+La lección que Proyecto Hail Mary añade a la de aquel capítulo es, entonces, una corrección importante: la incompatibilidad arquitectónica no cierra necesariamente la puerta al entrelazamiento. Lo que hace es obligar a que el protocolo se construya con trabajo explícito y verificable, en vez de encontrarse ya hecho por herencia evolutiva compartida, como ocurre entre dos humanos que aprenden a hablar sin saber que están aprendiendo un protocolo en absoluto.
 
 ---
 
@@ -78,7 +78,7 @@ En ninguno de los tres casos el protocolo es indiferente al entrelazamiento, com
 
 ---
 
-> **Nota al Capítulo 33**
+> **Nota al Capítulo 39**
 >
 > **Lo que sí sabemos:** La independencia de sustrato que este libro defiende desde el capítulo cuatro no impone ninguna restricción sobre qué protocolo de comunicación puede o no construirse entre arquitecturas distintas; el problema de la comunicación entre especies con sistemas sensoriales radicalmente distintos es un problema real y activamente estudiado en biosemiótica y en el campo del SETI (búsqueda de inteligencia extraterrestre), donde se han propuesto sistemas de primer contacto basados en matemáticas y física por las mismas razones que la novela de Weir dramatiza. La psicología social documenta ampliamente que la confianza interpersonal es condición, no consecuencia, de la comunicación de alta fidelidad —el fenómeno narrativo de La mano izquierda de la oscuridad tiene correlato empírico bien establecido en la literatura sobre autorrevelación progresiva.
 >
@@ -88,4 +88,4 @@ En ninguno de los tres casos el protocolo es indiferente al entrelazamiento, com
 >
 > **Si solo te quedas con una idea:** El lenguaje no es el entrelazamiento, pero tampoco le es indiferente. A veces hay que construirlo desde cero. A veces decide, él mismo, quién cuenta como alguien. Y a veces el protocolo más hondo de todos no se encuentra: hay que ganárselo, despacio, antes de que se abra.
 >
-> **Lecturas:** Weir, A. (2021), *Project Hail Mary*; Miéville, C. (2011), *Embassytown*; Le Guin, U.K. (1969), *The Left Hand of Darkness*; Clark, A. & Chalmers, D. (1998), "The Extended Mind" (sobre protocolos y extensión cognitiva, ya citado en el capítulo treinta y nueve); Deacon, T. (1997), *The Symbolic Species*, sobre el origen evolutivo del lenguaje simbólico como protocolo emergente.
+> **Lecturas:** Weir, A. (2021), *Project Hail Mary*; Miéville, C. (2011), *Embassytown*; Le Guin, U.K. (1969), *The Left Hand of Darkness*; Clark, A. & Chalmers, D. (1998), "The Extended Mind" (sobre protocolos y extensión cognitiva, ya citado en el capítulo treinta y ocho); Deacon, T. (1997), *The Symbolic Species*, sobre el origen evolutivo del lenguaje simbólico como protocolo emergente.
