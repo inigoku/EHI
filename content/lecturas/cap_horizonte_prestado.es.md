@@ -3,6 +3,9 @@ title: EL CUERPO PRESTADO, LA LOMBRIZ ENTERA Y EL SIGLO EDITADO
 subtitle: (Una lectura topológica de Todos nuestros presentes equivocados, Matadero Cinco y El fin de la eternidad)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 42
+illustrationId: il_horizonte_prestado
+illustrationTitle: El cuerpo prestado
+illustrationDescription: Tres horizontes distintos flotan sobre un fondo de estrellas oscuro. A la izquierda, dos siluetas humanas translúcidas se superponen dentro del mismo contorno, disputándose los mismos gestos. En el centro, una larga espiral de luz dorada —una lombriz de instantes, con un pie diminuto en un extremo y un pie anciano en el otro— brilla entera, sin principio ni final visibles. A la derecha, un corredor de piedra se abre hacia un siglo en miniatura, suspendido y editable como un reloj de engranajes dorados. Acuarela y tinta, tonos índigo y dorados.
 ---
 
 El capítulo anterior dejó abierta una pregunta incómoda. Cuando un horizonte se bifurca —como le pasa a Tony Stark en *Vengadores: Endgame*—, hasta el instante mismo de la división ambas ramas comparten idéntica historia, y después ninguna puede reclamar en exclusiva la identidad que compartían. Es, dentro de todo, una separación limpia: dos horizontes nuevos, ninguno con derecho sobre el otro, cada uno libre de seguir integrando su propia historia sin que el otro se la dispute.
