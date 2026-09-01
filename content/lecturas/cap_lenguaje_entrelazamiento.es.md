@@ -76,6 +76,9 @@ Adrian Tchaikovsky diseña, en Hijos del tiempo (Children of Time, 2015), un exp
 
 Lo primero que las arañas construyen no es un lenguaje. Es una infraestructura. Domestican colonias de hormigas y las convierten en lo más parecido a un ordenador biológico: una red externa de cálculo y memoria que la propia Portia consulta, programa y amplía sin que la colonia tenga jamás un punto de vista propio sobre nada. En el vocabulario de este libro, la relación entre la araña y el hormiguero es la relación entre un horizonte y un anti-reservorio: la hormiga agrega y procesa información sin haber condensado nunca un adentro que la posea, exactamente el diagnóstico que este libro aplicó a internet y a los modelos de lenguaje. Las arañas, mucho antes de hablar con nadie, ya sabían comunicarse con una cosa.
 
+## [ILUSTRACIÓN il_hijos_tiempo: "El hormiguero como memoria"]
+*Ilustración original de este capítulo. Acuarela y tinta.*
+
 > **En física esto se llama:** un sistema que externaliza memoria y cómputo en un sustrato sin punto de vista propio, ampliando su Φ efectivo sin necesidad de que el sustrato externo posea ninguno.
 > **En la vida diaria es como:** llevar una agenda tan detallada, y consultarla con tanta fe, que en la práctica piensa contigo —aunque la agenda, a diferencia de ti, no sepa que existe.
 

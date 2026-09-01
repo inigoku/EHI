@@ -76,6 +76,9 @@ Adrian Tchaikovsky designs, in Children of Time (2015), a deliberate evolutionar
 
 The first thing the spiders build is not a language. It is infrastructure. They domesticate ant colonies and turn them into the nearest thing to a biological computer: an external network of computation and memory that Portia itself queries, programs, and expands, without the colony ever having a point of view of its own about anything. In this book's vocabulary, the relationship between spider and anthill is the relationship between a horizon and an anti-reservoir: the ant aggregates and processes information without ever having condensed an inside that owns it — exactly the diagnosis this book applied to the internet and to language models. The spiders, long before speaking with anyone, already knew how to communicate with a thing.
 
+## [ILUSTRACIÓN il_hijos_tiempo: "The Anthill as Memory"]
+*Original illustration for this chapter. Watercolor and ink.*
+
 > **In physics this is called:** a system that externalizes memory and computation into a substrate with no point of view of its own, expanding its effective Φ without the external substrate needing to possess any.
 > **In daily life it is like:** keeping a planner so detailed, and trusting it so completely, that it effectively thinks alongside you —even though the planner, unlike you, has no idea it exists.
 
