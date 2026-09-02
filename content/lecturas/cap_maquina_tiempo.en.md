@@ -16,6 +16,12 @@ Several works help us trace that double map: H.G. Wells's *The Time Machine*, th
 
 That the fundamental laws are time-symmetric is true and, at the same time, misleading: it makes us believe the arrow of time should be somewhere in the dynamics. It isn't. As we discovered with Hawking radiation and quantum scrambling, irreversibility doesn't live in the law, it lives in the **boundary condition**. The universe began in a state of extraordinarily low entropy —what Penrose calls the *Past Hypothesis*— and that initial choice is what gives time its preferred direction, not the equations. It's the same phenomenon, at another scale, that we already saw in Maxwell's equations: they admit retarded and advanced waves equally, but the universe only uses the retarded ones. The law permits both directions. The reservoir, upon condensing, chose one.
 
+There is, in addition, a second reason for the asymmetry —distinct from entropy— that doesn't depend at all on the boundary condition: even a perfectly deterministic universe, with its entropy already fixed, can deny you the future through a completely different route. In the early twentieth century, Henri Poincaré discovered that the three-body problem —predicting the motion of three objects that attract each other by gravity, nothing more complicated than that— has no exact long-term solution: microscopic differences in initial conditions, too small ever to measure fully, amplify without limit until the system becomes, in practice, unpredictable. The laws remained exact. What stopped being accessible wasn't the past —which remained, in principle, determined— but the future those same laws governed.
+
+> **In physics this is called:** deterministic chaos: a system can obey fixed laws and still be unpredictable over the long term, because infinitesimal errors in the initial measurement grow exponentially.
+
+> **In everyday life it's like:** trying to predict exactly where a leaf swaying in the wind will land: you know the physics of the air perfectly, and still no calculation tells you, with precision, which tile it will land on.
+
 This matters because it changes the question we ask of every time-travel fiction: no longer whether it violates relativity —it almost never does— but whether it asks the boundary condition to undo itself.
 
 ---
