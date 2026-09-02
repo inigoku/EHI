@@ -20,6 +20,12 @@ Varias obras nos sirven para trazar ese doble mapa: *La Máquina del Tiempo* de 
 
 Que las leyes fundamentales sean simétricas en el tiempo es cierto y, a la vez, engañoso: nos hace creer que la flecha del tiempo debería estar en algún sitio de la dinámica. No lo está. Como descubrimos con la radiación de Hawking y el scrambling cuántico, la irreversibilidad no vive en la ley, vive en la **condición de frontera**. El universo empezó en un estado de entropía extraordinariamente baja —lo que Penrose llama la *Past Hypothesis*— y esa elección inicial es lo que le da al tiempo su dirección preferida, no las ecuaciones. Es el mismo fenómeno, a otra escala, que ya vimos en las ecuaciones de Maxwell: admiten ondas retardadas y avanzadas por igual, pero el universo solo usa las retardadas. La ley permite las dos direcciones. El reservorio, al condensar, eligió una.
 
+Hay, además, una segunda razón para la asimetría —distinta de la entropía— y que no depende en absoluto de la condición de frontera: incluso un universo perfectamente determinista, con su entropía ya fijada, puede negarte el futuro por una vía completamente distinta. A comienzos del siglo XX, Henri Poincaré descubrió que el problema de tres cuerpos —predecir el movimiento de tres objetos que se atraen entre sí por gravedad, nada más complicado que eso— no tiene solución exacta de largo plazo: diferencias microscópicas en las condiciones iniciales, demasiado pequeñas para medirlas nunca del todo, se amplifican sin límite hasta volver el sistema, en la práctica, impredecible. Las leyes seguían siendo exactas. Lo que dejaba de ser accesible no era el pasado —que seguía, en principio, determinado— sino el futuro que esas mismas leyes gobernaban.
+
+> **En física esto se llama:** caos determinista: un sistema puede obedecer leyes fijas y ser, aun así, impredecible a largo plazo, porque errores infinitesimales en la medida inicial crecen exponencialmente.
+
+> **En la vida diaria es como:** intentar predecir dónde caerá exactamente una hoja que se mece al viento: conoces la física del aire perfectamente, y aun así ningún cálculo te dice, con precisión, en qué baldosa aterrizará.
+
 Esto importa porque cambia la pregunta que le hacemos a cada ficción de viajes en el tiempo: ya no si viola la relatividad —casi nunca lo hace— sino si le pide a la condición de frontera que se deshaga.
 
 ---

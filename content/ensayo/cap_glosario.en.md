@@ -11,13 +11,19 @@ section: APPENDICES AND GLOSSARY
 
 **Black hole evaporation**: process by which a black hole loses mass and eventually disappears through the emission of Hawking radiation; a metaphor for the death of the horizon of consciousness.
 
+**Block universe**: model from special relativity in which past, present, and future are equally real, coordinates of a single four-dimensional structure; a horizon able to integrate its entire history at once, without sequence, would perceive it as geography rather than as time.
+
 **Bose-Einstein condensation**: phase transition in which identical particles occupy the same quantum state; the book's metaphor for the emergence of a horizon of consciousness.
+
+**Boundary condition**: a specific choice —not required by any law— that breaks the time-symmetry of the fundamental equations; the universe began in a state of extraordinarily low entropy, and that initial condition, not the laws themselves, is what gives time its preferred direction.
 
 **Buddhism**: contemplative tradition that teaches *anattā* (non-self) and the interdependence of all phenomena; in the book, a source of vocabulary to describe the non-separation between horizons.
 
 **Chikhai**: first phase of the Tibetan *Bardo*, immediately following death; equivalent in the model to the terminal gamma flash and the maximum contraction of the horizon.
 
 **Chönyid**: second phase of the *Bardo*, marked by the appearance of luminous forms; in the model, the period in which the horizon's correlations have not yet been redistributed.
+
+**Chronology protection**: Hawking's conjecture that, near the instant a closed time loop would be about to form, quantum vacuum fluctuations feed back on themselves and diverge, preventing the closure without the need for any external veto.
 
 **Continuing bonds**: concept in grief according to which the relationship with the deceased does not dissolve, but reorganizes within the architecture of the one who remains.
 

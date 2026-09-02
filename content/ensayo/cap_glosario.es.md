@@ -14,6 +14,8 @@ chapterNumber: Glosario
 
 **Bardo tibetano**: estado intermedio entre la muerte y el renacimiento en la tradición tibetana; en el libro, metáfora del periodo *post mortem* antes de la evaporación del horizonte.
 
+**Bloque de universo**: modelo de la relatividad especial según el cual el pasado, el presente y el futuro son igualmente reales, coordenadas de una misma estructura de cuatro dimensiones; un horizonte capaz de integrar toda su historia a la vez, sin secuencia, lo percibiría como geografía en vez de como tiempo.
+
 **Brecha de escalas**: diferencia de magnitud entre fenómenos cuánticos y neurales que dificulta una reducción directa, pero que el modelo del horizonte aborda mediante analogía estructural.
 
 **Bucle abierto**: sistema que emite señales sin recibir retroalimentación externa; produce sensibilización basal por déficit de señal.
@@ -27,6 +29,8 @@ chapterNumber: Glosario
 **Chönyid**: segunda fase del *Bardo*, de aparición de formas luminosas; en el modelo, el periodo en que las correlaciones del horizonte aún no se han redistribuido.
 
 **Condensación de Bose-Einstein**: transición de fase en la que partículas idénticas ocupan el mismo estado cuántico; metáfora del libro para la emergencia de un horizonte de conciencia.
+
+**Condición de frontera**: elección concreta —no exigida por ninguna ley— que rompe la simetría temporal de las ecuaciones fundamentales; el universo empezó en un estado de entropía extraordinariamente baja, y esa condición inicial, no las leyes, es lo que le da al tiempo su dirección preferida.
 
 **Continuing bonds**: concepto del duelo según el cual la relación con el muerto no se disuelve, sino que se reorganiza en la arquitectura del que queda.
 
@@ -81,6 +85,8 @@ chapterNumber: Glosario
 **Principio holográfico**: idea de que toda la información contenida en un volumen puede describirse por una teoría definida en su frontera.
 
 **Problema duro de la conciencia (Chalmers)**: la pregunta de por qué la experiencia subjetiva acompaña a los procesos físicos.
+
+**Protección cronológica**: conjetura de Hawking según la cual, cerca del instante en que un bucle temporal cerrado estaría a punto de formarse, las fluctuaciones cuánticas del vacío se retroalimentan y divergen, impidiendo el cierre sin necesidad de ningún veto externo.
 
 **Puente de Einstein-Rosen**: túnel topológico en el espacio-tiempo que conecta dos regiones; metáfora del entrelazamiento entre horizontes de conciencia.
 
