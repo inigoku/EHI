@@ -1,0 +1,97 @@
+@page {
+  size: 15.5cm 23.2cm;
+  margin: 2.1cm 1.8cm 2.4cm 1.8cm;
+  @bottom-center {
+    content: counter(page);
+    font-family: "DejaVu Serif", Georgia, serif;
+    font-size: 9pt;
+    color: #666;
+  }
+}
+html { -weasy-images-rendering: auto; }
+#title-block-header { display: none; }
+body {
+  font-family: "DejaVu Serif", Georgia, "Times New Roman", serif;
+  font-size: 10.3pt;
+  line-height: 1.5;
+  color: #1c1c1c;
+  hyphens: auto;
+  text-align: justify;
+  orphans: 3;
+  widows: 3;
+}
+h1 {
+  font-family: "DejaVu Serif", Georgia, serif;
+  font-weight: bold;
+  font-size: 22pt;
+  text-align: center;
+  letter-spacing: 0.06em;
+  margin-top: 3.2cm;
+  margin-bottom: 0.6cm;
+  page-break-before: always;
+  break-before: page;
+  color: #14213d;
+}
+h2 {
+  font-size: 15pt;
+  font-weight: bold;
+  margin-top: 1.4cm;
+  margin-bottom: 0.35cm;
+  color: #14213d;
+  border-bottom: 0.75pt solid #b8945a;
+  padding-bottom: 0.15cm;
+  page-break-after: avoid;
+}
+h3 {
+  font-size: 12pt;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0.9cm;
+  margin-bottom: 0.25cm;
+  color: #3a3a3a;
+  page-break-after: avoid;
+}
+h4 { font-size: 10.5pt; font-weight: bold; page-break-after: avoid; }
+p { margin: 0 0 0.32em 0; text-indent: 1.1em; }
+h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p { text-indent: 0; }
+blockquote {
+  font-style: italic;
+  margin: 0.5em 1.4em;
+  color: #2f2f2f;
+  border-left: 2pt solid #b8945a;
+  padding-left: 0.6em;
+  text-indent: 0;
+}
+hr {
+  border: none;
+  border-top: 0.5pt solid #b8945a;
+  width: 30%;
+  margin: 1.1em auto;
+}
+img {
+  display: block;
+  max-width: 100%;
+  max-height: 15cm;
+  margin: 0.7cm auto;
+  page-break-inside: avoid;
+}
+em { color: #1c1c1c; }
+strong { color: #14213d; }
+nav#TOC {
+  page-break-after: always;
+}
+nav#TOC ul { list-style: none; padding-left: 1em; }
+nav#TOC > ul { padding-left: 0; }
+nav#TOC a { text-decoration: none; color: #14213d; }
+/* Title page cover image */
+img.cover {
+  max-height: 19cm;
+  max-width: 90%;
+  margin: 1.5cm auto 0 auto;
+  page-break-after: always;
+}
+p:has(> img.cover) {
+  text-align: center;
+  text-indent: 0;
+}
+img.cover + figcaption { display: none; }
