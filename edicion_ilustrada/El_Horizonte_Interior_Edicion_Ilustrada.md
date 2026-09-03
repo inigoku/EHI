@@ -397,6 +397,10 @@ Cuatro lenguajes —la filosofía del horizonte de este libro, la ingeniería de
 
 # III. EL PUENTE
 
+![III · El puente](images/il_parte2_bg.jpg)
+
+---
+
 ## El borde que cruzamos cada noche
 
 ![El borde que cruzamos cada noche](images/il_int.jpg)
@@ -1041,6 +1045,10 @@ Si unificamos ambos marcos, la realidad se revela como una maquinaria de procesa
 
 
 # IV. LAS FRACTURAS
+
+![IV · Las fracturas](images/il_parte3_bg.jpg)
+
+---
 
 ## Alzheimer: la disolución del horizonte desde dentro
 
@@ -1825,6 +1833,10 @@ Juntas, estas tres piezas devuelven algo a la sospecha del interludio, pero con 
 *La causa y el efecto no son el territorio. Son el mapa que un sistema secuencial dibuja para poder caminar por un bloque que ya está, entero, ahí desde siempre.*
 
 # VI. EL CIERRE
+
+![VI · El cierre](images/il_parte4_bg.jpg)
+
+---
 
 ## Lo que la hipótesis no puede decir
 
