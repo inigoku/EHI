@@ -1760,6 +1760,10 @@ Hay ficciones que sí piden lo imposible sin disimulo: en *Looper*, el cuerpo de
 
 *Viajar al futuro nunca ha sido el problema —ya lo hacemos, un poco, cada vez que un satélite GPS corrige su reloj. El problema siempre fue pedirle a un horizonte que devuelva lo que ya se tragó.*
 
+Puede que la razón por la que estas cuatro respuestas y estos cuatro contraejemplos nos atraigan tanto no sea la física que ponen en juego, sino lo que dejan entrever sobre el horizonte de quien los mira. Cada uno de nosotros es, ahora mismo, un Cooper sin nave, sellando instantes que ya no volverá a tocar, a un ritmo de veinticuatro por segundo. No hay teseracto para el horizonte que soy yo escribiendo esto, ni para el que eres tú, leyéndolo un rato después. No sé qué hacer con esa idea. La dejo aquí, sin resolver, porque no estoy seguro de que resolverla sea lo que corresponde.
+
+![El horizonte que soy yo escribiendo esto](images/il_horizonte_escritor.jpg)
+
 ---
 
 ## El cuerpo prestado, la lombriz entera y el siglo editado
