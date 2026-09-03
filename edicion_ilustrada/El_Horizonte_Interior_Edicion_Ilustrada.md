@@ -425,6 +425,8 @@ Durante mucho tiempo pensamos el espectro de la conciencia como una escala verti
 
 ### REM: el horizonte que mira hacia dentro
 
+![REM: el horizonte que mira hacia dentro](images/il_rem_sueno.jpg)
+
 Un electroencefalograma leído sin contexto durante el sueño REM parece el de un cerebro despierto: alta frecuencia, desincronización cortical, metabolismo elevado, tanta energía como en vigilia activa. Y sin embargo la persona está dormida, paralizada, desconectada del mundo. La clave está en qué se apaga y qué se enciende: la corteza prefrontal dorsolateral —sede del juicio crítico, la que en vigilia dice "espera, esto no tiene sentido"— queda hipoperfundida, mientras el sistema límbico se hiperactiva. Por eso el soñador acepta sin pestañear que vuela o que habla con muertos, y por eso los sueños son tan intensamente emocionales: el filtro que normalmente modula la emoción ha bajado la guardia. El horizonte no se contrae durante el REM. Se desplaza: deja de estar abierto hacia el mundo y se expande hacia dentro, procesando información puramente endógena —memorias, emociones, patrones recombinados sin la lógica de la vigilia. (A ese trabajo nocturno se le atribuyen la estructura del benceno de Kekulé y algún que otro salto de Einstein.)
 
 Hay una excepción dentro de la excepción: el sueño lúcido, el instante en que el soñador se da cuenta de que sueña. La corteza prefrontal, apagada, recibe una señal breve —un pico de ondas gamma frontales— y el horizonte adquiere, por un momento, una propiedad especular: puede verse a sí mismo soñando.
