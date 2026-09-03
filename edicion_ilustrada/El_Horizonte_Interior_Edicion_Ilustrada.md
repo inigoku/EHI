@@ -160,6 +160,10 @@ Bajó la mano y salió de la casa al final de la ciudad al final del camino con 
 
 # II · EL HORIZONTE
 
+![II · El horizonte](images/il_parte1_bg.jpg)
+
+---
+
 ## Agujeros negros para no físicos
 
 ![Agujeros negros para no físicos](images/il05_v2.jpg)
