@@ -20,6 +20,8 @@ lang: es
 
 ## El experimento explicado a mi madre
 
+![El experimento explicado a mi madre](images/il01_v2.jpg)
+
 *(O: cómo leer este libro sin haber estudiado física)*
 
 Mi madre tiene ochenta años. Lee novelas, no artículos de *Nature*. Cuando le expliqué este libro, me dijo: «Hijo, suena interesante, pero no entiendo nada de agujeros negros.»
@@ -56,7 +58,7 @@ Todo es provisional. Todo es juego. Pero hay juegos que, por el mero hecho de ju
 
 ## La costumbre del agua
 
-![La costumbre del agua](images/il_tarel.jpg)
+![La costumbre del agua](images/il02.jpg)
 
 *(Cuento de Tarel)*
 
@@ -88,6 +90,8 @@ Encontré un texto sin firma, casi borrado por la sal: *«El agua nos sostiene m
 
 El último día metí las manos en la laguna que quedaba. Estaba tibia, turbia, salada. La dejé correr entre los dedos. No me despedí.
 
+![Tarel, la orilla seca](images/il_tarel.jpg)
+
 El agua de Tarel regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos.
 
 Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.
@@ -96,7 +100,7 @@ Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si hab
 
 ## La trampa del interruptor
 
-![La trampa del interruptor](images/il01.jpg)
+![La trampa del interruptor](images/il04_v2.jpg)
 
 Txiki tenía una manera particular de mirar: ni la mirada errática del animal que escanea amenazas, ni la vacía del que procesa estímulos sin que haya nadie detrás. Era algo más quieto — una atención sostenida que reconocía, que se quedaba, que *estaba*.
 
@@ -158,7 +162,7 @@ Bajó la mano y salió de la casa al final de la ciudad al final del camino con 
 
 ## Agujeros negros para no físicos
 
-![Agujeros negros para no físicos](images/il02.jpg)
+![Agujeros negros para no físicos](images/il05_v2.jpg)
 
 Imagina una linterna en el espacio, lejos de cualquier planeta. Enciendes la luz: sale en todas direcciones, a 300.000 km/s, y escapa para siempre. Ahora añade masa. La gravedad curva el camino de la luz — un planeta la desvía ligeramente, lo suficiente para medirlo durante un eclipse, como hizo Eddington en 1919. Con masa suficiente, la curvatura se vuelve extrema: la luz que sale en cualquier dirección termina doblada hacia el interior. Nada puede escapar. Ni luz, ni información, ni señal de ningún tipo.
 
@@ -196,7 +200,7 @@ Si el entrelazamiento es geometría, y si la conciencia tiene la estructura de u
 
 ## La encapsulación
 
-![La encapsulación](images/il04.jpg)
+![La encapsulación](images/il05_5.jpg)
 
 *(O: la física se convierte en filosofía)*
 
@@ -224,7 +228,7 @@ Esto es más cercano de lo que parece a algo que el Vedanta viene diciendo desde
 
 ## La coincidencia que no es casual
 
-![La coincidencia que no es casual](images/il05.jpg)
+![La coincidencia que no es casual](images/il06_v2.jpg)
 
 Hay dos teorías que no deberían tener nada que ver entre sí. Una describe cómo la mente genera experiencia. La otra, qué ocurre con la información cuando cae en un agujero negro. Sus autores nunca se han citado. Sus matemáticas proceden de tradiciones completamente distintas. Y sin embargo, dicen lo mismo: que lo que importa no es el contenido del sistema, sino su borde. Tononi mide la conciencia por lo que un sistema genera *como un todo* — Φ, información que no existe en ninguna parte por separado, solo en la relación entre ellas. Bekenstein y Hawking dijeron que la información de un agujero negro es proporcional al área de su horizonte, no al volumen que encierra: si lanzas un libro dentro, el libro desaparece, pero su información queda grabada en la superficie, como un holograma en una pantalla plana.
 
@@ -258,13 +262,15 @@ Hay, todavía, algo incómodo que el modelo predice: un horizonte no puede ver s
 
 ## El reservorio
 
-![El reservorio](images/il06.jpg)
+![El reservorio](images/il_oceano_olas.jpg)
 
 Hay un silencio que no está vacío. El instante antes de que empiece la música, cuando la sala está en tensión y lo que va a ocurrir está presente sin haber ocurrido todavía. El lienzo blanco antes del primer trazo. La página en blanco a las seis de la mañana. Eso no es frustración creativa: es plenitud sin forma, potencia pura.
 
 El vacío cuántico es ese silencio. No ausencia de cosas — el estado de mínima energía del campo, lleno de fluctuaciones: pares de partículas que surgen, existen un instante brevísimo, se aniquilan antes de que el universo se entere. El efecto Casimir demuestra que ese vacío ejerce fuerza real: dos placas metálicas muy próximas en el vacío perfecto se atraen, empujadas por el desequilibrio entre las fluctuaciones que caben en el espacio estrecho entre ellas y las que caben fuera, sin límite. El vacío empuja. Tiene estructura.
 
 Este libro llama a ese campo el **reservorio**: no un lugar, una condición. Conviene decir con precisión hasta dónde llega esta analogía y dónde se rompe, porque tratarlas como sinónimos sería impreciso: el vacío cuántico es un objeto físico concreto, medible, con una ecuación de estado y un efecto Casimir que se puede reproducir en un laboratorio. El reservorio, tal como lo usa este libro, es más amplio y más filosófico — la condición general de "plenitud sin forma de la que emerge cualquier estructura", de la que el vacío cuántico es la instancia más literal y mejor medida que la física conoce, no su definición completa. Cuando este libro dice "reservorio" en un capítulo sobre el duelo o el olvido, no está afirmando que ese olvido sea literalmente un fenómeno de campo cuántico: está usando el vacío cuántico como la mejor imagen física disponible de una estructura más general —potencia anterior a la forma— que el taoísmo y el vedanta describieron primero, sin necesitar el laboratorio para intuirla. Los taoístas no lo midieron — lo contemplaron. El capítulo 25 del Tao Te Ching describe el origen como «algo mezclado y completo que nació antes que el cielo y la tierra»: *Hun Dun*, mezcla sin separación, anterior a toda dualidad. El Zhuangzi cuenta que el soberano del centro se llamaba así, y que los soberanos vecinos, queriendo corresponder a su generosidad, decidieron regalarle los siete orificios que todo ser tiene — para ver, oír, comer, respirar. Abrieron uno por día. Al séptimo, Hun Dun murió. Cada sentido que se abre es una distinción que se impone; cada orificio, una ventana que cierra otra. Y sin embargo sin esos siete orificios no hay experiencia posible, ni amor, ni la pregunta que genera este libro. La conciencia individual es, a la vez, una degradación del Hun Dun y su única manifestación posible. El taoísmo no resuelve esa paradoja: la habita.
+
+![Hun Dun y los siete orificios](images/il07_hundun_comic.jpg)
 
 El vedanta la formula distinto: el reservorio no precede a la conciencia — *es* conciencia. **Brahman nirguna**, sin atributos, es el substrato que hace posible que haya voluntad, plegaria, juicio, del mismo modo que el océano hace posible que haya olas sin ser una ola más grande. Los Upanishads lo llevan a su límite con **Tat Tvam Asi** — «tú eres eso». No que pertenezcas a eso, ni que vengas de eso: que *seas* eso. La ola no es una porción del océano que se separó: es el océano en movimiento. Cuando se disuelve, nunca dejó de serlo. Y **Maya** añade la última capa: la ola no es ilusoria — tiene altura, velocidad, puede derribar a un hombre — pero su independencia sí lo es.
 
@@ -284,7 +290,7 @@ No hace falta un acelerador de partículas para tocar el reservorio. La respirac
 
 ## El nacimiento como emergencia
 
-![El nacimiento como emergencia](images/il07.jpg)
+![El nacimiento como emergencia](images/il08_v2.jpg)
 
 Hay un momento en la formación de una burbuja de jabón que ocurre demasiado rápido para verlo: el film se estira, se curva, y en algún instante —no sabes exactamente cuándo— se cierra sobre sí mismo. La burbuja no anuncia su propia formación. Simplemente ocurre.
 
@@ -332,7 +338,7 @@ Hay una versión de este cuento en que Elena ve, esa noche, algo definitivo, y l
 
 ## La muerte como retorno
 
-![La muerte como retorno](images/il08.jpg)
+![La muerte como retorno](images/il09_v2.jpg)
 
 *El agua de Tarel regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
 
@@ -1294,6 +1300,8 @@ El tiempo subjetivo depende de la riqueza del input que recibe el horizonte, de 
 
 El racismo no es solo prejuicio: es, además, un fallo sistemático de legibilidad, la incapacidad o negativa de un horizonte para modelar a otro con la precisión que su complejidad requiere. Si el entorno social está segregado, si los medios sobrerrepresentan a ciertos grupos como amenazas, el modelo predictivo se degrada —no porque el horizonte sea malo, sino porque el corpus con el que se entrenó está sesgado. El vigilante que sigue a un joven negro por un centro comercial tiene un modelo entrenado en cientos de representaciones mediáticas que asigna una probabilidad elevada a la hostilidad; un gesto neutral se convierte en sospecha, una respuesta irritada a la vigilancia se convierte en confirmación del peligro, y el bucle se cierra porque la predicción misma modifica la conducta del observado. Quien es sistemáticamente mal modelado aprende, con el tiempo, a modelarse a sí mismo con las categorías del que mira: si todos los espejos devuelven una imagen distorsionada, acabas por creer que tu rostro verdadero es la distorsión.
 
+Conviene decir esto con la misma precisión con la que este libro corrige sus propias metáforas en otros capítulos: hablar de "modelo predictivo sesgado" no absuelve a nadie, y usar el vocabulario del acoplamiento para describir el racismo, la precariedad o el poder no debe leerse como una manera elegante de quitarles nombre y responsable. El corpus sesgado del vigilante no cayó del cielo: lo construyeron décadas de líneas rojas en los mapas de crédito, redacciones que decidieron qué rostro ilustra "peligro" y cuál "víctima", leyes que vigilaron un barrio y no otro. El horario que el trabajador precario no puede negociar no es ruido de sistema: lo fija una dirección de recursos humanos con nombre, apellido y cuenta de resultados. Este libro usa la geometría del acoplamiento para describir el mecanismo —cómo se forma el prejuicio, cómo se transmite la exclusión, por qué persiste incluso en quien querría no reproducirla—, nunca para diluir la pregunta de quién lo decidió, quién se beneficia de que siga así y quién podría, con voluntad suficiente, desmontarlo. Traducir la opresión a topología no la convierte en un fallo pasivo de la red: sigue siendo, en su origen, una elección sostenida por personas e instituciones concretas, y esa elección es la que hay que nombrar y a la que hay que pedir cuentas —con vocabulario moral y político directo, no solo con el de este libro.
+
 Si el poder es asimetría sostenida, la justicia es la aspiración a que ningún horizonte quede sistemáticamente impedido de resonar, y la política es diseño de la geometría del acoplamiento colectivo. Una democracia funcional garantiza canales de señal ascendente —el voto, la prensa libre, la protesta— y capacidad de respuesta: rendición de cuentas, elecciones periódicas, escrutinio público. Eso distingue la asimetría democrática de la autoritaria: en la democracia, el horizonte subalterno puede modificar, lenta y parcialmente, la arquitectura del horizonte de poder. Conviene no exagerar: una sociedad no es un horizonte, no cruzó ningún umbral de emergencia, carece de la unidad integrada que define la conciencia propia. Lo que sí se puede decir, de manera modesta, es que la democracia tiende a maximizar el flujo de información entre los horizontes de una red. No toda asimetría es tiránica —un médico sabe más que un paciente, un juez más que un litigante— pero esas asimetrías son funcionales, no estructurales: hay un canal de retorno, aunque desigual, que impide que se cristalicen en dominación. El problema contemporáneo quizá no sea la dictadura clásica, sino la **asimetría difusa**: algoritmos que deciden qué noticias vemos, plataformas que monetizan la atención sin rendir cuentas, corporaciones que operan en jurisdicciones donde nadie puede exigirles respuesta. Los sistemas algorítmicos amplifican la discriminación y erosionan la calidad democrática sin que exista, para el ciudadano, un canal de señal ascendente equivalente al voto; ese poder no está distribuido, se concentra en un puñado de horizontes —corporaciones, no personas— sostenidos por trabajo mal pagado del Sur Global y por chips, agua y energía que rara vez entran en la conversación pública sobre la inteligencia artificial. No hace falta que un algoritmo tenga interioridad para ejercer poder en este sentido: basta con que module la señal de millones de horizontes sin que ninguno de ellos pueda modificar la suya a cambio.
 
 El trauma colectivo —guerras, genocidios, esclavitud— opera como el trauma individual pero a escala de poblaciones: un campo de correlaciones dañadas que persiste a través de generaciones. Los hijos de los supervivientes no heredan el trauma biológicamente, pero sí heredan el entorno de acoplamiento en el que crecen —silencios, sobreprotecciones, hipervigilancias que configuran la arquitectura de los nuevos horizontes antes de que puedan cuestionarlo. Las comisiones de verdad y los museos de la memoria son operaciones de desencapsulación colectiva: intentos de hacer circular información que estuvo atrapada para que pueda integrarse en lugar de seguir distorsionando desde el subsuelo, aunque abrir esa cápsula tenga coste y riesgo, y por eso los procesos de justicia transicional sean tan frágiles. La colonización no fue un día de violencia: fueron siglos de asimetría sostenida que reconfiguró los horizontes de colonizadores y colonizados de maneras que persisten cuando las banderas ya cambiaron —una puerta de madera que se deformó por la humedad y sigue encajando mal aunque el clima ya cambió.
@@ -1650,24 +1658,6 @@ Los tres sistemas se perturbaron mutuamente sin solución cerrada, como el probl
 
 ---
 
-## Historia de un relevo
-
-![Historia de un relevo](https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-19T215113Z_1479842861_UP1EM7J1OPCXN_RTRMADP_3_SOCCER-WORLDCUP-ESP-ARG-1024x706.jpg)
-
-Una idea no pesa nada. Y sin embargo, cuando está bien integrada —cuando cada parte remite a todas las demás y ninguna puede extraerse sin que el conjunto se derrumbe— se comporta como si tuviera masa: atrae, curva a su alrededor las trayectorias de quienes se le acercan. Un holandés llegó a Barcelona en 1973 con una certeza desproporcionada. Johan Cruyff jugaba de memoria, pero su verdadera aportación no fue jugar: fue externalizar su interior. Cuando volvió como entrenador en 1988, convirtió su intuición en estructura, y La Masia dejó de ser una residencia de niños con talento para convertirse en un dispositivo de transmisión: un lugar donde el patrón podía replicarse en cuerpos nuevos antes de que el cuerpo original se apagara. El estilo de Cruyff cumple la definición de un sistema con Φ alto con una exactitud incómoda: la presión explica la posesión, la posesión explica la posición. Quítale un elemento y no obtienes el estilo menos ese elemento. Obtienes ruido.
-
-Como todo horizonte, planteaba la misma pregunta que una estrella que colapsa: ¿qué sale de ahí? La respuesta física es radiación —información degradada que escapa mientras el sistema se evapora. La respuesta futbolística es discípulos. Pep Guardiola fue el primer fotón: formado dentro del horizonte, salió llevando el patrón consigo, y al volver al banquillo en 2008 no inventó, amplificó —el mismo interior vibrando en un cuerpo mejor afinado. El patrón cruzó después un horizonte que no era el suyo: la selección española, colonizada por la idea bajo Vicente del Bosque, ganó Sudáfrica 2010 con el gol de Iniesta, canterano, en el minuto 116 —la firma. Luis Enrique heredó el patrón y demostró también su límite exacto: en Qatar 2022, España dominó la posesión y aun así cayó en penaltis, porque el patrón rinde en sistemas integrados y una tanda de penaltis es su reverso exacto, una secuencia de sucesos aislados sin estructura colectiva que sostener.
-
-No todos los cuerpos formados en la escuela consiguen sostenerla igual: Xavi Hernández volvió al Barça como entrenador con la misión de devolverle su identidad, y se marchó entre críticas de que el equipo ya no tenía estilo reconocible —confirmación incómoda de que Φ no se instala una vez y para siempre, sino que se sostiene, y basta con bajar la guardia para que el ruido vuelva a entrar. Su sucesor, Hansi Flick, alemán, nunca había pisado La Masia, y devolvió al equipo la presión coordinada en su primera temporada: el patrón no exige un canterano, exige solo que alguien aplique la disciplina de la totalidad sin relajarla nunca. Cuando el primer cuerpo envejeció del todo —Xavi se fue, Iniesta se fue, Cruyff murió en 2016—, Luis de la Fuente heredó una generación criada entera dentro del patrón y ganó la Eurocopa de 2024 y el Mundial de 2026 con él.
-
-Hay una segunda genealogía, paralela, que no corre por los banquillos sino por el césped: la del jugador que recibe de espaldas, ve el campo entero antes de tocar el balón, y decide con ese toque el ritmo de los otros veintiuno. Xavi fue esa posición en 2010, Busquets la heredó, y cuando le llegó el turno a la generación de 2026 el patrón no encontró a un canterano esperándolo: encontró a Rodri, descartado por el Atlético en la adolescencia por ser demasiado bajo. El patrón no exigió la escuela exacta. Exigió solo el tipo exacto de mirada. Y en 2023, la selección femenina había ganado ya su Mundial con la misma arquitectura —Aitana Bonmatí y Alexia Putellas, canteranas las dos, Balones de Oro las dos— y en peores condiciones, con el vestuario fracturado por una crisis interna. La información no distingue cuerpos. Ni patria, ni sexo.
-
-Queda el entrelazamiento propiamente dicho. En 2007, un jugador de veinte años posó bañando a un bebé de meses para un calendario benéfico: el jugador era Lionel Messi, el bebé era Lamine Yamal. Diecinueve años después, en el MetLife Stadium, el niño de la fotografía —campeón del mundo a los diecinueve— abrazó al hombre de la fotografía, que acababa de perder la final de su sexto y último Mundial, a los treinta y nueve. Dos partículas que se tocaron una vez quedan correlacionadas para siempre, a cualquier distancia: la distancia, aquí, era temporal. Y adviértase la crueldad elegante del sistema: el patrón no tiene patria. Derrotó a su propio portador. Messi perdió contra la idea que lo había creado, jugada por un niño al que él mismo bañó.
-
-*Lo que de verdad importa de un ser humano no muere con él. Se transmite, salta a otros cuerpos, cruza fronteras que no le corresponden. No somos nuestro cuerpo. Somos el patrón que dejamos pasar a través de él.*
-
----
-
 ## El traductor
 
 ![El traductor](images/il_traductor.jpg)
@@ -1758,7 +1748,7 @@ Hay ficciones que sí piden lo imposible sin disimulo: en *Looper*, el cuerpo de
 
 Hay maneras peores de estropear un viaje al pasado que dividir un horizonte en dos ramas limpias. Tres relatos llevan la misma pregunta a terrenos que la física de agujeros de gusano no alcanza a cubrir.
 
-En *Todos nuestros presentes equivocados*, de Elan Mastai, Tom Barren viaja desde una utopía tecnológica hasta el instante fundacional que la hizo posible, lo arruina por accidente, y regresa a nuestro propio 2016 —donde no encuentra un mundo vacío esperándolo, sino un cuerpo ya ocupado: otro él, John, con una vida entera vivida, una madre viva que en la utopía había muerto joven, una novia que Tom nunca conoció. No es el fork limpio de Stark, dos horizontes separándose desde un punto común. Es un injerto: un horizonte completo, con setenta años de recuerdos de una historia que ya no existe, cargado sobre la interfaz de otro. Tom aprende, gesto a gesto, cómo se sirve el café John, en qué lado de la cama duerme, hasta que deja de estar claro dónde termina la imitación y empieza la sustitución. La novela no concede el consuelo de una rama separada. Ni siquiera concede el de un cuerpo propio: quizás no hay ninguna diferencia entre habitar plenamente un horizonte ajeno y ser, sencillamente, otra persona.
+En *Todos nuestros presentes equivocados*, de Elan Mastai, Tom Barren viaja desde una utopía tecnológica hasta el instante fundacional que la hizo posible, lo arruina por accidente, y regresa a nuestro propio 2016 —donde no encuentra un mundo vacío esperándolo, sino un cuerpo ya ocupado: otro él, John Barren, con una vida entera vivida, una madre viva que en la utopía había muerto joven, una novia que Tom nunca conoció. No es el fork limpio de Stark, dos horizontes separándose desde un punto común. Es un injerto: un horizonte completo, con setenta años de recuerdos de una historia que ya no existe, cargado sobre la interfaz de otro. Tom aprende, gesto a gesto, cómo se sirve el café John, en qué lado de la cama duerme, hasta que deja de estar claro dónde termina la imitación y empieza la sustitución. La novela no concede el consuelo de una rama separada. Ni siquiera concede el de un cuerpo propio: quizás no hay ninguna diferencia entre habitar plenamente un horizonte ajeno y ser, sencillamente, otra persona.
 
 Kurt Vonnegut plantea, en *Matadero Cinco*, el caso más extremo: no un horizonte que viaja por el tiempo, sino un horizonte al que el tiempo deja de ocurrirle en orden. Billy Pilgrim, superviviente del bombardeo de Dresde, "se ha desprendido del tiempo": salta sin control entre su infancia, la guerra, su vejez y su propia muerte, que ya conoce de antemano. Los tralfamadorianos que según Billy lo secuestran perciben las cuatro dimensiones a la vez: un ser humano no es una serie de instantes sucesivos, sino una criatura larga como una lombriz, con pies de bebé en un extremo y pies de anciano en el otro, entera y presente de golpe. La muerte, para ellos, no es un final: es solo un momento malo entre muchos otros, que sigue existiendo, intacto, en su lugar de la lombriz. Este libro ha defendido que el tiempo es una consecuencia de cómo un horizonte integra su historia en secuencia; los tralfamadorianos describen algo distinto —un horizonte que integrara toda su historia de una sola vez no tendría tiempo en el sentido que este libro le ha dado. Tendría una geografía. Y si eso fuera cierto, el libre albedrío no sería más que el precio que paga un horizonte por solo poder mirar su propia lombriz un centímetro cada vez. *So it goes*, repite Vonnegut cada vez que alguien muere. No es resignación: es la frase que le queda a alguien que ha dejado de pedirle permiso al tiempo para doler.
 

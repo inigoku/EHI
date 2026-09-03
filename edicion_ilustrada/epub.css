@@ -1,0 +1,19 @@
+h1, h2, h3 {
+  break-after: avoid;
+  page-break-after: avoid;
+}
+h1 + figure, h2 + figure, h3 + figure {
+  break-before: avoid;
+  page-break-before: avoid;
+}
+figure {
+  break-inside: avoid;
+  page-break-inside: avoid;
+}
+figure img {
+  max-width: 100%;
+}
+figcaption {
+  break-before: avoid;
+  page-break-before: avoid;
+}
