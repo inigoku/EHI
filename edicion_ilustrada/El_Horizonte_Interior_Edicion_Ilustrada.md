@@ -58,7 +58,7 @@ Todo es provisional. Todo es juego. Pero hay juegos que, por el mero hecho de ju
 
 ## La costumbre del agua
 
-![La costumbre del agua](images/il_tarel.jpg)
+![La costumbre del agua](images/il02.jpg)
 
 *(Cuento de Tarel)*
 
@@ -90,7 +90,7 @@ Encontré un texto sin firma, casi borrado por la sal: *«El agua nos sostiene m
 
 El último día metí las manos en la laguna que quedaba. Estaba tibia, turbia, salada. La dejé correr entre los dedos. No me despedí.
 
-![Tarel de noche, bajo el arco tallado](images/il02.jpg)
+![Tarel, la orilla seca](images/il_tarel.jpg)
 
 El agua de Tarel regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos.
 
