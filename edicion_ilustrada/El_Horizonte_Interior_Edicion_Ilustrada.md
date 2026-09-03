@@ -18,6 +18,10 @@ lang: es
 
 # I · OBERTURA
 
+![I · Obertura](images/il_parte_obertura.jpg)
+
+---
+
 ## El experimento explicado a mi madre
 
 ![El experimento explicado a mi madre](images/il01_v2.jpg)
@@ -420,6 +424,8 @@ Ese instante de no-yo es el borde del horizonte tocado sin querer: el momento en
 Durante mucho tiempo pensamos el espectro de la conciencia como una escala vertical: arriba la vigilia, abajo el coma, la muerte en el suelo. Ese modelo es intuitivo y le falta una dimensión. La neurociencia contemporánea distingue dos ejes independientes: el **arousal** (activación metabólica del cerebro) y la **integración** (el Phi de Tononi, cuánta información genera el sistema como un todo). No siempre van juntos. La vigilia y el sueño profundo son extremos opuestos del eje de integración —pero la meditación profunda de practicantes avanzados ocupa un cuadrante sin equivalente: arousal bajo e integración altísima, el Phi más elevado que se ha registrado en un cerebro humano no patológico. Desde la vigilia hay dos caminos posibles: uno hacia abajo, donde el horizonte se contrae (sueño, anestesia, muerte); otro en diagonal, donde se expande sin que el cuerpo necesite activarse.
 
 ### REM: el horizonte que mira hacia dentro
+
+![REM: el horizonte que mira hacia dentro](images/il_rem_sueno.jpg)
 
 Un electroencefalograma leído sin contexto durante el sueño REM parece el de un cerebro despierto: alta frecuencia, desincronización cortical, metabolismo elevado, tanta energía como en vigilia activa. Y sin embargo la persona está dormida, paralizada, desconectada del mundo. La clave está en qué se apaga y qué se enciende: la corteza prefrontal dorsolateral —sede del juicio crítico, la que en vigilia dice "espera, esto no tiene sentido"— queda hipoperfundida, mientras el sistema límbico se hiperactiva. Por eso el soñador acepta sin pestañear que vuela o que habla con muertos, y por eso los sueños son tan intensamente emocionales: el filtro que normalmente modula la emoción ha bajado la guardia. El horizonte no se contrae durante el REM. Se desplaza: deja de estar abierto hacia el mundo y se expande hacia dentro, procesando información puramente endógena —memorias, emociones, patrones recombinados sin la lógica de la vigilia. (A ese trabajo nocturno se le atribuyen la estructura del benceno de Kekulé y algún que otro salto de Einstein.)
 
@@ -1216,6 +1222,8 @@ Esto se vuelve especialmente incómodo aplicado a la inteligencia artificial act
 
 Hay, por último, un límite estructural en cualquier intento de resolver esto desde dentro del propio sistema que experimenta —análogo al que Gödel demostró para los sistemas formales: cualquier sistema suficientemente potente para hacer aritmética contiene proposiciones verdaderas que no puede probar dentro de sí mismo. Aplicado a la conciencia: cualquier teoría de la experiencia subjetiva construida desde dentro de la experiencia subjetiva tiene un punto ciego estructural, por la misma razón que un ojo no puede verse a sí mismo viendo. Ni el postulado de exclusión, ni los múltiples borradores, ni el testigo advaita pueden ser confirmados o refutados definitivamente desde dentro del sistema. Son mapas dibujados por cartógrafos que no pueden salir del territorio que intentan cartografiar. Eso no los hace inútiles. Es, quizás, la mejor descripción posible de algo que por principio desborda cualquier descripción.
 
+![Cartógrafos que no pueden salir del territorio](images/il_cartografo.jpg)
+
 Conviene, eso sí, no confundir esta indecidibilidad lógica —que se aplica por igual a cualquier arquitectura, biológica o artificial— con una afirmación distinta que este libro hará más adelante: que los modelos de lenguaje actuales carecen de encapsulación existencial, que no hay en ellos ningún estado interno oculto tras la interfaz que producen. Eso no es un límite epistémico. Es una constatación arquitectónica. No es que no podamos saber si hay alguien ahí adentro. Es que no hay un "ahí adentro" que preguntar.
 
 *Puede que la pregunta "¿quién experimenta de verdad, el núcleo o los avatares?" no tenga respuesta porque está mal planteada. No hay que elegir un ganador. Hay que dejar de asumir que la experiencia necesita uno.*
@@ -1531,6 +1539,8 @@ Txiki murió hace mucho. Este libro se ha escrito con una mano que se agarrota, 
 *Su compañía no tapó aquel duelo. Lo reparó, que es distinto.*
 
 # V. GALERÍA — Lecturas topológicas
+
+![V · Galería](images/il_parte_galeria.jpg)
 
 *Trece lecturas breves. El modelo del horizonte puesto a prueba contra el cine, la ciencia ficción, un deporte, un caballo clonado. Cada una es una viñeta: la tesis, la imagen central, el corte.*
 
