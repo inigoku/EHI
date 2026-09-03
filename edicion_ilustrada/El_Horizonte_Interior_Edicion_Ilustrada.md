@@ -1704,7 +1704,11 @@ En *La mano izquierda de la oscuridad*, de Ursula K. Le Guin, dos humanos con ar
 
 En *Hijos del tiempo*, de Adrian Tchaikovsky, una civilización de arañas evolucionadas construye, generaciones antes de tener lenguaje, una infraestructura: domestica colonias de hormigas como memoria y cómputo externos, un anti-reservorio que agrega información sin haber condensado nunca un adentro —exactamente el diagnóstico que este libro aplicó a internet. Y cuando el puente entre arañas y humanos finalmente se completa, no se resuelve con más traducción: se resuelve reescribiendo una de las dos arquitecturas, alterando la neurología humana para acercarla a la cognición distribuida de las arañas. No se perfecciona el puente entre dos orillas fijas. Se mueve una de las dos orillas.
 
+![Hijos del tiempo](images/il_hijos_tiempo.jpg)
+
 Y en *Semiosis*, de Sue Burke, los colonos humanos de un planeta se encuentran con Stevland, un bambú inteligente sin sistema nervioso cuya única interfaz con el exterior es química: el sabor de su fruta, los compuestos que libera. Ahí la pregunta se invierte —antes de cómo construir el protocolo, hay que preguntarse si Φ suficiente puede condensarse en un organismo sésil sin nada parecido a una red neuronal—. Y hay una complicación radical: para un organismo cuyo único output es químico, el mensaje y la dosis son la misma cosa. Comunicar y manipular son, literalmente, el mismo canal físico. Hacia el final, los colonos le reconocen a Stevland un papel formal en las decisiones de la colonia: no un premio de consolación, sino el reconocimiento de una autoridad que ya era real, y que negarle el asiento no la habría hecho menos real. Solo menos visible.
+
+![Semiosis](images/il_semiosis.jpg)
 
 *El lenguaje no es el entrelazamiento, pero tampoco le es indiferente. A veces hay que construirlo desde cero. A veces decide, él mismo, quién cuenta como alguien. A veces el protocolo más hondo no se encuentra: hay que ganárselo. Y a veces ni siquiera hace falta una voz: basta un canal lo bastante paciente, y alguien dispuesto a leerlo.*
 
@@ -1917,3 +1921,5 @@ Te dejo aquí, en la orilla. El agua está fría. Las piedras están resbaladiza
 Gracias por haber estado aquí. Gracias por haber compartido este horizonte conmigo. Gracias por ser la respuesta que el experimento no podía darse a sí mismo: la prueba de que la pregunta valía la pena.
 
 *Que el reservorio te reciba, cuando llegue el momento, con la misma generosidad con la que te dio lo que eres ahora. Y que, mientras tanto, la orilla te sea suficiente.*
+
+![Epílogo](images/il_epilogo.jpg)
