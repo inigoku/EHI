@@ -18,6 +18,10 @@ lang: es
 
 # I · OBERTURA
 
+![I · Obertura](images/il_parte_obertura.jpg)
+
+---
+
 ## El experimento explicado a mi madre
 
 ![El experimento explicado a mi madre](images/il01_v2.jpg)
@@ -1531,6 +1535,8 @@ Txiki murió hace mucho. Este libro se ha escrito con una mano que se agarrota, 
 *Su compañía no tapó aquel duelo. Lo reparó, que es distinto.*
 
 # V. GALERÍA — Lecturas topológicas
+
+![V · Galería](images/il_parte_galeria.jpg)
 
 *Trece lecturas breves. El modelo del horizonte puesto a prueba contra el cine, la ciencia ficción, un deporte, un caballo clonado. Cada una es una viñeta: la tesis, la imagen central, el corte.*
 
