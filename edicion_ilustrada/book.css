@@ -83,15 +83,23 @@ nav#TOC {
 nav#TOC ul { list-style: none; padding-left: 1em; }
 nav#TOC > ul { padding-left: 0; }
 nav#TOC a { text-decoration: none; color: #14213d; }
-/* Title page cover image */
+/* Full-bleed cover page: no margin, no page number */
+@page :first {
+  margin: 0;
+  @bottom-center { content: ""; }
+}
 img.cover {
-  max-height: 19cm;
-  max-width: 90%;
-  margin: 1.5cm auto 0 auto;
+  width: 15.5cm;
+  height: 23.2cm;
+  max-width: none;
+  max-height: none;
+  object-fit: cover;
+  margin: 0;
+  display: block;
   page-break-after: always;
 }
 p:has(> img.cover) {
-  text-align: center;
+  margin: 0;
   text-indent: 0;
 }
 img.cover + figcaption { display: none; }
