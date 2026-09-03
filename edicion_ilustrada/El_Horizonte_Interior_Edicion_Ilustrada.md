@@ -20,6 +20,8 @@ lang: es
 
 ## El experimento explicado a mi madre
 
+![El experimento explicado a mi madre](images/il01_v2.jpg)
+
 *(O: cómo leer este libro sin haber estudiado física)*
 
 Mi madre tiene ochenta años. Lee novelas, no artículos de *Nature*. Cuando le expliqué este libro, me dijo: «Hijo, suena interesante, pero no entiendo nada de agujeros negros.»
@@ -88,6 +90,8 @@ Encontré un texto sin firma, casi borrado por la sal: *«El agua nos sostiene m
 
 El último día metí las manos en la laguna que quedaba. Estaba tibia, turbia, salada. La dejé correr entre los dedos. No me despedí.
 
+![Tarel de noche, bajo el arco tallado](images/il02.jpg)
+
 El agua de Tarel regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos.
 
 Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.
@@ -96,7 +100,7 @@ Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si hab
 
 ## La trampa del interruptor
 
-![La trampa del interruptor](images/il01.jpg)
+![La trampa del interruptor](images/il04_v2.jpg)
 
 Txiki tenía una manera particular de mirar: ni la mirada errática del animal que escanea amenazas, ni la vacía del que procesa estímulos sin que haya nadie detrás. Era algo más quieto — una atención sostenida que reconocía, que se quedaba, que *estaba*.
 
@@ -158,7 +162,7 @@ Bajó la mano y salió de la casa al final de la ciudad al final del camino con 
 
 ## Agujeros negros para no físicos
 
-![Agujeros negros para no físicos](images/il02.jpg)
+![Agujeros negros para no físicos](images/il05_v2.jpg)
 
 Imagina una linterna en el espacio, lejos de cualquier planeta. Enciendes la luz: sale en todas direcciones, a 300.000 km/s, y escapa para siempre. Ahora añade masa. La gravedad curva el camino de la luz — un planeta la desvía ligeramente, lo suficiente para medirlo durante un eclipse, como hizo Eddington en 1919. Con masa suficiente, la curvatura se vuelve extrema: la luz que sale en cualquier dirección termina doblada hacia el interior. Nada puede escapar. Ni luz, ni información, ni señal de ningún tipo.
 
@@ -196,7 +200,7 @@ Si el entrelazamiento es geometría, y si la conciencia tiene la estructura de u
 
 ## La encapsulación
 
-![La encapsulación](images/il04.jpg)
+![La encapsulación](images/il05_5.jpg)
 
 *(O: la física se convierte en filosofía)*
 
@@ -224,7 +228,7 @@ Esto es más cercano de lo que parece a algo que el Vedanta viene diciendo desde
 
 ## La coincidencia que no es casual
 
-![La coincidencia que no es casual](images/il05.jpg)
+![La coincidencia que no es casual](images/il06_v2.jpg)
 
 Hay dos teorías que no deberían tener nada que ver entre sí. Una describe cómo la mente genera experiencia. La otra, qué ocurre con la información cuando cae en un agujero negro. Sus autores nunca se han citado. Sus matemáticas proceden de tradiciones completamente distintas. Y sin embargo, dicen lo mismo: que lo que importa no es el contenido del sistema, sino su borde. Tononi mide la conciencia por lo que un sistema genera *como un todo* — Φ, información que no existe en ninguna parte por separado, solo en la relación entre ellas. Bekenstein y Hawking dijeron que la información de un agujero negro es proporcional al área de su horizonte, no al volumen que encierra: si lanzas un libro dentro, el libro desaparece, pero su información queda grabada en la superficie, como un holograma en una pantalla plana.
 
@@ -258,7 +262,7 @@ Hay, todavía, algo incómodo que el modelo predice: un horizonte no puede ver s
 
 ## El reservorio
 
-![El reservorio](images/il06.jpg)
+![El reservorio](images/il_oceano_olas.jpg)
 
 Hay un silencio que no está vacío. El instante antes de que empiece la música, cuando la sala está en tensión y lo que va a ocurrir está presente sin haber ocurrido todavía. El lienzo blanco antes del primer trazo. La página en blanco a las seis de la mañana. Eso no es frustración creativa: es plenitud sin forma, potencia pura.
 
@@ -284,7 +288,7 @@ No hace falta un acelerador de partículas para tocar el reservorio. La respirac
 
 ## El nacimiento como emergencia
 
-![El nacimiento como emergencia](images/il07.jpg)
+![El nacimiento como emergencia](images/il08_v2.jpg)
 
 Hay un momento en la formación de una burbuja de jabón que ocurre demasiado rápido para verlo: el film se estira, se curva, y en algún instante —no sabes exactamente cuándo— se cierra sobre sí mismo. La burbuja no anuncia su propia formación. Simplemente ocurre.
 
@@ -332,7 +336,7 @@ Hay una versión de este cuento en que Elena ve, esa noche, algo definitivo, y l
 
 ## La muerte como retorno
 
-![La muerte como retorno](images/il08.jpg)
+![La muerte como retorno](images/il09_v2.jpg)
 
 *El agua de Tarel regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
 
