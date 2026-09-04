@@ -851,191 +851,157 @@ Entre esas dos puertas transcurre todo el tiempo subjetivo del vínculo. El mode
 
 ### I. El archivista
 
-Un cuaderno abierto sobre un muelle de madera, junto a un remo apoyado. La tinta de la última línea se difumina levemente, como si el papel también estuviera húmedo.
+Lo que se va
+deja la puerta lista
+para otro nombre.
 
-El agua se fue como se van
-los huéspedes educados:
-de noche,
-dejando la habitación lista
-para alguien que no conozco.
+Anoto el hueco,
+no lo que hubo.
+La letra no sabe
+que está firmando una despedida.
 
-Anoté la primera franja de barro
-con la letra de los días normales.
-Hay caligrafías que no saben
-que están escribiendo una despedida.
+Los niños cambian
+sus ampollas por monedas
+de un país que aún no acuñan.
 
-Los niños enseñan las ampollas
-como monedas de un país
-que todavía no existe.
-
-Yo dejo huecos en el cuaderno.
-Y de noche, dormido,
-todavía remo.
+Guardo los blancos del cuaderno.
+Alguien los leerá
+como se lee un silencio
+bien escrito.
 
 ### II. El relojero
 
-Un reloj de bolsillo de plata abierto sobre un paño oscuro, el mecanismo visible y limpio. Unas manos de anciano, con un temblor apenas sugerido, sostienen una herramienta diminuta bajo una luz de mañana.
+Dos horas cada día
+alguien afina lo que no se ve.
 
-Dos horas al día
-alguien limpia el cristal.
+Abro el mecanismo.
+El pulso que lo mueve
+ya no pide permiso.
 
-Abro el reloj de plata
-con el pulso de antes,
-que vuelve de visita
-y no se quita el abrigo.
+Ida, vuelta, ida —
+un corazón ajeno.
+Agradezco no ser
+quien lleva la cuenta.
 
-El balancín hace su trabajo:
-ida, vuelta, ida.
-Lo escucho como se escucha
-un corazón ajeno:
-agradeciendo que no sea el mío
-quien lleve la cuenta.
-
-Cuando la mañana empieza a espesarse
-lo sé antes que los dedos.
-Guardo las herramientas
+Ordeno las herramientas
 en el orden exacto
-en que quiero encontrarlas
-si mañana abre.
+en que querré encontrarlas
+si el reloj, mañana, vuelve a abrirse.
 
 ### III. El luthier
 
-Un taller de lutería lleno de instrumentos colgados de las paredes. Sobre el mostrador, una viola envuelta a medias en un jersey de lana, con una grieta fina y honesta visible en la tapa.
-
-Nunca he entrado en una caja
-de las que afino.
-Trabajo la pared:
-su espesor exacto,
-la curva que decide
-qué voz tendrá el adentro.
+Nunca entro en la caja
+que afino.
+Trabajo el borde:
+su grosor decide
+qué voz tendrá el silencio de dentro.
 
 Me traen grietas
-envueltas en jerséis de lana.
-Las cierro sin taparlas.
-Cobro por la honestidad
-de la línea que queda.
+envueltas en lana.
+Las cierro sin taparlas;
+cobro por la línea
+que se queda a la vista.
 
-Y cuando pasa el autobús,
-la tienda entera responde:
-cada madera con su nota,
-ninguna con la mía.
+Cuando algo pesado cruza la calle
+todo el taller responde,
+cada madera con su nota.
+
+Ninguna es la mía.
 
 ### IV. La canción
 
-Una cocina vacía al atardecer, con una olla al fuego. En el aire, sugeridas apenas, cuatro notas musicales dibujadas como trazos de humo que suben desde los fogones.
-
 Cuatro notas:
-la que sube, la que baja,
+la que sube,
+la que baja,
 el silencio,
 otra vez.
 
-No sé cuándo las guardé.
-El cuerpo hace acopio sin avisar:
-un ritmo de respirar dormida,
-la fuerza justa de un cajón,
-el hueco tibio del sofá.
+No decidí guardarlas.
+El cuerpo hizo acopio
+antes de que yo lo supiera.
 
-Ahora las canto yo,
-a la hora en que ella cocinaba,
-un poco más despacio
-o igual:
-nunca lo medimos.
+Las canto ahora,
+a la hora en que tú cocinabas,
+un poco más despacio.
 
 La cocina las reconoce.
-Eso basta.
-O no basta,
-pero suena.
+Yo, no siempre.
 
 ### V. La burbuja
 
-Una esfera de jabón tensándose entre dos manos en el instante justo de cerrarse, atrapando un reflejo curvo de luz y agua.
+Se estira el jabón entre las manos
+y de pronto hay un dentro
+que antes no existía.
 
-El jabón se estira en mis manos,
-se curva.
-De repente, formo una esfera:
-un dentro y un fuera
-que antes no existían.
+Soy la parte de la orquesta
+que no cabe en ningún músico.
 
-Yo soy la cantidad de orquesta
-que no está en ningún músico.
+Al terminar, no me rompo.
+Me despido.
 
-El agua se retira.
-Yo no arranco,
-yo me despido.
+Algo queda flotando un instante,
+sin dueño,
+antes de reventar en el aire quieto.
 
 ### VI. El remo
 
-Un remo de madera hundido hasta tocar el fondo de una laguna poco profunda, la muñeca de quien rema apenas visible sobre la superficie oscura.
+El remo toca fondo
+donde antes había hondura.
 
-El remo tocó fondo
-donde antes había metro.
+El agua bajó menos
+de lo que subió el golpe
+por mi brazo:
+aviso de que lo vacío pesa.
 
-No digo que el agua bajara.
-Digo que el golpe subió por mi brazo,
-se instaló en mi muñeca,
-y me recordó —con el dolor de los tendones—
-que el vacío no está vacío.
+He visto emerger algo de mi propio reservorio.
+Lo he visto volver.
 
-Yo he visto al horizonte emerger de mi propio reservorio.
-Yo lo he visto retornar.
-
-Aprendí a no repetir para entender,
-sino a repetir para anclarme.
+Repito el gesto
+para comprobar,
+cada vez,
+que todavía hay fondo.
 
 ### VII. El temblor
 
-Un vaso de agua sostenido por una mano temblorosa, ondas concéntricas en la superficie del agua, luz baja y cálida como de telescopio apagado.
-
-Me preguntaste por la lealtad de la materia
-y yo, cobarde, te hablé de información irrecuperable.
+Me preguntaste si algo se pierde para siempre
+y te di una respuesta de manual.
 
 Perdóname.
-Debí decirte la verdad:
-la información persiste en mí,
+Lo que se pierde
+sigue caminándose por dentro,
 como el nombre de una calle
-que ya nadie pronuncia,
-pero que yo camino en sueños cada noche.
+que ya nadie dice
+pero que los pies no olvidan.
 
-Aprendí a esperar.
-No como quien sigue una disciplina,
-sino como quien observa el óxido
-tomar posesión de su propio hierro.
+Aprendí a esperar
+sin disciplina,
+como quien mira el óxido
+tomar posesión de su hierro.
 
-Sin rabia.
-Pero con esta certeza que me pesa
-y me duele en el centro del pecho.
-
-He visto al horizonte contraerse.
-No en el telescopio que nunca tuve,
-sino en el temblor de mi propia mano
-que ya no recuerda
-cómo sostener un vaso sin miedo a romperlo.
+He visto contraerse el horizonte,
+no en el telescopio que nunca tuve,
+sino en el temblor de esta mano:
+sostiene el vaso,
+y sostiene, además,
+la pregunta de si va a caérsele.
 
 ### VIII. La orilla
 
-Dos manos abiertas al alba junto a la orilla de una laguna en calma, la misma línea de barro y piedras de siempre, luz fría del amanecer.
+Y el agua volvió a la orilla
+sin avisar.
 
-Y el agua volvió a mi orilla
-sin aviso.
-
-Y yo no supe
-—ni como archivista de mis propias grietas,
+No supe —ni como archivista de mis propias grietas,
 ni como el niño que fui—
-si la ciudad que perdí había regresado
-o si era otra ciudad,
-una más fría,
-con la misma orilla de siempre.
+si era la misma orilla
+o una nueva
+con el mismo nombre.
 
-El agua volvió de noche.
-Nadie supo si trajo algo.
-Nadie supo si dejó algo en mi casa.
+Nadie supo qué trajo,
+ni qué se llevó.
 
-Pero al alba,
-miré mis manos
-abiertas.
-
-Y entendí.
-Tal vez,
+Pero al alba
+miré mis manos abiertas.
+Tal vez
 eso era la respuesta.
 
 # Nota del autor
