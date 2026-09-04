@@ -849,7 +849,7 @@ Entre esas dos puertas transcurre todo el tiempo subjetivo del vínculo. El mode
 
 ## (ocho poemas)
 
-### I. El archivista
+# I. El archivista
 
 Lo que se va
   deja la puerta lista
@@ -869,7 +869,7 @@ Guardo los blancos del cuaderno.
     como se lee un silencio
       bien escrito.
 
-### II. El relojero
+# II. El relojero
 
 Dos horas cada día
     alguien afina lo que no se ve.
@@ -890,7 +890,7 @@ Ordeno las herramientas
     en que querré encontrarlas
 si el reloj, mañana, vuelve a abrirse.
 
-### III. El luthier
+# III. El luthier
 
 Nunca entro en la caja
   que afino.
@@ -910,7 +910,7 @@ Cuando algo pesado cruza la calle
 
 Ninguna es la mía.
 
-### IV. La canción
+# IV. La canción
 
 Cuatro notas:
 la que sube,
@@ -929,7 +929,7 @@ Las canto ahora,
 La cocina las reconoce.
         Yo, no siempre.
 
-### V. La burbuja
+# V. La burbuja
 
 Se estira el jabón entre las manos
   y de pronto hay un dentro
@@ -945,7 +945,7 @@ Me despido.
   sin dueño,
 antes de reventar en el aire quieto.
 
-### VI. El remo
+# VI. El remo
 
 El remo toca fondo
     donde antes había hondura.
@@ -963,7 +963,7 @@ Repito el gesto
     cada vez,
 que todavía hay fondo.
 
-### VII. El temblor
+# VII. El temblor
 
 Me preguntaste si algo se pierde para siempre
   y te di una respuesta de manual.
@@ -987,7 +987,7 @@ sino en el temblor de esta mano:
   y sostiene, además,
         la pregunta de si va a caérsele.
 
-### VIII. La orilla
+# VIII. La orilla
 
 Y el agua volvió a la orilla
   sin avisar.
