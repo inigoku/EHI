@@ -985,8 +985,8 @@ No se vacía:
 
 Donde estaba el nombre
   queda un agua oscura
-    que no refleja nada
-      y aun así pesa.
+    que no refleja nada.
+      Pero pesa.
 
 Bajo el cubo
   por la misma cuerda de siempre.
