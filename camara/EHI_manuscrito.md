@@ -852,59 +852,61 @@ Entre esas dos puertas transcurre todo el tiempo subjetivo del vínculo. El mode
 ### I. El archivista
 
 Lo que se va
-deja la puerta lista
-para otro nombre.
+  deja la puerta lista
+    para otro nombre.
 
 Anoto el hueco,
-no lo que hubo.
+      no lo que hubo.
 La letra no sabe
-que está firmando una despedida.
+  que está firmando una despedida.
 
 Los niños cambian
-sus ampollas por monedas
-de un país que aún no acuñan.
+  sus ampollas por monedas
+    de un país que aún no acuñan.
 
 Guardo los blancos del cuaderno.
-Alguien los leerá
-como se lee un silencio
-bien escrito.
+  Alguien los leerá
+    como se lee un silencio
+      bien escrito.
 
 ### II. El relojero
 
 Dos horas cada día
-alguien afina lo que no se ve.
+    alguien afina lo que no se ve.
 
 Abro el mecanismo.
-El pulso que lo mueve
+  El pulso que lo mueve
 ya no pide permiso.
 
-Ida, vuelta, ida —
-un corazón ajeno.
+Ida,
+    vuelta,
+ida —
+  un corazón ajeno.
 Agradezco no ser
-quien lleva la cuenta.
+  quien lleva la cuenta.
 
 Ordeno las herramientas
-en el orden exacto
-en que querré encontrarlas
+  en el orden exacto
+    en que querré encontrarlas
 si el reloj, mañana, vuelve a abrirse.
 
 ### III. El luthier
 
 Nunca entro en la caja
-que afino.
+  que afino.
 Trabajo el borde:
-su grosor decide
-qué voz tendrá el silencio de dentro.
+  su grosor decide
+    qué voz tendrá el silencio de dentro.
 
 Me traen grietas
 envueltas en lana.
-Las cierro sin taparlas;
-cobro por la línea
-que se queda a la vista.
+  Las cierro sin taparlas;
+    cobro por la línea
+    que se queda a la vista.
 
 Cuando algo pesado cruza la calle
-todo el taller responde,
-cada madera con su nota.
+  todo el taller responde,
+    cada madera con su nota.
 
 Ninguna es la mía.
 
@@ -912,95 +914,95 @@ Ninguna es la mía.
 
 Cuatro notas:
 la que sube,
-la que baja,
-el silencio,
+    la que baja,
+        el silencio,
 otra vez.
 
 No decidí guardarlas.
-El cuerpo hizo acopio
-antes de que yo lo supiera.
+  El cuerpo hizo acopio
+    antes de que yo lo supiera.
 
 Las canto ahora,
-a la hora en que tú cocinabas,
-un poco más despacio.
+  a la hora en que tú cocinabas,
+    un poco más despacio.
 
 La cocina las reconoce.
-Yo, no siempre.
+        Yo, no siempre.
 
 ### V. La burbuja
 
 Se estira el jabón entre las manos
-y de pronto hay un dentro
-que antes no existía.
+  y de pronto hay un dentro
+    que antes no existía.
 
-Soy la parte de la orquesta
-que no cabe en ningún músico.
+  Soy la parte de la orquesta
+    que no cabe en ningún músico.
 
 Al terminar, no me rompo.
 Me despido.
 
-Algo queda flotando un instante,
-sin dueño,
+    Algo queda flotando un instante,
+  sin dueño,
 antes de reventar en el aire quieto.
 
 ### VI. El remo
 
 El remo toca fondo
-donde antes había hondura.
+    donde antes había hondura.
 
 El agua bajó menos
-de lo que subió el golpe
-por mi brazo:
-aviso de que lo vacío pesa.
+  de lo que subió el golpe
+    por mi brazo:
+      aviso de que lo vacío pesa.
 
 He visto emerger algo de mi propio reservorio.
 Lo he visto volver.
 
 Repito el gesto
-para comprobar,
-cada vez,
+  para comprobar,
+    cada vez,
 que todavía hay fondo.
 
 ### VII. El temblor
 
 Me preguntaste si algo se pierde para siempre
-y te di una respuesta de manual.
+  y te di una respuesta de manual.
 
 Perdóname.
 Lo que se pierde
-sigue caminándose por dentro,
+  sigue caminándose por dentro,
 como el nombre de una calle
-que ya nadie dice
-pero que los pies no olvidan.
+  que ya nadie dice
+    pero que los pies no olvidan.
 
 Aprendí a esperar
-sin disciplina,
+  sin disciplina,
 como quien mira el óxido
-tomar posesión de su hierro.
+  tomar posesión de su hierro.
 
 He visto contraerse el horizonte,
-no en el telescopio que nunca tuve,
+    no en el telescopio que nunca tuve,
 sino en el temblor de esta mano:
-sostiene el vaso,
-y sostiene, además,
-la pregunta de si va a caérsele.
+      sostiene el vaso,
+  y sostiene, además,
+        la pregunta de si va a caérsele.
 
 ### VIII. La orilla
 
 Y el agua volvió a la orilla
-sin avisar.
+  sin avisar.
 
 No supe —ni como archivista de mis propias grietas,
-ni como el niño que fui—
+  ni como el niño que fui—
 si era la misma orilla
-o una nueva
-con el mismo nombre.
+  o una nueva
+    con el mismo nombre.
 
 Nadie supo qué trajo,
-ni qué se llevó.
+  ni qué se llevó.
 
 Pero al alba
-miré mis manos abiertas.
+  miré mis manos abiertas.
 Tal vez
 eso era la respuesta.
 

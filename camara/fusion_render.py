@@ -10,6 +10,10 @@ Los encabezados de nivel 1 (movimientos / partes) alimentan un índice real
 en las tres salidas: estilos de título de Word (navegables en el panel de
 Word), tabla de contenidos paginada en el pdf (reportlab TableOfContents),
 y navegación multi-entrada en el epub.
+Los versos (bloques de varias líneas) admiten sangría espacial: cada línea
+de origen puede empezar con espacios en pares (2 espacios = 1 nivel), que
+split_verse_line() traduce a indentación tipográfica real en cada formato
+en vez de dejarlos como espacios literales.
 """
 from __future__ import annotations
 
@@ -24,6 +28,13 @@ def esc_html(t: str) -> str:
 
 def level1_titles(blocks) -> list[str]:
     return [b.lines[0] for b in blocks if b.kind == "heading" and b.level == 1]
+
+
+def split_verse_line(line: str) -> tuple[int, str]:
+    """('  texto' -> (1, 'texto')); 2 espacios de cabecera = 1 nivel de sangría."""
+    stripped = line.lstrip(" ")
+    spaces = len(line) - len(stripped)
+    return spaces // 2, stripped
 
 
 # ---------------------------------------------------------------------------
@@ -95,6 +106,23 @@ def build_docx(header, blocks, out_path: Path):
                 r.bold = is_bold
                 r.font.size = Pt(size)
 
+    def add_verse(lines, *, size=11, unit_cm=0.55):
+        """Un párrafo por verso, con sangría real según split_verse_line()."""
+        n = len(lines)
+        for i, raw in enumerate(lines):
+            level, text = split_verse_line(raw)
+            p = doc.add_paragraph()
+            p.paragraph_format.left_indent = Cm(unit_cm * level)
+            p.paragraph_format.space_before = Pt(0)
+            p.paragraph_format.space_after = Pt(0 if i < n - 1 else 8)
+            for segment, is_bold, is_em in split_emphasis(text):
+                if not segment:
+                    continue
+                r = p.add_run(segment)
+                r.italic = is_em
+                r.bold = is_bold
+                r.font.size = Pt(size)
+
     HEADING_STYLE = {
         1: dict(size=18, bold=True, space_before=0, space_after=16),
         2: dict(size=13.5, bold=True, space_before=16, space_after=10),
@@ -135,9 +163,10 @@ def build_docx(header, blocks, out_path: Path):
                 doc.add_page_break()
             st = HEADING_STYLE[b.level]
             add(b.lines[0], style_name=WORD_STYLE[b.level], **st)
+        elif len(b.lines) > 1:
+            add_verse(b.lines)
         else:
-            align = None if len(b.lines) > 1 else WD_ALIGN_PARAGRAPH.JUSTIFY
-            add_multiline(b.lines, align=align)
+            add_multiline(b.lines, align=WD_ALIGN_PARAGRAPH.JUSTIFY)
 
     doc.save(out_path)
 
@@ -175,6 +204,11 @@ def build_epub(header, blocks, out_path: Path):
             "nav#toc ol{list-style:none;padding-left:0;}"
             "nav#toc li{margin:0.5em 0;text-align:center;}"
             "nav#toc a{text-decoration:none;color:#1a1a1a;}"
+            ".verse{margin:0 0 0.9em 0;font-style:italic;}"
+            ".verse p{margin:0;text-align:left;}"
+            ".v0{margin-left:0}.v1{margin-left:1.3em}.v2{margin-left:2.6em}"
+            ".v3{margin-left:3.9em}.v4{margin-left:5.2em}.v5{margin-left:6.5em}"
+            ".v6{margin-left:7.8em}"
         ),
     )
     book.add_item(css)
@@ -217,8 +251,14 @@ def build_epub(header, blocks, out_path: Path):
             else:
                 tag = f"h{b.level}"
                 html_parts.append(f"<{tag}>{esc_html(b.lines[0])}</{tag}>")
+        elif len(b.lines) > 1:
+            html_parts.append('<div class="verse">')
+            for raw in b.lines:
+                level, text = split_verse_line(raw)
+                html_parts.append(f'<p class="v{min(level, 6)}">{inline_html(text)}</p>')
+            html_parts.append("</div>")
         else:
-            html_parts.append("<p>" + "<br/>".join(inline_html(l) for l in b.lines) + "</p>")
+            html_parts.append("<p>" + inline_html(b.lines[0]) + "</p>")
 
     chapter = epub.EpubHtml(title=header[2], file_name="content.xhtml", lang="es")
     chapter.content = "<html><body>" + "\n".join(html_parts) + "</body></html>"
@@ -336,8 +376,16 @@ def build_pdf(header, blocks, out_path: Path):
                 story.append(Paragraph(render(b.lines[0]), h2))
             else:
                 story.append(Paragraph(render(b.lines[0]), h3))
+        elif len(b.lines) > 1:
+            n = len(b.lines)
+            for i, raw in enumerate(b.lines):
+                level, text = split_verse_line(raw)
+                line_style = ParagraphStyle(
+                    f"verse_{id(b)}_{i}", parent=poem,
+                    leftIndent=level * 16, spaceAfter=(0 if i < n - 1 else 10),
+                )
+                story.append(Paragraph(render(text), line_style))
         else:
-            st = poem if len(b.lines) > 1 else body
-            story.append(Paragraph("<br/>".join(render(l) for l in b.lines), st))
+            story.append(Paragraph(render(b.lines[0]), body))
 
     doc.multiBuild(story)
