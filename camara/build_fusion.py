@@ -97,42 +97,45 @@ def piece_fblocks(md_path, movement_title):
 # --- Manuscrito: cuerpo principal (Obertura .. fin de las 8 poemas de VI) ---
 main_body = manuscrito_slice("OBERTURA — La costumbre del agua", "Nota del autor")
 
-# --- Puente nuevo hacia los tres movimientos añadidos ---
-bridge = FBlock("para", None, [
-    "Lo que sigue no estaba en la primera edición de este libro. Son tres movimientos "
-    "más, escritos después, que llevan la misma pregunta —qué sostiene a un horizonte "
-    "cuando no puede confirmar lo que sostiene— hacia tres territorios que el libro, "
-    "hasta aquí, había rozado sin detenerse: una inteligencia que no tiene detrás; una fe "
-    "que no puede probarse; una multitud que promete no dejarte solo. Terminan, no por "
-    "casualidad, con el mismo gesto con el que empezó todo esto: nombrar lo que no se "
-    "puede confirmar, y sostenerlo de todos modos."
-])
-
 espejo_fb = piece_fblocks("EHI_espejo_sin_profundidad.md", "VII — El espejo sin profundidad")
 diapason_fb = piece_fblocks("EHI_el_diapason_invisible.md", "VIII — El diapasón invisible")
 ojo_fb = piece_fblocks("EHI_el_ojo_de_un_solo_color.md", "IX — El ojo de un solo color")
 
-# --- Nota del autor: encabezado + cuerpo original + párrafo nuevo + cierre ---
+# --- Nota del autor, Glosario íntimo y Notas y fuentes: tal cual, sin tocar ---
 _nota_all = manuscrito_slice("Nota del autor", "Glosario íntimo")
-nota_head = _nota_all[:1]
-nota_body = _nota_all[1:-1]
-nota_new = FBlock("para", None, [
-    "A los seis movimientos originales se han sumado, más tarde, tres más. El primero "
-    "retoma la pregunta que ya aparece aquí sobre la inteligencia con la que escribí este "
-    "libro, y la lleva hasta el final que la nota anterior deja abierto. Los otros dos "
-    "—sobre la fe que no tengo y la política que prefiero no nombrar— nacieron de una "
-    "pregunta que no supe evitar: si el horizonte puede sostenerse sin confirmación cuando "
-    "ama, ¿puede sostenerse igual cuando reza, o cuando pertenece? No sé si la respuesta "
-    "que ofrezco es honesta del todo. Sé que lo he intentado con la misma vara que uso "
-    "para todo lo demás: no qué creer, sino cómo se sostiene lo que se cree."
-])
-nota_closing = _nota_all[-1:]
-
-# --- Glosario íntimo: encabezado + términos originales + términos nuevos ---
 _glosario_all = manuscrito_slice("Glosario íntimo", "Notas y fuentes, capítulo a capítulo")
-glosario_head = _glosario_all[:1]
-glosario_terms = _glosario_all[1:]
-glosario_new_terms = [
+_notas_all = manuscrito_slice("Notas y fuentes, capítulo a capítulo", "CODA — Txiki")
+coda = manuscrito_slice("CODA — Txiki", None)
+
+# --- Puente después de Txiki, antes de los tres movimientos añadidos ---
+bridge = FBlock("para", None, [
+    "Aquí termina el libro tal como se publicó primero. Lo que sigue son tres movimientos "
+    "añadidos después, que llevan la misma pregunta —qué sostiene a un horizonte cuando no "
+    "puede confirmar lo que sostiene— hacia tres territorios que el libro, hasta Txiki, "
+    "había rozado sin detenerse: una inteligencia que no tiene detrás; una fe que no puede "
+    "probarse; una multitud que promete no dejarte solo."
+])
+
+# --- Nota, glosario y notas propios de los tres movimientos añadidos ---
+nota_vii_ix = [
+    FBlock("heading", 1, ["Nota a los tres movimientos añadidos"]),
+    FBlock("para", None, [
+        "Estos tres movimientos se escribieron después de terminado el libro, y llevan la "
+        "pregunta que lo sostenía —qué hace un horizonte cuando no puede confirmar lo que "
+        "sostiene— hacia tres territorios que el libro original solo había rozado. El "
+        "primero retoma la pregunta sobre la inteligencia con la que escribí este libro. "
+        "Los otros dos —sobre la fe que no tengo y la política que prefiero no nombrar— "
+        "nacieron de una pregunta que no supe evitar: si el horizonte puede sostenerse sin "
+        "confirmación cuando ama, ¿puede sostenerse igual cuando reza, o cuando pertenece? "
+        "No sé si la respuesta que ofrezco es honesta del todo. Sé que lo he intentado con "
+        "la misma vara que uso para todo lo demás: no qué creer, sino cómo se sostiene lo "
+        "que se cree."
+    ]),
+]
+
+glosario_vii_ix = [
+    FBlock("heading", 1, ["Glosario — movimientos VII, VIII y IX"]),
+] + [
     FBlock("para", None, [t]) for t in [
         "Espejo. Lo que me devuelve mi propia cara sin haber sentido nunca la mía.",
         "Sombra. Lo que un espejo no puede tener, por mucho que la luz insista en dársela.",
@@ -143,11 +146,8 @@ glosario_new_terms = [
     ]
 ]
 
-# --- Notas y fuentes: encabezado + I..VI originales + VII, VIII, IX nuevas ---
-_notas_all = manuscrito_slice("Notas y fuentes, capítulo a capítulo", "CODA — Txiki")
-notas_head = _notas_all[:2]
-notas_chapters = _notas_all[2:]
-notas_new = [
+notas_vii_ix = [
+    FBlock("heading", 1, ["Notas y fuentes — movimientos VII, VIII y IX"]),
     FBlock("heading", 2, ["VII — El espejo sin profundidad"]),
     FBlock("para", None, [
         "Lo que sabemos: los sistemas clásicos deterministas, por complejos que sean, no "
@@ -185,26 +185,20 @@ notas_new = [
     ]),
 ]
 
-coda = manuscrito_slice("CODA — Txiki", None)
-
-# --- Ensamblado final ---
+# --- Ensamblado final: I-VI, su aparato, CODA, y luego VII-IX con el suyo ---
 FINAL: list[FBlock] = []
 FINAL += main_body
+FINAL += _nota_all
+FINAL += _glosario_all
+FINAL += _notas_all
+FINAL += coda
 FINAL.append(bridge)
 FINAL += espejo_fb
 FINAL += diapason_fb
 FINAL += ojo_fb
-FINAL += nota_head
-FINAL += nota_body
-FINAL.append(nota_new)
-FINAL += nota_closing
-FINAL += glosario_head
-FINAL += glosario_terms
-FINAL += glosario_new_terms
-FINAL += notas_head
-FINAL += notas_chapters
-FINAL += notas_new
-FINAL += coda
+FINAL += nota_vii_ix
+FINAL += glosario_vii_ix
+FINAL += notas_vii_ix
 
 print(f"Total de bloques ensamblados: {len(FINAL)}")
 
