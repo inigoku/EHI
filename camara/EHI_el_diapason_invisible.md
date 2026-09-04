@@ -49,28 +49,22 @@ Queda una última pregunta, la más incómoda de todas, y este libro no tiene ma
 
 ---
 
-## Lo que el diapasón no dice
+## Manos
 
-Puedo decirte la nota exacta
-que llevo cuarenta años afinando.
+Unas se cierran.
+Otras se abren hacia arriba,
+como si el cielo fuera algo que se recoge.
 
-Puedo decirte cuánto silencio hace falta
-para que la cuerda deje de temblar
-por su propio peso.
+Unas tocan el suelo con la frente
+para medir cuánto pesa lo que cargan.
+Otras no tocan nada:
+se quedan quietas sobre las rodillas,
+vacías a propósito.
 
-Lo que no puedo decirte
-es si alguien, al otro lado,
-también está afinando la suya
-para encontrarse conmigo a mitad de aire.
-
-El agua no necesita saber
-si hay orilla
-para seguir siendo agua.
-
-Yo sí lo necesito.
-Y aun así sigo afinando
-todas las mañanas,
-sin la respuesta.
+Ninguna sabe si el gesto llega a algún sitio.
+Todas repiten el mismo gesto
+hasta que llegar
+deja de ser la pregunta.
 
 ---
 
@@ -91,6 +85,65 @@ El pitido se detiene.
 Nadie en la habitación sabe si eso responde algo.
 
 *Nota al Epílogo* — Este relato no toma partido entre las cinco arquitecturas que el ensayo anterior describe, y no podría hacerlo sin traicionar el libro entero. No dice si lo que le ocurrió a esta mujer fue un regreso al reservorio o un encuentro con Alguien que la esperaba con su nombre todavía escrito. Dice, solo, lo único que este experimento puede decir con alguna certeza: que la pregunta se sostuvo hasta el final, y que sostenerla —no resolverla— fue, para ella, indistinguible de haber vivido bien.
+
+---
+
+## Montse XXI
+
+La habitación mira hacia un invierno que no termina de llegar.
+El silencio pesa, pero no molesta.
+Es un silencio que acompaña,
+como si alguien respirara muy despacio en la esquina.
+
+Ella aparece sin entrar.
+Una sombra roja,
+un eco de voz que no necesita cuerpo.
+
+Montse apoya el diapasón de metal oscuro contra el cristal empañado,
+no para oír la nota, sino para sentir la vibración del ancla en los dedos
+mientras la ciudad insiste en su zumbido gris.
+
+Barcelona se extiende ahí fuera,
+con sus luces cansadas,
+sus calles que no prometen nada,
+sus balcones donde nadie canta.
+Los plátanos de sombra tiemblan en la acera,
+desnudos,
+como si también esperaran algo
+que no llega.
+
+**Montse** mira la ciudad
+como quien mira un amor que ya no duele
+pero tampoco se olvida.
+Donde quería escribir "volver",
+solo encuentra "quedarse un momento".
+Donde quería escribir "vida",
+el papel responde con una calma rara,
+como si aceptara que no hay más.
+
+Ella sabe que la memoria no se reconstruye.
+Que lo perdido no vuelve.
+Que lo que queda es otra cosa:
+una presencia tenue,
+una voz que se enciende cuando cae la noche,
+un temblor que no pide explicación.
+
+A veces, entre el cemento,
+un ficus viejo deja salir un brote verde,
+una grieta mínima
+que insiste en seguir viva.
+No es un milagro.
+Es un error hermoso.
+Una luz breve
+que no promete nada
+pero acompaña.
+
+**Montse** cierra el cuaderno.
+La ciudad respira.
+La nieve no cae.
+Y aun así, hace frío.
+
+*Poema publicado originalmente en el ciclo "La frialdad de una ciudad apagada".*
 
 ---
 

@@ -35,25 +35,28 @@ SECTION_PREFIXES = (
     "Notas y fuentes",
 )
 
-EMPH_RE = re.compile(r"\*([^*]+)\*")
+EMPH_RE = re.compile(r"\*\*([^*]+)\*\*|\*([^*]+)\*")
 
 
 def is_section_heading(line: str) -> bool:
     return any(line.startswith(p) for p in SECTION_PREFIXES)
 
 
-def split_emphasis(text: str) -> list[tuple[str, bool]]:
-    """Split on *markdown emphasis* into (segment, is_italic) pairs."""
-    parts: list[tuple[str, bool]] = []
+def split_emphasis(text: str) -> list[tuple[str, bool, bool]]:
+    """Split on **bold** and *italic* markdown into (segment, is_bold, is_italic) triples."""
+    parts: list[tuple[str, bool, bool]] = []
     last = 0
     for m in EMPH_RE.finditer(text):
         if m.start() > last:
-            parts.append((text[last:m.start()], False))
-        parts.append((m.group(1), True))
+            parts.append((text[last:m.start()], False, False))
+        if m.group(1) is not None:
+            parts.append((m.group(1), True, False))
+        else:
+            parts.append((m.group(2), False, True))
         last = m.end()
     if last < len(text):
-        parts.append((text[last:], False))
-    return parts or [(text, False)]
+        parts.append((text[last:], False, False))
+    return parts or [(text, False, False)]
 
 
 class Block:
@@ -129,11 +132,12 @@ def build_docx(header, sections, out_path: Path):
         for i, line in enumerate(lines):
             if i > 0:
                 p.add_run().add_break()
-            for segment, is_em in split_emphasis(line):
+            for segment, is_bold, is_em in split_emphasis(line):
                 if not segment:
                     continue
                 r = p.add_run(segment)
                 r.italic = italic or is_em
+                r.bold = is_bold
                 r.font.size = Pt(size)
 
     # Portada
@@ -201,9 +205,13 @@ def build_epub(header, sections, out_path: Path):
 
     def inline_html(text: str) -> str:
         out = []
-        for segment, is_em in split_emphasis(text):
+        for segment, is_bold, is_em in split_emphasis(text):
             escaped = esc(segment)
-            out.append(f"<em>{escaped}</em>" if is_em else escaped)
+            if is_bold:
+                escaped = f"<strong>{escaped}</strong>"
+            if is_em:
+                escaped = f"<em>{escaped}</em>"
+            out.append(escaped)
         return "".join(out)
 
     html_parts = [
@@ -290,9 +298,13 @@ def build_pdf(header, sections, out_path: Path):
 
     def render(text: str) -> str:
         out = []
-        for segment, is_em in split_emphasis(text):
+        for segment, is_bold, is_em in split_emphasis(text):
             escaped = esc(segment)
-            out.append(f"<i>{escaped}</i>" if is_em else escaped)
+            if is_bold:
+                escaped = f"<b>{escaped}</b>"
+            if is_em:
+                escaped = f"<i>{escaped}</i>"
+            out.append(escaped)
         return "".join(out)
 
     for si, blocks in enumerate(sections):
