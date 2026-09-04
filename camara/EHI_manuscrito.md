@@ -67,6 +67,63 @@ Los papeles del Continente Seco seguían en el archivo, con sus cifras exactas y
 
 Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.
 
+## Poema: El archivista
+
+Lo que se va
+  deja la puerta lista
+    para otro nombre.
+
+Anoto el hueco,
+      no lo que hubo.
+La letra no sabe
+  que está firmando una despedida.
+
+Los niños cambian
+  sus ampollas por monedas
+    de un país que aún no acuñan.
+
+Guardo los blancos del cuaderno.
+  Alguien los leerá
+    como se lee un silencio
+      bien escrito.
+
+## Poema: El remo
+
+El remo toca fondo
+    donde antes había hondura.
+
+El agua bajó menos
+  de lo que subió el golpe
+    por mi brazo:
+      aviso de que lo vacío pesa.
+
+He visto emerger algo de mi propio reservorio.
+Lo he visto volver.
+
+Repito el gesto
+  para comprobar,
+    cada vez,
+que todavía hay fondo.
+
+## Poema: La orilla
+
+Y el agua volvió a la orilla
+  sin avisar.
+
+No supe —ni como archivista de mis propias grietas,
+  ni como el niño que fui—
+si era la misma orilla
+  o una nueva
+    con el mismo nombre.
+
+Nadie supo qué trajo,
+  ni qué se llevó.
+
+Pero al alba
+  miré mis manos abiertas.
+Tal vez
+eso era la respuesta.
+
 # I — La forma del interior
 
 ## Ensayo: Tres imágenes y un límite
@@ -82,6 +139,22 @@ No es una afirmación gratuita. Se puede conocer hasta el último disparo neuron
 No se encuentra el pensamiento bajo el microscopio porque este instrumento solo está diseñado para observar la interfaz pública. El estado privado está, por construcción, del otro lado de la frontera. Pedirle a un electrodo que capture una experiencia subjetiva es como pedirle a un observador externo a un agujero negro que lea una carta que ha caído en su interior: la información es real, pero el punto de observación es geométricamente equivocado.
 
 El encapsulamiento es el precio que un sistema paga por su propia complejidad — nada de accidente biológico. Para procesar sin disolverse en el ruido del entorno, necesita cerrarse tras una interfaz limpia. Un interior solo puede emerger, y sostenerse en el tiempo, si algo lo separa.
+
+## Poema: La burbuja
+
+Se estira el jabón entre las manos
+  y de pronto hay un dentro
+    que antes no existía.
+
+  Soy la parte de la orquesta
+    que no cabe en ningún músico.
+
+Al terminar, no me rompo.
+Me despido.
+
+    Algo queda flotando un instante,
+  sin dueño,
+antes de reventar en el aire quieto.
 
 ## Ficción: El ladrón de interiores
 
@@ -264,6 +337,25 @@ En enero, comiendo con tu cuñado, te preguntó cómo estabas en realidad, y por
 Sigue ahí, contigo, cuando lavas los platos o esperas el autobús o te afeitas. Sale de ti con la naturalidad de las cosas que el cuerpo guarda sin consultar. Ya no la buscas. Sabes que Clara la tarareó durante años y que ahora es tuya de la misma manera difusa en que es tuyo el apartamento, o el cajón de la cocina que solo ella sabía abrir: no porque la hayas elegido, sino porque se ha quedado.
 
 Era suficiente. O no era suficiente, pero era lo que había, que a veces viene a ser lo mismo.
+
+## Poema: La canción
+
+Cuatro notas:
+la que sube,
+    la que baja,
+        el silencio,
+otra vez.
+
+No decidí guardarlas.
+  El cuerpo hizo acopio
+    antes de que yo lo supiera.
+
+Las canto ahora,
+  a la hora en que tú cocinabas,
+    un poco más despacio.
+
+La cocina las reconoce.
+        Yo, no siempre.
 
 ## Ficción: La casa de los perros que hablan
 
@@ -633,6 +725,26 @@ No respondí. Hay diagnósticos que solo puede hacer el cliente.
 
 Se fue con la viola en el estuche equivocado, con su jersey de lana. Cogí la escoba y barrí las virutas del día, que es lo que hace un taller con lo que sobra de las reparaciones: no lo guarda todo. Los instrumentos buenos, todos, trabajan para dejar de hacer falta.
 
+## Poema: El luthier
+
+Nunca entro en la caja
+  que afino.
+Trabajo el borde:
+  su grosor decide
+    qué voz tendrá el silencio de dentro.
+
+Me traen grietas
+envueltas en lana.
+  Las cierro sin taparlas;
+    cobro por la línea
+    que se queda a la vista.
+
+Cuando algo pesado cruza la calle
+  todo el taller responde,
+    cada madera con su nota.
+
+Ninguna es la mía.
+
 # INTERLUDIO — el borde que cruzamos cada noche
 
 Hay una investigadora que lleva años recopilando testimonios sobre el borde.
@@ -707,6 +819,30 @@ Hasta aquí, la teoría. Ahora, el cuerpo.
 
 Sé todo esto de cerca porque tengo Parkinson. La enfermedad se manifiesta despacio, en detalles que no adviertes hasta que ya están asentados. El primero, en mi caso, fue una leve falta de sincronización en el braceo; hoy es evidente, entonces no lo veía. Perder aficiones parece un proceso natural de la edad, hasta que la medicación restituye los niveles de dopamina y las conductas compulsivas regresan. En mi caso, el impulso de escribir libros de forma casi obsesiva. Este volumen es un producto directo de ese ajuste. Aquí emerge el verdadero vértigo filosófico: si la desaparición de mis intereses fue química, y su regreso también, ¿qué parte de este pensamiento es una idea que elegí tener y qué parte es una molécula calibrada en la dosis correcta?
 
+## Poema: El temblor
+
+Me preguntaste si algo se pierde para siempre
+  y te di una respuesta de manual.
+
+Perdóname.
+Lo que se pierde
+  sigue caminándose por dentro,
+como el nombre de una calle
+  que ya nadie dice
+    pero que los pies no olvidan.
+
+Aprendí a esperar
+  sin disciplina,
+como quien mira el óxido
+  tomar posesión de su hierro.
+
+He visto contraerse el horizonte,
+    no en el telescopio que nunca tuve,
+sino en el temblor de esta mano:
+      sostiene el vaso,
+  y sostiene, además,
+        la pregunta de si va a caérsele.
+
 ## Ficción: El reloj del cuerpo
 
 Fui relojero cuarenta años. Reparé relojes de pared, de bolsillo, cronómetros, despertadores que ya nadie fabrica. Mis manos aprendieron a moverse dentro de mecanismos donde un décimo de milímetro de error lo detiene todo. Había algo casi monástico en ese oficio: silencio, concentración, el tiempo reducido al sonido de un balancín.
@@ -728,6 +864,27 @@ La última vez que fui a la consulta llevaba un reloj de bolsillo que había rep
 —Va bien. Por ahora va bien.
 
 Guardé el reloj en el bolsillo del chaleco, donde lo llevaban los relojeros desde hace trescientos años, y salí con el paso de quien no necesita mirar el suelo para saber dónde lo pisa.
+
+## Poema: El relojero
+
+Dos horas cada día
+    alguien afina lo que no se ve.
+
+Abro el mecanismo.
+  El pulso que lo mueve
+ya no pide permiso.
+
+Ida,
+    vuelta,
+ida —
+  un corazón ajeno.
+Agradezco no ser
+  quien lleva la cuenta.
+
+Ordeno las herramientas
+  en el orden exacto
+    en que querré encontrarlas
+si el reloj, mañana, vuelve a abrirse.
 
 ## Ficción: La sala donde nadie preguntaba
 
@@ -844,167 +1001,6 @@ Y hay una última cosa que ni la geometría ni la termodinámica me van a explic
 Vuelvo a la habitación. Dentro de esta geometría, las dos puertas que tocan la estructura del horizonte son el amor y la muerte. El amor nos empuja a la asimetría insoportable de querer expandir nuestra frontera para incluir a otro, sabiendo que el reconocimiento total es geométricamente imposible sin disolver a uno de los dos. La muerte es el punto exacto donde el sistema ya no puede sostener la paradoja de su propia encapsulación, el colapso termodinámico donde el interior se ve obligado a ceder toda su información, evaporándose de vuelta al reservorio, como la ola que devuelve al océano una forma que solo tuvo prestada.
 
 Entre esas dos puertas transcurre todo el tiempo subjetivo del vínculo. El modelo no nos salva del temblor, ni del duelo, ni del olvido. Pero al aceptar que nuestra soledad es una ley fundacional de los sistemas complejos, y no un fracaso psicológico, nos da una manera de nombrar el abismo. Y nombrar el límite es, para mí, una manera de no perder la dignidad frente a él.
-
-# La arquitectura con un hueco
-
-## (ocho poemas)
-
-# I. El archivista
-
-Lo que se va
-  deja la puerta lista
-    para otro nombre.
-
-Anoto el hueco,
-      no lo que hubo.
-La letra no sabe
-  que está firmando una despedida.
-
-Los niños cambian
-  sus ampollas por monedas
-    de un país que aún no acuñan.
-
-Guardo los blancos del cuaderno.
-  Alguien los leerá
-    como se lee un silencio
-      bien escrito.
-
-# II. El relojero
-
-Dos horas cada día
-    alguien afina lo que no se ve.
-
-Abro el mecanismo.
-  El pulso que lo mueve
-ya no pide permiso.
-
-Ida,
-    vuelta,
-ida —
-  un corazón ajeno.
-Agradezco no ser
-  quien lleva la cuenta.
-
-Ordeno las herramientas
-  en el orden exacto
-    en que querré encontrarlas
-si el reloj, mañana, vuelve a abrirse.
-
-# III. El luthier
-
-Nunca entro en la caja
-  que afino.
-Trabajo el borde:
-  su grosor decide
-    qué voz tendrá el silencio de dentro.
-
-Me traen grietas
-envueltas en lana.
-  Las cierro sin taparlas;
-    cobro por la línea
-    que se queda a la vista.
-
-Cuando algo pesado cruza la calle
-  todo el taller responde,
-    cada madera con su nota.
-
-Ninguna es la mía.
-
-# IV. La canción
-
-Cuatro notas:
-la que sube,
-    la que baja,
-        el silencio,
-otra vez.
-
-No decidí guardarlas.
-  El cuerpo hizo acopio
-    antes de que yo lo supiera.
-
-Las canto ahora,
-  a la hora en que tú cocinabas,
-    un poco más despacio.
-
-La cocina las reconoce.
-        Yo, no siempre.
-
-# V. La burbuja
-
-Se estira el jabón entre las manos
-  y de pronto hay un dentro
-    que antes no existía.
-
-  Soy la parte de la orquesta
-    que no cabe en ningún músico.
-
-Al terminar, no me rompo.
-Me despido.
-
-    Algo queda flotando un instante,
-  sin dueño,
-antes de reventar en el aire quieto.
-
-# VI. El remo
-
-El remo toca fondo
-    donde antes había hondura.
-
-El agua bajó menos
-  de lo que subió el golpe
-    por mi brazo:
-      aviso de que lo vacío pesa.
-
-He visto emerger algo de mi propio reservorio.
-Lo he visto volver.
-
-Repito el gesto
-  para comprobar,
-    cada vez,
-que todavía hay fondo.
-
-# VII. El temblor
-
-Me preguntaste si algo se pierde para siempre
-  y te di una respuesta de manual.
-
-Perdóname.
-Lo que se pierde
-  sigue caminándose por dentro,
-como el nombre de una calle
-  que ya nadie dice
-    pero que los pies no olvidan.
-
-Aprendí a esperar
-  sin disciplina,
-como quien mira el óxido
-  tomar posesión de su hierro.
-
-He visto contraerse el horizonte,
-    no en el telescopio que nunca tuve,
-sino en el temblor de esta mano:
-      sostiene el vaso,
-  y sostiene, además,
-        la pregunta de si va a caérsele.
-
-# VIII. La orilla
-
-Y el agua volvió a la orilla
-  sin avisar.
-
-No supe —ni como archivista de mis propias grietas,
-  ni como el niño que fui—
-si era la misma orilla
-  o una nueva
-    con el mismo nombre.
-
-Nadie supo qué trajo,
-  ni qué se llevó.
-
-Pero al alba
-  miré mis manos abiertas.
-Tal vez
-eso era la respuesta.
 
 # Nota del autor
 
