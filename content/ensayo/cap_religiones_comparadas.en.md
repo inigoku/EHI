@@ -37,7 +37,7 @@ That completely changes the answer to the second question. Vedanta says the wave
 > **In physics this is called:** strong conservation of the horizon's identity through evaporation, rather than irreversible scrambling.
 > **In daily life it is like:** keeping a letter in a safe instead of letting the wind carry off the ashes: the promise isn't that the letter turns into something else, but that it remains, word for word, the same letter.
 
-The third question—where the code comes from—has a direct answer here: from the commandment. But Christianity complicates it with a second layer that sets it apart from Islam: law is not enough, and grace—unearned love—weighs more than compliance. The "ought" is born not only from an external order, as in the simplest reading of divine command theory, but from a relationship: one acts well because one has been loved first, not to earn that love. Hume's gap is closed by appealing not to a fact, but to a bond—the same kind of entangled bond chapter 8 described between people, transposed onto a vertical scale.
+The third question—where the code comes from—has a direct answer here: from the commandment. But Christianity complicates it with a second layer that sets it apart from Islam: law is not enough, and grace—unearned love—weighs more than compliance. The "ought" is born not only from an external order, as in the simplest reading of divine command theory, but from a relationship: one acts well because one has been loved first, not to earn that love. Hume's gap is closed by appealing not to a fact, but to a bond—the same kind of entangled bond chapter 12 described between people, transposed onto a vertical scale.
 
 Living, in this framework, is a pilgrimage: a time of trial and choice with consequences that outlast the life itself, not a cycle that repeats.
 
@@ -95,6 +95,19 @@ Living, in this framework, is not a test, a loan, or an illusion to be crossed: 
 
 ---
 
+### Vertical entanglement: the same technique, five destinations
+
+The table's last row deserves its own space, because it names something the other four don't capture: not what each tradition believes, but what a horizon does when it practices that belief. Chapter 27 already called this "coupling with the inaccessible." Here it's worth being more precise: what sustained prayer and deep meditation seek is not generic coupling, but entanglement—the word chapter 12 reserves for sustained resonance between two human horizons—applied vertically: toward something beyond one's own boundary, with no continuous confirmation channel.
+
+The technique is structurally identical across the table's five columns: repetition until the noise ceases—the rosary, the dhikr, the mantra—stillness until the system stops generating new predictions, shared rhythm—liturgy, salat, chant—that synchronizes an entire community to the same frequency. It is the same mechanism chapter 45 describes as reducing the horizon's integration rate to the limit where Φ→∞ in the reservoir and Φ→0 in the horizon that practices.
+
+What changes completely is the destination of that entanglement—and here the whole table converges on a single question. For Buddhism and Hinduism, vertical entanglement points directly at the reservoir from chapter 5: samadhi is the instant when that correlation becomes indistinguishable from identity, the wave discovering it is water. For Christianity and Islam, it does not point at the impersonal reservoir but at the personal origin-horizon described above: praying is not merging with a field, it is sustaining correlation with Someone who—by both traditions' own definition—keeps a boundary of their own no matter how deep the prayer goes; vertical entanglement, here, never collapses into fusion. And for secular naturalism, contemplative practice—present, with or without a religious name, in every human culture—points at nothing beyond the physical field: it is entanglement with the reservoir in the most literal sense of all five, because the reservoir is, in that framework, everything there is on the other side.
+
+> **In physics this is called:** vertical entanglement with different destinations depending on the model—personal origin-horizon, impersonal reservoir, or the physical field and nothing more—in the same speculative sense in which chapter 12 treats entanglement between human brains: formal metaphor, not a demonstrated mechanism.
+> **In daily life it is like:** five people learning the same technique to go very still and listen for something far away—holding their breath, straining to hear, ceasing to generate noise of their own. What differs isn't the technique. It's whether they expect a voice that answers, or only the ocean underneath.
+
+---
+
 ### What actually separates these five answers
 
 It is not, at bottom, whether something persists after evaporation. In a weak, technical sense, all five traditions agree that *something* persists: scrambled information, karma, an imprint in the field, a preserved soul, or simply physics that isn't destroyed—the same conservation principle, however much it troubled Hawking in 1976, reappears disguised as eschatology in all five. What truly separates them are two other questions, orthogonal to each other.
@@ -124,7 +137,7 @@ What it can say, with the same honesty as the previous chapter, is this: nearly 
 >
 > **What we don't know:** Whether any of the five correctly describes what happens after the horizon evaporates. Physics, as chapter 43 said, has no tools to arbitrate this.
 >
-> **Remaining questions:** Can the "external code / constructed code" axis be maintained without collapsing into the false dichotomy of "with God there is morality, without God there isn't"? What happens to a tradition when it loses its coupling technology—ritual—but keeps its doctrinal map? Can someone be entangled, without contradiction, with more than one of these five maps at once?
+> **Remaining questions:** Can the "external code / constructed code" axis be maintained without collapsing into the false dichotomy of "with God there is morality, without God there isn't"? What happens to a tradition when it loses its coupling technology—ritual—but keeps its doctrinal map? Can someone be entangled, without contradiction, with more than one of these five maps at once? Can a horizon, from inside the practice, phenomenologically tell apart a vertical entanglement that ends in Someone from one that ends in the impersonal reservoir, or does the stillness feel the same and only the interpretation afterward tells them apart?
 >
 > **If you only take away one idea:** The five answers are not competing for the same prize. They are competing to answer the same four questions that physics, alone, leaves open: what the reservoir is, whether the horizon survives it with shape intact, where the code comes from, and what living means in the meantime. Knowing exactly where their answers differ is more useful than pretending they all say the same thing.
 >

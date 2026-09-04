@@ -41,7 +41,7 @@ Eso cambia por completo la respuesta a la segunda pregunta. El vedanta dice que 
 > **En física esto se llama:** conservación fuerte de la identidad del horizonte a través de la evaporación, en vez de scrambling irreversible.
 > **En la vida diaria es como:** guardar una carta en una caja fuerte en lugar de dejar que el viento se lleve las cenizas: la promesa no es que la carta se transforme en otra cosa, sino que siga siendo, letra por letra, la misma carta.
 
-La tercera pregunta —de dónde sale el código— tiene aquí una respuesta directa: del mandamiento. Pero el cristianismo la complica con una segunda capa que lo distingue del islam: la ley no basta, y la gracia —el amor no merecido— pesa más que el cumplimiento. El "debería" no nace solo de una orden externa, como en la lectura más simple del *divine command theory*, sino de una relación: se actúa bien porque se ha sido amado primero, no para ganarse el amor. La brecha de Hume se cierra apelando no a un hecho, sino a un vínculo —el mismo tipo de vínculo entrelazado que el capítulo 8 describió entre personas, trasladado a escala vertical.
+La tercera pregunta —de dónde sale el código— tiene aquí una respuesta directa: del mandamiento. Pero el cristianismo la complica con una segunda capa que lo distingue del islam: la ley no basta, y la gracia —el amor no merecido— pesa más que el cumplimiento. El "debería" no nace solo de una orden externa, como en la lectura más simple del *divine command theory*, sino de una relación: se actúa bien porque se ha sido amado primero, no para ganarse el amor. La brecha de Hume se cierra apelando no a un hecho, sino a un vínculo —el mismo tipo de vínculo entrelazado que el capítulo 12 describió entre personas, trasladado a escala vertical.
 
 Vivir, en este marco, es una peregrinación: un tiempo de prueba y elección con consecuencias que trascienden la propia vida, no un ciclo que se repite.
 
@@ -99,6 +99,19 @@ Vivir, en este marco, no es prueba ni préstamo ni ilusión que atravesar: es el
 
 ---
 
+### El entrelazamiento vertical: la misma técnica, cinco destinos
+
+La última fila de la tabla merece su propio espacio, porque nombra algo que las otras cuatro no capturan: no qué cree cada tradición, sino qué hace un horizonte cuando practica esa creencia. El capítulo 27 ya llamó a esto "acoplamiento con lo inaccesible". Aquí conviene ser más preciso: lo que la oración sostenida y la meditación profunda buscan no es acoplamiento genérico, sino entrelazamiento —la palabra que el capítulo 12 reserva para la resonancia sostenida entre dos horizontes humanos—, aplicado en vertical: hacia algo más allá de la propia frontera, sin canal de confirmación continua.
+
+La técnica es estructuralmente idéntica en las cinco columnas de la tabla: repetición hasta que el ruido cesa —el rosario, el dhikr, el mantra—, quietud hasta que el sistema deja de generar predicciones nuevas, ritmo compartido —la liturgia, el salat, el canto— que sincroniza a una comunidad entera en la misma frecuencia. Es el mismo mecanismo que el capítulo 45 describe reduciendo la tasa de integración del horizonte hasta el límite donde Φ→∞ en el reservorio y Φ→0 en el horizonte que practica.
+
+Lo que cambia por completo es el destino de ese entrelazamiento —y aquí la tabla entera converge en una sola pregunta. Para el budismo y el hinduismo, el entrelazamiento vertical apunta directamente al reservorio del capítulo 5: el samadhi es el instante en que esa correlación se vuelve indistinguible de identidad, la ola que descubre que es agua. Para el cristianismo y el islam, no apunta al reservorio impersonal sino al horizonte-origen personal descrito más arriba: orar no es fundirse con un campo, es sostener correlación con Alguien que —por definición de ambas tradiciones— conserva frontera propia por mucho que la oración se profundice; el entrelazamiento vertical, aquí, nunca colapsa en fusión. Y para el naturalismo secular, la práctica contemplativa —presente, con o sin nombre religioso, en toda cultura humana— no apunta a nada más allá del campo físico: es entrelazamiento con el reservorio en el sentido más literal de los cinco, porque el reservorio es, en ese marco, todo lo que hay del otro lado.
+
+> **En física esto se llama:** entrelazamiento vertical con destinos distintos según el modelo —horizonte-origen personal, reservorio impersonal, o campo físico sin más—, en el mismo sentido especulativo en que el capítulo 12 trata el entrelazamiento entre cerebros humanos: metáfora formal, no mecanismo demostrado.
+> **En la vida diaria es como:** cinco personas que aprenden la misma técnica para quedarse muy quietas y escuchar algo lejano —contener la respiración, aguzar el oído, dejar de generar ruido propio—. Lo que difiere no es la técnica. Es si esperan una voz que responde, o solo el océano de fondo.
+
+---
+
 ### Lo que separa de verdad a estas cinco respuestas
 
 No es, en el fondo, si algo persiste tras la evaporación. En un sentido técnico y débil, las cinco tradiciones están de acuerdo en que *algo* persiste: información scrambled, karma, huella en el campo, un alma conservada, o simplemente física que no se destruye —el mismo principio de conservación, mal que le pese a Hawking en 1976, reaparece disfrazado de escatología en las cinco. Lo que las separa de verdad son otras dos preguntas, ortogonales entre sí.
@@ -128,7 +141,7 @@ Lo que sí puede decir, con la misma honestidad que el capítulo anterior, es es
 >
 > **Lo que no sabemos:** Si alguna de las cinco describe correctamente lo que ocurre tras la evaporación del horizonte. La física, como dijo el capítulo 43, no tiene herramientas para arbitrar esto.
 >
-> **Preguntas que quedan:** ¿Es posible sostener el eje "código externo / código construido" sin colapsarlo en la falsa dicotomía de "con Dios hay moral, sin Dios no"? ¿Qué le pasa a una tradición cuando pierde su tecnología de acoplamiento —el ritual— pero conserva el mapa doctrinal? ¿Puede alguien entrelazarse a la vez, sin contradicción, con más de uno de estos cinco mapas?
+> **Preguntas que quedan:** ¿Es posible sostener el eje "código externo / código construido" sin colapsarlo en la falsa dicotomía de "con Dios hay moral, sin Dios no"? ¿Qué le pasa a una tradición cuando pierde su tecnología de acoplamiento —el ritual— pero conserva el mapa doctrinal? ¿Puede alguien entrelazarse a la vez, sin contradicción, con más de uno de estos cinco mapas? ¿Puede un horizonte, desde dentro de la práctica, distinguir fenomenológicamente un entrelazamiento vertical que termina en Alguien de uno que termina en el reservorio impersonal, o la quietud se siente igual y solo la interpretación posterior separa una de otra?
 >
 > **Si solo te quedas con una idea:** Las cinco respuestas no compiten por el mismo premio. Compiten por responder las mismas cuatro preguntas que la física, sola, deja abiertas: qué es el reservorio, si el horizonte lo sobrevive con forma, de dónde sale el código, y qué es vivir mientras tanto. Saber exactamente en qué se diferencian sus respuestas es más útil que fingir que todas dicen lo mismo.
 >
