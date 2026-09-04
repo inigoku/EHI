@@ -37,6 +37,17 @@ def split_verse_line(line: str) -> tuple[int, str]:
     return spaces // 2, stripped
 
 
+def is_poem_title(blocks, i: int) -> bool:
+    """Un encabezado de nivel 3 es título de poema si lo sigue un verso
+    (bloque de varias líneas): así se distingue de los subtítulos de
+    ficción ("I. La primera cerradura"...), que van seguidos de prosa."""
+    b = blocks[i]
+    if not (b.kind == "heading" and b.level == 3 and i + 1 < len(blocks)):
+        return False
+    nxt = blocks[i + 1]
+    return nxt.kind == "para" and len(nxt.lines) > 1
+
+
 # ---------------------------------------------------------------------------
 # DOCX
 # ---------------------------------------------------------------------------
@@ -157,9 +168,9 @@ def build_docx(header, blocks, out_path: Path):
         doc.add_page_break()
 
     # --- Cuerpo ------------------------------------------------------------
-    for b in blocks:
+    for i, b in enumerate(blocks):
         if b.kind == "heading":
-            if b.level == 1:
+            if b.level == 1 or is_poem_title(blocks, i):
                 doc.add_page_break()
             st = HEADING_STYLE[b.level]
             add(b.lines[0], style_name=WORD_STYLE[b.level], **st)
@@ -192,6 +203,7 @@ def build_epub(header, blocks, out_path: Path):
             "h1{font-size:1.5em;margin-top:2.2em;page-break-before:always;}"
             "h2{font-size:1.2em;margin-top:1.5em;}"
             "h3{font-size:1.05em;margin-top:1.2em;}"
+            "h3.poem-title{page-break-before:always;margin-top:2.2em;}"
             "p{margin:0 0 0.9em 0;text-align:justify;}"
             ".cover{text-align:center;padding-top:3em;}"
             ".cover .kicker{font-style:italic;letter-spacing:.08em;"
@@ -241,7 +253,7 @@ def build_epub(header, blocks, out_path: Path):
     # Anclas por encabezado de nivel 1, para un índice navegable de verdad.
     toc_links: list = []
     h1_seen = 0
-    for b in blocks:
+    for i, b in enumerate(blocks):
         if b.kind == "heading":
             if b.level == 1:
                 h1_seen += 1
@@ -250,7 +262,8 @@ def build_epub(header, blocks, out_path: Path):
                 toc_links.append(epub.Link(f"content.xhtml#{anchor}", b.lines[0], anchor))
             else:
                 tag = f"h{b.level}"
-                html_parts.append(f"<{tag}>{esc_html(b.lines[0])}</{tag}>")
+                cls = ' class="poem-title"' if is_poem_title(blocks, i) else ""
+                html_parts.append(f"<{tag}{cls}>{esc_html(b.lines[0])}</{tag}>")
         elif len(b.lines) > 1:
             html_parts.append('<div class="verse">')
             for raw in b.lines:
@@ -363,7 +376,7 @@ def build_pdf(header, blocks, out_path: Path):
         story.append(PageBreak())
 
     h1_seen = 0
-    for b in blocks:
+    for bi, b in enumerate(blocks):
         if b.kind == "heading":
             if b.level == 1:
                 h1_seen += 1
@@ -375,6 +388,8 @@ def build_pdf(header, blocks, out_path: Path):
             elif b.level == 2:
                 story.append(Paragraph(render(b.lines[0]), h2))
             else:
+                if is_poem_title(blocks, bi):
+                    story.append(PageBreak())
                 story.append(Paragraph(render(b.lines[0]), h3))
         elif len(b.lines) > 1:
             n = len(b.lines)
