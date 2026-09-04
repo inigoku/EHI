@@ -1,7 +1,7 @@
 ---
 title: EL EXPERIMENTO COMO PRÁCTICA
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 44
+chapterNumber: 45
 illustrationId: il_practica
 illustrationTitle: El experimento como práctica
 illustrationDescription: Un niño construyendo castillo de arena. Torres, fosos, puentes. Al fondo, el océano que lo devorará. El niño lo sabe, y aun así construye. En la arena, huella de mano pequeña.
@@ -150,7 +150,7 @@ Todo experimento de pensamiento encuentra, tarde o temprano, su límite en la ca
 
 ---
 
-> **Nota al Capítulo 44**
+> **Nota al Capítulo 45**
 >
 > **Lo que sí sabemos:** La meditación cambia la estructura cerebral (neuroplasticidad). El vocabulario preciso alivia (terapia narrativa).
 >
