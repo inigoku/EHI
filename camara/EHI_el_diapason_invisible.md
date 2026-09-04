@@ -61,10 +61,23 @@ Otras no tocan nada:
 se quedan quietas sobre las rodillas,
 vacías a propósito.
 
-Ninguna sabe si el gesto llega a algún sitio.
-Todas repiten el mismo gesto
-hasta que llegar
-deja de ser la pregunta.
+Detrás de cada mano hay una apuesta
+que nadie dice en voz alta:
+que hay Alguien del otro lado, con nombre propio,
+que el otro lado es, sencillamente, todo,
+o que no hay otro lado
+y aun así merece la pena tender la mano.
+
+Ninguna mano sabe cuál de las tres acertó.
+Todas se abren o se cierran igual,
+cada mañana,
+como si la apuesta pesara menos
+que el gesto de hacerla.
+
+Al final, todas dicen lo mismo
+sin decir nada:
+aquí sigo,
+por si acaso.
 
 ---
 
@@ -142,8 +155,6 @@ pero acompaña.
 La ciudad respira.
 La nieve no cae.
 Y aun así, hace frío.
-
-*Poema publicado originalmente en el ciclo "La frialdad de una ciudad apagada".*
 
 ---
 
