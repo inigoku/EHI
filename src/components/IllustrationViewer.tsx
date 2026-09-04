@@ -93,6 +93,8 @@ import imgElQueQueda from "../assets/images/ilustracion_eq.png";
 // @ts-ignore
 import imgMapaYTerritorio from "../assets/images/ilustracion_19.png";
 // @ts-ignore
+import imgCincoMapas from "../assets/images/ilustracion_cinco_mapas.jpg";
+// @ts-ignore
 import imgPractica from "../assets/images/ilustracion_20.png";
 // @ts-ignore
 import imgOrilla from "../assets/images/ilustracion_21.png";
@@ -372,6 +374,7 @@ const imageMap: Record<string, string> = {
   il_ia: imgIa,
   il_el_que_queda: imgElQueQueda,
   il_mapayterritorio: img18, // Matches "El límite del experimento" description (ilustracion_18)
+  il_cinco_mapas: imgCincoMapas,
   il_practica: imgPractica,
   il_orilla: imgOrilla,
   il_notas: imgNotas,
