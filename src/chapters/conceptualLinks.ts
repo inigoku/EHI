@@ -28,6 +28,8 @@ export const conceptualLinks: ConceptualLink[] = [
   { fromId: "cap6", toId: "cap12" },
   { fromId: "cap8", toId: "cap12" },
   { fromId: "cap_traductor", toId: "cap_calibracion" },
+  { fromId: "cap_religiones_comparadas", toId: "cap17_5_real" },
+  { fromId: "cap_religiones_comparadas", toId: "cap6" },
 ];
 
 export function findConceptualLink(chapterId: string): string | undefined {
