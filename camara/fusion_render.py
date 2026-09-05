@@ -275,7 +275,10 @@ def build_epub(header, blocks, out_path: Path):
 # PDF
 # ---------------------------------------------------------------------------
 
-def build_pdf(header, blocks, out_path: Path):
+def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None):
+    """pagesize: (width, height) en puntos reportlab (usa reportlab.lib.units.inch
+    para pasar pulgadas), por defecto carta. margins_in: pulgadas de margen
+    uniforme (izq/dcha/arriba/abajo), por defecto 1.1cm/2.5cm según el original."""
     from reportlab.lib.pagesizes import LETTER
     from reportlab.lib.colors import HexColor
     from reportlab.lib.styles import ParagraphStyle
@@ -339,12 +342,21 @@ def build_pdf(header, blocks, out_path: Path):
                 self.canv.addOutlineEntry(text, key, level=0, closed=False)
                 self.notify("TOCEntry", (0, text, self.page, key))
 
+    page = pagesize or LETTER
+    if margins_in is not None:
+        from reportlab.lib.units import inch
+        side_margin = margins_in * inch
+    else:
+        side_margin = 2.8 * cm
+    top_margin = 2.5 * cm if margins_in is None else margins_in * inch
+
     doc = BookDocTemplate(
-        str(out_path), pagesize=LETTER,
-        leftMargin=2.8 * cm, rightMargin=2.8 * cm, topMargin=2.5 * cm, bottomMargin=2.5 * cm,
+        str(out_path), pagesize=page,
+        leftMargin=side_margin, rightMargin=side_margin,
+        topMargin=top_margin, bottomMargin=top_margin,
     )
 
-    story = [Spacer(1, 4.5 * cm)]
+    story = [Spacer(1, page[1] * 0.16)]
     story.append(Paragraph(header[0], kicker))
     story.append(HRFlowable(width="15%", thickness=0.75, color=RULE, spaceBefore=10, spaceAfter=14,
                              hAlign="CENTER"))
