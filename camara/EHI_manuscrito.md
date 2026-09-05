@@ -1,6 +1,6 @@
-EL HORIZONTE INTERIOR
 Un ensayo literario
-Edición de cámara ampliada
+Edición de Cámara
+El Horizonte Interior
 Íñigo Barrera Barceló
 
 # OBERTURA — La costumbre del agua
