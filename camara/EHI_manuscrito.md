@@ -1,6 +1,6 @@
-EL HORIZONTE INTERIOR
 Un ensayo literario
-Edición de cámara ampliada
+Edición de Cámara
+El Horizonte Interior
 Íñigo Barrera Barceló
 
 # OBERTURA — La costumbre del agua
@@ -978,6 +978,30 @@ Dejo un espacio en blanco debajo, ancho como los márgenes que nunca llené en e
 
 Esta vez, a propósito.
 
+## Poema: El pozo
+
+No se vacía:
+  se llena de otra cosa.
+
+Donde estaba el nombre
+  queda un agua oscura
+    que no refleja nada.
+      Pero pesa.
+
+Bajo el cubo
+  por la misma cuerda de siempre.
+Lo que sube
+  no es lo que bajé.
+
+No es el recuerdo.
+  Es el hueco
+    con la forma exacta
+      de lo que el recuerdo tenía.
+
+Sigo bebiendo de aquí.
+  La sed, al menos,
+no ha cambiado de sitio.
+
 # VI — El límite
 
 ## Ensayo: La brecha infranqueable
@@ -1001,6 +1025,31 @@ Y hay una última cosa que ni la geometría ni la termodinámica me van a explic
 Vuelvo a la habitación. Dentro de esta geometría, las dos puertas que tocan la estructura del horizonte son el amor y la muerte. El amor nos empuja a la asimetría insoportable de querer expandir nuestra frontera para incluir a otro, sabiendo que el reconocimiento total es geométricamente imposible sin disolver a uno de los dos. La muerte es el punto exacto donde el sistema ya no puede sostener la paradoja de su propia encapsulación, el colapso termodinámico donde el interior se ve obligado a ceder toda su información, evaporándose de vuelta al reservorio, como la ola que devuelve al océano una forma que solo tuvo prestada.
 
 Entre esas dos puertas transcurre todo el tiempo subjetivo del vínculo. El modelo no nos salva del temblor, ni del duelo, ni del olvido. Pero al aceptar que nuestra soledad es una ley fundacional de los sistemas complejos, y no un fracaso psicológico, nos da una manera de nombrar el abismo. Y nombrar el límite es, para mí, una manera de no perder la dignidad frente a él.
+
+## Poema: La piel
+
+No sé si hay alguien
+  al otro lado del ruido,
+    o si el ruido
+      es todo lo que hay.
+
+La piel no cierra nada.
+  Deja entrar
+    lo que no pedí,
+  y deja salir
+    lo poco que guardo,
+      sin preguntarme.
+
+Llamo límite
+  a esta frontera cansada
+    porque necesito una palabra.
+No porque sepa
+  dónde empieza.
+
+Aun así contesto
+  cuando alguien dice mi nombre,
+    como si supiera
+      quién responde.
 
 # Nota del autor
 
