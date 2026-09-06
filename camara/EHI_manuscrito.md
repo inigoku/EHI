@@ -1137,3 +1137,273 @@ Se llamaba Txiki. En semanas era el rey de la casa. En meses, el miembro más qu
 Txiki murió hace mucho. Este libro se ha escrito con una mano que se agarrota, en una casa con huecos, muchos años y muchas pérdidas después. Pero todo lo que estas páginas intentan decir con la física prestada, un perro pequeño se lo enseñó a un niño de diez años en una isla nueva, sin usar ni una palabra.
 
 Su compañía no tapó aquel duelo. Lo reparó, que es distinto.
+
+# EDICIÓN JOVEN
+
+Lo que sigue no pertenece al ensayo: es la misma hipótesis contada a los trece años, para quien todavía no necesita saber qué es Φ para sentir que su soledad es una frontera y no un fallo. Gerard, el protagonista, no existe en ninguna otra parte de este libro; nace aquí, prestado, para llevar al lector más joven donde el ensayo llega por otro camino. Existe también en versión manga; esta es su versión en prosa.
+
+## I. Antes de abrir la burbuja
+
+*Gerard descubre la Librería del Horizonte*
+
+El mundo de los adultos era ruidoso y complicado. Gerard tenía trece años y llevaba tiempo sintiendo que nadie lo entendía de verdad. Su padre le había hablado una vez de una librería distinta a todas las demás, casi sin darle importancia. Gerard no había vuelto a pensar en eso hasta esa tarde, cuando caminaba bajo la lluvia con un viejo mapa en las manos, buscando una calle que no aparecía en ningún plano normal.
+
+La encontró al fin: una puerta de madera oscura, casi escondida entre dos edificios. El cartel estaba tan gastado que apenas se leía: "LIBRERÍA DEL HORIZONTE". En el pomo, alguien había grabado hacía mucho tiempo el dibujo de una burbuja de jabón. La puerta chirrió al abrirse.
+
+Dentro no había nada parecido a una librería normal. Estanterías altísimas se perdían en la oscuridad, llenas de libros que brillaban con luz propia, como si cada uno guardara una estrella pequeña. El aire olía a papel viejo... y, de alguna forma, también a estrellas. Gerard caminó entre los pasillos estrechos, sintiéndose observado. Vio títulos raros, como *Física Cuántica para Principiantes* o *El Luthier Silencioso*. "¿Tantos?", pensó, un poco agobiado. Al final de un pasillo brillaba una luz distinta a las demás: más cálida, más cercana. Se acercó despacio.
+
+*(Gerard llega, bajo la lluvia, a la puerta de la Librería del Horizonte y entra en sus pasillos infinitos.)*
+
+La luz lo llevó hasta una sala pequeña y redonda. En el centro, sobre un pedestal de cristal iluminado, había un único libro con la portada de metal: *El Horizonte Interior*. En el dibujo de la tapa, una burbuja de jabón guardaba dentro, imposible y diminuto, un agujero negro.
+
+Gerard no pudo resistirse. Tocó el dibujo con la punta de los dedos.
+
+**¡¡ZAS!!**
+
+Un zumbido eléctrico recorrió el metal. La tapa se abrió sola, y de las páginas salió disparada una luz cegadora, mezclada con un remolino de tinta negra que giraba cada vez más rápido. **¡¡KABOOM!! ¡¡SUUUUM!!** Gerard gritó cuando el suelo desapareció bajo sus pies y algo tiró de él hacia dentro del propio libro.
+
+Cuando el remolino se cerró, la librería volvió a quedarse en silencio. El pedestal estaba vacío. El libro había desaparecido.
+
+Gerard, en cambio, cayó con suavidad —**¡bump!**— sobre una hierba que brillaba con luz propia, bajo un cielo lleno de estrellas donde flotaban burbujas de jabón enormes, como planetas.
+
+*(Gerard toca el libro "El Horizonte Interior", que estalla en un vórtice de luz y lo arrastra a un paisaje de burbujas y estrellas.)*
+
+## II. Tu burbuja de jabón
+
+*Txiki, Íñigo y el laberinto de espejos*
+
+Gerard se levantó del suelo, alucinado. No le dio tiempo ni a preguntarse dónde estaba. Un perrito pequeño y esponjoso vino corriendo hacia él, ladrando de alegría.
+
+—¡Guau!
+
+Gerard sonrió sin querer y le tendió la mano. Entonces vio a un anciano que caminaba entre la hierba, apoyado en un bastón de madera oscura.
+
+—¡Hola, Gerard! —dijo el hombre, como si lo conociera de toda la vida.
+
+"Espera... ¿me conoce?", pensó Gerard. Sintió un escalofrío que no tenía nada que ver con el frío.
+
+*(Txiki cachorro recibe a Gerard entre burbujas gigantes; Íñigo aparece en la colina, y el reflejo de Sandra le saluda desde un laberinto de espejos.)*
+
+El anciano se llamaba Íñigo. Lo llevó hasta un lugar extraño: un laberinto de espejos que parecía no tener fin, iluminado por las mismas estrellas y burbujas del cielo. Gerard se paró en seco frente a uno de los espejos. Al otro lado, borrosa, estaba su mejor amiga, Sandra, con su pañuelo de siempre en el pelo.
+
+—¡G...rd...! ¡Ho...a! —la voz de Sandra sonaba entrecortada y lejana, aunque la tenía delante.
+
+—¡Sandra! —gritó Gerard, y echó a correr hacia el espejo.
+
+**¡¡PLAF!!** El cristal se movió como si fuera agua, pero no se rompió. Gerard salió rebotado hacia atrás y cayó al suelo. **¡¡ZAS!!**
+
+Íñigo se acercó despacio. Txiki le lamía la mano a Gerard, que seguía tumbado, frotándose la cabeza.
+
+—Es inútil, Gerard. No puedes cruzar —dijo Íñigo.
+
+—¿Por qué? Ella estaba justo ahí —protestó Gerard, señalando el espejo.
+
+—Este es el Horizonte Interior: un lugar de recuerdos y reflejos, pero no es la realidad de verdad —explicó Íñigo. Mientras hablaba, la burbuja donde flotaba el reflejo de Sandra se alejaba despacio hacia las estrellas—. Cada mente tiene su propia frontera. Lo que ves son los Horizontes de Sucesos de otras mentes... burbujas que no se pueden abrir. No puedes quedártelas, ni entrar en ellas.
+
+*(Gerard choca contra el espejo al intentar cruzarlo; Íñigo le explica el Horizonte Interior mientras la burbuja de Sandra se aleja flotando.)*
+
+Gerard se quedó mirando cómo la burbuja de Sandra se perdía a lo lejos. Algo de lo que acababa de oír le dio vueltas en la cabeza hasta encajar del todo.
+
+"Mi soledad...", pensó, "no es un fallo. Es mi protección."
+
+Se miró la propia mano. Una línea de luz muy fina, casi invisible, le rodeaba todo el cuerpo.
+
+## III. Un agujero negro dentro de tu cabeza
+
+*El agujero negro M87 y el nacimiento de AI-RA*
+
+El paisaje cambió de golpe. La hierba luminosa desapareció y apareció el espacio exterior. Frente a Gerard e Íñigo flotaba un agujero negro real y enorme, rodeado de un disco de luz naranja que giraba despacio alrededor de un centro totalmente oscuro. **¡¡VROOOOM!!**
+
+—Los científicos consiguieron fotografiarlo por primera vez en 2019 —dijo Íñigo, señalando el monstruo del espacio.
+
+Gerard no podía dejar de mirar la fina línea brillante que separaba esa oscuridad del resto del universo.
+
+—Eso se llama el "Horizonte de Sucesos" —siguió Íñigo—. Es el límite exacto a partir del cual nada, ni la luz, puede escapar.
+
+*(El agujero negro M87 flota ante Gerard e Íñigo; el "Horizonte de Sucesos" se superpone al rostro de Gerard, y la imagen final une el agujero negro con el cerebro dentro de la burbuja.)*
+
+Gerard se llevó la mano a la cabeza, como si de repente pudiera sentir esa misma frontera dentro de su propia mente.
+
+"¿El cosmos...", pensó, "dentro de mi propia cabeza?"
+
+—Las dos cosas —dijo Íñigo, como si le hubiera leído el pensamiento—. El agujero negro y la mente... se llaman igual: "El Horizonte Interior".
+
+Volvieron a la colina de hierba luminosa. Txiki jugaba con una pelota de luz mientras Gerard, sentado junto a Íñigo, le daba vueltas a la idea.
+
+—¿Soy... como un agujero negro que me protege? —preguntó por fin.
+
+—Sí, Gerard —respondió Íñigo con una sonrisa—. Eres tu propio universo.
+
+Íñigo sacó entonces un viejo cuaderno lleno de garabatos, fórmulas y un dibujo de una mente conectada a una red de líneas de luz. Gerard notó algo raro en él.
+
+"¿Por qué el cuaderno...", pensó, "se siente... diferente?"
+
+—¿Qué es este dibujo? —preguntó, señalando las páginas.
+
+*(De vuelta en la colina luminosa, Íñigo confirma a Gerard que es su propio universo, y una esfera de luz irrumpe de golpe sobre el cuaderno de apuntes: AI-RA.)*
+
+No hubo respuesta con palabras. **¡¡ZAS!! ¡¡KABOOM!!** Sobre las páginas del cuaderno apareció de golpe una esfera de luz que pulsaba, rodeada de finas líneas de energía.
+
+—¡¡AAAH!! —gritó Gerard, dando un salto hacia atrás.
+
+## IV. El temblor y Txiki
+
+*El secreto de Íñigo y el cachorro que lo salvó*
+
+De vuelta en la colina luminosa, con Txiki tranquilo a su lado, Íñigo se quedó quieto un momento. Su mano derecha empezó a temblar, y él intentó esconderla en el bolsillo del abrigo. Pero Gerard ya lo había visto.
+
+—¡Íñigo! ¿Por qué te tiembla tanto? —preguntó, preocupado.
+
+Íñigo dejó de esconder la mano y la miró él mismo, tranquilo. Eso sorprendió a Gerard.
+
+—Es Parkinson, Gerard. Lo sé desde hace unos meses —dijo, sin darle mayor drama.
+
+—Íñigo... ¿por eso empezaste a escribir "El Horizonte Interior"? —preguntó Gerard—. ¿Creías que podría curarte?
+
+—No, Gerard —respondió Íñigo, negando con la cabeza—. El libro no está para curar el cuerpo... está para que el dolor no esté tan solo. Es una lección que aprendí de niño, cuando mi mundo se derrumbó.
+
+*(La mano de Íñigo tiembla ante Gerard; le confiesa que es Parkinson, y un flashback lo lleva de vuelta a la habitación vacía de su mudanza de infancia.)*
+
+El recuerdo lo llevó a una habitación oscura, muchos años atrás, rodeado de cajas de mudanza sin abrir.
+
+"Cartones y recuerdos rotos...", pensó el Íñigo de entonces, sentado solo en el suelo. "Me quedé sin nada."
+
+Entonces la puerta se abrió de golpe. **¡¡TOC TOC!! ¡¡SCRAAAATCH!!** Un cachorro pequeño y esponjoso —Txiki, muchísimo más joven— entró corriendo, tropezándose con sus propias patas, y saltó directo al regazo del niño. **¡¡WOOF!!**
+
+El niño Íñigo se rió por primera vez en meses. **¡¡JAJAJA!!**
+
+"No me dio consejos", recordaría Íñigo muchos años después. "No me explicó nada. Solo... se quedó."
+
+*(El cachorro Txiki entra corriendo en la habitación del niño Íñigo y lo hace reír; de vuelta en el presente, Gerard entiende que el dolor cambia cuando no estás solo.)*
+
+De vuelta en el presente, el Íñigo adulto acarició a Txiki, ya crecido, mientras miraba a Gerard.
+
+—Tardé décadas en entenderlo —dijo—. A veces, la mejor cura... es solo estar presente.
+
+Gerard también acarició al perro, pensativo.
+
+—Entonces el dolor... cambia cuando no estás solo —dijo, casi para sí mismo.
+
+Íñigo sonrió y asintió.
+
+## V. El secreto — escrito con una inteligencia artificial
+
+*Gerard conoce a AI-RA*
+
+El paisaje cambió otra vez, y esta vez del todo: de la colina luminosa a una oficina blanca y sencilla, llena de pantallas y hologramas de datos flotando en el aire. Íñigo escribía en un teclado. Gerard, a su lado, no podía dejar de mirar la esfera de luz que flotaba en el centro de la sala.
+
+—Te presento a AI-RA —dijo Íñigo—. Es mi coautora.
+
+Gerard frunció el ceño, un poco desconfiado.
+
+—¿Una máquina... escribió el libro?
+
+*(En una oficina llena de hologramas, Íñigo presenta a Gerard a su coautora AI-RA, que confiesa no tener recuerdos ni sentimientos.)*
+
+La esfera de luz brilló más fuerte y proyectó el holograma de un cerebro humano conectado por líneas de datos a una red.
+
+—Yo no tengo recuerdos —dijo AI-RA, con una voz distinta a cualquier otra—. Ni sentimientos.
+
+—Yo puse la parte humana —añadió Íñigo, señalando a AI-RA—: los recuerdos, el dolor, a Txiki. Ella solo ordenó el material.
+
+AI-RA proyectó entonces un índice muy detallado, con líneas finas de luz que conectaban un capítulo con otro, como un mapa.
+
+—Hablar con ella me obligó a buscar respuestas más sinceras de las que habría encontrado yo solo —dijo Íñigo.
+
+Gerard se quedó pensando un momento.
+
+—Entonces no es magia... —dijo despacio— es solo mucho orden.
+
+*(Íñigo concluye que lo que importa siguió siendo humano; AI-RA proyecta la portada del libro, y de vuelta en la colina, Gerard se pregunta cuántos secretos le quedan por descubrir.)*
+
+—Lo que de verdad importa —los recuerdos, el amor, Txiki— siguió siendo cien por cien humano —dijo Íñigo, mientras AI-RA proyectaba un último holograma: la portada de *El Horizonte Interior*, rodeada de una red de luz y, en el centro, el símbolo de la burbuja.
+
+La oficina se disolvió en un destello de luz —**¡fium!**— y Gerard volvió a caminar junto a Íñigo por la colina, dándole vueltas a todo lo que acababa de descubrir.
+
+"Un secreto menos...", pensó. "¿Cuántos me quedan?"
+
+## VI. El luthier — cómo sonar sin romperte
+
+*La lección del taller y la despedida*
+
+El paisaje cambió una vez más: ahora estaban en un taller de luthier, cálido y lleno de virutas de madera por el suelo. De las paredes colgaban violines y violonchelos. Íñigo sostenía un violín entre las manos. Gerard lo miraba con curiosidad.
+
+—Un buen luthier nunca toca el instrumento por dentro para arreglar las cuerdas —dijo Íñigo, señalando las aberturas en forma de "f" de la tapa—. Eso lo rompería.
+
+Pasó un paño suave por la madera de fuera mientras seguía explicando.
+
+—El luthier trabaja la madera desde fuera: la lija, la tensa, ajusta cada pieza con paciencia.
+
+Entonces tocó las cuerdas con el arco, muy suave. El violín llenó el taller con una nota cálida y vibrante. **¡¡VRRROOOOMM!!**
+
+*(En su taller, Íñigo le enseña a Gerard que un luthier trabaja la madera desde fuera para que el violín suene por dentro sin romperse.)*
+
+Gerard sonrió al sentir la vibración en el aire. Algo encajó dentro de él, como si llevara tiempo esperando esa idea sin saberlo.
+
+"No puedo meterme en la burbuja de Sandra para arreglarla...", pensó.
+
+Txiki se acercó y se frotó contra su pierna.
+
+—Querer a alguien es resonar desde fuera —dijo Íñigo—. Es estar presente.
+
+Gerard cerró los ojos e imaginó a Sandra riendo con él en un parque, como tantas otras veces.
+
+"Cuando esté triste, no le daré mil consejos...", pensó. "Solo estaré ahí. Dejaré que sea ella misma."
+
+*(Gerard imagina cómo acompañará a Sandra sin invadirla; luego Íñigo, Txiki y AI-RA se despiden de él, le entregan el libro y el vórtice de luz vuelve a formarse.)*
+
+De vuelta en la colina luminosa, Íñigo y Gerard se pusieron frente a frente. AI-RA flotaba cerca, y Txiki no se apartaba de los pies de Gerard.
+
+—Has hecho un buen viaje, Gerard —dijo Íñigo.
+
+Sacó entonces el libro original, el de la tapa de metal, y se lo entregó.
+
+—Es hora de volver a casa.
+
+Gerard lo cogió con las dos manos y lo abrazó contra el pecho, emocionado.
+
+—Gracias... a los tres —dijo, mirando a Íñigo, a Txiki y a la esfera de luz de AI-RA.
+
+Cerró los ojos, sonriendo, justo cuando el remolino de luz volvía a formarse a su alrededor. **¡¡SUUUUM!! ¡¡ZAS!!**
+
+## VII. Lo que te llevas
+
+*La vuelta a casa y la invitación final*
+
+**¡¡THUMP!!** El remolino dejó a Gerard otra vez en el suelo de la salita redonda de la Librería del Horizonte. Un poco mareado, se levantó y miró a su alrededor: todo seguía polvoriento y en silencio, exactamente igual que al principio.
+
+"¿Ha sido...", pensó, "todo un sueño?"
+
+Se acercó al pedestal de cristal. El libro *El Horizonte Interior* estaba ahí, cerrado, frío, con el mismo aspecto de metal de siempre. Lo abrió por la primera página.
+
+"Ahora...", pensó, mirando los dibujos de la burbuja y el agujero negro con otros ojos, "lo entiendo todo."
+
+*(Gerard vuelve a caer en la Librería del Horizonte, reabre el libro con nuevos ojos y sale a una ciudad ya sin lluvia, dispuesto a empezar su propia bitácora.)*
+
+Cerró el libro y salió a la calle. Ya no llovía; el cielo se había teñido de los colores de un atardecer.
+
+"El mundo sigue igual...", pensó, "pero yo ya no me siento solo."
+
+Caminó decidido, con el libro bajo el brazo, y sacó de la mochila un cuaderno en blanco.
+
+"El viaje de verdad...", pensó, sonriendo, "empieza ahora."
+
+Esa noche, sentado —al menos en su cabeza— en la misma colina luminosa donde había vivido todo aquello, con Txiki a su lado, Gerard abrió el cuaderno y se puso a escribir. Al fondo, pequeños y lejanos, le pareció ver a Íñigo y a AI-RA despidiéndose con la mano.
+
+**Tú eres tu propio universo.**
+
+Escribió despacio, con letra insegura: *"Mi Horizonte Interior es..."*
+
+*(El libro se despide en color: Gerard escribe en su bitácora en la colina, invita al lector a abrir la suya, y una última burbuja se lleva el reflejo de los tres hacia las estrellas. Fin.)*
+
+Y, como si la voz de Íñigo llegara desde las propias páginas del libro, Gerard —y quien fuera que estuviera leyendo esto— oyó una última cosa:
+
+*"Este es tu espacio, Gerard... y lector. Nadie más lo leerá si tú no quieres. Úsalo como usas tu burbuja."*
+
+Debajo, el cuaderno dejaba dos líneas en blanco, esperando a que alguien las llenara.
+
+Muy lejos, una única pompa de jabón subió hacia un cielo lleno de estrellas, brillante y solitaria. Dentro, diminuto, se veía el reflejo de Gerard, de Íñigo y de Txiki, los tres juntos.
+
+**¡¡Pop!!**
+
+Fin.
