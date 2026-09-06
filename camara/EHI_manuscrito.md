@@ -3,6 +3,9 @@ Edición de Cámara
 El Horizonte Interior
 Íñigo Barrera Barceló
 
+*A Montse y a Gerard,*
+*por aguantarme todos los días con una sonrisa.*
+
 # OBERTURA — La costumbre del agua
 
 El agua empezó a retirarse sin ceremonia. No hubo aviso, no hubo campana. En Tarel, hablar siempre fue tarde: las cosas ocurrían primero, luego se quedaban, y con el tiempo se volvían costumbre.
