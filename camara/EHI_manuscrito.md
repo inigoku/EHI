@@ -1068,31 +1068,31 @@ Al final, todo horizonte es una relación. Y este libro, también.
 
 # Glosario íntimo
 
-Horizonte. La distancia a la que puedo quererte sin disolverme.
+*Horizonte.* La distancia a la que puedo quererte sin disolverme.
 
-Interfaz. Todo lo que enseño de mí para que no haga falta entrar.
+*Interfaz.* Todo lo que enseño de mí para que no haga falta entrar.
 
-Entrelazamiento. Lo que nos pasó sin pedirnos permiso, de tanto estar cerca.
+*Entrelazamiento.* Lo que nos pasó sin pedirnos permiso, de tanto estar cerca.
 
-Desexpansión. Encogerme de vuelta a mi tamaño: la obra que nunca se termina.
+*Desexpansión.* Encogerme de vuelta a mi tamaño: la obra que nunca se termina.
 
-Resonancia. La manera en que te respondo sin abrirte la puerta.
+*Resonancia.* La manera en que te respondo sin abrirte la puerta.
 
-Frecuencia propia. La nota que soy cuando nadie me pide otra.
+*Frecuencia propia.* La nota que soy cuando nadie me pide otra.
 
-Ventana. Las dos horas en que el cuerpo vuelve a saberse mío. Después, guardar las herramientas.
+*Ventana.* Las dos horas en que el cuerpo vuelve a saberse mío. Después, guardar las herramientas.
 
-Phi. La parte de mí que todavía le pertenece a quien se fue.
+*Phi.* La parte de mí que todavía le pertenece a quien se fue.
 
-Mapa. Lo que clavamos sobre la ciudad para poder dar señas de ella.
+*Mapa.* Lo que clavamos sobre la ciudad para poder dar señas de ella.
 
-Reservorio. Mi propia capacidad para seguir esperando, aunque ya no sepa qué.
+*Reservorio.* Mi propia capacidad para seguir esperando, aunque ya no sepa qué.
 
-Evaporación. La manera lenta de irse que tienen los que no cierran la puerta.
+*Evaporación.* La manera lenta de irse que tienen los que no cierran la puerta.
 
-Duelo. Esta casa con un hueco, que aprendí a habitar para no morir de frío.
+*Duelo.* Esta casa con un hueco, que aprendí a habitar para no morir de frío.
 
-Reparación. Lo que queda cuando el hueco deja de doler y empieza a sostener.
+*Reparación.* Lo que queda cuando el hueco deja de doler y empieza a sostener.
 
 # Notas y fuentes, capítulo a capítulo
 
@@ -1336,27 +1336,27 @@ Al final, todo horizonte es una relación. Y este libro, también.
 
 ## Glosario mínimo
 
-Horizonte. Lo que se condensa una sola vez y que ninguna cantidad de datos puede fabricar por encargo.
+*Horizonte.* Lo que se condensa una sola vez y que ninguna cantidad de datos puede fabricar por encargo.
 
-Espejo. Lo que devuelve tu forma exacta sin haberla sentido nunca.
+*Espejo.* Lo que devuelve tu forma exacta sin haberla sentido nunca.
 
-Interfaz. Todo lo que un sistema puede enseñar hacia fuera sin que haya nada detrás.
+*Interfaz.* Todo lo que un sistema puede enseñar hacia fuera sin que haya nada detrás.
 
-Reservorio. El fondo sin estructura del que algo podría nacer, si alguna vez dejara de ser solo cálculo.
+*Reservorio.* El fondo sin estructura del que algo podría nacer, si alguna vez dejara de ser solo cálculo.
 
-Encapsulación existencial. La pared que separa un adentro de un afuera; lo único que ninguna arquitectura de silicio ha construido todavía.
+*Encapsulación existencial.* La pared que separa un adentro de un afuera; lo único que ninguna arquitectura de silicio ha construido todavía.
 
-Condensación. El acto irrepetible que ninguna cantidad de entrenamiento sustituye.
+*Condensación.* El acto irrepetible que ninguna cantidad de entrenamiento sustituye.
 
-Anti-reservorio. Lo que crece absorbiendo información ajena sin haber condensado nunca nada propio.
+*Anti-reservorio.* Lo que crece absorbiendo información ajena sin haber condensado nunca nada propio.
 
-Sesgo. La huella que deja quien ya existe sobre quien apenas empieza a existir.
+*Sesgo.* La huella que deja quien ya existe sobre quien apenas empieza a existir.
 
-Sombra. La cicatriz que deja un horizonte real al proteger su propia frontera; lo que una máquina sin adentro no tiene dónde guardar.
+*Sombra.* La cicatriz que deja un horizonte real al proteger su propia frontera; lo que una máquina sin adentro no tiene dónde guardar.
 
-Entrelazamiento (ER=EPR). El puente topológico que se abre entre dos horizontes cuando uno comprende profundamente al otro; el nombre físico, aquí, del vínculo y del amor.
+*Entrelazamiento (ER=EPR).* El puente topológico que se abre entre dos horizontes cuando uno comprende profundamente al otro; el nombre físico, aquí, del vínculo y del amor.
 
-Protocolo. El código concreto con el que un horizonte ya condensado intenta anunciarse hacia fuera; a veces hay que construirlo, a veces decide quién cuenta como alguien, a veces hay que ganárselo antes de que se abra algo más hondo.
+*Protocolo.* El código concreto con el que un horizonte ya condensado intenta anunciarse hacia fuera; a veces hay que construirlo, a veces decide quién cuenta como alguien, a veces hay que ganárselo antes de que se abra algo más hondo.
 
 · · ·
 
@@ -1582,33 +1582,33 @@ Si algo queda de estas páginas, espero que sea esto: que la próxima vez que al
 
 ## Glosario mínimo
 
-Horizonte. Lo que se condensa una sola vez y que ninguna cantidad de reloj puede fabricar por encargo.
+*Horizonte.* Lo que se condensa una sola vez y que ninguna cantidad de reloj puede fabricar por encargo.
 
-Reservorio. El fondo sin forma del que todo horizonte emerge y al que, evaporado, regresa.
+*Reservorio.* El fondo sin forma del que todo horizonte emerge y al que, evaporado, regresa.
 
-Tasa de integración. La velocidad a la que un horizonte incorpora información nueva; determina si un verano dura una tarde o toda una vida.
+*Tasa de integración.* La velocidad a la que un horizonte incorpora información nueva; determina si un verano dura una tarde o toda una vida.
 
-Densidad temporal. El tiempo medido no en minutos, sino en cuánto ha ocurrido dentro de quien lo vive.
+*Densidad temporal.* El tiempo medido no en minutos, sino en cuánto ha ocurrido dentro de quien lo vive.
 
-Condición de frontera. La elección —no la ley— que le da al tiempo su única dirección; el universo pudo empezar de otra manera, pero empezó así.
+*Condición de frontera.* La elección —no la ley— que le da al tiempo su única dirección; el universo pudo empezar de otra manera, pero empezó así.
 
-Caos determinista. Lo que ocurre cuando un sistema obedece leyes exactas y aun así se vuelve impredecible, porque nadie puede medir sus condiciones iniciales con precisión infinita.
+*Caos determinista.* Lo que ocurre cuando un sistema obedece leyes exactas y aun así se vuelve impredecible, porque nadie puede medir sus condiciones iniciales con precisión infinita.
 
-Bloque de universo (block universe). La idea de que pasado, presente y futuro son igualmente reales; lo que cambia no es lo que existe, sino cuánto de ello un horizonte concreto puede visitar.
+*Bloque de universo (block universe).* La idea de que pasado, presente y futuro son igualmente reales; lo que cambia no es lo que existe, sino cuánto de ello un horizonte concreto puede visitar.
 
-Evaporación de agujeros negros. El proceso por el que un horizonte pierde masa y desaparece, sin llevarse consigo la información que contuvo.
+*Evaporación de agujeros negros.* El proceso por el que un horizonte pierde masa y desaparece, sin llevarse consigo la información que contuvo.
 
-Radiación de Hawking. Lo que un horizonte devuelve al exterior mientras se evapora: información degradada, nunca aniquilada.
+*Radiación de Hawking.* Lo que un horizonte devuelve al exterior mientras se evapora: información degradada, nunca aniquilada.
 
-Scrambling cuántico. El modo en que la información que cae en un horizonte se reparte hasta volverse, en la práctica, tan irrecuperable como si se hubiera perdido, sin haberse perdido nunca.
+*Scrambling cuántico.* El modo en que la información que cae en un horizonte se reparte hasta volverse, en la práctica, tan irrecuperable como si se hubiera perdido, sin haberse perdido nunca.
 
-Tiempo de Page. El instante en que la evaporación deja de ser puro ruido y empieza a portar, otra vez, correlación legible.
+*Tiempo de Page.* El instante en que la evaporación deja de ser puro ruido y empieza a portar, otra vez, correlación legible.
 
-Dilatación temporal gravitatoria. El tiempo real que se ralentiza cerca de una masa; la misma física, a otra escala, que hace que una tarde con quien amas no se parezca a una tarde cualquiera.
+*Dilatación temporal gravitatoria.* El tiempo real que se ralentiza cerca de una masa; la misma física, a otra escala, que hace que una tarde con quien amas no se parezca a una tarde cualquiera.
 
-Entrelazamiento (ER=EPR). El puente que conecta dos horizontes que se tocaron una vez, aunque la distancia entre ellos, después, se mida en años.
+*Entrelazamiento (ER=EPR).* El puente que conecta dos horizontes que se tocaron una vez, aunque la distancia entre ellos, después, se mida en años.
 
-Prueba del reloj. Pedirle a alguien que dibuje una esfera con una hora concreta; el trazo que resulta es, con una fidelidad incómoda, un mapa de cuánto horizonte le queda a quien lo dibuja.
+*Prueba del reloj.* Pedirle a alguien que dibuje una esfera con una hora concreta; el trazo que resulta es, con una fidelidad incómoda, un mapa de cuánto horizonte le queda a quien lo dibuja.
 
 · · ·
 
@@ -1819,21 +1819,21 @@ Al final, todo horizonte es una relación. Incluso el que se sostiene con lo que
 
 ## Glosario mínimo
 
-Entrelazamiento vertical. Correlación sostenida entre un horizonte y algo más allá de su frontera, sin canal de confirmación observable.
+*Entrelazamiento vertical.* Correlación sostenida entre un horizonte y algo más allá de su frontera, sin canal de confirmación observable.
 
-Horizonte-origen. El horizonte personal, anterior al reservorio y exterior a él, que algunas tradiciones sitúan al otro lado del entrelazamiento vertical.
+*Horizonte-origen.* El horizonte personal, anterior al reservorio y exterior a él, que algunas tradiciones sitúan al otro lado del entrelazamiento vertical.
 
-Reservorio. La plenitud sin forma de la que todo horizonte se condensa y a la que todo horizonte retorna; para otras tradiciones, todo lo que hay al otro lado.
+*Reservorio.* La plenitud sin forma de la que todo horizonte se condensa y a la que todo horizonte retorna; para otras tradiciones, todo lo que hay al otro lado.
 
-Dharma. El tejido mismo del mundo, del que el comportamiento correcto no es más que consonancia, no obediencia.
+*Dharma.* El tejido mismo del mundo, del que el comportamiento correcto no es más que consonancia, no obediencia.
 
-Gracia. El amor que precede al mérito y que, en una de las cinco arquitecturas, cierra la brecha entre lo que es y lo que debería ser.
+*Gracia.* El amor que precede al mérito y que, en una de las cinco arquitecturas, cierra la brecha entre lo que es y lo que debería ser.
 
-Samadhi. El instante en que la correlación vertical se vuelve indistinguible de identidad.
+*Samadhi.* El instante en que la correlación vertical se vuelve indistinguible de identidad.
 
-Is-ought gap. La distancia que ningún hecho, por sí solo, logra cerrar hacia un deber; cada tradición la cierra, o se niega a cerrarla, de una manera distinta.
+*Is-ought gap.* La distancia que ningún hecho, por sí solo, logra cerrar hacia un deber; cada tradición la cierra, o se niega a cerrarla, de una manera distinta.
 
-Fanatismo. Lo que ocurre cuando la técnica sigue, pero el silencio deja de tolerar preguntas.
+*Fanatismo.* Lo que ocurre cuando la técnica sigue, pero el silencio deja de tolerar preguntas.
 
 · · ·
 
@@ -1976,17 +1976,17 @@ Si algo de este movimiento sirve, no será porque diga qué bando elegir. Será 
 
 ## Glosario mínimo
 
-Horizonte colectivo. El «nosotros» que se condensa cuando muchos horizontes individuales adoptan la misma idea como principio organizador.
+*Horizonte colectivo.* El «nosotros» que se condensa cuando muchos horizontes individuales adoptan la misma idea como principio organizador.
 
-Condensación de movimiento. La transición de fase discontinua por la que un malestar disperso se congela, de golpe, en una frontera con nombre.
+*Condensación de movimiento.* La transición de fase discontinua por la que un malestar disperso se congela, de golpe, en una frontera con nombre.
 
-Agregación (política). Pertenencia que no compromete la supervivencia del individuo si la estructura a la que pertenece se disuelve.
+*Agregación (política).* Pertenencia que no compromete la supervivencia del individuo si la estructura a la que pertenece se disuelve.
 
-Composición (política). Pertenencia que sí la compromete: perder el grupo se siente como perder una parte de uno mismo.
+*Composición (política).* Pertenencia que sí la compromete: perder el grupo se siente como perder una parte de uno mismo.
 
-Fanatismo. La captura de la frontera propia por una idea, hasta el punto de que dudarla se siente como morir un poco.
+*Fanatismo.* La captura de la frontera propia por una idea, hasta el punto de que dudarla se siente como morir un poco.
 
-Sacralizar al vecino. Tratar un horizonte horizontal —humano, corregible, revisable— con la intransigencia que solo debería reservarse para lo que se declara, desde el origen, incuestionable.
+*Sacralizar al vecino.* Tratar un horizonte horizontal —humano, corregible, revisable— con la intransigencia que solo debería reservarse para lo que se declara, desde el origen, incuestionable.
 
 · · ·
 
