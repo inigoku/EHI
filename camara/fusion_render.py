@@ -167,6 +167,11 @@ def build_docx(header, blocks, out_path: Path, index_pages=None):
                 doc.add_page_break()
             st = HEADING_STYLE[b.level]
             add(b.lines[0], style_name=WORD_STYLE[b.level], **st)
+        elif b.kind == "image":
+            doc.add_page_break()
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.add_run().add_picture(b.lines[0], height=Cm(20))
         elif len(b.lines) > 1:
             add_verse(b.lines)
         else:
@@ -213,6 +218,8 @@ def build_epub(header, blocks, out_path: Path):
             ".v0{margin-left:0}.v1{margin-left:1.3em}.v2{margin-left:2.6em}"
             ".v3{margin-left:3.9em}.v4{margin-left:5.2em}.v5{margin-left:6.5em}"
             ".v6{margin-left:7.8em}"
+            ".mangapage{text-align:center;page-break-before:always;margin:0;}"
+            ".mangapage img{max-width:100%;max-height:95vh;}"
         ),
     )
     book.add_item(css)
@@ -245,6 +252,7 @@ def build_epub(header, blocks, out_path: Path):
     # Anclas por encabezado de nivel 1, para un índice navegable de verdad.
     toc_links: list = []
     h1_seen = 0
+    img_seen = 0
     for b in blocks:
         if b.kind == "heading":
             if b.level == 1:
@@ -255,6 +263,16 @@ def build_epub(header, blocks, out_path: Path):
             else:
                 tag = f"h{b.level}"
                 html_parts.append(f"<{tag}>{esc_html(b.lines[0])}</{tag}>")
+        elif b.kind == "image":
+            img_seen += 1
+            src_path = Path(b.lines[0])
+            item_name = f"images/{img_seen:02d}_{src_path.name}"
+            img_item = epub.EpubImage(
+                uid=f"img{img_seen}", file_name=item_name,
+                media_type="image/jpeg", content=src_path.read_bytes(),
+            )
+            book.add_item(img_item)
+            html_parts.append(f'<div class="mangapage"><img src="{item_name}" alt="Página de manga"/></div>')
         elif len(b.lines) > 1:
             html_parts.append('<div class="verse">')
             for raw in b.lines:
@@ -404,6 +422,19 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                 story.append(Paragraph(render(b.lines[0]), h2))
             else:
                 story.append(Paragraph(render(b.lines[0]), h3))
+        elif b.kind == "image":
+            from reportlab.platypus import Image
+            from PIL import Image as PILImage
+            story.append(PageBreak())
+            img_w, img_h = PILImage.open(b.lines[0]).size
+            # -12pt de margen de seguridad: el frame de SimpleDocTemplate
+            # reserva un padding interno propio (6pt por lado) por defecto.
+            avail_w = page[0] - 2 * side_margin - 12
+            avail_h = page[1] - 2 * top_margin - 12
+            scale = min(avail_w / img_w, avail_h / img_h)
+            im = Image(b.lines[0], width=img_w * scale, height=img_h * scale)
+            im.hAlign = "CENTER"
+            story.append(im)
         elif len(b.lines) > 1:
             n = len(b.lines)
             for i, raw in enumerate(b.lines):
