@@ -297,19 +297,25 @@ def build_epub(header, blocks, out_path: Path):
 # PDF
 # ---------------------------------------------------------------------------
 
-def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, extra_index_pages=None):
+def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, extra_index_pages=None,
+              poem_own_page=False, manga_margin_in=None):
     """pagesize: (width, height) en puntos reportlab (usa reportlab.lib.units.inch
     para pasar pulgadas), por defecto carta. margins_in: pulgadas de margen
-    uniforme (izq/dcha/arriba/abajo), por defecto 1.1cm/2.5cm según el original."""
+    uniforme (izq/dcha/arriba/abajo), por defecto 1.1cm/2.5cm según el original.
+    poem_own_page: si True, cada "## Poema: ..." abre página propia, centrado
+    horizontal y verticalmente. manga_margin_in: margen (pulgadas) específico
+    para las páginas de imagen (cómic), más ajustado que el del texto para
+    aprovechar mejor la página; None = usa el mismo margen que el resto."""
     from reportlab.lib.pagesizes import LETTER
     from reportlab.lib.colors import HexColor
     from reportlab.lib.styles import ParagraphStyle
-    from reportlab.lib.units import cm
+    from reportlab.lib.units import cm, inch
     from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
     from reportlab.platypus import (
-        SimpleDocTemplate, Paragraph, Spacer, PageBreak, HRFlowable,
+        BaseDocTemplate, PageTemplate, Frame, NextPageTemplate,
+        Paragraph, Spacer, PageBreak, HRFlowable,
     )
     from reportlab.platypus.tableofcontents import TableOfContents
 
@@ -347,6 +353,8 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     h3 = ParagraphStyle("h3", fontName="Serif-Bold", fontSize=11.5, spaceBefore=12, spaceAfter=6, leading=15)
     body = ParagraphStyle("body", fontName="Serif", fontSize=11, alignment=TA_JUSTIFY, leading=16, spaceAfter=10)
     poem = ParagraphStyle("poem", fontName="Serif-Italic", fontSize=11, alignment=TA_LEFT, leading=16, spaceAfter=10)
+    poem_center = ParagraphStyle("poem_center", parent=poem, alignment=TA_CENTER)
+    h2_center = ParagraphStyle("h2_center", parent=h2, alignment=TA_CENTER)
 
     toc = TableOfContents()
     toc.levelStyles = [
@@ -355,7 +363,7 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     ]
     toc.dotsMinLevel = -1  # sin puntos guía: entradas centradas, más limpio
 
-    class BookDocTemplate(SimpleDocTemplate):
+    class BookDocTemplate(BaseDocTemplate):
         def afterFlowable(self, flowable):
             if getattr(flowable, "_toc_entry", False):
                 text = flowable.getPlainText()
@@ -366,17 +374,23 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
 
     page = pagesize or LETTER
     if margins_in is not None:
-        from reportlab.lib.units import inch
         side_margin = margins_in * inch
     else:
         side_margin = 2.8 * cm
     top_margin = 2.5 * cm if margins_in is None else margins_in * inch
 
-    doc = BookDocTemplate(
-        str(out_path), pagesize=page,
-        leftMargin=side_margin, rightMargin=side_margin,
-        topMargin=top_margin, bottomMargin=top_margin,
-    )
+    doc = BookDocTemplate(str(out_path), pagesize=page)
+    normal_frame = Frame(side_margin, top_margin, page[0] - 2 * side_margin,
+                         page[1] - 2 * top_margin, id="normal")
+    manga_side = manga_margin_in * inch if manga_margin_in is not None else side_margin
+    manga_top = manga_margin_in * inch if manga_margin_in is not None else top_margin
+    manga_frame = Frame(manga_side, manga_top, page[0] - 2 * manga_side,
+                        page[1] - 2 * manga_top, id="manga",
+                        leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+    doc.addPageTemplates([
+        PageTemplate(id="Normal", frames=[normal_frame]),
+        PageTemplate(id="Manga", frames=[manga_frame]),
+    ])
 
     story = [Spacer(1, page[1] * 0.16)]
     story.append(Paragraph(header[0], kicker))
@@ -408,16 +422,51 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
         story.append(toc)
         story.append(PageBreak())
 
+    manga_avail_w = page[0] - 2 * manga_side
+    manga_avail_h = page[1] - 2 * manga_top
+    text_avail_h = page[1] - 2 * top_margin
+
     h1_seen = 0
-    for b in blocks:
+    skip_to = -1
+    for bi, b in enumerate(blocks):
+        if bi <= skip_to:
+            continue
         if b.kind == "heading":
+            is_poem = poem_own_page and b.level == 2 and b.lines[0].startswith("Poema:")
             if b.level == 1:
                 h1_seen += 1
+                story.append(NextPageTemplate("Normal"))
                 story.append(PageBreak())
                 p = Paragraph(render(b.lines[0]), h1)
                 p._toc_entry = True
                 p._toc_key = f"h1-{h1_seen}"
                 story.append(p)
+            elif is_poem:
+                # Recoge el/los bloques de verso que siguen, hasta el próximo
+                # encabezado, para centrar el poema entero (título + versos)
+                # vertical y horizontalmente en su propia página.
+                verse_blocks = []
+                j = bi + 1
+                while j < len(blocks) and blocks[j].kind != "heading":
+                    verse_blocks.append(blocks[j])
+                    j += 1
+                skip_to = j - 1
+                n_lines = sum(len(vb.lines) for vb in verse_blocks)
+                content_h = 21 + n_lines * 16  # aprox.: título + versos
+                top_space = max(18, (text_avail_h - content_h) / 2)
+                story.append(NextPageTemplate("Normal"))
+                story.append(PageBreak())
+                story.append(Spacer(1, top_space))
+                story.append(Paragraph(render(b.lines[0]), h2_center))
+                for vb in verse_blocks:
+                    m = len(vb.lines)
+                    for i, raw in enumerate(vb.lines):
+                        level, text = split_verse_line(raw)
+                        line_style = ParagraphStyle(
+                            f"versec_{id(vb)}_{i}", parent=poem_center,
+                            leftIndent=level * 16, spaceAfter=(0 if i < m - 1 else 10),
+                        )
+                        story.append(Paragraph(render(text), line_style))
             elif b.level == 2:
                 story.append(Paragraph(render(b.lines[0]), h2))
             else:
@@ -425,16 +474,14 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
         elif b.kind == "image":
             from reportlab.platypus import Image
             from PIL import Image as PILImage
+            story.append(NextPageTemplate("Manga"))
             story.append(PageBreak())
             img_w, img_h = PILImage.open(b.lines[0]).size
-            # -12pt de margen de seguridad: el frame de SimpleDocTemplate
-            # reserva un padding interno propio (6pt por lado) por defecto.
-            avail_w = page[0] - 2 * side_margin - 12
-            avail_h = page[1] - 2 * top_margin - 12
-            scale = min(avail_w / img_w, avail_h / img_h)
+            scale = min(manga_avail_w / img_w, manga_avail_h / img_h)
             im = Image(b.lines[0], width=img_w * scale, height=img_h * scale)
             im.hAlign = "CENTER"
             story.append(im)
+            story.append(NextPageTemplate("Normal"))
         elif len(b.lines) > 1:
             n = len(b.lines)
             for i, raw in enumerate(b.lines):
