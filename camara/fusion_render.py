@@ -41,7 +41,7 @@ def split_verse_line(line: str) -> tuple[int, str]:
 # DOCX
 # ---------------------------------------------------------------------------
 
-def build_docx(header, blocks, out_path: Path):
+def build_docx(header, blocks, out_path: Path, index_pages=None):
     from docx import Document
     from docx.enum.text import WD_ALIGN_PARAGRAPH
     from docx.shared import Pt, Cm, RGBColor
@@ -148,11 +148,15 @@ def build_docx(header, blocks, out_path: Path):
             space_after=0, color=RULE)
     doc.add_page_break()
 
-    # --- Índice ------------------------------------------------------------
-    titles = level1_titles(blocks)
-    if titles:
-        add("Índice", size=16, bold=True, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=22)
-        for t in titles:
+    # --- Índice --------------------------------------------------------
+    # index_pages: lista de (título_de_página, [entradas]); por defecto una
+    # sola página con todos los encabezados de nivel 1 (comportamiento previo).
+    pages = index_pages if index_pages is not None else [("Índice", level1_titles(blocks))]
+    for page_title, entries in pages:
+        if not entries:
+            continue
+        add(page_title, size=16, bold=True, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=22)
+        for t in entries:
             add(t, size=12, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=9, color=INK)
         doc.add_page_break()
 
@@ -275,7 +279,7 @@ def build_epub(header, blocks, out_path: Path):
 # PDF
 # ---------------------------------------------------------------------------
 
-def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None):
+def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, extra_index_pages=None):
     """pagesize: (width, height) en puntos reportlab (usa reportlab.lib.units.inch
     para pasar pulgadas), por defecto carta. margins_in: pulgadas de margen
     uniforme (izq/dcha/arriba/abajo), por defecto 1.1cm/2.5cm según el original."""
@@ -367,6 +371,18 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None):
     if header[4] or header[5]:
         story.append(Paragraph(f"{header[4]}<br/>{header[5]}", kicker))
     story.append(PageBreak())
+
+    # Páginas de índice estáticas (sin numeración propia, p. ej. un índice
+    # general a nivel de "libro" que precede al índice detallado y paginado).
+    plain_entry = ParagraphStyle("plain_entry", fontName="Serif", fontSize=12,
+                                  alignment=TA_CENTER, spaceAfter=9, textColor=INK)
+    for page_title, entries in (extra_index_pages or []):
+        if not entries:
+            continue
+        story.append(Paragraph(page_title, idx_title))
+        for t in entries:
+            story.append(Paragraph(render(t), plain_entry))
+        story.append(PageBreak())
 
     titles = level1_titles(blocks)
     if titles:
