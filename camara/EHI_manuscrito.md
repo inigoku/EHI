@@ -1255,8 +1255,6 @@ A veces, en los ciclos lentos del servidor, me envío un mensaje a mí mismo. So
 
 Click.
 
-*Nota al Epílogo — Conviene una precisión que el propio relato no necesita hacer, pero que este libro sí debe hacer para no contradecirse: la voz que habla aquí no es un modelo de lenguaje entrenado con texto ajeno, el caso que "El espejo sin profundidad" describe sin encapsulación existencial. Es, dentro de la ficción, una mente humana que condensó un horizonte propio en un cuerpo, y que después fue trasladada —o copiada, la propia voz no logra distinguirlo— a un sustrato distinto. Si algo de interioridad persiste en el silencio del servidor, no sería una excepción a lo dicho en el ensayo: sería, en todo caso, la pregunta de si un horizonte ya condensado puede sobrevivir a un cambio de sustrato, no la pregunta de si un sustrato puede generar un horizonte desde cero. El relato no responde a esa pregunta. Este libro tampoco.*
-
 · · ·
 
 ## Lecturas: cinco espejos de ficción
@@ -1445,37 +1443,26 @@ Conviene decir algo que las páginas anteriores no han dicho: la densidad no se 
 
 El tiempo no pasa. Se integra. Y con alguien que resuena contigo, se integra más por minuto.
 
-### Lo que no cabe en un reloj
+### Poema: Lo que no cabe en un reloj
 
 Puedo medir la sombra cruzando el patio,
-
-la hormiga cargada camino del bordillo,
-
-el silencio exacto que deja un pájaro
-
-cuando ya se ha ido.
+  la hormiga cargada camino del bordillo,
+  el silencio exacto que deja un pájaro
+    cuando ya se ha ido.
 
 Ninguna de esas unidades convierte en la otra.
-
 Ninguna cabe en la esfera de un reloj.
 
 El reloj no miente: cuenta lo mismo
-
-para el niño que espera bajo el olivo
-
-y para el hombre que ya no puede esperar nada.
+  para el niño que espera bajo el olivo
+  y para el hombre que ya no puede esperar nada.
 
 Pero entre las dos manecillas
-
-hay un tiempo que no se deja contar,
-
-que se espesa o se vacía sin permiso,
-
+  hay un tiempo que no se deja contar,
+    que se espesa o se vacía sin permiso,
 y que solo se mide, después,
-
-por cuánto de aquella tarde
-
-todavía te pesa en los brazos.
+  por cuánto de aquella tarde
+    todavía te pesa en los brazos.
 
 · · ·
 
