@@ -37,6 +37,32 @@ def split_verse_line(line: str) -> tuple[int, str]:
     return spaces // 2, stripped
 
 
+def split_heading(text: str) -> tuple[str, str | None]:
+    """"OBERTURA — La costumbre del agua" -> ("OBERTURA", "La costumbre del
+    agua"). Sin em-dash (títulos de libro tipo "EL ESPEJO SIN PROFUNDIDAD"),
+    devuelve el texto entero como kicker y sin subtítulo."""
+    if " — " in text:
+        kicker, subtitle = text.split(" — ", 1)
+        return kicker.strip(), subtitle.strip()
+    return text, None
+
+
+def track(text: str) -> str:
+    """Espaciado entre letras (tracking) insertando un espacio entre cada
+    carácter. Los espacios originales (títulos de varias palabras) se quitan
+    antes de unir: reportlab colapsa a cero cualquier tramo de 2+ espacios
+    seguidos, así que preservarlos como "letra + espacio + espacio-original
+    + espacio" fundía las palabras en vez de separarlas.
+    Si el texto tiene alguna letra acentuada (Ó, Á, Ñ...), reportlab tiene un
+    bug de posicionado con TTF que, en una cadena larga con espacios
+    insertados, hace que las letras se solapen sin espacio alguno; en ese
+    caso se devuelve el texto tal cual, sin tracking, en vez de un título
+    ilegible."""
+    if not text.isascii():
+        return text
+    return " ".join(text.replace(" ", ""))
+
+
 # ---------------------------------------------------------------------------
 # DOCX
 # ---------------------------------------------------------------------------
@@ -60,9 +86,17 @@ def build_docx(header, blocks, out_path: Path, index_pages=None):
 
     INK = RGBColor(0x2A, 0x24, 0x1C)
     RULE = RGBColor(0x9C, 0x8A, 0x6A)
+    CREAM = "FAF7F0"
+
+    # Fondo de página cálido (Word lo muestra en pantalla; la impresión de
+    # fondos de página es una opción del usuario en Word, no del documento).
+    bg = OxmlElement("w:background")
+    bg.set(qn("w:color"), CREAM)
+    doc.element.insert(0, bg)
 
     def add(text, *, size=11, bold=False, italic=False, align=None,
-            space_before=0, space_after=8, color=None, style_name=None):
+            space_before=0, space_after=8, color=None, style_name=None,
+            tracking=None):
         p = doc.add_paragraph()
         if style_name is not None:
             p.style = doc.styles[style_name]
@@ -76,6 +110,11 @@ def build_docx(header, blocks, out_path: Path, index_pages=None):
         r.font.size = Pt(size)
         if color is not None:
             r.font.color.rgb = color
+        if tracking is not None:
+            rPr = r._element.get_or_add_rPr()
+            spacing = OxmlElement("w:spacing")
+            spacing.set(qn("w:val"), str(tracking))
+            rPr.append(spacing)
         return p
 
     def add_rule(p, color=RULE, size_eighths=4, space_pt=6):
@@ -90,11 +129,13 @@ def build_docx(header, blocks, out_path: Path, index_pages=None):
         pBdr.append(bottom)
         pPr.append(pBdr)
 
-    def add_multiline(lines, *, align=None, size=11):
+    def add_multiline(lines, *, align=None, size=11, first_line_indent=None):
         p = doc.add_paragraph()
         if align is not None:
             p.alignment = align
-        p.paragraph_format.space_after = Pt(8)
+        p.paragraph_format.space_after = Pt(0)
+        if first_line_indent is not None:
+            p.paragraph_format.first_line_indent = Cm(first_line_indent)
         for i, line in enumerate(lines):
             if i > 0:
                 p.add_run().add_break()
@@ -106,12 +147,14 @@ def build_docx(header, blocks, out_path: Path, index_pages=None):
                 r.bold = is_bold
                 r.font.size = Pt(size)
 
-    def add_verse(lines, *, size=11, unit_cm=0.55):
+    def add_verse(lines, *, size=11, unit_cm=0.55, align=None):
         """Un párrafo por verso, con sangría real según split_verse_line()."""
         n = len(lines)
         for i, raw in enumerate(lines):
             level, text = split_verse_line(raw)
             p = doc.add_paragraph()
+            if align is not None:
+                p.alignment = align
             p.paragraph_format.left_indent = Cm(unit_cm * level)
             p.paragraph_format.space_before = Pt(0)
             p.paragraph_format.space_after = Pt(0 if i < n - 1 else 8)
@@ -124,9 +167,10 @@ def build_docx(header, blocks, out_path: Path, index_pages=None):
                 r.font.size = Pt(size)
 
     HEADING_STYLE = {
-        1: dict(size=18, bold=True, space_before=0, space_after=16),
-        2: dict(size=13.5, bold=True, space_before=16, space_after=10),
-        3: dict(size=11.5, bold=True, space_before=12, space_after=6),
+        1: dict(size=17, bold=True, space_before=0, space_after=8, align=WD_ALIGN_PARAGRAPH.CENTER),
+        2: dict(size=13.5, bold=True, italic=True, space_before=20, space_after=14,
+                align=WD_ALIGN_PARAGRAPH.CENTER),
+        3: dict(size=11.5, bold=True, space_before=14, space_after=8, align=WD_ALIGN_PARAGRAPH.CENTER),
     }
     WORD_STYLE = {1: "Heading 1", 2: "Heading 2", 3: "Heading 3"}
 
@@ -161,21 +205,43 @@ def build_docx(header, blocks, out_path: Path, index_pages=None):
         doc.add_page_break()
 
     # --- Cuerpo ------------------------------------------------------------
+    seen_heading = False
+    first_para = True
     for b in blocks:
         if b.kind == "heading":
+            seen_heading = True
+            first_para = True
             if b.level == 1:
                 doc.add_page_break()
-            st = HEADING_STYLE[b.level]
-            add(b.lines[0], style_name=WORD_STYLE[b.level], **st)
+                doc.add_paragraph().paragraph_format.space_after = Pt(90)  # aire antes del título
+                kicker_text, subtitle_text = split_heading(b.lines[0])
+                st = HEADING_STYLE[1]
+                # Word soporta espaciado entre letras real (w:spacing) sin
+                # necesidad del truco de insertar espacios que usa el pdf.
+                add(kicker_text, style_name=WORD_STYLE[1], tracking=30, **st)
+                if subtitle_text:
+                    add(subtitle_text, size=13, italic=True, align=WD_ALIGN_PARAGRAPH.CENTER,
+                        space_after=0, color=INK)
+                doc.add_paragraph().paragraph_format.space_after = Pt(18)  # aire antes del cuerpo
+            else:
+                st = HEADING_STYLE[b.level]
+                add(b.lines[0], style_name=WORD_STYLE[b.level], **st)
         elif b.kind == "image":
             doc.add_page_break()
             p = doc.add_paragraph()
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             p.add_run().add_picture(b.lines[0], height=Cm(20))
         elif len(b.lines) > 1:
-            add_verse(b.lines)
+            is_dedication = not seen_heading
+            if is_dedication:
+                doc.add_paragraph().paragraph_format.space_after = Pt(220)
+                add_verse(b.lines, align=WD_ALIGN_PARAGRAPH.RIGHT)
+            else:
+                add_verse(b.lines)
         else:
-            add_multiline(b.lines, align=WD_ALIGN_PARAGRAPH.JUSTIFY)
+            add_multiline(b.lines, align=WD_ALIGN_PARAGRAPH.JUSTIFY,
+                          first_line_indent=None if first_para else 0.5)
+            first_para = False
 
     doc.save(out_path)
 
@@ -197,11 +263,15 @@ def build_epub(header, blocks, out_path: Path):
         uid="style", file_name="style/main.css", media_type="text/css",
         content=(
             "body{font-family:Georgia,'Liberation Serif',serif;line-height:1.55;"
-            "margin:1em 2em;color:#1a1a1a;}"
-            "h1{font-size:1.5em;margin-top:2.2em;page-break-before:always;}"
-            "h2{font-size:1.2em;margin-top:1.5em;}"
-            "h3{font-size:1.05em;margin-top:1.2em;}"
-            "p{margin:0 0 0.9em 0;text-align:justify;}"
+            "margin:1em 2em;color:#1a1a1a;background:#faf7f0;}"
+            "h1{font-size:1.15em;font-weight:bold;letter-spacing:.14em;text-transform:uppercase;"
+            "text-align:center;margin-top:3em;margin-bottom:0.3em;page-break-before:always;}"
+            "p.h1-subtitle{font-style:italic;text-align:center;font-size:1.05em;"
+            "margin:0 0 2em 0;}"
+            "h2{font-size:1.15em;font-style:italic;text-align:center;margin-top:2em;margin-bottom:1.2em;}"
+            "h3{font-size:1.05em;text-align:center;margin-top:1.4em;margin-bottom:0.8em;}"
+            "p{margin:0;text-indent:1.3em;text-align:justify;}"
+            "p.noindent{text-indent:0;}"
             ".cover{text-align:center;padding-top:3em;}"
             ".cover .kicker{font-style:italic;letter-spacing:.08em;"
             "text-transform:uppercase;font-size:.85em;color:#6b5d3f;}"
@@ -210,11 +280,13 @@ def build_epub(header, blocks, out_path: Path):
             ".cover .title{font-size:2em;font-weight:bold;margin:0.3em 0 0.2em;}"
             ".cover .subtitle{font-style:italic;margin:0 0 1.2em;}"
             ".cover .author{font-size:1.05em;margin-top:0.6em;}"
+            ".dedication{text-align:right;margin-top:8em;font-style:italic;}"
+            ".dedication p{text-indent:0;text-align:right;margin:0;}"
             "nav#toc ol{list-style:none;padding-left:0;}"
             "nav#toc li{margin:0.5em 0;text-align:center;}"
             "nav#toc a{text-decoration:none;color:#1a1a1a;}"
             ".verse{margin:0 0 0.9em 0;font-style:italic;}"
-            ".verse p{margin:0;text-align:left;}"
+            ".verse p{margin:0;text-indent:0;text-align:left;}"
             ".v0{margin-left:0}.v1{margin-left:1.3em}.v2{margin-left:2.6em}"
             ".v3{margin-left:3.9em}.v4{margin-left:5.2em}.v5{margin-left:6.5em}"
             ".v6{margin-left:7.8em}"
@@ -253,12 +325,19 @@ def build_epub(header, blocks, out_path: Path):
     toc_links: list = []
     h1_seen = 0
     img_seen = 0
+    seen_heading = False
+    first_para = True
     for b in blocks:
         if b.kind == "heading":
+            seen_heading = True
+            first_para = True
             if b.level == 1:
                 h1_seen += 1
                 anchor = f"h1-{h1_seen}"
-                html_parts.append(f'<h1 id="{anchor}">{esc_html(b.lines[0])}</h1>')
+                kicker_text, subtitle_text = split_heading(b.lines[0])
+                html_parts.append(f'<h1 id="{anchor}">{esc_html(kicker_text)}</h1>')
+                if subtitle_text:
+                    html_parts.append(f'<p class="h1-subtitle">{esc_html(subtitle_text)}</p>')
                 toc_links.append(epub.Link(f"content.xhtml#{anchor}", b.lines[0], anchor))
             else:
                 tag = f"h{b.level}"
@@ -274,13 +353,18 @@ def build_epub(header, blocks, out_path: Path):
             book.add_item(img_item)
             html_parts.append(f'<div class="mangapage"><img src="{item_name}" alt="Página de manga"/></div>')
         elif len(b.lines) > 1:
-            html_parts.append('<div class="verse">')
+            is_dedication = not seen_heading
+            div_class = "dedication" if is_dedication else "verse"
+            html_parts.append(f'<div class="{div_class}">')
             for raw in b.lines:
                 level, text = split_verse_line(raw)
-                html_parts.append(f'<p class="v{min(level, 6)}">{inline_html(text)}</p>')
+                cls = "" if is_dedication else f' class="v{min(level, 6)}"'
+                html_parts.append(f'<p{cls}>{inline_html(text)}</p>')
             html_parts.append("</div>")
         else:
-            html_parts.append("<p>" + inline_html(b.lines[0]) + "</p>")
+            cls = ' class="noindent"' if first_para else ""
+            html_parts.append(f"<p{cls}>" + inline_html(b.lines[0]) + "</p>")
+            first_para = False
 
     chapter = epub.EpubHtml(title=header[2], file_name="content.xhtml", lang="es")
     chapter.content = "<html><body>" + "\n".join(html_parts) + "</body></html>"
@@ -310,7 +394,7 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     from reportlab.lib.colors import HexColor
     from reportlab.lib.styles import ParagraphStyle
     from reportlab.lib.units import cm, inch
-    from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
+    from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT, TA_RIGHT
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
     from reportlab.platypus import (
@@ -338,6 +422,7 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
 
     INK = HexColor("#2a241c")
     RULE = HexColor("#9c8a6a")
+    CREAM = HexColor("#faf7f0")
 
     def render(text: str) -> str:
         out = []
@@ -357,13 +442,23 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     author = ParagraphStyle("author", fontName="Serif", fontSize=13, alignment=TA_CENTER, spaceAfter=22)
     idx_title = ParagraphStyle("idx_title", fontName="Serif-Bold", fontSize=16, alignment=TA_CENTER,
                                 spaceBefore=0, spaceAfter=20)
-    h1 = ParagraphStyle("h1", fontName="Serif-Bold", fontSize=17, spaceBefore=0, spaceAfter=16, leading=21)
-    h2 = ParagraphStyle("h2", fontName="Serif-Bold", fontSize=13.5, spaceBefore=16, spaceAfter=10, leading=17)
-    h3 = ParagraphStyle("h3", fontName="Serif-Bold", fontSize=11.5, spaceBefore=12, spaceAfter=6, leading=15)
-    body = ParagraphStyle("body", fontName="Serif", fontSize=11, alignment=TA_JUSTIFY, leading=16, spaceAfter=10)
+    h1_kicker = ParagraphStyle("h1_kicker", fontName="Serif-Bold", fontSize=15.5, alignment=TA_CENTER,
+                                spaceBefore=0, spaceAfter=8, leading=19, textColor=INK)
+    h1_subtitle = ParagraphStyle("h1_subtitle", fontName="Serif-Italic", fontSize=13.5, alignment=TA_CENTER,
+                                  spaceBefore=0, spaceAfter=0, leading=18, textColor=INK)
+    h2 = ParagraphStyle("h2", fontName="Serif-BoldItalic", fontSize=13.5, alignment=TA_CENTER,
+                         spaceBefore=22, spaceAfter=16, leading=17, textColor=INK)
+    h3 = ParagraphStyle("h3", fontName="Serif-Bold", fontSize=11.5, alignment=TA_CENTER,
+                         spaceBefore=16, spaceAfter=10, leading=15, textColor=INK)
+    body = ParagraphStyle("body", fontName="Serif", fontSize=11, alignment=TA_JUSTIFY, leading=16, spaceAfter=0)
+    body_indent = ParagraphStyle("body_indent", parent=body, firstLineIndent=16)
     poem = ParagraphStyle("poem", fontName="Serif-Italic", fontSize=11, alignment=TA_LEFT, leading=16, spaceAfter=10)
     poem_center = ParagraphStyle("poem_center", parent=poem, alignment=TA_CENTER)
-    h2_center = ParagraphStyle("h2_center", parent=h2, alignment=TA_CENTER)
+    dedication = ParagraphStyle("dedication", parent=poem, alignment=TA_RIGHT)
+    # Título de poema en su propia página: en negrita redonda (no cursiva),
+    # deliberadamente independiente de "h2" para no heredar su cursiva.
+    h2_center = ParagraphStyle("h2_center", fontName="Serif-Bold", fontSize=13.5, alignment=TA_CENTER,
+                                spaceBefore=0, spaceAfter=10, leading=17, textColor=INK)
 
     toc = TableOfContents()
     toc.levelStyles = [
@@ -375,13 +470,23 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     class BookDocTemplate(BaseDocTemplate):
         def afterFlowable(self, flowable):
             if getattr(flowable, "_toc_entry", False):
-                text = flowable.getPlainText()
+                # _toc_text: título completo para el índice, cuando el
+                # flowable visible solo pinta el kicker (p. ej. "OBERTURA"
+                # sin su subtítulo "La costumbre del agua").
+                text = getattr(flowable, "_toc_text", None) or flowable.getPlainText()
                 key = getattr(flowable, "_toc_key")
                 self.canv.bookmarkPage(key)
                 self.canv.addOutlineEntry(text, key, level=0, closed=False)
                 self.notify("TOCEntry", (0, text, self.page, key))
 
     page = pagesize or LETTER
+
+    def draw_bg(canvas, _doc):
+        canvas.saveState()
+        canvas.setFillColor(CREAM)
+        canvas.rect(0, 0, page[0], page[1], stroke=0, fill=1)
+        canvas.restoreState()
+
     if margins_in is not None:
         side_margin = margins_in * inch
     else:
@@ -397,8 +502,8 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                         page[1] - 2 * manga_top, id="manga",
                         leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
     doc.addPageTemplates([
-        PageTemplate(id="Normal", frames=[normal_frame]),
-        PageTemplate(id="Manga", frames=[manga_frame]),
+        PageTemplate(id="Normal", frames=[normal_frame], onPage=draw_bg),
+        PageTemplate(id="Manga", frames=[manga_frame], onPage=draw_bg),
     ])
 
     story = [Spacer(1, page[1] * 0.16)]
@@ -442,19 +547,29 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
 
     h1_seen = 0
     skip_to = -1
+    seen_heading = False
+    first_para = True
     for bi, b in enumerate(blocks):
         if bi <= skip_to:
             continue
         if b.kind == "heading":
+            seen_heading = True
+            first_para = True
             is_poem = poem_own_page and is_poem_heading(b)
             if b.level == 1:
                 h1_seen += 1
                 story.append(NextPageTemplate("Normal"))
                 story.append(PageBreak())
-                p = Paragraph(render(b.lines[0]), h1)
+                story.append(Spacer(1, text_avail_h * 0.15))
+                kicker_text, subtitle_text = split_heading(b.lines[0])
+                p = Paragraph(track(render(kicker_text)), h1_kicker)
                 p._toc_entry = True
                 p._toc_key = f"h1-{h1_seen}"
+                p._toc_text = b.lines[0]
                 story.append(p)
+                if subtitle_text:
+                    story.append(Paragraph(f"<i>{render(subtitle_text)}</i>", h1_subtitle))
+                story.append(Spacer(1, 26))
             elif is_poem:
                 # Recoge el/los bloques de verso que siguen, hasta el próximo
                 # encabezado, para centrar el poema entero (título + versos)
@@ -512,14 +627,20 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
             story.append(NextPageTemplate("Normal"))
         elif len(b.lines) > 1:
             n = len(b.lines)
+            is_dedication = not seen_heading
+            if is_dedication:
+                story.append(Spacer(1, text_avail_h * 0.38))
             for i, raw in enumerate(b.lines):
                 level, text = split_verse_line(raw)
+                parent_style = dedication if is_dedication else poem
                 line_style = ParagraphStyle(
-                    f"verse_{id(b)}_{i}", parent=poem,
+                    f"verse_{id(b)}_{i}", parent=parent_style,
                     leftIndent=level * 16, spaceAfter=(0 if i < n - 1 else 10),
                 )
                 story.append(Paragraph(render(text), line_style))
         else:
-            story.append(Paragraph(render(b.lines[0]), body))
+            style = body if first_para else body_indent
+            story.append(Paragraph(render(b.lines[0]), style))
+            first_para = False
 
     doc.multiBuild(story)
