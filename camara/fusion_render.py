@@ -467,10 +467,15 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                             leftIndent=level * 16, spaceAfter=(0 if i < m - 1 else 10),
                         )
                         story.append(Paragraph(render(text), line_style))
-                # Salto de página tras el poema, salvo que ya venga un
-                # encabezado de nivel 1 (ese ya fuerza el suyo propio).
-                next_is_h1 = j < len(blocks) and blocks[j].kind == "heading" and blocks[j].level == 1
-                if not next_is_h1:
+                # Salto de página tras el poema, salvo que lo que sigue ya
+                # fuerce su propio salto (otro poema, o un encabezado de
+                # nivel 1): si no, se duplicaría en una página en blanco.
+                next_heading = blocks[j] if j < len(blocks) and blocks[j].kind == "heading" else None
+                next_forces_break = next_heading is not None and (
+                    next_heading.level == 1
+                    or (poem_own_page and next_heading.level == 2 and next_heading.lines[0].startswith("Poema:"))
+                )
+                if not next_forces_break:
                     story.append(PageBreak())
             elif b.level == 2:
                 story.append(Paragraph(render(b.lines[0]), h2))
