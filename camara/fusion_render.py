@@ -426,13 +426,18 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     manga_avail_h = page[1] - 2 * manga_top
     text_avail_h = page[1] - 2 * top_margin
 
+    def is_poem_heading(h):
+        # "## Poema: ..." en el manuscrito, o "### Poema: ..." en los libros
+        # empalmados (poemas engastados dentro de un Ensayo/EPÍLOGO).
+        return h.kind == "heading" and h.level in (2, 3) and h.lines[0].startswith("Poema:")
+
     h1_seen = 0
     skip_to = -1
     for bi, b in enumerate(blocks):
         if bi <= skip_to:
             continue
         if b.kind == "heading":
-            is_poem = poem_own_page and b.level == 2 and b.lines[0].startswith("Poema:")
+            is_poem = poem_own_page and is_poem_heading(b)
             if b.level == 1:
                 h1_seen += 1
                 story.append(NextPageTemplate("Normal"))
@@ -451,6 +456,11 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                     verse_blocks.append(blocks[j])
                     j += 1
                 skip_to = j - 1
+                # El "· · ·" que separa viñetas dentro de un Ensayo/EPÍLOGO no
+                # pinta nada en una página propia ya delimitada por el salto:
+                # se sigue saltando (skip_to no cambia) pero no se renderiza.
+                if verse_blocks and verse_blocks[-1].lines == ["· · ·"]:
+                    verse_blocks = verse_blocks[:-1]
                 n_lines = sum(len(vb.lines) for vb in verse_blocks)
                 content_h = 21 + n_lines * 16  # aprox.: título + versos
                 top_space = max(18, (text_avail_h - content_h) / 2)
@@ -472,8 +482,7 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                 # nivel 1): si no, se duplicaría en una página en blanco.
                 next_heading = blocks[j] if j < len(blocks) and blocks[j].kind == "heading" else None
                 next_forces_break = next_heading is not None and (
-                    next_heading.level == 1
-                    or (poem_own_page and next_heading.level == 2 and next_heading.lines[0].startswith("Poema:"))
+                    next_heading.level == 1 or (poem_own_page and is_poem_heading(next_heading))
                 )
                 if not next_forces_break:
                     story.append(PageBreak())

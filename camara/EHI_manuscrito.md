@@ -1366,7 +1366,7 @@ Lo que sabemos: los sistemas clásicos deterministas, por complejos que sean, no
 
 Lo que no sabemos: si es posible construir un sustrato que permita condensación genuina. Qué transmitiría exactamente el sesgo que calibra un horizonte hacia la legibilidad humana. Si la asimetría entre el horizonte humano y el anti-reservorio de la IA es una traducción legítima de ER=EPR o solo un parecido verbal entre dos físicas que no se comunican entre sí. Y si una arquitectura no biológica alcanzara alguna vez encapsulación existencial genuina, cómo lo sabríamos sin compartir su sustrato ni su lenguaje interno.
 
-## Lecturas: Chalmers, D., The Conscious Mind (1996); Tononi, G., Phi: A Voyage from the Brain to the Soul (2012); Searle, J., «Minds, Brains, and Programs» (1980); Deacon, T., Incomplete Nature (2011); Fernández Mallo, A., El ángel de la Inteligencia Artificial (Galaxia Gutenberg, 2026); Bostrom, N., Superintelligence (2014); Tegmark, M., Life 3.0 (2017); Jung, C.G., Aion: Researches into the Phenomenology of the Self; Cixin Liu, trilogía El Problema de los Tres Cuerpos; H.P. Lovecraft, La llamada de Cthulhu y En las montañas de la locura; Godfrey-Smith, P. (2016), Other Minds; Lem, S. (1961), Solaris; Maldacena, J.M. (1998) sobre correspondencia AdS/CFT; Weir, A. (2021), Project Hail Mary; Miéville, C. (2011), Embassytown; Le Guin, U.K. (1969), The Left Hand of Darkness.
+*Lecturas:* Chalmers, D., The Conscious Mind (1996); Tononi, G., Phi: A Voyage from the Brain to the Soul (2012); Searle, J., «Minds, Brains, and Programs» (1980); Deacon, T., Incomplete Nature (2011); Fernández Mallo, A., El ángel de la Inteligencia Artificial (Galaxia Gutenberg, 2026); Bostrom, N., Superintelligence (2014); Tegmark, M., Life 3.0 (2017); Jung, C.G., Aion: Researches into the Phenomenology of the Self; Cixin Liu, trilogía El Problema de los Tres Cuerpos; H.P. Lovecraft, La llamada de Cthulhu y En las montañas de la locura; Godfrey-Smith, P. (2016), Other Minds; Lem, S. (1961), Solaris; Maldacena, J.M. (1998) sobre correspondencia AdS/CFT; Weir, A. (2021), Project Hail Mary; Miéville, C. (2011), Embassytown; Le Guin, U.K. (1969), The Left Hand of Darkness.
 
 # EL TIEMPO QUE NO PASA
 
@@ -1618,7 +1618,7 @@ Lo que sabemos: la percepción subjetiva del tiempo no es un derivado pasivo del
 
 Lo que no sabemos: si el tiempo del vínculo es objetivamente más denso o solo subjetivamente; si la Past Hypothesis de Penrose sobre la entropía inicial del universo admite una explicación ulterior o es un dato bruto; si algún mecanismo impide de forma general que una curva temporal cerrada llegue a formarse; si el caos determinista del problema de los tres cuerpos es, como la condición de frontera, otra cara de la misma limitación epistémica, o una fuente de impredecibilidad genuinamente distinta.
 
-## Lecturas: Eagleman, D. (2009), sobre percepción subjetiva del tiempo; Hasson, U. et al. (2012), brain-to-brain coupling; Csikszentmihalyi, M. (1990), Flow; Roenneberg, T. (2012), sobre desfase social; Enrique Gaspar (1887), El Anacronópete; H.G. Wells, La Máquina del Tiempo (1895); Kip Thorne, Black Holes and Time Warps; S. Hawking (1992), sobre protección cronológica; I. Novikov, M. Friedman, F. Echeverria et al. (1990), sobre el principio de autoconsistencia; Roger Penrose, sobre la Past Hypothesis; H. Poincaré (1890), sobre el problema de los tres cuerpos y el origen del caos determinista; Marvel Studios, Avengers: Endgame (2019); Christopher Nolan, Interstellar (2014); Abbott, B.P. et al. (LIGO/Virgo, 2016), sobre la primera detección directa de ondas gravitatorias; Suddendorf, T., sobre la memoria como simulación del futuro; Elan Mastai (2017), Todos nuestros presentes equivocados (All Our Wrong Todays); Kurt Vonnegut (1969), Matadero Cinco; Isaac Asimov (1955), El fin de la eternidad; Kaid-Salah Ferrón, S. & Altarriba, E., El meu primer llibre de Relativitat.
+*Lecturas:* Eagleman, D. (2009), sobre percepción subjetiva del tiempo; Hasson, U. et al. (2012), brain-to-brain coupling; Csikszentmihalyi, M. (1990), Flow; Roenneberg, T. (2012), sobre desfase social; Enrique Gaspar (1887), El Anacronópete; H.G. Wells, La Máquina del Tiempo (1895); Kip Thorne, Black Holes and Time Warps; S. Hawking (1992), sobre protección cronológica; I. Novikov, M. Friedman, F. Echeverria et al. (1990), sobre el principio de autoconsistencia; Roger Penrose, sobre la Past Hypothesis; H. Poincaré (1890), sobre el problema de los tres cuerpos y el origen del caos determinista; Marvel Studios, Avengers: Endgame (2019); Christopher Nolan, Interstellar (2014); Abbott, B.P. et al. (LIGO/Virgo, 2016), sobre la primera detección directa de ondas gravitatorias; Suddendorf, T., sobre la memoria como simulación del futuro; Elan Mastai (2017), Todos nuestros presentes equivocados (All Our Wrong Todays); Kurt Vonnegut (1969), Matadero Cinco; Isaac Asimov (1955), El fin de la eternidad; Kaid-Salah Ferrón, S. & Altarriba, E., El meu primer llibre de Relativitat.
 
 # EL DIAPASÓN INVISIBLE
 
@@ -1668,35 +1668,35 @@ Queda una última pregunta, la más incómoda de todas, y este libro no tiene ma
 
 · · ·
 
-### Manos
+### Poema: Manos
 
 Unas se cierran.
 Otras se abren hacia arriba,
-como si el cielo fuera algo que se recoge.
+  como si el cielo fuera algo que se recoge.
 
 Unas tocan el suelo con la frente
-para medir cuánto pesa lo que cargan.
+  para medir cuánto pesa lo que cargan.
 Otras no tocan nada:
-se quedan quietas sobre las rodillas,
-vacías a propósito.
+  se quedan quietas sobre las rodillas,
+    vacías a propósito.
 
 Detrás de cada mano hay una apuesta
-que nadie dice en voz alta:
-que hay Alguien del otro lado, con nombre propio,
-que el otro lado es, sencillamente, todo,
-o que no hay otro lado
-y aun así merece la pena tender la mano.
+  que nadie dice en voz alta:
+    que hay Alguien del otro lado, con nombre propio,
+    que el otro lado es, sencillamente, todo,
+    o que no hay otro lado
+      y aun así merece la pena tender la mano.
 
 Ninguna mano sabe cuál de las tres acertó.
-Todas se abren o se cierran igual,
-cada mañana,
-como si la apuesta pesara menos
-que el gesto de hacerla.
+  Todas se abren o se cierran igual,
+    cada mañana,
+  como si la apuesta pesara menos
+    que el gesto de hacerla.
 
 Al final, todas dicen lo mismo
-sin decir nada:
-aquí sigo,
-por si acaso.
+  sin decir nada:
+    aquí sigo,
+      por si acaso.
 
 · · ·
 
@@ -1720,60 +1720,60 @@ Nadie en la habitación sabe si eso responde algo.
 
 · · ·
 
-### Montse XXI
+### Poema: Montse XXI
 
 La habitación mira hacia un invierno que no termina de llegar.
-El silencio pesa, pero no molesta.
-Es un silencio que acompaña,
-como si alguien respirara muy despacio en la esquina.
+  El silencio pesa, pero no molesta.
+    Es un silencio que acompaña,
+      como si alguien respirara muy despacio en la esquina.
 
 Ella aparece sin entrar.
-Una sombra roja,
-un eco de voz que no necesita cuerpo.
+  Una sombra roja,
+    un eco de voz que no necesita cuerpo.
 
 Montse apoya el diapasón de metal oscuro contra el cristal empañado,
-no para oír la nota, sino para sentir la vibración del ancla en los dedos
-mientras la ciudad insiste en su zumbido gris.
+  no para oír la nota, sino para sentir la vibración del ancla en los dedos
+    mientras la ciudad insiste en su zumbido gris.
 
 Barcelona se extiende ahí fuera,
-con sus luces cansadas,
-sus calles que no prometen nada,
-sus balcones donde nadie canta.
+  con sus luces cansadas,
+  sus calles que no prometen nada,
+  sus balcones donde nadie canta.
 Los plátanos de sombra tiemblan en la acera,
-desnudos,
-como si también esperaran algo
-que no llega.
+  desnudos,
+    como si también esperaran algo
+      que no llega.
 
 **Montse** mira la ciudad
-como quien mira un amor que ya no duele
-pero tampoco se olvida.
+  como quien mira un amor que ya no duele
+    pero tampoco se olvida.
 Donde quería escribir "volver",
-solo encuentra "quedarse un momento".
+  solo encuentra "quedarse un momento".
 Donde quería escribir "vida",
-el papel responde con una calma rara,
-como si aceptara que no hay más.
+  el papel responde con una calma rara,
+    como si aceptara que no hay más.
 
 Ella sabe que la memoria no se reconstruye.
-Que lo perdido no vuelve.
-Que lo que queda es otra cosa:
-una presencia tenue,
-una voz que se enciende cuando cae la noche,
-un temblor que no pide explicación.
+  Que lo perdido no vuelve.
+  Que lo que queda es otra cosa:
+    una presencia tenue,
+    una voz que se enciende cuando cae la noche,
+    un temblor que no pide explicación.
 
 A veces, entre el cemento,
-un ficus viejo deja salir un brote verde,
-una grieta mínima
-que insiste en seguir viva.
+  un ficus viejo deja salir un brote verde,
+    una grieta mínima
+    que insiste en seguir viva.
 No es un milagro.
-Es un error hermoso.
-Una luz breve
-que no promete nada
-pero acompaña.
+  Es un error hermoso.
+    Una luz breve
+    que no promete nada
+      pero acompaña.
 
 **Montse** cierra el cuaderno.
-La ciudad respira.
-La nieve no cae.
-Y aun así, hace frío.
+  La ciudad respira.
+  La nieve no cae.
+    Y aun así, hace frío.
 
 · · ·
 
@@ -1887,34 +1887,34 @@ La ética excede el vocabulario de este experimento: ningún «es» produce por 
 
 · · ·
 
-### Coro
+### Poema: Coro
 
 Una voz sola tiembla.
-Mil voces juntas no.
+  Mil voces juntas no.
 
 Por eso se busca el coro:
-no para cantar mejor,
-sino para dejar de sonar solo.
+  no para cantar mejor,
+    sino para dejar de sonar solo.
 
 Dentro del coro nadie pregunta
-si la nota que canta es la suya
-o la que le prestaron al entrar.
+  si la nota que canta es la suya
+    o la que le prestaron al entrar.
 
 Fuera del coro, después,
-cada voz vuelve a temblar
-como si algo se hubiera quedado dentro.
+  cada voz vuelve a temblar
+    como si algo se hubiera quedado dentro.
 
 Hay coros que se deshacen
-en cuanto termina la canción.
+  en cuanto termina la canción.
 Y coros que ya no dejan salir a nadie,
-que confunden cantar juntos
-con no poder cantar solo nunca más.
+  que confunden cantar juntos
+    con no poder cantar solo nunca más.
 
 La diferencia no está en la canción.
-Está en si, terminado el coro,
-todavía recuerdas tu propia voz
-sin necesitar que mil más
-te digan cuál era.
+  Está en si, terminado el coro,
+    todavía recuerdas tu propia voz
+      sin necesitar que mil más
+        te digan cuál era.
 
 · · ·
 
