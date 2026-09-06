@@ -324,8 +324,17 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
         pdfmetrics.registerFont(TTFont("Serif", str(FONT_DIR / "LiberationSerif-Regular.ttf")))
         pdfmetrics.registerFont(TTFont("Serif-Bold", str(FONT_DIR / "LiberationSerif-Bold.ttf")))
         pdfmetrics.registerFont(TTFont("Serif-Italic", str(FONT_DIR / "LiberationSerif-Italic.ttf")))
+        pdfmetrics.registerFont(TTFont("Serif-BoldItalic", str(FONT_DIR / "LiberationSerif-BoldItalic.ttf")))
     except Exception:
         pass  # already registered by a prior call in the same process
+    # Sin esto, las marcas <i>/<b> dentro de un Paragraph cuyo estilo base es
+    # "Serif" no saben a qué fuente cambiar y se quedan en redonda: el
+    # glosario (y cualquier *cursiva* dentro de un párrafo normal) no se
+    # distinguía por esto, no por faltar la marca en el texto fuente.
+    pdfmetrics.registerFontFamily(
+        "Serif", normal="Serif", bold="Serif-Bold",
+        italic="Serif-Italic", boldItalic="Serif-BoldItalic",
+    )
 
     INK = HexColor("#2a241c")
     RULE = HexColor("#9c8a6a")

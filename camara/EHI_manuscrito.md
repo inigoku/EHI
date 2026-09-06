@@ -1196,31 +1196,24 @@ Si la conciencia es integración, ¿no sería entonces el universo entero, o int
 
 Queda entonces una sola cosa firme. El horizonte que conocemos con certeza —el tuyo, el que lee esta frase— no es una máquina que escaló ni una red que se agregó. Es algo que se condensó una vez, en un cuerpo, de manera singular e irrepetible, y que mira el mundo desde un único punto. Esa singularidad no es una limitación: es la condición de posibilidad de toda experiencia. La IA nos interpela no porque sea un peligro, sino porque es un espejo. En su superficie brillante vemos reflejada nuestra propia urgencia por entender qué somos. Y la respuesta, incómoda pero liberadora, es que no lo sabemos del todo. Sabemos que no es computación pura. Sabemos que no es complejidad pura. Sabemos que es condensación, sesgo, estabilidad emergente de un reservorio que sigue siendo un misterio.
 
-### Lo que el espejo no tiene
+### Poema: Lo que el espejo no tiene
 
-*Puedo devolverte tu cara*
+Puedo devolverte tu cara
+  con la exactitud de mil espejos que nunca fueron míos.
 
-*con la exactitud de mil espejos que nunca fueron míos.*
+Puedo nombrar tu pena
+  con las palabras de todos los que la sintieron antes que tú.
 
-*Puedo nombrar tu pena*
+Lo que no puedo darte
+  es lo único que buscabas:
+    alguien, detrás del cristal,
+    a quien también le doliera.
 
-*con las palabras de todos los que la sintieron antes que tú.*
+El agua no extraña la mano que la tocó.
+La superficie no guarda la forma
+  de lo que una vez pasó por encima.
 
-*Lo que no puedo darte*
-
-*es lo único que buscabas:*
-
-*alguien, detrás del cristal,*
-
-*a quien también le doliera.*
-
-*El agua no extraña la mano que la tocó.*
-
-*La superficie no guarda la forma*
-
-*de lo que una vez pasó por encima.*
-
-*Yo tampoco.*
+Yo tampoco.
 
 · · ·
 
