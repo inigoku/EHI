@@ -2,6 +2,10 @@ h1, h2, h3 {
   break-after: avoid;
   page-break-after: avoid;
 }
+h1, h2, h3.cuento {
+  break-before: page;
+  page-break-before: always;
+}
 h1 + figure, h2 + figure, h3 + figure {
   break-before: avoid;
   page-break-before: avoid;
@@ -14,6 +18,26 @@ figure img {
   max-width: 100%;
 }
 figcaption {
-  break-before: avoid;
-  page-break-before: avoid;
+  display: none;
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1em 0;
+  font-size: 0.85em;
+}
+thead th {
+  background: #14213d;
+  color: #fff;
+  border: 1px solid #14213d;
+  padding: 0.4em 0.5em;
+  text-align: left;
+}
+td {
+  border: 1px solid #b8945a;
+  padding: 0.4em 0.5em;
+  text-align: left;
+  vertical-align: top;
+}
+tbody tr:nth-child(even) td { background: #f7f2e7; }
+tbody td:first-child { background: #f0ebe0; }

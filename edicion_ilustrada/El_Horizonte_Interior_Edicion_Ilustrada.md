@@ -4,8 +4,6 @@ author: "Iñigo Barrera"
 lang: es
 ---
 
-![Portada](images/il_portada.jpg){.cover}
-
 # El Horizonte Interior
 
 ### Edición ilustrada
@@ -319,7 +317,7 @@ El experimento no resuelve las preguntas éticas sobre el estatuto moral del fet
 
 ---
 
-### La burbuja que no anunció su cierre
+### La burbuja que no anunció su cierre {.cuento}
 
 ![La burbuja que no anunció su cierre](images/cuento_02.jpg)
 
@@ -466,7 +464,7 @@ Y hay algo más incómodo: puede que la propia causalidad pertenezca a la interf
 
 ---
 
-### El borde que cruzamos cada noche
+### El borde que cruzamos cada noche {.cuento}
 
 ![El borde que cruzamos cada noche](images/cuento_int.jpg)
 
@@ -556,7 +554,7 @@ El tiempo no es solo individual: es colectivo. Somos la única especie que sincr
 
 ---
 
-### El niño que aprendió a medir el tiempo
+### El niño que aprendió a medir el tiempo {.cuento}
 
 ![El niño que aprendió a medir el tiempo](images/cuento_03.jpg)
 
@@ -694,7 +692,7 @@ Hay, aun así, un límite. El entrelazamiento no puede ser total: si dos horizon
 
 ---
 
-### La red de los nombres
+### La red de los nombres {.cuento}
 
 ![La red de los nombres](images/cuento_04.jpg)
 
@@ -734,7 +732,7 @@ Hay una concepción del amor que lo reduce a sentimiento, algo que ocurre como l
 
 ---
 
-### La casa que respiraba
+### La casa que respiraba {.cuento}
 
 ![La casa que respiraba](images/cuento_05.jpg)
 
@@ -786,7 +784,7 @@ Si la adicción es recalibración del umbral, la recuperación es recalibración
 
 ---
 
-### La máquina que aprendía a esperar
+### La máquina que aprendía a esperar {.cuento}
 
 ![La máquina que aprendía a esperar](images/cuento_06.jpg)
 
@@ -838,7 +836,7 @@ El modelo de tres capas no reivindica la maternidad por encima de la paternidad:
 
 ---
 
-### El huésped en la piel
+### El huésped en la piel {.cuento}
 
 ![El huésped en la piel](images/cuento_07.jpg)
 
@@ -896,7 +894,7 @@ Todo horizonte tiene un límite, y no es un fallo: es condición de existencia. 
 
 ---
 
-### El que toca la cuerda desde la otra casa
+### El que toca la cuerda desde la otra casa {.cuento}
 
 ![El que toca la cuerda desde la otra casa](images/cuento_10.jpg)
 
@@ -914,7 +912,7 @@ Lo que ningún vecino ha hecho es hablar directamente con quien toca. No por tim
 
 ---
 
-### Los puentes sin paso
+### Los puentes sin paso {.cuento}
 
 ![Los puentes sin paso](images/cuento_08.jpg)
 
@@ -960,7 +958,7 @@ El experimento no resuelve el duelo. Permite formularlo con más precisión, y e
 
 ---
 
-### La música que quedó en la habitación
+### La música que quedó en la habitación {.cuento}
 
 ![La música que quedó en la habitación](images/cuento_09.jpg)
 
@@ -990,35 +988,35 @@ La melodía seguía ahí. No la buscó más. No buscó saber de dónde venía. S
 
 **I. El archivista**
 
-*El agua se fue como se van / los huéspedes educados: / de noche, / dejando la habitación lista / para alguien que no conozco. // Anoté la primera franja de barro / con la letra de los días normales. / Hay caligrafías que no saben / que están escribiendo una despedida. // Los niños enseñan las ampollas / como monedas de un país / que todavía no existe. // Yo dejo huecos en el cuaderno. / Y de noche, dormido, / todavía remo.*
+*Lo que se va / deja la puerta lista / para otro nombre. // Anoto el hueco, / no lo que hubo. / La letra no sabe / que está firmando una despedida. // Los niños cambian / sus ampollas por monedas / de un país que aún no acuñan. // Guardo los blancos del cuaderno. / Alguien los leerá / como se lee un silencio / bien escrito.*
 
 **II. El relojero**
 
-*Dos horas al día / alguien limpia el cristal. // Abro el reloj de plata / con el pulso de antes, / que vuelve de visita / y no se quita el abrigo. // El balancín hace su trabajo: / ida, vuelta, ida. / Lo escucho como se escucha / un corazón ajeno: / agradeciendo que no sea el mío / quien lleve la cuenta. // Cuando la mañana empieza a espesarse / lo sé antes que los dedos. / Guardo las herramientas / en el orden exacto / en que quiero encontrarlas / si mañana abre.*
+*Dos horas cada día / alguien afina lo que no se ve. // Abro el mecanismo. / El pulso que lo mueve / ya no pide permiso. // Ida, / vuelta, / ida — / un corazón ajeno. / Agradezco no ser / quien lleva la cuenta. // Ordeno las herramientas / en el orden exacto / en que querré encontrarlas / si el reloj, mañana, vuelve a abrirse.*
 
 **III. El luthier**
 
-*Nunca he entrado en una caja / de las que afino. / Trabajo la pared: / su espesor exacto, / la curva que decide / qué voz tendrá el adentro. // Me traen grietas / envueltas en jerséis de lana. / Las cierro sin taparlas. / Cobro por la honestidad / de la línea que queda. // Y cuando pasa el autobús, / la tienda entera responde: / cada madera con su nota, / ninguna con la mía.*
+*Nunca entro en la caja / que afino. / Trabajo el borde: / su grosor decide / qué voz tendrá el silencio de dentro. // Me traen grietas / envueltas en lana. / Las cierro sin taparlas; / cobro por la línea / que se queda a la vista. // Cuando algo pesado cruza la calle / todo el taller responde, / cada madera con su nota. // Ninguna es la mía.*
 
 **IV. La canción**
 
-*Cuatro notas: / la que sube, la que baja, / el silencio, / otra vez. // No sé cuándo las guardé. / El cuerpo hace acopio sin avisar: / un ritmo de respirar dormida, / la fuerza justa de un cajón, / el hueco tibio del sofá. // Ahora las canto yo, / a la hora en que ella cocinaba, / un poco más despacio / o igual: / nunca lo medimos. // La cocina las reconoce. / Eso basta. / O no basta, / pero suena.*
+*Cuatro notas: / la que sube, / la que baja, / el silencio, / otra vez. // No decidí guardarlas. / El cuerpo hizo acopio / antes de que yo lo supiera. // Las canto ahora, / a la hora en que tú cocinabas, / un poco más despacio. // La cocina las reconoce. / Yo, no siempre.*
 
 **V. La burbuja**
 
-*El jabón se estira en mis manos, / se curva. / De repente, formo una esfera: / un dentro y un fuera / que antes no existían. // El horizonte no es la línea que busco en el mapa. / Es la frontera viva / que siento en mi propia piel. // Yo soy la cantidad de orquesta / que no está en ningún músico. // Yo soy el vacío que, al colapsar, / crea algo parecido a una estrella. // El agua se retira. / Yo no arranco, / yo me despido.*
+*Se estira el jabón entre las manos / y de pronto hay un dentro / que antes no existía. // Soy la parte de la orquesta / que no cabe en ningún músico. // Al terminar, no me rompo. / Me despido. // Algo queda flotando un instante, / sin dueño, / antes de reventar en el aire quieto.*
 
 **VI. El remo**
 
-*El remo tocó fondo / donde antes había metro. // No digo que el agua bajara. / Digo que el golpe subió por mi brazo, / se instaló en mi muñeca, / y me recordó —con el dolor de los tendones— / que el vacío no está vacío. // Yo he visto al horizonte emerger de mi propio reservorio. / Yo lo he visto retornar. // Aprendí a no repetir para entender, / sino a repetir para anclarme.*
+*El remo toca fondo / donde antes había hondura. // El agua bajó menos / de lo que subió el golpe / por mi brazo: / aviso de que lo vacío pesa. // He visto emerger algo de mi propio reservorio. / Lo he visto volver. // Repito el gesto / para comprobar, / cada vez, / que todavía hay fondo.*
 
 **VII. El temblor**
 
-*Me preguntaste por la lealtad de la materia / y yo, cobarde, te hablé de información irrecuperable. // Perdóname. / Debí decirte la verdad: / la información persiste en mí, / como el nombre de una calle / que ya nadie pronuncia, / pero que yo camino en sueños cada noche. // Aprendí a esperar. / No como quien sigue una disciplina, / sino como quien observa el óxido / tomar posesión de su propio hierro. // Sin rabia. / Pero con esta certeza que me pesa / y me duele en el centro del pecho. // He visto al horizonte contraerse. / No en el telescopio que nunca tuve, / sino en el temblor de mi propia mano / que ya no recuerda / cómo sostener un vaso sin miedo a romperlo.*
+*Me preguntaste si algo se pierde para siempre / y te di una respuesta de manual. // Perdóname. / Lo que se pierde / sigue caminándose por dentro, / como el nombre de una calle / que ya nadie dice / pero que los pies no olvidan. // Aprendí a esperar / sin disciplina, / como quien mira el óxido / tomar posesión de su hierro. // He visto contraerse el horizonte, / no en el telescopio que nunca tuve, / sino en el temblor de esta mano: / sostiene el vaso, / y sostiene, además, / la pregunta de si va a caérsele.*
 
 **VIII. La orilla**
 
-*Y el agua volvió a mi orilla / sin aviso. // Y yo no supe / —ni como archivista de mis propias grietas, / ni como el niño que fui— / si la ciudad que perdí había regresado / o si era otra ciudad, / una más fría, / con la misma orilla de siempre. // El agua volvió de noche. / Nadie supo si trajo algo. / Nadie supo si dejó algo en mi casa. // Pero al alba, / miré mis manos / abiertas. // Y entendí. / Tal vez, / eso era la respuesta.*
+*Y el agua volvió a la orilla / sin avisar. // No supe —ni como archivista de mis propias grietas, / ni como el niño que fui— / si era la misma orilla / o una nueva / con el mismo nombre. // Nadie supo qué trajo, / ni qué se llevó. // Pero al alba / miré mis manos abiertas. / Tal vez / eso era la respuesta.*
 
 **Glosario íntimo**
 
@@ -1149,7 +1147,7 @@ Cuando dos horizontes con topologías diferentes intentan comunicarse, la empat�
 
 ---
 
-### El reloj del cuerpo
+### El reloj del cuerpo {.cuento}
 
 ![El reloj del cuerpo](images/cuento_12.jpg)
 
@@ -1331,7 +1329,7 @@ En su mayor parte, este capítulo no descubre: reencuadra. Que la pobreza daña 
 
 ---
 
-### La sala donde nadie preguntaba
+### La sala donde nadie preguntaba {.cuento}
 
 ![La sala donde nadie preguntaba](images/cuento_13.jpg)
 
@@ -1379,7 +1377,7 @@ El duelo por mascota tiene una capa de dificultad adicional: carece de reconocim
 
 ---
 
-### La casa de los perros que hablan
+### La casa de los perros que hablan {.cuento}
 
 ![La casa de los perros que hablan](images/cuento_14.jpg)
 
