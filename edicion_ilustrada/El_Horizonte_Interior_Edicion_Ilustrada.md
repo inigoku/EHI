@@ -1721,115 +1721,115 @@ El horizonte que conocemos con certeza —el tuyo, el que lee esta frase— no e
 | Dentro no hay un corazón.
 | Hay un ruido.
 | Un temblor pequeño, como si el cuerpo
-| intentara recordar algo que ya no sabe.
+|   intentara recordar algo que ya no sabe.
 | La piel no separa nada.
-| Es un lugar abierto,
-| una frontera cansada
-| por donde entra lo que no quiero
-| y sale lo poco que aún guardo.
+|   Es un lugar abierto,
+|     una frontera cansada
+|       por donde entra lo que no quiero
+|       y sale lo poco que aún guardo.
 |
 | El cuerpo es un espacio prestado.
-| Una habitación sin ventanas
-| donde la luz entra tarde
-| y se va demasiado pronto.
+|   Una habitación sin ventanas
+|     donde la luz entra tarde
+|     y se va demasiado pronto.
 |
 | Cada gesto deja un rastro mínimo:
-| un frío,
-| un peso,
-| una ausencia.
+|   un frío,
+|   un peso,
+|   una ausencia.
 |
 | Con eso intento decir "sigo aquí".
 |
 | Y debajo de la lengua, todavía,
-| una frialdad que no se va.
+|   una frialdad que no se va.
 
 #### II. Canto de muerte {.poema}
 
 | Una llave que no abre nada.
 | Un libro abierto por una página
-| que no recuerdo haber leído.
+|   que no recuerdo haber leído.
 | La cama dividida en dos silencios.
 |
 | Nada se mueve.
 | Las cosas esperan,
-| como si supieran que nadie va a volver.
+|   como si supieran que nadie va a volver.
 |
 | El cuerpo cede.
 | No protesta.
 | Solo se deja ir,
-| como una herramienta que ha olvidado su función.
+|   como una herramienta que ha olvidado su función.
 |
 | La memoria no desaparece:
-| se llena de otras cosas,
-| como un hueco en la tierra
-| que recoge agua oscura.
+|   se llena de otras cosas,
+|     como un hueco en la tierra
+|       que recoge agua oscura.
 |
 | El silencio es un órgano nuevo.
-| Un músculo que aprende a no sonar.
+|   Un músculo que aprende a no sonar.
 |
 | Al final,
-| una mano abierta.
-| Un poco de sal.
+|   una mano abierta.
+|   Un poco de sal.
 | Y el viento haciendo lo que puede.
 
 #### III. Quejido de la vuelta {.poema}
 
 | Se acabó el pacto con la luz.
 | La semana gira como una puerta vieja
-| y yo entro en el día
-| con un cansancio que no se explica.
+|   y yo entro en el día
+|     con un cansancio que no se explica.
 | Yo, que un día tuve un espacio propio,
-| regreso a este sitio que no me reconoce.
+|   regreso a este sitio que no me reconoce.
 | Coso las horas con un hilo fino,
-| como si así pudiera sostenerme.
+|   como si así pudiera sostenerme.
 | No espero milagros.
-| Solo que duela un poco menos.
+|   Solo que duela un poco menos.
 |
 | Mirad mis manos.
 | Aún guardan la sal de un cuerpo que ya no está,
-| el temblor de algo que se abrió demasiado pronto,
-| la marca de un grillete que no rompí.
+|   el temblor de algo que se abrió demasiado pronto,
+|   la marca de un grillete que no rompí.
 | A la oficina no llevo herramientas.
-| Llevo esto:
-| un hueso que roe por dentro,
-| un temblor que nadie oye
-| pero que sostiene el edificio entero.
+|   Llevo esto:
+|     un hueso que roe por dentro,
+|     un temblor que nadie oye
+|       pero que sostiene el edificio entero.
 | La luz es una deuda.
-| Y yo la pago como puedo.
+|   Y yo la pago como puedo.
 
 #### IV. Villancico cibernético para un solsticio templado {.poema}
 
 | La noche es un archivo viejo
-| que se abre con errores.
+|   que se abre con errores.
 | Las luces de la ciudad fingen alegría,
-| pero no engañan a nadie.
+|   pero no engañan a nadie.
 | El frío es un dato.
 | La magia, un recuerdo que ya no arranca.
 | Buscamos sentido,
-| pero el sistema no responde.
+|   pero el sistema no responde.
 | Error 404.
 | Y aun así,
-| debajo de la mesa,
-| una mano encuentra otra.
+|   debajo de la mesa,
+|   una mano encuentra otra.
 | No arregla nada,
-| pero hace menos frío.
+|   pero hace menos frío.
 
 #### V. Protocolo de salida {.poema}
 
 | Una pastilla blanca sobre la mesa.
 | Un punto de partida que no elegí.
 | Un pequeño sistema
-| que me mantiene en pie.
+|   que me mantiene en pie.
 | El miedo ya no es un pozo.
-| Es una carretera larga
-| que cruzo cada día
-| sin mirar los lados.
+|   Es una carretera larga
+|     que cruzo cada día
+|     sin mirar los lados.
 | La maquinaria funciona,
-| pero no sabe por qué.
+|   pero no sabe por qué.
 | La paz es un barniz.
-| Se pega, pero no cura.
+|   Se pega, pero no cura.
 | Me mantiene erguido
-| mientras la casa se cae despacio.
+|   mientras la casa se cae despacio.
 
 #### VI. Montse XXI {.poema}
 
@@ -1889,21 +1889,21 @@ El horizonte que conocemos con certeza —el tuyo, el que lee esta frase— no e
 #### VII. El nudo de la mezcla {.poema}
 
 | El alma, recetario cerrado en su clausura,
-| antiguo sótano, puerta enmohecida y tensa;
+|   antiguo sótano, puerta enmohecida y tensa;
 | guarda entre sus despojos una luz indefensa,
-| un cofre oculto, sin cifra ni escritura.
+|   un cofre oculto, sin cifra ni escritura.
 |
 | El fáustico conjuro de un vidente sin par,
-| del orbe clausurado, su rígida prisión;
+|   del orbe clausurado, su rígida prisión;
 | del alma es su celada, fatal premonición:
-| la senda ya se tuerce, sin poder regresar.
+|   la senda ya se tuerce, sin poder regresar.
 |
 | Mas si la ventana del encierro se agrieta,
-| entre el viejo cerrojo y un fulgor primordial,
+|   entre el viejo cerrojo y un fulgor primordial,
 | la falsa argamasa revela su verdad secreta.
 |
 | El cuerpo, ya ceniza de un origen mineral,
-| su cárcel de cimientos ya no la sujeta:
+|   su cárcel de cimientos ya no la sujeta:
 | traspasa el velo oscuro, libre el don inmaterial.
 
 
