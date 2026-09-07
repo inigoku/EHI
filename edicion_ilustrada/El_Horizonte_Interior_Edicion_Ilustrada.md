@@ -4,6 +4,7 @@ author: "Iñigo Barrera"
 lang: es
 ---
 
+::: {.titlepage}
 # El Horizonte Interior
 
 ### Edición ilustrada
@@ -12,6 +13,9 @@ lang: es
 
 **Iñigo Barrera**
 
+*A Montse y a Gerard,*\
+*por aguantarme todos los días con una sonrisa.*
+:::
 
 # I · OBERTURA
 
