@@ -452,7 +452,7 @@ def build_epub(header, blocks, out_path: Path):
 # ---------------------------------------------------------------------------
 
 def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, extra_index_pages=None,
-              poem_own_page=False, manga_margin_in=None, mirror_margins_in=None):
+              poem_own_page=False, manga_margin_in=None, mirror_margins_in=None, justify_body=True):
     """pagesize: (width, height) en puntos reportlab (usa reportlab.lib.units.inch
     para pasar pulgadas), por defecto carta. margins_in: pulgadas de margen
     uniforme (izq/dcha/arriba/abajo), por defecto 1.1cm/2.5cm según el original.
@@ -465,7 +465,13 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     con el margen mayor (gutter) siempre hacia el lomo, en vez del margen
     simétrico de margins_in. Necesario para que un servicio de impresión
     como KDP no marque las páginas pares como fuera de margen: el margen
-    interior mínimo que exigen crece con el número de páginas del libro."""
+    interior mínimo que exigen crece con el número de páginas del libro.
+    justify_body: si False, el cuerpo va alineado a la izquierda (bandera)
+    en vez de justificado. El texto justificado toca exactamente el borde
+    declarado del área imprimible en cada línea (por diseño: repartir el
+    espacio hasta llenar el ancho), y varios informes de KDP confirman que
+    eso basta para que el previsualizador marque "fuera de márgenes" pese
+    a que los márgenes en sí sean correctos."""
     from reportlab.lib.pagesizes import LETTER
     from reportlab.lib.colors import HexColor
     from reportlab.lib.styles import ParagraphStyle
@@ -525,7 +531,8 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                          spaceBefore=22, spaceAfter=16, leading=17, textColor=INK)
     h3 = ParagraphStyle("h3", fontName="Serif-Bold", fontSize=11.5, alignment=TA_CENTER,
                          spaceBefore=16, spaceAfter=10, leading=15, textColor=INK)
-    body = ParagraphStyle("body", fontName="Serif", fontSize=11, alignment=TA_JUSTIFY, leading=16, spaceAfter=0)
+    body = ParagraphStyle("body", fontName="Serif", fontSize=11,
+                           alignment=TA_JUSTIFY if justify_body else TA_LEFT, leading=16, spaceAfter=0)
     body_indent = ParagraphStyle("body_indent", parent=body, firstLineIndent=16)
     poem = ParagraphStyle("poem", fontName="Serif-Italic", fontSize=11, alignment=TA_LEFT, leading=16, spaceAfter=10)
     poem_center = ParagraphStyle("poem_center", parent=poem, alignment=TA_CENTER)
