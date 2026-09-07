@@ -577,7 +577,7 @@ Si dos sistemas entrelazados comparten topología, tienen un adentro parcialment
 *Dos cosas que se tocaron una vez pueden seguir siendo una, aunque estén lejos. Quizás el amor funciona así.*
 
 
-### La tienda del Luthier
+### La tienda del Luthier {.cuento}
 
 ![La tienda del Luthier](images/il_luthier.jpg)
 
@@ -1032,7 +1032,7 @@ Si la conciencia fuera una sustancia, el Alzheimer no sería posible de esta man
 *La conciencia no es un interruptor que se apaga. Es arquitectura que puede perder ladrillos uno a uno, y seguir sosteniendo el cielo con menos techo cada día.*
 
 
-### La ciudad de las pequeñas pérdidas
+### La ciudad de las pequeñas pérdidas {.cuento}
 
 ![La ciudad de las pequeñas pérdidas](images/cuento_11.jpg)
 
@@ -1196,7 +1196,7 @@ El archipiélago que acaba de describirse en la psique tiene una versión físic
 *No eres lo que hay dentro de tus límites; eres el propio acto de haberlos cerrado.*
 
 
-### Los sintonizadores
+### Los sintonizadores {.cuento}
 
 ![Los sintonizadores](images/cuento_sintonizadores.jpg)
 
@@ -1550,7 +1550,7 @@ Hay, sin embargo, un antídoto parcial: lo sublime kantiano —la tormenta vista
 *El horror no es ver un monstruo en la oscuridad. Es ver la estructura de la luz y darte cuenta de que tus ojos no son suficientes para soportar lo que ilumina.*
 
 
-### La niebla de la Mussara
+### La niebla de la Mussara {.cuento}
 
 ![La niebla de la Mussara](images/cuento_mussara.jpg)
 
