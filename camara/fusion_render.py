@@ -47,20 +47,61 @@ def split_heading(text: str) -> tuple[str, str | None]:
     return text, None
 
 
-def track(text: str) -> str:
-    """Espaciado entre letras (tracking) insertando un espacio entre cada
-    carácter. Los espacios originales (títulos de varias palabras) se quitan
-    antes de unir: reportlab colapsa a cero cualquier tramo de 2+ espacios
-    seguidos, así que preservarlos como "letra + espacio + espacio-original
-    + espacio" fundía las palabras en vez de separarlas.
-    Si el texto tiene alguna letra acentuada (Ó, Á, Ñ...), reportlab tiene un
-    bug de posicionado con TTF que, en una cadena larga con espacios
-    insertados, hace que las letras se solapen sin espacio alguno; en ese
-    caso se devuelve el texto tal cual, sin tracking, en vez de un título
-    ilegible."""
-    if not text.isascii():
-        return text
-    return " ".join(text.replace(" ", ""))
+def _tracked_title_class():
+    """Fábrica de la clase TrackedTitle: reportlab se importa aquí (de forma
+    perezosa, como el resto de imports de reportlab en este módulo) en vez
+    de a nivel de módulo, para no exigir la dependencia a quien solo use
+    build_docx/build_epub."""
+    from reportlab.platypus import Flowable
+    from reportlab.pdfbase.pdfmetrics import stringWidth
+
+    class TrackedTitle(Flowable):
+        """Título centrado con espaciado entre letras real, dibujado
+        carácter a carácter con canvas.drawString. Insertar espacios en un
+        Paragraph para simular tracking resultó no ser fiable: reportlab,
+        con estas fuentes TTF, a veces funde todo el texto sin previo
+        aviso —no solo con letras acentuadas, también con "Nota del
+        autor"—, dependiendo del ancho disponible y de qué se haya dibujado
+        antes en el mismo documento. Dibujar los glifos a mano evita ese
+        motor por completo."""
+
+        def __init__(self, text, fontName, fontSize, color, tracking=2.2,
+                     spaceBefore=0, spaceAfter=0):
+            Flowable.__init__(self)
+            self.text = text
+            self.fontName = fontName
+            self.fontSize = fontSize
+            self.color = color
+            self.tracking = tracking
+            self.spaceBefore = spaceBefore
+            self.spaceAfter = spaceAfter
+            self._avail_width = 0
+            self._char_widths = [stringWidth(ch, fontName, fontSize) for ch in text]
+            self._text_width = sum(self._char_widths) + tracking * max(0, len(text) - 1)
+            self._height = fontSize * 1.25
+
+        def wrap(self, availWidth, availHeight):
+            self._avail_width = availWidth
+            return availWidth, self._height
+
+        def drawOn(self, canv, x, y, _sW=0):
+            canv.saveState()
+            canv.setFont(self.fontName, self.fontSize)
+            canv.setFillColor(self.color)
+            cx = x + (self._avail_width - self._text_width) / 2.0
+            cy = y + self._height * 0.22
+            for ch, w in zip(self.text, self._char_widths):
+                canv.drawString(cx, cy, ch)
+                cx += w + self.tracking
+            canv.restoreState()
+
+        def getPlainText(self):
+            return self.text
+
+        def split(self, availWidth, availHeight):
+            return [self]
+
+    return TrackedTitle
 
 
 # ---------------------------------------------------------------------------
@@ -442,8 +483,7 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     author = ParagraphStyle("author", fontName="Serif", fontSize=13, alignment=TA_CENTER, spaceAfter=22)
     idx_title = ParagraphStyle("idx_title", fontName="Serif-Bold", fontSize=16, alignment=TA_CENTER,
                                 spaceBefore=0, spaceAfter=20)
-    h1_kicker = ParagraphStyle("h1_kicker", fontName="Serif-Bold", fontSize=15.5, alignment=TA_CENTER,
-                                spaceBefore=0, spaceAfter=8, leading=19, textColor=INK)
+    TrackedTitle = _tracked_title_class()
     h1_subtitle = ParagraphStyle("h1_subtitle", fontName="Serif-Italic", fontSize=13.5, alignment=TA_CENTER,
                                   spaceBefore=0, spaceAfter=0, leading=18, textColor=INK)
     h2 = ParagraphStyle("h2", fontName="Serif-BoldItalic", fontSize=13.5, alignment=TA_CENTER,
@@ -562,7 +602,7 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                 story.append(PageBreak())
                 story.append(Spacer(1, text_avail_h * 0.15))
                 kicker_text, subtitle_text = split_heading(b.lines[0])
-                p = Paragraph(track(render(kicker_text)), h1_kicker)
+                p = TrackedTitle(kicker_text, "Serif-Bold", 15.5, INK, spaceAfter=8)
                 p._toc_entry = True
                 p._toc_key = f"h1-{h1_seen}"
                 p._toc_text = b.lines[0]
