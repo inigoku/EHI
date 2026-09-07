@@ -452,14 +452,20 @@ def build_epub(header, blocks, out_path: Path):
 # ---------------------------------------------------------------------------
 
 def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, extra_index_pages=None,
-              poem_own_page=False, manga_margin_in=None):
+              poem_own_page=False, manga_margin_in=None, mirror_margins_in=None):
     """pagesize: (width, height) en puntos reportlab (usa reportlab.lib.units.inch
     para pasar pulgadas), por defecto carta. margins_in: pulgadas de margen
     uniforme (izq/dcha/arriba/abajo), por defecto 1.1cm/2.5cm según el original.
     poem_own_page: si True, cada "## Poema: ..." abre página propia, centrado
     horizontal y verticalmente. manga_margin_in: margen (pulgadas) específico
     para las páginas de imagen (cómic), más ajustado que el del texto para
-    aprovechar mejor la página; None = usa el mismo margen que el resto."""
+    aprovechar mejor la página; None = usa el mismo margen que el resto.
+    mirror_margins_in: (gutter_in, outside_in) en pulgadas — si se da, cada
+    página usa márgenes reflejados según sea impar (recto) o par (verso),
+    con el margen mayor (gutter) siempre hacia el lomo, en vez del margen
+    simétrico de margins_in. Necesario para que un servicio de impresión
+    como KDP no marque las páginas pares como fuera de margen: el margen
+    interior mínimo que exigen crece con el número de páginas del libro."""
     from reportlab.lib.pagesizes import LETTER
     from reportlab.lib.colors import HexColor
     from reportlab.lib.styles import ParagraphStyle
@@ -536,7 +542,34 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     ]
     toc.dotsMinLevel = -1  # sin puntos guía: entradas centradas, más limpio
 
+    mirror = mirror_margins_in is not None
+
     class BookDocTemplate(BaseDocTemplate):
+        _pending_template = None
+
+        def handle_nextPageTemplate(self, pt):
+            # "Normal"/"Manga" son nombres lógicos que siempre se resuelven
+            # en _setPageTemplate según la paridad real de la página en el
+            # momento de renderizarla, no aquí: entre dos "NextPageTemplate"
+            # puede haber muchas páginas de texto corrido sin ningún
+            # flowable que lo vuelva a pedir. Sin mirror_margins_in, "-Odd"
+            # y "-Even" apuntan al mismo frame, así que resolverlo siempre
+            # así no cambia nada visualmente.
+            if pt in ("Normal", "Manga"):
+                self._pending_template = pt
+            else:
+                BaseDocTemplate.handle_nextPageTemplate(self, pt)
+
+        def _setPageTemplate(self):
+            base = self._pending_template or "Normal"
+            suffix = "Even" if (self.page + 1) % 2 == 0 else "Odd"
+            tid = f"{base}-{suffix}"
+            for t in self.pageTemplates:
+                if t.id == tid:
+                    self.pageTemplate = t
+                    return
+            raise ValueError(f"No existe la plantilla de página {tid!r}")
+
         def afterFlowable(self, flowable):
             if getattr(flowable, "_toc_entry", False):
                 # _toc_text: título completo para el índice, cuando el
@@ -563,17 +596,50 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
     top_margin = 2.5 * cm if margins_in is None else margins_in * inch
 
     doc = BookDocTemplate(str(out_path), pagesize=page)
-    normal_frame = Frame(side_margin, top_margin, page[0] - 2 * side_margin,
-                         page[1] - 2 * top_margin, id="normal")
-    manga_side = manga_margin_in * inch if manga_margin_in is not None else side_margin
-    manga_top = manga_margin_in * inch if manga_margin_in is not None else top_margin
-    manga_frame = Frame(manga_side, manga_top, page[0] - 2 * manga_side,
-                        page[1] - 2 * manga_top, id="manga",
-                        leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
-    doc.addPageTemplates([
-        PageTemplate(id="Normal", frames=[normal_frame], onPage=draw_bg),
-        PageTemplate(id="Manga", frames=[manga_frame], onPage=draw_bg),
-    ])
+
+    if mirror:
+        # mirror_margins_in = (gutter, outside), en pulgadas. El margen
+        # grande (gutter) va siempre hacia el lomo: a la izquierda en
+        # páginas impares (recto), a la derecha en las pares (verso). Sin
+        # esto, un servicio de impresión como KDP marca todas las páginas
+        # pares como fuera de margen, porque el margen interior no crece
+        # con el número de páginas del libro.
+        gutter_in, outside_in = mirror_margins_in
+        gutter, outside = gutter_in * inch, outside_in * inch
+        text_avail_w = page[0] - gutter - outside
+        odd_frame = Frame(gutter, top_margin, text_avail_w, page[1] - 2 * top_margin, id="normal-odd")
+        even_frame = Frame(outside, top_margin, text_avail_w, page[1] - 2 * top_margin, id="normal-even")
+
+        manga_outside = manga_margin_in * inch if manga_margin_in is not None else outside
+        manga_top = manga_margin_in * inch if manga_margin_in is not None else top_margin
+        manga_avail_w = page[0] - gutter - manga_outside
+        manga_avail_h = page[1] - 2 * manga_top
+        manga_odd = Frame(gutter, manga_top, manga_avail_w, manga_avail_h, id="manga-odd",
+                          leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+        manga_even = Frame(manga_outside, manga_top, manga_avail_w, manga_avail_h, id="manga-even",
+                           leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+        doc.addPageTemplates([
+            PageTemplate(id="Normal-Odd", frames=[odd_frame], onPage=draw_bg),
+            PageTemplate(id="Normal-Even", frames=[even_frame], onPage=draw_bg),
+            PageTemplate(id="Manga-Odd", frames=[manga_odd], onPage=draw_bg),
+            PageTemplate(id="Manga-Even", frames=[manga_even], onPage=draw_bg),
+        ])
+    else:
+        text_avail_w = page[0] - 2 * side_margin
+        normal_frame = Frame(side_margin, top_margin, text_avail_w,
+                             page[1] - 2 * top_margin, id="normal")
+        manga_side = manga_margin_in * inch if manga_margin_in is not None else side_margin
+        manga_top = manga_margin_in * inch if manga_margin_in is not None else top_margin
+        manga_avail_w = page[0] - 2 * manga_side
+        manga_avail_h = page[1] - 2 * manga_top
+        manga_frame = Frame(manga_side, manga_top, manga_avail_w, manga_avail_h, id="manga",
+                            leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+        doc.addPageTemplates([
+            PageTemplate(id="Normal-Odd", frames=[normal_frame], onPage=draw_bg),
+            PageTemplate(id="Normal-Even", frames=[normal_frame], onPage=draw_bg),
+            PageTemplate(id="Manga-Odd", frames=[manga_frame], onPage=draw_bg),
+            PageTemplate(id="Manga-Even", frames=[manga_frame], onPage=draw_bg),
+        ])
 
     story = [Spacer(1, page[1] * 0.16)]
     story.append(Paragraph(header[0], kicker))
@@ -605,8 +671,6 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
         story.append(toc)
         story.append(PageBreak())
 
-    manga_avail_w = page[0] - 2 * manga_side
-    manga_avail_h = page[1] - 2 * manga_top
     text_avail_h = page[1] - 2 * top_margin
 
     def is_poem_heading(h):
@@ -671,10 +735,9 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                 # un verso largo puede ajustarse a dos líneas visuales, y con
                 # la estimación anterior el poema se centraba de más y la
                 # última línea se salía a una página en blanco.
-                avail_w = page[0] - 2 * side_margin
-                content_h = title_p.wrap(avail_w, 10000)[1] + h2_center.spaceAfter
+                content_h = title_p.wrap(text_avail_w, 10000)[1] + h2_center.spaceAfter
                 for lp in line_ps:
-                    content_h += lp.wrap(avail_w, 10000)[1] + lp.style.spaceAfter
+                    content_h += lp.wrap(text_avail_w, 10000)[1] + lp.style.spaceAfter
                 top_space = max(18, (text_avail_h - content_h) / 2)
 
                 story.append(NextPageTemplate("Normal"))
