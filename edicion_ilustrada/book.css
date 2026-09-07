@@ -59,6 +59,30 @@ h3.cuento {
   break-before: page;
 }
 h4 { font-size: 10.5pt; font-weight: bold; page-break-after: avoid; }
+h4.poema {
+  page-break-before: always;
+  break-before: page;
+  page-break-after: avoid;
+  text-align: center;
+  font-size: 13pt;
+  font-weight: bold;
+  font-style: italic;
+  color: #14213d;
+  letter-spacing: 0.03em;
+  margin-top: 1.2cm;
+  margin-bottom: 1cm;
+}
+.line-block {
+  font-style: italic;
+  font-size: 11.5pt;
+  line-height: 1.75;
+  color: #2f2f2f;
+  text-align: left;
+  hyphens: none;
+  max-width: 94%;
+  margin: 0 auto;
+  text-indent: 0;
+}
 p { margin: 0 0 0.32em 0; text-indent: 1.1em; }
 h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p { text-indent: 0; }
 blockquote {

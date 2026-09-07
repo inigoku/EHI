@@ -944,37 +944,162 @@ La melodía seguía ahí. No la buscó más. No buscó saber de dónde venía. S
 
 *(Ocho poemas y un glosario íntimo)*
 
-**I. El archivista**
+#### I. El archivista {.poema}
 
-*Lo que se va / deja la puerta lista / para otro nombre. // Anoto el hueco, / no lo que hubo. / La letra no sabe / que está firmando una despedida. // Los niños cambian / sus ampollas por monedas / de un país que aún no acuñan. // Guardo los blancos del cuaderno. / Alguien los leerá / como se lee un silencio / bien escrito.*
+| Lo que se va
+|   deja la puerta lista
+|     para otro nombre.
+|
+| Anoto el hueco,
+|       no lo que hubo.
+| La letra no sabe
+|   que está firmando una despedida.
+|
+| Los niños cambian
+|   sus ampollas por monedas
+|     de un país que aún no acuñan.
+|
+| Guardo los blancos del cuaderno.
+|   Alguien los leerá
+|     como se lee un silencio
+|       bien escrito.
 
-**II. El relojero**
+#### II. El relojero {.poema}
 
-*Dos horas cada día / alguien afina lo que no se ve. // Abro el mecanismo. / El pulso que lo mueve / ya no pide permiso. // Ida, / vuelta, / ida — / un corazón ajeno. / Agradezco no ser / quien lleva la cuenta. // Ordeno las herramientas / en el orden exacto / en que querré encontrarlas / si el reloj, mañana, vuelve a abrirse.*
+| Dos horas cada día
+|     alguien afina lo que no se ve.
+|
+| Abro el mecanismo.
+|   El pulso que lo mueve
+| ya no pide permiso.
+|
+| Ida,
+|     vuelta,
+| ida —
+|   un corazón ajeno.
+| Agradezco no ser
+|   quien lleva la cuenta.
+|
+| Ordeno las herramientas
+|   en el orden exacto
+|     en que querré encontrarlas
+| si el reloj, mañana, vuelve a abrirse.
 
-**III. El luthier**
+#### III. El luthier {.poema}
 
-*Nunca entro en la caja / que afino. / Trabajo el borde: / su grosor decide / qué voz tendrá el silencio de dentro. // Me traen grietas / envueltas en lana. / Las cierro sin taparlas; / cobro por la línea / que se queda a la vista. // Cuando algo pesado cruza la calle / todo el taller responde, / cada madera con su nota. // Ninguna es la mía.*
+| Nunca entro en la caja
+|   que afino.
+| Trabajo el borde:
+|   su grosor decide
+|     qué voz tendrá el silencio de dentro.
+|
+| Me traen grietas
+| envueltas en lana.
+|   Las cierro sin taparlas;
+|     cobro por la línea
+|     que se queda a la vista.
+|
+| Cuando algo pesado cruza la calle
+|   todo el taller responde,
+|     cada madera con su nota.
+|
+| Ninguna es la mía.
 
-**IV. La canción**
+#### IV. La canción {.poema}
 
-*Cuatro notas: / la que sube, / la que baja, / el silencio, / otra vez. // No decidí guardarlas. / El cuerpo hizo acopio / antes de que yo lo supiera. // Las canto ahora, / a la hora en que tú cocinabas, / un poco más despacio. // La cocina las reconoce. / Yo, no siempre.*
+| Cuatro notas:
+| la que sube,
+|     la que baja,
+|         el silencio,
+| otra vez.
+|
+| No decidí guardarlas.
+|   El cuerpo hizo acopio
+|     antes de que yo lo supiera.
+|
+| Las canto ahora,
+|   a la hora en que tú cocinabas,
+|     un poco más despacio.
+|
+| La cocina las reconoce.
+|         Yo, no siempre.
 
-**V. La burbuja**
+#### V. La burbuja {.poema}
 
-*Se estira el jabón entre las manos / y de pronto hay un dentro / que antes no existía. // Soy la parte de la orquesta / que no cabe en ningún músico. // Al terminar, no me rompo. / Me despido. // Algo queda flotando un instante, / sin dueño, / antes de reventar en el aire quieto.*
+| Se estira el jabón entre las manos
+|   y de pronto hay un dentro
+|     que antes no existía.
+|
+|   Soy la parte de la orquesta
+|     que no cabe en ningún músico.
+|
+| Al terminar, no me rompo.
+| Me despido.
+|
+|     Algo queda flotando un instante,
+|   sin dueño,
+| antes de reventar en el aire quieto.
 
-**VI. El remo**
+#### VI. El remo {.poema}
 
-*El remo toca fondo / donde antes había hondura. // El agua bajó menos / de lo que subió el golpe / por mi brazo: / aviso de que lo vacío pesa. // He visto emerger algo de mi propio reservorio. / Lo he visto volver. // Repito el gesto / para comprobar, / cada vez, / que todavía hay fondo.*
+| El remo toca fondo
+|     donde antes había hondura.
+|
+| El agua bajó menos
+|   de lo que subió el golpe
+|     por mi brazo:
+|       aviso de que lo vacío pesa.
+|
+| He visto emerger algo de mi propio reservorio.
+| Lo he visto volver.
+|
+| Repito el gesto
+|   para comprobar,
+|     cada vez,
+| que todavía hay fondo.
 
-**VII. El temblor**
+#### VII. El temblor {.poema}
 
-*Me preguntaste si algo se pierde para siempre / y te di una respuesta de manual. // Perdóname. / Lo que se pierde / sigue caminándose por dentro, / como el nombre de una calle / que ya nadie dice / pero que los pies no olvidan. // Aprendí a esperar / sin disciplina, / como quien mira el óxido / tomar posesión de su hierro. // He visto contraerse el horizonte, / no en el telescopio que nunca tuve, / sino en el temblor de esta mano: / sostiene el vaso, / y sostiene, además, / la pregunta de si va a caérsele.*
+| Me preguntaste si algo se pierde para siempre
+|   y te di una respuesta de manual.
+|
+| Perdóname.
+| Lo que se pierde
+|   sigue caminándose por dentro,
+| como el nombre de una calle
+|   que ya nadie dice
+|     pero que los pies no olvidan.
+|
+| Aprendí a esperar
+|   sin disciplina,
+| como quien mira el óxido
+|   tomar posesión de su hierro.
+|
+| He visto contraerse el horizonte,
+|     no en el telescopio que nunca tuve,
+| sino en el temblor de esta mano:
+|       sostiene el vaso,
+|   y sostiene, además,
+|         la pregunta de si va a caérsele.
 
-**VIII. La orilla**
+#### VIII. La orilla {.poema}
 
-*Y el agua volvió a la orilla / sin avisar. // No supe —ni como archivista de mis propias grietas, / ni como el niño que fui— / si era la misma orilla / o una nueva / con el mismo nombre. // Nadie supo qué trajo, / ni qué se llevó. // Pero al alba / miré mis manos abiertas. / Tal vez / eso era la respuesta.*
+| Y el agua volvió a la orilla
+|   sin avisar.
+|
+| No supe —ni como archivista de mis propias grietas,
+|   ni como el niño que fui—
+| si era la misma orilla
+|   o una nueva
+|     con el mismo nombre.
+|
+| Nadie supo qué trajo,
+|   ni qué se llevó.
+|
+| Pero al alba
+|   miré mis manos abiertas.
+| Tal vez
+| eso era la respuesta.
 
 **Glosario íntimo**
 
@@ -1410,9 +1535,60 @@ El horizonte que conocemos con certeza —el tuyo, el que lee esta frase— no e
 
 *Una pastilla blanca sobre la mesa. / Un punto de partida que no elegí. / Un pequeño sistema / que me mantiene en pie. / El miedo ya no es un pozo. / Es una carretera larga / que cruzo cada día / sin mirar los lados. / La maquinaria funciona, / pero no sabe por qué. / La paz es un barniz. / Se pega, pero no cura. / Me mantiene erguido / mientras la casa se cae despacio.*
 
-**VI. Montse XXI**
+#### VI. Montse XXI {.poema}
 
-*La habitación mira hacia un invierno que no termina de llegar. / El silencio pesa, pero no molesta. / Es un silencio que acompaña, / como si alguien respirara muy despacio en la esquina. // Montse apoya el diapasón de metal oscuro contra el cristal empañado, / no para oír la nota, sino para sentir la vibración del ancla en los dedos / mientras la ciudad insiste en su zumbido gris. // Montse mira la ciudad / como quien mira un amor que ya no duele / pero tampoco se olvida. / Donde quería escribir "volver", / solo encuentra "quedarse un momento". // Ella sabe que la memoria no se reconstruye. / Que lo perdido no vuelve. / Que lo que queda es otra cosa: / una presencia tenue, / una voz que se enciende cuando cae la noche, / un temblor que no pide explicación. // A veces, entre el cemento, / un ficus viejo deja salir un brote verde, / una grieta mínima / que insiste en seguir viva. / No es un milagro. / Es un error hermoso. // Montse cierra el cuaderno. / La ciudad respira. / La nieve no cae. / Y aun así, hace frío.*
+| La habitación mira hacia un invierno que no termina de llegar.
+|   El silencio pesa, pero no molesta.
+|     Es un silencio que acompaña,
+|       como si alguien respirara muy despacio en la esquina.
+|
+| Ella aparece sin entrar.
+|   Una sombra roja,
+|     un eco de voz que no necesita cuerpo.
+|
+| Montse apoya el diapasón de metal oscuro contra el cristal empañado,
+|   no para oír la nota, sino para sentir la vibración del ancla en los dedos
+|     mientras la ciudad insiste en su zumbido gris.
+|
+| Barcelona se extiende ahí fuera,
+|   con sus luces cansadas,
+|   sus calles que no prometen nada,
+|   sus balcones donde nadie canta.
+| Los plátanos de sombra tiemblan en la acera,
+|   desnudos,
+|     como si también esperaran algo
+|       que no llega.
+|
+| Montse mira la ciudad
+|   como quien mira un amor que ya no duele
+|     pero tampoco se olvida.
+| Donde quería escribir "volver",
+|   solo encuentra "quedarse un momento".
+| Donde quería escribir "vida",
+|   el papel responde con una calma rara,
+|     como si aceptara que no hay más.
+|
+| Ella sabe que la memoria no se reconstruye.
+|   Que lo perdido no vuelve.
+|   Que lo que queda es otra cosa:
+|     una presencia tenue,
+|     una voz que se enciende cuando cae la noche,
+|     un temblor que no pide explicación.
+|
+| A veces, entre el cemento,
+|   un ficus viejo deja salir un brote verde,
+|     una grieta mínima
+|     que insiste en seguir viva.
+| No es un milagro.
+|   Es un error hermoso.
+|     Una luz breve
+|     que no promete nada
+|       pero acompaña.
+|
+| Montse cierra el cuaderno.
+|   La ciudad respira.
+|   La nieve no cae.
+|     Y aun así, hace frío.
 
 **VII. El nudo de la mezcla**
 

@@ -2,9 +2,18 @@ h1, h2, h3 {
   break-after: avoid;
   page-break-after: avoid;
 }
-h1, h2, h3.cuento {
+h1, h2, h3.cuento, h4.poema {
   break-before: page;
   page-break-before: always;
+}
+h4.poema {
+  text-align: center;
+  font-style: italic;
+}
+.line-block {
+  font-style: italic;
+  line-height: 1.8;
+  text-align: left;
 }
 h1 + figure, h2 + figure, h3 + figure {
   break-before: avoid;
