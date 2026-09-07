@@ -585,13 +585,9 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                 # se sigue saltando (skip_to no cambia) pero no se renderiza.
                 if verse_blocks and verse_blocks[-1].lines == ["· · ·"]:
                     verse_blocks = verse_blocks[:-1]
-                n_lines = sum(len(vb.lines) for vb in verse_blocks)
-                content_h = 21 + n_lines * 16  # aprox.: título + versos
-                top_space = max(18, (text_avail_h - content_h) / 2)
-                story.append(NextPageTemplate("Normal"))
-                story.append(PageBreak())
-                story.append(Spacer(1, top_space))
-                story.append(Paragraph(render(b.lines[0]), h2_center))
+
+                title_p = Paragraph(render(b.lines[0]), h2_center)
+                line_ps = []
                 for vb in verse_blocks:
                     m = len(vb.lines)
                     for i, raw in enumerate(vb.lines):
@@ -600,7 +596,23 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                             f"versec_{id(vb)}_{i}", parent=poem_center,
                             leftIndent=level * 16, spaceAfter=(0 if i < m - 1 else 10),
                         )
-                        story.append(Paragraph(render(text), line_style))
+                        line_ps.append(Paragraph(render(text), line_style))
+
+                # Altura real (no una estimación de nº de líneas de origen):
+                # un verso largo puede ajustarse a dos líneas visuales, y con
+                # la estimación anterior el poema se centraba de más y la
+                # última línea se salía a una página en blanco.
+                avail_w = page[0] - 2 * side_margin
+                content_h = title_p.wrap(avail_w, 10000)[1] + h2_center.spaceAfter
+                for lp in line_ps:
+                    content_h += lp.wrap(avail_w, 10000)[1] + lp.style.spaceAfter
+                top_space = max(18, (text_avail_h - content_h) / 2)
+
+                story.append(NextPageTemplate("Normal"))
+                story.append(PageBreak())
+                story.append(Spacer(1, top_space))
+                story.append(title_p)
+                story.extend(line_ps)
                 # Salto de página tras el poema, salvo que lo que sigue ya
                 # fuerce su propio salto (otro poema, o un encabezado de
                 # nivel 1): si no, se duplicaría en una página en blanco.
