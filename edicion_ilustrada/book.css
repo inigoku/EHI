@@ -69,12 +69,7 @@ blockquote {
   padding-left: 0.6em;
   text-indent: 0;
 }
-hr {
-  border: none;
-  border-top: 0.5pt solid #b8945a;
-  width: 30%;
-  margin: 1.1em auto;
-}
+hr { display: none; }
 img {
   display: block;
   max-width: 100%;

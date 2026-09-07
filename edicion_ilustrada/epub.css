@@ -20,6 +20,9 @@ figure img {
 figcaption {
   display: none;
 }
+hr {
+  display: none;
+}
 table {
   border-collapse: collapse;
   width: 100%;
