@@ -76,23 +76,52 @@ def _tracked_title_class():
             self.spaceBefore = spaceBefore
             self.spaceAfter = spaceAfter
             self._avail_width = 0
-            self._char_widths = [stringWidth(ch, fontName, fontSize) for ch in text]
-            self._text_width = sum(self._char_widths) + tracking * max(0, len(text) - 1)
             self._height = fontSize * 1.25
+            self._char_widths = []
+            self._text_width = 0
+            self._draw_font_size = fontSize
+            self._draw_tracking = tracking
 
         def wrap(self, availWidth, availHeight):
             self._avail_width = availWidth
+            n_gaps = max(0, len(self.text) - 1)
+            target = max(1, availWidth - 2)  # 2pt de margen de seguridad
+
+            font_size = self.fontSize
+            tracking = self.tracking
+            raw_width = sum(stringWidth(ch, self.fontName, font_size) for ch in self.text)
+            total = raw_width + tracking * n_gaps
+
+            # Si con el tracking pedido no cabe, se reduce el tracking...
+            if total > target and n_gaps:
+                tracking = max(0, (target - raw_width) / n_gaps)
+                total = raw_width + tracking * n_gaps
+            # ...y si ni sin tracking cabe (título largo en columna estrecha,
+            # p. ej. "Notas y fuentes, capítulo a capítulo" en el 5x8), se
+            # encoge la letra para que no se salga del margen.
+            if total > target and raw_width > 0:
+                scale = target / raw_width
+                font_size = font_size * scale
+                tracking = 0
+                raw_width = sum(stringWidth(ch, self.fontName, font_size) for ch in self.text)
+                total = raw_width
+
+            self._draw_font_size = font_size
+            self._draw_tracking = tracking
+            self._char_widths = [stringWidth(ch, self.fontName, font_size) for ch in self.text]
+            self._text_width = total
+            self._height = max(self._height, font_size * 1.25)
             return availWidth, self._height
 
         def drawOn(self, canv, x, y, _sW=0):
             canv.saveState()
-            canv.setFont(self.fontName, self.fontSize)
+            canv.setFont(self.fontName, self._draw_font_size)
             canv.setFillColor(self.color)
             cx = x + (self._avail_width - self._text_width) / 2.0
             cy = y + self._height * 0.22
             for ch, w in zip(self.text, self._char_widths):
                 canv.drawString(cx, cy, ch)
-                cx += w + self.tracking
+                cx += w + self._draw_tracking
             canv.restoreState()
 
         def getPlainText(self):
