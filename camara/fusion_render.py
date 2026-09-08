@@ -41,7 +41,7 @@ def split_verse_line(line: str) -> tuple[int, str]:
 # DOCX
 # ---------------------------------------------------------------------------
 
-def build_docx(header, blocks, out_path: Path):
+def build_docx(header, blocks, out_path: Path, index_pages=None):
     from docx import Document
     from docx.enum.text import WD_ALIGN_PARAGRAPH
     from docx.shared import Pt, Cm, RGBColor
@@ -148,11 +148,15 @@ def build_docx(header, blocks, out_path: Path):
             space_after=0, color=RULE)
     doc.add_page_break()
 
-    # --- Índice ------------------------------------------------------------
-    titles = level1_titles(blocks)
-    if titles:
-        add("Índice", size=16, bold=True, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=22)
-        for t in titles:
+    # --- Índice --------------------------------------------------------
+    # index_pages: lista de (título_de_página, [entradas]); por defecto una
+    # sola página con todos los encabezados de nivel 1 (comportamiento previo).
+    pages = index_pages if index_pages is not None else [("Índice", level1_titles(blocks))]
+    for page_title, entries in pages:
+        if not entries:
+            continue
+        add(page_title, size=16, bold=True, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=22)
+        for t in entries:
             add(t, size=12, align=WD_ALIGN_PARAGRAPH.CENTER, space_after=9, color=INK)
         doc.add_page_break()
 
@@ -163,6 +167,13 @@ def build_docx(header, blocks, out_path: Path):
                 doc.add_page_break()
             st = HEADING_STYLE[b.level]
             add(b.lines[0], style_name=WORD_STYLE[b.level], **st)
+        elif b.kind == "image":
+            doc.add_page_break()
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.add_run().add_picture(b.lines[0], height=Cm(20))
+        elif b.lines == ["· · ·"]:
+            pass  # separador de tres puntos: ya no se pinta
         elif len(b.lines) > 1:
             add_verse(b.lines)
         else:
@@ -209,6 +220,8 @@ def build_epub(header, blocks, out_path: Path):
             ".v0{margin-left:0}.v1{margin-left:1.3em}.v2{margin-left:2.6em}"
             ".v3{margin-left:3.9em}.v4{margin-left:5.2em}.v5{margin-left:6.5em}"
             ".v6{margin-left:7.8em}"
+            ".mangapage{text-align:center;page-break-before:always;margin:0;}"
+            ".mangapage img{max-width:100%;max-height:95vh;}"
         ),
     )
     book.add_item(css)
@@ -241,6 +254,7 @@ def build_epub(header, blocks, out_path: Path):
     # Anclas por encabezado de nivel 1, para un índice navegable de verdad.
     toc_links: list = []
     h1_seen = 0
+    img_seen = 0
     for b in blocks:
         if b.kind == "heading":
             if b.level == 1:
@@ -251,6 +265,18 @@ def build_epub(header, blocks, out_path: Path):
             else:
                 tag = f"h{b.level}"
                 html_parts.append(f"<{tag}>{esc_html(b.lines[0])}</{tag}>")
+        elif b.kind == "image":
+            img_seen += 1
+            src_path = Path(b.lines[0])
+            item_name = f"images/{img_seen:02d}_{src_path.name}"
+            img_item = epub.EpubImage(
+                uid=f"img{img_seen}", file_name=item_name,
+                media_type="image/jpeg", content=src_path.read_bytes(),
+            )
+            book.add_item(img_item)
+            html_parts.append(f'<div class="mangapage"><img src="{item_name}" alt="Página de manga"/></div>')
+        elif b.lines == ["· · ·"]:
+            pass  # separador de tres puntos: ya no se pinta
         elif len(b.lines) > 1:
             html_parts.append('<div class="verse">')
             for raw in b.lines:
@@ -275,16 +301,25 @@ def build_epub(header, blocks, out_path: Path):
 # PDF
 # ---------------------------------------------------------------------------
 
-def build_pdf(header, blocks, out_path: Path):
+def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, extra_index_pages=None,
+              poem_own_page=False, manga_margin_in=None):
+    """pagesize: (width, height) en puntos reportlab (usa reportlab.lib.units.inch
+    para pasar pulgadas), por defecto carta. margins_in: pulgadas de margen
+    uniforme (izq/dcha/arriba/abajo), por defecto 1.1cm/2.5cm según el original.
+    poem_own_page: si True, cada "## Poema: ..." abre página propia, centrado
+    horizontal y verticalmente. manga_margin_in: margen (pulgadas) específico
+    para las páginas de imagen (cómic), más ajustado que el del texto para
+    aprovechar mejor la página; None = usa el mismo margen que el resto."""
     from reportlab.lib.pagesizes import LETTER
     from reportlab.lib.colors import HexColor
     from reportlab.lib.styles import ParagraphStyle
-    from reportlab.lib.units import cm
+    from reportlab.lib.units import cm, inch
     from reportlab.lib.enums import TA_CENTER, TA_JUSTIFY, TA_LEFT
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
     from reportlab.platypus import (
-        SimpleDocTemplate, Paragraph, Spacer, PageBreak, HRFlowable,
+        BaseDocTemplate, PageTemplate, Frame, NextPageTemplate,
+        Paragraph, Spacer, PageBreak, HRFlowable,
     )
     from reportlab.platypus.tableofcontents import TableOfContents
 
@@ -293,8 +328,17 @@ def build_pdf(header, blocks, out_path: Path):
         pdfmetrics.registerFont(TTFont("Serif", str(FONT_DIR / "LiberationSerif-Regular.ttf")))
         pdfmetrics.registerFont(TTFont("Serif-Bold", str(FONT_DIR / "LiberationSerif-Bold.ttf")))
         pdfmetrics.registerFont(TTFont("Serif-Italic", str(FONT_DIR / "LiberationSerif-Italic.ttf")))
+        pdfmetrics.registerFont(TTFont("Serif-BoldItalic", str(FONT_DIR / "LiberationSerif-BoldItalic.ttf")))
     except Exception:
         pass  # already registered by a prior call in the same process
+    # Sin esto, las marcas <i>/<b> dentro de un Paragraph cuyo estilo base es
+    # "Serif" no saben a qué fuente cambiar y se quedan en redonda: el
+    # glosario (y cualquier *cursiva* dentro de un párrafo normal) no se
+    # distinguía por esto, no por faltar la marca en el texto fuente.
+    pdfmetrics.registerFontFamily(
+        "Serif", normal="Serif", bold="Serif-Bold",
+        italic="Serif-Italic", boldItalic="Serif-BoldItalic",
+    )
 
     INK = HexColor("#2a241c")
     RULE = HexColor("#9c8a6a")
@@ -322,6 +366,8 @@ def build_pdf(header, blocks, out_path: Path):
     h3 = ParagraphStyle("h3", fontName="Serif-Bold", fontSize=11.5, spaceBefore=12, spaceAfter=6, leading=15)
     body = ParagraphStyle("body", fontName="Serif", fontSize=11, alignment=TA_JUSTIFY, leading=16, spaceAfter=10)
     poem = ParagraphStyle("poem", fontName="Serif-Italic", fontSize=11, alignment=TA_LEFT, leading=16, spaceAfter=10)
+    poem_center = ParagraphStyle("poem_center", parent=poem, alignment=TA_CENTER)
+    h2_center = ParagraphStyle("h2_center", parent=h2, alignment=TA_CENTER)
 
     toc = TableOfContents()
     toc.levelStyles = [
@@ -330,7 +376,7 @@ def build_pdf(header, blocks, out_path: Path):
     ]
     toc.dotsMinLevel = -1  # sin puntos guía: entradas centradas, más limpio
 
-    class BookDocTemplate(SimpleDocTemplate):
+    class BookDocTemplate(BaseDocTemplate):
         def afterFlowable(self, flowable):
             if getattr(flowable, "_toc_entry", False):
                 text = flowable.getPlainText()
@@ -339,12 +385,27 @@ def build_pdf(header, blocks, out_path: Path):
                 self.canv.addOutlineEntry(text, key, level=0, closed=False)
                 self.notify("TOCEntry", (0, text, self.page, key))
 
-    doc = BookDocTemplate(
-        str(out_path), pagesize=LETTER,
-        leftMargin=2.8 * cm, rightMargin=2.8 * cm, topMargin=2.5 * cm, bottomMargin=2.5 * cm,
-    )
+    page = pagesize or LETTER
+    if margins_in is not None:
+        side_margin = margins_in * inch
+    else:
+        side_margin = 2.8 * cm
+    top_margin = 2.5 * cm if margins_in is None else margins_in * inch
 
-    story = [Spacer(1, 4.5 * cm)]
+    doc = BookDocTemplate(str(out_path), pagesize=page)
+    normal_frame = Frame(side_margin, top_margin, page[0] - 2 * side_margin,
+                         page[1] - 2 * top_margin, id="normal")
+    manga_side = manga_margin_in * inch if manga_margin_in is not None else side_margin
+    manga_top = manga_margin_in * inch if manga_margin_in is not None else top_margin
+    manga_frame = Frame(manga_side, manga_top, page[0] - 2 * manga_side,
+                        page[1] - 2 * manga_top, id="manga",
+                        leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+    doc.addPageTemplates([
+        PageTemplate(id="Normal", frames=[normal_frame]),
+        PageTemplate(id="Manga", frames=[manga_frame]),
+    ])
+
+    story = [Spacer(1, page[1] * 0.16)]
     story.append(Paragraph(header[0], kicker))
     story.append(HRFlowable(width="15%", thickness=0.75, color=RULE, spaceBefore=10, spaceAfter=14,
                              hAlign="CENTER"))
@@ -356,26 +417,159 @@ def build_pdf(header, blocks, out_path: Path):
         story.append(Paragraph(f"{header[4]}<br/>{header[5]}", kicker))
     story.append(PageBreak())
 
+    # Páginas de índice estáticas (sin numeración propia, p. ej. un índice
+    # general a nivel de "libro" que precede al índice detallado y paginado).
+    plain_entry = ParagraphStyle("plain_entry", fontName="Serif", fontSize=12,
+                                  alignment=TA_CENTER, spaceAfter=9, textColor=INK)
+    for page_title, entries in (extra_index_pages or []):
+        if not entries:
+            continue
+        story.append(Paragraph(page_title, idx_title))
+        for t in entries:
+            story.append(Paragraph(render(t), plain_entry))
+        story.append(PageBreak())
+
     titles = level1_titles(blocks)
     if titles:
         story.append(Paragraph("Índice", idx_title))
         story.append(toc)
         story.append(PageBreak())
 
+    manga_avail_w = page[0] - 2 * manga_side
+    manga_avail_h = page[1] - 2 * manga_top
+    text_avail_h = page[1] - 2 * top_margin
+
+    def is_poem_heading(h):
+        # "## Poema: ..." en el manuscrito, o "### Poema: ..." en los libros
+        # empalmados (poemas engastados dentro de un Ensayo/EPÍLOGO).
+        return h.kind == "heading" and h.level in (2, 3) and h.lines[0].startswith("Poema:")
+
     h1_seen = 0
-    for b in blocks:
+    skip_to = -1
+    for bi, b in enumerate(blocks):
+        if bi <= skip_to:
+            continue
         if b.kind == "heading":
+            is_poem = poem_own_page and is_poem_heading(b)
             if b.level == 1:
                 h1_seen += 1
+                story.append(NextPageTemplate("Normal"))
                 story.append(PageBreak())
                 p = Paragraph(render(b.lines[0]), h1)
                 p._toc_entry = True
                 p._toc_key = f"h1-{h1_seen}"
                 story.append(p)
+            elif is_poem:
+                # Recoge el/los bloques de verso que siguen, hasta el próximo
+                # encabezado, para centrar el poema entero (título + versos)
+                # vertical y horizontalmente en su propia página.
+                verse_blocks = []
+                j = bi + 1
+                while j < len(blocks) and blocks[j].kind != "heading":
+                    verse_blocks.append(blocks[j])
+                    j += 1
+                skip_to = j - 1
+                # El "· · ·" que separa viñetas dentro de un Ensayo/EPÍLOGO no
+                # pinta nada en una página propia ya delimitada por el salto:
+                # se sigue saltando (skip_to no cambia) pero no se renderiza.
+                if verse_blocks and verse_blocks[-1].lines == ["· · ·"]:
+                    verse_blocks = verse_blocks[:-1]
+                n_stanzas = len(verse_blocks)
+                title_h = h2_center.spaceBefore + h2_center.leading + h2_center.spaceAfter
+                verse_leading = poem_center.leading
+                stanza_gap = poem_center.spaceAfter
+                verse_size = poem_center.fontSize
+                avail_width = page[0] - 2 * side_margin
+
+                def wrapped_lines(font_size):
+                    # Cuenta cuántas líneas físicas ocupa cada verso ya
+                    # sangrado: un verso largo con sangría profunda puede
+                    # envolver a una segunda línea, y eso pesa en la altura
+                    # real tanto como una línea de más.
+                    total = 0
+                    for vb in verse_blocks:
+                        for raw in vb.lines:
+                            level, text = split_verse_line(raw)
+                            w = pdfmetrics.stringWidth(text, "Serif-Italic", font_size)
+                            line_w = avail_width - level * 16
+                            total += max(1, -(-int(w) // int(line_w))) if line_w > 0 else 1
+                    return total
+
+                def poem_content_h(n_lines, leading, gap):
+                    # Título + una línea física por verso (envueltas
+                    # incluidas) + un hueco de párrafo (stanza_gap) al final
+                    # de cada estrofa.
+                    return title_h + n_lines * leading + n_stanzas * gap
+
+                # Margen de seguridad frente al padding interno del Frame (no
+                # visible en text_avail_h, que solo resta los márgenes de
+                # página) y frente al redondeo del propio cálculo: sin esto,
+                # un poema largo ("Manos", "Coro") se queda un par de líneas
+                # cortas y se desborda a una segunda página casi vacía.
+                fit_budget = text_avail_h - 24
+                n_lines = wrapped_lines(verse_size)
+                content_h = poem_content_h(n_lines, verse_leading, stanza_gap)
+                for _ in range(8):
+                    if content_h <= fit_budget:
+                        break
+                    shrink = fit_budget / content_h
+                    # Suelos pensados para que el poema siga siendo cómodo de
+                    # leer: por debajo de esto, encajarlo en una sola página
+                    # queda más chafado que el propio desbordamiento que
+                    # intenta evitar. Un poema excepcionalmente largo (p. ej.
+                    # "Montse XXI") sencillamente sigue en la página
+                    # siguiente, sin forzar el tipo.
+                    new_leading = verse_leading * shrink
+                    new_gap = stanza_gap * shrink
+                    new_size = verse_size * shrink
+                    if new_leading < 13 or new_gap < 6 or new_size < 10.5:
+                        break
+                    verse_leading, stanza_gap, verse_size = new_leading, new_gap, new_size
+                    n_lines = wrapped_lines(verse_size)
+                    content_h = poem_content_h(n_lines, verse_leading, stanza_gap)
+                # Un pelín por encima del centro exacto: centrado a ciegas
+                # deja el poema con más aire abajo que arriba a ojo.
+                top_space = max(10, (text_avail_h - content_h) / 2 - verse_leading)
+                story.append(NextPageTemplate("Normal"))
+                story.append(PageBreak())
+                story.append(Spacer(1, top_space))
+                story.append(Paragraph(render(b.lines[0]), h2_center))
+                for vb in verse_blocks:
+                    m = len(vb.lines)
+                    for i, raw in enumerate(vb.lines):
+                        level, text = split_verse_line(raw)
+                        line_style = ParagraphStyle(
+                            f"versec_{id(vb)}_{i}", parent=poem_center,
+                            fontSize=verse_size, leading=verse_leading, leftIndent=level * 16,
+                            spaceAfter=(0 if i < m - 1 else stanza_gap),
+                        )
+                        story.append(Paragraph(render(text), line_style))
+                # Salto de página tras el poema, salvo que lo que sigue ya
+                # fuerce su propio salto (otro poema, o un encabezado de
+                # nivel 1): si no, se duplicaría en una página en blanco.
+                next_heading = blocks[j] if j < len(blocks) and blocks[j].kind == "heading" else None
+                next_forces_break = next_heading is not None and (
+                    next_heading.level == 1 or (poem_own_page and is_poem_heading(next_heading))
+                )
+                if not next_forces_break:
+                    story.append(PageBreak())
             elif b.level == 2:
                 story.append(Paragraph(render(b.lines[0]), h2))
             else:
                 story.append(Paragraph(render(b.lines[0]), h3))
+        elif b.kind == "image":
+            from reportlab.platypus import Image
+            from PIL import Image as PILImage
+            story.append(NextPageTemplate("Manga"))
+            story.append(PageBreak())
+            img_w, img_h = PILImage.open(b.lines[0]).size
+            scale = min(manga_avail_w / img_w, manga_avail_h / img_h)
+            im = Image(b.lines[0], width=img_w * scale, height=img_h * scale)
+            im.hAlign = "CENTER"
+            story.append(im)
+            story.append(NextPageTemplate("Normal"))
+        elif b.lines == ["· · ·"]:
+            pass  # separador de tres puntos: ya no se pinta
         elif len(b.lines) > 1:
             n = len(b.lines)
             for i, raw in enumerate(b.lines):

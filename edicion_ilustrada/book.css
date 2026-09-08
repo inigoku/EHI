@@ -32,14 +32,47 @@ h1 {
   break-before: page;
   color: #14213d;
 }
+.titlepage h1 { margin-top: 2.6cm; margin-bottom: 0.5cm; }
+.titlepage h3 {
+  text-align: center;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13pt;
+  color: #3a3a3a;
+  margin-top: 0;
+  margin-bottom: 1.3cm;
+}
+.titlepage p {
+  text-align: center;
+  text-indent: 0;
+}
+.titlepage p:nth-of-type(1) {
+  font-size: 11pt;
+  font-style: italic;
+  max-width: 78%;
+  margin: 0 auto 1.6cm auto;
+}
+.titlepage p:nth-of-type(2) {
+  font-size: 13pt;
+  margin-bottom: 0;
+}
+.titlepage p:nth-of-type(3) {
+  margin-top: 5.5cm;
+  font-style: italic;
+  font-size: 10.5pt;
+  line-height: 1.7;
+  color: #3a3a3a;
+}
 h2 {
   font-size: 15pt;
   font-weight: bold;
-  margin-top: 1.4cm;
+  margin-top: 0;
   margin-bottom: 0.35cm;
   color: #14213d;
   border-bottom: 0.75pt solid #b8945a;
   padding-bottom: 0.15cm;
+  page-break-before: always;
+  break-before: page;
   page-break-after: avoid;
 }
 h3 {
@@ -51,7 +84,59 @@ h3 {
   color: #3a3a3a;
   page-break-after: avoid;
 }
+h3.cuento {
+  margin-top: 0;
+  page-break-before: always;
+  break-before: page;
+}
 h4 { font-size: 10.5pt; font-weight: bold; page-break-after: avoid; }
+h4.poema {
+  page-break-before: always;
+  break-before: page;
+  page-break-after: avoid;
+  text-align: center;
+  font-size: 13pt;
+  font-weight: bold;
+  font-style: italic;
+  color: #14213d;
+  letter-spacing: 0.03em;
+  margin-top: 0.6cm;
+  margin-bottom: 0.9cm;
+}
+.line-block {
+  font-style: italic;
+  font-size: 11.5pt;
+  line-height: 1.6;
+  color: #2f2f2f;
+  text-align: left;
+  hyphens: none;
+  max-width: 96%;
+  margin: 0 auto;
+  text-indent: 0;
+}
+h4.glosario {
+  page-break-before: always;
+  break-before: page;
+  page-break-after: avoid;
+  text-align: center;
+  font-size: 13pt;
+  font-weight: bold;
+  font-style: italic;
+  color: #14213d;
+  letter-spacing: 0.03em;
+  margin-top: 1.2cm;
+  margin-bottom: 1.2cm;
+}
+h4.glosario + .line-block {
+  font-style: normal;
+  font-size: 11pt;
+  line-height: 1.55;
+  max-width: 96%;
+}
+h4.glosario + .line-block em {
+  font-style: italic;
+  color: #14213d;
+}
 p { margin: 0 0 0.32em 0; text-indent: 1.1em; }
 h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p { text-indent: 0; }
 blockquote {
@@ -62,12 +147,7 @@ blockquote {
   padding-left: 0.6em;
   text-indent: 0;
 }
-hr {
-  border: none;
-  border-top: 0.5pt solid #b8945a;
-  width: 30%;
-  margin: 1.1em auto;
-}
+hr { display: none; }
 img {
   display: block;
   max-width: 100%;
@@ -75,6 +155,7 @@ img {
   margin: 0.7cm auto;
   page-break-inside: avoid;
 }
+figcaption { display: none; }
 em { color: #1c1c1c; }
 strong { color: #14213d; }
 nav#TOC {
@@ -83,23 +164,38 @@ nav#TOC {
 nav#TOC ul { list-style: none; padding-left: 1em; }
 nav#TOC > ul { padding-left: 0; }
 nav#TOC a { text-decoration: none; color: #14213d; }
-/* Full-bleed cover page: no margin, no page number */
+/* Half-title page: no visible page number, but still counted */
 @page :first {
-  margin: 0;
   @bottom-center { content: ""; }
 }
-img.cover {
-  width: 15.5cm;
-  height: 23.2cm;
-  max-width: none;
-  max-height: none;
-  object-fit: cover;
-  margin: 0;
-  display: block;
-  page-break-after: always;
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.7em 0 1em 0;
+  font-size: 8.2pt;
+  line-height: 1.35;
+  text-align: left;
+  page-break-inside: avoid;
+  break-inside: avoid;
 }
-p:has(> img.cover) {
-  margin: 0;
+thead th {
+  background: #14213d;
+  color: #fff;
+  font-weight: bold;
+  border: 0.5pt solid #14213d;
+  padding: 0.18cm 0.22cm;
+  text-align: left;
+  vertical-align: bottom;
+}
+td {
+  border: 0.5pt solid #b8945a;
+  padding: 0.18cm 0.22cm;
+  vertical-align: top;
   text-indent: 0;
+  hyphens: none;
 }
-img.cover + figcaption { display: none; }
+tbody tr:nth-child(even) td { background: #f7f2e7; }
+tbody td:first-child {
+  background: #f0ebe0;
+  vertical-align: top;
+}
