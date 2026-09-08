@@ -172,6 +172,8 @@ def build_docx(header, blocks, out_path: Path, index_pages=None):
             p = doc.add_paragraph()
             p.alignment = WD_ALIGN_PARAGRAPH.CENTER
             p.add_run().add_picture(b.lines[0], height=Cm(20))
+        elif b.lines == ["· · ·"]:
+            pass  # separador de tres puntos: ya no se pinta
         elif len(b.lines) > 1:
             add_verse(b.lines)
         else:
@@ -273,6 +275,8 @@ def build_epub(header, blocks, out_path: Path):
             )
             book.add_item(img_item)
             html_parts.append(f'<div class="mangapage"><img src="{item_name}" alt="Página de manga"/></div>')
+        elif b.lines == ["· · ·"]:
+            pass  # separador de tres puntos: ya no se pinta
         elif len(b.lines) > 1:
             html_parts.append('<div class="verse">')
             for raw in b.lines:
@@ -509,9 +513,18 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                     if content_h <= fit_budget:
                         break
                     shrink = fit_budget / content_h
-                    verse_leading = max(11, verse_leading * shrink)
-                    stanza_gap = max(3, stanza_gap * shrink)
-                    verse_size = max(9, verse_size * shrink)
+                    # Suelos pensados para que el poema siga siendo cómodo de
+                    # leer: por debajo de esto, encajarlo en una sola página
+                    # queda más chafado que el propio desbordamiento que
+                    # intenta evitar. Un poema excepcionalmente largo (p. ej.
+                    # "Montse XXI") sencillamente sigue en la página
+                    # siguiente, sin forzar el tipo.
+                    new_leading = verse_leading * shrink
+                    new_gap = stanza_gap * shrink
+                    new_size = verse_size * shrink
+                    if new_leading < 13 or new_gap < 6 or new_size < 10.5:
+                        break
+                    verse_leading, stanza_gap, verse_size = new_leading, new_gap, new_size
                     n_lines = wrapped_lines(verse_size)
                     content_h = poem_content_h(n_lines, verse_leading, stanza_gap)
                 # Un pelín por encima del centro exacto: centrado a ciegas
@@ -555,6 +568,8 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
             im.hAlign = "CENTER"
             story.append(im)
             story.append(NextPageTemplate("Normal"))
+        elif b.lines == ["· · ·"]:
+            pass  # separador de tres puntos: ya no se pinta
         elif len(b.lines) > 1:
             n = len(b.lines)
             for i, raw in enumerate(b.lines):
