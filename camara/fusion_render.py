@@ -470,9 +470,53 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                 # se sigue saltando (skip_to no cambia) pero no se renderiza.
                 if verse_blocks and verse_blocks[-1].lines == ["· · ·"]:
                     verse_blocks = verse_blocks[:-1]
-                n_lines = sum(len(vb.lines) for vb in verse_blocks)
-                content_h = 21 + n_lines * 16  # aprox.: título + versos
-                top_space = max(18, (text_avail_h - content_h) / 2)
+                n_stanzas = len(verse_blocks)
+                title_h = h2_center.spaceBefore + h2_center.leading + h2_center.spaceAfter
+                verse_leading = poem_center.leading
+                stanza_gap = poem_center.spaceAfter
+                verse_size = poem_center.fontSize
+                avail_width = page[0] - 2 * side_margin
+
+                def wrapped_lines(font_size):
+                    # Cuenta cuántas líneas físicas ocupa cada verso ya
+                    # sangrado: un verso largo con sangría profunda puede
+                    # envolver a una segunda línea, y eso pesa en la altura
+                    # real tanto como una línea de más.
+                    total = 0
+                    for vb in verse_blocks:
+                        for raw in vb.lines:
+                            level, text = split_verse_line(raw)
+                            w = pdfmetrics.stringWidth(text, "Serif-Italic", font_size)
+                            line_w = avail_width - level * 16
+                            total += max(1, -(-int(w) // int(line_w))) if line_w > 0 else 1
+                    return total
+
+                def poem_content_h(n_lines, leading, gap):
+                    # Título + una línea física por verso (envueltas
+                    # incluidas) + un hueco de párrafo (stanza_gap) al final
+                    # de cada estrofa.
+                    return title_h + n_lines * leading + n_stanzas * gap
+
+                # Margen de seguridad frente al padding interno del Frame (no
+                # visible en text_avail_h, que solo resta los márgenes de
+                # página) y frente al redondeo del propio cálculo: sin esto,
+                # un poema largo ("Manos", "Coro") se queda un par de líneas
+                # cortas y se desborda a una segunda página casi vacía.
+                fit_budget = text_avail_h - 24
+                n_lines = wrapped_lines(verse_size)
+                content_h = poem_content_h(n_lines, verse_leading, stanza_gap)
+                for _ in range(8):
+                    if content_h <= fit_budget:
+                        break
+                    shrink = fit_budget / content_h
+                    verse_leading = max(11, verse_leading * shrink)
+                    stanza_gap = max(3, stanza_gap * shrink)
+                    verse_size = max(9, verse_size * shrink)
+                    n_lines = wrapped_lines(verse_size)
+                    content_h = poem_content_h(n_lines, verse_leading, stanza_gap)
+                # Un pelín por encima del centro exacto: centrado a ciegas
+                # deja el poema con más aire abajo que arriba a ojo.
+                top_space = max(10, (text_avail_h - content_h) / 2 - verse_leading)
                 story.append(NextPageTemplate("Normal"))
                 story.append(PageBreak())
                 story.append(Spacer(1, top_space))
@@ -483,7 +527,8 @@ def build_pdf(header, blocks, out_path: Path, pagesize=None, margins_in=None, ex
                         level, text = split_verse_line(raw)
                         line_style = ParagraphStyle(
                             f"versec_{id(vb)}_{i}", parent=poem_center,
-                            leftIndent=level * 16, spaceAfter=(0 if i < m - 1 else 10),
+                            fontSize=verse_size, leading=verse_leading, leftIndent=level * 16,
+                            spaceAfter=(0 if i < m - 1 else stanza_gap),
                         )
                         story.append(Paragraph(render(text), line_style))
                 # Salto de página tras el poema, salvo que lo que sigue ya
