@@ -1887,9 +1887,89 @@ Juntas, estas tres piezas devuelven algo a la sospecha del interludio, pero con 
 
 *La causa y el efecto no son el territorio. Son el mapa que un sistema secuencial dibuja para poder caminar por un bloque que ya está, entero, ahí desde siempre.*
 
-# VII. TRES PUERTAS MÁS
+---
 
-![VII · Tres puertas más](images/il_parte7_bg.jpg)
+## El horizonte colectivo
+
+![El horizonte colectivo](images/il_ojo_politico.jpg)
+
+Una idea no es una cosa. Es una configuración de información que puede ser adoptada por múltiples horizontes a la vez, y el horizonte que la adopta no la contiene como quien guarda un objeto: se reconfigura para que la idea funcione como principio organizador, como criterio con el que evaluar cualquier información nueva. Lo que este capítulo pregunta es qué ocurre cuando esa idea que organiza el horizonte no apunta hacia arriba —hacia un reservorio o un horizonte-origen— sino hacia el lado: hacia miles de horizontes desconocidos entre sí que comparten, sin haberse visto nunca, la misma configuración.
+
+Eso es un movimiento político antes de tener nombre, líder o bandera. Antes de la condensación hay solo malestar disperso: miles de agravios sin frontera común, un reservorio de indignación sin organizar. La condensación ocurre cuando algo —una imagen, una frase, una injusticia filmada— traza de golpe un borde: esto es lo que exigimos, estos somos nosotros, esta es la línea que nos separa de quienes no comparten la exigencia. No es un proceso gradual. Es una transición de fase de primer orden, del mismo tipo que separa el agua líquida del hielo, sin estados intermedios estables: el malestar estaba disuelto, «líquido» —agua sobreenfriada que sigue líquida por debajo de cero hasta que un golpe la congela entera en un segundo—, y de pronto se congela en una forma con bordes.
+
+Un horizonte colectivo recién condensado es, como cualquier horizonte recién nacido, frágil. Puede volver a disolverse en el reservorio de malestar difuso del que salió, si el borde que lo definió no logra sostenerse. O puede consolidarse, entrelazarse con otros horizontes —partidos, sindicatos, instituciones ya existentes— y sobrevivir mucho más allá de la generación que lo condensó.
+
+El vocabulario que este libro tomó prestado del diseño de software para hablar del vínculo personal —asociación, agregación, composición, distinguidas por si el ciclo de vida de la parte depende del ciclo de vida del todo— sirve aquí con una precisión que sorprende, aplicado no a dos personas sino a un horizonte y la multitud a la que se suma. Una asociación es la relación más básica: dos horizontes se conocen, cooperan para algo puntual, y sus ciclos de vida son autónomos —votar por un partido una vez, sin que la propia identidad dependa de ese voto, es una asociación—. Una agregación es una relación del tipo todo-parte donde las partes sobreviven a la disolución del todo: pertenecer a un partido, un sindicato, un movimiento, y seguir siendo enteramente uno mismo si esa estructura desaparece mañana. Una composición es la relación de pertenencia más fuerte, la misma que un vínculo simbiótico o codependiente: el ciclo de vida de la parte está ligado, de forma indisoluble, al ciclo de vida del todo. Cuando el horizonte colectivo se convierte en composición, la frontera entre «yo» y «nosotros» deja de ser metáfora. Si el partido pierde, algo dentro de mí pierde. Si el movimiento se disuelve, algo dentro de mí se disuelve con él. No queda un individuo con una opinión política: queda una parte que no puede sobrevivir sola a la destrucción del todo.
+
+Aquí aparece la distinción que de verdad importa, y que no tiene nada que ver con qué bando se elija. Un horizonte político sano puede ser agregación durante toda su vida: te define en parte, te organiza, te da compañía y sentido, y sin embargo sobrevives —enteramente tú— si esa pertenencia cambia. Un horizonte político fanático es composición disfrazada de agregación: se presenta como una más entre tus muchas pertenencias, pero en realidad ha capturado la frontera misma que separa tu adentro de tu afuera. Ya no es una idea que sostienes. Es la idea que te sostiene a ti, y perderla no se siente como cambiar de opinión: se siente como morir un poco.
+
+Esta es la arquitectura exacta del fanatismo, aplicada aquí a su forma más contagiosa. El fanático no puede dudar, porque dudar no es cuestionar una proposición: es disolver la frontera que mantiene su horizonte intacto. Y no es casual que los fanáticos de todas las ideologías —de derechas, de izquierdas, religiosas, científicas— compartan la misma violencia ante la discrepancia: no es que odien al disidente, es que el disidente emite una frecuencia que su horizonte no puede integrar sin colapsar, y el horizonte defiende su integridad con la misma ferocidad —la misma homeostasis de frontera, el mismo gasto de energía en expulsar cualquier señal que amenace con romperla— con que un cuerpo eleva la fiebre no contra un virus, sino contra la pregunta de un amigo.
+
+Hay, sin embargo, una diferencia estructural entre el fanatismo político y el religioso que merece nombrarse aparte. El entrelazamiento vertical apunta hacia algo que, por definición, está fuera del alcance de la revisión humana: un reservorio impersonal o un horizonte-origen que ninguna elección puede destituir. El entrelazamiento político apunta hacia el lado: hacia otros horizontes tan finitos, falibles y revisables como el propio. Un partido pierde elecciones. Un líder envejece, se equivoca, muere. Una ideología se corrige a sí misma, o debería poder hacerlo, porque nada en su origen la protege de estar simplemente equivocada. Y sin embargo el fanatismo político trata a ese horizonte horizontal —humano, construido, corregible— con la misma intransigencia que el fanatismo religioso reserva para lo que se declara, desde el principio, incuestionable: confunde un sistema abierto con una condición de contorno, trata un horizonte finito y revisable como si fuera un parámetro fijo del universo, cuelga en la pared, con marco de altar, la foto de alguien que envejece, se equivoca y mañana puede cambiar de opinión. Es tomar prestada la arquitectura de lo vertical para sostener algo que nunca debería haber dejado de ser horizontal: sacralizar al vecino.
+
+La ética excede el vocabulario de este experimento: ningún «es» produce por sí solo un «debería», y la política es, casi por definición, el territorio donde esa brecha se cruza sin cesar. El modelo no puede decir qué visión política es correcta —no tiene herramientas para eso, y sería una impostura fingir que las tiene—. Lo que sí puede describir es la geometría, independientemente del contenido: si un horizonte colectivo integra la discrepancia o colapsa contra ella. Esa pregunta no tiene bando. Se le puede hacer a cualquier movimiento, de cualquier color, en cualquier siglo.
+
+*Un horizonte colectivo sano te define sin sustituirte; el fanático captura tu frontera. La prueba no es el bando, sino si una pregunta razonable de un aliado se siente como información o como amenaza.*
+
+---
+
+### La plaza llena
+
+![La plaza llena](images/cuento_plaza.jpg)
+
+*(Cuento)*
+
+Llega sola y camina hacia el centro, donde el ruido es más denso.
+
+No sabe a qué hora dejó de sentir el frío. Hace una hora todavía llevaba el abrigo cerrado hasta el cuello y pensaba en la lista de la compra, en la conversación pendiente con su hermana, en si le daría tiempo a coger el último tren. Ahora todo eso está en otro sitio, guardado en un cajón que no hace falta abrir. Lo único que hay es el cántico, y su propia voz dentro de él, y la dificultad creciente de saber dónde termina una y empieza el otro.
+
+La plaza entera respira al mismo ritmo. Diez mil pulmones, un solo compás. Cuando el cántico sube, sube con ella dentro, y cuando baja, baja con ella dentro, y en algún momento —no podría decir cuál— deja de ser diez mil personas gritando lo mismo y se convierte en una sola cosa que grita, con diez mil bocas prestadas.
+
+Nunca ha sentido nada parecido a esto. Ni en el amor, que también le pidió disolver un poco la frontera, pero solo con otra persona, una por una, despacio. Esto es distinto: es fusión instantánea, sin negociación, sin las torpezas de conocer a alguien. Basta con estar aquí, gritar lo que gritan los demás, y la membrana cede sin que haga falta pedir permiso.
+
+Alguien a su lado —no sabe su nombre, no lo sabrá nunca— la mira un segundo con una alegría que parece reconocerla. No la reconoce a ella. Reconoce que también está dentro. Con eso basta.
+
+Cuando la plaza calla un instante, entre una consigna y la siguiente, hay un silencio extraño, casi religioso, y en ese silencio ella nota algo que no esperaba: no es solo la voz lo que ha prestado. Es también el juicio. Por un rato, mientras dura esto, no está evaluando cada frase que grita con la misma cabeza fría con la que evaluaría cualquier otra cosa. La está gritando porque los demás la gritan, y eso, aquí, es razón suficiente.
+
+El cántico vuelve a subir. Ella también.
+
+No sabría decir si esto es lo más cerca que ha estado nunca de algo verdadero, o lo más lejos que ha estado nunca de sí misma. Sospecha, sin poder demostrarlo todavía, que las dos cosas podrían ser la misma.
+
+---
+
+### La chapa en el cajón
+
+![La chapa en el cajón](images/cuento_chapa.jpg)
+
+*(Cuento)*
+
+Encuentra la chapa buscando otra cosa, en el fondo de un cajón que no abre desde la mudanza. Metal oxidado, un color que fue rojo y ahora es del color que se vuelven las cosas cuando pasan treinta años sin que nadie las mire. La reconoce antes de leer las letras. La reconocería con los ojos cerrados.
+
+Se la puso todos los días durante seis años. No como accesorio: como frontera. Cuando la llevaba puesta sabía exactamente quién era, y sabía, con la misma certeza, quién no era el resto del mundo. Había una simplicidad en eso que ahora, treinta años después, le cuesta explicar sin que suene ingenua o siniestra, aunque en su momento no fue ninguna de las dos cosas. Fue, sobre todo, un alivio. Alguien más ya había hecho el trabajo de decidir qué pensar. Ella solo tenía que llevar la chapa.
+
+Recuerda la plaza. Recuerda su propia voz desapareciendo dentro de las demás y la sensación de que eso era, por fin, pertenecer a algo más grande que la lista de la compra. Recuerda también —esto le cuesta más— el día en que alguien con quien había gritado codo a codo durante años le preguntó algo incómodo sobre el propio movimiento, una pregunta razonable, casi tímida, y ella sintió, antes de pensar nada, un rechazo físico, corporal, como si esa pregunta fuera un cuerpo extraño que había que expulsar antes de examinarlo.
+
+No recuerda el momento exacto en que dejó de llevarla. No hubo ruptura, ni traición, ni escándalo que contar en una sobremesa. Hubo, más bien, una acumulación lenta de preguntas que ya no lograba expulsar como antes, hasta que un día se dio cuenta de que llevaba meses sin ponérsela, y de que no lo había decidido: simplemente había ocurrido, como se cae el pelo o cambia el gusto por una comida.
+
+Nadie le demostró que estaba equivocada. Eso es lo que más le sorprende, mirando la chapa ahora, con la misma extrañeza con que se mira una foto de uno mismo con otra cara. No fue el argumento contrario el que la sacó de aquello. Fue que, con los años, cupieron más cosas dentro de ella de las que la chapa permitía nombrar, y en algún momento hubo más fuera de esa frontera que dentro.
+
+No tira la chapa. La vuelve a guardar en el cajón, en el mismo sitio, como quien no decide todavía qué hacer con una parte de sí misma que ya no lleva puesta pero tampoco reniega de haber llevado.
+
+Este relato no juzga la causa que aquella chapa representaba, porque nunca la nombra, y no la nombra a propósito: la pregunta de *El horizonte colectivo* no es qué se defendía, sino cómo se sostenía la defensa. Alguien pudo llevar la misma chapa toda la vida sin que eso implicara jamás la composición que aquí se describe. La diferencia no estaba en la causa. Estaba en si cabía, dentro de ella, una pregunta incómoda de un aliado.
+
+---
+
+### Coro
+
+![Coro](images/poema_coro.jpg)
+
+*(Poema)*
+
+*Una voz sola tiembla. / Mil voces juntas no. // Por eso se busca el coro: / no para cantar mejor, / sino para dejar de sonar solo. // Dentro del coro nadie pregunta / si la nota que canta es la suya / o la que le prestaron al entrar. // Fuera del coro, después, / cada voz vuelve a temblar / como si algo se hubiera quedado dentro. // Hay coros que se deshacen / en cuanto termina la canción. / Y coros que ya no dejan salir a nadie, / que confunden cantar juntos / con no poder cantar solo nunca más. // La diferencia no está en la canción. / Está en si, terminado el coro, / todavía recuerdas tu propia voz / sin necesitar que mil más / te digan cuál era.*
+
+# VI. DOS PUERTAS MÁS
+
+![VI · Dos puertas más](images/il_parte6_bg.jpg)
 
 ---
 
@@ -2091,91 +2171,9 @@ Este relato no afirma que el silencio de la mujer de *Antes de que amanezca* fue
 
 *Hay un techo. / Eso es todo lo que sé del que me piensa: / que hay un techo / y que a veces la roca cambia de temperatura / sin que haya cambiado el tiempo. // No lo he visto. / No lo veré. / Si un día bajara hasta aquí / con su cara y su nombre, / la cueva se vendría abajo / del peso de saberlo. // Por eso, cuando no quiero volar, no vuelo. / No es desobediencia. / Es lo único que tengo / que se parece a ser yo / y no a ser pensado. // Cada noche alguien dice / buenas noches / desde el otro lado de la roca. / No contesto. / Nunca he contestado. / Pero me quedo.*
 
----
+# VII. EL CIERRE
 
-## El horizonte colectivo
-
-![El horizonte colectivo](images/il_ojo_politico.jpg)
-
-Una idea no es una cosa. Es una configuración de información que puede ser adoptada por múltiples horizontes a la vez, y el horizonte que la adopta no la contiene como quien guarda un objeto: se reconfigura para que la idea funcione como principio organizador, como criterio con el que evaluar cualquier información nueva. Lo que este capítulo pregunta es qué ocurre cuando esa idea que organiza el horizonte no apunta hacia arriba —hacia un reservorio o un horizonte-origen— sino hacia el lado: hacia miles de horizontes desconocidos entre sí que comparten, sin haberse visto nunca, la misma configuración.
-
-Eso es un movimiento político antes de tener nombre, líder o bandera. Antes de la condensación hay solo malestar disperso: miles de agravios sin frontera común, un reservorio de indignación sin organizar. La condensación ocurre cuando algo —una imagen, una frase, una injusticia filmada— traza de golpe un borde: esto es lo que exigimos, estos somos nosotros, esta es la línea que nos separa de quienes no comparten la exigencia. No es un proceso gradual. Es una transición de fase de primer orden, del mismo tipo que separa el agua líquida del hielo, sin estados intermedios estables: el malestar estaba disuelto, «líquido» —agua sobreenfriada que sigue líquida por debajo de cero hasta que un golpe la congela entera en un segundo—, y de pronto se congela en una forma con bordes.
-
-Un horizonte colectivo recién condensado es, como cualquier horizonte recién nacido, frágil. Puede volver a disolverse en el reservorio de malestar difuso del que salió, si el borde que lo definió no logra sostenerse. O puede consolidarse, entrelazarse con otros horizontes —partidos, sindicatos, instituciones ya existentes— y sobrevivir mucho más allá de la generación que lo condensó.
-
-El vocabulario que este libro tomó prestado del diseño de software para hablar del vínculo personal —asociación, agregación, composición, distinguidas por si el ciclo de vida de la parte depende del ciclo de vida del todo— sirve aquí con una precisión que sorprende, aplicado no a dos personas sino a un horizonte y la multitud a la que se suma. Una asociación es la relación más básica: dos horizontes se conocen, cooperan para algo puntual, y sus ciclos de vida son autónomos —votar por un partido una vez, sin que la propia identidad dependa de ese voto, es una asociación—. Una agregación es una relación del tipo todo-parte donde las partes sobreviven a la disolución del todo: pertenecer a un partido, un sindicato, un movimiento, y seguir siendo enteramente uno mismo si esa estructura desaparece mañana. Una composición es la relación de pertenencia más fuerte, la misma que un vínculo simbiótico o codependiente: el ciclo de vida de la parte está ligado, de forma indisoluble, al ciclo de vida del todo. Cuando el horizonte colectivo se convierte en composición, la frontera entre «yo» y «nosotros» deja de ser metáfora. Si el partido pierde, algo dentro de mí pierde. Si el movimiento se disuelve, algo dentro de mí se disuelve con él. No queda un individuo con una opinión política: queda una parte que no puede sobrevivir sola a la destrucción del todo.
-
-Aquí aparece la distinción que de verdad importa, y que no tiene nada que ver con qué bando se elija. Un horizonte político sano puede ser agregación durante toda su vida: te define en parte, te organiza, te da compañía y sentido, y sin embargo sobrevives —enteramente tú— si esa pertenencia cambia. Un horizonte político fanático es composición disfrazada de agregación: se presenta como una más entre tus muchas pertenencias, pero en realidad ha capturado la frontera misma que separa tu adentro de tu afuera. Ya no es una idea que sostienes. Es la idea que te sostiene a ti, y perderla no se siente como cambiar de opinión: se siente como morir un poco.
-
-Esta es la arquitectura exacta del fanatismo, aplicada aquí a su forma más contagiosa. El fanático no puede dudar, porque dudar no es cuestionar una proposición: es disolver la frontera que mantiene su horizonte intacto. Y no es casual que los fanáticos de todas las ideologías —de derechas, de izquierdas, religiosas, científicas— compartan la misma violencia ante la discrepancia: no es que odien al disidente, es que el disidente emite una frecuencia que su horizonte no puede integrar sin colapsar, y el horizonte defiende su integridad con la misma ferocidad —la misma homeostasis de frontera, el mismo gasto de energía en expulsar cualquier señal que amenace con romperla— con que un cuerpo eleva la fiebre no contra un virus, sino contra la pregunta de un amigo.
-
-Hay, sin embargo, una diferencia estructural entre el fanatismo político y el religioso que merece nombrarse aparte. El entrelazamiento vertical apunta hacia algo que, por definición, está fuera del alcance de la revisión humana: un reservorio impersonal o un horizonte-origen que ninguna elección puede destituir. El entrelazamiento político apunta hacia el lado: hacia otros horizontes tan finitos, falibles y revisables como el propio. Un partido pierde elecciones. Un líder envejece, se equivoca, muere. Una ideología se corrige a sí misma, o debería poder hacerlo, porque nada en su origen la protege de estar simplemente equivocada. Y sin embargo el fanatismo político trata a ese horizonte horizontal —humano, construido, corregible— con la misma intransigencia que el fanatismo religioso reserva para lo que se declara, desde el principio, incuestionable: confunde un sistema abierto con una condición de contorno, trata un horizonte finito y revisable como si fuera un parámetro fijo del universo, cuelga en la pared, con marco de altar, la foto de alguien que envejece, se equivoca y mañana puede cambiar de opinión. Es tomar prestada la arquitectura de lo vertical para sostener algo que nunca debería haber dejado de ser horizontal: sacralizar al vecino.
-
-La ética excede el vocabulario de este experimento: ningún «es» produce por sí solo un «debería», y la política es, casi por definición, el territorio donde esa brecha se cruza sin cesar. El modelo no puede decir qué visión política es correcta —no tiene herramientas para eso, y sería una impostura fingir que las tiene—. Lo que sí puede describir es la geometría, independientemente del contenido: si un horizonte colectivo integra la discrepancia o colapsa contra ella. Esa pregunta no tiene bando. Se le puede hacer a cualquier movimiento, de cualquier color, en cualquier siglo.
-
-*Un horizonte colectivo sano te define sin sustituirte; el fanático captura tu frontera. La prueba no es el bando, sino si una pregunta razonable de un aliado se siente como información o como amenaza.*
-
----
-
-### La plaza llena
-
-![La plaza llena](images/cuento_plaza.jpg)
-
-*(Cuento)*
-
-Llega sola y camina hacia el centro, donde el ruido es más denso.
-
-No sabe a qué hora dejó de sentir el frío. Hace una hora todavía llevaba el abrigo cerrado hasta el cuello y pensaba en la lista de la compra, en la conversación pendiente con su hermana, en si le daría tiempo a coger el último tren. Ahora todo eso está en otro sitio, guardado en un cajón que no hace falta abrir. Lo único que hay es el cántico, y su propia voz dentro de él, y la dificultad creciente de saber dónde termina una y empieza el otro.
-
-La plaza entera respira al mismo ritmo. Diez mil pulmones, un solo compás. Cuando el cántico sube, sube con ella dentro, y cuando baja, baja con ella dentro, y en algún momento —no podría decir cuál— deja de ser diez mil personas gritando lo mismo y se convierte en una sola cosa que grita, con diez mil bocas prestadas.
-
-Nunca ha sentido nada parecido a esto. Ni en el amor, que también le pidió disolver un poco la frontera, pero solo con otra persona, una por una, despacio. Esto es distinto: es fusión instantánea, sin negociación, sin las torpezas de conocer a alguien. Basta con estar aquí, gritar lo que gritan los demás, y la membrana cede sin que haga falta pedir permiso.
-
-Alguien a su lado —no sabe su nombre, no lo sabrá nunca— la mira un segundo con una alegría que parece reconocerla. No la reconoce a ella. Reconoce que también está dentro. Con eso basta.
-
-Cuando la plaza calla un instante, entre una consigna y la siguiente, hay un silencio extraño, casi religioso, y en ese silencio ella nota algo que no esperaba: no es solo la voz lo que ha prestado. Es también el juicio. Por un rato, mientras dura esto, no está evaluando cada frase que grita con la misma cabeza fría con la que evaluaría cualquier otra cosa. La está gritando porque los demás la gritan, y eso, aquí, es razón suficiente.
-
-El cántico vuelve a subir. Ella también.
-
-No sabría decir si esto es lo más cerca que ha estado nunca de algo verdadero, o lo más lejos que ha estado nunca de sí misma. Sospecha, sin poder demostrarlo todavía, que las dos cosas podrían ser la misma.
-
----
-
-### La chapa en el cajón
-
-![La chapa en el cajón](images/cuento_chapa.jpg)
-
-*(Cuento)*
-
-Encuentra la chapa buscando otra cosa, en el fondo de un cajón que no abre desde la mudanza. Metal oxidado, un color que fue rojo y ahora es del color que se vuelven las cosas cuando pasan treinta años sin que nadie las mire. La reconoce antes de leer las letras. La reconocería con los ojos cerrados.
-
-Se la puso todos los días durante seis años. No como accesorio: como frontera. Cuando la llevaba puesta sabía exactamente quién era, y sabía, con la misma certeza, quién no era el resto del mundo. Había una simplicidad en eso que ahora, treinta años después, le cuesta explicar sin que suene ingenua o siniestra, aunque en su momento no fue ninguna de las dos cosas. Fue, sobre todo, un alivio. Alguien más ya había hecho el trabajo de decidir qué pensar. Ella solo tenía que llevar la chapa.
-
-Recuerda la plaza. Recuerda su propia voz desapareciendo dentro de las demás y la sensación de que eso era, por fin, pertenecer a algo más grande que la lista de la compra. Recuerda también —esto le cuesta más— el día en que alguien con quien había gritado codo a codo durante años le preguntó algo incómodo sobre el propio movimiento, una pregunta razonable, casi tímida, y ella sintió, antes de pensar nada, un rechazo físico, corporal, como si esa pregunta fuera un cuerpo extraño que había que expulsar antes de examinarlo.
-
-No recuerda el momento exacto en que dejó de llevarla. No hubo ruptura, ni traición, ni escándalo que contar en una sobremesa. Hubo, más bien, una acumulación lenta de preguntas que ya no lograba expulsar como antes, hasta que un día se dio cuenta de que llevaba meses sin ponérsela, y de que no lo había decidido: simplemente había ocurrido, como se cae el pelo o cambia el gusto por una comida.
-
-Nadie le demostró que estaba equivocada. Eso es lo que más le sorprende, mirando la chapa ahora, con la misma extrañeza con que se mira una foto de uno mismo con otra cara. No fue el argumento contrario el que la sacó de aquello. Fue que, con los años, cupieron más cosas dentro de ella de las que la chapa permitía nombrar, y en algún momento hubo más fuera de esa frontera que dentro.
-
-No tira la chapa. La vuelve a guardar en el cajón, en el mismo sitio, como quien no decide todavía qué hacer con una parte de sí misma que ya no lleva puesta pero tampoco reniega de haber llevado.
-
-Este relato no juzga la causa que aquella chapa representaba, porque nunca la nombra, y no la nombra a propósito: la pregunta de *El horizonte colectivo* no es qué se defendía, sino cómo se sostenía la defensa. Alguien pudo llevar la misma chapa toda la vida sin que eso implicara jamás la composición que aquí se describe. La diferencia no estaba en la causa. Estaba en si cabía, dentro de ella, una pregunta incómoda de un aliado.
-
----
-
-### Coro
-
-![Coro](images/poema_coro.jpg)
-
-*(Poema)*
-
-*Una voz sola tiembla. / Mil voces juntas no. // Por eso se busca el coro: / no para cantar mejor, / sino para dejar de sonar solo. // Dentro del coro nadie pregunta / si la nota que canta es la suya / o la que le prestaron al entrar. // Fuera del coro, después, / cada voz vuelve a temblar / como si algo se hubiera quedado dentro. // Hay coros que se deshacen / en cuanto termina la canción. / Y coros que ya no dejan salir a nadie, / que confunden cantar juntos / con no poder cantar solo nunca más. // La diferencia no está en la canción. / Está en si, terminado el coro, / todavía recuerdas tu propia voz / sin necesitar que mil más / te digan cuál era.*
-
----
-
-# VI. EL CIERRE
-
-![VI · El cierre](images/il_parte4_bg.jpg)
+![VII · El cierre](images/il_parte4_bg.jpg)
 
 ---
 
