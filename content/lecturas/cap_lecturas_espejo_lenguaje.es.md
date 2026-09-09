@@ -1,8 +1,10 @@
 ---
 title: EL LENGUAJE COMO TALLER DEL ENTRELAZAMIENTO
-subtitle: Lecturas
-section: VARIACIÓN VII: EL ESPEJO SIN PROFUNDIDAD
-chapterNumber: VII
+subtitle: (Una lectura topológica de Proyecto Hail Mary, Embassytown, La mano izquierda de la oscuridad, Hijos del tiempo y Semiosis, desde El espejo sin profundidad)
+section: LECTURAS TOPOLÓGICAS
+chapterNumber: 44
+illustrationTitle: El lenguaje como taller del entrelazamiento
+illustrationDescription: Un taller de luthier reconvertido en laboratorio de lenguas: sobre el banco, un cristal que separa dos atmósferas, una partitura de sonidos de eco, un guante de hielo, una tela de araña con letras y una vaina de fruta que parece hablar.
 ---
 
 *Hay una distinción que estas cinco novelas obligan a hacer: la diferencia entre arquitectura y protocolo. La arquitectura es la topología misma de un horizonte —si tiene Ego, si tiene Sombra, si su Φ basta para sostener un adentro—. El protocolo es el código concreto con el que ese horizonte, ya condensado, intenta anunciarse hacia fuera: una lengua, una sintaxis, un conjunto de señales acordadas. "Primer contacto" ya mostró que el entrelazamiento exige arquitecturas compatibles. Lo que faltaba explorar es qué ocurre cuando la arquitectura es compatible pero el protocolo no existe todavía, o cuando el protocolo mismo termina redefiniendo qué cuenta como arquitectura suficiente para hablar. Estas cinco novelas ensayan cinco respuestas distintas: que el protocolo puede construirse desde cero (Proyecto Hail Mary), que puede ser la prueba de admisión a la propia categoría de horizonte parlante (Embassytown), que el más profundo de todos no se encuentra —se gana, después de haber cruzado algo difícil— (La mano izquierda de la oscuridad), que a veces no basta con conectar dos arquitecturas y hay que reescribir una de las dos (Hijos del tiempo), o que ni siquiera hace falta una voz para que haya alguien de verdad al otro lado (Semiosis).*

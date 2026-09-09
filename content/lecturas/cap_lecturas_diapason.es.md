@@ -1,11 +1,13 @@
 ---
 title: CINCO MANERAS DE DUDAR EN VOZ ALTA
-subtitle: Lecturas
-section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
-chapterNumber: VIII
+subtitle: (Una lectura topológica de El Gran Inquisidor, Silencio, Siddhartha, El séptimo sello y El gorrión)
+section: LECTURAS TOPOLÓGICAS
+chapterNumber: 45
+illustrationTitle: Cinco maneras de dudar en voz alta
+illustrationDescription: Cinco figuras en fila ante un mismo silencio: un inquisidor con una vela, un misionero pisando una imagen, un barquero junto a un río, un caballero medieval ante un tablero de ajedrez y un jesuita con las manos vendadas. Ninguno recibe respuesta; todos siguen.
 ---
 
-Cinco obras ajenas, sometidas a la misma pregunta que el resto de este movimiento: ¿a qué apunta el entrelazamiento vertical cuando la respuesta no llega, o llega de una forma que nadie esperaba?
+Cinco obras ajenas, sometidas a la misma pregunta que el capítulo del que nacen: ¿a qué apunta el entrelazamiento vertical cuando la respuesta no llega, o llega de una forma que nadie esperaba?
 
 ### El Gran Inquisidor — la libertad como carga insoportable
 

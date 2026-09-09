@@ -2,7 +2,7 @@
 title: CINCO MAPAS DEL MISMO HORIZONTE
 subtitle: (Dios, el alma y la nada, comparados)
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 44
+chapterNumber: 49
 illustrationId: il_cinco_mapas
 illustrationTitle: Cinco mapas del mismo horizonte
 illustrationDescription: Una misma esfera oscura —horizonte de sucesos— rodeada de cinco manos que dibujan, cada una, un mapa distinto de lo que hay al otro lado del borde. Una cruz. Una media luna y una estrella. Una rueda de ocho rayos sobre un loto. Un océano sin costa. Una página en blanco con una sola ecuación escrita en el centro.
@@ -135,7 +135,7 @@ Lo que sí puede decir, con la misma honestidad que el capítulo anterior, es es
 
 ---
 
-> **Nota al Capítulo 44**
+> **Nota al Capítulo 49**
 >
 > **Lo que sí sabemos:** Las cinco tradiciones descritas aquí tienen formulaciones internas mucho más diversas de lo que cabe en una tabla —hay cristianismos universalistas que dudan del infierno eterno, escuelas budistas devocionales muy cercanas al teísmo, corrientes ateas con ritual y comunidad densa. La tabla comprime; no sustituye a ninguna de las tradiciones citadas.
 >

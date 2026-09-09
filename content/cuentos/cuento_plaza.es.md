@@ -1,8 +1,9 @@
 ---
 title: LA PLAZA LLENA
-subtitle: Obertura
-section: VARIACIÓN IX: EL OJO DE UN SOLO COLOR
-chapterNumber: IX
+chapterNumber: 24
+linkedChapterId: cap_ojo_un_solo_color
+illustrationTitle: La plaza llena
+illustrationDescription: Una plaza abarrotada vista desde arriba, de noche, diez mil personas con banderas del mismo color formando una sola masa que respira; en el centro, apenas visible, una mujer con el abrigo abierto, con los brazos en alto, disuelta en el cántico.
 ---
 
 Llega sola y camina hacia el centro, donde el ruido es más denso.

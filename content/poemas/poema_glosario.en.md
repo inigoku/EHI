@@ -29,7 +29,7 @@ section: INTIMATE GLOSSARY
 
 **Repair.** What remains when the hollow stops hurting and begins to hold.
 
-*Chamber variations*
+*The last books*
 
 **Mirror.** What gives me back my own face without ever having felt its own.
 

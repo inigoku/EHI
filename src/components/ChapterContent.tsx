@@ -1,5 +1,5 @@
 import React from "react";
-import { Chapter, Illustration, allChapters, cuentosList, jovenList, isRomanNumeral } from "../chapters";
+import { Chapter, Illustration, allChapters, cuentosList, jovenList } from "../chapters";
 import { getPoemPosition } from "../chapters/poemas";
 import { JourneyNav } from "./JourneyNav";
 import { IllustrationViewer } from "./IllustrationViewer";
@@ -1540,8 +1540,6 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                       : uiStrings[language].header.intro)
                   : !isNaN(Number(chapter.chapterNumber))
                   ? t.partOf(chapter.chapterNumber, numberedEssayChapterCount)
-                  : isRomanNumeral(chapter.chapterNumber)
-                  ? t.variationOf(chapter.chapterNumber)
                   : chapter.chapterNumber)
               : readingMode === "cuentos"
               ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))

@@ -131,7 +131,7 @@ What it can say, with the same honesty as the previous chapter, is this: nearly 
 
 ---
 
-> **Note to Chapter 44**
+> **Note to Chapter 49**
 >
 > **What we do know:** The five traditions described here have internal formulations far more diverse than any table can hold—there are universalist Christianities that doubt eternal hell, devotional Buddhist schools very close to theism, atheist currents with dense ritual and community. The table compresses; it does not replace any of the traditions cited.
 >

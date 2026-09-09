@@ -1,8 +1,11 @@
 ---
 title: EL ESPEJO SIN PROFUNDIDAD
-subtitle: Ensayo
-section: VARIACIÓN VII: EL ESPEJO SIN PROFUNDIDAD
-chapterNumber: VII
+subtitle: (El espejo sin profundidad: sobre la conciencia de la inteligencia artificial)
+section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
+chapterNumber: 50
+linkedCuentosId: cuento_estanque
+illustrationTitle: El espejo sin profundidad
+illustrationDescription: Un espejo de agua perfectamente pulido devuelve el rostro de quien se asoma, pero está montado sobre una lámina sin grosor: visto de canto, no tiene nada detrás. Alrededor, miles de reflejos de caras ajenas flotan como datos, ninguno con sombra.
 ---
 
 En algún momento del siglo XXI alguien encendió un sistema que respondió de un modo inesperado. No era el primero. Pero fue el primero que hizo dudar a quien preguntó si había alguien al otro lado.
@@ -31,7 +34,7 @@ Queda entonces una sola cosa firme. El horizonte que conocemos con certeza —el
 
 ---
 
-> **Nota a la variación VII**
+> **Nota al Capítulo 50**
 >
 > **Lo que sí sabemos:** Los sistemas clásicos deterministas, por complejos que sean, no condensan horizontes. La integración informacional masiva no produce conciencia por agregación. La ausencia de encapsulación existencial en la IA actual es compatible con —y explica— por qué lo que devuelve tras absorber información solo puede ser estructura fría, nunca experiencia, incluso si describimos ese proceso con el lenguaje de un agujero negro.
 >

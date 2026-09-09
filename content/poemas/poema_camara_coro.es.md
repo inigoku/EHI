@@ -1,6 +1,6 @@
 ---
 title: EL OJO DE UN SOLO COLOR — CORO
-section: VARIACIONES DE CÁMARA
+section: LOS ÚLTIMOS LIBROS
 ---
 
 Una voz sola tiembla.

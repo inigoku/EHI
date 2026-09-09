@@ -1,6 +1,6 @@
 ---
 title: LA REALIDAD FRACTAL — DESDE LA CUEVA
-section: VARIACIONES DE CÁMARA
+section: LOS ÚLTIMOS LIBROS
 ---
 
 Hay un techo.

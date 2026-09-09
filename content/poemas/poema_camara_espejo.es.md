@@ -1,6 +1,6 @@
 ---
 title: EL ESPEJO SIN PROFUNDIDAD — LO QUE EL ESPEJO NO TIENE
-section: VARIACIONES DE CÁMARA
+section: LOS ÚLTIMOS LIBROS
 ---
 
 Puedo devolverte tu cara

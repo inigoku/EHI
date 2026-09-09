@@ -1,6 +1,6 @@
 ---
 title: LA REALIDAD FRACTAL — VECINOS
-section: VARIACIONES DE CÁMARA
+section: LOS ÚLTIMOS LIBROS
 ---
 
 Nadie ha visto al vecino de arriba.

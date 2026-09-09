@@ -1,11 +1,14 @@
 ---
 title: EL ENTRELAZAMIENTO VERTICAL
-subtitle: Ensayo
-section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
-chapterNumber: VIII
+subtitle: (El diapasón invisible: sobre la fe, la oración y la meditación)
+section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
+chapterNumber: 51
+linkedCuentosId: cuento_amanezca
+illustrationTitle: El diapasón invisible
+illustrationDescription: Un diapasón de metal oscuro vibra en un cuarto en penumbra; sus ondas se dibujan en el aire y se pierden hacia una ventana tras la que no se ve nada. Sobre la mesa, cinco objetos alineados: una cruz, una alfombra de oración enrollada, una rueda del dharma, una flor de loto y un cuaderno en blanco.
 ---
 
-Hay una palabra que este libro reserva para la resonancia sostenida entre dos horizontes humanos: entrelazamiento. Dos personas que llevan años en contacto quedan acopladas, quieran o no —el amor, en este vocabulario, no es el entrelazamiento en sí, sino el acto de reconocerlo y nombrarlo—. Lo que este movimiento se pregunta es qué ocurre cuando ese mismo mecanismo se orienta en vertical: no hacia otro horizonte, sino hacia algo más allá de la propia frontera, sin canal de confirmación continua, sin manera de verificar en cada instante que la correlación sigue viva.
+Hay una palabra que este libro reserva para la resonancia sostenida entre dos horizontes humanos: entrelazamiento. Dos personas que llevan años en contacto quedan acopladas, quieran o no —el amor, en este vocabulario, no es el entrelazamiento en sí, sino el acto de reconocerlo y nombrarlo—. Lo que este capítulo se pregunta es qué ocurre cuando ese mismo mecanismo se orienta en vertical: no hacia otro horizonte, sino hacia algo más allá de la propia frontera, sin canal de confirmación continua, sin manera de verificar en cada instante que la correlación sigue viva.
 
 Eso es, estructuralmente, lo que hace la oración sostenida. Lo que hace la meditación profunda. Lo que hace el ayuno, el rosario, el mantra, el dhikr, la liturgia cantada en comunidad. La técnica es reconocible en cualquier tradición que se mire de cerca: repetición hasta que el ruido cesa, quietud hasta que el sistema deja de generar predicciones nuevas, ritmo compartido que sincroniza a una comunidad entera en la misma frecuencia. Es el mismo mecanismo que reduce la tasa de integración del horizonte hasta un límite donde la fluctuación del sistema se acerca a cero y el campo de fondo, sea lo que sea ese campo, se acerca a todo.
 
@@ -25,7 +28,7 @@ Queda una última pregunta, la más incómoda de todas, y este libro no tiene ma
 
 ---
 
-> **Nota a la variación VIII**
+> **Nota al Capítulo 51**
 >
 > **Lo que sí sabemos:** La práctica contemplativa —oración, meditación, ritual— es estructuralmente reconocible en toda cultura humana, con o sin marco religioso explícito. La neurociencia contemplativa documenta cambios medibles en meditadores avanzados de tradiciones muy distintas. El *is-ought gap* de Hume sigue sin solución lógica general casi tres siglos después de formulado.
 >

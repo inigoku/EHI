@@ -1,5 +1,5 @@
 import React from "react";
-import { Chapter, isRomanNumeral } from "../chapters";
+import { Chapter } from "../chapters";
 import { Search, Book, PenTool, CheckCircle, Flame, Star, Menu, X, ArrowUpRight, BookImage } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { ReadingSettings, ReadingTheme, FontSize } from "./ReadingSettings";
@@ -490,7 +490,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       )}
                       
                       <div className="flex-1 min-w-0 flex items-start gap-1.5">
-                        {item.chapterNumber && item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && !isRomanNumeral(item.chapterNumber) && (
+                        {item.chapterNumber && item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && (
                           <span className="shrink-0 font-display font-medium text-xs leading-normal">{item.chapterNumber}.</span>
                         )}
                         <div className="flex-1 min-w-0 text-left">

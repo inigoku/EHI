@@ -30,6 +30,10 @@ export const conceptualLinks: ConceptualLink[] = [
   { fromId: "cap_traductor", toId: "cap_calibracion" },
   { fromId: "cap_religiones_comparadas", toId: "cap17_5_real" },
   { fromId: "cap_religiones_comparadas", toId: "cap6" },
+  { fromId: "cap_espejo_sin_profundidad", toId: "cap18_real" },
+  { fromId: "cap_diapason_invisible", toId: "cap17_5_real" },
+  { fromId: "cap_realidad_fractal", toId: "cap18_7" },
+  { fromId: "cap_ojo_un_solo_color", toId: "cap17_5_real" },
 ];
 
 export function findConceptualLink(chapterId: string): string | undefined {

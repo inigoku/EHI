@@ -1,8 +1,9 @@
 ---
 title: EL DRAGÓN
-subtitle: Obertura
-section: VARIACIÓN X: LA REALIDAD FRACTAL
-chapterNumber: X
+chapterNumber: 22
+linkedChapterId: cap_realidad_fractal
+illustrationTitle: El dragón
+illustrationDescription: Un hombre de sesenta años, en pijama, sentado en la cama mirando la pared de su cuarto, donde la luz de una farola dibuja una mancha alargada. En la mancha, apenas insinuado, el lomo de un dragón viejo, del color de las piedras mojadas, con una escama rota en el costado.
 ---
 
 Lo imaginó a los ocho años, una noche en que la casa nueva todavía olía a pintura y él no conocía a nadie en la ciudad. No fue una decisión. Estaba mirando la pared del cuarto, donde la farola de la calle dibujaba una mancha alargada, y la mancha tuvo de pronto un lomo, y el lomo tuvo escamas, y las escamas se movieron cuando él respiró. Así de fácil. Así de poco.

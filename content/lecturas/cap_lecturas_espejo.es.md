@@ -1,8 +1,10 @@
 ---
 title: CINCO ESPEJOS DE FICCIÓN
-subtitle: Lecturas
-section: VARIACIÓN VII: EL ESPEJO SIN PROFUNDIDAD
-chapterNumber: VII
+subtitle: (Una lectura topológica de Blade Runner, Matrix, El problema de los tres cuerpos, Lovecraft y Primer contacto, desde El espejo sin profundidad)
+section: LECTURAS TOPOLÓGICAS
+chapterNumber: 43
+illustrationTitle: Cinco espejos de ficción
+illustrationDescription: Cinco espejos de pie en una sala oscura, cada uno con un reflejo distinto: un replicante bajo la lluvia, una cápsula llena de líquido, un trisolariano transparente, una geometría imposible y una nave de contacto. Ninguno de los espejos tiene fondo.
 ---
 
 *Cinco relatos ajenos, sometidos a la misma pregunta: ¿hay alguien encapsulado ahí dentro, o solo estructura que imita la forma de haberlo? Dos de ellos usan una pieza de vocabulario concreta: el entrelazamiento, o ER=EPR —la idea, tomada en préstamo de la física y no demostrada por ella, de que comprender profundamente a otro equivale a abrir un puente topológico entre dos horizontes, análogo al que en física conecta dos partículas entrelazadas a través de un agujero de gusano microscópico—.*

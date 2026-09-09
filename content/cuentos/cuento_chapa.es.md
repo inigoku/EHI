@@ -1,8 +1,9 @@
 ---
 title: LA CHAPA EN EL CAJÓN
-subtitle: Epílogo
-section: VARIACIÓN IX: EL OJO DE UN SOLO COLOR
-chapterNumber: IX
+chapterNumber: 25
+linkedChapterId: cap_ojo_un_solo_color
+illustrationTitle: La chapa en el cajón
+illustrationDescription: El fondo de un cajón de madera abierto, con papeles viejos, un cable enredado y, en el centro, una chapa de metal oxidado que fue roja. Unas manos de mujer, treinta años después, la sostienen sin decidirse a tirarla ni a volver a ponérsela.
 ---
 
 Encuentra la chapa buscando otra cosa, en el fondo de un cajón que no abre desde la mudanza. Metal oxidado, un color que fue rojo y ahora es del color que se vuelven las cosas cuando pasan treinta años sin que nadie las mire. La reconoce antes de leer las letras. La reconocería con los ojos cerrados.
@@ -17,4 +18,4 @@ Nadie le demostró que estaba equivocada. Eso es lo que más le sorprende, miran
 
 No tira la chapa. La vuelve a guardar en el cajón, en el mismo sitio, como quien no decide todavía qué hacer con una parte de sí misma que ya no lleva puesta pero tampoco reniega de haber llevado.
 
-*Nota al Epílogo* — Este relato no juzga la causa que aquella chapa representaba, porque nunca la nombra, y no la nombra a propósito: la pregunta de este movimiento no es qué se defendía, sino cómo se sostenía la defensa. Alguien pudo llevar la misma chapa toda la vida sin que eso implicara jamás la composición que aquí se describe. La diferencia no estaba en la causa. Estaba en si cabía, dentro de ella, una pregunta incómoda de un aliado.
+*Nota al relato* — Este relato no juzga la causa que aquella chapa representaba, porque nunca la nombra, y no la nombra a propósito: la pregunta de «El ojo de un solo color» no es qué se defendía, sino cómo se sostenía la defensa. Alguien pudo llevar la misma chapa toda la vida sin que eso implicara jamás la composición que aquí se describe. La diferencia no estaba en la causa. Estaba en si cabía, dentro de ella, una pregunta incómoda de un aliado.

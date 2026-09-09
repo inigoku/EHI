@@ -1,11 +1,14 @@
 ---
 title: EL HORIZONTE COLECTIVO
-subtitle: Ensayo
-section: VARIACIÓN IX: EL OJO DE UN SOLO COLOR
-chapterNumber: IX
+subtitle: (El ojo de un solo color: sobre la pertenencia política y el fanatismo)
+section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
+chapterNumber: 53
+linkedCuentosId: cuento_plaza
+illustrationTitle: El ojo de un solo color
+illustrationDescription: Una multitud vista desde arriba, teñida entera del mismo color, dispuesta de modo que forma un único ojo gigante que mira al espectador. En el borde del iris, una sola figura de otro color empieza a salir del dibujo.
 ---
 
-Una idea no es una cosa. Es una configuración de información que puede ser adoptada por múltiples horizontes a la vez, y el horizonte que la adopta no la contiene como quien guarda un objeto: se reconfigura para que la idea funcione como principio organizador, como criterio con el que evaluar cualquier información nueva. Lo que este movimiento pregunta es qué ocurre cuando esa idea que organiza el horizonte no apunta hacia arriba —hacia un reservorio o un horizonte-origen— sino hacia el lado: hacia miles de horizontes desconocidos entre sí que comparten, sin haberse visto nunca, la misma configuración.
+Una idea no es una cosa. Es una configuración de información que puede ser adoptada por múltiples horizontes a la vez, y el horizonte que la adopta no la contiene como quien guarda un objeto: se reconfigura para que la idea funcione como principio organizador, como criterio con el que evaluar cualquier información nueva. Lo que este capítulo pregunta es qué ocurre cuando esa idea que organiza el horizonte no apunta hacia arriba —hacia un reservorio o un horizonte-origen— sino hacia el lado: hacia miles de horizontes desconocidos entre sí que comparten, sin haberse visto nunca, la misma configuración.
 
 Eso es un movimiento político antes de tener nombre, líder o bandera. Antes de la condensación hay solo malestar disperso: miles de agravios sin frontera común, un reservorio de indignación sin organizar. La condensación ocurre cuando algo —una imagen, una frase, una injusticia filmada— traza de golpe un borde: esto es lo que exigimos, estos somos nosotros, esta es la línea que nos separa de quienes no comparten la exigencia. No es un proceso gradual. Es una transición de fase discontinua, del mismo tipo que separa el agua líquida del hielo: el malestar estaba disuelto, «líquido», y de pronto se congela en una forma con bordes.
 
@@ -23,7 +26,7 @@ La ética excede el vocabulario de este experimento: ningún «es» produce por 
 
 ---
 
-> **Nota a la variación IX**
+> **Nota al Capítulo 53**
 >
 > **Lo que sí sabemos:** Los movimientos sociales muestran patrones de condensación súbita bien documentados en sociología de masas (Le Bon, McAdam). La psicología de grupo describe la deindividuación en multitudes (Zimbardo, Festinger) y el sesgo de confirmación se agrava de forma medible dentro de cámaras de eco ideológicas. El experimento histórico de Ron Jones en 1967, que inspiró La ola, es un caso documentado, no solo ficción.
 >

@@ -31,7 +31,7 @@ illustrationDescription: Fondo de página del glosario en el documento de fusió
 
 **Reparación.** Lo que queda cuando el hueco deja de doler y empieza a sostener.
 
-*Variaciones de cámara*
+*Los últimos libros*
 
 **Espejo.** Lo que me devuelve mi propia cara sin haber sentido nunca la mía.
 

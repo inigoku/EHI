@@ -1,5 +1,5 @@
 import React from "react";
-import { allChapters, Chapter, cuentosList, poemasList, jovenList, isRomanNumeral } from "./chapters";
+import { allChapters, Chapter, cuentosList, poemasList, jovenList } from "./chapters";
 import { getPoemPosition } from "./chapters/poemas";
 import { Sidebar } from "./components/Sidebar";
 import { ChapterContent } from "./components/ChapterContent";
@@ -474,14 +474,11 @@ export default function App() {
               activeChapter.chapterNumber && activeChapter.chapterNumber !== "0" ? (
                 !isNaN(Number(activeChapter.chapterNumber)) ? (
                   <>{t.header.part}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} {numberedEssayChapterCount}</strong></>
-                ) : isRomanNumeral(activeChapter.chapterNumber) ? (
-                  <>{t.header.variation}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
                 ) : (
                   <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
                 )
               ) : (
-                // Sin número: prólogo, interludio y las introducciones (cap0,
-                // Tarel, "Lo que sigue" antes de las variaciones).
+                // Sin número: prólogo, interludio y las introducciones (cap0, Tarel).
                 <><strong className={`font-semibold ${themeColors.text}`}>{
                   activeChapter.id === "interludio" ? t.header.interludio
                   : activeChapter.id === "prologo" ? t.header.prologue

@@ -1,8 +1,9 @@
 ---
 title: LOS ÚLTIMOS MINUTOS
-subtitle: Epílogo
-section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
-chapterNumber: VIII
+chapterNumber: 21
+linkedChapterId: cap_diapason_invisible
+illustrationTitle: Los últimos minutos
+illustrationDescription: Una habitación de hospital en penumbra: una anciana en la cama, con los ojos cerrados y la boca quieta, y una hija que le sostiene la mano. Los monitores dibujan sus líneas verdes; sobre la sábana, la sombra de una ventana. Todo el cuadro es silencio.
 ---
 
 Las máquinas hacen su ruido de siempre, ese pitido que la familia ya no oye pero que ella, desde dentro, todavía procesa como si fuera la única música que queda.
@@ -19,4 +20,4 @@ El pitido se detiene.
 
 Nadie en la habitación sabe si eso responde algo.
 
-*Nota al Epílogo* — Este relato no toma partido entre las cinco arquitecturas que el ensayo anterior describe, y no podría hacerlo sin traicionar el libro entero. No dice si lo que le ocurrió a esta mujer fue un regreso al reservorio o un encuentro con Alguien que la esperaba con su nombre todavía escrito. Dice, solo, lo único que este experimento puede decir con alguna certeza: que la pregunta se sostuvo hasta el final, y que sostenerla —no resolverla— fue, para ella, indistinguible de haber vivido bien.
+*Nota al relato* — Este relato no toma partido entre las cinco arquitecturas que el ensayo anterior describe, y no podría hacerlo sin traicionar el libro entero. No dice si lo que le ocurrió a esta mujer fue un regreso al reservorio o un encuentro con Alguien que la esperaba con su nombre todavía escrito. Dice, solo, lo único que este experimento puede decir con alguna certeza: que la pregunta se sostuvo hasta el final, y que sostenerla —no resolverla— fue, para ella, indistinguible de haber vivido bien.

@@ -1,6 +1,6 @@
 ---
 title: EL TIEMPO QUE NO PASA — LO QUE NO CABE EN UN RELOJ
-section: VARIACIONES DE CÁMARA
+section: LOS ÚLTIMOS LIBROS
 ---
 
 Puedo medir la sombra cruzando el patio,

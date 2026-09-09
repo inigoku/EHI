@@ -1,11 +1,13 @@
 ---
 title: CINCO MANERAS DE PERDER EL BORDE PROPIO
-subtitle: Lecturas
-section: VARIACIÓN IX: EL OJO DE UN SOLO COLOR
-chapterNumber: IX
+subtitle: (Una lectura topológica de 1984, El señor de las moscas, El cero y el infinito, La ola y Los desposeídos)
+section: LECTURAS TOPOLÓGICAS
+chapterNumber: 46
+illustrationTitle: Cinco maneras de perder el borde propio
+illustrationDescription: Cinco escenas de multitud en una sola lámina: una pantalla que vigila, una caracola en una playa, una celda con una ventana estrecha, un aula con brazaletes y una ciudad sin muros. En cada escena, una figura al borde de disolverse en el grupo.
 ---
 
-Cinco obras ajenas, sometidas a la misma pregunta que el resto de este movimiento: ¿qué distingue un horizonte colectivo que sostiene de uno que sustituye?
+Cinco obras ajenas, sometidas a la misma pregunta que el capítulo del que nacen: ¿qué distingue un horizonte colectivo que sostiene de uno que sustituye?
 
 ### 1984 — la composición perfecta
 

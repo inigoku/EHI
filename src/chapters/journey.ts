@@ -46,6 +46,13 @@ export const cuentoToPoema: Record<string, string> = {
   cuento_luthier: "poema_arq3",       // LA TIENDA DEL LUTHIER → EL LUTHIER
   cuento_mussara: "poema_frialdad4",  // LA NIEBLA DE LA MUSSARA → VILLANCICO CIBERNÉTICO
   cuento_sintonizadores: "poema_sintonizadores", // LOS SINTONIZADORES → EL NUDO DE LA MEZCLA
+  cuento_estanque: "poema_camara_espejo",     // EL ESTANQUE → LO QUE EL ESPEJO NO TIENE
+  cuento_amanezca: "poema_camara_manos",      // ANTES DE QUE AMANEZCA → MANOS
+  cuento_ultimos_minutos: "poema_frialdad6",  // LOS ÚLTIMOS MINUTOS → MONTSE XXI (así cierra El diapasón invisible)
+  cuento_dragon: "poema_camara_vecinos",      // EL DRAGÓN → VECINOS
+  cuento_vecino_arriba: "poema_camara_cueva", // EL VECINO DE ARRIBA → DESDE LA CUEVA
+  cuento_plaza: "poema_camara_coro",          // LA PLAZA LLENA → CORO
+  cuento_chapa: "poema_camara_coro",          // LA CHAPA EN EL CAJÓN → CORO (comparte con cuento_plaza)
   // cuento_txiki queda sin poema asignado (coda especial).
 };
 

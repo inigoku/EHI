@@ -35,9 +35,10 @@ const ORDER = [
   "poema_frialdad5",
   "poema_frialdad6",
   "poema_sintonizadores",
-  // Poemas de las variaciones de cámara (El tiempo que no pasa, VII, VIII,
-  // IX y X). "Montse XXI" (VIII) ya figura como VI de "La frialdad de una
-  // ciudad apagada" y no se repite aquí.
+  // Poemas de los últimos libros (El tiempo que no pasa, El espejo sin
+  // profundidad, El diapasón invisible, El ojo de un solo color, La realidad
+  // fractal). "Montse XXI" (El diapasón invisible) ya figura como VI de "La
+  // frialdad de una ciudad apagada" y no se repite aquí.
   "poema_camara_reloj",
   "poema_camara_espejo",
   "poema_camara_manos",

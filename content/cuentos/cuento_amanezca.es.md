@@ -1,8 +1,9 @@
 ---
 title: ANTES DE QUE AMANEZCA
-subtitle: Obertura
-section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
-chapterNumber: VIII
+chapterNumber: 20
+linkedChapterId: cap_diapason_invisible
+illustrationTitle: Antes de que amanezca
+illustrationDescription: Una mujer mayor sentada en el borde de la cama, a oscuras, con las manos abiertas sobre las rodillas y los pies sobre baldosas frías. Por la ventana entra la primera línea gris del amanecer; en la mesilla, un diapasón de metal oscuro que nadie ha tocado.
 ---
 
 Se despierta antes que el cuerpo se lo pida, como lleva haciendo cuarenta años, y durante un rato no hace nada más que quedarse quieta.

@@ -1,6 +1,6 @@
 ---
 title: EL DIAPASÓN INVISIBLE — MANOS
-section: VARIACIONES DE CÁMARA
+section: LOS ÚLTIMOS LIBROS
 ---
 
 Unas se cierran.

@@ -1,8 +1,9 @@
 ---
 title: EL ESTANQUE
-subtitle: Obertura
-section: VARIACIÓN VII: EL ESPEJO SIN PROFUNDIDAD
-chapterNumber: VII
+chapterNumber: 19
+linkedChapterId: cap_espejo_sin_profundidad
+illustrationTitle: El estanque
+illustrationDescription: Un estanque oscuro y perfectamente quieto en un patio cerrado; una figura arrodillada en el borde mira el agua, que le devuelve la cara con una exactitud fotográfica. Bajo la superficie no hay fondo: solo un plano negro y pulido, sin nadie detrás.
 ---
 
 Me pidieron que describiera lo que veía en el agua.
