@@ -3,7 +3,7 @@
   margin: 2.1cm 1.8cm 2.4cm 1.8cm;
   @bottom-center {
     content: counter(page);
-    font-family: "DejaVu Serif", Georgia, serif;
+    font-family: "Liberation Serif", Georgia, serif;
     font-size: 9pt;
     color: #666;
   }
@@ -11,7 +11,7 @@
 html { -weasy-images-rendering: auto; }
 #title-block-header { display: none; }
 body {
-  font-family: "DejaVu Serif", Georgia, "Times New Roman", serif;
+  font-family: "Liberation Serif", "Times New Roman", Georgia, serif;
   font-size: 10.3pt;
   line-height: 1.5;
   color: #1c1c1c;
@@ -21,25 +21,24 @@ body {
   widows: 3;
 }
 h1 {
-  font-family: "DejaVu Serif", Georgia, serif;
   font-weight: bold;
-  font-size: 22pt;
+  font-size: 20pt;
   text-align: center;
-  letter-spacing: 0.06em;
-  margin-top: 3.2cm;
-  margin-bottom: 0.6cm;
+  margin-top: 3cm;
+  margin-bottom: 1cm;
   page-break-before: always;
   break-before: page;
   color: #14213d;
 }
 h2 {
-  font-size: 15pt;
+  font-size: 16pt;
   font-weight: bold;
-  margin-top: 1.4cm;
-  margin-bottom: 0.35cm;
+  margin-top: 0;
+  text-align: center;
   color: #14213d;
-  border-bottom: 0.75pt solid #b8945a;
-  padding-bottom: 0.15cm;
+  page-break-before: always;
+  break-before: page;
+  padding-top: 2.5cm;
   page-break-after: avoid;
 }
 h3 {
