@@ -1,7 +1,8 @@
 ---
 title: EL HORIZONTE COLECTIVO
-subtitle: Ensayo — Variación de cámara IX: El ojo de un solo color
-section: VARIACIONES DE CÁMARA
+subtitle: Ensayo
+section: VARIACIÓN IX: EL OJO DE UN SOLO COLOR
+chapterNumber: IX
 ---
 
 Una idea no es una cosa. Es una configuración de información que puede ser adoptada por múltiples horizontes a la vez, y el horizonte que la adopta no la contiene como quien guarda un objeto: se reconfigura para que la idea funcione como principio organizador, como criterio con el que evaluar cualquier información nueva. Lo que este movimiento pregunta es qué ocurre cuando esa idea que organiza el horizonte no apunta hacia arriba —hacia un reservorio o un horizonte-origen— sino hacia el lado: hacia miles de horizontes desconocidos entre sí que comparten, sin haberse visto nunca, la misma configuración.
@@ -19,3 +20,13 @@ Esta es la arquitectura exacta del fanatismo, aplicada aquí a su forma más con
 Hay, sin embargo, una diferencia estructural entre el fanatismo político y el religioso que merece nombrarse aparte. El entrelazamiento vertical apunta hacia algo que, por definición, está fuera del alcance de la revisión humana: un reservorio impersonal o un horizonte-origen que ninguna elección puede destituir. El entrelazamiento político apunta hacia el lado: hacia otros horizontes tan finitos, falibles y revisables como el propio. Un partido pierde elecciones. Un líder envejece, se equivoca, muere. Una ideología se corrige a sí misma, o debería poder hacerlo, porque nada en su origen la protege de estar simplemente equivocada. Y sin embargo el fanatismo político trata a ese horizonte horizontal —humano, construido, corregible— con la misma intransigencia que el fanatismo religioso reserva para lo que se declara, desde el principio, incuestionable. Es tomar prestada la arquitectura de lo vertical para sostener algo que nunca debería haber dejado de ser horizontal: sacralizar al vecino.
 
 La ética excede el vocabulario de este experimento: ningún «es» produce por sí solo un «debería», y la política es, casi por definición, el territorio donde esa brecha se cruza sin cesar. El modelo no puede decir qué visión política es correcta —no tiene herramientas para eso, y sería una impostura fingir que las tiene—. Lo que sí puede describir es la geometría, independientemente del contenido: si un horizonte colectivo integra la discrepancia o colapsa contra ella. Esa pregunta no tiene bando. Se le puede hacer a cualquier movimiento, de cualquier color, en cualquier siglo.
+
+---
+
+> **Nota a la variación IX**
+>
+> **Lo que sí sabemos:** Los movimientos sociales muestran patrones de condensación súbita bien documentados en sociología de masas (Le Bon, McAdam). La psicología de grupo describe la deindividuación en multitudes (Zimbardo, Festinger) y el sesgo de confirmación se agrava de forma medible dentro de cámaras de eco ideológicas. El experimento histórico de Ron Jones en 1967, que inspiró La ola, es un caso documentado, no solo ficción.
+>
+> **Lo que no sabemos:** Si existe algún marcador neural o conductual que distinga, desde dentro de la experiencia, una pertenencia sana de una pertenencia fanática antes de que sea demasiado tarde para revertirla. Si la arquitectura de la composición política es evitable a escala de una sociedad entera, o si es, sencillamente, el precio que se paga por la fuerza de cualquier movimiento capaz de cambiar algo real.
+>
+> **Lecturas:** Le Bon, G., *Psicología de las masas* (1895); McAdam, D., *Political Process and the Development of Black Insurgency* (1982); Zimbardo, P.G. (1969), sobre deindividuación; Festinger, L. et al. (1952), sobre deindividuación en grupos; Orwell, G., *1984* (1949); Golding, W., *El señor de las moscas* (1954); Koestler, A., *El cero y el infinito* (1940); Strasser, T., *La ola* (1981); Le Guin, U.K., *Los desposeídos* (1974).

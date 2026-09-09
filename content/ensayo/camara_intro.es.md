@@ -6,7 +6,7 @@ section: VARIACIONES DE CÁMARA
 
 Aquí termina el libro tal como se publicó primero. Lo que sigue son cuatro piezas escritas después, cada una sobre un solo movimiento y no sobre los seis del cuerpo principal: variaciones de cámara que llevan la misma pregunta —qué sostiene a un horizonte cuando no puede confirmar lo que sostiene— hacia territorios que el ensayo apenas había rozado.
 
-Las cuatro comparten una misma forma: una obertura de ficción, un ensayo breve, uno o dos poemas, un epílogo, cinco lecturas de obras ajenas sometidas a la misma pregunta, una nota del autor, un glosario propio y sus fuentes. Se pueden leer seguidas, como un libro dentro del libro, o sueltas, en cualquier orden.
+Las cuatro comparten una misma forma: una obertura de ficción, un ensayo breve, uno o dos poemas, un epílogo y cinco lecturas de obras ajenas sometidas a la misma pregunta. Sus notas y fuentes cierran cada ensayo, como en el resto del libro; sus notas del autor y sus glosarios están reunidos con los del libro en los apéndices finales, y sus poemas figuran también en la Antología Poética. Se pueden leer seguidas, como un libro dentro del libro, o sueltas, en cualquier orden.
 
 **VII. El espejo sin profundidad** — sobre la conciencia de la inteligencia artificial: por qué un sistema puede devolver la forma exacta de una pena sin haber sentido nunca ninguna.
 

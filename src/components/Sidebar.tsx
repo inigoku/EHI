@@ -1,5 +1,5 @@
 import React from "react";
-import { Chapter } from "../chapters";
+import { Chapter, isRomanNumeral } from "../chapters";
 import { Search, Book, PenTool, CheckCircle, Flame, Star, Menu, X, ArrowUpRight, BookImage } from "lucide-react";
 import { motion, AnimatePresence } from "motion/react";
 import { ReadingSettings, ReadingTheme, FontSize } from "./ReadingSettings";
@@ -174,6 +174,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           itemActive: "font-semibold bg-[#1A1A1A]/5 border-[#1A1A1A]/10 text-[#1A1A1A]",
           itemHover: "hover:bg-[#1A1A1A]/5 text-[#1A1A1A]/60 hover:text-[#1A1A1A]",
           lineActive: "bg-[#1A1A1A]",
+          sectionRule: "border-[#1A1A1A]/50",
           seeAlsoBorder: "border-[#1A1A1A]/40",
           progressBg: "bg-[#1A1A1A]/10",
           progressBar: "bg-[#1A1A1A]",
@@ -192,6 +193,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           itemActive: "font-semibold bg-[#2C1E11]/5 border-[#2C1E11]/10 text-[#2C1E11]",
           itemHover: "hover:bg-[#2C1E11]/5 text-[#2C1E11]/60 hover:text-[#2C1E11]",
           lineActive: "bg-[#2C1E11]",
+          sectionRule: "border-[#2C1E11]/50",
           seeAlsoBorder: "border-[#2C1E11]/40",
           progressBg: "bg-[#2C1E11]/10",
           progressBar: "bg-amber-800",
@@ -210,6 +212,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           itemActive: "font-semibold bg-[#B4472A]/8 border-[#B4472A]/25 text-[#1B2430]",
           itemHover: "hover:bg-[#1B2430]/5 text-[#1B2430]/60 hover:text-[#1B2430]",
           lineActive: "bg-[#B4472A]",
+          sectionRule: "border-[#B4472A]",
           seeAlsoBorder: "border-[#B4472A]/40",
           progressBg: "bg-[#1B2430]/10",
           progressBar: "bg-[#2F6B4F]",
@@ -229,6 +232,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
           itemActive: "font-semibold bg-[#E4E6EB]/5 border-[#E4E6EB]/10 text-[#E4E6EB]",
           itemHover: "hover:bg-[#E4E6EB]/5 text-[#E4E6EB]/60 hover:text-[#E4E6EB]",
           lineActive: "bg-amber-500",
+          sectionRule: "border-amber-500",
           seeAlsoBorder: "border-amber-500/40",
           progressBg: "bg-[#E4E6EB]/10",
           progressBar: "bg-amber-500",
@@ -459,7 +463,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
           {groupedChapters.map(({ key, section, items }) => (
             <div key={key} className="space-y-2">
-              <h3 className={`text-[10px] font-sans tracking-[0.2em] ${sc.textMuted} font-bold uppercase px-2 mb-1.5 border-l ${sc.lineActive} border-l-2 pl-2`}>
+              <h3 className={`text-[10px] font-sans tracking-[0.2em] ${sc.textMuted} font-bold uppercase px-2 mb-1.5 border-l-2 ${sc.sectionRule} pl-2`}>
                 {section}
               </h3>
               <div className="space-y-1">
@@ -486,7 +490,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                       )}
                       
                       <div className="flex-1 min-w-0 flex items-start gap-1.5">
-                        {item.chapterNumber && item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && (
+                        {item.chapterNumber && item.chapterNumber !== "0" && item.id !== "prologo" && item.id !== "interludio" && !isRomanNumeral(item.chapterNumber) && (
                           <span className="shrink-0 font-display font-medium text-xs leading-normal">{item.chapterNumber}.</span>
                         )}
                         <div className="flex-1 min-w-0 text-left">

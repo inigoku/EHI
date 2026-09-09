@@ -18,11 +18,14 @@ export interface UiStrings {
     part: string;
     of: string;
     interludio: string;
+    intro: string;
+    variation: string;
     story: string;
     prologue: string;
     poem: string;
     glossary: string;
     link: string;
+    chamber: string;
     languageToggleLabel: string;
   };
   sidebar: {
@@ -145,9 +148,11 @@ export interface UiStrings {
     storyOf: (n: string, total: number) => string;
     prologueOf: (total: number) => string;
     jovenOf: (n: string, total: number) => string;
-    poemLinkOf: (n: string) => string;
-    poemFrialdadOf: (n: string) => string;
+    poemLinkOf: (n: number, total: number) => string;
+    poemFrialdadOf: (n: number, total: number) => string;
+    poemCamaraOf: (n: number, total: number) => string;
     poemGlossaryLabel: string;
+    variationOf: (n: string) => string;
     chapterPrefix: (n: string) => string;
     storyPrefix: (n: string) => string;
     partPrefix: (n: string) => string;
@@ -203,11 +208,14 @@ export const uiStrings: Record<Language, UiStrings> = {
       part: "Parte",
       of: "de",
       interludio: "Interludio",
+      intro: "Introducción",
+      variation: "Variación",
       story: "Relato",
       prologue: "Prólogo",
       poem: "Poema",
-      glossary: "Glosario",
+      glossary: "Glosario íntimo",
       link: "Enlace",
+      chamber: "Cámara",
       languageToggleLabel: "Idioma",
     },
     sidebar: {
@@ -349,9 +357,11 @@ export const uiStrings: Record<Language, UiStrings> = {
       storyOf: (n, total) => `Relato ${n} de ${total}`,
       prologueOf: (total) => `Relato Prólogo de ${total}`,
       jovenOf: (n, total) => `Capítulo ${n} de ${total}`,
-      poemLinkOf: (n) => `Poema Enlace ${n} de 8`,
-      poemFrialdadOf: (n) => `Poema Frialdad ${n} de 7`,
-      poemGlossaryLabel: "Glosario",
+      poemLinkOf: (n, total) => `Poema Enlace ${n} de ${total}`,
+      poemFrialdadOf: (n, total) => `Poema Frialdad ${n} de ${total}`,
+      poemCamaraOf: (n, total) => `Poema de Cámara ${n} de ${total}`,
+      poemGlossaryLabel: "Glosario íntimo",
+      variationOf: (n) => `Variación ${n}`,
       chapterPrefix: (n) => `Capítulo ${n}: `,
       storyPrefix: (n) => `Relato ${n}: `,
       partPrefix: (n) => `Parte ${n}: `,
@@ -405,11 +415,14 @@ export const uiStrings: Record<Language, UiStrings> = {
       part: "Part",
       of: "of",
       interludio: "Interlude",
+      intro: "Introduction",
+      variation: "Variation",
       story: "Story",
       prologue: "Prologue",
       poem: "Poem",
-      glossary: "Glossary",
+      glossary: "Intimate glossary",
       link: "Link",
+      chamber: "Chamber",
       languageToggleLabel: "Language",
     },
     sidebar: {
@@ -551,9 +564,11 @@ export const uiStrings: Record<Language, UiStrings> = {
       storyOf: (n, total) => `Story ${n} of ${total}`,
       prologueOf: (total) => `Story Prologue of ${total}`,
       jovenOf: (n, total) => `Chapter ${n} of ${total}`,
-      poemLinkOf: (n) => `Poem Link ${n} of 8`,
-      poemFrialdadOf: (n) => `Coldness Poem ${n} of 7`,
-      poemGlossaryLabel: "Glossary",
+      poemLinkOf: (n, total) => `Poem Link ${n} of ${total}`,
+      poemFrialdadOf: (n, total) => `Coldness Poem ${n} of ${total}`,
+      poemCamaraOf: (n, total) => `Chamber Poem ${n} of ${total}`,
+      poemGlossaryLabel: "Intimate glossary",
+      variationOf: (n) => `Variation ${n}`,
       chapterPrefix: (n) => `Chapter ${n}: `,
       storyPrefix: (n) => `Story ${n}: `,
       partPrefix: (n) => `Part ${n}: `,

@@ -1,7 +1,8 @@
 ---
 title: VECINOS
-subtitle: Poema — Variación de cámara X: La realidad fractal
-section: VARIACIONES DE CÁMARA
+subtitle: Poema
+section: VARIACIÓN X: LA REALIDAD FRACTAL
+chapterNumber: X
 ---
 
 > Nadie ha visto al vecino de arriba.

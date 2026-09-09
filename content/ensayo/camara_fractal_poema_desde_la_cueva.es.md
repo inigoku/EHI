@@ -1,7 +1,8 @@
 ---
 title: DESDE LA CUEVA
-subtitle: Poema — Variación de cámara X: La realidad fractal
-section: VARIACIONES DE CÁMARA
+subtitle: Poema
+section: VARIACIÓN X: LA REALIDAD FRACTAL
+chapterNumber: X
 ---
 
 > Hay un techo.

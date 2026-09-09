@@ -1,7 +1,8 @@
 ---
 title: EL VECINO DE ARRIBA
-subtitle: Epílogo — Variación de cámara X: La realidad fractal
-section: VARIACIONES DE CÁMARA
+subtitle: Epílogo
+section: VARIACIÓN X: LA REALIDAD FRACTAL
+chapterNumber: X
 ---
 
 La mujer que se despertaba antes de que amaneciera, en la primera página del movimiento anterior, no existe. La escribí yo. Elegí que llevara cuarenta años repitiendo las mismas palabras, elegí que no recordara la cara de quien se las enseñó, elegí el frío de las baldosas y la luz que cambiaba fuera sin que eso tuviera nada que ver con lo que ocurría dentro. Y elegí, sobre todo, que no supiera si al otro lado del silencio había Alguien.

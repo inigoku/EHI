@@ -1,5 +1,6 @@
 import React from "react";
-import { Chapter, Illustration, allChapters, cuentosList, jovenList } from "../chapters";
+import { Chapter, Illustration, allChapters, cuentosList, jovenList, isRomanNumeral } from "../chapters";
+import { getPoemPosition } from "../chapters/poemas";
 import { JourneyNav } from "./JourneyNav";
 import { IllustrationViewer } from "./IllustrationViewer";
 import { ChevronLeft, ChevronRight, PenTool, Save, Check, RefreshCw, Compass } from "lucide-react";
@@ -158,7 +159,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   // the footer's "Part N of TOTAL" label — computed instead of hardcoded so
   // it never goes stale as chapters are added, moved, or renumbered.
   const numberedEssayChapterCount = React.useMemo(() => {
-    return allChapters.filter((c) => c.chapterNumber && !isNaN(Number(c.chapterNumber))).length;
+    return allChapters.filter((c) => c.chapterNumber && c.chapterNumber !== "0" && !isNaN(Number(c.chapterNumber))).length;
   }, []);
 
   // Reading progress (0..1) based on window scroll
@@ -1000,7 +1001,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         )}
         <h1 className={`font-display font-semibold text-2xl sm:text-5xl ${theme === "paper" ? "text-[#1A1A1A]" : theme === "sepia" ? "text-[#2C1E11]" : theme === "campo" ? "text-[#1B2430]" : "text-slate-100"} tracking-tight max-w-3xl mx-auto leading-tight`}>
           {readingMode === "essay"
-            ? (chapter.chapterNumber && chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && t.chapterPrefix(chapter.chapterNumber))
+            ? (chapter.chapterNumber && !isNaN(Number(chapter.chapterNumber)) && chapter.chapterNumber !== "0" && chapter.id !== "prologo" && chapter.id !== "interludio" && t.chapterPrefix(chapter.chapterNumber))
             : readingMode === "cuentos"
             ? (chapter.chapterNumber ? t.storyPrefix(chapter.chapterNumber) : "")
             : ""}
@@ -1531,18 +1532,28 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
 
           <span className={`text-[11px] sm:text-xs font-mono ${tc.textMuted}`}>
             {readingMode === "essay"
-              ? t.partOf(chapter.chapterNumber || uiStrings[language].header.interludio, numberedEssayChapterCount)
+              ? (!chapter.chapterNumber || chapter.chapterNumber === "0"
+                  ? (chapter.id === "interludio"
+                      ? uiStrings[language].header.interludio
+                      : chapter.id === "prologo"
+                      ? uiStrings[language].header.prologue
+                      : uiStrings[language].header.intro)
+                  : !isNaN(Number(chapter.chapterNumber))
+                  ? t.partOf(chapter.chapterNumber, numberedEssayChapterCount)
+                  : isRomanNumeral(chapter.chapterNumber)
+                  ? t.variationOf(chapter.chapterNumber)
+                  : chapter.chapterNumber)
               : readingMode === "cuentos"
               ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))
               : readingMode === "joven"
               ? t.jovenOf(chapter.chapterNumber || "1", jovenList.length)
-              : chapter.id === "poema_glosario"
-              ? t.poemGlossaryLabel
-              : chapter.id === "poema_sintonizadores"
-              ? t.poemFrialdadOf("7")
-              : chapter.id.startsWith("poema_arq")
-              ? t.poemLinkOf(chapter.id.replace("poema_arq", ""))
-              : t.poemFrialdadOf(chapter.id.replace("poema_frialdad", ""))}
+              : (() => {
+                  const pos = getPoemPosition(chapter.id);
+                  if (pos.group === "glosario") return t.poemGlossaryLabel;
+                  if (pos.group === "arq") return t.poemLinkOf(pos.n, pos.total);
+                  if (pos.group === "camara") return t.poemCamaraOf(pos.n, pos.total);
+                  return t.poemFrialdadOf(pos.n, pos.total);
+                })()}
           </span>
 
           <button

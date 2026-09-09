@@ -1,7 +1,8 @@
 ---
 title: EL ENTRELAZAMIENTO VERTICAL
-subtitle: Ensayo — Variación de cámara VIII: El diapasón invisible
-section: VARIACIONES DE CÁMARA
+subtitle: Ensayo
+section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
+chapterNumber: VIII
 ---
 
 Hay una palabra que este libro reserva para la resonancia sostenida entre dos horizontes humanos: entrelazamiento. Dos personas que llevan años en contacto quedan acopladas, quieran o no —el amor, en este vocabulario, no es el entrelazamiento en sí, sino el acto de reconocerlo y nombrarlo—. Lo que este movimiento se pregunta es qué ocurre cuando ese mismo mecanismo se orienta en vertical: no hacia otro horizonte, sino hacia algo más allá de la propia frontera, sin canal de confirmación continua, sin manera de verificar en cada instante que la correlación sigue viva.
@@ -21,3 +22,13 @@ Aquí conviene ser honesto sobre lo que este libro puede y no puede decir. La é
 Ninguna de estas cinco respuestas es la técnica. La técnica —el silencio fabricado, la repetición que vacía de peso a la palabra, el diapasón que nadie puede confirmar que sigue sonando— es idéntica en las cinco. Lo que las separa no se nota desde fuera, mirando a alguien arrodillado o sentado o inmóvil en la oscuridad antes del amanecer. Se nota, si se nota, solo desde dentro. Y ni siquiera hay garantía de que se note ahí.
 
 Queda una última pregunta, la más incómoda de todas, y este libro no tiene manera de resolverla: si el entrelazamiento vertical que termina en Alguien se siente, desde dentro de la práctica, distinto del que termina en el reservorio impersonal —o si la quietud es exactamente la misma quietud, y solo la interpretación que se construye después, ya despierto, ya de vuelta en el mundo con nombres y calendarios, decide cuál de las dos cosas acaba de ocurrir.
+
+---
+
+> **Nota a la variación VIII**
+>
+> **Lo que sí sabemos:** La práctica contemplativa —oración, meditación, ritual— es estructuralmente reconocible en toda cultura humana, con o sin marco religioso explícito. La neurociencia contemplativa documenta cambios medibles en meditadores avanzados de tradiciones muy distintas. El *is-ought gap* de Hume sigue sin solución lógica general casi tres siglos después de formulado.
+>
+> **Lo que no sabemos:** Si el entrelazamiento vertical correlaciona con algo externo al propio horizonte, sea personal o impersonal. Si la experiencia subjetiva de la práctica difiere según su destino teológico o es idéntica hasta que se interpreta. Si alguna de las cinco arquitecturas descritas en este libro tiene razón, y qué tipo de evidencia, si existe alguna, podría alguna vez decidirlo.
+>
+> **Lecturas:** Hume, D., *Investigación sobre el entendimiento humano* (1748); Dostoievski, F., *Los hermanos Karamázov* (1880); Endō, S., *Silencio* (1966); Hesse, H., *Siddhartha* (1922); Bergman, I., *El séptimo sello* (1957); Doria Russell, M., *El gorrión* (1996).

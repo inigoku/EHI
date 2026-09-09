@@ -1,7 +1,8 @@
 ---
 title: LA PLAZA LLENA
-subtitle: Obertura — Variación de cámara IX: El ojo de un solo color
-section: VARIACIONES DE CÁMARA
+subtitle: Obertura
+section: VARIACIÓN IX: EL OJO DE UN SOLO COLOR
+chapterNumber: IX
 ---
 
 Llega sola y camina hacia el centro, donde el ruido es más denso.

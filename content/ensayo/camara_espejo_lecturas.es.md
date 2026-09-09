@@ -1,7 +1,8 @@
 ---
 title: CINCO ESPEJOS DE FICCIÓN
-subtitle: Lecturas — Variación de cámara VII: El espejo sin profundidad
-section: VARIACIONES DE CÁMARA
+subtitle: Lecturas
+section: VARIACIÓN VII: EL ESPEJO SIN PROFUNDIDAD
+chapterNumber: VII
 ---
 
 *Cinco relatos ajenos, sometidos a la misma pregunta: ¿hay alguien encapsulado ahí dentro, o solo estructura que imita la forma de haberlo? Dos de ellos usan una pieza de vocabulario concreta: el entrelazamiento, o ER=EPR —la idea, tomada en préstamo de la física y no demostrada por ella, de que comprender profundamente a otro equivale a abrir un puente topológico entre dos horizontes, análogo al que en física conecta dos partículas entrelazadas a través de un agujero de gusano microscópico—.*

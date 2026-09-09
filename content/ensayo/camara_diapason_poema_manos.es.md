@@ -1,7 +1,8 @@
 ---
 title: MANOS
-subtitle: Poema — Variación de cámara VIII: El diapasón invisible
-section: VARIACIONES DE CÁMARA
+subtitle: Poema
+section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
+chapterNumber: VIII
 ---
 
 > Unas se cierran.

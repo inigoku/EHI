@@ -1,7 +1,8 @@
 ---
 title: LOS ÚLTIMOS MINUTOS
-subtitle: Epílogo — Variación de cámara VIII: El diapasón invisible
-section: VARIACIONES DE CÁMARA
+subtitle: Epílogo
+section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
+chapterNumber: VIII
 ---
 
 Las máquinas hacen su ruido de siempre, ese pitido que la familia ya no oye pero que ella, desde dentro, todavía procesa como si fuera la única música que queda.

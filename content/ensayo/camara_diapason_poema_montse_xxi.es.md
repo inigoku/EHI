@@ -1,7 +1,8 @@
 ---
 title: MONTSE XXI
-subtitle: Poema — Variación de cámara VIII: El diapasón invisible
-section: VARIACIONES DE CÁMARA
+subtitle: Poema
+section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
+chapterNumber: VIII
 ---
 
 > La habitación mira hacia un invierno que no termina de llegar.

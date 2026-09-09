@@ -161,6 +161,19 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
           };
           return mapping[num] || "cap9";
         }
+        if (poema.id.startsWith("poema_camara")) {
+          // Poemas de las variaciones de cámara: cuelgan del capítulo del
+          // ensayo principal más afín a cada variación.
+          const mapping: Record<string, string> = {
+            poema_camara_reloj: "cap7", // El tiempo que no pasa → El tiempo del vínculo
+            poema_camara_espejo: "cap18_real", // VII → La conciencia de la IA
+            poema_camara_manos: "cap_religiones_comparadas", // VIII → Cinco mapas del mismo horizonte
+            poema_camara_coro: "cap17_5_real", // IX → religión y fanatismo
+            poema_camara_vecinos: "cap18_7", // X → El postulado de exclusión
+            poema_camara_cueva: "cap23_experimentos_mentales", // X → Cuatro experimentos
+          };
+          return mapping[poema.id] || "cap13";
+        }
         return "cap13"; // poema_glosario (glosa la serie "La arquitectura con un hueco", acuñada en este capítulo)
       })();
 

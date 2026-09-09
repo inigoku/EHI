@@ -1,7 +1,8 @@
 ---
 title: CINCO MANERAS DE DUDAR EN VOZ ALTA
-subtitle: Lecturas — Variación de cámara VIII: El diapasón invisible
-section: VARIACIONES DE CÁMARA
+subtitle: Lecturas
+section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
+chapterNumber: VIII
 ---
 
 Cinco obras ajenas, sometidas a la misma pregunta que el resto de este movimiento: ¿a qué apunta el entrelazamiento vertical cuando la respuesta no llega, o llega de una forma que nadie esperaba?

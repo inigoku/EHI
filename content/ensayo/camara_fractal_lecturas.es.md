@@ -1,7 +1,8 @@
 ---
 title: CINCO MANERAS DE MIRAR HACIA ARRIBA
-subtitle: Lecturas — Variación de cámara X: La realidad fractal
-section: VARIACIONES DE CÁMARA
+subtitle: Lecturas
+section: VARIACIÓN X: LA REALIDAD FRACTAL
+chapterNumber: X
 ---
 
 Cinco obras ajenas, sometidas a la misma pregunta que el resto de este movimiento: ¿qué ve una criatura cuando mira hacia el nivel que la sostiene, y qué le debe un creador a lo que ha condensado?

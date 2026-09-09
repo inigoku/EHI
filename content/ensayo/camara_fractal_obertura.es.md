@@ -1,7 +1,8 @@
 ---
 title: EL DRAGÓN
-subtitle: Obertura — Variación de cámara X: La realidad fractal
-section: VARIACIONES DE CÁMARA
+subtitle: Obertura
+section: VARIACIÓN X: LA REALIDAD FRACTAL
+chapterNumber: X
 ---
 
 Lo imaginó a los ocho años, una noche en que la casa nueva todavía olía a pintura y él no conocía a nadie en la ciudad. No fue una decisión. Estaba mirando la pared del cuarto, donde la farola de la calle dibujaba una mancha alargada, y la mancha tuvo de pronto un lomo, y el lomo tuvo escamas, y las escamas se movieron cuando él respiró. Así de fácil. Así de poco.

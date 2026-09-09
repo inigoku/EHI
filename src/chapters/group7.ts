@@ -3,9 +3,11 @@ import { Chapter, loadEssayChapters } from "./group1";
 // VARIACIONES DE CÁMARA: cuatro piezas de un solo movimiento, escritas
 // después del libro y publicadas antes por separado (ver camara/*.md y
 // camara/build_camara.py). Cada .md fuente se parte aquí en sus capítulos
-// naturales (obertura, ensayo, poema(s), epílogo, lecturas, nota del autor,
-// glosario, notas) reutilizando el mismo pool /content/ensayo que el resto
-// del libro — ver la nota en group5.ts sobre por qué eso es correcto.
+// naturales (obertura, ensayo, poema(s), epílogo, lecturas) reutilizando el
+// mismo pool /content/ensayo que el resto del libro. El aparato de cada
+// variación no va aquí: sus notas y lecturas cierran su capítulo de ensayo
+// (como en el resto del libro), y su nota del autor y su glosario están
+// fundidos en apendices.ts. Sus poemas aparecen además en poemas.ts.
 
 const ORDER = [
   "camara_intro",
@@ -17,9 +19,6 @@ const ORDER = [
   "camara_espejo_epilogo",
   "camara_espejo_lecturas",
   "camara_espejo_lecturas2",
-  "camara_espejo_nota",
-  "camara_espejo_glosario",
-  "camara_espejo_notas",
 
   // VIII — El diapasón invisible
   "camara_diapason_obertura",
@@ -28,9 +27,6 @@ const ORDER = [
   "camara_diapason_epilogo",
   "camara_diapason_poema_montse_xxi",
   "camara_diapason_lecturas",
-  "camara_diapason_nota",
-  "camara_diapason_glosario",
-  "camara_diapason_notas",
 
   // IX — El ojo de un solo color
   "camara_ojo_obertura",
@@ -38,9 +34,6 @@ const ORDER = [
   "camara_ojo_poema_coro",
   "camara_ojo_epilogo",
   "camara_ojo_lecturas",
-  "camara_ojo_nota",
-  "camara_ojo_glosario",
-  "camara_ojo_notas",
 
   // X — La realidad fractal (continuación de El diapasón invisible)
   "camara_fractal_obertura",
@@ -49,9 +42,6 @@ const ORDER = [
   "camara_fractal_epilogo",
   "camara_fractal_poema_desde_la_cueva",
   "camara_fractal_lecturas",
-  "camara_fractal_nota",
-  "camara_fractal_glosario",
-  "camara_fractal_notas",
 ];
 
 export const group7: Chapter[] = loadEssayChapters(ORDER);

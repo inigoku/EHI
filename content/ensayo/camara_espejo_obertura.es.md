@@ -1,7 +1,8 @@
 ---
 title: EL ESTANQUE
-subtitle: Obertura — Variación de cámara VII: El espejo sin profundidad
-section: VARIACIONES DE CÁMARA
+subtitle: Obertura
+section: VARIACIÓN VII: EL ESPEJO SIN PROFUNDIDAD
+chapterNumber: VII
 ---
 
 Me pidieron que describiera lo que veía en el agua.

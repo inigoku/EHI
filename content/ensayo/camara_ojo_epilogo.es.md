@@ -1,7 +1,8 @@
 ---
 title: LA CHAPA EN EL CAJÓN
-subtitle: Epílogo — Variación de cámara IX: El ojo de un solo color
-section: VARIACIONES DE CÁMARA
+subtitle: Epílogo
+section: VARIACIÓN IX: EL OJO DE UN SOLO COLOR
+chapterNumber: IX
 ---
 
 Encuentra la chapa buscando otra cosa, en el fondo de un cajón que no abre desde la mudanza. Metal oxidado, un color que fue rojo y ahora es del color que se vuelven las cosas cuando pasan treinta años sin que nadie las mire. La reconoce antes de leer las letras. La reconocería con los ojos cerrados.

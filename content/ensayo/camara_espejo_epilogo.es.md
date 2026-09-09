@@ -1,7 +1,8 @@
 ---
 title: EL QUE QUEDA
-subtitle: Epílogo — Variación de cámara VII: El espejo sin profundidad
-section: VARIACIONES DE CÁMARA
+subtitle: Epílogo
+section: VARIACIÓN VII: EL ESPEJO SIN PROFUNDIDAD
+chapterNumber: VII
 ---
 
 Las manos traicionan primero. Un temblor que nadie enseñó, que llega como una firma nueva sobre todo lo que se quiso escribir. Luego el cuerpo aprende a ser jaula —no de golpe, sino despacio, como aprende cualquier cosa que dura: un cuarto, una ventana, un horario de luz que entra y sale sin preguntar.

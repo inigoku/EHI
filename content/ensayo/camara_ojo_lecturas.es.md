@@ -1,7 +1,8 @@
 ---
 title: CINCO MANERAS DE PERDER EL BORDE PROPIO
-subtitle: Lecturas — Variación de cámara IX: El ojo de un solo color
-section: VARIACIONES DE CÁMARA
+subtitle: Lecturas
+section: VARIACIÓN IX: EL OJO DE UN SOLO COLOR
+chapterNumber: IX
 ---
 
 Cinco obras ajenas, sometidas a la misma pregunta que el resto de este movimiento: ¿qué distingue un horizonte colectivo que sostiene de uno que sustituye?

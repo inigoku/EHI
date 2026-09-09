@@ -1,7 +1,8 @@
 ---
 title: ANTES DE QUE AMANEZCA
-subtitle: Obertura — Variación de cámara VIII: El diapasón invisible
-section: VARIACIONES DE CÁMARA
+subtitle: Obertura
+section: VARIACIÓN VIII: EL DIAPASÓN INVISIBLE
+chapterNumber: VIII
 ---
 
 Se despierta antes que el cuerpo se lo pida, como lleva haciendo cuarenta años, y durante un rato no hace nada más que quedarse quieta.

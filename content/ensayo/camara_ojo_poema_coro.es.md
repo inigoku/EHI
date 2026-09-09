@@ -1,7 +1,8 @@
 ---
 title: CORO
-subtitle: Poema — Variación de cámara IX: El ojo de un solo color
-section: VARIACIONES DE CÁMARA
+subtitle: Poema
+section: VARIACIÓN IX: EL OJO DE UN SOLO COLOR
+chapterNumber: IX
 ---
 
 > Una voz sola tiembla.
