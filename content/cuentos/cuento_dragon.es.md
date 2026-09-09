@@ -2,6 +2,7 @@
 title: EL DRAGÓN
 chapterNumber: 22
 linkedChapterId: cap_realidad_fractal
+illustrationId: cuento_dragon
 illustrationTitle: El dragón
 illustrationDescription: Un hombre de sesenta años, en pijama, sentado en la cama mirando la pared de su cuarto, donde la luz de una farola dibuja una mancha alargada. En la mancha, apenas insinuado, el lomo de un dragón viejo, del color de las piedras mojadas, con una escama rota en el costado.
 ---

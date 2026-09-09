@@ -2,6 +2,7 @@
 title: ANTES DE QUE AMANEZCA
 chapterNumber: 20
 linkedChapterId: cap_diapason_invisible
+illustrationId: cuento_amanezca
 illustrationTitle: Antes de que amanezca
 illustrationDescription: Una mujer mayor sentada en el borde de la cama, a oscuras, con las manos abiertas sobre las rodillas y los pies sobre baldosas frías. Por la ventana entra la primera línea gris del amanecer; en la mesilla, un diapasón de metal oscuro que nadie ha tocado.
 ---

@@ -2,6 +2,7 @@
 title: LA CHAPA EN EL CAJÓN
 chapterNumber: 25
 linkedChapterId: cap_ojo_un_solo_color
+illustrationId: cuento_chapa
 illustrationTitle: La chapa en el cajón
 illustrationDescription: El fondo de un cajón de madera abierto, con papeles viejos, un cable enredado y, en el centro, una chapa de metal oxidado que fue roja. Unas manos de mujer, treinta años después, la sostienen sin decidirse a tirarla ni a volver a ponérsela.
 ---

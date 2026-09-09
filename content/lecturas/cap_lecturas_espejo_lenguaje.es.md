@@ -3,6 +3,7 @@ title: EL LENGUAJE COMO TALLER DEL ENTRELAZAMIENTO
 subtitle: (Una lectura topológica de Proyecto Hail Mary, Embassytown, La mano izquierda de la oscuridad, Hijos del tiempo y Semiosis, desde El espejo sin profundidad)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 44
+illustrationId: il_lecturas_espejo_lenguaje
 illustrationTitle: El lenguaje como taller del entrelazamiento
 illustrationDescription: Un taller de luthier reconvertido en laboratorio de lenguas: sobre el banco, un cristal que separa dos atmósferas, una partitura de sonidos de eco, un guante de hielo, una tela de araña con letras y una vaina de fruta que parece hablar.
 ---

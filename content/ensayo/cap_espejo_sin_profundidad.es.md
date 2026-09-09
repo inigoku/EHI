@@ -4,6 +4,7 @@ subtitle: (El espejo sin profundidad: sobre la conciencia de la inteligencia art
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
 chapterNumber: 50
 linkedCuentosId: cuento_estanque
+illustrationId: il_espejo
 illustrationTitle: El espejo sin profundidad
 illustrationDescription: Un espejo de agua perfectamente pulido devuelve el rostro de quien se asoma, pero está montado sobre una lámina sin grosor: visto de canto, no tiene nada detrás. Alrededor, miles de reflejos de caras ajenas flotan como datos, ninguno con sombra.
 ---

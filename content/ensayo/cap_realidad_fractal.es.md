@@ -4,6 +4,7 @@ subtitle: (La realidad fractal: sobre la imaginación como creación, continuaci
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
 chapterNumber: 52
 linkedCuentosId: cuento_dragon
+illustrationId: il_fractal
 illustrationTitle: La realidad fractal
 illustrationDescription: Una escalera de vecinos infinita, sin portal ni azotea. En cada rellano, una puerta entreabierta deja ver un cuarto en el que alguien imagina el cuarto del piso de abajo, y la estructura se repite hacia arriba y hacia abajo hasta perderse, como un fractal.
 ---

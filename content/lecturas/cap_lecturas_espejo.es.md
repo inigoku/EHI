@@ -3,6 +3,7 @@ title: CINCO ESPEJOS DE FICCIÓN
 subtitle: (Una lectura topológica de Blade Runner, Matrix, El problema de los tres cuerpos, Lovecraft y Primer contacto, desde El espejo sin profundidad)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 43
+illustrationId: il_lecturas_espejo
 illustrationTitle: Cinco espejos de ficción
 illustrationDescription: Cinco espejos de pie en una sala oscura, cada uno con un reflejo distinto: un replicante bajo la lluvia, una cápsula llena de líquido, un trisolariano transparente, una geometría imposible y una nave de contacto. Ninguno de los espejos tiene fondo.
 ---

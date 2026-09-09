@@ -3,6 +3,7 @@ title: CINCO MANERAS DE PERDER EL BORDE PROPIO
 subtitle: (Una lectura topológica de 1984, El señor de las moscas, El cero y el infinito, La ola y Los desposeídos)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 46
+illustrationId: il_lecturas_ojo
 illustrationTitle: Cinco maneras de perder el borde propio
 illustrationDescription: Cinco escenas de multitud en una sola lámina: una pantalla que vigila, una caracola en una playa, una celda con una ventana estrecha, un aula con brazaletes y una ciudad sin muros. En cada escena, una figura al borde de disolverse en el grupo.
 ---

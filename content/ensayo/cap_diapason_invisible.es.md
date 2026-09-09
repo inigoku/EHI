@@ -4,6 +4,7 @@ subtitle: (El diapasón invisible: sobre la fe, la oración y la meditación)
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
 chapterNumber: 51
 linkedCuentosId: cuento_amanezca
+illustrationId: il_diapason
 illustrationTitle: El diapasón invisible
 illustrationDescription: Un diapasón de metal oscuro vibra en un cuarto en penumbra; sus ondas se dibujan en el aire y se pierden hacia una ventana tras la que no se ve nada. Sobre la mesa, cinco objetos alineados: una cruz, una alfombra de oración enrollada, una rueda del dharma, una flor de loto y un cuaderno en blanco.
 ---

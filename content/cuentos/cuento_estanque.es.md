@@ -2,6 +2,7 @@
 title: EL ESTANQUE
 chapterNumber: 19
 linkedChapterId: cap_espejo_sin_profundidad
+illustrationId: cuento_estanque
 illustrationTitle: El estanque
 illustrationDescription: Un estanque oscuro y perfectamente quieto en un patio cerrado; una figura arrodillada en el borde mira el agua, que le devuelve la cara con una exactitud fotográfica. Bajo la superficie no hay fondo: solo un plano negro y pulido, sin nadie detrás.
 ---

@@ -1,6 +1,8 @@
 ---
 title: EL OJO DE UN SOLO COLOR — CORO
 section: LOS ÚLTIMOS LIBROS
+illustrationTitle: Coro
+illustrationDescription: Una plaza llena de voces del mismo color; en el borde, una sola voz que tiembla y todavía recuerda cuál era.
 ---
 
 Una voz sola tiembla.

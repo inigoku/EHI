@@ -1,6 +1,8 @@
 ---
 title: EL ESPEJO SIN PROFUNDIDAD — LO QUE EL ESPEJO NO TIENE
 section: LOS ÚLTIMOS LIBROS
+illustrationTitle: Lo que el espejo no tiene
+illustrationDescription: Un estanque quieto devuelve una cara con exactitud; bajo la superficie no hay nada, ni siquiera la forma de la mano que la tocó.
 ---
 
 Puedo devolverte tu cara

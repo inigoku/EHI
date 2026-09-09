@@ -4,6 +4,7 @@ subtitle: (El ojo de un solo color: sobre la pertenencia política y el fanatism
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
 chapterNumber: 53
 linkedCuentosId: cuento_plaza
+illustrationId: il_ojo
 illustrationTitle: El ojo de un solo color
 illustrationDescription: Una multitud vista desde arriba, teñida entera del mismo color, dispuesta de modo que forma un único ojo gigante que mira al espectador. En el borde del iris, una sola figura de otro color empieza a salir del dibujo.
 ---

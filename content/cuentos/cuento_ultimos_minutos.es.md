@@ -2,6 +2,7 @@
 title: LOS ÚLTIMOS MINUTOS
 chapterNumber: 21
 linkedChapterId: cap_diapason_invisible
+illustrationId: cuento_ultimos_minutos
 illustrationTitle: Los últimos minutos
 illustrationDescription: Una habitación de hospital en penumbra: una anciana en la cama, con los ojos cerrados y la boca quieta, y una hija que le sostiene la mano. Los monitores dibujan sus líneas verdes; sobre la sábana, la sombra de una ventana. Todo el cuadro es silencio.
 ---

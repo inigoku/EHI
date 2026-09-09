@@ -1,6 +1,8 @@
 ---
 title: LA REALIDAD FRACTAL — VECINOS
 section: LOS ÚLTIMOS LIBROS
+illustrationTitle: Vecinos
+illustrationDescription: Una escalera de vecinos sin portal ni azotea: cada techo es el suelo de alguien, y todos, a la vez, escuchan.
 ---
 
 Nadie ha visto al vecino de arriba.

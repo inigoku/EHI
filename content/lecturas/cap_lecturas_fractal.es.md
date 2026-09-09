@@ -3,6 +3,7 @@ title: CINCO MANERAS DE MIRAR HACIA ARRIBA
 subtitle: (Una lectura topológica de La historia interminable, Las ruinas circulares, Niebla, El mundo de Sofía y Más extraño que la ficción)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 47
+illustrationId: il_lecturas_fractal
 illustrationTitle: Cinco maneras de mirar hacia arriba
 illustrationDescription: Cinco personajes miran hacia arriba desde el interior de su propia página: un niño en un desván, un soñador entre ruinas de un templo, un hombre que sube una escalera hacia su autor, una niña que se asoma al margen de un libro y un hombre que oye una voz narrarle la vida.
 ---

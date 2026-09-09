@@ -1,6 +1,8 @@
 ---
 title: LA REALIDAD FRACTAL — DESDE LA CUEVA
 section: LOS ÚLTIMOS LIBROS
+illustrationTitle: Desde la cueva
+illustrationDescription: El interior de una cueva: un techo de roca que cambia de temperatura sin que haya cambiado el tiempo, y alguien que se queda.
 ---
 
 Hay un techo.

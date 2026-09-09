@@ -3,6 +3,7 @@ title: CINCO MANERAS DE DUDAR EN VOZ ALTA
 subtitle: (Una lectura topológica de El Gran Inquisidor, Silencio, Siddhartha, El séptimo sello y El gorrión)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 45
+illustrationId: il_lecturas_diapason
 illustrationTitle: Cinco maneras de dudar en voz alta
 illustrationDescription: Cinco figuras en fila ante un mismo silencio: un inquisidor con una vela, un misionero pisando una imagen, un barquero junto a un río, un caballero medieval ante un tablero de ajedrez y un jesuita con las manos vendadas. Ninguno recibe respuesta; todos siguen.
 ---

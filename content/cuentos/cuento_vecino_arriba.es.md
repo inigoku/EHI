@@ -2,6 +2,7 @@
 title: EL VECINO DE ARRIBA
 chapterNumber: 23
 linkedChapterId: cap_realidad_fractal
+illustrationId: cuento_vecino_arriba
 illustrationTitle: El vecino de arriba
 illustrationDescription: Un escritor de espaldas, ante una página en la que está dibujado, en miniatura, el cuarto a oscuras de una mujer que reza; sobre la mesa, un diapasón. Encima del escritor, el techo del estudio deja ver, como una lámina transparente, otro cuarto donde alguien más escribe.
 ---

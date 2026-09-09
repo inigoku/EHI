@@ -1,6 +1,8 @@
 ---
 title: EL DIAPASÓN INVISIBLE — MANOS
 section: LOS ÚLTIMOS LIBROS
+illustrationTitle: Manos
+illustrationDescription: Tres pares de manos en la penumbra: unas cerradas, otras abiertas hacia arriba, otras quietas sobre las rodillas, vacías a propósito.
 ---
 
 Unas se cierran.
