@@ -1,5 +1,5 @@
 import React from "react";
-import { Chapter, Illustration, allChapters, cuentosList, jovenList, ilustradaList, isRomanNumeral } from "../chapters";
+import { Chapter, Illustration, allChapters, cuentosList, jovenList, isRomanNumeral } from "../chapters";
 import { getPoemPosition } from "../chapters/poemas";
 import { JourneyNav } from "./JourneyNav";
 import { IllustrationViewer } from "./IllustrationViewer";
@@ -29,8 +29,8 @@ interface ChapterContentProps {
   onTermClick: (termName: string) => void;
   theme: ReadingTheme;
   fontSize: "sm" | "base" | "lg" | "xl" | "2xl";
-  readingMode: "essay" | "cuentos" | "poemas" | "joven" | "ilustrada";
-  onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "joven" | "ilustrada", targetId?: string) => void;
+  readingMode: "essay" | "cuentos" | "poemas" | "joven";
+  onSwitchMode: (mode: "essay" | "cuentos" | "poemas" | "joven", targetId?: string) => void;
   language: Language;
   onOpenConstellation?: () => void;
   onOpenIllustratedOneShot?: () => void;
@@ -979,9 +979,9 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         transition={{ duration: 0.5 }}
         className={`text-center py-6 sm:py-10 border-b ${tc.border} space-y-4`}
       >
-        {(readingMode === "essay" || readingMode === "ilustrada") && displaySection && (
+        {readingMode === "essay" && displaySection && (
           <span className={`text-[10px] sm:text-xs font-sans uppercase tracking-[0.25em] ${tc.accent} font-bold block`}>
-            {readingMode === "ilustrada" ? `${uiStrings[language].header.sectionIlustrada} · ${displaySection}` : displaySection}
+            {displaySection}
           </span>
         )}
         {readingMode === "cuentos" && (
@@ -1547,8 +1547,6 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
               ? (chapter.chapterNumber ? t.storyOf(chapter.chapterNumber, cuentosList.length - 1) : t.prologueOf(cuentosList.length - 1))
               : readingMode === "joven"
               ? t.jovenOf(chapter.chapterNumber || "1", jovenList.length)
-              : readingMode === "ilustrada"
-              ? t.jovenOf(chapter.chapterNumber || "1", ilustradaList.length)
               : (() => {
                   const pos = getPoemPosition(chapter.id);
                   if (pos.group === "glosario") return t.poemGlossaryLabel;

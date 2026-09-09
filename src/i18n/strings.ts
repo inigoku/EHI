@@ -7,7 +7,6 @@ export interface UiStrings {
     cuentos: string;
     poemas: string;
     joven: string;
-    ilustrada: string;
   };
   header: {
     bookTitle: string;
@@ -15,8 +14,6 @@ export interface UiStrings {
     sectionCuentos: string;
     sectionPoemas: string;
     sectionJoven: string;
-    sectionIlustrada: string;
-    chapter: string;
     author: string;
     part: string;
     of: string;
@@ -93,9 +90,6 @@ export interface UiStrings {
     pathJovenTitle: string;
     pathJovenDesc: string;
     pathJovenBtn: string;
-    pathIlustradaTitle: string;
-    pathIlustradaDesc: string;
-    pathIlustradaBtn: string;
     footerTagline: string;
     footerRights: string;
     muteOn: string;
@@ -120,10 +114,6 @@ export interface UiStrings {
     jovenSubtitle: string;
     jovenDescription: string;
     jovenBtn: string;
-    ilustradaTitle: string;
-    ilustradaSubtitle: string;
-    ilustradaDescription: string;
-    ilustradaBtn: string;
   };
   glossaryDrawer: {
     title: string;
@@ -207,7 +197,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       cuentos: "Cuentos",
       poemas: "Poemas",
       joven: "Edición Joven",
-      ilustrada: "Edición Ilustrada",
     },
     header: {
       bookTitle: "El Horizonte Interior",
@@ -215,8 +204,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       sectionCuentos: "Antología de Cuentos",
       sectionPoemas: "Antología Poética",
       sectionJoven: "Edición Joven (13 años)",
-      sectionIlustrada: "Edición Ilustrada",
-      chapter: "Capítulo",
       author: "Autor",
       part: "Parte",
       of: "de",
@@ -283,7 +270,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       card3Title: "3. La Red",
       card3Desc:
         "La conciencia no radica en elementos aislados, sino en la forma en que se conectan. Representa la información integrada (Phi) que hace al sistema más que la suma de sus partes.",
-      pathsTitle: "Cinco Senderos de Exploración",
+      pathsTitle: "Cuatro Senderos de Exploración",
       pathsSubtitle: "La obra está diseñada como una estructura poliédrica. Elige la puerta que resuene con tu curiosidad.",
       pathEssayTitle: "Ensayo Interactivo",
       pathEssayDesc:
@@ -301,10 +288,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       pathJovenDesc:
         "La misma hipótesis, contada para lectores de 13 años: la burbuja, el agujero negro, Txiki, el secreto de la IA y el luthier, en 7 capítulos breves.",
       pathJovenBtn: "Leer la Edición Joven",
-      pathIlustradaTitle: "Edición Ilustrada",
-      pathIlustradaDesc:
-        "El libro condensado en seis movimientos y 61 capítulos, con sus relatos y poemas intercalados y una lámina por capítulo: la misma edición que circula en papel y epub.",
-      pathIlustradaBtn: "Leer la Edición Ilustrada",
       footerTagline: "Una propuesta filosófico-científica sobre la conciencia humana.",
       footerRights: "Todos los derechos reservados.",
       muteOn: "Silenciar música",
@@ -339,11 +322,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       jovenDescription:
         "7 capítulos breves que recorren las mismas ideas centrales del libro —la burbuja, el agujero negro, Txiki, el secreto de la inteligencia artificial y el luthier— con un lenguaje directo, pensado para leerse de un tirón.",
       jovenBtn: "Empezar a Leer",
-      ilustradaTitle: "Edición Ilustrada",
-      ilustradaSubtitle: "El Horizonte Interior en seis movimientos",
-      ilustradaDescription:
-        "La versión condensada del libro tal como se publicó en papel y epub: Obertura, El horizonte, El puente, Las fracturas, la Galería de lecturas topológicas y El cierre, con los cuentos y poemas intercalados donde el ensayo los llama y una ilustración por capítulo.",
-      ilustradaBtn: "Abrir la Edición Ilustrada",
     },
     glossaryDrawer: {
       title: "El Experimento Explicado",
@@ -426,7 +404,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       cuentos: "Stories",
       poemas: "Poems",
       joven: "Young Edition",
-      ilustrada: "Illustrated Edition",
     },
     header: {
       bookTitle: "The Inner Horizon",
@@ -434,8 +411,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       sectionCuentos: "Short Story Anthology",
       sectionPoemas: "Poetry Anthology",
       sectionJoven: "Young Edition (age 13)",
-      sectionIlustrada: "Illustrated Edition",
-      chapter: "Chapter",
       author: "Author",
       part: "Part",
       of: "of",
@@ -502,7 +477,7 @@ export const uiStrings: Record<Language, UiStrings> = {
       card3Title: "3. The Network",
       card3Desc:
         "Consciousness doesn't reside in isolated elements, but in the way they connect. It represents integrated information (Phi), which makes the system more than the sum of its parts.",
-      pathsTitle: "Five Paths of Exploration",
+      pathsTitle: "Four Paths of Exploration",
       pathsSubtitle: "The work is designed as a polyhedral structure. Choose the door that resonates with your curiosity.",
       pathEssayTitle: "Interactive Essay",
       pathEssayDesc:
@@ -520,10 +495,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       pathJovenDesc:
         "The same hypothesis, told for 13-year-old readers: the bubble, the black hole, Txiki, the AI secret, and the luthier, in 7 short chapters.",
       pathJovenBtn: "Read the Young Edition",
-      pathIlustradaTitle: "Illustrated Edition",
-      pathIlustradaDesc:
-        "The book condensed into six movements and 61 chapters, with its stories and poems interleaved and one plate per chapter: the same edition that circulates in print and epub.",
-      pathIlustradaBtn: "Read the Illustrated Edition",
       footerTagline: "A philosophical-scientific proposal about human consciousness.",
       footerRights: "All rights reserved.",
       muteOn: "Mute music",
@@ -558,11 +529,6 @@ export const uiStrings: Record<Language, UiStrings> = {
       jovenDescription:
         "7 short chapters covering the book's core ideas — the bubble, the black hole, Txiki, the AI secret, and the luthier — in plain language, meant to be read in one sitting.",
       jovenBtn: "Start Reading",
-      ilustradaTitle: "Illustrated Edition",
-      ilustradaSubtitle: "The Inner Horizon in six movements",
-      ilustradaDescription:
-        "The condensed version of the book as published in print and epub: Overture, The Horizon, The Bridge, The Fractures, the Gallery of topological readings and The Closing, with the stories and poems interleaved where the essay calls for them and one illustration per chapter.",
-      ilustradaBtn: "Open the Illustrated Edition",
     },
     glossaryDrawer: {
       title: "The Experiment Explained",

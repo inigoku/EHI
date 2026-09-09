@@ -10,7 +10,6 @@ import { apendices } from "./apendices";
 import { cuentosList } from "./cuentos";
 import { poemasList } from "./poemas";
 import { jovenList } from "./joven";
-import { ilustradaList } from "./ilustrada";
 
 // Orden del libro: los arrays de cada archivo ya están en orden de lectura.
 // group7 son las cuatro Variaciones de cámara, tras el epílogo (group6); el
@@ -27,7 +26,7 @@ export const allChapters: Chapter[] = [
   ...apendices
 ];
 
-export { cuentosList, poemasList, lecturasTopologicas, jovenList, ilustradaList };
+export { cuentosList, poemasList, lecturasTopologicas, jovenList };
 
 // Las variaciones de cámara llevan como chapterNumber su numeral romano
 // (VII, VIII, IX, X): no son capítulos numerados ("12") ni etiquetas de
