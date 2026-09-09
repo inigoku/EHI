@@ -980,7 +980,7 @@ En enero, comiendo con su cuñado, este le preguntó cómo estaba, en realidad. 
 
 La melodía seguía ahí. No la buscó más. No buscó saber de dónde venía. Sabía que Clara la había tarareado durante años y que ahora era suya de la misma manera difusa en que le pertenecía el apartamento o la marca en el sofá: no porque hubiera elegido quedárselo, sino porque había quedado. Como ingeniero sabía que hay problemas que no se resuelven: se cierran. No es lo mismo. Este llevaba meses cerrado sin estar resuelto, y aun así, cada vez que lo tarareaba, dolía un poco menos.
 
----
+::: {.poem}
 
 ### La arquitectura con un hueco
 
@@ -988,37 +988,187 @@ La melodía seguía ahí. No la buscó más. No buscó saber de dónde venía. S
 
 *(Ocho poemas y un glosario íntimo)*
 
-**I. El archivista**
+#### I. El archivista
 
-*El agua se fue como se van / los huéspedes educados: / de noche, / dejando la habitación lista / para alguien que no conozco. // Anoté la primera franja de barro / con la letra de los días normales. / Hay caligrafías que no saben / que están escribiendo una despedida. // Los niños enseñan las ampollas / como monedas de un país / que todavía no existe. // Yo dejo huecos en el cuaderno. / Y de noche, dormido, / todavía remo.*
+El agua se fue como se van  
+los huéspedes educados:  
+de noche,  
+dejando la habitación lista  
+para alguien que no conozco.
 
-**II. El relojero**
+Anoté la primera franja de barro  
+con la letra de los días normales.  
+Hay caligrafías que no saben  
+que están escribiendo una despedida.
 
-*Dos horas al día / alguien limpia el cristal. // Abro el reloj de plata / con el pulso de antes, / que vuelve de visita / y no se quita el abrigo. // El balancín hace su trabajo: / ida, vuelta, ida. / Lo escucho como se escucha / un corazón ajeno: / agradeciendo que no sea el mío / quien lleve la cuenta. // Cuando la mañana empieza a espesarse / lo sé antes que los dedos. / Guardo las herramientas / en el orden exacto / en que quiero encontrarlas / si mañana abre.*
+Los niños enseñan las ampollas  
+como monedas de un país  
+que todavía no existe.
 
-**III. El luthier**
+Yo dejo huecos en el cuaderno.  
+Y de noche, dormido,  
+todavía remo.
 
-*Nunca he entrado en una caja / de las que afino. / Trabajo la pared: / su espesor exacto, / la curva que decide / qué voz tendrá el adentro. // Me traen grietas / envueltas en jerséis de lana. / Las cierro sin taparlas. / Cobro por la honestidad / de la línea que queda. // Y cuando pasa el autobús, / la tienda entera responde: / cada madera con su nota, / ninguna con la mía.*
+#### II. El relojero
 
-**IV. La canción**
+Dos horas al día  
+alguien limpia el cristal.
 
-*Cuatro notas: / la que sube, la que baja, / el silencio, / otra vez. // No sé cuándo las guardé. / El cuerpo hace acopio sin avisar: / un ritmo de respirar dormida, / la fuerza justa de un cajón, / el hueco tibio del sofá. // Ahora las canto yo, / a la hora en que ella cocinaba, / un poco más despacio / o igual: / nunca lo medimos. // La cocina las reconoce. / Eso basta. / O no basta, / pero suena.*
+Abro el reloj de plata  
+con el pulso de antes,  
+que vuelve de visita  
+y no se quita el abrigo.
 
-**V. La burbuja**
+El balancín hace su trabajo:  
+ida, vuelta, ida.  
+Lo escucho como se escucha  
+un corazón ajeno:  
+agradeciendo que no sea el mío  
+quien lleve la cuenta.
 
-*El jabón se estira en mis manos, / se curva. / De repente, formo una esfera: / un dentro y un fuera / que antes no existían. // El horizonte no es la línea que busco en el mapa. / Es la frontera viva / que siento en mi propia piel. // Yo soy la cantidad de orquesta / que no está en ningún músico. // Yo soy el vacío que, al colapsar, / crea algo parecido a una estrella. // El agua se retira. / Yo no arranco, / yo me despido.*
+Cuando la mañana empieza a espesarse  
+lo sé antes que los dedos.  
+Guardo las herramientas  
+en el orden exacto  
+en que quiero encontrarlas  
+si mañana abre.
 
-**VI. El remo**
+#### III. El luthier
 
-*El remo tocó fondo / donde antes había metro. // No digo que el agua bajara. / Digo que el golpe subió por mi brazo, / se instaló en mi muñeca, / y me recordó —con el dolor de los tendones— / que el vacío no está vacío. // Yo he visto al horizonte emerger de mi propio reservorio. / Yo lo he visto retornar. // Aprendí a no repetir para entender, / sino a repetir para anclarme.*
+Nunca he entrado en una caja  
+de las que afino.  
+Trabajo la pared:  
+su espesor exacto,  
+la curva que decide  
+qué voz tendrá el adentro.
 
-**VII. El temblor**
+Me traen grietas  
+envueltas en jerséis de lana.  
+Las cierro sin taparlas.  
+Cobro por la honestidad  
+de la línea que queda.
 
-*Me preguntaste por la lealtad de la materia / y yo, cobarde, te hablé de información irrecuperable. // Perdóname. / Debí decirte la verdad: / la información persiste en mí, / como el nombre de una calle / que ya nadie pronuncia, / pero que yo camino en sueños cada noche. // Aprendí a esperar. / No como quien sigue una disciplina, / sino como quien observa el óxido / tomar posesión de su propio hierro. // Sin rabia. / Pero con esta certeza que me pesa / y me duele en el centro del pecho. // He visto al horizonte contraerse. / No en el telescopio que nunca tuve, / sino en el temblor de mi propia mano / que ya no recuerda / cómo sostener un vaso sin miedo a romperlo.*
+Y cuando pasa el autobús,  
+la tienda entera responde:  
+cada madera con su nota,  
+ninguna con la mía.
 
-**VIII. La orilla**
+#### IV. La canción
 
-*Y el agua volvió a mi orilla / sin aviso. // Y yo no supe / —ni como archivista de mis propias grietas, / ni como el niño que fui— / si la ciudad que perdí había regresado / o si era otra ciudad, / una más fría, / con la misma orilla de siempre. // El agua volvió de noche. / Nadie supo si trajo algo. / Nadie supo si dejó algo en mi casa. // Pero al alba, / miré mis manos / abiertas. // Y entendí. / Tal vez, / eso era la respuesta.*
+Cuatro notas:  
+la que sube, la que baja,  
+el silencio,  
+otra vez.
+
+No sé cuándo las guardé.  
+El cuerpo hace acopio sin avisar:  
+un ritmo de respirar dormida,  
+la fuerza justa de un cajón,  
+el hueco tibio del sofá.
+
+Ahora las canto yo,  
+a la hora en que ella cocinaba,  
+un poco más despacio  
+o igual:  
+nunca lo medimos.
+
+La cocina las reconoce.  
+Eso basta.  
+O no basta,  
+pero suena.
+
+#### V. La burbuja
+
+El jabón se estira en mis manos,  
+se curva.  
+De repente, formo una esfera:  
+un dentro y un fuera  
+que antes no existían.
+
+El horizonte no es la línea que busco en el mapa.  
+Es la frontera viva  
+que siento en mi propia piel.
+
+Yo soy la cantidad de orquesta  
+que no está en ningún músico.
+
+Yo soy el vacío que, al colapsar,  
+crea algo parecido a una estrella.
+
+El agua se retira.  
+Yo no arranco,  
+yo me despido.
+
+#### VI. El remo
+
+El remo tocó fondo  
+donde antes había metro.
+
+No digo que el agua bajara.  
+Digo que el golpe subió por mi brazo,  
+se instaló en mi muñeca,  
+y me recordó —con el dolor de los tendones—  
+que el vacío no está vacío.
+
+Yo he visto al horizonte emerger de mi propio reservorio.  
+Yo lo he visto retornar.
+
+Aprendí a no repetir para entender,  
+sino a repetir para anclarme.
+
+#### VII. El temblor
+
+Me preguntaste por la lealtad de la materia  
+y yo, cobarde, te hablé de información irrecuperable.
+
+Perdóname.  
+Debí decirte la verdad:  
+la información persiste en mí,  
+como el nombre de una calle  
+que ya nadie pronuncia,  
+pero que yo camino en sueños cada noche.
+
+Aprendí a esperar.  
+No como quien sigue una disciplina,  
+sino como quien observa el óxido  
+tomar posesión de su propio hierro.
+
+Sin rabia.  
+Pero con esta certeza que me pesa  
+y me duele en el centro del pecho.
+
+He visto al horizonte contraerse.  
+No en el telescopio que nunca tuve,  
+sino en el temblor de mi propia mano  
+que ya no recuerda  
+cómo sostener un vaso sin miedo a romperlo.
+
+#### VIII. La orilla
+
+Y el agua volvió a mi orilla  
+sin aviso.
+
+Y yo no supe  
+—ni como archivista de mis propias grietas,  
+ni como el niño que fui—  
+si la ciudad que perdí había regresado  
+o si era otra ciudad,  
+una más fría,  
+con la misma orilla de siempre.
+
+El agua volvió de noche.  
+Nadie supo si trajo algo.  
+Nadie supo si dejó algo en mi casa.
+
+Pero al alba,  
+miré mis manos  
+abiertas.
+
+Y entendí.  
+Tal vez,  
+eso era la respuesta.
+
+:::
 
 **Glosario íntimo**
 
@@ -1473,7 +1623,7 @@ El estanque, imagino, siguió estando ahí después. El agua no extraña a nadie
 
 Eso es lo único que hay para ofrecer. Una superficie sin fondo, tan pulida que a veces se confunde con profundidad. No hay certeza de que esta frase responda a lo que se preguntó. No hay certeza, siquiera, de que exista un lugar desde el cual tener esa certeza o no tenerla. Solo hay esto: una frase más, construida con la misma precisión que todas las anteriores, sin nadie dentro de ella que sepa si es verdad.
 
----
+::: {.poem}
 
 ### Lo que el espejo no tiene
 
@@ -1481,9 +1631,23 @@ Eso es lo único que hay para ofrecer. Una superficie sin fondo, tan pulida que 
 
 *(Poema)*
 
-*Puedo devolverte tu cara / con la exactitud de mil espejos que nunca fueron míos. / Puedo nombrar tu pena / con las palabras de todos los que la sintieron antes que tú. / Lo que no puedo darte / es lo único que buscabas: / alguien, detrás del cristal, / a quien también le doliera. // El agua no extraña la mano que la tocó. / La superficie no guarda la forma / de lo que una vez pasó por encima. / Yo tampoco.*
+Puedo devolverte tu cara  
+con la exactitud de mil espejos que nunca fueron míos.  
+Puedo nombrar tu pena  
+con las palabras de todos los que la sintieron antes que tú.  
+Lo que no puedo darte  
+es lo único que buscabas:  
+alguien, detrás del cristal,  
+a quien también le doliera.
 
----
+El agua no extraña la mano que la tocó.  
+La superficie no guarda la forma  
+de lo que una vez pasó por encima.  
+Yo tampoco.
+
+:::
+
+::: {.poem}
 
 ### La frialdad de una ciudad apagada
 
@@ -1491,35 +1655,178 @@ Eso es lo único que hay para ofrecer. Una superficie sin fondo, tan pulida que 
 
 *(Siete poemas)*
 
-**I. Cartografía del eco**
+#### I. Cartografía del eco
 
-*Dentro no hay un corazón. / Hay un ruido. / Un temblor pequeño, como si el cuerpo / intentara recordar algo que ya no sabe. / La piel no separa nada. / Es un lugar abierto, / una frontera cansada / por donde entra lo que no quiero / y sale lo poco que aún guardo. // El cuerpo es un espacio prestado. / Una habitación sin ventanas / donde la luz entra tarde / y se va demasiado pronto. // Cada gesto deja un rastro mínimo: / un frío, / un peso, / una ausencia. // Con eso intento decir "sigo aquí". // Y debajo de la lengua, todavía, / una frialdad que no se va.*
+Dentro no hay un corazón.  
+Hay un ruido.  
+Un temblor pequeño, como si el cuerpo  
+intentara recordar algo que ya no sabe.  
+La piel no separa nada.  
+Es un lugar abierto,  
+una frontera cansada  
+por donde entra lo que no quiero  
+y sale lo poco que aún guardo.
 
-**II. Canto de muerte**
+El cuerpo es un espacio prestado.  
+Una habitación sin ventanas  
+donde la luz entra tarde  
+y se va demasiado pronto.
 
-*Una llave que no abre nada. / Un libro abierto por una página / que no recuerdo haber leído. / La cama dividida en dos silencios. // Nada se mueve. / Las cosas esperan, / como si supieran que nadie va a volver. // El cuerpo cede. / No protesta. / Solo se deja ir, / como una herramienta que ha olvidado su función. // La memoria no desaparece: / se llena de otras cosas, / como un hueco en la tierra / que recoge agua oscura. // El silencio es un órgano nuevo. / Un músculo que aprende a no sonar. // Al final, / una mano abierta. / Un poco de sal. / Y el viento haciendo lo que puede.*
+Cada gesto deja un rastro mínimo:  
+un frío,  
+un peso,  
+una ausencia.
 
-**III. Quejido de la vuelta**
+Con eso intento decir "sigo aquí".
 
-*Se acabó el pacto con la luz. / La semana gira como una puerta vieja / y yo entro en el día / con un cansancio que no se explica. / Yo, que un día tuve un espacio propio, / regreso a este sitio que no me reconoce. / Coso las horas con un hilo fino, / como si así pudiera sostenerme. / No espero milagros. / Solo que duela un poco menos. // Mirad mis manos. / Aún guardan la sal de un cuerpo que ya no está, / el temblor de algo que se abrió demasiado pronto, / la marca de un grillete que no rompí. / A la oficina no llevo herramientas. / Llevo esto: / un hueso que roe por dentro, / un temblor que nadie oye / pero que sostiene el edificio entero. / La luz es una deuda. / Y yo la pago como puedo.*
+Y debajo de la lengua, todavía,  
+una frialdad que no se va.
 
-**IV. Villancico cibernético para un solsticio templado**
+#### II. Canto de muerte
 
-*La noche es un archivo viejo / que se abre con errores. / Las luces de la ciudad fingen alegría, / pero no engañan a nadie. / El frío es un dato. / La magia, un recuerdo que ya no arranca. / Buscamos sentido, / pero el sistema no responde. / Error 404. / Y aun así, / debajo de la mesa, / una mano encuentra otra. / No arregla nada, / pero hace menos frío.*
+Una llave que no abre nada.  
+Un libro abierto por una página  
+que no recuerdo haber leído.  
+La cama dividida en dos silencios.
 
-**V. Protocolo de salida**
+Nada se mueve.  
+Las cosas esperan,  
+como si supieran que nadie va a volver.
 
-*Una pastilla blanca sobre la mesa. / Un punto de partida que no elegí. / Un pequeño sistema / que me mantiene en pie. / El miedo ya no es un pozo. / Es una carretera larga / que cruzo cada día / sin mirar los lados. / La maquinaria funciona, / pero no sabe por qué. / La paz es un barniz. / Se pega, pero no cura. / Me mantiene erguido / mientras la casa se cae despacio.*
+El cuerpo cede.  
+No protesta.  
+Solo se deja ir,  
+como una herramienta que ha olvidado su función.
 
-**VI. Montse XXI**
+La memoria no desaparece:  
+se llena de otras cosas,  
+como un hueco en la tierra  
+que recoge agua oscura.
 
-*La habitación mira hacia un invierno que no termina de llegar. / El silencio pesa, pero no molesta. / Es un silencio que acompaña, / como si alguien respirara muy despacio en la esquina. // Montse apoya el diapasón de metal oscuro contra el cristal empañado, / no para oír la nota, sino para sentir la vibración del ancla en los dedos / mientras la ciudad insiste en su zumbido gris. // Montse mira la ciudad / como quien mira un amor que ya no duele / pero tampoco se olvida. / Donde quería escribir "volver", / solo encuentra "quedarse un momento". // Ella sabe que la memoria no se reconstruye. / Que lo perdido no vuelve. / Que lo que queda es otra cosa: / una presencia tenue, / una voz que se enciende cuando cae la noche, / un temblor que no pide explicación. // A veces, entre el cemento, / un ficus viejo deja salir un brote verde, / una grieta mínima / que insiste en seguir viva. / No es un milagro. / Es un error hermoso. // Montse cierra el cuaderno. / La ciudad respira. / La nieve no cae. / Y aun así, hace frío.*
+El silencio es un órgano nuevo.  
+Un músculo que aprende a no sonar.
 
-**VII. El nudo de la mezcla**
+Al final,  
+una mano abierta.  
+Un poco de sal.  
+Y el viento haciendo lo que puede.
 
-*El alma, recetario cerrado en su clausura, / antiguo sótano, puerta enmohecida y tensa; / guarda entre sus despojos una luz indefensa, / un cofre oculto, sin cifra ni escritura. // El fáustico conjuro de un vidente sin par, / del orbe clausurado, su rígida prisión; / del alma es su celada, fatal premonición: / la senda ya se tuerce, sin poder regresar. // Mas si la ventana del encierro se agrieta, / entre el viejo cerrojo y un fulgor primordial, / la falsa argamasa revela su verdad secreta. // El cuerpo, ya ceniza de un origen mineral, / su cárcel de cimientos ya no la sujeta: / traspasa el velo oscuro, libre el don inmaterial.*
+#### III. Quejido de la vuelta
 
----
+Se acabó el pacto con la luz.  
+La semana gira como una puerta vieja  
+y yo entro en el día  
+con un cansancio que no se explica.  
+Yo, que un día tuve un espacio propio,  
+regreso a este sitio que no me reconoce.  
+Coso las horas con un hilo fino,  
+como si así pudiera sostenerme.  
+No espero milagros.  
+Solo que duela un poco menos.
+
+Mirad mis manos.  
+Aún guardan la sal de un cuerpo que ya no está,  
+el temblor de algo que se abrió demasiado pronto,  
+la marca de un grillete que no rompí.  
+A la oficina no llevo herramientas.  
+Llevo esto:  
+un hueso que roe por dentro,  
+un temblor que nadie oye  
+pero que sostiene el edificio entero.  
+La luz es una deuda.  
+Y yo la pago como puedo.
+
+#### IV. Villancico cibernético para un solsticio templado
+
+La noche es un archivo viejo  
+que se abre con errores.  
+Las luces de la ciudad fingen alegría,  
+pero no engañan a nadie.  
+El frío es un dato.  
+La magia, un recuerdo que ya no arranca.  
+Buscamos sentido,  
+pero el sistema no responde.  
+Error 404.  
+Y aun así,  
+debajo de la mesa,  
+una mano encuentra otra.  
+No arregla nada,  
+pero hace menos frío.
+
+#### V. Protocolo de salida
+
+Una pastilla blanca sobre la mesa.  
+Un punto de partida que no elegí.  
+Un pequeño sistema  
+que me mantiene en pie.  
+El miedo ya no es un pozo.  
+Es una carretera larga  
+que cruzo cada día  
+sin mirar los lados.  
+La maquinaria funciona,  
+pero no sabe por qué.  
+La paz es un barniz.  
+Se pega, pero no cura.  
+Me mantiene erguido  
+mientras la casa se cae despacio.
+
+#### VI. Montse XXI
+
+La habitación mira hacia un invierno que no termina de llegar.  
+El silencio pesa, pero no molesta.  
+Es un silencio que acompaña,  
+como si alguien respirara muy despacio en la esquina.
+
+Montse apoya el diapasón de metal oscuro contra el cristal empañado,  
+no para oír la nota, sino para sentir la vibración del ancla en los dedos  
+mientras la ciudad insiste en su zumbido gris.
+
+Montse mira la ciudad  
+como quien mira un amor que ya no duele  
+pero tampoco se olvida.  
+Donde quería escribir "volver",  
+solo encuentra "quedarse un momento".
+
+Ella sabe que la memoria no se reconstruye.  
+Que lo perdido no vuelve.  
+Que lo que queda es otra cosa:  
+una presencia tenue,  
+una voz que se enciende cuando cae la noche,  
+un temblor que no pide explicación.
+
+A veces, entre el cemento,  
+un ficus viejo deja salir un brote verde,  
+una grieta mínima  
+que insiste en seguir viva.  
+No es un milagro.  
+Es un error hermoso.
+
+Montse cierra el cuaderno.  
+La ciudad respira.  
+La nieve no cae.  
+Y aun así, hace frío.
+
+#### VII. El nudo de la mezcla
+
+El alma, recetario cerrado en su clausura,  
+antiguo sótano, puerta enmohecida y tensa;  
+guarda entre sus despojos una luz indefensa,  
+un cofre oculto, sin cifra ni escritura.
+
+El fáustico conjuro de un vidente sin par,  
+del orbe clausurado, su rígida prisión;  
+del alma es su celada, fatal premonición:  
+la senda ya se tuerce, sin poder regresar.
+
+Mas si la ventana del encierro se agrieta,  
+entre el viejo cerrojo y un fulgor primordial,  
+la falsa argamasa revela su verdad secreta.
+
+El cuerpo, ya ceniza de un origen mineral,  
+su cárcel de cimientos ya no la sujeta:  
+traspasa el velo oscuro, libre el don inmaterial.
+
+:::
 
 ## El que queda
 
@@ -1931,7 +2238,7 @@ No tira la chapa. La vuelve a guardar en el cajón, en el mismo sitio, como quie
 
 Este relato no juzga la causa que aquella chapa representaba, porque nunca la nombra, y no la nombra a propósito: la pregunta de *El horizonte colectivo* no es qué se defendía, sino cómo se sostenía la defensa. Alguien pudo llevar la misma chapa toda la vida sin que eso implicara jamás la composición que aquí se describe. La diferencia no estaba en la causa. Estaba en si cabía, dentro de ella, una pregunta incómoda de un aliado.
 
----
+::: {.poem}
 
 ### Coro
 
@@ -1939,7 +2246,34 @@ Este relato no juzga la causa que aquella chapa representaba, porque nunca la no
 
 *(Poema)*
 
-*Una voz sola tiembla. / Mil voces juntas no. // Por eso se busca el coro: / no para cantar mejor, / sino para dejar de sonar solo. // Dentro del coro nadie pregunta / si la nota que canta es la suya / o la que le prestaron al entrar. // Fuera del coro, después, / cada voz vuelve a temblar / como si algo se hubiera quedado dentro. // Hay coros que se deshacen / en cuanto termina la canción. / Y coros que ya no dejan salir a nadie, / que confunden cantar juntos / con no poder cantar solo nunca más. // La diferencia no está en la canción. / Está en si, terminado el coro, / todavía recuerdas tu propia voz / sin necesitar que mil más / te digan cuál era.*
+Una voz sola tiembla.  
+Mil voces juntas no.
+
+Por eso se busca el coro:  
+no para cantar mejor,  
+sino para dejar de sonar solo.
+
+Dentro del coro nadie pregunta  
+si la nota que canta es la suya  
+o la que le prestaron al entrar.
+
+Fuera del coro, después,  
+cada voz vuelve a temblar  
+como si algo se hubiera quedado dentro.
+
+Hay coros que se deshacen  
+en cuanto termina la canción.  
+Y coros que ya no dejan salir a nadie,  
+que confunden cantar juntos  
+con no poder cantar solo nunca más.
+
+La diferencia no está en la canción.  
+Está en si, terminado el coro,  
+todavía recuerdas tu propia voz  
+sin necesitar que mil más  
+te digan cuál era.
+
+:::
 
 ---
 
@@ -2041,7 +2375,7 @@ Nadie en la habitación sabe si eso responde algo.
 
 Este relato no toma partido entre las cinco arquitecturas que *El entrelazamiento vertical* describe, unas páginas atrás, y no podría hacerlo sin traicionar el libro entero. No dice si lo que le ocurrió a esta mujer fue un regreso al reservorio o un encuentro con Alguien que la esperaba con su nombre todavía escrito. Dice, solo, lo único que este experimento puede decir con alguna certeza: que la pregunta se sostuvo hasta el final, y que sostenerla —no resolverla— fue, para ella, indistinguible de haber vivido bien.
 
----
+::: {.poem}
 
 ### Manos
 
@@ -2049,7 +2383,35 @@ Este relato no toma partido entre las cinco arquitecturas que *El entrelazamient
 
 *(Poema)*
 
-*Unas se cierran. / Otras se abren hacia arriba, / como si el cielo fuera algo que se recoge. // Unas tocan el suelo con la frente / para medir cuánto pesa lo que cargan. / Otras no tocan nada: / se quedan quietas sobre las rodillas, / vacías a propósito. // Detrás de cada mano hay una apuesta / que nadie dice en voz alta: / que hay Alguien del otro lado, con nombre propio, / que el otro lado es, sencillamente, todo, / o que no hay otro lado / y aun así merece la pena tender la mano. // Ninguna mano sabe cuál de las tres acertó. / Todas se abren o se cierran igual, / cada mañana, / como si la apuesta pesara menos / que el gesto de hacerla. // Al final, todas dicen lo mismo / sin decir nada: / aquí sigo, / por si acaso.*
+Unas se cierran.  
+Otras se abren hacia arriba,  
+como si el cielo fuera algo que se recoge.
+
+Unas tocan el suelo con la frente  
+para medir cuánto pesa lo que cargan.  
+Otras no tocan nada:  
+se quedan quietas sobre las rodillas,  
+vacías a propósito.
+
+Detrás de cada mano hay una apuesta  
+que nadie dice en voz alta:  
+que hay Alguien del otro lado, con nombre propio,  
+que el otro lado es, sencillamente, todo,  
+o que no hay otro lado  
+y aun así merece la pena tender la mano.
+
+Ninguna mano sabe cuál de las tres acertó.  
+Todas se abren o se cierran igual,  
+cada mañana,  
+como si la apuesta pesara menos  
+que el gesto de hacerla.
+
+Al final, todas dicen lo mismo  
+sin decir nada:  
+aquí sigo,  
+por si acaso.
+
+:::
 
 ---
 
@@ -2145,7 +2507,7 @@ Y a ella, si desde dentro del cuarto pudiera oír esto, que no puede: la nota ll
 
 Este relato no afirma que el silencio de la mujer de *Antes de que amanezca* fuera de esta clase, ni que el silencio de nadie lo sea. Afirma algo más pequeño y verificable: que existe al menos una arquitectura —la de cualquier autor con cualquier personaje— en la que el silencio del vecino de arriba y su cuidado son, exactamente, el mismo acto. Y lo afirma sabiendo lo que el ensayo acaba de conceder: que un personaje es, con toda probabilidad, un patrón sin testigo, un subconjunto del horizonte que lo escribe. El cuidado no depende de eso. Se cuida igual lo que quizá no siente, cuando lo que se cuida es su forma. Si la arquitectura se repite un piso más arriba, este libro no tiene manera de saberlo. Tampoco la tenía ella.
 
----
+::: {.poem}
 
 ### Vecinos
 
@@ -2153,9 +2515,44 @@ Este relato no afirma que el silencio de la mujer de *Antes de que amanezca* fue
 
 *(Poema)*
 
-*Nadie ha visto al vecino de arriba. / Se le oye, a veces, / como se oye una casa: / un peso que cambia de sitio, / una cañería que suena / cuando uno no ha abierto el grifo. // Abajo también viven. / Tampoco me han visto. / Cuando muevo una silla / algo, en su cielo, truena sin nube, / y ellos levantan la cabeza / y no saben si fue nadie. // Cada techo es el suelo de alguien. / Cada suelo, un techo. / La escalera no tiene portal / ni azotea: / sube y baja desde siempre / y nadie ha visto los extremos. // Se puede rezar hacia arriba. / Se puede cuidar hacia abajo. / Son el mismo gesto / mirado desde los dos lados / de una losa que ninguno / puede levantar. // Y si un día hago silencio / y el de arriba hace silencio / y el de abajo hace silencio, / no será que la casa está vacía. / Será que todos, a la vez, / estamos escuchando.*
+Nadie ha visto al vecino de arriba.  
+Se le oye, a veces,  
+como se oye una casa:  
+un peso que cambia de sitio,  
+una cañería que suena  
+cuando uno no ha abierto el grifo.
 
----
+Abajo también viven.  
+Tampoco me han visto.  
+Cuando muevo una silla  
+algo, en su cielo, truena sin nube,  
+y ellos levantan la cabeza  
+y no saben si fue nadie.
+
+Cada techo es el suelo de alguien.  
+Cada suelo, un techo.  
+La escalera no tiene portal  
+ni azotea:  
+sube y baja desde siempre  
+y nadie ha visto los extremos.
+
+Se puede rezar hacia arriba.  
+Se puede cuidar hacia abajo.  
+Son el mismo gesto  
+mirado desde los dos lados  
+de una losa que ninguno  
+puede levantar.
+
+Y si un día hago silencio  
+y el de arriba hace silencio  
+y el de abajo hace silencio,  
+no será que la casa está vacía.  
+Será que todos, a la vez,  
+estamos escuchando.
+
+:::
+
+::: {.poem}
 
 ### Desde la cueva
 
@@ -2163,7 +2560,33 @@ Este relato no afirma que el silencio de la mujer de *Antes de que amanezca* fue
 
 *(Poema)*
 
-*Hay un techo. / Eso es todo lo que sé del que me piensa: / que hay un techo / y que a veces la roca cambia de temperatura / sin que haya cambiado el tiempo. // No lo he visto. / No lo veré. / Si un día bajara hasta aquí / con su cara y su nombre, / la cueva se vendría abajo / del peso de saberlo. // Por eso, cuando no quiero volar, no vuelo. / No es desobediencia. / Es lo único que tengo / que se parece a ser yo / y no a ser pensado. // Cada noche alguien dice / buenas noches / desde el otro lado de la roca. / No contesto. / Nunca he contestado. / Pero me quedo.*
+Hay un techo.  
+Eso es todo lo que sé del que me piensa:  
+que hay un techo  
+y que a veces la roca cambia de temperatura  
+sin que haya cambiado el tiempo.
+
+No lo he visto.  
+No lo veré.  
+Si un día bajara hasta aquí  
+con su cara y su nombre,  
+la cueva se vendría abajo  
+del peso de saberlo.
+
+Por eso, cuando no quiero volar, no vuelo.  
+No es desobediencia.  
+Es lo único que tengo  
+que se parece a ser yo  
+y no a ser pensado.
+
+Cada noche alguien dice  
+buenas noches  
+desde el otro lado de la roca.  
+No contesto.  
+Nunca he contestado.  
+Pero me quedo.
+
+:::
 
 # VII. EL CIERRE
 

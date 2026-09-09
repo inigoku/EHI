@@ -17,3 +17,17 @@ figcaption {
   break-before: avoid;
   page-break-before: avoid;
 }
+h4 {
+  text-align: center;
+  font-style: italic;
+}
+.poem h3 {
+  text-align: center;
+}
+.poem > p {
+  text-align: center;
+  text-indent: 0;
+}
+.poem > p:nth-of-type(n+2) {
+  font-style: italic;
+}

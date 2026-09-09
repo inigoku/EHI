@@ -50,9 +50,31 @@ h3 {
   color: #3a3a3a;
   page-break-after: avoid;
 }
-h4 { font-size: 10.5pt; font-weight: bold; page-break-after: avoid; }
+h4 {
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: #14213d;
+  margin-top: 3cm;
+  margin-bottom: 0.8cm;
+  page-break-before: always;
+  break-before: page;
+  page-break-after: avoid;
+}
 p { margin: 0 0 0.32em 0; text-indent: 1.1em; }
 h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p { text-indent: 0; }
+/* Poems: centered verse, one poem per page */
+.poem {
+  page-break-before: always;
+  break-before: page;
+}
+.poem h3 { text-align: center; }
+.poem > p { text-align: center; text-indent: 0; }
+.poem > p:nth-of-type(n+2) {
+  font-style: italic;
+  margin: 0 0 0.9em 0;
+}
 blockquote {
   font-style: italic;
   margin: 0.5em 1.4em;
