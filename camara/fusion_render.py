@@ -2,8 +2,10 @@
 Edición de cámara integral.
 
 Trabaja sobre listas de FBlock (build_fusion.FBlock): kind "heading" con
-level 1/2/3, o kind "para" con líneas (una sola línea = párrafo normal que
-se envuelve; varias líneas = verso, se preservan los saltos). Reutiliza
+level 1/2/3, kind "para" con líneas (una sola línea = párrafo normal que
+se envuelve; varias líneas = verso, se preservan los saltos), o kind
+"image" con una sola línea: la ruta absoluta a un archivo de imagen
+(usado por la Edición Joven para insertar sus páginas de manga). Reutiliza
 split_emphasis de build_camara.py para *cursiva* y **negrita** en línea.
 
 Los encabezados de nivel 1 (movimientos / partes) alimentan un índice real
@@ -163,6 +165,11 @@ def build_docx(header, blocks, out_path: Path):
                 doc.add_page_break()
             st = HEADING_STYLE[b.level]
             add(b.lines[0], style_name=WORD_STYLE[b.level], **st)
+        elif b.kind == "image":
+            doc.add_page_break()
+            p = doc.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.add_run().add_picture(b.lines[0], height=Cm(21))
         elif len(b.lines) > 1:
             add_verse(b.lines)
         else:
@@ -209,9 +216,25 @@ def build_epub(header, blocks, out_path: Path):
             ".v0{margin-left:0}.v1{margin-left:1.3em}.v2{margin-left:2.6em}"
             ".v3{margin-left:3.9em}.v4{margin-left:5.2em}.v5{margin-left:6.5em}"
             ".v6{margin-left:7.8em}"
+            ".manga-page{text-align:center;margin:1.5em 0;page-break-before:always;}"
+            ".manga-page img{max-width:100%;height:auto;}"
         ),
     )
     book.add_item(css)
+
+    IMAGE_MEDIA_TYPES = {
+        ".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png",
+    }
+
+    def add_image_item(path: Path):
+        name = Path(path).name
+        item = epub.EpubItem(
+            uid=f"img-{name}", file_name=f"images/{name}",
+            media_type=IMAGE_MEDIA_TYPES.get(Path(path).suffix.lower(), "image/jpeg"),
+            content=Path(path).read_bytes(),
+        )
+        book.add_item(item)
+        return f"images/{name}"
 
     def inline_html(text: str) -> str:
         out = []
@@ -251,6 +274,9 @@ def build_epub(header, blocks, out_path: Path):
             else:
                 tag = f"h{b.level}"
                 html_parts.append(f"<{tag}>{esc_html(b.lines[0])}</{tag}>")
+        elif b.kind == "image":
+            href = add_image_item(b.lines[0])
+            html_parts.append(f'<div class="manga-page"><img src="{href}" alt=""/></div>')
         elif len(b.lines) > 1:
             html_parts.append('<div class="verse">')
             for raw in b.lines:
@@ -284,9 +310,10 @@ def build_pdf(header, blocks, out_path: Path):
     from reportlab.pdfbase import pdfmetrics
     from reportlab.pdfbase.ttfonts import TTFont
     from reportlab.platypus import (
-        SimpleDocTemplate, Paragraph, Spacer, PageBreak, HRFlowable,
+        SimpleDocTemplate, Paragraph, Spacer, PageBreak, HRFlowable, Image,
     )
     from reportlab.platypus.tableofcontents import TableOfContents
+    from reportlab.lib.utils import ImageReader
 
     FONT_DIR = Path("/usr/share/fonts/truetype/liberation")
     try:
@@ -362,6 +389,11 @@ def build_pdf(header, blocks, out_path: Path):
         story.append(toc)
         story.append(PageBreak())
 
+    # Resta también el padding por defecto del Frame de reportlab (6pt por
+    # lado) para que la imagen a tamaño máximo no desborde la página.
+    avail_w = LETTER[0] - 2 * 2.8 * cm - 12
+    avail_h = LETTER[1] - 2 * 2.5 * cm - 12
+
     h1_seen = 0
     for b in blocks:
         if b.kind == "heading":
@@ -376,6 +408,13 @@ def build_pdf(header, blocks, out_path: Path):
                 story.append(Paragraph(render(b.lines[0]), h2))
             else:
                 story.append(Paragraph(render(b.lines[0]), h3))
+        elif b.kind == "image":
+            story.append(PageBreak())
+            iw, ih = ImageReader(b.lines[0]).getSize()
+            scale = min(avail_w / iw, avail_h / ih)
+            img = Image(b.lines[0], width=iw * scale, height=ih * scale)
+            img.hAlign = "CENTER"
+            story.append(img)
         elif len(b.lines) > 1:
             n = len(b.lines)
             for i, raw in enumerate(b.lines):

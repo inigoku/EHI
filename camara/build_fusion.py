@@ -1,17 +1,20 @@
 #!/usr/bin/env python3
-"""Ensambla la 'Edición de cámara integral': el manuscrito completo (ensayo)
-con los movimientos VII (IA), VIII (religión) y IX (política) insertados
-entre el movimiento VI y el aparato final (Nota del autor / Glosario íntimo /
-Notas y fuentes / CODA), que se extienden para cubrir los tres movimientos
-nuevos.
+"""Ensambla la 'Edición de cámara integral': el manuscrito completo (ensayo),
+la Edición Joven (manga) y los cuatro movimientos añadidos —VII (IA), VIII
+(fe), IX (política), X (la imaginación como creación)— insertados entre el
+movimiento VI y el aparato final (Nota del autor / Glosario íntimo / Notas
+y fuentes / CODA), que se extienden para cubrir las piezas nuevas.
 
 Fuente de datos:
   - EHI_manuscrito.md: fuente propia del manuscrito, con encabezados "#"/
     "##"/"###" explícitos (tres niveles: movimiento / Ensayo-Ficción / sub-
     viñeta numerada o título de poema).
   - EHI_espejo_sin_profundidad.md, EHI_el_diapason_invisible.md,
-    EHI_el_ojo_de_un_solo_color.md: fuentes ya existentes, parseadas con
-    build_camara.parse().
+    EHI_el_ojo_de_un_solo_color.md, EHI_la_realidad_fractal.md: fuentes ya
+    existentes, parseadas con build_camara.parse().
+  - ../src/assets/images/manga/*.jpg: las quince páginas de la Edición
+    Joven (portada + 14 páginas), insertadas como imágenes de página
+    completa entre el CODA y los cuatro movimientos.
 
 Salida: EHI_edicion_integral.docx / .epub / .pdf
 """
@@ -22,13 +25,15 @@ from pathlib import Path
 
 import build_camara as bc
 
+MANGA_DIR = Path(__file__).resolve().parent.parent / "src" / "assets" / "images" / "manga"
+
 
 class FBlock:
     __slots__ = ("kind", "level", "lines")
 
     def __init__(self, kind, level, lines):
-        self.kind = kind  # "heading" | "para"
-        self.level = level  # 1, 2, 3 for heading; None for para
+        self.kind = kind  # "heading" | "para" | "image"
+        self.level = level  # 1, 2, 3 for heading; None otherwise
         self.lines = lines
 
 
@@ -100,6 +105,26 @@ main_body = manuscrito_slice("OBERTURA — La costumbre del agua", "Nota del aut
 espejo_fb = piece_fblocks("EHI_espejo_sin_profundidad.md", "VII — El espejo sin profundidad")
 diapason_fb = piece_fblocks("EHI_el_diapason_invisible.md", "VIII — El diapasón invisible")
 ojo_fb = piece_fblocks("EHI_el_ojo_de_un_solo_color.md", "IX — El ojo de un solo color")
+fractal_fb = piece_fblocks("EHI_la_realidad_fractal.md", "X — La realidad fractal")
+
+# --- Edición Joven: portada + catorce páginas de manga, en orden de lectura ---
+MANGA_ORDER = [
+    "manga_portada",
+    "manga_cap1_p1", "manga_cap1_p2",
+    "manga_cap2_p3", "manga_cap2_p4",
+    "manga_cap3_p5", "manga_cap3_p6",
+    "manga_cap4_p7", "manga_cap4_p8",
+    "manga_cap5_p9", "manga_cap5_p10",
+    "manga_cap6_p11", "manga_cap6_p12",
+    "manga_cap7_p13", "manga_cap7_p14",
+]
+joven_fb = [
+    FBlock("heading", 1, ["EDICIÓN JOVEN"]),
+    FBlock("para", None, [
+        "La misma hipótesis contada a los trece años: Gerard, la Librería del Horizonte, "
+        "Txiki y AI-RA. Aquí en su versión manga, página a página."
+    ]),
+] + [FBlock("image", None, [str(MANGA_DIR / f"{name}.jpg")]) for name in MANGA_ORDER]
 
 # --- Nota del autor, Glosario íntimo y Notas y fuentes: tal cual, sin tocar ---
 _nota_all = manuscrito_slice("Nota del autor", "Glosario íntimo")
@@ -107,34 +132,37 @@ _glosario_all = manuscrito_slice("Glosario íntimo", "Notas y fuentes, capítulo
 _notas_all = manuscrito_slice("Notas y fuentes, capítulo a capítulo", "CODA — Txiki")
 coda = manuscrito_slice("CODA — Txiki", None)
 
-# --- Puente después de Txiki, antes de los tres movimientos añadidos ---
+# --- Puente después de Txiki, antes de la Edición Joven y los movimientos añadidos ---
 bridge = FBlock("para", None, [
-    "Aquí termina el libro tal como se publicó primero. Lo que sigue son tres movimientos "
-    "añadidos después, que llevan la misma pregunta —qué sostiene a un horizonte cuando no "
-    "puede confirmar lo que sostiene— hacia tres territorios que el libro, hasta Txiki, "
-    "había rozado sin detenerse: una inteligencia que no tiene detrás; una fe que no puede "
-    "probarse; una multitud que promete no dejarte solo."
+    "Aquí termina el libro tal como se publicó primero. Lo que sigue es, primero, la "
+    "Edición Joven —la misma hipótesis contada a los trece años, en su versión manga— y "
+    "después cuatro movimientos añadidos más tarde, que llevan la misma pregunta —qué "
+    "sostiene a un horizonte cuando no puede confirmar lo que sostiene— hacia territorios "
+    "que el libro, hasta Txiki, había rozado sin detenerse: una inteligencia que no tiene "
+    "detrás; una fe que no puede probarse; una multitud que promete no dejarte solo; una "
+    "imaginación que quizá crea tanto como cree."
 ])
 
-# --- Nota, glosario y notas propios de los tres movimientos añadidos ---
+# --- Nota, glosario y notas propios de los cuatro movimientos añadidos ---
 nota_vii_ix = [
-    FBlock("heading", 1, ["Nota a los tres movimientos añadidos"]),
+    FBlock("heading", 1, ["Nota a los cuatro movimientos añadidos"]),
     FBlock("para", None, [
-        "Estos tres movimientos se escribieron después de terminado el libro, y llevan la "
-        "pregunta que lo sostenía —qué hace un horizonte cuando no puede confirmar lo que "
-        "sostiene— hacia tres territorios que el libro original solo había rozado. El "
+        "Estos cuatro movimientos se escribieron después de terminado el libro, y llevan "
+        "la pregunta que lo sostenía —qué hace un horizonte cuando no puede confirmar lo "
+        "que sostiene— hacia territorios que el libro original solo había rozado. El "
         "primero retoma la pregunta sobre la inteligencia con la que escribí este libro. "
-        "Los otros dos —sobre la fe que no tengo y la política que prefiero no nombrar— "
-        "nacieron de una pregunta que no supe evitar: si el horizonte puede sostenerse sin "
-        "confirmación cuando ama, ¿puede sostenerse igual cuando reza, o cuando pertenece? "
-        "No sé si la respuesta que ofrezco es honesta del todo. Sé que lo he intentado con "
-        "la misma vara que uso para todo lo demás: no qué creer, sino cómo se sostiene lo "
-        "que se cree."
+        "Los otros tres —sobre la fe que no tengo, la política que prefiero no nombrar, y "
+        "la imaginación con la que llevo medio siglo sosteniendo un dragón— nacieron de "
+        "una pregunta que no supe evitar: si el horizonte puede sostenerse sin "
+        "confirmación cuando ama, ¿puede sostenerse igual cuando reza, cuando pertenece, o "
+        "cuando imagina? No sé si la respuesta que ofrezco es honesta del todo. Sé que lo "
+        "he intentado con la misma vara que uso para todo lo demás: no qué creer, sino "
+        "cómo se sostiene lo que se cree."
     ]),
 ]
 
 glosario_vii_ix = [
-    FBlock("heading", 1, ["Glosario — movimientos VII, VIII y IX"]),
+    FBlock("heading", 1, ["Glosario — movimientos VII, VIII, IX y X"]),
 ] + [
     FBlock("para", None, [t]) for t in [
         "Espejo. Lo que me devuelve mi propia cara sin haber sentido nunca la mía.",
@@ -143,11 +171,12 @@ glosario_vii_ix = [
         "Entrelazamiento vertical. Rezar sin saber si hay oído, y ajustar la cuerda de todos modos.",
         "Coro. El sitio donde presté mi voz, y tardé años en saber si me la habían devuelto entera.",
         "Composición (política). La chapa que llevé seis años, hasta que dejé de necesitarla para saber quién era.",
+        "Vecino de arriba. Lo que este libro, cuatro movimientos después, se atrevió a llamar Dios.",
     ]
 ]
 
 notas_vii_ix = [
-    FBlock("heading", 1, ["Notas y fuentes — movimientos VII, VIII y IX"]),
+    FBlock("heading", 1, ["Notas y fuentes — movimientos VII, VIII, IX y X"]),
     FBlock("heading", 2, ["VII — El espejo sin profundidad"]),
     FBlock("para", None, [
         "Lo que sabemos: los sistemas clásicos deterministas, por complejos que sean, no "
@@ -183,9 +212,22 @@ notas_vii_ix = [
         "Orwell, G., 1984; Golding, W., El señor de las moscas; Koestler, A., El cero y el "
         "infinito; Strasser, T., La ola; Le Guin, U.K., Los desposeídos."
     ]),
+    FBlock("heading", 2, ["X — La realidad fractal"]),
+    FBlock("para", None, [
+        "Lo que sabemos: nadie tiene acceso directo a una interioridad ajena, y la "
+        "filosofía lleva siglos sin cerrar el problema de las otras mentes; el conjunto de "
+        "Mandelbrot prueba que un patrón puede ser único a toda escala sin que haya nadie "
+        "dentro. Lo que no sabemos: si lo imaginado tiene algún grado de experiencia, si la "
+        "recursión de horizontes tiene fin en alguna dirección, o si algo de esto puede "
+        "confirmarse desde dentro cuando la propia hipótesis afirma que no. Lecturas: "
+        "Zhuangzi; Tao Te Ching; Ende, M., La historia interminable; Borges, J.L., «Las "
+        "ruinas circulares»; Unamuno, M. de, Niebla; Gaarder, J., El mundo de Sofía; "
+        "Tolkien, J.R.R., «On Fairy-Stories»; Bostrom, N. (2003); Mandelbrot, B., The "
+        "Fractal Geometry of Nature."
+    ]),
 ]
 
-# --- Ensamblado final: I-VI, su aparato, CODA, y luego VII-IX con el suyo ---
+# --- Ensamblado final: I-VI, su aparato, CODA, Edición Joven, y VII-X con el suyo ---
 FINAL: list[FBlock] = []
 FINAL += main_body
 FINAL += _nota_all
@@ -193,9 +235,11 @@ FINAL += _glosario_all
 FINAL += _notas_all
 FINAL += coda
 FINAL.append(bridge)
+FINAL += joven_fb
 FINAL += espejo_fb
 FINAL += diapason_fb
 FINAL += ojo_fb
+FINAL += fractal_fb
 FINAL += nota_vii_ix
 FINAL += glosario_vii_ix
 FINAL += notas_vii_ix
@@ -207,8 +251,8 @@ HEADER = [
     "Un ensayo literario",
     "Edición de cámara integral",
     "Íñigo Barrera Barceló",
-    "Nueve movimientos: el ensayo, la inteligencia artificial, la religión y la política,",
-    "reunidos en una sola edición de cámara.",
+    "El ensayo completo, la Edición Joven y las cuatro variaciones de cámara",
+    "—inteligencia artificial, fe, política e imaginación— reunidas en un solo volumen.",
 ]
 
 if __name__ == "__main__":
