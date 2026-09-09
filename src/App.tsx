@@ -1,5 +1,5 @@
 import React from "react";
-import { allChapters, Chapter, cuentosList, poemasList, jovenList, isRomanNumeral } from "./chapters";
+import { allChapters, Chapter, cuentosList, poemasList, jovenList, ilustradaList, isRomanNumeral } from "./chapters";
 import { getPoemPosition } from "./chapters/poemas";
 import { Sidebar } from "./components/Sidebar";
 import { ChapterContent } from "./components/ChapterContent";
@@ -31,8 +31,8 @@ export default function App() {
   }, [language]);
 
   // State for reading mode: home, essay, cuentos, poemas or joven
-  const [readingMode, setReadingMode] = React.useState<"home" | "essay" | "cuentos" | "poemas" | "joven">(() => {
-    return (localStorage.getItem("reading_mode") as "home" | "essay" | "cuentos" | "poemas" | "joven") || "home";
+  const [readingMode, setReadingMode] = React.useState<"home" | "essay" | "cuentos" | "poemas" | "joven" | "ilustrada">(() => {
+    return (localStorage.getItem("reading_mode") as "home" | "essay" | "cuentos" | "poemas" | "joven" | "ilustrada") || "home";
   });
 
   // State for active reading chapter/cuento/poema/joven
@@ -46,6 +46,9 @@ export default function App() {
     }
     if (mode === "joven") {
       return localStorage.getItem("last_read_joven") || "joven1";
+    }
+    if (mode === "ilustrada") {
+      return localStorage.getItem("last_read_ilustrada") || ilustradaList[0].id;
     }
     return localStorage.getItem("last_read_chapter") || "cap0";
   });
@@ -96,7 +99,7 @@ export default function App() {
 
   // Path Landing states
   const [visitedModes, setVisitedModes] = React.useState<Record<string, boolean>>({});
-  const [activePathLanding, setActivePathLanding] = React.useState<"essay" | "cuentos" | "poemas" | "joven" | null>(null);
+  const [activePathLanding, setActivePathLanding] = React.useState<"essay" | "cuentos" | "poemas" | "joven" | "ilustrada" | null>(null);
   const [landingPageNum, setLandingPageNum] = React.useState<number>(0);
 
   // Save states to localStorage
@@ -111,6 +114,8 @@ export default function App() {
       localStorage.setItem("last_read_poema", activeChapterId);
     } else if (readingMode === "joven") {
       localStorage.setItem("last_read_joven", activeChapterId);
+    } else if (readingMode === "ilustrada") {
+      localStorage.setItem("last_read_ilustrada", activeChapterId);
     } else {
       localStorage.setItem("last_read_chapter", activeChapterId);
     }
@@ -129,6 +134,7 @@ export default function App() {
     if (readingMode === "essay" || readingMode === "home") return allChapters;
     if (readingMode === "cuentos") return cuentosList;
     if (readingMode === "poemas") return poemasList;
+    if (readingMode === "ilustrada") return ilustradaList;
     return jovenList;
   }, [readingMode]);
 
@@ -165,13 +171,14 @@ export default function App() {
   };
 
   // Switch between Ensayo, Cuentos, Poemas y Joven, trying to preserve position via links
-  const handleModeChange = (newMode: "home" | "essay" | "cuentos" | "poemas" | "joven") => {
+  const handleModeChange = (newMode: "home" | "essay" | "cuentos" | "poemas" | "joven" | "ilustrada") => {
     if (newMode === readingMode) return;
 
     let targetId = "cap0";
     if (newMode === "cuentos") targetId = "cuento0";
     if (newMode === "poemas") targetId = "poema0";
     if (newMode === "joven") targetId = "joven1";
+    if (newMode === "ilustrada") targetId = ilustradaList[0].id;
     if (newMode === "home") targetId = "cap0";
     
     const activeItem = currentChaptersList.find(c => c.id === activeChapterId);
@@ -196,7 +203,7 @@ export default function App() {
     }
   };
 
-  const handleSwitchMode = (newMode: "home" | "essay" | "cuentos" | "poemas" | "joven", targetId?: string) => {
+  const handleSwitchMode = (newMode: "home" | "essay" | "cuentos" | "poemas" | "joven" | "ilustrada", targetId?: string) => {
     setReadingMode(newMode);
     if (newMode !== "home") {
       setVisitedModes(prev => ({ ...prev, [newMode]: true }));
@@ -285,6 +292,7 @@ export default function App() {
             else if (mode === "cuentos") setActiveChapterId("cuento0");
             else if (mode === "poemas") setActiveChapterId("poema0");
             else if (mode === "joven") setActiveChapterId("joven1");
+            else if (mode === "ilustrada") setActiveChapterId(ilustradaList[0].id);
           }
           window.scrollTo({ top: 0, behavior: "smooth" });
         }}
@@ -459,7 +467,7 @@ export default function App() {
       >
         <div className="flex flex-col">
           <span className={`text-[10px] uppercase tracking-[0.2em] font-sans font-bold ${themeColors.textMuted}`}>
-            {readingMode === "essay" ? t.header.sectionEssay : readingMode === "cuentos" ? t.header.sectionCuentos : readingMode === "poemas" ? t.header.sectionPoemas : t.header.sectionJoven}
+            {readingMode === "essay" ? t.header.sectionEssay : readingMode === "cuentos" ? t.header.sectionCuentos : readingMode === "poemas" ? t.header.sectionPoemas : readingMode === "ilustrada" ? t.header.sectionIlustrada : t.header.sectionJoven}
           </span>
           <span className="text-xl italic font-display leading-tight">
             {t.header.bookTitle}
@@ -506,6 +514,8 @@ export default function App() {
                 if (pos.group === "camara") return `${t.header.chamber} ${pos.n} ${t.header.of} ${pos.total}`;
                 return `${pos.n} ${t.header.of} ${pos.total}`;
               })()}</strong></>
+            ) : readingMode === "ilustrada" ? (
+              <>{t.header.chapter}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} {ilustradaList.length}</strong></>
             ) : (
               <>{t.header.part}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} {jovenList.length}</strong></>
             )}

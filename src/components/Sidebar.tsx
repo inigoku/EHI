@@ -26,8 +26,8 @@ interface SidebarProps {
   toggleMute: () => void;
   volume: number;
   setVolume: (volume: number) => void;
-  mode: "home" | "essay" | "cuentos" | "poemas" | "joven";
-  onModeChange: (mode: "home" | "essay" | "cuentos" | "poemas" | "joven") => void;
+  mode: "home" | "essay" | "cuentos" | "poemas" | "joven" | "ilustrada";
+  onModeChange: (mode: "home" | "essay" | "cuentos" | "poemas" | "joven" | "ilustrada") => void;
   language: Language;
   setLanguage: (language: Language) => void;
   jovenViewMode?: "manga" | "texto";
@@ -409,6 +409,16 @@ export const Sidebar: React.FC<SidebarProps> = ({
               }`}
             >
               {t.nav.joven}
+            </button>
+            <button
+              onClick={() => onModeChange("ilustrada")}
+              className={`text-[9px] font-sans font-bold px-1.5 py-1 rounded-md transition-all cursor-pointer ${
+                mode === "ilustrada"
+                  ? "bg-amber-500/15 text-amber-500 border border-amber-500/15 shadow-sm"
+                  : `${sc.textMuted} hover:${sc.text}`
+              }`}
+            >
+              {t.nav.ilustrada}
             </button>
           </div>
         </div>

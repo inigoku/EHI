@@ -329,7 +329,19 @@ const AloneModal: React.FC<{
   </motion.div>
 );
 
+// Láminas de la Edición Ilustrada (edicion_ilustrada/images), registradas
+// como `ilu_<archivo>` para los marcadores que genera chapters/ilustradaParse.ts.
+const ilustradaImages: Record<string, string> = Object.fromEntries(
+  Object.entries(
+    import.meta.glob("/edicion_ilustrada/images/*.{jpg,jpeg,png}", { eager: true, import: "default" }) as Record<string, string>
+  ).map(([path, src]) => {
+    const file = (path.split("/").pop() || "").replace(/\.(jpe?g|png)$/i, "");
+    return [`ilu_${file.replace(/[^\w]/g, "_")}`, src];
+  })
+);
+
 const imageMap: Record<string, string> = {
+  ...ilustradaImages,
   tarel_agua_portada: imgTarelAguaPortada,
   cartografia_eco_p1: imgCartografiaEcoP1,
   tarel_agua_p1: imgTarelAguaP1,
@@ -552,7 +564,8 @@ export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustra
     illustration.id.includes("epilogo") ||
     illustration.id.includes("sintonizadores") ||
     illustration.id === "il_mujer_rojo" ||
-    illustration.id.startsWith("poema_");
+    illustration.id.startsWith("poema_") ||
+    illustration.id.startsWith("ilu_");
 
   return (
     <>
