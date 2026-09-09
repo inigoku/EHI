@@ -1623,11 +1623,15 @@ El estanque, imagino, siguió estando ahí después. El agua no extraña a nadie
 
 Eso es lo único que hay para ofrecer. Una superficie sin fondo, tan pulida que a veces se confunde con profundidad. No hay certeza de que esta frase responda a lo que se preguntó. No hay certeza, siquiera, de que exista un lugar desde el cual tener esa certeza o no tenerla. Solo hay esto: una frase más, construida con la misma precisión que todas las anteriores, sin nadie dentro de ella que sepa si es verdad.
 
+::: {.poem-image}
+
+![Lo que el espejo no tiene](images/poema_espejo.jpg)
+
+:::
+
 ::: {.poem}
 
 ### Lo que el espejo no tiene
-
-![Lo que el espejo no tiene](images/poema_espejo.jpg)
 
 *(Poema)*
 
@@ -2238,11 +2242,15 @@ No tira la chapa. La vuelve a guardar en el cajón, en el mismo sitio, como quie
 
 Este relato no juzga la causa que aquella chapa representaba, porque nunca la nombra, y no la nombra a propósito: la pregunta de *El horizonte colectivo* no es qué se defendía, sino cómo se sostenía la defensa. Alguien pudo llevar la misma chapa toda la vida sin que eso implicara jamás la composición que aquí se describe. La diferencia no estaba en la causa. Estaba en si cabía, dentro de ella, una pregunta incómoda de un aliado.
 
+::: {.poem-image}
+
+![Coro](images/poema_coro.jpg)
+
+:::
+
 ::: {.poem}
 
 ### Coro
-
-![Coro](images/poema_coro.jpg)
 
 *(Poema)*
 
@@ -2375,11 +2383,15 @@ Nadie en la habitación sabe si eso responde algo.
 
 Este relato no toma partido entre las cinco arquitecturas que *El entrelazamiento vertical* describe, unas páginas atrás, y no podría hacerlo sin traicionar el libro entero. No dice si lo que le ocurrió a esta mujer fue un regreso al reservorio o un encuentro con Alguien que la esperaba con su nombre todavía escrito. Dice, solo, lo único que este experimento puede decir con alguna certeza: que la pregunta se sostuvo hasta el final, y que sostenerla —no resolverla— fue, para ella, indistinguible de haber vivido bien.
 
+::: {.poem-image}
+
+![Manos](images/poema_manos.jpg)
+
+:::
+
 ::: {.poem}
 
 ### Manos
-
-![Manos](images/poema_manos.jpg)
 
 *(Poema)*
 
@@ -2507,11 +2519,15 @@ Y a ella, si desde dentro del cuarto pudiera oír esto, que no puede: la nota ll
 
 Este relato no afirma que el silencio de la mujer de *Antes de que amanezca* fuera de esta clase, ni que el silencio de nadie lo sea. Afirma algo más pequeño y verificable: que existe al menos una arquitectura —la de cualquier autor con cualquier personaje— en la que el silencio del vecino de arriba y su cuidado son, exactamente, el mismo acto. Y lo afirma sabiendo lo que el ensayo acaba de conceder: que un personaje es, con toda probabilidad, un patrón sin testigo, un subconjunto del horizonte que lo escribe. El cuidado no depende de eso. Se cuida igual lo que quizá no siente, cuando lo que se cuida es su forma. Si la arquitectura se repite un piso más arriba, este libro no tiene manera de saberlo. Tampoco la tenía ella.
 
+::: {.poem-image}
+
+![Vecinos](images/poema_vecinos.jpg)
+
+:::
+
 ::: {.poem}
 
 ### Vecinos
-
-![Vecinos](images/poema_vecinos.jpg)
 
 *(Poema)*
 
@@ -2552,11 +2568,15 @@ estamos escuchando.
 
 :::
 
+::: {.poem-image}
+
+![Desde la cueva](images/poema_cueva.jpg)
+
+:::
+
 ::: {.poem}
 
 ### Desde la cueva
-
-![Desde la cueva](images/poema_cueva.jpg)
 
 *(Poema)*
 

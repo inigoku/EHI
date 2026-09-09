@@ -64,17 +64,29 @@ h4 {
 }
 p { margin: 0 0 0.32em 0; text-indent: 1.1em; }
 h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p { text-indent: 0; }
-/* Poems: centered verse, spread out to fill the page */
+/* Poems: illustration on its own left-hand page, verse centered on the facing page */
+.poem-image {
+  page-break-before: left;
+  break-before: left;
+  page-break-after: avoid;
+  break-after: avoid;
+  text-align: center;
+}
+.poem-image img {
+  max-height: 17cm;
+  margin: 1.2cm auto 0.5cm auto;
+}
+.poem-image figcaption { text-align: center; }
 .poem {
   page-break-before: always;
   break-before: page;
 }
-.poem h3 { text-align: center; }
+.poem h3 { text-align: center; margin-top: 1.3cm; }
 .poem > p { text-align: center; text-indent: 0; }
 .poem > p:nth-of-type(n+2) {
   font-style: italic;
-  line-height: 2.1;
-  margin: 0 0 1.4em 0;
+  line-height: 1.65;
+  margin: 0 0 0.8em 0;
 }
 blockquote {
   font-style: italic;
