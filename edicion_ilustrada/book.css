@@ -67,7 +67,7 @@ h4 {
   font-weight: bold;
   text-align: center;
   color: #14213d;
-  margin-top: 4.5cm;
+  margin-top: 1.6cm;
   margin-bottom: 0.8cm;
   page-break-before: always;
   break-before: page;
@@ -102,12 +102,12 @@ h2 + figure + p::first-letter {
   page-break-before: right;
   break-before: right;
 }
-.poem h3 { text-align: center; margin-top: 1.3cm; }
+.poem h3 { text-align: center; margin-top: 0.5cm; }
 .poem > p { text-align: center; text-indent: 0; }
 .poem > p:nth-of-type(n+2) {
   font-style: italic;
-  line-height: 1.65;
-  margin: 0 0 0.8em 0;
+  line-height: 1.45;
+  margin: 0 0 0.5em 0;
 }
 .glosario {
   page-break-before: always;
