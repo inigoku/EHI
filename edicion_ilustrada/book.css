@@ -40,11 +40,17 @@ h2 {
   font-weight: bold;
   margin-top: 0;
   text-align: center;
-  color: #14213d;
+  color: #2C5F6D;
   page-break-before: always;
   break-before: page;
   padding-top: 2.5cm;
   page-break-after: avoid;
+}
+h2::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='18' viewBox='0 0 90 18'%3E%3Cpath d='M2,9 Q13,1 24,9 T46,9 T68,9 T88,9' fill='none' stroke='%232C5F6D' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  display: block;
+  text-align: center;
+  margin: 0 auto 0.35cm auto;
 }
 h3 {
   font-size: 12pt;
@@ -78,7 +84,7 @@ h2 + figure + p::first-letter {
   line-height: 1;
   vertical-align: -0.14em;
   margin-right: 0.03em;
-  color: #14213d;
+  color: #2C5F6D;
 }
 /* Poems: illustration on its own page, verse centered on the page right after it */
 .poem-image {
