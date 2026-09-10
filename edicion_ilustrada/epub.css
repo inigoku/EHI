@@ -31,3 +31,11 @@ h4 {
 .poem > p:nth-of-type(n+2) {
   font-style: italic;
 }
+h2 + p::first-letter,
+h2 + figure + p::first-letter {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 2.6em;
+  line-height: 1;
+  color: #14213d;
+}

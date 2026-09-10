@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  src: url("fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+}
 @page {
   size: 15.5cm 23.2cm;
   margin: 2.1cm 1.8cm 2.4cm 1.8cm;
@@ -63,7 +68,18 @@ h4 {
   page-break-after: avoid;
 }
 p { margin: 0 0 0.32em 0; text-indent: 1.1em; }
-h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p { text-indent: 0; }
+h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p, h2 + figure + p { text-indent: 0; }
+/* Raised initial capital on the opening paragraph of each chapter, matching the web reading view */
+h2 + p::first-letter,
+h2 + figure + p::first-letter {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 2.6em;
+  line-height: 1;
+  vertical-align: -0.14em;
+  margin-right: 0.03em;
+  color: #14213d;
+}
 /* Poems: illustration on its own page, verse centered on the page right after it */
 .poem-image {
   page-break-before: always;
