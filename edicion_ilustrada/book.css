@@ -88,6 +88,28 @@ h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p { text-indent: 0; }
   line-height: 1.65;
   margin: 0 0 0.8em 0;
 }
+.glosario {
+  page-break-before: always;
+  break-before: page;
+}
+.glosario h3 {
+  text-align: center;
+  margin-top: 1.3cm;
+  margin-bottom: 1cm;
+}
+.glosario p {
+  text-align: left;
+  text-indent: -1.1em;
+  margin: 0 0 0.6em 1.1em;
+}
+.glosario p:has(> .glosario-sub) {
+  text-indent: 0;
+  margin: 1cm 0 0.6em 0;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: #3a3a3a;
+}
 blockquote {
   font-style: italic;
   margin: 0.5em 1.4em;
