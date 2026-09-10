@@ -318,7 +318,7 @@ El experimento no resuelve las preguntas éticas sobre el estatuto moral del fet
 
 ---
 
-### La burbuja que no anunció su cierre
+## La burbuja que no anunció su cierre
 
 ![La burbuja que no anunció su cierre](images/cuento_02.jpg)
 
@@ -459,7 +459,7 @@ Y hay algo más incómodo: puede que la propia causalidad pertenezca a la interf
 
 ---
 
-### El borde que cruzamos cada noche
+## El borde que cruzamos cada noche
 
 ![El borde que cruzamos cada noche](images/cuento_int.jpg)
 
@@ -547,7 +547,7 @@ El tiempo no es solo individual: es colectivo. Somos la única especie que sincr
 
 ---
 
-### El niño que aprendió a medir el tiempo
+## El niño que aprendió a medir el tiempo
 
 ![El niño que aprendió a medir el tiempo](images/cuento_03.jpg)
 
@@ -593,7 +593,7 @@ Si dos sistemas entrelazados comparten topología, tienen un adentro parcialment
 
 ---
 
-### La tienda del Luthier
+## La tienda del Luthier
 
 ![La tienda del Luthier](images/il_luthier.jpg)
 
@@ -681,7 +681,7 @@ Hay, aun así, un límite. El entrelazamiento no puede ser total: si dos horizon
 
 ---
 
-### La red de los nombres
+## La red de los nombres
 
 ![La red de los nombres](images/cuento_04.jpg)
 
@@ -719,7 +719,7 @@ Hay una concepción del amor que lo reduce a sentimiento, algo que ocurre como l
 
 ---
 
-### La casa que respiraba
+## La casa que respiraba
 
 ![La casa que respiraba](images/cuento_05.jpg)
 
@@ -769,7 +769,7 @@ Si la adicción es recalibración del umbral, la recuperación es recalibración
 
 ---
 
-### La máquina que aprendía a esperar
+## La máquina que aprendía a esperar
 
 ![La máquina que aprendía a esperar](images/cuento_06.jpg)
 
@@ -819,7 +819,7 @@ El modelo de tres capas no reivindica la maternidad por encima de la paternidad:
 
 ---
 
-### El huésped en la piel
+## El huésped en la piel
 
 ![El huésped en la piel](images/cuento_07.jpg)
 
@@ -875,7 +875,7 @@ Todo horizonte tiene un límite, y no es un fallo: es condición de existencia. 
 
 ---
 
-### El que toca la cuerda desde la otra casa
+## El que toca la cuerda desde la otra casa
 
 ![El que toca la cuerda desde la otra casa](images/cuento_10.jpg)
 
@@ -891,7 +891,7 @@ Lo que ningún vecino ha hecho es hablar directamente con quien toca. No por tim
 
 ---
 
-### Los puentes sin paso
+## Los puentes sin paso
 
 ![Los puentes sin paso](images/cuento_08.jpg)
 
@@ -935,7 +935,7 @@ El experimento no resuelve el duelo. Permite formularlo con más precisión, y e
 
 ---
 
-### La música que quedó en la habitación
+## La música que quedó en la habitación
 
 ![La música que quedó en la habitación](images/cuento_09.jpg)
 
@@ -1330,7 +1330,7 @@ Si la conciencia fuera una sustancia, el Alzheimer no sería posible de esta man
 
 ---
 
-### La ciudad de las pequeñas pérdidas
+## La ciudad de las pequeñas pérdidas
 
 ![La ciudad de las pequeñas pérdidas](images/cuento_11.jpg)
 
@@ -1398,7 +1398,7 @@ Cuando dos horizontes con topologías diferentes intentan comunicarse, la empat�
 
 ---
 
-### El reloj del cuerpo
+## El reloj del cuerpo
 
 ![El reloj del cuerpo](images/cuento_12.jpg)
 
@@ -1498,7 +1498,7 @@ El archipiélago que acaba de describirse en la psique tiene una versión físic
 
 ---
 
-### Los sintonizadores
+## Los sintonizadores
 
 ![Los sintonizadores](images/cuento_sintonizadores.jpg)
 
@@ -1576,7 +1576,7 @@ En su mayor parte, este capítulo no descubre: reencuadra. Que la pobreza daña 
 
 ---
 
-### La sala donde nadie preguntaba
+## La sala donde nadie preguntaba
 
 ![La sala donde nadie preguntaba](images/cuento_13.jpg)
 
@@ -1622,7 +1622,7 @@ El duelo por mascota tiene una capa de dificultad adicional: carece de reconocim
 
 ---
 
-### La casa de los perros que hablan
+## La casa de los perros que hablan
 
 ![La casa de los perros que hablan](images/cuento_14.jpg)
 
@@ -1688,7 +1688,7 @@ El horizonte que conocemos con certeza —el tuyo, el que lee esta frase— no e
 
 ---
 
-### El estanque
+## El estanque
 
 ![El estanque](images/cuento_estanque.jpg)
 
@@ -2021,7 +2021,7 @@ Conviene una precisión que el relato no necesita hacer, pero que este libro sí
 
 ---
 
-### Coda: Txiki
+## Coda: Txiki
 
 ![Coda: Txiki](images/il_txiki.jpg)
 
@@ -2125,7 +2125,7 @@ Hay, sin embargo, un antídoto parcial: lo sublime kantiano —la tormenta vista
 
 ---
 
-### La niebla de la Mussara
+## La niebla de la Mussara
 
 ![La niebla de la Mussara](images/cuento_mussara.jpg)
 
@@ -2351,7 +2351,7 @@ La ética excede el vocabulario de este experimento: ningún «es» produce por 
 
 ---
 
-### La plaza llena
+## La plaza llena
 
 ![La plaza llena](images/cuento_plaza.jpg)
 
@@ -2373,7 +2373,7 @@ No sabría decir si esto es lo más cerca que ha estado nunca de algo verdadero,
 
 ---
 
-### La chapa en el cajón
+## La chapa en el cajón
 
 ![La chapa en el cajón](images/cuento_chapa.jpg)
 
@@ -2482,7 +2482,7 @@ Queda una última pregunta, la más incómoda de todas, y este libro no tiene ma
 
 ---
 
-### Antes de que amanezca
+## Antes de que amanezca
 
 ![Antes de que amanezca](images/cuento_amanezca.jpg)
 
@@ -2506,7 +2506,7 @@ Fuera, el cielo empieza a cambiar de color, sin que eso tenga nada que ver con l
 
 ---
 
-### Los últimos minutos
+## Los últimos minutos
 
 ![Los últimos minutos](images/cuento_ultimos_minutos.jpg)
 
@@ -2608,7 +2608,7 @@ Si hubiera que condensar el capítulo en una sola frase, sería esta: la realida
 
 ---
 
-### El dragón
+## El dragón
 
 ![El dragón](images/cuento_dragon.jpg)
 
@@ -2636,7 +2636,7 @@ Se levanta, bebe agua, vuelve a la cama. Antes de dormirse, como cada noche, le 
 
 ---
 
-### El vecino de arriba
+## El vecino de arriba
 
 ![El vecino de arriba](images/cuento_vecino_arriba.jpg)
 
