@@ -98,7 +98,6 @@ h2 + figure + p::first-letter {
   max-height: 14.5cm;
   margin: 1.2cm auto 0.5cm auto;
 }
-.poem-image figcaption { text-align: center; }
 .poem {
   page-break-before: always;
   break-before: page;
@@ -140,12 +139,8 @@ blockquote {
   padding-left: 0.6em;
   text-indent: 0;
 }
-hr {
-  border: none;
-  border-top: 0.5pt solid #b8945a;
-  width: 30%;
-  margin: 1.1em auto;
-}
+hr { display: none; }
+figcaption { display: none; }
 img {
   display: block;
   max-width: 100%;

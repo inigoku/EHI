@@ -13,10 +13,8 @@ figure {
 figure img {
   max-width: 100%;
 }
-figcaption {
-  break-before: avoid;
-  page-break-before: avoid;
-}
+figcaption { display: none; }
+hr { display: none; }
 h4 {
   text-align: center;
   font-style: italic;
