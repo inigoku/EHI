@@ -4,8 +4,6 @@ author: "Iñigo Barrera"
 lang: es
 ---
 
-![Portada](images/il_portada.jpg){.cover}
-
 # El Horizonte Interior
 
 ### Edición ilustrada
@@ -13,6 +11,14 @@ lang: es
 *Un experimento de pensamiento: qué pasaría si la conciencia tuviera la estructura de un microagujero negro de Hawking.*
 
 **Iñigo Barrera**
+
+---
+
+::: {.dedicatoria}
+
+*A Montse y Gerard.*
+
+:::
 
 ---
 

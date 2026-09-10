@@ -31,8 +31,8 @@ h1 {
   text-align: center;
   margin-top: 3cm;
   margin-bottom: 1cm;
-  page-break-before: always;
-  break-before: page;
+  page-break-before: right;
+  break-before: right;
   color: #14213d;
 }
 h2 {
@@ -88,8 +88,8 @@ h2 + figure + p::first-letter {
 }
 /* Poems: illustration on its own page, verse centered on the page right after it */
 .poem-image {
-  page-break-before: always;
-  break-before: page;
+  page-break-before: left;
+  break-before: left;
   page-break-after: avoid;
   break-after: avoid;
   text-align: center;
@@ -99,8 +99,8 @@ h2 + figure + p::first-letter {
   margin: 1.2cm auto 0.5cm auto;
 }
 .poem {
-  page-break-before: always;
-  break-before: page;
+  page-break-before: right;
+  break-before: right;
 }
 .poem h3 { text-align: center; margin-top: 1.3cm; }
 .poem > p { text-align: center; text-indent: 0; }
@@ -156,23 +156,16 @@ nav#TOC {
 nav#TOC ul { list-style: none; padding-left: 1em; }
 nav#TOC > ul { padding-left: 0; }
 nav#TOC a { text-decoration: none; color: #14213d; }
-/* Full-bleed cover page: no margin, no page number */
-@page :first {
-  margin: 0;
-  @bottom-center { content: ""; }
-}
-img.cover {
-  width: 15.5cm;
-  height: 23.2cm;
-  max-width: none;
-  max-height: none;
-  object-fit: cover;
-  margin: 0;
-  display: block;
+.dedicatoria {
+  page-break-before: always;
+  break-before: page;
   page-break-after: always;
+  break-after: always;
+  text-align: center;
+  margin-top: 8cm;
 }
-p:has(> img.cover) {
-  margin: 0;
+.dedicatoria p {
   text-indent: 0;
+  font-style: italic;
+  font-size: 12pt;
 }
-img.cover + figcaption { display: none; }
