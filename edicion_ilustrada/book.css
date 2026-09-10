@@ -73,7 +73,7 @@ h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p { text-indent: 0; }
   text-align: center;
 }
 .poem-image img {
-  max-height: 17cm;
+  max-height: 14.5cm;
   margin: 1.2cm auto 0.5cm auto;
 }
 .poem-image figcaption { text-align: center; }
