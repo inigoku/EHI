@@ -15,6 +15,25 @@ figure img {
 }
 figcaption { display: none; }
 hr { display: none; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.9em 0 1.3em 0;
+  font-size: 0.85em;
+}
+thead th {
+  background: #2C5F6D;
+  color: #fff;
+  text-align: left;
+  padding: 0.45em 0.55em;
+}
+tbody td {
+  padding: 0.4em 0.55em;
+  border-bottom: 1px solid #d9d5c9;
+  vertical-align: top;
+}
+tbody tr:nth-child(even) td { background: #f4f1ea; }
+tbody tr:last-child td { border-bottom: 2px solid #2C5F6D; }
 h4 {
   text-align: center;
   font-style: italic;
