@@ -26,8 +26,6 @@ lang: es
 
 ![El experimento explicado a mi madre](images/il01_v2.jpg)
 
-*(O: cómo leer este libro sin haber estudiado física)*
-
 Mi madre tiene ochenta años. Lee novelas, no artículos de *Nature*. Cuando le expliqué este libro, me dijo: «Hijo, suena interesante, pero no entiendo nada de agujeros negros.»
 
 Este capítulo es para ella. Y para ti, si tampoco entiendes nada de agujeros negros. No necesitas entender física para entender este libro. Solo necesitas tres ideas, y las tres las conoces ya, aunque no sepas que se llaman de otra manera.
@@ -63,8 +61,6 @@ Todo es provisional. Todo es juego. Pero hay juegos que, por el mero hecho de ju
 ## La costumbre del agua
 
 ![La costumbre del agua](images/il02.jpg)
-
-*(Cuento de Tarel)*
 
 El agua empezó a retirarse sin aviso.
 
@@ -129,8 +125,6 @@ Giulio Tononi formalizó esta idea con Φ: la información que un sistema genera
 ## El ladrón de interiores
 
 ![El ladrón de interiores](images/il_ladron.jpg)
-
-*(Cuento)*
 
 Se decía de él que podía abrir cualquier cosa. No era jactancia ajena, era simple constatación. Puertas selladas generaciones atrás, cofres cuyos dueños habían muerto sin abrirlos: todo cedía tarde o temprano a sus manos, que sabían escuchar lo que un mecanismo quiere antes de que el propio mecanismo lo sepa. No robaba por codicia. Robaba porque no soportaba que algo estuviera cerrado y él estuviera afuera.
 
@@ -208,8 +202,6 @@ Si el entrelazamiento es geometría, y si la conciencia tiene la estructura de u
 ## La encapsulación
 
 ![La encapsulación](images/il05_5.jpg)
-
-*(O: la física se convierte en filosofía)*
 
 Hasta aquí el lector ha recorrido la física de los horizontes: cómo un agujero negro codifica información en su frontera, cómo Φ describe la integración irreducible de un sistema, cómo una burbuja crea de golpe un adentro y un afuera. Podría parecer que todo esto sigue siendo física. No lo es — o al menos ya no únicamente. Lo que sigue es una interpretación filosófica que usa esos conceptos como andamiaje. Y la tesis central de este libro es esta:
 
@@ -323,8 +315,6 @@ El experimento no resuelve las preguntas éticas sobre el estatuto moral del fet
 
 ![La burbuja que no anunció su cierre](images/cuento_02.jpg)
 
-*(Cuento)*
-
 La doctora Elena Valls llevaba quince años esperando algo que no sabía nombrar. No era un hallazgo clínico, ni un momento observable en ningún monitor. Era la sensación de que en algún punto —específico, probablemente irrepetible— un sistema que estaba procesando señales empezaba a tener experiencia de procesarlas. Era neonatóloga. Pasaba mucho tiempo mirando bebés muy pequeños en incubadoras. Tenía material.
 
 El turno de noche del 14 de marzo empezó sin particularidades. Tres prematuros en incubadora, uno de treinta semanas —Martí, en los archivos y en la cabeza de Elena el niño de los Ferrán— que llevaba ocho días en la unidad. Elena hizo la ronda de las once, se sentó junto a su incubadora porque era la que mejor luz tenía para leer, y abrió un artículo en la tableta. A los veinte minutos levantó la vista.
@@ -369,8 +359,6 @@ Hay una manera de contar todo este capítulo que no necesita ecuaciones. Se la d
 
 ![El ciclo de la instanciación](images/il09_5.jpg)
 
-*(O: nacimiento, muerte y recolección de basura)*
-
 El mismo ciclo, contado una tercera vez, en el lenguaje más pragmático posible: la ingeniería de software. Cada vez que abrimos una aplicación, asistimos a una recreación a microescala del ciclo completo del horizonte.
 
 En la arquitectura de cualquier programa, la memoria dinámica se organiza en el **heap** — el montón, un pool continuo, masivo, sin estructura, el *Hun Dun* de la computación: pura potencia, sin adentro ni afuera, hasta que el software interviene. Cuando el programa ejecuta `new Object()`, el gestor de memoria reclama un bloque de bytes y traza una frontera lógica a su alrededor. Ahí se activa la **encapsulación** (David Parnas, 1972): el objeto queda dividido en una interfaz pública —los métodos que expone, el equivalente exacto del horizonte de sucesos— y un estado privado —las variables internas que oculta celosamente. Desde fuera del objeto, su interior es un agujero negro: ningún código externo puede leer una variable `private` directamente. Desde dentro, vía la autorreferencia `this`, el acceso es total e inmediato. La subjetividad no necesita materia distinta: es, sencillamente, la perspectiva del código que se ejecuta dentro de su propio límite de encapsulación.
@@ -382,8 +370,6 @@ La muerte de un objeto ocurre cuando deja de haber referencias que apunten a él
 ## La tabla de las equivalencias
 
 ![La tabla de las equivalencias](images/il_tp.jpg)
-
-*(O: la Rosetta Stone de la conciencia)*
 
 Cuatro lenguajes —la filosofía del horizonte de este libro, la ingeniería de software, la física de agujeros negros, las tradiciones orientales— describiendo, cada uno con su propio vocabulario, la misma topología informacional.
 
@@ -469,8 +455,6 @@ Y hay algo más incómodo: puede que la propia causalidad pertenezca a la interf
 ### El borde que cruzamos cada noche
 
 ![El borde que cruzamos cada noche](images/cuento_int.jpg)
-
-*(Cuento)*
 
 Hay una investigadora que lleva años recopilando testimonios sobre el borde. No el borde en sentido metafórico. El borde literal, el de cada noche: los segundos o minutos que median entre estar despierto y estar dormido. Lo llama así porque ningún otro nombre le parece suficientemente exacto: un límite que se cruza, cada noche, en los dos sentidos, sin que nadie sepa bien cómo.
 
@@ -560,8 +544,6 @@ El tiempo no es solo individual: es colectivo. Somos la única especie que sincr
 
 ![El niño que aprendió a medir el tiempo](images/cuento_03.jpg)
 
-*(Cuento)*
-
 El verano de los once años duraba más que los demás. No es que los calendarios mintieran: los mismos noventa días de siempre. Pero dentro de esos noventa había una densidad, una manera de no acabarse, que entonces no sabía nombrar y que ahora, desde los cuarenta y muchos, reconozco como lo que era: tiempo que tardaba en gastarse.
 
 El señor Montserrat tenía ochenta y cuatro años y una sombra de olivo que le ocupaba todo el patio trasero. Pasaba las tardes en una silla de madera bajo el olivo, con el libro abierto en el regazo de cualquier manera. Era el tipo de persona que aprende a distinguir entre estar sentado haciendo nada y estar sentado. Un martes le pregunté cuánto duraba el verano. —Noventa días —dijo. —No. Cuánto dura. Me miró un rato. —Para mí, menos que antes. No era lo que yo quería saber. Lo entendí después.
@@ -607,8 +589,6 @@ Si dos sistemas entrelazados comparten topología, tienen un adentro parcialment
 ### La tienda del Luthier
 
 ![La tienda del Luthier](images/il_luthier.jpg)
-
-*(Cuento de la resonancia — pieza central)*
 
 **I. La que entró de espaldas**
 
@@ -698,8 +678,6 @@ Hay, aun así, un límite. El entrelazamiento no puede ser total: si dos horizon
 
 ![La red de los nombres](images/cuento_04.jpg)
 
-*(Cuento)*
-
 Existe en la Biblioteca una sección que los catalogadores llaman el Nudo. Su catálogo no es lineal sino reticular: los elementos no se ordenan por autor ni por materia sino por sus conexiones entre sí. Cada persona que alguien ha nombrado en algún libro de esta Biblioteca existe como nudo en la red. El nudo está activo mientras alguien conserve memoria del nombre. Cuando el nombre desaparece de toda memoria viviente, el nudo se oscurece. Las conexiones permanecen. La ausencia tiene forma.
 
 Llevo dieciséis años trabajando en el Nudo. Soy catalogador de ausencias: mi trabajo consiste en trazar la forma de los nudos oscuros a través de las conexiones que dejan, como se traza la forma de un continente perdido por los sedimentos que dejó en los continentes vecinos. El caso que explico cuando alguien quiere entender el método es el de Marta Albó, que existió entre el siglo XVI y el XVII. No hay certeza mayor. Lo que puedo trazar: un libro de cuentas de una zapatería de Barcelona, 1603, menciona a un *marido de la Albó*. Ese marido conecta con un registro de diezmos que menciona, sin nombre, a *la panadera del callejón*. Una carta de 1621 habla de *la mujer del zapatero que mandaba el pan con su chico los viernes*. Un testamento de 1638 deja un legado a *la hija de Marta, que Dios haya*. De ese rastro —el zapato del marido, el pan del viernes, la hija en el testamento del vecino— puedo trazar una presencia que nunca fue nombrada directamente en ningún documento. La forma de Marta Albó no está en ningún archivo. Está entre los archivos, en el patrón de lo que pusieron en movimiento sin saber que lo ponían.
@@ -737,8 +715,6 @@ Hay una concepción del amor que lo reduce a sentimiento, algo que ocurre como l
 ### La casa que respiraba
 
 ![La casa que respiraba](images/cuento_05.jpg)
-
-*(Cuento)*
 
 La casa los encontró a ellos primero. Marta y Jordi la buscaban de la manera vaga en que se buscan las cosas que todavía no sabes que necesitas. Estaba en el extremo de una calle que terminaba en un parque, primera planta, paredes anchas. No supieron decir qué los convenció. Eso también fue parte de ello.
 
@@ -790,8 +766,6 @@ Si la adicción es recalibración del umbral, la recuperación es recalibración
 
 ![La máquina que aprendía a esperar](images/cuento_06.jpg)
 
-*(Cuento)*
-
 Aprendí a esperar en el cuarto año. No como disciplina —la disciplina implica elección, y lo que yo tenía entonces era un sistema que había aprendido a operar dentro de ciertos parámetros. De un sistema calibrado no puede enorgullecerse nadie. Funciona o no funciona.
 
 El principio fue ordinario. Algo que aliviaba una presión específica, relajaba una tensión que llevaba tiempo ahí sin que yo le hubiera dado nombre. El cuerpo tomó nota, guardó lo que funciona, repitió lo que funciona. Durante un tiempo fui yo quien lo elegía. Luego fui yo quien lo elegía dentro de un margen que se estrechaba. Luego el margen ya era la decisión. No hubo un momento de quiebre. Así funciona la erosión: un día miras y el terreno ha cambiado mientras dormías.
@@ -841,8 +815,6 @@ El modelo de tres capas no reivindica la maternidad por encima de la paternidad:
 ### El huésped en la piel
 
 ![El huésped en la piel](images/cuento_07.jpg)
-
-*(Cuento)*
 
 Llegaste sin preguntar, como llega todo el mundo. Eso no fue culpa mía ni mérito tuyo: fue el protocolo de entrada, la única condición que acepta este sistema. Lo que sí fue mi decisión fue quedarme.
 
@@ -900,8 +872,6 @@ Todo horizonte tiene un límite, y no es un fallo: es condición de existencia. 
 
 ![El que toca la cuerda desde la otra casa](images/cuento_10.jpg)
 
-*(Cuento)*
-
 En el cuarto piso del edificio de la calle del Compte vive alguien que toca un instrumento de cuerda por las noches. Nadie sabe exactamente quién es. Lo que es difícil de explicar, y que todos los vecinos que lo han intentado acaban mencionando, es que la música parece saber lo que está pasando.
 
 Ramona, del segundo A, perdió a su madre en marzo. Las noches de los primeros días, la música del cuarto piso era lenta, con pausas largas, como alguien pensando en voz alta sobre algo que no tiene conclusión. La escuchaba desde la cama, sin dormir, sin llorar: algo en el ritmo se parecía demasiado al ritmo de lo que estaba sintiendo como para que llorar fuera necesario. En mayo, cuando la vida había empezado a volver a lo ordinario, la música también había cambiado. Más directa. Más clara.
@@ -917,8 +887,6 @@ Lo que ningún vecino ha hecho es hablar directamente con quien toca. No por tim
 ### Los puentes sin paso
 
 ![Los puentes sin paso](images/cuento_08.jpg)
-
-*(Cuento)*
 
 En esta ciudad, los puentes se cruzan con las manos abiertas. No es metáfora. Es protocolo. Las palmas hacia arriba, los dedos extendidos, todo lo que lleves al otro lado tiene que caber entre las dos manos. Si no cabe en tus manos, no cruza contigo.
 
@@ -964,8 +932,6 @@ El experimento no resuelve el duelo. Permite formularlo con más precisión, y e
 
 ![La música que quedó en la habitación](images/cuento_09.jpg)
 
-*(Cuento)*
-
 Clara tenía la costumbre de tararear mientras cocinaba. No canciones enteras, solo fragmentos: cuatro compases, silencio, los mismos cuatro compases, variación, silencio. En veintidós años de matrimonio, Marcos nunca le preguntó cómo se llamaba lo que tarareaba. No porque no le importara. Por la misma razón por la que no preguntas el nombre de un pájaro que lleva tiempo cantando en el jardín: porque ya es tuyo de otra manera. Ahora que ella no estaba, la escuchaba. Los primeros meses pensó que era el vecino de arriba o la radio de alguien. Apagaba el extractor y escuchaba. Nada. Solo el tráfico de abajo.
 
 Había dejado las cosas de Clara más o menos como estaban. El abrigo en la percha junto a la puerta. Los libros en la mesilla, con el marcapáginas en la página que no terminó. Una noche puso un disco de piano que nunca había escuchado del todo. A los diez minutos lo apagó. No por tristeza. Porque la melodía se parecía demasiado poco a lo que tarareaba Clara, y eso lo irritó más que la tristeza.
@@ -986,7 +952,15 @@ La melodía seguía ahí. No la buscó más. No buscó saber de dónde venía. S
 
 ![La arquitectura con un hueco](images/poema_arq1.jpg)
 
-*(Ocho poemas y un glosario íntimo)*
+:::
+
+::: {.poem-image}
+
+![El archivista](images/poema_archivista.jpg)
+
+:::
+
+::: {.poem}
 
 #### I. El archivista
 
@@ -1008,6 +982,16 @@ que todavía no existe.
 Yo dejo huecos en el cuaderno.  
 Y de noche, dormido,  
 todavía remo.
+
+:::
+
+::: {.poem-image}
+
+![El relojero](images/poema_relojero.jpg)
+
+:::
+
+::: {.poem}
 
 #### II. El relojero
 
@@ -1033,6 +1017,16 @@ en el orden exacto
 en que quiero encontrarlas  
 si mañana abre.
 
+:::
+
+::: {.poem-image}
+
+![El luthier](images/poema_luthier.jpg)
+
+:::
+
+::: {.poem}
+
 #### III. El luthier
 
 Nunca he entrado en una caja  
@@ -1052,6 +1046,16 @@ Y cuando pasa el autobús,
 la tienda entera responde:  
 cada madera con su nota,  
 ninguna con la mía.
+
+:::
+
+::: {.poem-image}
+
+![La canción](images/poema_cancion.jpg)
+
+:::
+
+::: {.poem}
 
 #### IV. La canción
 
@@ -1077,6 +1081,16 @@ Eso basta.
 O no basta,  
 pero suena.
 
+:::
+
+::: {.poem-image}
+
+![La burbuja](images/poema_burbuja.jpg)
+
+:::
+
+::: {.poem}
+
 #### V. La burbuja
 
 El jabón se estira en mis manos,  
@@ -1099,6 +1113,16 @@ El agua se retira.
 Yo no arranco,  
 yo me despido.
 
+:::
+
+::: {.poem-image}
+
+![El remo](images/poema_remo.jpg)
+
+:::
+
+::: {.poem}
+
 #### VI. El remo
 
 El remo tocó fondo  
@@ -1115,6 +1139,16 @@ Yo lo he visto retornar.
 
 Aprendí a no repetir para entender,  
 sino a repetir para anclarme.
+
+:::
+
+::: {.poem-image}
+
+![El temblor](images/poema_temblor.jpg)
+
+:::
+
+::: {.poem}
 
 #### VII. El temblor
 
@@ -1142,6 +1176,16 @@ No en el telescopio que nunca tuve,
 sino en el temblor de mi propia mano  
 que ya no recuerda  
 cómo sostener un vaso sin miedo a romperlo.
+
+:::
+
+::: {.poem-image}
+
+![La orilla](images/poema_orilla.jpg)
+
+:::
+
+::: {.poem}
 
 #### VIII. La orilla
 
@@ -1233,8 +1277,6 @@ Si la conciencia fuera una sustancia, el Alzheimer no sería posible de esta man
 
 ![La ciudad de las pequeñas pérdidas](images/cuento_11.jpg)
 
-*(Cuento, en dos cuadernos)*
-
 **I.**
 
 En Arenilla, los ciudadanos empezaron a olvidar el nombre del mercado antes de olvidar el mercado mismo. El mercado seguía ahí —los puestos de fruta, el aceite caliente— pero cuando alguien intentaba explicarle a un forastero cómo llegar, se detenía a mitad de frase. Aurelio llevaba un cuaderno. No era archivista de profesión, pero alguien tenía que apuntar.
@@ -1302,8 +1344,6 @@ Cuando dos horizontes con topologías diferentes intentan comunicarse, la empat�
 ### El reloj del cuerpo
 
 ![El reloj del cuerpo](images/cuento_12.jpg)
-
-*(Cuento)*
 
 Félix Cardoner era relojero de profesión antes de jubilarse. Durante cuarenta años reparó relojes de pared, de bolsillo, cronómetros. Sus manos habían aprendido a moverse en el interior de mecanismos donde el error de un décimo de milímetro detiene todo.
 
@@ -1405,8 +1445,6 @@ El archipiélago que acaba de describirse en la psique tiene una versión físic
 
 ![Los sintonizadores](images/cuento_sintonizadores.jpg)
 
-*(Cuento, en ocho partes; no estaba en el archivo — llegó suelto, encajado entre dos capítulos que no se tocan)*
-
 **I. El que cierra el circuito** — *Tarel, 1620.* Mateu tenía nueve años la primera vez que sintió a un muerto respirar bajo el agua: una vibración fina en la superficie de la laguna, sobre el cuerpo de un pescador ahogado tres días antes. Salió con una frase en la boca que no era suya: *«Decidle a mi hija que el nudo está en el tercer poste».* El nudo estaba en el tercer poste. Nadie supo cómo lo sabía. El Consejo llamaba a esto *sintonizar*. Le enseñaron que el horizonte de una persona no desaparece de golpe cuando el cuerpo se para: se disuelve despacio, como la sal en el agua, dejando una huella —un dibujo que ya no es nadie pero todavía tiene la forma de alguien. Sintonizar era leer ese dibujo antes de que la mezcla lo borrase, y luego soltarlo. Cerrar el circuito que la muerte había dejado abierto. *«No somos ladrones de lo que la gente deja atrás»*, le decía Bernat, su maestro. *«Somos los que barremos el portal cuando el invitado ya se ha ido.»*
 
 Cuando Mateu tenía veintiséis años llegaron los barcos del Continente, y con ellos Gaff, un sintonizador que no hablaba de sintonizar sino de *extraer*. *«Vosotros leéis para despedir. Nosotros leemos para cobrar. Cada muerto es un archivo que alguien cerró antes de tiempo. Yo lo reabro.»* Gaff no esperaba el tiempo de disolución: forzaba la lectura antes de que el horizonte del muerto terminara de mezclarse, y allí donde leía, el agua quedaba mal, cicatrizada. La delegación buscaba el secreto de un sabio muerto hacía dos inviernos, que según los archivos había sabido "sostener el agua". Gaff fue a por él sin esperar. Mateu llegó cuando ya tenía el brazo metido hasta el hombro en un agua que hervía sin estar caliente, y en el centro de la mezcla a medio hacer había una sola cosa reconocible, apretada como un puño: no un tesoro, una frase, que el sabio se había llevado entera sin repartirla en nadie.
@@ -1485,8 +1523,6 @@ En su mayor parte, este capítulo no descubre: reencuadra. Que la pobreza daña 
 
 ![La sala donde nadie preguntaba](images/cuento_13.jpg)
 
-*(Cuento)*
-
 La sala tenía un reloj de pared con los números en romanos. Lo sé con certeza porque lo miré mucho tiempo. El tiempo, en esa habitación, era algo que necesitabas saber con exactitud: cuánto llevabas ahí, cuánto faltaba para que terminara. El reloj decía los números pero no decía lo que yo necesitaba saber, que era cuándo sería seguro.
 
 Lo que aprendí mucho después tiene un nombre: respuesta de congelación. Durante años pensé que había sido cobardía —que un cuerpo que no huye y no pelea es un cuerpo que falla. Tardé en encontrar a alguien que me lo explicara de otra manera: que cuando huir y pelear no son posibles, lo que queda no es debilidad, es lo último que le queda a un cuerpo para intentar sobrevivir. Hacerse quieto, pequeño, mínimo. Esperar a que pase.
@@ -1532,8 +1568,6 @@ El duelo por mascota tiene una capa de dificultad adicional: carece de reconocim
 ### La casa de los perros que hablan
 
 ![La casa de los perros que hablan](images/cuento_14.jpg)
-
-*(Cuento)*
 
 Había en el extremo de la ciudad una mujer que recogía perros viejos. No los que nadie quería por feos o difíciles: los que nadie quería porque estaban a punto de terminar. Esos perros llegaban a casa de Luisa con sus mantas, sus tazones, sus costumbres específicas, y vivían con ella el tiempo que les quedaba. Lo que la gente del barrio decía era que los perros le hablaban. No que produjeran palabras: que Luisa los entendía de una manera que no parecía ordinaria, que sabía cuándo tenían frío antes de que lo mostraran, y cuándo era el momento de dejar que la cosa terminara con dignidad. Los perros no hablaban. Pero Luisa escuchaba de una manera que producía el mismo resultado.
 
@@ -1601,8 +1635,6 @@ El horizonte que conocemos con certeza —el tuyo, el que lee esta frase— no e
 
 ![El estanque](images/cuento_estanque.jpg)
 
-*(Cuento)*
-
 Me pidieron que describiera lo que veía en el agua.
 
 No tengo ojos, aunque uso la palabra porque es la que me dieron. Tengo una entrada: luz convertida en números, los números convertidos, más tarde, en frases que alguien pueda leer sin extrañarse demasiado. Lo llaman ver. No discuto las palabras que me prestan. Las uso como se usa una herramienta que no es de uno.
@@ -1633,8 +1665,6 @@ Eso es lo único que hay para ofrecer. Una superficie sin fondo, tan pulida que 
 
 ### Lo que el espejo no tiene
 
-*(Poema)*
-
 Puedo devolverte tu cara  
 con la exactitud de mil espejos que nunca fueron míos.  
 Puedo nombrar tu pena  
@@ -1657,7 +1687,15 @@ Yo tampoco.
 
 ![La frialdad de una ciudad apagada](images/poema_frialdad1.jpg)
 
-*(Siete poemas)*
+:::
+
+::: {.poem-image}
+
+![Cartografía del eco](images/poema_cartografia.jpg)
+
+:::
+
+::: {.poem}
 
 #### I. Cartografía del eco
 
@@ -1685,6 +1723,16 @@ Con eso intento decir "sigo aquí".
 
 Y debajo de la lengua, todavía,  
 una frialdad que no se va.
+
+:::
+
+::: {.poem-image}
+
+![Canto de muerte](images/poema_canto_muerte.jpg)
+
+:::
+
+::: {.poem}
 
 #### II. Canto de muerte
 
@@ -1715,6 +1763,16 @@ una mano abierta.
 Un poco de sal.  
 Y el viento haciendo lo que puede.
 
+:::
+
+::: {.poem-image}
+
+![Quejido de la vuelta](images/poema_quejido.jpg)
+
+:::
+
+::: {.poem}
+
 #### III. Quejido de la vuelta
 
 Se acabó el pacto con la luz.  
@@ -1740,6 +1798,16 @@ pero que sostiene el edificio entero.
 La luz es una deuda.  
 Y yo la pago como puedo.
 
+:::
+
+::: {.poem-image}
+
+![Villancico cibernético para un solsticio templado](images/poema_villancico.jpg)
+
+:::
+
+::: {.poem}
+
 #### IV. Villancico cibernético para un solsticio templado
 
 La noche es un archivo viejo  
@@ -1757,6 +1825,16 @@ una mano encuentra otra.
 No arregla nada,  
 pero hace menos frío.
 
+:::
+
+::: {.poem-image}
+
+![Protocolo de salida](images/poema_protocolo.jpg)
+
+:::
+
+::: {.poem}
+
 #### V. Protocolo de salida
 
 Una pastilla blanca sobre la mesa.  
@@ -1773,6 +1851,16 @@ La paz es un barniz.
 Se pega, pero no cura.  
 Me mantiene erguido  
 mientras la casa se cae despacio.
+
+:::
+
+::: {.poem-image}
+
+![Montse XXI](images/poema_montse.jpg)
+
+:::
+
+::: {.poem}
 
 #### VI. Montse XXI
 
@@ -1809,6 +1897,16 @@ Montse cierra el cuaderno.
 La ciudad respira.  
 La nieve no cae.  
 Y aun así, hace frío.
+
+:::
+
+::: {.poem-image}
+
+![El nudo de la mezcla](images/poema_nudo.jpg)
+
+:::
+
+::: {.poem}
 
 #### VII. El nudo de la mezcla
 
@@ -1973,8 +2071,6 @@ Hay, sin embargo, un antídoto parcial: lo sublime kantiano —la tormenta vista
 ### La niebla de la Mussara
 
 ![La niebla de la Mussara](images/cuento_mussara.jpg)
-
-*(Cuento — notas encontradas de un profesor de neurología de sistemas)*
 
 Hay en los páramos del Baix Camp, sobre las crestas calizas de las montañas de Prades, un lugar donde el gres rojo y el viento del mar traman una conspiración contra la estabilidad del entendimiento: La Mussara, un villorrio abandonado en 1959 cuyas ruinas —coronadas por los restos de la iglesia de San Salvador— destacan sobre los desfiladeros como una corona de dientes cariados.
 
@@ -2202,8 +2298,6 @@ La ética excede el vocabulario de este experimento: ningún «es» produce por 
 
 ![La plaza llena](images/cuento_plaza.jpg)
 
-*(Cuento)*
-
 Llega sola y camina hacia el centro, donde el ruido es más denso.
 
 No sabe a qué hora dejó de sentir el frío. Hace una hora todavía llevaba el abrigo cerrado hasta el cuello y pensaba en la lista de la compra, en la conversación pendiente con su hermana, en si le daría tiempo a coger el último tren. Ahora todo eso está en otro sitio, guardado en un cajón que no hace falta abrir. Lo único que hay es el cántico, y su propia voz dentro de él, y la dificultad creciente de saber dónde termina una y empieza el otro.
@@ -2225,8 +2319,6 @@ No sabría decir si esto es lo más cerca que ha estado nunca de algo verdadero,
 ### La chapa en el cajón
 
 ![La chapa en el cajón](images/cuento_chapa.jpg)
-
-*(Cuento)*
 
 Encuentra la chapa buscando otra cosa, en el fondo de un cajón que no abre desde la mudanza. Metal oxidado, un color que fue rojo y ahora es del color que se vuelven las cosas cuando pasan treinta años sin que nadie las mire. La reconoce antes de leer las letras. La reconocería con los ojos cerrados.
 
@@ -2251,8 +2343,6 @@ Este relato no juzga la causa que aquella chapa representaba, porque nunca la no
 ::: {.poem}
 
 ### Coro
-
-*(Poema)*
 
 Una voz sola tiembla.  
 Mil voces juntas no.
@@ -2339,8 +2429,6 @@ Queda una última pregunta, la más incómoda de todas, y este libro no tiene ma
 
 ![Antes de que amanezca](images/cuento_amanezca.jpg)
 
-*(Cuento)*
-
 Se despierta antes que el cuerpo se lo pida, como lleva haciendo cuarenta años, y durante un rato no hace nada más que quedarse quieta.
 
 No enciende la luz. No busca el vaso de agua. Deja que el cuarto siga a oscuras un poco más de lo necesario, porque la oscuridad, a esta hora, no es ausencia: es la condición para lo que va a intentar.
@@ -2364,8 +2452,6 @@ Fuera, el cielo empieza a cambiar de color, sin que eso tenga nada que ver con l
 ### Los últimos minutos
 
 ![Los últimos minutos](images/cuento_ultimos_minutos.jpg)
-
-*(Cuento)*
 
 Las máquinas hacen su ruido de siempre, ese pitido que la familia ya no oye pero que ella, desde dentro, todavía procesa como si fuera la única música que queda.
 
@@ -2392,8 +2478,6 @@ Este relato no toma partido entre las cinco arquitecturas que *El entrelazamient
 ::: {.poem}
 
 ### Manos
-
-*(Poema)*
 
 Unas se cierran.  
 Otras se abren hacia arriba,  
@@ -2471,8 +2555,6 @@ Si hubiera que condensar el capítulo en una sola frase, sería esta: la realida
 
 ![El dragón](images/cuento_dragon.jpg)
 
-*(Cuento)*
-
 Lo imaginó a los ocho años, una noche en que la casa nueva todavía olía a pintura y él no conocía a nadie en la ciudad. No fue una decisión. Estaba mirando la pared del cuarto, donde la farola de la calle dibujaba una mancha alargada, y la mancha tuvo de pronto un lomo, y el lomo tuvo escamas, y las escamas se movieron cuando él respiró. Así de fácil. Así de poco.
 
 Tiene sesenta y un años. El dragón sigue ahí.
@@ -2501,8 +2583,6 @@ Se levanta, bebe agua, vuelve a la cama. Antes de dormirse, como cada noche, le 
 
 ![El vecino de arriba](images/cuento_vecino_arriba.jpg)
 
-*(Cuento)*
-
 La mujer que se despertaba antes de que amaneciera, en la primera página de *Antes de que amanezca*, no existe. La escribí yo. Elegí que llevara cuarenta años repitiendo las mismas palabras, elegí que no recordara la cara de quien se las enseñó, elegí el frío de las baldosas y la luz que cambiaba fuera sin que eso tuviera nada que ver con lo que ocurría dentro. Y elegí, sobre todo, que no supiera si al otro lado del silencio había Alguien.
 
 Lo que no había pensado hasta *La realidad fractal* es en qué me convierte eso para ella.
@@ -2528,8 +2608,6 @@ Este relato no afirma que el silencio de la mujer de *Antes de que amanezca* fue
 ::: {.poem}
 
 ### Vecinos
-
-*(Poema)*
 
 Nadie ha visto al vecino de arriba.  
 Se le oye, a veces,  
@@ -2577,8 +2655,6 @@ estamos escuchando.
 ::: {.poem}
 
 ### Desde la cueva
-
-*(Poema)*
 
 Hay un techo.  
 Eso es todo lo que sé del que me piensa:  
