@@ -16,7 +16,8 @@ lang: es
 
 ::: {.dedicatoria}
 
-*A Montse y Gerard.*
+*A Montse y a Gerard,*  
+*por aguantarme todos los días con una sonrisa.*
 
 :::
 
