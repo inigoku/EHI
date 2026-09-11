@@ -1,9 +1,14 @@
+@font-face {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  src: url("fonts/PlayfairDisplay-Bold.woff2") format("woff2");
+}
 @page {
   size: 15.5cm 23.2cm;
   margin: 2.1cm 1.8cm 2.4cm 1.8cm;
   @bottom-center {
     content: counter(page);
-    font-family: "DejaVu Serif", Georgia, serif;
+    font-family: "Liberation Serif", Georgia, serif;
     font-size: 9pt;
     color: #666;
   }
@@ -11,7 +16,7 @@
 html { -weasy-images-rendering: auto; }
 #title-block-header { display: none; }
 body {
-  font-family: "DejaVu Serif", Georgia, "Times New Roman", serif;
+  font-family: "Liberation Serif", "Times New Roman", Georgia, serif;
   font-size: 10.3pt;
   line-height: 1.5;
   color: #1c1c1c;
@@ -21,26 +26,31 @@ body {
   widows: 3;
 }
 h1 {
-  font-family: "DejaVu Serif", Georgia, serif;
   font-weight: bold;
-  font-size: 22pt;
+  font-size: 20pt;
   text-align: center;
-  letter-spacing: 0.06em;
-  margin-top: 3.2cm;
-  margin-bottom: 0.6cm;
-  page-break-before: always;
-  break-before: page;
+  margin-top: 3cm;
+  margin-bottom: 1cm;
+  page-break-before: right;
+  break-before: right;
   color: #14213d;
 }
 h2 {
-  font-size: 15pt;
+  font-size: 16pt;
   font-weight: bold;
-  margin-top: 1.4cm;
-  margin-bottom: 0.35cm;
-  color: #14213d;
-  border-bottom: 0.75pt solid #b8945a;
-  padding-bottom: 0.15cm;
+  margin-top: 0;
+  text-align: center;
+  color: #2C5F6D;
+  page-break-before: always;
+  break-before: page;
+  padding-top: 2.5cm;
   page-break-after: avoid;
+}
+h2::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='18' viewBox='0 0 90 18'%3E%3Cpath d='M2,9 Q13,1 24,9 T46,9 T68,9 T88,9' fill='none' stroke='%232C5F6D' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E");
+  display: block;
+  text-align: center;
+  margin: 0 auto 0.35cm auto;
 }
 h3 {
   font-size: 12pt;
@@ -51,9 +61,76 @@ h3 {
   color: #3a3a3a;
   page-break-after: avoid;
 }
-h4 { font-size: 10.5pt; font-weight: bold; page-break-after: avoid; }
+h4 {
+  font-size: 13pt;
+  font-style: italic;
+  font-weight: bold;
+  text-align: center;
+  color: #14213d;
+  margin-top: 1.6cm;
+  margin-bottom: 0.8cm;
+  page-break-before: always;
+  break-before: page;
+  page-break-after: avoid;
+}
 p { margin: 0 0 0.32em 0; text-indent: 1.1em; }
-h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p { text-indent: 0; }
+h1 + p, h2 + p, h3 + p, h4 + p, blockquote + p, h2 + figure + p { text-indent: 0; }
+/* Raised initial capital on the opening paragraph of each chapter, matching the web reading view */
+h2 + p::first-letter,
+h2 + figure + p::first-letter {
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 700;
+  font-size: 2.6em;
+  line-height: 1;
+  vertical-align: -0.14em;
+  margin-right: 0.03em;
+  color: #2C5F6D;
+}
+/* Poems: illustration on its own page, verse centered on the page right after it */
+.poem-image {
+  page-break-before: left;
+  break-before: left;
+  page-break-after: avoid;
+  break-after: avoid;
+  text-align: center;
+}
+.poem-image img {
+  max-height: 14.5cm;
+  margin: 1.2cm auto 0.5cm auto;
+}
+.poem {
+  page-break-before: right;
+  break-before: right;
+}
+.poem h3 { text-align: center; margin-top: 0.5cm; }
+.poem > p { text-align: center; text-indent: 0; }
+.poem > p:nth-of-type(n+2) {
+  font-style: italic;
+  line-height: 1.45;
+  margin: 0 0 0.5em 0;
+}
+.glosario {
+  page-break-before: always;
+  break-before: page;
+}
+.glosario h3 {
+  text-align: center;
+  margin-top: 1.3cm;
+  margin-bottom: 1cm;
+}
+.glosario p {
+  text-align: left;
+  text-indent: -1.1em;
+  margin: 0 0 0.6em 1.1em;
+}
+.glosario p:has(> .glosario-sub) {
+  text-indent: 0;
+  margin: 1cm 0 0.6em 0;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: #3a3a3a;
+}
 blockquote {
   font-style: italic;
   margin: 0.5em 1.4em;
@@ -62,12 +139,34 @@ blockquote {
   padding-left: 0.6em;
   text-indent: 0;
 }
-hr {
-  border: none;
-  border-top: 0.5pt solid #b8945a;
-  width: 30%;
-  margin: 1.1em auto;
+hr { display: none; }
+figcaption { display: none; }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.9em 0 1.3em 0;
+  font-size: 8.3pt;
+  line-height: 1.35;
+  page-break-inside: avoid;
 }
+thead th {
+  background: #2C5F6D;
+  color: #fff;
+  text-align: left;
+  padding: 0.42em 0.5em;
+  font-weight: bold;
+}
+thead th:first-child { border-top-left-radius: 4pt; }
+thead th:last-child { border-top-right-radius: 4pt; }
+tbody td {
+  padding: 0.4em 0.5em;
+  border-bottom: 0.5pt solid #d9d5c9;
+  vertical-align: top;
+  text-indent: 0;
+}
+tbody tr:nth-child(even) td { background: #f4f1ea; }
+tbody tr:last-child td { border-bottom: 0.75pt solid #2C5F6D; }
+td p, th p { margin: 0; text-indent: 0; }
 img {
   display: block;
   max-width: 100%;
@@ -83,23 +182,16 @@ nav#TOC {
 nav#TOC ul { list-style: none; padding-left: 1em; }
 nav#TOC > ul { padding-left: 0; }
 nav#TOC a { text-decoration: none; color: #14213d; }
-/* Full-bleed cover page: no margin, no page number */
-@page :first {
-  margin: 0;
-  @bottom-center { content: ""; }
-}
-img.cover {
-  width: 15.5cm;
-  height: 23.2cm;
-  max-width: none;
-  max-height: none;
-  object-fit: cover;
-  margin: 0;
-  display: block;
+.dedicatoria {
+  page-break-before: always;
+  break-before: page;
   page-break-after: always;
+  break-after: always;
+  text-align: center;
+  margin-top: 8cm;
 }
-p:has(> img.cover) {
-  margin: 0;
+.dedicatoria p {
   text-indent: 0;
+  font-style: italic;
+  font-size: 12pt;
 }
-img.cover + figcaption { display: none; }

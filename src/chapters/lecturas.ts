@@ -33,6 +33,12 @@ const ORDER = [
   "cap_calibracion",
   "cap_maquina_tiempo",
   "cap_horizonte_prestado",
+  // Lecturas de los cuatro últimos libros
+  "cap_lecturas_espejo",
+  "cap_lecturas_espejo_lenguaje",
+  "cap_lecturas_diapason",
+  "cap_lecturas_ojo",
+  "cap_lecturas_fractal",
 ];
 
 export const lecturasTopologicas: Chapter[] = ORDER.map((id) => {

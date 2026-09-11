@@ -329,7 +329,17 @@ const AloneModal: React.FC<{
   </motion.div>
 );
 
+// Láminas de los cuatro últimos libros: cualquier archivo que aparezca en
+// src/assets/images/libros/ (las genera scripts/generate_libros_illustrations.mjs)
+// queda registrado con su nombre de archivo como id, sin tocar este archivo.
+const librosImages = Object.fromEntries(
+  Object.entries(
+    import.meta.glob("../assets/images/libros/*.{png,jpg,jpeg}", { eager: true, import: "default" }) as Record<string, string>
+  ).map(([path, src]) => [path.split("/").pop()!.replace(/\.(png|jpe?g)$/, ""), src])
+);
+
 const imageMap: Record<string, string> = {
+  ...librosImages,
   tarel_agua_portada: imgTarelAguaPortada,
   cartografia_eco_p1: imgCartografiaEcoP1,
   tarel_agua_p1: imgTarelAguaP1,

@@ -161,6 +161,18 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
           };
           return mapping[num] || "cap9";
         }
+        if (poema.id.startsWith("poema_camara")) {
+          // Poemas de los cuatro últimos libros: cuelgan de su capítulo.
+          const mapping: Record<string, string> = {
+            poema_camara_reloj: "cap7", // El tiempo que no pasa → El tiempo del vínculo
+            poema_camara_espejo: "cap_espejo_sin_profundidad",
+            poema_camara_manos: "cap_diapason_invisible",
+            poema_camara_coro: "cap_ojo_un_solo_color",
+            poema_camara_vecinos: "cap_realidad_fractal",
+            poema_camara_cueva: "cap_realidad_fractal",
+          };
+          return mapping[poema.id] || "cap13";
+        }
         return "cap13"; // poema_glosario (glosa la serie "La arquitectura con un hueco", acuñada en este capítulo)
       })();
 
