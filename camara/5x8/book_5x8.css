@@ -1,0 +1,78 @@
+@page {
+  size: 5in 8in;
+  margin: 1.5cm 1.4cm 1.9cm 1.4cm;
+  @bottom-center {
+    content: counter(page);
+    font-family: "Liberation Serif", Georgia, serif;
+    font-size: 8pt;
+    color: #666;
+  }
+}
+#title-block-header { display: none; }
+body {
+  font-family: "Liberation Serif", "Times New Roman", Georgia, serif;
+  font-size: 9.3pt;
+  line-height: 1.45;
+  color: #1c1c1c;
+  hyphens: auto;
+  text-align: justify;
+  orphans: 3;
+  widows: 3;
+}
+h1 {
+  font-size: 19pt;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 2.4cm;
+  margin-bottom: 0.7cm;
+  color: #14213d;
+}
+.titlepage p {
+  text-indent: 0;
+  text-align: center;
+  font-size: 10pt;
+}
+h2 {
+  font-size: 14pt;
+  font-weight: bold;
+  margin-top: 0;
+  text-align: center;
+  color: #14213d;
+  page-break-before: always;
+  break-before: page;
+  padding-top: 2.2cm;
+  border-bottom: 0.75pt solid #b8945a;
+  padding-bottom: 0.3cm;
+  page-break-after: avoid;
+}
+h3 {
+  font-size: 11pt;
+  font-style: italic;
+  font-weight: bold;
+  margin-top: 0.8cm;
+  margin-bottom: 0.25cm;
+  color: #3a3a3a;
+  page-break-after: avoid;
+}
+p { margin: 0 0 0.3em 0; text-indent: 1em; }
+h1 + p, h2 + p, h3 + p { text-indent: 0; }
+.poem {
+  page-break-before: always;
+  break-before: page;
+}
+.poem h3 { text-align: center; margin-top: 0.6cm; }
+.poem > p { text-align: center; text-indent: 0; }
+.poem > p:nth-of-type(n+2) {
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0 0 0.55em 0;
+}
+.sep {
+  text-align: center;
+  font-style: italic;
+  color: #8a7a5c;
+  margin: 1.1em 0;
+  text-indent: 0;
+}
+em { color: #1c1c1c; }
+strong { color: #14213d; }
