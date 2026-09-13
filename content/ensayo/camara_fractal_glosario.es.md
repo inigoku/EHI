@@ -16,7 +16,7 @@ Vecino de abajo. Lo que yo sostengo sin que pueda verme: lo que imagino, sueño,
 
 Absoluto epistemológico. Lo que es último no porque no haya nada detrás, sino porque desde aquí no se puede mirar detrás.
 
-Amplitud. La única magnitud que separa un nivel del siguiente; lo que crece en un santo sin que cambie su naturaleza.
+Amplitud. Lo que crece en un santo sin que cambie su naturaleza ni el tamaño de su campo: no separa un nivel del siguiente, porque ningún nivel es más grande que otro.
 
 Fractal de interioridades. Un universo sin primer nivel ni último, en el que cada horizonte es criatura hacia arriba y creador hacia abajo.
 

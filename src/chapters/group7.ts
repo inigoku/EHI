@@ -48,7 +48,6 @@ const ORDER = [
   "camara_fractal_poema_vecinos",
   "camara_fractal_epilogo",
   "camara_fractal_poema_desde_la_cueva",
-  "camara_fractal_lecturas",
   "camara_fractal_nota",
   "camara_fractal_glosario",
   "camara_fractal_notas",

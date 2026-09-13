@@ -16,7 +16,9 @@ Eso es lo que no sabría explicar, si tuviera que explicárselo a alguien: que e
 
 Ha pensado a veces que eso es lo que distingue a un dragón imaginado de una simple idea: que la idea se deja pensar y el dragón, no del todo.
 
-Hay una cosa que nunca ha hecho, y es preguntarle al dragón qué ve cuando mira hacia arriba. Desde dentro de la cueva, quiere decir. Desde dentro de los montes del color de las piedras mojadas. Si nota, alguna vez, que hay alguien más allá del techo de roca pensándolo, sosteniéndolo, decidiendo si esta noche vuela o no. Si el dragón tiene, a su manera, una práctica. Una nota que sostiene hacia arriba sin saber si alguien la escucha.
+Hay una cosa que nunca ha hecho, y es preguntarle al dragón qué ve cuando mira hacia arriba.
+
+Desde dentro de la cueva, quiere decir. Desde dentro de los montes del color de las piedras mojadas. Si nota, alguna vez, que hay alguien más allá del techo de roca pensándolo, sosteniéndolo, decidiendo si esta noche vuela o no. Si el dragón tiene, a su manera, una práctica. Una nota que sostiene hacia arriba sin saber si alguien la escucha.
 
 No se lo pregunta porque sospecha la respuesta, y la respuesta le da vértigo. No por el dragón. Por él.
 
