@@ -1,5 +1,6 @@
 import React from "react";
 import { allChapters, Chapter, cuentosList, poemasList, jovenList } from "./chapters";
+import { getPoemPosition } from "./chapters/poemas";
 import { Sidebar } from "./components/Sidebar";
 import { ChapterContent } from "./components/ChapterContent";
 import { GlossaryDrawer } from "./components/GlossaryDrawer";
@@ -135,7 +136,7 @@ export default function App() {
   // the "PART: N of TOTAL" header — computed instead of hardcoded so it never
   // goes stale as chapters are added, moved, or renumbered.
   const numberedEssayChapterCount = React.useMemo(() => {
-    return allChapters.filter((c) => c.chapterNumber && !isNaN(Number(c.chapterNumber))).length;
+    return allChapters.filter((c) => c.chapterNumber && c.chapterNumber !== "0" && !isNaN(Number(c.chapterNumber))).length;
   }, []);
 
   // Find active chapter object
@@ -470,19 +471,24 @@ export default function App() {
           <span className="opacity-30">|</span>
           <span>
             {readingMode === "essay" ? (
-              activeChapter.chapterNumber ? (
+              activeChapter.chapterNumber && activeChapter.chapterNumber !== "0" ? (
                 !isNaN(Number(activeChapter.chapterNumber)) ? (
                   <>{t.header.part}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} {numberedEssayChapterCount}</strong></>
                 ) : (
                   <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
                 )
               ) : (
-                <><strong className={`font-semibold ${themeColors.text}`}>{t.header.interludio}</strong></>
+                // Sin número: prólogo, interludio y las introducciones (cap0, Tarel).
+                <><strong className={`font-semibold ${themeColors.text}`}>{
+                  activeChapter.id === "interludio" ? t.header.interludio
+                  : activeChapter.id === "prologo" ? t.header.prologue
+                  : t.header.intro
+                }</strong></>
               )
             ) : readingMode === "cuentos" ? (
               activeChapter.chapterNumber ? (
                 !isNaN(Number(activeChapter.chapterNumber)) ? (
-                  <>{t.header.story}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} 18</strong></>
+                  <>{t.header.story}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} {cuentosList.length - 1}</strong></>
                 ) : (
                   <><strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber}</strong></>
                 )
@@ -490,15 +496,13 @@ export default function App() {
                 <>{t.header.story}: <strong className={`font-semibold ${themeColors.text}`}>{t.header.prologue}</strong></>
               )
             ) : readingMode === "poemas" ? (
-              <>{t.header.poem}: <strong className={`font-semibold ${themeColors.text}`}>{
-                activeChapterId === "poema_glosario"
-                  ? t.header.glossary
-                  : activeChapterId.startsWith("poema_arq")
-                  ? `${t.header.link} ${activeChapterId.replace("poema_arq", "")} ${t.header.of} 8`
-                  : activeChapterId.startsWith("poema_frialdad")
-                  ? `${activeChapterId.replace("poema_frialdad", "")} ${t.header.of} 6`
-                  : ""
-              }</strong></>
+              <>{t.header.poem}: <strong className={`font-semibold ${themeColors.text}`}>{(() => {
+                const pos = getPoemPosition(activeChapterId);
+                if (pos.group === "glosario") return t.header.glossary;
+                if (pos.group === "arq") return `${t.header.link} ${pos.n} ${t.header.of} ${pos.total}`;
+                if (pos.group === "camara") return `${t.header.chamber} ${pos.n} ${t.header.of} ${pos.total}`;
+                return `${pos.n} ${t.header.of} ${pos.total}`;
+              })()}</strong></>
             ) : (
               <>{t.header.part}: <strong className={`font-semibold ${themeColors.text}`}>{activeChapter.chapterNumber} {t.header.of} {jovenList.length}</strong></>
             )}

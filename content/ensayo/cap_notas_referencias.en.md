@@ -15,9 +15,9 @@ The notes in this book are not proof of authority. They are traces of where I ha
 
 Abbott, B.P., et al. (LIGO Scientific Collaboration and Virgo Collaboration). (2016). Observation of Gravitational Waves from a Binary Black Hole Merger. *Physical Review Letters*, 116(6).
 
-Ainsworth, M.D.S., et al. (1978). *Patterns of Attachment: A Psychological Study of the Strange Situation*. Lawrence Erlbaum.
-
 Ainley, V., Maister, L., & Tsakiris, M. (2015). Heartfelt imitation: High interoceptive awareness is linked to greater automatic imitation. *Neuropsychologia*, 60.
+
+Ainsworth, M.D.S., et al. (1978). *Patterns of Attachment: A Psychological Study of the Strange Situation*. Lawrence Erlbaum.
 
 Allport, G.W. (1954). *The Nature of Prejudice*. Addison-Wesley.
 
@@ -44,6 +44,10 @@ Borjigin, J., et al. (2013). Surge of neurophysiological coherence and connectiv
 Borjigin, J., et al. (2023). Paradoxical lucidity: A potential window into the dying brain. *Alzheimer's & Dementia*, 19(2).
 
 Bose, S.N. (1924). Plancks Gesetz und Lichtquantenhypothese. *Zeitschrift für Physik*, 26.
+
+Bostrom, N. (2003). Are You Living in a Computer Simulation? *Philosophical Quarterly*, 53(211).
+
+Bostrom, N. (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press.
 
 Bradshaw, J. (2017). *The Animals Among Us: How Pets Make Us Human*. Basic Books.
 
@@ -83,9 +87,15 @@ Feldman, R. (2015). The adaptive human parental brain: Implications for children
 
 Fernández Mallo, A. (2026). *El ángel de la Inteligencia Artificial*. Galaxia Gutenberg.
 
+Festinger, L., Pepitone, A., & Newcomb, T. (1952). Some consequences of de-individuation in a group. *Journal of Abnormal and Social Psychology*, 47(2).
+
 Fisher, H. (2004). *Why We Love: The Nature and Chemistry of Romantic Love*. Henry Holt & Co.
 
+Friedman, J., Morris, M.S., Novikov, I.D., et al. (1990). Cauchy problem in spacetimes with closed timelike curves. *Physical Review D*, 42(6).
+
 Fukushima, H., Terasawa, Y., & Umeda, S. (2011). Association between interoception and empathy: Evidence from heartbeat-evoked brain potential. *International Journal of Psychophysiology*, 79(2).
+
+Godfrey-Smith, P. (2016). *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*. Farrar, Straus and Giroux.
 
 Hameroff, S., & Penrose, R. (2014). Consciousness in the universe: A review of the 'Orch OR' theory. *Physics of Life Reviews*, 11(1).
 
@@ -95,6 +105,8 @@ Hasson, U., et al. (2012). Brain-to-brain coupling: A mechanism for sharing and 
 
 Hawking, S.W. (1974). Black Hole Explosions? *Nature*, 248(5443).
 
+Hawking, S.W. (1992). Chronology protection conjecture. *Physical Review D*, 46(2).
+
 Hawking, S.W., Perry, M.J., & Strominger, A. (2016). Soft Hair on Black Holes. *Physical Review Letters*, 116(23).
 
 Hazan, C., & Shaver, P. (1987). Romantic Love Conceptualized as an Attachment Process. *Journal of Personality and Social Psychology*, 52(3).
@@ -103,9 +115,15 @@ Hodges, J.R., & Patterson, K. (2007). Semantic dementia and fluent primary progr
 
 Hossenfelder, S. (2018). *Lost in Math: How Beauty Leads Physics Astray*. Basic Books.
 
+Hume, D. (1748). *An Enquiry Concerning Human Understanding*. A. Millar.
+
+Jung, C.G. (1951). *Aion: Researches into the Phenomenology of the Self*. Princeton University Press.
+
 Klass, D., Silverman, P.R., & Nickman, S.L. (1996). *Continuing Bonds: New Understandings of Grief*. Taylor & Francis.
 
 Klimecki, O.M., Leiberg, S., Ricard, M., & Singer, T. (2014). Differential pattern of functional brain plasticity after compassion and empathy training. *Social Cognitive and Affective Neuroscience*, 9(6).
+
+Le Bon, G. (1895). *Psychologie des foules*. Félix Alcan.
 
 Leggett, A.J. (2001). Bose-Einstein condensation in the alkali gases: Some simple physics. *Reviews of Modern Physics*, 73(2).
 
@@ -115,7 +133,11 @@ Maldacena, J. (1997). The Large N limit of superconformal field theories and sup
 
 Maldacena, J., & Susskind, L. (2013). Cool horizons for entangled black holes. *Fortschritte der Physik*, 61(9).
 
+Mandelbrot, B.B. (1982). *The Fractal Geometry of Nature*. W.H. Freeman.
+
 Marin-Padilla, M. (2011). The human brain prenatal subplate: its progenitor cells, structural/functional development, and evolution. *Frontiers in Neuroanatomy*, 5.
+
+McAdam, D. (1982). *Political Process and the Development of Black Insurgency, 1930–1970*. University of Chicago Press.
 
 Michell, J. (1784). On the Means of Discovering the Distance, Magnitude, &c. of the Fixed Stars. *Philosophical Transactions of the Royal Society*, 74.
 
@@ -132,6 +154,8 @@ Oppenheimer, J.R., & Snyder, H. (1939). On Continued Gravitational Contraction. 
 Panksepp, J. (1998). *Affective Neuroscience: The Foundations of Human and Animal Emotions*. Oxford University Press.
 
 Pettigrew, T.F., & Tropp, L.R. (2006). A meta-analytic test of intergroup contact theory. *Journal of Personality and Social Psychology*, 90(5).
+
+Poincaré, H. (1890). Sur le problème des trois corps et les équations de la dynamique. *Acta Mathematica*, 13.
 
 Rizzolatti, G., & Sinigaglia, C. (2008). *Mirrors in the Brain: How Our Minds Share Actions and Emotions*. Oxford University Press.
 
@@ -155,7 +179,15 @@ Sloterdijk, P. (1998-2004). *Esferas (I, II, III)*. Siruela.
 
 Stroebe, M., & Schut, H. (1999). The dual process model of coping with bereavement: Rationale and description. *Death Studies*, 23(3).
 
+Suddendorf, T., & Corballis, M.C. (2007). The evolution of foresight: What is mental time travel, and is it unique to humans? *Behavioral and Brain Sciences*, 30(3).
+
 Susskind, L. (1995). The World as a Hologram. *Journal of Mathematical Physics*, 36(11).
+
+Tegmark, M. (2017). *Life 3.0: Being Human in the Age of Artificial Intelligence*. Knopf.
+
+Thorne, K.S. (1994). *Black Holes and Time Warps: Einstein's Outrageous Legacy*. W.W. Norton.
+
+Tolkien, J.R.R. (1947). On Fairy-Stories. In: *Essays Presented to Charles Williams*. Oxford University Press.
 
 Tononi, G. (2008). Consciousness as integrated information: A provisional manifesto. *The Biological Bulletin*, 215(3).
 
@@ -174,6 +206,10 @@ van der Kolk, B. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the
 Volkow, N.D., et al. (2016). Neurobiologic Advances from the Brain Disease Model of Addiction. *New England Journal of Medicine*, 374(4).
 
 Winnicott, D.W. (1971). *Playing and Reality*. Tavistock Publications.
+
+Zhuangzi. *Zhuangzi* (chs. 2 and 7). Trans. B. Watson, Columbia University Press (1968).
+
+Zimbardo, P.G. (1969). The human choice: Individuation, reason, and order versus deindividuation, impulse, and chaos. *Nebraska Symposium on Motivation*, 17.
 
 Zurek, W.H. (2003). Decoherence, einselection, and the quantum origins of the classical. *Reviews of Modern Physics*, 75(3).
 

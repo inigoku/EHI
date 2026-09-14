@@ -42,6 +42,17 @@ const ORDER = [
   "cuento_mussara",
   "cuento_sintonizadores",
   "cuento16",
+  // Oberturas y epílogos de los cuatro últimos libros (El espejo sin
+  // profundidad, El diapasón invisible, La realidad fractal, El ojo de un
+  // solo color), integrados como relatos; cada uno enlaza con su capítulo.
+  // "El que queda" (epílogo de El espejo sin profundidad) es cuento16.
+  "cuento_estanque",
+  "cuento_amanezca",
+  "cuento_ultimos_minutos",
+  "cuento_dragon",
+  "cuento_vecino_arriba",
+  "cuento_plaza",
+  "cuento_chapa",
   "cuento_txiki",
 ];
 

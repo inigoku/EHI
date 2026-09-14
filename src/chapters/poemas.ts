@@ -28,7 +28,6 @@ const ORDER = [
   "poema_arq6",
   "poema_arq7",
   "poema_arq8",
-  "poema_glosario",
   "poema_frialdad1",
   "poema_frialdad2",
   "poema_frialdad3",
@@ -36,7 +35,43 @@ const ORDER = [
   "poema_frialdad5",
   "poema_frialdad6",
   "poema_sintonizadores",
+  // Poemas de los últimos libros (El tiempo que no pasa, El espejo sin
+  // profundidad, El diapasón invisible, El ojo de un solo color, La realidad
+  // fractal). "Montse XXI" (El diapasón invisible) ya figura como VI de "La
+  // frialdad de una ciudad apagada" y no se repite aquí.
+  "poema_camara_reloj",
+  "poema_camara_espejo",
+  "poema_camara_manos",
+  "poema_camara_coro",
+  "poema_camara_vecinos",
+  "poema_camara_cueva",
+  // El Glosario íntimo cierra la antología: glosa todos los ciclos, no solo
+  // "La arquitectura con un hueco".
+  "poema_glosario",
 ];
+
+// Posición de un poema dentro de su ciclo ("Enlace 3 de 8", "Frialdad 7 de
+// 7", "Cámara 2 de 6") para las etiquetas de cabecera y de pie de página.
+// Derivada de ORDER para que no se desactualice al añadir o mover poemas.
+export type PoemGroup = "arq" | "frialdad" | "camara" | "glosario";
+export interface PoemPosition {
+  group: PoemGroup;
+  n: number;
+  total: number;
+}
+
+function poemGroupOf(id: string): PoemGroup {
+  if (id === "poema_glosario") return "glosario";
+  if (id.startsWith("poema_arq")) return "arq";
+  if (id.startsWith("poema_camara")) return "camara";
+  return "frialdad"; // poema_frialdad1..6 y poema_sintonizadores (VII)
+}
+
+export function getPoemPosition(id: string): PoemPosition {
+  const group = poemGroupOf(id);
+  const members = ORDER.filter((x) => poemGroupOf(x) === group);
+  return { group, n: members.indexOf(id) + 1, total: members.length };
+}
 
 export const poemasList: Chapter[] = ORDER.map((id) => {
   const esRaw = esById.get(id);

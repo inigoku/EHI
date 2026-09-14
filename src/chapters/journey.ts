@@ -27,7 +27,7 @@ export const cuentoToPoema: Record<string, string> = {
   cuento0: "poema_arq1",              // EL HORIZONTE INTERIOR (nota del archivista) → EL ARCHIVISTA (comparte con cuento12b)
   cuento1: "poema_arq6",              // LA COSTUMBRE DEL AGUA → EL REMO
   cuento2: "poema_arq5",              // LA BURBUJA QUE NO ANUNCIÓ SU CIERRE → LA BURBUJA
-  cuento3: "poema_arq2",              // EL NIÑO QUE APRENDIÓ A MEDIR EL TIEMPO → EL RELOJERO (comparte con cuento13)
+  cuento3: "poema_camara_reloj",      // EL NIÑO QUE APRENDIÓ A MEDIR EL TIEMPO → LO QUE NO CABE EN UN RELOJ (mismo movimiento de cámara)
   cuento4: "poema_glosario",          // LA RED DE LOS NOMBRES → GLOSARIO ÍNTIMO (comparte con cuento_ladron)
   cuento5: "poema_arq4",              // LA CASA QUE RESPIRABA → LA CANCIÓN (comparte con cuento10)
   cuento6: "poema_arq7",              // LA MÁQUINA QUE APRENDÍA A ESPERAR → EL TEMBLOR
@@ -46,6 +46,13 @@ export const cuentoToPoema: Record<string, string> = {
   cuento_luthier: "poema_arq3",       // LA TIENDA DEL LUTHIER → EL LUTHIER
   cuento_mussara: "poema_frialdad4",  // LA NIEBLA DE LA MUSSARA → VILLANCICO CIBERNÉTICO
   cuento_sintonizadores: "poema_sintonizadores", // LOS SINTONIZADORES → EL NUDO DE LA MEZCLA
+  cuento_estanque: "poema_camara_espejo",     // EL ESTANQUE → LO QUE EL ESPEJO NO TIENE
+  cuento_amanezca: "poema_camara_manos",      // ANTES DE QUE AMANEZCA → MANOS
+  cuento_ultimos_minutos: "poema_frialdad6",  // LOS ÚLTIMOS MINUTOS → MONTSE XXI (así cierra El diapasón invisible)
+  cuento_dragon: "poema_camara_vecinos",      // EL DRAGÓN → VECINOS
+  cuento_vecino_arriba: "poema_camara_cueva", // EL VECINO DE ARRIBA → DESDE LA CUEVA
+  cuento_plaza: "poema_camara_coro",          // LA PLAZA LLENA → CORO
+  cuento_chapa: "poema_camara_coro",          // LA CHAPA EN EL CAJÓN → CORO (comparte con cuento_plaza)
   // cuento_txiki queda sin poema asignado (coda especial).
 };
 
