@@ -38,7 +38,6 @@ const ORDER = [
   "cap_lecturas_espejo_lenguaje",
   "cap_lecturas_diapason",
   "cap_lecturas_ojo",
-  "cap_lecturas_fractal",
 ];
 
 export const lecturasTopologicas: Chapter[] = ORDER.map((id) => {

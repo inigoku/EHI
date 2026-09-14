@@ -2,40 +2,33 @@
 title: LA REALIDAD FRACTAL — VECINOS
 section: LOS ÚLTIMOS LIBROS
 illustrationTitle: Vecinos
-illustrationDescription: Una escalera de vecinos sin portal ni azotea: cada techo es el suelo de alguien, y todos, a la vez, escuchan.
+illustrationDescription: Un plano que nunca cierra, dibujado a partir de golpes y voces al otro lado de la pared, donde cada sala parece contener otra.
 ---
 
-Nadie ha visto al vecino de arriba.
-Se le oye, a veces,
-como se oye una casa:
-un peso que cambia de sitio,
-una cañería que suena
-cuando uno no ha abierto el grifo.
+Cada pared tiene, detrás,
+una habitación que no he visto,
+y en ella, seguramente,
+una pared igual a esta.
 
-Abajo también viven.
-Tampoco me han visto.
-Cuando muevo una silla
-algo, en su cielo, truena sin nube,
-y ellos levantan la cabeza
-y no saben si fue nadie.
+Golpeo dos veces y cuento.
+El sonido vuelve tarde,
+como si cruzara más cuartos
+de los que caben en la casa.
 
-Cada techo es el suelo de alguien.
-Cada suelo, un techo.
-La escalera no tiene portal
-ni azotea:
-sube y baja desde siempre
-y nadie ha visto los extremos.
+He dibujado un plano
+de todo lo que oigo:
+pasos, un grifo, una silla
+que alguien arrastra sin verla.
+El plano no cierra nunca:
+cada sala tiene otra dentro.
 
-Se puede rezar hacia arriba.
-Se puede cuidar hacia abajo.
-Son el mismo gesto
-mirado desde los dos lados
-de una losa que ninguno
-puede levantar.
+Algunas ventanas dan a un patio.
+Otras dan a otra ventana
+donde alguien, ahora mismo,
+copia este mismo plano.
 
-Y si un día hago silencio
-y el de arriba hace silencio
-y el de abajo hace silencio,
-no será que la casa está vacía.
-Será que todos, a la vez,
-estamos escuchando.
+Dejo una luz encendida
+que no ilumina nada mío.
+Es solo una señal,
+por si el sonido, al volver,
+trae la misma pregunta.

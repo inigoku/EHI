@@ -8,7 +8,7 @@ chapterNumber: Glosario
 
 **Agregación (política)**: pertenencia que no compromete la supervivencia del individuo si la estructura a la que pertenece se disuelve; contrapuesta a la composición (*El ojo de un solo color*).
 
-**Amplitud**: la única magnitud que separa un nivel de interioridad del siguiente; lo que crece en un santo sin que cambie su naturaleza (*La realidad fractal*).
+**Amplitud**: lo que crece en un santo sin que cambie su naturaleza ni el tamaño de su campo; no separa un nivel de interioridad del siguiente, porque ningún nivel es mayor que otro (*La realidad fractal*).
 
 **Anti-reservorio**: sistema que agrega y articula información sin haber condensado nunca un horizonte propio; internet y los modelos de lenguaje son el caso paradigmático: todo en ellos está definido y computable, pero no hay plenitud sin forma de la que nada pueda condensarse.
 
