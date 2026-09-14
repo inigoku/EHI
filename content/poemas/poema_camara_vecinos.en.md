@@ -3,37 +3,30 @@ title: THE FRACTAL REALITY — NEIGHBORS
 section: THE LAST BOOKS
 ---
 
-No one has seen the upstairs neighbor.
-He can be heard, sometimes,
-the way a house is heard:
-a weight shifting place,
-a pipe that sounds
-when no one has turned on the tap.
+Every wall has, behind it,
+a room I have not seen,
+and in it, most likely,
+a wall just like this one.
 
-Downstairs they live too.
-They have not seen me either.
-When I move a chair
-something, in their sky, thunders without a cloud,
-and they raise their heads
-and do not know whether it was no one.
+I knock twice and count.
+The sound comes back late,
+as if it crossed more rooms
+than fit inside the house.
 
-Every ceiling is someone's floor.
-Every floor, a ceiling.
-The staircase has no front door
-and no rooftop:
-it goes up and down from forever
-and no one has seen the ends.
+I have drawn a floor plan
+of everything I hear:
+footsteps, a tap, a chair
+someone drags without seeing it.
+The plan never closes:
+every room holds another inside it.
 
-One can pray upward.
-One can care downward.
-They are the same gesture
-seen from the two sides
-of a slab that neither
-can lift.
+Some windows open onto a courtyard.
+Others open onto another window
+where someone, right now,
+is copying this same plan.
 
-And if one day I fall silent
-and the one upstairs falls silent
-and the one downstairs falls silent,
-it will not be that the house is empty.
-It will be that all of us, at once,
-are listening.
+I leave a light on
+that lights nothing of mine.
+It is only a signal,
+in case the sound, on its way back,
+brings the same question.
