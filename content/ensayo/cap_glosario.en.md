@@ -7,7 +7,7 @@ section: APPENDICES AND GLOSSARY
 
 **Aggregation (political)**: belonging that does not compromise the individual's survival if the structure they belong to dissolves; as opposed to composition (*The Eye of a Single Color*).
 
-**Amplitude**: the only magnitude separating one level of interiority from the next; what grows in a saint without changing their nature (*The Fractal Reality*).
+**Amplitude**: what grows in a saint without changing their nature or the size of their field; it does not separate one level of interiority from the next, because no level is greater than another (*The Fractal Reality*).
 
 **Anti-reservoir**: a system that aggregates and articulates information without ever having condensed a horizon of its own; the internet and language models are the paradigm case: everything in them is defined and computable, but there is no formless fullness from which anything could condense.
 
