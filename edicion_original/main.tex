@@ -1,0 +1,230 @@
+\documentclass[11pt,twoside,openright]{memoir}
+% ---------- Formato KDP tapa dura 6 x 9 in, sin sangrado ----------
+\setstocksize{9in}{6in}
+\settrimmedsize{9in}{6in}{*}
+\settrims{0pt}{0pt}
+\setlrmarginsandblock{0.82in}{0.62in}{*}   % interior (lomo), exterior
+\setulmarginsandblock{0.85in}{0.9in}{*}
+\setheadfoot{16pt}{24pt}
+\setheaderspaces{*}{16pt}{*}
+\checkandfixthelayout
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+\setmainlanguage{spanish}
+\setmainfont{EBGaramond}[
+  Path=./, Extension=.otf,
+  UprightFont=*-Regular, ItalicFont=*-Italic,
+  BoldFont=*-SemiBold, BoldItalicFont=*-SemiBoldItalic,
+  Numbers=OldStyle, Ligatures=TeX]
+\newfontfamily\garamondmedium{EBGaramond}[Path=./,Extension=.otf,UprightFont=*-Medium,ItalicFont=*-MediumItalic,Numbers=Lining]
+
+\usepackage{microtype}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\definecolor{gris}{gray}{0.42}
+\definecolor{grisclaro}{gray}{0.72}
+\usepackage[most]{tcolorbox}
+\usepackage{needspace}
+\usepackage{lettrine}
+\usepackage{booktabs,tabularx}
+\usepackage{enumitem}
+\usepackage{tikz}
+\usepackage{emptypage}
+
+% ---------- Texto ----------
+\renewcommand{\normalsize}{\fontsize{11.2pt}{15.1pt}\selectfont}
+\normalsize
+\setlength{\parindent}{1.25em}
+\setlength{\parskip}{0pt}
+\raggedbottomsectionfalse
+\widowpenalty=10000 \clubpenalty=10000
+\brokenpenalty=5000
+\emergencystretch=3em \tolerance=900
+\frenchspacing
+\setlist[itemize]{label=\textcolor{gris}{\textbullet},leftmargin=2.2em,itemsep=2pt,topsep=5pt}
+
+% flotantes
+\renewcommand{\topfraction}{0.85}
+\renewcommand{\bottomfraction}{0.6}
+\renewcommand{\textfraction}{0.12}
+\renewcommand{\floatpagefraction}{0.66}
+\setlength{\textfloatsep}{16pt plus 4pt minus 2pt}
+\setlength{\floatsep}{14pt}
+
+% ---------- Utilidades ----------
+\newcommand{\espaciado}[1]{{\addfontfeature{LetterSpace=9}#1}}
+\newcommand{\ornamento}{\par{\centering\color{gris}\rule[0.55ex]{2.2em}{0.4pt}\hspace{0.6em}\raisebox{0.1ex}{\scriptsize$\diamond$}\hspace{0.6em}\rule[0.55ex]{2.2em}{0.4pt}\par}}
+\newcommand{\lbl}[1]{\textup{\textsc{#1}}}
+\newcommand{\circnum}[1]{\tikz[baseline=(c.base)]\node[circle,draw=gris,line width=0.5pt,inner sep=0pt,minimum size=1.15em,font=\footnotesize\addfontfeature{Numbers=Lining}](c){#1};}
+\newcommand{\capital}[2]{\lettrine[lines=2,lhang=0.05,loversize=0.08,findent=0.18em,nindent=0em]{#1}{#2}}
+\newcommand{\primeras}[2]{\textsc{#1}#2}
+\setcounter{DefaultLines}{2}
+\renewcommand{\LettrineTextFont}{\scshape}
+
+% ---------- Cabeceras ----------
+\newcommand{\rh}[1]{{\footnotesize\scshape\addfontfeature{LetterSpace=6}\MakeLowercase{#1}}}
+\makepagestyle{libro}
+\makeevenhead{libro}{\small\thepage}{\rh{El horizonte interior}}{}
+\makeoddhead{libro}{}{\rh{\rightmark}}{\small\thepage}
+\makepagestyle{apertura}
+\makeevenfoot{apertura}{}{\small\thepage}{}
+\makeoddfoot{apertura}{}{\small\thepage}{}
+\aliaspagestyle{plain}{apertura}
+\pagestyle{libro}
+
+% ---------- Títulos ----------
+\newcommand{\capitulo}[4]{%
+  \cleardoublepage
+  \thispagestyle{apertura}%
+  \markboth{#2}{#2}%
+  \ifx\relax#1\relax
+    \addcontentsline{toc}{chapter}{\protect\entradatoc{}{#2}}%
+  \else
+    \addcontentsline{toc}{chapter}{\protect\entradatoc{#1}{#2}}%
+  \fi
+  \vspace*{0.55in}%
+  {\centering
+   \ifx\relax#1\relax\else{\small\color{gris}\espaciado{\scshape\MakeLowercase{#1}}}\par\vspace{12pt}\fi
+   {\fontsize{19pt}{25pt}\selectfont\addfontfeature{LetterSpace=5}\scshape\MakeLowercase{#2}\par}
+   \ifx\relax#3\relax\else\vspace{9pt}{\itshape #3\par}\fi
+   \vspace{14pt}\ornamento
+   \ifx\relax#4\relax\else\vspace{16pt}\includegraphics[width=\textwidth,height=0.34\textheight,keepaspectratio]{#4}\par\fi
+  }%
+  \vspace{26pt}%
+}
+\newcommand{\parte}[3]{%
+  \cleardoublepage
+  \thispagestyle{empty}%
+  \addcontentsline{toc}{part}{\protect\entradaparte{#1}{#2}}%
+  \vspace*{0.35in}%
+  {\centering
+   {\small\color{gris}\espaciado{\scshape\MakeLowercase{#1}}}\par\vspace{12pt}
+   {\fontsize{21pt}{27pt}\selectfont\addfontfeature{LetterSpace=5}\scshape\MakeLowercase{#2}\par}
+   \vspace{14pt}\ornamento\vspace{24pt}
+   \ifx\relax#3\relax\else\includegraphics[width=0.84\textwidth]{#3}\par\fi
+  }%
+  \clearpage
+}
+\newcommand{\seccion}[1]{%
+  \par\needspace{6\baselineskip}%
+  \vspace{1.25\baselineskip plus 3pt minus 2pt}%
+  {\centering\normalsize\scshape\addfontfeature{LetterSpace=4}#1\par}%
+  \nopagebreak\vspace{0.55\baselineskip}\nopagebreak
+}
+
+% ---------- Índice ----------
+\renewcommand{\contentsname}{Índice}
+\DeclareRobustCommand{\entradatoc}[2]{%
+  \ifx\relax#1\relax\else{\color{gris}\footnotesize\scshape\MakeLowercase{#1}}\enspace\fi
+  \scshape\MakeLowercase{#2}}
+\DeclareRobustCommand{\entradaparte}[2]{{\color{gris}\scshape\MakeLowercase{#1}}\enspace{\scshape\MakeLowercase{#2}}}
+\renewcommand{\cftchapterfont}{\normalfont\footnotesize}
+\renewcommand{\cftchapterpagefont}{\normalfont\footnotesize}
+\renewcommand{\cftchapterleader}{\cftdotfill{4}}
+\renewcommand{\cftdotsep}{4}
+\setlength{\cftbeforechapterskip}{0.4pt}
+\setlength{\cftchapterindent}{1.2em}
+\renewcommand{\cftpartfont}{\normalfont\footnotesize}
+\renewcommand{\cftpartpagefont}{\normalfont\footnotesize}
+\renewcommand{\cftpartleader}{\cftdotfill{4}}
+\setlength{\cftbeforepartskip}{5pt}
+\setrmarg{3.2em}\setpnumwidth{2em}
+
+% ---------- Cajas ----------
+\newenvironment{fisica}{%
+  \begin{tcolorbox}[enhanced jigsaw,breakable,blank,borderline west={0.6pt}{0pt}{grisclaro},
+    left=11pt,right=0pt,top=1pt,bottom=1pt,
+    before skip=9pt plus 2pt,after skip=10pt plus 2pt,
+    left skip=1.25em,right skip=1.25em,
+    fontupper=\small\itshape,parbox=false]
+  \setlength{\parindent}{0pt}\setlength{\parskip}{3pt}}%
+ {\end{tcolorbox}}
+
+\newenvironment{notacap}[1]{%
+  \par\needspace{8\baselineskip}\vspace{14pt}%
+  \begin{tcolorbox}[enhanced jigsaw,breakable,blank,
+    borderline north={0.4pt}{0pt}{gris},borderline south={0.4pt}{0pt}{gris},
+    top=9pt,bottom=9pt,left=0.6em,right=0.6em,
+    before skip=6pt,after skip=12pt,
+    fontupper=\small,parbox=false]
+  {\centering\footnotesize\color{gris}\espaciado{\scshape\MakeLowercase{#1}}\par}\vspace{7pt}%
+  \setlength{\parindent}{0pt}\setlength{\parskip}{5pt}\linespread{0.97}\selectfont}%
+ {\end{tcolorbox}}
+
+\newenvironment{cajalateral}[1]{%
+  \begin{tcolorbox}[enhanced jigsaw,breakable,colback=white,colframe=grisclaro,boxrule=0.5pt,arc=0pt,
+    left=10pt,right=10pt,top=8pt,bottom=8pt,before skip=12pt,after skip=12pt,
+    fontupper=\small,parbox=false]
+  {\centering\footnotesize\scshape\addfontfeature{LetterSpace=4}#1\par}\vspace{6pt}%
+  \setlength{\parindent}{0pt}\setlength{\parskip}{4pt}\itshape}%
+ {\end{tcolorbox}}
+
+\newenvironment{tesis}{\par\vspace{8pt}\begin{list}{}{\leftmargin=2.2em\rightmargin=2.2em}\item\relax\centering\itshape}{\end{list}\vspace{6pt}}
+\newenvironment{cita}{\par\vspace{6pt}\begin{list}{}{\leftmargin=2.4em\rightmargin=2.4em}\item\relax\itshape\setlength{\parskip}{3pt}}{\end{list}\vspace{4pt}}
+\newcommand{\atrib}[1]{\par{\raggedleft\upshape\footnotesize — \scshape #1\par}}
+
+\newcommand{\thead}[1]{\footnotesize\scshape\color{gris}\addfontfeature{LetterSpace=3}\MakeLowercase{#1}}
+\newcommand{\lamina}[1]{%
+  \clearpage
+  \ifodd\value{page}\thispagestyle{empty}\null\clearpage\fi
+  \thispagestyle{empty}\null
+  \begin{tikzpicture}[remember picture,overlay]
+    \node at (current page.center){\includegraphics[width=5in,height=7.5in,keepaspectratio]{#1}};
+  \end{tikzpicture}%
+  \clearpage}
+% glosario y referencias
+\newcommand{\glos}{\par\vspace{4pt}\hangindent=1.2em\hangafter=1\noindent}
+\newcommand{\refe}{\par\vspace{3pt}\small\hangindent=1.2em\hangafter=1\noindent}
+
+\newcommand{\finalpage}[1]{\cleardoublepage\thispagestyle{empty}\vspace*{0.3in}{\centering\includegraphics[width=0.62\textwidth]{#1}\par}\vspace{22pt}}
+\newcommand{\findelexperimento}{{\centering\ornamento\vspace{8pt}{\small\espaciado{\scshape fin del experimento}}\par}\vspace{10pt}}
+
+\begin{document}
+\frontmatter
+\pagestyle{empty}
+% Portadilla
+\vspace*{2.2in}
+{\centering\fontsize{17pt}{22pt}\selectfont\addfontfeature{LetterSpace=10}\scshape el horizonte interior\par}
+\clearpage
+% Frontispicio (verso) — se hace en la página par antes de la portada
+\clearpage
+\vspace*{\fill}
+{\centering\includegraphics[width=0.9\textwidth]{img/fig01_p5.jpg}\par}
+\vspace*{\fill}
+\clearpage
+% Portada interior
+\vspace*{1.3in}
+{\centering
+ {\fontsize{27pt}{36pt}\selectfont\addfontfeature{LetterSpace=8}\scshape el horizonte\\[2pt] interior\par}
+ \vspace{18pt}\ornamento\vspace{14pt}
+ {\large\itshape Un experimento de pensamiento\par}
+ \vfill
+ {\normalsize\addfontfeature{LetterSpace=8}\scshape íñigo barrera barceló\par}
+ \vspace{0.5in}
+}
+\clearpage
+% Créditos
+\vspace*{\fill}
+{\footnotesize\setlength{\parindent}{0pt}\setlength{\parskip}{5pt}
+\textit{El horizonte interior. Un experimento de pensamiento}
+
+© Íñigo Barrera Barceló, 2026
+
+Todos los derechos reservados. No se permite la reproducción total o parcial de este libro, ni su incorporación a un sistema informático, ni su transmisión en cualquier forma o por cualquier medio sin el permiso previo y por escrito del autor.
+
+Primera edición: 2026
+
+ISBN: 9798172477270
+\par}
+\clearpage
+\pagestyle{libro}
+\cleardoublepage
+{\pagestyle{empty}\thispagestyle{empty}
+{\centering\small\espaciado{\scshape\MakeLowercase{Índice}}\par}\vspace{12pt}
+\makeatletter\@starttoc{toc}\makeatother
+\clearpage}
+\pagestyle{libro}
+\input{cuerpo.tex}
+\vspace*{\fill}
+\end{document}
