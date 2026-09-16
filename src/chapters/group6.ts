@@ -7,13 +7,13 @@ import { Chapter, loadEssayChapters } from "./group1";
 // poemas en poemas.ts y sus lecturas en lecturas.ts. El aparato final
 // (nota del autor, glosario, notas y referencias) va en apendices.ts.
 const ORDER = [
-  "cap19_real",
   "cap_religiones_comparadas",
   "cap_espejo_sin_profundidad",
   "cap_diapason_invisible",
   "cap_realidad_fractal",
   "cap_ojo_un_solo_color",
   "cap20_real",
+  "cap19_real",
   "cap_epilogo_real",
 ];
 
