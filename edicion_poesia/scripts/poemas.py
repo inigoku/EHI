@@ -74,11 +74,6 @@ SOURCES = {
     "poema_camara_coro": "El ojo de un solo color",
     "poema_camara_vecinos": "La realidad fractal",
     "poema_camara_cueva": "La realidad fractal",
-    # El nudo no sale de los últimos libros, sino del cuento "Los
-    # sintonizadores", en "Las fracturas". Cierra el libro tercero por forma y
-    # por asunto —es el único soneto, y habla de la disolución en la mezcla—,
-    # no por orden de movimientos.
-    "poema_sintonizadores": "Los sintonizadores",
 }
 
 BOOK_DEFS = [
@@ -96,20 +91,19 @@ BOOK_DEFS = [
         "Libro segundo",
         "La frialdad de una ciudad apagada",
         "Un invierno que no termina de llegar y, aun así, hace frío: "
-        "seis estaciones del cuerpo en una ciudad que no responde.",
+        "siete estaciones del cuerpo en una ciudad que no responde.",
         ["poema_frialdad1", "poema_frialdad2", "poema_frialdad3",
-         "poema_frialdad4", "poema_frialdad5", "poema_frialdad6"],
+         "poema_frialdad4", "poema_frialdad5", "poema_frialdad6",
+         "poema_sintonizadores"],
     ),
     (
         "libro3",
         "Libro tercero",
         "Los últimos libros",
-        "Siete historias que ya venían contadas en prosa y aquí vuelven "
-        "en verso, una por cada movimiento del final de la obra, y un soneto "
-        "que cierra.",
+        "Seis historias que ya venían contadas en prosa y aquí vuelven "
+        "en verso, una por cada movimiento del final de la obra.",
         ["poema_camara_reloj", "poema_camara_espejo", "poema_camara_manos",
-         "poema_camara_coro", "poema_camara_vecinos", "poema_camara_cueva",
-         "poema_sintonizadores"],
+         "poema_camara_coro", "poema_camara_vecinos", "poema_camara_cueva"],
     ),
 ]
 
