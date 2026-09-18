@@ -264,25 +264,25 @@
     ]
   },
   "poema_frialdad1": {
-    "origen": "src/assets/images/poemas/clean_frialdad_eco.jpg",
-    "repintada": false,
+    "origen": "edicion_poesia/originales/poema_frialdad1.jpg",
+    "repintada": true,
     "original": [
-      1376,
-      768
+      1006,
+      1500
     ],
     "recorte": [
       0,
       0,
-      1376,
-      768
+      1006,
+      1500
     ],
     "recortada": [
-      768,
-      1376
+      1006,
+      1500
     ],
     "final": [
-      1306,
-      2340
+      1455,
+      2169
     ]
   },
   "poema_frialdad2": {
