@@ -16,3 +16,4 @@ edicion_poesia/imagenes/_*.jpg
 # Cachés de Python
 __pycache__/
 *.pyc
+edicion_poesia/*.zip
