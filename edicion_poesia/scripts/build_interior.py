@@ -399,7 +399,8 @@ class Builder:
             ("Primera edición en tapa dura.", R),
             ("Compuesto en Source Serif Pro.", R),
             ("", R),
-            ("ISBN: pendiente de asignación", R),
+            ("ISBN: 9798175383530", R),
+            ("https://ehi-pi.vercel.app/", R),
         ]
         for text, font in lines:
             if text:
