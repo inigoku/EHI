@@ -330,25 +330,25 @@
     ]
   },
   "poema_frialdad4": {
-    "origen": "src/assets/images/poemas/clean_frialdad_ciber.jpg",
-    "repintada": false,
+    "origen": "edicion_poesia/originales/poema_frialdad4.jpg",
+    "repintada": true,
     "original": [
-      1376,
-      768
+      1342,
+      2000
     ],
     "recorte": [
       0,
       0,
-      1376,
-      768
+      1342,
+      2000
     ],
     "recortada": [
-      478,
-      768
+      1342,
+      2000
     ],
     "final": [
       1455,
-      2338
+      2168
     ]
   },
   "poema_frialdad5": {
