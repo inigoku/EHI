@@ -105,7 +105,37 @@ TOL_OVERRIDE = {"libro1": 46}
 # pulgadas, y resolucion a la que se quiere que queden una vez colocadas.
 PLATE_W_IN = 4.85
 PLATE_H_IN = 7.80
+PLATE_RATIO = PLATE_W_IN / PLATE_H_IN
 TARGET_DPI = 300
+
+# Como poner de pie las laminas que vienen apaisadas. Una imagen apaisada en
+# una caja vertical solo llena un tercio de la pagina; puesta de pie, la llena
+# entera. Dos maneras, segun lo que aguante cada dibujo:
+#
+#   ("giro", -90)       gira la imagen entera un cuarto de vuelta. No se pierde
+#                       nada, pero solo vale cuando el dibujo no tiene un
+#                       arriba claro: una veta de madera, un yeso, un cristal
+#                       empanado. Una silla o una bombilla giradas quedan
+#                       tumbadas.
+#   ("recorte", 0.45)   recorta a la proporcion de la caja conservando la
+#                       vertical. El numero dice por donde: 0 es pegado a la
+#                       izquierda, 0,5 el centro, 1 la derecha. Se pierde
+#                       ancho, asi que se elige el encuadre que deja al sujeto
+#                       entero y centrado.
+ORIENT = {
+    # libro primero
+    "poema_arq5": ("recorte", 0.50),        # la burbuja, entre las dos manos
+    "poema_arq6": ("recorte", 0.45),        # el remero, con el remo entrando en el agua
+    # libro segundo
+    "poema_frialdad1": ("giro", -90),       # el cable baja y muere en el punto
+    "poema_frialdad2": ("recorte", 0.50),   # la silla, sobre el agujero negro
+    "poema_frialdad3": ("giro", -90),       # la llave, con el ojo arriba
+    "poema_frialdad4": ("recorte", 0.50),   # la bombilla, colgando del borde
+    "poema_frialdad5": ("recorte", 0.50),   # la pastilla, grande y centrada
+    "poema_frialdad6": ("giro", -90),       # el cristal empanado, pura textura
+    # cierre
+    "poema_glosario": ("recorte", 0.50),    # la pagina de objetos
+}
 DENSITY = 0.80  # fraccion de la fila o columna que debe ser dibujo
 
 
@@ -143,6 +173,24 @@ def content_box(im: Image.Image, tol: int = TOL) -> tuple[int, int, int, int]:
     if (y1 - y0) < sh * 0.3 or (x1 - x0) < sw * 0.3:
         return (0, 0, w, h)  # no se reconoce un recuadro: se deja entera
     return (x0 * scale, y0 * scale, min(w, x1 * scale), min(h, y1 * scale))
+
+
+def to_portrait(im: Image.Image, key: str) -> Image.Image:
+    """Pone de pie una lamina apaisada, segun lo que diga ORIENT."""
+    how = ORIENT.get(key)
+    if how is None:
+        return im
+    kind, value = how
+    if kind == "giro":
+        return im.rotate(value, expand=True)
+    w, h = im.size
+    new_w = int(round(h * PLATE_RATIO))
+    if new_w > w:                       # ya es mas estrecha que la caja
+        new_h = int(round(w / PLATE_RATIO))
+        top = int(round((h - new_h) * value))
+        return im.crop((0, top, w, top + new_h))
+    left = int(round((w - new_w) * value))
+    return im.crop((left, 0, left + new_w, h))
 
 
 def to_print_size(im: Image.Image) -> Image.Image:
@@ -204,6 +252,9 @@ def main() -> int:
         else:
             box = content_box(im, TOL_OVERRIDE.get(key, TOL))
             im = im.crop(box)
+        if replaced is None:
+            # Una lámina repintada ya viene de pie; no se le toca el encuadre.
+            im = to_portrait(im, key)
         cropped = im.size
         if key != "portada":   # la portada la amplía build_cover.py a su medida
             im = to_print_size(im)
