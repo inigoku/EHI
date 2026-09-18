@@ -716,17 +716,22 @@ INTRO = [
     "que hace sonar una caja de violín.",
 
     "**El libro segundo**, *La frialdad de una ciudad apagada*, baja la "
-    "temperatura. Siete poemas de invierno urbano, escritos desde dentro de un "
+    "temperatura. Seis poemas de invierno urbano, escritos desde dentro de un "
     "cuerpo que no acaba de entrar en calor: el metro, la pastilla sobre la "
     "mesa, un villancico que no engaña a nadie, una ventana empañada con "
     "Barcelona detrás. Es la parte más áspera del conjunto y la que menos "
-    "consuela. Termina, sin embargo, en un soneto.",
+    "consuela.",
 
     "**El libro tercero**, *Los últimos libros*, recoge seis poemas que ya "
     "venían contados en prosa en los movimientos finales de la obra —el tiempo "
     "que no pasa, el espejo sin profundidad, el diapasón invisible, el ojo de "
     "un solo color, la realidad fractal— y los devuelve al verso, que era "
-    "seguramente su idioma de origen.",
+    "seguramente su idioma de origen. Cierra el libro, y con él los tres, *El "
+    "nudo de la mezcla*: un soneto que viene de más atrás, del cuento de los "
+    "sintonizadores, y que es la única pieza del volumen escrita en metro "
+    "clásico. Estaba en su sitio al final del invierno y está mejor aquí, "
+    "porque lo que cuenta —un alma que se abre y se disuelve en lo que no "
+    "pertenece a nadie— es adonde va a parar todo el libro tercero.",
 
     "Cierra el volumen un *Glosario íntimo*: las palabras técnicas del ensayo "
     "—horizonte, interfaz, entrelazamiento, reservorio— redefinidas como lo que "
