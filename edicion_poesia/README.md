@@ -87,14 +87,23 @@ imprimir el índice ya relleno— y avisa si la segunda mueve la paginación.
 
 ## Lo que conviene mirar antes de imprimir
 
-**La resolución de origen.** Las ilustraciones de la web rondan los mil píxeles
-de lado: a página completa se quedaban entre 115 y 285 ppp. `prepare_images.py`
-las sube a los 300 ppp del tamaño en que se colocan con Lanczos, una máscara de
-enfoque suave y un grano muy fino. Eso no inventa detalle —la nitidez es la del
-original— pero deja la interpolación en nuestras manos en vez de en las del RIP
-de la imprenta, y evita que el revisor de KDP marque las páginas. Si en algún
-momento se regeneran las ilustraciones a 2K, basta con volver a correr el
-script.
+**La resolución de las láminas.** Nueve de las veinticinco están repintadas y
+entran por `originales/` ya compuestas en vertical: las siete del libro
+segundo, la burbuja y el remo del primero, y el glosario. Rondan los 277 ppp
+nativos a tamaño de página.
+
+Las dieciséis restantes vienen de las ediciones ilustrada y de cámara y andan
+entre 115 y 211 ppp. `prepare_images.py` las sube a los 300 ppp del tamaño en
+que se colocan con Lanczos, una máscara de enfoque suave y un grano muy fino.
+Eso no inventa detalle —la nitidez es la del original— pero deja la
+interpolación en nuestras manos en vez de en las del RIP de la imprenta, y
+evita que el revisor de KDP marque las páginas.
+
+Las más flojas son ahora las seis del libro primero que no se han tocado —el
+archivista, el relojero, el luthier, la canción, el temblor y la orilla—, entre
+115 y 123 ppp, porque sus originales miden 572 × 1024 px y van casi a página
+completa. Son ilustraciones de trazo y color plano, así que aguantan; si en
+algún momento se repintan, se dejan en `originales/` y listo.
 
 **La portada.** Ya está regenerada: `imagenes/portada_2k.jpg`, 1342 × 2000 px,
 pintada con Nano Banana Pro (`gemini-3-pro-image-preview`) a partir del encargo
