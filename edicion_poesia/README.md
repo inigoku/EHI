@@ -6,7 +6,8 @@ como libro independiente para tapa dura de Amazon KDP.
 
 ## Qué hay aquí
 
-    Ecos_en_el_Borde_6x9_interior.pdf        el interior, 78 páginas, 6 × 9"
+    Ecos_en_el_Borde_6x9_interior.pdf        el interior, 68 páginas, 6 × 9"
+    Ecos_en_el_Borde.epub                    el epub, 53 pantallas
     Ecos_en_el_Borde_portada_frontal.pdf     solo la cubierta, 6,25 × 9,25"
     Ecos_en_el_Borde_cubierta_tapadura.pdf   la envolvente entera, 14,486 × 10,5"
     imagenes/                                las láminas ya recortadas y a 300 ppp
@@ -28,12 +29,13 @@ obra, y el glosario cierra el volumen:
 | Libro | Sección en la web | Poemas |
 |---|---|---|
 | Primero — *La arquitectura con un hueco* | `LA ARQUITECTURA CON UN HUECO` | 8 |
-| Segundo — *La frialdad de una ciudad apagada* | `LA FRIALDAD DE UNA CIUDAD APAGADA` | 7 |
+| Segundo — *La frialdad de una ciudad apagada* | `LA FRIALDAD DE UNA CIUDAD APAGADA` | 6 |
 | Tercero — *Los últimos libros* | `LOS ÚLTIMOS LIBROS` | 6 |
 | Cierre — *Glosario íntimo* | `GLOSARIO ÍNTIMO` | — |
 
-El "Villancico cibernético" y "Montse XXI" van donde la web los pone, dentro
-del libro segundo, y "El nudo de la mezcla" lo cierra como séptimo.
+"El nudo de la mezcla" no está en el libro: es el único soneto y el único en
+metro clásico, y desentonaba al lado del verso libre. Su lámina y su texto
+siguen en el repositorio y en la web.
 
 Además de los poemas, el volumen lleva índice, una introducción escrita para
 esta edición (*Desde la orilla*), una relación de las láminas con la
@@ -50,9 +52,11 @@ mismas cabeceras y folios, la misma onda como adorno— subida de 5 × 8" a
   que el PDF mide el recorte exacto (432 × 648 pt) y KDP no pide demasía. Es
   lo que más resolución deja a unas ilustraciones que no sobran de píxeles.
 - **Cada poema abre en impar** con su lámina a página completa enfrente, en la
-  par. Los poemas que no caben en una página siguen en la siguiente y se
-  rellena con una página de cortesía para que la lámina siguiente vuelva a
-  caer en par.
+  par. Las portadillas de libro van solas, sin lámina.
+- **Ningún poema pasa de página.** El verso se compone por escalones
+  (`VERSE_STEPS`): si un poema no cabe al cuerpo normal, baja al siguiente
+  hasta que entra. Tres lo necesitan y bajan entre uno y punto y medio, que se
+  nota mucho menos que partirlos en dos.
 - **Márgenes espejados**: 0,875" de lomo, 0,625" exterior, 0,75" superior,
   0,8" inferior. KDP pide 0,375" y 0,25" respectivamente hasta 150 páginas.
 - **El bloque de verso se centra ópticamente**: se mide el verso más largo del
@@ -69,7 +73,8 @@ de acentos y comillas españolas.
 
     python3 edicion_poesia/scripts/prepare_images.py     # recorta y sube las láminas
     python3 edicion_poesia/scripts/build_interior.py     # monta el interior
-    python3 edicion_poesia/scripts/build_cover.py --paginas 78
+    python3 edicion_poesia/scripts/build_cover.py --paginas 68
+    python3 edicion_poesia/scripts/build_epub.py         # monta el epub
     python3 edicion_poesia/scripts/check_kdp.py          # repasa los requisitos
 
 Hace falta `reportlab`, `Pillow` y, para el repaso, `pymupdf`. Las rutas son
@@ -80,8 +85,10 @@ imprimir el índice ya relleno— y avisa si la segunda mueve la paginación.
 
 ## Al subir a KDP
 
-- Tapa dura, 6 × 9", papel blanco, **sin sangre**.
-- 78 páginas: por encima del mínimo de 75 que pide la tapa dura y par.
+- 6 × 9", papel blanco, **sin sangre**, 68 páginas y par.
+- **La tapa dura ya no vale**: pide 75 páginas como mínimo. La rústica en
+  color premium admite desde 24, así que ese es el formato impreso posible.
+  La rústica en color estándar pide 72 y tampoco entra.
 - `check_kdp.py` comprueba tamaño de página, paridad, márgenes, fuentes
   incrustadas y resolución de las láminas. Sale sin problemas.
 
