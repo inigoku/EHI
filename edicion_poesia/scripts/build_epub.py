@@ -229,8 +229,7 @@ def build() -> None:
         '<p>Las ilustraciones proceden de las ediciones ilustrada y de cámara '
         'de la misma obra. Al final del volumen se relacionan una a una.</p>'
         '<p>Compuesto en Source Serif Pro.</p>'
-        '<p>ISBN: 9798175383530</p>'
-        '<p><a href="https://ehi-pi.vercel.app/">https://ehi-pi.vercel.app/</a></p></div>'))
+        '<p>ISBN: 9798175383530</p></div>'))
     add("dedicatoria.xhtml", page("Dedicatoria",
         '<div class="dedicatoria"><p>A quien se quedó en la orilla<br/>'
         'cuando el agua se retiró.</p></div>'))

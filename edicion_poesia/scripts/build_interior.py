@@ -400,7 +400,6 @@ class Builder:
             ("Compuesto en Source Serif Pro.", R),
             ("", R),
             ("ISBN: 9798175383530", R),
-            ("https://ehi-pi.vercel.app/", R),
         ]
         for text, font in lines:
             if text:
@@ -892,13 +891,14 @@ def run(toc: list[Entry] | None) -> Builder:
         if i < len(books) - 1:
             b.to_verso()
             b.show_folio = False
-            full_plate(b.cv, IMG / f"{book.key}.jpg")
+            divisor_imgs = ["cuento_estanque.jpg", "cuento_amanezca.jpg"]
+            full_plate(b.cv, IMG / divisor_imgs[i])
             b.end_page()
 
     # divisoria: página ilustrada de transición antes del glosario
     b.to_verso()
     b.show_folio = False
-    full_plate(b.cv, IMG / "libro3.jpg")
+    full_plate(b.cv, IMG / "cuento_dragon.jpg")
     b.end_page()
 
     # cierre: el glosario, como libro aparte
