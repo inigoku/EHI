@@ -853,10 +853,16 @@ def run(toc: list[Entry] | None) -> Builder:
     b.table_of_contents()
     b.prose_section(INTRO_TITLE, INTRO, level=2, running=INTRO_TITLE)
 
-    for book in books:
+    for i, book in enumerate(books):
         b.book_opener(book)
         for poem in book.poems:
             b.poem(poem)
+        # Divisoria ilustrada después de cada libro (excepto el último)
+        if i < len(books) - 1:
+            b.to_verso()
+            b.show_folio = False
+            full_plate(b.cv, IMG / f"{book.key}.jpg")
+            b.end_page()
 
     # divisoria: página ilustrada de transición antes del glosario
     b.to_verso()
