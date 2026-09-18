@@ -246,7 +246,7 @@ def spine_text(cv, cx: float, y0: float, h: float, spine_w: float) -> None:
 # -------------------------------------------------------------------- montaje
 def build_front() -> None:
     w_in, h_in = TRIM_W + 2 * BLEED, TRIM_H + 2 * BLEED
-    art = grain(vertical_veil(cover_field(w_in, h_in), 0.50, 0.32, 0.90, 0.88))
+    art = grain(vertical_veil(cover_field(w_in, h_in), 0.46, 0.30, 0.68, 0.72))
     tmp = BASE / "imagenes" / "_portada_frontal.jpg"
     art.save(tmp, "JPEG", quality=94, subsampling=0, dpi=(DPI, DPI))
 
@@ -277,7 +277,7 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
     field.paste(back, (0, 0))
     field.paste(front, (canvas_px[0] - front.width, 0))
 
-    art = vertical_veil(field, 0.46, 0.30, 0.86, 0.86)
+    art = vertical_veil(field, 0.44, 0.28, 0.66, 0.70)
     wash = Image.new("RGB", (back.width, canvas_px[1]), (11, 18, 25))
     art.paste(Image.blend(art.crop((0, 0, back.width, canvas_px[1])), wash, 0.74), (0, 0))
 

@@ -11,7 +11,8 @@ como libro independiente para tapa dura de Amazon KDP.
     Ecos_en_el_Borde_cubierta_tapadura.pdf   la envolvente entera, 14,486 × 10,5"
     imagenes/                                las láminas ya recortadas y a 300 ppp
     imagenes/procedencia.json                de qué fichero sale cada lámina
-    imagenes/portada_2k.jpg                  la portada a 2K, si se ha regenerado
+    imagenes/portada_2k.jpg                  la portada regenerada, 1342 × 2000
+    imagenes/portada.jpg                     la imagen de la web, como respaldo
     fonts/                                   Source Serif Pro (SIL OFL)
     scripts/                                 todo lo necesario para regenerar
 
@@ -95,15 +96,18 @@ de la imprenta, y evita que el revisor de KDP marque las páginas. Si en algún
 momento se regeneran las ilustraciones a 2K, basta con volver a correr el
 script.
 
-**La portada.** Es la imagen de la sección de poesía de la web
-(`src/assets/images/landing/poems_landing.png`), que mide 364 × 392 px. Para
-una cubierta de 6 × 9" a 300 ppp harían falta unos 1875 × 2775: la ampliación
-es de siete aumentos. En una imagen pictórica como esta —un rostro que emerge
-del oleaje— la suavidad se lee como pincelada, y el velo de tinta sobre el que
-va el título tapa buena parte del problema, pero es el punto más flojo del
-conjunto.
+**La portada.** Ya está regenerada: `imagenes/portada_2k.jpg`, 1342 × 2000 px,
+pintada con Nano Banana Pro (`gemini-3-pro-image-preview`) a partir del encargo
+que lleva dentro `scripts/regen_portada_2k.py`. Son 215 ppp nativos a tamaño
+cubierta, que `build_cover.py` sube a 300 con una ampliación de 1,4. La imagen
+original de la sección de poesía de la web sigue en `imagenes/portada.jpg`
+como respaldo: medía 364 × 392 px, o sea 58 ppp nativos y siete aumentos, y era
+el punto flojo del montaje.
 
-Para arreglarlo está `scripts/regen_portada_2k.py`, que pide la misma escena a
+Si se quiere apurar hasta un nativo de 300 ppp harían falta unos 1875 × 2775,
+que es lo que da el mismo modelo pidiéndole 4K en lugar de 2K.
+
+Para rehacerla está `scripts/regen_portada_2k.py`, que pide la misma escena a
 los modelos de imagen de Gemini, en vertical 2:3 —la proporción de la
 cubierta— y al mayor tamaño que dé la cuenta. El encargo va escrito dentro, con
 el rostro colocado en el tercio central para que no se lo coman los velos de
