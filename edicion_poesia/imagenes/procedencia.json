@@ -308,25 +308,25 @@
     ]
   },
   "poema_frialdad3": {
-    "origen": "src/assets/images/poemas/clean_frialdad_vuelta.jpg",
-    "repintada": false,
+    "origen": "edicion_poesia/originales/poema_frialdad3.jpg",
+    "repintada": true,
     "original": [
-      1376,
-      768
+      1342,
+      2000
     ],
     "recorte": [
       0,
       0,
-      1376,
-      768
+      1342,
+      2000
     ],
     "recortada": [
-      768,
-      1376
+      1342,
+      2000
     ],
     "final": [
-      1306,
-      2340
+      1455,
+      2168
     ]
   },
   "poema_frialdad4": {
