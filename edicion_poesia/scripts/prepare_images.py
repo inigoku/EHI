@@ -24,6 +24,13 @@ from PIL import Image, ImageChops, ImageFilter
 ROOT = Path(__file__).resolve().parents[2]
 OUT = ROOT / "edicion_poesia" / "imagenes"
 
+# Sitio donde dejar caer una lámina repintada. Si aquí hay un fichero con el id
+# de la lámina (poema_frialdad2.png, libro1.jpg, lo que sea), se usa ese en
+# lugar del de SOURCES y no se le busca recuadro: se da por hecho que ya viene
+# limpio, sin cabecera ni folio impresos encima.
+OVERRIDES = ROOT / "edicion_poesia" / "originales"
+OVERRIDE_EXT = (".png", ".jpg", ".jpeg", ".webp", ".tif", ".tiff")
+
 # id logico -> fichero de origen.
 #
 # Para cada poema se usa la ilustracion que muestra la web en la seccion de
@@ -162,17 +169,28 @@ def to_print_size(im: Image.Image) -> Image.Image:
     return ImageChops.overlay(im, noise)
 
 
+def override_for(key: str) -> Path | None:
+    for ext in OVERRIDE_EXT:
+        candidate = OVERRIDES / f"{key}{ext}"
+        if candidate.exists():
+            return candidate
+    return None
+
+
 def main() -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     report = {}
     for key, rel in SOURCES.items():
-        src = ROOT / rel
+        replaced = override_for(key)
+        src = replaced or (ROOT / rel)
         if not src.exists():
             print(f"FALTA {rel}", file=sys.stderr)
             return 1
         im = Image.open(src).convert("RGB")
         before = im.size
-        if key in MANUAL:
+        if replaced is not None:
+            box = (0, 0, *before)
+        elif key in MANUAL:
             fx0, fy0, fx1, fy1 = MANUAL[key]
             box = (
                 int(before[0] * fx0),
@@ -191,18 +209,24 @@ def main() -> int:
             im = to_print_size(im)
         dst = OUT / f"{key}.jpg"
         im.save(dst, "JPEG", quality=90, subsampling=0, dpi=(300, 300))
+        origen = str(src.relative_to(ROOT))
         report[key] = {
-            "origen": rel,
+            "origen": origen,
+            "repintada": replaced is not None,
             "original": list(before),
             "recorte": list(box),
             "recortada": list(cropped),
             "final": list(im.size),
         }
-        print(f"{key:24s} {before[0]}x{before[1]} -> recorte {cropped[0]}x{cropped[1]}"
-              f" -> {im.size[0]}x{im.size[1]}  {rel}")
+        marca = "*" if replaced is not None else " "
+        print(f"{marca}{key:23s} {before[0]}x{before[1]} -> recorte "
+              f"{cropped[0]}x{cropped[1]} -> {im.size[0]}x{im.size[1]}  {origen}")
     (OUT / "procedencia.json").write_text(
         json.dumps(report, indent=2, ensure_ascii=False), encoding="utf-8"
     )
+    n = sum(1 for v in report.values() if v["repintada"])
+    if n:
+        print(f"\n* {n} lámina(s) tomadas de {OVERRIDES.relative_to(ROOT)}/")
     return 0
 
 
