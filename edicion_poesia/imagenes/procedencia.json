@@ -21,72 +21,6 @@
       392
     ]
   },
-  "libro1": {
-    "origen": "edicion_ilustrada/images/poema_arq1.jpg",
-    "repintada": false,
-    "original": [
-      1024,
-      1024
-    ],
-    "recorte": [
-      86,
-      86,
-      951,
-      954
-    ],
-    "recortada": [
-      865,
-      868
-    ],
-    "final": [
-      1455,
-      1460
-    ]
-  },
-  "libro2": {
-    "origen": "edicion_tapadura/laminas/cap5.jpg",
-    "repintada": false,
-    "original": [
-      816,
-      1312
-    ],
-    "recorte": [
-      0,
-      0,
-      816,
-      1312
-    ],
-    "recortada": [
-      816,
-      1312
-    ],
-    "final": [
-      1455,
-      2339
-    ]
-  },
-  "libro3": {
-    "origen": "edicion_tapadura/laminas/espejo.jpg",
-    "repintada": false,
-    "original": [
-      816,
-      1312
-    ],
-    "recorte": [
-      0,
-      0,
-      816,
-      1312
-    ],
-    "recortada": [
-      816,
-      1312
-    ],
-    "final": [
-      1455,
-      2339
-    ]
-  },
   "poema_arq1": {
     "origen": "src/assets/images/poemas/el_archivista.png",
     "repintada": false,
@@ -375,28 +309,6 @@
   },
   "poema_frialdad6": {
     "origen": "edicion_poesia/originales/poema_frialdad6.jpg",
-    "repintada": true,
-    "original": [
-      1342,
-      2000
-    ],
-    "recorte": [
-      0,
-      0,
-      1342,
-      2000
-    ],
-    "recortada": [
-      1342,
-      2000
-    ],
-    "final": [
-      1455,
-      2168
-    ]
-  },
-  "poema_sintonizadores": {
-    "origen": "edicion_poesia/originales/poema_sintonizadores.jpg",
     "repintada": true,
     "original": [
       1342,

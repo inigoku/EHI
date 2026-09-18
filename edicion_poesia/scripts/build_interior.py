@@ -63,8 +63,8 @@ SAND = colors.HexColor("#c9c2b2")
 PW, PH = 6 * inch, 9 * inch
 M_GUTTER = 0.875 * inch   # margen interior (lomo); KDP pide 0.375" minimo
 M_OUTER = 0.625 * inch    # margen exterior; KDP pide 0.25" minimo
-M_TOP = 0.75 * inch
-M_BOTTOM = 0.8 * inch
+M_TOP = 0.68 * inch
+M_BOTTOM = 0.72 * inch
 TEXT_W = PW - M_GUTTER - M_OUTER
 TEXT_H = PH - M_TOP - M_BOTTOM
 
@@ -207,6 +207,53 @@ def wave(cv, cx: float, cy: float, width: float, color=TEAL, height: float = 6.0
     cv.restoreState()
 
 
+# Escalones a los que se compone el verso. El primero es el cuerpo normal del
+# libro; los siguientes solo entran en juego cuando un poema no cabe entero en
+# su página.
+VERSE_STEPS = [(11.4, 17.0), (11.0, 16.4), (10.6, 15.8), (10.2, 15.2), (10.0, 14.9)]
+
+MARKER_RE = re.compile(r"\*\*[IVX]+\.\*\*")
+
+
+def verse_layout(poem, size: float, leading: float):
+    """Mide un poema a un cuerpo dado.
+
+    Devuelve (cuerpo, interlínea, filas, sangría, alto). Cada fila es
+    ("verso", tramos, sangrado) | ("rotulo", texto) | ("blanco",).
+
+    El bloque se centra ópticamente: se mide el verso más largo y se alinea
+    todo a la izquierda a partir de ahí, con sangría francesa en los versos que
+    hay que partir.
+    """
+    widest = 0.0
+    for raw in poem.lines:
+        if raw.strip():
+            widest = max(widest, runs_width(runs_of(raw.strip(), R, SB, IT), size))
+    indent = max(0.0, min((TEXT_W - widest) / 2, 0.40 * inch))
+    limit = TEXT_W - indent
+
+    rows: list[tuple] = []
+    height = 0.0
+    prev_blank = False
+    for raw in poem.lines:
+        text = raw.strip()
+        if not text:
+            if not prev_blank:
+                rows.append(("blanco",))
+                height += leading * 0.62
+            prev_blank = True
+            continue
+        prev_blank = False
+        if MARKER_RE.fullmatch(text):
+            rows.append(("rotulo", text[2:-2].rstrip(".")))
+            height += leading * 1.5
+            continue
+        for i, line in enumerate(wrap_runs(runs_of(text, R, SB, IT), size, limit)):
+            rows.append(("verso", line, 16 if i else 0))
+            height += leading
+    return size, leading, rows, indent, height
+
+
 # ------------------------------------------------------------------ imagenes
 def placed_image(cv, path: Path, box_w: float, box_h: float, cx: float, top_y: float) -> float:
     """Encaja una imagen dentro de la caja dada y la centra. Devuelve su alto."""
@@ -341,7 +388,7 @@ class Builder:
             (f"© {AUTHOR}", R),
             ("Todos los derechos reservados.", R),
             ("", R),
-            ("Los veintiún poemas y el glosario proceden de la sección", R),
+            ("Los veinte poemas y el glosario proceden de la sección", R),
             ("de poesía de El Horizonte Interior y se reproducen aquí en", R),
             ("el orden en que la obra los presenta.", R),
             ("", R),
@@ -470,13 +517,11 @@ class Builder:
 
     # ---- aperturas de libro
     def book_opener(self, book: Book) -> None:
-        self.to_verso()
+        # Sin lámina enfrentada: la portadilla del libro va sola, en impar, y
+        # la par anterior queda en blanco.
+        self.to_recto()
         self.show_folio = False
         cv = self.cv
-        # par: la lamina del libro, a pagina completa dentro de la caja
-        full_plate(cv, IMG / f"{book.key}.jpg")
-        self.end_page()
-        # impar: la portadilla del libro
         self.mark(book.ordinal, book.title, 0)
         x0 = frame_x(self.page)
         y = PH * 0.60
@@ -534,7 +579,7 @@ class Builder:
         cv.setStrokeColor(TEAL)
         cv.setLineWidth(0.8)
         cv.line(x0, y, x0 + 42, y)
-        y -= 28
+        y -= 22
 
         if poem.kind == "glosario":
             self._glossary_body(poem, y)
@@ -548,44 +593,38 @@ class Builder:
         return frame_x(self.page), PH - M_TOP - 14
 
     def _verse_body(self, poem: Poem, y: float) -> None:
+        """Compone el poema entero en la página, encogiendo el cuerpo si hace falta.
+
+        Ningún poema del libro pasa de página. Los que no caben al cuerpo normal
+        bajan por los escalones de VERSE_STEPS hasta que entran: es lo que se
+        hace en cualquier libro de verso con un poema largo, y se nota mucho
+        menos que partirlo en dos.
+        """
         cv = self.cv
         x0 = frame_x(self.page)
-        # El bloque se centra ópticamente: se mide el verso más largo y se
-        # alinea todo a la izquierda a partir de ahí, como en el verso clásico.
-        widest = 0.0
-        for raw in poem.lines:
-            if not raw.strip():
-                continue
-            widest = max(widest, runs_width(runs_of(raw.strip(), R, SB, IT), VERSE_SIZE))
-        indent = max(0.0, min((TEXT_W - widest) / 2, 0.40 * inch))
-        x = x0 + indent
-        limit = TEXT_W - indent
+        available = y - M_BOTTOM
 
-        prev_blank = False
-        for raw in poem.lines:
-            text = raw.strip()
-            if not text:
-                if not prev_blank:
-                    y -= VERSE_LEAD * 0.62
-                prev_blank = True
+        size, leading, rows, indent, height = verse_layout(poem, *VERSE_STEPS[0])
+        for step in VERSE_STEPS[1:]:
+            if height <= available:
+                break
+            size, leading, rows, indent, height = verse_layout(poem, *step)
+
+        x = x0 + indent
+        for row in rows:
+            if row[0] == "blanco":
+                y -= leading * 0.62
                 continue
-            prev_blank = False
-            # Un "**I.**" solo en su línea es el rótulo de una parte del poema.
-            if re.fullmatch(r"\*\*[IVX]+\.\*\*", text):
-                y -= VERSE_LEAD * 0.45
-                if y < M_BOTTOM:
-                    x0, y = self._new_verse_page()
-                    x = x0 + indent
-                small_caps(cv, x, y, text[2:-2], R, 8.6, TEAL, spacing=2.4)
-                y -= VERSE_LEAD * 1.05
+            if y < M_BOTTOM:                 # red de seguridad: no debería pasar
+                x0, y = self._new_verse_page()
+                x = x0 + indent
+            if row[0] == "rotulo":
+                y -= leading * 0.45
+                small_caps(cv, x, y, row[1], R, size * 0.76, TEAL, spacing=2.4)
+                y -= leading * 1.05
                 continue
-            runs = runs_of(text, R, SB, IT)
-            for i, line in enumerate(wrap_runs(runs, VERSE_SIZE, limit)):
-                if y < M_BOTTOM:
-                    x0, y = self._new_verse_page()
-                    x = x0 + indent
-                draw_runs(cv, x + (16 if i else 0), y, line, VERSE_SIZE, INK)
-                y -= VERSE_LEAD
+            draw_runs(cv, x + row[2], y, row[1], size, INK)
+            y -= leading
 
     def _glossary_body(self, poem: Poem, y: float) -> None:
         cv = self.cv
@@ -691,7 +730,7 @@ class Builder:
 # --------------------------------------------------------------- textos fijos
 INTRO_TITLE = "Desde la orilla"
 INTRO = [
-    "Este volumen reúne los veintiún poemas y el glosario que cierran "
+    "Este volumen reúne los veinte poemas y el glosario que cierran "
     "*El Horizonte Interior*. En la obra completa aparecen intercalados entre "
     "el ensayo y los cuentos, cada uno en el punto donde una idea deja de "
     "poder explicarse y solo puede decirse. Aquí van juntos, por primera vez, "
@@ -716,11 +755,11 @@ INTRO = [
     "que hace sonar una caja de violín.",
 
     "**El libro segundo**, *La frialdad de una ciudad apagada*, baja la "
-    "temperatura. Siete poemas de invierno urbano, escritos desde dentro de un "
+    "temperatura. Seis poemas de invierno urbano, escritos desde dentro de un "
     "cuerpo que no acaba de entrar en calor: el metro, la pastilla sobre la "
     "mesa, un villancico que no engaña a nadie, una ventana empañada con "
     "Barcelona detrás. Es la parte más áspera del conjunto y la que menos "
-    "consuela. Termina, sin embargo, en un soneto.",
+    "consuela.",
 
     "**El libro tercero**, *Los últimos libros*, recoge seis poemas que ya "
     "venían contados en prosa en los movimientos finales de la obra —el tiempo "
@@ -768,15 +807,6 @@ ABOUT = [
 # Pie de cada lámina para la relación final. Los que no traen descripción
 # propia en content/poemas llevan una escrita aquí.
 PLATE_NOTES_OVERRIDE = {
-    # La lámina del nudo está repintada para que entre en el lenguaje del libro
-    # segundo, que es fotografía en blanco y negro. La descripción que trae
-    # content/poemas habla de la ilustración anterior —un horizonte que se
-    # disuelve en una cuadrícula metálica—, y esa sigue siendo la que muestra
-    # la web, así que se corrige aquí y no allí.
-    "poema_sintonizadores":
-        "Una puerta de sótano hinchada por la humedad, con la chapa de hierro "
-        "atornillada encima, y a su lado la grieta por donde entra la única "
-        "hoja de luz que hay en la habitación.",
     "poema_camara_reloj":
         "Un reloj de arena desdoblado en una hélice de luz: la misma arena "
         "cayendo por dos gargantas que no marcan la misma hora.",
@@ -786,23 +816,12 @@ PLATE_NOTES_OVERRIDE = {
         "papel cuadriculado.",
 }
 
-BOOK_PLATE_NOTES = {
-    "libro1": "La casa de piedra de noche, con una ventana apagada entre dos "
-              "encendidas: la arquitectura con un hueco.",
-    "libro2": "Una silla vacía en una terraza a oscuras, con el farol todavía "
-              "encendido y un rastro de luz que se aleja.",
-    "libro3": "Un hombre inclinado sobre un espejo que le devuelve la cara, "
-              "rodeado de rostros que no son el suyo.",
-}
-
-
 def plate_notes(books, closing):
     """Lee de content/poemas la descripción de cada ilustración."""
     import re as _re
     notes = []
     fm = _re.compile(r"\A---\r?\n(.*?)\r?\n---", _re.DOTALL)
     for book in books:
-        notes.append(("book", book.key, book.title, BOOK_PLATE_NOTES[book.key]))
         for p in book.poems:
             notes.append(("poem", p.pid, p.title, _description(p.pid, fm)))
     notes.append(("poem", closing.pid, closing.title, _description(closing.pid, fm)))
@@ -865,8 +884,7 @@ def run(toc: list[Entry] | None) -> Builder:
     for kind, pid, title, desc in plate_notes(books, closing):
         if not desc:
             continue
-        prefix = "Apertura — " if kind == "book" else ""
-        paras.append(f"**{prefix}{title}.** {desc}")
+        paras.append(f"**{title}.** {desc}")
     b.prose_section("Las ilustraciones", paras, level=2, running="Las ilustraciones")
     b.first_line_index()
     b.prose_section("Sobre esta antología", ABOUT, level=2, running="Sobre esta antología")

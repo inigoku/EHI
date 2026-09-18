@@ -41,10 +41,6 @@ OVERRIDE_EXT = (".png", ".jpg", ".jpeg", ".webp", ".tif", ".tiff")
 SOURCES = {
     # la portada es la imagen de la seccion de poesia de la web
     "portada": "src/assets/images/landing/poems_landing.png",
-    # aperturas de libro
-    "libro1": "edicion_ilustrada/images/poema_arq1.jpg",
-    "libro2": "edicion_tapadura/laminas/cap5.jpg",
-    "libro3": "edicion_tapadura/laminas/espejo.jpg",
     # libro primero: La arquitectura con un hueco
     "poema_arq1": "src/assets/images/poemas/el_archivista.png",
     "poema_arq2": "src/assets/images/poemas/el_relojero.png",
@@ -61,7 +57,6 @@ SOURCES = {
     "poema_frialdad4": "src/assets/images/poemas/clean_frialdad_ciber.jpg",
     "poema_frialdad5": "src/assets/images/poemas/clean_frialdad_salida.jpg",
     "poema_frialdad6": "src/assets/images/poemas/clean_frialdad_montse.jpg",
-    "poema_sintonizadores": "src/assets/images/ilustracion_poema_sintonizadores.jpg",
     # libro tercero: Los ultimos libros
     "poema_camara_reloj": "edicion_tapadura/laminas/cap2.jpg",
     "poema_camara_espejo": "edicion_ilustrada/images/poema_espejo.jpg",
@@ -76,10 +71,7 @@ SOURCES = {
 # Imagenes que ya son solo dibujo: no se les busca recuadro.
 NO_CROP = {
     "portada",
-    "libro2",
-    "libro3",
     "poema_camara_reloj",
-    "poema_sintonizadores",
     "poema_frialdad1",
     "poema_frialdad2",
     "poema_frialdad3",
@@ -99,7 +91,7 @@ MANUAL = {
 # capturas que traen sombra de maqueta necesitan mas margen: la sombra es un
 # gris claro que, con la tolerancia normal, se cuela dentro del recorte.
 TOL = 8
-TOL_OVERRIDE = {"libro1": 46}
+TOL_OVERRIDE: dict[str, int] = {}
 
 # Caja en la que build_interior.py coloca las laminas a pagina completa, en
 # pulgadas, y resolucion a la que se quiere que queden una vez colocadas.

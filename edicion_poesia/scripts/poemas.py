@@ -56,7 +56,6 @@ TITLES = {
     "poema_frialdad4": "Villancico cibernético para un solsticio templado",
     "poema_frialdad5": "Protocolo de salida",
     "poema_frialdad6": "Montse XXI",
-    "poema_sintonizadores": "El nudo de la mezcla",
     "poema_camara_reloj": "Lo que no cabe en un reloj",
     "poema_camara_espejo": "Lo que el espejo no tiene",
     "poema_camara_manos": "Manos",
@@ -91,10 +90,9 @@ BOOK_DEFS = [
         "Libro segundo",
         "La frialdad de una ciudad apagada",
         "Un invierno que no termina de llegar y, aun así, hace frío: "
-        "siete estaciones del cuerpo en una ciudad que no responde.",
+        "seis estaciones del cuerpo en una ciudad que no responde.",
         ["poema_frialdad1", "poema_frialdad2", "poema_frialdad3",
-         "poema_frialdad4", "poema_frialdad5", "poema_frialdad6",
-         "poema_sintonizadores"],
+         "poema_frialdad4", "poema_frialdad5", "poema_frialdad6"],
     ),
     (
         "libro3",

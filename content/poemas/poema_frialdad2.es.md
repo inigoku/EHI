@@ -14,15 +14,9 @@ Nada se mueve.
 Las cosas esperan,
 como si supieran que nadie va a volver.
 
-Un trozo de pan duro.
 Una mancha de vino que ya es parte de la mesa.
 La luz entrando de lado,
 dibujando la ausencia con precisión cruel.
-
-El cuerpo cede.
-No protesta.
-Solo se deja ir,
-como una herramienta que ha olvidado su función.
 
 La memoria no desaparece:
 se llena de otras cosas,

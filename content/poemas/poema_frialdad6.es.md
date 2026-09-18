@@ -14,46 +14,26 @@ Ella aparece sin entrar.
 Una sombra roja,
 un eco de voz que no necesita cuerpo.
 
-Montse apoya el diapasón de metal oscuro contra el cristal empañado,
-no para oír la nota, sino para sentir la vibración del ancla en los dedos
+Montse apoya el diapasón contra el cristal empañado,
+no para oír la nota,
+sino para sentirla en los dedos
 mientras la ciudad insiste en su zumbido gris.
 
 Barcelona se extiende ahí fuera,
-con sus luces cansadas,
-sus calles que no prometen nada,
-sus balcones donde nadie canta.
-Los plátanos de sombra tiemblan en la acera,
-desnudos,
-como si también esperaran algo
-que no llega.
+con sus luces cansadas
+y sus balcones donde nadie canta.
+Los plátanos, desnudos, esperan algo que no llega.
 
-**Montse** mira la ciudad
-como quien mira un amor que ya no duele
-pero tampoco se olvida.
-Donde quería escribir “volver”,
-solo encuentra “quedarse un momento”.
-Donde quería escribir “vida”,
-el papel responde con una calma rara,
-como si aceptara que no hay más.
+Donde quería escribir "volver",
+encuentra "quedarse un momento".
+Donde quería escribir "vida",
+el papel responde con una calma rara.
 
-Ella sabe que la memoria no se reconstruye.
-Que lo perdido no vuelve.
-Que lo que queda es otra cosa:
-una presencia tenue,
-una voz que se enciende cuando cae la noche,
-un temblor que no pide explicación.
-
-A veces, entre el cemento,
-un ficus viejo deja salir un brote verde,
-una grieta mínima
-que insiste en seguir viva.
+Entre el cemento, un ficus deja salir un brote.
 No es un milagro.
 Es un error hermoso.
-Una luz breve
-que no promete nada
-pero acompaña.
 
-**Montse** cierra el cuaderno.
+Montse cierra el cuaderno.
 La ciudad respira.
 La nieve no cae.
 Y aun así, hace frío.

@@ -29,7 +29,11 @@ def main() -> int:
 
     print(f"Páginas: {n}")
     if n < MIN_PAGES:
-        problems.append(f"tapa dura pide {MIN_PAGES} páginas como mínimo, hay {n}")
+        problems.append(
+            f"tapa dura pide {MIN_PAGES} páginas como mínimo, hay {n}. "
+            "La rústica en color premium sí lo admite (mínimo 24); la rústica "
+            "en color estándar pide 72"
+        )
     if n > MAX_PAGES:
         problems.append(f"tapa dura admite {MAX_PAGES} páginas como máximo, hay {n}")
     if n % 2:
