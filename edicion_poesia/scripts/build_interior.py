@@ -858,6 +858,12 @@ def run(toc: list[Entry] | None) -> Builder:
         for poem in book.poems:
             b.poem(poem)
 
+    # divisoria: página ilustrada de transición antes del glosario
+    b.to_verso()
+    b.show_folio = False
+    full_plate(b.cv, IMG / "libro3.jpg")
+    b.end_page()
+
     # cierre: el glosario, como libro aparte
     b.to_verso()
     b.show_folio = False
