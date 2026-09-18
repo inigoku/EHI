@@ -704,6 +704,37 @@ class Builder:
         self.end_page()
 
     # ---- final
+    def qr_page(self) -> None:
+        """Página con código QR para acceder a la versión interactiva."""
+        self.to_recto()
+        self.show_folio = False
+        cv = self.cv
+        x0 = frame_x(self.page)
+
+        # Texto introductorio
+        y = PH - M_TOP - 20
+        cv.setFont(IT, 11.0)
+        cv.setFillColor(INK)
+        cv.drawString(x0, y, "Esta antología")
+        y -= 18
+        cv.drawString(x0, y, "se puede disfrutar en su versión interactiva:")
+
+        # Código QR centrado
+        y -= 60
+        qr_path = IMG / "qr_url.png"
+        if qr_path.exists():
+            qr_size = 140  # puntos (aprox 2 pulgadas)
+            qr_x = (PW - qr_size) / 2
+            cv.drawImage(str(qr_path), qr_x, y - qr_size, width=qr_size, height=qr_size,
+                        preserveAspectRatio=True, anchor="c")
+
+        # URL debajo del QR
+        y -= qr_size + 30
+        cv.setFont(R, 10.0)
+        cv.drawCentredString(PW / 2, y, "ehi-pi.vercel.app")
+
+        self.end_page()
+
     def colophon(self) -> None:
         self.to_recto()
         self.show_folio = False
@@ -903,6 +934,7 @@ def run(toc: list[Entry] | None) -> Builder:
     b.first_line_index()
     b.prose_section("Sobre esta antología", ABOUT, level=2, running="Sobre esta antología")
 
+    b.qr_page()
     b.colophon()
     b.save()
     return b
