@@ -550,25 +550,25 @@
     ]
   },
   "poema_glosario": {
-    "origen": "src/assets/images/poemas/clean_poema_glosario.png",
-    "repintada": false,
+    "origen": "edicion_poesia/originales/poema_glosario.jpg",
+    "repintada": true,
     "original": [
-      1024,
-      1024
+      1342,
+      2000
     ],
     "recorte": [
       0,
-      97,
-      1024,
-      1024
+      0,
+      1342,
+      2000
     ],
     "recortada": [
-      576,
-      927
+      1342,
+      2000
     ],
     "final": [
-      1454,
-      2340
+      1455,
+      2168
     ]
   }
 }
