@@ -78,15 +78,26 @@ PALE = colors.HexColor("#cfe3e2")
 
 
 # ------------------------------------------------------------------ imagenes
-def upscaled(target_h_px: int) -> Image.Image:
-    """Sube la imagen de la seccion hasta la altura pedida.
+def source_image() -> Path:
+    """La version a 2K si esta, y si no la imagen de la seccion de la web.
 
-    Es una foto de 364 x 392 px: no da los 300 ppp que pide KDP a tamaño
-    cubierta. Se amplía por pasos con Lanczos y una mascara de enfoque suave,
-    que en una imagen pictorica como esta se lee como pincelada y no como
+    regen_portada_2k.py escribe portada_2k.jpg; en cuanto existe, la cubierta
+    la usa sola.
+    """
+    two_k = IMG / "portada_2k.jpg"
+    return two_k if two_k.exists() else IMG / "portada.jpg"
+
+
+def upscaled(target_h_px: int) -> Image.Image:
+    """Sube la imagen de partida hasta la altura pedida.
+
+    Ni siquiera el 2K de Imagen 4 llega a los 2775 px de alto que pide una
+    cubierta de 9,25" a 300 ppp, asi que casi siempre hay una ampliacion por
+    delante. Se hace por pasos con Lanczos y una mascara de enfoque suave, que
+    en una imagen pictorica como esta se lee como pincelada y no como
     interpolacion. Ver el README.
     """
-    im = Image.open(IMG / "portada.jpg").convert("RGB")
+    im = Image.open(source_image()).convert("RGB")
     while im.height < target_h_px:
         factor = min(2.0, target_h_px / im.height)
         im = im.resize((round(im.width * factor), round(im.height * factor)), Image.LANCZOS)
@@ -304,6 +315,9 @@ def main() -> int:
     ap.add_argument("--alto", type=float, default=None,
                     help="alto total de la envolvente en pulgadas (plantilla de KDP)")
     args = ap.parse_args()
+    src = source_image()
+    with Image.open(src) as probe:
+        print(f"Imagen de partida: {src.relative_to(ROOT)}  {probe.width} x {probe.height} px")
     build_front()
     build_wrap(args.paginas, args.ancho, args.alto)
     return 0

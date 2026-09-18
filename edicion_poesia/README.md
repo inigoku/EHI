@@ -11,6 +11,7 @@ como libro independiente para tapa dura de Amazon KDP.
     Ecos_en_el_Borde_cubierta_tapadura.pdf   la envolvente entera, 14,486 × 10,5"
     imagenes/                                las láminas ya recortadas y a 300 ppp
     imagenes/procedencia.json                de qué fichero sale cada lámina
+    imagenes/portada_2k.jpg                  la portada a 2K, si se ha regenerado
     fonts/                                   Source Serif Pro (SIL OFL)
     scripts/                                 todo lo necesario para regenerar
 
@@ -100,7 +101,45 @@ una cubierta de 6 × 9" a 300 ppp harían falta unos 1875 × 2775: la ampliació
 es de siete aumentos. En una imagen pictórica como esta —un rostro que emerge
 del oleaje— la suavidad se lee como pincelada, y el velo de tinta sobre el que
 va el título tapa buena parte del problema, pero es el punto más flojo del
-conjunto. Una versión de la misma imagen generada a 2K la arreglaría del todo.
+conjunto.
+
+Para arreglarlo está `scripts/regen_portada_2k.py`, que pide la misma escena a
+los modelos de imagen de Gemini, en vertical 2:3 —la proporción de la
+cubierta— y al mayor tamaño que dé la cuenta. El encargo va escrito dentro, con
+el rostro colocado en el tercio central para que no se lo coman los velos de
+tinta del título y del autor.
+
+    pip install google-genai
+    export GEMINI_API_KEY="tu_clave"          # de aistudio.google.com
+    python3 edicion_poesia/scripts/regen_portada_2k.py --variantes 4
+    cp edicion_poesia/imagenes/portada_2k_opciones/portada_2k_01.jpg \
+       edicion_poesia/imagenes/portada_2k.jpg
+    python3 edicion_poesia/scripts/build_cover.py --paginas 78
+
+`build_cover.py` busca `imagenes/portada_2k.jpg` antes que la imagen de la web,
+así que en cuanto ese fichero existe la cubierta lo usa solo, y al arrancar
+dice de cuál de las dos está tirando. Sin `--variantes` sustituye directamente
+la que esté en uso.
+
+El script baja por una escalera de modelos y se queda en el primero que la
+cuenta le deje usar:
+
+| Modelo | Tamaño | Píxeles | A tamaño cubierta |
+|---|---|---|---|
+| `gemini-3-pro-image-preview` | 4K | ~2730 × 4096 | 437 ppp, **nativa** |
+| `gemini-3-pro-image-preview` | 2K | ~1365 × 2048 | 218 ppp |
+| `gemini-2.5-flash-image` | 1K | ~682 × 1024 | 109 ppp |
+| `imagen-4.0-generate-001` | 2K | 1536 × 2048 | 221 ppp, solo Vertex |
+
+Con 4K la cubierta queda por fin nativa a 300 ppp, sin ampliar nada. Los demás
+escalones siguen siendo bastantes más píxeles reales que los 364 de ahora, y
+`build_cover.py` completa lo que falte con la misma ampliación de siempre.
+
+Imagen 4 solo se intenta si hay un proyecto de Google Cloud con Vertex AI
+(`GOOGLE_CLOUD_PROJECT`, y `GOOGLE_CLOUD_LOCATION` si no vale `us-central1`):
+el SDK no deja llamarlo con una clave de desarrollador suelta, y además está
+marcado como obsoleto a favor de los modelos de arriba. Para forzar un modelo
+concreto: `GEMINI_IMAGE_MODEL`, y `GEMINI_IMAGE_SIZE` para el tamaño.
 
 **Las medidas de la envolvente.** `build_cover.py` calcula la cubierta de tapa
 dura con lo que publica KDP: 0,625" de arrastre, 0,125" de sangre, 0,375" de
