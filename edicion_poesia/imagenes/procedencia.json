@@ -176,25 +176,25 @@
     ]
   },
   "poema_arq5": {
-    "origen": "src/assets/images/poemas/clean_poema_arq1.png",
-    "repintada": false,
+    "origen": "edicion_poesia/originales/poema_arq5.jpg",
+    "repintada": true,
     "original": [
-      1024,
-      572
+      1342,
+      2000
     ],
     "recorte": [
-      29,
-      58,
-      995,
-      543
+      0,
+      0,
+      1342,
+      2000
     ],
     "recortada": [
-      302,
-      485
+      1342,
+      2000
     ],
     "final": [
       1455,
-      2337
+      2168
     ]
   },
   "poema_arq6": {
