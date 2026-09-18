@@ -484,7 +484,7 @@ class Builder:
 
     # ---- prosa corrida (introduccion y notas finales)
     def prose_section(self, title: str, paragraphs: list[str], level: int = 2,
-                      running: str = "") -> None:
+                      running: str = "", with_qr: bool = False) -> None:
         self.to_recto()
         self.mark("", title, level)
         self.running = running or title
@@ -513,6 +513,29 @@ class Builder:
                     draw_runs_justified(cv, x0, y, line, PROSE_SIZE, INK, TEXT_W)
                 y -= PROSE_LEAD
             y -= 7
+
+        # Append QR code and URL if requested
+        if with_qr:
+            y -= 20  # Extra space after paragraphs
+
+            # "Versión interactiva:" text
+            cv.setFont(IT, 10.0)
+            cv.setFillColor(INK)
+            cv.drawString(x0, y, "Versión interactiva:")
+            y -= 20
+
+            # QR code
+            qr_path = IMG / "qr_url.png"
+            if qr_path.exists():
+                qr_size = 100  # puntos
+                cv.drawImage(str(qr_path), x0, y - qr_size, width=qr_size, height=qr_size,
+                            preserveAspectRatio=True, anchor="lb")
+                y -= qr_size + 10
+
+            # URL below QR
+            cv.setFont(R, 9.0)
+            cv.drawString(x0, y, "ehi-pi.vercel.app")
+
         self.end_page()
 
     # ---- aperturas de libro
@@ -703,39 +726,7 @@ class Builder:
         self.end_page()
 
     # ---- final
-    def qr_page(self) -> None:
-        """Página con código QR para acceder a la versión interactiva."""
-        self.to_recto()
-        self.show_folio = False
-        cv = self.cv
-        x0 = frame_x(self.page)
-
-        # Texto introductorio
-        y = PH - M_TOP - 20
-        cv.setFont(IT, 11.0)
-        cv.setFillColor(INK)
-        cv.drawString(x0, y, "Esta antología")
-        y -= 18
-        cv.drawString(x0, y, "se puede disfrutar en su versión interactiva:")
-
-        # Código QR centrado
-        y -= 60
-        qr_path = IMG / "qr_url.png"
-        if qr_path.exists():
-            qr_size = 140  # puntos (aprox 2 pulgadas)
-            qr_x = (PW - qr_size) / 2
-            cv.drawImage(str(qr_path), qr_x, y - qr_size, width=qr_size, height=qr_size,
-                        preserveAspectRatio=True, anchor="c")
-
-        # URL debajo del QR
-        y -= qr_size + 30
-        cv.setFont(R, 10.0)
-        cv.drawCentredString(PW / 2, y, "ehi-pi.vercel.app")
-
-        self.end_page()
-
     def colophon(self) -> None:
-        self.to_recto()
         self.show_folio = False
         cv = self.cv
         y = PH * 0.42
@@ -754,6 +745,10 @@ class Builder:
 
     def save(self) -> None:
         # KDP quiere un número par de páginas.
+        # Hardcover mínimo 75 páginas; si llegamos con 74, añadir una.
+        current_page_count = self.page - 1
+        if current_page_count < 75:
+            self.blank()
         if self.page % 2 == 0:
             self.blank()
         self.cv.save()
@@ -932,9 +927,8 @@ def run(toc: list[Entry] | None) -> Builder:
         paras.append(f"**{title}.** {desc}")
     b.prose_section("Las ilustraciones", paras, level=2, running="Las ilustraciones")
     b.first_line_index()
-    b.prose_section("Sobre esta antología", ABOUT, level=2, running="Sobre esta antología")
+    b.prose_section("Sobre esta antología", ABOUT, level=2, running="Sobre esta antología", with_qr=True)
 
-    b.qr_page()
     b.colophon()
     b.save()
     return b
