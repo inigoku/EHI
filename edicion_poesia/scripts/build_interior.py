@@ -768,6 +768,15 @@ ABOUT = [
 # Pie de cada lámina para la relación final. Los que no traen descripción
 # propia en content/poemas llevan una escrita aquí.
 PLATE_NOTES_OVERRIDE = {
+    # La lámina del nudo está repintada para que entre en el lenguaje del libro
+    # segundo, que es fotografía en blanco y negro. La descripción que trae
+    # content/poemas habla de la ilustración anterior —un horizonte que se
+    # disuelve en una cuadrícula metálica—, y esa sigue siendo la que muestra
+    # la web, así que se corrige aquí y no allí.
+    "poema_sintonizadores":
+        "Una puerta de sótano hinchada por la humedad, con la chapa de hierro "
+        "atornillada encima, y a su lado la grieta por donde entra la única "
+        "hoja de luz que hay en la habitación.",
     "poema_camara_reloj":
         "Un reloj de arena desdoblado en una hélice de luz: la misma arena "
         "cayendo por dos gargantas que no marcan la misma hora.",

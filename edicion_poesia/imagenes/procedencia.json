@@ -396,25 +396,25 @@
     ]
   },
   "poema_sintonizadores": {
-    "origen": "src/assets/images/ilustracion_poema_sintonizadores.jpg",
-    "repintada": false,
+    "origen": "edicion_poesia/originales/poema_sintonizadores.jpg",
+    "repintada": true,
     "original": [
-      1024,
-      1024
+      1342,
+      2000
     ],
     "recorte": [
       0,
       0,
-      1024,
-      1024
+      1342,
+      2000
     ],
     "recortada": [
-      1024,
-      1024
+      1342,
+      2000
     ],
     "final": [
       1455,
-      1455
+      2168
     ]
   },
   "poema_camara_reloj": {
