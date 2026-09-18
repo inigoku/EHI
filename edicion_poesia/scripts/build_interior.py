@@ -518,11 +518,12 @@ class Builder:
 
     # ---- aperturas de libro
     def book_opener(self, book: Book) -> None:
-        # Sin lámina enfrentada: la portadilla del libro va sola, en impar, y
-        # la par anterior queda en blanco.
-        self.to_recto()
+        # Lámina enfrentada a la portadilla: la lámina en par, la portadilla en impar.
+        self.to_verso()
         self.show_folio = False
         cv = self.cv
+        full_plate(cv, IMG / f"{book.key}.jpg")
+        self.end_page()
         self.mark(book.ordinal, book.title, 0)
         x0 = frame_x(self.page)
         y = PH * 0.60
