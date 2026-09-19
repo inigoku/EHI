@@ -24,7 +24,7 @@ Quan l'aigua se n'anava, pensava que s'estava acabant.
               Ella em va ensenyar una altra paraula,
 que després del buit ve alguna cosa nova.
 
-El meu pit aprèn un ritme que no sabia,
+El meu pit ha après un ritme que no sabia,
               el que sona quan dues respiracions es troben.
 
 Ho veig cada matí a l'alba,
