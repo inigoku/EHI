@@ -5,34 +5,34 @@ illustrationTitle: Entrelazamiento
 illustrationDescription: Dos hilos de distinto color que se trenzan sin perder su propia línea, creando un patrón que no existía antes en ninguno de los dos.
 ---
 
-Montse es la sorpresa de que el horizonte tiene otro lado.
+Montse es la cara de un horizonte que yo no sabía que tenía.
 
-Nuestras manos descubren
-              el espacio exacto donde sucede la dicha.
+Nuestras manos se encuentran
+              y algo se abre que no tiene nombre.
 
 Yo traía un hueco.
-              Ella traía luz que no viniera de arriba,
-sino de estar aquí,
-              con las grietas que duelen menos
-cuando alguien las reconoce.
+              Ella traía una luz que no bajaba de arriba,
+sino que nacía de estar aquí,
+              y las grietas dolían menos
+cuando alguien pasaba los dedos por ellas.
 
 Danza pura:
-              dos líneas se tejen sin perderse
-y crean colores que no vimos antes.
+              dos hilos se tejen sin perderse
+y nace un color que no estaba antes.
 
-Cuando el agua se fue, creí que era el final.
-              Ella me enseñó que era el cambio:
-después del vaciado viene el descubrimiento.
+Cuando el agua se iba, pensaba que se estaba acabando.
+              Ella me enseñó otra palabra,
+que después del vacío viene algo nuevo.
 
-Mi pecho aprende un nuevo ritmo,
-              el que suena cuando vibramos juntos.
+Mi pecho ha aprendido un ritmo que no sabía,
+              el que suena cuando dos respiraciones se encuentran.
 
-Lo veo cada mañana al alba:
+Lo veo cada mañana al alba,
               sus ojos abiertos mientras la ciudad aún duerme,
-mi mano en su pelo,
-              el silencio que llegó a casa.
+mi mano perdida en su pelo,
+              un silencio que ha aprendido a quedarse.
 
-El verdadero oficio:
-              descubrir que el hueco era
-la forma exacta de tu mano
-              esperando llegar.
+Y el oficio de toda una vida
+              era solo
+descubrir que el hueco tenía
+              la forma exacta de tu mano.

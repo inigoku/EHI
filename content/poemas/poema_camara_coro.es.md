@@ -27,7 +27,7 @@ Y coros que ya no dejan salir a nadie,
 con no poder cantar solo nunca más.
 
 La diferencia no está en la canción.
-  Está en si, terminado el coro,
+  Radica en si, terminado el coro,
 todavía recuerdas tu propia voz
   sin necesitar que mil más
 te digan cuál era.
