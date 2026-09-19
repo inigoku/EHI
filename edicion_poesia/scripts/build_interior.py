@@ -34,7 +34,13 @@ ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / "edicion_poesia"
 IMG = BASE / "imagenes"
 FONTS = BASE / "fonts"
-OUT = BASE / "Ecos_en_el_Borde_6x9_interior.pdf"
+
+def get_out_path(lang: str = "es") -> Path:
+    if lang == "ca":
+        return BASE / "Ecos_en_el_Borde_6x9_interior_ca.pdf"
+    return BASE / "Ecos_en_el_Borde_6x9_interior.pdf"
+
+OUT = get_out_path()
 
 # ---------------------------------------------------------------- tipografia
 FAMILY = {
@@ -875,8 +881,10 @@ def _description(pid: str, fm) -> str:
     return ""
 
 
-def run(toc: list[Entry] | None) -> Builder:
-    books, closing = load_books()
+def run(toc: list[Entry] | None, lang: str = "es") -> Builder:
+    global OUT
+    OUT = get_out_path(lang)
+    books, closing = load_books(lang)
     b = Builder(toc)
     b.half_title()
     b.title_page()
@@ -942,12 +950,13 @@ def run(toc: list[Entry] | None) -> Builder:
 
 
 def main() -> int:
-    first = run(None)                 # primera pasada: recoger los folios
-    second = run(first.toc_out)       # segunda: con el índice ya relleno
-    if [(e.title, e.page) for e in first.toc_out] != \
-       [(e.title, e.page) for e in second.toc_out]:
-        print("AVISO: el índice movió la paginación; revisar.", file=sys.stderr)
-    print(f"{OUT.relative_to(ROOT)}  —  {second.page - 1} páginas, 6 × 9 pulgadas")
+    for lang in ["es", "ca"]:
+        first = run(None, lang)                 # primera pasada: recoger los folios
+        second = run(first.toc_out, lang)       # segunda: con el índice ya relleno
+        if [(e.title, e.page) for e in first.toc_out] != \
+           [(e.title, e.page) for e in second.toc_out]:
+            print(f"AVISO: el índice movió la paginación ({lang}); revisar.", file=sys.stderr)
+        print(f"{OUT.relative_to(ROOT)}  —  {second.page - 1} páginas, 6 × 9 pulgadas")
     return 0
 
 

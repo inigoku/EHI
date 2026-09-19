@@ -108,14 +108,14 @@ BOOK_DEFS = [
 CLOSING_ID = "poema_glosario"
 
 
-def _read(pid: str) -> list[str]:
-    raw = (CONTENT / f"{pid}.es.md").read_text(encoding="utf-8")
+def _read(pid: str, lang: str = "es") -> list[str]:
+    raw = (CONTENT / f"{pid}.{lang}.md").read_text(encoding="utf-8")
     m = FRONTMATTER.match(raw)
     body = m.group(2) if m else raw
     return body.strip("\n").split("\n")
 
 
-def load_books() -> tuple[list[Book], Poem]:
+def load_books(lang: str = "es") -> tuple[list[Book], Poem]:
     books: list[Book] = []
     for key, ordinal, title, epigraph, ids in BOOK_DEFS:
         book = Book(key=key, ordinal=ordinal, title=title, epigraph=epigraph)
@@ -126,7 +126,7 @@ def load_books() -> tuple[list[Book], Poem]:
                     numeral=ROMAN[i],
                     title=TITLES[pid],
                     source=SOURCES.get(pid, ""),
-                    lines=_read(pid),
+                    lines=_read(pid, lang),
                 )
             )
         books.append(book)
@@ -134,7 +134,7 @@ def load_books() -> tuple[list[Book], Poem]:
         pid=CLOSING_ID,
         numeral="",
         title=TITLES[CLOSING_ID],
-        lines=_read(CLOSING_ID),
+        lines=_read(CLOSING_ID, lang),
         kind="glosario",
     )
     return books, closing

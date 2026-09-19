@@ -32,7 +32,12 @@ ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / "edicion_poesia"
 IMG = BASE / "imagenes"
 FONTS = BASE / "fonts"
-OUT = BASE / "Ecos_en_el_Borde.epub"
+def get_out_path(lang: str = "es") -> Path:
+    if lang == "ca":
+        return BASE / "Ecos_en_el_Borde_ca.epub"
+    return BASE / "Ecos_en_el_Borde.epub"
+
+OUT = get_out_path()
 
 # Las láminas del papel van a 1455 px porque las tiene que imprimir una
 # máquina a 300 ppp. Una pantalla no da para tanto, y KDP cobra la entrega del
@@ -196,11 +201,13 @@ def poem_page(poem: Poem) -> str:
     return page(poem.title, head + verse_html(poem))
 
 
-def build() -> None:
+def build(lang: str = "es") -> None:
+    global OUT
+    OUT = get_out_path(lang)
     from build_interior import (ABOUT, AUTHOR as _A, INTRO, INTRO_TITLE,
                                 _description, plate_notes)
 
-    books, closing = load_books()
+    books, closing = load_books(lang)
     files: dict[str, str] = {}
     spine: list[str] = []
     nav: list[tuple[str, str]] = []
@@ -348,4 +355,5 @@ def build() -> None:
 
 
 if __name__ == "__main__":
-    build()
+    for lang in ["es", "ca"]:
+        build(lang)
