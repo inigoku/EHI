@@ -19,7 +19,7 @@ Ara les canto jo,
 a l'hora en què ella cuinava,
 una mica més lentament
   o igual:
-mai ho vam mesurar.
+mai no ho vam mesurar.
 
 La cuina les reconeix.
   Això n'hi ha prou.
