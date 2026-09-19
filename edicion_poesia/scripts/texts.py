@@ -97,6 +97,9 @@ TEXTS = {
         ),
         "dedication": "A quien se quedó en la orilla<br/>cuando el agua se retiró.",
         "colophon_title": "Colofón",
+        "toc_title": "Índice",
+        "first_line_index_title": "Índice de primeros versos",
+        "colophon_text": "Se acabó de componer este volumen<br/>el día en que el agua volvió a la orilla<br/>sin que nadie supiera<br/>si había traído algo consigo.",
         "plate_notes_override": {
             "poema_camara_reloj":
                 "Un reloj de arena desdoblado en una hélice de luz: la misma arena "
@@ -214,6 +217,9 @@ TEXTS = {
         ),
         "dedication": "A qui es va quedar a la vora<br/>quan l'aigua es va retirar.",
         "colophon_title": "Colofó",
+        "toc_title": "Índex",
+        "first_line_index_title": "Índex de primers versos",
+        "colophon_text": "S'acabà de compondre aquest volum<br/>el dia en què l'aigua tornà a la vora<br/>sense que ningú sabés<br/>si havia portat quelcom consigo.",
         "plate_notes_override": {
             "poema_camara_reloj":
                 "Un rellotge de sorra desplegat en una hèlix de llum: la mateixa sorra "

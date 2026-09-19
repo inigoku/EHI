@@ -75,9 +75,25 @@ M_BOTTOM = 0.72 * inch
 TEXT_W = PW - M_GUTTER - M_OUTER
 TEXT_H = PH - M_TOP - M_BOTTOM
 
-BOOK_TITLE = "Ecos en el borde"
-AUTHOR = "Íñigo Barrera Barceló"
 CURRENT_LANG = "es"  # Variable global para el idioma actual
+
+def get_title():
+    return get_text(CURRENT_LANG, "title")
+
+def get_subtitle():
+    return get_text(CURRENT_LANG, "subtitle")
+
+def get_author():
+    return get_text(CURRENT_LANG, "author")
+
+def get_dedication():
+    return get_text(CURRENT_LANG, "dedication")
+
+def get_colophon_title():
+    return get_text(CURRENT_LANG, "colophon_title")
+
+def get_kicker():
+    return get_text(CURRENT_LANG, "kicker")
 
 VERSE_SIZE, VERSE_LEAD = 11.4, 17.0
 PROSE_SIZE, PROSE_LEAD = 11.0, 16.6
@@ -308,9 +324,9 @@ class Entry:
 class Builder:
     def __init__(self, toc: list[Entry] | None = None):
         self.cv = rl_canvas.Canvas(str(OUT), pagesize=(PW, PH))
-        self.cv.setTitle(f"{BOOK_TITLE} — Antología poética")
-        self.cv.setAuthor(AUTHOR)
-        self.cv.setSubject("Antología poética de El Horizonte Interior")
+        self.cv.setTitle(f"{get_title()} — Antología poética")
+        self.cv.setAuthor(get_author())
+        self.cv.setSubject(get_text(CURRENT_LANG, "kicker"))
         self.page = 1
         self.toc_in = toc or []
         self.toc_out: list[Entry] = []
@@ -331,7 +347,7 @@ class Builder:
                 small_caps(cv, PW - M_OUTER, y_head, self.running, IT, 7.6, TEAL,
                            align="right", spacing=1.2)
             else:
-                small_caps(cv, M_OUTER, y_head, BOOK_TITLE, IT, 7.6, TEAL, spacing=1.2)
+                small_caps(cv, M_OUTER, y_head, get_title(), IT, 7.6, TEAL, spacing=1.2)
         cv.setFont(R, 8.6)
         cv.setFillColor(INK)
         cv.drawCentredString(PW / 2, M_BOTTOM - 26, str(self.page))
@@ -363,7 +379,7 @@ class Builder:
     def half_title(self) -> None:
         cv = self.cv
         self.show_folio = False
-        small_caps(cv, 0, PH * 0.62, BOOK_TITLE, R, 17, INK, spacing=5.5,
+        small_caps(cv, 0, PH * 0.62, get_title(), R, 17, INK, spacing=5.5,
                    align="center", center_x=PW / 2)
         wave(cv, PW / 2, PH * 0.62 - 26, 46)
         self.end_page()
@@ -373,22 +389,22 @@ class Builder:
         cv = self.cv
         self.show_folio = False
         y = PH * 0.70
-        small_caps(cv, 0, y, BOOK_TITLE, R, 24, INK, spacing=7.0,
+        small_caps(cv, 0, y, get_title(), R, 24, INK, spacing=7.0,
                    align="center", center_x=PW / 2)
         y -= 30
         cv.setFont(IT, 12.5)
         cv.setFillColor(TEAL)
-        cv.drawCentredString(PW / 2, y, "Lírica del límite emocional")
+        cv.drawCentredString(PW / 2, y, get_subtitle())
         y -= 40
         wave(cv, PW / 2, y, 54)
         y -= 44
         cv.setFont(R, 10.4)
         cv.setFillColor(INK)
-        for line in ("Antología poética de", "El Horizonte Interior"):
+        for line in (get_text(CURRENT_LANG, "kicker").split(" de ")[0].strip(), "El Horizonte Interior"):
             cv.drawCentredString(PW / 2, y, line)
             y -= 15
         y = M_BOTTOM + 66
-        small_caps(cv, 0, y, AUTHOR, R, 11, INK, spacing=2.6,
+        small_caps(cv, 0, y, get_author(), R, 11, INK, spacing=2.6,
                    align="center", center_x=PW / 2)
         self.end_page()
 
@@ -396,26 +412,24 @@ class Builder:
         cv = self.cv
         self.show_folio = False
         y = M_BOTTOM + 200
-        lines = [
-            (f"{BOOK_TITLE}. Lírica del límite emocional", IT),
-            ("Antología poética de El Horizonte Interior", R),
-            ("", R),
-            (f"© {AUTHOR}", R),
-            ("Todos los derechos reservados.", R),
-            ("", R),
-            ("Los veinte poemas y el glosario proceden de la sección", R),
-            ("de poesía de El Horizonte Interior y se reproducen aquí en", R),
-            ("el orden en que la obra los presenta.", R),
-            ("", R),
-            ("Las ilustraciones proceden de las ediciones ilustrada y de", R),
-            ("cámara de la misma obra. Al final del volumen se relacionan", R),
-            ("una a una.", R),
-            ("", R),
-            ("Primera edición en tapa dura.", R),
-            ("Compuesto en Source Serif Pro.", R),
-            ("", R),
-            ("ISBN: 9798175383530", R),
-        ]
+        credits_text = get_text(CURRENT_LANG, "credits_text")
+        # Parse HTML-like credits text into lines
+        import re as _re
+        lines = []
+        for line in credits_text.split("</p>"):
+            line = line.replace("<p>", "").replace("<em>", "").replace("</em>", "").replace("<br/>", " ")
+            line = _re.sub(r"<[^>]+>", "", line).strip()
+            if line:
+                # Determine font based on content
+                if line.startswith("©"):
+                    lines.append((line, R))
+                elif "Antología" in line or "Antologia" in line:
+                    lines.append((line, R))
+                else:
+                    lines.append((line, R))
+            else:
+                lines.append(("", R))
+
         for text, font in lines:
             if text:
                 cv.setFont(font, 8.8)
@@ -430,8 +444,9 @@ class Builder:
         cv.setFont(IT, 11.6)
         cv.setFillColor(INK)
         y = PH * 0.58
-        for line in ("A quien se quedó en la orilla", "cuando el agua se retiró."):
-            cv.drawCentredString(PW / 2, y, line)
+        dedication_text = get_dedication()
+        for line in dedication_text.split("<br/>"):
+            cv.drawCentredString(PW / 2, y, line.strip())
             y -= 18
         self.end_page()
         self.blank()
@@ -444,7 +459,8 @@ class Builder:
         x0 = frame_x(self.page)
         x1 = x0 + TEXT_W
         y = PH - M_TOP - 16
-        small_caps(cv, x0, y, "Índice", R, 15, INK, spacing=4.0)
+        toc_title = get_text(CURRENT_LANG, "toc_title")
+        small_caps(cv, x0, y, toc_title, R, 15, INK, spacing=4.0)
         y -= 34
         for e in self.toc_in:
             if y < M_BOTTOM - 6:
@@ -703,7 +719,7 @@ class Builder:
     # ---- indice de primeros versos
     def first_line_index(self) -> None:
         self.to_recto()
-        title = "Índice de primeros versos"
+        title = get_text(CURRENT_LANG, "first_line_index_title")
         self.mark("", title, 2)
         self.running = title
         self.show_folio = True
@@ -748,13 +764,9 @@ class Builder:
         wave(cv, PW / 2, y + 30, 46)
         cv.setFont(IT, 10.0)
         cv.setFillColor(INK)
-        for line in (
-            "Se acabó de componer este volumen",
-            "el día en que el agua volvió a la orilla",
-            "sin que nadie supiera",
-            "si había traído algo consigo.",
-        ):
-            cv.drawCentredString(PW / 2, y, line)
+        colophon_text = get_text(CURRENT_LANG, "colophon_text")
+        for line in colophon_text.split("<br/>"):
+            cv.drawCentredString(PW / 2, y, line.strip())
             y -= 15
         self.end_page()
 
@@ -804,7 +816,8 @@ def _description(pid: str, fm) -> str:
     override = get_plate_notes_override()
     if pid in override:
         return override[pid]
-    raw = (ROOT / "content" / "poemas" / f"{pid}.es.md").read_text(encoding="utf-8")
+    lang_suffix = CURRENT_LANG
+    raw = (ROOT / "content" / "poemas" / f"{pid}.{lang_suffix}.md").read_text(encoding="utf-8")
     m = fm.match(raw)
     if not m:
         return ""
