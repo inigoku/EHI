@@ -5,34 +5,34 @@ illustrationTitle: Entrellaçament
 illustrationDescription: Dos fils de distint color que es trenen sense perdre la seva pròpia línia, creant un patró que no existia abans en cap dels dos.
 ---
 
-Montse és la sorpresa que l'horitzó té un altre costat.
+Montse és el revers d'un horitzó: la cara que jo no sabia que tenia.
 
-Les nostres mans descobreixen
-              l'espai exacte on passa la felicitat.
+Les nostres mans es troben
+              i alguna cosa s'obre que no té nom.
 
-Duia un forat.
-              Ella duia llum que no vingués de dalt,
-sinó d'estar aquí,
-              amb les esquerdes que fan menys mal
-quan algú les reconeix.
+Jo duia un forat.
+              Ella duia una llum que no baixava de dalt,
+sinó que naixia d'estar aquí,
+              i les esquerdes feien menys mal
+quan algú hi passava els dits.
 
 Dansa pura:
-              dues línies es teixeixen sense perdre's
-i creen colors que no vam veure abans.
+              dos fils es teixeixen sense perdre's
+i neix un color que no hi era abans.
 
-Quan l'aigua se'n va, vaig creure que era el final.
-              Ella em va ensenyar que era el canvi:
-després del buidat ve el descobriment.
+Quan l'aigua se'n va, vaig creure que s'acabava.
+              Ella em va ensenyar l'altra paraula:
+que després del buit ve alguna cosa nova.
 
-El meu pit aprèn un ritme nou,
-              el que sona quan vibrem junts.
+El meu pit aprèn un ritme que no sabia:
+              el que sona quan dues respiracions es troben.
 
-Ho vull veure cada matí a l'alba:
+Ho veig cada matí a l'alba:
               els seus ulls oberts mentre la ciutat encara dorm,
-la meva mà al seu cabell,
-              el silenci que va arribar a casa.
+la meva mà perduda al seu cabell,
+              un silenci que ha après a quedar-se.
 
-El veritable ofici:
-              descobrir que el forat era
-la forma exacta de la teva mà
-              esperant arribar.
+I l'ofici de tota la vida
+              era només això:
+descobrir que el forat tenia
+              la forma exacta de la teva mà.
