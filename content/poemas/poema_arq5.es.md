@@ -1,5 +1,5 @@
 ---
-title: LA ARQUITECTURA CON UN HUECO — V: ENTRELAZAMIENTO
+title: LA ARQUITECTURA CON UN HUECO — V: MONTSE XX
 section: LA ARQUITECTURA CON UN HUECO
 illustrationTitle: Entrelazamiento
 illustrationDescription: Dos hilos de distinto color que se trenzan sin perder su propia línea, creando un patrón que no existía antes en ninguno de los dos.
