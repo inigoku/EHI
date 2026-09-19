@@ -5,14 +5,14 @@ illustrationTitle: Cant de Mort
 illustrationDescription: Una cadira buida, la seva ombra es projecta enorme, sota una il·luminació dramàtica que evoca l'absència absoluta.
 ---
 
-Una clau que no obri res.
+Una clau que no obre res.
   Un llibre obert per una pàgina
 que no recordo haver llegit.
   El llit dividit en dos silencis.
 
-Res es mou.
+Res no es mou.
   Les coses esperen,
-com si sabéssim que ningú no anirà a tornar.
+com si sabéssim que ningú no tornarà.
 
 Una taca de vi que ja és part de la taula.
   La llum entrant de costat,

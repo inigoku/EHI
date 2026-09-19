@@ -12,7 +12,7 @@ i jo entro en el dia
   amb un cansament que no s'explica.
 Jo, que un dia vaig tenir un espai propi,
 torno a un lloc que no em reconeix.
-Cos les hores amb un fil fi.
+Cuso les hores amb un fil fi.
 No espero miracles.
   Només que doli una mica menys.
 
@@ -23,12 +23,12 @@ com una pell fina que no vaig saber portar-me a temps.
  El món és un inventari de camises allisades
 i noms que s'arxiven abans de pronunciar-se.
  A l'oficina, el cafè de màquina
-deixa un sedàs de plàstic al paladar.
+deixa un pòsit de plàstic al paladar.
 
 **III.**
 Mira les meves mans.
  Encara guarden la sal d'un cos que ja no està
-i el pols de quelcom que s'obri massa aviat.
+i el pols de quelcom que es va obrir massa aviat.
  A l'oficina no porto eines.
 Porto això:
  un tremolor que ningú no sent

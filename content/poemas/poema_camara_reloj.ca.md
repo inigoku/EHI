@@ -8,7 +8,7 @@ illustrationDescription: Un rellotge de sol en un pati: l'ombra creua les rajole
 Puc mesurar l'ombra creuant el pati,
   la formiga carregada camí del vorell,
 el silenci exacte que deixa un ocell
-  quan ja se'n ha anat.
+  quan ja se n'ha anat.
 
 Cap d'aquestes unitats es converteix en l'altra.
 Cap no cap en l'esfera d'un rellotge.

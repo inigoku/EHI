@@ -23,9 +23,9 @@ Travesso el matí com puc:
 La pau és un vernís.
   S'enganxa, però no cura.
 Em manté dret
-  mentre la casa es cau lentament.
+  mentre la casa cau lentament.
 I una altra vegada aquí,
-  amb el gust a metall a la garganta
+  amb el gust a metall a la gola
 i el dia tornant,
   com una paret blanca
 que no puc evitar.

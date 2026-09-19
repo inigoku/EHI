@@ -21,5 +21,5 @@ com monedes d'un país
   que encara no existeix.
 
 Deixo forats al quadern.
-    I de nit, adormir-me,
-            encara remem.
+    I de nit, adormit,
+            encara remo.

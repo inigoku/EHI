@@ -35,4 +35,4 @@ la meva mà al seu cabell,
 El veritable ofici:
               descobrir que el forat era
 la forma exacta de la teva mà
-              esperant a arribar.
+              esperant arribar.

@@ -15,7 +15,7 @@ No l'he vist.
   No el veuré.
 Si un dia baixés fins aquí
   amb la seva cara i el seu nom,
-la cova es vindria avall
+la cova s'ensorraria
   del pes de saber-ho.
 
 Per això, quan no vull volar, no volo.
