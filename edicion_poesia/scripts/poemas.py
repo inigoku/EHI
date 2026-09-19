@@ -82,8 +82,8 @@ BOOK_DEFS = [
         "La arquitectura con un hueco",
         "Ocho oficios para un duelo: lo que queda cuando el agua se retira "
         "y hay que seguir midiendo la orilla.",
-        ["poema_arq1", "poema_arq2", "poema_arq3", "poema_arq4",
-         "poema_arq5", "poema_arq6", "poema_arq7", "poema_arq8"],
+        ["poema_arq1", "poema_arq2", "poema_arq3", "poema_arq5",
+         "poema_arq6", "poema_arq7", "poema_arq8", "poema_arq4"],
     ),
     (
         "libro2",
@@ -101,7 +101,7 @@ BOOK_DEFS = [
         "Seis historias que ya venían contadas en prosa y aquí vuelven "
         "en verso, una por cada movimiento del final de la obra.",
         ["poema_camara_reloj", "poema_camara_espejo", "poema_camara_manos",
-         "poema_camara_coro", "poema_camara_vecinos", "poema_camara_cueva"],
+         "poema_camara_coro", "poema_camara_cueva", "poema_camara_vecinos"],
     ),
 ]
 
