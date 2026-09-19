@@ -21,9 +21,9 @@ Nadie supo si trajo algo.
 Nadie supo si dejó algo en mi casa.
 
 Pero al alba,
-miré mis manos
-abiertas.
+  miré mis manos
+    abiertas.
 
 Y entendí.
-Tal vez,
-eso era la respuesta.
+  Tal vez,
+    eso era la respuesta.

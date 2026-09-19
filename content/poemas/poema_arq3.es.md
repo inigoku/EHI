@@ -6,19 +6,19 @@ illustrationDescription: Un taller de lutería lleno de instrumentos colgados de
 ---
 
 Nunca he entrado en una caja
-de las que afino.
-Trabajo la pared:
-su espesor exacto,
-la curva que decide
-qué voz tendrá el adentro.
+  de las que afino.
+    Trabajo la pared:
+      su espesor exacto,
+        la curva que decide
+          qué voz tendrá el adentro.
 
 Me traen grietas
-envueltas en jerséis de lana.
-Las cierro sin taparlas.
-Cobro por la honestidad
-de la línea que queda.
+  envueltas en jerséis de lana.
+    Las cierro sin taparlas.
+      Cobro por la honestidad
+        de la línea que queda.
 
 Y cuando pasa el autobús,
-la tienda entera responde:
-cada madera con su nota,
-ninguna con la mía.
+  la tienda entera responde:
+    cada madera con su nota,
+      ninguna con la mía.

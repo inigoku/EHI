@@ -6,23 +6,23 @@ illustrationDescription: Un reloj de bolsillo de plata abierto sobre un paño os
 ---
 
 Dos horas al día
-alguien limpia el cristal.
+  alguien limpia el cristal.
 
 Abro el reloj de plata
-con el pulso de antes,
+  con el pulso de antes,
 que vuelve de visita
-y no se quita el abrigo.
+  y no se quita el abrigo.
 
 El balancín hace su trabajo:
-ida, vuelta, ida.
+  ida, vuelta, ida.
 Lo escucho como se escucha
-un corazón ajeno:
+  un corazón ajeno:
 agradeciendo que no sea el mío
-quien lleve la cuenta.
+  quien lleve la cuenta.
 
 Cuando la mañana empieza a espesarse
-lo sé antes que los dedos.
+  lo sé antes que los dedos.
 Guardo las herramientas
-en el orden exacto
+  en el orden exacto
 en que quiero encontrarlas
-si mañana abre.
+  si mañana abre.

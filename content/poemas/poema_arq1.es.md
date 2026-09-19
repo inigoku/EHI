@@ -6,20 +6,20 @@ illustrationDescription: Un cuaderno abierto sobre un muelle de madera, junto a 
 ---
 
 El agua se fue como se van
-los huéspedes educados:
+        los huéspedes educados:
 de noche,
-dejando la habitación lista
+        dejando la habitación lista
 para alguien que no conozco.
 
 Anoté la primera franja de barro
-con la letra de los días normales.
-Hay caligrafías que no saben
-que están escribiendo una despedida.
+  con la letra de los días normales.
+    Hay caligrafías que no saben
+      que están escribiendo una despedida.
 
 Los niños enseñan las ampollas
 como monedas de un país
-que todavía no existe.
+  que todavía no existe.
 
 Yo dejo huecos en el cuaderno.
-Y de noche, dormido,
-todavía remo.
+    Y de noche, dormido,
+            todavía remo.

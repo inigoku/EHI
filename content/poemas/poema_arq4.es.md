@@ -6,9 +6,8 @@ illustrationDescription: Una cocina vacía al atardecer, con una olla al fuego. 
 ---
 
 Cuatro notas:
-la que sube, la que baja,
-el silencio,
-otra vez.
+  la que sube,  la que baja,
+  el silencio,  otra vez.
 
 No sé cuándo las guardé.
 El cuerpo hace acopio sin avisar:
@@ -19,10 +18,10 @@ el hueco tibio del sofá.
 Ahora las canto yo,
 a la hora en que ella cocinaba,
 un poco más despacio
-o igual:
+  o igual:
 nunca lo medimos.
 
 La cocina las reconoce.
-Eso basta.
+  Eso basta.
 O no basta,
-pero suena.
+  pero suena.

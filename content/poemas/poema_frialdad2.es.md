@@ -6,32 +6,32 @@ illustrationDescription: Una silla vacía cuya sombra se proyecta enorme, bajo u
 ---
 
 Una llave que no abre nada.
-Un libro abierto por una página
+  Un libro abierto por una página
 que no recuerdo haber leído.
-La cama dividida en dos silencios.
+  La cama dividida en dos silencios.
 
 Nada se mueve.
-Las cosas esperan,
+  Las cosas esperan,
 como si supieran que nadie va a volver.
 
 Una mancha de vino que ya es parte de la mesa.
-La luz entrando de lado,
+  La luz entrando de lado,
 dibujando la ausencia con precisión cruel.
 
 La memoria no desaparece:
-se llena de otras cosas,
+  se llena de otras cosas,
 como un hueco en la tierra
-que recoge agua oscura.
+  que recoge agua oscura.
 
 El silencio es un órgano nuevo.
-Un músculo que aprende a no sonar.
+  Un músculo que aprende a no sonar.
 
 Y yo escucho,
-por si dentro de la madera,
-o en la fruta que se pudre,
+  por si dentro de la madera,
+  o en la fruta que se pudre,
 hubiera alguna respuesta.
 
 Al final,
-una mano abierta.
-Un poco de sal.
-Y el viento haciendo lo que puede.
+    una mano abierta.
+  Un poco de sal.
+    Y el viento haciendo lo que puede.

@@ -18,9 +18,10 @@ La Navidad, un mensaje automático
 que llega aunque no lo quieras.
 Buscamos sentido,
 pero el sistema no responde.
-Error 404.
+  Error 404.
+
 Y aun así,
-debajo de la mesa,
-una mano encuentra otra.
+  debajo de la mesa,
+    una mano encuentra otra.
 No arregla nada,
-pero hace menos frío.
+  pero hace menos frío.
