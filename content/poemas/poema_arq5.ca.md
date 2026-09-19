@@ -20,7 +20,7 @@ Dansa pura:
               dos fils es teixeixen sense perdre's
 i neix un color que no hi era abans.
 
-Quan l'aigua se'n va, vaig creure que s'acabava.
+Quan l'aigua se n'anava, pensava que s'estava acabant.
               Ella em va ensenyar una altra paraula,
 que després del buit ve alguna cosa nova.
 
