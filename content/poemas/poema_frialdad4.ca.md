@@ -21,7 +21,7 @@ però el sistema no respon.
   Error 404.
 
 I tanmateix,
-  sota de la taula,
+  sota la taula,
     una mà en troba una altra.
 No arregla res,
   però fa menys fred.

@@ -27,7 +27,7 @@ I cors que ja no deixen sortir ningú,
 amb no poder cantar sol mai més.
 
 La diferència no està en la cançó.
-  Està en si, acabat el cor,
+  Rau en si, acabat el cor,
 encara recordes la teva pròpia veu
   sense necessitar que mil més
 et diguin quina era.
