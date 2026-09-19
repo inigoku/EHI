@@ -1,6 +1,6 @@
 ---
 title: II. CANT DE MORT
-section: LA FRIALDAD DE UNA CIUDAD APAGADA
+section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Cant de Mort
 illustrationDescription: Una cadira buida la seva sombra es projecta enorme, sota una il·luminació dramàtica que evoca l'absència absoluta.
 ---
@@ -19,7 +19,7 @@ Una taca de vi que ja és part de la taula.
 dibuixant l'absència amb precisió cruel.
 
 La memòria no desapareix:
-  es plenus d'altres coses,
+  és plena d'altres coses,
 com un forat a la terra
   que recull aigua fosca.
 
@@ -28,7 +28,7 @@ El silenci és un òrgan nou.
 
 I jo escolto,
   per si dins de la fusta,
-  o a la fruita que es pudeix,
+  o a la fruita que es podreix,
 hi hagués alguna resposta.
 
 Al final,

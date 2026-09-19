@@ -1,6 +1,6 @@
 ---
 title: I. CARTOGRAFIA DE L'ECO
-section: LA FRIALDAD DE UNA CIUDAD APAGADA
+section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Cartografia de l'eco
 illustrationDescription: Una línia trencada, com un cable que ja no condueix res, terminant en un punt apagat sobre un mapa esborrat per la pluja.
 ---

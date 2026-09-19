@@ -1,6 +1,6 @@
 ---
 title: EL DIAPASÓ INVISIBLE — MANS
-section: LOS ÚLTIMOS LIBROS
+section: ELS ÚLTIMS LLIBRES
 illustrationTitle: Mans
 illustrationDescription: Tres parells de mans a la penombra: unes tancades, altres obertes cap amunt, altres quietes sobre les genolles, buides a propòsit.
 ---

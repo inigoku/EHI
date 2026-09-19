@@ -10,7 +10,7 @@ Quatre notes:
   el silenci,  una altra vegada.
 
 No sé quan les vaig guardar.
-El cos fa acopio sense avisar:
+El cos recull sense avisar:
 un ritme de respirar dormint,
 la força justa d'un calaix,
 el buit tibat del sofà.

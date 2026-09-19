@@ -22,4 +22,4 @@ com monedes d'un país
 
 Deixo forats al quadern.
     I de nit, adormir-me,
-            ainda remem.
+            encara remem.

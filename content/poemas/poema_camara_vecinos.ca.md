@@ -1,6 +1,6 @@
 ---
 title: LA REALITAT FRACTAL — VEÏNS
-section: LOS ÚLTIMOS LIBROS
+section: ELS ÚLTIMS LLIBRES
 illustrationTitle: Veïns
 illustrationDescription: Un plànol que mai tanca, dibuixat a partir de cops i veus de l'altre costat de la paret, on cada sala sembla contenir una altra.
 ---

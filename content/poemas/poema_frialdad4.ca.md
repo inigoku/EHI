@@ -1,6 +1,6 @@
 ---
 title: IV. VILANÇÓ CIBERNÈTIC PER A UN SOLSTICI TEMPLAT
-section: LA FRIALDAD DE UNA CIUDAD APAGADA
+section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Vilançó Cibernètic
 illustrationDescription: Una bombeta de filament a penes il·luminada penjant sobre un rectangle negre apagat.
 ---

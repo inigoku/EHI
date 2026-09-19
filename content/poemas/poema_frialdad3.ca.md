@@ -1,6 +1,6 @@
 ---
 title: III. LAMENT DE LA VOLTA
-section: LA FRIALDAD DE UNA CIUDAD APAGADA
+section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Lament de la Volta
 illustrationDescription: Una clau de ferro torcida sobre una taula de fusta gastada amb una ombra circular perfecta.
 ---
@@ -20,7 +20,7 @@ No espero miracles.
 La línia 1 olorosa a metall calent i abrics humits.
  La meva ombra es va quedar atrapada al tancament de la porta,
 com una pell fina que no vaig saber portar-me a temps.
- El món és un inventari de camises planchades
+ El món és un inventari de camises allisades
 i noms que s'arxiven abans de pronunciar-se.
  A l'oficina, el cafè de màquina
 deixa un sedàs de plàstic al paladar.

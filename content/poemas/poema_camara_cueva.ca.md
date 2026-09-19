@@ -1,6 +1,6 @@
 ---
 title: LA REALITAT FRACTAL — DES DE LA COVA
-section: LOS ÚLTIMOS LIBROS
+section: ELS ÚLTIMS LLIBRES
 illustrationTitle: Des de la cova
 illustrationDescription: L'interior d'una cova: un sostre de roca que canvia de temperatura sense que hagi canviat el temps, i algú que es queda.
 ---

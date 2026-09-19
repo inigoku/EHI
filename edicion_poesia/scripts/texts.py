@@ -140,19 +140,19 @@ TEXTS = {
             "els demés. És una hipòtesi, i l'assaig la defensa amb l'aparell que li "
             "correspon. Els poemes no la defensen. Fan una altra cosa: la habiten. "
             "Pregunten què es sent estant dins d'una frontera així, què fa mal "
-            "quan es filastra i què queda quan l'aigua de l'altre costat es retira.",
+            "quan s'esfilastra i què queda quan l'aigua de l'altre costat es retira.",
 
             "Van repartits en tres llibres, i el repartiment no és cronològic sinó de "
             "temperatura.",
 
-            "**El primer llibre**, *L'arquitectura amb un forat*, és un duelo en vuit "
+            "**El primer llibre**, *L'arquitectura amb un forat*, és un dol en vuit "
             "oficis. Un arxivista, un rellotger, un lutier, una cançó que algú "
             "tartolejava a la cuina. Cap dels vuit parla de la pèrdua "
             "directament: parlen del que segueixen fent amb les mans mentre la "
             "pèrdua succeeix. El forat del títol no és una metàfora del buit. És el "
             "que fa sonar una caixa de violí.",
 
-            "**El segon llibre**, *La frialdad de una ciudad apagada*, baixa la "
+            "**El segon llibre**, *La frisor d'una ciutat apagada*, baixa la "
             "temperatura. Sis poemes d'hivern urbà, escrits des de dins d'un "
             "cos que no acaba d'entrar en calor: el metro, la pastilla sobre la "
             "taula, un vilançó que no enganya a ningú, una finestra embruïda amb "
@@ -162,7 +162,7 @@ TEXTS = {
             "**El tercer llibre**, *Els últims llibres*, recull sis poemes que ja "
             "venien contats en prosa en els moviments finals de l'obra —el temps "
             "que no passa, l'espill sense profunditat, el diapasó invisible, l'ull de "
-            "un sol color, la realitat fractal— i els devuelve al vers, que era "
+            "un sol color, la realitat fractal— i els retorna al vers, que era "
             "segurament el seu idioma d'origen.",
 
             "Tanca el volum un *Glossari íntim*: les paraules tècniques de l'assaig "
@@ -219,7 +219,7 @@ TEXTS = {
         "colophon_title": "Colofó",
         "toc_title": "Índex",
         "first_line_index_title": "Índex de primers versos",
-        "colophon_text": "S'acabà de compondre aquest volum<br/>el dia en què l'aigua tornà a la vora<br/>sense que ningú sabés<br/>si havia portat quelcom consigo.",
+        "colophon_text": "S'acabà de compondre aquest volum<br/>el dia en què l'aigua tornà a la vora<br/>sense que ningú sabés<br/>si havia portat quelcom consell.",
         "plate_notes_override": {
             "poema_camara_reloj":
                 "Un rellotge de sorra desplegat en una hèlix de llum: la mateixa sorra "

@@ -1,8 +1,8 @@
 ---
 title: L'ULL D'UN SOL COLOR — COR
-section: LOS ÚLTIMOS LIBROS
+section: ELS ÚLTIMS LLIBRES
 illustrationTitle: Cor
-illustrationDescription: Una plaça plena de veus del mateix color; a la vora, una sola veu que tremola i ancora recorda quina era.
+illustrationDescription: Una plaça plena de veus del mateix color; a la vora, una sola veu que tremola i encara recorda quina era.
 ---
 
 Una veu sola tremola.
@@ -28,6 +28,6 @@ amb no poder cantar sol mai més.
 
 La diferència no està en la cançó.
   Està en si, acabat el cor,
-ancora recorxdes la teva pròpia veu
+encara recorxdes la teva pròpia veu
   sense necessitar que mil més
 et diguin quina era.

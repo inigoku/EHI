@@ -1,6 +1,6 @@
 ---
 title: V. PROTOCOL DE SORTIDA
-section: LA FRIALDAD DE UNA CIUDAD APAGADA
+section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Protocol de Sortida
 illustrationDescription: Una pastilla rodona blanca sobre una taula de fusta amb una ombra circular perfecta.
 ---

@@ -1,6 +1,6 @@
 ---
 title: EL TEMPS QUE NO PASSA — ALLÒ QUE NO CAP EN UN RELLOTGE
-section: LOS ÚLTIMOS LIBROS
+section: ELS ÚLTIMS LLIBRES
 illustrationTitle: Allò que no cap en un rellotge
 illustrationDescription: Un rellotge de sol en un pati: l'ombra creua les rajoles mentre una formiga carregada segueix el seu propi temps cap al vorell.
 ---
@@ -21,5 +21,5 @@ Però entre les dues agulles
   hi ha un temps que no es deixa contar,
 que s'espessa o es buida sense permís,
   i que només es mesura, després,
-per quanto d'aquella tarda
-  ancora et pesa als braços.
+per quant d'aquella tarda
+  encara et pesa als braços.

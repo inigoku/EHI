@@ -1,6 +1,6 @@
 ---
 title: VI. MONTSE XXI
-section: LA FRIALDAD DE UNA CIUDAD APAGADA
+section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Montse XXI
 illustrationDescription: Una finestra embruïda amb una línia descendent traçada amb un dit a la condensació.
 ---

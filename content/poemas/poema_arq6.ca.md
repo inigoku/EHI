@@ -17,5 +17,5 @@ No dic que l'aigua baixés.
 He vist l'horitzó emergir del meu propi reservori.
 He vist que tornava.
 
-Vaig aprendre que la repetició ancora
+Vaig aprendre que la repetició enclava
   més que la comprensió.
