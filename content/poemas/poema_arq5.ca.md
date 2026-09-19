@@ -5,7 +5,7 @@ illustrationTitle: Entrellaçament
 illustrationDescription: Dos fils de distint color que es trenen sense perdre la seva pròpia línia, creant un patró que no existia abans en cap dels dos.
 ---
 
-Montse és el revers d'un horitzó: la cara que jo no sabia que tenia.
+Montse és la cara d'un horitzó que jo no sabia que tenia.
 
 Les nostres mans es troben
               i alguna cosa s'obre que no té nom.
@@ -21,18 +21,18 @@ Dansa pura:
 i neix un color que no hi era abans.
 
 Quan l'aigua se'n va, vaig creure que s'acabava.
-              Ella em va ensenyar l'altra paraula:
+              Ella em va ensenyar una altra paraula,
 que després del buit ve alguna cosa nova.
 
-El meu pit aprèn un ritme que no sabia:
+El meu pit aprèn un ritme que no sabia,
               el que sona quan dues respiracions es troben.
 
-Ho veig cada matí a l'alba:
+Ho veig cada matí a l'alba,
               els seus ulls oberts mentre la ciutat encara dorm,
 la meva mà perduda al seu cabell,
               un silenci que ha après a quedar-se.
 
 I l'ofici de tota la vida
-              era només això:
+              era només
 descobrir que el forat tenia
               la forma exacta de la teva mà.
