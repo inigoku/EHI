@@ -106,6 +106,18 @@ TEXTS = {
                 "objetos —la ola, la casa, el diapasón, el cuenco— dibujados sobre "
                 "papel cuadriculado.",
         },
+        "kicker": "Antología poética de El Horizonte Interior",
+        "blurb": (
+            "Versos libres y un glosario que traducen al lenguaje del sentimiento las "
+            "implicaciones físicas de la frontera: el dolor de la asimetría, el duelo "
+            "concebido como una arquitectura con un hueco y el amor como el "
+            "entrelazamiento geométrico de dos mundos."
+        ),
+        "blurb2": (
+            "Veintiún poemas y un glosario íntimo, repartidos en tres libros: la "
+            "arquitectura con un hueco, la frialdad de una ciudad apagada y los "
+            "últimos libros."
+        ),
     },
     "ca": {
         "title": "Ecos a la vora",
@@ -211,6 +223,17 @@ TEXTS = {
                 "objectes —l'ona, la casa, el diapasó, el bol— dibuixats sobre "
                 "paper quadriculat.",
         },
+        "kicker": "Antologia poètica de L'Horitzó Interior",
+        "blurb": (
+            "Versos lliures i un glossari que tradueixen al llenguatge del sentiment les "
+            "implicacions físiques de la frontera: el dolor de l'asimetria, el dol "
+            "concebut com una arquitectura amb un forat i l'amor com l'entrellaçament "
+            "geomètric de dos mons."
+        ),
+        "blurb2": (
+            "Vint-i-un poemes i un glossari íntim, repartits en tres llibres: l'arquitectura "
+            "amb un forat, la frialdad de una ciudad apagada i els últims llibres."
+        ),
     },
 }
 

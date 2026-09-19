@@ -30,13 +30,28 @@ from reportlab.pdfbase.ttfonts import TTFont
 from reportlab import rl_config
 from reportlab.pdfgen import canvas as rl_canvas
 
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from texts import get_text  # noqa: E402
+
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / "edicion_poesia"
 IMG = BASE / "imagenes"
 FONTS = BASE / "fonts"
 
-FRONT_PDF = BASE / "Ecos_en_el_Borde_portada_frontal.pdf"
-WRAP_PDF = BASE / "Ecos_en_el_Borde_cubierta_tapadura.pdf"
+def get_front_pdf(lang: str = "es") -> Path:
+    if lang == "ca":
+        return BASE / "Ecos_en_el_Borde_portada_frontal_ca.pdf"
+    return BASE / "Ecos_en_el_Borde_portada_frontal.pdf"
+
+def get_wrap_pdf(lang: str = "es") -> Path:
+    if lang == "ca":
+        return BASE / "Ecos_en_el_Borde_cubierta_tapadura_ca.pdf"
+    return BASE / "Ecos_en_el_Borde_cubierta_tapadura.pdf"
+
+FRONT_PDF = get_front_pdf()
+WRAP_PDF = get_wrap_pdf()
+CURRENT_LANG = "es"
 
 for name, filename in (
     ("Eco", "SourceSerifPro-Regular.ttf"),
@@ -57,21 +72,23 @@ SPINE_PER_PAGE = 0.002252   # papel blanco
 SPINE_BOARD = 0.06
 DPI = 300
 
-TITLE = "Ecos en el borde"
-SUBTITLE = "Lírica del límite emocional"
-AUTHOR = "Íñigo Barrera Barceló"
-KICKER = "Antología poética de El Horizonte Interior"
-BLURB = (
-    "Versos libres y un glosario que traducen al lenguaje del sentimiento las "
-    "implicaciones físicas de la frontera: el dolor de la asimetría, el duelo "
-    "concebido como una arquitectura con un hueco y el amor como el "
-    "entrelazamiento geométrico de dos mundos."
-)
-BLURB2 = (
-    "Veintiún poemas y un glosario íntimo, repartidos en tres libros: la "
-    "arquitectura con un hueco, la frialdad de una ciudad apagada y los "
-    "últimos libros."
-)
+def get_title():
+    return get_text(CURRENT_LANG, "title")
+
+def get_subtitle():
+    return get_text(CURRENT_LANG, "subtitle")
+
+def get_author():
+    return get_text(CURRENT_LANG, "author")
+
+def get_kicker():
+    return get_text(CURRENT_LANG, "kicker")
+
+def get_blurb():
+    return get_text(CURRENT_LANG, "blurb")
+
+def get_blurb2():
+    return get_text(CURRENT_LANG, "blurb2")
 
 CREAM = colors.HexColor("#f2ede4")
 PALE = colors.HexColor("#cfe3e2")
@@ -193,14 +210,14 @@ def front_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     cv.setLineWidth(1.0)
     cv.line(cx - 46, y, cx + 46, y)
     y -= 26
-    caps(cv, cx, y, SUBTITLE, R, 10.5, PALE, 3.2)
+    caps(cv, cx, y, get_subtitle(), R, 10.5, PALE, 3.2)
 
     y = y0 + 1.30 * inch
-    caps(cv, cx, y, AUTHOR, R, 14.5, CREAM, 4.2)
+    caps(cv, cx, y, get_author(), R, 14.5, CREAM, 4.2)
     y -= 26
     cv.setFont(IT, 9.8)
     cv.setFillColor(PALE)
-    cv.drawCentredString(cx, y, KICKER)
+    cv.drawCentredString(cx, y, get_kicker())
 
 
 def back_text(cv, x0: float, y0: float, w: float, h: float) -> None:
@@ -214,7 +231,7 @@ def back_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     cv.line(cx - 34, y, cx + 34, y)
     y -= 34
     cv.setFillColor(CREAM)
-    for para in (BLURB, BLURB2):
+    for para in (get_blurb(), get_blurb2()):
         for line in wrapped(para, R, 11, inner):
             cv.setFont(R, 11)
             cv.drawCentredString(cx, y, line)
@@ -239,7 +256,7 @@ def spine_text(cv, cx: float, y0: float, h: float, spine_w: float) -> None:
     cv.rotate(-90)
     cv.setFillColor(CREAM)
     cv.setFont(R, 12)
-    cv.drawCentredString(0, -4, f"{TITLE.upper()}   ·   {AUTHOR.upper()}")
+    cv.drawCentredString(0, -4, f"{get_title().upper()}   ·   {get_author().upper()}")
     cv.restoreState()
 
 
@@ -251,7 +268,7 @@ def build_front() -> None:
     art.save(tmp, "JPEG", quality=94, subsampling=0, dpi=(DPI, DPI))
 
     cv = rl_canvas.Canvas(str(FRONT_PDF), pagesize=(w_in * inch, h_in * inch))
-    cv.setTitle(f"{TITLE} — cubierta")
+    cv.setTitle(f"{get_title()} — cubierta")
     cv.drawImage(str(tmp), 0, 0, width=w_in * inch, height=h_in * inch, mask=None)
     front_text(cv, BLEED * inch, BLEED * inch, TRIM_W * inch, TRIM_H * inch)
     cv.save()
@@ -291,7 +308,7 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
     art.save(tmp, "JPEG", quality=92, subsampling=0, dpi=(DPI, DPI))
 
     cv = rl_canvas.Canvas(str(WRAP_PDF), pagesize=(w_in * inch, h_in * inch))
-    cv.setTitle(f"{TITLE} — cubierta de tapa dura")
+    cv.setTitle(f"{get_title()} — cubierta de tapa dura")
     cv.drawImage(str(tmp), 0, 0, width=w_in * inch, height=h_in * inch, mask=None)
 
     trim_y = (WRAP + BLEED) * inch
@@ -306,6 +323,15 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
           f"(lomo {spine_in:.3f}\" para {pages} páginas)")
 
 
+def build(lang: str = "es", paginas: int = 78, ancho: float = None, alto: float = None) -> None:
+    global CURRENT_LANG, FRONT_PDF, WRAP_PDF
+    CURRENT_LANG = lang
+    FRONT_PDF = get_front_pdf(lang)
+    WRAP_PDF = get_wrap_pdf(lang)
+    build_front()
+    build_wrap(paginas, ancho, alto)
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--paginas", type=int, default=78,
@@ -318,8 +344,8 @@ def main() -> int:
     src = source_image()
     with Image.open(src) as probe:
         print(f"Imagen de partida: {src.relative_to(ROOT)}  {probe.width} x {probe.height} px")
-    build_front()
-    build_wrap(args.paginas, args.ancho, args.alto)
+    for lang in ["es", "ca"]:
+        build(lang, args.paginas, args.ancho, args.alto)
     return 0
 
 
