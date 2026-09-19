@@ -5,7 +5,7 @@ illustrationTitle: Entrelazamiento
 illustrationDescription: Dos hilos de distinto color que se trenzan sin perder su propia línea, creando un patrón que no existía antes en ninguno de los dos.
 ---
 
-Montse es la sorpresa de que el horizonte tiene un otro lado.
+Montse es la sorpresa de que el horizonte tiene otro lado.
 
 Nuestras manos descubren
               el espacio exacto donde sucede la dicha.

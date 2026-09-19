@@ -10,7 +10,7 @@ Puedo medir la sombra cruzando el patio,
 el silencio exacto que deja un pájaro
   cuando ya se ha ido.
 
-Ninguna de esas unidades convierte en la otra.
+Ninguna de esas unidades se convierte en la otra.
 Ninguna cabe en la esfera de un reloj.
 
 El reloj no miente: cuenta lo mismo
