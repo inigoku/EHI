@@ -223,7 +223,7 @@ def verse_layout(poem, size: float, leading: float):
 
     El bloque se centra ópticamente: se mide el verso más largo y se alinea
     todo a la izquierda a partir de ahí, con sangría francesa en los versos que
-    hay que partir.
+    hay que partir. Preserva la indentación visual de los versos.
     """
     widest = 0.0
     for raw in poem.lines:
@@ -244,12 +244,19 @@ def verse_layout(poem, size: float, leading: float):
             prev_blank = True
             continue
         prev_blank = False
+
+        # Preservar indentación: contar espacios iniciales
+        spaces = len(raw) - len(raw.lstrip())
+        indent_offset = spaces * pdfmetrics.stringWidth(" ", R, size)
+
         if MARKER_RE.fullmatch(text):
             rows.append(("rotulo", text[2:-2].rstrip(".")))
             height += leading * 1.5
             continue
         for i, line in enumerate(wrap_runs(runs_of(text, R, SB, IT), size, limit)):
-            rows.append(("verso", line, 16 if i else 0))
+            # Sangrado: indentación visual + sangría francesa para líneas quebradas
+            offset = indent_offset + (16 if i else 0)
+            rows.append(("verso", line, offset))
             height += leading
     return size, leading, rows, indent, height
 

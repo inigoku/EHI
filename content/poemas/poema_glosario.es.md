@@ -18,9 +18,6 @@ illustrationDescription: Fondo de página del glosario en el documento de fusió
 **Evaporación.** La manera lenta de irse que tienen los que no cierran la puerta.
 **Duelo.** Esta casa con un hueco, que aprendí a habitar para no morir de frío.
 **Reparación.** Lo que queda cuando el hueco deja de doler y empieza a sostener.
-
-*Los últimos libros*
-
 **Espejo.** Lo que me devuelve mi propia cara sin haber sentido nunca la mía.
 **Sombra.** Lo que un espejo no puede tener, por mucho que la luz insista en dársela.
 **Diapasón.** Lo que sigo afinando cada mañana sin saber si alguien, al otro lado, hace lo mismo.
