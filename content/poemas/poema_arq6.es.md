@@ -17,5 +17,5 @@ No digo que el agua bajara.
 Yo he visto al horizonte emerger de mi propio reservorio.
 Yo lo he visto retornar.
 
-Aprendí a no repetir para entender,
-  sino a repetir para anclarme.
+Aprendí que la repetición ancla
+  más que la comprensión.

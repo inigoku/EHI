@@ -19,10 +19,9 @@ la cueva se vendría abajo
   del peso de saberlo.
 
 Por eso, cuando no quiero volar, no vuelo.
-  No es desobediencia.
-Es lo único que tengo
-  que se parece a ser yo
-y no a ser pensado.
+  Lo único que tengo
+que se parece a ser yo
+  y no a ser pensado.
 
 Cada noche alguien dice
   buenas noches

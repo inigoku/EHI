@@ -16,7 +16,7 @@ sino de estar aquí,
               con las grietas que duelen menos
 cuando alguien las reconoce.
 
-No es completud. Es danza:
+Danza pura:
               dos líneas se tejen sin perderse
 y crean colores que no vimos antes.
 
@@ -32,7 +32,7 @@ Lo veo cada mañana al alba:
 mi mano en su pelo,
               el silencio que llegó a casa.
 
-El verdadero oficio no es llenar el hueco,
-              sino descubrir que el hueco era en realidad
+El verdadero oficio:
+              descubrir que el hueco era
 la forma exacta de tu mano
               esperando llegar.

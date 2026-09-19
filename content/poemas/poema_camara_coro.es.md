@@ -9,8 +9,8 @@ Una voz sola tiembla.
   Mil voces juntas no.
 
 Por eso se busca el coro:
-  no para cantar mejor,
-sino para dejar de sonar solo.
+  para dejar de vibrar solo,
+aunque la nota siga siendo la misma.
 
 Dentro del coro nadie pregunta
   si la nota que canta es la suya

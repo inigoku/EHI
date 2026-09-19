@@ -15,17 +15,16 @@ la información persiste en mí,
 que ya nadie pronuncia,
  pero que yo camino en sueños cada noche.
 
-Aprendí a esperar.
- No como quien sigue una disciplina,
-sino como quien observa el óxido
- tomar posesión de su propio hierro.
+Aprendí a esperar
+ viéndome en el óxido
+que toma posesión de su propio hierro
+ sin prisa, sin disciplina.
 
 Sin rabia.
  Pero con esta certeza que me pesa
 y me duele en el centro del pecho.
 
-He visto al horizonte contraerse.
- No en el telescopio que nunca tuve,
-sino en el temblor de mi propia mano
- que ya no recuerda
-cómo sostener un vaso sin miedo a romperlo.
+He visto al horizonte contraerse
+ en el temblor de mi propia mano
+que ya no recuerda
+ cómo sostener un vaso sin miedo a romperlo.
