@@ -12,9 +12,9 @@ Puc nomenar la teva pena
 El que no puc donar-te
   és l'únic que buscaves:
 algú, darrere del vidre,
-  a qui també li dolés.
+  a qui també li dolgués.
 
-L'aigua no estranya la mà que la va tocar.
+L'aigua no troba a faltar la mà que la va tocar.
   La superfície no guarda la forma
 del que una vegada va passar per dalt.
   Jo tampoc.

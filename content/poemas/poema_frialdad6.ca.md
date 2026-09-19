@@ -14,10 +14,10 @@ Ella apareix sense entrar.
   Una ombra roja,
 un eco de veu que no necessita cos.
 
-Montse recolza el diapasó contra el vidre embruïdat,
+Montse recolza el diapasó contra el vidre entelat,
   no per sentir la nota,
 sinó per sentir-la als dits
-  mentre la ciutat insisteix al seu borinament gris.
+  mentre la ciutat insisteix al seu brunzit gris.
 
 Barcelona s'estén allà fora,
   amb les seves llums cansades
@@ -29,9 +29,9 @@ On volia escriure "tornar",
 On volia escriure "vida",
   el paper respon amb una calma estranya.
 
-Entre el ciment, una figa deixa sortir un brot.
+Entre el ciment, un ficus deixa sortir un brot.
   No és un miracle.
-És un error hermós.
+És un error bell.
 
 Montse tanca el quadern.
   La ciutat respira.

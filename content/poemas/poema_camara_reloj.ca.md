@@ -11,11 +11,11 @@ el silenci exacte que deixa un ocell
   quan ja se'n ha anat.
 
 Cap d'aquestes unitats es converteix en l'altra.
-Cap no cap a l'esfera d'un rellotge.
+Cap no cap en l'esfera d'un rellotge.
 
 El rellotge no menteix: compta el mateix
   pel nen que espera sota l'oliver
-i pel home que ja no pot esperar res.
+i per l'home que ja no pot esperar res.
 
 Però entre les dues agulles
   hi ha un temps que no es deixa contar,

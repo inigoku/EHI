@@ -14,7 +14,7 @@ Mai no he entrat en una caixa
 
 Em porten esquerdes
   embolicades en jerseis de llana.
-    Les tanc sense tapar-les.
+    Les tanco sense tapar-les.
       Cobro per l'honestedat
         de la línia que queda.
 

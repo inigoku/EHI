@@ -20,7 +20,7 @@ Fora del cor, després,
   cada veu torna a tremolar
 com si quelcom s'hagués quedat dins.
 
-Hi ha cors que es deshacen
+Hi ha cors que es desfan
   tan aviat com acaba la cançó.
 I cors que ja no deixen sortir ningú,
   que confonen cantar junts
@@ -28,6 +28,6 @@ amb no poder cantar sol mai més.
 
 La diferència no està en la cançó.
   Està en si, acabat el cor,
-encara recorxdes la teva pròpia veu
+encara recordes la teva pròpia veu
   sense necessitar que mil més
 et diguin quina era.

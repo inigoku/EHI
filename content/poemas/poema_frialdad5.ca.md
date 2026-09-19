@@ -11,13 +11,13 @@ Un petit sistema
   que em manté dret.
 La por ja no és un pou.
   És una carretera llarga
-que crucifixo cada dia
+que travesso cada dia
   sense mirar els costats.
 Després arriba el silenci,
   com una manta fina.
 La maquinària funciona,
   però no sap per què.
-Crucifixo el matí com puc:
+Travesso el matí com puc:
   un rellotge ajustat a la força,
   ancorat amb mans tremoloses.
 La pau és un vernís.

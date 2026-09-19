@@ -9,7 +9,7 @@ Unes es tanquen.
   Altres s'obren cap amunt,
 com si el cel fos quelcom que es recull.
 
-Unes toquen el sòl amb la fronte
+Unes toquen el sòl amb el front
   per mesurar quant pesa el que carreguen.
   Altres no toquen res:
 es queden quietes sobre les genolles,
@@ -20,7 +20,7 @@ Darrere de cada mà hi ha una aposta
 que hi ha Algú de l'altre costat, amb nom propi,
   que l'altre costat és, senzillament, tot,
 o que no hi ha altre costat
-  i tanmateix mereix la pena estendre la mà.
+  i tanmateix val la pena estendre la mà.
 
 Cap mà no sap quina de les tres va encertar.
 Totes s'obren o es tanquen igual,

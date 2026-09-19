@@ -136,9 +136,9 @@ TEXTS = {
 
             "L'argument del llibre del qual vénen cap en una frase: la consciència "
             "podria tenir la forma d'un horitzó, una frontera que separa un dins "
-            "d'un fora i que emerge del mateix material del qual està fet tot "
-            "els demés. És una hipòtesi, i l'assaig la defensa amb l'aparell que li "
-            "correspon. Els poemes no la defensen. Fan una altra cosa: la habiten. "
+            "d'un fora i que emerge del mateix material del qual està fet tota "
+            "la resta. És una hipòtesi, i l'assaig la defensa amb l'aparell que li "
+            "correspon. Els poemes no la defensen. Fan una altra cosa: l'habiten. "
             "Pregunten què es sent estant dins d'una frontera així, què fa mal "
             "quan s'esfilastra i què queda quan l'aigua de l'altre costat es retira.",
 
@@ -147,7 +147,7 @@ TEXTS = {
 
             "**El primer llibre**, *L'arquitectura amb un forat*, és un dol en vuit "
             "oficis. Un arxivista, un rellotger, un lutier, una cançó que algú "
-            "tartolejava a la cuina. Cap dels vuit parla de la pèrdua "
+            "taral·lejava a la cuina. Cap dels vuit parla de la pèrdua "
             "directament: parlen del que segueixen fent amb les mans mentre la "
             "pèrdua succeeix. El forat del títol no és una metàfora del buit. És el "
             "que fa sonar una caixa de violí.",
@@ -219,7 +219,7 @@ TEXTS = {
         "colophon_title": "Colofó",
         "toc_title": "Índex",
         "first_line_index_title": "Índex de primers versos",
-        "colophon_text": "S'acabà de compondre aquest volum<br/>el dia en què l'aigua tornà a la vora<br/>sense que ningú sabés<br/>si havia portat quelcom consell.",
+        "colophon_text": "S'acabà de compondre aquest volum<br/>el dia en què l'aigua tornà a la vora<br/>sense que ningú sabés<br/>si havia portat quelcom amb ella.",
         "plate_notes_override": {
             "poema_camara_reloj":
                 "Un rellotge de sorra desplegat en una hèlix de llum: la mateixa sorra "
@@ -238,7 +238,7 @@ TEXTS = {
         ),
         "blurb2": (
             "Vint-i-un poemes i un glossari íntim, repartits en tres llibres: l'arquitectura "
-            "amb un forat, la frialdad de una ciudad apagada i els últims llibres."
+            "amb un forat, la frisor d'una ciutat apagada i els últims llibres."
         ),
     },
 }

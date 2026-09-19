@@ -20,7 +20,7 @@ El cos és un espai prestat.
 on la llum entra tard
   i se'n va massa aviat.
 
-Cada gest deixa un rastell mínim:
+Cada gest deixa un rastre mínim:
   un fred,
   un pes,
   una absència.
@@ -28,4 +28,4 @@ Cada gest deixa un rastell mínim:
 Amb això intento dir "encara estic aquí".
 
 I sota la llengua, encara,
-  una frialdad que no se'n va.
+  una fredor que no se'n va.

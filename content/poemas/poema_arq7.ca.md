@@ -16,7 +16,7 @@ que ja ningú pronuncia,
  però que jo camino en somnis cada nit.
 
 Vaig aprendre a esperar
- veient-me a la ferrugem
+ veient-me al rovell
 que pren possessió del seu propi ferro
  sense prisa, sense disciplina.
 

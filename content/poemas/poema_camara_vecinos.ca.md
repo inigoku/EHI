@@ -12,12 +12,12 @@ Cada paret té, darrere,
 
 Colpejo dues vegades i compto.
 El so torna tard,
-  com si creuès més habitacions
+  com si creués més habitacions
     de les que caben a la casa.
 
 He dibuixat un plànol
 de tot el que senteixo:
-  passos, un aixeta, una cadira
+  passos, una aixeta, una cadira
     que algú arrossega sense veure-la.
 El plànol no tanca mai:
   cada sala té una altra dins.

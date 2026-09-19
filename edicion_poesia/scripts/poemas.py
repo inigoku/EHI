@@ -147,7 +147,7 @@ BOOK_DEFS_CA = [
         "libro1",
         "Primer llibre",
         "L'arquitectura amb un forat",
-        "Vuit oficis per a un duelo: el que queda quan l'aigua es retira "
+        "Vuit oficis per a un dol: el que queda quan l'aigua es retira "
         "i cal seguir mesurant la vora.",
         ["poema_arq1", "poema_arq2", "poema_arq3", "poema_arq5",
          "poema_arq6", "poema_arq7", "poema_arq8", "poema_arq4"],
@@ -155,8 +155,8 @@ BOOK_DEFS_CA = [
     (
         "libro2",
         "Segon llibre",
-        "La frialdad de una ciudad apagada",
-        "Un hivern que no acaba d'arribar i, aun així, fa fred: "
+        "La frisor d'una ciutat apagada",
+        "Un hivern que no acaba d'arribar i, tot i així, fa fred: "
         "sis estacions del cos en una ciutat que no respon.",
         ["poema_frialdad1", "poema_frialdad2", "poema_frialdad3",
          "poema_frialdad4", "poema_frialdad5", "poema_frialdad6"],

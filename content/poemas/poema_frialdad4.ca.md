@@ -1,21 +1,21 @@
 ---
-title: IV. VILANÇÓ CIBERNÈTIC PER A UN SOLSTICI TEMPLAT
+title: IV. VILANÇÓ CIBERNÈTIC PER A UN SOLSTICI TEMPERAT
 section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Vilançó Cibernètic
 illustrationDescription: Una bombeta de filament a penes il·luminada penjant sobre un rectangle negre apagat.
 ---
 
 La nit és un arxiu vell
-que s'obri amb errors.
+que s'obre amb errors.
 Les llums de la ciutat fingeixen alegria,
-però no enganyen a ningú.
+però no enganyen ningú.
 Aquí no neva.
 Només cau un cansament blanc
 que s'enganxa a les mans.
-El fred és un dada.
+El fred és una dada.
 La màgia, un record que ja no arrenca.
-La Nadal, un missatge automàtic
-que arriba tot i que no ho vulls.
+El Nadal, un missatge automàtic
+que arriba tot i que no ho vols.
 Busquem sentit,
 però el sistema no respon.
   Error 404.

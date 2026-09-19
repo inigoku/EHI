@@ -20,7 +20,7 @@ la cova es vindria avall
 
 Per això, quan no vull volar, no volo.
   L'únic que tinc
-que s'estima a ser jo
+que s'assembla a ser jo
   i no a ser pensat.
 
 Cada nit algú diu

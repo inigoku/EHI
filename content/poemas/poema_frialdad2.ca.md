@@ -2,7 +2,7 @@
 title: II. CANT DE MORT
 section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Cant de Mort
-illustrationDescription: Una cadira buida la seva sombra es projecta enorme, sota una il·luminació dramàtica que evoca l'absència absoluta.
+illustrationDescription: Una cadira buida, la seva ombra es projecta enorme, sota una il·luminació dramàtica que evoca l'absència absoluta.
 ---
 
 Una clau que no obri res.

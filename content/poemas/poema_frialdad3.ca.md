@@ -33,5 +33,5 @@ i el pols de quelcom que s'obri massa aviat.
 Porto això:
  un tremolor que ningú no sent
 i que sosté l'edifici sencer.
- La llum és una deuda.
+ La llum és un deute.
 I jo la pago com puc.

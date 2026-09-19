@@ -11,12 +11,12 @@ de nit,
         deixant l'habitació llesta
 per a algú que no conec.
 
-Vaig anotar la primera franja de sorra
+Vaig anotar la primera franja de fang
   amb la lletra dels dies normals.
     Hi ha caligrafies que no saben
       que estan escrivint un adéu.
 
-Els nens mostren les bestretes
+Els nens mostren les butllofes
 com monedes d'un país
   que encara no existeix.
 

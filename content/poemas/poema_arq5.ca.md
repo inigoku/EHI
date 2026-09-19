@@ -2,7 +2,7 @@
 title: L'ARQUITECTURA AMB UN FORAT — V: MONTSE XX
 section: L'ARQUITECTURA AMB UN FORAT
 illustrationTitle: Entrellaçament
-illustrationDescription: Dos fils de distint color que es trenzen sense perdre la seva pròpia línia, creant un patró que no existia abans en cap dels dos.
+illustrationDescription: Dos fils de distint color que es trenen sense perdre la seva pròpia línia, creant un patró que no existia abans en cap dels dos.
 ---
 
 Montse és la sorpresa que l'horitzó té un altre costat.
@@ -11,13 +11,13 @@ Les nostres mans descobreixen
               l'espai exacte on passa la felicitat.
 
 Duia un forat.
-              Ella duia llum que no vengués de dalt,
-sinó de estar aquí,
+              Ella duia llum que no vingués de dalt,
+sinó d'estar aquí,
               amb les esquerdes que fan menys mal
 quan algú les reconeix.
 
 Dansa pura:
-              dues línies es trenzen sense perdre's
+              dues línies es teixeixen sense perdre's
 i creen colors que no vam veure abans.
 
 Quan l'aigua se'n va, vaig creure que era el final.

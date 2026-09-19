@@ -15,9 +15,9 @@ que torna de visita
 
 El balancí fa la seva feina:
   avanç, retorn, avanç.
-L'escoltо com s'escolta
+L'escolto com s'escolta
   un cor estrany:
-agraïnt que no sigui el meu
+agraint que no sigui el meu
   qui porti la xifra.
 
 Quan el matí comença a fer-se espès
@@ -25,4 +25,4 @@ Quan el matí comença a fer-se espès
 Guardo les eines
   en l'ordre exacte
 en què vull trobar-les
-  si demà s'obri.
+  si demà s'obre.
