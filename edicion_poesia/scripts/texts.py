@@ -136,7 +136,7 @@ TEXTS = {
 
             "L'argument del llibre del qual vénen cap en una frase: la consciència "
             "podria tenir la forma d'un horitzó, una frontera que separa un dins "
-            "d'un fora i que emerge del mateix material del qual està fet tota "
+            "d'un fora i que emergeix del mateix material del qual està fet tota "
             "la resta. És una hipòtesi, i l'assaig la defensa amb l'aparell que li "
             "correspon. Els poemes no la defensen. Fan una altra cosa: l'habiten. "
             "Pregunten què es sent estant dins d'una frontera així, què fa mal "
@@ -174,7 +174,7 @@ TEXTS = {
             "relacionen una a una, per si algú vol saber què estava mirant.",
 
             "No cal haver llegit *L'Horitzó Interior* per llegir això. Cal, com a molt, "
-            "haver-se quedat alguna vegada a una vora mirant l'aigua irse, sense saber "
+            "haver-se quedat alguna vegada a una vora mirant l'aigua anar-se'n, sense saber "
             "si tornaria i sense saber què portaria de tornada.",
         ],
         "about": [

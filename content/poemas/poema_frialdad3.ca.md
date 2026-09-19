@@ -14,7 +14,7 @@ Jo, que un dia vaig tenir un espai propi,
 torno a un lloc que no em reconeix.
 Cuso les hores amb un fil fi.
 No espero miracles.
-  Només que doli una mica menys.
+  Només que dolgui una mica menys.
 
 **II.**
 La línia 1 olorosa a metall calent i abrics humits.

@@ -11,7 +11,7 @@ Dues hores cada dia
 Obro el rellotge de plata
   amb el pols d'abans,
 que torna de visita
-  i no es treu el gabà.
+  i no es treu l'abric.
 
 El balancí fa la seva feina:
   avanç, retorn, avanç.

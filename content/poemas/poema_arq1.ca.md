@@ -13,7 +13,7 @@ per a algú que no conec.
 
 Vaig anotar la primera franja de fang
   amb la lletra dels dies normals.
-    Hi ha caligrafies que no saben
+    Hi ha cal·ligrafies que no saben
       que estan escrivint un adéu.
 
 Els nens mostren les butllofes

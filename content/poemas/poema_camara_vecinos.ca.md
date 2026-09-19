@@ -16,7 +16,7 @@ El so torna tard,
     de les que caben a la casa.
 
 He dibuixat un plànol
-de tot el que senteixo:
+de tot el que sento:
   passos, una aixeta, una cadira
     que algú arrossega sense veure-la.
 El plànol no tanca mai:

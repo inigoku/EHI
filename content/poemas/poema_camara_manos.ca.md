@@ -2,7 +2,7 @@
 title: EL DIAPASÓ INVISIBLE — MANS
 section: ELS ÚLTIMS LLIBRES
 illustrationTitle: Mans
-illustrationDescription: Tres parells de mans a la penombra: unes tancades, altres obertes cap amunt, altres quietes sobre les genolles, buides a propòsit.
+illustrationDescription: Tres parells de mans a la penombra: unes tancades, altres obertes cap amunt, altres quietes sobre els genolls, buides a propòsit.
 ---
 
 Unes es tanquen.
@@ -12,7 +12,7 @@ com si el cel fos quelcom que es recull.
 Unes toquen el sòl amb el front
   per mesurar quant pesa el que carreguen.
   Altres no toquen res:
-es queden quietes sobre les genolles,
+es queden quietes sobre els genolls,
   buides a propòsit.
 
 Darrere de cada mà hi ha una aposta
