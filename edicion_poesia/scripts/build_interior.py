@@ -29,6 +29,7 @@ from reportlab.pdfgen import canvas as rl_canvas
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from poemas import Book, Poem, load_books  # noqa: E402
+from texts import get_text  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / "edicion_poesia"
@@ -76,6 +77,7 @@ TEXT_H = PH - M_TOP - M_BOTTOM
 
 BOOK_TITLE = "Ecos en el borde"
 AUTHOR = "Íñigo Barrera Barceló"
+CURRENT_LANG = "es"  # Variable global para el idioma actual
 
 VERSE_SIZE, VERSE_LEAD = 11.4, 17.0
 PROSE_SIZE, PROSE_LEAD = 11.0, 16.6
@@ -768,93 +770,23 @@ class Builder:
 
 
 # --------------------------------------------------------------- textos fijos
-INTRO_TITLE = "Desde la orilla"
-INTRO = [
-    "Este volumen reúne los veinte poemas y el glosario que cierran "
-    "*El Horizonte Interior*. En la obra completa aparecen intercalados entre "
-    "el ensayo y los cuentos, cada uno en el punto donde una idea deja de "
-    "poder explicarse y solo puede decirse. Aquí van juntos, por primera vez, "
-    "y leídos de corrido cuentan otra cosa.",
+def get_intro_title():
+    return get_text(CURRENT_LANG, "intro_title")
 
-    "El argumento del libro del que vienen cabe en una frase: la conciencia "
-    "podría tener la forma de un horizonte, una frontera que separa un dentro "
-    "de un fuera y que emerge del mismo material del que está hecho todo lo "
-    "demás. Es una hipótesis, y el ensayo la defiende con el aparato que le "
-    "corresponde. Los poemas no la defienden. Hacen otra cosa: la habitan. "
-    "Preguntan qué se siente estando dentro de una frontera así, qué duele "
-    "cuando se agrieta y qué queda cuando el agua del otro lado se retira.",
+def get_intro():
+    return get_text(CURRENT_LANG, "intro")
 
-    "Van repartidos en tres libros, y el reparto no es cronológico sino de "
-    "temperatura.",
+def get_about():
+    return get_text(CURRENT_LANG, "about")
 
-    "**El libro primero**, *La arquitectura con un hueco*, es un duelo en ocho "
-    "oficios. Un archivista, un relojero, un luthier, una canción que alguien "
-    "tarareaba en la cocina. Ninguno de los ocho habla de la pérdida "
-    "directamente: hablan de lo que siguen haciendo con las manos mientras la "
-    "pérdida ocurre. El hueco del título no es una metáfora del vacío. Es lo "
-    "que hace sonar una caja de violín.",
+def get_illustrations_title():
+    return get_text(CURRENT_LANG, "illustrations_title")
 
-    "**El libro segundo**, *La frialdad de una ciudad apagada*, baja la "
-    "temperatura. Seis poemas de invierno urbano, escritos desde dentro de un "
-    "cuerpo que no acaba de entrar en calor: el metro, la pastilla sobre la "
-    "mesa, un villancico que no engaña a nadie, una ventana empañada con "
-    "Barcelona detrás. Es la parte más áspera del conjunto y la que menos "
-    "consuela.",
+def get_about_title():
+    return get_text(CURRENT_LANG, "about_title")
 
-    "**El libro tercero**, *Los últimos libros*, recoge seis poemas que ya "
-    "venían contados en prosa en los movimientos finales de la obra —el tiempo "
-    "que no pasa, el espejo sin profundidad, el diapasón invisible, el ojo de "
-    "un solo color, la realidad fractal— y los devuelve al verso, que era "
-    "seguramente su idioma de origen.",
-
-    "Cierra el volumen un *Glosario íntimo*: las palabras técnicas del ensayo "
-    "—horizonte, interfaz, entrelazamiento, reservorio— redefinidas como lo que "
-    "en realidad significaban todo el tiempo.",
-
-    "Cada poema abre en página impar, con su ilustración enfrente. Las láminas "
-    "vienen de las ediciones ilustrada y de cámara de la obra, y al final se "
-    "relacionan una a una, por si alguien quiere saber qué estaba mirando.",
-
-    "No hace falta haber leído *El Horizonte Interior* para leer esto. Hace "
-    "falta, como mucho, haberse quedado alguna vez en una orilla mirando el "
-    "agua irse, sin saber si volvería y sin saber qué traería de vuelta.",
-]
-
-ABOUT = [
-    "*El Horizonte Interior* es un experimento de pensamiento: qué pasaría si "
-    "la conciencia tuviera la estructura de un microagujero negro de Hawking. "
-    "La obra lo desarrolla por tres caminos a la vez. Un ensayo de veintiséis "
-    "capítulos que va de la termodinámica de agujeros negros y el vacío "
-    "cuántico a la Teoría de la Información Integrada, pasando por la sabiduría "
-    "taoísta antigua. Dieciséis cuentos que encarnan esos conceptos en la "
-    "ciudad de Tarel, suspendida sobre un agua que un día se retira. Y esta "
-    "antología, que traduce lo mismo al idioma del sentimiento.",
-
-    "Los tres caminos son independientes y llevan al mismo sitio. Se puede "
-    "entrar por cualquiera de ellos.",
-
-    "**Íñigo Barrera Barceló** escribió *El Horizonte Interior* durante varios "
-    "años, en los ratos que deja una vida que también sucedía. El libro está "
-    "dedicado a Montse y a Gerard, por aguantarle todos los días con una "
-    "sonrisa. Varios de los poemas de este volumen llevan sus nombres, o los "
-    "llevan sin decirlo.",
-
-    "La obra completa —ensayo, cuentos, poemas, edición joven y las "
-    "ilustraciones de las que salen estas láminas— puede leerse también en su "
-    "versión interactiva.",
-]
-
-# Pie de cada lámina para la relación final. Los que no traen descripción
-# propia en content/poemas llevan una escrita aquí.
-PLATE_NOTES_OVERRIDE = {
-    "poema_camara_reloj":
-        "Un reloj de arena desdoblado en una hélice de luz: la misma arena "
-        "cayendo por dos gargantas que no marcan la misma hora.",
-    "poema_glosario":
-        "La página del glosario en la edición ilustrada: un abecedario de "
-        "objetos —la ola, la casa, el diapasón, el cuenco— dibujados sobre "
-        "papel cuadriculado.",
-}
+def get_plate_notes_override():
+    return get_text(CURRENT_LANG, "plate_notes_override")
 
 def plate_notes(books, closing):
     """Lee de content/poemas la descripción de cada ilustración."""
@@ -869,8 +801,9 @@ def plate_notes(books, closing):
 
 
 def _description(pid: str, fm) -> str:
-    if pid in PLATE_NOTES_OVERRIDE:
-        return PLATE_NOTES_OVERRIDE[pid]
+    override = get_plate_notes_override()
+    if pid in override:
+        return override[pid]
     raw = (ROOT / "content" / "poemas" / f"{pid}.es.md").read_text(encoding="utf-8")
     m = fm.match(raw)
     if not m:
@@ -882,7 +815,8 @@ def _description(pid: str, fm) -> str:
 
 
 def run(toc: list[Entry] | None, lang: str = "es") -> Builder:
-    global OUT
+    global OUT, CURRENT_LANG
+    CURRENT_LANG = lang
     OUT = get_out_path(lang)
     books, closing = load_books(lang)
     b = Builder(toc)
@@ -891,7 +825,7 @@ def run(toc: list[Entry] | None, lang: str = "es") -> Builder:
     b.credits()
     b.dedication()
     b.table_of_contents()
-    b.prose_section(INTRO_TITLE, INTRO, level=2, running=INTRO_TITLE)
+    b.prose_section(get_intro_title(), get_intro(), level=2, running=get_intro_title())
 
     for i, book in enumerate(books):
         b.book_opener(book)
@@ -940,9 +874,11 @@ def run(toc: list[Entry] | None, lang: str = "es") -> Builder:
         if not desc:
             continue
         paras.append(f"**{title}.** {desc}")
-    b.prose_section("Las ilustraciones", paras, level=2, running="Las ilustraciones")
+    illus_title = get_illustrations_title()
+    b.prose_section(illus_title, paras, level=2, running=illus_title)
     b.first_line_index()
-    b.prose_section("Sobre esta antología", ABOUT, level=2, running="Sobre esta antología", with_qr=True)
+    about_title = get_about_title()
+    b.prose_section(about_title, get_about(), level=2, running=about_title, with_qr=True)
 
     b.colophon()
     b.save()

@@ -27,6 +27,7 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from poemas import Book, Poem, load_books  # noqa: E402
+from texts import get_text  # noqa: E402
 
 ROOT = Path(__file__).resolve().parents[2]
 BASE = ROOT / "edicion_poesia"
@@ -47,11 +48,20 @@ OUT = get_out_path()
 SCREEN_PX = 1200
 SCREEN_QUALITY = 82
 
-TITLE = "Ecos en el borde"
-SUBTITLE = "Lírica del límite emocional"
-AUTHOR = "Íñigo Barrera Barceló"
-LANG = "es"
+CURRENT_LANG = "es"
 UID = "urn:uuid:ecos-en-el-borde-antologia-poetica"
+
+def get_title():
+    return get_text(CURRENT_LANG, "title")
+
+def get_subtitle():
+    return get_text(CURRENT_LANG, "subtitle")
+
+def get_author():
+    return get_text(CURRENT_LANG, "author")
+
+def get_lang_code():
+    return CURRENT_LANG
 
 TOKEN = re.compile(r"(\*\*[^*]+\*\*|\*[^*]+\*)")
 MARKER = re.compile(r"\*\*[IVX]+\.\*\*")
@@ -140,7 +150,7 @@ def page(title: str, body: str, body_class: str = "") -> str:
         '<?xml version="1.0" encoding="utf-8"?>\n'
         '<!DOCTYPE html>\n'
         '<html xmlns="http://www.w3.org/1999/xhtml" '
-        f'xmlns:epub="http://www.idpf.org/2007/ops" lang="{LANG}" xml:lang="{LANG}">\n'
+        f'xmlns:epub="http://www.idpf.org/2007/ops" lang="{get_lang_code()}" xml:lang="{get_lang_code()}">\n'
         f'<head><meta charset="utf-8"/><title>{esc(title)}</title>'
         '<link rel="stylesheet" type="text/css" href="style.css"/></head>\n'
         f'<body{cls}>\n{body}\n</body>\n</html>\n'
@@ -202,10 +212,10 @@ def poem_page(poem: Poem) -> str:
 
 
 def build(lang: str = "es") -> None:
-    global OUT
+    global OUT, CURRENT_LANG
+    CURRENT_LANG = lang
     OUT = get_out_path(lang)
-    from build_interior import (ABOUT, AUTHOR as _A, INTRO, INTRO_TITLE,
-                                _description, plate_notes)
+    from build_interior import _description, plate_notes
 
     books, closing = load_books(lang)
     files: dict[str, str] = {}
@@ -221,15 +231,15 @@ def build(lang: str = "es") -> None:
     add("cover.xhtml", page("Cubierta",
         '<div class="cubierta"><img src="images/cubierta.jpg" alt="Cubierta"/></div>'))
     add("titulo.xhtml", page("Portada",
-        f'<div class="centro portadilla"><h1 class="titulo">{esc(TITLE)}</h1>'
-        f'<p><em>{esc(SUBTITLE)}</em></p><p>&#160;</p>'
+        f'<div class="centro portadilla"><h1 class="titulo">{esc(get_title())}</h1>'
+        f'<p><em>{esc(get_subtitle())}</em></p><p>&#160;</p>'
         f'<p>Antología poética de<br/>El Horizonte Interior</p><p>&#160;</p>'
-        f'<p>{esc(AUTHOR)}</p></div>'))
+        f'<p>{esc(get_author())}</p></div>'))
     add("creditos.xhtml", page("Créditos",
         '<div class="creditos">'
-        f'<p><em>{esc(TITLE)}. {esc(SUBTITLE)}</em></p>'
+        f'<p><em>{esc(get_title())}. {esc(get_subtitle())}</em></p>'
         '<p>Antología poética de El Horizonte Interior</p>'
-        f'<p>© {esc(AUTHOR)}. Todos los derechos reservados.</p>'
+        f'<p>© {esc(get_author())}. Todos los derechos reservados.</p>'
         '<p>Los veinte poemas y el glosario proceden de la sección de poesía '
         'de El Horizonte Interior y se reproducen aquí en el orden en que la '
         'obra los presenta.</p>'
@@ -241,10 +251,12 @@ def build(lang: str = "es") -> None:
         '<div class="dedicatoria"><p>A quien se quedó en la orilla<br/>'
         'cuando el agua se retiró.</p></div>'))
 
-    intro_body = (f'<h2 class="titulo">{esc(INTRO_TITLE)}</h2><hr class="filete"/>'
+    intro_title = get_text(CURRENT_LANG, "intro_title")
+    intro_paragraphs = get_text(CURRENT_LANG, "intro")
+    intro_body = (f'<h2 class="titulo">{esc(intro_title)}</h2><hr class="filete"/>'
                   '<div class="prosa">'
-                  + "".join(f"<p>{inline(p)}</p>" for p in INTRO) + "</div>")
-    add("intro.xhtml", page(INTRO_TITLE, intro_body), INTRO_TITLE)
+                  + "".join(f"<p>{inline(p)}</p>" for p in intro_paragraphs) + "</div>")
+    add("intro.xhtml", page(intro_title, intro_body), intro_title)
 
     for book in books:
         name = f"{book.key}.xhtml"
@@ -269,10 +281,12 @@ def build(lang: str = "es") -> None:
     add("ilustraciones.xhtml", page("Las ilustraciones",
         '<h2 class="titulo">Las ilustraciones</h2><hr class="filete"/>' + laminas),
         "Las ilustraciones")
-    add("sobre.xhtml", page("Sobre esta antología",
-        '<h2 class="titulo">Sobre esta antología</h2><hr class="filete"/>'
-        '<div class="prosa">' + "".join(f"<p>{inline(p)}</p>" for p in ABOUT) + "</div>"),
-        "Sobre esta antología")
+    about_title = get_text(CURRENT_LANG, "about_title")
+    about_paragraphs = get_text(CURRENT_LANG, "about")
+    add("sobre.xhtml", page(about_title,
+        f'<h2 class="titulo">{esc(about_title)}</h2><hr class="filete"/>'
+        '<div class="prosa">' + "".join(f"<p>{inline(p)}</p>" for p in about_paragraphs) + "</div>"),
+        about_title)
     add("colofon.xhtml", page("Colofón",
         '<div class="colofon"><p>Se acabó de componer este volumen<br/>'
         'el día en que el agua volvió a la orilla<br/>sin que nadie supiera<br/>'
@@ -313,10 +327,10 @@ def build(lang: str = "es") -> None:
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="bookid">{UID}</dc:identifier>
-    <dc:title>{esc(TITLE)}</dc:title>
-    <dc:creator>{esc(AUTHOR)}</dc:creator>
-    <dc:language>{LANG}</dc:language>
-    <dc:description>{esc(SUBTITLE)}. Antología poética de El Horizonte Interior.</dc:description>
+    <dc:title>{esc(get_title())}</dc:title>
+    <dc:creator>{esc(get_author())}</dc:creator>
+    <dc:language>{get_lang_code()}</dc:language>
+    <dc:description>{esc(get_subtitle())}. Antología poética de El Horizonte Interior.</dc:description>
     <meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>
   </metadata>
   <manifest>{"".join(manifest)}</manifest>
