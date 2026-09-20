@@ -91,7 +91,32 @@ TITLES_CA = {
     "poema_glosario": "Glossari Íntim",
 }
 
-TITLES = {"es": TITLES_ES, "ca": TITLES_CA}
+TITLES_EN = {
+    "poema_arq1": "The Archivist",
+    "poema_arq2": "The Watchmaker",
+    "poema_arq3": "The Luthier",
+    "poema_arq4": "The Song",
+    "poema_arq5": "Montse XX",
+    "poema_arq6": "The Oar",
+    "poema_arq7": "The Tremor",
+    "poema_arq8": "The Shore",
+    "poema_burbuja": "The Bubble",
+    "poema_frialdad1": "Cartography of the Echo",
+    "poema_frialdad2": "Song of Death",
+    "poema_frialdad3": "Lament of the Return",
+    "poema_frialdad4": "Cybernetic Carol for a Mild Solstice",
+    "poema_frialdad5": "Exit Protocol",
+    "poema_frialdad6": "Montse XXI",
+    "poema_camara_reloj": "What Does Not Fit in a Clock",
+    "poema_camara_espejo": "What the Mirror Does Not Have",
+    "poema_camara_manos": "Hands",
+    "poema_camara_coro": "Choir",
+    "poema_camara_vecinos": "Neighbors",
+    "poema_camara_cueva": "From the Cave",
+    "poema_glosario": "Intimate Glossary",
+}
+
+TITLES = {"es": TITLES_ES, "ca": TITLES_CA, "en": TITLES_EN}
 
 # Movimiento de "El Horizonte Interior" del que sale cada poema del libro tercero.
 SOURCES_ES = {
@@ -112,14 +137,23 @@ SOURCES_CA = {
     "poema_camara_cueva": "La realitat fractal",
 }
 
-SOURCES = {"es": SOURCES_ES, "ca": SOURCES_CA}
+SOURCES_EN = {
+    "poema_camara_reloj": "The Time That Does Not Pass",
+    "poema_camara_espejo": "The Mirror Without Depth",
+    "poema_camara_manos": "The Invisible Tuning Fork",
+    "poema_camara_coro": "The Eye of a Single Color",
+    "poema_camara_vecinos": "Fractal Reality",
+    "poema_camara_cueva": "Fractal Reality",
+}
+
+SOURCES = {"es": SOURCES_ES, "ca": SOURCES_CA, "en": SOURCES_EN}
 
 BOOK_DEFS_ES = [
     (
         "libro1",
         "Libro primero",
         "La arquitectura con un hueco",
-        "Ocho oficios para un duelo: lo que queda cuando el agua se retira "
+        "Nueve maneras de un duelo: lo que queda cuando el agua se retira "
         "y hay que seguir midiendo la orilla.",
         ["poema_burbuja", "poema_arq1", "poema_arq2", "poema_arq3",
          "poema_arq5", "poema_arq6", "poema_arq7", "poema_arq8",
@@ -150,7 +184,7 @@ BOOK_DEFS_CA = [
         "libro1",
         "Primer llibre",
         "L'arquitectura amb un forat",
-        "Vuit oficis per a un dol: el que queda quan l'aigua es retira "
+        "Nou maneres d'un dol: el que queda quan l'aigua es retira "
         "i cal seguir mesurant la vora.",
         ["poema_burbuja", "poema_arq1", "poema_arq2", "poema_arq3",
          "poema_arq5", "poema_arq6", "poema_arq7", "poema_arq8",
@@ -176,7 +210,38 @@ BOOK_DEFS_CA = [
     ),
 ]
 
-BOOK_DEFS = {"es": BOOK_DEFS_ES, "ca": BOOK_DEFS_CA}
+BOOK_DEFS_EN = [
+    (
+        "libro1",
+        "Book One",
+        "The Architecture with a Hollow",
+        "Nine ways into a mourning: what remains when the water recedes "
+        "and you have to keep measuring the shore.",
+        ["poema_burbuja", "poema_arq1", "poema_arq2", "poema_arq3",
+         "poema_arq5", "poema_arq6", "poema_arq7", "poema_arq8",
+         "poema_arq4"],
+    ),
+    (
+        "libro2",
+        "Book Two",
+        "The Coldness of a Darkened City",
+        "A winter that never quite arrives and, even so, it's cold: "
+        "six seasons of the body in a city that does not respond.",
+        ["poema_frialdad1", "poema_frialdad2", "poema_frialdad3",
+         "poema_frialdad4", "poema_frialdad5", "poema_frialdad6"],
+    ),
+    (
+        "libro3",
+        "Book Three",
+        "The Last Books",
+        "Six stories already told in prose that here return to verse, "
+        "one for each of the work's final movements.",
+        ["poema_camara_reloj", "poema_camara_espejo", "poema_camara_manos",
+         "poema_camara_coro", "poema_camara_cueva", "poema_camara_vecinos"],
+    ),
+]
+
+BOOK_DEFS = {"es": BOOK_DEFS_ES, "ca": BOOK_DEFS_CA, "en": BOOK_DEFS_EN}
 
 CLOSING_ID = "poema_glosario"
 

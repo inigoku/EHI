@@ -39,6 +39,8 @@ FONTS = BASE / "fonts"
 def get_out_path(lang: str = "es") -> Path:
     if lang == "ca":
         return BASE / "Ecos_en_el_Borde_6x9_interior_ca.pdf"
+    if lang == "en":
+        return BASE / "Echoes_at_the_Edge_6x9_interior.pdf"
     return BASE / "Ecos_en_el_Borde_6x9_interior.pdf"
 
 OUT = get_out_path()
@@ -400,7 +402,7 @@ class Builder:
         y -= 44
         cv.setFont(R, 10.4)
         cv.setFillColor(INK)
-        for line in (get_text(CURRENT_LANG, "kicker").split(" de ")[0].strip(), "El Horizonte Interior"):
+        for line in (get_text(CURRENT_LANG, "anthology_label"), get_text(CURRENT_LANG, "essay_title")):
             cv.drawCentredString(PW / 2, y, line)
             y -= 15
         y = M_BOTTOM + 66
@@ -549,10 +551,10 @@ class Builder:
         if with_qr:
             y -= 20  # Extra space after paragraphs
 
-            # "Versión interactiva:" text
+            # Interactive-version label (localized)
             cv.setFont(IT, 10.0)
             cv.setFillColor(INK)
-            cv.drawString(x0, y, "Versión interactiva:")
+            cv.drawString(x0, y, get_text(CURRENT_LANG, "interactive_version_label"))
             y -= 20
 
             # QR code
@@ -899,7 +901,7 @@ def run(toc: list[Entry] | None, lang: str = "es") -> Builder:
 
 
 def main() -> int:
-    for lang in ["es", "ca"]:
+    for lang in ["es", "ca", "en"]:
         first = run(None, lang)                 # primera pasada: recoger los folios
         second = run(first.toc_out, lang)       # segunda: con el índice ya relleno
         if [(e.title, e.page) for e in first.toc_out] != \

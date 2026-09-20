@@ -8,7 +8,7 @@ TEXTS = {
         "author": "Íñigo Barrera Barceló",
         "intro_title": "Desde la orilla",
         "intro": [
-            "Este volumen reúne los veinte poemas y el glosario que cierran "
+            "Este volumen reúne los veintiún poemas y el glosario que cierran "
             "*El Horizonte Interior*. En la obra completa aparecen intercalados entre "
             "el ensayo y los cuentos, cada uno en el punto donde una idea deja de "
             "poder explicarse y solo puede decirse. Aquí van juntos, por primera vez, "
@@ -26,9 +26,11 @@ TEXTS = {
             "temperatura.",
 
             "**El libro primero**, *La arquitectura con un hueco*, es un duelo en ocho "
-            "oficios. Un archivista, un relojero, un luthier, una canción que alguien "
-            "tarareaba en la cocina. Ninguno de los ocho habla de la pérdida "
-            "directamente: hablan de lo que siguen haciendo con las manos mientras la "
+            "oficios y un pequeño experimento. Un archivista, un relojero, un luthier, "
+            "una canción que alguien tarareaba en la cocina y, abriendo el libro, una "
+            "pompa de jabón sostenida entre dos manos. Ninguno de los nueve habla de "
+            "la pérdida directamente: hablan de lo que siguen haciendo con las manos "
+            "mientras la "
             "pérdida ocurre. El hueco del título no es una metáfora del vacío. Es lo "
             "que hace sonar una caja de violín.",
 
@@ -87,7 +89,7 @@ TEXTS = {
             f"<p><em>Ecos en el borde. Lírica del límite emocional</em></p>"
             f"<p>Antología poética de El Horizonte Interior</p>"
             f"<p>© Íñigo Barrera Barceló. Todos los derechos reservados.</p>"
-            f"<p>Los veinte poemas y el glosario proceden de la sección de poesía "
+            f"<p>Los veintiún poemas y el glosario proceden de la sección de poesía "
             f"de El Horizonte Interior y se reproducen aquí en el orden en que la "
             f"obra los presenta.</p>"
             f"<p>Las ilustraciones proceden de las ediciones ilustrada y de cámara "
@@ -110,6 +112,9 @@ TEXTS = {
                 "papel cuadriculado.",
         },
         "kicker": "Antología poética de El Horizonte Interior",
+        "anthology_label": "Antología poética",
+        "essay_title": "El Horizonte Interior",
+        "interactive_version_label": "Versión interactiva:",
         "blurb": (
             "Versos libres y un glosario que traducen al lenguaje del sentimiento las "
             "implicaciones físicas de la frontera: el dolor de la asimetría, el duelo "
@@ -128,7 +133,7 @@ TEXTS = {
         "author": "Íñigo Barrera Barceló",
         "intro_title": "Des de la vora",
         "intro": [
-            "Aquest volum reuneix els vint poemes i el glossari que tanquen "
+            "Aquest volum reuneix els vint-i-un poemes i el glossari que tanquen "
             "*L'Horitzó Interior*. A l'obra completa apareixen intercalats entre "
             "l'assaig i els contes, cadascun en el punt on una idea deixa de "
             "poder explicar-se i només pot dir-se. Aquí van junts, per primera vegada, "
@@ -146,9 +151,11 @@ TEXTS = {
             "temperatura.",
 
             "**El primer llibre**, *L'arquitectura amb un forat*, és un dol en vuit "
-            "oficis. Un arxivista, un rellotger, un lutier, una cançó que algú "
-            "taral·lejava a la cuina. Cap dels vuit parla de la pèrdua "
-            "directament: parlen del que segueixen fent amb les mans mentre la "
+            "oficis i un petit experiment. Un arxivista, un rellotger, un lutier, "
+            "una cançó que algú taral·lejava a la cuina i, obrint el llibre, una "
+            "bombolla de sabó sostinguda entre dues mans. Cap dels nou parla de la "
+            "pèrdua directament: parlen del que segueixen fent amb les mans mentre "
+            "la "
             "pèrdua succeeix. El forat del títol no és una metàfora del buit. És el "
             "que fa sonar una caixa de violí.",
 
@@ -207,7 +214,7 @@ TEXTS = {
             f"<p><em>Ecos a la vora. Lírica del límit emocional</em></p>"
             f"<p>Antologia poètica de L'Horitzó Interior</p>"
             f"<p>© Íñigo Barrera Barceló. Tots els drets reservats.</p>"
-            f"<p>Els vint poemes i el glossari provenen de la secció de poesia "
+            f"<p>Els vint-i-un poemes i el glossari provenen de la secció de poesia "
             f"de L'Horitzó Interior i es reprodueixen aquí en l'ordre en què l'obra els "
             f"presenta.</p>"
             f"<p>Les il·lustracions provenen de les edicions il·lustrada i de cambra "
@@ -230,6 +237,9 @@ TEXTS = {
                 "paper quadriculat.",
         },
         "kicker": "Antologia poètica de L'Horitzó Interior",
+        "anthology_label": "Antologia poètica",
+        "essay_title": "L'Horitzó Interior",
+        "interactive_version_label": "Versió interactiva:",
         "blurb": (
             "Versos lliures i un glossari que tradueixen al llenguatge del sentiment les "
             "implicacions físiques de la frontera: el dolor de l'asimetria, el dol "
@@ -239,6 +249,131 @@ TEXTS = {
         "blurb2": (
             "Vint-i-un poemes i un glossari íntim, repartits en tres llibres: l'arquitectura "
             "amb un forat, la frisor d'una ciutat apagada i els últims llibres."
+        ),
+    },
+    "en": {
+        "title": "Echoes at the Edge",
+        "subtitle": "Lyric of the Emotional Threshold",
+        "author": "Íñigo Barrera Barceló",
+        "intro_title": "From the Shore",
+        "intro": [
+            "This volume gathers the twenty-one poems and the glossary that close "
+            "*The Inner Horizon*. In the complete work they appear interspersed between "
+            "the essay and the stories, each one at the point where an idea stops being "
+            "explainable and can only be said. Here they stand together, for the first "
+            "time, and read straight through they tell a different story.",
+
+            "The argument of the book they come from fits in one sentence: consciousness "
+            "might have the shape of a horizon, a boundary that separates an inside from "
+            "an outside and that emerges from the same material everything else is made "
+            "of. It is a hypothesis, and the essay defends it with the apparatus that "
+            "befits one. The poems do not defend it. They do something else: they "
+            "inhabit it. They ask what it feels like to stand inside a boundary like "
+            "that, what hurts when it cracks, and what remains when the water on the "
+            "other side recedes.",
+
+            "They are divided into three books, and the division follows temperature, "
+            "not chronology.",
+
+            "**Book One**, *The Architecture with a Hollow*, is a mourning told in eight "
+            "crafts and one small experiment. An archivist, a watchmaker, a luthier, a "
+            "song someone used to hum in the kitchen, and, opening the book, a soap "
+            "bubble held between two hands. None of the nine speaks of loss directly: "
+            "they speak of what the hands keep doing while the loss happens. The hollow "
+            "in the title is not a metaphor for emptiness. It is what makes a violin's "
+            "body sound.",
+
+            "**Book Two**, *The Coldness of a Darkened City*, lowers the temperature. "
+            "Six poems of urban winter, written from inside a body that never quite "
+            "warms up: the subway, the pill on the table, a carol that fools no one, a "
+            "fogged window with Barcelona behind it. It is the roughest part of the "
+            "collection, and the one that consoles the least.",
+
+            "**Book Three**, *The Last Books*, gathers six poems that had already been "
+            "told in prose in the work's final movements — the time that does not pass, "
+            "the mirror without depth, the invisible tuning fork, the eye of a single "
+            "color, fractal reality — and returns them to verse, which was probably "
+            "their native language.",
+
+            "The volume closes with an *Intimate Glossary*: the essay's technical "
+            "words — horizon, interface, entanglement, reservoir — redefined as what "
+            "they had actually meant all along.",
+
+            "Each poem opens on an odd-numbered page, facing its illustration. The "
+            "plates come from the work's illustrated and chamber editions, and are "
+            "listed one by one at the end, in case anyone wants to know what they were "
+            "looking at.",
+
+            "You do not need to have read *The Inner Horizon* to read this. At most, "
+            "you need to have once stood on a shore watching the water leave, not "
+            "knowing if it would return, and not knowing what it might bring back.",
+        ],
+        "about": [
+            "*The Inner Horizon* is a thought experiment: what would happen if "
+            "consciousness had the structure of a Hawking micro black hole. The work "
+            "develops that question along three paths at once. A twenty-six-chapter "
+            "essay that moves from black hole thermodynamics and the quantum vacuum to "
+            "Integrated Information Theory, by way of ancient Taoist wisdom. Sixteen "
+            "stories that embody those concepts in the city of Tarel, suspended over a "
+            "water that recedes one day. And this anthology, which translates the same "
+            "thing into the language of feeling.",
+
+            "The three paths are independent and lead to the same place. You can enter "
+            "through any of them.",
+
+            "**Íñigo Barrera Barceló** wrote *The Inner Horizon* over several years, in "
+            "the hours left over by a life that was also happening. The book is "
+            "dedicated to Montse and to Gerard, for putting up with him every day with "
+            "a smile. Several of the poems in this volume carry their names, or carry "
+            "them without saying so.",
+
+            "The complete work — essay, stories, poems, young edition, and the "
+            "illustrations these plates are drawn from — can also be read in its "
+            "interactive version.",
+        ],
+        "illustrations_title": "The Illustrations",
+        "about_title": "About This Anthology",
+        "credits_title": "Credits",
+        "credits_text": (
+            f"<p><em>Echoes at the Edge. Lyric of the Emotional Threshold</em></p>"
+            f"<p>A poetry anthology from The Inner Horizon</p>"
+            f"<p>© Íñigo Barrera Barceló. All rights reserved.</p>"
+            f"<p>The twenty-one poems and the glossary come from the poetry section "
+            f"of The Inner Horizon and are reproduced here in the order the work "
+            f"presents them.</p>"
+            f"<p>The illustrations come from the illustrated and chamber editions of "
+            f"the same work. They are listed one by one at the end of the volume.</p>"
+            f"<p>Set in Source Serif Pro.</p>"
+            f"<p>ISBN: [pending assignment]</p>"
+        ),
+        "dedication": "To whoever stayed on the shore<br/>when the water withdrew.",
+        "colophon_title": "Colophon",
+        "toc_title": "Contents",
+        "first_line_index_title": "Index of First Lines",
+        "colophon_text": "This volume was completed<br/>the day the water returned to the shore<br/>with no one knowing<br/>whether it had brought anything back.",
+        "plate_notes_override": {
+            "poema_camara_reloj":
+                "An hourglass unfolded into a helix of light: the same sand falling "
+                "through two throats that do not mark the same hour.",
+            "poema_glosario":
+                "The glossary page from the illustrated edition: an alphabet of "
+                "objects — the wave, the house, the tuning fork, the bowl — drawn on "
+                "graph paper.",
+        },
+        "kicker": "A poetry anthology from The Inner Horizon",
+        "anthology_label": "A poetry anthology",
+        "essay_title": "The Inner Horizon",
+        "interactive_version_label": "Interactive version:",
+        "blurb": (
+            "Free verse and a glossary that translate the physical implications of "
+            "the boundary into the language of feeling: the pain of asymmetry, "
+            "mourning conceived as an architecture with a hollow, and love as the "
+            "geometric entanglement of two worlds."
+        ),
+        "blurb2": (
+            "Twenty-one poems and an intimate glossary, divided into three books: "
+            "the architecture with a hollow, the coldness of a darkened city, and "
+            "the last books."
         ),
     },
 }
