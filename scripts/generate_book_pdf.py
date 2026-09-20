@@ -498,9 +498,7 @@ def markdown_to_flowables(body: str, styles, illustrations: dict, base_dir: Path
                     if flowable:
                         flowables.append(Spacer(1, 8))
                         flowables.append(flowable)
-                        flowables.append(Paragraph(
-                            inline_markdown_to_markup(caption or illus_title), styles["Caption"],
-                        ))
+                        flowables.append(Spacer(1, 10))
             else:
                 print(f"warning: no illustration mapping for id '{illus_id}' "
                       f"(title: \"{illus_title}\")", file=sys.stderr)

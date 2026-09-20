@@ -168,8 +168,7 @@ def markdown_to_xhtml(body: str, illustrations: dict, images: ImageRegistry) -> 
             source = illustrations.get(illus_id) if illus_id else None
             epub_path = images.register(illus_id, source) if illus_id else None
             if epub_path:
-                out.append(f'<figure><img src="../{epub_path}" alt="{esc(illus_title)}"/>'
-                           f'<figcaption>{inline_markup(caption or illus_title)}</figcaption></figure>')
+                out.append(f'<figure><img src="../{epub_path}" alt="{esc(illus_title)}"/></figure>')
             i = j
             continue
 
