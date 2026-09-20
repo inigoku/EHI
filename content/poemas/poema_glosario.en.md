@@ -43,4 +43,4 @@ illustrationDescription: Background of the glossary page in the merged document.
 
 **Composition.** The badge I wore for six years, until I stopped needing it to know who I was.
 
-**Upstairs neighbor.** What this book, four movements later, dared to call God.
+**Upstairs neighbor.** What this book dared to call God.

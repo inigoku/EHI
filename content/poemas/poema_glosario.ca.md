@@ -24,4 +24,4 @@ illustrationDescription: Fons de pàgina del glossari en el document de fusió.
 **Entrellaçament vertical.** Resar sense saber si hi ha auditori, i ajustar la corda de tota manera.
 **Cor.** El lloc on vaig prestar la meva veu, i em va costar anys saber si me l'havien tornada entera.
 **Composició.** La xapa que vaig portar sis anys, fins que vaig deixar de necessitar-la per saber qui era.
-**Veí de dalt.** El que aquest llibre, quatre moviments després, es va atrevir a cridar Déu.
+**Veí de dalt.** El que aquest llibre es va atrevir a cridar Déu.
