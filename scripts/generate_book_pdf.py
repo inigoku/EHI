@@ -32,7 +32,7 @@ from PIL import Image as PILImage
 from reportlab.lib import colors
 from reportlab.lib.pagesizes import LETTER
 from reportlab.lib.styles import ParagraphStyle, getSampleStyleSheet
-from reportlab.lib.units import cm
+from reportlab.lib.units import cm, inch
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.platypus import (
@@ -216,14 +216,38 @@ def load_image_bytes(path_str: str, base_dir: Path, ca_bundle: Optional[str]) ->
     return resolved.read_bytes()
 
 
-def make_image_flowable(image_bytes: bytes, max_width: float, max_height: float) -> Optional[Image]:
+def make_image_flowable(image_bytes: bytes, max_width: float, max_height: float,
+                         dpi: float = 220) -> Optional[Image]:
+    """Build a ReportLab Image flowable, re-sampling and re-encoding the
+    source bytes down to a print-adequate resolution first. Source
+    illustrations here are typically 1024x1024 PNGs (hundreds of KB to ~1MB
+    each); at their actual print size (a few inches) that is far more
+    resolution than a 220dpi hardcover print needs, so embedding them
+    unmodified is what pushed a 695-page book past 100MB. Re-encoding as
+    JPEG (quality 82) after downsampling cuts most illustrations to well
+    under a tenth of their original size with no visible loss at print
+    scale."""
     try:
         with PILImage.open(io.BytesIO(image_bytes)) as im:
             width, height = im.size
+            scale = min(max_width / width, max_height / height)
+            target_w = max(1, round(width * scale / 72.0 * dpi))
+            target_h = max(1, round(height * scale / 72.0 * dpi))
+            if im.mode in ("RGBA", "LA", "P"):
+                rgba = im.convert("RGBA")
+                background = PILImage.new("RGB", rgba.size, (255, 255, 255))
+                background.paste(rgba, mask=rgba.split()[-1])
+                im = background
+            elif im.mode != "RGB":
+                im = im.convert("RGB")
+            if target_w < width or target_h < height:
+                im = im.resize((target_w, target_h), PILImage.LANCZOS)
+            buf = io.BytesIO()
+            im.save(buf, format="JPEG", quality=82, optimize=True)
+            image_bytes = buf.getvalue()
     except Exception as exc:  # noqa: BLE001
         print(f"warning: could not read illustration image data: {exc}", file=sys.stderr)
         return None
-    scale = min(max_width / width, max_height / height)
     return Image(io.BytesIO(image_bytes), width=width * scale, height=height * scale)
 
 
@@ -459,25 +483,64 @@ def markdown_to_flowables(body: str, styles, illustrations: dict, base_dir: Path
 class BookDocTemplate(BaseDocTemplate):
     """A BaseDocTemplate that records chapter-title flowables into the
     TableOfContents and registers PDF outline/bookmark entries, and draws a
-    centred page number in the footer of every content page."""
+    page number in the footer of every content page.
 
-    def __init__(self, filename: str, **kwargs):
+    When `mirror_margins` is set (hardcover/paperback print layout), the
+    text frame's inner (gutter/spine) margin is wider than the outer margin,
+    and the two swap sides on odd vs. even pages, matching the binding:
+    recto (odd, right-hand) pages carry the gutter on the left; verso (even,
+    left-hand) pages carry it on the right. Otherwise a single uniform
+    margin is used on every page, as before."""
+
+    def __init__(self, filename: str, margin: float = 2.2 * cm,
+                 gutter: Optional[float] = None, outer: Optional[float] = None,
+                 top: Optional[float] = None, bottom: Optional[float] = None,
+                 **kwargs):
         super().__init__(filename, **kwargs)
         self.page_width, self.page_height = kwargs["pagesize"]
-        margin = 2.2 * cm
-        frame = Frame(margin, margin, self.page_width - 2 * margin,
-                       self.page_height - 2 * margin, id="content")
+        self.mirror_margins = gutter is not None
+        top = top if top is not None else margin
+        bottom = bottom if bottom is not None else margin
         cover_frame = Frame(0, 0, self.page_width, self.page_height, id="cover")
-        self.addPageTemplates([
-            PageTemplate(id="cover", frames=[cover_frame]),
-            PageTemplate(id="normal", frames=[frame], onPage=self._draw_page_number),
-        ])
+
+        if self.mirror_margins:
+            outer = outer if outer is not None else margin
+            text_w = self.page_width - gutter - outer
+            text_h = self.page_height - top - bottom
+            recto_frame = Frame(gutter, bottom, text_w, text_h, id="recto")
+            verso_frame = Frame(outer, bottom, text_w, text_h, id="verso")
+            self.addPageTemplates([
+                PageTemplate(id="cover", frames=[cover_frame]),
+                PageTemplate(id="recto", frames=[recto_frame], onPage=self._draw_page_number),
+                PageTemplate(id="verso", frames=[verso_frame], onPage=self._draw_page_number),
+            ])
+        else:
+            frame = Frame(margin, bottom, self.page_width - 2 * margin,
+                           self.page_height - top - bottom, id="content")
+            self.addPageTemplates([
+                PageTemplate(id="cover", frames=[cover_frame]),
+                PageTemplate(id="normal", frames=[frame], onPage=self._draw_page_number),
+            ])
+
+    def handle_pageBegin(self):
+        # Alternate the recto/verso page template by the page about to be
+        # started, so mirrored margins land on the correct side regardless
+        # of how much text any given chapter takes up.
+        #
+        # Empirically (verified against the printed folio on each page),
+        # self.page at this point already equals the page number about to
+        # begin, not the one just finished -- so no "+1" here, unlike what
+        # you'd expect from reading handle_pageBegin's docstring.
+        if self.mirror_margins and self.pageTemplate.id in ("recto", "verso"):
+            next_id = "recto" if self.page % 2 == 1 else "verso"
+            self.handle_nextPageTemplate(next_id)
+        super().handle_pageBegin()
 
     def _draw_page_number(self, canvas, doc):
         canvas.saveState()
         canvas.setFont("Helvetica", 9)
         canvas.setFillColor(colors.HexColor("#888888"))
-        canvas.drawCentredString(self.page_width / 2, 1.3 * cm, str(doc.page))
+        canvas.drawCentredString(self.page_width / 2, 0.6 * cm, str(doc.page))
         canvas.restoreState()
 
     def afterFlowable(self, flowable):
@@ -489,7 +552,10 @@ class BookDocTemplate(BaseDocTemplate):
             self.notify("TOCEntry", (0, text, self.page))
 
 
-def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str]) -> None:
+def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str],
+              page_size_in: Optional[tuple] = None,
+              gutter_in: Optional[float] = None, outer_in: Optional[float] = None,
+              top_in: Optional[float] = None, bottom_in: Optional[float] = None) -> None:
     with toc_path.open("r", encoding="utf-8") as fh:
         if toc_path.suffix in (".yml", ".yaml"):
             toc = yaml.safe_load(fh)
@@ -502,10 +568,19 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str]) -> No
     base_font = register_fonts()
     styles = build_styles(base_font)
 
-    page_size = LETTER
+    mirror = gutter_in is not None
+    page_size = (page_size_in[0] * inch, page_size_in[1] * inch) if page_size_in else LETTER
+    doc_kwargs = dict(gutter=gutter_in * inch if gutter_in is not None else None,
+                       outer=outer_in * inch if outer_in is not None else None,
+                       top=top_in * inch if top_in is not None else None,
+                       bottom=bottom_in * inch if bottom_in is not None else None)
     doc = BookDocTemplate(str(output_path), pagesize=page_size,
-                          title=toc.get("title", ""), author=toc.get("author", ""))
-    content_width = page_size[0] - 2 * 2.2 * cm
+                          title=toc.get("title", ""), author=toc.get("author", ""),
+                          **doc_kwargs)
+    if mirror:
+        content_width = page_size[0] - gutter_in * inch - outer_in * inch
+    else:
+        content_width = page_size[0] - 2 * 2.2 * cm
 
     story: list = []
 
@@ -528,7 +603,9 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str]) -> No
     story.append(PageBreak())
 
     # --- Table of contents ------------------------------------------------
-    story.append(NextPageTemplate("normal"))
+    # The cover is always exactly one page, so the ToC always starts on
+    # page 2 (even/verso).
+    story.append(NextPageTemplate("verso" if mirror else "normal"))
     story.append(Paragraph("Índice" if is_spanish(toc) else "Contents", styles["TOCHeading"]))
     table_of_contents = TableOfContents()
     table_of_contents.levelStyles = [styles["TOCEntry"]]
@@ -593,12 +670,37 @@ def main() -> None:
     parser.add_argument("--ca-bundle", type=str, default=None,
                          help="Optional CA bundle path for fetching https:// illustrations "
                               "from behind a corporate proxy/TLS-inspecting firewall")
+    parser.add_argument("--trim", type=str, default=None,
+                         help='Page trim size in inches as "WIDTHxHEIGHT", e.g. "6x9". '
+                              "Default: US Letter, single uniform margin (original behavior).")
+    parser.add_argument("--gutter", type=float, default=None,
+                         help="Inner (spine-side) margin in inches for print binding. Passing "
+                              "this switches on mirrored recto/verso margins; requires --trim.")
+    parser.add_argument("--outer", type=float, default=None,
+                         help="Outer margin in inches (paired with --gutter). Default: 0.625")
+    parser.add_argument("--top", type=float, default=None, help="Top margin in inches. Default: 0.75")
+    parser.add_argument("--bottom", type=float, default=None, help="Bottom margin in inches. Default: 0.75")
     args = parser.parse_args()
 
     if not args.toc.exists():
         parser.error(f"ToC file not found: {args.toc}")
 
-    build_pdf(args.toc, args.output, args.ca_bundle)
+    page_size_in = None
+    if args.trim:
+        try:
+            w_str, h_str = args.trim.lower().split("x")
+            page_size_in = (float(w_str), float(h_str))
+        except ValueError:
+            parser.error('--trim must look like "6x9"')
+    if args.gutter is not None and page_size_in is None:
+        parser.error("--gutter requires --trim")
+
+    outer = args.outer if args.outer is not None else (0.625 if args.gutter is not None else None)
+    top = args.top if args.top is not None else (0.75 if args.gutter is not None else None)
+    bottom = args.bottom if args.bottom is not None else (0.75 if args.gutter is not None else None)
+
+    build_pdf(args.toc, args.output, args.ca_bundle, page_size_in=page_size_in,
+              gutter_in=args.gutter, outer_in=outer, top_in=top, bottom_in=bottom)
 
 
 if __name__ == "__main__":
