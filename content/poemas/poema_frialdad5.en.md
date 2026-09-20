@@ -1,6 +1,6 @@
 ---
 title: V. EXIT PROTOCOL
-section: THE COLDNESS OF A POWERED-DOWN CITY
+section: THE COLDNESS OF A DARKENED CITY
 ---
 
 A white pill on the table.

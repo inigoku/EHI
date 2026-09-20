@@ -25,7 +25,7 @@ that mistake singing together
 for never again being able to sing alone.
 
 The difference is not in the song.
-It is in whether, once the choir is over,
+It lies in whether, once the choir is over,
 you still remember your own voice
 without needing a thousand more
 to tell you which one it was.

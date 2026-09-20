@@ -1,6 +1,6 @@
 ---
 title: IV. CYBERNETIC CAROL FOR A MILD SOLSTICE
-section: THE COLDNESS OF A POWERED-DOWN CITY
+section: THE COLDNESS OF A DARKENED CITY
 ---
 
 The night is an old file

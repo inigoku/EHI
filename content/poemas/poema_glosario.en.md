@@ -29,9 +29,7 @@ section: INTIMATE GLOSSARY
 
 **Repair.** What remains when the hollow stops hurting and begins to hold.
 
-*The last books*
-
-**Mirror.** What gives me back my own face without ever having felt its own.
+**Mirror.** What gives me back my own face without ever having felt it as my own.
 
 **Shadow.** What a mirror cannot have, however much the light insists on giving it one.
 
