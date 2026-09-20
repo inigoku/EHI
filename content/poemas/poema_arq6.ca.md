@@ -13,9 +13,3 @@ No dic que l'aigua baixés.
     es va instal·lar al meu canell,
       i em va recordar —amb el dolor dels tendons—
         que el buit no està buit.
-
-He vist l'horitzó emergir del meu propi reservori.
-He vist que tornava.
-
-Vaig aprendre que la repetició enclava
-  més que la comprensió.

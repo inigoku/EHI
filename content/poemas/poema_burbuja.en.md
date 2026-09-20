@@ -11,12 +11,8 @@ Suddenly, I form a sphere:
 an inside and an outside
 that did not exist before.
 
-The horizon is not the line I seek on the map.
-It is the living boundary
-that I feel on my own skin.
-
-I am the sum of the orchestra
-that is in no single musician.
+It is a living boundary,
+I feel it on my own skin.
 
 I am the void that, as it collapses,
 creates something like a star.

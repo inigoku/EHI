@@ -11,12 +11,8 @@ De repente, formo una esfera:
 un dentro y un fuera
 que antes no existían.
 
-El horizonte no es la línea que busco en el mapa.
-Es la frontera viva
-que siento en mi propia piel.
-
-Yo soy la cantidad de orquesta
-que no está en ningún músico.
+Es una frontera viva,
+la siento en mi propia piel.
 
 Yo soy el vacío que, al colapsar,
 crea algo parecido a una estrella.

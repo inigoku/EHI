@@ -11,12 +11,8 @@ De sobte, formo una esfera:
 un dins i un fora
 que abans no existien.
 
-L'horitzó no és la línia que busco al mapa.
-És la frontera viva
-que sento a la meva pròpia pell.
-
-Jo soc la quantitat d'orquestra
-que no és en cap músic.
+És una frontera viva,
+la sento a la meva pròpia pell.
 
 Jo soc el buit que, en col·lapsar,
 crea quelcom semblant a una estrella.

@@ -13,9 +13,3 @@ No digo que el agua bajara.
     se instaló en mi muñeca,
       y me recordó —con el dolor de los tendones—
         que el vacío no está vacío.
-
-Yo he visto al horizonte emerger de mi propio reservorio.
-Yo lo he visto retornar.
-
-Aprendí que la repetición ancla
-  más que la comprensión.
