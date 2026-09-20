@@ -1,6 +1,8 @@
 ---
 title: I. CARTOGRAPHY OF THE ECHO
 section: THE COLDNESS OF A DARKENED CITY
+illustrationTitle: Cartography of the Echo
+illustrationDescription: A broken line, like a cable that no longer conducts anything, ending at a dead point on a map washed out by rain.
 ---
 
 Inside, there is no heart.

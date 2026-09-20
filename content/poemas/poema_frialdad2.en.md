@@ -1,6 +1,8 @@
 ---
 title: II. SONG OF DEATH
 section: THE COLDNESS OF A DARKENED CITY
+illustrationTitle: Song of Death
+illustrationDescription: An empty chair whose shadow is cast enormous, under a dramatic light that evokes absolute absence.
 ---
 
 A key that opens nothing.

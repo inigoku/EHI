@@ -1,6 +1,8 @@
 ---
 title: THE ARCHITECTURE WITH A HOLLOW — II: THE ARCHIVIST
 section: THE ARCHITECTURE WITH A HOLLOW
+illustrationTitle: The Archivist
+illustrationDescription: A notebook open on a wooden dock, beside a leaning oar. The ink of the last line fades slightly, as if the paper were damp too.
 ---
 
 The water left the way

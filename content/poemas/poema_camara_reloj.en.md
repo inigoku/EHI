@@ -1,6 +1,8 @@
 ---
 title: THE TIME THAT DOES NOT PASS — WHAT DOES NOT FIT IN A CLOCK
 section: THE LAST BOOKS
+illustrationTitle: What Does Not Fit in a Clock
+illustrationDescription: A sundial in a courtyard: the shadow crosses the tiles while a laden ant follows its own time toward the curb.
 ---
 
 I can measure the shadow crossing the yard,

@@ -1,6 +1,8 @@
 ---
 title: INTIMATE GLOSSARY
 section: INTIMATE GLOSSARY
+illustrationTitle: Intimate Glossary
+illustrationDescription: Background of the glossary page in the merged document.
 ---
 
 **Horizon.** The distance at which I can love you without dissolving.

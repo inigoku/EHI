@@ -1,6 +1,8 @@
 ---
 title: THE ARCHITECTURE WITH A HOLLOW — VII: THE TREMOR
 section: THE ARCHITECTURE WITH A HOLLOW
+illustrationTitle: The Tremor
+illustrationDescription: A glass of water held by a trembling hand, concentric ripples on the water's surface, low warm light like an extinguished telescope.
 ---
 
 You asked me about the loyalty of matter

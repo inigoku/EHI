@@ -1,6 +1,8 @@
 ---
 title: V. EXIT PROTOCOL
 section: THE COLDNESS OF A DARKENED CITY
+illustrationTitle: Exit Protocol
+illustrationDescription: A round white pill on a wooden table with a perfect circular shadow.
 ---
 
 A white pill on the table.

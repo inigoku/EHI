@@ -1,6 +1,8 @@
 ---
 title: THE MIRROR WITHOUT DEPTH — WHAT THE MIRROR DOES NOT HAVE
 section: THE LAST BOOKS
+illustrationTitle: What the Mirror Does Not Have
+illustrationDescription: A still pond returns a face with exactness; beneath the surface there is nothing, not even the shape of the hand that touched it.
 ---
 
 I can give you back your face

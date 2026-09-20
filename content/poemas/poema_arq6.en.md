@@ -1,6 +1,8 @@
 ---
 title: THE ARCHITECTURE WITH A HOLLOW — VI: THE OAR
 section: THE ARCHITECTURE WITH A HOLLOW
+illustrationTitle: The Oar
+illustrationDescription: A wooden oar sunk to the bottom of a shallow lagoon, the wrist of whoever is rowing barely visible above the dark surface.
 ---
 
 The oar touched bottom

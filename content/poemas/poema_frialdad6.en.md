@@ -1,6 +1,8 @@
 ---
 title: VI. MONTSE XXI
 section: THE COLDNESS OF A DARKENED CITY
+illustrationTitle: Montse XXI
+illustrationDescription: A fogged window with a descending line traced by a finger in the condensation.
 ---
 
 The room looks out toward a winter that never quite arrives.

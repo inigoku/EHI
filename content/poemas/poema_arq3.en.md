@@ -1,6 +1,8 @@
 ---
 title: THE ARCHITECTURE WITH A HOLLOW — IV: THE LUTHIER
 section: THE ARCHITECTURE WITH A HOLLOW
+illustrationTitle: The Luthier
+illustrationDescription: A lutherie workshop full of instruments hanging on the walls. On the counter, a viola half-wrapped in a wool sweater, with a fine, honest crack visible on its top.
 ---
 
 I have never entered a box

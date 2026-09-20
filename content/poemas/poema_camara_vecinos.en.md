@@ -1,6 +1,8 @@
 ---
 title: THE FRACTAL REALITY — NEIGHBORS
 section: THE LAST BOOKS
+illustrationTitle: Neighbors
+illustrationDescription: A floor plan that never closes, drawn from knocks and voices on the other side of the wall, where each room seems to contain another.
 ---
 
 Every wall has, behind it,

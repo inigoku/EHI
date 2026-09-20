@@ -1,6 +1,8 @@
 ---
 title: THE ARCHITECTURE WITH A HOLLOW — III: THE WATCHMAKER
 section: THE ARCHITECTURE WITH A HOLLOW
+illustrationTitle: The Watchmaker
+illustrationDescription: A silver pocket watch open on a dark cloth, the mechanism visible and clean. An old man's hands, with a barely suggested tremor, hold a tiny tool under a morning light.
 ---
 
 Two hours a day

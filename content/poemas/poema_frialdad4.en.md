@@ -1,6 +1,8 @@
 ---
 title: IV. CYBERNETIC CAROL FOR A MILD SOLSTICE
 section: THE COLDNESS OF A DARKENED CITY
+illustrationTitle: Cybernetic Carol
+illustrationDescription: A barely lit filament bulb hanging over a dark, powered-down rectangle.
 ---
 
 The night is an old file

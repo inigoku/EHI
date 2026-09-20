@@ -1,6 +1,8 @@
 ---
 title: THE ARCHITECTURE WITH A HOLLOW — IX: THE SONG
 section: THE ARCHITECTURE WITH A HOLLOW
+illustrationTitle: The Song
+illustrationDescription: An empty kitchen at dusk, with a pot on the stove. In the air, barely suggested, four musical notes drawn like wisps of smoke rising from the burners.
 ---
 
 Four notes:

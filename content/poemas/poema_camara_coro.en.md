@@ -1,6 +1,8 @@
 ---
 title: THE EYE OF A SINGLE COLOR — CHOIR
 section: THE LAST BOOKS
+illustrationTitle: Choir
+illustrationDescription: A plaza full of voices of the same color; at the edge, a single voice trembling and still remembering which one it was.
 ---
 
 A voice alone trembles.

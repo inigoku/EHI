@@ -1,6 +1,8 @@
 ---
 title: THE INVISIBLE TUNING FORK — HANDS
 section: THE LAST BOOKS
+illustrationTitle: Hands
+illustrationDescription: Three pairs of hands in the half-light: some closed, others open upward, others still on the knees, empty on purpose.
 ---
 
 Some close.
