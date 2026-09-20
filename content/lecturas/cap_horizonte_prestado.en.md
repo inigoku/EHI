@@ -84,7 +84,7 @@ Perhaps the reason these fictions attract us so much isn't the physics they put 
 
 ---
 
-> **Note on Chapter 42**
+> **Note on Chapter 46**
 >
 > **What we do know:** all three novels are consistent with their own internal rules and ask no better-defined operation of physics than the ones in the previous chapter; what they contribute isn't a new mechanism, but a different angle on the same question —what happens to the horizon, not the universe, when time stops behaving as expected.
 >

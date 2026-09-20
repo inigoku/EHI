@@ -59,7 +59,7 @@ If it had to be condensed into a single sentence: there is no difference of natu
 
 ---
 
-> **Note to Chapter 47**
+> **Note to Chapter 51**
 >
 > **What we do know:** No one has direct access to an interiority other than their own; the existence of others' is inferred, and philosophy has spent centuries without closing the problem of other minds. The parable of the death of Hun Dun closes chapter 7 of the Zhuangzi; the butterfly dream, which asks the same question in another direction, is in chapter 2. Tolkien defended, in "On Fairy-Stories" (1939) and in the poem "Mythopoeia," the idea of sub-creation—"we make still by the law in which we're made"—which is the closest theological antecedent to this chapter, although Tolkien keeps an asymmetry between Creator and sub-creator that is called into question here. Bostrom formalized in 2003 a structure of nested levels with different vocabulary and a probabilistic claim this book does not make. Self-similarity at every scale is rigorously defined in Mandelbrot (1975, 1982), and the set that bears his name is the proof that a pattern can be unrepeatable at every scale without anyone being inside it. Integrated Information Theory excludes by postulate that the subsets of a complex experience anything (Tononi, 2008).
 >

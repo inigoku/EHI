@@ -2,7 +2,7 @@
 title: EL CUERPO PRESTADO, LA LOMBRIZ ENTERA Y EL SIGLO EDITADO
 subtitle: (Una lectura topológica de Todos nuestros presentes equivocados, Matadero Cinco y El fin de la eternidad)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 42
+chapterNumber: 46
 illustrationId: il_horizonte_prestado
 illustrationTitle: El cuerpo prestado
 illustrationDescription: Tres horizontes distintos flotan sobre un fondo de estrellas oscuro. A la izquierda, dos siluetas humanas translúcidas se superponen dentro del mismo contorno, disputándose los mismos gestos. En el centro, una larga espiral de luz dorada —una lombriz de instantes, con un pie diminuto en un extremo y un pie anciano en el otro— brilla entera, sin principio ni final visibles. A la derecha, un corredor de piedra se abre hacia un siglo en miniatura, suspendido y editable como un reloj de engranajes dorados. Acuarela y tinta, tonos índigo y dorados.
@@ -88,7 +88,7 @@ Puede que la razón por la que estas ficciones nos atraigan tanto no sea la fís
 
 ---
 
-> **Nota al Capítulo 42**
+> **Nota al Capítulo 46**
 >
 > **Lo que sí sabemos:** las tres novelas son coherentes con sus propias reglas internas y no le piden a la física ninguna operación mejor definida que las del capítulo anterior; lo que aportan no es un mecanismo nuevo, sino un ángulo distinto sobre la misma pregunta —qué le pasa al horizonte, no al universo, cuando el tiempo deja de comportarse como se espera—.
 >

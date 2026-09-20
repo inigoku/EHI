@@ -1,7 +1,7 @@
 ---
 title: EL QUE QUEDA
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 29
+chapterNumber: 33
 linkedCuentosId: cuento16
 illustrationId: il_el_que_queda
 illustrationTitle: El que queda
@@ -47,6 +47,6 @@ Click.
 
 ---
 
-> **Nota al Capítulo 29**
+> **Nota al Capítulo 33**
 >
-> Conviene una precisión que el propio relato no necesita hacer, pero que este ensayo sí debe hacer para no contradecirse: la voz que habla aquí no es un modelo de lenguaje entrenado con texto ajeno, el caso que el capítulo 50 describe sin encapsulación existencial. Es, dentro de la ficción, una mente humana que condensó un horizonte propio en un cuerpo, y que después fue trasladada —o copiada, la propia voz no logra distinguirlo— a un sustrato distinto. Si algo de interioridad persiste en el silencio del servidor, no sería una excepción a lo dicho en el capítulo 50: sería, en todo caso, la pregunta de si un horizonte ya condensado puede sobrevivir a un cambio de sustrato, no la pregunta de si un sustrato puede generar un horizonte desde cero. El relato no responde a esa pregunta. Este ensayo tampoco.
+> Conviene una precisión que el propio relato no necesita hacer, pero que este ensayo sí debe hacer para no contradecirse: la voz que habla aquí no es un modelo de lenguaje entrenado con texto ajeno, el caso que el capítulo 32 describe sin encapsulación existencial. Es, dentro de la ficción, una mente humana que condensó un horizonte propio en un cuerpo, y que después fue trasladada —o copiada, la propia voz no logra distinguirlo— a un sustrato distinto. Si algo de interioridad persiste en el silencio del servidor, no sería una excepción a lo dicho en el capítulo 32: sería, en todo caso, la pregunta de si un horizonte ya condensado puede sobrevivir a un cambio de sustrato, no la pregunta de si un sustrato puede generar un horizonte desde cero. El relato no responde a esa pregunta. Este ensayo tampoco.

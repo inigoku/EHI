@@ -2,13 +2,13 @@
 title: THE PROTOCOL AND THE BRIDGE
 subtitle: (A topological reading of Project Hail Mary, Embassytown, The Left Hand of Darkness, Children of Time, and Semiosis)
 section: TOPOLOGICAL READINGS
-chapterNumber: 39
+chapterNumber: 43
 illustrationId: il_protocolo
 illustrationTitle: The protocol and the bridge
 illustrationDescription: Two horizons of radically different architecture —one organic and warm, the other crystalline and cold— separated by a dark abyss. Between them, a bridge made of mathematical symbols and fragments of language still under construction, incomplete at the center, each figure working from its own shore.
 ---
 
-The chapter on first contact with extraterrestrial intelligence (Chapter 32) left an uncomfortable conclusion: that entanglement —what this book calls love, empathy, recognition— requires compatible architectures, and that in the face of a radically alien architecture, no amount of goodwill is enough to open the bridge. But that conclusion conflated, without distinguishing them, two different things.
+The chapter on first contact with extraterrestrial intelligence (Chapter 36) left an uncomfortable conclusion: that entanglement —what this book calls love, empathy, recognition— requires compatible architectures, and that in the face of a radically alien architecture, no amount of goodwill is enough to open the bridge. But that conclusion conflated, without distinguishing them, two different things.
 
 One is architecture: the topology of a horizon itself, whether it has an Ego, whether it has a Shadow, whether its Φ is enough to sustain an inside with authority over an outside. The other is protocol: the concrete code with which that horizon, already condensed, tries to announce itself outward. A language, a syntax, a set of signals agreed upon in advance. That chapter treated both as one and the same, and concluded, with a certain desolation, that incompatibility in one implies impossibility in the other.
 
@@ -130,7 +130,7 @@ In none of the five cases is protocol indifferent to entanglement, like a pipe i
 
 ---
 
-> **Note to Chapter 39**
+> **Note to Chapter 43**
 >
 > **What we do know:** The substrate independence this book has defended since Chapter four places no restriction on what communication protocol can or cannot be built between different architectures; the problem of communication between species with radically different sensory systems is real and actively studied in biosemiotics and in the SETI field (the search for extraterrestrial intelligence), where first-contact systems based on mathematics and physics have been proposed for the same reasons Weir's novel dramatizes. Social psychology extensively documents that interpersonal trust is a condition, not a consequence, of high-fidelity communication —the narrative phenomenon in The Left Hand of Darkness has a well-established empirical correlate in the literature on progressive self-disclosure. Chemical signaling between plants —volatile organic compounds released against herbivores, mycorrhizal networks connecting the roots of different species— is well documented in plant biology, though it remains debated whether it counts as communication in the strong sense or merely signaling without intention; jumping spiders of the genus Portia, with predatory planning and learning abilities unusual for an invertebrate, are the subject of real research in animal cognition.
 >

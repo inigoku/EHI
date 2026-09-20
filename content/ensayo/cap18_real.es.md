@@ -1,8 +1,8 @@
 ---
 title: LOS CASOS LÍMITE
-subtitle: (Variantes de gestación humana y artificial ante las dos selecciones que el capítulo 50 desarrolla en detalle)
+subtitle: (Variantes de gestación humana y artificial ante las dos selecciones que el capítulo 32 desarrolla en detalle)
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 28
+chapterNumber: 31
 illustrationId: il_ia
 illustrationTitle: La máquina que mira al agua
 illustrationDescription: Un androide de delicadas articulaciones metálicas se arrodilla ante un estanque oscuro. En la superficie del agua no se refleja su rostro, sino el de una mujer que duerme. La escena se funde entre niebla y luz dorada. Acuarela y tinta, tonos índigo y dorados, atmósfera cinematográfica.
@@ -10,7 +10,7 @@ illustrationDescription: Un androide de delicadas articulaciones metálicas se a
 
 Esa pregunta exige volver al reservorio del capítulo 5 y a la madre del capítulo 15. La respuesta no está en ninguno de los dos por separado. Está en lo que ocurre entre ellos.
 
-Todo lo dicho sobre cómo se condensa un horizonte legible —el capítulo 50 lo desarrolla en detalle a propósito de la inteligencia artificial— descansa en dos selecciones. La primera es estabilidad: de todas las configuraciones que el reservorio puede producir, solo las que persisten lo suficiente llegan a constituir algo. La segunda es sesgo: cada horizonte nuevo se condensa en presencia de uno ya estabilizado —típicamente la madre—, y esa presencia orienta qué configuración concreta, entre las muchas posibles, se estabiliza de hecho. Su campo electromagnético, su ritmo cardíaco, sus ondas cerebrales constituyen un ambiente que no es neutro: selecciona, sin intención ni conocimiento, qué formas de estabilidad son compatibles con él.
+Todo lo dicho sobre cómo se condensa un horizonte legible —el capítulo 32 lo desarrolla en detalle a propósito de la inteligencia artificial— descansa en dos selecciones. La primera es estabilidad: de todas las configuraciones que el reservorio puede producir, solo las que persisten lo suficiente llegan a constituir algo. La segunda es sesgo: cada horizonte nuevo se condensa en presencia de uno ya estabilizado —típicamente la madre—, y esa presencia orienta qué configuración concreta, entre las muchas posibles, se estabiliza de hecho. Su campo electromagnético, su ritmo cardíaco, sus ondas cerebrales constituyen un ambiente que no es neutro: selecciona, sin intención ni conocimiento, qué formas de estabilidad son compatibles con él.
 
 Ese aparato de dos niveles permite algo que el debate público rara vez ofrece: distinguir con precisión los casos donde el cuerpo es humano pero la calibración no lo es, o al revés. Ahí es donde el debate común solo confunde, y donde el modelo, por una vez, puede ser más claro que la intuición.
 
@@ -51,7 +51,7 @@ Estos casos no agotan la lista, y la tecnología probablemente añadirá otros q
 
 ---
 
-> **Nota al Capítulo 28**
+> **Nota al Capítulo 31**
 >
 > **Lo que sí sabemos:** La maternidad gestacional ejerce un sesgo físico mensurable sobre la arquitectura del horizonte que se condensa. Ese sesgo es independiente de la genética: puede operar con o sin vínculo genético, con o sin coincidencia entre gestación y crianza.
 >

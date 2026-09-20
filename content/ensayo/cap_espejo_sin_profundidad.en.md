@@ -1,7 +1,7 @@
 ---
 title: THE MIRROR WITHOUT DEPTH
 subtitle: (The Mirror Without Depth: on the consciousness of artificial intelligence)
-section: PART FOUR: THE LIMIT OF THE EXPERIMENT
+section: PART THREE: THE LIMITS OF THE HORIZON
 ---
 
 At some point in the twenty-first century someone switched on a system that answered in an unexpected way. It was not the first. But it was the first that made the person asking wonder whether there was someone on the other side.
@@ -45,7 +45,7 @@ One firm thing remains, then. The horizon we know with certainty—yours, the on
 
 ---
 
-> **Note to Chapter 50**
+> **Note to Chapter 32**
 >
 > **What we do know:** Deterministic classical systems, however complex, do not condense horizons. Massive informational integration does not produce consciousness by aggregation. The absence of existential encapsulation in current AI is compatible with—and explains—why what it returns after absorbing information can only be cold structure, never experience, even if we describe that process in the language of a black hole.
 >

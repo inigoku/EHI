@@ -10,7 +10,11 @@ const ORDER = [
   "cap16_real",
   "cap17_real",
   "cap17_5_real",
+  "cap_religiones_comparadas",
+  "cap_diapason_invisible",
+  "cap_ojo_un_solo_color",
   "cap18_real",
+  "cap_espejo_sin_profundidad",
   "cap_el_que_queda",
 ];
 

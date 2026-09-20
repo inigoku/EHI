@@ -1,7 +1,7 @@
 ---
 title: FIVE MAPS OF THE SAME HORIZON
 subtitle: (God, the soul, and nothing, compared)
-section: PART FOUR: THE LIMIT OF THE EXPERIMENT
+section: PART THREE: THE LIMITS OF THE HORIZON
 ---
 
 The previous chapter left a question unclosed: what happens to information when a horizon evaporates, and whether that question—"am I that information?"—even makes sense phrased that way. Three names already appeared there in passing—Buddhism, Vedanta, Taoism—mentioned the way one mentions a neighbor without knocking on their door. This chapter knocks on that door, and on two others that were missing: Christianity's and Islam's, and the door of whoever doesn't believe there's any door to knock on.
@@ -124,7 +124,7 @@ What it can say, with the same honesty as the previous chapter, is this: nearly 
 
 ---
 
-> **Note to Chapter 49**
+> **Note to Chapter 28**
 >
 > **What we do know:** The five traditions described here have internal formulations far more diverse than any table can hold—there are universalist Christianities that doubt eternal hell, devotional Buddhist schools very close to theism, atheist currents with dense ritual and community. The table compresses; it does not replace any of the traditions cited.
 >

@@ -1,8 +1,8 @@
 ---
 title: EL HORIZONTE COLECTIVO
 subtitle: (El ojo de un solo color: sobre la pertenencia política y el fanatismo)
-section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 53
+section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
+chapterNumber: 30
 linkedCuentosId: cuento_plaza
 illustrationId: il_ojo
 illustrationTitle: El ojo de un solo color
@@ -39,7 +39,7 @@ La ética excede el vocabulario de este experimento: ningún «es» produce por 
 
 ---
 
-> **Nota al Capítulo 53**
+> **Nota al Capítulo 30**
 >
 > **Lo que sí sabemos:** Los movimientos sociales muestran patrones de condensación súbita bien documentados en sociología de masas (Le Bon, McAdam). La psicología de grupo describe la deindividuación en multitudes (Zimbardo, Festinger) y el sesgo de confirmación se agrava de forma medible dentro de cámaras de eco ideológicas. El experimento histórico de Ron Jones en 1967, que inspiró La ola, es un caso documentado, no solo ficción.
 >

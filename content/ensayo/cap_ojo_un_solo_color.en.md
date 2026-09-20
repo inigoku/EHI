@@ -1,7 +1,7 @@
 ---
 title: THE COLLECTIVE HORIZON
 subtitle: (The Eye of a Single Color: on political belonging and fanaticism)
-section: PART FOUR: THE LIMIT OF THE EXPERIMENT
+section: PART THREE: THE LIMITS OF THE HORIZON
 ---
 
 An idea is not a thing. It is a configuration of information that can be adopted by many horizons at once, and the horizon that adopts it does not contain it the way one keeps an object: it reconfigures itself so that the idea works as an organizing principle, as the criterion with which to evaluate any new information. What this chapter asks is what happens when the idea that organizes the horizon points not upward—toward a reservoir or an origin horizon—but sideways: toward thousands of horizons unknown to one another that share, without ever having met, the same configuration.
@@ -34,7 +34,7 @@ Ethics exceeds the vocabulary of this experiment: no "is" produces an "ought" on
 
 ---
 
-> **Note to Chapter 53**
+> **Note to Chapter 30**
 >
 > **What we do know:** Social movements show patterns of sudden condensation that are well documented in the sociology of crowds (Le Bon, McAdam). Group psychology describes deindividuation in crowds (Zimbardo, Festinger), and confirmation bias measurably worsens inside ideological echo chambers. Ron Jones's historical experiment in 1967, which inspired The Wave, is a documented case, not just fiction.
 >
