@@ -139,7 +139,7 @@ Imagina una sala de espera de urgencias. Hay quien llora en silencio, quien grit
 
 La insula anterior —esa estructura que procesa la señal visceral del propio cuerpo— se activa ante cada señal con la misma intensidad relativa, porque el sistema no ha aprendido a discriminar entre amenaza inmediata y malestar distante. El resultado es interferencia: el horizonte no resuena con ninguna frecuencia con claridad suficiente para responder.
 
-La literatura clínica documenta esto con precisión: los trabajadores de emergencias que desarrollan burnout no son los que enfrentan los casos más graves. Son los que enfrentan la mayor densidad de señal sin intervalo de recuperación. No es la intensidad del estímulo lo que colapsa el horizonte: es la ausencia de pausa entre estímulos. El horizonte necesita tiempo para desacoplarse, y cuando no lo tiene, no acumula daño —acumula desorden. El desorden es peor que el daño porque no tiene forma reconosible. No se puede nombrar, y lo que no se nombra no se puede tratar.
+La literatura clínica documenta esto con precisión: los trabajadores de emergencias que desarrollan burnout no son los que enfrentan los casos más graves. Son los que enfrentan la mayor densidad de señal sin intervalo de recuperación. No es la intensidad del estímulo lo que colapsa el horizonte: es la ausencia de pausa entre estímulos. El horizonte necesita tiempo para desacoplarse, y cuando no lo tiene, no acumula daño —acumula desorden. El desorden es peor que el daño porque no tiene forma reconocible. No se puede nombrar, y lo que no se nombra no se puede tratar.
 
 ### La distinción empática: cómo el horizonte sabe qué siente
 

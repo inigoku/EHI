@@ -267,6 +267,10 @@ def inline_markdown_to_markup(text: str) -> str:
     text = escape_xml(text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", text)
     text = re.sub(r"\*(.+?)\*", r"<i>\1</i>", text)
+    # `code` spans (a handful of programming identifiers, e.g. `private`):
+    # there's no monospace face registered, so render them italic rather
+    # than printing the backticks literally.
+    text = re.sub(r"`([^`]+?)`", r"<i>\1</i>", text)
     return text
 
 
@@ -425,8 +429,26 @@ def build_table(table_lines: list, styles, content_width: float) -> Optional[Tab
     return table
 
 
+SIMULATION_HEADING_RE = re.compile(r"^## \[SIMULACI[ÓO]N[^\]]*\]\s*$", re.MULTILINE)
+SIMULATION_HEADING_EN_RE = re.compile(r"^## \[SIMULATION[^\]]*\]\s*$", re.MULTILINE)
+SIDEBOX_RE = re.compile(r"\[CAJA LATERAL:\s*([^\]]+)\]")
+SIDEBOX_EN_RE = re.compile(r"\[SIDEBOX:\s*([^\]]+)\]")
+
+
 def markdown_to_flowables(body: str, styles, illustrations: dict, base_dir: Path,
                            content_width: float, ca_bundle: Optional[str]) -> list:
+    # These bracketed markers point at web-only interactive widgets
+    # (a simulation embed, a highlighted sidebar) that this generic
+    # markdown parser doesn't render specially -- left as-is they'd print
+    # as a literal "[SIMULACIÓN X]" heading or "[CAJA LATERAL: X]" label,
+    # reading like a leftover editing note instead of finished prose.
+    body = SIMULATION_HEADING_RE.sub(
+        "*(Simulación interactiva disponible en la edición web.)*", body)
+    body = SIMULATION_HEADING_EN_RE.sub(
+        "*(Interactive simulation available in the web edition.)*", body)
+    body = SIDEBOX_RE.sub(r"\1", body)
+    body = SIDEBOX_EN_RE.sub(r"\1", body)
+
     flowables: list = []
     lines = body.split("\n")
     i = 0

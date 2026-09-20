@@ -77,7 +77,7 @@ La información existe. Es operacionalmente irrecuperable. El reservorio recuerd
 
 Hay un fenómeno que la física no ha explicado y que la medicina apenas empieza a estudiar seriamente: las experiencias cercanas a la muerte. No son alucinaciones aleatorias. Tienen una estructura sorprendentemente consistente a través de culturas, edades y condiciones médicas.
 
-El patrón es reconosible: una sensación de paz profunda, la experiencia de salir del cuerpo y observarlo desde arriba, el paso por un túnel oscuro hacia una luz brillante, un encuentro con seres de luz o con personas fallecidas, una revisión de la vida —no como juicio sino como comprensión— y, finalmente, el retorno al cuerpo, a menudo con resistencia.
+El patrón es reconocible: una sensación de paz profunda, la experiencia de salir del cuerpo y observarlo desde arriba, el paso por un túnel oscuro hacia una luz brillante, un encuentro con seres de luz o con personas fallecidas, una revisión de la vida —no como juicio sino como comprensión— y, finalmente, el retorno al cuerpo, a menudo con resistencia.
 
 Los escépticos atribuyen todo esto a la anoxia cerebral, a la desregulación del córtex visual, a la liberación masiva de dimetiltriptamina endógena —la molécula de los sueños— en el momento del colapso. Y es cierto que muchos de estos fenómenos pueden reproducirse artificialmente: pilotos en centrífugas de alta G reportan túneles de luz; pacientes con estimulación eléctrica del temporal reportan sentir presencias.
 
@@ -94,7 +94,7 @@ El Bardo Thödol —texto tibetano traducido como Libro de los Muertos— descri
 
 - **Chikhai**: el instante de evaporación completa. Aparece la Luz Clara primordial —la naturaleza del campo sin horizonte, el vacío visto desde dentro. Para quien la reconoce como su propia naturaleza, hay liberación directa. Para la mayoría, la mente habitual no reconoce lo que ve y se desmaya ante la inmensidad.
 
-- **Chönyid**: el scrambling en curso —correlaciones del horizonte disuelto todavía semi-coherentes, antes de redistribuirse completamente. Visiones de deidades pacíficas y airadas —que pueden leerse como modos del campo cuántico que portan fragmentos de la información del horizonte, todavía reconosibles antes de que el scrambling se complete.
+- **Chönyid**: el scrambling en curso —correlaciones del horizonte disuelto todavía semi-coherentes, antes de redistribuirse completamente. Visiones de deidades pacíficas y airadas —que pueden leerse como modos del campo cuántico que portan fragmentos de la información del horizonte, todavía reconocibles antes de que el scrambling se complete.
 
 - **Sidpa**: el scrambling completo —información distribuida en el campo, buscando condiciones para recondensar. La atracción kármica —resonancia del patrón de tendencias con condiciones compatibles— es la imagen contemplativa de lo que la física llama las condiciones para una nueva transición de fase.
 

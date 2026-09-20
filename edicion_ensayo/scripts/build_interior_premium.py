@@ -378,10 +378,20 @@ def build_styles() -> dict:
     return styles
 
 
+# rightIndent reserves room for the page number (+ dot leader) within the
+# Paragraph's own wrap width. TableOfContents draws the number/dots via an
+# onDraw callback positioned from the frame's right edge, independent of
+# the Paragraph's wrapping -- without a matching rightIndent here, a title
+# just long enough to fill the line leaves the number jammed against the
+# last word with no dots and no gap. Keep this in sync with the
+# rightColumnWidth passed to TableOfContents() below.
+TOC_RIGHT_COLUMN = 36
+
 TOC_LEVEL0 = ParagraphStyle("TOCPart", fontName=BD, fontSize=9.2, leading=13,
-                             textColor=AMBER, spaceBefore=12, spaceAfter=3)
+                             textColor=AMBER, spaceBefore=12, spaceAfter=3,
+                             rightIndent=TOC_RIGHT_COLUMN)
 TOC_LEVEL1 = ParagraphStyle("TOCChapter", fontName=R, fontSize=10.2, leading=15.4,
-                             textColor=INK, leftIndent=14)
+                             textColor=INK, leftIndent=14, rightIndent=TOC_RIGHT_COLUMN)
 
 
 # ------------------------------------------------------------ doc template
@@ -526,6 +536,7 @@ def toc_page(story: list) -> None:
     toc = TableOfContents()
     toc.levelStyles = [TOC_LEVEL0, TOC_LEVEL1]
     toc.dotsMinLevel = 1
+    toc.rightColumnWidth = TOC_RIGHT_COLUMN
     story.append(toc)
 
 
@@ -621,9 +632,13 @@ def _patch_glyph_fallback() -> None:
         return _wrap_missing_glyphs_plain(orig_escape_xml(text))
 
     def inline_with_fallback(text: str) -> str:
+        # Keep in sync with generate_book_pdf.inline_markdown_to_markup --
+        # duplicated rather than called through the module global, per the
+        # docstring above.
         markup = orig_escape_xml(text)
         markup = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", markup)
         markup = re.sub(r"\*(.+?)\*", r"<i>\1</i>", markup)
+        markup = re.sub(r"`([^`]+?)`", r"<i>\1</i>", markup)
         return _wrap_missing_glyphs_tagged(markup)
 
     gbp.escape_xml = escape_xml_with_fallback

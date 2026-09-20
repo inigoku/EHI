@@ -166,7 +166,7 @@ Hay un estado que algunas tradiciones contemplativas describen y que merece menc
 > **En física esto se llama:** estado de máxima integración con mínimo input.  
 > **En la vida diaria es como:** un lago perfectamente quieto en medio de la noche: no hay olas, pero el agua sigue siendo agua, y refleja todas las estrellas.
 
-El libro de los muertos tibetano —el Bardo Thodol— describe el período entre la muerte y el renisimiento como una secuencia de estados con una fenomenología precisa. Lo notable no es si esta descripción es literalmente cierta sino que predice con sorprendente exactitud la fenomenología de las experiencias cercanas a la muerte documentadas médicamente siglos después. El destello gamma de Borjigin y la Luz Clara del Bardo Thodol podrían ser, descritos con vocabularios distintos, el mismo fenómeno.
+El libro de los muertos tibetano —el Bardo Thodol— describe el período entre la muerte y el renacimiento como una secuencia de estados con una fenomenología precisa. Lo notable no es si esta descripción es literalmente cierta sino que predice con sorprendente exactitud la fenomenología de las experiencias cercanas a la muerte documentadas médicamente siglos después. El destello gamma de Borjigin y la Luz Clara del Bardo Thodol podrían ser, descritos con vocabularios distintos, el mismo fenómeno.
 
 > **En física esto se llama:** convergencia fenomenológica entre cartografía contemplativa y neurociencia.  
 > **En la vida diaria es como:** dos exploradores que dibujan el mismo territorio sin haberse conocido: los mapas no coinciden en los nombres, pero sí en la forma de la costa.

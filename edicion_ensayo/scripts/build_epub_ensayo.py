@@ -44,7 +44,27 @@ def inline_markup(text: str) -> str:
     text = esc(text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"\*(.+?)\*", r"<em>\1</em>", text)
+    text = re.sub(r"`([^`]+?)`", r"<code>\1</code>", text)
     return text
+
+
+SIMULATION_HEADING_RE = re.compile(r"^## \[SIMULACI[ÓO]N[^\]]*\]\s*$", re.MULTILINE)
+SIMULATION_HEADING_EN_RE = re.compile(r"^## \[SIMULATION[^\]]*\]\s*$", re.MULTILINE)
+SIDEBOX_RE = re.compile(r"\[CAJA LATERAL:\s*([^\]]+)\]")
+SIDEBOX_EN_RE = re.compile(r"\[SIDEBOX:\s*([^\]]+)\]")
+
+
+def strip_web_only_markers(body: str) -> str:
+    """Same web-only markers generate_book_pdf.markdown_to_flowables
+    handles -- a simulation heading with no static equivalent becomes a
+    short note, and a sidebar's bracketed label becomes a plain caption."""
+    body = SIMULATION_HEADING_RE.sub(
+        "*(Simulación interactiva disponible en la edición web.)*", body)
+    body = SIMULATION_HEADING_EN_RE.sub(
+        "*(Interactive simulation available in the web edition.)*", body)
+    body = SIDEBOX_RE.sub(r"\1", body)
+    body = SIDEBOX_EN_RE.sub(r"\1", body)
+    return body
 
 
 def is_url(s: str) -> bool:
@@ -81,6 +101,7 @@ class ImageRegistry:
 
 
 def markdown_to_xhtml(body: str, illustrations: dict, images: ImageRegistry) -> str:
+    body = strip_web_only_markers(body)
     lines = body.split("\n")
     out: list[str] = []
     i = 0
@@ -230,6 +251,7 @@ table.cmp th, table.cmp td { border: 1px solid #ccc; padding: 0.3em 0.5em; text-
                               vertical-align: top; }
 table.cmp th { background: #f0ece0; }
 hr { border: none; border-top: 1px solid #bbb; margin: 1.5em 0; }
+code { font-family: "Courier New", monospace; font-size: 0.92em; }
 nav#toc ol { list-style: none; padding-left: 0; }
 nav#toc li { margin: 0.3em 0; }
 """
