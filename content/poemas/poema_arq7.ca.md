@@ -12,7 +12,7 @@ Perdona'm.
   Havia de dir-te la veritat:
 la informació persisteix en mi,
  com el nom d'un carrer
-que ja ningú pronuncia,
+que ja ningú no pronuncia,
  però que jo camino en somnis cada nit.
 
 Vaig aprendre a esperar

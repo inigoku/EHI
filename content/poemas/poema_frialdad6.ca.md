@@ -2,7 +2,7 @@
 title: V. MONTSE XXI
 section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Montse XXI
-illustrationDescription: Una finestra embruïda amb una línia descendent traçada amb un dit a la condensació.
+illustrationDescription: Una finestra entelada amb una línia descendent traçada amb un dit a la condensació.
 ---
 
 L'habitació mira cap a un hivern que no acaba d'arribar.

@@ -10,7 +10,7 @@ Puc mesurar l'ombra creuant el pati,
 el silenci exacte que deixa un ocell
   quan ja se n'ha anat.
 
-Cap d'aquestes unitats es converteix en l'altra.
+Cap d'aquestes unitats no es converteix en l'altra.
 Cap no cap en l'esfera d'un rellotge.
 
 El rellotge no menteix: compta el mateix

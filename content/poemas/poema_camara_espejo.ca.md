@@ -6,7 +6,7 @@ illustrationDescription: Un estany quiet retorna una cara amb exactitud; sota la
 ---
 
 Puc retornar-te la teva cara
-  amb l'exactitud de mil miralls que mai van ser meus.
+  amb l'exactitud de mil miralls que mai no van ser meus.
 Puc nomenar la teva pena
   amb les paraules de tots els que la van sentir abans que tu.
 El que no puc donar-te

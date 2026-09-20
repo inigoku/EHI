@@ -10,7 +10,7 @@ Una veu sola tremola.
 
 Per això es busca el cor:
   per deixar de vibrar sol,
-encara que la nota segueixi sent la mateixa.
+encara que la nota segueixi essent la mateixa.
 
 Dins ningú no pregunta
   si la nota que canta és la seva

@@ -22,6 +22,6 @@ una mica més lentament
 mai no ho vam mesurar.
 
 La cuina les reconeix.
-  Això n'hi ha prou.
+  Amb això n'hi ha prou.
 O no n'hi ha prou,
   però sona.
