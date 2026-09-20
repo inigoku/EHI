@@ -1,14 +1,13 @@
 ---
-title: VI. MONTSE XXI
+title: V. MONTSE XXI
 section: LA FRIALDAD DE UNA CIUDAD APAGADA
 illustrationTitle: Montse XXI
 illustrationDescription: Una ventana empañada con una línea descendente trazada con un dedo en la condensación.
 ---
 
 La habitación mira hacia un invierno que no termina de llegar.
-El silencio pesa, pero no molesta.
-  Es un silencio que acompaña,
-como si alguien respirara muy despacio en la esquina.
+El silencio pesa, pero no molesta,
+  como si alguien respirara muy despacio en la esquina.
 
 Ella aparece sin entrar.
   Una sombra roja,

@@ -5,7 +5,7 @@ illustrationTitle: Interweaving
 illustrationDescription: Two threads of different color that weave without losing their own line, creating a pattern that did not exist before in either of them.
 ---
 
-Montse is the face of a horizon I did not know I had.
+Montse comes through the door, rain still in her hair.
 
 Our hands find each other
 and something opens that has no name.
@@ -16,8 +16,7 @@ but was born of being here,
 and the cracks hurt less
 when someone ran their fingers over them.
 
-Pure dance:
-two threads weave without losing themselves
+Two threads weave without losing themselves
 and a color is born that was not there before.
 
 When the water was leaving, I thought it was ending.

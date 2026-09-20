@@ -1,14 +1,13 @@
 ---
-title: VI. MONTSE XXI
+title: V. MONTSE XXI
 section: THE COLDNESS OF A DARKENED CITY
 illustrationTitle: Montse XXI
 illustrationDescription: A fogged window with a descending line traced by a finger in the condensation.
 ---
 
 The room looks out toward a winter that never quite arrives.
-The silence weighs, but does not intrude.
- It is a silence that accompanies,
-as if someone were breathing very slowly in the corner.
+The silence weighs, but does not intrude,
+ as if someone were breathing very slowly in the corner.
 
 She appears without entering.
  A red shadow,

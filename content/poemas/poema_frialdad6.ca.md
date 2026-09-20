@@ -1,14 +1,13 @@
 ---
-title: VI. MONTSE XXI
+title: V. MONTSE XXI
 section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Montse XXI
 illustrationDescription: Una finestra embruïda amb una línia descendent traçada amb un dit a la condensació.
 ---
 
 L'habitació mira cap a un hivern que no acaba d'arribar.
-El silenci pesa, però no molesta.
-  És un silenci que acompanya,
-com si algú respirés molt lentament a la cantonada.
+El silenci pesa, però no molesta,
+  com si algú respirés molt lentament a la cantonada.
 
 Ella apareix sense entrar.
   Una ombra roja,

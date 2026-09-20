@@ -14,7 +14,7 @@ I do not know when I stored them.
 The body gathers without warning:
 a rhythm of sleeping breath,
 the precise force of a drawer,
-the warm hollow of the sofa.
+the taut hollow of the sofa.
 
 Now I sing them,
 at the hour she used to cook,

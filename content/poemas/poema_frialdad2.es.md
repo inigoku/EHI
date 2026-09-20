@@ -1,5 +1,5 @@
 ---
-title: II. CANTO DE MUERTE
+title: VI. CANTO DE MUERTE
 section: LA FRIALDAD DE UNA CIUDAD APAGADA
 illustrationTitle: Canto de Muerte
 illustrationDescription: Una silla vacía cuya sombra se proyecta enorme, bajo una iluminación dramática que evoca la ausencia absoluta.

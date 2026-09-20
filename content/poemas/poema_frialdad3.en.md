@@ -1,5 +1,5 @@
 ---
-title: III. LAMENT OF THE RETURN
+title: I. LAMENT OF THE RETURN
 section: THE COLDNESS OF A DARKENED CITY
 illustrationTitle: Lament of the Return
 illustrationDescription: A twisted iron key on a worn wooden table with a perfect circular shadow.

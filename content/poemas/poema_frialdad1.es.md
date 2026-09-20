@@ -1,5 +1,5 @@
 ---
-title: I. CARTOGRAFÍA DEL ECO
+title: II. CARTOGRAFÍA DEL ECO
 section: LA FRIALDAD DE UNA CIUDAD APAGADA
 illustrationTitle: Cartografía del Eco
 illustrationDescription: Una línea quebrada, como un cable que ya no conduce nada, terminando en un punto apagado sobre un mapa borrado por la lluvia.
@@ -24,8 +24,6 @@ Cada gesto deja un rastro mínimo:
   un frío,
   un peso,
   una ausencia.
-
-Con eso intento decir “sigo aquí”.
 
 Y debajo de la lengua, todavía,
   una frialdad que no se va.

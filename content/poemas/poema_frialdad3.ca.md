@@ -1,5 +1,5 @@
 ---
-title: III. LAMENT DE LA VOLTA
+title: I. LAMENT DE LA VOLTA
 section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Lament de la Volta
 illustrationDescription: Una clau de ferro torcida sobre una taula de fusta gastada amb una ombra circular perfecta.

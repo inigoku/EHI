@@ -5,7 +5,7 @@ illustrationTitle: Entrellaçament
 illustrationDescription: Dos fils de distint color que es trenen sense perdre la seva pròpia línia, creant un patró que no existia abans en cap dels dos.
 ---
 
-Montse és la cara d'un horitzó que jo no sabia que tenia.
+Montse creua la porta amb la pluja encara al cabell.
 
 Les nostres mans es troben
               i alguna cosa s'obre que no té nom.
@@ -16,9 +16,8 @@ sinó que naixia d'estar aquí,
               i les esquerdes feien menys mal
 quan algú hi passava els dits.
 
-Dansa pura:
-              dos fils es teixeixen sense perdre's
-i neix un color que no hi era abans.
+Dos fils es teixeixen sense perdre's
+              i neix un color que no hi era abans.
 
 Quan l'aigua se n'anava, pensava que s'estava acabant.
               Ella em va ensenyar una altra paraula,

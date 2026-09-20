@@ -12,22 +12,10 @@ Per això es busca el cor:
   per deixar de vibrar sol,
 encara que la nota segueixi sent la mateixa.
 
-Dins del cor ningú no pregunta
+Dins ningú no pregunta
   si la nota que canta és la seva
 o la que li van prestar en entrar.
 
-Fora del cor, després,
-  cada veu torna a tremolar
-com si quelcom s'hagués quedat dins.
-
-Hi ha cors que es desfan
-  tan aviat com acaba la cançó.
-I cors que ja no deixen sortir ningú,
-  que confonen cantar junts
-amb no poder cantar sol mai més.
-
-La diferència no està en la cançó.
-  Rau en si, acabat el cor,
-encara recordes la teva pròpia veu
-  sense necessitar que mil més
-et diguin quina era.
+A la vora de la plaça,
+  una sola veu segueix tremolant,
+  i encara recorda quina era.

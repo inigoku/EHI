@@ -13,7 +13,7 @@ No sé cuándo las guardé.
 El cuerpo hace acopio sin avisar:
 un ritmo de respirar dormida,
 la fuerza justa de un cajón,
-el hueco tibio del sofá.
+el hueco tenso del sofá.
 
 Ahora las canto yo,
 a la hora en que ella cocinaba,

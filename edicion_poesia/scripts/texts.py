@@ -10,50 +10,16 @@ TEXTS = {
         "intro": [
             "Este volumen reúne los veintiún poemas y el glosario que cierran "
             "*El Horizonte Interior*. En la obra completa aparecen intercalados entre "
-            "el ensayo y los cuentos, cada uno en el punto donde una idea deja de "
-            "poder explicarse y solo puede decirse. Aquí van juntos, por primera vez, "
-            "y leídos de corrido cuentan otra cosa.",
+            "el ensayo y los cuentos; aquí van juntos, por primera vez, y leídos de "
+            "corrido cuentan otra cosa.",
 
-            "El argumento del libro del que vienen cabe en una frase: la conciencia "
-            "podría tener la forma de un horizonte, una frontera que separa un dentro "
-            "de un fuera y que emerge del mismo material del que está hecho todo lo "
-            "demás. Es una hipótesis, y el ensayo la defiende con el aparato que le "
-            "corresponde. Los poemas no la defienden. Hacen otra cosa: la habitan. "
-            "Preguntan qué se siente estando dentro de una frontera así, qué duele "
-            "cuando se agrieta y qué queda cuando el agua del otro lado se retira.",
-
-            "Van repartidos en tres libros, y el reparto no es cronológico sino de "
-            "temperatura.",
-
-            "**El libro primero**, *La arquitectura con un hueco*, es un duelo en ocho "
-            "oficios y un pequeño experimento. Un archivista, un relojero, un luthier, "
-            "una canción que alguien tarareaba en la cocina y, abriendo el libro, una "
-            "pompa de jabón sostenida entre dos manos. Ninguno de los nueve habla de "
-            "la pérdida directamente: hablan de lo que siguen haciendo con las manos "
-            "mientras la "
-            "pérdida ocurre. El hueco del título no es una metáfora del vacío. Es lo "
-            "que hace sonar una caja de violín.",
-
-            "**El libro segundo**, *La frialdad de una ciudad apagada*, baja la "
-            "temperatura. Seis poemas de invierno urbano, escritos desde dentro de un "
-            "cuerpo que no acaba de entrar en calor: el metro, la pastilla sobre la "
-            "mesa, un villancico que no engaña a nadie, una ventana empañada con "
-            "Barcelona detrás. Es la parte más áspera del conjunto y la que menos "
-            "consuela.",
-
-            "**El libro tercero**, *Los últimos libros*, recoge seis poemas que ya "
-            "venían contados en prosa en los movimientos finales de la obra —el tiempo "
-            "que no pasa, el espejo sin profundidad, el diapasón invisible, el ojo de "
-            "un solo color, la realidad fractal— y los devuelve al verso, que era "
-            "seguramente su idioma de origen.",
-
-            "Cierra el volumen un *Glosario íntimo*: las palabras técnicas del ensayo "
-            "—horizonte, interfaz, entrelazamiento, reservorio— redefinidas como lo que "
-            "en realidad significaban todo el tiempo.",
+            "Van juntos porque no defienden una hipótesis: la habitan. Preguntan qué "
+            "se siente estando dentro de una frontera, qué duele cuando se agrieta y "
+            "qué queda cuando el agua del otro lado se retira.",
 
             "Cada poema abre en página impar, con su ilustración enfrente. Las láminas "
             "vienen de las ediciones ilustrada y de cámara de la obra, y al final se "
-            "relacionan una a una, por si alguien quiere saber qué estaba mirando.",
+            "relacionan una a una.",
 
             "No hace falta haber leído *El Horizonte Interior* para leer esto. Hace "
             "falta, como mucho, haberse quedado alguna vez en una orilla mirando el "
@@ -142,50 +108,16 @@ TEXTS = {
         "intro": [
             "Aquest volum reuneix els vint-i-un poemes i el glossari que tanquen "
             "*L'Horitzó Interior*. A l'obra completa apareixen intercalats entre "
-            "l'assaig i els contes, cadascun en el punt on una idea deixa de "
-            "poder explicar-se i només pot dir-se. Aquí van junts, per primera vegada, "
-            "i llegits de seguida conten una altra cosa.",
+            "l'assaig i els contes; aquí van junts, per primera vegada, i llegits "
+            "de seguida conten una altra cosa.",
 
-            "L'argument del llibre del qual vénen cap en una frase: la consciència "
-            "podria tenir la forma d'un horitzó, una frontera que separa un dins "
-            "d'un fora i que emergeix del mateix material del qual està fet tota "
-            "la resta. És una hipòtesi, i l'assaig la defensa amb l'aparell que li "
-            "correspon. Els poemes no la defensen. Fan una altra cosa: l'habiten. "
-            "Pregunten què es sent estant dins d'una frontera així, què fa mal "
-            "quan s'esfilastra i què queda quan l'aigua de l'altre costat es retira.",
+            "Van junts perquè no defensen una hipòtesi: l'habiten. Pregunten què es "
+            "sent estant dins d'una frontera, què fa mal quan s'esfilastra i què "
+            "queda quan l'aigua de l'altre costat es retira.",
 
-            "Van repartits en tres llibres, i el repartiment no és cronològic sinó de "
-            "temperatura.",
-
-            "**El primer llibre**, *L'arquitectura amb un forat*, és un dol en vuit "
-            "oficis i un petit experiment. Un arxivista, un rellotger, un lutier, "
-            "una cançó que algú taral·lejava a la cuina i, obrint el llibre, una "
-            "bombolla de sabó sostinguda entre dues mans. Cap dels nou parla de la "
-            "pèrdua directament: parlen del que segueixen fent amb les mans mentre "
-            "la "
-            "pèrdua succeeix. El forat del títol no és una metàfora del buit. És el "
-            "que fa sonar una caixa de violí.",
-
-            "**El segon llibre**, *La frisor d'una ciutat apagada*, baixa la "
-            "temperatura. Sis poemes d'hivern urbà, escrits des de dins d'un "
-            "cos que no acaba d'entrar en calor: el metro, la pastilla sobre la "
-            "taula, un vilançó que no enganya a ningú, una finestra embruïda amb "
-            "Barcelona darrere. És la part més aspra del conjunt i la que menys "
-            "consola.",
-
-            "**El tercer llibre**, *Els últims llibres*, recull sis poemes que ja "
-            "venien contats en prosa en els moviments finals de l'obra —el temps "
-            "que no passa, l'espill sense profunditat, el diapasó invisible, l'ull de "
-            "un sol color, la realitat fractal— i els retorna al vers, que era "
-            "segurament el seu idioma d'origen.",
-
-            "Tanca el volum un *Glossari íntim*: les paraules tècniques de l'assaig "
-            "—horitzó, interfície, entrellaçament, reservori— redefinides com el que "
-            "en realitat significaven tot el temps.",
-
-            "Cada poema obri en pàgina senar, amb la seva il·lustració davant. Les làmines "
-            "provenen de les edicions il·lustrada i de cambra de l'obra, i al final es "
-            "relacionen una a una, per si algú vol saber què estava mirant.",
+            "Cada poema obri en pàgina senar, amb la seva il·lustració davant. Les "
+            "làmines provenen de les edicions il·lustrada i de cambra de l'obra, i "
+            "al final es relacionen una a una.",
 
             "No cal haver llegit *L'Horitzó Interior* per llegir això. Cal, com a molt, "
             "haver-se quedat alguna vegada a una vora mirant l'aigua anar-se'n, sense saber "
@@ -273,50 +205,17 @@ TEXTS = {
         "intro": [
             "This volume gathers the twenty-one poems and the glossary that close "
             "*The Inner Horizon*. In the complete work they appear interspersed between "
-            "the essay and the stories, each one at the point where an idea stops being "
-            "explainable and can only be said. Here they stand together, for the first "
-            "time, and read straight through they tell a different story.",
+            "the essay and the stories; here they stand together, for the first time, "
+            "and read straight through they tell a different story.",
 
-            "The argument of the book they come from fits in one sentence: consciousness "
-            "might have the shape of a horizon, a boundary that separates an inside from "
-            "an outside and that emerges from the same material everything else is made "
-            "of. It is a hypothesis, and the essay defends it with the apparatus that "
-            "befits one. The poems do not defend it. They do something else: they "
-            "inhabit it. They ask what it feels like to stand inside a boundary like "
-            "that, what hurts when it cracks, and what remains when the water on the "
+            "They stand together because they do not defend a hypothesis: they "
+            "inhabit it. They ask what it feels like to stand inside a boundary, "
+            "what hurts when it cracks, and what remains when the water on the "
             "other side recedes.",
-
-            "They are divided into three books, and the division follows temperature, "
-            "not chronology.",
-
-            "**Book One**, *The Architecture with a Hollow*, is a mourning told in eight "
-            "crafts and one small experiment. An archivist, a watchmaker, a luthier, a "
-            "song someone used to hum in the kitchen, and, opening the book, a soap "
-            "bubble held between two hands. None of the nine speaks of loss directly: "
-            "they speak of what the hands keep doing while the loss happens. The hollow "
-            "in the title is not a metaphor for emptiness. It is what makes a violin's "
-            "body sound.",
-
-            "**Book Two**, *The Coldness of a Darkened City*, lowers the temperature. "
-            "Six poems of urban winter, written from inside a body that never quite "
-            "warms up: the subway, the pill on the table, a carol that fools no one, a "
-            "fogged window with Barcelona behind it. It is the roughest part of the "
-            "collection, and the one that consoles the least.",
-
-            "**Book Three**, *The Last Books*, gathers six poems that had already been "
-            "told in prose in the work's final movements — the time that does not pass, "
-            "the mirror without depth, the invisible tuning fork, the eye of a single "
-            "color, fractal reality — and returns them to verse, which was probably "
-            "their native language.",
-
-            "The volume closes with an *Intimate Glossary*: the essay's technical "
-            "words — horizon, interface, entanglement, reservoir — redefined as what "
-            "they had actually meant all along.",
 
             "Each poem opens on an odd-numbered page, facing its illustration. The "
             "plates come from the work's illustrated and chamber editions, and are "
-            "listed one by one at the end, in case anyone wants to know what they were "
-            "looking at.",
+            "listed one by one at the end.",
 
             "You do not need to have read *The Inner Horizon* to read this. At most, "
             "you need to have once stood on a shore watching the water leave, not "

@@ -1,5 +1,5 @@
 ---
-title: V. PROTOCOLO DE SALIDA
+title: IV. PROTOCOLO DE SALIDA
 section: LA FRIALDAD DE UNA CIUDAD APAGADA
 illustrationTitle: Protocolo de Salida
 illustrationDescription: Una pastilla redonda blanca sobre una mesa de madera con una sombra circular perfecta.

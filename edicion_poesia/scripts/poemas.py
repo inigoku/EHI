@@ -165,8 +165,8 @@ BOOK_DEFS_ES = [
         "La frialdad de una ciudad apagada",
         "Un invierno que no termina de llegar y, aun así, hace frío: "
         "seis estaciones del cuerpo en una ciudad que no responde.",
-        ["poema_frialdad1", "poema_frialdad2", "poema_frialdad3",
-         "poema_frialdad4", "poema_frialdad5", "poema_frialdad6"],
+        ["poema_frialdad3", "poema_frialdad1", "poema_frialdad4",
+         "poema_frialdad5", "poema_frialdad6", "poema_frialdad2"],
     ),
     (
         "libro3",
@@ -196,8 +196,8 @@ BOOK_DEFS_CA = [
         "La frisor d'una ciutat apagada",
         "Un hivern que no acaba d'arribar i, tot i així, fa fred: "
         "sis estacions del cos en una ciutat que no respon.",
-        ["poema_frialdad1", "poema_frialdad2", "poema_frialdad3",
-         "poema_frialdad4", "poema_frialdad5", "poema_frialdad6"],
+        ["poema_frialdad3", "poema_frialdad1", "poema_frialdad4",
+         "poema_frialdad5", "poema_frialdad6", "poema_frialdad2"],
     ),
     (
         "libro3",
@@ -227,8 +227,8 @@ BOOK_DEFS_EN = [
         "The Coldness of a Darkened City",
         "A winter that never quite arrives and, even so, it's cold: "
         "six seasons of the body in a city that does not respond.",
-        ["poema_frialdad1", "poema_frialdad2", "poema_frialdad3",
-         "poema_frialdad4", "poema_frialdad5", "poema_frialdad6"],
+        ["poema_frialdad3", "poema_frialdad1", "poema_frialdad4",
+         "poema_frialdad5", "poema_frialdad6", "poema_frialdad2"],
     ),
     (
         "libro3",

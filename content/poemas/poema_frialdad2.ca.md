@@ -1,5 +1,5 @@
 ---
-title: II. CANT DE MORT
+title: VI. CANT DE MORT
 section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Cant de Mort
 illustrationDescription: Una cadira buida, la seva ombra es projecta enorme, sota una il·luminació dramàtica que evoca l'absència absoluta.

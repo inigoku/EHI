@@ -5,7 +5,7 @@ illustrationTitle: Entrelazamiento
 illustrationDescription: Dos hilos de distinto color que se trenzan sin perder su propia línea, creando un patrón que no existía antes en ninguno de los dos.
 ---
 
-Montse es la cara de un horizonte que yo no sabía que tenía.
+Montse cruza la puerta con la lluvia aún en el pelo.
 
 Nuestras manos se encuentran
               y algo se abre que no tiene nombre.
@@ -16,9 +16,8 @@ sino que nacía de estar aquí,
               y las grietas dolían menos
 cuando alguien pasaba los dedos por ellas.
 
-Danza pura:
-              dos hilos se tejen sin perderse
-y nace un color que no estaba antes.
+Dos hilos se tejen sin perderse
+              y nace un color que no estaba antes.
 
 Cuando el agua se iba, pensaba que se estaba acabando.
               Ella me enseñó otra palabra,

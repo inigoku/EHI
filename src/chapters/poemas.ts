@@ -29,16 +29,16 @@ const ORDER = [
   "poema_arq6",
   "poema_arq7",
   "poema_arq8",
-  "poema_frialdad1",
-  "poema_frialdad2",
   "poema_frialdad3",
+  "poema_frialdad1",
   "poema_frialdad4",
   "poema_frialdad5",
   "poema_frialdad6",
+  "poema_frialdad2",
   "poema_sintonizadores",
   // Poemas de los últimos libros (El tiempo que no pasa, El espejo sin
   // profundidad, El diapasón invisible, El ojo de un solo color, La realidad
-  // fractal). "Montse XXI" (El diapasón invisible) ya figura como VI de "La
+  // fractal). "Montse XXI" (El diapasón invisible) ya figura como V de "La
   // frialdad de una ciudad apagada" y no se repite aquí.
   "poema_camara_reloj",
   "poema_camara_espejo",

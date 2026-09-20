@@ -1,5 +1,5 @@
 ---
-title: I. CARTOGRAFIA DE L'ECO
+title: II. CARTOGRAFIA DE L'ECO
 section: LA FRISOR D'UNA CIUTAT APAGADA
 illustrationTitle: Cartografia de l'eco
 illustrationDescription: Una línia trencada, com un cable que ja no condueix res, terminant en un punt apagat sobre un mapa esborrat per la pluja.
@@ -24,8 +24,6 @@ Cada gest deixa un rastre mínim:
   un fred,
   un pes,
   una absència.
-
-Amb això intento dir "encara estic aquí".
 
 I sota la llengua, encara,
   una fredor que no se'n va.
