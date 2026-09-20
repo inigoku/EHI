@@ -98,6 +98,9 @@ TEXTS = {
             f"<p>ISBN: 9798175383530</p>"
         ),
         "dedication": "A quien se quedó en la orilla<br/>cuando el agua se retiró.",
+        "cover_page_title": "Cubierta",
+        "title_page_title": "Portada",
+        "dedication_page_title": "Dedicatoria",
         "colophon_title": "Colofón",
         "toc_title": "Índice",
         "first_line_index_title": "Índice de primeros versos",
@@ -227,6 +230,9 @@ TEXTS = {
             f"<p>ISBN: 9798175383530</p>"
         ),
         "dedication": "A qui es va quedar a la vora<br/>quan l'aigua es va retirar.",
+        "cover_page_title": "Coberta",
+        "title_page_title": "Portada",
+        "dedication_page_title": "Dedicatòria",
         "colophon_title": "Colofó",
         "toc_title": "Índex",
         "first_line_index_title": "Índex de primers versos",
@@ -355,6 +361,9 @@ TEXTS = {
             f"<p>ISBN: [pending assignment]</p>"
         ),
         "dedication": "To whoever stayed on the shore<br/>when the water withdrew.",
+        "cover_page_title": "Cover",
+        "title_page_title": "Title Page",
+        "dedication_page_title": "Dedication",
         "colophon_title": "Colophon",
         "toc_title": "Contents",
         "first_line_index_title": "Index of First Lines",

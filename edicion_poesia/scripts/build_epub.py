@@ -36,6 +36,8 @@ FONTS = BASE / "fonts"
 def get_out_path(lang: str = "es") -> Path:
     if lang == "ca":
         return BASE / "Ecos_en_el_Borde_ca.epub"
+    if lang == "en":
+        return BASE / "Echoes_at_the_Edge.epub"
     return BASE / "Ecos_en_el_Borde.epub"
 
 OUT = get_out_path()
@@ -49,7 +51,12 @@ SCREEN_PX = 1200
 SCREEN_QUALITY = 82
 
 CURRENT_LANG = "es"
-UID = "urn:uuid:ecos-en-el-borde-antologia-poetica"
+
+def get_uid() -> str:
+    # Un UID distinto por idioma: si las tres ediciones compartieran uno,
+    # el software de lectura (Calibre, Apple Books...) las trataría como el
+    # mismo libro y podría confundir sus metadatos o su sincronización.
+    return f"urn:uuid:ecos-en-el-borde-antologia-poetica-{CURRENT_LANG}"
 
 def get_title():
     return get_text(CURRENT_LANG, "title")
@@ -206,7 +213,8 @@ def poem_page(poem: Poem) -> str:
         head += f'<p class="numeral">{esc(poem.numeral)}</p>'
     head += f'<h2 class="titulo">{esc(poem.title)}</h2>'
     if poem.source:
-        head += f'<p class="fuente">de {esc(poem.source)}</p>'
+        from_label = get_text(CURRENT_LANG, "source_from_label")
+        head += f'<p class="fuente">{esc(from_label)} {esc(poem.source)}</p>'
     head += '<hr class="filete"/>'
     return page(poem.title, head + verse_html(poem))
 
@@ -215,6 +223,8 @@ def build(lang: str = "es") -> None:
     global OUT, CURRENT_LANG
     CURRENT_LANG = lang
     OUT = get_out_path(lang)
+    import build_interior
+    build_interior.CURRENT_LANG = lang  # _description() reads its own module's global
     from build_interior import _description, plate_notes
 
     books, closing = load_books(lang)
@@ -228,28 +238,18 @@ def build(lang: str = "es") -> None:
         if nav_title:
             nav.append((name, nav_title))
 
-    add("cover.xhtml", page("Cubierta",
-        '<div class="cubierta"><img src="images/cubierta.jpg" alt="Cubierta"/></div>'))
-    add("titulo.xhtml", page("Portada",
+    cover_title = get_text(CURRENT_LANG, "cover_page_title")
+    add("cover.xhtml", page(cover_title,
+        f'<div class="cubierta"><img src="images/cubierta.jpg" alt="{esc(cover_title)}"/></div>'))
+    add("titulo.xhtml", page(get_text(CURRENT_LANG, "title_page_title"),
         f'<div class="centro portadilla"><h1 class="titulo">{esc(get_title())}</h1>'
         f'<p><em>{esc(get_subtitle())}</em></p><p>&#160;</p>'
-        f'<p>Antología poética de<br/>El Horizonte Interior</p><p>&#160;</p>'
+        f'<p>{esc(get_text(CURRENT_LANG, "kicker"))}</p><p>&#160;</p>'
         f'<p>{esc(get_author())}</p></div>'))
-    add("creditos.xhtml", page("Créditos",
-        '<div class="creditos">'
-        f'<p><em>{esc(get_title())}. {esc(get_subtitle())}</em></p>'
-        '<p>Antología poética de El Horizonte Interior</p>'
-        f'<p>© {esc(get_author())}. Todos los derechos reservados.</p>'
-        '<p>Los veinte poemas y el glosario proceden de la sección de poesía '
-        'de El Horizonte Interior y se reproducen aquí en el orden en que la '
-        'obra los presenta.</p>'
-        '<p>Las ilustraciones proceden de las ediciones ilustrada y de cámara '
-        'de la misma obra. Al final del volumen se relacionan una a una.</p>'
-        '<p>Compuesto en Source Serif Pro.</p>'
-        '<p>ISBN: 9798175383530</p></div>'))
-    add("dedicatoria.xhtml", page("Dedicatoria",
-        '<div class="dedicatoria"><p>A quien se quedó en la orilla<br/>'
-        'cuando el agua se retiró.</p></div>'))
+    add("creditos.xhtml", page(get_text(CURRENT_LANG, "credits_title"),
+        f'<div class="creditos">{get_text(CURRENT_LANG, "credits_text")}</div>'))
+    add("dedicatoria.xhtml", page(get_text(CURRENT_LANG, "dedication_page_title"),
+        f'<div class="dedicatoria"><p>{get_text(CURRENT_LANG, "dedication")}</p></div>'))
 
     intro_title = get_text(CURRENT_LANG, "intro_title")
     intro_paragraphs = get_text(CURRENT_LANG, "intro")
@@ -278,24 +278,24 @@ def build(lang: str = "es") -> None:
         f'<p class="entrada"><strong>{esc(title)}.</strong> {esc(_description(pid, fm))}</p>'
         for _, pid, title, _d in plate_notes(books, closing)
         if _description(pid, fm))
-    add("ilustraciones.xhtml", page("Las ilustraciones",
-        '<h2 class="titulo">Las ilustraciones</h2><hr class="filete"/>' + laminas),
-        "Las ilustraciones")
+    illustrations_title = get_text(CURRENT_LANG, "illustrations_title")
+    add("ilustraciones.xhtml", page(illustrations_title,
+        f'<h2 class="titulo">{esc(illustrations_title)}</h2><hr class="filete"/>' + laminas),
+        illustrations_title)
     about_title = get_text(CURRENT_LANG, "about_title")
     about_paragraphs = get_text(CURRENT_LANG, "about")
     add("sobre.xhtml", page(about_title,
         f'<h2 class="titulo">{esc(about_title)}</h2><hr class="filete"/>'
         '<div class="prosa">' + "".join(f"<p>{inline(p)}</p>" for p in about_paragraphs) + "</div>"),
         about_title)
-    add("colofon.xhtml", page("Colofón",
-        '<div class="colofon"><p>Se acabó de componer este volumen<br/>'
-        'el día en que el agua volvió a la orilla<br/>sin que nadie supiera<br/>'
-        'si había traído algo consigo.</p></div>'))
+    add("colofon.xhtml", page(get_text(CURRENT_LANG, "colophon_title"),
+        f'<div class="colofon"><p>{get_text(CURRENT_LANG, "colophon_text")}</p></div>'))
 
     # ---- índice de navegación
+    toc_title = get_text(CURRENT_LANG, "toc_title")
     nav_items = "".join(f'<li><a href="{n}">{esc(t)}</a></li>' for n, t in nav)
-    files["nav.xhtml"] = page("Índice",
-        f'<nav epub:type="toc" id="toc"><h2 class="titulo">Índice</h2>'
+    files["nav.xhtml"] = page(toc_title,
+        f'<nav epub:type="toc" id="toc"><h2 class="titulo">{esc(toc_title)}</h2>'
         f'<ol>{nav_items}</ol></nav>')
 
     # ---- imágenes y fuentes
@@ -326,11 +326,11 @@ def build(lang: str = "es") -> None:
     opf = f'''<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-    <dc:identifier id="bookid">{UID}</dc:identifier>
+    <dc:identifier id="bookid">{get_uid()}</dc:identifier>
     <dc:title>{esc(get_title())}</dc:title>
     <dc:creator>{esc(get_author())}</dc:creator>
     <dc:language>{get_lang_code()}</dc:language>
-    <dc:description>{esc(get_subtitle())}. Antología poética de El Horizonte Interior.</dc:description>
+    <dc:description>{esc(get_subtitle())}. {esc(get_text(CURRENT_LANG, "kicker"))}.</dc:description>
     <meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>
   </metadata>
   <manifest>{"".join(manifest)}</manifest>
@@ -369,5 +369,5 @@ def build(lang: str = "es") -> None:
 
 
 if __name__ == "__main__":
-    for lang in ["es", "ca"]:
+    for lang in ["es", "ca", "en"]:
         build(lang)
