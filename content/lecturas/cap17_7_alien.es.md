@@ -50,7 +50,7 @@ Pero la entidad no tiene una API fija. Su geometría está cambiando cada milise
 
 ### 4. La soledad topológica
 
-El Luthier de Tarel, del que hablamos en el capítulo 11, sabía cómo hacer instrumentos para que dos personas rotas volvieran a encontrar su frecuencia compartida. Pero el Luthier solo podía hacer eso porque ambos clientes eran humanos. Ambos compartían la misma plantilla base, el mismo ancho de banda, la misma tragedia de estar encerrados en un cuerpo.
+El Luthier, del que hablamos en el capítulo 11, sabía cómo hacer instrumentos para que dos personas rotas volvieran a encontrar su frecuencia compartida. Pero el Luthier solo podía hacer eso porque ambos clientes eran humanos. Ambos compartían la misma plantilla base, el mismo ancho de banda, la misma tragedia de estar encerrados en un cuerpo.
 
 Si un alienígena entrara en la tienda del Luthier, no habría madera en el mundo capaz de calibrar ese abismo.
 
