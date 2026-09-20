@@ -1,7 +1,7 @@
 ---
 title: VERTICAL ENTANGLEMENT
 subtitle: (The Invisible Tuning Fork: on faith, prayer and meditation)
-section: PART FOUR: THE LIMIT OF THE EXPERIMENT
+section: PART THREE: THE LIMITS OF THE HORIZON
 ---
 
 There is a word this book reserves for the sustained resonance between two human horizons: entanglement. Two people who have been in contact for years end up coupled, whether they want to or not—love, in this vocabulary, is not the entanglement itself, but the act of recognizing it and naming it. What this chapter asks is what happens when that same mechanism is oriented vertically: not toward another horizon, but toward something beyond one's own boundary, with no channel of continuous confirmation, with no way of verifying at every instant that the correlation is still alive.
@@ -36,7 +36,7 @@ One last question remains, the most uncomfortable of all, and this book has no w
 
 ---
 
-> **Note to Chapter 51**
+> **Note to Chapter 29**
 >
 > **What we do know:** Contemplative practice—prayer, meditation, ritual—is structurally recognizable in every human culture, with or without an explicit religious framework. Contemplative neuroscience documents measurable changes in advanced meditators from very different traditions. Hume's *is-ought gap* remains without a general logical solution almost three centuries after it was formulated.
 >

@@ -1,8 +1,8 @@
 ---
 title: EL ENTRELAZAMIENTO VERTICAL
 subtitle: (El diapasón invisible: sobre la fe, la oración y la meditación)
-section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 51
+section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
+chapterNumber: 29
 linkedCuentosId: cuento_amanezca
 illustrationId: il_diapason
 illustrationTitle: El diapasón invisible
@@ -41,7 +41,7 @@ Queda una última pregunta, la más incómoda de todas, y este libro no tiene ma
 
 ---
 
-> **Nota al Capítulo 51**
+> **Nota al Capítulo 29**
 >
 > **Lo que sí sabemos:** La práctica contemplativa —oración, meditación, ritual— es estructuralmente reconocible en toda cultura humana, con o sin marco religioso explícito. La neurociencia contemplativa documenta cambios medibles en meditadores avanzados de tradiciones muy distintas. El *is-ought gap* de Hume sigue sin solución lógica general casi tres siglos después de formulado.
 >

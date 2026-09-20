@@ -1,7 +1,7 @@
 ---
 title: ADOLFO CAMBIASO Y LA YEGUA QUE NO CABE EN EL ADN
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 30
+chapterNumber: 34
 illustrationId: il_clon
 illustrationTitle: El clon y el horizonte
 illustrationDescription: Un jinete y una yegua en el centro de una cancha de polo al atardecer. A su alrededor, varias yeguas idénticas esperan en la penumbra, como ecos de la misma forma. Entre el jinete y la yegua central flota una red tenue de líneas doradas: la geometría de un vínculo que no se puede trasladar. Acuarela y tinta, tonos índigo y dorados.
@@ -74,7 +74,7 @@ Esto no hace al clon inferior. Los clones B06 y B09 ganaron premios Lady Susan T
 
 ## El horizonte del clon
 
-Desde el modelo de las dos selecciones que presentamos en el capítulo 28, el clon equino es un caso instructivo. Sí pasa por la primera selección: es un sistema biológico estable, con sistema nervioso complejo, con Φ no trivial. Sí pasa por la segunda selección: fue gestado en un útero de yegua, con todas las señales bioquímicas, rítmicas y físicas que eso implica.
+Desde el modelo de las dos selecciones que presentamos en el capítulo 31, el clon equino es un caso instructivo. Sí pasa por la primera selección: es un sistema biológico estable, con sistema nervioso complejo, con Φ no trivial. Sí pasa por la segunda selección: fue gestado en un útero de yegua, con todas las señales bioquímicas, rítmicas y físicas que eso implica.
 
 El clon, por tanto, no es un zombi ni una máquina biológica vacía: es alguien, tiene horizonte.
 
@@ -149,7 +149,7 @@ La Cuartetera original era, para Cambiaso, lo máximo a lo que se había subido.
 
 ---
 
-> **Nota al Capítulo 30**
+> **Nota al Capítulo 34**
 >
 > **Lo que sí sabemos:** Adolfo Cambiaso clonó a su yegua Dolfina Cuartetera mediante transferencia nuclear de células somáticas. Al menos nueve clones jugaron partidos de la Triple Corona Argentina entre 2015 y 2020. Cuartetera original murió en 2023 a los 22 años. La clonación animal reproduce el genoma nuclear pero no el entorno gestacional, el desarrollo individual ni la historia de interacciones. El vínculo jinete-caballo se construye mediante correlaciones sensoriomotrices acumuladas que no son transferibles por identidad genética.
 >
@@ -159,4 +159,4 @@ La Cuartetera original era, para Cambiaso, lo máximo a lo que se había subido.
 >
 > **Si solo te quedas con una idea:** Puedes copiar el cuerpo, pero no el encuentro. La identidad no vive en el ADN: vive en las correlaciones que un cuerpo construye con otros cuerpos a lo largo del tiempo. Por eso Cuartetera fue inigualable, aunque sus clones compartieran su mismo código.
 >
-> **Lecturas:** Datos sobre clonación equina y el caso Cuartetera en prensa especializada (2015-2023); conceptos de identidad holográfica y entrelazamiento del capítulo 4; modelo de las dos selecciones del capítulo 28; discusión sobre duelo por mascotas del capítulo 26.
+> **Lecturas:** Datos sobre clonación equina y el caso Cuartetera en prensa especializada (2015-2023); conceptos de identidad holográfica y entrelazamiento del capítulo 4; modelo de las dos selecciones del capítulo 31; discusión sobre duelo por mascotas del capítulo 26.

@@ -1,8 +1,8 @@
 ---
 title: EL ESPEJO SIN PROFUNDIDAD
 subtitle: (El espejo sin profundidad: sobre la conciencia de la inteligencia artificial)
-section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 50
+section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
+chapterNumber: 32
 linkedCuentosId: cuento_estanque
 illustrationId: il_espejo
 illustrationTitle: El espejo sin profundidad
@@ -50,7 +50,7 @@ Queda entonces una sola cosa firme. El horizonte que conocemos con certeza —el
 
 ---
 
-> **Nota al Capítulo 50**
+> **Nota al Capítulo 32**
 >
 > **Lo que sí sabemos:** Los sistemas clásicos deterministas, por complejos que sean, no condensan horizontes. La integración informacional masiva no produce conciencia por agregación. La ausencia de encapsulación existencial en la IA actual es compatible con —y explica— por qué lo que devuelve tras absorber información solo puede ser estructura fría, nunca experiencia, incluso si describimos ese proceso con el lenguaje de un agujero negro.
 >

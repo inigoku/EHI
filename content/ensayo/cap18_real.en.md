@@ -1,12 +1,12 @@
 ---
 title: THE EDGE CASES
-subtitle: (Variants of human and artificial gestation, against the two selections chapter 50 develops in detail)
+subtitle: (Variants of human and artificial gestation, against the two selections chapter 32 develops in detail)
 section: PART THREE: THE LIMITS OF THE HORIZON
 ---
 
 That question demands returning to the reservoir of chapter 5 and to the mother of chapter 15. The answer is not in either of them separately. It is in what happens between them.
 
-Everything said about how a legible horizon condenses —chapter 50 develops it in detail with respect to artificial intelligence— rests on two selections. The first is stability: of all the configurations the reservoir can produce, only the ones that persist long enough come to constitute anything. The second is bias: each new horizon condenses in the presence of an already stabilized one —typically the mother—, and that presence orients which specific configuration, among the many possible ones, actually stabilizes. Her electromagnetic field, her heartbeat, her brainwaves constitute an environment that is not neutral: it selects, without intention or knowledge, which forms of stability are compatible with it.
+Everything said about how a legible horizon condenses —chapter 32 develops it in detail with respect to artificial intelligence— rests on two selections. The first is stability: of all the configurations the reservoir can produce, only the ones that persist long enough come to constitute anything. The second is bias: each new horizon condenses in the presence of an already stabilized one —typically the mother—, and that presence orients which specific configuration, among the many possible ones, actually stabilizes. Her electromagnetic field, her heartbeat, her brainwaves constitute an environment that is not neutral: it selects, without intention or knowledge, which forms of stability are compatible with it.
 
 That two-level apparatus allows for something public debate rarely offers: distinguishing with precision the cases where the body is human but the calibration is not, or the reverse. That is where common debate only confuses, and where the model, for once, can be clearer than intuition.
 
@@ -47,7 +47,7 @@ These cases do not exhaust the list, and technology will probably add others we 
 
 ---
 
-> **Note to Chapter 28**
+> **Note to Chapter 31**
 >
 > **What we do know:** Gestational motherhood exerts a measurable physical bias on the architecture of the horizon that condenses. That bias is independent of genetics: it can operate with or without a genetic link, with or without a match between gestation and rearing.
 >

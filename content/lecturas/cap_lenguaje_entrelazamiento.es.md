@@ -2,13 +2,13 @@
 title: EL PROTOCOLO Y EL PUENTE
 subtitle: (Una lectura topológica de Proyecto Hail Mary, Embassytown, La mano izquierda de la oscuridad, Hijos del tiempo y Semiosis)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 39
+chapterNumber: 43
 illustrationId: il_protocolo
 illustrationTitle: El protocolo y el puente
 illustrationDescription: Dos horizontes de arquitectura radicalmente distinta —uno orgánico y cálido, otro cristalino y frío— separados por un abismo oscuro. Entre ambos, un puente hecho de símbolos matemáticos y fragmentos de lenguaje que todavía se está construyendo, incompleto en el centro, con las dos figuras trabajando cada una desde su orilla.
 ---
 
-El capítulo sobre el primer contacto extraterrestre (capítulo 32) dejó una conclusión incómoda: que el entrelazamiento —lo que este libro llama amor, empatía, reconocimiento— exige arquitecturas compatibles, y que frente a una arquitectura radicalmente ajena, ningún esfuerzo de buena voluntad basta para abrir el puente. Pero esa conclusión mezclaba, sin distinguirlas, dos cosas distintas.
+El capítulo sobre el primer contacto extraterrestre (capítulo 36) dejó una conclusión incómoda: que el entrelazamiento —lo que este libro llama amor, empatía, reconocimiento— exige arquitecturas compatibles, y que frente a una arquitectura radicalmente ajena, ningún esfuerzo de buena voluntad basta para abrir el puente. Pero esa conclusión mezclaba, sin distinguirlas, dos cosas distintas.
 
 Una es la arquitectura: la topología misma de un horizonte, si tiene Ego, si tiene Sombra, si su Φ es suficiente para sostener un adentro con autoridad propia sobre un afuera. La otra es el protocolo: el código concreto con el que ese horizonte, ya condensado, intenta anunciarse hacia fuera. Una lengua, una sintaxis, un conjunto de señales acordadas de antemano. Aquel capítulo trató ambas cosas como si fueran una sola, y concluyó, con cierta desolación, que la incompatibilidad de una implica la imposibilidad de la otra.
 
@@ -130,7 +130,7 @@ En ninguno de los cinco casos el protocolo es indiferente al entrelazamiento, co
 
 ---
 
-> **Nota al Capítulo 39**
+> **Nota al Capítulo 43**
 >
 > **Lo que sí sabemos:** La independencia de sustrato que este libro defiende desde el capítulo cuatro no impone ninguna restricción sobre qué protocolo de comunicación puede o no construirse entre arquitecturas distintas; el problema de la comunicación entre especies con sistemas sensoriales radicalmente distintos es un problema real y activamente estudiado en biosemiótica y en el campo del SETI (búsqueda de inteligencia extraterrestre), donde se han propuesto sistemas de primer contacto basados en matemáticas y física por las mismas razones que la novela de Weir dramatiza. La psicología social documenta ampliamente que la confianza interpersonal es condición, no consecuencia, de la comunicación de alta fidelidad —el fenómeno narrativo de La mano izquierda de la oscuridad tiene correlato empírico bien establecido en la literatura sobre autorrevelación progresiva. La señalización química entre plantas —compuestos orgánicos volátiles liberados ante herbívoros, redes micorrízicas que conectan raíces de especies distintas— está bien documentada en biología vegetal, aunque sigue debatiéndose si constituye comunicación en sentido fuerte o solo señalización sin intención; las arañas saltadoras del género Portia, con capacidades de planificación predatoria y aprendizaje inusuales para un invertebrado, son objeto de estudio real en cognición animal.
 >
