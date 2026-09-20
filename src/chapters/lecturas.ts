@@ -38,6 +38,9 @@ const ORDER = [
   "cap_lecturas_espejo_lenguaje",
   "cap_lecturas_diapason",
   "cap_lecturas_ojo",
+  // Trasladado desde el ensayo (Cuarta Parte): continúa el diapasón invisible
+  // y cierra la serie con el hueco que dejaba el capítulo 47.
+  "cap_realidad_fractal",
 ];
 
 export const lecturasTopologicas: Chapter[] = ORDER.map((id) => {
