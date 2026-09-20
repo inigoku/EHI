@@ -23,8 +23,8 @@ When the water was leaving, I thought it was ending.
 She taught me another word,
 that after the emptiness something new comes.
 
-My chest has learned a rhythm it did not know,
-the one that sounds when two breaths find each other.
+Now I know when she has fallen asleep:
+the exact moment her breathing changes its rhythm.
 
 I see it every morning at dawn,
 her eyes open while the city still sleeps,

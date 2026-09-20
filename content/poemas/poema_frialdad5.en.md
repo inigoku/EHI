@@ -7,16 +7,12 @@ illustrationDescription: A round white pill on a wooden table with a perfect cir
 
 A white pill on the table.
 A starting point I did not choose.
-A small system
-that keeps me standing.
 Fear is no longer a well.
 It is a long highway
 I cross every day
 without looking to the sides.
 Then comes the silence,
 like a thin blanket.
-The machinery works,
-but it does not know why.
 I cross the morning however I can:
 a clock adjusted by force,
 anchored with trembling hands.

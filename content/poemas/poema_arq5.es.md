@@ -23,8 +23,8 @@ Cuando el agua se iba, pensaba que se estaba acabando.
               Ella me enseñó otra palabra,
 que después del vacío viene algo nuevo.
 
-Mi pecho ha aprendido un ritmo que no sabía,
-              el que suena cuando dos respiraciones se encuentran.
+Ahora sé cuándo se ha dormido:
+              el momento exacto en que su respiración cambia de ritmo.
 
 Lo veo cada mañana al alba,
               sus ojos abiertos mientras la ciudad aún duerme,

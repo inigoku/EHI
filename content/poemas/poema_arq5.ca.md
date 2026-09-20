@@ -23,8 +23,8 @@ Quan l'aigua se n'anava, pensava que s'estava acabant.
               Ella em va ensenyar una altra paraula,
 que després del buit ve alguna cosa nova.
 
-El meu pit ha après un ritme que no sabia,
-              el que sona quan dues respiracions es troben.
+Ara sé quan s'ha adormit:
+              el moment exacte en què la seva respiració canvia de ritme.
 
 Ho veig cada matí a l'alba,
               els seus ulls oberts mentre la ciutat encara dorm,
