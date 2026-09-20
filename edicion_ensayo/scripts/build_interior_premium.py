@@ -21,6 +21,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 from typing import Optional
@@ -66,6 +67,29 @@ FAMILY = {
 }
 
 
+FALLBACK_FONT = "EcoFallback"
+FALLBACK_CANDIDATES = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
+    "C:/Windows/Fonts/arial.ttf",
+    "/System/Library/Fonts/Supplemental/Arial.ttf",
+]
+# Second-tier fallback, tried only for characters the first fallback also
+# lacks -- in practice this is CJK: the odd Chinese character glossing a
+# term (e.g. "De (德)"), which DejaVu/Liberation/Arial don't cover either.
+CJK_FALLBACK_FONT = "EcoFallbackCJK"
+CJK_FALLBACK_CANDIDATES = [
+    "/usr/share/fonts/truetype/wqy/wqy-zenhei.ttc",
+    "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+    "C:/Windows/Fonts/msyh.ttc",
+    "/System/Library/Fonts/PingFang.ttc",
+]
+
+_SAFE_CODEPOINTS: set = set()
+_FALLBACK_CODEPOINTS: set = set()
+_CJK_FALLBACK_AVAILABLE = False
+
+
 def register_fonts() -> None:
     for _style, (name, fname) in FAMILY.items():
         pdfmetrics.registerFont(TTFont(name, str(FONTS / fname)))
@@ -73,6 +97,27 @@ def register_fonts() -> None:
     # use, y KDP marca esa fuente como no incrustada.
     rl_config.canvas_basefontname = FAMILY["R"][1]
     rl_config.canvas_basefontname = "Eco"
+
+    global _SAFE_CODEPOINTS, _FALLBACK_CODEPOINTS, _CJK_FALLBACK_AVAILABLE
+    from fontTools.ttLib import TTFont as _FTFont
+    cmaps = [_FTFont(str(FONTS / fname)).getBestCmap().keys() for _style, (_name, fname) in FAMILY.items()]
+    _SAFE_CODEPOINTS = set.intersection(*(set(c) for c in cmaps))
+
+    for path in FALLBACK_CANDIDATES:
+        if Path(path).exists():
+            pdfmetrics.registerFont(TTFont(FALLBACK_FONT, path))
+            _FALLBACK_CODEPOINTS = set(_FTFont(path).getBestCmap().keys())
+            break
+    else:
+        print("warning: no fallback Unicode font found; symbols missing from "
+              "Source Serif Pro (math notation, some diacritics) may render "
+              "blank.", file=sys.stderr)
+
+    for path in CJK_FALLBACK_CANDIDATES:
+        if Path(path).exists():
+            pdfmetrics.registerFont(TTFont(CJK_FALLBACK_FONT, path))
+            _CJK_FALLBACK_AVAILABLE = True
+            break
 
 
 R, IT, SB, SBIT, BD = "Eco", "Eco-It", "Eco-Sb", "Eco-SbIt", "Eco-Bd"
@@ -503,8 +548,91 @@ def chapter_label(chapter_number: Optional[str]) -> Optional[str]:
     return None
 
 
+def _wrap_missing_glyphs_plain(text: str) -> str:
+    """Wrap any run of characters absent from every Source Serif Pro weight
+    -- math notation (⋃ ⊆ → ∅ ∈), Greek letters used outside Φ (α), sub/
+    superscripts (ᵢ ₀), Sanskrit diacritics (ṣ) -- in a span set in the
+    fallback Unicode font, so it renders instead of a blank .notdef box.
+    Left untouched (and hence still in Source Serif Pro) is everything the
+    font actually covers, which is nearly all running prose. Assumes
+    `text` is plain (no XML tags in it yet) -- see _wrap_missing_glyphs_
+    tagged for text that already has reportlab mini-markup in it."""
+    if not _SAFE_CODEPOINTS:
+        return text
+
+    def font_for(ch: str) -> Optional[str]:
+        if ch.isspace() or ord(ch) in _SAFE_CODEPOINTS:
+            return None
+        if ord(ch) in _FALLBACK_CODEPOINTS:
+            return FALLBACK_FONT
+        if _CJK_FALLBACK_AVAILABLE:
+            return CJK_FALLBACK_FONT
+        return FALLBACK_FONT
+
+    out, buf = [], []
+    current = None
+    for ch in text:
+        font = font_for(ch)
+        if buf and font != current:
+            out.append(("".join(buf), current))
+            buf = []
+        buf.append(ch)
+        current = font
+    if buf:
+        out.append(("".join(buf), current))
+    return "".join(
+        f'<font name="{font}">{chunk}</font>' if font else chunk
+        for chunk, font in out
+    )
+
+
+_TAG_RE = re.compile(r"(<[^>]+>)")
+
+
+def _wrap_missing_glyphs_tagged(markup: str) -> str:
+    """Same fallback-font wrapping, but for a string that may already
+    contain reportlab mini-markup (<b>/<i> from inline_markdown_to_markup's
+    own **/* conversion). Only touches the plain-text pieces between
+    existing tags, so every <font> span it inserts nests cleanly inside
+    whatever <b>/<i> span it falls in -- never straddles one."""
+    parts = _TAG_RE.split(markup)
+    return "".join(part if part.startswith("<") else _wrap_missing_glyphs_plain(part) for part in parts)
+
+
+def _patch_glyph_fallback() -> None:
+    """Two choke points cover every place text turns into reportlab markup
+    in this book: generate_book_pdf.escape_xml (this script's own direct
+    calls, for titles/kickers that never contain **/* emphasis) and
+    generate_book_pdf.inline_markdown_to_markup (everything routed through
+    markdown_to_flowables/build_table, which DOES apply **/* -> <b>/<i>
+    after escaping).
+
+    inline_markdown_to_markup's own body calls escape_xml by looking up
+    that name in this module's globals *at call time* -- so simply patching
+    gbp.escape_xml would make the original inline_markdown_to_markup pick
+    up the patched version too, feed its own bold/italic regex a string
+    that already has <font> tags in it, and corrupt the nesting. Capturing
+    a direct reference to the pre-patch escape_xml and reimplementing
+    inline_markdown_to_markup's two-line **/* conversion here (rather than
+    calling through the mutable module global) avoids that entirely."""
+    orig_escape_xml = gbp.escape_xml
+
+    def escape_xml_with_fallback(text: str) -> str:
+        return _wrap_missing_glyphs_plain(orig_escape_xml(text))
+
+    def inline_with_fallback(text: str) -> str:
+        markup = orig_escape_xml(text)
+        markup = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", markup)
+        markup = re.sub(r"\*(.+?)\*", r"<i>\1</i>", markup)
+        return _wrap_missing_glyphs_tagged(markup)
+
+    gbp.escape_xml = escape_xml_with_fallback
+    gbp.inline_markdown_to_markup = inline_with_fallback
+
+
 def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None) -> None:
     register_fonts()
+    _patch_glyph_fallback()
     with toc_path.open("r", encoding="utf-8") as fh:
         toc = json.load(fh)
     base_dir = toc_path.parent

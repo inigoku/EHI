@@ -27,6 +27,12 @@ import urllib.request
 from pathlib import Path
 from typing import Optional
 
+try:  # Optional: only needed to hyphenate long words in narrow table cells.
+    import pyphen
+    _HYPHEN_DIC = pyphen.Pyphen(lang="es")
+except ImportError:
+    _HYPHEN_DIC = None
+
 import yaml
 from PIL import Image as PILImage
 from reportlab.lib import colors
@@ -264,6 +270,21 @@ def inline_markdown_to_markup(text: str) -> str:
     return text
 
 
+_LONG_WORD_RE = re.compile(r"\w{11,}", re.UNICODE)
+
+
+def hyphenate_long_words(text: str) -> str:
+    """Insert soft hyphens (U+00AD) at syllable breaks in long words, so a
+    Paragraph confined to a narrow column (e.g. a many-column table cell)
+    wraps at a hyphen instead of hard-breaking mid-word. Reportlab already
+    honours U+00AD as an optional break point and only renders the hyphen
+    glyph where the break actually happens. A no-op if pyphen isn't
+    installed -- words still wrap, just without a hyphen at the break."""
+    if not _HYPHEN_DIC:
+        return text
+    return _LONG_WORD_RE.sub(lambda m: _HYPHEN_DIC.inserted(m.group(0), hyphen="­"), text)
+
+
 def build_styles(base_font: str):
     styles = getSampleStyleSheet()
 
@@ -382,6 +403,8 @@ def build_table(table_lines: list, styles, content_width: float) -> Optional[Tab
     for row_idx, row in enumerate(parsed_rows):
         is_header_row = has_header and row_idx == 0
         style = header_style if is_header_row else cell_style
+        if num_cols >= 4:
+            row = [hyphenate_long_words(cell) for cell in row]
         data.append([Paragraph(inline_markdown_to_markup(cell), style) for cell in row])
 
     if not data:
