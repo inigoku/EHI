@@ -207,7 +207,7 @@
     },
     {
       "id": "cap6",
-      "content_file": "../content/ensayo/cap6.es.md"
+      "content_file": "content_overrides/cap6.es.md"
     },
     {
       "id": "cap6_5",
@@ -327,7 +327,7 @@
     },
     {
       "id": "cap17_7_alien",
-      "content_file": "../content/lecturas/cap17_7_alien.es.md"
+      "content_file": "content_overrides/cap17_7_alien.es.md"
     },
     {
       "id": "cap_three_body",
@@ -335,7 +335,7 @@
     },
     {
       "id": "cap17_8_cosmic",
-      "content_file": "../content/lecturas/cap17_8_cosmic.es.md"
+      "content_file": "content_overrides/cap17_8_cosmic.es.md"
     },
     {
       "id": "cap_matrix",
@@ -343,7 +343,7 @@
     },
     {
       "id": "cap_cartografia_singularidades",
-      "content_file": "../content/lecturas/cap_cartografia_singularidades.es.md"
+      "content_file": "content_overrides/cap_cartografia_singularidades.es.md"
     },
     {
       "id": "cap_historia_relevo",
@@ -399,7 +399,7 @@
     },
     {
       "id": "cap_epilogo_real",
-      "content_file": "../content/ensayo/cap_epilogo_real.es.md"
+      "content_file": "content_overrides/cap_epilogo_real.es.md"
     },
     {
       "id": "cap_glosario",

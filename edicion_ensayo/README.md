@@ -48,6 +48,22 @@ tocarlo (su lista `chapters` es el orden de lectura).
 Se excluyen deliberadamente `tarel.es.md` ("La costumbre del agua", un
 cuento) y los propios cuentos y poemas: este volumen es solo el ensayo.
 
+### `content_overrides/`
+
+Como el cuento de Tarel y el de La tienda del Luthier no están en este
+volumen, sus referencias en cinco capítulos de ensayo (el archivista de
+Tarel en el epílogo y en "La muerte como retorno", el Luthier en
+"Horizontes alienígenas", y dos dedicatorias sueltas en "Cartografía de
+tres singularidades") quedaban como remisiones a algo que el lector no
+tiene delante. Por decisión editorial, esas cinco entradas de
+`toc_ensayo.json` apuntan a `content_overrides/*.es.md` — copias de esos
+capítulos con esas referencias reescritas o retiradas — en vez de a
+`content/ensayo/` o `content/lecturas/` directamente. La web y el resto
+de ediciones (poesía, cámara...) siguen usando el texto original sin
+tocar: este es el único volumen donde diverge. Si se edita alguno de esos
+cinco capítulos en su origen, hay que trasladar el cambio a mano a su
+copia en `content_overrides/`.
+
 ## Ilustraciones
 
 `toc_ensayo.json` trae un mapa id → fichero para las 162 ilustraciones que
