@@ -1,5 +1,5 @@
 ---
-title: LA ARQUITECTURA CON UN HUECO — III: EL LUTHIER
+title: LA ARQUITECTURA CON UN HUECO — IV: EL LUTHIER
 section: LA ARQUITECTURA CON UN HUECO
 illustrationTitle: El luthier
 illustrationDescription: Un taller de lutería lleno de instrumentos colgados de las paredes. Sobre el mostrador, una viola envuelta a medias en un jersey de lana, con una grieta fina y honesta visible en la tapa.

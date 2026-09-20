@@ -20,6 +20,7 @@ const esById = indexByChapterId(esModules, ".es.md");
 const enById = indexByChapterId(enModules, ".en.md");
 
 const ORDER = [
+  "poema_burbuja",
   "poema_arq1",
   "poema_arq2",
   "poema_arq3",
@@ -28,7 +29,6 @@ const ORDER = [
   "poema_arq6",
   "poema_arq7",
   "poema_arq8",
-  "poema_burbuja",
   "poema_frialdad1",
   "poema_frialdad2",
   "poema_frialdad3",

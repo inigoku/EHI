@@ -1,5 +1,5 @@
 ---
-title: LA ARQUITECTURA CON UN HUECO — I: EL ARCHIVISTA
+title: LA ARQUITECTURA CON UN HUECO — II: EL ARCHIVISTA
 section: LA ARQUITECTURA CON UN HUECO
 illustrationTitle: El archivista
 illustrationDescription: Un cuaderno abierto sobre un muelle de madera, junto a un remo apoyado. La tinta de la última línea se difumina levemente, como si el papel también estuviera húmedo.

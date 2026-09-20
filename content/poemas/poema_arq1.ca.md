@@ -1,5 +1,5 @@
 ---
-title: L'ARQUITECTURA AMB UN FORAT — I: L'ARXIVISTA
+title: L'ARQUITECTURA AMB UN FORAT — II: L'ARXIVISTA
 section: L'ARQUITECTURA AMB UN FORAT
 illustrationTitle: L'arxivista
 illustrationDescription: Un quadern obert sobre un moll de fusta, al costat d'un rem recolzat. La tinta de l'última línia es difumina lleugerament, com si el paper també estigués humit.

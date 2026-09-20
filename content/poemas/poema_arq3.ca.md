@@ -1,5 +1,5 @@
 ---
-title: L'ARQUITECTURA AMB UN FORAT — III: EL LUTIER
+title: L'ARQUITECTURA AMB UN FORAT — IV: EL LUTIER
 section: L'ARQUITECTURA AMB UN FORAT
 illustrationTitle: El lutier
 illustrationDescription: Un taller de luteria ple d'instruments penjants de les parets. Sobre el mostrador, una viola embolicada a mitges en un jersei de llana, amb una esquerda fina i honesta visible a la tapa.

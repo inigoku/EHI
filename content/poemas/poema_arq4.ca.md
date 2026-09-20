@@ -1,5 +1,5 @@
 ---
-title: L'ARQUITECTURA AMB UN FORAT — IV: LA CANÇÓ
+title: L'ARQUITECTURA AMB UN FORAT — IX: LA CANÇÓ
 section: L'ARQUITECTURA AMB UN FORAT
 illustrationTitle: La cançó
 illustrationDescription: Una cuina buida al capvespre, amb una olla al foc. A l'aire, suggerides a penes, quatre notes musicals dibuixades com a traços de fum que pugen dels fogons.

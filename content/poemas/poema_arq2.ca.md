@@ -1,5 +1,5 @@
 ---
-title: L'ARQUITECTURA AMB UN FORAT — II: EL RELLOTGER
+title: L'ARQUITECTURA AMB UN FORAT — III: EL RELLOTGER
 section: L'ARQUITECTURA AMB UN FORAT
 illustrationTitle: El rellotger
 illustrationDescription: Un rellotge de butxaca de plata obert sobre un drap fosc, el mecanisme visible i net. Unes mans de vell, amb un tremol a penes suggerit, sostenen una ferramenta minúscula sota una llum de matinada.

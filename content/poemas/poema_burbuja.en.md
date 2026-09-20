@@ -1,5 +1,5 @@
 ---
-title: THE ARCHITECTURE WITH A HOLLOW — IX: THE BUBBLE
+title: THE ARCHITECTURE WITH A HOLLOW — I: THE BUBBLE
 section: THE ARCHITECTURE WITH A HOLLOW
 illustrationTitle: The Bubble
 illustrationDescription: A soap sphere tensing between two hands at the exact instant of closing, trapping a curved reflection of light and water.

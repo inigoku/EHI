@@ -1,5 +1,5 @@
 ---
-title: LA ARQUITECTURA CON UN HUECO — II: EL RELOJERO
+title: LA ARQUITECTURA CON UN HUECO — III: EL RELOJERO
 section: LA ARQUITECTURA CON UN HUECO
 illustrationTitle: El relojero
 illustrationDescription: Un reloj de bolsillo de plata abierto sobre un paño oscuro, el mecanismo visible y limpio. Unas manos de anciano, con un temblor apenas sugerido, sostienen una herramienta diminuta bajo una luz de mañana.

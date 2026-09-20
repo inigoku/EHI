@@ -1,5 +1,5 @@
 ---
-title: L'ARQUITECTURA AMB UN FORAT — IX: LA BOMBOLLA
+title: L'ARQUITECTURA AMB UN FORAT — I: LA BOMBOLLA
 section: L'ARQUITECTURA AMB UN FORAT
 illustrationTitle: La bombolla
 illustrationDescription: Una esfera de sabó tensant-se entre dues mans en l'instant just de tancar-se, atrapant un reflex corbat de llum i aigua.

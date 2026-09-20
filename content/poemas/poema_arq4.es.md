@@ -1,5 +1,5 @@
 ---
-title: LA ARQUITECTURA CON UN HUECO — IV: LA CANCIÓN
+title: LA ARQUITECTURA CON UN HUECO — IX: LA CANCIÓN
 section: LA ARQUITECTURA CON UN HUECO
 illustrationTitle: La canción
 illustrationDescription: Una cocina vacía al atardecer, con una olla al fuego. En el aire, sugeridas apenas, cuatro notas musicales dibujadas como trazos de humo que suben desde los fogones.

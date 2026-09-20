@@ -1,5 +1,5 @@
 ---
-title: LA ARQUITECTURA CON UN HUECO — IX: LA BURBUJA
+title: LA ARQUITECTURA CON UN HUECO — I: LA BURBUJA
 section: LA ARQUITECTURA CON UN HUECO
 illustrationTitle: La burbuja
 illustrationDescription: Una esfera de jabón tensándose entre dos manos en el instante justo de cerrarse, atrapando un reflejo curvo de luz y agua.
