@@ -68,53 +68,9 @@ Por eso las conversiones ideológicas son tan raras y tan traumáticas. No es qu
 
 ---
 
-### La religión como entrelazamiento con lo inaccesible
+### La religión y el fanatismo: dos casos que este libro trata aparte
 
-La religión no es solo una idea. Es un sistema de entrelazamiento diseñado para acoplar horizontes humanos con algo que, por definición, no pueden modelar directamente.
-
-Desde el modelo del horizonte, la experiencia religiosa es un tipo específico de resonancia: el horizonte se abre a una frecuencia que no puede verificar, que no puede tocar, que no puede confirmar ni desmentir. Esa apertura no es irracional: es una extensión del mismo mecanismo que permite el entrelazamiento interpersonal. El niño pequeño no puede verificar que su madre sigue ahí cuando cierra los ojos, pero se calma porque su horizonte está estructurado para mantener la correlación sin confirmación continua. La religión opera con la misma lógica, pero a escala cósmica.
-
-> **En física esto se llama:** acoplamiento a un campo de fondo no localizable, donde la correlación persiste sin canal de retroalimentación observable.  
-> **En la vida diaria es como:** dormir tranquilo sabiendo que alguien vigila, aunque no sepas quién ni cómo.
-
-Las prácticas religiosas —la oración, la meditación, el ritual, el ayuno— son tecnologías de acoplamiento. No producen información nueva sobre lo divino. Reconfiguran el horizonte para que pueda integrar una clase de información que el estado ordinario no procesa: la sensación de pertenencia a algo más grande, la pérdida del yo como frontera absoluta, la experiencia de que el reservorio del capítulo 5 no es solo concepto sino presencia.
-
-Esto no prueba que lo divino exista. El modelo no puede pronunciarse sobre eso. Pero sí puede decir algo sobre lo que ocurre en el horizonte que practica: se está entrenando para mantener coherencia en ausencia de confirmación externa. Eso es exactamente lo que hace un horizonte maduro, y exactamente lo que la neurociencia contemplativa ha documentado en meditadores avanzados de todas las tradiciones.
-
-> **En física esto se llama:** estabilización del horizonte por acoplamiento a campo de baja frecuencia, donde la fluctuación es mínima.  
-> **En la vida diaria es como:** un barco que deja de luchar contra la corriente y descubre que puede dejarse llevar sin hundirse.
-
-Conviene ser más preciso con el término. "Acoplamiento" es la palabra genérica que este capítulo ha usado hasta aquí para lugares, objetos e ideas. Pero cuando la práctica se sostiene —cuando la oración o la meditación no son un gesto puntual sino una disciplina de años— lo que se busca no es acoplamiento cualquiera: es entrelazamiento, la misma palabra que el capítulo 12 reserva para la resonancia sostenida entre dos horizontes humanos, aplicada aquí en vertical. No hacia otro horizonte, sino hacia el reservorio del capítulo 5, o hacia el horizonte-origen que algunas tradiciones sitúan más allá de él —una distinción que el capítulo 44 desarrolla comparando cinco tradiciones lado a lado.
-
-La técnica es reconocible en todas: repetición hasta que el ruido cesa (el rosario, el mantra, el dhikr), quietud hasta que el sistema deja de generar predicciones nuevas, ritmo compartido con una comunidad que sostiene la misma frecuencia. Es el mismo mecanismo, descrito con más detalle en el capítulo 45, que reduce la tasa de integración del horizonte individual hasta el límite donde Φ→∞ en el reservorio y Φ→0 en el horizonte que practica. La diferencia entre una oración dirigida a Alguien y una meditación que se disuelve en el Todo no está, en este nivel, en la técnica. Está en qué se cree que hay al otro lado del entrelazamiento —y ahí, de nuevo, remito al capítulo 44.
-
-> **En física esto se llama:** entrelazamiento vertical —correlación sostenida entre el horizonte y algo más allá de su frontera, sin canal de confirmación observable—, en el mismo sentido especulativo, no demostrado, en que el capítulo 12 especula sobre el entrelazamiento entre dos cerebros humanos.  
-> **En la vida diaria es como:** afinar un instrumento con un diapasón que no puedes ver ni tocar: no sabes si el diapasón sigue sonando, pero ajustas tu cuerda una y otra vez, confiando en que la nota que buscas sigue ahí.
-
-El problema de la religión no está en el acoplamiento, sino en lo que ocurre cuando ese acoplamiento se institucionaliza. Cuando una estructura humana —la iglesia, el templo, la jerarquía— se convierte en intermediaria obligatoria entre el horizonte y lo que busca, la geometría se corrompe. El acoplamiento ya no es directo: es mediado por un horizonte de poder que filtra la señal, que interpreta por ti, que te dice qué frecuencias son válidas y cuáles no. La religión organizada puede ser, en su forma más pura, una tecnología de acoplamiento. En su forma más corrupta, es un sistema de acoplamiento asimétrico donde unos horizontes controlan el acceso de otros a la fuente.
-
----
-
-### El fanatismo: cuando la idea devora el horizonte
-
-El fanatismo no es creencia intensa. Es entrelazamiento patológico con una idea.
-
-En el fanatismo, la idea deja de ser principio organizador para convertirse en frontera absoluta. El horizonte ya no evalúa la información nueva según su coherencia interna: la evalúa según su compatibilidad con la idea. Lo que no encaja se rechaza, no porque sea falso, sino porque es peligroso para la arquitectura. El horizonte fanático ha externalizado su propia frontera: la idea ahora es lo que separa el adentro del afuera, y cualquier amenaza a la idea es amenaza a la existencia misma.
-
-> **En física esto se llama:** colapso del espacio de fases, donde el atractor se convierte en singularidad que captura todo el flujo informacional.  
-> **En la vida diaria es como:** un ojo que solo puede ver un color: todo lo demás existe, pero no existe para él.
-
-El fanático no puede dudar, porque dudar no es cuestionar una proposición: es disolver la frontera que mantiene su horizonte intacto. La duda, en el fanatismo, es indistinguible de la muerte. No es casual que los fanáticos de todas las ideologías —religiosas, políticas, científicas— compartan la misma violencia ante la discrepancia: no es que odien al disidente. Es que el disidente emite una frecuencia que su horizonte no puede integrar sin colapsar, y el horizonte defiende su integridad con la misma ferocidad con que un cuerpo defiende su temperatura.
-
-> **En física esto se llama:** respuesta inmunitaria del horizonte ante información que rompería su simetría interna.  
-> **En la vida diaria es como:** la fiebre: no es el enemigo el que quema, es tu propio cuerpo elevando la temperatura para sobrevivir.
-
-El fanatismo no es religioso ni político ni ideológico por naturaleza. Es una forma de organización del horizonte que puede ocurrir con cualquier idea suficientemente densa. Hay fanáticos del capitalismo y fanáticos del comunismo, fanáticos de la ciencia y fanáticos de la espiritualidad, fanáticos de la dieta y fanáticos del ejercicio. Lo que los une no es el contenido: es la geometría. El horizonte que se entregó por completo a una idea, que dejó de tener frecuencia propia para resonar solo con la de ella.
-
-La salida del fanatismo no es más información. Es más horizonte. Un horizonte más grande, con más frecuencias, con más anclajes, con más capacidad de integrar discrepancia sin colapsar. La persona que sale del fanatismo no suele hacerlo porque alguien le demostró que estaba equivocado. Suele hacerlo porque su horizonte se expandió lo suficiente como para ver que la idea era solo una frecuencia entre muchas, y que su vida puede ser más coherente —not menos— si deja de reducirse a ella.
-
-> **En física esto se llama:** transición de fase, donde el sistema escapa del pozo de potencial porque la energía térmica interna supera la barrera de activación.  
-> **En la vida diaria es como:** despertar de un sueño en el que eras el protagonista absoluto, y descubrir que la historia sigue sin ti.
+La religión y el fanatismo son, cada uno a su manera, entrelazamiento con lo que el horizonte no puede tocar directamente: uno con lo inaccesible que sostiene sin confirmarse —"acoplamiento con lo inaccesible", lo llamaremos más adelante—, el otro con una idea que ha capturado la frontera misma. Ninguno de los dos cabe aquí en el espacio que merece. La religión y la práctica contemplativa —oración, eucaristía, comunidad— tienen capítulo propio más adelante: el capítulo 49 compara cinco tradiciones punto por punto y el capítulo 51 desarrolla en detalle la técnica común a la oración y la meditación. El fanatismo, que no es creencia intensa sino entrelazamiento patológico con una idea —el horizonte fanático no puede dudar porque dudar no es cuestionar una proposición, es disolver la frontera que lo mantiene intacto—, recibe la misma extensión en el capítulo 53, aplicada allí a su forma política.
 
 ---
 
@@ -140,12 +96,12 @@ La libertad, desde este modelo, no es ausencia de entrelazamiento. Es conocimien
 
 > **Nota al Capítulo 27**
 >
-> **Lo que sí sabemos:** Los humanos forman vínculos de apego con lugares (topofilia), objetos (transitional objects, Winnicott) e ideas (identidad ideológica). La religión activa circuitos neuronales similares a los del apego interpersonal. El fanatismo correlaciona con rigidez cognitiva y reducción de la exposición a información discrepante.
+> **Lo que sí sabemos:** Los humanos forman vínculos de apego con lugares (topofilia), objetos (transitional objects, Winnicott) e ideas (identidad ideológica).
 >
-> **Lo que no sabemos:** Si el acoplamiento con lo inanimado opera por los mismos mecanismos neuronales que el interpersonal. Si la experiencia religiosa es correlación genuina con algo externo o reorganización interna del horizonte. Cómo se mide la "densidad" de un entrelazamiento con una idea.
+> **Lo que no sabemos:** Si el acoplamiento con lo inanimado opera por los mismos mecanismos neuronales que el interpersonal. Cómo se mide la "densidad" de un entrelazamiento con una idea.
 >
-> **Preguntas que quedan:** ¿Puede un horizonte estar sano sin acoplamiento a lo trascendente? ¿Es el fanatismo inevitable para ciertas estructuras de horizonte, o siempre hay camino de retorno? ¿Qué diferencia a una idea que expande de una que encarcela?
+> **Preguntas que quedan:** ¿Puede un horizonte estar sano sin acoplamiento a lo trascendente? ¿Qué diferencia a una idea que expande de una que encarcela?
 >
 > **Si solo te quedas con una idea:** Tu horizonte está hecho de personas, de lugares, de cosas y de ideas. Saber cuáles son, y cuáles te sostienen versus cuáles te consumen, es la única libertad que el modelo puede señalar.
 >
-> **Lecturas:** Winnicott, D.W. — *Playing and Reality* (1971); Tuan, Y.F. — *Topophilia* (1974); Altemeyer, B. — *The Authoritarian Specter* (1996); Newberg, A. — *Why God Won't Go Away* (2001); Sloterdijk, P. — *Esferas* (1998-2004).
+> **Lecturas:** Winnicott, D.W. — *Playing and Reality* (1971); Tuan, Y.F. — *Topophilia* (1974); Sloterdijk, P. — *Esferas* (1998-2004).

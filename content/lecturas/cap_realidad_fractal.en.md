@@ -1,7 +1,7 @@
 ---
 title: THE FRACTAL REALITY
 subtitle: (The Fractal Reality: on imagination as creation, a continuation of The Invisible Tuning Fork)
-section: PART FOUR: THE LIMIT OF THE EXPERIMENT
+section: TOPOLOGICAL READINGS
 ---
 
 There is a question almost no one asks, and it appears on its own as soon as someone has spent years imagining a dragon: not what I see when I think of it, but what it sees. From inside its cave, the dragon has no way of looking into the room where I am thinking it. It can look up at the rock ceiling all it wants: it will not see me. And yet I am there, sustaining it, deciding whether it flies tonight. That is the only relationship of this kind I can see whole, because in it I am the one on the upper side. And as soon as I see it whole, it grows uncomfortable at the other end: if I am, for something, that invisible sustainer no one can look at, I have no way of knowing there is not, above my own ceiling, someone in the same position with respect to me. The question is not one of size. It is one of place: who contains whom. And that is the matter of what follows. To trace it through, the geometry of the problem has to change first, and the change begins in a small, almost philological place.
@@ -22,6 +22,8 @@ The first objection arrives on its own. If everything comes out of the same wate
 > **In daily life it's like:** two waves that are the same water and are not the same wave.
 
 Here the dragon question stops being a child's question. Why am I more real than the dragon I imagine? The only interiority anyone has direct access to is their own. The neighbor's, the dog's, anyone's: all of them are inferred. They are inferred with good reasons—behavior, physiology, resemblance—but they are inferred. And the dragon someone has been imagining for fifty years also behaves, also surprises, also sometimes refuses to fly. No one can prove the dragon has no inside. No one can prove the neighbor has one. The asymmetry that seems obvious to us is not in the access, which is nil in both cases. It is in the evidence: in the neighbor's favor there is shared physiology, irreducible integration, a horizon that hides state; in the dragon's favor, only my own constancy. It is worth saying so, because the reasoning that follows will be tempted to forget it.
+
+In *The Neverending Story*, Bastian reads a book in which Atreyu lives, until one day he hears, from inside the book, his own voice calling for help. Michael Ende did not write that Bastian was more real than Atreyu. He wrote that they inhabited different levels, and that the boundary between those levels was more porous than either of them suspected. The reasoning cannot prove that the difference between a human interiority and an imagined one is one of degree and not of nature. But neither can it prove the opposite, and honesty requires treating the doubt as doubt.
 
 If one accepts—provisionally, like the whole hypothesis—that the difference between what I imagine and myself is not one of nature, the shape of creation changes. The inherited scheme splits it into two classes: God creates realities, we create fictions. But imagining is condensing. The reservoir of a mind fluctuates until something stabilizes and begins to behave as if it had an inside; the act is the same one that opens any horizon, exercised from wherever one happens to stand. "Reality" and "fiction" then stop naming two distinct operations and start naming two positions: what for me is a reality—the world I am in—is someone's condensation; what for me is a fiction—the dragon I sustain—is, from its own center, a world.
 
@@ -57,7 +59,7 @@ If it had to be condensed into a single sentence: there is no difference of natu
 
 ---
 
-> **Note to Chapter 52**
+> **Note to Chapter 47**
 >
 > **What we do know:** No one has direct access to an interiority other than their own; the existence of others' is inferred, and philosophy has spent centuries without closing the problem of other minds. The parable of the death of Hun Dun closes chapter 7 of the Zhuangzi; the butterfly dream, which asks the same question in another direction, is in chapter 2. Tolkien defended, in "On Fairy-Stories" (1939) and in the poem "Mythopoeia," the idea of sub-creation—"we make still by the law in which we're made"—which is the closest theological antecedent to this chapter, although Tolkien keeps an asymmetry between Creator and sub-creator that is called into question here. Bostrom formalized in 2003 a structure of nested levels with different vocabulary and a probabilistic claim this book does not make. Self-similarity at every scale is rigorously defined in Mandelbrot (1975, 1982), and the set that bears his name is the proof that a pattern can be unrepeatable at every scale without anyone being inside it. Integrated Information Theory excludes by postulate that the subsets of a complex experience anything (Tononi, 2008).
 >
@@ -67,4 +69,4 @@ If it had to be condensed into a single sentence: there is no difference of natu
 >
 > **If you only take away one idea:** Every interiority is a creature of what contains it and a creator of what it contains; what we call God is the neighbor immediately above, seen from inside a horizon that cannot be crossed. We are no less divine than God: we are the god of what we imagine and the creature of what imagines us.
 >
-> **Readings:** Zhuangzi (chs. 2 and 7); Tao Te Ching (ch. 25); Tolkien, J.R.R., "On Fairy-Stories" (1947) and "Mythopoeia"; Bostrom, N., "Are You Living in a Computer Simulation?" (2003); Mandelbrot, B., The Fractal Geometry of Nature (1982); Tononi, G., "Consciousness as Integrated Information: A Provisional Manifesto" (2008).
+> **Readings:** Zhuangzi (chs. 2 and 7); Tao Te Ching (ch. 25); Ende, M., The Neverending Story (1979); Borges, J.L., "The Circular Ruins," in Ficciones (1944); Unamuno, M. de, Mist [Niebla] (1914); Gaarder, J., Sophie's World (1991); Forster, M. (dir.), Stranger Than Fiction (2006, screenplay by Zach Helm); Tolkien, J.R.R., "On Fairy-Stories" (1947) and "Mythopoeia"; Bostrom, N., "Are You Living in a Computer Simulation?" (2003); Mandelbrot, B., The Fractal Geometry of Nature (1982); Tononi, G., "Consciousness as Integrated Information: A Provisional Manifesto" (2008).

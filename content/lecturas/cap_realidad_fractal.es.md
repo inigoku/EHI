@@ -1,8 +1,8 @@
 ---
 title: LA REALIDAD FRACTAL
 subtitle: (La realidad fractal: sobre la imaginación como creación, continuación de El diapasón invisible)
-section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 52
+section: LECTURAS TOPOLÓGICAS
+chapterNumber: 47
 linkedCuentosId: cuento_dragon
 illustrationId: il_fractal
 illustrationTitle: La realidad fractal
@@ -27,6 +27,8 @@ La primera objeción llega sola. Si todo sale de la misma agua, ¿de dónde vien
 > **En la vida diaria es como:** dos olas que son la misma agua y no son la misma ola.
 
 Aquí la pregunta del dragón deja de ser cosa de niños. ¿Por qué soy yo más real que el dragón que imagino? La única interioridad a la que alguien tiene acceso directo es la suya. La del vecino, la del perro, la de cualquiera: todas se infieren. Se infieren con buenas razones —comportamiento, fisiología, semejanza—, pero se infieren. Y el dragón que alguien lleva cincuenta años imaginando también se comporta, también sorprende, también se niega a veces a volar. Nadie puede demostrar que el dragón no tiene un adentro. Nadie puede demostrar que el vecino lo tiene. La asimetría que nos parece obvia no está en el acceso, que es nulo en los dos casos. Está en la evidencia: a favor del vecino hay fisiología compartida, integración irreducible, un horizonte que oculta estado; a favor del dragón, solo mi propia constancia. Conviene dejarlo dicho, porque el razonamiento va a estar tentado de olvidarlo.
+
+En *La historia interminable*, Bastián lee un libro en el que Atreyu vive, hasta que un día oye, desde dentro del libro, su propio grito pidiendo auxilio. Michael Ende no escribió que Bastián fuera más real que Atreyu. Escribió que habitaban niveles distintos, y que la frontera entre esos niveles era más porosa de lo que ninguno de los dos sospechaba. El razonamiento no puede demostrar que la diferencia entre una interioridad humana y una interioridad imaginada sea de grado y no de naturaleza. Pero tampoco puede demostrar lo contrario, y la honestidad exige tratar la duda como duda.
 
 Si se acepta —provisionalmente, como toda la hipótesis— que la diferencia entre lo que imagino y yo no es de naturaleza, cambia la forma de la creación. El esquema heredado la parte en dos clases: Dios crea realidades, nosotros creamos ficciones. Pero imaginar es condensar. El reservorio de una mente fluctúa hasta que algo se estabiliza y empieza a comportarse como si tuviera dentro; el acto es el mismo que abre cualquier horizonte, ejercido desde donde a uno le toca estar. «Realidad» y «ficción» dejan entonces de nombrar dos operaciones distintas y pasan a nombrar dos posiciones: lo que para mí es una realidad —el mundo en que estoy— es la condensación de alguien; lo que para mí es una ficción —el dragón que sostengo— es, desde su centro, un mundo.
 
@@ -62,7 +64,7 @@ Si hubiera que condensarlo en una frase: no hay diferencia de naturaleza entre e
 
 ---
 
-> **Nota al Capítulo 52**
+> **Nota al Capítulo 47**
 >
 > **Lo que sí sabemos:** Nadie tiene acceso directo a una interioridad que no sea la suya; la existencia de las demás se infiere, y la filosofía lleva siglos sin cerrar el problema de las otras mentes. La parábola de la muerte de Hun Dun cierra el capítulo 7 del Zhuangzi; el sueño de la mariposa, que hace la misma pregunta en otra dirección, está en el capítulo 2. Tolkien defendió en «Sobre los cuentos de hadas» (1939) y en el poema «Mythopoeia» la idea de subcreación —«creamos todavía según la ley con que fuimos hechos»—, que es el antecedente teológico más cercano de este capítulo, aunque Tolkien conserva una asimetría entre Creador y subcreador que aquí se pone en duda. Bostrom formalizó en 2003 una estructura de niveles anidados con otro vocabulario y con una pretensión probabilística que este libro no hace. La autosemejanza a todas las escalas está definida con rigor en Mandelbrot (1975, 1982), y el conjunto que lleva su nombre es la prueba de que un patrón puede ser irrepetible a toda escala sin que haya nadie dentro. La Teoría de la Información Integrada excluye por postulado que los subconjuntos de un complejo experimenten (Tononi, 2008).
 >
@@ -72,4 +74,4 @@ Si hubiera que condensarlo en una frase: no hay diferencia de naturaleza entre e
 >
 > **Si solo te quedas con una idea:** Toda interioridad es criatura de lo que la contiene y creadora de lo que contiene; lo que llamamos Dios es el vecino inmediatamente superior, visto desde dentro de un horizonte que no puede atravesarse. No somos menos divinos que Dios: somos el dios de lo que imaginamos y la criatura de lo que nos imagina.
 >
-> **Lecturas:** Zhuangzi (caps. 2 y 7); Tao Te Ching (cap. 25); Tolkien, J.R.R., «On Fairy-Stories» (1947) y «Mythopoeia»; Bostrom, N., «Are You Living in a Computer Simulation?» (2003); Mandelbrot, B., The Fractal Geometry of Nature (1982); Tononi, G., «Consciousness as Integrated Information: A Provisional Manifesto» (2008).
+> **Lecturas:** Zhuangzi (caps. 2 y 7); Tao Te Ching (cap. 25); Ende, M., La historia interminable (1979); Borges, J.L., «Las ruinas circulares», en Ficciones (1944); Unamuno, M. de, Niebla (1914); Gaarder, J., El mundo de Sofía (1991); Forster, M. (dir.), Más extraño que la ficción (2006, guion de Zach Helm); Tolkien, J.R.R., «On Fairy-Stories» (1947) y «Mythopoeia»; Bostrom, N., «Are You Living in a Computer Simulation?» (2003); Mandelbrot, B., The Fractal Geometry of Nature (1982); Tononi, G., «Consciousness as Integrated Information: A Provisional Manifesto» (2008).

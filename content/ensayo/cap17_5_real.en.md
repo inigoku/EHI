@@ -64,53 +64,9 @@ That is why ideological conversions are so rare and so traumatic. It is not that
 
 ---
 
-### Religion as entanglement with the inaccessible
+### Religion and fanaticism: two cases this book treats separately
 
-Religion is not just an idea. It is a system of entanglement designed to couple human horizons with something that, by definition, they cannot model directly.
-
-From the model of the horizon, the religious experience is a specific type of resonance: the horizon opens to a frequency that it cannot verify, that it cannot touch, that it cannot confirm or deny. That opening is not irrational: it is an extension of the same mechanism that allows interpersonal entanglement. The small child cannot verify that their mother is still there when they close their eyes, but they calm down because their horizon is structured to maintain the correlation without continuous confirmation. Religion operates with the same logic, but on a cosmic scale.
-
-> **In physics this is called:** coupling to a non-localizable background field, where correlation persists without an observable feedback channel.  
-> **In daily life it is like:** sleeping peacefully knowing that someone is watching over you, even if you don't know who or how.
-
-Religious practices—prayer, meditation, ritual, fasting—are technologies of coupling. They do not produce new information about the divine. They reconfigure the horizon so that it can integrate a kind of information that the ordinary state does not process: the feeling of belonging to something larger, the loss of the self as an absolute boundary, the experience that the reservoir from chapter 5 is not just a concept but a presence.
-
-This does not prove that the divine exists. The model cannot pronounce itself on that. But it can say something about what happens in the horizon that practices: it is training itself to maintain coherence in the absence of external confirmation. That is exactly what a mature horizon does, and exactly what contemplative neuroscience has documented in advanced meditators across all traditions.
-
-> **In physics this is called:** stabilization of the horizon by coupling to a low-frequency field, where fluctuation is minimal.  
-> **In daily life it is like:** a boat that stops fighting the current and discovers it can let itself be carried without sinking.
-
-It's worth being more precise about the term. "Coupling" is the generic word this chapter has used so far for places, objects, and ideas. But when the practice holds—when prayer or meditation isn't a one-off gesture but a discipline of years—what is being sought isn't just any coupling: it is entanglement, the same word chapter 12 reserves for sustained resonance between two human horizons, applied here vertically. Not toward another horizon, but toward the reservoir from chapter 5, or toward the origin-horizon that some traditions place beyond it—a distinction chapter 44 develops by comparing five traditions side by side.
-
-The technique is recognizable across all of them: repetition until the noise ceases (the rosary, the mantra, the dhikr), stillness until the system stops generating new predictions, shared rhythm with a community sustaining the same frequency. It is the same mechanism, described in more detail in chapter 45, that reduces the individual horizon's integration rate to the limit where Φ→∞ in the reservoir and Φ→0 in the horizon that practices. The difference between a prayer directed at Someone and a meditation that dissolves into the All is not, at this level, in the technique. It is in what one believes is on the other side of the entanglement—and there, again, chapter 44 is the place to look.
-
-> **In physics this is called:** vertical entanglement—sustained correlation between the horizon and something beyond its boundary, with no observable confirmation channel—in the same speculative, unproven sense in which chapter 12 speculates about entanglement between two human brains.  
-> **In daily life it is like:** tuning an instrument to a tuning fork you can neither see nor touch: you don't know if the fork is still sounding, but you adjust your string again and again, trusting the note you're after is still there.
-
-The problem with religion is not in the coupling, but in what happens when that coupling is institutionalized. When a human structure—the church, the temple, the hierarchy—becomes an obligatory intermediary between the horizon and what it seeks, the geometry is corrupted. The coupling is no longer direct: it is mediated by a horizon of power that filters the signal, that interprets for you, that tells you which frequencies are valid and which are not. Organized religion can be, in its purest form, a technology of coupling. In its most corrupt form, it is a system of asymmetrical coupling where some horizons control the access of others to the source.
-
----
-
-### Fanaticism: when the idea devours the horizon
-
-Fanaticism is not intense belief. It is pathological entanglement with an idea.
-
-In fanaticism, the idea ceases to be an organizing principle to become an absolute boundary. The horizon no longer evaluates new information according to its internal coherence: it evaluates it according to its compatibility with the idea. What does not fit is rejected, not because it is false, but because it is dangerous to the architecture. The fanatical horizon has externalized its own boundary: the idea is now what separates the inside from the outside, and any threat to the idea is a threat to existence itself.
-
-> **In physics this is called:** collapse of the phase space, where the attractor becomes a singularity that captures all informational flow.  
-> **In daily life it is like:** an eye that can only see one color: everything else exists, but it does not exist for it.
-
-The fanatic cannot doubt, because doubting is not questioning a proposition: it is dissolving the boundary that keeps their horizon intact. Doubt, in fanaticism, is indistinguishable from death. It is no coincidence that fanatics of all ideologies—religious, political, scientific—share the same violence in the face of discrepancy: it is not that they hate the dissident. It is that the dissident emits a frequency that their horizon cannot integrate without collapsing, and the horizon defends its integrity with the same ferocity with which a body defends its temperature.
-
-> **In physics this is called:** the horizon's immune response to information that would break its internal symmetry.  
-> **In daily life it is like:** a fever: it is not the enemy that burns, it is your own body raising its temperature to survive.
-
-Fanaticism is not religious or political or ideological by nature. It is a form of organization of the horizon that can occur with any sufficiently dense idea. There are fanatics of capitalism and fanatics of communism, fanatics of science and fanatics of spirituality, fanatics of diet and fanatics of exercise. What unites them is not the content: it is the geometry. The horizon that surrendered completely to an idea, that ceased to have its own frequency to resonate only with that of the idea.
-
-The way out of fanaticism is not more information. It is more horizon. A larger horizon, with more frequencies, with more anchors, with more capacity to integrate discrepancy without collapsing. The person who escapes fanaticism does not usually do so because someone proved them wrong. They usually do so because their horizon expanded enough to see that the idea was just one frequency among many, and that their life can be more coherent—not less—if they stop reducing themselves to it.
-
-> **In physics this is called:** a phase transition, where the system escapes the potential well because the internal thermal energy overcomes the activation barrier.  
-> **In daily life it is like:** waking up from a dream in which you were the absolute protagonist, and discovering that the story continues without you.
+Religion and fanaticism are, each in its own way, entanglement with what the horizon cannot touch directly: one with the inaccessible that sustains without confirming itself —"coupling with the inaccessible," as we will call it later—, the other with an idea that has captured the boundary itself. Neither fits here in the space it deserves. Religion and contemplative practice —prayer, the eucharist, community— get their own chapter later: chapter 49 compares five traditions point by point and chapter 51 develops in detail the technique common to prayer and meditation. Fanaticism, which is not intense belief but pathological entanglement with an idea —the fanatical horizon cannot doubt, because doubting is not questioning a proposition, it is dissolving the boundary that keeps it intact—, receives the same extension in chapter 53, applied there to its political form.
 
 ---
 
@@ -136,12 +92,12 @@ Freedom, from this model, is not the absence of entanglement. It is knowledge of
 
 > **Note to Chapter 27**
 >
-> **What we do know:** Humans form attachment bonds with places (topophilia), objects (transitional objects, Winnicott), and ideas (ideological identity). Religion activates neural circuits similar to those of interpersonal attachment. Fanaticism correlates with cognitive rigidity and reduced exposure to discrepant information.
+> **What we do know:** Humans form attachment bonds with places (topophilia), objects (transitional objects, Winnicott), and ideas (ideological identity).
 >
-> **What we don't know:** Whether coupling with the inanimate operates through the same neural mechanisms as interpersonal coupling. Whether religious experience is a genuine correlation with something external or an internal reorganization of the horizon. How to measure the "density" of an entanglement with an idea.
+> **What we don't know:** Whether coupling with the inanimate operates through the same neural mechanisms as interpersonal coupling. How to measure the "density" of an entanglement with an idea.
 >
-> **Remaining questions:** Can a horizon be healthy without coupling to the transcendent? Is fanaticism inevitable for certain horizon structures, or is there always a path of return? What differentiates an idea that expands from one that imprisons?
+> **Remaining questions:** Can a horizon be healthy without coupling to the transcendent? What differentiates an idea that expands from one that imprisons?
 >
 > **If you only take away one idea:** Your horizon is made of people, of places, of things, and of ideas. Knowing what they are, and which ones sustain you versus which ones consume you, is the only freedom the model can point to.
 >
-> **Readings:** Winnicott, D.W. — *Playing and Reality* (1971); Tuan, Y.F. — *Topophilia* (1974); Altemeyer, B. — *The Authoritarian Specter* (1996); Newberg, A. — *Why God Won't Go Away* (2001); Sloterdijk, P. — *Spheres* (1998-2004).
+> **Readings:** Winnicott, D.W. — *Playing and Reality* (1971); Tuan, Y.F. — *Topophilia* (1974); Sloterdijk, P. — *Spheres* (1998-2004).
