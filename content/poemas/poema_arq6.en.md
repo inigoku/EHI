@@ -11,5 +11,5 @@ where before there was a fathom.
 I am not saying the water receded.
 I am saying the impact rose through my arm,
 settled in my wrist,
-and reminded me —with the ache of the tendons—
+and reminded me—with the ache of the tendons—
 that the void is not empty.
