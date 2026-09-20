@@ -448,10 +448,10 @@ const imageMap: Record<string, string> = {
   cart_masia: "https://upload.wikimedia.org/wikipedia/en/3/33/TheFarmMiro21to22.jpg",
   cart_constelaciones: "https://upload.wikimedia.org/wikipedia/en/3/39/MiroMorningStar.JPG",
 
-  // "Historia de un relevo" — real news photos of the 2026 World Cup final
-  // goal and the 2007 Messi/Yamal charity-calendar photo
-  cart_ferran_gol: "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-19T215113Z_1479842861_UP1EM7J1OPCXN_RTRMADP_3_SOCCER-WORLDCUP-ESP-ARG-1024x706.jpg",
-  cart_messi_yamal: "https://i.abcnewsfe.com/a/098c18d3-8236-4244-8a8a-85a58d51d9ed/messi-yamal-3-ap-gmh-260717_1784294935058_hpMain_4x3.jpg",
+  // "Historia de un relevo" — il_relevo_patron / il_relevo_entrelazamiento:
+  // original illustrations replacing real AP/Reuters news photos that were
+  // hotlinked here before (copyrighted press photography, not ours to use).
+  // Add the generated files and map their ids here once they exist.
 
   // "El traductor" — real 1865 chalk portrait of George Eliot by Frederic
   // William Burton, public domain (NPG 669), hotlinked from Wikimedia Commons

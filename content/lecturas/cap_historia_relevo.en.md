@@ -58,8 +58,8 @@ What remains is entanglement proper, which is the hardest part to tell without r
 
 In 2007, for a charity calendar, a twenty-year-old Barça player posed bathing a baby a few months old. The player was Lionel Messi, the greatest product La Masia ever produced, the pattern made flesh to a degree not even Cruyff foresaw. The baby was Lamine Yamal. Nineteen years later, those two bodies touched again: on the pitch at MetLife Stadium, minutes after the final whistle, the boy from the photograph —world champion at nineteen— hugged the man from the photograph, who had just lost the final of his sixth and last World Cup, at thirty-nine.
 
-## [ILUSTRACIÓN cart_messi_yamal: "Messi bathes Lamine Yamal"]
-*A twenty-year-old Leo Messi bathes six-month-old Lamine Yamal during a charity photo session for Sport, the FC Barcelona Foundation, and UNICEF (Camp Nou, 2007). Photo: Joan Monfort / AP.*
+## [ILUSTRACIÓN il_relevo_entrelazamiento: "Two entangled instants"]
+*A diptych. On the left, in sepia tones, a young man's hands hold a baby over the water of a home bathtub. On the right, in the bluish light of a stadium at night, two silhouettes —one stooped by the years, the other young and upright— embrace at the center of an empty pitch. Between the two scenes, crossing the blank space that separates them, a thin thread of golden light connects them, like the line in a physics diagram joining two entangled particles. No face is recognizable.*
 
 Two particles that touched once remain correlated forever, at any distance. The distance, here, was temporal: nineteen years. Measuring the state of one defined the state of the other. Messi, Argentine, was nonetheless the ultimate vehicle of the Catalan pattern; Yamal is its next state. The embrace was not consolation, or not only consolation. It was the collapse of the relay's wave function: until that instant, the succession was a superposition of possibilities; upon contact, it became fact.
 
