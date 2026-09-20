@@ -25,6 +25,8 @@ import imgTarelAguaP7 from "../assets/images/tarel_agua/pagina7.jpg";
 
 // Import all PNG illustrations
 // @ts-ignore
+import imgRelevoPatron from "../assets/images/il_relevo_patron.jpg";
+// @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
 // @ts-ignore
 import img02 from "../assets/images/ilustracion_02.png";
@@ -448,10 +450,11 @@ const imageMap: Record<string, string> = {
   cart_masia: "https://upload.wikimedia.org/wikipedia/en/3/33/TheFarmMiro21to22.jpg",
   cart_constelaciones: "https://upload.wikimedia.org/wikipedia/en/3/39/MiroMorningStar.JPG",
 
-  // "Historia de un relevo" — il_relevo_patron / il_relevo_entrelazamiento:
-  // original illustrations replacing real AP/Reuters news photos that were
-  // hotlinked here before (copyrighted press photography, not ours to use).
-  // Add the generated files and map their ids here once they exist.
+  // "Historia de un relevo" — original illustrations replacing real
+  // AP/Reuters news photos that were hotlinked here before (copyrighted
+  // press photography, not ours to use).
+  il_relevo_patron: imgRelevoPatron,
+  // il_relevo_entrelazamiento: still pending -- add here once generated.
 
   // "El traductor" — real 1865 chalk portrait of George Eliot by Frederic
   // William Burton, public domain (NPG 669), hotlinked from Wikimedia Commons

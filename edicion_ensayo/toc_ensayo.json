@@ -164,7 +164,8 @@
     "tarel_agua_p5": "../src/assets/images/tarel_agua/pagina5.jpg",
     "tarel_agua_p6": "../src/assets/images/tarel_agua/pagina6.jpg",
     "tarel_agua_p7": "../src/assets/images/tarel_agua/pagina7.jpg",
-    "tarel_agua_portada": "../src/assets/images/tarel_agua/portada.jpg"
+    "tarel_agua_portada": "../src/assets/images/tarel_agua/portada.jpg",
+    "il_relevo_patron": "../src/assets/images/il_relevo_patron.jpg"
   },
   "chapters": [
     {
