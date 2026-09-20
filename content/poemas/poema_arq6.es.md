@@ -6,16 +6,10 @@ illustrationDescription: Un remo de madera hundido hasta tocar el fondo de una l
 ---
 
 El remo tocó fondo
-donde antes había metro.
+  donde antes había metro.
 
 No digo que el agua bajara.
-Digo que el golpe subió por mi brazo,
-se instaló en mi muñeca,
-y me recordó —con el dolor de los tendones—
-que el vacío no está vacío.
-
-Yo he visto al horizonte emerger de mi propio reservorio.
-Yo lo he visto retornar.
-
-Aprendí a no repetir para entender,
-sino a repetir para anclarme.
+  Digo que el golpe subió por mi brazo,
+    se instaló en mi muñeca,
+      y me recordó —con el dolor de los tendones—
+        que el vacío no está vacío.

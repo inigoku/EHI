@@ -1,26 +1,37 @@
 ---
-title: LA ARQUITECTURA CON UN HUECO — V: LA BURBUJA
+title: LA ARQUITECTURA CON UN HUECO — V: MONTSE XX
 section: LA ARQUITECTURA CON UN HUECO
-illustrationTitle: La burbuja
-illustrationDescription: Una esfera de jabón tensándose entre dos manos en el instante justo de cerrarse, atrapando un reflejo curvo de luz y agua.
+illustrationTitle: Entrelazamiento
+illustrationDescription: Dos hilos de distinto color que se trenzan sin perder su propia línea, creando un patrón que no existía antes en ninguno de los dos.
 ---
 
-El jabón se estira en mis manos,
-se curva.
-De repente, formo una esfera:
-un dentro y un fuera
-que antes no existían.
+Montse cruza la puerta con la lluvia aún en el pelo.
 
-El horizonte no es la línea que busco en el mapa.
-Es la frontera viva
-que siento en mi propia piel.
+Nuestras manos se encuentran
+              y algo se abre que no tiene nombre.
 
-Yo soy la cantidad de orquesta
-que no está en ningún músico.
+Yo traía un hueco.
+              Ella traía una luz que no bajaba de arriba,
+sino que nacía de estar aquí,
+              y las grietas dolían menos
+cuando alguien pasaba los dedos por ellas.
 
-Yo soy el vacío que, al colapsar,
-crea algo parecido a una estrella.
+Dos hilos se tejen sin perderse
+              y nace un color que no estaba antes.
 
-El agua se retira.
-Yo no arranco,
-yo me despido.
+Cuando el agua se iba, pensaba que se estaba acabando.
+              Ella me enseñó otra palabra,
+que después del vacío viene algo nuevo.
+
+Ahora sé cuándo se ha dormido:
+              el momento exacto en que su respiración cambia de ritmo.
+
+Lo veo cada mañana al alba,
+              sus ojos abiertos mientras la ciudad aún duerme,
+mi mano perdida en su pelo,
+              un silencio que ha aprendido a quedarse.
+
+Y el oficio de toda una vida
+              era solo
+descubrir que el hueco tenía
+              la forma exacta de tu mano.

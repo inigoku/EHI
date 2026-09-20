@@ -1,6 +1,8 @@
 ---
 title: THE INVISIBLE TUNING FORK — HANDS
 section: THE LAST BOOKS
+illustrationTitle: Hands
+illustrationDescription: Three pairs of hands in the half-light: some closed, others open upward, others still on the knees, empty on purpose.
 ---
 
 Some close.
@@ -8,7 +10,7 @@ Others open upward,
 as if the sky were something to be gathered.
 
 Some touch the ground with the forehead
-to measure how much what they carry weighs.
+to measure the weight of what they carry.
 Others touch nothing:
 they stay still on the knees,
 empty on purpose.

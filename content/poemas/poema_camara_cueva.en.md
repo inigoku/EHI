@@ -1,6 +1,8 @@
 ---
 title: THE FRACTAL REALITY — FROM THE CAVE
 section: THE LAST BOOKS
+illustrationTitle: From the Cave
+illustrationDescription: The interior of a cave: a rock ceiling that changes temperature without the weather having changed, and someone who stays.
 ---
 
 There is a ceiling.

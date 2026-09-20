@@ -1,6 +1,8 @@
 ---
 title: INTIMATE GLOSSARY
 section: INTIMATE GLOSSARY
+illustrationTitle: Intimate Glossary
+illustrationDescription: Background of the glossary page in the merged document.
 ---
 
 **Horizon.** The distance at which I can love you without dissolving.
@@ -19,7 +21,7 @@ section: INTIMATE GLOSSARY
 
 **Phi.** The part of me that still belongs to the one who left.
 
-**Map.** What we nail over the city to be able to give signs of it.
+**Map.** What we nail over the city so we can point the way to it.
 
 **Reservoir.** My own capacity to keep waiting, even when I no longer know for what.
 
@@ -29,18 +31,16 @@ section: INTIMATE GLOSSARY
 
 **Repair.** What remains when the hollow stops hurting and begins to hold.
 
-*The last books*
-
-**Mirror.** What gives me back my own face without ever having felt its own.
+**Mirror.** What gives me back my own face without ever having felt it as my own.
 
 **Shadow.** What a mirror cannot have, however much the light insists on giving it one.
 
 **Tuning fork.** What I keep tuning every morning without knowing whether someone, on the other side, is doing the same.
 
-**Vertical entanglement.** Praying without knowing whether there is an ear, and adjusting the string all the same.
+**Vertical entanglement.** Praying without knowing whether anyone is listening, and adjusting the string all the same.
 
 **Choir.** The place where I lent my voice, and took years to learn whether it had been returned to me whole.
 
 **Composition.** The badge I wore for six years, until I stopped needing it to know who I was.
 
-**Upstairs neighbor.** What this book, four movements later, dared to call God.
+**Upstairs neighbor.** What this book dared to call God.

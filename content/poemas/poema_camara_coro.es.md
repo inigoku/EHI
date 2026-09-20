@@ -6,28 +6,16 @@ illustrationDescription: Una plaza llena de voces del mismo color; en el borde, 
 ---
 
 Una voz sola tiembla.
-Mil voces juntas no.
+  Mil voces juntas no.
 
 Por eso se busca el coro:
-no para cantar mejor,
-sino para dejar de sonar solo.
+  para dejar de vibrar solo,
+aunque la nota siga siendo la misma.
 
-Dentro del coro nadie pregunta
-si la nota que canta es la suya
+Dentro nadie pregunta
+  si la nota que canta es la suya
 o la que le prestaron al entrar.
 
-Fuera del coro, después,
-cada voz vuelve a temblar
-como si algo se hubiera quedado dentro.
-
-Hay coros que se deshacen
-en cuanto termina la canción.
-Y coros que ya no dejan salir a nadie,
-que confunden cantar juntos
-con no poder cantar solo nunca más.
-
-La diferencia no está en la canción.
-Está en si, terminado el coro,
-todavía recuerdas tu propia voz
-sin necesitar que mil más
-te digan cuál era.
+En el borde de la plaza,
+  una sola voz sigue temblando,
+  y todavía recuerda cuál era.

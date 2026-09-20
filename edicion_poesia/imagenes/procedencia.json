@@ -1,0 +1,508 @@
+{
+  "portada": {
+    "origen": "src/assets/images/landing/poems_landing.png",
+    "repintada": false,
+    "original": [
+      364,
+      392
+    ],
+    "recorte": [
+      0,
+      0,
+      364,
+      392
+    ],
+    "recortada": [
+      364,
+      392
+    ],
+    "final": [
+      364,
+      392
+    ]
+  },
+  "poema_arq1": {
+    "origen": "src/assets/images/poemas/el_archivista.png",
+    "repintada": false,
+    "original": [
+      572,
+      1024
+    ],
+    "recorte": [
+      19,
+      45,
+      553,
+      994
+    ],
+    "recortada": [
+      534,
+      949
+    ],
+    "final": [
+      1317,
+      2340
+    ]
+  },
+  "poema_arq2": {
+    "origen": "src/assets/images/poemas/el_relojero.png",
+    "repintada": false,
+    "original": [
+      572,
+      1024
+    ],
+    "recorte": [
+      17,
+      48,
+      556,
+      1004
+    ],
+    "recortada": [
+      539,
+      956
+    ],
+    "final": [
+      1319,
+      2340
+    ]
+  },
+  "poema_arq3": {
+    "origen": "src/assets/images/poemas/el_luthier.png",
+    "repintada": false,
+    "original": [
+      572,
+      1024
+    ],
+    "recorte": [
+      13,
+      46,
+      559,
+      998
+    ],
+    "recortada": [
+      546,
+      952
+    ],
+    "final": [
+      1342,
+      2340
+    ]
+  },
+  "poema_arq4": {
+    "origen": "src/assets/images/poemas/la_cancion.png",
+    "repintada": false,
+    "original": [
+      572,
+      1024
+    ],
+    "recorte": [
+      24,
+      92,
+      549,
+      988
+    ],
+    "recortada": [
+      525,
+      896
+    ],
+    "final": [
+      1371,
+      2340
+    ]
+  },
+  "poema_arq5": {
+    "origen": "edicion_poesia/originales/poema_arq5.jpg",
+    "repintada": true,
+    "original": [
+      1342,
+      2000
+    ],
+    "recorte": [
+      0,
+      0,
+      1342,
+      2000
+    ],
+    "recortada": [
+      1342,
+      2000
+    ],
+    "final": [
+      1455,
+      2168
+    ]
+  },
+  "poema_arq6": {
+    "origen": "edicion_poesia/originales/poema_arq6.jpg",
+    "repintada": true,
+    "original": [
+      1342,
+      2000
+    ],
+    "recorte": [
+      0,
+      0,
+      1342,
+      2000
+    ],
+    "recortada": [
+      1342,
+      2000
+    ],
+    "final": [
+      1455,
+      2168
+    ]
+  },
+  "poema_arq7": {
+    "origen": "src/assets/images/poemas/clean_poema_arq3.png",
+    "repintada": false,
+    "original": [
+      572,
+      1024
+    ],
+    "recorte": [
+      27,
+      86,
+      550,
+      996
+    ],
+    "recortada": [
+      523,
+      910
+    ],
+    "final": [
+      1345,
+      2340
+    ]
+  },
+  "poema_arq8": {
+    "origen": "src/assets/images/poemas/clean_poema_arq4.png",
+    "repintada": false,
+    "original": [
+      572,
+      1024
+    ],
+    "recorte": [
+      12,
+      69,
+      560,
+      1009
+    ],
+    "recortada": [
+      548,
+      940
+    ],
+    "final": [
+      1364,
+      2340
+    ]
+  },
+  "poema_burbuja": {
+    "origen": "edicion_ilustrada/images/poema_burbuja.jpg",
+    "repintada": false,
+    "original": [
+      572,
+      1024
+    ],
+    "recorte": [
+      29,
+      29,
+      514,
+      995
+    ],
+    "recortada": [
+      485,
+      966
+    ],
+    "final": [
+      1175,
+      2340
+    ]
+  },
+  "poema_frialdad1": {
+    "origen": "edicion_poesia/originales/poema_frialdad1.jpg",
+    "repintada": true,
+    "original": [
+      1006,
+      1500
+    ],
+    "recorte": [
+      0,
+      0,
+      1006,
+      1500
+    ],
+    "recortada": [
+      1006,
+      1500
+    ],
+    "final": [
+      1455,
+      2169
+    ]
+  },
+  "poema_frialdad2": {
+    "origen": "edicion_poesia/originales/poema_frialdad2.jpg",
+    "repintada": true,
+    "original": [
+      1342,
+      2000
+    ],
+    "recorte": [
+      0,
+      0,
+      1342,
+      2000
+    ],
+    "recortada": [
+      1342,
+      2000
+    ],
+    "final": [
+      1455,
+      2168
+    ]
+  },
+  "poema_frialdad3": {
+    "origen": "edicion_poesia/originales/poema_frialdad3.jpg",
+    "repintada": true,
+    "original": [
+      1342,
+      2000
+    ],
+    "recorte": [
+      0,
+      0,
+      1342,
+      2000
+    ],
+    "recortada": [
+      1342,
+      2000
+    ],
+    "final": [
+      1455,
+      2168
+    ]
+  },
+  "poema_frialdad4": {
+    "origen": "edicion_poesia/originales/poema_frialdad4.jpg",
+    "repintada": true,
+    "original": [
+      1342,
+      2000
+    ],
+    "recorte": [
+      0,
+      0,
+      1342,
+      2000
+    ],
+    "recortada": [
+      1342,
+      2000
+    ],
+    "final": [
+      1455,
+      2168
+    ]
+  },
+  "poema_frialdad5": {
+    "origen": "edicion_poesia/originales/poema_frialdad5.jpg",
+    "repintada": true,
+    "original": [
+      1342,
+      2000
+    ],
+    "recorte": [
+      0,
+      0,
+      1342,
+      2000
+    ],
+    "recortada": [
+      1342,
+      2000
+    ],
+    "final": [
+      1455,
+      2168
+    ]
+  },
+  "poema_frialdad6": {
+    "origen": "edicion_poesia/originales/poema_frialdad6.jpg",
+    "repintada": true,
+    "original": [
+      1342,
+      2000
+    ],
+    "recorte": [
+      0,
+      0,
+      1342,
+      2000
+    ],
+    "recortada": [
+      1342,
+      2000
+    ],
+    "final": [
+      1455,
+      2168
+    ]
+  },
+  "poema_camara_reloj": {
+    "origen": "edicion_tapadura/laminas/cap2.jpg",
+    "repintada": false,
+    "original": [
+      816,
+      1312
+    ],
+    "recorte": [
+      0,
+      0,
+      816,
+      1312
+    ],
+    "recortada": [
+      816,
+      1312
+    ],
+    "final": [
+      1455,
+      2339
+    ]
+  },
+  "poema_camara_espejo": {
+    "origen": "edicion_ilustrada/images/poema_espejo.jpg",
+    "repintada": false,
+    "original": [
+      1024,
+      1024
+    ],
+    "recorte": [
+      102,
+      98,
+      922,
+      922
+    ],
+    "recortada": [
+      820,
+      824
+    ],
+    "final": [
+      1455,
+      1462
+    ]
+  },
+  "poema_camara_manos": {
+    "origen": "edicion_ilustrada/images/poema_manos.jpg",
+    "repintada": false,
+    "original": [
+      1024,
+      1024
+    ],
+    "recorte": [
+      39,
+      39,
+      985,
+      985
+    ],
+    "recortada": [
+      946,
+      946
+    ],
+    "final": [
+      1455,
+      1455
+    ]
+  },
+  "poema_camara_coro": {
+    "origen": "edicion_ilustrada/images/poema_coro.jpg",
+    "repintada": false,
+    "original": [
+      1024,
+      1024
+    ],
+    "recorte": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "recortada": [
+      1024,
+      1024
+    ],
+    "final": [
+      1455,
+      1455
+    ]
+  },
+  "poema_camara_vecinos": {
+    "origen": "edicion_ilustrada/images/poema_vecinos.jpg",
+    "repintada": false,
+    "original": [
+      1024,
+      1024
+    ],
+    "recorte": [
+      0,
+      0,
+      1024,
+      1024
+    ],
+    "recortada": [
+      1024,
+      1024
+    ],
+    "final": [
+      1455,
+      1455
+    ]
+  },
+  "poema_camara_cueva": {
+    "origen": "edicion_ilustrada/images/poema_cueva.jpg",
+    "repintada": false,
+    "original": [
+      1024,
+      1024
+    ],
+    "recorte": [
+      51,
+      46,
+      972,
+      976
+    ],
+    "recortada": [
+      921,
+      930
+    ],
+    "final": [
+      1455,
+      1469
+    ]
+  },
+  "poema_glosario": {
+    "origen": "edicion_poesia/originales/poema_glosario.jpg",
+    "repintada": true,
+    "original": [
+      1342,
+      2000
+    ],
+    "recorte": [
+      0,
+      0,
+      1342,
+      2000
+    ],
+    "recortada": [
+      1342,
+      2000
+    ],
+    "final": [
+      1455,
+      2168
+    ]
+  }
+}

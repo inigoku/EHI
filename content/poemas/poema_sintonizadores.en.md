@@ -21,4 +21,4 @@ the false mortar reveals its secret truth.
 
 The body, now ashes of a mineral origin,
 its prison of foundations no longer holds it:
-it crosses the dark veil, free the immaterial gift.
+it crosses the dark veil, frees the immaterial gift.

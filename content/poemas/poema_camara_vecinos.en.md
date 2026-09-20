@@ -1,6 +1,8 @@
 ---
 title: THE FRACTAL REALITY — NEIGHBORS
 section: THE LAST BOOKS
+illustrationTitle: Neighbors
+illustrationDescription: A floor plan that never closes, drawn from knocks and voices on the other side of the wall, where each room seems to contain another.
 ---
 
 Every wall has, behind it,
@@ -15,7 +17,7 @@ than fit inside the house.
 
 I have drawn a floor plan
 of everything I hear:
-footsteps, a tap, a chair
+footsteps, a faucet, a chair
 someone drags without seeing it.
 The plan never closes:
 every room holds another inside it.
