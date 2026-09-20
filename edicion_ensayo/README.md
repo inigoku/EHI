@@ -8,21 +8,34 @@ Amazon KDP. No incluye los cuentos ni los poemas: es el ensayo solo, completo.
 
 ## Qué hay aquí
 
-    El_Horizonte_Interior_Ensayo_6x9.pdf   el interior, 695 páginas, 6 × 9" (~10 MB)
+    El_Horizonte_Interior_Ensayo_6x9.pdf   el interior, 776 páginas, 6 × 9" (~15 MB)
     El_Horizonte_Interior_Ensayo.epub      el epub, 61 pantallas, 72 imágenes
     toc_ensayo.json                        la tabla de contenidos + mapa de ilustraciones
+    scripts/build_interior_premium.py      genera el interior (maqueta "chulo")
     scripts/build_epub_ensayo.py           genera el epub a partir del TOC
+    fonts/                                 Source Serif Pro (misma familia que edicion_poesia)
 
-El interior se genera con `scripts/generate_book_pdf.py` (en la raíz del
-repo, compartido con otras ediciones), al que se le añadió soporte de
-tamaño de página y márgenes espejo de tapa dura:
+El interior se genera con `scripts/build_interior_premium.py`, con la
+misma maquetación con alma que `edicion_poesia/scripts/build_interior.py`
+en vez del aspecto genérico de `scripts/generate_book_pdf.py`: tipografía
+Source Serif Pro, paleta propia (tinta/ámbar/oro), índice con puntos guía,
+cabeceras corridas (título del libro en la par, del capítulo en la impar)
+y una lámina a página completa antes de cada capítulo ilustrado, con el
+capítulo abriendo justo enfrente en la impar — igual que hace la poesía
+con cada poema. El cuerpo de cada capítulo (párrafos, tablas, citas,
+ilustraciones en línea) reutiliza el parser markdown de
+`scripts/generate_book_pdf.py` tal cual.
 
-    python3 ../scripts/generate_book_pdf.py toc_ensayo.json \
-      -o El_Horizonte_Interior_Ensayo_6x9.pdf \
-      --trim 6x9 --gutter 0.875 --outer 0.625 --top 0.75 --bottom 0.75
+    python3 scripts/build_interior_premium.py toc_ensayo.json \
+      -o El_Horizonte_Interior_Ensayo_6x9.pdf
 
     python3 scripts/build_epub_ensayo.py toc_ensayo.json \
       -o El_Horizonte_Interior_Ensayo.epub
+
+(`scripts/generate_book_pdf.py --trim 6x9 --gutter ...` sigue existiendo
+en la raíz del repo, compartido con otras ediciones, y produce un interior
+correcto pero con el aspecto genérico del motor común — es la maqueta que
+llevaba este volumen antes de pedir la versión "chulo".)
 
 ## El contenido
 
@@ -53,7 +66,13 @@ apuntar `toc_ensayo.json` a copias locales.
 ## Pendiente / siguiente paso natural
 
 - Portada y cubierta de tapa dura (frontal + envolvente con lomo), al estilo
-  de `edicion_poesia/`: no se han generado todavía.
+  de `edicion_poesia/scripts/build_cover.py` (que calcula el ancho de lomo a
+  partir del número de páginas): no se han generado todavía para esta
+  edición.
+- **776 páginas** es un libro largo. Antes de subirlo a KDP conviene
+  comprobar el límite de páginas vigente para tapa dura a 6×9" con el tipo
+  de papel elegido (blanco o crema) — puede exigir papel más fino, o
+  plantear partir el volumen en dos tomos si el límite queda por debajo.
 - Edición en inglés: todos los capítulos ya existen en `.en.md`. Se puede
   repetir el mismo proceso con un `toc_ensayo_en.json` que apunte a esos
-  ficheros y las mismas opciones de `--trim`.
+  ficheros.

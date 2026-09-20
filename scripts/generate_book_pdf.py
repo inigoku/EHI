@@ -357,9 +357,26 @@ def build_table(table_lines: list, styles, content_width: float) -> Optional[Tab
 
     parsed_rows = [split_cells(row) for row in rows]
     has_header = len(parsed_rows) > 1
+    num_cols = max(len(row) for row in parsed_rows)
+
+    # A table with many columns (e.g. a five-religion comparison) doesn't
+    # fit a 6x9 text column at body-text size: equal-width columns end up a
+    # few characters wide and every word breaks mid-syllable. Scale the
+    # cell type down -- and tighten padding -- as columns pile up, so prose
+    # inside still reads as prose instead of a ransom note.
+    if num_cols >= 6:
+        font_size, leading, pad_h, pad_v = 7.2, 9.2, 3, 3
+    elif num_cols >= 5:
+        font_size, leading, pad_h, pad_v = 7.8, 9.8, 4, 3
+    elif num_cols >= 4:
+        font_size, leading, pad_h, pad_v = 8.8, 11.2, 5, 4
+    else:
+        font_size, leading, pad_h, pad_v = styles["Body"].fontSize, styles["Body"].leading, 6, 4
+
     header_style = ParagraphStyle("TableHeader", parent=styles["Body"], fontName=styles["Body"].fontName,
-                                  alignment=0)
-    cell_style = ParagraphStyle("TableCell", parent=styles["Body"], alignment=0, spaceAfter=0)
+                                  alignment=0, fontSize=font_size, leading=leading)
+    cell_style = ParagraphStyle("TableCell", parent=styles["Body"], alignment=0, spaceAfter=0,
+                                 fontSize=font_size, leading=leading)
 
     data = []
     for row_idx, row in enumerate(parsed_rows):
@@ -369,16 +386,15 @@ def build_table(table_lines: list, styles, content_width: float) -> Optional[Tab
 
     if not data:
         return None
-    num_cols = max(len(row) for row in data)
     col_width = content_width / num_cols
     table = Table(data, colWidths=[col_width] * num_cols, hAlign="LEFT")
     style_commands = [
         ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#cccccc")),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
-        ("LEFTPADDING", (0, 0), (-1, -1), 6),
-        ("RIGHTPADDING", (0, 0), (-1, -1), 6),
-        ("TOPPADDING", (0, 0), (-1, -1), 4),
-        ("BOTTOMPADDING", (0, 0), (-1, -1), 4),
+        ("LEFTPADDING", (0, 0), (-1, -1), pad_h),
+        ("RIGHTPADDING", (0, 0), (-1, -1), pad_h),
+        ("TOPPADDING", (0, 0), (-1, -1), pad_v),
+        ("BOTTOMPADDING", (0, 0), (-1, -1), pad_v),
     ]
     if has_header:
         style_commands.append(("BACKGROUND", (0, 0), (-1, 0), colors.HexColor("#f0ece0")))
