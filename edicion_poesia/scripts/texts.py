@@ -109,13 +109,13 @@ TEXTS = {
             "Aquest volum reuneix els vint-i-un poemes i el glossari que tanquen "
             "*L'Horitzó Interior*. A l'obra completa apareixen intercalats entre "
             "l'assaig i els contes; aquí van junts, per primera vegada, i llegits "
-            "de seguida conten una altra cosa.",
+            "de seguit conten una altra cosa.",
 
             "Van junts perquè no defensen una hipòtesi: l'habiten. Pregunten què es "
             "sent estant dins d'una frontera, què fa mal quan s'esfilastra i què "
             "queda quan l'aigua de l'altre costat es retira.",
 
-            "Cada poema obri en pàgina senar, amb la seva il·lustració davant. Les "
+            "Cada poema obre en pàgina senar, amb la seva il·lustració davant. Les "
             "làmines provenen de les edicions il·lustrada i de cambra de l'obra, i "
             "al final es relacionen una a una.",
 
@@ -126,7 +126,7 @@ TEXTS = {
         "about": [
             "*L'Horitzó Interior* és un experiment de pensament: què passaria si "
             "la consciència tingués l'estructura d'un microforat negre de Hawking. "
-            "L'obra la desenvolupa per tres camins a la vegada. Un assaig de vint-i-sis "
+            "L'obra el desenvolupa per tres camins a la vegada. Un assaig de vint-i-sis "
             "capítols que va de la termodinàmica de forats negres i el buit "
             "quàntic a la Teoria de la Informació Integrada, passant per la saviesa "
             "taoista antiga. Setze contes que encarnen aquests conceptes a la "
@@ -172,10 +172,10 @@ TEXTS = {
         "plate_notes_override": {
             "poema_camara_reloj":
                 "Un rellotge de sorra desplegat en una hèlix de llum: la mateixa sorra "
-                "caient per dues gargoles que no marquen la mateixa hora.",
+                "caient per dues gorges que no marquen la mateixa hora.",
             "poema_glosario":
-                "La pàgina del glossari en l'edició il·lustrada: un abecedari de "
-                "objectes —l'ona, la casa, el diapasó, el bol— dibuixats sobre "
+                "La pàgina del glossari en l'edició il·lustrada: un abecedari "
+                "d'objectes —l'ona, la casa, el diapasó, el bol— dibuixats sobre "
                 "paper quadriculat.",
         },
         "kicker": "Antologia poètica de L'Horitzó Interior",
