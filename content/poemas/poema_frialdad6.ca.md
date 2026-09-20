@@ -9,11 +9,10 @@ L'habitació mira cap a un hivern que no acaba d'arribar.
 El silenci pesa, però no molesta,
   com si algú respirés molt lentament a la cantonada.
 
-Ella apareix sense entrar.
-  Una ombra roja,
-un eco de veu que no necessita cos.
+Montse entra amb l'abric encara posat
+  i dues tasses fredes d'ahir sobre la taula.
 
-Montse recolza el diapasó contra el vidre entelat,
+Recolza el diapasó contra el vidre entelat,
   no per sentir la nota,
 sinó per sentir-la als dits
   mentre la ciutat insisteix al seu brunzit gris.
@@ -21,12 +20,11 @@ sinó per sentir-la als dits
 Barcelona s'estén allà fora,
   amb les seves llums cansades
 i els seus balcons on ningú no canta.
-  Els plàtans, nus, esperen quelcom que no arriba.
 
-On volia escriure "tornar",
-  troba "quedar-se un moment".
-On volia escriure "vida",
-  el paper respon amb una calma estranya.
+Escriu "tornar" al quadern
+  i ho ratlla.
+Escriu "quedar-se un moment"
+  i no ho ratlla.
 
 Entre el ciment, un ficus deixa sortir un brot.
   No és un miracle.

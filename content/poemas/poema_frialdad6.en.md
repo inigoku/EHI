@@ -9,11 +9,10 @@ The room looks out toward a winter that never quite arrives.
 The silence weighs, but does not intrude,
  as if someone were breathing very slowly in the corner.
 
-She appears without entering.
- A red shadow,
-an echo of a voice that needs no body.
+Montse comes in still wearing her coat,
+ two cups gone cold since yesterday on the table.
 
-Montse presses the tuning fork against the fogged glass,
+She presses the tuning fork against the fogged glass,
  not to hear the note,
 but to feel it in her fingers
  while the city insists on its gray hum.
@@ -21,12 +20,11 @@ but to feel it in her fingers
 Barcelona stretches out there,
  with its tired lights
 and its balconies where no one sings.
- The plane trees, bare, wait for something that does not arrive.
 
-Where she wanted to write "return,"
- she finds "stay a moment."
-Where she wanted to write "life,"
- the paper answers with a strange calm.
+She writes "go back" in the notebook
+ and crosses it out.
+She writes "stay a moment"
+ and does not.
 
 Between the concrete, a ficus lets out a shoot.
  It is not a miracle.

@@ -9,11 +9,10 @@ La habitación mira hacia un invierno que no termina de llegar.
 El silencio pesa, pero no molesta,
   como si alguien respirara muy despacio en la esquina.
 
-Ella aparece sin entrar.
-  Una sombra roja,
-un eco de voz que no necesita cuerpo.
+Montse entra con el abrigo aún puesto
+  y dos tazas frías desde ayer sobre la mesa.
 
-Montse apoya el diapasón contra el cristal empañado,
+Apoya el diapasón contra el cristal empañado,
   no para oír la nota,
 sino para sentirla en los dedos
   mientras la ciudad insiste en su zumbido gris.
@@ -21,12 +20,11 @@ sino para sentirla en los dedos
 Barcelona se extiende ahí fuera,
   con sus luces cansadas
 y sus balcones donde nadie canta.
-  Los plátanos, desnudos, esperan algo que no llega.
 
-Donde quería escribir "volver",
-  encuentra "quedarse un momento".
-Donde quería escribir "vida",
-  el papel responde con una calma rara.
+Escribe "volver" en el cuaderno
+  y lo tacha.
+Escribe "quedarse un momento"
+  y no lo tacha.
 
 Entre el cemento, un ficus deja salir un brote.
   No es un milagro.

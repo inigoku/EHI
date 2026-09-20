@@ -15,15 +15,5 @@ una frontera cansada
   per on entra el que no vull
 i surt el poc que encara guardo.
 
-El cos és un espai prestat.
-  Una habitació sense finestres
-on la llum entra tard
-  i se'n va massa aviat.
-
-Cada gest deixa un rastre mínim:
-  un fred,
-  un pes,
-  una absència.
-
 I sota la llengua, encara,
   una fredor que no se'n va.

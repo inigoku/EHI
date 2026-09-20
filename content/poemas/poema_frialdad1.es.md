@@ -15,15 +15,5 @@ una frontera cansada
   por donde entra lo que no quiero
 y sale lo poco que aún guardo.
 
-El cuerpo es un espacio prestado.
-  Una habitación sin ventanas
-donde la luz entra tarde
-  y se va demasiado pronto.
-
-Cada gesto deja un rastro mínimo:
-  un frío,
-  un peso,
-  una ausencia.
-
 Y debajo de la lengua, todavía,
   una frialdad que no se va.
