@@ -1,24 +1,38 @@
 ---
-title: THE ARCHITECTURE WITH A HOLLOW — V: THE BUBBLE
+title: THE ARCHITECTURE WITH A HOLLOW — V: MONTSE XX
 section: THE ARCHITECTURE WITH A HOLLOW
+illustrationTitle: Interweaving
+illustrationDescription: Two threads of different color that weave without losing their own line, creating a pattern that did not exist before in either of them.
 ---
 
-The soap stretches in my hands,
-it curves.
-Suddenly, I form a sphere:
-an inside and an outside
-that did not exist before.
+Montse is the face of a horizon I did not know I had.
 
-The horizon is not the line I seek on the map.
-It is the living boundary
-that I feel on my own skin.
+Our hands find each other
+and something opens that has no name.
 
-I am the sum of the orchestra
-that is in no single musician.
+I carried a hollow.
+She carried a light that did not come down from above,
+but was born of being here,
+and the cracks hurt less
+when someone ran their fingers over them.
 
-I am the void that, upon collapsing,
-creates something like a star.
+Pure dance:
+two threads weave without losing themselves
+and a color is born that was not there before.
 
-The water recedes.
-I do not tear away,
-I say goodbye.
+When the water was leaving, I thought it was ending.
+She taught me another word,
+that after the emptiness something new comes.
+
+My chest has learned a rhythm it did not know,
+the one that sounds when two breaths find each other.
+
+I see it every morning at dawn,
+her eyes open while the city still sleeps,
+my hand lost in her hair,
+a silence that has learned to stay.
+
+And the craft of a whole life
+was only
+to discover that the hollow had
+the exact shape of your hand.

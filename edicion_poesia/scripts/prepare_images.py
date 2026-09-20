@@ -50,6 +50,7 @@ SOURCES = {
     "poema_arq6": "src/assets/images/poemas/clean_poema_arq2.png",
     "poema_arq7": "src/assets/images/poemas/clean_poema_arq3.png",
     "poema_arq8": "src/assets/images/poemas/clean_poema_arq4.png",
+    "poema_burbuja": "edicion_ilustrada/images/poema_burbuja.jpg",
     # libro segundo: La frialdad de una ciudad apagada
     "poema_frialdad1": "src/assets/images/poemas/clean_frialdad_eco.jpg",
     "poema_frialdad2": "src/assets/images/poemas/clean_frialdad_muerte.jpg",

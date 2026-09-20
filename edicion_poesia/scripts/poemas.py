@@ -36,7 +36,7 @@ class Book:
     poems: list[Poem] = field(default_factory=list)
 
 
-ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII"]
+ROMAN = ["I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX"]
 
 # id -> titulo en esta edicion. Los ficheros traen el titulo con el nombre del
 # ciclo delante ("LA ARQUITECTURA CON UN HUECO - I: EL ARCHIVISTA"); aqui se
@@ -50,6 +50,7 @@ TITLES_ES = {
     "poema_arq6": "El remo",
     "poema_arq7": "El temblor",
     "poema_arq8": "La orilla",
+    "poema_burbuja": "La burbuja",
     "poema_frialdad1": "Cartografía del eco",
     "poema_frialdad2": "Canto de muerte",
     "poema_frialdad3": "Quejido de la vuelta",
@@ -74,6 +75,7 @@ TITLES_CA = {
     "poema_arq6": "El rem",
     "poema_arq7": "El tremolor",
     "poema_arq8": "La vora",
+    "poema_burbuja": "La bombolla",
     "poema_frialdad1": "Cartografia de l'eco",
     "poema_frialdad2": "Cant de Mort",
     "poema_frialdad3": "Lament de la Volta",
@@ -120,7 +122,8 @@ BOOK_DEFS_ES = [
         "Ocho oficios para un duelo: lo que queda cuando el agua se retira "
         "y hay que seguir midiendo la orilla.",
         ["poema_arq1", "poema_arq2", "poema_arq3", "poema_arq5",
-         "poema_arq6", "poema_arq7", "poema_arq8", "poema_arq4"],
+         "poema_arq6", "poema_arq7", "poema_arq8", "poema_arq4",
+         "poema_burbuja"],
     ),
     (
         "libro2",
@@ -150,7 +153,8 @@ BOOK_DEFS_CA = [
         "Vuit oficis per a un dol: el que queda quan l'aigua es retira "
         "i cal seguir mesurant la vora.",
         ["poema_arq1", "poema_arq2", "poema_arq3", "poema_arq5",
-         "poema_arq6", "poema_arq7", "poema_arq8", "poema_arq4"],
+         "poema_arq6", "poema_arq7", "poema_arq8", "poema_arq4",
+         "poema_burbuja"],
     ),
     (
         "libro2",

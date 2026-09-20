@@ -28,6 +28,7 @@ const ORDER = [
   "poema_arq6",
   "poema_arq7",
   "poema_arq8",
+  "poema_burbuja",
   "poema_frialdad1",
   "poema_frialdad2",
   "poema_frialdad3",

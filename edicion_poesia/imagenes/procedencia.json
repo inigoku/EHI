@@ -197,6 +197,28 @@
       2340
     ]
   },
+  "poema_burbuja": {
+    "origen": "edicion_ilustrada/images/poema_burbuja.jpg",
+    "repintada": false,
+    "original": [
+      572,
+      1024
+    ],
+    "recorte": [
+      29,
+      29,
+      514,
+      995
+    ],
+    "recortada": [
+      485,
+      966
+    ],
+    "final": [
+      1175,
+      2340
+    ]
+  },
   "poema_frialdad1": {
     "origen": "edicion_poesia/originales/poema_frialdad1.jpg",
     "repintada": true,
