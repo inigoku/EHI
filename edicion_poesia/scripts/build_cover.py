@@ -15,13 +15,22 @@ circulan no coinciden del todo entre fuentes, asi que antes de subir conviene
 contrastar el resultado con la plantilla que genera el propio KDP para el
 numero de paginas final; --ancho y --alto permiten forzar esas medidas.
 
-    python3 edicion_poesia/scripts/build_cover.py --paginas 78
+El numero de paginas para el lomo se lee, por idioma, del interior ya
+compilado (Ecos_en_el_Borde_6x9_interior*.pdf / Echoes_at_the_Edge_6x9_
+interior.pdf) en vez de pedirse a mano, para que no quede desactualizado en
+silencio si el interior cambia de tamano en un idioma y no en los otros.
+--paginas sigue disponible para forzar el mismo numero en los tres, por
+ejemplo si aun no se ha compilado el interior de alguno.
+
+    python3 edicion_poesia/scripts/build_interior.py   # antes, siempre
+    python3 edicion_poesia/scripts/build_cover.py
 """
 from __future__ import annotations
 
 import argparse
 from pathlib import Path
 
+import pymupdf
 from PIL import Image, ImageChops, ImageDraw, ImageFilter
 from reportlab.lib import colors
 from reportlab.lib.units import inch
@@ -52,6 +61,35 @@ def get_wrap_pdf(lang: str = "es") -> Path:
     if lang == "en":
         return BASE / "Echoes_at_the_Edge_cubierta_tapadura.pdf"
     return BASE / "Ecos_en_el_Borde_cubierta_tapadura.pdf"
+
+def get_interior_pdf(lang: str = "es") -> Path:
+    """Ruta del interior compilado para ese idioma (build_interior.get_out_path,
+    duplicada aqui en vez de importada para no chocar con su registro de
+    fuentes bajo los mismos nombres al cargar los dos modulos)."""
+    if lang == "ca":
+        return BASE / "Ecos_en_el_Borde_6x9_interior_ca.pdf"
+    if lang == "en":
+        return BASE / "Echoes_at_the_Edge_6x9_interior.pdf"
+    return BASE / "Ecos_en_el_Borde_6x9_interior.pdf"
+
+
+def interior_page_count(lang: str) -> int:
+    """Paginas reales del interior ya compilado para ese idioma.
+
+    Evita que --paginas quede desactualizado en silencio para un idioma
+    cuando el interior cambia de tamaño (p. ej. al anadir un poema) y no se
+    recuerda pasar el numero correcto al generar la cubierta.
+    """
+    pdf = get_interior_pdf(lang)
+    if not pdf.exists():
+        raise SystemExit(
+            f"No encuentro {pdf.relative_to(ROOT)} para calcular el lomo de "
+            f"'{lang}'. Compila antes el interior (build_interior.py) o pasa "
+            f"--paginas a mano."
+        )
+    with pymupdf.open(pdf) as doc:
+        return doc.page_count
+
 
 FRONT_PDF = get_front_pdf()
 WRAP_PDF = get_wrap_pdf()
@@ -331,19 +369,24 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
           f"(lomo {spine_in:.3f}\" para {pages} páginas)")
 
 
-def build(lang: str = "es", paginas: int = 78, ancho: float = None, alto: float = None) -> None:
+def build(lang: str = "es", paginas: int | None = None, ancho: float = None, alto: float = None) -> None:
     global CURRENT_LANG, FRONT_PDF, WRAP_PDF
     CURRENT_LANG = lang
     FRONT_PDF = get_front_pdf(lang)
     WRAP_PDF = get_wrap_pdf(lang)
     build_front()
+    if paginas is None:
+        paginas = interior_page_count(lang)
+        print(f"  ({lang}: lomo calculado sobre {paginas} páginas reales del interior)")
     build_wrap(paginas, ancho, alto)
 
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--paginas", type=int, default=78,
-                    help="páginas del interior; fija el ancho del lomo")
+    ap.add_argument("--paginas", type=int, default=None,
+                    help="fuerza las páginas del interior para las tres cubiertas "
+                         "(por defecto se lee el número real de cada interior "
+                         "compilado, por idioma)")
     ap.add_argument("--ancho", type=float, default=None,
                     help="ancho total de la envolvente en pulgadas (plantilla de KDP)")
     ap.add_argument("--alto", type=float, default=None,
