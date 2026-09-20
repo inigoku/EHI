@@ -6,7 +6,7 @@ illustrationDescription: A wooden oar sunk to the bottom of a shallow lagoon, th
 ---
 
 The oar touched bottom
-where before there was a meter.
+where before there was a fathom.
 
 I am not saying the water receded.
 I am saying the impact rose through my arm,
@@ -17,5 +17,5 @@ that the void is not empty.
 I have seen the horizon emerge from my own reservoir.
 I have seen it return.
 
-I learned not to repeat to understand,
-but to repeat to anchor myself.
+Repetition, I learned, anchors more
+than understanding ever could.

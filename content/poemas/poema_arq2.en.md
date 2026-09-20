@@ -14,11 +14,11 @@ that returns for a visit
 and does not take off its coat.
 
 The balance wheel does its work:
-forth, back, forth.
+tick, tock, tick.
 I listen to it as one listens to
 another's heart:
 grateful that it is not mine
-keeping the count.
+that keeps the count.
 
 When the morning begins to thicken
 I know it before my fingers do.

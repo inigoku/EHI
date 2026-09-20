@@ -13,7 +13,7 @@ for someone I do not know.
 
 I recorded the first strip of mud
 in the handwriting of normal days.
-There are scripts that do not know
+There are hands that do not know
 they are writing a farewell.
 
 The children show their blisters

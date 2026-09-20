@@ -10,7 +10,7 @@ Others open upward,
 as if the sky were something to be gathered.
 
 Some touch the ground with the forehead
-to measure how much what they carry weighs.
+to measure the weight of what they carry.
 Others touch nothing:
 they stay still on the knees,
 empty on purpose.

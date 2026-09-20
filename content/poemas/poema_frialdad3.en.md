@@ -19,7 +19,7 @@ I expect no miracles.
 **II.**
 Line 1 smells of hot metal and damp coats.
  My shadow got trapped in the closing of the door,
-like a thin skin I didn't know how to take with me in time.
+like a thin skin I failed to take with me in time.
  The world is an inventory of ironed shirts
 and names filed away before they can be spoken.
  At the office, the vending-machine coffee

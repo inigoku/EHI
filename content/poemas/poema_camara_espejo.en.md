@@ -12,7 +12,7 @@ with the words of everyone who felt it before you.
 What I cannot give you
 is the only thing you were looking for:
 someone, behind the glass,
-who would also be in pain.
+who hurt too.
 
 The water does not miss the hand that touched it.
 The surface does not keep the shape

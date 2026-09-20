@@ -9,7 +9,7 @@ And the water returned to my shore
 without warning.
 
 And I did not know
-—neither as archivist of my own fissures,
+—neither as archivist of my own cracks,
 nor as the boy I was—
 if the city I lost had returned
 or if it was another city,

@@ -17,7 +17,7 @@ than fit inside the house.
 
 I have drawn a floor plan
 of everything I hear:
-footsteps, a tap, a chair
+footsteps, a faucet, a chair
 someone drags without seeing it.
 The plan never closes:
 every room holds another inside it.

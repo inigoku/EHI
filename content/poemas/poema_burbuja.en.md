@@ -18,7 +18,7 @@ that I feel on my own skin.
 I am the sum of the orchestra
 that is in no single musician.
 
-I am the void that, upon collapsing,
+I am the void that, as it collapses,
 creates something like a star.
 
 The water recedes.

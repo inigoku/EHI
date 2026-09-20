@@ -21,7 +21,7 @@ illustrationDescription: Background of the glossary page in the merged document.
 
 **Phi.** The part of me that still belongs to the one who left.
 
-**Map.** What we nail over the city to be able to give signs of it.
+**Map.** What we nail over the city so we can point the way to it.
 
 **Reservoir.** My own capacity to keep waiting, even when I no longer know for what.
 
@@ -37,7 +37,7 @@ illustrationDescription: Background of the glossary page in the merged document.
 
 **Tuning fork.** What I keep tuning every morning without knowing whether someone, on the other side, is doing the same.
 
-**Vertical entanglement.** Praying without knowing whether there is an ear, and adjusting the string all the same.
+**Vertical entanglement.** Praying without knowing whether anyone is listening, and adjusting the string all the same.
 
 **Choir.** The place where I lent my voice, and took years to learn whether it had been returned to me whole.
 
