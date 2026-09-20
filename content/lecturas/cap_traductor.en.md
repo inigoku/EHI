@@ -64,8 +64,8 @@ Almost everything said so far comes from Dalí, from his biographers, or from th
 
 It is the only time, among everything that survives, that Gala explains her function in her own words, and not before a gallerist or before posterity, but privately, to a stepfather on the other side of a world war. There is a second piece, this time on the input side, that Dalí himself put in writing. On finishing *The Persistence of Memory* in 1931, he watched Gala's face as she looked at the completed painting and saw in it—these are nearly his own words—the unmistakable contraction of wonder. That, he said, was what convinced him the image worked, because Gala was never wrong when judging the authenticity of an enigma.
 
-## [ILUSTRACIÓN cart_relojes: "The Persistence of Memory"]
-*Salvador Dalí, oil on canvas, 1931. The Museum of Modern Art, New York.*
+## [ILUSTRACIÓN il_cart_relojes: "The Time That Melts"]
+*Original illustration. An arid, golden coastal landscape at the edge of a dream: three soft clocks drape like wet cloth over a dead branch, the edge of a table, and a strange sleeping shape in the sand, their hands bent and drooping. A few dark ants cross a pocket watch, the only one left rigid.*
 
 This is not a minor detail. An output translator does not need to have an opinion about the painting; she only needs to sell it. But what Dalí describes here is something else: a verdict, painting by painting, on whether the signal had become what it needed to be before anyone else saw it. Gala did not only decide the general direction of the turn toward classicism. She certified, work by work, whether that direction had been fulfilled.
 

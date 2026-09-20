@@ -64,8 +64,8 @@ De casi todo lo dicho hasta aquí sabemos por Dalí, por sus biógrafos o por qu
 
 Es la única vez, entre todo lo que se conserva, en que Gala explica su función con sus propias palabras y no ante un galerista ni ante la posteridad, sino en privado, a un padrastro al otro lado de una guerra mundial. Y hay una segunda pieza, esta vez del lado de la entrada del sistema, que Dalí mismo dejó por escrito. Al terminar *La persistencia de la memoria* en 1931, miró la cara de Gala mientras ella observaba el cuadro terminado, y vio en ella —son casi sus palabras— la contracción inconfundible del asombro. Eso, dijo, fue lo que le convenció de que la imagen funcionaba, porque Gala nunca se equivocaba al juzgar la autenticidad de un enigma.
 
-## [ILUSTRACIÓN cart_relojes: "La persistencia de la memoria"]
-*Salvador Dalí, óleo sobre lienzo, 1931. The Museum of Modern Art, Nueva York.*
+## [ILUSTRACIÓN il_cart_relojes: "El tiempo que se derrite"]
+*Ilustración original. Un paisaje costero árido y dorado, al borde del sueño: tres relojes blandos cuelgan como tela mojada sobre una rama muerta, el borde de una mesa y una extraña forma dormida en la arena, sus manecillas dobladas y caídas. Unas pocas hormigas oscuras cruzan un reloj de bolsillo, el único que permanece rígido.*
 
 No es un dato menor. Un traductor de salida no necesita opinar sobre el cuadro; solo necesita venderlo. Pero aquí Dalí describe algo distinto: un veredicto, cuadro a cuadro, sobre si la señal había llegado a ser lo que debía ser antes de que nadie más la viera. Gala no solo decidía la dirección general del giro hacia el clasicismo. Certificaba, obra por obra, si esa dirección se había cumplido.
 

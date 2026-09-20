@@ -30,18 +30,18 @@ Antes de cartografiar los tres sistemas, hay que registrar la perturbación que 
 
 La Guerra Civil fue para estos tres horizontes un mismo campo gravitatorio externo con tres respuestas distintas. Dalí la vio venir y la convirtió en carne: la *Construcción blanda con judías hervidas*, pintada meses antes del alzamiento, es un cuerpo que se desgarra a sí mismo, la premonición hecha anatomía. Un país entero reducido a una figura que se estrangula con sus propias manos. Después la evitó: ni trinchera ni pancarta, sino huida hacia Italia y América, y un silencio político que fue otra forma de sellar la cápsula — un silencio que con los años derivó en coqueteo con el poder, y que sus antiguos compañeros surrealistas jamás le perdonaron. La guerra no entró en Dalí: fue digerida por el método y devuelta como monstruo.
 
-## [ILUSTRACIÓN cart_construccion: "Construcción blanda con judías hervidas"]
-*Salvador Dalí, óleo sobre lienzo, 1936. Philadelphia Museum of Art.*
+## [ILUSTRACIÓN il_cart_construccion: "Anatomía de un presagio"]
+*Ilustración original. Una arquitectura blanda de miembros y torsos entrelazados, color arena bajo un cielo de tormenta, tensándose contra sí misma: una mano aprieta su propia garganta, una pierna se dobla bajo su propio peso. Sobre la tierra yerma, un puñado de judías oscuras. Ningún rostro es reconocible: la figura entera es un solo cuerpo desgarrándose.*
 
 Picasso hizo lo contrario: abrió su horizonte de par en par una sola vez. El *Guernica* es el momento en que la información exterior —el bombardeo, los cuerpos, el caballo— atraviesa la membrana sin ser transformada en autobiografía. Por una vez, el yo picassiano se apartó para dejar pasar el grito de otros. El cuadro salió de gira por el mundo como embajador de una república moribunda y no pisó España hasta 1981, cuando ya habían muerto el dictador y el pintor: la información tardó cuarenta y cuatro años en volver a su origen. Picasso nunca regresó a la España de Franco; su exilio fue una órbita estable alrededor de un país que ya solo existía dentro de él.
 
-## [ILUSTRACIÓN cart_guernica: "Guernica"]
-*Pablo Picasso, óleo sobre lienzo, 1937. Museo Reina Sofía, Madrid.*
+## [ILUSTRACIÓN il_cart_guernica: "El grito que atraviesa"]
+*Ilustración original. Una composición en blanco, negro y gris ceniza: la silueta de un caballo se encabrita en el centro bajo un sol partido como una bombilla rota, mientras planos geométricos astillados sugieren muros derrumbados y sombras alargadas perdiéndose hacia los bordes. Ningún rostro conocido, ninguna escena real: solo el grito reducido a su geometría.*
 
 Miró respondió con *El segador* y el cartel *Aidez l'Espagne*, y luego con el repliegue: Varengeville, Palma, la retirada hacia lo mínimo. Sus *Constelaciones* nacen exactamente ahí, mientras Europa arde: veintitrés gouaches de formato pequeño, transportables, pintados por un hombre que huye con su familia de una guerra hacia otra. No son evasión: son resistencia por concentración. Su horizonte no se cerró con la guerra: se hizo más fino y más tenso, como una cuerda.
 
-## [ILUSTRACIÓN cart_constelaciones: "Constelaciones"]
-*Joan Miró, «La Estrella Matinal», gouache sobre papel, de la serie Constelaciones, 1940.*
+## [ILUSTRACIÓN il_cart_constelaciones: "Red mínima bajo el fuego"]
+*Ilustración original. Un pequeño cuadrado de azul medianoche, del tamaño de una libreta de viaje, cubierto por una delicada red de líneas negras que conectan estallidos de estrellas, espirales y pequeños ojos biomórficos: una red lo bastante pequeña para caber en una mano en fuga, con los hilos tensados como si sostuvieran algo bajo presión.*
 
 Tres reconfiguraciones del mismo golpe: Dalí lo digiere, Picasso lo expulsa, Miró lo comprime.
 
@@ -57,8 +57,8 @@ Su pintura es una cápsula sellada donde el mundo exterior no entra sin someters
 
 El método tiene una obra manifiesto: la *Metamorfosis de Narciso*. Una figura agachada junto al agua es, a la vez, un muchacho ensimismado y una mano pétrea que sostiene un huevo del que brota una flor. No hay truco: ambas lecturas son simultáneas y completas, y el ojo no puede quedarse con las dos a la vez. Dalí ha construido una imagen en superposición, y cada espectador la colapsa a su manera. Freud, que lo recibió en Londres en 1938 con ese cuadro bajo el brazo, admitió ante el joven español lo que negaba al resto de los surrealistas: que allí había un problema psicológico serio. No era un cumplido. Era un diagnóstico.
 
-## [ILUSTRACIÓN cart_narciso: "Metamorfosis de Narciso"]
-*Salvador Dalí, óleo sobre lienzo, 1937. Tate, Londres.*
+## [ILUSTRACIÓN il_cart_narciso: "La imagen que no colapsa"]
+*Ilustración original. Una orilla rocosa al atardecer, partida por un estanque inmóvil como un espejo. A un lado, una silueta arrodillada contempla su propio reflejo; al otro, esa misma silueta se ha convertido en una mano de piedra agrietada que sostiene un huevo del que brota una flor. Ambas mitades comparten un único contorno continuo, de modo que el ojo no puede sostener las dos lecturas a la vez.*
 
 Frente al caos —la guerra, el exilio, la vejez— Dalí construye un universo autorreferencial donde sus fobias (la locura, la muerte, la impotencia) y sus fijaciones (Gala, la religión, el dinero) orbitan como planetas de un sistema cerrado. La máquina paranoica funciona incluso hacia atrás en la historia del arte: durante años, Dalí sometió el apacible *Ángelus* de Millet a su método hasta extraerle un drama sepulcral —los dos campesinos no rezan sobre la cosecha, sostuvo, sino sobre la tumba de un hijo muerto—, y llegó a exigir que se radiografiara el lienzo para confirmarlo. Que la radiografía revelara efectivamente una forma repintada bajo la cesta es lo de menos: lo decisivo es que, para Dalí, ninguna imagen del mundo estaba a salvo de ser reabsorbida por su sistema. El repertorio propio lo confirma: las muletas que apuntalan la carne blanda, las hormigas que anuncian la putrefacción, los cajones que se abren en los torsos como si el cuerpo fuera un archivo. Nada de eso es decorado: es la nomenclatura de un sistema planetario privado, tan estable que puede reconocerse de un cuadro a otro durante cincuenta años. Lo que entra en Dalí no vuelve a salir intacto: emerge distorsionado, estirado, convertido en el eco de un yo que ya no sabe dónde termina el mundo y dónde empieza su propia sombra.
 
@@ -66,8 +66,8 @@ Frente al caos —la guerra, el exilio, la vejez— Dalí construye un universo 
 
 Hay una obra que anticipa este final con décadas de adelanto. En 1952, tras Hiroshima, Dalí vuelve sobre su cuadro más célebre y pinta la *Desintegración de la persistencia de la memoria*: los relojes blandos de 1931 flotan ahora sobre una retícula de bloques que se separan, el mundo entero descompuesto en unidades discretas que ya no se tocan. Es su período de mística nuclear: la materia, ha descubierto, está hecha de partículas que no se rozan, y él pinta esa discontinuidad con el mismo fervor con que antes pintaba la carne. Sin saberlo, está ensayando su propio futuro: veinte años después, la desintegración abandonará el lienzo y entrará en su mano.
 
-## [ILUSTRACIÓN cart_desintegracion: "Desintegración de la persistencia de la memoria"]
-*Salvador Dalí, óleo sobre lienzo, 1952-1954. The Dalí Museum, San Petersburgo (Florida).*
+## [ILUSTRACIÓN il_cart_desintegracion: "La retícula que se separa"]
+*Ilustración original. Un horizonte árido convertido en una retícula de pequeños cubos flotantes que se alejan unos de otros, cada uno capturando la luz por separado. Un único reloj blando cuelga sobre dos de esos bloques a la deriva, su forma deshilachándose en los bordes hasta convertirse en partículas dispersas en el espacio vacío entre los cubos.*
 
 Porque el temblor degenerativo de sus últimos años no es un dato clínico externo: es su horizonte interior resquebrajándose. El análisis fractal de sus últimos trazos detectó alteraciones que preceden al diagnóstico; no son un fallo técnico, son el yo perdiendo cohesión.
 
@@ -81,8 +81,8 @@ Dentro de esa cápsula convulsa, Gala no es una musa. Es el punto de anclaje que
 
 Basta seguir sus transmutaciones para medir su masa. En *Galarina* es carne serena con un pecho descubierto, pintada —dijo él— como Rafael pintaba a sus madonas. En la *Leda atómica* es diosa suspendida, sin tocar el cisne ni el pedestal, en un mundo donde nada roza nada: el amor reescrito como una geometría sin contacto, donde la unión ya no depende del roce sino de la posición relativa de los cuerpos en el espacio. En el *Corpus hypercubus* ya ni siquiera participa de la escena: observa la crucifixión desde abajo, vestida de dama toledana, convertida en la testigo cuya mirada sostiene el prodigio. Con los años, Dalí llegó a firmar con el nombre de ambos, «Gala Salvador Dalí», como si la firma misma fuera un sistema binario.
 
-## [ILUSTRACIÓN cart_corpus: "Corpus Hypercubus"]
-*Salvador Dalí, óleo sobre lienzo, 1954. The Metropolitan Museum of Art, Nueva York.*
+## [ILUSTRACIÓN il_cart_corpus: "El testigo bajo el cubo desplegado"]
+*Ilustración original. Un hipercubo desplegado de cubos translúcidos y luminosos flota ingrávido contra un cielo oscuro; en su centro, una silueta humana levita en calma, los brazos extendidos. Abajo, sobre un suelo de ajedrez, una figura envuelta en una túnica se arrodilla de espaldas al espectador, la mirada fija en la forma flotante: testigo, no protagonista.*
 
 Pero, como toda singularidad, Gala es inobservable directamente. No la vemos en los cuadros como realmente es: la vemos transmutada en Leda, en virgen, en arquitectura. Es la masa invisible que curva el espacio daliniano, y solo se manifiesta a través de la gravedad que ejerce sobre todo lo demás.
 
@@ -104,8 +104,8 @@ Dalí tardó décadas en nombrar lo evidente. Al final de su vida repetía que L
 
 Dalí no fragmenta por estética: fragmenta porque su horizonte es un campo de batalla, y multiplicar las imágenes es su única forma de no colapsar. Sus relojes blandos no son un guiño a Einstein: son la demostración de que el tiempo se estira con el deseo y se colapsa con el terror. Él mismo dio la clave doméstica del prodigio: un camembert fundiéndose una noche de agosto. Que el emblema del tiempo subjetivo naciera de un queso derretido no es una anécdota: es el método en estado puro, lo trivial elevado a cosmología por la presión de una mente que no distingue jerarquías entre el pánico y la cena. En su cápsula, el pasado y el futuro coexisten en un presente viscoso, suspendidos en la membrana del horizonte.
 
-## [ILUSTRACIÓN cart_relojes: "La persistencia de la memoria"]
-*Salvador Dalí, óleo sobre lienzo, 1931. The Museum of Modern Art, Nueva York.*
+## [ILUSTRACIÓN il_cart_relojes: "El tiempo que se derrite"]
+*Ilustración original. Un paisaje costero árido y dorado, al borde del sueño: tres relojes blandos cuelgan como tela mojada sobre una rama muerta, el borde de una mesa y una extraña forma dormida en la arena, sus manecillas dobladas y caídas. Unas pocas hormigas oscuras cruzan un reloj de bolsillo, el único que permanece rígido.*
 
 ## II. Pablo Picasso: la superposición
 
@@ -113,8 +113,8 @@ Si Dalí se encierra en un pozo de alta gravedad, Picasso habita un prisma en ro
 
 Miradlo en los retratos bicéfalos de los años treinta y cuarenta: la placidez rubia de Marie-Thérèse fundida con la arista y el llanto de Dora Maar en un solo rostro imposible. En *El sueño*, Marie-Thérèse duerme con la cabeza escindida en dos mitades que son perfil y luna; en *La mujer que llora*, el rostro de Dora se rompe en cristales verdes y ácidos alrededor de un pañuelo que es también un vidrio masticado. Picasso no pinta mujeres: pinta estados superpuestos del afecto, y obliga al espectador a procesar el amor, la destrucción y el deseo en un solo golpe de vista.
 
-## [ILUSTRACIÓN cart_llorona: "La mujer que llora"]
-*Pablo Picasso, óleo sobre lienzo, 1937. Tate, Londres.*
+## [ILUSTRACIÓN il_cart_llorona: "El rostro fragmentado"]
+*Ilustración original. Un rostro roto en fragmentos de vidrio verde ácido y azul cobalto, cada esquirla mostrando un ángulo distinto de la misma expresión de duelo. Un pañuelo blanco presiona el lugar donde debería estar la boca, sus pliegues dibujados como cristal agrietado en vez de tela. Ningún fragmento comparte la misma fuente de luz, como si el rostro se viera desde varios instantes a la vez.*
 
 Ese rostro doble es la clave de toda su obra. Picasso no tiene un horizonte único: tiene muchos, superpuestos. Su yo no es un punto con posición definida; es una onda que abarca todos los estados posibles hasta que el acto de pintar colapsa la onda y materializa un estilo, una identidad temporal. Él mismo lo formuló, sin física, ante el retrato de Gertrude Stein: cuando le objetaron que ella no se parecía a ese rostro de máscara que le había pintado, respondió que ya se parecería. No era arrogancia: era la convicción de que el cuadro no registra un estado, sino que lo anticipa —de que la observación no copia la realidad, la produce.
 
@@ -124,8 +124,8 @@ Ese rostro doble es la clave de toda su obra. Picasso no tiene un horizonte úni
 
 El primer colapso tiene fecha y cadáver. En 1901, su amigo Carles Casagemas se pega un tiro en un café de París por una mujer. Picasso, que tiene diecinueve años, entierra al amigo y a continuación pinta el mundo entero de azul durante tres años: mendigos, ciegos, madres consumidas, el propio Casagemas amortajado con la sien agujereada. La Etapa Azul no es un ejercicio tonal: es la primera demostración de que un trauma puede teñir la totalidad del espectro perceptivo, de que la masa de un solo muerto puede curvar toda la luz de un sistema. Después vino el rosa —los saltimbanquis, la ternura itinerante— y después el hachazo: entre el *Viejo guitarrista ciego* y *Las señoritas de Avignon* no hay transición narrativa. Hay un salto. Las cinco mujeres del burdel de la calle Avinyó, con sus rostros de máscara ibérica y africana, no evolucionan de nada anterior: irrumpen, como irrumpe una partícula donde la física clásica no la esperaba.
 
-## [ILUSTRACIÓN cart_avignon: "Las señoritas de Avignon"]
-*Pablo Picasso, óleo sobre lienzo, 1907. The Museum of Modern Art, Nueva York.*
+## [ILUSTRACIÓN il_cart_avignon: "La irrupción"]
+*Ilustración original. Cinco siluetas angulares ocupan un interior rojo poco profundo, sus rostros reducidos a máscaras geométricas planas —triangulares, rayadas, de cuencas vacías—, ninguna en el mismo estilo que las demás, como si cinco eras distintas de hacer imágenes hubieran chocado en un solo cuadro. Ningún contorno es suave: todos cortan.*
 
 Cambiar de estilo no era para él una búsqueda formal: era una necesidad vital. Cada período es una cápsula que habita con voracidad de depredador; cuando agota su información, la abandona y funda un universo nuevo con leyes nuevas. A diferencia de Dalí, Picasso no sufre la cápsula: la devora.
 
@@ -148,8 +148,8 @@ Mientras Dalí sufre su horizonte y Picasso lo analiza hasta la extenuación, Mi
 
 El punto de partida es la tierra, no el cielo. *La masía*, pintada durante nueve meses de obsesión entre Mont-roig y París, contiene la granja familiar entera: cada grieta del muro, cada hoja del eucalipto, el caracol, la regadera, la cabra. Es realismo llevado a una densidad imposible, un inventario donde nada es más importante que nada. Hemingway, que la compró, dijo que contenía todo lo que se siente por España cuando se está lejos. Ahí está ya, en clave figurativa, el programa de toda una vida: la hormiga vale lo que el astro. Solo faltaba soltar el lastre.
 
-## [ILUSTRACIÓN cart_masia: "La masía"]
-*Joan Miró, óleo sobre lienzo, 1921-1922. National Gallery of Art, Washington D.C. — comprado por Ernest Hemingway.*
+## [ILUSTRACIÓN il_cart_masia: "El inventario sin jerarquía"]
+*Ilustración original. Una vista de una granja modesta tratada con la misma precisión obsesiva en cada objeto: un muro agrietado, una hoja de eucalipto, la concha de un caracol, el ojo de una cabra, una regadera oxidada, cada elemento dibujado a la misma escala de atención sin importar su tamaño, dispuestos en una retícula densa y aplanada donde nada se aleja al fondo y nada pesa más que nada.*
 
 Lo soltó con violencia. «Quiero asesinar la pintura», declaró hacia 1927, y lo decía en serio: contra el oficio heredado, contra el cuadro de caballete como objeto de posesión, Miró emprendió una demolición sistemática de todo lo que la pintura tenía de propiedad. Lo que quedó tras el asesinato no fue la nada: fue un alfabeto. Estrella, mujer, pájaro, ojo, escalera. Signos que ya no representan cosas, sino que las convocan.
 
