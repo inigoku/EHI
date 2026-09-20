@@ -115,6 +115,7 @@ TEXTS = {
         "anthology_label": "Antología poética",
         "essay_title": "El Horizonte Interior",
         "interactive_version_label": "Versión interactiva:",
+        "source_from_label": "de",
         "blurb": (
             "Versos libres y un glosario que traducen al lenguaje del sentimiento las "
             "implicaciones físicas de la frontera: el dolor de la asimetría, el duelo "
@@ -240,6 +241,7 @@ TEXTS = {
         "anthology_label": "Antologia poètica",
         "essay_title": "L'Horitzó Interior",
         "interactive_version_label": "Versió interactiva:",
+        "source_from_label": "de",
         "blurb": (
             "Versos lliures i un glossari que tradueixen al llenguatge del sentiment les "
             "implicacions físiques de la frontera: el dolor de l'asimetria, el dol "
@@ -364,6 +366,7 @@ TEXTS = {
         "anthology_label": "A poetry anthology",
         "essay_title": "The Inner Horizon",
         "interactive_version_label": "Interactive version:",
+        "source_from_label": "from",
         "blurb": (
             "Free verse and a glossary that translate the physical implications of "
             "the boundary into the language of feeling: the pain of asymmetry, "

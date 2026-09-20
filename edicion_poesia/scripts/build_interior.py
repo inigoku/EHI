@@ -630,7 +630,7 @@ class Builder:
             y -= 2
             cv.setFont(IT, 9.4)
             cv.setFillColor(TEAL)
-            cv.drawString(x0, y, f"de {poem.source}")
+            cv.drawString(x0, y, f"{get_text(CURRENT_LANG, 'source_from_label')} {poem.source}")
             y -= 14
         y -= 6
         cv.setStrokeColor(TEAL)
