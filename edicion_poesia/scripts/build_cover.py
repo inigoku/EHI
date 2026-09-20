@@ -42,11 +42,15 @@ FONTS = BASE / "fonts"
 def get_front_pdf(lang: str = "es") -> Path:
     if lang == "ca":
         return BASE / "Ecos_en_el_Borde_portada_frontal_ca.pdf"
+    if lang == "en":
+        return BASE / "Echoes_at_the_Edge_portada_frontal.pdf"
     return BASE / "Ecos_en_el_Borde_portada_frontal.pdf"
 
 def get_wrap_pdf(lang: str = "es") -> Path:
     if lang == "ca":
         return BASE / "Ecos_en_el_Borde_cubierta_tapadura_ca.pdf"
+    if lang == "en":
+        return BASE / "Echoes_at_the_Edge_cubierta_tapadura.pdf"
     return BASE / "Ecos_en_el_Borde_cubierta_tapadura.pdf"
 
 FRONT_PDF = get_front_pdf()
@@ -89,6 +93,9 @@ def get_blurb():
 
 def get_blurb2():
     return get_text(CURRENT_LANG, "blurb2")
+
+def get_title_lines():
+    return get_text(CURRENT_LANG, "title_lines")
 
 CREAM = colors.HexColor("#f2ede4")
 PALE = colors.HexColor("#cfe3e2")
@@ -202,7 +209,7 @@ def front_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     """Rotula la cubierta dentro del rectangulo de corte que se le pasa."""
     cx = x0 + w / 2
     y = y0 + h - 1.35 * inch
-    for line in ("Ecos en", "el borde"):
+    for line in get_title_lines():
         caps(cv, cx, y, line, R, 40, CREAM, 9.0)
         y -= 50
     y -= 14
@@ -224,7 +231,7 @@ def back_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     cx = x0 + w / 2
     inner = w - 1.5 * inch
     y = y0 + h - 1.6 * inch
-    caps(cv, cx, y, "Ecos en el borde", R, 15, CREAM, 5.0)
+    caps(cv, cx, y, get_title(), R, 15, CREAM, 5.0)
     y -= 22
     cv.setStrokeColor(PALE)
     cv.setLineWidth(0.9)
@@ -240,7 +247,8 @@ def back_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     y -= 6
     cv.setFont(IT, 10.2)
     cv.setFillColor(PALE)
-    cv.drawCentredString(cx, y, "de El Horizonte Interior")
+    cv.drawCentredString(cx, y, f"{get_text(CURRENT_LANG, 'source_from_label')} "
+                                 f"{get_text(CURRENT_LANG, 'essay_title')}")
     # hueco reservado para el codigo de barras de KDP: 2 x 1,2" en la esquina
     cv.setFillColor(colors.white)
     cv.rect(x0 + w - 2.35 * inch, y0 + 0.40 * inch, 2.0 * inch, 1.2 * inch,
@@ -268,7 +276,7 @@ def build_front() -> None:
     art.save(tmp, "JPEG", quality=94, subsampling=0, dpi=(DPI, DPI))
 
     cv = rl_canvas.Canvas(str(FRONT_PDF), pagesize=(w_in * inch, h_in * inch))
-    cv.setTitle(f"{get_title()} — cubierta")
+    cv.setTitle(f"{get_title()} — {get_text(CURRENT_LANG, 'cover_suffix')}")
     cv.drawImage(str(tmp), 0, 0, width=w_in * inch, height=h_in * inch, mask=None)
     front_text(cv, BLEED * inch, BLEED * inch, TRIM_W * inch, TRIM_H * inch)
     cv.save()
@@ -308,7 +316,7 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
     art.save(tmp, "JPEG", quality=92, subsampling=0, dpi=(DPI, DPI))
 
     cv = rl_canvas.Canvas(str(WRAP_PDF), pagesize=(w_in * inch, h_in * inch))
-    cv.setTitle(f"{get_title()} — cubierta de tapa dura")
+    cv.setTitle(f"{get_title()} — {get_text(CURRENT_LANG, 'wrap_suffix')}")
     cv.drawImage(str(tmp), 0, 0, width=w_in * inch, height=h_in * inch, mask=None)
 
     trim_y = (WRAP + BLEED) * inch
@@ -344,7 +352,7 @@ def main() -> int:
     src = source_image()
     with Image.open(src) as probe:
         print(f"Imagen de partida: {src.relative_to(ROOT)}  {probe.width} x {probe.height} px")
-    for lang in ["es", "ca"]:
+    for lang in ["es", "ca", "en"]:
         build(lang, args.paginas, args.ancho, args.alto)
     return 0
 
