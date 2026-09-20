@@ -178,6 +178,10 @@
       "content_file": "../content/ensayo/prologo.es.md"
     },
     {
+      "id": "cap_nota_autor",
+      "content_file": "../content/ensayo/cap_nota_autor.es.md"
+    },
+    {
       "id": "cap1",
       "content_file": "../content/ensayo/cap1.es.md"
     },
@@ -402,8 +406,8 @@
       "content_file": "../content/ensayo/cap_glosario.es.md"
     },
     {
-      "id": "cap_nota_autor",
-      "content_file": "../content/ensayo/cap_nota_autor.es.md"
+      "id": "cap_notas_cierre",
+      "content_file": "../content/ensayo/cap_notas_cierre.es.md"
     },
     {
       "id": "cap_notas_referencias",

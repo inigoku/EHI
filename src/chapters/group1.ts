@@ -84,6 +84,6 @@ export function loadEssayChapters(order: string[]): Chapter[] {
   });
 }
 
-const ORDER = ["cap0", "prologo", "tarel", "cap1"];
+const ORDER = ["cap0", "prologo", "tarel", "cap_nota_autor", "cap1"];
 
 export const group1: Chapter[] = loadEssayChapters(ORDER);
