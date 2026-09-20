@@ -27,6 +27,8 @@ import imgTarelAguaP7 from "../assets/images/tarel_agua/pagina7.jpg";
 // @ts-ignore
 import imgRelevoPatron from "../assets/images/il_relevo_patron.jpg";
 // @ts-ignore
+import imgRelevoEntrelazamiento from "../assets/images/il_relevo_entrelazamiento.jpg";
+// @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
 // @ts-ignore
 import img02 from "../assets/images/ilustracion_02.png";
@@ -454,7 +456,7 @@ const imageMap: Record<string, string> = {
   // AP/Reuters news photos that were hotlinked here before (copyrighted
   // press photography, not ours to use).
   il_relevo_patron: imgRelevoPatron,
-  // il_relevo_entrelazamiento: still pending -- add here once generated.
+  il_relevo_entrelazamiento: imgRelevoEntrelazamiento,
 
   // "El traductor" — real 1865 chalk portrait of George Eliot by Frederic
   // William Burton, public domain (NPG 669), hotlinked from Wikimedia Commons
