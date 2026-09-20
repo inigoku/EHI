@@ -7,12 +7,15 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import io
 import json
 import re
 import sys
 import zipfile
 from pathlib import Path
 from typing import Optional
+
+from PIL import Image as PILImage
 
 FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n?(.*)\Z", re.DOTALL)
 INLINE_ILLUS_RE = re.compile(r'^##\s*\[ILUSTRACI[ÓO]N\s*([\w.]*)?:?\s*"([^"]+)"\]', re.IGNORECASE)
@@ -71,6 +74,33 @@ def is_url(s: str) -> bool:
     return s.startswith("http://") or s.startswith("https://")
 
 
+def downsample_for_epub(image_bytes: bytes, max_dim: int = 1200, quality: int = 82) -> bytes:
+    """Re-encodes an illustration to a screen-appropriate resolution and a
+    JPEG before embedding it. Source illustrations are ~1024x1024 to
+    ~1536x1536 PNGs at several hundred KB to ~2MB each -- copied in
+    unmodified (as this used to do), 72 of them alone pushed the EPUB to
+    ~80MB. E-reader screens don't need print resolution either."""
+    try:
+        with PILImage.open(io.BytesIO(image_bytes)) as im:
+            width, height = im.size
+            if im.mode in ("RGBA", "LA", "P"):
+                rgba = im.convert("RGBA")
+                background = PILImage.new("RGB", rgba.size, (255, 255, 255))
+                background.paste(rgba, mask=rgba.split()[-1])
+                im = background
+            elif im.mode != "RGB":
+                im = im.convert("RGB")
+            scale = min(1.0, max_dim / max(width, height))
+            if scale < 1.0:
+                im = im.resize((round(width * scale), round(height * scale)), PILImage.LANCZOS)
+            buf = io.BytesIO()
+            im.save(buf, format="JPEG", quality=quality, optimize=True)
+            return buf.getvalue()
+    except Exception as exc:  # noqa: BLE001
+        print(f"warning: could not downsample illustration: {exc}", file=sys.stderr)
+        return image_bytes
+
+
 class ImageRegistry:
     """Copies each locally-resolvable illustration into OEBPS/images/ once,
     keyed by its illustration id, and hands back the in-EPUB relative path.
@@ -91,11 +121,8 @@ class ImageRegistry:
         if not path.exists():
             print(f"warning: illustration file not found: {path}", file=sys.stderr)
             return None
-        ext = path.suffix.lower().lstrip(".")
-        if ext == "jpeg":
-            ext = "jpg"
-        epub_path = f"images/{illus_id}.{ext}"
-        self.files[epub_path] = path.read_bytes()
+        epub_path = f"images/{illus_id}.jpg"
+        self.files[epub_path] = downsample_for_epub(path.read_bytes())
         self.by_id[illus_id] = epub_path
         return epub_path
 
