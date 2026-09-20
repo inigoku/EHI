@@ -12,15 +12,9 @@ Nothing moves.
 Things wait,
 as if they knew no one is coming back.
 
-A piece of stale bread.
-A wine stain that is now part of the table.
-The light slanting in,
+A wine stain that is already part of the table.
+The light entering from the side,
 tracing the absence with cruel precision.
-
-The body yields.
-It does not protest.
-It only lets itself go,
-like a tool that has forgotten its function.
 
 Memory does not disappear:
 it fills with other things,
