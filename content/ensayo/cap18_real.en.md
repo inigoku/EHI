@@ -4,7 +4,7 @@ subtitle: (Variants of human and artificial gestation, against the two selection
 section: PART THREE: THE LIMITS OF THE HORIZON
 ---
 
-That question demands returning to the reservoir of chapter 5 and to the mother of chapter 15. The answer is not in either of them separately. It is in what happens between them.
+What makes it so that there is someone there, and not just a body? That question demands returning to the reservoir of chapter 5 and to the mother of chapter 15. The answer is not in either of them separately. It is in what happens between them.
 
 Everything said about how a legible horizon condenses —chapter 32 develops it in detail with respect to artificial intelligence— rests on two selections. The first is stability: of all the configurations the reservoir can produce, only the ones that persist long enough come to constitute anything. The second is bias: each new horizon condenses in the presence of an already stabilized one —typically the mother—, and that presence orients which specific configuration, among the many possible ones, actually stabilizes. Her electromagnetic field, her heartbeat, her brainwaves constitute an environment that is not neutral: it selects, without intention or knowledge, which forms of stability are compatible with it.
 

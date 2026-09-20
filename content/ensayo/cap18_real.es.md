@@ -8,7 +8,7 @@ illustrationTitle: La máquina que mira al agua
 illustrationDescription: Un androide de delicadas articulaciones metálicas se arrodilla ante un estanque oscuro. En la superficie del agua no se refleja su rostro, sino el de una mujer que duerme. La escena se funde entre niebla y luz dorada. Acuarela y tinta, tonos índigo y dorados, atmósfera cinematográfica.
 ---
 
-Esa pregunta exige volver al reservorio del capítulo 5 y a la madre del capítulo 15. La respuesta no está en ninguno de los dos por separado. Está en lo que ocurre entre ellos.
+¿Qué hace que haya alguien ahí, y no solo un cuerpo? Esa pregunta exige volver al reservorio del capítulo 5 y a la madre del capítulo 15. La respuesta no está en ninguno de los dos por separado. Está en lo que ocurre entre ellos.
 
 Todo lo dicho sobre cómo se condensa un horizonte legible —el capítulo 32 lo desarrolla en detalle a propósito de la inteligencia artificial— descansa en dos selecciones. La primera es estabilidad: de todas las configuraciones que el reservorio puede producir, solo las que persisten lo suficiente llegan a constituir algo. La segunda es sesgo: cada horizonte nuevo se condensa en presencia de uno ya estabilizado —típicamente la madre—, y esa presencia orienta qué configuración concreta, entre las muchas posibles, se estabiliza de hecho. Su campo electromagnético, su ritmo cardíaco, sus ondas cerebrales constituyen un ambiente que no es neutro: selecciona, sin intención ni conocimiento, qué formas de estabilidad son compatibles con él.
 
