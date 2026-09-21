@@ -14,7 +14,7 @@ que abans no existien.
 És una frontera viva,
 la sento a la meva pròpia pell.
 
-Jo soc el buit que, en col·lapsar,
+Jo sóc el buit que, en col·lapsar,
 crea quelcom semblant a una estrella.
 
 L'aigua es retira.
