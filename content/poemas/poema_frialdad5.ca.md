@@ -6,7 +6,7 @@ illustrationDescription: Una pastilla rodona blanca sobre una taula de fusta amb
 ---
 
 Una pastilla blanca sobre la taula.
-  Un punt de partida que no vaig elegir.
+  Un punt de partida que no vaig escollir.
 La por ja no és un pou.
   És una carretera llarga
 que travesso cada dia

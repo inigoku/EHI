@@ -14,7 +14,7 @@ Montse entra amb l'abric encara posat
 
 Recolza el diapasó contra el vidre entelat,
   no per sentir la nota,
-sinó per sentir-la als dits
+sinó per sentir-lo als dits
   mentre la ciutat insisteix al seu brunzit gris.
 
 Barcelona s'estén allà fora,
@@ -28,7 +28,7 @@ Escriu "quedar-se un moment"
 
 Entre el ciment, un ficus deixa sortir un brot.
   No és un miracle.
-És un error bell.
+És un error magnífic.
 
 Montse tanca el quadern.
   La ciutat respira.
