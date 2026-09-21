@@ -142,6 +142,24 @@ BOOK_TITLE = "EL HORIZONTE INTERIOR"
 
 
 # ------------------------------------------------------------- utilidades
+def fit_small_caps(text: str, font: str, size: float, spacing: float,
+                    avail_w: float) -> tuple[float, float]:
+    """Encoge interletrado y luego tamaño hasta que TEXT quepa en avail_w --
+    algunos títulos de capítulo son demasiado largos para la cabecera
+    corrida a su tamaño nominal y se saldrían del medianil."""
+    text = text.upper()
+    orig_size = size
+    for _ in range(40):
+        w = pdfmetrics.stringWidth(text, font, size) + spacing * max(0, len(text) - 1)
+        if w <= avail_w or (spacing <= 0.2 and size <= orig_size * 0.6):
+            break
+        if spacing > 0.2:
+            spacing -= 0.2
+        else:
+            size -= 0.4
+    return size, spacing
+
+
 def draw_small_caps(cv, x: float, y: float, text: str, font: str, size: float, color,
                      spacing: float = 1.6, align: str = "left", avail: float = 0.0) -> None:
     text = text.upper()
@@ -175,17 +193,8 @@ class SmallCapsFlowable(Flowable):
         # Shrink letter-spacing, then font size, until the label fits the
         # frame width -- titles/labels vary in length and this runs at
         # whatever width the recto/verso frame gives it.
-        text = self.text.upper()
-        size, spacing = self.size, self.spacing
-        for _ in range(40):
-            w = pdfmetrics.stringWidth(text, self.font, size) + spacing * max(0, len(text) - 1)
-            if w <= aw or (spacing <= 0.2 and size <= self.size * 0.6):
-                break
-            if spacing > 0.2:
-                spacing -= 0.2
-            else:
-                size -= 0.4
-        self._fit_size, self._fit_spacing = size, spacing
+        self._fit_size, self._fit_spacing = fit_small_caps(
+            self.text, self.font, self.size, self.spacing, aw)
         return (aw, self.size * 1.25 + self.space_after)
 
     def draw(self):
@@ -466,8 +475,12 @@ class PremiumDocTemplate(BaseDocTemplate):
         y_head = PH - M_TOP + 20
         if not self._chapter_opened_this_page and self._current_chapter_title:
             if recto:
-                draw_small_caps(canvas, x1, y_head, self._current_chapter_title, IT, 7.6,
-                                 AMBER, align="right", spacing=1.1, avail=x1)
+                # Los títulos de capítulo largos, a tamaño nominal, no caben
+                # en el ancho de la cabecera y se saldrían por el medianil.
+                fit_size, fit_spacing = fit_small_caps(
+                    self._current_chapter_title, IT, 7.6, 1.1, x1 - x0)
+                draw_small_caps(canvas, x1, y_head, self._current_chapter_title, IT, fit_size,
+                                 AMBER, align="right", spacing=fit_spacing, avail=x1)
             else:
                 draw_small_caps(canvas, x0, y_head, BOOK_TITLE, IT, 7.6, AMBER,
                                  align="left", spacing=1.1)
