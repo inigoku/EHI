@@ -40,8 +40,8 @@ Picasso hizo lo contrario: abrió su horizonte de par en par una sola vez. El *G
 
 Miró respondió con *El segador* y el cartel *Aidez l'Espagne*, y luego con el repliegue: Varengeville, Palma, la retirada hacia lo mínimo. Sus *Constelaciones* nacen exactamente ahí, mientras Europa arde: veintitrés gouaches de formato pequeño, transportables, pintados por un hombre que huye con su familia de una guerra hacia otra. No son evasión: son resistencia por concentración. Su horizonte no se cerró con la guerra: se hizo más fino y más tenso, como una cuerda.
 
-## [ILUSTRACIÓN cart_constelaciones: "Constelaciones"]
-*Joan Miró, «La Estrella Matinal», gouache sobre papel, de la serie Constelaciones, 1940.*
+## [ILUSTRACIÓN il_cart_constelaciones: "Red mínima bajo el fuego"]
+*Ilustración original. Una libreta de tapa azul, cubierta por una delicada red de líneas negras que conectan estallidos de estrellas, espirales y pequeños ojos y formas biomórficas de colores: una red lo bastante pequeña para caber en una mano en fuga, con los hilos tensados como si sostuvieran algo bajo presión.*
 
 Tres reconfiguraciones del mismo golpe: Dalí lo digiere, Picasso lo expulsa, Miró lo comprime.
 

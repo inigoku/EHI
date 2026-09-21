@@ -15,7 +15,7 @@
     "M87": "../src/assets/images/ilustracion_m87.png",
     "TP": "../src/assets/images/ilustracion_tp.png",
     "cart_avignon": "../src/assets/images/cart_avignon.jpg",
-    "cart_constelaciones": "https://upload.wikimedia.org/wikipedia/en/3/39/MiroMorningStar.JPG",
+    "il_cart_constelaciones": "../src/assets/images/il_cart_constelaciones.jpg",
     "cart_construccion": "https://upload.wikimedia.org/wikipedia/en/8/89/SalvadorDali-SoftConstructionWithBeans.jpg",
     "cart_corpus": "https://upload.wikimedia.org/wikipedia/en/0/09/Dali_Crucifixion_hypercube.jpg",
     "il_cart_desintegracion": "../src/assets/images/il_cart_desintegracion.jpg",

@@ -39,6 +39,8 @@ import imgCartDesintegracion from "../assets/images/il_cart_desintegracion.jpg";
 // @ts-ignore
 import imgCartGuernica from "../assets/images/il_cart_guernica.jpg";
 // @ts-ignore
+import imgCartConstelaciones from "../assets/images/il_cart_constelaciones.jpg";
+// @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
 // @ts-ignore
 import img02 from "../assets/images/ilustracion_02.png";
@@ -460,7 +462,7 @@ const imageMap: Record<string, string> = {
   cart_llorona: "https://upload.wikimedia.org/wikipedia/en/1/14/Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg",
   cart_meninas: imgCartMeninas,
   cart_masia: imgCartMasia,
-  cart_constelaciones: "https://upload.wikimedia.org/wikipedia/en/3/39/MiroMorningStar.JPG",
+  il_cart_constelaciones: imgCartConstelaciones,
 
   // "Historia de un relevo" — original illustrations replacing real
   // AP/Reuters news photos that were hotlinked here before (copyrighted

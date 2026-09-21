@@ -36,8 +36,8 @@ Picasso did the opposite: he threw his horizon wide open, just once. *Guernica* 
 
 Miró responded with *The Reaper* and the poster *Aidez l'Espagne*, and then with retreat: Varengeville, Palma, a withdrawal into the minimal. His *Constellations* are born exactly there, while Europe burns: twenty-three small-format, transportable gouaches, painted by a man fleeing with his family from one war toward another. They are not escapism: they are resistance through concentration. His horizon did not close with the war: it grew thinner and more taut, like a rope.
 
-## [ILUSTRACIÓN cart_constelaciones: "Constellations"]
-*Joan Miró, "The Morning Star," gouache on paper, from the Constellations series, 1940.*
+## [ILUSTRACIÓN il_cart_constelaciones: "Minimal Web Under Fire"]
+*Original illustration. A blue-covered notebook, covered by a delicate web of black lines connecting starbursts, spirals, and small colored eyes and biomorphic shapes: a network small enough to fit in a fleeing hand, its threads pulled taut as if holding something together under pressure.*
 
 Three reconfigurations of the same blow: Dalí digests it, Picasso expels it, Miró compresses it.
 
