@@ -1,7 +1,7 @@
 ---
-title: EL TEMPS QUE NO PASSA — ALLÒ QUE NO CAP EN UN RELLOTGE
+title: EL TEMPS QUE NO PASSA — ALLÒ QUE NO HI CAP EN UN RELLOTGE
 section: ELS ÚLTIMS LLIBRES
-illustrationTitle: Allò que no cap en un rellotge
+illustrationTitle: Allò que no hi cap en un rellotge
 illustrationDescription: Un rellotge de sol en un pati: l'ombra creua les rajoles mentre una formiga carregada segueix el seu propi temps cap al vorell.
 ---
 
