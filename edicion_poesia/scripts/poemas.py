@@ -73,7 +73,7 @@ TITLES_CA = {
     "poema_arq4": "La cançó",
     "poema_arq5": "Montse XX",
     "poema_arq6": "El rem",
-    "poema_arq7": "El tremolor",
+    "poema_arq7": "La tremolor",
     "poema_arq8": "La vora",
     "poema_burbuja": "La bombolla",
     "poema_frialdad1": "Cartografia de l'eco",

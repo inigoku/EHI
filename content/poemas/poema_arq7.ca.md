@@ -1,7 +1,7 @@
 ---
-title: L'ARQUITECTURA AMB UN FORAT — VII: EL TREMOLOR
+title: L'ARQUITECTURA AMB UN FORAT — VII: LA TREMOLOR
 section: L'ARQUITECTURA AMB UN FORAT
-illustrationTitle: El tremolor
+illustrationTitle: La tremolor
 illustrationDescription: Un got d'aigua sostingut per una mà tremolosa, ones concèntriques a la superfície de l'aigua, llum baixa i càlida com de telescopi apagat.
 ---
 
@@ -25,6 +25,6 @@ Sense ràbia.
 i em fa mal al bell mig del pit.
 
 He vist l'horitzó contraure's
- al tremolor de la meva pròpia mà
+ a la tremolor de la meva pròpia mà
 que ja no recorda
  com sostenir un got sense por de trencar-lo.
