@@ -29,6 +29,6 @@ Algunes finestres donen a un pati.
 
 Deixo una llum encesa
 que no il·lumina res meu.
-  És només una senyal,
+  És només un senyal,
     per si el so, al tornar,
       porta la mateixa pregunta.
