@@ -131,7 +131,11 @@ GREY = colors.HexColor("#55504a")
 
 # ---------------------------------------------------------------- geometria
 PW, PH = 6 * inch, 9 * inch
-M_GUTTER = 0.875 * inch
+# KDP exige 0.875" de medianil para 701-828 paginas, pero su comprobador
+# automatico rechaza texto que llega exactamente a ese minimo (lo mide
+# sobre el PDF rasterizado y no da margen de tolerancia) -- de ahi el
+# colchon extra sobre el minimo publicado.
+M_GUTTER = 0.95 * inch
 M_OUTER = 0.625 * inch
 M_TOP = 0.68 * inch
 M_BOTTOM = 0.72 * inch
