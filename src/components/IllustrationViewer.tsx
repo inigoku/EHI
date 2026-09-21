@@ -35,6 +35,8 @@ import imgCartMeninas from "../assets/images/cart_meninas.jpg";
 // @ts-ignore
 import imgCartAvignon from "../assets/images/cart_avignon.jpg";
 // @ts-ignore
+import imgCartDesintegracion from "../assets/images/il_cart_desintegracion.jpg";
+// @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
 // @ts-ignore
 import img02 from "../assets/images/ilustracion_02.png";
@@ -450,7 +452,7 @@ const imageMap: Record<string, string> = {
   cart_construccion: "https://upload.wikimedia.org/wikipedia/en/8/89/SalvadorDali-SoftConstructionWithBeans.jpg",
   cart_narciso: "https://upload.wikimedia.org/wikipedia/en/2/21/Metamorphosis_of_Narcissus.jpg",
   cart_relojes: "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
-  cart_desintegracion: "https://upload.wikimedia.org/wikipedia/en/7/7c/DisintegrationofPersistence.jpg",
+  il_cart_desintegracion: imgCartDesintegracion,
   cart_corpus: "https://upload.wikimedia.org/wikipedia/en/0/09/Dali_Crucifixion_hypercube.jpg",
   cart_avignon: imgCartAvignon,
   cart_llorona: "https://upload.wikimedia.org/wikipedia/en/1/14/Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg",

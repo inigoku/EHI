@@ -62,8 +62,8 @@ Faced with chaos —war, exile, old age— Dalí builds a self-referential unive
 
 There is a work that anticipates this ending by decades. In 1952, after Hiroshima, Dalí returns to his most famous painting and paints *The Disintegration of the Persistence of Memory*: the soft watches of 1931 now float over a grid of separating blocks, the whole world decomposed into discrete units that no longer touch. This is his nuclear-mysticism period: matter, he has discovered, is made of particles that never brush against each other, and he paints that discontinuity with the same fervor with which he once painted flesh. Without knowing it, he is rehearsing his own future: twenty years later, disintegration will leave the canvas and enter his hand.
 
-## [ILUSTRACIÓN cart_desintegracion: "The Disintegration of the Persistence of Memory"]
-*Salvador Dalí, oil on canvas, 1952-1954. The Dalí Museum, St. Petersburg, Florida.*
+## [ILUSTRACIÓN il_cart_desintegracion: "The Grid That Separates"]
+*Illustration. A golden coastal landscape at dusk: a grid of dark blocks covers the ground and dissolves into discrete units toward the horizon, while soft, elongated shapes spill between them and a fish drifts past a cliff in the background.*
 
 Because the degenerative tremor of his final years is not an external clinical fact: it is his inner horizon cracking. Fractal analysis of his late brushstrokes detected alterations that precede the diagnosis; they are not a technical failure, they are the self losing cohesion.
 

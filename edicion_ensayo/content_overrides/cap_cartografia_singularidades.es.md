@@ -64,8 +64,8 @@ Frente al caos —la guerra, el exilio, la vejez— Dalí construye un universo 
 
 Hay una obra que anticipa este final con décadas de adelanto. En 1952, tras Hiroshima, Dalí vuelve sobre su cuadro más célebre y pinta la *Desintegración de la persistencia de la memoria*: los relojes blandos de 1931 flotan ahora sobre una retícula de bloques que se separan, el mundo entero descompuesto en unidades discretas que ya no se tocan. Es su período de mística nuclear: la materia, ha descubierto, está hecha de partículas que no se rozan, y él pinta esa discontinuidad con el mismo fervor con que antes pintaba la carne. Sin saberlo, está ensayando su propio futuro: veinte años después, la desintegración abandonará el lienzo y entrará en su mano.
 
-## [ILUSTRACIÓN cart_desintegracion: "Desintegración de la persistencia de la memoria"]
-*Salvador Dalí, óleo sobre lienzo, 1952-1954. The Dalí Museum, San Petersburgo (Florida).*
+## [ILUSTRACIÓN il_cart_desintegracion: "La retícula que se separa"]
+*Ilustración. Un paisaje costero dorado al atardecer: una retícula de bloques oscuros cubre el suelo y se disuelve en unidades discretas hacia el horizonte, mientras formas blandas y alargadas se derraman entre ellos y un pez cruza flotando junto a un acantilado al fondo.*
 
 Porque el temblor degenerativo de sus últimos años no es un dato clínico externo: es su horizonte interior resquebrajándose. El análisis fractal de sus últimos trazos detectó alteraciones que preceden al diagnóstico; no son un fallo técnico, son el yo perdiendo cohesión.
 
