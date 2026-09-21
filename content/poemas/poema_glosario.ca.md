@@ -14,13 +14,13 @@ illustrationDescription: Fons de pàgina del glossari en el document de fusió.
 **Finestra.** Les dues hores en què el cos torna a saber-se meu. Després, guardar les eines.
 **Phi.** La part de mi que encara li pertany a qui se'n va.
 **Mapa.** El que clavem sobre la ciutat per poder donar senyals d'ella.
-**Reservori.** La meva pròpia capacitat per seguir esperant, tot i que ja no sé què.
-**Evaporació.** La manera lenta de marxar que tenen els que no tancen la porta.
+**Reservori.** La meva pròpia capacitat per continuar esperant, tot i que ja no sé què.
+**Evaporació.** La manera lenta de marxar que tenen els que no tanquen la porta.
 **Dol.** Aquesta casa amb un forat, que vaig aprendre a habitar per no morir de fred.
 **Reparació.** El que queda quan el forat deixa de doldre i comença a sostenir.
 **Mirall.** El que em retorna la meva pròpia cara sense haver-la sentida mai com a meva.
-**Ombra.** El que un mirall no pot tenir, per molt que la llum insisteixi en donar-li.
-**Diapasó.** El que segueixo afinant cada matí sense saber si algú, de l'altre costat, fa el mateix.
+**Ombra.** El que un mirall no pot tenir, per molt que la llum insisteixi a donar-li.
+**Diapasó.** El que encara afino cada matí sense saber si algú, de l'altre costat, fa el mateix.
 **Entrellaçament vertical.** Resar sense saber si hi ha auditori, i ajustar la corda de tota manera.
 **Cor.** El lloc on vaig prestar la meva veu, i em va costar anys saber si me l'havien tornada entera.
 **Composició.** La xapa que vaig portar sis anys, fins que vaig deixar de necessitar-la per saber qui era.
