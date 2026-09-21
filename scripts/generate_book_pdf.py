@@ -46,6 +46,7 @@ from reportlab.platypus import (
     Frame,
     HRFlowable,
     Image,
+    KeepTogether,
     NextPageTemplate,
     PageBreak,
     PageTemplate,
@@ -64,6 +65,14 @@ except AttributeError:
 
 FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n?(.*)\Z", re.DOTALL)
 INLINE_ILLUS_RE = re.compile(r'^##\s*\[ILUSTRACI[ÓO]N\s*([\w.]*)?:?\s*"([^"]+)"\]', re.IGNORECASE)
+
+# Illustration ids for real, copyrighted or public-domain works reproduced under
+# quotation right (derecho de cita) — these are the only ones whose caption
+# (artist/technique/year/collection) must be shown. The book's own original
+# illustrations don't need a visible caption.
+CREDIT_REQUIRED_ILLUSTRATION_IDS = {
+    "cart_meninas", "cart_avignon", "cart_masia", "cart_eliot",
+}
 
 FONT_NAME = "Book"
 FONT_NAME_BOLD = "Book-Bold"
@@ -496,9 +505,13 @@ def markdown_to_flowables(body: str, styles, illustrations: dict, base_dir: Path
                 if image_bytes:
                     flowable = make_image_flowable(image_bytes, content_width * 0.85, 260)
                     if flowable:
+                        group = [flowable]
+                        if caption and illus_id in CREDIT_REQUIRED_ILLUSTRATION_IDS:
+                            group.append(Paragraph(inline_markdown_to_markup(caption), styles["Caption"]))
+                        else:
+                            group.append(Spacer(1, 10))
                         flowables.append(Spacer(1, 8))
-                        flowables.append(flowable)
-                        flowables.append(Spacer(1, 10))
+                        flowables.append(KeepTogether(group))
             else:
                 print(f"warning: no illustration mapping for id '{illus_id}' "
                       f"(title: \"{illus_title}\")", file=sys.stderr)

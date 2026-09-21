@@ -19,6 +19,14 @@ from PIL import Image as PILImage
 
 FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n?(.*)\Z", re.DOTALL)
 INLINE_ILLUS_RE = re.compile(r'^##\s*\[ILUSTRACI[ÓO]N\s*([\w.]*)?:?\s*"([^"]+)"\]', re.IGNORECASE)
+
+# Illustration ids for real, copyrighted or public-domain works reproduced under
+# quotation right (derecho de cita) — these are the only ones whose caption
+# (artist/technique/year/collection) must be shown. The book's own original
+# illustrations don't need a visible caption.
+CREDIT_REQUIRED_ILLUSTRATION_IDS = {
+    "cart_meninas", "cart_avignon", "cart_masia", "cart_eliot",
+}
 SEPARATOR_ROW_RE = re.compile(r"^\|[\s:|-]+\|$")
 
 
@@ -195,7 +203,9 @@ def markdown_to_xhtml(body: str, illustrations: dict, images: ImageRegistry) -> 
             source = illustrations.get(illus_id) if illus_id else None
             epub_path = images.register(illus_id, source) if illus_id else None
             if epub_path:
-                out.append(f'<figure><img src="../{epub_path}" alt="{esc(illus_title)}"/></figure>')
+                show_caption = caption and illus_id in CREDIT_REQUIRED_ILLUSTRATION_IDS
+                figcaption = f"<figcaption>{esc(caption)}</figcaption>" if show_caption else ""
+                out.append(f'<figure><img src="../{epub_path}" alt="{esc(illus_title)}"/>{figcaption}</figure>')
             i = j
             continue
 
