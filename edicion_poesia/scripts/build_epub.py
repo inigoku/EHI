@@ -21,6 +21,7 @@ import io
 import re
 import sys
 import zipfile
+from datetime import datetime, timezone
 from pathlib import Path
 
 from PIL import Image
@@ -70,6 +71,27 @@ def get_author():
 def get_lang_code():
     return CURRENT_LANG
 
+# Nombres de los documentos fijos (no compartidos con content/poemas ni con
+# poemas.py), en el idioma de cada edición, para que el interior del epub no
+# use palabras castellanas cuando el libro es catalán o inglés.
+FIXED_NAMES = {
+    "es": {"cover": "cubierta", "titulo": "titulo", "creditos": "creditos",
+           "dedicatoria": "dedicatoria", "intro": "introduccion",
+           "ilustraciones": "ilustraciones", "sobre": "sobre",
+           "colofon": "colofon"},
+    "ca": {"cover": "coberta", "titulo": "titol", "creditos": "credits",
+           "dedicatoria": "dedicatoria", "intro": "introduccio",
+           "ilustraciones": "il-lustracions", "sobre": "sobre",
+           "colofon": "colofo"},
+    "en": {"cover": "cover", "titulo": "title", "creditos": "credits",
+           "dedicatoria": "dedication", "intro": "intro",
+           "ilustraciones": "illustrations", "sobre": "about",
+           "colofon": "colophon"},
+}
+
+def fname(key: str) -> str:
+    return f"{FIXED_NAMES[CURRENT_LANG][key]}.xhtml"
+
 TOKEN = re.compile(r"(\*\*[^*]+\*\*|\*[^*]+\*)")
 MARKER = re.compile(r"\*\*[IVX]+\.\*\*")
 
@@ -82,7 +104,8 @@ CSS = """@font-face { font-family: "Eco"; font-weight: normal; font-style: norma
 
 html, body { margin: 0; padding: 0; }
 body { font-family: "Eco", Georgia, "Times New Roman", serif;
-       color: #22282c; line-height: 1.45; padding: 1.2em 1.1em; }
+       color: #22282c; line-height: 1.45; padding: 1.2em 1.1em;
+       break-before: page; page-break-before: always; }
 
 h1, h2, h3 { font-weight: normal; margin: 0; }
 
@@ -202,16 +225,17 @@ def glossary_html(poem: Poem) -> str:
     return "\n".join(chunks)
 
 
-def plate_page(pid: str, caption: str) -> str:
+def plate_page(pid: str, caption: str, description: str = "") -> str:
+    alt = description or caption
     return page(caption, f'<div class="lamina"><img src="images/{pid}.jpg" '
-                         f'alt="{esc(caption)}"/></div>', "")
+                         f'alt="{esc(alt)}"/></div>', "")
 
 
 def poem_page(poem: Poem) -> str:
     head = ""
     if poem.numeral:
         head += f'<p class="numeral">{esc(poem.numeral)}</p>'
-    head += f'<h2 class="titulo">{esc(poem.title)}</h2>'
+    head += f'<h1 class="titulo">{esc(poem.title)}</h1>'
     if poem.source:
         from_label = get_text(CURRENT_LANG, "source_from_label")
         head += f'<p class="fuente">{esc(from_label)} {esc(poem.source)}</p>'
@@ -227,75 +251,93 @@ def build(lang: str = "es") -> None:
     build_interior.CURRENT_LANG = lang  # _description() reads its own module's global
     from build_interior import _description, plate_notes
 
+    fm = re.compile(r"\A---\r?\n(.*?)\r?\n---", re.DOTALL)
+
     books, closing = load_books(lang)
     files: dict[str, str] = {}
     spine: list[str] = []
-    nav: list[tuple[str, str]] = []
+    # cada nodo es ("item", href, titulo) o ("book", href, titulo, [subitems])
+    nav: list[tuple] = []
 
     def add(name: str, content: str, nav_title: str | None = None) -> None:
         files[name] = content
         spine.append(name)
         if nav_title:
-            nav.append((name, nav_title))
+            nav.append(("item", name, nav_title))
 
     cover_title = get_text(CURRENT_LANG, "cover_page_title")
-    add("cover.xhtml", page(cover_title,
+    add(fname("cover"), page(cover_title,
         f'<div class="cubierta"><img src="images/cubierta.jpg" alt="{esc(cover_title)}"/></div>'))
-    add("titulo.xhtml", page(get_text(CURRENT_LANG, "title_page_title"),
+    add(fname("titulo"), page(get_text(CURRENT_LANG, "title_page_title"),
         f'<div class="centro portadilla"><h1 class="titulo">{esc(get_title())}</h1>'
         f'<p><em>{esc(get_subtitle())}</em></p><p>&#160;</p>'
         f'<p>{esc(get_text(CURRENT_LANG, "kicker"))}</p><p>&#160;</p>'
         f'<p>{esc(get_author())}</p></div>'))
-    add("creditos.xhtml", page(get_text(CURRENT_LANG, "credits_title"),
+    add(fname("creditos"), page(get_text(CURRENT_LANG, "credits_title"),
         f'<div class="creditos">{get_text(CURRENT_LANG, "credits_text")}</div>'))
-    add("dedicatoria.xhtml", page(get_text(CURRENT_LANG, "dedication_page_title"),
+    add(fname("dedicatoria"), page(get_text(CURRENT_LANG, "dedication_page_title"),
         f'<div class="dedicatoria"><p>{get_text(CURRENT_LANG, "dedication")}</p></div>'))
 
     intro_title = get_text(CURRENT_LANG, "intro_title")
     intro_paragraphs = get_text(CURRENT_LANG, "intro")
-    intro_body = (f'<h2 class="titulo">{esc(intro_title)}</h2><hr class="filete"/>'
+    intro_body = (f'<h1 class="titulo">{esc(intro_title)}</h1><hr class="filete"/>'
                   '<div class="prosa">'
                   + "".join(f"<p>{inline(p)}</p>" for p in intro_paragraphs) + "</div>")
-    add("intro.xhtml", page(intro_title, intro_body), intro_title)
+    add(fname("intro"), page(intro_title, intro_body), intro_title)
 
     for book in books:
         name = f"{book.key}.xhtml"
         add(name, page(book.title,
             f'<div class="portadilla"><p class="numeral">{esc(book.ordinal)}</p>'
             f'<h1 class="titulo">{esc(book.title)}</h1><hr class="filete"/>'
-            f'<p><em>{esc(book.epigraph)}</em></p></div>'), book.title)
+            f'<p><em>{esc(book.epigraph)}</em></p></div>'))
+        sub_items: list[tuple[str, str]] = []
         for poem in book.poems:
-            add(f"lam_{poem.pid}.xhtml", plate_page(poem.pid, poem.title))
-            add(f"{poem.pid}.xhtml", poem_page(poem), f"   {poem.numeral}. {poem.title}")
+            desc = _description(poem.pid, fm)
+            add(f"lam_{poem.pid}.xhtml", plate_page(poem.pid, poem.title, desc))
+            add(f"{poem.pid}.xhtml", poem_page(poem))
+            sub_items.append((f"{poem.pid}.xhtml", f"{poem.numeral}. {poem.title}"))
+        nav.append(("book", name, book.title, sub_items))
 
-    add(f"lam_{closing.pid}.xhtml", plate_page(closing.pid, closing.title))
+    closing_desc = _description(closing.pid, fm)
+    add(f"lam_{closing.pid}.xhtml", plate_page(closing.pid, closing.title, closing_desc))
     add(f"{closing.pid}.xhtml", page(closing.title,
-        f'<h2 class="titulo">{esc(closing.title)}</h2><hr class="filete"/>'
+        f'<h1 class="titulo">{esc(closing.title)}</h1><hr class="filete"/>'
         + glossary_html(closing)), closing.title)
 
-    fm = re.compile(r"\A---\r?\n(.*?)\r?\n---", re.DOTALL)
     laminas = "".join(
         f'<p class="entrada"><strong>{esc(title)}.</strong> {esc(_description(pid, fm))}</p>'
         for _, pid, title, _d in plate_notes(books, closing)
         if _description(pid, fm))
     illustrations_title = get_text(CURRENT_LANG, "illustrations_title")
-    add("ilustraciones.xhtml", page(illustrations_title,
-        f'<h2 class="titulo">{esc(illustrations_title)}</h2><hr class="filete"/>' + laminas),
+    add(fname("ilustraciones"), page(illustrations_title,
+        f'<h1 class="titulo">{esc(illustrations_title)}</h1><hr class="filete"/>' + laminas),
         illustrations_title)
     about_title = get_text(CURRENT_LANG, "about_title")
     about_paragraphs = get_text(CURRENT_LANG, "about")
-    add("sobre.xhtml", page(about_title,
-        f'<h2 class="titulo">{esc(about_title)}</h2><hr class="filete"/>'
+    add(fname("sobre"), page(about_title,
+        f'<h1 class="titulo">{esc(about_title)}</h1><hr class="filete"/>'
         '<div class="prosa">' + "".join(f"<p>{inline(p)}</p>" for p in about_paragraphs) + "</div>"),
         about_title)
-    add("colofon.xhtml", page(get_text(CURRENT_LANG, "colophon_title"),
+    add(fname("colofon"), page(get_text(CURRENT_LANG, "colophon_title"),
         f'<div class="colofon"><p>{get_text(CURRENT_LANG, "colophon_text")}</p></div>'))
 
     # ---- índice de navegación
     toc_title = get_text(CURRENT_LANG, "toc_title")
-    nav_items = "".join(f'<li><a href="{n}">{esc(t)}</a></li>' for n, t in nav)
+
+    def nav_li(node: tuple) -> str:
+        if node[0] == "book":
+            _, href, title, sub_items = node
+            children = "".join(
+                f'<li><a href="{n}">{esc(t)}</a></li>' for n, t in sub_items)
+            return (f'<li><a href="{href}">{esc(title)}</a>'
+                    f'<ol>{children}</ol></li>')
+        _, href, title = node
+        return f'<li><a href="{href}">{esc(title)}</a></li>'
+
+    nav_items = "".join(nav_li(node) for node in nav)
     files["nav.xhtml"] = page(toc_title,
-        f'<nav epub:type="toc" id="toc"><h2 class="titulo">{esc(toc_title)}</h2>'
+        f'<nav epub:type="toc" id="toc"><h1 class="titulo">{esc(toc_title)}</h1>'
         f'<ol>{nav_items}</ol></nav>')
 
     # ---- imágenes y fuentes
@@ -323,15 +365,24 @@ def build(lang: str = "es") -> None:
         manifest.append(f'<item id="m{i}" href="{path}" media-type="{mt}"{extra}/>')
 
     spine_items = "".join(f'<itemref idref="p{i}"/>' for i in range(len(spine)))
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    isbn = get_text(CURRENT_LANG, "isbn")
+    isbn_meta = (f'<dc:identifier id="isbn">urn:isbn:{esc(isbn)}</dc:identifier>'
+                 if isbn else '')
     opf = f'''<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
     <dc:identifier id="bookid">{get_uid()}</dc:identifier>
+    {isbn_meta}
     <dc:title>{esc(get_title())}</dc:title>
     <dc:creator>{esc(get_author())}</dc:creator>
+    <dc:publisher>{esc(get_text(CURRENT_LANG, "publisher"))}</dc:publisher>
+    <dc:rights>{esc(get_text(CURRENT_LANG, "rights"))}</dc:rights>
+    <dc:date>{today}</dc:date>
     <dc:language>{get_lang_code()}</dc:language>
     <dc:description>{esc(get_subtitle())}. {esc(get_text(CURRENT_LANG, "kicker"))}.</dc:description>
-    <meta property="dcterms:modified">2026-01-01T00:00:00Z</meta>
+    <meta property="dcterms:modified">{now}</meta>
   </metadata>
   <manifest>{"".join(manifest)}</manifest>
   <spine>{spine_items}</spine>

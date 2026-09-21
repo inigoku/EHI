@@ -6,6 +6,9 @@ TEXTS = {
         "title": "Ecos en el borde",
         "subtitle": "Lírica del límite emocional",
         "author": "Íñigo Barrera Barceló",
+        "publisher": "Íñigo Barrera Barceló",
+        "rights": "© Íñigo Barrera Barceló. Todos los derechos reservados.",
+        "isbn": "9798175383530",
         "intro_title": "Desde la orilla",
         "intro": [
             "Este volumen reúne los veintiún poemas y el glosario que cierran "
@@ -104,6 +107,9 @@ TEXTS = {
         "title": "Ecos a la vora",
         "subtitle": "Lírica del límit emocional",
         "author": "Íñigo Barrera Barceló",
+        "publisher": "Íñigo Barrera Barceló",
+        "rights": "© Íñigo Barrera Barceló. Tots els drets reservats.",
+        "isbn": "9798175383530",
         "intro_title": "Des de la vora",
         "intro": [
             "Aquest volum reuneix els vint-i-un poemes i el glossari que tanquen "
@@ -201,6 +207,9 @@ TEXTS = {
         "title": "Echoes at the Edge",
         "subtitle": "Lyric of the Emotional Threshold",
         "author": "Íñigo Barrera Barceló",
+        "publisher": "Íñigo Barrera Barceló",
+        "rights": "© Íñigo Barrera Barceló. All rights reserved.",
+        "isbn": "",
         "intro_title": "From the Shore",
         "intro": [
             "This volume gathers the twenty-one poems and the glossary that close "
