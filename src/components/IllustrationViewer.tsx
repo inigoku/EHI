@@ -41,6 +41,8 @@ import imgCartGuernica from "../assets/images/il_cart_guernica.jpg";
 // @ts-ignore
 import imgCartConstelaciones from "../assets/images/il_cart_constelaciones.jpg";
 // @ts-ignore
+import imgCartNarciso from "../assets/images/il_cart_narciso.jpg";
+// @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
 // @ts-ignore
 import img02 from "../assets/images/ilustracion_02.png";
@@ -454,7 +456,7 @@ const imageMap: Record<string, string> = {
   // actual paintings discussed (hotlinked from Wikipedia/Wikimedia Commons)
   il_cart_guernica: imgCartGuernica,
   cart_construccion: "https://upload.wikimedia.org/wikipedia/en/8/89/SalvadorDali-SoftConstructionWithBeans.jpg",
-  cart_narciso: "https://upload.wikimedia.org/wikipedia/en/2/21/Metamorphosis_of_Narcissus.jpg",
+  il_cart_narciso: imgCartNarciso,
   cart_relojes: "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
   il_cart_desintegracion: imgCartDesintegracion,
   cart_corpus: "https://upload.wikimedia.org/wikipedia/en/0/09/Dali_Crucifixion_hypercube.jpg",
