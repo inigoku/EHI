@@ -329,6 +329,7 @@ class Builder:
         self.cv.setTitle(f"{get_title()} — Antología poética")
         self.cv.setAuthor(get_author())
         self.cv.setSubject(get_text(CURRENT_LANG, "kicker"))
+        self.cv.setKeywords(get_text(CURRENT_LANG, "keywords"))
         self.page = 1
         self.toc_in = toc or []
         self.toc_out: list[Entry] = []
@@ -376,6 +377,12 @@ class Builder:
 
     def mark(self, label: str, title: str, level: int) -> None:
         self.toc_out.append(Entry(label, title, self.page, level))
+        key = f"toc-{len(self.toc_out)}"
+        self.cv.bookmarkPage(key)
+        # los libros y las piezas sueltas (introduccion, glosario...) van al
+        # mismo nivel de marcador; solo los poemas anidan bajo su libro.
+        outline_level = 1 if level == 1 else 0
+        self.cv.addOutlineEntry(title, key, level=outline_level, closed=1)
 
     # ---- paginas de principio
     def half_title(self) -> None:
