@@ -26,18 +26,18 @@ Before mapping the three systems, we must record the disturbance that ran throug
 
 The Spanish Civil War was, for these three horizons, the same external gravitational field with three distinct responses. Dalí saw it coming and turned it into flesh: *Soft Construction with Boiled Beans*, painted months before the uprising, is a body tearing itself apart, premonition made anatomy. An entire country reduced to a figure strangling itself with its own hands. Afterward he avoided it: neither trench nor placard, but flight to Italy and America, and a political silence that was another way of sealing the capsule — a silence that over the years drifted into a flirtation with power, which his old surrealist companions never forgave him. The war did not enter Dalí: it was digested by the method and returned as a monster.
 
-## [ILUSTRACIÓN il_cart_construccion: "Anatomy of a Premonition"]
-*Original illustration. A soft architecture of interlocking limbs and torsos, sand-colored under a stormy sky, straining against itself: one hand grips its own throat, a leg buckles under its own weight. On the barren ground, a handful of dark beans. No face is recognizable: the whole figure reads as a single body tearing itself apart.*
+## [ILUSTRACIÓN cart_construccion: "Soft Construction with Boiled Beans"]
+*Salvador Dalí, oil on canvas, 1936. Philadelphia Museum of Art.*
 
 Picasso did the opposite: he threw his horizon wide open, just once. *Guernica* is the moment when exterior information —the bombing, the bodies, the horse— crosses the membrane without being transformed into autobiography. For once, the Picassian self stepped aside to let the scream of others through. The painting toured the world as ambassador of a dying republic and did not set foot in Spain until 1981, by which time both the dictator and the painter were dead: the information took forty-four years to return to its origin. Picasso never went back to Franco's Spain; his exile was a stable orbit around a country that by then existed only inside him.
 
-## [ILUSTRACIÓN il_cart_guernica: "The Scream That Crosses Through"]
-*Original illustration. A composition in white, black, and ash grey: a horse's silhouette rears at the center beneath a sun shattered like a broken bulb, while splintered geometric planes suggest collapsed walls and elongated shadows receding toward the edges. No known face, no real scene: only the scream reduced to its geometry.*
+## [ILUSTRACIÓN cart_guernica: "Guernica"]
+*Pablo Picasso, oil on canvas, 1937. Museo Reina Sofía, Madrid.*
 
 Miró responded with *The Reaper* and the poster *Aidez l'Espagne*, and then with retreat: Varengeville, Palma, a withdrawal into the minimal. His *Constellations* are born exactly there, while Europe burns: twenty-three small-format, transportable gouaches, painted by a man fleeing with his family from one war toward another. They are not escapism: they are resistance through concentration. His horizon did not close with the war: it grew thinner and more taut, like a rope.
 
-## [ILUSTRACIÓN il_cart_constelaciones: "Minimal Web Under Fire"]
-*Original illustration. A small square of midnight blue, the size of a travel notebook, covered by a delicate web of black lines connecting starbursts, spirals, and tiny biomorphic eyes: a network small enough to fit in a fleeing hand, its threads pulled taut as if holding something together under pressure.*
+## [ILUSTRACIÓN cart_constelaciones: "Constellations"]
+*Joan Miró, "The Morning Star," gouache on paper, from the Constellations series, 1940.*
 
 Three reconfigurations of the same blow: Dalí digests it, Picasso expels it, Miró compresses it.
 
@@ -53,8 +53,8 @@ His painting is a sealed capsule where the exterior world does not enter without
 
 The method has a manifesto-work: *Metamorphosis of Narcissus*. A crouching figure by the water is, simultaneously, a self-absorbed youth and a stone hand holding an egg from which a flower sprouts. There is no trick: both readings are simultaneous and complete, and the eye cannot hold on to both at once. Dalí has built a superposed image, and every viewer collapses it in their own way. Freud, who received him in London in 1938 with that painting under his arm, admitted to the young Spaniard what he denied the rest of the surrealists: that there was a serious psychological problem there. It was not a compliment. It was a diagnosis.
 
-## [ILUSTRACIÓN il_cart_narciso: "The Image That Will Not Collapse"]
-*Original illustration. A rocky shore at dusk, split by a pool as still as a mirror. On one side, a kneeling silhouette gazes at its own reflection; on the other, that same silhouette has become a cracked stone hand cradling an egg from which a flower emerges. Both halves share one continuous outline, so the eye cannot hold both readings at once.*
+## [ILUSTRACIÓN cart_narciso: "Metamorphosis of Narcissus"]
+*Salvador Dalí, oil on canvas, 1937. Tate, London.*
 
 Faced with chaos —war, exile, old age— Dalí builds a self-referential universe where his phobias (madness, death, impotence) and his fixations (Gala, religion, money) orbit like planets in a closed system. The paranoiac machine even works backward through art history: for years, Dalí subjected Millet's placid *Angelus* to his method until he extracted from it a sepulchral drama —the two peasants, he claimed, were not praying over the harvest but over the grave of a dead child— and he went so far as to demand the canvas be X-rayed to confirm it. That the X-ray did in fact reveal a repainted shape beneath the basket is beside the point: what matters is that, for Dalí, no image in the world was safe from being reabsorbed into his system. His own repertoire confirms it: the crutches propping up soft flesh, the ants announcing decay, the drawers opening in torsos as if the body were a filing cabinet. None of it is decoration: it is the nomenclature of a private planetary system, stable enough to be recognized from one painting to the next across fifty years. What enters Dalí does not come back out intact: it emerges distorted, stretched, turned into the echo of a self that no longer knows where the world ends and its own shadow begins.
 
@@ -62,8 +62,8 @@ Faced with chaos —war, exile, old age— Dalí builds a self-referential unive
 
 There is a work that anticipates this ending by decades. In 1952, after Hiroshima, Dalí returns to his most famous painting and paints *The Disintegration of the Persistence of Memory*: the soft watches of 1931 now float over a grid of separating blocks, the whole world decomposed into discrete units that no longer touch. This is his nuclear-mysticism period: matter, he has discovered, is made of particles that never brush against each other, and he paints that discontinuity with the same fervor with which he once painted flesh. Without knowing it, he is rehearsing his own future: twenty years later, disintegration will leave the canvas and enter his hand.
 
-## [ILUSTRACIÓN il_cart_desintegracion: "The Grid That Separates"]
-*Original illustration. A barren horizon turned into a grid of small floating cubes drifting apart, each catching the light on its own. A single soft clock drapes across two of the receding blocks, its form fraying at the edges into scattered particles in the empty space between the cubes.*
+## [ILUSTRACIÓN cart_desintegracion: "The Disintegration of the Persistence of Memory"]
+*Salvador Dalí, oil on canvas, 1952-1954. The Dalí Museum, St. Petersburg, Florida.*
 
 Because the degenerative tremor of his final years is not an external clinical fact: it is his inner horizon cracking. Fractal analysis of his late brushstrokes detected alterations that precede the diagnosis; they are not a technical failure, they are the self losing cohesion.
 
@@ -77,8 +77,8 @@ Inside that convulsing capsule, Gala is not a muse. She is the anchor point that
 
 One need only trace her transmutations to measure her mass. In *Galarina* she is serene flesh with one bared breast, painted —he said— the way Raphael painted his madonnas. In *Atomic Leda* she is a suspended goddess, touching neither the swan nor the pedestal, in a world where nothing touches anything: love rewritten as a geometry without contact, where union no longer depends on touch but on the relative position of bodies in space. In *Corpus Hypercubus* she no longer even takes part in the scene: she watches the crucifixion from below, dressed as a lady of Toledo, turned into the witness whose gaze sustains the prodigy. Over the years, Dalí came to sign with both their names, "Gala Salvador Dalí," as if the signature itself were a binary system.
 
-## [ILUSTRACIÓN il_cart_corpus: "The Witness Beneath the Unfolded Cube"]
-*Original illustration. An unfolded hypercube of translucent, luminous cubes floats weightless against a dark sky; at its center, a human silhouette hovers in calm levitation, arms outstretched. Below, on a checkerboard floor, a robed figure kneels with her back to the viewer, gaze fixed on the floating form: witness, not participant.*
+## [ILUSTRACIÓN cart_corpus: "Corpus Hypercubus"]
+*Salvador Dalí, oil on canvas, 1954. The Metropolitan Museum of Art, New York.*
 
 But, like every singularity, Gala is not directly observable. We do not see her in the paintings as she really is: we see her transmuted into Leda, into a virgin, into architecture. She is the invisible mass that curves Dalinian space, and she only manifests through the gravity she exerts on everything else.
 
@@ -100,8 +100,8 @@ Dalí took decades to name the obvious. Late in life he would repeat that Lorca 
 
 Dalí does not fragment for aesthetic reasons: he fragments because his horizon is a battlefield, and multiplying images is his only way of not collapsing. His soft watches are not a nod to Einstein: they are the demonstration that time stretches with desire and collapses with terror. He himself gave the domestic key to the prodigy: a camembert melting on an August night. That the emblem of subjective time was born from a melting cheese is not an anecdote: it is the method in its purest state, the trivial elevated to cosmology by the pressure of a mind that draws no hierarchy between panic and dinner. In his capsule, past and future coexist in a viscous present, suspended in the membrane of the horizon.
 
-## [ILUSTRACIÓN il_cart_relojes: "The Time That Melts"]
-*Original illustration. An arid, golden coastal landscape at the edge of a dream: three soft clocks drape like wet cloth over a dead branch, the edge of a table, and a strange sleeping shape in the sand, their hands bent and drooping. A few dark ants cross a pocket watch, the only one left rigid.*
+## [ILUSTRACIÓN cart_relojes: "The Persistence of Memory"]
+*Salvador Dalí, oil on canvas, 1931. The Museum of Modern Art, New York.*
 
 ## II. Pablo Picasso: superposition
 
@@ -109,8 +109,8 @@ If Dalí locks himself in a high-gravity well, Picasso inhabits a prism in perpe
 
 Look at him in the two-headed portraits of the 1930s and '40s: Marie-Thérèse's blonde placidity fused with the sharp edge and weeping of Dora Maar into a single impossible face. In *The Dream*, Marie-Thérèse sleeps with her head split into two halves that are profile and moon; in *The Weeping Woman*, Dora's face breaks into green, acidic shards around a handkerchief that is also chewed glass. Picasso does not paint women: he paints superposed states of affect, and forces the viewer to process love, destruction, and desire in a single glance.
 
-## [ILUSTRACIÓN il_cart_llorona: "The Fractured Face"]
-*Original illustration. A face broken into shards of acid-green and cobalt glass, each fragment showing a different angle of the same expression of grief. A white handkerchief presses where the mouth should be, its folds drawn as cracked glass rather than cloth. No two fragments share the same light source, as if the face were being seen from several moments at once.*
+## [ILUSTRACIÓN cart_llorona: "The Weeping Woman"]
+*Pablo Picasso, oil on canvas, 1937. Tate, London.*
 
 That double face is the key to his entire body of work. Picasso does not have a single horizon: he has many, superposed. His self is not a point with a defined position; it is a wave spanning all possible states until the act of painting collapses the wave and materializes a style, a temporary identity. He formulated it himself, without physics, before the portrait of Gertrude Stein: when told that she did not resemble that mask-like face he had painted, he replied that she would come to resemble it. It was not arrogance: it was the conviction that the painting does not record a state, but anticipates it —that observation does not copy reality, it produces it.
 
@@ -120,8 +120,8 @@ That double face is the key to his entire body of work. Picasso does not have a 
 
 The first collapse has a date and a corpse. In 1901, his friend Carles Casagemas shoots himself in a Paris café over a woman. Picasso, nineteen years old, buries his friend and then paints the entire world blue for three years: beggars, the blind, consumed mothers, Casagemas himself laid out with a hole in his temple. The Blue Period is not a tonal exercise: it is the first demonstration that a single trauma can tint the whole perceptual spectrum, that the mass of one death can curve all the light of a system. Then came the rose period —the acrobats, itinerant tenderness— and then the axe blow: between *The Old Guitarist* and *Les Demoiselles d'Avignon* there is no narrative transition. There is a jump. The five women of the brothel on Carrer d'Avinyó, with their Iberian and African mask-faces, do not evolve from anything prior: they erupt, the way a particle erupts where classical physics did not expect it.
 
-## [ILUSTRACIÓN il_cart_avignon: "The Eruption"]
-*Original illustration. Five angular silhouettes occupy a shallow red interior, their faces reduced to flat geometric masks —triangular, striped, hollow-socketed— none in the same style as the others, as if five different eras of image-making had collided in a single frame. No contour is soft: every edge cuts.*
+## [ILUSTRACIÓN cart_avignon: "Les Demoiselles d'Avignon"]
+*Pablo Picasso, oil on canvas, 1907. The Museum of Modern Art, New York.*
 
 Changing style was not, for him, a formal quest: it was a vital necessity. Each period is a capsule he inhabits with predatory voracity; once its information is exhausted, he abandons it and founds a new universe with new laws. Unlike Dalí, Picasso does not suffer the capsule: he devours it.
 
@@ -144,8 +144,8 @@ While Dalí suffers his horizon and Picasso analyzes his to the point of exhaust
 
 The starting point is the earth, not the sky. *The Farm*, painted over nine months of obsession between Mont-roig and Paris, contains the entire family farm: every crack in the wall, every leaf of the eucalyptus, the snail, the watering can, the goat. It is realism taken to an impossible density, an inventory where nothing matters more than anything else. Hemingway, who bought it, said it contained everything one feels about Spain when far from it. It is already there, in figurative code, the program of an entire life: the ant is worth as much as the star. All that remained was to let go of the ballast.
 
-## [ILUSTRACIÓN il_cart_masia: "The Inventory Without Hierarchy"]
-*Original illustration. A view of a modest farm treated with the same obsessive precision given to every object: a cracked wall, a eucalyptus leaf, a snail's shell, a goat's eye, a rusted watering can, each element drawn at the same scale of attention regardless of size, arranged in a dense, flattened grid where nothing recedes into the background and nothing weighs more than anything else.*
+## [ILUSTRACIÓN cart_masia: "The Farm"]
+*Joan Miró, oil on canvas, 1921-1922. National Gallery of Art, Washington, D.C. — bought by Ernest Hemingway.*
 
 He let go of it violently. "I want to assassinate painting," he declared around 1927, and he meant it: against inherited craft, against the easel painting as an object of possession, Miró undertook a systematic demolition of everything painting had of property. What remained after the assassination was not nothing: it was an alphabet. Star, woman, bird, eye, ladder. Signs that no longer represent things, but summon them.
 
