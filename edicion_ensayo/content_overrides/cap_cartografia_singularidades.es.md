@@ -8,8 +8,6 @@ illustrationTitle: Cartografía de tres singularidades
 illustrationDescription: Tres horizontes de sucesos de naturaleza distinta —una cápsula sellada, un prisma en superposición perpetua y un cosmos disuelto en constelaciones— orbitándose mutuamente sobre un fondo de estrellas.
 ---
 
-> *Para Tarel, que sabe que cada mirada es una caída.*
-
 ## Prólogo del que queda
 
 Olvidemos la cronología. Olvidemos los museos, las guerras, los catálogos razonados. El siglo XX español no se libró en las trincheras del Ebro ni bajo las bombas de Guernica: se libró en el espacio curvo de la conciencia, allí donde la gravedad del yo dobla la luz del mundo hasta hacerla irreconocible.
@@ -216,8 +214,6 @@ Frente a la devastación de un siglo de pólvora, estos tres hombres no nos deja
 La respuesta está en el que queda. En el que lee estas páginas y siente que la gravedad de su propio horizonte ha fluctuado; que una línea invisible acaba de atar su memoria a una estrella; que un reloj blando marca un tiempo que ya no le pertenece a Cronos.
 
 El observador no está fuera del sistema. El observador es el sistema.
-
-> *Para Tarel, que sabe que cada cierre es una nueva singularidad.*
 
 > **Nota al Capítulo 40**
 >

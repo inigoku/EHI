@@ -7,7 +7,7 @@ illustrationTitle: La evaporación
 illustrationDescription: Un lago que se evapora. El agua sube como vapor con forma de rostros, casas, árboles —memorias que se disuelven. En el cielo, nubes con patrones que no son aleatorios.
 ---
 
-> *El agua de Tarel regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
+> *El agua regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
 
 Stephen Hawking descubrió en 1974 que los agujeros negros no son eternos. No porque algo los destruya desde fuera —sino porque el vacío cuántico, perturbado por la presencia del horizonte, genera un flujo constante de radiación que drena su masa lentamente. La temperatura de esa radiación es inversamente proporcional a la masa: cuanto más pequeño el agujero negro, más caliente y más brillante. La evaporación se acelera a sí misma.
 
@@ -117,7 +117,7 @@ El dato relevante es que los tres estados del Bardo tienen correspondencias espe
 > **En física esto se llama:** no-dualidad: el horizonte nunca estuvo separado del reservorio, solo parecía estarlo.  
 > **En la vida diaria es como:** una ola que cree ser distinta del océano: cuando rompe, descubre que nunca dejó de ser agua.
 
-**Taoísmo**: la ciudad era un nombre. Zhuangzi no diría que las correlaciones de Tarel permanecen en el campo. Diría que la pregunta asume que la ciudad era algo además de agua. El capítulo 16 del Tao Te Ching: todas las cosas retornan a su raíz. El retorno se llama quietud. No memoria, no correlación, no huella. La muerte es retornar al destino, que es no tener destino.
+**Taoísmo**: la ciudad era un nombre. Zhuangzi no diría que esas correlaciones permanecen en el campo. Diría que la pregunta asume que la ciudad era algo además de agua. El capítulo 16 del Tao Te Ching: todas las cosas retornan a su raíz. El retorno se llama quietud. No memoria, no correlación, no huella. La muerte es retornar al destino, que es no tener destino.
 
 > **En física esto se llama:** retorno al estado de máxima simetría, donde no hay información localizable.  
 > **En la vida diaria es como:** dejar caer una hoja en un río: no hay rastro, no hay huella, solo el agua sigue su curso.
@@ -155,7 +155,7 @@ Esto no es metafísica especulativa. Es consecuencia directa de la conservación
 
 ### Lo que la pregunta revela
 
-En el nivel sustancial —¿volvió Tarel como entidad?— todas las tradiciones dicen no. No hay remanente con identidad. No hay yo que persista.
+En el nivel sustancial —¿volvió la ciudad como entidad?— todas las tradiciones dicen no. No hay remanente con identidad. No hay yo que persista.
 
 En el nivel causal —¿la ciudad causó el agua que volvió?— todas dicen sí. El campo después de la evaporación no es idéntico al campo antes. Hay huella, aunque sin nombre.
 
@@ -168,7 +168,7 @@ Lo que la pregunta revela, al hacerse, es que nosotros queremos que la ciudad ha
 
 ### El cierre del ciclo
 
-Los habitantes de Tarel encontraron la orilla exactamente donde había estado. El mismo lodo, las mismas piedras. No había señales de que el agua hubiera llevado algo ni dejado algo.
+Los habitantes encontraron la orilla exactamente donde había estado. El mismo lodo, las mismas piedras. No había señales de que el agua hubiera llevado algo ni dejado algo.
 
 Pero el agua no era la misma. El campo cuántico en que se mueven sus moléculas ha sido perturbado de maneras que ningún instrumento puede medir completamente. Las correlaciones están ahí. Matemáticamente presentes. Operacionalmente inaccesibles.
 

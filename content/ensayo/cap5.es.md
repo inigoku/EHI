@@ -159,7 +159,7 @@ La única cosa que el experimento no puede decir —y que quizás ninguna teorí
 
 > **Nota al Capítulo 6**
 >
-> **Lo que sí sabemos:** La ventana 28-32 es hipótesis neurocientífica con evidencia de EEG fetal. Los delta brushes son reales. La migración neuronal radial y la poda sináptica son procesos documentados. La "cuarta trimestre" es un concepto bien establecido en neurodesarrollo infantil. La condensación de Bose-Einstein es un fenómeno físico real, aunque su aplicación a la conciencia es metafórica.
+> **Lo que sí sabemos:** La ventana 28-32 es hipótesis neurocientífica con evidencia de EEG fetal. Los delta brushes son reales. La migración neuronal radial y la poda sináptica son procesos documentados. El "cuarto trimestre" es un concepto bien establecido en neurodesarrollo infantil. La condensación de Bose-Einstein es un fenómeno físico real, aunque su aplicación a la conciencia es metafórica.
 >
 > **Lo que no sabemos:** Si la condensación de Bose-Einstein es mecanismo biológico o solo metáfora formal. Dónde trazar la línea ética. Cuándo ocurre la transición en especies no mamíferas. Si hay múltiples caminos biológicos hacia la conciencia o uno solo.
 >
@@ -167,4 +167,4 @@ La única cosa que el experimento no puede decir —y que quizás ninguna teorí
 >
 > **Si solo te quedas con una idea:** El nacimiento no es cuando "aparece" la conciencia. Es cuando el mundo exterior empieza a hablarle a una burbuja que ya se había cerrado sobre sí misma. Y esa burbuja es irrepetible porque la contingencia de su cierre es constitutiva de su identidad.
 >
-> **Lecturas:** EEG fetal (sem. 28-32); Bose-Einstein condensación; Tononi (IIT aplicado al desarrollo); Trevarthen (neurodesarrollo infantil); Montagu (cuarta trimestre); Marín-Padilla (subplate y talamocortical).
+> **Lecturas:** EEG fetal (sem. 28-32); Bose-Einstein condensación; Tononi (IIT aplicado al desarrollo); Trevarthen (neurodesarrollo infantil); Montagu (cuarto trimestre); Marín-Padilla (subplate y talamocortical).

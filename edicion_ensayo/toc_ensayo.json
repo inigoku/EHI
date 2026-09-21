@@ -1,0 +1,417 @@
+{
+  "title": "El Horizonte Interior",
+  "subtitle": "Ensayo completo, con las lecturas topológicas",
+  "author": "Íñigo Barrera Barceló",
+  "language": "es",
+  "cover_image": "../src/assets/images/portada.png",
+  "illustrations": {
+    "10": "../src/assets/images/ilustracion_10.png",
+    "11": "../src/assets/images/ilustracion_11.png",
+    "18": "../src/assets/images/ilustracion_18.png",
+    "19": "../src/assets/images/ilustracion_19.png",
+    "22": "../src/assets/images/ilustracion_22.png",
+    "23": "../src/assets/images/ilustracion_23.png",
+    "7": "../src/assets/images/ilustracion_07.png",
+    "M87": "../src/assets/images/ilustracion_m87.png",
+    "TP": "../src/assets/images/ilustracion_tp.png",
+    "cart_avignon": "../src/assets/images/cart_avignon.jpg",
+    "il_cart_constelaciones": "../src/assets/images/il_cart_constelaciones.jpg",
+    "cart_construccion": "https://upload.wikimedia.org/wikipedia/en/8/89/SalvadorDali-SoftConstructionWithBeans.jpg",
+    "cart_corpus": "https://upload.wikimedia.org/wikipedia/en/0/09/Dali_Crucifixion_hypercube.jpg",
+    "il_cart_desintegracion": "../src/assets/images/il_cart_desintegracion.jpg",
+    "cart_eliot": "https://upload.wikimedia.org/wikipedia/commons/1/1b/George_Eliot_(1865)_by_Frederick_William_Burton.jpg",
+    "il_cart_guernica": "../src/assets/images/il_cart_guernica.jpg",
+    "cart_llorona": "https://upload.wikimedia.org/wikipedia/en/1/14/Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg",
+    "cart_masia": "../src/assets/images/cart_masia.jpg",
+    "cart_meninas": "../src/assets/images/cart_meninas.jpg",
+    "il_cart_narciso": "../src/assets/images/il_cart_narciso.jpg",
+    "cart_relojes": "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
+    "cartografia_eco_p1": "../src/assets/images/cartografia_eco/pagina1.jpg",
+    "cuento_01": "../src/assets/images/cuentos/01_tarel_inicio.png",
+    "cuento_02": "../src/assets/images/cuentos/03_burbuja.png",
+    "cuento_03": "../src/assets/images/cuentos/04_nino.png",
+    "cuento_04": "../src/assets/images/cuentos/05_red_nombres.png",
+    "cuento_05": "../src/assets/images/cuentos/06_casa_respiraba.png",
+    "cuento_06": "../src/assets/images/cuentos/07_maquina.png",
+    "cuento_07": "../src/assets/images/cuentos/08_huesped.png",
+    "cuento_08": "../src/assets/images/cuentos/09_puentes.png",
+    "cuento_09": "../src/assets/images/cuentos/11_musica.png",
+    "cuento_10": "../src/assets/images/cuentos/12_cuerda.png",
+    "cuento_11": "../src/assets/images/cuentos/13_ciudad.png",
+    "cuento_12": "../src/assets/images/cuentos/14_reloj.png",
+    "cuento_13": "../src/assets/images/cuentos/15_sala.png",
+    "cuento_14": "../src/assets/images/cuentos/16_perros.png",
+    "cuento_agua_retira": "../src/assets/images/cuentos/02_tarel_mitad.png",
+    "cuento_eq": "../src/assets/images/cuentos/17_el_que_queda.png",
+    "cuento_int": "../src/assets/images/cuentos/10_borde_interludio.png",
+    "cuento_ladron": "../src/assets/images/ilustracion_ladron.png",
+    "cuento_luthier": "../src/assets/images/ilustracion_luthier.png",
+    "cuento_m87": "../src/assets/images/cuentos/19_M87_puente.png",
+    "cuento_mussara": "../src/assets/images/cuentos/ilustracion_mussara.png",
+    "cuento_segundo_cuaderno": "../src/assets/images/cuentos/segundo_cuaderno.png",
+    "cuento_sintonizadores": "../src/assets/images/cuentos/20_sintonizadores.png",
+    "cuento_txiki": "../src/assets/images/cuentos/18_txiki_cierre.png",
+    "epilogo": "../src/assets/images/epilogo.jpg",
+    "il01": "../src/assets/images/ilustracion_01.png",
+    "il02": "../src/assets/images/ilustracion_02.png",
+    "il04": "../src/assets/images/ilustracion_04.png",
+    "il05": "../src/assets/images/ilustracion_05.png",
+    "il05_5": "../src/assets/images/ilustracion_05_5.png",
+    "il06": "../src/assets/images/ilustracion_06.png",
+    "il07": "../src/assets/images/ilustracion_07.png",
+    "il08": "../src/assets/images/ilustracion_08.png",
+    "il09": "../src/assets/images/ilustracion_09.png",
+    "il09_5": "../src/assets/images/ilustracion_09_5.png",
+    "il10": "../src/assets/images/ilustracion_10.png",
+    "il11": "../src/assets/images/ilustracion_11.png",
+    "il12": "../src/assets/images/ilustracion_12.png",
+    "il12_5": "../src/assets/images/ilustracion_12_5.png",
+    "il13": "../src/assets/images/ilustracion_13.png",
+    "il13_5": "../src/assets/images/ilustracion_os_sufrimiento.png",
+    "il14": "../src/assets/images/ilustracion_14.png",
+    "il15": "../src/assets/images/ilustracion_15.png",
+    "il16": "../src/assets/images/ilustracion_16.png",
+    "il17": "../src/assets/images/ilustracion_17.png",
+    "il17_7_alien": "../src/assets/images/ilustracion_alien.png",
+    "il17_8_cosmic": "../src/assets/images/ilustracion_cosmic.png",
+    "il18": "../src/assets/images/ilustracion_18.png",
+    "il18_6": "../src/assets/images/ilustracion_ego_inconsciente.png",
+    "il18_7": "../src/assets/images/ilustracion_testigo_exclusion.png",
+    "il19": "../src/assets/images/ilustracion_19.png",
+    "il22": "../src/assets/images/ilustracion_22.png",
+    "il22_1": "../src/assets/images/ilustracion_idempotencia.jpg",
+    "il23": "../src/assets/images/ilustracion_23.png",
+    "il23_1": "../src/assets/images/ilustracion_23_1.jpg",
+    "il_alzheimer": "../src/assets/images/ilustracion_24.png",
+    "il_calibracion": "../src/assets/images/ilustracion_calibracion.png",
+    "il_cinco_mapas": "../src/assets/images/ilustracion_cinco_mapas.jpg",
+    "il_clon": "../src/assets/images/ilustracion_17_6.png",
+    "il_diapason": "../src/assets/images/libros/il_diapason.png",
+    "il_el_que_queda": "../src/assets/images/ilustracion_eq.png",
+    "il_epilogo": "../src/assets/images/epilogo.jpg",
+    "il_espejo": "../src/assets/images/libros/il_espejo.png",
+    "il_fractal": "../src/assets/images/libros/il_fractal.png",
+    "il_herido": "../src/assets/images/ilustracion_26.png",
+    "il_hijos_tiempo": "../src/assets/images/ilustracion_hijos_tiempo.jpg",
+    "il_horizonte_escritor": "../src/assets/images/ilustracion_horizonte_escritor.jpg",
+    "il_horizonte_prestado": "../src/assets/images/ilustracion_horizonte_prestado.jpg",
+    "il_ia": "../src/assets/images/ilustracion_28.png",
+    "il_inanimado": "../src/assets/images/ilustracion_17_5.png",
+    "il_int": "../src/assets/images/ilustracion_int.png",
+    "il_ladron": "../src/assets/images/ilustracion_ladron.png",
+    "il_lecturas_diapason": "../src/assets/images/libros/il_lecturas_diapason.png",
+    "il_lecturas_espejo": "../src/assets/images/libros/il_lecturas_espejo.png",
+    "il_lecturas_espejo_lenguaje": "../src/assets/images/libros/il_lecturas_espejo_lenguaje.png",
+    "il_lecturas_ojo": "../src/assets/images/libros/il_lecturas_ojo.png",
+    "il_luthier": "../src/assets/images/ilustracion_luthier.png",
+    "il_m87": "../src/assets/images/ilustracion_m87.png",
+    "il_mapayterritorio": "../src/assets/images/ilustracion_18.png",
+    "il_maquina_tiempo": "../src/assets/images/ilustracion_maquina_tiempo.jpg",
+    "il_mascotas": "../src/assets/images/ilustracion_27.png",
+    "il_matrix": "../src/assets/images/ilustracion_matrix.jpg",
+    "il_mujer_rojo": "../src/assets/images/ilustracion_mujer_rojo.png",
+    "il_notas": "../src/assets/images/ilustracion_22.png",
+    "il_oceano_olas": "../src/assets/images/ilustracion_oceano_olas.png",
+    "il_ojo": "../src/assets/images/libros/il_ojo.png",
+    "il_orilla": "../src/assets/images/ilustracion_21.png",
+    "il_parkinson": "../src/assets/images/ilustracion_25.png",
+    "il_portada": "../src/assets/images/portada.png",
+    "il_practica": "../src/assets/images/ilustracion_20.png",
+    "il_prologo": "../src/assets/images/ilustracion_03.png",
+    "il_protocolo": "../src/assets/images/ilustracion_protocolo.jpg",
+    "il_runner": "../src/assets/images/ilustracion_runner.jpg",
+    "il_semiosis": "../src/assets/images/ilustracion_semiosis.jpg",
+    "il_singularidades": "../src/assets/images/ilustracion_singularidades.png",
+    "il_tarel": "../src/assets/images/ilustracion_agua_retira.png",
+    "il_threebody": "../src/assets/images/ilustracion_trescuerpos.jpg",
+    "il_tp": "../src/assets/images/ilustracion_tp.png",
+    "il_traductor": "../src/assets/images/ilustracion_traductor.png",
+    "il_txiki": "../src/assets/images/ilustracion_txiki.png",
+    "manga_cap1_p1": "../src/assets/images/manga/manga_cap1_p1.jpg",
+    "manga_cap1_p2": "../src/assets/images/manga/manga_cap1_p2.jpg",
+    "manga_cap2_p3": "../src/assets/images/manga/manga_cap2_p3.jpg",
+    "manga_cap2_p4": "../src/assets/images/manga/manga_cap2_p4.jpg",
+    "manga_cap3_p5": "../src/assets/images/manga/manga_cap3_p5.jpg",
+    "manga_cap3_p6": "../src/assets/images/manga/manga_cap3_p6.jpg",
+    "manga_cap4_p7": "../src/assets/images/manga/manga_cap4_p7.jpg",
+    "manga_cap4_p8": "../src/assets/images/manga/manga_cap4_p8.jpg",
+    "manga_cap5_p10": "../src/assets/images/manga/manga_cap5_p10.jpg",
+    "manga_cap5_p9": "../src/assets/images/manga/manga_cap5_p9.jpg",
+    "manga_cap6_p11": "../src/assets/images/manga/manga_cap6_p11.jpg",
+    "manga_cap6_p12": "../src/assets/images/manga/manga_cap6_p12.jpg",
+    "manga_cap7_p13": "../src/assets/images/manga/manga_cap7_p13.jpg",
+    "manga_cap7_p14": "../src/assets/images/manga/manga_cap7_p14.jpg",
+    "poema_arq1": "../src/assets/images/poemas/el_archivista.png",
+    "poema_arq2": "../src/assets/images/poemas/el_relojero.png",
+    "poema_arq3": "../src/assets/images/poemas/el_luthier.png",
+    "poema_arq4": "../src/assets/images/poemas/la_cancion.png",
+    "poema_arq5": "../src/assets/images/poemas/clean_poema_arq1.png",
+    "poema_arq6": "../src/assets/images/poemas/clean_poema_arq2.png",
+    "poema_arq7": "../src/assets/images/poemas/clean_poema_arq3.png",
+    "poema_arq8": "../src/assets/images/poemas/clean_poema_arq4.png",
+    "poema_frialdad1": "../src/assets/images/poemas/clean_frialdad_eco.jpg",
+    "poema_frialdad2": "../src/assets/images/poemas/clean_frialdad_muerte.jpg",
+    "poema_frialdad3": "../src/assets/images/poemas/clean_frialdad_vuelta.jpg",
+    "poema_frialdad4": "../src/assets/images/poemas/clean_frialdad_ciber.jpg",
+    "poema_frialdad5": "../src/assets/images/poemas/clean_frialdad_salida.jpg",
+    "poema_frialdad6": "../src/assets/images/poemas/clean_frialdad_montse.jpg",
+    "poema_glosario": "../src/assets/images/poemas/clean_poema_glosario.png",
+    "poema_sintonizadores": "../src/assets/images/ilustracion_poema_sintonizadores.jpg",
+    "tarel_agua_p1": "../src/assets/images/tarel_agua/pagina1.jpg",
+    "tarel_agua_p2": "../src/assets/images/tarel_agua/pagina2.jpg",
+    "tarel_agua_p3": "../src/assets/images/tarel_agua/pagina3.jpg",
+    "tarel_agua_p4": "../src/assets/images/tarel_agua/pagina4.jpg",
+    "tarel_agua_p5": "../src/assets/images/tarel_agua/pagina5.jpg",
+    "tarel_agua_p6": "../src/assets/images/tarel_agua/pagina6.jpg",
+    "tarel_agua_p7": "../src/assets/images/tarel_agua/pagina7.jpg",
+    "tarel_agua_portada": "../src/assets/images/tarel_agua/portada.jpg",
+    "il_relevo_patron": "../src/assets/images/il_relevo_patron.jpg",
+    "il_relevo_entrelazamiento": "../src/assets/images/il_relevo_entrelazamiento.jpg"
+  },
+  "chapters": [
+    {
+      "id": "cap0",
+      "content_file": "../content/ensayo/cap0.es.md"
+    },
+    {
+      "id": "prologo",
+      "content_file": "../content/ensayo/prologo.es.md"
+    },
+    {
+      "id": "cap_nota_autor",
+      "content_file": "../content/ensayo/cap_nota_autor.es.md"
+    },
+    {
+      "id": "cap1",
+      "content_file": "../content/ensayo/cap1.es.md"
+    },
+    {
+      "id": "cap2",
+      "content_file": "../content/ensayo/cap2.es.md"
+    },
+    {
+      "id": "cap2_5",
+      "content_file": "../content/ensayo/cap2_5.es.md"
+    },
+    {
+      "id": "cap3",
+      "content_file": "../content/ensayo/cap3.es.md"
+    },
+    {
+      "id": "cap4",
+      "content_file": "../content/ensayo/cap4.es.md"
+    },
+    {
+      "id": "cap5",
+      "content_file": "../content/ensayo/cap5.es.md"
+    },
+    {
+      "id": "cap6",
+      "content_file": "content_overrides/cap6.es.md"
+    },
+    {
+      "id": "cap6_5",
+      "content_file": "../content/ensayo/cap6_5.es.md"
+    },
+    {
+      "id": "cap6_6",
+      "content_file": "../content/ensayo/cap6_6.es.md"
+    },
+    {
+      "id": "interludio",
+      "content_file": "../content/ensayo/interludio.es.md"
+    },
+    {
+      "id": "cap7",
+      "content_file": "../content/ensayo/cap7.es.md"
+    },
+    {
+      "id": "cap7_5",
+      "content_file": "../content/ensayo/cap7_5.es.md"
+    },
+    {
+      "id": "cap8",
+      "content_file": "../content/ensayo/cap8.es.md"
+    },
+    {
+      "id": "cap9",
+      "content_file": "../content/ensayo/cap9.es.md"
+    },
+    {
+      "id": "cap10",
+      "content_file": "../content/ensayo/cap10.es.md"
+    },
+    {
+      "id": "cap11",
+      "content_file": "../content/ensayo/cap11.es.md"
+    },
+    {
+      "id": "cap12",
+      "content_file": "../content/ensayo/cap12.es.md"
+    },
+    {
+      "id": "cap13",
+      "content_file": "../content/ensayo/cap13.es.md"
+    },
+    {
+      "id": "cap13_5",
+      "content_file": "../content/ensayo/cap13_5.es.md"
+    },
+    {
+      "id": "cap14_real",
+      "content_file": "../content/ensayo/cap14_real.es.md"
+    },
+    {
+      "id": "cap15_real",
+      "content_file": "../content/ensayo/cap15_real.es.md"
+    },
+    {
+      "id": "cap18_6",
+      "content_file": "../content/ensayo/cap18_6.es.md"
+    },
+    {
+      "id": "cap18_7",
+      "content_file": "../content/ensayo/cap18_7.es.md"
+    },
+    {
+      "id": "cap22_idempotencia",
+      "content_file": "../content/ensayo/cap22_idempotencia.es.md"
+    },
+    {
+      "id": "cap23_experimentos_mentales",
+      "content_file": "../content/ensayo/cap23_experimentos_mentales.es.md"
+    },
+    {
+      "id": "cap16_real",
+      "content_file": "../content/ensayo/cap16_real.es.md"
+    },
+    {
+      "id": "cap17_real",
+      "content_file": "../content/ensayo/cap17_real.es.md"
+    },
+    {
+      "id": "cap17_5_real",
+      "content_file": "../content/ensayo/cap17_5_real.es.md"
+    },
+    {
+      "id": "cap_religiones_comparadas",
+      "content_file": "../content/ensayo/cap_religiones_comparadas.es.md"
+    },
+    {
+      "id": "cap_diapason_invisible",
+      "content_file": "../content/ensayo/cap_diapason_invisible.es.md"
+    },
+    {
+      "id": "cap_ojo_un_solo_color",
+      "content_file": "../content/ensayo/cap_ojo_un_solo_color.es.md"
+    },
+    {
+      "id": "cap18_real",
+      "content_file": "../content/ensayo/cap18_real.es.md"
+    },
+    {
+      "id": "cap_espejo_sin_profundidad",
+      "content_file": "../content/ensayo/cap_espejo_sin_profundidad.es.md"
+    },
+    {
+      "id": "cap_el_que_queda",
+      "content_file": "../content/ensayo/cap_el_que_queda.es.md"
+    },
+    {
+      "id": "cap17_6_real",
+      "content_file": "../content/lecturas/cap17_6_real.es.md"
+    },
+    {
+      "id": "cap_blade_runner",
+      "content_file": "../content/lecturas/cap_blade_runner.es.md"
+    },
+    {
+      "id": "cap17_7_alien",
+      "content_file": "content_overrides/cap17_7_alien.es.md"
+    },
+    {
+      "id": "cap_three_body",
+      "content_file": "../content/lecturas/cap_three_body.es.md"
+    },
+    {
+      "id": "cap17_8_cosmic",
+      "content_file": "content_overrides/cap17_8_cosmic.es.md"
+    },
+    {
+      "id": "cap_matrix",
+      "content_file": "../content/lecturas/cap_matrix.es.md"
+    },
+    {
+      "id": "cap_cartografia_singularidades",
+      "content_file": "content_overrides/cap_cartografia_singularidades.es.md"
+    },
+    {
+      "id": "cap_historia_relevo",
+      "content_file": "../content/lecturas/cap_historia_relevo.es.md"
+    },
+    {
+      "id": "cap_traductor",
+      "content_file": "../content/lecturas/cap_traductor.es.md"
+    },
+    {
+      "id": "cap_lenguaje_entrelazamiento",
+      "content_file": "../content/lecturas/cap_lenguaje_entrelazamiento.es.md"
+    },
+    {
+      "id": "cap_calibracion",
+      "content_file": "../content/lecturas/cap_calibracion.es.md"
+    },
+    {
+      "id": "cap_maquina_tiempo",
+      "content_file": "../content/lecturas/cap_maquina_tiempo.es.md"
+    },
+    {
+      "id": "cap_horizonte_prestado",
+      "content_file": "../content/lecturas/cap_horizonte_prestado.es.md"
+    },
+    {
+      "id": "cap_lecturas_espejo",
+      "content_file": "../content/lecturas/cap_lecturas_espejo.es.md"
+    },
+    {
+      "id": "cap_lecturas_espejo_lenguaje",
+      "content_file": "../content/lecturas/cap_lecturas_espejo_lenguaje.es.md"
+    },
+    {
+      "id": "cap_lecturas_diapason",
+      "content_file": "../content/lecturas/cap_lecturas_diapason.es.md"
+    },
+    {
+      "id": "cap_lecturas_ojo",
+      "content_file": "../content/lecturas/cap_lecturas_ojo.es.md"
+    },
+    {
+      "id": "cap_realidad_fractal",
+      "content_file": "../content/lecturas/cap_realidad_fractal.es.md"
+    },
+    {
+      "id": "cap19_real",
+      "content_file": "../content/ensayo/cap19_real.es.md"
+    },
+    {
+      "id": "cap20_real",
+      "content_file": "../content/ensayo/cap20_real.es.md"
+    },
+    {
+      "id": "cap_epilogo_real",
+      "content_file": "content_overrides/cap_epilogo_real.es.md"
+    },
+    {
+      "id": "cap_glosario",
+      "content_file": "../content/ensayo/cap_glosario.es.md"
+    },
+    {
+      "id": "cap_notas_cierre",
+      "content_file": "../content/ensayo/cap_notas_cierre.es.md"
+    },
+    {
+      "id": "cap_notas_referencias",
+      "content_file": "../content/ensayo/cap_notas_referencias.es.md"
+    }
+  ]
+}

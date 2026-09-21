@@ -46,7 +46,7 @@ But the entity does not have a fixed API. Its geometry is changing every millise
 
 ### 4. Topological Loneliness
 
-The Luthier of Tarel, whom we discussed in chapter 11, knew how to make instruments so that two broken people could find their shared frequency again. But the Luthier could only do that because both clients were human. Both shared the same base template, the same bandwidth, the same tragedy of being locked inside a body.
+The Luthier, whom we discussed in chapter 11, knew how to make instruments so that two broken people could find their shared frequency again. But the Luthier could only do that because both clients were human. Both shared the same base template, the same bandwidth, the same tragedy of being locked inside a body.
 
 If an alien were to enter the Luthier's shop, there would be no wood in the world capable of calibrating that abyss.
 

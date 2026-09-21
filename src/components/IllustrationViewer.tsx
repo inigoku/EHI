@@ -25,6 +25,24 @@ import imgTarelAguaP7 from "../assets/images/tarel_agua/pagina7.jpg";
 
 // Import all PNG illustrations
 // @ts-ignore
+import imgRelevoPatron from "../assets/images/il_relevo_patron.jpg";
+// @ts-ignore
+import imgRelevoEntrelazamiento from "../assets/images/il_relevo_entrelazamiento.jpg";
+// @ts-ignore
+import imgCartMasia from "../assets/images/cart_masia.jpg";
+// @ts-ignore
+import imgCartMeninas from "../assets/images/cart_meninas.jpg";
+// @ts-ignore
+import imgCartAvignon from "../assets/images/cart_avignon.jpg";
+// @ts-ignore
+import imgCartDesintegracion from "../assets/images/il_cart_desintegracion.jpg";
+// @ts-ignore
+import imgCartGuernica from "../assets/images/il_cart_guernica.jpg";
+// @ts-ignore
+import imgCartConstelaciones from "../assets/images/il_cart_constelaciones.jpg";
+// @ts-ignore
+import imgCartNarciso from "../assets/images/il_cart_narciso.jpg";
+// @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
 // @ts-ignore
 import img02 from "../assets/images/ilustracion_02.png";
@@ -436,22 +454,23 @@ const imageMap: Record<string, string> = {
 
   // "Cartografía de tres singularidades" — public reference images of the
   // actual paintings discussed (hotlinked from Wikipedia/Wikimedia Commons)
-  cart_guernica: "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg",
+  il_cart_guernica: imgCartGuernica,
   cart_construccion: "https://upload.wikimedia.org/wikipedia/en/8/89/SalvadorDali-SoftConstructionWithBeans.jpg",
-  cart_narciso: "https://upload.wikimedia.org/wikipedia/en/2/21/Metamorphosis_of_Narcissus.jpg",
+  il_cart_narciso: imgCartNarciso,
   cart_relojes: "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
-  cart_desintegracion: "https://upload.wikimedia.org/wikipedia/en/7/7c/DisintegrationofPersistence.jpg",
+  il_cart_desintegracion: imgCartDesintegracion,
   cart_corpus: "https://upload.wikimedia.org/wikipedia/en/0/09/Dali_Crucifixion_hypercube.jpg",
-  cart_avignon: "https://upload.wikimedia.org/wikipedia/en/4/4c/Les_Demoiselles_d%27Avignon.jpg",
+  cart_avignon: imgCartAvignon,
   cart_llorona: "https://upload.wikimedia.org/wikipedia/en/1/14/Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg",
-  cart_meninas: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1280px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
-  cart_masia: "https://upload.wikimedia.org/wikipedia/en/3/33/TheFarmMiro21to22.jpg",
-  cart_constelaciones: "https://upload.wikimedia.org/wikipedia/en/3/39/MiroMorningStar.JPG",
+  cart_meninas: imgCartMeninas,
+  cart_masia: imgCartMasia,
+  il_cart_constelaciones: imgCartConstelaciones,
 
-  // "Historia de un relevo" — real news photos of the 2026 World Cup final
-  // goal and the 2007 Messi/Yamal charity-calendar photo
-  cart_ferran_gol: "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-19T215113Z_1479842861_UP1EM7J1OPCXN_RTRMADP_3_SOCCER-WORLDCUP-ESP-ARG-1024x706.jpg",
-  cart_messi_yamal: "https://i.abcnewsfe.com/a/098c18d3-8236-4244-8a8a-85a58d51d9ed/messi-yamal-3-ap-gmh-260717_1784294935058_hpMain_4x3.jpg",
+  // "Historia de un relevo" — original illustrations replacing real
+  // AP/Reuters news photos that were hotlinked here before (copyrighted
+  // press photography, not ours to use).
+  il_relevo_patron: imgRelevoPatron,
+  il_relevo_entrelazamiento: imgRelevoEntrelazamiento,
 
   // "El traductor" — real 1865 chalk portrait of George Eliot by Frederic
   // William Burton, public domain (NPG 669), hotlinked from Wikimedia Commons

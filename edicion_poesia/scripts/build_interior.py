@@ -432,12 +432,17 @@ class Builder:
             else:
                 lines.append(("", R))
 
+        size = 8.8
         for text, font in lines:
             if text:
-                cv.setFont(font, 8.8)
+                cv.setFont(font, size)
                 cv.setFillColor(INK)
-                cv.drawString(frame_x(self.page), y, text)
-            y -= 12.4
+                x = frame_x(self.page)
+                for wrapped in wrap_runs([(text, font)], size, TEXT_W):
+                    cv.drawString(x, y, "".join(t for t, _ in wrapped))
+                    y -= 12.4
+            else:
+                y -= 12.4
         self.end_page()
 
     def dedication(self) -> None:

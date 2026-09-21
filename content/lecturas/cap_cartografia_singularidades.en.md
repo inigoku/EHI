@@ -31,13 +31,13 @@ The Spanish Civil War was, for these three horizons, the same external gravitati
 
 Picasso did the opposite: he threw his horizon wide open, just once. *Guernica* is the moment when exterior information —the bombing, the bodies, the horse— crosses the membrane without being transformed into autobiography. For once, the Picassian self stepped aside to let the scream of others through. The painting toured the world as ambassador of a dying republic and did not set foot in Spain until 1981, by which time both the dictator and the painter were dead: the information took forty-four years to return to its origin. Picasso never went back to Franco's Spain; his exile was a stable orbit around a country that by then existed only inside him.
 
-## [ILUSTRACIÓN cart_guernica: "Guernica"]
-*Pablo Picasso, oil on canvas, 1937. Museo Reina Sofía, Madrid.*
+## [ILUSTRACIÓN il_cart_guernica: "The Scream That Crosses Through"]
+*Illustration. A composition in white, black, and ash grey: a horse's silhouette rears at the center beneath a sun shattered like a broken bulb, while splintered geometric planes suggest collapsed walls and elongated shadows receding toward the edges.*
 
 Miró responded with *The Reaper* and the poster *Aidez l'Espagne*, and then with retreat: Varengeville, Palma, a withdrawal into the minimal. His *Constellations* are born exactly there, while Europe burns: twenty-three small-format, transportable gouaches, painted by a man fleeing with his family from one war toward another. They are not escapism: they are resistance through concentration. His horizon did not close with the war: it grew thinner and more taut, like a rope.
 
-## [ILUSTRACIÓN cart_constelaciones: "Constellations"]
-*Joan Miró, "The Morning Star," gouache on paper, from the Constellations series, 1940.*
+## [ILUSTRACIÓN il_cart_constelaciones: "Minimal Web Under Fire"]
+*Original illustration. A blue-covered notebook, covered by a delicate web of black lines connecting starbursts, spirals, and small colored eyes and biomorphic shapes: a network small enough to fit in a fleeing hand, its threads pulled taut as if holding something together under pressure.*
 
 Three reconfigurations of the same blow: Dalí digests it, Picasso expels it, Miró compresses it.
 
@@ -53,8 +53,8 @@ His painting is a sealed capsule where the exterior world does not enter without
 
 The method has a manifesto-work: *Metamorphosis of Narcissus*. A crouching figure by the water is, simultaneously, a self-absorbed youth and a stone hand holding an egg from which a flower sprouts. There is no trick: both readings are simultaneous and complete, and the eye cannot hold on to both at once. Dalí has built a superposed image, and every viewer collapses it in their own way. Freud, who received him in London in 1938 with that painting under his arm, admitted to the young Spaniard what he denied the rest of the surrealists: that there was a serious psychological problem there. It was not a compliment. It was a diagnosis.
 
-## [ILUSTRACIÓN cart_narciso: "Metamorphosis of Narcissus"]
-*Salvador Dalí, oil on canvas, 1937. Tate, London.*
+## [ILUSTRACIÓN il_cart_narciso: "The Image That Will Not Collapse"]
+*Original illustration. A sepia-toned silhouette against a starry sky: the profile of a face bowed toward the water is, at once and without trick, the outline of a cracked stone vessel. Both readings share exactly the same contour, so the eye cannot hold both forms at once.*
 
 Faced with chaos —war, exile, old age— Dalí builds a self-referential universe where his phobias (madness, death, impotence) and his fixations (Gala, religion, money) orbit like planets in a closed system. The paranoiac machine even works backward through art history: for years, Dalí subjected Millet's placid *Angelus* to his method until he extracted from it a sepulchral drama —the two peasants, he claimed, were not praying over the harvest but over the grave of a dead child— and he went so far as to demand the canvas be X-rayed to confirm it. That the X-ray did in fact reveal a repainted shape beneath the basket is beside the point: what matters is that, for Dalí, no image in the world was safe from being reabsorbed into his system. His own repertoire confirms it: the crutches propping up soft flesh, the ants announcing decay, the drawers opening in torsos as if the body were a filing cabinet. None of it is decoration: it is the nomenclature of a private planetary system, stable enough to be recognized from one painting to the next across fifty years. What enters Dalí does not come back out intact: it emerges distorted, stretched, turned into the echo of a self that no longer knows where the world ends and its own shadow begins.
 
@@ -62,8 +62,8 @@ Faced with chaos —war, exile, old age— Dalí builds a self-referential unive
 
 There is a work that anticipates this ending by decades. In 1952, after Hiroshima, Dalí returns to his most famous painting and paints *The Disintegration of the Persistence of Memory*: the soft watches of 1931 now float over a grid of separating blocks, the whole world decomposed into discrete units that no longer touch. This is his nuclear-mysticism period: matter, he has discovered, is made of particles that never brush against each other, and he paints that discontinuity with the same fervor with which he once painted flesh. Without knowing it, he is rehearsing his own future: twenty years later, disintegration will leave the canvas and enter his hand.
 
-## [ILUSTRACIÓN cart_desintegracion: "The Disintegration of the Persistence of Memory"]
-*Salvador Dalí, oil on canvas, 1952-1954. The Dalí Museum, St. Petersburg, Florida.*
+## [ILUSTRACIÓN il_cart_desintegracion: "The Grid That Separates"]
+*Illustration. A golden coastal landscape at dusk: a grid of dark blocks covers the ground and dissolves into discrete units toward the horizon, while soft, elongated shapes spill between them and a fish drifts past a cliff in the background.*
 
 Because the degenerative tremor of his final years is not an external clinical fact: it is his inner horizon cracking. Fractal analysis of his late brushstrokes detected alterations that precede the diagnosis; they are not a technical failure, they are the self losing cohesion.
 

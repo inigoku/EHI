@@ -3,9 +3,9 @@ title: HISTORIA DE UN RELEVO
 subtitle: (La idea que cruzó todos los horizontes)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 41
-illustrationId: cart_ferran_gol
-illustrationTitle: El gol de Ferran Torres
-illustrationDescription: Ferran Torres celebra con sus compañeros el gol de la victoria en la prórroga de la final del Mundial 2026 (MetLife Stadium, Nueva Jersey, 19 de julio de 2026).
+illustrationId: il_relevo_patron
+illustrationTitle: El patrón que se transmite
+illustrationDescription: Un campo de fútbol de noche, visto desde arriba bajo los focos del estadio. De la silueta de un jugador arrodillado en el centro, celebrando, se eleva una onda de luz dorada que se ramifica como raíces invertidas, atravesando otras siluetas de jugadores con camisetas de épocas distintas, hasta perderse en un cielo estrellado. Ningún rostro es reconocible: solo la silueta y la misma luz atravesándolos a todos por igual.
 ---
 
 ## I. Horizonte: el sistema
@@ -62,8 +62,8 @@ Queda el entrelazamiento propiamente dicho, que es lo más difícil de contar si
 
 En 2007, para un calendario benéfico, un jugador del Barça de veinte años posó bañando a un bebé de meses. El jugador era Lionel Messi, el mayor producto que dio nunca La Masia, el patrón hecho carne hasta un extremo que ni Cruyff previó. El bebé era Lamine Yamal. Diecinueve años después, esos dos cuerpos volvieron a tocarse: en el césped del MetLife Stadium, minutos después del pitido final, el niño de la fotografía —campeón del mundo a los diecinueve— abrazó al hombre de la fotografía, que acababa de perder la final de su sexto y último Mundial, a los treinta y nueve.
 
-## [ILUSTRACIÓN cart_messi_yamal: "Messi baña a Lamine Yamal"]
-*Leo Messi, de veinte años, baña a un Lamine Yamal de seis meses durante una sesión benéfica de Sport, la Fundación FC Barcelona y UNICEF (Camp Nou, 2007). Foto: Joan Monfort / AP.*
+## [ILUSTRACIÓN il_relevo_entrelazamiento: "Dos instantes entrelazados"]
+*Un díptico. A la izquierda, en tonos sepia, las manos de un joven sostienen a un bebé sobre el agua de una bañera doméstica. A la derecha, en la luz azulada de un estadio de noche, dos siluetas —una encorvada por los años, otra joven y erguida— se abrazan en el centro de un campo vacío. Entre ambas escenas, cruzando el espacio en blanco que las separa, un hilo fino de luz dorada las conecta, como la línea de un diagrama que une dos partículas entrelazadas. Ningún rostro es reconocible.*
 
 Dos partículas que se tocaron una vez quedan correlacionadas para siempre, a cualquier distancia. La distancia, aquí, era temporal: diecinueve años. La medición de una definió el estado de la otra. Messi, argentino, fue sin embargo el vehículo máximo del patrón catalán; Yamal es su estado siguiente. El abrazo no fue consuelo, o no fue solo consuelo. Fue el colapso de la función de onda del relevo: hasta ese instante, la sucesión era una superposición de posibilidades; al tocarse, se hizo hecho.
 

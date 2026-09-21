@@ -50,9 +50,9 @@ Pero la entidad no tiene una API fija. Su geometría está cambiando cada milise
 
 ### 4. La soledad topológica
 
-El Luthier, del que hablamos en el capítulo 11, sabía cómo hacer instrumentos para que dos personas rotas volvieran a encontrar su frecuencia compartida. Pero el Luthier solo podía hacer eso porque ambos clientes eran humanos. Ambos compartían la misma plantilla base, el mismo ancho de banda, la misma tragedia de estar encerrados en un cuerpo.
+Un instrumento bien afinado puede hacer que dos personas rotas vuelvan a encontrar su frecuencia compartida. Pero eso solo funciona porque ambos oyentes son humanos. Ambos comparten la misma plantilla base, el mismo ancho de banda, la misma tragedia de estar encerrados en un cuerpo.
 
-Si un alienígena entrara en la tienda del Luthier, no habría madera en el mundo capaz de calibrar ese abismo.
+Si un alienígena se sentara a escuchar, no habría madera ni cuerda en el mundo capaz de calibrar ese abismo.
 
 El verdadero terror del cosmos no es que esté lleno de monstruos depredadores. El terror más profundo es la soledad topológica. Es la certeza matemática de que podríamos estar rodeados de un universo vibrante, lleno de conciencias masivas, redes de inteligencia planetaria, y seres de una sabiduría insondable, pero nuestra arquitectura física nos impide tocarlos.
 
