@@ -184,7 +184,7 @@ BOOK_DEFS_CA = [
         "libro1",
         "Primer llibre",
         "L'arquitectura amb un forat",
-        "Nou maneres d'un dol: el que queda quan l'aigua es retira "
+        "Nou formes d'un dol: el que queda quan l'aigua es retira "
         "i cal seguir mesurant la vora.",
         ["poema_burbuja", "poema_arq1", "poema_arq2", "poema_arq3",
          "poema_arq5", "poema_arq6", "poema_arq7", "poema_arq8",
