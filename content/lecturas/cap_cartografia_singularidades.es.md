@@ -35,8 +35,8 @@ La Guerra Civil fue para estos tres horizontes un mismo campo gravitatorio exter
 
 Picasso hizo lo contrario: abrió su horizonte de par en par una sola vez. El *Guernica* es el momento en que la información exterior —el bombardeo, los cuerpos, el caballo— atraviesa la membrana sin ser transformada en autobiografía. Por una vez, el yo picassiano se apartó para dejar pasar el grito de otros. El cuadro salió de gira por el mundo como embajador de una república moribunda y no pisó España hasta 1981, cuando ya habían muerto el dictador y el pintor: la información tardó cuarenta y cuatro años en volver a su origen. Picasso nunca regresó a la España de Franco; su exilio fue una órbita estable alrededor de un país que ya solo existía dentro de él.
 
-## [ILUSTRACIÓN cart_guernica: "Guernica"]
-*Pablo Picasso, óleo sobre lienzo, 1937. Museo Reina Sofía, Madrid.*
+## [ILUSTRACIÓN il_cart_guernica: "El grito que atraviesa"]
+*Ilustración. Una composición en blanco, negro y gris ceniza: la silueta de un caballo se encabrita en el centro bajo un sol partido como una bombilla rota, mientras planos geométricos astillados sugieren muros derrumbados y sombras alargadas perdiéndose hacia los bordes.*
 
 Miró respondió con *El segador* y el cartel *Aidez l'Espagne*, y luego con el repliegue: Varengeville, Palma, la retirada hacia lo mínimo. Sus *Constelaciones* nacen exactamente ahí, mientras Europa arde: veintitrés gouaches de formato pequeño, transportables, pintados por un hombre que huye con su familia de una guerra hacia otra. No son evasión: son resistencia por concentración. Su horizonte no se cerró con la guerra: se hizo más fino y más tenso, como una cuerda.
 

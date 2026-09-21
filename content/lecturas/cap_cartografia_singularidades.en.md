@@ -31,8 +31,8 @@ The Spanish Civil War was, for these three horizons, the same external gravitati
 
 Picasso did the opposite: he threw his horizon wide open, just once. *Guernica* is the moment when exterior information —the bombing, the bodies, the horse— crosses the membrane without being transformed into autobiography. For once, the Picassian self stepped aside to let the scream of others through. The painting toured the world as ambassador of a dying republic and did not set foot in Spain until 1981, by which time both the dictator and the painter were dead: the information took forty-four years to return to its origin. Picasso never went back to Franco's Spain; his exile was a stable orbit around a country that by then existed only inside him.
 
-## [ILUSTRACIÓN cart_guernica: "Guernica"]
-*Pablo Picasso, oil on canvas, 1937. Museo Reina Sofía, Madrid.*
+## [ILUSTRACIÓN il_cart_guernica: "The Scream That Crosses Through"]
+*Illustration. A composition in white, black, and ash grey: a horse's silhouette rears at the center beneath a sun shattered like a broken bulb, while splintered geometric planes suggest collapsed walls and elongated shadows receding toward the edges.*
 
 Miró responded with *The Reaper* and the poster *Aidez l'Espagne*, and then with retreat: Varengeville, Palma, a withdrawal into the minimal. His *Constellations* are born exactly there, while Europe burns: twenty-three small-format, transportable gouaches, painted by a man fleeing with his family from one war toward another. They are not escapism: they are resistance through concentration. His horizon did not close with the war: it grew thinner and more taut, like a rope.
 

@@ -37,6 +37,8 @@ import imgCartAvignon from "../assets/images/cart_avignon.jpg";
 // @ts-ignore
 import imgCartDesintegracion from "../assets/images/il_cart_desintegracion.jpg";
 // @ts-ignore
+import imgCartGuernica from "../assets/images/il_cart_guernica.jpg";
+// @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
 // @ts-ignore
 import img02 from "../assets/images/ilustracion_02.png";
@@ -448,7 +450,7 @@ const imageMap: Record<string, string> = {
 
   // "Cartografía de tres singularidades" — public reference images of the
   // actual paintings discussed (hotlinked from Wikipedia/Wikimedia Commons)
-  cart_guernica: "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg",
+  il_cart_guernica: imgCartGuernica,
   cart_construccion: "https://upload.wikimedia.org/wikipedia/en/8/89/SalvadorDali-SoftConstructionWithBeans.jpg",
   cart_narciso: "https://upload.wikimedia.org/wikipedia/en/2/21/Metamorphosis_of_Narcissus.jpg",
   cart_relojes: "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",

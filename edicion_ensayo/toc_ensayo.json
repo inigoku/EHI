@@ -20,7 +20,7 @@
     "cart_corpus": "https://upload.wikimedia.org/wikipedia/en/0/09/Dali_Crucifixion_hypercube.jpg",
     "il_cart_desintegracion": "../src/assets/images/il_cart_desintegracion.jpg",
     "cart_eliot": "https://upload.wikimedia.org/wikipedia/commons/1/1b/George_Eliot_(1865)_by_Frederick_William_Burton.jpg",
-    "cart_guernica": "https://upload.wikimedia.org/wikipedia/en/7/74/PicassoGuernica.jpg",
+    "il_cart_guernica": "../src/assets/images/il_cart_guernica.jpg",
     "cart_llorona": "https://upload.wikimedia.org/wikipedia/en/1/14/Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg",
     "cart_masia": "../src/assets/images/cart_masia.jpg",
     "cart_meninas": "../src/assets/images/cart_meninas.jpg",
