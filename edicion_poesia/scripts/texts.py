@@ -109,7 +109,7 @@ TEXTS = {
             "Aquest volum reuneix els vint-i-un poemes i el glossari que tanquen "
             "*L'Horitzó Interior*. A l'obra completa apareixen intercalats entre "
             "l'assaig i els contes; aquí van junts, per primera vegada, i llegits "
-            "de seguit conten una altra cosa.",
+            "de seguit expliquen una altra cosa.",
 
             "Van junts perquè no defensen una hipòtesi: l'habiten. Pregunten què es "
             "sent estant dins d'una frontera, què fa mal quan s'esfilastra i què "
