@@ -10,7 +10,7 @@ sense avís.
 
 I jo no vaig saber
 —ni com arxivista de les meves pròpies esquerdes,
-ni com el noi que vaig ser—
+ni com el nen que vaig ser—
 si la ciutat que vaig perdre havia tornat
 o si era una altra ciutat,
 una més freda,

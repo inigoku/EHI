@@ -17,7 +17,7 @@ No espero miracles.
   Només que dolgui una mica menys.
 
 **II.**
-La línia 1 olorosa a metall calent i abrics humits.
+La línia 1 fa olor a metall calent i abrics humits.
  La meva ombra es va quedar atrapada al tancament de la porta,
 com una pell fina que no vaig saber portar-me a temps.
  El món és un inventari de camises allisades

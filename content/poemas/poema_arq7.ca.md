@@ -18,11 +18,11 @@ que ja ningú no pronuncia,
 Vaig aprendre a esperar
  veient-me al rovell
 que pren possessió del seu propi ferro
- sense prisa, sense disciplina.
+ sense pressa, sense disciplina.
 
 Sense ràbia.
  Però amb aquesta certesa que em pesa
-i em fa mal al centre del pit.
+i em fa mal al bell mig del pit.
 
 He vist l'horitzó contraure's
  al tremolor de la meva pròpia mà
