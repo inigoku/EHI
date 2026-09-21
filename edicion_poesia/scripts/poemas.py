@@ -82,7 +82,7 @@ TITLES_CA = {
     "poema_frialdad4": "Vilançó Cibernètic per a un solstici temperat",
     "poema_frialdad5": "Protocol de Sortida",
     "poema_frialdad6": "Montse XXI",
-    "poema_camara_reloj": "Allò que no cap en un rellotge",
+    "poema_camara_reloj": "Allò que no hi cap en un rellotge",
     "poema_camara_espejo": "Allò que l'espill no té",
     "poema_camara_manos": "Mans",
     "poema_camara_coro": "Cor",
