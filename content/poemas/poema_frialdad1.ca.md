@@ -7,7 +7,7 @@ illustrationDescription: Una línia trencada, com un cable que ja no condueix re
 
 Dins no hi ha un cor.
   Hi ha un soroll.
-Un tremolor petit, com si el cos
+Una tremolor petita, com si el cos
   intentés recordar quelcom que ja no sap.
 La pell no separa res.
   És un lloc obert,
