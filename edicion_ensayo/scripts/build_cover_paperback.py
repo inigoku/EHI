@@ -36,7 +36,11 @@ WRAP_PDF = BASE / "El_Horizonte_Interior_Ensayo_cubierta_tapablanda.pdf"
 
 TRIM_W, TRIM_H = hc.TRIM_W, hc.TRIM_H
 BLEED = hc.BLEED
-SPINE_PER_PAGE = hc.SPINE_PER_PAGE
+# El interior lleva láminas e ilustraciones a color (RGB, no escala de
+# grises), así que en KDP corresponde tipo de papel a color, no blanco
+# B/N -- el lomo usa la constante de KDP para papel a color, no la de
+# hc.SPINE_PER_PAGE (0.002252", que es la de papel blanco B/N).
+SPINE_PER_PAGE = 0.002347
 DPI = hc.DPI
 
 
