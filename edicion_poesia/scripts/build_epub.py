@@ -370,6 +370,8 @@ def build(lang: str = "es") -> None:
     isbn = get_text(CURRENT_LANG, "isbn")
     isbn_meta = (f'<dc:identifier id="isbn">urn:isbn:{esc(isbn)}</dc:identifier>'
                  if isbn else '')
+    subjects = "".join(f'<dc:subject>{esc(k.strip())}</dc:subject>'
+                        for k in get_text(CURRENT_LANG, "keywords").split(","))
     opf = f'''<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" version="3.0" unique-identifier="bookid">
   <metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
@@ -382,6 +384,7 @@ def build(lang: str = "es") -> None:
     <dc:date>{today}</dc:date>
     <dc:language>{get_lang_code()}</dc:language>
     <dc:description>{esc(get_subtitle())}. {esc(get_text(CURRENT_LANG, "kicker"))}.</dc:description>
+    {subjects}
     <meta property="dcterms:modified">{now}</meta>
   </metadata>
   <manifest>{"".join(manifest)}</manifest>

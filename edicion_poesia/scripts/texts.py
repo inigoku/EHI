@@ -9,6 +9,7 @@ TEXTS = {
         "publisher": "Íñigo Barrera Barceló",
         "rights": "© Íñigo Barrera Barceló. Todos los derechos reservados.",
         "isbn": "9798175383530",
+        "keywords": "poesía, poemario, duelo, El Horizonte Interior",
         "intro_title": "Desde la orilla",
         "intro": [
             "Este volumen reúne los veintiún poemas y el glosario que cierran "
@@ -110,6 +111,7 @@ TEXTS = {
         "publisher": "Íñigo Barrera Barceló",
         "rights": "© Íñigo Barrera Barceló. Tots els drets reservats.",
         "isbn": "9798175383530",
+        "keywords": "poesia, poemari, dol, L'Horitzó Interior",
         "intro_title": "Des de la vora",
         "intro": [
             "Aquest volum reuneix els vint-i-un poemes i el glossari que tanquen "
@@ -210,6 +212,7 @@ TEXTS = {
         "publisher": "Íñigo Barrera Barceló",
         "rights": "© Íñigo Barrera Barceló. All rights reserved.",
         "isbn": "",
+        "keywords": "poetry, poems, grief, The Inner Horizon",
         "intro_title": "From the Shore",
         "intro": [
             "This volume gathers the twenty-one poems and the glossary that close "
