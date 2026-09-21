@@ -29,6 +29,12 @@ import imgRelevoPatron from "../assets/images/il_relevo_patron.jpg";
 // @ts-ignore
 import imgRelevoEntrelazamiento from "../assets/images/il_relevo_entrelazamiento.jpg";
 // @ts-ignore
+import imgCartMasia from "../assets/images/cart_masia.jpg";
+// @ts-ignore
+import imgCartMeninas from "../assets/images/cart_meninas.jpg";
+// @ts-ignore
+import imgCartAvignon from "../assets/images/cart_avignon.jpg";
+// @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
 // @ts-ignore
 import img02 from "../assets/images/ilustracion_02.png";
@@ -446,10 +452,10 @@ const imageMap: Record<string, string> = {
   cart_relojes: "https://upload.wikimedia.org/wikipedia/en/d/dd/The_Persistence_of_Memory.jpg",
   cart_desintegracion: "https://upload.wikimedia.org/wikipedia/en/7/7c/DisintegrationofPersistence.jpg",
   cart_corpus: "https://upload.wikimedia.org/wikipedia/en/0/09/Dali_Crucifixion_hypercube.jpg",
-  cart_avignon: "https://upload.wikimedia.org/wikipedia/en/4/4c/Les_Demoiselles_d%27Avignon.jpg",
+  cart_avignon: imgCartAvignon,
   cart_llorona: "https://upload.wikimedia.org/wikipedia/en/1/14/Picasso_The_Weeping_Woman_Tate_identifier_T05010_10.jpg",
-  cart_meninas: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1280px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
-  cart_masia: "https://upload.wikimedia.org/wikipedia/en/3/33/TheFarmMiro21to22.jpg",
+  cart_meninas: imgCartMeninas,
+  cart_masia: imgCartMasia,
   cart_constelaciones: "https://upload.wikimedia.org/wikipedia/en/3/39/MiroMorningStar.JPG",
 
   // "Historia de un relevo" — original illustrations replacing real
