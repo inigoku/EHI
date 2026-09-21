@@ -7,20 +7,20 @@ illustrationDescription: Un plànol que mai no tanca, dibuixat a partir de cops 
 
 Cada paret té, darrere,
   una habitació que no he vist,
-    i en ella, segurament,
+    i dins d'ella, segurament,
       una paret igual a aquesta.
 
 Colpejo dues vegades i compto.
 El so torna tard,
   com si creués més habitacions
-    de les que caben a la casa.
+    de les que hi caben a la casa.
 
 He dibuixat un plànol
 de tot el que sento:
   passos, una aixeta, una cadira
     que algú arrossega sense veure-la.
 El plànol no tanca mai:
-  cada sala té una altra dins.
+  cada sala té una altra a dins.
 
 Algunes finestres donen a un pati.
   Altres donen a una altra finestra
