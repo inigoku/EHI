@@ -29,6 +29,8 @@ import imgRelevoPatron from "../assets/images/il_relevo_patron.jpg";
 // @ts-ignore
 import imgRelevoEntrelazamiento from "../assets/images/il_relevo_entrelazamiento.jpg";
 // @ts-ignore
+import imgCartConstruccion from "../assets/images/il_cart_construccion.jpg";
+// @ts-ignore
 import img01 from "../assets/images/ilustracion_01.png";
 // @ts-ignore
 import img02 from "../assets/images/ilustracion_02.png";
@@ -445,6 +447,7 @@ const imageMap: Record<string, string> = {
   // cart_meninas (Velázquez, 1656) is public domain and stays a direct
   // reference image once Wikimedia access is available in this environment.
   cart_meninas: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg/1280px-Las_Meninas%2C_by_Diego_Vel%C3%A1zquez%2C_from_Prado_in_Google_Earth.jpg",
+  il_cart_construccion: imgCartConstruccion,
 
   // "Historia de un relevo" — original illustrations replacing real
   // AP/Reuters news photos that were hotlinked here before (copyrighted
