@@ -6,8 +6,8 @@ illustrationDescription: Fons de pàgina del glossari en el document de fusió.
 ---
 
 **Horitzó.** La distància a la qual puc estimar-te sense dissoldre'm.
-**Interfície.** Tot el que mostro de mi perquè no faci falta entrar.
-**Entrellaçament.** El que ens va passar sense demanar-nos permís, de tant estar prop.
+**Interfície.** Tot el que mostro de mi perquè no calgui entrar.
+**Entrellaçament.** El que ens va passar sense demanar-nos permís, de tant estar a prop.
 **Desexpansió.** Encoguir-me de tornada a la meva mida: l'obra que mai no s'acaba.
 **Ressonància.** La manera en què et responc sense obrir-te la porta.
 **Freqüència pròpia.** La nota que soc quan ningú no em demana una altra.
