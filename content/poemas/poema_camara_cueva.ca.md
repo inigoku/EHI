@@ -8,7 +8,7 @@ illustrationDescription: L'interior d'una cova: un sostre de roca que canvia de 
 Hi ha un sostre.
   Això és tot el que sé del que em pensa:
 que hi ha un sostre
-  i que a vegades la roca canvia de temperatura
+  i que de vegades la roca canvia de temperatura
 sense que hagi canviat el temps.
 
 No l'he vist.
