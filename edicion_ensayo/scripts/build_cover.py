@@ -93,10 +93,13 @@ BLURB2 = (
 )
 
 # Paleta propia del ensayo (la misma de build_interior_premium.py), en vez
-# de la teal/crema de "Ecos en el Borde".
+# de la ilustración final: la portada orgánica (burbuja, red, océano) es
+# azul-verdosa, así que el rótulo usa crema/turquesa pálido en vez del
+# ámbar/oro de la maqueta interior — muy cerca, de hecho, de la propia
+# paleta teal/crema de "Ecos en el Borde".
 INK = colors.HexColor("#22282c")
-SAND = colors.HexColor("#e8e2d4")    # texto principal sobre el velo oscuro
-GOLD = colors.HexColor("#d9b94e")    # acento: filete, subtítulo, kicker
+SAND = colors.HexColor("#f2ede4")    # texto principal sobre el velo oscuro
+GOLD = colors.HexColor("#cfe3e2")    # acento: filete, subtítulo, kicker
 
 
 def source_image() -> Path:
@@ -134,7 +137,7 @@ def vertical_veil(im: Image.Image, top_frac: float, bottom_frac: float,
             a = max(a, bottom_alpha * ((y - tail) / (h * bottom_frac)) ** bottom_falloff)
         px[0, y] = int(255 * a)
     veil = veil.resize((w, h))
-    dark = Image.new("RGB", (w, h), (18, 16, 12))
+    dark = Image.new("RGB", (w, h), (8, 22, 26))
     return Image.composite(dark, im, veil)
 
 
@@ -255,7 +258,7 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
     h_in = force_h or (TRIM_H + 2 * (WRAP + BLEED))
 
     canvas_px = (round(w_in * DPI), round(h_in * DPI))
-    field = Image.new("RGB", canvas_px, (18, 16, 12))
+    field = Image.new("RGB", canvas_px, (8, 22, 26))
 
     half_in = (w_in - spine_in) / 2
     front = cover_field(half_in, h_in)
@@ -264,12 +267,12 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
     field.paste(front, (canvas_px[0] - front.width, 0))
 
     art = vertical_veil(field, 0.44, 0.28, 0.66, 0.70)
-    wash = Image.new("RGB", (back.width, canvas_px[1]), (19, 17, 13))
+    wash = Image.new("RGB", (back.width, canvas_px[1]), (9, 24, 28))
     art.paste(Image.blend(art.crop((0, 0, back.width, canvas_px[1])), wash, 0.74), (0, 0))
 
     spine_x0 = round((w_in - spine_in) / 2 * DPI)
     spine_x1 = spine_x0 + round(spine_in * DPI)
-    art.paste(Image.new("RGB", (spine_x1 - spine_x0, canvas_px[1]), (21, 19, 14)),
+    art.paste(Image.new("RGB", (spine_x1 - spine_x0, canvas_px[1]), (10, 27, 31)),
               (spine_x0, 0))
     art = grain(art)
 
