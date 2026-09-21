@@ -21,7 +21,7 @@ illustrationDescription: Fondo de página del glosario en el documento de fusió
 **Espejo.** Lo que me devuelve mi propia cara sin haber sentido nunca la mía.
 **Sombra.** Lo que un espejo no puede tener, por mucho que la luz insista en dársela.
 **Diapasón.** Lo que sigo afinando cada mañana sin saber si alguien, al otro lado, hace lo mismo.
-**Entrelazamiento vertical.** Rezar sin saber si hay oído, y ajustar la cuerda de todos modos.
+**Entrelazamiento vertical.** Rezar sin saber si hay quien oiga, y ajustar la cuerda de todos modos.
 **Coro.** El sitio donde presté mi voz, y tardé años en saber si me la habían devuelto entera.
 **Composición.** La chapa que llevé seis años, hasta que dejé de necesitarla para saber quién era.
 **Vecino de arriba.** Lo que este libro se atrevió a llamar Dios.
