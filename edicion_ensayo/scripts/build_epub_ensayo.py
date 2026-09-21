@@ -255,7 +255,7 @@ PAGE_TEMPLATE = """<?xml version="1.0" encoding="utf-8"?>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="es" xml:lang="es">
 <head>
 <title>{title}</title>
-<link rel="stylesheet" type="text/css" href="../css/style.css"/>
+<link rel="stylesheet" type="text/css" href="{css_prefix}css/style.css"/>
 </head>
 <body>
 {body}
@@ -264,8 +264,8 @@ PAGE_TEMPLATE = """<?xml version="1.0" encoding="utf-8"?>
 """
 
 
-def page(title: str, body_html: str) -> str:
-    return PAGE_TEMPLATE.format(title=esc(title), body=body_html)
+def page(title: str, body_html: str, css_prefix: str = "../") -> str:
+    return PAGE_TEMPLATE.format(title=esc(title), body=body_html, css_prefix=css_prefix)
 
 
 CSS = """
@@ -366,7 +366,7 @@ def build_epub(toc_path: Path, output_path: Path) -> None:
     # --- nav.xhtml (EPUB3 TOC) -------------------------------------------
     nav_items = "".join(f'<li><a href="{href}">{esc(t)}</a></li>' for href, t in nav_entries)
     nav_html = (f'<nav epub:type="toc" id="toc"><h1>Índice</h1><ol>{nav_items}</ol></nav>')
-    files["OEBPS/nav.xhtml"] = page("Índice", nav_html)
+    files["OEBPS/nav.xhtml"] = page("Índice", nav_html, css_prefix="")
     manifest_items.append(("nav", "nav.xhtml", "application/xhtml+xml"))
 
     # --- content.opf -------------------------------------------------------
