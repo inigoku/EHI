@@ -111,7 +111,7 @@ TEXTS = {
             "l'assaig i els contes; aquí van junts, per primera vegada, i llegits "
             "de seguit expliquen una altra cosa.",
 
-            "Van junts perquè no defensen una hipòtesi: l'habiten. Pregunten què es "
+            "Van junts perquè no defensen una hipòtesi: l'habiten. Pregunten què se "
             "sent estant dins d'una frontera, què fa mal quan s'esfilastra i què "
             "queda quan l'aigua de l'altre costat es retira.",
 
