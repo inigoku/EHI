@@ -90,16 +90,16 @@ INK = colors.HexColor("#22282c")
 TEAL = colors.HexColor("#3c6e71")
 CREAM = colors.HexColor("#faf8f3")
 
-# ========== PAGE GEOMETRY (KDP bleed: trim 5x8 + 0.125" outer/top/bottom) ==========
+# ========== PAGE GEOMETRY (KDP bleed: trim 6x9 + 0.125" outer/top/bottom) ==========
 
 BLEED = 0.125 * inch
-TRIM_W, TRIM_H = 5 * inch, 8 * inch
+TRIM_W, TRIM_H = 6 * inch, 9 * inch
 PW, PH = TRIM_W + BLEED, TRIM_H + 2 * BLEED
 TRIM_Y0 = BLEED
-MARGIN_GUTTER = 0.75 * inch
-MARGIN_OUTER = 0.6 * inch
-MARGIN_TOP = 0.75 * inch
-MARGIN_BOTTOM = 0.75 * inch
+MARGIN_GUTTER = 0.8 * inch
+MARGIN_OUTER = 0.65 * inch
+MARGIN_TOP = 0.8 * inch
+MARGIN_BOTTOM = 0.8 * inch
 TEXT_W = TRIM_W - MARGIN_GUTTER - MARGIN_OUTER
 TEXT_H = TRIM_H - MARGIN_TOP - MARGIN_BOTTOM
 FRAME_X = (MARGIN_GUTTER + (BLEED + MARGIN_OUTER)) / 2.0

@@ -46,7 +46,7 @@ for name, filename in (
 R, IT, SB, BD = "Eco", "Eco-It", "Eco-Sb", "Eco-Bd"
 rl_config.canvas_basefontname = R
 
-TRIM_W, TRIM_H = 5.0, 8.0
+TRIM_W, TRIM_H = 6.0, 9.0
 BLEED = 0.125
 WRAP = 0.625
 HINGE = 0.375
