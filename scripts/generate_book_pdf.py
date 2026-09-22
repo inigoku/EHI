@@ -64,7 +64,8 @@ except AttributeError:
     pass
 
 FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n?(.*)\Z", re.DOTALL)
-INLINE_ILLUS_RE = re.compile(r'^##\s*\[ILUSTRACI[ÓO]N\s*([\w.]*)?:?\s*"([^"]+)"\]', re.IGNORECASE)
+INLINE_ILLUS_RE = re.compile(
+    r'^##\s*\[(?:ILUSTRACI[ÓO]N|ILLUSTRATION)\s*([\w.]*)?:?\s*"([^"]+)"\]', re.IGNORECASE)
 
 # Illustration ids for real, copyrighted or public-domain works reproduced under
 # quotation right (derecho de cita) — these are the only ones whose caption
@@ -492,6 +493,20 @@ def markdown_to_flowables(body: str, styles, illustrations: dict, base_dir: Path
         illus_match = INLINE_ILLUS_RE.match(stripped)
         if illus_match:
             illus_id, illus_title = illus_match.group(1), illus_match.group(2)
+            if not illus_id:
+                # Algunos marcadores in-línea no llevan id, solo el título
+                # entre comillas -- el mismo caso que ya resuelve por título
+                # ChapterContent.tsx en la web (ver isIllustrationDuplicate).
+                lower_title = illus_title.lower()
+                if ("agua" in lower_title and "retira" in lower_title) or \
+                        ("water" in lower_title and "recede" in lower_title):
+                    illus_id = "cuento_agua_retira"
+                elif "océano" in lower_title or "oceano" in lower_title or "ocean" in lower_title:
+                    illus_id = "il_oceano_olas"
+                elif "ladrón" in lower_title or "ladron" in lower_title or "thief" in lower_title:
+                    illus_id = "cuento_ladron"
+                elif "luthier" in lower_title:
+                    illus_id = "cuento_luthier"
             caption = ""
             j = i + 1
             while j < len(lines) and lines[j].strip() == "":
