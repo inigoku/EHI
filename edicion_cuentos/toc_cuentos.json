@@ -1,0 +1,190 @@
+{
+  "title": "Cuentos de Tarel",
+  "subtitle": "Fábulas de la Frontera",
+  "author": "Íñigo Barrera Barceló",
+  "language": "es",
+  "cover_image": "imagenes/portada.jpg",
+  "illustrations": {
+    "cuento_01": "imagenes/cuento_01.png",
+    "cuento_02": "imagenes/cuento_02.png",
+    "cuento_03": "imagenes/cuento_03.png",
+    "cuento_04": "imagenes/cuento_04.png",
+    "cuento_05": "imagenes/cuento_05.png",
+    "cuento_06": "imagenes/cuento_06.png",
+    "cuento_07": "imagenes/cuento_07.png",
+    "cuento_08": "imagenes/cuento_08.png",
+    "cuento_09": "imagenes/cuento_09.png",
+    "cuento_10": "imagenes/cuento_10.png",
+    "cuento_11": "imagenes/cuento_11.png",
+    "cuento_12": "imagenes/cuento_12.png",
+    "cuento_13": "imagenes/cuento_13.png",
+    "cuento_14": "imagenes/cuento_14.png",
+    "cuento_agua_retira": "imagenes/cuento_agua_retira.png",
+    "cuento_amanezca": "imagenes/cuento_amanezca.png",
+    "cuento_chapa": "imagenes/cuento_chapa.png",
+    "cuento_dragon": "imagenes/cuento_dragon.png",
+    "cuento_eq": "imagenes/cuento_eq.png",
+    "cuento_estanque": "imagenes/cuento_estanque.png",
+    "cuento_int": "imagenes/cuento_int.png",
+    "cuento_ladron": "imagenes/cuento_ladron.png",
+    "cuento_luthier": "imagenes/cuento_luthier.png",
+    "cuento_mussara": "imagenes/cuento_mussara.png",
+    "cuento_plaza": "imagenes/cuento_plaza.png",
+    "cuento_segundo_cuaderno": "imagenes/cuento_segundo_cuaderno.png",
+    "cuento_sintonizadores": "imagenes/cuento_sintonizadores.png",
+    "cuento_txiki": "imagenes/cuento_txiki.png",
+    "cuento_ultimos_minutos": "imagenes/cuento_ultimos_minutos.png",
+    "cuento_vecino_arriba": "imagenes/cuento_vecino_arriba.png"
+  },
+  "chapters": [
+    {
+      "id": "cuento0",
+      "content_file": "../content/cuentos/cuento0.es.md"
+    },
+    {
+      "id": "cuento1",
+      "content_file": "../content/cuentos/cuento1.es.md",
+      "illustration": "cuento_01"
+    },
+    {
+      "id": "cuento_ladron",
+      "content_file": "../content/cuentos/cuento_ladron.es.md",
+      "illustration": "cuento_ladron"
+    },
+    {
+      "id": "cuento2",
+      "content_file": "../content/cuentos/cuento2.es.md",
+      "illustration": "cuento_02"
+    },
+    {
+      "id": "cuento3",
+      "content_file": "../content/cuentos/cuento3.es.md",
+      "illustration": "cuento_03"
+    },
+    {
+      "id": "cuento_luthier",
+      "content_file": "../content/cuentos/cuento_luthier.es.md",
+      "illustration": "cuento_luthier"
+    },
+    {
+      "id": "cuento4",
+      "content_file": "../content/cuentos/cuento4.es.md",
+      "illustration": "cuento_04"
+    },
+    {
+      "id": "cuento5",
+      "content_file": "../content/cuentos/cuento5.es.md",
+      "illustration": "cuento_05"
+    },
+    {
+      "id": "cuento6",
+      "content_file": "../content/cuentos/cuento6.es.md",
+      "illustration": "cuento_06"
+    },
+    {
+      "id": "cuento7",
+      "content_file": "../content/cuentos/cuento7.es.md",
+      "illustration": "cuento_07"
+    },
+    {
+      "id": "cuento9",
+      "content_file": "../content/cuentos/cuento9.es.md",
+      "illustration": "cuento_int"
+    },
+    {
+      "id": "cuento11",
+      "content_file": "../content/cuentos/cuento11.es.md",
+      "illustration": "cuento_10"
+    },
+    {
+      "id": "cuento8",
+      "content_file": "../content/cuentos/cuento8.es.md",
+      "illustration": "cuento_08"
+    },
+    {
+      "id": "cuento12",
+      "content_file": "../content/cuentos/cuento12.es.md",
+      "illustration": "cuento_11"
+    },
+    {
+      "id": "cuento12b",
+      "content_file": "../content/cuentos/cuento12b.es.md",
+      "illustration": "cuento_segundo_cuaderno"
+    },
+    {
+      "id": "cuento10",
+      "content_file": "../content/cuentos/cuento10.es.md",
+      "illustration": "cuento_09"
+    },
+    {
+      "id": "cuento13",
+      "content_file": "../content/cuentos/cuento13.es.md",
+      "illustration": "cuento_12"
+    },
+    {
+      "id": "cuento14",
+      "content_file": "../content/cuentos/cuento14.es.md",
+      "illustration": "cuento_13"
+    },
+    {
+      "id": "cuento15",
+      "content_file": "../content/cuentos/cuento15.es.md",
+      "illustration": "cuento_14"
+    },
+    {
+      "id": "cuento_mussara",
+      "content_file": "../content/cuentos/cuento_mussara.es.md",
+      "illustration": "cuento_mussara"
+    },
+    {
+      "id": "cuento_sintonizadores",
+      "content_file": "../content/cuentos/cuento_sintonizadores.es.md",
+      "illustration": "cuento_sintonizadores"
+    },
+    {
+      "id": "cuento16",
+      "content_file": "../content/cuentos/cuento16.es.md",
+      "illustration": "cuento_eq"
+    },
+    {
+      "id": "cuento_estanque",
+      "content_file": "../content/cuentos/cuento_estanque.es.md",
+      "illustration": "cuento_estanque"
+    },
+    {
+      "id": "cuento_amanezca",
+      "content_file": "../content/cuentos/cuento_amanezca.es.md",
+      "illustration": "cuento_amanezca"
+    },
+    {
+      "id": "cuento_ultimos_minutos",
+      "content_file": "../content/cuentos/cuento_ultimos_minutos.es.md",
+      "illustration": "cuento_ultimos_minutos"
+    },
+    {
+      "id": "cuento_dragon",
+      "content_file": "../content/cuentos/cuento_dragon.es.md",
+      "illustration": "cuento_dragon"
+    },
+    {
+      "id": "cuento_vecino_arriba",
+      "content_file": "../content/cuentos/cuento_vecino_arriba.es.md",
+      "illustration": "cuento_vecino_arriba"
+    },
+    {
+      "id": "cuento_plaza",
+      "content_file": "../content/cuentos/cuento_plaza.es.md",
+      "illustration": "cuento_plaza"
+    },
+    {
+      "id": "cuento_chapa",
+      "content_file": "../content/cuentos/cuento_chapa.es.md",
+      "illustration": "cuento_chapa"
+    },
+    {
+      "id": "cuento_txiki",
+      "content_file": "../content/cuentos/cuento_txiki.es.md",
+      "illustration": "cuento_txiki"
+    }
+  ]
+}
