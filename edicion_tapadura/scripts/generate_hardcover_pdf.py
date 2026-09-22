@@ -91,21 +91,83 @@ TEAL = colors.HexColor("#3c6e71")
 CREAM = colors.HexColor("#faf8f3")
 
 # ========== PAGE GEOMETRY (KDP bleed: trim 6x9 + 0.125" outer/top/bottom) ==========
+#
+# Margins follow Amazon KDP's official print specifications for a book
+# with bleed:
+#  - Top and bottom margins: KDP's stated minimum is 0.25"; this layout
+#    uses 0.75" (comfortably above the minimum, and enough to leave room
+#    for the running header and folio).
+#  - Inside (gutter) margin: KDP requires this to scale with page count,
+#    since a thicker book "eats" more space into the fold. The exact
+#    breakpoints (in inches) are:
+#        24-150 pages   -> 0.375"
+#        151-300 pages  -> 0.5"
+#        301-500 pages  -> 0.625"
+#        501-700 pages  -> 0.75"
+#        701-828 pages  -> 0.875"
+#    Because the gutter is only known once the page count is known, and
+#    the page count depends on the gutter, main() below does a first
+#    pass with an initial guess, measures the resulting page count, and
+#    rebuilds once more if that count calls for a different gutter
+#    bracket (see set_gutter() / kdp_gutter_inches()).
+#  - Outer margin: this layout does NOT alternate the text frame's
+#    position between recto/verso pages (Platypus flows body text through
+#    a single fixed frame, and reliably mirroring it per page parity
+#    needs overriding private BaseDocTemplate internals, too fragile to
+#    rely on here). Using a smaller outer margin than the gutter would
+#    therefore make the side facing the spine fall under KDP's minimum on
+#    every other page. Instead the outer margin is simply set equal to
+#    the gutter, so both sides of every page meet or exceed the required
+#    minimum regardless of which one ends up facing the spine.
 
 BLEED = 0.125 * inch
 TRIM_W, TRIM_H = 6 * inch, 9 * inch
 PW, PH = TRIM_W + BLEED, TRIM_H + 2 * BLEED
 TRIM_Y0 = BLEED
-MARGIN_GUTTER = 0.8 * inch
-MARGIN_OUTER = 0.65 * inch
-MARGIN_TOP = 0.8 * inch
-MARGIN_BOTTOM = 0.8 * inch
-TEXT_W = TRIM_W - MARGIN_GUTTER - MARGIN_OUTER
+MARGIN_TOP = 0.75 * inch
+MARGIN_BOTTOM = 0.75 * inch
 TEXT_H = TRIM_H - MARGIN_TOP - MARGIN_BOTTOM
-FRAME_X = (MARGIN_GUTTER + (BLEED + MARGIN_OUTER)) / 2.0
-FRAME_Y = TRIM_Y0 + MARGIN_BOTTOM
-HEADER_Y = TRIM_Y0 + TRIM_H - MARGIN_TOP + 20
-FOLIO_Y = TRIM_Y0 + MARGIN_BOTTOM - 22
+
+MARGIN_GUTTER = MARGIN_OUTER = 0.375 * inch  # placeholder; set_gutter() below fixes this
+TEXT_W = FRAME_X = FRAME_Y = HEADER_Y = FOLIO_Y = None  # set by set_gutter()
+
+
+def kdp_gutter_inches(pages):
+    """Official KDP inside-margin (gutter) requirement for a bled book."""
+    if pages <= 150:
+        return 0.375
+    elif pages <= 300:
+        return 0.5
+    elif pages <= 500:
+        return 0.625
+    elif pages <= 700:
+        return 0.75
+    else:
+        return 0.875
+
+
+def set_gutter(gutter_in):
+    """(Re)computes every geometry value that depends on the gutter width,
+    and rebuilds the Frames/PageTemplates that use them. The outer margin
+    is kept equal to the gutter (see note above on why this layout does
+    not mirror recto/verso frames)."""
+    global MARGIN_GUTTER, MARGIN_OUTER, TEXT_W, FRAME_X, FRAME_Y, HEADER_Y, FOLIO_Y
+    global frame_body, frame_opener, frame_front, frame_image
+    MARGIN_GUTTER = MARGIN_OUTER = gutter_in * inch
+    TEXT_W = TRIM_W - MARGIN_GUTTER - MARGIN_OUTER
+    FRAME_X = BLEED + MARGIN_GUTTER
+    FRAME_Y = TRIM_Y0 + MARGIN_BOTTOM
+    HEADER_Y = TRIM_Y0 + TRIM_H - MARGIN_TOP + 20
+    FOLIO_Y = TRIM_Y0 + MARGIN_BOTTOM - 22
+
+    frame_body = Frame(FRAME_X, FRAME_Y, TEXT_W, TEXT_H, id="body",
+                        leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+    frame_opener = Frame(FRAME_X, FRAME_Y, TEXT_W, TEXT_H - 0.5 * inch, id="opener",
+                          leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+    frame_front = Frame(FRAME_X, FRAME_Y, TEXT_W, TEXT_H, id="front",
+                         leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+    frame_image = Frame(0, 0, PW, PH, id="imagepage",
+                         leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
 
 # ========== STYLES ==========
 
@@ -335,15 +397,9 @@ class MyDoc(BaseDocTemplate):
         BaseDocTemplate.build(self, flowables, **kwargs)
 
 # ========== FRAMES & TEMPLATES ==========
-
-frame_body = Frame(FRAME_X, FRAME_Y, TEXT_W, TEXT_H, id="body",
-                    leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
-frame_opener = Frame(FRAME_X, FRAME_Y, TEXT_W, TEXT_H - 0.5 * inch, id="opener",
-                      leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
-frame_front = Frame(FRAME_X, FRAME_Y, TEXT_W, TEXT_H, id="front",
-                     leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
-frame_image = Frame(0, 0, PW, PH, id="imagepage",
-                     leftPadding=0, rightPadding=0, topPadding=0, bottomPadding=0)
+#
+# frame_body / frame_opener / frame_front / frame_image are (re)built by
+# set_gutter(), which must be called at least once before this function.
 
 def build_page_templates(book_title):
     hf = make_header_footer(book_title)
@@ -488,24 +544,46 @@ def build_story(blocks, lang):
 
 # ========== MAIN ==========
 
+def render(blocks, lang, S, output_path, gutter_in):
+    """Builds the PDF with a given gutter width and returns the page count."""
+    set_gutter(gutter_in)
+    doc = MyDoc(output_path, pagesize=(PW, PH),
+                leftMargin=MARGIN_GUTTER, rightMargin=MARGIN_OUTER,
+                topMargin=MARGIN_TOP, bottomMargin=MARGIN_BOTTOM,
+                title=S['book_title'], author="Íñigo Barrera Barceló")
+    doc.addPageTemplates(build_page_templates(S['book_title']))
+    story = build_story(blocks, lang)
+    doc.multiBuild(story)
+    return doc.page
+
+
 def main(input_path, output_path):
     print(f"Reading: {input_path}")
     blocks, lang = parse_markdown(input_path)
     print(f"Parsed {len(blocks)} blocks, lang={lang}")
     S = LANG_STRINGS.get(lang, LANG_STRINGS['ca'])
 
-    print(f"Building PDF: {output_path}")
-    doc = MyDoc(output_path, pagesize=(PW, PH),
-                leftMargin=MARGIN_GUTTER, rightMargin=MARGIN_OUTER,
-                topMargin=MARGIN_TOP, bottomMargin=MARGIN_BOTTOM,
-                title=S['book_title'], author="Íñigo Barrera Barceló")
-
-    doc.addPageTemplates(build_page_templates(S['book_title']))
-
-    story = build_story(blocks, lang)
-
     try:
-        doc.multiBuild(story)
+        # First pass: guess the gutter from KDP's smallest bracket (most
+        # books this size fall in 24-150 pages). Then check whether the
+        # resulting page count actually calls for that bracket, and
+        # re-render once if a different, correct gutter is needed.
+        gutter_in = 0.375
+        print(f"Building PDF (pass 1, gutter={gutter_in}\"): {output_path}")
+        pages = render(blocks, lang, S, output_path, gutter_in)
+        print(f"  -> {pages} pages")
+
+        correct_gutter = kdp_gutter_inches(pages)
+        if abs(correct_gutter - gutter_in) > 1e-6:
+            print(f"KDP gutter for {pages} pages is {correct_gutter}\", "
+                  f"not {gutter_in}\" - rebuilding.")
+            pages2 = render(blocks, lang, S, output_path, correct_gutter)
+            print(f"  -> {pages2} pages (pass 2, gutter={correct_gutter}\")")
+            # A larger gutter can only ever reduce or hold the page count
+            # steady (less text fits per page), so it cannot push the
+            # count into a bracket requiring an even larger gutter.
+            assert kdp_gutter_inches(pages2) == correct_gutter
+
         print(f"Success! PDF created: {output_path}")
         file_size = os.path.getsize(output_path)
         print(f"File size: {file_size / 1024 / 1024:.2f} MB")
