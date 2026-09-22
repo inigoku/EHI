@@ -479,7 +479,7 @@ LANG_STRINGS = {
     'ca': {
         'book_title': "L'Horitzó Interior",
         'title_sub': "Un assaig literari",
-        'edition_sub': "Edició de cambra ampliada",
+        'edition_sub': "Edició de cambra",
         'dedication': ["A la Montse i al Gerard,", "per aguantar-me tots els dies amb un somriure."],
         'index_heading': "Índex",
         'colophon': ["Es va acabar d'escriure el 8 de setembre de 2026,", "a L'Hospitalet de Llobregat."],
@@ -487,7 +487,7 @@ LANG_STRINGS = {
     'en': {
         'book_title': "The Inner Horizon",
         'title_sub': "A Literary Essay",
-        'edition_sub': "Expanded Chamber Edition",
+        'edition_sub': "Chamber Edition",
         'dedication': ["To Montse and Gerard,", "for putting up with me every day with a smile."],
         'index_heading': "Contents",
         'colophon': ["Finished writing on September 8, 2026,", "in L'Hospitalet de Llobregat."],
@@ -495,7 +495,7 @@ LANG_STRINGS = {
     'es': {
         'book_title': "El Horizonte Interior",
         'title_sub': "Un ensayo literario",
-        'edition_sub': "Edición de cámara ampliada",
+        'edition_sub': "Edición de cámara",
         'dedication': ["A Montse y a Gerard,", "por aguantarme todos los días con una sonrisa."],
         'index_heading': "Índice",
         'colophon': ["Se terminó de escribir el 8 de septiembre de 2026,", "en L'Hospitalet de Llobregat."],

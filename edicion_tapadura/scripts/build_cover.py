@@ -62,7 +62,7 @@ STRINGS = {
     "es": dict(
         title="El horizonte interior",
         title_lines=["El horizonte", "interior"],
-        subtitle="Edición de cámara ampliada",
+        subtitle="Edición de cámara",
         author="Íñigo Barrera Barceló",
         kicker="Diez movimientos sobre la geometría de la conciencia",
         blurb1=(
@@ -81,7 +81,7 @@ STRINGS = {
     "ca": dict(
         title="L'horitzó interior",
         title_lines=["L'horitzó", "interior"],
-        subtitle="Edició de cambra ampliada",
+        subtitle="Edició de cambra",
         author="Íñigo Barrera Barceló",
         kicker="Deu moviments sobre la geometria de la consciència",
         blurb1=(
@@ -100,7 +100,7 @@ STRINGS = {
     "en": dict(
         title="The Inner Horizon",
         title_lines=["The Inner", "Horizon"],
-        subtitle="Expanded Chamber Edition",
+        subtitle="Chamber Edition",
         author="Íñigo Barrera Barceló",
         kicker="Ten movements on the geometry of consciousness",
         blurb1=(
