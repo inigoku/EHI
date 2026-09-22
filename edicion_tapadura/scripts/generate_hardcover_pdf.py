@@ -257,6 +257,7 @@ def get_movement_image(title):
 
 class DocState:
     chapter_marks = []
+    last_completed_page = 0  # updated in MyDoc.afterPage()
 
 DOCSTATE = DocState()
 
@@ -382,6 +383,19 @@ class ChapterOpener(Flowable):
     def draw(self):
         draw_wave(self.canv, self.width / 2, 10, 70)
 
+# Plates must land on an even (left-hand/verso) page, facing the movement's
+# opening on the odd page that follows (see edicion_tapadura/README.md).
+# A dynamic per-page-parity Flowable was tried first, but it depends on
+# DOCSTATE.last_completed_page, which varies between multiBuild's internal
+# passes while the table of contents is stabilizing - that dependency made
+# the render nondeterministic, so some plates still ended up on odd pages.
+# Instead, main() below renders once, reads back which chapter openers
+# landed on an even page (meaning their plate is one page too early, on an
+# odd page), and re-renders with a plain, unconditional extra PageBreak
+# inserted before those plates' image - deterministic, so it's stable
+# across multiBuild's internal passes.
+FORCE_BREAK_BEFORE_IMAGE = set()
+
 PLATE_BG = colors.HexColor("#0c1013")  # matches the plates' own deep navy-black backdrop
 
 class FullBleedImage(Flowable):
@@ -424,8 +438,12 @@ class MyDoc(BaseDocTemplate):
             DOCSTATE.chapter_marks.append((flowable.clean_title, pg))
             self.notify("TOCEntry", (0, flowable.clean_title, pg))
 
+    def afterPage(self):
+        DOCSTATE.last_completed_page = self.page
+
     def build(self, flowables, **kwargs):
         DOCSTATE.chapter_marks = []
+        DOCSTATE.last_completed_page = 0
         BaseDocTemplate.build(self, flowables, **kwargs)
 
 # ========== FRAMES & TEMPLATES ==========
@@ -530,6 +548,8 @@ def build_story(blocks, lang):
             image_path = get_movement_image(clean)
 
             if image_path:
+                if clean in FORCE_BREAK_BEFORE_IMAGE:
+                    story.append(PageBreak())
                 story.append(NextPageTemplate("ImagePage"))
                 story.append(PageBreak())
                 story.append(FullBleedImage(image_path))
@@ -583,17 +603,45 @@ def render(blocks, lang, S, output_path, gutter_in):
     return doc.page
 
 
+def find_parity_fixes():
+    """After an unfixed render, DOCSTATE.chapter_marks holds (title,
+    opener_page) for every movement, in document order. A movement's plate
+    sits on opener_page - 1; if that's odd (opener_page is even), the
+    plate landed one page too early and needs an extra break before it.
+
+    Fixing one movement inserts a whole blank page, which shifts every
+    later movement's page by one - flipping their parity too. Rather than
+    render repeatedly and hope it converges (it doesn't necessarily: a fix
+    needed only because of an earlier fix's shift can un-fix itself once
+    that earlier fix is also applied, oscillating forever), this computes
+    every fix analytically in one pass: walk the movements in order,
+    tracking how many blank pages have been inserted so far, and decide
+    each one's fix against its page as shifted by that running total."""
+    fixes = set()
+    offset = 0
+    for title, opener_page in DOCSTATE.chapter_marks:
+        if get_movement_image(title) is None:
+            continue
+        if (opener_page + offset) % 2 == 0:
+            fixes.add(title)
+            offset += 1
+    return fixes
+
+
 def main(input_path, output_path):
+    global FORCE_BREAK_BEFORE_IMAGE
+    FORCE_BREAK_BEFORE_IMAGE = set()
+
     print(f"Reading: {input_path}")
     blocks, lang = parse_markdown(input_path)
     print(f"Parsed {len(blocks)} blocks, lang={lang}")
     S = LANG_STRINGS.get(lang, LANG_STRINGS['ca'])
 
     try:
-        # First pass: guess the gutter from KDP's smallest bracket (most
-        # books this size fall in 24-150 pages). Then check whether the
-        # resulting page count actually calls for that bracket, and
-        # re-render once if a different, correct gutter is needed.
+        # Pass 1: guess the gutter from KDP's smallest bracket (most books
+        # this size fall in 24-150 pages). Then check whether the resulting
+        # page count actually calls for that bracket, and re-render once if
+        # a different, correct gutter is needed.
         gutter_in = 0.375
         print(f"Building PDF (pass 1, gutter={gutter_in}\"): {output_path}")
         pages = render(blocks, lang, S, output_path, gutter_in)
@@ -603,12 +651,27 @@ def main(input_path, output_path):
         if abs(correct_gutter - gutter_in) > 1e-6:
             print(f"KDP gutter for {pages} pages is {correct_gutter}\", "
                   f"not {gutter_in}\" - rebuilding.")
-            pages2 = render(blocks, lang, S, output_path, correct_gutter)
-            print(f"  -> {pages2} pages (pass 2, gutter={correct_gutter}\")")
+            pages = render(blocks, lang, S, output_path, correct_gutter)
+            print(f"  -> {pages} pages (pass 2, gutter={correct_gutter}\")")
             # A larger gutter can only ever reduce or hold the page count
             # steady (less text fits per page), so it cannot push the
             # count into a bracket requiring an even larger gutter.
-            assert kdp_gutter_inches(pages2) == correct_gutter
+            assert kdp_gutter_inches(pages) == correct_gutter
+
+        # Pass 3: with page count (and thus gutter) settled, check whether
+        # any plate landed on an odd page. find_parity_fixes() computes the
+        # complete, self-consistent set of corrections analytically in one
+        # pass (accounting for how earlier fixes shift later movements'
+        # pages), so a single re-render applies all of them at once.
+        fixes = find_parity_fixes()
+        if fixes:
+            print(f"{len(fixes)} plate(s) on an odd page - rebuilding with "
+                  f"a courtesy blank page before each.")
+            FORCE_BREAK_BEFORE_IMAGE = fixes
+            pages = render(blocks, lang, S, output_path, correct_gutter)
+            assert not find_parity_fixes(), \
+                f"parity still wrong: {find_parity_fixes()}"
+            print(f"  -> {pages} pages (parity-corrected)")
 
         print(f"Success! PDF created: {output_path}")
         file_size = os.path.getsize(output_path)
