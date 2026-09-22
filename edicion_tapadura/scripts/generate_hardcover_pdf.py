@@ -148,14 +148,28 @@ def kdp_gutter_inches(pages):
 
 def set_gutter(gutter_in):
     """(Re)computes every geometry value that depends on the gutter width,
-    and rebuilds the Frames/PageTemplates that use them. The outer margin
-    is kept equal to the gutter (see note above on why this layout does
-    not mirror recto/verso frames)."""
+    and rebuilds the Frames/PageTemplates that use them.
+
+    The text frame is NOT mirrored between recto/verso pages (see the note
+    above on why), so whichever physical side a given page's spine falls
+    on, that side must independently satisfy the KDP gutter minimum. Both
+    physical margins are therefore inset by BLEED + MARGIN_GUTTER from
+    their respective page edges - i.e. as if either side could be facing
+    the spine and could also carry a bleed zone eating into it. This is
+    what actually keeps >=MARGIN_GUTTER of true margin beyond the trim
+    edge on BOTH sides, on every page, regardless of orientation.
+
+    (An earlier version added the BLEED inset only on the left, which left
+    the right margin MARGIN_GUTTER from the physical edge but only
+    MARGIN_GUTTER-BLEED from the equivalent trim edge - under KDP's
+    minimum whenever that side ended up facing the spine on an unmirrored
+    verso page, which is exactly the "insufficient gutter" KDP flagged.)"""
     global MARGIN_GUTTER, MARGIN_OUTER, TEXT_W, FRAME_X, FRAME_Y, HEADER_Y, FOLIO_Y
     global frame_body, frame_opener, frame_front, frame_image
     MARGIN_GUTTER = MARGIN_OUTER = gutter_in * inch
-    TEXT_W = TRIM_W - MARGIN_GUTTER - MARGIN_OUTER
-    FRAME_X = BLEED + MARGIN_GUTTER
+    inset = BLEED + MARGIN_GUTTER
+    TEXT_W = PW - 2 * inset
+    FRAME_X = inset
     FRAME_Y = TRIM_Y0 + MARGIN_BOTTOM
     HEADER_Y = TRIM_Y0 + TRIM_H - MARGIN_TOP + 20
     FOLIO_Y = TRIM_Y0 + MARGIN_BOTTOM - 22
