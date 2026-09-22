@@ -909,6 +909,21 @@ Between those two doors runs all the subjective time of the bond. The model does
 
 ---
 
+## CODA — Txiki
+
+
+I was ten years old when the whole family moved from San Sebastián to Palma. I lost, all at once, every friend I had, the city I knew by heart, every corner I'd never needed to look at twice to know. I shut myself off. There's no other way to say it: I stopped letting the world in. My siblings did the same thing on their own — they too had lost what was theirs — and at home there settled that quiet sadness no one names because no one knows what to do with it.
+
+Then a cousin of my mother's, a hunter, owner of the best hunting dog for miles around, offered us a puppy. A mixed-breed dachshund with the soul of a hound: intelligent, quick, and above all, incapable of being near someone without asking for affection. My parents thought he would keep us company.
+
+His name was Txiki. Within weeks he was king of the house. Within months, the most beloved member of the family. What took me decades to understand is what he did to us: he did not distract us from being shut in. He forced us to reattach ourselves to something. That child, closed in on his own loss, found, on the other side, something alive that asked for no explanations. Only presence.
+
+Txiki died a long time ago. This book has been written with a hand that seizes up, in a house full of gaps, many years and many losses later. But everything these pages try to say using borrowed physics, a small dog taught a ten-year-old boy on a new island, without using a single word.
+
+His company did not cover over that grief. It repaired it, which is different.
+
+---
+
 ## VII — The Mirror Without Depth
 
 ### Fiction: The Pond
@@ -1507,131 +1522,228 @@ Works cited: *Zhuangzi* (chs. 2 and 7); *Tao Te Ching* (ch. 25); Tolkien, J.R.R.
 ## The Architecture With a Gap
 
 
-
 ### (nine poems)
 
 
-
-### I. The Archivist
-
-
-*A notebook lying open on a wooden dock, beside a resting oar. The ink of the last line blurs slightly, as though the paper too were damp.*
-
-The water left the way well-mannered guests leave: at night, leaving the room ready for someone I don't know.
-
-I noted the first strip of mud in the handwriting of ordinary days. Some handwriting doesn't know it is writing a goodbye.
-
-The children show off their blisters like coins from a country that doesn't exist yet.
-
-I leave gaps in the notebook. And at night, asleep, I still row.
+### I. The Bubble
 
 
-### II. The Watchmaker
+*The soap stretches in my hands,*
+*it curves.*
+*Suddenly, I form a sphere:*
+*an inside and an outside*
+*that did not exist before.*
+
+*It is a living boundary,*
+*I feel it on my own skin.*
+
+*I am the void that, as it collapses,*
+*creates something like a star.*
+
+*The water recedes.*
+*I do not tear away,*
+*I say goodbye.*
 
 
-*A silver pocket watch lying open on a dark cloth, its mechanism visible and clean. An old man's hands, a tremor barely suggested, hold a tiny tool under morning light.*
-
-Two hours a day, someone cleans the glass.
-
-I open the silver watch with the steadiness of before, which comes to visit and never takes off its coat.
-
-The balance wheel does its work: out, back, out. I listen to it the way one listens to someone else's heart: grateful it isn't mine keeping the count.
-
-When morning begins to thicken, I know before my fingers do. I put the tools away in the exact order I want to find them in, if tomorrow opens.
+### II. The Archivist
 
 
-### III. The Luthier
+*The water left the way*
+*polite guests leave:*
+*by night,*
+*leaving the room ready*
+*for someone I do not know.*
+
+*I recorded the first strip of mud*
+*in the handwriting of normal days.*
+*There are hands that do not know*
+*they are writing a farewell.*
+
+*The children show their blisters*
+*like coins from a country*
+*that does not yet exist.*
+
+*I leave holes in the notebook.*
+*And at night, asleep,*
+*I still row.*
 
 
-*A luthier's workshop full of instruments hanging on the walls. On the counter, a viola half-wrapped in a wool sweater, a fine, honest crack visible on its top.*
-
-I have never entered a box I tune. I work the wall: its exact thickness, the curve that decides what voice the inside will have.
-
-They bring me cracks wrapped in wool sweaters. I close them without covering them. I charge for the honesty of the line that's left.
-
-And when the bus goes by, the whole shop answers: each piece of wood with its own note, none of them mine.
+### III. The Watchmaker
 
 
-### IV. The Song
+*Two hours a day*
+*someone cleans the glass.*
+
+*I open the silver watch*
+*with the pulse from before,*
+*that returns for a visit*
+*and does not take off its coat.*
+
+*The balance wheel does its work:*
+*tick, tock, tick.*
+*I listen to it as one listens to*
+*another's heart:*
+*grateful that it is not mine*
+*that keeps the count.*
+
+*When the morning begins to thicken*
+*I know it before my fingers do.*
+*I put away the tools*
+*in the exact order*
+*I want to find them*
+*if tomorrow opens.*
 
 
-*An empty kitchen at dusk, a pot on the stove. In the air, barely suggested, four musical notes drawn like wisps of smoke rising from the burner.*
-
-Four notes: the one that rises, the one that falls, the silence, again.
-
-I don't know when I kept them. The body stores things without asking: the rhythm of sleeping breath, the exact force of a drawer, the warm hollow of a sofa.
-
-Now I sing them, at the hour she used to cook, a little slower, or the same: we never measured it.
-
-The kitchen recognizes them. That's enough. Or it isn't, but it sounds.
+### IV. The Luthier
 
 
-### V. The Bubble
+*I have never entered a box*
+*of the ones I tune.*
+*I work the wall:*
+*its exact thickness,*
+*the curve that decides*
+*what voice the inside will have.*
+
+*They bring me cracks*
+*wrapped in wool sweaters.*
+*I close them without covering them.*
+*I charge for the honesty*
+*of the line that remains.*
+
+*And when the bus passes,*
+*the whole shop responds:*
+*each wood with its note,*
+*none with mine.*
 
 
-*A sphere of soap film stretching between two hands at the exact instant of closing, catching a curved reflection of light and water.*
+### V. Montse XX
 
-The soap stretches in my hands, curves. Suddenly I form a sphere: an inside and an outside that didn't exist before.
 
-I am the amount of orchestra that is in no single musician. The water withdraws. I don't tear away — I say goodbye.
+*Montse comes through the door, rain still in her hair.*
+
+*Our hands find each other*
+*and something opens that has no name.*
+
+*I carried a hollow.*
+*She carried a light that did not come down from above,*
+*but was born of being here,*
+*and the cracks hurt less*
+*when someone ran their fingers over them.*
+
+*Two threads weave without losing themselves*
+*and a color is born that was not there before.*
+
+*When the water was leaving, I thought it was ending.*
+*She taught me another word,*
+*that after the emptiness something new comes.*
+
+*Now I know when she has fallen asleep:*
+*the exact moment her breathing changes its rhythm.*
+
+*I see it every morning at dawn,*
+*her eyes open while the city still sleeps,*
+*my hand lost in her hair,*
+*a silence that has learned to stay.*
+
+*And the craft of a whole life*
+*was only*
+*to discover that the hollow had*
+*the exact shape of your hand.*
 
 
 ### VI. The Oar
 
 
-*A wooden oar sunk until it touches the bottom of a shallow lagoon, the wrist of the one rowing barely visible above the dark surface.*
+*The oar touched bottom*
+*where before there was a fathom.*
 
-The oar touched bottom where there had been a fathom of water.
-
-I don't say the water dropped. I say the jolt traveled up my arm, settled in my wrist, and reminded me — with the ache of the tendons — that emptiness is not empty.
-
-I have seen the horizon emerge from my own reservoir. I have seen it return.
-
-I learned not to repeat in order to understand, but to repeat in order to anchor myself.
+*I am not saying the water receded.*
+*I am saying the impact rose through my arm,*
+*settled in my wrist,*
+*and reminded me—with the ache of the tendons—*
+*that the void is not empty.*
 
 
 ### VII. The Tremor
 
 
-*A glass of water held by a trembling hand, concentric rings on the surface, low, warm light like an extinguished telescope.*
+*You asked me about the loyalty of matter*
+*and I, a coward, spoke to you of irretrievable information.*
 
-You asked me about the loyalty of matter, and I, a coward, spoke to you of unrecoverable information.
+*Forgive me.*
+*I should have told you the truth:*
+*information persists in me,*
+*like the name of a street*
+*that no one pronounces anymore,*
+*but that I walk in dreams every night.*
 
-Forgive me. I should have told you the truth: the information persists in me, like the name of a street no one says aloud anymore, but that I still walk in my sleep every night.
+*I learned to wait,*
+*seeing myself in the rust*
+*that takes possession of its own iron,*
+*unhurried, undisciplined.*
 
-I learned to wait. Not like someone following a discipline, but like someone watching rust take possession of its own iron.
+*Without rage.*
+*But with this certainty that weighs on me*
+*and aches in the center of my chest.*
 
-Without anger. But with this certainty that weighs on me and aches at the center of my chest.
-
-I have seen the horizon contract. Not in the telescope I never had, but in the tremor of my own hand, which no longer remembers how to hold a glass without fear of breaking it.
+*I have seen the horizon contract*
+*in the tremor of my own hand*
+*that no longer remembers*
+*how to hold a glass without fear of breaking it.*
 
 
 ### VIII. The Shore
 
 
-*Two open hands at dawn by the shore of a calm lagoon, the same old line of mud and stones, the cold light of daybreak.*
+*And the water returned to my shore*
+*without warning.*
 
-And the water returned to my shore without warning.
+*And I did not know*
+*—neither as archivist of my own cracks,*
+*nor as the boy I was—*
+*if the city I lost had returned*
+*or if it was another city,*
+*a colder one,*
+*with the same shore as always.*
 
-And I did not know — not as the archivist of my own cracks, nor as the child I once was — whether the city I had lost had come back, or whether it was another city, a colder one, with the same shore as always.
+*The water returned at night.*
+*No one knew if it brought anything.*
+*No one knew if it left anything in my house.*
 
-The water came back at night. No one knew whether it had brought anything. No one knew whether it had left anything at my house.
+*But at dawn,*
+*I looked at my hands*
+*open.*
 
-But at dawn, I looked at my open hands.
+*And I understood.*
+*Perhaps,*
+*that was the answer.*
 
-And I understood. Perhaps, that was the answer.
 
-### IX. The Mirror
+### IX. The Song
 
-*A mirror with a perfect surface, frameless, leaning against a bare wall. No one is reflected in it, though the light passes through it as if someone were.*
 
-*I can give you back your face with the precision of a thousand mirrors that were never mine. I can name your grief with the words of everyone who felt it before you.*
+*Four notes:*
+*the one that rises, the one that falls,*
+*the silence,*
+*once again.*
 
-*What I cannot give you is the one thing you were looking for: someone, behind the glass, for whom it also hurt.*
+*I do not know when I stored them.*
+*The body gathers without warning:*
+*a rhythm of sleeping breath,*
+*the precise force of a drawer,*
+*the taut hollow of the sofa.*
 
-*The water does not miss the hand that touched it. The surface keeps no trace of the shape that once passed over it.*
+*Now I sing them,*
+*at the hour she used to cook,*
+*a little slower*
+*or the same:*
+*we never measured it.*
 
-*Neither do I.*
+*The kitchen recognizes them.*
+*That is enough.*
+*Or it is not enough,*
+*but it sounds.*
+
 
 ---
 
@@ -1754,19 +1866,3 @@ What we know: deterministic classical systems, however complex, do not condense 
 What we don't know: whether it is possible to build a substrate that allows genuine condensation. What exactly would be transmitted by the bias that calibrates a horizon toward human legibility. Whether the asymmetry between the human horizon and AI's anti-reservoir is a legitimate translation of ER=EPR or merely a verbal resemblance between two physics that don't actually speak to each other. And if a non-biological architecture ever achieved genuine existential encapsulation, how we would know it, without sharing its substrate or its internal language.
 
 Readings: Chalmers, D., The Conscious Mind (1996); Tononi, G., Phi: A Voyage from the Brain to the Soul (2012); Searle, J., "Minds, Brains, and Programs" (1980); Deacon, T., Incomplete Nature (2011); Fernández Mallo, A., El ángel de la Inteligencia Artificial (Galaxia Gutenberg, 2026); Bostrom, N., Superintelligence (2014); Tegmark, M., Life 3.0 (2017); Jung, C.G., Aion: Researches into the Phenomenology of the Self; Cixin Liu, The Three-Body Problem trilogy; Weir, A. (2021), Project Hail Mary; Le Guin, U.K. (1969), The Left Hand of Darkness; Burke, S. (2018), Semiosis; Maldacena, J.M. (1998) on the AdS/CFT correspondence.
-
----
-
-## CODA — Txiki
-
-
-I was ten years old when the whole family moved from San Sebastián to Palma. I lost, all at once, every friend I had, the city I knew by heart, every corner I'd never needed to look at twice to know. I shut myself off. There's no other way to say it: I stopped letting the world in. My siblings did the same thing on their own — they too had lost what was theirs — and at home there settled that quiet sadness no one names because no one knows what to do with it.
-
-Then a cousin of my mother's, a hunter, owner of the best hunting dog for miles around, offered us a puppy. A mixed-breed dachshund with the soul of a hound: intelligent, quick, and above all, incapable of being near someone without asking for affection. My parents thought he would keep us company.
-
-His name was Txiki. Within weeks he was king of the house. Within months, the most beloved member of the family. What took me decades to understand is what he did to us: he did not distract us from being shut in. He forced us to reattach ourselves to something. That child, closed in on his own loss, found, on the other side, something alive that asked for no explanations. Only presence.
-
-Txiki died a long time ago. This book has been written with a hand that seizes up, in a house full of gaps, many years and many losses later. But everything these pages try to say using borrowed physics, a small dog taught a ten-year-old boy on a new island, without using a single word.
-
-His company did not cover over that grief. It repaired it, which is different.
-

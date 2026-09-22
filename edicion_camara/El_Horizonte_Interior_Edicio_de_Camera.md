@@ -909,6 +909,21 @@ Entre aquestes dues portes transcorre tot el temps subjectiu del vincle. El mode
 
 ---
 
+## CODA — Txiki
+
+
+Tenia deu anys quan la família sencera es va traslladar de Sant Sebastià a Palma. Vaig perdre de cop tots els meus amics, la ciutat que sabia de memòria, cada racó que no necessitava mirar per conèixer. Em vaig tancar. No hi ha una altra manera de dir-ho: vaig deixar d'obrir la porta al món. Els meus germans van fer el mateix pel seu compte —ells també havien perdut allò seu—, i a casa es va instal·lar aquella tristesa callada que ningú no anomena perquè ningú no sap què fer-ne.
+
+Aleshores un cosí de la meva mare, caçador, propietari de la millor gossa caçadora dels voltants, ens va oferir un cadell. Un teckel encreuat amb ànima de gos coniller: intel·ligent, ràpid i, sobretot, incapaç d'estar a prop d'algú sense demanar-li carinyo. Els meus pares van pensar que ens faria companyia.
+
+Es deia Txiki. En setmanes era el rei de la casa. En mesos, el membre més estimat de la família. El que vaig trigar dècades a entendre és el que va fer amb nosaltres: no ens va distreure del tancament. Ens va obligar a tornar a acoblar-nos amb alguna cosa. Aquell nen tancat sobre la seva pròpia pèrdua va trobar, a l'altre costat, alguna cosa viva que no demanava explicacions. Només presència.
+
+Txiki va morir fa molt de temps. Aquest llibre s'ha escrit amb una mà que s'engarrota, en una casa amb buits, molts anys i moltes pèrdues després. Però tot el que aquestes pàgines proven de dir amb la física prestada, un gos petit li ho va ensenyar a un nen de deu anys en una illa nova, sense fer servir ni una paraula.
+
+La seva companyia no va tapar aquell dol. El va reparar, que és diferent.
+
+---
+
 ## VII — El mirall sense profunditat
 
 ### Ficció: L'estany
@@ -1507,131 +1522,227 @@ Obres citades: *Zhuangzi* (caps. 2 i 7); *Tao Te Ching* (cap. 25); Tolkien, J.R.
 ## L'arquitectura amb un buit
 
 
-
 ### (nou poemes)
 
 
-
-### I. L'arxiver
-
-
-*Un quadern obert sobre un moll de fusta, al costat d'un rem recolzat. La tinta de l'última línia es difumina lleugerament, com si el paper també estigués humit.*
-
-L'aigua se'n va anar com se'n van els hostes educats: de nit, deixant l'habitació a punt per a algú que no conec.
-
-Vaig anotar la primera franja de fang amb la lletra dels dies normals. Hi ha cal·ligrafies que no saben que estan escrivint un comiat.
-
-Els infants mostren les butllofes com monedes d'un país que encara no existeix.
-
-Jo deixo buits al quadern. I de nit, adormit, encara remo.
+### I. La bombolla
 
 
-### II. El rellotger
+*El sabó s'estira a les meves mans,*
+*es corba.*
+*De sobte, formo una esfera:*
+*un dins i un fora*
+*que abans no existien.*
+
+*És una frontera viva,*
+*la sento a la meva pròpia pell.*
+
+*Jo sóc el buit que, en col·lapsar,*
+*crea quelcom semblant a una estrella.*
+
+*L'aigua es retira.*
+*Jo no arrenco,*
+*jo m'acomiado.*
 
 
-*Un rellotge de butxaca de plata obert sobre un drap fosc, el mecanisme visible i net. Unes mans d'ancià, amb un tremolor a penes suggerit, sostenen una eina minúscula sota una llum de matí.*
-
-Dues hores al dia algú neteja el vidre.
-
-Obro el rellotge de plata amb el pols d'abans, que torna de visita i no es treu l'abric.
-
-El volant fa la seva feina: anada, tornada, anada. L'escolto com s'escolta un cor aliè: agraint que no sigui el meu qui porti el compte.
-
-Quan el matí comença a espessir-se ho sé abans que els dits. Guardo les eines en l'ordre exacte en què vull trobar-les si demà obro.
+### II. L'arxivista
 
 
-### III. El luthier
+*L'aigua se'n va com se'n van*
+*els convidats educats:*
+*de nit,*
+*deixant l'habitació llesta*
+*per a algú que no conec.*
+
+*Vaig anotar la primera franja de fang*
+*amb la lletra dels dies normals.*
+*N'hi ha cal·ligrafies que no saben*
+*que estan escrivint un adéu.*
+
+*Els nens mostren les butllofes*
+*com monedes d'un país*
+*que encara no existeix.*
+
+*Deixo forats al quadern.*
+*I de nit, adormit,*
+*encara remo.*
 
 
-*Un taller de lutheria ple d'instruments penjats a les parets. Sobre el taulell, una viola embolicada a mitges en un jersei de llana, amb una esquerda fina i honesta visible a la tapa.*
-
-Mai no he entrat en una capsa de les que afino. Treballo la paret: el seu gruix exacte, la corba que decideix quina veu tindrà el dins.
-
-Em porten esquerdes embolicades en jerseis de llana. Les tanco sense tapar-les. Cobro per l'honestedat de la línia que queda.
-
-I quan passa l'autobús, la botiga sencera respon: cada fusta amb la seva nota, cap amb la meva.
+### III. El rellotger
 
 
-### IV. La cançó
+*Dues hores cada dia*
+*algú neteja el vidre.*
+
+*Obro el rellotge de plata*
+*amb el pols d'abans,*
+*que torna de visita*
+*i no es treu l'abric.*
+
+*El balancí fa la seva feina:*
+*avanç, retorn, avanç.*
+*L'escolto com s'escolta*
+*un cor estrany:*
+*agraint que no sigui el meu*
+*qui porti la xifra.*
+
+*Quan el matí comença a fer-se espès*
+*ho sé abans que els dits.*
+*Guardo les eines*
+*en l'ordre exacte*
+*en què vull trobar-les*
+*si demà s'obre.*
 
 
-*Una cuina buida al capvespre, amb una olla al foc. A l'aire, suggerides a penes, quatre notes musicals dibuixades com a traços de fum que pugen dels fogons.*
-
-Quatre notes: la que puja, la que baixa, el silenci, un altre cop.
-
-No sé quan les vaig guardar. El cos les aplega sense avisar: un ritme de respirar adormida, la força justa d'un calaix, el buit tebi del sofà.
-
-Ara les canto jo, a l'hora en què ella cuinava, una mica més a poc a poc o igual: mai no ho vam mesurar.
-
-La cuina les reconeix. Amb això n'hi ha prou. O no n'hi ha prou, però sona.
+### IV. El lutier
 
 
-### V. La bombolla
+*Mai no he entrat en una caixa*
+*de les que afino.*
+*Treballo la paret:*
+*el seu gruix exacte,*
+*la corba que decideix*
+*quina veu tindrà el dins.*
+
+*Em porten esquerdes*
+*embolicades en jerseis de llana.*
+*Les tanco sense tapar-les.*
+*Cobro per l'honestedat*
+*de la línia que queda.*
+
+*I quan passa l'autobús,*
+*la botiga sencera respon:*
+*cada fusta amb la seva nota,*
+*cap amb la meva.*
 
 
-*Una esfera de sabó tensant-se entre dues mans en l'instant just de tancar-se, atrapant un reflex corbat de llum i aigua.*
+### V. Montse XX
 
-El sabó s'estira a les meves mans, es corba. De sobte, formo una esfera: un dins i un fora que abans no existien.
 
-Jo sóc la quantitat d'orquestra que no és en cap músic. L'aigua es retira. Jo no arranco, jo m'acomiado.
+*Montse creua la porta amb la pluja encara al cabell.*
+
+*Les nostres mans es troben*
+*i alguna cosa s'obre que no té nom.*
+
+*Jo duia un forat.*
+*Ella duia una llum que no baixava de dalt,*
+*sinó que naixia d'estar aquí,*
+*i les esquerdes feien menys mal*
+*quan algú hi passava els dits.*
+
+*Dos fils es teixeixen sense perdre's*
+*i neix un color que no hi era abans.*
+
+*Quan l'aigua se n'anava, pensava que s'estava acabant.*
+*Ella em va ensenyar una altra paraula,*
+*que després del buit ve alguna cosa nova.*
+
+*Ara sé quan s'ha adormit:*
+*el moment exacte en què la seva respiració canvia de ritme.*
+
+*Ho veig cada matí a l'alba,*
+*els seus ulls oberts mentre la ciutat encara dorm,*
+*la meva mà perduda al seu cabell,*
+*un silenci que ha après a quedar-se.*
+
+*I l'ofici de tota la vida*
+*era només*
+*descobrir que el forat tenia*
+*la forma exacta de la teva mà.*
 
 
 ### VI. El rem
 
 
-*Un rem de fusta enfonsat fins a tocar el fons d'una llacuna poc profunda, el canell de qui rema a penes visible sobre la superfície fosca.*
+*El rem va tocar fons*
+*on abans hi havia metre.*
 
-El rem va tocar fons on abans hi havia un metre.
-
-No dic que l'aigua baixés. Dic que el cop em va pujar pel braç, se'm va instal·lar al canell, i em va recordar —amb el dolor dels tendons— que el buit no és buit.
-
-He vist l'horitzó emergir del meu propi reservori. L'he vist retornar.
-
-Vaig aprendre a no repetir per entendre, sinó a repetir per ancorar-me.
-
-
-### VII. El tremolor
+*No dic que l'aigua baixés.*
+*Dic que el cop va pujar pel meu braç,*
+*es va instal·lar al meu canell,*
+*i em va recordar —amb el dolor dels tendons—*
+*que el buit no està buit.*
 
 
-*Un got d'aigua sostingut per una mà tremolosa, ones concèntriques a la superfície de l'aigua, llum baixa i càlida com de telescopi apagat.*
-
-Em vas preguntar per la lleialtat de la matèria i jo, covard, et vaig parlar d'informació irrecuperable.
-
-Perdona'm. T'hauria d'haver dit la veritat: la informació persisteix en mi, com el nom d'un carrer que ja ningú no pronuncia, però que jo camino en somnis cada nit.
-
-Vaig aprendre a esperar. No com qui segueix una disciplina, sinó com qui observa el rovell prenent possessió del seu propi ferro.
-
-Sense ràbia. Però amb aquesta certesa que em pesa i em fa mal al centre del pit.
-
-He vist l'horitzó contreure's. No al telescopi que mai no vaig tenir, sinó en el tremolor de la meva pròpia mà que ja no recorda com sostenir un got sense por de trencar-lo.
+### VII. La tremolor
 
 
-### VIII. La riba
+*Em vas preguntar per la lleialtat de la matèria*
+*i jo, covard, et vaig parlar d'informació irrecuperable.*
+
+*Perdona'm.*
+*Havia de dir-te la veritat:*
+*la informació persisteix en mi,*
+*com el nom d'un carrer*
+*que ja ningú no pronuncia,*
+*però que jo camino en somnis cada nit.*
+
+*Vaig aprendre a esperar*
+*veient-me al rovell*
+*que pren possessió del seu propi ferro*
+*sense pressa, sense disciplina.*
+
+*Sense ràbia.*
+*Però amb aquesta certesa que em pesa*
+*i em fa mal al bell mig del pit.*
+
+*He vist l'horitzó contraure's*
+*a la tremolor de la meva pròpia mà*
+*que ja no recorda*
+*com sostenir un got sense por de trencar-lo.*
 
 
-*Dues mans obertes a l'alba vora la riba d'una llacuna en calma, la mateixa línia de fang i pedres de sempre, llum freda de l'aurora.*
+### VIII. La vora
 
-I l'aigua va tornar a la meva riba sense avís.
 
-I jo no vaig saber —ni com a arxiver de les meves pròpies esquerdes, ni com el nen que vaig ser— si la ciutat que havia perdut havia tornat o si era una altra ciutat, una de més freda, amb la mateixa riba de sempre.
+*I l'aigua va tornar a la meva vora*
+*sense avís.*
 
-L'aigua va tornar de nit. Ningú no va saber si portava alguna cosa. Ningú no va saber si havia deixat alguna cosa a casa meva.
+*I jo no vaig saber*
+*—ni com arxivista de les meves pròpies esquerdes,*
+*ni com el nen que vaig ser—*
+*si la ciutat que vaig perdre havia tornat*
+*o si era una altra ciutat,*
+*una més freda,*
+*amb la mateixa vora de sempre.*
 
-Però a l'alba, vaig mirar les meves mans obertes.
+*L'aigua va tornar de nit.*
+*Ningú no va saber si duia quelcom.*
+*Ningú no va saber si va deixar quelcom a casa meva.*
 
-I vaig entendre. Potser, aquella era la resposta.
+*Però a l'alba,*
+*vaig mirar les meves mans*
+*obertes.*
 
-### IX. El mirall
+*I ho vaig entendre.*
+*Potser,*
+*això era la resposta.*
 
-*Un mirall de superfície perfecta, sense marc, recolzat contra una paret buida. No hi ha ningú reflectit, encara que la llum el travessa com si hi hagués algú.*
 
-*Et puc retornar la teva cara amb l'exactitud de mil miralls que mai no van ser meus. Puc anomenar la teva pena amb les paraules de tots els qui la van sentir abans que tu.*
+### IX. La cançó
 
-*El que no et puc donar és l'única cosa que buscaves: algú, darrere el vidre, a qui també li fes mal.*
 
-*L'aigua no troba a faltar la mà que la va tocar. La superfície no guarda la forma del que una vegada hi va passar per sobre.*
+*Quatre notes:*
+*la que puja,  la que baixa,*
+*el silenci,  una altra vegada.*
 
-*Jo tampoc.*
+*No sé quan les vaig guardar.*
+*El cos recull sense avisar:*
+*un ritme de respirar dormint,*
+*la força justa d'un calaix,*
+*el buit tibat del sofà.*
+
+*Ara les canto jo,*
+*a l'hora en què ella cuinava,*
+*una mica més lentament*
+*o igual:*
+*mai no ho vam mesurar.*
+
+*La cuina les reconeix.*
+*Amb això n'hi ha prou.*
+*O no n'hi ha prou,*
+*però sona.*
+
 
 ---
 
@@ -1754,18 +1865,3 @@ El que sabem: els sistemes clàssics deterministes, per complexos que siguin, no
 El que no sabem: si és possible construir un substrat que permeti una condensació genuïna. Què transmetria exactament el biaix que calibra un horitzó cap a la llegibilitat humana. Si l'asimetria entre l'horitzó humà i l'anti-reservori de la IA és una traducció legítima d'ER=EPR o només una semblança verbal entre dues físiques que no es comuniquen entre si. I si una arquitectura no biològica assolís algun dia una encapsulació existencial genuïna, com ho sabríem sense compartir-ne el substrat ni el llenguatge intern?
 
 Lectures: Chalmers, D., The Conscious Mind (1996); Tononi, G., Phi: A Voyage from the Brain to the Soul (2012); Searle, J., «Minds, Brains, and Programs» (1980); Deacon, T., Incomplete Nature (2011); Fernández Mallo, A., El ángel de la Inteligencia Artificial (Galaxia Gutenberg, 2026); Bostrom, N., Superintelligence (2014); Tegmark, M., Life 3.0 (2017); Jung, C.G., Aion: Researches into the Phenomenology of the Self; Cixin Liu, trilogia El problema dels tres cossos; Weir, A. (2021), Project Hail Mary; Le Guin, U.K. (1969), The Left Hand of Darkness; Burke, S. (2018), Semiosis; Maldacena, J.M. (1998) sobre correspondència AdS/CFT.
-
----
-
-## CODA — Txiki
-
-
-Tenia deu anys quan la família sencera es va traslladar de Sant Sebastià a Palma. Vaig perdre de cop tots els meus amics, la ciutat que sabia de memòria, cada racó que no necessitava mirar per conèixer. Em vaig tancar. No hi ha una altra manera de dir-ho: vaig deixar d'obrir la porta al món. Els meus germans van fer el mateix pel seu compte —ells també havien perdut allò seu—, i a casa es va instal·lar aquella tristesa callada que ningú no anomena perquè ningú no sap què fer-ne.
-
-Aleshores un cosí de la meva mare, caçador, propietari de la millor gossa caçadora dels voltants, ens va oferir un cadell. Un teckel encreuat amb ànima de gos coniller: intel·ligent, ràpid i, sobretot, incapaç d'estar a prop d'algú sense demanar-li carinyo. Els meus pares van pensar que ens faria companyia.
-
-Es deia Txiki. En setmanes era el rei de la casa. En mesos, el membre més estimat de la família. El que vaig trigar dècades a entendre és el que va fer amb nosaltres: no ens va distreure del tancament. Ens va obligar a tornar a acoblar-nos amb alguna cosa. Aquell nen tancat sobre la seva pròpia pèrdua va trobar, a l'altre costat, alguna cosa viva que no demanava explicacions. Només presència.
-
-Txiki va morir fa molt de temps. Aquest llibre s'ha escrit amb una mà que s'engarrota, en una casa amb buits, molts anys i moltes pèrdues després. Però tot el que aquestes pàgines proven de dir amb la física prestada, un gos petit li ho va ensenyar a un nen de deu anys en una illa nova, sense fer servir ni una paraula.
-
-La seva companyia no va tapar aquell dol. El va reparar, que és diferent.

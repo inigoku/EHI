@@ -185,15 +185,15 @@ def set_gutter(gutter_in):
 
 # ========== STYLES ==========
 
-styleN = ParagraphStyle("body", fontName="Lora", fontSize=10.3, leading=15.2,
-                         alignment=TA_JUSTIFY, textColor=INK, spaceAfter=7.5)
-styleH1 = ParagraphStyle("h1", fontName="Lora-Bold", fontSize=20, leading=24,
+styleN = ParagraphStyle("body", fontName="Lora", fontSize=11.5, leading=17,
+                         alignment=TA_JUSTIFY, textColor=INK, spaceAfter=8.5)
+styleH1 = ParagraphStyle("h1", fontName="Lora-Bold", fontSize=21, leading=25,
                           textColor=INK, spaceAfter=16, alignment=TA_LEFT)
-styleH2 = ParagraphStyle("h2", fontName="Lora-BoldItalic", fontSize=12.5, leading=16,
+styleH2 = ParagraphStyle("h2", fontName="Lora-BoldItalic", fontSize=13.5, leading=17,
                           textColor=TEAL, spaceBefore=10, spaceAfter=8, alignment=TA_LEFT)
-styleH3 = ParagraphStyle("h3", fontName="Lora-Bold", fontSize=11, leading=15,
+styleH3 = ParagraphStyle("h3", fontName="Lora-Bold", fontSize=12, leading=16.5,
                           textColor=INK, spaceBefore=8, spaceAfter=6, alignment=TA_LEFT)
-stylePoem = ParagraphStyle("poem", fontName="Lora-Italic", fontSize=10.3, leading=14.5,
+stylePoem = ParagraphStyle("poem", fontName="Lora-Italic", fontSize=11.5, leading=16,
                             alignment=TA_CENTER, textColor=INK, spaceAfter=2)
 styleTitleMain = ParagraphStyle("titlemain", fontName="Lora-Bold", fontSize=26, leading=30,
                                  alignment=TA_CENTER, textColor=INK)
@@ -571,9 +571,25 @@ def build_story(blocks, lang):
             if nxt is not None and nxt.type == "PARA":
                 group.append(para_flowable(nxt.content))
                 i += 1
+            elif nxt is not None and nxt.type == "POEMLINE":
+                # A poem's heading (e.g. "I. La burbuja") must not be
+                # orphaned alone at the bottom of a page with its verse
+                # pushed to the next one - keep the whole poem, heading
+                # included, as a single unit.
+                while i + 1 < n and blocks[i + 1].type == "POEMLINE":
+                    i += 1
+                    group.append(Paragraph(blocks[i].content, stylePoem))
             story.append(KeepTogether(group))
         elif t == "POEMLINE":
-            story.append(Paragraph(b.content, stylePoem))
+            # Group the whole run of consecutive verse lines into one
+            # KeepTogether so a poem never gets split by a page break
+            # partway through - it either fits whole on the page it starts,
+            # or the whole block moves to the next one.
+            group = [Paragraph(b.content, stylePoem)]
+            while i + 1 < n and blocks[i + 1].type == "POEMLINE":
+                i += 1
+                group.append(Paragraph(blocks[i].content, stylePoem))
+            story.append(KeepTogether(group))
         elif t == "PARA":
             story.append(para_flowable(b.content))
 

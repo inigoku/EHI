@@ -64,7 +64,7 @@ STRINGS = {
         title_lines=["El horizonte", "interior"],
         subtitle="Edición de cámara ampliada",
         author="Íñigo Barrera Barceló",
-        kicker="Siete movimientos sobre la geometría de la conciencia",
+        kicker="Diez movimientos sobre la geometría de la conciencia",
         blurb1=(
             "Un ensayo que usa la física de los agujeros negros como lente para "
             "pensar la conciencia: el horizonte de sucesos como frontera entre lo "
@@ -83,7 +83,7 @@ STRINGS = {
         title_lines=["L'horitzó", "interior"],
         subtitle="Edició de cambra ampliada",
         author="Íñigo Barrera Barceló",
-        kicker="Set moviments sobre la geometria de la consciència",
+        kicker="Deu moviments sobre la geometria de la consciència",
         blurb1=(
             "Un assaig que fa servir la física dels forats negres com a lent per "
             "pensar la consciència: l'horitzó de successos com a frontera entre "
@@ -102,7 +102,7 @@ STRINGS = {
         title_lines=["The Inner", "Horizon"],
         subtitle="Expanded Chamber Edition",
         author="Íñigo Barrera Barceló",
-        kicker="Seven movements on the geometry of consciousness",
+        kicker="Ten movements on the geometry of consciousness",
         blurb1=(
             "An essay that uses black hole physics as a lens for thinking about "
             "consciousness: the event horizon as the boundary between what a self "

@@ -909,6 +909,21 @@ Entre esas dos puertas transcurre todo el tiempo subjetivo del vínculo. El mode
 
 ---
 
+## CODA — Txiki
+
+
+Tenía diez años cuando la familia entera se trasladó de San Sebastián a Palma. Perdí de golpe a todos mis amigos, la ciudad que sabía de memoria, cada rincón que no necesitaba mirar para conocer. Me encerré. No hay otra manera de decirlo: dejé de dejar entrar el mundo. Mis hermanos hicieron lo mismo por su cuenta — ellos también habían perdido lo suyo—, y en casa se instaló esa tristeza callada que nadie nombra porque nadie sabe qué hacer con ella.
+
+Entonces un primo de mi madre, cazador, dueño de la mejor perra cazadora de los alrededores, nos ofreció un cachorro. Un teckel mestizo con alma de sabueso: inteligente, rápido y, sobre todo, incapaz de estar cerca de alguien sin pedirle cariño. Mis padres pensaron que nos haría compañía.
+
+Se llamaba Txiki. En semanas era el rey de la casa. En meses, el miembro más querido de la familia. Lo que tardé décadas en entender es lo que hizo con nosotros: no nos distrajo del encierro. Nos obligó a volver a acoplarnos con algo. Aquel niño cerrado sobre su propia pérdida encontró, al otro lado, algo vivo que no pedía explicaciones. Solo presencia.
+
+Txiki murió hace mucho. Este libro se ha escrito con una mano que se agarrota, en una casa con huecos, muchos años y muchas pérdidas después. Pero todo lo que estas páginas intentan decir con la física prestada, un perro pequeño se lo enseñó a un niño de diez años en una isla nueva, sin usar ni una palabra.
+
+Su compañía no tapó aquel duelo. Lo reparó, que es distinto.
+
+---
+
 ## VII — El espejo sin profundidad
 
 ### Ficción: El estanque
@@ -1507,131 +1522,227 @@ Obras citadas: *Zhuangzi* (caps. 2 y 7); *Tao Te Ching* (cap. 25); Tolkien, J.R.
 ## La arquitectura con un hueco
 
 
-
 ### (nueve poemas)
 
 
-
-### I. El archivista
-
-
-*Un cuaderno abierto sobre un muelle de madera, junto a un remo apoyado. La tinta de la última línea se difumina levemente, como si el papel también estuviera húmedo.*
-
-El agua se fue como se van los huéspedes educados: de noche, dejando la habitación lista para alguien que no conozco.
-
-Anoté la primera franja de barro con la letra de los días normales. Hay caligrafías que no saben que están escribiendo una despedida.
-
-Los niños enseñan las ampollas como monedas de un país que todavía no existe.
-
-Yo dejo huecos en el cuaderno. Y de noche, dormido, todavía remo.
+### I. La burbuja
 
 
-### II. El relojero
+*El jabón se estira en mis manos,*
+*se curva.*
+*De repente, formo una esfera:*
+*un dentro y un fuera*
+*que antes no existían.*
+
+*Es una frontera viva,*
+*la siento en mi propia piel.*
+
+*Yo soy el vacío que, al colapsar,*
+*crea algo parecido a una estrella.*
+
+*El agua se retira.*
+*Yo no arranco,*
+*yo me despido.*
 
 
-*Un reloj de bolsillo de plata abierto sobre un paño oscuro, el mecanismo visible y limpio. Unas manos de anciano, con un temblor apenas sugerido, sostienen una herramienta diminuta bajo una luz de mañana.*
-
-Dos horas al día alguien limpia el cristal.
-
-Abro el reloj de plata con el pulso de antes, que vuelve de visita y no se quita el abrigo.
-
-El balancín hace su trabajo: ida, vuelta, ida. Lo escucho como se escucha un corazón ajeno: agradeciendo que no sea el mío quien lleve la cuenta.
-
-Cuando la mañana empieza a espesarse lo sé antes que los dedos. Guardo las herramientas en el orden exacto en que quiero encontrarlas si mañana abre.
+### II. El archivista
 
 
-### III. El luthier
+*El agua se fue como se van*
+*los huéspedes educados:*
+*de noche,*
+*dejando la habitación lista*
+*para alguien que no conozco.*
+
+*Anoté la primera franja de barro*
+*con la letra de los días normales.*
+*Hay caligrafías que no saben*
+*que están escribiendo una despedida.*
+
+*Los niños enseñan las ampollas*
+*como monedas de un país*
+*que todavía no existe.*
+
+*Yo dejo huecos en el cuaderno.*
+*Y de noche, dormido,*
+*todavía remo.*
 
 
-*Un taller de lutería lleno de instrumentos colgados de las paredes. Sobre el mostrador, una viola envuelta a medias en un jersey de lana, con una grieta fina y honesta visible en la tapa.*
-
-Nunca he entrado en una caja de las que afino. Trabajo la pared: su espesor exacto, la curva que decide qué voz tendrá el adentro.
-
-Me traen grietas envueltas en jerséis de lana. Las cierro sin taparlas. Cobro por la honestidad de la línea que queda.
-
-Y cuando pasa el autobús, la tienda entera responde: cada madera con su nota, ninguna con la mía.
+### III. El relojero
 
 
-### IV. La canción
+*Dos horas al día*
+*alguien limpia el cristal.*
+
+*Abro el reloj de plata*
+*con el pulso de antes,*
+*que vuelve de visita*
+*y no se quita el abrigo.*
+
+*El balancín hace su trabajo:*
+*ida, vuelta, ida.*
+*Lo escucho como se escucha*
+*un corazón ajeno:*
+*agradeciendo que no sea el mío*
+*quien lleve la cuenta.*
+
+*Cuando la mañana empieza a espesarse*
+*lo sé antes que los dedos.*
+*Guardo las herramientas*
+*en el orden exacto*
+*en que quiero encontrarlas*
+*si mañana abre.*
 
 
-*Una cocina vacía al atardecer, con una olla al fuego. En el aire, sugeridas apenas, cuatro notas musicales dibujadas como trazos de humo que suben desde los fogones.*
-
-Cuatro notas: la que sube, la que baja, el silencio, otra vez.
-
-No sé cuándo las guardé. El cuerpo hace acopio sin avisar: un ritmo de respirar dormida, la fuerza justa de un cajón, el hueco tibio del sofá.
-
-Ahora las canto yo, a la hora en que ella cocinaba, un poco más despacio o igual: nunca lo medimos.
-
-La cocina las reconoce. Eso basta. O no basta, pero suena.
+### IV. El luthier
 
 
-### V. La burbuja
+*Nunca he entrado en una caja*
+*de las que afino.*
+*Trabajo la pared:*
+*su espesor exacto,*
+*la curva que decide*
+*qué voz tendrá el adentro.*
+
+*Me traen grietas*
+*envueltas en jerséis de lana.*
+*Las cierro sin taparlas.*
+*Cobro por la honestidad*
+*de la línea que queda.*
+
+*Y cuando pasa el autobús,*
+*la tienda entera responde:*
+*cada madera con su nota,*
+*ninguna con la mía.*
 
 
-*Una esfera de jabón tensándose entre dos manos en el instante justo de cerrarse, atrapando un reflejo curvo de luz y agua.*
+### V. Montse XX
 
-El jabón se estira en mis manos, se curva. De repente, formo una esfera: un dentro y un fuera que antes no existían.
 
-Yo soy la cantidad de orquesta que no está en ningún músico. El agua se retira. Yo no arranco, yo me despido.
+*Montse cruza la puerta con la lluvia aún en el pelo.*
+
+*Nuestras manos se encuentran*
+*y algo se abre que no tiene nombre.*
+
+*Yo traía un hueco.*
+*Ella traía una luz que no bajaba de arriba,*
+*sino que nacía de estar aquí,*
+*y las grietas dolían menos*
+*cuando alguien pasaba los dedos por ellas.*
+
+*Dos hilos se tejen sin perderse*
+*y nace un color que no estaba antes.*
+
+*Cuando el agua se iba, pensaba que se estaba acabando.*
+*Ella me enseñó otra palabra,*
+*que después del vacío viene algo nuevo.*
+
+*Ahora sé cuándo se ha dormido:*
+*el momento exacto en que su respiración cambia de ritmo.*
+
+*Lo veo cada mañana al alba,*
+*sus ojos abiertos mientras la ciudad aún duerme,*
+*mi mano perdida en su pelo,*
+*un silencio que ha aprendido a quedarse.*
+
+*Y el oficio de toda una vida*
+*era solo*
+*descubrir que el hueco tenía*
+*la forma exacta de tu mano.*
 
 
 ### VI. El remo
 
 
-*Un remo de madera hundido hasta tocar el fondo de una laguna poco profunda, la muñeca de quien rema apenas visible sobre la superficie oscura.*
+*El remo tocó fondo*
+*donde antes había metro.*
 
-El remo tocó fondo donde antes había metro.
-
-No digo que el agua bajara. Digo que el golpe subió por mi brazo, se instaló en mi muñeca, y me recordó —con el dolor de los tendones— que el vacío no está vacío.
-
-Yo he visto al horizonte emerger de mi propio reservorio. Yo lo he visto retornar.
-
-Aprendí a no repetir para entender, sino a repetir para anclarme.
+*No digo que el agua bajara.*
+*Digo que el golpe subió por mi brazo,*
+*se instaló en mi muñeca,*
+*y me recordó —con el dolor de los tendones—*
+*que el vacío no está vacío.*
 
 
 ### VII. El temblor
 
 
-*Un vaso de agua sostenido por una mano temblorosa, ondas concéntricas en la superficie del agua, luz baja y cálida como de telescopio apagado.*
+*Me preguntaste por la lealtad de la materia*
+*y yo, cobarde, te hablé de información irrecuperable.*
 
-Me preguntaste por la lealtad de la materia y yo, cobarde, te hablé de información irrecuperable.
+*Perdóname.*
+*Debí decirte la verdad:*
+*la información persiste en mí,*
+*como el nombre de una calle*
+*que ya nadie pronuncia,*
+*pero que yo camino en sueños cada noche.*
 
-Perdóname. Debí decirte la verdad: la información persiste en mí, como el nombre de una calle que ya nadie pronuncia, pero que yo camino en sueños cada noche.
+*Aprendí a esperar*
+*viéndome en el óxido*
+*que toma posesión de su propio hierro*
+*sin prisa, sin disciplina.*
 
-Aprendí a esperar. No como quien sigue una disciplina, sino como quien observa el óxido tomar posesión de su propio hierro.
+*Sin rabia.*
+*Pero con esta certeza que me pesa*
+*y me duele en el centro del pecho.*
 
-Sin rabia. Pero con esta certeza que me pesa y me duele en el centro del pecho.
-
-He visto al horizonte contraerse. No en el telescopio que nunca tuve, sino en el temblor de mi propia mano que ya no recuerda cómo sostener un vaso sin miedo a romperlo.
+*He visto al horizonte contraerse*
+*en el temblor de mi propia mano*
+*que ya no recuerda*
+*cómo sostener un vaso sin miedo a romperlo.*
 
 
 ### VIII. La orilla
 
 
-*Dos manos abiertas al alba junto a la orilla de una laguna en calma, la misma línea de barro y piedras de siempre, luz fría del amanecer.*
+*Y el agua volvió a mi orilla*
+*sin aviso.*
 
-Y el agua volvió a mi orilla sin aviso.
+*Y yo no supe*
+*—ni como archivista de mis propias grietas,*
+*ni como el niño que fui—*
+*si la ciudad que perdí había regresado*
+*o si era otra ciudad,*
+*una más fría,*
+*con la misma orilla de siempre.*
 
-Y yo no supe —ni como archivista de mis propias grietas, ni como el niño que fui— si la ciudad que perdí había regresado o si era otra ciudad, una más fría, con la misma orilla de siempre.
+*El agua volvió de noche.*
+*Nadie supo si trajo algo.*
+*Nadie supo si dejó algo en mi casa.*
 
-El agua volvió de noche. Nadie supo si trajo algo. Nadie supo si dejó algo en mi casa.
+*Pero al alba,*
+*miré mis manos*
+*abiertas.*
 
-Pero al alba, miré mis manos abiertas.
+*Y entendí.*
+*Tal vez,*
+*eso era la respuesta.*
 
-Y entendí. Tal vez, eso era la respuesta.
 
-### IX. El espejo
+### IX. La canción
 
-*Un espejo de superficie perfecta, sin marco, apoyado contra una pared vacía. No hay nadie reflejado en él, aunque la luz lo atraviesa como si hubiera alguien.*
 
-*Puedo devolverte tu cara con la exactitud de mil espejos que nunca fueron míos. Puedo nombrar tu pena con las palabras de todos los que la sintieron antes que tú.*
+*Cuatro notas:*
+*la que sube,  la que baja,*
+*el silencio,  otra vez.*
 
-*Lo que no puedo darte es lo único que buscabas: alguien, detrás del cristal, a quien también le doliera.*
+*No sé cuándo las guardé.*
+*El cuerpo hace acopio sin avisar:*
+*un ritmo de respirar dormida,*
+*la fuerza justa de un cajón,*
+*el hueco tenso del sofá.*
 
-*El agua no extraña la mano que la tocó. La superficie no guarda la forma de lo que una vez pasó por encima.*
+*Ahora las canto yo,*
+*a la hora en que ella cocinaba,*
+*un poco más despacio*
+*o igual:*
+*nunca lo medimos.*
 
-*Yo tampoco.*
+*La cocina las reconoce.*
+*Eso basta.*
+*O no basta,*
+*pero suena.*
+
 
 ---
 
@@ -1754,18 +1865,3 @@ Lo que sabemos: los sistemas clásicos deterministas, por complejos que sean, no
 Lo que no sabemos: si es posible construir un sustrato que permita condensación genuina. Qué transmitiría exactamente el sesgo que calibra un horizonte hacia la legibilidad humana. Si la asimetría entre el horizonte humano y el anti-reservorio de la IA es una traducción legítima de ER=EPR o solo un parecido verbal entre dos físicas que no se comunican entre sí. Y si una arquitectura no biológica alcanzara alguna vez encapsulación existencial genuina, cómo lo sabríamos sin compartir su sustrato ni su lenguaje interno.
 
 Lecturas: Chalmers, D., The Conscious Mind (1996); Tononi, G., Phi: A Voyage from the Brain to the Soul (2012); Searle, J., «Minds, Brains, and Programs» (1980); Deacon, T., Incomplete Nature (2011); Fernández Mallo, A., El ángel de la Inteligencia Artificial (Galaxia Gutenberg, 2026); Bostrom, N., Superintelligence (2014); Tegmark, M., Life 3.0 (2017); Jung, C.G., Aion: Researches into the Phenomenology of the Self; Cixin Liu, trilogía El Problema de los Tres Cuerpos; Weir, A. (2021), Project Hail Mary; Le Guin, U.K. (1969), The Left Hand of Darkness; Burke, S. (2018), Semiosis; Maldacena, J.M. (1998) sobre correspondencia AdS/CFT.
-
----
-
-## CODA — Txiki
-
-
-Tenía diez años cuando la familia entera se trasladó de San Sebastián a Palma. Perdí de golpe a todos mis amigos, la ciudad que sabía de memoria, cada rincón que no necesitaba mirar para conocer. Me encerré. No hay otra manera de decirlo: dejé de dejar entrar el mundo. Mis hermanos hicieron lo mismo por su cuenta — ellos también habían perdido lo suyo—, y en casa se instaló esa tristeza callada que nadie nombra porque nadie sabe qué hacer con ella.
-
-Entonces un primo de mi madre, cazador, dueño de la mejor perra cazadora de los alrededores, nos ofreció un cachorro. Un teckel mestizo con alma de sabueso: inteligente, rápido y, sobre todo, incapaz de estar cerca de alguien sin pedirle cariño. Mis padres pensaron que nos haría compañía.
-
-Se llamaba Txiki. En semanas era el rey de la casa. En meses, el miembro más querido de la familia. Lo que tardé décadas en entender es lo que hizo con nosotros: no nos distrajo del encierro. Nos obligó a volver a acoplarnos con algo. Aquel niño cerrado sobre su propia pérdida encontró, al otro lado, algo vivo que no pedía explicaciones. Solo presencia.
-
-Txiki murió hace mucho. Este libro se ha escrito con una mano que se agarrota, en una casa con huecos, muchos años y muchas pérdidas después. Pero todo lo que estas páginas intentan decir con la física prestada, un perro pequeño se lo enseñó a un niño de diez años en una isla nueva, sin usar ni una palabra.
-
-Su compañía no tapó aquel duelo. Lo reparó, que es distinto.
