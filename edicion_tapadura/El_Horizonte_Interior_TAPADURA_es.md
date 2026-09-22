@@ -21,8 +21,6 @@ desprendidos de El horizonte interior*
 
 Este volumen reúne la edición de cámara original —los siete movimientos, de la Obertura al Límite, junto con el ensayo sobre el espejo sin profundidad y su aparato final— y le añade tres movimientos que, en la edición completa de este libro, aparecían como piezas independientes tras el cuerpo principal: El diapasón invisible, sobre la fe y el entrelazamiento vertical; El ojo de un solo color, sobre el fanatismo político y el horizonte colectivo; y La realidad fractal, sobre la creación anidada y la pregunta de quién contiene a quién. Cada uno conserva su propio aparato —obertura, ensayo, poemas, epílogo, glosario mínimo y notas— tal como aparece en la edición completa.
 
-No se incluye la versión en cómic de esta misma hipótesis, publicada por separado.
-
 ---
 
 ## OBERTURA — La costumbre del agua

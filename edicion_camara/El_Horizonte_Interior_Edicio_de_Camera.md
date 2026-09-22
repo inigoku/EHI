@@ -21,8 +21,6 @@ despresos de L'horitzó interior*
 
 Aquest volum reuneix l'edició de cambra original —els set moviments, de l'Obertura al Límit, amb l'assaig sobre el mirall sense profunditat i el seu aparat final— i hi afegeix tres moviments que, a l'edició completa d'aquest llibre, apareixien com a peces independents després del cos principal: El diapasó invisible, sobre la fe i l'entrellaçament vertical; L'ull d'un sol color, sobre el fanatisme polític i l'horitzó col·lectiu; i La realitat fractal, sobre la creació niuada i la pregunta de qui conté qui. Cadascun conserva el seu propi aparat —obertura, assaig, poemes, epíleg, glossari mínim i notes— tal com apareix a l'edició completa.
 
-No s'hi inclou la versió en còmic d'aquesta mateixa hipòtesi, publicada per separat.
-
 ---
 
 ## OBERTURA — El costum de l'aigua
