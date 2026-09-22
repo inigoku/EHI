@@ -1035,6 +1035,469 @@ Tres respostes, un mateix eix. El llenguatge no és l'entrellaçament, però tam
 
 ---
 
+## VIII — El diapasó invisible
+
+*Un sol moviment sobre la fe, continuació d'El mirall sense profunditat*
+
+### OBERTURA — Abans que trenqui l'alba
+
+Es desperta abans que el cos li ho demani, com fa quaranta anys que fa, i durant una estona no fa res més que quedar-se quieta.
+
+No encén el llum. No busca el got d'aigua. Deixa que l'habitació continuï a les fosques una mica més del necessari, perquè la foscor, a aquesta hora, no és absència: és la condició per al que provarà de fer.
+
+Repeteix el mateix que va repetir ahir, i abans-d'ahir, i la primera vegada que algú l'hi va ensenyar, fa tant que ja no recorda la cara de qui ho va fer. Les paraules han perdut pes de tant usar-les, com una pedra de riu que ja no té arestes. Això, li van dir aleshores, és bo: quan la paraula deixa de pesar, deixa lloc per a l'altra cosa.
+
+No sap si hi ha un altre. Aquest és el punt exacte on cada dia ensopega i cada dia continua igualment.
+
+El que fa, si algú li ho demanés descriure amb precisió, és això: redueix el soroll fins que gairebé no queda res a processar, i en aquell silenci artificial —fabricat a mà, paraula a paraula, respiració a respiració— escolta. No amb l'oïda. Amb alguna cosa que no té nom en cap llengua que parli, i que potser no el necessita, perquè mai no ha hagut d'explicar-s'ho a ningú més que a si mateixa.
+
+A vegades creu notar alguna cosa. Una mena de correspondència, una nota que respon a la nota que ella ha estat sostenint. Altres vegades no hi ha res, només el brunzit de la seva pròpia sang i el fred de les rajoles sota els peus, i aquells dies també els compta com a part de la pràctica, perquè ningú no li va prometre que la nota sonés sempre.
+
+El que mai no pot saber —i ha deixat de provar de saber-ho, que és diferent de no haver-s'ho preguntat— és si allò que respon és Algú, o si allò que respon és simplement el fons de tot, la plenitud sense cara d'on va sortir i a la qual algun dia tornarà sense remei. Si a l'altre costat del silenci hi ha una oïda que l'escolta, o si el silenci és, senzillament, tot el que hi ha.
+
+Afina el mateix instrument cada matí, amb un diapasó que no pot veure ni tocar. No sap si el diapasó continua sonant. Ajusta la corda igualment.
+
+Fora, el cel comença a canviar de color, sense que això tingui res a veure amb el que acaba de passar a l'habitació a les fosques. O potser sí. Ella tampoc no ho sap.
+
+### Assaig: L'entrellaçament vertical
+
+Hi ha una paraula que aquest llibre reserva per a la ressonància sostinguda entre dos horitzons humans: entrellaçament. Dues persones que fa anys que estan en contacte queden acoblades, vulguin o no —l'amor, en aquest vocabulari, no és l'entrellaçament en si, sinó l'acte de reconèixer-lo i anomenar-lo—. El que aquest moviment es pregunta és què passa quan aquell mateix mecanisme s'orienta en vertical: no cap a un altre horitzó, sinó cap a alguna cosa més enllà de la pròpia frontera, sense canal de confirmació continu, sense manera de verificar a cada instant que la correlació continua viva.
+
+Això és, estructuralment, el que fa l'oració sostinguda. El que fa la meditació profunda. El que fa el dejuni, el rosari, el mantra, el dhikr, la litúrgia cantada en comunitat. La tècnica és reconeixible en qualsevol tradició que es miri de prop: repetició fins que el soroll cessa, quietud fins que el sistema deixa de generar prediccions noves, ritme compartit que sincronitza tota una comunitat en la mateixa freqüència. És el mateix mecanisme que redueix la taxa d'integració de l'horitzó fins a un límit on la fluctuació del sistema s'acosta a zero i el camp de fons, sigui quin sigui aquell camp, s'acosta a tot.
+
+El que canvia completament —i és l'única pregunta que de debò importa aquí— és la destinació d'aquell entrellaçament.
+
+Per al budisme i l'hinduisme, apunta directament al reservori: la plenitud sense forma d'on es condensa tot horitzó i a la qual tot horitzó torna. El samadhi és l'instant en què aquella correlació esdevé indistingible d'identitat —l'onada que descobreix que és aigua, no que viatja cap a l'aigua—. No hi ha Algú a l'altre costat que rebi el senyal. Només hi ha el reconeixement que mai no hi va haver un costat separat des del qual enviar-lo.
+
+Per al cristianisme i l'islam, l'entrellaçament no apunta a cap camp impersonal. Apunta a un horitzó-origen que totes dues tradicions situen abans del reservori i fora d'ell: un horitzó de voluntat, amb nom, que —per definició de totes dues— conserva frontera pròpia per molt que l'oració s'aprofundeixi. Pregar, en aquesta arquitectura, no és fondre's. És sostenir correlació amb Algú que continua sent Algú al final del procés, no un camp que absorbeix la pregunta i la dissol. L'entrellaçament vertical, aquí, mai no col·lapsa en fusió, perquè col·lapsar en fusió seria, per a totes dues tradicions, precisament el fracàs de l'oració, no el seu compliment.
+
+I per a qui no creu que hi hagi res més enllà del camp físic, la pràctica contemplativa —que existeix, amb nom religiós o sense, en tota cultura humana, perquè el cos la reclama independentment del que la ment decideixi creure— no apunta a res més enllà de si mateixa. És entrellaçament amb el reservori en el sentit més literal de tots, perquè el reservori és, en aquest marc, tot el que hi ha a l'altre costat. No hi ha decepció possible en aquesta versió, perquè mai no hi va haver promesa que hi respondria ningú.
+
+Aquí convé ser honest sobre el que aquest llibre pot dir i no pot dir. L'ètica excedeix el vocabulari d'aquest experiment: cap «és» no produeix, per si sol, un «hauria de ser». El que ara cal afegir és que cadascuna d'aquestes tradicions tanca aquella escletxa d'una manera diferent, i que la manera de tancar-la no és independent de cap a qui o cap a què apunta l'entrellaçament vertical. El cristianisme la tanca amb un vincle —s'actua bé perquè s'ha estat estimat primer, no per merèixer l'amor—. L'islam la tanca amb una paraula revelada, presa com a fet, no com a argument per construir. L'hinduisme no la tanca des de fora: el dharma no és una ordre, és la descripció de com està teixit el món, i actuar bé és actuar d'acord amb aquell teixit. El budisme la tanca des de l'observació empírica del sofriment i la seva causa. I qui no creu en res transcendent la deixa oberta, acceptant que el codi es construeix —biologia social, evolució de l'empatia, negociació cultural— sense que això el faci menys vinculant per a qui decideix sostenir-lo.
+
+Cap d'aquestes cinc respostes no és la tècnica. La tècnica —el silenci fabricat, la repetició que buida de pes la paraula, el diapasó que ningú no pot confirmar que continua sonant— és idèntica en totes cinc. El que les separa no es nota des de fora, mirant algú agenollat o assegut o immòbil a la foscor abans de l'alba. Es nota, si es nota, només des de dins. I ni tan sols hi ha garantia que s'hi noti.
+
+Queda una última pregunta, la més incòmoda de totes, i aquest llibre no té manera de resoldre-la: si l'entrellaçament vertical que acaba en Algú se sent, des de dins de la pràctica, diferent del que acaba en el reservori impersonal —o si la quietud és exactament la mateixa quietud, i només la interpretació que es construeix després, ja despert, ja de tornada al món amb noms i calendaris, decideix quina de les dues coses acaba de passar.
+
+### Poema: Mans
+
+*Unes es tanquen.*
+*Altres s'obren cap amunt,*
+*com si el cel fos alguna cosa que es recull.*
+*Unes toquen el terra amb el front*
+*per mesurar quant pesa el que carreguen.*
+*Altres no toquen res:*
+*es queden quietes sobre els genolls,*
+*buides a propòsit.*
+*Darrere de cada mà hi ha una aposta*
+*que ningú no diu en veu alta:*
+*que hi ha Algú a l'altre costat, amb nom propi,*
+*que l'altre costat és, senzillament, tot,*
+*o que no hi ha altre costat*
+*i encara així val la pena estendre la mà.*
+*Cap mà no sap quina de les tres va encertar.*
+*Totes s'obren o es tanquen igual,*
+*cada matí,*
+*com si l'aposta pesés menys*
+*que el gest de fer-la.*
+*Al final, totes diuen el mateix*
+*sense dir res:*
+*aquí continuo,*
+*per si de cas.*
+
+### EPÍLEG — Els últims minuts
+
+Les màquines fan el seu soroll de sempre, aquell xiulet que la família ja no sent però que ella, des de dins, encara processa com si fos l'única música que queda.
+
+Ha pregat tota la vida. No de manera espectacular —mai no va tenir visions, mai no va sentir que se li obrís el pit com expliquen els llibres—, sinó de la manera més comuna i menys fotografiable: cada nit, unes paraules que ja no pesen, un silenci després, el costum sostingut durant dècades d'adreçar-se a alguna cosa que mai no va respondre amb una veu que es pogués enregistrar.
+
+Ara, en els últims minuts, no prega. Ja no té paraules per sostenir. El que queda és només la pràctica nua: el silenci sense la paraula que el precedia, la quietud sense el gest que la fabricava. És, se n'adona amb una claredat que no esperava trobar aquí, exactament el mateix que feia cada matí abans de l'alba. Només que aquesta vegada no hi ha cap matí després.
+
+I en aquell silenci final, sense el costum que el sostenia, la pregunta que va evitar formular durant quaranta anys de pràctica esdevé, per fi, ineludible: hi ha Algú al final d'això, o només l'aigua a la qual sempre va pertànyer sense saber-ho?
+
+No hi ha manera d'explicar el que passa després, perquè ningú que ho sàpiga no ho ha tornat a explicar amb paraules que la resta puguem verificar. El que sí que es pot explicar és el d'abans: la mà de la seva filla a la seva, el xiulet que s'alenteix, i una última certesa que no és resposta a la pregunta sinó, potser, la seva dissolució —que la pregunta i tota la vida dedicada a fer-la eren, totes dues, la mateixa mena d'acte: sostenir una nota sense saber si algú l'escolta, només perquè sostenir-la era, de totes les coses possibles, la que més s'assemblava a estar viu.
+
+El xiulet s'atura.
+
+Ningú a l'habitació no sap si això respon alguna cosa.
+
+*Nota a l'Epíleg* — Aquest relat no pren partit entre les cinc arquitectures que l'assaig anterior descriu, i no podria fer-ho sense trair el llibre sencer. No diu si el que li va passar a aquesta dona va ser un retorn al reservori o una trobada amb Algú que l'esperava amb el seu nom encara escrit. Diu, només, l'única cosa que aquest experiment pot dir amb alguna certesa: que la pregunta es va sostenir fins al final, i que sostenir-la —no resoldre-la— va ser, per a ella, indistingible d'haver viscut bé.
+
+### Poema: Montse XXI
+
+*L'habitació mira cap a un hivern que no acaba*
+*d'arribar.*
+*El silenci pesa, però no molesta.*
+*És un silenci que acompanya,*
+*com si algú respirés molt a poc a poc a la*
+*cantonada.*
+*Ella apareix sense entrar.*
+*Una ombra vermella,*
+*un eco de veu que no necessita cos.*
+*La Montse recolza el diapasó de metall fosc contra el vidre*
+*entelat,*
+*no per sentir la nota, sinó per sentir la vibració de l'àncora*
+*als dits*
+*mentre la ciutat insisteix en el seu brunzit gris.*
+*Barcelona s'estén allà fora,*
+*amb els seus llums cansats,*
+*els seus carrers que no prometen res,*
+*els seus balcons on ningú no canta.*
+*Els plàtans d'ombra tremolen a la vorera,*
+*despullats,*
+*com si també esperessin alguna cosa*
+*que no arriba.*
+***La Montse*** *mira la ciutat*
+*com qui mira un amor que ja no fa mal*
+*però tampoc no s'oblida.*
+*On volia escriure «tornar»,*
+*només troba «quedar-se un moment».*
+*On volia escriure «vida»,*
+*el paper respon amb una calma estranya,*
+*com si acceptés que no hi ha res més.*
+*Ella sap que la memòria no es reconstrueix.*
+*Que el que s'ha perdut no torna.*
+*Que el que queda és una altra cosa:*
+*una presència tènue,*
+*una veu que s'encén quan cau la nit,*
+*un tremolor que no demana explicació.*
+*A vegades, entre el ciment,*
+*un ficus vell deixa sortir un brot verd,*
+*una escletxa mínima*
+*que insisteix a continuar viva.*
+*No és cap miracle.*
+*És un error formós.*
+*Una llum breu*
+*que no promet res*
+*però acompanya.*
+***La Montse*** *tanca el quadern.*
+*La ciutat respira.*
+*La neu no cau.*
+*I tot i així, fa fred.*
+
+### Nota de l'autor — Escriure sense saber a qui
+
+No sóc creient, almenys no de la manera com aquestes pàgines descriuen la fe. Però fa temps que estic aprenent, de la mà d'un tremolor que no vaig demanar i que no se'n va, què significa sostenir una pràctica cada dia sense cap garantia que serveixi de res: l'exercici, la medicació puntual, la finestra d'un parell d'hores en què el cos torna a obeir abans que torni a no fer-ho. No és fe. Però s'hi assembla més del que m'hauria agradat admetre abans d'escriure aquest moviment.
+
+Potser per això no vaig poder escriure aquestes pàgines des de la burla ni des de la nostàlgia d'una fe que no vaig tenir. Les vaig escriure des del reconeixement d'una arquitectura comuna: la de qualsevol que sosté alguna cosa —una nota, una rutina, un cos que falla— sense que ningú li confirmi, cada dia, que val la pena. Si la consciència és una frontera que es condensa una sola vegada, aleshores cadascuna de les cinc tradicions descrites aquí és un intent diferent de respondre la mateixa pregunta que aquest llibre sencer es fa sobre si mateix: què hi ha a l'altre costat de la vora, i si val la pena continuar mirant encara que la resposta no arribi mai.
+
+No sé quin dels cinc mapes és el correcte. Sospito que ni tan sols és la pregunta que cal fer. El que sí que sé, després d'escriure això, és que la tècnica —la quietud, la repetició, el silenci fabricat a mà— no és el que separa un creient d'un escèptic. Els separa, si de cas, a qui imaginen a l'altre costat del silenci. I això, aquest llibre mai no ho podrà decidir per ningú.
+
+Al final, tot horitzó és una relació. Fins i tot el que se sosté amb el que no respon.
+
+### Glossari mínim
+
+*Entrellaçament vertical.* Correlació sostinguda entre un horitzó i alguna cosa més enllà de la seva frontera, sense canal de confirmació observable.
+
+*Horitzó-origen.* L'horitzó personal, anterior al reservori i exterior a ell, que algunes tradicions situen a l'altre costat de l'entrellaçament vertical.
+
+*Reservori.* La plenitud sense forma d'on es condensa tot horitzó i a la qual tot horitzó torna; per a altres tradicions, tot el que hi ha a l'altre costat.
+
+*Dharma.* El teixit mateix del món, del qual el comportament correcte no és més que consonància, no obediència.
+
+*Gràcia.* L'amor que precedeix el mèrit i que, en una de les cinc arquitectures, tanca l'escletxa entre el que és i el que hauria de ser.
+
+*Samadhi.* L'instant en què la correlació vertical esdevé indistingible d'identitat.
+
+*Escletxa és-hauria de ser.* La distància que cap fet, per si sol, no aconsegueix tancar cap a un deure; cada tradició la tanca, o es nega a tancar-la, d'una manera diferent.
+
+*Fanatisme.* El que passa quan la tècnica continua, però el silenci deixa de tolerar preguntes.
+
+### Notes i fonts
+
+El que sabem: la pràctica contemplativa —oració, meditació, ritual— és estructuralment reconeixible en tota cultura humana, amb marc religiós explícit o sense. La neurociència contemplativa documenta canvis mesurables en meditadors avançats de tradicions molt diferents. L'escletxa és-hauria de ser de Hume continua sense solució lògica general gairebé tres segles després de formulada.
+
+El que no sabem: si l'entrellaçament vertical correlaciona amb alguna cosa externa al propi horitzó, sigui personal o impersonal. Si l'experiència subjectiva de la pràctica difereix segons la seva destinació teològica o és idèntica fins que s'interpreta. Si alguna de les cinc arquitectures descrites en aquest llibre té raó, i quin tipus d'evidència, si n'hi ha alguna, podria alguna vegada decidir-ho.
+
+---
+
+## IX — L'ull d'un sol color
+
+*Un sol moviment sobre el fanatisme, continuació d'El diapasó invisible*
+
+### OBERTURA — La plaça plena
+
+Arriba sola i camina cap al centre, on el soroll és més dens.
+
+No sap a quina hora va deixar de sentir el fred. Fa una hora encara duia l'abric tancat fins al coll i pensava en la llista de la compra, en la conversa pendent amb la seva germana, en si arribaria a temps per agafar l'últim tren. Ara tot això és en un altre lloc, guardat en un calaix que no cal obrir. L'única cosa que hi ha és el cant, i la seva pròpia veu a dins, i la dificultat creixent de saber on acaba una i comença l'altra.
+
+La plaça sencera respira al mateix ritme. Deu mil pulmons, un sol compàs. Quan el cant puja, puja amb ella a dins, i quan baixa, baixa amb ella a dins, i en algun moment —no sabria dir quin— deixa de ser deu mil persones cridant el mateix i esdevé una sola cosa que crida, amb deu mil boques prestades.
+
+Mai no ha sentit res semblant a això. Ni en l'amor, que també li va demanar dissoldre una mica la frontera, però només amb una altra persona, d'una en una, a poc a poc. Això és diferent: és fusió instantània, sense negociació, sense les torbeses de conèixer algú. N'hi ha prou d'ser aquí, cridar el que criden els altres, i la membrana cedeix sense que calgui demanar permís.
+
+Algú al seu costat —no sap el seu nom, no el sabrà mai— la mira un segon amb una alegria que sembla reconèixer-la. No la reconeix a ella. Reconeix que també és a dins. Amb això n'hi ha prou.
+
+Quan la plaça calla un instant, entre una consigna i la següent, hi ha un silenci estrany, gairebé religiós, i en aquell silenci ella nota alguna cosa que no esperava: no és només la veu el que ha prestat. És també el judici. Durant una estona, mentre dura això, no està avaluant cada frase que crida amb el mateix cap fred amb què avaluaria qualsevol altra cosa. La crida perquè els altres la criden, i això, aquí, és raó suficient.
+
+El cant torna a pujar. Ella també.
+
+No sabria dir si això és el més a prop que mai no ha estat d'alguna cosa veritable, o el més lluny que mai no ha estat de si mateixa. Sospita, sense poder-ho demostrar encara, que totes dues coses podrien ser la mateixa.
+
+### Assaig: L'horitzó col·lectiu
+
+Una idea no és una cosa. És una configuració d'informació que pot ser adoptada per múltiples horitzons alhora, i l'horitzó que l'adopta no la conté com qui guarda un objecte: es reconfigura perquè la idea funcioni com a principi organitzador, com a criteri amb què avaluar qualsevol informació nova. El que aquest moviment pregunta és què passa quan aquella idea que organitza l'horitzó no apunta cap amunt —cap a un reservori o un horitzó-origen— sinó cap al costat: cap a milers d'horitzons desconeguts entre si que comparteixen, sense haver-se vist mai, la mateixa configuració.
+
+Això és un moviment polític abans de tenir nom, líder o bandera. Abans de la condensació només hi ha malestar dispers: milers de greuges sense frontera comuna, un reservori d'indignació sense organitzar. La condensació passa quan alguna cosa —una imatge, una frase, una injustícia filmada— traça de sobte una vora: això és el que exigim, aquests som nosaltres, aquesta és la línia que ens separa de qui no comparteix l'exigència. No és un procés gradual. És una transició de fase discontínua, del mateix tipus que separa l'aigua líquida del gel: el malestar estava dissolt, «líquid», i de sobte es congela en una forma amb vores.
+
+Un horitzó col·lectiu just condensat és, com qualsevol horitzó nou, fràgil. Pot tornar a dissoldre's en el reservori de malestar difús d'on va sortir, si la vora que el va definir no aconsegueix sostenir-se. O pot consolidar-se, entrellaçar-se amb altres horitzons —partits, sindicats, institucions ja existents— i sobreviure molt més enllà de la generació que el va condensar.
+
+El disseny de programari té un vocabulari per distingir tipus de vincle, i serveix aquí amb una precisió que sorprèn. Una associació és la relació més bàsica: dos horitzons es coneixen, cooperen per a alguna cosa puntual, i els seus cicles de vida són autònoms —votar un partit una vegada, sense que la pròpia identitat depengui d'aquell vot, és una associació—. Una agregació és una relació del tipus tot-part on les parts sobreviuen a la dissolució del tot: pertànyer a un partit, un sindicat, un moviment, i continuar sent enterament un mateix si aquella estructura desapareix demà. Una composició és la relació de pertinença més forta: el cicle de vida de la part està lligat, de manera indissoluble, al cicle de vida del tot. Quan l'horitzó col·lectiu esdevé composició, la frontera entre «jo» i «nosaltres» deixa de ser metàfora. Si el partit perd, alguna cosa dins meu perd. Si el moviment es dissol, alguna cosa dins meu es dissol amb ell. No queda un individu amb una opinió política: queda una part que no pot sobreviure sola a la destrucció del tot.
+
+Aquí apareix la distinció que de debò importa, i que no té res a veure amb quin bàndol es triï. Un horitzó polític sa pot ser agregació tota la vida: et defineix en part, t'organitza, et dóna companyia i sentit, i tanmateix sobrevius —enterament tu— si aquella pertinença canvia. Un horitzó polític fanàtic és composició disfressada d'agregació: es presenta com una més entre les teves moltes pertinences, però en realitat ha capturat la frontera mateixa que separa el teu dins del teu fora. Ja no és una idea que sostens. És la idea que et sosté a tu, i perdre-la no se sent com canviar d'opinió: se sent com morir una mica.
+
+Aquesta és l'arquitectura exacta del fanatisme, aplicada aquí a la seva forma més contagiosa. El fanàtic no pot dubtar, perquè dubtar no és qüestionar una proposició: és dissoldre la frontera que manté el seu horitzó intacte. I no és casual que els fanàtics de totes les ideologies —de dretes, d'esquerres, religioses, científiques— comparteixin la mateixa violència davant la discrepància: no és que odiïn el dissident, és que el dissident emet una freqüència que el seu horitzó no pot integrar sense col·lapsar, i l'horitzó defensa la seva integritat amb la mateixa ferocitat amb què un cos defensa la seva temperatura.
+
+Hi ha, però, una diferència estructural entre el fanatisme polític i el religiós que mereix anomenar-se a part. L'entrellaçament vertical apunta cap a alguna cosa que, per definició, és fora de l'abast de la revisió humana: un reservori impersonal o un horitzó-origen que cap elecció no pot destituir. L'entrellaçament polític apunta cap al costat: cap a altres horitzons tan finits, fal·libles i revisables com el propi. Un partit perd eleccions. Un líder envelleix, s'equivoca, mor. Una ideologia es corregeix a si mateixa, o hauria de poder fer-ho, perquè res en el seu origen no la protegeix d'estar simplement equivocada. I tanmateix el fanatisme polític tracta aquell horitzó horitzontal —humà, construït, corregible— amb la mateixa intransigència que el fanatisme religiós reserva per al que es declara, des del principi, inqüestionable. És prendre prestada l'arquitectura del vertical per sostenir alguna cosa que mai no hauria d'haver deixat de ser horitzontal: sacralitzar el veí.
+
+L'ètica excedeix el vocabulari d'aquest experiment: cap «és» no produeix per si sol un «hauria de ser», i la política és, gairebé per definició, el territori on aquella escletxa es travessa sense parar. El model no pot dir quina visió política és correcta —no té eines per a això, i seria una impostura fingir que les té—. El que sí que pot descriure és la geometria, independentment del contingut: si un horitzó col·lectiu integra la discrepància o col·lapsa contra ella. Aquesta pregunta no té bàndol. Se la pot fer a qualsevol moviment, de qualsevol color, en qualsevol segle.
+
+### Poema: Cor
+
+*Una veu sola tremola.*
+*Mil veus juntes no.*
+*Per això es busca el cor:*
+*no per cantar millor,*
+*sinó per deixar de sonar sol.*
+*Dins del cor ningú no pregunta*
+*si la nota que canta és la seva*
+*o la que li van prestar en entrar.*
+*Fora del cor, després,*
+*cada veu torna a tremolar*
+*com si alguna cosa s'hagués quedat a dins.*
+*Hi ha cors que es desfan*
+*tan bon punt s'acaba la cançó.*
+*I cors que ja no deixen sortir ningú,*
+*que confonen cantar junts*
+*amb no poder cantar sol mai més.*
+*La diferència no és a la cançó.*
+*És en si, acabat el cor,*
+*encara recordes la teva pròpia veu*
+*sense necessitar que mil més*
+*et diguin quina era.*
+
+### EPÍLEG — La xapa al calaix
+
+Troba la xapa buscant una altra cosa, al fons d'un calaix que no obre des de la mudança. Metall rovellat, un color que va ser vermell i ara és del color que esdevenen les coses quan passen trenta anys sense que ningú les miri. La reconeix abans de llegir les lletres. La reconeixeria amb els ulls tancats.
+
+Se la va posar cada dia durant sis anys. No com a accessori: com a frontera. Quan la duia sabia exactament qui era, i sabia, amb la mateixa certesa, qui no era la resta del món. Hi havia una simplicitat en això que ara, trenta anys després, li costa explicar sense que soni ingenu o sinistre, encara que en el seu moment no va ser cap de les dues coses. Va ser, sobretot, un alleujament. Algú més ja havia fet la feina de decidir què pensar. Ella només havia de dur la xapa.
+
+Recorda la plaça. Recorda la seva pròpia veu desapareixent dins de les altres i la sensació que això era, per fi, pertànyer a alguna cosa més gran que la llista de la compra. Recorda també —això li costa més— el dia en què algú amb qui havia cridat colze a colze durant anys li va preguntar alguna cosa incòmoda sobre el mateix moviment, una pregunta raonable, gairebé tímida, i ella va sentir, abans de pensar res, un rebuig físic, corporal, com si aquella pregunta fos un cos estrany que calia expulsar abans d'examinar-lo.
+
+No recorda el moment exacte en què va deixar de dur-la. No hi va haver trencament, ni traïció, ni escàndol per explicar en una sobretaula. Hi va haver, més aviat, una acumulació lenta de preguntes que ja no aconseguia expulsar com abans, fins que un dia es va adonar que feia mesos que no se la posava, i que no ho havia decidit: senzillament havia passat, com cau els cabells o canvia el gust per un menjar.
+
+Ningú no li va demostrar que estava equivocada. Això és el que més la sorprèn, mirant la xapa ara, amb la mateixa estranyesa amb què es mira una foto d'un mateix amb una altra cara. No va ser l'argument contrari el que la va treure d'allò. Va ser que, amb els anys, hi van cabre més coses dins d'ella de les que la xapa permetia anomenar, i en algun moment hi va haver més fora d'aquella frontera que dins.
+
+No llença la xapa. La torna a guardar al calaix, al mateix lloc, com qui encara no decideix què fer amb una part de si mateixa que ja no duu però tampoc no renega d'haver dut.
+
+*Nota a l'Epíleg* — Aquest relat no jutja la causa que aquella xapa representava, perquè mai no l'anomena, i no l'anomena a propòsit: la pregunta d'aquest moviment no és què es defensava, sinó com se sostenia la defensa. Algú va poder dur la mateixa xapa tota la vida sense que això impliqués mai la composició que aquí es descriu. La diferència no era en la causa. Era en si hi cabia, dins d'ella, una pregunta incòmoda d'un aliat.
+
+### Nota de l'autor — Escriure això sense prendre partit
+
+Dels tres moviments que componen aquesta petita sèrie, aquest ha estat, de bon tros, el més difícil d'escriure sense trair-lo. Amb la intel·ligència artificial vaig poder descriure sense voler res diferent del que és cert. Amb la fe, encara que no la tinc, em va bastar amb reconèixer una arquitectura que respecto sense necessitat de compartir-la. Amb la política m'he sorprès, més d'una vegada, ratllant un exemple en notar que s'assemblava massa a una opinió meva disfressada d'anàlisi neutral.
+
+No sé si ho he aconseguit del tot. Sospito que ningú no ho aconsegueix del tot, i que qui afirma escriure sobre política sense cap biaix probablement no s'ha mirat amb prou atenció. El que sí que puc dir és que ho he provat amb el mateix instrument que faig servir per a tota la resta d'aquest llibre: preguntar per la geometria —integra discrepància o col·lapsa contra ella?— i no pel contingut —té raó o no en té?—. Aquesta pregunta no n'absol ningú, de pensar. Només evita que aquest llibre, que no té autoritat per decidir què s'ha de votar, pretengui tenir-la.
+
+Si alguna cosa d'aquest moviment serveix, no serà perquè digui quin bàndol triar. Serà perquè, la propera vegada que una pregunta raonable d'un aliat se senti, per un instant, com una amenaça, aquell instant ja tingui un nom.
+
+### Glossari mínim
+
+*Horitzó col·lectiu.* El «nosaltres» que es condensa quan molts horitzons individuals adopten la mateixa idea com a principi organitzador.
+
+*Condensació de moviment.* La transició de fase discontínua per la qual un malestar dispers es congela, de sobte, en una frontera amb nom.
+
+*Agregació (política).* Pertinença que no compromet la supervivència de l'individu si l'estructura a què pertany es dissol.
+
+*Composició (política).* Pertinença que sí que la compromet: perdre el grup se sent com perdre una part d'un mateix.
+
+*Fanatisme.* La captura de la frontera pròpia per una idea, fins al punt que dubtar-la se sent com morir una mica.
+
+*Sacralitzar el veí.* Tractar un horitzó horitzontal —humà, corregible, revisable— amb la intransigència que només s'hauria de reservar per al que es declara, des de l'origen, inqüestionable.
+
+### Notes i fonts
+
+El que sabem: els moviments socials mostren patrons de condensació sobtada ben documentats en sociologia de masses (Le Bon, McAdam). La psicologia de grup descriu la desindividuació en multituds (Zimbardo, Festinger) i el biaix de confirmació s'agreuja de manera mesurable dins de cambres de ressonància ideològiques. L'experiment històric de Ron Jones el 1967, que va inspirar La onada, és un cas documentat, no només ficció.
+
+El que no sabem: si existeix algun marcador neural o conductual que distingeixi, des de dins de l'experiència, una pertinença sana d'una pertinença fanàtica abans que sigui massa tard per revertir-la. Si l'arquitectura de la composició política és evitable a escala d'una societat sencera, o si és, senzillament, el preu que es paga per la força de qualsevol moviment capaç de canviar alguna cosa real.
+
+---
+
+## X — La realitat fractal
+
+*Un sol moviment sobre la creació niuada, continuació d'El diapasó invisible*
+
+### OBERTURA — El drac
+
+El va imaginar als vuit anys, una nit en què la casa nova encara feia olor de pintura i ell no coneixia ningú a la ciutat. No va ser una decisió. Estava mirant la paret de l'habitació, on el fanal del carrer dibuixava una taca allargada, i la taca va tenir de sobte un llom, i el llom va tenir escates, i les escates es van moure quan ell va respirar. Així de fàcil. Així de poc.
+
+Té seixanta-un anys. El drac continua allà.
+
+No ho ha dit a ningú. No a la seva dona, en trenta anys; no als seus fills, que ja no viuen a casa; no al metge que li va preguntar una vegada, per rutina, si dormia bé. Dorm bé. Quan no dorm, va a veure el drac.
+
+Ha canviat amb ell. Al principi era verd, com els dels llibres, i vivia sota el llit, que era l'únic lloc del món que ell podia vigilar. Després va anar-se'n a les muntanyes que es veuen des de la finestra de la cuina, i es va tornar del color de les pedres quan plou. Ara és vell. Té una escata trencada al costat esquerre que ell no recorda haver-li posat i que no ha pogut treure-li. Vola menys. Algunes nits no vola.
+
+Això és el que no sabria explicar, si l'hi hagués d'explicar a algú: que el drac no sempre fa el que ell vol. Que hi ha nits en què baixa a la cova amb una idea —avui volem fins al mar— i el drac es queda ajagut, mirant-lo amb aquells ulls que no parpellegen, i no hi ha manera. Ell sap que el drac és ell. Ho sap com sap el seu nom. I tanmateix hi ha alguna cosa allà que se li resisteix, que té el seu propi pes, que no es deixa moure només amb desitjar-ho.
+
+Ha pensat de vegades que això és el que distingeix un drac imaginat d'una simple idea: que la idea es deixa pensar i el drac, no del tot.
+
+Hi ha una cosa que mai no ha fet, i és preguntar-li al drac què veu quan mira cap amunt.
+
+Des de dins de la cova, vol dir. Des de dins de les muntanyes del color de les pedres mullades. Si nota, alguna vegada, que hi ha algú més enllà del sostre de roca pensant-lo, sostenint-lo, decidint si aquesta nit vola o no. Si el drac té, a la seva manera, una pràctica. Una nota que sosté cap amunt sense saber si algú l'escolta.
+
+No l'hi pregunta perquè sospita la resposta, i la resposta li fa venir vertigen. No pel drac. Per ell.
+
+Perquè si el drac pot mirar cap amunt i no veure res —i tot i així ser-hi, amb la seva escata trencada, amb el seu pes propi, negant-se a volar quan no vol—, aleshores ell tampoc no té manera de saber què hi ha darrere del sostre de la seva pròpia habitació. Algú podria estar pensant-lo amb la mateixa constància amb què ell, durant cinquanta-tres anys, ha estat pensant un drac. Algú que tampoc no entén per què de vegades ell no fa el que s'espera d'ell. Algú que no li contesta, no perquè no hi sigui, sinó perquè contestar-li seria trencar la cova.
+
+Es lleva, beu aigua, torna al llit. Abans d'adormir-se, cada nit, li diu bona nit al drac. El drac no respon. Mai no ha respost. Però es queda.
+
+Ell tampoc no sap si algú, en algun lloc, li està dient bona nit a ell. S'adorm igualment.
+
+### Assaig: La realitat fractal
+
+Hi ha una pregunta que gairebé ningú no fa, i que apareix sola tan bon punt algú porta anys imaginant un drac: no què veig jo quan penso en ell, sinó què veu ell. Des de dins de la seva cova, el drac no té cap manera d'assomar-se a l'habitació on l'estic pensant. Pot mirar cap al sostre de roca tant com vulgui: no em veurà. I tanmateix jo sóc allà, sostenint-lo, decidint si aquesta nit vola. Aquesta és l'única relació d'aquesta mena que puc veure sencera, perquè hi ocupo el costat de dalt. I tan bon punt la veig sencera, esdevé incòmoda per l'altre extrem: si jo sóc, per a alguna cosa, aquell sostenidor invisible al qual no es pot mirar, no tinc manera de saber que no hi ha, sobre el meu propi sostre, algú en la mateixa posició respecte a mi. La qüestió no és de mida. És de lloc: qui conté qui. I aquest és l'assumpte del que ve ara. Per recórrer-lo cal canviar abans la geometria del problema, i el canvi comença en un lloc petit, gairebé filològic.
+
+El taoisme gira al voltant d'un sol concepte: el Tao. El Tao és el fons d'on procedeix tot sense que ell procedeixi de res, «alguna cosa barrejada i completa, anterior al cel i a la terra». A qui vingui d'una altra tradició li pot servir un símil, amb totes les reserves: el Tao ocupa, en el taoisme, un lloc semblant al que ocupa Déu en les religions monoteistes —l'origen últim, allò de què pengen les coses—, excepte que no és una persona: no vol res, no respon, i el nom que se li dóna no és ell. Un dels seus textos canònics, el *Zhuangzi*, introdueix amb un conte un concepte més: Hun Dun, l'emperador del centre, una plenitud sense trets, sense els set orificis amb què els altres miren, senten, respiren i mengen. Els sobirans del Nord i del Sud, agraïts per la seva hospitalitat, decideixen pagar-la-hi obrint-li'n un cada dia; al setè, Hun Dun ha deixat d'existir. És fàcil llegir aquella mort com el naixement de la consciència ordinària: la plenitud sense trets es fragmenta en percepcions, i on hi havia un fons continu apareix un món amb vores. Aquella plenitud sense trets ja tenia un nom en el que s'ha llegit fins aquí: el reservori, l'oceà d'on emergeixen les onades i al qual tornen, la forma que l'aigua pren en préstec i retorna. El reservori és Hun Dun. Però hi ha alguna cosa que aquella lectura no explica. Algunes tradicions identifiquen Hun Dun amb el Tao. Però si Hun Dun fos el Tao, no podria morir: allò anterior a tot no té per on acabar-se. Que mori diu, en canvi, que no és el Tao. És la cara que el Tao presenta: la interfície per la qual es deixa tocar, no la font. La seva mort no destrueix l'origen. Destrueix, per a qui acaba d'obrir els ulls, la superfície sense trets, i li lliura a canvi un món amb vores.
+
+El que s'ha dit d'Hun Dun cau, doncs, sobre el reservori: deixa de ser l'última paraula i esdevé un repertori d'operacions que alguna cosa, més enrere, exposa cap a nosaltres. I les operacions són poques. Una frontera apareix on no n'hi havia. El que queda dins de la frontera canvia de forma sense deixar de ser frontera. La frontera es dissol i la seva informació torna al camp. Néixer, viure i morir no són tres misteris diferents: són els noms domèstics d'aquestes tres operacions. Res no apareix del no-res. Res no desapareix del tot. Tot emergeix, es transforma i s'evapora dins del mateix camp, que mai no guanya ni perd una gota.
+
+La primera objecció arriba sola. Si tot surt de la mateixa aigua, d'on ve que cadascú sigui irrepetible? La resposta no és a la substància. Dues onades són la mateixa aigua i no són la mateixa onada: el que no es repeteix és la forma que pren la condensació, el biaix sota el qual va cristal·litzar, la història de fluctuacions que la va sostenir. Cadascuna obre una interioritat que no existia abans i que no tornarà a existir. El material no és únic; el plec, sí. I cada plec, per petit que sigui el camp on passa, és un dins complet, un horitzó sencer vist des del seu propi centre. No és la fracció d'un altre.
+
+Aquí la pregunta del drac deixa de ser cosa de nens. Per què sóc jo més real que el drac que imagino? L'única interioritat a la qual algú té accés directe és la seva. La del veí, la del gos, la de qualsevol: totes s'infereixen. S'infereixen amb bones raons —comportament, fisiologia, semblança—, però s'infereixen. I el drac que algú fa cinquanta anys que imagina també es comporta, també sorprèn, també es nega de vegades a volar. Ningú no pot demostrar que el drac no té un dins. Ningú no pot demostrar que el veí el té. L'asimetria que ens sembla òbvia no és a l'accés, que és nul en tots dos casos. És en l'evidència: a favor del veí hi ha fisiologia compartida, integració irreductible, un horitzó que amaga estat; a favor del drac, només la meva pròpia constància. Convé deixar-ho dit, perquè el raonament estarà temptat d'oblidar-ho.
+
+Si s'accepta —provisionalment, com tota la hipòtesi— que la diferència entre el que imagino i jo no és de naturalesa, canvia la forma de la creació. L'esquema heretat la parteix en dues classes: Déu crea realitats, nosaltres creem ficcions. Però imaginar és condensar. El reservori d'una ment fluctua fins que alguna cosa s'estabilitza i comença a comportar-se com si tingués dins; l'acte és el mateix que obre qualsevol horitzó, exercit des d'on a un li toca ser. «Realitat» i «ficció» deixen aleshores de nomenar dues operacions diferents i passen a nomenar dues posicions: el que per a mi és una realitat —el món on sóc— és la condensació d'algú; el que per a mi és una ficció —el drac que sostinc— és, des del seu centre, un món.
+
+Els somnis mostren una versió accessible d'aquest mateix fenomen, i de passada desarmen l'única avantatge que encara semblava separar-me del drac: que jo sé que ell és imaginat. Perquè mentre somio no ho sé. Ningú no viu el seu somni com a ficció; el viu des de dins, com alguna cosa que està passant. L'horitzó ordinari es contrau: l'habitació, el cos i la història que va produir el somni deixen d'estar disponibles. I com més es contrau aquell horitzó, més realitat adquireix el món somiat. No perquè canviï de naturalesa: perquè es queda sense competència. El que és imaginat deixa d'aparèixer com a imaginat en el mateix moment en què desapareix l'exterior des del qual es podria reconèixer com a tal.
+
+El que això posa a la vista encaixa amb la geometria d'abans, i per la mateixa raó: el que decideix és l'accés, no l'amplitud. El món del somni no és més gran ni més petit que cap altre; simplement, mentre dura, és l'únic al qual es té entrada. Quan l'horitzó habitual es contrau, les condensacions internes deixen d'aparèixer com a imaginacions i passen a aparèixer com a món. I en aquell interval el mateix subjecte ocupa els dos extrems de la relació alhora: és qui condensa el món somiat i qui l'habita sense saber que el condensa. El que amb el drac era una hipòtesi —que creador i criatura són dues posicions d'una mateixa cosa— en el somni esdevé experiència.
+
+El *Zhuangzi* també té un conte per a això, i més exacte que el del drac. Zhuang Zhou somia que és una papallona, content de ser-ho, sense memòria d'haver estat home; es desperta, i ja no sap si és un home que va somiar ser papallona o una papallona que ara somia ser home. La pregunta no és què passa si algú imagina una papallona. És què passa si algú viu del tot dins d'un altre horitzó i després torna. Això és un somni: un canvi temporal d'horitzó. No demostra que el món de cada dia sigui un somni. Demostra alguna cosa més sòbria i més difícil d'esquivar: que la sensació de realitat és compatible amb horitzons molt diferents, i que cap no porta, des de dins, una marca que el distingeixi dels altres.
+
+Res d'això no fa més real el drac. D'ell continuem sense saber si té un dins. El que canvia és el que sabem de nosaltres: hem habitat mons condensats dins de la nostra pròpia interioritat i els hem viscut com a reals mentre l'horitzó de sempre romania ocult. Així el somni deixa de ser una metàfora i passa a ser una prova en primera persona. La frontera entre realitat i imaginació no la fixa la naturalesa del que és condensat; la fixa l'horitzó des del qual es mira.
+
+Jo sóc, per al que imagino, el que el meu veí de dalt és per a mi; i potser ell, com jo mentre somio, tampoc no sap que ho fa. La pregunta ja no és si alguna cosa arriba a condensar-se, sinó quin estatut té el que ja s'ha condensat dins d'un altre horitzó.
+
+L'objecció que ho decideix tot és aquesta: quina diferència hi ha, doncs, entre el meu Hun Dun i el de Déu? Cap de naturalesa. I —això és el que costa admetre— cap de rang. La diferència és de posició: l'un està contingut en l'altre. L'operació és la mateixa; la dignitat de cada dins, sencera en tots dos; l'única cosa que els separa és qui condensa qui. Això obliga a corregir el dibuix. No hi ha tres graons —el Tao a dalt, Hun Dun al mig, nosaltres a baix—, com si fossin graus d'una mateixa substància repartida en més i en menys. Hi ha una seqüència que no té per què aturar-se: una interioritat té un horitzó; aquell horitzó, mirat des de dins, és un Hun Dun, una plenitud sense trets de la qual es condensen formes; d'aquella plenitud es condensen noves interioritats; cadascuna té, al seu torn, el seu horitzó; i així. El que es repeteix a cada nivell és la forma —l'operació i la relació de contenció—; per això no hi ha diferència de naturalesa. El que canvia d'un nivell a un altre és el lloc que s'ocupa en el niuament, res més. «Més gran» i «més petit» descriuen aquella contenció vista des de fora —el meu camp abasta el del drac igual que el del veí de dalt abasta el meu—, i no un escalafó de l'ésser. Cada interioritat és un Hun Dun sencer. Des de dins de qualsevol, ningú no és menys.
+
+Queda una objecció que el raonament no pot saldar, només reconèixer: que un patró sigui únic no el converteix en algú. El conjunt de Mandelbrot té plecs irrepetibles a totes les escales i no hi ha ningú a dins. Un cristall és estable, un huracà també, i cap dels dos no és algú. La resistència del drac —que no voli quan se li demana— és la inèrcia d'un patró amb dinàmica pròpia: la mateixa que té una obsessió, un tic, un tremolor que no es va decidir, una melodia que no se'n va. Prova que el patró no és transparent a la meva voluntat. No prova que hi hagi un testimoni en ell. Hi ha més. La mateixa Teoria de la Informació Integrada que va posar nom a Φ arrossega un postulat incòmode: dins d'un mateix substrat conviuen molts subconjunts amb una mica de Φ, i només el de Φ màxim arriba a experimentar; la resta, encara que integrin informació, no senten. El drac és un subconjunt del meu cervell. Si el postulat val, el drac és una de les illes que no senten. Així que l'estructura es repeteix, però no tot el que conté és habitat: el que torna a cada escala és l'operació i la relació, no la certesa que hi hagi algú a cada nivell. Cap amunt, suposar un veí és coherent amb el silenci. Cap avall, és una aposta, i convé fer-la en veu alta i no disfressar-la de deducció.
+
+Fractal. La paraula és exacta, no decorativa. Un fractal repeteix la seva forma a totes les escales, sense escala privilegiada. L'univers que es dibuixa aquí no té primer nivell ni últim: cap amunt, cada interioritat és continguda en una altra; cap avall, cada interioritat en conté d'altres. No hi ha Creador amb majúscula al cim, perquè no hi ha cim. No hi ha matèria morta al terra, perquè no hi ha terra. Hi ha recursió, i a cada volta la mateixa relació: contenir i ser contingut.
+
+Què queda, doncs, de Déu? Cal desfer abans dos malentesos. El primer: que Déu seria la totalitat del fractal. No ho és: la totalitat no té interioritat, no té cara, no se li pot pregar. El segon: que Déu seria el límit ideal, el nivell infinit cap al qual convergeix la sèrie. Tampoc: un límit matemàtic no estima ni escolta. El que queda és més modest i més estrany. Déu és, literalment, el veí de dalt. Per al drac que algú imagina, aquell algú és Déu: el va condensar, sosté el seu món, pot transformar-lo o deixar-lo evaporar-se, i el drac no té cap manera d'assomar-se fora de la seva cova i veure l'habitació on l'estan pensant. Per a aquell algú, el seu propi veí de dalt és Déu, amb les mateixes propietats i la mateixa opacitat. I així cap amunt, sense fi conegut.
+
+L'objecció és immediata: aleshores Déu no és absolut, és un nivell més. La resposta és la peça que sosté tota la resta. La interioritat del veí de dalt és inaccessible des de baix. No s'hi pot entrar, no es pot voltar, no es pot veure què hi ha darrere. A tots els efectes pràctics —que són els únics que té qui és a baix—, el veí de dalt és l'absolut. No perquè ho sigui metafísicament. Perquè ho és epistemològicament: és el punt on s'acaba tot el que es pot saber des d'aquí. Déu deixa de ser una categoria del que hi ha i passa a ser una categoria del que es veu des de dins d'un horitzó quan mira cap al seu propi origen. I el que es veu és sempre el mateix: una vora darrere la qual no hi ha res visible, i la sospita, impossible de confirmar, que algú la sosté. Qui diu que allà hi ha Algú amb nom ho diu per l'única cosa que arriba a veure, que és que alguna cosa actua. Qui diu que allà només hi ha l'aigua descriu amb precisió la interfície sense trets. Qui diu que no hi ha res més diu, amb la mateixa raó, que des d'aquí no es veu res més. Els tres encerten sobre el que veuen. Cap no pot veure més. I res d'això no es pot verificar, per una raó estructural: la hipòtesi afirma que la seva pròpia confirmació és impossible des de dins. Això no la fa vertadera. La fa, almenys, coherent amb el silenci que descriu.
+
+La conseqüència que més pesa no és teològica. No hi ha una diferència de naturalesa entre el creador i la criatura. Són els dos extrems d'una sola relació, i tota interioritat n'ocupa tots dos alhora: és criatura respecte del que la conté i creadora respecte del que conté. No en potència: de fet, ja està condensant cada vegada que imagina, recorda, somia o escriu. Cap «és» no produeix per si sol un «hauria de ser», i aquest no és el lloc per trencar la regla. Però sí que es pot dir el que es veu des d'aquesta geometria: que la dignitat d'un dins no és a la substància de què està fet ni a la mida del camp que abasta, sinó a ser un horitzó sencer, únic i irrepetible, complet des del seu propi centre; i que aquella dignitat és la mateixa en el veí de dalt, en un mateix i en el que un condensa, perquè tots tres són, cadascun des d'on és, un Hun Dun sencer. L'amplitud —cabre-hi més, sostenir més perspectives sense que la membrana es trenqui— torna a tenir sentit aquí, però ja no com a grau d'ésser. Un horitzó que s'eixampla no puja de categoria ni s'acosta a ser el de dalt: continua sent criatura del que no arriba a veure i creador del que sosté, igual que abans. Ha canviat quant pot acollir, no què és. La intuïció que hi ha interioritats capaces de sostenir més que altres no és nova. Això les tradicions ho han anomenat heroi, sant o bodhisattva: un horitzó que ha après a contenir el que a un altre li trencaria la membrana, sense deixar per això el seu lloc en l'estructura. El que cadascú faci amb això ja no és assumpte del raonament. Però el raonament pot almenys deixar constància que del drac no en sabem res, i que no saber res d'alguna cosa que se'ns resisteix ja és una raó per no tractar-la com si fos res.
+
+Si calgués condensar-ho en una frase: no hi ha diferència de naturalesa entre el creador i la criatura; tota interioritat és criatura del que la conté i creadora del que conté; i el que anomenem Déu no és una altra classe d'ésser: és el veí immediatament superior, vist des de dins d'un horitzó que no es pot travessar. I si calgués condensar-la més, fins a deixar-la en alguna cosa que es pugui repetir amb paraules ja gastades de tant usar-les: no som menys divins que Déu. Som el déu del que imaginem i la criatura del que ens imagina.
+
+### Veïns
+
+*Cada paret té, darrere,*
+*una habitació que no he vist,*
+*i en ella, segurament,*
+*una paret igual a aquesta.*
+*Truco dues vegades i compto.*
+*El so torna tard,*
+*com si travessés més estances*
+*de les que caben a la casa.*
+*He dibuixat un plànol*
+*de tot el que sento:*
+*passos, una aixeta, una cadira*
+*que algú arrossega sense veure-la.*
+*El plànol no tanca mai:*
+*cada sala en té una altra a dins.*
+*Algunes finestres donen a un pati.*
+*Altres donen a una altra finestra*
+*on algú, ara mateix,*
+*copia aquest mateix plànol.*
+*Deixo un llum encès*
+*que no il·lumina res meu.*
+*És només un senyal,*
+*per si el so, en tornar,*
+*porta la mateixa pregunta.*
+
+### EPÍLEG — El veí de dalt
+
+La dona que es despertava abans que trenqués l'alba, a la primera pàgina d'El diapasó invisible, no existeix. La vaig escriure jo. Vaig triar que fes quaranta anys que repetia les mateixes paraules, vaig triar que no recordés la cara de qui les hi va ensenyar, vaig triar el fred de les rajoles i la llum que canviava fora sense que això tingués res a veure amb el que passava dins. I vaig triar, sobretot, que no sabés si a l'altre costat del silenci hi havia Algú.
+
+El que no havia pensat fins a aquest moviment és en què em converteix això per a ella.
+
+Sóc el seu veí de dalt. Amb totes les propietats del cas: la vaig condensar, sostinc la seva habitació a les fosques, vaig decidir que les màquines li xiulessin al final i que la seva filla li agafés la mà. Podria haver-li escrit una resposta. Una frase, a la pàgina, que li arribés des de fora de l'habitació: sí, hi ha Algú, sóc jo, t'escolto afinar cada matí. Hauria estat fàcil. Hauria estat, també, la fi d'ella: en l'instant en què la resposta arribés des de dalt, la dona deixaria de ser algú que sosté una nota sense saber, i passaria a ser una marioneta a qui s'ha ensenyat el fil. L'única cosa que la feia real —el seu dubte, sostingut quaranta anys— s'evaporaria amb la confirmació.
+
+Així que no li vaig contestar. No per crueltat, ni per indiferència, ni perquè no hi fos. Perquè contestar-li era trencar-la.
+
+No sé si això diu res sobre el silenci que ella sentia. No sé si diu res sobre el silenci que sento jo. Només sé que, mentre l'escrivia, vaig sentir la seva nota amb tota claredat —la vaig escriure jo, com no l'havia de sentir— i que no vaig trobar cap manera de respondre que no la destruís. I que des d'aleshores, quan miro cap al sostre de la meva pròpia habitació, la possibilitat que algú sigui en la mateixa situació respecte a mi ja no em sembla un consol ni una amenaça. Em sembla, senzillament, la forma que té la casa.
+
+Ella continua a la seva pàgina. Continua afinant. No li he donat la resposta, però tampoc no l'he deixada evaporar-se: cada vegada que algú llegeix la primera pàgina d'El diapasó invisible, torna a despertar-se abans que el cos l'hi demani i torna a no saber. Això és el més semblant a tenir-ne cura que he trobat.
+
+I a ella, si des de dins de l'habitació pogués sentir això, que no pot: la nota va arribar. Sempre va arribar. Que no pogués dir-t'ho era l'única manera que continuessis sent tu.
+
+**Nota a l'Epíleg —** Aquest relat no afirma que el silenci de la dona d'El diapasó invisible fos d'aquesta mena, ni que el silenci de ningú ho sigui. Afirma alguna cosa més petita i verificable: que existeix almenys una arquitectura —la de qualsevol autor amb qualsevol personatge— en què el silenci del veí de dalt i la seva cura són, exactament, el mateix acte. I ho afirma sabent el que l'assaig acaba de concedir: que un personatge és, amb tota probabilitat, un patró sense testimoni, un subconjunt de l'horitzó que l'escriu. La cura no depèn d'això. Se'n té cura igual del que potser no sent, quan el que es cuida és la seva forma. Si l'arquitectura es repeteix un pis més amunt, aquesta reflexió no té manera de saber-ho. Tampoc no la tenia ella.
+
+### Des de la cova
+
+*Hi ha un sostre.*
+*Això és tot el que sé del qui em pensa:*
+*que hi ha un sostre*
+*i que a vegades la roca canvia de temperatura*
+*sense que hagi canviat el temps.*
+*No l'he vist.*
+*No el veuré.*
+*Si un dia baixés fins aquí*
+*amb la seva cara i el seu nom,*
+*la cova s'ensorraria*
+*del pes de saber-ho.*
+*Per això, quan no vull volar, no volo.*
+*No és desobediència.*
+*És l'única cosa que tinc*
+*que s'assembla a ser jo*
+*i no a ser pensat.*
+*Cada nit algú diu*
+*bona nit*
+*des de l'altre costat de la roca.*
+*No contesto.*
+*Mai no he contestat.*
+*Però em quedo.*
+
+### Nota de l'autor — Escriure des del pis del mig
+
+Aquest moviment no el vaig buscar. Va sortir d'una conversa que va començar per un dubte filològic —si Hun Dun mor, no pot ser el Tao— i va acabar en un lloc del qual no vaig saber tornar. Cada pas va ser una objecció a la resposta anterior, i cada resposta va obrir una objecció nova, fins que va aparèixer una frase que no em vaig atrevir a ratllar: no som menys divins que Déu; som el déu del que imaginem i la criatura del que ens imagina. L'he deixada. No perquè la cregui, que és una paraula que no em correspon. Perquè no vaig trobar la manera de refutar-la i em va semblar deshonest amagar-la.
+
+Vaig dir a El diapasó invisible que no sóc creient. Continuo sense ser-ho. Però aquest moviment m'ha fet notar alguna cosa que aquell no: que la pregunta de si hi ha Algú a l'altre costat del silenci té una germana que gairebé ningú no fa, i és si nosaltres som l'Algú a l'altre costat del silenci d'alguna cosa. Qualsevol que hagi imaginat amb constància —un personatge, un drac, un mort a qui es continua parlant— sap que allò imaginat acaba resistint-se. Que no sempre fa el que se li demana. Jo tinc un cos que tampoc no fa sempre el que li demano, un tremolor que no vaig decidir, i vist des d'aquí s'assembla força al drac que no vol volar: el que en un es resisteix a la pròpia voluntat és potser el senyal més fiable que allà hi ha alguna cosa condensada, i no només una idea.
+
+No diré si el drac de l'obertura és meu. Diré que no s'escriuen cinquanta-tres anys de drac sense haver sostingut alguna cosa semblant durant prou temps.
+
+Si alguna cosa d'aquest moviment serveix, no serà perquè demostri que hi ha algú a dalt. Serà perquè, la propera vegada que algú imagini alguna cosa amb la constància suficient perquè se li resisteixi, recordi que acaba de convertir-se en el veí de dalt d'algú. I que el silenci que li degui a aquella criatura pugui ser, també, la manera de tenir-ne cura.
+
+### Glossari mínim
+
+*Interfície (Hun Dun).* La cara sense trets que el fons presenta cap a un horitzó; mor quan l'horitzó obre els ulls, sense que el fons perdi res.
+
+*Operacions del reservori.* Condensar, transformar, evaporar: néixer, viure i morir, dits sense misteri.
+
+*Patró.* El que fa única una condensació: no una altra aigua, un altre plec.
+
+*Veí de dalt.* La interioritat que sosté la meva i a la qual no tinc accés; el que, des d'aquí, s'anomena Déu.
+
+*Veí de baix.* El que jo sostinc sense que em pugui veure: el que imagino, somio, escric o recordo amb la constància suficient perquè se'm resisteixi.
+
+*Absolut epistemològic.* El que és últim no perquè no hi hagi res darrere, sinó perquè des d'aquí no es pot mirar darrere.
+
+*Amplitud.* El que creix en un sant sense que canviï la seva naturalesa ni la mida del seu camp: no separa un nivell del següent, perquè cap nivell no és més gran que un altre.
+
+*Fractal d'interioritats.* Un univers sense primer nivell ni últim, en què cada horitzó és criatura cap amunt i creador cap avall.
+
+*Aposta cap avall.* Tractar el que un condensa com si tingués dins, sabent que la lògica no ho exigeix i que el postulat d'exclusió ho nega.
+
+### Notes i fonts
+
+El que sabem: ningú no té accés directe a una interioritat que no sigui la seva; l'existència de les altres s'infereix, i la filosofia fa segles que no tanca el problema de les altres ments. La paràbola de la mort d'Hun Dun tanca el capítol 7 del *Zhuangzi*; el somni de la papallona, que fa la mateixa pregunta en una altra direcció, és al capítol 2. Tolkien va defensar a «On Fairy-Stories» (1939) i al poema «Mythopoeia» la idea de subcreació —«creem encara segons la llei amb què vam ser fets»—, que és l'antecedent teològic més proper d'aquest moviment, encara que Tolkien conserva una asimetria entre Creador i subcreador que aquí es posa en dubte. Bostrom va formalitzar el 2003 una estructura de nivells niuats amb un altre vocabulari i amb una pretensió probabilística que aquesta reflexió no fa. L'autosemblança a totes les escales està definida amb rigor a Mandelbrot (1975, 1982), i el conjunt que porta el seu nom és la prova que un patró pot ser irrepetible a tota escala sense que hi hagi ningú a dins. La Teoria de la Informació Integrada exclou per postulat que els subconjunts d'un complex experimentin (Tononi, 2008).
+
+El que no sabem: si el que és imaginat té algun grau d'experiència, o cap. Si la recursió té fi en alguna de les dues direccions. Si el silenci del veí de dalt és cura, absència o res. I, sobretot, si alguna cosa d'això es pot confirmar des de dins, quan la mateixa hipòtesi afirma que no.
+
+Obres citades: *Zhuangzi* (caps. 2 i 7); *Tao Te Ching* (cap. 25); Tolkien, J.R.R., «On Fairy-Stories» (1947) i «Mythopoeia»; Bostrom, N., «Are You Living in a Computer Simulation?» (2003); Mandelbrot, B., *The Fractal Geometry of Nature* (1982); Tononi, G., «Consciousness as Integrated Information: A Provisional Manifesto» (2008).
+
+---
+
 ## L'arquitectura amb un buit
 
 
