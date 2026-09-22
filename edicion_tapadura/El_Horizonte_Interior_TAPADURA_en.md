@@ -17,6 +17,14 @@ drawn from The Inner Horizon*
 
 ---
 
+## A Note on This Edition
+
+This volume gathers the original chamber edition —the seven movements, from the Overture to the Limit, together with the essay on the mirror without depth and its closing apparatus— and adds three movements that, in the complete edition of this book, appeared as independent pieces after the main body: The Invisible Tuning Fork, on faith and vertical entanglement; The Eye of a Single Color, on political fanaticism and the collective horizon; and The Fractal Reality, on nested creation and the question of who contains whom. Each keeps its own apparatus —overture, essay, poems, epilogue, minimal glossary, and notes— just as it appears in the complete edition.
+
+The comic-book version of this same hypothesis, published separately, is not included here.
+
+---
+
 ## OVERTURE — The Habit of Water
 
 

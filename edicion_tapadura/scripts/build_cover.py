@@ -76,7 +76,7 @@ STRINGS = {
             "significa que haya alguien ahí dentro. Con El espejo sin profundidad, "
             "El diapasón invisible, El ojo de un solo color y La realidad fractal."
         ),
-        interior_pdf=BASE / "El_Horizonte_Interior_TAPADURA_sangre.pdf",
+        interior_pdf=BASE / "El_Horizonte_Interior_TAPADURA_es.pdf",
     ),
     "ca": dict(
         title="L'horitzó interior",

@@ -450,6 +450,14 @@ LANG_STRINGS = {
         'index_heading': "Contents",
         'colophon': ["Finished writing on September 8, 2026,", "in L'Hospitalet de Llobregat."],
     },
+    'es': {
+        'book_title': "El Horizonte Interior",
+        'title_sub': "Un ensayo literario",
+        'edition_sub': "Edición de cámara ampliada",
+        'dedication': ["A Montse y a Gerard,", "por aguantarme todos los días con una sonrisa."],
+        'index_heading': "Índice",
+        'colophon': ["Se terminó de escribir el 8 de septiembre de 2026,", "en L'Hospitalet de Llobregat."],
+    },
 }
 
 def build_story(blocks, lang):
