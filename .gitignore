@@ -18,3 +18,4 @@ edicion_ensayo/imagenes/_*.jpg
 __pycache__/
 *.pyc
 edicion_poesia/*.zip
+edicion_tapadura/imagenes/_*.jpg
