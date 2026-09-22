@@ -368,8 +368,18 @@ class ChapterOpener(Flowable):
     def draw(self):
         draw_wave(self.canv, self.width / 2, 10, 70)
 
+PLATE_BG = colors.HexColor("#0c1013")  # matches the plates' own deep navy-black backdrop
+
 class FullBleedImage(Flowable):
-    """Draws an image covering the entire physical page (for a full-bleed plate)."""
+    """Draws an illustration plate on its own page, scaled to fit entirely
+    within the page bounds (never cropped). Reportlab's drawImage with
+    preserveAspectRatio=True fills the given box and crops the overflow
+    (like CSS background-size: cover) rather than containing the image,
+    which was cutting off parts of the plates (a dog's head, a window
+    frame). This instead computes a contain-fit manually and centers the
+    result, filling any letterboxed margin with a dark backdrop that
+    matches the plates' own background so the margin reads as intentional
+    framing rather than a layout gap."""
     def __init__(self, image_path):
         Flowable.__init__(self)
         self.image_path = image_path
@@ -377,11 +387,22 @@ class FullBleedImage(Flowable):
         self.height = PH
 
     def draw(self):
+        cv = self.canv
+        cv.saveState()
+        cv.setFillColor(PLATE_BG)
+        cv.rect(0, 0, PW, PH, fill=1, stroke=0)
         try:
-            self.canv.drawImage(self.image_path, 0, 0, width=PW, height=PH,
-                                 preserveAspectRatio=True, anchor='c', mask='auto')
+            from reportlab.lib.utils import ImageReader
+            img = ImageReader(self.image_path)
+            iw, ih = img.getSize()
+            scale = min(PW / iw, PH / ih)
+            dw, dh = iw * scale, ih * scale
+            dx, dy = (PW - dw) / 2.0, (PH - dh) / 2.0
+            cv.drawImage(self.image_path, dx, dy, width=dw, height=dh,
+                         preserveAspectRatio=True, mask='auto')
         except Exception as e:
             print(f"Warning: could not draw image {self.image_path}: {e}")
+        cv.restoreState()
 
 # ========== DOCUMENT STRUCTURE ==========
 
@@ -410,27 +431,19 @@ def build_page_templates(book_title):
     return [pt_front, pt_body, pt_opener, pt_image]
 
 # ========== STORY BUILDING ==========
+#
+# Note: this used to offer a "drop cap" first letter on the paragraph
+# opening each section (an inline <font size="30"> on the first
+# character). Reportlab's Paragraph does not reserve extra line height
+# for an inline font run bigger than the paragraph's own leading, so the
+# oversized letter was drawn taller than the space allotted to it and
+# the *next* flowable (the following paragraph) got placed right under
+# the paragraph's normal-sized bounding box - overlapping the bottom of
+# the drop cap whenever that opening paragraph was short. Removed rather
+# than reimplemented, to not reintroduce the same class of bug.
 
-def para_flowable(markup, dropcap=False):
-    if dropcap:
-        markup = make_dropcap_markup(markup)
+def para_flowable(markup):
     return Paragraph(markup, styleN)
-
-def make_dropcap_markup(markup):
-    open_tag, inner = strip_leading_tag(markup)
-    if not inner:
-        return markup
-    first_char = inner[0]
-    rest = inner[1:]
-    cap = f'<font name="Lora-Bold" size="30" color="#3c6e71">{first_char}</font>'
-    return open_tag + cap + rest
-
-def strip_leading_tag(s):
-    m = re.match(r"^(<i>|<b>|<b><i>|<i><b>)", s)
-    if not m:
-        return "", s
-    open_tag = m.group(1)
-    inner = s[len(open_tag):]
     return open_tag, inner
 
 LANG_STRINGS = {
@@ -495,7 +508,6 @@ def build_story(blocks, lang):
     first_h2 = next((idx for idx, b in enumerate(blocks) if b.type == "H2"), 0)
     blocks = blocks[first_h2:]
 
-    just_after_opener = False
     n = len(blocks)
     i = 0
     while i < n:
@@ -518,7 +530,6 @@ def build_story(blocks, lang):
             story.append(Spacer(1, 8))
             story.append(Paragraph(b.content, styleH1))
             story.append(NextPageTemplate("Body"))
-            just_after_opener = True
             i += 1
             continue
 
@@ -527,17 +538,13 @@ def build_story(blocks, lang):
             group = [h3_flow]
             nxt = blocks[i + 1] if i + 1 < n else None
             if nxt is not None and nxt.type == "PARA":
-                group.append(para_flowable(nxt.content, dropcap=False))
+                group.append(para_flowable(nxt.content))
                 i += 1
             story.append(KeepTogether(group))
-            just_after_opener = False
         elif t == "POEMLINE":
             story.append(Paragraph(b.content, stylePoem))
-            just_after_opener = False
         elif t == "PARA":
-            dropcap = just_after_opener
-            story.append(para_flowable(b.content, dropcap=dropcap))
-            just_after_opener = False
+            story.append(para_flowable(b.content))
 
         i += 1
 
