@@ -371,15 +371,11 @@ class ChapterOpener(Flowable):
 PLATE_BG = colors.HexColor("#0c1013")  # matches the plates' own deep navy-black backdrop
 
 class FullBleedImage(Flowable):
-    """Draws an illustration plate on its own page, scaled to fit entirely
-    within the page bounds (never cropped). Reportlab's drawImage with
-    preserveAspectRatio=True fills the given box and crops the overflow
-    (like CSS background-size: cover) rather than containing the image,
-    which was cutting off parts of the plates (a dog's head, a window
-    frame). This instead computes a contain-fit manually and centers the
-    result, filling any letterboxed margin with a dark backdrop that
-    matches the plates' own background so the margin reads as intentional
-    framing rather than a layout gap."""
+    """Draws an illustration plate at true full bleed: the image covers the
+    entire physical page edge to edge, with no visible margin on any side,
+    as a printed plate requires. This means scaling to the LARGER of the
+    two fit ratios (cover, not contain) and cropping whatever overflows -
+    centered, so the crop is symmetric on the two sides that give."""
     def __init__(self, image_path):
         Flowable.__init__(self)
         self.image_path = image_path
@@ -389,15 +385,16 @@ class FullBleedImage(Flowable):
     def draw(self):
         cv = self.canv
         cv.saveState()
-        cv.setFillColor(PLATE_BG)
-        cv.rect(0, 0, PW, PH, fill=1, stroke=0)
         try:
             from reportlab.lib.utils import ImageReader
             img = ImageReader(self.image_path)
             iw, ih = img.getSize()
-            scale = min(PW / iw, PH / ih)
+            scale = max(PW / iw, PH / ih)
             dw, dh = iw * scale, ih * scale
             dx, dy = (PW - dw) / 2.0, (PH - dh) / 2.0
+            p = cv.beginPath()
+            p.rect(0, 0, PW, PH)
+            cv.clipPath(p, stroke=0)
             cv.drawImage(self.image_path, dx, dy, width=dw, height=dh,
                          preserveAspectRatio=True, mask='auto')
         except Exception as e:
