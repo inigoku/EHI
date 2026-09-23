@@ -10,9 +10,11 @@ coverage/
 # Audio narrado generado por scripts/generate_narration.py (binario, regenerable)
 public/audio/*.mp3
 
-# Fondos intermedios de la cubierta de edicion_poesia/ y edicion_ensayo/ (los regenera build_cover.py)
+# Fondos intermedios de la cubierta de edicion_poesia/, edicion_ensayo/ y
+# edicion_cuentos/ (los regenera build_cover.py)
 edicion_poesia/imagenes/_*.jpg
 edicion_ensayo/imagenes/_*.jpg
+edicion_cuentos/imagenes/_*.jpg
 
 # Cachés de Python
 __pycache__/
