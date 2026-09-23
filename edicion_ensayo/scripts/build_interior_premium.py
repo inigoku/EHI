@@ -656,6 +656,11 @@ def _patch_glyph_fallback() -> None:
         markup = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", markup)
         markup = re.sub(r"\*(.+?)\*", r"<i>\1</i>", markup)
         markup = re.sub(r"`([^`]+?)`", r"<i>\1</i>", markup)
+        # Inline LaTeX math (\(E_t\), \(R = X \setminus \bigcup_i E_i\), ...)
+        # in the topological-reading chapters -- render before the glyph
+        # fallback pass so any math symbol Source Serif Pro lacks still
+        # gets wrapped in the fallback font instead of printing a blank box.
+        markup = gbp.render_math_spans(markup)
         return _wrap_missing_glyphs_tagged(markup)
 
     gbp.escape_xml = escape_xml_with_fallback

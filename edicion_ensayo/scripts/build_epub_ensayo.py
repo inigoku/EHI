@@ -51,11 +51,50 @@ def esc(text: str) -> str:
             .replace('"', "&quot;"))
 
 
+# Inline LaTeX math, \( ... \), as used in the topological-reading chapters
+# (e.g. \(E_0 \supseteq E_1 \supseteq \ldots\)). Same small, closed
+# vocabulary as generate_book_pdf.py's render_math_spans, HTML <sub> instead
+# of reportlab's <sub> tag (both happen to use the same tag name).
+_MATH_SPAN_RE = re.compile(r"\\\((.+?)\\\)", re.DOTALL)
+_MATH_TOKEN_RE = re.compile(r"_\{[^}]+\}|_\w|\\[{}]|\\[A-Za-z]+|.", re.DOTALL)
+_MATH_SYMBOLS = {
+    "Phi": "Φ", "bigcup": "⋃", "emptyset": "∅", "in": "∈",
+    "infty": "∞", "ldots": "…", "lim": "lim", "neq": "≠",
+    "setminus": "∖", "supseteq": "⊇", "to": "→",
+    "{": "{", "}": "}",  # \{ \} -- LaTeX's escape for a literal brace
+}
+
+
+def _render_math(expr: str) -> str:
+    out = []
+    for tok in _MATH_TOKEN_RE.findall(expr):
+        if tok.startswith("_{"):
+            # The braced subscript can itself contain commands (e.g.
+            # \lim_{t\to\infty}), so recurse instead of treating it as
+            # literal text.
+            out.append(f"<sub>{_render_math(tok[2:-1])}</sub>")
+        elif tok.startswith("_"):
+            out.append(f"<sub>{esc(tok[1:])}</sub>")
+        elif tok.startswith("\\"):
+            out.append(_MATH_SYMBOLS.get(tok[1:], esc(tok)))
+        else:
+            out.append(esc(tok))
+    return "".join(out).strip()
+
+
+def render_math_spans(text: str) -> str:
+    """Replace every \\( ... \\) span in already-escaped text -- safe to run
+    after esc(), since none of \\( \\) \\command _ {} are XML special
+    characters, so the spans survive escaping intact until this point."""
+    return _MATH_SPAN_RE.sub(lambda m: _render_math(m.group(1)), text)
+
+
 def inline_markup(text: str) -> str:
     text = esc(text)
     text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
     text = re.sub(r"\*(.+?)\*", r"<em>\1</em>", text)
     text = re.sub(r"`([^`]+?)`", r"<code>\1</code>", text)
+    text = render_math_spans(text)
     return text
 
 

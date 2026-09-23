@@ -689,6 +689,7 @@ def _patch_glyph_fallback() -> None:
         markup = re.sub(r"\*\*(.+?)\*\*", r"<b>\1</b>", markup)
         markup = re.sub(r"\*(.+?)\*", r"<i>\1</i>", markup)
         markup = re.sub(r"`([^`]+?)`", r"<i>\1</i>", markup)
+        markup = gbp.render_math_spans(markup)
         return _wrap_missing_glyphs_tagged(markup)
 
     gbp.escape_xml = escape_xml_with_fallback

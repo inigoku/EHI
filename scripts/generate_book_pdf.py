@@ -271,6 +271,46 @@ def escape_xml(text: str) -> str:
     return text.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+# Inline LaTeX math, \( ... \), as used in the topological-reading chapters
+# of the essay (e.g. \(E_0 \supseteq E_1 \supseteq \ldots\)). There's no
+# LaTeX renderer in this pipeline, so this maps the small, closed vocabulary
+# actually used in content/ensayo to Unicode + reportlab's <sub> tag rather
+# than printing the raw commands as literal backslashed text.
+_MATH_SPAN_RE = re.compile(r"\\\((.+?)\\\)", re.DOTALL)
+_MATH_TOKEN_RE = re.compile(r"_\{[^}]+\}|_\w|\\[{}]|\\[A-Za-z]+|.", re.DOTALL)
+_MATH_SYMBOLS = {
+    "Phi": "Φ", "bigcup": "⋃", "emptyset": "∅", "in": "∈",
+    "infty": "∞", "ldots": "…", "lim": "lim", "neq": "≠",
+    "setminus": "∖", "supseteq": "⊇", "to": "→",
+    "{": "{", "}": "}",  # \{ \} -- LaTeX's escape for a literal brace
+}
+
+
+def _render_math(expr: str) -> str:
+    out = []
+    for tok in _MATH_TOKEN_RE.findall(expr):
+        if tok.startswith("_{"):
+            # The braced subscript can itself contain commands (e.g.
+            # \lim_{t\to\infty}), so recurse instead of treating it as
+            # literal text.
+            out.append(f"<sub>{_render_math(tok[2:-1])}</sub>")
+        elif tok.startswith("_"):
+            out.append(f"<sub>{escape_xml(tok[1:])}</sub>")
+        elif tok.startswith("\\"):
+            out.append(_MATH_SYMBOLS.get(tok[1:], escape_xml(tok)))
+        else:
+            out.append(escape_xml(tok))
+    return "".join(out).strip()
+
+
+def render_math_spans(text: str) -> str:
+    """Replace every \\( ... \\) span in already-XML-escaped text with its
+    rendered form. Safe to run after escape_xml: none of \\( \\) \\command
+    _ {} contain XML special characters, so escaping never touches them and
+    the spans survive intact until this point."""
+    return _MATH_SPAN_RE.sub(lambda m: _render_math(m.group(1)), text)
+
+
 def inline_markdown_to_markup(text: str) -> str:
     """Escape a line of markdown text and convert **bold**/*italic* to
     reportlab's mini-markup tags."""
@@ -281,6 +321,7 @@ def inline_markdown_to_markup(text: str) -> str:
     # there's no monospace face registered, so render them italic rather
     # than printing the backticks literally.
     text = re.sub(r"`([^`]+?)`", r"<i>\1</i>", text)
+    text = render_math_spans(text)
     return text
 
 
