@@ -53,4 +53,3 @@ The web does not end. The dark knots remain knots.
 Every morning I open the catalog and continue. The shape of the one who is not there, built from what remains. That is what the Knot does: it gives an exact shape to absence, which is the only shape that cannot contradict you, because it is no longer here to do so.
 
 ---
----

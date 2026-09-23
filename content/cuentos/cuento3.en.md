@@ -115,4 +115,3 @@ Sometimes, in August, I look for a shadow and close my eyes for a moment. Someth
 I don't name it, I don't measure it, I don't carry the notebook with me. But somewhere in a drawer in my head that old system is still there, waiting: one more shadow-time, unrecorded.
 
 ---
----

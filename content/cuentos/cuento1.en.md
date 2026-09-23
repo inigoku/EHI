@@ -81,4 +81,3 @@ No one could say if it had left anything behind.
 > **If you only take away one idea:** Tarel is not a decorative metaphor. It is the experiment in the form of a story: something emerges from the water, something lives on the water, something returns to the water. And between those three instants, there is a city that loved, remembered, lost, built. The fact that it is no longer locatable in the water does not erase that it was there.
 
 ---
----```

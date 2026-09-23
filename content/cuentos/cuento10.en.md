@@ -101,4 +101,3 @@ Other times he thought nothing. He just hummed it and that was it.
 As an engineer he knew there are problems that are never solved: they are closed. It is not the same thing. This one had been closed for months without being solved, and still, every time he hummed it, it hurt a little less.
 
 ---
----

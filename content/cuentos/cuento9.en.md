@@ -71,4 +71,3 @@ The researcher wrote it down. Then she thought about it for a while without writ
 Then she wrote that down too: that some answers are too exact to keep asking questions on top of them.
 
 ---
----

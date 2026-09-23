@@ -71,4 +71,3 @@ The following week she called the veterinarian to ask if there was another.
 There was always another.
 
 ---
----
