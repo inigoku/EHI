@@ -79,12 +79,6 @@ Lo que sí hay que saber es que los personajes de estos cuentos —el archivista
 
 ---
 
-**Coda** *(memoria, no ficción)*
-
-*Txiki* — Un perro, una mudanza, un duelo reparado
-
----
-
 ### Nota de cierre
 
 Tarel y el que queda son el mismo experimento contado desde dos extremos: el agua que se va y lo que queda cuando ya no está. Entre medias, veinte variaciones sobre la misma pregunta.

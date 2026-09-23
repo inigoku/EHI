@@ -78,12 +78,6 @@ What must be known is that the characters in these stories —the archivist, the
 
 ---
 
-**Coda** *(memory, not fiction)*
-
-*Txiki* — A dog, a move, a mended grief
-
----
-
 ### Closing Note
 
 Tarel and the one who remains are the same experiment told from two extremes: the water that leaves and what remains when it is no longer there. In between, twenty variations on the same question.
