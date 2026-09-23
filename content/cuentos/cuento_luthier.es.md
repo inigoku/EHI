@@ -263,7 +263,13 @@ El cliente estuvo un momento quieto. Luego dijo:
 
 —Tiene recalibración. Que es más lento y más difícil que arreglo.
 
-Salió sin comprar nada. El Luthier miró la puerta cerrarse y luego miró sus manos vacías. Después cogió del banco el instrumento en el que había estado trabajando y continuó arreglándolo. O recalibrándolo.
+Salió sin comprar nada. El Luthier miró la puerta cerrarse y luego miró sus manos vacías.
+
+Fue al cajón de más abajo, el que nunca abría delante de nadie, y sacó un objeto envuelto en un paño que ya no recordaba haber elegido para eso. Lo desenvolvió. Era un diapasón más viejo que cualquiera de los que vendía, con una muesca en la punta que se había hecho él mismo hacía años, probando algo que nunca terminó de funcionar. Lo golpeó contra el canto de la mesa. Sonó bien —los diapasones siempre suenan bien, esa nunca fue la cuestión— pero cuando cerró los ojos y esperó a sentirlo, como les pedía a sus clientes que hicieran, no sintió nada nuevo. Sintió lo de siempre: un hombre solo en un taller, escuchando un tono que ya conocía de memoria.
+
+Llevaba veintitrés años haciéndose esto a sí mismo cada pocos meses, con la esperanza tonta de que esta vez fuera distinto. Nunca lo era. Lo envolvió otra vez en el paño y lo devolvió al cajón de más abajo, donde nadie —ni siquiera un cliente con prisa, ni siquiera él mismo, la mayoría de los días— podía verlo.
+
+Después cogió del banco el instrumento en el que había estado trabajando y continuó arreglándolo. O recalibrándolo.
 
 ### V. La madera delgada
 

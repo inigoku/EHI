@@ -15,5 +15,3 @@ Someone beside her—she does not know their name, she never will—looks at her
 When the square falls silent for an instant, between one slogan and the next, there is a strange, almost religious silence, and in that silence she notices something she did not expect: it is not only her voice she has lent. It is also her judgment. For a while, as long as this lasts, she is not evaluating every phrase she shouts with the same cool head she would use to evaluate anything else. She is shouting it because the others are shouting it, and that, here, is reason enough.
 
 The chant rises again. So does she.
-
-She could not say whether this is the closest she has ever been to something true, or the farthest she has ever been from herself. She suspects, without being able to prove it yet, that the two things might be the same.

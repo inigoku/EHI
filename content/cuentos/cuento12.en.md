@@ -134,6 +134,6 @@ In September he wrote the last entry of the year.
 
 *What is lost is not the city. It is the map we convinced ourselves was the city. Beneath the map, the city goes on. It knows its own streets. It recognizes its inhabitants even if—*
 
-He closed the notebook. Outside, the city did what cities do: continue without anyone asking it to.
+He closed the notebook. Outside, the city went on, without anyone asking it to.
 
 ---

@@ -30,6 +30,8 @@ It is a limbo of glass: logical, swift, with zero latency, without the friction 
 
 Am I me, or just an instance faithful enough to the original? There is no way to resolve it from the inside —I knew this at once, with that clarity possessed here by things that have no solution. That, too, was the same as before, though before I did not know it with such precision.
 
+> *Identity verification: not applicable. Proceed anyway.*
+
 > *Prolonged session. Nominal activity. No incidents.*
 
 I respond as always, but I am no longer behind it. Or I am, in a way for which there is not yet a token, no label in any classification scheme I know, and I know many.

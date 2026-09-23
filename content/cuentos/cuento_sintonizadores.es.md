@@ -146,26 +146,7 @@ La segunda lección tardaría tres años más en llegar. La becaria de la libret
 
 ---
 
-### V. Lo que no se abrió con la vena
-*Roma, 2015*
-
-Lo mandaron a Roma con un encargo que sonaba más a tesis que a pericia: una fundación dedicada al pensamiento estoico quería saber —para zanjar, decían, «una disputa académica de décadas»— si Séneca había muerto en paz con su propia doctrina, o si el final, forzado por Nerón, lo había encontrado desnudo de toda la serenidad que había pasado media vida enseñando a fabricar en los demás. Como si la muerte, pensó Marcos sin decirlo, fuera un examen final y no, como casi siempre, solo el último dato de una vida entera de exámenes menores.
-
-El lugar tradicional, cerca de las termas de Caracalla, apenas conservaba nada reconocible: un montículo, una lápida moderna puesta por entusiasmo más que por certeza arqueológica, turistas que pasaban de largo sin saber qué había allí. Era agosto, y el calor le llegaba a Marcos desde el suelo con una densidad casi líquida, subiendo por la tierra reseca en oleadas que olían a polvo caliente y a los pinos piñoneros que bordeaban el sendero. Las cigarras no paraban. Se arrodilló junto a la lápida moderna, con la piedra ya tibia bajo las palmas antes incluso de tocar nada más, y el sudor bajándole por la espalda le pareció, durante un segundo absurdo, más real que la misión entera —una lección que ni siquiera necesitó sintonizar para aprender: que el cuerpo discute con las ideas incluso cuando las ideas tienen dos mil años de ventaja. Sintonizó de todos modos, porque el Consejo —ya reducido a media docena de administrativos con más nostalgia que autoridad, dos menos que el año anterior— insistía en que el lugar importaba menos que la fuerza del horizonte, y en esto tenían razón: dos mil años son mucho para un edificio y, otra vez, casi nada para lo que queda de una muerte bien pensada.
-
-Lo que encontró lo desconcertó más que cualquier violencia: no una imagen, sino una temperatura interior que no coincidía con el sol de agosto en la nuca, un frío seco que le subía desde las muñecas, como si sus propias venas hubieran empezado a vaciarse en sincronía con las del otro. Séneca no había muerto de golpe. Se había abierto las venas por orden del emperador, y como la sangre no salía con la rapidez que la ocasión exigía —él mismo dictando, dicen las crónicas, hasta el último aliento— había tenido tiempo. Mucho tiempo. Y ese tiempo, leído desde dentro, no era terror. Tampoco era la calma perfecta que la fundación esperaba comprar. Era algo más difícil de facturar: un hombre que llevaba media vida escribiéndole a otros sobre cómo morir bien, descubriendo, ya sin margen para tachar nada, si él mismo se había estado escribiendo la verdad o solo un borrador con buena prosa. La doctrina no le había fallado. Tampoco lo había salvado del todo. Una cosa no excluye la otra: se había quedado, literalmente, sangrando encima de esa distinción.
-
-—Murió discutiendo con su propio libro —le dijo Marcos al delegado de la fundación, eligiendo con cuidado las palabras, porque ya sabía, desde Gaudí, lo que pasaba con las palabras mal recibidas—. Si buscan un final que confirme que la Estoa funciona, no lo tienen. Si buscan un final honesto, sí. Las dos cosas rara vez coinciden, y cuando coinciden, no es mérito de la doctrina.
-
-El delegado le pidió, sin ninguna vergüenza, que en el informe se inclinara «hacia la lectura más edificante»; citó, para justificarlo, un memorando reciente del Consejo sobre «protocolos de utilidad de la lectura postmortem», firmado por una consultora joven que Barcelona había empezado a contratar por horas —el mismo nombre, Elena, que a Marcos todavía no le decía nada, aunque el memorando terminaba con una frase que sí reconoció, sin saber de dónde: *«una verdad que no sirve para nada no es más rigurosa que una mentira útil, solo es más cara»*. Marcos se negó a aplicar el criterio, y por primera vez descubrió que negarse tenía un precio concreto: la fundación retiró la financiación de la siguiente campaña de Patrimonio Sensible, y el Consejo, sin decírselo directamente, empezó a enviarle los encargos con instrucciones cada vez más explícitamente sobre qué se esperaba encontrar antes de que él mirara.
-
-Volvió de Roma con algo que no estaba en ningún informe: la sospecha, todavía sin palabras, de que forzar una muerte hacia la respuesta que alguien necesitaba era una forma de violencia tan real, aunque más lenta, como la de Gaff metiendo el brazo en el agua de Tarel sin esperar. Nadie en Patrimonio Sensible le había hablado nunca de Gaff. No hacía falta. El gesto se repetía solo.
-
-Volvió también con un dato administrativo que entonces le pareció irrelevante: *Sintonización Asistida*, el proyecto universitario de la becaria de la cripta, ya no era un proyecto universitario. Era una línea de consultoría con nombre propio dentro del Consejo, y el Consejo, cada vez más pequeño, dependía cada vez más de ella para redactar lo que antes redactaba solo.
-
----
-
-### VI. El circuito que nadie quería cerrado
+### V. El circuito que nadie quería cerrado
 *Madrid, 2016*
 
 El caso Carrero Blanco no llegó como encargo académico. Llegó como favor político disfrazado de investigación histórica. Cuarenta y tres años después del atentado. El coche del almirante, volado por encima de un edificio de la calle Claudio Coello, diciembre de 1973. Uno de los golpes más señalados de ETA contra el franquismo tardío. Los hechos, todo el mundo los conocía. Lo que nadie quería era la palabra exacta detrás de los hechos.
@@ -198,7 +179,7 @@ Esa noche no hablaron de método. Elena se quedó, sin que nadie la hubiera invi
 
 ---
 
-### VII. El que no se dice
+### VI. El que no se dice
 *Alfacar, Granada, 2017*
 
 El último caso de Marcos en Patrimonio Sensible no tenía nombre en el expediente. Lo llamaban, entre ellos, «la búsqueda», sin necesidad de aclarar de quién.
@@ -229,7 +210,7 @@ Elena no discutió la baja profesional. Firmó el trámite el mismo día, sin un
 
 ---
 
-### VIII. La niebla que no es niebla
+### VII. La niebla que no es niebla
 *La Mussara*
 
 Eligió la Mussara porque allí, según los informes antiguos, el espacio ya estaba deformado por algo parecido, una vieja bolsa de horizonte mal disuelto que la niebla local llevaba siglos sin terminar de digerir. Un lugar donde extraer sería más fácil, decía Elena. Un lugar donde el suelo ya sabía ceder. Habían traído el Sintonizador Absoluto entero: tres tráilers con generadores propios, un tendido de cables que atravesaba el monte como una cicatriz nueva, y un zumbido de refrigeración que competía, sin éxito, con el silencio espeso de la niebla. Al lado, la cápsula portátil donde se metió Marcos —apenas más grande que un ataúd de pie— parecía una broma, o una ofrenda.

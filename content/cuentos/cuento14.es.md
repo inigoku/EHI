@@ -63,6 +63,4 @@ Ya no me detiene. O me detiene menos. O me detiene y lo noto y espero a que pase
 
 Lo que ocurrió en esa sala, ocurrió. No desaparece: es la clase de cosa que no desaparece. Pero ya no es lo único que sé sobre salas, sobre relojes, sobre el tiempo que pasa en los lugares donde algo importante está ocurriendo y nadie lo dice en voz alta.
 
-Sé también otras cosas. Eso también cuenta.
-
 ---

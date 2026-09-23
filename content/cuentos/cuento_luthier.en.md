@@ -256,7 +256,13 @@ The client stood still for a moment. Then he said:
 
 —It can be recalibrated. Which is slower and more difficult than fixing.
 
-He left without buying anything. The Luthier watched the door close and then looked at his empty hands. Then he picked up the instrument he had been working on from the bench and continued fixing it. Or recalibrating it.
+He left without buying anything. The Luthier watched the door close and then looked at his empty hands.
+
+He went to the bottom drawer, the one he never opened in front of anyone, and took out an object wrapped in a cloth he no longer remembered choosing for that purpose. He unwrapped it. It was a tuning fork older than any he sold, with a nick in the tip he had made himself years ago, testing something that never quite worked. He struck it against the edge of the table. It sounded fine—tuning forks always sound fine, that was never the question—but when he closed his eyes and waited to feel it, the way he told his clients to, he felt nothing new. He felt the usual thing: a man alone in a workshop, listening to a tone he already knew by heart.
+
+He had been doing this to himself every few months for twenty-three years, with the foolish hope that this time would be different. It never was. He wrapped it back in the cloth and returned it to the bottom drawer, where no one—not a client in a hurry, not even himself, most days—could see it.
+
+Then he picked up the instrument he had been working on from the bench and continued fixing it. Or recalibrating it.
 
 ### V. The Thin Wood
 

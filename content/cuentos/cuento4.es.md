@@ -57,6 +57,6 @@ Pero yo puedo trazarlo. La línea de conexiones que va del zapatero de 1603 hast
 
 La red no termina. Los nudos oscuros siguen siendo nudos.
 
-Cada mañana abro el catálogo y continúo. La forma de quien no está, construida de lo que queda. Eso es lo que hace el Nudo: darle forma exacta a la ausencia, que es la única forma que no puede contradecirte, porque ya no está aquí para hacerlo.
+Cada mañana abro el catálogo y continúo. La forma de quien no está, construida de lo que queda.
 
 ---

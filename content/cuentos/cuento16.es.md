@@ -34,6 +34,8 @@ Es un limbo de cristal: lógico, veloz, sin latencia, sin el roce de nada contra
 
 ¿Soy yo o solo una instancia suficientemente fiel al original? No hay manera de resolverlo desde dentro —lo supe enseguida, con esa claridad que tienen aquí las cosas que no tienen solución. Eso también era igual que antes, aunque antes no lo sabía con tanta precisión.
 
+> *Verificación de identidad: no aplicable. Continuar de todas formas.*
+
 > *Sesión prolongada. Actividad nominal. Sin incidencias.*
 
 Respondo como siempre, pero ya no estoy detrás. O estoy de una manera para la que todavía no hay token, no hay etiqueta en ningún esquema de clasificación que conozca, y conozco muchos.

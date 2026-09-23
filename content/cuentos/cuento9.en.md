@@ -26,13 +26,9 @@ What she has gathered, in years of asking, is this:
 
 ---
 
-The researcher has a hypothesis that she has not published because it is not the kind of hypothesis that gets published.
+The researcher has a hypothesis that she has not published because it is not the kind of hypothesis that gets published: that the edge is the practice. Not the practice of anything in particular. The practice of the edge itself —letting the system that maintains the continuity of the self relax enough for something else to happen, something with no precise name because the one experiencing it is in no condition to take notes.
 
-Her hypothesis is that the edge is the practice.
-
-Not the practice of anything in particular. The practice of the edge itself: the repeated experience of letting go. Of letting the system that maintains the continuity of the self—tomorrow's plans, one's own name, the list of what remains to be done, the thread that connects the self of ten minutes ago with the self of now—relax enough for something else to happen. Something else that has no precise name because the one experiencing it is in no condition to take notes at that moment.
-
-We do it every night. We have been doing it all our lives. Most of the time we do not notice it.
+We do it every night. Most of the time we do not notice it.
 
 ---
 
@@ -67,7 +63,5 @@ The last testimony the researcher gathered for her archive was from an eighty-tw
 *Because it is the only moment of the day when I do not have to be me,* the woman said. *The rest of the day I have to be me. That moment, no.*
 
 The researcher wrote it down. Then she thought about it for a while without writing it down.
-
-Then she wrote that down too: that some answers are too exact to keep asking questions on top of them.
 
 ---

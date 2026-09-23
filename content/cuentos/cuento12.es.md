@@ -141,6 +141,6 @@ En septiembre escribió la última entrada del año.
 
 *Lo que se pierde no es la ciudad. Es el mapa que nos convencíamos de que era la ciudad. Debajo del mapa, la ciudad sigue. Sabe sus propias calles. Reconoce a sus habitantes aunque—*
 
-Cerró el cuaderno. Fuera, la ciudad hacía lo que hacen las ciudades: continuar sin que nadie se lo pidiera.
+Cerró el cuaderno. Fuera, la ciudad seguía, sin que nadie se lo pidiera.
 
 ---

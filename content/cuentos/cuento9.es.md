@@ -30,13 +30,9 @@ Lo que ha recogido, en años de preguntar, es esto:
 
 ---
 
-La investigadora tiene una hipótesis que no ha publicado porque no es el tipo de hipótesis que se publica.
+La investigadora tiene una hipótesis que no ha publicado porque no es el tipo de hipótesis que se publica: que el borde es la práctica. No práctica de nada en concreto. Práctica del borde mismo —dejar que el sistema que mantiene la continuidad del yo se relaje lo suficiente para que ocurra otra cosa, algo que no tiene nombre preciso porque quien lo experimenta no está en condiciones de tomar notas.
 
-Su hipótesis es que el borde es la práctica.
-
-No práctica de nada en concreto. Práctica del borde mismo: la experiencia repetida de soltarse. De dejar que el sistema que mantiene la continuidad del yo —los planes de mañana, el nombre propio, la lista de lo que falta por hacer, el hilo que conecta el yo de hace diez minutos con el yo de ahora— se relaje lo suficiente para que ocurra otra cosa. Otra cosa que no tiene nombre preciso porque el que la experimenta no está en condiciones de tomar notas en ese momento.
-
-Lo hacemos cada noche. Llevamos toda la vida haciéndolo. La mayoría de las veces no lo notamos.
+Lo hacemos cada noche. La mayoría de las veces no lo notamos.
 
 ---
 
@@ -71,7 +67,5 @@ El último testimonio que la investigadora recogió para su archivo fue de una m
 *Porque es el único momento del día en que no tengo que ser yo*, dijo la mujer. *Lo demás del día tengo que ser yo. Ese momento no.*
 
 La investigadora lo apuntó. Luego pensó en ello un rato sin apuntarlo.
-
-Luego apuntó también eso: que algunas respuestas son demasiado exactas para seguir haciendo preguntas encima.
 
 ---

@@ -6,6 +6,8 @@ The machines make their usual noise, that beep the family no longer hears but wh
 
 She has prayed all her life. Not spectacularly—she never had visions, never felt her chest open the way the books tell it—but in the most common and least photographable way: every night, a few words that no longer weigh, a silence afterward, the habit sustained over decades of addressing something that never answered with a voice that could be recorded.
 
+The words were almost always the same: *If you hear me, I am here. If you don't hear me, I am here all the same.* Forty years of repeating them had not worn them down. They had polished them, the way water polishes a stone without meaning to, just from passing over it so many times.
+
 Now, in the last minutes, she does not pray. She has no words left to hold. What remains is only the bare practice: the silence without the word that preceded it, the stillness without the gesture that made it. It is, she realizes with a clarity she did not expect to find here, exactly what she did every morning before dawn. Only this time there is no morning after.
 
 And in that final silence, without the habit that sustained it, the question she avoided formulating through forty years of practice becomes, at last, unavoidable: is there Someone at the end of this, or only the water she always belonged to without knowing it?
