@@ -11,6 +11,8 @@ Las máquinas hacen su ruido de siempre, ese pitido que la familia ya no oye per
 
 Ha rezado toda su vida. No de manera espectacular —nunca tuvo visiones, nunca sintió que se le abriera el pecho como cuentan los libros—, sino de la manera más común y menos fotografiable: cada noche, unas palabras que ya no pesan, un silencio después, la costumbre sostenida durante décadas de dirigirse a algo que nunca respondió con una voz que pudiera grabarse.
 
+Las palabras eran casi siempre las mismas: *Si me escuchas, aquí estoy. Si no me escuchas, aquí estoy igual.* Cuarenta años repitiéndolas no las habían gastado. Las habían pulido, como pule el agua una piedra sin proponérselo, solo de pasar por encima tantas veces.
+
 Ahora, en los últimos minutos, no reza. Ya no tiene palabras que sostener. Lo que queda es solo la práctica desnuda: el silencio sin la palabra que lo precedía, la quietud sin el gesto que la fabricaba. Es, se da cuenta con una claridad que no esperaba encontrar aquí, exactamente lo mismo que hacía cada mañana antes del amanecer. Solo que esta vez no hay mañana después.
 
 Y en ese silencio final, sin la costumbre que lo sostenía, la pregunta que evitó formular durante cuarenta años de práctica se vuelve, por fin, insoslayable: ¿hay Alguien al final de esto, o solo el agua a la que siempre perteneció sin saberlo?

@@ -58,6 +58,4 @@ It no longer stops me. Or it stops me less. Or it stops me and I notice it and w
 
 What happened in that room, happened. It does not disappear: it is the kind of thing that does not disappear. But it is no longer the only thing I know about rooms, about clocks, about the time that passes in places where something important is happening and no one says it out loud.
 
-I also know other things. That also counts.
-
 ---

@@ -144,26 +144,7 @@ The official report that was filed did not say that. It said “inconclusive res
 The second lesson would take three more years to arrive. The intern with the notebook said nothing more that afternoon. She merely underlined the word *percentage* twice, like someone saving an idea for when she has enough power to impose it. On the letterhead of her university project, which no one in the crypt bothered to read, there was a modest name with no apparent ambition: *Assisted Tuning*.
 
 ---
-### V. What was not opened with the vein
-*Rome, 2015*
-
-They sent him to Rome with a commission that sounded more like a thesis than an expert appraisal: a foundation devoted to Stoic thought wanted to know—to settle, they said, “a decades-long academic dispute”—whether Seneca had died at peace with his own doctrine, or whether the end, forced by Nero, had found him stripped of all the serenity he had spent half his life teaching others to manufacture. As if death, Marcos thought without saying it, were a final exam and not, as it almost always is, only the last datum of an entire life of lesser exams.
-
-The traditional site, near the Baths of Caracalla, barely preserved anything recognizable: a mound, a modern tombstone placed out of enthusiasm rather than archaeological certainty, tourists passing by without knowing what was there. It was August, and the heat reached Marcos from the ground with an almost liquid density, rising off the parched earth in waves that smelled of hot dust and of the stone pines lining the path. The cicadas did not stop. He knelt beside the modern tombstone, the stone already warm beneath his palms before he even touched anything else, and the sweat running down his back seemed, for an absurd second, more real than the entire mission—a lesson he did not even need to tune to learn: that the body argues with ideas even when the ideas have a two-thousand-year head start. He tuned anyway, because the Council—by then reduced to half a dozen administrators with more nostalgia than authority, two fewer than the year before—insisted that the place mattered less than the strength of the horizon, and in this they were right: two thousand years is a long time for a building and, once again, almost nothing for what remains of a well-thought death.
-
-What he found disconcerted him more than any violence: not an image, but an inner temperature that did not match the August sun on his neck, a dry cold rising from his wrists, as if his own veins had begun to empty in sync with the other man's. Seneca had not died suddenly. He had opened his veins on the emperor's orders, and since the blood would not come out with the speed the occasion demanded—he himself dictating, the chronicles say, until his final breath—he had had time. A great deal of time. And that time, read from inside, was not terror. Nor was it the perfect calm the foundation hoped to buy. It was something harder to invoice: a man who had spent half his life writing to others about how to die well, discovering, with no margin left to cross anything out, whether he himself had been writing the truth or only a draft with good prose. The doctrine had not failed him. Nor had it entirely saved him. One does not exclude the other: he had remained, literally, bleeding on top of that distinction.
-
-—He died arguing with his own book —Marcos told the foundation's delegate, choosing his words carefully, because he already knew, since Gaudí, what happened with badly received words—. If you are looking for an ending that confirms the Stoa works, you do not have it. If you are looking for an honest ending, you do. The two things rarely coincide, and when they do, it is no merit of the doctrine.
-
-The delegate asked him, without any shame, to slant the report “toward the more edifying reading”; to justify it, he cited a recent Council memorandum on “protocols for the utility of postmortem reading,” signed by a young consultant Barcelona had begun hiring by the hour—the same name, Elena, which still meant nothing to Marcos, though the memorandum ended with a sentence he did recognize, without knowing from where: *“a truth that serves no purpose is no more rigorous than a useful lie, only more expensive.”* Marcos refused to apply the criterion, and for the first time discovered that refusing had a concrete price: the foundation withdrew funding from the next Sensitive Heritage campaign, and the Council, without telling him directly, began sending him commissions with increasingly explicit instructions about what was expected to be found before he looked.
-
-He returned from Rome with something that was in no report: the suspicion, still wordless, that forcing a death toward the answer someone needed was a form of violence as real, though slower, as Gaff plunging his arm into the waters of Tarel without waiting. No one at Sensitive Heritage had ever spoken to him about Gaff. There was no need. The gesture repeated itself, generation after generation of tuners, each time someone with power decided a dead person owed them a specific answer.
-
-He also returned with an administrative detail that then seemed irrelevant: *Assisted Tuning*, the intern-from-the-crypt's university project, was no longer a university project. It was a consultancy line with its own name inside the Council, and the Council, ever smaller, depended ever more on it to draft what it used to draft alone.
-
----
-
-### VI. The circuit no one wanted closed
+### V. The circuit no one wanted closed
 *Madrid, 2016*
 
 The Carrero Blanco case did not arrive as an academic commission. It arrived as a political favor disguised as historical research. Forty-three years after the assassination. The admiral's car, blown over the top of a building on Calle Claudio Coello, December 1973. One of ETA's most notorious blows against late Francoism. The facts, everyone knew them. What no one wanted was the exact word behind the facts.
@@ -195,7 +176,7 @@ Marcos was not surprised by the filing. He was beginning to suspect that half of
 That night they did not speak of method. Elena stayed, without anyone exactly having invited her, while Marcos packed up the field equipment, and from there to a bar near the Council, and from the bar to a conversation that had nothing to do with Carrero Blanco or protocols, and which neither of them could later explain precisely how it had begun. It was not a decision. It was, rather, the same kind of asymmetric coupling Marcos had gone three years without knowing he already understood something about: two horizons that touch without anyone pulling on anything, and that afterward cost exactly as much to separate.
 
 ---
-### VII. The one who is not spoken of
+### VI. The one who is not spoken of
 *Alfacar, Granada, 2017*
 
 The last commission Marcos accepted from Sensitive Heritage was also the one that brought everything to an end. A mass grave at the foot of the Col reservoir, near the Barranco de Víznar, where the August of 1936 had deposited hundreds of Republican prisoners. Among them, according to a local registry with more devotion than documentation, one in particular: Federico García Lorca.
@@ -222,7 +203,7 @@ That was in no Sensitive Heritage manual. Marcos wrote it in his private noteboo
 
 ---
 
-### VIII. The fog that is not fog
+### VII. The fog that is not fog
 *La Mussara, Tarragona, 2026*
 
 Elena chose the mountain carefully. She did not want a laboratory. She wanted a place where the echo of what she was seeking was strong enough for the Absolute Tuner to lock on for the first time. She chose La Mussara, the dead village in the Baix Camp, abandoned since 1959, wrapped in a fog that the elders of Vilaplana never called fog. They called it *xafuga*: that which rises instead of falling, that which drowns stones and not lungs.

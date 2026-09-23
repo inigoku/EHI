@@ -10,13 +10,11 @@ title: THE INNER HORIZON
 
 These stories prove nothing.
 
-They begin with a question —what happens inside when something emerges, endures, and leaves— and instead of trying to answer it, they circle it. Each story circles it from a different angle: birth, childhood, memory, love, desire, the bond, loss, sleep, grief, deterioration, harm, companionship. Not all angles lead to the same place. Some lead to smaller questions. Some lead nowhere in particular, and that too is an answer.
+They begin with a question —what happens inside when something emerges, endures, and leaves— and instead of trying to answer it, they circle it: birth, childhood, memory, love, desire, the bond, loss, sleep, grief, deterioration, harm, companionship. Not all angles lead to the same place. Some lead nowhere in particular, and that too is an answer.
 
-It is not necessary to read them in order. There is an order —the one found in the table of contents— but each story works alone, like the knots of a net that can be read from any point. What the order does is propose a path: from the origin to the end, with a stopover in bonds.
+There is an order —the one found in the table of contents— but each story works alone, like the knots of a net that can be read from any point.
 
-Nor is it necessary to hold onto any idea. If something resonates, good. If not, that is fine too.
-
-What must be known is that the characters in these stories —the archivist, the clockmaker, the boy with the notebook, the woman with the dogs, the two in the breathing house— are not metaphors for something else. They are people doing what they do: noticing, waiting, losing, continuing. If there is something greater behind that, let whoever seeks it find it. The archivist takes notes and leaves gaps. The gaps are part of the archive.
+The archivist takes notes and leaves gaps. The gaps are part of the archive.
 
 ---
 

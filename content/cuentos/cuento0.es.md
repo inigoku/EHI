@@ -11,13 +11,11 @@ linkedChapterId: cap0
 
 Estos cuentos no demuestran nada.
 
-Parten de una pregunta —qué pasa dentro cuando algo emerge, dura y se va— y en lugar de intentar responderla, la rodean. Cada cuento la rodea desde un ángulo diferente: el nacimiento, la infancia, la memoria, el amor, el deseo, el vínculo, la pérdida, el sueño, el duelo, el deterioro, el daño, la compañía. No todos los ángulos llevan al mismo sitio. Algunos llevan a preguntas más pequeñas. Algunos no llevan a ningún sitio en particular y eso también es una respuesta.
+Parten de una pregunta —qué pasa dentro cuando algo emerge, dura y se va— y en lugar de intentar responderla, la rodean: el nacimiento, la infancia, la memoria, el amor, el deseo, el vínculo, la pérdida, el sueño, el duelo, el deterioro, el daño, la compañía. No todos los ángulos llevan al mismo sitio. Algunos no llevan a ningún sitio en particular, y eso también es una respuesta.
 
-No es necesario leerlos en orden. Hay un orden —el que figura en el índice— pero cada cuento funciona solo, como los nudos de una red que puede leerse desde cualquier punto. Lo que el orden hace es proponer un camino: del origen al final, con escala en los vínculos.
+Hay un orden —el que figura en el índice— pero cada cuento funciona solo, como los nudos de una red que puede leerse desde cualquier punto.
 
-Tampoco es necesario quedarse con ninguna idea. Si algo resuena, bien. Si no, también.
-
-Lo que sí hay que saber es que los personajes de estos cuentos —el archivista, el relojero, el niño con el cuaderno, la mujer de los perros, los dos en la casa que respiraba— no son metáforas de otra cosa. Son personas que hacen lo que hacen: notar, esperar, perder, continuar. Si detrás de eso hay algo más grande, que lo encuentre quien lo busca. El archivista anota y deja huecos. Los huecos son parte del archivo.
+El archivista anota y deja huecos. Los huecos son parte del archivo.
 
 ---
 

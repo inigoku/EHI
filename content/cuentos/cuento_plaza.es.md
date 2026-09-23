@@ -20,5 +20,3 @@ Alguien a su lado —no sabe su nombre, no lo sabrá nunca— la mira un segundo
 Cuando la plaza calla un instante, entre una consigna y la siguiente, hay un silencio extraño, casi religioso, y en ese silencio ella nota algo que no esperaba: no es solo la voz lo que ha prestado. Es también el juicio. Por un rato, mientras dura esto, no está evaluando cada frase que grita con la misma cabeza fría con la que evaluaría cualquier otra cosa. La está gritando porque los demás la gritan, y eso, aquí, es razón suficiente.
 
 El cántico vuelve a subir. Ella también.
-
-No sabría decir si esto es lo más cerca que ha estado nunca de algo verdadero, o lo más lejos que ha estado nunca de sí misma. Sospecha, sin poder demostrarlo todavía, que las dos cosas podrían ser la misma.
