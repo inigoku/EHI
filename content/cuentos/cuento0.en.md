@@ -71,10 +71,10 @@ What must be known is that the characters in these stories —the archivist, the
 19. *The Pond*
 20. *Before It Dawns*
 21. *The Last Minutes*
-22. *The Dragon*
-23. *The Upstairs Neighbor*
-24. *The Full Square*
-25. *The Badge in the Drawer*
+22. *The Full Square*
+23. *The Badge in the Drawer*
+24. *The Dragon*
+25. *The Upstairs Neighbor*
 
 ---
 

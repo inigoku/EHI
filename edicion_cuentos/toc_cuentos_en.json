@@ -162,16 +162,6 @@
       "illustration": "cuento_ultimos_minutos"
     },
     {
-      "id": "cuento_dragon",
-      "content_file": "../content/cuentos/cuento_dragon.en.md",
-      "illustration": "cuento_dragon"
-    },
-    {
-      "id": "cuento_vecino_arriba",
-      "content_file": "../content/cuentos/cuento_vecino_arriba.en.md",
-      "illustration": "cuento_vecino_arriba"
-    },
-    {
       "id": "cuento_plaza",
       "content_file": "../content/cuentos/cuento_plaza.en.md",
       "illustration": "cuento_plaza"
@@ -180,6 +170,16 @@
       "id": "cuento_chapa",
       "content_file": "../content/cuentos/cuento_chapa.en.md",
       "illustration": "cuento_chapa"
+    },
+    {
+      "id": "cuento_dragon",
+      "content_file": "../content/cuentos/cuento_dragon.en.md",
+      "illustration": "cuento_dragon"
+    },
+    {
+      "id": "cuento_vecino_arriba",
+      "content_file": "../content/cuentos/cuento_vecino_arriba.en.md",
+      "illustration": "cuento_vecino_arriba"
     }
   ]
 }
