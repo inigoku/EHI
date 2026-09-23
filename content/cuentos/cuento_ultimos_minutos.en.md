@@ -15,5 +15,3 @@ There is no way to tell what happens next, because no one who knows has come bac
 The beep stops.
 
 No one in the room knows whether that answers anything.
-
-*Note to the story* — This story does not take sides among the five architectures the previous essay describes, and it could not do so without betraying the whole book. It does not say whether what happened to this woman was a return to the reservoir or an encounter with Someone who was waiting for her with her name still written. It says only the one thing this experiment can say with any certainty: that the question was held to the end, and that holding it—not resolving it—was, for her, indistinguishable from having lived well.

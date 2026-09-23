@@ -13,5 +13,3 @@ She does not remember the exact moment she stopped wearing it. There was no rupt
 No one proved her wrong. That is what surprises her most, looking at the badge now, with the same strangeness with which one looks at a photo of oneself with another face. It was not the opposing argument that got her out of it. It was that, with the years, more things fit inside her than the badge allowed her to name, and at some point there was more outside that boundary than inside it.
 
 She does not throw the badge away. She puts it back in the drawer, in the same place, like someone who has not yet decided what to do with a part of herself she no longer wears but does not disown having worn.
-
-*Note to the story* — This story does not judge the cause that badge stood for, because it never names it, and it does not name it on purpose: the question of "The Eye of a Single Color" is not what was being defended, but how the defense was sustained. Someone could have worn the same badge all their life without that ever implying the composition described here. The difference was not in the cause. It was in whether an uncomfortable question from an ally fit inside her.
