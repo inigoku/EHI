@@ -320,29 +320,29 @@ class ForceParity(Flowable):
 
 
 class FullFramePlate(Flowable):
-    """Como ForceParity, pero además llena el marco entero con la
-    ilustración (reescalada/recomprimida por generate_book_pdf.
-    make_image_flowable, igual que las ilustraciones en línea del cuerpo),
-    de modo que nada más comparte esa página."""
+    """Llena el marco entero con la ilustración (reescalada/recomprimida por
+    generate_book_pdf.make_image_flowable, igual que las ilustraciones en
+    línea del cuerpo), de modo que nada más comparte esa página.
 
-    def __init__(self, image_bytes: bytes, target_parity: int, frame_w: float, frame_h: float):
+    No exige una paridad concreta de página: se limita a esperar a la
+    próxima página en blanco, sea par o impar. Forzar una paridad fija
+    aquí (como hace ForceParity para títulos de capítulo) puede encadenar
+    dos saltos de página en blanco en vez de uno cuando el texto previo
+    termina justo en la paridad "equivocada" — de ahí que las láminas no
+    lo hagan, a costa de perder la consistencia de "siempre en la página
+    izquierda" en los casos poco frecuentes en que no coincide."""
+
+    def __init__(self, image_bytes: bytes, frame_w: float, frame_h: float):
         super().__init__()
         self.image_bytes = image_bytes
-        self.target_parity = target_parity
         self.frame_w, self.frame_h = frame_w, frame_h
         self._inner = None
         self._is_filler = False
 
     def wrap(self, aw, ah):
-        page = self.canv.getPageNumber()
         fresh = ah >= self.frame_h - 1
         if not fresh:
             return (aw, ah + 1)
-        if page % 2 != self.target_parity:
-            # See ForceParity.wrap(): consume this blank page ourselves
-            # rather than claiming an impossible height.
-            self._is_filler = True
-            return (aw, ah)
         self._is_filler = False
         self._w, self._h = aw, ah
         self._inner = gbp.make_image_flowable(self.image_bytes, aw, ah)
@@ -736,9 +736,13 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             illustration_bytes = gbp.load_image_bytes(image_source, base_dir, ca_bundle)
 
         if illustration_bytes:
-            story.append(ForceParity(0, TEXT_H))
-            story.append(FullFramePlate(illustration_bytes, 0, TEXT_W, TEXT_H))
-        story.append(ForceParity(1, TEXT_H))
+            # La lámina cae en la primera página en blanco disponible, sea
+            # cual sea su paridad (ver FullFramePlate.__doc__): como llena
+            # el marco entero, el título del capítulo cae automáticamente
+            # en la página siguiente sin necesidad de forzar su paridad.
+            story.append(FullFramePlate(illustration_bytes, TEXT_W, TEXT_H))
+        else:
+            story.append(ForceParity(1, TEXT_H))
 
         if str(chapter_number).strip().isdigit():
             toc_text = f"{chapter_number.strip()}. {title}"

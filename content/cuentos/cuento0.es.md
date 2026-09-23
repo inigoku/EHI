@@ -72,10 +72,10 @@ Lo que sí hay que saber es que los personajes de estos cuentos —el archivista
 19. *El estanque*
 20. *Antes de que amanezca*
 21. *Los últimos minutos*
-22. *El dragón*
-23. *El vecino de arriba*
-24. *La plaza llena*
-25. *La chapa en el cajón*
+22. *La plaza llena*
+23. *La chapa en el cajón*
+24. *El dragón*
+25. *El vecino de arriba*
 
 ---
 
