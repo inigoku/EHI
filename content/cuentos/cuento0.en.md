@@ -62,7 +62,21 @@ What must be known is that the characters in these stories —the archivist, the
 
 **Epilogue**
 
-*The One Who Remains* — Final Tale
+*The One Who Remains*
+
+---
+
+### The Last Four Books
+
+19. *The Pond*
+20. *Before It Dawns*
+21. *The Last Minutes*
+22. *The Dragon*
+23. *The Upstairs Neighbor*
+24. *The Full Square*
+25. *The Badge in the Drawer*
+
+---
 
 **Coda** *(memory, not fiction)*
 
