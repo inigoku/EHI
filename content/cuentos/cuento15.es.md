@@ -9,67 +9,67 @@ illustrationDescription: Un porche de madera frente a un bosque oscuro. Una anci
 
 ---
 
-Había en el extremo de la ciudad una mujer que recogía perros viejos.
+En el extremo de la ciudad vivía una mujer que recogía perros viejos.
 
-No los perros que nadie quería porque eran feos o difíciles. Los perros que nadie quería porque estaban a punto de terminar: los que los veterinarios describían con palabras técnicas y los dueños escuchaban con esa cara que tiene la gente cuando sabe lo que viene pero necesita que alguien más lo diga primero. Esos perros llegaban a casa de la mujer con sus mantas, sus tazones, sus costumbres específicas, y vivían con ella el tiempo que les quedaba.
+No los que nadie quería por feos o revoltosos. Los que nadie quería porque se estaban acabando: los que el veterinario nombraba con palabras largas y los dueños escuchaban con esa cara de quien ya sabe lo que viene pero necesita oírselo decir a otro primero. Esos perros llegaban a su casa con la manta, el cuenco, sus manías, y se quedaban el tiempo que les quedara.
 
-La mujer se llamaba Luisa. Tenía una casa con jardín en el extremo de la ciudad. El jardín tenía árboles.
+Se llamaba Luisa. Vivía en una casa con jardín, y el jardín tenía árboles, que para un perro viejo es casi todo lo que hace falta.
 
-Lo que la gente del barrio decía de ella era que los perros le hablaban. No querían decir que los perros producían palabras. Querían decir que Luisa los entendía de una manera que no parecía ordinaria: que sabía cuándo tenían frío antes de que lo mostraran, y cuándo tenían miedo, y cuándo era el momento de dejar que la cosa terminara con dignidad en lugar de con tubos y monitores y la cara de alguien que no sabe cómo decirte que ya es tarde.
+Por el barrio se decía que a Luisa le hablaban los perros. No que soltaran palabras: que ella los entendía de un modo que no era el de todo el mundo. Sabía si tenían frío antes de que se les notara, sabía cuándo llegaba el miedo, y sabía cuándo había que dejar que las cosas terminaran en paz, sin tubos ni pantallas ni esa cara que pone la gente cuando no sabe cómo decirte que ya no hay tiempo.
 
-Los perros no hablaban. Pero Luisa escuchaba de una manera que producía el mismo resultado.
-
----
-
-El primero que llegó se llamaba Artur. Era un labrador de trece años, de color canela, que había vivido toda su vida en un apartamento de ciudad con una pareja que luego tuvo hijos y luego el perro se quedó grande para el apartamento y viejo para los niños y cansado para todos. No era culpa de nadie en particular, o era culpa de todos de una manera tan repartida que ya no importaba asignarla.
-
-Artur llegó con una caja de cosas: la manta, el tazón con su nombre escrito en rotulador permanente, tres juguetes que ya no usaba pero que la familia había metido porque no sabían qué más poner. Llegó con la seguridad lenta de los perros que han decidido confiar sin más preguntas.
-
-Luisa le enseñó el jardín. Luego le enseñó el interior. Luego lo dejó decidir dónde quedarse.
-
-Artur eligió un rincón junto a la ventana que daba al jardín. Desde ahí podía ver los árboles y el sol de la tarde cuando el sol llegaba a ese ángulo. Se quedó ahí la mayor parte del tiempo que le quedó, que fue cuatro meses.
+Los perros no hablaban, no. Pero con Luisa daba igual.
 
 ---
 
-Lo que Luisa había aprendido, perro a perro, era esto: que el duelo por un perro se puede preparar porque el horizonte del duelo es aproximadamente conocido.
+El primero fue Artur, un labrador color canela de trece años que había vivido siempre en un piso de ciudad, con una pareja a la que después le nacieron niños, y el perro se hizo grande para el piso, y viejo para los niños, y cansado para todos. No fue culpa de nadie en concreto. O fue culpa de todos a partes tan pequeñas que ya no merecía la pena repartirla.
 
-El veterinario da márgenes, no certezas. Pero los márgenes son suficientes para empezar a despedirse antes de que se acabe, que es un lujo que el duelo por las personas no siempre da. La mayoría de los amores no son honestos sobre su horizonte: no sabes cuándo va a terminar ni cómo ni por qué. El amor por un perro viejo tiene horizonte visible. Puedes poner las cosas en orden. Puedes decir lo que quieres decir mientras hay tiempo.
+Llegó con una caja: la manta, el cuenco con su nombre en rotulador, tres juguetes que ya no tocaba pero que alguien metió porque no sabía qué más meter. Llegó con esa calma lenta de los perros que han decidido fiarse sin hacer más preguntas.
 
-No que los perros entiendan las palabras. Pero el tono sí. Y el tono es donde vive lo importante.
+Luisa le enseñó el jardín, luego la casa, y luego lo dejó elegir su sitio.
 
----
-
-El tercero fue una perra pequeña que se llamaba Ona. Llegó con miedo, que era distinto al miedo de Artur: Artur tenía miedo de cosas específicas —los petardos, las bolsas de plástico— y el resto del tiempo era un perro tranquilo. Ona tenía miedo del mundo en general, con esa constancia de quien aprendió muy pronto que el mundo era un lugar donde convenía estar alerta.
-
-Llegó en invierno. Pasó los primeros días debajo de la mesa de la cocina sin salir. Luisa le dejaba la comida cerca pero no la forzaba. El jardín podía esperar. Los árboles no iban a ningún sitio.
-
-En la tercera semana, Ona salió de debajo de la mesa y se sentó junto a la silla de Luisa mientras desayunaba. No pedía comida. Solo estaba.
-
-Luisa lo notó pero no lo celebró en voz alta, que era la diferencia: no señalar el progreso porque señalarlo lo convierte en expectativa, y la expectativa es una manera de volver a poner condiciones. Ona había pasado suficiente tiempo con condiciones.
-
-Vivió once meses. Al final dormía en la cama, que era donde Ona había decidido que quería dormir y Luisa había decidido que era lo más honesto.
+Artur se quedó con el rincón de la ventana, desde donde se veían los árboles y le daba el sol de la tarde cuando el sol llegaba en ese ángulo. Allí pasó casi todo el tiempo que le quedaba: cuatro meses.
 
 ---
 
-La gente del barrio no entendía del todo lo que hacía Luisa. Algunos pensaban que era triste. Otros que era valiente. El hombre de la casa de enfrente, que la veía sacar cajas con correas usadas y tazones cada pocos meses para tirarlas al contenedor, pensaba que había algo monstruoso en amar tantas veces sabiendo cómo acaba.
+Luisa había aprendido, perro tras perro, algo que no se le olvidaba: que un duelo por un perro se puede ir preparando, porque más o menos se sabe cuánto queda.
 
-Ella no lo llamaba de ninguna de las tres maneras.
+El veterinario no da certezas, da un margen. Pero el margen ya es mucho: alcanza para empezar a despedirse antes de que llegue el final, que es más de lo que suele dar el duelo por una persona. La mayoría de los amores no avisan de cuándo se acaban, ni de cómo, ni de por qué. Un perro viejo sí avisa. Da tiempo a poner las cosas en su sitio. Da tiempo a decir lo que hay que decir.
 
-Lo que hacía era esto: vivir con algo que tiene horizonte visible. Saber desde el principio que lo que tienes se va a ir. Y hacerlo de todas formas, no a pesar de eso sino con eso, porque la alternativa era no tener nada que se fuera a ir, y eso era una clase de seguridad que a Luisa no le parecía que mereciera la pena.
-
-Cada perro que llegaba sabiendo que iba a irse era también la práctica de algo. De estar con lo que termina. De no apartarse del final sino acompañarlo.
-
-No le habían enseñado esto. Lo había aprendido perro a perro, duelo a duelo pequeño, hasta que el duelo dejó de ser algo que le pasaba y empezó a ser algo que ella hacía. Con las manos abiertas, que es la única manera de hacer algo sin pretender que va a ser diferente de lo que es.
+No es que entiendan las palabras. Pero el tono sí lo entienden, y el tono es donde vive casi todo.
 
 ---
 
-Artur murió en noviembre, en el rincón junto a la ventana. El sol de la tarde estaba en su sitio.
+La tercera fue una perra pequeña, Ona. Llegó con miedo, y no el miedo de Artur —que le temía a cosas concretas, los petardos, las bolsas de plástico, y el resto del tiempo era un perro tranquilo—, sino un miedo de fondo, permanente, de quien aprendió pronto que el mundo es un sitio donde conviene no bajar la guardia.
 
-No fue dramático. Fue la clase de muerte que los vivos envidian en silencio: en un lugar conocido, con alguien cerca, sin el pánico de no saber qué está pasando. El cuerpo que termina lo que tenía que terminar.
+Llegó en invierno. Los primeros días no salió de debajo de la mesa de la cocina. Luisa le dejaba la comida cerca y no insistía. El jardín podía esperar; los árboles no se iban a ir a ningún sitio.
 
-Luisa estuvo con él. No hizo nada especial. Solo estuvo.
+A la tercera semana, Ona salió sola y se sentó junto a la silla de Luisa mientras desayunaba. No pedía nada. Solo se quedaba ahí.
 
-Después recogió la manta y el tazón y los tres juguetes que no había usado en cuatro meses. Los guardó en una caja. En el jardín, bajo el árbol que Artur había preferido oler las tardes que tenía fuerzas para salir, plantó algo pequeño que florecería en primavera.
+Luisa se dio cuenta y no dijo nada. Si lo hubiera celebrado en voz alta, se habría convertido en algo esperado, y lo esperado pone condiciones, y Ona ya había tenido bastantes condiciones en su vida.
+
+Vivió once meses. Al final dormía en la cama, que era donde ella había decidido dormir y Luisa había decidido que era lo justo.
+
+---
+
+En el barrio no acababan de entender a Luisa. Unos la veían triste. Otros, valiente. El vecino de enfrente, que la veía sacar cada pocos meses cajas con correas usadas y cuencos vacíos camino del contenedor, pensaba que había algo un poco monstruoso en querer tanto, tantas veces, sabiendo cómo termina siempre.
+
+Luisa no se veía en ninguna de las tres.
+
+Lo suyo era más simple: vivía con algo que sabía de antemano que se iba a ir, y lo hacía de todas formas, no a pesar de saberlo sino con eso puesto encima, porque la otra opción —no tener nada que pudiera irse— le parecía una seguridad que no valía lo que costaba.
+
+Cada perro nuevo era también practicar algo: quedarse cerca de lo que se acaba, en vez de apartar la vista.
+
+Nadie se lo había enseñado. Lo aprendió a fuerza de perros, de duelos pequeños uno detrás de otro, hasta que el duelo dejó de ser algo que le ocurría y pasó a ser algo que ella hacía. Con las manos abiertas, que es la única forma de hacer estas cosas sin engañarse sobre lo que son.
+
+---
+
+Artur murió en noviembre, en su rincón, con el sol de la tarde en su sitio de siempre.
+
+No fue triste de ver. Fue la clase de muerte que cualquiera envidiaría en silencio: en un lugar conocido, con alguien cerca, sin el pánico de no entender qué está pasando. Un cuerpo que termina lo que tenía que terminar.
+
+Luisa se quedó con él. No hizo nada especial. Se quedó, y ya.
+
+Después recogió la manta, el cuenco, los tres juguetes que nunca llegó a usar, y los guardó en una caja. Bajo el árbol que a Artur le gustaba oler las tardes buenas, plantó algo pequeño que florecería en primavera.
 
 La semana siguiente llamó al veterinario para preguntar si había otro.
 

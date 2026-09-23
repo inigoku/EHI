@@ -55,8 +55,6 @@ La hija, cuyo nombre encontré hace cinco años en un libro parroquial: Joana, m
 
 Pero yo puedo trazarlo. La línea de conexiones que va del zapatero de 1603 hasta el diario de 1887 es larga y tiene saltos, pero existe. La forma de Marta Albó incluye, hacia adelante en el tiempo, la forma de personas que vivieron doscientos años después de ella y que no sabían que la forma de su vida tenía ese nudo en su centro.
 
-La red no termina. Los nudos oscuros siguen siendo nudos.
-
 Cada mañana abro el catálogo y continúo. La forma de quien no está, construida de lo que queda.
 
 ---

@@ -48,8 +48,6 @@ The daughter, whose name I found five years ago in a parish book: Joana, mention
 
 But I can trace it. The line of connections that goes from the cobbler of 1603 to the diary of 1887 is long and has gaps, but it exists. The shape of Marta Albó includes, forward in time, the shape of people who lived two hundred years after her and who did not know that the shape of their lives had that knot at its center.
 
-The web does not end. The dark knots remain knots.
-
 Every morning I open the catalog and continue. The shape of the one who is not there, built from what remains.
 
 ---

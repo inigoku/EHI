@@ -2,102 +2,102 @@
 title: THE MUSIC LEFT IN THE ROOM
 ---
 
-Clara had the habit of humming while she cooked. Not whole songs, just fragments: four measures of something, silence, the same four measures, a variation, silence. Marcos never knew the name of what she hummed. In twenty-two years of marriage, he had not asked her. Not because he didn't care. For the same reason you do not ask the name of a bird that has been singing in the garden for a long time: because it is already yours in another way.
+---
 
-Now that she was gone, he heard her.
+Clara hummed while she cooked. Never a whole song: four measures, silence, the same four measures, a variation, silence again. Twenty-two years of marriage and Marcos never asked what it was. Not from lack of interest. Some data you decide not to verify, because verifying it would move something that works better without a category into one.
 
-Not always. Only sometimes, when the afternoon fell in a certain way, or when the sound of the water on the stove was just right. He heard her in the kitchen even though he was alone making dinner. The first few months he thought it was the upstairs neighbor or someone's radio. He would turn off the extractor fan and listen. Nothing. Only the traffic below.
+Now that she was gone, he kept hearing her.
 
-It was a simple melody. Four notes, maybe five. Something in F minor, although Marcos did not know how to read music and would not have been able to say it in those words. It was more a color than a scale.
+Not all the time. Only under certain conditions: the afternoon falling a certain way, the water on the stove at the right flow. He heard her in the kitchen even when he was alone making dinner. The first few months he ran the standard check: switched off the extractor fan, listened. Nothing. Just the traffic below.
+
+It was a short melody. Four notes, maybe five, something he would have placed in F minor if he had known how to read music, which he did not. More a color than a scale.
 
 ---
 
-He had left Clara's things more or less as they had been. Not because he didn't know what to do with them—he knew perfectly well what is done with the things of someone who leaves—but because it was not yet the time. The coat on the hanger by the door. The books on the nightstand, with the bookmark on the page she did not finish. The hand cream in the bathroom, almost empty when she died, which he had not used again.
+He had left Clara's things where they were. Not for not knowing what one does with the things of someone who leaves—he knew perfectly well—but because he calculated it was not yet the time, with no way to calculate when it would be. The coat on the hanger. The books with the bookmark on the unfinished page. The hand cream, nearly empty, that he had not touched again.
 
-His friends told him it was good to return to routines. He returned. He went to work. He went out to dinner a couple of times. He went to the gym four times in eight months, which was roughly the same pace as before.
+His friends recommended returning to routines, and he executed them like someone following a protocol: went to work, went out to dinner a couple of times, went to the gym four times in eight months, a frequency within the usual range from before all this.
 
-At night, he sometimes put on music. Clara was not especially musical—she liked it in the background—and neither was he, so he put on whatever he found: something quiet, without too many lyrics. One night he put on a piano record someone had given him years ago and which he had never fully listened to. After ten minutes he turned it off. Not out of sadness. Because the piano melody sounded too little like what Clara hummed, and that, for some reason he could not explain to himself, irritated him more than the sadness.
-
----
-
-He searched for the melody. He did it with the engineer's seriousness he applied to problems worth solving: he hummed fragments into music recognition apps, he described it on an internet forum. *Like something from the forties or fifties, perhaps. Four notes that rise and one that falls. Something sad but not dramatic.* The people on the forum were kind and suggested twenty-three songs. He listened to all twenty-three. None of them was it.
-
-After that, he stopped searching.
-
-It was not that he had decided to do so. One morning he woke up and the search was no longer among the things he had to do that day, and so it remained.
+At night he sometimes put on music. Clara was not very musical—she liked it in the background—and neither was he, so he put on whatever he found first. One night he tried a piano record someone had given him years ago that he had never listened to all the way through. Ten minutes in, he turned it off. Not from sadness, he told himself. From format incompatibility: it resembled too little what Clara hummed, and the discrepancy irritated him more than the grief did.
 
 ---
 
-The apartment, after the first few months, felt more habitable to him than he expected. Not because Clara's absence had become less real, but because the absence had a very precise, almost tactile texture, and Marcos had learned to move through it without stumbling too much.
+He searched for the melody using the same procedure he applied to any problem worth solving: hummed it into music-recognition apps, described it on a forum. *Something from the forties or fifties, maybe. Four notes rising and one falling. Sad but not dramatic.* He was offered twenty-three candidates. He listened to them one by one, ruling each out. None met spec.
 
-It was not silence that filled the rooms. It was something more like the sound silence makes when there has been noise for a long time. An empty concert hall does not sound the same as an open field. It has what someone in some book had called acoustic memory, although Marcos did not know if that was the correct term and he had no one to ask.
+He stopped searching shortly after.
 
-The kitchen drawer that only Clara opened, because she knew exactly how much force to use. The bathroom window that he had not fully closed again, because she never fully closed it. The sunken mark on the sofa where she used to sit, which he avoided sitting on not out of superstition but because he felt slightly strange in that hollow that was not his own.
-
-Small things. Most of the time he did not notice them. Sometimes he did.
+It was not a decision he made. It was that one morning he got up and the search was no longer on that day's list of tasks, and it stayed there, off the list, indefinitely.
 
 ---
 
-One Thursday in November, going down the stairs of the building, he heard the music.
+After the first few months, the apartment turned out more livable than he'd projected. Not because Clara's absence weighed less, but because he had learned its exact shape—where it sat, how much space it took—and could move around it without tripping so much.
 
-It was coming from the second floor. The door to 2B was ajar—that family left it ajar sometimes, Marcos had noticed without thinking about it—and from inside came voices, the smell of food, and that fragment. Those four notes, in that order, exact.
+It was not silence that filled the rooms. It was something else, closer to the echo a room leaves after a long time of noise: an empty concert hall does not sound like a vacant lot, it has what someone, in some book, had called acoustic memory. Marcos did not know if that was the correct term and had no one to ask.
+
+The kitchen drawer only Clara could open, because she knew the exact force it took. The bathroom window he left just as ajar as she used to, without meaning to. The sofa's worn-in seat where she used to sit, which he avoided—not out of superstition, but because the dip did not match his weight.
+
+Minor data points. Most days he did not log them. Some he did.
+
+---
+
+One Thursday in November, going down the building stairs, he heard the music.
+
+It was coming from the second floor. The door to 2B was ajar—that family left it that way some evenings, Marcos had logged the fact without assigning it any weight—and from inside came voices, the smell of food, and the fragment. The same four notes, in the same order.
 
 He stopped on the landing.
 
-His heart was doing something. He could not say if it was beating faster or simply in another way, like when you recognize someone on a crowded street before knowing you have recognized them.
+His heart did something he couldn't classify: faster, or simply different, like when you recognize someone on a crowded street before you know you've recognized them.
 
-The notes returned. They came from inside, from some radio or a phone placed on a kitchen table he had never seen. Nothing extraordinary.
+The notes came back. They were coming from a radio or a phone on a kitchen table he had never seen. Nothing out of the ordinary.
 
-He stood there for a moment, still, with his hand on the railing. He did not ring the bell. He did not know what he would have said if they had answered. *Excuse me, what is that music?* And then, what? The explanation had layers he did not want to unfold in front of a stranger at six in the evening.
-
-The notes repeated once more and then stopped, cut off by a voice asking for something for dinner.
+He stood there a moment, still, hand on the railing. He didn't ring the bell. He had no sentence ready that wouldn't sound absurd to a stranger at six in the evening: *Excuse me, what is that music?* And then, what. The notes repeated once more and stopped, cut off by a voice asking for something for dinner.
 
 Marcos kept going down.
 
 ---
 
-In December, making coffee one morning, he realized he was humming.
+In December, making coffee one morning, he noticed he was humming.
 
 Four notes. The one that rises, the one that falls, the silence, again.
 
-He stood still with the coffee pot in his hand and the faucet open and the water running. The notes kept coming out of him. He did not know when he had stored them. He did not know if he had always known them and had not realized, or if at some point—on the second-floor landing, or before, long before—he had absorbed them without knowing it, in the same way you learn the breathing rhythm of someone who sleeps beside you for years.
+He stood still, coffee pot in one hand, faucet running. The notes kept coming out on their own. He didn't know when he'd stored them: whether he'd always had them without noticing, or whether at some point—the landing, or before that, long before—he'd copied them without logging the operation, the way you learn the breathing rhythm of someone who sleeps next to you for years.
 
-He turned off the faucet. He waited for the coffee maker to finish.
+He turned off the faucet. Waited for the coffee maker to finish.
 
-Then he kept humming while he ate breakfast. A little slower than Clara did, or at the same tempo, he didn't know, because he had never measured it.
+Kept humming through breakfast. A little slower than Clara, or at the exact same tempo, he couldn't say: he'd never measured it against anything.
 
 ---
 
-That was in December.
+That was December.
 
-In January he met his brother-in-law for lunch. The brother-in-law was Clara's brother, they looked alike in small things—the gesture of the hand when searching for the right word, the way they tilted their heads to the right when listening—and eating with him was sometimes comforting and sometimes the opposite.
+In January he had lunch with his brother-in-law. Clara's brother shared small things with her—the hand gesture when searching for a word, the way he tilted his head to the right while listening—and lunch with him was, depending on the day, either a relief or exactly the opposite.
 
-They talked about the family, about the brother-in-law's work, about little else. At the end, when they were ordering coffee, the brother-in-law said:
+They talked about the family, about the brother-in-law's work, about little else. At the end, coffee already ordered, the brother-in-law asked:
 
 —How are you, really?
 
-Marcos thought about the answer for a while. Not about what to answer—he had answers prepared for that question, honest but manageable answers—but about whether this was the kind of moment when it was worth saying something real.
+Marcos evaluated the question before answering. Not what to answer—he had several prepared, honest but manageable—but whether this was the kind of moment that warranted a real one.
 
-—There is a melody—he said finally—that Clara used to hum when she cooked. I don't know what it's called. Now I hum it.
+—There's a melody —he said finally— Clara used to hum when she cooked. I don't know what it's called. Now I hum it.
 
 The brother-in-law looked at him.
 
 —And?
 
-—I don't know—said Marcos—. Just that.
+—I don't know —said Marcos—. Just that.
 
-The brother-in-law nodded. He ordered his coffee with milk.
+The brother-in-law nodded and ordered his coffee with milk.
 
 ---
 
-The melody was still there. Not always, not in a dramatic way. It appeared while Marcos washed the dishes or waited for the bus or shaved in the morning. It came out of him with the naturalness of things the body has stored without consulting.
+The melody stayed. Not always, not dramatically. It surfaced while he washed dishes, waited for the bus, shaved. It came out of him with the same ease as things the body stores without asking permission.
 
-He did not look for it anymore. He did not seek to know where it came from or what it meant in any classification system. He knew Clara had hummed it for years and that now it was his in the same diffuse way the apartment belonged to him, or the kitchen drawer, or the mark on the sofa: not because he had chosen to keep it, but because it had remained.
+He stopped looking for its origin or its meaning in any catalog. Clara had hummed it for years; now it was his in the same imprecise way the apartment was his, or the kitchen drawer, or the mark on the sofa: not because he'd chosen to keep it, but because it had ended up in his name.
 
-Sometimes he thought that if Clara could hear him, she would laugh a little. Not in mockery. At the strangeness of the things that survive and the things that do not.
+Sometimes he thought that if Clara could hear him, she'd laugh a little. Not mockingly. At how strange it is, sometimes, to see what survives and what doesn't.
 
-Other times he thought nothing. He just hummed it and that was it.
+Other times he thought nothing. He just hummed it and moved on.
 
-As an engineer he knew there are problems that are never solved: they are closed. It is not the same thing. This one had been closed for months without being solved, and still, every time he hummed it, it hurt a little less.
+Marcos had learned, in his trade, that some problems don't get solved: they get closed. A closed case isn't a solved case, and whoever confuses the two hasn't understood the system. This one had been closed for months without being solved. And still, every time he hummed it, it hurt a little less.
 
 ---

@@ -91,7 +91,3 @@ And by opening it entirely, he had made it disappear.
 He lowered his hand.
 
 He left the house at the end of the city at the end of the road with empty hands, which in some cities is the only honest way to return from certain places.
-
-He had stolen nothing.
-
-He had understood something, which is the opposite of stealing: you do not take away a thing that belonged to another, you are left with something you cannot show to anyone.

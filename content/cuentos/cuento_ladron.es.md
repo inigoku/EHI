@@ -81,5 +81,3 @@ El ladrón se quedó con la palma abierta sobre el sitio donde había estado la 
 Entendió que el tesoro no estaba dentro de la caja, sino que era el adentro. Y que al abrirlo del todo, lo había hecho desaparecer.
 
 Bajó la mano y salió de la casa al final de la ciudad al final del camino con las manos vacías, que en algunas ciudades es la única manera honesta de volver de ciertos sitios.
-
-No había robado nada, pero había entendido algo, que es lo contrario de robar: te quedas con algo que no puedes enseñarle a nadie.
