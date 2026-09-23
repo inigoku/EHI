@@ -63,7 +63,21 @@ Lo que sí hay que saber es que los personajes de estos cuentos —el archivista
 
 **Epílogo**
 
-*El que queda* — Cuento final
+*El que queda*
+
+---
+
+### Los cuatro últimos libros
+
+19. *El estanque*
+20. *Antes de que amanezca*
+21. *Los últimos minutos*
+22. *El dragón*
+23. *El vecino de arriba*
+24. *La plaza llena*
+25. *La chapa en el cajón*
+
+---
 
 **Coda** *(memoria, no ficción)*
 
