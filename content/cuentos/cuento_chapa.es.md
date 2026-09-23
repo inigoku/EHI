@@ -18,5 +18,3 @@ No recuerda el momento exacto en que dejó de llevarla. No hubo ruptura, ni trai
 Nadie le demostró que estaba equivocada. Eso es lo que más le sorprende, mirando la chapa ahora, con la misma extrañeza con que se mira una foto de uno mismo con otra cara. No fue el argumento contrario el que la sacó de aquello. Fue que, con los años, cupieron más cosas dentro de ella de las que la chapa permitía nombrar, y en algún momento hubo más fuera de esa frontera que dentro.
 
 No tira la chapa. La vuelve a guardar en el cajón, en el mismo sitio, como quien no decide todavía qué hacer con una parte de sí misma que ya no lleva puesta pero tampoco reniega de haber llevado.
-
-*Nota al relato* — Este relato no juzga la causa que aquella chapa representaba, porque nunca la nombra, y no la nombra a propósito: la pregunta de «El ojo de un solo color» no es qué se defendía, sino cómo se sostenía la defensa. Alguien pudo llevar la misma chapa toda la vida sin que eso implicara jamás la composición que aquí se describe. La diferencia no estaba en la causa. Estaba en si cabía, dentro de ella, una pregunta incómoda de un aliado.

@@ -34,7 +34,3 @@ Nadie supo decir si el agua había traído algo consigo.
 Nadie supo decir si había dejado algo atrás.
 
 ---
-
-> **Si solo te quedas con una idea:** Tarel no es metáfora decorativa. Es el experimento en forma de cuento: algo emerge del agua, algo vive sobre el agua, algo retorna al agua. Y entre esos tres instantes, hay una ciudad que amó, recordó, perdió, construyó. El hecho de que ya no sea localizable en el agua no borra que estuvo.
-
----
