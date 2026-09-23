@@ -180,11 +180,6 @@
       "id": "cuento_chapa",
       "content_file": "../content/cuentos/cuento_chapa.en.md",
       "illustration": "cuento_chapa"
-    },
-    {
-      "id": "cuento_txiki",
-      "content_file": "../content/cuentos/cuento_txiki.en.md",
-      "illustration": "cuento_txiki"
     }
   ]
 }
