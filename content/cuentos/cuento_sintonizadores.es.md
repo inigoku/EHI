@@ -109,7 +109,7 @@ El algoritmo se llamaba, en los documentos internos, *Sintonizador Absoluto*. Pr
 
 —¿Qué?
 
-Marcos no supo terminar la frase. Laimagen de Gaudí en la cripta o las notas sobre Séneca de Roma no le servían para explicar a Elena la resistencia física de una disolución real. Llevaba semanas oyendo, en los márgenes de su propio silencio, una melodía que no recordaba haber aprendido nunca, tarareada por una voz que no era la suya, en una lengua que se parecía al catalán antiguo de los archivos que a veces leía por curiosidad profesional.
+Marcos no supo terminar la frase. La imagen de Gaudí en la cripta o las notas sobre Séneca de Roma no le servían para explicar a Elena la resistencia física de una disolución real. Llevaba semanas oyendo, en los márgenes de su propio silencio, una melodía que no recordaba haber aprendido nunca, tarareada por una voz que no era la suya, en una lengua que se parecía al catalán antiguo de los archivos que a veces leía por curiosidad profesional.
 
 El sistema de Post-Crimen encontró la anomalía un martes, en un rastreo rutinario del subsuelo antes de una obra de metro. Un punto caliente de información que no se había mezclado en cuatrocientos años: una singularidad congelada, latiendo en una frecuencia que ningún sintonizador vivo debería reconocer.
 

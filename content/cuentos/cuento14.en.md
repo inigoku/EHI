@@ -61,4 +61,3 @@ What happened in that room, happened. It does not disappear: it is the kind of t
 I also know other things. That also counts.
 
 ---
----```

@@ -109,4 +109,3 @@ That perhaps that was enough for now.
 In the notebook, beneath the vitals and the hours, the question was still there, written with the smaller pen: *When is that?* Fifteen years later, she still could not answer it with the larger one.
 
 ---
----

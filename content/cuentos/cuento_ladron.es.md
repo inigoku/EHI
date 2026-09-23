@@ -9,7 +9,7 @@ illustrationDescription: Un cofre con siete cerraduras complejas sobre una mesa.
 
 Se decía de él que podía abrir cualquier cosa.
 
-No era jactancia ajena - era simple constatación. Puertas que llevaban selladas generaciones, cofres cuyos dueños habían muerto sin abrirlos, cajas dentro de cajas dentro de cajas,... todo cedía tarde o temprano a sus manos. Unas manos que sabían escuchar lo que un mecanismo quiere antes de que el propio mecanismo lo sepa. No robaba por codicia, robaba porque no soportaba que algo estuviera cerrado y él estuviera afuera.
+No era jactancia ajena — era simple constatación. Puertas que llevaban selladas generaciones, cofres cuyos dueños habían muerto sin abrirlos, cajas dentro de cajas dentro de cajas… todo cedía tarde o temprano a sus manos. Unas manos que sabían escuchar lo que un mecanismo quiere antes de que el propio mecanismo lo sepa. No robaba por codicia, robaba porque no soportaba que algo estuviera cerrado y él estuviera afuera.
 
 Un día le hablaron de una caja al final de una casa al final de una ciudad al final de un camino. Se decía que dentro había un tesoro que ningún ladrón había podido alcanzar. Ese tesoro tenía siete cerraduras, y cada cerradura era distinta, de manera que ninguna se abría con lo que abría la anterior.
 
@@ -82,4 +82,4 @@ Entendió que el tesoro no estaba dentro de la caja, sino que era el adentro. Y 
 
 Bajó la mano y salió de la casa al final de la ciudad al final del camino con las manos vacías, que en algunas ciudades es la única manera honesta de volver de ciertos sitios.
 
-No había robado nada, pero había entendido algo, que es lo contrario de robar: te quedas con algo que no puedes enseñarle a nadie
+No había robado nada, pero había entendido algo, que es lo contrario de robar: te quedas con algo que no puedes enseñarle a nadie.

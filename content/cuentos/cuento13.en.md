@@ -69,4 +69,3 @@ I closed it and handed it back to him. The tick of the balance wheel came throug
 I did not write that in his chart. There is no field on the form for "it's running well, for now" — and yet it was the most accurate note I had that day.
 
 ---
----

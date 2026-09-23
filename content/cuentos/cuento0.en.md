@@ -77,4 +77,3 @@ Tarel and the one who remains are the same experiment told from two extremes: th
 The question does not have a single answer. It has many small, partial answers, contradictory among themselves. That too is an answer.
 
 ---
----

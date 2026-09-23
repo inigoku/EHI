@@ -71,4 +71,3 @@ What I taught mine, for a long time, was one thing. Then I tried to teach it ano
 There is no final version. Only the one I have installed today, with its patches, with the bugs I already know about and the ones I don't yet. I update when I can. The system keeps running.
 
 ---
----

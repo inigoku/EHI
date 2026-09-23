@@ -109,4 +109,3 @@ They never talked about it, she and Jordi. About the house. Or perhaps they trie
 They kept the key longer than necessary. They both remembered that.
 
 ---
----

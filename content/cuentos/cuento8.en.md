@@ -69,4 +69,3 @@ That bridges, when you use them for a long time, do that: the two shores hold on
 Only with the shape of the other side, held in things that fit in the hands.
 
 ---
----

@@ -79,4 +79,3 @@ Below it is a blank space, as wide as the margins he left for notes he never add
 This time he left it on purpose.
 
 ---
----

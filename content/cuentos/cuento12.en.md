@@ -137,4 +137,3 @@ In September he wrote the last entry of the year.
 He closed the notebook. Outside, the city did what cities do: continue without anyone asking it to.
 
 ---
----
