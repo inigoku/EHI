@@ -9,100 +9,44 @@ illustrationDescription: Una cocina vacía al atardecer. Formas ondulantes de lu
 
 ---
 
-Clara tarareaba mientras cocinaba. Nunca una canción entera: cuatro compases, silencio, los mismos cuatro compases, una variación, silencio otra vez. Veintidós años de matrimonio y Marcos nunca le preguntó cómo se llamaba lo que tarareaba. No por desinterés. Hay datos que uno decide no verificar, porque verificarlos cambiaría de categoría algo que funciona mejor sin categoría.
+No sabes cuándo empezaste a tararearla. Un jueves de diciembre te sorprende con la cafetera en la mano: cuatro notas, la que sube, la que baja, el silencio, otra vez. Cierras el grifo y te quedas quieto, escuchándote, intentando averiguar de dónde ha salido eso que sale de ti sin que lo hayas llamado.
 
-Ahora que ella no estaba, la seguía oyendo.
+Viene de Clara. Eso lo sabes, aunque nunca supiste cómo se llamaba lo que ella tarareaba mientras cocinaba. En veintidós años de matrimonio no se lo preguntaste —no porque no te importara, sino por la misma razón por la que no le preguntas el nombre a un pájaro que lleva tiempo cantando en tu jardín: porque ya es tuyo de otra manera.
 
-No todo el rato. Solo en ciertas condiciones: la tarde cayendo de cierta manera, el agua en los fogones con el caudal justo. La oía en la cocina aunque estuviera solo haciendo la cena. Los primeros meses hizo la comprobación de rigor: apagó el extractor, escuchó. Nada. Solo el tráfico de abajo.
-
-Era una melodía corta. Cuatro notas, quizá cinco, algo que habría situado en fa menor si hubiera sabido leer música, que no sabía. Más que una escala, era un color.
+Era una melodía corta. Cuatro notas, quizá cinco, algo que habrías situado en fa menor si supieras leer música, que no sabes. Más que una escala, era un color.
 
 ---
 
-Había dejado las cosas de Clara donde estaban. No por no saber qué se hace con las cosas de alguien que se va —lo sabía perfectamente— sino porque calculaba que todavía no era el momento, sin tener manera de calcular cuándo lo sería. El abrigo en la percha. Los libros con el marcapáginas en la página sin terminar. La crema de manos, casi vacía, que no había vuelto a tocar.
+Ahora que no está, la oyes. No siempre. Solo cuando la tarde cae de cierta manera, o cuando el agua en los fogones suena como debe sonar. Los primeros meses apagabas el extractor y escuchabas, seguro de que era el vecino o una radio. Nada. Solo el tráfico de abajo.
 
-Sus amigos le recomendaban volver a las rutinas, y él las ejecutó como quien cumple un protocolo: fue al trabajo, salió a cenar un par de veces, fue al gimnasio cuatro veces en ocho meses, una frecuencia dentro del margen habitual antes de todo esto.
+Dejaste las cosas de Clara donde estaban: el abrigo junto a la puerta, el libro con el marcapáginas en la página que no terminó, la crema de manos casi vacía que no has vuelto a tocar. No porque no supieras qué hacer con ellas. Porque todavía no era el momento.
 
-Por las noches ponía música a veces. Clara no era muy musical —la quería de fondo— y él tampoco, así que ponía lo primero que encontraba. Una noche probó un disco de piano que alguien le había regalado hacía años y que nunca había escuchado entero. A los diez minutos lo quitó. No por tristeza, se dijo. Por incompatibilidad de formato: aquello se parecía demasiado poco a lo que tarareaba Clara, y la discrepancia lo irritó más que la pena.
-
----
-
-Buscó la melodía con el mismo procedimiento que aplicaba a cualquier problema que mereciera la pena resolver: la tarareó en aplicaciones de reconocimiento musical, la describió en un foro. *Algo de los años cuarenta o cincuenta, quizá. Cuatro notas que suben y una que baja. Triste pero no dramático.* Le propusieron veintitrés candidatas. Las escuchó una por una, descartando. Ninguna cumplía especificaciones.
-
-Dejó de buscar poco después.
-
-No fue una decisión que tomara. Fue que una mañana se levantó y la búsqueda ya no estaba en la lista de tareas del día, y ahí se quedó, fuera de la lista, indefinidamente.
+El cajón de la cocina que solo abría ella, porque sabía la fuerza exacta que hacía falta. La ventana del baño que dejas entornada igual que la dejaba ella, sin proponértelo. La marca del sofá donde se sentaba, que evitas, no por superstición sino porque el hundimiento no encaja con tu peso.
 
 ---
 
-Pasados los primeros meses, el apartamento le resultó más habitable de lo previsto. No porque la ausencia de Clara pesara menos, sino porque había aprendido su forma exacta —dónde estaba, cuánto ocupaba— y podía moverse alrededor sin tropezar tanto.
+Buscaste la melodía como buscas los problemas que sí valen la pena resolver: la tarareaste en aplicaciones que reconocen música, la describiste en un foro —algo de los años cuarenta, cuatro notas que suben y una que baja, triste pero no dramático—. Te propusieron veintitrés canciones. Las escuchaste una por una. Ninguna era.
 
-No era el silencio lo que llenaba las habitaciones. Era otra cosa, más parecida al eco que deja una sala después de mucho ruido: una sala de conciertos vacía no suena como un descampado, tiene lo que alguien había llamado, en algún libro, memoria acústica. Marcos no sabía si el término era correcto y no tenía a quién preguntárselo.
-
-El cajón de la cocina que solo abría Clara, porque conocía la fuerza exacta que hacía falta. La ventana del baño que él dejaba igual de entornada que ella, sin proponérselo. La marca del sofá donde se sentaba, que él evitaba, no por superstición sino porque el hundimiento no encajaba con su peso.
-
-Datos menores. La mayoría de los días no los registraba. Algunos sí.
+Y entonces, sin decidirlo, dejaste de buscar. Una mañana la búsqueda ya no estaba entre las cosas que tenías que hacer ese día, y así se quedó.
 
 ---
 
-Un jueves de noviembre, bajando las escaleras del edificio, oyó la música.
-
-Venía del segundo piso. La puerta del 2B estaba entornada —esa familia la dejaba así algunas tardes, Marcos lo había registrado sin darle importancia— y salían voces, olor a comida, y el fragmento. Las mismas cuatro notas, en el mismo orden.
-
-Se paró en el descansillo.
-
-El corazón le hizo algo que no supo catalogar: más rápido, o simplemente distinto, como cuando reconoces a alguien en una calle llena de gente antes de saber que lo has reconocido.
-
-Las notas volvieron. Salían de una radio o de un teléfono sobre una mesa que él nunca había visto. Nada fuera de lo normal.
-
-Se quedó un momento quieto, la mano en la barandilla. No llamó al timbre. No tenía preparada una frase que no sonara absurda a un desconocido a las seis de la tarde: *perdone, ¿qué es esa música?* Y después, ¿qué. Las notas se repitieron una vez más y pararon, cortadas por una voz que pedía algo para cenar.
-
-Marcos siguió bajando.
+Un jueves de noviembre, bajando las escaleras, la oíste otra vez: salía del 2B, entre voces y olor a comida, esas cuatro notas exactas. Te paraste en el descansillo con la mano en la barandilla. No llamaste. No sabías qué habrías dicho si te hubieran abierto. Las notas se repitieron una vez más y luego se cortaron, pedidas por una voz que quería algo para cenar. Seguiste bajando.
 
 ---
 
-En diciembre, preparando el café una mañana, notó que estaba tarareando.
+En enero, comiendo con tu cuñado, te preguntó cómo estabas en realidad, y por primera vez elegiste la respuesta honesta en vez de la manejable.
 
-Cuatro notas. La que sube, la que baja, el silencio, otra vez.
+—Hay una melodía que Clara tarareaba cuando cocinaba. No sé cómo se llama. Ahora la tarareo yo.
 
-Se quedó quieto con la cafetera en una mano y el grifo abierto. Las notas seguían saliendo solas. No sabía cuándo las había almacenado: si siempre las tuvo y no se había dado cuenta, o si en algún momento —el descansillo, o antes, mucho antes— las había ido copiando sin registrar la operación, de la misma manera en que se aprende el ritmo de respirar de alguien que duerme a tu lado durante años.
+—¿Y? —dijo él.
 
-Cerró el grifo. Esperó a que terminara la cafetera.
-
-Siguió tarareando mientras desayunaba. Un poco más despacio que Clara, o al mismo ritmo exacto, no sabría decirlo: nunca lo había medido con nada.
+—No sé. Solo eso.
 
 ---
 
-Eso fue en diciembre.
+Sigue ahí, contigo, cuando lavas los platos o esperas el autobús o te afeitas. Sale de ti con la naturalidad de las cosas que el cuerpo guarda sin consultar. Ya no la buscas. Sabes que Clara la tarareó durante años y que ahora es tuya de la misma manera difusa en que es tuyo el apartamento, o el cajón que solo ella sabía abrir: no porque la hayas elegido, sino porque se ha quedado.
 
-En enero comió con su cuñado. El hermano de Clara compartía con ella cosas pequeñas —el gesto de la mano al buscar una palabra, cómo inclinaba la cabeza hacia la derecha al escuchar— y comer con él era, según el día, un alivio o justo lo contrario.
-
-Hablaron de la familia, del trabajo del cuñado, de poco más. Al final, con el café ya pedido, el cuñado preguntó:
-
-—¿Cómo estás, en realidad?
-
-Marcos evaluó la pregunta antes de responder. No el contenido de la respuesta —tenía varias preparadas, honestas pero manejables— sino si aquel era el tipo de momento que justificaba una respuesta real.
-
-—Hay una melodía —dijo al final— que tarareaba Clara cuando cocinaba. No sé cómo se llama. Ahora la tarareo yo.
-
-El cuñado lo miró.
-
-—¿Y?
-
-—No sé —dijo Marcos—. Solo eso.
-
-El cuñado asintió y pidió el café con leche.
-
----
-
-La melodía se quedó. No siempre, no de forma llamativa. Aparecía lavando platos, esperando el autobús, afeitándose. Salía de él con la misma naturalidad de las cosas que el cuerpo guarda sin pedir autorización.
-
-Dejó de buscar su origen o su significado en ningún catálogo. Clara la había tarareado durante años; ahora era suya de la misma manera imprecisa en que eran suyos el apartamento o el cajón de la cocina o la marca del sofá: no porque la hubiera elegido, sino porque había quedado a su nombre.
-
-A veces pensaba que si Clara pudiera oírlo se reiría un poco. No por burla. Por lo raro que resulta, a veces, ver qué sobrevive y qué no.
-
-Otras veces no pensaba nada. La tarareaba y seguía.
-
-Marcos había aprendido, en su oficio, que hay problemas que no se resuelven: se cierran. Un caso cerrado no es un caso resuelto, y quien confunda las dos cosas no ha entendido el sistema. Este llevaba meses cerrado sin estar resuelto. Y aun así, cada vez que lo tarareaba, dolía un poco menos.
+Era suficiente. O no era suficiente, pero era lo que había, que a veces viene a ser lo mismo.
 
 ---

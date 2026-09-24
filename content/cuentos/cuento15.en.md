@@ -4,70 +4,32 @@ title: THE HOUSE OF THE TALKING DOGS
 
 ---
 
-At the edge of the city lived a woman who took in old dogs.
+RECORD — Luisa's house, edge of the city, garden with trees.
 
-Not the ones nobody wanted for being ugly or difficult. The ones nobody wanted because they were running out of time: the ones the vet named with long words, and the owners listened with that face people get when they already know what's coming but need to hear someone else say it first. Those dogs showed up at her place with their blanket, their bowl, their little habits, and stayed for whatever time was left.
+She did not take in dogs abandoned for being ugly or difficult. She took in the ones running out of time: the ones the vet describes with technical words and the owner listens to with the face of someone who knows what's coming but needs someone else to say it first. They arrived with their blanket, their bowl, their habits, and stayed for whatever time was left.
 
-Her name was Luisa. She lived in a house with a garden, and the garden had trees, which for an old dog is nearly everything.
-
-Around the neighborhood, people said the dogs talked to Luisa. Not that they produced words. That she understood them in a way most people didn't. She knew when they were cold before it showed, knew when the fear was coming, and knew when it was time to let things end in peace, without tubes or screens or that face people make when they don't know how to tell you there's no time left.
-
-The dogs didn't talk, no. But with Luisa it didn't matter.
+People in the neighborhood said the dogs talked to her. They did not produce words. Luisa simply understood them in a way that didn't seem ordinary. She knew when they were cold before it showed, and knew when it was time to let things end with dignity, instead of with tubes and monitors and the face of someone who doesn't know how to tell you it's already too late.
 
 ---
 
-The first was Artur, a thirteen-year-old cinnamon Labrador who'd spent his whole life in a city flat, with a couple who later had kids, and the dog got too big for the flat, and too old for the kids, and too tired for everyone. It wasn't anyone's fault in particular. Or it was everyone's fault, in pieces so small it wasn't worth dividing up anymore.
+ARTUR. Labrador, thirteen years old, cinnamon-colored. Lived his whole life in a city flat until the family grew and he became too big for the space and too old for the children, which is nobody's fault, or everybody's, split into pieces small enough to stop mattering. Arrived with a box: blanket, bowl with his name in marker, three unused toys. Chose the corner by the window, where he could see the trees and the afternoon sun when it reached that angle. Duration: four months.
 
-He arrived with a box: the blanket, the bowl with his name in marker, three toys he didn't play with anymore but someone had packed because they didn't know what else to pack. He arrived with that slow calm of dogs who've decided to trust without asking more questions.
-
-Luisa showed him the garden, then the house, then let him pick his spot.
-
-Artur settled on the corner by the window, where he could see the trees and catch the afternoon sun when it hit that angle. He spent most of what time he had left there: four months.
+Note: the vet gives margins, not certainties. But the margin is enough to start saying goodbye before it ends, a luxury grief for people doesn't always allow.
 
 ---
 
-Luisa had learned, dog after dog, something she never forgot: that grief for a dog can be prepared for, because you roughly know how much is left.
+ONA. Small dog. Fear not of specific things, the way Artur feared firecrackers, but of the world in general, with the constancy of one who learned early that it pays to stay alert. First days under the kitchen table, not coming out; Luisa left food nearby without forcing her. The afternoon she came out, she made no noise. She didn't run to the bowl or to Luisa: she was simply there, by the chair, when Luisa looked up from her cup, as if she had decided without warning that this was, finally, a place where one could be.
 
-The vet doesn't give certainties, gives a margin. But the margin is already a lot: enough to start saying goodbye before the end actually comes, which is more than grief for a person usually gives you. Most loves don't warn you when they'll end, or how, or why. An old dog does warn you. Gives you time to put things in order. Gives you time to say what needs saying.
-
-Not that they understand the words. But they understand the tone, and the tone is where nearly everything lives.
+Note: don't point out progress out loud. Pointing it out turns it into expectation, and Ona had already had enough of that. Duration: eleven months. Last recorded residence: the bed.
 
 ---
 
-The third was a small dog, Ona. She arrived afraid, and not Artur's kind of afraid—he was scared of specific things, firecrackers, plastic bags, and calm the rest of the time—but a background fear, permanent, the kind that comes from learning early that the world is a place where you'd better not let your guard down.
-
-She arrived in winter. The first few days she didn't come out from under the kitchen table. Luisa left food nearby and didn't push. The garden could wait; the trees weren't going anywhere.
-
-In the third week, Ona came out on her own and sat next to Luisa's chair at breakfast. She wasn't asking for anything. Just there.
-
-Luisa noticed and said nothing. Saying it out loud would have turned it into something expected, and expectation sets conditions, and Ona had already had enough conditions in her life.
-
-She lived eleven months. By the end she slept on the bed, which was where she'd decided she wanted to sleep and Luisa had decided was only fair.
+OBSERVATION, no file of its own: the man in the house across the street, who watches boxes of used leashes go out every few months on their way to the dumpster, believes there is something monstrous in loving that many times knowing how it ends. Luisa neither denies it nor confirms it. There is no record of them ever having discussed it.
 
 ---
 
-The neighborhood never quite understood Luisa. Some found it sad. Others, brave. The man across the street, who watched her carry out boxes of used leashes and empty bowls every few months on her way to the dumpster, thought there was something a little monstrous in loving that much, that many times, knowing exactly how it always ends.
+FILE CLOSED — ARTUR. Died in November, in the corner by the window, the afternoon sun in its place. It was the kind of death the living envy in silence, nothing dramatic about it. Luisa was with him, doing nothing special. She was just there. She put away the blanket, the bowl, the three unused toys. Under the tree he preferred, she planted something small.
 
-Luisa didn't see herself in any of the three.
-
-Hers was simpler: she lived with something she knew in advance was going to leave, and did it anyway—not in spite of knowing, but with that knowledge sitting right on top—because the alternative, having nothing that could leave, struck her as a kind of safety not worth its price.
-
-Every new dog was also practice at something: staying close to what's ending, instead of looking away.
-
-Nobody had taught her this. She'd learned it dog by dog, small grief after small grief, until grief stopped being something that happened to her and became something she did. With open hands, which is the only way to do this sort of thing without lying to yourself about what it is.
-
----
-
-Artur died in November, in his corner, the afternoon sun right where it always was.
-
-It wasn't hard to watch. It was the kind of death anyone would envy in silence: in a familiar place, with someone nearby, without the panic of not understanding what's happening. A body finishing what it had to finish.
-
-Luisa stayed with him. She did nothing special. She stayed, that's all.
-
-Afterward she gathered the blanket, the bowl, the three toys he'd never gotten around to using, and packed them in a box. Under the tree Artur liked to smell on his good afternoons, she planted something small that would flower in spring.
-
-The following week she called the vet to ask if there was another one.
-
-There was always another.
+Last entry in the record, repeated whenever it's needed: there was always another.
 
 ---
