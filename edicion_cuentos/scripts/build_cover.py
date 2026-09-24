@@ -42,18 +42,61 @@ BASE = ROOT / "edicion_cuentos"
 IMG = BASE / "imagenes"
 FONTS = BASE / "fonts"
 
-FRONT_PDF = BASE / "Cuentos_de_Tarel_portada_frontal.pdf"
-WRAP_PDF = BASE / "Cuentos_de_Tarel_cubierta_tapadura.pdf"
-INTERIOR_PDF = BASE / "Cuentos_de_Tarel_6x9.pdf"
+LANGS = {
+    "es": dict(
+        interior_pdf=BASE / "Cuentos_de_Tarel_6x9.pdf",
+        front_pdf=BASE / "Cuentos_de_Tarel_portada_frontal.pdf",
+        wrap_pdf=BASE / "Cuentos_de_Tarel_cubierta_tapadura.pdf",
+        title="Cuentos de Tarel",
+        subtitle="Fábulas de la Frontera",
+        author="Íñigo Barrera Barceló",
+        title_lines=["Cuentos de Tarel"],
+        blurb=(
+            "Tarel es una ciudad que aprendió a vivir con el agua que se va: cada "
+            "cuento de este libro mira esa misma frontera desde un ángulo distinto "
+            "-el nacimiento, la memoria, el amor, la pérdida, el duelo, la compañía."
+        ),
+        blurb2=(
+            "Treinta relatos que encarnan en fábulas las mismas preguntas del "
+            "ensayo El Horizonte Interior, con el archivista de Tarel como guía: "
+            "no hace falta leerlos en orden, cada uno funciona solo, como los "
+            "nudos de una red que se puede leer desde cualquier punto."
+        ),
+        cover_label="cubierta",
+        wrap_label="cubierta de tapa dura",
+    ),
+    "en": dict(
+        interior_pdf=BASE / "Tales_of_Tarel_6x9.pdf",
+        front_pdf=BASE / "Tales_of_Tarel_front_cover.pdf",
+        wrap_pdf=BASE / "Tales_of_Tarel_hardcover_wrap.pdf",
+        title="Fables of Tarel",
+        subtitle="Tales of the Boundary",
+        author="Íñigo Barrera Barceló",
+        title_lines=["Fables of Tarel"],
+        blurb=(
+            "Tarel is a city that learned to live with the water that leaves: each "
+            "story in this book looks at that same boundary from a different angle "
+            "-birth, memory, love, loss, grief, companionship."
+        ),
+        blurb2=(
+            "Thirty tales that embody, as fables, the same questions as the essay "
+            "The Inner Horizon, with the archivist of Tarel as guide: they need not "
+            "be read in order, each one stands alone, like the knots of a net that "
+            "can be read from any point."
+        ),
+        cover_label="cover",
+        wrap_label="hardcover wrap",
+    ),
+}
 
 
-def interior_page_count() -> int:
-    if not INTERIOR_PDF.exists():
+def interior_page_count(interior_pdf: Path) -> int:
+    if not interior_pdf.exists():
         raise SystemExit(
-            f"No encuentro {INTERIOR_PDF.relative_to(ROOT)} para calcular el "
+            f"No encuentro {interior_pdf.relative_to(ROOT)} para calcular el "
             f"lomo. Compila antes el interior o pasa --paginas a mano."
         )
-    with pymupdf.open(INTERIOR_PDF) as doc:
+    with pymupdf.open(interior_pdf) as doc:
         return doc.page_count
 
 
@@ -79,11 +122,15 @@ SPINE_PER_PAGE = 0.002347
 SPINE_BOARD = 0.06
 DPI = 300
 
+# Rellenados por select_lang() antes de dibujar nada; los valores de aquí
+# son solo el default (español) para que el módulo importe sin errores.
 TITLE = "Cuentos de Tarel"
 SUBTITLE = "Fábulas de la Frontera"
 AUTHOR = "Íñigo Barrera Barceló"
-KICKER = "Treinta relatos de la ciudad que convive con el agua que se retira"
 TITLE_LINES = ["Cuentos de Tarel"]
+FRONT_PDF = LANGS["es"]["front_pdf"]
+WRAP_PDF = LANGS["es"]["wrap_pdf"]
+INTERIOR_PDF = LANGS["es"]["interior_pdf"]
 BLURB = (
     "Tarel es una ciudad que aprendió a vivir con el agua que se va: cada "
     "cuento de este libro mira esa misma frontera desde un ángulo distinto "
@@ -222,10 +269,31 @@ def spine_text(cv, cx: float, y0: float, h: float, spine_w: float) -> None:
     cv.restoreState()
 
 
+def select_lang(lang: str) -> None:
+    global TITLE, SUBTITLE, AUTHOR, TITLE_LINES, BLURB, BLURB2
+    global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, COVER_LABEL, WRAP_LABEL
+    cfg = LANGS[lang]
+    TITLE = cfg["title"]
+    SUBTITLE = cfg["subtitle"]
+    AUTHOR = cfg["author"]
+    TITLE_LINES = cfg["title_lines"]
+    BLURB = cfg["blurb"]
+    BLURB2 = cfg["blurb2"]
+    FRONT_PDF = cfg["front_pdf"]
+    WRAP_PDF = cfg["wrap_pdf"]
+    INTERIOR_PDF = cfg["interior_pdf"]
+    COVER_LABEL = cfg["cover_label"]
+    WRAP_LABEL = cfg["wrap_label"]
+
+
+COVER_LABEL = LANGS["es"]["cover_label"]
+WRAP_LABEL = LANGS["es"]["wrap_label"]
+
+
 def build_front() -> None:
     w_in, h_in = TRIM_W + 2 * BLEED, TRIM_H + 2 * BLEED
     cv = rl_canvas.Canvas(str(FRONT_PDF), pagesize=(w_in * inch, h_in * inch))
-    cv.setTitle(f"{TITLE} — cubierta")
+    cv.setTitle(f"{TITLE} — {COVER_LABEL}")
     cv.setFillColor(SAND)
     cv.rect(0, 0, w_in * inch, h_in * inch, stroke=0, fill=1)
     front_text(cv, BLEED * inch, BLEED * inch, TRIM_W * inch, TRIM_H * inch)
@@ -240,7 +308,7 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
     h_in = force_h or (TRIM_H + 2 * (WRAP + BLEED))
 
     cv = rl_canvas.Canvas(str(WRAP_PDF), pagesize=(w_in * inch, h_in * inch))
-    cv.setTitle(f"{TITLE} — cubierta de tapa dura")
+    cv.setTitle(f"{TITLE} — {WRAP_LABEL}")
     cv.setFillColor(SAND)
     cv.rect(0, 0, w_in * inch, h_in * inch, stroke=0, fill=1)
 
@@ -258,6 +326,7 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
 
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--lang", choices=["es", "en", "all"], default="all")
     ap.add_argument("--paginas", type=int, default=None)
     ap.add_argument("--ancho", type=float, default=None)
     ap.add_argument("--alto", type=float, default=None)
@@ -271,11 +340,15 @@ def main() -> int:
         )
     with Image.open(src) as probe:
         print(f"Imagen de partida: {src.relative_to(ROOT)}  {probe.width} x {probe.height} px")
-    build_front()
-    pages = args.paginas or interior_page_count()
-    if args.paginas is None:
-        print(f"  (lomo calculado sobre {pages} páginas reales del interior)")
-    build_wrap(pages, args.ancho, args.alto)
+
+    langs = ["es", "en"] if args.lang == "all" else [args.lang]
+    for lang in langs:
+        select_lang(lang)
+        build_front()
+        pages = args.paginas or interior_page_count(INTERIOR_PDF)
+        if args.paginas is None:
+            print(f"  (lomo calculado sobre {pages} páginas reales del interior)")
+        build_wrap(pages, args.ancho, args.alto)
     return 0
 
 
