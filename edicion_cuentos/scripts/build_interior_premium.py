@@ -757,6 +757,9 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         raw_text = content_file.read_text(encoding="utf-8")
         frontmatter, body = gbp.parse_frontmatter(raw_text)
         body = strip_web_index(body)
+        # Una raya "---" al final del capítulo no separa nada y, si cae justo
+        # al pie, desborda sola a una página que sale en blanco con cabecera.
+        body = re.sub(r"(?:\s*^---\s*)+\Z", "\n", body, flags=re.MULTILINE)
 
         title = chapter.get("title") or frontmatter.get("title") or chapter["id"]
         subtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
@@ -795,9 +798,14 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             story.append(Paragraph(gbp.escape_xml(subtitle), styles["ChapterSubtitle"]))
         story.append(HRFlowable(width=42, thickness=0.9, color=GOLD, hAlign="LEFT",
                                  spaceBefore=6, spaceAfter=16))
-        story.extend(gbp.markdown_to_flowables(body, styles, illustrations, base_dir,
-                                                TEXT_W, ca_bundle))
-        story.append(Spacer(1, 10))
+        flowables = gbp.markdown_to_flowables(body, styles, illustrations, base_dir,
+                                              TEXT_W, ca_bundle)
+        # Nada de espacio al final del capítulo: si cae justo al pie, desborda
+        # solo a la página siguiente y la lámina o el ForceParity la saltan,
+        # dejando páginas vacías de más.
+        while flowables and isinstance(flowables[-1], Spacer):
+            flowables.pop()
+        story.extend(flowables)
 
     colophon_page(story)
 
