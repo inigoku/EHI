@@ -380,6 +380,11 @@ class ChapterMarker(Flowable):
         self.title, self.section, self.toc_text = title, section, toc_text
 
     def wrap(self, aw, ah):
+        # La lámina y el ForceParity de página equivocada consumen el marco
+        # entero; sin este salto el marcador caería en esa página (la de la
+        # lámina o la de cortesía) y el índice apuntaría una antes del título.
+        if ah < 1:
+            return (aw, ah + 1)
         return (0, 0)
 
     def draw(self):
@@ -500,6 +505,8 @@ class PremiumDocTemplate(BaseDocTemplate):
         if isinstance(flowable, FullFramePlate):
             if not flowable._is_filler:
                 self._page_has_content = True
+                # La lámina lleva folio pero no cabecera corrida.
+                self._chapter_opened_this_page = True
             return
         if isinstance(flowable, SetFolio):
             self._show_folio = flowable.value
