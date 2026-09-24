@@ -564,7 +564,7 @@ def title_page(story: list, toc: dict) -> None:
                                     align="center"))
 
 
-def credits_page(story: list, toc: dict) -> None:
+def credits_page(story: list, toc: dict, sin_ilustraciones: bool = False) -> None:
     story.append(ForceParity(0, TEXT_H))
     story.append(Spacer(1, TEXT_H * 0.5))
     lines = [
@@ -572,7 +572,7 @@ def credits_page(story: list, toc: dict) -> None:
         (toc.get("subtitle", ""), R),
         ("© " + toc.get("author", "") + ". " + tr("rights"), R),
         (tr("provenance"), R),
-        (tr("illus_credit"), R),
+        (tr("illus_credit"), R) if not sin_ilustraciones else (None, R),
         (tr("typeset"), R),
     ]
     for text, font in lines:
@@ -708,7 +708,8 @@ def _patch_glyph_fallback() -> None:
     gbp.inline_markdown_to_markup = inline_with_fallback
 
 
-def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None) -> None:
+def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None,
+              sin_ilustraciones: bool = False) -> None:
     register_fonts()
     _patch_glyph_fallback()
     with toc_path.open("r", encoding="utf-8") as fh:
@@ -726,7 +727,7 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
     story: list = []
     half_title(story)
     title_page(story, toc)
-    credits_page(story, toc)
+    credits_page(story, toc, sin_ilustraciones)
     dedication_page(story)
     toc_page(story)
     story.append(SetFolio(True))
@@ -743,7 +744,7 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")
 
         illustration_bytes = None
-        if illustration_ref:
+        if illustration_ref and not sin_ilustraciones:
             image_source = illustrations.get(illustration_ref, illustration_ref)
             illustration_bytes = gbp.load_image_bytes(image_source, base_dir, ca_bundle)
 
@@ -788,8 +789,11 @@ def main() -> int:
     parser.add_argument("toc", type=Path, help="Ruta al toc_cuentos.json")
     parser.add_argument("-o", "--output", type=Path, required=True)
     parser.add_argument("--ca-bundle", type=str, default=None)
+    parser.add_argument("--sin-ilustraciones", action="store_true",
+                         help="Omite las láminas a página completa y el crédito de "
+                              "ilustraciones -- para la edición de tapa blanda sin dibujos.")
     args = parser.parse_args()
-    build_pdf(args.toc, args.output, args.ca_bundle)
+    build_pdf(args.toc, args.output, args.ca_bundle, args.sin_ilustraciones)
     return 0
 
 
