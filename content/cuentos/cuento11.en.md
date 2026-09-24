@@ -1,5 +1,6 @@
 ---
 title: THE ONE WHO PLAYS THE STRING FROM THE OTHER APARTMENT
+chapterNumber: 9
 ---
 
 ---

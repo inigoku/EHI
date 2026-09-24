@@ -1,6 +1,6 @@
 ---
 title: EL VECINO DE ARRIBA
-chapterNumber: 23
+chapterNumber: 25
 linkedChapterId: cap_realidad_fractal
 illustrationId: cuento_vecino_arriba
 illustrationTitle: El vecino de arriba

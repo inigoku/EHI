@@ -1,6 +1,6 @@
 ---
 title: LA CHAPA EN EL CAJÓN
-chapterNumber: 25
+chapterNumber: 23
 linkedChapterId: cap_ojo_un_solo_color
 illustrationId: cuento_chapa
 illustrationTitle: La chapa en el cajón

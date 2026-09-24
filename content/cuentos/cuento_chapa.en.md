@@ -1,5 +1,6 @@
 ---
 title: THE BADGE IN THE DRAWER
+chapterNumber: 23
 ---
 
 She finds the badge while looking for something else, at the bottom of a drawer she has not opened since the move. Rusted metal, a color that was once red and is now the color things turn when thirty years pass without anyone looking at them. She recognizes it before reading the letters. She would recognize it with her eyes closed.

@@ -1,5 +1,6 @@
 ---
 title: THE CITY OF SMALL LOSSES
+chapterNumber: 11
 ---
 
 In Arenilla, the citizens began to forget the name of the market before forgetting the market itself.

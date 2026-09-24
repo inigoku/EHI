@@ -1,6 +1,6 @@
 ---
 title: EL VEÍ DE DALT
-chapterNumber: 23
+chapterNumber: 25
 linkedChapterId: cap_realidad_fractal
 illustrationId: cuento_vecino_arriba
 illustrationTitle: El veí de dalt

@@ -7,7 +7,7 @@ tipografía Source Serif Pro, paleta propia, folios y cabeceras corridas,
 índice con puntos guía, y una lámina a página completa antes de cada cuento,
 en la par, con el cuento abriendo justo enfrente en la impar) al motor
 genérico dirigido por TOC (toc_cuentos.json) en vez de escribir uno nuevo:
-los treinta cuentos son "capítulos" como cualquier otro, sin más cambio que
+los veintiocho cuentos son "capítulos" como cualquier otro, sin más cambio que
 el título del libro, los textos de cubierta interior y quitar el rótulo
 "Capítulo N", que no encaja en una antología de relatos.
 
@@ -152,7 +152,7 @@ LANG = "es"
 STRINGS = {
     "es": {
         "rights": "Todos los derechos reservados.",
-        "provenance": ("Estos treinta cuentos proceden de la obra completa El Horizonte "
+        "provenance": ("Estos veintiocho cuentos proceden de la obra completa El Horizonte "
                         "Interior y se reproducen aquí en su orden de lectura, del origen "
                         "al final, con escala en los vínculos."),
         "illus_credit": "Las ilustraciones proceden de la edición ilustrada de la misma obra.",
@@ -164,7 +164,7 @@ STRINGS = {
     },
     "en": {
         "rights": "All rights reserved.",
-        "provenance": ("These thirty stories are drawn from the complete work The Inner "
+        "provenance": ("These twenty-eight stories are drawn from the complete work The Inner "
                         "Horizon and are reproduced here in their reading order, from "
                         "origin to end, by way of the bonds between them."),
         "illus_credit": "The illustrations are drawn from the illustrated edition of the same work.",
@@ -172,11 +172,11 @@ STRINGS = {
         "dedication": "To whoever stayed on the shore<br/>when the water withdrew.",
         "toc_title": "Contents",
         "colophon": ("This volume was set in Source Serif Pro.<br/>The archivist takes "
-                      "notes and leaves gaps.<br/>The gaps are part of the archive."),
+                      "notes and leaves hollows.<br/>The hollows are part of the archive."),
     },
     "ca": {
         "rights": "Tots els drets reservats.",
-        "provenance": ("Aquests trenta contes procedeixen de l'obra completa L'Horitzó "
+        "provenance": ("Aquests vint-i-vuit contes procedeixen de l'obra completa L'Horitzó "
                         "Interior i es reprodueixen aquí en el seu ordre de lectura, de "
                         "l'origen al final, amb escala als vincles."),
         "illus_credit": "Les il·lustracions procedeixen de l'edició il·lustrada de la mateixa obra.",
@@ -184,7 +184,7 @@ STRINGS = {
         "dedication": "A qui es va quedar a la vora<br/>quan l'aigua es va retirar.",
         "toc_title": "Índex",
         "colophon": ("Es va acabar de compondre aquest volum<br/>en Source Serif Pro. "
-                      "L'arxivista anota i deixa buits.<br/>Els buits formen part de l'arxiu."),
+                      "L'arxivista anota i deixa forats.<br/>Els forats formen part de l'arxiu."),
     },
 }
 

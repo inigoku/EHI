@@ -1,5 +1,6 @@
 ---
 title: THE UPSTAIRS NEIGHBOR
+chapterNumber: 25
 ---
 
 The woman who woke before it dawned, on the first page of "Before It Dawns", does not exist. I wrote her. I chose that she should have spent forty years repeating the same words, I chose that she should not remember the face of whoever taught them to her, I chose the cold of the tiles and the light that changed outside without that having anything to do with what happened inside. And I chose, above all, that she should not know whether on the other side of the silence there was Someone.

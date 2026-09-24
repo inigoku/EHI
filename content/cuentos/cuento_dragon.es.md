@@ -1,6 +1,6 @@
 ---
 title: EL DRAGÓN
-chapterNumber: 22
+chapterNumber: 24
 linkedChapterId: cap_realidad_fractal
 illustrationId: cuento_dragon
 illustrationTitle: El dragón

@@ -1,5 +1,6 @@
 ---
 title: THE FOG OF LA MUSSARA
+chapterNumber: 17
 ---
 
 *The archivist did not write this. It is a found text: notes the professor typed for himself and never sent to any journal, recovered from a drawer long after he left the faculty. I leave the vocabulary intact —the entorhinal cortex, the hyperbolic metric, the phenomenological overflow— because that vocabulary was the only thing he had left to hold onto. A man who can name everything and suddenly cannot name what happened to him names the usual things harder than necessary. That, too, is a symptom.*

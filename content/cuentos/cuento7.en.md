@@ -1,5 +1,6 @@
 ---
 title: THE GUEST IN THE SKIN
+chapterNumber: 8
 ---
 
 ---

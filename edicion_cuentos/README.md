@@ -1,8 +1,8 @@
 # Cuentos de Tarel — antología de relatos en tapa dura (6 × 9")
 
-Los treinta cuentos de la sección de relatos de la web —*Cuentos de Tarel.
+Los veintiocho cuentos de la sección de relatos de la web —*Cuentos de Tarel.
 Fábulas de la Frontera*— montados como libro independiente para tapa dura
-de Amazon KDP, en español e inglés.
+de Amazon KDP, en español, inglés y catalán.
 
 ## Qué hay aquí
 

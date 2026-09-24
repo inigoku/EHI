@@ -1,5 +1,6 @@
 ---
 title: THE WEB OF NAMES
+chapterNumber: 5
 ---
 
 There exists in the Library—of which I shall give no further details because its details are, like those of every true library, imprecise—a section that the catalogers call the Knot.

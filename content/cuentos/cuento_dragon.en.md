@@ -1,5 +1,6 @@
 ---
 title: THE DRAGON
+chapterNumber: 24
 ---
 
 He imagined it at eight, one night when the new house still smelled of paint and he knew no one in the city. It was not a decision. He was looking at the bedroom wall, where the streetlamp drew an elongated stain, and the stain suddenly had a back, and the back had scales, and the scales moved when he breathed. That easily. That little.

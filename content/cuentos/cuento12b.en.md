@@ -1,5 +1,6 @@
 ---
 title: THE SECOND NOTEBOOK
+chapterNumber: 12
 ---
 
 ---

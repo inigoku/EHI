@@ -57,7 +57,7 @@ LANGS = {
             "-el nacimiento, la memoria, el amor, la pérdida, el duelo, la compañía."
         ),
         blurb2=(
-            "Treinta relatos que encarnan en fábulas las mismas preguntas del "
+            "Veintiocho relatos que encarnan en fábulas las mismas preguntas del "
             "ensayo El Horizonte Interior, con el archivista de Tarel como guía: "
             "no hace falta leerlos en orden, cada uno funciona solo, como los "
             "nudos de una red que se puede leer desde cualquier punto."
@@ -79,7 +79,7 @@ LANGS = {
             "-birth, memory, love, loss, grief, companionship."
         ),
         blurb2=(
-            "Thirty tales that embody, as fables, the same questions as the essay "
+            "Twenty-eight tales that embody, as fables, the same questions as the essay "
             "The Inner Horizon, with the archivist of Tarel as guide: they need not "
             "be read in order, each one stands alone, like the knots of a net that "
             "can be read from any point."
@@ -102,7 +102,7 @@ LANGS = {
             "la companyia."
         ),
         blurb2=(
-            "Trenta relats que encarnen en faules les mateixes preguntes de "
+            "Vint-i-vuit relats que encarnen en faules les mateixes preguntes de "
             "l'assaig L'Horitzó Interior, amb l'arxivista de Tarel com a guia: "
             "no cal llegir-los en ordre, cadascun funciona sol, com els nusos "
             "d'una xarxa que es pot llegir des de qualsevol punt."
@@ -160,7 +160,7 @@ BLURB = (
     "-el nacimiento, la memoria, el amor, la pérdida, el duelo, la compañía."
 )
 BLURB2 = (
-    "Treinta relatos que encarnan en fábulas las mismas preguntas del "
+    "Veintiocho relatos que encarnan en fábulas las mismas preguntas del "
     "ensayo El Horizonte Interior, con el archivista de Tarel como guía: "
     "no hace falta leerlos en orden, cada uno funciona solo, como los "
     "nudos de una red que se puede leer desde cualquier punto."

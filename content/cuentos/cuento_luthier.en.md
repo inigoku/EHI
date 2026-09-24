@@ -1,5 +1,6 @@
 ---
 title: THE LUTHIER'S SHOP
+chapterNumber: 4
 ---
 
 ### I. The One Who Entered Backwards

@@ -1,5 +1,6 @@
 ---
 title: THE MACHINE THAT LEARNED TO WAIT
+chapterNumber: 7
 ---
 
 ---
