@@ -208,7 +208,7 @@ The client went a long time without saying anything. Then he picked it up.
 
 —When you are ready —said the Luthier—, you will know.
 
-He paid. He left. The Luthier looked at the gap on the shelf. It was the last of its kind that he had. They took a long time to make because he never knew for sure when he was going to need them. He would have to make another. He picked up a piece of wood he hadn't touched in weeks, waiting.
+He paid. He left. The Luthier looked at the hollow on the shelf. It was the last of its kind that he had. They took a long time to make because he never knew for sure when he was going to need them. He would have to make another. He picked up a piece of wood he hadn't touched in weeks, waiting.
 
 ### IV. The One Who Was in a Hurry
 

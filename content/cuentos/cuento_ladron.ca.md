@@ -74,7 +74,7 @@ No demanava eina, ni paciència, ni res del que s'havia requerit abans. Demanava
 
 Va prémer la palma. El pany va cedir. I la caixa va desaparèixer.
 
-En l'instant exacte en què l'última barrera es rendia, la caixa sencera —tot, dins i fora— va deixar d'existir, com si mai hagués estat. No va quedar cap buit a l'aire ni cap marca a la taula. No va quedar res per robar, perquè ja no hi havia cap dins del qual treure-ho.
+En l'instant exacte en què l'última barrera es rendia, la caixa sencera —tot, dins i fora— va deixar d'existir, com si mai hagués estat. No va quedar cap forat a l'aire ni cap marca a la taula. No va quedar res per robar, perquè ja no hi havia cap dins del qual treure-ho.
 
 El lladre es va quedar amb la palma oberta sobre el lloc on havia estat la caixa molt quiet, com davant del sisè pany, i va entendre, sense paraules, perquè hi ha coses que no es poden dir, per què havia desaparegut.
 

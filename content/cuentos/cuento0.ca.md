@@ -14,7 +14,7 @@ Parteixen d'una pregunta —què passa a dins quan alguna cosa emergeix, dura i 
 
 Hi ha un ordre —el que figura a l'índex— però cada conte funciona sol, com els nusos d'una xarxa que es pot llegir des de qualsevol punt.
 
-L'arxivista anota i deixa buits. Els buits formen part de l'arxiu.
+L'arxivista anota i deixa forats. Els forats formen part de l'arxiu.
 
 ---
 

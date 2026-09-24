@@ -14,7 +14,7 @@ They begin with a question —what happens inside when something emerges, endure
 
 There is an order —the one found in the table of contents— but each story works alone, like the knots of a net that can be read from any point.
 
-The archivist takes notes and leaves gaps. The gaps are part of the archive.
+The archivist takes notes and leaves hollows. The hollows are part of the archive.
 
 ---
 

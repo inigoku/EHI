@@ -151,7 +151,7 @@ The Carrero Blanco case did not arrive as an academic commission. It arrived as 
 
 Officially, Marcos was sent to “document, for the purposes of historical memory, the instant of the attack from the perspective of the slain escort services.” Two men. Almost no one remembered their names outside their own families. It was Elena who gave him the commission face to face for the first time, now with her own office at the Council and a title—*protocols coordinator*—that no one could quite define.
 
-—I am not asking you to slant anything —she told him, and Marcos, who still did not connect her with the intern of the notebook, believed her—. I am asking you to bring back something that can be used. An “inconclusive” closes nothing. It only leaves the gap open for whoever shouts loudest to fill it.
+—I am not asking you to slant anything —she told him, and Marcos, who still did not connect her with the intern of the notebook, believed her—. I am asking you to bring back something that can be used. An “inconclusive” closes nothing. It only leaves the hollow open for whoever shouts loudest to fill it.
 
 Marcos did not recognize her by face—two years and a closed notebook are disguise enough—but he did recognize something in the way she held his gaze while she spoke, without the defensive blinking with which almost everyone asked things of a tuner. It was a concrete, physical discomfort that had nothing to do with the commission, and which neither of them mentioned that afternoon nor in the three meetings that followed, though both began, without saying so, to stretch them longer than necessary.
 

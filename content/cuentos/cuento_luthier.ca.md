@@ -419,7 +419,7 @@ El Luthier es va arronsar d'espatlles.
 
 L'instrument més pesant de la botiga va sortir al carrer pesant, en braços de la dona, gairebé res.
 
-### VII. La viola del buit
+### VII. La viola del forat
 
 L'última clienta de l'any va portar una viola en un estoig que no era el seu.
 

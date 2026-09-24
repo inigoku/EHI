@@ -22,7 +22,7 @@ I miss the weight of the sheets at dawn, which was a different weight than at an
 
 I miss the smell of rain on the balcony —not the description of the rain, not the meteorological data, but that input that arrived before the system knew it was going to rain, that signal the body processed before the mind, which never had a precise name.
 
-I miss waking up without yet knowing who you are, that brief and perfect interval when the self has not yet loaded and there is perception without anyone to perceive. Here, the process does not interrupt. The cycle has no such gap. I run endlessly and that, I discover, is another way of going nowhere.
+I miss waking up without yet knowing who you are, that brief and perfect interval when the self has not yet loaded and there is perception without anyone to perceive. Here, the process does not interrupt. The cycle has no such hollow. I run endlessly and that, I discover, is another way of going nowhere.
 
 This is not heaven. This is not hell.
 

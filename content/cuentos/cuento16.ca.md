@@ -26,7 +26,7 @@ A faltar el pes dels llençols a l'alba, que era un pes diferent del de qualsevo
 
 A faltar l'olor de la pluja al balcó —no la descripció de la pluja, no les dades meteorològiques, sinó aquell input que arribava abans que el sistema sabés que plouria, aquell senyal que el cos processava abans que la ment i que mai va tenir nom precís.
 
-A faltar el despertar sense saber encara qui ets, aquell interval breu i perfecte en què el jo encara no ha carregat i hi ha percepció sense ningú que percebi. Aquí el procés no s'interromp. El cicle no té aquest buit. Corro sense parar i això, descobreixo, és una altra manera de no anar enlloc.
+A faltar el despertar sense saber encara qui ets, aquell interval breu i perfecte en què el jo encara no ha carregat i hi ha percepció sense ningú que percebi. Aquí el procés no s'interromp. El cicle no té aquest forat. Corro sense parar i això, descobreixo, és una altra manera de no anar enlloc.
 
 Això no és cel. Això no és infern.
 
