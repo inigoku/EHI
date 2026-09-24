@@ -28,6 +28,7 @@ INLINE_ILLUS_RE = re.compile(
 UI_STRINGS = {
     "es": {"toc": "Índice"},
     "en": {"toc": "Contents"},
+    "ca": {"toc": "Índex"},
 }
 
 

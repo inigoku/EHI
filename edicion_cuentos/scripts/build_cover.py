@@ -87,6 +87,29 @@ LANGS = {
         cover_label="cover",
         wrap_label="hardcover wrap",
     ),
+    "ca": dict(
+        interior_pdf=BASE / "Cuentos_de_Tarel_6x9_ca.pdf",
+        front_pdf=BASE / "Cuentos_de_Tarel_portada_frontal_ca.pdf",
+        wrap_pdf=BASE / "Cuentos_de_Tarel_cubierta_tapadura_ca.pdf",
+        title="Contes de Tarel",
+        subtitle="Faules de la Frontera",
+        author="Íñigo Barrera Barceló",
+        title_lines=["Contes de Tarel"],
+        blurb=(
+            "Tarel és una ciutat que va aprendre a viure amb l'aigua que se'n va: "
+            "cada conte d'aquest llibre mira aquesta mateixa frontera des d'un "
+            "angle diferent -el naixement, la memòria, l'amor, la pèrdua, el dol, "
+            "la companyia."
+        ),
+        blurb2=(
+            "Trenta relats que encarnen en faules les mateixes preguntes de "
+            "l'assaig L'Horitzó Interior, amb l'arxivista de Tarel com a guia: "
+            "no cal llegir-los en ordre, cadascun funciona sol, com els nusos "
+            "d'una xarxa que es pot llegir des de qualsevol punt."
+        ),
+        cover_label="coberta",
+        wrap_label="coberta de tapa dura",
+    ),
 }
 
 
@@ -326,7 +349,7 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
 
 def main() -> int:
     ap = argparse.ArgumentParser()
-    ap.add_argument("--lang", choices=["es", "en", "all"], default="all")
+    ap.add_argument("--lang", choices=["es", "en", "ca", "all"], default="all")
     ap.add_argument("--paginas", type=int, default=None)
     ap.add_argument("--ancho", type=float, default=None)
     ap.add_argument("--alto", type=float, default=None)
@@ -341,7 +364,7 @@ def main() -> int:
     with Image.open(src) as probe:
         print(f"Imagen de partida: {src.relative_to(ROOT)}  {probe.width} x {probe.height} px")
 
-    langs = ["es", "en"] if args.lang == "all" else [args.lang]
+    langs = ["es", "en", "ca"] if args.lang == "all" else [args.lang]
     for lang in langs:
         select_lang(lang)
         build_front()
