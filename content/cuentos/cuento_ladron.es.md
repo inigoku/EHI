@@ -78,6 +78,4 @@ En el instante exacto en que la última barrera se rendía, la caja entera —to
 
 El ladrón se quedó con la palma abierta sobre el sitio donde había estado la caja muy quieto, como delante de la sexta cerradura, y entendió, sin palabras, porque hay cosas que no se pueden decir, por qué había desaparecido.
 
-Entendió que el tesoro no estaba dentro de la caja, sino que era el adentro. Y que al abrirlo del todo, lo había hecho desaparecer.
-
 Bajó la mano y salió de la casa al final de la ciudad al final del camino con las manos vacías, que en algunas ciudades es la única manera honesta de volver de ciertos sitios.

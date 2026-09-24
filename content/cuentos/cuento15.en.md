@@ -24,6 +24,10 @@ Note: don't point out progress out loud. Pointing it out turns it into expectati
 
 ---
 
+General note: every dog arrives knowing it will leave. The record cannot say whether that is courage or habit. It shows that she keeps going, with open hands, never pretending this time will be different.
+
+---
+
 OBSERVATION, no file of its own: the man in the house across the street, who watches boxes of used leashes go out every few months on their way to the dumpster, believes there is something monstrous in loving that many times knowing how it ends. Luisa neither denies it nor confirms it. There is no record of them ever having discussed it.
 
 ---

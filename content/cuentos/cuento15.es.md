@@ -29,6 +29,10 @@ Nota: no señalar el progreso en voz alta. Señalarlo lo convierte en expectativ
 
 ---
 
+Nota general: cada perro llega sabiendo que se irá. El registro no sabe si eso es valor o costumbre. Consta que ella sigue, con las manos abiertas, sin fingir que esta vez será distinto.
+
+---
+
 OBSERVACIÓN, sin ficha propia: el hombre de la casa de enfrente, que ve salir cajas con correas usadas cada pocos meses camino del contenedor, cree que hay algo monstruoso en amar tantas veces sabiendo cómo acaba. Luisa no lo desmiente ni lo confirma. No consta que hayan hablado nunca del tema.
 
 ---
