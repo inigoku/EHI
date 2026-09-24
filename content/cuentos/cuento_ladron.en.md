@@ -80,14 +80,6 @@ The thief stood with his palm open over the spot where the box had been.
 
 He did not shout. He did not curse. He stood very still, as he had before the sixth lock, and understood—without words, the way one understands things that cannot be said—why it had disappeared.
 
-The treasure was not inside the box.
-
-The treasure was the inside.
-
-The thief who could open anything had, at last, opened everything.
-
-And by opening it entirely, he had made it disappear.
-
 He lowered his hand.
 
 He left the house at the end of the city at the end of the road with empty hands, which in some cities is the only honest way to return from certain places.
