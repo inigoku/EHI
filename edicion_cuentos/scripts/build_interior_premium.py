@@ -157,7 +157,7 @@ STRINGS = {
                         "al final, con escala en los vínculos."),
         "illus_credit": "Las ilustraciones proceden de la edición ilustrada de la misma obra.",
         "typeset": "Compuesto en Source Serif Pro.",
-        "dedication": "A quien se quedó en la orilla<br/>cuando el agua se retiró.",
+        "dedication": "A los que se fueron sin avisar<br/>y dejaron su hueco en el archivo.",
         "toc_title": "Índice",
         "colophon": ("Se acabó de componer este volumen<br/>en Source Serif Pro. El "
                       "archivista anota y deja huecos.<br/>Los huecos son parte del archivo."),
@@ -169,7 +169,7 @@ STRINGS = {
                         "origin to end, by way of the bonds between them."),
         "illus_credit": "The illustrations are drawn from the illustrated edition of the same work.",
         "typeset": "Set in Source Serif Pro.",
-        "dedication": "To whoever stayed on the shore<br/>when the water withdrew.",
+        "dedication": "To those who went without warning<br/>and left their hollow in the archive.",
         "toc_title": "Contents",
         "colophon": ("This volume was set in Source Serif Pro.<br/>The archivist takes "
                       "notes and leaves hollows.<br/>The hollows are part of the archive."),
@@ -181,7 +181,7 @@ STRINGS = {
                         "l'origen al final, amb escala als vincles."),
         "illus_credit": "Les il·lustracions procedeixen de l'edició il·lustrada de la mateixa obra.",
         "typeset": "Compost en Source Serif Pro.",
-        "dedication": "A qui es va quedar a la vora<br/>quan l'aigua es va retirar.",
+        "dedication": "Als qui se'n van anar sense avisar<br/>i van deixar el seu forat a l'arxiu.",
         "toc_title": "Índex",
         "colophon": ("Es va acabar de compondre aquest volum<br/>en Source Serif Pro. "
                       "L'arxivista anota i deixa forats.<br/>Els forats formen part de l'arxiu."),
