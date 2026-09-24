@@ -45,7 +45,7 @@ Entrada: *L'ull sobreviu a la fórmula. Pot ser fins i tot que la fórmula desto
 
 Aquella nit, a casa, l'Aureli es va fer la prova a si mateix.
 
-Va intentar recordar el cognom del metge. Res: el buit de sempre, amb la seva forma exacta de cognom, dues síl·labes, potser tres. Després va tancar els ulls i va intentar una altra cosa: anar a la consulta. I hi va anar —mentalment hi va anar— sense ni un sol error: el portal amb l'esglaó traïdor, l'ascensor que calia tancar amb la mà, el passadís que feia olor de cera, la tercera porta. Tot el camí hi era. Només l'etiqueta de la porta s'havia despresa.
+Va intentar recordar el cognom del metge. Res: el forat de sempre, amb la seva forma exacta de cognom, dues síl·labes, potser tres. Després va tancar els ulls i va intentar una altra cosa: anar a la consulta. I hi va anar —mentalment hi va anar— sense ni un sol error: el portal amb l'esglaó traïdor, l'ascensor que calia tancar amb la mà, el passadís que feia olor de cera, la tercera porta. Tot el camí hi era. Només l'etiqueta de la porta s'havia despresa.
 
 Es va quedar una estona amb els ulls tancats, a la seva cuina, davant d'una porta que no hi era.
 
@@ -71,7 +71,7 @@ La peça es va desfer. Els altres van sostenir el compàs un moment, per cortesi
 
 Ningú va dir res. El trompetista va guardar l'instrument amb cura de luthier i es va asseure a escoltar els altres, que en van començar una de diferent.
 
-Entrada: *No tot el que el cos guarda és per sempre. El segon quadern també tindrà buits. Apuntar-los amb claudàtors, com els del primer.*
+Entrada: *No tot el que el cos guarda és per sempre. El segon quadern també tindrà forats. Apuntar-los amb claudàtors, com els del primer.*
 
 ---
 

@@ -66,7 +66,7 @@ The piece unraveled. The others held the beat for a moment, out of courtesy, and
 
 No one said anything. The trumpeter put the instrument away with the care of a luthier and sat down to listen to the others, who began a different one.
 
-Entry: *Not everything the body keeps is forever. The second notebook will also have holes. Mark them with brackets, like those in the first.*
+Entry: *Not everything the body keeps is forever. The second notebook will also have hollows. Mark them with brackets, like those in the first.*
 
 ---
 
