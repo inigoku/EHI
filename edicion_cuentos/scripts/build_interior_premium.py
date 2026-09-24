@@ -613,6 +613,19 @@ def colophon_page(story: list) -> None:
 
 
 # --------------------------------------------------------------------- build
+# La nota del archivista (cuento0) trae el índice escrito a mano de la web.
+# En el libro ya hay un índice generado, así que se quita para no duplicarlo;
+# la nota y la "Nota de cierre" se conservan.
+WEB_INDEX_RE = re.compile(
+    r"^## (?:Índice|Índex|Table of Contents)\s*$.*?"
+    r"(?=^### (?:Nota de cierre|Nota de tancament|Closing Note)\s*$)",
+    re.MULTILINE | re.DOTALL)
+
+
+def strip_web_index(body: str) -> str:
+    return WEB_INDEX_RE.sub("", body)
+
+
 def chapter_label(chapter_number: Optional[str]) -> Optional[str]:
     # A diferencia del ensayo, aquí no hay rótulo "Capítulo N": son cuentos,
     # no un argumento numerado, y varios (nota del archivista, interludios,
@@ -736,6 +749,7 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         content_file = gbp.resolve_path(base_dir, chapter["content_file"])
         raw_text = content_file.read_text(encoding="utf-8")
         frontmatter, body = gbp.parse_frontmatter(raw_text)
+        body = strip_web_index(body)
 
         title = chapter.get("title") or frontmatter.get("title") or chapter["id"]
         subtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
