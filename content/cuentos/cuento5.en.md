@@ -1,5 +1,6 @@
 ---
 title: THE HOUSE THAT BREATHED
+chapterNumber: 6
 ---
 
 ---

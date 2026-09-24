@@ -1,6 +1,6 @@
 ---
 title: LA PLAZA LLENA
-chapterNumber: 24
+chapterNumber: 22
 linkedChapterId: cap_ojo_un_solo_color
 illustrationId: cuento_plaza
 illustrationTitle: La plaza llena

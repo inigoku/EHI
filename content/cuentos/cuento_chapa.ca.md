@@ -1,6 +1,6 @@
 ---
 title: LA XAPA AL CALAIX
-chapterNumber: 25
+chapterNumber: 23
 linkedChapterId: cap_ojo_un_solo_color
 illustrationId: cuento_chapa
 illustrationTitle: La xapa al calaix

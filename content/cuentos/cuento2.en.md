@@ -1,5 +1,6 @@
 ---
 title: THE BUBBLE THAT DID NOT ANNOUNCE ITS CLOSING
+chapterNumber: 2
 ---
 
 ---

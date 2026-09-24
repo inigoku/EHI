@@ -1,5 +1,6 @@
 ---
 title: THE HOUSE OF THE TALKING DOGS
+chapterNumber: 16
 ---
 
 ---

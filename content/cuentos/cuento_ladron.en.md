@@ -1,5 +1,6 @@
 ---
 title: THE THIEF OF INTERIORS
+chapterNumber: 1
 ---
 
 It was said of him that he could open anything.
