@@ -22,7 +22,7 @@ I decided to ascend to the plateau on a Thursday in October, when the weather re
 
 ### II. The Bayesian Stack Overflow
 
-From the perspective of systems neurology, myths about dimensional portals are rationalizations of massive failures in the network cells (*grid cells*) of the entorhinal cortex. If the brain loses its orientation coordinates in an environment where the visual horizon has been erased, the spacetime interface begins to oscillate. But what I experienced at five in the afternoon, when the boira marinada ascended like a wall of freezing vapor, exceeded any clinical hypothesis.
+From the perspective of systems neurology, myths about dimensional portals are rationalizations of massive failures in the grid cells of the entorhinal cortex. If the brain loses its orientation coordinates in an environment where the visual horizon has been erased, the spacetime interface begins to oscillate. But what I experienced at five in the afternoon, when the boira marinada ascended like a wall of freezing vapor, exceeded any clinical hypothesis.
 
 The fog was not merely suspended moisture. It possessed a density that absorbed not only light, but time. Looking at my wristwatch, the second hand seemed to stop, oscillating in an infinitesimal interval before ticking backward a full second. Three-dimensional space began to lose coherence. The parallel lines of the ruined church walls seemed to converge in my visual field, not due to an optical effect of perspective, but because the Euclidean metric of the environment was dissolving.
 
