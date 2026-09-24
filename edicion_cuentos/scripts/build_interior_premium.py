@@ -174,6 +174,18 @@ STRINGS = {
         "colophon": ("This volume was set in Source Serif Pro.<br/>The archivist takes "
                       "notes and leaves gaps.<br/>The gaps are part of the archive."),
     },
+    "ca": {
+        "rights": "Tots els drets reservats.",
+        "provenance": ("Aquests trenta contes procedeixen de l'obra completa L'Horitzó "
+                        "Interior i es reprodueixen aquí en el seu ordre de lectura, de "
+                        "l'origen al final, amb escala als vincles."),
+        "illus_credit": "Les il·lustracions procedeixen de l'edició il·lustrada de la mateixa obra.",
+        "typeset": "Compost en Source Serif Pro.",
+        "dedication": "A qui es va quedar a la vora<br/>quan l'aigua es va retirar.",
+        "toc_title": "Índex",
+        "colophon": ("Es va acabar de compondre aquest volum<br/>en Source Serif Pro. "
+                      "L'arxivista anota i deixa buits.<br/>Els buits formen part de l'arxiu."),
+    },
 }
 
 
