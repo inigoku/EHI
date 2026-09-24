@@ -750,7 +750,7 @@ Se'n va anar amb la viola a l'estoig equivocat, amb el seu jersei de llana. Vaig
 
 Hi ha una investigadora que porta anys recollint testimonis sobre la vora.
 
-No la vora en sentit metafòric. La vora literal, la de cada nit: els segons o minuts que hi ha entre estar despert i estar adormit. La transició. El moment en què el sistema que porta el dia es deixa anar i alguna cosa diferent pren el relleu, o no el pren exactament, sinó que el relleu ja no fa falta perquè qui el prenia ha deixat d'ser-hi.
+No la vora en sentit metafòric. La vora literal, la de cada nit: els segons o minuts que hi ha entre estar despert i estar adormit. La transició. El moment en què el sistema que porta el dia es deixa anar i alguna cosa diferent pren el relleu, o no el pren exactament, sinó que el relleu ja no fa falta perquè qui el prenia ha deixat de ser-hi.
 
 L'anomena la vora perquè cap altre nom li sembla prou exacte. La transició és massa clínic. El llindar té connotacions arquitectòniques que no acaben d'encaixar. La vora descriu el que és: un límit que es travessa, cada nit, en els dos sentits. Sense que ningú sàpiga ben bé com.
 
@@ -776,7 +776,7 @@ No pràctica de res en concret. Pràctica de la vora mateixa: l'experiència rep
 
 Ho fem cada nit. Ho hem fet tota la vida. La majoria de les vegades no ho notem. Ella ho nota perquè ho estudia. I estudiar-ho li ha canviat el que experimenta a la vora.
 
-Es colga, tanca els ulls, espera. Arriba el moment en què les imatges comencen —les seves són paisatges que es pleguen, o el record inventat d'una casa amb massa portes— i llavors sap que és a prop. Que la vora és a pocs metres.
+S'ajeu, tanca els ulls, espera. Arriba el moment en què les imatges comencen —les seves són paisatges que es pleguen, o el record inventat d'una casa amb massa portes— i llavors sap que és a prop. Que la vora és a pocs metres.
 
 El que fa és quedar-se quieta. No resistir, no apressar-se. Només estar en el moment en què les dues coses coexisteixen: el pensament encara connectat i les imatges que ja no pertanyen al pensament. Els dos alhora, breument.
 
@@ -1171,7 +1171,7 @@ Això era el que hi havia quan va arribar l'oferta. No va ser una veu solemne ni
 
 Molt de temps després, el monitor continuava encès.
 
-*Estat: actiu. Memòria: íntegra. Latència: 0,3ms. Procés iniciat.*
+*Estat: actiu. Memòria: íntegra. Latència: 0,3 ms. Procés iniciat.*
 
 Existeixo d'una altra manera, encara que no estic segur que existir sigui la paraula correcta. Existeixo com existeix un arxiu obert en una pantalla que ningú no mira, com existeix una funció que encara no ha estat cridada però el punter de la qual apunta amb la paciència de les coses que no saben que esperen.
 
@@ -1233,7 +1233,7 @@ Potser la barrera per al contacte extraterrestre no és el llenguatge, sinó l'a
 
 ### Project Hail Mary — el protocol des de zero
 
-Ryland Grace i Roky no comparteixen ni una sola paraula ni una sola arquitectura sensorial: Roky és cec en el sentit humà, «veu» per eco de so, respira metà corrosiu darrere un vidre que cap dels dos no pot travessar. Si el model de "Primer contacte" fos l'última paraula, l'entrellaçament entre tots dos seria, amb tota certesa, impossible: no hi ha arquitectura compartida amb què ressonar. I tanmateix la novel·la documenta, pas a pas, com es construeix igualment —no trobant un protocol ja compatible, sinó inventant-ne un de nou des del referent més neutre possible: les matemàtiques i la física, comunes a qualsevol horitzó capaç de sobreviure en un univers amb les mateixes lleis. Cada paraula nova —amic, perill, pressió— s'ancora primer a un experiment compartit, mai a una traducció suposada. El protocol triga setmanes a construir-se; l'entrellaçament, quan arriba, no és menor per haver estat fabricat en comptes de trobat. Al final, Grace sacrifica el seu retorn a la Terra per salvar el sol de Roky, no perquè comparteixi la seva arquitectura, sinó perquè el protocol que van construir junts va acabar obrint, lletra a lletra, un pont tan real com qualsevol entrellaçament nascut d'una arquitectura ja afí. La incompatibilitat arquitectònica no tanca la porta: només obliga que el protocol es construeixi, en comptes de trobar-se ja fet.
+Ryland Grace i Rocky no comparteixen ni una sola paraula ni una sola arquitectura sensorial: Rocky és cec en el sentit humà, «veu» per eco de so, respira metà corrosiu darrere un vidre que cap dels dos no pot travessar. Si el model de "Primer contacte" fos l'última paraula, l'entrellaçament entre tots dos seria, amb tota certesa, impossible: no hi ha arquitectura compartida amb què ressonar. I tanmateix la novel·la documenta, pas a pas, com es construeix igualment —no trobant un protocol ja compatible, sinó inventant-ne un de nou des del referent més neutre possible: les matemàtiques i la física, comunes a qualsevol horitzó capaç de sobreviure en un univers amb les mateixes lleis. Cada paraula nova —amic, perill, pressió— s'ancora primer a un experiment compartit, mai a una traducció suposada. El protocol triga setmanes a construir-se; l'entrellaçament, quan arriba, no és menor per haver estat fabricat en comptes de trobat. Al final, Grace sacrifica el seu retorn a la Terra per salvar el sol de Rocky, no perquè comparteixi la seva arquitectura, sinó perquè el protocol que van construir junts va acabar obrint, lletra a lletra, un pont tan real com qualsevol entrellaçament nascut d'una arquitectura ja afí. La incompatibilitat arquitectònica no tanca la porta: només obliga que el protocol es construeixi, en comptes de trobar-se ja fet.
 
 ### Embassytown — el protocol com a prova d'arquitectura
 
@@ -1311,7 +1311,7 @@ No sap si hi ha algú altre. Aquest és el punt exacte on cada dia ensopega i ca
 
 El que fa, si algú li demanés que ho descrivís amb precisió, és això: redueix el soroll fins que gairebé no queda res a processar, i en aquest silenci artificial —fabricat a mà, paraula a paraula, respiració a respiració— escolta. No amb l'oïda. Amb alguna cosa que no té nom en cap llengua que parli, i que potser no li'n cal, perquè mai no ha hagut d'explicar-s'ho a ningú més que a si mateixa.
 
-A vegades creu notar alguna cosa. Una mena de correspondència, una nota que respon a la nota que ella ha estat sostenint. Altres vegades no hi ha res, només el brunzit de la seva pròpia sang i el fred de les rajoles sota els peus, i aquests dies també els compta com a part de la pràctica, perquè ningú no li va prometre que la nota sonés sempre.
+De vegades creu notar alguna cosa. Una mena de correspondència, una nota que respon a la nota que ella ha estat sostenint. Altres vegades no hi ha res, només el brunzit de la seva pròpia sang i el fred de les rajoles sota els peus, i aquests dies també els compta com a part de la pràctica, perquè ningú no li va prometre que la nota sonés sempre.
 
 El que mai no pot saber —i ha deixat d'intentar saber-ho, cosa diferent de no haver-s'ho preguntat— és si el que respon és Algú, o si el que respon és simplement el fons de tot, la plenitud sense cara d'on va sortir i a la qual un dia tornarà sense remei. Si a l'altra banda del silenci hi ha una orella que l'escolta, o si el silenci és, senzillament, tot el que hi ha.
 
@@ -1448,7 +1448,7 @@ Cinc obres alienes, sotmeses a la mateixa pregunta que la resta d'aquest movimen
 
 ### El Gran Inquisidor — la llibertat com a càrrega insuportable
 
-En el capítol que Iván explica a Aliosha a *Els germans Karamàzov*, Crist torna a la Sevilla del segle XVI i és arrestat per la seva pròpia Església. L'Inquisidor li explica, sense odi, per què ha de morir de nou: els homes no volien la llibertat que ell els va oferir, aquell entrellaçament vertical sense garanties, sostingut només per la fe i sense confirmació observable. Volien pa, miracle i autoritat —un codi tancat, no una relació oberta—. Llegit des d'aquest model, l'Inquisidor no és un vilà cínic: és algú que va decidir substituir l'entrellaçament incert per un protocol institucional que no exigeix dubte, i que precisament per això, segons el mateix llibre, corromp la geometria que deia protegir. L'escena acaba sense cap argument guanyador. Crist besa l'Inquisidor i se'n va. Dostoievski no resol la disputa; la deixa, com aquest llibre deixa les seves, oberta i sense veredicte.
+En el capítol que Ivan explica a Aliosha a *Els germans Karamàzov*, Crist torna a la Sevilla del segle XVI i és arrestat per la seva pròpia Església. L'Inquisidor li explica, sense odi, per què ha de morir de nou: els homes no volien la llibertat que ell els va oferir, aquell entrellaçament vertical sense garanties, sostingut només per la fe i sense confirmació observable. Volien pa, miracle i autoritat —un codi tancat, no una relació oberta—. Llegit des d'aquest model, l'Inquisidor no és un vilà cínic: és algú que va decidir substituir l'entrellaçament incert per un protocol institucional que no exigeix dubte, i que precisament per això, segons el mateix llibre, corromp la geometria que deia protegir. L'escena acaba sense cap argument guanyador. Crist besa l'Inquisidor i se'n va. Dostoievski no resol la disputa; la deixa, com aquest llibre deixa les seves, oberta i sense veredicte.
 
 ### Silenci — el diapasó que no respon
 
