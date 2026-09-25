@@ -37,7 +37,7 @@ con una lámina por capítulo. Mismo interior para tapa dura y tapa blanda.
 | `El_Horizonte_Interior_ilustrada_cubierta_ebook.jpg` | portada del EPUB, 1600 × 2560 px |
 | `El_Horizonte_Interior_ilustrada.epub` | EPUB con las láminas |
 
-Lomos calculados para papel a color (0,002347"/página). Sin ISBN en créditos:
+Cubierta: óleo del círculo de agua en calma (`img/portada_ilustrada_2k.jpg`), a sangre con velo y grano como el resto de la serie; tipografía EB Garamond. Lomos calculados para papel a color (0,002347"/página). Sin ISBN en créditos:
 KDP asigna uno por formato (el 9798172477270 es de la edición original).
 
 Regenerar, desde `edicion_original/`:
