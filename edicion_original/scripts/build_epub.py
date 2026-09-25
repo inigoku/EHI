@@ -216,10 +216,10 @@ for n, t in enumerate(tokens):
 
 book = epub.EpubBook()
 book.set_identifier(f"urn:uuid:{uuid.uuid5(uuid.NAMESPACE_URL, 'el-horizonte-interior-ilustrada')}")
-book.set_title("El horizonte interior")
+book.set_title("El horizonte interior (segunda edición)")
 book.set_language("es")
 book.add_author("Íñigo Barrera Barceló")
-book.add_metadata("DC", "description", "Un experimento de pensamiento. Edición ilustrada.")
+book.add_metadata("DC", "description", "Un experimento de pensamiento. Segunda edición, ilustrada.")
 book.set_cover("images/cover.jpg", COVER.read_bytes())
 
 CSS = """
@@ -263,13 +263,13 @@ def page(fname, title, content):
 spine, toc, part = [], [], None
 tp = page("text/titulo.xhtml", "El horizonte interior",
     '<div class="titulo"><h1>El horizonte interior</h1><p class="orn">— ◇ —</p>'
-    '<p class="sub">Un experimento de pensamiento</p><p class="kicker">edición ilustrada</p>'
+    '<p class="sub">Un experimento de pensamiento</p><p class="kicker">segunda edición · ilustrada</p>'
     '<p style="margin-top:3em" class="sc">Íñigo Barrera Barceló</p></div>')
 cr = page("text/creditos.xhtml", "Créditos",
     '<div class="titulo" style="margin-top:40%;font-size:.85em"><p><em>El horizonte interior. Un experimento de pensamiento</em></p>'
-    '<p>Edición ilustrada</p><p>© Íñigo Barrera Barceló, 2026</p>'
+    '<p>Segunda edición, ilustrada</p><p>© Íñigo Barrera Barceló, 2026</p>'
     '<p>Todos los derechos reservados. No se permite la reproducción total o parcial de este libro, ni su incorporación a un sistema informático, ni su transmisión en cualquier forma o por cualquier medio sin el permiso previo y por escrito del autor.</p>'
-    '<p>Primera edición ilustrada: 2026</p></div>')
+    '<p>Primera edición: 2026<br/>Segunda edición, ilustrada: 2026</p></div>')
 spine += ["cover", tp, cr, "nav"]
 
 n = 0

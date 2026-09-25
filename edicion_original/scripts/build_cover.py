@@ -55,7 +55,7 @@ def front(x0, y0):
 \node at ($(O)+({cx},{y0 + TRIM_H - 2.18})$) {{\color{{oro}}\rule[0.55ex]{{2.4em}}{{0.4pt}}\hspace{{0.6em}}$\diamond$\hspace{{0.6em}}\rule[0.55ex]{{2.4em}}{{0.4pt}}}};
 \node at ($(O)+({cx},{y0 + TRIM_H - 2.52})$) {{\color{{crema}}\fontsize{{14}}{{17}}\selectfont\itshape Un experimento de pensamiento}};
 \node at ($(O)+({cx},{y0 + 3.62})$) {{\includegraphics[width=5.3in]{{{ART}}}}};
-\node at ($(O)+({cx},{y0 + 0.92})$) {{\color{{gris}}\fontsize{{9}}{{11}}\selectfont\esp{{9}}{{\scshape edición ilustrada}}}};
+\node at ($(O)+({cx},{y0 + 0.92})$) {{\color{{gris}}\fontsize{{9}}{{11}}\selectfont\esp{{9}}{{\scshape segunda edición · ilustrada}}}};
 \node at ($(O)+({cx},{y0 + 0.56})$) {{\color{{crema}}\fontsize{{13}}{{16}}\selectfont\esp{{9}}{{\scshape íñigo barrera barceló}}}};
 """
 
@@ -66,7 +66,7 @@ def back(x0, y0):
 \node[anchor=north] at ($(O)+({cx},{y0 + TRIM_H - 1.0})$) {{\color{{crema}}\fontsize{{16}}{{20}}\selectfont\esp{{9}}{{\scshape el horizonte interior}}}};
 \node at ($(O)+({cx},{y0 + TRIM_H - 1.45})$) {{\color{{oro}}\rule[0.55ex]{{1.8em}}{{0.4pt}}\hspace{{0.5em}}$\diamond$\hspace{{0.5em}}\rule[0.55ex]{{1.8em}}{{0.4pt}}}};
 \node[anchor=north, text width=4.3in, align=justify] at ($(O)+({cx},{y0 + TRIM_H - 1.75})$) {{\color{{crema}}\fontsize{{11.2}}{{15.5}}\selectfont {paras}}};
-\node[anchor=north, text width=4.3in, align=center] at ($(O)+({cx},{y0 + 3.05})$) {{\color{{oro}}\fontsize{{10.5}}{{14}}\selectfont\itshape Edición ilustrada, con una lámina a página completa\\ al comienzo de cada capítulo.}};
+\node[anchor=north, text width=4.3in, align=center] at ($(O)+({cx},{y0 + 3.05})$) {{\color{{oro}}\fontsize{{10.5}}{{14}}\selectfont\itshape Segunda edición, ilustrada: una lámina a página completa\\ al comienzo de cada capítulo.}};
 \fill[white] ($(O)+({x0 + TRIM_W - 2.35},{y0 + 0.4})$) rectangle ++(2.0,1.2);
 """
 
