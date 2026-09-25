@@ -23,19 +23,34 @@ Dos pasadas para que el índice tenga los números de página. Necesita
 `texlive-xetex`, `texlive-latex-extra`, `texlive-lang-spanish` y
 `texlive-pictures` (memoir, polyglossia, tcolorbox, lettrine, tikz).
 
-## Versión accesible
+## Edición ilustrada
 
-`main_accesible.tex` + `cuerpo_accesible.tex` → `El_Horizonte_Interior_accesible.pdf`
-(221 páginas). `cuerpo_accesible.tex` **no se edita a mano**: lo genera
+Versión divulgativa de la tesis: el original del autor más siete capítulos,
+con una lámina por capítulo. Mismo interior para tapa dura y tapa blanda.
 
-    python3 scripts/build_accesible.py
+| Fichero | Qué es |
+|---|---|
+| `El_Horizonte_Interior_ilustrada_6x9.pdf` | interior 6 × 9" (230 págs., par), tapa dura y tapa blanda |
+| `El_Horizonte_Interior_ilustrada_cubierta_tapadura.pdf` | envolvente de tapa dura KDP (lomo 0,600") |
+| `El_Horizonte_Interior_ilustrada_cubierta_tapablanda.pdf` | envolvente de tapa blanda KDP (lomo 0,540") |
+| `El_Horizonte_Interior_ilustrada_portada_frontal.pdf` | frente suelto con sangre |
+| `El_Horizonte_Interior_ilustrada_cubierta_ebook.jpg` | portada del EPUB, 1600 × 2560 px |
+| `El_Horizonte_Interior_ilustrada.epub` | EPUB con las láminas |
 
-a partir del original del autor (`cuerpo_autor.tex`, intacto):
+Lomos calculados para papel a color (0,002347"/página). Sin ISBN en créditos:
+KDP asigna uno por formato (el 9798172477270 es de la edición original).
 
-1. Corrige erratas del original: «más rápido que la luz», «que su marido se
-   disuelva» (×2), dos anglicismos («se scrambled» → «se desordena»,
-   «scrambled» → «revueltas») y los asteriscos de «M87\*» y «Sagitario A\*»,
-   que se habían convertido en cursiva.
+Regenerar, desde `edicion_original/`:
+
+    python3 scripts/build_ilustrada.py        # cuerpo_ilustrada.tex desde cuerpo_autor.tex
+    xelatex main_ilustrada.tex; xelatex main_ilustrada.tex
+    mv main_ilustrada.pdf El_Horizonte_Interior_ilustrada_6x9.pdf
+    python3 scripts/build_cover.py            # cubiertas y portada del ebook
+    python3 scripts/build_epub.py             # EPUB
+
+`cuerpo_ilustrada.tex` no se edita a mano. `build_ilustrada.py`:
+
+1. Corrige erratas del original (y la puntuación: rayas de inciso, comillas «»).
 2. Renumera los capítulos y las referencias «capítulo N».
 3. Inserta los capítulos nuevos de `capitulos/`, cada uno con su lámina:
 
@@ -49,4 +64,4 @@ a partir del original del autor (`cuerpo_autor.tex`, intacto):
 | 23 | El entrelazamiento vertical | `cuerpo.tex` |
 | 24 | La realidad fractal | `cuerpo.tex` |
 
-Compilar: `xelatex main_accesible.tex` dos veces.
+4. Añade al glosario y a las referencias los términos y obras de esos capítulos.

@@ -1,4 +1,4 @@
-"""Genera cuerpo_accesible.tex (versión accesible de la tesis) a partir del
+"""Genera cuerpo_ilustrada.tex (versión ilustrada) a partir del
 original del autor (cuerpo_autor.tex, que no se toca):
 
 1. corrige erratas del original;
@@ -8,7 +8,7 @@ original del autor (cuerpo_autor.tex, que no se toca):
    lámina delante (la lámina de un capítulo va al final del anterior,
    como en el original).
 
-Uso: python3 scripts/build_accesible.py   (desde edicion_original/)
+Uso: python3 scripts/build_ilustrada.py   (desde edicion_original/)
 """
 import re
 from pathlib import Path
@@ -153,7 +153,7 @@ def comillas(s):
     return "".join(out)
 src = comillas(src)
 
-(BASE / "cuerpo_accesible.tex").write_text(src, encoding="utf-8")
+(BASE / "cuerpo_ilustrada.tex").write_text(src, encoding="utf-8")
 nums = re.findall(r"\\capitulo\{CAPÍTULO (\d+)\}", src)
 assert nums == [str(i) for i in range(0, 26)], nums
-print("cuerpo_accesible.tex:", len(nums), "capítulos numerados (0-25)")
+print("cuerpo_ilustrada.tex:", len(nums), "capítulos numerados (0-25)")
