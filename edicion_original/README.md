@@ -22,3 +22,12 @@ EB Garamond, clase `memoir`, compilada con XeLaTeX.
 Dos pasadas para que el índice tenga los números de página. Necesita
 `texlive-xetex`, `texlive-latex-extra`, `texlive-lang-spanish` y
 `texlive-pictures` (memoir, polyglossia, tcolorbox, lettrine, tikz).
+
+## Versión accesible (en preparación)
+
+`main_accesible.tex` + `cuerpo_accesible.tex` → `El_Horizonte_Interior_accesible.pdf`.
+Parte del original del autor, que se mantiene intacto en `cuerpo_autor.tex`,
+con cuatro erratas corregidas («más rápido que la luz», «que su marido se
+disuelva» ×2, y dos anglicismos: «se scrambled» → «se desordena»,
+«scrambled» → «revueltas»). Es la base de la versión accesible de la
+tesis; aquí se irán añadiendo los capítulos que se decidan.
