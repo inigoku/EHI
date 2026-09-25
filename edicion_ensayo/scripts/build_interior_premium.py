@@ -332,6 +332,11 @@ class ChapterMarker(Flowable):
         self.title, self.section, self.toc_text = title, section, toc_text
 
     def wrap(self, aw, ah):
+        # La lámina y el ForceParity de página equivocada consumen el marco
+        # entero; sin este salto el marcador caería en esa página y el índice
+        # apuntaría una antes del título.
+        if ah < 1:
+            return (aw, ah + 1)
         return (0, 0)
 
     def draw(self):
@@ -452,6 +457,8 @@ class PremiumDocTemplate(BaseDocTemplate):
         if isinstance(flowable, FullFramePlate):
             if not flowable._is_filler:
                 self._page_has_content = True
+                # La lámina lleva folio pero no cabecera corrida.
+                self._chapter_opened_this_page = True
             return
         if isinstance(flowable, SetFolio):
             self._show_folio = flowable.value
@@ -516,7 +523,7 @@ def title_page(story: list, toc: dict) -> None:
                                     align="center"))
 
 
-def credits_page(story: list, toc: dict) -> None:
+def credits_page(story: list, toc: dict, sin_ilustraciones: bool = False) -> None:
     story.append(ForceParity(0, TEXT_H))
     story.append(Spacer(1, TEXT_H * 0.5))
     lines = [
@@ -526,7 +533,7 @@ def credits_page(story: list, toc: dict) -> None:
         ("Los capítulos de ensayo proceden de la obra completa El Horizonte Interior "
          "y se reproducen aquí en su orden de lectura, junto con las lecturas "
          "topológicas y el aparato final.", R),
-        ("Las ilustraciones proceden de la edición ilustrada de la misma obra.", R),
+        (None if sin_ilustraciones else "Las ilustraciones proceden de la edición ilustrada de la misma obra.", R),
         ("Compuesto en Source Serif Pro.", R),
     ]
     for text, font in lines:
@@ -667,13 +674,16 @@ def _patch_glyph_fallback() -> None:
     gbp.inline_markdown_to_markup = inline_with_fallback
 
 
-def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None) -> None:
+def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None,
+              sin_ilustraciones: bool = False) -> None:
     register_fonts()
     _patch_glyph_fallback()
     with toc_path.open("r", encoding="utf-8") as fh:
         toc = json.load(fh)
     base_dir = toc_path.parent
-    illustrations = toc.get("illustrations", {})
+    # Sin ilustraciones: ni láminas de capítulo ni ilustraciones en línea
+    # (un diccionario vacío hace que markdown_to_flowables salte los marcadores).
+    illustrations = {} if sin_ilustraciones else toc.get("illustrations", {})
     styles = build_styles()
 
     doc = PremiumDocTemplate(str(output_path), pagesize=(PW, PH),
@@ -682,7 +692,7 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
     story: list = []
     half_title(story)
     title_page(story, toc)
-    credits_page(story, toc)
+    credits_page(story, toc, sin_ilustraciones)
     dedication_page(story)
     toc_page(story)
     story.append(SetFolio(True))
@@ -691,6 +701,9 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         content_file = gbp.resolve_path(base_dir, chapter["content_file"])
         raw_text = content_file.read_text(encoding="utf-8")
         frontmatter, body = gbp.parse_frontmatter(raw_text)
+        # Una raya "---" al final del capítulo no separa nada y, si cae justo
+        # al pie, desborda sola a una página que sale en blanco con cabecera.
+        body = re.sub(r"(?:\s*^---\s*)+\Z", "\n", body, flags=re.MULTILINE)
 
         title = chapter.get("title") or frontmatter.get("title") or chapter["id"]
         subtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
@@ -699,7 +712,7 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")
 
         illustration_bytes = None
-        if illustration_ref:
+        if illustration_ref and not sin_ilustraciones:
             image_source = illustrations.get(illustration_ref, illustration_ref)
             illustration_bytes = gbp.load_image_bytes(image_source, base_dir, ca_bundle)
 
@@ -725,9 +738,13 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             story.append(Paragraph(gbp.escape_xml(subtitle), styles["ChapterSubtitle"]))
         story.append(HRFlowable(width=42, thickness=0.9, color=GOLD, hAlign="LEFT",
                                  spaceBefore=6, spaceAfter=16))
-        story.extend(gbp.markdown_to_flowables(body, styles, illustrations, base_dir,
-                                                TEXT_W, ca_bundle))
-        story.append(Spacer(1, 10))
+        flowables = gbp.markdown_to_flowables(body, styles, illustrations, base_dir,
+                                              TEXT_W, ca_bundle)
+        # Nada de espacio al final del capítulo: si cae al pie, desborda solo
+        # a la página siguiente y deja páginas vacías de más.
+        while flowables and isinstance(flowables[-1], Spacer):
+            flowables.pop()
+        story.extend(flowables)
 
     colophon_page(story)
 
@@ -740,8 +757,10 @@ def main() -> int:
     parser.add_argument("toc", type=Path, help="Ruta al toc_ensayo.json")
     parser.add_argument("-o", "--output", type=Path, required=True)
     parser.add_argument("--ca-bundle", type=str, default=None)
+    parser.add_argument("--sin-ilustraciones", action="store_true",
+                        help="Sin láminas ni ilustraciones en línea: tapa blanda en papel B/N.")
     args = parser.parse_args()
-    build_pdf(args.toc, args.output, args.ca_bundle)
+    build_pdf(args.toc, args.output, args.ca_bundle, args.sin_ilustraciones)
     return 0
 
 

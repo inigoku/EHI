@@ -92,3 +92,21 @@ apuntar `toc_ensayo.json` a copias locales.
 - Edición en inglés: todos los capítulos ya existen en `.en.md`. Se puede
   repetir el mismo proceso con un `toc_ensayo_en.json` que apunte a esos
   ficheros.
+
+## Versión sin ilustraciones (tapa blanda B/N y EPUB)
+
+    El_Horizonte_Interior_Ensayo_sin_ilustraciones_6x9.pdf          interior, 706 páginas, sin láminas ni ilustraciones en línea
+    El_Horizonte_Interior_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf  cubierta de tapa blanda (papel blanco B/N, lomo 1,590")
+    El_Horizonte_Interior_Ensayo_sin_ilustraciones.epub             EPUB solo con la portada
+
+    python3 scripts/build_interior_premium.py toc_ensayo.json \
+      -o El_Horizonte_Interior_Ensayo_sin_ilustraciones_6x9.pdf --sin-ilustraciones
+    python3 scripts/build_epub_ensayo.py toc_ensayo.json \
+      -o El_Horizonte_Interior_Ensayo_sin_ilustraciones.epub --sin-ilustraciones
+    python3 scripts/build_cover_paperback.py --sin-ilustraciones
+
+El maquetador corrige además dos fallos heredados (los mismos de Cuentos de
+Tarel): los marcadores del índice caían una página antes del título cuando
+el capítulo empezaba tras una página de cortesía, y la raya o el espacio
+final de un capítulo podían dejar sola una página en blanco con cabecera.
+El interior ilustrado (792 págs.) no se ha regenerado con estos arreglos.

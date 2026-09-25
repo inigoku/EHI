@@ -93,7 +93,15 @@ def main() -> int:
     ap.add_argument("--paginas", type=int, default=None)
     ap.add_argument("--ancho", type=float, default=None)
     ap.add_argument("--alto", type=float, default=None)
+    ap.add_argument("--sin-ilustraciones", action="store_true",
+                    help="Cubierta para el interior sin ilustraciones (papel blanco B/N).")
     args = ap.parse_args()
+    global WRAP_PDF, SPINE_PER_PAGE
+    if args.sin_ilustraciones:
+        # Sin láminas el interior es B/N: papel blanco, 0.002252"/página.
+        WRAP_PDF = BASE / "El_Horizonte_Interior_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf"
+        SPINE_PER_PAGE = hc.SPINE_PER_PAGE
+        hc.INTERIOR_PDF = BASE / "El_Horizonte_Interior_Ensayo_sin_ilustraciones_6x9.pdf"
     src = hc.source_image()
     if not src.exists():
         raise SystemExit(
