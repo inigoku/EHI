@@ -102,7 +102,12 @@ SAND = colors.HexColor("#f2ede4")    # texto principal sobre el velo oscuro
 GOLD = colors.HexColor("#cfe3e2")    # acento: filete, subtítulo, kicker
 
 
+ART_OVERRIDE: Path | None = None   # ilustración propia de un tomo (TOMOS[...]["art"])
+
+
 def source_image() -> Path:
+    if ART_OVERRIDE is not None:
+        return ART_OVERRIDE
     two_k = IMG / "portada_2k.jpg"
     return two_k if two_k.exists() else IMG / "portada.jpg"
 
@@ -316,6 +321,7 @@ TOMOS = {
         front=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_portada_frontal.pdf",
         wrap=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapadura.pdf",
         title="Lecturas topológicas", title_lines=["Lecturas", "Topológicas"],
+        art=IMG / "portada_lecturas.jpg",   # cinta de Möbius de agua
         subtitle="El Horizonte Interior · Tomo II",
         kicker="Las ideas del ensayo en la ficción, el cine y la vida cotidiana",
         blurb=("Un clon que no es la yegua que copia, un replicante que llora bajo la lluvia, "
@@ -329,8 +335,9 @@ TOMOS = {
 
 
 def select_tomo(n: str) -> None:
-    global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, TITLE, TITLE_LINES, SUBTITLE, KICKER, BLURB, BLURB2, SPINE_PER_PAGE
+    global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, TITLE, TITLE_LINES, SUBTITLE, KICKER, BLURB, BLURB2, SPINE_PER_PAGE, ART_OVERRIDE
     c = TOMOS[n]
+    ART_OVERRIDE = c.get("art")
     FRONT_PDF, WRAP_PDF, INTERIOR_PDF = c["front"], c["wrap"], c["interior"]
     TITLE, TITLE_LINES, SUBTITLE, KICKER = c["title"], c["title_lines"], c["subtitle"], c["kicker"]
     BLURB, BLURB2 = c["blurb"], c["blurb2"]
