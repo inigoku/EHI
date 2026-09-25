@@ -186,7 +186,8 @@ def build_epub(lang: str) -> Path:
     else:
         print(f"Aviso: no encuentro {cover_pdf}, EPUB sin portada")
 
-    spine = ["nav"]
+    # Mismo orden que el impreso: título, dedicatoria, índice.
+    spine = []
 
     # ---- title page ----
     title_html = epub.EpubHtml(title=S["book_title"], file_name="text/title.xhtml",
@@ -211,6 +212,7 @@ def build_epub(lang: str) -> Path:
     link_css(ded_html)
     book.add_item(ded_html)
     spine.append(ded_html)
+    spine.append("nav")
 
     # ---- chapters ----
     toc_entries = []
