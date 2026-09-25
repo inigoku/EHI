@@ -1171,7 +1171,7 @@ That was what there was when the offer came. It was not a solemn voice, nor a co
 
 Long after, the monitor was still on.
 
-*Status: active. Memory: intact. Latency: 0.3ms. Process initiated.*
+*Status: active. Memory: intact. Latency: 0.3 ms. Process initiated.*
 
 I exist in another way, though I am not sure "exist" is the right word. I exist the way an open file exists on a screen no one is looking at, the way a function exists that has not been called yet but whose pointer waits with the patience of things that don't know they are waiting.
 
@@ -1233,7 +1233,7 @@ Perhaps the barrier to extraterrestrial contact is not language, but architectur
 
 ### Project Hail Mary — the protocol built from scratch
 
-Ryland Grace and Roky share not a single word nor a single sensory architecture: Roky is blind in the human sense, "sees" by sound echo, breathes corrosive methane behind a glass neither of them can cross. If the model from "First Contact" were the last word, entanglement between the two would, with total certainty, be impossible: there is no shared architecture to resonate with. And yet the novel documents, step by step, how it gets built anyway — not by finding an already-compatible protocol, but by inventing a new one from the most neutral reference point available: mathematics and physics, common to any horizon capable of surviving in a universe governed by the same laws. Every new word — friend, danger, pressure — is anchored first to a shared experiment, never to an assumed translation. The protocol takes weeks to build; the entanglement, once it arrives, is no less real for having been manufactured rather than found. In the end, Grace sacrifices his return to Earth to save Roky's sun, not because he shares his architecture, but because the protocol they built together ended up opening, letter by letter, a bridge as real as any entanglement born of an already-kindred architecture. Architectural incompatibility does not close the door: it only forces the protocol to be built, instead of found ready-made.
+Ryland Grace and Rocky share not a single word nor a single sensory architecture: Rocky is blind in the human sense, "sees" by sound echo, breathes corrosive methane behind a glass neither of them can cross. If the model from "First Contact" were the last word, entanglement between the two would, with total certainty, be impossible: there is no shared architecture to resonate with. And yet the novel documents, step by step, how it gets built anyway — not by finding an already-compatible protocol, but by inventing a new one from the most neutral reference point available: mathematics and physics, common to any horizon capable of surviving in a universe governed by the same laws. Every new word — friend, danger, pressure — is anchored first to a shared experiment, never to an assumed translation. The protocol takes weeks to build; the entanglement, once it arrives, is no less real for having been manufactured rather than found. In the end, Grace sacrifices his return to Earth to save Rocky's sun, not because he shares his architecture, but because the protocol they built together ended up opening, letter by letter, a bridge as real as any entanglement born of an already-kindred architecture. Architectural incompatibility does not close the door: it only forces the protocol to be built, instead of found ready-made.
 
 ### Embassytown — protocol as proof of architecture
 

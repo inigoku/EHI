@@ -92,3 +92,60 @@ apuntar `toc_ensayo.json` a copias locales.
 - Edición en inglés: todos los capítulos ya existen en `.en.md`. Se puede
   repetir el mismo proceso con un `toc_ensayo_en.json` que apunte a esos
   ficheros.
+
+## Versión sin ilustraciones (tapa blanda B/N y EPUB)
+
+    El_Horizonte_Interior_Ensayo_sin_ilustraciones_6x9.pdf          interior, 706 páginas, sin láminas ni ilustraciones en línea
+    El_Horizonte_Interior_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf  cubierta de tapa blanda (papel blanco B/N, lomo 1,590")
+    El_Horizonte_Interior_Ensayo_sin_ilustraciones.epub             EPUB solo con la portada
+
+    python3 scripts/build_interior_premium.py toc_ensayo.json \
+      -o El_Horizonte_Interior_Ensayo_sin_ilustraciones_6x9.pdf --sin-ilustraciones
+    python3 scripts/build_epub_ensayo.py toc_ensayo.json \
+      -o El_Horizonte_Interior_Ensayo_sin_ilustraciones.epub --sin-ilustraciones
+    python3 scripts/build_cover_paperback.py --sin-ilustraciones
+
+El maquetador corrige además dos fallos heredados (los mismos de Cuentos de
+Tarel): los marcadores del índice caían una página antes del título cuando
+el capítulo empezaba tras una página de cortesía, y la raya o el espacio
+final de un capítulo podían dejar sola una página en blanco con cabecera.
+El interior ilustrado también está regenerado con ellos: 790 páginas (antes 792), mismo texto, y sus cubiertas de tapa dura y tapa blanda recalculadas.
+
+## Dos tomos de tapa dura
+
+KDP no admite tapa dura de más de 550 páginas; el volumen único tiene 790.
+
+    El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf                 tomo I, 540 págs.: capítulos 0-33, cuarta parte (34-35), epílogo, glosario y notas
+    El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapadura.pdf   lomo 1,327" (papel a color)
+    El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf               tomo II, 224 págs.: las 18 lecturas topológicas («Lectura 1-18»)
+    El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapadura.pdf lomo 0,586" (papel a color)
+
+    python3 scripts/make_tomos.py          # toc_tomo1_ensayo.json, toc_tomo2_lecturas.json (y referencias de toc_ensayo.json)
+    python3 scripts/build_interior_premium.py toc_tomo1_ensayo.json -o El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf
+    python3 scripts/build_interior_premium.py toc_tomo2_lecturas.json -o El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf
+    python3 scripts/build_cover.py --tomo 1
+    python3 scripts/build_cover.py --tomo 2
+
+`make_tomos.py` renumera (52-53 -> 34-35 en el tomo I; 34-51 -> lecturas 1-18 en el
+tomo II) y corrige, con el campo `replace` de cada capítulo del TOC, las referencias
+cruzadas: las que cambian al partir el libro y las que ya estaban mal en el volumen
+único, heredadas de la numeración de la web («capítulo 43» por la ética, que es el
+52; «capítulo 51» por El entrelazamiento vertical, que es el 29; «capítulo 23» por la
+encapsulación, que es el 3; etc.). Esas mismas correcciones van en `toc_ensayo.json`
+y ya están aplicadas al volumen único (PDF y EPUB).
+
+### Los tomos sin ilustraciones (tapa blanda B/N y EPUB)
+
+    El_Horizonte_Interior_Tomo1_Ensayo_sin_ilustraciones_6x9.pdf                   492 págs.
+    El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf   lomo 1,108" (papel blanco B/N)
+    El_Horizonte_Interior_Tomo1_Ensayo_sin_ilustraciones.epub
+    El_Horizonte_Interior_Tomo2_Lecturas_sin_ilustraciones_6x9.pdf                 204 págs.
+    El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapablanda_sin_ilustraciones.pdf lomo 0,459" (papel blanco B/N)
+    El_Horizonte_Interior_Tomo2_Lecturas_sin_ilustraciones.epub
+    imagenes/El_Horizonte_Interior_Tomo{1_Ensayo,2_Lecturas}_cubierta_ebook.jpg     portadas del EPUB, 1600 x 2560
+
+    python3 scripts/build_cover.py --tomo N               # también genera la portada del EPUB
+    python3 scripts/build_interior_premium.py toc_tomoN_*.json -o ..._sin_ilustraciones_6x9.pdf --sin-ilustraciones
+    python3 scripts/build_epub_ensayo.py toc_tomoN_*.json -o ..._sin_ilustraciones.epub --sin-ilustraciones
+    python3 scripts/build_cover_paperback.py --tomo N
+

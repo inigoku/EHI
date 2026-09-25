@@ -25,10 +25,15 @@ FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n?(.*)\Z", re.DOTALL)
 INLINE_ILLUS_RE = re.compile(
     r'^##\s*\[(?:ILUSTRACI[ÓO]N|ILLUSTRATION)\s*([\w.]*)?:?\s*"([^"]+)"\]', re.IGNORECASE)
 
+# La dedicatoria es la misma que la del interior impreso
+# (build_interior_premium.py, STRINGS[...]["dedication"]): cambiarlas juntas.
 UI_STRINGS = {
-    "es": {"toc": "Índice"},
-    "en": {"toc": "Contents"},
-    "ca": {"toc": "Índex"},
+    "es": {"toc": "Índice",
+           "dedication": "A los que se fueron sin avisar<br/>y dejaron su hueco en el archivo."},
+    "en": {"toc": "Contents",
+           "dedication": "To those who went without warning<br/>and left their hollow in the archive."},
+    "ca": {"toc": "Índex",
+           "dedication": "Als qui se'n van anar sense avisar<br/>i van deixar el seu forat a l'arxiu."},
 }
 
 
@@ -91,6 +96,19 @@ SIMULATION_HEADING_RE = re.compile(r"^## \[SIMULACI[ÓO]N[^\]]*\]\s*$", re.MULTI
 SIMULATION_HEADING_EN_RE = re.compile(r"^## \[SIMULATION[^\]]*\]\s*$", re.MULTILINE)
 SIDEBOX_RE = re.compile(r"\[CAJA LATERAL:\s*([^\]]+)\]")
 SIDEBOX_EN_RE = re.compile(r"\[SIDEBOX:\s*([^\]]+)\]")
+
+
+# La nota del archivista (cuento0) trae el índice escrito a mano de la web.
+# En el libro ya hay un índice generado, así que se quita para no duplicarlo;
+# la nota y la "Nota de cierre" se conservan.
+WEB_INDEX_RE = re.compile(
+    r"^## (?:Índice|Índex|Table of Contents)\s*$.*?"
+    r"(?=^### (?:Nota de cierre|Nota de tancament|Closing Note)\s*$)",
+    re.MULTILINE | re.DOTALL)
+
+
+def strip_web_index(body: str) -> str:
+    return WEB_INDEX_RE.sub("", body)
 
 
 def strip_web_only_markers(body: str) -> str:
@@ -320,6 +338,8 @@ hr { border: none; border-top: 1px solid #bbb; margin: 1.5em 0; }
 code { font-family: "Courier New", monospace; font-size: 0.92em; }
 nav#toc ol { list-style: none; padding-left: 0; }
 nav#toc li { margin: 0.3em 0; }
+section.dedication { margin-top: 35%; }
+section.dedication p { text-align: center; font-style: italic; }
 """
 
 
@@ -363,11 +383,17 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
                    f'<p class="subtitle">{esc(subtitle)}</p><p>{esc(author)}</p></section>')
     add_xhtml("cover", "cover.xhtml", page(title, cover_body, lang=lang))
 
+    # --- dedication ---------------------------------------------------------
+    dedication_body = (f'<section class="dedication" epub:type="dedication">'
+                       f'<p>{ui["dedication"]}</p></section>')
+    add_xhtml("dedication", "dedication.xhtml", page(title, dedication_body, lang=lang))
+
     # --- chapters ----------------------------------------------------------
     for chapter in toc["chapters"]:
         content_file = resolve_path(base_dir, chapter["content_file"])
         raw_text = content_file.read_text(encoding="utf-8")
         frontmatter, body = parse_frontmatter(raw_text)
+        body = strip_web_index(body)
 
         ctitle = chapter.get("title") or frontmatter.get("title") or chapter["id"]
         csubtitle = chapter.get("subtitle") or frontmatter.get("subtitle")

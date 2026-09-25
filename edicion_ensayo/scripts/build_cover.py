@@ -102,7 +102,12 @@ SAND = colors.HexColor("#f2ede4")    # texto principal sobre el velo oscuro
 GOLD = colors.HexColor("#cfe3e2")    # acento: filete, subtítulo, kicker
 
 
+ART_OVERRIDE: Path | None = None   # ilustración propia de un tomo (TOMOS[...]["art"])
+
+
 def source_image() -> Path:
+    if ART_OVERRIDE is not None:
+        return ART_OVERRIDE
     two_k = IMG / "portada_2k.jpg"
     return two_k if two_k.exists() else IMG / "portada.jpg"
 
@@ -295,12 +300,66 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
           f"(lomo {spine_in:.3f}\" para {pages} páginas)")
 
 
+# Los dos tomos de tapa dura (KDP no admite tapa dura de más de 550 páginas y
+# el volumen único tiene 790). Interior con láminas a color: 0.002347"/página.
+TOMOS = {
+    "1": dict(
+        interior=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf",
+        front=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_portada_frontal.pdf",
+        wrap=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapadura.pdf",
+        ebook=IMG / "El_Horizonte_Interior_Tomo1_Ensayo_cubierta_ebook.jpg",
+        wrap_bn=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf",
+        interior_bn=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_sin_ilustraciones_6x9.pdf",
+        title="El Horizonte Interior", title_lines=["El Horizonte", "Interior"],
+        subtitle="Ensayo · Tomo I",
+        kicker="Un ensayo sobre física, conciencia y los límites del yo",
+        blurb=BLURB,
+        blurb2=("Treinta y cinco capítulos que cruzan neurociencia, teoría de la información y "
+                "física teórica sin abandonar nunca la pregunta más simple: qué significa que haya "
+                "alguien ahí dentro. Con el epílogo, el glosario y el aparato completo de notas. "
+                "Las lecturas topológicas forman el segundo tomo."),
+    ),
+    "2": dict(
+        interior=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf",
+        front=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_portada_frontal.pdf",
+        wrap=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapadura.pdf",
+        ebook=IMG / "El_Horizonte_Interior_Tomo2_Lecturas_cubierta_ebook.jpg",
+        wrap_bn=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapablanda_sin_ilustraciones.pdf",
+        interior_bn=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_sin_ilustraciones_6x9.pdf",
+        title="Lecturas topológicas", title_lines=["Lecturas", "Topológicas"],
+        art=IMG / "portada_lecturas.jpg",   # cinta de Möbius de agua
+        subtitle="El Horizonte Interior · Tomo II",
+        kicker="Las ideas del ensayo en la ficción, el cine y la vida cotidiana",
+        blurb=("Un clon que no es la yegua que copia, un replicante que llora bajo la lluvia, "
+               "un primer contacto sin idioma común, una máquina del tiempo que no deja volver: "
+               "dieciocho lecturas que ponen a prueba la hipótesis del horizonte fuera del laboratorio."),
+        blurb2=("Cada lectura toma una obra, un caso o una pregunta y la mira con las herramientas "
+                "del primer tomo —encapsulación, entrelazamiento, reservorio— para ver qué ilumina "
+                "y dónde se rompe. Se pueden leer en cualquier orden."),
+    ),
+}
+
+
+def select_tomo(n: str) -> None:
+    global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, TITLE, TITLE_LINES, SUBTITLE, KICKER, BLURB, BLURB2, SPINE_PER_PAGE, ART_OVERRIDE
+    c = TOMOS[n]
+    ART_OVERRIDE = c.get("art")
+    FRONT_PDF, WRAP_PDF, INTERIOR_PDF = c["front"], c["wrap"], c["interior"]
+    TITLE, TITLE_LINES, SUBTITLE, KICKER = c["title"], c["title_lines"], c["subtitle"], c["kicker"]
+    BLURB, BLURB2 = c["blurb"], c["blurb2"]
+    SPINE_PER_PAGE = 0.002347
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--tomo", choices=["1", "2"], default=None,
+                    help="Cubiertas de tapa dura de uno de los dos tomos, en vez del volumen único.")
     ap.add_argument("--paginas", type=int, default=None)
     ap.add_argument("--ancho", type=float, default=None)
     ap.add_argument("--alto", type=float, default=None)
     args = ap.parse_args()
+    if args.tomo:
+        select_tomo(args.tomo)
     src = source_image()
     if not src.exists():
         raise SystemExit(
@@ -315,7 +374,21 @@ def main() -> int:
     if args.paginas is None:
         print(f"  (lomo calculado sobre {pages} páginas reales del interior)")
     build_wrap(pages, args.ancho, args.alto)
+    if args.tomo:
+        build_ebook(TOMOS[args.tomo]["ebook"])
     return 0
+
+
+def build_ebook(out: Path) -> None:
+    """Portada del EPUB (1600 x 2560, 1:1,6) a partir del frente sin sangre."""
+    page = pymupdf.open(FRONT_PDF)[0]
+    clip = pymupdf.Rect(BLEED * 72, BLEED * 72, (BLEED + TRIM_W) * 72, (BLEED + TRIM_H) * 72)
+    zoom = 2560 / (TRIM_H * 72)
+    pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), clip=clip)
+    im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+    left = (im.width - 1600) // 2
+    im.crop((left, 0, left + 1600, 2560)).save(out, quality=92)
+    print(f"{out.relative_to(ROOT)}  —  1600 x 2560 px")
 
 
 if __name__ == "__main__":

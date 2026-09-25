@@ -437,6 +437,10 @@ class MyDoc(BaseDocTemplate):
             pg = self.canv.getPageNumber()
             DOCSTATE.chapter_marks.append((flowable.clean_title, pg))
             self.notify("TOCEntry", (0, flowable.clean_title, pg))
+            # Marcador de navegación del PDF, en la misma página que el índice.
+            key = f"ch{len(DOCSTATE.chapter_marks)}"
+            self.canv.bookmarkPage(key)
+            self.canv.addOutlineEntry(flowable.clean_title, key, level=0, closed=True)
 
     def afterPage(self):
         DOCSTATE.last_completed_page = self.page

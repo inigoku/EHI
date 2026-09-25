@@ -157,7 +157,7 @@ STRINGS = {
                         "al final, con escala en los vínculos."),
         "illus_credit": "Las ilustraciones proceden de la edición ilustrada de la misma obra.",
         "typeset": "Compuesto en Source Serif Pro.",
-        "dedication": "A quien se quedó en la orilla<br/>cuando el agua se retiró.",
+        "dedication": "A los que se fueron sin avisar<br/>y dejaron su hueco en el archivo.",
         "toc_title": "Índice",
         "colophon": ("Se acabó de componer este volumen<br/>en Source Serif Pro. El "
                       "archivista anota y deja huecos.<br/>Los huecos son parte del archivo."),
@@ -169,7 +169,7 @@ STRINGS = {
                         "origin to end, by way of the bonds between them."),
         "illus_credit": "The illustrations are drawn from the illustrated edition of the same work.",
         "typeset": "Set in Source Serif Pro.",
-        "dedication": "To whoever stayed on the shore<br/>when the water withdrew.",
+        "dedication": "To those who went without warning<br/>and left their hollow in the archive.",
         "toc_title": "Contents",
         "colophon": ("This volume was set in Source Serif Pro.<br/>The archivist takes "
                       "notes and leaves hollows.<br/>The hollows are part of the archive."),
@@ -181,7 +181,7 @@ STRINGS = {
                         "l'origen al final, amb escala als vincles."),
         "illus_credit": "Les il·lustracions procedeixen de l'edició il·lustrada de la mateixa obra.",
         "typeset": "Compost en Source Serif Pro.",
-        "dedication": "A qui es va quedar a la vora<br/>quan l'aigua es va retirar.",
+        "dedication": "Als qui se'n van anar sense avisar<br/>i van deixar el seu forat a l'arxiu.",
         "toc_title": "Índex",
         "colophon": ("Es va acabar de compondre aquest volum<br/>en Source Serif Pro. "
                       "L'arxivista anota i deixa forats.<br/>Els forats formen part de l'arxiu."),
@@ -380,6 +380,11 @@ class ChapterMarker(Flowable):
         self.title, self.section, self.toc_text = title, section, toc_text
 
     def wrap(self, aw, ah):
+        # La lámina y el ForceParity de página equivocada consumen el marco
+        # entero; sin este salto el marcador caería en esa página (la de la
+        # lámina o la de cortesía) y el índice apuntaría una antes del título.
+        if ah < 1:
+            return (aw, ah + 1)
         return (0, 0)
 
     def draw(self):
@@ -500,6 +505,8 @@ class PremiumDocTemplate(BaseDocTemplate):
         if isinstance(flowable, FullFramePlate):
             if not flowable._is_filler:
                 self._page_has_content = True
+                # La lámina lleva folio pero no cabecera corrida.
+                self._chapter_opened_this_page = True
             return
         if isinstance(flowable, SetFolio):
             self._show_folio = flowable.value
@@ -613,6 +620,19 @@ def colophon_page(story: list) -> None:
 
 
 # --------------------------------------------------------------------- build
+# La nota del archivista (cuento0) trae el índice escrito a mano de la web.
+# En el libro ya hay un índice generado, así que se quita para no duplicarlo;
+# la nota y la "Nota de cierre" se conservan.
+WEB_INDEX_RE = re.compile(
+    r"^## (?:Índice|Índex|Table of Contents)\s*$.*?"
+    r"(?=^### (?:Nota de cierre|Nota de tancament|Closing Note)\s*$)",
+    re.MULTILINE | re.DOTALL)
+
+
+def strip_web_index(body: str) -> str:
+    return WEB_INDEX_RE.sub("", body)
+
+
 def chapter_label(chapter_number: Optional[str]) -> Optional[str]:
     # A diferencia del ensayo, aquí no hay rótulo "Capítulo N": son cuentos,
     # no un argumento numerado, y varios (nota del archivista, interludios,
@@ -736,6 +756,10 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         content_file = gbp.resolve_path(base_dir, chapter["content_file"])
         raw_text = content_file.read_text(encoding="utf-8")
         frontmatter, body = gbp.parse_frontmatter(raw_text)
+        body = strip_web_index(body)
+        # Una raya "---" al final del capítulo no separa nada y, si cae justo
+        # al pie, desborda sola a una página que sale en blanco con cabecera.
+        body = re.sub(r"(?:\s*^---\s*)+\Z", "\n", body, flags=re.MULTILINE)
 
         title = chapter.get("title") or frontmatter.get("title") or chapter["id"]
         subtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
@@ -774,9 +798,14 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             story.append(Paragraph(gbp.escape_xml(subtitle), styles["ChapterSubtitle"]))
         story.append(HRFlowable(width=42, thickness=0.9, color=GOLD, hAlign="LEFT",
                                  spaceBefore=6, spaceAfter=16))
-        story.extend(gbp.markdown_to_flowables(body, styles, illustrations, base_dir,
-                                                TEXT_W, ca_bundle))
-        story.append(Spacer(1, 10))
+        flowables = gbp.markdown_to_flowables(body, styles, illustrations, base_dir,
+                                              TEXT_W, ca_bundle)
+        # Nada de espacio al final del capítulo: si cae justo al pie, desborda
+        # solo a la página siguiente y la lámina o el ForceParity la saltan,
+        # dejando páginas vacías de más.
+        while flowables and isinstance(flowables[-1], Spacer):
+            flowables.pop()
+        story.extend(flowables)
 
     colophon_page(story)
 

@@ -337,16 +337,16 @@ def resolve_path(base_dir: Path, path_str: str) -> Path:
     return p if p.is_absolute() else (base_dir / p).resolve()
 
 
-def build_epub(toc_path: Path, output_path: Path) -> None:
+def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = False) -> None:
     toc = json.loads(toc_path.read_text(encoding="utf-8"))
     base_dir = toc_path.parent
-    illustrations = toc.get("illustrations", {})
+    illustrations = {} if sin_ilustraciones else toc.get("illustrations", {})
     images = ImageRegistry(base_dir)
 
     title = toc.get("title", "")
     subtitle = toc.get("subtitle", "")
     author = toc.get("author", "")
-    uid = f"urn:uuid:el-horizonte-interior-ensayo-{toc.get('language','es')}"
+    uid = toc.get("uid") or f"urn:uuid:el-horizonte-interior-ensayo-{toc.get('language','es')}"
 
     files: dict[str, str] = {}
     manifest_items: list[tuple[str, str, str]] = []  # id, href, media-type
@@ -375,10 +375,13 @@ def build_epub(toc_path: Path, output_path: Path) -> None:
         content_file = resolve_path(base_dir, chapter["content_file"])
         raw_text = content_file.read_text(encoding="utf-8")
         frontmatter, body = parse_frontmatter(raw_text)
+        for old, new in chapter.get("replace", []):   # correcciones de referencias cruzadas
+            assert old in body, (chapter["content_file"], old)
+            body = body.replace(old, new)
 
         ctitle = chapter.get("title") or frontmatter.get("title") or chapter["id"]
         csubtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
-        section = chapter.get("section") or frontmatter.get("section")
+        section = chapter["section"] if "section" in chapter else frontmatter.get("section")
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")
 
         head_html = ""
@@ -388,7 +391,7 @@ def build_epub(toc_path: Path, output_path: Path) -> None:
         if csubtitle:
             head_html += f'<p class="subtitle">{inline_markup(csubtitle)}</p>'
 
-        if illustration_ref:
+        if illustration_ref and not sin_ilustraciones:
             source = illustrations.get(illustration_ref, illustration_ref)
             epub_path = images.register(illustration_ref, source)
             if epub_path:
@@ -467,8 +470,10 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("toc", type=Path)
     parser.add_argument("-o", "--output", type=Path, default=Path("book.epub"))
+    parser.add_argument("--sin-ilustraciones", action="store_true",
+                        help="Solo la portada: sin láminas ni ilustraciones en línea.")
     args = parser.parse_args()
-    build_epub(args.toc, args.output)
+    build_epub(args.toc, args.output, args.sin_ilustraciones)
 
 
 if __name__ == "__main__":
