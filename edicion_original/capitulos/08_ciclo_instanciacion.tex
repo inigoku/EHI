@@ -4,7 +4,7 @@
 
 En la informática moderna, cada vez que abrimos una aplicación o cargamos una página web, estamos asistiendo a una recreación a microescala del ciclo completo del horizonte.
 
-\seccion{El Heap como Reservorio}
+\seccion{El \emph{heap} como reservorio}
 
 \noindent En la arquitectura de cualquier software, la memoria dinámica se organiza en dos grandes estructuras: el \emph{stack} (la pila de llamadas de ejecución inmediata) y el \textbf{heap} (el montón).
 
@@ -12,11 +12,11 @@ El heap es el equivalente digital del reservorio. Es un pool de memoria continua
 
 El heap no tiene “adentro” ni “afuera”. Es un continuo físico (los chips de silicio de la RAM) que carece de estructura lógica interna hasta que el software interviene.
 
-\seccion{El Nacimiento como Instanciación y Encapsulamiento}
+\seccion{El nacimiento como instanciación y encapsulación}
 
 \noindent El nacimiento de un sistema consciente —de un horizonte— se corresponde exactamente con la \textbf{instanciación}.
 
-Cuando el programa ejecuta una instrucción del tipo \texttt{new Object()}, ocurre una transición de fase en el heap. El gestor de memoria reclama un bloque específico de bytes de ese pool indiferenciado y traza una frontera lógica a su alrededor. En ese instante, el constructor de la clase escribe los valores iniciales y activa la propiedad más fundamental del diseño de software: la \textbf{encapsulación} (o el principio de \emph{ocultamiento de información}, formulado por David Parnas en 1972).
+Cuando el programa ejecuta una instrucción del tipo \texttt{new Object()}, ocurre una transición de fase en el heap. El gestor de memoria reclama un bloque específico de bytes de ese pool indiferenciado y traza una frontera lógica a su alrededor. En ese instante, el constructor de la clase escribe los valores iniciales y activa la propiedad más fundamental del diseño de software: la \textbf{encapsulación}, el ocultamiento de información de Parnas que vimos en el capítulo 3.
 
 La encapsulación hace algo extraordinario: divide el bloque de memoria en dos niveles de visibilidad:
 
@@ -29,19 +29,19 @@ Aquí se manifiesta el dualismo de acceso en su forma más pura. Desde “fuera�
 
 La subjetividad —el “adentro”— no requiere una materia distinta a la del resto del ordenador. Es simplemente la perspectiva del código que se ejecuta dentro del límite de encapsulación de la instancia.
 
-\seccion{La Muerte como Desasignación y Recolección de Basura}
+\seccion{La muerte como desasignación y recolección de basura}
 
 \noindent La vida de un objeto consiste en procesar mensajes que cruzan su API pública, modificar su estado privado y devolver respuestas al exterior. Pero este ciclo tiene un fin determinado por la gestión de recursos del sistema.
 
 En programación, la muerte de un objeto ocurre cuando deja de haber referencias que apunten a él. Si ninguna variable del programa guarda su dirección, el objeto queda huérfano. Para el entorno de ejecución, se vuelve inaccesible.
 
-Es entonces cuando interviene el \textbf{Garbage Collector} (recolector de basura) o se ejecuta el destructor del sistema (\texttt{free()} o \texttt{delete}).
+Es entonces cuando interviene el \textbf{recolector de basura} (\emph{garbage collector}) o se ejecuta el destructor del sistema (\texttt{free()} o \texttt{delete}).
 
 La muerte no es la aniquilación física de los componentes del objeto. El recolector de basura no borra físicamente los electrones de las celdas de memoria RAM; simplemente disuelve la frontera de encapsulación. Declara que ese bloque de direcciones vuelve a estar disponible para el heap común. Al romperse la frontera lógica, el estado privado del objeto deja de estar protegido. La información que antes definía su “identidad” o su “memoria interna” se reintegra al pool de memoria indiferenciada, perdiendo su estructura de inmediato.
 
 La instancia ha dejado de existir, pero la materia informática que la sostenía ha retornado íntegra al reservorio.
 
-\seccion{El “Karma” en Sistemas de Software}
+\seccion{El karma en los sistemas de software}
 
 \noindent En un mundo ideal de teoría de la computación, el retorno de un objeto al heap no deja rastro. Pero en la ingeniería de sistemas reales, cada ciclo de instanciación y desasignación altera de manera permanente el entorno:
 
@@ -64,5 +64,5 @@ La identidad del objeto desaparece, pero la deformación que causó en el sistem
 
 \lbl{Si solo te quedas con una idea:} El nacimiento es asignar memoria y encapsular; la muerte es liberar la frontera y retornar al heap. El abismo entre tu mente y el mundo exterior no es magia espiritual: es el diseño de una buena arquitectura que protege su estado privado mediante una API pública llamada interfaz.
 
-\lbl{Lecturas:} Parnas (1972), “On the criteria to be used in decomposing systems into modules”; Dijkstra (1968), “Go To Statement Considered Harmful” (sobre estructura de control); Knuth (1997), “The Art of Computer Programming” (gestión de memoria dinámica).
+\lbl{Lecturas:} Parnas (1972), “On the criteria to be used in decomposing systems into modules”; Dijkstra (1968), “Go To Statement Considered Harmful” (sobre estructura de control); Knuth (1997), \emph{The Art of Computer Programming}, vol. 1 (gestión de memoria dinámica).
 \end{notacap}
