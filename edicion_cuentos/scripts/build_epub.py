@@ -25,10 +25,15 @@ FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n?(.*)\Z", re.DOTALL)
 INLINE_ILLUS_RE = re.compile(
     r'^##\s*\[(?:ILUSTRACI[ÓO]N|ILLUSTRATION)\s*([\w.]*)?:?\s*"([^"]+)"\]', re.IGNORECASE)
 
+# La dedicatoria es la misma que la del interior impreso
+# (build_interior_premium.py, STRINGS[...]["dedication"]): cambiarlas juntas.
 UI_STRINGS = {
-    "es": {"toc": "Índice"},
-    "en": {"toc": "Contents"},
-    "ca": {"toc": "Índex"},
+    "es": {"toc": "Índice",
+           "dedication": "A los que se fueron sin avisar<br/>y dejaron su hueco en el archivo."},
+    "en": {"toc": "Contents",
+           "dedication": "To those who went without warning<br/>and left their hollow in the archive."},
+    "ca": {"toc": "Índex",
+           "dedication": "Als qui se'n van anar sense avisar<br/>i van deixar el seu forat a l'arxiu."},
 }
 
 
@@ -333,6 +338,8 @@ hr { border: none; border-top: 1px solid #bbb; margin: 1.5em 0; }
 code { font-family: "Courier New", monospace; font-size: 0.92em; }
 nav#toc ol { list-style: none; padding-left: 0; }
 nav#toc li { margin: 0.3em 0; }
+section.dedication { margin-top: 35%; }
+section.dedication p { text-align: center; font-style: italic; }
 """
 
 
@@ -375,6 +382,11 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
     cover_body += (f'<h1 class="chapter-title">{esc(title)}</h1>'
                    f'<p class="subtitle">{esc(subtitle)}</p><p>{esc(author)}</p></section>')
     add_xhtml("cover", "cover.xhtml", page(title, cover_body, lang=lang))
+
+    # --- dedication ---------------------------------------------------------
+    dedication_body = (f'<section class="dedication" epub:type="dedication">'
+                       f'<p>{ui["dedication"]}</p></section>')
+    add_xhtml("dedication", "dedication.xhtml", page(title, dedication_body, lang=lang))
 
     # --- chapters ----------------------------------------------------------
     for chapter in toc["chapters"]:
