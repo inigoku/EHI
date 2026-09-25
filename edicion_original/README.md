@@ -23,11 +23,30 @@ Dos pasadas para que el índice tenga los números de página. Necesita
 `texlive-xetex`, `texlive-latex-extra`, `texlive-lang-spanish` y
 `texlive-pictures` (memoir, polyglossia, tcolorbox, lettrine, tikz).
 
-## Versión accesible (en preparación)
+## Versión accesible
 
-`main_accesible.tex` + `cuerpo_accesible.tex` → `El_Horizonte_Interior_accesible.pdf`.
-Parte del original del autor, que se mantiene intacto en `cuerpo_autor.tex`,
-con cuatro erratas corregidas («más rápido que la luz», «que su marido se
-disuelva» ×2, y dos anglicismos: «se scrambled» → «se desordena»,
-«scrambled» → «revueltas»). Es la base de la versión accesible de la
-tesis; aquí se irán añadiendo los capítulos que se decidan.
+`main_accesible.tex` + `cuerpo_accesible.tex` → `El_Horizonte_Interior_accesible.pdf`
+(221 páginas). `cuerpo_accesible.tex` **no se edita a mano**: lo genera
+
+    python3 scripts/build_accesible.py
+
+a partir del original del autor (`cuerpo_autor.tex`, intacto):
+
+1. Corrige erratas del original: «más rápido que la luz», «que su marido se
+   disuelva» (×2), dos anglicismos («se scrambled» → «se desordena»,
+   «scrambled» → «revueltas») y los asteriscos de «M87\*» y «Sagitario A\*»,
+   que se habían convertido en cursiva.
+2. Renumera los capítulos y las referencias «capítulo N».
+3. Inserta los capítulos nuevos de `capitulos/`, cada uno con su lámina:
+
+| Nº | Capítulo | Procedencia |
+|---|---|---|
+| 3 | La encapsulación | web (`content/ensayo/cap2_5`), convertido con `scripts/md2tex.py` |
+| 8 | El ciclo de la instanciación | web (`cap6_5`) |
+| 9 | La tabla de las equivalencias | web (`cap6_6`); la tabla va en página apaisada |
+| 21 | El espejo sin profundidad | `cuerpo.tex` (versión en tono sencillo) |
+| 22 | Los casos límite | web (`cap18_real`), referencias adaptadas |
+| 23 | El entrelazamiento vertical | `cuerpo.tex` |
+| 24 | La realidad fractal | `cuerpo.tex` |
+
+Compilar: `xelatex main_accesible.tex` dos veces.
