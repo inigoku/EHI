@@ -109,4 +109,4 @@ El maquetador corrige además dos fallos heredados (los mismos de Cuentos de
 Tarel): los marcadores del índice caían una página antes del título cuando
 el capítulo empezaba tras una página de cortesía, y la raya o el espacio
 final de un capítulo podían dejar sola una página en blanco con cabecera.
-El interior ilustrado (792 págs.) no se ha regenerado con estos arreglos.
+El interior ilustrado también está regenerado con ellos: 790 páginas (antes 792), mismo texto, y sus cubiertas de tapa dura y tapa blanda recalculadas.
