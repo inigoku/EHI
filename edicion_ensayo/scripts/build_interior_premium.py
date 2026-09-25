@@ -530,9 +530,10 @@ def credits_page(story: list, toc: dict, sin_ilustraciones: bool = False) -> Non
         (toc.get("title", BOOK_TITLE), IT),
         (toc.get("subtitle", ""), R),
         ("© " + toc.get("author", "") + ". Todos los derechos reservados.", R),
-        ("Los capítulos de ensayo proceden de la obra completa El Horizonte Interior "
-         "y se reproducen aquí en su orden de lectura, junto con las lecturas "
-         "topológicas y el aparato final.", R),
+        *[(c, R) for c in toc.get("credits", [
+            "Los capítulos de ensayo proceden de la obra completa El Horizonte Interior "
+            "y se reproducen aquí en su orden de lectura, junto con las lecturas "
+            "topológicas y el aparato final."])],
         (None if sin_ilustraciones else "Las ilustraciones proceden de la edición ilustrada de la misma obra.", R),
         ("Compuesto en Source Serif Pro.", R),
     ]
@@ -577,9 +578,12 @@ def colophon_page(story: list) -> None:
 
 
 # --------------------------------------------------------------------- build
+CHAPTER_WORD = "Capítulo"   # «Lectura» en el tomo de lecturas (toc: "chapter_word")
+
+
 def chapter_label(chapter_number: Optional[str]) -> Optional[str]:
     if chapter_number and str(chapter_number).strip().isdigit():
-        return f"Capítulo {chapter_number.strip()}"
+        return f"{CHAPTER_WORD} {chapter_number.strip()}"
     return None
 
 
@@ -681,6 +685,13 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
     with toc_path.open("r", encoding="utf-8") as fh:
         toc = json.load(fh)
     base_dir = toc_path.parent
+    # Opciones por tomo (todas opcionales; sin ellas sale el volumen único)
+    global M_GUTTER, TEXT_W, BOOK_TITLE, CHAPTER_WORD
+    if "gutter_in" in toc:
+        M_GUTTER = toc["gutter_in"] * inch
+        TEXT_W = PW - M_GUTTER - M_OUTER
+    BOOK_TITLE = toc.get("running_title", BOOK_TITLE)
+    CHAPTER_WORD = toc.get("chapter_word", CHAPTER_WORD)
     # Sin ilustraciones: ni láminas de capítulo ni ilustraciones en línea
     # (un diccionario vacío hace que markdown_to_flowables salte los marcadores).
     illustrations = {} if sin_ilustraciones else toc.get("illustrations", {})
@@ -704,11 +715,15 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         # Una raya "---" al final del capítulo no separa nada y, si cae justo
         # al pie, desborda sola a una página que sale en blanco con cabecera.
         body = re.sub(r"(?:\s*^---\s*)+\Z", "\n", body, flags=re.MULTILINE)
+        # Correcciones del texto propias de esta edición (referencias cruzadas)
+        for old, new in chapter.get("replace", []):
+            assert old in body, (chapter["content_file"], old)
+            body = body.replace(old, new)
 
         title = chapter.get("title") or frontmatter.get("title") or chapter["id"]
         subtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
-        section = chapter.get("section") or frontmatter.get("section")
-        chapter_number = frontmatter.get("chapterNumber")
+        section = chapter["section"] if "section" in chapter else frontmatter.get("section")
+        chapter_number = str(chapter.get("chapter_number", frontmatter.get("chapterNumber") or "")) or None
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")
 
         illustration_bytes = None

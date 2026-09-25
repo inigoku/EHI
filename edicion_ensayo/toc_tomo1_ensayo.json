@@ -1,6 +1,6 @@
 {
   "title": "El Horizonte Interior",
-  "subtitle": "Ensayo completo, con las lecturas topológicas",
+  "subtitle": "Ensayo · Tomo I",
   "author": "Íñigo Barrera Barceló",
   "language": "es",
   "cover_image": "../src/assets/images/portada.png",
@@ -168,6 +168,11 @@
     "il_relevo_patron": "../src/assets/images/il_relevo_patron.jpg",
     "il_relevo_entrelazamiento": "../src/assets/images/il_relevo_entrelazamiento.jpg"
   },
+  "running_title": "EL HORIZONTE INTERIOR",
+  "gutter_in": 0.82,
+  "credits": [
+    "Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la cuarta parte, con el epílogo, el glosario y las notas. Las lecturas topológicas forman el segundo tomo."
+  ],
   "chapters": [
     {
       "id": "cap0",
@@ -179,7 +184,13 @@
     },
     {
       "id": "cap_nota_autor",
-      "content_file": "../content/ensayo/cap_nota_autor.es.md"
+      "content_file": "../content/ensayo/cap_nota_autor.es.md",
+      "replace": [
+        [
+          "El capítulo 47 lleva esa pregunta a la ficción",
+          "La lectura «Cinco espejos de ficción», en el tomo de *Lecturas topológicas*, lleva esa pregunta a la ficción"
+        ]
+      ]
     },
     {
       "id": "cap1",
@@ -295,7 +306,7 @@
       "replace": [
         [
           "como vimos en el capítulo 40,",
-          "como veremos en el capítulo 52,"
+          "como veremos en el capítulo 34,"
         ]
       ]
     },
@@ -305,27 +316,27 @@
       "replace": [
         [
           "El experimento ya dijo, en el capítulo 43, que la ética",
-          "El capítulo 52 lo dirá con claridad: la ética"
+          "El capítulo 34 lo dirá con claridad: la ética"
         ],
         [
           "Cuando el capítulo 43 señaló el *is-ought gap* de Hume —que ningún \"es\" produce por sí solo un \"debería\"—",
-          "Ante el *is-ought gap* de Hume —que ningún \"es\" produce por sí solo un \"debería\", como se verá en el capítulo 52—"
+          "Ante el *is-ought gap* de Hume —que ningún \"es\" produce por sí solo un \"debería\", como se verá en el capítulo 34—"
         ],
         [
           "De las tres opciones que el capítulo 43 dejó abiertas",
-          "De las tres opciones que el capítulo 52 dejará abiertas"
+          "De las tres opciones que el capítulo 34 dejará abiertas"
         ],
         [
           "lo que este mismo libro hizo explícitamente en el capítulo 43",
-          "lo que este mismo libro hará explícitamente en el capítulo 52"
+          "lo que este mismo libro hará explícitamente en el capítulo 34"
         ],
         [
           "leer el mapa del capítulo 43",
-          "leer el mapa del capítulo 52"
+          "leer el mapa del capítulo 34"
         ],
         [
           "como mostró el capítulo 44 anterior sobre la práctica,",
-          "como mostrará el capítulo 53, sobre la práctica,"
+          "como mostrará el capítulo 35, sobre la práctica,"
         ],
         [
           "El capítulo 51, \"El entrelazamiento vertical\", lo desarrolla",
@@ -333,11 +344,11 @@
         ],
         [
           "No puede: el capítulo 43 ya estableció que",
-          "No puede: como establece el capítulo 52,"
+          "No puede: como establece el capítulo 34,"
         ],
         [
           "como dijo el capítulo 43,",
-          "como dirá el capítulo 52,"
+          "como dirá el capítulo 34,"
         ]
       ]
     },
@@ -362,98 +373,26 @@
       "content_file": "../content/ensayo/cap_el_que_queda.es.md"
     },
     {
-      "id": "cap17_6_real",
-      "content_file": "../content/lecturas/cap17_6_real.es.md"
-    },
-    {
-      "id": "cap_blade_runner",
-      "content_file": "../content/lecturas/cap_blade_runner.es.md"
-    },
-    {
-      "id": "cap17_7_alien",
-      "content_file": "content_overrides/cap17_7_alien.es.md"
-    },
-    {
-      "id": "cap_three_body",
-      "content_file": "../content/lecturas/cap_three_body.es.md"
-    },
-    {
-      "id": "cap17_8_cosmic",
-      "content_file": "content_overrides/cap17_8_cosmic.es.md"
-    },
-    {
-      "id": "cap_matrix",
-      "content_file": "../content/lecturas/cap_matrix.es.md"
-    },
-    {
-      "id": "cap_cartografia_singularidades",
-      "content_file": "content_overrides/cap_cartografia_singularidades.es.md"
-    },
-    {
-      "id": "cap_historia_relevo",
-      "content_file": "../content/lecturas/cap_historia_relevo.es.md"
-    },
-    {
-      "id": "cap_traductor",
-      "content_file": "../content/lecturas/cap_traductor.es.md"
-    },
-    {
-      "id": "cap_lenguaje_entrelazamiento",
-      "content_file": "../content/lecturas/cap_lenguaje_entrelazamiento.es.md"
-    },
-    {
-      "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.es.md",
+      "id": "cap19_real",
+      "content_file": "../content/ensayo/cap19_real.es.md",
       "replace": [
         [
-          "El capítulo 23 describió la encapsulación",
-          "El capítulo 3 describió la encapsulación"
-        ],
-        [
-          "El capítulo 38 describió la traducción",
-          "El capítulo 42 describió la traducción"
-        ],
-        [
-          "lo que el capítulo 11 describió como vínculo madre-hijo",
-          "lo que el capítulo 15 describió como vínculo madre-hijo"
+          "**Nota al Capítulo 52**",
+          "**Nota al Capítulo 34**"
         ]
-      ]
-    },
-    {
-      "id": "cap_maquina_tiempo",
-      "content_file": "../content/lecturas/cap_maquina_tiempo.es.md"
-    },
-    {
-      "id": "cap_horizonte_prestado",
-      "content_file": "../content/lecturas/cap_horizonte_prestado.es.md"
-    },
-    {
-      "id": "cap_lecturas_espejo",
-      "content_file": "../content/lecturas/cap_lecturas_espejo.es.md"
-    },
-    {
-      "id": "cap_lecturas_espejo_lenguaje",
-      "content_file": "../content/lecturas/cap_lecturas_espejo_lenguaje.es.md"
-    },
-    {
-      "id": "cap_lecturas_diapason",
-      "content_file": "../content/lecturas/cap_lecturas_diapason.es.md"
-    },
-    {
-      "id": "cap_lecturas_ojo",
-      "content_file": "../content/lecturas/cap_lecturas_ojo.es.md"
-    },
-    {
-      "id": "cap_realidad_fractal",
-      "content_file": "../content/lecturas/cap_realidad_fractal.es.md"
-    },
-    {
-      "id": "cap19_real",
-      "content_file": "../content/ensayo/cap19_real.es.md"
+      ],
+      "chapter_number": 34
     },
     {
       "id": "cap20_real",
-      "content_file": "../content/ensayo/cap20_real.es.md"
+      "content_file": "../content/ensayo/cap20_real.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 53**",
+          "**Nota al Capítulo 35**"
+        ]
+      ],
+      "chapter_number": 35
     },
     {
       "id": "cap_epilogo_real",

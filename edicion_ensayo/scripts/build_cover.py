@@ -295,12 +295,58 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
           f"(lomo {spine_in:.3f}\" para {pages} páginas)")
 
 
+# Los dos tomos de tapa dura (KDP no admite tapa dura de más de 550 páginas y
+# el volumen único tiene 790). Interior con láminas a color: 0.002347"/página.
+TOMOS = {
+    "1": dict(
+        interior=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf",
+        front=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_portada_frontal.pdf",
+        wrap=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapadura.pdf",
+        title="El Horizonte Interior", title_lines=["El Horizonte", "Interior"],
+        subtitle="Ensayo · Tomo I",
+        kicker="Un ensayo sobre física, conciencia y los límites del yo",
+        blurb=BLURB,
+        blurb2=("Treinta y cinco capítulos que cruzan neurociencia, teoría de la información y "
+                "física teórica sin abandonar nunca la pregunta más simple: qué significa que haya "
+                "alguien ahí dentro. Con el epílogo, el glosario y el aparato completo de notas. "
+                "Las lecturas topológicas forman el segundo tomo."),
+    ),
+    "2": dict(
+        interior=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf",
+        front=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_portada_frontal.pdf",
+        wrap=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapadura.pdf",
+        title="Lecturas topológicas", title_lines=["Lecturas", "Topológicas"],
+        subtitle="El Horizonte Interior · Tomo II",
+        kicker="Las ideas del ensayo en la ficción, el cine y la vida cotidiana",
+        blurb=("Un clon que no es la yegua que copia, un replicante que llora bajo la lluvia, "
+               "un primer contacto sin idioma común, una máquina del tiempo que no deja volver: "
+               "dieciocho lecturas que ponen a prueba la hipótesis del horizonte fuera del laboratorio."),
+        blurb2=("Cada lectura toma una obra, un caso o una pregunta y la mira con las herramientas "
+                "del primer tomo —encapsulación, entrelazamiento, reservorio— para ver qué ilumina "
+                "y dónde se rompe. Se pueden leer en cualquier orden."),
+    ),
+}
+
+
+def select_tomo(n: str) -> None:
+    global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, TITLE, TITLE_LINES, SUBTITLE, KICKER, BLURB, BLURB2, SPINE_PER_PAGE
+    c = TOMOS[n]
+    FRONT_PDF, WRAP_PDF, INTERIOR_PDF = c["front"], c["wrap"], c["interior"]
+    TITLE, TITLE_LINES, SUBTITLE, KICKER = c["title"], c["title_lines"], c["subtitle"], c["kicker"]
+    BLURB, BLURB2 = c["blurb"], c["blurb2"]
+    SPINE_PER_PAGE = 0.002347
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
+    ap.add_argument("--tomo", choices=["1", "2"], default=None,
+                    help="Cubiertas de tapa dura de uno de los dos tomos, en vez del volumen único.")
     ap.add_argument("--paginas", type=int, default=None)
     ap.add_argument("--ancho", type=float, default=None)
     ap.add_argument("--alto", type=float, default=None)
     args = ap.parse_args()
+    if args.tomo:
+        select_tomo(args.tomo)
     src = source_image()
     if not src.exists():
         raise SystemExit(

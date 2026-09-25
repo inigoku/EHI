@@ -375,6 +375,9 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
         content_file = resolve_path(base_dir, chapter["content_file"])
         raw_text = content_file.read_text(encoding="utf-8")
         frontmatter, body = parse_frontmatter(raw_text)
+        for old, new in chapter.get("replace", []):   # correcciones de referencias cruzadas
+            assert old in body, (chapter["content_file"], old)
+            body = body.replace(old, new)
 
         ctitle = chapter.get("title") or frontmatter.get("title") or chapter["id"]
         csubtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
