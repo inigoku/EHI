@@ -93,6 +93,8 @@ def main() -> int:
     ap.add_argument("--paginas", type=int, default=None)
     ap.add_argument("--ancho", type=float, default=None)
     ap.add_argument("--alto", type=float, default=None)
+    ap.add_argument("--tomo", choices=["1", "2"], default=None,
+                    help="Tapa blanda sin ilustraciones de uno de los dos tomos.")
     ap.add_argument("--sin-ilustraciones", action="store_true",
                     help="Cubierta para el interior sin ilustraciones (papel blanco B/N).")
     args = ap.parse_args()
@@ -102,6 +104,11 @@ def main() -> int:
         WRAP_PDF = BASE / "El_Horizonte_Interior_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf"
         SPINE_PER_PAGE = hc.SPINE_PER_PAGE
         hc.INTERIOR_PDF = BASE / "El_Horizonte_Interior_Ensayo_sin_ilustraciones_6x9.pdf"
+    if args.tomo:
+        hc.select_tomo(args.tomo)          # títulos, textos y arte del tomo
+        WRAP_PDF = hc.TOMOS[args.tomo]["wrap_bn"]
+        SPINE_PER_PAGE = 0.002252           # sin láminas: papel blanco B/N
+        hc.INTERIOR_PDF = hc.TOMOS[args.tomo]["interior_bn"]
     src = hc.source_image()
     if not src.exists():
         raise SystemExit(

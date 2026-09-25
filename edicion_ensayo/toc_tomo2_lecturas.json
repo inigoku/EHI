@@ -3,7 +3,7 @@
   "subtitle": "El Horizonte Interior · Tomo II",
   "author": "Íñigo Barrera Barceló",
   "language": "es",
-  "cover_image": "../src/assets/images/portada.png",
+  "cover_image": "imagenes/El_Horizonte_Interior_Tomo2_Lecturas_cubierta_ebook.jpg",
   "illustrations": {
     "10": "../src/assets/images/ilustracion_10.png",
     "11": "../src/assets/images/ilustracion_11.png",
@@ -171,6 +171,7 @@
   "running_title": "LECTURAS TOPOLÓGICAS",
   "chapter_word": "Lectura",
   "gutter_in": 0.62,
+  "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-es",
   "credits": [
     "Segundo tomo de El Horizonte Interior: dieciocho lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
   ],

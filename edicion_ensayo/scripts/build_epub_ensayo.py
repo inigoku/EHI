@@ -346,7 +346,7 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
     title = toc.get("title", "")
     subtitle = toc.get("subtitle", "")
     author = toc.get("author", "")
-    uid = f"urn:uuid:el-horizonte-interior-ensayo-{toc.get('language','es')}"
+    uid = toc.get("uid") or f"urn:uuid:el-horizonte-interior-ensayo-{toc.get('language','es')}"
 
     files: dict[str, str] = {}
     manifest_items: list[tuple[str, str, str]] = []  # id, href, media-type
@@ -381,7 +381,7 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
 
         ctitle = chapter.get("title") or frontmatter.get("title") or chapter["id"]
         csubtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
-        section = chapter.get("section") or frontmatter.get("section")
+        section = chapter["section"] if "section" in chapter else frontmatter.get("section")
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")
 
         head_html = ""

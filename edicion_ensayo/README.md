@@ -134,3 +134,18 @@ cruzadas: las que cambian al partir el libro y las que ya estaban mal en el volu
 encapsulación, que es el 3; etc.). Esas mismas correcciones van en `toc_ensayo.json`
 y ya están aplicadas al volumen único (PDF y EPUB).
 
+### Los tomos sin ilustraciones (tapa blanda B/N y EPUB)
+
+    El_Horizonte_Interior_Tomo1_Ensayo_sin_ilustraciones_6x9.pdf                   492 págs.
+    El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf   lomo 1,108" (papel blanco B/N)
+    El_Horizonte_Interior_Tomo1_Ensayo_sin_ilustraciones.epub
+    El_Horizonte_Interior_Tomo2_Lecturas_sin_ilustraciones_6x9.pdf                 204 págs.
+    El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapablanda_sin_ilustraciones.pdf lomo 0,459" (papel blanco B/N)
+    El_Horizonte_Interior_Tomo2_Lecturas_sin_ilustraciones.epub
+    imagenes/El_Horizonte_Interior_Tomo{1_Ensayo,2_Lecturas}_cubierta_ebook.jpg     portadas del EPUB, 1600 x 2560
+
+    python3 scripts/build_cover.py --tomo N               # también genera la portada del EPUB
+    python3 scripts/build_interior_premium.py toc_tomoN_*.json -o ..._sin_ilustraciones_6x9.pdf --sin-ilustraciones
+    python3 scripts/build_epub_ensayo.py toc_tomoN_*.json -o ..._sin_ilustraciones.epub --sin-ilustraciones
+    python3 scripts/build_cover_paperback.py --tomo N
+

@@ -307,6 +307,9 @@ TOMOS = {
         interior=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf",
         front=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_portada_frontal.pdf",
         wrap=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapadura.pdf",
+        ebook=IMG / "El_Horizonte_Interior_Tomo1_Ensayo_cubierta_ebook.jpg",
+        wrap_bn=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf",
+        interior_bn=BASE / "El_Horizonte_Interior_Tomo1_Ensayo_sin_ilustraciones_6x9.pdf",
         title="El Horizonte Interior", title_lines=["El Horizonte", "Interior"],
         subtitle="Ensayo · Tomo I",
         kicker="Un ensayo sobre física, conciencia y los límites del yo",
@@ -320,6 +323,9 @@ TOMOS = {
         interior=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf",
         front=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_portada_frontal.pdf",
         wrap=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapadura.pdf",
+        ebook=IMG / "El_Horizonte_Interior_Tomo2_Lecturas_cubierta_ebook.jpg",
+        wrap_bn=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapablanda_sin_ilustraciones.pdf",
+        interior_bn=BASE / "El_Horizonte_Interior_Tomo2_Lecturas_sin_ilustraciones_6x9.pdf",
         title="Lecturas topológicas", title_lines=["Lecturas", "Topológicas"],
         art=IMG / "portada_lecturas.jpg",   # cinta de Möbius de agua
         subtitle="El Horizonte Interior · Tomo II",
@@ -368,7 +374,21 @@ def main() -> int:
     if args.paginas is None:
         print(f"  (lomo calculado sobre {pages} páginas reales del interior)")
     build_wrap(pages, args.ancho, args.alto)
+    if args.tomo:
+        build_ebook(TOMOS[args.tomo]["ebook"])
     return 0
+
+
+def build_ebook(out: Path) -> None:
+    """Portada del EPUB (1600 x 2560, 1:1,6) a partir del frente sin sangre."""
+    page = pymupdf.open(FRONT_PDF)[0]
+    clip = pymupdf.Rect(BLEED * 72, BLEED * 72, (BLEED + TRIM_W) * 72, (BLEED + TRIM_H) * 72)
+    zoom = 2560 / (TRIM_H * 72)
+    pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), clip=clip)
+    im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+    left = (im.width - 1600) // 2
+    im.crop((left, 0, left + 1600, 2560)).save(out, quality=92)
+    print(f"{out.relative_to(ROOT)}  —  1600 x 2560 px")
 
 
 if __name__ == "__main__":

@@ -3,7 +3,7 @@
   "subtitle": "Ensayo · Tomo I",
   "author": "Íñigo Barrera Barceló",
   "language": "es",
-  "cover_image": "../src/assets/images/portada.png",
+  "cover_image": "imagenes/El_Horizonte_Interior_Tomo1_Ensayo_cubierta_ebook.jpg",
   "illustrations": {
     "10": "../src/assets/images/ilustracion_10.png",
     "11": "../src/assets/images/ilustracion_11.png",
@@ -170,6 +170,7 @@
   },
   "running_title": "EL HORIZONTE INTERIOR",
   "gutter_in": 0.82,
+  "uid": "urn:uuid:el-horizonte-interior-tomo1-ensayo-es",
   "credits": [
     "Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la cuarta parte, con el epílogo, el glosario y las notas. Las lecturas topológicas forman el segundo tomo."
   ],

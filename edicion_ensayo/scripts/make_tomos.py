@@ -81,6 +81,8 @@ def with_replace(ch, table, extra=()):
 base = {k: v for k, v in toc.items() if k != "chapters"}
 
 t1 = dict(base, subtitle="Ensayo · Tomo I", running_title="EL HORIZONTE INTERIOR", gutter_in=0.82,
+          uid="urn:uuid:el-horizonte-interior-tomo1-ensayo-es",
+          cover_image="imagenes/El_Horizonte_Interior_Tomo1_Ensayo_cubierta_ebook.jpg",
           credits=["Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la cuarta "
                    "parte, con el epílogo, el glosario y las notas. Las lecturas topológicas forman el "
                    "segundo tomo."])
@@ -93,6 +95,8 @@ for c in ENS:
 
 t2 = dict(base, title="Lecturas topológicas", subtitle="El Horizonte Interior · Tomo II",
           running_title="LECTURAS TOPOLÓGICAS", chapter_word="Lectura", gutter_in=0.62,
+          uid="urn:uuid:el-horizonte-interior-tomo2-lecturas-es",
+          cover_image="imagenes/El_Horizonte_Interior_Tomo2_Lecturas_cubierta_ebook.jpg",
           credits=["Segundo tomo de El Horizonte Interior: dieciocho lecturas que llevan las ideas del "
                    "ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a "
                    "capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."])
