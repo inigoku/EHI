@@ -7,7 +7,7 @@ illustrationTitle: Rastros de donde he estado leyendo
 illustrationDescription: Escritorio con libros abiertos, apilados desordenadamente. Notas a mano, café derramado, pluma gastada. Libros abiertos en: diagrama de agujero negro, página del Tao Te Ching, ecuación de Hawking, foto de perro (Txiki). Luz de lámpara de escritorio, cálida, nocturna.
 ---
 
-Las notas de este libro no son prueba de autoridad. Son rastros de donde he estado leyendo, para quien quiera seguir los pasos. No todas las fuentes dicen lo que yo digo que dicen. Algunas discrepan entre sí. El experimento es mío; las referencias son compañeros de viaje.
+Las notas de este libro no son un argumento de autoridad, sino rastros de lo que he ido leyendo, para quien quiera seguir los pasos. No todas las fuentes dicen lo que yo les hago decir, y algunas discrepan entre sí. El experimento es mío; las referencias son compañeras de viaje.
 
 ---
 
@@ -227,4 +227,4 @@ Zurek, W.H. (2003). Decoherence, einselection, and the quantum origins of the cl
 
 ---
 
-> *"El experimento no promete nada después de la evaporación. Promete, si acaso, compañía suficiente para seguir."*
+> *«El experimento no promete nada después de la evaporación. Promete, si acaso, compañía suficiente para seguir.»*
