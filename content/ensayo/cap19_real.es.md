@@ -153,7 +153,7 @@ A veces, «no lo sé» es la respuesta más inteligente posible.
 
 ### Séptimo: lo colectivo, o por qué no sabemos si hay un horizonte que somos todos
 
-A lo largo del libro hemos hablado de horizontes individuales: el tuyo, el mío, el de una persona con alzhéimer, el de un animal de compañía, el de una inteligencia artificial. Pero ¿y si hay horizontes que no son individuales? ¿Y si la humanidad entera, un ecosistema o una ciudad en una noche de verano constituyen un horizonte de información con una experiencia a la que nosotros, como partes, no tenemos acceso?
+A lo largo del libro hemos hablado de horizontes individuales: el tuyo, el mío, el de una persona con Alzheimer, el de un animal de compañía, el de una inteligencia artificial. Pero ¿y si hay horizontes que no son individuales? ¿Y si la humanidad entera, un ecosistema o una ciudad en una noche de verano constituyen un horizonte de información con una experiencia a la que nosotros, como partes, no tenemos acceso?
 
 > **En física esto se llama:** problema de la combinación o, en términos de la IIT, la cuestión de si la integración de información a escala del sistema genera una conciencia «mayor» que las conciencias de las partes.  
 > **En la vida diaria es como:** preguntar si una orquesta tiene un «alma» que no es la suma de las almas de los músicos. Tocan juntos y surge algo que ninguno podría producir solo. ¿Es consciente ese algo?

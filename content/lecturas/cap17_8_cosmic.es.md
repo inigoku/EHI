@@ -10,7 +10,7 @@ illustrationDescription: Una pequeña silueta humana en un precipicio contempla 
 
 Habitamos el mundo con una presunción de seguridad. Damos por sentado que el espacio es plano, que las paralelas nunca se cruzan y que la mente es una fortaleza capaz de procesar cualquier cosa que le envíen los ojos, siempre que le demos tiempo suficiente. A lo largo de este libro hemos visto que la conciencia es una burbuja topológica, un horizonte de sucesos que aísla un estado privado (el dentro) del vasto caos de la realidad (el fuera).
 
-Pero ¿qué ocurre si el universo físico contiene geometrías que nuestra burbuja evolutiva es matemáticamente incapaz de compilar? ¿Qué pasa cuando el límite del experimento no lo marcan la muerte ni el alzhéimer, sino un exceso inabarcable de información?
+Pero ¿qué ocurre si el universo físico contiene geometrías que nuestra burbuja evolutiva es matemáticamente incapaz de compilar? ¿Qué pasa cuando el límite del experimento no lo marcan la muerte ni el Alzheimer, sino un exceso inabarcable de información?
 
 La literatura de terror cósmico, que H. P. Lovecraft popularizó a principios del siglo XX, basaba su horror en entidades y arquitecturas antiguas que volvían loco al instante a quien las miraba. En su momento se leyó como una exageración poética del miedo biológico. Pero, si sometemos el terror lovecraftiano a la hipótesis topológica de nuestro experimento, descubrimos algo escalofriante: el horror cósmico no es una reacción emocional, sino un fallo estructural en sentido estricto, la descripción fenomenológica de un desbordamiento de pila (*stack overflow*) en la arquitectura de la conciencia.
 
@@ -73,7 +73,7 @@ El archivista de Tarel anotaba con cuidado la retirada del agua; daba por hecho 
 
 Pero, si incluimos las topologías lovecraftianas en el límite de nuestro experimento, nos enfrentamos a la posibilidad más gélida de todas: que la invariancia conforme del universo, esa ley matemática que lo mantiene todo en su sitio, no sea una cuna amable, sino una cuarentena.
 
-Vivimos encerrados en nuestro plano de baja energía, en nuestros pequeños y frágiles Φ, escribiendo poesía, cuidando a nuestros enfermos de alzhéimer y llorando nuestras pérdidas porque nuestra arquitectura nos lo exige. El terror cósmico nos recuerda que nuestra empatía y nuestro dolor son lujos de seres pequeños. Si algún día alzamos la vista y logramos cruzar el límite del experimento para observar el código completo del universo, descubriremos que la realidad no se escribió para nosotros.
+Vivimos encerrados en nuestro plano de baja energía, en nuestros pequeños y frágiles Φ, escribiendo poesía, cuidando a nuestros enfermos de Alzheimer y llorando nuestras pérdidas porque nuestra arquitectura nos lo exige. El terror cósmico nos recuerda que nuestra empatía y nuestro dolor son lujos de seres pequeños. Si algún día alzamos la vista y logramos cruzar el límite del experimento para observar el código completo del universo, descubriremos que la realidad no se escribió para nosotros.
 
 Y el único refugio que nos quedará no será la física, ni la filosofía, ni la verdad, sino la bendita e higiénica amnesia de un horizonte que se cierra enseguida sobre sí mismo y se niega a volver a mirar hacia la oscuridad.
 

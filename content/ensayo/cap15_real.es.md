@@ -116,7 +116,7 @@ El horizonte con TDAH busca estímulos que eleven la señal: urgencia, novedad, 
 
 Hay algo de heroísmo discreto en esto. Los adultos con TDAH que han construido vidas que funcionan no lo han hecho «superando» su condición, sino encontrando pendientes: profesiones de urgencia, creatividad intensa, entornos de mucha novedad, relaciones apasionadas. Se han construido un mundo que da a su motor la inclinación que necesita, y en ese mundo su topología no es un déficit, sino una ventaja.
 
-### Esquizofrenia: el horizonte que genera sin input
+### Esquizofrenia: el horizonte que genera sin estímulos
 
 La esquizofrenia es quizá la condición más difícil de encajar en el modelo del horizonte, porque no se trata solo de una topología diferente, sino de un horizonte que genera integración donde no hay información que integrar: voces sin hablante, intenciones sin agente, conexiones entre sucesos que en el mundo compartido no guardan relación.
 
