@@ -17,7 +17,7 @@ Lo que sí es mío es el sistema de conversión que nunca terminé de construir.
 
 Hay incluso libros que se lo explican mejor a los niños que a los adultos: uno, con dibujos, enseña sin una sola fórmula que un reloj de pared y un astronauta miden el tiempo de manera distinta. Debería haber empezado por ahí.
 
-Si algo queda de estas páginas, espero que sea esto: que la próxima vez que alguien te diga que el tiempo pasa volando, no lo tomes como una queja sobre el reloj. Es un informe preciso sobre cuánto, últimamente, está entrando en tu horizonte.
+Si algo queda de estas páginas, espero que sea esto: que la próxima vez que alguien te diga que el tiempo pasa volando, no lo tomes como una queja sobre el reloj, sino como un informe preciso sobre cuánto, últimamente, está entrando en tu horizonte.
 
 ## Nota a los cuatro últimos libros
 
