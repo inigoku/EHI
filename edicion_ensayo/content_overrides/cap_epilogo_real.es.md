@@ -127,3 +127,6 @@ Hasta entonces, gracias por haber estado aquí. Gracias por haber compartido est
 Que el reservorio te reciba, cuando llegue el momento, con la misma generosidad con la que te dio lo que eres ahora.
 
 Y que, mientras tanto, la orilla te baste.
+
+## [ILUSTRACIÓN epilogo: "La orilla en el horizonte"]
+*Y que, mientras tanto, la orilla te baste.*
