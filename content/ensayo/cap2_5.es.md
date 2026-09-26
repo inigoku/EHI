@@ -43,7 +43,7 @@ La conciencia, según el modelo del horizonte, no es un fenómeno mágico descon
 
 ---
 
-## El problema duro reformulado
+## El problema difícil reformulado
 
 El problema difícil de la conciencia (¿por qué el procesamiento físico va acompañado de experiencia subjetiva?) empieza a reformularse aquí. Tal vez no se trate de explicar cómo una sustancia mental surge milagrosamente de la materia, sino de reconocer que nuestra expectativa de un universo completamente público era errónea. Si la realidad admite dominios encapsulados, si existen regiones donde lo interior y lo exterior no son simétricos, entonces la subjetividad no es una anomalía, sino lo que un dominio informacional encapsulado es visto desde dentro.
 
