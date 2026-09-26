@@ -181,7 +181,13 @@
     },
     {
       "id": "prologo",
-      "content_file": "../content/ensayo/prologo.es.md"
+      "content_file": "../content/ensayo/prologo.es.md",
+      "replace": [
+        [
+          "Entre la tercera y la cuarta, dieciocho lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
+          "Un segundo tomo, *Lecturas topológicas*, lleva las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana."
+        ]
+      ]
     },
     {
       "id": "cap_nota_autor",

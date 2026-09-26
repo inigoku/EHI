@@ -48,6 +48,8 @@ T1 = {
         ("No puede: el capítulo 43 ya estableció que", "No puede: como establece el capítulo 34,"),
         ("como dijo el capítulo 43,", "como dirá el capítulo 34,"),
     ],
+    "prologo.es.md": [("Entre la tercera y la cuarta, dieciocho lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
+                       "Un segundo tomo, *Lecturas topológicas*, lleva las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.")],
     "cap19_real.es.md": [("**Nota al Capítulo 52**", "**Nota al Capítulo 34**")],
     "cap20_real.es.md": [("**Nota al Capítulo 53**", "**Nota al Capítulo 35**")],
 }

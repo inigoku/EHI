@@ -13,6 +13,6 @@ No soy físico, ni neurólogo, ni filósofo profesional. Soy alguien que leyó u
 
 No lo sé, y este libro no lo demuestra. Lo que hace es **jugar con la hipótesis de forma coherente** y ver qué pasa al cruzarla con la psicología, la medicina, el desarrollo infantil, el duelo, la adicción, el amor. A veces la hipótesis ilumina; otras, se rompe, y cuando se rompe lo decimos.
 
-El libro tiene tres partes. La primera cuenta cómo emerge un horizonte (nacimiento), cómo se mantiene (vida) y cómo se disuelve (muerte). La segunda, qué pasa cuando dos horizontes comparten geometría (vínculo, amor, pérdida). La tercera, qué ocurre cuando la hipótesis se topa con preguntas que no puede responder.
+El libro tiene cuatro partes. La primera cuenta cómo surge un horizonte (nacimiento), cómo se mantiene (vida) y cómo se disuelve (muerte). La segunda, qué pasa cuando dos horizontes comparten geometría (vínculo, amor, pérdida). La tercera lleva la hipótesis a sus casos difíciles: la enfermedad, el trauma, los animales, la inteligencia artificial, la fe y la política. La cuarta, a su límite: lo que la hipótesis no puede decir y para qué sirve aun así. Entre la tercera y la cuarta, dieciocho lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.
 
 Todo es provisional; todo es juego. Pero hay juegos que, por el mero hecho de jugarlos con seriedad, enseñan algo que no se sabía antes de empezar.
