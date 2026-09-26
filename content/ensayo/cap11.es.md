@@ -169,4 +169,4 @@ Eso da a la maternidad, y a la paternidad, una función que ningún otro víncul
 >
 > **Si solo te quedas con una idea:** La maternidad no es un solo papel, sino una secuencia física de tres capas en la que un horizonte fabrica el reservorio del que surgirá otro. Y esa fabricación deja huella en ambos para siempre.
 >
-> **Lecturas:** Feldman (2015), "The Adaptive Human Parental Brain"; Boddy et al. (2015), "Fetal Microchimerism and Maternal Health"; Tronick (2007), "The Neurobehavioral and Social-Emotional Development of Infants".
+> **Lecturas:** Feldman (2015), «The Adaptive Human Parental Brain»; Boddy et al. (2015), «Fetal Microchimerism and Maternal Health»; Tronick (2007), «The Neurobehavioral and Social-Emotional Development of Infants».

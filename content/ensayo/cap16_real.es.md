@@ -174,4 +174,4 @@ Son preguntas sin respuestas fáciles. El modelo del horizonte no las resuelve, 
 >
 > **Si solo te quedas con una idea:** La injusticia no es solo falta de recursos, sino una asimetría de acoplamiento sostenida: horizontes que no pueden resonar porque la arquitectura de la relación se lo impide.
 >
-> **Lecturas:** Allport (1954), "The Nature of Prejudice"; Pettigrew & Tropp (2006); Klass, Silverman & Nickman (1996), "Continuing Bonds"; informes de desarrollo infantil sobre pobreza; Coeckelbergh, M. — *La filosofía política de la inteligencia artificial* (Cátedra, 2023); Hao, K. — *Empire of AI* (Penguin, 2025).
+> **Lecturas:** Allport (1954), «The Nature of Prejudice»; Pettigrew & Tropp (2006); Klass, Silverman & Nickman (1996), «Continuing Bonds»; informes de desarrollo infantil sobre pobreza; Coeckelbergh, M. — *La filosofía política de la inteligencia artificial* (Cátedra, 2023); Hao, K. — *Empire of AI* (Penguin, 2025).

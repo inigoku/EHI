@@ -140,4 +140,4 @@ No es un consuelo, pero puede ser una compañía.
 >
 > **Si solo te quedas con una idea:** El duelo no es olvidar, sino aprender a caminar con una mochila que no puedes quitarte. Y a veces lo más sensato es, sencillamente, seguir caminando.
 >
-> **Lecturas:** O'Connor (2019), "Grief"; DSM-5-TR (trastorno de duelo prolongado); Klass, Silverman & Nickman (1996), "Continuing Bonds"; Stroebe & Schut (1999), "The Dual Process Model of Coping with Bereavement".
+> **Lecturas:** O'Connor (2019), «Grief»; DSM-5-TR (trastorno de duelo prolongado); Klass, Silverman & Nickman (1996), «Continuing Bonds»; Stroebe & Schut (1999), «The Dual Process Model of Coping with Bereavement».

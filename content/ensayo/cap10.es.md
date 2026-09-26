@@ -143,4 +143,4 @@ El vínculo desempeña un papel decisivo en la recuperación. La oxitocina, la m
 >
 > **Si solo te quedas con una idea:** La adicción no es un fallo moral de la voluntad, sino el secuestro físico de los circuitos de recompensa del horizonte y la subida de su umbral. Y la recuperación exige tiempo, no fuerza de carácter.
 >
-> **Lecturas:** Volkow et al. (2016), "Association of Dopamine Transporter Availability with Addiction"; O'Sullivan et al. (2009), sobre los trastornos del control de impulsos en el Parkinson; Robinson & Berridge (1993), "The Neural Basis of Drug Craving".
+> **Lecturas:** Volkow et al. (2016), «Association of Dopamine Transporter Availability with Addiction»; O'Sullivan et al. (2009), sobre los trastornos del control de impulsos en el Parkinson; Robinson & Berridge (1993), «The Neural Basis of Drug Craving».

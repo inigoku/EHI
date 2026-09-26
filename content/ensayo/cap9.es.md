@@ -135,4 +135,4 @@ El amor que no se practica, que no se nombra ni se incorpora activamente a la ar
 >
 > **Si solo te quedas con una idea:** Amar es decidir nombrar un entrelazamiento y reorganizar toda tu arquitectura predictiva en torno a él. Y después, cada día, volver a decidirlo.
 >
-> **Lecturas:** Aron & Aron (1986), "Love and the Expansion of Self"; Coan & Beckes (2011), "Social Baseline Theory"; Fisher (2004), "Why We Love"; Hazan & Shaver (1987), apego adulto.
+> **Lecturas:** Aron & Aron (1986), «Love and the Expansion of Self»; Coan & Beckes (2011), «Social Baseline Theory»; Fisher (2004), «Why We Love»; Hazan & Shaver (1987), apego adulto.

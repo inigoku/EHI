@@ -23,7 +23,7 @@ Toda tradición religiosa, y también su ausencia deliberada, responde, lo sepa 
 
 1. **¿Qué es el reservorio?** ¿Hay algo con voluntad y nombre al otro lado del horizonte, o solo campo, solo física, solo posibilidad sin rostro?
 2. **¿Qué pasa cuando el horizonte se evapora?** ¿Persiste el «yo» como frontera reconocible, un horizonte que no se disuelve, sino que se traslada, o vuelve al reservorio sin conservar su forma?
-3. **¿De dónde sale el código?** Cuando el capítulo 43 señaló el *is-ought gap* de Hume —que ningún "es" produce por sí solo un "debería"— cada tradición ofrece una manera distinta de cerrar esa brecha, o de negarse a cerrarla.
+3. **¿De dónde sale el código?** Cuando el capítulo 43 señaló el *is-ought gap* de Hume —que ningún «es» produce por sí solo un «debería»— cada tradición ofrece una manera distinta de cerrar esa brecha, o de negarse a cerrarla.
 4. **¿Qué es vivir mientras tanto?** ¿Una prueba, un préstamo, una ilusión que hay que atravesar, o sencillamente lo único que hay?
 
 Cristianismo, islam, budismo, hinduismo y ateísmo no son cinco variaciones sobre un mismo tema, sino cinco arquitecturas distintas construidas para responder a las mismas cuatro preguntas, y lo que pretende este capítulo es mostrar la forma exacta de cada una, no limarlas hasta que parezcan compatibles.
@@ -101,7 +101,7 @@ En este marco, vivir no es una prueba, ni un préstamo, ni una ilusión que atra
 
 ### El entrelazamiento vertical: la misma técnica, cinco destinos
 
-La última fila de la tabla merece su propio espacio, porque nombra algo que las otras cuatro no recogen: no qué cree cada tradición, sino qué hace un horizonte cuando practica esa creencia. El capítulo 51, "El entrelazamiento vertical", lo desarrolla en detalle: la misma técnica (repetición hasta que cesa el ruido, quietud, ritmo compartido) es estructuralmente idéntica en las cinco columnas de la tabla, y lo que cambia por completo es el destino de ese entrelazamiento: el reservorio impersonal para el budismo y el hinduismo; un horizonte de origen personal que nunca se funde con uno para el cristianismo y el islam; el campo físico sin más para el naturalismo laico.
+La última fila de la tabla merece su propio espacio, porque nombra algo que las otras cuatro no recogen: no qué cree cada tradición, sino qué hace un horizonte cuando practica esa creencia. El capítulo 51, «El entrelazamiento vertical», lo desarrolla en detalle: la misma técnica (repetición hasta que cesa el ruido, quietud, ritmo compartido) es estructuralmente idéntica en las cinco columnas de la tabla, y lo que cambia por completo es el destino de ese entrelazamiento: el reservorio impersonal para el budismo y el hinduismo; un horizonte de origen personal que nunca se funde con uno para el cristianismo y el islam; el campo físico sin más para el naturalismo laico.
 
 ---
 

@@ -238,4 +238,4 @@ La pregunta adecuada no es «¿debería empatizar más?», sino «¿dónde está
 >
 > **Si solo te quedas con una idea:** Empatizar sin ancla no es virtud, sino evaporación. Y un horizonte evaporado no puede cuidar a nadie.
 >
-> **Lecturas:** Singer & Klimecki (2014), "Empathy and compassion"; Ainley, Maister & Tsakiris (2015); Fukushima, Terasawa & Umeda (2011); Decety (2011), "The Neuroevolution of Empathy".
+> **Lecturas:** Singer & Klimecki (2014), «Empathy and compassion»; Ainley, Maister & Tsakiris (2015); Fukushima, Terasawa & Umeda (2011); Decety (2011), «The Neuroevolution of Empathy».

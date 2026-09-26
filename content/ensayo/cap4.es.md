@@ -26,7 +26,7 @@ Si la conciencia tiene la estructura de un horizonte de sucesos, ¿de qué campo
 
 Los taoístas no midieron el reservorio: lo contemplaron.
 
-El capítulo 25 del Tao Te Ching describe el origen de todas las cosas como "algo mezclado y completo que nació antes que el cielo y la tierra". *Hun* significa mezcla sin separación: ni vacío puro ni materia pura, sino una plenitud sin articular, anterior a toda dualidad. Hun Dun no es oscuridad, sino ausencia de distinción entre luz y oscuridad; no es silencio, sino ausencia de distinción entre sonido y silencio; no es caos en el sentido de desorden, sino en el sentido griego original: *khaos*, el abismo que bosteza antes de que existan las categorías que permitirían llamarlo orden o desorden.
+El capítulo 25 del Tao Te Ching describe el origen de todas las cosas como «algo mezclado y completo que nació antes que el cielo y la tierra». *Hun* significa mezcla sin separación: ni vacío puro ni materia pura, sino una plenitud sin articular, anterior a toda dualidad. Hun Dun no es oscuridad, sino ausencia de distinción entre luz y oscuridad; no es silencio, sino ausencia de distinción entre sonido y silencio; no es caos en el sentido de desorden, sino en el sentido griego original: *khaos*, el abismo que bosteza antes de que existan las categorías que permitirían llamarlo orden o desorden.
 
 El Zhuangzi cuenta que el soberano del centro se llamaba Hun Dun. Los soberanos del Norte y del Sur, Shu y Hu (Rapidez e Impetuosidad), quisieron agradecerle su generosidad dándole lo que todo ser tiene: siete orificios para ver, oír, comer y respirar. Le abrieron uno cada día. Al séptimo, Hun Dun murió.
 

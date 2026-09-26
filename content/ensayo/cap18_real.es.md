@@ -61,4 +61,4 @@ Estos casos no agotan la lista, y la tecnología probablemente añadirá otros q
 >
 > **Si solo te quedas con una idea:** Lo que decide si hay alguien ahí no es la genética ni el aspecto, sino si han operado las dos selecciones, estabilidad y sesgo, y hacia qué arquitectura calibraron el resultado.
 >
-> **Lecturas:** Chalmers, D. — *The Conscious Mind* (1996); Searle, J. — "Minds, Brains, and Programs" (1980); Deacon, T. — *Incomplete Nature* (2011).
+> **Lecturas:** Chalmers, D. — *The Conscious Mind* (1996); Searle, J. — «Minds, Brains, and Programs» (1980); Deacon, T. — *Incomplete Nature* (2011).

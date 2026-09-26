@@ -22,7 +22,7 @@ Esa frontera es el **horizonte de sucesos**. No es una superficie física: ahí 
 
 ### Una idea que regresó
 
-Los agujeros negros no son una invención reciente. En 1783, John Michell, un naturalista inglés, escribió a la Royal Society proponiendo algo que parecía imposible: una estrella tan masiva que su luz no pudiera escapar. Lo calculó con pura mecánica newtoniana, sin relatividad ni mecánica cuántica, y concluyó que si una estrella tenía el mismo diámetro del Sol pero una densidad 500 veces mayor, sería invisible: "Sus rayos no podrían llegar hasta nosotros". La idea durmió más de un siglo.
+Los agujeros negros no son una invención reciente. En 1783, John Michell, un naturalista inglés, escribió a la Royal Society proponiendo algo que parecía imposible: una estrella tan masiva que su luz no pudiera escapar. Lo calculó con pura mecánica newtoniana, sin relatividad ni mecánica cuántica, y concluyó que si una estrella tenía el mismo diámetro del Sol pero una densidad 500 veces mayor, sería invisible: «Sus rayos no podrían llegar hasta nosotros». La idea durmió más de un siglo.
 
 En 1916, Karl Schwarzschild, un astrónomo alemán que calculaba trayectorias de artillería en el frente ruso de la Primera Guerra Mundial, resolvió las ecuaciones de Einstein para un objeto esférico y masivo. Encontró que, por encima de cierta densidad, el espacio-tiempo se curva sobre sí mismo y aparece una singularidad rodeada de un horizonte. Schwarzschild murió de una enfermedad de la piel pocos meses después, sin llegar a saber que su solución describía algo real.
 
@@ -104,7 +104,7 @@ La señal de una fusión de agujeros negros suena como un *chirp*: un tono que s
 
 ### Hawking descubre que los agujeros negros no son negros
 
-Hasta los años setenta, los agujeros negros eran perfectamente negros: todo entraba y nada salía. Se los tenía por objetos sin estructura interna y a temperatura cero. Según la física clásica, un agujero negro solo tenía tres propiedades: masa, carga eléctrica y momento angular. Nada más. Dos agujeros negros con la misma masa, carga y espín eran indistinguibles, hubieran devorado lo que hubieran devorado. "Los agujeros negros no tienen pelo", resumió John Wheeler.
+Hasta los años setenta, los agujeros negros eran perfectamente negros: todo entraba y nada salía. Se los tenía por objetos sin estructura interna y a temperatura cero. Según la física clásica, un agujero negro solo tenía tres propiedades: masa, carga eléctrica y momento angular. Nada más. Dos agujeros negros con la misma masa, carga y espín eran indistinguibles, hubieran devorado lo que hubieran devorado. «Los agujeros negros no tienen pelo», resumió John Wheeler.
 
 En 1974, Stephen Hawking publicó un resultado que sorprendió a toda la comunidad, incluido el propio Hawking: los agujeros negros emiten radiación.
 
@@ -198,8 +198,8 @@ Incluso dentro de la física teórica, esto es muy especulativo, y extenderlo a 
 >
 > **Lo que no sabemos:** Qué hay en la singularidad. Si el principio holográfico se aplica a nuestro universo (requiere condiciones específicas: espacio anti-de Sitter). Si ER=EPR opera en escalas biológicas. Si el soft hair resuelve completamente la paradoja de la información. Qué ocurre cuando un agujero negro termina de evaporarse.
 >
-> **Preguntas que quedan:** ¿Es el entrelazamiento, de verdad, geometría? ¿Puede un cerebro estar "entrelazado" con otro de manera físicamente significativa? ¿Qué queda cuando un agujero negro se evapora por completo? ¿La información sale revuelta o hay algo más?
+> **Preguntas que quedan:** ¿Es el entrelazamiento, de verdad, geometría? ¿Puede un cerebro estar «entrelazado» con otro de manera físicamente significativa? ¿Qué queda cuando un agujero negro se evapora por completo? ¿La información sale revuelta o hay algo más?
 >
 > **Si solo te quedas con una idea:** La información de un agujero negro no está en su interior, sino en su borde. Como si tu vida no estuviera en lo que te pasó, sino en cómo lo relacionas; y tu identidad no estuviera en ninguna de tus partes, sino en el patrón que forman juntas, un patrón que nadie puede ver desde fuera, pero que tú sientes desde dentro, aunque no sepas dónde termina.
 >
-> **Lecturas:** Michell (1783); Schwarzschild (1916); Oppenheimer & Snyder (1939); Hawking (1974), "Black Hole Explosions?"; Bekenstein (1973); Maldacena (1997), "The Large N limit..."; Maldacena & Susskind (2013), "ER=EPR"; Hawking, Perry & Strominger (2016), "Soft Hair on Black Holes"; Event Horizon Telescope Collaboration (2019, 2022); LIGO/Virgo Collaboration (2015-).
+> **Lecturas:** Michell (1783); Schwarzschild (1916); Oppenheimer & Snyder (1939); Hawking (1974), «Black Hole Explosions?»; Bekenstein (1973); Maldacena (1997), «The Large N limit...»; Maldacena & Susskind (2013), «ER=EPR»; Hawking, Perry & Strominger (2016), «Soft Hair on Black Holes»; Event Horizon Telescope Collaboration (2019, 2022); LIGO/Virgo Collaboration (2015-).

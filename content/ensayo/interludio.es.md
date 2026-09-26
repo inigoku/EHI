@@ -207,4 +207,4 @@ Cada noche ensayamos la contracción sin disolvernos: cruzamos el borde y volvem
 >
 > **Si solo te quedas con una idea:** Cada noche cruzas el borde de tu propio horizonte y vuelves. La muerte es el mismo cruce, sin retorno garantizado.
 >
-> **Lecturas:** Borjigin et al. (2013), "Surge of neurophysiological coherence..."; Borjigin et al. (2023), "GAMMA coherence..."; Mandukya Upanishad (turiya); Bardo Thodol; Tononi (2008) sobre Phi y estados de conciencia; Tononi & Cirelli (2014), sinapsis y sueño; Hume, D., *Investigación sobre el entendimiento humano* (1748), sobre la conjunción constante.
+> **Lecturas:** Borjigin et al. (2013), «Surge of neurophysiological coherence...»; Borjigin et al. (2023), «GAMMA coherence...»; Mandukya Upanishad (turiya); Bardo Thodol; Tononi (2008) sobre Phi y estados de conciencia; Tononi & Cirelli (2014), sinapsis y sueño; Hume, D., *Investigación sobre el entendimiento humano* (1748), sobre la conjunción constante.

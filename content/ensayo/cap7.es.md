@@ -209,4 +209,4 @@ Los estudios muestran que este desajuste tiene consecuencias medibles para la sa
 >
 > **Si solo te quedas con una idea:** El tiempo no pasa: se integra. Y con alguien que resuena contigo, se integra más por minuto.
 >
-> **Lecturas:** Hasson et al. (2012), brain-to-brain coupling; Csikszentmihalyi (1990), "Flow"; Eagleman (2009), tiempo subjetivo; dopamina y percepción temporal (Parkinson); Roenneberg (2012), desfase social.
+> **Lecturas:** Hasson et al. (2012), brain-to-brain coupling; Csikszentmihalyi (1990), «Flow»; Eagleman (2009), tiempo subjetivo; dopamina y percepción temporal (Parkinson); Roenneberg (2012), desfase social.

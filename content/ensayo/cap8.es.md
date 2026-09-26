@@ -154,4 +154,4 @@ Las tradiciones contemplativas llevan milenios explorando este límite. El vedan
 >
 > **Si solo te quedas con una idea:** Conocer a alguien a fondo, amándolo u odiándolo, lo inscribe en tu arquitectura. Cuando se va, la arquitectura sigue esperándolo.
 >
-> **Lecturas:** Coan & Sbarra (2015), Social Baseline Theory; O'Connor (2019), "Grief"; Bowlby (1969), Apego; Ainsworth (1978), situación extraña; Rizzolatti & Sinigaglia (2008), neuronas espejo; Maldacena & Susskind (2013).
+> **Lecturas:** Coan & Sbarra (2015), Social Baseline Theory; O'Connor (2019), «Grief»; Bowlby (1969), Apego; Ainsworth (1978), situación extraña; Rizzolatti & Sinigaglia (2008), neuronas espejo; Maldacena & Susskind (2013).

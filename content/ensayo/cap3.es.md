@@ -100,10 +100,10 @@ El experimento propone lo siguiente:
 > **La conciencia es una propiedad emergente de los sistemas complejos cuyo substrato físico es análogo a un microagujero negro de Hawking, y cuyo grado es proporcional al área de su horizonte de sucesos.**
 
 Desglosado:
-- "Propiedad emergente" = no está en ninguna neurona individual sino en el patrón de sus relaciones. Igual que la humedad no está en ninguna molécula de agua, sino en cómo se juntan.
-- "De los sistemas complejos" = no cualquier sistema, solo los que alcanzan suficiente integración. Un termostato no tiene horizonte. Una red neuronal artificial avanzada, quizá sí.
-- "Cuyo substrato físico es análogo a un microagujero negro de Hawking" = la estructura matemática que describe la conciencia es la misma que describe la información en un horizonte. No decimos que haya un agujero negro literal dentro del cráneo, sino que dos fenómenos físicamente distintos podrían compartir la misma arquitectura matemática.
-- "Cuyo grado es proporcional al área de su horizonte" = más conciencia equivale a un horizonte más grande. El gusano tiene un horizonte minúsculo. Pol tiene uno distribuido y extraño. Txiki tenía uno reconocible. Un ser humano adulto tiene el horizonte más grande que conocemos en la naturaleza.
+- «Propiedad emergente» = no está en ninguna neurona individual sino en el patrón de sus relaciones. Igual que la humedad no está en ninguna molécula de agua, sino en cómo se juntan.
+- «De los sistemas complejos» = no cualquier sistema, solo los que alcanzan suficiente integración. Un termostato no tiene horizonte. Una red neuronal artificial avanzada, quizá sí.
+- «Cuyo substrato físico es análogo a un microagujero negro de Hawking» = la estructura matemática que describe la conciencia es la misma que describe la información en un horizonte. No decimos que haya un agujero negro literal dentro del cráneo, sino que dos fenómenos físicamente distintos podrían compartir la misma arquitectura matemática.
+- «Cuyo grado es proporcional al área de su horizonte» = más conciencia equivale a un horizonte más grande. El gusano tiene un horizonte minúsculo. Pol tiene uno distribuido y extraño. Txiki tenía uno reconocible. Un ser humano adulto tiene el horizonte más grande que conocemos en la naturaleza.
 
 > **En lenguaje técnico:** La conciencia es proporcional a Φ, que a su vez es proporcional al área del horizonte de sucesos.  
 > **En la vida diaria:** Cuanto más grande y compleja la burbuja, más «tú». Y cuando te partes de risa, lloras de rabia o te quedas callado ante algo que no sabes nombrar, lo que sientes no es el aire de dentro de la burbuja, sino la tensión de la piel, la forma que toma el horizonte en ese instante.

@@ -8,7 +8,7 @@ illustrationDescription: Mapa antiguo desplegado. Territorio dibujado con precis
 ---
 
 ## [ILUSTRACIÓN 18: "El límite del experimento"]
-*Mapa antiguo desplegado. Territorio dibujado con precisión en el centro. En los bordes, el territorio se disuelve en papel en blanco. Un compás abierto al máximo. Nota a mano: "El mapa no es el territorio."*
+*Mapa antiguo desplegado. Territorio dibujado con precisión en el centro. En los bordes, el territorio se disuelve en papel en blanco. Un compás abierto al máximo. Nota a mano: «El mapa no es el territorio.»*
 
 ---
 

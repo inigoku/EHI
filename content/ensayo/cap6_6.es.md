@@ -40,4 +40,4 @@ El modelado de sistemas complejos y la física de los horizontes muestran que no
 >
 > **Si solo te quedas con una idea:** El yo no es una sustancia, sino una topología de acceso. No hay un «fantasma en la máquina»; hay un estado privado protegido por la misma clase de frontera que la naturaleza y los ingenieros usan para que los sistemas no se hundan en el caos.
 >
-> **Lecturas:** Chalmers, D. (1995), "Facing up to the problem of consciousness"; Tononi, G. (2015), "Integrated Information Theory: From Consciousness to its Physical Substrate"; Parnas, D. (1972), "On the Criteria to be Used in Decomposing Systems into Modules".
+> **Lecturas:** Chalmers, D. (1995), «Facing up to the problem of consciousness»; Tononi, G. (2015), «Integrated Information Theory: From Consciousness to its Physical Substrate»; Parnas, D. (1972), «On the Criteria to be Used in Decomposing Systems into Modules».

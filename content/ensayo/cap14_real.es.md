@@ -148,8 +148,8 @@ Ese es el límite último del modelo: no la pregunta de por qué hay conciencia,
 >
 > **Lo que no sabemos:** Por qué algunos pacientes avanzados responden a estímulos conocidos sin una memoria explícita funcional. Dónde está el umbral exacto en que un horizonte deja de serlo.
 >
-> **Preguntas que quedan:** ¿Hasta qué punto el yo de un paciente con Alzheimer reside en el entrelazamiento con sus cuidadores? ¿Es posible medir la "masa" de un horizonte que se contrae?
+> **Preguntas que quedan:** ¿Hasta qué punto el yo de un paciente con Alzheimer reside en el entrelazamiento con sus cuidadores? ¿Es posible medir la «masa» de un horizonte que se contrae?
 >
 > **Si solo te quedas con una idea:** La conciencia no es un interruptor que se apaga, sino una arquitectura que puede perder los ladrillos uno a uno y seguir sosteniendo el cielo con menos techo cada día.
 >
-> **Lecturas:** Hodges & Patterson (2007), "Semantic dementia and fluent primary progressive aphasia"; Beach et al. (2012), "Circle of Willis atherosclerosis"; Bredesen (2014), "Reversal of cognitive decline."
+> **Lecturas:** Hodges & Patterson (2007), «Semantic dementia and fluent primary progressive aphasia»; Beach et al. (2012), «Circle of Willis atherosclerosis»; Bredesen (2014), «Reversal of cognitive decline.»

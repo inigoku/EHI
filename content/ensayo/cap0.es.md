@@ -8,7 +8,7 @@ illustrationTitle: Las tres ideas
 illustrationDescription: Tres círculos conectados: Burbuja (esfera con piel brillante), Océano (olas), Red (nudos conectados). Flechas circulares entre ellos.
 ---
 
-Mi madre tiene ochenta años. Lee novelas, no artículos de *Nature*. Cuando le expliqué este libro, me dijo: "Hijo, suena interesante, pero no entiendo nada de agujeros negros."
+Mi madre tiene ochenta años. Lee novelas, no artículos de *Nature*. Cuando le expliqué este libro, me dijo: «Hijo, suena interesante, pero no entiendo nada de agujeros negros.»
 
 Este capítulo es para ella, y para ti si tampoco entiendes nada de agujeros negros. No te preocupes: para seguir este libro no hace falta saber física. Bastan tres ideas, y las tres las conoces ya, aunque no sepas qué nombre reciben en física.
 
@@ -22,7 +22,7 @@ Eso es un horizonte.
 
 No una línea en el mapa, sino una frontera viva que separa el dentro del fuera. La burbuja no es el jabón, sino su organización; y lo que la convierte en burbuja no es el aire de dentro, sino la piel que lo encierra.
 
-En física, cuando una estrella muere y colapsa sobre sí misma, crea algo parecido: una frontera donde el espacio se cierra sobre sí mismo. Esa frontera se llama "horizonte de sucesos". Es el punto a partir del cual la luz ya no puede escapar, no porque haya una pared, sino porque la propia geometría se curva.
+En física, cuando una estrella muere y colapsa sobre sí misma, crea algo parecido: una frontera donde el espacio se cierra sobre sí mismo. Esa frontera se llama «horizonte de sucesos». Es el punto a partir del cual la luz ya no puede escapar, no porque haya una pared, sino porque la propia geometría se curva.
 
 Ahora bien, este libro no dice que tengas un agujero negro dentro de la cabeza. Dice algo más curioso: que la conciencia, lo que te hace ser tú, el espacio donde ocurren tus pensamientos, podría tener la misma geometría que un horizonte: una frontera que define un interior, una burbuja hecha de información en lugar de jabón.
 
@@ -78,4 +78,4 @@ Si en algún momento te pierdes, vuelve a este capítulo. Recuerda: **burbuja, o
 
 ---
 
-> **Si solo te quedas con una idea:** La conciencia podría funcionar como una burbuja de jabón que emerge de un océano. El océano no «fabrica» la burbuja: la burbuja es el océano organizado de cierta manera. Y lo que hace que esa burbuja sea "tú" no está en ninguna molécula del agua, sino en la forma que toman las moléculas cuando se conectan.
+> **Si solo te quedas con una idea:** La conciencia podría funcionar como una burbuja de jabón que emerge de un océano. El océano no «fabrica» la burbuja: la burbuja es el océano organizado de cierta manera. Y lo que hace que esa burbuja sea «tú» no está en ninguna molécula del agua, sino en la forma que toman las moléculas cuando se conectan.
