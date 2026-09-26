@@ -336,13 +336,9 @@ class FullFramePlate(Flowable):
     generate_book_pdf.make_image_flowable, igual que las ilustraciones en
     línea del cuerpo), de modo que nada más comparte esa página.
 
-    No exige una paridad concreta de página: se limita a esperar a la
-    próxima página en blanco, sea par o impar. Forzar una paridad fija
-    aquí (como hace ForceParity para títulos de capítulo) puede encadenar
-    dos saltos de página en blanco en vez de uno cuando el texto previo
-    termina justo en la paridad "equivocada" — de ahí que las láminas no
-    lo hagan, a costa de perder la consistencia de "siempre en la página
-    izquierda" en los casos poco frecuentes en que no coincide."""
+    No exige por sí misma una paridad: espera a la próxima página en
+    blanco. Quien la usa la precede de ForceParity(0) para que caiga
+    siempre en la página par (izquierda), frente al cuento."""
 
     def __init__(self, image_bytes: bytes, frame_w: float, frame_h: float):
         super().__init__()
@@ -773,10 +769,11 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             illustration_bytes = gbp.load_image_bytes(image_source, base_dir, ca_bundle)
 
         if illustration_bytes:
-            # La lámina cae en la primera página en blanco disponible, sea
-            # cual sea su paridad (ver FullFramePlate.__doc__): como llena
-            # el marco entero, el título del capítulo cae automáticamente
-            # en la página siguiente sin necesidad de forzar su paridad.
+            # La lámina va siempre a la izquierda (página par) y el cuento
+            # enfrente, a la derecha: como la lámina llena el marco entero,
+            # el título cae en la impar siguiente sin forzar nada más. El
+            # precio es alguna página de cortesía en blanco (sin folio).
+            story.append(ForceParity(0, TEXT_H))
             story.append(FullFramePlate(illustration_bytes, TEXT_W, TEXT_H))
         else:
             story.append(ForceParity(1, TEXT_H))
