@@ -115,9 +115,12 @@ def register_fonts() -> None:
 
     for path in CJK_FALLBACK_CANDIDATES:
         if Path(path).exists():
-            pdfmetrics.registerFont(TTFont(CJK_FALLBACK_FONT, path))
-            _CJK_FALLBACK_AVAILABLE = True
-            break
+            try:
+                pdfmetrics.registerFont(TTFont(CJK_FALLBACK_FONT, path))
+                _CJK_FALLBACK_AVAILABLE = True
+                break
+            except Exception:
+                continue
 
 
 R, IT, SB, SBIT, BD = "Eco", "Eco-It", "Eco-Sb", "Eco-SbIt", "Eco-Bd"

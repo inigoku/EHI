@@ -207,6 +207,12 @@ import imgSemiosis from "../assets/images/ilustracion_semiosis.jpg";
 import imgProtocolo from "../assets/images/ilustracion_protocolo.jpg";
 // @ts-ignore
 import imgHorizontePrestado from "../assets/images/ilustracion_horizonte_prestado.jpg";
+// @ts-ignore
+import imgTeoriaInformacion from "../assets/images/il_teoria_informacion.jpg";
+// @ts-ignore
+import imgTresPuertas from "../assets/images/il_tres_puertas.jpg";
+// @ts-ignore
+import imgNaveBarro from "../assets/images/il_nave_barro.jpg";
 
 // Import Cuentos illustrations
 // @ts-ignore
@@ -254,6 +260,10 @@ import cuentoM87 from "../assets/images/cuentos/19_M87_puente.png";
 import cuentoMussara from "../assets/images/cuentos/ilustracion_mussara.png";
 // @ts-ignore
 import cuentoSintonizadores from "../assets/images/cuentos/20_sintonizadores.png";
+// @ts-ignore
+import cuentoNaveBarro from "../assets/images/cuentos/cuento_nave_barro.png";
+// @ts-ignore
+import cuentoNombreNuevo from "../assets/images/cuentos/cuento_nombre_nuevo.png";
 
 // Poemas background images
 // @ts-ignore
@@ -451,6 +461,9 @@ const imageMap: Record<string, string> = {
   il_semiosis: imgSemiosis,
   il_protocolo: imgProtocolo,
   il_horizonte_prestado: imgHorizontePrestado,
+  il_teoria_informacion: imgTeoriaInformacion,
+  il_tres_puertas: imgTresPuertas,
+  il_nave_barro: imgNaveBarro,
 
   // "Cartografía de tres singularidades" — public reference images of the
   // actual paintings discussed (hotlinked from Wikipedia/Wikimedia Commons)
@@ -499,6 +512,8 @@ const imageMap: Record<string, string> = {
   cuento_m87: cuentoM87,
   cuento_mussara: cuentoMussara,
   cuento_sintonizadores: cuentoSintonizadores,
+  cuento_nave_barro: cuentoNaveBarro,
+  cuento_nombre_nuevo: cuentoNombreNuevo,
 
   // Poem backgrounds mapping
   poema_arq1: poemaElArchivista,
