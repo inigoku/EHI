@@ -2,7 +2,7 @@
 title: EL BOSQUE OSCURO Y EL COLAPSO HOLOGRÁFICO
 subtitle: (Una lectura topológica de El Problema de los Tres Cuerpos)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 37
+chapterNumber: 39
 illustrationId: il_threebody
 illustrationTitle: El colapso holográfico
 illustrationDescription: Una enorme hoja bidimensional dorada y brillante aplana lentamente un sistema solar con planetas y soles incandescentes en un espacio profundo tridimensional lleno de líneas de coordenadas.
@@ -73,7 +73,7 @@ Los protagonistas comprenden entonces la ley final de nuestra hipótesis: «Cada
 
 ---
 
-> **Nota al Capítulo 37**
+> **Nota al Capítulo 39**
 >
 > **Lo que sí sabemos:** La correspondencia holográfica (AdS/CFT) describe cómo un volumen puede proyectarse en una superficie de menor dimensión. La física da por hecho que la información se conserva a pesar del *scrambling* cuántico final.
 >

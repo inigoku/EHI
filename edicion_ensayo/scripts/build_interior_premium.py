@@ -362,10 +362,10 @@ class SetFolio(Flowable):
 
 
 # ------------------------------------------------------------------ estilos
-def build_styles() -> dict:
+def build_styles(body_leading: float = 16.4) -> dict:
     styles = {
         "Body": ParagraphStyle(
-            "Body", fontName=R, fontSize=11.0, leading=16.4, alignment=4,
+            "Body", fontName=R, fontSize=11.0, leading=body_leading, alignment=4,
             spaceAfter=8, textColor=INK,
         ),
         "Quote": ParagraphStyle(
@@ -695,7 +695,9 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
     # Sin ilustraciones: ni láminas de capítulo ni ilustraciones en línea
     # (un diccionario vacío hace que markdown_to_flowables salte los marcadores).
     illustrations = {} if sin_ilustraciones else toc.get("illustrations", {})
-    styles = build_styles()
+    # Interlineado del cuerpo (opcional por tomo: el tomo I lo aprieta un poco
+    # para no pasar del límite de 550 páginas de la tapa dura de KDP).
+    styles = build_styles(toc.get("body_leading", 16.4))
 
     doc = PremiumDocTemplate(str(output_path), pagesize=(PW, PH),
                               title=toc.get("title", ""), author=toc.get("author", ""))

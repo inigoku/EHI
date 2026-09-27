@@ -166,14 +166,17 @@
     "tarel_agua_p7": "../src/assets/images/tarel_agua/pagina7.jpg",
     "tarel_agua_portada": "../src/assets/images/tarel_agua/portada.jpg",
     "il_relevo_patron": "../src/assets/images/il_relevo_patron.jpg",
-    "il_relevo_entrelazamiento": "../src/assets/images/il_relevo_entrelazamiento.jpg"
+    "il_relevo_entrelazamiento": "../src/assets/images/il_relevo_entrelazamiento.jpg",
+    "il_teoria_informacion": "../src/assets/images/il_teoria_informacion.jpg",
+    "il_tres_puertas": "../src/assets/images/il_tres_puertas.jpg",
+    "il_nave_barro": "../src/assets/images/il_nave_barro.jpg"
   },
   "running_title": "LECTURAS TOPOLÓGICAS",
   "chapter_word": "Lectura",
   "gutter_in": 0.62,
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-es",
   "credits": [
-    "Segundo tomo de El Horizonte Interior: dieciocho lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
+    "Segundo tomo de El Horizonte Interior: diecinueve lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
   ],
   "chapters": [
     {
@@ -181,7 +184,7 @@
       "content_file": "../content/lecturas/cap17_6_real.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 34**",
+          "**Nota al Capítulo 36**",
           "**Nota a la lectura 1**"
         ]
       ],
@@ -193,15 +196,15 @@
       "content_file": "../content/lecturas/cap_blade_runner.es.md",
       "replace": [
         [
-          "En el capítulo 34, al hablar",
+          "En el capítulo 36, al hablar",
           "En la lectura 1, al hablar"
         ],
         [
-          "(Capítulo 34)",
+          "(Capítulo 36)",
           "(lectura 1)"
         ],
         [
-          "**Nota al Capítulo 35**",
+          "**Nota al Capítulo 37**",
           "**Nota a la lectura 2**"
         ]
       ],
@@ -213,7 +216,7 @@
       "content_file": "content_overrides/cap17_7_alien.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 36**",
+          "**Nota al Capítulo 38**",
           "**Nota a la lectura 3**"
         ]
       ],
@@ -225,7 +228,7 @@
       "content_file": "../content/lecturas/cap_three_body.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 37**",
+          "**Nota al Capítulo 39**",
           "**Nota a la lectura 4**"
         ]
       ],
@@ -237,7 +240,7 @@
       "content_file": "content_overrides/cap17_8_cosmic.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 38**",
+          "**Nota al Capítulo 40**",
           "**Nota a la lectura 5**"
         ]
       ],
@@ -249,7 +252,7 @@
       "content_file": "../content/lecturas/cap_matrix.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 39**",
+          "**Nota al Capítulo 41**",
           "**Nota a la lectura 6**"
         ]
       ],
@@ -261,7 +264,7 @@
       "content_file": "content_overrides/cap_cartografia_singularidades.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 40**",
+          "**Nota al Capítulo 42**",
           "**Nota a la lectura 7**"
         ]
       ],
@@ -273,7 +276,7 @@
       "content_file": "../content/lecturas/cap_historia_relevo.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 41**",
+          "**Nota al Capítulo 43**",
           "**Nota a la lectura 8**"
         ]
       ],
@@ -285,7 +288,7 @@
       "content_file": "../content/lecturas/cap_traductor.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 42**",
+          "**Nota al Capítulo 44**",
           "**Nota a la lectura 9**"
         ]
       ],
@@ -297,15 +300,15 @@
       "content_file": "../content/lecturas/cap_lenguaje_entrelazamiento.es.md",
       "replace": [
         [
-          "(capítulo 36)",
+          "(capítulo 38)",
           "(lectura 3)"
         ],
         [
-          "ya citado en el capítulo 42",
+          "ya citado en el capítulo 44",
           "ya citado en la lectura 9"
         ],
         [
-          "**Nota al Capítulo 43**",
+          "**Nota al Capítulo 45**",
           "**Nota a la lectura 10**"
         ]
       ],
@@ -317,19 +320,11 @@
       "content_file": "../content/lecturas/cap_calibracion.es.md",
       "replace": [
         [
-          "El capítulo 23 describió la encapsulación",
-          "El capítulo 3 describió la encapsulación"
-        ],
-        [
-          "El capítulo 38 describió la traducción",
+          "El capítulo 44 describió la traducción",
           "La lectura 9 describió la traducción"
         ],
         [
-          "lo que el capítulo 11 describió como vínculo madre-hijo",
-          "lo que el capítulo 15 describió como vínculo madre-hijo"
-        ],
-        [
-          "**Nota al Capítulo 44**",
+          "**Nota al Capítulo 46**",
           "**Nota a la lectura 11**"
         ]
       ],
@@ -341,7 +336,7 @@
       "content_file": "../content/lecturas/cap_maquina_tiempo.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 45**",
+          "**Nota al Capítulo 47**",
           "**Nota a la lectura 12**"
         ]
       ],
@@ -353,7 +348,7 @@
       "content_file": "../content/lecturas/cap_horizonte_prestado.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 46**",
+          "**Nota al Capítulo 48**",
           "**Nota a la lectura 13**"
         ]
       ],
@@ -389,11 +384,35 @@
       "content_file": "../content/lecturas/cap_realidad_fractal.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 51**",
+          "**Nota al Capítulo 53**",
           "**Nota a la lectura 18**"
         ]
       ],
       "chapter_number": 18,
+      "section": ""
+    },
+    {
+      "id": "cap_nave_de_barro",
+      "content_file": "../content/lecturas/cap_nave_de_barro.es.md",
+      "replace": [
+        [
+          "la lectura sobre el terror cósmico, en el capítulo 40,",
+          "la lectura sobre el terror cósmico, la 5,"
+        ],
+        [
+          "la misma conclusión a la que llegó el capítulo 47",
+          "la misma conclusión a la que llegó la lectura 12"
+        ],
+        [
+          "lo que el capítulo 40 llamaba gafas de eclipse",
+          "lo que la lectura 5 llamaba gafas de eclipse"
+        ],
+        [
+          "**Nota al Capítulo 54**",
+          "**Nota a la lectura 19**"
+        ]
+      ],
+      "chapter_number": 19,
       "section": ""
     }
   ]

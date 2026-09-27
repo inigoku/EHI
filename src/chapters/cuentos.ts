@@ -51,6 +51,8 @@ const ORDER = [
   "cuento_ultimos_minutos",
   "cuento_dragon",
   "cuento_vecino_arriba",
+  "cuento_nave_barro",
+  "cuento_nombre_nuevo",
   "cuento_plaza",
   "cuento_chapa",
   "cuento_txiki",

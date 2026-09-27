@@ -166,10 +166,14 @@
     "tarel_agua_p7": "../src/assets/images/tarel_agua/pagina7.jpg",
     "tarel_agua_portada": "../src/assets/images/tarel_agua/portada.jpg",
     "il_relevo_patron": "../src/assets/images/il_relevo_patron.jpg",
-    "il_relevo_entrelazamiento": "../src/assets/images/il_relevo_entrelazamiento.jpg"
+    "il_relevo_entrelazamiento": "../src/assets/images/il_relevo_entrelazamiento.jpg",
+    "il_teoria_informacion": "../src/assets/images/il_teoria_informacion.jpg",
+    "il_tres_puertas": "../src/assets/images/il_tres_puertas.jpg",
+    "il_nave_barro": "../src/assets/images/il_nave_barro.jpg"
   },
   "running_title": "EL HORIZONTE INTERIOR",
   "gutter_in": 0.82,
+  "body_leading": 15.8,
   "uid": "urn:uuid:el-horizonte-interior-tomo1-ensayo-es",
   "credits": [
     "Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la cuarta parte, con el epílogo, el glosario y las notas. Las lecturas topológicas forman el segundo tomo."
@@ -184,7 +188,7 @@
       "content_file": "../content/ensayo/prologo.es.md",
       "replace": [
         [
-          "Entre la tercera y la cuarta, dieciocho lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
+          "Entre la tercera y la cuarta, diecinueve lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
           "Un segundo tomo, *Lecturas topológicas*, lleva las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana."
         ]
       ]
@@ -194,7 +198,7 @@
       "content_file": "../content/ensayo/cap_nota_autor.es.md",
       "replace": [
         [
-          "El capítulo 47 lleva esa pregunta a la ficción",
+          "El capítulo 49 lleva esa pregunta a la ficción",
           "La lectura «Cinco espejos de ficción», en el tomo de *Lecturas topológicas*, lleva esa pregunta a la ficción"
         ]
       ]
@@ -312,8 +316,8 @@
       "content_file": "../content/ensayo/cap17_5_real.es.md",
       "replace": [
         [
-          "como vimos en el capítulo 40,",
-          "como veremos en el capítulo 34,"
+          "como veremos en el capítulo 55,",
+          "como veremos en el capítulo 36,"
         ]
       ]
     },
@@ -322,40 +326,36 @@
       "content_file": "../content/ensayo/cap_religiones_comparadas.es.md",
       "replace": [
         [
-          "El experimento ya dijo, en el capítulo 43, que la ética",
-          "El capítulo 34 lo dirá con claridad: la ética"
+          "El capítulo 55 lo dirá con claridad: la ética",
+          "El capítulo 36 lo dirá con claridad: la ética"
         ],
         [
-          "Cuando el capítulo 43 señaló el *is-ought gap* de Hume —que ningún «es» produce por sí solo un «debería»—",
-          "Ante el *is-ought gap* de Hume —que ningún «es» produce por sí solo un «debería», como se verá en el capítulo 34—"
+          "como se verá en el capítulo 55), cada",
+          "como se verá en el capítulo 36), cada"
         ],
         [
-          "De las tres opciones que el capítulo 43 dejó abiertas",
-          "De las tres opciones que el capítulo 34 dejará abiertas"
+          "De las tres opciones que el capítulo 55 dejará abiertas",
+          "De las tres opciones que el capítulo 36 dejará abiertas"
         ],
         [
-          "lo que este mismo libro hizo explícitamente en el capítulo 43",
-          "lo que este mismo libro hará explícitamente en el capítulo 34"
+          "lo que este mismo libro hará explícitamente en el capítulo 55",
+          "lo que este mismo libro hará explícitamente en el capítulo 36"
         ],
         [
-          "leer el mapa del capítulo 43",
-          "leer el mapa del capítulo 34"
+          "leer el mapa del capítulo 55",
+          "leer el mapa del capítulo 36"
         ],
         [
-          "como mostró el capítulo 44 anterior sobre la práctica,",
-          "como mostrará el capítulo 35, sobre la práctica,"
+          "como mostrará el capítulo 56, sobre la práctica,",
+          "como mostrará el capítulo 37, sobre la práctica,"
         ],
         [
-          "El capítulo 51, «El entrelazamiento vertical», lo desarrolla",
-          "El capítulo 29, «El entrelazamiento vertical», lo desarrolla"
+          "No puede: como establece el capítulo 55,",
+          "No puede: como establece el capítulo 36,"
         ],
         [
-          "No puede: el capítulo 43 ya estableció que",
-          "No puede: como establece el capítulo 34,"
-        ],
-        [
-          "como dijo el capítulo 43,",
-          "como dirá el capítulo 34,"
+          "como dirá el capítulo 55,",
+          "como dirá el capítulo 36,"
         ]
       ]
     },
@@ -376,6 +376,20 @@
       "content_file": "../content/ensayo/cap_espejo_sin_profundidad.es.md"
     },
     {
+      "id": "cap_teoria_informacion",
+      "content_file": "../content/ensayo/cap_teoria_informacion.es.md"
+    },
+    {
+      "id": "cap_tres_puertas",
+      "content_file": "../content/ensayo/cap_tres_puertas.es.md",
+      "replace": [
+        [
+          "Es la pregunta que el capítulo 55 retomará",
+          "Es la pregunta que el capítulo 36 retomará"
+        ]
+      ]
+    },
+    {
       "id": "cap_el_que_queda",
       "content_file": "../content/ensayo/cap_el_que_queda.es.md"
     },
@@ -384,22 +398,22 @@
       "content_file": "../content/ensayo/cap19_real.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 52**",
-          "**Nota al Capítulo 34**"
+          "**Nota al Capítulo 55**",
+          "**Nota al Capítulo 36**"
         ]
       ],
-      "chapter_number": 34
+      "chapter_number": 36
     },
     {
       "id": "cap20_real",
       "content_file": "../content/ensayo/cap20_real.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 53**",
-          "**Nota al Capítulo 35**"
+          "**Nota al Capítulo 56**",
+          "**Nota al Capítulo 37**"
         ]
       ],
-      "chapter_number": 35
+      "chapter_number": 37
     },
     {
       "id": "cap_epilogo_real",

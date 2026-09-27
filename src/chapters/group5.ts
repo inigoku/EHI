@@ -15,6 +15,8 @@ const ORDER = [
   "cap_ojo_un_solo_color",
   "cap18_real",
   "cap_espejo_sin_profundidad",
+  "cap_teoria_informacion",
+  "cap_tres_puertas",
   "cap_el_que_queda",
 ];
 

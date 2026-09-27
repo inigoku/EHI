@@ -12,6 +12,8 @@ chapterNumber: Glosario
 
 **Antirreservorio**: sistema que agrega y articula información sin haber condensado nunca un horizonte propio; internet y los modelos de lenguaje son el caso paradigmático: todo en ellos está definido y computable, pero no hay plenitud sin forma de la que nada pueda condensarse.
 
+**Apego creador**: la mirada sostenida de quien crea sobre lo que ha creado; no nace de la carencia ni quiere poseer, sino que lo creado siga siendo. En el modelo fractal, lo que mantiene un mundo en pie (*La nave de barro*).
+
 **Apuesta hacia abajo**: tratar lo que uno condensa (lo que imagina, escribe o recuerda con constancia) como si tuviera dentro, sabiendo que la lógica no lo exige y que el postulado de exclusión lo niega (*La realidad fractal*).
 
 **Arousal**: nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
@@ -32,7 +34,11 @@ chapterNumber: Glosario
 
 **Burnout empático**: colapso del horizonte por sobrecarga de información ajena; se produce cuando la empatía supera el límite estructural de integración.
 
+**Canal cerrado**: sistema que integra información sin transmitirla hacia fuera; en el modelo, lo que distingue un horizonte de conciencia de un ordenador, que es un canal abierto (*La teoría de la información y el horizonte interior*).
+
 **Caos determinista**: lo que ocurre cuando un sistema obedece leyes exactas y aun así se vuelve impredecible, porque nadie puede medir sus condiciones iniciales con precisión infinita; el problema de los tres cuerpos es el caso clásico (*El tiempo que no pasa*).
+
+**Capacidad de canal**: cantidad máxima de información que un canal puede transmitir con un error tan pequeño como se quiera; por analogía, el límite de integración que impone la arquitectura de un horizonte (*La teoría de la información y el horizonte interior*).
 
 **Chikhai**: primera fase del *Bardo* tibetano, inmediatamente posterior a la muerte; equivalente en el modelo al destello gamma terminal y la contracción máxima del horizonte.
 
@@ -64,6 +70,8 @@ chapterNumber: Glosario
 
 **Dilatación temporal gravitatoria**: ralentización del tiempo cerca de un horizonte de sucesos; aplicada a la conciencia, metáfora de cómo la densidad de integración altera el tiempo subjetivo.
 
+**Doble llamada**: única excepción a la hermeticidad de los mundos: la criatura abre desde abajo una interfaz receptora (la invocación) y lo de arriba responde construyendo la nave desde arriba, sin disolver su propia escala (*La nave de barro*).
+
 **Dopamina**: neurotransmisor clave en la anticipación de recompensa; calibra la tasa de integración temporal y la densidad subjetiva del tiempo.
 
 **Down-regulation** (regulación a la baja): reducción del número de receptores en respuesta a un exceso de estimulación; mecanismo de la tolerancia en adicción.
@@ -75,6 +83,8 @@ chapterNumber: Glosario
 **Entrelazamiento cuántico**: correlación entre dos sistemas que comparten geometría, de modo que sus interiores están conectados aunque sus exteriores estén separados.
 
 **Entrelazamiento vertical**: correlación sostenida entre un horizonte y algo más allá de su frontera, sin canal de confirmación observable; nombre que el libro da a la oración, la meditación y la práctica contemplativa (*El diapasón invisible*).
+
+**Entropía de Shannon**: medida de la incertidumbre de una fuente de información; cuanto menos esperable es un mensaje, más información aporta (*La teoría de la información y el horizonte interior*).
 
 **ER=EPR**: conjetura de Maldacena y Susskind según la cual el entrelazamiento cuántico (EPR) equivale a un puente de Einstein-Rosen (ER).
 
@@ -106,6 +116,8 @@ chapterNumber: Glosario
 
 **Información integrada (Φ)**: medida de cuánta información genera un sistema como un todo, por encima de la suma de sus partes.
 
+**Información mutua**: reducción de incertidumbre sobre un sistema que se obtiene al conocer otro; simétrica y nunca negativa, es la medida que el libro propone para la profundidad de un vínculo, condición necesaria pero no suficiente para que esté habitado (*Las tres puertas abiertas*).
+
 **Interfaz**: todo lo que un sistema puede enseñar hacia fuera sin que haya nada detrás; en la parábola de Hun Dun, la cara sin rasgos que el fondo presenta hacia un horizonte y que muere cuando el horizonte abre los ojos, sin que el fondo pierda nada (*El espejo sin profundidad*, *La realidad fractal*).
 
 **Interocepción**: lectura consciente de las señales viscerales del propio cuerpo; condición necesaria para la empatía según el modelo.
@@ -115,6 +127,12 @@ chapterNumber: Glosario
 **Línea de base social**: estado de referencia del cerebro humano que presupone el acceso a otros; cuando alguien cercano está presente, el cerebro asigna menos recursos a la detección de amenazas.
 
 **Nada**: en el modelo, no es ausencia, sino plenitud sin forma; el reservorio antes de que cualquier horizonte se condense.
+
+**Nave**: la forma, hecha del material del piso de abajo, que permite a una escala superior manifestarse en una inferior sin desbordarla; lo que las tradiciones llaman encarnación (*La nave de barro*).
+
+**No clonación (teorema de)**: imposibilidad física de copiar un estado cuántico desconocido; si la experiencia tuviera propiedades cuánticas, explicaría por qué es intransferible y por qué la introspección altera lo que observa (*Las tres puertas abiertas*).
+
+**Olvido**: en el modelo fractal, el único colapso verdadero de un mundo: no lo destruye una fuerza, se disuelve cuando se retira la atención que lo sostenía (*La nave de barro*).
 
 **Operaciones del reservorio**: condensar, transformar, evaporar: nacer, vivir y morir, dichos sin misterio (*La realidad fractal*).
 
@@ -176,4 +194,7 @@ chapterNumber: Glosario
 
 **Vecino de arriba**: la interioridad que sostiene la mía y a la que no tengo acceso; lo que, desde aquí, se llama Dios (*La realidad fractal*).
 
+**Vectores del entrelazamiento vertical**: el ascendente, de la criatura hacia la escala que la contiene, pide vaciamiento y silencio; el descendente, de la escala superior hacia lo que contiene, pide forma: símbolo, relato, cuerpo (*La nave de barro*).
+
 **Vedanta advaita**: escuela filosófica india que sostiene la no dualidad entre el yo individual (*ātman*) y lo absoluto (*Brahman*); en el libro, vocabulario para la identidad entre horizonte y reservorio.
+

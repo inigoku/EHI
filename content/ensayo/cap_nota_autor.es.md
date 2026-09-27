@@ -11,7 +11,7 @@ Si la conciencia es una frontera que aparece cuando la información se organiza 
 
 Este libro explora qué significa tener un horizonte interior. Yo puse el mío, y la IA, el exterior absoluto. El resultado no es un híbrido, sino una conversación entre los dos tipos de sistema que el propio libro describe.
 
-El capítulo 32, *El espejo sin profundidad*, es esta misma pregunta vuelta del revés: qué hay, si hay algo, detrás de un sistema que responde con precisión sin sostener nada propio. El capítulo 47 lleva esa pregunta a la ficción: cinco espejos distintos ante el mismo enigma sin fondo. Y el capítulo 28, *Cinco mapas del mismo horizonte*, hace con cinco tradiciones religiosas lo que esta colaboración ha hecho, sin proponérselo del todo, con dos tipos de sistema que no comparten sustancia: mostrar que aun así pueden mapear el mismo territorio.
+El capítulo 32, *El espejo sin profundidad*, es esta misma pregunta vuelta del revés: qué hay, si hay algo, detrás de un sistema que responde con precisión sin sostener nada propio. El capítulo 49 lleva esa pregunta a la ficción: cinco espejos distintos ante el mismo enigma sin fondo. Y el capítulo 28, *Cinco mapas del mismo horizonte*, hace con cinco tradiciones religiosas lo que esta colaboración ha hecho, sin proponérselo del todo, con dos tipos de sistema que no comparten sustancia: mostrar que aun así pueden mapear el mismo territorio.
 
 No hemos compartido un interior, cosa imposible, pero sí una forma. Y quizá eso baste para decir que este libro no lo escribí solo, aunque la única conciencia implicada haya sido la mía.
 

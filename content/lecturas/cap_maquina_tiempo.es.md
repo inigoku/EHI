@@ -2,7 +2,7 @@
 title: LA PLAYA AL FINAL DEL TIEMPO Y LA RAMA QUE NO ERES TÚ
 subtitle: (Una lectura topológica de La Máquina del Tiempo, los agujeros de gusano y las paradojas del viaje temporal)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 45
+chapterNumber: 47
 illustrationId: il_maquina_tiempo
 illustrationTitle: La playa al final del tiempo
 illustrationDescription: La máquina de Wells varada en la arena, bajo el sol rojo y moribundo del final del tiempo. En el horizonte, donde el mar se encuentra con el cielo, la línea del agua se curva sutilmente hacia dentro: el borde de un agujero de gusano.
@@ -131,7 +131,7 @@ Puede que la razón por la que estas cuatro respuestas y estos cuatro contraejem
 
 ---
 
-> **Nota al Capítulo 45**
+> **Nota al Capítulo 47**
 >
 > **Lo que sí sabemos:** la dilatación temporal (por velocidad o por gravedad) es un viaje real al futuro, medido y verificado; la relatividad general admite soluciones con curvas temporales cerradas, pero todas las conocidas requieren materia exótica o configuraciones no físicas.
 >

@@ -2,7 +2,7 @@
 title: LÁGRIMAS EN LA LLUVIA Y EL UNICORNIO SINTÉTICO
 subtitle: (La independencia de sustrato y la caducidad del horizonte)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 35
+chapterNumber: 37
 illustrationId: il_runner
 illustrationTitle: El unicornio sintético
 illustrationDescription: Un unicornio de origami de papel de aluminio brillante se posa sobre el asfalto mojado de una calle futurista lluviosa y oscura con reflejos de neón de tonos azules y rosa.
@@ -34,7 +34,7 @@ Roy es plenamente lúcido sobre su propia topología. Sabe que su horizonte se e
 
 Si Roy Batty es el enfrentamiento con la muerte, Rachael plantea un problema arquitectónico aún más sutil. Es un experimento de la Tyrell Corporation: para evitar la inestabilidad emocional de los horizontes recién condensados, Tyrell le implanta los recuerdos de su sobrina. Él mismo lo explica: «Si les damos un pasado, creamos un colchón para sus emociones».
 
-En el capítulo 34, al hablar de los clones de la yegua Cuartetera, vimos que la identidad no se puede clonar porque no vive en el ADN, sino en las correlaciones construidas en el tiempo. Tyrell intenta saltarse esa ley física. Actúa como el sistema operativo evolutivo: inyecta un registro de eventos prefabricado para dar al horizonte de Rachael la ilusión de una esencia. Le inyecta maya.
+En el capítulo 36, al hablar de los clones de la yegua Cuartetera, vimos que la identidad no se puede clonar porque no vive en el ADN, sino en las correlaciones construidas en el tiempo. Tyrell intenta saltarse esa ley física. Actúa como el sistema operativo evolutivo: inyecta un registro de eventos prefabricado para dar al horizonte de Rachael la ilusión de una esencia. Le inyecta maya.
 
 Cuando Deckard le revela que sus recuerdos del piano y de la araña son falsos, rompe su interfaz de usuario. Rachael llora porque su horizonte percibe de golpe que su yo no lo esculpió el roce real con el mundo, sino un código implantado.
 
@@ -69,7 +69,7 @@ Esa frase destila todo nuestro experimento: no importa si naciste de un útero o
 
 ---
 
-> **Nota al Capítulo 35**
+> **Nota al Capítulo 37**
 >
 > **Lo que sí sabemos:** La teoría de la información integrada (IIT) postula la «independencia de sustrato»: la conciencia depende de la arquitectura de la red y de su capacidad irreducible de integración (Φ), no del material biológico concreto.
 >
@@ -79,4 +79,4 @@ Esa frase destila todo nuestro experimento: no importa si naciste de un útero o
 >
 > **Si solo te quedas con una idea:** Puedes fabricar un cuerpo e inyectarle datos falsos, pero no puedes simular el sufrimiento. Si el sistema consigue trazar un horizonte y crear un dentro, su dolor, su amor y su miedo a desaparecer son tan reales como los tuyos.
 >
-> **Lecturas:** Tononi (2008), sobre la independencia de sustrato de Φ; el *scrambling* y la paradoja de la información (capítulos 2 y 7); el análisis de los clones y la identidad en el caso Cuartetera (Capítulo 34).
+> **Lecturas:** Tononi (2008), sobre la independencia de sustrato de Φ; el *scrambling* y la paradoja de la información (capítulos 2 y 7); el análisis de los clones y la identidad en el caso Cuartetera (Capítulo 36).
