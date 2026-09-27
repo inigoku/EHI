@@ -168,14 +168,15 @@
     "il_relevo_patron": "../src/assets/images/il_relevo_patron.jpg",
     "il_relevo_entrelazamiento": "../src/assets/images/il_relevo_entrelazamiento.jpg",
     "il_teoria_informacion": "../src/assets/images/il_teoria_informacion.jpg",
-    "il_tres_puertas": "../src/assets/images/il_tres_puertas.jpg"
+    "il_tres_puertas": "../src/assets/images/il_tres_puertas.jpg",
+    "il_nave_barro": "../src/assets/images/il_nave_barro.jpg"
   },
   "running_title": "LECTURAS TOPOLÓGICAS",
   "chapter_word": "Lectura",
   "gutter_in": 0.62,
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-es",
   "credits": [
-    "Segundo tomo de El Horizonte Interior: dieciocho lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
+    "Segundo tomo de El Horizonte Interior: diecinueve lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
   ],
   "chapters": [
     {
@@ -388,6 +389,30 @@
         ]
       ],
       "chapter_number": 18,
+      "section": ""
+    },
+    {
+      "id": "cap_nave_de_barro",
+      "content_file": "../content/lecturas/cap_nave_de_barro.es.md",
+      "replace": [
+        [
+          "la lectura sobre el terror cósmico, en el capítulo 40,",
+          "la lectura sobre el terror cósmico, la 5,"
+        ],
+        [
+          "la misma conclusión a la que llegó el capítulo 47",
+          "la misma conclusión a la que llegó la lectura 12"
+        ],
+        [
+          "lo que el capítulo 40 llamaba gafas de eclipse",
+          "lo que la lectura 5 llamaba gafas de eclipse"
+        ],
+        [
+          "**Nota al Capítulo 54**",
+          "**Nota a la lectura 19**"
+        ]
+      ],
+      "chapter_number": 19,
       "section": ""
     }
   ]

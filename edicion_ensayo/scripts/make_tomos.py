@@ -2,9 +2,9 @@
 """Genera los TOC de los dos tomos de tapa dura a partir de toc_ensayo.json:
 
   toc_tomo1_ensayo.json    El Horizonte Interior. Ensayo (tomo I): capítulos 0-35,
-                           Cuarta parte (54-55 pasan a 36-37), epílogo y apéndices.
-  toc_tomo2_lecturas.json  Lecturas topológicas (tomo II): los capítulos 36-53
-                           como «Lectura 1-18».
+                           Cuarta parte (55-56 pasan a 36-37), epílogo y apéndices.
+  toc_tomo2_lecturas.json  Lecturas topológicas (tomo II): los capítulos 36-54
+                           como «Lectura 1-19».
 
 KDP no admite tapa dura de más de 550 páginas y el volumen único pasa de 770.
 El texto fuente ya lleva la numeración del volumen único; aquí solo se corrigen,
@@ -28,35 +28,35 @@ def key(ch):
 
 LECT = [c for c in toc["chapters"] if fm(c).get("section") == "LECTURAS TOPOLÓGICAS"]
 ENS = [c for c in toc["chapters"] if fm(c).get("section") != "LECTURAS TOPOLÓGICAS"]
-NUM_LECT = {int(fm(c)["chapterNumber"]): i + 1 for i, c in enumerate(LECT)}   # 36..53 -> 1..18
+NUM_LECT = {int(fm(c)["chapterNumber"]): i + 1 for i, c in enumerate(LECT)}   # 36..54 -> 1..19
 
 # ---- tomo I ---------------------------------------------------------------
-# El texto fuente usa la numeración del volumen único (0-55); aquí solo se
-# corrige lo que cambia al partir el libro: la cuarta parte (54-55) pasa a
+# El texto fuente usa la numeración del volumen único (0-56); aquí solo se
+# corrige lo que cambia al partir el libro: la cuarta parte (55-56) pasa a
 # 36-37 y las remisiones a las lecturas apuntan al segundo tomo.
 def t1(pares):
-    return [(a, a.replace("capítulo 54", "capítulo 36").replace("capítulo 55", "capítulo 37")) for a in pares]
+    return [(a, a.replace("capítulo 55", "capítulo 36").replace("capítulo 56", "capítulo 37")) for a in pares]
 
 T1 = {
     "cap_nota_autor.es.md": [
         ("El capítulo 49 lleva esa pregunta a la ficción",
          "La lectura «Cinco espejos de ficción», en el tomo de *Lecturas topológicas*, lleva esa pregunta a la ficción")],
-    "cap17_5_real.es.md": t1(["como veremos en el capítulo 54,"]),
+    "cap17_5_real.es.md": t1(["como veremos en el capítulo 55,"]),
     "cap_religiones_comparadas.es.md": t1([
-        "El capítulo 54 lo dirá con claridad: la ética",
-        "como se verá en el capítulo 54), cada",
-        "De las tres opciones que el capítulo 54 dejará abiertas",
-        "lo que este mismo libro hará explícitamente en el capítulo 54",
-        "leer el mapa del capítulo 54",
-        "como mostrará el capítulo 55, sobre la práctica,",
-        "No puede: como establece el capítulo 54,",
-        "como dirá el capítulo 54,",
+        "El capítulo 55 lo dirá con claridad: la ética",
+        "como se verá en el capítulo 55), cada",
+        "De las tres opciones que el capítulo 55 dejará abiertas",
+        "lo que este mismo libro hará explícitamente en el capítulo 55",
+        "leer el mapa del capítulo 55",
+        "como mostrará el capítulo 56, sobre la práctica,",
+        "No puede: como establece el capítulo 55,",
+        "como dirá el capítulo 55,",
     ]),
-    "cap_tres_puertas.es.md": t1(["Es la pregunta que el capítulo 54 retomará"]),
-    "prologo.es.md": [("Entre la tercera y la cuarta, dieciocho lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
+    "cap_tres_puertas.es.md": t1(["Es la pregunta que el capítulo 55 retomará"]),
+    "prologo.es.md": [("Entre la tercera y la cuarta, diecinueve lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
                        "Un segundo tomo, *Lecturas topológicas*, lleva las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.")],
-    "cap19_real.es.md": [("**Nota al Capítulo 54**", "**Nota al Capítulo 36**")],
-    "cap20_real.es.md": [("**Nota al Capítulo 55**", "**Nota al Capítulo 37**")],
+    "cap19_real.es.md": [("**Nota al Capítulo 55**", "**Nota al Capítulo 36**")],
+    "cap20_real.es.md": [("**Nota al Capítulo 56**", "**Nota al Capítulo 37**")],
 }
 NUM_T1 = {"cap19_real.es.md": 36, "cap20_real.es.md": 37}
 
@@ -67,6 +67,9 @@ T2 = {
     "cap_lenguaje_entrelazamiento.es.md": [("(capítulo 38)", "(lectura 3)"),
                                            ("ya citado en el capítulo 44", "ya citado en la lectura 9")],
     "cap_calibracion.es.md": [("El capítulo 44 describió la traducción", "La lectura 9 describió la traducción")],
+    "cap_nave_de_barro.es.md": [("la lectura sobre el terror cósmico, en el capítulo 40,", "la lectura sobre el terror cósmico, la 5,"),
+                                ("la misma conclusión a la que llegó el capítulo 47", "la misma conclusión a la que llegó la lectura 12"),
+                                ("lo que el capítulo 40 llamaba gafas de eclipse", "lo que la lectura 5 llamaba gafas de eclipse")],
 }
 
 # ---- volumen único: el texto fuente ya lleva su numeración --------------------
@@ -99,7 +102,7 @@ t2 = dict(base, title="Lecturas topológicas", subtitle="El Horizonte Interior �
           running_title="LECTURAS TOPOLÓGICAS", chapter_word="Lectura", gutter_in=0.62,
           uid="urn:uuid:el-horizonte-interior-tomo2-lecturas-es",
           cover_image="imagenes/El_Horizonte_Interior_Tomo2_Lecturas_cubierta_ebook.jpg",
-          credits=["Segundo tomo de El Horizonte Interior: dieciocho lecturas que llevan las ideas del "
+          credits=["Segundo tomo de El Horizonte Interior: diecinueve lecturas que llevan las ideas del "
                    "ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a "
                    "capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."])
 t2["chapters"] = []

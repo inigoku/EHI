@@ -87,6 +87,8 @@ Einstein, A. (1924). Quantentheorie des einatomigen idealen Gases. *Sitzungsberi
 
 Einstein, A., Podolsky, B., & Rosen, N. (1935). Can Quantum-Mechanical Description of Physical Reality be Considered Complete? *Physical Review*, 47(10).
 
+Ende, M. (1979). *Die unendliche Geschichte*. Thienemann. (Trad. esp.: *La historia interminable*, Alfaguara, 1982).
+
 Event Horizon Telescope Collaboration. (2019). First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole. *The Astrophysical Journal Letters*, 875(1).
 
 Event Horizon Telescope Collaboration. (2022). First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way. *The Astrophysical Journal Letters*, 930(2).
@@ -223,6 +225,10 @@ van der Kolk, B. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the
 
 Volkow, N.D., et al. (2016). Neurobiologic Advances from the Brain Disease Model of Addiction. *New England Journal of Medicine*, 374(4).
 
+Weil, S. (1947). *La Pesanteur et la grâce*. Plon. (Trad. esp.: *La gravedad y la gracia*, Trotta, 1994).
+
+Williams, P. (2009). *Mahayana Buddhism: The Doctrinal Foundations* (2.ª ed.). Routledge.
+
 Winnicott, D.W. (1971). *Playing and Reality*. Tavistock Publications.
 
 Wootters, W.K., & Zurek, W.H. (1982). A single quantum cannot be cloned. *Nature*, 299.
@@ -232,7 +238,6 @@ Zhuangzi. *Zhuangzi* (caps. 2 y 7). Ed. de I. Preciado Idoeta, Kairós (1996).
 Zimbardo, P.G. (1969). The human choice: Individuation, reason, and order versus deindividuation, impulse, and chaos. *Nebraska Symposium on Motivation*, 17.
 
 Zurek, W.H. (2003). Decoherence, einselection, and the quantum origins of the classical. *Reviews of Modern Physics*, 75(3).
-
 
 ---
 

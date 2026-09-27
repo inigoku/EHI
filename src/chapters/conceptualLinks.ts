@@ -35,6 +35,7 @@ export const conceptualLinks: ConceptualLink[] = [
   { fromId: "cap_tres_puertas", toId: "cap13" },
   { fromId: "cap_diapason_invisible", toId: "cap17_5_real" },
   { fromId: "cap_realidad_fractal", toId: "cap18_7" },
+  { fromId: "cap_nave_de_barro", toId: "cap_diapason_invisible" },
   { fromId: "cap_ojo_un_solo_color", toId: "cap17_5_real" },
 ];
 

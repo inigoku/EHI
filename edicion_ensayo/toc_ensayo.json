@@ -168,7 +168,8 @@
     "il_relevo_patron": "../src/assets/images/il_relevo_patron.jpg",
     "il_relevo_entrelazamiento": "../src/assets/images/il_relevo_entrelazamiento.jpg",
     "il_teoria_informacion": "../src/assets/images/il_teoria_informacion.jpg",
-    "il_tres_puertas": "../src/assets/images/il_tres_puertas.jpg"
+    "il_tres_puertas": "../src/assets/images/il_tres_puertas.jpg",
+    "il_nave_barro": "../src/assets/images/il_nave_barro.jpg"
   },
   "chapters": [
     {
@@ -398,6 +399,10 @@
     {
       "id": "cap_realidad_fractal",
       "content_file": "../content/lecturas/cap_realidad_fractal.es.md"
+    },
+    {
+      "id": "cap_nave_de_barro",
+      "content_file": "../content/lecturas/cap_nave_de_barro.es.md"
     },
     {
       "id": "cap19_real",

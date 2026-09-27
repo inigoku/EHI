@@ -12,6 +12,8 @@ chapterNumber: Glosario
 
 **Antirreservorio**: sistema que agrega y articula información sin haber condensado nunca un horizonte propio; internet y los modelos de lenguaje son el caso paradigmático: todo en ellos está definido y computable, pero no hay plenitud sin forma de la que nada pueda condensarse.
 
+**Apego creador**: la mirada sostenida de quien crea sobre lo que ha creado; no nace de la carencia ni quiere poseer, sino que lo creado siga siendo. En el modelo fractal, lo que mantiene un mundo en pie (*La nave de barro*).
+
 **Apuesta hacia abajo**: tratar lo que uno condensa (lo que imagina, escribe o recuerda con constancia) como si tuviera dentro, sabiendo que la lógica no lo exige y que el postulado de exclusión lo niega (*La realidad fractal*).
 
 **Arousal**: nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
@@ -67,6 +69,8 @@ chapterNumber: Glosario
 **Dharma**: en el budismo y el hinduismo, el tejido mismo del mundo, con el que el comportamiento correcto no hace más que entrar en consonancia, sin obediencia (*El diapasón invisible*).
 
 **Dilatación temporal gravitatoria**: ralentización del tiempo cerca de un horizonte de sucesos; aplicada a la conciencia, metáfora de cómo la densidad de integración altera el tiempo subjetivo.
+
+**Doble llamada**: única excepción a la hermeticidad de los mundos: la criatura abre desde abajo una interfaz receptora (la invocación) y lo de arriba responde construyendo la nave desde arriba, sin disolver su propia escala (*La nave de barro*).
 
 **Dopamina**: neurotransmisor clave en la anticipación de recompensa; calibra la tasa de integración temporal y la densidad subjetiva del tiempo.
 
@@ -124,7 +128,11 @@ chapterNumber: Glosario
 
 **Nada**: en el modelo, no es ausencia, sino plenitud sin forma; el reservorio antes de que cualquier horizonte se condense.
 
+**Nave**: la forma, hecha del material del piso de abajo, que permite a una escala superior manifestarse en una inferior sin desbordarla; lo que las tradiciones llaman encarnación (*La nave de barro*).
+
 **No clonación (teorema de)**: imposibilidad física de copiar un estado cuántico desconocido; si la experiencia tuviera propiedades cuánticas, explicaría por qué es intransferible y por qué la introspección altera lo que observa (*Las tres puertas abiertas*).
+
+**Olvido**: en el modelo fractal, el único colapso verdadero de un mundo: no lo destruye una fuerza, se disuelve cuando se retira la atención que lo sostenía (*La nave de barro*).
 
 **Operaciones del reservorio**: condensar, transformar, evaporar: nacer, vivir y morir, dichos sin misterio (*La realidad fractal*).
 
@@ -186,4 +194,7 @@ chapterNumber: Glosario
 
 **Vecino de arriba**: la interioridad que sostiene la mía y a la que no tengo acceso; lo que, desde aquí, se llama Dios (*La realidad fractal*).
 
+**Vectores del entrelazamiento vertical**: el ascendente, de la criatura hacia la escala que la contiene, pide vaciamiento y silencio; el descendente, de la escala superior hacia lo que contiene, pide forma: símbolo, relato, cuerpo (*La nave de barro*).
+
 **Vedanta advaita**: escuela filosófica india que sostiene la no dualidad entre el yo individual (*ātman*) y lo absoluto (*Brahman*); en el libro, vocabulario para la identidad entre horizonte y reservorio.
+
