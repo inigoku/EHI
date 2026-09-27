@@ -1,6 +1,6 @@
 # El Horizonte Interior — edición íntegra del ensayo (6 × 9", tapa dura)
 
-Los 54 capítulos numerados del ensayo (Primera a Cuarta Parte, incluidas las
+Los 56 capítulos numerados del ensayo (Primera a Cuarta Parte, incluidas las
 lecturas topológicas y los capítulos de los cuatro últimos libros) más el
 prólogo, el interludio y el aparato final (epílogo, glosario, nota del autor,
 notas y referencias), montados como libro independiente para tapa dura de
@@ -9,7 +9,7 @@ Amazon KDP. No incluye los cuentos ni los poemas: es el ensayo solo, completo.
 ## Qué hay aquí
 
     El_Horizonte_Interior_Ensayo_6x9.pdf   el interior, 770 páginas, 6 × 9" (~15 MB)
-    El_Horizonte_Interior_Ensayo.epub      el epub, 61 pantallas, 72 imágenes
+    El_Horizonte_Interior_Ensayo.epub      el epub, 63 pantallas, 72 imágenes
     toc_ensayo.json                        la tabla de contenidos + mapa de ilustraciones
     scripts/build_interior_premium.py      genera el interior (maqueta "chulo")
     scripts/build_epub_ensayo.py           genera el epub a partir del TOC
@@ -126,13 +126,21 @@ KDP no admite tapa dura de más de 550 páginas; el volumen único tiene 770.
     python3 scripts/build_cover.py --tomo 1
     python3 scripts/build_cover.py --tomo 2
 
-`make_tomos.py` renumera (52-53 -> 34-35 en el tomo I; 34-51 -> lecturas 1-18 en el
+`make_tomos.py` renumera (54-55 -> 36-37 en el tomo I; 36-53 -> lecturas 1-18 en el
 tomo II) y corrige, con el campo `replace` de cada capítulo del TOC, las referencias
-cruzadas: las que cambian al partir el libro y las que ya estaban mal en el volumen
-único, heredadas de la numeración de la web («capítulo 43» por la ética, que es el
-52; «capítulo 51» por El entrelazamiento vertical, que es el 29; «capítulo 23» por la
-encapsulación, que es el 3; etc.). Esas mismas correcciones van en `toc_ensayo.json`
-y ya están aplicadas al volumen único (PDF y EPUB).
+cruzadas que cambian al partir el libro. El texto fuente de `content/` ya lleva la
+numeración del volumen único (las remisiones que antes arrastraban la numeración
+vieja de la web se corrigieron en el propio texto), así que `toc_ensayo.json` no
+necesita reemplazos.
+
+### Capítulos 33 y 34 (teoría de la información)
+
+«La teoría de la información y el horizonte interior» y «Las tres puertas abiertas»
+cierran la tercera parte, antes de «El que queda», que pasa a ser el 35. Sus láminas
+(`il_teoria_informacion`, `il_tres_puertas`) apuntan en `toc_ensayo.json` a
+`src/assets/images/il_teoria_informacion.jpg` e `il_tres_puertas.jpg`: mientras no
+existan, el libro sale sin esas dos láminas (el maquetador avisa y sigue). En la web
+hay que registrarlas además en `src/components/IllustrationViewer.tsx`.
 
 ### Los tomos sin ilustraciones (tapa blanda B/N y EPUB)
 

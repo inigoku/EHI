@@ -67,6 +67,8 @@ Coan, J.A., & Beckes, L. (2011). Social baseline theory. In: *Handbook of Person
 
 Coan, J.A., & Sbarra, D.A. (2015). Social baseline theory: The social regulation of risk and effort. *Current Opinion in Psychology*, 1.
 
+Cover, T.M., & Thomas, J.A. (2006). *Elements of Information Theory* (2.ª ed.). Wiley.
+
 Csikszentmihalyi, M. (1990). *Flow: The Psychology of Optimal Experience*. Harper & Row.
 
 Damasio, A. (1999). *The Feeling of What Happens: Body and Emotion in the Making of Consciousness*. Harcourt Brace.
@@ -76,6 +78,8 @@ Deacon, T.W. (2011). *Incomplete Nature: How Mind Emerged from Matter*. W.W. Nor
 Decety, J. (2011). The Neuroevolution of Empathy. *Annals of the New York Academy of Sciences*, 1231(1).
 
 Dehaene, S. (2014). *Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts*. Viking.
+
+Dieks, D. (1982). Communication by EPR devices. *Physics Letters A*, 92(6).
 
 Eagleman, D.M. (2009). Brain Time. In: *What's Next? Dispatches on the Future of Science*. Vintage.
 
@@ -112,6 +116,8 @@ Hawking, S.W. (1974). Black Hole Explosions? *Nature*, 248(5443).
 Hawking, S.W. (1992). Chronology protection conjecture. *Physical Review D*, 46(2).
 
 Hawking, S.W., Perry, M.J., & Strominger, A. (2016). Soft Hair on Black Holes. *Physical Review Letters*, 116(23).
+
+Hayden, P., & Preskill, J. (2007). Black holes as mirrors: Quantum information in random subsystems. *Journal of High Energy Physics*, 2007(09).
 
 Hazan, C., & Shaver, P. (1987). Romantic Love Conceptualized as an Attachment Process. *Journal of Personality and Social Psychology*, 52(3).
 
@@ -173,13 +179,19 @@ Schwarzschild, K. (1916). Über das Gravitationsfeld eines Massenpunktes nach de
 
 Searle, J.R. (1980). Minds, brains, and programs. *Behavioral and Brain Sciences*, 3(3).
 
+Sekino, Y., & Susskind, L. (2008). Fast scramblers. *Journal of High Energy Physics*, 2008(10).
+
 Seth, A. (2021). *Being You: A New Science of Consciousness*. Dutton.
+
+Shannon, C.E. (1948). A Mathematical Theory of Communication. *Bell System Technical Journal*, 27(3).
 
 Silberman, S. (2015). *NeuroTribes: The Legacy of Autism and the Future of Neurodiversity*. Avery.
 
 Singer, T., & Klimecki, O.M. (2014). Empathy and compassion. *Current Biology*, 24(18).
 
 Sloterdijk, P. (1998-2004). *Esferas (I, II, III)*. Siruela.
+
+Stephens, G.J., Silbert, L.J., & Hasson, U. (2010). Speaker–listener neural coupling underlies successful communication. *Proceedings of the National Academy of Sciences*, 107(32).
 
 Stroebe, M., & Schut, H. (1999). The dual process model of coping with bereavement: Rationale and description. *Death Studies*, 23(3).
 
@@ -192,6 +204,8 @@ Tegmark, M. (2017). *Life 3.0: Being Human in the Age of Artificial Intelligence
 Thorne, K.S. (1994). *Black Holes and Time Warps: Einstein's Outrageous Legacy*. W.W. Norton.
 
 Tolkien, J.R.R. (1947). On Fairy-Stories. In: *Essays Presented to Charles Williams*. Oxford University Press.
+
+Tononi, G. (2004). An information integration theory of consciousness. *BMC Neuroscience*, 5, 42.
 
 Tononi, G. (2008). Consciousness as integrated information: A provisional manifesto. *The Biological Bulletin*, 215(3).
 
@@ -211,11 +225,14 @@ Volkow, N.D., et al. (2016). Neurobiologic Advances from the Brain Disease Model
 
 Winnicott, D.W. (1971). *Playing and Reality*. Tavistock Publications.
 
+Wootters, W.K., & Zurek, W.H. (1982). A single quantum cannot be cloned. *Nature*, 299.
+
 Zhuangzi. *Zhuangzi* (caps. 2 y 7). Ed. de I. Preciado Idoeta, Kairós (1996).
 
 Zimbardo, P.G. (1969). The human choice: Individuation, reason, and order versus deindividuation, impulse, and chaos. *Nebraska Symposium on Motivation*, 17.
 
 Zurek, W.H. (2003). Decoherence, einselection, and the quantum origins of the classical. *Reviews of Modern Physics*, 75(3).
+
 
 ---
 

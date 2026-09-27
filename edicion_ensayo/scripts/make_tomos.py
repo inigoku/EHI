@@ -1,15 +1,15 @@
 #!/usr/bin/env python3
 """Genera los TOC de los dos tomos de tapa dura a partir de toc_ensayo.json:
 
-  toc_tomo1_ensayo.json    El Horizonte Interior. Ensayo (tomo I): capítulos 0-33,
-                           Cuarta parte (52-53 pasan a 34-35), epílogo y apéndices.
-  toc_tomo2_lecturas.json  Lecturas topológicas (tomo II): los capítulos 34-51
+  toc_tomo1_ensayo.json    El Horizonte Interior. Ensayo (tomo I): capítulos 0-35,
+                           Cuarta parte (54-55 pasan a 36-37), epílogo y apéndices.
+  toc_tomo2_lecturas.json  Lecturas topológicas (tomo II): los capítulos 36-53
                            como «Lectura 1-18».
 
-KDP no admite tapa dura de más de 550 páginas y el volumen único tiene 790.
-Además corrige las referencias cruzadas heredadas de la numeración de la web,
-que ya estaban mal en el volumen único (FIXES_COMUNES) y las que cambian al
-partir el libro (por tomo).
+KDP no admite tapa dura de más de 550 páginas y el volumen único pasa de 770.
+El texto fuente ya lleva la numeración del volumen único; aquí solo se corrigen,
+con el campo `replace` de cada capítulo, las referencias que cambian al partir
+el libro.
 
     python3 scripts/make_tomos.py     (desde edicion_ensayo/)
 """
@@ -28,51 +28,49 @@ def key(ch):
 
 LECT = [c for c in toc["chapters"] if fm(c).get("section") == "LECTURAS TOPOLÓGICAS"]
 ENS = [c for c in toc["chapters"] if fm(c).get("section") != "LECTURAS TOPOLÓGICAS"]
-NUM_LECT = {int(fm(c)["chapterNumber"]): i + 1 for i, c in enumerate(LECT)}   # 34..51 -> 1..18
+NUM_LECT = {int(fm(c)["chapterNumber"]): i + 1 for i, c in enumerate(LECT)}   # 36..53 -> 1..18
 
 # ---- tomo I ---------------------------------------------------------------
+# El texto fuente usa la numeración del volumen único (0-55); aquí solo se
+# corrige lo que cambia al partir el libro: la cuarta parte (54-55) pasa a
+# 36-37 y las remisiones a las lecturas apuntan al segundo tomo.
+def t1(pares):
+    return [(a, a.replace("capítulo 54", "capítulo 36").replace("capítulo 55", "capítulo 37")) for a in pares]
+
 T1 = {
     "cap_nota_autor.es.md": [
-        ("El capítulo 47 lleva esa pregunta a la ficción",
+        ("El capítulo 49 lleva esa pregunta a la ficción",
          "La lectura «Cinco espejos de ficción», en el tomo de *Lecturas topológicas*, lleva esa pregunta a la ficción")],
-    "cap17_5_real.es.md": [("como vimos en el capítulo 40,", "como veremos en el capítulo 34,")],
-    "cap_religiones_comparadas.es.md": [
-        ("El experimento ya dijo, en el capítulo 43, que la ética", "El capítulo 34 lo dirá con claridad: la ética"),
-        ("Cuando el capítulo 43 señaló el *is-ought gap* de Hume —que ningún «es» produce por sí solo un «debería»—",
-         "Ante el *is-ought gap* de Hume —que ningún «es» produce por sí solo un «debería», como se verá en el capítulo 34—"),
-        ("De las tres opciones que el capítulo 43 dejó abiertas", "De las tres opciones que el capítulo 34 dejará abiertas"),
-        ("lo que este mismo libro hizo explícitamente en el capítulo 43", "lo que este mismo libro hará explícitamente en el capítulo 34"),
-        ("leer el mapa del capítulo 43", "leer el mapa del capítulo 34"),
-        ("como mostró el capítulo 44 anterior sobre la práctica,", "como mostrará el capítulo 35, sobre la práctica,"),
-        ("El capítulo 51, «El entrelazamiento vertical», lo desarrolla", "El capítulo 29, «El entrelazamiento vertical», lo desarrolla"),
-        ("No puede: el capítulo 43 ya estableció que", "No puede: como establece el capítulo 34,"),
-        ("como dijo el capítulo 43,", "como dirá el capítulo 34,"),
-    ],
+    "cap17_5_real.es.md": t1(["como veremos en el capítulo 54,"]),
+    "cap_religiones_comparadas.es.md": t1([
+        "El capítulo 54 lo dirá con claridad: la ética",
+        "como se verá en el capítulo 54), cada",
+        "De las tres opciones que el capítulo 54 dejará abiertas",
+        "lo que este mismo libro hará explícitamente en el capítulo 54",
+        "leer el mapa del capítulo 54",
+        "como mostrará el capítulo 55, sobre la práctica,",
+        "No puede: como establece el capítulo 54,",
+        "como dirá el capítulo 54,",
+    ]),
+    "cap_tres_puertas.es.md": t1(["Es la pregunta que el capítulo 54 retomará"]),
     "prologo.es.md": [("Entre la tercera y la cuarta, dieciocho lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
                        "Un segundo tomo, *Lecturas topológicas*, lleva las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.")],
-    "cap19_real.es.md": [("**Nota al Capítulo 52**", "**Nota al Capítulo 34**")],
-    "cap20_real.es.md": [("**Nota al Capítulo 53**", "**Nota al Capítulo 35**")],
+    "cap19_real.es.md": [("**Nota al Capítulo 54**", "**Nota al Capítulo 36**")],
+    "cap20_real.es.md": [("**Nota al Capítulo 55**", "**Nota al Capítulo 37**")],
 }
-NUM_T1 = {"cap19_real.es.md": 34, "cap20_real.es.md": 35}
+NUM_T1 = {"cap19_real.es.md": 36, "cap20_real.es.md": 37}
 
 # ---- tomo II --------------------------------------------------------------
 T2 = {
-    "cap_blade_runner.es.md": [("En el capítulo 34, al hablar", "En la lectura 1, al hablar"),
-                               ("(Capítulo 34)", "(lectura 1)")],
-    "cap_lenguaje_entrelazamiento.es.md": [("(capítulo 36)", "(lectura 3)"),
-                                           ("ya citado en el capítulo 42", "ya citado en la lectura 9")],
-    "cap_calibracion.es.md": [("El capítulo 23 describió la encapsulación", "El capítulo 3 describió la encapsulación"),
-                              ("El capítulo 38 describió la traducción", "La lectura 9 describió la traducción"),
-                              ("lo que el capítulo 11 describió como vínculo madre-hijo", "lo que el capítulo 15 describió como vínculo madre-hijo")],
+    "cap_blade_runner.es.md": [("En el capítulo 36, al hablar", "En la lectura 1, al hablar"),
+                               ("(Capítulo 36)", "(lectura 1)")],
+    "cap_lenguaje_entrelazamiento.es.md": [("(capítulo 38)", "(lectura 3)"),
+                                           ("ya citado en el capítulo 44", "ya citado en la lectura 9")],
+    "cap_calibracion.es.md": [("El capítulo 44 describió la traducción", "La lectura 9 describió la traducción")],
 }
 
-# ---- volumen único: mismas correcciones con la numeración de 54 capítulos ----
-UNICO = {
-    "cap17_5_real.es.md": [("como vimos en el capítulo 40,", "como veremos en el capítulo 52,")],
-    "cap_religiones_comparadas.es.md": [(a, b.replace("capítulo 34", "capítulo 52").replace("capítulo 35", "capítulo 53"))
-                                        for a, b in T1["cap_religiones_comparadas.es.md"]],
-    "cap_calibracion.es.md": [(a, b.replace("La lectura 9", "El capítulo 42")) for a, b in T2["cap_calibracion.es.md"]],
-}
+# ---- volumen único: el texto fuente ya lleva su numeración --------------------
+UNICO = {}
 
 def with_replace(ch, table, extra=()):
     ch = copy.deepcopy(ch)

@@ -2,7 +2,7 @@
 title: LA CAVERNA DE SILICIO Y LA ANOMALÍA VIRAL
 subtitle: (Una lectura topológica de The Matrix)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 39
+chapterNumber: 41
 illustrationId: il_matrix
 illustrationTitle: La caverna de silicio
 illustrationDescription: Un cuerpo humano suspendido en una cápsula cibernética dorada cuyas conexiones se extienden como raíces en una torre de servidores, bajo una lluvia de códigos binarios.
@@ -91,7 +91,7 @@ Al volver al Ávalon del código fuente, Neo garantiza que el «agua» del próx
 
 ---
 
-> **Nota al Capítulo 39**
+> **Nota al Capítulo 41**
 >
 > **Lo que sí sabemos:** En el modelo de la información integrada, Φ solo alcanza valores altos si coexisten integración y diferenciación; la homogeneidad masiva lo destruye. Durante la privación sensorial extrema, el cerebro reorganiza su integración hacia patrones endógenos.
 >

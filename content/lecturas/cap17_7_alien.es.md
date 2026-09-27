@@ -1,7 +1,7 @@
 ---
 title: HORIZONTES ALIENÍGENAS Y EL PRIMER CONTACTO
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 36
+chapterNumber: 38
 illustrationId: il17_7_alien
 illustrationTitle: Horizontes alienígenas
 illustrationDescription: Un astronauta flotando en el espacio profundo intentando tocar una nube dinámica y cambiante de nodos luminosos azules y verdes que representan una mente alienígena distribuida. Las líneas de conexión de su mano se desvanecen.
@@ -104,7 +104,7 @@ Quizá sea esta la versión más quieta y más completa de la soledad topológic
 
 ---
 
-> **Nota al Capítulo 36**
+> **Nota al Capítulo 38**
 >
 > **Lo que sí sabemos:** La biología terrestre está determinada por principios darwinianos de supervivencia, que moldean nuestras respuestas interoceptivas y nuestra noción de individuo. La integración de información (Φ) varía mucho según la topología de la red neuronal (por ejemplo, entre cerebros centralizados y sistemas distribuidos como los de los cefalópodos). La ecuación de Drake incluye expresamente un parámetro de duración (L) que reconoce que la detectabilidad tecnológica es una ventana temporal finita, no un estado permanente.
 >

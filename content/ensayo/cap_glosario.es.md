@@ -32,7 +32,11 @@ chapterNumber: Glosario
 
 **Burnout empático**: colapso del horizonte por sobrecarga de información ajena; se produce cuando la empatía supera el límite estructural de integración.
 
+**Canal cerrado**: sistema que integra información sin transmitirla hacia fuera; en el modelo, lo que distingue un horizonte de conciencia de un ordenador, que es un canal abierto (*La teoría de la información y el horizonte interior*).
+
 **Caos determinista**: lo que ocurre cuando un sistema obedece leyes exactas y aun así se vuelve impredecible, porque nadie puede medir sus condiciones iniciales con precisión infinita; el problema de los tres cuerpos es el caso clásico (*El tiempo que no pasa*).
+
+**Capacidad de canal**: cantidad máxima de información que un canal puede transmitir con un error tan pequeño como se quiera; por analogía, el límite de integración que impone la arquitectura de un horizonte (*La teoría de la información y el horizonte interior*).
 
 **Chikhai**: primera fase del *Bardo* tibetano, inmediatamente posterior a la muerte; equivalente en el modelo al destello gamma terminal y la contracción máxima del horizonte.
 
@@ -76,6 +80,8 @@ chapterNumber: Glosario
 
 **Entrelazamiento vertical**: correlación sostenida entre un horizonte y algo más allá de su frontera, sin canal de confirmación observable; nombre que el libro da a la oración, la meditación y la práctica contemplativa (*El diapasón invisible*).
 
+**Entropía de Shannon**: medida de la incertidumbre de una fuente de información; cuanto menos esperable es un mensaje, más información aporta (*La teoría de la información y el horizonte interior*).
+
 **ER=EPR**: conjetura de Maldacena y Susskind según la cual el entrelazamiento cuántico (EPR) equivale a un puente de Einstein-Rosen (ER).
 
 **Espejo**: lo que devuelve tu forma exacta sin haberla sentido nunca; imagen de los sistemas que imitan la interioridad sin encapsulación existencial (*El espejo sin profundidad*).
@@ -106,6 +112,8 @@ chapterNumber: Glosario
 
 **Información integrada (Φ)**: medida de cuánta información genera un sistema como un todo, por encima de la suma de sus partes.
 
+**Información mutua**: reducción de incertidumbre sobre un sistema que se obtiene al conocer otro; simétrica y nunca negativa, es la medida que el libro propone para la profundidad de un vínculo, condición necesaria pero no suficiente para que esté habitado (*Las tres puertas abiertas*).
+
 **Interfaz**: todo lo que un sistema puede enseñar hacia fuera sin que haya nada detrás; en la parábola de Hun Dun, la cara sin rasgos que el fondo presenta hacia un horizonte y que muere cuando el horizonte abre los ojos, sin que el fondo pierda nada (*El espejo sin profundidad*, *La realidad fractal*).
 
 **Interocepción**: lectura consciente de las señales viscerales del propio cuerpo; condición necesaria para la empatía según el modelo.
@@ -115,6 +123,8 @@ chapterNumber: Glosario
 **Línea de base social**: estado de referencia del cerebro humano que presupone el acceso a otros; cuando alguien cercano está presente, el cerebro asigna menos recursos a la detección de amenazas.
 
 **Nada**: en el modelo, no es ausencia, sino plenitud sin forma; el reservorio antes de que cualquier horizonte se condense.
+
+**No clonación (teorema de)**: imposibilidad física de copiar un estado cuántico desconocido; si la experiencia tuviera propiedades cuánticas, explicaría por qué es intransferible y por qué la introspección altera lo que observa (*Las tres puertas abiertas*).
 
 **Operaciones del reservorio**: condensar, transformar, evaporar: nacer, vivir y morir, dichos sin misterio (*La realidad fractal*).
 

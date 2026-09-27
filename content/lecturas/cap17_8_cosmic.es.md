@@ -1,7 +1,7 @@
 ---
 title: GEOMETRÍAS NO EUCLIDIANAS Y EL TERROR CÓSMICO
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 38
+chapterNumber: 40
 linkedCuentosId: cuento_mussara
 illustrationId: il17_8_cosmic
 illustrationTitle: Geometrías no euclidianas
@@ -125,7 +125,7 @@ En esta lectura, lo sagrado no es lo opuesto a lo científico ni a lo racional, 
 
 ---
 
-> **Nota al Capítulo 38**
+> **Nota al Capítulo 40**
 >
 > **Lo que sí sabemos:** El terror cósmico de H. P. Lovecraft y la correspondencia AdS/CFT coinciden en sugerir que la percepción tridimensional podría ser el filtro de una estructura de dimensión superior. La teoría de la información integrada predice la saturación del sistema por sobrecarga de datos. El sueño, incluso en cerebros humanos corrientes, produce una caída medible y bien documentada de la conectividad funcional global respecto a la vigilia. La experiencia de lo sublime, descrita por Kant y estudiada por la psicología de las emociones, produce asombro antes que terror precisamente cuando el objeto inconmensurable se percibe desde una distancia que amortigua la señal. Los sistemas de amortiguación cultural (ritual, mito, tabú, práctica contemplativa) han existido en todas las culturas conocidas como mecanismos para gestionar el contacto con lo que desborda la arquitectura individual.
 >

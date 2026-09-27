@@ -2,7 +2,7 @@
 title: HISTORIA DE UN RELEVO
 subtitle: (La idea que cruzó todos los horizontes)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 41
+chapterNumber: 43
 illustrationId: il_relevo_patron
 illustrationTitle: El patrón que se transmite
 illustrationDescription: Un campo de fútbol de noche, visto desde arriba bajo los focos del estadio. De la silueta de un jugador arrodillado en el centro, celebrando, se eleva una onda de luz dorada que se ramifica como raíces invertidas, atravesando otras siluetas de jugadores con camisetas de épocas distintas, hasta perderse en un cielo estrellado. Ningún rostro es reconocible: solo la silueta y la misma luz atravesándolos a todos por igual.
@@ -101,7 +101,7 @@ Después cada uno volvió a su lado del horizonte: uno hacia la evaporación, se
 
 ---
 
-> **Nota al Capítulo 41**
+> **Nota al Capítulo 43**
 >
 > **Lo que sí sabemos:** El modelo de información integrada (Φ) exige la coexistencia de integración y diferenciación para alcanzar un valor alto; una totalidad irreducible no puede desmontarse en piezas sin dejar de ser lo que era. La genealogía de banquillos está documentada: Cruyff refunda La Masia como estructura en 1988; Guardiola la amplifica desde 2008; Del Bosque alinea la columna azulgrana y gana Sudáfrica 2010; Luis Enrique gana un triplete con el Barça en 2015 y dos Champions con el PSG en 2025 y 2026; Xavi fracasa y Flick restaura el estilo; De la Fuente gana la Eurocopa de 2024 y el Mundial de 2026. La genealogía de jugadores es igual de verificable: Xavi, Busquets y Rodri ocupan la misma posición en generaciones distintas; la selección femenina gana su Mundial en 2023 con canteranas al mando. La fotografía de Messi bañando a Yamal bebé, tomada en 2007, existe; el abrazo del 19 de julio de 2026, también.
 >
