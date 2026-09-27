@@ -3,6 +3,7 @@ title: LA NAVE DE BARRO
 subtitle: (Encarnación, entrelazamiento vertical y geometría del amor; continuación de La realidad fractal)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 54
+linkedCuentosId: cuento_nave_barro
 illustrationId: il_nave_barro
 illustrationTitle: La nave de barro
 illustrationDescription: Una vasija de barro sin cocer, agrietada y tibia, flota a media altura entre dos pisos de una escalera infinita; dentro de ella arde una luz demasiado grande para su tamaño, contenida sin romperla. Desde el piso de abajo, una figura diminuta alza las manos en la oscuridad; desde el de arriba desciende un hilo de luz dorada que entra en la vasija. Acuarela y tinta, tonos índigo, ocre y dorados.
@@ -31,7 +32,7 @@ El vector ascendente es el que ya describió el capítulo 29: el movimiento de l
 
 El vector descendente es el que faltaba: el movimiento desde la escala superior hacia lo que ella contiene. No pide silencio, sino forma. No se trata de aquietar la membrana, sino de esculpirla: construir una nave (un símbolo, un relato, un rito, un cuerpo) capaz de condensar y amortiguar lo que baja, para que lo de abajo pueda recibirlo sin ser arrasado. Sus técnicas son menos conocidas como tales, pero igual de antiguas: el sueño lúcido y la ensoñación en el borde del dormir; el flujo creativo, que es el simétrico exacto de la meditación (allí se inspira sin juicio, aquí se exhala la forma sin juicio); el arte, la ficción, el trazo único del pincel, el acto de nombrar. Todas comparten la estructura inversa: no reducen el ruido, crean una señal.
 
-Ninguno de los dos vectores es superior al otro. Sin el ascendente, la criatura queda encerrada en la superficie de su horizonte, sin nada más amplio con que resonar: la soledad del yo que se cree autosuficiente. Sin el descendente, lo de arriba se queda en abstracción sin cuerpo: una trascendencia estéril, un amor que no puede tocar. Subir para escuchar; bajar para responder.
+Confundirlos, intentar subir con las herramientas de bajar o bajar con las de subir, explica buena parte de los fracasos espirituales y creativos: el místico que quiere fabricar la visión a fuerza de imágenes, el artista que espera la obra en silencio sin tocar el barro. Ninguno de los dos vectores es superior al otro. Sin el ascendente, la criatura queda encerrada en la superficie de su horizonte, sin nada más amplio con que resonar: la soledad del yo que se cree autosuficiente. Sin el descendente, lo de arriba se queda en abstracción sin cuerpo: una trascendencia estéril, un amor que no puede tocar. Subir para escuchar; bajar para responder.
 
 > **En física esto se llama:** dos procesos inversos y complementarios: disminuir la entropía local de una frontera para que resuene (enfriarla) y darle forma para que transmita (modularla).  
 > **En la vida diaria es como:** una radio: para oír una emisora lejana hay que apagar el ruido de la habitación; para emitir, hay que construir una antena. Son dos gestos distintos, y ninguna radio sirve si solo sabe hacer uno.

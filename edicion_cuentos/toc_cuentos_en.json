@@ -34,7 +34,9 @@
     "cuento_sintonizadores": "imagenes/cuento_sintonizadores.png",
     "cuento_txiki": "imagenes/cuento_txiki.png",
     "cuento_ultimos_minutos": "imagenes/cuento_ultimos_minutos.png",
-    "cuento_vecino_arriba": "imagenes/cuento_vecino_arriba.png"
+    "cuento_vecino_arriba": "imagenes/cuento_vecino_arriba.png",
+    "cuento_nave_barro": "imagenes/cuento_nave_barro.png",
+    "cuento_nombre_nuevo": "imagenes/cuento_nombre_nuevo.png"
   },
   "chapters": [
     {
@@ -180,6 +182,16 @@
       "id": "cuento_vecino_arriba",
       "content_file": "../content/cuentos/cuento_vecino_arriba.en.md",
       "illustration": "cuento_vecino_arriba"
+    },
+    {
+      "id": "cuento_nave_barro",
+      "content_file": "../content/cuentos/cuento_nave_barro.en.md",
+      "illustration": "cuento_nave_barro"
+    },
+    {
+      "id": "cuento_nombre_nuevo",
+      "content_file": "../content/cuentos/cuento_nombre_nuevo.en.md",
+      "illustration": "cuento_nombre_nuevo"
     }
   ]
 }
