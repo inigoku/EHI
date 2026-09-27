@@ -93,7 +93,11 @@ Si U clona |ψ⟩ y también clona |φ⟩, la linealidad de la mecánica cuánti
 
 U((|ψ⟩ + |φ⟩)|0⟩) = |ψ⟩|ψ⟩ + |φ⟩|φ⟩
 
-Pero una copia auténtica de la superposición sería (|ψ⟩ + |φ⟩)(|ψ⟩ + |φ⟩) = |ψ⟩|ψ⟩ + |ψ⟩|φ⟩ + |φ⟩|ψ⟩ + |φ⟩|φ⟩, que no es lo mismo (hemos omitido los factores de normalización, que no cambian el argumento). La clonación de una superposición no es la superposición de las clonaciones. Por tanto, U no puede existir.
+Pero una copia auténtica de la superposición sería otra cosa:
+
+(|ψ⟩ + |φ⟩)(|ψ⟩ + |φ⟩) = |ψ⟩|ψ⟩ + |ψ⟩|φ⟩ + |φ⟩|ψ⟩ + |φ⟩|φ⟩
+
+Los dos resultados no coinciden (hemos omitido los factores de normalización, que no cambian el argumento). La clonación de una superposición no es la superposición de las clonaciones. Por tanto, U no puede existir.
 
 No es una limitación tecnológica, sino una propiedad matemática de la mecánica cuántica: no importa cuánta tecnología se ponga, un estado cuántico desconocido no se puede copiar.
 

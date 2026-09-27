@@ -82,6 +82,7 @@ def with_replace(ch, table, extra=()):
 base = {k: v for k, v in toc.items() if k != "chapters"}
 
 t1 = dict(base, subtitle="Ensayo · Tomo I", running_title="EL HORIZONTE INTERIOR", gutter_in=0.82,
+          body_leading=15.8,
           uid="urn:uuid:el-horizonte-interior-tomo1-ensayo-es",
           cover_image="imagenes/El_Horizonte_Interior_Tomo1_Ensayo_cubierta_ebook.jpg",
           credits=["Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la cuarta "
