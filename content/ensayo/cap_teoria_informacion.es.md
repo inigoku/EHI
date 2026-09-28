@@ -85,7 +85,7 @@ Eso es lo que hace el horizonte: no transmite su experiencia hacia fuera (nadie 
 
 Esa es, en este modelo, la diferencia fundamental entre un ordenador y un cerebro. El ordenador es un canal abierto: la información entra, se procesa y sale. El cerebro es un canal cerrado: la información entra, se integra y se queda dentro, generando un punto de vista que no se puede exportar.
 
-> **En teoría de la información esto se llama:** canal cerrado, un sistema que integra información sin transmitirla al exterior.
+> **En el vocabulario de este experimento esto se llama:** canal cerrado, un sistema que integra información sin transmitirla al exterior.
 
 ### La paradoja de la información, otra vez
 
