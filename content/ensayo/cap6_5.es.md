@@ -16,7 +16,7 @@ En la informática moderna, cada vez que abrimos una aplicación o cargamos una 
 
 ### El *heap* como reservorio
 
-En la arquitectura de cualquier software, la memoria dinámica se organiza en dos grandes estructuras: el *stack* (la pila de llamadas de ejecución inmediata) y el **heap** (el montón).
+En la arquitectura de cualquier software, la memoria de un programa en ejecución se reparte en dos grandes zonas: el *stack* (la pila de llamadas de ejecución inmediata) y el **heap** (el montón, donde vive la memoria dinámica).
 
 El *heap* es el equivalente digital del reservorio: una reserva de memoria continua, enorme y sin estructura. Antes de que un programa pida recursos, el *heap* es pura potencia, un océano de gigabytes vacíos sin objetos, variables, funciones ni identidades; solo un flujo indiferenciado de direcciones de memoria a la espera de que alguien escriba en ellas. Es el *Hun Dun* de la computación: un estado de máxima simetría en el que nada está delimitado y todo es posible.
 
@@ -79,4 +79,4 @@ La identidad del objeto desaparece, pero la deformación que causó en el sistem
 >
 > **Si solo te quedas con una idea:** Nacer es reservar memoria y encapsularla; morir es liberar la frontera y volver al *heap*. El abismo entre tu mente y el mundo exterior es el rasgo de una buena arquitectura que protege su estado privado tras una interfaz pública.
 >
-> **Lecturas:** Parnas (1972), «On the criteria to be used in decomposing systems into modules»; Dijkstra (1968), «Go To Statement Considered Harmful» (sobre estructura de control); Knuth (1997), «The Art of Computer Programming» (gestión de memoria dinámica).
+> **Lecturas:** Parnas (1972), «On the criteria to be used in decomposing systems into modules»; Dijkstra (1968), «Go To Statement Considered Harmful» (sobre estructura de control); Knuth (1997), *The Art of Computer Programming* (gestión de memoria dinámica).

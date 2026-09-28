@@ -1,7 +1,7 @@
 ---
 title: EL EXPERIMENTO COMO PRÁCTICA
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 54
+chapterNumber: 52
 illustrationId: il_practica
 illustrationTitle: El experimento como práctica
 illustrationDescription: Un niño construyendo castillo de arena. Torres, fosos, puentes. Al fondo, el océano que lo devorará. El niño lo sabe, y aun así construye. En la arena, huella de mano pequeña.
@@ -59,7 +59,7 @@ Los estados de absorción profunda (*jhana*, *samadhi*) llevan esto al extremo: 
 
 Pero aquí el experimento encuentra otro límite. La meditación, además de modificar la tasa de integración, es una **relación con el reservorio**, con el campo del que surge el horizonte y al que vuelve. Las tradiciones contemplativas que describen la disolución del yo no describen (solo) un cambio en la integración, sino algo que el vocabulario del horizonte no capta: la experiencia de que el horizonte, con todo su contenido, es la «proyección» de algo más fundamental que no tiene forma de horizonte.
 
-El experimento puede describirlo como el límite en que la integración sigue alta, como mostró el interludio, pero la frontera deja de separar un dentro de un fuera; esa descripción no es la experiencia, y en este terreno lo que cuenta es la experiencia.
+El experimento puede describirlo como el límite en que la integración sigue alta, como sugería el interludio, pero la frontera deja de separar un dentro de un fuera; esa descripción no es la experiencia, y en este terreno lo que cuenta es la experiencia.
 
 Hay algo más que decir de la meditación como práctica del horizonte. Muchas personas la abandonan porque esperan que les «calme la mente» y descubren que sentarse en silencio solo amplifica el ruido interior. Desde la perspectiva del horizonte es previsible: al reducir los estímulos externos, el horizonte dispone de más recursos para integrar los procesos internos que suelen quedar en segundo plano. La mente no se vuelve más ruidosa; el ruido que ya estaba se vuelve audible.
 
@@ -105,7 +105,7 @@ Todo experimento de pensamiento acaba topando con su límite en la carne de la e
 
 ---
 
-> **Nota al Capítulo 54**
+> **Nota al Capítulo 52**
 >
 > **Lo que sí sabemos:** La práctica sostenida de la meditación se asocia a cambios medibles en la estructura y la actividad cerebral. Poner nombre a una emoción reduce la reactividad de la amígdala (etiquetado afectivo, Lieberman et al., 2007).
 >

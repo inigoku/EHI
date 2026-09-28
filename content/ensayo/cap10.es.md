@@ -24,7 +24,7 @@ La voluntad es un recurso fisiológico.
 
 ### El secuestro del umbral
 
-Las sustancias adictivas inundan el sistema dopaminérgico con una señal de recompensa que puede multiplicar por diez la de cualquier recompensa natural. El horizonte no recibe un placer mayor, sino una predicción de placer tan abrumadora que recalibra todo el sistema.
+Las sustancias adictivas inundan el sistema dopaminérgico con una señal de recompensa que puede llegar a multiplicar por diez la de cualquier recompensa natural. El horizonte no recibe un placer mayor, sino una predicción de placer tan abrumadora que recalibra todo el sistema.
 
 El mecanismo es este: el sistema dopaminérgico, diseñado para señalar cuándo algo merece repetirse, recibe una señal de una magnitud que ninguna recompensa natural puede generar. Para compensar, reduce el número de receptores disponibles, igual que uno baja las persianas cuando la luz deslumbra. Cuando la señal artificial desaparece, el sistema se queda con menos receptores que antes, y lo que antes generaba señal (el vínculo, la novedad, el logro, el placer cotidiano) deja de generarla con la misma intensidad. El umbral ha subido, y ahora hace falta más para alcanzarlo.
 
@@ -36,9 +36,9 @@ Por eso pedirle a alguien en plena adicción que tire de voluntad tiene la misma
 
 Además de desplazar el umbral, la adicción deforma la jerarquía de relevancia de todo el horizonte. El horizonte adicto no solo persigue una sustancia: ha reorganizado su sistema de integración en torno a ese eje, y todo lo demás (las personas, los proyectos, los vínculos) se convierte en ruido de fondo. El sistema que asigna importancia se ha recalibrado hacia un único objeto que responde con una intensidad que nada más iguala. En términos del modelo, el horizonte queda contraído: integra menos, resuena menos y genera menos tiempo denso en cualquier dirección que no sea la de la sustancia.
 
-Vista así, la recuperación es una lenta recalibración del umbral, que tarda meses y a veces años y que ocurre sobre todo a través del vínculo: otros horizontes que sostienen la señal de recompensa natural el tiempo suficiente para que los receptores se regeneren y el umbral baje. La oxitocina como antídoto, no por romanticismo, sino porque es la molécula que activa el sistema de recompensa por la vía del vínculo, la única que no destruye los receptores que necesita.
+Vista así, la recuperación es una lenta recalibración del umbral, que tarda meses y a veces años y que ocurre sobre todo a través del vínculo: otros horizontes que sostienen la señal de recompensa natural el tiempo suficiente para que los receptores se regeneren y el umbral baje. La oxitocina como antídoto, no por romanticismo, sino porque es la molécula que activa el sistema de recompensa por la vía del vínculo, una vía que no desgasta los receptores de los que depende.
 
-> **En física esto se llama:** regulación a la baja (*down-regulation*) de los receptores de recompensa.  
+> **En neurociencia esto se llama:** regulación a la baja (*down-regulation*) de los receptores de recompensa.  
 > **En la vida diaria es como:** bajar las persianas porque entra una luz cegadora: cuando la luz se va, te quedas a oscuras.
 
 ### La dopamina y la narrativa
@@ -105,7 +105,7 @@ Este caso desmonta cualquier resto de relato moral. En este horizonte no hay nin
 
 Si la adicción es una recalibración del umbral, la recuperación es la recalibración inversa. La voluntad tiene poco que ver: hacen falta tiempo, condiciones y la lenta regeneración de los receptores que el sistema dejó de producir. Los estudios sugieren que el sistema dopaminérgico puede tardar entre doce y dieciocho meses en recuperarse del todo, a veces más. Mientras tanto, el horizonte vive en un mundo en el que nada genera la señal que necesita, salvo la sustancia a la que no puede volver.
 
-El vínculo desempeña un papel decisivo en la recuperación. La oxitocina, la molécula del vínculo, activa el sistema de recompensa por una vía que no destruye receptores. Un horizonte en recuperación rodeado de vínculos estables recibe la señal de recompensa suficiente para sostenerse sin que el umbral vuelva a subir. Por eso los programas de recuperación basados en la comunidad (los doce pasos, la terapia de grupo, las comunidades terapéuticas) obtienen mejores resultados que los intentos en solitario. Lo que actúa ahí es la química del vínculo, más que la moral del grupo.
+El vínculo desempeña un papel decisivo en la recuperación. La oxitocina, la molécula del vínculo, activa el sistema de recompensa por una vía que no desgasta receptores. Un horizonte en recuperación rodeado de vínculos estables recibe la señal de recompensa suficiente para sostenerse sin que el umbral vuelva a subir. Por eso los programas de recuperación basados en la comunidad (los doce pasos, la terapia de grupo, las comunidades terapéuticas) obtienen mejores resultados que los intentos en solitario. Lo que actúa ahí es la química del vínculo, más que la moral del grupo.
 
 ---
 

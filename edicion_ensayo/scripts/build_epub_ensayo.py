@@ -109,9 +109,9 @@ def strip_web_only_markers(body: str) -> str:
     handles -- a simulation heading with no static equivalent becomes a
     short note, and a sidebar's bracketed label becomes a plain caption."""
     body = SIMULATION_HEADING_RE.sub(
-        "*(Simulación interactiva disponible en la edición web.)*", body)
+        "", body)
     body = SIMULATION_HEADING_EN_RE.sub(
-        "*(Interactive simulation available in the web edition.)*", body)
+        "", body)
     body = SIDEBOX_RE.sub(r"\1", body)
     body = SIDEBOX_EN_RE.sub(r"\1", body)
     return body
@@ -291,7 +291,7 @@ def markdown_to_xhtml(body: str, illustrations: dict, images: ImageRegistry) -> 
 
 
 PAGE_TEMPLATE = """<?xml version="1.0" encoding="utf-8"?>
-<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="es" xml:lang="es">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="{lang}" xml:lang="{lang}">
 <head>
 <title>{title}</title>
 <link rel="stylesheet" type="text/css" href="{css_prefix}css/style.css"/>
@@ -303,8 +303,8 @@ PAGE_TEMPLATE = """<?xml version="1.0" encoding="utf-8"?>
 """
 
 
-def page(title: str, body_html: str, css_prefix: str = "../") -> str:
-    return PAGE_TEMPLATE.format(title=esc(title), body=body_html, css_prefix=css_prefix)
+def page(title: str, body_html: str, css_prefix: str = "../", lang: str = "es") -> str:
+    return PAGE_TEMPLATE.format(title=esc(title), body=body_html, css_prefix=css_prefix, lang=lang)
 
 
 CSS = """
@@ -346,6 +346,8 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
     title = toc.get("title", "")
     subtitle = toc.get("subtitle", "")
     author = toc.get("author", "")
+    lang = toc.get("language", "es")
+    toc_label = toc.get("toc_label", "Índice")
     uid = toc.get("uid") or f"urn:uuid:el-horizonte-interior-ensayo-{toc.get('language','es')}"
 
     files: dict[str, str] = {}
@@ -368,7 +370,7 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
         cover_body += f'<img src="../{cover_img_path}" alt="{esc(title)}" style="max-width:100%;"/>'
     cover_body += (f'<h1 class="chapter-title">{esc(title)}</h1>'
                    f'<p class="subtitle">{esc(subtitle)}</p><p>{esc(author)}</p></section>')
-    add_xhtml("cover", "cover.xhtml", page(title, cover_body))
+    add_xhtml("cover", "cover.xhtml", page(title, cover_body, lang=lang))
 
     # --- chapters ----------------------------------------------------------
     for chapter in toc["chapters"]:
@@ -397,8 +399,12 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
             if epub_path:
                 head_html += f'<figure><img src="../{epub_path}" alt="{esc(ctitle)}"/></figure>'
 
+        if illustration_ref and not sin_ilustraciones:
+            # La misma imagen que la lámina de apertura no se repite en el texto.
+            from build_interior_premium import drop_inline_duplicates
+            body = drop_inline_duplicates(body, illustration_ref, illustrations, base_dir)
         body_html = markdown_to_xhtml(body, illustrations, images)
-        add_xhtml(chapter["id"], f"{chapter['id']}.xhtml", page(ctitle, head_html + body_html),
+        add_xhtml(chapter["id"], f"{chapter['id']}.xhtml", page(ctitle, head_html + body_html, lang=lang),
                   nav_title=ctitle)
 
     # --- images --------------------------------------------------------
@@ -407,8 +413,8 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
 
     # --- nav.xhtml (EPUB3 TOC) -------------------------------------------
     nav_items = "".join(f'<li><a href="{href}">{esc(t)}</a></li>' for href, t in nav_entries)
-    nav_html = (f'<nav epub:type="toc" id="toc"><h1>Índice</h1><ol>{nav_items}</ol></nav>')
-    files["OEBPS/nav.xhtml"] = page("Índice", nav_html, css_prefix="")
+    nav_html = (f'<nav epub:type="toc" id="toc"><h1>{esc(toc_label)}</h1><ol>{nav_items}</ol></nav>')
+    files["OEBPS/nav.xhtml"] = page(toc_label, nav_html, css_prefix="", lang=lang)
     manifest_items.append(("nav", "nav.xhtml", "application/xhtml+xml"))
 
     # --- content.opf -------------------------------------------------------

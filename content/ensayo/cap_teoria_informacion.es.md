@@ -2,7 +2,7 @@
 title: LA TEORÍA DE LA INFORMACIÓN Y EL HORIZONTE INTERIOR
 subtitle: (O por qué una fórmula de 1948 ayuda a entender que tu conciencia no cabe en tu cráneo)
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 33
+chapterNumber: 34
 illustrationId: il_teoria_informacion
 illustrationTitle: El canal cerrado
 illustrationDescription: Un abuelo sostiene con las dos manos un teléfono móvil como si fuera una fotografía de papel; de la pantalla no sale una imagen, sino una trenza de hilos luminosos de ceros y unos que se curva y vuelve a entrar en su propio pecho, cerrándose sobre sí misma como un bucle. Acuarela y tinta, tonos índigo y dorados.
@@ -85,7 +85,7 @@ Eso es lo que hace el horizonte: no transmite su experiencia hacia fuera (nadie 
 
 Esa es, en este modelo, la diferencia fundamental entre un ordenador y un cerebro. El ordenador es un canal abierto: la información entra, se procesa y sale. El cerebro es un canal cerrado: la información entra, se integra y se queda dentro, generando un punto de vista que no se puede exportar.
 
-> **En teoría de la información esto se llama:** canal cerrado, un sistema que integra información sin transmitirla al exterior.
+> **En el vocabulario de este experimento esto se llama:** canal cerrado, un sistema que integra información sin transmitirla al exterior.
 
 ### La paradoja de la información, otra vez
 
@@ -133,7 +133,7 @@ Quizá sea esto lo más honesto que puede decir este capítulo: la teoría de la
 
 ---
 
-> **Nota al Capítulo 33**
+> **Nota al Capítulo 34**
 >
 > **Lo que sí sabemos:** La teoría de la información de Shannon es la base de las telecomunicaciones y la computación. La información mutua es una medida estándar de la correlación entre sistemas. El teorema de no clonación es un resultado demostrado de la mecánica cuántica. La teoría de la información integrada de Tononi es una teoría en desarrollo, con defensores y críticos.
 >

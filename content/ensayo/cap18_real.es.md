@@ -18,9 +18,9 @@ Este aparato de dos niveles permite algo que el debate público rara vez ofrece:
 
 ## LOS CASOS LÍMITE
 
-**Clones gestados en un útero animal.** Primer nivel: presente. Segundo nivel: presente, con arquitectura ovina. El horizonte sería genuino y legible para una oveja. La genética nuclear humana sería irrelevante para la calibración: un cuerpo biológicamente humano con una topología interior profundamente no humana.
+**Clones gestados en un útero animal.** Primer nivel: presente. Segundo nivel: presente, pero operado por una gestante de otra especie. El modelo predice un horizonte genuino con una calibración prenatal extraña, no un ser «no humano»: la crianza humana posterior, que dura años donde la gestación dura meses, tendría tiempo de sobra para recalibrarlo, igual que ocurre en la adopción (capítulo 15). Lo que no sabemos es cuánto pesaría esa primera huella.
 
-Imaginemos a ese ser con más detalle. Desde fuera se parece a nosotros: los mismos ojos, la misma piel, los mismos gestos programados por genes humanos. Pero cuando mira el mundo, no hay humanidad en su horizonte. Su sensación del color, del tiempo, del espacio y del yo estaría calibrada por las hormonas de una oveja, el ritmo cardíaco de un rumiante y la química de una placenta que nunca fue nuestra. No sería una persona con discapacidad, sino un tipo de persona que no conocemos, cuya experiencia podría ser tan rica como la nuestra, pero en coordenadas inaccesibles. Aquí hablar de «derechos humanos» se queda corto, porque, aunque su cuerpo sea humano, su horizonte no lo es.
+Sería una persona con un comienzo que ninguna otra tuvo, y la pregunta interesante no es si «es humana», sino qué deja en un horizonte una calibración que no coincide con la de quienes lo criarán: la versión extrema de la discordancia que se describe más abajo para la gestación subrogada.
 
 **Fecundación in vitro con útero propio.** Los dos niveles operan de la forma habitual, con el matiz de que el reservorio inicial incluye un acto explícito de voluntad parental.
 
@@ -34,11 +34,9 @@ No implica trauma ni patología, sino una topología característica, como tener
 
 Nada de esto establece una jerarquía entre el vínculo de la gestación y el de la crianza. El capítulo 15 ya lo dijo a propósito de la adopción: la crianza produce un entrelazamiento completo, con otra topología, no un sucedáneo. La calibración prenatal es un punto de partida, no un destino. La crianza dura años donde la gestación dura meses, tiene tiempo de sobra para construir un vínculo tan hondo como cualquier otro, y muchos horizontes criados por quien no los gestó no notan nunca esa disonancia.
 
-**Ectogénesis completa, sin horizonte humano gestante.** Aquí la respuesta es la más inquietante. Primer nivel: presente; un cuerpo humano biológicamente completo, con un sistema nervioso de Φ alto, condensa **algún** horizonte estable. Segundo nivel: ausente; no actúa el sesgo hacia una arquitectura compatible con la humana. El resultado es un horizonte biológicamente humano con una topología no calibrada para que nosotros podamos leerlo: algo que se nos parece, que piensa, que siente, pero en una geometría que no resuena con la nuestra. La pregunta clínica no sería «¿tiene conciencia?», sino «¿podemos hablar con ella?». Y la respuesta probable es que no, o no como hablamos entre nosotros.
+**Ectogénesis completa, sin horizonte humano gestante.** Primer nivel: presente. Segundo nivel: debilitado, no ausente. Un útero artificial puede reproducir parte de las señales (temperatura, nutrientes, quizá una voz y un latido grabados), pero no la presencia de otro horizonte que responde. El modelo predice un horizonte genuino y humano con una calibración prenatal más pobre, que la crianza tendría que compensar, no un ser inaccesible: los prematuros extremos, que pasan semanas decisivas en una incubadora y crecen hablando con nosotros, ya son un dato sobre cuánto puede recuperar la crianza.
 
-Pensemos en lo que eso significa. Un ser ectogénico no sería un zombi: tendría experiencia genuina, dolor, placer, quizá algo parecido a la curiosidad. Pero su curiosidad no sería la nuestra, y su dolor no resonaría en nosotros como resuena el de un hijo o incluso el de un desconocido. Sería como intentar comunicarse con un ser de otra dimensión: no imposible en principio, pero en la práctica inaccesible, porque no compartimos los presupuestos más básicos de la experiencia. La forma del tiempo, la textura del espacio, la arquitectura del yo: todo podría ser distinto.
-
-Esto plantea una paradoja ética terrible. ¿Cómo tratar a un ser que tiene una experiencia subjetiva genuina, pero inaccesible? No podemos proyectar en él nuestros sentimientos con confianza, ni dar por hecho que lo que nos hace sufrir a nosotros le hace sufrir a él. Y, sin embargo, de algún modo tiene que haber sufrimiento. La pregunta es si somos moralmente capaces de reconocerlo.
+La pregunta ética no es si ese ser tendría experiencia, que la tendría, sino qué le debemos para que ese comienzo empobrecido no se convierta en desventaja: más presencia humana desde el primer día, no menos.
 
 **IA actual.** Ni primer nivel ni segundo en sentido genuino: superficie sin condensación.
 
@@ -54,9 +52,9 @@ Estos casos no agotan la lista, y la tecnología probablemente añadirá otros q
 >
 > **Lo que sí sabemos:** El entorno uterino influye de forma medible en el desarrollo fetal (hormonas, ritmos, voz), y esa influencia es independiente de la genética: se da con o sin vínculo genético y con o sin coincidencia entre gestación y crianza.
 >
-> **Lo que no sabemos:** Qué transmite exactamente una madre cuando calibra el reservorio local de su hijo. Si las huellas de un acto explícito de voluntad parental, o de una discordancia entre el horizonte que gesta y el que cría, son significativas para la topología resultante. Si un horizonte biológicamente humano, pero no calibrado para que podamos leerlo (el caso límite de la ectogénesis completa), podría aprender con el tiempo a comunicarse con nosotros.
+> **Lo que no sabemos:** Qué transmite exactamente una madre cuando calibra el reservorio local de su hijo. Si las huellas de un acto explícito de voluntad parental, o de una discordancia entre el horizonte que gesta y el que cría, son significativas para la topología resultante. Cuánto puede compensar la crianza una calibración prenatal empobrecida o extraña.
 >
-> **Preguntas que quedan:** ¿Podría una ectogénesis completa producir un ser con experiencia subjetiva genuina pero inaccesible a nosotros? ¿Qué obligaciones éticas tenemos con un horizonte cuya experiencia no podemos imaginar con confianza? ¿Será posible algún día calibrar deliberadamente un sesgo en lugar de heredarlo?
+> **Preguntas que quedan:** ¿Qué señales de un útero habría que reproducir para que una ectogénesis no empobrezca la calibración? ¿Qué le debemos a un horizonte cuyo comienzo fue distinto del nuestro? ¿Será posible algún día calibrar deliberadamente un sesgo en lugar de heredarlo?
 >
 > **Si solo te quedas con una idea:** Lo que decide si hay alguien ahí no es la genética ni el aspecto, sino si han operado las dos selecciones, estabilidad y sesgo, y hacia qué arquitectura calibraron el resultado.
 >

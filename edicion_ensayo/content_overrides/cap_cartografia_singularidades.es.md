@@ -2,13 +2,13 @@
 title: CARTOGRAFÍA DE TRES SINGULARIDADES
 subtitle: (Una lectura topológica de Dalí, Picasso y Miró)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 42
+chapterNumber: 43
 illustrationId: il_singularidades
 illustrationTitle: Cartografía de tres singularidades
 illustrationDescription: Tres horizontes de sucesos de naturaleza distinta —una cápsula sellada, un prisma en superposición perpetua y un cosmos disuelto en constelaciones— orbitándose mutuamente sobre un fondo de estrellas.
 ---
 
-## Prólogo
+## Tres verbos
 
 Olvidemos la cronología. Olvidemos los museos, las guerras, los catálogos razonados. El siglo XX español no se libró en las trincheras del Ebro ni bajo las bombas de Guernica: se libró en el espacio curvo de la conciencia, allí donde la gravedad del yo dobla la luz del mundo hasta hacerla irreconocible.
 
@@ -147,7 +147,7 @@ Lo soltó con violencia. «Quiero asesinar la pintura», declaró hacia 1927, y 
 
 El proceso, además, tenía su propia termodinámica. Miró trabajaba como un labrador: madrugaba, cumplía horario, dejaba reposar los lienzos durante meses y hasta años antes de darles la última mancha, cultivaba decenas de cuadros a la vez como quien atiende un huerto. La espontaneidad de sus signos es un espejismo: cada trazo que parece caído del cielo fue esperado con paciencia geológica. Es la disciplina invertida de Dalí: donde el ampurdanés fabricaba delirio con precisión de relojero, el catalán fabricaba precisión con apariencia de delirio.
 
-Aquí la metáfora del agujero negro alcanza su límite y se invierte: Miró no tiene horizonte de sucesos porque no retiene información. No hay masa de trauma curvando el espacio a su alrededor. Su conciencia viaja ligera, sin atrapar la luz de los demás.
+Aquí la metáfora del agujero negro alcanza su límite y se invierte: el horizonte de Miró no atrapa: deja pasar la luz. No hay masa de trauma curvando el espacio a su alrededor. Su conciencia viaja ligera, sin atrapar la luz de los demás.
 
 Ese inventario no desaparece cuando Miró abandona la figuración, sino que se traduce. La misma mirada que en *La masía* dedicaba idéntico cuidado al caracol, a la cabra y a la montaña reaparece, veinte años después, en las *Constelaciones*, solo que ahora el caracol se ha convertido en un punto y la montaña en una línea que ata ese punto a una estrella. El principio (nada pesa más que nada) se mantiene; cambia la escala a la que se aplica: de un corral del Camp de Tarragona al cosmos entero. Entre un cuadro y otro no hay ruptura, sino la misma ecuación, resuelta primero para lo pequeño y después para lo infinito.
 
@@ -205,7 +205,7 @@ La respuesta está en el que queda. En el que lee estas páginas y siente que la
 
 El observador no está fuera del sistema. El observador es el sistema.
 
-> **Nota al Capítulo 42**
+> **Nota al Capítulo 43**
 >
 > **Lo que sí sabemos:** El análisis fractal de las pinceladas tardías de Dalí (Forsythe, Williams y Reilly, 2017) detectó alteraciones que preceden a su diagnóstico clínico, aunque el propio diagnóstico (síndrome parkinsoniano más que Parkinson confirmado) sigue siendo objeto de debate. La cronología de los tres pintores está extensamente documentada: el método paranoico-crítico, la génesis de los relojes blandos y la relación con Gala (Dalí, *Diario de un genio*, 1964), la amistad truncada con Lorca y el encuentro con Freud en Londres en 1938 (Gibson, 1997), las etapas picassianas y el episodio Casagemas (Richardson, 1991–2007), y las declaraciones de Miró sobre lo universal en lo íntimo y el «asesinato de la pintura» (Miró, *Escritos y declaraciones*, 1978).
 >

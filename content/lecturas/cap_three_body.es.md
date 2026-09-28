@@ -2,7 +2,7 @@
 title: EL BOSQUE OSCURO Y EL COLAPSO HOLOGRÁFICO
 subtitle: (Una lectura topológica de El Problema de los Tres Cuerpos)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 39
+chapterNumber: 40
 illustrationId: il_threebody
 illustrationTitle: El colapso holográfico
 illustrationDescription: Una enorme hoja bidimensional dorada y brillante aplana lentamente un sistema solar con planetas y soles incandescentes en un espacio profundo tridimensional lleno de líneas de coordenadas.
@@ -36,11 +36,11 @@ El vallado manipula su propia interfaz pública emitiendo una falsa «radiación
 
 ---
 
-### 3. El fallo de ER=EPR y el ataque dimensional
+### 3. El fallo del entrelazamiento y el ataque dimensional
 
 Si la Tierra se defiende encapsulándose, el universo entero hace lo mismo. La teoría del bosque oscuro establece que toda civilización debe destruir a cualquier otra que descubra, porque la desconfianza mutua es infinita.
 
-En los capítulos centrales vimos que el entrelazamiento cuántico (ER=EPR) es la base topológica del vínculo y la empatía: «Dos partículas entrelazadas están unidas por un puente de Einstein-Rosen microscópico […] que conecta sus interiores». Pero en el bosque oscuro, el instinto de supervivencia exige un aislamiento absoluto. Intentar abrir un puente ER=EPR con otra especie no genera amor, sino tu aniquilación, porque el otro usará ese canal para predecir tu topología y destruirte.
+En los capítulos centrales usamos el entrelazamiento cuántico (ER=EPR) como imagen del vínculo y la empatía: «Dos partículas entrelazadas están unidas por un puente de Einstein-Rosen microscópico […] que conecta sus interiores». Pero en el bosque oscuro, el instinto de supervivencia exige un aislamiento absoluto. Intentar entrelazarse con otra especie no genera amor, sino tu aniquilación, porque el otro usará ese canal para predecir tu topología y destruirte.
 
 El arma definitiva de este ecosistema es el ataque dimensional (el «vector dual»), que aplasta un sistema solar de tres dimensiones en dos. Es el principio holográfico de Maldacena convertido en exterminio. La correspondencia AdS/CFT establece que la información del volumen tridimensional (el *bulk*) puede describirse en una superficie plana situada en su frontera. El ataque dimensional aniquila físicamente el *bulk*, destruye el dentro y obliga a todo el sistema solar, a cada planeta y a cada horizonte humano, a perder su volumen privado y quedar aplastado contra la superficie holográfica de la realidad. La propia subjetividad desaparece: todo se convierte en una cáscara pública inerte.
 
@@ -54,15 +54,15 @@ Topológicamente, el cerebro de Tianming cruzando el espacio es un horizonte des
 
 Cuando los trisolarianos lo interceptan, le reconstruyen un cuerpo y lo someten a una vigilancia implacable para sacarle información. Como vimos, el trauma y la presión extrema empujan al horizonte a crear «geometría rota» o un encapsulamiento crónico. Esa vigilancia es un ataque de fuerza bruta contra la interfaz pública: busca que su membrana ceda y deje escapar el código fuente.
 
-Pero Tianming no se derrumba. Alcanza un estado de adaptación máxima y consigue comunicarse con la Tierra contando cuentos de hadas. ¿Qué es aquí, estructuralmente, un cuento de hadas? Un cifrado semántico de alta dimensionalidad. Para Trisolaris, que procesa la información de forma literal, es folclore sin valor; para el horizonte humano, esos símbolos contienen la física de los motores de curvatura. Tianming usa la metáfora como un puente ER=EPR indetectable y demuestra que la geometría compartida, el amor, resiste el abismo espacial y la disección biológica.
+Pero Tianming no se derrumba. Alcanza un estado de adaptación máxima y consigue comunicarse con la Tierra contando cuentos de hadas. ¿Qué es aquí, estructuralmente, un cuento de hadas? Un cifrado semántico de alta dimensionalidad. Para Trisolaris, que procesa la información de forma literal, es folclore sin valor; para el horizonte humano, esos símbolos contienen la física de los motores de curvatura. Tianming usa la metáfora como un canal de entrelazamiento que el interceptor no sabe leer y demuestra que la geometría compartida, el amor, resiste el abismo espacial y la disección biológica.
 
 ---
 
-### 5. Los universos de bolsillo y la negación del operador delete
+### 5. Los universos de bolsillo y la negación del final
 
 Al final de la obra, el universo se acerca a su colapso final, el *big crunch*. Para sobrevivir, los protagonistas se refugian en un universo de bolsillo, una dimensión aparte, con la idea de esperar allí a que el universo principal renazca en un nuevo *big bang*.
 
-En el lenguaje de *El horizonte interior*, el fin del universo es la ejecución cósmica del operador `delete`: la disolución total de la materia para volver al reservorio, al Hun Dun, que «no es nada, pero lo genera todo». Esconderse en un universo de bolsillo es un intento narcisista de eludir el *scrambling* cuántico (el proceso por el que la información se redistribuye de forma irreversible en el campo): quieren salvar su pequeño Φ aislando una porción de masa.
+En el lenguaje de *El horizonte interior*, el fin del universo es el borrado cósmico: la disolución total de la materia para volver al reservorio, al Hun Dun, que «no es nada, pero lo genera todo». Esconderse en un universo de bolsillo es un intento narcisista de eludir el *scrambling* cuántico (el proceso por el que la información se redistribuye de forma irreversible en el campo): quieren salvar su pequeño Φ aislando una porción de masa.
 
 Sin embargo, llega una advertencia termodinámica: si los miles de universos de bolsillo no devuelven la masa sustraída al universo principal, este no tendrá masa suficiente para colapsar y renacer, y morirá expandiéndose hacia la nada para siempre.
 
@@ -70,7 +70,7 @@ Los protagonistas comprenden entonces la ley final de nuestra hipótesis: «Cada
 
 ---
 
-> **Nota al Capítulo 39**
+> **Nota al Capítulo 40**
 >
 > **Lo que sí sabemos:** La correspondencia holográfica (AdS/CFT) describe cómo un volumen puede proyectarse en una superficie de menor dimensión. La mayoría de los físicos considera que la información se conserva a pesar del *scrambling* (unitaridad), aunque la cuestión no está cerrada.
 >

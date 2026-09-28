@@ -2,7 +2,7 @@
 title: LAS TRES PUERTAS ABIERTAS
 subtitle: (Vínculo, intransferibilidad y pérdida a la luz de la teoría de la información)
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 34
+chapterNumber: 35
 illustrationId: il_tres_puertas
 illustrationTitle: Las tres puertas
 illustrationDescription: Un pasillo en penumbra con tres puertas entreabiertas. Por la primera se ven dos siluetas unidas por hilos de luz que siguen tensos aunque ellas se alejan; por la segunda, una figura ante un espejo que devuelve un reflejo borroso, distinto de ella; por la tercera, una gota de tinta que se disuelve en un mar oscuro. Acuarela y tinta, tonos índigo y dorados.
@@ -180,11 +180,11 @@ Ninguna resuelve el problema difícil. La información mutua no dice por qué el
 
 Pero las tres hacen algo que el modelo del horizonte necesita: dar precisión al vocabulario. Vínculo, intransferibilidad, pérdida: son palabras que usamos a diario sin saber exactamente qué significan. La teoría de la información les da un contenido formal que no agota su significado, pero lo ilumina.
 
-Queda una pregunta que ninguna de las tres puertas cierra: ¿por qué hay alguien ahí dentro? ¿Por qué la información, además de ser, se siente? Es la pregunta que el capítulo 53 retomará, al final del libro, entre las cosas que la hipótesis no puede decir.
+Queda una pregunta que ninguna de las tres puertas cierra: ¿por qué hay alguien ahí dentro? ¿Por qué la información, además de ser, se siente? Es la pregunta que el capítulo 51 retomará, al final del libro, entre las cosas que la hipótesis no puede decir.
 
 ---
 
-> **Nota al Capítulo 34**
+> **Nota al Capítulo 35**
 >
 > **Lo que sí sabemos:** La información mutua es una medida estándar de correlación, con propiedades matemáticas bien definidas. El teorema de no clonación es un resultado demostrado de la mecánica cuántica. El *scrambling* es un proceso físico estudiado en la física de los agujeros negros. El acoplamiento entre la actividad cerebral de quien habla y la de quien escucha se ha medido experimentalmente.
 >

@@ -2,7 +2,7 @@
 title: LA NAVE DE BARRO
 subtitle: (Encarnación, entrelazamiento vertical y geometría del amor; continuación de La realidad fractal)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 52
+chapterNumber: 50
 linkedCuentosId: cuento_nave_barro
 illustrationId: il_nave_barro
 illustrationTitle: La nave de barro
@@ -35,7 +35,7 @@ Confundirlos, intentar subir con las herramientas de bajar o bajar con las de su
 
 Si cada piso es un horizonte, la pregunta de cómo baja algo de arriba tiene una respuesta ingenua: por intervención directa, como una voz desde el cielo. El Éxodo ya sabía que esa respuesta no funciona. Cuando Moisés pide ver la gloria de Dios, la respuesta es que ningún hombre puede verle el rostro y seguir vivo; lo que se le concede es quedarse en la hendidura de una roca, cubierto por una mano, y ver solo la espalda de lo que pasa. La roca, la mano y la espalda son una nave: un protocolo que reduce lo inabarcable a una intensidad soportable.
 
-En la geometría de este libro, la razón es estructural. Una escala superior no puede hablarle a una inferior en sus propios términos, porque esos términos no caben en la frontera de abajo: una señal que excede la capacidad de un horizonte no se recibe, lo desborda (es lo que la lectura sobre el terror cósmico, en el capítulo 40, describía como el colapso ante un Φ ajeno). Para que algo de arriba llegue abajo sin destruirlo, tiene que construir una forma de la escala de abajo: aprender, por así decirlo, el habla del barro. El lenguaje de la finitud, del cuerpo, del dolor, de la masa.
+En la geometría de este libro, la razón es estructural. Una escala superior no puede hablarle a una inferior en sus propios términos, porque esos términos no caben en la frontera de abajo: una señal que excede la capacidad de un horizonte no se recibe, lo desborda (es lo que la lectura sobre el terror cósmico, en el capítulo 41, describía como el colapso ante un Φ ajeno). Para que algo de arriba llegue abajo sin destruirlo, tiene que construir una forma de la escala de abajo: aprender, por así decirlo, el habla del barro. El lenguaje de la finitud, del cuerpo, del dolor, de la masa.
 
 Esa traducción no es una degradación. La nave es una estructura nueva que antes no existía: el punto en el que lo grande se hace pequeño sin dejar de ser grande. La encarnación, en este sentido, es la única geometría posible del descenso. No hay atajos: sin nave, lo de arriba o no llega, o llega destruyendo.
 
@@ -60,7 +60,7 @@ Si los mundos dependen de una nave para recibir lo de arriba, dependen también 
 
 Ende vuelve a tener la imagen exacta. En Fantasia, cada deseo que Bastián ve cumplido le cuesta un recuerdo de su propio mundo, y quienes lo gastan todo acaban en la Ciudad de los Antiguos Emperadores, perdidos para siempre, sin memoria de quiénes fueron ni de dónde venían. El peligro de Fantasia nunca fue un monstruo: fue la Nada, y la Nada es una ausencia. Crece donde nadie mira.
 
-La tesis de esta lectura es que, en una realidad fractal, ese es el único colapso verdadero. Un mundo no se disuelve porque algo lo ataque, sino porque se retira la atención que lo sostenía. La destrucción, en esta geometría, es una omisión: no hay un diablo que arranque los mundos de la existencia; hay creadores que dejan de crear, amantes que dejan de amar, narradores que dejan de contar. Y lo que se disuelve así no vuelve en su forma original: como mostró el capítulo 34, el *scrambling* conserva la información, pero no la recompone. Lo que el reservorio devuelve después es siempre una nave nueva, nunca la restauración de la antigua.
+La tesis de esta lectura es que, en una realidad fractal, ese es el único colapso verdadero. Un mundo no se disuelve porque algo lo ataque, sino porque se retira la atención que lo sostenía. La destrucción, en esta geometría, es una omisión: no hay un diablo que arranque los mundos de la existencia; hay creadores que dejan de crear, amantes que dejan de amar, narradores que dejan de contar. Y lo que se disuelve así no vuelve en su forma original: como mostró el capítulo 35, el *scrambling* conserva la información, pero no la recompone. Lo que el reservorio devuelve después es siempre una nave nueva, nunca la restauración de la antigua.
 
 > **En física esto se llama:** estado estacionario fuera del equilibrio: un sistema que solo mantiene su forma mientras recibe energía desde fuera, y que al cortarse el suministro no estalla, sino que se deshace poco a poco.
 
@@ -74,7 +74,7 @@ Conviene marcar el límite con la misma honestidad con la que lo marca el resto 
 
 ### Mundos herméticos y la doble llamada
 
-Hay una consecuencia menos consoladora. Si cada mundo es una interioridad soberana, los mundos del mismo piso no pueden comunicarse entre sí sin romperse. Pasar información en bruto de un universo a otro de la misma escala rompería sus membranas: los fundiría o los igualaría en un único estado templado y sin forma. Es la misma conclusión a la que llegó el capítulo 47 sobre los viajes entre ramas: la operación de saltar de un mundo a otro no está definida sin destruir lo que se quiere visitar.
+Hay una consecuencia menos consoladora. Si cada mundo es una interioridad soberana, los mundos del mismo piso (no los horizontes que viven dentro de un mismo mundo, que se entrelazan a diario, sino los mundos enteros) no pueden comunicarse entre sí sin romperse. Pasar información en bruto de un universo a otro de la misma escala rompería sus membranas: los fundiría o los igualaría en un único estado templado y sin forma. Es la misma conclusión a la que llegó el capítulo 47 sobre los viajes entre ramas: la operación de saltar de un mundo a otro no está definida sin destruir lo que se quiere visitar.
 
 Esta hermeticidad es lo que permite que haya muchos mundos en vez de uno. Cada comunidad que imagina en común (las leyes de su física, las reglas de su lengua, las convenciones de su vida) levanta un mundo que no se deja atravesar desde al lado.
 
@@ -94,7 +94,7 @@ El modelo puede mirarse desde tres sitios, y en cada uno enseña una cosa distin
 
 Desde la experiencia humana, se ve en el cuerpo: la membrana por la que el dentro toca el mundo, la intimidad que nadie más puede habitar, el tiempo que se espesa en el duelo y se dilata en la calma, y los vínculos que, como defendió el capítulo 17, no se disuelven con la muerte, sino que cambian de función.
 
-Desde la religión, se ve en los mitos, los dogmas y los ritos, leídos como lo que el capítulo 40 llamaba gafas de eclipse: no descripciones literales de lo que hay al otro lado, sino protocolos para recibir su señal sin quedar ciego. Leída así, la religión es una tecnología de la nave: prepara la interfaz de abajo para la doble llamada.
+Desde la religión, se ve en los mitos, los dogmas y los ritos, leídos como lo que el capítulo 41 llamaba gafas de eclipse: no descripciones literales de lo que hay al otro lado, sino protocolos para recibir su señal sin quedar ciego. Leída así, la religión es una tecnología de la nave: prepara la interfaz de abajo para la doble llamada.
 
 Desde la filosofía, se ve en el límite que Hume encontró al buscarse a sí mismo (nunca se sorprendía sin una percepción) y que Wittgenstein resumió con la imagen del ojo que no puede verse mirando. Ningún horizonte puede salir de sí para observar el que lo contiene. Pero ese límite es la condición de todo lo demás: solo porque estamos dentro hay experiencia; solo porque hay frontera hay alguien.
 
@@ -106,7 +106,7 @@ Somos, a la vez, horizontes contenidos y contenedores: vasijas de barro que llev
 
 ---
 
-> **Nota al Capítulo 52**
+> **Nota al Capítulo 50**
 >
 > **Lo que sí sabemos:** Las tradiciones contemplativas de todas las culturas combinan prácticas de vaciamiento (oración, meditación, rito) con prácticas de forma (arte, relato, liturgia, imagen). La imagen de la encarnación como contracción de lo divino tiene fuentes explícitas: el prólogo del Evangelio de Juan («el Verbo se hizo carne»), la *kénosis* de la carta a los filipenses y la doctrina budista de los tres cuerpos del buda (*dharmakaya*, *sambhogakaya*, *nirmanakaya*). El episodio del Éxodo en que Moisés solo puede ver la espalda de Dios desde la hendidura de una roca es un modelo antiguo de lo que aquí se llama protocolo de amortiguación. En *La historia interminable*, cada deseo de Bastián le cuesta un recuerdo de su mundo.
 >

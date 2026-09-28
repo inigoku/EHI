@@ -115,7 +115,7 @@ Si la conciencia es una transición de fase, entonces antes de esa transición n
 
 El experimento no resuelve las preguntas éticas sobre el estatuto moral del feto, y sería irresponsable pretenderlo. Lo que sí hace es reformular la pregunta con más precisión: no «¿cuándo empieza la vida?» (la vida biológica empieza antes de cualquier umbral de conciencia), sino «¿cuándo hay alguien en casa?». Y el modelo sugiere que eso ocurre en el punto de condensación, en la ventana de las semanas 28 a 32, y no antes.
 
-La burbuja de jabón se cierra. La estrella colapsa por debajo de su radio de Schwarzschild. La subplaca desaparece cuando maduran las conexiones definitivas. Los delta brushes cesan cuando el mundo exterior empieza a hablarle directamente al horizonte. El río se convierte en lago y el reservorio se condensa en un horizonte.
+La burbuja de jabón se cierra. La estrella colapsa por debajo de su radio de Schwarzschild. La subplaca desaparece cuando maduran las conexiones definitivas. Los delta brushes se apagan hacia el término, cuando el mundo exterior ya ha empezado a hablarle directamente al horizonte. El río se convierte en lago y el reservorio se condensa en un horizonte.
 
 Lo único que el experimento no puede decir, y quizá ninguna teoría pueda, es qué se siente al ser esa primera burbuja.
 

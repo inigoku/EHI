@@ -24,7 +24,7 @@ La conciencia es un espectro.
 
 Un perro o un gato comparten con nosotros el hipocampo, la amígdala y todo el sistema límbico. Su Φ, su grado de conciencia, es menor que el nuestro, pero no es cero. Tienen horizonte: pueden sufrir, pueden recordar y pueden, en el sentido del capítulo 13, entrelazarse.
 
-Y el espectro no acaba ahí. Los cuervos resuelven problemas que dejarían perplejo a un primate. Los pulpos, con el cerebro repartido por los brazos, parecen habitar una modalidad de conciencia que apenas empezamos a imaginar. Las vacas establecen amistades duraderas y se estresan cuando las separan de sus compañeras de rebaño. Los elefantes vuelven a los huesos de sus muertos y los tocan con una lentitud que parece ritual, que parece, aunque no podamos probarlo, memoria dolorosa.
+Y el espectro no acaba ahí. Los cuervos resuelven problemas que durante mucho tiempo se creyeron exclusivos de los primates. Los pulpos, con el cerebro repartido por los brazos, parecen habitar una modalidad de conciencia que apenas empezamos a imaginar. Las vacas establecen amistades duraderas y se estresan cuando las separan de sus compañeras de rebaño. Los elefantes vuelven a los huesos de sus muertos y los tocan con una lentitud que parece ritual, que parece, aunque no podamos probarlo, memoria dolorosa.
 
 El modelo del horizonte no exige lenguaje para exigir compasión; le basta un Φ no trivial: un sistema lo bastante integrado para que la información que circula por su interior genere un «desde dentro», por humilde que sea. Un punto de vista, una perspectiva, un horizonte.
 
@@ -34,7 +34,7 @@ Esa legibilidad es una resonancia construida a lo largo de milenios.
 
 Con el gato, la calibración es más lateral: se domesticó más bien a sí mismo. Fue él quien decidió acercarse a nuestros graneros, atraído por los ratones, y tolerar nuestra presencia a cambio de protección. La relación es más contractual en su origen, pero no menos profunda en su resultado. El gato no lee nuestra mirada con la misma fidelidad que el perro, aunque también es capaz de seguir el gesto de señalar, pero desarrolló otra herramienta: un ronroneo en frecuencias parecidas a las que se usan en algunas terapias de vibración para estimular la regeneración ósea. No está demostrado que le sirva para curar nada, pero es como si la coevolución, en lugar de la comunicación visual, hubiera optimizado el consuelo.
 
-Con el caballo, la coevolución es más reciente, pero intensa: unos seis mil años de guerra, viajes, labranza y, últimamente, terapia. El caballo lee nuestra tensión a través de la silla, las piernas y el reparto del peso. Y nosotros aprendimos a confiar en una criatura capaz de matarnos de una coz, pero que casi siempre elige no hacerlo.
+Con el caballo, la coevolución es más reciente, pero intensa: unos cinco mil años de guerra, viajes, labranza y, últimamente, terapia. El caballo lee nuestra tensión a través de la silla, las piernas y el reparto del peso. Y nosotros aprendimos a confiar en una criatura capaz de matarnos de una coz, pero que casi siempre elige no hacerlo.
 
 Con otros animales, el grado de legibilidad varía. El conejo vive en un mundo olfativo que apenas comprendemos; el loro imita nuestro lenguaje, pero quizá no lo entienda; el pez, aunque estudios recientes sugieren que algunos sienten el dolor de forma más compleja de lo que creíamos, habita un horizonte tan ajeno que nos cuesta siquiera imaginarlo.
 
@@ -106,17 +106,17 @@ Hay además una consecuencia para quien maltrata. La empatía es también una ca
 
 Pero hay una forma más sutil y extendida de esa negación: la industrialización del sufrimiento animal. No hablamos del vecino que patea a su perro, un caso aberrante, pero estadísticamente marginal, sino de la estructura legal y económica que convierte a millones de animales con sistema límbico en materia prima: la cerda en una jaula de gestación en la que no puede darse la vuelta, la gallina que nunca ve la luz del sol, la vaca encadenada a un ciclo de inseminación y ordeño.
 
-El modelo no puede decirnos qué comer; eso excede su alcance. Pero sí puede señalar una contradicción: si reconocemos que estos animales tienen horizonte, que la cerda reconoce a sus crías, que la gallina establece jerarquías sociales complejas, que todos tienen un Φ no trivial, la estructura que los convierte en objetos industriales se apoya en una mentira sobre la naturaleza de la materia consciente. No una mentira moral, sino física.
+El modelo no puede decirnos qué comer; eso excede su alcance. Pero sí puede señalar una contradicción: si reconocemos que estos animales tienen horizonte, que la cerda reconoce a sus crías, que la gallina establece jerarquías sociales complejas, que todos tienen un Φ no trivial, la estructura que los convierte en objetos industriales se apoya en una mentira sobre la naturaleza de la materia consciente. No es solo una cuestión moral: es una descripción inexacta de lo que hay.
 
 La sociedad resuelve esta tensión segmentando: amamos al perro y nos comemos al cerdo. Pero, desde la perspectiva del horizonte, esa división es arbitraria. Ninguna propiedad física distingue al cerdo de granja industrial del golden retriever del sofá de un modo que justifique que uno merezca compasión y el otro sea materia de producción. La diferencia es cultural, no ontológica.
 
-Esto no implica que todos debamos ser vegetarianos, sino que no podemos fingir que la elección no tiene coste. Cada vez que comemos la carne de un animal con sistema límbico (y la ciencia ha demostrado que el cerdo y la vaca lo tienen) alimentamos nuestro horizonte con la negación del horizonte ajeno. Y esa negación, por pequeña que sea, deja huella en nuestra arquitectura: algo se atrofia.
+Esto no implica que todos debamos ser vegetarianos, sino que no podemos fingir que la elección no tiene coste. Comer la carne de un animal con sistema límbico, como el cerdo o la vaca, exige apartar la mirada de un horizonte ajeno. Qué hacer con eso es una decisión ética que el modelo no puede tomar por nadie; lo único que puede decir es que aquello de lo que se aparta la mirada existe.
 
 ---
 
 ## La simetría rota: cuando el humano muere primero
 
-Hemos hablado del duelo del dueño cuando muere la mascota. Pero hay otra geometría menos transitada: ¿qué ocurre en el horizonte del animal cuando el que muere primero es su humano?
+Más adelante hablaremos del duelo del dueño cuando muere la mascota. Antes, otra geometría menos transitada: ¿qué ocurre en el horizonte del animal cuando el que muere primero es su humano?
 
 Hay casos documentados de perros que esperan durante años en el sitio donde veían llegar a su dueño, de gatos que dejan de comer tras la muerte de su persona de referencia, de caballos que muestran signos de depresión tras perder al jinete con el que compitieron toda una vida.
 

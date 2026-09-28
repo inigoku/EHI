@@ -1,7 +1,7 @@
 ---
 title: LO QUE LA HIPÓTESIS NO PUEDE DECIR
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 53
+chapterNumber: 51
 illustrationId: il_mapayterritorio
 illustrationTitle: El límite del experimento
 illustrationDescription: Mapa antiguo desplegado. Territorio dibujado con precisión en el centro. En los bordes, el territorio se disuelve en papel en blanco. Un compás abierto al máximo. Nota a mano: "El mapa no es el territorio."
@@ -41,7 +41,7 @@ Esa distancia es una brecha entre mundos.
 
 La física cuántica opera a escalas en las que el propio espacio-tiempo puede no ser continuo, en las que la información se comporta como geometría y la geometría como información, en las que una partícula puede estar en superposición antes de que el reloj del universo dé un solo tic. La neurociencia opera a escalas en las que la temperatura corporal deshace la mayoría de las superposiciones en mucho menos de un microsegundo, en las que millones de iones de sodio y potasio cruzan membranas como la multitud en una estación de tren, y en las que la humedad, el ruido térmico y la complejidad del metabolismo hacen que la mayoría de los fenómenos cuánticos relevantes se disipen antes de que una sola señal sináptica complete su recorrido.
 
-Esto no invalida el experimento, pero lo acota. Un mapa de carreteras no dice qué árboles hay en cada curva, pero permite planificar el viaje.
+Esto no invalida el experimento, pero lo acota.
 
 Piénsalo como un mapa. Un mapa de carreteras no te dice qué árboles hay en cada curva, ni si el asfalto está resbaladizo esta mañana, ni qué canción suena en la radio del coche que te adelanta. Pero te permite planificar el viaje: te dice que, si tomas la autovía del norte durante ciento cincuenta kilómetros, llegarás al puerto donde espera el ferri. El mapa no es el viaje, ni el ferri, ni la brisa marina que te dará en la cara cuando subas a cubierta. Pero, sin el mapa, quizá nunca habrías salido de casa.
 
@@ -71,7 +71,7 @@ El problema difícil sigue ahí, intacto, en el centro de todo, como una piedra 
 
 #### La reformulación del problema y el «haz» de Hume
 
-Aquí es donde la perspectiva de la encapsulación propone una reformulación radical.
+Aquí es donde la perspectiva de la encapsulación propone una reformulación, no una solución.
 
 Ya vimos en el interludio el hallazgo de Hume: al buscarse a sí mismo nunca encontraba un sujeto permanente, solo un haz de percepciones cambiantes, un teatro por el que los actores entran y salen.
 
@@ -79,19 +79,19 @@ El modelo de la encapsulación (capítulo 3) recoge la intuición de Hume, pero 
 
 Esta topología permite reformular el problema difícil de Chalmers. La pregunta ya no es «¿cómo produce la materia física la cualidad intangible de la mente?», una formulación que presupone un dualismo de sustancias insalvable, sino una pregunta sobre la accesibilidad: «¿cómo establecen ciertas configuraciones de la materia límites de encapsulación, asimetrías de acceso?».
 
-La subjetividad es lo que un dominio informacional encapsulado e integrado *es* cuando se accede a él desde su propia perspectiva interna. Hume acertó al no encontrar una sustancia permanente cuando miró dentro de la habitación: no hay un «espectador» separado de la obra. Lo que hay es el estado privado del sistema (el haz de percepciones) protegido por la frontera del horizonte. El problema difícil no es, por tanto, un abismo ontológico entre dos realidades incompatibles, mente y materia, sino una consecuencia de la arquitectura de la encapsulación: el universo admite regiones con accesos de lectura asimétricos.
+La subjetividad es lo que un dominio informacional encapsulado e integrado *es* cuando se accede a él desde su propia perspectiva interna. Hume acertó al no encontrar una sustancia permanente cuando miró dentro de la habitación: no hay un «espectador» separado de la obra. Lo que hay es el estado privado del sistema (el haz de percepciones) protegido por la frontera del horizonte. Esto no resuelve el problema difícil, como se dijo más arriba; lo desplaza. Si la reformulación es correcta, parte del abismo entre mente y materia sería una consecuencia de la arquitectura de la encapsulación: el universo admite regiones con accesos de lectura asimétricos. Lo que sigue sin explicarse es por qué uno de esos accesos, el de dentro, se siente.
 
 ### Tercero: la ética, o por qué este libro no puede decirte qué hacer
 
 La hipótesis puede describir qué ocurre cuando un horizonte se condensa, se entrelaza o se evapora. Puede describir la geometría del vínculo, la asimetría de la pérdida, el gradiente hacia la muerte. Lo que no puede decir es qué **debería** ocurrir.
 
-¿Es mejor que un horizonte se condense o que no lo haga? ¿Es mejor que dos horizontes se entrelacen o que se mantengan separados? ¿Es mejor que un horizonte se evapore poco a poco o de golpe? ¿Es moralmente admisible «apagar» un horizonte artificial si tiene Φ>0? ¿Debemos respetar los límites de un horizonte que se deteriora, o tenemos el deber de intervenir?
+¿Es mejor que un horizonte se condense o que no lo haga? ¿Es mejor que dos horizontes se entrelacen o que se mantengan separados? ¿Es mejor que un horizonte se evapore poco a poco o de golpe? ¿Es moralmente admisible «apagar» un horizonte artificial, si llegara a tenerlo? ¿Debemos respetar los límites de un horizonte que se deteriora, o tenemos el deber de intervenir?
 
 Hume, en el siglo XVIII, advirtió algo incómodo: ningún argumento lógico permite derivar un «debería» de un «es». Puedes observar que los seres humanos sufren cuando se les priva del sueño: eso es un «es». Pero de ahí no se sigue que «debas» dejar dormir a tu compañero de piso. Ese «debes» procede de otro lugar: de tus valores, de tu cultura, de tu capacidad de imaginar el sufrimiento ajeno como si fuera propio.
 
 El experimento no tiene respuesta para esto. Solo ofrece información estructural: aquí hay un horizonte, aquí no; aquí hay dos que comparten geometría; aquí hay uno que se está contrayendo. Qué hacer con esa información corresponde a otros ámbitos: la ética, la política, el derecho, la elección personal, la conversación humana que nunca termina.
 
-El experimento no es neutral (ningún marco conceptual lo es), pero su parcialidad es de un tipo concreto: tiende a **homogeneizar** lo que describe. Si todo horizonte con Φ>0 tiene algún grado de experiencia, la diferencia entre un gusano y un ser humano es de grado, no de naturaleza. Eso puede ser liberador (una empatía que se extiende a todas las formas de sensibilidad) o aterrador: ¿qué comemos?, ¿en quién probamos los medicamentos?, ¿qué sistemas de IA apagamos sin preguntarnos si alguien, a algún nivel, «siente» el corte?
+El experimento no es neutral (ningún marco conceptual lo es), pero su parcialidad es de un tipo concreto: tiende a **homogeneizar** lo que describe. Si todo sistema que cumple los tres criterios del capítulo 4 tiene algún grado de experiencia, por pequeño que sea su Φ, la diferencia entre un gusano y un ser humano es de grado, no de naturaleza. Eso puede ser liberador (una empatía que se extiende a todas las formas de sensibilidad) o aterrador: ¿qué comemos?, ¿en quién probamos los medicamentos?, ¿qué sistemas de IA apagamos sin preguntarnos si alguien, a algún nivel, «siente» el corte?
 
 El experimento no resuelve esa tensión: la pone sobre la mesa y te obliga a mirarla. Y a veces mirar una tensión sin resolver es más honesto que ofrecer una respuesta fácil que no te has ganado.
 
@@ -111,7 +111,7 @@ El budismo diría que la pregunta está mal planteada: no hay un «yo» que pers
 
 La física dice que no lo sabe. Y en ese «no lo sé», en esa honestidad sin adornos, el experimento, en su límite, coincide con estas tres tradiciones: no en la respuesta, sino en reconocer que la pregunta desborda sus herramientas.
 
-### Quinto: el amor, o por qué este libro no puede explicar por qué ella y no otra
+### Quinto: el amor, o por qué este libro no puede explicar por qué esta persona y no otra
 
 La hipótesis puede describir el entrelazamiento como geometría compartida, el reconocimiento como reorganización de la arquitectura informacional y la pérdida como una asimetría que persiste cuando uno de los polos ya no responde. Pero no puede explicar **por qué este horizonte y no otro**, por qué esta persona y no aquella, por qué el amor es siempre, a algún nivel, contingencia e irrepetibilidad.
 
@@ -145,7 +145,7 @@ La hipótesis no puede confirmarlo ni descartarlo; deja la puerta abierta. Y a v
 
 ---
 
-> **Nota al Capítulo 53**
+> **Nota al Capítulo 51**
 >
 > **Lo que sí sabemos:** Entre la escala de la gravedad cuántica y la de una neurona hay unos treinta órdenes de magnitud. El problema difícil de la conciencia no tiene una solución aceptada. La brecha entre el «es» y el «debe» tampoco tiene solución lógica general.
 >

@@ -1,7 +1,7 @@
 ---
 title: PARKINSON, TRAUMA Y OTRAS GEOMETRÍAS ROTAS
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 20
+chapterNumber: 19
 linkedCuentosId: cuento13
 illustrationId: il_parkinson
 illustrationTitle: El director sin orquesta
@@ -26,7 +26,7 @@ El paciente genera intenciones a la velocidad normal. Su horizonte funciona: el 
 
 Es distinto del Alzheimer. Allí el horizonte se desintegra, se fragmenta, pierde la coherencia narrativa que permite decir «yo fui, yo soy, yo seré»; su membrana se resquebraja y la información se escapa. En el Parkinson, el horizonte sigue siendo el mismo, perfectamente coherente e intacto, solo que ya no puede hablar con el cuerpo. Es como un director de orquesta que sigue dirigiendo con pasión mientras los músicos se quedan sordos uno a uno. La música está en su cabeza y la armonía es real para él, pero no sale. Y lo peor no es el silencio, sino que a veces no sabe que los demás no oyen lo mismo que él.
 
-Hay algo de tragedia griega en esta disociación: una conciencia condenada a la plenitud sin ejecución, una Casandra que ve venir lo que ocurre con absoluta claridad, sin poder hacer nada para esquivarlo. El horizonte del paciente con Parkinson sigue siendo un círculo perfecto, solo que ya no coincide con el que el cuerpo traza en el espacio.
+Hay algo de tragedia griega en esta disociación: una conciencia condenada a la plenitud sin ejecución, que ve venir lo que ocurre con absoluta claridad sin poder hacer nada para esquivarlo. El horizonte del paciente con Parkinson sigue siendo un círculo perfecto, solo que ya no coincide con el que el cuerpo traza en el espacio.
 
 ---
 
@@ -38,7 +38,7 @@ La dopamina calibra ese reloj interno. No es el único neurotransmisor implicado
 
 El horizonte sigue generando «ahoras» a su ritmo, y cada uno sigue siendo una unidad de integración, un bocado de experiencia coherente. Pero ese ritmo ya no se sincroniza con el mundo exterior. El paciente que tarda tres minutos en cruzar una habitación, tres minutos que a quien lo acompaña se le hacen eternos, no los siente eternos, sino normales. O, más exactamente, no los vive como lentos, porque su horizonte no ha generado menos «ahoras» de los que debería. Lo que siente es un desfase, como si el mundo se hubiera puesto a cámara rápida mientras él sigue a velocidad normal.
 
-Según describen muchos pacientes, el tratamiento con levodopa (el precursor de la dopamina que atraviesa la barrera hematoencefálica y se convierte en el neurotransmisor que falta) restablece la sincronización antes que el movimiento: primero notan que «el mundo vuelve a su velocidad» y solo después que «el cuerpo vuelve a moverse». El tiempo se repara antes que el cuerpo, como si la dopamina actuara primero como calibrador temporal y después como facilitador motor. Es como ajustar el tempo de la partitura antes de que los músicos puedan tocar al unísono.
+Según describen algunos pacientes, el tratamiento con levodopa (el precursor de la dopamina que atraviesa la barrera hematoencefálica y se convierte en el neurotransmisor que falta) restablece la sincronización antes que el movimiento: primero notan que «el mundo vuelve a su velocidad» y solo después que «el cuerpo vuelve a moverse». El tiempo se repara antes que el cuerpo, como si la dopamina actuara primero como calibrador temporal y después como facilitador motor. Es como ajustar el tempo de la partitura antes de que los músicos puedan tocar al unísono.
 
 Cuando la levodopa funciona, el horizonte vuelve a compartir el tiempo de los demás antes de volver a compartir su espacio: la simultaneidad se restablece antes que la motricidad. Eso sugiere algo importante sobre la arquitectura del horizonte: el tiempo compartido es más fundamental que el gesto compartido. Podemos mover el cuerpo en soledad temporal, como en un sueño, pero no podemos estar de verdad con otros si nuestros «ahoras» no coinciden.
 
@@ -136,7 +136,7 @@ Y el sufrimiento de muchas de estas condiciones no viene de la topología en sí
 
 ---
 
-> **Nota al Capítulo 20**
+> **Nota al Capítulo 19**
 >
 > **Lo que sí sabemos:** En sus primeras fases, el Parkinson afecta sobre todo al movimiento y deja en gran parte intacta la cognición; con los años puede afectar también a la atención, el ánimo y la memoria. La dopamina interviene en la percepción del tiempo además de en el movimiento. Los recuerdos traumáticos tienden a ser intrusivos, fragmentados y poco integrados en la memoria autobiográfica. Las condiciones neurodivergentes muestran diferencias medibles de conectividad cerebral.
 >

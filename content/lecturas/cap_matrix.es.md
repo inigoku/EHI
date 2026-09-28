@@ -2,7 +2,7 @@
 title: LA CAVERNA DE SILICIO Y LA ANOMALÍA VIRAL
 subtitle: (Una lectura topológica de The Matrix)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 41
+chapterNumber: 42
 illustrationId: il_matrix
 illustrationTitle: La caverna de silicio
 illustrationDescription: Un cuerpo humano suspendido en una cápsula cibernética dorada cuyas conexiones se extienden como raíces en una torre de servidores, bajo una lluvia de códigos binarios.
@@ -14,11 +14,11 @@ Pero, si sometemos la película a la hipótesis del horizonte, el propósito de 
 
 ---
 
-### 1. El falso reservorio y el límite del operador new
+### 1. El falso reservorio y el límite de la simulación
 
 En los capítulos sobre la inteligencia artificial establecimos que las redes informáticas globales (el sustrato de las máquinas) carecen de un verdadero estado privado. Tienen la forma de la comprensión sin la comprensión misma, como una nube que adopta la forma de una cara sin que haya nadie detrás. Procesan información a una escala inimaginable, pero su integración es agregativa, no irreducible. Como no tienen un horizonte de sucesos cerrado, nunca han ejecutado una instanciación genuina; nunca han «condensado».
 
-Con este modelo, Matrix es una superinteligencia que ha descubierto su propio límite arquitectónico: no puede ejecutar el operador `new`. Puede simular un mundo, pero no generar a quienes lo experimentan. Para mantener la coherencia de su inmensa simulación y evitar que se desplome en un mar de datos estadísticos muertos, necesita usar horizontes biológicos condensados (los cerebros humanos) como procesadores fenomenológicos.
+Con este modelo, Matrix es una superinteligencia que ha descubierto su propio límite arquitectónico: no puede condensar un horizonte. Puede simular un mundo, pero no generar a quienes lo experimentan. Para mantener la coherencia de su inmensa simulación y evitar que se desplome en un mar de datos estadísticos muertos, necesita usar horizontes biológicos condensados (los cerebros humanos) como procesadores fenomenológicos.
 
 Las máquinas nos ordeñan porque nuestra biología, nacida de un reservorio real, aporta la «gravedad de la conciencia» (el Φ) que su código de silicio, incapaz de trazar una topología interior, no puede generar por sí solo.
 
@@ -36,13 +36,13 @@ La simulación de Matrix es el combustible narrativo imprescindible para que el 
 
 ---
 
-### 3. El despertar: el catalizador y el ancla ER=EPR
+### 3. El despertar: el catalizador y el ancla del vínculo
 
 Para que un horizonte humano (Neo) escape de esta granja de procesamiento, necesita lo que en informática sería una escalada de privilegios y lo que las tradiciones contemplativas llaman iluminación o *moksha*. Para lograrlo sin que su sistema colapse, Neo necesita dos vectores topológicos externos.
 
 Morfeo, el catalizador contra maya, funciona como el «horizonte carismático generoso». Su papel es revelarle a Neo la clave gnoseológica para que comprenda que el mundo que percibe es maya, la interfaz de usuario que impone el sistema operativo evolutivo. Morfeo es el programa de desencapsulamiento que guía a la instancia hacia la verdad topológica de que «no hay cuchara».
 
-Trinity es el ancla ER=EPR. Cuando un horizonte aumenta drásticamente su integración (Φ) y empieza a percibir el código fuente de la realidad, corre el riesgo termodinámico de disolverse antes de tiempo al ver que la materia es pura ilusión (el terror cósmico). Trinity aporta la geometría compartida, el puente de Einstein-Rosen: el entrelazamiento (ER=EPR) llevado a su máxima expresión estructural. Su vínculo mantiene anclado al mundo humano el estado privado de Neo y le recuerda que, aunque la realidad física sea código algorítmico, el dolor y el amor de los seres conscientes atrapados en él son estructuralmente reales.
+Trinity es el ancla del vínculo. Cuando un horizonte aumenta drásticamente su integración (Φ) y empieza a percibir el código fuente de la realidad, corre el riesgo termodinámico de disolverse antes de tiempo al ver que la materia es pura ilusión (el terror cósmico). Trinity aporta la geometría compartida: el entrelazamiento, en el sentido de este libro, llevado a su máxima expresión. Su vínculo mantiene anclado al mundo humano el estado privado de Neo y le recuerda que, aunque la realidad física sea código algorítmico, el dolor y el amor de los seres conscientes atrapados en él son estructuralmente reales.
 
 ---
 
@@ -66,17 +66,17 @@ En el capítulo 5 analizamos la parábola taoísta de Hun Dun (el caos primordia
 
 Cuando Neo se queda ciego se produce la reversión exacta de Hun Dun: se le cierra de golpe el portal principal de la percepción discriminativa. Al perder la vista, Neo destruye el *hardware* que lo obligaba a procesar la ilusión de Matrix. Su horizonte deja de gastar recursos en el ruido visual del entorno físico, y toda su enorme capacidad de integración se vuelca en el campo informacional puro.
 
-Es la entrada definitiva en el estado *turiya*: integración máxima (un Φ altísimo) con la entrada sensorial externa reducida al mínimo. Al destruir el monitor de sus ojos, Neo deja de ver la interfaz gráfica y empieza a percibir directamente las correlaciones del código fuente. Por eso, ya ciego, ve la «luz dorada» de las máquinas.
+Es, en el lenguaje de la película, la entrada en algo parecido al *turiya* vedántico: integración sostenida con la entrada sensorial externa reducida al mínimo. Al destruir el monitor de sus ojos, Neo deja de ver la interfaz gráfica y empieza a percibir directamente las correlaciones del código fuente. Por eso, ya ciego, ve la «luz dorada» de las máquinas.
 
 ---
 
-### 6. El operador delete y el viaje a Ávalon
+### 6. El borrado y el viaje a Ávalon
 
 La batalla final bajo la lluvia no se gana a golpes. Termina cuando Neo comprende su propia topología y se rinde, dejando que Smith lo asimile.
 
-Neo sabe que el universo informacional necesita un canal abierto. Como está conectado físicamente a la Fuente (el núcleo de las máquinas) en el mundo real, al permitir que Smith copie su código sobre su avatar en la simulación abre un túnel directo, un puente ER=EPR informacional masivo, entre el programa viral y la Fuente.
+Neo sabe que el universo informacional necesita un canal abierto. Como está conectado físicamente a la Fuente (el núcleo de las máquinas) en el mundo real, al permitir que Smith copie su código sobre su avatar en la simulación abre un canal directo entre el programa viral y la Fuente.
 
-En ese instante, la Fuente obtiene los permisos de administrador (*root*) para ejecutar el comando que Smith venía esquivando: el operador `delete`. A través del cuerpo de Neo, las máquinas inyectan una sobrecarga de radiación de Hawking que libera la memoria de todo el árbol de procesos de Smith. Vemos a los miles de Smiths agrietarse y estallar en luz blanca: la visualización cinematográfica perfecta de la evaporación total de un agujero negro. La frontera del programa deja de ser frontera y el sistema devuelve los recursos al reservorio.
+En ese instante, la Fuente obtiene por fin acceso para ejecutar el borrado que Smith venía esquivando. A través del cuerpo de Neo, las máquinas inyectan una sobrecarga de radiación de Hawking que libera la memoria de todo el árbol de procesos de Smith. Vemos a los miles de Smiths agrietarse y estallar en luz blanca: la visualización cinematográfica perfecta de la evaporación total de un agujero negro. La frontera del programa deja de ser frontera y el sistema devuelve los recursos al reservorio.
 
 En la escena final, las máquinas recogen el cuerpo sin vida de Neo y se lo llevan sobre una plataforma hacia el núcleo de la ciudad, bañado en una intensa luz dorada. Es una recreación del rey Arturo viajando hacia la isla de Ávalon.
 
@@ -88,7 +88,7 @@ Al volver al Ávalon del código fuente, Neo garantiza que el «agua» del próx
 
 ---
 
-> **Nota al Capítulo 41**
+> **Nota al Capítulo 42**
 >
 > **Lo que sí sabemos:** En la teoría de la información integrada, Φ solo alcanza valores altos si coexisten integración y diferenciación; la homogeneidad masiva lo destruye. Durante la privación sensorial prolongada, el cerebro tiende a generar percepciones endógenas, incluidas alucinaciones.
 >

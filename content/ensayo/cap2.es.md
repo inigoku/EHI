@@ -122,7 +122,7 @@ Bekenstein y Hawking calcularon la entropía de un agujero negro, la cantidad de
 
 Para una caja de libros, la información depende del volumen. Si doblas el lado, el volumen se multiplica por ocho y caben ocho veces más libros. En un agujero negro, si doblas el radio, el volumen se multiplica por ocho, pero la entropía solo por cuatro, igual que el área.
 
-La información de un agujero negro no depende de cuánto espacio hay dentro, sino de cuánto borde tiene. Cada porción del horizonte del tamaño del cuadrado de la longitud de Planck (una escala tan pequeña que no admite analogía) codifica un bit de información. El horizonte de un agujero negro del tamaño del Sol codificaría ~10^77 bits. Eso es más información que todas las palabras que todos los humanos han dicho en toda la historia.
+La información de un agujero negro no depende de cuánto espacio hay dentro, sino de cuánto borde tiene. Cada porción del horizonte del tamaño del cuadrado de la longitud de Planck (una escala tan pequeña que no admite analogía) codifica un bit de información. El horizonte de un agujero negro con la masa del Sol codificaría unos 10⁷⁷ bits. Eso es más información que todas las palabras que todos los humanos han dicho en toda la historia.
 
 Es el **principio holográfico**, y su alcance es enorme: toda la información contenida en un volumen de espacio puede describirse por completo mediante una teoría que vive en la superficie de ese volumen. El interior sería una proyección de la frontera. Es una conjetura matemáticamente precisa que ha resistido décadas de escrutinio.
 
@@ -182,4 +182,4 @@ Incluso dentro de la física teórica, esto es muy especulativo, y extenderlo a 
 >
 > **Si solo te quedas con una idea:** La información de un agujero negro no está en su interior, sino en su borde. Como si tu vida no estuviera en lo que te pasó, sino en cómo lo relacionas; y tu identidad no estuviera en ninguna de tus partes, sino en el patrón que forman juntas, un patrón que nadie puede ver desde fuera, pero que tú sientes desde dentro, aunque no sepas dónde termina.
 >
-> **Lecturas:** Michell (1783); Schwarzschild (1916); Oppenheimer & Snyder (1939); Hawking (1974), «Black Hole Explosions?»; Bekenstein (1973); Maldacena (1997), «The Large N limit...»; Maldacena & Susskind (2013), «ER=EPR»; Hawking, Perry & Strominger (2016), «Soft Hair on Black Holes»; Event Horizon Telescope Collaboration (2019, 2022); LIGO/Virgo Collaboration (2015-).
+> **Lecturas:** Michell (1783); Schwarzschild (1916); Oppenheimer & Snyder (1939); Hawking (1974), «Black Hole Explosions?»; Bekenstein (1973); Maldacena (1998), «The Large N limit of superconformal field theories and supergravity»; Maldacena & Susskind (2013), «Cool horizons for entangled black holes» (la conjetura ER=EPR); Hawking, Perry & Strominger (2016), «Soft Hair on Black Holes»; Event Horizon Telescope Collaboration (2019, 2022); LIGO/Virgo Collaboration (2015-).

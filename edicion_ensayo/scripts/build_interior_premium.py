@@ -41,6 +41,7 @@ from reportlab.platypus import (
     PageTemplate,
     Paragraph,
     Spacer,
+    TableStyle,
 )
 from reportlab.platypus.tableofcontents import TableOfContents
 
@@ -68,6 +69,13 @@ FAMILY = {
 
 
 FALLBACK_FONT = "EcoFallback"
+# Primer recurso para lo que Source Serif Pro no tiene (sobre todo Φ): una
+# serif, para que el símbolo no salga en letra de palo en mitad de la línea.
+SERIF_FALLBACK_FONT = "EcoFallbackSerif"
+SERIF_FALLBACK_CANDIDATES = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
+]
 FALLBACK_CANDIDATES = [
     "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
     "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
@@ -87,18 +95,24 @@ CJK_FALLBACK_CANDIDATES = [
 
 _SAFE_CODEPOINTS: set = set()
 _FALLBACK_CODEPOINTS: set = set()
+_SERIF_FALLBACK_CODEPOINTS: set = set()
 _CJK_FALLBACK_AVAILABLE = False
 
 
 def register_fonts() -> None:
     for _style, (name, fname) in FAMILY.items():
         pdfmetrics.registerFont(TTFont(name, str(FONTS / fname)))
+    # Sin la familia, las marcas <b> e <i> del texto (cursivas de títulos,
+    # negritas de términos) no cambian de fuente y todo sale en redonda.
+    pdfmetrics.registerFontFamily("Eco", normal="Eco", bold="Eco-Sb",
+                                  italic="Eco-It", boldItalic="Eco-SbIt")
     # Sin esto, reportlab referencia Helvetica en cada página aunque no se
     # use, y KDP marca esa fuente como no incrustada.
     rl_config.canvas_basefontname = FAMILY["R"][1]
     rl_config.canvas_basefontname = "Eco"
 
     global _SAFE_CODEPOINTS, _FALLBACK_CODEPOINTS, _CJK_FALLBACK_AVAILABLE
+    global _SERIF_FALLBACK_CODEPOINTS
     from fontTools.ttLib import TTFont as _FTFont
     cmaps = [_FTFont(str(FONTS / fname)).getBestCmap().keys() for _style, (_name, fname) in FAMILY.items()]
     _SAFE_CODEPOINTS = set.intersection(*(set(c) for c in cmaps))
@@ -112,6 +126,12 @@ def register_fonts() -> None:
         print("warning: no fallback Unicode font found; symbols missing from "
               "Source Serif Pro (math notation, some diacritics) may render "
               "blank.", file=sys.stderr)
+
+    for path in SERIF_FALLBACK_CANDIDATES:
+        if Path(path).exists():
+            pdfmetrics.registerFont(TTFont(SERIF_FALLBACK_FONT, path))
+            _SERIF_FALLBACK_CODEPOINTS = set(_FTFont(path).getBestCmap().keys())
+            break
 
     for path in CJK_FALLBACK_CANDIDATES:
         if Path(path).exists():
@@ -369,7 +389,7 @@ def build_styles(body_leading: float = 16.4) -> dict:
     styles = {
         "Body": ParagraphStyle(
             "Body", fontName=R, fontSize=11.0, leading=body_leading, alignment=4,
-            spaceAfter=8, textColor=INK,
+            spaceAfter=8, textColor=INK, allowWidows=0,
         ),
         "Quote": ParagraphStyle(
             "Quote", fontName=IT, fontSize=10.4, leading=15.0, leftIndent=20,
@@ -377,11 +397,11 @@ def build_styles(body_leading: float = 16.4) -> dict:
         ),
         "H2": ParagraphStyle(
             "H2", fontName=BD, fontSize=13.5, leading=17, spaceBefore=14,
-            spaceAfter=7, textColor=INK,
+            spaceAfter=7, textColor=INK, keepWithNext=1,
         ),
         "H3": ParagraphStyle(
             "H3", fontName=BD, fontSize=11.6, leading=15, spaceBefore=10,
-            spaceAfter=5, textColor=INK,
+            spaceAfter=5, textColor=INK, keepWithNext=1,
         ),
         "Caption": ParagraphStyle(
             "Caption", fontName=IT, fontSize=8.6, leading=11.4, alignment=1,
@@ -529,16 +549,21 @@ def title_page(story: list, toc: dict) -> None:
 def credits_page(story: list, toc: dict, sin_ilustraciones: bool = False) -> None:
     story.append(ForceParity(0, TEXT_H))
     story.append(Spacer(1, TEXT_H * 0.5))
+    rights_line = toc.get("rights_line", "Todos los derechos reservados.")
+    illustrations_line = toc.get(
+        "illustrations_credit",
+        "Las ilustraciones proceden de la edición ilustrada de la misma obra.")
+    typeset_line = toc.get("typeset_credit", "Compuesto en Source Serif Pro.")
     lines = [
         (toc.get("title", BOOK_TITLE), IT),
         (toc.get("subtitle", ""), R),
-        ("© " + toc.get("author", "") + ". Todos los derechos reservados.", R),
+        ("© " + toc.get("author", "") + ". " + rights_line, R),
         *[(c, R) for c in toc.get("credits", [
             "Los capítulos de ensayo proceden de la obra completa El Horizonte Interior "
             "y se reproducen aquí en su orden de lectura, junto con las lecturas "
             "topológicas y el aparato final."])],
-        (None if sin_ilustraciones else "Las ilustraciones proceden de la edición ilustrada de la misma obra.", R),
-        ("Compuesto en Source Serif Pro.", R),
+        (None if sin_ilustraciones else illustrations_line, R),
+        (typeset_line, R),
     ]
     for text, font in lines:
         if not text:
@@ -548,35 +573,106 @@ def credits_page(story: list, toc: dict, sin_ilustraciones: bool = False) -> Non
                                                leading=12.6, textColor=INK, spaceAfter=8)))
 
 
-def dedication_page(story: list) -> None:
+def dedication_page(story: list, toc: dict) -> None:
     story.append(ForceParity(1, TEXT_H))
     story.append(Spacer(1, TEXT_H * 0.42))
+    dedication = toc.get(
+        "dedication",
+        "A quien se quedó en la orilla<br/>cuando el agua se retiró.")
     story.append(Paragraph(
-        '<para alignment="center"><i>A quien se quedó en la orilla<br/>'
-        'cuando el agua se retiró.</i></para>',
+        f'<para alignment="center"><i>{dedication}</i></para>',
         ParagraphStyle("Dedic", fontName=IT, fontSize=11.6, leading=18, textColor=INK)))
 
 
-def toc_page(story: list) -> None:
+def toc_page(story: list, toc: dict) -> None:
     story.append(SetFolio(False))
     story.append(ForceParity(1, TEXT_H))
-    story.append(SmallCapsFlowable("Índice", R, 15, INK, spacing=4.0, space_after=16))
+    toc_label = toc.get("toc_label", "Índice" if gbp.is_spanish(toc) else "Contents")
+    story.append(SmallCapsFlowable(toc_label, R, 15, INK, spacing=4.0, space_after=16))
     toc = TableOfContents()
     toc.levelStyles = [TOC_LEVEL0, TOC_LEVEL1]
     toc.dotsMinLevel = 1
     toc.rightColumnWidth = TOC_RIGHT_COLUMN
+    # La tabla interna del índice declara Helvetica por defecto aunque no
+    # escriba nada con ella, y KDP la marca como fuente no incrustada.
+    toc.tableStyle = TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"),
+                                 ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                                 ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                                 ("FONT", (0, 0), (-1, -1), R)])
     story.append(toc)
 
 
-def colophon_page(story: list) -> None:
+def part_title_page(story: list, section: str, styles: dict) -> None:
+    """Portadilla de parte: una impar sin folio ni cabecera, con el nombre de
+    la parte («PRIMERA PARTE») y su título, antes del primer capítulo."""
+    kicker, _, name = section.partition(":")
+    story.append(ForceParity(1, TEXT_H))
+    story.append(SetFolio(False))
+    story.append(Spacer(1, TEXT_H * 0.36))
+    if name.strip():
+        story.append(SmallCapsFlowable(kicker.strip(), IT, 10, AMBER, spacing=2.4,
+                                        align="center", space_after=12))
+        title = name.strip()
+    else:
+        title = kicker.strip()
+    story.append(Paragraph(gbp.escape_xml(title),
+                           ParagraphStyle("PartTitle", parent=styles["ChapterTitle"],
+                                          alignment=1, fontSize=19, leading=24)))
+    story.append(WaveDivider(46, GOLD, space_before=12))
+    story.append(ForceParity(0, TEXT_H))
+    story.append(SetFolio(True))
+
+
+_INLINE_ILLUS_BLOCK_RE = re.compile(
+    r'^##\s*\[(?:ILUSTRACI[ÓO]N|ILLUSTRATION)\s*([\w.]*)?:?\s*"[^"]+"\]\s*\n'
+    r'(?:[ \t]*\n)*(?:[ \t]*\*[^\n]*\*[ \t]*\n)?', re.MULTILINE)
+
+
+def _image_key(ref: str, illustrations: dict, base_dir: Path):
+    src = illustrations.get(ref, ref)
+    if gbp.is_url(src):
+        return src
+    path = gbp.resolve_path(base_dir, src)
+    return path.read_bytes() if path.exists() else str(path)
+
+
+_USED_IMAGE_KEYS: list = []
+
+
+def drop_inline_duplicates(body: str, plate_ref: str, illustrations: dict, base_dir: Path) -> str:
+    """Quita las ilustraciones intercaladas que repiten una imagen ya puesta
+    antes en el libro: la lámina del propio capítulo o cualquier imagen de un
+    capítulo anterior (p. ej. la lámina del cap. 9 reutilizada en el 19).
+    Se llama en el orden del libro, así que lo «anterior» es lo ya compuesto."""
+    if plate_ref:
+        plate_key = _image_key(plate_ref, illustrations, base_dir)
+        if plate_key not in _USED_IMAGE_KEYS:
+            _USED_IMAGE_KEYS.append(plate_key)
+
+    def repl(m):
+        iid = m.group(1)
+        if not (iid and iid in illustrations):
+            return m.group(0)
+        key = _image_key(iid, illustrations, base_dir)
+        if key in _USED_IMAGE_KEYS:
+            return ""
+        _USED_IMAGE_KEYS.append(key)
+        return m.group(0)
+    return _INLINE_ILLUS_BLOCK_RE.sub(repl, body)
+
+
+def colophon_page(story: list, toc: dict) -> None:
     story.append(SetFolio(False))
     story.append(ForceParity(0, TEXT_H))
     story.append(Spacer(1, TEXT_H * 0.4))
     story.append(WaveDivider(46, GOLD, space_after=14))
+    colophon = toc.get(
+        "colophon",
+        "Se acabó de componer este volumen<br/>"
+        "sin haber demostrado nada,<br/>"
+        "tal como estaba previsto desde la primera página.")
     story.append(Paragraph(
-        '<para alignment="center"><i>Se acabó de componer este volumen<br/>'
-        'sin haber demostrado nada,<br/>'
-        'tal como estaba previsto desde la primera página.</i></para>',
+        f'<para alignment="center"><i>{colophon}</i></para>',
         ParagraphStyle("Colo", fontName=IT, fontSize=10.4, leading=16, textColor=INK)))
 
 
@@ -605,6 +701,8 @@ def _wrap_missing_glyphs_plain(text: str) -> str:
     def font_for(ch: str) -> Optional[str]:
         if ch.isspace() or ord(ch) in _SAFE_CODEPOINTS:
             return None
+        if ord(ch) in _SERIF_FALLBACK_CODEPOINTS:
+            return SERIF_FALLBACK_FONT
         if ord(ch) in _FALLBACK_CODEPOINTS:
             return FALLBACK_FONT
         if _CJK_FALLBACK_AVAILABLE:
@@ -709,9 +807,19 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
     half_title(story)
     title_page(story, toc)
     credits_page(story, toc, sin_ilustraciones)
-    dedication_page(story)
-    toc_page(story)
+    dedication_page(story, toc)
+    toc_page(story, toc)
     story.append(SetFolio(True))
+
+    # Cuántos capítulos tiene cada parte: las de un solo capítulo (el
+    # interludio) no llevan portadilla propia.
+    section_sizes: dict = {}
+    for ch in toc["chapters"]:
+        fm = gbp.parse_frontmatter(gbp.resolve_path(base_dir, ch["content_file"]).read_text(encoding="utf-8"))[0]
+        sec = ch["section"] if "section" in ch else fm.get("section")
+        if sec:
+            section_sizes[sec] = section_sizes.get(sec, 0) + 1
+    last_part = None
 
     for chapter in toc["chapters"]:
         content_file = gbp.resolve_path(base_dir, chapter["content_file"])
@@ -730,6 +838,16 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         section = chapter["section"] if "section" in chapter else frontmatter.get("section")
         chapter_number = str(chapter.get("chapter_number", frontmatter.get("chapterNumber") or "")) or None
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")
+
+        if section and section != last_part:
+            last_part = section
+            if section_sizes.get(section, 0) > 1:
+                part_title_page(story, section, styles)
+
+        # Si una ilustración en línea es la misma imagen que la lámina del
+        # capítulo, se omite: saldría dos veces seguidas.
+        if illustration_ref and not sin_ilustraciones:
+            body = drop_inline_duplicates(body, illustration_ref, illustrations, base_dir)
 
         illustration_bytes = None
         if illustration_ref and not sin_ilustraciones:
@@ -766,7 +884,7 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             flowables.pop()
         story.extend(flowables)
 
-    colophon_page(story)
+    colophon_page(story, toc)
 
     doc.multiBuild(story)
     print(f"Wrote {output_path}  —  {doc.page} páginas, 6 x 9 pulgadas")

@@ -2,13 +2,13 @@
 title: EL TRADUCTOR
 subtitle: (Una lectura topológica de Dalí/Gala, Delibes/Ángeles de Castro y Eliot/Lewes)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 44
+chapterNumber: 45
 illustrationId: il_traductor
 illustrationTitle: El canal de traducción
 illustrationDescription: Dos horizontes desiguales unidos por un canal luminoso. A la izquierda, un horizonte turbulento y sobreexpuesto concentra toda su luz hacia dentro. A la derecha, un horizonte más sereno la recibe y la reemite, ordenada, hacia un exterior de luces lejanas. El canal se deshilacha cerca del segundo horizonte.
 ---
 
-Hay una clase de horizonte que la biografía cultural documenta una y otra vez sin encontrarle nunca un nombre preciso: el genio que no sabe encontrar el banco. El compositor incapaz de firmar un contrato sin ayuda. El pintor que, a los setenta años, no sabría calentarse una sopa sin quemar la cazuela. Es un reparto de tareas. Es el violinista de nivel mundial que nunca aprendió a conducir, porque las horas que otros pasaron aprendiendo él las pasó, desde los cinco años, con el violín bajo la barbilla.
+Hay una clase de horizonte que la biografía cultural documenta una y otra vez sin encontrarle nunca un nombre preciso: el genio que no sabe encontrar el banco. El compositor incapaz de firmar un contrato sin ayuda. El pintor que, a los setenta años, no sabría calentarse una sopa sin quemar la cazuela. El violinista de nivel mundial que nunca aprendió a conducir, porque las horas que otros pasaron aprendiendo él las pasó, desde los cinco años, con el violín bajo la barbilla.
 
 ---
 
@@ -107,7 +107,7 @@ Conviene no forzar aquí el paralelismo con Dalí o con Delibes. Eliot no quedó
 
 Las tres historias tienden a contarse como leyendas de amor. Merece la pena resistirse a esa lectura, al menos en parte. Una estructura en la que un horizonte concentra casi toda su energía en un registro y delega el resto en otro no es, por sí misma, admirable ni condenable: es una arquitectura con costes concretos. Y el coste rara vez se reparte igual.
 
-De Gala sabemos, gracias en parte a su propio empeño en gestionar también su reputación, bastante más de lo que solemos saber de un traductor doméstico: tuvo amantes, mantuvo un castillo propio, dejó constancia documental de su ambición, y hasta un diario que escribió solo para sí y que nadie leyó hasta treinta años después de su muerte. De Ángeles de Castro hemos recuperado más de lo que el mito reconoce (un seudónimo público, un discurso académico, una exposición institucional), pero cada una de esas piezas la nombra a través de la voz de otro: el marido que firmaba, el marido que hablaba, el marido cuyos hijos organizaron el homenaje. La asimetría no está en que de una sepamos más y de la otra menos, sino en que Gala, en algún momento, escribió para sí misma sabiendo que nadie iba a leerla todavía. Ángeles de Castro nunca tuvo ese cuaderno propio o, si lo tuvo, no ha llegado hasta nosotros. La conocemos casi por entero a través de la memoria de Nicolás, es decir, de la memoria de Delibes. Cien años después, la historia de la pareja es la que cuenta ese diario.
+De Gala sabemos, gracias en parte a su propio empeño en gestionar también su reputación, bastante más de lo que solemos saber de un traductor doméstico: tuvo amantes, mantuvo un castillo propio, dejó constancia documental de su ambición, y hasta un diario que escribió solo para sí y que nadie leyó hasta treinta años después de su muerte. De Ángeles de Castro hemos recuperado más de lo que el mito reconoce (un seudónimo público, un discurso académico, una exposición institucional), pero cada una de esas piezas la nombra a través de la voz de otro: el marido que firmaba, el marido que hablaba, el marido cuyos hijos organizaron el homenaje. La asimetría no está en que de una sepamos más y de la otra menos, sino en que Gala, en algún momento, escribió para sí misma sabiendo que nadie iba a leerla todavía. Ángeles de Castro nunca tuvo ese cuaderno propio o, si lo tuvo, no ha llegado hasta nosotros. La conocemos casi por entero a través de la memoria de Nicolás, es decir, de la memoria de Delibes. Medio siglo después, la historia de la pareja sigue siendo la que él contó.
 
 De Lewes, en cambio, sabemos casi tanto como de Eliot, y por la misma vía: escribió y publicó bajo su propio nombre durante toda su vida, y su obra (filosófica, científica, dramática) sobrevive con independencia de la de ella. Eso rompe, al menos en este caso, la regla que los dos primeros ejemplos parecían establecer: la asimetría de archivo no depende solo de quién traduce y quién es traducido, sino de si el traductor tenía además una voz propia que el mundo ya escuchaba antes de conocer al genio. Gala y Ángeles de Castro no la tenían. Lewes sí.
 
@@ -125,7 +125,7 @@ Lo que esta lectura describe es una lente que agranda el duelo: cuando lo perdid
 
 ---
 
-> **Nota al Capítulo 44**
+> **Nota al Capítulo 45**
 >
 > **Lo que sí sabemos:** La gestión de Gala sobre la carrera y los contratos de Dalí, y el silencio creativo de Dalí tras la muerte de ella en 1982, están ampliamente documentados por sus biógrafos. Ian Gibson documenta que en 1941 fue Gala quien impulsó activamente el giro de Dalí hacia el clasicismo, dejando atrás su etapa surrealista. La carta de Gala a su padrastro Dimitri Gomberg (1943) y el diario inédito de Gala, publicado en 2011, están catalogados en el Centro de Estudios Dalinianos y fueron centrales en la exposición del MNAC de 2018. La muerte de Ángeles de Castro, esposa de Miguel Delibes, el 22 de noviembre de 1974, y la relación autobiográfica entre esa pérdida y *Señora de rojo sobre fondo gris* (1991), están confirmadas por el propio Delibes y sus biógrafos, así como su discurso de ingreso en la Real Academia Española (1975), la respuesta pública de Julián Marías en ese mismo acto, y su rechazo de la dirección de *El País* en esos años. La memoria transactiva de Wegner y la mente extendida de Clark y Chalmers son marcos establecidos en psicología social y filosofía de la mente, respectivamente. La relación entre Marian Evans (George Eliot) y George Henry Lewes, su papel en el paso de Evans de la traducción y la crítica a la ficción, la elección del seudónimo masculino, la gestión de los contratos con John Blackwood y la muerte de Lewes en 1878, están documentados en las biografías estándar de ambos y discutidos específicamente en Rilett (2017).
 >
