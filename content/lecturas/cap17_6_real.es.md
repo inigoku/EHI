@@ -33,7 +33,7 @@ La clonación de Cuartetera parecía, a primera vista, una apuesta por la inmort
 
 Cambiaso no fue el primero en clonar un caballo, pero sí quien llevó la técnica al centro del deporte de élite. Primero clonó a Aiken Cura, otro de sus caballos estrella; luego llegaron las Cuarteteras. La prensa habló de revolución genética, de batalla legal, de polémica ética. Pocos hablaron de lo que la operación prometía en secreto: que quizá el vínculo, una vez encontrado, no tuviera por qué terminar.
 
-> **En física esto se llama:** duplicación de la arquitectura formal sin duplicación de la historia informacional.
+> **En el vocabulario de este experimento esto se llama:** duplicación de la arquitectura formal sin duplicación de la historia informacional.
 
 La promesa del genoma es que la identidad vive en la secuencia: si copias la secuencia, copias al ser. La hipótesis de este libro va por otro lado: la identidad no está en las partes, sino en cómo se relacionan entre sí. No eres tu genoma, sino el horizonte que ese genoma condensó en un cuerpo, en un tiempo y junto a otros.
 
