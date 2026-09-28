@@ -1,7 +1,7 @@
 ---
 title: THE CALIBRATION OF THE HORIZON
 subtitle: (Orientation, identity and sex are neither choice nor error)
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 33
 illustrationId: il_calibracion
 illustrationTitle: The calibration of the horizon

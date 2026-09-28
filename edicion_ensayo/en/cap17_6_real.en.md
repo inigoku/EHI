@@ -1,6 +1,6 @@
 ---
 title: ADOLFO CAMBIASO AND THE MARE WHO DOES NOT FIT IN HER DNA
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 37
 illustrationId: il_clon
 illustrationTitle: The clone and the horizon

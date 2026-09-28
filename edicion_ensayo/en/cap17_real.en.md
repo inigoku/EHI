@@ -1,6 +1,6 @@
 ---
 title: PETS AND THE HORIZON
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 26
 linkedCuentosId: cuento15
 illustrationId: il_mascotas

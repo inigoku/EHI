@@ -1,7 +1,7 @@
 ---
 title: THE BORDERLINE CASES
 subtitle: (Variants of human and artificial gestation in light of the previous chapter's two selections)
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 32
 illustrationId: il_ia
 illustrationTitle: The machine that looks into the water

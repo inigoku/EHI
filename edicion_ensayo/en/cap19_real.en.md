@@ -1,6 +1,6 @@
 ---
 title: WHAT THE HYPOTHESIS CANNOT SAY
-section: "PART FOUR: THE LIMIT OF THE EXPERIMENT"
+section: PART FOUR: THE LIMIT OF THE EXPERIMENT
 chapterNumber: 51
 illustrationId: il_mapayterritorio
 illustrationTitle: The limit of the experiment

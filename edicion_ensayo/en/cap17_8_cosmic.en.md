@@ -1,6 +1,6 @@
 ---
 title: NON-EUCLIDEAN GEOMETRIES AND COSMIC HORROR
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 41
 linkedCuentosId: cuento_mussara
 illustrationId: il17_8_cosmic

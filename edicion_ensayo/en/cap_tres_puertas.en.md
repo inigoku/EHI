@@ -1,7 +1,7 @@
 ---
 title: THE THREE OPEN DOORS
 subtitle: (Bond, non-transferability and loss in the light of information theory)
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 35
 illustrationId: il_tres_puertas
 illustrationTitle: The three doors

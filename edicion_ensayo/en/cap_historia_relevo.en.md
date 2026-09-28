@@ -1,7 +1,7 @@
 ---
 title: STORY OF A RELAY
 subtitle: (The idea that crossed every horizon)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 44
 illustrationId: il_relevo_patron
 illustrationTitle: The pattern that is transmitted

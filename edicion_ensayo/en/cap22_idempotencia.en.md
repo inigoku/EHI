@@ -1,6 +1,6 @@
 ---
 title: THE IDEMPOTENCE OF BEING
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 23
 illustrationId: il22_1
 illustrationTitle: The idempotence of being

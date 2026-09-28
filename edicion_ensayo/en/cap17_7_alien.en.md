@@ -1,6 +1,6 @@
 ---
 title: ALIEN HORIZONS AND FIRST CONTACT
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 39
 illustrationId: il17_7_alien
 illustrationTitle: Alien horizons

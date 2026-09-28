@@ -1,6 +1,6 @@
 ---
 title: ENTANGLEMENT WITH PLACES, THINGS AND IDEAS
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 27
 illustrationId: il_inanimado
 illustrationTitle: Entanglement with the inanimate

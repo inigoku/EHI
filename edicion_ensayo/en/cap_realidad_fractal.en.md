@@ -1,7 +1,7 @@
 ---
 title: FRACTAL REALITY
 subtitle: (On imagination as creation)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 49
 linkedCuentosId: cuento_dragon
 illustrationId: il_fractal

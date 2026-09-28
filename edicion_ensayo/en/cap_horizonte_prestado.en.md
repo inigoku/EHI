@@ -1,7 +1,7 @@
 ---
 title: THE BORROWED BODY, THE WHOLE MILLIPEDE AND THE EDITED CENTURY
 subtitle: (A topological reading of All Our Wrong Todays, Slaughterhouse-Five and The End of Eternity)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 48
 illustrationId: il_horizonte_prestado
 illustrationTitle: The borrowed body

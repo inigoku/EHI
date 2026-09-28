@@ -1,5 +1,5 @@
 ---
-title: "PROLOGUE: THE EXPERIMENT"
+title: PROLOGUE: THE EXPERIMENT
 illustrationId: il_prologo
 illustrationTitle: The experiment
 illustrationDescription: A micro black hole surrounded by a bright horizon, with neural connections converging on the center, symbolizing the book's hypothesis.

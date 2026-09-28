@@ -1,6 +1,6 @@
 ---
 title: PARKINSON'S, TRAUMA AND OTHER BROKEN GEOMETRIES
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 19
 linkedCuentosId: cuento13
 illustrationId: il_parkinson

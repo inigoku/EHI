@@ -1,7 +1,7 @@
 ---
 title: THE PROTOCOL AND THE BRIDGE
 subtitle: (A topological reading of Project Hail Mary, Embassytown, The Left Hand of Darkness, Children of Time and Semiosis)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 46
 illustrationId: il_protocolo
 illustrationTitle: The protocol and the bridge

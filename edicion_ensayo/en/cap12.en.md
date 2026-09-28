@@ -1,6 +1,6 @@
 ---
 title: EMPATHY AND ITS LIMIT
-section: "PART TWO: THE BONDED HORIZON"
+section: PART TWO: THE BONDED HORIZON
 chapterNumber: 16
 linkedCuentosId: cuento11
 illustrationId: il16

@@ -549,16 +549,21 @@ def title_page(story: list, toc: dict) -> None:
 def credits_page(story: list, toc: dict, sin_ilustraciones: bool = False) -> None:
     story.append(ForceParity(0, TEXT_H))
     story.append(Spacer(1, TEXT_H * 0.5))
+    rights_line = toc.get("rights_line", "Todos los derechos reservados.")
+    illustrations_line = toc.get(
+        "illustrations_credit",
+        "Las ilustraciones proceden de la edición ilustrada de la misma obra.")
+    typeset_line = toc.get("typeset_credit", "Compuesto en Source Serif Pro.")
     lines = [
         (toc.get("title", BOOK_TITLE), IT),
         (toc.get("subtitle", ""), R),
-        ("© " + toc.get("author", "") + ". Todos los derechos reservados.", R),
+        ("© " + toc.get("author", "") + ". " + rights_line, R),
         *[(c, R) for c in toc.get("credits", [
             "Los capítulos de ensayo proceden de la obra completa El Horizonte Interior "
             "y se reproducen aquí en su orden de lectura, junto con las lecturas "
             "topológicas y el aparato final."])],
-        (None if sin_ilustraciones else "Las ilustraciones proceden de la edición ilustrada de la misma obra.", R),
-        ("Compuesto en Source Serif Pro.", R),
+        (None if sin_ilustraciones else illustrations_line, R),
+        (typeset_line, R),
     ]
     for text, font in lines:
         if not text:
@@ -568,19 +573,22 @@ def credits_page(story: list, toc: dict, sin_ilustraciones: bool = False) -> Non
                                                leading=12.6, textColor=INK, spaceAfter=8)))
 
 
-def dedication_page(story: list) -> None:
+def dedication_page(story: list, toc: dict) -> None:
     story.append(ForceParity(1, TEXT_H))
     story.append(Spacer(1, TEXT_H * 0.42))
+    dedication = toc.get(
+        "dedication",
+        "A quien se quedó en la orilla<br/>cuando el agua se retiró.")
     story.append(Paragraph(
-        '<para alignment="center"><i>A quien se quedó en la orilla<br/>'
-        'cuando el agua se retiró.</i></para>',
+        f'<para alignment="center"><i>{dedication}</i></para>',
         ParagraphStyle("Dedic", fontName=IT, fontSize=11.6, leading=18, textColor=INK)))
 
 
-def toc_page(story: list) -> None:
+def toc_page(story: list, toc: dict) -> None:
     story.append(SetFolio(False))
     story.append(ForceParity(1, TEXT_H))
-    story.append(SmallCapsFlowable("Índice", R, 15, INK, spacing=4.0, space_after=16))
+    toc_label = toc.get("toc_label", "Índice" if gbp.is_spanish(toc) else "Contents")
+    story.append(SmallCapsFlowable(toc_label, R, 15, INK, spacing=4.0, space_after=16))
     toc = TableOfContents()
     toc.levelStyles = [TOC_LEVEL0, TOC_LEVEL1]
     toc.dotsMinLevel = 1
@@ -653,15 +661,18 @@ def drop_inline_duplicates(body: str, plate_ref: str, illustrations: dict, base_
     return _INLINE_ILLUS_BLOCK_RE.sub(repl, body)
 
 
-def colophon_page(story: list) -> None:
+def colophon_page(story: list, toc: dict) -> None:
     story.append(SetFolio(False))
     story.append(ForceParity(0, TEXT_H))
     story.append(Spacer(1, TEXT_H * 0.4))
     story.append(WaveDivider(46, GOLD, space_after=14))
+    colophon = toc.get(
+        "colophon",
+        "Se acabó de componer este volumen<br/>"
+        "sin haber demostrado nada,<br/>"
+        "tal como estaba previsto desde la primera página.")
     story.append(Paragraph(
-        '<para alignment="center"><i>Se acabó de componer este volumen<br/>'
-        'sin haber demostrado nada,<br/>'
-        'tal como estaba previsto desde la primera página.</i></para>',
+        f'<para alignment="center"><i>{colophon}</i></para>',
         ParagraphStyle("Colo", fontName=IT, fontSize=10.4, leading=16, textColor=INK)))
 
 
@@ -796,8 +807,8 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
     half_title(story)
     title_page(story, toc)
     credits_page(story, toc, sin_ilustraciones)
-    dedication_page(story)
-    toc_page(story)
+    dedication_page(story, toc)
+    toc_page(story, toc)
     story.append(SetFolio(True))
 
     # Cuántos capítulos tiene cada parte: las de un solo capítulo (el
@@ -873,7 +884,7 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             flowables.pop()
         story.extend(flowables)
 
-    colophon_page(story)
+    colophon_page(story, toc)
 
     doc.multiBuild(story)
     print(f"Wrote {output_path}  —  {doc.page} páginas, 6 x 9 pulgadas")

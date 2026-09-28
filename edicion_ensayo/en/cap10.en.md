@@ -1,6 +1,6 @@
 ---
 title: ADDICTION
-section: "PART TWO: THE BONDED HORIZON"
+section: PART TWO: THE BONDED HORIZON
 chapterNumber: 14
 linkedCuentosId: cuento6
 illustrationId: il14

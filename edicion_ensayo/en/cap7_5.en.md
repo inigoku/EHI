@@ -1,6 +1,6 @@
 ---
 title: ENTANGLEMENT FOR NON-PHYSICISTS
-section: "PART TWO: THE BONDED HORIZON"
+section: PART TWO: THE BONDED HORIZON
 chapterNumber: 11
 linkedCuentosId: cuento_luthier
 illustrationId: il12

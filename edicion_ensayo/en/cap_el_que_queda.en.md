@@ -1,6 +1,6 @@
 ---
 title: THE ONE WHO REMAINS
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 36
 linkedCuentosId: cuento16
 illustrationId: il_el_que_queda

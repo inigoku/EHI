@@ -1,6 +1,6 @@
 ---
 title: DEATH AS RETURN
-section: "PART ONE: THE CYCLE OF THE HORIZON"
+section: PART ONE: THE CYCLE OF THE HORIZON
 chapterNumber: 7
 illustrationId: il09
 illustrationTitle: Evaporation

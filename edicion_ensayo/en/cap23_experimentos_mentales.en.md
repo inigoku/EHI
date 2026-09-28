@@ -1,6 +1,6 @@
 ---
 title: FOUR EXPERIMENTS FOR A HORIZON
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 24
 linkedChapterId: cap22_idempotencia
 illustrationId: il23_1

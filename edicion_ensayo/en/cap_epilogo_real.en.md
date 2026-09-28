@@ -1,6 +1,6 @@
 ---
 title: THE SHORE
-section: "PART FOUR: THE LIMIT OF THE EXPERIMENT"
+section: PART FOUR: THE LIMIT OF THE EXPERIMENT
 chapterNumber: Epilogue
 illustrationId: il_orilla
 illustrationTitle: The shore

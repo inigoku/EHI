@@ -1,6 +1,6 @@
 ---
 title: THE RESERVOIR
-section: "PART ONE: THE CYCLE OF THE HORIZON"
+section: PART ONE: THE CYCLE OF THE HORIZON
 chapterNumber: 5
 illustrationId: il_oceano_olas
 illustrationTitle: The ocean and the waves

@@ -1,7 +1,7 @@
 ---
 title: THE VESSEL OF CLAY
 subtitle: (Incarnation, vertical entanglement and the geometry of love; a sequel to Fractal Reality)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 50
 linkedCuentosId: cuento_nave_barro
 illustrationId: il_nave_barro

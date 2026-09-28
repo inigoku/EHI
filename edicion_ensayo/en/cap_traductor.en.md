@@ -1,7 +1,7 @@
 ---
 title: THE TRANSLATOR
 subtitle: (A topological reading of Dalí/Gala, Delibes/Ángeles de Castro and Eliot/Lewes)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 45
 illustrationId: il_traductor
 illustrationTitle: The channel of translation

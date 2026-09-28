@@ -1,6 +1,6 @@
 ---
 title: ENTANGLEMENT
-section: "PART TWO: THE BONDED HORIZON"
+section: PART TWO: THE BONDED HORIZON
 chapterNumber: 12
 linkedCuentosId: cuento4
 illustrationId: il12_5
@@ -69,7 +69,7 @@ In love, this produces the grief everyone knows: turning toward where the person
 
 The ghost is the direct consequence of having built a very precise model of someone who is no longer there to generate the signals that model expects.
 
-Physics offers an image: an **incomplete *scrambling***. The other's horizon dissolved and its information was spread through the reservoir, but the surviving horizon is still organized to receive its signals. The integration channels built over twenty years remain open. The entanglement persists even when one of the two poles has disappeared, because it was inscribed in the architecture of the surviving horizon, not only in the relationship between the two.
+Physics offers an image: an incomplete *scrambling*. The other's horizon dissolved and its information was spread through the reservoir, but the surviving horizon is still organized to receive its signals. The integration channels built over twenty years remain open. The entanglement persists even when one of the two poles has disappeared, because it was inscribed in the architecture of the surviving horizon, not only in the relationship between the two.
 
 ### When the bond breaks
 

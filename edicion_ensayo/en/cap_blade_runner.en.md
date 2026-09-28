@@ -1,7 +1,7 @@
 ---
 title: TEARS IN RAIN AND THE SYNTHETIC UNICORN
 subtitle: (Substrate independence and the expiry date of the horizon)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 38
 illustrationId: il_runner
 illustrationTitle: The synthetic unicorn

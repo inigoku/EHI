@@ -1,6 +1,6 @@
 ---
 title: GRIEF
-section: "PART TWO: THE BONDED HORIZON"
+section: PART TWO: THE BONDED HORIZON
 chapterNumber: 17
 linkedCuentosId: cuento10
 illustrationId: il17

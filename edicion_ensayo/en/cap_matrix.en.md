@@ -1,7 +1,7 @@
 ---
 title: THE SILICON CAVE AND THE VIRAL ANOMALY
 subtitle: (A topological reading of The Matrix)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 42
 illustrationId: il_matrix
 illustrationTitle: The silicon cave

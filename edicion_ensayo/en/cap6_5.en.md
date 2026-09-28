@@ -1,7 +1,7 @@
 ---
 title: THE INSTANTIATION CYCLE
 subtitle: (Or: Birth, death and garbage collection)
-section: "PART ONE: THE CYCLE OF THE HORIZON"
+section: PART ONE: THE CYCLE OF THE HORIZON
 chapterNumber: 8
 illustrationId: il09_5
 illustrationTitle: Instantiation

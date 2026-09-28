@@ -1,6 +1,6 @@
 ---
 title: THE MOTHER-CHILD BOND
-section: "PART TWO: THE BONDED HORIZON"
+section: PART TWO: THE BONDED HORIZON
 chapterNumber: 15
 linkedCuentosId: cuento7
 illustrationId: il15

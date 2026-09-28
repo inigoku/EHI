@@ -1,6 +1,6 @@
 ---
 title: BIRTH AS EMERGENCE
-section: "PART ONE: THE CYCLE OF THE HORIZON"
+section: PART ONE: THE CYCLE OF THE HORIZON
 chapterNumber: 6
 linkedCuentosId: cuento2
 illustrationId: il08

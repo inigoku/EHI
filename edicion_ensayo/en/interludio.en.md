@@ -1,5 +1,5 @@
 ---
-title: "INTERLUDE: THE EDGE WE CROSS EVERY NIGHT"
+title: INTERLUDE: THE EDGE WE CROSS EVERY NIGHT
 section: INTERLUDE
 linkedCuentosId: cuento9
 illustrationId: il_int

@@ -1,6 +1,6 @@
 ---
 title: BLACK HOLES FOR NON-PHYSICISTS
-section: "PART ONE: THE CYCLE OF THE HORIZON"
+section: PART ONE: THE CYCLE OF THE HORIZON
 chapterNumber: 2
 illustrationId: il05
 illustrationTitle: A black hole for non-physicists

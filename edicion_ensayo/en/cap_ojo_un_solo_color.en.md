@@ -1,7 +1,7 @@
 ---
 title: THE COLLECTIVE HORIZON
 subtitle: (The one-colored eye: on political belonging and fanaticism)
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 30
 linkedCuentosId: cuento_plaza
 illustrationId: il_ojo

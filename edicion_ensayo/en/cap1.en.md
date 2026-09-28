@@ -1,6 +1,6 @@
 ---
 title: THE SWITCH TRAP
-section: "PART ONE: THE CYCLE OF THE HORIZON"
+section: PART ONE: THE CYCLE OF THE HORIZON
 chapterNumber: 1
 linkedCuentosId: cuento_ladron
 illustrationId: il04

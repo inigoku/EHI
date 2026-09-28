@@ -1,7 +1,7 @@
 ---
 title: CARTOGRAPHY OF THREE SINGULARITIES
 subtitle: (A topological reading of Dalí, Picasso and Miró)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 43
 illustrationId: il_singularidades
 illustrationTitle: Cartography of three singularities

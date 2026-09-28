@@ -1,10 +1,10 @@
 ---
 title: THE COINCIDENCE THAT IS NO ACCIDENT
-section: "PART ONE: THE CYCLE OF THE HORIZON"
+section: PART ONE: THE CYCLE OF THE HORIZON
 chapterNumber: 4
 illustrationId: il06
 illustrationTitle: The five parallels
-illustrationDescription: "Five horizontal panels: ① Degrees (thermometer vs. switch). ② Connection (intact net vs. loose threads). ③ Inaccessibility (a box with light leaking out). ④ Temperature (fast mouse vs. slow elephant). ⑤ Holography (a projector casting a flower from a flat disc)."
+illustrationDescription: Five horizontal panels: ① Degrees (thermometer vs. switch). ② Connection (intact net vs. loose threads). ③ Inaccessibility (a box with light leaking out). ④ Temperature (fast mouse vs. slow elephant). ⑤ Holography (a projector casting a flower from a flat disc).
 ---
 
 The hypothesis of the previous chapter, that consciousness is the interior of an encapsulated informational domain, does not stand on its own: it needs support. There are five structural parallels between the physics of horizons and the neuroscience of consciousness that suggest encapsulation is a pattern appearing in two domains that had no reason to coincide.

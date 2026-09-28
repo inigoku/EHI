@@ -1,7 +1,7 @@
 ---
 title: INFORMATION THEORY AND THE INNER HORIZON
 subtitle: (Or why a formula from 1948 helps us understand that your consciousness does not fit in your skull)
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 34
 illustrationId: il_teoria_informacion
 illustrationTitle: The closed channel

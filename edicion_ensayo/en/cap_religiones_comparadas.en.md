@@ -1,7 +1,7 @@
 ---
 title: FIVE MAPS OF THE SAME HORIZON
 subtitle: (God, the soul and nothingness, compared)
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 28
 illustrationId: il_cinco_mapas
 illustrationTitle: Five maps of the same horizon

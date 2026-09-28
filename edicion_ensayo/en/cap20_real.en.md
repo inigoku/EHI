@@ -1,6 +1,6 @@
 ---
 title: THE EXPERIMENT AS PRACTICE
-section: "PART FOUR: THE LIMIT OF THE EXPERIMENT"
+section: PART FOUR: THE LIMIT OF THE EXPERIMENT
 chapterNumber: 52
 illustrationId: il_practica
 illustrationTitle: The experiment as practice

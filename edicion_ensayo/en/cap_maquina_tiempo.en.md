@@ -1,7 +1,7 @@
 ---
 title: THE BEACH AT THE END OF TIME AND THE BRANCH THAT ISN'T YOU
 subtitle: (A topological reading of The Time Machine, wormholes and the paradoxes of time travel)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 47
 illustrationId: il_maquina_tiempo
 illustrationTitle: The beach at the end of time

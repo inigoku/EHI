@@ -1,7 +1,7 @@
 ---
 title: VERTICAL ENTANGLEMENT
 subtitle: (The invisible tuning fork: on faith, prayer and meditation)
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 29
 linkedCuentosId: cuento_amanezca
 illustrationId: il_diapason

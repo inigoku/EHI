@@ -1,7 +1,7 @@
 ---
 title: THE MIRROR WITHOUT DEPTH
 subtitle: (On the consciousness of artificial intelligence)
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 31
 linkedCuentosId: cuento_estanque
 illustrationId: il_espejo

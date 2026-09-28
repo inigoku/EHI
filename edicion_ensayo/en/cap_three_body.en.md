@@ -1,7 +1,7 @@
 ---
 title: THE DARK FOREST AND THE HOLOGRAPHIC COLLAPSE
 subtitle: (A topological reading of The Three-Body Problem)
-section: "TOPOLOGICAL READINGS"
+section: TOPOLOGICAL READINGS
 chapterNumber: 40
 illustrationId: il_threebody
 illustrationTitle: The holographic collapse

@@ -1,7 +1,7 @@
 ---
 title: THE TABLE OF EQUIVALENCES
 subtitle: (Or: The Rosetta Stone of consciousness)
-section: "PART ONE: THE CYCLE OF THE HORIZON"
+section: PART ONE: THE CYCLE OF THE HORIZON
 chapterNumber: 9
 illustrationId: il_tp
 illustrationTitle: The table of equivalences

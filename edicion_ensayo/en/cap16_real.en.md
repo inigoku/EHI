@@ -1,6 +1,6 @@
 ---
 title: THE WOUNDED HORIZON
-section: "PART THREE: THE LIMITS OF THE HORIZON"
+section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 25
 linkedCuentosId: cuento14
 illustrationId: il_herido

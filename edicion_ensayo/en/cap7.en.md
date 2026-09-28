@@ -1,6 +1,6 @@
 ---
 title: THE TIME OF THE BOND
-section: "PART TWO: THE BONDED HORIZON"
+section: PART TWO: THE BONDED HORIZON
 chapterNumber: 10
 linkedCuentosId: cuento3
 illustrationId: il11

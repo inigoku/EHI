@@ -1,7 +1,7 @@
 ---
 title: ENCAPSULATION
-subtitle: "(Or: Physics turns into philosophy)"
-section: "PART ONE: THE CYCLE OF THE HORIZON"
+subtitle: (Or: Physics turns into philosophy)
+section: PART ONE: THE CYCLE OF THE HORIZON
 chapterNumber: 3
 illustrationId: il05_5
 illustrationTitle: Encapsulation

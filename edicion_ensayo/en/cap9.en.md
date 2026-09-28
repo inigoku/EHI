@@ -1,6 +1,6 @@
 ---
 title: LOVE
-section: "PART TWO: THE BONDED HORIZON"
+section: PART TWO: THE BONDED HORIZON
 chapterNumber: 13
 linkedCuentosId: cuento5
 illustrationId: il13
