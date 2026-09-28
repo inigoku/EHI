@@ -122,7 +122,7 @@ Bekenstein and Hawking calculated the entropy of a black hole, the amount of inf
 
 For a box of books, the information depends on the volume. If you double the side, the volume is multiplied by eight and eight times as many books fit. In a black hole, if you double the radius, the volume is multiplied by eight but the entropy only by four, just like the area.
 
-The information of a black hole depends not on how much space there is inside but on how much edge it has. Each patch of the horizon the size of the Planck length squared (a scale so small it admits no analogy) encodes one bit of information. The horizon of a black hole the size of the Sun would encode ~10^77 bits. That is more information than all the words all humans have ever spoken in all of history.
+The information of a black hole depends not on how much space there is inside but on how much edge it has. Each patch of the horizon the size of the Planck length squared (a scale so small it admits no analogy) encodes one bit of information. The horizon of a black hole with the mass of the Sun would encode about 10⁷⁷ bits. That is more information than all the words all humans have ever spoken in all of history.
 
 This is the **holographic principle**, and its reach is enormous: all the information contained in a volume of space can be fully described by a theory that lives on the surface of that volume. The interior would be a projection of the boundary. It is a mathematically precise conjecture that has withstood decades of scrutiny.
 
@@ -182,4 +182,4 @@ Even within theoretical physics this is highly speculative, and extending it to 
 >
 > **If you take away only one idea:** A black hole's information is not in its interior but at its edge. As if your life were not in what happened to you but in how you relate it; and your identity were not in any of your parts but in the pattern they form together, a pattern no one can see from outside but that you feel from inside, even if you don't know where it ends.
 >
-> **Further reading:** Michell (1783); Schwarzschild (1916); Oppenheimer & Snyder (1939); Hawking (1974), "Black Hole Explosions?"; Bekenstein (1973); Maldacena (1997), "The Large N limit..."; Maldacena & Susskind (2013), "Cool horizons for entangled black holes"; Hawking, Perry & Strominger (2016), "Soft Hair on Black Holes"; Event Horizon Telescope Collaboration (2019, 2022); LIGO/Virgo Collaboration (2015–).
+> **Further reading:** Michell (1783); Schwarzschild (1916); Oppenheimer & Snyder (1939); Hawking (1974), "Black Hole Explosions?"; Bekenstein (1973); Maldacena (1998), "The Large N limit of superconformal field theories and supergravity"; Maldacena & Susskind (2013), "Cool horizons for entangled black holes" (the ER=EPR conjecture); Hawking, Perry & Strominger (2016), "Soft Hair on Black Holes"; Event Horizon Telescope Collaboration (2019, 2022); LIGO/Virgo Collaboration (2015–).

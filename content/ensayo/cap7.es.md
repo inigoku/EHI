@@ -70,7 +70,7 @@ No recordamos el tiempo tal como lo vivimos: lo reconstruimos. Cada vez que evoc
 
 Eso tiene consecuencias importantes para la percepción del tiempo. Dos personas que vivieron lo mismo (un viaje, una discusión, una tarde de lluvia) pueden recordarlo con duraciones muy distintas. Ninguna miente: sus horizontes lo integraron de manera diferente y, al reconstruirlo, generan densidades distintas.
 
-Hay un trastorno que lo ilustra de forma dramática: el síndrome de Capgras. Los pacientes reconocen visualmente a sus seres queridos (la cara es idéntica), pero sienten que son impostores, porque el reconocimiento no va acompañado de afecto: el circuito que une la percepción visual con la memoria emocional está dañado. La consecuencia es inquietante: para estos pacientes, el tiempo con sus seres queridos pierde densidad. Las horas pasan sin que «ocurra» nada, porque falta la integración emocional, la que da peso al tiempo.
+Hay un trastorno que lo ilustra de forma dramática: el síndrome de Capgras. Los pacientes reconocen visualmente a sus seres queridos (la cara es idéntica), pero sienten que son impostores, porque el reconocimiento no va acompañado de afecto: el circuito que une la percepción visual con la memoria emocional está dañado. Si el modelo acierta, la consecuencia sería inquietante: para estos pacientes, el tiempo con sus seres queridos perdería densidad. Las horas pasarían sin que «ocurra» nada, porque faltaría la integración emocional, la que da peso al tiempo.
 
 ### El tiempo en el dolor crónico
 
@@ -91,7 +91,7 @@ Lo mismo ocurre con dos horizontes en resonancia sostenida. El sistema de dos in
 
 Si la tasa de integración determina la densidad del tiempo subjetivo, y si el sistema de dos integra más que la suma de sus partes, el tiempo del vínculo es más denso que el de cualquiera de los dos por separado: no más largo en el reloj, sino más lleno para quien lo vive.
 
-Esas tres horas de conversación que no quieres que terminen no es que parezcan más densas: lo son.
+Esas tres horas de conversación que no quieres que terminen no solo parecen más densas: para quienes las viven, lo son.
 
 ---
 

@@ -66,7 +66,7 @@ A camera has more processing elements than many animal brains. A modern computer
 
 Giulio Tononi proposed that conscious systems do not just process information: they integrate it in a way that cannot be reduced to the sum of their parts. If you split a camera's pixels into two halves, each half processes the same information as before: nothing is lost, because there never was any integration. The surgically divided brain, as in the famous patients whose corpus callosum was severed, does not give rise to two people with half an experience each, but to something more unsettling: under certain conditions, two semi-independent processing systems inhabiting the same body, each with its own point of view.
 
-Tononi formalized this with phi (Φ): the information a system generates as a whole, over and above what its parts would generate independently. Phi is low in a thermostat, high in an awake human brain, intermediate in a dog and strangely distributed in an octopus. And it plummets under anesthesia.
+Tononi formalized this with Phi (Φ): the information a system generates as a whole, over and above what its parts would generate independently. Phi is low in a thermostat, high in an awake human brain, intermediate in a dog and strangely distributed in an octopus. And it plummets under anesthesia.
 
 | System | Phi (approx.) | Experience? |
 | Thermostat | ~0 | No (borderline case) |
@@ -84,7 +84,7 @@ Tononi formalized this with phi (Φ): the information a system generates as a wh
 
 But IIT is not the only theory. Global Workspace Theory (Baars and Dehaene) proposes that consciousness emerges when information becomes globally available in the brain: it enters a "workspace" shared by multiple systems. What matters is not that the information is more integrated, but that it stops being private and becomes available to the rest of the brain. Attention is the spotlight that decides what enters the workspace. Consciousness is what happens inside.
 
-The two theories, IIT and the global workspace, are not incompatible. They might describe the same phenomenon from two angles: IIT from the structure of information, Global Workspace from the dynamics of its broadcast. Neither has been proven, both generate testable predictions and both point in the same direction: consciousness does not work like a switch, but like a dial with many positions.
+The two theories, IIT and the global workspace, are not incompatible. They might describe the same phenomenon from two angles: IIT from the structure of information, the global workspace from the dynamics of its broadcast. Neither has been proven, both generate testable predictions and both point in the same direction: consciousness does not work like a switch, but like a dial with many positions.
 
 ---
 
@@ -92,7 +92,7 @@ The two theories, IIT and the global workspace, are not incompatible. They might
 >
 > **What we do know:** Animal consciousness is no longer a scientific taboo. The Cambridge Declaration (2012) was a turning point. IIT is an active and much-debated theory, with defenders and critics. General anesthesia produces measurable changes in brain connectivity before local activity disappears. Non-human animals show neural correlates of emotional and cognitive experience.
 >
-> **What we don't know:** Where exactly to draw the line. If a thermostat has Φ>0, does it have "some" experience? The question remains open. Whether IIT and the Global Workspace describe the same phenomenon or different ones. Whether consciousness can exist in non-biological systems.
+> **What we don't know:** Where exactly to draw the line. If a thermostat has Φ>0, does it have "some" experience? The question remains open. Whether IIT and the global workspace describe the same phenomenon or different ones. Whether consciousness can exist in non-biological systems.
 >
 > **Open questions:** Can a machine reach a Φ high enough to be "someone"? Where is the threshold between "processing" and "experiencing"? Is an octopus's distributed consciousness "one" experience or "many"? What happens in the gray zone of anesthesia?
 >
