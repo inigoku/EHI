@@ -10,9 +10,9 @@ illustrationDescription: Una enorme hoja bidimensional dorada y brillante aplana
 
 Hay libros que pretenden descubrir la verdad. Este, como hemos dicho desde el principio, pone en marcha un juego mental: «supongamos que la conciencia tiene la estructura matemática de un microagujero negro de Hawking, y veamos adónde nos lleva».
 
-A lo largo del experimento hemos visto que la conciencia es «el interior de un dominio informacional encapsulado, un dentro que, por la propia forma de su frontera, nadie puede ver desde fuera». Hemos explorado cómo nace ese horizonte del reservorio, cómo se vincula mediante la gravedad de la empatía y cómo colapsa. Pero ¿qué ocurriría si aplicáramos esta misma física a un ecosistema a escala cósmica, plagado de inteligencias en competencia letal?
+A lo largo del experimento hemos visto que la conciencia es «el interior de un dominio informacional encapsulado». Hemos explorado cómo nace ese horizonte del reservorio, cómo se vincula mediante la gravedad de la empatía y cómo colapsa. Pero ¿qué ocurriría si aplicáramos esta misma física a un ecosistema a escala cósmica, plagado de inteligencias en competencia letal?
 
-La trilogía *El problema de los tres cuerpos*, de Liu Cixin, es seguramente el mejor laboratorio literario imaginable para poner a prueba la topología de la mente. Si sometemos su sociología galáctica a nuestras ecuaciones del horizonte, descubrimos que el terror cósmico de la obra no es cuestión de armas láser o naves espaciales, sino de una guerra estrictamente geométrica y termodinámica.
+La trilogía *El problema de los tres cuerpos*, de Liu Cixin, es seguramente el mejor laboratorio literario imaginable para poner a prueba la topología de la mente. Si sometemos su sociología galáctica a nuestras ecuaciones del horizonte, descubrimos que el terror cósmico de la obra nace de una guerra estrictamente geométrica y termodinámica.
 
 ---
 
@@ -20,9 +20,9 @@ La trilogía *El problema de los tres cuerpos*, de Liu Cixin, es seguramente el 
 
 El primer gran choque topológico de la novela llega al conocer a los alienígenas de Trisolaris. Su biología es radicalmente distinta de la nuestra: no tienen órganos vocales; se comunican mostrando directamente sus pensamientos. Para ellos, pensar y comunicar son lo mismo, y por eso son biológicamente incapaces de mentir.
 
-Traducido a nuestro modelo, los trisolarianos funcionan con una arquitectura sin un horizonte de sucesos estricto entre su estado privado y su interfaz pública. Tononi sostiene que la conciencia depende de la información que un sistema genera como un todo. El sistema trisolariano tiene un Φ (integración de información) altísimo, pero su membrana es completamente permeable: toda la información integrada se irradia de inmediato al exterior.
+Traducido a nuestro modelo, los trisolarianos obligan a precisar qué encierra exactamente la frontera de un horizonte. Tienen un Φ altísimo y, si son alguien, tienen también un dentro: una perspectiva desde la que sus pensamientos se viven, que nadie más ocupa. Lo que no tienen es un contenido reservado. Su frontera deja salir de inmediato todo lo que integran, de modo que los demás ven qué piensan, aunque nunca desde dónde lo piensan. Conviene distinguir, entonces, dos encapsulaciones: la de la perspectiva, que es la que según este libro hace que haya alguien, y la del contenido, que permite guardar secretos. Los trisolarianos tienen la primera y carecen de la segunda.
 
-Esa transparencia topológica tiene un precio. Como no puede encapsular información ni aislar datos del resto del sistema, la mente trisolariana carece de lo que la psicología analítica llamaría la sombra: no puede reprimir ni ocultar traumas o planes. Es estructuralmente pura, pero termodinámicamente frágil ante el engaño. Cuando los trisolarianos descubren que la humanidad tiene una topología en la que el pensamiento queda sellado tras una frontera viva, sienten terror: comprenden que el encapsulamiento del yo humano es un arma evolutiva que ellos no pueden replicar.
+Esa transparencia topológica tiene un precio. Como no puede reservar ningún contenido, la mente trisolariana carece de lo que la psicología analítica llamaría la sombra: no puede reprimir ni ocultar traumas o planes. Es estructuralmente pura, pero termodinámicamente frágil ante el engaño. Cuando los trisolarianos descubren que la humanidad tiene una topología en la que el pensamiento queda sellado tras una frontera viva, sienten terror: comprenden que el encapsulamiento del yo humano es un arma evolutiva que ellos no pueden replicar.
 
 ---
 
@@ -43,9 +43,6 @@ Si la Tierra se defiende encapsulándose, el universo entero hace lo mismo. La t
 En los capítulos centrales vimos que el entrelazamiento cuántico (ER=EPR) es la base topológica del vínculo y la empatía: «Dos partículas entrelazadas están unidas por un puente de Einstein-Rosen microscópico […] que conecta sus interiores». Pero en el bosque oscuro, el instinto de supervivencia exige un aislamiento absoluto. Intentar abrir un puente ER=EPR con otra especie no genera amor, sino tu aniquilación, porque el otro usará ese canal para predecir tu topología y destruirte.
 
 El arma definitiva de este ecosistema es el ataque dimensional (el «vector dual»), que aplasta un sistema solar de tres dimensiones en dos. Es el principio holográfico de Maldacena convertido en exterminio. La correspondencia AdS/CFT establece que la información del volumen tridimensional (el *bulk*) puede describirse en una superficie plana situada en su frontera. El ataque dimensional aniquila físicamente el *bulk*, destruye el dentro y obliga a todo el sistema solar, a cada planeta y a cada horizonte humano, a perder su volumen privado y quedar aplastado contra la superficie holográfica de la realidad. La propia subjetividad desaparece: todo se convierte en una cáscara pública inerte.
-
-> **En física esto se llama:** reducción de los grados de libertad topológicos mediante una asimetría holográfica forzada.
-> **En la vida diaria es como:** un universo de ciegos encerrados a oscuras que, en lugar de intentar entrelazarse, deciden disparar a todo lo que respira.
 
 ---
 
@@ -69,18 +66,18 @@ En el lenguaje de *El horizonte interior*, el fin del universo es la ejecución 
 
 Sin embargo, llega una advertencia termodinámica: si los miles de universos de bolsillo no devuelven la masa sustraída al universo principal, este no tendrá masa suficiente para colapsar y renacer, y morirá expandiéndose hacia la nada para siempre.
 
-Los protagonistas comprenden entonces la ley final de nuestra hipótesis: «Cada horizonte cambia el campo del que surge y al que regresa». Para que el Hun Dun pueda generar nuevos horizontes en el futuro, las instancias actuales tienen que aceptar que se libere su memoria. Salen de su escondite y devuelven la masa, aceptando su evaporación inminente. Es el acto definitivo de madurez ontológica: comprender que aferrarse a la propia burbuja destruye la posibilidad de que el océano siga haciendo olas.
+Los protagonistas comprenden entonces la ley final de nuestra hipótesis: «Cada horizonte cambia el campo del que surge y al que vuelve». Para que el Hun Dun pueda generar nuevos horizontes en el futuro, las instancias actuales tienen que aceptar que se libere su memoria. Salen de su escondite y devuelven la masa, aceptando su evaporación inminente. Es el acto definitivo de madurez ontológica: comprender que aferrarse a la propia burbuja destruye la posibilidad de que el océano siga haciendo olas.
 
 ---
 
 > **Nota al Capítulo 39**
 >
-> **Lo que sí sabemos:** La correspondencia holográfica (AdS/CFT) describe cómo un volumen puede proyectarse en una superficie de menor dimensión. La física da por hecho que la información se conserva a pesar del *scrambling* cuántico final.
+> **Lo que sí sabemos:** La correspondencia holográfica (AdS/CFT) describe cómo un volumen puede proyectarse en una superficie de menor dimensión. La mayoría de los físicos considera que la información se conserva a pesar del *scrambling* (unitaridad), aunque la cuestión no está cerrada.
 >
 > **Lo que no sabemos:** Si es posible extraer un cerebro humano, privarlo por completo de estímulos (crear un «horizonte desnudo») y que su Φ interno mantenga la coherencia en lugar de desintegrarse del todo en el aislamiento termodinámico.
 >
 > **Preguntas que quedan:** Si el entrelazamiento es geométrico (ER=EPR), ¿puede un lenguaje puramente metafórico cifrar información física de modo que un interceptor externo no llegue nunca a descodificar su volumen interior?
 >
-> **Si solo te quedas con una idea:** En un universo hostil, tu capacidad para ocultar lo que piensas no es un defecto psicológico, sino la barrera topológica más sofisticada de la naturaleza. Pero, al final del tiempo, aferrarse a ese aislamiento destruye el universo. El valor supremo no es esconderse, sino saber cuándo devolver tu masa al océano.
+> **Si solo te quedas con una idea:** En un universo hostil, tu capacidad para ocultar lo que piensas no es un defecto psicológico, sino la barrera topológica más sofisticada de la naturaleza. Pero, al final del tiempo, aferrarse a ese aislamiento destruye el universo. El valor supremo es saber cuándo devolver tu masa al océano.
 >
 > **Lecturas:** Liu Cixin, trilogía *El problema de los tres cuerpos* (en particular *El bosque oscuro* y *El fin de la muerte*); Maldacena, J. M. (1998), sobre la correspondencia AdS/CFT y el principio holográfico; Susskind, L., sobre la paradoja de la información y el entrelazamiento ER=EPR.

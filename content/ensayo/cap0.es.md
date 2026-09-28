@@ -8,7 +8,7 @@ illustrationTitle: Las tres ideas
 illustrationDescription: Tres círculos conectados: Burbuja (esfera con piel brillante), Océano (olas), Red (nudos conectados). Flechas circulares entre ellos.
 ---
 
-Mi madre tiene ochenta años. Lee novelas, no artículos de *Nature*. Cuando le expliqué este libro, me dijo: «Hijo, suena interesante, pero no entiendo nada de agujeros negros.»
+Mi madre tiene ochenta años. Lee novelas, no artículos de *Nature*. Cuando le expliqué este libro, me dijo: «Hijo, suena interesante, pero no entiendo nada de agujeros negros».
 
 Este capítulo es para ella, y para ti si tampoco entiendes nada de agujeros negros. No te preocupes: para seguir este libro no hace falta saber física. Bastan tres ideas, y las tres las conoces ya, aunque no sepas qué nombre reciben en física.
 
@@ -48,14 +48,11 @@ Las tradiciones orientales llevan siglos hablando de esto con otras palabras. El
 
 ## IDEA 3: LA RED
 
-Imagina una red de pesca tendida en el agua. La red no son los nudos sueltos, sino la forma que adoptan al estar conectados. Si cortas un hilo, la red sigue siendo red, pero es una red distinta. Si cortas demasiados hilos, deja de ser red y se convierte en hilos sueltos.
+Imagina una red de pesca tendida en el agua. La red es la forma que adoptan los nudos al estar conectados. Si cortas un hilo, la red sigue siendo red, pero es una red distinta. Si cortas demasiados hilos, deja de ser red y se convierte en hilos sueltos.
 
 Según una teoría llamada IIT (teoría de la información integrada), la conciencia es así: no está en ninguna neurona individual, sino en la forma en que las neuronas se conectan. La «red» de tu cerebro, cuando está lo bastante integrada, genera algo que no está en ninguna de sus partes: un punto de vista, un «dentro».
 
 Eso es lo que la física llama **Phi (Φ)**: una medida de cuánto un sistema es más que la suma de sus partes. Un termostato tiene Phi casi nulo. Un cerebro despierto tiene Phi muy alto. Bajo anestesia general, el Phi del cerebro cae en picado.
-
-> **En física esto se llama:** Phi (Φ), información integrada.  
-> **En la vida diaria es como:** hasta qué punto una red es de verdad una red.
 
 ---
 

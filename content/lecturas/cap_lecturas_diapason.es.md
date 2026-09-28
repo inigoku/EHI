@@ -2,7 +2,7 @@
 title: CINCO MANERAS DE DUDAR EN VOZ ALTA
 subtitle: (Una lectura topológica de El Gran Inquisidor, Silencio, Siddhartha, El séptimo sello y El gorrión)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 51
+chapterNumber: 49
 illustrationId: il_lecturas_diapason
 illustrationTitle: Cinco maneras de dudar en voz alta
 illustrationDescription: Cinco figuras en fila ante un mismo silencio: un inquisidor con una vela, un misionero pisando una imagen, un barquero junto a un río, un caballero medieval ante un tablero de ajedrez y un jesuita con las manos vendadas. Ninguno recibe respuesta; todos siguen.
@@ -12,7 +12,7 @@ Cinco obras ajenas sometidas a la misma pregunta que el capítulo del que nacen:
 
 ### «El Gran Inquisidor»: la libertad como carga insoportable
 
-En el capítulo que Iván le cuenta a Aliosha en *Los hermanos Karamázov*, Cristo regresa a la Sevilla del siglo XVI y es arrestado por su propia Iglesia. El Inquisidor le explica, sin odio, por qué debe morir de nuevo: los hombres no querían la libertad que él les ofreció, ese entrelazamiento vertical sin garantías, sostenido solo por la fe y sin confirmación observable. Querían pan, milagro y autoridad: un código cerrado, no una relación abierta. Leído desde este modelo, el Inquisidor no es un villano cínico, sino alguien que decidió sustituir el entrelazamiento incierto por un protocolo institucional que no exige dudar y que, por eso mismo, según el propio libro, corrompe la geometría que decía proteger. La escena termina sin un argumento ganador: Cristo besa al Inquisidor y se va. Dostoievski no resuelve la disputa; la deja abierta y sin veredicto, como este libro deja las suyas.
+En el capítulo que Iván le cuenta a Aliosha en *Los hermanos Karamázov*, Cristo regresa a la Sevilla del siglo XVI y es arrestado por su propia Iglesia. El Inquisidor le explica, sin odio, por qué debe morir de nuevo: los hombres no querían la libertad que él les ofreció, ese entrelazamiento vertical sin garantías, sostenido solo por la fe y sin confirmación observable. Querían pan, milagro y autoridad: un código cerrado, no una relación abierta. Leído desde este modelo, el Inquisidor es alguien que decidió sustituir el entrelazamiento incierto por un protocolo institucional que no exige dudar y que, por eso mismo, según el propio libro, corrompe la geometría que decía proteger. La escena termina sin un argumento ganador: Cristo besa al Inquisidor y se va. Dostoievski no resuelve la disputa; la deja abierta y sin veredicto, como este libro deja las suyas.
 
 ### *Silencio*: el diapasón que no responde
 

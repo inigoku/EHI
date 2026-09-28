@@ -2,7 +2,7 @@
 title: CINCO MANERAS DE PERDER EL BORDE PROPIO
 subtitle: (Una lectura topológica de 1984, El señor de las moscas, El cero y el infinito, La ola y Los desposeídos)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 52
+chapterNumber: 50
 illustrationId: il_lecturas_ojo
 illustrationTitle: Cinco maneras de perder el borde propio
 illustrationDescription: Cinco escenas de multitud en una sola lámina: una pantalla que vigila, una caracola en una playa, una celda con una ventana estrecha, un aula con brazaletes y una ciudad sin muros. En cada escena, una figura al borde de disolverse en el grupo.
@@ -12,11 +12,11 @@ Cinco obras ajenas sometidas a la misma pregunta que el capítulo del que nacen:
 
 ### *1984*: la composición perfecta
 
-En *1984*, de George Orwell, el Partido no pide adhesión, sino fusión total. El doblepensar (sostener dos creencias contradictorias y aceptar ambas) no es un fallo de la mente de Winston Smith, sino el objetivo final del sistema: eliminar cualquier frontera interior desde la que pudiera juzgarse al Partido desde fuera. Cuando O'Brien le explica que el objetivo del poder es el poder mismo, no describe una ideología con contenido, sino una arquitectura que ha convertido la composición en la única relación posible. En Oceanía no hay agregación: no se permite que sobreviva nada de Winston si el Partido decide disolverlo.
+En *1984*, de George Orwell, el Partido no pide adhesión, sino fusión total. El doblepensar (sostener dos creencias contradictorias y aceptar ambas) es el objetivo final del sistema: eliminar cualquier frontera interior desde la que pudiera juzgarse al Partido desde fuera. Cuando O'Brien le explica que el objetivo del poder es el poder mismo, no describe una ideología con contenido, sino una arquitectura que ha convertido la composición en la única relación posible. En Oceanía no hay agregación: no se permite que sobreviva nada de Winston si el Partido decide disolverlo.
 
 ### *El señor de las moscas*: la condensación sin ideología
 
-Los niños de *El señor de las moscas*, de William Golding, no llevan ninguna ideología a la isla: la fabrican desde cero, en días, sin más materiales que el miedo y la necesidad de pertenecer. La caracola que ordena los turnos de palabra es, durante un tiempo, una tecnología frágil para integrar la discrepancia: quien la sostiene puede hablar y los demás escuchan. Cuando el grupo de Jack la rompe, no rompe un objeto, sino el único mecanismo que permitía a la tribu integrar una voz distinta sin fragmentarse. Lo que queda no es la ausencia de orden, sino un orden nuevo, más denso, que ya no tolera ninguna frecuencia que no sea la suya.
+Los niños de *El señor de las moscas*, de William Golding, no llevan ninguna ideología a la isla: la fabrican desde cero, en días, sin más materiales que el miedo y la necesidad de pertenecer. La caracola que ordena los turnos de palabra es, durante un tiempo, una tecnología frágil para integrar la discrepancia: quien la sostiene puede hablar y los demás escuchan. Cuando el grupo de Jack la rompe, no rompe un objeto, sino el único mecanismo que permitía a la tribu integrar una voz distinta sin fragmentarse. Lo que queda es un orden nuevo, más denso, que ya no tolera ninguna frecuencia que no sea la suya.
 
 ### *El cero y el infinito*: la lealtad a la Idea, no a los hechos
 

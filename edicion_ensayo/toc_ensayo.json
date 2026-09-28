@@ -309,12 +309,12 @@
       "content_file": "../content/ensayo/cap_ojo_un_solo_color.es.md"
     },
     {
-      "id": "cap18_real",
-      "content_file": "../content/ensayo/cap18_real.es.md"
-    },
-    {
       "id": "cap_espejo_sin_profundidad",
       "content_file": "../content/ensayo/cap_espejo_sin_profundidad.es.md"
+    },
+    {
+      "id": "cap18_real",
+      "content_file": "../content/ensayo/cap18_real.es.md"
     },
     {
       "id": "cap_teoria_informacion",
@@ -379,14 +379,6 @@
     {
       "id": "cap_horizonte_prestado",
       "content_file": "../content/lecturas/cap_horizonte_prestado.es.md"
-    },
-    {
-      "id": "cap_lecturas_espejo",
-      "content_file": "../content/lecturas/cap_lecturas_espejo.es.md"
-    },
-    {
-      "id": "cap_lecturas_espejo_lenguaje",
-      "content_file": "../content/lecturas/cap_lecturas_espejo_lenguaje.es.md"
     },
     {
       "id": "cap_lecturas_diapason",

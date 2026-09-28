@@ -19,34 +19,19 @@ También existe la experiencia contraria: una reunión que se alarga sin propós
 
 El mismo reloj y dos experiencias opuestas.
 
-> **En física esto se llama:** la percepción del tiempo no se deriva del tiempo físico: es una propiedad emergente del sistema que percibe.  
-> **En la vida diaria es como:** dos personas que ven la misma película: una dice que se le hizo larga; la otra, que se le pasó volando.
-
 ---
 
 ### El tiempo como propiedad del horizonte
 
 Si la conciencia tiene la estructura de un horizonte, su tiempo es una propiedad interna: no un parámetro externo que el horizonte registra, sino una consecuencia de su manera de integrar. La tasa de integración del sistema, cuánta información nueva incorpora por unidad de tiempo cronológico, determina la densidad del tiempo subjetivo.
 
-Un niño de cuatro años integra a un ritmo altísimo: cada estímulo reconfigura el sistema, cada experiencia es nueva, el horizonte está en expansión constante. Por eso una tarde de verano de la infancia tiene una densidad que una tarde de verano adulta rara vez alcanza. No porque el niño sea más feliz, sino porque procesa más por unidad de tiempo.
+Un niño de cuatro años integra a un ritmo altísimo: cada estímulo reconfigura el sistema, cada experiencia es nueva, el horizonte está en expansión constante. Por eso una tarde de verano de la infancia tiene una densidad que una tarde de verano adulta rara vez alcanza. El niño no es más feliz: procesa más por unidad de tiempo.
 
-> **En física esto se llama:** la tasa de integración determina la densidad temporal.  
-> **En la vida diaria es como:** un niño que lo ve todo por primera vez frente a un adulto que ya lo ha visto todo.
-
-La vejez invierte el proceso: el horizonte tiene patrones muy consolidados y pocas entradas generan integración nueva. Los mayores no mienten cuando dicen que el tiempo pasa más deprisa: por cada hora de reloj, en su horizonte ocurren menos cosas.
-
-> **En física esto se llama:** decrecimiento de la tasa de integración por consolidación de patrones.  
-> **En la vida diaria es como:** leer un libro por décima vez: las páginas pasan más deprisa porque ya sabes lo que ocurre.
+La vejez invierte el proceso: el horizonte tiene patrones muy consolidados y pocas entradas generan integración nueva. Los mayores no mienten cuando dicen que el tiempo pasa más deprisa: por cada hora de reloj, en su horizonte ocurren menos cosas. Es como leer un libro por décima vez: las páginas pasan más deprisa porque ya se sabe lo que ocurre.
 
 El dolor y el aburrimiento confirman el modelo desde el otro lado. El dolor sobrecarga el sistema con una señal que no puede procesar ni ignorar, y la integración se pliega sobre sí misma en un bucle que no avanza. El aburrimiento aparece cuando el sistema no recibe estímulos suficientes para sostener la integración, y el horizonte gira en vacío. En ambos casos, el tiempo cronológico y el subjetivo se desacoplan de forma drástica.
 
-> **En física esto se llama:** desacoplamiento temporal por sobrecarga o subcarga del sistema.  
-> **En la vida diaria es como:** un atasco: las agujas del reloj avanzan, pero tú no llegas a ninguna parte.
-
 El **flujo**, el estado que Csikszentmihalyi documentó en artistas, deportistas y cirujanos, es el caso opuesto. La tasa de integración es máxima, el sistema absorbe y procesa sin fricción, y el tiempo desaparece.
-
-> **En física esto se llama:** régimen de flujo: Phi máximo sin resistencia.  
-> **En la vida diaria es como:** bajar un río a favor de la corriente: vas deprisa, sin esfuerzo, y cuando miras atrás no sabes cuánto has recorrido.
 
 ### El cerebro como mariposa
 
@@ -54,8 +39,7 @@ El neurocientífico David Eagleman propuso una imagen que ilumina todo esto. El 
 
 Así se explica lo que ocurre en las caídas: quienes sufren un accidente de ese tipo cuentan que el tiempo se ralentizó muchísimo. Eagleman lo puso a prueba: dejó caer a voluntarios desde unos treinta metros con un dispositivo en la muñeca que mostraba números demasiado deprisa para leerlos en condiciones normales. Si el tiempo se ralentizara de verdad, podrían leerlos. No pudieron. Lo que ocurre es que el miedo extremo genera una densidad de memoria mucho mayor: al recordar, la caída parece más larga porque hay más «fotogramas» por segundo.
 
-> **En física esto se llama:** la densidad de codificación en la memoria determina la densidad temporal retrospectiva.  
-> **En la vida diaria es como:** una película a cámara lenta: se graba con más fotogramas por segundo y, al reproducirla a velocidad normal, todo parece más lento.
+Esto obliga a separar dos relojes que el lenguaje ordinario confunde. Uno es el tiempo vivido, la duración que se siente mientras algo ocurre; el otro, el tiempo recordado, la duración que se reconstruye después. La densidad de integración actúa sobre los dos en sentidos opuestos. Mientras se integra a toda velocidad no queda atención para vigilar el reloj, y las horas se escapan; pero cada una de esas horas deja mucha memoria escrita, y al mirar atrás parece larga. El aburrimiento hace lo contrario: se arrastra mientras dura y, en el recuerdo, apenas ocupa sitio. Por eso el flujo hace desaparecer el tiempo y, sin embargo, una tarde así se recuerda llena; y por eso los veranos de la infancia, vividos sin mirar el reloj, se recuerdan inmensos. Cuando este libro dice que la integración determina la densidad del tiempo, habla sobre todo del tiempo recordado; lo que desaparece en el flujo es el tiempo vivido.
 
 ### La química del tiempo
 
@@ -75,27 +59,18 @@ La tasa de integración la regulan, minuto a minuto, los neurotransmisores:
 >
 > Lo que casi nadie menciona, y los pacientes describen con una coherencia desconcertante, es que desde dentro esa lentitud no se percibe. El paciente que tarda tres minutos en cruzar una habitación no siente que tarda tres minutos, sino que camina a su ritmo normal. Su horizonte ordena el movimiento a la velocidad de siempre; es el cuerpo el que no lo ejecuta.
 >
-> El tratamiento con levodopa restablece la calibración casi de inmediato, antes incluso de que mejore el movimiento: el tiempo se sincroniza antes que el cuerpo.
->
-> **En física esto se llama:** la dopamina como calibrador del reloj interno.  
-> **En la vida diaria es como:** un reloj que adelanta: crees que llegas tarde, pero es el reloj el que está mal.
+> Algunos pacientes cuentan que, con la levodopa, el tiempo parece volver a su sitio incluso antes de que el movimiento mejore del todo; si es así, el tiempo se sincroniza antes que el cuerpo.
 
 ## [ILUSTRACIÓN 11: "El tiempo del vínculo"]
 *Dos relojes de arena superpuestos: uno para el tiempo cronológico y otro para la densidad del tiempo compartido.*
 
 ### La memoria como constructor del tiempo
 
-No recordamos el tiempo tal como lo vivimos: lo reconstruimos. Cada vez que evocamos algo, el cerebro lo reescribe; añade detalles que no estaban, omite otros que sí, tiñe el recuerdo con el estado de ánimo del momento. La memoria no es un archivo, sino un relato en revisión constante.
+No recordamos el tiempo tal como lo vivimos: lo reconstruimos. Cada vez que evocamos algo, el cerebro lo reescribe; añade detalles que no estaban, omite otros que sí, tiñe el recuerdo con el estado de ánimo del momento. La memoria es un relato en revisión constante.
 
-Eso tiene consecuencias importantes para la percepción del tiempo. Dos personas que vivieron lo mismo (un viaje, una discusión, una tarde de lluvia) pueden recordarlo con duraciones muy distintas. No porque una mienta, sino porque sus horizontes lo integraron de manera diferente y, al reconstruirlo, generan densidades distintas.
-
-> **En física esto se llama:** memoria como proceso reconstructivo, no reproductivo.  
-> **En la vida diaria es como:** dos personas que cuentan la misma historia: una dice que duró horas; la otra, que fue un instante. Ninguna miente: cada una construyó su tiempo.
+Eso tiene consecuencias importantes para la percepción del tiempo. Dos personas que vivieron lo mismo (un viaje, una discusión, una tarde de lluvia) pueden recordarlo con duraciones muy distintas. Ninguna miente: sus horizontes lo integraron de manera diferente y, al reconstruirlo, generan densidades distintas.
 
 Hay un trastorno que lo ilustra de forma dramática: el síndrome de Capgras. Los pacientes reconocen visualmente a sus seres queridos (la cara es idéntica), pero sienten que son impostores, porque el reconocimiento no va acompañado de afecto: el circuito que une la percepción visual con la memoria emocional está dañado. La consecuencia es inquietante: para estos pacientes, el tiempo con sus seres queridos pierde densidad. Las horas pasan sin que «ocurra» nada, porque falta la integración emocional, la que da peso al tiempo.
-
-> **En física esto se llama:** desconexión entre el circuito de reconocimiento y el de valoración afectiva.  
-> **En la vida diaria es como:** ver una película sin sonido: las imágenes están, pero no hay banda sonora que les dé emoción.
 
 ### El tiempo en el dolor crónico
 
@@ -106,22 +81,13 @@ El dolor agudo dilata el tiempo: cada segundo se expande hasta llenar la concien
 
 Los pacientes con dolor crónico lo describen con una precisión que la física debería tomarse en serio: «No es que el tiempo pase despacio o deprisa; es que deja de pasar». El horizonte, saturado por una señal que no puede procesar ni ignorar, deja de generar la novedad que da densidad al tiempo. El resultado es una especie de muerte temporal: la persona sigue viva, pero el tiempo ha dejado de ocurrir.
 
-> **En física esto se llama:** colapso de la tasa de integración por saturación del canal.  
-> **En la vida diaria es como:** una radio atascada en una sola frecuencia: sigue sonando, pero ya no hay música, solo un pitido continuo.
-
 ### El sistema de dos
 
 Cuando dos personas conversan cara a cara, sus patrones de actividad cerebral convergen. El **acoplamiento neuronal** que documentó Uri Hasson en Princeton muestra que el cerebro del oyente no solo procesa lo que dice el hablante, sino que anticipa sus patrones de activación. En las parejas que mejor se entienden, la actividad del oyente *precede* en décimas de segundo a la del hablante: no la sigue, se le adelanta.
 
-> **En física esto se llama:** acoplamiento causal predictivo entre sistemas complejos.  
-> **En la vida diaria es como:** bailar con alguien que conoce tus pasos: no reacciona a lo que haces, porque ya lo sabía antes de que lo hicieras.
-
 Cuando dos cuerdas vibran en frecuencias relacionadas, producen armónicos que no estaban en ninguna de las dos: el sistema de dos cuerdas tiene propiedades que el de una sola no tiene.
 
-Lo mismo ocurre con dos horizontes en resonancia sostenida. El sistema de dos integra más información que la suma de lo que integra cada uno por separado; su Phi conjunto sería mayor que la suma de los Phi individuales. No porque se sumen, sino porque el entrelazamiento abre canales de integración nuevos que solo existen en la relación.
-
-> **En física esto se llama:** Phi del sistema conjunto > suma de los Phi individuales.  
-> **En la vida diaria es como:** dos músicos que improvisan: lo que surge no está en ninguno de los dos por separado.
+Lo mismo ocurre con dos horizontes en resonancia sostenida. El sistema de dos integra más información que la suma de lo que integra cada uno por separado; su Phi conjunto sería mayor que la suma de los Phi individuales. Los Phi no se suman: el entrelazamiento abre canales de integración nuevos que solo existen en la relación.
 
 Si la tasa de integración determina la densidad del tiempo subjetivo, y si el sistema de dos integra más que la suma de sus partes, el tiempo del vínculo es objetivamente más denso que el de cualquiera de los dos por separado.
 
@@ -149,13 +115,7 @@ Cuando dos horizontes han resonado el tiempo suficiente, cada uno empieza a mode
 
 La sensación de ausencia no es la mera constatación de que alguien falta: es el horizonte procesando silencio donde debería haber señal.
 
-> **En física esto se llama:** procesamiento de señal nula: el sistema sigue operando los canales aunque la entrada sea cero.  
-> **En la vida diaria es como:** un teléfono que suena en una habitación vacía: nadie contesta, pero el timbre sigue sonando.
-
-Separado del horizonte con el que resonaba, el tiempo del que queda se vuelve más lento, más pesado, menos denso. No porque haya menos que hacer, sino porque hay menos con quien integrar.
-
-> **En física esto se llama:** asimetría temporal tras la resonancia.  
-> **En la vida diaria es como:** un reloj que sigue marcando horas vacías: pasan, pero no ocurre nada en ellas.
+Separado del horizonte con el que resonaba, el tiempo del que queda se vuelve más lento, más pesado, menos denso. Queda lo mismo por hacer, pero hay menos con quien integrar.
 
 ---
 
@@ -164,7 +124,7 @@ Separado del horizonte con el que resonaba, el tiempo del que queda se vuelve m�
 Si el yo y el otro son dominios encapsulados que interactúan a través de sus horizontes, la estructura y la temporalidad de su conexión pueden modelarse con las relaciones de diseño de la programación orientada a objetos (POO).
 
 #### El paso de mensajes (*message passing*)
-En la concepción original de la POO, la de Alan Kay, lo importante no es la estructura de los datos, sino la comunicación. Dos objetos encapsulados nunca acceden a la memoria interna del otro ni comparten variables `private`; se comunican exclusivamente enviándose **mensajes**.
+En la concepción original de la POO, la de Alan Kay, lo importante es la comunicación entre objetos. Dos objetos encapsulados nunca acceden a la memoria interna del otro ni comparten variables `private`; se comunican exclusivamente enviándose **mensajes**.
 En la interacción humana, el paso de mensajes es la única vía posible. Nunca accedemos directamente a los estados neuronales del otro (no hay lectura directa de su memoria). Enviamos mensajes (palabras, gestos, silencios) que cruzan el canal físico y llegan a su interfaz pública, y es el receptor quien, por dentro, ejecuta sus funciones privadas para interpretarlos y actualizar su propio estado.
 
 #### Relaciones de acoplamiento: asociación, agregación y composición
@@ -188,20 +148,19 @@ La velocidad y la densidad del tiempo del vínculo dependen del protocolo de com
 
 ### El tiempo social
 
-El tiempo no es solo individual, sino también colectivo. Somos la única especie que sincroniza sus ritmos internos a escala masiva. Relojes, horarios, calendarios y husos horarios son tecnologías de coordinación temporal que permiten que millones de horizontes individuales funcionen como un sistema mayor.
+El tiempo también es colectivo. Somos la única especie que sincroniza sus ritmos internos a escala masiva. Relojes, horarios, calendarios y husos horarios son tecnologías de coordinación temporal que permiten que millones de horizontes individuales funcionen como un sistema mayor.
 
 Pero esa sincronización tiene un coste. El tiempo social es un promedio: se come a las dos porque a la mayoría le viene bien, no porque a las dos tengas hambre; se trabaja de nueve a cinco porque lo exige la coordinación productiva, no porque tu cuerpo rinda mejor a esas horas. El resultado es un desajuste crónico entre el tiempo interno y el externo que los cronobiólogos llaman «jet lag social».
 
-> **En física esto se llama:** forzamiento de fase: un sistema oscilante obligado a sincronizarse con una frecuencia que no es la suya.  
-> **En la vida diaria es como:** bailar una coreografía cuando el cuerpo te pide improvisar: sigues el ritmo, pero no es el tuyo.
+> **En física esto se llama:** forzamiento de fase: un sistema oscilante obligado a sincronizarse con una frecuencia que no es la suya.
 
-Los estudios muestran que este desajuste tiene consecuencias medibles para la salud: más riesgo de obesidad, diabetes, depresión y enfermedad cardiovascular. No porque el trabajo sea duro, sino porque el horizonte se ve obligado a integrar en un tiempo que no es el suyo.
+Los estudios muestran que este desajuste tiene consecuencias medibles para la salud: más riesgo de obesidad, diabetes, depresión y enfermedad cardiovascular. La dureza del trabajo importa menos que esto: el horizonte se ve obligado a integrar en un tiempo que no es el suyo.
 
 ---
 
 > **Nota al Capítulo 10**
 >
-> **Lo que sí sabemos:** El acoplamiento neuronal (Hasson, Princeton) es real y medible. La dopamina regula la percepción del tiempo. El experimento de la caída de Eagleman demuestra que el tiempo subjetivo es una construcción de la memoria. El jet lag social tiene efectos documentados sobre la salud. El síndrome de Capgras ilustra la desconexión entre reconocimiento y valoración afectiva.
+> **Lo que sí sabemos:** El acoplamiento neuronal (Hasson, Princeton) es real y medible. La dopamina regula la percepción del tiempo. El experimento de la caída de Eagleman sugiere que la ralentización del tiempo en situaciones de miedo es un efecto de la memoria, no de la percepción. El jet lag social tiene efectos documentados sobre la salud. El síndrome de Capgras ilustra la desconexión entre reconocimiento y valoración afectiva.
 >
 > **Lo que no sabemos:** Si el tiempo del vínculo es «objetivamente» más denso o solo lo es subjetivamente. Cómo medir el Phi de un sistema de dos. Si el tiempo subjetivo puede ser una propiedad física mensurable.
 >

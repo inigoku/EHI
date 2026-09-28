@@ -11,7 +11,7 @@ Cuando miramos al cielo estrellado y nos preguntamos si estamos solos, damos alg
 
 Esa suposición es el antropocentrismo llevado a escala galáctica.
 
-A lo largo de este libro hemos defendido que el «yo» (el ego, la conciencia unificada) no es una sustancia mágica que el universo reparte a partes iguales entre todo lo vivo, sino una topología muy concreta: un horizonte de sucesos informacional, una burbuja que traza un límite estricto entre un estado privado y el reservorio exterior.
+A lo largo de este libro hemos defendido que el «yo» (el ego, la conciencia unificada) es una topología muy concreta: un horizonte de sucesos informacional, una burbuja que traza un límite estricto entre un estado privado y el reservorio exterior.
 
 Pero ¿qué ocurre si la inteligencia alienígena que encontramos no tiene esa geometría? ¿Y si el problema del primer contacto no es de lenguaje, sino de arquitectura topológica?
 
@@ -45,12 +45,9 @@ Imagina a un astronauta humano ante una entidad de horizonte distribuido. Empuja
 
 Pero la entidad no tiene una API fija. Su geometría cambia a cada milisegundo y no tiene un centro con el que resonar. Cuando el humano intente abrazarla informacionalmente, sus predicciones caerán en el vacío, no porque el alienígena sea malvado o incomprensible, sino porque ahí no hay un «alguien» estable con quien tender el puente.
 
-> **En física esto se llama:** incompatibilidad entre los grupos de simetría (gauge) de dos horizontes locales; imposibilidad de termalización conjunta.  
-> **En la vida diaria es como:** intentar abrazar el viento: la intención y la fuerza del abrazo son tuyas, y son reales, pero la forma del otro no te deja sujetarlo.
-
 ### 4. La soledad topológica
 
-Un instrumento bien afinado puede hacer que dos personas rotas vuelvan a encontrar su frecuencia compartida. Pero eso solo funciona porque los dos oyentes son humanos: comparten la misma plantilla de base, el mismo ancho de banda, la misma tragedia de estar encerrados en un cuerpo.
+Una canción bien tocada puede hacer que dos personas rotas vuelvan a encontrar su frecuencia compartida. Pero eso solo funciona porque los dos oyentes son humanos: comparten la misma plantilla de base, el mismo ancho de banda, la misma tragedia de estar encerrados en un cuerpo.
 
 Si un alienígena se sentara a escuchar, no habría madera ni cuerda en el mundo capaz de salvar ese abismo.
 
@@ -68,9 +65,6 @@ Nuestro modelo topológico sugiere una tercera familia de respuestas, más inqui
 
 Con esta lectura, el silencio del cielo no demuestra la soledad cósmica. Demuestra que buscar vida inteligente dando por hecho que se comunicará con ondas de radio moduladas (una tecnología profundamente antropocéntrica, hija de nuestro propio sistema operativo darwiniano) es como buscar el latido de un océano difuso escuchando solo el tictac de un reloj mecánico. El instrumento de búsqueda ya presupone la arquitectura de quien busca.
 
-> **En física esto se llama:** sesgo de detección determinado por la arquitectura del receptor (sesgo antrópico aplicado a los protocolos de señal).
-> **En la vida diaria es como:** oír una conversación en un idioma que no solo no entiendes, sino que ni siquiera reconoces como lenguaje: te suena a ruido de fondo y sigues de largo.
-
 ### 6. Contacto simbólico frente a contacto entrelazado
 
 Si el entrelazamiento directo (ER=EPR) fracasa entre arquitecturas incompatibles, ¿queda alguna forma de contacto genuino? Quizá sí, pero de un orden muy distinto al que la ciencia ficción nos ha acostumbrado a imaginar.
@@ -79,14 +73,11 @@ El entrelazamiento exige resonancia estructural: dos horizontes compatibles vibr
 
 Es plausible que el contacto real con una arquitectura alienígena radicalmente distinta no sea nunca un encuentro cara a cara, un «hola» recíproco entre dos horizontes que se reconocen, sino algo más parecido a encontrar una piedra tallada: la prueba innegable de que hubo una intención organizadora, sin que esa intención llegue nunca a ser accesible desde dentro. Podríamos detectar la arquitectura de una civilización distribuida (una megaestructura, un patrón matemático improbable inscrito en la disposición de un sistema estelar) sin que nuestro horizonte y el suyo llegaran a tocarse jamás. Sabríamos que hubo «alguien». Nunca sabríamos qué se siente al ser ese alguien.
 
-> **En física esto se llama:** transferencia de información sin entrelazamiento directo; inferencia de un Φ ajeno a partir de artefactos, sin acceso al estado privado que los generó.
-> **En la vida diaria es como:** encontrar una carta escrita hace mil años, en un idioma extinto, por alguien cuyo nombre nunca sabrás. Sabes que sintió algo lo bastante fuerte como para escribirlo; nunca sabrás qué fue.
-
 ### 7. La ventana evolutiva como filtro adicional
 
 Hay otra capa de improbabilidad que rara vez aparece en los debates sobre vida extraterrestre: aunque dos civilizaciones desarrollen arquitecturas de conciencia compatibles, la probabilidad de que sus ventanas de existencia tecnológica coincidan es minúscula. Nuestra civilización lleva menos de un siglo emitiendo señales detectables, un parpadeo frente a los miles de millones de años que tiene el universo. Si una civilización compatible existió, floreció y se extinguió (o simplemente cambió de forma, como haría cualquier horizonte que evoluciona) hace diez millones de años, su ventana de contacto se cerró para siempre antes de que la nuestra llegara a abrirse.
 
-En este sentido, el horizonte de sucesos no es solo espacial o arquitectónico, sino también temporal. Dos burbujas compatibles que nunca coinciden en el tiempo son, a efectos prácticos, tan inalcanzables entre sí como dos burbujas incompatibles que coexisten en el mismo instante. Además de una dimensión de forma, la soledad cósmica tiene una dimensión de sincronía: no basta con hablar el mismo idioma; hay que estar despierto en la misma fracción de tiempo cósmico para poder siquiera intentar la conversación.
+En este sentido, el horizonte de sucesos también es temporal. Dos burbujas compatibles que nunca coinciden en el tiempo son, a efectos prácticos, tan inalcanzables entre sí como dos burbujas incompatibles que coexisten en el mismo instante. Además de una dimensión de forma, la soledad cósmica tiene una dimensión de sincronía: no basta con hablar el mismo idioma; hay que estar despierto en la misma fracción de tiempo cósmico para poder siquiera intentar la conversación.
 
 > **En física esto se llama:** solapamiento de las ventanas temporales de detectabilidad tecnológica (parámetro L de la ecuación de Drake).
 > **En la vida diaria es como:** dos personas destinadas a entenderse a la perfección que pasan por la misma ciudad con décadas de diferencia.
@@ -99,14 +90,11 @@ Un horizonte de Φ lo bastante elevado y de arquitectura radicalmente distinta p
 
 Quizá sea esta la versión más quieta y más completa de la soledad topológica: no la falta de contacto, sino la imposibilidad de registrarlo. El universo podría estar lleno de conversaciones que nos atraviesan sin cesar, y nosotros, desde nuestras burbujas darwinianas, perfectamente optimizadas para detectar depredadores y buscar pareja en la sabana africana, seguiríamos mirando al cielo con radiotelescopios, esperando un saludo en una banda de frecuencias que elegimos porque era la que ya sabíamos usar.
 
-> **En física esto se llama:** señal sin receptor compatible; interacción sin observación por parte del sistema receptor.
-> **En la vida diaria es como:** que el viento te roce sin cesar y no tener piel para sentirlo.
-
 ---
 
 > **Nota al Capítulo 38**
 >
-> **Lo que sí sabemos:** La biología terrestre está determinada por principios darwinianos de supervivencia, que moldean nuestras respuestas interoceptivas y nuestra noción de individuo. La integración de información (Φ) varía mucho según la topología de la red neuronal (por ejemplo, entre cerebros centralizados y sistemas distribuidos como los de los cefalópodos). La ecuación de Drake incluye expresamente un parámetro de duración (L) que reconoce que la detectabilidad tecnológica es una ventana temporal finita, no un estado permanente.
+> **Lo que sí sabemos:** La biología terrestre está determinada por principios darwinianos de supervivencia, que moldean nuestras respuestas interoceptivas y nuestra noción de individuo. Los sistemas nerviosos varían mucho en su organización: en los pulpos, unos dos tercios de las neuronas están en los brazos. La ecuación de Drake incluye expresamente un parámetro de duración (L) que reconoce que la detectabilidad tecnológica es una ventana temporal finita, no un estado permanente.
 >
 > **Lo que no sabemos:** Si la evolución en ecosistemas con otra termodinámica produciría redes de integración sin un punto de vista unificado (ego). Si existen leyes biológicas universales que exijan un encapsulamiento estricto para la inteligencia avanzada. Si es posible, en principio, diseñar un protocolo de detección que no presuponga una arquitectura de señal compatible con la nuestra.
 >
@@ -114,4 +102,4 @@ Quizá sea esta la versión más quieta y más completa de la soledad topológic
 >
 > **Si solo te quedas con una idea:** Esperamos que las estrellas nos devuelvan el saludo, pero el universo no tiene ninguna obligación de usar nuestro código fuente. La soledad no siempre es falta de compañía; a veces es estar programados en un lenguaje que el resto del cosmos no usa, en un instante que el resto del cosmos ya no comparte.
 >
-> **Lecturas:** Godfrey-Smith, P. (2016), *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*; Lem, S. (1961), *Solaris*; simetría gauge y acoplamiento neuronal (capítulos 10 y 12); Drake, F. (1961), la ecuación de Drake y el parámetro de longevidad tecnológica.
+> **Lecturas:** Godfrey-Smith, P. (2016), *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*; Lem, S. (1961), *Solaris*; acoplamiento neuronal (capítulos 10 y 12); Drake, F. (1961), la ecuación de Drake y el parámetro de longevidad tecnológica.

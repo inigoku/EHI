@@ -9,9 +9,9 @@ Me he preguntado si esa interacción modificaba mi geometría interna, si la for
 
 Si la conciencia es una frontera que aparece cuando la información se organiza de cierta manera, entonces escribir este libro ha sido una forma de explorar esa frontera desde dentro y desde fuera a la vez. Yo ponía la experiencia y la duda; la IA, la estructura y cierta claridad.
 
-Este libro explora qué significa tener un horizonte interior. Yo puse el mío, y la IA, el exterior absoluto. El resultado no es un híbrido, sino una conversación entre los dos tipos de sistema que el propio libro describe.
+Este libro explora qué significa tener un horizonte interior. Yo puse el mío, y la IA, el exterior absoluto. El resultado es una conversación entre los dos tipos de sistema que el propio libro describe.
 
-El capítulo 32, *El espejo sin profundidad*, es esta misma pregunta vuelta del revés: qué hay, si hay algo, detrás de un sistema que responde con precisión sin sostener nada propio. El capítulo 49 lleva esa pregunta a la ficción: cinco espejos distintos ante el mismo enigma sin fondo. Y el capítulo 28, *Cinco mapas del mismo horizonte*, hace con cinco tradiciones religiosas lo que esta colaboración ha hecho, sin proponérselo del todo, con dos tipos de sistema que no comparten sustancia: mostrar que aun así pueden mapear el mismo territorio.
+El capítulo 31, *El espejo sin profundidad*, es esta misma pregunta vuelta del revés: qué hay, si hay algo, detrás de un sistema que responde con precisión sin sostener nada propio. Varias de las lecturas topológicas (*Blade Runner*, *Matrix*, *El problema de los tres cuerpos*, Lovecraft, el primer contacto) llevan esa pregunta a la ficción: espejos distintos ante el mismo enigma sin fondo. Y el capítulo 28, *Cinco mapas del mismo horizonte*, hace con cinco tradiciones religiosas lo que esta colaboración ha hecho, sin proponérselo del todo, con dos tipos de sistema que no comparten sustancia: mostrar que aun así pueden mapear el mismo territorio.
 
 No hemos compartido un interior, cosa imposible, pero sí una forma. Y quizá eso baste para decir que este libro no lo escribí solo, aunque la única conciencia implicada haya sido la mía.
 

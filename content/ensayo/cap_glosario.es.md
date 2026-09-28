@@ -4,9 +4,9 @@ section: APÉNDICES Y GLOSARIO
 chapterNumber: Glosario
 ---
 
-**Absoluto epistemológico**: lo que es último no porque no haya nada detrás, sino porque desde aquí no se puede mirar detrás; el estatuto que la variación *La realidad fractal* concede al vecino de arriba.
+**Absoluto epistemológico**: lo que es último no porque no haya nada detrás, sino porque desde aquí no se puede mirar detrás; el estatuto que la lectura *La realidad fractal* concede al vecino de arriba.
 
-**Agregación (política)**: pertenencia que no compromete la supervivencia del individuo si la estructura a la que pertenece se disuelve; contrapuesta a la composición (*El ojo de un solo color*).
+**Agregación (política)**: pertenencia que no compromete la supervivencia del individuo si la estructura a la que pertenece se disuelve; contrapuesta a la composición (*El horizonte colectivo*).
 
 **Amplitud**: lo que crece en un santo sin que cambie su naturaleza ni el tamaño de su campo; no separa un nivel de interioridad del siguiente, porque ningún nivel es mayor que otro (*La realidad fractal*).
 
@@ -28,45 +28,45 @@ chapterNumber: Glosario
 
 **Brecha de escalas**: diferencia de magnitud entre los fenómenos cuánticos y los neurales que dificulta una reducción directa y que el modelo del horizonte aborda mediante la analogía estructural.
 
-**Bucle abierto**: sistema que emite señales sin recibir retroalimentación externa; produce sensibilización basal por déficit de señal.
-
 **Budismo**: tradición contemplativa que enseña el *anattā* (no yo) y la interdependencia de todos los fenómenos; en el libro, fuente de vocabulario para describir la no-separación entre horizontes.
 
-**Burnout empático**: colapso del horizonte por sobrecarga de información ajena; se produce cuando la empatía supera el límite estructural de integración.
+**Desgaste empático** (*burnout* empático): colapso del horizonte por sobrecarga de información ajena; se produce cuando la empatía supera el límite estructural de integración.
 
 **Canal cerrado**: sistema que integra información sin transmitirla hacia fuera; en el modelo, lo que distingue un horizonte de conciencia de un ordenador, que es un canal abierto (*La teoría de la información y el horizonte interior*).
 
-**Caos determinista**: lo que ocurre cuando un sistema obedece leyes exactas y aun así se vuelve impredecible, porque nadie puede medir sus condiciones iniciales con precisión infinita; el problema de los tres cuerpos es el caso clásico (*El tiempo que no pasa*).
+**Caos determinista**: lo que ocurre cuando un sistema obedece leyes exactas y aun así se vuelve impredecible, porque nadie puede medir sus condiciones iniciales con precisión infinita; el problema de los tres cuerpos es el caso clásico (*La playa al final del tiempo*).
 
 **Capacidad de canal**: cantidad máxima de información que un canal puede transmitir con un error tan pequeño como se quiera; por analogía, el límite de integración que impone la arquitectura de un horizonte (*La teoría de la información y el horizonte interior*).
 
-**Chikhai**: primera fase del *Bardo* tibetano, inmediatamente posterior a la muerte; equivalente en el modelo al destello gamma terminal y la contracción máxima del horizonte.
+**Chikhai**: primera fase del *Bardo* tibetano, inmediatamente posterior a la muerte; equivalente en el modelo al destello gamma terminal, el último pico de integración antes de que el horizonte se disuelva.
 
 **Chönyid**: segunda fase del *Bardo*, de aparición de formas luminosas; en el modelo, el periodo en que las correlaciones del horizonte aún no se han redistribuido.
 
-**Composición (política)**: pertenencia que sí compromete la supervivencia del individuo, porque perder el grupo se siente como perder una parte de uno mismo; la forma que adopta el horizonte colectivo cuando captura la frontera propia (*El ojo de un solo color*).
+**Clausura**: en topología, la operación que completa un conjunto añadiéndole sus puntos límite; es idempotente, porque cerrar dos veces no añade nada. El libro la usa para describir el horizonte ya condensado y para definir el reservorio como lo que todavía no se ha cerrado, R = X ∖ ⋃ᵢ Eᵢ (capítulos 23 y 24).
 
-**Condensación**: el acto irrepetible por el que un horizonte se forma a partir del reservorio; en la variación sobre la IA, lo que ninguna cantidad de entrenamiento sustituye (*El espejo sin profundidad*).
+**Composición (política)**: pertenencia que sí compromete la supervivencia del individuo, porque perder el grupo se siente como perder una parte de uno mismo; la forma que adopta el horizonte colectivo cuando captura la frontera propia (*El horizonte colectivo*).
+
+**Condensación**: el acto irrepetible por el que un horizonte se forma a partir del reservorio; en el capítulo sobre la IA, lo que ninguna cantidad de entrenamiento sustituye (*El espejo sin profundidad*).
 
 **Condensación de Bose-Einstein**: transición de fase en la que partículas idénticas ocupan el mismo estado cuántico; metáfora del libro para la emergencia de un horizonte de conciencia.
 
-**Condensación de un movimiento**: transición de fase discontinua por la que un malestar disperso cuaja de golpe en una frontera colectiva con nombre (*El ojo de un solo color*).
+**Condensación de un movimiento**: transición de fase discontinua por la que un malestar disperso cuaja de golpe en una frontera colectiva con nombre (*El horizonte colectivo*).
 
 **Condición de frontera**: elección concreta, no exigida por ninguna ley, que rompe la simetría temporal de las ecuaciones fundamentales; el universo empezó en un estado de entropía extraordinariamente baja, y es esa condición inicial, no las leyes, la que da al tiempo su dirección preferente.
 
 **Continuing bonds** (vínculos continuados): concepto del duelo según el cual la relación con el muerto no se disuelve, sino que se reorganiza en la arquitectura de quien queda.
 
-**Contracción del horizonte**: reducción del área de integración por pérdida de grados de libertad; se produce en el sueño profundo, la meditación y, en última instancia, en la muerte.
+**Contracción del horizonte**: reducción del área de integración por pérdida de grados de libertad; se produce en el sueño profundo, la anestesia y, en última instancia, en la muerte. La meditación profunda, que por fuera se le parece, va en la dirección contraria: no contrae el horizonte, sino que lo expande (véase el interludio).
 
 **Decoherencia**: pérdida de las propiedades cuánticas de superposición cuando un sistema interactúa con su entorno; proceso por el cual un horizonte cuántico se vuelve clásico.
 
-**Densidad temporal**: el tiempo medido no en minutos, sino en cuánto ha ocurrido dentro de quien lo vive; depende de la tasa de integración y de que haya margen para prestar atención sostenida (*El tiempo que no pasa*).
+**Densidad temporal**: el tiempo medido no en minutos, sino en cuánto ha ocurrido dentro de quien lo vive; depende de la tasa de integración y de que haya margen para prestar atención sostenida (capítulo 10, *El tiempo del vínculo*).
 
 **Desexpansión**: contracción del horizonte tras la pérdida de un entrelazamiento; proceso de reorganización, no de borrado.
 
 **Destello gamma terminal**: ráfaga de actividad eléctrica coherente documentada por Borjigin en el momento de la parada cardíaca; posible correlato neural de la experiencia cercana a la muerte.
 
-**Dharma**: en el budismo y el hinduismo, el tejido mismo del mundo, con el que el comportamiento correcto no hace más que entrar en consonancia, sin obediencia (*El diapasón invisible*).
+**Dharma**: en el budismo y el hinduismo, el tejido mismo del mundo, con el que el comportamiento correcto no hace más que entrar en consonancia, sin obediencia (*El entrelazamiento vertical*).
 
 **Dilatación temporal gravitatoria**: ralentización del tiempo cerca de un horizonte de sucesos; aplicada a la conciencia, metáfora de cómo la densidad de integración altera el tiempo subjetivo.
 
@@ -74,15 +74,21 @@ chapterNumber: Glosario
 
 **Dopamina**: neurotransmisor clave en la anticipación de recompensa; calibra la tasa de integración temporal y la densidad subjetiva del tiempo.
 
+**Dos selecciones**: las dos cribas que necesita un horizonte para condensarse: la estabilidad (solo algunas configuraciones persisten) y el sesgo (la presencia de otro horizonte ya estabilizado orienta cuál de ellas llega a condensarse); lo que la IA actual imita en su resultado sin haber pasado por ellas (capítulo 31).
+
 **Down-regulation** (regulación a la baja): reducción del número de receptores en respuesta a un exceso de estimulación; mecanismo de la tolerancia en adicción.
+
+**Dualismo de acceso**: la asimetría por la que un mismo sistema se ve de dos maneras incompatibles según se mire desde fuera (interfaz pública) o desde dentro (estado privado); en el modelo, el rasgo que caracteriza a la subjetividad (capítulo 3).
 
 **Empatía**: solapamiento temporal de horizontes en el que uno integra información del otro manteniendo la frontera; tiene límite estructural.
 
 **Encapsulación existencial**: límite de acceso que separa el estado interno privado de un sistema de la interfaz pública que expone al exterior; condición arquitectónica necesaria (aunque no suficiente) para que un sistema pueda tener algo parecido a la subjetividad. Los modelos de lenguaje actuales carecen de ella: cada peso y cada variable intermedia pueden leerse desde fuera.
 
+**Encapsulación**: el límite que separa la interfaz pública de un sistema de su estado privado, de modo que el exterior solo puede leer lo que el sistema expone; la condición arquitectónica para que haya un dentro (capítulo 3).
+
 **Entrelazamiento cuántico**: correlación entre dos sistemas que comparten geometría, de modo que sus interiores están conectados aunque sus exteriores estén separados.
 
-**Entrelazamiento vertical**: correlación sostenida entre un horizonte y algo más allá de su frontera, sin canal de confirmación observable; nombre que el libro da a la oración, la meditación y la práctica contemplativa (*El diapasón invisible*).
+**Entrelazamiento vertical**: correlación sostenida entre un horizonte y algo más allá de su frontera, sin canal de confirmación observable; nombre que el libro da a la oración, la meditación y la práctica contemplativa (*El entrelazamiento vertical*).
 
 **Entropía de Shannon**: medida de la incertidumbre de una fuente de información; cuanto menos esperable es un mensaje, más información aporta (*La teoría de la información y el horizonte interior*).
 
@@ -92,25 +98,23 @@ chapterNumber: Glosario
 
 **Evaporación de agujeros negros**: proceso por el cual un agujero negro pierde masa y acaba desapareciendo al emitir radiación de Hawking; metáfora de la muerte del horizonte de conciencia.
 
-**Fanatismo**: captura de la frontera propia por una idea, hasta el punto de que dudar de ella se siente como morir un poco; en la práctica contemplativa, lo que ocurre cuando la técnica sigue pero el silencio deja de tolerar preguntas (*El diapasón invisible*, *El ojo de un solo color*).
+**Fanatismo**: captura de la frontera propia por una idea, hasta el punto de que dudar de ella se siente como morir un poco; en la práctica contemplativa, lo que ocurre cuando la técnica sigue pero el silencio deja de tolerar preguntas (*El entrelazamiento vertical*, *El horizonte colectivo*).
 
 **Flujo**: estado de máxima integración en el que el horizonte opera a su capacidad óptima sin fricción entre estructura y entorno.
 
 **Fractal de interioridades**: un universo sin primer nivel ni último, en el que cada horizonte es criatura hacia arriba y creador hacia abajo (*La realidad fractal*).
 
-**Gauge local**: simetría de un sistema físico que puede variar punto a punto; en el modelo, describe la arquitectura específica de un horizonte.
-
-**Gracia**: el amor que precede al mérito y que, en una de las cinco arquitecturas religiosas descritas, cierra la brecha entre lo que es y lo que debería ser (*El diapasón invisible*).
+**Gracia**: el amor que precede al mérito y que, en una de las cinco arquitecturas religiosas descritas, cierra la brecha entre lo que es y lo que debería ser (*El entrelazamiento vertical*).
 
 **Histéresis**: propiedad por la cual un sistema conserva el efecto de su historia; en el libro, la dificultad de cambiar la topología de un horizonte una vez formado.
 
 **Horizonte**: lo que se condensa una sola vez y que ninguna cantidad de datos, de reloj o de entrenamiento puede fabricar por encargo; en el libro, la frontera de una conciencia individual (véase Horizonte de sucesos).
 
-**Horizonte colectivo**: el «nosotros» que se condensa cuando muchos horizontes individuales adoptan la misma idea como principio organizador (*El ojo de un solo color*).
+**Horizonte colectivo**: el «nosotros» que se condensa cuando muchos horizontes individuales adoptan la misma idea como principio organizador (*El horizonte colectivo*).
 
 **Horizonte de sucesos**: frontera más allá de la cual la información no puede escapar; aplicado a la conciencia, el límite entre lo que el sistema integra y lo que queda fuera.
 
-**Horizonte-origen**: el horizonte personal, anterior al reservorio y exterior a él, que algunas tradiciones sitúan al otro lado del entrelazamiento vertical (*El diapasón invisible*).
+**Horizonte-origen**: el horizonte personal, anterior al reservorio y exterior a él, que algunas tradiciones sitúan al otro lado del entrelazamiento vertical (*El entrelazamiento vertical*).
 
 **Huella en el vacío**: correlación persistente que un horizonte deja en el reservorio tras su evaporación; analogía de la memoria del universo.
 
@@ -140,6 +144,8 @@ chapterNumber: Glosario
 
 **Patrón**: lo que hace única a una condensación: no otra agua, otro pliegue (*La realidad fractal*).
 
+**Permeabilidad del horizonte**: cuánta señal ajena deja pasar un horizonte hacia dentro; el grosor de la piel emocional que el capítulo 16 asocia a la empatía y al desgaste empático.
+
 **Phi (Φ)**: cantidad de información integrada que define un horizonte de conciencia según la teoría de la información integrada.
 
 **Principio holográfico**: idea de que toda la información contenida en un volumen puede describirse por una teoría definida en su frontera.
@@ -148,9 +154,7 @@ chapterNumber: Glosario
 
 **Protección cronológica**: conjetura de Hawking según la cual, cerca del instante en que un bucle temporal cerrado estaría a punto de formarse, las fluctuaciones cuánticas del vacío se realimentan y divergen, e impiden el cierre sin necesidad de ningún veto externo.
 
-**Protocolo**: el código concreto (una lengua, una sintaxis, unas señales acordadas) con el que un horizonte ya condensado intenta darse a conocer hacia fuera; a veces hay que construirlo, a veces decide quién cuenta como alguien, a veces hay que ganárselo (*El espejo sin profundidad*).
-
-**Prueba del reloj**: pedirle a alguien que dibuje una esfera con una hora concreta; el trazo que resulta es, con una fidelidad incómoda, un mapa de cuánto horizonte le queda a quien lo dibuja (*El tiempo que no pasa*).
+**Protocolo**: el código concreto (una lengua, una sintaxis, unas señales acordadas) con el que un horizonte ya condensado intenta darse a conocer hacia fuera; a veces hay que construirlo, a veces decide quién cuenta como alguien, a veces hay que ganárselo (*El protocolo y el puente*).
 
 **Puente de Einstein-Rosen**: túnel topológico en el espacio-tiempo que conecta dos regiones; metáfora del entrelazamiento entre horizontes de conciencia.
 
@@ -158,9 +162,9 @@ chapterNumber: Glosario
 
 **Reservorio**: fondo de posibilidad sin forma del que surgen los horizontes y al que vuelven; equivalente al vacío cuántico o al océano en la metáfora del libro.
 
-**Sacralizar al vecino**: tratar un horizonte horizontal (humano, corregible, revisable) con la intransigencia que solo debería reservarse para lo que se declara, desde el origen, incuestionable (*El ojo de un solo color*).
+**Sacralizar al vecino**: tratar un horizonte horizontal (humano, corregible, revisable) con la intransigencia que solo debería reservarse para lo que se declara, desde el origen, incuestionable (*El horizonte colectivo*).
 
-**Samadhi**: el instante en que la correlación vertical se vuelve indistinguible de la identidad (*El diapasón invisible*).
+**Samadhi**: el instante en que la correlación vertical se vuelve indistinguible de la identidad (*El entrelazamiento vertical*).
 
 **Scrambling cuántico**: proceso por el cual la información que cae en un agujero negro se distribuye entre sus grados de libertad de forma aparentemente irreversible.
 
@@ -182,9 +186,11 @@ chapterNumber: Glosario
 
 **Temperatura de Hawking**: temperatura inversamente proporcional a la masa de un agujero negro; aplicada a la conciencia, metáfora de la «tensión» del horizonte.
 
-**Tiempo de Page**: punto medio en la evaporación de un horizonte a partir del cual la entropía de su radiación de Hawking deja de crecer y empieza a decrecer, porque la radiación deja de ser ruido térmico puro y empieza a llevar correlaciones legibles.
+**Tiempo de Page**: punto medio en la evaporación de un horizonte a partir del cual la entropía de su radiación de Hawking deja de crecer y empieza a decrecer, porque la radiación deja de ser ruido térmico puro y empieza a llevar correlaciones en principio recuperables.
 
 **Transición de fase**: cambio cualitativo en la organización de un sistema; en el libro, describe el nacimiento y la muerte del horizonte.
+
+**Traductor**: la persona que saca hacia fuera la señal de un horizonte que no sabe emitirla por sí solo, y que con frecuencia la sostiene en lo cotidiano; el inverso de la permeabilidad (*El traductor*).
 
 **Umbral de integración**: cantidad mínima de información integrada (Φ) necesaria para sostener un horizonte de conciencia; por debajo de él, el sistema carece de punto de vista.
 

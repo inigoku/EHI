@@ -17,6 +17,8 @@ Las notas de este libro no son un argumento de autoridad, sino rastros de lo que
 
 ## REFERENCIAS
 
+Aaronson, S. (2014). Why I Am Not An Integrated Information Theorist (or, The Unconscious Expander). *Shtetl-Optimized* (blog).
+
 Abbott, B.P., et al. (LIGO Scientific Collaboration and Virgo Collaboration). (2016). Observation of Gravitational Waves from a Binary Black Hole Merger. *Physical Review Letters*, 116(6).
 
 Ainley, V., Maister, L., & Tsakiris, M. (2015). Heartfelt imitation: High interoceptive awareness is linked to greater automatic imitation. *Neuropsychologia*, 60.
@@ -33,6 +35,8 @@ Aspect, A., Dalibard, J., & Roger, G. (1982). Experimental Test of Bell's Inequa
 
 Baars, B.J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
 
+Bailey, J.M., & Pillard, R.C. (1991). A Genetic Study of Male Sexual Orientation. *Archives of General Psychiatry*, 48(12).
+
 Beach, T.G., et al. (2012). Circle of Willis atherosclerosis: Association with Alzheimer's disease, neuritic plaques and neurofibrillary tangles. *Acta Neuropathologica*, 123(1).
 
 Bekenstein, J.D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8).
@@ -41,11 +45,11 @@ Bekoff, M. (2007). *The Emotional Lives of Animals*. New World Library.
 
 Bell, J.S. (1964). On the Einstein Podolsky Rosen Paradox. *Physics Physique Fizika*, 1(3).
 
+Blanchard, R., & Bogaert, A.F. (1996). Homosexuality in men and number of older brothers. *American Journal of Psychiatry*, 153(1).
+
 Boddy, A.M., et al. (2015). Fetal microchimerism and maternal health: A review and evolutionary framework. *BioEssays*, 37(10).
 
 Borjigin, J., et al. (2013). Surge of neurophysiological coherence and connectivity in the dying brain. *Proceedings of the National Academy of Sciences*, 110(35).
-
-Borjigin, J., et al. (2023). Paradoxical lucidity: A potential window into the dying brain. *Alzheimer's & Dementia*, 19(2).
 
 Bose, S.N. (1924). Plancks Gesetz und Lichtquantenhypothese. *Zeitschrift für Physik*, 26.
 
@@ -55,17 +59,19 @@ Bostrom, N. (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford Univ
 
 Bradshaw, J. (2017). *The Animals Among Us: How Pets Make Us Human*. Basic Books.
 
-Bredesen, D.E. (2014). Reversal of cognitive decline: A novel therapeutic program. *Aging*, 6(9).
-
 Casimir, H.B.G. (1948). On the Attraction Between Two Perfectly Conducting Plates. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen*, 51.
 
 Chalmers, D.J. (1995). Facing Up to the Problem of Consciousness. *Journal of Consciousness Studies*, 2(3).
 
 Chalmers, D.J. (1996). *The Conscious Mind: In Search of a Fundamental Theory*. Oxford University Press.
 
+Clark, A., & Chalmers, D. (1998). The Extended Mind. *Analysis*, 58(1).
+
 Coan, J.A., & Beckes, L. (2011). Social baseline theory. In: *Handbook of Personal Relationships*. Cambridge University Press.
 
 Coan, J.A., & Sbarra, D.A. (2015). Social baseline theory: The social regulation of risk and effort. *Current Opinion in Psychology*, 1.
+
+Coeckelbergh, M. (2023). *La filosofía política de la inteligencia artificial*. Cátedra.
 
 Cover, T.M., & Thomas, J.A. (2006). *Elements of Information Theory* (2.ª ed.). Wiley.
 
@@ -79,6 +85,10 @@ Decety, J. (2011). The Neuroevolution of Empathy. *Annals of the New York Academ
 
 Dehaene, S. (2014). *Consciousness and the Brain: Deciphering How the Brain Codes Our Thoughts*. Viking.
 
+Dennett, D.C. (1991). *Consciousness Explained*. Little, Brown. (Trad. esp.: *La conciencia explicada*, Paidós, 1995).
+
+Diamond, L.M. (2008). *Sexual Fluidity: Understanding Women's Love and Desire*. Harvard University Press.
+
 Dieks, D. (1982). Communication by EPR devices. *Physics Letters A*, 92(6).
 
 Eagleman, D.M. (2009). Brain Time. In: *What's Next? Dispatches on the Future of Science*. Vintage.
@@ -87,13 +97,15 @@ Einstein, A. (1924). Quantentheorie des einatomigen idealen Gases. *Sitzungsberi
 
 Einstein, A., Podolsky, B., & Rosen, N. (1935). Can Quantum-Mechanical Description of Physical Reality be Considered Complete? *Physical Review*, 47(10).
 
+Eliade, M. (1957). *Das Heilige und das Profane*. Rowohlt. (Trad. esp.: *Lo sagrado y lo profano*, Guadarrama, 1967).
+
 Ende, M. (1979). *Die unendliche Geschichte*. Thienemann. (Trad. esp.: *La historia interminable*, Alfaguara, 1982).
 
 Event Horizon Telescope Collaboration. (2019). First M87 Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole. *The Astrophysical Journal Letters*, 875(1).
 
 Event Horizon Telescope Collaboration. (2022). First Sagittarius A* Event Horizon Telescope Results. I. The Shadow of the Supermassive Black Hole in the Center of the Milky Way. *The Astrophysical Journal Letters*, 930(2).
 
-Feldman, R. (2015). The adaptive human parental brain: Implications for children's social-emotional development. *Current Opinion in Psychology*, 15.
+Feldman, R. (2015). The adaptive human parental brain: Implications for children's social-emotional development. *Trends in Neurosciences*, 38(6).
 
 Fernández Mallo, A. (2026). *El ángel de la Inteligencia Artificial*. Galaxia Gutenberg.
 
@@ -105,11 +117,23 @@ Friedman, J., Morris, M.S., Novikov, I.D., et al. (1990). Cauchy problem in spac
 
 Fukushima, H., Terasawa, Y., & Umeda, S. (2011). Association between interoception and empathy: Evidence from heartbeat-evoked brain potential. *International Journal of Psychophysiology*, 79(2).
 
+Ganna, A., et al. (2019). Large-scale GWAS reveals insights into the genetic architecture of same-sex sexual behavior. *Science*, 365(6456).
+
+Gibson, I. (1997). *The Shameful Life of Salvador Dalí*. Faber & Faber. (Trad. esp.: *La vida desaforada de Salvador Dalí*, Anagrama, 1998).
+
+Gödel, K. (1931). Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I. *Monatshefte für Mathematik und Physik*, 38.
+
 Godfrey-Smith, P. (2016). *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*. Farrar, Straus and Giroux.
+
+Haidt, J. (2006). *The Happiness Hypothesis: Finding Modern Truth in Ancient Wisdom*. Basic Books.
 
 Hameroff, S., & Penrose, R. (2014). Consciousness in the universe: A review of the 'Orch OR' theory. *Physics of Life Reviews*, 11(1).
 
+Hao, K. (2025). *Empire of AI*. Penguin Press.
+
 Haraway, D. (2003). *The Companion Species Manifesto: Dogs, People, and Significant Otherness*. Prickly Paradigm Press.
+
+Harvey, P. (2013). *An Introduction to Buddhism: Teachings, History and Practices* (2.ª ed.). Cambridge University Press.
 
 Hasson, U., et al. (2012). Brain-to-brain coupling: A mechanism for sharing and shaping thoughts. *Trends in Cognitive Sciences*, 16(2).
 
@@ -125,21 +149,31 @@ Hazan, C., & Shaver, P. (1987). Romantic Love Conceptualized as an Attachment Pr
 
 Hodges, J.R., & Patterson, K. (2007). Semantic dementia and fluent primary progressive aphasia. *Brain*, 130(4).
 
-Hossenfelder, S. (2018). *Lost in Math: How Beauty Leads Physics Astray*. Basic Books.
-
 Hume, D. (1748). *An Enquiry Concerning Human Understanding*. A. Millar.
 
+Imperato-McGinley, J., Guerrero, L., Gautier, T., & Peterson, R.E. (1974). Steroid 5α-Reductase Deficiency in Man: An Inherited Form of Male Pseudohermaphroditism. *Science*, 186(4170).
+
+Jacobsen, J.-H., et al. (2015). Why musical memory can be preserved in advanced Alzheimer's disease. *Brain*, 138(8).
+
 Jung, C.G. (1951). *Aion: Researches into the Phenomenology of the Self*. Princeton University Press.
+
+Kant, I. (1790). *Kritik der Urteilskraft*. Lagarde und Friederich. (Trad. esp.: *Crítica del juicio*).
 
 Klass, D., Silverman, P.R., & Nickman, S.L. (1996). *Continuing Bonds: New Understandings of Grief*. Taylor & Francis.
 
 Klimecki, O.M., Leiberg, S., Ricard, M., & Singer, T. (2014). Differential pattern of functional brain plasticity after compassion and empathy training. *Social Cognitive and Affective Neuroscience*, 9(6).
 
+Kuratowski, K. (1922). Sur l'opération Ā de l'Analysis Situs. *Fundamenta Mathematicae*, 3.
+
 Le Bon, G. (1895). *Psychologie des foules*. Félix Alcan.
 
 Leggett, A.J. (2001). Bose-Einstein condensation in the alkali gases: Some simple physics. *Reviews of Modern Physics*, 73(2).
 
+Lieberman, M.D., et al. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. *Psychological Science*, 18(5).
+
 Low, P. (2012). The Cambridge Declaration on Consciousness.
+
+Lutz, A., Greischar, L.L., Rawlings, N.B., Ricard, M., & Davidson, R.J. (2004). Long-term meditators self-induce high-amplitude gamma synchrony during mental practice. *Proceedings of the National Academy of Sciences*, 101(46).
 
 Maldacena, J. (1997). The Large N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics*, 2.
 
@@ -155,7 +189,11 @@ Michell, J. (1784). On the Means of Discovering the Distance, Magnitude, &c. of 
 
 Montagu, A. (1986). *Touching: The Human Significance of the Skin*. Harper & Row.
 
+Nagel, T. (1974). What Is It Like to Be a Bat? *The Philosophical Review*, 83(4).
+
 Newberg, A., D'Aquili, E., & Rause, V. (2001). *Why God Won't Go Away: Brain Science and the Biology of Belief*. Ballantine Books.
+
+O'Connor, M.-F. (2022). *The Grieving Brain: The Surprising Science of How We Learn from Love and Loss*. HarperOne.
 
 O'Connor, M.F. (2019). Grief: A brief history of research on how body, mind, and brain adapt. *Psychosomatic Medicine*, 81(8).
 
@@ -163,7 +201,11 @@ O'Sullivan, S.S., et al. (2009). Impulsive-compulsive behaviors in Parkinson's d
 
 Oppenheimer, J.R., & Snyder, H. (1939). On Continued Gravitational Contraction. *Physical Review*, 56(5).
 
+Page, D.N. (1993). Information in black hole radiation. *Physical Review Letters*, 71(23).
+
 Panksepp, J. (1998). *Affective Neuroscience: The Foundations of Human and Animal Emotions*. Oxford University Press.
+
+Parnas, D.L. (1972). On the criteria to be used in decomposing systems into modules. *Communications of the ACM*, 15(12).
 
 Pettigrew, T.F., & Tropp, L.R. (2006). A meta-analytic test of intergroup contact theory. *Journal of Personality and Social Psychology*, 90(5).
 
@@ -174,6 +216,8 @@ Rizzolatti, G., & Sinigaglia, C. (2008). *Mirrors in the Brain: How Our Minds Sh
 Robinson, T.E., & Berridge, K.C. (1993). The neural basis of drug craving: An incentive-sensitization theory of addiction. *Brain Research Reviews*, 18(3).
 
 Roenneberg, T. (2012). *Internal Time: Chronotypes, Social Jet Lag, and Why You're So Tired*. Harvard University Press.
+
+Ryu, S., & Takayanagi, T. (2006). Holographic derivation of entanglement entropy from AdS/CFT. *Physical Review Letters*, 96(18).
 
 Sacks, O. (1973). *Awakenings*. Duckworth.
 
@@ -221,9 +265,13 @@ Tronick, E. (2007). *The Neurobehavioral and Social-Emotional Development of Inf
 
 Tuan, Y.-F. (1974). *Topophilia: A Study of Environmental Perception, Attitudes, and Values*. Prentice-Hall.
 
+Turban, J.L., Beckwith, N., Reisner, S.L., & Keuroghlian, A.S. (2019). Association Between Recalled Exposure to Gender Identity Conversion Efforts and Psychological Distress and Suicide Attempts Among Transgender Adults. *JAMA Psychiatry*, 77(1).
+
 van der Kolk, B. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
 Volkow, N.D., et al. (2016). Neurobiologic Advances from the Brain Disease Model of Addiction. *New England Journal of Medicine*, 374(4).
+
+Wegner, D.M. (1987). Transactive Memory: A Contemporary Analysis of the Group Mind. En B. Mullen y G.R. Goethals (eds.), *Theories of Group Behavior*. Springer.
 
 Weil, S. (1947). *La Pesanteur et la grâce*. Plon. (Trad. esp.: *La gravedad y la gracia*, Trotta, 1994).
 
@@ -232,6 +280,12 @@ Williams, P. (2009). *Mahayana Buddhism: The Doctrinal Foundations* (2.ª ed.). 
 Winnicott, D.W. (1971). *Playing and Reality*. Tavistock Publications.
 
 Wootters, W.K., & Zurek, W.H. (1982). A single quantum cannot be cloned. *Nature*, 299.
+
+Wright, R. (2017). *Why Buddhism Is True: The Science and Philosophy of Meditation and Enlightenment*. Simon & Schuster.
+
+Xu, G., et al. (2023). Surge of neurophysiological coupling and connectivity of gamma oscillations in the dying human brain. *Proceedings of the National Academy of Sciences*, 120(19).
+
+Zhou, J.-N., Hofman, M.A., Gooren, L.J.G., & Swaab, D.F. (1995). A sex difference in the human brain and its relation to transsexuality. *Nature*, 378(6552).
 
 Zhuangzi. *Zhuangzi* (caps. 2 y 7). Ed. de I. Preciado Idoeta, Kairós (1996).
 
@@ -249,4 +303,4 @@ Zurek, W.H. (2003). Decoherence, einselection, and the quantum origins of the cl
 
 ---
 
-> *«El experimento no promete nada después de la evaporación. Promete, si acaso, compañía suficiente para seguir.»*
+> *«No es un consuelo, pero quizá sea compañía suficiente para seguir.»*

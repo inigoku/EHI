@@ -77,6 +77,6 @@ La identidad del objeto desaparece, pero la deformación que causó en el sistem
 >
 > **Preguntas que quedan:** ¿Es la conciencia un único hilo de ejecución o un sistema multihilo distribuido? ¿Pueden considerarse las fugas de memoria mentales (traumas, patrones repetitivos) fallos en la recolección de basura del yo?
 >
-> **Si solo te quedas con una idea:** Nacer es reservar memoria y encapsularla; morir es liberar la frontera y volver al *heap*. El abismo entre tu mente y el mundo exterior no es magia espiritual, sino el rasgo de una buena arquitectura que protege su estado privado tras una interfaz pública.
+> **Si solo te quedas con una idea:** Nacer es reservar memoria y encapsularla; morir es liberar la frontera y volver al *heap*. El abismo entre tu mente y el mundo exterior es el rasgo de una buena arquitectura que protege su estado privado tras una interfaz pública.
 >
 > **Lecturas:** Parnas (1972), «On the criteria to be used in decomposing systems into modules»; Dijkstra (1968), «Go To Statement Considered Harmful» (sobre estructura de control); Knuth (1997), «The Art of Computer Programming» (gestión de memoria dinámica).

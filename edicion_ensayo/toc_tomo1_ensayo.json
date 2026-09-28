@@ -173,7 +173,6 @@
   },
   "running_title": "EL HORIZONTE INTERIOR",
   "gutter_in": 0.82,
-  "body_leading": 15.8,
   "uid": "urn:uuid:el-horizonte-interior-tomo1-ensayo-es",
   "credits": [
     "Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la cuarta parte, con el epílogo, el glosario y las notas. Las lecturas topológicas forman el segundo tomo."
@@ -188,7 +187,7 @@
       "content_file": "../content/ensayo/prologo.es.md",
       "replace": [
         [
-          "Entre la tercera y la cuarta, diecinueve lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
+          "Entre la tercera y la cuarta, diecisiete lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
           "Un segundo tomo, *Lecturas topológicas*, lleva las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana."
         ]
       ]
@@ -198,8 +197,8 @@
       "content_file": "../content/ensayo/cap_nota_autor.es.md",
       "replace": [
         [
-          "El capítulo 49 lleva esa pregunta a la ficción",
-          "La lectura «Cinco espejos de ficción», en el tomo de *Lecturas topológicas*, lleva esa pregunta a la ficción"
+          "Varias de las lecturas topológicas (",
+          "Varias lecturas del segundo tomo, *Lecturas topológicas* ("
         ]
       ]
     },
@@ -297,7 +296,13 @@
     },
     {
       "id": "cap22_idempotencia",
-      "content_file": "../content/ensayo/cap22_idempotencia.es.md"
+      "content_file": "../content/ensayo/cap22_idempotencia.es.md",
+      "replace": [
+        [
+          "en el sentido que el capítulo 53 reserva",
+          "en el sentido que el capítulo 36 reserva"
+        ]
+      ]
     },
     {
       "id": "cap23_experimentos_mentales",
@@ -316,7 +321,7 @@
       "content_file": "../content/ensayo/cap17_5_real.es.md",
       "replace": [
         [
-          "como veremos en el capítulo 55,",
+          "como veremos en el capítulo 53,",
           "como veremos en el capítulo 36,"
         ]
       ]
@@ -326,35 +331,31 @@
       "content_file": "../content/ensayo/cap_religiones_comparadas.es.md",
       "replace": [
         [
-          "El capítulo 55 lo dirá con claridad: la ética",
+          "El capítulo 53 lo dirá con claridad: la ética",
           "El capítulo 36 lo dirá con claridad: la ética"
         ],
         [
-          "como se verá en el capítulo 55), cada",
+          "como se verá en el capítulo 53), cada",
           "como se verá en el capítulo 36), cada"
         ],
         [
-          "De las tres opciones que el capítulo 55 dejará abiertas",
+          "De las tres opciones que el capítulo 53 dejará abiertas",
           "De las tres opciones que el capítulo 36 dejará abiertas"
         ],
         [
-          "lo que este mismo libro hará explícitamente en el capítulo 55",
+          "lo que este mismo libro hará explícitamente en el capítulo 53",
           "lo que este mismo libro hará explícitamente en el capítulo 36"
         ],
         [
-          "leer el mapa del capítulo 55",
-          "leer el mapa del capítulo 36"
-        ],
-        [
-          "como mostrará el capítulo 56, sobre la práctica,",
+          "como mostrará el capítulo 54, sobre la práctica,",
           "como mostrará el capítulo 37, sobre la práctica,"
         ],
         [
-          "No puede: como establece el capítulo 55,",
+          "No puede: como establece el capítulo 53,",
           "No puede: como establece el capítulo 36,"
         ],
         [
-          "como dirá el capítulo 55,",
+          "como dirá el capítulo 53,",
           "como dirá el capítulo 36,"
         ]
       ]
@@ -368,12 +369,12 @@
       "content_file": "../content/ensayo/cap_ojo_un_solo_color.es.md"
     },
     {
-      "id": "cap18_real",
-      "content_file": "../content/ensayo/cap18_real.es.md"
-    },
-    {
       "id": "cap_espejo_sin_profundidad",
       "content_file": "../content/ensayo/cap_espejo_sin_profundidad.es.md"
+    },
+    {
+      "id": "cap18_real",
+      "content_file": "../content/ensayo/cap18_real.es.md"
     },
     {
       "id": "cap_teoria_informacion",
@@ -384,7 +385,7 @@
       "content_file": "../content/ensayo/cap_tres_puertas.es.md",
       "replace": [
         [
-          "Es la pregunta que el capítulo 55 retomará",
+          "Es la pregunta que el capítulo 53 retomará",
           "Es la pregunta que el capítulo 36 retomará"
         ]
       ]
@@ -398,7 +399,7 @@
       "content_file": "../content/ensayo/cap19_real.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 55**",
+          "**Nota al Capítulo 53**",
           "**Nota al Capítulo 36**"
         ]
       ],
@@ -409,7 +410,7 @@
       "content_file": "../content/ensayo/cap20_real.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 56**",
+          "**Nota al Capítulo 54**",
           "**Nota al Capítulo 37**"
         ]
       ],

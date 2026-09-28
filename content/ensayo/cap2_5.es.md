@@ -12,7 +12,7 @@ Llegados aquí, el experimento tiene que cambiar de registro.
 
 Hasta aquí, el lector ha recorrido la física de los horizontes y la teoría de la información integrada. Ha visto cómo un agujero negro codifica información en su frontera, cómo Phi describe la integración irreducible de un sistema y cómo una burbuja, al cerrarse, crea de golpe un dentro y un fuera. Podría parecer que todo esto sigue siendo física, pero a partir de ahora ya no lo es solamente.
 
-Lo que sigue no es una extensión literal de la física, sino una interpretación filosófica que utiliza esos conceptos como andamiaje. La tesis central de este libro es la siguiente:
+Lo que sigue es una interpretación filosófica que utiliza esos conceptos como andamiaje. La tesis central de este libro es la siguiente:
 
 > *La conciencia es el interior de un dominio informacional encapsulado.*
 
@@ -20,7 +20,7 @@ No es una metáfora ni un modo poético de hablar del cerebro: es la hipótesis 
 
 ---
 
-Un sistema consciente no sería simplemente un procesador de información observable desde fuera, sino una arquitectura con dos niveles de acceso. Desde el exterior solo vemos su interfaz pública: conducta, lenguaje, actividad neural, temperatura, movimiento, respuesta. Desde el interior, en cambio, hay un estado privado: la forma irrepetible en que esa información se integra para alguien. Ese estado privado no es una sustancia aparte ni un fantasma alojado en la máquina, sino el dentro que aparece cuando la información alcanza un grado suficiente de integración y queda protegida por una frontera.
+Un sistema consciente no sería simplemente un procesador de información observable desde fuera, sino una arquitectura con dos niveles de acceso. Desde el exterior solo vemos su interfaz pública: conducta, lenguaje, actividad neural, temperatura, movimiento, respuesta. Desde el interior, en cambio, hay un estado privado: la forma irrepetible en que esa información se integra para alguien. Ese estado privado es el dentro que aparece cuando la información alcanza un grado suficiente de integración y queda protegida por una frontera.
 
 La neurociencia clásica no encuentra el pensamiento bajo el microscopio por la misma razón por la que un observador externo no puede inspeccionar directamente el interior de un horizonte de sucesos. El pensamiento existe, pero no es público. Lo que ve el escáner son correlatos, superficies, emisiones, cambios de flujo, señales eléctricas: la interfaz. La experiencia subjetiva es el estado privado del sistema, y pedir que aparezca como objeto externo es confundir el nivel de observación.
 
@@ -39,7 +39,7 @@ Cada nivel de esta jerarquía funciona como una frontera de abstracción. Una c�
 
 Cuando la ingeniería de software alcanzó su propia crisis de complejidad en el siglo XX (el problema del código plano, acoplado y propenso a fallos globales), los diseñadores de sistemas se vieron obligados a imitar este orden natural. Descubrieron que, para construir sistemas complejos y estables (sistemas operativos, redes, aplicaciones), tenían que trazar fronteras de abstracción: agrupar la lógica y los datos relacionados dentro de un objeto o módulo, ocultar sus detalles de implementación tras una API pública y prohibir el acceso directo a sus variables internas (`private`).
 
-La conciencia, según el modelo del horizonte, no es un fenómeno mágico desconectado del resto del cosmos, sino el último nivel de esta jerarquía natural de abstracción. El cerebro es un sistema biológico enormemente complejo, con billones de fluctuaciones químicas y disparos neuronales por segundo, y encapsula toda esa computación paralela de bajo nivel detrás de una única interfaz simplificada: la perspectiva en primera persona, el yo. La subjetividad es la API pública mediante la cual el horizonte interactúa con su entorno, ocultando la implementación celular privada para permitir que el sistema tome decisiones en tiempo real sin ahogarse en sus propios datos de ejecución.
+La conciencia, según el modelo del horizonte, es el último nivel de esta jerarquía natural de abstracción. El cerebro es un sistema biológico enormemente complejo, con billones de fluctuaciones químicas y disparos neuronales por segundo, y encapsula toda esa computación paralela de bajo nivel detrás de una única interfaz simplificada: la perspectiva en primera persona, el yo. La perspectiva en primera persona es lo que ese estado privado es visto desde dentro; la API pública es todo lo demás (la conducta, las palabras, los gestos) con lo que el horizonte trata con su entorno mientras oculta la implementación celular, y eso le permite tomar decisiones en tiempo real sin ahogarse en sus propios datos de ejecución.
 
 ---
 
@@ -50,9 +50,6 @@ El problema difícil de la conciencia (¿por qué el procesamiento físico va ac
 No vivimos, por tanto, en un dualismo de sustancias. Vivimos en un **dualismo de acceso**.
 
 Es algo distinto, y más manejable. El dualismo de sustancias sostiene que en el mundo hay dos clases de cosas, materia y mente, radicalmente distintas y con una interacción misteriosa. El dualismo de acceso sostiene que solo hay una clase de cosas, pero que a ciertas estructuras suyas se puede acceder de dos maneras que se excluyen entre sí: desde fuera, como objeto; desde dentro, como sujeto.
-
-> **En física esto se llama:** asimetría de acceso informacional; topología cerrada vs. abierta.
-> **En la vida diaria es como:** una carta sellada: existe para quien la guarda aunque nadie más pueda leerla. No hay dos cartas, una material y otra mental, sino una sola carta y dos posiciones de lectura: la de quien la guarda y la de quien la observa desde fuera.
 
 ---
 
@@ -66,7 +63,7 @@ Dentro de una cabeza no hay ningún agujero negro literal. Pero quizá haya algo
 
 > **Nota al Capítulo 3**
 >
-> **Lo que sí sabemos:** Que hay una diferencia real entre los sistemas con estados internos inaccesibles y los completamente transparentes. Que la neurociencia puede describir correlatos pero no acceder al estado privado. Que el dualismo de acceso no requiere postular ninguna sustancia nueva.
+> **Lo que sí sabemos:** Que la encapsulación es un principio de diseño estándar en ingeniería de software (Parnas, 1972). Que la neurociencia mide correlatos de la experiencia, no la experiencia misma, es un punto en el que coinciden autores muy distintos (Nagel, Chalmers). Que el dualismo de acceso no requiere postular ninguna sustancia nueva.
 >
 > **Lo que no sabemos:** Si todo dominio con un Phi alto es consciente, o si la encapsulación es condición necesaria pero no suficiente. Si la distinción público/privado es fundamental o emergente.
 >
