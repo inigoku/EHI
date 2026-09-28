@@ -6,8 +6,8 @@ de Amazon KDP, en español, inglés y catalán.
 
 ## Qué hay aquí
 
-    Cuentos_de_Tarel_6x9.pdf     el interior en español, 202 páginas, 6 × 9"
-    Tales_of_Tarel_6x9.pdf       el interior en inglés, 206 páginas, 6 × 9"
+    Cuentos_de_Tarel_6x9.pdf     el interior en español, 206 páginas, 6 × 9"
+    Tales_of_Tarel_6x9.pdf       el interior en inglés, 210 páginas, 6 × 9"
     Cuentos_de_Tarel.epub        el epub en español
     Tales_of_Tarel.epub          el epub en inglés
     toc_cuentos.json             tabla de contenidos + mapa de ilustraciones (es)
@@ -60,12 +60,6 @@ python3 scripts/build_epub.py toc_cuentos_en.json -o Tales_of_Tarel.epub
 ```
 
 ## Pendiente
-
-- **Láminas de «La nave de barro» y «El nombre nuevo»** (cuentos 26 y 27, enlazados con
-  la lectura 54 del ensayo): `imagenes/cuento_nave_barro.png` e
-  `imagenes/cuento_nombre_nuevo.png` aún no existen; mientras tanto el libro sale sin
-  esas dos láminas (el maquetador avisa y sigue). En la web hay que registrarlas además
-  en `src/components/IllustrationViewer.tsx`.
 
 - **Cubierta**: no hay ilustración de portada propia todavía
   (`imagenes/portada.jpg` no existe: `cover_image` en el TOC apunta ahí a
