@@ -32,7 +32,7 @@ donde H(X) es la entropía de X (su incertidumbre), H(Y) la de Y y H(X,Y) la ent
 
 Tres propiedades la hacen especialmente apta para el modelo del horizonte.
 
-**Simetría.** I(X;Y) = I(Y;X). La información mutua no distingue quién observa a quién: es, literalmente, una propiedad de la relación y no de los polos. Coincide con lo que el capítulo 12 describe: el entrelazamiento es una geometría compartida que no pertenece a ninguno de los dos por separado.
+**Simetría.** I(X;Y) = I(Y;X). La información mutua no distingue quién observa a quién: es, literalmente, una propiedad de la relación y no de los polos. Coincide con lo que el capítulo 12 describe: el entrelazamiento es una geometría compartida que no pertenece a ninguno de los dos por separado. Y precisa algo que ese capítulo dejó a medias: la asimetría de un vínculo (quien piensa en el otro mucho más de lo que el otro piensa en él) no está en la información compartida, que es la misma vista desde cada lado, sino en cuánto la integra cada polo. La misma correlación puede ocupar media arquitectura de uno y un rincón de la del otro.
 
 **No negatividad.** I(X;Y) ≥ 0. Conocer algo de un sistema nunca aumenta, en promedio, la incertidumbre sobre otro. En este modelo, el vínculo no puede restar: suma o se queda en cero.
 
@@ -120,9 +120,9 @@ El relato que sigue, «El que queda», pone en escena la pregunta que este teore
 
 ### La advertencia, y una versión clásica
 
-Conviene repetir la advertencia del capítulo 11: no sabemos si el cerebro usa información cuántica. En un medio caliente y húmedo, la decoherencia destruye las superposiciones en fracciones de segundo, y cualquier modelo que ponga cúbits en las neuronas tiene que explicar cómo se protegen de ese entorno. Lo que se sostiene aquí es más modesto: si la conciencia es información, y si esa información tuviera propiedades cuánticas, el teorema de no clonación explicaría de forma natural por qué la experiencia es intransferible. No explicaría el problema difícil, pero sí por qué el problema difícil tiene la forma que tiene.
+La advertencia del capítulo anterior sigue en pie: no sabemos si el cerebro usa información cuántica, y la decoherencia hace pensar que no. Si la usara, la no clonación no explicaría el problema difícil, pero sí por qué tiene la forma que tiene.
 
-Y hay una versión clásica de la misma idea que no necesita nada cuántico: la introspección como un proceso que se modifica a sí mismo. Cuando intentas observar tu propio pensamiento, el acto de observarlo lo cambia, y eso es cierto incluso en un modelo puramente clásico. La no clonación cuántica es la versión formal y rigurosa de una intuición que la fenomenología lleva un siglo explorando.
+Y hay una versión clásica de la misma idea que no necesita nada cuántico: la introspección como un proceso que se modifica a sí mismo. Cuando intentas observar tu propio pensamiento, el acto de observarlo lo cambia, y eso es cierto incluso en un modelo puramente clásico. La no clonación cuántica es la versión formal y rigurosa de una intuición que la fenomenología lleva un siglo explorando, con una diferencia que no conviene ocultar: un estado clásico sí puede copiarse, al menos en principio. Sin propiedades cuánticas, la intransferibilidad deja de ser una imposibilidad física y pasa a ser una dificultad práctica, enorme, pero no absoluta.
 
 ---
 

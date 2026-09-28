@@ -55,7 +55,7 @@ Treinta mil años de convivencia han dejado huella no solo en el genoma del perr
 
 Cuando un perro nos mira, activa en nosotros circuitos que solemos reservar para los humanos: regiones que se encienden cuando evaluamos las intenciones de una persona se activan también ante la mirada de un perro. Hay algo en su cara, quizá fruto de una selección artificial que favoreció los rasgos infantiles (frente amplia, ojos grandes, hocico corto), que dispara en nosotros una respuesta parental casi refleja.
 
-Pero no es solo la apariencia; es sincronía. Tras años de convivencia, los perros y sus dueños llegan a mostrar niveles de cortisol coordinados: cuando el humano está estresado, el perro también lo está, aunque no haya ningún peligro a la vista, y cuando el perro se relaja, el humano baja la guardia. Es un sistema acoplado en las dos direcciones, un oscilador biológico que late al unísono.
+Pero no es solo la apariencia; es sincronía. Tras años de convivencia, los perros y sus dueños llegan a mostrar niveles de cortisol coordinados: cuando el humano está estresado, el perro también lo está, aunque no haya ningún peligro a la vista, y cuando el perro se relaja, el humano baja la guardia. El acoplamiento mejor documentado va del humano al perro; en sentido inverso los datos son más débiles, pero el sistema está acoplado, como dos osciladores que acaban latiendo casi al unísono.
 
 > **En física esto se llama:** sincronización de fase en sistemas acoplados débilmente, donde cada oscilador ajusta su frecuencia natural para coincidir con la del vecino.  
 > **En la vida diaria es como:** llevar tanto tiempo caminando junto a alguien que, sin hablar, acompasáis el paso hasta ir al mismo ritmo sin esfuerzo.
@@ -178,7 +178,7 @@ No somos dueños de nuestras mascotas, sino, durante un tiempo breve, compañero
 
 > **Nota al Capítulo 26**
 >
-> **Lo que sí sabemos:** Que los animales con un sistema límbico completo tienen, según el modelo, un horizonte propio, aunque menos complejo que el humano. Que la coevolución con el perro ha producido una legibilidad mutua única. Que el cerebro humano puede volcar la arquitectura del cuidado de los hijos en una mascota con una intensidad bioquímica comparable. Que el maltrato deja una huella estructural real en el animal y se asocia a una empatía disminuida en quien lo ejerce. Que el duelo por una mascota es un derrumbe genuino, a menudo agravado por la falta de reconocimiento social.
+> **Lo que sí sabemos:** Que los mamíferos comparten con nosotros los sustratos neurales de la emoción (Declaración de Cambridge, 2012); el modelo les atribuye, por eso, un horizonte propio, aunque menos complejo que el humano. Que la coevolución con el perro ha producido una legibilidad mutua única. Que el cerebro humano puede volcar la arquitectura del cuidado de los hijos en una mascota con una intensidad bioquímica comparable. Que el maltrato deja una huella estructural real en el animal y se asocia a una empatía disminuida en quien lo ejerce. Que el duelo por una mascota es un derrumbe genuino, a menudo agravado por la falta de reconocimiento social.
 >
 > **Lo que no sabemos:** Hasta dónde se extiende el espectro de la conciencia en otras especies. Si volcar en una mascota el vínculo con los hijos satisface por completo las necesidades del sistema de cuidado o deja vacíos que aún no sabemos medir. Si la anestesia colectiva ante el maltrato sistémico puede revertirse a escala de civilización.
 >

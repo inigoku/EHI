@@ -78,9 +78,9 @@ Lo que hace que tú seas tú no está en ninguna neurona concreta, sino en el pa
 
 Hay un animal que lo complica todo de una manera preciosa: el pulpo.
 
-Llamémoslo Pol. Si el nombre te suena, es porque un pulpo real así llamado se hizo famoso en 2010 al acertar los resultados de los siete partidos de Alemania en el Mundial de fútbol y el de la final, eligiendo entre dos cajas de comida marcadas con banderas. Pol tiene tres corazones, sangre azul (con cobre en lugar de hierro) y, sobre todo, dos tercios de sus neuronas fuera del cerebro, en los brazos. Cada brazo puede oler, tocar, saborear, decidir y resolver problemas sin consultar al cerebro central. Cuando Pol quiere abrir un frasco, no es el cerebro quien planifica la secuencia: los brazos negocian entre sí, prueban, se ajustan, cooperan. El cerebro está más ocupado en integrar lo que ya ocurrió que en dirigir lo que va a ocurrir.
+Llamémoslo Paul. Si el nombre te suena, es porque un pulpo real así llamado se hizo famoso en 2010 al acertar los resultados de los siete partidos de Alemania en el Mundial de fútbol y el de la final, eligiendo entre dos cajas de comida marcadas con banderas. Paul tiene tres corazones, sangre azul (con cobre en lugar de hierro) y, sobre todo, dos tercios de sus neuronas fuera del cerebro, en los brazos. Cada brazo puede oler, tocar, saborear, decidir y resolver problemas sin consultar al cerebro central. Cuando Paul quiere abrir un frasco, no es el cerebro quien planifica la secuencia: los brazos negocian entre sí, prueban, se ajustan, cooperan. El cerebro está más ocupado en integrar lo que ya ocurrió que en dirigir lo que va a ocurrir.
 
-¿Es Pol un conjunto de nueve conciencias, una central y ocho periféricas, o una sola conciencia distribuida? La pregunta da por hecho que la conciencia necesita un centro, y Pol sugiere que no es así. Si la conciencia es propiedad de la relación entre partes, Pol nos dice que esas partes no necesitan estar en el mismo sitio. El horizonte puede ser una red y no un círculo; la frontera, múltiple y no única.
+¿Es Paul un conjunto de nueve conciencias, una central y ocho periféricas, o una sola conciencia distribuida? La pregunta da por hecho que la conciencia necesita un centro, y Paul sugiere que no es así. Si la conciencia es propiedad de la relación entre partes, Paul nos dice que esas partes no necesitan estar en el mismo sitio. El horizonte puede ser una red y no un círculo; la frontera, múltiple y no única.
 
 > **En física esto se llama:** sistema distribuido, computación paralela, red sin centro.  
 > **En la vida diaria es como:** una banda de jazz improvisando: no hay director, pero hay coherencia. Cada músico escucha a los demás y ajusta, y lo que surge no es la suma de las partes, sino algo que ninguna podría producir por separado.
@@ -103,7 +103,7 @@ Desglosado:
 - «Propiedad emergente» = no está en ninguna neurona individual sino en el patrón de sus relaciones. Igual que la humedad no está en ninguna molécula de agua, sino en cómo se juntan.
 - «De los sistemas complejos» = no cualquier sistema, solo los que alcanzan suficiente integración. Un termostato no tiene horizonte. Una red neuronal artificial avanzada, quizá sí.
 - «Cuyo substrato físico es análogo a un microagujero negro de Hawking» = la estructura matemática que describe la conciencia es la misma que describe la información en un horizonte. No decimos que haya un agujero negro literal dentro del cráneo, sino que dos fenómenos físicamente distintos podrían compartir la misma arquitectura matemática.
-- «Cuyo grado es proporcional al área de su horizonte» = más conciencia equivale a un horizonte más grande. El gusano tiene un horizonte minúsculo. Pol tiene uno distribuido y extraño. Txiki tenía uno reconocible. Un ser humano adulto tiene el horizonte más grande que conocemos en la naturaleza.
+- «Cuyo grado es proporcional al área de su horizonte» = más conciencia equivale a un horizonte más grande. El gusano tiene un horizonte minúsculo. Paul tiene uno distribuido y extraño. Txiki tenía uno reconocible. Un ser humano adulto tiene el horizonte más grande que conocemos en la naturaleza.
 
 > **En lenguaje técnico:** La conciencia es proporcional a Φ, que a su vez es proporcional al área del horizonte de sucesos.  
 > **En la vida diaria:** Cuanto más grande y compleja la burbuja, más «tú». Y cuando te partes de risa, lloras de rabia o te quedas callado ante algo que no sabes nombrar, lo que sientes no es el aire de dentro de la burbuja, sino la tensión de la piel, la forma que toma el horizonte en ese instante.
@@ -144,7 +144,7 @@ Por esta imposibilidad estructural, la conciencia es, en el fondo, un misterio p
 
 ### Una advertencia
 
-Lo que hemos mostrado es que Phi y la entropía de Bekenstein-Hawking tienen la misma forma matemática, que hay cinco paralelos estructurales y que tres teorías con mecanismos diferentes (la IIT, la termodinámica de los agujeros negros y el principio holográfico) detectaron algo parecido en el mismo sitio.
+Lo que hemos mostrado es que Phi y la entropía de Bekenstein-Hawking comparten una intuición (la información de un sistema está en sus relaciones y en su borde, no en su contenido), aunque sus fórmulas sean distintas, que hay cinco paralelos estructurales y que tres teorías con mecanismos diferentes (la IIT, la termodinámica de los agujeros negros y el principio holográfico) detectaron algo parecido en el mismo sitio.
 
 Lo que no hemos demostrado es que el sustrato físico de la conciencia sea literalmente un microagujero negro de Hawking.
 
@@ -165,12 +165,12 @@ Cuando una metáfora es a la vez la columna vertebral del relato y una afirmaci�
 
 > **Nota al Capítulo 4**
 >
-> **Lo que sí sabemos:** Phi y la entropía de Bekenstein-Hawking comparten forma matemática. Los cinco paralelos son estructurales, no probatorios. La IIT ha generado predicciones empíricas parciales (anestesia, coma, estados de mínima conciencia) que merecen atención. El principio holográfico está matemáticamente bien fundado en la física de agujeros negros.
+> **Lo que sí sabemos:** Phi y la entropía de Bekenstein-Hawking tienen fórmulas distintas, pero las dos miden la información por las relaciones o por el borde, no por el contenido. Los cinco paralelos son estructurales, no probatorios. La IIT ha generado predicciones empíricas parciales (anestesia, coma, estados de mínima conciencia) que merecen atención. El principio holográfico está matemáticamente bien fundado en la física de agujeros negros.
 >
-> **Lo que no sabemos:** Si el sustrato físico de la conciencia es literalmente un microagujero negro de Hawking: treinta órdenes de magnitud no son un detalle menor. Si la medida formal de la IIT es correcta. Si los paralelos son convergencia real o seducción de la matemática compartida.
+> **Lo que no sabemos:** Si el sustrato físico de la conciencia es literalmente un microagujero negro de Hawking: treinta órdenes de magnitud no son un detalle menor. Si la medida formal de la IIT es correcta. Si los paralelos son convergencia real o seducción de un vocabulario compartido.
 >
 > **Preguntas que quedan:** ¿Es «frontera» una homonimia o una intuición compartida? ¿Puede una metáfora ser una herramienta válida de investigación? ¿Qué predicciones nuevas podría generar este modelo? ¿Cómo se mide el «área» de un horizonte de conciencia?
 >
 > **Si solo te quedas con una idea:** La conciencia podría ser una burbuja de información. No porque tengas un agujero negro en la cabeza, sino porque ambos comparten geometría: una frontera que define un interior, en el que lo que importa no es el contenido, sino la forma del borde. Y esa forma no es fija: crece, cambia, se contrae y, como toda frontera, acaba por dejar de ser necesaria.
 >
-> **Lecturas:** Tononi (2008); Bekenstein (1972-1974); Hawking (1974); Susskind (1995, principio holográfico); Maldacena (1997, correspondencia AdS/CFT); Hossenfelder (2018, crítica a IIT); Zel'dovich & Novikov (1967) y Hawking (1971, agujeros negros primordiales).
+> **Lecturas:** Tononi (2008); Bekenstein (1972-1974); Hawking (1974); Susskind (1995, principio holográfico); Maldacena (1997, correspondencia AdS/CFT); Aaronson (2014, crítica a la IIT); Zel'dovich & Novikov (1967) y Hawking (1971, agujeros negros primordiales).

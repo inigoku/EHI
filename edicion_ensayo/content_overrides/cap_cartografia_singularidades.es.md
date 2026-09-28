@@ -8,7 +8,7 @@ illustrationTitle: Cartografía de tres singularidades
 illustrationDescription: Tres horizontes de sucesos de naturaleza distinta —una cápsula sellada, un prisma en superposición perpetua y un cosmos disuelto en constelaciones— orbitándose mutuamente sobre un fondo de estrellas.
 ---
 
-## Prólogo del que queda
+## Prólogo
 
 Olvidemos la cronología. Olvidemos los museos, las guerras, los catálogos razonados. El siglo XX español no se libró en las trincheras del Ebro ni bajo las bombas de Guernica: se libró en el espacio curvo de la conciencia, allí donde la gravedad del yo dobla la luz del mundo hasta hacerla irreconocible.
 
@@ -120,7 +120,7 @@ Ese rostro doble es la clave de toda su obra. Picasso no tiene un horizonte úni
 
 > **En la vida diaria es como:** una moneda todavía en el aire. Mientras gira no es cara ni cruz: es las dos cosas a la vez, y solo al caer sobre la mesa se convierte en un hecho.
 
-El primer colapso tiene fecha y cadáver. En 1901, su amigo Carles Casagemas se pega un tiro en un café de París por una mujer. Picasso, que tiene diecinueve años, entierra al amigo y a continuación pinta el mundo entero de azul durante tres años: mendigos, ciegos, madres consumidas, el propio Casagemas amortajado con la sien agujereada. La época azul no es un ejercicio tonal, sino la primera demostración de que un trauma puede teñir la totalidad del espectro perceptivo, de que la masa de un solo muerto puede curvar toda la luz de un sistema. Después vino el rosa (los saltimbanquis, la ternura itinerante) y luego el hachazo: entre *El viejo guitarrista ciego* y *Las señoritas de Avignon* no hay transición narrativa, sino un salto. Las cinco mujeres del burdel de la calle Avinyó, con sus rostros de máscara ibérica y africana, no evolucionan de nada anterior: irrumpen, como irrumpe una partícula donde la física clásica no la esperaba.
+El primer colapso tiene fecha y cadáver. En 1901, su amigo Carles Casagemas se pega un tiro en un café de París por una mujer. Picasso, que tiene diecinueve años, entierra al amigo y a continuación pinta el mundo entero de azul durante tres años: mendigos, ciegos, madres consumidas, el propio Casagemas amortajado con la sien agujereada. La época azul no es un ejercicio tonal, sino la primera demostración de que un trauma puede teñir la totalidad del espectro perceptivo, de que la masa de un solo muerto puede curvar toda la luz de un sistema. Después vino el rosa (los saltimbanquis, la ternura itinerante) y luego el hachazo: entre los saltimbanquis rosas y *Las señoritas de Avignon* no hay transición narrativa, sino un salto. Las cinco mujeres del burdel de la calle Avinyó, con sus rostros de máscara ibérica y africana, no evolucionan de nada anterior: irrumpen, como irrumpe una partícula donde la física clásica no la esperaba.
 
 ## [ILUSTRACIÓN cart_avignon: "Las señoritas de Avignon"]
 *Pablo Picasso, óleo sobre lienzo, 1907. The Museum of Modern Art, Nueva York.*
@@ -224,3 +224,5 @@ El observador no está fuera del sistema. El observador es el sistema.
 > **Preguntas que quedan:** ¿Sella, habita o disuelve su propio horizonte quien lee esto? ¿Es posible elegir la propia respuesta, o la masa de la biografía de cada uno ya la ha decidido de antemano? Y si el espectador nunca es externo al sistema que observa, ¿qué parte de estos tres pintores seguimos cargando nosotros, sin saberlo, cada vez que miramos uno de sus cuadros?
 >
 > **Si solo te quedas con una idea:** No existe una única manera correcta de sobrevivir a la propia masa interior. Sellarla, habitarla o disolverla son tres respuestas igual de válidas al mismo problema, y ninguna es transferible de una biografía a otra. Lo único que de verdad importa es no fingir que no hay curvatura.
+>
+> **Lecturas:** Dalí, S. (1964), *Diario de un genio*; Gibson, I. (1997), *La vida desaforada de Salvador Dalí*; Richardson, J. (1991-2007), *Picasso. Una biografía*; Miró, J. (1978), *Escritos y declaraciones*; Forsythe, A., Williams, T. y Reilly, R. G. (2017), «What paint can tell us: A fractal analysis of neurological changes in seven artists», *Neuropsychology*, 31(1).

@@ -75,7 +75,7 @@ La tasa de integración la regulan, minuto a minuto, los neurotransmisores:
 >
 > Lo que casi nadie menciona, y los pacientes describen con una coherencia desconcertante, es que desde dentro esa lentitud no se percibe. El paciente que tarda tres minutos en cruzar una habitación no siente que tarda tres minutos, sino que camina a su ritmo normal. Su horizonte ordena el movimiento a la velocidad de siempre; es el cuerpo el que no lo ejecuta.
 >
-> El tratamiento con levodopa restablece la calibración casi de inmediato, antes incluso de que mejore el movimiento: el tiempo se sincroniza antes que el cuerpo.
+> Algunos pacientes cuentan que, con la levodopa, el tiempo parece volver a su sitio incluso antes de que el movimiento mejore del todo; si es así, el tiempo se sincroniza antes que el cuerpo.
 >
 > **En física esto se llama:** la dopamina como calibrador del reloj interno.  
 > **En la vida diaria es como:** un reloj que adelanta: crees que llegas tarde, pero es el reloj el que está mal.

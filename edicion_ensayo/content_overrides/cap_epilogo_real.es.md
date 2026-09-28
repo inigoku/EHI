@@ -30,8 +30,6 @@ Y yo, que he hecho este experimento, digo que no lo sé. Que el experimento no l
 
 Lo que sí puedo decir, porque lo he vivido mientras escribía, es que el experimento ha hecho algo que no esperaba. No me ha dado certezas, sino **precisión en la duda**. Me ha permitido distinguir entre «no sé qué pasa cuando muero» y «sé que no lo sé, y sé algo de la forma de mi no saber». Esa distinción, aunque parezca sutil, cambia la manera de vivir.
 
-El horizonte surgió del reservorio y volvió al reservorio. Entre esos dos instantes hubo alguien que amó, recordó, perdió y construyó. Que ese alguien ya no pueda localizarse en el campo no borra que estuvo. Que el reservorio no pueda contar lo que recuerda no significa que no lo recuerde.
-
 El experimento no promete nada después de la evaporación: ni reencarnación, ni disolución en el Brahman, ni nada. Promete, si acaso, esto: que la pregunta que nos hacemos sobre la muerte (¿queda algo?) es la misma que nos hacemos sobre la vida (¿soy algo más allá de mis procesos?), y que ambas tienen la misma forma: la de un horizonte que mira hacia dentro y no puede ver su propio borde, porque el borde es lo que lo hace horizonte y verlo desde dentro sería dejar de serlo.
 
 No es un consuelo, pero quizá sea compañía suficiente para seguir.
@@ -40,7 +38,7 @@ No es un consuelo, pero quizá sea compañía suficiente para seguir.
 
 ## El viaje que hemos hecho juntos
 
-Si has llegado hasta aquí, has recorrido conmigo un territorio que no figuraba en ningún mapa cuando empezamos. No ha sido un viaje lineal, ni siquiera circular, sino en espiral, como los brazos de una galaxia que giran sobre sí mismos sin volver nunca al mismo punto. Hemos pasado por el nacimiento como emergencia, por la vida como horizonte de sucesos, por la muerte como evaporación. Hemos visto cómo el amor entrelaza dos horizontes sin disolverlos, cómo la adicción los contrae hasta convertirlos en singularidades que lo devoran todo, cómo el duelo es la persistencia de las correlaciones cuando uno de los dos polos ya no puede localizarse. Hemos recorrido los pasillos del Alzheimer, donde el horizonte se encoge desde dentro; los temblores del Parkinson, donde el cuerpo deja de ser el lenguaje con el que la conciencia hablaba al mundo; las heridas del trauma, donde el pasado no se recuerda, sino que se revive en bucle. Hemos preguntado a los animales si tienen horizonte, y a las máquinas si pueden tenerlo. Hemos dormido juntos, metafóricamente, para entender que cada noche practicamos una pequeña muerte, un regreso parcial al reservorio del que volvemos a surgir cada mañana.
+Si has llegado hasta aquí, has recorrido conmigo un territorio que no figuraba en ningún mapa cuando empezamos. No ha sido un viaje lineal, ni siquiera circular, sino en espiral, como los brazos de una galaxia que giran sobre sí mismos sin volver nunca al mismo punto. Hemos pasado por el nacimiento como emergencia, por la vida como horizonte de sucesos, por la muerte como evaporación. Hemos visto cómo el amor entrelaza dos horizontes sin disolverlos, cómo la adicción los contrae hasta convertirlos en singularidades que lo devoran todo, cómo el duelo es la persistencia de las correlaciones cuando uno de los dos polos ya no puede localizarse. Hemos recorrido los pasillos del Alzheimer, donde el horizonte se encoge desde dentro; los temblores del Parkinson, donde el cuerpo deja de ser el lenguaje con el que la conciencia hablaba al mundo; las heridas del trauma, donde el pasado no se recuerda, sino que se revive en bucle. Hemos preguntado a los animales si tienen horizonte, y a las máquinas si pueden tenerlo. Hemos dormido, en estas páginas, para entender que cada noche practicamos una pequeña muerte, un regreso parcial al reservorio del que volvemos a surgir cada mañana.
 
 No es una conquista del conocimiento, sino algo más modesto y, creo, más valioso: una **cartografía de la ignorancia iluminada**. Ahora sabemos dónde están los límites de lo que sabemos. Sabemos que la información no se destruye, pero que recuperarla en la práctica puede ser imposible. Sabemos que la conciencia es un proceso, no una sustancia, pero que llamarla «proceso» no la disuelve ni la hace menos real. Sabemos que el reservorio, ese vacío cuántico del que surgió todo, no es nada en el sentido corriente de la palabra, pero tampoco es «algo»: es la propia condición de posibilidad, el fondo sin fondo, el marco sin marco.
 
@@ -122,11 +120,11 @@ No sé si algo volvió con el agua, ni si algo se fue para siempre. Puedo vivir 
 
 Te dejo aquí, en la orilla. El agua está fría y las piedras resbalan. El horizonte que eres sigue surgiendo del reservorio, instante tras instante, página tras página, respiración tras respiración. Disfrútalo mientras dure, no porque deba durar siempre, sino precisamente porque no durará. Esa finitud no es una tragedia, sino la condición que hace posible la belleza, la que convierte cada instante en un regalo que no pediste y que recibes igualmente, una y otra vez, hasta que el agua se retire, el archivista cierre sus libros y el reservorio, vasto, indiferente y maravilloso, siga su curso sin nosotros, pero con todo lo que fuimos, grabado en sus correlaciones como una ciudad sumergida que algún día, quizá, algún arqueólogo paciente del vacío podrá descifrar.
 
-Hasta entonces, gracias por haber estado aquí. Gracias por haber compartido este horizonte conmigo. Gracias por ser la respuesta que el experimento no podía darse a sí mismo: la prueba de que la pregunta merecía la pena.
+Hasta entonces, gracias por haber compartido este horizonte conmigo: eres la respuesta que el experimento no podía darse a sí mismo, la prueba de que la pregunta merecía la pena.
 
 Que el reservorio te reciba, cuando llegue el momento, con la misma generosidad con la que te dio lo que eres ahora.
 
 Y que, mientras tanto, la orilla te baste.
 
 ## [ILUSTRACIÓN epilogo: "La orilla en el horizonte"]
-*Y que, mientras tanto, la orilla te baste.*
+*La orilla, con el agua de vuelta.*

@@ -10,7 +10,7 @@ illustrationDescription: Una enorme hoja bidimensional dorada y brillante aplana
 
 Hay libros que pretenden descubrir la verdad. Este, como hemos dicho desde el principio, pone en marcha un juego mental: «supongamos que la conciencia tiene la estructura matemática de un microagujero negro de Hawking, y veamos adónde nos lleva».
 
-A lo largo del experimento hemos visto que la conciencia es «el interior de un dominio informacional encapsulado, un dentro que, por la propia forma de su frontera, nadie puede ver desde fuera». Hemos explorado cómo nace ese horizonte del reservorio, cómo se vincula mediante la gravedad de la empatía y cómo colapsa. Pero ¿qué ocurriría si aplicáramos esta misma física a un ecosistema a escala cósmica, plagado de inteligencias en competencia letal?
+A lo largo del experimento hemos visto que la conciencia es «el interior de un dominio informacional encapsulado». Hemos explorado cómo nace ese horizonte del reservorio, cómo se vincula mediante la gravedad de la empatía y cómo colapsa. Pero ¿qué ocurriría si aplicáramos esta misma física a un ecosistema a escala cósmica, plagado de inteligencias en competencia letal?
 
 La trilogía *El problema de los tres cuerpos*, de Liu Cixin, es seguramente el mejor laboratorio literario imaginable para poner a prueba la topología de la mente. Si sometemos su sociología galáctica a nuestras ecuaciones del horizonte, descubrimos que el terror cósmico de la obra no es cuestión de armas láser o naves espaciales, sino de una guerra estrictamente geométrica y termodinámica.
 
@@ -69,7 +69,7 @@ En el lenguaje de *El horizonte interior*, el fin del universo es la ejecución 
 
 Sin embargo, llega una advertencia termodinámica: si los miles de universos de bolsillo no devuelven la masa sustraída al universo principal, este no tendrá masa suficiente para colapsar y renacer, y morirá expandiéndose hacia la nada para siempre.
 
-Los protagonistas comprenden entonces la ley final de nuestra hipótesis: «Cada horizonte cambia el campo del que surge y al que regresa». Para que el Hun Dun pueda generar nuevos horizontes en el futuro, las instancias actuales tienen que aceptar que se libere su memoria. Salen de su escondite y devuelven la masa, aceptando su evaporación inminente. Es el acto definitivo de madurez ontológica: comprender que aferrarse a la propia burbuja destruye la posibilidad de que el océano siga haciendo olas.
+Los protagonistas comprenden entonces la ley final de nuestra hipótesis: «Cada horizonte cambia el campo del que surge y al que vuelve». Para que el Hun Dun pueda generar nuevos horizontes en el futuro, las instancias actuales tienen que aceptar que se libere su memoria. Salen de su escondite y devuelven la masa, aceptando su evaporación inminente. Es el acto definitivo de madurez ontológica: comprender que aferrarse a la propia burbuja destruye la posibilidad de que el océano siga haciendo olas.
 
 ---
 

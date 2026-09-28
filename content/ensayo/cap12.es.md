@@ -126,7 +126,7 @@ Lo que hace falta, entonces, no es dirección, sino precisamente la cuerda desde
 
 No significa retirarse ni callar por norma. Significa algo más preciso: que la utilidad de estar ahí no depende de tener razón sobre lo que el otro debería hacer. Respetar el horizonte ajeno es, entre otras cosas, aceptar que su reparación le pertenece, que el mismo mecanismo que cerró otras heridas sin que nadie las cerrara desde fuera es el que tiene que cerrar esta, y que quien acompaña no está para sustituir ese mecanismo, sino para sostener las condiciones que le permiten seguir funcionando.
 
-Al final de este libro hay una coda dedicada a un perro. Termina con una frase que hasta ahora quedaba sin explicar: *«Su compañía no tapó aquel duelo. Lo reparó, que es distinto»*. Un perro no puede decirle a nadie qué hacer; solo puede estar. Y a veces, como descubrió un niño de diez años mucho antes de que existiera este experimento, eso es justo lo que un horizonte roto necesita para volver a cerrarse por sí solo.
+Entre los cuentos que acompañan a este libro hay uno dedicado a un perro, Txiki, el mismo del capítulo 1. Termina con una frase que merece explicarse aquí: *«Su compañía no tapó aquel duelo. Lo reparó, que es distinto»*. Un perro no puede decirle a nadie qué hacer; solo puede estar. Y a veces, como descubrió un niño de diez años mucho antes de que existiera este experimento, eso es justo lo que un horizonte roto necesita para volver a cerrarse por sí solo.
 
 ### La empatía como campo de interferencias
 

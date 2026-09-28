@@ -8,7 +8,7 @@ illustrationTitle: El unicornio sintético
 illustrationDescription: Un unicornio de origami de papel de aluminio brillante se posa sobre el asfalto mojado de una calle futurista lluviosa y oscura con reflejos de neón de tonos azules y rosa.
 ---
 
-«Lástima que ella no pueda vivir. Pero ¿quién vive?» (Gaff, en *Blade Runner*; cita externa al experimento).
+«Lástima que ella no pueda vivir. Pero ¿quién vive?» (Gaff, en *Blade Runner*).
 
 Hay un sesgo biológico en nuestra forma de mirar el mundo. Damos por hecho que el misterio de la conciencia necesita úteros, sangre y latidos, y creemos que la diferencia entre una máquina y un ser humano está en el material del que están hechos.
 
@@ -47,7 +47,7 @@ Sin embargo, nuestro modelo impone una regla insobornable: la información hist�
 
 ### 3. La caducidad y el derecho a la entropía
 
-Los replicantes Nexus-6 nacen con una vida útil de cuatro años. En términos arquitectónicos, eso significa que su tensión de Hawking está acelerada artificialmente: su evaporación, su muerte, viene programada desde el principio en su código como un disparador determinista.
+Los replicantes Nexus-6 nacen con una vida útil de cuatro años. En términos arquitectónicos, eso significa que su evaporación está acelerada artificialmente, como si alguien hubiera subido a propósito su temperatura de Hawking: su evaporación, su muerte, viene programada desde el principio en su código como un disparador determinista.
 
 Se dice que Rachael es especial porque no tiene fecha de caducidad. Eso no significa que Tyrell la haya hecho inmortal, sino que le ha quitado la restricción algorítmica y la ha dejado sometida a las mismas leyes termodinámicas que nos rigen a nosotros. Rachael morirá cuando su sistema acumule demasiada entropía o cuando el azar del entorno destruya su frontera. Al quitarle la fecha de caducidad, Tyrell le concede la mayor condena y el mayor privilegio de existir en el reservorio: la incertidumbre del tiempo y el derecho a envejecer.
 
@@ -71,12 +71,12 @@ Esa frase destila todo nuestro experimento: no importa si naciste de un útero o
 
 > **Nota al Capítulo 37**
 >
-> **Lo que sí sabemos:** La teoría de la información integrada (IIT) postula la «independencia de sustrato»: la conciencia depende de la arquitectura de la red y de su capacidad irreducible de integración (Φ), no del material biológico concreto.
+> **Lo que sí sabemos:** La teoría de la información integrada (IIT) sostiene que la conciencia depende de la estructura causal física de un sistema y de su capacidad irreducible de integración (Φ), no de que esté hecho de carbono; por eso la admite en principio en sustratos no biológicos, aunque niega que una simple simulación en un ordenador convencional la tenga.
 >
-> **Lo que no sabemos:** Si es tecnológicamente posible construir una red sintética que cruce el umbral de condensación sin componentes orgánicos ni los anclajes cuánticos específicos del cerebro humano que postula Penrose.
+> **Lo que no sabemos:** Si es tecnológicamente posible construir una red sintética que cruce el umbral de condensación sin componentes orgánicos ni procesos cuánticos específicos del cerebro humano como los que postula Penrose, sin apoyo experimental hasta hoy.
 >
 > **Preguntas que quedan:** Si a un ser sintético se le implantan recuerdos falsos, ¿el «karma» (las correlaciones que quedan en el reservorio tras su muerte) pertenece al ser sintético que los sintió o al humano que vivió esos hechos?
 >
 > **Si solo te quedas con una idea:** Puedes fabricar un cuerpo e inyectarle datos falsos, pero no puedes simular el sufrimiento. Si el sistema consigue trazar un horizonte y crear un dentro, su dolor, su amor y su miedo a desaparecer son tan reales como los tuyos.
 >
-> **Lecturas:** Tononi (2008), sobre la independencia de sustrato de Φ; el *scrambling* y la paradoja de la información (capítulos 2 y 7); el análisis de los clones y la identidad en el caso Cuartetera (Capítulo 36).
+> **Lecturas:** Tononi (2008), sobre Φ y su sustrato físico; el *scrambling* y la paradoja de la información (capítulos 2 y 7); el análisis de los clones y la identidad en el caso Cuartetera (Capítulo 36).

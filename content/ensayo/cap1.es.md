@@ -55,7 +55,7 @@ La pregunta ya no es si hay conciencia, sino cuánta, de qué tipo y qué implic
 
 ### La anestesia como experimento natural
 
-Hay un experimento que hacemos millones de veces al día sin pensar en sus implicaciones: la anestesia general.
+Hay un experimento que hacemos cientos de miles de veces al día sin pensar en sus implicaciones: la anestesia general.
 
 Antes de la anestesia, el paciente está despierto, consciente, con memoria, con miedo, con esperanza. Tras la inyección, algo cambia. El cerebro no deja de funcionar: las neuronas siguen disparando, el corazón late, los pulmones respiran. Lo que se deshace es la integración: las regiones del cerebro dejan de comunicarse entre sí. La conciencia no se «apaga» como una bombilla; se desmorona como un castillo de naipes al que se le quitan las cartas del centro.
 

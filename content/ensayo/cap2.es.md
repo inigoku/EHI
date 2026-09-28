@@ -22,7 +22,7 @@ Esa frontera es el **horizonte de sucesos**. No es una superficie física: ahí 
 
 ### Una idea que regresó
 
-Los agujeros negros no son una invención reciente. En 1783, John Michell, un naturalista inglés, escribió a la Royal Society proponiendo algo que parecía imposible: una estrella tan masiva que su luz no pudiera escapar. Lo calculó con pura mecánica newtoniana, sin relatividad ni mecánica cuántica, y concluyó que si una estrella tenía el mismo diámetro del Sol pero una densidad 500 veces mayor, sería invisible: «Sus rayos no podrían llegar hasta nosotros». La idea durmió más de un siglo.
+Los agujeros negros no son una invención reciente. En 1783, John Michell, un naturalista inglés, escribió a la Royal Society proponiendo algo que parecía imposible: una estrella tan masiva que su luz no pudiera escapar. Lo calculó con pura mecánica newtoniana, sin relatividad ni mecánica cuántica, y concluyó que si una estrella tenía la misma densidad que el Sol, pero un radio 500 veces mayor, sería invisible: «Sus rayos no podrían llegar hasta nosotros». La idea durmió más de un siglo.
 
 En 1916, Karl Schwarzschild, un astrónomo alemán que calculaba trayectorias de artillería en el frente ruso de la Primera Guerra Mundial, resolvió las ecuaciones de Einstein para un objeto esférico y masivo. Encontró que, por encima de cierta densidad, el espacio-tiempo se curva sobre sí mismo y aparece una singularidad rodeada de un horizonte. Schwarzschild murió de una enfermedad de la piel pocos meses después, sin llegar a saber que su solución describía algo real.
 
@@ -85,7 +85,7 @@ El 10 de abril de 2019, el Event Horizon Telescope publicó la primera imagen di
 ---
 
 ## [ILUSTRACIÓN M87: "M87*, el primer agujero negro fotografiado"]
-*Primera imagen directa del horizonte de sucesos de un agujero negro, captada por el Event Horizon Telescope en 2019. El anillo brillante es gas caliente orbitando el horizonte; la sombra oscura central es el propio horizonte. La imagen confirma las predicciones de la relatividad general con una precisión sin precedentes. Crédito: EHT Collaboration.*
+*Primera imagen directa del horizonte de sucesos de un agujero negro, captada por el Event Horizon Telescope en 2019. El anillo brillante es gas caliente orbitando el horizonte; la sombra oscura central es la silueta que proyecta el horizonte, unas dos veces y media mayor que él. La imagen confirma las predicciones de la relatividad general con una precisión sin precedentes. Crédito: EHT Collaboration.*
 
 ---
 
@@ -123,7 +123,7 @@ La radiación de Hawking creó un problema que ha atormentado a la física duran
 
 Pero si la información cae en un agujero negro y el agujero emite radiación térmica, la información se pierde para siempre, de forma irreversible. Eso violaría la mecánica cuántica, y si la mecánica cuántica se equivoca en esto, el edificio entero se tambalea.
 
-Hawking apostó, con una enciclopedia de por medio, a que la información sí se destruía; el físico John Preskill apostó a que no. La discusión, en la que Leonard Susskind fue el gran adversario de Hawking, duró décadas. En 2004, Hawking reconoció que había perdido la apuesta. La información no se destruye, aunque tampoco sale de forma sencilla: se *scramblea*, es decir, se mezcla, se reparte se convierte en correlaciones tan complejas entre todas las partículas de la radiación que reconstruirla requeriría medir cada partícula emitida y sus correlaciones cuánticas. La información está ahí, pero escondida en el ruido.
+Hawking apostó, con una enciclopedia de por medio, a que la información sí se destruía; el físico John Preskill apostó a que no. La discusión, en la que Leonard Susskind fue el gran adversario de Hawking, duró décadas. En 2004, Hawking reconoció que había perdido la apuesta. La información no se destruye, aunque tampoco sale de forma sencilla: se *scramblea*, es decir, se mezcla, se reparte, se convierte en correlaciones tan complejas entre todas las partículas de la radiación que reconstruirla requeriría medir cada partícula emitida y sus correlaciones cuánticas. La información está ahí, pero escondida en el ruido.
 
 > **En física esto se llama:** paradoja de la información de Hawking, complementariedad de agujeros negros, principio holográfico como resolución.  
 > **En la vida diaria es como:** una carta que metes en una trituradora industrial: la información no desaparece, se mezcla. Reconstruir la carta es posible en principio e imposible en la práctica. La información existe, pero revuelta.

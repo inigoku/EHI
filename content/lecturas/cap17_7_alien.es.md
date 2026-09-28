@@ -114,4 +114,4 @@ Quizá sea esta la versión más quieta y más completa de la soledad topológic
 >
 > **Si solo te quedas con una idea:** Esperamos que las estrellas nos devuelvan el saludo, pero el universo no tiene ninguna obligación de usar nuestro código fuente. La soledad no siempre es falta de compañía; a veces es estar programados en un lenguaje que el resto del cosmos no usa, en un instante que el resto del cosmos ya no comparte.
 >
-> **Lecturas:** Godfrey-Smith, P. (2016), *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*; Lem, S. (1961), *Solaris*; simetría gauge y acoplamiento neuronal (capítulos 10 y 12); Drake, F. (1961), la ecuación de Drake y el parámetro de longevidad tecnológica.
+> **Lecturas:** Godfrey-Smith, P. (2016), *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*; Lem, S. (1961), *Solaris*; acoplamiento neuronal (capítulos 10 y 12); Drake, F. (1961), la ecuación de Drake y el parámetro de longevidad tecnológica.

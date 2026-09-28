@@ -33,7 +33,7 @@ Entre las semanas 28 y 32 aparece en el EEG fetal una firma eléctrica única: l
 
 Es el horizonte examinándose a sí mismo, comprobando que las correlaciones que construye son coherentes, antes de abrirse al aluvión sensorial que llegará con el nacimiento.
 
-Un bebé nacido en la semana 28 o 29 está, según el modelo, en el momento en que el horizonte se está formando. El nacimiento lo expone de golpe a un mundo para el que el sistema todavía no estaba preparado. Los delta brushes cesan de golpe: el mundo exterior se hace con el control de la actividad eléctrica antes de que el horizonte haya terminado de probarse a sí mismo.
+Un bebé nacido en la semana 28 o 29 está, según el modelo, en el momento en que el horizonte se está formando. El nacimiento lo expone de golpe a un mundo para el que el sistema todavía no estaba preparado. Los delta brushes no desaparecen con el parto (siguen apareciendo en el prematuro hasta la edad que habría tenido al término), pero ya no se producen en la penumbra del útero: el horizonte tiene que terminar de probarse a sí mismo mientras la luz, el ruido y el tacto de la incubadora llaman desde fuera.
 
 ### El mapa antes del territorio
 
@@ -76,7 +76,7 @@ La razón es biomecánica: el canal del parto humano es estrecho porque caminamo
 
 Durante este año, el cerebro infantil forma aproximadamente un millón de sinapsis por segundo. Es el periodo de mayor plasticidad sináptica de toda la vida. Cada experiencia (cada sonido, cada luz, cada contacto) moldea el cerebro como más adelante ya no podrá hacerlo. El horizonte no solo se cierra: se cierra de una manera particular e irrepetible, configurada por el mundo en el que surge.
 
-De ahí una consecuencia de calado: no hay dos conciencias iguales porque no hay dos mundos idénticos en los que cerrarse. Incluso los gemelos idénticos, con el mismo genoma, nacen en posiciones distintas dentro del útero, reciben flujos sanguíneos ligeramente diferentes, oyen el latido materno desde lugares distintos. Y tras el nacimiento sus mundos divergen cada vez más deprisa. La contingencia no es un error: forma parte de lo que son.
+De ahí una consecuencia de calado: no hay dos conciencias iguales porque no hay dos mundos idénticos en los que cerrarse. Tras el nacimiento, los mundos de dos niños cualesquiera divergen cada vez más deprisa, y esa contingencia forma parte de lo que son.
 
 ### El estrés del parto como catalizador
 
@@ -93,7 +93,7 @@ Desde la perspectiva del experimento, el parto no es el momento en que aparece l
 
 ### El reservorio que condensa
 
-Recordemos la condensación de Bose-Einstein del capítulo anterior: miles de partículas enfriadas por debajo de una temperatura crítica caen a la vez al estado de mínima energía y empiezan a comportarse como una sola entidad coherente. La coherencia no se construye pieza a pieza; surge de golpe, como una rotura de simetría global.
+La condensación de Bose-Einstein del capítulo anterior ofrece la imagen: por debajo de una temperatura crítica, la coherencia no se construye pieza a pieza, sino que surge de golpe.
 
 > **En física esto se llama:** condensación de Bose-Einstein.  
 > **En la vida diaria es como:** miles de personas en un estadio que empiezan a aplaudir al unísono: nadie lo ordena, pero de pronto son uno solo.
@@ -144,7 +144,7 @@ Esto no significa que el feto de 20 semanas «valga menos» que un gusano, sino 
 
 ### Lo que el umbral no puede decir
 
-Si la conciencia es una transición de fase, entonces antes de esa transición no hay una conciencia parcial esperando completarse. Hay correlaciones crecientes que preparan la transición, como el gas que se enfría hacia la temperatura de condensación, pero la entidad que surge es cualitativamente nueva. El feto de 12 semanas no es una versión inmadura de la conciencia que llegará a ser, sino un sistema en otra fase, igual que el agua líquida no es vapor menos denso.
+Si la conciencia es una transición de fase, entonces antes de esa transición no hay una conciencia parcial esperando completarse. Hay correlaciones crecientes que preparan la transición, como el gas que se enfría hacia la temperatura de condensación, pero la entidad que surge es cualitativamente nueva. El feto de 12 semanas no es una versión inmadura de la conciencia que llegará a ser, sino un sistema en otra fase, igual que el vapor no es agua líquida a medio hacer.
 
 El experimento no resuelve las preguntas éticas sobre el estatuto moral del feto, y sería irresponsable pretenderlo. Lo que sí hace es reformular la pregunta con más precisión: no «¿cuándo empieza la vida?» (la vida biológica empieza antes de cualquier umbral de conciencia), sino «¿cuándo hay alguien en casa?». Y el modelo sugiere que eso ocurre en el punto de condensación, en la ventana de las semanas 28 a 32, y no antes.
 

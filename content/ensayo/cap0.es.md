@@ -8,7 +8,7 @@ illustrationTitle: Las tres ideas
 illustrationDescription: Tres círculos conectados: Burbuja (esfera con piel brillante), Océano (olas), Red (nudos conectados). Flechas circulares entre ellos.
 ---
 
-Mi madre tiene ochenta años. Lee novelas, no artículos de *Nature*. Cuando le expliqué este libro, me dijo: «Hijo, suena interesante, pero no entiendo nada de agujeros negros.»
+Mi madre tiene ochenta años. Lee novelas, no artículos de *Nature*. Cuando le expliqué este libro, me dijo: «Hijo, suena interesante, pero no entiendo nada de agujeros negros».
 
 Este capítulo es para ella, y para ti si tampoco entiendes nada de agujeros negros. No te preocupes: para seguir este libro no hace falta saber física. Bastan tres ideas, y las tres las conoces ya, aunque no sepas qué nombre reciben en física.
 

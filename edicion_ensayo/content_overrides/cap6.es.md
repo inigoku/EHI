@@ -81,7 +81,7 @@ El patrón es reconocible: una sensación de paz profunda, la experiencia de sal
 
 Los escépticos lo atribuyen todo a la anoxia cerebral, a la desregulación de la corteza visual o a una liberación masiva de dimetiltriptamina endógena en el momento del colapso. Y es cierto que muchos de estos fenómenos pueden reproducirse artificialmente: los pilotos sometidos a fuerzas G elevadas en una centrifugadora describen túneles de luz, y los pacientes a los que se estimula eléctricamente el lóbulo temporal dicen sentir presencias.
 
-Pero hay detalles que no encajan. Se han recogido relatos de pacientes con una actividad cerebral mínima, con el electroencefalograma plano, que describen experiencias complejas y coherentes, con detalles que solo pudieron comprobarse después: conversaciones que tuvieron lugar en la sala mientras estaban clínicamente muertos, cosas que no podían haber visto desde su posición, objetos colocados en estantes altos, fuera de la vista desde la camilla.
+Pero hay detalles que no encajan. Se han recogido relatos de pacientes con una actividad cerebral mínima, con el electroencefalograma plano, que describen experiencias complejas y coherentes, con detalles que solo pudieron comprobarse después: conversaciones que tuvieron lugar en la sala mientras estaban clínicamente muertos, cosas que no podían haber visto desde su posición, objetos colocados en estantes altos, fuera de la vista desde la camilla. Conviene decir con la misma claridad que son relatos anecdóticos: el estudio AWARE, que colocó imágenes ocultas en estantes altos de salas de reanimación precisamente para comprobarlos, no ha registrado hasta ahora ningún caso verificado de que alguien las viera.
 
 > **En física esto se llama:** correlatos neurales de la experiencia cercana a la muerte; testimonios anecdóticos que desafían el modelo materialista estricto.  
 > **En la vida diaria es como:** una radio que sigue emitiendo música después de que se cortó la corriente: no debería funcionar, pero durante unos segundos sigue sonando.
@@ -151,7 +151,7 @@ El karma no es deuda ni recompensa, sino la configuración del reservorio en el 
 > **En física esto se llama:** condiciones de contorno del campo cuántico alteradas por la existencia del horizonte.  
 > **En la vida diaria es como:** la estela de un barco: el barco ya ha pasado, pero el agua no es la misma.
 
-No es metafísica especulativa, sino una consecuencia directa de la conservación de la información. Si la información no se destruye, la configuración del campo tras la evaporación es distinta de la que había antes de que se formara el horizonte. Esa diferencia es, en el lenguaje del experimento, el karma.
+La parte física es una consecuencia directa de la conservación de la información; llamarla karma es ya interpretación. Si la información no se destruye, la configuración del campo tras la evaporación es distinta de la que había antes de que se formara el horizonte. Esa diferencia es, en el lenguaje del experimento, el karma.
 
 ### Lo que la pregunta revela
 
@@ -189,7 +189,7 @@ Quizá esa sea la respuesta.
 
 > **Nota al Capítulo 7**
 >
-> **Lo que sí sabemos:** Hawking demostró que los agujeros negros emiten radiación y se evaporan. La información, según la mayoría de los físicos, se conserva (unitaridad). Los destellos gamma en la parada cardíaca son reales (Borjigin et al., 2013, 2023). Las experiencias cercanas a la muerte tienen una fenomenología constante en todas las culturas.
+> **Lo que sí sabemos:** Hawking predijo que los agujeros negros emiten radiación y se evaporan (la predicción es sólida, aunque nadie la ha observado todavía). La información, según la mayoría de los físicos, se conserva (unitaridad). Los destellos gamma en la parada cardíaca son reales (Borjigin et al., 2013, 2023). Las experiencias cercanas a la muerte tienen una fenomenología muy parecida en culturas distintas, aunque con variaciones culturales documentadas.
 >
 > **Lo que no sabemos:** Qué ocurre en el régimen de Planck. Si la información es realmente recuperable. Si el Bardo describe algo más que fenomenología. Si las experiencias cercanas a la muerte son ilusiones cerebrales o algo más profundo.
 >

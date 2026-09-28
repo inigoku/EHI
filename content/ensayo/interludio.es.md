@@ -28,7 +28,7 @@ Antes de recorrer los estados uno a uno conviene tener el mapa completo, y el ma
 
 Durante mucho tiempo imaginamos el espectro de la conciencia como una simple escala vertical: arriba la vigilia plena, abajo el coma y, en el suelo, la muerte. El modelo es intuitivo, pero le falta algo importante.
 
-La neurociencia contemporánea ha identificado dos dimensiones independientes que definen el estado de conciencia de un sistema. La primera es el **nivel de activación** (*arousal*), la actividad metabólica del cerebro. La segunda es la **integración**, cuánta información genera el sistema como un todo: el Phi de Tononi que conocimos en el capítulo 1.
+La neurociencia contemporánea ha identificado dos dimensiones independientes que definen el estado de conciencia de un sistema. La primera es el **nivel de activación** (*arousal*), la actividad metabólica del cerebro. La segunda es la **integración**, cuánta información genera el sistema como un todo: el Phi de Tononi que conocimos en el capítulo 1. (Φ no puede calcularse en un cerebro real; lo que se mide son aproximaciones, como el índice de complejidad perturbacional, que cae en el sueño profundo y la anestesia y se recupera en la vigilia y en el sueño REM. Cuando este libro habla de «Φ alto» o «Φ bajo» en un cerebro, habla de esas aproximaciones.)
 
 Lo revelador es que estas dos dimensiones no siempre van juntas. La vigilia y el sueño profundo están en extremos opuestos del eje de la integración, pero la meditación profunda ocupa un lugar sin equivalente: activación baja e integración altísima a la vez, con los valores más altos que los instrumentos han registrado en un cerebro humano sano. Es un cuadrante que ningún otro estado ocupa.
 
@@ -99,7 +99,7 @@ Y luego está el sueño profundo.
 
 El sueño profundo es la contracción, una contracción real, medible y honda.
 
-Sus ondas lentas, las ondas delta, de entre 0,5 y 2 ciclos por segundo, no son el ruido de un cerebro apagado, sino la señal de un cerebro sincronizado de forma masiva. En la vigilia, las neuronas disparan de forma desincronizada: grupos distintos hacen cosas distintas en momentos distintos, y esa asincronía es justo lo que permite una integración rica de la información. En el sueño profundo, millones de neuronas caen juntas en un ritmo común. El horizonte no irradia: es opaco.
+Sus ondas lentas, las ondas delta, de entre 0,5 y 4 ciclos por segundo, no son el ruido de un cerebro apagado, sino la señal de un cerebro sincronizado de forma masiva. En la vigilia, las neuronas disparan de forma desincronizada: grupos distintos hacen cosas distintas en momentos distintos, y esa asincronía es justo lo que permite una integración rica de la información. En el sueño profundo, millones de neuronas caen juntas en un ritmo común. El horizonte no irradia: es opaco.
 
 Phi se acerca a los valores más bajos posibles en un adulto vivo. No llega a cero, que sería la muerte, pero se aproxima.
 
@@ -201,10 +201,10 @@ Cada noche ensayamos la contracción sin disolvernos: cruzamos el borde y volvem
 >
 > **Lo que sí sabemos:** El sueño REM tiene la firma eléctrica de la vigilia, con la corteza prefrontal apagada. El sueño profundo muestra ondas delta masivas y un Phi mínimo. La meditación profunda de expertos muestra ondas gamma de gran amplitud y un Phi elevado. Borjigin et al. (2013, 2023) documentaron un destello gamma coherente en la parada cardíaca. La hipótesis de la homeostasis sináptica de Tononi tiene evidencia experimental creciente. La adenosina regula la deuda de sueño.
 >
-> **Lo que no sabemos:** Si el destello gamma terminal es el correlato neural de las experiencias cercanas a la muerte. Si el *turiya* es un estado mensurable distinto del sueño profundo. Por qué el insomnio selectivo afecta la coherencia pero no la cantidad de ondas lentas. La lectura del argumento de Hume sobre la causalidad es fiel a su texto; que la flecha del tiempo pertenezca a la interfaz y no al territorio es interpretación propia, no un consenso establecido.
+> **Lo que no sabemos:** Si el destello gamma terminal es el correlato neural de las experiencias cercanas a la muerte. Si el *turiya* es un estado mensurable distinto del sueño profundo. Por qué el insomnio selectivo afecta la coherencia pero no la cantidad de ondas lentas. Si la flecha causal pertenece a la interfaz y no al territorio: es una interpretación propia de este libro, no un consenso establecido.
 >
 > **Preguntas que quedan:** ¿Por qué el sistema se expande en lugar de contraerse en el umbral de la muerte? ¿Es la meditación profunda un «tercer camino» entre la vigilia y el sueño o algo cualitativamente distinto? ¿Puede el sueño lúcido enseñarnos algo sobre la naturaleza del yo?
 >
 > **Si solo te quedas con una idea:** Cada noche cruzas el borde de tu propio horizonte y vuelves. La muerte es el mismo cruce, sin retorno garantizado.
 >
-> **Lecturas:** Borjigin et al. (2013), «Surge of neurophysiological coherence...»; Borjigin et al. (2023), «GAMMA coherence...»; Mandukya Upanishad (turiya); Bardo Thodol; Tononi (2008) sobre Phi y estados de conciencia; Tononi & Cirelli (2014), sinapsis y sueño; Hume, D., *Investigación sobre el entendimiento humano* (1748), sobre la conjunción constante.
+> **Lecturas:** Borjigin et al. (2013), «Surge of neurophysiological coherence...»; Xu, Borjigin et al. (2023), «Surge of neurophysiological coupling and connectivity of gamma oscillations in the dying human brain»; Mandukya Upanishad (turiya); Bardo Thodol; Tononi (2008) sobre Phi y estados de conciencia; Tononi & Cirelli (2014), sinapsis y sueño; Hume, D., *Investigación sobre el entendimiento humano* (1748), sobre la conjunción constante.

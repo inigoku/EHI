@@ -15,7 +15,7 @@ Pulsas una cuerda de guitarra y otra, afinada en la misma nota, vibra sin que la
 Eso es el entrelazamiento cuántico.
 
 > **En física esto se llama:** correlación no local entre sistemas cuánticos.  
-> **En la vida diaria es como:** dos gemelos que sienten lo mismo a distancia: no sería telepatía, sino que nunca dejaron del todo de ser uno.
+> **En la vida diaria es como:** dos monedas lanzadas en ciudades distintas que coinciden más a menudo de lo que permitiría cualquier acuerdo previo entre quienes las lanzan.
 
 ---
 
@@ -30,7 +30,7 @@ Durante treinta años la cuestión quedó en el terreno de la filosofía, hasta 
 En 1982, Alain Aspect realizó en París un experimento decisivo que violaba las desigualdades de Bell. Las partículas estaban separadas por unos doce metros, y la medición de una fijaba el estado de la otra antes de que la luz hubiera podido recorrer esa distancia. No era un artefacto del aparato: era real.
 
 > **En física esto se llama:** violación de las desigualdades de Bell; no localidad cuántica demostrada experimentalmente.  
-> **En la vida diaria es como:** descubrir que dos cartas de una baraja, separadas y barajadas, salen siempre del mismo color: no hay truco, pero tampoco explicación clásica.
+> **En la vida diaria es como:** descubrir que dos jugadores, cada uno en su habitación y eligiendo al azar qué pregunta responder, aciertan juntos más veces de las que permitiría cualquier estrategia pactada de antemano: no hay mensaje ni truco, pero tampoco explicación clásica.
 
 ### La geometría del entrelazamiento
 
@@ -85,7 +85,7 @@ Aplicado a cerebros, esto es muy especulativo y carece de pruebas experimentales
 No sabemos si dos cerebros pueden estar entrelazados en sentido físico. Sabemos que su actividad puede correlacionarse de forma sorprendente, como demuestra el acoplamiento neuronal de Hasson, pero una correlación clásica no es entrelazamiento cuántico. La diferencia es sutil y decisiva: la correlación clásica puede explicarse por causas comunes o por comunicación directa; el entrelazamiento cuántico, no.
 
 > **En física esto se llama:** correlación clásica ≠ entrelazamiento cuántico.  
-> **En la vida diaria es como:** dos amigos que llevan la misma camiseta porque la compraron juntos (correlación clásica) frente a dos gemelos que eligen la misma camiseta sin haberse comunicado (algo más profundo).
+> **En la vida diaria es como:** dos amigos que llevan la misma camiseta porque la compraron juntos, o dos gemelos que la eligen por separado porque comparten gustos: las dos cosas son correlación clásica, con una causa común. El entrelazamiento es justo lo que ninguna causa común puede explicar.
 
 Lo que sí podemos decir es que el entrelazamiento ofrece un vocabulario preciso para hablar de conexiones que no dependen de la proximidad espacial. Y esa precisión es útil aunque la conexión entre cerebros resulte ser solo una correlación clásica, porque obliga a distinguir entre «estar cerca» y «estar conectado», dos cosas que la intuición tiende a confundir.
 
@@ -115,6 +115,6 @@ Lo más sensato es el agnosticismo. No sabemos si el cerebro usa computación cu
 >
 > **Preguntas que quedan:** ¿Es el vínculo humano «entrelazamiento» en sentido físico o solo una metáfora formal? ¿Puede la biología proteger la coherencia cuántica en el cerebro? ¿Qué límites impone la decoherencia a la mente cuántica?
 >
-> **Si solo te quedas con una idea:** Dos cosas que se tocaron una vez pueden seguir siendo una aunque estén lejos. Quizá el amor funcione así.
+> **Si solo te quedas con una idea:** Dos cosas que se tocaron una vez pueden seguir correlacionadas aunque estén lejos, mientras el ruido del mundo no deshaga el vínculo. Quizá el amor funcione así.
 >
 > **Lecturas:** Einstein, Podolsky & Rosen (1935); Bell (1964); Aspect (1982); Maldacena & Susskind (2013); Penrose & Hameroff (2014, Orch-OR); decoherencia (Zurek, 2003); Engel, Fleming et al. (2007, coherencia en la fotosíntesis).

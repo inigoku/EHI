@@ -96,7 +96,7 @@ Queda por decir qué significa subir. Las tradiciones místicas hablan a veces d
 
 Es, quizá, lo que las tradiciones llaman héroe, santo o bodhisattva: no alguien que abandona su piso, sino alguien que ha aprendido a contener más sin romper la membrana, y que por eso puede ser nave para otros.
 
-El sueño ofrece cada noche una versión pequeña del mismo despliegue. Al dormir se pierde la dimensión del espacio exterior, el *arousal* que nos ata al mundo, y se pierde también la flecha lineal del tiempo; a cambio, la conciencia se despliega hacia dentro, por dimensiones que la vigilia mantiene cerradas. No es una deficiencia de la noche, sino una prueba de que la conciencia no está atada del todo a las coordenadas del día.
+El sueño ofrece cada noche una versión pequeña del mismo despliegue. Al dormir se pierde la dimensión del espacio exterior, la activación que nos ata al mundo, y se pierde también la flecha lineal del tiempo; a cambio, la conciencia se despliega hacia dentro, por dimensiones que la vigilia mantiene cerradas. No es una deficiencia de la noche, sino una prueba de que la conciencia no está atada del todo a las coordenadas del día.
 
 ### Tres miradas
 
@@ -106,7 +106,7 @@ Desde la experiencia humana, se ve en el cuerpo: la membrana por la que el dentr
 
 Desde la religión, se ve en los mitos, los dogmas y los ritos, leídos como lo que el capítulo 40 llamaba gafas de eclipse: no descripciones literales de lo que hay al otro lado, sino protocolos para recibir su señal sin quedar ciego. Leída así, la religión no es una fuente de información sobre el mundo, sino una tecnología de la nave: prepara la interfaz de abajo para la doble llamada.
 
-Desde la filosofía, se ve en el límite que Hume encontró al buscarse a sí mismo: el ojo no puede verse mirando. Ningún horizonte puede salir de sí para observar el que lo contiene. Pero ese límite no es una desgracia, sino la condición de todo lo demás: solo porque estamos dentro hay experiencia; solo porque hay frontera hay alguien.
+Desde la filosofía, se ve en el límite que Hume encontró al buscarse a sí mismo (nunca se sorprendía sin una percepción) y que Wittgenstein resumió con la imagen del ojo que no puede verse mirando. Ningún horizonte puede salir de sí para observar el que lo contiene. Pero ese límite no es una desgracia, sino la condición de todo lo demás: solo porque estamos dentro hay experiencia; solo porque hay frontera hay alguien.
 
 ### La geometría del amor
 

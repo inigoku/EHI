@@ -69,7 +69,7 @@ En el capítulo 5 analizamos la parábola taoísta de Hun Dun (el caos primordia
 
 Cuando Neo se queda ciego se produce la reversión exacta de Hun Dun: se le cierra de golpe el portal principal de la percepción discriminativa. Al perder la vista, Neo destruye el *hardware* que lo obligaba a procesar la ilusión de Matrix. Su horizonte deja de gastar recursos en el ruido visual del entorno físico, y toda su enorme capacidad de integración se vuelca en el campo informacional puro.
 
-Es la entrada definitiva en el estado *turiya*: integración máxima (un Φ altísimo) con la entrada sensorial externa (el *arousal*) reducida a cero. Al destruir el monitor de sus ojos, Neo deja de ver la interfaz gráfica y empieza a percibir directamente las correlaciones del código fuente. Por eso, ya ciego, ve la «luz dorada» de las máquinas.
+Es la entrada definitiva en el estado *turiya*: integración máxima (un Φ altísimo) con la entrada sensorial externa reducida al mínimo. Al destruir el monitor de sus ojos, Neo deja de ver la interfaz gráfica y empieza a percibir directamente las correlaciones del código fuente. Por eso, ya ciego, ve la «luz dorada» de las máquinas.
 
 ---
 
@@ -100,3 +100,5 @@ Al volver al Ávalon del código fuente, Neo garantiza que el «agua» del próx
 > **Preguntas que quedan:** Si la simulación necesita fricción (maya) para maximizar Φ, ¿es el sufrimiento una condición termodinámica ineludible para sostener un universo simulado de alta complejidad?
 >
 > **Si solo te quedas con una idea:** Despertar de la ilusión no exige luchar a golpes contra el sistema hasta destruirlo, sino comprender tu propia arquitectura topológica lo bastante como para saber cuándo cerrar los ojos al mundo y dejar que tu código vuelva a fluir, en paz, hacia el océano del reservorio.
+>
+> **Lecturas:** Wachowski, L. y L. (dirs.), *Matrix* (1999), *Matrix Reloaded* y *Matrix Revolutions* (2003); Platón, *República*, libro VII (la alegoría de la caverna); Tononi, G. (2008), sobre integración y diferenciación.

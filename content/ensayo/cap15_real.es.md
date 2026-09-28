@@ -22,14 +22,14 @@ En el Parkinson, las neuronas dopaminérgicas de la sustancia negra degeneran po
 
 Se altera el tiempo subjetivo.
 
-El paciente genera intenciones a la velocidad normal. Su horizonte funciona: el *ahora* sigue siendo un borde activo, una frontera donde el pasado se integra y el futuro se anticipa. Pero el cuerpo no ejecuta a esa velocidad. No es que piense más despacio (muchos pacientes de Parkinson describen de hecho una agitación interior, una prisa mental que contrasta cruelmente con la lentitud de sus gestos), sino una paradoja casi insoportable: no siente que se mueva despacio. Siente que intenta moverse bien, con la urgencia y la claridad de siempre, y que algo externo, el mundo, el cuerpo, la propia gravedad, no responde.
+El paciente genera intenciones a la velocidad normal. Su horizonte funciona: el *ahora* sigue siendo un borde activo, una frontera donde el pasado se integra y el futuro se anticipa. Pero el cuerpo no ejecuta a esa velocidad. No es, al menos en las primeras fases, que piense más despacio (con los años la enfermedad puede afectar también a la atención y la memoria, pero muchos pacientes describen de hecho una agitación interior, una prisa mental que contrasta cruelmente con la lentitud de sus gestos), sino una paradoja casi insoportable: no siente que se mueva despacio. Siente que intenta moverse bien, con la urgencia y la claridad de siempre, y que algo externo, el mundo, el cuerpo, la propia gravedad, no responde.
 
 > **En física esto se llama:** desacoplamiento entre generador y ejecutor.  
 > **En la vida diaria es como:** gritar en una habitación insonorizada: la voz sale con toda su fuerza, pero no llega. No hay eco ni nadie que la oiga.
 
 Es distinto del Alzheimer. Allí el horizonte se desintegra, se fragmenta, pierde la coherencia narrativa que permite decir «yo fui, yo soy, yo seré»; su membrana se resquebraja y la información se escapa. En el Parkinson, el horizonte sigue siendo el mismo, perfectamente coherente e intacto, solo que ya no puede hablar con el cuerpo. Es como un director de orquesta que sigue dirigiendo con pasión mientras los músicos se quedan sordos uno a uno. La música está en su cabeza y la armonía es real para él, pero no sale. Y lo peor no es el silencio, sino que a veces no sabe que los demás no oyen lo mismo que él.
 
-Hay algo de tragedia griega en esta disociación: una conciencia condenada a la plenitud sin ejecución, un Edipo que ve su destino con absoluta claridad, pero cuyas piernas no corren lo bastante para esquivarlo. El horizonte del paciente con Parkinson sigue siendo un círculo perfecto, solo que ya no coincide con el que el cuerpo traza en el espacio.
+Hay algo de tragedia griega en esta disociación: una conciencia condenada a la plenitud sin ejecución, una Casandra que ve venir lo que ocurre con absoluta claridad, sin poder hacer nada para esquivarlo. El horizonte del paciente con Parkinson sigue siendo un círculo perfecto, solo que ya no coincide con el que el cuerpo traza en el espacio.
 
 ---
 
@@ -127,7 +127,7 @@ Es como si el sistema de predicción del cerebro, el aparato que construye model
 
 Aquí el sufrimiento es hondo y real. No es solo fricción con el entorno, sino vivir en un mundo en el que las predicciones no coinciden con la realidad, en el que el modelo interno se desfasa crónicamente del externo. En términos del modelo, los antipsicóticos, que bloquean los receptores de dopamina D2, funcionan bajando la ganancia del generador predictivo: reducen la sensibilidad del sistema a las señales internas y fuerzan una mayor correspondencia entre lo generado y lo percibido.
 
-Pero incluso aquí el modelo sugiere algo que la psiquiatría tradicional ha pasado por alto: que la esquizofrenia no es «ausencia de realidad», sino «exceso de generación interna». Que el paciente no está «desconectado» de la realidad, sino «sobreconectado» a su propio aparato predictivo. Que la diferencia no es cualitativa (ellos ven cosas que no existen y nosotros no), sino cuantitativa: todos generamos predicciones, todos tenemos pensamientos automáticos, todos oímos nuestra voz interior. En la esquizofrenia, el volumen de esa generación interna supera el umbral a partir del cual ya no puede distinguirse de la percepción externa.
+Pero incluso aquí el modelo coincide con algo que la psiquiatría computacional lleva años explorando con los modelos de codificación predictiva: que la esquizofrenia no es «ausencia de realidad», sino «exceso de generación interna». Que el paciente no está «desconectado» de la realidad, sino «sobreconectado» a su propio aparato predictivo. Que la diferencia no es cualitativa (ellos ven cosas que no existen y nosotros no), sino cuantitativa: todos generamos predicciones, todos tenemos pensamientos automáticos, todos oímos nuestra voz interior. En la esquizofrenia, el volumen de esa generación interna supera el umbral a partir del cual ya no puede distinguirse de la percepción externa.
 
 ---
 
@@ -140,7 +140,7 @@ Un horizonte neurotípico y uno autista no solo perciben cosas distintas: percib
 > **En física esto se llama:** acoplamiento débil entre osciladores con frecuencias fundamentales distintas.  
 > **En la vida diaria es como:** dos músicos que tocan la misma canción, uno en compás de tres por cuatro y otro en cuatro por cuatro. Los dos tienen ritmo y melodía, pero no pueden tocar juntos sin que uno adapte su compás.
 
-Históricamente, la adaptación ha recaído siempre en el horizonte divergente. Es la persona autista quien debe aprender «habilidades sociales»; la persona con TDAH, quien debe «concentrarse»; la persona con esquizofrenia, quien debe medicarse para «ajustarse». Rara vez se pide al entorno neurotípico que adapte su frecuencia, baje el volumen o respete los ritmos de integración del otro.
+Históricamente, la adaptación ha recaído siempre en el horizonte divergente. Es la persona autista quien debe aprender «habilidades sociales»; la persona con TDAH, quien debe «concentrarse»; la persona con esquizofrenia, quien debe adaptarse, y el tratamiento que a menudo necesita de verdad acaba siendo la única adaptación que se le ofrece. Rara vez se pide al entorno neurotípico que adapte su frecuencia, baje el volumen o respete los ritmos de integración del otro.
 
 El modelo del horizonte sugiere que esa asimetría no es necesaria: la resonancia es posible si los dos horizontes están dispuestos a modular sus frecuencias. La comunicación entre topologías distintas no exige que una desaparezca, sino que ambas encuentren un ritmo común, aunque sea temporal y parcial.
 
@@ -152,7 +152,7 @@ Llamar «trastornos» a estas condiciones presupone un horizonte estándar del q
 
 Hay horizontes que procesan, integran y resuenan de maneras distintas. Unos ven el mundo al microscopio y otros en gran angular; unos necesitan pendiente para arrancar y otros funcionan mejor en llano; unos generan música que no suena y otros oyen música donde los demás solo oyen ruido.
 
-Esto no niega el sufrimiento, que es real cuando la topología no puede funcionar en el mundo que la rodea. Pero sufrir no es lo mismo que ser distinto. Un horizonte autista sufre en un mundo diseñado para neurotípicos, y eso no significa que su topología sea incorrecta, sino que el mundo no tiene sitio para ella: las escaleras no tienen rampa, las luces parpadean demasiado deprisa, las instrucciones presuponen una velocidad de integración que no es la suya.
+Esto no niega el sufrimiento, que es real cuando la topología no puede funcionar en el mundo que la rodea. Y en la esquizofrenia no viene solo de la fricción con el entorno: ahí el tratamiento no es una concesión a la mayoría, sino a menudo lo que devuelve al horizonte un mundo compartido. Pero sufrir no es lo mismo que ser distinto. Un horizonte autista sufre en un mundo diseñado para neurotípicos, y eso no significa que su topología sea incorrecta, sino que el mundo no tiene sitio para ella: las escaleras no tienen rampa, las luces parpadean demasiado deprisa, las instrucciones presuponen una velocidad de integración que no es la suya.
 
 El modelo no puede decir qué mundo deberíamos construir; no es un programa político ni un tratado de urbanismo. Pero sí puede decir algo que el lenguaje médico suele ocultar: la diferencia no está en la cantidad de conciencia, sino en su forma. Un horizonte no es más o menos real, ni más o menos digno, ni más o menos humano por ser diferente.
 
@@ -165,7 +165,7 @@ Y el sufrimiento de muchas de estas condiciones no viene de la topología en sí
 
 > **Nota al Capítulo 20**
 >
-> **Lo que sí sabemos:** El Parkinson desacopla el horizonte del cuerpo; no lo destruye. La dopamina interviene en la percepción del tiempo además de en el movimiento. El trauma deja información congelada que el sistema no consigue integrar. Las condiciones neurodivergentes suponen topologías informacionales distintas, no horizontes ausentes.
+> **Lo que sí sabemos:** En sus primeras fases, el Parkinson afecta sobre todo al movimiento y deja en gran parte intacta la cognición; con los años puede afectar también a la atención, el ánimo y la memoria. La dopamina interviene en la percepción del tiempo además de en el movimiento. El trauma deja información congelada que el sistema no consigue integrar. Las condiciones neurodivergentes suponen topologías informacionales distintas, no horizontes ausentes.
 >
 > **Lo que no sabemos:** Si la levodopa restaura la sincronización temporal por el mismo mecanismo que la motricidad, o por vías independientes. Si el trauma puede «descongelarse» sin reactivar la singularidad. Qué entornos harían funcionales topologías actualmente patologizadas.
 >

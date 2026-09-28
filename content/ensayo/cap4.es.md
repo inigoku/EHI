@@ -91,9 +91,7 @@ En 1924, Satyendra Nath Bose y Albert Einstein predijeron que, si se enfriaba un
 Es la imagen más fiel de lo que podría ser el surgimiento de la conciencia a partir del reservorio. No una construcción progresiva, neurona a neurona y sinapsis a sinapsis, sino una condensación: el colapso del espacio de posibilidades en una instancia particular. El reservorio no fabrica la conciencia; la conciencia es la rotura de simetría del reservorio, la condensación de correlaciones en un horizonte localizado.
 
 > **En física esto se llama:** condensación de Bose-Einstein, rotura de simetría, transición de fase.  
-> **En la vida diaria es como:** la burbuja de jabón del capítulo 6: no se construye poco a poco, sino que se cierra de golpe cuando se dan las condiciones. O el momento en que una conversación aburrida se vuelve de pronto interesante, no porque alguien haya añadido una pieza nueva, sino porque el campo entre los interlocutores ha cambiado de fase.
-
-Los gemelos monocigóticos ofrecen un experimento natural de esta idea. Comparten un material genético idéntico, la misma «temperatura» del reservorio, y, sin embargo, desarrollan horizontes distintos. La diferencia no está en el reservorio, sino en las condiciones de la condensación: posición en el útero, flujo sanguíneo, exposición a hormonas, pequeñas variaciones que se amplifican. El reservorio es el mismo, pero cada condensación es irrepetible.
+> **En la vida diaria es como:** la burbuja de jabón del capítulo 0: no se construye poco a poco, sino que se cierra de golpe cuando se dan las condiciones. O el momento en que una conversación aburrida se vuelve de pronto interesante, no porque alguien haya añadido una pieza nueva, sino porque el campo entre los interlocutores ha cambiado de fase.
 
 ---
 
@@ -138,9 +136,7 @@ Y tú, esta conciencia concreta que lee estas palabras en este instante, eres un
 >
 > **Lo que no sabemos:** Si el vacío cuántico es «conciencia» en algún sentido que las tradiciones reconozcan. Hun Dun no es un campo cuántico, ni Brahman una función de onda: la convergencia es resonancia, no identidad. Y una cuestión de método que conviene señalar aquí, igual que este ensayo señala otros préstamos filosóficos: si la «plenitud sin forma» es una descripción ontológica o solo la imagen más accesible para presentar lo que el capítulo 23 define con rigor, el reservorio como complemento de la unión de todas las clausuras ya condensadas, R = X ∖ ⋃ᵢ Eᵢ. Esa definición no presupone plenitud ni vacío, solo lo que todavía no se ha cerrado. Hun Dun y Brahman ilustran esa idea; no la sostienen.
 >
-> **Preguntas que quedan:** ¿Es la convergencia un respaldo mutuo o la seducción de una matemática compartida? ¿Puede la física «demostrar» el misticismo? ¿Qué ocurre con la información del horizonte cuando vuelve al reservorio: se pierde, se conserva, se transforma?
->
-> **El karma como geometría del reservorio:** Lo que las tradiciones llaman de maneras distintas (saṃskāra, de, karma) apunta a la misma estructura: la configuración del reservorio en el momento en que se condensa un nuevo horizonte. Las correlaciones que dejó el horizonte anterior siguen ahí, revueltas, dispersas, sin nombre, y condicionan la forma concreta que tomará la siguiente condensación. No porque haya un alma que transmigre, sino porque el reservorio que recibe el retorno ya no es el que existía antes de que ese horizonte surgiera. Cada horizonte cambia el campo del que surge y al que vuelve. El karma no es deuda ni recompensa, sino textura.
+> **Preguntas que quedan:** ¿Es la convergencia un respaldo mutuo o la seducción de un vocabulario compartido? ¿Puede la física «demostrar» el misticismo? ¿Qué ocurre con la información del horizonte cuando vuelve al reservorio: se pierde, se conserva, se transforma?
 >
 > **Si solo te quedas con una idea:** El océano no está vacío cuando no hay olas, ni el reservorio cuando no hay horizontes. Y tú, como la ola, eres el océano en movimiento: no algo que está en el océano, sino el océano adoptando una forma pasajera. Cuando la ola rompe, el océano no pierde nada; cuando el horizonte se evapora, el reservorio no olvida.
 >

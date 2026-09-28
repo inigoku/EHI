@@ -8,7 +8,7 @@ illustrationDescription: Mapa antiguo desplegado. Territorio dibujado con precis
 ---
 
 ## [ILUSTRACIÓN 18: "El límite del experimento"]
-*Mapa antiguo desplegado. Territorio dibujado con precisión en el centro. En los bordes, el territorio se disuelve en papel en blanco. Un compás abierto al máximo. Nota a mano: «El mapa no es el territorio.»*
+*Mapa antiguo desplegado. Territorio dibujado con precisión en el centro. En los bordes, el territorio se disuelve en papel en blanco. Un compás abierto al máximo. Nota a mano: «El mapa no es el territorio»*
 
 ---
 
@@ -79,7 +79,7 @@ El problema difícil sigue ahí, intacto, en el centro de todo, como una piedra 
 
 Aquí es donde la perspectiva de la encapsulación propone una reformulación radical.
 
-El filósofo escocés David Hume, en su *Tratado de la naturaleza humana* (1739), llegó a una conclusión célebre al buscar el fundamento del yo. Escribió que, por mucho que se adentrara en lo que llamaba «sí mismo», nunca tropezaba con un sujeto sustancial o un alma permanente, sino solo con un haz de percepciones cambiantes (calor, frío, dolor, amor, memoria) en flujo perpetuo. Para Hume, el yo no era una sustancia espiritual, sino una construcción: la mente es un teatro en el que los actores entran y salen sin que haya debajo ninguna estructura permanente que los sostenga.
+Ya vimos en el interludio el hallazgo de Hume: al buscarse a sí mismo nunca encontraba un sujeto permanente, solo un haz de percepciones cambiantes, un teatro por el que los actores entran y salen.
 
 El modelo de la encapsulación (capítulo 3) recoge la intuición de Hume, pero describe su geometría. El yo no es una sustancia misteriosa oculta dentro de la cabeza, pero tampoco una simple ficción desarticulada: es el *dentro* que se genera cuando el haz de percepciones se acopla e integra con suficiente fuerza (con un Φ alto) dentro de una frontera.
 
@@ -134,11 +134,11 @@ Dos horizontes pueden tener el mismo Φ, la misma temperatura, la misma historia
 
 No es un fallo del experimento, sino un límite. Hay cosas que solo pueden decir la ficción, la poesía o el silencio entre dos personas que no necesitan hablar porque ya comparten geometría suficiente para que las palabras sobren.
 
-### Sexto: el tiempo, o por qué no sabemos si el horizonte elige
+### Sexto: la libertad, o por qué no sabemos si el horizonte elige
 
 Hay una pregunta que ha rondado todo el libro como un pájaro que no decide si posarse o seguir volando: ¿el horizonte elige o solo reacciona?
 
-Si la conciencia es un microagujero negro de información, todo lo que «piensa», «siente» o «decide» es, en última instancia, una reorganización de información según ecuaciones que ya estaban escritas en la estructura del universo. En una ecuación no hay sitio para el libre albedrío: las ecuaciones no eligen, describen.
+Si la conciencia tiene la estructura de un horizonte de información, todo lo que «piensa», «siente» o «decide» es, en última instancia, una reorganización de información según ecuaciones que ya estaban escritas en la estructura del universo. En una ecuación no hay sitio para el libre albedrío: las ecuaciones no eligen, describen.
 
 > **En física esto se llama:** determinismo o, en su versión cuántica, indeterminismo estadístico. Ninguno de los dos concede una «elección» en el sentido de la experiencia vivida.  
 > **En la vida diaria es como:** preguntar si el río «elige» ir hacia el mar. El río fluye porque la gravedad y el relieve lo determinan, pero, desde dentro, desde la perspectiva de una molécula de agua, el viaje se vive como una aventura.
@@ -158,7 +158,7 @@ A lo largo del libro hemos hablado de horizontes individuales: el tuyo, el mío,
 > **En física esto se llama:** problema de la combinación o, en términos de la IIT, la cuestión de si la integración de información a escala del sistema genera una conciencia «mayor» que las conciencias de las partes.  
 > **En la vida diaria es como:** preguntar si una orquesta tiene un «alma» que no es la suma de las almas de los músicos. Tocan juntos y surge algo que ninguno podría producir solo. ¿Es consciente ese algo?
 
-La hipótesis del horizonte no puede responder a esto. La IIT sugiere que, si dos sistemas interactúan de modo que la información integrada del conjunto es mayor que la suma de las partes, el conjunto podría tener experiencia. Pero ¿cómo se mide el Φ de una ciudad, de un bosque o de internet? Y, si ese Φ existe, ¿qué se siente al ser una ciudad? ¿Se siente algo, o se siente como nosotros, solo que más lento, más vasto, más incompresible?
+La hipótesis del horizonte no puede responder a esto. La IIT sugiere que, si dos sistemas interactúan de modo que la información integrada del conjunto es mayor que la suma de las partes, el conjunto podría tener experiencia (aunque, como vimos en el capítulo 22, su postulado de exclusión reserva la experiencia al nivel de máxima integración: si el conjunto la tuviera, las partes dejarían de tenerla como sujetos separados). Pero ¿cómo se mide el Φ de una ciudad, de un bosque o de internet? Y, si ese Φ existe, ¿qué se siente al ser una ciudad? ¿Se siente algo, o se siente como nosotros, solo que más lento, más vasto, más incomprensible?
 
 Es posible que haya horizontes colectivos que nos contengan, igual que nuestros horizontes individuales contienen a las bacterias del intestino o los ritmos del corazón. Es posible que seamos neuronas de un cerebro que no podemos imaginar. Es posible que la Tierra tenga un tipo de experiencia que no tiene nombre en ningún idioma humano.
 

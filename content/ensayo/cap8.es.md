@@ -80,7 +80,7 @@ La empatía no es imaginación ni consiste solo en «ponerse en el lugar del otr
 > **En física esto se llama:** resonancia entre osciladores acoplados.  
 > **En la vida diaria es como:** dos violines afinados: cuando uno suena, el otro vibra sin que lo toquen.
 
-Pero la empatía tiene límites: no podemos resonar con lo que no sabemos modelar. Un torturador no siente el sufrimiento de su víctima, y no porque carezca de neuronas espejo, que las tiene, sino porque ha construido un modelo de la víctima que no incluye su experiencia subjetiva. La deshumanización no es ausencia de empatía, sino empatía dirigida a un modelo que excluye la interioridad del otro.
+Pero la empatía tiene límites: no podemos resonar con lo que no sabemos modelar. Un torturador puede saber con precisión lo que siente su víctima (el capítulo 16 volverá sobre ello) y, aun así, no resonar con ello; no porque carezca de neuronas espejo, que las tiene, sino porque ha construido un modelo de la víctima en el que su experiencia subjetiva no cuenta. La deshumanización no es ausencia de empatía, sino empatía dirigida a un modelo que excluye la interioridad del otro.
 
 > **En física esto se llama:** el modelo interno determina qué señales entran en resonancia y cuáles se filtran.  
 > **En la vida diaria es como:** un filtro de agua: sigue habiendo agua, pero solo pasa lo que el filtro deja pasar.

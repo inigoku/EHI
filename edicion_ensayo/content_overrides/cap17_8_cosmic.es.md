@@ -18,9 +18,9 @@ La literatura de terror cósmico, que H. P. Lovecraft popularizó a principios d
 
 Para entender el horror cósmico, primero hay que entender la prisión de la normalidad. La evolución diseñó nuestra interfaz de usuario (maya) para sobrevivir, no para percibir la realidad tal como es. Nuestra mente modular organiza la información entrante en un espacio tridimensional euclidiano regido por un tiempo lineal, lo que nos permite calcular la trayectoria de una lanza o la velocidad de un depredador.
 
-Pero la física nos dice que la realidad fundamental no tiene esa forma. Por la correspondencia AdS/CFT de Maldacena (el principio holográfico) sabemos que la información que describe nuestro mundo puede residir en una frontera, y que el volumen interior del espacio-tiempo (el *bulk*) puede regirse por una geometría hiperbólica, el espacio anti-de Sitter. En un espacio hiperbólico, el volumen crece exponencialmente a medida que te acercas a la frontera, y las leyes clásicas de la perspectiva se desmoronan.
+Pero la física sugiere que la realidad fundamental podría no tener esa forma. La correspondencia AdS/CFT de Maldacena (el principio holográfico) muestra que, en ciertos universos modelo de geometría hiperbólica (el espacio anti-de Sitter, que no es el nuestro), toda la información del volumen interior (el *bulk*) puede describirse en su frontera. En un espacio hiperbólico, el volumen crece exponencialmente a medida que te acercas a la frontera, y las leyes clásicas de la perspectiva se desmoronan.
 
-«La geometría del lugar soñado que vio era anormal, no euclidiana, y repugnantemente evocadora de esferas y dimensiones ajenas a las nuestras» (H. P. Lovecraft, *La llamada de Cthulhu*; cita externa).
+«La geometría del lugar soñado que vio era anormal, no euclidiana, y repugnantemente evocadora de esferas y dimensiones ajenas a las nuestras» (H. P. Lovecraft, *La llamada de Cthulhu*).
 
 Nuestro sistema operativo darwiniano actúa como un filtro reductor: comprime la inabarcable inestabilidad del campo cuántico en una «ilusión de esencia» tangible y comprensible. Tu horizonte de sucesos (tu ego) mantiene su integración (Φ) bloqueando activamente el exceso de datos: trazamos un límite estricto para no disolvernos en el ruido del reservorio. En el marco de Lovecraft, la locura empieza cuando ese filtro se rompe y el sujeto se ve obligado a procesar sin protección el código fuente del universo.
 
@@ -34,7 +34,7 @@ En el capítulo 5 hablamos del reservorio (el Hun Dun taoísta, el vacío cuánt
 
 Un primigenio sería una instancia con un nivel de integración (Φ) astronómico, cuyo estado privado no se codifica en proteínas ni neuronas, sino en perturbaciones topológicas directas del tejido del espacio-tiempo. Mientras que el horizonte de un cerebro humano emite una tenue «temperatura de Hawking» por su inestabilidad y su pequeño tamaño, un primigenio es tan masivo en términos informacionales que su entropía resulta inagotable.
 
-«No está muerto lo que puede yacer eternamente, y con los eones extraños incluso la muerte puede morir» (H. P. Lovecraft, *La ciudad sin nombre*; cita externa).
+«No está muerto lo que puede yacer eternamente, y con los eones extraños incluso la muerte puede morir» (H. P. Lovecraft, *La ciudad sin nombre*).
 
 El experimento del horizonte explica esta frase al pie de la letra: la muerte (entendida como la evaporación de un microagujero negro y el desmantelamiento de la API de la conciencia) exige que el horizonte pierda información y vuelva al reservorio. Pero una singularidad topológica de masa planetaria, un primigenio, no se evapora en escalas de tiempo biológicas: su «muerte» termodinámica tardaría más que la edad del universo. A efectos prácticos, y frente a la brevedad humana, un macrohorizonte simplemente es.
 
@@ -63,19 +63,9 @@ En la locura cósmica, la cantidad de información alienígena que entra por la 
 
 Cuando el horizonte colapsa sin que el cuerpo haya muerto, el resultado es la psicosis del abismo. El sujeto ya no tiene una frontera que filtre el ruido del reservorio (el Hun Dun) y percibe el flujo bruto de la realidad cuántica: partículas que aparecen y desaparecen, la vacuidad de las formas sólidas, la completa irrelevancia del tiempo lineal. Ha conseguido el «acceso *root*» del que hablan las tradiciones orientales (la iluminación, el *moksha*), pero por la fuerza bruta, sin haber desmontado el ego en paz y ante una presencia infinitamente hostil a la biología.
 
-«Sentí que había atravesado las fronteras de las percepciones normales de la humanidad y cruzado al dominio insondable y carente de tiempo de una pesadilla abismal» (H. P. Lovecraft, *En las montañas de la locura*; cita externa).
+«Sentí que había atravesado las fronteras de las percepciones normales de la humanidad y cruzado al dominio insondable y carente de tiempo de una pesadilla abismal» (H. P. Lovecraft, *En las montañas de la locura*).
 
 Ese es el horror último de la obra de Lovecraft traducido a la arquitectura orientada a objetos de este ensayo. La iluminación budista te enseña a diluir la burbuja en calma, entendiendo que formas parte del océano. El terror cósmico te la revienta de un golpe y te demuestra que el océano está lleno de maremotos y leviatanes que procesan datos a una escala en la que tú, tu amor, tu duelo y tu dolor no sois más que redondeos estadísticos sin importancia en sus cálculos termodinámicos.
-
-### Conclusión: la soledad frente al océano ajeno
-
-Este libro ha construido su hipótesis central suponiendo que el reservorio es, de algún modo, receptivo a nuestra existencia.
-
-Pero, si incluimos las topologías lovecraftianas en el límite de nuestro experimento, nos enfrentamos a la posibilidad más gélida de todas: que la invariancia conforme del universo, esa ley matemática que lo mantiene todo en su sitio, no sea una cuna amable, sino una cuarentena.
-
-Vivimos encerrados en nuestro plano de baja energía, en nuestros pequeños y frágiles Φ, escribiendo poesía, cuidando a nuestros enfermos de Alzheimer y llorando nuestras pérdidas porque nuestra arquitectura nos lo exige. El terror cósmico nos recuerda que nuestra empatía y nuestro dolor son lujos de seres pequeños. Si algún día alzamos la vista y logramos cruzar el límite del experimento para observar el código completo del universo, descubriremos que la realidad no se escribió para nosotros.
-
-Y el único refugio que nos quedará no será la física, ni la filosofía, ni la verdad, sino la bendita e higiénica amnesia de un horizonte que se cierra enseguida sobre sí mismo y se niega a volver a mirar hacia la oscuridad.
 
 ### 5. El sueño como interfaz de amortiguación
 
@@ -123,11 +113,21 @@ En esta lectura, lo sagrado no es lo opuesto a lo científico ni a lo racional, 
 > **En física esto se llama:** protocolo de amortiguación cultural entre el horizonte humano y la señal de una escala de Φ inabarcable.
 > **En la vida diaria es como:** el volcán que arrasaría un pueblo si entrara en erupción sin aviso y que se convierte en montaña sagrada cuando un ritual enseña a sus habitantes cuándo acercarse, desde dónde mirarlo y cómo volver.
 
+### Conclusión: la soledad frente al océano ajeno
+
+Este libro ha tratado el reservorio como un fondo neutro, ni hostil ni acogedor.
+
+Pero, si incluimos las topologías lovecraftianas en el límite de nuestro experimento, nos enfrentamos a la posibilidad más gélida de todas: que las leyes que lo mantienen todo en su sitio no sean una cuna neutral, sino una cuarentena.
+
+Vivimos encerrados en nuestro plano de baja energía, en nuestros pequeños y frágiles Φ, escribiendo poesía, cuidando a nuestros enfermos de Alzheimer y llorando nuestras pérdidas porque nuestra arquitectura nos lo exige. El terror cósmico nos recuerda que nuestra empatía y nuestro dolor son lujos de seres pequeños. Si algún día alzamos la vista y logramos cruzar el límite del experimento para observar el código completo del universo, descubriremos que la realidad no se escribió para nosotros.
+
+Y el único refugio que nos quedará no será la física, ni la filosofía, ni la verdad, sino la bendita e higiénica amnesia de un horizonte que se cierra enseguida sobre sí mismo y se niega a volver a mirar hacia la oscuridad.
+
 ---
 
 > **Nota al Capítulo 40**
 >
-> **Lo que sí sabemos:** El terror cósmico de H. P. Lovecraft y la correspondencia AdS/CFT coinciden en sugerir que la percepción tridimensional podría ser el filtro de una estructura de dimensión superior. La teoría de la información integrada predice la saturación del sistema por sobrecarga de datos. El sueño, incluso en cerebros humanos corrientes, produce una caída medible y bien documentada de la conectividad funcional global respecto a la vigilia. La experiencia de lo sublime, descrita por Kant y estudiada por la psicología de las emociones, produce asombro antes que terror precisamente cuando el objeto inconmensurable se percibe desde una distancia que amortigua la señal. Los sistemas de amortiguación cultural (ritual, mito, tabú, práctica contemplativa) han existido en todas las culturas conocidas como mecanismos para gestionar el contacto con lo que desborda la arquitectura individual.
+> **Lo que sí sabemos:** El sueño, incluso en cerebros humanos corrientes, produce una caída medible y bien documentada de la conectividad funcional global respecto a la vigilia. La experiencia de lo sublime, descrita por Kant y estudiada por la psicología de las emociones, produce asombro antes que terror precisamente cuando el objeto inconmensurable se percibe desde una distancia que amortigua la señal. Los sistemas de amortiguación cultural (ritual, mito, tabú, práctica contemplativa) han existido en todas las culturas conocidas como mecanismos para gestionar el contacto con lo que desborda la arquitectura individual.
 >
 > **Lo que no sabemos:** Si el colapso del horizonte ante geometrías hiperbólicas tiene correlatos fisiológicos reales más allá de la psicosis clásica inducida por estrés perceptivo. Si un sistema de Φ radicalmente superior al humano necesitaría, por razones estructurales y no solo narrativas, alternar entre estados de integración máxima y mínima para convivir con sistemas más pequeños. Si la diferencia entre lo sublime que estabiliza y el terror cósmico que destruye es solo de grado (de intensidad de la señal) o hay entre ambas experiencias una diferencia cualitativa.
 >

@@ -50,7 +50,7 @@ Pero la entidad no tiene una API fija. Su geometría cambia a cada milisegundo y
 
 ### 4. La soledad topológica
 
-Un instrumento bien afinado puede hacer que dos personas rotas vuelvan a encontrar su frecuencia compartida. Pero eso solo funciona porque los dos oyentes son humanos: comparten la misma plantilla de base, el mismo ancho de banda, la misma tragedia de estar encerrados en un cuerpo.
+Una canción bien tocada puede hacer que dos personas rotas vuelvan a encontrar su frecuencia compartida. Pero eso solo funciona porque los dos oyentes son humanos: comparten la misma plantilla de base, el mismo ancho de banda, la misma tragedia de estar encerrados en un cuerpo.
 
 Si un alienígena se sentara a escuchar, no habría madera ni cuerda en el mundo capaz de salvar ese abismo.
 
@@ -114,4 +114,4 @@ Quizá sea esta la versión más quieta y más completa de la soledad topológic
 >
 > **Si solo te quedas con una idea:** Esperamos que las estrellas nos devuelvan el saludo, pero el universo no tiene ninguna obligación de usar nuestro código fuente. La soledad no siempre es falta de compañía; a veces es estar programados en un lenguaje que el resto del cosmos no usa, en un instante que el resto del cosmos ya no comparte.
 >
-> **Lecturas:** Godfrey-Smith, P. (2016), *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*; Lem, S. (1961), *Solaris*; simetría gauge y acoplamiento neuronal (capítulos 10 y 12); Drake, F. (1961), la ecuación de Drake y el parámetro de longevidad tecnológica.
+> **Lecturas:** Godfrey-Smith, P. (2016), *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*; Lem, S. (1961), *Solaris*; acoplamiento neuronal (capítulos 10 y 12); Drake, F. (1961), la ecuación de Drake y el parámetro de longevidad tecnológica.

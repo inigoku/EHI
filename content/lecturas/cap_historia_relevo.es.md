@@ -28,7 +28,7 @@ La respuesta física es la radiación: información degradada, pero no nula, que
 
 Pep Guardiola fue el primer fotón. Formado dentro del horizonte (mediocentro de aquel equipo, alumno directo), salió llevándose el patrón, y cuando volvió al banquillo en 2008 hizo lo que hace la resonancia: no inventó, amplificó. Tomó la frecuencia de Cruyff y la hizo sonar más fuerte que nunca. El Barça de Guardiola no fue una copia del de Cruyff, sino el mismo interior vibrando en un cuerpo mejor afinado.
 
-El patrón cruzó después un horizonte que no era el suyo. La selección española, que durante décadas había sido otra cosa (furia, contragolpe, quiero y no puedo), quedó colonizada por la idea. Vicente del Bosque, que no venía de esa escuela, tuvo la inteligencia de no interponerse: alineó la columna vertebral del Barça (Valdés, Piqué, Puyol, Busquets, Xavi, Iniesta) y dejó que el patrón jugara. Sudáfrica 2010 no lo ganó una selección, sino una idea que había encontrado un segundo cuerpo. El gol de Iniesta, canterano, en el minuto 116, fue la firma.
+El patrón cruzó después un horizonte que no era el suyo. La selección española, que durante décadas había sido otra cosa (furia, contragolpe, quiero y no puedo), quedó colonizada por la idea. Vicente del Bosque, que no venía de esa escuela, tuvo la inteligencia de no interponerse: alineó la columna vertebral del Barça (Piqué, Puyol, Busquets, Xavi, Iniesta, Pedro) y dejó que el patrón jugara. Sudáfrica 2010 no lo ganó una selección, sino una idea que había encontrado un segundo cuerpo. El gol de Iniesta, canterano, en el minuto 116, fue la firma.
 
 Luis Enrique conoció a Guardiola mucho antes de heredar su patrón: los dos ganaron juntos el oro olímpico de Barcelona 1992, veinteañeros que todavía no se llamaban entrenadores. Jugó después en el Barça y, ya como técnico, aplicó el mismo principio, primero en un triplete en 2015 y luego en el banquillo de la selección española entre 2018 y 2022. Ahí demostró también que el patrón no es invencible: en Catar 2022 llevó a España hasta los octavos de final, donde el equipo dominó la posesión (un 77 % del balón, más de mil pases ante Marruecos) y aun así cayó, sin goles, en la tanda de penaltis. No es una anécdota vergonzosa, sino el límite exacto del modelo. El patrón rinde cuando el juego es un sistema integrado, de partes que se necesitan unas a otras para significar algo; una tanda de penaltis es su reverso, una secuencia de sucesos aislados donde no hay pase que ofrecer ni estructura colectiva que sostener. Ahí, el estilo no protege a nadie.
 
@@ -83,9 +83,11 @@ El entrelazamiento, en cambio, no necesita institución ni intermediario: basta 
 
 Cruyff fue, él solo, la prueba de que ambos mecanismos pueden convivir en un único cuerpo: jugó el patrón antes de diseñarlo, fue entrelazamiento antes de ser horizonte. Lo que este capítulo ha intentado mostrar es que ninguno de los dos mecanismos basta por sí solo. Un sistema sin cuerpos que lo entrelacen es solo un diagrama en una pizarra. Y un cuerpo entrelazado sin un sistema que lo sostenga (Xavi lo demostró en el banquillo, no en el campo) se apaga antes de tiempo. El patrón sobrevive porque nunca ha dependido de una sola vía de transmisión: sobrevive como sobrevive la información, por más de un camino a la vez.
 
-Eso es un horizonte interior: aquello que persiste cuando todo lo que lo sostenía se ha evaporado.
+Eso es un estilo: lo que persiste cuando todo lo que lo sostenía se ha evaporado. El horizonte de cada jugador no se transmite; lo que pasa de unos a otros es el patrón que cada uno dejó pasar a través de sí.
 
-## IV. La ficción demuestra
+## IV. Lo que la ficción imagina
+
+*Lo que sigue es ficción: nadie sabe qué se dijeron esa noche, y no hace falta saberlo.*
 
 El viejo se quedó en el césped cuando ya no había razón para seguir en el césped. Los suyos se habían ido retirando hacia el túnel con la cabeza baja, y los otros, los de rojo, giraban en el centro del campo como un sistema que acaba de encontrar su estado de mínima energía. Él no. Él miraba a la grada donde estaba su gente, y no pensaba en el partido. Pensaba en una portería de hierro en un patio de Rosario, y en que entre aquella portería y este estadio no había, bien mirado, ninguna distancia.
 
@@ -109,4 +111,6 @@ Después cada uno volvió a su lado del horizonte: uno hacia la evaporación, se
 >
 > **Preguntas que quedan:** Si un patrón sobrevive a todos los cuerpos que lo portaron, ¿en qué sentido sigue existiendo su autor? ¿Está Cruyff, muerto en 2016, jugando aún cada vez que un jugador recibe de espaldas y espera medio segundo de más? ¿Y si la identidad de una persona no fuera nunca su cuerpo, sino la estructura que ese cuerpo dejó pasar a través de sí?
 >
-> **Si solo te quedas con una idea:** Lo que de verdad importa de un ser humano (su manera de mirar, de pensar, de estar en el mundo) no muere con él. Se transmite, salta a otros cuerpos, cruza fronteras que no le corresponden y sobrevive al olvido de su nombre. Un hombre inventó una forma de jugar y murió; la forma ganó un Mundial diez años después de su entierro, jugada por gente que nunca lo conoció. No somos nuestro cuerpo. Somos el patrón que dejamos pasar a través de él.
+> **Si solo te quedas con una idea:** Lo que de verdad importa de un ser humano (su manera de mirar, de pensar, de estar en el mundo) no muere con él. Se transmite, salta a otros cuerpos, cruza fronteras que no le corresponden y sobrevive al olvido de su nombre. Un hombre inventó una forma de jugar y murió; la forma ganó un Mundial diez años después de su entierro, jugada por gente que nunca lo conoció. Lo que no muere con nosotros no es el horizonte, que es intransferible, sino el patrón que dejamos pasar a través de él.
+>
+> **Lecturas:** Cruyff, J. (2016), *14. La autobiografía*; Perarnau, M. (2014), *Herr Pep*; Tononi, G. (2008), sobre integración y diferenciación.
