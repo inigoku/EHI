@@ -57,7 +57,7 @@ En 1995, Zhou, Hofman, Gooren y Swaab publicaron en *Nature* el hallazgo de que 
 
 ### Sexo, cuerpo y reproducción: ejes que no viajan juntos
 
-El capítulo 31 ya describió, al hablar de gestación subrogada, fecundación in vitro y ectogénesis, un principio que conviene hacer explícito aquí: la capacidad reproductiva, la anatomía sexual, la identidad de género y la orientación son cuatro variables que, en la inmensa mayoría de los horizontes, van juntas, y que precisamente por eso la mayoría de las culturas humanas ha tratado como si fueran una sola cosa con cuatro nombres.
+El capítulo 32 ya describió, al hablar de gestación subrogada, fecundación in vitro y ectogénesis, un principio que conviene hacer explícito aquí: la capacidad reproductiva, la anatomía sexual, la identidad de género y la orientación son cuatro variables que, en la inmensa mayoría de los horizontes, van juntas, y que precisamente por eso la mayoría de las culturas humanas ha tratado como si fueran una sola cosa con cuatro nombres.
 
 No lo son. Hay personas con anatomía intersexual (variaciones cromosómicas, gonadales o genitales que no encajan limpiamente en las dos categorías que ofrecen la mayoría de los formularios administrativos), y su sola existencia demuestra que ni siquiera el «sexo» biológico, tomado con el rigor que exige la propia biología, es binario en sentido estricto.
 

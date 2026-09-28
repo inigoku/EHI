@@ -2,7 +2,7 @@
 title: LA NAVE DE BARRO
 subtitle: (Encarnación, entrelazamiento vertical y geometría del amor; continuación de La realidad fractal)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 54
+chapterNumber: 52
 linkedCuentosId: cuento_nave_barro
 illustrationId: il_nave_barro
 illustrationTitle: La nave de barro
@@ -116,7 +116,7 @@ Somos, a la vez, horizontes contenidos y contenedores: vasijas de barro que llev
 
 ---
 
-> **Nota al Capítulo 54**
+> **Nota al Capítulo 52**
 >
 > **Lo que sí sabemos:** Las tradiciones contemplativas de todas las culturas combinan prácticas de vaciamiento (oración, meditación, rito) con prácticas de forma (arte, relato, liturgia, imagen). La imagen de la encarnación como contracción de lo divino tiene fuentes explícitas: el prólogo del Evangelio de Juan («el Verbo se hizo carne»), la *kénosis* de la carta a los filipenses y la doctrina budista de los tres cuerpos del buda (*dharmakaya*, *sambhogakaya*, *nirmanakaya*). El episodio del Éxodo en que Moisés solo puede ver la espalda de Dios desde la hendidura de una roca es un modelo antiguo de lo que aquí se llama protocolo de amortiguación. En *La historia interminable*, cada deseo de Bastián le cuesta un recuerdo de su mundo.
 >

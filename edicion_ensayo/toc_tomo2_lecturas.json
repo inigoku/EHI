@@ -176,7 +176,7 @@
   "gutter_in": 0.62,
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-es",
   "credits": [
-    "Segundo tomo de El Horizonte Interior: diecinueve lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
+    "Segundo tomo de El Horizonte Interior: diecisiete lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
   ],
   "chapters": [
     {
@@ -356,27 +356,15 @@
       "section": ""
     },
     {
-      "id": "cap_lecturas_espejo",
-      "content_file": "../content/lecturas/cap_lecturas_espejo.es.md",
-      "chapter_number": 14,
-      "section": ""
-    },
-    {
-      "id": "cap_lecturas_espejo_lenguaje",
-      "content_file": "../content/lecturas/cap_lecturas_espejo_lenguaje.es.md",
-      "chapter_number": 15,
-      "section": ""
-    },
-    {
       "id": "cap_lecturas_diapason",
       "content_file": "../content/lecturas/cap_lecturas_diapason.es.md",
-      "chapter_number": 16,
+      "chapter_number": 14,
       "section": ""
     },
     {
       "id": "cap_lecturas_ojo",
       "content_file": "../content/lecturas/cap_lecturas_ojo.es.md",
-      "chapter_number": 17,
+      "chapter_number": 15,
       "section": ""
     },
     {
@@ -384,11 +372,11 @@
       "content_file": "../content/lecturas/cap_realidad_fractal.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 53**",
-          "**Nota a la lectura 18**"
+          "**Nota al Capítulo 51**",
+          "**Nota a la lectura 16**"
         ]
       ],
-      "chapter_number": 18,
+      "chapter_number": 16,
       "section": ""
     },
     {
@@ -408,11 +396,11 @@
           "lo que la lectura 5 llamaba gafas de eclipse"
         ],
         [
-          "**Nota al Capítulo 54**",
-          "**Nota a la lectura 19**"
+          "**Nota al Capítulo 52**",
+          "**Nota a la lectura 17**"
         ]
       ],
-      "chapter_number": 19,
+      "chapter_number": 17,
       "section": ""
     }
   ]

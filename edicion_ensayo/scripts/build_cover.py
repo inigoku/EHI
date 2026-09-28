@@ -332,7 +332,7 @@ TOMOS = {
         kicker="Las ideas del ensayo en la ficción, el cine y la vida cotidiana",
         blurb=("Un clon que no es la yegua que copia, un replicante que llora bajo la lluvia, "
                "un primer contacto sin idioma común, una máquina del tiempo que no deja volver: "
-               "diecinueve lecturas que ponen a prueba la hipótesis del horizonte fuera del laboratorio."),
+               "diecisiete lecturas que ponen a prueba la hipótesis del horizonte fuera del laboratorio."),
         blurb2=("Cada lectura toma una obra, un caso o una pregunta y la mira con las herramientas "
                 "del primer tomo —encapsulación, entrelazamiento, reservorio— para ver qué ilumina "
                 "y dónde se rompe. Se pueden leer en cualquier orden."),

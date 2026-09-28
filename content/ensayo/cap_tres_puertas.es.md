@@ -189,7 +189,7 @@ Ninguna resuelve el problema difícil. La información mutua no dice por qué el
 
 Pero las tres hacen algo que el modelo del horizonte necesita: dar precisión al vocabulario. Vínculo, intransferibilidad, pérdida: son palabras que usamos a diario sin saber exactamente qué significan. La teoría de la información les da un contenido formal que no agota su significado, pero lo ilumina.
 
-Queda una pregunta que ninguna de las tres puertas cierra: ¿por qué hay alguien ahí dentro? ¿Por qué la información, además de ser, se siente? Es la pregunta que el capítulo 55 retomará, al final del libro, entre las cosas que la hipótesis no puede decir.
+Queda una pregunta que ninguna de las tres puertas cierra: ¿por qué hay alguien ahí dentro? ¿Por qué la información, además de ser, se siente? Es la pregunta que el capítulo 53 retomará, al final del libro, entre las cosas que la hipótesis no puede decir.
 
 ---
 

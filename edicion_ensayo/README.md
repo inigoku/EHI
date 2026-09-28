@@ -109,7 +109,7 @@ El maquetador corrige además dos fallos heredados (los mismos de Cuentos de
 Tarel): los marcadores del índice caían una página antes del título cuando
 el capítulo empezaba tras una página de cortesía, y la raya o el espacio
 final de un capítulo podían dejar sola una página en blanco con cabecera.
-El interior ilustrado también está regenerado con ellos: 820 páginas tras la revisión de estilo, los capítulos 33 y 34, la lectura 54 y sus láminas, y sus cubiertas de tapa dura y tapa blanda recalculadas.
+El interior ilustrado también está regenerado con ellos: 820 páginas tras la revisión de estilo, los capítulos 33 y 34, la lectura 52 y sus láminas, y sus cubiertas de tapa dura y tapa blanda recalculadas.
 
 ## Dos tomos de tapa dura
 
@@ -117,7 +117,7 @@ KDP no admite tapa dura de más de 550 páginas; el volumen único tiene 820.
 
     El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf                 tomo I, 542 págs.: capítulos 0-35, cuarta parte (55-56 pasan a 36-37), epílogo, glosario y notas
     El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapadura.pdf   lomo 1,332" (papel a color)
-    El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf               tomo II, 240 págs.: las 19 lecturas topológicas («Lectura 1-19»)
+    El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf               tomo II, 240 págs.: las 17 lecturas topológicas («Lectura 1-17»)
     El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapadura.pdf lomo 0,623" (papel a color)
 
     python3 scripts/make_tomos.py          # toc_tomo1_ensayo.json, toc_tomo2_lecturas.json (y referencias de toc_ensayo.json)
@@ -126,7 +126,7 @@ KDP no admite tapa dura de más de 550 páginas; el volumen único tiene 820.
     python3 scripts/build_cover.py --tomo 1
     python3 scripts/build_cover.py --tomo 2
 
-`make_tomos.py` renumera (55-56 -> 36-37 en el tomo I; 36-54 -> lecturas 1-19 en el
+`make_tomos.py` renumera (53-54 -> 36-37 en el tomo I; 36-52 -> lecturas 1-17 en el
 tomo II) y corrige, con el campo `replace` de cada capítulo del TOC, las referencias
 cruzadas que cambian al partir el libro. El texto fuente de `content/` ya lleva la
 numeración del volumen único (las remisiones que antes arrastraban la numeración
@@ -141,7 +141,7 @@ cierran la tercera parte, antes de «El que queda», que pasa a ser el 35. Sus l
 `src/assets/images/il_teoria_informacion.jpg` e `il_tres_puertas.jpg`: mientras no
 existan, el libro sale sin esas dos láminas (el maquetador avisa y sigue). En la web
 hay que registrarlas además en `src/components/IllustrationViewer.tsx`. Lo mismo vale
-para la lámina de la lectura 54, «La nave de barro» (`il_nave_barro.jpg`).
+para la lámina de la lectura 52, «La nave de barro» (`il_nave_barro.jpg`).
 
 Para no pasar de las 550 páginas de la tapa dura, el tomo I usa un interlineado de
 cuerpo de 15,8 pt en vez de 16,4 (`body_leading` en su TOC, que fija `make_tomos.py`):
