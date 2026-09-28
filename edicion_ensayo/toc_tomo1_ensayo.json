@@ -173,6 +173,7 @@
   },
   "running_title": "EL HORIZONTE INTERIOR",
   "gutter_in": 0.82,
+  "body_leading": 16.0,
   "uid": "urn:uuid:el-horizonte-interior-tomo1-ensayo-es",
   "credits": [
     "Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la cuarta parte, con el epílogo, el glosario y las notas. Las lecturas topológicas forman el segundo tomo."
@@ -187,7 +188,7 @@
       "content_file": "../content/ensayo/prologo.es.md",
       "replace": [
         [
-          "Entre la tercera y la cuarta, diecisiete lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
+          "Entre la tercera y la cuarta, catorce lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
           "Un segundo tomo, *Lecturas topológicas*, lleva las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana."
         ]
       ]
@@ -275,16 +276,16 @@
       "content_file": "../content/ensayo/cap13.es.md"
     },
     {
-      "id": "cap13_5",
-      "content_file": "../content/ensayo/cap13_5.es.md"
-    },
-    {
       "id": "cap14_real",
       "content_file": "../content/ensayo/cap14_real.es.md"
     },
     {
       "id": "cap15_real",
       "content_file": "../content/ensayo/cap15_real.es.md"
+    },
+    {
+      "id": "cap13_5",
+      "content_file": "../content/ensayo/cap13_5.es.md"
     },
     {
       "id": "cap18_6",
@@ -299,8 +300,8 @@
       "content_file": "../content/ensayo/cap22_idempotencia.es.md",
       "replace": [
         [
-          "en el sentido que el capítulo 53 reserva",
-          "en el sentido que el capítulo 36 reserva"
+          "el capítulo 51",
+          "el capítulo 37"
         ]
       ]
     },
@@ -321,8 +322,8 @@
       "content_file": "../content/ensayo/cap17_5_real.es.md",
       "replace": [
         [
-          "como veremos en el capítulo 53,",
-          "como veremos en el capítulo 36,"
+          "en el capítulo 51",
+          "en el capítulo 37"
         ]
       ]
     },
@@ -331,32 +332,24 @@
       "content_file": "../content/ensayo/cap_religiones_comparadas.es.md",
       "replace": [
         [
-          "El capítulo 53 lo dirá con claridad: la ética",
-          "El capítulo 36 lo dirá con claridad: la ética"
+          "en el capítulo 51)",
+          "en el capítulo 37)"
         ],
         [
-          "como se verá en el capítulo 53), cada",
-          "como se verá en el capítulo 36), cada"
+          "en el capítulo 51",
+          "en el capítulo 37"
         ],
         [
-          "De las tres opciones que el capítulo 53 dejará abiertas",
-          "De las tres opciones que el capítulo 36 dejará abiertas"
+          "El capítulo 51",
+          "El capítulo 37"
         ],
         [
-          "lo que este mismo libro hará explícitamente en el capítulo 53",
-          "lo que este mismo libro hará explícitamente en el capítulo 36"
+          "el capítulo 51",
+          "el capítulo 37"
         ],
         [
-          "como mostrará el capítulo 54, sobre la práctica,",
-          "como mostrará el capítulo 37, sobre la práctica,"
-        ],
-        [
-          "No puede: como establece el capítulo 53,",
-          "No puede: como establece el capítulo 36,"
-        ],
-        [
-          "como dirá el capítulo 53,",
-          "como dirá el capítulo 36,"
+          "el capítulo 52",
+          "el capítulo 38"
         ]
       ]
     },
@@ -377,6 +370,10 @@
       "content_file": "../content/ensayo/cap18_real.es.md"
     },
     {
+      "id": "cap_calibracion",
+      "content_file": "../content/lecturas/cap_calibracion.es.md"
+    },
+    {
       "id": "cap_teoria_informacion",
       "content_file": "../content/ensayo/cap_teoria_informacion.es.md"
     },
@@ -385,8 +382,8 @@
       "content_file": "../content/ensayo/cap_tres_puertas.es.md",
       "replace": [
         [
-          "Es la pregunta que el capítulo 53 retomará",
-          "Es la pregunta que el capítulo 36 retomará"
+          "el capítulo 51",
+          "el capítulo 37"
         ]
       ]
     },
@@ -399,22 +396,22 @@
       "content_file": "../content/ensayo/cap19_real.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 53**",
-          "**Nota al Capítulo 36**"
+          "al Capítulo 51",
+          "al Capítulo 37"
         ]
       ],
-      "chapter_number": 36
+      "chapter_number": 37
     },
     {
       "id": "cap20_real",
       "content_file": "../content/ensayo/cap20_real.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 54**",
-          "**Nota al Capítulo 37**"
+          "al Capítulo 52",
+          "al Capítulo 38"
         ]
       ],
-      "chapter_number": 37
+      "chapter_number": 38
     },
     {
       "id": "cap_epilogo_real",

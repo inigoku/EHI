@@ -117,7 +117,7 @@ Hay traumas colectivos que no nacen de un acontecimiento único, sino de una con
 
 ## El cuidado como reparación del acoplamiento
 
-El capítulo 19 habló del cuidador, el que sostiene el horizonte ajeno cuando este se contrae. Aquí podemos ampliar esa intuición. Si la injusticia es una asimetría de acoplamiento sostenida, el cuidado es la práctica de restablecer la simetría, aunque sea de forma local y temporal.
+El capítulo 18 habló del cuidador, el que sostiene el horizonte ajeno cuando este se contrae. Aquí podemos ampliar esa intuición. Si la injusticia es una asimetría de acoplamiento sostenida, el cuidado es la práctica de restablecer la simetría, aunque sea de forma local y temporal.
 
 El cuidador no corrige la estructura: no puede abolir la pobreza, acabar con el racismo ni curar el trauma colectivo. Pero puede crear, en el espacio de la relación, una geometría distinta: poner su horizonte a disposición para recibir la señal del otro con la misma intensidad con la que emite la suya.
 

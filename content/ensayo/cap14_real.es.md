@@ -1,7 +1,7 @@
 ---
 title: ALZHEIMER — LA DISOLUCIÓN DEL HORIZONTE DESDE DENTRO
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 19
+chapterNumber: 18
 linkedCuentosId: cuento12
 illustrationId: il_alzheimer
 illustrationTitle: La biblioteca que se desintegra
@@ -121,7 +121,7 @@ Ese es el límite último del modelo: no la pregunta de por qué hay conciencia,
 
 ---
 
-> **Nota al Capítulo 19**
+> **Nota al Capítulo 18**
 >
 > **Lo que sí sabemos:** El Alzheimer destruye progresivamente las conexiones neuronales antes que las propias neuronas. La memoria episódica, ligada al hipocampo, suele ser la primera en degradarse; la procedimental y la musical resisten más.
 >

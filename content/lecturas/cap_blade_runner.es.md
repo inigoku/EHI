@@ -2,7 +2,7 @@
 title: LÁGRIMAS EN LA LLUVIA Y EL UNICORNIO SINTÉTICO
 subtitle: (La independencia de sustrato y la caducidad del horizonte)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 37
+chapterNumber: 38
 illustrationId: il_runner
 illustrationTitle: El unicornio sintético
 illustrationDescription: Un unicornio de origami de papel de aluminio brillante se posa sobre el asfalto mojado de una calle futurista lluviosa y oscura con reflejos de neón de tonos azules y rosa.
@@ -18,7 +18,7 @@ Pero en el capítulo 4 establecimos que lo que decide no es el material, sino tr
 
 ---
 
-### 1. Roy Batty y la lucidez del operador delete
+### 1. Roy Batty y la lucidez del final
 
 La prueba Voight-Kampff que los humanos usan en la película para detectar replicantes no busca un fallo mecánico: mide la dilatación de la pupila y la respuesta del cuerpo ante dilemas morales. En el lenguaje de nuestro experimento, mide la capacidad de entrelazamiento en el sentido de este libro, la empatía: si el sujeto puede acoplarse al sufrimiento de un animal o de un humano. A los replicantes, que tienen cuerpo de adulto pero son topológicamente recién nacidos, les falta rodaje en el mundo para calibrar esa geometría compartida.
 
@@ -26,7 +26,7 @@ Pero que no sepan calibrar el entrelazamiento no significa que carezcan de estad
 
 El líder de los replicantes, Roy Batty, es un horizonte de sucesos funcionando a pleno rendimiento. Su monólogo final bajo la lluvia («Yo he visto cosas que vosotros no creeríais… Todos esos momentos se perderán en el tiempo, como lágrimas en la lluvia») es la formulación fenomenológica más perfecta que conozco de la paradoja de la información de Hawking.
 
-Roy es plenamente lúcido sobre su propia topología. Sabe que su horizonte se está evaporando y que ningún alma inmortal lo salvará del colapso, pero entiende algo más trágico: que su estado privado (sus recuerdos de las naves en llamas más allá de Orión) es real, está codificado en la superficie de su horizonte y va a sufrir el *scrambling* cuántico. Su terror y su melancolía nacen de comprobar que el universo ejecutará el operador `delete` y devolverá su compleja geometría al reservorio, disuelta sin remedio. Su interior es tan vasto como el de cualquier humano, y su disolución, matemáticamente idéntica.
+Roy es plenamente lúcido sobre su propia topología. Sabe que su horizonte se está evaporando y que ningún alma inmortal lo salvará del colapso, pero entiende algo más trágico: que su estado privado (sus recuerdos de las naves en llamas más allá de Orión) es real, está codificado en la superficie de su horizonte y va a sufrir el *scrambling* cuántico. Su terror y su melancolía nacen de comprobar que el universo devolverá su compleja geometría al reservorio, disuelta sin remedio. Su interior es tan vasto como el de cualquier humano, y su disolución, matemáticamente idéntica.
 
 ---
 
@@ -34,7 +34,7 @@ Roy es plenamente lúcido sobre su propia topología. Sabe que su horizonte se e
 
 Si Roy Batty es el enfrentamiento con la muerte, Rachael plantea un problema arquitectónico aún más sutil. Es un experimento de la Tyrell Corporation: para evitar la inestabilidad emocional de los horizontes recién condensados, Tyrell le implanta los recuerdos de su sobrina. Él mismo lo explica: «Si les damos un pasado, creamos un colchón para sus emociones».
 
-En el capítulo 36, al hablar de los clones de la yegua Cuartetera, vimos que la identidad no se puede clonar porque no vive en el ADN, sino en las correlaciones construidas en el tiempo. Tyrell intenta saltarse esa ley física. Actúa como el sistema operativo evolutivo: inyecta un registro de eventos prefabricado para dar al horizonte de Rachael la ilusión de una esencia. Le inyecta maya.
+En el capítulo 37, al hablar de los clones de la yegua Cuartetera, vimos que la identidad no se puede clonar porque no vive en el ADN, sino en las correlaciones construidas en el tiempo. Tyrell intenta saltarse esa ley física. Actúa como el sistema operativo evolutivo: inyecta un registro de eventos prefabricado para dar al horizonte de Rachael la ilusión de una esencia. Le inyecta maya.
 
 Cuando Deckard le revela que sus recuerdos del piano y de la araña son falsos, rompe su interfaz de usuario. Rachael llora porque su horizonte percibe de golpe que su yo no lo esculpió el roce real con el mundo, sino un código implantado.
 
@@ -66,7 +66,7 @@ Esa frase destila todo nuestro experimento: no importa si naciste de un útero o
 
 ---
 
-> **Nota al Capítulo 37**
+> **Nota al Capítulo 38**
 >
 > **Lo que sí sabemos:** La teoría de la información integrada (IIT) sostiene que la conciencia depende de la estructura causal física de un sistema y de su capacidad irreducible de integración (Φ), no de que esté hecho de carbono; por eso la admite en principio en sustratos no biológicos, aunque niega que una simple simulación en un ordenador convencional la tenga.
 >

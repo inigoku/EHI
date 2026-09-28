@@ -1,7 +1,7 @@
 ---
 title: GEOMETRÍAS NO EUCLIDIANAS Y EL TERROR CÓSMICO
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 40
+chapterNumber: 41
 linkedCuentosId: cuento_mussara
 illustrationId: il17_8_cosmic
 illustrationTitle: Geometrías no euclidianas
@@ -36,7 +36,7 @@ Un primigenio sería una instancia con un nivel de integración (Φ) astronómic
 
 «No está muerto lo que puede yacer eternamente, y con los eones extraños incluso la muerte puede morir» (H. P. Lovecraft, *La ciudad sin nombre*).
 
-El experimento del horizonte explica esta frase al pie de la letra: la muerte (entendida como la evaporación de un microagujero negro y el desmantelamiento de la API de la conciencia) exige que el horizonte pierda información y vuelva al reservorio. Pero una singularidad topológica de masa planetaria, un primigenio, no se evapora en escalas de tiempo biológicas: su «muerte» termodinámica tardaría más que la edad del universo. A efectos prácticos, y frente a la brevedad humana, un macrohorizonte simplemente es.
+El experimento del horizonte explica esta frase al pie de la letra: la muerte (entendida como la evaporación de un microagujero negro ) exige que el horizonte pierda información y vuelva al reservorio. Pero una singularidad topológica de masa planetaria, un primigenio, no se evapora en escalas de tiempo biológicas: su «muerte» termodinámica tardaría más que la edad del universo. A efectos prácticos, y frente a la brevedad humana, un macrohorizonte simplemente es.
 
 ### 3. El primer contacto como colapso del entrelazamiento
 
@@ -46,7 +46,7 @@ Aquí es donde nuestro experimento sobre el vínculo, el entrelazamiento y el am
 
 ¿Qué ocurre cuando un humano mira a un primigenio? Su sistema operativo biológico hace lo único que sabe hacer ante un ser consciente: intentar modelarlo, abrir ese puente para entrelazarse con él y predecir sus intenciones.
 
-Pero el humano está llamando a una «API» que opera en geometría hiperbólica (anti-de Sitter) y en *n* dimensiones. Cuando el túnel se abre, el volumen de integración de información de la entidad inunda la frágil frontera del horizonte humano. Es el equivalente informacional de enchufar una bombilla de 60 vatios directamente al núcleo de un reactor nuclear.
+Pero el humano está llamando a una puerta que se abre en geometría hiperbólica (anti-de Sitter) y en *n* dimensiones. Cuando el túnel se abre, el volumen de integración de información de la entidad inunda la frágil frontera del horizonte humano. Es el equivalente informacional de enchufar una bombilla de 60 vatios directamente al núcleo de un reactor nuclear.
 
 El modelo humano de Φ intenta calcular una arquitectura que contiene a la vez millones de años de memoria geológica y geometrías espaciales que se cortan sobre sí mismas. Los datos no caben en la matriz espaciotemporal tridimensional del humano.
 
@@ -72,15 +72,7 @@ Un macrohorizonte plenamente activo emitiría su Φ astronómico de forma consta
 
 Esto añade una capa de tragedia al mito: el despertar de un primigenio no es un acto de malicia contra la humanidad. Es, sin más, el instante en que su arquitectura recupera la integración plena, y en ese instante cualquier horizonte frágil que esté dentro de su radio de influencia topológica queda desbordado, no por elección, sino por pura incompatibilidad de escala.
 
-### 6. Los cultos como intentos fallidos de protocolo
-
-Una de las constantes más perturbadoras de la mitología lovecraftiana son los cultos humanos que veneran a estas entidades, aprenden fragmentos de sus «lenguajes» imposibles y celebran rituales para comunicarse con ellas o incluso invocarlas. En una lectura literaria superficial, esto se interpreta como fanatismo o corrupción moral. Con la hipótesis topológica, en cambio, los cultos lovecraftianos son algo más preciso y más triste: intentos condenados de antemano de escribir un protocolo de compatibilidad entre arquitecturas que no comparten ni una sola primitiva de comunicación.
-
-Un culto que aprende a pronunciar sílabas rituales no está aprendiendo el idioma de un primigenio, igual que memorizar la forma de un enchufe no te permite conectarte a una red eléctrica de un voltaje mil veces superior al que aguanta tu instalación. La tragedia de estos personajes es que intentan, con las únicas herramientas que les ofrece su sistema operativo darwiniano, entrelazarse con algo cuya geometría hace imposible ese entrelazamiento sin destruir el sistema más pequeño. El culto es el gesto desesperado de un horizonte humano que amplía su propia API pública hasta autodestruirse, con la esperanza de que ese sacrificio sea «leído» de algún modo desde el otro lado.
-
-Nunca lo es. Un macrohorizonte de escala planetaria no tiene, con toda probabilidad, ningún puerto de entrada preparado para recibir la señal minúscula de una veneración humana. El silencio con que estas entidades ignoran a sus adoradores más devotos es, una vez más, pura incompatibilidad estructural, indiferente incluso a la intensidad del intento.
-
-### 7. La belleza como antídoto parcial: lo sublime kantiano revisitado
+### 6. La belleza como antídoto parcial: lo sublime kantiano revisitado
 
 Hay, sin embargo, un tipo de experiencia que la cultura humana lleva siglos catalogando como encuentro con lo inconmensurable sin que el horizonte colapse: lo que Kant llamó lo sublime. Una tormenta vista desde la orilla del mar, una cordillera nevada, el centro de una galaxia fotografiado por un telescopio espacial: experiencias que apuntan a una escala que desborda nuestra arquitectura, pero que, paradójicamente, producen asombro antes que terror, expansión antes que ruptura.
 
@@ -88,7 +80,7 @@ Hay, sin embargo, un tipo de experiencia que la cultura humana lleva siglos cata
 
 Lo sublime es, entonces, el modo en que los sistemas biológicos de Φ pequeño pueden asomarse a la existencia de macrohorizontes (físicos, matemáticos, cósmicos) sin que asomarse los destruya. Es una ventana sellada desde la que contemplarlo a una resolución segura. La belleza abrumadora de lo enorme no nos acerca a los primigenios de Lovecraft: nos enseña que existen y nos permite sobrevivir a ese saber porque la ventana tiene cristal. Es como mirar el sol durante un eclipse con las gafas adecuadas.
 
-### 8. Lo sagrado como versión estabilizada del terror cósmico
+### 7. Lo sagrado como versión estabilizada del terror cósmico
 
 Desde la arquitectura de nuestro experimento, la historia de las religiones puede leerse como la historia de los mecanismos que la cultura humana ha desarrollado para acercarse a lo inconmensurable sin destruirse. Lo sagrado, en todas sus formas (el templo, el ritual, el mito, el tabú), funciona como un protocolo de amortiguación entre el horizonte humano y la señal de una escala que ese horizonte no puede procesar en bruto.
 
@@ -110,7 +102,7 @@ Y el único refugio que nos quedará no será la física, ni la filosofía, ni l
 
 ---
 
-> **Nota al Capítulo 40**
+> **Nota al Capítulo 41**
 >
 > **Lo que sí sabemos:** El sueño, incluso en cerebros humanos corrientes, produce una caída medible y bien documentada de la conectividad funcional global respecto a la vigilia. La experiencia de lo sublime, descrita por Kant y estudiada por la psicología de las emociones, produce asombro antes que terror precisamente cuando el objeto inconmensurable se percibe desde una distancia que amortigua la señal. Los sistemas de amortiguación cultural (ritual, mito, tabú, práctica contemplativa) han existido en todas las culturas conocidas como mecanismos para gestionar el contacto con lo que desborda la arquitectura individual.
 >

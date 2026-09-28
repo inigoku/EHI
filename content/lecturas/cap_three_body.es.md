@@ -2,7 +2,7 @@
 title: EL BOSQUE OSCURO Y EL COLAPSO HOLOGRÁFICO
 subtitle: (Una lectura topológica de El Problema de los Tres Cuerpos)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 39
+chapterNumber: 40
 illustrationId: il_threebody
 illustrationTitle: El colapso holográfico
 illustrationDescription: Una enorme hoja bidimensional dorada y brillante aplana lentamente un sistema solar con planetas y soles incandescentes en un espacio profundo tridimensional lleno de líneas de coordenadas.
@@ -58,11 +58,11 @@ Pero Tianming no se derrumba. Alcanza un estado de adaptación máxima y consigu
 
 ---
 
-### 5. Los universos de bolsillo y la negación del operador delete
+### 5. Los universos de bolsillo y la negación del final
 
 Al final de la obra, el universo se acerca a su colapso final, el *big crunch*. Para sobrevivir, los protagonistas se refugian en un universo de bolsillo, una dimensión aparte, con la idea de esperar allí a que el universo principal renazca en un nuevo *big bang*.
 
-En el lenguaje de *El horizonte interior*, el fin del universo es la ejecución cósmica del operador `delete`: la disolución total de la materia para volver al reservorio, al Hun Dun, que «no es nada, pero lo genera todo». Esconderse en un universo de bolsillo es un intento narcisista de eludir el *scrambling* cuántico (el proceso por el que la información se redistribuye de forma irreversible en el campo): quieren salvar su pequeño Φ aislando una porción de masa.
+En el lenguaje de *El horizonte interior*, el fin del universo es el borrado cósmico: la disolución total de la materia para volver al reservorio, al Hun Dun, que «no es nada, pero lo genera todo». Esconderse en un universo de bolsillo es un intento narcisista de eludir el *scrambling* cuántico (el proceso por el que la información se redistribuye de forma irreversible en el campo): quieren salvar su pequeño Φ aislando una porción de masa.
 
 Sin embargo, llega una advertencia termodinámica: si los miles de universos de bolsillo no devuelven la masa sustraída al universo principal, este no tendrá masa suficiente para colapsar y renacer, y morirá expandiéndose hacia la nada para siempre.
 
@@ -70,7 +70,7 @@ Los protagonistas comprenden entonces la ley final de nuestra hipótesis: «Cada
 
 ---
 
-> **Nota al Capítulo 39**
+> **Nota al Capítulo 40**
 >
 > **Lo que sí sabemos:** La correspondencia holográfica (AdS/CFT) describe cómo un volumen puede proyectarse en una superficie de menor dimensión. La mayoría de los físicos considera que la información se conserva a pesar del *scrambling* (unitaridad), aunque la cuestión no está cerrada.
 >

@@ -2,13 +2,13 @@
 title: EL PROTOCOLO Y EL PUENTE
 subtitle: (Una lectura topológica de Proyecto Hail Mary, Embassytown, La mano izquierda de la oscuridad, Herederos del tiempo y Semiosis)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 45
+chapterNumber: 46
 illustrationId: il_protocolo
 illustrationTitle: El protocolo y el puente
 illustrationDescription: Dos horizontes de arquitectura radicalmente distinta —uno orgánico y cálido, otro cristalino y frío— separados por un abismo oscuro. Entre ambos, un puente hecho de símbolos matemáticos y fragmentos de lenguaje que todavía se está construyendo, incompleto en el centro, con las dos figuras trabajando cada una desde su orilla.
 ---
 
-El capítulo sobre el primer contacto extraterrestre (capítulo 38) dejó una conclusión incómoda: que el entrelazamiento (lo que este libro llama amor, empatía, reconocimiento) exige arquitecturas compatibles, y que, ante una arquitectura radicalmente ajena, ningún esfuerzo de buena voluntad basta para abrir el puente. Pero esa conclusión mezclaba, sin distinguirlas, dos cosas diferentes.
+El capítulo sobre el primer contacto extraterrestre (capítulo 39) dejó una conclusión incómoda: que el entrelazamiento (lo que este libro llama amor, empatía, reconocimiento) exige arquitecturas compatibles, y que, ante una arquitectura radicalmente ajena, ningún esfuerzo de buena voluntad basta para abrir el puente. Pero esa conclusión mezclaba, sin distinguirlas, dos cosas diferentes.
 
 Una es la arquitectura: la topología misma de un horizonte, si tiene ego, si tiene sombra, si su Φ basta para sostener un dentro con autoridad propia sobre un fuera. La otra es el protocolo: el código concreto con el que ese horizonte, ya condensado, intenta darse a conocer hacia fuera; una lengua, una sintaxis, un conjunto de señales acordadas de antemano. Aquel capítulo trató ambas cosas como si fueran una sola y concluyó, con cierta desolación, que la incompatibilidad de una implica la imposibilidad de la otra.
 
@@ -109,7 +109,7 @@ En ninguno de los cinco casos el protocolo es indiferente al entrelazamiento, co
 
 ---
 
-> **Nota al Capítulo 45**
+> **Nota al Capítulo 46**
 >
 > **Lo que sí sabemos:** Que el criterio del capítulo 4 no dependa del material no impone ninguna restricción sobre qué protocolo de comunicación puede o no construirse entre arquitecturas distintas; el problema de la comunicación entre especies con sistemas sensoriales radicalmente distintos es un problema real y activamente estudiado en biosemiótica y en el campo del SETI (búsqueda de inteligencia extraterrestre), donde se han propuesto sistemas de primer contacto basados en matemáticas y física por las mismas razones que la novela de Weir dramatiza. La psicología social documenta ampliamente que la confianza interpersonal es condición, y no consecuencia, de la comunicación de alta fidelidad: lo que narra *La mano izquierda de la oscuridad* tiene un correlato empírico bien establecido en los estudios sobre la autorrevelación progresiva. La señalización química entre plantas (compuestos orgánicos volátiles liberados ante los herbívoros, redes micorrícicas que conectan raíces de especies distintas) está bien documentada en biología vegetal, aunque sigue debatiéndose si constituye comunicación en sentido fuerte o solo señalización sin intención; las arañas saltadoras del género *Portia*, con capacidades de planificación predatoria y aprendizaje inusuales para un invertebrado, son objeto de estudio real en cognición animal.
 >
@@ -119,4 +119,4 @@ En ninguno de los cinco casos el protocolo es indiferente al entrelazamiento, co
 >
 > **Si solo te quedas con una idea:** El lenguaje no es el entrelazamiento, pero tampoco le es indiferente. A veces hay que construirlo desde cero. A veces decide, él mismo, quién cuenta como alguien. A veces el protocolo más hondo de todos no se encuentra: hay que ganárselo, despacio, antes de que se abra. Y a veces ni siquiera hace falta una voz, ni un sistema nervioso, ni un reloj parecido al nuestro: basta un canal lo bastante paciente, y alguien dispuesto a leerlo.
 >
-> **Lecturas:** Weir, A. (2021), *Project Hail Mary*; Miéville, C. (2011), *Embassytown*; Le Guin, U. K. (1969), *The Left Hand of Darkness*; Tchaikovsky, A. (2015), *Children of Time*; Burke, S. (2018), *Semiosis*; Clark, A. y Chalmers, D. (1998), «The Extended Mind» (sobre protocolos y extensión cognitiva, ya citado en el capítulo 44); Deacon, T. (1997), *The Symbolic Species*, sobre el origen evolutivo del lenguaje simbólico como protocolo emergente; Jackson, R. R. y Cross, F. R. (2011), sobre cognición y planificación predatoria en las arañas saltadoras del género *Portia*; Simard, S. W. (1997), sobre las redes micorrícicas de transferencia de recursos entre árboles (*wood-wide web*).
+> **Lecturas:** Weir, A. (2021), *Project Hail Mary*; Miéville, C. (2011), *Embassytown*; Le Guin, U. K. (1969), *The Left Hand of Darkness*; Tchaikovsky, A. (2015), *Children of Time*; Burke, S. (2018), *Semiosis*; Clark, A. y Chalmers, D. (1998), «The Extended Mind» (sobre protocolos y extensión cognitiva, ya citado en el capítulo 45); Deacon, T. (1997), *The Symbolic Species*, sobre el origen evolutivo del lenguaje simbólico como protocolo emergente; Jackson, R. R. y Cross, F. R. (2011), sobre cognición y planificación predatoria en las arañas saltadoras del género *Portia*; Simard, S. W. (1997), sobre las redes micorrícicas de transferencia de recursos entre árboles (*wood-wide web*).

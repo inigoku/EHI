@@ -257,16 +257,16 @@
       "content_file": "../content/ensayo/cap13.es.md"
     },
     {
-      "id": "cap13_5",
-      "content_file": "../content/ensayo/cap13_5.es.md"
-    },
-    {
       "id": "cap14_real",
       "content_file": "../content/ensayo/cap14_real.es.md"
     },
     {
       "id": "cap15_real",
       "content_file": "../content/ensayo/cap15_real.es.md"
+    },
+    {
+      "id": "cap13_5",
+      "content_file": "../content/ensayo/cap13_5.es.md"
     },
     {
       "id": "cap18_6",
@@ -315,6 +315,10 @@
     {
       "id": "cap18_real",
       "content_file": "../content/ensayo/cap18_real.es.md"
+    },
+    {
+      "id": "cap_calibracion",
+      "content_file": "../content/lecturas/cap_calibracion.es.md"
     },
     {
       "id": "cap_teoria_informacion",
@@ -369,24 +373,12 @@
       "content_file": "../content/lecturas/cap_lenguaje_entrelazamiento.es.md"
     },
     {
-      "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.es.md"
-    },
-    {
       "id": "cap_maquina_tiempo",
       "content_file": "../content/lecturas/cap_maquina_tiempo.es.md"
     },
     {
       "id": "cap_horizonte_prestado",
       "content_file": "../content/lecturas/cap_horizonte_prestado.es.md"
-    },
-    {
-      "id": "cap_lecturas_diapason",
-      "content_file": "../content/lecturas/cap_lecturas_diapason.es.md"
-    },
-    {
-      "id": "cap_lecturas_ojo",
-      "content_file": "../content/lecturas/cap_lecturas_ojo.es.md"
     },
     {
       "id": "cap_realidad_fractal",

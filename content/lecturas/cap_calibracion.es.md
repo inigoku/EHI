@@ -1,8 +1,8 @@
 ---
 title: LA CALIBRACIÓN DEL HORIZONTE
 subtitle: (Orientación, identidad y sexo no son elección ni error)
-section: LECTURAS TOPOLÓGICAS
-chapterNumber: 46
+section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
+chapterNumber: 33
 illustrationId: il_calibracion
 illustrationTitle: La calibración del horizonte
 illustrationDescription: Un horizonte esférico con varios ejes internos de luz que se cruzan en su centro, cada uno de un color distinto y ninguno subordinado a los demás. Desde fuera, otros horizontes proyectan haces que intentan forzar esos ejes a alinearse con un único patrón externo, sin conseguirlo. El horizonte central permanece estable, coherente, iluminado desde dentro.
@@ -55,7 +55,7 @@ Volviendo a las otras tres variables del principio de esta sección: hay persona
 
 ### La discriminación como fallo de traducción
 
-El capítulo 44 describió la traducción como la función que convierte la señal interior de un horizonte en algo que el mundo exterior puede recibir, y describió también lo que ocurre cuando falta a quien no puede proporcionársela a sí mismo: en aquel capítulo, el traductor faltaba por ausencia; aquí falta por rechazo. La discriminación contra un horizonte por su orientación o su identidad es la decisión activa, sostenida institucionalmente durante siglos, de no traducir una señal que llega perfectamente clara y de declarar en su lugar que la propia señal está corrompida.
+Todo horizonte necesita traducirse: convertir su señal interior en algo que el mundo exterior pueda recibir. La lectura «El traductor», más adelante, estudia lo que ocurre cuando esa traducción falta por ausencia; aquí falta por rechazo. La discriminación contra un horizonte por su orientación o su identidad es la decisión activa, sostenida institucionalmente durante siglos, de no traducir una señal que llega perfectamente clara y de declarar en su lugar que la propia señal está corrompida.
 
 La llamada terapia de conversión es el caso más documentado de lo que ocurre cuando esa negativa se convierte en intervención activa: el intento de recalibrar por la fuerza un sistema que nunca estuvo descalibrado. La Asociación Americana de Psiquiatría, la Organización Mundial de la Salud y prácticamente todas las asociaciones médicas y psicológicas relevantes la han condenado como ineficaz y dañina. El estudio de Turban y colaboradores, publicado a finales de 2019 a partir de la mayor encuesta realizada a personas trans en Estados Unidos (más de 27.000 respuestas), encontró que quienes recordaban haber sido sometidos a esos intentos de conversión tenían más del doble de probabilidades de haber intentado suicidarse a lo largo de su vida; si la exposición se había producido antes de los diez años, la probabilidad se multiplicaba por cuatro. El daño no dependía de que quien aplicaba la «terapia» fuera un profesional colegiado o un guía religioso sin formación clínica. El mecanismo del daño no estaba en el método, sino en la premisa: la convicción de que había algo que corregir.
 
@@ -71,7 +71,7 @@ Este capítulo no explica por completo ninguna de las tres variables que describ
 
 ---
 
-> **Nota al Capítulo 46**
+> **Nota al Capítulo 33**
 >
 > **Lo que sí sabemos:** La escala de Kinsey, Pomeroy y Martin (1948) y la rejilla de Klein (1985) son marcos establecidos para medir la orientación como variable continua, no binaria; los estudios de gemelos (Bailey & Pillard, 1991) muestran heredabilidad parcial de la orientación sexual; el estudio de asociación de genoma completo de Ganna et al. (2019), con cerca de 500.000 participantes, identificó cinco loci con asociación estadística débil que en conjunto explican entre el 8% y el 25% de la variación observada, sin permitir predicción individual; el efecto del orden de nacimiento fraterno (Blanchard & Bogaert) está ampliamente replicado en poblaciones diversas; Zhou et al. (1995) documentaron una diferencia estructural en el núcleo central del lecho de la estría terminal entre mujeres trans y hombres cisgénero; la Organización Mundial de la Salud retiró la homosexualidad de su lista de enfermedades en 1990 y reclasificó la incongruencia de género fuera de los trastornos mentales en 2019; los principales organismos médicos y psicológicos internacionales han condenado la terapia de conversión; el estudio de Turban et al. (2020) sobre 27.715 personas trans encontró una asociación entre la exposición recordada a esos intentos y un riesgo de intento de suicidio más del doble mayor a lo largo de la vida; Imperato-McGinley et al. (1974) documentaron el déficit de 5-alfa-reductasa en familias de la República Dominicana y el cambio de identidad hacia el género masculino en la mayoría de los casos tras la pubertad; y Malta se convirtió en 2015 en el primer país en prohibir por ley la cirugía de «normalización» genital no consentida en menores intersexuales.
 >

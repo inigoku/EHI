@@ -90,7 +90,7 @@ Durante la primera mitad de la vida del horizonte, la radiación de Hawking es t
 
 Esto no cambia lo dicho en el apartado VI: A = cl(A) sigue sin admitir grados en un instante. Lo que añade es que la filtración decreciente E₀ ⊇ E₁ ⊇ ... tiene, además de un tamaño en cada instante, una fase: una evaporación joven, que solo pierde, y otra madura, que empieza a devolver algo de lo perdido, entrelazado y por tanto correlacionado, aunque nunca literalmente recuperado. La frontera no mengua siempre del mismo modo, aunque en todo momento siga siendo, sin excepción, una frontera cerrada.
 
-Conviene decir con la claridad de siempre lo que esto no es: no es una manera de que algo cruce la frontera en el sentido que el capítulo 53 reserva al acceso al interior. Lo que se filtra no es el contenido (el interior se queda con su parte), sino la correlación entre lo que se fue y lo que quedó. Es la diferencia entre recibir una carta y recibir, en su lugar, la certeza de que en algún sitio existe la otra mitad de una conversación que quizá nunca lleguemos a leer entera. Poco, pero no nada.
+Conviene decir con la claridad de siempre lo que esto no es: no es una manera de que algo cruce la frontera en el sentido que el capítulo 51 reserva al acceso al interior. Lo que se filtra no es el contenido (el interior se queda con su parte), sino la correlación entre lo que se fue y lo que quedó. Es la diferencia entre recibir una carta y recibir, en su lugar, la certeza de que en algún sitio existe la otra mitad de una conversación que quizá nunca lleguemos a leer entera. Poco, pero no nada.
 
 ## VIII. Tercer puente: el entrelazamiento que la frontera mide
 

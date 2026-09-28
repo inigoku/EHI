@@ -10,7 +10,7 @@ illustrationDescription: Una misma esfera oscura, un horizonte de sucesos, rodea
 
 Hasta aquí ha quedado una pregunta sin cerrar: qué ocurre con la información cuando un horizonte se evapora, y si tiene siquiera sentido preguntarse, así formulado, «¿soy yo esa información?». Por el camino han aparecido tres nombres, budismo, vedanta y taoísmo, citados de pasada, como quien menciona a un vecino sin llamar a su puerta. Este capítulo llama a esa puerta y a otras que faltaban: la del cristianismo, la del islam y la de quien no cree que haya ninguna puerta a la que llamar.
 
-No para decidir cuál tiene razón. El capítulo 53 lo dirá con claridad: la ética, y con ella buena parte de la teología, excede su vocabulario. Pero sí puede hacer algo más modesto y quizá más útil: poner una junto a otra cinco respuestas humanas completamente distintas y preguntar qué tienen en común y en qué se separan exactamente. No para fundirlas en una sola, sino para ver con precisión en qué discrepan.
+No para decidir cuál tiene razón. El capítulo 51 lo dirá con claridad: la ética, y con ella buena parte de la teología, excede su vocabulario. Pero sí puede hacer algo más modesto y quizá más útil: poner una junto a otra cinco respuestas humanas completamente distintas y preguntar qué tienen en común y en qué se separan exactamente. No para fundirlas en una sola, sino para ver con precisión en qué discrepan.
 
 ---
 
@@ -20,7 +20,7 @@ Toda tradición religiosa, y también su ausencia deliberada, responde, lo sepa 
 
 1. **¿Qué es el reservorio?** ¿Hay algo con voluntad y nombre al otro lado del horizonte, o solo campo, solo física, solo posibilidad sin rostro?
 2. **¿Qué pasa cuando el horizonte se evapora?** ¿Persiste el «yo» como frontera reconocible, un horizonte que no se disuelve, sino que se traslada, o vuelve al reservorio sin conservar su forma?
-3. **¿De dónde sale el código?** Ante el *is-ought gap* de Hume (que ningún «es» produce por sí solo un «debería», como se verá en el capítulo 53), cada tradición ofrece una manera distinta de cerrar esa brecha, o de negarse a cerrarla.
+3. **¿De dónde sale el código?** Ante el *is-ought gap* de Hume (que ningún «es» produce por sí solo un «debería», como se verá en el capítulo 51), cada tradición ofrece una manera distinta de cerrar esa brecha, o de negarse a cerrarla.
 4. **¿Qué es vivir mientras tanto?** ¿Una prueba, un préstamo, una ilusión que hay que atravesar, o sencillamente lo único que hay?
 
 Cristianismo, islam, budismo, hinduismo y ateísmo son cinco arquitecturas distintas construidas para responder a las mismas cuatro preguntas, y lo que pretende este capítulo es mostrar la forma exacta de cada una, no limarlas hasta que parezcan compatibles.
@@ -33,7 +33,7 @@ Para el cristianismo, Dios no es el reservorio en el sentido en que este libro h
 
 La diferencia estructural con el vedanta y el taoísmo es radical. Brahman nirguna y Hun Dun son plenitud *sin rasgos*: el reservorio del capítulo 5 no tiene opinión sobre lo que hagas. El Dios cristiano, sí. La creación es un acto de voluntad, no una transición de fase impersonal: *fiat*, hágase. Y la relación entre la criatura y ese horizonte de origen no se disuelve con el tiempo, como en el modelo de Brahman y Atman del capítulo 5, sino que se sostiene, en diálogo, hasta el final.
 
-Eso cambia por completo la respuesta a la segunda pregunta. El vedanta dice que la ola nunca dejó de ser océano; el cristianismo, que el alma es una gota que Dios se propone conservar como gota, no disolver. La resurrección de la carne, no la inmortalidad de un alma flotante, sino la promesa de un cuerpo restaurado, es en el vocabulario de este libro la afirmación de que el horizonte individual *no* se evapora sin remanente. De las tres opciones que el capítulo 53 dejará abiertas (remanente, huella, nada), el cristianismo apuesta con toda su fuerza doctrinal por el remanente: algo que conserva forma, memoria e identidad reconocible, y que un día «se leerá» de nuevo, en el Juicio, con toda su información intacta.
+Eso cambia por completo la respuesta a la segunda pregunta. El vedanta dice que la ola nunca dejó de ser océano; el cristianismo, que el alma es una gota que Dios se propone conservar como gota, no disolver. La resurrección de la carne, no la inmortalidad de un alma flotante, sino la promesa de un cuerpo restaurado, es en el vocabulario de este libro la afirmación de que el horizonte individual *no* se evapora sin remanente. De las tres opciones que el capítulo 51 dejará abiertas (remanente, huella, nada), el cristianismo apuesta con toda su fuerza doctrinal por el remanente: algo que conserva forma, memoria e identidad reconocible, y que un día «se leerá» de nuevo, en el Juicio, con toda su información intacta.
 
 La tercera pregunta, de dónde sale el código, tiene aquí una respuesta directa: del mandamiento. Pero el cristianismo la complica con una segunda capa que lo distingue del islam: la ley no basta, y la gracia, el amor no merecido, pesa más que el cumplimiento. El «debería» no nace solo de una orden externa, como en la lectura más simple de la teoría del mandato divino, sino de una relación: se obra bien porque se ha sido amado primero, no para ganarse el amor. La brecha de Hume se cierra apelando no a un hecho, sino a un vínculo, el mismo tipo de vínculo entrelazado que el capítulo 12 describió entre personas, trasladado a una escala vertical.
 
@@ -69,11 +69,11 @@ Y en la tercera pregunta, ninguna de las dos cierra la brecha de Hume con un man
 
 El ateísmo, con sus primos más cautos, el agnosticismo y el naturalismo laico, no es la ausencia de respuesta a las cuatro preguntas, sino una respuesta distinta, tan elaborada como las otras, y en cierto sentido la que este mismo experimento ha venido dando por defecto a lo largo del libro: el reservorio es exactamente lo que describe la física, ni más ni menos. No hay horizonte de origen con voluntad ni remanente que conserve tu nombre. Lo que persiste tras la evaporación es correlación revuelta, sin lector y sin cuentas pendientes.
 
-No es, como a veces se caricaturiza, la ausencia de código moral, sino la apuesta de que el código no necesita un autor externo: surge de la biología social, de la evolución de la empatía y la reciprocidad, de siglos de negociación cultural sobre qué hace habitable la convivencia. Aquí la brecha de Hume no se cierra: se acepta como estructural y se vive con ella, que es lo que este mismo libro hará explícitamente en el capítulo 53 al negarse a decir qué «deberías» hacer con la información que ofrece.
+No es, como a veces se caricaturiza, la ausencia de código moral, sino la apuesta de que el código no necesita un autor externo: surge de la biología social, de la evolución de la empatía y la reciprocidad, de siglos de negociación cultural sobre qué hace habitable la convivencia. Aquí la brecha de Hume no se cierra: se acepta como estructural y se vive con ella, que es lo que este mismo libro hará explícitamente en el capítulo 51 al negarse a decir qué «deberías» hacer con la información que ofrece.
 
 > **En física esto se llama:** modelo nulo, la hipótesis que no añade entidades no observadas para explicar los datos.
 
-En este marco, vivir es el fenómeno completo: ni prueba, ni préstamo, ni ilusión que atravesar, ni antesala de otra cosa. Eso no lo vuelve menos denso: como mostrará el capítulo 54, sobre la práctica, la falta de una promesa trascendente no impide que la meditación, el vínculo o la creatividad reorganicen el horizonte con toda su fuerza. Solo cambia dónde se espera encontrar el sentido: no después del horizonte, sino dentro de él, mientras dura.
+En este marco, vivir es el fenómeno completo: ni prueba, ni préstamo, ni ilusión que atravesar, ni antesala de otra cosa. Eso no lo vuelve menos denso: como mostrará el capítulo 52, sobre la práctica, la falta de una promesa trascendente no impide que la meditación, el vínculo o la creatividad reorganicen el horizonte con toda su fuerza. Solo cambia dónde se espera encontrar el sentido: no después del horizonte, sino dentro de él, mientras dura.
 
 ---
 
@@ -109,7 +109,7 @@ Cruzar estos dos ejes, frontera conservada o disuelta y código externo o constr
 
 ### Lo que este capítulo no hace
 
-No dice cuál de las cinco tiene razón. No puede: como establece el capítulo 53, la hipótesis del horizonte es un mapa y no el territorio, y un mapa no puede arbitrar entre destinos que no ha visitado. Tampoco reduce las cinco tradiciones a «lo mismo con distintos nombres»: esa reducción, tentadora por cómoda, borra precisamente las diferencias que las hacen incompatibles en los puntos que de verdad importan: si hay alguien al otro lado, si ese alguien te conserva o te disuelve, si el código que sigues fue dictado o construido.
+No dice cuál de las cinco tiene razón. No puede: como establece el capítulo 51, la hipótesis del horizonte es un mapa y no el territorio, y un mapa no puede arbitrar entre destinos que no ha visitado. Tampoco reduce las cinco tradiciones a «lo mismo con distintos nombres»: esa reducción, tentadora por cómoda, borra precisamente las diferencias que las hacen incompatibles en los puntos que de verdad importan: si hay alguien al otro lado, si ese alguien te conserva o te disuelve, si el código que sigues fue dictado o construido.
 
 Lo que sí puede decir, con la misma franqueza que hasta ahora, es esto: más de ocho mil millones de horizontes están ahora mismo entrelazados con una de estas cinco arquitecturas, o con alguna de las muchas que este capítulo no ha tenido espacio para nombrar, y ese entrelazamiento, como mostró el capítulo 27 con los lugares, las cosas y las ideas, no es debilidad ni ingenuidad. Es la misma tecnología que usa cualquier horizonte para mantener su coherencia ante una pregunta que no puede responder con pruebas directas: qué hay al otro lado del borde y si alguien, allí, te está esperando con tu nombre todavía escrito.
 
@@ -119,7 +119,7 @@ Lo que sí puede decir, con la misma franqueza que hasta ahora, es esto: más de
 >
 > **Lo que sí sabemos:** Las cinco tradiciones descritas tienen formulaciones internas mucho más diversas de lo que cabe en una tabla: hay cristianismos universalistas que dudan del infierno eterno, escuelas budistas devocionales muy próximas al teísmo, corrientes ateas con ritos y una vida comunitaria densa. La tabla resume; no sustituye a ninguna de las tradiciones citadas.
 >
-> **Lo que no sabemos:** Si alguna de las cinco describe correctamente lo que ocurre tras la evaporación del horizonte. La física, como dirá el capítulo 53, no tiene herramientas para arbitrar esto.
+> **Lo que no sabemos:** Si alguna de las cinco describe correctamente lo que ocurre tras la evaporación del horizonte. La física, como dirá el capítulo 51, no tiene herramientas para arbitrar esto.
 >
 > **Preguntas que quedan:** ¿Puede sostenerse el eje «código externo / código construido» sin reducirlo a la falsa dicotomía «con Dios hay moral, sin Dios no»? ¿Qué le pasa a una tradición cuando pierde su tecnología de acoplamiento, el rito, pero conserva el mapa doctrinal? ¿Puede alguien entrelazarse a la vez, sin contradicción, con más de uno de estos cinco mapas? ¿Puede un horizonte, desde dentro de la práctica, distinguir por su vivencia un entrelazamiento vertical que termina en Alguien de otro que termina en el reservorio impersonal, o la quietud se siente igual y solo la interpretación posterior separa uno de otro?
 >

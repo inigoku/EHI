@@ -1,7 +1,7 @@
 ---
 title: LO QUE LA HIPÓTESIS NO PUEDE DECIR
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 53
+chapterNumber: 51
 illustrationId: il_mapayterritorio
 illustrationTitle: El límite del experimento
 illustrationDescription: Mapa antiguo desplegado. Territorio dibujado con precisión en el centro. En los bordes, el territorio se disuelve en papel en blanco. Un compás abierto al máximo. Nota a mano: "El mapa no es el territorio."
@@ -145,7 +145,7 @@ La hipótesis no puede confirmarlo ni descartarlo; deja la puerta abierta. Y a v
 
 ---
 
-> **Nota al Capítulo 53**
+> **Nota al Capítulo 51**
 >
 > **Lo que sí sabemos:** Entre la escala de la gravedad cuántica y la de una neurona hay unos treinta órdenes de magnitud. El problema difícil de la conciencia no tiene una solución aceptada. La brecha entre el «es» y el «debe» tampoco tiene solución lógica general.
 >

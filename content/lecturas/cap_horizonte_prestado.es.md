@@ -74,10 +74,6 @@ Vistas así, ninguna de las tres pide lo mismo que *Vengadores* o *Interstellar*
 
 ---
 
-Quizá lo que nos atrae de estas ficciones no sea la física que ponen en juego, sino lo que dejan entrever sobre el horizonte de quien las mira. Ninguno de nosotros comparte cuerpo con otra historia, como Tom. Ninguno percibe entero su propio milpiés, como Billy. Ninguno edita el tiempo ajeno desde un corredor fuera de los siglos, como Harlan. Pero los tres relatos rozan, cada uno a su manera, la misma sospecha: que el horizonte que somos podría, en circunstancias solo un poco distintas, haber sido otro. Y que la certeza de no serlo, de ser exactamente este cuerpo, en este orden, sujeto al mismo tiempo que les toca a los demás, no es un hecho garantizado por la física, sino, como mucho, la única versión de la historia que ha llegado a suceder hasta ahora.
-
----
-
 > **Nota al Capítulo 48**
 >
 > **Lo que sí sabemos:** Las tres novelas son coherentes con sus propias reglas internas y no le piden a la física ninguna operación mejor definida que las del capítulo anterior; lo que aportan no es un mecanismo nuevo, sino un ángulo distinto sobre la misma pregunta: qué le pasa al horizonte, no al universo, cuando el tiempo deja de comportarse como se espera.

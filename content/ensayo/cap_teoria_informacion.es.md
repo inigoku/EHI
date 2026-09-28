@@ -2,7 +2,7 @@
 title: LA TEORÍA DE LA INFORMACIÓN Y EL HORIZONTE INTERIOR
 subtitle: (O por qué una fórmula de 1948 ayuda a entender que tu conciencia no cabe en tu cráneo)
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
-chapterNumber: 33
+chapterNumber: 34
 illustrationId: il_teoria_informacion
 illustrationTitle: El canal cerrado
 illustrationDescription: Un abuelo sostiene con las dos manos un teléfono móvil como si fuera una fotografía de papel; de la pantalla no sale una imagen, sino una trenza de hilos luminosos de ceros y unos que se curva y vuelve a entrar en su propio pecho, cerrándose sobre sí misma como un bucle. Acuarela y tinta, tonos índigo y dorados.
@@ -133,7 +133,7 @@ Quizá sea esto lo más honesto que puede decir este capítulo: la teoría de la
 
 ---
 
-> **Nota al Capítulo 33**
+> **Nota al Capítulo 34**
 >
 > **Lo que sí sabemos:** La teoría de la información de Shannon es la base de las telecomunicaciones y la computación. La información mutua es una medida estándar de la correlación entre sistemas. El teorema de no clonación es un resultado demostrado de la mecánica cuántica. La teoría de la información integrada de Tononi es una teoría en desarrollo, con defensores y críticos.
 >

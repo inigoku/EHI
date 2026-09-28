@@ -1,7 +1,7 @@
 ---
 title: ADOLFO CAMBIASO Y LA YEGUA QUE NO CABE EN EL ADN
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 36
+chapterNumber: 37
 illustrationId: il_clon
 illustrationTitle: El clon y el horizonte
 illustrationDescription: Un jinete y una yegua en el centro de una cancha de polo al atardecer. A su alrededor, varias yeguas idénticas esperan en la penumbra, como ecos de la misma forma. Entre el jinete y la yegua central flota una red tenue de líneas doradas: la geometría de un vínculo que no se puede trasladar. Acuarela y tinta, tonos índigo y dorados.
@@ -127,7 +127,7 @@ Para Cambiaso, la Cuartetera original era lo mejor a lo que se había subido. Es
 
 ---
 
-> **Nota al Capítulo 36**
+> **Nota al Capítulo 37**
 >
 > **Lo que sí sabemos:** Adolfo Cambiaso clonó a su yegua Dolfina Cuartetera mediante transferencia nuclear de células somáticas. Al menos nueve clones jugaron partidos de la Triple Corona Argentina entre 2015 y 2020. La Cuartetera original murió en 2023, a los veintidós años. La clonación animal reproduce el genoma nuclear pero no el entorno gestacional, el desarrollo individual ni la historia de interacciones. El vínculo jinete-caballo se construye mediante correlaciones sensoriomotrices acumuladas que no son transferibles por identidad genética.
 >

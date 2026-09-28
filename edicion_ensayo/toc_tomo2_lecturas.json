@@ -176,7 +176,7 @@
   "gutter_in": 0.62,
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-es",
   "credits": [
-    "Segundo tomo de El Horizonte Interior: diecisiete lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
+    "Segundo tomo de El Horizonte Interior: catorce lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
   ],
   "chapters": [
     {
@@ -184,7 +184,7 @@
       "content_file": "../content/lecturas/cap17_6_real.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 36**",
+          "**Nota al Capítulo 37**",
           "**Nota a la lectura 1**"
         ]
       ],
@@ -196,11 +196,11 @@
       "content_file": "../content/lecturas/cap_blade_runner.es.md",
       "replace": [
         [
-          "En el capítulo 36, al hablar",
-          "En la lectura 1, al hablar"
+          "En el capítulo 37",
+          "En la lectura 1"
         ],
         [
-          "**Nota al Capítulo 37**",
+          "**Nota al Capítulo 38**",
           "**Nota a la lectura 2**"
         ]
       ],
@@ -212,7 +212,7 @@
       "content_file": "content_overrides/cap17_7_alien.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 38**",
+          "**Nota al Capítulo 39**",
           "**Nota a la lectura 3**"
         ]
       ],
@@ -224,7 +224,7 @@
       "content_file": "../content/lecturas/cap_three_body.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 39**",
+          "**Nota al Capítulo 40**",
           "**Nota a la lectura 4**"
         ]
       ],
@@ -236,7 +236,7 @@
       "content_file": "content_overrides/cap17_8_cosmic.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 40**",
+          "**Nota al Capítulo 41**",
           "**Nota a la lectura 5**"
         ]
       ],
@@ -248,7 +248,7 @@
       "content_file": "../content/lecturas/cap_matrix.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 41**",
+          "**Nota al Capítulo 42**",
           "**Nota a la lectura 6**"
         ]
       ],
@@ -260,7 +260,7 @@
       "content_file": "content_overrides/cap_cartografia_singularidades.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 42**",
+          "**Nota al Capítulo 43**",
           "**Nota a la lectura 7**"
         ]
       ],
@@ -272,7 +272,7 @@
       "content_file": "../content/lecturas/cap_historia_relevo.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 43**",
+          "**Nota al Capítulo 44**",
           "**Nota a la lectura 8**"
         ]
       ],
@@ -284,7 +284,7 @@
       "content_file": "../content/lecturas/cap_traductor.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 44**",
+          "**Nota al Capítulo 45**",
           "**Nota a la lectura 9**"
         ]
       ],
@@ -296,35 +296,19 @@
       "content_file": "../content/lecturas/cap_lenguaje_entrelazamiento.es.md",
       "replace": [
         [
-          "(capítulo 38)",
+          "en el capítulo 45)",
+          "en la lectura 9)"
+        ],
+        [
+          "(capítulo 39)",
           "(lectura 3)"
         ],
         [
-          "ya citado en el capítulo 44",
-          "ya citado en la lectura 9"
-        ],
-        [
-          "**Nota al Capítulo 45**",
+          "**Nota al Capítulo 46**",
           "**Nota a la lectura 10**"
         ]
       ],
       "chapter_number": 10,
-      "section": ""
-    },
-    {
-      "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.es.md",
-      "replace": [
-        [
-          "El capítulo 44 describió la traducción",
-          "La lectura 9 describió la traducción"
-        ],
-        [
-          "**Nota al Capítulo 46**",
-          "**Nota a la lectura 11**"
-        ]
-      ],
-      "chapter_number": 11,
       "section": ""
     },
     {
@@ -333,10 +317,10 @@
       "replace": [
         [
           "**Nota al Capítulo 47**",
-          "**Nota a la lectura 12**"
+          "**Nota a la lectura 11**"
         ]
       ],
-      "chapter_number": 12,
+      "chapter_number": 11,
       "section": ""
     },
     {
@@ -345,34 +329,10 @@
       "replace": [
         [
           "**Nota al Capítulo 48**",
-          "**Nota a la lectura 13**"
+          "**Nota a la lectura 12**"
         ]
       ],
-      "chapter_number": 13,
-      "section": ""
-    },
-    {
-      "id": "cap_lecturas_diapason",
-      "content_file": "../content/lecturas/cap_lecturas_diapason.es.md",
-      "replace": [
-        [
-          "**Nota al Capítulo 49**",
-          "**Nota a la lectura 14**"
-        ]
-      ],
-      "chapter_number": 14,
-      "section": ""
-    },
-    {
-      "id": "cap_lecturas_ojo",
-      "content_file": "../content/lecturas/cap_lecturas_ojo.es.md",
-      "replace": [
-        [
-          "**Nota al Capítulo 50**",
-          "**Nota a la lectura 15**"
-        ]
-      ],
-      "chapter_number": 15,
+      "chapter_number": 12,
       "section": ""
     },
     {
@@ -380,11 +340,11 @@
       "content_file": "../content/lecturas/cap_realidad_fractal.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 51**",
-          "**Nota a la lectura 16**"
+          "**Nota al Capítulo 49**",
+          "**Nota a la lectura 13**"
         ]
       ],
-      "chapter_number": 16,
+      "chapter_number": 13,
       "section": ""
     },
     {
@@ -392,23 +352,23 @@
       "content_file": "../content/lecturas/cap_nave_de_barro.es.md",
       "replace": [
         [
-          "la lectura sobre el terror cósmico, en el capítulo 40,",
-          "la lectura sobre el terror cósmico, la 5,"
+          "en el capítulo 41",
+          "en la lectura 5"
         ],
         [
-          "la misma conclusión a la que llegó el capítulo 47",
-          "la misma conclusión a la que llegó la lectura 12"
+          "el capítulo 47",
+          "la lectura 11"
         ],
         [
-          "lo que el capítulo 40 llamaba gafas de eclipse",
-          "lo que la lectura 5 llamaba gafas de eclipse"
+          "el capítulo 41",
+          "la lectura 5"
         ],
         [
-          "**Nota al Capítulo 52**",
-          "**Nota a la lectura 17**"
+          "**Nota al Capítulo 50**",
+          "**Nota a la lectura 14**"
         ]
       ],
-      "chapter_number": 17,
+      "chapter_number": 14,
       "section": ""
     }
   ]

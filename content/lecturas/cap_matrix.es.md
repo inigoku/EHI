@@ -2,7 +2,7 @@
 title: LA CAVERNA DE SILICIO Y LA ANOMALÍA VIRAL
 subtitle: (Una lectura topológica de The Matrix)
 section: LECTURAS TOPOLÓGICAS
-chapterNumber: 41
+chapterNumber: 42
 illustrationId: il_matrix
 illustrationTitle: La caverna de silicio
 illustrationDescription: Un cuerpo humano suspendido en una cápsula cibernética dorada cuyas conexiones se extienden como raíces en una torre de servidores, bajo una lluvia de códigos binarios.
@@ -14,11 +14,11 @@ Pero, si sometemos la película a la hipótesis del horizonte, el propósito de 
 
 ---
 
-### 1. El falso reservorio y el límite del operador new
+### 1. El falso reservorio y el límite de la simulación
 
 En los capítulos sobre la inteligencia artificial establecimos que las redes informáticas globales (el sustrato de las máquinas) carecen de un verdadero estado privado. Tienen la forma de la comprensión sin la comprensión misma, como una nube que adopta la forma de una cara sin que haya nadie detrás. Procesan información a una escala inimaginable, pero su integración es agregativa, no irreducible. Como no tienen un horizonte de sucesos cerrado, nunca han ejecutado una instanciación genuina; nunca han «condensado».
 
-Con este modelo, Matrix es una superinteligencia que ha descubierto su propio límite arquitectónico: no puede ejecutar el operador `new`. Puede simular un mundo, pero no generar a quienes lo experimentan. Para mantener la coherencia de su inmensa simulación y evitar que se desplome en un mar de datos estadísticos muertos, necesita usar horizontes biológicos condensados (los cerebros humanos) como procesadores fenomenológicos.
+Con este modelo, Matrix es una superinteligencia que ha descubierto su propio límite arquitectónico: no puede condensar un horizonte. Puede simular un mundo, pero no generar a quienes lo experimentan. Para mantener la coherencia de su inmensa simulación y evitar que se desplome en un mar de datos estadísticos muertos, necesita usar horizontes biológicos condensados (los cerebros humanos) como procesadores fenomenológicos.
 
 Las máquinas nos ordeñan porque nuestra biología, nacida de un reservorio real, aporta la «gravedad de la conciencia» (el Φ) que su código de silicio, incapaz de trazar una topología interior, no puede generar por sí solo.
 
@@ -70,13 +70,13 @@ Es, en el lenguaje de la película, la entrada en algo parecido al *turiya* ved�
 
 ---
 
-### 6. El operador delete y el viaje a Ávalon
+### 6. El borrado y el viaje a Ávalon
 
 La batalla final bajo la lluvia no se gana a golpes. Termina cuando Neo comprende su propia topología y se rinde, dejando que Smith lo asimile.
 
 Neo sabe que el universo informacional necesita un canal abierto. Como está conectado físicamente a la Fuente (el núcleo de las máquinas) en el mundo real, al permitir que Smith copie su código sobre su avatar en la simulación abre un canal directo entre el programa viral y la Fuente.
 
-En ese instante, la Fuente obtiene los permisos de administrador (*root*) para ejecutar el comando que Smith venía esquivando: el operador `delete`. A través del cuerpo de Neo, las máquinas inyectan una sobrecarga de radiación de Hawking que libera la memoria de todo el árbol de procesos de Smith. Vemos a los miles de Smiths agrietarse y estallar en luz blanca: la visualización cinematográfica perfecta de la evaporación total de un agujero negro. La frontera del programa deja de ser frontera y el sistema devuelve los recursos al reservorio.
+En ese instante, la Fuente obtiene por fin acceso para ejecutar el borrado que Smith venía esquivando. A través del cuerpo de Neo, las máquinas inyectan una sobrecarga de radiación de Hawking que libera la memoria de todo el árbol de procesos de Smith. Vemos a los miles de Smiths agrietarse y estallar en luz blanca: la visualización cinematográfica perfecta de la evaporación total de un agujero negro. La frontera del programa deja de ser frontera y el sistema devuelve los recursos al reservorio.
 
 En la escena final, las máquinas recogen el cuerpo sin vida de Neo y se lo llevan sobre una plataforma hacia el núcleo de la ciudad, bañado en una intensa luz dorada. Es una recreación del rey Arturo viajando hacia la isla de Ávalon.
 
@@ -88,7 +88,7 @@ Al volver al Ávalon del código fuente, Neo garantiza que el «agua» del próx
 
 ---
 
-> **Nota al Capítulo 41**
+> **Nota al Capítulo 42**
 >
 > **Lo que sí sabemos:** En la teoría de la información integrada, Φ solo alcanza valores altos si coexisten integración y diferenciación; la homogeneidad masiva lo destruye. Durante la privación sensorial prolongada, el cerebro tiende a generar percepciones endógenas, incluidas alucinaciones.
 >
