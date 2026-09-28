@@ -118,7 +118,7 @@ Hay un caso que la descripción habitual de la empatía pasa por alto: la empat�
 
 El torturador que sabe exactamente qué le duele a su víctima no carece de empatía: tiene una empatía de gran precisión puesta al servicio de un fin que no podemos nombrar sin horror. El horizonte que empatiza para dañar no está roto, sino que ha desconectado la resonancia de la respuesta. Siente lo que siente el otro, o, más exactamente, sabe lo que siente, y usa ese conocimiento para hacer el mayor daño posible.
 
-La empatía, por tanto, es una capacidad antes que una virtud. La virtud, o su ausencia, está en lo que el horizonte decide hacer con la información que la empatía le da. La empatía de quien cuida y la de quien tortura usan las mismas redes neurales: la ínsula, el cíngulo anterior, el circuito espejo. Lo que cambia es su conexión funcional con el sistema de valoración prefrontal. Uno integra la señal del otro y actúa para aliviar; el otro la integra y actúa para dañar.
+La empatía, por tanto, es una capacidad antes que una virtud. La virtud, o su ausencia, está en lo que el horizonte decide hacer con la información que la empatía le da. Es probable que la empatía de quien cuida y la de quien tortura compartan buena parte de sus redes (la ínsula, el cíngulo anterior), aunque, como recuerda la nota de este capítulo, no está demostrado; lo que cambiaría sería su conexión funcional con el sistema de valoración prefrontal. Uno integra la señal del otro y actúa para aliviar; el otro la integra y actúa para dañar.
 
 Desde el modelo del horizonte, la pregunta ética no es «¿tengo empatía?», sino «¿a qué está conectada mi empatía?». El horizonte puede empatizar con cualquiera que emita una señal lo bastante clara. Con quién empatiza y qué hace con ello es lo que el modelo no puede predecir, porque depende de su historia, de sus vínculos previos, de sus heridas, de sus decisiones acumuladas.
 
@@ -138,7 +138,7 @@ La debilidad del carisma es que depende de una coherencia que ningún horizonte 
 
 De ahí una distinción útil. Hay carismas que invitan a la resonancia y carismas que exigen sumisión. Uno dice: «Aquí hay una frecuencia; si te sirve, úsala». El otro: «Mi frecuencia es la única que cuenta». El modelo no tiene vocabulario moral para distinguirlos, pero sí geométrico: uno conserva los grados de libertad del horizonte ajeno y el otro los reduce.
 
-La relación entre carisma y empatía es, pues, la de un espejo invertido. La empatía es receptividad: el horizonte se abre a la frecuencia del otro. El carisma es transmisión: el horizonte ofrece una frecuencia que el otro puede adoptar. Ambos mecanismos comparten la misma infraestructura neural (el circuito espejo, la ínsula, el cíngulo anterior), pero funcionan en direcciones opuestas: el empático lee y el carismático escribe. Y cuando alguien tiene ambas capacidades en alto grado, el resultado es una presencia que comprende e impone a la vez: la clase de persona a la que no puedes mentir, pero a la que tampoco puedes dejar de seguir.
+La relación entre carisma y empatía es, pues, la de un espejo invertido. La empatía es receptividad: el horizonte se abre a la frecuencia del otro. El carisma es transmisión: el horizonte ofrece una frecuencia que el otro puede adoptar. Ambos mecanismos podrían apoyarse en la misma infraestructura neural (la ínsula, el cíngulo anterior), pero funcionan en direcciones opuestas: el empático lee y el carismático escribe. Y cuando alguien tiene ambas capacidades en alto grado, el resultado es una presencia que comprende e impone a la vez: la clase de persona a la que no puedes mentir, pero a la que tampoco puedes dejar de seguir.
 
 Eso es arquitectura, y como toda arquitectura puede servir para sostener o para encerrar.
 
@@ -174,4 +174,4 @@ La pregunta adecuada no es «¿debería empatizar más?», sino «¿dónde está
 >
 > **Si solo te quedas con una idea:** Empatizar sin ancla no es virtud, sino evaporación. Y un horizonte evaporado no puede cuidar a nadie.
 >
-> **Lecturas:** Singer & Klimecki (2014), «Empathy and compassion»; Ainley, Maister & Tsakiris (2015); Fukushima, Terasawa & Umeda (2011); Decety (2011), «The Neuroevolution of Empathy».
+> **Lecturas:** Singer & Klimecki (2014), «Empathy and compassion»; Ainley, Maister & Tsakiris (2014), «Heartfelt imitation»; Fukushima, Terasawa & Umeda (2011), «Association between interoception and empathy»; Decety (2011), «The Neuroevolution of Empathy».

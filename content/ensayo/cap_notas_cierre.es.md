@@ -5,19 +5,7 @@ section: APÉNDICES Y GLOSARIO
 chapterNumber: Apéndice A
 ---
 
-*Las notas que el autor fue dejando al terminar los capítulos escritos en la última etapa de este ensayo, y la de un libro breve que salió de él, reunidas en un solo lugar.*
-
-## Unidades que no convierten entre sí
-
-*Escrita al cierre de* El tiempo que no pasa, *un libro breve, aparte de este, sobre la densidad del tiempo.*
-
-Este libro nació de una pregunta que no tenía nada de física en apariencia: ¿por qué el mismo verano dura más a los once años que a los cuarenta? La respuesta que fui encontrando (que el tiempo no es un río que corre a la misma velocidad para todos, sino una propiedad que cada horizonte genera según lo que integra) no la inventé yo. Estaba ya en Eagleman, en Hasson, en cualquier persona que alguna vez esperó junto a la cama de un enfermo y sintió que las horas pesaban de una manera que el reloj no explicaba.
-
-Lo que sí es mío es el sistema de conversión que nunca terminé de construir. Como el niño del cuaderno, medí este libro en tiempo-de-ensayo, tiempo-de-lectura, tiempo-de-reescritura, sin encontrar nunca la unidad común entre ellos. Cada capítulo tardó lo que tardó, y ninguna cronología externa (el calendario de la escritura, las fechas de entrega) explica del todo por qué unos meses se sintieron como una tarde y otros, como una tarde de agosto bajo un olivo, no terminaron de pasar.
-
-Hay incluso libros que se lo explican mejor a los niños que a los adultos: uno, con dibujos, enseña sin una sola fórmula que un reloj de pared y un astronauta miden el tiempo de manera distinta. Debería haber empezado por ahí.
-
-Si algo queda de estas páginas, espero que sea esto: que la próxima vez que alguien te diga que el tiempo pasa volando, no lo tomes como una queja sobre el reloj, sino como un informe preciso sobre cuánto, últimamente, está entrando en tu horizonte.
+*Las notas que el autor fue dejando al terminar los capítulos escritos en la última etapa de este ensayo, reunidas en un solo lugar.*
 
 ## Nota a la última etapa
 

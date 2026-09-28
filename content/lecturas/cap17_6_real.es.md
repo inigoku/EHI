@@ -137,4 +137,4 @@ Para Cambiaso, la Cuartetera original era lo mejor a lo que se había subido. Es
 >
 > **Si solo te quedas con una idea:** Puedes copiar el cuerpo, pero no el encuentro. La identidad no vive en el ADN: vive en las correlaciones que un cuerpo construye con otros cuerpos a lo largo del tiempo. Por eso Cuartetera fue inigualable, aunque sus clones compartieran su código.
 >
-> **Lecturas:** Datos sobre clonación equina y el caso Cuartetera en prensa especializada (2015-2023); conceptos de identidad holográfica y entrelazamiento del capítulo 4; modelo de las dos selecciones del capítulo 31; discusión sobre duelo por mascotas del capítulo 26.
+> **Lecturas:** Prensa especializada sobre la clonación equina y el caso Cuartetera (2015–2023). Dentro de este libro: las dos selecciones (capítulo 31) y el duelo por las mascotas (capítulo 26).

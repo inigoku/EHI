@@ -27,7 +27,7 @@ Durante mucho tiempo imaginamos el espectro de la conciencia como una simple esc
 
 La neurociencia contemporánea ha identificado dos dimensiones independientes que definen el estado de conciencia de un sistema. La primera es el **nivel de activación** (*arousal*), la actividad metabólica del cerebro. La segunda es la **integración**, cuánta información genera el sistema como un todo: el Phi de Tononi que conocimos en el capítulo 1. (Φ no puede calcularse en un cerebro real; lo que se mide son aproximaciones, como el índice de complejidad perturbacional, que cae en el sueño profundo y la anestesia y se recupera en la vigilia y en el sueño REM. Cuando este libro habla de «Φ alto» o «Φ bajo» en un cerebro, habla de esas aproximaciones.)
 
-Lo revelador es que estas dos dimensiones no siempre van juntas. La vigilia y el sueño profundo están en extremos opuestos del eje de la integración, pero la meditación profunda ocupa un lugar sin equivalente: activación baja e integración altísima a la vez, con los valores más altos que los instrumentos han registrado en un cerebro humano sano. Es un cuadrante que ningún otro estado ocupa.
+Lo revelador es que estas dos dimensiones no siempre van juntas. La vigilia y el sueño profundo están en extremos opuestos del eje de la integración, pero la meditación profunda ocupa un lugar sin equivalente: activación baja e integración alta a la vez, al menos a juzgar por la coherencia gamma de larga distancia que se ha registrado en meditadores expertos (Lutz et al., 2004). Es un cuadrante que ningún otro estado ocupa.
 
 > **En física esto se llama:** espacio bidimensional de estados de conciencia (activación × integración).  
 > **En la vida diaria es como:** un aparato que mide la temperatura y la humedad: dos números que no siempre suben a la vez.
@@ -119,7 +119,7 @@ A primera vista, la meditación profunda y el sueño profundo se parecen: quietu
 
 Pero su firma neurológica es la opuesta.
 
-En el sueño profundo hay ondas delta lentas de gran amplitud, sincronización masiva y un Phi bajo; la corteza no propaga las señales más allá de su región local. En la meditación profunda de practicantes avanzados hay ondas gamma de alta frecuencia y amplitud extraordinaria, sincronización a larga distancia entre regiones frontales, parietales y occipitales, y un Phi elevado.
+En el sueño profundo hay ondas delta lentas de gran amplitud, sincronización masiva y un Phi bajo; la corteza no propaga las señales más allá de su región local. En la meditación profunda de practicantes avanzados hay ondas gamma de alta frecuencia y amplitud extraordinaria, sincronización a larga distancia entre regiones frontales, parietales y occipitales: el perfil que, en el lenguaje de la IIT, correspondería a un Phi elevado, aunque nadie lo ha medido directamente.
 
 La diferencia no es de grado, sino de dirección.
 

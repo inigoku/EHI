@@ -200,10 +200,6 @@
           "En la lectura 1, al hablar"
         ],
         [
-          "(Capítulo 36)",
-          "(lectura 1)"
-        ],
-        [
           "**Nota al Capítulo 37**",
           "**Nota a la lectura 2**"
         ]
@@ -358,12 +354,24 @@
     {
       "id": "cap_lecturas_diapason",
       "content_file": "../content/lecturas/cap_lecturas_diapason.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 49**",
+          "**Nota a la lectura 14**"
+        ]
+      ],
       "chapter_number": 14,
       "section": ""
     },
     {
       "id": "cap_lecturas_ojo",
       "content_file": "../content/lecturas/cap_lecturas_ojo.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 50**",
+          "**Nota a la lectura 15**"
+        ]
+      ],
       "chapter_number": 15,
       "section": ""
     },

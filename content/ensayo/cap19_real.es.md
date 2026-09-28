@@ -41,7 +41,7 @@ Esa distancia es una brecha entre mundos.
 
 La física cuántica opera a escalas en las que el propio espacio-tiempo puede no ser continuo, en las que la información se comporta como geometría y la geometría como información, en las que una partícula puede estar en superposición antes de que el reloj del universo dé un solo tic. La neurociencia opera a escalas en las que la temperatura corporal deshace la mayoría de las superposiciones en mucho menos de un microsegundo, en las que millones de iones de sodio y potasio cruzan membranas como la multitud en una estación de tren, y en las que la humedad, el ruido térmico y la complejidad del metabolismo hacen que la mayoría de los fenómenos cuánticos relevantes se disipen antes de que una sola señal sináptica complete su recorrido.
 
-Esto no invalida el experimento, pero lo acota. Un mapa de carreteras no dice qué árboles hay en cada curva, pero permite planificar el viaje.
+Esto no invalida el experimento, pero lo acota.
 
 Piénsalo como un mapa. Un mapa de carreteras no te dice qué árboles hay en cada curva, ni si el asfalto está resbaladizo esta mañana, ni qué canción suena en la radio del coche que te adelanta. Pero te permite planificar el viaje: te dice que, si tomas la autovía del norte durante ciento cincuenta kilómetros, llegarás al puerto donde espera el ferri. El mapa no es el viaje, ni el ferri, ni la brisa marina que te dará en la cara cuando subas a cubierta. Pero, sin el mapa, quizá nunca habrías salido de casa.
 
@@ -111,7 +111,7 @@ El budismo diría que la pregunta está mal planteada: no hay un «yo» que pers
 
 La física dice que no lo sabe. Y en ese «no lo sé», en esa honestidad sin adornos, el experimento, en su límite, coincide con estas tres tradiciones: no en la respuesta, sino en reconocer que la pregunta desborda sus herramientas.
 
-### Quinto: el amor, o por qué este libro no puede explicar por qué ella y no otra
+### Quinto: el amor, o por qué este libro no puede explicar por qué esta persona y no otra
 
 La hipótesis puede describir el entrelazamiento como geometría compartida, el reconocimiento como reorganización de la arquitectura informacional y la pérdida como una asimetría que persiste cuando uno de los polos ya no responde. Pero no puede explicar **por qué este horizonte y no otro**, por qué esta persona y no aquella, por qué el amor es siempre, a algún nivel, contingencia e irrepetibilidad.
 

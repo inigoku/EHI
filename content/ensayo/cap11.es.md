@@ -8,7 +8,7 @@ illustrationTitle: El reservorio de la asimetría
 illustrationDescription: Una gran esfera cálida y luminosa (el horizonte materno) que acuna en su interior a otra esfera más pequeña, translúcida y en proceso de condensarse (el hijo). Pequeñas partículas de luz fluyen entre ambas como estrellas fugaces. Todo flota sobre un océano nocturno y en calma.
 ---
 
-El capítulo 14 presentó la oxitocina como la única vía de activación del sistema de recompensa que no destruye los receptores que necesita. Pero dejó una pregunta sin responder: ¿dónde aprende el sistema qué intensidad de señal vincular basta para registrarse como «estar en el sitio correcto»?
+El capítulo 14 presentó la oxitocina como una vía de activación del sistema de recompensa que no desgasta los receptores que necesita. Pero dejó una pregunta sin responder: ¿dónde aprende el sistema qué intensidad de señal vincular basta para registrarse como «estar en el sitio correcto»?
 
 La respuesta es que el umbral del vínculo se calibra en el primer vínculo. Y el primer vínculo es el único caso, en toda la geometría del horizonte, en que un sistema fabrica las condiciones de existencia de otro. No se acopla a él: lo **fabrica**.
 
@@ -32,7 +32,7 @@ Lo que la cultura llama con una sola palabra, «ser madre», son físicamente tr
 
 **La plantilla**, la genética, es la arquitectura del sistema nervioso con la que se construirá el horizonte. Pero no es el horizonte, sino el plano.
 
-**El útero**, la gestación, es la única capa que actúa antes de que el horizonte se cierre. Incluye las hormonas que atraviesan la placenta, el latido materno, la voz, la prosodia del idioma. Desde la semana veinticinco, el feto responde de forma diferenciada a los estímulos acústicos: reconoce la voz de su madre, distingue lenguas, prefiere la música que ha oído repetidas veces. Esa experiencia, integrada antes del umbral, da forma a las correlaciones internas que tendrá el horizonte cuando se cierre. No lo determina, pero deja en él una firma que ningún otro adulto podrá reproducir.
+**El útero**, la gestación, es la única capa que actúa antes de que el horizonte se cierre. Incluye las hormonas que atraviesan la placenta, el latido materno, la voz, la prosodia del idioma. Desde la semana veinticinco, el feto responde a los sonidos, y al final del embarazo ya distingue la voz de su madre de la de otras mujeres, reacciona de forma distinta a su lengua y reconoce melodías que ha oído repetidas veces. Esa experiencia, integrada antes del umbral, da forma a las correlaciones internas que tendrá el horizonte cuando se cierre. No lo determina, pero deja en él una firma que ningún otro adulto podrá reproducir.
 
 **La crianza**, el encuentro, actúa después del umbral, entre dos horizontes ya formados. Ahí se calibra el sistema de recompensa del que habló el capítulo 14. Cada llanto que obtiene respuesta, cada hambre que encuentra alimento, cada presencia que se sostiene enseña al sistema del hijo qué intensidad de señal oxitocínica es la línea de base que buscará el resto de su vida.
 
@@ -50,7 +50,7 @@ La medicina moderna ha creado, sin proponérselo, cuatro experimentos naturales 
 
 | Situación | ¿Qué aporta? | Qué significa para el horizonte |
 | **Fecundación in vitro** | Las tres capas, con una pausa de 3-5 días en un medio de cultivo. | El horizonte surge de un reservorio que incluye un acto explícito de intención parental. |
-| **Donación de óvulos** | La plantilla de una mujer; el útero y la crianza, de otra. | La gestante influye en qué genes se expresan. El parecido que la gente ve entre la gestante y el bebé es, a menudo, resonancia rítmica, no genética. |
+| **Donación de óvulos** | La plantilla de una mujer; el útero y la crianza, de otra. | La gestante influye en qué genes se expresan. |
 | **Gestación subrogada** | El útero de una mujer; la crianza, de otra. | El horizonte se condensa con inscripciones prosódicas y hormonales de la gestante. La crianza posterior opera sobre ese reservorio ya configurado. |
 | **Adopción** | Crianza por una madre que no aportó ni plantilla ni útero. | El horizonte ya está cerrado. La madre adoptiva no sustituye capas anteriores: añade una nueva, sobre un horizonte que ya lleva inscripciones. |
 
@@ -130,4 +130,4 @@ Eso da a la maternidad, y a la paternidad, una función que ningún otro víncul
 >
 > **Si solo te quedas con una idea:** La maternidad no es un solo papel, sino una secuencia física de tres capas en la que un horizonte fabrica el reservorio del que surgirá otro. Y esa fabricación deja huella en ambos para siempre.
 >
-> **Lecturas:** Feldman (2015), «The Adaptive Human Parental Brain»; Boddy et al. (2015), «Fetal Microchimerism and Maternal Health»; Tronick (2007), «The Neurobehavioral and Social-Emotional Development of Infants».
+> **Lecturas:** Feldman (2015), «The Adaptive Human Parental Brain»; Boddy et al. (2015), «Fetal Microchimerism and Maternal Health»; Tronick (2007), *The Neurobehavioral and Social-Emotional Development of Infants and Children*.

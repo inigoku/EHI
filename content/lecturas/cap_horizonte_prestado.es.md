@@ -1,11 +1,11 @@
 ---
-title: EL CUERPO PRESTADO, LA LOMBRIZ ENTERA Y EL SIGLO EDITADO
+title: EL CUERPO PRESTADO, EL MILPIÉS ENTERO Y EL SIGLO EDITADO
 subtitle: (Una lectura topológica de Todos nuestros presentes equivocados, Matadero Cinco y El fin de la eternidad)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 48
 illustrationId: il_horizonte_prestado
 illustrationTitle: El cuerpo prestado
-illustrationDescription: Tres horizontes distintos flotan sobre un fondo de estrellas oscuro. A la izquierda, dos siluetas humanas translúcidas se superponen dentro del mismo contorno, disputándose los mismos gestos. En el centro, una larga espiral de luz dorada —una lombriz de instantes, con un pie diminuto en un extremo y un pie anciano en el otro— brilla entera, sin principio ni final visibles. A la derecha, un corredor de piedra se abre hacia un siglo en miniatura, suspendido y editable como un reloj de engranajes dorados. Acuarela y tinta, tonos índigo y dorados.
+illustrationDescription: Tres horizontes distintos flotan sobre un fondo de estrellas oscuro. A la izquierda, dos siluetas humanas translúcidas se superponen dentro del mismo contorno, disputándose los mismos gestos. En el centro, una larga espiral de luz dorada —un milpiés de instantes, con un pie diminuto en un extremo y un pie anciano en el otro— brilla entera, sin principio ni final visibles. A la derecha, un corredor de piedra se abre hacia un siglo en miniatura, suspendido y editable como un reloj de engranajes dorados. Acuarela y tinta, tonos índigo y dorados.
 ---
 
 El capítulo anterior dejó abierta una pregunta incómoda. Cuando un horizonte se bifurca, como le ocurre a Tony Stark en *Vengadores: Endgame*, las dos ramas comparten la misma historia hasta el instante de la división, y después ninguna puede reclamar en exclusiva la identidad que compartían. Es, dentro de lo que cabe, una separación limpia: dos horizontes nuevos, ninguno con derecho sobre el otro, cada uno libre de seguir integrando su propia historia sin que el otro se la dispute.
@@ -50,7 +50,7 @@ Billy no elige aceptar el fatalismo tralfamadoriano: simplemente descubre que ya
 
 Isaac Asimov imagina en *El fin de la eternidad* (1955) la fantasía opuesta a la de Vonnegut: en vez de un horizonte que pierde el control sobre el orden de su propio tiempo, toda una organización, la Eternidad, que cree haberlo ganado sobre el tiempo de todos los demás. Sus Técnicos, como Andrew Harlan, viven fuera de los siglos, en un corredor al margen del tiempo, desde el que bajan a un siglo concreto para introducir un Cambio de Realidad: la intervención mínima calculada (un objeto movido, una frase dicha un segundo antes) que basta para reescribir, sin que nadie dentro del siglo lo perciba jamás, todo lo que vendría después.
 
-La Eternidad no niega la condición de frontera de la que habla el capítulo anterior: la explota. Ningún Cambio viola una ley física; cada uno se limita a elegir, entre las historias que la física permitía por igual, la que menos sufrimiento produce. El problema, que la novela tarda trescientas páginas en revelar, no es técnico: un horizonte no puede editar el tiempo de otros sin dejar de habitar el suyo. Los eternos, protegidos de cada guerra, cada hambruna y cada catástrofe que ellos mismos han evitado antes de que ocurriera, acaban administrando una historia humana casi sin fricción y, con ella, casi sin motivo para arriesgarse a nada.
+La Eternidad no niega la condición de frontera de la que habla el capítulo anterior: la explota. Ningún Cambio viola una ley física; cada uno se limita a elegir, entre las historias que la física permitía por igual, la que menos sufrimiento produce. El problema, que la novela tarda casi hasta el final en revelar, no es técnico: un horizonte no puede editar el tiempo de otros sin dejar de habitar el suyo. Los eternos, protegidos de cada guerra, cada hambruna y cada catástrofe que ellos mismos han evitado antes de que ocurriera, acaban administrando una historia humana casi sin fricción y, con ella, casi sin motivo para arriesgarse a nada.
 
 Cuando Harlan descubre por fin qué siglos existirían si la Eternidad jamás se hubiera fundado, encuentra una civilización que sí sufrió sus guerras y sus fracasos nucleares, y que por eso mismo llegó a las estrellas. La seguridad para la que se construyó la Eternidad resultó ser, medida a la escala de toda una especie, la misma clausura que un dolor crónico prolongado puede producir en un solo horizonte: un sistema protegido de toda novedad deja de generar la que necesita para seguir teniendo, de verdad, un futuro.
 
@@ -80,12 +80,12 @@ Quizá lo que nos atrae de estas ficciones no sea la física que ponen en juego,
 
 > **Nota al Capítulo 48**
 >
-> **Lo que sí sabemos:** las tres novelas son coherentes con sus propias reglas internas y no le piden a la física ninguna operación mejor definida que las del capítulo anterior; lo que aportan no es un mecanismo nuevo, sino un ángulo distinto sobre la misma pregunta: qué le pasa al horizonte, no al universo, cuando el tiempo deja de comportarse como se espera.
+> **Lo que sí sabemos:** Las tres novelas son coherentes con sus propias reglas internas y no le piden a la física ninguna operación mejor definida que las del capítulo anterior; lo que aportan no es un mecanismo nuevo, sino un ángulo distinto sobre la misma pregunta: qué le pasa al horizonte, no al universo, cuando el tiempo deja de comportarse como se espera.
 >
-> **Lo que no sabemos:** si la intuición de que hay «un único yo continuo» habitando cada cuerpo es una verdad sobre la conciencia o solo el hábito de un horizonte que nunca ha tenido que compartir sustrato, perder secuencia o quedar fuera del tiempo que gobierna, y que por eso nunca ha tenido ocasión de comprobar si esa continuidad era necesaria o solo costumbre.
+> **Lo que no sabemos:** Si la intuición de que hay «un único yo continuo» habitando cada cuerpo es una verdad sobre la conciencia o solo el hábito de un horizonte que nunca ha tenido que compartir sustrato, perder secuencia o quedar fuera del tiempo que gobierna, y que por eso nunca ha tenido ocasión de comprobar si esa continuidad era necesaria o solo costumbre.
 >
 > **Preguntas que quedan:** Si dos horizontes completos pudieran de verdad coexistir en el mismo cuerpo sin fusionarse, ¿en qué momento uno de los dos dejaría de ser real? ¿Es la secuencia del tiempo una propiedad del mundo o solo la manera en que un horizonte que integra despacio necesita organizar lo que le llega? ¿Y puede alguien, de verdad, cuidar el tiempo de otros sin empezar, tarde o temprano, a dejar de habitar el suyo?
 >
-> **Si solo te quedas con una idea:** el viaje en el tiempo nunca fue solo un problema de física. Es, sobre todo, un problema de a quién pertenece el cuerpo que lo cruza, en qué orden le llega lo que integra, y quién paga el precio cuando alguien decide que el tiempo de otro también le pertenece.
+> **Si solo te quedas con una idea:** El viaje en el tiempo nunca fue solo un problema de física. Es, sobre todo, un problema de a quién pertenece el cuerpo que lo cruza, en qué orden le llega lo que integra, y quién paga el precio cuando alguien decide que el tiempo de otro también le pertenece.
 >
 > **Lecturas:** Elan Mastai, *All Our Wrong Todays* (2017); Kurt Vonnegut, *Slaughterhouse-Five* (1969); Isaac Asimov, *The End of Eternity* (1955).

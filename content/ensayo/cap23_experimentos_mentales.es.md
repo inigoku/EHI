@@ -62,12 +62,14 @@ Ninguno de estos cuatro experimentos puede hacerse hoy con la precisión que req
 
 ---
 
-### Nota al Capítulo 24
-
-**Lo que sí sabemos:** que la teoría de la información integrada ya dispone de un método operativo, la búsqueda del corte mínimo, capaz de generar en principio las curvas de Phi que necesita el primer experimento; y que la información mutua entre sistemas es una cantidad medible con la neurociencia actual, aunque no con la resolución que estos experimentos exigirían en la práctica.
-
-**Lo que no sabemos:** si alguno de los cuatro experimentos será técnicamente viable con los instrumentos de las próximas décadas o se quedará en un criterio de principio imposible de aplicar; y si un resultado negativo en cualquiera de ellos debería tomarse como refutación del puente concreto que pone a prueba o solo como indicio de que la traducción entre el formalismo físico y el psíquico necesita más trabajo antes de someterse a una prueba de verdad.
-
-**Preguntas que quedan:** ¿hay ya en la literatura clínica o de neuroimagen algún dato, aunque no se recogiera con esta idea, que pueda releerse con alguno de estos cuatro criterios? ¿Y cuál de los cuatro, si hubiera que intentar de verdad solo uno, ofrece la mejor relación entre lo que costaría y lo que se aprendería si fallara?
-
-**Si solo te quedas con una idea:** una teoría que no puede perder nada tampoco puede enseñar nada; estos cuatro experimentos son el precio de que este libro pretenda enseñar algo.
+> **Nota al Capítulo 24**
+>
+> **Lo que sí sabemos:** Que la teoría de la información integrada ya dispone de un método operativo, la búsqueda del corte mínimo, capaz de generar en principio las curvas de Phi que necesita el primer experimento; y que la información mutua entre sistemas es una cantidad medible con la neurociencia actual, aunque no con la resolución que estos experimentos exigirían en la práctica.
+>
+> **Lo que no sabemos:** Si alguno de los cuatro experimentos será técnicamente viable con los instrumentos de las próximas décadas o se quedará en un criterio de principio imposible de aplicar; y si un resultado negativo en cualquiera de ellos debería tomarse como refutación del puente concreto que pone a prueba o solo como indicio de que la traducción entre el formalismo físico y el psíquico necesita más trabajo antes de someterse a una prueba de verdad.
+>
+> **Preguntas que quedan:** ¿Hay ya en la literatura clínica o de neuroimagen algún dato, aunque no se recogiera con esta idea, que pueda releerse con alguno de estos cuatro criterios? ¿Y cuál de los cuatro, si hubiera que intentar de verdad solo uno, ofrece la mejor relación entre lo que costaría y lo que se aprendería si fallara?
+>
+> **Si solo te quedas con una idea:** Una teoría que no puede perder nada tampoco puede enseñar nada; estos cuatro experimentos son el precio de que este libro pretenda enseñar algo.
+>
+> **Lecturas:** Oizumi, M., Albantakis, L. y Tononi, G. (2014), «From the phenomenology to the mechanisms of consciousness: Integrated Information Theory 3.0»; Tononi, G., Boly, M., Massimini, M. y Koch, C. (2016), «Integrated information theory: from consciousness to its physical substrate»; Cover, T. M. y Thomas, J. A. (2006), *Elements of Information Theory*.

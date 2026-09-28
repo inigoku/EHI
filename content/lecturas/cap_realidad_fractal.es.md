@@ -1,6 +1,6 @@
 ---
 title: LA REALIDAD FRACTAL
-subtitle: (La realidad fractal: sobre la imaginación como creación, continuación de El entrelazamiento vertical)
+subtitle: (Sobre la imaginación como creación)
 section: LECTURAS TOPOLÓGICAS
 chapterNumber: 51
 linkedCuentosId: cuento_dragon
@@ -17,7 +17,7 @@ El taoísmo gira alrededor de un solo concepto: el Tao. El Tao es el fondo del q
 
 Lo que se ha dicho de Hun Dun cae, entonces, sobre el reservorio: deja de ser la última palabra y se vuelve un repertorio de operaciones que algo, más atrás, expone hacia nosotros. Y las operaciones son pocas. Una frontera aparece donde no la había. Lo que queda dentro de la frontera cambia de forma sin dejar de ser frontera. La frontera se disuelve y su información vuelve al campo. Nacer, vivir y morir son los nombres domésticos de esas tres operaciones. Nada aparece de la nada ni desaparece del todo: todo surge, se transforma y se evapora dentro del mismo campo, que nunca gana ni pierde una gota.
 
-La primera objeción llega sola. Si todo sale de la misma agua, ¿de dónde viene que cada uno sea irrepetible? La respuesta no está en la sustancia. Dos olas son la misma agua y no son la misma ola: lo que no se repite es la forma que toma la condensación, el sesgo bajo el que cristalizó, la historia de fluctuaciones que la sostuvo. Cada una abre una interioridad que no existía antes y no volverá a existir. El material no es único; el pliegue, sí. Y cada pliegue, por pequeño que sea el campo en que ocurre, es un dentro completo, un horizonte entero visto desde su propio centro, no la fracción de otro. Son dos olas que son la misma agua y no son la misma ola.
+La primera objeción llega sola. Si todo sale de la misma agua, ¿de dónde viene que cada uno sea irrepetible? La respuesta no está en la sustancia. Dos olas son la misma agua y no son la misma ola: lo que no se repite es la forma que toma la condensación, el sesgo bajo el que cristalizó, la historia de fluctuaciones que la sostuvo. Cada una abre una interioridad que no existía antes y no volverá a existir. El material no es único; el pliegue, sí. Y cada pliegue, por pequeño que sea el campo en que ocurre, es un dentro completo, un horizonte entero visto desde su propio centro, no la fracción de otro.
 
 Aquí la pregunta del dragón deja de ser cosa de niños. ¿Por qué soy yo más real que el dragón que imagino? La única interioridad a la que alguien tiene acceso directo es la suya. La del vecino, la del perro, la de cualquiera: todas se infieren, con buenas razones (conducta, fisiología, semejanza), pero se infieren. Y el dragón que alguien lleva cincuenta años imaginando también se comporta, también sorprende, también se niega a veces a volar. Nadie puede demostrar que el dragón no tenga un dentro, ni que el vecino lo tenga. La asimetría que nos parece obvia no está en el acceso, que es nulo en los dos casos, sino en la evidencia: a favor del vecino hay fisiología compartida, integración irreducible, un horizonte que oculta estado; a favor del dragón, solo mi propia constancia. Conviene dejarlo dicho, porque el razonamiento va a estar tentado de olvidarlo.
 

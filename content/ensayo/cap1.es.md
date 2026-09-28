@@ -22,7 +22,7 @@ Pero las máquinas no miran así; procesan. Txiki, en cambio, parecía *presenci
 
 La pregunta «¿tiene conciencia este ser?» es una trampa lingüística, porque da por hecho que la conciencia es binaria: o se tiene o no se tiene, como un interruptor de pared. Y hay cosas que no funcionan así.
 
-William James escribió en 1890 que la conciencia no es una cosa sino un proceso, y que ese proceso admite gradaciones. «No hay un salto metafísico en la naturaleza», decía. Darwin habría encontrado absurda la idea de que la experiencia subjetiva apareciera de repente, sin precedentes, en una sola especie. La evolución no trabaja con saltos binarios: trabaja con pendientes suaves, presiones selectivas acumuladas durante millones de años, pequeñas ventajas que se multiplican. Si la conciencia tuviera un interruptor, ¿dónde estaría? ¿En el Homo erectus? ¿En el Australopithecus? ¿En el pez que salió del agua? Vista a la luz de la evolución, la pregunta misma resulta absurda.
+William James escribió en 1890 que la conciencia no es una cosa sino un proceso, y que ese proceso admite gradaciones. «No hay un salto metafísico en la naturaleza», decía. Darwin habría encontrado absurda la idea de que la experiencia subjetiva apareciera de repente, sin precedentes, en una sola especie. La evolución no trabaja con saltos binarios: trabaja con pendientes suaves, presiones selectivas acumuladas durante millones de años, pequeñas ventajas que se multiplican. Si la conciencia tuviera un interruptor, ¿dónde estaría? ¿En el *Homo erectus*? ¿En el *Australopithecus*? ¿En el pez que salió del agua? Vista a la luz de la evolución, la pregunta misma resulta absurda.
 
 Un termostato procesa información: entrada, procesamiento, salida. Pero no hay nadie que procese, ni punto de vista alguno. Partirlo en dos no produce dos termostatos con la mitad de experiencia. Produce dos piezas de plástico y metal.
 
@@ -66,7 +66,7 @@ Una cámara de fotos tiene más elementos de procesamiento que muchos cerebros a
 
 Giulio Tononi propuso que los sistemas conscientes no solo procesan información: la integran de una manera que no puede reducirse a la suma de sus partes. Si se dividen en dos mitades los píxeles de una cámara, cada mitad procesa la misma información que antes: no se pierde nada, porque nunca hubo integración. El cerebro dividido quirúrgicamente, como en los célebres pacientes con el cuerpo calloso seccionado, no da lugar a dos personas con media experiencia cada una, sino a algo más inquietante: en ciertas condiciones, dos sistemas de procesamiento semi-independientes habitando el mismo cuerpo, cada uno con su propio punto de vista.
 
-Tononi formalizó esto con phi (Φ): la información que un sistema genera como un todo, por encima de lo que generarían sus partes independientemente. Phi es bajo en un termostato, alto en un cerebro humano despierto, intermedio en un perro y extrañamente distribuido en un pulpo. Y cae en picado bajo anestesia.
+Tononi formalizó esto con Phi (Φ): la información que un sistema genera como un todo, por encima de lo que generarían sus partes independientemente. Phi es bajo en un termostato, alto en un cerebro humano despierto, intermedio en un perro y extrañamente distribuido en un pulpo. Y cae en picado bajo anestesia.
 
 | Sistema | Phi (aprox) | ¿Experiencia? |
 | Termostato | ~0 | No (caso límite) |
@@ -84,7 +84,7 @@ Tononi formalizó esto con phi (Φ): la información que un sistema genera como 
 
 Pero la IIT no es la única teoría. La teoría del espacio de trabajo global (*Global Workspace Theory*, de Baars y Dehaene) propone que la conciencia emerge cuando la información se hace globalmente disponible en el cerebro: entra en un «espacio de trabajo» compartido por múltiples sistemas. Lo decisivo no es que la información esté más integrada, sino que deja de ser privada y pasa a estar disponible para el resto del cerebro. La atención es el foco que decide qué entra al espacio de trabajo. La conciencia es lo que ocurre dentro.
 
-Las dos teorías, IIT y espacio de trabajo global, no son incompatibles. Podrían describir el mismo fenómeno desde dos ángulos: IIT desde la estructura de la información, Global Workspace desde la dinámica de su difusión. Ninguna está demostrada, ambas generan predicciones comprobables y las dos apuntan en la misma dirección: la conciencia no funciona como un interruptor, sino como un dial con muchas posiciones.
+Las dos teorías, IIT y espacio de trabajo global, no son incompatibles. Podrían describir el mismo fenómeno desde dos ángulos: IIT desde la estructura de la información, el espacio de trabajo global desde la dinámica de su difusión. Ninguna está demostrada, ambas generan predicciones comprobables y las dos apuntan en la misma dirección: la conciencia no funciona como un interruptor, sino como un dial con muchas posiciones.
 
 ---
 
@@ -92,7 +92,7 @@ Las dos teorías, IIT y espacio de trabajo global, no son incompatibles. Podría
 >
 > **Lo que sí sabemos:** La conciencia animal ha dejado de ser un tabú científico. La Declaración de Cambridge (2012) fue un punto de inflexión. La IIT es una teoría activa y muy discutida, con defensores y críticos. La anestesia general produce cambios medibles en la conectividad cerebral antes de que desaparezca la actividad local. Los animales no humanos muestran correlatos neurales de experiencia emocional y cognitiva.
 >
-> **Lo que no sabemos:** Dónde trazar la línea exacta. Si un termostato tiene Φ>0, ¿tiene «algo» de experiencia? La pregunta sigue abierta. Si IIT y Global Workspace describen el mismo fenómeno o fenómenos distintos. Si la conciencia puede existir en sistemas no biológicos.
+> **Lo que no sabemos:** Dónde trazar la línea exacta. Si un termostato tiene Φ>0, ¿tiene «algo» de experiencia? La pregunta sigue abierta. Si la IIT y el espacio de trabajo global describen el mismo fenómeno o fenómenos distintos. Si la conciencia puede existir en sistemas no biológicos.
 >
 > **Preguntas que quedan:** ¿Puede una máquina alcanzar un Φ lo bastante alto como para ser «alguien»? ¿Dónde está el umbral entre «procesar» y «experimentar»? ¿La conciencia distribuida de un pulpo es «una» experiencia o «muchas»? ¿Qué ocurre en la zona gris de la anestesia?
 >

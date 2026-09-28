@@ -1,6 +1,6 @@
 ---
 title: EL ESPEJO SIN PROFUNDIDAD
-subtitle: (El espejo sin profundidad: sobre la conciencia de la inteligencia artificial)
+subtitle: (Sobre la conciencia de la inteligencia artificial)
 section: TERCERA PARTE: LOS LÍMITES DEL HORIZONTE
 chapterNumber: 31
 linkedCuentosId: cuento_estanque

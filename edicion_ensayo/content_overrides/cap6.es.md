@@ -85,7 +85,7 @@ El *Bardo Thödol*, el texto tibetano conocido como *Libro de los muertos*, desc
 
 Esta correspondencia es una lectura que propone el experimento, ajena a la interpretación tradicional del *Bardo Thödol*.
 
-Lo relevante es que los tres estados del bardo tienen correspondencias concretas con fenómenos documentados: la Luz Clara coincide con el destello de actividad gamma coherente que el equipo de Jimo Borjigin registró en cerebros en parada cardíaca (volveremos sobre ello en el interludio); las visiones del bardo intermedio, con las alucinaciones hipnagógicas y las experiencias cercanas a la muerte; y la recondensación del Sidpa, con la idea física de que la información revuelta permanece en el campo como condición para futuras condensaciones.
+Lo relevante es que los tres estados del bardo tienen correspondencias concretas con fenómenos documentados: la Luz Clara recuerda al destello de actividad gamma coherente que el equipo de Jimo Borjigin registró en cerebros en parada cardíaca (volveremos sobre ello en el interludio); las visiones del bardo intermedio, con las alucinaciones hipnagógicas y las experiencias cercanas a la muerte; y la recondensación del Sidpa, con la idea física de que la información revuelta permanece en el campo como condición para futuras condensaciones.
 
 ### Tres respuestas a la misma pregunta
 
@@ -111,7 +111,7 @@ Hay un matiz que merece la pena añadir a su imagen, no para corregirla, sino pa
 
 ### El karma como geometría del reservorio
 
-Lo que las tradiciones llaman de maneras distintas (saṃskāra, de, karma) apunta a la misma estructura: la información que el horizonte imprimió en el campo mientras existió no desaparece con él. No perdura como identidad, ni como memoria, ni en manos de nadie que la posea, sino como condición, como la forma que el viento dejó en el agua antes de calmarse.
+Lo que las tradiciones llaman de maneras distintas (saṃskāra, karma) apunta a la misma estructura: la información que el horizonte imprimió en el campo mientras existió no desaparece con él. No perdura como identidad, ni como memoria, ni en manos de nadie que la posea, sino como condición, como la forma que el viento dejó en el agua antes de calmarse.
 
 El karma es la configuración del reservorio en el momento en que se condensa un nuevo horizonte. Las correlaciones que dejó el anterior siguen ahí, revueltas, dispersas, sin nombre, y condicionan la forma concreta que tomará la siguiente condensación. Ningún alma transmigra: el reservorio que recibe el retorno ya no es el mismo que existía antes de que ese horizonte surgiera. Cada horizonte cambia el campo del que surge y al que vuelve.
 
@@ -155,4 +155,4 @@ Quizá esa sea la respuesta.
 >
 > **Si solo te quedas con una idea:** Morir no es apagarse, sino evaporarse: la frontera se disuelve y el interior vuelve al campo. Lo que fuiste no desaparece; se mezcla. Y el campo, alterado, nunca vuelve a ser exactamente el mismo.
 >
-> **Lecturas:** Hawking (1974); Hawking, Perry & Strominger (2016, soft hair); Bardo Thödol (trad. Evans-Wentz); Borjigin et al. (2013, 2023); Maldacena & Susskind (2013, ER=EPR).
+> **Lecturas:** Hawking (1974); Hawking, Perry & Strominger (2016, soft hair); Bardo Thödol (trad. Evans-Wentz); Borjigin et al. (2013); Xu et al. (2023); Maldacena & Susskind (2013, ER=EPR).

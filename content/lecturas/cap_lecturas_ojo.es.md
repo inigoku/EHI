@@ -8,7 +8,7 @@ illustrationTitle: Cinco maneras de perder el borde propio
 illustrationDescription: Cinco escenas de multitud en una sola lámina: una pantalla que vigila, una caracola en una playa, una celda con una ventana estrecha, un aula con brazaletes y una ciudad sin muros. En cada escena, una figura al borde de disolverse en el grupo.
 ---
 
-Cinco obras ajenas sometidas a la misma pregunta que el capítulo del que nacen: ¿qué distingue un horizonte colectivo que sostiene de uno que sustituye?
+Cinco obras ajenas sometidas a la misma pregunta que el capítulo 30, «El horizonte colectivo»: ¿qué distingue un horizonte colectivo que sostiene de uno que sustituye?
 
 ### *1984*: la composición perfecta
 
@@ -31,3 +31,17 @@ Rubashov, el viejo revolucionario de *El cero y el infinito*, de Arthur Koestler
 Anarres, el planeta anarquista de *Los desposeídos*, de Ursula K. Le Guin, no tiene Partido, ni líder, ni bandera. Y, sin embargo, Shevek, su protagonista, descubre que incluso una sociedad diseñada expresamente para no tener jerarquías desarrolla su propia forma de fanatismo: una opinión pública informal que castiga con el ostracismo a quien piensa distinto, sin que ninguna ley escrita lo prohíba. Le Guin es la lectura más incómoda de las cinco precisamente porque no permite culpar a la ideología del horizonte cerrado: hasta la comunidad más igualitaria imaginable puede convertir la pertenencia en composición si nadie vigila la frontera.
 
 Cinco arquitecturas y un mismo eje. Ninguna de estas obras necesita nombrar una ideología concreta para advertir del mismo mecanismo: la pertenencia deja de sostener y empieza a sustituir en el momento exacto en que una pregunta razonable, hecha por alguien del propio bando, empieza a sentirse como una amenaza y no como información.
+
+---
+
+> **Nota al Capítulo 50**
+>
+> **Lo que sí sabemos:** El experimento de Ron Jones en un instituto de Palo Alto (1967), en el que se basa *La ola*, está documentado. La desindividuación en grupos y la radicalización en cámaras de eco son fenómenos estudiados por la psicología social. El marco que estas lecturas ilustran está desarrollado en el capítulo 30.
+>
+> **Lo que no sabemos:** Si hay alguna señal fiable, desde dentro, del momento en que una pertenencia deja de sostener y empieza a sustituir.
+>
+> **Preguntas que quedan:** ¿Puede una comunidad sin jerarquías, como la de *Los desposeídos*, protegerse de su propio ostracismo informal?
+>
+> **Si solo te quedas con una idea:** Ninguna de estas obras necesita nombrar una ideología: el mecanismo es el mismo en todas.
+>
+> **Lecturas:** Orwell, G., *1984* (1949); Golding, W., *El señor de las moscas* (1954); Koestler, A., *El cero y el infinito* (1940); Strasser, T., *La ola* (1981); Le Guin, U. K., *Los desposeídos* (1974).

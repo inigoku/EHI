@@ -128,12 +128,12 @@ Puede que la razón por la que estas cuatro respuestas y estos cuatro contraejem
 
 > **Nota al Capítulo 47**
 >
-> **Lo que sí sabemos:** la dilatación temporal (por velocidad o por gravedad) es un viaje real al futuro, medido y verificado; la relatividad general admite soluciones con curvas temporales cerradas, pero todas las conocidas requieren materia exótica o configuraciones no físicas.
+> **Lo que sí sabemos:** La dilatación temporal (por velocidad o por gravedad) es un viaje real al futuro, medido y verificado; la relatividad general admite soluciones con curvas temporales cerradas, pero todas las conocidas requieren materia exótica o configuraciones no físicas.
 >
-> **Lo que no sabemos:** si algún mecanismo (cuántico o de otro tipo) impide de forma general que llegue a formarse una curva temporal cerrada; la conjetura de protección cronológica de Hawking no está demostrada.
+> **Lo que no sabemos:** Si algún mecanismo (cuántico o de otro tipo) impide de forma general que llegue a formarse una curva temporal cerrada; la conjetura de protección cronológica de Hawking no está demostrada.
 >
 > **Preguntas que quedan:** Si la hipótesis del pasado explica por qué crece la entropía, ¿qué explica que el universo empezara con una entropía tan baja? ¿Es esa pregunta distinta de preguntar por qué existe un horizonte en absoluto? ¿Y es la protección cronológica una ley fundamental, o solo esa misma condición de frontera, vista desde otro ángulo?
 >
-> **Si solo te quedas con una idea:** viajar al futuro nunca ha sido el problema (ya lo hacemos un poco cada vez que un satélite GPS corrige su reloj); el problema siempre fue pedirle a un horizonte que devuelva lo que ya se tragó.
+> **Si solo te quedas con una idea:** Viajar al futuro nunca ha sido el problema (ya lo hacemos un poco cada vez que un satélite GPS corrige su reloj); el problema siempre fue pedirle a un horizonte que devuelva lo que ya se tragó.
 >
 > **Lecturas:** H. G. Wells, *La máquina del tiempo* (1895); Kip Thorne, *Black Holes and Time Warps* sobre agujeros de gusano y protección cronológica; S. Hawking (1992) sobre la conjetura de protección cronológica; I. Novikov, M. Friedman, F. Echeverria et al. (1990) sobre el principio de autoconsistencia y el problema de Cauchy en curvas temporales cerradas; D. Albert y R. Penrose sobre la hipótesis del pasado y la entropía inicial del universo; Marvel Studios, *Avengers: Endgame* (2019); Christopher Nolan, *Interstellar* (2014); Rian Johnson, *Looper* (2012); Shane Carruth, *Primer* (2004); Christopher Nolan, *Tenet* (2020); Bryan Singer, *X-Men: Días del futuro pasado* (2014).

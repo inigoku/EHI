@@ -75,7 +75,7 @@ En el capítulo 15 describí cómo la madre construye el horizonte del hijo ante
 
 El cuidador que conoce bien al paciente puede anticipar sus necesidades antes de que las exprese, interpretar gestos incomprensibles para un extraño y mantener activas, por resonancia y no por instrucciones, las correlaciones que aún funcionan. Sabe que cuando el paciente va y viene tres veces de la cocina al salón no es por inquietud, sino porque busca el baño y ha olvidado dónde está. Sabe que si rechaza la comida no es por capricho, sino por miedo a atragantarse, porque ya no controla bien la deglución. Sabe que la mirada perdida hacia la ventana es a veces la única manera de procesar un mundo que ya no tiene sentido.
 
-Es un entrelazamiento que funciona en una sola dirección: el cuidador modela al paciente con una precisión creciente mientras el paciente pierde la capacidad de modelar al cuidador. En física, un entrelazamiento unidireccional es un estado asimétrico, casi una paradoja. En la vida, es el amor más desigual que existe: dar sin recibir reconocimiento, sostener sin ser sostenido, recordar por dos.
+Es un entrelazamiento que funciona en una sola dirección: el cuidador modela al paciente con una precisión creciente mientras el paciente pierde la capacidad de modelar al cuidador. En física, el entrelazamiento es siempre mutuo; este no lo es. En la vida, es el amor más desigual que existe: dar sin recibir reconocimiento, sostener sin ser sostenido, recordar por dos.
 
 Esto plantea una pregunta incómoda: ¿hasta qué punto sigue existiendo el yo del paciente en el espacio entre los dos horizontes? Si la identidad es holográfica, si está repartida en las correlaciones entre todas las partes del horizonte, cuando parte de esas correlaciones pasa al horizonte del cuidador, ¿se va con ellas parte del yo? Si mi esposa me recuerda quién fui, si mi hijo cuenta historias de mi juventud, si mi cuidador anticipa mi miedo antes de que yo lo sienta, ¿dónde está el límite exacto de mi horizonte? ¿Termina en mi piel, o se extiende hasta el horizonte de quien me cuida?
 
@@ -131,4 +131,4 @@ Ese es el límite último del modelo: no la pregunta de por qué hay conciencia,
 >
 > **Si solo te quedas con una idea:** La conciencia no es un interruptor que se apaga, sino una arquitectura que puede perder los ladrillos uno a uno y seguir sosteniendo el cielo con menos techo cada día.
 >
-> **Lecturas:** Hodges & Patterson (2007), «Semantic dementia and fluent primary progressive aphasia»; Beach et al. (2012), «Circle of Willis atherosclerosis»; Jacobsen et al. (2015), «Why musical memory can be preserved in advanced Alzheimer's disease»
+> **Lecturas:** Jacobsen et al. (2015), «Why musical memory can be preserved in advanced Alzheimer's disease»; Sacks, O. (2007), *Musicofilia*; Kitwood, T. (1997), *Dementia Reconsidered*.

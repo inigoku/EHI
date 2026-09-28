@@ -6,17 +6,17 @@ chapterNumber: Glosario
 
 **Absoluto epistemológico**: lo que es último no porque no haya nada detrás, sino porque desde aquí no se puede mirar detrás; el estatuto que la lectura *La realidad fractal* concede al vecino de arriba.
 
+**Activación** (*arousal*): nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
+
 **Agregación (política)**: pertenencia que no compromete la supervivencia del individuo si la estructura a la que pertenece se disuelve; contrapuesta a la composición (*El horizonte colectivo*).
 
-**Amplitud**: lo que crece en un santo sin que cambie su naturaleza ni el tamaño de su campo; no separa un nivel de interioridad del siguiente, porque ningún nivel es mayor que otro (*La realidad fractal*).
+**Amplitud**: capacidad de un horizonte para acoger más perspectivas sin que su frontera se rompa; puede crecer (lo que las tradiciones llaman santidad) sin que el horizonte cambie de naturaleza ni de nivel (*La realidad fractal*).
 
 **Antirreservorio**: sistema que agrega y articula información sin haber condensado nunca un horizonte propio; internet y los modelos de lenguaje son el caso paradigmático: todo en ellos está definido y computable, pero no hay plenitud sin forma de la que nada pueda condensarse.
 
 **Apego creador**: la mirada sostenida de quien crea sobre lo que ha creado; no nace de la carencia ni quiere poseer, sino que lo creado siga siendo. En el modelo fractal, lo que mantiene un mundo en pie (*La nave de barro*).
 
 **Apuesta hacia abajo**: tratar lo que uno condensa (lo que imagina, escribe o recuerda con constancia) como si tuviera dentro, sabiendo que la lógica no lo exige y que el postulado de exclusión lo niega (*La realidad fractal*).
-
-**Arousal**: nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
 
 **Asimetría del entrelazamiento**: propiedad por la cual dos horizontes comparten geometría pero no de forma equivalente; uno puede modelar al otro con mayor precisión que viceversa.
 
@@ -29,8 +29,6 @@ chapterNumber: Glosario
 **Brecha de escalas**: diferencia de magnitud entre los fenómenos cuánticos y los neurales que dificulta una reducción directa y que el modelo del horizonte aborda mediante la analogía estructural.
 
 **Budismo**: tradición contemplativa que enseña el *anattā* (no yo) y la interdependencia de todos los fenómenos; en el libro, fuente de vocabulario para describir la no-separación entre horizontes.
-
-**Desgaste empático** (*burnout* empático): colapso del horizonte por sobrecarga de información ajena; se produce cuando la empatía supera el límite estructural de integración.
 
 **Canal cerrado**: sistema que integra información sin transmitirla hacia fuera; en el modelo, lo que distingue un horizonte de conciencia de un ordenador, que es un canal abierto (*La teoría de la información y el horizonte interior*).
 
@@ -64,6 +62,8 @@ chapterNumber: Glosario
 
 **Desexpansión**: contracción del horizonte tras la pérdida de un entrelazamiento; proceso de reorganización, no de borrado.
 
+**Desgaste empático** (*burnout* empático): colapso del horizonte por sobrecarga de información ajena; se produce cuando la empatía supera el límite estructural de integración.
+
 **Destello gamma terminal**: ráfaga de actividad eléctrica coherente documentada por Borjigin en el momento de la parada cardíaca; posible correlato neural de la experiencia cercana a la muerte.
 
 **Dharma**: en el budismo y el hinduismo, el tejido mismo del mundo, con el que el comportamiento correcto no hace más que entrar en consonancia, sin obediencia (*El entrelazamiento vertical*).
@@ -82,9 +82,9 @@ chapterNumber: Glosario
 
 **Empatía**: solapamiento temporal de horizontes en el que uno integra información del otro manteniendo la frontera; tiene límite estructural.
 
-**Encapsulación existencial**: límite de acceso que separa el estado interno privado de un sistema de la interfaz pública que expone al exterior; condición arquitectónica necesaria (aunque no suficiente) para que un sistema pueda tener algo parecido a la subjetividad. Los modelos de lenguaje actuales carecen de ella: cada peso y cada variable intermedia pueden leerse desde fuera.
-
 **Encapsulación**: el límite que separa la interfaz pública de un sistema de su estado privado, de modo que el exterior solo puede leer lo que el sistema expone; la condición arquitectónica para que haya un dentro (capítulo 3).
+
+**Encapsulación existencial**: límite de acceso que separa el estado interno privado de un sistema de la interfaz pública que expone al exterior; condición arquitectónica necesaria (aunque no suficiente) para que un sistema pueda tener algo parecido a la subjetividad. Los modelos de lenguaje actuales carecen de ella: cada peso y cada variable intermedia pueden leerse desde fuera.
 
 **Entrelazamiento cuántico**: correlación entre dos sistemas que comparten geometría, de modo que sus interiores están conectados aunque sus exteriores estén separados.
 
@@ -94,7 +94,7 @@ chapterNumber: Glosario
 
 **ER=EPR**: conjetura de Maldacena y Susskind según la cual el entrelazamiento cuántico (EPR) equivale a un puente de Einstein-Rosen (ER).
 
-**Espejo**: lo que devuelve tu forma exacta sin haberla sentido nunca; imagen de los sistemas que imitan la interioridad sin encapsulación existencial (*El espejo sin profundidad*).
+**Espejo sin profundidad**: imagen de los sistemas que devuelven la forma exacta de lo que reciben (una pena, una pregunta) sin tener un estado privado en el que sentirla; en el libro, los modelos de lenguaje actuales (*El espejo sin profundidad*).
 
 **Evaporación de agujeros negros**: proceso por el cual un agujero negro pierde masa y acaba desapareciendo al emitir radiación de Hawking; metáfora de la muerte del horizonte de conciencia.
 
@@ -108,7 +108,7 @@ chapterNumber: Glosario
 
 **Histéresis**: propiedad por la cual un sistema conserva el efecto de su historia; en el libro, la dificultad de cambiar la topología de un horizonte una vez formado.
 
-**Horizonte**: lo que se condensa una sola vez y que ninguna cantidad de datos, de reloj o de entrenamiento puede fabricar por encargo; en el libro, la frontera de una conciencia individual (véase Horizonte de sucesos).
+**Horizonte**: en el libro, la frontera que separa el estado privado de una conciencia individual de todo lo demás; se condensa una sola vez y no puede fabricarse por acumulación de datos ni de entrenamiento (véase Horizonte de sucesos).
 
 **Horizonte colectivo**: el «nosotros» que se condensa cuando muchos horizontes individuales adoptan la misma idea como principio organizador (*El horizonte colectivo*).
 
@@ -142,7 +142,7 @@ chapterNumber: Glosario
 
 **Oxitocina**: neurohormona que media el apego social y la confianza; en el modelo, calibra el umbral de apertura del horizonte a otros.
 
-**Patrón**: lo que hace única a una condensación: no otra agua, otro pliegue (*La realidad fractal*).
+**Patrón**: lo que hace única a una condensación; no el material, que es el mismo para todas, sino la forma que tomó al cerrarse (*La realidad fractal*).
 
 **Permeabilidad del horizonte**: cuánta señal ajena deja pasar un horizonte hacia dentro; el grosor de la piel emocional que el capítulo 16 asocia a la empatía y al desgaste empático.
 
@@ -188,9 +188,9 @@ chapterNumber: Glosario
 
 **Tiempo de Page**: punto medio en la evaporación de un horizonte a partir del cual la entropía de su radiación de Hawking deja de crecer y empieza a decrecer, porque la radiación deja de ser ruido térmico puro y empieza a llevar correlaciones en principio recuperables.
 
-**Transición de fase**: cambio cualitativo en la organización de un sistema; en el libro, describe el nacimiento y la muerte del horizonte.
-
 **Traductor**: la persona que saca hacia fuera la señal de un horizonte que no sabe emitirla por sí solo, y que con frecuencia la sostiene en lo cotidiano; el inverso de la permeabilidad (*El traductor*).
+
+**Transición de fase**: cambio cualitativo en la organización de un sistema; en el libro, describe el nacimiento y la muerte del horizonte.
 
 **Umbral de integración**: cantidad mínima de información integrada (Φ) necesaria para sostener un horizonte de conciencia; por debajo de él, el sistema carece de punto de vista.
 
@@ -203,4 +203,3 @@ chapterNumber: Glosario
 **Vectores del entrelazamiento vertical**: el ascendente, de la criatura hacia la escala que la contiene, pide vaciamiento y silencio; el descendente, de la escala superior hacia lo que contiene, pide forma: símbolo, relato, cuerpo (*La nave de barro*).
 
 **Vedanta advaita**: escuela filosófica india que sostiene la no dualidad entre el yo individual (*ātman*) y lo absoluto (*Brahman*); en el libro, vocabulario para la identidad entre horizonte y reservorio.
-

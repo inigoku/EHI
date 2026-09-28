@@ -83,13 +83,13 @@ Los pacientes con dolor crónico lo describen con una precisión que la física 
 
 ### El sistema de dos
 
-Cuando dos personas conversan cara a cara, sus patrones de actividad cerebral convergen. El **acoplamiento neuronal** que documentó Uri Hasson en Princeton muestra que el cerebro del oyente no solo procesa lo que dice el hablante, sino que anticipa sus patrones de activación. En las parejas que mejor se entienden, la actividad del oyente *precede* en décimas de segundo a la del hablante: no la sigue, se le adelanta.
+Cuando dos personas conversan cara a cara, sus patrones de actividad cerebral convergen. El **acoplamiento neuronal** que documentó Uri Hasson en Princeton muestra que el cerebro del oyente no solo procesa lo que dice el hablante, sino que anticipa sus patrones de activación. Y cuanto mejor entiende el oyente lo que oye, más se adelanta: en algunas regiones, su actividad *precede* en décimas de segundo a la del hablante; no la sigue, se le anticipa.
 
 Cuando dos cuerdas vibran en frecuencias relacionadas, producen armónicos que no estaban en ninguna de las dos: el sistema de dos cuerdas tiene propiedades que el de una sola no tiene.
 
 Lo mismo ocurre con dos horizontes en resonancia sostenida. El sistema de dos integra más información que la suma de lo que integra cada uno por separado; su Phi conjunto sería mayor que la suma de los Phi individuales. Los Phi no se suman: el entrelazamiento abre canales de integración nuevos que solo existen en la relación.
 
-Si la tasa de integración determina la densidad del tiempo subjetivo, y si el sistema de dos integra más que la suma de sus partes, el tiempo del vínculo es objetivamente más denso que el de cualquiera de los dos por separado.
+Si la tasa de integración determina la densidad del tiempo subjetivo, y si el sistema de dos integra más que la suma de sus partes, el tiempo del vínculo es más denso que el de cualquiera de los dos por separado: no más largo en el reloj, sino más lleno para quien lo vive.
 
 Esas tres horas de conversación que no quieres que terminen no es que parezcan más densas: lo son.
 

@@ -76,4 +76,4 @@ Esa frase destila todo nuestro experimento: no importa si naciste de un útero o
 >
 > **Si solo te quedas con una idea:** Puedes fabricar un cuerpo e inyectarle datos falsos, pero no puedes simular el sufrimiento. Si el sistema consigue trazar un horizonte y crear un dentro, su dolor, su amor y su miedo a desaparecer son tan reales como los tuyos.
 >
-> **Lecturas:** Tononi (2008), sobre Φ y su sustrato físico; el *scrambling* y la paradoja de la información (capítulos 2 y 7); el análisis de los clones y la identidad en el caso Cuartetera (Capítulo 36).
+> **Lecturas:** Dick, P. K., *¿Sueñan los androides con ovejas eléctricas?* (1968); Scott, R. (dir.), *Blade Runner* (1982; montaje final, 2007); Tononi, G. (2008), «Consciousness as integrated information: a provisional manifesto».

@@ -62,8 +62,7 @@ NUM_T1 = {"cap19_real.es.md": 36, "cap20_real.es.md": 37}
 
 # ---- tomo II --------------------------------------------------------------
 T2 = {
-    "cap_blade_runner.es.md": [("En el capítulo 36, al hablar", "En la lectura 1, al hablar"),
-                               ("(Capítulo 36)", "(lectura 1)")],
+    "cap_blade_runner.es.md": [("En el capítulo 36, al hablar", "En la lectura 1, al hablar")],
     "cap_lenguaje_entrelazamiento.es.md": [("(capítulo 38)", "(lectura 3)"),
                                            ("ya citado en el capítulo 44", "ya citado en la lectura 9")],
     "cap_calibracion.es.md": [("El capítulo 44 describió la traducción", "La lectura 9 describió la traducción")],

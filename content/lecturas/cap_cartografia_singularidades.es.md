@@ -10,7 +10,7 @@ illustrationDescription: Tres horizontes de sucesos de naturaleza distinta —un
 
 > *Para Tarel, que sabe que cada mirada es una caída.*
 
-## Prólogo
+## Tres verbos
 
 Olvidemos la cronología. Olvidemos los museos, las guerras, los catálogos razonados. El siglo XX español no se libró en las trincheras del Ebro ni bajo las bombas de Guernica: se libró en el espacio curvo de la conciencia, allí donde la gravedad del yo dobla la luz del mundo hasta hacerla irreconocible.
 

@@ -28,9 +28,9 @@ En el capítulo 15 dijimos que el vínculo entre madre e hijo no es inferencia, 
 
 Cuando dos horizontes pasan cuarenta años entrelazados por el amor, además de guardar muchos recuerdos del otro, cada uno lleva dentro la geometría que esa presencia ha excavado, como el agua excava su cauce en la piedra con el tiempo. Esa geometría no desaparece cuando el agua se va.
 
-La viuda que no quiere que su marido se disuelva formula esta intuición con una precisión que a la teoría le cuesta alcanzar: *es la forma en que estoy hecha por dentro. Cada movimiento que hago, lo hago contra esa forma o con ella.* No habla en sentido figurado. Describe lo que la neurociencia del duelo empieza a documentar: el cerebro que ha perdido a alguien con quien estaba profundamente acoplado no procesa el mundo como antes. Las redes neuronales que se habían organizado en torno al otro siguen activándose ante todo lo que evoca su presencia, su voz, sus gestos. El horizonte sigue prediciéndolo, sigue haciéndole sitio, sigue reservándole la mitad del tiempo y del espacio interior durante meses o años después de que haya dejado de existir.
+Una viuda que no quiere que su marido se disuelva, protagonista de uno de los cuentos que acompañan a este libro, formula esta intuición con una precisión que a la teoría le cuesta alcanzar: *es la forma en que estoy hecha por dentro. Cada movimiento que hago, lo hago contra esa forma o con ella.* No habla en sentido figurado. Describe lo que la neurociencia del duelo empieza a documentar: el cerebro que ha perdido a alguien con quien estaba profundamente acoplado no procesa el mundo como antes. Las redes neuronales que se habían organizado en torno al otro siguen activándose ante todo lo que evoca su presencia, su voz, sus gestos. El horizonte sigue prediciéndolo, sigue haciéndole sitio, sigue reservándole la mitad del tiempo y del espacio interior durante meses o años después de que haya dejado de existir.
 
-Es lo que, a lo largo del experimento, hemos llamado **asimetría tras la disolución**. El otro ha vuelto al reservorio, y la parte del entrelazamiento que estaba en su lado se ha redistribuido en el campo, en correlaciones que ningún instrumento puede ya leer como relato. Pero la parte que estaba en el lado del superviviente sigue ahí, intacta, sin el complemento que la cerraba: un cauce sin agua, una mitad sin la otra, una arquitectura con un hueco.
+Podemos llamarlo **asimetría tras la disolución**. El otro ha vuelto al reservorio, y la parte del entrelazamiento que estaba en su lado se ha redistribuido en el campo, en correlaciones que ningún instrumento puede ya leer como relato. Pero la parte que estaba en el lado del superviviente sigue ahí, intacta, sin el complemento que la cerraba: un cauce sin agua, una mitad sin la otra, una arquitectura con un hueco.
 
 ### Los ritos del duelo
 
@@ -78,7 +78,7 @@ El cuerpo en duelo tiene un sistema de regulación que ha quedado alterado por l
 
 Lo que la literatura clínica ha empezado a llamar, con cierta cautela, *continuing bonds* (vínculos continuos) ofrece una formulación más precisa. La pregunta no es si el otro permanece en la arquitectura, porque permanecerá, ya permanece y no hay forma de impedirlo, sino cómo se reconfigura la relación con esa presencia que ya no responde.
 
-La viuda que no quiere que su marido se disuelva lo había intuido sin formularlo. No quiere disolverlo ni olvidarlo; quiere llevarlo dentro sin que su peso le impida moverse. Esa fórmula, *llevarlo y seguir*, es la que define un duelo viable. Lo que ocurre es una reorganización: la arquitectura no recupera la simetría que tenía cuando estaban los dos, pero aprende a sostener la asimetría sin derrumbarse.
+La viuda del cuento lo había intuido sin formularlo. No quiere disolverlo ni olvidarlo; quiere llevarlo dentro sin que su peso le impida moverse. Esa fórmula, *llevarlo y seguir*, es la que define un duelo viable. Lo que ocurre es una reorganización: la arquitectura no recupera la simetría que tenía cuando estaban los dos, pero aprende a sostener la asimetría sin derrumbarse.
 
 Se trata de reconocer que el muerto está, sin emitir, en la geometría del horizonte vivo, y de aceptar que esa presencia geométrica es la única posible ya y que, en cierto modo, basta.
 
@@ -110,4 +110,4 @@ No es un consuelo, pero puede ser una compañía.
 >
 > **Si solo te quedas con una idea:** El duelo no es olvidar, sino aprender a caminar con una mochila que no puedes quitarte. Y a veces lo más sensato es, sencillamente, seguir caminando.
 >
-> **Lecturas:** O'Connor (2019), «Grief»; DSM-5-TR (trastorno de duelo prolongado); Klass, Silverman & Nickman (1996), «Continuing Bonds»; Stroebe & Schut (1999), «The Dual Process Model of Coping with Bereavement».
+> **Lecturas:** O'Connor (2019), «Grief: a brief history of research on how body, mind, and brain adapt»; O'Connor (2022), *The Grieving Brain*; DSM-5-TR (trastorno de duelo prolongado); Klass, Silverman & Nickman (1996), «Continuing Bonds»; Stroebe & Schut (1999), «The Dual Process Model of Coping with Bereavement».

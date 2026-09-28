@@ -8,7 +8,7 @@ illustrationTitle: Cinco maneras de dudar en voz alta
 illustrationDescription: Cinco figuras en fila ante un mismo silencio: un inquisidor con una vela, un misionero pisando una imagen, un barquero junto a un río, un caballero medieval ante un tablero de ajedrez y un jesuita con las manos vendadas. Ninguno recibe respuesta; todos siguen.
 ---
 
-Cinco obras ajenas sometidas a la misma pregunta que el capítulo del que nacen: ¿hacia dónde apunta el entrelazamiento vertical cuando la respuesta no llega, o llega de una forma que nadie esperaba?
+Cinco obras ajenas sometidas a la misma pregunta que el capítulo 29, «El entrelazamiento vertical»: ¿hacia dónde apunta el entrelazamiento vertical cuando la respuesta no llega, o llega de una forma que nadie esperaba?
 
 ### «El Gran Inquisidor»: la libertad como carga insoportable
 
@@ -31,3 +31,17 @@ Antonius Block, el caballero de *El séptimo sello*, de Ingmar Bergman, juega un
 En *El gorrión*, de Mary Doria Russell, un sacerdote jesuita forma parte de la primera misión de contacto con una civilización extraterrestre, convencido de que la providencia lo ha guiado hasta allí. La novela no castiga su fe por ingenua, sino por no dejar espacio a la posibilidad de que el entrelazamiento vertical, tan real y tan sentido, apuntara a algo (o a nadie) completamente distinto de lo que él había proyectado. Lo que le ocurre en el planeta Rakhat es, para cualquier tradición, una atrocidad sin sentido teológico posible. Y, sin embargo, el libro no concluye que rezar fuera un error, sino algo más difícil de sostener: que la señal puede ser real y la interpretación, catastróficamente equivocada, y que distinguir una de otra desde dentro de la fe puede ser imposible hasta que ya es demasiado tarde.
 
 Cinco dudas y un mismo gesto. Ninguno de estos cinco personajes obtiene la confirmación que busca, y todos, salvo quizá Siddhartha, siguen actuando como si la búsqueda importara de todos modos. Puede que esa persistencia, sostener la nota sin saber si alguien la escucha, sea, más que ninguna doctrina concreta, lo único que tienen de verdad en común las cinco tradiciones descritas en este libro.
+
+---
+
+> **Nota al Capítulo 49**
+>
+> **Lo que sí sabemos:** Las cinco obras son ficción o cine, no documentos: se leen aquí como experimentos de pensamiento sobre la duda religiosa, no como pruebas. El marco que ilustran, el entrelazamiento vertical, está desarrollado en el capítulo 29.
+>
+> **Lo que no sabemos:** Si la persistencia sin confirmación que comparten estos personajes describe algo común a toda experiencia religiosa o solo a la que ha llegado a escribirse.
+>
+> **Preguntas que quedan:** ¿Sostener la nota sin respuesta es una forma de fe, o puede hacerlo igual quien no cree?
+>
+> **Si solo te quedas con una idea:** Ninguno de los cinco obtiene la confirmación que busca, y casi todos siguen actuando como si la búsqueda importara.
+>
+> **Lecturas:** Dostoievski, F., *Los hermanos Karamázov* (1880); Endō, S., *Silencio* (1966); Hesse, H., *Siddhartha* (1922); Bergman, I. (dir.), *El séptimo sello* (1957); Doria Russell, M., *El gorrión* (1996).
