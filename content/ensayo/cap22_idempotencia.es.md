@@ -43,7 +43,7 @@ Vayamos ahora al registro más desnudo, la topología, donde la idea se despoja 
 
 La topología trabaja con conjuntos de puntos dotados de una noción de cercanía. Cuando un conjunto ya contiene todos sus puntos de acumulación (los puntos a los que se puede llegar tan cerca como se quiera desde dentro), decimos que está *cerrado*.
 
-> **En física esto se llama:** clausura topológica e idempotencia: cerrar un conjunto una vez lo completa; cerrarlo una segunda vez no añade nada.
+> **En matemáticas esto se llama:** clausura topológica e idempotencia: cerrar un conjunto una vez lo completa; cerrarlo una segunda vez no añade nada.
 > **En la vida diaria es como:** una puerta que ya encajaba bien en su marco. Volver a cerrarla no la deja «más cerrada»: o está cerrada o no lo está.
 
 El objeto de software del apartado III y esta clausura topológica no comparten solo la afición por esconder cosas: comparten, sin que lo hayamos buscado, la misma palabra. En programación funcional, un *closure* (una clausura) es una función empaquetada junto con las variables de su entorno en el momento exacto de crearse: se cierra sobre ese entorno, y da igual cuántas veces se la invoque después, no capturará nada nuevo del contexto original, que puede incluso haber dejado de existir. No es la misma operación matemática que la clausura de un conjunto (una cierra funciones sobre su entorno léxico; la otra, conjuntos sobre sus puntos de acumulación), pero el parecido no es una casualidad de diccionario: las dos describen, con distinto vocabulario, algo que empaqueta al nacer todo lo que necesitará para no depender nunca más de su origen.

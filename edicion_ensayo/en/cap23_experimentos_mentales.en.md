@@ -1,0 +1,75 @@
+---
+title: FOUR EXPERIMENTS FOR A HORIZON
+section: "PART THREE: THE LIMITS OF THE HORIZON"
+chapterNumber: 24
+linkedChapterId: cap22_idempotencia
+illustrationId: il23_1
+illustrationTitle: Four experiments for a horizon
+illustrationDescription: Four imaginary measuring instruments—a seismograph, a balance, a spectrometer, a compass—laid out on a table in front of a hand-drawn black hole horizon, as if someone were trying to measure it with tools from another century.
+---
+
+## I. Why this chapter is needed
+
+The previous chapter built four bridges with almost notarial care: at each one it marked where established physics ends and hypothesis begins. That caution has a price, and it must be paid here. An attentive reader can accept each bridge separately and ask, at the end, something very simple: all right, the nested shadow and the disjoint shadow are two different images, but what would I see in the world that would change depending on which of them were true? If the answer is "nothing, in principle, would allow them to be told apart," the whole apparatus, however elegant, is decorative: a showy way of saying what we already knew, not a theory that takes a risk.
+
+This chapter does not settle that question once and for all (no theory of consciousness does yet), but it does the minimum work any proposal with scientific pretensions must do: to propose, for each bridge, a thought experiment specifying which observation would confirm it and which would refute it. They are *thought* experiments in the oldest sense of the expression, which no one could carry out tomorrow: devices for testing an idea against its own consequences before technology allows it to be done for real.
+
+The four experiments do not correspond one-to-one with the four bridges, and it is worth saying explicitly which wager each one answers to: the topological twin tests the disjoint shadow, which rests on the third bridge, that of entanglement; the measured evaporation, evaporation toward the reservoir (the second and fourth bridges); the distinguishable flood, the reading of psychosis as a failure of the filter toward the reservoir; and the persona without a black hole, the "no hair" of section II. They are not of the same type, and that should be said too: the first is fundamentally computational (it requires applying an existing method to data we are only beginning to be able to collect); the second and third are observational, of the kind neuroimaging could in principle address with finer instruments than today's; and the fourth is the most philosophical, closer to a logical existence proof than to a laboratory protocol.
+
+## II. First experiment: the topological twin
+
+**The question it tests:** whether the shadow is a horizon nested within the ego or a neighboring disjoint complex, the problem Chapter 23 resolved by wager and not by deduction.
+
+**The experiment.** Integrated information theory already has an operational method, though costly to compute, for finding the maximum Phi of a system: all possible partitions of the system into subsets are tried, how much causal information is lost by treating the parts of each partition as independent is measured, and the one that loses least (the "minimum cut") is identified as the real boundary of the integrated system. Let us apply that method, at least on paper, to a person during a psychotherapeutic process of integrating repressed material: a shadow that begins to show itself more often in dreams, slips and symptoms.
+
+If the shadow were genuinely nested within the ego, the method should find at every moment a single maximal complex that included both: any partition that tried to separate "ego" and "shadow" would lose more information than it gained, because they would be fused into a single causal structure. If the shadow is, as Chapter 23 proposes, a disjoint complex, the method should find two local maxima of integration (two complexes, each with its own Phi and maximal *within its own partition*) joined by a measurable but non-dominant channel of information.
+
+It should be said plainly that this experiment uses IIT as an operational tool for locating the boundary of integration, not as a final verdict on the nature of consciousness. The theory itself carries serious debates (the practical impossibility of calculating Phi exactly in large systems and an unresolved internal discussion about its exclusion postulate), and any result obtained with this method should be interpreted with those in mind, not as if the method were neutral.
+
+**What would distinguish one result from the other.** In the nested case, any therapeutic intervention that increases communication between the conscious and the repressed should, according to the model, *increase* the Phi of a single, ever-larger complex: one rising curve. In the disjoint case, the same intervention should translate into two Phi curves that remain separate local maxima while, in parallel, the mutual information *between* them increases: two peaks that draw closer without merging. The difference is not subtle: one model predicts a single growing crest; the other, two crests that communicate better and better without ceasing to be two. With fine enough neuroimaging (we don't have it today, but the criterion can already be written down), it would in principle be observable.
+
+## III. Second experiment: the measured evaporation
+
+**The question it tests:** whether the dissolution of the ego evaporates toward the reservoir, a common background with which it remains correlated, or toward a simple void, leaving no structured trace.
+
+**The experiment.** Let us compare two processes of dissolution of the sense of self: one brought about abruptly and traumatically (acute dissociation) and another cultivated gradually and sustainedly (decades of advanced contemplative practice). The model of "evaporation toward the void" predicts that both should converge, in their final phase, on the same state: absence of structure, noise, a flat drop in any measure of integration. The model of "evaporation toward the reservoir" predicts something different and more specific: in the gradual process, the fall in the Phi of the individual complex should be accompanied by a measurable *increase* in mutual information between that person and their environment (more physiological synchrony with the people present, more correlation between their neural activity and environmental stimuli they previously processed as entirely external). Not disappearance, but redistribution: what the individual loses as their own Phi should reappear, at least in part, as information shared with the background.
+
+**What would distinguish one result from the other.** If both types of dissolution, the traumatic and the contemplative, show the same flat drop with no compensating gain anywhere else in the system, the reservoir model loses its distinctive prediction and remains, to be honest, poetry. If, instead, contemplative dissolution shows that transfer (less integration of one's own, more correlation with the environment) and traumatic dissolution does not, Chapter 23 would have something no model of "simply the void" would predict with the same precision: two ways of losing closure that differ not in how they are lived, but in where the lost information goes.
+
+For the comparison to be clean, the two groups would have to be matched for age, initial level of integration and total duration of the process, so that the only free variable was the type of dissolution. And the operational definition of the reservoir as the complement of the proper closures also indicates where to look, not only what to look for: if R is, by construction, everything in X that is not yet closed, the redistribution should appear precisely in the subject's immediate environment (physiological synchrony with the people present during the process), not in any corner of the system chosen at random. The decisive variable is not the speed at which one's own Phi falls, which may be similar in both cases, but the presence or absence of that specific gain in the immediate environment.
+
+## IV. Third experiment: the distinguishable flood
+
+**The question it tests:** whether psychosis, as we described it at the end of the previous chapter, is a specific failure of filtering toward the reservoir and not simply a general deterioration of cognitive function.
+
+**The experiment.** If the model is correct, psychosis should have a signature different from that of other states of severe cognitive deterioration with which it is sometimes superficially confused, such as advanced dementia or severe intoxication. The specific prediction: in psychosis, the mutual information between the subject and their environment (or between regions of their own neural activity that normally remain separate) should *increase* anomalously just before or during hallucinatory episodes, even as the Phi of the central complex, the one sustaining a coherent narrative identity, *falls*. That is: less integration of one's own and more indiscriminate entanglement with everything else, at the same time. In a dementia caused by general deterioration, by contrast, the model predicts that both quantities should fall together: less Phi of one's own and also less correlation with the environment, because there is no filtering failure, but a general loss of processing capacity.
+
+**What would distinguish one result from the other.** Of the four, this is the riskiest prediction, because it contradicts the intuition that "more symptoms" should always mean "less of everything." If acute psychotic episodes were observed to show that specific pattern (an increase in indiscriminate correlation with the environment simultaneous with a fall in central Phi, rather than a general fall of both), it would be a real and surprising confirmation. If, on the contrary, psychosis turned out to be indistinguishable in this profile from any other severe cognitive deterioration, the model of "flooding from the reservoir" would lose much of its explanatory force, and we would have to admit that, at least within this framework, psychosis is nothing more than noise.
+
+For the same reason, it is also the experiment that would best distinguish this model from the simplest of its rivals: no model that treats psychosis as a mere general deterioration of the integrating function would predict that specific signature (Phi falls while correlation with the environment rises), because a general deterioration simply predicts that everything falls at once. It is the only one of the four tests in which an obvious rival theory makes, on paper, a different and contrary prediction, and not merely a vaguer one.
+
+## V. Fourth experiment: the persona without a black hole
+
+**The question it tests:** whether a person's public interface, what in earlier chapters we called the Jungian persona, systematically loses information about their internal state, just as a black hole's horizon loses the entire biography of what fell in and keeps only three numbers.
+
+**The experiment.** If the analogy with the no-hair theorem is correct, it should be possible to show, and not just intuit, that two genuinely different internal states (two different Phi configurations, two different histories of integration) can produce exactly the same observable interface: the same behavior, the same speech, the same answers to a standard questionnaire. With the notation we already established for the total space X: for any finite set of observables O defined on the public interface (the persona), there should exist two states \(S_1, S_2 \in X\) with \(\Phi(S_1) \neq \Phi(S_2)\), but \(O(S_1) = O(S_2)\). In other words: the projection of X onto the set of public observables is not injective. But we should not fool ourselves: with a finite number of observables and an enormous state space, that non-injectivity is guaranteed in advance and risks nothing. The version that does take a risk is stronger: that Φ is a direction in state space that no set of public observables, however large it grows, ever resolves; that is, that adding behavioral measures does not increase the information we have about Φ. That can be refuted: it would be enough to find public observables whose combination predicted Φ better and better.
+
+**What would distinguish one result from the other.** In principle, it would be tested by showing pairs of subjects with measurably different profiles of neural integration (different patterns of Phi, different architectures of complexes) who nevertheless project onto the same profile O in any available battery of behavioral or self-report measures. If such pairs \(S_1, S_2\) exist and can be documented, the persona behaves, as Chapter 23 predicts, like a horizon with its own "no hair." If, on the contrary, every measurable internal difference in Phi sooner or later shows up as some detectable difference in O, the analogy is weaker than the chapter suggests, and the persona would be less a surface that forgets than a surface that simply takes its time to show everything.
+
+## VI.
+
+None of these four experiments can be performed today with the precision they would require. But a thought experiment is valuable not for what it measures now, but for giving a theory something to lose. And these four do.
+
+---
+
+> **Note to Chapter 24**
+>
+> **What we do know:** That integrated information theory already has an operational method, the search for the minimum cut, capable in principle of generating the Phi curves the first experiment needs; and that mutual information between systems is a quantity measurable with current neuroscience, though not at the resolution these experiments would require in practice.
+>
+> **What we don't know:** Whether any of the four experiments will be technically feasible with the instruments of the coming decades or will remain a criterion of principle impossible to apply; and whether a negative result in any of them should be taken as a refutation of the specific bridge it tests or only as a sign that the translation between the physical and the psychic formalism needs more work before being put to a real test.
+>
+> **Open questions:** Is there already in the clinical or neuroimaging literature some data, even if not collected with this idea in mind, that could be reread in the light of one of these four criteria? And which of the four, if only one could really be attempted, offers the best ratio between what it would cost and what would be learned if it failed?
+>
+> **If you take away only one idea:** A theory that cannot lose anything cannot teach anything either; these four experiments are the price of this book's claim to teach something.
+>
+> **Further reading:** Oizumi, M., Albantakis, L. and Tononi, G. (2014), "From the phenomenology to the mechanisms of consciousness: Integrated Information Theory 3.0"; Tononi, G., Boly, M., Massimini, M. and Koch, C. (2016), "Integrated information theory: from consciousness to its physical substrate"; Cover, T. M. and Thomas, J. A. (2006), *Elements of Information Theory*.
