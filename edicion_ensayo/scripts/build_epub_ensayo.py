@@ -397,6 +397,10 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
             if epub_path:
                 head_html += f'<figure><img src="../{epub_path}" alt="{esc(ctitle)}"/></figure>'
 
+        if illustration_ref and not sin_ilustraciones:
+            # La misma imagen que la lámina de apertura no se repite en el texto.
+            from build_interior_premium import drop_inline_duplicates
+            body = drop_inline_duplicates(body, illustration_ref, illustrations, base_dir)
         body_html = markdown_to_xhtml(body, illustrations, images)
         add_xhtml(chapter["id"], f"{chapter['id']}.xhtml", page(ctitle, head_html + body_html),
                   nav_title=ctitle)

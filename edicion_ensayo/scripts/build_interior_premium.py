@@ -93,6 +93,10 @@ _CJK_FALLBACK_AVAILABLE = False
 def register_fonts() -> None:
     for _style, (name, fname) in FAMILY.items():
         pdfmetrics.registerFont(TTFont(name, str(FONTS / fname)))
+    # Sin la familia, las marcas <b> e <i> del texto (cursivas de títulos,
+    # negritas de términos) no cambian de fuente y todo sale en redonda.
+    pdfmetrics.registerFontFamily("Eco", normal="Eco", bold="Eco-Sb",
+                                  italic="Eco-It", boldItalic="Eco-SbIt")
     # Sin esto, reportlab referencia Helvetica en cada página aunque no se
     # use, y KDP marca esa fuente como no incrustada.
     rl_config.canvas_basefontname = FAMILY["R"][1]
@@ -369,7 +373,7 @@ def build_styles(body_leading: float = 16.4) -> dict:
     styles = {
         "Body": ParagraphStyle(
             "Body", fontName=R, fontSize=11.0, leading=body_leading, alignment=4,
-            spaceAfter=8, textColor=INK,
+            spaceAfter=8, textColor=INK, allowWidows=0,
         ),
         "Quote": ParagraphStyle(
             "Quote", fontName=IT, fontSize=10.4, leading=15.0, leftIndent=20,
@@ -377,11 +381,11 @@ def build_styles(body_leading: float = 16.4) -> dict:
         ),
         "H2": ParagraphStyle(
             "H2", fontName=BD, fontSize=13.5, leading=17, spaceBefore=14,
-            spaceAfter=7, textColor=INK,
+            spaceAfter=7, textColor=INK, keepWithNext=1,
         ),
         "H3": ParagraphStyle(
             "H3", fontName=BD, fontSize=11.6, leading=15, spaceBefore=10,
-            spaceAfter=5, textColor=INK,
+            spaceAfter=5, textColor=INK, keepWithNext=1,
         ),
         "Caption": ParagraphStyle(
             "Caption", fontName=IT, fontSize=8.6, leading=11.4, alignment=1,
@@ -568,6 +572,51 @@ def toc_page(story: list) -> None:
     story.append(toc)
 
 
+def part_title_page(story: list, section: str, styles: dict) -> None:
+    """Portadilla de parte: una impar sin folio ni cabecera, con el nombre de
+    la parte («PRIMERA PARTE») y su título, antes del primer capítulo."""
+    kicker, _, name = section.partition(":")
+    story.append(ForceParity(1, TEXT_H))
+    story.append(SetFolio(False))
+    story.append(Spacer(1, TEXT_H * 0.36))
+    if name.strip():
+        story.append(SmallCapsFlowable(kicker.strip(), IT, 10, AMBER, spacing=2.4,
+                                        align="center", space_after=12))
+        title = name.strip()
+    else:
+        title = kicker.strip()
+    story.append(Paragraph(gbp.escape_xml(title),
+                           ParagraphStyle("PartTitle", parent=styles["ChapterTitle"],
+                                          alignment=1, fontSize=19, leading=24)))
+    story.append(WaveDivider(46, GOLD, space_before=12))
+    story.append(ForceParity(0, TEXT_H))
+    story.append(SetFolio(True))
+
+
+_INLINE_ILLUS_BLOCK_RE = re.compile(
+    r'^##\s*\[(?:ILUSTRACI[ÓO]N|ILLUSTRATION)\s*([\w.]*)?:?\s*"[^"]+"\]\s*\n'
+    r'(?:[ \t]*\n)*(?:[ \t]*\*[^\n]*\*[ \t]*\n)?', re.MULTILINE)
+
+
+def _image_key(ref: str, illustrations: dict, base_dir: Path):
+    src = illustrations.get(ref, ref)
+    if gbp.is_url(src):
+        return src
+    path = gbp.resolve_path(base_dir, src)
+    return path.read_bytes() if path.exists() else str(path)
+
+
+def drop_inline_duplicates(body: str, plate_ref: str, illustrations: dict, base_dir: Path) -> str:
+    plate_key = _image_key(plate_ref, illustrations, base_dir)
+
+    def repl(m):
+        iid = m.group(1)
+        if iid and iid in illustrations and _image_key(iid, illustrations, base_dir) == plate_key:
+            return ""
+        return m.group(0)
+    return _INLINE_ILLUS_BLOCK_RE.sub(repl, body)
+
+
 def colophon_page(story: list) -> None:
     story.append(SetFolio(False))
     story.append(ForceParity(0, TEXT_H))
@@ -713,6 +762,16 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
     toc_page(story)
     story.append(SetFolio(True))
 
+    # Cuántos capítulos tiene cada parte: las de un solo capítulo (el
+    # interludio) no llevan portadilla propia.
+    section_sizes: dict = {}
+    for ch in toc["chapters"]:
+        fm = gbp.parse_frontmatter(gbp.resolve_path(base_dir, ch["content_file"]).read_text(encoding="utf-8"))[0]
+        sec = ch["section"] if "section" in ch else fm.get("section")
+        if sec:
+            section_sizes[sec] = section_sizes.get(sec, 0) + 1
+    last_part = None
+
     for chapter in toc["chapters"]:
         content_file = gbp.resolve_path(base_dir, chapter["content_file"])
         raw_text = content_file.read_text(encoding="utf-8")
@@ -730,6 +789,16 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         section = chapter["section"] if "section" in chapter else frontmatter.get("section")
         chapter_number = str(chapter.get("chapter_number", frontmatter.get("chapterNumber") or "")) or None
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")
+
+        if section and section != last_part:
+            last_part = section
+            if section_sizes.get(section, 0) > 1:
+                part_title_page(story, section, styles)
+
+        # Si una ilustración en línea es la misma imagen que la lámina del
+        # capítulo, se omite: saldría dos veces seguidas.
+        if illustration_ref and not sin_ilustraciones:
+            body = drop_inline_duplicates(body, illustration_ref, illustrations, base_dir)
 
         illustration_bytes = None
         if illustration_ref and not sin_ilustraciones:

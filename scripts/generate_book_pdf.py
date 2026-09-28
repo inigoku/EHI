@@ -386,11 +386,11 @@ def build_styles(base_font: str):
         ),
         "H2": ParagraphStyle(
             "H2", parent=styles["Heading2"], fontName=font("-Bold"),
-            fontSize=14, leading=18, spaceBefore=14, spaceAfter=8,
+            fontSize=14, leading=18, spaceBefore=14, spaceAfter=8, keepWithNext=1,
         ),
         "H3": ParagraphStyle(
             "H3", parent=styles["Heading3"], fontName=font("-Bold"),
-            fontSize=12.5, leading=16, spaceBefore=10, spaceAfter=6,
+            fontSize=12.5, leading=16, spaceBefore=10, spaceAfter=6, keepWithNext=1,
         ),
         "Body": ParagraphStyle(
             "Body", parent=styles["Normal"], fontName=font(),
@@ -465,7 +465,8 @@ def build_table(table_lines: list, styles, content_width: float) -> Optional[Tab
     if not data:
         return None
     col_width = content_width / num_cols
-    table = Table(data, colWidths=[col_width] * num_cols, hAlign="LEFT")
+    table = Table(data, colWidths=[col_width] * num_cols, hAlign="LEFT",
+                  repeatRows=1 if has_header else 0)
     style_commands = [
         ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#cccccc")),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
@@ -574,6 +575,11 @@ def markdown_to_flowables(body: str, styles, illustrations: dict, base_dir: Path
             i = j
             continue
 
+        if stripped.startswith("#### "):
+            flowables.append(Paragraph(inline_markdown_to_markup(stripped[5:]), styles["H3"]))
+            i += 1
+            continue
+
         if stripped.startswith("### "):
             flowables.append(Paragraph(inline_markdown_to_markup(stripped[4:]), styles["H3"]))
             i += 1
@@ -585,14 +591,22 @@ def markdown_to_flowables(body: str, styles, illustrations: dict, base_dir: Path
             continue
 
         if stripped.startswith(">"):
-            quote_lines = []
+            # A bare ">" line separates paragraphs inside the quote (the
+            # chapter notes: "Lo que sí sabemos", "Lo que no sabemos"...);
+            # consecutive ">" lines without one are a single paragraph with
+            # line breaks.
+            groups: list = [[]]
             while i < len(lines) and lines[i].strip().startswith(">"):
                 content = lines[i].strip()[1:].strip()
                 if content:
-                    quote_lines.append(content)
+                    groups[-1].append(content)
+                elif groups[-1]:
+                    groups.append([])
                 i += 1
-            joined = "<br/>".join(inline_markdown_to_markup(q) for q in quote_lines)
-            if joined:
+            for n, group in enumerate(g for g in groups if g):
+                joined = "<br/>".join(inline_markdown_to_markup(q) for q in group)
+                if n:
+                    flowables.append(Spacer(1, 3))
                 flowables.append(Paragraph(joined, styles["Quote"]))
             continue
 
@@ -605,7 +619,17 @@ def markdown_to_flowables(body: str, styles, illustrations: dict, base_dir: Path
         flowables.append(Paragraph(inline_markdown_to_markup(stripped), styles["Body"]))
         i += 1
 
-    return flowables
+    # A heading must not be stranded at the foot of a page: drop the blank-
+    # line spacers that follow it, so keepWithNext (set on the heading styles)
+    # binds it to the first paragraph of its section rather than to a spacer.
+    heading_styles = {styles["H2"].name, styles["H3"].name}
+    cleaned: list = []
+    for f in flowables:
+        if isinstance(f, Spacer) and cleaned and isinstance(cleaned[-1], Paragraph) \
+                and cleaned[-1].style.name in heading_styles:
+            continue
+        cleaned.append(f)
+    return cleaned
 
 
 class BookDocTemplate(BaseDocTemplate):
