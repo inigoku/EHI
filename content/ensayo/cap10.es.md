@@ -24,7 +24,7 @@ La voluntad es un recurso fisiológico.
 
 ### El secuestro del umbral
 
-Las sustancias adictivas inundan el sistema dopaminérgico con una señal de recompensa que puede multiplicar por diez la de cualquier recompensa natural. El horizonte no recibe un placer mayor, sino una predicción de placer tan abrumadora que recalibra todo el sistema.
+Las sustancias adictivas inundan el sistema dopaminérgico con una señal de recompensa que puede llegar a multiplicar por diez la de cualquier recompensa natural. El horizonte no recibe un placer mayor, sino una predicción de placer tan abrumadora que recalibra todo el sistema.
 
 El mecanismo es este: el sistema dopaminérgico, diseñado para señalar cuándo algo merece repetirse, recibe una señal de una magnitud que ninguna recompensa natural puede generar. Para compensar, reduce el número de receptores disponibles, igual que uno baja las persianas cuando la luz deslumbra. Cuando la señal artificial desaparece, el sistema se queda con menos receptores que antes, y lo que antes generaba señal (el vínculo, la novedad, el logro, el placer cotidiano) deja de generarla con la misma intensidad. El umbral ha subido, y ahora hace falta más para alcanzarlo.
 
@@ -38,7 +38,7 @@ Además de desplazar el umbral, la adicción deforma la jerarquía de relevancia
 
 Vista así, la recuperación es una lenta recalibración del umbral, que tarda meses y a veces años y que ocurre sobre todo a través del vínculo: otros horizontes que sostienen la señal de recompensa natural el tiempo suficiente para que los receptores se regeneren y el umbral baje. La oxitocina como antídoto, no por romanticismo, sino porque es la molécula que activa el sistema de recompensa por la vía del vínculo, una vía que no desgasta los receptores de los que depende.
 
-> **En física esto se llama:** regulación a la baja (*down-regulation*) de los receptores de recompensa.  
+> **En neurociencia esto se llama:** regulación a la baja (*down-regulation*) de los receptores de recompensa.  
 > **En la vida diaria es como:** bajar las persianas porque entra una luz cegadora: cuando la luz se va, te quedas a oscuras.
 
 ### La dopamina y la narrativa

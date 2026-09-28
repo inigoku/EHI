@@ -32,11 +32,11 @@ Lo que Bowlby llamó «modelo operativo interno» es, en el lenguaje del experim
 
 James Coan y Lane Beckes desarrollaron la teoría de la línea de base social: el cerebro humano no está hecho para funcionar en solitario, y su estado de referencia presupone el acceso a los demás. Cuando hay alguien cercano presente, el cerebro dedica menos recursos a detectar amenazas y mantiene una representación más eficiente del mundo. La presencia del otro forma parte del funcionamiento normal.
 
-> **En física esto se llama:** línea de base social.
+> **En neurociencia esto se llama:** línea de base social.
 
 El mecanismo es el **solapamiento yo-otro**: el cerebro incorpora a las personas cercanas en sus propias representaciones neurales. La actividad cerebral ante una amenaza dirigida a uno mismo se parece mucho a la que provoca una amenaza dirigida a un amigo íntimo, pero no a la que provoca una dirigida a un desconocido. El amigo no se representa como «otro yo» en sentido figurado, sino en las mismas regiones y con los mismos patrones que el propio yo.
 
-> **En física esto se llama:** solapamiento yo-otro.
+> **En neurociencia esto se llama:** solapamiento yo-otro.
 
 El otro horizonte se incorpora a la arquitectura interna del propio. Sus patrones, sus ritmos y sus maneras de reaccionar pasan a formar parte de cómo el sistema procesa el mundo. La integración es literal, no metafórica.
 

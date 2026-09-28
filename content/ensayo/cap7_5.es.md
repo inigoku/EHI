@@ -27,7 +27,7 @@ A Einstein le pareció absurdo y lo llamó «acción fantasmal a distancia» (*s
 
 Durante treinta años la cuestión quedó en el terreno de la filosofía, hasta que en 1964 el físico norirlandés John Bell demostró algo sorprendente: si las variables ocultas existieran, deberían producir correlaciones que obedecieran ciertas desigualdades matemáticas. La mecánica cuántica, en cambio, predice correlaciones que violan esas desigualdades. En principio, era posible decidir experimentalmente quién tenía razón.
 
-En 1982, Alain Aspect realizó en París un experimento decisivo que violaba las desigualdades de Bell. Las partículas estaban separadas por unos doce metros, y la medición de una fijaba el estado de la otra antes de que la luz hubiera podido recorrer esa distancia. No era un artefacto del aparato: era real.
+En 1982, Alain Aspect realizó en París un experimento decisivo que violaba las desigualdades de Bell. Las partículas estaban separadas por unos doce metros, y la orientación de los detectores se cambiaba más deprisa de lo que la luz tarda en recorrer esa distancia, de modo que ninguna señal entre ambos lados podía explicar la coincidencia. No era un artefacto del aparato: era real.
 
 > **En física esto se llama:** violación de las desigualdades de Bell; no localidad cuántica demostrada experimentalmente.  
 > **En la vida diaria es como:** descubrir que dos jugadores, cada uno en su habitación y eligiendo al azar qué pregunta responder, aciertan juntos más veces de las que permitiría cualquier estrategia pactada de antemano: no hay mensaje ni truco, pero tampoco explicación clásica.
