@@ -72,4 +72,4 @@ Cinco dudas y un mismo gesto. Ninguno de estos cinco personajes obtiene la confi
 >
 > **Si solo te quedas con una idea:** La técnica es la misma en las cinco tradiciones; lo que las separa es a quién imaginan al otro lado del silencio. Y ninguna puede confirmar que alguien escuche.
 >
-> **Lecturas:** Hume, D., *Investigación sobre el entendimiento humano* (1748); Dostoievski, F., *Los hermanos Karamázov* (1880); Endō, S., *Silencio* (1966); Hesse, H., *Siddhartha* (1922); Bergman, I., *El séptimo sello* (1957); Doria Russell, M., *El gorrión* (1996).
+> **Lecturas:** Hume, D., *Tratado de la naturaleza humana* (1739-1740); Dostoievski, F., *Los hermanos Karamázov* (1880); Endō, S., *Silencio* (1966); Hesse, H., *Siddhartha* (1922); Bergman, I., *El séptimo sello* (1957); Doria Russell, M., *El gorrión* (1996).

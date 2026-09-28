@@ -71,7 +71,7 @@ El ateísmo, con sus primos más cautos, el agnosticismo y el naturalismo laico,
 
 No es, como a veces se caricaturiza, la ausencia de código moral, sino la apuesta de que el código no necesita un autor externo: surge de la biología social, de la evolución de la empatía y la reciprocidad, de siglos de negociación cultural sobre qué hace habitable la convivencia. Aquí la brecha de Hume no se cierra: se acepta como estructural y se vive con ella, que es lo que este mismo libro hará explícitamente en el capítulo 51 al negarse a decir qué «deberías» hacer con la información que ofrece.
 
-> **En física esto se llama:** modelo nulo, la hipótesis que no añade entidades no observadas para explicar los datos.
+> **En ciencia esto se llama:** modelo nulo, la hipótesis que no añade entidades no observadas para explicar los datos.
 
 En este marco, vivir es el fenómeno completo: ni prueba, ni préstamo, ni ilusión que atravesar, ni antesala de otra cosa. Eso no lo vuelve menos denso: como mostrará el capítulo 52, sobre la práctica, la falta de una promesa trascendente no impide que la meditación, el vínculo o la creatividad reorganicen el horizonte con toda su fuerza. Solo cambia dónde se espera encontrar el sentido: no después del horizonte, sino dentro de él, mientras dura.
 
@@ -125,4 +125,4 @@ Lo que sí puede decir, con la misma franqueza que hasta ahora, es esto: más de
 >
 > **Si solo te quedas con una idea:** Las cinco respuestas no compiten por el mismo premio, sino por responder a las mismas cuatro preguntas que la física, por sí sola, deja abiertas: qué es el reservorio, si el horizonte lo sobrevive con forma, de dónde sale el código y qué es vivir mientras tanto. Saber exactamente en qué difieren sus respuestas es más útil que fingir que todas dicen lo mismo.
 >
-> **Lecturas:** Hume, D., *Investigación sobre el entendimiento humano* (1748); Otto, R., *Lo Santo* (1917); Smart, N., *Las religiones del mundo* (1989); Armstrong, K., *Una historia de Dios* (1993); Harvey, P., *An Introduction to Buddhism* (2.ª ed., 2013), para el contraste entre anattā y ātman; Newberg, A., *Why God Won't Go Away* (2001).
+> **Lecturas:** Hume, D., *Tratado de la naturaleza humana* (1739-1740), libro III, donde plantea la brecha entre el «es» y el «debe»; Otto, R., *Lo Santo* (1917); Smart, N., *Las religiones del mundo* (1989); Armstrong, K., *Una historia de Dios* (1993); Harvey, P., *An Introduction to Buddhism* (2.ª ed., 2013), para el contraste entre anattā y ātman; Newberg, A., *Why God Won't Go Away* (2001).
