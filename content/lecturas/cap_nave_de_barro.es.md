@@ -74,7 +74,7 @@ Conviene marcar el límite con la misma honestidad con la que lo marca el resto 
 
 ### Mundos herméticos y la doble llamada
 
-Hay una consecuencia menos consoladora. Si cada mundo es una interioridad soberana, los mundos del mismo piso no pueden comunicarse entre sí sin romperse. Pasar información en bruto de un universo a otro de la misma escala rompería sus membranas: los fundiría o los igualaría en un único estado templado y sin forma. Es la misma conclusión a la que llegó el capítulo 47 sobre los viajes entre ramas: la operación de saltar de un mundo a otro no está definida sin destruir lo que se quiere visitar.
+Hay una consecuencia menos consoladora. Si cada mundo es una interioridad soberana, los mundos del mismo piso (no los horizontes que viven dentro de un mismo mundo, que se entrelazan a diario, sino los mundos enteros) no pueden comunicarse entre sí sin romperse. Pasar información en bruto de un universo a otro de la misma escala rompería sus membranas: los fundiría o los igualaría en un único estado templado y sin forma. Es la misma conclusión a la que llegó el capítulo 47 sobre los viajes entre ramas: la operación de saltar de un mundo a otro no está definida sin destruir lo que se quiere visitar.
 
 Esta hermeticidad es lo que permite que haya muchos mundos en vez de uno. Cada comunidad que imagina en común (las leyes de su física, las reglas de su lengua, las convenciones de su vida) levanta un mundo que no se deja atravesar desde al lado.
 

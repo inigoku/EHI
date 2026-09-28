@@ -147,7 +147,7 @@ Lo soltó con violencia. «Quiero asesinar la pintura», declaró hacia 1927, y 
 
 El proceso, además, tenía su propia termodinámica. Miró trabajaba como un labrador: madrugaba, cumplía horario, dejaba reposar los lienzos durante meses y hasta años antes de darles la última mancha, cultivaba decenas de cuadros a la vez como quien atiende un huerto. La espontaneidad de sus signos es un espejismo: cada trazo que parece caído del cielo fue esperado con paciencia geológica. Es la disciplina invertida de Dalí: donde el ampurdanés fabricaba delirio con precisión de relojero, el catalán fabricaba precisión con apariencia de delirio.
 
-Aquí la metáfora del agujero negro alcanza su límite y se invierte: Miró no tiene horizonte de sucesos porque no retiene información. No hay masa de trauma curvando el espacio a su alrededor. Su conciencia viaja ligera, sin atrapar la luz de los demás.
+Aquí la metáfora del agujero negro alcanza su límite y se invierte: el horizonte de Miró no atrapa: deja pasar la luz. No hay masa de trauma curvando el espacio a su alrededor. Su conciencia viaja ligera, sin atrapar la luz de los demás.
 
 Ese inventario no desaparece cuando Miró abandona la figuración, sino que se traduce. La misma mirada que en *La masía* dedicaba idéntico cuidado al caracol, a la cabra y a la montaña reaparece, veinte años después, en las *Constelaciones*, solo que ahora el caracol se ha convertido en un punto y la montaña en una línea que ata ese punto a una estrella. El principio (nada pesa más que nada) se mantiene; cambia la escala a la que se aplica: de un corral del Camp de Tarragona al cosmos entero. Entre un cuadro y otro no hay ruptura, sino la misma ecuación, resuelta primero para lo pequeño y después para lo infinito.
 

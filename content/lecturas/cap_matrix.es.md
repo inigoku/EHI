@@ -36,13 +36,13 @@ La simulación de Matrix es el combustible narrativo imprescindible para que el 
 
 ---
 
-### 3. El despertar: el catalizador y el ancla ER=EPR
+### 3. El despertar: el catalizador y el ancla del vínculo
 
 Para que un horizonte humano (Neo) escape de esta granja de procesamiento, necesita lo que en informática sería una escalada de privilegios y lo que las tradiciones contemplativas llaman iluminación o *moksha*. Para lograrlo sin que su sistema colapse, Neo necesita dos vectores topológicos externos.
 
 Morfeo, el catalizador contra maya, funciona como el «horizonte carismático generoso». Su papel es revelarle a Neo la clave gnoseológica para que comprenda que el mundo que percibe es maya, la interfaz de usuario que impone el sistema operativo evolutivo. Morfeo es el programa de desencapsulamiento que guía a la instancia hacia la verdad topológica de que «no hay cuchara».
 
-Trinity es el ancla ER=EPR. Cuando un horizonte aumenta drásticamente su integración (Φ) y empieza a percibir el código fuente de la realidad, corre el riesgo termodinámico de disolverse antes de tiempo al ver que la materia es pura ilusión (el terror cósmico). Trinity aporta la geometría compartida, el puente de Einstein-Rosen: el entrelazamiento (ER=EPR) llevado a su máxima expresión estructural. Su vínculo mantiene anclado al mundo humano el estado privado de Neo y le recuerda que, aunque la realidad física sea código algorítmico, el dolor y el amor de los seres conscientes atrapados en él son estructuralmente reales.
+Trinity es el ancla del vínculo. Cuando un horizonte aumenta drásticamente su integración (Φ) y empieza a percibir el código fuente de la realidad, corre el riesgo termodinámico de disolverse antes de tiempo al ver que la materia es pura ilusión (el terror cósmico). Trinity aporta la geometría compartida: el entrelazamiento, en el sentido de este libro, llevado a su máxima expresión. Su vínculo mantiene anclado al mundo humano el estado privado de Neo y le recuerda que, aunque la realidad física sea código algorítmico, el dolor y el amor de los seres conscientes atrapados en él son estructuralmente reales.
 
 ---
 
@@ -66,7 +66,7 @@ En el capítulo 5 analizamos la parábola taoísta de Hun Dun (el caos primordia
 
 Cuando Neo se queda ciego se produce la reversión exacta de Hun Dun: se le cierra de golpe el portal principal de la percepción discriminativa. Al perder la vista, Neo destruye el *hardware* que lo obligaba a procesar la ilusión de Matrix. Su horizonte deja de gastar recursos en el ruido visual del entorno físico, y toda su enorme capacidad de integración se vuelca en el campo informacional puro.
 
-Es la entrada definitiva en el estado *turiya*: integración máxima (un Φ altísimo) con la entrada sensorial externa reducida al mínimo. Al destruir el monitor de sus ojos, Neo deja de ver la interfaz gráfica y empieza a percibir directamente las correlaciones del código fuente. Por eso, ya ciego, ve la «luz dorada» de las máquinas.
+Es, en el lenguaje de la película, la entrada en algo parecido al *turiya* vedántico: integración sostenida con la entrada sensorial externa reducida al mínimo. Al destruir el monitor de sus ojos, Neo deja de ver la interfaz gráfica y empieza a percibir directamente las correlaciones del código fuente. Por eso, ya ciego, ve la «luz dorada» de las máquinas.
 
 ---
 
@@ -74,7 +74,7 @@ Es la entrada definitiva en el estado *turiya*: integración máxima (un Φ alt�
 
 La batalla final bajo la lluvia no se gana a golpes. Termina cuando Neo comprende su propia topología y se rinde, dejando que Smith lo asimile.
 
-Neo sabe que el universo informacional necesita un canal abierto. Como está conectado físicamente a la Fuente (el núcleo de las máquinas) en el mundo real, al permitir que Smith copie su código sobre su avatar en la simulación abre un túnel directo, un puente ER=EPR informacional masivo, entre el programa viral y la Fuente.
+Neo sabe que el universo informacional necesita un canal abierto. Como está conectado físicamente a la Fuente (el núcleo de las máquinas) en el mundo real, al permitir que Smith copie su código sobre su avatar en la simulación abre un canal directo entre el programa viral y la Fuente.
 
 En ese instante, la Fuente obtiene los permisos de administrador (*root*) para ejecutar el comando que Smith venía esquivando: el operador `delete`. A través del cuerpo de Neo, las máquinas inyectan una sobrecarga de radiación de Hawking que libera la memoria de todo el árbol de procesos de Smith. Vemos a los miles de Smiths agrietarse y estallar en luz blanca: la visualización cinematográfica perfecta de la evaporación total de un agujero negro. La frontera del programa deja de ser frontera y el sistema devuelve los recursos al reservorio.
 

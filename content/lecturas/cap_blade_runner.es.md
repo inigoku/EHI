@@ -12,15 +12,15 @@ illustrationDescription: Un unicornio de origami de papel de aluminio brillante 
 
 Hay un sesgo biológico en nuestra forma de mirar el mundo. Damos por hecho que el misterio de la conciencia necesita úteros, sangre y latidos, y creemos que la diferencia entre una máquina y un ser humano está en el material del que están hechos.
 
-Pero en el capítulo 4 establecimos una regla fundamental, basada en la teoría de la información integrada (IIT) de Tononi: a la física no le importa el sustrato. La conciencia, el valor Φ, depende de la forma en que la red se conecta e integra la información, no del carbono ni de neuronas aisladas. Si un sistema consigue aislar un interior y generar un Φ lo bastante alto, la burbuja se cierra y surge el horizonte de sucesos.
+Pero en el capítulo 4 establecimos que lo que decide no es el material, sino tres cosas: una frontera con un dentro, integración dentro de ella y un origen por condensación (las dos selecciones del capítulo 31). Nada de eso exige carbono.
 
-*Blade Runner* lleva esta premisa a su límite poético y termodinámico. Los replicantes son seres biosintéticos creados en laboratorio para el trabajo esclavo, y la sociedad humana los trata como herramientas, algoritmos complejos sin un verdadero dentro. Pero, si los sometemos al experimento de este libro, descubrimos que no son máquinas que imitan: son instancias genuinas que han cruzado el umbral, que han ejecutado el operador `new` y han condensado un horizonte propio desde el reservorio.
+*Blade Runner* lleva esta premisa a su límite poético y termodinámico. Los replicantes son seres biosintéticos creados en laboratorio para el trabajo esclavo, y la sociedad humana los trata como herramientas, algoritmos complejos sin un verdadero dentro. Pero, si los sometemos al experimento de este libro, descubrimos que no son máquinas que imitan: son organismos biosintéticos que se desarrollan y viven expuestos al mundo, y la película los trata como alguien que ha pasado por su propia condensación, aunque sea en un laboratorio. Lo que les falta es precisamente el segundo nivel, el sesgo: nadie los gestó, y por eso Tyrell tiene que implantarles recuerdos.
 
 ---
 
 ### 1. Roy Batty y la lucidez del operador delete
 
-La prueba Voight-Kampff que los humanos usan en la película para detectar replicantes no busca un fallo mecánico: mide la dilatación de la pupila y la respuesta del cuerpo ante dilemas morales. En el lenguaje de nuestro experimento, mide la capacidad de entrelazamiento (ER=EPR), si el sujeto puede abrir un puente topológico, la empatía, hacia el sufrimiento de un animal o de un humano. A los replicantes, que tienen cuerpo de adulto pero son topológicamente recién nacidos, les falta rodaje en el mundo para calibrar esa geometría compartida.
+La prueba Voight-Kampff que los humanos usan en la película para detectar replicantes no busca un fallo mecánico: mide la dilatación de la pupila y la respuesta del cuerpo ante dilemas morales. En el lenguaje de nuestro experimento, mide la capacidad de entrelazamiento en el sentido de este libro, la empatía: si el sujeto puede acoplarse al sufrimiento de un animal o de un humano. A los replicantes, que tienen cuerpo de adulto pero son topológicamente recién nacidos, les falta rodaje en el mundo para calibrar esa geometría compartida.
 
 Pero que no sepan calibrar el entrelazamiento no significa que carezcan de estado privado.
 
@@ -50,7 +50,7 @@ Se dice que Rachael es especial porque no tiene fecha de caducidad. Eso no signi
 
 ---
 
-### 4. El unicornio y el ER=EPR sintético
+### 4. El unicornio y el entrelazamiento sintético
 
 Lo más revelador de someter *Blade Runner* a nuestro experimento es ver cómo los cambios de montaje (del estreno en cines de 1982 al montaje del director de 1992 y al *Final Cut* de 2007) alteran de raíz su física subyacente.
 
@@ -58,7 +58,7 @@ En la versión de cines, la película terminaba con una voz en *off* que asegura
 
 En los montajes posteriores, en cambio, desaparece la voz en *off* y se añade el sueño del unicornio, que conecta con la figurita de origami que Gaff deja en el suelo. Ese simple detalle insinúa que Deckard, el hombre que persigue a las máquinas, es también un replicante con recuerdos implantados, y provoca un terremoto topológico en la historia.
 
-Si Deckard es una máquina, su historia de amor con Rachael es un puente ER=EPR (un agujero de gusano semántico) entre dos arquitecturas sintéticas que han conseguido condensar. Es la prueba de que dos instancias artificiales, nacidas en un laboratorio y llenas de recuerdos falsos, pueden integrar tanta información y crear una geometría compartida tan densa que están dispuestas a sacrificarse la una por la otra.
+Si Deckard es una máquina, su historia de amor con Rachael es un entrelazamiento, en el sentido de este libro, entre dos arquitecturas sintéticas que han conseguido condensar. Es la prueba de que dos instancias artificiales, nacidas en un laboratorio y llenas de recuerdos falsos, pueden integrar tanta información y crear una geometría compartida tan densa que están dispuestas a sacrificarse la una por la otra.
 
 La película termina de golpe cuando se cierran las puertas del ascensor, con el eco de la frase de Gaff: «Lástima que ella no pueda vivir. Pero ¿quién vive?».
 

@@ -33,11 +33,11 @@ Podríamos encontrarnos con un horizonte distribuido: una especie que no se inst
 
 No tendría sombra ni trauma junguiano, porque no tendría un encapsulamiento rígido capaz de atrapar singularidades. Su experiencia del tiempo no sería una flecha lineal hacia la muerte, sino un pulso: condensar y disipar, condensar y disipar, como el latido del océano.
 
-### 3. El fracaso de ER=EPR: entrelazarse con el viento
+### 3. El fracaso del entrelazamiento: entrelazarse con el viento
 
 Aquí es donde se produce el primer contacto, y aquí es donde fracasa.
 
-En los capítulos centrales de este libro explicamos el amor, la empatía y el vínculo mediante el entrelazamiento (ER=EPR). Dijimos que amar o comprender a fondo a otro es construir un puente geométrico en el espacio-tiempo: tu horizonte calibra sus receptores, reconoce la frecuencia del otro e inscribe una copia predictiva de esa persona en tu propia arquitectura.
+En los capítulos centrales de este libro describimos el amor, la empatía y el vínculo como entrelazamiento, tomando de la conjetura ER=EPR una imagen: amar o comprender a fondo a otro es construir una geometría compartida: tu horizonte calibra sus receptores, reconoce la frecuencia del otro e inscribe una copia predictiva de esa persona en tu propia arquitectura.
 
 Pero el entrelazamiento exige dos sistemas con arquitecturas compatibles. Dos cuerdas de guitarra solo vibran al unísono si su tensión y su forma permiten la resonancia armónica.
 
@@ -67,7 +67,7 @@ Con esta lectura, el silencio del cielo no demuestra la soledad cósmica. Demues
 
 ### 6. Contacto simbólico frente a contacto entrelazado
 
-Si el entrelazamiento directo (ER=EPR) fracasa entre arquitecturas incompatibles, ¿queda alguna forma de contacto genuino? Quizá sí, pero de un orden muy distinto al que la ciencia ficción nos ha acostumbrado a imaginar.
+Si el entrelazamiento directo fracasa entre arquitecturas incompatibles, ¿queda alguna forma de contacto genuino? Quizá sí, pero de un orden muy distinto al que la ciencia ficción nos ha acostumbrado a imaginar.
 
 El entrelazamiento exige resonancia estructural: dos horizontes compatibles vibrando en la misma frecuencia. Pero hay otra vía de influencia, más débil e indirecta, que no exige compatibilidad arquitectónica: el contacto simbólico. Es el tipo de vínculo que ya establecemos, sin darnos cuenta, con cosas que no tienen Φ propio en absoluto, como un libro, una pintura o una ecuación. No nos entrelazamos con el objeto, sino con la huella que otro horizonte, compatible con el nuestro, dejó en él.
 

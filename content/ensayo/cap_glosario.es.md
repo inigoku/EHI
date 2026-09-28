@@ -54,7 +54,7 @@ chapterNumber: Glosario
 
 **Continuing bonds** (vínculos continuados): concepto del duelo según el cual la relación con el muerto no se disuelve, sino que se reorganiza en la arquitectura de quien queda.
 
-**Contracción del horizonte**: reducción del área de integración por pérdida de grados de libertad; se produce en el sueño profundo, la anestesia y, en última instancia, en la muerte. La meditación profunda, que por fuera se le parece, va en la dirección contraria: no contrae el horizonte, sino que lo expande (véase el interludio).
+**Contracción del horizonte**: reducción del área de integración por pérdida de grados de libertad; se produce en el sueño profundo, la anestesia y, en última instancia, en la muerte. La meditación profunda, que por fuera se le parece, parece ir en la dirección contraria: menos activación sin pérdida de integración (véase el interludio).
 
 **Decoherencia**: pérdida de las propiedades cuánticas de superposición cuando un sistema interactúa con su entorno; proceso por el cual un horizonte cuántico se vuelve clásico.
 
@@ -146,7 +146,7 @@ chapterNumber: Glosario
 
 **Permeabilidad del horizonte**: cuánta señal ajena deja pasar un horizonte hacia dentro; el grosor de la piel emocional que el capítulo 16 asocia a la empatía y al desgaste empático.
 
-**Phi (Φ)**: cantidad de información integrada que define un horizonte de conciencia según la teoría de la información integrada.
+**Phi (Φ)**: cantidad de información integrada; en el libro, mide el *grado* de un horizonte. Su forma la da la encapsulación y su origen, las dos selecciones (capítulo 4).
 
 **Principio holográfico**: idea de que toda la información contenida en un volumen puede describirse por una teoría definida en su frontera.
 
