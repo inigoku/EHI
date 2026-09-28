@@ -81,17 +81,9 @@ apuntar `toc_ensayo.json` a copias locales.
 
 ## Pendiente / siguiente paso natural
 
-- Portada y cubierta de tapa dura (frontal + envolvente con lomo), al estilo
-  de `edicion_poesia/scripts/build_cover.py` (que calcula el ancho de lomo a
-  partir del número de páginas): no se han generado todavía para esta
-  edición.
 - **764 páginas** es un libro largo. Antes de subirlo a KDP conviene
   comprobar el límite de páginas vigente para tapa dura a 6×9" con el tipo
-  de papel elegido (blanco o crema) — puede exigir papel más fino, o
-  plantear partir el volumen en dos tomos si el límite queda por debajo.
-- Edición en inglés: todos los capítulos ya existen en `.en.md`. Se puede
-  repetir el mismo proceso con un `toc_ensayo_en.json` que apunte a esos
-  ficheros.
+  de papel elegido (blanco o crema) — puede exigir papel más fino.
 
 ## Versión sin ilustraciones (tapa blanda B/N y EPUB)
 
@@ -170,3 +162,54 @@ Los cinco cuadros que antes se descargaban de Wikimedia en cada maquetación (Da
 *Construcción blanda*, *Corpus Hypercubus*, *La persistencia de la memoria*; Picasso:
 *La mujer que llora*; Burton: *George Eliot*) están ahora en `imagenes/cart_*.jpg` y los
 TOC apuntan ahí, para que el libro salga completo aunque no haya red.
+
+## Edición en inglés (*The Inner Horizon*)
+
+Los 60 capítulos traducidos en `en/*.en.md`, con `toc_ensayo_en.json` apuntando
+a ellos (mismas ilustraciones que la edición española). Los scripts
+(`build_interior_premium.py`, `build_epub_ensayo.py`, `build_cover.py`,
+`build_cover_paperback.py`) están parametrizados: los textos fijos (créditos,
+dedicatoria, índice, colofón, `lang` del EPUB) se toman del TOC, y las
+cubiertas aceptan `--idioma en`.
+
+    The_Inner_Horizon_Essay_6x9.pdf                                    volumen único, 754 páginas
+    The_Inner_Horizon_Essay.epub                                       epub, 61 pantallas, 60 imágenes
+    The_Inner_Horizon_Essay_sin_ilustraciones_6x9.pdf                  682 páginas, sin láminas
+    The_Inner_Horizon_Essay_sin_ilustraciones.epub                     EPUB solo con la portada
+    The_Inner_Horizon_Essay_cubierta_tapadura.pdf                      tapa dura, lomo 1,758"
+    The_Inner_Horizon_Essay_cubierta_tapablanda_sin_ilustraciones.pdf  tapa blanda B/N, lomo 1,536"
+    imagenes/The_Inner_Horizon_Essay_cubierta_ebook.jpg                portada del EPUB, 1600 x 2560
+
+    python3 scripts/build_interior_premium.py toc_ensayo_en.json -o The_Inner_Horizon_Essay_6x9.pdf
+    python3 scripts/build_epub_ensayo.py toc_ensayo_en.json -o The_Inner_Horizon_Essay.epub
+    python3 scripts/build_cover.py --idioma en
+    python3 scripts/build_cover_paperback.py --idioma en --sin-ilustraciones
+
+Igual que en español, el volumen único (754 págs.) supera el límite de 550
+de KDP para tapa dura, así que también se parte en dos tomos con
+`make_tomos_en.py` (equivalente inglés de `make_tomos.py`, con las remisiones
+«Chapter N» detectadas y reescritas a «Reading k» en el propio texto):
+
+    The_Inner_Horizon_Tomo1_Essay_6x9.pdf                 tomo I, 536 págs.
+    The_Inner_Horizon_Tomo1_Essay_cubierta_tapadura.pdf   lomo 1,318"
+    The_Inner_Horizon_Tomo2_Readings_6x9.pdf              tomo II, 192 págs.
+    The_Inner_Horizon_Tomo2_Readings_cubierta_tapadura.pdf lomo 0,511"
+
+    python3 scripts/make_tomos_en.py
+    python3 scripts/build_interior_premium.py toc_tomo1_ensayo_en.json -o The_Inner_Horizon_Tomo1_Essay_6x9.pdf
+    python3 scripts/build_interior_premium.py toc_tomo2_lecturas_en.json -o The_Inner_Horizon_Tomo2_Readings_6x9.pdf
+    python3 scripts/build_cover.py --tomo 1 --idioma en
+    python3 scripts/build_cover.py --tomo 2 --idioma en
+
+Y sus versiones sin ilustraciones (tapa blanda B/N y EPUB):
+
+    The_Inner_Horizon_Tomo1_Essay_sin_ilustraciones_6x9.pdf                   498 págs.
+    The_Inner_Horizon_Tomo1_Essay_cubierta_tapablanda_sin_ilustraciones.pdf   lomo 1,121"
+    The_Inner_Horizon_Tomo1_Essay_sin_ilustraciones.epub
+    The_Inner_Horizon_Tomo2_Readings_sin_ilustraciones_6x9.pdf                168 págs.
+    The_Inner_Horizon_Tomo2_Readings_cubierta_tapablanda_sin_ilustraciones.pdf lomo 0,378"
+    The_Inner_Horizon_Tomo2_Readings_sin_ilustraciones.epub
+
+    python3 scripts/build_interior_premium.py toc_tomoN_*_en.json -o ..._sin_ilustraciones_6x9.pdf --sin-ilustraciones
+    python3 scripts/build_epub_ensayo.py toc_tomoN_*_en.json -o ..._sin_ilustraciones.epub --sin-ilustraciones
+    python3 scripts/build_cover_paperback.py --tomo N --idioma en
