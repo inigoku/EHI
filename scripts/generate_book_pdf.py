@@ -470,6 +470,8 @@ def build_table(table_lines: list, styles, content_width: float) -> Optional[Tab
     style_commands = [
         ("GRID", (0, 0), (-1, -1), 0.5, colors.HexColor("#cccccc")),
         ("VALIGN", (0, 0), (-1, -1), "TOP"),
+        # Sin esto la tabla declara Helvetica (no incrustada) en la página.
+        ("FONT", (0, 0), (-1, -1), cell_style.fontName),
         ("LEFTPADDING", (0, 0), (-1, -1), pad_h),
         ("RIGHTPADDING", (0, 0), (-1, -1), pad_h),
         ("TOPPADDING", (0, 0), (-1, -1), pad_v),
@@ -495,9 +497,9 @@ def markdown_to_flowables(body: str, styles, illustrations: dict, base_dir: Path
     # as a literal "[SIMULACIÓN X]" heading or "[CAJA LATERAL: X]" label,
     # reading like a leftover editing note instead of finished prose.
     body = SIMULATION_HEADING_RE.sub(
-        "*(Simulación interactiva disponible en la edición web.)*", body)
+        "", body)
     body = SIMULATION_HEADING_EN_RE.sub(
-        "*(Interactive simulation available in the web edition.)*", body)
+        "", body)
     body = SIDEBOX_RE.sub(r"\1", body)
     body = SIDEBOX_EN_RE.sub(r"\1", body)
 

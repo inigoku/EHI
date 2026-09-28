@@ -41,6 +41,7 @@ from reportlab.platypus import (
     PageTemplate,
     Paragraph,
     Spacer,
+    TableStyle,
 )
 from reportlab.platypus.tableofcontents import TableOfContents
 
@@ -68,6 +69,13 @@ FAMILY = {
 
 
 FALLBACK_FONT = "EcoFallback"
+# Primer recurso para lo que Source Serif Pro no tiene (sobre todo Φ): una
+# serif, para que el símbolo no salga en letra de palo en mitad de la línea.
+SERIF_FALLBACK_FONT = "EcoFallbackSerif"
+SERIF_FALLBACK_CANDIDATES = [
+    "/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf",
+    "/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf",
+]
 FALLBACK_CANDIDATES = [
     "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
     "/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf",
@@ -87,6 +95,7 @@ CJK_FALLBACK_CANDIDATES = [
 
 _SAFE_CODEPOINTS: set = set()
 _FALLBACK_CODEPOINTS: set = set()
+_SERIF_FALLBACK_CODEPOINTS: set = set()
 _CJK_FALLBACK_AVAILABLE = False
 
 
@@ -103,6 +112,7 @@ def register_fonts() -> None:
     rl_config.canvas_basefontname = "Eco"
 
     global _SAFE_CODEPOINTS, _FALLBACK_CODEPOINTS, _CJK_FALLBACK_AVAILABLE
+    global _SERIF_FALLBACK_CODEPOINTS
     from fontTools.ttLib import TTFont as _FTFont
     cmaps = [_FTFont(str(FONTS / fname)).getBestCmap().keys() for _style, (_name, fname) in FAMILY.items()]
     _SAFE_CODEPOINTS = set.intersection(*(set(c) for c in cmaps))
@@ -116,6 +126,12 @@ def register_fonts() -> None:
         print("warning: no fallback Unicode font found; symbols missing from "
               "Source Serif Pro (math notation, some diacritics) may render "
               "blank.", file=sys.stderr)
+
+    for path in SERIF_FALLBACK_CANDIDATES:
+        if Path(path).exists():
+            pdfmetrics.registerFont(TTFont(SERIF_FALLBACK_FONT, path))
+            _SERIF_FALLBACK_CODEPOINTS = set(_FTFont(path).getBestCmap().keys())
+            break
 
     for path in CJK_FALLBACK_CANDIDATES:
         if Path(path).exists():
@@ -569,6 +585,12 @@ def toc_page(story: list) -> None:
     toc.levelStyles = [TOC_LEVEL0, TOC_LEVEL1]
     toc.dotsMinLevel = 1
     toc.rightColumnWidth = TOC_RIGHT_COLUMN
+    # La tabla interna del índice declara Helvetica por defecto aunque no
+    # escriba nada con ella, y KDP la marca como fuente no incrustada.
+    toc.tableStyle = TableStyle([("VALIGN", (0, 0), (-1, -1), "TOP"),
+                                 ("RIGHTPADDING", (0, 0), (-1, -1), 0),
+                                 ("LEFTPADDING", (0, 0), (-1, -1), 0),
+                                 ("FONT", (0, 0), (-1, -1), R)])
     story.append(toc)
 
 
@@ -606,13 +628,27 @@ def _image_key(ref: str, illustrations: dict, base_dir: Path):
     return path.read_bytes() if path.exists() else str(path)
 
 
+_USED_IMAGE_KEYS: list = []
+
+
 def drop_inline_duplicates(body: str, plate_ref: str, illustrations: dict, base_dir: Path) -> str:
-    plate_key = _image_key(plate_ref, illustrations, base_dir)
+    """Quita las ilustraciones intercaladas que repiten una imagen ya puesta
+    antes en el libro: la lámina del propio capítulo o cualquier imagen de un
+    capítulo anterior (p. ej. la lámina del cap. 9 reutilizada en el 19).
+    Se llama en el orden del libro, así que lo «anterior» es lo ya compuesto."""
+    if plate_ref:
+        plate_key = _image_key(plate_ref, illustrations, base_dir)
+        if plate_key not in _USED_IMAGE_KEYS:
+            _USED_IMAGE_KEYS.append(plate_key)
 
     def repl(m):
         iid = m.group(1)
-        if iid and iid in illustrations and _image_key(iid, illustrations, base_dir) == plate_key:
+        if not (iid and iid in illustrations):
+            return m.group(0)
+        key = _image_key(iid, illustrations, base_dir)
+        if key in _USED_IMAGE_KEYS:
             return ""
+        _USED_IMAGE_KEYS.append(key)
         return m.group(0)
     return _INLINE_ILLUS_BLOCK_RE.sub(repl, body)
 
@@ -654,6 +690,8 @@ def _wrap_missing_glyphs_plain(text: str) -> str:
     def font_for(ch: str) -> Optional[str]:
         if ch.isspace() or ord(ch) in _SAFE_CODEPOINTS:
             return None
+        if ord(ch) in _SERIF_FALLBACK_CODEPOINTS:
+            return SERIF_FALLBACK_FONT
         if ord(ch) in _FALLBACK_CODEPOINTS:
             return FALLBACK_FONT
         if _CJK_FALLBACK_AVAILABLE:
