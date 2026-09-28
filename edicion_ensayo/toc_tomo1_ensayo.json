@@ -173,7 +173,6 @@
   },
   "running_title": "EL HORIZONTE INTERIOR",
   "gutter_in": 0.82,
-  "body_leading": 15.8,
   "uid": "urn:uuid:el-horizonte-interior-tomo1-ensayo-es",
   "credits": [
     "Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la cuarta parte, con el epílogo, el glosario y las notas. Las lecturas topológicas forman el segundo tomo."
@@ -297,7 +296,13 @@
     },
     {
       "id": "cap22_idempotencia",
-      "content_file": "../content/ensayo/cap22_idempotencia.es.md"
+      "content_file": "../content/ensayo/cap22_idempotencia.es.md",
+      "replace": [
+        [
+          "en el sentido que el capítulo 53 reserva",
+          "en el sentido que el capítulo 36 reserva"
+        ]
+      ]
     },
     {
       "id": "cap23_experimentos_mentales",
@@ -340,10 +345,6 @@
         [
           "lo que este mismo libro hará explícitamente en el capítulo 53",
           "lo que este mismo libro hará explícitamente en el capítulo 36"
-        ],
-        [
-          "leer el mapa del capítulo 53",
-          "leer el mapa del capítulo 36"
         ],
         [
           "como mostrará el capítulo 54, sobre la práctica,",

@@ -42,12 +42,12 @@ T1 = {
         ("Varias de las lecturas topológicas (",
          "Varias lecturas del segundo tomo, *Lecturas topológicas* (")],
     "cap17_5_real.es.md": t1(["como veremos en el capítulo 53,"]),
+    "cap22_idempotencia.es.md": t1(["en el sentido que el capítulo 53 reserva"]),
     "cap_religiones_comparadas.es.md": t1([
         "El capítulo 53 lo dirá con claridad: la ética",
         "como se verá en el capítulo 53), cada",
         "De las tres opciones que el capítulo 53 dejará abiertas",
         "lo que este mismo libro hará explícitamente en el capítulo 53",
-        "leer el mapa del capítulo 53",
         "como mostrará el capítulo 54, sobre la práctica,",
         "No puede: como establece el capítulo 53,",
         "como dirá el capítulo 53,",
@@ -85,7 +85,6 @@ def with_replace(ch, table, extra=()):
 base = {k: v for k, v in toc.items() if k != "chapters"}
 
 t1 = dict(base, subtitle="Ensayo · Tomo I", running_title="EL HORIZONTE INTERIOR", gutter_in=0.82,
-          body_leading=15.8,
           uid="urn:uuid:el-horizonte-interior-tomo1-ensayo-es",
           cover_image="imagenes/El_Horizonte_Interior_Tomo1_Ensayo_cubierta_ebook.jpg",
           credits=["Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la cuarta "
