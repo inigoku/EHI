@@ -79,7 +79,7 @@ Hay otra capa de improbabilidad que rara vez aparece en los debates sobre vida e
 
 En este sentido, el horizonte de sucesos también es temporal. Dos burbujas compatibles que nunca coinciden en el tiempo son, a efectos prácticos, tan inalcanzables entre sí como dos burbujas incompatibles que coexisten en el mismo instante. Además de una dimensión de forma, la soledad cósmica tiene una dimensión de sincronía: no basta con hablar el mismo idioma; hay que estar despierto en la misma fracción de tiempo cósmico para poder siquiera intentar la conversación.
 
-> **En física esto se llama:** solapamiento de las ventanas temporales de detectabilidad tecnológica (parámetro L de la ecuación de Drake).
+> **En astrobiología esto se llama:** solapamiento de las ventanas temporales de detectabilidad tecnológica (parámetro L de la ecuación de Drake).
 > **En la vida diaria es como:** dos personas destinadas a entenderse a la perfección que pasan por la misma ciudad con décadas de diferencia.
 
 ---
