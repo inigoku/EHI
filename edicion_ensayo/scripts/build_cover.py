@@ -340,8 +340,7 @@ TOMOS = {
 }
 
 
-# Edición inglesa, volumen único (aún sin partir en tomos — ver TOMOS_EN
-# cuando se decida el corte, igual que se hizo para la española).
+# Edición inglesa, volumen único.
 LANGS = {
     "en": dict(
         front=BASE / "The_Inner_Horizon_Essay_portada_frontal.pdf",
@@ -367,10 +366,58 @@ LANGS = {
     ),
 }
 
+# Los dos tomos de tapa dura de la edición inglesa (mismo motivo que TOMOS:
+# el volumen único tiene 754 páginas, por encima del tope de 550 de KDP).
+TOMOS_EN = {
+    "1": dict(
+        interior=BASE / "The_Inner_Horizon_Tomo1_Essay_6x9.pdf",
+        front=BASE / "The_Inner_Horizon_Tomo1_Essay_portada_frontal.pdf",
+        wrap=BASE / "The_Inner_Horizon_Tomo1_Essay_cubierta_tapadura.pdf",
+        ebook=IMG / "The_Inner_Horizon_Tomo1_Essay_cubierta_ebook.jpg",
+        wrap_bn=BASE / "The_Inner_Horizon_Tomo1_Essay_cubierta_tapablanda_sin_ilustraciones.pdf",
+        interior_bn=BASE / "The_Inner_Horizon_Tomo1_Essay_sin_ilustraciones_6x9.pdf",
+        title="The Inner Horizon", title_lines=["The Inner", "Horizon"],
+        subtitle="Essay · Volume I",
+        kicker="An essay on physics, consciousness and the limits of the self",
+        blurb=LANGS["en"]["blurb"],
+        blurb2=(
+            "Forty-six chapters that cross neuroscience, information theory "
+            "and theoretical physics without ever abandoning the simplest "
+            "question: what it means for there to be someone in there. With "
+            "the epilogue, the glossary and the complete apparatus of notes. "
+            "The topological readings form the second volume."
+        ),
+    ),
+    "2": dict(
+        interior=BASE / "The_Inner_Horizon_Tomo2_Readings_6x9.pdf",
+        front=BASE / "The_Inner_Horizon_Tomo2_Readings_portada_frontal.pdf",
+        wrap=BASE / "The_Inner_Horizon_Tomo2_Readings_cubierta_tapadura.pdf",
+        ebook=IMG / "The_Inner_Horizon_Tomo2_Readings_cubierta_ebook.jpg",
+        wrap_bn=BASE / "The_Inner_Horizon_Tomo2_Readings_cubierta_tapablanda_sin_ilustraciones.pdf",
+        interior_bn=BASE / "The_Inner_Horizon_Tomo2_Readings_sin_ilustraciones_6x9.pdf",
+        title="Topological Readings", title_lines=["Topological", "Readings"],
+        art=IMG / "portada_lecturas.jpg",   # cinta de Möbius de agua
+        subtitle="The Inner Horizon · Volume II",
+        kicker="The essay's ideas in fiction, film and everyday life",
+        blurb=(
+            "A clone that isn't the mare it copies, a replicant crying in "
+            "the rain, a first contact with no shared language, a time "
+            "machine that won't let you return: fourteen readings that put "
+            "the horizon hypothesis to the test outside the lab."
+        ),
+        blurb2=(
+            "Each reading takes a work, a case or a question and looks at it "
+            "with the tools from the first volume — encapsulation, "
+            "entanglement, reservoir — to see what it illuminates and where "
+            "it breaks down. They can be read in any order."
+        ),
+    ),
+}
 
-def select_tomo(n: str) -> None:
+
+def select_tomo(n: str, lang: str = "es") -> None:
     global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, TITLE, TITLE_LINES, SUBTITLE, KICKER, BLURB, BLURB2, SPINE_PER_PAGE, ART_OVERRIDE
-    c = TOMOS[n]
+    c = (TOMOS_EN if lang == "en" else TOMOS)[n]
     ART_OVERRIDE = c.get("art")
     FRONT_PDF, WRAP_PDF, INTERIOR_PDF = c["front"], c["wrap"], c["interior"]
     TITLE, TITLE_LINES, SUBTITLE, KICKER = c["title"], c["title_lines"], c["subtitle"], c["kicker"]
@@ -399,7 +446,7 @@ def main() -> int:
     ap.add_argument("--alto", type=float, default=None)
     args = ap.parse_args()
     if args.tomo:
-        select_tomo(args.tomo)
+        select_tomo(args.tomo, args.idioma)
     elif args.idioma != "es":
         select_language(args.idioma)
     src = source_image()
@@ -417,7 +464,7 @@ def main() -> int:
         print(f"  (lomo calculado sobre {pages} páginas reales del interior)")
     build_wrap(pages, args.ancho, args.alto)
     if args.tomo:
-        build_ebook(TOMOS[args.tomo]["ebook"])
+        build_ebook((TOMOS_EN if args.idioma == "en" else TOMOS)[args.tomo]["ebook"])
     elif args.idioma != "es":
         build_ebook(LANGS[args.idioma]["ebook"])
     return 0

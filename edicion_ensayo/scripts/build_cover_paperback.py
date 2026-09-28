@@ -110,10 +110,11 @@ def main() -> int:
         SPINE_PER_PAGE = hc.SPINE_PER_PAGE
         hc.INTERIOR_PDF = hc.INTERIOR_PDF.with_name(hc.INTERIOR_PDF.stem.rsplit('_6x9', 1)[0] + "_sin_ilustraciones_6x9.pdf")
     if args.tomo:
-        hc.select_tomo(args.tomo)          # títulos, textos y arte del tomo
-        WRAP_PDF = hc.TOMOS[args.tomo]["wrap_bn"]
+        hc.select_tomo(args.tomo, args.idioma)   # títulos, textos y arte del tomo
+        tomos = hc.TOMOS_EN if args.idioma == "en" else hc.TOMOS
+        WRAP_PDF = tomos[args.tomo]["wrap_bn"]
         SPINE_PER_PAGE = 0.002252           # sin láminas: papel blanco B/N
-        hc.INTERIOR_PDF = hc.TOMOS[args.tomo]["interior_bn"]
+        hc.INTERIOR_PDF = tomos[args.tomo]["interior_bn"]
     src = hc.source_image()
     if not src.exists():
         raise SystemExit(
