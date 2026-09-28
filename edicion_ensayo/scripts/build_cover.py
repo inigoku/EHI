@@ -340,6 +340,34 @@ TOMOS = {
 }
 
 
+# Edición inglesa, volumen único (aún sin partir en tomos — ver TOMOS_EN
+# cuando se decida el corte, igual que se hizo para la española).
+LANGS = {
+    "en": dict(
+        front=BASE / "The_Inner_Horizon_Essay_portada_frontal.pdf",
+        wrap=BASE / "The_Inner_Horizon_Essay_cubierta_tapadura.pdf",
+        interior=BASE / "The_Inner_Horizon_Essay_6x9.pdf",
+        ebook=IMG / "The_Inner_Horizon_Essay_cubierta_ebook.jpg",
+        title="The Inner Horizon", title_lines=["The Inner", "Horizon"],
+        subtitle="The complete essay, with the topological readings",
+        kicker="An essay on physics, consciousness and the limits of the self",
+        blurb=(
+            "An essay that uses black hole physics as a lens to think about "
+            "consciousness: the event horizon as the boundary between what a "
+            "self lets escape and what stays trapped forever."
+        ),
+        blurb2=(
+            "Sixty chapters that cross neuroscience, information theory and "
+            "theoretical physics without ever abandoning the simplest "
+            "question: what it means for there to be someone in there. With "
+            "the topological readings that carry those same ideas into art "
+            "and daily life, and the complete apparatus of notes and "
+            "references."
+        ),
+    ),
+}
+
+
 def select_tomo(n: str) -> None:
     global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, TITLE, TITLE_LINES, SUBTITLE, KICKER, BLURB, BLURB2, SPINE_PER_PAGE, ART_OVERRIDE
     c = TOMOS[n]
@@ -350,16 +378,30 @@ def select_tomo(n: str) -> None:
     SPINE_PER_PAGE = 0.002347
 
 
+def select_language(lang: str) -> None:
+    global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, TITLE, TITLE_LINES, SUBTITLE, KICKER, BLURB, BLURB2
+    if lang == "es":
+        return
+    c = LANGS[lang]
+    FRONT_PDF, WRAP_PDF, INTERIOR_PDF = c["front"], c["wrap"], c["interior"]
+    TITLE, TITLE_LINES, SUBTITLE, KICKER = c["title"], c["title_lines"], c["subtitle"], c["kicker"]
+    BLURB, BLURB2 = c["blurb"], c["blurb2"]
+
+
 def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--tomo", choices=["1", "2"], default=None,
                     help="Cubiertas de tapa dura de uno de los dos tomos, en vez del volumen único.")
+    ap.add_argument("--idioma", choices=["es", "en"], default="es",
+                    help="Idioma de los textos de cubierta (volumen único).")
     ap.add_argument("--paginas", type=int, default=None)
     ap.add_argument("--ancho", type=float, default=None)
     ap.add_argument("--alto", type=float, default=None)
     args = ap.parse_args()
     if args.tomo:
         select_tomo(args.tomo)
+    elif args.idioma != "es":
+        select_language(args.idioma)
     src = source_image()
     if not src.exists():
         raise SystemExit(
@@ -376,6 +418,8 @@ def main() -> int:
     build_wrap(pages, args.ancho, args.alto)
     if args.tomo:
         build_ebook(TOMOS[args.tomo]["ebook"])
+    elif args.idioma != "es":
+        build_ebook(LANGS[args.idioma]["ebook"])
     return 0
 
 
