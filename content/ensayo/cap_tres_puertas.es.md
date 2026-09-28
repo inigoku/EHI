@@ -38,9 +38,6 @@ Tres propiedades la hacen especialmente apta para el modelo del horizonte.
 
 **Desigualdad del procesamiento de datos.** Si Z se obtiene procesando Y, entonces I(X;Z) ≤ I(X;Y). Ningún procesamiento de la información de un sistema puede aumentar lo que comparte con otro; solo mantenerlo o reducirlo. Lo que se comparte se degrada al transformarse, nunca se gana.
 
-> **En teoría de la información esto se llama:** información mutua, la reducción de incertidumbre sobre un sistema que se obtiene al conocer otro.  
-> **En la vida diaria es como:** la complicidad entre dos viejos amigos: no se mide por lo que se dicen, sino por lo que ya no necesitan decirse.
-
 ### La información mutua en el cerebro
 
 Uri Hasson y sus colaboradores han medido el acoplamiento entre cerebros de forma directa. En sus experimentos, una persona cuenta una historia mientras se registra su actividad cerebral; después, otras la escuchan grabada mientras se registra la suya. El acoplamiento que miden es una correlación, pariente cercano de la información mutua, y lo que encuentran es que la actividad del oyente no solo sigue la del hablante: en algunas regiones se le adelanta, y tanto más cuanto mejor comprende el oyente lo que oye.
@@ -101,9 +98,6 @@ Los dos resultados no coinciden (hemos omitido los factores de normalización, q
 
 No es una limitación tecnológica, sino una propiedad matemática de la mecánica cuántica: no importa cuánta tecnología se ponga, un estado cuántico desconocido no se puede copiar.
 
-> **En teoría de la información esto se llama:** teorema de no clonación, la imposibilidad de copiar un estado cuántico desconocido.  
-> **En la vida diaria es como:** una firma hecha una sola vez con una tinta que se borra al tocarla: puedes intentar calcarla, pero el calco nunca será la firma, y al intentarlo estropeas el original.
-
 ### Aplicación a la conciencia
 
 Si la experiencia fuera un estado cuántico (y esto es una hipótesis), el teorema de no clonación explicaría por qué es intransferible. No podrías copiar tu experiencia en otro cerebro porque los estados cuánticos desconocidos no se copian. No sería difícil: sería imposible, porque la física lo prohíbe.
@@ -140,10 +134,7 @@ El *scrambling* es el proceso por el que la información que cae en un agujero n
 
 Es lo mismo que ocurre al echar una gota de tinta en un vaso de agua. Las moléculas de tinta siguen ahí, pero para reconstruir la gota habría que medir cada molécula de agua y sus relaciones con todas las demás. La información existe, pero en la práctica es inaccesible.
 
-La diferencia entre destruir y mezclar así es la diferencia entre «no existe» y «existe, pero no puede recuperarse». Y esa distinción importa, porque cambia la naturaleza de lo que se pierde.
-
-> **En teoría de la información esto se llama:** *scrambling*, la dispersión de la información por todos los grados de libertad de un sistema.  
-> **En la vida diaria es como:** una baraja que se mezcla durante horas: ninguna carta ha desaparecido, pero el orden en que estaban ya no puede leerse en ninguna parte.
+La diferencia entre destruir y mezclar así es la diferencia entre «no existe» y «existe, pero no puede recuperarse». Y esa distinción importa, porque cambia la naturaleza de lo que se pierde. Es como una baraja que se mezcla durante horas: ninguna carta ha desaparecido, pero el orden en que estaban ya no puede leerse en ninguna parte.
 
 ### Aplicación al duelo
 

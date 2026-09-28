@@ -12,9 +12,6 @@ Hasta aquí ha quedado una pregunta sin cerrar: qué ocurre con la información 
 
 No para decidir cuál tiene razón. El capítulo 53 lo dirá con claridad: la ética, y con ella buena parte de la teología, excede su vocabulario. Pero sí puede hacer algo más modesto y quizá más útil: poner una junto a otra cinco respuestas humanas completamente distintas y preguntar qué tienen en común y en qué se separan exactamente. No para fundirlas en una sola, sino para ver con precisión en qué discrepan.
 
-> **En física esto se llama:** cinco modelos distintos ajustados a los mismos datos incompletos, cada uno con supuestos de fondo diferentes.
-> **En la vida diaria es como:** cinco testigos de un mismo accidente que describen lo que vieron desde ángulos que no coinciden del todo: ninguno miente, pero ninguno vio la escena entera.
-
 ---
 
 ### Cuatro preguntas, no una
@@ -38,9 +35,6 @@ La diferencia estructural con el vedanta y el taoísmo es radical. Brahman nirgu
 
 Eso cambia por completo la respuesta a la segunda pregunta. El vedanta dice que la ola nunca dejó de ser océano; el cristianismo, que el alma es una gota que Dios se propone conservar como gota, no disolver. La resurrección de la carne, no la inmortalidad de un alma flotante, sino la promesa de un cuerpo restaurado, es en el vocabulario de este libro la afirmación de que el horizonte individual *no* se evapora sin remanente. De las tres opciones que el capítulo 53 dejará abiertas (remanente, huella, nada), el cristianismo apuesta con toda su fuerza doctrinal por el remanente: algo que conserva forma, memoria e identidad reconocible, y que un día «se leerá» de nuevo, en el Juicio, con toda su información intacta.
 
-> **En física esto se llama:** conservación fuerte de la identidad del horizonte a través de la evaporación, en vez de scrambling irreversible.
-> **En la vida diaria es como:** guardar una carta en una caja fuerte en lugar de dejar que el viento se lleve sus cenizas: la promesa no es que la carta se transforme en otra cosa, sino que siga siendo, letra a letra, la misma carta.
-
 La tercera pregunta, de dónde sale el código, tiene aquí una respuesta directa: del mandamiento. Pero el cristianismo la complica con una segunda capa que lo distingue del islam: la ley no basta, y la gracia, el amor no merecido, pesa más que el cumplimiento. El «debería» no nace solo de una orden externa, como en la lectura más simple de la teoría del mandato divino, sino de una relación: se obra bien porque se ha sido amado primero, no para ganarse el amor. La brecha de Hume se cierra apelando no a un hecho, sino a un vínculo, el mismo tipo de vínculo entrelazado que el capítulo 12 describió entre personas, trasladado a una escala vertical.
 
 En este marco, vivir es una peregrinación: un tiempo de prueba y de elección con consecuencias que trascienden la propia vida, no un ciclo que se repite.
@@ -54,9 +48,6 @@ El islam comparte con el cristianismo la estructura básica (un horizonte de ori
 Esa pureza tiene una consecuencia clara en la tercera pregunta. Si no hay mediación por encarnación, el código ético no llega envuelto en una relación personal que lo suavice, sino como ley (la *sharia*), derivada directamente de la voluntad divina revelada, con un grado de concreción práctica (qué comer, cómo rezar, cómo pleitear) que el cristianismo deja en buena medida a la tradición y a la razón natural. La brecha de Hume se cierra aquí sin ambigüedad: el «es» del que nace el «debería» es la propia palabra de Dios, tomada como hecho revelado y no como argumento que haya que construir.
 
 En la segunda pregunta, el islam coincide con el cristianismo en apostar por el remanente y no por la disolución: hay una resurrección corporal, un Día del Juicio (*Yawm al-Qiyamah*), un jardín (*Yanna*) y un fuego (*Yahannam*) que son destinos, no metáforas de la reabsorción en un campo sin nombre. La fórmula que pronuncia un musulmán ante la muerte, *inna lillahi wa inna ilayhi raji'un* («de Dios venimos y a Él volvemos»), usa la misma palabra, *retorno*, que el capítulo 7 de este libro emplea para la evaporación. Pero el destino de ese retorno no es un reservorio impersonal, sino una rendición de cuentas ante alguien que pesa.
-
-> **En física esto se llama:** frontera de acceso absoluta entre el reservorio y el horizonte de origen: ninguna condensación ni encarnación la cruza en ningún sentido.
-> **En la vida diaria es como:** una luz tan intensa que no se puede mirar directamente ni un instante: se la conoce por lo que ilumina, nunca por contacto.
 
 Aquí, la vida es *dunya*: un préstamo temporal, una prueba (*ibtila*) cuyo sentido pleno solo se revela al final. No hay ciclo ni repetición: una sola vida y un solo peso final.
 
@@ -81,7 +72,6 @@ El ateísmo, con sus primos más cautos, el agnosticismo y el naturalismo laico,
 No es, como a veces se caricaturiza, la ausencia de código moral, sino la apuesta de que el código no necesita un autor externo: surge de la biología social, de la evolución de la empatía y la reciprocidad, de siglos de negociación cultural sobre qué hace habitable la convivencia. Aquí la brecha de Hume no se cierra: se acepta como estructural y se vive con ella, que es lo que este mismo libro hará explícitamente en el capítulo 53 al negarse a decir qué «deberías» hacer con la información que ofrece.
 
 > **En física esto se llama:** modelo nulo, la hipótesis que no añade entidades no observadas para explicar los datos.
-> **En la vida diaria es como:** leer el mapa del capítulo 53 y aceptar que termina donde termina, sin dibujar territorio a partir de lo que a uno le gustaría que hubiera más allá del borde.
 
 En este marco, vivir no es una prueba, ni un préstamo, ni una ilusión que atravesar, sino el fenómeno completo, no la antesala de otra cosa. Eso no lo vuelve menos denso: como mostrará el capítulo 54, sobre la práctica, la falta de una promesa trascendente no impide que la meditación, el vínculo o la creatividad reorganicen el horizonte con toda su fuerza. Solo cambia dónde se espera encontrar el sentido: no después del horizonte, sino dentro de él, mientras dura.
 
@@ -114,9 +104,6 @@ La primera: ¿conserva el «yo» que persiste una **frontera reconocible** o se 
 La segunda: ¿llega el código ético **desde fuera** del sistema, con una autoridad que no necesita justificarse ante la razón humana, o se **construye desde dentro**, siempre sujeto a revisión? El cristianismo y el islam responden que desde fuera. El hinduismo, que desde el propio tejido de lo real, que no es exactamente «fuera», pero tampoco es negociable. El budismo y el ateísmo, que desde dentro: por la observación del sufrimiento o por evolución y acuerdo social.
 
 Cruzar estos dos ejes, frontera conservada o disuelta y código externo o construido, no da una tabla de dos por dos limpia, porque el hinduismo ocupa en el segundo eje una posición intermedia que ninguna casilla recoge bien. Pero el ejercicio deja algo claro: la diferencia entre estas cinco tradiciones no es, como suele simplificarse, «creer en algo» frente a «no creer en nada», sino una diferencia de arquitectura sobre exactamente los mismos puntos que este libro ha tenido que dejar sin resolver: qué es el reservorio, si el horizonte lo sobrevive con forma y de dónde viene el «debería».
-
-> **En física esto se llama:** cinco condiciones de contorno distintas aplicadas a la misma ecuación sin resolver.
-> **En la vida diaria es como:** cinco familias que heredan la misma casa vacía y la amueblan de maneras irreconciliables: unas guardan la llave de una habitación que, según dicen, se abrirá algún día; otras tiran la llave y dicen que nunca hubo puerta.
 
 ---
 

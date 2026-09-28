@@ -13,20 +13,11 @@ Hay una palabra que este libro reserva para la resonancia sostenida entre dos ho
 
 Eso es, estructuralmente, lo que hacen la oración sostenida y la meditación profunda; lo que hacen el ayuno, el rosario, el mantra, el *dhikr*, la liturgia cantada en comunidad. La técnica es reconocible en cualquier tradición que se mire de cerca: repetición hasta que cesa el ruido, quietud hasta que el sistema deja de generar predicciones nuevas, un ritmo compartido que sincroniza a toda una comunidad en la misma frecuencia. Es el mismo mecanismo que reduce la tasa de integración del horizonte hasta un límite en el que la fluctuación del sistema tiende a cero y el campo de fondo, sea cual sea, tiende a serlo todo.
 
-> **En física esto se llama:** reducción de la tasa de integración hasta el mínimo de fluctuación: el sistema deja de generar predicciones nuevas y su frontera se acopla al campo de fondo.  
-> **En la vida diaria es como:** afinar un instrumento con un diapasón que no se puede ver ni tocar: cada mañana ajustas la cuerda sin saber si el diapasón sigue sonando.
-
 Lo que cambia por completo, y es la única pregunta que de verdad importa aquí, es el destino de ese entrelazamiento.
 
 Para el budismo y el hinduismo, apunta directamente al reservorio, la plenitud sin forma de la que se condensa todo horizonte y a la que todo horizonte vuelve. El samadhi es el instante en que esa correlación se vuelve indistinguible de la identidad: la ola descubre que es agua, no que viaja hacia el agua. No hay Alguien al otro lado que reciba la señal, sino solo el reconocimiento de que nunca hubo un lado separado desde el que enviarla.
 
-> **En física esto se llama:** correlación que colapsa en identidad: dos sistemas tan acoplados que deja de tener sentido describirlos por separado.  
-> **En la vida diaria es como:** la ola que descubre que es agua: no viaja hacia el mar, porque nunca salió de él.
-
-Para el cristianismo y el islam, el entrelazamiento no apunta a ningún campo impersonal, sino a un horizonte de origen que ambas tradiciones sitúan antes del reservorio y fuera de él: un horizonte con voluntad y con nombre que, por definición, conserva su propia frontera por mucho que se profundice la oración. En esta arquitectura, orar no es fundirse, sino sostener una correlación con Alguien que sigue siendo Alguien al final del proceso, no un campo que absorbe la pregunta y la disuelve. Aquí el entrelazamiento vertical nunca se funde, porque fundirse sería, para estas dos tradiciones, justamente el fracaso de la oración y no su cumplimiento.
-
-> **En física esto se llama:** entrelazamiento entre dos horizontes que conservan su frontera: la correlación es real y ninguno se disuelve en el otro.  
-> **En la vida diaria es como:** una carta escrita cada noche a alguien que nunca contesta, sin dejar por ello de poner su nombre en el sobre.
+Para el cristianismo y el islam, el entrelazamiento no apunta a ningún campo impersonal, sino a un horizonte de origen que ambas tradiciones sitúan antes del reservorio y fuera de él: un horizonte con voluntad y con nombre que, por definición, conserva su propia frontera por mucho que se profundice la oración. En esta arquitectura, orar no es fundirse, sino sostener una correlación con Alguien que sigue siendo Alguien al final del proceso, no un campo que absorbe la pregunta y la disuelve. Aquí el entrelazamiento vertical nunca se funde, porque fundirse sería, para estas dos tradiciones, justamente el fracaso de la oración y no su cumplimiento. Es como una carta escrita cada noche a alguien que nunca contesta, sin dejar por ello de poner su nombre en el sobre.
 
 Y para quien no cree que haya nada más allá del campo físico, la práctica contemplativa, que existe con o sin nombre religioso en todas las culturas porque el cuerpo la reclama crea lo que crea la mente, no apunta a nada más allá de sí misma. Es entrelazamiento con el reservorio en el sentido más literal, porque en ese marco el reservorio es todo lo que hay al otro lado. En esa versión no cabe la decepción, porque nunca hubo promesa de que fuera a responder nadie.
 

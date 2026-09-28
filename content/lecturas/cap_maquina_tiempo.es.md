@@ -24,8 +24,6 @@ Hay, además, una segunda fuente de asimetría, distinta de la entropía, que no
 
 > **En física esto se llama:** caos determinista: un sistema puede obedecer leyes fijas y ser, aun así, impredecible a largo plazo, porque errores infinitesimales en la medida inicial crecen exponencialmente.
 
-> **En la vida diaria es como:** intentar predecir dónde caerá una hoja que se mece al viento: conoces a la perfección la física del aire y, aun así, ningún cálculo te dice con precisión en qué baldosa aterrizará.
-
 Esto importa porque cambia la pregunta que le hacemos a cada ficción de viajes en el tiempo: ya no si viola la relatividad (casi nunca lo hace), sino si le pide a la condición de frontera que se deshaga.
 
 ---
@@ -39,9 +37,6 @@ Hay algo que le pasa al horizonte interior del Viajero en ese trayecto que merec
 Nada de eso pide que la entropía retroceda. El Viajero solo se mueve hacia delante, cada vez más rápido, dejando que el universo termine de hacer lo que ya estaba haciendo. Al final regresa a 1895 para cerrar el relato (un salto técnicamente hacia atrás, pero solo hasta un punto que él mismo ya vivió, sin tocar nada que no hubiera tocado ya), algo que es más un recurso del marco narrativo que una incursión real en el pasado. El contenido filosófico del libro, el que de verdad importa para este experimento, es enteramente de ida.
 
 Esa vuelta merece un poco más de atención de la que suele recibir, porque no está del todo vacía de consecuencias causales. El Viajero vuelve casi al mismo momento del que salió (para quienes se quedaron apenas han pasado unas horas) y les cuenta, a los amigos reunidos en su casa (entre ellos el narrador, que es quien finalmente pone la historia por escrito), lo que ha visto en el año 802.701 y en la playa del fin del tiempo. Eso es información real sobre el futuro que llega a personas que, hasta ese momento, no la tenían. Pero no es un bucle en el sentido fuerte del término: nada de lo que el Viajero cuenta altera las condiciones que hicieron posible su propio viaje. Él ya había construido la máquina antes de partir; nadie usa el conocimiento del futuro para fabricar la máquina que hizo falta para obtenerlo. Es la diferencia exacta entre una historia que revela información nueva y una historia que necesita esa información para empezar a existir. El segundo caso sí sería un bucle cerrado sobre sí mismo, y es el terreno que pisaremos, sin la cortesía con la que hemos tratado a Wells, en la sección 7 de este capítulo.
-
-> **En física esto se llama:** evolución hacia un estado de equilibrio térmico máximo (muerte térmica).
-> **En la vida diaria es como:** una fiesta que se va quedando sin nadie que hable, hasta que solo queda el ruido de fondo.
 
 ---
 

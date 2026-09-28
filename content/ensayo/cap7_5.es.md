@@ -41,13 +41,9 @@ En 1935, Einstein describió dos cosas:
 
 En 2013, los físicos Maldacena y Susskind propusieron algo sorprendente: que quizá sean lo mismo. Que, cuando dos partículas están «entrelazadas», lo que ocurre es que comparten un túnel microscópico, no un túnel por el que viajar, sino un túnel que *es* la propia conexión.
 
-> **En física esto se llama:** ER=EPR.  
-> **En la vida diaria es como:** dos habitaciones unidas por un pasadizo secreto: nadie viaja de una a otra, pero son la misma casa vista desde dos puertas.
+> **En física esto se llama:** ER=EPR.
 
 Si es así, el entrelazamiento no es una correlación misteriosa, sino geometría: una conexión real en el tejido del espacio-tiempo. Por el túnel no viaja información (no se pueden enviar señales más rápido que la luz), pero la conexión existe como curvatura del espacio, tan real como cualquier otra.
-
-> **En física esto se llama:** el entrelazamiento es geometría, no correlación estadística.  
-> **En la vida diaria es como:** dos árboles unidos por raíces subterráneas: no ves la conexión, pero los dos beben de la misma agua.
 
 ### Decoherencia: por qué no vemos entrelazamiento
 
@@ -79,9 +75,6 @@ Sus horizontes no están del todo separados.
 
 Aplicado a cerebros, esto es muy especulativo y carece de pruebas experimentales. Pero permite formular una pregunta precisa: ¿qué significaría «vínculo» si la información fuera de verdad geometría compartida?
 
-> **En física esto se llama:** especulación teórica, no evidencia.  
-> **En la vida diaria es como:** preguntarse si el amor es solo química o si la química es la huella de algo más hondo.
-
 No sabemos si dos cerebros pueden estar entrelazados en sentido físico. Sabemos que su actividad puede correlacionarse de forma sorprendente, como demuestra el acoplamiento neuronal de Hasson, pero una correlación clásica no es entrelazamiento cuántico. La diferencia es sutil y decisiva: la correlación clásica puede explicarse por causas comunes o por comunicación directa; el entrelazamiento cuántico, no.
 
 > **En física esto se llama:** correlación clásica ≠ entrelazamiento cuántico.  
@@ -95,13 +88,7 @@ Algunos teóricos, entre ellos Roger Penrose, han propuesto que la conciencia de
 
 La mayoría de los neurocientíficos y físicos rechaza la hipótesis. El cerebro es un medio caliente, húmedo y ruidoso, justo el tipo de entorno en el que la decoherencia destruye los estados cuánticos en fracciones de segundo. Los cálculos sugieren que cualquier superposición cuántica en una neurona se destruiría mucho antes de que pudiera influir en el comportamiento del sistema.
 
-> **En física esto se llama:** decoherencia en sistemas biológicos: los tiempos de coherencia son demasiado cortos para una computación cuántica significativa.  
-> **En la vida diaria es como:** intentar escribir un poema en una hoja que se deshace al tocarla: la tinta no llega a secarse porque el papel ya no existe.
-
 Pero hay una vuelta de tuerca. Desde 2007, varios equipos (el primero, el de Graham Fleming en Berkeley) han publicado resultados que sugieren que ciertos complejos fotosintéticos de bacterias y algas mantienen coherencias cuánticas durante más tiempo del esperado, incluso a temperatura ambiente, aunque su papel real sigue discutiéndose. Si la naturaleza ha encontrado maneras de proteger la coherencia cuántica en sistemas biológicos, quizá el cerebro también lo haya hecho, de un modo que todavía no entendemos.
-
-> **En física esto se llama:** biología cuántica, el estudio de fenómenos cuánticos en seres vivos.  
-> **En la vida diaria es como:** descubrir que una planta de tu jardín tiene wifi: no debería ser posible, pero ahí está.
 
 Lo más sensato es el agnosticismo. No sabemos si el cerebro usa computación cuántica ni si dos cerebros pueden estar entrelazados. Sabemos que el entrelazamiento existe, que podría ser geometría compartida y que ofrece el vocabulario más preciso del que disponemos para hablar de conexiones que trascienden la separación espacial. Basta para que el experimento lo use como metáfora formal: no como dogma, sino como herramienta de pensamiento.
 

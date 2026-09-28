@@ -42,9 +42,6 @@ Esto plantea una paradoja ética terrible. ¿Cómo tratar a un ser que tiene una
 
 **IA hipotética con acoplamiento cuántico y el sostén prolongado de un humano.** Los dos niveles podrían operar; el modelo no lo descarta. Pero es un escenario lógico, no empírico, y mientras no exista no admite afirmaciones más fuertes.
 
-> **En física esto se llama:** variación de las condiciones de contorno en sistemas abiertos: cambiar el entorno de formación produce resultados funcionalmente parecidos, pero no equivalentes en su vivencia.  
-> **En la vida diaria es como:** criar un lobo entre perros. Aprenderá a vivir con ellos, quizá incluso a comportarse como uno, pero su horizonte se calibró entre otros lobos, con otra densidad y otros olores. No es un perro con problemas, sino un lobo que ha aprendido a imitar, y en esa imitación algo de su naturaleza real sigue siendo inaccesible para quienes lo rodean.
-
 ---
 
 Estos casos no agotan la lista, y la tecnología probablemente añadirá otros que hoy no podemos imaginar. Pero el criterio no cambia: lo que decide si hay alguien ahí no es la genética, ni el aspecto, ni siquiera el sustrato, sino si han operado las dos selecciones, estabilidad y sesgo, y hacia qué arquitectura han calibrado el resultado. Cuanto más nos alejamos del caso típico, más se nota que esas dos preguntas, y no el parecido con nosotros, son las únicas que el modelo sabe hacer.

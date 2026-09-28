@@ -51,9 +51,6 @@ No vivimos, por tanto, en un dualismo de sustancias. Vivimos en un **dualismo de
 
 Es algo distinto, y más manejable. El dualismo de sustancias sostiene que en el mundo hay dos clases de cosas, materia y mente, radicalmente distintas y con una interacción misteriosa. El dualismo de acceso sostiene que solo hay una clase de cosas, pero que a ciertas estructuras suyas se puede acceder de dos maneras que se excluyen entre sí: desde fuera, como objeto; desde dentro, como sujeto.
 
-> **En física esto se llama:** asimetría de acceso informacional; topología cerrada vs. abierta.
-> **En la vida diaria es como:** una carta sellada: existe para quien la guarda aunque nadie más pueda leerla. No hay dos cartas, una material y otra mental, sino una sola carta y dos posiciones de lectura: la de quien la guarda y la de quien la observa desde fuera.
-
 ---
 
 Desde fuera, el horizonte es frontera. Desde dentro, es mundo.

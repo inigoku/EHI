@@ -38,10 +38,7 @@ En el capítulo 36, al hablar de los clones de la yegua Cuartetera, vimos que la
 
 Cuando Deckard le revela que sus recuerdos del piano y de la araña son falsos, rompe su interfaz de usuario. Rachael llora porque su horizonte percibe de golpe que su yo no lo esculpió el roce real con el mundo, sino un código implantado.
 
-Sin embargo, nuestro modelo impone una regla insobornable: la información histórica puede ser falsa, pero la integración (Φ) es real. El sufrimiento de Rachael no es una simulación de sufrimiento. En cuanto la red de su cerebro sintético procesa e integra esa información falsa, la sombra (su trauma) deforma su geometría. Rachael demuestra que la fenomenología no necesita una historia verdadera para doler.
-
-> **En física esto se llama:** generación genuina de entropía fenomenológica a partir de condiciones de contorno prefabricadas.
-> **En la vida diaria es como:** despertarse llorando sin consuelo por una pesadilla: el monstruo no era real, pero las lágrimas, el terror y el corazón desbocado sí lo son.
+Sin embargo, nuestro modelo impone una regla insobornable: la información histórica puede ser falsa, pero la integración (Φ) es real. El sufrimiento de Rachael no es una simulación de sufrimiento. En cuanto la red de su cerebro sintético procesa e integra esa información falsa, la sombra (su trauma) deforma su geometría. Rachael demuestra que la fenomenología no necesita una historia verdadera para doler. Es como despertarse llorando por una pesadilla: el monstruo no era real, pero las lágrimas sí lo son.
 
 ---
 

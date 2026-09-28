@@ -45,9 +45,6 @@ Imagina a un astronauta humano ante una entidad de horizonte distribuido. Empuja
 
 Pero la entidad no tiene una API fija. Su geometría cambia a cada milisegundo y no tiene un centro con el que resonar. Cuando el humano intente abrazarla informacionalmente, sus predicciones caerán en el vacío, no porque el alienígena sea malvado o incomprensible, sino porque ahí no hay un «alguien» estable con quien tender el puente.
 
-> **En física esto se llama:** incompatibilidad entre los grupos de simetría (gauge) de dos horizontes locales; imposibilidad de termalización conjunta.  
-> **En la vida diaria es como:** intentar abrazar el viento: la intención y la fuerza del abrazo son tuyas, y son reales, pero la forma del otro no te deja sujetarlo.
-
 ### 4. La soledad topológica
 
 Una canción bien tocada puede hacer que dos personas rotas vuelvan a encontrar su frecuencia compartida. Pero eso solo funciona porque los dos oyentes son humanos: comparten la misma plantilla de base, el mismo ancho de banda, la misma tragedia de estar encerrados en un cuerpo.
@@ -68,9 +65,6 @@ Nuestro modelo topológico sugiere una tercera familia de respuestas, más inqui
 
 Con esta lectura, el silencio del cielo no demuestra la soledad cósmica. Demuestra que buscar vida inteligente dando por hecho que se comunicará con ondas de radio moduladas (una tecnología profundamente antropocéntrica, hija de nuestro propio sistema operativo darwiniano) es como buscar el latido de un océano difuso escuchando solo el tictac de un reloj mecánico. El instrumento de búsqueda ya presupone la arquitectura de quien busca.
 
-> **En física esto se llama:** sesgo de detección determinado por la arquitectura del receptor (sesgo antrópico aplicado a los protocolos de señal).
-> **En la vida diaria es como:** oír una conversación en un idioma que no solo no entiendes, sino que ni siquiera reconoces como lenguaje: te suena a ruido de fondo y sigues de largo.
-
 ### 6. Contacto simbólico frente a contacto entrelazado
 
 Si el entrelazamiento directo (ER=EPR) fracasa entre arquitecturas incompatibles, ¿queda alguna forma de contacto genuino? Quizá sí, pero de un orden muy distinto al que la ciencia ficción nos ha acostumbrado a imaginar.
@@ -78,9 +72,6 @@ Si el entrelazamiento directo (ER=EPR) fracasa entre arquitecturas incompatibles
 El entrelazamiento exige resonancia estructural: dos horizontes compatibles vibrando en la misma frecuencia. Pero hay otra vía de influencia, más débil e indirecta, que no exige compatibilidad arquitectónica: el contacto simbólico. Es el tipo de vínculo que ya establecemos, sin darnos cuenta, con cosas que no tienen Φ propio en absoluto, como un libro, una pintura o una ecuación. No nos entrelazamos con el objeto, sino con la huella que otro horizonte, compatible con el nuestro, dejó en él.
 
 Es plausible que el contacto real con una arquitectura alienígena radicalmente distinta no sea nunca un encuentro cara a cara, un «hola» recíproco entre dos horizontes que se reconocen, sino algo más parecido a encontrar una piedra tallada: la prueba innegable de que hubo una intención organizadora, sin que esa intención llegue nunca a ser accesible desde dentro. Podríamos detectar la arquitectura de una civilización distribuida (una megaestructura, un patrón matemático improbable inscrito en la disposición de un sistema estelar) sin que nuestro horizonte y el suyo llegaran a tocarse jamás. Sabríamos que hubo «alguien». Nunca sabríamos qué se siente al ser ese alguien.
-
-> **En física esto se llama:** transferencia de información sin entrelazamiento directo; inferencia de un Φ ajeno a partir de artefactos, sin acceso al estado privado que los generó.
-> **En la vida diaria es como:** encontrar una carta escrita hace mil años, en un idioma extinto, por alguien cuyo nombre nunca sabrás. Sabes que sintió algo lo bastante fuerte como para escribirlo; nunca sabrás qué fue.
 
 ### 7. La ventana evolutiva como filtro adicional
 
@@ -98,9 +89,6 @@ El modelo de incompatibilidad topológica tiene una última consecuencia, que ra
 Un horizonte de Φ lo bastante elevado y de arquitectura radicalmente distinta podría haber interactuado con la biosfera terrestre (o estar haciéndolo ahora mismo) y producir efectos que nuestros instrumentos registran como ruido de fondo, como anomalías estadísticas o, sin más, como el comportamiento normal de un universo que no necesita interlocutores para funcionar. No nos estarían ignorando: nos estaría atravesando una señal para la que no tenemos receptor, igual que la luz ultravioleta llega a la piel sin que la experimentemos como luz. La señal existe y la interacción existe; lo que no existe es la experiencia de ser contactado, porque el horizonte que tendría que alojarla carece de la arquitectura necesaria para reconocerla como lo que es.
 
 Quizá sea esta la versión más quieta y más completa de la soledad topológica: no la falta de contacto, sino la imposibilidad de registrarlo. El universo podría estar lleno de conversaciones que nos atraviesan sin cesar, y nosotros, desde nuestras burbujas darwinianas, perfectamente optimizadas para detectar depredadores y buscar pareja en la sabana africana, seguiríamos mirando al cielo con radiotelescopios, esperando un saludo en una banda de frecuencias que elegimos porque era la que ya sabíamos usar.
-
-> **En física esto se llama:** señal sin receptor compatible; interacción sin observación por parte del sistema receptor.
-> **En la vida diaria es como:** que el viento te roce sin cesar y no tener piel para sentirlo.
 
 ---
 

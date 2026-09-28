@@ -28,9 +28,6 @@ En 1916, Karl Schwarzschild, un astrónomo alemán que calculaba trayectorias de
 
 En 1939, J. Robert Oppenheimer, el mismo que después dirigiría el Proyecto Manhattan, demostró que una estrella suficientemente masiva, al agotar su combustible nuclear, colapsaría inevitablemente bajo su propia gravedad. Ninguna fuerza conocida podría detener la contracción. La idea había vuelto, y esta vez para quedarse.
 
-> **En física esto se llama:** solución de Schwarzschild, colapso gravitatorio.  
-> **En la vida diaria es como:** una idea que se te ocurre, descartas y, décadas después, resulta ser correcta. Algunas verdades no desaparecen: esperan a que alguien esté preparado para ellas.
-
 ---
 
 ### Lo que hay dentro
@@ -40,9 +37,6 @@ Una vez dentro del horizonte, la dirección hacia la singularidad deja de ser es
 ¿Y qué es la singularidad? Aquí la física hace algo poco habitual: admitir que no lo sabe. Las ecuaciones de la relatividad general producen infinitos: densidad infinita, curvatura infinita, tiempo que deja de tener sentido. Cuando unas ecuaciones dan infinitos, lo normal es que el modelo haya llegado a su límite y haya que sustituirlo por una teoría más fundamental; en este caso, una teoría cuántica de la gravedad que todavía no existe.
 
 La relatividad general funciona perfectamente en casi todas las situaciones del universo: desde tu GPS hasta la expansión cósmica. En la singularidad, falla. Ahí se acaba el mapa y empieza lo desconocido.
-
-> **En física esto se llama:** singularidad, brecha de Planck, problema de la gravedad cuántica.  
-> **En la vida diaria es como:** el borde de un mapa antiguo donde los cartógrafos escribían «aquí hay dragones», no porque los hubiera, sino porque el mapa terminaba. O como el momento en que una explicación deja de funcionar y solo queda el hecho desnudo: no sabemos qué hay ahí. Todavía.
 
 ---
 
@@ -56,9 +50,6 @@ Pero el combustible se agota. El hidrógeno se convierte en helio, el helio en c
 
 Si lo que queda en el centro tiene más de unas tres masas solares, ninguna fuerza conocida puede detener la contracción. Ni la presión de los electrones degenerados, que sostiene a una enana blanca, ni la de los neutrones, que sostiene a una estrella de neutrones. Gana la gravedad: la estrella se devora a sí misma, y donde antes había una esfera de plasma brillante, ahora hay un horizonte de sucesos rodeando una singularidad que nadie puede ver.
 
-> **En física esto se llama:** colapso gravitatorio, supernova, límite de Tolman-Oppenheimer-Volkoff.  
-> **En la vida diaria es como:** una vela que se consume: mientras hay cera, la llama se sostiene. Cuando se acaba, no hay transición suave: la llama se extingue. La diferencia es que el núcleo estelar no se apaga, sino que colapsa.
-
 ---
 
 ### El tiempo se congela en el borde
@@ -71,8 +62,7 @@ Desde dentro, en cambio, no pasa nada especial. Según su propio reloj, el obser
 
 Esta asimetría es uno de los hechos filosóficamente más fecundos de la física moderna. Un mismo suceso admite dos descripciones válidas e incompatibles entre sí; no existe una única realidad objetiva del cruce, y lo que se experimenta depende de dónde está el observador. La relatividad no trata solo del espacio y el tiempo, sino de la relatividad de la propia perspectiva.
 
-> **En física esto se llama:** dilatación temporal gravitatoria, coordenadas de Schwarzschild vs. coordenadas del observador en caída libre.  
-> **En la vida diaria es como:** dos personas que viven la misma despedida, una desde la orilla y otra desde el barco que zarpa: el mismo adiós a dos velocidades. Para quien se queda, el otro se aleja cada vez más despacio hasta detenerse en el horizonte; para quien se va, la orilla se aleja a velocidad constante y luego desaparece. Los dos tienen razón, y ninguno la tiene entera.
+> **En física esto se llama:** dilatación temporal gravitatoria, coordenadas de Schwarzschild vs. coordenadas del observador en caída libre.
 
 ## [SIMULACIÓN HORIZONTE]
 
@@ -97,9 +87,6 @@ LIGO escucha el universo con dos brazos de cuatro kilómetros cada uno, dispuest
 
 La señal de una fusión de agujeros negros suena como un *chirp*: un tono que sube de frecuencia rápidamente, como un pájaro que acelera su canto, hasta alcanzar una nota final aguda en el momento de la fusión. Ese sonido es el canto de la geometría del espacio-tiempo. Cada fusión tiene su propia voz, que depende de las masas de los agujeros, y LIGO ya ha registrado cientos. El universo está lleno de agujeros negros que cantan.
 
-> **En física esto se llama:** ondas gravitacionales, fusión de agujeros negros, interferometría láser.  
-> **En la vida diaria es como:** sentir la vibración de un concierto en el pecho desde kilómetros de distancia: no oyes la música, pero notas su efecto en el aire que te rodea. LIGO nota vibrar el universo.
-
 ---
 
 ### Hawking descubre que los agujeros negros no son negros
@@ -112,8 +99,7 @@ El vacío cuántico, el espacio aparentemente vacío, no está vacío. Está lle
 
 El resultado acumulado es la **radiación de Hawking**: un flujo continuo y tenue que emana del propio horizonte, no del interior, sino del borde. Un agujero negro muy pequeño tiene temperatura muy alta y se evapora rápidamente, explotando en una ráfaga final de radiación. Uno muy masivo tiene una temperatura ínfima, más fría incluso que el fondo cósmico de microondas, y sobrevive eones, absorbiendo más energía del universo de la que emite.
 
-> **En física esto se llama:** radiación de Hawking, creación de partículas en campos curvos, evaporación de agujeros negros.  
-> **En la vida diaria es como:** el calor que desprende una taza de café: el café no «fabrica» calor; el calor fluye por la diferencia entre el café y el ambiente. O como el vaho de una taza de té en una habitación fría, que surge del encuentro entre ambos.
+> **En física esto se llama:** radiación de Hawking, creación de partículas en campos curvos, evaporación de agujeros negros.
 
 ---
 
@@ -142,8 +128,7 @@ Es el **principio holográfico**, y su alcance es enorme: toda la información c
 
 En 1997, Juan Maldacena lo formalizó en la correspondencia AdS/CFT: una teoría gravitacional en un volumen es matemáticamente equivalente a una teoría cuántica sin gravedad que vive en su frontera. Las dos teorías son distintas (viven en dimensiones diferentes y usan ecuaciones diferentes), pero predicen los mismos resultados. Son dos descripciones del mismo sistema, como una novela y su adaptación al cine: medios distintos, la misma historia.
 
-> **En física esto se llama:** principio holográfico, correspondencia AdS/CFT, límite de Bekenstein.  
-> **En la vida diaria es como:** el holograma de una tarjeta de crédito: la imagen en 3D está en la superficie, no dentro. O una fotografía: todo lo necesario para reconstruir la escena está en la película plana, no en el espacio tridimensional que representa.
+> **En física esto se llama:** principio holográfico, correspondencia AdS/CFT, límite de Bekenstein.
 
 ---
 
@@ -154,9 +139,6 @@ En 2016, dos años antes de su muerte, Stephen Hawking, junto con Malcolm Perry 
 Imagina que lanzas un libro a un agujero negro. El libro desaparece del universo observable. Pero su información no se deshace: queda registrada en el «pelo suave» del horizonte, deformaciones permanentes de la geometría que guardan memoria de cada partícula que lo cruzó. El horizonte no «recuerda» como recuerdas tú; su geometría cambia de forma irreversible con cada caída, y esos cambios contienen, en principio, suficiente información para reconstruir lo que cayó.
 
 El pelo suave no resuelve del todo la paradoja (la información todavía tiene que salir de algún modo con la radiación de Hawking), pero muestra que el horizonte no es un sumidero ciego, sino una superficie activa y dinámica que registra. Como la piel que cicatriza: cada marca informa de lo que la dañó.
-
-> **En física esto se llama:** soft hair de Hawking-Perry-Strominger, supertraslaciones asintóticas, memoria gravitacional.  
-> **En la vida diaria es como:** la cicatriz que deja una herida: no es la herida, pero contiene información sobre ella. El cuerpo no la recuerda conscientemente, pero su textura la registra.
 
 ---
 
@@ -170,8 +152,7 @@ La información se vuelve global: ninguna parte la contiene por sí sola, porque
 
 Si la conciencia tiene la estructura de un horizonte, la identidad no está en ningún punto concreto, sino repartida a la vez en todas las correlaciones entre las partes del horizonte: inaccesible desde fuera, pero presente. Tu identidad no está en ninguna neurona, sino en cómo se relacionan todas.
 
-> **En física esto se llama:** scrambling cuántico, caos cuántico, entrelazamiento multipartito.  
-> **En la vida diaria es como:** echar tinta en agua: la información no desaparece, se mezcla. Para reconstruir la gota original, necesitarías medir cada molécula de agua y sus relaciones con todas las demás. O como un rumor: cada persona que lo oye cuenta una versión algo distinta, y la historia original solo puede reconstruirse comparándolas todas, porque ninguna basta por sí sola.
+> **En física esto se llama:** scrambling cuántico, caos cuántico, entrelazamiento multipartito.
 
 ---
 
@@ -183,8 +164,7 @@ ER (Einstein-Rosen, el mismo año y el mismo Einstein) describió los agujeros d
 
 Maldacena y Susskind propusieron que son el mismo fenómeno descrito con lenguajes distintos. El entrelazamiento no sería una misteriosa correlación a distancia, sino una conexión geométrica real en el espacio-tiempo; la no localidad cuántica tendría estructura geométrica. El entrelazamiento no viaja a través del espacio: lo crea.
 
-> **En física esto se llama:** ER=EPR, entrelazamiento como geometría, agujeros de gusano cuánticos.  
-> **En la vida diaria es como:** dos cuerdas de guitarra que, habiéndose afinado juntas, vibran al unísono sin que nada viaje entre ellas. Una cuerda no «envía» información a la otra: ambas forman parte del mismo sistema resonante, y la distancia entre ellas es una propiedad del espacio que comparten, no una separación real.
+> **En física esto se llama:** ER=EPR, entrelazamiento como geometría, agujeros de gusano cuánticos.
 
 Si el entrelazamiento es geometría, y si la conciencia tiene la estructura de un horizonte, entonces las conexiones entre conciencias podrían ser conexiones geométricas reales en el tejido del espacio-tiempo. El amor, el vínculo o la empatía serían entrelazamiento que crea geometría. No en el sentido romántico de «estamos conectados», sino en el sentido literal de que dos sistemas que comparten información suficiente podrían estar unidos por una geometría que la física todavía no sabe medir.
 

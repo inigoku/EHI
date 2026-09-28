@@ -23,9 +23,6 @@ El entrelazamiento horizontal ocurre entre horizontes de la misma escala: dos pe
 
 El entrelazamiento vertical ocurre entre escalas: entre un horizonte contenido y el que lo contiene, entre la criatura y su vecino de arriba. Y aquí aparece una asimetría que el capítulo 29 no necesitaba ver, porque solo miraba en una dirección: el camino hacia arriba y el camino hacia abajo no se recorren con los mismos pasos.
 
-> **En física esto se llama:** acoplamiento entre escalas: dos sistemas de tamaños muy distintos solo intercambian información a través de variables intermedias, nunca de grado de libertad a grado de libertad.  
-> **En la vida diaria es como:** la relación entre una célula y el cuerpo que la contiene: la célula no puede hablar con «el cuerpo», solo con las hormonas y las señales que el cuerpo le envía a su escala.
-
 ### Subir y bajar
 
 El vector ascendente es el que ya describió el capítulo 29: el movimiento de la criatura hacia la escala que la contiene. Pide recogimiento, silencio, quietud; apagar el ruido del ego y el parloteo de la mente discursiva hasta que la propia frontera deja de vibrar por su cuenta y puede vibrar por simpatía. Sus técnicas son conocidas en todas las tradiciones: la oración contemplativa, la meditación, el rito, la liturgia, el canto repetido, el *wu wei*, el movimiento lento del taichí, la contemplación de lo sublime, el ancla de la respiración. Todas comparten una estructura: no añaden nada al sujeto, le quitan algo. Quitan la obstrucción que impedía la resonancia, como a un diapasón al que se deja de golpear para que pueda vibrar con otro.
@@ -33,9 +30,6 @@ El vector ascendente es el que ya describió el capítulo 29: el movimiento de l
 El vector descendente es el que faltaba: el movimiento desde la escala superior hacia lo que ella contiene. No pide silencio, sino forma. No se trata de aquietar la membrana, sino de esculpirla: construir una nave (un símbolo, un relato, un rito, un cuerpo) capaz de condensar y amortiguar lo que baja, para que lo de abajo pueda recibirlo sin ser arrasado. Sus técnicas son menos conocidas como tales, pero igual de antiguas: el sueño lúcido y la ensoñación en el borde del dormir; el flujo creativo, que es el simétrico exacto de la meditación (allí se inspira sin juicio, aquí se exhala la forma sin juicio); el arte, la ficción, el trazo único del pincel, el acto de nombrar. Todas comparten la estructura inversa: no reducen el ruido, crean una señal.
 
 Confundirlos, intentar subir con las herramientas de bajar o bajar con las de subir, explica buena parte de los fracasos espirituales y creativos: el místico que quiere fabricar la visión a fuerza de imágenes, el artista que espera la obra en silencio sin tocar el barro. Ninguno de los dos vectores es superior al otro. Sin el ascendente, la criatura queda encerrada en la superficie de su horizonte, sin nada más amplio con que resonar: la soledad del yo que se cree autosuficiente. Sin el descendente, lo de arriba se queda en abstracción sin cuerpo: una trascendencia estéril, un amor que no puede tocar. Subir para escuchar; bajar para responder.
-
-> **En física esto se llama:** dos procesos inversos y complementarios: disminuir la entropía local de una frontera para que resuene (enfriarla) y darle forma para que transmita (modularla).  
-> **En la vida diaria es como:** una radio: para oír una emisora lejana hay que apagar el ruido de la habitación; para emitir, hay que construir una antena. Son dos gestos distintos, y ninguna radio sirve si solo sabe hacer uno.
 
 ### Por qué hace falta una nave
 
@@ -68,8 +62,7 @@ Ende vuelve a tener la imagen exacta. En Fantasia, cada deseo que Bastián ve cu
 
 La tesis de esta lectura es que, en una realidad fractal, ese es el único colapso verdadero. Un mundo no se disuelve porque algo lo ataque, sino porque se retira la atención que lo sostenía. La destrucción, en esta geometría, no es un acto, sino una omisión: no hay un diablo que arranque los mundos de la existencia; hay creadores que dejan de crear, amantes que dejan de amar, narradores que dejan de contar. Y lo que se disuelve así no vuelve en su forma original: como mostró el capítulo 34, el *scrambling* conserva la información, pero no la recompone. Lo que el reservorio devuelve después es siempre una nave nueva, nunca la restauración de la antigua.
 
-> **En física esto se llama:** estado estacionario fuera del equilibrio: un sistema que solo mantiene su forma mientras recibe energía desde fuera, y que al cortarse el suministro no estalla, sino que se deshace poco a poco.  
-> **En la vida diaria es como:** una conversación que se muere sin que nadie la termine: no hubo pelea ni despedida; solo dejaron de escribirse.
+> **En física esto se llama:** estado estacionario fuera del equilibrio: un sistema que solo mantiene su forma mientras recibe energía desde fuera, y que al cortarse el suministro no estalla, sino que se deshace poco a poco.
 
 ### Apego creador y geometría del amor
 
@@ -86,9 +79,6 @@ Hay una consecuencia menos consoladora. Si cada mundo es una interioridad sobera
 Esta hermeticidad no es un defecto, sino lo que permite que haya muchos mundos en vez de uno. Cada comunidad que imagina en común (las leyes de su física, las reglas de su lengua, las convenciones de su vida) levanta un mundo que no se deja atravesar desde al lado.
 
 Solo hay una excepción, y es vertical: la invocación. La criatura que ora, que llama, que escribe, abre desde abajo una interfaz receptora; lo de arriba responde construyendo la nave desde arriba, sin disolver su propia escala. Es una doble llamada, y exige a los dos: ni la invocación sin encarnación, ni la encarnación sin invocación. Quizá por eso las tradiciones insisten tanto en que hay que pedir. No porque lo de arriba necesite ser informado, sino porque la interfaz de abajo tiene que estar abierta para que la nave pueda atracar.
-
-> **En física esto se llama:** resonancia condicionada: la transferencia de energía entre dos osciladores solo ocurre si los dos están sintonizados; uno solo, por intenso que sea, no basta.  
-> **En la vida diaria es como:** una llamada de teléfono: hace falta que uno marque y que el otro descuelgue. El mejor mensaje del mundo se pierde en un teléfono que nadie coge.
 
 ### Desplegarse sin fundirse
 

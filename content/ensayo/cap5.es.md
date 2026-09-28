@@ -10,9 +10,6 @@ illustrationDescription: Vista aérea: río caudaloso sin orillas claras → emp
 
 Hay un momento en la formación de una burbuja de jabón que ocurre demasiado rápido para verlo. La película de jabón se estira, se curva y, en algún instante que no sabrías precisar, se cierra sobre sí misma. Antes había una superficie abierta con dos caras que se comunicaban; después hay una burbuja, una frontera cerrada, un dentro que ya no puede comunicarse con el fuera sin romperse. El cierre no emite ninguna señal. La burbuja no anuncia su propia formación: sencillamente ocurre.
 
-> **En física esto se llama:** formación de horizonte de sucesos.  
-> **En la vida diaria es como:** una burbuja de jabón que se cierra: antes había una superficie; después, un interior.
-
 ---
 
 ### La ventana crítica: semanas 28 a 32
@@ -28,9 +25,6 @@ Antes de que esas conexiones alcancen la corteza definitiva existe la **subplaca
 
 Entre las semanas 28 y 32 aparece en el EEG fetal una firma eléctrica única: los **delta brushes**. Son ondas lentas de gran amplitud con ráfagas de actividad rápida superpuestas, como si el cerebro tocara a la vez en dos registros temporales distintos. La hipótesis más asentada es que el cerebro fetal las usa para poner a prueba y reforzar sus propias conexiones antes de que el mundo exterior empiece a configurarlas. Es actividad endógena, generada desde dentro y no en respuesta a un estímulo externo.
 
-> **En física esto se llama:** actividad endógena, autoverificación de correlaciones.  
-> **En la vida diaria es como:** un músico afinando su instrumento antes de que empiece la orquesta.
-
 Es el horizonte examinándose a sí mismo, comprobando que las correlaciones que construye son coherentes, antes de abrirse al aluvión sensorial que llegará con el nacimiento.
 
 Un bebé nacido en la semana 28 o 29 está, según el modelo, en el momento en que el horizonte se está formando. El nacimiento lo expone de golpe a un mundo para el que el sistema todavía no estaba preparado. Los delta brushes no desaparecen con el parto (siguen apareciendo en el prematuro hasta la edad que habría tenido al término), pero ya no se producen en la penumbra del útero: el horizonte tiene que terminar de probarse a sí mismo mientras la luz, el ruido y el tacto de la incubadora llaman desde fuera.
@@ -39,22 +33,15 @@ Un bebé nacido en la semana 28 o 29 está, según el modelo, en el momento en q
 
 Durante las primeras veinte semanas, el cerebro fetal no procesa experiencia, sino geometría. Las neuronas nacen en zonas profundas, junto a los ventrículos (cavidades llenas de líquido en el centro del cerebro), y emprenden una migración radial hacia la superficie cortical. Ningún GPS químico les indica dónde detenerse exactamente; hay señales moleculares difusas, como feromonas en el aire, que crean gradientes de concentración. La neurona «olfatea» el camino, trepa por un andamio de células gliales tendidas como cuerdas y se detiene donde la concentración de ciertas moléculas, entre ellas la reelina, le indica que ha llegado.
 
-> **En física esto se llama:** quimiotaxis, migración guiada por gradiente de potencial químico.  
-> **En la vida diaria es como:** un barco que navega guiándose por la salinidad del agua: no hay mapa, pero hay un campo que orienta.
+> **En física esto se llama:** quimiotaxis, migración guiada por gradiente de potencial químico.
 
 La migración es masiva: en su momento álgido, hacia la semana 16, se generan unas 250.000 neuronas por minuto. Pero lo importante no es la cifra, sino el orden. Las neuronas que nacen primero terminan en capas profundas; las que nacen después, en capas superficiales. Es un reloj molecular: cada oleada de neuronas se asienta sobre la anterior y se va levantando una arquitectura de seis capas que no existe en ningún otro órgano del cuerpo.
 
 Hay algo que desafía la intuición: durante esta fase, las sinapsis se forman en exceso. El cerebro fetal crea muchas más conexiones de las que necesitará, siguiendo un principio de sobreabundancia seguida de poda selectiva: las sinapsis que se usan se refuerzan y las demás se eliminan. No es un error, sino una estrategia. El cerebro explora el espacio de configuraciones posibles y luego se queda con las que funcionan.
 
-> **En física esto se llama:** poda por uso, selección darwiniana en el espacio de conexiones sinápticas.  
-> **En la vida diaria es como:** un escultor que parte de un bloque de mármol y va quitando todo lo que no es la figura: la obra ya está dentro, pero hay que eliminar lo que sobra.
-
 ### El río que se convierte en lago
 
 Piensa en la diferencia entre un río y un lago. El agua del río fluye sin dirección propia: va adonde la lleva el terreno, se mezcla con todo, no tiene dentro ni fuera. El lago tiene orillas y una temperatura propia, distinta de la del aire; tiene una superficie que lo separa del exterior y un fondo que lo ancla. Es la misma agua con una topología completamente distinta.
-
-> **En física esto se llama:** transición de fase, cambio cualitativo en la organización.  
-> **En la vida diaria es como:** agua que se convierte en hielo: la misma molécula, otra forma.
 
 La conciencia podría ser algo así: no una sustancia nueva, sino una nueva organización de la misma materia, que al adquirir su topología genera un dentro que antes no existía. El río se convierte en lago.
 
@@ -71,9 +58,6 @@ Los humanos somos una paradoja evolutiva. Nacemos tan inmaduros que, al lado de 
 
 La razón es biomecánica: el canal del parto humano es estrecho porque caminamos erguidos, y la cabeza fetal no puede crecer más sin hacer imposible el nacimiento. La evolución resolvió el dilema de la manera más drástica: sacando al feto antes de que el cerebro termine de desarrollarse. El primer año de vida extrauterina es, en muchos sentidos, una continuación del desarrollo fetal. Los neurocientíficos lo llaman el «cuarto trimestre»: un periodo en que el cerebro sigue construyendo sus conexiones a un ritmo vertiginoso, pero ya con estímulos sensoriales del mundo exterior.
 
-> **En física esto se llama:** compromiso evolutivo, solución de equilibrio entre variables incompatibles.  
-> **En la vida diaria es como:** un edificio que ya tiene cimientos, pero aún no fachada: se puede habitar, pero no está terminado.
-
 Durante este año, el cerebro infantil forma aproximadamente un millón de sinapsis por segundo. Es el periodo de mayor plasticidad sináptica de toda la vida. Cada experiencia (cada sonido, cada luz, cada contacto) moldea el cerebro como más adelante ya no podrá hacerlo. El horizonte no solo se cierra: se cierra de una manera particular e irrepetible, configurada por el mundo en el que surge.
 
 De ahí una consecuencia de calado: no hay dos conciencias iguales porque no hay dos mundos idénticos en los que cerrarse. Tras el nacimiento, los mundos de dos niños cualesquiera divergen cada vez más deprisa, y esa contingencia forma parte de lo que son.
@@ -86,17 +70,11 @@ Durante el trabajo de parto, tanto la madre como el feto experimentan un pico en
 
 El primer llanto no es emoción, sino química: el diafragma se contrae por primera vez y empuja aire hacia unos pulmones que nunca se habían abierto. La primera respiración rompe el circuito fetal: la sangre deja de pasar por el conducto arterioso y el agujero oval, dos atajos que en el útero esquivaban los pulmones, y empieza a circular por el sistema pulmonar. En cuestión de minutos, la fisiología del feto se convierte en la del recién nacido.
 
-> **En física esto se llama:** transición de fase inducida por perturbación (*quench*).  
-> **En la vida diaria es como:** un cristal que se forma cuando se agita la solución: la perturbación es necesaria para que ocurra la transición.
-
 Desde la perspectiva del experimento, el parto no es el momento en que aparece la conciencia, sino aquel en que el mundo exterior empieza a hablarle a una conciencia que ya se había cerrado sobre sí misma. La burbuja ya existía; con el nacimiento, el viento empieza a soplar contra su superficie.
 
 ### El reservorio que condensa
 
 La condensación de Bose-Einstein del capítulo anterior ofrece la imagen: por debajo de una temperatura crítica, la coherencia no se construye pieza a pieza, sino que surge de golpe.
-
-> **En física esto se llama:** condensación de Bose-Einstein.  
-> **En la vida diaria es como:** miles de personas en un estadio que empiezan a aplaudir al unísono: nadie lo ordena, pero de pronto son uno solo.
 
 Aplicada al nacimiento, la imagen dice que la conciencia no se ensambla pieza a pieza, sino que se condensa: el espacio de posibilidades colapsa en una instancia particular.
 
@@ -115,9 +93,6 @@ Los roedores nacen muy inmaduros, mucho más que los humanos, porque su gestaci�
 
 Los mamíferos marinos presentan el caso inverso. Ballenas y delfines nacen prácticamente autónomos: nadan junto a su madre minutos después del parto, controlan conscientemente la respiración (que en ellos no es un reflejo, como en nosotros) y muestran conductas complejas desde el primer día. Sus cerebros son más maduros al nacer, probablemente porque la vida acuática no tolera la indefensión de un mamífero terrestre.
 
-> **En física esto se llama:** diferentes puntos críticos en sistemas con parámetros de control distintos.  
-> **En la vida diaria es como:** el agua, que hierve a distintas temperaturas según la presión: la transición es la misma, pero las condiciones cambian.
-
 Los cuervos, con una inteligencia comparable a la de los grandes simios, presentan un desarrollo cerebral muy distinto del de los mamíferos. Su palio, la estructura equivalente a la corteza, se organiza de otro modo, sin las seis capas propias de los mamíferos. Si la conciencia requiere cierto tipo de arquitectura, los cuervos sugieren que hay varios caminos para llegar a ella; si no lo requiere, el criterio tiene que ser más profundo que la anatomía.
 
 ### La paradoja del gusano y el feto
@@ -128,17 +103,9 @@ La respuesta es que **lo que cuenta no es el número de neuronas, sino la arquit
 
 *C. elegans* es un sistema operativo completo. Sus 302 neuronas forman una red funcional plenamente integrada: cada una tiene su lugar, sus conexiones, su circuito. El gusano busca comida, evita toxinas, responde al calor, tiene memoria a corto plazo. Es minúsculo, pero es un sistema cerrado sobre sí mismo que procesa información de manera coordinada. Su Phi es bajo, pero no nulo: la información que genera como red no puede reducirse a sus neuronas por separado.
 
-> **En física esto se llama:** phi (Φ) > 0 en un sistema pequeño pero funcionalmente integrado.  
-> **En la vida diaria es como:** un reloj de bolsillo antiguo: pocas piezas, pero todas conectadas y en marcha. Es pequeño, pero es un reloj.
-
 El feto humano de 20 semanas, en cambio, tiene muchas más neuronas, pero **todavía no forman un sistema operativo**. En esas semanas el cerebro está «en obras»: las neuronas migran hacia su destino, pero aún no han llegado; la subplaca funciona como andamio provisional, no como sistema integrado; no hay conexiones talamocorticales definitivas, y las sinapsis se forman en exceso para luego ser podadas. Es como tener millones de componentes electrónicos sobre una mesa, todavía sin montar: hay más materia, pero no más sistema.
 
-> **En física esto se llama:** phi (Φ) ≈ 0 porque no hay integración funcional: las partes no generan información como un todo.  
-> **En la vida diaria es como:** un ordenador con todas las piezas sobre la mesa, sin montar: tiene más piezas que una calculadora, pero todavía no calcula.
-
 Esta distinción es la que predice la teoría de la información integrada: la conciencia no depende del tamaño del sistema, sino de cómo están conectadas sus partes. Un sistema grande pero desconectado tiene menos Phi que un sistema pequeño pero altamente integrado. El gusano es agua líquida: poca cantidad, pero ya en fase líquida. El feto de 20 semanas es vapor: mucha más masa, pero todavía en una fase en la que las moléculas no están lo bastante próximas para tener cohesión.
-
-> **En física esto se llama:** transición de fase. El vapor no es agua líquida «diluida», sino una fase en la que las moléculas no están lo bastante próximas para tener las propiedades del líquido.
 
 Esto no significa que el feto de 20 semanas «valga menos» que un gusano, sino que son sistemas en **fases distintas de organización**: el gusano ya es un sistema funcional; el feto, todavía, un proceso de construcción.
 
@@ -147,9 +114,6 @@ Esto no significa que el feto de 20 semanas «valga menos» que un gusano, sino 
 Si la conciencia es una transición de fase, entonces antes de esa transición no hay una conciencia parcial esperando completarse. Hay correlaciones crecientes que preparan la transición, como el gas que se enfría hacia la temperatura de condensación, pero la entidad que surge es cualitativamente nueva. El feto de 12 semanas no es una versión inmadura de la conciencia que llegará a ser, sino un sistema en otra fase, igual que el vapor no es agua líquida a medio hacer.
 
 El experimento no resuelve las preguntas éticas sobre el estatuto moral del feto, y sería irresponsable pretenderlo. Lo que sí hace es reformular la pregunta con más precisión: no «¿cuándo empieza la vida?» (la vida biológica empieza antes de cualquier umbral de conciencia), sino «¿cuándo hay alguien en casa?». Y el modelo sugiere que eso ocurre en el punto de condensación, en la ventana de las semanas 28 a 32, y no antes.
-
-> **En física esto se llama:** distinguir entre existencia material y existencia como horizonte de experiencia.  
-> **En la vida diaria es como:** distinguir entre una casa en obras y una casa habitada: los materiales son los mismos, pero cuando alguien vive en ella ocurre algo cualitativamente distinto.
 
 La burbuja de jabón se cierra. La estrella colapsa por debajo de su radio de Schwarzschild. La subplaca desaparece cuando maduran las conexiones definitivas. Los delta brushes cesan cuando el mundo exterior empieza a hablarle directamente al horizonte. El río se convierte en lago y el reservorio se condensa en un horizonte.
 

@@ -54,9 +54,6 @@ Según una teoría llamada IIT (teoría de la información integrada), la concie
 
 Eso es lo que la física llama **Phi (Φ)**: una medida de cuánto un sistema es más que la suma de sus partes. Un termostato tiene Phi casi nulo. Un cerebro despierto tiene Phi muy alto. Bajo anestesia general, el Phi del cerebro cae en picado.
 
-> **En física esto se llama:** Phi (Φ), información integrada.  
-> **En la vida diaria es como:** hasta qué punto una red es de verdad una red.
-
 ---
 
 ## CÓMO USAR ESTE LIBRO

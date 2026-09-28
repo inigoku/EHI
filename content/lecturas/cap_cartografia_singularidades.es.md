@@ -53,8 +53,6 @@ Su pintura es una cápsula sellada donde el mundo exterior no entra sin someters
 
 > **En física esto se llama:** un horizonte de sucesos. La frontera que separa lo que puede escapar hacia el exterior de lo que queda atrapado para siempre; nada la cruza sin ser antes transformado por la física interior del sistema.
 
-> **En la vida diaria es como:** un diario cerrado con llave. Lo que se escribe ahí dentro puede ser desahogo, invención o mentira, pero nunca sale tal cual entró: cuando por fin alguien lo lee, ya ha sido reescrito por la mano que lo guardó.
-
 El método tiene una obra manifiesto: la *Metamorfosis de Narciso*. Una figura agachada junto al agua es, a la vez, un muchacho ensimismado y una mano pétrea que sostiene un huevo del que brota una flor. No hay truco: las dos lecturas son simultáneas y completas, y el ojo no puede quedarse con ambas a la vez. Dalí ha construido una imagen en superposición, y cada espectador la colapsa a su manera. Freud, que lo recibió en Londres en 1938 con ese cuadro bajo el brazo, admitió ante el joven español lo que negaba al resto de los surrealistas: que allí había un problema psicológico serio. No era un cumplido, sino un diagnóstico.
 
 ## [ILUSTRACIÓN il_cart_narciso: "La imagen que no colapsa"]
@@ -88,8 +86,6 @@ Pero, como toda singularidad, Gala es inobservable directamente. No la vemos en 
 
 > **En física esto se llama:** materia oscura, o el propio agujero negro antes de su primera fotografía: una masa que nunca se observa de forma directa, solo se infiere por la curvatura que impone en todo lo que la rodea.
 
-> **En la vida diaria es como:** saber que sopla el viento por cómo se dobla la copa de un árbol. Nadie ve el viento; todos ven sus efectos, y con ellos reconstruyen su forma.
-
 La prueba definitiva llegó por ausencia. Cuando Gala murió, en 1982, el sistema se quedó sin centro: Dalí se encerró en el castillo de Púbol (que había comprado para ella y que, en vida de Gala, solo podía visitar con invitación escrita de su esposa), dejó de comer, sufrió quemaduras en un incendio nocturno y prácticamente dejó de pintar. La singularidad había desaparecido y el horizonte, sin masa que lo sostuviera, inició su colapso final. Los últimos siete años de Dalí no son solo biografía: son la comprobación empírica de su propia cosmología.
 
 ### Lorca: la información retenida
@@ -119,8 +115,6 @@ Miradlo en los retratos bicéfalos de los años treinta y cuarenta: la placidez 
 Ese rostro doble es la clave de toda su obra. Picasso no tiene un horizonte único, sino muchos superpuestos. Su yo no es un punto con posición definida, sino una onda que abarca todos los estados posibles hasta que el acto de pintar colapsa la onda y materializa un estilo, una identidad temporal. Él mismo lo formuló, sin física, ante el retrato de Gertrude Stein: cuando le objetaron que ella no se parecía a ese rostro de máscara que le había pintado, respondió que ya se parecería. No era arrogancia, sino la convicción de que el cuadro no registra un estado, sino que lo anticipa: de que la observación no copia la realidad, sino que la produce.
 
 > **En física esto se llama:** superposición cuántica y colapso de la función de onda. Antes de la medición, una partícula no ocupa un solo estado: los ocupa todos a la vez, hasta que el acto de observar obliga al sistema a decidirse por uno.
-
-> **En la vida diaria es como:** una moneda todavía en el aire. Mientras gira no es cara ni cruz: es las dos cosas a la vez, y solo al caer sobre la mesa se convierte en un hecho.
 
 El primer colapso tiene fecha y cadáver. En 1901, su amigo Carles Casagemas se pega un tiro en un café de París por una mujer. Picasso, que tiene diecinueve años, entierra al amigo y a continuación pinta el mundo entero de azul durante tres años: mendigos, ciegos, madres consumidas, el propio Casagemas amortajado con la sien agujereada. La época azul no es un ejercicio tonal, sino la primera demostración de que un trauma puede teñir la totalidad del espectro perceptivo, de que la masa de un solo muerto puede curvar toda la luz de un sistema. Después vino el rosa (los saltimbanquis, la ternura itinerante) y luego el hachazo: entre los saltimbanquis rosas y *Las señoritas de Avignon* no hay transición narrativa, sino un salto. Las cinco mujeres del burdel de la calle Avinyó, con sus rostros de máscara ibérica y africana, no evolucionan de nada anterior: irrumpen, como irrumpe una partícula donde la física clásica no la esperaba.
 
@@ -165,8 +159,6 @@ Y su entrelazamiento es horizontal, democrático, total. Sus líneas finas y neg
 
 > **En física esto se llama:** entrelazamiento multipartito. No un vínculo entre dos partículas, sino una red donde medir el estado de cualquier nodo altera instantáneamente el de todos los demás, sin que exista un centro jerárquico.
 
-> **En la vida diaria es como:** una telaraña cubierta de rocío: toca un solo hilo y toda la red tiembla por igual, porque ninguno de sus puntos es más importante que otro.
-
 Pero que nadie confunda levedad con anestesia. El dolor de la guerra está en sus líneas, aunque sea como tensión contenida: en el negro de *El segador*, en la violencia de las pinturas salvajes de los años treinta, en el trazo tirante de unas *Constelaciones* pintadas huyendo. La cuerda que ata la estrella a la mujer está tensada por la historia; simplemente, no se rompe.
 
 La vejez de Miró es el reverso exacto de la de Dalí. Donde uno se desintegraba sin querer, el otro se vació por voluntad propia. Los tres lienzos de *Azul I, II y III* son campos casi desnudos: un rastro de puntos, una línea roja, una extensión de azul que el propio Miró comparó con la preparación de un rito. Había tardado toda una vida en ganarse el derecho a pintar casi nada. Y, cuando el mundo quiso convertirlo en un clásico, respondió quemando y acuchillando sus propias telas (las *telas cremades* de 1973, expuestas con las quemaduras a la vista): a los ochenta años, el más leve de los tres seguía negándose a que su universo se convirtiera en patrimonio. La disolución también hay que defenderla.
@@ -178,8 +170,6 @@ También destruye la flecha del tiempo. Su tiempo es el del asombro, donde un mi
 Estos tres sistemas no orbitaron aislados: se perturbaron mutuamente.
 
 > **En física esto se llama:** el problema de los tres cuerpos. En mecánica celeste, tres masas que se atraen mutuamente no tienen solución cerrada: la trayectoria de cada una queda alterada para siempre por la presencia de las otras dos, y ninguna vuelve a orbitar en soledad.
-
-> **En la vida diaria es como:** tres hermanos criados en la misma casa. Ninguno se explica sin los otros dos: cada carácter se curva, aunque sea un poco, por la simple gravedad de compartir mesa.
 
 Dalí necesitó a Picasso como se necesita un campo gravitatorio contra el que medirse. Lo visitó en París en 1926, antes que el Louvre («He venido a verle a usted antes que al Louvre»; «Ha hecho usted muy bien»), y ya nunca dejó de orbitar a su alrededor. Fue Picasso quien le pagó el pasaje de su primer viaje a América, el viaje que lo lanzó a la celebridad; Dalí correspondió durante décadas enviándole postales y homenajes que el malagueño, comunista y ofendido por el franquismo confeso del otro, jamás respondió. Un entrelazamiento perfecto en su asimetría: Dalí no podía dejar de emitir; Picasso no necesitaba recibir. Décadas después, el ampurdanés seguía definiéndose por contraste: «Picasso es español, yo también. Picasso es genial, yo también. Picasso es comunista, yo tampoco». La encapsulación daliniana se construyó, en parte, como blindaje frente a esa masa mayor: para no ser absorbido por el campo picassiano, Dalí tuvo que aumentar sin descanso la densidad de su propio mito.
 

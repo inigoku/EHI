@@ -56,9 +56,6 @@ Según la teoría de la información integrada de Tononi, la conciencia exige ma
 
 Smith no es un dios cibernético, sino un cáncer topológico que reduce a cero el Φ de Matrix y provoca la muerte cerebral y el colapso termodinámico del entorno de ejecución.
 
-> **En física esto se llama:** colapso de la complejidad por pérdida de grados de libertad locales (homogeneización térmica).
-> **En la vida diaria es como:** un coro de mil personas que cantan todas la misma nota al mismo volumen: ya no hay armonía, solo un ruido ensordecedor e inútil.
-
 ---
 
 ### 5. La ceguera como reversión de Hun Dun

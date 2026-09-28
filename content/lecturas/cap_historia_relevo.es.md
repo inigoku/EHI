@@ -20,8 +20,6 @@ Aquí el marco de este libro resulta útil. Hemos dicho que un sistema conscient
 
 > **En física esto se llama:** información integrada (Φ). Un valor alto exige la coexistencia de integración y diferenciación; la homogeneización (que todas las partes hagan lo mismo) destruye Φ tanto como la fragmentación.
 
-> **En la vida diaria es como:** un coro de mil personas que cantan todas la misma nota al mismo volumen: ya no hay armonía, solo un ruido ensordecedor e inútil. Un equipo en el que los once quieren el balón a la vez, o en el que nadie lo quiere, tiene un Φ nulo. El estilo vive en la diferencia coordinada: cada uno hace algo distinto y todo encaja.
-
 Y como todo sistema con horizonte, planteaba el mismo problema que plantea una estrella que colapsa: ¿qué sale de ahí? ¿Qué puede cruzar hacia fuera?
 
 La respuesta física es la radiación: información degradada, pero no nula, que escapa mientras el sistema se evapora. La respuesta futbolística son los discípulos.
@@ -39,8 +37,6 @@ Cabe entonces preguntarse si estas rachas pertenecen a la misma saga que Cruyff 
 Guardiola intentó lo mismo, con más tiempo y quizá más carisma, en Inglaterra. Diez años en el Manchester City (seis ligas, un triplete en 2023, un estilo de posesión y salida de balón que la prensa inglesa reconoce como una transformación real de la manera de jugar del país), y dos de sus antiguos ayudantes, Mikel Arteta y Enzo Maresca, han dirigido al Arsenal y al Chelsea con principios reconociblemente suyos. El fútbol de clubes inglés, a diferencia del francés, sí parece estar cambiando. Y, sin embargo, la selección inglesa tampoco ha adoptado el patrón: cuando llegó el momento de nombrar seleccionador, la federación prefirió a Thomas Tuchel, otro recién llegado, y no al propio Guardiola, que sonaba como candidato natural. Quizá sea, de nuevo, cuestión de tiempo: diez años no son las décadas que el patrón necesitó en España. Quizá necesite un cuerpo que lo encarne desde dentro, y no solo clubes que lo imiten desde fuera. El capítulo, en este punto, todavía no puede escribirse: solo puede formularse como pregunta, dos veces.
 
 > **En física esto se llama:** radiación de Hawking. Un horizonte de sucesos no es eterno: emite radiación térmica, pierde masa y se evapora; pero la información que encerraba no se aniquila, sino que se transforma y vuelve al exterior, degradada, pero nunca nula.
-
-> **En la vida diaria es como:** una hoguera que se apaga. Ese fuego muere, pero su calor no desaparece del universo: se ha repartido por el aire, por las piedras, por las manos que se acercaron. El maestro se apaga; lo que enseñó sigue calentando cuerpos que nunca vieron la llama original.
 
 No todos los cuerpos formados en la escuela consiguen sostenerla igual. Xavi Hernández, el mismo centrocampista que Del Bosque alinearía en 2010, volvió al Camp Nou como entrenador en 2021 con el encargo explícito de devolver al Barça su identidad perdida. Ganó una Liga, apostó sin reservas por la cantera (hizo debutar a quince jugadores del filial, entre ellos Lamine Yamal) y aun así se marchó en 2024 entre críticas de que el equipo ya no tenía un estilo reconocible: fútbol irregular, sin coherencia, eliminado en cuartos tanto en la Liga de Campeones como en la Copa. Meses después, el propio Xavi lo explicó sin tecnicismos: «Mi error fue mantener esos altos estándares solo durante un año». No fue, según él, un fallo del sistema, sino de disciplina propia, una relajación tras el primer éxito. Es una confirmación incómoda de la teoría: Φ no se instala de una vez para siempre. Hay que sostenerlo, y basta con que quien lo sostiene baje la guardia para que vuelva a entrar el ruido.
 
@@ -68,8 +64,6 @@ En 2007, para un calendario benéfico, un jugador del Barça de veinte años pos
 Dos partículas que se tocaron una vez quedan correlacionadas para siempre, a cualquier distancia; aquí la distancia era temporal: diecinueve años. La medición de una definió el estado de la otra. Messi, argentino, fue sin embargo el vehículo máximo del patrón catalán; Yamal es su estado siguiente. El abrazo no fue consuelo, o no solo: fue el colapso de la función de onda del relevo. Hasta ese instante, la sucesión era una superposición de posibilidades; al tocarse, se convirtió en un hecho.
 
 > **En física esto se llama:** entrelazamiento cuántico. Dos partículas que interactuaron una vez quedan correlacionadas para siempre: medir el estado de una determina instantáneamente el de la otra, a cualquier distancia. No se comunican en el momento de la medición; ya eran, desde el contacto, un único sistema.
-
-> **En la vida diaria es como:** una foto de infancia con alguien a quien admirabas. En el instante en que se hizo, dos vidas quedaron atadas sin saberlo. Años después, cuando el destino las vuelve a cruzar, parece un milagro de sincronía; pero no hubo mensaje ni azar: estaban unidas desde aquel primer roce, a la espera de que alguien mirase.
 
 Y obsérvese la crueldad elegante del sistema: el patrón no tiene patria y derrotó a su propio portador. Messi perdió contra la idea que lo había formado, jugada por un niño al que él mismo había bañado. La información no siente lealtad por los cuerpos que atraviesa: los usa, se lo agradece a su manera y sigue adelante.
 

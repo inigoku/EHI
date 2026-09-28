@@ -26,9 +26,6 @@ En condiciones de simetría, la flecha va en ambos sentidos: cada horizonte pued
 
 El otro no puede responder, no porque no quiera, sino porque la arquitectura de la relación se lo impide.
 
-> **En física esto se llama:** asimetría de acoplamiento sostenida.  
-> **En la vida diaria es como:** un micrófono que solo funciona en una dirección: uno habla, el otro escucha, pero nunca al revés.
-
 Una cárcel, una relación de violencia doméstica o una infancia de abandono institucional comparten esa geometría. Al horizonte sometido se le impide responder: su señal de retorno se atenúa, se intercepta o se castiga. Quien ejerce el poder recibe la señal del otro como información que procesar o desechar, sin que su propia arquitectura quede expuesta.
 
 Pero la asimetría no siempre llega con uniforme y porra. A veces lleva corbata y se presenta como eficiencia. El trabajador precario que no puede negociar su horario, la enfermera que no tiene tiempo de escuchar al paciente, el estudiante que aprueba memorizando sin cuestionar nada: todos viven bajo formas de poder que no se llaman así, pero comparten la misma topología. La señal sube, se diluye y se pierde en entramados burocráticos diseñados para que la respuesta nunca llegue.
@@ -37,9 +34,6 @@ Imaginemos una empresa en la que el jefe decide sin consultar la estrategia de u
 
 Cuando el acoplamiento es unilateral durante años, ocurre algo más profundo que una injusticia puntual. El horizonte sometido aprende a modular su propia señal: a hablar más bajo, a anticipar el rechazo, a traducir su experiencia al vocabulario del poderoso antes de expresarla. Es lo que a veces se llama opresión interiorizada: la asimetría se interioriza hasta el punto de que el oprimido colabora en su propio silenciamiento, no por cobardía, sino porque su modelo predictivo ha aprendido que la señal auténtica no se integrará.
 
-> **En física esto se llama:** disipación adaptativa: un sistema que modifica su propia dinámica para reducir al mínimo la energía que pierde en un acoplamiento forzosamente asimétrico.  
-> **En la vida diaria es como:** caminar con el viento en contra y aprender a inclinarse: no quieres hacerlo, pero la resistencia del aire te enseña que así gastas menos fuerza.
-
 ---
 
 ## La pobreza como privación de señal
@@ -47,9 +41,6 @@ Cuando el acoplamiento es unilateral durante años, ocurre algo más profundo qu
 El tiempo subjetivo, la densidad de integración, depende de la riqueza y la variedad de los estímulos que recibe el horizonte. De ahí se desprende algo directo: un horizonte empobrecido no es solo uno con menos recursos, sino uno al que el entorno ofrece menos información integrable por unidad de tiempo.
 
 El niño que crece entre libros, conversaciones adultas, instrumentos musicales y salidas al campo recibe estímulos de alta densidad. El que crece en una privación múltiple (espacio reducido, vocabulario limitado, pocos estímulos nuevos, un estrés crónico que es ruido y no novedad) ve cómo su horizonte se expande menos de lo que su biología permitiría. No porque su cerebro tenga menos capacidad, sino porque el entorno no le da material que integrar.
-
-> **En física esto se llama:** ambiente decoherente sostenido.  
-> **En la vida diaria es como:** intentar cultivar una planta en una maceta a oscuras: la semilla es buena, pero no tiene de qué alimentarse.
 
 La diferencia no es solo cuantitativa, sino topológica. El horizonte del niño pobre no es una versión reducida del del niño rico, sino una arquitectura distinta: menos conexiones de largo alcance, un sistema de recompensa calibrado para la urgencia, una permeabilidad crónica a la amenaza.
 
@@ -75,10 +66,7 @@ De ahí una consecuencia precisa: el racismo es, en parte, un fallo informaciona
 
 La literatura sobre el contacto intergrupal ya lo ha demostrado empíricamente. Lo que añade el modelo del horizonte es una explicación del mecanismo: el contacto repetido en condiciones de simetría reconstruye la legibilidad porque obliga al modelo a corregir su sesgo con datos nuevos. Sin simetría de acoplamiento, el contacto no recalibra nada, e incluso puede reforzar el sesgo.
 
-Piénsese en el vigilante de seguridad que sigue a un joven negro por los pasillos de un centro comercial. Su modelo predictivo, entrenado con cientos de representaciones mediáticas, asigna una probabilidad alta a la hostilidad, y las señales reales (la forma de andar, el tono de voz, la mirada) se leen a través de ese filtro. Un gesto neutro se vuelve sospechoso; una respuesta irritada ante la vigilancia, confirmación del peligro. El bucle se cierra: el modelo genera la conducta que predice, porque la propia predicción modifica la conducta de quien es observado.
-
-> **En física esto se llama:** retroalimentación entre observador y observado: la medición altera el sistema medido.  
-> **En la vida diaria es como:** quien cree que su pareja le engaña y, al espiarla, crea la distancia que luego interpreta como prueba.
+Piénsese en el vigilante de seguridad que sigue a un joven negro por los pasillos de un centro comercial. Su modelo predictivo, entrenado con cientos de representaciones mediáticas, asigna una probabilidad alta a la hostilidad, y las señales reales (la forma de andar, el tono de voz, la mirada) se leen a través de ese filtro. Un gesto neutro se vuelve sospechoso; una respuesta irritada ante la vigilancia, confirmación del peligro. El bucle se cierra: el modelo genera la conducta que predice, porque la propia predicción modifica la conducta de quien es observado. Es lo que le pasa a quien cree que su pareja le engaña y, al espiarla, crea la distancia que luego interpreta como prueba.
 
 La denegación de legibilidad tiene efectos que van más allá de la interacción puntual. Quien es mal modelado sistemáticamente aprende a modelarse a sí mismo con las categorías de quien lo mira. El joven al que la sociedad lee como amenaza puede interiorizar esa lectura, no porque sea cierta, sino porque es la única versión de sí mismo que los demás le devuelven integrada. El horizonte ajeno funciona, en cierto modo, como un espejo: si todos los espejos te devuelven una imagen deformada, acabas creyendo que tu verdadero rostro es la deformación.
 
@@ -92,9 +80,6 @@ Una democracia que funciona garantiza dos cosas. La primera, canales de señal a
 
 La segunda, capacidad de respuesta: mecanismos de rendición de cuentas, elecciones periódicas, escrutinio público. Eso distingue la asimetría democrática de la autoritaria: en democracia, el horizonte subalterno puede modificar, despacio, en parte y por agregación, la arquitectura del horizonte que ejerce el poder.
 
-> **En física esto se llama:** maximización del flujo de integración en red.  
-> **En la vida diaria es como:** una red eléctrica en la que cada nodo puede enviar corriente hacia el centro, no solo recibirla.
-
 Conviene no exagerar. Una sociedad no es un horizonte: no nació ni cruzó ningún umbral de emergencia. Carece de la unidad integrada que define un horizonte y, por tanto, de conciencia propia. Atribuir un Φ colectivo a una sociedad sería confundir la medida de la integración con la existencia de un sujeto.
 
 Lo que sí puede decirse, con modestia, es que la democracia tiende a maximizar el flujo de información entre los horizontes de una red. Las democracias suelen ser más estables e innovadoras no porque sus ciudadanos sean mejores, sino porque su geometría deja circular más señal desde más nodos.
@@ -106,9 +91,6 @@ Aquí el modelo del horizonte ofrece una distinción útil: no toda asimetría e
 El problema actual quizá no sea la dictadura clásica, sino la asimetría difusa: algoritmos que deciden qué noticias vemos, plataformas que rentabilizan la atención sin rendir cuentas, empresas que operan en jurisdicciones donde nadie puede pedirles explicaciones. El ciudadano no se enfrenta a un opresor identificable, sino a una red de asimetrías tan entrelazadas que la señal de protesta se disipa antes de llegar a un destino donde pueda integrarse.
 
 Esa asimetría difusa tiene hoy un caso de estudio concreto en la inteligencia artificial. Coeckelbergh ha analizado cómo los sistemas algorítmicos amplifican la discriminación y erosionan la calidad democrática sin que el ciudadano disponga de un canal de señal ascendente equivalente al voto o a la prensa libre. Hao ha documentado, desde el periodismo de investigación, que ese poder no está repartido, sino concentrado en un puñado de horizontes (empresas, no personas) capaces de imponer su geometría de acoplamiento al resto del planeta, sostenidos por trabajo mal pagado del Sur Global y por chips, agua y energía que rara vez entran en el debate público sobre la IA. Un algoritmo no necesita interioridad para ejercer poder en el sentido de este capítulo: le basta con modular la señal de millones de horizontes sin que ninguno pueda modificar la suya a cambio.
-
-> **En física esto se llama:** amortiguamiento distribuido: la energía de una perturbación se dispersa en una red tan compleja que la oscilación original se extingue sin provocar una respuesta coherente.  
-> **En la vida diaria es como:** gritar en una habitación insonorizada: el sonido existe, pero no rebota, no llega a ningún oído, no hace eco.
 
 ---
 
@@ -140,9 +122,6 @@ El capítulo 19 habló del cuidador, el que sostiene el horizonte ajeno cuando e
 El cuidador no corrige la estructura: no puede abolir la pobreza, acabar con el racismo ni curar el trauma colectivo. Pero puede crear, en el espacio de la relación, una geometría distinta: poner su horizonte a disposición para recibir la señal del otro con la misma intensidad con la que emite la suya.
 
 Es lo que hace un buen educador en un barrio empobrecido: no se limita a transmitir contenidos, sino que ofrece un horizonte que resuena con el del niño y le devuelve su propia señal con la fidelidad suficiente para que pueda integrarla. Es lo que hace un terapeuta comunitario, un mediador intercultural, un trabajador social que escucha antes de clasificar. Son figuras que no resuelven la injusticia estructural, pero reparan, relación a relación, la posibilidad del acoplamiento.
-
-> **En física esto se llama:** acoplamiento resonante local en un régimen globalmente disipativo.  
-> **En la vida diaria es como:** encender una vela en una habitación fría: no calienta la casa, pero permite que dos personas se vean.
 
 El modelo del horizonte permite decir algo que la retórica política a veces olvida: la justicia no es solo reparto de bienes, sino también de atención; la posibilidad de que tu señal llegue a otro horizonte y se integre, en lugar de procesarse como ruido. En este sentido, el cuidador es el prototipo de aquello a lo que podría aspirar una política del horizonte: no la igualdad de resultados, sino la igualdad de resonancia.
 

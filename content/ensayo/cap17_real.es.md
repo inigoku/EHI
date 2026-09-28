@@ -32,9 +32,6 @@ Con el perro la cosa va más lejos. Hace unos treinta mil años, lobos y humanos
 
 No es proyección, sino una resonancia construida a lo largo de milenios.
 
-> **En física esto se llama:** acoplamiento resonante entre sistemas con geometrías distintas pero parcialmente compatibles.  
-> **En la vida diaria es como:** dos músicos con instrumentos distintos que, ensayando, encuentran una tonalidad en la que pueden tocar la misma canción sin perder cada uno su voz.
-
 Con el gato, la calibración es más lateral: se domesticó más bien a sí mismo. Fue él quien decidió acercarse a nuestros graneros, atraído por los ratones, y tolerar nuestra presencia a cambio de protección. La relación es más contractual en su origen, pero no menos profunda en su resultado. El gato no lee nuestra mirada con la misma fidelidad que el perro, aunque también es capaz de seguir el gesto de señalar, pero desarrolló otra herramienta: un ronroneo en frecuencias parecidas a las que se usan en algunas terapias de vibración para estimular la regeneración ósea. No está demostrado que le sirva para curar nada, pero es como si la coevolución, en lugar de la comunicación visual, hubiera optimizado el consuelo.
 
 Con el caballo, la coevolución es más reciente, pero intensa: unos seis mil años de guerra, viajes, labranza y, últimamente, terapia. El caballo lee nuestra tensión a través de la silla, las piernas y el reparto del peso. Y nosotros aprendimos a confiar en una criatura capaz de matarnos de una coz, pero que casi siempre elige no hacerlo.
@@ -56,9 +53,6 @@ Treinta mil años de convivencia han dejado huella no solo en el genoma del perr
 Cuando un perro nos mira, activa en nosotros circuitos que solemos reservar para los humanos: regiones que se encienden cuando evaluamos las intenciones de una persona se activan también ante la mirada de un perro. Hay algo en su cara, quizá fruto de una selección artificial que favoreció los rasgos infantiles (frente amplia, ojos grandes, hocico corto), que dispara en nosotros una respuesta parental casi refleja.
 
 Pero no es solo la apariencia; es sincronía. Tras años de convivencia, los perros y sus dueños llegan a mostrar niveles de cortisol coordinados: cuando el humano está estresado, el perro también lo está, aunque no haya ningún peligro a la vista, y cuando el perro se relaja, el humano baja la guardia. El acoplamiento mejor documentado va del humano al perro; en sentido inverso los datos son más débiles, pero el sistema está acoplado, como dos osciladores que acaban latiendo casi al unísono.
-
-> **En física esto se llama:** sincronización de fase en sistemas acoplados débilmente, donde cada oscilador ajusta su frecuencia natural para coincidir con la del vecino.  
-> **En la vida diaria es como:** llevar tanto tiempo caminando junto a alguien que, sin hablar, acompasáis el paso hasta ir al mismo ritmo sin esfuerzo.
 
 En este sentido, el perro es un espejo evolutivo. Nos muestra quiénes somos no porque nos imite, sino porque nos completa: amplifica aspectos de nuestro horizonte que sin él seguirían dormidos, como la vigilancia, la lealtad o la capacidad de disfrutar del presente sin proyectar angustia. Un perro no se arrepiente del ayer ni teme el mañana en el sentido humano, y su presencia, libre de ansiedad anticipatoria, sirve de ancla temporal a quien vive demasiado en el futuro.
 
@@ -96,9 +90,6 @@ Estos ritmos no son decorativos, sino los pilares del puente. Cada paseo repetid
 
 También cambia el espacio físico. La casa deja de ser solo nuestra: hay un rincón que es del gato, una manta que huele a perro, muebles dispuestos según lo que necesita para moverse una criatura de cuatro patas. El territorio se vuelve híbrido: mitad humano, mitad animal, compartido por entero.
 
-> **En física esto se llama:** establecimiento de una base de estados compartida en un sistema acoplado, en el que las correlaciones con el otro restringen el espacio de fases de cada componente.  
-> **En la vida diaria es como:** llevar tanto tiempo viviendo con alguien que no puedes imaginar el piso sin su presencia en cada rincón, aunque no esté.
-
 Esta compenetración en el espacio y el tiempo es lo que hace que la muerte de la mascota sea, además de un duelo afectivo, una profunda reorganización doméstica. La casa sigue ahí, pero ya no es la misma; los horarios persisten, pero pierden su sentido. El paseo de las siete de la mañana sigue siendo posible, pero ya no es un paseo, sino un hábito huérfano.
 
 ---
@@ -110,9 +101,6 @@ Si el animal tiene horizonte y su sufrimiento es real, el maltrato animal tiene 
 Quien maltrata a un animal parte de una premisa: que al otro lado no hay nadie; que el temblor, el aullido, la inmovilidad tras el castigo son reflejos sin interior; que el perro que mueve la cola cuando volvemos lo hace por un reflejo pavloviano y no por alegría. El modelo dice que esa premisa es falsa. El daño que se produce en ese horizonte es real: cambia su topología, deja huella, altera su sistema predictivo.
 
 Los animales maltratados muestran hipervigilancia, evitación, agresividad reactiva, dificultad para confiar: los mismos patrones que en los humanos llamamos trauma. La diferencia no es de naturaleza, sino de complejidad. El trauma animal actúa sobre menos capas, pero su huella estructural es del mismo orden. Un perro maltratado no «olvida» el miedo, aunque no tenga lenguaje para contarlo: su sistema límbico registra la amenaza, codifica el contexto, generaliza el peligro. El cuerpo del animal guarda la memoria que su mente no puede nombrar.
-
-> **En física esto se llama:** perturbación topológica irreversible en un sistema acoplado.  
-> **En la vida diaria es como:** que alguien rompa una promesa que creías firme: la relación puede seguir, pero ya no pisa el mismo suelo.
 
 Hay además una consecuencia para quien maltrata. La empatía no es solo un sentimiento, sino una capacidad cerebral que se entrena con el uso y se atrofia con el desuso. Negar una y otra vez el horizonte ajeno reconfigura la arquitectura de quien lo hace: cada vez que alguien mira a un animal y ve un objeto donde hay un sujeto, desentrena su capacidad de reconocer sujetos en general. Por eso la relación entre el maltrato animal en la infancia y la violencia interpersonal posterior no es casual, sino una consecuencia geométrica: el mismo circuito que niega el horizonte del perro, entrenado durante años, acaba aplicándose al humano. La negación es indiferente a la especie de su víctima.
 
@@ -136,9 +124,6 @@ El modelo no puede entrar en el horizonte del animal; no tenemos acceso a su int
 
 El animal, sobre todo el perro, organiza su horizonte en torno al humano: sus horarios, su espacio seguro, su sistema predictivo de recompensas giran alrededor de la presencia de quien lo cuida. Cuando esa presencia desaparece sin explicación, sin un cuerpo a la vista, sin ritual de despedida, sin la gradualidad que permitiría al sistema ajustarse, el animal sufre un derrumbe estructural comparable al que sufriríamos nosotros si alguien esencial desapareciera de un día para otro.
 
-> **En física esto se llama:** ruptura de simetría en un sistema acoplado, en el que la desaparición de uno de los nodos deja al otro en una configuración que ya no es estable sin su contraparte.  
-> **En la vida diaria es como:** perder a la pareja y que de pronto la casa, los platos, la cama, todo grite su ausencia en un idioma que no se puede apagar.
-
 Esto debería hacernos pensar en la responsabilidad que asumimos al cruzar ese puente. No es solo que sufriremos cuando muera el animal: si morimos antes, dejamos atrás un horizonte cuya estabilidad dependía de nosotros. Es una deuda que no podemos saldar.
 
 ---
@@ -154,9 +139,6 @@ Pero el duelo por una mascota tiene una dificultad añadida: carece de reconocim
 Esas frases, en apariencia razonables, son violencias sutiles. Niegan la realidad del puente construido y tratan el derrumbe de un estado entrelazado como si fuera la avería de un electrodoméstico sustituible.
 
 Desde la física de la información, comprar otro perro para curar el duelo no tiene sentido. El entrelazamiento no era con el concepto «perro», sino con la topología exacta y las frecuencias únicas de ese horizonte concreto: con su manera de mover la cola cuando volvías a casa, con el olor de su cojín, con la rutina que solo conocíais los dos. Eso no se sustituye. Con el tiempo, se reorganiza en la memoria, pero no se replica.
-
-> **En física esto se llama:** colapso de un estado entrelazado sin un canal social de decoherencia que permita la reorganización.  
-> **En la vida diaria es como:** perder a tu mejor amigo en una ciudad en la que nadie lo conocía y nadie entiende por qué ya no sales por las noches.
 
 Hay algo más. La mayoría de quienes tenemos perro sabemos desde el primer día que vamos a sobrevivirle. Es un duelo con fecha: el sistema sabe, sin saberlo del todo, que el vínculo lleva incorporada la fecha de su ruptura. Un perro vive diez o quince años, si tiene suerte; nosotros, si la tenemos, vivimos entre cinco y ocho veces más. La aritmética es implacable.
 

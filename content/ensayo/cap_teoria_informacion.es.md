@@ -39,8 +39,7 @@ Un libro escrito en una lengua muerta que ya nadie sabe leer contiene informaci�
 
 Esto es lo que dice la hipótesis del horizonte sobre la conciencia: no está en las neuronas, sino en la relación entre ellas; no está en el contenido del cerebro, sino en la forma en que ese contenido se organiza para alguien.
 
-> **En teoría de la información esto se llama:** información mutua, la cantidad de información que comparten dos sistemas.  
-> **En la vida diaria es como:** dos personas que han vivido juntas tanto tiempo que una sabe lo que la otra va a decir antes de que lo diga: no hay mensaje, pero hay información compartida.
+> **En teoría de la información esto se llama:** información mutua, la cantidad de información que comparten dos sistemas.
 
 ### La información mutua, primer esbozo del vínculo
 
@@ -51,9 +50,6 @@ Es la magnitud que, sin nombrarla, describían el capítulo 10 al hablar del aco
 La información mutua tiene además una propiedad que la hace especialmente apta para el modelo del horizonte: es simétrica. I(X;Y) = I(Y;X): da igual quién observe a quién, la cantidad compartida es la misma. Es lo que el capítulo 12 describía como una geometría compartida que no pertenece a ninguno de los dos polos por separado.
 
 Y no requiere contacto. Dos sistemas que interactuaron una vez y luego se separaron pueden seguir compartiendo información mutua: sus correlaciones persisten aunque ya no haya ningún canal abierto entre ellos. Es, casi palabra por palabra, la descripción matemática de lo que este libro llama vínculo: no una conexión activa, sino una correlación que sobrevive a la separación.
-
-> **En teoría de la información esto se llama:** información mutua que persiste cuando cesa la interacción.  
-> **En la vida diaria es como:** saber, sin necesidad de comprobarlo, que tu hermano estaría triste en una situación concreta: no lo has llamado ni te lo ha dicho, pero la correlación construida durante años sigue ahí, activa, prediciendo.
 
 El capítulo siguiente vuelve sobre esta magnitud con más detalle, y también sobre el punto en el que deja de bastar.
 
@@ -67,9 +63,6 @@ Trasladado a la conciencia, por analogía, significa que un horizonte tiene una 
 
 Por eso, según la teoría de la información integrada, el gusano *C. elegans*, con sus 302 neuronas, tendría un Φ no nulo: su red es pequeña, pero completa e integrada. Y un feto humano de veinte semanas, con miles de millones de neuronas, tendría un Φ casi nulo, porque su red está todavía en construcción y aún no se ha integrado. La información no está en el número de piezas, sino en cómo están conectadas.
 
-> **En teoría de la información esto se llama:** capacidad de canal, el límite máximo de información que puede transmitirse sin error.  
-> **En la vida diaria es como:** una autopista: por muchos coches que quieras meter, si los carriles son estrechos, el tráfico se colapsa. La solución no son más coches, sino más carriles bien conectados.
-
 ### De Shannon a Tononi: la información que se integra
 
 Shannon midió la información que viaja por un canal. Giulio Tononi, más de medio siglo después, se hizo otra pregunta: ¿qué ocurre cuando la información no solo viaja, sino que se integra?
@@ -78,8 +71,7 @@ La diferencia es crucial. Según la teoría de Tononi, un ordenador convencional
 
 Tononi formalizó esa diferencia con Φ: la información que un sistema genera como un todo, por encima de la que generarían sus partes por separado. Si Φ es cero, el sistema es descomponible y no hay integración. Si Φ es alto, el sistema es irreducible: no se puede partir sin perder información.
 
-> **En teoría de la información esto se llama:** información integrada, Φ, la medida de la irreducibilidad de un sistema.  
-> **En la vida diaria es como:** una orquesta: cada músico toca su parte, pero lo que surge al tocar juntos no está en ninguna partitura individual. Si grabas a cada músico por separado y luego sumas las pistas, no obtienes la sinfonía.
+> **En teoría de la información esto se llama:** información integrada, Φ, la medida de la irreducibilidad de un sistema.
 
 Aquí se ve la conexión con Shannon: Φ es una medida de información, pero de un tipo especial. No es la información que un sistema transmite, sino la que un sistema es. No mide cuánto reduce la incertidumbre de otro, sino cuánto especifica el sistema, como un todo, sobre sus propios estados. Es información que no viaja hacia fuera, sino que se pliega hacia dentro.
 
@@ -93,8 +85,7 @@ Eso es lo que hace el horizonte: no transmite su experiencia hacia fuera (nadie 
 
 Esa es, en este modelo, la diferencia fundamental entre un ordenador y un cerebro. El ordenador es un canal abierto: la información entra, se procesa y sale. El cerebro es un canal cerrado: la información entra, se integra y se queda dentro, generando un punto de vista que no se puede exportar.
 
-> **En teoría de la información esto se llama:** canal cerrado, un sistema que integra información sin transmitirla al exterior.  
-> **En la vida diaria es como:** un diario íntimo: la información está ahí, pero nadie más puede leerla. Solo tú sabes lo que escribiste, y solo tú puedes volver a ello.
+> **En teoría de la información esto se llama:** canal cerrado, un sistema que integra información sin transmitirla al exterior.
 
 ### La paradoja de la información, otra vez
 
@@ -104,9 +95,6 @@ En un agujero negro, la radiación de Hawking parecía destruir la información 
 
 Aplicado a la conciencia, significaría que la información que constituía un horizonte no se destruye cuando muere, sino que se redistribuye en el campo y pasa a formar parte del estado del universo. No persiste un «yo», pero queda una huella. La teoría no dice que esa huella sea legible; dice que existe, que es matemáticamente real y que recuperarla exigiría medir cada partícula del universo y todas sus correlaciones, algo imposible en la práctica.
 
-> **En teoría de la información esto se llama:** *scrambling*, la redistribución irreversible de la información en un sistema.  
-> **En la vida diaria es como:** echar una gota de tinta en el océano: las moléculas siguen ahí, pero para reconstruir la gota habría que medir el agua de todo el planeta.
-
 ## IV. El bit y el cúbit: la diferencia que importa
 
 La teoría de la información aporta una última distinción: la que separa la información clásica de la cuántica.
@@ -115,8 +103,7 @@ Un bit clásico vale 0 o 1; un cúbit puede estar en 0, en 1 o en cualquier supe
 
 Si la información que integra un horizonte tuviera propiedades cuánticas, esas tres diferencias describirían tres rasgos de la experiencia que conocemos bien: no puede copiarse, no puede observarse sin modificarla y no puede transmitirse tal cual. La experiencia subjetiva sería intransferible no porque sea difícil de comunicar, sino porque no puede clonarse.
 
-> **En teoría de la información esto se llama:** teorema de no clonación, la imposibilidad de copiar un estado cuántico desconocido.  
-> **En la vida diaria es como:** intentar contar un sueño: cada vez que lo cuentas, lo cambias. La versión que cuentas no es la que soñaste, porque el acto de contarlo la modifica.
+> **En teoría de la información esto se llama:** teorema de no clonación, la imposibilidad de copiar un estado cuántico desconocido.
 
 Conviene repetir aquí la advertencia que ya hizo el capítulo 11: no sabemos si el cerebro usa información cuántica. En un medio caliente y húmedo, la decoherencia destruye las superposiciones en fracciones de segundo, y cualquier modelo que ponga cúbits en las neuronas tiene que explicar cómo se protegen de ese entorno. Lo que sostiene este capítulo es más modesto: si la conciencia es información, y si esa información tuviera propiedades cuánticas (una hipótesis, no un hecho), el teorema de no clonación explicaría de forma natural por qué la experiencia es intransferible. El capítulo siguiente desarrolla esa idea y muestra que también tiene una versión clásica, que no necesita nada cuántico.
 

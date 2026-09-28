@@ -44,9 +44,6 @@ En los capítulos centrales vimos que el entrelazamiento cuántico (ER=EPR) es l
 
 El arma definitiva de este ecosistema es el ataque dimensional (el «vector dual»), que aplasta un sistema solar de tres dimensiones en dos. Es el principio holográfico de Maldacena convertido en exterminio. La correspondencia AdS/CFT establece que la información del volumen tridimensional (el *bulk*) puede describirse en una superficie plana situada en su frontera. El ataque dimensional aniquila físicamente el *bulk*, destruye el dentro y obliga a todo el sistema solar, a cada planeta y a cada horizonte humano, a perder su volumen privado y quedar aplastado contra la superficie holográfica de la realidad. La propia subjetividad desaparece: todo se convierte en una cáscara pública inerte.
 
-> **En física esto se llama:** reducción de los grados de libertad topológicos mediante una asimetría holográfica forzada.
-> **En la vida diaria es como:** un universo de ciegos encerrados a oscuras que, en lugar de intentar entrelazarse, deciden disparar a todo lo que respira.
-
 ---
 
 ### 4. El horizonte desnudo: Yun Tianming en el vacío

@@ -15,8 +15,7 @@ El vacío cuántico es ese silencio. No es ausencia de cosas, sino el estado de 
 
 El efecto Casimir demuestra que el vacío cuántico ejerce una fuerza real. Hendrik Casimir lo predijo en 1948: dos placas metálicas muy próximas en el vacío perfecto se atraen, empujadas por el desequilibrio entre las fluctuaciones que caben en el espacio estrecho entre ellas y las que caben en el espacio ilimitado de fuera. Es como poner dos barcos paralelos en un mar agitado: las olas que pueden formarse entre los barcos son más cortas que las que pueden formarse en el océano abierto, y la diferencia empuja un barco contra el otro. El vacío empuja, actúa, tiene estructura.
 
-> **En física esto se llama:** vacío cuántico, fluctuación del punto cero, efecto Casimir.  
-> **En la vida diaria es como:** el silencio antes de la música: no es ausencia, sino una posibilidad plena que presiona de verdad sobre lo que va a ocurrir.
+> **En física esto se llama:** vacío cuántico, fluctuación del punto cero, efecto Casimir.
 
 Si la conciencia tiene la estructura de un horizonte de sucesos, ¿de qué campo emerge? La física responde lo mismo que para cualquier horizonte real: surge del vacío cuántico y vuelve a él. No de la nada, sino de la plenitud sin forma; no del cero, sino del campo donde todo es posible y nada está decidido.
 
@@ -41,9 +40,6 @@ La moraleja es clara: cada sentido que se abre impone una distinción, y cada or
 
 Pero la tradición china no se agota en Hun Dun. El **qi**, la energía vital que circula por todo lo que existe, es otra manera de nombrar el reservorio. El qi no es una sustancia concreta, sino la capacidad misma de transformación: el movimiento que hace que una semilla se convierta en árbol, que un pensamiento se convierta en acción, que una herida se convierta en cicatriz. En la medicina tradicional china, la enfermedad no es la invasión de un agente externo, sino un bloqueo o una desarmonía en el flujo del qi. El acupuntor no inyecta nada: redirige el flujo. No cura la parte, sino que restaura el conjunto.
 
-> **En física esto se llama:** campo cuántico, simetría rota, transición de fase del vacío.  
-> **En la vida diaria es como:** un bebé que abre los ojos por primera vez: pierde la oscuridad indiferenciada, pero gana el mundo. O un río que se divide en dos brazos: cada brazo es menos río que el cauce entero, pero sin la división no habría valle, ni tierra fértil, ni los dos paisajes que esa división hace posibles.
-
 El **wu wei**, la no acción, es la práctica de alinearse con el flujo del reservorio en lugar de imponerse a él. No es pasividad, sino una acción que no fuerza ni crea resistencia, que trabaja *con* la corriente del campo y no contra ella: el carpintero que deja que la madera le diga por dónde cortar, el nadador que no lucha contra la corriente, sino que la aprovecha para llegar a la orilla. En la relatividad general esto tiene una forma exacta, no solo metafórica: un objeto en caída libre no ejerce fuerza sobre nada, sino que sigue la geodésica, la curva que le traza la propia geometría del espacio-tiempo. Nada empuja y nada se resiste. Así se mueve, literalmente, todo lo que no ofrece resistencia. La fluctuación del vacío cuántico tampoco decide surgir: surge porque las condiciones del campo lo permiten. El wu wei aplica esa misma lógica a la voluntad humana: no eliminar la voluntad, sino calibrarla con la estructura del campo del que emerge.
 
 El *I Ching*, el Libro de las Mutaciones, es un mapa de las transiciones del reservorio. Sus 64 hexagramas no predicen el futuro: describen las configuraciones posibles del cambio. Cada hexagrama es una imagen de cómo el reservorio se está moviendo en un momento dado, y la lectura consiste en reconocer en qué configuración estás para actuar en consecuencia. No es magia, sino sensibilidad a las tendencias del campo, la misma que tiene un surfista para las olas: no controlas el océano, aprendes a leerlo.
@@ -62,9 +58,6 @@ La tradición explica además por qué se diferencia el reservorio: por **lila**
 
 Las **Upanishads** llevan esta intuición a su límite lógico con la sentencia **Tat tvam asi**: «Tú eres eso». No «tú perteneces a eso» ni «tú vienes de eso», sino «tú eres eso». El horizonte individual no es una parte del reservorio, sino el reservorio adoptando una configuración particular. La ola no es una porción del océano que se ha separado, sino el océano en movimiento; cuando se deshace, no vuelve al océano, porque nunca dejó de serlo.
 
-> **En física esto se llama:** fluctuación del vacío cuántico por principio de incertidumbre; excitaciones del campo como modos locales de un todo no localizable.  
-> **En la vida diaria es como:** el océano que no puede estar quieto: siempre hay olas, porque la propia quietud es inestable. O una conversación que no puede detenerse: hasta el silencio entre dos palabras está lleno de lo que aún no se ha dicho.
-
 El **samadhi**, el estado contemplativo de unificación, no es una experiencia de Brahman como objeto, sino la disolución momentánea de la distinción entre quien experimenta y lo experimentado. El horizonte no mira hacia el reservorio: se abre y descubre que siempre fue reservorio. Es como despertar dentro de un sueño y darte cuenta de que la habitación del sueño y la habitación de la vigilia son la misma habitación vista desde dos estados de atención.
 
 ---
@@ -77,9 +70,6 @@ Una ola no es ilusoria: tiene altura, velocidad y una energía capaz de derribar
 
 La analogía del sueño es aún más precisa. Mientras sueñas, el mundo del sueño es completamente real: tienes cuerpo, emociones, relaciones, problemas que resolver. Al despertar descubres que todo era una «proyección» de tu propia mente, pero no algo falso: era una realidad de otro orden, construida con otros materiales. Maya dice que la vigilia es un sueño colectivo: el mundo de los objetos separados es tan real como el sueño, pero su independencia es tan ilusoria como la del personaje que creíste ser mientras dormías.
 
-> **En física esto se llama:** las partículas son excitaciones del campo, no objetos independientes; la materia es energía condensada, no sustancia primaria.  
-> **En la vida diaria es como:** una ola que se cree independiente del océano. O un personaje soñado que cree que su historia depende de sus decisiones, sin saber que la mente que lo sueña lo ha decidido todo antes de que él empiece a elegir.
-
 ---
 
 ## La condensación: cómo emerge un horizonte
@@ -90,8 +80,7 @@ En 1924, Satyendra Nath Bose y Albert Einstein predijeron que, si se enfriaba un
 
 Es la imagen más fiel de lo que podría ser el surgimiento de la conciencia a partir del reservorio. No una construcción progresiva, neurona a neurona y sinapsis a sinapsis, sino una condensación: el colapso del espacio de posibilidades en una instancia particular. El reservorio no fabrica la conciencia; la conciencia es la rotura de simetría del reservorio, la condensación de correlaciones en un horizonte localizado.
 
-> **En física esto se llama:** condensación de Bose-Einstein, rotura de simetría, transición de fase.  
-> **En la vida diaria es como:** la burbuja de jabón del capítulo 0: no se construye poco a poco, sino que se cierra de golpe cuando se dan las condiciones. O el momento en que una conversación aburrida se vuelve de pronto interesante, no porque alguien haya añadido una pieza nueva, sino porque el campo entre los interlocutores ha cambiado de fase.
+> **En física esto se llama:** condensación de Bose-Einstein, rotura de simetría, transición de fase.
 
 ---
 
@@ -106,9 +95,6 @@ El **sueño profundo**, sin sueños, sin imágenes, sin yo narrativo, es el esta
 El **olvido** es otra forma de retorno. Cuando olvidas el nombre de alguien a quien conociste hace veinte años, la información no se ha destruido: se ha redistribuido en el reservorio de tu cerebro, mezclada con otros recuerdos, convertida en textura del campo en lugar de en objeto localizable. A veces el nombre vuelve, no porque lo hayas buscado, sino porque el campo ha fluctuado de un modo que lo hace aflorar de nuevo. El olvido no es pérdida, sino *scrambling* de la información en el horizonte, el mismo proceso que la física predice para la información que cae en un agujero negro.
 
 La **creatividad** es condensación voluntaria. Cuando una idea «llega» de la nada, sin que la hayas pensado deliberadamente, es que el reservorio de tu mente ha fluctuado de un modo que produce una excitación estable: un patrón de actividad neuronal que se sostiene lo suficiente como para ser notado por el yo narrativo. Los músicos hablan de «canalizar»; los matemáticos, de «ver» la solución antes de demostrarla; los escritores, de personajes que «hacen lo que quieren». Todos describen el mismo fenómeno: el horizonte deja de imponer su voluntad y permite que el reservorio produzca su propia condensación.
-
-> **En física esto se llama:** interfaz horizonte-reservorio, decoherencia, recuperación de información.  
-> **En la vida diaria es como:** respirar: algo que haces todo el tiempo, sin lo que no podrías vivir, y que solo notas cuando te paras a notarlo.
 
 ---
 

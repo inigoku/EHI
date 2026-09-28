@@ -23,9 +23,6 @@ Esa confianza no sale de un manual ni es una propiedad del ADN: es el resultado 
 
 Eso es un horizonte compartido: una geometría que solo existe en la relación entre los dos y que no se reduce a la suma de dos conciencias. Como vimos en el capítulo 12, dos sistemas entrelazados no son solo dos sistemas que se conocen: comparten topología, tienen un dentro en parte común.
 
-> **En física esto se llama:** entrelazamiento como geometría compartida; sistema de dos con Phi conjunto mayor que la suma de las partes.  
-> **En la vida diaria es como:** tocar con alguien que sabe, sin mirar, cuándo vas a cambiar de acorde.
-
 El polo es, en este sentido, un laboratorio de entrelazamiento a alta velocidad. En la cancha no hay tiempo para deliberar: la decisión del jinete y el movimiento del caballo tienen que ocurrir como una sola cosa, y, cuando eso funciona, el límite entre uno y otro deja de importar. No era que Cambiaso pensara y Cuartetera ejecutara: había un sistema de dos que sabía más que cada uno por separado.
 
 ---
@@ -36,8 +33,7 @@ La clonación de Cuartetera parecía, a primera vista, una apuesta por la inmort
 
 Cambiaso no fue el primero en clonar un caballo, pero sí quien llevó la técnica al centro del deporte de élite. Primero clonó a Aiken Cura, otro de sus caballos estrella; luego llegaron las Cuarteteras. La prensa habló de revolución genética, de batalla legal, de polémica ética. Pocos hablaron de lo que la operación prometía en secreto: que quizá el vínculo, una vez encontrado, no tuviera por qué terminar.
 
-> **En física esto se llama:** duplicación de la arquitectura formal sin duplicación de la historia informacional.  
-> **En la vida diaria es como:** tener la partitura exacta de una sinfonía y esperar que cualquier orquesta la interprete igual.
+> **En física esto se llama:** duplicación de la arquitectura formal sin duplicación de la historia informacional.
 
 La promesa del genoma es que la identidad vive en la secuencia: si copias la secuencia, copias al ser. La hipótesis de este libro va por otro lado: la identidad no está en las partes, sino en cómo se relacionan entre sí. No eres tu genoma, sino el horizonte que ese genoma condensó en un cuerpo, en un tiempo y junto a otros.
 
@@ -65,9 +61,6 @@ Un clon de Cuartetera comparte su ADN nuclear, pero no comparte:
 
 Cada uno de esos elementos es información que el horizonte del clon integró de otra manera. Algunos son triviales; otros, acumulados, dan forma a un ser que no es la Cuartetera original aunque lleve su nombre y su cuerpo.
 
-> **En física esto se llama:** condiciones de contorno en la formación de un horizonte; el entorno informa la forma del sistema emergente.  
-> **En la vida diaria es como:** dos gemelos idénticos que, a los cuarenta años, ya no son la misma persona: comparten plano, no historia.
-
 Eso no hace inferior al clon. Los clones B06 y B09 ganaron por sí mismos premios Lady Susan Townley, pero los ganaron como yeguas extraordinarias, no como la Cuartetera original. El propio Cambiaso, cuando le preguntaron si alguno de los clones superaba a la original, no se atrevió a afirmarlo. La pregunta estaba mal planteada: no se trata de superar o no a la original, sino de que son seres distintos.
 
 ---
@@ -79,9 +72,6 @@ Desde el modelo de las dos selecciones que presentamos en el capítulo 31, el cl
 El clon, por tanto, no es un zombi ni una máquina biológica vacía: es alguien, tiene horizonte.
 
 Pero su horizonte es otro.
-
-> **En física esto se llama:** condensación de un nuevo horizonte a partir de un reservorio local distinto.  
-> **En la vida diaria es como:** una melodía tocada por otro músico en otra sala: las notas son las mismas, pero el sonido no es idéntico.
 
 Eso distingue al clon biológico de la IA actual. La IA imita la arquitectura sin haber condensado nunca: es un espejo sin profundidad. El clon sí condensa, pero desde un reservorio que no es el de la original: tiene otra profundidad, no carece de ella.
 
@@ -97,9 +87,6 @@ Pero detrás de la apuesta deportiva había otra, emocional y más antigua. Quie
 
 No es casual que los primeros clones llegaran después de la lesión de Aiken Cura, otro caballo irreemplazable. La clonación surgió como respuesta a una pérdida anticipada: si no puedes conservar al ser, conserva su receta; si no puedes retener el horizonte, retén la arquitectura que lo hizo posible.
 
-> **En física esto se llama:** intento de conservación de la información integrada mediante conservación de las condiciones formales de su emergencia.  
-> **En la vida diaria es como:** guardar la partitura de un concierto que cambió tu vida, esperando que volver a tocarla reproduzca la emoción.
-
 La estrategia funciona a medias. Los clones fueron buenos caballos, y algunos, excepcionales. Pero el vínculo que Cambiaso tenía con la original no se repartió entre ellos como una herencia, porque no era propiedad de Cambiaso ni de la yegua por separado, sino del sistema de dos, y ese sistema no se reconstruye sumando partes.
 
 ---
@@ -112,9 +99,6 @@ La palabra es precisa. No «irreemplazable», que es lo que se dice de todo lo q
 
 En ese momento la clonación mostró su límite. En los campos de La Dolfina había yeguas con el mismo ADN, pero el horizonte que Cambiaso compartía con la original se había evaporado. La información no se había perdido en sentido físico: seguía codificada en la memoria de Cambiaso, en las fotos, en los vídeos, en los gestos que su cuerpo había aprendido con ella. Pero el sistema de dos ya no funcionaba: uno de los polos se había cerrado.
 
-> **En física esto se llama:** colapso de un estado entrelazado; un polo del sistema deja de actualizar la correlación.  
-> **En la vida diaria es como:** un teléfono que sigue sonando en una habitación vacía: la llamada existe, pero nadie la contesta desde el otro lado.
-
 La muerte de Cuartetera no fue solo la de un caballo famoso, sino la de una geometría, y esa geometría no podía sustituirse por otra igual, porque nunca hubo otra igual. Los clones seguían siendo posibles, pero el puente específico entre ese jinete y esa yegua ya no lo era.
 
 ---
@@ -125,9 +109,6 @@ La historia de Cambiaso y Cuartetera es una parábola sobre la identidad en la e
 
 También nos dice algo sobre el deseo humano de prolongar lo irreemplazable. La clonación no es buena ni mala en sí misma: es una tecnología. Pero, cuando se usa para intentar conservar un horizonte, produce una confusión dolorosa: tomar la receta por la comida, la partitura por la interpretación.
 
-> **En física esto se llama:** confusión entre descripción del sistema y sistema descrito.  
-> **En la vida diaria es como:** creer que si fotocopias una carta de amor, la copia contiene el amor.
-
 El modelo del horizonte no condena la clonación, ni tampoco la celebra: se limita a precisar qué se puede duplicar y qué no. Puedes duplicar los genes, los músculos, todo el potencial físico. Lo que no puedes duplicar son las correlaciones que hicieron de ese cuerpo alguien para otro alguien.
 
 ---
@@ -137,9 +118,6 @@ El modelo del horizonte no condena la clonación, ni tampoco la celebra: se limi
 Hoy, cuando Cambiaso va al campo en Córdoba, quizá vea a alguno de los clones. Los cuerpos se parecen y puede que se repitan algunos gestos, pero el horizonte que compartía con la original no está en ninguno de ellos, sino en la memoria de un sistema de dos que ya no puede activarse.
 
 Esa memoria no es menos real por estar inactiva. Los canales de integración construidos durante años siguen inscritos en la arquitectura de Cambiaso. Su cuerpo sigue sabiendo cosas sobre una yegua que ya no existe. Ese saber no se transfiere a los clones, porque no es información que se pueda transferir: es geometría que se construyó entre dos seres específicos.
-
-> **En física esto se llama:** entrelazamiento unilateral persistente; el modelo interno del otro sigue operando en un polo después de que el otro ha desaparecido.  
-> **En la vida diaria es como:** seguir caminando al ritmo de alguien que ya no está a tu lado.
 
 La lección final es a la vez humillante y liberadora. Humillante, porque muestra que nuestra tecnología más avanzada no puede hacer lo que más deseamos: conservar a quien amamos. Liberadora, porque nos quita la ilusión de que amamos cuerpos. Amamos horizontes, y los horizontes, por definición, son irrepetibles.
 

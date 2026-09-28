@@ -22,9 +22,6 @@ Desde el modelo del horizonte, la voluntad es la capacidad del sistema de integr
 
 La voluntad no es un don moral, sino un recurso fisiológico.
 
-> **En física esto se llama:** inercia del campo de integración.  
-> **En la vida diaria es como:** un río que corre por su cauce: puede cambiar de dirección, pero necesita tiempo y una gran avenida para erosionar la piedra.
-
 ### El secuestro del umbral
 
 Las sustancias adictivas inundan el sistema dopaminérgico con una señal de recompensa que puede multiplicar por diez la de cualquier recompensa natural. El horizonte no recibe un placer mayor, sino una predicción de placer tan abrumadora que recalibra todo el sistema.
@@ -52,9 +49,6 @@ La dopamina no solo genera deseo, sino **predicción**. El sistema dopaminérgic
 
 En la adicción, el sistema aprende a predecir la sustancia con tanta certeza que cualquier otra recompensa (una comida, un abrazo, un logro) genera una señal insuficiente. El cerebro construye un relato en el que la sustancia es la única fuente posible de bienestar. No porque sea verdad, sino porque es la única que genera señal suficiente para registrarse como positiva.
 
-> **En física esto se llama:** sesgo de confirmación dopaminérgico: el sistema solo registra lo que confirma su modelo interno.  
-> **En la vida diaria es como:** un traductor que solo traduce las palabras que ya conoce: todo lo demás se vuelve ruido.
-
 ### Cuando el amor se vuelve el objeto
 
 El capítulo 13 describió el contacto sexual como el único caso en que la superposición de dos horizontes también es física y la frontera entre el dentro y el fuera pierde nitidez. Esa ambigüedad del borde produce la señal de recompensa más potente que el sistema puede generar de forma natural: dopamina de anticipación, noradrenalina de novedad, oxitocina de contacto, endorfinas de placer físico. El cóctel completo. El sistema nervioso está diseñado, literalmente, para que eso importe más que casi cualquier otra cosa.
@@ -69,9 +63,6 @@ Lo que hace de la adicción al sexo un caso aparte es que el circuito que secues
 
 El horizonte que ha llegado ahí no solo pierde el acceso a la señal del vínculo. Pierde también la capacidad de resonar con otro horizonte en esa frecuencia, que es justo la que necesitaría para recalibrarse. El lazo se corta por los dos extremos a la vez.
 
-> **En física esto se llama:** ausencia de retroalimentación externa (lazo abierto).  
-> **En la vida diaria es como:** jugar al tenis contra una pared que siempre te devuelve la pelota exactamente donde la quieres: no hay juego real, solo repetición.
-
 ### La adicción al trabajo
 
 Hay una forma de adicción que la cultura no llama así: la adicción al trabajo. No es dedicación excesiva, sino el secuestro del sistema de recompensa por una actividad que genera una señal predecible y controlable.
@@ -79,9 +70,6 @@ Hay una forma de adicción que la cultura no llama así: la adicción al trabajo
 El trabajo ofrece algo que el vínculo humano no puede dar: resultados medibles, progreso visible, recompensa inmediata. Cada correo respondido, cada tarea terminada, cada objetivo cumplido produce una pequeña descarga dopaminérgica. El sistema aprende a buscar esas descargas con la misma lógica con que busca la sustancia: porque son una señal más fiable que la imprevisibilidad de los demás horizontes.
 
 Pero el trabajo, a diferencia de la sustancia, no destruye receptores. Destruye algo más difícil de reparar: la capacidad de tolerar la ambigüedad del vínculo humano. El horizonte adicto al trabajo pierde la paciencia que exigen las conversaciones que no terminan, los silencios que no se resuelven, las emociones que no caben en un *sprint*. El tiempo del vínculo, que el capítulo 10 describió como una densidad que nace de la resonancia, se convierte en «tiempo perdido» frente a la eficiencia del trabajo.
-
-> **En física esto se llama:** adicción conductual: secuestro del sistema de recompensa por una actividad que genera una señal predecible.  
-> **En la vida diaria es como:** un corredor que solo entrena en cinta porque la calle tiene baches: gana velocidad, pero pierde equilibrio.
 
 ### El horizonte que nació sensible
 
@@ -92,9 +80,6 @@ El caso mejor documentado es el **TDAH**, que implica una disfunción del sistem
 Las consecuencias son claras. El horizonte con TDAH busca activamente estímulos que eleven la señal dopaminérgica: urgencia, novedad, riesgo, intensidad. No por carácter, sino por arquitectura. Cuando da con una fuente potente de estimulación (una sustancia, una pauta de conducta, una pantalla diseñada para maximizar la recompensa), el sistema responde con una intensidad desproporcionada, precisamente porque llevaba tiempo en déficit. No es el umbral que sube con el consumo, como en la adicción clásica, sino un sistema que parte con poca señal propia y los receptores sensibilizados, esperando.
 
 Esa vulnerabilidad no es una debilidad de carácter, sino una propiedad de la arquitectura. Un horizonte con TDAH que desarrolla una adicción no ha fallado moralmente: ha seguido la lógica de un sistema que busca lo que le falta, y lo ha encontrado en el lugar equivocado porque los lugares adecuados no generaban señal suficiente.
-
-> **En física esto se llama:** sensibilización basal por déficit de señal.  
-> **En la vida diaria es como:** un motor que necesita un empujón mayor para arrancar y busca cuestas empinadas para no calarse.
 
 ### La demostración controlada
 
@@ -116,20 +101,11 @@ Cuando llega el tratamiento dopaminérgico, no existe la dosis correcta. La que 
 
 Este caso desmonta cualquier resto de relato moral. En este horizonte no hay ningún lugar desde el que la voluntad pueda operar como supone el lenguaje ordinario: el campo está comprometido a la vez en su arquitectura de origen, en su patología presente y en el único tratamiento disponible. La voluntad no ha fallado; no tenía dónde apoyarse.
 
-> **En física esto se llama:** regulación farmacológica directa del umbral.  
-> **En la vida diaria es como:** una subida de tensión: las bombillas se funden no por viejas, sino por el voltaje.
-
 ### La recuperación como reconstrucción
 
 Si la adicción es una recalibración del umbral, la recuperación es la recalibración inversa. No es cuestión de voluntad, sino de tiempo, de condiciones y de la lenta regeneración de los receptores que el sistema dejó de producir. Los estudios sugieren que el sistema dopaminérgico puede tardar entre doce y dieciocho meses en recuperarse del todo, a veces más. Mientras tanto, el horizonte vive en un mundo en el que nada genera la señal que necesita, salvo la sustancia a la que no puede volver.
 
-> **En física esto se llama:** recalibración lenta del umbral por ausencia prolongada del estímulo supraumbral.  
-> **En la vida diaria es como:** rehabilitar una pierna rota: el hueso se suelda, pero tarda meses, y durante esos meses no puedes correr.
-
 El vínculo desempeña un papel decisivo en la recuperación. La oxitocina, la molécula del vínculo, activa el sistema de recompensa por una vía que no destruye receptores. Un horizonte en recuperación rodeado de vínculos estables recibe la señal de recompensa suficiente para sostenerse sin que el umbral vuelva a subir. Por eso los programas de recuperación basados en la comunidad (los doce pasos, la terapia de grupo, las comunidades terapéuticas) obtienen mejores resultados que los intentos en solitario. No es la moral del grupo, sino la química del vínculo.
-
-> **En física esto se llama:** señal de recompensa alternativa que no produce regulación a la baja.  
-> **En la vida diaria es como:** enseñar a un niño a comer verdura premiándolo con abrazos en lugar de caramelos: la recompensa existe, pero no le quita el apetito.
 
 ---
 

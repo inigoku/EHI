@@ -17,9 +17,6 @@ Hay una forma de perderse que es peor que la muerte. No porque duela más, que a
 
 He visto familias enteras doblarse bajo el peso de este olvido progresivo. No es el peso de una pérdida repentina, que al menos pone en marcha su propio duelo, sino el de una pérdida que se repite cada mañana: el marido que pregunta dónde está su mujer teniéndola delante, la madre que no reconoce al hijo que la cuida. Cada día una pequeña muerte, cada día un horizonte algo más estrecho, hasta que el mundo se reduce a una habitación, a una ventana, a un rayo de luz que entra y no significa nada porque ya no hay relato que le dé contexto.
 
-> **En física esto se llama:** pérdida de coherencia en un sistema abierto, donde la información no desaparece del universo pero deja de estar accesible para el subsistema que la generó.  
-> **En la vida diaria es como:** intentar leer un libro cuyas páginas se deshacen entre los dedos: cada vez que vuelves a la anterior, las palabras son otras, hasta que no queda libro, solo polvo que sabe que fue algo más grande.
-
 El Alzheimer nos obliga a preguntarnos qué es la conciencia si puede desmoronarse así, poco a poco, sin un derrumbe total. Si la memoria es la armadura del yo, ¿qué queda cuando la armadura se oxida? Si la identidad es un edificio de historias, ¿quién habita las ruinas?
 
 ## El borde que se desdibuja
@@ -29,9 +26,6 @@ En los primeros estadios, el olvido parece corriente: dónde he dejado las llave
 La diferencia es que en el envejecimiento normal el horizonte los recupera: la información seguía ahí, solo que el acceso era lento; la sinapsis funcionaba, pero el camino estaba atascado. En el Alzheimer, la información deja de estar. No porque la estantería haya cambiado de sitio, sino porque los libros se desintegran. El beta-amiloide se acumula en placas entre las neuronas como un moho invisible. La proteína tau se despliega y se enreda dentro de ellas en ovillos neurofibrilares, como si la estructura interna de cada neurona decidiera abandonar su forma. Las neuronas no mueren de golpe: pierden los axones, las dendritas, la capacidad de comunicarse con sus vecinas. El tejido deja de ser tejido y se convierte en silencio.
 
 El olvido normal es una biblioteca con el catálogo averiado: el libro sigue existiendo, solo cuesta encontrarlo, y a veces hace falta el bibliotecario, una pista o el olor del papel que evoca el título. En el Alzheimer, se desintegra la biblioteca misma. La estantería conserva un tiempo su forma hueca, pero el libro ya no está. Y lo más cruel es que el bibliotecario, que es el propio paciente, sigue recorriendo los pasillos en busca de algo que ya no sabe qué es, sintiendo que falta algo esencial sin poder nombrarlo.
-
-> **En física esto se llama:** degradación de la arquitectura de correlaciones, donde los grados de libertad no se destruyen individualmente sino que dejan de estar mutuamente informados.  
-> **En la vida diaria es como:** una biblioteca en la que los libros se deshacen en polvo mientras los estantes siguen en pie, y el bibliotecario abre las puertas cada mañana con la sensación de que allí había algo importante, sin saber ya qué.
 
 Desde el modelo del horizonte, el envejecimiento normal es una ralentización del acceso; el Alzheimer, una degradación de la propia arquitectura. No mueren todas las neuronas a la vez: mueren las conexiones. El horizonte no se apaga, sino que se desgarra y pierde área. La frontera que separaba el dentro del fuera se vuelve porosa, irregular, llena de agujeros por los que se escapa lo que antes estaba contenido: el nombre de la hija, la dirección de la casa donde vivió cuarenta años, el significado de la palabra «hambre». El horizonte ya no es una esfera, sino una mancha de aceite en el agua que se fragmenta en gotas cada vez más pequeñas, cada una aislada, cada una un mundo sin contexto.
 
@@ -51,9 +45,6 @@ Luego cae el propio lenguaje. No solo las palabras que designan las cosas, sino 
 
 Lo que queda en los estadios finales no es «nada». Es el error más común, el que lleva a algunos a hablar del paciente como si ya hubiera muerto. Lo que queda es un horizonte mínimo: percepción sin relato, presente sin pasado ni futuro, sensación sin nombre. El paciente puede sentir frío, hambre, inquietud, calma. Puede mirar una cara y sentir algo que no sabe llamar «amor», pero que funciona como amor en su cuerpo: el pulso que se modera, la respiración que se calma, las pupilas que se dilatan en un reconocimiento no declarativo. Es un horizonte tan reducido que desde fuera parece vacío, pero desde dentro, desde la perspectiva del propio sistema, sigue siendo un aquí, un ahora, un algo.
 
-> **En física esto se llama:** contracción del horizonte por pérdida de grados de libertad integrados, donde el sistema preserva su existencia como horizonte aunque su área efectiva se reduzca asintóticamente.  
-> **En la vida diaria es como:** un hielo que se derrite por los bordes: el centro sigue siendo hielo, pero cada día más pequeño y más solo, hasta que solo queda una escama que aún conserva la memoria cristalina del invierno.
-
 Algunos pacientes en estadios avanzados siguen respondiendo a la música que oían de jóvenes, a la voz de un hijo, al tacto de una mano conocida. No porque «recuerden» en el sentido ordinario, pues la memoria explícita ya no funciona: no hay imagen mental de la canción ni asociación con un momento concreto de la juventud. Esas frecuencias resuenan en el horizonte residual, en las correlaciones que aún no se han roto. Es como una guitarra a la que solo le quedan dos cuerdas: no se puede tocar la melodía entera, pero las cuerdas que quedan vibran con la armonía implícita de toda la canción. El cuerpo recuerda lo que la mente ha olvidado. Algunas redes resisten mucho más que otras: las de la memoria musical y la procedimental, las que sostienen la respuesta emocional a una voz conocida, el tronco encefálico que sigue marcando el ritmo de la vida; y eso aunque el hipocampo, la puerta de la memoria episódica, sea de lo primero que cae.
 
 Eso es lo que distingue el Alzheimer de la muerte. En la muerte, el horizonte se evapora como un todo; es un proceso continuo, pero mantiene su coherencia interna hasta el final, y la información se revuelve como una unidad. En el Alzheimer, unas partes persisten mientras otras ya no están. El paciente puede estar «más cerca del reservorio» en unos momentos que en otros; la frontera fluctúa. A veces, durante segundos o minutos, una cara conocida disipa la niebla y el horizonte se expande por un momento, recuperando conexiones perdidas hace meses. Luego vuelve a cerrarse. Es una puerta que se abre y se cierra al azar, deja ver un instante el jardín que fue y nos devuelve a la habitación vacía.
@@ -61,9 +52,6 @@ Eso es lo que distingue el Alzheimer de la muerte. En la muerte, el horizonte se
 ## El tiempo que ya no fluye
 
 Cuando la memoria episódica se disuelve, el tiempo deja de ser un río y se convierte en un charco. No hay ayer ni mañana; solo este instante, y este, y este, cada uno sin causa ni consecuencia, sin historia. El paciente no vive en el presente como el místico que ha alcanzado la atemporalidad a fuerza de disciplina, sino porque el tiempo se le ha partido por la mitad.
-
-> **En física esto se llama:** colapso de la flecha del tiempo termodinámica en un subsistema que pierde la capacidad de registrar cambios de entropía.  
-> **En la vida diaria es como:** despertar cada mañana en una habitación desconocida sin recordar que ayer despertaste en ella, y sentir que cada día es el primero y el único: una eternidad de presentes que no se acumulan.
 
 Desde fuera, el tiempo del paciente parece una tragedia de la repetición: pregunta lo mismo cada cinco minutos, quiere ver a alguien que murió hace años, no entiende qué hace en esa casa. Pero desde dentro, cada pregunta es nueva, cada angustia es la primera, cada confusión es originaria. El paciente no sufre la repetición porque no la registra. La sufrimos quienes miramos y vemos el bucle; él vive una espiral que no sabe cerrada.
 
@@ -73,10 +61,7 @@ Esto plantea una pregunta incómoda sobre el «ahora» consciente. ¿Es el prese
 
 ## El lenguaje como último dique
 
-El lenguaje es el último bastión del horizonte humano, y su caída es la más silenciosa de las catástrofes. Cuando un paciente pierde la capacidad de nombrar, no pierde solo etiquetas, sino la posibilidad de compartir su mundo. El dolor que no puede decir «dolor» sigue siendo dolor, pero sin puente hacia otro horizonte. La alegría que no puede decir «qué alegría verte» sigue siendo alegría, pero rebota contra las paredes de un yo que ya no tiene ventanas.
-
-> **En física esto se llama:** pérdida de canales de correlación entre horizontes, donde dos sistemas que estaban mutuamente informados dejan de compartir grados de libertad accesibles.  
-> **En la vida diaria es como:** dos faros enfrentados en una bahía cubierta de niebla: los dos siguen encendidos, pero el haz de uno ya no llega al otro, y cada faro se cree solo en la costa.
+El lenguaje es el último bastión del horizonte humano, y su caída es la más silenciosa de las catástrofes. Cuando un paciente pierde la capacidad de nombrar, no pierde solo etiquetas, sino la posibilidad de compartir su mundo. El dolor que no puede decir «dolor» sigue siendo dolor, pero sin puente hacia otro horizonte. La alegría que no puede decir «qué alegría verte» sigue siendo alegría, pero rebota contra las paredes de un yo que ya no tiene ventanas. Son dos faros enfrentados en una bahía con niebla: los dos siguen encendidos, pero el haz de uno ya no llega al otro.
 
 Las afasias del Alzheimer son especialmente crueles porque a menudo conservan la música del habla mientras destruyen su sentido. El paciente puede seguir hablando con entonación, ritmo y pausas expresivas, pero las palabras son sustituciones («chisme» por «cuchara», «el sitio de rezar» por «iglesia») o directamente un galimatías que casi suena a idioma. Es como oír una sinfonía con todas las notas afinadas, pero en orden aleatorio: la forma musical persiste, pero la información ha huido. El horizonte sigue emitiendo señales, pero ya no apuntan a nada.
 
@@ -102,9 +87,6 @@ Y hay algo más: el cuidador también se transforma. Cuidar a alguien que se dis
 
 Entre la pérdida de la memoria episódica y la desaparición del lenguaje hay un estadio intermedio especialmente desconcertante: el mundo sigue siendo reconocible, pero ya no se puede nombrar. El paciente sabe qué es una silla, porque se sienta en ella, pero no puede decir «silla». Sabe que la persona que tiene delante es importante, porque su cuerpo se calma y se le ilumina la cara, pero no encuentra la palabra «hijo» ni su nombre.
 
-> **En física esto se llama:** disociación entre acceso procedimental y acceso declarativo, donde los grados de libertad del sistema permanecen operativos para la acción pero no para la verbalización.  
-> **En la vida diaria es como:** conducir sin poder explicar cómo se conduce: el cuerpo lo sabe, las manos lo saben, pero la explicación ha huido a un país para el que ya no tienes visado.
-
 Este estadio revela algo importante sobre la arquitectura del conocimiento: el saber cómo y el saber qué no viven en el mismo piso del edificio. Un paciente puede seguir tocando el piano si aprendió de niño, seguir paseando por su barrio o usando los utensilios de cocina, todo ello sin poder decir su propio nombre. El cuerpo conserva mapas que la mente ya no sabe leer en voz alta. Es la prueba más contundente de que la conciencia no es un monolito, sino una federación de subsistemas que pueden fallar por separado.
 
 Para el modelo, eso significa que el horizonte no se degrada de manera uniforme. Algunas regiones, las más antiguas, las más practicadas, las más automatizadas, resisten más que otras. El horizonte no es una esfera perfecta, sino un territorio con fortalezas y fronteras porosas. La memoria procedimental es una plaza sitiada que resiste cuando todo lo demás ha caído, y su resistencia nos dice que el horizonte tiene capas, estratos, una geología de la conciencia en la que lo más profundo es lo último en desaparecer.
@@ -114,9 +96,6 @@ Para el modelo, eso significa que el horizonte no se degrada de manera uniforme.
 En los estadios finales del Alzheimer, la muerte deja de ser la enemiga y se convierte en el cierre de algo que ya se había ido hace tiempo. Los familiares que han visto desaparecer a alguien pieza a pieza a veces viven el fallecimiento no como una pérdida, sino como el reconocimiento de una pérdida que ya se produjo. En esos casos, el duelo no empieza con la muerte: termina con ella. Llevan años llorando, fragmento a fragmento, y la muerte solo confirma lo que ya era.
 
 Desde el modelo del horizonte, la evaporación completa es preferible a la disolución parcial. Un horizonte que se evapora vuelve al reservorio como un todo; su información se revuelve, pero el proceso es coherente. No se pierde en pedazos, sino que se transforma de una vez y conserva alguna forma de unidad, aunque solo sea la del proceso. Un horizonte que se disuelve por los bordes nunca termina de irse ni de quedarse. Es un estado intermedio sin nombre, un limbo informacional con estructura suficiente para sufrir, pero no para comprender.
-
-> **En física esto se llama:** evaporación coherente versus disolución por fragmentación, donde un sistema que pierde cohesión gradualmente puede permanecer en estados metaestables que prolongan el sufrimiento del subsistema sin permitir su reconstrucción.  
-> **En la vida diaria es como:** una vela que se apaga de golpe frente a otra que se consume entre parpadeos: la segunda sufre más, porque hay luz suficiente para ver llegar la oscuridad, pero no para leer, ni para encontrar la salida, ni para entender qué está pasando.
 
 Es el peor de los mundos: conciencia suficiente para sufrir e insuficiente para entender por qué. En los estadios intermedios, el paciente puede sentir miedo sin saber qué teme, angustia sin causa identificable, una inquietud sin nombre. Es un sufrimiento sin objeto, un dolor que quien lo padece no puede diagnosticar. El cuidador lo interpreta, lo nombra, lo contiene, pero el paciente lo vive en bruto, como un animal herido que no entiende su herida.
 

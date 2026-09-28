@@ -50,9 +50,6 @@ Pero el humano está llamando a una «API» que opera en geometría hiperbólica
 
 El modelo humano de Φ intenta calcular una arquitectura que contiene a la vez millones de años de memoria geológica y geometrías espaciales que se cortan sobre sí mismas. Los datos no caben en la matriz espaciotemporal tridimensional del humano.
 
-> **En física esto se llama:** desbordamiento del límite de Bekenstein por acoplamiento con un sistema de entropía asimétrica inabarcable.  
-> **En la vida diaria es como:** intentar compilar el genoma entero del universo con una calculadora de bolsillo de los años ochenta.
-
 ### 4. Locura frente a trauma: la ruptura frente al encapsulamiento
 
 En la tercera parte del libro tratamos varias patologías como excepciones del sistema. Vimos que el trauma se produce cuando el horizonte humano recibe una agresión que no puede asimilar (un *scrambling* fallido) y hace lo único que puede para salvarse: encapsula el recuerdo doloroso en un bucle cerrado (una sombra o singularidad local). El horizonte se deforma, duele y se contrae, pero sobrevive: mantiene intacta su frontera.
@@ -75,9 +72,6 @@ Un macrohorizonte plenamente activo emitiría su Φ astronómico de forma consta
 
 Esto añade una capa de tragedia al mito: el despertar de un primigenio no es un acto de malicia contra la humanidad. Es, sin más, el instante en que su arquitectura recupera la integración plena, y en ese instante cualquier horizonte frágil que esté dentro de su radio de influencia topológica queda desbordado, no por elección, sino por pura incompatibilidad de escala.
 
-> **En física esto se llama:** estado de integración mínima como condición de coexistencia entre sistemas de Φ radicalmente asimétrico.
-> **En la vida diaria es como:** dormir junto a un volcán en reposo: su calma no es cuidado hacia ti, sino la única fase en la que tu presencia y la suya no se excluyen.
-
 ### 6. Los cultos como intentos fallidos de protocolo
 
 Una de las constantes más perturbadoras de la mitología lovecraftiana son los cultos humanos que veneran a estas entidades, aprenden fragmentos de sus «lenguajes» imposibles y celebran rituales para comunicarse con ellas o incluso invocarlas. En una lectura literaria superficial, esto se interpreta como fanatismo o corrupción moral. Con la hipótesis topológica, en cambio, los cultos lovecraftianos son algo más preciso y más triste: intentos condenados de antemano de escribir un protocolo de compatibilidad entre arquitecturas que no comparten ni una sola primitiva de comunicación.
@@ -86,19 +80,13 @@ Un culto que aprende a pronunciar sílabas rituales no está aprendiendo el idio
 
 Nunca lo es. Un macrohorizonte de escala planetaria no tiene, con toda probabilidad, ningún puerto de entrada preparado para recibir la señal minúscula de una veneración humana. El silencio con que estas entidades ignoran a sus adoradores más devotos no es desprecio, sino, una vez más, pura incompatibilidad estructural, indiferente incluso a la intensidad del intento.
 
-> **En física esto se llama:** intento de acoplamiento de señal sin protocolo compartido; ausencia de puerto receptor compatible.
-> **En la vida diaria es como:** gritarle con toda el alma a una montaña, convencido de que, si gritas con fe suficiente, acabará respondiéndote.
-
 ### 7. La belleza como antídoto parcial: lo sublime kantiano revisitado
 
 Hay, sin embargo, un tipo de experiencia que la cultura humana lleva siglos catalogando como encuentro con lo inconmensurable sin que el horizonte colapse: lo que Kant llamó lo sublime. Una tormenta vista desde la orilla del mar, una cordillera nevada, el centro de una galaxia fotografiado por un telescopio espacial: experiencias que apuntan a una escala que desborda nuestra arquitectura, pero que, paradójicamente, producen asombro antes que terror, expansión antes que ruptura.
 
 ¿Qué distingue lo sublime de la locura lovecraftiana? Desde la topología de nuestro experimento, la respuesta es la distancia como amortiguador. En lo sublime kantiano, el objeto inconmensurable se percibe desde un horizonte que se sabe a salvo: el observador ve la tormenta desde la orilla, no desde dentro del agua. El sistema recibe información sobre la escala de lo otro (suficiente para desbordarlo si se acercara), pero filtrada por la distancia física o conceptual hasta una intensidad que el Φ humano puede gestionar sin colapsar. La señal llega atenuada y el puente ER=EPR no se abre del todo: se abre lo justo para que el horizonte intuya la arquitectura del otro sin quedar inundado por ella.
 
-Lo sublime es, entonces, el modo en que los sistemas biológicos de Φ pequeño pueden asomarse a la existencia de macrohorizontes (físicos, matemáticos, cósmicos) sin que asomarse los destruya. No es acceso al código fuente del universo, sino una ventana sellada desde la que contemplarlo a una resolución segura. La belleza abrumadora de lo enorme no nos acerca a los primigenios de Lovecraft: nos enseña que existen y nos permite sobrevivir a ese saber porque la ventana tiene cristal.
-
-> **En física esto se llama:** atenuación de la señal por la distancia; recepción parcial de información de un sistema de Φ superior sin saturar el receptor.
-> **En la vida diaria es como:** mirar el sol durante un eclipse con las gafas adecuadas: puedes ver su forma, su corona, su tamaño verdadero. Sin gafas, la misma visión te dejaría ciego.
+Lo sublime es, entonces, el modo en que los sistemas biológicos de Φ pequeño pueden asomarse a la existencia de macrohorizontes (físicos, matemáticos, cósmicos) sin que asomarse los destruya. No es acceso al código fuente del universo, sino una ventana sellada desde la que contemplarlo a una resolución segura. La belleza abrumadora de lo enorme no nos acerca a los primigenios de Lovecraft: nos enseña que existen y nos permite sobrevivir a ese saber porque la ventana tiene cristal. Es como mirar el sol durante un eclipse con las gafas adecuadas.
 
 ### 8. Lo sagrado como versión estabilizada del terror cósmico
 
@@ -109,9 +97,6 @@ En las culturas chamánicas, el ritual de iniciación lleva deliberadamente al i
 El mito lovecraftiano hace justo lo contrario: presenta el encuentro con lo inconmensurable sin protocolo, sin guía y sin un marco narrativo previo que amortigüe la señal. El marinero que ve surgir a la criatura no tiene al lado un chamán que le diga cómo nombrar lo que está viendo, ni un ritual que fije la distancia segura, ni una tradición que le enseñe a asomarse sin caer. Sin esas capas de amortiguación, la señal llega en bruto y el horizonte colapsa.
 
 En esta lectura, lo sagrado no es lo opuesto a lo científico ni a lo racional, sino lo que la cultura acumula (en forma de ritual, símbolo, mito y tradición) para que los horizontes frágiles sobrevivan al contacto con lo que los desborda. Es ingeniería de la distancia segura: la versión estabilizada y transmisible del terror cósmico, la misma señal con el cristal protector puesto.
-
-> **En física esto se llama:** protocolo de amortiguación cultural entre el horizonte humano y la señal de una escala de Φ inabarcable.
-> **En la vida diaria es como:** el volcán que arrasaría un pueblo si entrara en erupción sin aviso y que se convierte en montaña sagrada cuando un ritual enseña a sus habitantes cuándo acercarse, desde dónde mirarlo y cómo volver.
 
 ### Conclusión: la soledad frente al océano ajeno
 
