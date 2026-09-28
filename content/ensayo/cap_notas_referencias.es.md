@@ -169,7 +169,11 @@ Le Bon, G. (1895). *Psychologie des foules*. Félix Alcan.
 
 Leggett, A.J. (2001). Bose-Einstein condensation in the alkali gases: Some simple physics. *Reviews of Modern Physics*, 73(2).
 
+Lieberman, M.D., et al. (2007). Putting feelings into words: Affect labeling disrupts amygdala activity in response to affective stimuli. *Psychological Science*, 18(5).
+
 Low, P. (2012). The Cambridge Declaration on Consciousness.
+
+Lutz, A., Greischar, L.L., Rawlings, N.B., Ricard, M., & Davidson, R.J. (2004). Long-term meditators self-induce high-amplitude gamma synchrony during mental practice. *Proceedings of the National Academy of Sciences*, 101(46).
 
 Maldacena, J. (1997). The Large N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics*, 2.
 
@@ -184,6 +188,8 @@ McAdam, D. (1982). *Political Process and the Development of Black Insurgency, 1
 Michell, J. (1784). On the Means of Discovering the Distance, Magnitude, &c. of the Fixed Stars. *Philosophical Transactions of the Royal Society*, 74.
 
 Montagu, A. (1986). *Touching: The Human Significance of the Skin*. Harper & Row.
+
+Nagel, T. (1974). What Is It Like to Be a Bat? *The Philosophical Review*, 83(4).
 
 Newberg, A., D'Aquili, E., & Rause, V. (2001). *Why God Won't Go Away: Brain Science and the Biology of Belief*. Ballantine Books.
 

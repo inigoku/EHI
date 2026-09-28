@@ -102,7 +102,7 @@ No es un consuelo, pero puede ser una compañía.
 
 > **Nota al Capítulo 17**
 >
-> **Lo que sí sabemos:** El DSM-5-TR (2022) incluyó el «trastorno de duelo prolongado» como categoría diagnóstica, no sin polémica. Los modelos predictivos persisten tras la muerte. Los vínculos continuos son un modelo clínico reconocido. La miocardiopatía de takotsubo es real. El duelo no reconocido (aborto, mascota, ruptura) tiene efectos documentados.
+> **Lo que sí sabemos:** El DSM-5-TR (2022) incluyó el «trastorno de duelo prolongado» como categoría diagnóstica, no sin polémica. Hay modelos neurocientíficos del duelo según los cuales el cerebro sigue esperando al ausente (O'Connor). Los vínculos continuos son un modelo clínico reconocido. La miocardiopatía de takotsubo es real. El duelo no reconocido (aborto, mascota, ruptura) tiene efectos documentados.
 >
 > **Lo que no sabemos:** Cuánto debería durar el duelo. Si medicalizar la pena extrema la patologiza. Cómo se reorganiza un horizonte tras la pérdida de un hijo.
 >

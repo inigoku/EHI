@@ -174,7 +174,7 @@ Incluso dentro de la física teórica, esto es muy especulativo, y extenderlo a 
 
 > **Nota al Capítulo 2**
 >
-> **Lo que sí sabemos:** Los agujeros negros existen. Los hemos fotografiado y los hemos oído cantar (ondas gravitacionales). La teoría predice que emiten radiación y que su información vive en la superficie. La relatividad general predice correctamente su comportamiento fuera del horizonte. La mecánica cuántica predice correctamente la radiación de Hawking.
+> **Lo que sí sabemos:** Los agujeros negros existen. Los hemos fotografiado y los hemos oído cantar (ondas gravitacionales). La entropía de un agujero negro es proporcional al área de su horizonte (Bekenstein, Hawking). La relatividad general predice correctamente su comportamiento fuera del horizonte. La radiación de Hawking es una predicción sólida de la física teórica, pero todavía no se ha observado en agujeros negros astrofísicos.
 >
 > **Lo que no sabemos:** Qué hay en la singularidad. Si el principio holográfico se aplica a nuestro universo (requiere condiciones específicas: espacio anti-de Sitter). Si ER=EPR opera en escalas biológicas. Si el soft hair resuelve completamente la paradoja de la información. Qué ocurre cuando un agujero negro termina de evaporarse.
 >

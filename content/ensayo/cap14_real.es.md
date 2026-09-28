@@ -123,7 +123,7 @@ Ese es el límite último del modelo: no la pregunta de por qué hay conciencia,
 
 > **Nota al Capítulo 19**
 >
-> **Lo que sí sabemos:** El Alzheimer destruye progresivamente las conexiones neuronales antes que las propias neuronas. Las áreas de la memoria episódica y semántica son las primeras en degradarse.
+> **Lo que sí sabemos:** El Alzheimer destruye progresivamente las conexiones neuronales antes que las propias neuronas. La memoria episódica, ligada al hipocampo, suele ser la primera en degradarse; la procedimental y la musical resisten más.
 >
 > **Lo que no sabemos:** Por qué algunos pacientes avanzados responden a estímulos conocidos sin una memoria explícita funcional. Dónde está el umbral exacto en que un horizonte deja de serlo.
 >

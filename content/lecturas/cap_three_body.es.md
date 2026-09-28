@@ -20,9 +20,9 @@ La trilogía *El problema de los tres cuerpos*, de Liu Cixin, es seguramente el 
 
 El primer gran choque topológico de la novela llega al conocer a los alienígenas de Trisolaris. Su biología es radicalmente distinta de la nuestra: no tienen órganos vocales; se comunican mostrando directamente sus pensamientos. Para ellos, pensar y comunicar son lo mismo, y por eso son biológicamente incapaces de mentir.
 
-Traducido a nuestro modelo, los trisolarianos funcionan con una arquitectura sin un horizonte de sucesos estricto entre su estado privado y su interfaz pública. Tononi sostiene que la conciencia depende de la información que un sistema genera como un todo. El sistema trisolariano tiene un Φ (integración de información) altísimo, pero su membrana es completamente permeable: toda la información integrada se irradia de inmediato al exterior.
+Traducido a nuestro modelo, los trisolarianos obligan a precisar qué encierra exactamente la frontera de un horizonte. Tienen un Φ altísimo y, si son alguien, tienen también un dentro: una perspectiva desde la que sus pensamientos se viven, que nadie más ocupa. Lo que no tienen es un contenido reservado. Su frontera deja salir de inmediato todo lo que integran, de modo que los demás ven qué piensan, aunque nunca desde dónde lo piensan. Conviene distinguir, entonces, dos encapsulaciones: la de la perspectiva, que es la que según este libro hace que haya alguien, y la del contenido, que permite guardar secretos. Los trisolarianos tienen la primera y carecen de la segunda.
 
-Esa transparencia topológica tiene un precio. Como no puede encapsular información ni aislar datos del resto del sistema, la mente trisolariana carece de lo que la psicología analítica llamaría la sombra: no puede reprimir ni ocultar traumas o planes. Es estructuralmente pura, pero termodinámicamente frágil ante el engaño. Cuando los trisolarianos descubren que la humanidad tiene una topología en la que el pensamiento queda sellado tras una frontera viva, sienten terror: comprenden que el encapsulamiento del yo humano es un arma evolutiva que ellos no pueden replicar.
+Esa transparencia topológica tiene un precio. Como no puede reservar ningún contenido, la mente trisolariana carece de lo que la psicología analítica llamaría la sombra: no puede reprimir ni ocultar traumas o planes. Es estructuralmente pura, pero termodinámicamente frágil ante el engaño. Cuando los trisolarianos descubren que la humanidad tiene una topología en la que el pensamiento queda sellado tras una frontera viva, sienten terror: comprenden que el encapsulamiento del yo humano es un arma evolutiva que ellos no pueden replicar.
 
 ---
 
@@ -72,7 +72,7 @@ Los protagonistas comprenden entonces la ley final de nuestra hipótesis: «Cada
 
 > **Nota al Capítulo 39**
 >
-> **Lo que sí sabemos:** La correspondencia holográfica (AdS/CFT) describe cómo un volumen puede proyectarse en una superficie de menor dimensión. La física da por hecho que la información se conserva a pesar del *scrambling* cuántico final.
+> **Lo que sí sabemos:** La correspondencia holográfica (AdS/CFT) describe cómo un volumen puede proyectarse en una superficie de menor dimensión. La mayoría de los físicos considera que la información se conserva a pesar del *scrambling* (unitaridad), aunque la cuestión no está cerrada.
 >
 > **Lo que no sabemos:** Si es posible extraer un cerebro humano, privarlo por completo de estímulos (crear un «horizonte desnudo») y que su Φ interno mantenga la coherencia en lugar de desintegrarse del todo en el aislamiento termodinámico.
 >

@@ -166,7 +166,7 @@ La pregunta adecuada no es «¿debería empatizar más?», sino «¿dónde está
 
 > **Nota al Capítulo 16**
 >
-> **Lo que sí sabemos:** La empatía afectiva agota; la compasión no (Singer et al.). La interocepción guarda relación con la precisión empática. La empatía cognitiva y la afectiva funcionan con circuitos en parte distintos. El desgaste de los trabajadores de urgencias se relaciona con la densidad de la señal, no con la intensidad de cada caso.
+> **Lo que sí sabemos:** El entrenamiento en compasión, a diferencia de la exposición empática sostenida, se asocia a más afecto positivo y a la activación de circuitos distintos (Klimecki, Singer et al.). La interocepción guarda relación con la precisión empática. La empatía cognitiva y la afectiva funcionan con circuitos en parte distintos. El desgaste profesional en los trabajos de cuidado está ampliamente documentado.
 >
 > **Lo que no sabemos:** Si todas las dimensiones de la interocepción se relacionan igual con la empatía. Si la empatía «hostil» usa las mismas redes. Cómo varía la calibración cultural de la empatía.
 >

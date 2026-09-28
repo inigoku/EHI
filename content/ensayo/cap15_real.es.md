@@ -138,7 +138,7 @@ Y el sufrimiento de muchas de estas condiciones no viene de la topología en sí
 
 > **Nota al Capítulo 20**
 >
-> **Lo que sí sabemos:** En sus primeras fases, el Parkinson afecta sobre todo al movimiento y deja en gran parte intacta la cognición; con los años puede afectar también a la atención, el ánimo y la memoria. La dopamina interviene en la percepción del tiempo además de en el movimiento. El trauma deja información congelada que el sistema no consigue integrar. Las condiciones neurodivergentes suponen topologías informacionales distintas, no horizontes ausentes.
+> **Lo que sí sabemos:** En sus primeras fases, el Parkinson afecta sobre todo al movimiento y deja en gran parte intacta la cognición; con los años puede afectar también a la atención, el ánimo y la memoria. La dopamina interviene en la percepción del tiempo además de en el movimiento. Los recuerdos traumáticos tienden a ser intrusivos, fragmentados y poco integrados en la memoria autobiográfica. Las condiciones neurodivergentes muestran diferencias medibles de conectividad cerebral.
 >
 > **Lo que no sabemos:** Si la levodopa restaura la sincronización temporal por el mismo mecanismo que la motricidad, o por vías independientes. Si el trauma puede «descongelarse» sin reactivar la singularidad. Qué entornos harían funcionales topologías actualmente patologizadas.
 >

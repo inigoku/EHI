@@ -34,7 +34,7 @@ El modelado de sistemas complejos y la física de los horizontes muestran que no
 
 > **Nota al Capítulo 9**
 >
-> **Lo que sí sabemos:** Que los sistemas de información, sea cual sea su sustrato (silicio, gravedad o carbono), presentan propiedades de frontera isomorfas cuando alcanzan ciertos niveles de integración causal.
+> **Lo que sí sabemos:** Que la encapsulación es un principio general de diseño de sistemas y que los horizontes de sucesos definen fronteras de acceso causal. Que ambas cosas sean la misma estructura en el caso de la conciencia es la hipótesis de este libro, no un hecho.
 >
 > **Lo que no sabemos:** Si esta concordancia estructural apunta a una ley informacional unificada que subyace a la física, la computación y la mente, o si refleja el límite de la capacidad explicativa de nuestro propio cerebro.
 >

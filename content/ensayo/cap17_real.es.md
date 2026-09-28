@@ -160,7 +160,7 @@ No somos dueños de nuestras mascotas, sino, durante un tiempo breve, compañero
 
 > **Nota al Capítulo 26**
 >
-> **Lo que sí sabemos:** Que los mamíferos comparten con nosotros los sustratos neurales de la emoción (Declaración de Cambridge, 2012); el modelo les atribuye, por eso, un horizonte propio, aunque menos complejo que el humano. Que la coevolución con el perro ha producido una legibilidad mutua única. Que el cerebro humano puede volcar la arquitectura del cuidado de los hijos en una mascota con una intensidad bioquímica comparable. Que el maltrato deja una huella estructural real en el animal y se asocia a una empatía disminuida en quien lo ejerce. Que el duelo por una mascota es un derrumbe genuino, a menudo agravado por la falta de reconocimiento social.
+> **Lo que sí sabemos:** Que los mamíferos comparten con nosotros los sustratos neurales de la emoción (Declaración de Cambridge, 2012). Que la coevolución con el perro ha producido una legibilidad mutua única. Que el cerebro humano activa con las mascotas parte de los circuitos del cuidado de los hijos (oxitocina, recompensa). Que el maltrato deja una huella estructural real en el animal y se asocia a una empatía disminuida en quien lo ejerce. Que el duelo por una mascota es un derrumbe genuino, a menudo agravado por la falta de reconocimiento social.
 >
 > **Lo que no sabemos:** Hasta dónde se extiende el espectro de la conciencia en otras especies. Si volcar en una mascota el vínculo con los hijos satisface por completo las necesidades del sistema de cuidado o deja vacíos que aún no sabemos medir. Si la anestesia colectiva ante el maltrato sistémico puede revertirse a escala de civilización.
 >

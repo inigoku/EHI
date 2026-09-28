@@ -46,7 +46,7 @@ Antes de la anestesia, el paciente está despierto, consciente, con memoria, con
 
 Los neurocientíficos pueden medirlo. Bajo anestesia profunda, la conectividad funcional entre la corteza prefrontal y la red por defecto cae drásticamente. La información deja de fluir de manera integrada. El paciente no está «durmiendo profundamente»: está en un estado donde la conciencia, como propiedad emergente, ha dejado de emerger. Cuando se revierte la anestesia, la integración vuelve, el castillo se reconstruye y el «alguien» regresa.
 
-De ahí se desprende que la conciencia se parece menos a un interruptor que a un dial, que puede girarse hasta cero y luego volver a subir. No hay un instante preciso en que desaparezca ni en que regrese, sino una zona gris, un umbral borroso, en la que el paciente puede oír sin recordar, sentir sin saber que siente, estar parcialmente presente sin estar completamente ausente.
+De ahí se desprende que la conciencia se parece menos a un interruptor que a un dial, que puede girarse hasta cero y luego volver a subir. No hay un instante preciso en que desaparezca ni en que regrese, sino una zona gris, un umbral borroso, en la que el paciente puede oír sin recordar, sentir sin saber que siente, estar parcialmente presente sin estar completamente ausente. Eso no excluye que haya umbrales: el agua se calienta de forma continua y aun así hierve a cien grados. Más adelante (capítulos 6 y 23) el libro distinguirá entre el grado de integración, que funciona como un dial, y el cierre de un horizonte, que ocurre una sola vez; por ahora basta con ver que la pregunta del sí o el no llega demasiado pronto.
 
 ---
 
@@ -90,7 +90,7 @@ Las dos teorías, IIT y espacio de trabajo global, no son incompatibles. Podría
 
 > **Nota al Capítulo 1**
 >
-> **Lo que sí sabemos:** La conciencia animal ha dejado de ser un tabú científico. La Declaración de Cambridge (2012) fue un punto de inflexión. La IIT es una teoría viva, no un dogma. La anestesia general produce cambios medibles en la conectividad cerebral antes de que desaparezca la actividad local. Los animales no humanos muestran correlatos neurales de experiencia emocional y cognitiva.
+> **Lo que sí sabemos:** La conciencia animal ha dejado de ser un tabú científico. La Declaración de Cambridge (2012) fue un punto de inflexión. La IIT es una teoría activa y muy discutida, con defensores y críticos. La anestesia general produce cambios medibles en la conectividad cerebral antes de que desaparezca la actividad local. Los animales no humanos muestran correlatos neurales de experiencia emocional y cognitiva.
 >
 > **Lo que no sabemos:** Dónde trazar la línea exacta. Si un termostato tiene Φ>0, ¿tiene «algo» de experiencia? La pregunta sigue abierta. Si IIT y Global Workspace describen el mismo fenómeno o fenómenos distintos. Si la conciencia puede existir en sistemas no biológicos.
 >

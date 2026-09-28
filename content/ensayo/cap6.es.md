@@ -147,7 +147,7 @@ Quizá esa sea la respuesta.
 
 > **Nota al Capítulo 7**
 >
-> **Lo que sí sabemos:** Hawking predijo que los agujeros negros emiten radiación y se evaporan (la predicción es sólida, aunque nadie la ha observado todavía). La información, según la mayoría de los físicos, se conserva (unitaridad). Los destellos gamma en la parada cardíaca son reales (Borjigin et al., 2013, 2023). Las experiencias cercanas a la muerte tienen una fenomenología muy parecida en culturas distintas, aunque con variaciones culturales documentadas.
+> **Lo que sí sabemos:** Hawking predijo que los agujeros negros emiten radiación y se evaporan (la predicción es sólida, aunque nadie la ha observado todavía). La información, según la mayoría de los físicos, se conserva (unitaridad). Se han registrado destellos gamma tras la parada cardíaca en ratas (Borjigin et al., 2013) y en dos de cuatro pacientes moribundos (Xu et al., 2023). Las experiencias cercanas a la muerte tienen una fenomenología muy parecida en culturas distintas, aunque con variaciones culturales documentadas.
 >
 > **Lo que no sabemos:** Qué ocurre en el régimen de Planck. Si la información es realmente recuperable. Si el Bardo describe algo más que fenomenología. Si las experiencias cercanas a la muerte son ilusiones cerebrales o algo más profundo.
 >

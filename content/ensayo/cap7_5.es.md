@@ -96,7 +96,7 @@ Lo más sensato es el agnosticismo. No sabemos si el cerebro usa computación cu
 
 > **Nota al Capítulo 11**
 >
-> **Lo que sí sabemos:** El entrelazamiento cuántico es real y está verificado experimentalmente. Las desigualdades de Bell se violan. ER=EPR es matemáticamente coherente. El teletransporte cuántico funciona. La decoherencia explica por qué no vemos efectos cuánticos macroscópicos.
+> **Lo que sí sabemos:** El entrelazamiento cuántico es real y está verificado experimentalmente. Las desigualdades de Bell se violan. ER=EPR es una conjetura apoyada en modelos teóricos, sin verificación experimental. El teletransporte cuántico funciona. La decoherencia explica por qué no vemos efectos cuánticos macroscópicos.
 >
 > **Lo que no sabemos:** Si los puentes de Einstein-Rosen existen físicamente. Si el entrelazamiento entre cerebros es detectable. Si la mente depende de procesos cuánticos.
 >

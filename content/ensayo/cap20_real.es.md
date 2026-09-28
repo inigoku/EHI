@@ -53,13 +53,13 @@ Pero el cuerpo también puede ser una vía de expansión. Las prácticas corpora
 
 ### La meditación como modificación del horizonte
 
-Si el tiempo subjetivo es densidad de integración, cualquier práctica que modifique la tasa de integración modifica el tiempo. La meditación, en sus formas más concentradas, reduce los estímulos externos y aumenta la atención a los procesos internos. El resultado es que una misma hora de reloj contiene más «acontecimientos» de integración, no porque ocurran más cosas, sino porque cada instante se descompone en más componentes diferenciados. Es como mirar una hoja con lupa: la hoja no ha cambiado; la atención, sí.
+Si el tiempo subjetivo es densidad de integración, cualquier práctica que modifique la tasa de integración modifica el tiempo. La meditación, en sus formas más concentradas, reduce los estímulos externos y aumenta la atención a los procesos internos. El resultado es que una misma hora de reloj contiene más «acontecimientos» de integración, porque cada instante se descompone en más componentes diferenciados, aunque no ocurran más cosas; en el recuerdo, esa hora pesa más. Es como mirar una hoja con lupa: la hoja no ha cambiado; la atención, sí.
 
-Los estados de absorción profunda (*jhana*, *samadhi*) llevan esto al extremo: los estímulos externos se reducen tanto que el horizonte solo se alimenta de sí mismo. Lo que cuentan los meditadores avanzados sobre el tiempo (que una hora parece durar minutos o que el tiempo desaparece por completo) es coherente con la predicción del modelo: sin estímulos nuevos que integrar, el horizonte deja de acumular «ahoras» diferenciados.
+Los estados de absorción profunda (*jhana*, *samadhi*) llevan esto al extremo: los estímulos externos se reducen tanto que el horizonte solo se alimenta de sí mismo. Lo que cuentan los meditadores avanzados sobre el tiempo (que una hora parece durar minutos o que el tiempo desaparece por completo) es coherente con la predicción del modelo: sin estímulos nuevos que integrar, el horizonte deja de acumular «ahoras» diferenciados, y se desvanecen a la vez el tiempo vivido y el recordado que distinguía el capítulo 10.
 
-Pero aquí el experimento encuentra otro límite. La meditación, además de modificar la tasa de integración, es una **relación con el reservorio**, con el campo del que surge el horizonte y al que vuelve. Las tradiciones contemplativas que describen la disolución del yo no describen (solo) una reducción de Φ, sino algo que el vocabulario del horizonte no capta: la experiencia de que el horizonte, con todo su contenido, es la «proyección» de algo más fundamental que no tiene forma de horizonte.
+Pero aquí el experimento encuentra otro límite. La meditación, además de modificar la tasa de integración, es una **relación con el reservorio**, con el campo del que surge el horizonte y al que vuelve. Las tradiciones contemplativas que describen la disolución del yo no describen (solo) un cambio en la integración, sino algo que el vocabulario del horizonte no capta: la experiencia de que el horizonte, con todo su contenido, es la «proyección» de algo más fundamental que no tiene forma de horizonte.
 
-El experimento puede llamarlo «condición límite en la que Φ→∞ en el reservorio y Φ→0 en el horizonte individual», pero esa descripción matemática no es la experiencia, y en este terreno lo que cuenta es la experiencia.
+El experimento puede describirlo como el límite en que la integración sigue alta, como mostró el interludio, pero la frontera deja de separar un dentro de un fuera; esa descripción no es la experiencia, y en este terreno lo que cuenta es la experiencia.
 
 Hay algo más que decir de la meditación como práctica del horizonte. Muchas personas la abandonan porque esperan que les «calme la mente» y descubren que sentarse en silencio solo amplifica el ruido interior. Desde la perspectiva del horizonte es previsible: al reducir los estímulos externos, el horizonte dispone de más recursos para integrar los procesos internos que suelen quedar en segundo plano. La mente no se vuelve más ruidosa; el ruido que ya estaba se vuelve audible.
 
@@ -107,7 +107,7 @@ Todo experimento de pensamiento acaba topando con su límite en la carne de la e
 
 > **Nota al Capítulo 54**
 >
-> **Lo que sí sabemos:** La meditación modifica la estructura cerebral (neuroplasticidad). Un vocabulario preciso alivia (terapia narrativa).
+> **Lo que sí sabemos:** La práctica sostenida de la meditación se asocia a cambios medibles en la estructura y la actividad cerebral. Poner nombre a una emoción reduce la reactividad de la amígdala (etiquetado afectivo, Lieberman et al., 2007).
 >
 > **Lo que no sabemos:** Si la meditación es una «modificación del horizonte» o algo más. Si el alivio que da el vocabulario es duradero.
 >

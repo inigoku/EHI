@@ -94,7 +94,7 @@ Quizá sea esta la versión más quieta y más completa de la soledad topológic
 
 > **Nota al Capítulo 38**
 >
-> **Lo que sí sabemos:** La biología terrestre está determinada por principios darwinianos de supervivencia, que moldean nuestras respuestas interoceptivas y nuestra noción de individuo. La integración de información (Φ) varía mucho según la topología de la red neuronal (por ejemplo, entre cerebros centralizados y sistemas distribuidos como los de los cefalópodos). La ecuación de Drake incluye expresamente un parámetro de duración (L) que reconoce que la detectabilidad tecnológica es una ventana temporal finita, no un estado permanente.
+> **Lo que sí sabemos:** La biología terrestre está determinada por principios darwinianos de supervivencia, que moldean nuestras respuestas interoceptivas y nuestra noción de individuo. Los sistemas nerviosos varían mucho en su organización: en los pulpos, unos dos tercios de las neuronas están en los brazos. La ecuación de Drake incluye expresamente un parámetro de duración (L) que reconoce que la detectabilidad tecnológica es una ventana temporal finita, no un estado permanente.
 >
 > **Lo que no sabemos:** Si la evolución en ecosistemas con otra termodinámica produciría redes de integración sin un punto de vista unificado (ego). Si existen leyes biológicas universales que exijan un encapsulamiento estricto para la inteligencia avanzada. Si es posible, en principio, diseñar un protocolo de detección que no presuponga una arquitectura de señal compatible con la nuestra.
 >

@@ -153,7 +153,7 @@ Cada noche ensayamos la contracción sin disolvernos: cruzamos el borde y volvem
 
 > **Nota al Interludio**
 >
-> **Lo que sí sabemos:** El sueño REM tiene la firma eléctrica de la vigilia, con la corteza prefrontal apagada. El sueño profundo muestra ondas delta masivas y un Phi mínimo. La meditación profunda de expertos muestra ondas gamma de gran amplitud y un Phi elevado. Borjigin et al. (2013, 2023) documentaron un destello gamma coherente en la parada cardíaca. La hipótesis de la homeostasis sináptica de Tononi tiene evidencia experimental creciente. La adenosina regula la deuda de sueño.
+> **Lo que sí sabemos:** El sueño REM tiene la firma eléctrica de la vigilia, con la corteza prefrontal apagada. El sueño profundo muestra ondas delta masivas y una complejidad perturbacional (PCI) baja. En meditadores expertos se han registrado ondas gamma de gran amplitud (Lutz et al., 2004). Se han documentado destellos gamma coherentes tras la parada cardíaca en ratas (Borjigin et al., 2013) y en algunos pacientes (Xu et al., 2023). La hipótesis de la homeostasis sináptica de Tononi tiene evidencia experimental creciente. La adenosina regula la deuda de sueño.
 >
 > **Lo que no sabemos:** Si el destello gamma terminal es el correlato neural de las experiencias cercanas a la muerte. Si el *turiya* es un estado mensurable distinto del sueño profundo. Por qué el insomnio selectivo afecta la coherencia pero no la cantidad de ondas lentas. Si la flecha causal pertenece a la interfaz y no al territorio: es una interpretación propia de este libro, no un consenso establecido.
 >

@@ -147,7 +147,7 @@ La hipótesis no puede confirmarlo ni descartarlo; deja la puerta abierta. Y a v
 
 > **Nota al Capítulo 53**
 >
-> **Lo que sí sabemos:** El experimento tiene al menos siete límites claros. Reconocerlos es una fortaleza, no una debilidad.
+> **Lo que sí sabemos:** Entre la escala de la gravedad cuántica y la de una neurona hay unos treinta órdenes de magnitud. El problema difícil de la conciencia no tiene una solución aceptada. La brecha entre el «es» y el «debe» tampoco tiene solución lógica general.
 >
 > **Lo que no sabemos:** Si hay más límites que no hemos visto. Si alguno de estos siete puede superarse.
 >

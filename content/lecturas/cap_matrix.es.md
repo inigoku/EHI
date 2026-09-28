@@ -90,7 +90,7 @@ Al volver al Ávalon del código fuente, Neo garantiza que el «agua» del próx
 
 > **Nota al Capítulo 41**
 >
-> **Lo que sí sabemos:** En el modelo de la información integrada, Φ solo alcanza valores altos si coexisten integración y diferenciación; la homogeneidad masiva lo destruye. Durante la privación sensorial extrema, el cerebro reorganiza su integración hacia patrones endógenos.
+> **Lo que sí sabemos:** En la teoría de la información integrada, Φ solo alcanza valores altos si coexisten integración y diferenciación; la homogeneidad masiva lo destruye. Durante la privación sensorial prolongada, el cerebro tiende a generar percepciones endógenas, incluidas alucinaciones.
 >
 > **Lo que no sabemos:** Si un entorno de ejecución artificial (una simulación) podría de verdad extraer y aprovechar la integración fenomenológica (los *qualia*) de cerebros biológicos acoplados a él. Si el estado luminoso del *Bardo Thödol* (el *chikhai*) puede asimilarse físicamente a la radiación térmica final de un microagujero negro.
 >

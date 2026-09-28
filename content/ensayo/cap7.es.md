@@ -39,6 +39,8 @@ El neurocientífico David Eagleman propuso una imagen que ilumina todo esto. El 
 
 Así se explica lo que ocurre en las caídas: quienes sufren un accidente de ese tipo cuentan que el tiempo se ralentizó muchísimo. Eagleman lo puso a prueba: dejó caer a voluntarios desde unos treinta metros con un dispositivo en la muñeca que mostraba números demasiado deprisa para leerlos en condiciones normales. Si el tiempo se ralentizara de verdad, podrían leerlos. No pudieron. Lo que ocurre es que el miedo extremo genera una densidad de memoria mucho mayor: al recordar, la caída parece más larga porque hay más «fotogramas» por segundo.
 
+Esto obliga a separar dos relojes que el lenguaje ordinario confunde. Uno es el tiempo vivido, la duración que se siente mientras algo ocurre; el otro, el tiempo recordado, la duración que se reconstruye después. La densidad de integración actúa sobre los dos en sentidos opuestos. Mientras se integra a toda velocidad no queda atención para vigilar el reloj, y las horas se escapan; pero cada una de esas horas deja mucha memoria escrita, y al mirar atrás parece larga. El aburrimiento hace lo contrario: se arrastra mientras dura y, en el recuerdo, apenas ocupa sitio. Por eso el flujo hace desaparecer el tiempo y, sin embargo, una tarde así se recuerda llena; y por eso los veranos de la infancia, vividos sin mirar el reloj, se recuerdan inmensos. Cuando este libro dice que la integración determina la densidad del tiempo, habla sobre todo del tiempo recordado; lo que desaparece en el flujo es el tiempo vivido.
+
 ### La química del tiempo
 
 La tasa de integración la regulan, minuto a minuto, los neurotransmisores:
@@ -158,7 +160,7 @@ Los estudios muestran que este desajuste tiene consecuencias medibles para la sa
 
 > **Nota al Capítulo 10**
 >
-> **Lo que sí sabemos:** El acoplamiento neuronal (Hasson, Princeton) es real y medible. La dopamina regula la percepción del tiempo. El experimento de la caída de Eagleman demuestra que el tiempo subjetivo es una construcción de la memoria. El jet lag social tiene efectos documentados sobre la salud. El síndrome de Capgras ilustra la desconexión entre reconocimiento y valoración afectiva.
+> **Lo que sí sabemos:** El acoplamiento neuronal (Hasson, Princeton) es real y medible. La dopamina regula la percepción del tiempo. El experimento de la caída de Eagleman sugiere que la ralentización del tiempo en situaciones de miedo es un efecto de la memoria, no de la percepción. El jet lag social tiene efectos documentados sobre la salud. El síndrome de Capgras ilustra la desconexión entre reconocimiento y valoración afectiva.
 >
 > **Lo que no sabemos:** Si el tiempo del vínculo es «objetivamente» más denso o solo lo es subjetivamente. Cómo medir el Phi de un sistema de dos. Si el tiempo subjetivo puede ser una propiedad física mensurable.
 >

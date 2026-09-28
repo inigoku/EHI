@@ -101,7 +101,7 @@ Las tradiciones contemplativas llevan milenios explorando este límite. El vedan
 
 > **Nota al Capítulo 12**
 >
-> **Lo que sí sabemos:** El solapamiento yo-otro (Coan y Beckes) es real. Los modelos predictivos persisten tras la muerte del otro (O'Connor). Las neuronas espejo (Rizzolatti) existen. El sistema de apego (Bowlby, Ainsworth) está bien documentado.
+> **Lo que sí sabemos:** El solapamiento yo-otro (Coan y Beckes) es real. O'Connor describe el duelo como la persistencia de un modelo del ausente. Las neuronas espejo se han registrado en macacos (Rizzolatti), y hay indicios de sistemas análogos en humanos. El sistema de apego (Bowlby, Ainsworth) está bien documentado.
 >
 > **Lo que no sabemos:** Si ER=EPR opera en escalas biológicas. Si el entrelazamiento entre cerebros es físicamente real. Cómo se disuelve un modelo predictivo.
 >

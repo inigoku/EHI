@@ -122,7 +122,7 @@ Eso da a la maternidad, y a la paternidad, una función que ningún otro víncul
 
 > **Nota al Capítulo 15**
 >
-> **Lo que sí sabemos:** El acoplamiento cerebral entre madre e hijo y el microquimerismo fetomaterno son reales. La separación de capas en la adopción y la FIV es medible. La depresión posparto afecta a la calibración del sistema de apego del hijo. El paradigma del rostro inmóvil (Tronick) demuestra la importancia de la contingencia.
+> **Lo que sí sabemos:** El acoplamiento cerebral entre madre e hijo y el microquimerismo fetomaterno son reales. La depresión posparto no tratada se asocia a un mayor riesgo de apego inseguro en el hijo. El paradigma del rostro inmóvil (Tronick) demuestra la importancia de la contingencia.
 >
 > **Lo que no sabemos:** El significado funcional exacto y a largo plazo de las células fetales en los órganos de la madre. Cómo interactúan múltiples cuidadores en la calibración del sistema de recompensa.
 >

@@ -63,7 +63,7 @@ Dentro de una cabeza no hay ningún agujero negro literal. Pero quizá haya algo
 
 > **Nota al Capítulo 3**
 >
-> **Lo que sí sabemos:** Que hay una diferencia real entre los sistemas con estados internos inaccesibles y los completamente transparentes. Que la neurociencia puede describir correlatos pero no acceder al estado privado. Que el dualismo de acceso no requiere postular ninguna sustancia nueva.
+> **Lo que sí sabemos:** Que la encapsulación es un principio de diseño estándar en ingeniería de software (Parnas, 1972). Que la neurociencia mide correlatos de la experiencia, no la experiencia misma, es un punto en el que coinciden autores muy distintos (Nagel, Chalmers). Que el dualismo de acceso no requiere postular ninguna sustancia nueva.
 >
 > **Lo que no sabemos:** Si todo dominio con un Phi alto es consciente, o si la encapsulación es condición necesaria pero no suficiente. Si la distinción público/privado es fundamental o emergente.
 >
