@@ -20,7 +20,7 @@ Cada uno construyó su propio horizonte de sucesos: la frontera más allá de la
 
 Dalí la selló. Picasso la habitó. Miró la disolvió.
 
-No es una clasificación estilística, sino una tipología de destinos. Sellar, habitar y disolver son las tres respuestas posibles ante el peso de un mundo interior que amenaza con tragárselo todo. Por eso este capítulo no habla de pintura, sino de lo que hace una conciencia con su propia masa.
+Estos tres verbos forman una tipología de destinos. Sellar, habitar y disolver son las tres respuestas posibles ante el peso de un mundo interior que amenaza con tragárselo todo. Por eso este capítulo no habla de pintura, sino de lo que hace una conciencia con su propia masa.
 
 Es un mapa de esas tres singularidades y de lo que queda cuando alguien se atreve a mirar hacia dentro.
 
@@ -38,7 +38,7 @@ Picasso hizo lo contrario: abrió su horizonte de par en par una sola vez. El *G
 ## [ILUSTRACIÓN il_cart_guernica: "El grito que atraviesa"]
 *Ilustración. Una composición en blanco, negro y gris ceniza: la silueta de un caballo se encabrita en el centro bajo un sol partido como una bombilla rota, mientras planos geométricos astillados sugieren muros derrumbados y sombras alargadas perdiéndose hacia los bordes.*
 
-Miró respondió con *El segador* y el cartel *Aidez l'Espagne*, y luego con el repliegue: Varengeville, Palma, la retirada hacia lo mínimo. Sus *Constelaciones* nacen justo ahí, mientras Europa arde: veintitrés gouaches de pequeño formato, fáciles de transportar, pintados por un hombre que huye con su familia de una guerra a otra. No son evasión, sino resistencia por concentración. Su horizonte no se cerró con la guerra: se hizo más fino y más tenso, como una cuerda.
+Miró respondió con *El segador* y el cartel *Aidez l'Espagne*, y luego con el repliegue: Varengeville, Palma, la retirada hacia lo mínimo. Sus *Constelaciones* nacen justo ahí, mientras Europa arde: veintitrés gouaches de pequeño formato, fáciles de transportar, pintados por un hombre que huye con su familia de una guerra a otra. Son resistencia por concentración. Su horizonte no se cerró con la guerra: se hizo más fino y más tenso, como una cuerda.
 
 ## [ILUSTRACIÓN il_cart_constelaciones: "Red mínima bajo el fuego"]
 *Ilustración original. Una libreta de tapa azul, cubierta por una delicada red de líneas negras que conectan estallidos de estrellas, espirales y pequeños ojos y formas biomórficas de colores: una red lo bastante pequeña para caber en una mano en fuga, con los hilos tensados como si sostuvieran algo bajo presión.*
@@ -49,11 +49,11 @@ Tres reconfiguraciones del mismo golpe: Dalí lo digiere, Picasso lo expulsa, Mi
 
 Dalí levantó un búnker alrededor de su psique.
 
-Su pintura es una cápsula sellada donde el mundo exterior no entra sin someterse antes al método paranoico-crítico: una máquina que multiplica las imágenes, que dobla la realidad sobre sí misma hasta que el original y su reflejo ya no pueden distinguirse. Esa encapsulación no es estética, sino supervivencia.
+Su pintura es una cápsula sellada donde el mundo exterior no entra sin someterse antes al método paranoico-crítico: una máquina que multiplica las imágenes, que dobla la realidad sobre sí misma hasta que el original y su reflejo ya no pueden distinguirse. Esa encapsulación es supervivencia.
 
 > **En física esto se llama:** un horizonte de sucesos. La frontera que separa lo que puede escapar hacia el exterior de lo que queda atrapado para siempre; nada la cruza sin ser antes transformado por la física interior del sistema.
 
-El método tiene una obra manifiesto: la *Metamorfosis de Narciso*. Una figura agachada junto al agua es, a la vez, un muchacho ensimismado y una mano pétrea que sostiene un huevo del que brota una flor. No hay truco: las dos lecturas son simultáneas y completas, y el ojo no puede quedarse con ambas a la vez. Dalí ha construido una imagen en superposición, y cada espectador la colapsa a su manera. Freud, que lo recibió en Londres en 1938 con ese cuadro bajo el brazo, admitió ante el joven español lo que negaba al resto de los surrealistas: que allí había un problema psicológico serio. No era un cumplido, sino un diagnóstico.
+El método tiene una obra manifiesto: la *Metamorfosis de Narciso*. Una figura agachada junto al agua es, a la vez, un muchacho ensimismado y una mano pétrea que sostiene un huevo del que brota una flor. No hay truco: las dos lecturas son simultáneas y completas, y el ojo no puede quedarse con ambas a la vez. Dalí ha construido una imagen en superposición, y cada espectador la colapsa a su manera. Freud, que lo recibió en Londres en 1938 con ese cuadro bajo el brazo, admitió ante el joven español lo que negaba al resto de los surrealistas: que allí había un problema psicológico serio. Era un diagnóstico.
 
 ## [ILUSTRACIÓN il_cart_narciso: "La imagen que no colapsa"]
 *Ilustración original. Una silueta en tonos sepia sobre un fondo de cielo estrellado: el perfil de un rostro inclinado hacia el agua es, al mismo tiempo y sin truco, el contorno de una vasija de piedra agrietada. Ambas lecturas comparten exactamente el mismo contorno, de modo que el ojo no puede sostener las dos formas a la vez.*
@@ -67,7 +67,7 @@ Hay una obra que anticipa este final con décadas de adelanto. En 1952, tras Hir
 ## [ILUSTRACIÓN il_cart_desintegracion: "La retícula que se separa"]
 *Ilustración. Un paisaje costero dorado al atardecer: una retícula de bloques oscuros cubre el suelo y se disuelve en unidades discretas hacia el horizonte, mientras formas blandas y alargadas se derraman entre ellos y un pez cruza flotando junto a un acantilado al fondo.*
 
-Porque el temblor degenerativo de sus últimos años no es un dato clínico externo, sino su horizonte interior resquebrajándose. El análisis fractal de sus últimos trazos detectó alteraciones anteriores al diagnóstico; no son un fallo técnico, sino el yo perdiendo cohesión.
+Porque el temblor degenerativo de sus últimos años es su horizonte interior resquebrajándose. El análisis fractal de sus últimos trazos detectó alteraciones anteriores al diagnóstico; son el yo perdiendo cohesión.
 
 Si el horizonte separa lo observable de lo inobservable, la enfermedad de Dalí fue la evaporación de su propia identidad: esa fuga lenta e inevitable que la física predice para todo agujero negro. La información no se destruye; se transforma. El temblor de Dalí es información desintegrándose: el yo irradiando su materia hacia el exterior en forma de líneas inestables, de figuras que ya no logran sostener su propio mito.
 
@@ -75,7 +75,7 @@ Y sin embargo, incluso la evaporación fue puesta en escena. Dalí no se limitó
 
 ### Gala: la singularidad
 
-Dentro de esa cápsula convulsa, Gala no es una musa, sino el punto de anclaje que impide el colapso total: el nodo que mantiene la conciencia daliniana por encima del umbral de la fragmentación.
+Dentro de esa cápsula convulsa, Gala es el punto de anclaje que impide el colapso total: el nodo que mantiene la conciencia daliniana por encima del umbral de la fragmentación.
 
 Basta seguir sus transmutaciones para medir su masa. En *Galarina* es carne serena con un pecho descubierto, pintada, decía él, como Rafael pintaba a sus madonas. En la *Leda atómica* es diosa suspendida, sin tocar el cisne ni el pedestal, en un mundo donde nada roza nada: el amor reescrito como una geometría sin contacto, donde la unión ya no depende del roce sino de la posición relativa de los cuerpos en el espacio. En el *Corpus hypercubus* ya ni siquiera participa de la escena: observa la crucifixión desde abajo, vestida de dama toledana, convertida en la testigo cuya mirada sostiene el prodigio. Con los años, Dalí llegó a firmar con el nombre de ambos, «Gala Salvador Dalí», como si la firma misma fuera un sistema binario.
 
@@ -98,7 +98,7 @@ Dalí tardó décadas en nombrar lo evidente. Al final de su vida repetía que L
 
 ### Los relojes
 
-Dalí no fragmenta por estética, sino porque su horizonte es un campo de batalla y multiplicar las imágenes es su única forma de no colapsar. Sus relojes blandos no son un guiño a Einstein, sino la demostración de que el tiempo se estira con el deseo y se encoge con el terror. Él mismo dio la clave doméstica del prodigio: un camembert fundiéndose una noche de agosto. Que el emblema del tiempo subjetivo naciera de un queso derretido no es una anécdota, sino el método en estado puro, lo trivial elevado a cosmología por la presión de una mente que no distingue jerarquías entre el pánico y la cena. En su cápsula, el pasado y el futuro coexisten en un presente viscoso, suspendidos en la membrana del horizonte.
+Dalí no fragmenta por estética, sino porque su horizonte es un campo de batalla y multiplicar las imágenes es su única forma de no colapsar. Sus relojes blandos demuestran que el tiempo se estira con el deseo y se encoge con el terror. Él mismo dio la clave doméstica del prodigio: un camembert fundiéndose una noche de agosto. Que el emblema del tiempo subjetivo naciera de un queso derretido es el método en estado puro, lo trivial elevado a cosmología por la presión de una mente que no distingue jerarquías entre el pánico y la cena. En su cápsula, el pasado y el futuro coexisten en un presente viscoso, suspendidos en la membrana del horizonte.
 
 ## [ILUSTRACIÓN cart_relojes: "La persistencia de la memoria"]
 *Salvador Dalí, óleo sobre lienzo, 1931. The Museum of Modern Art, Nueva York.*
@@ -112,18 +112,18 @@ Miradlo en los retratos bicéfalos de los años treinta y cuarenta: la placidez 
 ## [ILUSTRACIÓN cart_llorona: "La mujer que llora"]
 *Pablo Picasso, óleo sobre lienzo, 1937. Tate, Londres.*
 
-Ese rostro doble es la clave de toda su obra. Picasso no tiene un horizonte único, sino muchos superpuestos. Su yo no es un punto con posición definida, sino una onda que abarca todos los estados posibles hasta que el acto de pintar colapsa la onda y materializa un estilo, una identidad temporal. Él mismo lo formuló, sin física, ante el retrato de Gertrude Stein: cuando le objetaron que ella no se parecía a ese rostro de máscara que le había pintado, respondió que ya se parecería. No era arrogancia, sino la convicción de que el cuadro no registra un estado, sino que lo anticipa: de que la observación no copia la realidad, sino que la produce.
+Ese rostro doble es la clave de toda su obra. Picasso no tiene un horizonte único, sino muchos superpuestos. Su yo es una onda que abarca todos los estados posibles hasta que el acto de pintar colapsa la onda y materializa un estilo, una identidad temporal. Él mismo lo formuló, sin física, ante el retrato de Gertrude Stein: cuando le objetaron que ella no se parecía a ese rostro de máscara que le había pintado, respondió que ya se parecería. Era la convicción de que el cuadro anticipa un estado en lugar de registrarlo: de que la observación produce la realidad en lugar de copiarla.
 
 > **En física esto se llama:** superposición cuántica y colapso de la función de onda. Antes de la medición, una partícula no ocupa un solo estado: los ocupa todos a la vez, hasta que el acto de observar obliga al sistema a decidirse por uno.
 
-El primer colapso tiene fecha y cadáver. En 1901, su amigo Carles Casagemas se pega un tiro en un café de París por una mujer. Picasso, que tiene diecinueve años, entierra al amigo y a continuación pinta el mundo entero de azul durante tres años: mendigos, ciegos, madres consumidas, el propio Casagemas amortajado con la sien agujereada. La época azul no es un ejercicio tonal, sino la primera demostración de que un trauma puede teñir la totalidad del espectro perceptivo, de que la masa de un solo muerto puede curvar toda la luz de un sistema. Después vino el rosa (los saltimbanquis, la ternura itinerante) y luego el hachazo: entre los saltimbanquis rosas y *Las señoritas de Avignon* no hay transición narrativa, sino un salto. Las cinco mujeres del burdel de la calle Avinyó, con sus rostros de máscara ibérica y africana, no evolucionan de nada anterior: irrumpen, como irrumpe una partícula donde la física clásica no la esperaba.
+El primer colapso tiene fecha y cadáver. En 1901, su amigo Carles Casagemas se pega un tiro en un café de París por una mujer. Picasso, que tiene diecinueve años, entierra al amigo y a continuación pinta el mundo entero de azul durante tres años: mendigos, ciegos, madres consumidas, el propio Casagemas amortajado con la sien agujereada. La época azul es la primera demostración de que un trauma puede teñir la totalidad del espectro perceptivo, de que la masa de un solo muerto puede curvar toda la luz de un sistema. Después vino el rosa (los saltimbanquis, la ternura itinerante) y luego el hachazo: entre los saltimbanquis rosas y *Las señoritas de Avignon* no hay transición narrativa, sino un salto. Las cinco mujeres del burdel de la calle Avinyó, con sus rostros de máscara ibérica y africana, no evolucionan de nada anterior: irrumpen, como irrumpe una partícula donde la física clásica no la esperaba.
 
 ## [ILUSTRACIÓN cart_avignon: "Las señoritas de Avignon"]
 *Pablo Picasso, óleo sobre lienzo, 1907. The Museum of Modern Art, Nueva York.*
 
-Cambiar de estilo no era para él una búsqueda formal, sino una necesidad vital. Cada período es una cápsula que habita con voracidad de depredador; cuando agota su información, la abandona y funda un universo nuevo con leyes nuevas. A diferencia de Dalí, Picasso no sufre la cápsula: la devora.
+Cambiar de estilo era para él una necesidad vital. Cada período es una cápsula que habita con voracidad de depredador; cuando agota su información, la abandona y funda un universo nuevo con leyes nuevas. A diferencia de Dalí, Picasso no sufre la cápsula: la devora.
 
-El cubismo lleva esta lógica al límite. Pintar un rostro de frente y de perfil a la vez no es una forma de ver el objeto, sino una topología de la conciencia, que nunca percibe nada aislado, sino todas las perspectivas integradas en un mismo instante: la máxima integración de información que cabe en dos dimensiones, el Φ más alto jamás plasmado en un lienzo. Y tiene dos fases que son dos operaciones inversas: el cubismo analítico tritura el violín, la botella, el rostro, hasta reducirlos a un polvo de planos ocres donde el objeto casi desaparece; el sintético los reconstruye con pedazos de periódico y hule, con fragmentos del mundo real pegados al lienzo. Primero desintegra la información; luego demuestra que puede reintegrarla con materia ajena. Un ciclo completo de destrucción y recomposición del mundo, ejecutado en menos de una década.
+El cubismo lleva esta lógica al límite. Pintar un rostro de frente y de perfil a la vez es una topología de la conciencia, que percibe todas las perspectivas integradas en un mismo instante: la máxima integración de información que cabe en dos dimensiones, el Φ más alto jamás plasmado en un lienzo. Y tiene dos fases que son dos operaciones inversas: el cubismo analítico tritura el violín, la botella, el rostro, hasta reducirlos a un polvo de planos ocres donde el objeto casi desaparece; el sintético los reconstruye con pedazos de periódico y hule, con fragmentos del mundo real pegados al lienzo. Primero desintegra la información; luego demuestra que puede reintegrarla con materia ajena. Un ciclo completo de destrucción y recomposición del mundo, ejecutado en menos de una década.
 
 En el centro de todas sus órbitas hay una masa constante: el minotauro. Aparece en los grabados de los años treinta como violador, como víctima y como bestia ciega guiada por una niña con una paloma. Es el autorretrato que Picasso no podía hacerse de frente: el deseo como monstruo doméstico, culpable y conmovedor a la vez. Su tiempo no avanza en línea recta: orbita, cíclico, alrededor del minotauro, del sexo y de la muerte.
 
@@ -132,26 +132,26 @@ Y al final, el método se vuelve explícito. En 1957, Picasso se encierra y pint
 ## [ILUSTRACIÓN cart_meninas: "Las Meninas"]
 *Diego Velázquez, óleo sobre lienzo, 1656. Museo del Prado, Madrid. El cuadro original que Picasso desmontó en 1957 en cincuenta y ocho variaciones.*
 
-Su fragmentación no es el pánico viscoso de Dalí, sino una operación quirúrgica. Desmonta la figura para entender su esqueleto. Y así hasta el último día: los viejos mosqueteros y pintores de sus años finales, resueltos a brochazos urgentes por un hombre de noventa años que ya no corrige, son la onda negándose a colapsar del todo: un yo que prefiere seguir siendo todas sus posibilidades antes que aceptar una posición final.
+Su fragmentación, lejos del pánico viscoso de Dalí, es una operación quirúrgica. Desmonta la figura para entender su esqueleto. Y así hasta el último día: los viejos mosqueteros y pintores de sus años finales, resueltos a brochazos urgentes por un hombre de noventa años que ya no corrige, son la onda negándose a colapsar del todo: un yo que prefiere seguir siendo todas sus posibilidades antes que aceptar una posición final.
 
 ## III. Joan Miró: la disolución
 
 Miró es la anomalía del sistema.
 
-Mientras Dalí sufre su horizonte y Picasso lo analiza hasta la extenuación, Miró disuelve las fronteras, pero no el yo. Conviene precisar la anomalía: Miró no se aniquila en lo cósmico, sino que se expande hasta lo cósmico sin dejar de ser un yo. La prueba es que su universo resulta inconfundible: nadie firma el vacío como él. Su viaje hacia la abstracción no es una huida del mundo ni una renuncia a sí mismo, sino la dilatación de un sujeto hasta la escala sideral. Al abandonar el peso de la figuración, derriba los muros de la cápsula y convierte el lienzo en un firmamento donde las estrellas son pensamientos y las líneas, respiración.
+Mientras Dalí sufre su horizonte y Picasso lo analiza hasta la extenuación, Miró disuelve las fronteras, pero no el yo. Conviene precisar la anomalía: Miró no se aniquila en lo cósmico, sino que se expande hasta lo cósmico sin dejar de ser un yo. La prueba es que su universo resulta inconfundible: nadie firma el vacío como él. Su viaje hacia la abstracción es la dilatación de un sujeto hasta la escala sideral. Al abandonar el peso de la figuración, derriba los muros de la cápsula y convierte el lienzo en un firmamento donde las estrellas son pensamientos y las líneas, respiración.
 
 El punto de partida es la tierra, no el cielo. *La masía*, pintada durante nueve meses de obsesión entre Mont-roig y París, contiene la granja familiar entera: cada grieta del muro, cada hoja del eucalipto, el caracol, la regadera, la cabra. Es realismo llevado a una densidad imposible, un inventario donde nada es más importante que nada. Hemingway, que la compró, dijo que contenía todo lo que se siente por España cuando se está lejos. Ahí está ya, en clave figurativa, el programa de toda una vida: la hormiga vale lo que el astro. Solo faltaba soltar el lastre.
 
 ## [ILUSTRACIÓN cart_masia: "La masía"]
 *Joan Miró, óleo sobre lienzo, 1921-1922. National Gallery of Art, Washington D. C. Comprado por Ernest Hemingway.*
 
-Lo soltó con violencia. «Quiero asesinar la pintura», declaró hacia 1927, y lo decía en serio: contra el oficio heredado, contra el cuadro de caballete como objeto de posesión, Miró emprendió una demolición sistemática de todo lo que la pintura tenía de propiedad. Lo que quedó tras el asesinato no fue la nada, sino un alfabeto. Estrella, mujer, pájaro, ojo, escalera. Signos que ya no representan cosas, sino que las convocan.
+Lo soltó con violencia. «Quiero asesinar la pintura», declaró hacia 1927, y lo decía en serio: contra el oficio heredado, contra el cuadro de caballete como objeto de posesión, Miró emprendió una demolición sistemática de todo lo que la pintura tenía de propiedad. Lo que quedó tras el asesinato fue un alfabeto. Estrella, mujer, pájaro, ojo, escalera. Signos que ya no representan cosas, sino que las convocan.
 
 El proceso, además, tenía su propia termodinámica. Miró trabajaba como un labrador: madrugaba, cumplía horario, dejaba reposar los lienzos durante meses y hasta años antes de darles la última mancha, cultivaba decenas de cuadros a la vez como quien atiende un huerto. La espontaneidad de sus signos es un espejismo: cada trazo que parece caído del cielo fue esperado con paciencia geológica. Es la disciplina invertida de Dalí: donde el ampurdanés fabricaba delirio con precisión de relojero, el catalán fabricaba precisión con apariencia de delirio.
 
 Aquí la metáfora del agujero negro alcanza su límite y se invierte: Miró no tiene horizonte de sucesos porque no retiene información. No hay masa de trauma curvando el espacio a su alrededor. Su conciencia viaja ligera, sin atrapar la luz de los demás.
 
-Ese inventario no desaparece cuando Miró abandona la figuración, sino que se traduce. La misma mirada que en *La masía* dedicaba idéntico cuidado al caracol, a la cabra y a la montaña reaparece, veinte años después, en las *Constelaciones*, solo que ahora el caracol se ha convertido en un punto y la montaña en una línea que ata ese punto a una estrella. Lo que cambia no es el principio (nada pesa más que nada), sino la escala a la que se aplica: de un corral del Camp de Tarragona al cosmos entero. Entre un cuadro y otro no hay ruptura, sino la misma ecuación, resuelta primero para lo pequeño y después para lo infinito.
+Ese inventario no desaparece cuando Miró abandona la figuración, sino que se traduce. La misma mirada que en *La masía* dedicaba idéntico cuidado al caracol, a la cabra y a la montaña reaparece, veinte años después, en las *Constelaciones*, solo que ahora el caracol se ha convertido en un punto y la montaña en una línea que ata ese punto a una estrella. El principio (nada pesa más que nada) se mantiene; cambia la escala a la que se aplica: de un corral del Camp de Tarragona al cosmos entero. Entre un cuadro y otro no hay ruptura, sino la misma ecuación, resuelta primero para lo pequeño y después para lo infinito.
 
 Sus *Constelaciones* encapsulan el infinito en una caja de cerillas: burbujas donde la gravedad no existe y los elementos flotan en un vacío vibrante. Esa encapsulación no es defensiva, como en Dalí, ni analítica, como en Picasso, sino uterina. El cuadro es un vientre donde el cosmos se repliega para volver a nacer.
 
@@ -195,7 +195,7 @@ La pintura no nos muestra lo que ellos vieron: nos muestra lo que somos capaces 
 
 Dalí nos enseñó que la encapsulación puede ser una prisión, que el entrelazamiento es un salvavidas que asfixia y que el tiempo se derrite bajo el peso del terror. Su obra es el diario de un colapso interior que filtraba, constante, la radiación de sus propios miedos. Y su final (el castillo vacío, el temblor, la escena todavía dirigida) demuestra que hasta la desintegración puede ser una obra.
 
-Picasso nos demostró que podemos encapsularnos en dimensiones sucesivas, que el entrelazamiento de las pasiones crea la estructura misma de lo real y que el yo no es un punto fijo, sino un campo de fuerzas superpuestas. Murió pintando: la onda en ristre contra la posición final.
+Picasso nos demostró que podemos encapsularnos en dimensiones sucesivas, que el entrelazamiento de las pasiones crea la estructura misma de lo real y que el yo es un campo de fuerzas superpuestas. Murió pintando: la onda en ristre contra la posición final.
 
 Miró nos reveló que la encapsulación no es obligatoria, que el entrelazamiento total anula la angustia y que el tiempo subjetivo puede ser un amanecer eterno. Su obra es la prueba de que podemos expandir el horizonte hasta que deje de ser frontera, y flotar en el tejido del universo sin fragmentarnos.
 

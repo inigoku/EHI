@@ -10,7 +10,7 @@ illustrationDescription: Un director de orquesta en un podio vacío, batuta en a
 
 La adicción es un secuestro. Algo, la sustancia o la conducta compulsiva, toma el control del horizonte y lo desvía hacia un atractor que el sujeto no ha elegido. El adicto *sabe* que se está destruyendo, pero una señal más fuerte que la propia supervivencia se ha apoderado de su sistema de recompensa. Es como si un intruso entrara en la sala de control y apagara todas las pantallas menos una.
 
-El Parkinson es otra cosa: no es una invasión, sino un desacoplamiento.
+El Parkinson es otra cosa: un desacoplamiento.
 
 El horizonte sigue intacto y la intención es clara. El mundo interior conserva su coherencia, su música, sus ganas de moverse. Pero el cuerpo ya no responde. La señal sale, la partitura está escrita, pero los músicos no escuchan.
 
@@ -32,7 +32,7 @@ Hay algo de tragedia griega en esta disociación: una conciencia condenada a la 
 
 ## El tiempo que se desacopla
 
-El tiempo subjetivo no es el tictac del reloj, sino densidad de integración: cuánta información nueva entra por unidad de tiempo real, cuántos bordes del horizonte se actualizan, cuántos gradientes se cruzan en cada segundo vivido. Cuando nos aburrimos, el tiempo se estira porque la densidad de integración es baja: pocos cambios, poca novedad. Cuando estamos en peligro o enamorados, el tiempo se vuelve denso porque la densidad es altísima: demasiada información por segundo, demasiados sucesos que integrar.
+El tiempo subjetivo es densidad de integración: cuánta información nueva entra por unidad de tiempo real, cuántos bordes del horizonte se actualizan, cuántos gradientes se cruzan en cada segundo vivido. Cuando nos aburrimos, el tiempo se estira porque la densidad de integración es baja: pocos cambios, poca novedad. Cuando estamos en peligro o enamorados, el tiempo se vuelve denso porque la densidad es altísima: demasiada información por segundo, demasiados sucesos que integrar.
 
 La dopamina calibra ese reloj interno. No es el único neurotransmisor implicado (el glutamato, la serotonina y los péptidos opioides también participan), pero es el metrónomo principal. Cuando escasea, como en el Parkinson, la calibración falla: el reloj interno sigue marcando el compás, pero ya no coincide con el del mundo.
 
@@ -54,7 +54,7 @@ Cuando un suceso desborda la capacidad de integración del sistema, cuando la in
 
 En términos de ingeniería de software, esta encapsulación funciona como un **aislamiento en un entorno cerrado** (*sandboxing*). Para impedir que una excepción crítica (el derrumbe emocional) propague un error que cuelgue todo el sistema operativo del yo, el sistema aísla el fragmento corrupto en un contenedor cerrado. Ese contenedor no se comunica con el flujo principal de eventos (el *event loop* ordinario) ni atiende al recolector de basura: no se puede *scramblear*. Sigue ejecutándose de fondo como un proceso fantasma o un hilo bloqueado (*deadlock*). Cuando un estímulo exterior toca la API del contenedor (el desencadenante, el *trigger*), este responde lanzando su manejador de excepciones congelado (el *flashback*) sin pasar por la línea temporal global.
 
-El trauma es información que no pudo revolverse. En teoría de la información, el *scrambling* es el proceso por el que la información local se redistribuye en correlaciones globales y deja de ser un punto caliente para convertirse en calor uniforme: en experiencia, en memoria narrativa. El trauma debería haberse convertido en correlaciones globales, en experiencia asimilada, en un recuerdo que cuenta una historia. En cambio, queda atrapado en un punto, como una singularidad que deforma todo lo demás. No es que el horizonte olvide lo ocurrido, sino que lo ocurrido sigue siendo un *ahora*, no un *entonces*.
+El trauma es información que no pudo revolverse. En teoría de la información, el *scrambling* es el proceso por el que la información local se redistribuye en correlaciones globales y deja de ser un punto caliente para convertirse en calor uniforme: en experiencia, en memoria narrativa. El trauma debería haberse convertido en correlaciones globales, en experiencia asimilada, en un recuerdo que cuenta una historia. En cambio, queda atrapado en un punto, como una singularidad que deforma todo lo demás. Lo ocurrido no se olvida: sigue siendo un *ahora*, no un *entonces*.
 
 Los síntomas del estrés postraumático son manifestaciones de esa deformación gravitatoria. El *flashback* no es un recuerdo: no hay distancia narrativa, no hay «recuerdo de», no cabe decir «eso me pasó en otro tiempo». Es la sensación de que el horizonte vuelve a cruzar el mismo punto y recrea la geometría del momento traumático como si el tiempo no hubiera pasado. El cuerpo reacciona con la misma adrenalina, el mismo temblor, la misma disociación. La corteza prefrontal, que debería decir «esto ya pasó», está desconectada o anulada. El horizonte no *recuerda* el trauma: lo *revive*, porque para esa parte del sistema nunca dejó de estar ocurriendo. Es como un disco rayado: cada vez que la aguja pasa por el surco dañado, vuelve a sonar el sonido mismo, intacto y desgarrado.
 
@@ -64,11 +64,11 @@ Para esa parte del horizonte, el tiempo no ha pasado. La información sigue atra
 
 Hay una dimensión del trauma que el modelo del horizonte ilumina con especial claridad: el cuerpo como depósito de información no integrada. Cuando el horizonte encapsula un suceso traumático, no lo guarda solo en la corteza (de hecho, a menudo la corteza no tiene acceso narrativo a él), sino en el cuerpo: en la tensión de los trapecios, en la postura encorvada, en la respiración contenida, en el tono vagal que no se recupera. El cuerpo se convierte en el archivo de lo que no se pudo procesar.
 
-Así se explica algo que los terapeutas corporales saben desde hace décadas: que el trauma no se cura solo hablando, porque no está en el lenguaje. Está en la geometría del cuerpo, en la topología de la tensión muscular, en un corazón que no consigue bajar el ritmo. Para «descongelarlo» hay que intervenir en el cuerpo: en la respiración, en el movimiento, en la postura. No porque el cuerpo sea *la clave* del trauma, sino porque es donde el horizonte depositó la información que no pudo integrar.
+Así se explica algo que los terapeutas corporales saben desde hace décadas: que el trauma no se cura solo hablando, porque no está en el lenguaje. Está en la geometría del cuerpo, en la topología de la tensión muscular, en un corazón que no consigue bajar el ritmo. Para «descongelarlo» hay que intervenir en el cuerpo: en la respiración, en el movimiento, en la postura. El cuerpo es donde el horizonte depositó la información que no pudo integrar, sin que eso lo convierta en *la clave* del trauma.
 
 ### El trauma complejo y los bordes borrosos
 
-No todo trauma es un suceso puntual. El trauma complejo, el que nace de años de abuso, negligencia o un entorno hostil, no tiene un «disco rayado» claro, sino miles de rayas, miles de microtraumas que se acumulan hasta deformar toda la superficie. En ese caso, la geometría congelada no es un punto singular, sino toda una región del horizonte en la que la integración falla de forma crónica.
+No todo trauma es un suceso puntual. El trauma complejo, el que nace de años de abuso, negligencia o un entorno hostil, no tiene un «disco rayado» claro, sino miles de rayas, miles de microtraumas que se acumulan hasta deformar toda la superficie. En ese caso, la geometría congelada ocupa toda una región del horizonte en la que la integración falla de forma crónica.
 
 El resultado es un horizonte que funciona, pero con una zona de sombra permanente. La persona puede vivir, trabajar y amar, pero siempre hay una parte del «ahora» atenazada por información sin procesar, una gravedad fantasma que tira de todo hacia abajo. Es la depresión crónica, la disociación estructural, la sensación de no estar nunca del todo *presente* porque una parte del horizonte sigue atrapada en otro tiempo.
 
@@ -80,7 +80,7 @@ El modelo del horizonte permite hablar del autismo, el TDAH, la esquizofrenia y 
 
 En física, la topología es la forma en que se conectan los puntos de un espacio. Dos espacios pueden tener la misma métrica local, las mismas distancias a pequeña escala, y topologías diferentes: uno puede ser una esfera; otro, un toro; otro, un plano con agujeros. Las reglas locales son las mismas, pero las propiedades globales (qué caminos son posibles, qué regiones están conectadas, qué información puede circular) son muy distintas.
 
-El cerebro neurodivergente no es un cerebro «roto», sino un cerebro con otra topología.
+El cerebro neurodivergente tiene otra topología.
 
 ### Autismo: la hiperdensidad local
 
@@ -92,11 +92,11 @@ El problema no está en la topología autista en sí, sino en la fricción entre
 
 ### TDAH: el umbral desplazado
 
-En términos del modelo, el TDAH es una hipoactividad dopaminérgica estructural en los circuitos de la recompensa y la atención sostenida. El horizonte no genera suficiente señal de recompensa interna para mantener la atención en tareas que no son estimulantes por sí mismas. No es falta de voluntad, sino falta de combustible para la voluntad, que en este modelo no es un acto de fuerza moral, sino una función informacional que necesita dopamina para sostenerse.
+En términos del modelo, el TDAH es una hipoactividad dopaminérgica estructural en los circuitos de la recompensa y la atención sostenida. El horizonte no genera suficiente señal de recompensa interna para mantener la atención en tareas que no son estimulantes por sí mismas. Lo que falta es combustible para la voluntad, que en este modelo es una función informacional que necesita dopamina para sostenerse, y no un acto de fuerza moral.
 
-El horizonte con TDAH busca estímulos que eleven la señal: urgencia, novedad, riesgo, conflicto, intereses intensos. No porque sea impulsivo en el sentido moral de la palabra, sino porque su sistema de recompensa necesita intensidades que el mundo ordinario (las tareas repetitivas, la burocracia, la escuela tradicional, el trabajo de oficina) no le da.
+El horizonte con TDAH busca estímulos que eleven la señal: urgencia, novedad, riesgo, conflicto, intereses intensos. Nada tiene que ver con la impulsividad en sentido moral: su sistema de recompensa necesita intensidades que el mundo ordinario (las tareas repetitivas, la burocracia, la escuela tradicional, el trabajo de oficina) no le da.
 
-Hay algo de heroísmo discreto en esto. Los adultos con TDAH que han construido vidas que funcionan no lo han hecho «superando» su condición, sino encontrando pendientes: profesiones de urgencia, creatividad intensa, entornos de mucha novedad, relaciones apasionadas. Se han construido un mundo que da a su motor la inclinación que necesita, y en ese mundo su topología no es un déficit, sino una ventaja.
+Hay algo de heroísmo discreto en esto. Los adultos con TDAH que han construido vidas que funcionan no lo han hecho «superando» su condición, sino encontrando pendientes: profesiones de urgencia, creatividad intensa, entornos de mucha novedad, relaciones apasionadas. Se han construido un mundo que da a su motor la inclinación que necesita, y en ese mundo su topología es una ventaja.
 
 ### Esquizofrenia: el horizonte que genera sin estímulos
 
@@ -104,7 +104,7 @@ La esquizofrenia es quizá la condición más difícil de encajar en el modelo d
 
 Es como si el sistema de predicción del cerebro, el aparato que construye modelos del mundo para anticipar lo que vendrá, se activara sin entrada sensorial y produjera modelos de otros horizontes que no están ahí. El paciente oye voces no porque le fallen los oídos, sino porque su sistema predictivo genera predicciones de habla sin que haya habla. Ve conexiones no por ser «paranoico», sino porque su aparato integrador asigna correlaciones donde los demás no las vemos. Es un radar que detecta señales donde no hay aviones.
 
-Aquí el sufrimiento es hondo y real. No es solo fricción con el entorno, sino vivir en un mundo en el que las predicciones no coinciden con la realidad, en el que el modelo interno se desfasa crónicamente del externo. En términos del modelo, los antipsicóticos, que bloquean los receptores de dopamina D2, funcionan bajando la ganancia del generador predictivo: reducen la sensibilidad del sistema a las señales internas y fuerzan una mayor correspondencia entre lo generado y lo percibido.
+Aquí el sufrimiento es hondo y real. A la fricción con el entorno se suma vivir en un mundo en el que las predicciones no coinciden con la realidad, en el que el modelo interno se desfasa crónicamente del externo. En términos del modelo, los antipsicóticos, que bloquean los receptores de dopamina D2, funcionan bajando la ganancia del generador predictivo: reducen la sensibilidad del sistema a las señales internas y fuerzan una mayor correspondencia entre lo generado y lo percibido.
 
 Pero incluso aquí el modelo coincide con algo que la psiquiatría computacional lleva años explorando con los modelos de codificación predictiva: que la esquizofrenia no es «ausencia de realidad», sino «exceso de generación interna». Que el paciente no está «desconectado» de la realidad, sino «sobreconectado» a su propio aparato predictivo. Que la diferencia no es cualitativa (ellos ven cosas que no existen y nosotros no), sino cuantitativa: todos generamos predicciones, todos tenemos pensamientos automáticos, todos oímos nuestra voz interior. En la esquizofrenia, el volumen de esa generación interna supera el umbral a partir del cual ya no puede distinguirse de la percepción externa.
 
@@ -114,7 +114,7 @@ Pero incluso aquí el modelo coincide con algo que la psiquiatría computacional
 
 Una consecuencia del modelo que rara vez se discute es qué pasa cuando dos horizontes con topologías distintas intentan comunicarse. En este marco, la empatía no es solo «ponerse en el lugar del otro», sino sincronizar dos topologías informacionales cuyas reglas de integración pueden ser incompatibles.
 
-Un horizonte neurotípico y uno autista no solo perciben cosas distintas: perciben de *manera* distinta. Uno integra de arriba abajo, dando prioridad al contexto, la intención, el gesto social; el otro, de abajo arriba, dando prioridad al detalle, la sensación, la secuencia exacta. Cuando se encuentran, no es que uno «no entienda» al otro, sino que sus horizontes generan «ahoras» con estructuras internas diferentes.
+Un horizonte neurotípico y uno autista no solo perciben cosas distintas: perciben de *manera* distinta. Uno integra de arriba abajo, dando prioridad al contexto, la intención, el gesto social; el otro, de abajo arriba, dando prioridad al detalle, la sensación, la secuencia exacta. Cuando se encuentran, sus horizontes generan «ahoras» con estructuras internas diferentes.
 
 Históricamente, la adaptación ha recaído siempre en el horizonte divergente. Es la persona autista quien debe aprender «habilidades sociales»; la persona con TDAH, quien debe «concentrarse»; la persona con esquizofrenia, quien debe adaptarse, y el tratamiento que a menudo necesita de verdad acaba siendo la única adaptación que se le ofrece. Rara vez se pide al entorno neurotípico que adapte su frecuencia, baje el volumen o respete los ritmos de integración del otro.
 

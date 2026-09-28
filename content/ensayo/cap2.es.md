@@ -81,7 +81,7 @@ El 10 de abril de 2019, el Event Horizon Telescope publicó la primera imagen di
 
 ### Los agujeros negros cantan
 
-En 2015, el observatorio LIGO detectó algo que Einstein había predicho cien años antes: ondas gravitacionales. El espacio-tiempo no es un escenario rígido donde ocurren las cosas, sino un tejido elástico que se estira y se comprime. Cuando dos agujeros negros orbitan uno alrededor del otro, lo deforman y emiten ondas que viajan a la velocidad de la luz. Cuando los agujeros se fusionan, la onda es tan intensa que puede detectarse desde miles de millones de años luz.
+En 2015, el observatorio LIGO detectó algo que Einstein había predicho cien años antes: ondas gravitacionales. El espacio-tiempo es un tejido elástico que se estira y se comprime. Cuando dos agujeros negros orbitan uno alrededor del otro, lo deforman y emiten ondas que viajan a la velocidad de la luz. Cuando los agujeros se fusionan, la onda es tan intensa que puede detectarse desde miles de millones de años luz.
 
 LIGO escucha el universo con dos brazos de cuatro kilómetros cada uno, dispuestos en forma de L. Un láser mide la distancia entre espejos suspendidos en cada extremo. Cuando una onda gravitacional pasa, comprime un brazo y estira el otro, alternativamente, miles de veces por segundo. La distancia cambia en una fracción del diámetro de un protón, y LIGO es capaz de medirlo.
 
@@ -124,7 +124,7 @@ Para una caja de libros, la información depende del volumen. Si doblas el lado,
 
 La información de un agujero negro no depende de cuánto espacio hay dentro, sino de cuánto borde tiene. Cada porción del horizonte del tamaño del cuadrado de la longitud de Planck (una escala tan pequeña que no admite analogía) codifica un bit de información. El horizonte de un agujero negro del tamaño del Sol codificaría ~10^77 bits. Eso es más información que todas las palabras que todos los humanos han dicho en toda la historia.
 
-Es el **principio holográfico**, y su alcance es enorme: toda la información contenida en un volumen de espacio puede describirse por completo mediante una teoría que vive en la superficie de ese volumen. El interior sería una proyección de la frontera. No se trata de una metáfora, sino de una conjetura matemáticamente precisa que ha resistido décadas de escrutinio.
+Es el **principio holográfico**, y su alcance es enorme: toda la información contenida en un volumen de espacio puede describirse por completo mediante una teoría que vive en la superficie de ese volumen. El interior sería una proyección de la frontera. Es una conjetura matemáticamente precisa que ha resistido décadas de escrutinio.
 
 En 1997, Juan Maldacena lo formalizó en la correspondencia AdS/CFT: una teoría gravitacional en un volumen es matemáticamente equivalente a una teoría cuántica sin gravedad que vive en su frontera. Las dos teorías son distintas (viven en dimensiones diferentes y usan ecuaciones diferentes), pero predicen los mismos resultados. Son dos descripciones del mismo sistema, como una novela y su adaptación al cine: medios distintos, la misma historia.
 

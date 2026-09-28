@@ -25,7 +25,7 @@ El mismo reloj y dos experiencias opuestas.
 
 Si la conciencia tiene la estructura de un horizonte, su tiempo es una propiedad interna: no un parámetro externo que el horizonte registra, sino una consecuencia de su manera de integrar. La tasa de integración del sistema, cuánta información nueva incorpora por unidad de tiempo cronológico, determina la densidad del tiempo subjetivo.
 
-Un niño de cuatro años integra a un ritmo altísimo: cada estímulo reconfigura el sistema, cada experiencia es nueva, el horizonte está en expansión constante. Por eso una tarde de verano de la infancia tiene una densidad que una tarde de verano adulta rara vez alcanza. No porque el niño sea más feliz, sino porque procesa más por unidad de tiempo.
+Un niño de cuatro años integra a un ritmo altísimo: cada estímulo reconfigura el sistema, cada experiencia es nueva, el horizonte está en expansión constante. Por eso una tarde de verano de la infancia tiene una densidad que una tarde de verano adulta rara vez alcanza. El niño no es más feliz: procesa más por unidad de tiempo.
 
 La vejez invierte el proceso: el horizonte tiene patrones muy consolidados y pocas entradas generan integración nueva. Los mayores no mienten cuando dicen que el tiempo pasa más deprisa: por cada hora de reloj, en su horizonte ocurren menos cosas. Es como leer un libro por décima vez: las páginas pasan más deprisa porque ya se sabe lo que ocurre.
 
@@ -64,9 +64,9 @@ La tasa de integración la regulan, minuto a minuto, los neurotransmisores:
 
 ### La memoria como constructor del tiempo
 
-No recordamos el tiempo tal como lo vivimos: lo reconstruimos. Cada vez que evocamos algo, el cerebro lo reescribe; añade detalles que no estaban, omite otros que sí, tiñe el recuerdo con el estado de ánimo del momento. La memoria no es un archivo, sino un relato en revisión constante.
+No recordamos el tiempo tal como lo vivimos: lo reconstruimos. Cada vez que evocamos algo, el cerebro lo reescribe; añade detalles que no estaban, omite otros que sí, tiñe el recuerdo con el estado de ánimo del momento. La memoria es un relato en revisión constante.
 
-Eso tiene consecuencias importantes para la percepción del tiempo. Dos personas que vivieron lo mismo (un viaje, una discusión, una tarde de lluvia) pueden recordarlo con duraciones muy distintas. No porque una mienta, sino porque sus horizontes lo integraron de manera diferente y, al reconstruirlo, generan densidades distintas.
+Eso tiene consecuencias importantes para la percepción del tiempo. Dos personas que vivieron lo mismo (un viaje, una discusión, una tarde de lluvia) pueden recordarlo con duraciones muy distintas. Ninguna miente: sus horizontes lo integraron de manera diferente y, al reconstruirlo, generan densidades distintas.
 
 Hay un trastorno que lo ilustra de forma dramática: el síndrome de Capgras. Los pacientes reconocen visualmente a sus seres queridos (la cara es idéntica), pero sienten que son impostores, porque el reconocimiento no va acompañado de afecto: el circuito que une la percepción visual con la memoria emocional está dañado. La consecuencia es inquietante: para estos pacientes, el tiempo con sus seres queridos pierde densidad. Las horas pasan sin que «ocurra» nada, porque falta la integración emocional, la que da peso al tiempo.
 
@@ -85,7 +85,7 @@ Cuando dos personas conversan cara a cara, sus patrones de actividad cerebral co
 
 Cuando dos cuerdas vibran en frecuencias relacionadas, producen armónicos que no estaban en ninguna de las dos: el sistema de dos cuerdas tiene propiedades que el de una sola no tiene.
 
-Lo mismo ocurre con dos horizontes en resonancia sostenida. El sistema de dos integra más información que la suma de lo que integra cada uno por separado; su Phi conjunto sería mayor que la suma de los Phi individuales. No porque se sumen, sino porque el entrelazamiento abre canales de integración nuevos que solo existen en la relación.
+Lo mismo ocurre con dos horizontes en resonancia sostenida. El sistema de dos integra más información que la suma de lo que integra cada uno por separado; su Phi conjunto sería mayor que la suma de los Phi individuales. Los Phi no se suman: el entrelazamiento abre canales de integración nuevos que solo existen en la relación.
 
 Si la tasa de integración determina la densidad del tiempo subjetivo, y si el sistema de dos integra más que la suma de sus partes, el tiempo del vínculo es objetivamente más denso que el de cualquiera de los dos por separado.
 
@@ -113,7 +113,7 @@ Cuando dos horizontes han resonado el tiempo suficiente, cada uno empieza a mode
 
 La sensación de ausencia no es la mera constatación de que alguien falta: es el horizonte procesando silencio donde debería haber señal.
 
-Separado del horizonte con el que resonaba, el tiempo del que queda se vuelve más lento, más pesado, menos denso. No porque haya menos que hacer, sino porque hay menos con quien integrar.
+Separado del horizonte con el que resonaba, el tiempo del que queda se vuelve más lento, más pesado, menos denso. Queda lo mismo por hacer, pero hay menos con quien integrar.
 
 ---
 
@@ -122,7 +122,7 @@ Separado del horizonte con el que resonaba, el tiempo del que queda se vuelve m�
 Si el yo y el otro son dominios encapsulados que interactúan a través de sus horizontes, la estructura y la temporalidad de su conexión pueden modelarse con las relaciones de diseño de la programación orientada a objetos (POO).
 
 #### El paso de mensajes (*message passing*)
-En la concepción original de la POO, la de Alan Kay, lo importante no es la estructura de los datos, sino la comunicación. Dos objetos encapsulados nunca acceden a la memoria interna del otro ni comparten variables `private`; se comunican exclusivamente enviándose **mensajes**.
+En la concepción original de la POO, la de Alan Kay, lo importante es la comunicación entre objetos. Dos objetos encapsulados nunca acceden a la memoria interna del otro ni comparten variables `private`; se comunican exclusivamente enviándose **mensajes**.
 En la interacción humana, el paso de mensajes es la única vía posible. Nunca accedemos directamente a los estados neuronales del otro (no hay lectura directa de su memoria). Enviamos mensajes (palabras, gestos, silencios) que cruzan el canal físico y llegan a su interfaz pública, y es el receptor quien, por dentro, ejecuta sus funciones privadas para interpretarlos y actualizar su propio estado.
 
 #### Relaciones de acoplamiento: asociación, agregación y composición
@@ -146,13 +146,13 @@ La velocidad y la densidad del tiempo del vínculo dependen del protocolo de com
 
 ### El tiempo social
 
-El tiempo no es solo individual, sino también colectivo. Somos la única especie que sincroniza sus ritmos internos a escala masiva. Relojes, horarios, calendarios y husos horarios son tecnologías de coordinación temporal que permiten que millones de horizontes individuales funcionen como un sistema mayor.
+El tiempo también es colectivo. Somos la única especie que sincroniza sus ritmos internos a escala masiva. Relojes, horarios, calendarios y husos horarios son tecnologías de coordinación temporal que permiten que millones de horizontes individuales funcionen como un sistema mayor.
 
 Pero esa sincronización tiene un coste. El tiempo social es un promedio: se come a las dos porque a la mayoría le viene bien, no porque a las dos tengas hambre; se trabaja de nueve a cinco porque lo exige la coordinación productiva, no porque tu cuerpo rinda mejor a esas horas. El resultado es un desajuste crónico entre el tiempo interno y el externo que los cronobiólogos llaman «jet lag social».
 
 > **En física esto se llama:** forzamiento de fase: un sistema oscilante obligado a sincronizarse con una frecuencia que no es la suya.
 
-Los estudios muestran que este desajuste tiene consecuencias medibles para la salud: más riesgo de obesidad, diabetes, depresión y enfermedad cardiovascular. No porque el trabajo sea duro, sino porque el horizonte se ve obligado a integrar en un tiempo que no es el suyo.
+Los estudios muestran que este desajuste tiene consecuencias medibles para la salud: más riesgo de obesidad, diabetes, depresión y enfermedad cardiovascular. La dureza del trabajo importa menos que esto: el horizonte se ve obligado a integrar en un tiempo que no es el suyo.
 
 ---
 

@@ -19,7 +19,7 @@ Esa noche Cambiaso demostró algo sin proponérselo. Se puede clonar muchas vece
 
 Cambiaso decía que con la Cuartetera no había nada que explicar. A otros jinetes, con otros caballos, les daba indicaciones: «apretá acá», «frená antes», «jugá más adelante». Con ella la frase era otra: «Andá y jugá como tengas ganas de jugar. En el puesto que quieras. Divertite».
 
-Esa confianza no sale de un manual ni es una propiedad del ADN: es el resultado de años de correlaciones acumuladas, miles de *chukkers* y de giros en los que el cuerpo del jinete anticipó el del animal y viceversa. La yegua aprendió a leer el peso de Cambiaso antes de que él lo desplazara, y Cambiaso aprendió a confiar en una criatura capaz de matarlo de una coz, pero que, en cada partido, decidía no hacerlo.
+Esa confianza no sale de un manual ni es una propiedad del ADN: es el resultado de años de correlaciones acumuladas, miles de *chukkers* y de giros en los que el cuerpo del jinete anticipó el del animal y viceversa. La yegua aprendió a leer el peso de Cambiaso antes de que él lo desplazara, y Cambiaso aprendió a confiar en una criatura que podía matarlo en un mal gesto y que, partido tras partido, no lo hacía.
 
 Eso es un horizonte compartido: una geometría que solo existe en la relación entre los dos y que no se reduce a la suma de dos conciencias. Como vimos en el capítulo 12, dos sistemas entrelazados no son solo dos sistemas que se conocen: comparten topología, tienen un dentro en parte común.
 
@@ -99,7 +99,7 @@ La palabra es precisa. No «irreemplazable», que es lo que se dice de todo lo q
 
 En ese momento la clonación mostró su límite. En los campos de La Dolfina había yeguas con el mismo ADN, pero el horizonte que Cambiaso compartía con la original se había evaporado. La información no se había perdido en sentido físico: seguía codificada en la memoria de Cambiaso, en las fotos, en los vídeos, en los gestos que su cuerpo había aprendido con ella. Pero el sistema de dos ya no funcionaba: uno de los polos se había cerrado.
 
-La muerte de Cuartetera no fue solo la de un caballo famoso, sino la de una geometría, y esa geometría no podía sustituirse por otra igual, porque nunca hubo otra igual. Los clones seguían siendo posibles, pero el puente específico entre ese jinete y esa yegua ya no lo era.
+Con Cuartetera murió una geometría, y esa geometría no podía sustituirse por otra igual, porque nunca hubo otra igual. Los clones seguían siendo posibles, pero el puente específico entre ese jinete y esa yegua ya no lo era.
 
 ---
 
@@ -123,7 +123,7 @@ La lección final es a la vez humillante y liberadora. Humillante, porque muestr
 
 Cada Cuartetera clonada es una yegua real, con su propio horizonte, su propia historia y su propia capacidad de entrelazarse. Ninguna es la Cuartetera original, y ninguna necesita serlo para tener valor. El error no está en los clones, sino en esperar que un clon pueda continuar un vínculo que solo dos seres concretos supieron construir.
 
-Para Cambiaso, la Cuartetera original era lo mejor a lo que se había subido. Eso no era propiedad de la yegua, sino del encuentro, y los encuentros pueden recordarse, pero no replicarse.
+Para Cambiaso, la Cuartetera original era lo mejor a lo que se había subido. Eso pertenecía al encuentro, y los encuentros pueden recordarse, pero no replicarse.
 
 ---
 

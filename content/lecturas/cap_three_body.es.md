@@ -12,7 +12,7 @@ Hay libros que pretenden descubrir la verdad. Este, como hemos dicho desde el pr
 
 A lo largo del experimento hemos visto que la conciencia es «el interior de un dominio informacional encapsulado». Hemos explorado cómo nace ese horizonte del reservorio, cómo se vincula mediante la gravedad de la empatía y cómo colapsa. Pero ¿qué ocurriría si aplicáramos esta misma física a un ecosistema a escala cósmica, plagado de inteligencias en competencia letal?
 
-La trilogía *El problema de los tres cuerpos*, de Liu Cixin, es seguramente el mejor laboratorio literario imaginable para poner a prueba la topología de la mente. Si sometemos su sociología galáctica a nuestras ecuaciones del horizonte, descubrimos que el terror cósmico de la obra no es cuestión de armas láser o naves espaciales, sino de una guerra estrictamente geométrica y termodinámica.
+La trilogía *El problema de los tres cuerpos*, de Liu Cixin, es seguramente el mejor laboratorio literario imaginable para poner a prueba la topología de la mente. Si sometemos su sociología galáctica a nuestras ecuaciones del horizonte, descubrimos que el terror cósmico de la obra nace de una guerra estrictamente geométrica y termodinámica.
 
 ---
 
@@ -78,6 +78,6 @@ Los protagonistas comprenden entonces la ley final de nuestra hipótesis: «Cada
 >
 > **Preguntas que quedan:** Si el entrelazamiento es geométrico (ER=EPR), ¿puede un lenguaje puramente metafórico cifrar información física de modo que un interceptor externo no llegue nunca a descodificar su volumen interior?
 >
-> **Si solo te quedas con una idea:** En un universo hostil, tu capacidad para ocultar lo que piensas no es un defecto psicológico, sino la barrera topológica más sofisticada de la naturaleza. Pero, al final del tiempo, aferrarse a ese aislamiento destruye el universo. El valor supremo no es esconderse, sino saber cuándo devolver tu masa al océano.
+> **Si solo te quedas con una idea:** En un universo hostil, tu capacidad para ocultar lo que piensas no es un defecto psicológico, sino la barrera topológica más sofisticada de la naturaleza. Pero, al final del tiempo, aferrarse a ese aislamiento destruye el universo. El valor supremo es saber cuándo devolver tu masa al océano.
 >
 > **Lecturas:** Liu Cixin, trilogía *El problema de los tres cuerpos* (en particular *El bosque oscuro* y *El fin de la muerte*); Maldacena, J. M. (1998), sobre la correspondencia AdS/CFT y el principio holográfico; Susskind, L., sobre la paradoja de la información y el entrelazamiento ER=EPR.

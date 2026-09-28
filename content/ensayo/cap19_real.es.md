@@ -16,9 +16,9 @@ Todo experimento de pensamiento acaba encontrando su límite, no porque se agote
 
 No es lo mismo no saber algo todavía que saber que algo no puede saberse desde donde estamos. El primer caso es una invitación: abrirse camino, inventar instrumentos nuevos, esperar. El segundo es una pared de cristal: puedes verla, describirla, sentir su frío contra la frente, pero atravesarla exigiría dejar de ser quien eres. Exigiría un punto de vista que el universo, en su arquitectura actual, no parece ofrecer a criaturas como nosotros.
 
-Este capítulo no es un gesto de modestia final, sino la descripción honesta de los puntos en los que la hipótesis del horizonte deja de ser útil, se contradice a sí misma o, sencillamente, no tiene nada que decir.
+Este capítulo es la descripción honesta de los puntos en los que la hipótesis del horizonte deja de ser útil, se contradice a sí misma o, sencillamente, no tiene nada que decir.
 
-Reconocer los límites de una herramienta no la debilita; al contrario, es la única forma de usarla sin romperla. Un cirujano que no sabe dónde termina su bisturí y empieza el nervio óptico no es audaz, sino peligroso. Un pensador que no sabe dónde termina su marco conceptual y empieza el misterio no es profundo, sino que está perdido.
+Reconocer los límites de una herramienta no la debilita; al contrario, es la única forma de usarla sin romperla. Un cirujano que no sabe dónde termina su bisturí y empieza el nervio óptico no es audaz, sino peligroso. Un pensador que no sabe dónde termina su marco conceptual y empieza el misterio está perdido.
 
 La honestidad epistemológica, saber lo que no sabemos, es el último cuidado que le debemos a una idea que hemos seguido a lo largo de todo este libro.
 
@@ -37,7 +37,7 @@ La honestidad epistemológica, saber lo que no sabemos, es el último cuidado qu
 
 Entre la escala a la que opera la gravedad cuántica y la de una neurona hay unos treinta órdenes de magnitud.
 
-No es un detalle técnico, sino una brecha entre mundos.
+Esa distancia es una brecha entre mundos.
 
 La física cuántica opera a escalas en las que el propio espacio-tiempo puede no ser continuo, en las que la información se comporta como geometría y la geometría como información, en las que una partícula puede estar en superposición antes de que el reloj del universo dé un solo tic. La neurociencia opera a escalas en las que la temperatura corporal deshace la mayoría de las superposiciones en mucho menos de un microsegundo, en las que millones de iones de sodio y potasio cruzan membranas como la multitud en una estación de tren, y en las que la humedad, el ruido térmico y la complejidad del metabolismo hacen que la mayoría de los fenómenos cuánticos relevantes se disipen antes de que una sola señal sináptica complete su recorrido.
 
@@ -59,7 +59,7 @@ La hipótesis puede hablar de geometría, de información, de entrelazamiento, d
 
 No puede decir por qué el dolor de una uña encarnada se siente como una punzada y no como el color azul, por qué el chocolate amargo es un regocijo en la lengua de unos y pura amargura en la de otros, ni por qué una puesta de sol produce en algunos una expansión cálida en el pecho y en otros una angustia vertiginosa ante el paso del tiempo.
 
-Ese es el «problema difícil de la conciencia»: por qué hay experiencia subjetiva. Por qué no somos máquinas que procesan información sin que haya nadie «dentro». Por qué hay alguien mirando. Por qué el universo no es una película que se proyecta sin sala, sin espectador, sin butaca desde la que mirar.
+Ese es el «problema difícil de la conciencia»: por qué hay experiencia subjetiva. Por qué no somos máquinas que procesan información sin que haya nadie «dentro». Por qué hay alguien mirando. Por qué el universo no es una película que se proyecta sin sala y sin nadie que la mire.
 
 Imagina una habitación vacía. Puedes describir sus dimensiones, el color de sus paredes, la temperatura del aire, la acústica. Puedes predecir cómo rebotará el sonido si alguien golpea una cacerola y modelar la corriente de aire si se abre una ventana. Pero nada de eso te dice por qué hay alguien dentro, sentado en el sillón, mirando la luz que entra por la rendija de las cortinas. La física puede describir la habitación con una exquisitez matemática, pero no puede decir por qué hay un testigo.
 
@@ -79,7 +79,7 @@ El modelo de la encapsulación (capítulo 3) recoge la intuición de Hume, pero 
 
 Esta topología permite reformular el problema difícil de Chalmers. La pregunta ya no es «¿cómo produce la materia física la cualidad intangible de la mente?», una formulación que presupone un dualismo de sustancias insalvable, sino una pregunta sobre la accesibilidad: «¿cómo establecen ciertas configuraciones de la materia límites de encapsulación, asimetrías de acceso?».
 
-La subjetividad no es un subproducto mágico del cerebro, sino lo que un dominio informacional encapsulado e integrado *es* cuando se accede a él desde su propia perspectiva interna. Hume acertó al no encontrar una sustancia permanente cuando miró dentro de la habitación: no hay un «espectador» separado de la obra. Lo que hay es el estado privado del sistema (el haz de percepciones) protegido por la frontera del horizonte. El problema difícil no es, por tanto, un abismo ontológico entre dos realidades incompatibles, mente y materia, sino una consecuencia de la arquitectura de la encapsulación: el universo admite regiones con accesos de lectura asimétricos.
+La subjetividad es lo que un dominio informacional encapsulado e integrado *es* cuando se accede a él desde su propia perspectiva interna. Hume acertó al no encontrar una sustancia permanente cuando miró dentro de la habitación: no hay un «espectador» separado de la obra. Lo que hay es el estado privado del sistema (el haz de percepciones) protegido por la frontera del horizonte. El problema difícil no es, por tanto, un abismo ontológico entre dos realidades incompatibles, mente y materia, sino una consecuencia de la arquitectura de la encapsulación: el universo admite regiones con accesos de lectura asimétricos.
 
 ### Tercero: la ética, o por qué este libro no puede decirte qué hacer
 
@@ -107,7 +107,7 @@ La física no sabe cuál de las tres es la correcta. Y, lo que es más important
 
 Si la información de mi vida se comprime en un remanente del tamaño de la longitud de Planck, ¿soy yo ese remanente, o algo más que la suma de mis datos? Si mi huella persiste en el campo, ¿soy yo esa huella, o soy el proceso que la dejó? Y los procesos, por definición, no se conservan: solo sus rastros. Si me disuelvo por completo en el reservorio, ¿soy yo el reservorio, o la ola que rompe contra la orilla y nunca vuelve al océano como ola, sino como agua anónima?
 
-El budismo diría que la pregunta está mal planteada: no hay un «yo» que persista o se disuelva, solo un proceso de condicionamiento que, al cesar, libera lo que nunca estuvo encadenado. El vedanta diría que el «yo» nunca fue distinto del reservorio: la ola que se disuelve en el océano descubre que siempre fue agua de mar. El taoísmo diría que la pregunta da por hecho que había algo que preguntar: el «yo» es como el silencio entre dos notas, no algo que existe, sino algo que ocurre cuando se dan las condiciones.
+El budismo diría que la pregunta está mal planteada: no hay un «yo» que persista o se disuelva, solo un proceso de condicionamiento que, al cesar, libera lo que nunca estuvo encadenado. El vedanta diría que el «yo» nunca fue distinto del reservorio. El taoísmo diría que la pregunta da por hecho que había algo que preguntar: el «yo» es como el silencio entre dos notas, no algo que existe, sino algo que ocurre cuando se dan las condiciones.
 
 La física dice que no lo sabe. Y en ese «no lo sé», en esa honestidad sin adornos, el experimento, en su límite, coincide con estas tres tradiciones: no en la respuesta, sino en reconocer que la pregunta desborda sus herramientas.
 
@@ -117,7 +117,7 @@ La hipótesis puede describir el entrelazamiento como geometría compartida, el 
 
 Dos horizontes pueden tener el mismo Φ, la misma temperatura, la misma historia de entrelazamientos previos y la misma capacidad de integrar información y, sin embargo, uno encuentra en otro algo que no encuentra en nadie más: una resonancia que no está en los números, una música que no está en las notas. La hipótesis del horizonte no tiene sitio para eso. Su vocabulario (integración, información, entropía, correlación, temperatura, gradiente) es demasiado general para captar la especificidad del amor concreto. Puede decir que dos horizontes están entrelazados, pero no por qué un entrelazamiento se vive como destino y otro como accidente, ni por qué la ausencia de alguien es un agujero en el tejido del mundo y la de otro, solo una habitación vacía que se puede cerrar con llave.
 
-No es un fallo del experimento, sino un límite. Hay cosas que solo pueden decir la ficción, la poesía o el silencio entre dos personas que no necesitan hablar porque ya comparten geometría suficiente para que las palabras sobren.
+Ahí el experimento toca su límite. Hay cosas que solo pueden decir la ficción, la poesía o el silencio entre dos personas que no necesitan hablar porque ya comparten geometría suficiente para que las palabras sobren.
 
 ### Sexto: la libertad, o por qué no sabemos si el horizonte elige
 

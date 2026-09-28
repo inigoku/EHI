@@ -7,7 +7,7 @@ illustrationTitle: Los cinco paralelos
 illustrationDescription: Cinco paneles horizontales: ① Grados (termómetro vs. interruptor). ② Conexión (red intacta vs. hilos sueltos). ③ Inaccesibilidad (caja con luz filtrándose). ④ Temperatura (ratón rápido vs. elefante lento). ⑤ Holografía (proyector que proyecta flor desde disco plano).
 ---
 
-La hipótesis del capítulo anterior, que la conciencia es el interior de un dominio informacional encapsulado, no se sostiene por sí sola: necesita apoyos. Hay cinco paralelos estructurales entre la física de los horizontes y la neurociencia de la conciencia que sugieren que la encapsulación no es una metáfora elegante, sino un patrón que aparece en dos dominios que no tenían motivo para coincidir.
+La hipótesis del capítulo anterior, que la conciencia es el interior de un dominio informacional encapsulado, no se sostiene por sí sola: necesita apoyos. Hay cinco paralelos estructurales entre la física de los horizontes y la neurociencia de la conciencia que sugieren que la encapsulación es un patrón que aparece en dos dominios que no tenían motivo para coincidir.
 
 Hay dos teorías que no deberían tener nada que ver entre sí.
 
@@ -73,7 +73,7 @@ Llamémoslo Paul. Si el nombre te suena, es porque un pulpo real así llamado se
 
 Imagina que la conciencia funciona como una burbuja de jabón.
 
-No de jabón, sino de organización. La burbuja tiene una piel que separa el dentro del fuera, y esa piel es el «horizonte». Cuanto más grande la burbuja, más conciencia. Lo que importa no es el aire de dentro, sino la forma de la piel. El aire es el reservorio, el campo del que surge y al que vuelve; la piel es el horizonte, la frontera que crea un interior.
+No de jabón, sino de organización. La burbuja tiene una piel que separa el dentro del fuera, y esa piel es el «horizonte». Cuanto más grande la burbuja, más conciencia. Lo que importa es la forma de la piel. El aire es el reservorio, el campo del que surge y al que vuelve; la piel es el horizonte, la frontera que crea un interior.
 
 En física, esa forma se parece a la de un agujero negro. No porque haya un agujero negro literal dentro del cráneo, sino porque la burbuja y el agujero comparten la misma geometría: una frontera que define un interior, una superficie que codifica lo que contiene, una estructura donde la información es propiedad de la relación, no de las partes.
 
@@ -108,13 +108,13 @@ La IIT ha empezado a generar algunas de esas predicciones. La anestesia general,
 
 Este modelo predice algo incómodo: un horizonte no puede ver su propio borde desde dentro.
 
-Un agujero negro no puede saber dónde está su horizonte de sucesos. El horizonte no es una superficie física que se pueda tocar, sino una propiedad geométrica del espacio-tiempo, un límite causal: el punto a partir del cual la luz ya no puede escapar. Para un observador que cae hacia el agujero, el horizonte no es una pared; no hay señal, ni choque, ni nada que indique «aquí empieza el interior». Lo cruza sin notarlo, y solo quienes miran desde fuera pueden saber que existe y dónde está.
+Un agujero negro no puede saber dónde está su horizonte de sucesos. El horizonte es una propiedad geométrica del espacio-tiempo, un límite causal: el punto a partir del cual la luz ya no puede escapar. Para un observador que cae hacia el agujero, el horizonte no es una pared; no hay señal, ni choque, ni nada que indique «aquí empieza el interior». Lo cruza sin notarlo, y solo quienes miran desde fuera pueden saber que existe y dónde está.
 
 La conciencia parece funcionar igual. En ningún momento sientes «aquí está el borde de mi conciencia», ni puedes señalar dónde termina tu experiencia y empieza el mundo. El borde es funcional, no vivencial: lo que sientes como «yo» no incluye la frontera que lo hace posible, solo lo que esa frontera encierra.
 
 Las consecuencias son extrañas: nunca tendrás experiencia directa de la estructura de tu propia conciencia. Puedes inferirla, mediante la introspección, la meditación o la neurociencia, pero no verla. Es como intentar verte la cara sin espejo: la cara está ahí, pero tu sistema visual no puede doblarse sobre sí mismo para mirarla. Necesitas un espejo externo, y todo espejo deforma.
 
-Por esta imposibilidad estructural, la conciencia es, en el fondo, un misterio para sí misma. No porque la naturaleza nos oculte un secreto, sino porque la geometría de la pregunta impide la respuesta. Un horizonte capaz de ver su propio borde dejaría de ser un horizonte: sería un sistema que observa otro sistema, no un interior definido por una frontera.
+Por esta imposibilidad estructural, la conciencia es, en el fondo, un misterio para sí misma. La naturaleza no nos oculta ningún secreto: es la geometría de la pregunta la que impide la respuesta. Un horizonte capaz de ver su propio borde dejaría de ser un horizonte: sería un sistema que observa otro sistema, no un interior definido por una frontera.
 
 ---
 
@@ -126,7 +126,7 @@ Lo que no hemos demostrado es que el sustrato físico de la conciencia sea liter
 
 Si se toma la analogía en su versión más literal, conviene decir a qué clase de microagujero negro nos referimos. No a los que se buscaron en el LHC, que requerían dimensiones extra compactificadas para bajar la escala de la gravedad cuántica hasta el TeV, una vía que la ausencia de señal en el colisionador ha debilitado mucho. El mecanismo físico serio más cercano son los agujeros negros primordiales: la hipótesis, viva desde Zel'dovich y Novikov (1967) y Hawking (1971) y todavía investigada hoy como candidata a materia oscura, de que fluctuaciones cuánticas del vacío durante la inflación se estiran a escala macroscópica y, al reentrar en el horizonte causal con suficiente sobredensidad, colapsan directamente en agujeros negros sin pasar por una estrella. No hay confirmación observacional definitiva, pero es cosmología de corriente principal, no especulación de frontera.
 
-Hay un obstáculo de escala que no conviene subestimar. Treinta órdenes de magnitud separan la longitud de Planck, la escala en la que opera la gravedad cuántica, del tamaño de una neurona. No es un detalle técnico que vaya a resolver la ingeniería futura, sino una distancia entre dominios físicos mayor aún que la que separa un átomo del sistema solar. En la práctica, los efectos de la gravedad cuántica, si existen en el cerebro, están tan diluidos que ningún instrumento actual podría detectarlos.
+Hay un obstáculo de escala que no conviene subestimar. Treinta órdenes de magnitud separan la longitud de Planck, la escala en la que opera la gravedad cuántica, del tamaño de una neurona. Es una distancia entre dominios físicos mayor aún que la que separa un átomo del sistema solar, y ninguna ingeniería futura la resolverá como un detalle técnico. En la práctica, los efectos de la gravedad cuántica, si existen en el cerebro, están tan diluidos que ningún instrumento actual podría detectarlos.
 
 El segundo obstáculo es más sutil, un problema de categoría. El horizonte de sucesos es una frontera geométrica en sentido estricto, una superficie del espacio-tiempo con un área medible en metros cuadrados. El «borde» de la IIT es una propiedad lógica: la partición mínima de la información, el corte respecto al cual el sistema resulta irreducible, y no una superficie en el espacio físico. Que a ambos se los llame «frontera» puede reflejar una intuición profunda compartida o ser pura homonimia: dos conceptos distintos que la lengua nombra con la misma palabra.
 
@@ -144,6 +144,6 @@ Cuando una metáfora es a la vez la columna vertebral del relato y una afirmaci�
 >
 > **Preguntas que quedan:** ¿Es «frontera» una homonimia o una intuición compartida? ¿Puede una metáfora ser una herramienta válida de investigación? ¿Qué predicciones nuevas podría generar este modelo? ¿Cómo se mide el «área» de un horizonte de conciencia?
 >
-> **Si solo te quedas con una idea:** La conciencia podría ser una burbuja de información. No porque tengas un agujero negro en la cabeza, sino porque ambos comparten geometría: una frontera que define un interior, en el que lo que importa no es el contenido, sino la forma del borde. Y esa forma no es fija: crece, cambia, se contrae y, como toda frontera, acaba por dejar de ser necesaria.
+> **Si solo te quedas con una idea:** La conciencia podría ser una burbuja de información. Ambos comparten geometría: una frontera que define un interior, en el que lo que importa es la forma del borde. Y esa forma no es fija: crece, cambia, se contrae y, como toda frontera, acaba por dejar de ser necesaria.
 >
 > **Lecturas:** Tononi (2008); Bekenstein (1972-1974); Hawking (1974); Susskind (1995, principio holográfico); Maldacena (1997, correspondencia AdS/CFT); Aaronson (2014, crítica a la IIT); Zel'dovich & Novikov (1967) y Hawking (1971, agujeros negros primordiales).

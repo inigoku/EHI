@@ -57,7 +57,7 @@ El capítulo siguiente vuelve sobre esta magnitud con más detalle, y también s
 
 Shannon demostró algo que tiene consecuencias profundas para este libro: todo canal de comunicación tiene una capacidad máxima. Por debajo de ese límite se puede transmitir información con un error tan pequeño como se quiera; por encima, el ruido gana y el mensaje se corrompe sin remedio.
 
-Ese límite no es un defecto técnico, sino una propiedad matemática del canal. Da igual cuánta tecnología se ponga: el canal tiene una capacidad y no se puede superar.
+Ese límite es una propiedad matemática del canal. Da igual cuánta tecnología se ponga: el canal tiene una capacidad y no se puede superar.
 
 Trasladado a la conciencia, por analogía, significa que un horizonte tiene una capacidad finita de integración. No se puede integrar más información de la que la propia arquitectura permite. Un cerebro humano tendría un Φ máximo; un perro, otro; un gusano, otro. Y esa capacidad no crece solo añadiendo neuronas: depende de la arquitectura de las conexiones, no de la cantidad de materia.
 

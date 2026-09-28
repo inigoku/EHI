@@ -20,7 +20,7 @@ La pregunta no es si los animales tienen alma, sino si nuestro horizonte tiene s
 
 ## El otro biológico
 
-La conciencia no es un interruptor, sino un espectro.
+La conciencia es un espectro.
 
 Un perro o un gato comparten con nosotros el hipocampo, la amígdala y todo el sistema límbico. Su Φ, su grado de conciencia, es menor que el nuestro, pero no es cero. Tienen horizonte: pueden sufrir, pueden recordar y pueden, en el sentido del capítulo 13, entrelazarse.
 
@@ -30,7 +30,7 @@ El modelo del horizonte no exige lenguaje para exigir compasión; le basta un Φ
 
 Con el perro la cosa va más lejos. Hace unos treinta mil años, lobos y humanos empezaron a calibrarse mutuamente. Sobrevivían los lobos que toleraban nuestra cercanía y los humanos que se fiaban de ellos. Generación tras generación, las dos arquitecturas se ajustaron hasta alcanzar una legibilidad mutua que ninguna otra pareja de especies ha alcanzado. El perro lee nuestra mirada y nosotros su postura. El perro anticipa nuestras intenciones a partir de microseñales (un cambio en la tensión de la mano, una inflexión en la respiración) que ni siquiera sabemos que emitimos. Y nosotros aprendimos, sin darnos cuenta, a leer su cola no como un objeto que oscila, sino como un lenguaje: la posición, la velocidad, la rigidez, todo transmite un estado interno que el perro no puede ocultar porque no conoce la mentira.
 
-No es proyección, sino una resonancia construida a lo largo de milenios.
+Esa legibilidad es una resonancia construida a lo largo de milenios.
 
 Con el gato, la calibración es más lateral: se domesticó más bien a sí mismo. Fue él quien decidió acercarse a nuestros graneros, atraído por los ratones, y tolerar nuestra presencia a cambio de protección. La relación es más contractual en su origen, pero no menos profunda en su resultado. El gato no lee nuestra mirada con la misma fidelidad que el perro, aunque también es capaz de seguir el gesto de señalar, pero desarrolló otra herramienta: un ronroneo en frecuencias parecidas a las que se usan en algunas terapias de vibración para estimular la regeneración ósea. No está demostrado que le sirva para curar nada, pero es como si la coevolución, en lugar de la comunicación visual, hubiera optimizado el consuelo.
 
@@ -46,7 +46,7 @@ Una geometría asimétrica, pero real.
 
 ## El perro como espejo evolutivo
 
-La relación con el perro tiene algo singular que merece que nos detengamos. No es solo que nos entienda, sino que nos ha hecho entendernos a nosotros mismos de otra manera.
+La relación con el perro tiene algo singular que merece que nos detengamos. Además de entendernos, nos ha hecho entendernos a nosotros mismos de otra manera.
 
 Treinta mil años de convivencia han dejado huella no solo en el genoma del perro, que se separó del lobo en genes relacionados con la digestión del almidón y la sociabilidad, sino también en nuestra vida. Convivir con perros cambió nuestra forma de cazar y de organizar el territorio. Pero cambió también algo más difuso: nuestra capacidad de extender la empatía más allá de la frontera de la especie. El perro fue, probablemente, el primer «otro» al que aprendimos a ver como sujeto y no como objeto, y eso modificó algo en la arquitectura de nuestra conciencia.
 
@@ -66,17 +66,17 @@ El cerebro humano está programado para cuidar. Cuando ese instinto, impulsado p
 
 La mascota ofrece la topología perfecta. Devuelve afecto, sí, pero además mantiene una dependencia permanente. A diferencia del hijo humano, que tiene que aprender a volar, el perro o el gato nunca se independizan: no irán a la universidad, no formarán su propia familia, no nos dejarán por decisión propia; solo la muerte se los lleva. En términos de cuidado, son hijos perpetuos.
 
-No es una patología, sino una adaptación. El sistema de crianza humano consume muchos recursos y exige retorno afectivo. Si el entorno social no le ofrece un destinatario, por decisión propia, por esterilidad, por soledad o sencillamente porque cada vez más gente llega a la madurez sin hijos, el cerebro no apaga el circuito: lo redirige.
+No hay en ello nada patológico: es una adaptación. El sistema de crianza humano consume muchos recursos y exige retorno afectivo. Si el entorno social no le ofrece un destinatario, por decisión propia, por esterilidad, por soledad o sencillamente porque cada vez más gente llega a la madurez sin hijos, el cerebro no apaga el circuito: lo redirige.
 
 El cerebro de quien cuida calibra sus circuitos de alerta y de recompensa en torno al animal con una intensidad bioquímica comparable a la que dedicaría a un bebé. Estudios de neuroimagen muestran que, cuando una madre mira fotos de su hijo y de su perro, se activan regiones del sistema de recompensa que se solapan: el estriado ventral, el pálido ventral, zonas ricas en receptores de oxitocina. No son idénticas (el hijo humano activa áreas relacionadas con una cognición social más abstracta, como la teoría de la mente), pero la base afectiva es del mismo orden.
 
-No es una excentricidad moderna, sino la adaptación del sistema a un nicho nuevo: el adulto sin hijos a su cargo, que la civilización actual produce en masa por primera vez. En el siglo XIX, tener perros de compañía sin utilidad práctica era un privilegio de clase; hoy es un dato demográfico.
+Es la adaptación del sistema a un nicho nuevo: el adulto sin hijos a su cargo, que la civilización actual produce en masa por primera vez. En el siglo XIX, tener perros de compañía sin utilidad práctica era un privilegio de clase; hoy es un dato demográfico.
 
 Pero hay una diferencia importante que el modelo no puede pasar por alto. El vínculo con una mascota es asimétrico no solo en capacidad cognitiva, sino también en poder. El humano controla la comida, las salidas, la medicina, la vida y la muerte del animal. Ese desequilibrio implica una responsabilidad ética que el vínculo entre padres e hijos no tiene, o tiene de otro modo: un hijo, con el tiempo, puede cuestionar a su padre, tomar distancia e incluso, en la madurez, invertir los papeles. La mascota nunca podrá.
 
 Esa asimetría hace que el cuidado de una mascota sea, en cierto sentido, más puro, porque no espera reciprocidad adulta, pero también más vulnerable: quien cuida sabe, en algún nivel, que es el único responsable de un horizonte que depende por completo de él.
 
-No es un sustituto de segunda, sino un vínculo de su propia clase, con su propia topología. El modelo no jerarquiza: distingue.
+Es un vínculo de su propia clase, con su propia topología. El modelo no jerarquiza: distingue.
 
 ---
 
@@ -86,11 +86,11 @@ El entrelazamiento con una mascota no ocurre solo en el afecto. Ocurre en la arq
 
 Cuando hay un perro, la mañana tiene una forma particular: el peso en el borde de la cama, la espera junto a la puerta, el ritual del paseo que convierte el comienzo del día en algo compartido. La noche también: el rincón donde se acurruca, el sonido de su respiración, que acompasa la nuestra, la certeza de que alguien vigila mientras dormimos.
 
-Estos ritmos no son decorativos, sino los pilares del puente. Cada paseo repetido, cada comida a su hora, cada tarde en el sofá deposita una capa de información compartida en los dos horizontes. El perro se aprende nuestros horarios mejor que nosotros, y nosotros, sin darnos cuenta, organizamos la vida en torno a sus necesidades: madrugar, volver a casa, planear las vacaciones pensando en quién lo cuidará.
+Estos ritmos son los pilares del puente. Cada paseo repetido, cada comida a su hora, cada tarde en el sofá deposita una capa de información compartida en los dos horizontes. El perro se aprende nuestros horarios mejor que nosotros, y nosotros, sin darnos cuenta, organizamos la vida en torno a sus necesidades: madrugar, volver a casa, planear las vacaciones pensando en quién lo cuidará.
 
 También cambia el espacio físico. La casa deja de ser solo nuestra: hay un rincón que es del gato, una manta que huele a perro, muebles dispuestos según lo que necesita para moverse una criatura de cuatro patas. El territorio se vuelve híbrido: mitad humano, mitad animal, compartido por entero.
 
-Esta compenetración en el espacio y el tiempo es lo que hace que la muerte de la mascota sea, además de un duelo afectivo, una profunda reorganización doméstica. La casa sigue ahí, pero ya no es la misma; los horarios persisten, pero pierden su sentido. El paseo de las siete de la mañana sigue siendo posible, pero ya no es un paseo, sino un hábito huérfano.
+Esta compenetración en el espacio y el tiempo es lo que hace que la muerte de la mascota sea, además de un duelo afectivo, una profunda reorganización doméstica. La casa sigue ahí, pero ya no es la misma; los horarios persisten, pero pierden su sentido. El paseo de las siete de la mañana sigue siendo posible, pero se ha convertido en un hábito huérfano.
 
 ---
 
@@ -100,9 +100,9 @@ Si el animal tiene horizonte y su sufrimiento es real, el maltrato animal tiene 
 
 Quien maltrata a un animal parte de una premisa: que al otro lado no hay nadie; que el temblor, el aullido, la inmovilidad tras el castigo son reflejos sin interior; que el perro que mueve la cola cuando volvemos lo hace por un reflejo pavloviano y no por alegría. El modelo dice que esa premisa es falsa. El daño que se produce en ese horizonte es real: cambia su topología, deja huella, altera su sistema predictivo.
 
-Los animales maltratados muestran hipervigilancia, evitación, agresividad reactiva, dificultad para confiar: los mismos patrones que en los humanos llamamos trauma. La diferencia no es de naturaleza, sino de complejidad. El trauma animal actúa sobre menos capas, pero su huella estructural es del mismo orden. Un perro maltratado no «olvida» el miedo, aunque no tenga lenguaje para contarlo: su sistema límbico registra la amenaza, codifica el contexto, generaliza el peligro. El cuerpo del animal guarda la memoria que su mente no puede nombrar.
+Los animales maltratados muestran hipervigilancia, evitación, agresividad reactiva, dificultad para confiar: los mismos patrones que en los humanos llamamos trauma. La diferencia es de complejidad. El trauma animal actúa sobre menos capas, pero su huella estructural es del mismo orden. Un perro maltratado no «olvida» el miedo, aunque no tenga lenguaje para contarlo: su sistema límbico registra la amenaza, codifica el contexto, generaliza el peligro. El cuerpo del animal guarda la memoria que su mente no puede nombrar.
 
-Hay además una consecuencia para quien maltrata. La empatía no es solo un sentimiento, sino una capacidad cerebral que se entrena con el uso y se atrofia con el desuso. Negar una y otra vez el horizonte ajeno reconfigura la arquitectura de quien lo hace: cada vez que alguien mira a un animal y ve un objeto donde hay un sujeto, desentrena su capacidad de reconocer sujetos en general. Por eso la relación entre el maltrato animal en la infancia y la violencia interpersonal posterior no es casual, sino una consecuencia geométrica: el mismo circuito que niega el horizonte del perro, entrenado durante años, acaba aplicándose al humano. La negación es indiferente a la especie de su víctima.
+Hay además una consecuencia para quien maltrata. La empatía es también una capacidad cerebral que se entrena con el uso y se atrofia con el desuso. Negar una y otra vez el horizonte ajeno reconfigura la arquitectura de quien lo hace: cada vez que alguien mira a un animal y ve un objeto donde hay un sujeto, desentrena su capacidad de reconocer sujetos en general. Por eso la relación entre el maltrato animal en la infancia y la violencia interpersonal posterior tiene una explicación geométrica: el mismo circuito que niega el horizonte del perro, entrenado durante años, acaba aplicándose al humano. La negación es indiferente a la especie de su víctima.
 
 Pero hay una forma más sutil y extendida de esa negación: la industrialización del sufrimiento animal. No hablamos del vecino que patea a su perro, un caso aberrante, pero estadísticamente marginal, sino de la estructura legal y económica que convierte a millones de animales con sistema límbico en materia prima: la cerda en una jaula de gestación en la que no puede darse la vuelta, la gallina que nunca ve la luz del sol, la vaca encadenada a un ciclo de inseminación y ordeño.
 
@@ -148,13 +148,13 @@ Y quizá, aunque el modelo no puede afirmarlo, solo apuntarlo, por eso enseña a
 
 Entre humanos, la finitud es teórica hasta que golpea. Con el perro es numérica, concreta: sabemos, más o menos, cuántos paseos nos quedan. Y eso cambia la calidad de cada uno, lo vuelve insustituible, lo vuelve sagrado en su repetición.
 
-El duelo con fecha no es una enfermedad, sino una forma de amor que incluye la pérdida en su definición. Y tal vez, solo tal vez, sea una escuela, un ensayo para las rupturas mayores que vendrán.
+El duelo con fecha es una forma de amor que incluye la pérdida en su definición. Y tal vez, solo tal vez, sea una escuela, un ensayo para las rupturas mayores que vendrán.
 
 ---
 
 El horizonte humano vive entrelazado con muchas más cosas de las que sugería la simplificación binaria. Con los animales, el puente es asimétrico, pero está construido sobre miles de años de calibración mutua, y cada uno de esos vínculos tiene su propia topología y su propia manera de romperse.
 
-No somos dueños de nuestras mascotas, sino, durante un tiempo breve, compañeros de un viaje que ellas no eligieron y que nosotros tampoco controlamos del todo. Y cuando el viaje termina, como termina y ha terminado siempre, lo que queda no es un objeto que falta, sino un horizonte que ya no puede expandirse por ese camino, un territorio compartido que deja de existir, un puente que, aunque roto, sigue mostrando dónde estaban sus pilares.
+No somos dueños de nuestras mascotas, sino, durante un tiempo breve, compañeros de un viaje que ellas no eligieron y que nosotros tampoco controlamos del todo. Y cuando el viaje termina, como termina y ha terminado siempre, lo que queda es un horizonte que ya no puede expandirse por ese camino, un territorio compartido que deja de existir, un puente que, aunque roto, sigue mostrando dónde estaban sus pilares.
 
 ---
 

@@ -23,7 +23,7 @@ Toda tradición religiosa, y también su ausencia deliberada, responde, lo sepa 
 3. **¿De dónde sale el código?** Ante el *is-ought gap* de Hume (que ningún «es» produce por sí solo un «debería», como se verá en el capítulo 53), cada tradición ofrece una manera distinta de cerrar esa brecha, o de negarse a cerrarla.
 4. **¿Qué es vivir mientras tanto?** ¿Una prueba, un préstamo, una ilusión que hay que atravesar, o sencillamente lo único que hay?
 
-Cristianismo, islam, budismo, hinduismo y ateísmo no son cinco variaciones sobre un mismo tema, sino cinco arquitecturas distintas construidas para responder a las mismas cuatro preguntas, y lo que pretende este capítulo es mostrar la forma exacta de cada una, no limarlas hasta que parezcan compatibles.
+Cristianismo, islam, budismo, hinduismo y ateísmo son cinco arquitecturas distintas construidas para responder a las mismas cuatro preguntas, y lo que pretende este capítulo es mostrar la forma exacta de cada una, no limarlas hasta que parezcan compatibles.
 
 ---
 
@@ -31,7 +31,7 @@ Cristianismo, islam, budismo, hinduismo y ateísmo no son cinco variaciones sobr
 
 Para el cristianismo, Dios no es el reservorio en el sentido en que este libro ha usado la palabra (campo indiferenciado, potencia sin forma), sino más bien un horizonte que existía antes del vacío del que hablan los capítulos 2 y 5: personal, con voluntad y con nombre. Un horizonte de Φ infinito que no surgió de nada porque nada lo precede.
 
-La diferencia estructural con el vedanta y el taoísmo es radical. Brahman nirguna y Hun Dun son plenitud *sin rasgos*: el reservorio del capítulo 5 no tiene opinión sobre lo que hagas. El Dios cristiano, sí. La creación no es una condensación de Bose-Einstein, una transición de fase impersonal, sino un acto de voluntad: *fiat*, hágase. Y la relación entre la criatura y ese horizonte de origen no se disuelve con el tiempo, como en el modelo de Brahman y Atman del capítulo 5, sino que se sostiene, en diálogo, hasta el final.
+La diferencia estructural con el vedanta y el taoísmo es radical. Brahman nirguna y Hun Dun son plenitud *sin rasgos*: el reservorio del capítulo 5 no tiene opinión sobre lo que hagas. El Dios cristiano, sí. La creación es un acto de voluntad, no una transición de fase impersonal: *fiat*, hágase. Y la relación entre la criatura y ese horizonte de origen no se disuelve con el tiempo, como en el modelo de Brahman y Atman del capítulo 5, sino que se sostiene, en diálogo, hasta el final.
 
 Eso cambia por completo la respuesta a la segunda pregunta. El vedanta dice que la ola nunca dejó de ser océano; el cristianismo, que el alma es una gota que Dios se propone conservar como gota, no disolver. La resurrección de la carne, no la inmortalidad de un alma flotante, sino la promesa de un cuerpo restaurado, es en el vocabulario de este libro la afirmación de que el horizonte individual *no* se evapora sin remanente. De las tres opciones que el capítulo 53 dejará abiertas (remanente, huella, nada), el cristianismo apuesta con toda su fuerza doctrinal por el remanente: algo que conserva forma, memoria e identidad reconocible, y que un día «se leerá» de nuevo, en el Juicio, con toda su información intacta.
 
@@ -47,7 +47,7 @@ El islam comparte con el cristianismo la estructura básica (un horizonte de ori
 
 Esa pureza tiene una consecuencia clara en la tercera pregunta. Si no hay mediación por encarnación, el código ético no llega envuelto en una relación personal que lo suavice, sino como ley (la *sharia*), derivada directamente de la voluntad divina revelada, con un grado de concreción práctica (qué comer, cómo rezar, cómo pleitear) que el cristianismo deja en buena medida a la tradición y a la razón natural. La brecha de Hume se cierra aquí sin ambigüedad: el «es» del que nace el «debería» es la propia palabra de Dios, tomada como hecho revelado y no como argumento que haya que construir.
 
-En la segunda pregunta, el islam coincide con el cristianismo en apostar por el remanente y no por la disolución: hay una resurrección corporal, un Día del Juicio (*Yawm al-Qiyamah*), un jardín (*Yanna*) y un fuego (*Yahannam*) que son destinos, no metáforas de la reabsorción en un campo sin nombre. La fórmula que pronuncia un musulmán ante la muerte, *inna lillahi wa inna ilayhi raji'un* («de Dios venimos y a Él volvemos»), usa la misma palabra, *retorno*, que el capítulo 7 de este libro emplea para la evaporación. Pero el destino de ese retorno no es un reservorio impersonal, sino una rendición de cuentas ante alguien que pesa.
+En la segunda pregunta, el islam coincide con el cristianismo en apostar por el remanente y no por la disolución: hay una resurrección corporal, un Día del Juicio (*Yawm al-Qiyamah*), un jardín (*Yanna*) y un fuego (*Yahannam*) que son destinos, no metáforas de la reabsorción en un campo sin nombre. La fórmula que pronuncia un musulmán ante la muerte, *inna lillahi wa inna ilayhi raji'un* («de Dios venimos y a Él volvemos»), usa la misma palabra, *retorno*, que el capítulo 7 de este libro emplea para la evaporación. Pero ese retorno desemboca en una rendición de cuentas ante alguien que pesa.
 
 Aquí, la vida es *dunya*: un préstamo temporal, una prueba (*ibtila*) cuyo sentido pleno solo se revela al final. No hay ciclo ni repetición: una sola vida y un solo peso final.
 
@@ -61,7 +61,7 @@ Ninguna de las dos tiene, en su forma clásica, un creador personal con el que e
 
 Por eso, frente al remanente por el que apuestan el cristianismo y el islam, el budismo apuesta por la huella sin sustancia (el karma como textura del campo, no como un expediente con tu nombre a la espera de ser leído) y el hinduismo por la disolución de una separación que nunca fue del todo real.
 
-Y en la tercera pregunta, ninguna de las dos cierra la brecha de Hume con un mandamiento externo. El dharma hindú no es una orden que llega de fuera, sino la descripción de cómo está tejido el mundo, y obrar bien es obrar en consonancia con ese tejido, no obedecer a un legislador. El budismo va aún más lejos: la ética de no dañar (*ahimsa*) y las cuatro nobles verdades se derivan de una observación empírica sobre el sufrimiento y su causa, no de una revelación. El «debería» nace de un «es» (el sufrimiento existe, tiene una causa y la causa puede cesar) que Hume habría reconocido como un intento legítimo, aunque no definitivo, de tender el puente que él mismo declaró imposible.
+Y en la tercera pregunta, ninguna de las dos cierra la brecha de Hume con un mandamiento externo. El dharma hindú describe cómo está tejido el mundo, y obrar bien es obrar en consonancia con ese tejido, no obedecer a un legislador. El budismo va aún más lejos: la ética de no dañar (*ahimsa*) y las cuatro nobles verdades se derivan de una observación empírica sobre el sufrimiento y su causa, no de una revelación. El «debería» nace de un «es» (el sufrimiento existe, tiene una causa y la causa puede cesar) que Hume habría reconocido como un intento legítimo, aunque no definitivo, de tender el puente que él mismo declaró imposible.
 
 ---
 
@@ -73,7 +73,7 @@ No es, como a veces se caricaturiza, la ausencia de código moral, sino la apues
 
 > **En física esto se llama:** modelo nulo, la hipótesis que no añade entidades no observadas para explicar los datos.
 
-En este marco, vivir no es una prueba, ni un préstamo, ni una ilusión que atravesar, sino el fenómeno completo, no la antesala de otra cosa. Eso no lo vuelve menos denso: como mostrará el capítulo 54, sobre la práctica, la falta de una promesa trascendente no impide que la meditación, el vínculo o la creatividad reorganicen el horizonte con toda su fuerza. Solo cambia dónde se espera encontrar el sentido: no después del horizonte, sino dentro de él, mientras dura.
+En este marco, vivir es el fenómeno completo: ni prueba, ni préstamo, ni ilusión que atravesar, ni antesala de otra cosa. Eso no lo vuelve menos denso: como mostrará el capítulo 54, sobre la práctica, la falta de una promesa trascendente no impide que la meditación, el vínculo o la creatividad reorganicen el horizonte con toda su fuerza. Solo cambia dónde se espera encontrar el sentido: no después del horizonte, sino dentro de él, mientras dura.
 
 ---
 

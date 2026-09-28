@@ -38,11 +38,11 @@ Imagina que cada persona tiene una piel emocional de distinto grosor.
 
 Algunos tienen piel de papel: todo lo que ocurre fuera les entra dentro de inmediato. Entran en una habitación triste y se entristecen; ven sufrir a alguien y sienten su sufrimiento como propio. Son los que lloran en el cine, los que no soportan las noticias de guerra, los que salen agotados de las fiestas porque cada conversación les carga con algo que no es suyo.
 
-Otros tienen piel de cuero: notan que hay tristeza, pero no se impregnan de ella. Pueden estar en una sala de urgencias, ver el dolor, actuar sobre él y luego irse a casa y cenar con apetito. No porque no les importe, sino porque la señal externa no les atraviesa.
+Otros tienen piel de cuero: notan que hay tristeza, pero no se impregnan de ella. Pueden estar en una sala de urgencias, ver el dolor, actuar sobre él y luego irse a casa y cenar con apetito. Les importa, pero la señal externa no les atraviesa.
 
 Tener la piel gruesa o fina no es mejor ni peor; es distinto. Pero si tienes piel de papel y trabajas en un hospital, tendrás que aprender a ponerte un impermeable de vez en cuando; y si la tienes de cuero y tienes hijos, tendrás que aprender a quitarte la coraza a veces, o no sentirás lo que ellos sienten.
 
-La permeabilidad no es una virtud ni un defecto, sino un parámetro estructural que se calibra en gran medida durante la primera infancia. Como vimos en el capítulo 15, la sincronía temprana entre madre e hijo no solo le enseña al niño que el otro existe, sino hasta qué punto debe tratarlo como información urgente. Un horizonte que se calibró en un entorno en el que leer con precisión el estado del otro era cuestión de supervivencia desarrolla una permeabilidad muy alta. Lo que en la infancia fue una habilidad protectora se convierte en la vida adulta en una vulnerabilidad estructural: el horizonte sigue tratando cualquier señal externa con una urgencia que la situación ya no requiere. Es un detector de humo tan sensible que se dispara cuando hierves agua.
+La permeabilidad es un parámetro estructural, ni virtud ni defecto, que se calibra en gran medida durante la primera infancia. Como vimos en el capítulo 15, la sincronía temprana entre madre e hijo no solo le enseña al niño que el otro existe, sino hasta qué punto debe tratarlo como información urgente. Un horizonte que se calibró en un entorno en el que leer con precisión el estado del otro era cuestión de supervivencia desarrolla una permeabilidad muy alta. Lo que en la infancia fue una habilidad protectora se convierte en la vida adulta en una vulnerabilidad estructural: el horizonte sigue tratando cualquier señal externa con una urgencia que la situación ya no requiere. Es un detector de humo tan sensible que se dispara cuando hierves agua.
 
 ### El límite finito de la integración
 
@@ -52,7 +52,7 @@ Un horizonte sano resuelve esa restricción gracias a su capacidad de acoplarse 
 
 Cuando la permeabilidad es excesiva, el desacoplamiento no llega. El horizonte sigue resonando con cada señal ajena hasta que la siguiente la sobrescribe, sin periodo de retorno. Su propia frecuencia de base deja de ser el estado por defecto y pasa a ser, en el mejor de los casos, un recuerdo.
 
-Sostenido en el tiempo, el resultado es lo que la clínica llama fatiga por compasión o desgaste empático. En los términos de este experimento: un horizonte que procesa entropía externa a un ritmo que amenaza su integridad estructural. El sistema ha consumido tanto Phi en modelar a los demás que ya no le queda capacidad para modelarse a sí mismo. Y un horizonte que ha perdido su propio modelo ya no es del todo un horizonte, sino reservorio sin frontera.
+Sostenido en el tiempo, el resultado es lo que la clínica llama fatiga por compasión o desgaste empático. En los términos de este experimento: un horizonte que procesa entropía externa a un ritmo que amenaza su integridad estructural. El sistema ha consumido tanto Phi en modelar a los demás que ya no le queda capacidad para modelarse a sí mismo. Y un horizonte que ha perdido su propio modelo empieza a ser reservorio sin frontera.
 
 ### El muro: una solución que no es solución
 
@@ -64,7 +64,7 @@ En cierto sentido, el muro funciona: detiene el sufrimiento. Pero detiene tambi�
 
 La salida no es desconectarse, sino anclarse.
 
-Anclar un horizonte no es cerrarlo, sino mantener una señal interna de referencia lo bastante densa para que la resonancia con el otro ocurra en la superficie, sin desestabilizar el núcleo. La frecuencia propia tiene que estar lo bastante presente para que el horizonte, incluso mientras vibra con la del otro, no la confunda con la suya.
+Anclar un horizonte es mantener una señal interna de referencia lo bastante densa para que la resonancia con el otro ocurra en la superficie, sin desestabilizar el núcleo. La frecuencia propia tiene que estar lo bastante presente para que el horizonte, incluso mientras vibra con la del otro, no la confunda con la suya.
 
 En la práctica, eso exige dos cosas:
 
@@ -76,7 +76,7 @@ Es lo que la neurociencia llama «interocepción», pero no hace falta el térmi
 
 Es lo que la literatura clínica ha llamado, con razón, distinguir la empatía de la compasión. La empatía sin ancla es acoplamiento sin retorno: el horizonte se vacía en el otro. La compasión es acoplamiento con retorno: el horizonte modela al otro lo suficiente para responder, sin perder su propia frecuencia.
 
-La diferencia entre arder con el otro y sostenerlo mientras arde no es de intensidad emocional, sino de arquitectura. Es la diferencia entre tirarse al agua para salvar a alguien, y ahogarse los dos, y lanzarle una cuerda desde la orilla.
+La diferencia entre arder con el otro y sostenerlo mientras arde es de arquitectura. Es la diferencia entre tirarse al agua para salvar a alguien, y ahogarse los dos, y lanzarle una cuerda desde la orilla.
 
 ### No arreglar: acompañar
 
@@ -86,7 +86,7 @@ La intuición más común, decirle qué hacer, es incompleta y a veces directame
 
 El capítulo 5 describió el wu wei como la acción que no fuerza: el carpintero que deja que la madera le diga por dónde cortar, en lugar de imponerle una forma que no tiene. Un horizonte roto, por una pérdida, por un fracaso, por cualquier reorganización violenta de su arquitectura, tiene su propia veta y su propio ritmo de reparación, el mismo que el capítulo 7 describió al hablar de la herida que cicatriza. Decirle a alguien qué hacer con su dolor suele ser cortar a contrapelo: imponerle una velocidad, una dirección y un resultado que responden más a la urgencia de quien mira que a la física real del sistema que se está curando.
 
-Lo que hace falta, entonces, no es dirección, sino precisamente la cuerda desde la orilla del apartado anterior: una presencia anclada y sostenida que no exige al otro cambiar de ritmo para merecerla. El capítulo 12 describió la línea de base social de Coan: la mera presencia de alguien conocido ya reduce la respuesta de amenaza del sistema nervioso, sin necesidad de decir, sugerir ni resolver nada. No es un paso previo a la ayuda de verdad; ya es la ayuda de verdad.
+Lo que hace falta, entonces, es la cuerda desde la orilla del apartado anterior: una presencia anclada y sostenida que no exige al otro cambiar de ritmo para merecerla. El capítulo 12 describió la línea de base social de Coan: la mera presencia de alguien conocido ya reduce la respuesta de amenaza del sistema nervioso, sin necesidad de decir, sugerir ni resolver nada. No es un paso previo a la ayuda de verdad; ya es la ayuda de verdad.
 
 No significa retirarse ni callar por norma. Significa algo más preciso: que la utilidad de estar ahí no depende de tener razón sobre lo que el otro debería hacer. Respetar el horizonte ajeno es, entre otras cosas, aceptar que su reparación le pertenece, que el mismo mecanismo que cerró otras heridas sin que nadie las cerrara desde fuera es el que tiene que cerrar esta, y que quien acompaña no está para sustituir ese mecanismo, sino para sostener las condiciones que le permiten seguir funcionando.
 
@@ -100,17 +100,17 @@ Imagina una sala de espera de urgencias. Hay quien llora en silencio, quien grit
 
 La ínsula anterior, la estructura que procesa la señal visceral del propio cuerpo, se activa ante cada señal con la misma intensidad relativa, porque el sistema no ha aprendido a distinguir entre una amenaza inmediata y un malestar lejano. El resultado es interferencia: el horizonte no resuena con ninguna frecuencia con la claridad suficiente para responder.
 
-La literatura clínica lo documenta: los trabajadores de urgencias que se queman no son los que atienden los casos más graves, sino los que soportan la mayor densidad de señal sin intervalos de recuperación. No es la intensidad del estímulo lo que hunde al horizonte, sino la falta de pausas entre estímulos. El horizonte necesita tiempo para desacoplarse, y cuando no lo tiene no acumula daño, sino desorden. Y el desorden es peor que el daño porque no tiene una forma reconocible: no se puede nombrar, y lo que no se nombra no se puede tratar.
+La literatura clínica lo documenta: los trabajadores de urgencias que se queman no son los que atienden los casos más graves, sino los que soportan la mayor densidad de señal sin intervalos de recuperación. Lo que hunde al horizonte es la falta de pausas entre estímulos, más que su intensidad. El horizonte necesita tiempo para desacoplarse, y cuando no lo tiene no acumula daño, sino desorden. Y el desorden es peor que el daño porque no tiene una forma reconocible: no se puede nombrar, y lo que no se nombra no se puede tratar.
 
 ### La distinción empática: cómo el horizonte sabe qué siente
 
-Hay un problema previo que aún no hemos planteado: para empatizar, el horizonte tiene que saber primero qué siente él. La empatía no es solo receptividad hacia el otro, sino exactitud en la lectura de la propia señal. Un horizonte que no distingue bien su estado interno no puede simular fielmente el del otro: simulará su propia confusión.
+Hay un problema previo que aún no hemos planteado: para empatizar, el horizonte tiene que saber primero qué siente él. La empatía exige, además de receptividad hacia el otro, exactitud en la lectura de la propia señal. Un horizonte que no distingue bien su estado interno no puede simular fielmente el del otro: simulará su propia confusión.
 
 La interocepción, la capacidad de percibir las señales internas del cuerpo, es una condición necesaria de la empatía genuina; no accesoria, necesaria. Diversos estudios muestran que la precisión interoceptiva, medida por la capacidad de contar los propios latidos sin tomarse el pulso, guarda relación con la precisión empática: quien mejor lee su propio cuerpo lee mejor el ajeno.
 
-La ínsula anterior, que procesa la señal visceral, es la misma que se activa ante el dolor observado en otro. No hay dos sistemas, sino uno que funciona en dos direcciones.
+La ínsula anterior, que procesa la señal visceral, es la misma que se activa ante el dolor observado en otro. Hay un solo sistema que funciona en dos direcciones.
 
-Esto tiene una implicación inesperada. La empatía no es un don que se tiene o no se tiene, sino una habilidad que descansa sobre otra más básica: el anclaje interoceptivo. Un horizonte que no sabe dónde está él no puede saber dónde está el otro respecto a él. La empatía sin interocepción no es empatía, sino identificación confusa, fusión sin frontera, la versión patológica de la resonancia, en la que el yo se pierde en el otro porque nunca supo dónde estaba.
+Esto tiene una implicación inesperada. La empatía es una habilidad que descansa sobre otra más básica: el anclaje interoceptivo. Un horizonte que no sabe dónde está él no puede saber dónde está el otro respecto a él. La empatía sin interocepción se queda en identificación confusa, fusión sin frontera, la versión patológica de la resonancia, en la que el yo se pierde en el otro porque nunca supo dónde estaba.
 
 ### La empatía adversarial: cuando el horizonte no quiere sentir
 
@@ -118,7 +118,7 @@ Hay un caso que la descripción habitual de la empatía pasa por alto: la empat�
 
 El torturador que sabe exactamente qué le duele a su víctima no carece de empatía: tiene una empatía de gran precisión puesta al servicio de un fin que no podemos nombrar sin horror. El horizonte que empatiza para dañar no está roto, sino que ha desconectado la resonancia de la respuesta. Siente lo que siente el otro, o, más exactamente, sabe lo que siente, y usa ese conocimiento para hacer el mayor daño posible.
 
-La empatía, por tanto, no es en sí misma una virtud, sino una capacidad. La virtud, o su ausencia, está en lo que el horizonte decide hacer con la información que la empatía le da. La empatía de quien cuida y la de quien tortura usan las mismas redes neurales: la ínsula, el cíngulo anterior, el circuito espejo. Lo que cambia es su conexión funcional con el sistema de valoración prefrontal. Uno integra la señal del otro y actúa para aliviar; el otro la integra y actúa para dañar.
+La empatía, por tanto, es una capacidad antes que una virtud. La virtud, o su ausencia, está en lo que el horizonte decide hacer con la información que la empatía le da. La empatía de quien cuida y la de quien tortura usan las mismas redes neurales: la ínsula, el cíngulo anterior, el circuito espejo. Lo que cambia es su conexión funcional con el sistema de valoración prefrontal. Uno integra la señal del otro y actúa para aliviar; el otro la integra y actúa para dañar.
 
 Desde el modelo del horizonte, la pregunta ética no es «¿tengo empatía?», sino «¿a qué está conectada mi empatía?». El horizonte puede empatizar con cualquiera que emita una señal lo bastante clara. Con quién empatiza y qué hace con ello es lo que el modelo no puede predecir, porque depende de su historia, de sus vínculos previos, de sus heridas, de sus decisiones acumuladas.
 
@@ -130,7 +130,7 @@ Hay un fenómeno que parece empatía invertida. En lugar de recibir la señal de
 
 El carisma no es belleza, ni inteligencia, ni virtud. Hay horizontes bellos, brillantes y buenos que carecen de él, y horizontes corrientes que lo irradian con una naturalidad desconcertante. Desde el modelo, el carisma es una propiedad informacional: la coherencia interna del horizonte es tan alta que su señal llega a los demás sin ruido, sin contradicciones, sin las pequeñas fugas que suelen distraer. Cuando habla un horizonte carismático, el otro no escucha palabras: recibe un estado. Y los estados son mucho más contagiosos que los argumentos.
 
-Eso explica algo que la psicología social documenta desde hace décadas: el carisma no depende del contenido, sino de la forma de transmitirlo. Un horizonte que duda de sí mismo emite interferencias, porque la duda es información que compite con el mensaje. El carismático, en cambio, ha resuelto (o nunca se planteó) la cuestión de si merece ocupar el espacio que ocupa. Esa falta de duda no es arrogancia, sino un ruido de fondo excepcionalmente bajo: el mensaje llega limpio porque no hay otros mensajes a la vez.
+Eso explica algo que la psicología social documenta desde hace décadas: el carisma no depende del contenido, sino de la forma de transmitirlo. Un horizonte que duda de sí mismo emite interferencias, porque la duda es información que compite con el mensaje. El carismático, en cambio, ha resuelto (o nunca se planteó) la cuestión de si merece ocupar el espacio que ocupa. Esa falta de duda es un ruido de fondo excepcionalmente bajo: el mensaje llega limpio porque no hay otros mensajes a la vez.
 
 Pero la geometría del carisma es peligrosa. Un horizonte que impone su frecuencia puede hacerlo para ampliar la libertad del otro (el maestro que enseña, el artista que abre caminos) o para anularla. La diferencia no está en el mecanismo, sino en la dirección: el carisma generoso amplía el horizonte ajeno, le muestra correlaciones que no había visto, le ofrece frecuencias nuevas que puede adoptar o rechazar. El carisma depredador, en cambio, comprime el horizonte ajeno hasta que solo puede resonar con él. Es la secta, el culto a la personalidad, la relación tóxica en la que el carisma del otro se convierte en tu única fuente de coherencia.
 
@@ -140,7 +140,7 @@ De ahí una distinción útil. Hay carismas que invitan a la resonancia y carism
 
 La relación entre carisma y empatía es, pues, la de un espejo invertido. La empatía es receptividad: el horizonte se abre a la frecuencia del otro. El carisma es transmisión: el horizonte ofrece una frecuencia que el otro puede adoptar. Ambos mecanismos comparten la misma infraestructura neural (el circuito espejo, la ínsula, el cíngulo anterior), pero funcionan en direcciones opuestas: el empático lee y el carismático escribe. Y cuando alguien tiene ambas capacidades en alto grado, el resultado es una presencia que comprende e impone a la vez: la clase de persona a la que no puedes mentir, pero a la que tampoco puedes dejar de seguir.
 
-Eso no es santidad, sino arquitectura, y como toda arquitectura puede servir para sostener o para encerrar.
+Eso es arquitectura, y como toda arquitectura puede servir para sostener o para encerrar.
 
 ### La empatía en la cultura
 
@@ -152,13 +152,13 @@ Pero hay un límite. La cultura puede subir o bajar el volumen de la empatía, p
 
 ### El límite como frontera viva
 
-Todo horizonte tiene un límite. No es un fallo, sino una condición de su existencia. Un horizonte sin límite no es un horizonte más grande, sino reservorio, y el reservorio, por definición, no tiene dentro ni fuera, ni nadie que empatice ni con quien empatizar. La empatía necesita una frontera, y la frontera, un límite.
+Todo horizonte tiene un límite. Es una condición de su existencia. Un horizonte sin límite deja de ser horizonte y se vuelve reservorio, y el reservorio, por definición, no tiene dentro ni fuera, ni nadie que empatice ni con quien empatizar. La empatía necesita una frontera, y la frontera, un límite.
 
-El límite empático no es un muro, sino una membrana selectiva: permeable a lo que el horizonte puede integrar sin perderse e impermeable a lo que lo desestabilizaría. La salud del horizonte no se mide por cuánto empatiza, sino por cuánto puede empatizar sin dejar de ser él mismo. No es una cantidad, sino una relación: la que hay entre lo que entra y lo que el sistema puede metabolizar.
+El límite empático funciona como una membrana selectiva: permeable a lo que el horizonte puede integrar sin perderse e impermeable a lo que lo desestabilizaría. La salud del horizonte no se mide por cuánto empatiza, sino por cuánto puede empatizar sin dejar de ser él mismo. Es una relación antes que una cantidad: la que hay entre lo que entra y lo que el sistema puede metabolizar.
 
-Cuando el horizonte llega a su límite, la señal del otro sigue llegando; lo que cambia es la capacidad de procesarla. La empatía forzada más allá del límite no es empatía, sino invasión. El horizonte que se obliga a seguir resonando cuando ya no le quedan recursos no cuida al otro: se traiciona a sí mismo, y en ese autoengaño pierde la capacidad de cuidar de verdad a nadie.
+Cuando el horizonte llega a su límite, la señal del otro sigue llegando; lo que cambia es la capacidad de procesarla. La empatía forzada más allá del límite se convierte en invasión. El horizonte que se obliga a seguir resonando cuando ya no le quedan recursos no cuida al otro: se traiciona a sí mismo, y en ese autoengaño pierde la capacidad de cuidar de verdad a nadie.
 
-Reconocer el propio límite es, en este sentido, la condición de toda empatía sostenible. No es egoísmo, sino conservar la única herramienta que hace posible la empatía. El horizonte que no respeta su límite no es más altruista: se evapora antes de tiempo, gasta su Phi en resonancias que no puede sostener y, cuando por fin se derrumba (y acaba derrumbándose), deja de ser útil para todos.
+Reconocer el propio límite es, en este sentido, la condición de toda empatía sostenible. Eso es conservar la única herramienta que hace posible la empatía, aunque desde fuera parezca egoísmo. El horizonte que no respeta su límite no es más altruista: se evapora antes de tiempo, gasta su Phi en resonancias que no puede sostener y, cuando por fin se derrumba (y acaba derrumbándose), deja de ser útil para todos.
 
 La pregunta adecuada no es «¿debería empatizar más?», sino «¿dónde está mi límite y qué necesito para poder volver a él?». La respuesta nunca está en el otro, sino en la propia arquitectura, en la propia historia, en la propia capacidad de anclaje. El horizonte que sabe dónde termina puede tocar al otro sin perderse; el que no lo sabe, por mucho que se extienda, solo llega a tocarlo de forma confusa.
 

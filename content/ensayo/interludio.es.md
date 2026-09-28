@@ -21,7 +21,7 @@ Ese instante sin yo, antes de que vuelva el relato, es el borde del horizonte: e
 
 > *«El remo tocó fondo donde antes había eco.» — La costumbre del agua*
 
-Antes de recorrer los estados uno a uno conviene tener el mapa completo, y el mapa tiene una forma sorprendente: no es una línea, sino un plano.
+Antes de recorrer los estados uno a uno conviene tener el mapa completo, y el mapa tiene una forma sorprendente: es un plano.
 
 Durante mucho tiempo imaginamos el espectro de la conciencia como una simple escala vertical: arriba la vigilia plena, abajo el coma y, en el suelo, la muerte. El modelo es intuitivo, pero le falta algo importante.
 
@@ -78,7 +78,7 @@ Y luego está el sueño profundo.
 
 El sueño profundo es la contracción, una contracción real, medible y honda.
 
-Sus ondas lentas, las ondas delta, de entre 0,5 y 4 ciclos por segundo, no son el ruido de un cerebro apagado, sino la señal de un cerebro sincronizado de forma masiva. En la vigilia, las neuronas disparan de forma desincronizada: grupos distintos hacen cosas distintas en momentos distintos, y esa asincronía es justo lo que permite una integración rica de la información. En el sueño profundo, millones de neuronas caen juntas en un ritmo común. El horizonte no irradia: es opaco.
+Sus ondas lentas, las ondas delta, de entre 0,5 y 4 ciclos por segundo, son la señal de un cerebro sincronizado de forma masiva. En la vigilia, las neuronas disparan de forma desincronizada: grupos distintos hacen cosas distintas en momentos distintos, y esa asincronía es justo lo que permite una integración rica de la información. En el sueño profundo, millones de neuronas caen juntas en un ritmo común. El horizonte no irradia: es opaco.
 
 Phi se acerca a los valores más bajos posibles en un adulto vivo. No llega a cero, que sería la muerte, pero se aproxima.
 
@@ -87,7 +87,7 @@ Phi se acerca a los valores más bajos posibles en un adulto vivo. No llega a ce
 
 ### La homeostasis del sueño
 
-¿Por qué dormimos? Durante décadas la pregunta no tuvo una respuesta satisfactoria. Hoy sabemos que el sueño no es un estado pasivo de descanso, sino un proceso activo, regulado y esencial para la supervivencia: los animales privados por completo de sueño mueren antes que los privados de comida.
+¿Por qué dormimos? Durante décadas la pregunta no tuvo una respuesta satisfactoria. Hoy sabemos que el sueño es un proceso activo, regulado y esencial para la supervivencia: los animales privados por completo de sueño mueren antes que los privados de comida.
 
 El mecanismo más sencillo es químico. Durante la vigilia, el cerebro acumula adenosina, un subproducto del metabolismo neuronal que funciona como señal de «deuda de sueño»: cuanto más tiempo llevas despierto, más adenosina acumulas. La cafeína actúa bloqueando sus receptores; engaña al cerebro para que crea que no está cansado.
 
@@ -133,7 +133,7 @@ El libro tibetano de los muertos, el *Bardo Thödol*, describe el periodo entre 
 
 ## El insomnio: cuando el horizonte no puede cerrarse
 
-Hay un trastorno que ilumina el sueño mostrando su ausencia. El insomnio no es falta de cansancio, sino incapacidad de contraer el horizonte. La persona está agotada, pero el sistema no alcanza el umbral de sincronización masiva propio del sueño profundo. O bien el horizonte se queda entreabierto (sueño superficial, despertares cada hora), o bien no logra estabilizarse en el REM (sueños fragmentados que no reparan).
+Hay un trastorno que ilumina el sueño mostrando su ausencia. El insomnio es incapacidad de contraer el horizonte. La persona está agotada, pero el sistema no alcanza el umbral de sincronización masiva propio del sueño profundo. O bien el horizonte se queda entreabierto (sueño superficial, despertares cada hora), o bien no logra estabilizarse en el REM (sueños fragmentados que no reparan).
 
 La neurociencia del insomnio muestra algo revelador: los insomnes no tienen menos ondas lentas, sino ondas lentas menos coherentes. La sincronización es parcial e irregular, como un coro en el que cada cantante da la nota correcta, pero cada uno a su tiempo. Así, el cerebro no consigue la renormalización sináptica que proporciona el sueño profundo, y el insomne se levanta tan cansado como se acostó, a veces más.
 
@@ -143,7 +143,7 @@ La neurociencia del insomnio muestra algo revelador: los insomnes no tienen meno
 
 Volvemos, al final, al principio.
 
-Ese medio segundo sin yo al despertar de golpe no es un fallo del sistema, sino el sistema funcionando como debe: se recupera de una contracción profunda y vuelve a expandir el horizonte desde casi nada hasta la geometría completa del yo. Lo que se percibe en ese instante, sin nadie que perciba, es el horizonte en su estado más desnudo, antes de que el relato lo vista y le ponga nombre.
+Ese medio segundo sin yo al despertar de golpe es el sistema funcionando como debe: se recupera de una contracción profunda y vuelve a expandir el horizonte desde casi nada hasta la geometría completa del yo. Lo que se percibe en ese instante, sin nadie que perciba, es el horizonte en su estado más desnudo, antes de que el relato lo vista y le ponga nombre.
 
 La vigilia ordinaria es el horizonte activo, integrado, abierto al mundo y a sí mismo. El sueño REM es el horizonte que se ha vuelto hacia dentro, procesando con toda su potencia pero sin contacto exterior. El sueño profundo es el horizonte contraído hasta casi su límite mínimo, la aproximación cotidiana al estado en que la información integrada cae a cero. La meditación profunda es el horizonte que se expande en la dirección contraria, más allá de la vigilia ordinaria, hacia una integración que la actividad normal nunca alcanza. Y la muerte es, quizá, la contracción definitiva, seguida, según los datos de Borjigin y la cartografía del *Bardo Thödol*, de un destello final en el que el horizonte hace algo que no esperábamos.
 

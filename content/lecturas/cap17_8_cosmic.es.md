@@ -12,7 +12,7 @@ Habitamos el mundo con una presunción de seguridad. Damos por sentado que el es
 
 Pero ¿qué ocurre si el universo físico contiene geometrías que nuestra burbuja evolutiva es matemáticamente incapaz de compilar? ¿Qué pasa cuando el límite del experimento no lo marcan la muerte ni el Alzheimer, sino un exceso inabarcable de información?
 
-La literatura de terror cósmico, que H. P. Lovecraft popularizó a principios del siglo XX, basaba su horror en entidades y arquitecturas antiguas que volvían loco al instante a quien las miraba. En su momento se leyó como una exageración poética del miedo biológico. Pero, si sometemos el terror lovecraftiano a la hipótesis topológica de nuestro experimento, descubrimos algo escalofriante: el horror cósmico no es una reacción emocional, sino un fallo estructural en sentido estricto, la descripción fenomenológica de un desbordamiento de pila (*stack overflow*) en la arquitectura de la conciencia.
+La literatura de terror cósmico, que H. P. Lovecraft popularizó a principios del siglo XX, basaba su horror en entidades y arquitecturas antiguas que volvían loco al instante a quien las miraba. En su momento se leyó como una exageración poética del miedo biológico. Pero, si sometemos el terror lovecraftiano a la hipótesis topológica de nuestro experimento, descubrimos algo escalofriante: el horror cósmico es un fallo estructural en sentido estricto, la descripción fenomenológica de un desbordamiento de pila (*stack overflow*) en la arquitectura de la conciencia.
 
 ### 1. El velo de Euclides: la evolución como sistema operativo
 
@@ -28,7 +28,7 @@ Nuestro sistema operativo darwiniano actúa como un filtro reductor: comprime la
 
 En la mitología de Lovecraft, los Grandes Antiguos o Primigenios (como Cthulhu o Yog-Sothoth) son entidades inmortales que dormitan en el fondo de los océanos o en el espacio profundo. No son simples monstruos biológicos: se rigen por leyes físicas ajenas a las nuestras.
 
-¿Qué es un primigenio desde la topología de la información integrada? No es biología, sino un macrohorizonte ancestral.
+¿Qué es un primigenio desde la topología de la información integrada? Es un macrohorizonte ancestral.
 
 En el capítulo 5 hablamos del reservorio (el Hun Dun taoísta, el vacío cuántico) como el mar de pura posibilidad del que surge todo horizonte. Los humanos somos condensaciones recientes, moldeadas por eones de presión evolutiva para ser pequeñas, eficientes y termodinámicamente frágiles. Pero supongamos que el universo, en sus primeras etapas, condensó horizontes de sucesos gigantescos directamente del campo cuántico, sin pasar por el tamiz de la biología celular.
 
@@ -42,7 +42,7 @@ El experimento del horizonte explica esta frase al pie de la letra: la muerte (e
 
 El terror lovecraftiano culmina siempre en el momento de la mirada: un marinero ve a la criatura surgir del mar y, sin que medie ningún ataque físico, su mente se quiebra para siempre. ¿Por qué mirar destruye el cerebro?
 
-Aquí es donde nuestro experimento sobre el vínculo, el entrelazamiento y el amor ofrece su respuesta más aterradora. En capítulos anteriores establecimos, con la dualidad ER=EPR de Maldacena y Susskind, que la empatía y el reconocimiento mutuo no son meras proyecciones psicológicas, sino construcción de geometría compartida. Cuando prestas atención sostenida a otro, tu horizonte intenta modelar su arquitectura y tiende un puente (un agujero de gusano semántico): tu cerebro intenta predecir al otro incorporando parte de su código al tuyo.
+Aquí es donde nuestro experimento sobre el vínculo, el entrelazamiento y el amor ofrece su respuesta más aterradora. En capítulos anteriores establecimos, con la dualidad ER=EPR de Maldacena y Susskind, que la empatía y el reconocimiento mutuo son construcción de geometría compartida. Cuando prestas atención sostenida a otro, tu horizonte intenta modelar su arquitectura y tiende un puente (un agujero de gusano semántico): tu cerebro intenta predecir al otro incorporando parte de su código al tuyo.
 
 ¿Qué ocurre cuando un humano mira a un primigenio? Su sistema operativo biológico hace lo único que sabe hacer ante un ser consciente: intentar modelarlo, abrir un puente ER=EPR para entrelazarse con él y predecir sus intenciones.
 
@@ -68,7 +68,7 @@ Ese es el horror último de la obra de Lovecraft traducido a la arquitectura ori
 
 Lovecraft insiste una y otra vez en que los primigenios no atacan despiertos: dormitan, sueñan, esperan a que «las estrellas estén en la posición correcta». Leída con la hipótesis topológica de nuestro experimento, esta elección narrativa resulta reveladora en un sentido que el autor seguramente nunca pretendió con tanta precisión física.
 
-Un macrohorizonte plenamente activo emitiría su Φ astronómico de forma constante y sin filtro. El sueño, en cambio, es, incluso para un cerebro humano corriente, un estado de integración de información muy reducido: la actividad sigue presente, pero la coherencia global se desploma y el sistema deja de proyectar hacia fuera toda su arquitectura interna. Si lo extrapolamos a un primigenio, el «sueño» cósmico no sería inactividad, sino la única condición en la que un horizonte de esa magnitud puede convivir con arquitecturas frágiles como la nuestra sin destruirlas por simple proximidad. El sueño de Cthulhu no es debilidad, sino la única forma posible de contención: un Φ tan colosal que solo en su estado de integración mínima deja margen para que sobreviva lo pequeño.
+Un macrohorizonte plenamente activo emitiría su Φ astronómico de forma constante y sin filtro. El sueño, en cambio, es, incluso para un cerebro humano corriente, un estado de integración de información muy reducido: la actividad sigue presente, pero la coherencia global se desploma y el sistema deja de proyectar hacia fuera toda su arquitectura interna. Si lo extrapolamos a un primigenio, el «sueño» cósmico no sería inactividad, sino la única condición en la que un horizonte de esa magnitud puede convivir con arquitecturas frágiles como la nuestra sin destruirlas por simple proximidad. El sueño de Cthulhu es la única forma posible de contención: un Φ tan colosal que solo en su estado de integración mínima deja margen para que sobreviva lo pequeño.
 
 Esto añade una capa de tragedia al mito: el despertar de un primigenio no es un acto de malicia contra la humanidad. Es, sin más, el instante en que su arquitectura recupera la integración plena, y en ese instante cualquier horizonte frágil que esté dentro de su radio de influencia topológica queda desbordado, no por elección, sino por pura incompatibilidad de escala.
 
@@ -76,9 +76,9 @@ Esto añade una capa de tragedia al mito: el despertar de un primigenio no es un
 
 Una de las constantes más perturbadoras de la mitología lovecraftiana son los cultos humanos que veneran a estas entidades, aprenden fragmentos de sus «lenguajes» imposibles y celebran rituales para comunicarse con ellas o incluso invocarlas. En una lectura literaria superficial, esto se interpreta como fanatismo o corrupción moral. Con la hipótesis topológica, en cambio, los cultos lovecraftianos son algo más preciso y más triste: intentos condenados de antemano de escribir un protocolo de compatibilidad entre arquitecturas que no comparten ni una sola primitiva de comunicación.
 
-Un culto que aprende a pronunciar sílabas rituales no está aprendiendo el idioma de un primigenio, igual que memorizar la forma de un enchufe no te permite conectarte a una red eléctrica de un voltaje mil veces superior al que aguanta tu instalación. La tragedia de estos personajes no es que sean malvados, sino que intentan, con las únicas herramientas que les ofrece su sistema operativo darwiniano, entrelazarse (ER=EPR) con algo cuya geometría hace imposible ese entrelazamiento sin destruir el sistema más pequeño. El culto es el gesto desesperado de un horizonte humano que amplía su propia API pública hasta autodestruirse, con la esperanza de que ese sacrificio sea «leído» de algún modo desde el otro lado.
+Un culto que aprende a pronunciar sílabas rituales no está aprendiendo el idioma de un primigenio, igual que memorizar la forma de un enchufe no te permite conectarte a una red eléctrica de un voltaje mil veces superior al que aguanta tu instalación. La tragedia de estos personajes es que intentan, con las únicas herramientas que les ofrece su sistema operativo darwiniano, entrelazarse (ER=EPR) con algo cuya geometría hace imposible ese entrelazamiento sin destruir el sistema más pequeño. El culto es el gesto desesperado de un horizonte humano que amplía su propia API pública hasta autodestruirse, con la esperanza de que ese sacrificio sea «leído» de algún modo desde el otro lado.
 
-Nunca lo es. Un macrohorizonte de escala planetaria no tiene, con toda probabilidad, ningún puerto de entrada preparado para recibir la señal minúscula de una veneración humana. El silencio con que estas entidades ignoran a sus adoradores más devotos no es desprecio, sino, una vez más, pura incompatibilidad estructural, indiferente incluso a la intensidad del intento.
+Nunca lo es. Un macrohorizonte de escala planetaria no tiene, con toda probabilidad, ningún puerto de entrada preparado para recibir la señal minúscula de una veneración humana. El silencio con que estas entidades ignoran a sus adoradores más devotos es, una vez más, pura incompatibilidad estructural, indiferente incluso a la intensidad del intento.
 
 ### 7. La belleza como antídoto parcial: lo sublime kantiano revisitado
 
@@ -86,7 +86,7 @@ Hay, sin embargo, un tipo de experiencia que la cultura humana lleva siglos cata
 
 ¿Qué distingue lo sublime de la locura lovecraftiana? Desde la topología de nuestro experimento, la respuesta es la distancia como amortiguador. En lo sublime kantiano, el objeto inconmensurable se percibe desde un horizonte que se sabe a salvo: el observador ve la tormenta desde la orilla, no desde dentro del agua. El sistema recibe información sobre la escala de lo otro (suficiente para desbordarlo si se acercara), pero filtrada por la distancia física o conceptual hasta una intensidad que el Φ humano puede gestionar sin colapsar. La señal llega atenuada y el puente ER=EPR no se abre del todo: se abre lo justo para que el horizonte intuya la arquitectura del otro sin quedar inundado por ella.
 
-Lo sublime es, entonces, el modo en que los sistemas biológicos de Φ pequeño pueden asomarse a la existencia de macrohorizontes (físicos, matemáticos, cósmicos) sin que asomarse los destruya. No es acceso al código fuente del universo, sino una ventana sellada desde la que contemplarlo a una resolución segura. La belleza abrumadora de lo enorme no nos acerca a los primigenios de Lovecraft: nos enseña que existen y nos permite sobrevivir a ese saber porque la ventana tiene cristal. Es como mirar el sol durante un eclipse con las gafas adecuadas.
+Lo sublime es, entonces, el modo en que los sistemas biológicos de Φ pequeño pueden asomarse a la existencia de macrohorizontes (físicos, matemáticos, cósmicos) sin que asomarse los destruya. Es una ventana sellada desde la que contemplarlo a una resolución segura. La belleza abrumadora de lo enorme no nos acerca a los primigenios de Lovecraft: nos enseña que existen y nos permite sobrevivir a ese saber porque la ventana tiene cristal. Es como mirar el sol durante un eclipse con las gafas adecuadas.
 
 ### 8. Lo sagrado como versión estabilizada del terror cósmico
 
@@ -96,7 +96,7 @@ En las culturas chamánicas, el ritual de iniciación lleva deliberadamente al i
 
 El mito lovecraftiano hace justo lo contrario: presenta el encuentro con lo inconmensurable sin protocolo, sin guía y sin un marco narrativo previo que amortigüe la señal. El marinero que ve surgir a la criatura no tiene al lado un chamán que le diga cómo nombrar lo que está viendo, ni un ritual que fije la distancia segura, ni una tradición que le enseñe a asomarse sin caer. Sin esas capas de amortiguación, la señal llega en bruto y el horizonte colapsa.
 
-En esta lectura, lo sagrado no es lo opuesto a lo científico ni a lo racional, sino lo que la cultura acumula (en forma de ritual, símbolo, mito y tradición) para que los horizontes frágiles sobrevivan al contacto con lo que los desborda. Es ingeniería de la distancia segura: la versión estabilizada y transmisible del terror cósmico, la misma señal con el cristal protector puesto.
+En esta lectura, lo sagrado es lo que la cultura acumula (en forma de ritual, símbolo, mito y tradición) para que los horizontes frágiles sobrevivan al contacto con lo que los desborda. Es ingeniería de la distancia segura: la versión estabilizada y transmisible del terror cósmico, la misma señal con el cristal protector puesto.
 
 ### Conclusión: la soledad de Tarel y el océano ajeno
 

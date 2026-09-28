@@ -43,7 +43,7 @@ En 2013, los físicos Maldacena y Susskind propusieron algo sorprendente: que qu
 
 > **En física esto se llama:** ER=EPR.
 
-Si es así, el entrelazamiento no es una correlación misteriosa, sino geometría: una conexión real en el tejido del espacio-tiempo. Por el túnel no viaja información (no se pueden enviar señales más rápido que la luz), pero la conexión existe como curvatura del espacio, tan real como cualquier otra.
+Si es así, el entrelazamiento es geometría: una conexión real en el tejido del espacio-tiempo. Por el túnel no viaja información (no se pueden enviar señales más rápido que la luz), pero la conexión existe como curvatura del espacio, tan real como cualquier otra.
 
 ### Decoherencia: por qué no vemos entrelazamiento
 

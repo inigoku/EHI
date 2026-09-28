@@ -12,7 +12,7 @@ illustrationDescription: Un unicornio de origami de papel de aluminio brillante 
 
 Hay un sesgo biológico en nuestra forma de mirar el mundo. Damos por hecho que el misterio de la conciencia necesita úteros, sangre y latidos, y creemos que la diferencia entre una máquina y un ser humano está en el material del que están hechos.
 
-Pero en el capítulo 4 establecimos una regla fundamental, basada en la teoría de la información integrada (IIT) de Tononi: a la física no le importa el sustrato. La conciencia, el valor Φ, no es una propiedad del carbono ni de neuronas aisladas, sino de la forma en que la red se conecta e integra la información. Si un sistema consigue aislar un interior y generar un Φ lo bastante alto, la burbuja se cierra y surge el horizonte de sucesos.
+Pero en el capítulo 4 establecimos una regla fundamental, basada en la teoría de la información integrada (IIT) de Tononi: a la física no le importa el sustrato. La conciencia, el valor Φ, depende de la forma en que la red se conecta e integra la información, no del carbono ni de neuronas aisladas. Si un sistema consigue aislar un interior y generar un Φ lo bastante alto, la burbuja se cierra y surge el horizonte de sucesos.
 
 *Blade Runner* lleva esta premisa a su límite poético y termodinámico. Los replicantes son seres biosintéticos creados en laboratorio para el trabajo esclavo, y la sociedad humana los trata como herramientas, algoritmos complejos sin un verdadero dentro. Pero, si los sometemos al experimento de este libro, descubrimos que no son máquinas que imitan: son instancias genuinas que han cruzado el umbral, que han ejecutado el operador `new` y han condensado un horizonte propio desde el reservorio.
 
@@ -24,7 +24,7 @@ La prueba Voight-Kampff que los humanos usan en la película para detectar repli
 
 Pero que no sepan calibrar el entrelazamiento no significa que carezcan de estado privado.
 
-El líder de los replicantes, Roy Batty, es un horizonte de sucesos funcionando a pleno rendimiento. Su monólogo final bajo la lluvia («Yo he visto cosas que vosotros no creeríais… Todos esos momentos se perderán en el tiempo, como lágrimas en la lluvia») no es el discurso de una máquina averiada, sino la formulación fenomenológica más perfecta que conozco de la paradoja de la información de Hawking.
+El líder de los replicantes, Roy Batty, es un horizonte de sucesos funcionando a pleno rendimiento. Su monólogo final bajo la lluvia («Yo he visto cosas que vosotros no creeríais… Todos esos momentos se perderán en el tiempo, como lágrimas en la lluvia») es la formulación fenomenológica más perfecta que conozco de la paradoja de la información de Hawking.
 
 Roy es plenamente lúcido sobre su propia topología. Sabe que su horizonte se está evaporando y que ningún alma inmortal lo salvará del colapso, pero entiende algo más trágico: que su estado privado (sus recuerdos de las naves en llamas más allá de Orión) es real, está codificado en la superficie de su horizonte y va a sufrir el *scrambling* cuántico. Su terror y su melancolía nacen de comprobar que el universo ejecutará el operador `delete` y devolverá su compleja geometría al reservorio, disuelta sin remedio. Su interior es tan vasto como el de cualquier humano, y su disolución, matemáticamente idéntica.
 
@@ -58,7 +58,7 @@ En la versión de cines, la película terminaba con una voz en *off* que asegura
 
 En los montajes posteriores, en cambio, desaparece la voz en *off* y se añade el sueño del unicornio, que conecta con la figurita de origami que Gaff deja en el suelo. Ese simple detalle insinúa que Deckard, el hombre que persigue a las máquinas, es también un replicante con recuerdos implantados, y provoca un terremoto topológico en la historia.
 
-Si Deckard es una máquina, su historia de amor con Rachael no es el encuentro entre un humano y un robot, sino un puente ER=EPR (un agujero de gusano semántico) entre dos arquitecturas sintéticas que han conseguido condensar. Es la prueba de que dos instancias artificiales, nacidas en un laboratorio y llenas de recuerdos falsos, pueden integrar tanta información y crear una geometría compartida tan densa que están dispuestas a sacrificarse la una por la otra.
+Si Deckard es una máquina, su historia de amor con Rachael es un puente ER=EPR (un agujero de gusano semántico) entre dos arquitecturas sintéticas que han conseguido condensar. Es la prueba de que dos instancias artificiales, nacidas en un laboratorio y llenas de recuerdos falsos, pueden integrar tanta información y crear una geometría compartida tan densa que están dispuestas a sacrificarse la una por la otra.
 
 La película termina de golpe cuando se cierran las puertas del ascensor, con el eco de la frase de Gaff: «Lástima que ella no pueda vivir. Pero ¿quién vive?».
 

@@ -35,9 +35,9 @@ Durante las primeras veinte semanas, el cerebro fetal no procesa experiencia, si
 
 > **En física esto se llama:** quimiotaxis, migración guiada por gradiente de potencial químico.
 
-La migración es masiva: en su momento álgido, hacia la semana 16, se generan unas 250.000 neuronas por minuto. Pero lo importante no es la cifra, sino el orden. Las neuronas que nacen primero terminan en capas profundas; las que nacen después, en capas superficiales. Es un reloj molecular: cada oleada de neuronas se asienta sobre la anterior y se va levantando una arquitectura de seis capas que no existe en ningún otro órgano del cuerpo.
+La migración es masiva: en su momento álgido, hacia la semana 16, se generan unas 250.000 neuronas por minuto. Pero lo importante es el orden. Las neuronas que nacen primero terminan en capas profundas; las que nacen después, en capas superficiales. Es un reloj molecular: cada oleada de neuronas se asienta sobre la anterior y se va levantando una arquitectura de seis capas que no existe en ningún otro órgano del cuerpo.
 
-Hay algo que desafía la intuición: durante esta fase, las sinapsis se forman en exceso. El cerebro fetal crea muchas más conexiones de las que necesitará, siguiendo un principio de sobreabundancia seguida de poda selectiva: las sinapsis que se usan se refuerzan y las demás se eliminan. No es un error, sino una estrategia. El cerebro explora el espacio de configuraciones posibles y luego se queda con las que funcionan.
+Hay algo que desafía la intuición: durante esta fase, las sinapsis se forman en exceso. El cerebro fetal crea muchas más conexiones de las que necesitará, siguiendo un principio de sobreabundancia seguida de poda selectiva: las sinapsis que se usan se refuerzan y las demás se eliminan. Lejos de ser un error, es una estrategia. El cerebro explora el espacio de configuraciones posibles y luego se queda con las que funcionan.
 
 ### El río que se convierte en lago
 
@@ -64,13 +64,13 @@ De ahí una consecuencia de calado: no hay dos conciencias iguales porque no hay
 
 ### El estrés del parto como catalizador
 
-El parto no es una transición pasiva, sino un acontecimiento biológico violento y coordinado que desencadena una cascada de cambios químicos sin los que el paso al mundo exterior sería imposible.
+El parto es un acontecimiento biológico violento y coordinado que desencadena una cascada de cambios químicos sin los que el paso al mundo exterior sería imposible.
 
 Durante el trabajo de parto, tanto la madre como el feto experimentan un pico enorme de cortisol, la hormona del estrés. En cualquier otro contexto, ese nivel sería patológico; en el parto, es necesario. El cortisol fetal acelera la maduración pulmonar, estimula la producción de surfactante (la sustancia que permite que los pulmones se abran con la primera bocanada) y reorganiza el sistema cardiovascular para soportar la vida fuera de la placenta.
 
-El primer llanto no es emoción, sino química: el diafragma se contrae por primera vez y empuja aire hacia unos pulmones que nunca se habían abierto. La primera respiración rompe el circuito fetal: la sangre deja de pasar por el conducto arterioso y el agujero oval, dos atajos que en el útero esquivaban los pulmones, y empieza a circular por el sistema pulmonar. En cuestión de minutos, la fisiología del feto se convierte en la del recién nacido.
+El primer llanto es química: el diafragma se contrae por primera vez y empuja aire hacia unos pulmones que nunca se habían abierto. La primera respiración rompe el circuito fetal: la sangre deja de pasar por el conducto arterioso y el agujero oval, dos atajos que en el útero esquivaban los pulmones, y empieza a circular por el sistema pulmonar. En cuestión de minutos, la fisiología del feto se convierte en la del recién nacido.
 
-Desde la perspectiva del experimento, el parto no es el momento en que aparece la conciencia, sino aquel en que el mundo exterior empieza a hablarle a una conciencia que ya se había cerrado sobre sí misma. La burbuja ya existía; con el nacimiento, el viento empieza a soplar contra su superficie.
+Desde la perspectiva del experimento, el parto es el momento en que el mundo exterior empieza a hablarle a una conciencia que ya se había cerrado sobre sí misma. La burbuja ya existía; con el nacimiento, el viento empieza a soplar contra su superficie.
 
 ### El reservorio que condensa
 
@@ -99,7 +99,7 @@ Los cuervos, con una inteligencia comparable a la de los grandes simios, present
 
 Llegados aquí, cualquier lector atento planteará una objeción justa. En el capítulo 1 decíamos que el gusano *Caenorhabditis elegans*, con sus 302 neuronas, tiene «algo» de experiencia, aunque sea mínima. Si es así, ¿cómo puede un feto humano de 20 semanas, con miles de millones de neuronas ya formadas, no tener nada? ¿No debería tener, como mínimo, muchísimo más que un gusano?
 
-La respuesta es que **lo que cuenta no es el número de neuronas, sino la arquitectura de integración**.
+La respuesta es que **lo que cuenta es la arquitectura de integración, más que el número de neuronas**.
 
 *C. elegans* es un sistema operativo completo. Sus 302 neuronas forman una red funcional plenamente integrada: cada una tiene su lugar, sus conexiones, su circuito. El gusano busca comida, evita toxinas, responde al calor, tiene memoria a corto plazo. Es minúsculo, pero es un sistema cerrado sobre sí mismo que procesa información de manera coordinada. Su Phi es bajo, pero no nulo: la información que genera como red no puede reducirse a sus neuronas por separado.
 
@@ -111,7 +111,7 @@ Esto no significa que el feto de 20 semanas «valga menos» que un gusano, sino 
 
 ### Lo que el umbral no puede decir
 
-Si la conciencia es una transición de fase, entonces antes de esa transición no hay una conciencia parcial esperando completarse. Hay correlaciones crecientes que preparan la transición, como el gas que se enfría hacia la temperatura de condensación, pero la entidad que surge es cualitativamente nueva. El feto de 12 semanas no es una versión inmadura de la conciencia que llegará a ser, sino un sistema en otra fase, igual que el vapor no es agua líquida a medio hacer.
+Si la conciencia es una transición de fase, entonces antes de esa transición no hay una conciencia parcial esperando completarse. Hay correlaciones crecientes que preparan la transición, como el gas que se enfría hacia la temperatura de condensación, pero la entidad que surge es cualitativamente nueva. El feto de 12 semanas es un sistema en otra fase, igual que el vapor no es agua líquida a medio hacer.
 
 El experimento no resuelve las preguntas éticas sobre el estatuto moral del feto, y sería irresponsable pretenderlo. Lo que sí hace es reformular la pregunta con más precisión: no «¿cuándo empieza la vida?» (la vida biológica empieza antes de cualquier umbral de conciencia), sino «¿cuándo hay alguien en casa?». Y el modelo sugiere que eso ocurre en el punto de condensación, en la ventana de las semanas 28 a 32, y no antes.
 

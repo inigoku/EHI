@@ -58,7 +58,7 @@ La pregunta «¿quién es la verdadera madre?» está mal planteada. Las tres ca
 
 ## El parto como transición
 
-El nacimiento no es algo que le ocurre solo al hijo, sino una transición en la geometría del vínculo. Durante la gestación, la regulación era interna: la madre regulaba al hijo sin que él lo supiera, a través de la placenta, del latido, de las hormonas. Tras el nacimiento, la regulación se vuelve externa: el hijo tiene que emitir una señal para recibir respuesta. El llanto sustituye a la placenta como canal de comunicación.
+El nacimiento le ocurre también a la madre: es una transición en la geometría del vínculo. Durante la gestación, la regulación era interna: la madre regulaba al hijo sin que él lo supiera, a través de la placenta, del latido, de las hormonas. Tras el nacimiento, la regulación se vuelve externa: el hijo tiene que emitir una señal para recibir respuesta. El llanto sustituye a la placenta como canal de comunicación.
 
 La transición es brutal para los dos horizontes. El hijo, que nunca había tenido que *pedir* regulación, descubre que su bienestar depende de emitir señales que otro sepa interpretar. La madre, que regulaba sin esfuerzo, descubre que ahora regular exige una atención constante, descifrar señales que no vienen etiquetadas y soportar un cansancio para el que la gestación no la preparó.
 
@@ -74,11 +74,11 @@ Hay un dato físico que lo ilumina: el **microquimerismo fetomaterno**. Durante 
 
 ## La depresión posparto
 
-Hay un caso en que el reservorio no responde como debería. La depresión posparto no es tristeza por el cambio de vida, sino un fallo del sistema de recompensa vincular que deja a la madre sin la señal de oxitocina que necesita para sostener la asimetría. El horizonte materno sigue reorganizado en torno al hijo, pero esa reorganización ya no genera el circuito de recompensa que la hace llevadera.
+Hay un caso en que el reservorio no responde como debería. La depresión posparto es un fallo del sistema de recompensa vincular que deja a la madre sin la señal de oxitocina que necesita para sostener la asimetría. El horizonte materno sigue reorganizado en torno al hijo, pero esa reorganización ya no genera el circuito de recompensa que la hace llevadera.
 
 El resultado es devastador. La madre puede querer a su hijo y, a la vez, no sentir el placer que ese amor debería producir. El sistema de anticipación dopaminérgico sigue funcionando (sabe que tiene que responder al llanto), pero el circuito de recompensa del vínculo está apagado. Es como pulsar las teclas de un piano y no oír nada.
 
-La depresión posparto no es un fallo de la madre, sino del sistema. Y tiene consecuencias para el hijo: un horizonte recién condensado que no recibe la regulación mutua que espera aprende desde el primer día que el mundo no responde de forma predecible. Esa lección temprana puede inclinar el sistema de apego hacia la inseguridad, no por culpa de nadie, sino por el azar de una química que no funcionó.
+El fallo es del sistema, no de la madre. Y tiene consecuencias para el hijo: un horizonte recién condensado que no recibe la regulación mutua que espera aprende desde el primer día que el mundo no responde de forma predecible. Esa lección temprana puede inclinar el sistema de apego hacia la inseguridad, no por culpa de nadie, sino por el azar de una química que no funcionó.
 
 ## Soltar la cuerda
 
@@ -86,9 +86,9 @@ La paradoja de este vínculo es estructural: su función biológica se cumple cu
 
 Pero la asimetría fundacional hace que ese desenlace le cueste caro a la madre. Su arquitectura se organizó durante meses en torno a un horizonte que no existía, y después, durante años, en torno a uno que dependía por completo de ella. Cuando ese horizonte aprende a regularse solo, la arquitectura materna no puede reconfigurarse sin más.
 
-Lo que llamamos «nido vacío» admite una descripción precisa: una arquitectura organizada durante dos décadas en torno a una presencia activa que ahora funciona a baja frecuencia o a distancia. No es ausencia, sino una presencia atenuada que el sistema sigue procesando como si fuera inminente. La madre lleva a cabo voluntariamente la desexpansión que en el capítulo 13 era el coste involuntario de la pérdida, y lo hace sin dejar que el hijo la viva como una retirada.
+Lo que llamamos «nido vacío» admite una descripción precisa: una arquitectura organizada durante dos décadas en torno a una presencia activa que ahora funciona a baja frecuencia o a distancia. Es una presencia atenuada que el sistema sigue procesando como si fuera inminente. La madre lleva a cabo voluntariamente la desexpansión que en el capítulo 13 era el coste involuntario de la pérdida, y lo hace sin dejar que el hijo la viva como una retirada.
 
-Hay una variante extrema: el hijo adulto que corta el vínculo por su cuenta. No es un duelo, porque el hijo sigue vivo, sino algo intermedio que da lugar a una figura particular: el **fantasma del hijo vivo**, un horizonte que la madre fabricó, que sigue existiendo y que ha decidido no contestar. La inscripción en la arquitectura materna sigue funcionando aunque el otro lado haya dejado de actualizarla. Es uno de los duelos más difíciles que identifica el modelo, precisamente porque no permite el trabajo de cierre de otros duelos.
+Hay una variante extrema: el hijo adulto que corta el vínculo por su cuenta. Como el hijo sigue vivo, no llega a ser un duelo; es algo intermedio que da lugar a una figura particular: el **fantasma del hijo vivo**, un horizonte que la madre fabricó, que sigue existiendo y que ha decidido no contestar. La inscripción en la arquitectura materna sigue funcionando aunque el otro lado haya dejado de actualizarla. Es uno de los duelos más difíciles que identifica el modelo, precisamente porque no permite el trabajo de cierre de otros duelos.
 
 ## Cuando los roles no se invierten
 
@@ -110,7 +110,7 @@ En el caso biológico habitual, el padre aporta plantilla y crianza, pero no ges
 
 El modelo de tres capas supone un único vínculo primario. Pero muchos horizontes se condensan en entornos en los que varios adultos comparten la crianza: abuelos, tíos, hermanos mayores, cuidadores profesionales, comunidades amplias. ¿Qué implica eso para la calibración del sistema de recompensa?
 
-Todo indica que lo que importa no es el número de cuidadores, sino la coherencia de la respuesta. Un horizonte recién condensado puede calibrarse con un solo cuidador predecible o con cinco. Lo que hace daño es la incoherencia: cuidadores que responden de forma contradictoria o que entran y salen sin un patrón reconocible. El sistema no puede aprender la contingencia si las contingencias cambian. Da igual que haya un radiador o cinco, siempre que la temperatura sea estable.
+Todo indica que importa más la coherencia de la respuesta que el número de cuidadores. Un horizonte recién condensado puede calibrarse con un solo cuidador predecible o con cinco. Lo que hace daño es la incoherencia: cuidadores que responden de forma contradictoria o que entran y salen sin un patrón reconocible. El sistema no puede aprender la contingencia si las contingencias cambian. Da igual que haya un radiador o cinco, siempre que la temperatura sea estable.
 
 ## Lo que este capítulo cierra
 

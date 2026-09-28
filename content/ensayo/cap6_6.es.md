@@ -30,7 +30,7 @@ La tabla siguiente hace de piedra de Rosetta del libro: traduce los conceptos ce
 
 El valor de esta tabla no está en lo curioso de sus paralelismos, sino en lo que revela sobre la estructura de la realidad. Si el «problema difícil» de la conciencia parece irresoluble es porque solemos abordarlo desde una ontología plana: damos por hecho que todo lo que existe tiene que poder observarse públicamente.
 
-El modelado de sistemas complejos y la física de los horizontes muestran que no es así: el universo es asimétrico. Construir sistemas complejos, ya sean programas informáticos, horizontes de sucesos o cerebros, exige, por necesidad termodinámica y lógica, trazar límites de ocultamiento de la información. La subjetividad no es un ingrediente místico inyectado en el cerebro, sino la perspectiva inevitable de cualquier dominio que ha logrado cerrarse lo suficiente para albergar un estado privado.
+El modelado de sistemas complejos y la física de los horizontes muestran que no es así: el universo es asimétrico. Construir sistemas complejos, ya sean programas informáticos, horizontes de sucesos o cerebros, exige, por necesidad termodinámica y lógica, trazar límites de ocultamiento de la información. La subjetividad es la perspectiva inevitable de cualquier dominio que ha logrado cerrarse lo suficiente para albergar un estado privado.
 
 > **Nota al Capítulo 9**
 >

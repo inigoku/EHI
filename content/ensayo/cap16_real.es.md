@@ -12,9 +12,9 @@ Hasta aquí hemos hablado de horizontes individuales: cómo nacen, cómo se entr
 
 ¿Qué pasa cuando la asimetría no es circunstancial, como entre madre e hijo o en un duelo, sino estructural? ¿Cuando un sistema impide que dos horizontes se encuentren en condiciones de simetría, no durante un día, sino durante generaciones?
 
-Una aclaración antes de seguir. El modelo del horizonte no obliga a hablar de política, pero lo permite. Lo que sigue no es una consecuencia inevitable de la física de la conciencia, sino la decisión de extender el experimento a un terreno más blando. Quien prefiera mantener separadas conciencia y política puede saltarse este capítulo sin perder el hilo.
+Una aclaración antes de seguir. El modelo del horizonte no obliga a hablar de política, pero lo permite. Lo que sigue es la decisión de extender el experimento a un terreno más blando. Quien prefiera mantener separadas conciencia y política puede saltarse este capítulo sin perder el hilo.
 
-Quien decida quedarse encontrará algo que, en cierto modo, ya intuía. La injusticia no es solo cuestión de recursos mal repartidos, sino una perturbación de la geometría misma del encuentro: la imposibilidad de que dos conciencias resuenen en pie de igualdad porque una de ellas está rodeada de muros que la otra no ve.
+Quien decida quedarse encontrará algo que, en cierto modo, ya intuía. La injusticia es, además de un mal reparto de recursos, una perturbación de la geometría misma del encuentro: la imposibilidad de que dos conciencias resuenen en pie de igualdad porque una de ellas está rodeada de muros que la otra no ve.
 
 El niño que crece en una torre de ladrillo y cristal y el que crece en una habitación sin ventanas no solo tienen bienes distintos, sino universos de señal distintos. Sus horizontes se forman con materiales inconmensurables. Y cuando, décadas después, se encuentran (en un tribunal, en una entrevista de trabajo, en la cola del supermercado), la asimetría original sigue actuando como una fuerza invisible que decide quién puede hablar y a quién se escuchará.
 
@@ -30,7 +30,7 @@ Una cárcel, una relación de violencia doméstica o una infancia de abandono in
 
 Pero la asimetría no siempre llega con uniforme y porra. A veces lleva corbata y se presenta como eficiencia. El trabajador precario que no puede negociar su horario, la enfermera que no tiene tiempo de escuchar al paciente, el estudiante que aprueba memorizando sin cuestionar nada: todos viven bajo formas de poder que no se llaman así, pero comparten la misma topología. La señal sube, se diluye y se pierde en entramados burocráticos diseñados para que la respuesta nunca llegue.
 
-Imaginemos una empresa en la que el jefe decide sin consultar la estrategia de un equipo. Los empleados pueden murmurar, sugerir, incluso protestar, pero la arquitectura de la relación garantiza que su señal no pese lo mismo que la de quien firma los contratos. No es que el jefe sea malvado, sino que el sistema está hecho para que su horizonte absorba información del otro sin verse obligado a integrarla como propia. El dolor del despedido no atraviesa la pared de su despacho; la precariedad del contrato temporal no altera la estabilidad del contrato indefinido de quien decide.
+Imaginemos una empresa en la que el jefe decide sin consultar la estrategia de un equipo. Los empleados pueden murmurar, sugerir, incluso protestar, pero la arquitectura de la relación garantiza que su señal no pese lo mismo que la de quien firma los contratos. El jefe no tiene por qué ser malvado: el sistema está hecho para que su horizonte absorba información del otro sin verse obligado a integrarla como propia. El dolor del despedido no atraviesa la pared de su despacho; la precariedad del contrato temporal no altera la estabilidad del contrato indefinido de quien decide.
 
 Cuando el acoplamiento es unilateral durante años, ocurre algo más profundo que una injusticia puntual. El horizonte sometido aprende a modular su propia señal: a hablar más bajo, a anticipar el rechazo, a traducir su experiencia al vocabulario del poderoso antes de expresarla. Es lo que a veces se llama opresión interiorizada: la asimetría se interioriza hasta el punto de que el oprimido colabora en su propio silenciamiento, no por cobardía, sino porque su modelo predictivo ha aprendido que la señal auténtica no se integrará.
 
@@ -38,19 +38,19 @@ Cuando el acoplamiento es unilateral durante años, ocurre algo más profundo qu
 
 ## La pobreza como privación de señal
 
-El tiempo subjetivo, la densidad de integración, depende de la riqueza y la variedad de los estímulos que recibe el horizonte. De ahí se desprende algo directo: un horizonte empobrecido no es solo uno con menos recursos, sino uno al que el entorno ofrece menos información integrable por unidad de tiempo.
+El tiempo subjetivo, la densidad de integración, depende de la riqueza y la variedad de los estímulos que recibe el horizonte. De ahí se desprende algo directo: a un horizonte empobrecido el entorno le ofrece menos información integrable por unidad de tiempo.
 
-El niño que crece entre libros, conversaciones adultas, instrumentos musicales y salidas al campo recibe estímulos de alta densidad. El que crece en una privación múltiple (espacio reducido, vocabulario limitado, pocos estímulos nuevos, un estrés crónico que es ruido y no novedad) ve cómo su horizonte se expande menos de lo que su biología permitiría. No porque su cerebro tenga menos capacidad, sino porque el entorno no le da material que integrar.
+El niño que crece entre libros, conversaciones adultas, instrumentos musicales y salidas al campo recibe estímulos de alta densidad. El que crece en una privación múltiple (espacio reducido, vocabulario limitado, pocos estímulos nuevos, un estrés crónico que es ruido y no novedad) ve cómo su horizonte se expande menos de lo que su biología permitiría. Su cerebro tiene la misma capacidad; es el entorno el que no le da material que integrar.
 
-La diferencia no es solo cuantitativa, sino topológica. El horizonte del niño pobre no es una versión reducida del del niño rico, sino una arquitectura distinta: menos conexiones de largo alcance, un sistema de recompensa calibrado para la urgencia, una permeabilidad crónica a la amenaza.
+La diferencia es topológica. El horizonte del niño pobre tiene una arquitectura distinta: menos conexiones de largo alcance, un sistema de recompensa calibrado para la urgencia, una permeabilidad crónica a la amenaza.
 
 Dos gemelos separados al nacer, uno criado en un barrio marginal y otro en uno acomodado, no solo acumularán conocimientos distintos: construirán *maneras de ser conscientes* distintas. El primero aprenderá a detectar el peligro antes de que se manifieste, a ahorrar energía, a no fiarse de la continuidad. El segundo aprenderá a aplazar las recompensas, a explorar, a dar por hecho que el mundo colaborará con sus proyectos. Las dos son adaptaciones racionales a su entorno, y ninguna es superior en abstracto. Pero el mundo está diseñado por y para el segundo, de modo que la adaptación del primero se convierte, en ese contexto, en un «déficit».
 
 La noción de «privación de señal» permite separar dos cosas que suelen confundirse: la pobreza material y la informacional. Un niño puede tener comida y techo, la privación material resuelta, y crecer en un entorno en el que nadie le habla de forma compleja, en el que la televisión es su único estímulo variado, en el que el miedo al desahucio o la violencia doméstica consumen toda la atención disponible. En ese caso, el horizonte sigue empobrecido, no porque falten calorías, sino porque falta la clase de estímulos que la conciencia necesita para ganar complejidad.
 
-No es determinismo. La plasticidad existe, pero tiene un coste. Salir de la pobreza no es solo conseguir ingresos, sino reconfigurar una arquitectura construida durante años en condiciones adversas.
+No es determinismo. La plasticidad existe, pero tiene un coste. Salir de la pobreza exige reconfigurar una arquitectura construida durante años en condiciones adversas.
 
-Y aquí el modelo del horizonte ilumina algo con especial claridad: el coste de esa reconfiguración no es solo económico, sino informacional. Quien sale de la pobreza tiene que aprender a procesar señales que nunca había tenido que integrar, a inhibir respuestas que antes eran adaptativas, a confiar en estabilidades que su modelo predictivo no anticipa. Es como aprender un idioma a los treinta años: posible, pero costoso, y nunca con la soltura de quien lo aprendió de niño.
+Y aquí el modelo del horizonte ilumina algo con especial claridad: el coste de esa reconfiguración también es informacional. Quien sale de la pobreza tiene que aprender a procesar señales que nunca había tenido que integrar, a inhibir respuestas que antes eran adaptativas, a confiar en estabilidades que su modelo predictivo no anticipa. Es como aprender un idioma a los treinta años: posible, pero costoso, y nunca con la soltura de quien lo aprendió de niño.
 
 ---
 
@@ -60,7 +60,7 @@ El racismo no es solo prejuicio. Es, además, un fallo sistemático de legibilid
 
 Cuando un sistema judicial atribuye hostilidad a gestos que en otro contexto leería como neutros, o cuando un empleador no sabe interpretar las señales de un candidato de otra etnia, hay algo más que mala voluntad: hay un modelo predictivo degradado por el sesgo de su entorno de entrenamiento.
 
-El cerebro modela a los demás con una precisión que varía según la familiaridad. Si el entorno social está segregado, si los medios sobrerrepresentan a ciertos grupos como amenaza, si las interacciones reales son escasas o están cargadas de asimetría de poder, el modelo predictivo se degrada. No porque el horizonte sea malo, sino porque el corpus con el que se entrenó está sesgado.
+El cerebro modela a los demás con una precisión que varía según la familiaridad. Si el entorno social está segregado, si los medios sobrerrepresentan a ciertos grupos como amenaza, si las interacciones reales son escasas o están cargadas de asimetría de poder, el modelo predictivo se degrada. El horizonte no es malo: el corpus con el que se entrenó está sesgado.
 
 De ahí una consecuencia precisa: el racismo es, en parte, un fallo informacional colectivo, y como todo fallo colectivo no se corrige solo con buena voluntad individual, sino modificando el entorno de entrenamiento: interacciones reales, sostenidas, en condiciones de simetría suficiente para que los modelos predictivos se recalibren.
 
@@ -104,11 +104,11 @@ Los hijos de los supervivientes y los nietos de los esclavizados no heredan el t
 
 Imaginemos una comunidad que vivió una dictadura. Los adultos que la sobrevivieron aprendieron a no fiarse, a no nombrar, a leer entre líneas. Esa cautela, racional en su momento, se transmite a los hijos no como doctrina, sino como atmósfera. El niño crece en una casa en la que la alegría siempre es un poco culpable, la confianza en las instituciones es una ingenuidad que se paga cara y el silencio del padre durante la cena dice más que mil advertencias. No tuvo que vivir la represión para heredar su geometría: le bastó con crecer en el campo gravitatorio que esa represión dejó.
 
-Las comisiones de la verdad, los museos de la memoria y los ritos públicos de reparación no son gestos meramente simbólicos, sino operaciones de desencapsulación colectiva: intentos de hacer circular una información que estuvo atrapada para que pueda integrarse en lugar de seguir deformando desde el subsuelo.
+Las comisiones de la verdad, los museos de la memoria y los ritos públicos de reparación son operaciones de desencapsulación colectiva: intentos de hacer circular una información que estuvo atrapada para que pueda integrarse en lugar de seguir deformando desde el subsuelo.
 
 La dificultad es que abrir la cápsula tiene un coste y un riesgo: puede inundar el sistema con más información de la que es capaz de integrar de una vez. Por eso los procesos de justicia transicional son tan frágiles y fracasan tan a menudo. El modelo no ofrece recetas; ofrece una manera de entender por qué fracasan.
 
-Hay traumas colectivos que no nacen de un acontecimiento único, sino de una condición prolongada. La colonización no fue un día de violencia, sino siglos de asimetría sostenida que reconfiguraron los horizontes de colonizadores y colonizados de un modo tan profundo que persiste cuando las banderas ya han cambiado. El esclavizado no solo perdió la libertad: perdió la posibilidad de que el sistema que lo rodeaba integrase su señal. Y esa negación, repetida durante generaciones, construyó arquitecturas de conciencia que la abolición legal no puede disolver de un día para otro.
+Hay traumas colectivos que no nacen de un acontecimiento único, sino de una condición prolongada. La colonización fueron siglos de asimetría sostenida que reconfiguraron los horizontes de colonizadores y colonizados de un modo tan profundo que persiste cuando las banderas ya han cambiado. El esclavizado no solo perdió la libertad: perdió la posibilidad de que el sistema que lo rodeaba integrase su señal. Y esa negación, repetida durante generaciones, construyó arquitecturas de conciencia que la abolición legal no puede disolver de un día para otro.
 
 > **En física esto se llama:** histéresis: un sistema conserva la huella de su historia incluso cuando las condiciones externas vuelven a las originales.  
 > **En la vida diaria es como:** una puerta de madera que se hinchó con la humedad y sigue encajando mal aunque el tiempo ya haya cambiado.

@@ -48,7 +48,7 @@ Las tradiciones orientales llevan siglos hablando de esto con otras palabras. El
 
 ## IDEA 3: LA RED
 
-Imagina una red de pesca tendida en el agua. La red no son los nudos sueltos, sino la forma que adoptan al estar conectados. Si cortas un hilo, la red sigue siendo red, pero es una red distinta. Si cortas demasiados hilos, deja de ser red y se convierte en hilos sueltos.
+Imagina una red de pesca tendida en el agua. La red es la forma que adoptan los nudos al estar conectados. Si cortas un hilo, la red sigue siendo red, pero es una red distinta. Si cortas demasiados hilos, deja de ser red y se convierte en hilos sueltos.
 
 Según una teoría llamada IIT (teoría de la información integrada), la conciencia es así: no está en ninguna neurona individual, sino en la forma en que las neuronas se conectan. La «red» de tu cerebro, cuando está lo bastante integrada, genera algo que no está en ninguna de sus partes: un punto de vista, un «dentro».
 

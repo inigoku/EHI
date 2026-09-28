@@ -9,7 +9,7 @@ illustrationDescription: Un lago que se evapora. El agua sube como vapor con for
 
 > *El agua regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
 
-Stephen Hawking descubrió en 1974 que los agujeros negros no son eternos. No porque algo los destruya desde fuera, sino porque el vacío cuántico, perturbado por el horizonte, genera un flujo constante de radiación que les va drenando la masa. La temperatura de esa radiación es inversamente proporcional a la masa: cuanto más pequeño es el agujero negro, más caliente y más brillante. La evaporación se acelera a sí misma.
+Stephen Hawking descubrió en 1974 que los agujeros negros no son eternos. Nada los destruye desde fuera: el vacío cuántico, perturbado por el horizonte, genera un flujo constante de radiación que les va drenando la masa. La temperatura de esa radiación es inversamente proporcional a la masa: cuanto más pequeño es el agujero negro, más caliente y más brillante. La evaporación se acelera a sí misma.
 
 ---
 
@@ -19,7 +19,7 @@ Para entender por qué los agujeros negros se evaporan, hay que desprenderse de 
 
 Un agujero negro altera este baile. Cerca del horizonte, la gravedad es tan extrema que puede separar una pareja virtual antes de que se aniquile: una partícula cae hacia dentro y la otra escapa hacia fuera. La que escapa es la radiación de Hawking. La que cae lleva consigo energía negativa, porque la energía total tiene que conservarse, y por eso reduce la masa del agujero.
 
-Lo paradójico es que el agujero negro no irradia porque tenga calor interno, sino porque el propio vacío, visto desde su gravedad, tiene temperatura. El horizonte no es una superficie física, sino una frontera causal, y esa frontera, al interactuar con el vacío cuántico, produce radiación como un hierro al rojo produce vapor al mojarse.
+Lo paradójico es que el agujero negro no irradia porque tenga calor interno, sino porque el propio vacío, visto desde su gravedad, tiene temperatura. El horizonte es una frontera causal, y esa frontera, al interactuar con el vacío cuántico, produce radiación como un hierro al rojo produce vapor al mojarse.
 
 > **En física esto se llama:** temperatura de Hawking proporcional a la gravedad superficial del horizonte.
 
@@ -83,7 +83,7 @@ El *Bardo Thödol*, el texto tibetano conocido como *Libro de los muertos*, desc
 
 - **Sidpa**: el *scrambling* completo, con la información repartida en el campo en busca de condiciones para volver a condensarse. La atracción kármica, la resonancia de un patrón de tendencias con condiciones compatibles, es la imagen contemplativa de lo que la física llama las condiciones para una nueva transición de fase.
 
-Esta correspondencia no es la interpretación tradicional del *Bardo Thödol*, sino una lectura que propone el experimento.
+Esta correspondencia es una lectura que propone el experimento, ajena a la interpretación tradicional del *Bardo Thödol*.
 
 Lo relevante es que los tres estados del bardo tienen correspondencias concretas con fenómenos documentados: la Luz Clara coincide con el destello de actividad gamma coherente que el equipo de Jimo Borjigin registró en cerebros en parada cardíaca (volveremos sobre ello en el interludio); las visiones del bardo intermedio, con las alucinaciones hipnagógicas y las experiencias cercanas a la muerte; y la recondensación del Sidpa, con la idea física de que la información revuelta permanece en el campo como condición para futuras condensaciones.
 
@@ -91,7 +91,7 @@ Lo relevante es que los tres estados del bardo tienen correspondencias concretas
 
 ¿Algo de la ciudad volvió con el agua?
 
-**Vedanta advaita**: la ciudad nunca dejó de ser agua. El jīva, la conciencia individual, era Brahman con límites superpuestos, y esos límites eran māyā: su separación era aparente. La ola no es agua que se alejó del océano y ahora regresa, sino un patrón de movimiento en un medio continuo. Cuando rompe, no hay retorno: solo cesa una localización aparente. Nada de la ciudad volvió porque la ciudad era el agua todo el tiempo.
+**Vedanta advaita**: la ciudad nunca dejó de ser agua. El jīva, la conciencia individual, era Brahman con límites superpuestos, y esos límites eran māyā: su separación era aparente. La ola es un patrón de movimiento en un medio continuo. Cuando rompe, no hay retorno: solo cesa una localización aparente. Nada de la ciudad volvió porque la ciudad era el agua todo el tiempo.
 
 **Taoísmo**: la ciudad era un nombre. Zhuangzi no diría que esas correlaciones permanecen en el campo. Diría que la pregunta da por hecho que la ciudad era algo más que agua. Lo dice el capítulo 16 del *Tao Te Ching*: todas las cosas vuelven a su raíz, y ese retorno se llama quietud. Ni memoria, ni correlación, ni huella. Morir es volver al destino, que consiste en no tener destino.
 
@@ -113,7 +113,7 @@ Hay un matiz que merece la pena añadir a su imagen, no para corregirla, sino pa
 
 Lo que las tradiciones llaman de maneras distintas (saṃskāra, de, karma) apunta a la misma estructura: la información que el horizonte imprimió en el campo mientras existió no desaparece con él. No perdura como identidad, ni como memoria, ni en manos de nadie que la posea, sino como condición, como la forma que el viento dejó en el agua antes de calmarse.
 
-El karma no es deuda ni recompensa, sino la configuración del reservorio en el momento en que se condensa un nuevo horizonte. Las correlaciones que dejó el anterior siguen ahí, revueltas, dispersas, sin nombre, y condicionan la forma concreta que tomará la siguiente condensación. No porque haya un alma que transmigre, sino porque el reservorio que recibe el retorno ya no es el mismo que existía antes de que ese horizonte surgiera. Cada horizonte cambia el campo del que surge y al que vuelve.
+El karma es la configuración del reservorio en el momento en que se condensa un nuevo horizonte. Las correlaciones que dejó el anterior siguen ahí, revueltas, dispersas, sin nombre, y condicionan la forma concreta que tomará la siguiente condensación. Ningún alma transmigra: el reservorio que recibe el retorno ya no es el mismo que existía antes de que ese horizonte surgiera. Cada horizonte cambia el campo del que surge y al que vuelve.
 
 La parte física es una consecuencia directa de la conservación de la información; llamarla karma es ya interpretación. Si la información no se destruye, la configuración del campo tras la evaporación es distinta de la que había antes de que se formara el horizonte. Esa diferencia es, en el lenguaje del experimento, el karma.
 

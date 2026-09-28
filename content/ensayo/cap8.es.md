@@ -8,7 +8,7 @@ illustrationTitle: El puente entre dos horizontes
 illustrationDescription: Dos esferas luminosas suspendidas en el vacío, unidas por un puente tenue de luz dorada e índigo que pulsa como una cuerda vibrante. Partículas de luz fluyen en ambas direcciones.
 ---
 
-En 2013, Maldacena y Susskind reformularon la pregunta de qué es el entrelazamiento cuántico. ER=EPR sostiene que el entrelazamiento entre dos sistemas cuánticos no es solo una correlación estadística, sino una conexión geométrica. Dos partículas entrelazadas estarían unidas por un puente de Einstein-Rosen microscópico, una estructura topológica del espacio-tiempo que conecta sus interiores por mucha distancia que separe sus exteriores.
+En 2013, Maldacena y Susskind reformularon la pregunta de qué es el entrelazamiento cuántico. ER=EPR sostiene que el entrelazamiento entre dos sistemas cuánticos es una conexión geométrica. Dos partículas entrelazadas estarían unidas por un puente de Einstein-Rosen microscópico, una estructura topológica del espacio-tiempo que conecta sus interiores por mucha distancia que separe sus exteriores.
 
 El puente no es atravesable: no permite enviar información más rápido que la luz. Pero la geometría existe, y la conexión es real en el mismo sentido en que lo es cualquier curvatura del espacio.
 
@@ -16,13 +16,13 @@ El puente no es atravesable: no permite enviar información más rápido que la 
 
 ## [SIMULACIÓN ENTRELAZAMIENTO]
 
-Si el entrelazamiento crea geometría compartida, dos sistemas entrelazados no son solo dos sistemas correlacionados, sino dos sistemas que comparten topología: tienen un dentro en parte común, y sus horizontes no están del todo separados.
+Como vimos en el capítulo 11, dos sistemas entrelazados comparten entonces topología: tienen un dentro en parte común, y sus horizontes no están del todo separados.
 
 ### La neurobiología del apego
 
-Antes de hablar del entrelazamiento en los adultos hay que entender cómo se construye. El psiquiatra y psicoanalista John Bowlby propuso en los años cincuenta que los humanos, como otros primates, venimos equipados con un sistema de apego programado biológicamente. No es opcional, sino necesario para sobrevivir. Los bebés que no llegan a formar vínculos de apego pueden consumirse hasta morir aunque tengan comida y abrigo; René Spitz lo documentó en orfanatos y lo llamó «hospitalismo».
+Antes de hablar del entrelazamiento en los adultos hay que entender cómo se construye. El psiquiatra y psicoanalista John Bowlby propuso en los años cincuenta que los humanos, como otros primates, venimos equipados con un sistema de apego programado biológicamente. Es necesario para sobrevivir. Los bebés que no llegan a formar vínculos de apego pueden consumirse hasta morir aunque tengan comida y abrigo; René Spitz lo documentó en orfanatos y lo llamó «hospitalismo».
 
-Mary Ainsworth, colaboradora de Bowlby, diseñó el procedimiento de la «situación extraña»: observar cómo reaccionan los niños cuando su madre sale de la habitación y vuelve. Identificó tres patrones principales (apego seguro, ansioso y evitativo), a los que más tarde se sumó un cuarto, el apego desorganizado. No son estilos de personalidad, sino arquitecturas neurales construidas en la primera infancia a partir de la experiencia repetida con quienes nos cuidan.
+Mary Ainsworth, colaboradora de Bowlby, diseñó el procedimiento de la «situación extraña»: observar cómo reaccionan los niños cuando su madre sale de la habitación y vuelve. Identificó tres patrones principales (apego seguro, ansioso y evitativo), a los que más tarde se sumó un cuarto, el apego desorganizado. Más que estilos de personalidad, son arquitecturas neurales construidas en la primera infancia a partir de la experiencia repetida con quienes nos cuidan.
 
 El sistema de apego funciona mediante circuitos cerebrales concretos: la corteza orbitofrontal, la amígdala, el hipotálamo, el sistema opioide endógeno. Cuando el bebé está con su figura de apego, esos circuitos se calman; cuando se separa de ella, se activan. La repetición de esos ciclos (calma, separación, reencuentro, calma) construye una representación interna del mundo como un lugar predecible y seguro, o como un lugar peligroso e impredecible.
 
@@ -30,7 +30,7 @@ Lo que Bowlby llamó «modelo operativo interno» es, en el lenguaje del experim
 
 ### La línea de base social
 
-James Coan y Lane Beckes desarrollaron la teoría de la línea de base social: el cerebro humano no está hecho para funcionar en solitario, y su estado de referencia presupone el acceso a los demás. Cuando hay alguien cercano presente, el cerebro dedica menos recursos a detectar amenazas y mantiene una representación más eficiente del mundo. La presencia del otro no es un complemento del funcionamiento individual, sino parte del funcionamiento normal.
+James Coan y Lane Beckes desarrollaron la teoría de la línea de base social: el cerebro humano no está hecho para funcionar en solitario, y su estado de referencia presupone el acceso a los demás. Cuando hay alguien cercano presente, el cerebro dedica menos recursos a detectar amenazas y mantiene una representación más eficiente del mundo. La presencia del otro forma parte del funcionamiento normal.
 
 > **En física esto se llama:** línea de base social.
 
@@ -59,15 +59,15 @@ Desde el punto de vista del entrelazamiento, el amor intenso y el odio intenso s
 
 La empatía no es imaginación ni consiste solo en «ponerse en el lugar del otro»: es resonancia. Tu sistema nervioso reproduce, a escala reducida, el estado del otro. Las neuronas espejo, descubiertas por Rizzolatti en macacos, se activan tanto cuando realizas una acción como cuando ves a alguien realizarla; no distinguen entre quien actúa y quien observa. Tu cerebro «siente» lo que siente el otro no porque lo imagine, sino porque lo ejecuta.
 
-Pero la empatía tiene límites: no podemos resonar con lo que no sabemos modelar. Un torturador puede saber con precisión lo que siente su víctima (el capítulo 16 volverá sobre ello) y, aun así, no resonar con ello; no porque carezca de neuronas espejo, que las tiene, sino porque ha construido un modelo de la víctima en el que su experiencia subjetiva no cuenta. La deshumanización no es ausencia de empatía, sino empatía dirigida a un modelo que excluye la interioridad del otro.
+Pero la empatía tiene límites: no podemos resonar con lo que no sabemos modelar. Un torturador puede saber con precisión lo que siente su víctima (el capítulo 16 volverá sobre ello) y, aun así, no resonar con ello; no porque carezca de neuronas espejo, que las tiene, sino porque ha construido un modelo de la víctima en el que su experiencia subjetiva no cuenta. La deshumanización es empatía dirigida a un modelo que excluye la interioridad del otro.
 
 ### El fantasma: el modelo que corre en vacío
 
-Mary-Frances O'Connor describe así el mecanismo del duelo: el cerebro construye un modelo predictivo de las personas cercanas, y ese modelo sigue funcionando con normalidad incluso después de que la persona muera. No es un error patológico, sino el funcionamiento normal de un sistema diseñado para predecir.
+Mary-Frances O'Connor describe así el mecanismo del duelo: el cerebro construye un modelo predictivo de las personas cercanas, y ese modelo sigue funcionando con normalidad incluso después de que la persona muera. Es el funcionamiento normal de un sistema diseñado para predecir.
 
 En el amor, eso produce el duelo que todos conocemos: volverse hacia donde debería estar la persona, preparar café para dos, empezar a marcar su número antes de recordar. En el conflicto prolongado, el mecanismo es idéntico, pero se expresa de otra manera. El horizonte no busca al otro: lo anticipa. Sabe exactamente qué haría en esta situación, cómo reaccionaría ante esta noticia.
 
-El fantasma no es una alucinación ni una patología, sino la consecuencia directa de haber construido un modelo muy preciso de alguien que ya no está para generar las señales que ese modelo espera.
+El fantasma es la consecuencia directa de haber construido un modelo muy preciso de alguien que ya no está para generar las señales que ese modelo espera.
 
 La física ofrece una imagen: un ***scrambling* incompleto**. El horizonte del otro se disolvió y su información se repartió en el reservorio, pero el horizonte superviviente sigue organizado para recibir sus señales. Los canales de integración construidos durante veinte años siguen abiertos. El entrelazamiento persiste incluso cuando uno de los dos polos ha desaparecido, porque estaba inscrito en la arquitectura del horizonte superviviente, no solo en la relación entre los dos.
 
@@ -93,9 +93,9 @@ La paradoja es que el agredido ha pasado veinte años prestando al vecino más a
 
 ### El límite del entrelazamiento
 
-Hay un límite. El entrelazamiento no puede ser total: si dos horizontes se fundieran del todo, dejarían de ser dos. La identidad necesita una frontera. El amor más profundo no es la disolución del yo en el otro, sino una expansión del yo que incluye al otro sin perderse. Son dos círculos que se solapan: el área común es el vínculo, pero cada uno sigue siendo un círculo.
+Hay un límite. El entrelazamiento no puede ser total: si dos horizontes se fundieran del todo, dejarían de ser dos. La identidad necesita una frontera. El amor más profundo es una expansión del yo que incluye al otro sin perderse. Son dos círculos que se solapan: el área común es el vínculo, pero cada uno sigue siendo un círculo.
 
-Las tradiciones contemplativas llevan milenios explorando este límite. El vedanta advaita habla de la identidad entre Atman y Brahman, el yo individual y el universal, pero también de maya, la ilusión de la separación. El budismo mahayana habla del bodhisattva, alguien que alcanza la iluminación, la disolución de los límites, pero decide quedarse en el mundo para ayudar a los demás. No porque no pueda fundirse, sino porque elige mantener un horizonte propio mientras comparte la geometría del todo.
+Las tradiciones contemplativas llevan milenios explorando este límite. El vedanta advaita habla de la identidad entre Atman y Brahman, el yo individual y el universal, pero también de maya, la ilusión de la separación. El budismo mahayana habla del bodhisattva, alguien que alcanza la iluminación, la disolución de los límites, pero decide quedarse en el mundo para ayudar a los demás. Podría fundirse, pero elige mantener un horizonte propio mientras comparte la geometría del todo.
 
 ---
 

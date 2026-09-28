@@ -5,7 +5,7 @@ chapterNumber: 17
 linkedCuentosId: cuento10
 illustrationId: il17
 illustrationTitle: La arquitectura con un hueco
-illustrationDescription: Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío, muebles dispuestos como si alguien estuviera sentado en el centro. El vacío no es oscuro, sino que brilla.
+illustrationDescription: Una casa con patio central vacío. Ventanas que miran al vacío, puertas que dan al vacío, muebles dispuestos como si alguien estuviera sentado en el centro. El vacío brilla.
 ---
 
 Casi todo el que ha perdido a alguien muy querido conoce una experiencia que el vocabulario habitual no recoge bien: la sensación de que la persona ausente sigue ocupando un lugar en la propia arquitectura interior. No como recuerdo en el sentido corriente, sino como forma, como espacio, como la geometría en torno a la cual el horizonte se ha organizado durante años o décadas.
@@ -18,15 +18,15 @@ Ninguna manera de *pasar página* consiste en deshacer la inscripción del otro.
 
 ### Lo que el duelo no es
 
-El capítulo 12 explicó que el modelo del otro que persiste tras su muerte no es exactamente memoria, sino un sistema predictivo que sigue funcionando sin los datos que lo calibraban. El ejemplo era el vecino: una relación hostil y un modelo construido a costa de vigilancia, no de amor.
+El capítulo 12 explicó que el modelo del otro que persiste tras su muerte es un sistema predictivo que sigue funcionando sin los datos que lo calibraban. El ejemplo era el vecino: una relación hostil y un modelo construido a costa de vigilancia, no de amor.
 
 El duelo propiamente dicho es otra cosa. Cuando el entrelazamiento ha sido amoroso, cuando, como decíamos en el capítulo 13, el horizonte lo reconoció y eligió mantenerlo, lo que persiste tras la pérdida no es solo un modelo del otro, sino la parte de la propia arquitectura que se construyó en torno a ese modelo.
 
-En el capítulo 15 dijimos que el vínculo entre madre e hijo no es inferencia, sino lesión. El duelo por alguien muy querido se parece estructuralmente más al dolor materno que a la empatía ordinaria. El horizonte no simula al otro de forma pasajera: se ha construido a sí mismo, durante décadas, en torno a su presencia. La pérdida, por tanto, no es de información, sino de arquitectura.
+En el capítulo 15 dijimos que el vínculo entre madre e hijo no es inferencia, sino lesión. El duelo por alguien muy querido se parece estructuralmente más al dolor materno que a la empatía ordinaria. El horizonte no simula al otro de forma pasajera: se ha construido a sí mismo, durante décadas, en torno a su presencia. Lo que se pierde, por tanto, es arquitectura.
 
 ### La arquitectura con un hueco
 
-Cuando dos horizontes pasan cuarenta años entrelazados por el amor, no es solo que cada uno guarde muchos recuerdos del otro, sino que la presencia del otro ha excavado la geometría interna de cada uno, como el agua excava su cauce en la piedra con el tiempo. Esa geometría no desaparece cuando el agua se va.
+Cuando dos horizontes pasan cuarenta años entrelazados por el amor, además de guardar muchos recuerdos del otro, cada uno lleva dentro la geometría que esa presencia ha excavado, como el agua excava su cauce en la piedra con el tiempo. Esa geometría no desaparece cuando el agua se va.
 
 La viuda que no quiere que su marido se disuelva formula esta intuición con una precisión que a la teoría le cuesta alcanzar: *es la forma en que estoy hecha por dentro. Cada movimiento que hago, lo hago contra esa forma o con ella.* No habla en sentido figurado. Describe lo que la neurociencia del duelo empieza a documentar: el cerebro que ha perdido a alguien con quien estaba profundamente acoplado no procesa el mundo como antes. Las redes neuronales que se habían organizado en torno al otro siguen activándose ante todo lo que evoca su presencia, su voz, sus gestos. El horizonte sigue prediciéndolo, sigue haciéndole sitio, sigue reservándole la mitad del tiempo y del espacio interior durante meses o años después de que haya dejado de existir.
 
@@ -48,7 +48,7 @@ Cuando uno de los dos muere, el modelo del otro no se borra. Sigue funcionando y
 
 Y, esto es lo que la neurociencia ha tardado en reconocer, las predicciones no cesan porque el sistema no puede dejar de hacerlas sin desmantelar una parte de sí mismo. El modelo no es un módulo que se pueda extraer: está repartido por toda la arquitectura del horizonte e implica memoria, percepción, regulación emocional y sentido del tiempo. Apagarlo sería apagar buena parte de lo que hace que ese horizonte sea el que es.
 
-Visto así, el duelo no es la dificultad de aceptar una información nueva, sino la de seguir siendo uno mismo sin desmontar la mitad de la propia arquitectura.
+Visto así, el duelo es la dificultad de seguir siendo uno mismo sin desmontar la mitad de la propia arquitectura.
 
 ### El duelo complicado
 
@@ -70,17 +70,17 @@ La ruptura amorosa también es un duelo no reconocido. El otro sigue vivo, pero 
 
 ### El duelo en el cuerpo
 
-El duelo no es solo psicológico, sino también fisiológico. Los estudios muestran que las personas en un duelo profundo tienen el sistema inmunitario debilitado, el ritmo cardíaco alterado y el cortisol elevado de forma sostenida. El «corazón roto» no es una metáfora: el estrés del duelo puede provocar una miocardiopatía de takotsubo, un trastorno en el que el corazón cambia de forma bajo un estrés emocional extremo.
+El duelo también es fisiológico. Los estudios muestran que las personas en un duelo profundo tienen el sistema inmunitario debilitado, el ritmo cardíaco alterado y el cortisol elevado de forma sostenida. El «corazón roto» no es una metáfora: el estrés del duelo puede provocar una miocardiopatía de takotsubo, un trastorno en el que el corazón cambia de forma bajo un estrés emocional extremo.
 
-El cuerpo en duelo no es un cuerpo que «cree» estar enfermo, sino un cuerpo cuyo sistema de regulación ha quedado alterado por la reorganización del horizonte. El sueño se fragmenta porque el sistema de predicción sigue activo de noche. El apetito desaparece o se dispara porque el sistema de recompensa ha perdido su referencia principal. El cansancio es real: el cerebro gasta recursos en mantener un modelo que ya no tiene datos con los que alimentarse.
+El cuerpo en duelo tiene un sistema de regulación que ha quedado alterado por la reorganización del horizonte. El sueño se fragmenta porque el sistema de predicción sigue activo de noche. El apetito desaparece o se dispara porque el sistema de recompensa ha perdido su referencia principal. El cansancio es real: el cerebro gasta recursos en mantener un modelo que ya no tiene datos con los que alimentarse.
 
 ### Continuar siendo dos
 
 Lo que la literatura clínica ha empezado a llamar, con cierta cautela, *continuing bonds* (vínculos continuos) ofrece una formulación más precisa. La pregunta no es si el otro permanece en la arquitectura, porque permanecerá, ya permanece y no hay forma de impedirlo, sino cómo se reconfigura la relación con esa presencia que ya no responde.
 
-La viuda que no quiere que su marido se disuelva lo había intuido sin formularlo. No quiere disolverlo ni olvidarlo; quiere llevarlo dentro sin que su peso le impida moverse. Esa fórmula, *llevarlo y seguir*, es la que define un duelo viable. No es una resolución, sino una reorganización: la arquitectura no recupera la simetría que tenía cuando estaban los dos, pero aprende a sostener la asimetría sin derrumbarse.
+La viuda que no quiere que su marido se disuelva lo había intuido sin formularlo. No quiere disolverlo ni olvidarlo; quiere llevarlo dentro sin que su peso le impida moverse. Esa fórmula, *llevarlo y seguir*, es la que define un duelo viable. Lo que ocurre es una reorganización: la arquitectura no recupera la simetría que tenía cuando estaban los dos, pero aprende a sostener la asimetría sin derrumbarse.
 
-No se trata de comunicarse con el muerto, sino de reconocer que el muerto está, sin emitir, en la geometría del horizonte vivo, y de aceptar que esa presencia geométrica es la única posible ya y que, en cierto modo, basta.
+Se trata de reconocer que el muerto está, sin emitir, en la geometría del horizonte vivo, y de aceptar que esa presencia geométrica es la única posible ya y que, en cierto modo, basta.
 
 ### La pérdida de un hijo
 
@@ -88,7 +88,7 @@ Hay un caso que desafía todo lo dicho en este capítulo. La pérdida de un hijo
 
 El capítulo 15 describió la maternidad como la fabricación de un reservorio. Cuando el hijo muere, lo que se pierde no es solo un entrelazamiento, sino la condensación misma que la madre ayudó a producir: el horizonte que fabricó, que contenía parte de su propia arquitectura y cuyas células ella lleva en el cuerpo. El microquimerismo que la unía físicamente a su hijo sigue ahí después de su muerte. La madre lleva, literalmente, fragmentos de un horizonte que ya no existe.
 
-Este duelo no tiene un nombre a su medida. No es un «duelo complicado», sino un duelo imposible. El modelo no puede predecir cómo se reorganiza un horizonte que ha perdido la condensación que fabricó. Solo puede decir que la reorganización, si llega, lleva décadas, no meses, y que muchas veces no llega.
+Este duelo no tiene un nombre a su medida. Más que un «duelo complicado», es un duelo imposible. El modelo no puede predecir cómo se reorganiza un horizonte que ha perdido la condensación que fabricó. Solo puede decir que la reorganización, si llega, lleva décadas, no meses, y que muchas veces no llega.
 
 ### El experimento no consuela
 

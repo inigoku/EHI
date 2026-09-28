@@ -48,7 +48,7 @@ Puedes dejar de hablar con alguien y reducir poco a poco el entrelazamiento, per
 
 Un vínculo reconocido (nombrado, aceptado, elegido) da una señal de seguridad más potente que el mismo vínculo sin nombre.
 
-Coan y Beckes mostraron que la mera presencia de alguien conocido reduce la respuesta de amenaza del horizonte. Los estudios sobre el apego matizan ese resultado: lo que más efecto tiene no es la familiaridad en sí, sino la **certeza de disponibilidad**. Un vínculo reconocido es un vínculo del que el horizonte puede fiarse: sabe que está ahí, que responde, y sabe cómo ajustar su propia actividad a esa presencia. Un vínculo sin nombre funciona en el sistema como una variable sin declarar: el horizonte la usa, pero no puede referirse a ella ni organizar su funcionamiento en torno a algo que oficialmente no existe.
+Coan y Beckes mostraron que la mera presencia de alguien conocido reduce la respuesta de amenaza del horizonte. Los estudios sobre el apego matizan ese resultado: lo que más efecto tiene es la **certeza de disponibilidad**, más que la familiaridad en sí. Un vínculo reconocido es un vínculo del que el horizonte puede fiarse: sabe que está ahí, que responde, y sabe cómo ajustar su propia actividad a esa presencia. Un vínculo sin nombre funciona en el sistema como una variable sin declarar: el horizonte la usa, pero no puede referirse a ella ni organizar su funcionamiento en torno a algo que oficialmente no existe.
 
 El amor nombrado es más eficiente que el entrelazamiento silencioso. No produce más geometría compartida, que ya estaba, pero permite al horizonte aprovecharla mejor.
 
@@ -56,9 +56,9 @@ El amor nombrado es más eficiente que el entrelazamiento silencioso. No produce
 
 Si el amor romántico depende de la dopamina y la noradrenalina, sistemas de anticipación y novedad, tiene un problema estructural: la novedad se agota. No se puede anticipar lo conocido con la misma intensidad que lo desconocido. El sistema dopaminérgico se habitúa, y la misma cara, la misma voz, el mismo cuerpo generan cada vez menos expectación.
 
-No es un fallo moral de la pareja, sino biología. El sistema de recompensa por novedad está hecho para impulsar la búsqueda, no la permanencia. La permanencia necesita otro sistema: el apego, con su oxitocina y su calma.
+Es biología, no un fallo moral de la pareja. El sistema de recompensa por novedad está hecho para impulsar la búsqueda, no la permanencia. La permanencia necesita otro sistema: el apego, con su oxitocina y su calma.
 
-Para muchos, el paso del enamoramiento al apego se vive como una pérdida. La pasión se apaga, la obsesión desaparece y lo que queda parece frío en comparación. Pero lo que queda es, en muchos sentidos, más valioso. El apego no es ausencia de amor, sino amor en otra frecuencia, una que no necesita demostraciones constantes porque su señal de seguridad basta. Es el fuego que pasa de las llamas altas a las brasas: menos espectacular, con un calor más duradero.
+Para muchos, el paso del enamoramiento al apego se vive como una pérdida. La pasión se apaga, la obsesión desaparece y lo que queda parece frío en comparación. Pero lo que queda es, en muchos sentidos, más valioso. El apego es amor en otra frecuencia, una que no necesita demostraciones constantes porque su señal de seguridad basta. Es el fuego que pasa de las llamas altas a las brasas: menos espectacular, con un calor más duradero.
 
 La pregunta que cada pareja tiene que responder, y que el experimento no puede responder por ella, es si esa transición es aceptable o si la pérdida de la fase romántica invalida el vínculo para uno de los dos horizontes o para ambos. No hay una respuesta universal; solo la claridad de saber qué está ocurriendo y por qué.
 

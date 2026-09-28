@@ -8,7 +8,7 @@ illustrationTitle: Las tres puertas
 illustrationDescription: Un pasillo en penumbra con tres puertas entreabiertas. Por la primera se ven dos siluetas unidas por hilos de luz que siguen tensos aunque ellas se alejan; por la segunda, una figura ante un espejo que devuelve un reflejo borroso, distinto de ella; por la tercera, una gota de tinta que se disuelve en un mar oscuro. Acuarela y tinta, tonos índigo y dorados.
 ---
 
-Al final del capítulo anterior quedaron tres puertas abiertas. Las llamé «puertas» y no «problemas» porque al otro lado de cada una hay un territorio que el modelo del horizonte puede explorar sin postular nada nuevo. No son especulaciones gratuitas, sino consecuencias de tomarse en serio el vocabulario de Shannon, la información mutua y el teorema de no clonación, y llevarlo hasta donde llegue.
+Al final del capítulo anterior quedaron tres puertas abiertas. Las llamé «puertas» y no «problemas» porque al otro lado de cada una hay un territorio que el modelo del horizonte puede explorar sin postular nada nuevo. Son consecuencias de tomarse en serio el vocabulario de Shannon, la información mutua y el teorema de no clonación, y llevarlo hasta donde llegue.
 
 Lo que sigue es el recorrido por las tres.
 
@@ -20,7 +20,7 @@ Lo que sigue es el recorrido por las tres.
 
 El capítulo 10 describe el tiempo del vínculo y el 12, el entrelazamiento. En ambos se habla de vínculo con soltura, pero sin definirlo con precisión. Sabemos que dos horizontes pueden acoplarse, que su Φ conjunto puede superar la suma de los individuales y que el tiempo se vuelve más denso cuando están juntos. Pero ¿cómo se mide un vínculo? ¿Hay alguna magnitud que permita decir que uno es más profundo que otro sin recurrir a metáforas?
 
-La información mutua es esa magnitud. Y no es una metáfora: es una medida estándar de la teoría de la información, con propiedades matemáticas bien definidas.
+La información mutua es esa magnitud. Y es literal: una medida estándar de la teoría de la información, con propiedades matemáticas bien definidas.
 
 ### Definición y propiedades
 
@@ -42,7 +42,7 @@ Tres propiedades la hacen especialmente apta para el modelo del horizonte.
 
 Uri Hasson y sus colaboradores han medido el acoplamiento entre cerebros de forma directa. En sus experimentos, una persona cuenta una historia mientras se registra su actividad cerebral; después, otras la escuchan grabada mientras se registra la suya. El acoplamiento que miden es una correlación, pariente cercano de la información mutua, y lo que encuentran es que la actividad del oyente no solo sigue la del hablante: en algunas regiones se le adelanta, y tanto más cuanto mejor comprende el oyente lo que oye.
 
-Eso significa que lo compartido no es solo simultáneo: el oyente ha integrado tanto del hablante que puede predecirlo. Visto así, el vínculo no es una correlación pasiva, sino un modelo predictivo activo. Cuanto más profundo, más información compartida y más capacidad de anticipación.
+Eso significa que lo compartido no es solo simultáneo: el oyente ha integrado tanto del hablante que puede predecirlo. Visto así, el vínculo es un modelo predictivo activo. Cuanto más profundo, más información compartida y más capacidad de anticipación.
 
 Tiene una consecuencia para el capítulo 12, que termina diciendo que conocer a alguien a fondo lo inscribe en tu arquitectura. Esa inscripción no es metafórica: es la huella que deja la información mutua en la arquitectura del sistema.
 
@@ -96,7 +96,7 @@ Pero una copia auténtica de la superposición sería otra cosa:
 
 Los dos resultados no coinciden (hemos omitido los factores de normalización, que no cambian el argumento). La clonación de una superposición no es la superposición de las clonaciones. Por tanto, U no puede existir.
 
-No es una limitación tecnológica, sino una propiedad matemática de la mecánica cuántica: no importa cuánta tecnología se ponga, un estado cuántico desconocido no se puede copiar.
+Es una propiedad matemática de la mecánica cuántica: no importa cuánta tecnología se ponga, un estado cuántico desconocido no se puede copiar.
 
 ### Aplicación a la conciencia
 
@@ -142,7 +142,7 @@ Cuando muere alguien con quien se compartía un vínculo profundo, la informaci�
 
 En términos de información, es una mezcla parcial: la información sigue ahí, pero desconectada de su referente. El superviviente conserva la información del ausente, pero ya no puede usarla para predecir, porque no hay nadie que confirme o desmienta las predicciones.
 
-La consecuencia es que el duelo no es un proceso de olvido, sino de reubicación. La información del ausente no se borra: se integra en un contexto nuevo, donde cumple otra función. Deja de ser información predictiva y se vuelve información narrativa: ya no es «lo que espero de él», sino «lo que recuerdo de él».
+La consecuencia es que el duelo es un proceso de reubicación. La información del ausente no se borra: se integra en un contexto nuevo, donde cumple otra función. Deja de ser información predictiva y se vuelve información narrativa: ya no es «lo que espero de él», sino «lo que recuerdo de él».
 
 ### Aplicación a la muerte
 

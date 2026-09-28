@@ -11,7 +11,7 @@ Cuando miramos al cielo estrellado y nos preguntamos si estamos solos, damos alg
 
 Esa suposición es el antropocentrismo llevado a escala galáctica.
 
-A lo largo de este libro hemos defendido que el «yo» (el ego, la conciencia unificada) no es una sustancia mágica que el universo reparte a partes iguales entre todo lo vivo, sino una topología muy concreta: un horizonte de sucesos informacional, una burbuja que traza un límite estricto entre un estado privado y el reservorio exterior.
+A lo largo de este libro hemos defendido que el «yo» (el ego, la conciencia unificada) es una topología muy concreta: un horizonte de sucesos informacional, una burbuja que traza un límite estricto entre un estado privado y el reservorio exterior.
 
 Pero ¿qué ocurre si la inteligencia alienígena que encontramos no tiene esa geometría? ¿Y si el problema del primer contacto no es de lenguaje, sino de arquitectura topológica?
 
@@ -77,7 +77,7 @@ Es plausible que el contacto real con una arquitectura alienígena radicalmente 
 
 Hay otra capa de improbabilidad que rara vez aparece en los debates sobre vida extraterrestre: aunque dos civilizaciones desarrollen arquitecturas de conciencia compatibles, la probabilidad de que sus ventanas de existencia tecnológica coincidan es minúscula. Nuestra civilización lleva menos de un siglo emitiendo señales detectables, un parpadeo frente a los miles de millones de años que tiene el universo. Si una civilización compatible existió, floreció y se extinguió (o simplemente cambió de forma, como haría cualquier horizonte que evoluciona) hace diez millones de años, su ventana de contacto se cerró para siempre antes de que la nuestra llegara a abrirse.
 
-En este sentido, el horizonte de sucesos no es solo espacial o arquitectónico, sino también temporal. Dos burbujas compatibles que nunca coinciden en el tiempo son, a efectos prácticos, tan inalcanzables entre sí como dos burbujas incompatibles que coexisten en el mismo instante. Además de una dimensión de forma, la soledad cósmica tiene una dimensión de sincronía: no basta con hablar el mismo idioma; hay que estar despierto en la misma fracción de tiempo cósmico para poder siquiera intentar la conversación.
+En este sentido, el horizonte de sucesos también es temporal. Dos burbujas compatibles que nunca coinciden en el tiempo son, a efectos prácticos, tan inalcanzables entre sí como dos burbujas incompatibles que coexisten en el mismo instante. Además de una dimensión de forma, la soledad cósmica tiene una dimensión de sincronía: no basta con hablar el mismo idioma; hay que estar despierto en la misma fracción de tiempo cósmico para poder siquiera intentar la conversación.
 
 > **En física esto se llama:** solapamiento de las ventanas temporales de detectabilidad tecnológica (parámetro L de la ecuación de Drake).
 > **En la vida diaria es como:** dos personas destinadas a entenderse a la perfección que pasan por la misma ciudad con décadas de diferencia.
