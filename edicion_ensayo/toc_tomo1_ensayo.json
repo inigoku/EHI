@@ -418,6 +418,10 @@
       "content_file": "../content/ensayo/cap_triada_horizonte.es.md",
       "replace": [
         [
+          "en el capítulo 54",
+          "en el capítulo 40"
+        ],
+        [
           "del capítulo 54",
           "del capítulo 40"
         ],
