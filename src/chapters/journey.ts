@@ -63,7 +63,9 @@ export const poemaToCuento: Record<string, string> = Object.fromEntries(
 
 const localizedTitle = (chapter: Chapter | undefined, language: string): string => {
   if (!chapter) return "";
-  return language === "en" && chapter.titleEn ? chapter.titleEn : chapter.title;
+  if (language === "en" && chapter.titleEn) return chapter.titleEn;
+  if (language === "ca" && chapter.titleCa) return chapter.titleCa;
+  return chapter.title;
 };
 
 export interface JourneyDestination {

@@ -261,8 +261,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         id: cuentoNode.id,
         number: cuentoNode.chapterNumber,
         title: cuentoNode.title,
-        subtitle: language === "es" ? "Relato de acompañamiento narrativo" : "Narrative companion story",
-        section: language === "es" ? "CUENTOS: EL REFLEJO" : "STORIES: THE REFLECTION",
+        subtitle: language === "en" ? "Narrative companion story" : "Relato de acompañamiento narrativo",
+        section: language === "en" ? "STORIES: THE REFLECTION" : "CUENTOS: EL REFLEJO",
         color: "purple",
         linkedId: cuentoNode.linkedChapterId,
       };
@@ -274,8 +274,8 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         id: poemaNode.id,
         number: "Poema",
         title: poemaNode.title,
-        subtitle: language === "es" ? "Composición lírica complementaria" : "Complementary lyrical composition",
-        section: language === "es" ? "POEMAS: LA RESONANCIA" : "POEMS: THE RESONANCE",
+        subtitle: language === "en" ? "Complementary lyrical composition" : "Composición lírica complementaria",
+        section: language === "en" ? "POEMS: THE RESONANCE" : "POEMAS: LA RESONANCIA",
         color: "rose",
         linkedId: poemaNode.linkedChapterId,
       };
@@ -288,7 +288,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         number: lecturaNode.chapter.chapterNumber || "",
         title: lecturaNode.title,
         subtitle: lecturaNode.chapter.subtitle || "",
-        section: language === "es" ? "LECTURAS TOPOLÓGICAS" : "TOPOLOGICAL READINGS",
+        section: language === "en" ? "TOPOLOGICAL READINGS" : "LECTURAS TOPOLÓGICAS",
         color: "indigo",
         linkedId: lecturaNode.linkedCuentosId,
       };
@@ -1034,7 +1034,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                     ) : selectedInfo.type === "poemas" ? (
                       <>
                         <Feather className="w-3.5 h-3.5" />
-                        {language === "es" ? "Poema" : "Poem"}
+                        {language === "en" ? "Poem" : "Poema"}
                       </>
                     ) : (
                       <>
@@ -1116,7 +1116,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
                     : selectedInfo.type === "cuentos"
                     ? textStrings.readCuento
                     : selectedInfo.type === "poemas"
-                    ? (language === "es" ? "Leer Poema" : "Read Poem")
+                    ? (language === "en" ? "Read Poem" : "Leer Poema")
                     : textStrings.readLectura
                   }
                   <ArrowRight className="w-4 h-4" />

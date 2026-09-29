@@ -15,9 +15,15 @@ const enModules = import.meta.glob("/content/cuentos/*.en.md", {
   import: "default",
   eager: true,
 }) as Record<string, string>;
+const caModules = import.meta.glob("/content/cuentos/*.ca.md", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+}) as Record<string, string>;
 
 const esById = indexByChapterId(esModules, ".es.md");
 const enById = indexByChapterId(enModules, ".en.md");
+const caById = indexByChapterId(caModules, ".ca.md");
 
 const ORDER = [
   "cuento0",
@@ -89,6 +95,13 @@ export const cuentosList: Chapter[] = ORDER.map((id) => {
     const en = parseFrontmatter(enRaw);
     chapter.titleEn = en.data.title;
     chapter.contentEn = en.content;
+  }
+
+  const caRaw = caById.get(id);
+  if (caRaw) {
+    const ca = parseFrontmatter(caRaw);
+    chapter.titleCa = ca.data.title;
+    chapter.contentCa = ca.content;
   }
 
   return chapter;

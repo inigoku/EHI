@@ -11,7 +11,7 @@ const ITEMS_ES = ["Yo", "Memoria", "Tiempo", "Miedo", "Silencio", "Identidad"];
 const ITEMS_EN = ["Self", "Memory", "Time", "Fear", "Silence", "Identity"];
 
 export const HorizonSimulator: React.FC<HorizonSimulatorProps> = ({ language, theme }) => {
-  const isEs = language === "es";
+  const isEs = language !== "en"; // Catalan has no dedicated dataset yet; default to the Spanish one.
   const items = isEs ? ITEMS_ES : ITEMS_EN;
 
   const [selectedItem, setSelectedItem] = useState<string>(items[0]);

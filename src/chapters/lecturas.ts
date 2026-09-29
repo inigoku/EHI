@@ -15,9 +15,15 @@ const enModules = import.meta.glob("/content/lecturas/*.en.md", {
   import: "default",
   eager: true,
 }) as Record<string, string>;
+const caModules = import.meta.glob("/content/lecturas/*.ca.md", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+}) as Record<string, string>;
 
 const esById = indexByChapterId(esModules, ".es.md");
 const enById = indexByChapterId(enModules, ".en.md");
+const caById = indexByChapterId(caModules, ".ca.md");
 
 const ORDER = [
   "cap17_6_real",
@@ -76,6 +82,15 @@ export const lecturasTopologicas: Chapter[] = ORDER.map((id) => {
     if (en.data.subtitle) chapter.subtitleEn = en.data.subtitle;
     if (en.data.section) chapter.sectionEn = en.data.section;
     chapter.contentEn = en.content;
+  }
+
+  const caRaw = caById.get(id);
+  if (caRaw) {
+    const ca = parseFrontmatter(caRaw);
+    chapter.titleCa = ca.data.title;
+    if (ca.data.subtitle) chapter.subtitleCa = ca.data.subtitle;
+    if (ca.data.section) chapter.sectionCa = ca.data.section;
+    chapter.contentCa = ca.content;
   }
 
   return chapter;

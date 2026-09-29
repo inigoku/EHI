@@ -142,11 +142,27 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
   onOpenSintonizadoresComicOneShot,
 }) => {
   const t = uiStrings[language].chapterContent;
-  const displayTitle = language === "en" && chapter.titleEn ? chapter.titleEn : chapter.title;
-  const displaySubtitle = language === "en" && chapter.subtitleEn ? chapter.subtitleEn : chapter.subtitle;
-  const displaySection = language === "en" && chapter.sectionEn ? chapter.sectionEn : chapter.section;
-  const displayContent = language === "en" && chapter.contentEn ? chapter.contentEn : chapter.content;
-  const showPendingBanner = language === "en" && !chapter.contentEn;
+  const displayTitle =
+    language === "en" && chapter.titleEn ? chapter.titleEn : language === "ca" && chapter.titleCa ? chapter.titleCa : chapter.title;
+  const displaySubtitle =
+    language === "en" && chapter.subtitleEn
+      ? chapter.subtitleEn
+      : language === "ca" && chapter.subtitleCa
+      ? chapter.subtitleCa
+      : chapter.subtitle;
+  const displaySection =
+    language === "en" && chapter.sectionEn
+      ? chapter.sectionEn
+      : language === "ca" && chapter.sectionCa
+      ? chapter.sectionCa
+      : chapter.section;
+  const displayContent =
+    language === "en" && chapter.contentEn
+      ? chapter.contentEn
+      : language === "ca" && chapter.contentCa
+      ? chapter.contentCa
+      : chapter.content;
+  const showPendingBanner = (language === "en" && !chapter.contentEn) || (language === "ca" && !chapter.contentCa);
   const containerRef = React.useRef<HTMLDivElement>(null);
   const [reflection, setReflection] = React.useState<string>("");
   const [isSaved, setIsSaved] = React.useState<boolean>(false);
@@ -240,14 +256,18 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
     if (!id) return "";
     const chap = allChapters.find((c) => c.id === id);
     if (!chap) return "";
-    return language === "en" && chap.titleEn ? chap.titleEn : chap.title;
+    if (language === "en" && chap.titleEn) return chap.titleEn;
+    if (language === "ca" && chap.titleCa) return chap.titleCa;
+    return chap.title;
   };
 
   const getLinkedCuentoTitle = (id?: string) => {
     if (!id) return "";
     const cuento = cuentosList.find((c) => c.id === id);
     if (!cuento) return "";
-    return language === "en" && cuento.titleEn ? cuento.titleEn : cuento.title;
+    if (language === "en" && cuento.titleEn) return cuento.titleEn;
+    if (language === "ca" && cuento.titleCa) return cuento.titleCa;
+    return cuento.title;
   };
 
   // Highlight words of interest in the glossary
@@ -565,27 +585,41 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
         italic?: boolean;
       }> = [
         {
-          prefixes: ["> **En física esto se llama:**", "> **In physics this is called:**"],
+          prefixes: [
+            "> **En física esto se llama:**",
+            "> **In physics this is called:**",
+            "> **En física, això s'anomena:**",
+          ],
           box: tc.bentoPhys,
           tag: tc.bentoPhysTag,
           title: tc.bentoPhysTitle,
-          label: language === "en" ? "Physics" : "Física",
+          label: language === "en" ? "Physics" : language === "ca" ? "Física" : "Física",
           font: "font-mono",
         },
         {
-          prefixes: ["> **En software esto se llama:**", "> **In software this is called:**"],
+          prefixes: [
+            "> **En software esto se llama:**",
+            "> **In software this is called:**",
+            "> **En programari, això s'anomena:**",
+            "> **En programari això s'anomena:**",
+          ],
           box: tc.bentoSoftware,
           tag: tc.bentoSoftwareTag,
           title: tc.bentoSoftwareTitle,
-          label: language === "en" ? "Software" : "Software",
+          label: language === "en" ? "Software" : language === "ca" ? "Programari" : "Software",
           font: "font-mono",
         },
         {
-          prefixes: ["> **En la vida diaria es como:**", "> **In daily life it's like:**", "> **In everyday life it's like:**"],
+          prefixes: [
+            "> **En la vida diaria es como:**",
+            "> **In daily life it's like:**",
+            "> **In everyday life it's like:**",
+            "> **En la vida diària és com:**",
+          ],
           box: tc.bentoMeta,
           tag: tc.bentoMetaTag,
           title: tc.bentoMetaTitle,
-          label: language === "en" ? "Everyday Life" : "Metáfora",
+          label: language === "en" ? "Everyday Life" : language === "ca" ? "Vida quotidiana" : "Metáfora",
           font: "font-sans",
           italic: true,
         },
@@ -1093,7 +1127,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
                 onClick={() => setShowPoemIllustrationAlone(true)}
                 className="absolute top-4 right-4 z-20 inline-flex items-center gap-1.5 text-[11px] sm:text-xs text-amber-500/90 hover:text-amber-400 font-sans border border-amber-500/30 rounded-lg py-1.5 px-3 bg-slate-950/40 hover:bg-slate-950/60 backdrop-blur-sm transition-colors cursor-pointer"
               >
-                🔍 {language === "en" ? "View illustration" : "Ver ilustración"}
+                🔍 {language === "en" ? "View illustration" : language === "ca" ? "Veure il·lustració" : "Ver ilustración"}
               </button>
             )}
             <div className="relative z-10 p-8 sm:p-20 flex-1 flex flex-col items-center justify-center text-center">

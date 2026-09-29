@@ -1,4 +1,4 @@
-export type Language = "es" | "en";
+export type Language = "es" | "en" | "ca";
 
 const STORAGE_KEY = "reading_language";
 
@@ -10,6 +10,7 @@ export function detectDefaultLanguage(): Language {
     if (!lang) continue;
     const lower = lang.toLowerCase();
     if (lower.startsWith("en")) return "en";
+    if (lower.startsWith("ca")) return "ca";
     if (lower.startsWith("es")) return "es";
   }
   return "es";
@@ -17,7 +18,7 @@ export function detectDefaultLanguage(): Language {
 
 export function getInitialLanguage(): Language {
   const stored = localStorage.getItem(STORAGE_KEY);
-  if (stored === "es" || stored === "en") return stored;
+  if (stored === "es" || stored === "en" || stored === "ca") return stored;
   return detectDefaultLanguage();
 }
 

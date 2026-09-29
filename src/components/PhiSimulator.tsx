@@ -20,7 +20,7 @@ const PARTITIONS = [
 ];
 
 export const PhiSimulator: React.FC<PhiSimulatorProps> = ({ language, theme }) => {
-  const isEs = language === "es";
+  const isEs = language !== "en"; // Catalan has no dedicated dataset yet; default to the Spanish one.
 
   // State to track current tutorial step
   const [activeStep, setActiveStep] = useState<number>(0);
