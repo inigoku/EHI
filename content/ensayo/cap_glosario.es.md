@@ -6,7 +6,7 @@ chapterNumber: Glosario
 
 **Absoluto epistemológico**: lo que es último no porque no haya nada detrás, sino porque desde aquí no se puede mirar detrás; el estatuto que la lectura *La realidad fractal* concede al vecino de arriba.
 
-**Acción entrópica (𝒜 = ∫ S dt)**: integral de la entropía del borde a lo largo de la trayectoria de un horizonte; mide cuánto espacio privado ha sostenido y durante cuánto tiempo, y añade una biografía acumulada a la fotografía instantánea de Φ. No es la densidad del tiempo subjetivo, que es una tasa de información ganada. Puede definirse sobre el exceso de entropía respecto del equilibrio o como acción libre, ∫ F dt (capítulo 53 y capítulo 54).
+**Acción entrópica (Ā = ∫ S dt)**: integral de la entropía del borde a lo largo de la trayectoria de un horizonte; mide cuánto espacio privado ha sostenido y durante cuánto tiempo, y añade una biografía acumulada a la fotografía instantánea de Φ. No es la densidad del tiempo subjetivo, que es una tasa de información ganada. Puede definirse sobre el exceso de entropía respecto del equilibrio o como acción libre, ∫ F dt (capítulo 53 y capítulo 54).
 
 **Activación** (*arousal*): nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
 

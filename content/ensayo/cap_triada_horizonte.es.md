@@ -83,18 +83,18 @@ Las dos primeras magnitudes son instantáneas. Dicen cómo es el borde y a qué 
 
 La **acción entrópica** es la integral de la entropía del borde a lo largo de la trayectoria del sistema:
 
-𝒜 = ∫ S(t) dt
+Ā = ∫ S(t) dt
 
 Su unidad es entropía multiplicada por tiempo, como la de una acción. Mide, de un modo grueso, cuánto espacio privado ha sostenido el horizonte y durante cuánto tiempo. Un horizonte pequeño que dura mucho y uno grande que dura poco pueden acumular lo mismo; un horizonte grande y duradero acumula más que ambos.
 
 Conviene ser exigente con esta definición, porque tal como está escrita tiene un problema. Si S solo crece, la integral solo crece, y la magnitud mide poco más que la edad multiplicada por el tamaño. Hay dos maneras de arreglarlo, y el libro no elige todavía entre ellas:
 
-- Integrar el **exceso** de entropía del borde sobre la del entorno en equilibrio: 𝒜 = ∫ (S − S_eq) dt. La acción acumula entonces solo lo que el horizonte ha mantenido *por encima* de lo que el reservorio habría deshecho por su cuenta.
-- Integrar directamente la **energía libre**: 𝒜_F = ∫ F dt. Esta es la cantidad que en el formalismo de Friston se llama *acción libre*, y se comporta como una acción de Hamilton: las trayectorias que un sistema realmente sigue son las que la hacen estacionaria. Es la versión más conservadora, porque no inventa nada.
+- Integrar el **exceso** de entropía del borde sobre la del entorno en equilibrio: Ā = ∫ (S − S_eq) dt. La acción acumula entonces solo lo que el horizonte ha mantenido *por encima* de lo que el reservorio habría deshecho por su cuenta.
+- Integrar directamente la **energía libre**: Ā_F = ∫ F dt. Esta es la cantidad que en el formalismo de Friston se llama *acción libre*, y se comporta como una acción de Hamilton: las trayectorias que un sistema realmente sigue son las que la hacen estacionaria. Es la versión más conservadora, porque no inventa nada.
 
 Sea cual sea la elección, lo que esta magnitud aporta es cualitativamente nuevo: **la conciencia deja de ser un valor de un instante y pasa a ser una trayectoria acumulada**. Responde a *cuánta vida ha atravesado el horizonte*.
 
-Una aclaración para no confundirla con otra cosa que el libro ya tenía. El capítulo 10 dijo que el tiempo subjetivo depende de la *tasa de integración*: cuánta información nueva incorpora el horizonte por unidad de tiempo. Distinguió además el tiempo vivido del tiempo recordado, y aclaró que cuando el libro habla de densidad se refiere sobre todo al recordado, que es el que se reconstruye a partir de lo escrito en la memoria. Pues bien: 𝒜 no es esa densidad. 𝒜 es la capacidad sostenida en el tiempo; la densidad es una *tasa de información ganada*, y la información ganada es la que se escribe en la memoria. Los dos objetos encajan: la densidad de integración es la velocidad a la que se escribe una biografía, y 𝒜 es cuánto espacio había para escribirla. Un niño de cuatro años integra a un ritmo altísimo; un anciano, a un ritmo bajo sobre una biografía ya muy escrita. El capítulo 54 da la definición precisa de esa tasa.
+Una aclaración para no confundirla con otra cosa que el libro ya tenía. El capítulo 10 dijo que el tiempo subjetivo depende de la *tasa de integración*: cuánta información nueva incorpora el horizonte por unidad de tiempo. Distinguió además el tiempo vivido del tiempo recordado, y aclaró que cuando el libro habla de densidad se refiere sobre todo al recordado, que es el que se reconstruye a partir de lo escrito en la memoria. Pues bien: Ā no es esa densidad. Ā es la capacidad sostenida en el tiempo; la densidad es una *tasa de información ganada*, y la información ganada es la que se escribe en la memoria. Los dos objetos encajan: la densidad de integración es la velocidad a la que se escribe una biografía, y Ā es cuánto espacio había para escribirla. Un niño de cuatro años integra a un ritmo altísimo; un anciano, a un ritmo bajo sobre una biografía ya muy escrita. El capítulo 54 da la definición precisa de esa tasa.
 
 > **En física esto se llama:** acción, la integral temporal de una magnitud a lo largo de una trayectoria; principio de mínima acción.  
 > **En la vida diaria es como:** la diferencia entre la temperatura de una casa y el gasto total del invierno. La primera dice cómo está hoy; el segundo, cuánto se ha vivido en ella.
@@ -149,7 +149,7 @@ Lo que no hace es disolver el problema, y hay una tensión que conviene señalar
 
 Cuatro advertencias, en el espíritu de este libro.
 
-**No es una medida operativa.** Nadie sabe hoy calcular S, F y 𝒜 para un cerebro con la precisión que el formalismo exige. Son magnitudes bien definidas en el papel y candidatas a aproximarse con datos reales (consumo metabólico, tasas de error de predicción, entropía de las señales neuronales), pero esa traducción está por hacer. Tampoco Φ, por cierto, se calcula en un cerebro real, como advirtió el interludio.
+**No es una medida operativa.** Nadie sabe hoy calcular S, F y Ā para un cerebro con la precisión que el formalismo exige. Son magnitudes bien definidas en el papel y candidatas a aproximarse con datos reales (consumo metabólico, tasas de error de predicción, entropía de las señales neuronales), pero esa traducción está por hacer. Tampoco Φ, por cierto, se calcula en un cerebro real, como advirtió el interludio.
 
 **No es, por sí sola, un criterio de sujeto.** Como acaba de verse, necesita el filtro de la irreducibilidad para no confundir un horizonte con un mecanismo grande y caro de mantener.
 
@@ -165,7 +165,7 @@ Con todo, hay algo en la tríada que un lector de todo el libro reconoce como pr
 >
 > **Lo que sí sabemos:** La entropía de un agujero negro es proporcional al área de su horizonte (Bekenstein, Hawking). El vacío visto desde un horizonte tiene temperatura (Hawking, Unruh). La energía libre de Helmholtz es una magnitud termodinámica estándar. La energía libre variacional es un objeto matemático bien definido de la inferencia variacional y de la neurociencia computacional. En el formalismo de Friston, la acción libre es la integral temporal de la energía libre.
 >
-> **Lo que no sabemos:** Si la energía libre variacional de Friston y la termodinámica de Helmholtz son la misma cantidad en sistemas vivos o solo análogas. Si el principio de la energía libre es una ley empírica o un marco descriptivo. Si S, F y 𝒜 pueden estimarse en un cerebro real. Cuál de las dos definiciones de acción entrópica es la adecuada. Si la tríada supera de verdad a Φ o solo lo reordena. Si la irreducibilidad puede expresarse en términos de energía libre sin dejar entrar al hormiguero. Si la manta de Markov es una frontera física o solo una partición estadística, y si las fronteras de un horizonte se anidan o son disjuntas. Qué sería la temperatura del reservorio de un horizonte de conciencia.
+> **Lo que no sabemos:** Si la energía libre variacional de Friston y la termodinámica de Helmholtz son la misma cantidad en sistemas vivos o solo análogas. Si el principio de la energía libre es una ley empírica o un marco descriptivo. Si S, F y Ā pueden estimarse en un cerebro real. Cuál de las dos definiciones de acción entrópica es la adecuada. Si la tríada supera de verdad a Φ o solo lo reordena. Si la irreducibilidad puede expresarse en términos de energía libre sin dejar entrar al hormiguero. Si la manta de Markov es una frontera física o solo una partición estadística, y si las fronteras de un horizonte se anidan o son disjuntas. Qué sería la temperatura del reservorio de un horizonte de conciencia.
 >
 > **Preguntas que quedan:** ¿Puede una terna capturar la diferencia entre un perro, un niño y un anciano mejor que un número? ¿Es la conciencia una magnitud que se acumula o una que se tiene en cada instante? Si un horizonte es lo que se mantiene, ¿qué pasa con lo que se sostiene sin esfuerzo?
 >
