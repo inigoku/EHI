@@ -24,7 +24,7 @@ chapterNumber: Glosario
 
 **Autoobservación emergente**: capacidad de un sistema cerrado de generar un punto de vista interno sin necesidad de un observador externo; propiedad clave de los horizontes de conciencia.
 
-**Autosemejanza causal**: propiedad graduada de un sistema cuya irreducibilidad no se agota en un solo nivel sino que se conserva al cambiar de escala; se propone medirla como el nivel menos irreducible de su jerarquía. Es un indicador de cómo se reparte la integración, no un sustituto de Φ ni una condición necesaria ni suficiente de horizonte (capítulo 54; distinta de la autosemejanza de *La realidad fractal*).
+**Autosemejanza causal**: propiedad graduada de un sistema compuesto A(S) = (1/n) Σ I_min · C · Iso, producto de la irreducibilidad de su corte más débil, el acoplamiento de cada parte con el resto y el grado en que cada parte reproduce, a su escala, la dinámica del todo. Es una propuesta sin Φ como ingrediente, aunque su irreducibilidad es de la misma familia; no es una condición necesaria ni suficiente de horizonte (capítulo 54; distinta de la autosemejanza de *La realidad fractal*).
 
 **Bardo tibetano**: estado intermedio entre la muerte y el renacimiento en la tradición tibetana; en el libro, metáfora del periodo *post mortem* anterior a la evaporación del horizonte.
 
