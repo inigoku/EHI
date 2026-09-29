@@ -143,6 +143,12 @@ Forsythe, A., Williams, T., & Reilly, R.G. (2017). What paint can tell us: A fra
 
 Friedman, J., Morris, M.S., Novikov, I.D., et al. (1990). Cauchy problem in spacetimes with closed timelike curves. *Physical Review D*, 42(6).
 
+Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2).
+
+Friston, K. (2013). Life as we know it. *Journal of The Royal Society Interface*, 10(86).
+
+Friston, K., Wiese, W., & Hobson, J.A. (2020). Sentience and the origins of consciousness: From Cartesian duality to Markovian monism. *Entropy*, 22(5).
+
 Fukushima, H., Terasawa, Y., & Umeda, S. (2011). Association between interoception and empathy: Evidence from heartbeat-evoked brain potential. *International Journal of Psychophysiology*, 79(2).
 
 Ganna, A., et al. (2019). Large-scale GWAS reveals insights into the genetic architecture of same-sex sexual behavior. *Science*, 365(6456).
@@ -171,6 +177,8 @@ Hasson, U., et al. (2012). Brain-to-brain coupling: A mechanism for sharing and 
 
 Hawking, S.W. (1974). Black Hole Explosions? *Nature*, 248(5443).
 
+Hawking, S.W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43(3).
+
 Hawking, S.W. (1992). Chronology protection conjecture. *Physical Review D*, 46(2).
 
 Hawking, S.W., Perry, M.J., & Strominger, A. (2016). Soft Hair on Black Holes. *Physical Review Letters*, 116(23).
@@ -194,6 +202,8 @@ Jung, C.G. (1951). *Aion: Researches into the Phenomenology of the Self*. Prince
 Kant, I. (1790). *Kritik der Urteilskraft*. Lagarde und Friederich. (Trad. esp.: *Crítica del juicio*).
 
 Kinsey, A.C., Pomeroy, W.B., & Martin, C.E. (1948). *Sexual Behavior in the Human Male*. W.B. Saunders.
+
+Kirchhoff, M., Parr, T., Palacios, E., Friston, K., & Kiverstein, J. (2018). The Markov blankets of life: autonomy, active inference and the free energy principle. *Journal of The Royal Society Interface*, 15(138).
 
 Kitwood, T. (1997). *Dementia Reconsidered: The Person Comes First*. Open University Press.
 
@@ -269,11 +279,15 @@ Panksepp, J. (1998). *Affective Neuroscience: The Foundations of Human and Anima
 
 Parnas, D.L. (1972). On the criteria to be used in decomposing systems into modules. *Communications of the ACM*, 15(12).
 
+Parr, T., Pezzulo, G., & Friston, K.J. (2022). *Active Inference: The Free Energy Principle in Mind, Brain, and Behavior*. MIT Press.
+
 Perarnau, M. (2014). *Herr Pep*.
 
 Pettigrew, T.F., & Tropp, L.R. (2006). A meta-analytic test of intergroup contact theory. *Journal of Personality and Social Psychology*, 90(5).
 
 Poincaré, H. (1890). Sur le problème des trois corps et les équations de la dynamique. *Acta Mathematica*, 13.
+
+Prigogine, I. (1977). *Time, Structure and Fluctuations*. Conferencia con motivo del Premio Nobel de Química.
 
 Richardson, J. (1991–2007). *A Life of Picasso* (3 vols.). Random House.
 
@@ -294,6 +308,8 @@ Sacks, O. (1973). *Awakenings*. Duckworth.
 Sacks, O. (2007). *Musicophilia: Tales of Music and the Brain*. Knopf. (Trad. esp.: *Musicofilia*, Anagrama, 2009).
 
 Sax, L. (2002). How common is intersex? A response to Anne Fausto-Sterling. *Journal of Sex Research*, 39(3).
+
+Schrödinger, E. (1944). *What Is Life? The Physical Aspect of the Living Cell*. Cambridge University Press. (Trad. esp.: *¿Qué es la vida?*, Tusquets).
 
 Schwarzschild, K. (1916). Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie. *Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften*, 189–196.
 

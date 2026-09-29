@@ -414,6 +414,36 @@
       "chapter_number": 38
     },
     {
+      "id": "cap_triada_horizonte",
+      "content_file": "../content/ensayo/cap_triada_horizonte.es.md",
+      "replace": [
+        [
+          "al Capítulo 53",
+          "al Capítulo 39"
+        ]
+      ],
+      "chapter_number": 39
+    },
+    {
+      "id": "cap_ensayo_releido",
+      "content_file": "../content/ensayo/cap_ensayo_releido.es.md",
+      "replace": [
+        [
+          "del capítulo 53",
+          "del capítulo 39"
+        ],
+        [
+          "El capítulo 51",
+          "El capítulo 37"
+        ],
+        [
+          "al Capítulo 54",
+          "al Capítulo 40"
+        ]
+      ],
+      "chapter_number": 40
+    },
+    {
       "id": "cap_epilogo_real",
       "content_file": "content_overrides/cap_epilogo_real.es.md"
     },

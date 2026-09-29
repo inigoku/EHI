@@ -397,6 +397,14 @@
       "content_file": "../content/ensayo/cap20_real.es.md"
     },
     {
+      "id": "cap_triada_horizonte",
+      "content_file": "../content/ensayo/cap_triada_horizonte.es.md"
+    },
+    {
+      "id": "cap_ensayo_releido",
+      "content_file": "../content/ensayo/cap_ensayo_releido.es.md"
+    },
+    {
       "id": "cap_epilogo_real",
       "content_file": "content_overrides/cap_epilogo_real.es.md"
     },

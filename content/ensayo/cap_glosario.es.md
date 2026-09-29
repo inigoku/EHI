@@ -6,6 +6,8 @@ chapterNumber: Glosario
 
 **Absoluto epistemológico**: lo que es último no porque no haya nada detrás, sino porque desde aquí no se puede mirar detrás; el estatuto que la lectura *La realidad fractal* concede al vecino de arriba.
 
+**Acción entrópica (𝒜 = ∫ S dt)**: integral de la entropía del borde a lo largo de la trayectoria de un horizonte; mide cuánto espacio privado ha sostenido y durante cuánto tiempo, y sustituye la fotografía instantánea de Φ por una biografía acumulada. Puede definirse sobre el exceso de entropía respecto del equilibrio o como acción libre, ∫ F dt (capítulos 53 y 54).
+
 **Activación** (*arousal*): nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
 
 **Agregación (política)**: pertenencia que no compromete la supervivencia del individuo si la estructura a la que pertenece se disuelve; contrapuesta a la composición (*El horizonte colectivo*).
@@ -86,11 +88,15 @@ chapterNumber: Glosario
 
 **Encapsulación existencial**: límite de acceso que separa el estado interno privado de un sistema de la interfaz pública que expone al exterior; condición arquitectónica necesaria (aunque no suficiente) para que un sistema pueda tener algo parecido a la subjetividad. Los modelos de lenguaje actuales carecen de ella: cada peso y cada variable intermedia pueden leerse desde fuera.
 
+**Energía libre (F = U − TS)**: parte de la energía de un sistema disponible para producir trabajo en contacto con un baño a temperatura T; en el libro, el gasto que un horizonte paga para sostener su frontera frente al ruido del reservorio. En la versión de Friston, cota superior de la sorpresa (capítulo 53).
+
 **Entrelazamiento cuántico**: correlación entre dos sistemas que comparten geometría, de modo que sus interiores están conectados aunque sus exteriores estén separados.
 
 **Entrelazamiento vertical**: correlación sostenida entre un horizonte y algo más allá de su frontera, sin canal de confirmación observable; nombre que el libro da a la oración, la meditación y la práctica contemplativa (*El entrelazamiento vertical*).
 
 **Entropía de Shannon**: medida de la incertidumbre de una fuente de información; cuanto menos esperable es un mensaje, más información aporta (*La teoría de la información y el horizonte interior*).
+
+**Entropía del borde (S ∝ A)**: capacidad informacional de la frontera de un horizonte, proporcional a su área (Bekenstein-Hawking); primera coordenada de la tríada, la que fija el techo del espacio privado (capítulo 53).
 
 **ER=EPR**: conjetura de Maldacena y Susskind según la cual el entrelazamiento cuántico (EPR) equivale a un puente de Einstein-Rosen (ER).
 
@@ -130,6 +136,8 @@ chapterNumber: Glosario
 
 **Línea de base social**: estado de referencia del cerebro humano que presupone el acceso a otros; cuando alguien cercano está presente, el cerebro asigna menos recursos a la detección de amenazas.
 
+**Manta de Markov**: en el formalismo de Friston, el conjunto de estados que separa los estados internos de un sistema de los externos, de modo que solo se influyan a través de ella; la contrapartida formal de la encapsulación (capítulo 53).
+
 **Nada**: en el modelo, no es ausencia, sino plenitud sin forma; el reservorio antes de que cualquier horizonte se condense.
 
 **Nave**: la forma, hecha del material del piso de abajo, que permite a una escala superior manifestarse en una inferior sin desbordarla; lo que las tradiciones llaman encarnación (*La nave de barro*).
@@ -146,7 +154,7 @@ chapterNumber: Glosario
 
 **Permeabilidad del horizonte**: cuánta señal ajena deja pasar un horizonte hacia dentro; el grosor de la piel emocional que el capítulo 16 asocia a la empatía y al desgaste empático.
 
-**Phi (Φ)**: cantidad de información integrada; en el libro, mide el *grado* de un horizonte. Su forma la da la encapsulación y su origen, las dos selecciones (capítulo 4).
+**Phi (Φ)**: cantidad de información integrada; en el libro, mide el *grado* de un horizonte. Su forma la da la encapsulación y su origen, las dos selecciones (capítulo 4). Los capítulos 53 y 54 proponen sustituirlo como medida del grado por la tríada del horizonte; Φ queda como descripción de la integración en un instante.
 
 **Principio holográfico**: idea de que toda la información contenida en un volumen puede describirse por una teoría definida en su frontera.
 
@@ -191,6 +199,8 @@ chapterNumber: Glosario
 **Traductor**: la persona que saca hacia fuera la señal de un horizonte que no sabe emitirla por sí solo, y que con frecuencia la sostiene en lo cotidiano; el inverso de la permeabilidad (*El traductor*).
 
 **Transición de fase**: cambio cualitativo en la organización de un sistema; en el libro, describe el nacimiento y la muerte del horizonte.
+
+**Tríada del horizonte**: las tres magnitudes (entropía del borde, energía libre y acción entrópica) con que el libro propone medir el grado de un horizonte en lugar de Φ: cuán grande es el borde, cuánto cuesta sostenerlo y cuánta vida ha acumulado (capítulos 53 y 54).
 
 **Umbral de integración**: cantidad mínima de información integrada (Φ) necesaria para sostener un horizonte de conciencia; por debajo de él, el sistema carece de punto de vista.
 
