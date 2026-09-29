@@ -95,7 +95,7 @@ def main() -> int:
     ap.add_argument("--alto", type=float, default=None)
     ap.add_argument("--tomo", choices=["1", "2"], default=None,
                     help="Tapa blanda sin ilustraciones de uno de los dos tomos.")
-    ap.add_argument("--idioma", choices=["es", "en"], default="es",
+    ap.add_argument("--idioma", choices=["es", "en", "ca"], default="es",
                     help="Idioma de los textos de cubierta (volumen único).")
     ap.add_argument("--sin-ilustraciones", action="store_true",
                     help="Cubierta para el interior sin ilustraciones (papel blanco B/N).")
@@ -111,7 +111,7 @@ def main() -> int:
         hc.INTERIOR_PDF = hc.INTERIOR_PDF.with_name(hc.INTERIOR_PDF.stem.rsplit('_6x9', 1)[0] + "_sin_ilustraciones_6x9.pdf")
     if args.tomo:
         hc.select_tomo(args.tomo, args.idioma)   # títulos, textos y arte del tomo
-        tomos = hc.TOMOS_EN if args.idioma == "en" else hc.TOMOS
+        tomos = hc.TOMO_SETS[args.idioma]
         WRAP_PDF = tomos[args.tomo]["wrap_bn"]
         SPINE_PER_PAGE = 0.002252           # sin láminas: papel blanco B/N
         hc.INTERIOR_PDF = tomos[args.tomo]["interior_bn"]

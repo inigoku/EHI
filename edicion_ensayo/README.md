@@ -213,3 +213,65 @@ Y sus versiones sin ilustraciones (tapa blanda B/N y EPUB):
     python3 scripts/build_interior_premium.py toc_tomoN_*_en.json -o ..._sin_ilustraciones_6x9.pdf --sin-ilustraciones
     python3 scripts/build_epub_ensayo.py toc_tomoN_*_en.json -o ..._sin_ilustraciones.epub --sin-ilustraciones
     python3 scripts/build_cover_paperback.py --tomo N --idioma en
+
+## Edición en catalán (*L'Horitzó Interior*)
+
+Los 60 capítulos traducidos en `content/ensayo/*.ca.md` y
+`content/lecturas/*.ca.md` (los mismos ficheros que lee la web, igual que
+`content/cuentos/*.ca.md` y `content/poemas/*.ca.md`), con `toc_ensayo_ca.json`
+apuntando a ellos. Los cinco capítulos con `content_overrides` (la nave de
+Tarel y el Luthier retirados de las remisiones) tienen su propia traducción en
+`edicion_ensayo/content_overrides/*.ca.md`. Las cubiertas aceptan
+`--idioma ca`.
+
+    El_Horitzo_Interior_Assaig_6x9.pdf                                  volumen único, 738 páginas
+    El_Horitzo_Interior_Assaig.epub                                     epub, 61 pantallas, 60 imágenes
+    El_Horitzo_Interior_Assaig_sin_ilustraciones_6x9.pdf                690 páginas, sin láminas
+    El_Horitzo_Interior_Assaig_sin_ilustraciones.epub                   EPUB solo con la portada
+    El_Horitzo_Interior_Assaig_cubierta_tapadura.pdf                    tapa dura, lomo 1,722"
+    El_Horitzo_Interior_Assaig_cubierta_tapablanda_sin_ilustraciones.pdf tapa blanda B/N, lomo 1,554"
+    imagenes/El_Horitzo_Interior_Assaig_cubierta_ebook.jpg              portada del EPUB, 1600 x 2560
+
+    python3 scripts/build_interior_premium.py toc_ensayo_ca.json -o El_Horitzo_Interior_Assaig_6x9.pdf
+    python3 scripts/build_epub_ensayo.py toc_ensayo_ca.json -o El_Horitzo_Interior_Assaig.epub
+    python3 scripts/build_cover.py --idioma ca
+    python3 scripts/build_cover_paperback.py --idioma ca --sin-ilustraciones
+
+Igual que en español e inglés, el volumen único (738 págs.) supera el límite
+de 550 de KDP para tapa dura, así que también se parte en dos tomos con
+`make_tomos_ca.py` (equivalente catalán de `make_tomos.py`, con las
+remisiones «Capítol N» detectadas y reescritas a «lectura k» en el propio
+texto):
+
+    El_Horitzo_Interior_Tom1_Assaig_6x9.pdf                 tom I, 534 págs.
+    El_Horitzo_Interior_Tom1_Assaig_cubierta_tapadura.pdf   lomo 1,313"
+    El_Horitzo_Interior_Tom2_Lectures_6x9.pdf               tom II, 182 págs.
+    El_Horitzo_Interior_Tom2_Lectures_cubierta_tapadura.pdf lomo 0,487"
+
+    python3 scripts/make_tomos_ca.py
+    python3 scripts/build_interior_premium.py toc_tomo1_ensayo_ca.json -o El_Horitzo_Interior_Tom1_Assaig_6x9.pdf
+    python3 scripts/build_interior_premium.py toc_tomo2_lecturas_ca.json -o El_Horitzo_Interior_Tom2_Lectures_6x9.pdf
+    python3 scripts/build_cover.py --tomo 1 --idioma ca
+    python3 scripts/build_cover.py --tomo 2 --idioma ca
+
+Y sus versiones sin ilustraciones (tapa blanda B/N y EPUB):
+
+    El_Horitzo_Interior_Tom1_Assaig_sin_ilustraciones_6x9.pdf                 502 págs.
+    El_Horitzo_Interior_Tom1_Assaig_cubierta_tapablanda_sin_ilustraciones.pdf lomo 1,131"
+    El_Horitzo_Interior_Tom1_Assaig_sin_ilustraciones.epub
+    El_Horitzo_Interior_Tom2_Lectures_sin_ilustraciones_6x9.pdf                166 págs.
+    El_Horitzo_Interior_Tom2_Lectures_cubierta_tapablanda_sin_ilustraciones.pdf lomo 0,374"
+    El_Horitzo_Interior_Tom2_Lectures_sin_ilustraciones.epub
+
+    python3 scripts/build_interior_premium.py toc_tomoN_*_ca.json -o ..._sin_ilustraciones_6x9.pdf --sin-ilustraciones
+    python3 scripts/build_epub_ensayo.py toc_tomoN_*_ca.json -o ..._sin_ilustraciones.epub --sin-ilustraciones
+    python3 scripts/build_cover_paperback.py --tomo N --idioma ca
+
+### La web en catalán
+
+`src/i18n` soporta `ca` como tercer idioma completo (toggle ES/EN/CA,
+`strings.ts` traducido) desde el commit que añadió esta edición. Los
+cargadores de capítulos (`group1.ts`, `lecturas.ts`, `poemas.ts`, `cuentos.ts`)
+leen `*.ca.md` con el mismo mecanismo de *fallback* a castellano que ya
+tenían para inglés. Los cuentos y poemas ya traían su `.ca.md` de antes;
+el ensayo los trae ahora.

@@ -340,7 +340,7 @@ TOMOS = {
 }
 
 
-# Edición inglesa, volumen único.
+# Edición inglesa y catalana, volumen único.
 LANGS = {
     "en": dict(
         front=BASE / "The_Inner_Horizon_Essay_portada_frontal.pdf",
@@ -362,6 +362,29 @@ LANGS = {
             "the topological readings that carry those same ideas into art "
             "and daily life, and the complete apparatus of notes and "
             "references."
+        ),
+    ),
+    "ca": dict(
+        front=BASE / "El_Horitzo_Interior_Assaig_portada_frontal.pdf",
+        wrap=BASE / "El_Horitzo_Interior_Assaig_cubierta_tapadura.pdf",
+        interior=BASE / "El_Horitzo_Interior_Assaig_6x9.pdf",
+        ebook=IMG / "El_Horitzo_Interior_Assaig_cubierta_ebook.jpg",
+        title="L'Horitzó Interior", title_lines=["L'Horitzó", "Interior"],
+        subtitle="L'assaig complet, amb les lectures topològiques",
+        kicker="Un assaig sobre física, consciència i els límits del jo",
+        blurb=(
+            "Un assaig que fa servir la física dels forats negres com a lent "
+            "per pensar la consciència: l'horitzó de successos com a "
+            "frontera entre el que un jo deixa escapar i el que queda "
+            "atrapat per sempre."
+        ),
+        blurb2=(
+            "Seixanta capítols que creuen la neurociència, la teoria de la "
+            "informació i la física teòrica sense abandonar mai la "
+            "pregunta més simple: què vol dir que hi hagi algú allà dins. "
+            "Amb les lectures topològiques que porten aquestes mateixes "
+            "idees a l'art i la vida quotidiana, i l'aparell complet de "
+            "notes i referències."
         ),
     ),
 }
@@ -414,10 +437,61 @@ TOMOS_EN = {
     ),
 }
 
+# Els dos toms de tapa dura de l'edició catalana (mateix motiu que TOMOS/TOMOS_EN:
+# el volum únic supera les 550 pàgines que admet KDP en tapa dura).
+TOMOS_CA = {
+    "1": dict(
+        interior=BASE / "El_Horitzo_Interior_Tom1_Assaig_6x9.pdf",
+        front=BASE / "El_Horitzo_Interior_Tom1_Assaig_portada_frontal.pdf",
+        wrap=BASE / "El_Horitzo_Interior_Tom1_Assaig_cubierta_tapadura.pdf",
+        ebook=IMG / "El_Horitzo_Interior_Tom1_Assaig_cubierta_ebook.jpg",
+        wrap_bn=BASE / "El_Horitzo_Interior_Tom1_Assaig_cubierta_tapablanda_sin_ilustraciones.pdf",
+        interior_bn=BASE / "El_Horitzo_Interior_Tom1_Assaig_sin_ilustraciones_6x9.pdf",
+        title="L'Horitzó Interior", title_lines=["L'Horitzó", "Interior"],
+        subtitle="Assaig · Volum I",
+        kicker="Un assaig sobre física, consciència i els límits del jo",
+        blurb=LANGS["ca"]["blurb"],
+        blurb2=(
+            "Quaranta-sis capítols que creuen la neurociència, la teoria de "
+            "la informació i la física teòrica sense abandonar mai la "
+            "pregunta més simple: què vol dir que hi hagi algú allà dins. "
+            "Amb l'epíleg, el glossari i l'aparell complet de notes. Les "
+            "lectures topològiques formen el segon volum."
+        ),
+    ),
+    "2": dict(
+        interior=BASE / "El_Horitzo_Interior_Tom2_Lectures_6x9.pdf",
+        front=BASE / "El_Horitzo_Interior_Tom2_Lectures_portada_frontal.pdf",
+        wrap=BASE / "El_Horitzo_Interior_Tom2_Lectures_cubierta_tapadura.pdf",
+        ebook=IMG / "El_Horitzo_Interior_Tom2_Lectures_cubierta_ebook.jpg",
+        wrap_bn=BASE / "El_Horitzo_Interior_Tom2_Lectures_cubierta_tapablanda_sin_ilustraciones.pdf",
+        interior_bn=BASE / "El_Horitzo_Interior_Tom2_Lectures_sin_ilustraciones_6x9.pdf",
+        title="Lectures topològiques", title_lines=["Lectures", "Topològiques"],
+        art=IMG / "portada_lecturas.jpg",   # cinta de Möbius d'aigua
+        subtitle="L'Horitzó Interior · Volum II",
+        kicker="Les idees de l'assaig en la ficció, el cinema i la vida quotidiana",
+        blurb=(
+            "Un clon que no és la egua que copia, un replicant que plora "
+            "sota la pluja, un primer contacte sense idioma comú, una "
+            "màquina del temps que no deixa tornar: catorze lectures que "
+            "posen a prova la hipòtesi de l'horitzó fora del laboratori."
+        ),
+        blurb2=(
+            "Cada lectura pren una obra, un cas o una pregunta i la mira "
+            "amb les eines del primer volum —encapsulació, entrellaçament, "
+            "reservori— per veure què il·lumina i on es trenca. Es poden "
+            "llegir en qualsevol ordre."
+        ),
+    ),
+}
+
+
+TOMO_SETS = {"es": TOMOS, "en": TOMOS_EN, "ca": TOMOS_CA}
+
 
 def select_tomo(n: str, lang: str = "es") -> None:
     global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, TITLE, TITLE_LINES, SUBTITLE, KICKER, BLURB, BLURB2, SPINE_PER_PAGE, ART_OVERRIDE
-    c = (TOMOS_EN if lang == "en" else TOMOS)[n]
+    c = TOMO_SETS[lang][n]
     ART_OVERRIDE = c.get("art")
     FRONT_PDF, WRAP_PDF, INTERIOR_PDF = c["front"], c["wrap"], c["interior"]
     TITLE, TITLE_LINES, SUBTITLE, KICKER = c["title"], c["title_lines"], c["subtitle"], c["kicker"]
@@ -439,7 +513,7 @@ def main() -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--tomo", choices=["1", "2"], default=None,
                     help="Cubiertas de tapa dura de uno de los dos tomos, en vez del volumen único.")
-    ap.add_argument("--idioma", choices=["es", "en"], default="es",
+    ap.add_argument("--idioma", choices=["es", "en", "ca"], default="es",
                     help="Idioma de los textos de cubierta (volumen único).")
     ap.add_argument("--paginas", type=int, default=None)
     ap.add_argument("--ancho", type=float, default=None)
@@ -464,7 +538,7 @@ def main() -> int:
         print(f"  (lomo calculado sobre {pages} páginas reales del interior)")
     build_wrap(pages, args.ancho, args.alto)
     if args.tomo:
-        build_ebook((TOMOS_EN if args.idioma == "en" else TOMOS)[args.tomo]["ebook"])
+        build_ebook(TOMO_SETS[args.idioma][args.tomo]["ebook"])
     elif args.idioma != "es":
         build_ebook(LANGS[args.idioma]["ebook"])
     return 0
