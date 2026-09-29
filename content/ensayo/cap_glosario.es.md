@@ -6,7 +6,7 @@ chapterNumber: Glosario
 
 **Absoluto epistemológico**: lo que es último no porque no haya nada detrás, sino porque desde aquí no se puede mirar detrás; el estatuto que la lectura *La realidad fractal* concede al vecino de arriba.
 
-**Acción entrópica (𝒜 = ∫ S dt)**: integral de la entropía del borde a lo largo de la trayectoria de un horizonte; mide cuánto espacio privado ha sostenido y durante cuánto tiempo, y añade una biografía acumulada a la fotografía instantánea de Φ. Puede definirse sobre el exceso de entropía respecto del equilibrio o como acción libre, ∫ F dt (capítulo 53 y capítulo 54).
+**Acción entrópica (𝒜 = ∫ S dt)**: integral de la entropía del borde a lo largo de la trayectoria de un horizonte; mide cuánto espacio privado ha sostenido y durante cuánto tiempo, y añade una biografía acumulada a la fotografía instantánea de Φ. No es la densidad del tiempo subjetivo, que es una tasa de información ganada. Puede definirse sobre el exceso de entropía respecto del equilibrio o como acción libre, ∫ F dt (capítulo 53 y capítulo 54).
 
 **Activación** (*arousal*): nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
 
@@ -88,7 +88,7 @@ chapterNumber: Glosario
 
 **Encapsulación existencial**: límite de acceso que separa el estado interno privado de un sistema de la interfaz pública que expone al exterior; condición arquitectónica necesaria (aunque no suficiente) para que un sistema pueda tener algo parecido a la subjetividad. Los modelos de lenguaje actuales carecen de ella: cada peso y cada variable intermedia pueden leerse desde fuera.
 
-**Energía libre (F = U − TS)**: parte de la energía de un sistema disponible para producir trabajo en contacto con un baño a temperatura T; en el libro, el gasto que un horizonte paga para sostener su frontera frente al ruido del reservorio. En la versión de Friston, cota superior de la sorpresa (capítulo 53).
+**Energía libre (F = U − TS)**: nivel al que un sistema se mantiene respecto del equilibrio con su entorno; lo que cuesta sostener ese nivel es una potencia disipada. En el libro, lo que un horizonte mantiene frente al ruido del reservorio; en la versión de Friston, una cota superior de la sorpresa (capítulo 53).
 
 **Entrelazamiento cuántico**: correlación entre dos sistemas que comparten geometría, de modo que sus interiores están conectados aunque sus exteriores estén separados.
 

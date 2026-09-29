@@ -418,6 +418,10 @@
       "content_file": "../content/ensayo/cap_triada_horizonte.es.md",
       "replace": [
         [
+          "El capítulo 54",
+          "El capítulo 40"
+        ],
+        [
           "al Capítulo 53",
           "al Capítulo 39"
         ]
@@ -431,6 +435,10 @@
         [
           "del capítulo 53",
           "del capítulo 39"
+        ],
+        [
+          "el capítulo 53",
+          "el capítulo 39"
         ],
         [
           "El capítulo 51",

@@ -199,6 +199,8 @@ Hume, D. (1748). *An Enquiry Concerning Human Understanding*. A. Millar.
 
 Imperato-McGinley, J., Guerrero, L., Gautier, T., & Peterson, R.E. (1974). Steroid 5α-Reductase Deficiency in Man: An Inherited Form of Male Pseudohermaphroditism. *Science*, 186(4170).
 
+Itti, L., & Baldi, P. (2009). Bayesian surprise attracts human attention. *Vision Research*, 49(10).
+
 Jackson, R.R., & Cross, F.R. (2011). Spider cognition. *Advances in Insect Physiology*, 41.
 
 Jacobsen, J.-H., et al. (2015). Why musical memory can be preserved in advanced Alzheimer's disease. *Brain*, 138(8).
@@ -222,6 +224,8 @@ Klimecki, O.M., Leiberg, S., Ricard, M., & Singer, T. (2014). Differential patte
 Koestler, A. (1940). *Darkness at Noon*. (Trad. esp.: *El cero y el infinito*).
 
 Kuratowski, K. (1922). Sur l'opération Ā de l'Analysis Situs. *Fundamenta Mathematicae*, 3.
+
+Laukkonen, R.E., & Slagter, H.A. (2021). From many to (n)one: Meditation and the plasticity of the predictive mind. *Neuroscience & Biobehavioral Reviews*, 128.
 
 Le Bon, G. (1895). *Psychologie des foules*. Félix Alcan.
 
@@ -380,6 +384,8 @@ Tronick, E. (2007). *The Neurobehavioral and Social-Emotional Development of Inf
 Tuan, Y.-F. (1974). *Topophilia: A Study of Environmental Perception, Attitudes, and Values*. Prentice-Hall.
 
 Turban, J.L., Beckwith, N., Reisner, S.L., & Keuroghlian, A.S. (2020). Association Between Recalled Exposure to Gender Identity Conversion Efforts and Psychological Distress and Suicide Attempts Among Transgender Adults. *JAMA Psychiatry*, 77(1).
+
+Unruh, W.G. (1976). Notes on black-hole evaporation. *Physical Review D*, 14(4).
 
 van der Kolk, B. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
