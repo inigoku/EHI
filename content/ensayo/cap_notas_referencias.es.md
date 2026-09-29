@@ -39,6 +39,8 @@ Asimov, I. (1955). *The End of Eternity*. Doubleday. (Trad. esp.: *El fin de la 
 
 Aspect, A., Dalibard, J., & Roger, G. (1982). Experimental Test of Bell's Inequalities Using Time-Varying Analyzers. *Physical Review Letters*, 49(25).
 
+Ay, N. (2001). Information Geometry on Complexity and Stochastic Interaction. *MPI MIS Preprint*, 95/2001. Publicado en versión ampliada en Ay, N. (2015), *Entropy*, 17(4), 2432–2458.
+
 Baars, B.J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
 
 Bailey, J.M., & Pillard, R.C. (1991). A Genetic Study of Male Sexual Orientation. *Archives of General Psychiatry*, 48(12).
@@ -65,7 +67,7 @@ Bostrom, N. (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford Univ
 
 Bradshaw, J. (2017). *The Animals Among Us: How Pets Make Us Human*. Basic Books.
 
-Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's New Markov Blankets. *Behavioral and Brain Sciences*, 45.
+Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's New Markov Blankets. *Behavioral and Brain Sciences*, 45, e183.
 
 Burke, S. (2018). *Semiosis*. Tor Books.
 
@@ -149,7 +151,7 @@ Forsythe, A., Williams, T., & Reilly, R.G. (2017). What paint can tell us: A fra
 
 Friedman, J., Morris, M.S., Novikov, I.D., et al. (1990). Cauchy problem in spacetimes with closed timelike curves. *Physical Review D*, 42(6).
 
-Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2).
+Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
 
 Friston, K. (2013). Life as we know it. *Journal of The Royal Society Interface*, 10(86).
 
@@ -195,7 +197,7 @@ Hazan, C., & Shaver, P. (1987). Romantic Love Conceptualized as an Attachment Pr
 
 Hesse, H. (1922). *Siddhartha*.
 
-Hoel, E.P., Albantakis, L., & Tononi, G. (2013). Quantifying causal emergence shows that macro can beat micro. *Proceedings of the National Academy of Sciences*, 110(49).
+Hoel, E.P., Albantakis, L., & Tononi, G. (2013). Quantifying causal emergence shows that macro can beat micro. *Proceedings of the National Academy of Sciences*, 110(49), 19790–19795.
 
 Hume, D. (1748). *An Enquiry Concerning Human Understanding*. A. Millar.
 
@@ -227,7 +229,11 @@ Klimecki, O.M., Leiberg, S., Ricard, M., & Singer, T. (2014). Differential patte
 
 Koestler, A. (1940). *Darkness at Noon*. (Trad. esp.: *El cero y el infinito*).
 
+Kraskov, A., Stögbauer, H., & Grassberger, P. (2004). Estimating mutual information. *Physical Review E*, 69(6), 066138.
+
 Kuratowski, K. (1922). Sur l'opération Ā de l'Analysis Situs. *Fundamenta Mathematicae*, 3.
+
+Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183–191.
 
 Laukkonen, R.E., & Slagter, H.A. (2021). From many to (n)one: Meditation and the plasticity of the predictive mind. *Neuroscience & Biobehavioral Reviews*, 128.
 
@@ -294,6 +300,8 @@ Otto, R. (1917). *Das Heilige*. (Trad. esp.: *Lo santo*).
 Page, D.N. (1993). Average entropy of a subsystem. *Physical Review Letters*, 71(9).
 
 Page, D.N. (1993). Information in black hole radiation. *Physical Review Letters*, 71(23).
+
+Palacios, E.R., Razi, A., Parr, T., Kirchhoff, M., & Friston, K. (2020). On Markov blankets and hierarchical self-organisation. *Journal of Theoretical Biology*, 486, 110089.
 
 Panksepp, J. (1998). *Affective Neuroscience: The Foundations of Human and Animal Emotions*. Oxford University Press.
 

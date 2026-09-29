@@ -418,20 +418,28 @@
       "content_file": "../content/ensayo/cap_triada_horizonte.es.md",
       "replace": [
         [
-          "en el capítulo 54",
-          "en el capítulo 40"
+          "del capítulo 49",
+          "de la lectura 13 del segundo tomo"
         ],
         [
           "del capítulo 54",
           "del capítulo 40"
         ],
         [
-          "El capítulo 54",
-          "El capítulo 40"
+          "del capítulo 51",
+          "del capítulo 37"
         ],
         [
           "el capítulo 49",
           "la lectura 13 del segundo tomo"
+        ],
+        [
+          "el capítulo 51",
+          "el capítulo 37"
+        ],
+        [
+          "el capítulo 53",
+          "el capítulo 39"
         ],
         [
           "al Capítulo 53",
@@ -445,16 +453,16 @@
       "content_file": "../content/ensayo/cap_ensayo_releido.es.md",
       "replace": [
         [
+          "del capítulo 50",
+          "de la lectura 14 del segundo tomo"
+        ],
+        [
+          "del capítulo 49",
+          "de la lectura 13 del segundo tomo"
+        ],
+        [
           "del capítulo 53",
           "del capítulo 39"
-        ],
-        [
-          "el capítulo 49)",
-          "la lectura 13 del segundo tomo)"
-        ],
-        [
-          "el capítulo 53",
-          "el capítulo 39"
         ],
         [
           "El capítulo 51",
@@ -463,10 +471,6 @@
         [
           "al Capítulo 54",
           "al Capítulo 40"
-        ],
-        [
-          "(capítulo 49)",
-          "(lectura 13 del segundo tomo)"
         ]
       ],
       "chapter_number": 40
@@ -480,28 +484,12 @@
       "content_file": "../content/ensayo/cap_glosario.es.md",
       "replace": [
         [
-          "El capítulo 53",
-          "El capítulo 39"
-        ],
-        [
-          "el capítulo 54",
-          "el capítulo 40"
+          "el capítulo 49",
+          "la lectura 13 del segundo tomo"
         ],
         [
           "(capítulo 53)",
           "(capítulo 39)"
-        ],
-        [
-          "(capítulo 53",
-          "(capítulo 39"
-        ],
-        [
-          "capítulo 54)",
-          "capítulo 40)"
-        ],
-        [
-          "(capítulo 54",
-          "(capítulo 40"
         ]
       ]
     },
