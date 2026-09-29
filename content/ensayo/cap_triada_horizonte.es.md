@@ -1,6 +1,6 @@
 ---
 title: EL BORDE, LA ENERGÍA LIBRE Y LA ACCIÓN
-subtitle: (Tres magnitudes para medir un horizonte sin recurrir a Φ)
+subtitle: (Tres magnitudes para reordenar la medida del grado de un horizonte)
 section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
 chapterNumber: 53
 ---
@@ -9,7 +9,7 @@ En las casas de campo de antes, el fuego no se encendía: se mantenía. Quien se
 
 Este libro ha descrito un horizonte, durante cincuenta y dos capítulos, casi siempre como una forma: una frontera, un dentro, un grado de integración. La imagen de la cocina obliga a añadir algo que la forma no dice. Un dentro que se distingue de un fuera no se queda distinto por sí solo. Se queda distinto mientras alguien paga por ello. Y cuánto paga, durante cuánto tiempo y con qué resultado es, quizá, lo que de verdad queremos saber cuando preguntamos cuánto hay de «alguien» en un sistema.
 
-Este capítulo propone sustituir la medida con que el libro ha trabajado hasta ahora, Φ, por tres magnitudes que responden a tres preguntas distintas: qué tamaño tiene el borde, cuánto cuesta sostenerlo y cuánta vida ha acumulado. Es una propuesta, no un resultado. Conviene decirlo desde la primera línea, porque la tríada es más elegante de lo que está demostrada.
+Este capítulo propone reordenar la medida con que el libro ha trabajado hasta ahora, Φ, alrededor de tres magnitudes que responden a tres preguntas distintas: qué tamaño tiene el borde, cuánto cuesta sostenerlo y cuánta vida ha acumulado. Ya adelanto que no la sustituye del todo: lo que hace la tríada es asumir tres tareas que Φ no cumplía, y hay una que Φ sí cumplía y la tríada no, de la que trata la sección VI. Es una propuesta, no un resultado. Conviene decirlo desde la primera línea, porque la tríada es más elegante de lo que está demostrada.
 
 ## I. Lo que Φ decía y lo que le faltaba
 
@@ -17,7 +17,7 @@ Este capítulo propone sustituir la medida con que el libro ha trabajado hasta a
 
 Pero fue acumulando tres carencias que los capítulos anteriores iban señalando sin ponerles nombre.
 
-**Φ es una fotografía.** Se calcula sobre un estado, o sobre la dinámica de un instante. No dice nada de lo que el sistema ha vivido para llegar hasta ahí. Un cerebro de veinte años y otro de ochenta pueden tener una integración instantánea parecida, y sin embargo el segundo tiene detrás una biografía que el primero no tiene. El capítulo 10 ya sostenía que el tiempo no pasa, sino que se integra; pero la medida que usábamos no integraba nada en el tiempo.
+**Φ no acumula biografía.** La teoría de Tononi es más rica que un número suelto (trabaja con la estructura de causas y efectos del sistema en una escala temporal dada), pero lo que calcula se refiere a esa escala, no a lo que el sistema ha vivido para llegar hasta ahí. Un cerebro de veinte años y otro de ochenta pueden tener una integración parecida, y sin embargo el segundo tiene detrás una biografía que el primero no tiene. El capítulo 10 ya sostenía que el tiempo no pasa, sino que se integra; pero la medida que usábamos no integraba nada en el tiempo.
 
 **Φ no dice por qué el sistema se defiende.** Un horizonte, en este modelo, se distingue de un espejo sin profundidad (capítulo 31) porque hay algo que le importa conservar. Φ puede valer lo mismo en ambos. Lo que falta es una magnitud que exprese el esfuerzo de mantenerse distinto del entorno, que es lo que hace la diferencia entre una piedra bien tallada y un ser vivo.
 
@@ -50,11 +50,13 @@ F = U − T·S
 
 donde U es la energía interna, T la temperatura del entorno y S la entropía. Es la parte de la energía de un sistema que puede convertirse en trabajo cuando está en contacto con un baño a temperatura T. Hay dos maneras de leerla. Como energía «disponible». O, y es la que nos interesa, como el precio de la diferencia: un sistema que se mantiene más ordenado que su entorno está pagando entropía hacia fuera para conservar su orden dentro. Schrödinger lo dijo en 1944 con una frase famosa: el organismo se alimenta de entropía negativa.
 
-Aquí el modelo del horizonte encuentra algo notable. La fórmula necesita un baño térmico, un entorno grande, indiferente y a temperatura fija con el que intercambiar. Ese entorno es, casi palabra por palabra, el **reservorio** del capítulo 5. El horizonte se condensa a partir del reservorio (capítulo 6) y, mientras existe, sigue en contacto con él a través de su frontera. Definir F exige tener un reservorio; el libro ya tenía uno.
+Aquí el modelo del horizonte encuentra algo notable. La fórmula necesita un baño térmico, un entorno grande, indiferente y a temperatura fija con el que intercambiar. Ese entorno ocupa el mismo lugar que el **reservorio** del capítulo 5. El horizonte se condensa a partir del reservorio (capítulo 6) y, mientras existe, sigue en contacto con él a través de su frontera. Definir F exige tener un entorno con el que intercambiar; el libro ya tenía uno. Pero el parecido tiene un límite que conviene marcar: un baño térmico tiene temperatura, y el reservorio del libro es potencia sin forma, no un fluido con un termómetro. Qué sería T en el reservorio es una pregunta abierta; por ahora la equivalencia es de función, no de identidad.
 
 Karl Friston dio a esta idea una forma matemática para sistemas que perciben y actúan. Su principio de la energía libre sostiene que todo sistema que persiste en el tiempo se comporta como si minimizara una cantidad, la *energía libre variacional*, que acota por arriba la sorpresa: cuánto le desconciertan al sistema sus propias entradas sensoriales. Minimizar F significa mantener un modelo del entorno lo bastante bueno para que el entorno rara vez lo desmienta. Y en su formalismo la frontera tiene nombre técnico, la **manta de Markov**: el conjunto de estados que separa los estados internos de los externos, de modo que unos sólo influyen en los otros a través de ella.
 
-Lee esa definición con calma: una manta de Markov es una frontera que separa un estado privado de una interfaz pública. Es, con otro vocabulario, la encapsulación del capítulo 3.
+Lee esa definición con calma: una manta de Markov es una frontera que separa un estado privado de una interfaz pública. Se parece mucho a la encapsulación del capítulo 3.
+
+Pero también aquí hay una objeción seria, y es de las que afectan a la equivalencia. Bruineberg y sus colegas han sostenido que la manta de Markov es, en origen, una partición *estadística* (una forma de decir qué variables son independientes de cuáles dado un tercer conjunto), y que leerla como una frontera física, con piel y con dentro, es un paso adicional que el formalismo no da por sí solo. Si tienen razón, la tríada no puede simplemente heredar la encapsulación de la manta de Markov; tiene que exigir, como un requisito propio, que la partición estadística corresponda a una frontera que el sistema mantiene. Eso es, precisamente, lo que este libro llama encapsulación existencial. La equivalencia entre ambas es una hipótesis de trabajo, no un teorema.
 
 > **En física esto se llama:** energía libre de Helmholtz (F = U − TS) y, en neurociencia teórica, energía libre variacional (Friston): una cota superior de la sorpresa.  
 > **En la vida diaria es como:** el gasto de calefacción. Una casa a 21 grados con nieve fuera no está «caliente»: está pagando cada hora para no ser la nieve.
@@ -99,17 +101,29 @@ Las tres magnitudes no compiten, porque responden a preguntas distintas sobre el
 
 Una consecuencia deliberada: el grado de un horizonte ya no es un número, sino una terna. Φ comprimía todo en una sola cifra y de ahí venía parte de su comodidad y de sus paradojas. Un perro, un niño de dos años y un anciano con Alzheimer no se ordenan bien en una recta; se ordenan mejor en un espacio con tres ejes, donde cada uno destaca en uno distinto.
 
-Φ no desaparece del todo. Sigue siendo una buena descripción de la *estructura interna* de la integración en un instante, y puede leerse como una sombra bidimensional de esta geometría. Pero deja de ser la definición del grado. Pasa de ser el criterio a ser uno de los síntomas.
+Φ no desaparece. Pasa de ser la definición del grado a cumplir una tarea más acotada, que la sección siguiente precisa.
 
 Y con las tres magnitudes, el ciclo entero del horizonte, que el libro ha contado por partes, se puede decir en una sola línea:
 
-- **Condensación.** Un horizonte nace cuando cerrar una frontera resulta termodinámicamente más barato que no cerrarla: por debajo de cierta temperatura crítica, la fase ordenada tiene menor energía libre que la desordenada. Es la transición de fase del capítulo 6, dicha con una desigualdad.
+- **Condensación.** Un horizonte nace cuando cerrar una frontera resulta termodinámicamente más barato que no cerrarla: por debajo de cierta temperatura crítica, la fase ordenada tiene menor energía libre que la desordenada. Es la transición de fase del capítulo 6, dicha con una desigualdad. La desigualdad es lo que el modelo postula, no lo que ha derivado: en física de fases se demuestra para sistemas concretos, con un hamiltoniano a la vista, y aquí no lo tenemos.
 - **Existencia.** Mientras dura, el horizonte mantiene su borde pagando energía libre y acumula acción entrópica: memoria, correlaciones, vínculos, historia.
 - **Evaporación.** Ocurre cuando el sistema ya no puede pagar. El borde se afloja, la entropía que sostenía se dispersa hacia el reservorio y sufre *scrambling* (capítulo 7). La acción acumulada no se borra, en el sentido de que las correlaciones no se destruyen, pero se vuelve inaccesible.
 
 La frase que resume la propuesta es esta: *un horizonte es una región que minimiza su energía libre para sostener su frontera, acumulando acción entrópica a lo largo de su historia.*
 
-## VI. Qué hace con el postulado de exclusión
+## VI. Lo que la tríada no mide: la irreducibilidad
+
+Aquí está la objeción más seria a todo lo anterior, y conviene formularla sin suavizarla.
+
+Imagina un hormiguero. Tiene un borde grande (el nido y su territorio), un coste de mantenimiento enorme (miles de individuos alimentándose, defendiéndose, renovándose) y una historia larga. Por la tríada, puntúa alto en las tres coordenadas. Y sin embargo el capítulo 31 sostuvo, con razón, que en el hormiguero no hay nadie: hay miles de horizontes minúsculos y, por encima, una integración agregativa, la que se descompone sin pérdida en las aportaciones de cada parte. Lo mismo vale para una ciudad amurallada, o para internet.
+
+Ese descarte lo hacía Φ, precisamente porque mide irreducibilidad: cuánto sabe el todo que no saben sus partes. Las tres magnitudes de la tríada no miden eso. Dicen *cuánto* borde, *cuánto* coste y *cuánto* tiempo; no dicen si esos tres valores son de un sujeto o de una suma. Por eso sería un error prescindir de Φ: la tríada, sola, deja entrar al hormiguero.
+
+Hay una manera de recuperar el criterio en el lenguaje de la energía libre, y es una propuesta, no un resultado: exigir que la energía libre del conjunto no pueda descomponerse como la suma de las de sus partes, es decir, que el todo no pueda minimizarse parte a parte sin perder algo. Es la versión, en coste y no en información, de lo que Φ pretende medir. Un hormiguero se deja minimizar hormiga a hormiga; un cerebro, a la luz de lo que sabemos, no. Si esa condición se puede precisar y medir es una pregunta abierta.
+
+Mientras tanto, la forma honesta de decirlo es esta: la tríada da las tres coordenadas de un horizonte; la irreducibilidad, medida por Φ o por algo equivalente, es el filtro que decide si hay un horizonte al que aplicárselas. Sin las tres coordenadas, Φ no dice cuánto cuesta ni cuánto ha vivido; sin el filtro, las tres coordenadas se aplican a cualquier cosa que tenga paredes. Se necesitan las dos cosas.
+
+## VII. Qué hace con el postulado de exclusión
 
 Se ha dicho que este marco «supera» el postulado de exclusión. Conviene medir bien lo que puede y no puede afirmarse.
 
@@ -117,11 +131,13 @@ Lo que sí hace es cambiar la naturaleza de la pregunta. Con Φ, la respuesta a 
 
 Lo que no hace es disolver el problema. En el formalismo de Friston las mantas de Markov pueden anidarse: una célula dentro de un órgano dentro de un organismo, cada una con su frontera y su coste. La pregunta de si hay una experiencia en cada nivel, o solo en uno, reaparece con otra forma. El capítulo 22 propuso al testigo que no compite como salida; la tríada no la contradice, pero tampoco la sustituye. Sencillamente, ofrece un lugar donde mirar.
 
-## VII. Lo que la tríada no es
+## VIII. Lo que la tríada no es
 
 Tres advertencias, en el espíritu de este libro.
 
 **No es una medida operativa.** Nadie sabe hoy calcular S, F y 𝒜 para un cerebro con la precisión que el formalismo exige. Son magnitudes bien definidas en el papel y candidatas a aproximarse con datos reales (consumo metabólico, tasas de error de predicción, entropía de las señales neuronales), pero esa traducción está por hacer.
+
+**No es, por sí sola, un criterio de sujeto.** Como acaba de verse, necesita el filtro de la irreducibilidad para no confundir un horizonte con un mecanismo grande y caro de mantener.
 
 **No es una explicación de la experiencia.** Como sus predecesoras, la tríada describe la estructura de un horizonte, no su textura. Puede decir cuánto cuesta sostener una frontera y cuánto tiempo se ha sostenido; no puede decir por qué, dentro de esa frontera, hay alguien a quien le duela. El problema difícil, que el capítulo 34 dejó en su sitio, sigue en su sitio.
 
@@ -135,10 +151,10 @@ Con todo, hay algo en la tríada que un lector de todo el libro reconoce como pr
 >
 > **Lo que sí sabemos:** La entropía de un agujero negro es proporcional al área de su horizonte (Bekenstein, Hawking). La energía libre de Helmholtz es una magnitud termodinámica estándar. La energía libre variacional es un objeto matemático bien definido de la inferencia variacional y de la neurociencia computacional. En el formalismo de Friston, la acción libre es la integral temporal de la energía libre.
 >
-> **Lo que no sabemos:** Si la energía libre variacional de Friston y la termodinámica de Helmholtz son la misma cantidad en sistemas vivos o solo análogas. Si el principio de la energía libre es una ley empírica o un marco descriptivo. Si S, F y 𝒜 pueden estimarse en un cerebro real. Cuál de las dos definiciones de acción entrópica es la adecuada. Si la tríada supera de verdad a Φ o solo lo reordena.
+> **Lo que no sabemos:** Si la energía libre variacional de Friston y la termodinámica de Helmholtz son la misma cantidad en sistemas vivos o solo análogas. Si el principio de la energía libre es una ley empírica o un marco descriptivo. Si S, F y 𝒜 pueden estimarse en un cerebro real. Cuál de las dos definiciones de acción entrópica es la adecuada. Si la tríada supera de verdad a Φ o solo lo reordena. Si la irreducibilidad puede expresarse en términos de energía libre. Si la manta de Markov es una frontera física o solo una partición estadística. Qué sería la temperatura del reservorio.
 >
 > **Preguntas que quedan:** ¿Puede una terna capturar la diferencia entre un perro, un niño y un anciano mejor que un número? ¿Es la conciencia una magnitud que se acumula o una que se tiene en cada instante? Si un horizonte es lo que se paga por mantener, ¿qué pasa con lo que se sostiene sin esfuerzo?
 >
 > **Si solo te quedas con una idea:** Un horizonte no es una frontera que está ahí, sino una frontera que se sostiene. Su tamaño, lo que cuesta y el tiempo que lleva sosteniéndose son tres cosas distintas.
 >
-> **Lecturas:** Bekenstein, J. D. (1973), «Black Holes and Entropy»; Hawking, S. W. (1975), «Particle creation by black holes»; Schrödinger, E. (1944), *¿Qué es la vida?*; Friston, K. (2010), «The free-energy principle: a unified brain theory?»; Friston, K. (2013), «Life as we know it»; Kirchhoff, M. et al. (2018), «The Markov blankets of life»; Tononi, G. (2008), «Consciousness as Integrated Information: A Provisional Manifesto»; Prigogine, I. (1977), conferencia Nobel sobre estructuras disipativas.
+> **Lecturas:** Bekenstein, J. D. (1973), «Black Holes and Entropy»; Hawking, S. W. (1975), «Particle creation by black holes»; Schrödinger, E. (1944), *¿Qué es la vida?*; Friston, K. (2010), «The free-energy principle: a unified brain theory?»; Friston, K. (2013), «Life as we know it»; Kirchhoff, M. et al. (2018), «The Markov blankets of life»; Bruineberg, J., Dolega, K., Dewhurst, J. y Baltieri, M. (2022), «The Emperor's New Markov Blankets»; Tononi, G. (2008), «Consciousness as Integrated Information: A Provisional Manifesto»; Prigogine, I. (1977), conferencia Nobel sobre estructuras disipativas.

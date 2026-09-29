@@ -449,7 +449,29 @@
     },
     {
       "id": "cap_glosario",
-      "content_file": "../content/ensayo/cap_glosario.es.md"
+      "content_file": "../content/ensayo/cap_glosario.es.md",
+      "replace": [
+        [
+          "El capítulo 53",
+          "El capítulo 39"
+        ],
+        [
+          "el capítulo 54",
+          "el capítulo 40"
+        ],
+        [
+          "(capítulo 53)",
+          "(capítulo 39)"
+        ],
+        [
+          "(capítulo 53",
+          "(capítulo 39"
+        ],
+        [
+          "capítulo 54)",
+          "capítulo 40)"
+        ]
+      ]
     },
     {
       "id": "cap_notas_cierre",

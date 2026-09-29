@@ -6,7 +6,7 @@ chapterNumber: Glosario
 
 **Absoluto epistemológico**: lo que es último no porque no haya nada detrás, sino porque desde aquí no se puede mirar detrás; el estatuto que la lectura *La realidad fractal* concede al vecino de arriba.
 
-**Acción entrópica (𝒜 = ∫ S dt)**: integral de la entropía del borde a lo largo de la trayectoria de un horizonte; mide cuánto espacio privado ha sostenido y durante cuánto tiempo, y sustituye la fotografía instantánea de Φ por una biografía acumulada. Puede definirse sobre el exceso de entropía respecto del equilibrio o como acción libre, ∫ F dt (capítulos 53 y 54).
+**Acción entrópica (𝒜 = ∫ S dt)**: integral de la entropía del borde a lo largo de la trayectoria de un horizonte; mide cuánto espacio privado ha sostenido y durante cuánto tiempo, y añade una biografía acumulada a la fotografía instantánea de Φ. Puede definirse sobre el exceso de entropía respecto del equilibrio o como acción libre, ∫ F dt (capítulo 53 y capítulo 54).
 
 **Activación** (*arousal*): nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
 
@@ -154,7 +154,7 @@ chapterNumber: Glosario
 
 **Permeabilidad del horizonte**: cuánta señal ajena deja pasar un horizonte hacia dentro; el grosor de la piel emocional que el capítulo 16 asocia a la empatía y al desgaste empático.
 
-**Phi (Φ)**: cantidad de información integrada; en el libro, mide el *grado* de un horizonte. Su forma la da la encapsulación y su origen, las dos selecciones (capítulo 4). Los capítulos 53 y 54 proponen sustituirlo como medida del grado por la tríada del horizonte; Φ queda como descripción de la integración en un instante.
+**Phi (Φ)**: cantidad de información integrada; en el libro, mide el *grado* de un horizonte. Su forma la da la encapsulación y su origen, las dos selecciones (capítulo 4). El capítulo 53 y el capítulo 54 lo reordenan con la tríada del horizonte y le asignan el papel de filtro de irreducibilidad: lo que distingue un horizonte de una suma.
 
 **Principio holográfico**: idea de que toda la información contenida en un volumen puede describirse por una teoría definida en su frontera.
 
@@ -200,7 +200,7 @@ chapterNumber: Glosario
 
 **Transición de fase**: cambio cualitativo en la organización de un sistema; en el libro, describe el nacimiento y la muerte del horizonte.
 
-**Tríada del horizonte**: las tres magnitudes (entropía del borde, energía libre y acción entrópica) con que el libro propone medir el grado de un horizonte en lugar de Φ: cuán grande es el borde, cuánto cuesta sostenerlo y cuánta vida ha acumulado (capítulos 53 y 54).
+**Tríada del horizonte**: las tres magnitudes (entropía del borde, energía libre y acción entrópica) con que el libro propone medir el grado de un horizonte: cuán grande es el borde, cuánto cuesta sostenerlo y cuánta vida ha acumulado. Requiere el filtro de irreducibilidad de Φ para no aplicarse a sistemas meramente agregativos (capítulo 53 y capítulo 54).
 
 **Umbral de integración**: cantidad mínima de información integrada (Φ) necesaria para sostener un horizonte de conciencia; por debajo de él, el sistema carece de punto de vista.
 
