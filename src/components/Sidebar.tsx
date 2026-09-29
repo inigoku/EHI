@@ -58,9 +58,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
   onJovenViewModeChange,
 }) => {
   const t = uiStrings[language];
-  const getTitle = (c: Chapter) => (language === "en" && c.titleEn ? c.titleEn : c.title);
-  const getSection = (c: Chapter) => (language === "en" && c.sectionEn ? c.sectionEn : c.section);
-  const getSubtitle = (c: Chapter) => (language === "en" && c.subtitleEn ? c.subtitleEn : c.subtitle);
+  const getTitle = (c: Chapter) =>
+    language === "en" && c.titleEn ? c.titleEn : language === "ca" && c.titleCa ? c.titleCa : c.title;
+  const getSection = (c: Chapter) =>
+    language === "en" && c.sectionEn ? c.sectionEn : language === "ca" && c.sectionCa ? c.sectionCa : c.section;
+  const getSubtitle = (c: Chapter) =>
+    language === "en" && c.subtitleEn ? c.subtitleEn : language === "ca" && c.subtitleCa ? c.subtitleCa : c.subtitle;
   const [searchQuery, setSearchQuery] = React.useState<string>("");
   const [completedChapters, setCompletedChapters] = React.useState<string[]>([]);
 

@@ -42,6 +42,19 @@ export const LanguageToggle: React.FC<LanguageToggleProps> = ({ language, setLan
       >
         EN
       </button>
+      <button
+        onClick={() => setLanguage("ca")}
+        className={`px-2 py-1 transition-colors cursor-pointer ${
+          language === "ca"
+            ? "bg-amber-500 text-slate-950"
+            : isDark
+            ? "text-white/60 hover:text-white"
+            : "opacity-60 hover:opacity-100"
+        }`}
+        aria-pressed={language === "ca"}
+      >
+        CA
+      </button>
     </div>
   );
 };

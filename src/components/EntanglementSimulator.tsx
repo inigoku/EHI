@@ -33,7 +33,7 @@ interface VineLeaf {
 }
 
 export const EntanglementSimulator: React.FC<EntanglementSimulatorProps> = ({ language, theme }) => {
-  const isEs = language === "es";
+  const isEs = language !== "en"; // Catalan has no dedicated dataset yet; default to the Spanish one.
 
   // Distance between the two black hole horizons (from 70px to 250px)
   const [distance, setDistance] = useState<number>(110);

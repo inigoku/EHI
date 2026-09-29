@@ -23,7 +23,8 @@ export const JournalViewer: React.FC<JournalViewerProps> = ({
   language,
 }) => {
   const t = uiStrings[language].journal;
-  const getTitle = (c: Chapter) => (language === "en" && c.titleEn ? c.titleEn : c.title);
+  const getTitle = (c: Chapter) =>
+    language === "en" && c.titleEn ? c.titleEn : language === "ca" && c.titleCa ? c.titleCa : c.title;
   const [tab, setTab] = React.useState<"reflexiones" | "dialogos">("reflexiones");
   const [reflections, setReflections] = React.useState<{ [key: string]: string }>({});
   const [copiedId, setCopiedId] = React.useState<string | null>(null);

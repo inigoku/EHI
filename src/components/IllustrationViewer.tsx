@@ -536,8 +536,10 @@ const imageMap: Record<string, string> = {
 export const IllustrationViewer: React.FC<IllustrationViewerProps> = ({ illustration, variant = "default", language = "es", aloneOpen = false, onAloneClose }) => {
   if (!illustration) return null;
 
-  const zoomHint = language === "en" ? "Double click to enlarge" : "Doble clic para ampliar";
-  const closeLabel = language === "en" ? "Close enlarged view" : "Cerrar ampliación";
+  const zoomHint =
+    language === "en" ? "Double click to enlarge" : language === "ca" ? "Doble clic per ampliar" : "Doble clic para ampliar";
+  const closeLabel =
+    language === "en" ? "Close enlarged view" : language === "ca" ? "Tancar ampliació" : "Cerrar ampliación";
 
   const [isOpen, setIsOpen] = React.useState<boolean>(false);
   const imgSrc = imageMap[illustration.id];

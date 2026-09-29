@@ -15,9 +15,15 @@ const enModules = import.meta.glob("/content/poemas/*.en.md", {
   import: "default",
   eager: true,
 }) as Record<string, string>;
+const caModules = import.meta.glob("/content/poemas/*.ca.md", {
+  query: "?raw",
+  import: "default",
+  eager: true,
+}) as Record<string, string>;
 
 const esById = indexByChapterId(esModules, ".es.md");
 const enById = indexByChapterId(enModules, ".en.md");
+const caById = indexByChapterId(caModules, ".ca.md");
 
 const ORDER = [
   "poema_burbuja",
@@ -102,6 +108,14 @@ export const poemasList: Chapter[] = ORDER.map((id) => {
     chapter.titleEn = en.data.title;
     chapter.sectionEn = en.data.section;
     chapter.contentEn = en.content;
+  }
+
+  const caRaw = caById.get(id);
+  if (caRaw) {
+    const ca = parseFrontmatter(caRaw);
+    chapter.titleCa = ca.data.title;
+    chapter.sectionCa = ca.data.section;
+    chapter.contentCa = ca.content;
   }
 
   return chapter;

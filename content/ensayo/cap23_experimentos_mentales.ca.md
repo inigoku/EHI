@@ -1,0 +1,75 @@
+---
+title: QUATRE EXPERIMENTS PER A UN HORITZÓ
+section: TERCERA PART: ELS LÍMITS DE L'HORITZÓ
+chapterNumber: 24
+linkedChapterId: cap22_idempotencia
+illustrationId: il23_1
+illustrationTitle: Quatre experiments per a un horitzó
+illustrationDescription: Quatre instruments de mesura imaginaris —un sismògraf, una balança, un espectròmetre, una brúixola— disposats sobre una taula davant d'un horitzó de forat negre dibuixat a mà, com si algú intentés mesurar-lo amb eines d'un altre segle.
+---
+
+## I. Per què cal aquest capítol
+
+El capítol anterior va estendre quatre ponts amb una cura gairebé notarial: a cadascun va assenyalar on acaba la física establerta i on comença la hipòtesi. Aquesta prudència té un preu, i cal pagar-lo aquí. Un lector atent pot acceptar cada pont per separat i preguntar-se, al final, una cosa molt senzilla: d'acord, l'ombra niada i l'ombra disjunta són dues imatges diferents, però què veuria jo al món que canviés segons quina de les dues fos certa? Si la resposta és «res, en principi, permetria distingir-les», tot l'aparell, per elegant que sigui, és decoratiu: una manera vistosa de dir el que ja sabíem, no una teoria que s'arrisca.
+
+Aquest capítol no resol aquesta pregunta d'una vegada per totes (cap teoria de la consciència ho fa encara), però sí que fa el treball mínim que ha de fer qualsevol proposta amb pretensions científiques: proposar, per a cada pont, un experiment mental que especifiqui quina observació el confirmaria i quina el refutaria. Són experiments *mentals* en el sentit més antic de l'expressió, que ningú podria dur a terme demà: dispositius per posar a prova una idea davant les seves pròpies conseqüències abans que la tecnologia permeti fer-ho de veritat.
+
+Els quatre experiments no es corresponen un a un amb els quatre ponts, i convé dir expressament a quina aposta respon cadascun: el de la bessona topològica posa a prova l'ombra disjunta que es recolza en el tercer pont, el de l'entrellaçament; el de l'evaporació mesurada, l'evaporació cap al reservori (segon i quart ponts); el de la inundació distingible, la lectura de la psicosi com a fallada del filtre cap al reservori; i el de la persona sense forat negre, l'«absència de cabells» de l'apartat II. No són del mateix tipus, i també convé dir-ho: el primer és fonamentalment computacional (requereix aplicar un mètode ja existent a dades que amb prou feines comencem a poder recollir); el segon i el tercer són observacionals, dels quals la neuroimatge podria abordar en principi amb instruments més fins que els actuals; i el quart és el més filosòfic, més proper a una prova d'existència lògica que a un protocol de laboratori.
+
+## II. Primer experiment: la bessona topològica
+
+**La pregunta que posa a prova:** si l'ombra és un horitzó niat dins de l'ego o un complex disjunt veí, el problema que el capítol 23 va resoldre per aposta i no per deducció.
+
+**L'experiment.** La teoria de la informació integrada disposa ja d'un mètode operatiu, encara que costós de calcular, per trobar el Phi màxim d'un sistema: es proven totes les particions possibles del sistema en subconjunts, es mesura quanta informació causal es perd en tractar les parts de cada partició com a independents i s'identifica la que menys perd (el «tall mínim») com la frontera real del sistema integrat. Apliquem aquest mètode, almenys sobre el paper, a una persona durant un procés psicoterapèutic d'integració de material reprimit: una ombra que comença a manifestar-se més sovint en somnis, lapsus i símptomes.
+
+Si l'ombra estigués genuïnament niada dins de l'ego, el mètode hauria de trobar en tot moment un únic complex maximal que inclogués tots dos: qualsevol partició que intentés separar «ego» i «ombra» perdria més informació de la que guanyaria, perquè estarien fosos en una sola estructura causal. Si l'ombra és, com proposa el capítol 23, un complex disjunt, el mètode hauria de trobar dos màxims locals d'integració (dos complexos, cadascun amb el seu propi Phi i maximal *dins de la seva pròpia partició*) units per un canal d'informació mesurable, però no dominant.
+
+Convé dir sense embuts que aquest experiment fa servir la IIT com a eina operativa per localitzar la frontera d'integració, no com a veredicte tancat sobre la naturalesa de la consciència. La pròpia teoria arrossega debats seriosos (la impossibilitat pràctica de calcular Phi amb exactitud en sistemes grans i una discussió interna no resolta sobre el seu postulat d'exclusió), i qualsevol resultat obtingut amb aquest mètode s'hauria d'interpretar tenint-los presents, no com si el mètode fos neutral.
+
+**Què distingiria un resultat de l'altre.** En el cas niat, qualsevol intervenció terapèutica que augmenti la comunicació entre el conscient i el reprimit hauria, segons el model, d'*augmentar* el Phi d'un únic complex cada cop més gran: una sola corba ascendent. En el cas disjunt, la mateixa intervenció s'hauria de traduir en dues corbes de Phi que es mantenen com a màxims locals separats mentre augmenta, en paral·lel, la informació mútua *entre* elles: dos pics que s'acosten sense fondre's. La diferència no és subtil: un model prediu una sola cresta que creix; l'altre, dues crestes que es comuniquen cada cop millor sense deixar de ser dues. Amb una neuroimatge prou fina (avui no la tenim, però el criteri ja es pot escriure), seria observable en principi.
+
+## III. Segon experiment: l'evaporació mesurada
+
+**La pregunta que posa a prova:** si la dissolució de l'ego s'evapora cap al reservori, un fons comú amb el qual queda correlacionat, o cap a un simple buit, sense deixar un rastre estructurat.
+
+**L'experiment.** Comparem dos processos de dissolució del sentit d'un mateix: un provocat de forma brusca i traumàtica (una dissociació aguda) i un altre cultivat de forma gradual i sostinguda (dècades de pràctica contemplativa avançada). El model de l'«evaporació cap al buit» prediu que tots dos haurien de convergir, en la seva fase final, en el mateix estat: absència d'estructura, soroll, una caiguda plana de qualsevol mesura d'integració. El model de l'«evaporació cap al reservori» prediu quelcom diferent i més concret: en el procés gradual, la caiguda del Phi del complex individual hauria d'anar acompanyada d'un *augment* mesurable de la informació mútua entre aquesta persona i el seu entorn (més sincronia fisiològica amb les persones presents, més correlació entre la seva activitat neural i estímuls ambientals que abans processava com a del tot externs). No desaparició, sinó redistribució: allò que l'individu perd com a Phi propi hauria de reaparèixer, almenys en part, com a informació compartida amb el fons.
+
+**Què distingiria un resultat de l'altre.** Si els dos tipus de dissolució, el traumàtic i el contemplatiu, mostren la mateixa caiguda plana sense guany compensatori en cap altra part del sistema, el model del reservori perd la seva predicció distintiva i es queda, sent sincers, en poesia. Si, en canvi, la dissolució contemplativa mostra aquest trasllat (menys integració pròpia, més correlació amb l'entorn) i la traumàtica no, el capítol 23 tindria alguna cosa que cap model de «buit sense més» prediria amb la mateixa precisió: dues formes de perdre el tancament que no es distingeixen per com es viuen, sinó per on va la informació que es perd.
+
+Perquè la comparació sigui neta, els dos grups s'haurien d'aparellar per edat, nivell inicial d'integració i durada total del procés, de manera que l'única variable lliure fos el tipus de dissolució. I la definició operativa del reservori com a complement de les clausures pròpies indica a més on buscar, no només què buscar: si R és, per construcció, tot allò que encara no està tancat a X, la redistribució hauria d'aparèixer precisament a l'entorn immediat del subjecte (la sincronia fisiològica amb les persones presents durant el procés), no en qualsevol racó del sistema triat a l'atzar. La variable decisiva no és la velocitat amb què cau el Phi propi, que pot ser semblant en tots dos casos, sinó la presència o absència d'aquest guany concret a l'entorn immediat.
+
+## IV. Tercer experiment: la inundació distingible
+
+**La pregunta que posa a prova:** si la psicosi, tal com la descrivim al final del capítol anterior, és una fallada específica del filtratge cap al reservori i no un simple deteriorament general de la funció cognitiva.
+
+**L'experiment.** Si el model és correcte, la psicosi hauria de tenir una signatura diferent de la d'altres estats de deteriorament cognitiu greu amb els quals de vegades es confon superficialment, com una demència avançada o una intoxicació greu. La predicció concreta: en la psicosi, la informació mútua entre el subjecte i el seu entorn (o entre regions de la seva pròpia activitat neural que normalment romanen separades) hauria d'*augmentar* de forma anòmala just abans o durant els episodis al·lucinatoris, fins i tot quan *cau* el Phi del complex central, el que sosté una identitat narrativa coherent. És a dir: menys integració pròpia i més entrellaçament indiscriminat amb tota la resta, alhora. En una demència per deteriorament general, en canvi, el model prediu que totes dues quantitats haurien de caure juntes: menys Phi propi i també menys correlació amb l'entorn, perquè no hi ha una fallada de filtratge, sinó una pèrdua general de capacitat de processament.
+
+**Què distingiria un resultat de l'altre.** De les quatre, aquesta és la predicció més arriscada, perquè contradiu la intuïció que «més símptomes» hauria de significar sempre «menys de tot». Si s'observés que els episodis psicòtics aguts mostren aquest patró concret (un augment de la correlació indiscriminada amb l'entorn simultani a la caiguda del Phi central, i no una caiguda general de tots dos), seria una confirmació real i sorprenent. Si, per contra, la psicosi resultés indistingible en aquest perfil de qualsevol altre deteriorament cognitiu greu, el model de la «inundació des del reservori» perdria bona part de la seva força explicativa, i caldria admetre que, almenys en aquest marc, la psicosi no és més que soroll.
+
+Per això mateix és també l'experiment que millor distingiria aquest model del més senzill dels seus rivals: cap model que tracti la psicosi com un mer deteriorament general de la funció integradora prediria aquesta signatura concreta (el Phi cau mentre puja la correlació amb l'entorn), perquè un deteriorament general prediu, sense més, que tot cau alhora. És l'única de les quatre proves en què una teoria rival evident fa, sobre el paper, una predicció diferent i contrària, i no simplement més vaga.
+
+## V. Quart experiment: la persona sense forat negre
+
+**La pregunta que posa a prova:** si la interfície pública d'una persona, el que en capítols anteriors hem anomenat la persona junguiana, perd sistemàticament informació sobre el seu estat intern, igual que l'horitzó d'un forat negre perd tota la biografia del que va caure a dins i conserva només tres números.
+
+**L'experiment.** Si l'analogia amb el teorema de l'«absència de cabells» és correcta, hauria de poder-se demostrar, i no només intuir-se, que dos estats interns realment diferents (dues configuracions de Phi diferents, dues històries d'integració diferents) poden produir exactament la mateixa interfície observable: la mateixa conducta, el mateix discurs, les mateixes respostes a un qüestionari estàndard. Amb la notació que ja vam establir per a l'espai total X: per a qualsevol conjunt finit d'observables O definits sobre la interfície pública (la persona), haurien d'existir dos estats \(S_1, S_2 \in X\) amb \(\Phi(S_1) \neq \Phi(S_2)\), però \(O(S_1) = O(S_2)\). Dit d'una altra manera: la projecció de X sobre el conjunt d'observables públics no és injectiva. Però convé no enganyar-se: amb un nombre finit d'observables i un espai d'estats enorme, aquesta no injectivitat està garantida d'entrada i no arrisca res. La versió que sí arrisca és més forta: que Φ sigui una direcció de l'espai d'estats que cap conjunt d'observables públics, per molt que creixi, arribi a resoldre; és a dir, que afegir mesures conductuals no augmenti la informació que tenim sobre Φ. Això sí que es pot refutar: n'hi hauria prou de trobar observables públics la combinació dels quals predigués Φ cada cop millor.
+
+**Què distingiria un resultat de l'altre.** En principi, es posaria a prova mostrant parelles de subjectes amb perfils d'integració neural mesurablement diferents (patrons de Phi diferents, arquitectures de complexos diferents) que, tanmateix, es projecten sobre el mateix perfil O en qualsevol bateria disponible de mesures conductuals o d'autoinforme. Si aquestes parelles \(S_1, S_2\) existeixen i es poden documentar, la persona es comporta, com prediu el capítol 23, com un horitzó amb la seva pròpia «absència de cabells». Si, per contra, tota diferència interna mesurable en Phi acaba manifestant-se tard o d'hora en alguna diferència detectable en O, l'analogia és més feble del que suggereix el capítol, i la persona seria menys una superfície que oblida que una superfície que, senzillament, triga a mostrar-ho tot.
+
+## VI.
+
+Cap d'aquests quatre experiments es pot fer avui amb la precisió que requeririen. Però un experiment mental no val per allò que mesura ara, sinó per donar a una teoria alguna cosa a perdre. I aquests quatre l'hi donen.
+
+---
+
+> **Nota al Capítol 24**
+>
+> **El que sí sabem:** Que la teoria de la informació integrada ja disposa d'un mètode operatiu, la cerca del tall mínim, capaç de generar en principi les corbes de Phi que necessita el primer experiment; i que la informació mútua entre sistemes és una quantitat mesurable amb la neurociència actual, encara que no amb la resolució que aquests experiments exigirien a la pràctica.
+>
+> **El que no sabem:** Si algun dels quatre experiments serà tècnicament viable amb els instruments de les properes dècades o es quedarà en un criteri de principi impossible d'aplicar; i si un resultat negatiu en qualsevol d'ells s'hauria de prendre com a refutació del pont concret que posa a prova o només com a indici que la traducció entre el formalisme físic i el psíquic necessita més feina abans de sotmetre's a una prova de veritat.
+>
+> **Preguntes que queden:** Hi ha ja a la literatura clínica o de neuroimatge alguna dada, encara que no es recollís amb aquesta idea, que es pugui rellegir amb algun d'aquests quatre criteris? I quin dels quatre, si calgués intentar de veritat només un, ofereix la millor relació entre el que costaria i el que s'aprendria si fallés?
+>
+> **Si només et quedes amb una idea:** Una teoria que no pot perdre res tampoc pot ensenyar res; aquests quatre experiments són el preu que aquest llibre pretengui ensenyar alguna cosa.
+>
+> **Lectures:** Oizumi, M., Albantakis, L. i Tononi, G. (2014), «From the phenomenology to the mechanisms of consciousness: Integrated Information Theory 3.0»; Tononi, G., Boly, M., Massimini, M. i Koch, C. (2016), «Integrated information theory: from consciousness to its physical substrate»; Cover, T. M. i Thomas, J. A. (2006), *Elements of Information Theory*.
