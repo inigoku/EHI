@@ -45,6 +45,8 @@ Bailey, J.M., & Pillard, R.C. (1991). A Genetic Study of Male Sexual Orientation
 
 Bekenstein, J.D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8).
 
+Bekenstein, J.D. (1981). Universal upper bound on the entropy-to-energy ratio for bounded systems. *Physical Review D*, 23(2).
+
 Bekoff, M. (2007). *The Emotional Lives of Animals*. New World Library.
 
 Bell, J.S. (1964). On the Einstein Podolsky Rosen Paradox. *Physics Physique Fizika*, 1(3).
@@ -63,6 +65,8 @@ Bostrom, N. (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford Univ
 
 Bradshaw, J. (2017). *The Animals Among Us: How Pets Make Us Human*. Basic Books.
 
+Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's New Markov Blankets. *Behavioral and Brain Sciences*, 45.
+
 Burke, S. (2018). *Semiosis*. Tor Books.
 
 Casimir, H.B.G. (1948). On the Attraction Between Two Perfectly Conducting Plates. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen*, 51.
@@ -78,6 +82,8 @@ Coan, J.A., & Beckes, L. (2011). Social baseline theory. In: *Handbook of Person
 Coan, J.A., & Sbarra, D.A. (2015). Social baseline theory: The social regulation of risk and effort. *Current Opinion in Psychology*, 1.
 
 Coeckelbergh, M. (2023). *La filosofía política de la inteligencia artificial*. Cátedra.
+
+Coffman, V., Kundu, J., & Wootters, W.K. (2000). Distributed entanglement. *Physical Review A*, 61(5).
 
 Colapinto, J. (2000). *As Nature Made Him: The Boy Who Was Raised as a Girl*. HarperCollins.
 
@@ -241,6 +247,8 @@ Maldacena, J. (1998). The Large N limit of superconformal field theories and sup
 
 Maldacena, J., & Susskind, L. (2013). Cool horizons for entangled black holes. *Fortschritte der Physik*, 61(9).
 
+Maldacena, J., Shenker, S.H., & Stanford, D. (2016). A bound on chaos. *Journal of High Energy Physics*, 2016(8).
+
 Mandelbrot, B.B. (1982). *The Fractal Geometry of Nature*. W.H. Freeman.
 
 Marin-Padilla, M. (2011). The human brain prenatal subplate: its progenitor cells, structural/functional development, and evolution. *Frontiers in Neuroanatomy*, 5.
@@ -267,11 +275,15 @@ O'Sullivan, S.S., et al. (2009). Impulsive-compulsive behaviors in Parkinson's d
 
 Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the phenomenology to the mechanisms of consciousness: Integrated Information Theory 3.0. *PLoS Computational Biology*, 10(5).
 
+Oizumi, M., Tsuchiya, N., & Amari, S. (2016). Unified framework for information integration based on information geometry. *Proceedings of the National Academy of Sciences*, 113(51).
+
 Oppenheimer, J.R., & Snyder, H. (1939). On Continued Gravitational Contraction. *Physical Review*, 56(5).
 
 Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg. (Trad. esp.: *1984*).
 
 Otto, R. (1917). *Das Heilige*. (Trad. esp.: *Lo santo*).
+
+Page, D.N. (1993). Average entropy of a subsystem. *Physical Review Letters*, 71(9).
 
 Page, D.N. (1993). Information in black hole radiation. *Physical Review Letters*, 71(23).
 
@@ -280,6 +292,8 @@ Panksepp, J. (1998). *Affective Neuroscience: The Foundations of Human and Anima
 Parnas, D.L. (1972). On the criteria to be used in decomposing systems into modules. *Communications of the ACM*, 15(12).
 
 Parr, T., Pezzulo, G., & Friston, K.J. (2022). *Active Inference: The Free Energy Principle in Mind, Brain, and Behavior*. MIT Press.
+
+Pearl, J. (1988). *Probabilistic Reasoning in Intelligent Systems*. Morgan Kaufmann.
 
 Perarnau, M. (2014). *Herr Pep*.
 

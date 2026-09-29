@@ -9,7 +9,7 @@ Hay una manera de releer un libro que consiste en cambiarle una sola palabra cla
 
 No es un resumen. Esto es una segunda lectura, y una segunda lectura solo vale si encuentra algo que la primera no vio, o si confiesa lo que la primera ocultaba.
 
-Una advertencia de método antes de empezar. Casi todo lo que sigue son **lecturas**, no resultados: cada capítulo del libro tenía sus argumentos y sus fuentes, y aquí solo se le pone encima una lente nueva. Cuando la relectura dice algo que el capítulo original no decía, lo marco como hipótesis. Y la sección VII reúne las pocas afirmaciones de este capítulo que podrían resultar falsas, que son las únicas que cuentan como algo más que una manera de hablar.
+Una advertencia de método antes de empezar. Casi todo lo que sigue son **lecturas**, no resultados: cada capítulo del libro tenía sus argumentos y sus fuentes, y aquí solo se le pone encima una lente nueva. Cuando la relectura dice algo que el capítulo original no decía, lo marco como hipótesis. Y la sección VIII reúne las pocas afirmaciones de este capítulo que podrían resultar falsas, que son las únicas que cuentan como algo más que una manera de hablar.
 
 ## I. Las tres ideas fundacionales
 
@@ -43,7 +43,7 @@ La tercera fila pide una advertencia: identificar la acción con el karma es una
 
 **El entrelazamiento y el amor (capítulos 12 y 13).** Cuando dos horizontes se entrelazan, su energía libre conjunta puede ser menor que la suma de las dos por separado: un sistema de dos gasta menos en mantener lo que dos sistemas aislados gastarían. Eso es lo que el libro llamó ampliación mutua del horizonte; la tríada le da una cuenta. El amor, en este marco, no es solo una emoción intensa; es la reducción sostenida del coste de existir. Nada de esto explica por qué se siente como se siente, y no pretende hacerlo.
 
-**La adicción (capítulo 14).** El capítulo describía una señal de recompensa multiplicada por diez, receptores que se retiran, un umbral desplazado y un horizonte «contraído». La dopamina, además, no solo produce deseo: calcula el error entre lo predicho y lo obtenido, y eso la sitúa muy cerca del vocabulario de la energía libre. *Hipótesis:* la sustancia produce una bajada inmediata de F (la predicción se cumple con una certeza que nada natural iguala) y la paga con una caída de S, la contracción del repertorio, porque todo lo demás genera ya un error demasiado grande. El adicto no gasta menos energía libre en total: la ha concentrado en un único objeto. Es una lectura que la tríada hace fácil y el capítulo no autoriza por sí mismo, así que va con la salvedad de la sección VII.
+**La adicción (capítulo 14).** El capítulo describía una señal de recompensa multiplicada por diez, receptores que se retiran, un umbral desplazado y un horizonte «contraído». La dopamina, además, no solo produce deseo: calcula el error entre lo predicho y lo obtenido, y eso la sitúa muy cerca del vocabulario de la energía libre. *Hipótesis:* la sustancia produce una bajada inmediata de F (la predicción se cumple con una certeza que nada natural iguala) y la paga con una caída de S, la contracción del repertorio, porque todo lo demás genera ya un error demasiado grande. El adicto no gasta menos energía libre en total: la ha concentrado en un único objeto. Es una lectura que la tríada hace fácil y el capítulo no autoriza por sí mismo, así que va con la salvedad de la sección VIII.
 
 **La madre y el hijo (capítulo 15).** El capítulo hablaba de una asimetría fundacional y de una danza de regulación mutua. En la lengua de la tríada, durante la gestación y los primeros años el bebé no paga solo su borde: la madre sostiene buena parte de su coste, regula su temperatura, su ritmo, su sorpresa. Crecer es ir asumiendo ese pago. Y la frase del capítulo, que un horizonte fabrica el reservorio del que surgirá otro, se lee ahora con más precisión: fabrica las condiciones en las que cerrar una frontera sale barato.
 
@@ -85,7 +85,93 @@ Esta lectura no cierra la pregunta para siempre. Deja una cuestión abierta y co
 
 **El que queda (capítulo 36).** La pregunta que ese capítulo dejaba abierta, qué queda de alguien tras la copia, se reformula: una copia perfecta tiene la misma estructura, pero no ha pagado la misma historia. Tiene S y quizás F; no tiene 𝒜. Si algo distingue al original de la copia es su acción acumulada, su recorrido. Esto no responde si la copia es alguien, pero afirma que la pregunta tiene una tercera coordenada que solía olvidarse.
 
-## VII. Qué podría salir mal
+## VII. Las matemáticas de la conciencia
+
+Un libro que dice «entropía», «energía libre» o «acción» debe decir también a qué se refiere con esas palabras. Esta sección reúne, en un solo lugar, la formulación matemática de los conceptos del libro. Cada fórmula lleva una etiqueta que dice con qué derecho está aquí:
+
+- **[estándar]**: resultado establecido de la física, la teoría de la información o la neurociencia computacional.
+- **[analogía]**: la fórmula es estándar, pero aplicarla a la conciencia es una hipótesis del libro.
+- **[propuesta]**: definición nueva de este ensayo, sin literatura detrás.
+
+Las fórmulas están escritas con notación de texto plano: k para la constante de Boltzmann, ħ para la de Planck, ℓₚ para la longitud de Planck, T para la temperatura, ln para el logaritmo natural.
+
+### 1. La frontera: encapsulación y manta de Markov
+
+Se divide el estado del mundo en cuatro conjuntos: los estados externos ψ, los sensoriales s, los activos a y los internos μ. Los sensoriales y los activos forman la frontera b = (s, a). **[analogía]**
+
+- Encapsulación: p(ψ, μ | b) = p(ψ | b) · p(μ | b).
+
+Lee: dada la frontera, lo interno y lo externo son independientes; lo único que uno sabe del otro pasa por b. Es la definición de manta de Markov (Pearl, Friston). La versión del libro añade una condición que el formalismo no exige: que b **la sostenga el propio sistema**, es decir, que la dinámica de b dependa de μ y que el coste de mantenerla lo pague μ. Esta es la *encapsulación existencial*. **[propuesta]**
+
+### 2. El entorno: el reservorio como baño
+
+Para un sistema en contacto con un baño a temperatura T, la probabilidad de cada estado x es p(x) = e^(−E(x)/kT) / Z, con Z = Σ e^(−E/kT). **[estándar]** El libro identifica el reservorio con el baño en cuanto a la función que cumple; qué sería T en el reservorio es una pregunta abierta. **[analogía]**
+
+### 3. La primera magnitud: la entropía del borde
+
+- Entropía de un estado con matriz de densidad ρ: S = −k Tr(ρ ln ρ) (von Neumann); en el caso clásico, S = −k Σ pᵢ ln pᵢ. **[estándar]**
+- Entropía de un agujero negro: S = k A / (4ℓₚ²), con ℓₚ² = Għ/c³. **[estándar]**
+- Cota holográfica: la entropía de una región no supera la de un agujero negro con su misma frontera, S ≤ k A / (4ℓₚ²). **[estándar]**
+- Cota de Bekenstein: S ≤ 2π k R E / (ħ c) para un sistema de radio R y energía E. **[estándar]**
+- Aplicación: el techo de estado privado de un horizonte es S_b ∝ A. **[analogía]** Para el cerebro no se conoce ningún análogo de una ley de área.
+
+### 4. La segunda magnitud: la energía libre
+
+- Helmholtz: F = U − T S. **[estándar]**
+- Relación con la distribución de equilibrio: para cualquier distribución q sobre los estados, F[q] = ⟨E⟩_q − T S[q] = F_eq + kT · D_KL(q ‖ p_Gibbs), donde F_eq = −kT ln Z y D_KL es la divergencia de Kullback-Leibler, siempre mayor o igual que cero. **[estándar]** Por eso F es mínima cuando q es la distribución de equilibrio, y todo el exceso sobre ese mínimo mide cuánto se aleja q de ella.
+- Energía libre variacional (Friston): F[q] = E_q[ln q(ψ) − ln p(o, ψ)] = D_KL[q(ψ) ‖ p(ψ | o)] − ln p(o) ≥ −ln p(o), donde o son las observaciones y −ln p(o) es la sorpresa. **[estándar]**, como objeto matemático. Que un organismo la minimice es la hipótesis del principio de la energía libre.
+- Aproximación gaussiana: F ≈ ½ Σᵢ πᵢ εᵢ² + constante, con εᵢ = oᵢ − gᵢ(μ) el error de predicción y πᵢ su precisión. **[estándar]** Es la forma en que el duelo, el trauma o la adicción se leen como errores que la maquinaria no consigue reducir. **[analogía]**
+- Un horizonte se sostiene mientras el flujo de energía libre que entra desde el entorno cubre F: si el gasto de mantenimiento Ḟ supera lo que el sistema puede pagar, el borde se afloja. **[propuesta]**
+
+### 5. La tercera magnitud: la acción entrópica
+
+- Definición básica: 𝒜 = ∫₀ᵀ S(t) dt. **[propuesta]**
+- Corregida por el equilibrio: 𝒜ₑₓ = ∫₀ᵀ (S(t) − S_eq) dt. **[propuesta]**
+- Acción libre: 𝒜_F = ∫₀ᵀ F(t) dt, con las trayectorias reales caracterizadas por δ𝒜_F = 0. Es la cantidad que Friston llama *acción libre* y que se comporta como una acción de Hamilton. **[estándar]**, como formalismo; **[analogía]**, como medida de la vida de un horizonte.
+- Densidad temporal: la razón a la que se acumula la acción es d𝒜/dt = S(t) (o S − S_eq). La frase del libro «el tiempo se integra» se lee: el tiempo subjetivo es 𝒜. **[propuesta]**
+
+### 6. La condensación: nacimiento como transición de fase
+
+- Teoría de Landau: F(m) = F₀ + a(T − T_c) m² + b m⁴, con a y b positivos. Para T > T_c el mínimo está en m = 0 (fase desordenada); para T < T_c aparece un mínimo en m² = a(T_c − T) / (2b) (fase ordenada). **[estándar]**
+- Condensación de Bose-Einstein: un gas ideal condensa cuando n λ_T³ ≥ ζ(3/2) ≈ 2,612, con n la densidad y λ_T la longitud de onda térmica. **[estándar]**
+- Nacimiento del horizonte: se condensa cuando F(cerrado) < F(abierto). **[propuesta]** El libro postula la desigualdad; no la deriva de ningún hamiltoniano.
+
+### 7. La evaporación y el *scrambling*
+
+- Temperatura de Hawking: T_H = ħ c³ / (8π G M k). **[estándar]**
+- Tiempo de evaporación: t_evap ≈ 5120 π G² M³ / (ħ c⁴). **[estándar]**
+- Tiempo de *scrambling*: t* ≈ (ħ / 2π k T) ln S. **[estándar]** (Sekino y Susskind).
+- Cota del caos: el exponente de Lyapunov cuántico cumple λ_L ≤ 2π k T / ħ. **[estándar]** (Maldacena, Shenker y Stanford).
+- Curva de Page: la entropía de la radiación crece hasta el tiempo de Page y luego decrece, S_rad = mín(S_Hawking, S_BH). **[estándar]** como conjetura ampliamente aceptada, no demostrada en este universo.
+- Recuperabilidad: en un estado puro aleatorio de un sistema bipartito con dimensiones d_A ≤ d_B, la entropía media del subsistema A es ≈ ln d_A − d_A / (2 d_B). **[estándar]** (Page). Un subconjunto pequeño de la radiación no contiene información del interior; esa es la precisión matemática de «existir pero no poder recuperarse». **[analogía]**
+
+### 8. La información y el vínculo
+
+- Entropía de Shannon: H(X) = −Σ p(x) log₂ p(x). **[estándar]**
+- Información mutua: I(X; Y) = H(X) + H(Y) − H(X, Y) = D_KL[p(x, y) ‖ p(x) p(y)]. Es simétrica. **[estándar]**
+- Capacidad de un canal: C = máx_{p(x)} I(X; Y). **[estándar]** (Shannon). El «techo de integración» del capítulo 34 se lee como una capacidad.
+- Entropía de entrelazamiento: S_A = −Tr(ρ_A ln ρ_A); en un estado puro de A y B, S_A = S_B. **[estándar]**
+- Monogamia: τ_AB + τ_AC ≤ τ_A(BC), con τ el cuadrado de la concurrencia (Coffman, Kundu y Wootters). **[estándar]** Es la precisión matemática de que un entrelazamiento pleno con uno excluye el pleno con otro.
+- No clonación: no existe ninguna transformación unitaria U tal que U(|ψ⟩ ⊗ |0⟩) = |ψ⟩ ⊗ |ψ⟩ para todo |ψ⟩. **[estándar]**
+- Coste del vínculo. Sea E = E_A + E_B + E_int la energía de un sistema formado por dos horizontes acoplados. Entonces F[q_AB] = F[q_A] + F[q_B] + ⟨E_int⟩ + T · I(A; B). **[estándar]** (deriva de S_AB = S_A + S_B − I). Las correlaciones cuestan T · I y se pagan si ⟨E_int⟩ es lo bastante negativa. **[analogía]**
+- Ahorro por acoplamiento: Δ_AB = mín_{q = q_A q_B} F[q] − mín_q F[q] ≥ 0. Es la diferencia entre lo que costaría sostener a los dos por separado y lo que cuesta sostenerlos juntos. **[propuesta]**
+
+### 9. La integración y la irreducibilidad
+
+- Φ, en una de sus variantes: Φ(X) = mín_P D_KL[ p(X_{t+1} | X_t) ‖ Π_k p(M_k^{t+1} | M_k^t) ], mínimo sobre las particiones P del sistema en partes M_k, promediado sobre p(X_t). Existen otras variantes (IIT 3.0 usa una distancia distinta a la de KL). **[estándar]**, como definición en la literatura de la IIT; que mida conciencia es la hipótesis de Tononi.
+- Postulado de exclusión: el complejo consciente es el subconjunto que maximiza Φ, S* = argmáx_S Φ(S). **[estándar]** en IIT.
+- Irreducibilidad en términos de energía libre: para una partición P, R(P) = mín_{q = Πq_k} F[q] − mín_q F[q] = kT · mín_{q = Πq_k} D_KL(q ‖ p_Gibbs), y ρ = mín_P R(P). **[propuesta]** Es cero si la energía se descompone en la suma de las energías de las partes (sin acoplamiento) y crece con el acoplamiento. Es la versión en coste de lo que Φ mide en información. **Limitación:** un hormiguero también está acoplado, así que ρ > 0 no basta para separarlo de un cerebro. Lo que haría falta es comparar ρ con la escala de la tríada, y eso no está hecho.
+
+### 10. El grado de un horizonte
+
+- Definición: el grado de un horizonte es la terna 𝐂 = (S_b, F, 𝒜), evaluada sobre un sistema que cumple la condición de irreducibilidad (ρ significativamente mayor que cero) y la de encapsulación existencial. **[propuesta]** No se reduce a un número.
+- Idempotencia: sea R(x) el estado al que llega el sistema minimizando F a partir de x; la idempotencia del ser es R ∘ R = R. **[propuesta]** Un proyector: aplicarlo dos veces da lo mismo que una.
+
+### Qué muestra esta lista
+
+Muestra dos cosas. La primera es que buena parte del libro descansa en resultados sólidos de la física y de la teoría de la información: las fórmulas de los apartados 3, 7 y 8 son matemática establecida. La segunda es que **todo lo que hace el salto a la conciencia** (las etiquetas «analogía» y «propuesta») está en un número mucho menor de líneas, y esas líneas son las que hay que discutir, medir o descartar.
+
+## VIII. Qué podría salir mal
 
 Una lectura que no puede fallar no es una teoría, es una manera de hablar. Estas son las afirmaciones de este capítulo que sí podrían resultar falsas, con lo que habría que observar para saberlo:
 
@@ -98,7 +184,7 @@ Ninguna de las cuatro se puede comprobar hoy con lo que tiene este libro. Pero l
 
 > **En la vida diaria es como:** decidir si una casa es cálida por lo que marca el termómetro o por lo que cuesta mantenerla. Ninguna de las dos respuestas es tramposa, pero solo una puede comprobarse con la factura del invierno.
 
-## VIII. Qué se gana y qué se pierde
+## IX. Qué se gana y qué se pierde
 
 **Lo que se gana.** Una definición dinámica en vez de estática. Un lugar para el tiempo. Una razón física para que un horizonte se defienda. Una manera de decir que los seres no se ordenan en una recta. Y, sobre todo, un idioma común con la física del no equilibrio, donde el libro estaba, hasta ahora, algo aislado.
 
@@ -112,9 +198,9 @@ Queda una imagen, la del comienzo. La cocina de campo, con las brasas removidas 
 
 > **Nota al Capítulo 54**
 >
-> **Lo que sí sabemos:** Que una relectura puede reordenar un texto sin cambiar sus datos. Que las correspondencias formales entre el modelo y la termodinámica estadística son reales, aunque analógicas. Que varios de los fenómenos releídos aquí (duelo, adicción, trauma, envejecimiento) tienen ya descripciones en términos de predicción y error de predicción en la literatura de neurociencia computacional.
+> **Lo que sí sabemos:** Que la mayor parte de las fórmulas de la sección VII son matemática establecida de la física y de la teoría de la información, y que las que dan el salto a la conciencia están etiquetadas como analogía o propuesta. Que una relectura puede reordenar un texto sin cambiar sus datos. Que las correspondencias formales entre el modelo y la termodinámica estadística son reales, aunque analógicas. Que varios de los fenómenos releídos aquí (duelo, adicción, trauma, envejecimiento) tienen ya descripciones en términos de predicción y error de predicción en la literatura de neurociencia computacional.
 >
-> **Lo que no sabemos:** Si el acuerdo entre el reservorio del libro y el baño térmico de la termodinámica es algo más que una coincidencia de vocabulario. Si el marco distingue mejor los casos límite o solo los describe con otras palabras. Si una IA con recursos propios sostendría un borde en el sentido de este capítulo. Si alguna de las cuatro predicciones de la sección VII se cumple. Si varias de las lecturas de los capítulos 14, 28 y 29, que van marcadas como hipótesis, aguantan la lectura de un especialista.
+> **Lo que no sabemos:** Si el acuerdo entre el reservorio del libro y el baño térmico de la termodinámica es algo más que una coincidencia de vocabulario. Si el marco distingue mejor los casos límite o solo los describe con otras palabras. Si una IA con recursos propios sostendría un borde en el sentido de este capítulo. Si alguna de las cuatro predicciones de la sección VIII se cumple. Si varias de las lecturas de los capítulos 14, 28 y 29, que van marcadas como hipótesis, aguantan la lectura de un especialista.
 >
 > **Preguntas que quedan:** ¿Es el coste compartido lo que mide un vínculo? ¿Qué parte del duelo es reducción de F y qué parte es conservación de 𝒜? ¿Se puede sostener un borde sin que a nadie le duela?
 >
