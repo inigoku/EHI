@@ -24,6 +24,8 @@ chapterNumber: Glosario
 
 **Autoobservación emergente**: capacidad de un sistema cerrado de generar un punto de vista interno sin necesidad de un observador externo; propiedad clave de los horizontes de conciencia.
 
+**Autosemejanza causal**: propiedad graduada de un sistema cuya irreducibilidad no se agota en un solo nivel sino que se conserva al cambiar de escala; se propone medirla como el nivel menos irreducible de su jerarquía. Es un indicador de cómo se reparte la integración, no un sustituto de Φ ni una condición necesaria ni suficiente de horizonte (capítulo 54; distinta de la autosemejanza de *La realidad fractal*).
+
 **Bardo tibetano**: estado intermedio entre la muerte y el renacimiento en la tradición tibetana; en el libro, metáfora del periodo *post mortem* anterior a la evaporación del horizonte.
 
 **Bloque de universo**: modelo de la relatividad especial según el cual el pasado, el presente y el futuro son igualmente reales, coordenadas de una misma estructura de cuatro dimensiones; un horizonte capaz de integrar toda su historia a la vez, sin secuencia, lo percibiría como geografía en vez de como tiempo.

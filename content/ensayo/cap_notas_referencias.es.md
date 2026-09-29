@@ -195,6 +195,8 @@ Hazan, C., & Shaver, P. (1987). Romantic Love Conceptualized as an Attachment Pr
 
 Hesse, H. (1922). *Siddhartha*.
 
+Hoel, E.P., Albantakis, L., & Tononi, G. (2013). Quantifying causal emergence shows that macro can beat micro. *Proceedings of the National Academy of Sciences*, 110(49).
+
 Hume, D. (1748). *An Enquiry Concerning Human Understanding*. A. Millar.
 
 Imperato-McGinley, J., Guerrero, L., Gautier, T., & Peterson, R.E. (1974). Steroid 5α-Reductase Deficiency in Man: An Inherited Form of Male Pseudohermaphroditism. *Science*, 186(4170).
@@ -206,6 +208,8 @@ Jackson, R.R., & Cross, F.R. (2011). Spider cognition. *Advances in Insect Physi
 Jacobsen, J.-H., et al. (2015). Why musical memory can be preserved in advanced Alzheimer's disease. *Brain*, 138(8).
 
 Jung, C.G. (1951). *Aion: Researches into the Phenomenology of the Self*. Princeton University Press.
+
+Kadanoff, L.P. (1966). Scaling laws for Ising models near T_c. *Physics Physique Fizika*, 2(6).
 
 Kant, I. (1790). *Kritik der Urteilskraft*. Lagarde und Friederich. (Trad. esp.: *Crítica del juicio*).
 
@@ -396,6 +400,8 @@ Vilsmeier, J.K., Kossmeier, M., Voracek, M., & Tran, U.S. (2023). The fraternal 
 Volkow, N.D., et al. (2016). Neurobiologic Advances from the Brain Disease Model of Addiction. *New England Journal of Medicine*, 374(4).
 
 Vonnegut, K. (1969). *Slaughterhouse-Five*. Delacorte Press. (Trad. esp.: *Matadero cinco*).
+
+Watanabe, S. (1960). Information theoretical analysis of multivariate correlation. *IBM Journal of Research and Development*, 4(1).
 
 Wegner, D.M. (1987). Transactive Memory: A Contemporary Analysis of the Group Mind. En B. Mullen y G.R. Goethals (eds.), *Theories of Group Behavior*. Springer.
 

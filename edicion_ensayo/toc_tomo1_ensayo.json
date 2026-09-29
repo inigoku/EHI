@@ -418,8 +418,16 @@
       "content_file": "../content/ensayo/cap_triada_horizonte.es.md",
       "replace": [
         [
+          "del capítulo 54",
+          "del capítulo 40"
+        ],
+        [
           "El capítulo 54",
           "El capítulo 40"
+        ],
+        [
+          "el capítulo 49",
+          "la lectura 13 del segundo tomo"
         ],
         [
           "al Capítulo 53",
@@ -437,6 +445,10 @@
           "del capítulo 39"
         ],
         [
+          "el capítulo 49)",
+          "la lectura 13 del segundo tomo)"
+        ],
+        [
           "el capítulo 53",
           "el capítulo 39"
         ],
@@ -447,6 +459,10 @@
         [
           "al Capítulo 54",
           "al Capítulo 40"
+        ],
+        [
+          "(capítulo 49)",
+          "(lectura 13 del segundo tomo)"
         ]
       ],
       "chapter_number": 40
@@ -478,6 +494,10 @@
         [
           "capítulo 54)",
           "capítulo 40)"
+        ],
+        [
+          "(capítulo 54",
+          "(capítulo 40"
         ]
       ]
     },
