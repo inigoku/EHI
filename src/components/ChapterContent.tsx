@@ -601,6 +601,7 @@ export const ChapterContent: React.FC<ChapterContentProps> = ({
             "> **En software esto se llama:**",
             "> **In software this is called:**",
             "> **En programari, això s'anomena:**",
+            "> **En programari això s'anomena:**",
           ],
           box: tc.bentoSoftware,
           tag: tc.bentoSoftwareTag,
