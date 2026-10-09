@@ -255,7 +255,10 @@ def front_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     cv.setLineWidth(1.0)
     cv.line(cx - 46, y, cx + 46, y)
     y -= 26
-    caps(cv, cx, y, get_subtitle(), R, 10.5, PALE, 3.2)
+    # sombra fina: el subtítulo cae sobre las crestas claras de la ola
+    caps(cv, cx + 0.9, y - 0.9, get_subtitle(), R, 10.5, colors.HexColor("#0a1016"), 3.2)
+    caps(cv, cx + 0.4, y - 0.4, get_subtitle(), R, 10.5, colors.HexColor("#0a1016"), 3.2)
+    caps(cv, cx, y, get_subtitle(), R, 10.5, CREAM, 3.2)
 
     y = y0 + 1.30 * inch
     caps(cv, cx, y, get_author(), R, 14.5, CREAM, 4.2)
