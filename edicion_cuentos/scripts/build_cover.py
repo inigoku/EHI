@@ -278,6 +278,22 @@ def wrapped(text: str, font: str, size: float, width: float) -> list[str]:
     return out
 
 
+def halo_caps(cv, cx: float, y: float, text: str, font: str, size: float,
+              color, spacing: float) -> None:
+    """Subtítulo con un velo oscuro y suave detrás: sobre las crestas claras de
+    la pintura el texto crema se perdía."""
+    t = text.upper()
+    w = pdfmetrics.stringWidth(t, font, size) + spacing * max(0, len(t) - 1)
+    cv.saveState()
+    cv.setFillColor(colors.HexColor("#0a1016"))
+    for pad_x, pad_y, alpha in ((26, 13, 0.10), (20, 10, 0.16), (14, 8, 0.24), (9, 6, 0.34)):
+        cv.setFillAlpha(alpha)
+        cv.roundRect(cx - w / 2 - pad_x, y - pad_y + size * 0.30,
+                     w + 2 * pad_x, size + 2 * pad_y - 4, 8, stroke=0, fill=1)
+    cv.restoreState()
+    caps(cv, cx, y, text, font, size, color, spacing)
+
+
 def front_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     """Rotula la cubierta dentro del rectángulo de corte que se le pasa."""
     cx = x0 + w / 2
@@ -291,7 +307,7 @@ def front_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     cv.setLineWidth(1.0)
     cv.line(cx - 46, y, cx + 46, y)
     y -= 22
-    caps(cv, cx, y, SUBTITLE, R, 10.5, RUST, 3.0)
+    halo_caps(cv, cx, y, SUBTITLE, R, 10.5, INK, 3.0)
 
     y = y0 + 0.78 * inch
     caps(cv, cx, y, AUTHOR, R, 14.5, INK, 4.2)
