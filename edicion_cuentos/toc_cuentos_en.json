@@ -1,9 +1,9 @@
 {
-  "title": "Fables of Tarel",
-  "subtitle": "Tales of the Boundary",
+  "title": "The Inner Horizon",
+  "subtitle": "Volume III: Fables from Tarel",
   "author": "Íñigo Barrera Barceló",
   "language": "en",
-  "cover_image": "imagenes/portada.jpg",
+  "cover_image": "imagenes/Tales_of_Tarel_cubierta_ebook.jpg",
   "illustrations": {
     "cuento_01": "imagenes/cuento_01.png",
     "cuento_02": "imagenes/cuento_02.png",
@@ -39,6 +39,10 @@
     "cuento_nombre_nuevo": "imagenes/cuento_nombre_nuevo.png"
   },
   "chapters": [
+    {
+      "id": "intro_vol3",
+      "content_file": "intro_vol3.en.md"
+    },
     {
       "id": "cuento0",
       "content_file": "../content/cuentos/cuento0.en.md"

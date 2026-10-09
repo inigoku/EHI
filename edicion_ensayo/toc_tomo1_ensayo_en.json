@@ -1,6 +1,6 @@
 {
   "title": "The Inner Horizon",
-  "subtitle": "Essay · Volume I",
+  "subtitle": "Volume I: Essay",
   "author": "Íñigo Barrera Barceló",
   "language": "en",
   "cover_image": "imagenes/The_Inner_Horizon_Tomo1_Essay_cubierta_ebook.jpg",
@@ -186,6 +186,10 @@
   "gutter_in": 0.82,
   "body_leading": 16.0,
   "chapters": [
+    {
+      "id": "intro_vol1",
+      "content_file": "en/intro_vol1.en.md"
+    },
     {
       "id": "cap0",
       "content_file": "en/cap0.en.md"

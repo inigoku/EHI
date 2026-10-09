@@ -238,7 +238,9 @@ def spine_text(cv, cx: float, y0: float, h: float, spine_w: float) -> None:
     cv.rotate(-90)
     cv.setFillColor(SAND)
     cv.setFont(R, 12)
-    cv.drawCentredString(0, -4, f"{TITLE.upper()}   ·   {AUTHOR.upper()}")
+    vol = SUBTITLE.split(":")[0].upper() if SUBTITLE.startswith("Volume ") else ""
+    mid = f"   ·   {vol}" if vol else ""
+    cv.drawCentredString(0, -4, f"{TITLE.upper()}{mid}   ·   {AUTHOR.upper()}")
     cv.restoreState()
 
 
@@ -400,11 +402,11 @@ TOMOS_EN = {
         wrap_bn=BASE / "The_Inner_Horizon_Tomo1_Essay_cubierta_tapablanda_sin_ilustraciones.pdf",
         interior_bn=BASE / "The_Inner_Horizon_Tomo1_Essay_sin_ilustraciones_6x9.pdf",
         title="The Inner Horizon", title_lines=["The Inner", "Horizon"],
-        subtitle="Essay · Volume I",
+        subtitle="Volume I: Essay",
         kicker="An essay on physics, consciousness and the limits of the self",
         blurb=LANGS["en"]["blurb"],
         blurb2=(
-            "Forty-six chapters that cross neuroscience, information theory "
+            "Thirty-nine chapters that cross neuroscience, information theory "
             "and theoretical physics without ever abandoning the simplest "
             "question: what it means for there to be someone in there. With "
             "the epilogue, the glossary and the complete apparatus of notes. "
@@ -418,9 +420,9 @@ TOMOS_EN = {
         ebook=IMG / "The_Inner_Horizon_Tomo2_Readings_cubierta_ebook.jpg",
         wrap_bn=BASE / "The_Inner_Horizon_Tomo2_Readings_cubierta_tapablanda_sin_ilustraciones.pdf",
         interior_bn=BASE / "The_Inner_Horizon_Tomo2_Readings_sin_ilustraciones_6x9.pdf",
-        title="Topological Readings", title_lines=["Topological", "Readings"],
+        title="The Inner Horizon", title_lines=["The Inner", "Horizon"],
         art=IMG / "portada_lecturas.jpg",   # cinta de Möbius de agua
-        subtitle="The Inner Horizon · Volume II",
+        subtitle="Volume II: Topological Readings",
         kicker="The essay's ideas in fiction, film and everyday life",
         blurb=(
             "A clone that isn't the mare it copies, a replicant crying in "

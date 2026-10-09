@@ -1,6 +1,6 @@
 {
-  "title": "Topological Readings",
-  "subtitle": "The Inner Horizon · Volume II",
+  "title": "The Inner Horizon",
+  "subtitle": "Volume II: Topological Readings",
   "author": "Íñigo Barrera Barceló",
   "language": "en",
   "cover_image": "imagenes/The_Inner_Horizon_Tomo2_Readings_cubierta_ebook.jpg",
@@ -185,6 +185,10 @@
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-en",
   "gutter_in": 0.62,
   "chapters": [
+    {
+      "id": "intro_vol2",
+      "content_file": "en/intro_vol2.en.md"
+    },
     {
       "id": "cap17_6_real",
       "content_file": "en/cap17_6_real.en.md",

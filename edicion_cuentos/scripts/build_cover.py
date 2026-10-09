@@ -69,17 +69,17 @@ LANGS = {
         interior_pdf=BASE / "Tales_of_Tarel_6x9.pdf",
         front_pdf=BASE / "Tales_of_Tarel_front_cover.pdf",
         wrap_pdf=BASE / "Tales_of_Tarel_hardcover_wrap.pdf",
-        title="Fables of Tarel",
-        subtitle="Tales of the Boundary",
+        title="The Inner Horizon",
+        subtitle="Volume III: Fables from Tarel",
         author="Íñigo Barrera Barceló",
-        title_lines=["Fables of Tarel"],
+        title_lines=["The Inner", "Horizon"],
         blurb=(
             "Tarel is a city that learned to live with the water that leaves: each "
             "story in this book looks at that same boundary from a different angle "
             "-birth, memory, love, loss, grief, companionship."
         ),
         blurb2=(
-            "Twenty-eight tales that embody, as fables, the same questions as the essay "
+            "Thirty tales that embody, as fables, the same questions as the essay "
             "The Inner Horizon, with the archivist of Tarel as guide: they need not "
             "be read in order, each one stands alone, like the knots of a net that "
             "can be read from any point."
