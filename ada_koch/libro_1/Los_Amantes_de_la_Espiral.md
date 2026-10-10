@@ -5484,14 +5484,6 @@ Me enseñó los dientes a mí.
 
 ---
 
-Voy a contar las cosas como las he aprendido. No sé contarlas de otra manera.
-
-Lo que Ada traza en el papel, lo soy. La nariz, los ojos, las manos. Si me dibuja una sonrisa, la boca sonríe. Si me borra la boca, me quedo sin voz.
-
-Lo que vivo no está en el papel. El café, el frío del mar, la primera vez que me dolió algo. Eso no lo puede dibujar. Tampoco lo puede borrar. Pero si me redibuja una parte entera, esa parte vuelve como era en el papel, y lo que yo había vivido en ella se queda fuera. Como la cicatriz del alambre.
-
-Si el papel se moja, me mojo por dentro. Si el papel se rompe, me rompo.
-
 Los demás me ven. La abuela me vio. La mujer verde me vio. El hombre del chubasquero me vio y me dio la mano.
 
 Pero el perro me olió.
@@ -6039,6 +6031,16 @@ Sentí el viento entrar. No en la cara. Dentro. Como si alguien hubiera abierto 
 Me miré las manos.
 
 Se me estaban yendo. Las dos. No desde las yemas, como en la torre. Por todas partes a la vez. Como el vaho de un cristal cuando abres la puerta. Veía la lluvia a través de mis palmas.
+
+Entonces lo entendí entero. Las reglas que había ido aprendiendo una a una, tragando agua, como se aprende a nadar. Me pasaron todas por delante a la vez, mientras se cumplían.
+
+Lo que Ada traza en el papel, lo soy. La nariz, los ojos, las manos. Si me dibuja una sonrisa, la boca sonríe. Si me borra la boca, me quedo sin voz.
+
+Lo que vivo no está en el papel. El café, el frío del mar, la primera vez que me dolió algo. Eso no lo puede dibujar ni borrar. Pero si me redibuja una parte entera, vuelve como era en el papel, y lo vivido se queda fuera. Como la cicatriz del alambre.
+
+Y si el papel se moja, me mojo por dentro. Si el papel se rompe, me rompo.
+
+Lo sabía desde hacía semanas. Lo que no sabía era que se sentía así.
 
 Caí de rodillas en la hierba.
 
@@ -6697,6 +6699,30 @@ Me cogió de la mano. La de la marca en la mía.
 —¿Y?
 
 —Tu abuela hace empanada. —Me miró, muy serio—. Para tres.
+
+---
+
+Después de comer me senté en el coche, delante del faro, con las llaves en la mano. Y no arranqué.
+
+Desbloqueé el móvil. Fui a los contactos bloqueados. Estaba ahí. Sin nombre. Nueve números.
+
+Un dedo. Eso es lo que hacía falta. Desbloquear y escribir *perdona*, *estoy muy nerviosa*, *ha sido todo muy raro*, *¿podemos hablar?* Y él contestaría en menos de un minuto, porque siempre contestaba en menos de un minuto. Diría que no pasaba nada. Que lo retiraba todo. Que me esperaba en A Coruña. Y yo volvería al piso de la calle Ibiza, a las sábanas de rayas grises, a las cenas con sus amigos donde todo el mundo se reía de sus chistes. Mi madre volvería a llamarme los domingos. Mi madre lo adoraba. *Un chico así, Ada. Con lo difícil que eres tú.*
+
+Sería tan fácil. No porque lo quisiera. Porque me lo sabía. Porque allí sabía dónde estaba cada cosa, incluida yo.
+
+Me miré en el retrovisor.
+
+Tenía la cara hinchada de no dormir y el pelo todavía tieso de sal. Y unos ojos que no me gustaron. Los ojos de alguien que está calculando cuánto le costaría rendirse. Me vi fea. No por las ojeras. Por eso otro.
+
+Tuve el dedo encima del botón mucho rato.
+
+Luego pensé en él agachado en la hierba, mirándose la palma de la mano como si fuera de otro. Tres años a mi lado y no sabía que yo dibujaba.
+
+Ese hombre no sabía quién era yo. Y yo había estado a punto de volver a no saberlo tampoco.
+
+Cerré la lista. Guardé el móvil en la guantera. Arranqué.
+
+Por el camino, sin decidirlo del todo, supe lo que iba a contestar si alguien me preguntaba qué era él para mí.
 
 ---
 
