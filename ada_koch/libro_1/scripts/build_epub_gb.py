@@ -166,7 +166,7 @@ for a_idx, (act_title, chapters, back_md) in enumerate(acts):
 col_html = epub.EpubHtml(title="Colophon", file_name="text/colophon.xhtml", lang="en")
 col_html.set_content(
     '<div class="colophon"><p>Finished on 10 October 2026,<br/>'
-    "in L'Hospitalet de Llobregat.</p><p>Translated from the Spanish and set in Orkney.</p></div>"
+    "in L'Hospitalet de Llobregat.</p></div>"
 )
 link_css(col_html)
 book.add_item(col_html)

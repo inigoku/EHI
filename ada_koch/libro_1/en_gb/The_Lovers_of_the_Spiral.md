@@ -10,7 +10,7 @@ lang: en-GB
 
 I wake before the alarm, the way I almost always do since I started living alone.
 
-In Madrid it never happened. There I slept until someone woke me, and that someone decided the time, too. Here my body wakes on its own, at half past six, as if it were in a hurry to check that the sea is still where it belongs.
+In London it never happened. There I slept until someone woke me, and that someone decided the time, too. Here my body wakes on its own, at half past six, as if it were in a hurry to check that the sea is still where it belongs.
 
 I lie still for a moment under the duvet, listening. The wind is still gentle. The gulls haven't started. All I can hear is the sea, down below, breathing against the rocks with that slow rhythm that wouldn't let me sleep at first and that now I'm not sure I could sleep without.
 
@@ -18,7 +18,7 @@ I put my feet on the floor and the cold of the tiles climbs up my legs. I love t
 
 I pick up my phone to check the buoy. Thirteen degrees.
 
-I smile to myself. My grandmother would say I'm *tola*. That swimming in October is for madwomen and Germans. Since I'm a quarter German, a quarter of it is forgiven.
+I smile to myself. My grandmother would say I'm *gyte*. That swimming in October is for madwomen and Germans. Since I'm a quarter German, a quarter of it is forgiven.
 
 ---
 
@@ -34,7 +34,7 @@ I don't think about it often. I think about it in moments like this, when the wi
 
 I go into the water without thinking, because if you think, you don't go in. The cold bites my ankles, my knees, my thighs. When it reaches my waist I let out a cry nobody hears. And I dive.
 
-For three seconds nothing exists. Not Madrid, not work, not him. Only my heart pounding like mad and my skin burning with cold.
+For three seconds nothing exists. Not London, not work, not him. Only my heart pounding like mad and my skin burning with cold.
 
 Then the calm comes.
 
@@ -58,13 +58,13 @@ I have a hot shower, a long one, until I stop shaking. When I get out, the mirro
 
 Thirty-two years old. Dark hair, wet, longer than it's ever been. Collarbones sharp. My grandfather's eyes, grey, which my grandmother says are the best thing I have.
 
-In Madrid I wore my hair short. Now I'm letting it grow, and every time I dry it in front of the mirror I feel a small victory I couldn't explain to anyone.
+In London I wore my hair short. Now I'm letting it grow, and every time I dry it in front of the mirror I feel a small victory I couldn't explain to anyone.
 
 ---
 
-I'm a meteorologist. I work from the kitchen, with three monitors on the wooden table where the keepers, I suppose, used to eat. The company is based in Bilbao and sells forecasts to wind farms and shipping lines, people who lose a lot of money if the wind blows when it shouldn't. My boss says I'm the meteorologist with the best view in Europe.
+I'm a meteorologist. I work from the kitchen, with three monitors on the wooden table where the keepers, I suppose, used to eat. The company is based in Aberdeen and sells forecasts to wind farms and shipping lines, people who lose a lot of money if the wind blows when it shouldn't. My boss says I'm the meteorologist with the best view in Europe.
 
-I make myself a *café con leche* and open the European model.
+I make myself a milky coffee and open the European model.
 
 Every night it runs fifty-one times, each time with the data changed a little, to see how wrong it can be. In the trade they're called ensemble members. I've called them iterations since university, because it sounds to me like something that comes back. Usually they spread apart like the strands of an undone plait. I like watching them. I like thinking that the future has fifty-one shapes and only one of them will come to pass.
 
@@ -76,21 +76,21 @@ It will arrive in two days. Maybe less.
 
 I feel the tingle I feel with big storms, a mix of fear and fascination I've never confessed to anyone. It's happened since I was a girl. My mother used to lock herself in the bathroom when it thundered and I would sneak off to the window to see it all.
 
-At the morning meeting I show it to Marcos and Lucía.
+At the morning meeting I show it to Marcus and Lucy.
 
-'It's going to run right over you, Ada,' Marcos says.
+'It's going to run right over you, Ada,' Marcus says.
 
 'The lighthouse has been there a hundred and forty years.'
 
 'The lighthouse, yes. I meant you.'
 
-I say nothing. Lucía changes the subject to rescue me, as always. But when the call ends she messages me privately.
+I say nothing. Lucy changes the subject to rescue me, as always. But when the call ends she messages me privately.
 
 *Are you really all right out there on your own? If you like I'll ring you tonight.*
 
 I send her a heart and a photo of the sea. It's easier than answering.
 
-Lucía was the one who encouraged me to come here. She says the sea cures almost everything. I don't know if that's true, but so far it hasn't done me any harm.
+Lucy was the one who encouraged me to come here. She says the sea cures almost everything. I don't know if that's true, but so far it hasn't done me any harm.
 
 ---
 
@@ -98,9 +98,9 @@ At four a voice message comes in from my grandmother.
 
 I listen with the phone pressed to my ear, standing by the window.
 
-*Peedie lass, the radio says a big one's coming. Fasten those shutters well, eh? And don't swim tomorrow, I know you. Wednesday I'm expecting you for lunch, I'm making* empanada. *Un bico, miña rula.*
+*Peedie lass, the radio says a big one's coming. Fasten those shutters well, eh? And don't swim tomorrow, I know you. Wednesday I'm expecting you for lunch, I'm making pie. A kiss, my peedie doo.*
 
-*Miña rula.* My little dove. She's called me that since I was born.
+*My peedie doo.* My little dove. She's called me that since I was born.
 
 My eyes fill with tears for no reason. Or for every reason at once. There are days when tenderness catches me off guard and disarms me more than any blow.
 
@@ -132,11 +132,11 @@ Then my phone buzzes.
 
 ---
 
-I turn it over thinking it'll be Lucía.
+I turn it over thinking it'll be Lucy.
 
-It isn't Lucía. It's a number with no name.
+It isn't Lucy. It's a number with no name.
 
-I deleted it from my contacts almost a year ago, the day I left Madrid. Deleting it didn't do much good. I know those nine digits by heart, the way you know the phone number of a house you no longer live in.
+I deleted it from my contacts almost a year ago, the day I left London. Deleting it didn't do much good. I know those eleven digits by heart, the way you know the phone number of a house you no longer live in.
 
 *Still in Orkney?*
 
@@ -144,7 +144,7 @@ I look at the screen. Three words, no greeting, as if we'd spoken yesterday. I f
 
 Even in three words I can hear his voice. The way he had of saying my name: the first *a* drawn out, the second falling, the way you'd say it to a little girl who has stained the tablecloth again. *Aaada.* For three years I thought it was affection.
 
-I haven't told anyone in Madrid where I live now. I wonder who told him. Then I wonder why it matters so much to me.
+I haven't told anyone in London where I live now. I wonder who told him. Then I wonder why it matters so much to me.
 
 I set the phone face down on the table, on top of the sketchbook, as if I could cover it up.
 
@@ -176,7 +176,7 @@ I hear myself and feel embarrassed. A thirty-two-year-old woman talking to a dra
 
 But there's no one. Only me, the wind, and him.
 
-I hug the sketchbook to my chest and rest my head against the back of the sofa. I think I won't be able to sleep. I think about the message, about the nine digits, about his way of writing without a greeting, as if one weren't needed. I think about everything I left there, and everything I brought with me without realising.
+I hug the sketchbook to my chest and rest my head against the back of the sofa. I think I won't be able to sleep. I think about the message, about the eleven digits, about his way of writing without a greeting, as if one weren't needed. I think about everything I left there, and everything I brought with me without realising.
 
 And then I think about the eyes in the drawing. About how they wait without hurry. About what it would be like for someone to look at me like that, for real, just once.
 
@@ -194,55 +194,55 @@ It's the whole sky.
 
 ---
 
-### Maruxa · Vigo, March 1966
+### Maisie · Stromness, March 1966
 
-My mother didn't cry at the station. She cried afterwards, my sister told me, on the bus back, the whole way home. But not on the platform. On the platform she straightened the collar of my coat, slipped an embroidered handkerchief into my pocket, and told me to eat.
+My mother didn't cry on the pier. She cried afterwards, my sister told me, on the walk back up the street, the whole way home. But not on the pier. On the pier she straightened the collar of my coat, slipped an embroidered handkerchief into my pocket, and told me to eat.
 
-'You're going to waste away to nothing, Maruxiña. Over there they eat potatoes with everything.'
+'You're going to waste away to nothing, peedie Maisie. Over there it's sour cabbage with everything.'
 
 That was the last thing she said to me. To eat.
 
 I was nineteen, with a borrowed coat, a cardboard suitcase tied with string, and a slip of paper with an address I didn't know how to pronounce. *Stuttgart-Feuerbach.* I'd practised it all week in front of the mirror and it still came out wrong.
 
-There were a lot of us on the platform. Girls from Ourense, from Lugo, from the Coast. Some with their sweethearts, who kissed them on the mouth in front of everyone, without shame, because it didn't matter any more. Some with small children who were staying behind with their grandmothers. I had only my mother and my little sister, who held on to my skirt as if she could stop the train from moving.
+There were five of us on the pier, island girls who had answered the same advert in *The Orcadian*: a firm in Stuttgart wanted girls with steady hands for its assembly line. Some had their sweethearts with them, who kissed them on the mouth in front of everyone, without shame, because it didn't matter any more. One had a small child who was staying behind with her grandmother. I had only my mother and my little sister, who held on to my skirt as if she could stop the boat from leaving.
 
-I had no sweetheart. That made me a little envious and a little relieved. No one would be waiting for me. No one would write me letters that made me cry. I was going to earn the money we needed at home, because my father couldn't manage the boat any more and the sea doesn't give enough for everyone, and then I'd come back. Two years. Three at most.
+I had no sweetheart. That made me a little envious and a little relieved. No one would be waiting for me. No one would write me letters that made me cry. I was going to earn the money we needed at home, because the herring had failed and the new engine for my father's boat was still owed, and the sea doesn't give enough for everyone, and then I'd come back. Two years. Three at most.
 
 That's what I thought.
 
-When the train whistle blew, my sister started wailing. She was seven. She grabbed my skirt with both hands and there was no getting her loose. My mother had to prise her fingers open one by one, very patiently, while she told her that *Tata* would be back soon, that *Tata* would bring her chocolate from Germany.
+When the *St Ola* sounded her horn, my sister started wailing. She was seven. She grabbed my skirt with both hands and there was no getting her loose. My mother had to prise her fingers open one by one, very patiently, while she told her that *Sissie* would be back soon, that *Sissie* would bring her chocolate from Germany.
 
-I climbed into the carriage with my face burning and my skirt crumpled where she'd held it. I leaned out of the window. My mother raised her hand. She didn't wave it. She only raised it, open, and left it like that, still, in the air, as the train began to move.
+I went up the gangway with my face burning and my skirt crumpled where she'd held it. I leaned over the rail. My mother raised her hand. She didn't wave it. She only raised it, open, and left it like that, still, in the air, as the boat began to move.
 
 I raised mine too.
 
-We stayed like that, both with our hands open, until the curve of the track took her away.
+We stayed like that, both with our hands open, until the point of the Ness took her away.
 
 ---
 
-The train took thirty-one hours to reach the border at Irún, and then another whole day to Germany.
+From Thurso to Dover the train took thirty-one hours, and then another whole day to Germany. Two girls from Caithness got on with me at Thurso and a girl from Lewis at Inverness, all with the same address in their pockets as me.
 
-I didn't sleep. I sat on a wooden bench, with my suitcase between my legs so no one would steal it, watching a Spain I didn't know go by the window. Castile, yellow and flat as a table. Then France, which was green like Galicia but in a different way, tidier, as if someone combed it every morning.
+I didn't sleep. I sat on a wooden bench, with my suitcase between my legs so no one would steal it, watching a Scotland I didn't know go by the window. The Highlands, then Glasgow, black with soot. Then England, flat as a table. Then, after the Channel, France, which was green like Orkney but in a different way, tidier, as if someone combed it every morning.
 
-Beside me sat a girl from Lugo called Pilar. She was twenty, with a round face and huge hands from milking cows. She offered me chorizo wrapped in newspaper and told me her sweetheart was waiting for her there, in Stuttgart, that he'd gone a year before and had written to say there was work for both of them.
+At Basel, where we changed for the last time, a girl from Calabria got in and sat down beside me. Her name was Pina. She was twenty, with a round face and huge hands from milking cows, and six words of English, and she used all of them on me. She offered me *salame* wrapped in newspaper and told me, with her hands more than her mouth, that her sweetheart was waiting for her there, in Stuttgart, that he'd gone a year before and had written to say there was work for both of them.
 
-'And you? Who have you got there?'
+'And you? Who you have there?'
 
 'No one.'
 
-Pilar looked at me with pity. Then she gave me another piece of chorizo, as if that would fix it.
+Pina looked at me with pity. Then she gave me another piece of *salame*, as if that would fix it.
 
 At night, when the carriage went dark and all you could hear was the clatter and the snoring of a man at the far end, I rested my forehead against the cold glass of the window and looked out. There was nothing to see. Only, now and then, the lights of some village going by fast, small, yellow, like the lamps of boats at sea.
 
-I thought of home. Of the wood-burning stove. Of my father smoking on the bench by the door. Of the smell of the harbour in the morning, of salt, of diesel, of fish just landed.
+I thought of home. Of the peat fire. Of my father smoking on the bench by the door. Of the smell of the harbour in the morning, of salt, of diesel, of fish just landed.
 
 And for the first time I felt afraid. A big fear, the kind that gets into your chest and won't let you breathe. Afraid of not coming back. Afraid of coming back different. Afraid that over there no one would know who I was.
 
 I started singing softly, without realising. One of the songs my mother sang when she hung out the washing. A very old one, the kind that belongs to no one.
 
-Pilar woke up and elbowed me.
+Pina woke up and elbowed me.
 
-'*Cala, muller*, you're going to wake the whole train.'
+'*Zitta!* You wake all the train.'
 
 I stopped. I hadn't even noticed I was singing.
 
@@ -250,7 +250,7 @@ That happened to me a lot. It still does. My husband used to say I sang the way 
 
 But that was later. Much later.
 
-On that train, in the dark, with my forehead against the glass, I didn't yet know he existed. He was there, fifteen hundred kilometres away, asleep in a small room in a boarding house in Feuerbach, not knowing I existed.
+On that train, in the dark, with my forehead against the glass, I didn't yet know he existed. He was there, three hundred kilometres away, asleep in a small room in a boarding house in Feuerbach, not knowing I existed.
 
 And the train kept bringing us closer, kilometre by kilometre, in the dark.
 
@@ -266,7 +266,7 @@ I don't put it to myself that way. I tell myself I have to buy batteries and die
 
 ---
 
-The road into Stromness is two and a half miles of single-track between drystone dykes, sheep and fields of a green that doesn't exist in Madrid. No trees to speak of. I drive it in my old car, both hands on the wheel because the wind shoves it towards the ditch at every gap in the dykes.
+The road into Stromness is two and a half miles of single-track between drystone dykes, sheep and fields of a green that doesn't exist in London. No trees to speak of. I drive it in my old car, both hands on the wheel because the wind shoves it towards the ditch at every gap in the dykes.
 
 The town is on edge. You can feel it in everything. The men at the harbour are doubling up the mooring lines and hauling the small boats up the slipway with a tractor. The women are bringing their flowerpots inside. There's a queue at the petrol station, and at the bakery someone has handwritten a sign: *Shut the morn*.
 
@@ -292,23 +292,23 @@ I hold on to her a little longer than usual. She just pats my back, like when I 
 
 I laugh. It's true. I went down to the geo at seven, though the sea was already too rough to swim far. I only went in up to my waist. But I went in.
 
-'You're *tola*,' she says, and pushes me towards the kitchen. 'Just like your grandfather.'
+'You're *gyte*,' she says, and pushes me towards the kitchen. 'Just like your grandfather.'
 
 ---
 
-My grandmother's kitchen is the warmest place in the world. I mean that literally. It has a range that's been lit since 1976 and only goes out in August, and a wooden bench against the wall where I used to sit as a girl with my legs dangling.
+My grandmother's kitchen is the warmest place in the world. I mean that literally. It has a range that's been lit since 1971 and only goes out in August, and a wooden bench against the wall where I used to sit as a girl with my legs dangling.
 
 I sit on the bench. My legs don't dangle any more, but the feeling is the same.
 
-My grandmother moves back and forth without stopping. She's seventy-nine and has an energy that shames me. Her name is Maruxa. Well, her name is María, but nobody has called her that since the day she was baptised.
+My grandmother moves back and forth without stopping. She's seventy-nine and has an energy that shames me. Her name is Maisie. Well, her name is Mary, but nobody has called her that since the day she was christened.
 
-She's making *empanada*. A day earlier than planned, for me.
+She's making pie. A day earlier than planned, for me.
 
 'I knew you'd come,' she says again, as if that explained everything.
 
 I have a theory about my grandmother. That she knows everything before it happens. That she has a kind of radar for the people she loves, the way I have one for storms. She says it isn't radar, it's the habit of looking.
 
-While the dough rests, she sets two cups of pot-brewed coffee on the table and sits down across from me. She looks at me over her glasses, up and down, with that gaze that undresses you without taking anything off.
+While the dough rests, she sets two cups of tea, stewed black in the pot, on the table and sits down across from me. She looks at me over her glasses, up and down, with that gaze that undresses you without taking anything off.
 
 'You're thin.'
 
@@ -330,7 +330,7 @@ My grandparents on their wedding day, in black and white. She in a simple dress,
 
 Klaus Koch. My grandfather. He died six years ago, but in this house he never quite left. His pipe is still in the green glass ashtray. His corduroy jacket is still on the coat stand by the door. My grandmother says she doesn't put them away because she doesn't feel like it. I know she's lying, and she knows I know.
 
-They married in her village in Galicia. Five years later, when the oil came to Flotta and the terminal wanted men who understood engines, they came to Stromness with my mother in a carrycot, and stayed.
+They married here, in the kirk in Stromness, and after that they never lived anywhere else.
 
 'Tell it to me again,' I ask her.
 
@@ -348,11 +348,11 @@ She plays hard to get, as always. She loves it when I ask. And I love hearing it
 
 'And he didn't have it in for you.'
 
-'No.' A young laugh escapes her, a girl's laugh. 'It took him nine months to speak to me. Nine months, Ada. And when he finally came up to me, red as a tomato, he told me in horrible Spanish that I sang very pretty while I worked.'
+'No.' A young laugh escapes her, a girl's laugh. 'It took him nine months to speak to me. Nine months, Ada. And when he finally came up to me, red as a tomato, he told me in horrible English that I sang very pretty while I worked.'
 
 'And you didn't know you were singing.'
 
-'No idea. I sang without noticing. Things from home, my mother's songs, *alalás* from when we harvested. And he'd spent nine months listening to me. Nine months learning my songs without understanding a word.'
+'No idea. I sang without noticing. Things from home, my mother's songs, *auld sangs* from when we harvested. And he'd spent nine months listening to me. Nine months learning my songs without understanding a word.'
 
 Her eyes are shining. They always shine at that part. And I always get a lump in my throat.
 
@@ -364,11 +364,11 @@ Because that's the part I love most. Not the wedding. Not the happy ending. That
 
 She gets up to look at the dough.
 
-'And that's for another day, my *empanada*'s going to be ruined.'
+'And that's for another day, my pie's going to be ruined.'
 
 She always does the same thing. She gets to the platform in Stuttgart, to herself alone with her suitcase, and she gets up. She's told me a thousand times and she's never told me that part. I know he came, because he's in the photo on the sideboard and because my surname is Koch. But I don't know how. Or when. Or whether he hesitated. When I ask her, she laughs and tells me there are things you don't tell, you sing them, and I don't sing any more.
 
-Koch is my mother's surname. I've carried it first since the winter my father left for Vigo. My mother went to the civil registry that same week to ask them to swap the order of my surnames, and my father signed without a word of protest, the way he signed everything that took him further away from us. My father's name stayed behind, where no one sees it. I haven't missed it for a single day.
+Koch is my mother's surname. I've carried it since the winter my father left for Aberdeen. My mother changed my name by deed poll that same winter, and my father signed without a word, the way he signed everything that took him further from us. My father's name stayed behind, on a birth certificate no one looks at. I haven't missed it for a single day.
 
 We fall silent. Outside, the wind is rattling the windowpanes.
 
@@ -380,7 +380,7 @@ When I was little, I thought that was what love was. That someday someone would 
 
 'Nobody?'
 
-'*Abuela.*'
+'Granny.'
 
 'I'm only asking. A grandmother has the right to ask.'
 
@@ -392,19 +392,19 @@ She gives me the look she gives when she knows you're handing her the short vers
 
 I don't answer. I get up to check the oven, though it doesn't need checking.
 
-'That one from Madrid, is he still writing to you?' she asks behind my back.
+'That one from London, is he still writing to you?' she asks behind my back.
 
 Something inside me shrinks. I think of the phone face down. Of the three words.
 
-'That *empanada* smells burnt,' I say.
+'That pie smells burnt,' I say.
 
-'That *empanada* smells like heaven, and you change the subject just like your mother.'
+'That pie smells like heaven, and you change the subject just like your mother.'
 
 But she doesn't push. My grandmother never pushes. She leaves the question on the table, like a plate, and waits for you to get hungry.
 
-To fill the silence she tells me, for the umpteenth time, how my grandfather learned Galician. With an oilcloth-covered notebook where he wrote down the words he heard at the harbour, spelled however he pleased. *Carallo* spelled with a *k*. *Morriña* with two *r*s at the end. He'd learn them by heart and come out with them at the worst possible moments, in his Stuttgart accent, and the whole village would split their sides laughing.
+To fill the silence she tells me, for the umpteenth time, how my grandfather learned Orcadian. With an oilcloth-covered notebook where he wrote down the words he heard at the harbour, spelled however he pleased. *Krivvens* spelled with a *k*. *Hamesickness* with an umlaut on the *a*. He'd learn them by heart and come out with them at the worst possible moments, in his Stuttgart accent, and the whole town would split their sides laughing.
 
-'He sang the *alalás* terribly,' she says, her eyes wet from laughing. 'Off-key like a pig. And he didn't care. He'd stand in the bow of your uncle's boat and sing at the top of his lungs, and the men on the pier would cover their ears.'
+'He sang the *auld sangs* terribly,' she says, her eyes wet from laughing. 'Off-key like a pig. And he didn't care. He'd stand in the bow of your uncle's boat and sing at the top of his lungs, and the men on the pier would cover their ears.'
 
 'And you?'
 
@@ -416,15 +416,15 @@ We say nothing more. There's no need.
 
 ---
 
-We eat by the window, watching the water in the harbour grow darker and darker. The *empanada* is perfect, the crust crisp and the bonito filling juicy. I eat two and a half pieces, and my grandmother watches me eat with the satisfaction of someone who has won a small war.
+We eat by the window, watching the water in the harbour grow darker and darker. The pie is perfect, the crust crisp and the mince filling juicy. I eat two and a half pieces, and my grandmother watches me eat with the satisfaction of someone who has won a small war.
 
 Afterwards we do the washing-up together, side by side, without talking. She washes and I dry. It's what we've always done. There's something in that shared silence, with our hands busy, that heals me more than any conversation.
 
 When I've dried the last glass, she wipes her hands on her apron and goes to the larder. She comes back with an enormous flask and a parcel wrapped in newspaper.
 
-'*Caldo*,' she says, pointing at the flask. 'For tomorrow, you won't feel like cooking. And good candles, the ones from the shop don't last a breath.'
+'Broth,' she says, pointing at the flask. 'For tomorrow, you won't feel like cooking. And good candles, the ones from the shop don't last a breath.'
 
-'Abuela, I've got candles.'
+'Granny, I've got candles.'
 
 'You've got candles from the shop.'
 
@@ -450,21 +450,21 @@ Until this afternoon. She kisses my forehead, her lips dry and warm, and looks a
 
 ---
 
-### Maruxa · Stuttgart, April 1966
+### Maisie · Stuttgart, April 1966
 
 The hostel was a red-brick barracks beside the railway line. They called it the *Wohnheim*, which took me a month to learn to say, and it had a very long corridor with doors on both sides, like a hospital.
 
-I got a room with three iron beds and a window that faced a wall. I shared it with Pilar, the girl from Lugo, and with a Portuguese woman called Fátima who never spoke. Fátima was thirty, with a husband in Lisbon and two little daughters. She had their photos pinned to the wall above her bed, and every night, before she slept, she gave them a kiss with her fingertips.
+I got a room with three iron beds and a window that faced a wall. I shared it with Pina, the girl from Calabria, and with a Portuguese woman called Fátima who never spoke. Fátima was thirty, with a husband in Lisbon and two little daughters. She had their photos pinned to the wall above her bed, and every night, before she slept, she gave them a kiss with her fingertips.
 
 I had no photos. I'd left in such a hurry it didn't even occur to me to bring any.
 
-What I remember most about that first month is the cold. A cold different from the one at home. In Galicia the cold is damp, it gets into your bones, but it smells of something, of firewood, of the sea, of wet earth. The cold in Stuttgart smelled of nothing. It was dry and clean and cut your face like a new knife.
+What I remember most about that first month is the cold. A cold different from the one at home. In Orkney the cold is damp, it gets into your bones, but it smells of something, of peat smoke, of the sea, of wet earth. The cold in Stuttgart smelled of nothing. It was dry and clean and cut your face like a new knife.
 
-And the food. *Ay*, the food. Potatoes with everything, just as my mother said. Boiled potatoes, fried potatoes, potatoes in salad with vinegar, which was the worst thing I'd ever tasted in my life. And a black bread, hard, that weighed like a stone. I dreamed of my mother's *empanada*. I really dreamed of it, at night, and woke up with the taste of the crust in my mouth and tears on my pillow.
+And the food. *Govey*, the food. Sour cabbage with everything, just as my mother said. Sour cabbage with sausage, sour cabbage with pork, potatoes in salad with vinegar, which was the worst thing I'd ever tasted in my life. And a black bread, hard, that weighed like a stone. I dreamed of my mother's pie. I really dreamed of it, at night, and woke up with the taste of the crust in my mouth and tears on my pillow.
 
 I cried every night of that first month. Every one.
 
-I cried hugging the pillow, biting it so no one would hear. Pilar slept like a log, but Fátima didn't. One night I heard her move in the dark. I thought she was going to tell me to be quiet.
+I cried hugging the pillow, biting it so no one would hear. Pina slept like a log, but Fátima didn't. One night I heard her move in the dark. I thought she was going to tell me to be quiet.
 
 She said nothing. She got up, sat on the edge of my bed, and put her hand on my back. Just like that, without speaking. A big hand, warm, the hand of a woman who has raised children.
 
@@ -478,7 +478,7 @@ The factory was a fifteen-minute walk away. We made car parts. I didn't know wha
 
 It was a job for the eyes. Eight hours looking at metal under a white light that hummed. At the end of the day my head ached and I saw parts with my eyes closed.
 
-There were thirty of us women on the line. Spanish, Portuguese, Italian, two Turkish women who kept their hair covered with a scarf. No one spoke German. We understood each other with gestures, with laughter, with the few words we were picking up. *Danke. Bitte. Schnell.* Above all *schnell*. Fast. It was what they said to us most.
+There were thirty of us women on the line. Italian, Portuguese, Greek, us few from the islands, two Turkish women who kept their hair covered with a scarf. No one spoke German. We understood each other with gestures, with laughter, with the few words we were picking up. *Danke. Bitte. Schnell.* Above all *schnell*. Fast. It was what they said to us most.
 
 The supervisors were German. Serious men, in grey coats, who walked behind us with a clipboard in hand, checking everything.
 
@@ -490,17 +490,18 @@ And he watched me.
 
 More than the others. I was sure of it. Every time I looked up from the parts, there he was, at the far end of the factory floor, with his clipboard, watching me. And the moment our eyes met, he looked down and wrote something.
 
-My stomach would knot up. I thought he was going to sack me. That he'd seen me talking to Pilar, or laughing, or getting a part wrong. That he was writing down my mistakes on his clipboard so he could dismiss me at the end of the month and send me back to Galicia with my cardboard suitcase empty.
+My stomach would knot up. I thought he was going to sack me. That he'd seen me talking to Pina, or laughing, or getting a part wrong. That he was writing down my mistakes on his clipboard so he could dismiss me at the end of the month and send me back to Orkney with my cardboard suitcase empty.
 
-One night I told Pilar.
+One night I told Pina.
 
 'That German has it in for me.'
 
-'The tall one?' Pilar laughed. 'That one doesn't have it in for anybody. That one hasn't got blood in his veins.'
+'The tall one?' Pina laughed. 'That one have it in for nobody. That one has no blood in the veins.'
 
 I wasn't so sure.
 
 Because there was something in the way he looked at me that wasn't cold. I didn't know what it was. But it wasn't cold.
+
 
 ## 3 · Ada
 
@@ -510,7 +511,7 @@ But the question comes with me. It sits in the passenger seat for the two and a 
 
 *Are you still drawing that lad?*
 
-Yes, Abuela. I am. Twenty-three years later, I still am.
+Yes, Granny. I am. Twenty-three years later, I still am.
 
 ---
 
@@ -542,11 +543,11 @@ I tell myself that several times as I climb back up to the lighthouse, with the 
 
 I don't turn round to look at it. I'm afraid it will still look the same.
 
-By the time I finish, it's night. I have a shower, put on my flannel pyjamas and my thick socks, and heat up a bowl of my grandmother's broth. It tastes of turnip greens, of potato, of Sundays when I was little. I drink it standing by the window, both hands round the bowl, looking at the dark.
+By the time I finish, it's night. I have a shower, put on my flannel pyjamas and my thick socks, and heat up a bowl of my grandmother's broth. It tastes of kale, of potato, of Sundays when I was little. I drink it standing by the window, both hands round the bowl, looking at the dark.
 
 You can't see anything. You can only hear it. The sea has changed its voice. It isn't breathing any more. It's roaring.
 
-At nine Lucía video-calls me, as she promised yesterday. She appears on the screen with her hair up in a chaotic bun, a glass of wine in her hand and her little boy asleep on the sofa behind her, mouth open.
+At nine Lucy video-calls me, as she promised yesterday. She appears on the screen with her hair up in a chaotic bun, a glass of wine in her hand and her little boy asleep on the sofa behind her, mouth open.
 
 'Let's see this lighthouse,' she says. 'Show me. I want to see if it's still standing.'
 
@@ -554,7 +555,7 @@ I give her a tour with my phone. The stove, the firewood stacked to the ceiling,
 
 'You look like a Brontë novel,' she says. 'All you need is a dark gentleman knocking on the door in the middle of the storm.'
 
-I laugh. I laugh a lot, more than the joke deserves, and Lucía looks at me through the screen with narrowed eyes.
+I laugh. I laugh a lot, more than the joke deserves, and Lucy looks at me through the screen with narrowed eyes.
 
 'What?'
 
@@ -562,13 +563,13 @@ I laugh. I laugh a lot, more than the joke deserves, and Lucía looks at me thro
 
 'You wish what? You wish for a dark gentleman?' She leans so close to the camera that all I can see is her nose. 'Ada Koch. Is there someone? Some sailor? Some scallop diver with arms like this?'
 
-'There's no one, Lucía. There's a generator that coughs and a grandmother who sends me broth.'
+'There's no one, Lucy. There's a generator that coughs and a grandmother who sends me broth.'
 
 'Well, that's a shame.' She leans back on the sofa and takes a sip from her glass. 'When you look so pretty with your hair long.'
 
 I go quiet for a second. Nobody has told me I look pretty in a long time. Not even me.
 
-We talk a while longer. About work, about Marcos and his checked shirt, about her son's school, about a series I absolutely have to watch. Small things, warm things, the kind that remind you there's a normal life somewhere, waiting for you.
+We talk a while longer. About work, about Marcus and his checked shirt, about her son's school, about a series I absolutely have to watch. Small things, warm things, the kind that remind you there's a normal life somewhere, waiting for you.
 
 Before hanging up, she turns serious.
 
@@ -606,7 +607,7 @@ One afternoon I drew a boy. A boy my age, with dark, tousled hair, sitting on a 
 
 And when I finished, I thought: this one stays.
 
-Just like that, in those words. This one stays. Not like my father, who left that winter to live in Vigo with a suitcase and a box of records. Not like my mother, who left without moving, shut up in her sadness as if in a room with no windows.
+Just like that, in those words. This one stays. Not like my father, who left that winter to live in Aberdeen with a suitcase and a box of records. Not like my mother, who left without moving, shut up in her sadness as if in a room with no windows.
 
 This one stays.
 
@@ -614,7 +615,7 @@ From then on I drew him in every sketchbook. He grew up with me, without my plan
 
 At sixteen I drew him for the first time as a boy I liked. With his lips parted, looking at me. I spent a whole afternoon on that drawing, my heart beating in my ears. And then I tore out the page and ripped it into tiny pieces, red with shame, as if someone could see inside me.
 
-Then came the real boyfriends. The ones from university, the ones from Madrid. I fell in love, fell out of love, cried, forgot. And he stayed there, in the margins, without complaint. Waiting. He never needed anything. He never asked me for anything. He was just there.
+Then came the real boyfriends. The ones from university, the ones from London. I fell in love, fell out of love, cried, forgot. And he stayed there, in the margins, without complaint. Waiting. He never needed anything. He never asked me for anything. He was just there.
 
 Only once did I try to show him to someone.
 
@@ -674,7 +675,7 @@ The storm has come early.
 
 ---
 
-### Maruxa · Stuttgart, June 1966
+### Maisie · Stuttgart, June 1966
 
 In June I stopped crying at night.
 
@@ -682,9 +683,9 @@ It didn't happen all at once. It was like getting over a cold, when one day you 
 
 I don't know if it was because I got used to it or because I got tired of crying. I think both.
 
-In June I also learnt to say *Feuerbach* without them laughing at me in the bakery. And I learnt that if you asked for the black bread cut in thin slices and put butter and sugar on it, it almost tasted like something. And that the Neckar, on Sunday afternoons, filled up with German families out walking with their children, and that if you sat on the grass by the bank and closed your eyes, the sound of the water was a little like, just a little like, the sound of the ría.
+In June I also learnt to say *Feuerbach* without them laughing at me in the bakery. And I learnt that if you asked for the black bread cut in thin slices and put butter and sugar on it, it almost tasted like something. And that the Neckar, on Sunday afternoons, filled up with German families out walking with their children, and that if you sat on the grass by the bank and closed your eyes, the sound of the water was a little like, just a little like, the sound of the firth.
 
-I went almost every Sunday. Alone, because Pilar went with her boyfriend and Fátima stayed in writing letters to Lisbon.
+I went almost every Sunday. Alone, because Pina went with her boyfriend and Fátima stayed in writing letters to Lisbon.
 
 I sat on the grass and looked at the water. Sometimes I sang. Softly, to myself.
 
@@ -700,7 +701,7 @@ One afternoon he came closer than ever. I had a part in my hand, one of those wi
 
 I went still. With the part in my hand. Not breathing.
 
-I felt the heat of his body at my back. He smelt of soap, good soap, not the kind from the residence, and of something metallic, like everyone in the factory. He was so close I could hear his breathing over the noise of the machines.
+I felt the heat of his body at my back. He smelt of soap, good soap, not the kind from the hostel, and of something metallic, like everyone in the factory. He was so close I could hear his breathing over the noise of the machines.
 
 He bent down a little. He reached over my shoulder, a big hand, long-fingered, the nails cut very short, and took the part from my fingers very carefully. Without touching me. Not even a brush.
 
@@ -720,7 +721,7 @@ I fixed my eyes on the belt, my heart racing, and let four parts go by without c
 
 That night I couldn't sleep.
 
-Fátima was snoring softly. Pilar had gone out with her boyfriend and hadn't come back. The window facing the wall was open because of the heat, and through it came the noise of the goods trains passing on the tracks, long, so slow, as if they were never going to end.
+Fátima was snoring softly. Pina had gone out with her boyfriend and hadn't come back. The window facing the wall was open because of the heat, and through it came the noise of the goods trains passing on the tracks, long, so slow, as if they were never going to end.
 
 I thought about his hands. About how he'd taken the part from me without brushing against me.
 
@@ -728,9 +729,9 @@ I thought that he had been careful not to touch me. Very careful. Too careful fo
 
 I turned over in bed and covered my face with the sheet. It was burning.
 
-What a silly girl you were, Maruxa! Nineteen years old, fifteen hundred kilometres from home, without a word of German, and thinking about the hands of a foreman who didn't even know your name.
+What a silly girl you were, Maisie! Nineteen years old, fifteen hundred kilometres from home, without a word of German, and thinking about the hands of a foreman who didn't even know your name.
 
-Because he didn't. At the factory everyone called me María. That was what it said on my file, on my contract, on the card we punched when we came in. *María Fernández Lago.* Nobody in all of Germany knew I was Maruxa.
+Because he didn't. At the factory everyone called me Mary. That was what it said on my file, on my contract, on the card we punched when we came in. *Mary Isbister Rendall.* Nobody in all of Germany knew I was Maisie.
 
 I thought that if one day someone called me that, by my real name, in that cold country, I would burst into tears.
 
@@ -804,7 +805,7 @@ Now nobody looks for it. And I'm up here, alone, watching the storm from inside 
 
 Before I go down I do something I haven't done in a year.
 
-I untie one of the ropes of the geor and lift the canvas by a corner.
+I untie one of the ropes of the cover and lift the canvas by a corner.
 
 Underneath is the lens. I've never seen it up close. It's huge, taller than me, a glass beehive made of stacked rings and prisms, hundreds of pieces cut by hand surrounding an empty space in the centre, where the light used to be. Even though nothing is lit, the glass gathers the little grey daylight of the storm and gives it back multiplied, in reflections that tremble on my hands and on my face.
 
@@ -842,7 +843,7 @@ It happens to me a lot. I hear things and then I don't know if I heard them. I s
 
 I lie back again. I pull the blanket up to my chin.
 
-To keep from thinking, I take out my phone and listen again to the voice messages my grandmother sent this week. I've got no signal, but the messages are still there, saved. Her voice fills the kitchen, small and tinny through the speaker. *Peedie lass, I made* filloas *today. Peedie lass, I ran into Mrs Flett and she asked after you. Peedie lass, don't go swimming, I know you.*
+To keep from thinking, I take out my phone and listen again to the voice messages my grandmother sent this week. I've got no signal, but the messages are still there, saved. Her voice fills the kitchen, small and tinny through the speaker. *Peedie lass, I made pancakes today. Peedie lass, I ran into Mrs Flett and she asked after you. Peedie lass, don't go swimming, I know you.*
 
 I listen to all of them, one after another, with my eyes closed. Then I start again.
 
@@ -902,11 +903,11 @@ It's three sharp knocks on the door.
 
 ---
 
-### Maruxa · Stuttgart, December 1966
+### Maisie · Stuttgart, December 1966
 
 The first Christmas it snowed.
 
-I had never seen it really snow. In Galicia, on the coast, snow is something that happens in the mountains, far away, on postcards. So when I got up on the morning of the twenty-fourth and saw the wall outside the window white, and the sky white, and enormous flakes falling slowly, without a sound, like feathers from a burst pillow, I stood for a long while with my nose pressed to the glass.
+I had never seen it really snow. In Stromness the snow comes in sideways off the sea and is gone by dinner time, grey slush on the pier; it never lies. So when I got up on the morning of the twenty-fourth and saw the wall outside the window white, and the sky white, and enormous flakes falling slowly, without a sound, like feathers from a burst pillow, I stood for a long while with my nose pressed to the glass.
 
 It was the most beautiful thing I had ever seen in my life. And I was alone to see it.
 
@@ -914,27 +915,27 @@ Fátima had gone to Lisbon to spend the holidays with her daughters. She had sav
 
 'So you're not alone,' she said. It was the longest sentence I heard her say all year.
 
-Pilar went to dinner at the house of some people from her boyfriend's village, on the other side of the city. She invited me to go. I told her no, I had a headache. Nothing hurt. I just didn't want to be the one too many at somebody else's table.
+Pina went to dinner at the house of some people from her boyfriend's village, on the other side of the city. She invited me to go. I told her no, I had a headache. Nothing hurt. I just didn't want to be the one too many at somebody else's table.
 
 And I had no money for the ticket. Everything I earned I sent home, except just enough to eat. My father needed a new engine for the boat. My sister needed shoes for school. My mother needed not to worry.
 
-So I stayed in the empty residence. Me and three Turkish girls from the end of the corridor who didn't celebrate Christmas and who looked at me with curiosity when I passed them in the bathroom.
+So I stayed in the empty hostel. Me and three Turkish girls from the end of the corridor who didn't celebrate Christmas and who looked at me with curiosity when I passed them in the bathroom.
 
 ---
 
-I spent Christmas Eve sitting on my bed, with my coat on because the heating in the residence went off at ten, and with a candle I had bought at the church in Feuerbach.
+I spent Christmas Eve sitting on my bed, with my coat on because the heating in the hostel went off at ten, and with a candle I had bought at the church in Feuerbach.
 
 For supper I had black bread with butter and sugar. And an orange Fátima had saved for me.
 
-I peeled the orange very slowly, the way my mother did, all in one go, without breaking the peel, so it stayed whole like a flower. The smell filled the room. It smelt of home. Of Christmas Eve in the kitchen with the wood stove, my father cracking walnuts with his fingers and my sister asleep on the bench and my mother singing while she put the salt cod to soak.
+I peeled the orange very slowly, the way my mother did, all in one go, without breaking the peel, so it stayed whole like a flower. The smell filled the room. It smelt of home. Of Christmas Eve in the kitchen by the peat fire, my father cracking walnuts with his fingers and my sister asleep on the bench and my mother singing while she put the salt fish to steep.
 
 And then I cried. For the first time since June.
 
-I cried as much as I wanted, without biting the pillow, because there was nobody to hear me. I cried for my mother and for the *empanada* and for the sea. I cried for the snow, which was so beautiful and which I had no one to show.
+I cried as much as I wanted, without biting the pillow, because there was nobody to hear me. I cried for my mother and for the pie and for the sea. I cried for the snow, which was so beautiful and which I had no one to show.
 
-When I was done, I blew my nose on the embroidered handkerchief my mother had slipped into my pocket at the station in Vigo. And I started to sing.
+When I was done, I blew my nose on the embroidered handkerchief my mother had slipped into my pocket on the pier at Stromness. And I started to sing.
 
-Not softly. Loud. For the first time since I came to Germany, I sang loud, with all my voice, without being afraid someone would tell me to be quiet. I sang Galician carols, the ones we sang as girls going from house to house asking for *castañas*. I sang my mother's *alalás*. I sang a lullaby my grandmother used to sing me that I hadn't remembered since I was little.
+Not softly. Loud. For the first time since I came to Germany, I sang loud, with all my voice, without being afraid someone would tell me to be quiet. I sang the New Year Song, the one we sang as girls going from house to house at Hogmanay asking for bannocks. I sang my mother's *auld sangs*. I sang a lullaby my grandmother used to sing me that I hadn't remembered since I was little.
 
 My voice bounced off the walls of the empty corridor and came back to me, different, bigger, as if a choir were singing.
 
@@ -958,7 +959,7 @@ He didn't turn round.
 
 He put his hands in his pockets and kept walking, slowly, until the snow and the dark swallowed him.
 
-I stayed at the window with my heart pounding against my ribs. Telling myself it wasn't him. That there were a thousand tall Germans in Stuttgart. That what would the line foreman be doing at the door of a women's residence, on Christmas Eve, in the snow.
+I stayed at the window with my heart pounding against my ribs. Telling myself it wasn't him. That there were a thousand tall Germans in Stuttgart. That what would the line foreman be doing at the door of a women's hostel, on Christmas Eve, in the snow.
 
 I told myself that many times that night.
 
@@ -967,6 +968,7 @@ And every time I told myself, I remembered the footprints.
 Because in the morning, when I went down, they were still there, in the fresh snow. Big footprints, a man's, that came along the street, stopped right under my window, and stayed a long time in the same place, treading and treading the snow until it was hard and grey.
 
 Like someone who had stood there for a whole hour, still, listening.
+
 
 ## 5 · Ada
 
@@ -1008,9 +1010,9 @@ I think of a sailor. Of a fisherman whose boat has broken loose in the harbour a
 
 And I'm the only house for more than a mile.
 
-I also think, for one absurd instant, of Madrid.
+I also think, for one absurd instant, of London.
 
-Of the three words in the message. Of someone getting into a car at night and driving fourteen hundred miles to knock on my door, the way my grandfather, in a way, knocked one day on my grandmother's.
+Of the three words in the message. Of someone getting into a car at night and driving seven hundred miles to knock on my door, the way my grandfather, in a way, knocked one day on my grandmother's.
 
 I can't tell whether what I feel is hope or fear. I don't stop to find out.
 
@@ -1034,7 +1036,7 @@ A figure. A man. Standing on the step, hunched against the wind. The water runni
 
 He has no umbrella. He has nothing. He's just there, soaked, his arms hanging at his sides, waiting.
 
-It isn't anyone from Madrid. Nobody from Madrid would have climbed all the way up here without complaining about the cold.
+It isn't anyone from London. Nobody from London would have climbed all the way up here without complaining about the cold.
 
 'Who is it?' I shout.
 
@@ -1144,7 +1146,7 @@ I only move aside a little, pressing myself against the wall, as if I were makin
 
 ---
 
-### Maruxa · Stuttgart, January 1967
+### Maisie · Stuttgart, January 1967
 
 I didn't ask him anything. What was I going to ask him? Whether he had stood under my window for an hour on Christmas Eve? In what language?
 
@@ -1156,11 +1158,11 @@ He didn't look at me. Not once.
 
 And that frightened me more than all the looks put together.
 
-I spent a week like that. Without him looking at me. With a knot in my stomach that wouldn't let me eat even the potatoes. Pilar asked me if I was ill. Fátima, who had come back from Lisbon with her face full of light and a new photo of her daughters for the wall, put her hand on my forehead to see if I had a fever.
+I spent a week like that. Without him looking at me. With a knot in my stomach that wouldn't let me eat even the potatoes. Pina asked me if I was ill. Fátima, who had come back from Lisbon with her face full of light and a new photo of her daughters for the wall, put her hand on my forehead to see if I had a fever.
 
 I didn't have a fever. I was nineteen years old and had a question I didn't know how to ask.
 
-At night I turned it over and over in bed. I made up explanations. That the shadow on Christmas Eve wasn't him. That it was him, but he had happened to pass by. That he had noticed a Spanish girl singing at the top of her lungs in the residence and had reported her to the company, and that was why he didn't look at me any more, because there was no need, because they were going to throw me out anyway.
+At night I turned it over and over in bed. I made up explanations. That the shadow on Christmas Eve wasn't him. That it was him, but he had happened to pass by. That he had noticed a Scottish girl singing at the top of her lungs in the hostel and had reported her to the company, and that was why he didn't look at me any more, because there was no need, because they were going to throw me out anyway.
 
 Each explanation was worse than the last.
 
@@ -1168,7 +1170,7 @@ And beneath all of them, without my daring to look it in the face, there was a s
 
 ---
 
-It was a Thursday. The twelfth of January. I remember because it was my father's saint's day and that morning I had sent him a postcard with a picture of Stuttgart cathedral, which I had never visited.
+It was a Thursday. The twelfth of January. I remember because it was my father's birthday and that morning I had sent him a postcard with a picture of Stuttgart cathedral, which I had never visited.
 
 The end-of-shift siren sounded. The girls got up from the line stretching, pulling the kerchiefs off their hair, laughing at something an Italian girl had said. I stayed a moment longer, gathering my things, because I was in no hurry to get back to the barracks.
 
@@ -1182,7 +1184,7 @@ He was red. Red as a tomato, from his shirt collar up to his ears, which were a 
 
 He opened his mouth. Closed it. Opened it again.
 
-And then he spoke. In Spanish. In the most horrible Spanish I have ever heard in my life, with every r dragged up from the bottom of his throat and every vowel in the wrong place.
+And then he spoke. In English. In the most horrible English I have ever heard in my life, with every r dragged up from the bottom of his throat and every vowel in the wrong place.
 
 'You… sing. Very pretty. You sing very pretty.'
 
@@ -1210,7 +1212,7 @@ He didn't smile all the way. Only a little. As if he were about to smile and did
 
 I stopped laughing.
 
-'Thank you,' I told him. And then, in German, with my Costa accent: '*Danke.*'
+'Thank you,' I told him. And then, in German, with my Orkney accent: '*Danke.*'
 
 He nodded. Once. Very serious again, though his eyes weren't.
 
@@ -1466,29 +1468,29 @@ I know because I don't sleep either.
 
 ---
 
-### Maruxa · Stuttgart, January 1967
+### Maisie · Stuttgart, January 1967
 
 The next day he was waiting for me when I came out.
 
 Not at the factory gate, where everyone would have seen him. Farther down, at the corner of the street, by the tram stop, in a grey coat and a navy-blue wool scarf. He was pretending to read a timetable he surely knew by heart.
 
-Pilar elbowed me so hard she nearly knocked me over.
+Pina elbowed me so hard she nearly knocked me over.
 
 'Look who's there. The one with no blood in his veins.'
 
 'Shut up.'
 
-'*Ay, rapaza.* Ay, ay, ay.'
+'*Ahi, bella.* Ahi, ahi, ahi.'
 
 And she went off laughing with her boyfriend, leaving me alone in the middle of the pavement.
 
 He looked up from the timetable. He saw me. He went red again, from the scarf up to his ears. And he came over with his hands in his coat pockets, the way you approach a bird that might take flight.
 
-'*Hola*,' he said. With the h. Pronouncing the h, like a soft Spanish j.
+'*Hallo*,' he said. With an a. Round and careful, the German way, like a man calling across a valley.
 
 I had to bite my lip not to laugh.
 
-'*Hola.*'
+'*Hello.*'
 
 And there our language ran out.
 
@@ -1500,7 +1502,7 @@ The Neckar ran grey and slow, with plates of ice floating at its edges. The cold
 
 He noticed. He took off the blue scarf and held it out to me, without a word.
 
-I hesitated. In my village, accepting a scarf from a man was almost accepting a ring. But I was so cold. And there he was, his arm outstretched and his neck bare, waiting, not insisting.
+I hesitated. In Stromness, accepting a scarf from a man was almost accepting a ring. But I was so cold. And there he was, his arm outstretched and his neck bare, waiting, not insisting.
 
 I took it. I wound it around my neck. It smelled of good soap and of him.
 
@@ -1508,9 +1510,9 @@ We sat on a bench on the bank. And then he took from his coat pocket a small not
 
 He opened it to a page and showed it to me.
 
-They were words. Words in Spanish, written in a spiky, cramped hand, each with its German translation beside it. *Bonito — schön. Cantar — singen. Usted — Sie. Gracias — danke. Mar — Meer.* And many more. Whole pages.
+They were words. Words in English, written in a spiky, cramped hand, each with its German translation beside it. *Pretty — schön. Sing — singen. You — Sie. Thank you — danke. Sea — Meer.* And many more. Whole pages.
 
-Some were misspelled. *Corason. Yuvia. Esperansa.* I laughed, and he laughed with me, for the first time, a deep, surprised laugh that changed his whole face. He looked like someone else. He looked like a boy.
+Some were misspelled. *Hart. Rane. Hoap.* I laughed, and he laughed with me, for the first time, a deep, surprised laugh that changed his whole face. He looked like someone else. He looked like a boy.
 
 I took the pencil out of his hand. Without thinking.
 
@@ -1518,19 +1520,19 @@ And as I took it, my fingers brushed his.
 
 We both went still. His hand was icy on the outside, like mine. But underneath, when my fingers stayed a second too long on his wrist, I felt his pulse. Fast. Very fast. Like a bird's when you hold it in your hand.
 
-He wasn't made of stone. Pilar was wrong. He had so much blood in his veins it was pounding.
+He wasn't made of stone. Pina was wrong. He had so much blood in his veins it was pounding.
 
-I took my hand away. It was trembling a little. I crossed out *corason* and wrote beside it, in my round convent-school hand: *corazón*.
+I took my hand away. It was trembling a little. I crossed out *hart* and wrote beside it, in my round copybook hand: *heart*.
 
 He looked at the word for a long time. Then he repeated it softly, with his accent of rolling stones.
 
-'*Corazón.*'
+'*Heart.*'
 
-'*Corazón*,' I repeated.
+'*Heart*,' I repeated.
 
 And we both looked at the river, very red in the face, without saying anything more, for a long time. The water went by, grey, with its plates of ice. Night fell. Neither of us was in a hurry.
 
-That night, at the residence, Pilar was waiting for me, sitting on her bed with her arms crossed and a grin from ear to ear.
+That night, at the hostel, Pina was waiting for me, sitting on her bed with her arms crossed and a grin from ear to ear.
 
 'And that scarf?'
 
@@ -1551,6 +1553,7 @@ I didn't understand it until many years later. Until I, too, had a granddaughter
 I never gave back the scarf. Not that day, not ever.
 
 I still have it. It's in the wardrobe in my room, folded, on the top shelf. It stopped smelling of him many years ago. But some nights I take it out and put it around my neck anyway, just in case.
+
 
 ## 7 · Ada
 
@@ -1674,9 +1677,9 @@ He looks at them with an expression I can't read.
 
 I start taking them out and flipping through them fast, going backwards. Him at twenty, sitting on a jetty. Him at sixteen, in profile. Him with the scar, at twelve, with a wooden sword that makes me laugh in spite of everything. Him without the scar. Him at nine, the very first, sitting on his rock, looking at the sea.
 
-Each sketchbook holds a period of my life. I see it there, with the sketchbooks open on the table like cards from a pack. The one from the year of my university entrance exams, full of nervous clouds and of him studying next to me, with an open book I never finished drawing. The one from Hamburg, the Erasmus winter, with him walking through the snow by the river, his jacket collar turned up, because I was so cold and so lonely that I drew him with me. The one from Madrid, the first year, when everything was lovely, with him almost hidden, tiny, in the corners, as if he were embarrassed to be there.
+Each sketchbook holds a period of my life. I see it there, with the sketchbooks open on the table like cards from a pack. The one from the year of my Highers, full of nervous clouds and of him studying next to me, with an open book I never finished drawing. The one from Hamburg, the Erasmus winter, with him walking through the snow by the river, his jacket collar turned up, because I was so cold and so lonely that I drew him with me. The one from London, the first year, when everything was lovely, with him almost hidden, tiny, in the corners, as if he were embarrassed to be there.
 
-And then, the one from Madrid in the last few years.
+And then, the one from London in the last few years.
 
 Almost empty. Clouds without him. Whole pages without a single margin filled. It surprises me to see it like that, so clearly, like a gap in a row of teeth. I don't remember stopping drawing him. I don't know when it happened.
 
@@ -1778,11 +1781,11 @@ He is what I've drawn.
 
 ---
 
-### Maruxa · Stuttgart, February 1967
+### Maisie · Stuttgart, February 1967
 
 For a month we saw each other every afternoon. By the river, if it wasn't raining. If it was, in a little café in Feuerbach with crocheted curtains and a fat owner who looked at us as if she knew things.
 
-We understood each other through the oilcloth notebook. He wrote a word in German, I wrote it in Spanish. I drew a boat, he wrote *Boot*. I taught him Galician words that weren't in any dictionary, *morriña*, *saudade*, *orballo*, and he wrote them down very carefully, in his spiky handwriting, and then repeated them so badly that my belly ached from laughing.
+We understood each other through the oilcloth notebook. He wrote a word in German, I wrote it in English. I drew a boat, he wrote *Boot*. I taught him island words that weren't in any dictionary, *hamesickness*, *langour*, *smirr*, and he wrote them down very carefully, in his spiky handwriting, and then repeated them so badly that my belly ached from laughing.
 
 The notebook filled up. It was ours. It was the only house we had.
 
@@ -1802,7 +1805,7 @@ I opened it at the end.
 
 And it wasn't single words. It was songs.
 
-My songs. Written in his spiky handwriting, the way they sounded, without understanding what they said. My mother's *alalás*. The chestnut song. My grandmother's lullaby. All written wrong, his way, the way a German hears Galician: *Ala la la, ala la la, kuando tsei lo mar.*
+My songs. Written in his spiky handwriting, the way they sounded, without understanding what they said. My mother's *auld sangs*. The herring song. My grandmother's lullaby. All written wrong, his way, the way a German hears our speech: *Hey la la, hey la la, ven ai gang tae ze sea.*
 
 And under every song, a date.
 
@@ -1814,7 +1817,7 @@ Nine months. Nine months of my songs, written down one by one, at the far end of
 
 The last page was almost full. At the top was a date: *24.12.1966*.
 
-And underneath, in a long list, all the songs I sang that Christmas Eve. All of them. In order. The carols, the *alalás*, my grandmother's lullaby.
+And underneath, in a long list, all the songs I sang that Christmas Eve. All of them. In order. The carols, the *auld sangs*, my grandmother's lullaby.
 
 At the end of the list there was a single sentence in German, written more slowly than the others, the letters rounder.
 
@@ -1842,7 +1845,7 @@ He went red again. He turned the pages looking for one, and pointed to it. It wa
 
 'Here…' he said. 'Here you… sad. You sing sad.'
 
-And the next one, beside an *alalá* from August.
+And the next one, beside an *auld sang* from August.
 
 'Here, happy. Letter from home, I think.'
 
@@ -1854,7 +1857,7 @@ Someone had been reading me from the inside without my knowing.
 
 I didn't feel afraid. Maybe I should have. A girl alone, far from home, and a man who knew things about her she hadn't told him.
 
-But no. What I felt was something very different. It was like when I was little and got lost at the fair in Padrón and then found out my father had been following me the whole time, from a distance, without saying anything, letting me believe I was brave.
+But no. What I felt was something very different. It was like when I was little and got lost at the Lammas Market in Kirkwall and then found out my father had been following me the whole time, from a distance, without saying anything, letting me believe I was brave.
 
 ## 8 · Ada
 
@@ -2082,7 +2085,7 @@ Iter is by the window. He's opened the shutter and is looking out. The morning l
 
 My phone buzzes on the table. Once. Again. Again. The signal is back and all the messages are coming in, one after another, like birds returning to the tree after the storm.
 
-Lucía, asking if I'm alive. Marcos, with a lighthouse emoji. Three voice messages from my grandmother.
+Lucy, asking if I'm alive. Marcus, with a lighthouse emoji. Three voice messages from my grandmother.
 
 And one more. From the number with no name.
 
@@ -2090,21 +2093,21 @@ And one more. From the number with no name.
 
 I read it three times.
 
-It's him. The one from the first months. The one who remembered I don't take sugar and waited for me with an umbrella outside the metro. For a second I'm glad he remembers me. For the next second I hate myself for being glad.
+It's him. The one from the first months. The one who remembered I don't take sugar and waited for me with an umbrella outside the Tube. For a second I'm glad he remembers me. For the next second I hate myself for being glad.
 
 I don't answer. I don't delete it either.
 
-I listen to my grandmother's first voice message with the phone pressed to my ear. *Peedie lass, are you all right? Say something, I can't sleep. Miña rula, say something.*
+I listen to my grandmother's first voice message with the phone pressed to my ear. *Peedie lass, are you all right? Say something, I can't sleep. My peedie doo, say something.*
 
 I answer her with a text. My fingers are shaking a little.
 
-*I'm fine, Abuela. It was long, but I'm fine. Alone and calm.*
+*I'm fine, Granny. It was long, but I'm fine. Alone and calm.*
 
 I look at the word 'alone' for a long time before sending it.
 
 Iter turns from the window. He looks at me, with the sun behind him, and says good morning in that hoarse voice I'm already starting to wait for.
 
-And I decide, right then, that I'm not going to tell anyone. Not my grandmother. Not Lucía. Not the therapist. No one.
+And I decide, right then, that I'm not going to tell anyone. Not my grandmother. Not Lucy. Not the therapist. No one.
 
 Not for his sake.
 
@@ -2116,7 +2119,7 @@ I press send.
 
 ---
 
-### Maruxa · Stuttgart, March 1967
+### Maisie · Stuttgart, March 1967
 
 It was a year since I'd arrived in Germany, on a sunny Sunday.
 
@@ -2138,13 +2141,13 @@ Then he turned to me, very serious, and asked me something I didn't understand.
 
 He repeated it. I didn't understand that either.
 
-He took out the oilcloth notebook and wrote it, in Spanish, with his usual spelling.
+He took out the oilcloth notebook and wrote it, in English, with his usual spelling.
 
 *Wat do dey kol you at hom?*
 
 I sat looking at the question.
 
-At the factory I was María. On my card I was María. For Klaus, in the notebook, in the cafés, by the river, I had always been María, *Fräulein María*, and then just María, with that r that came from the back of his throat.
+At the factory I was Mary. On my card I was Mary. For Klaus, in the notebook, in the cafés, by the river, I had always been Mary, *Fräulein Mary*, and then just Mary, with that r that came from the back of his throat.
 
 And he, after a year, wanted to know the other one. The real one. The one my mother used, calling me from the door to come and eat. The one my father used when he came back from the sea. The one no one in all of Germany knew.
 
@@ -2152,13 +2155,13 @@ I don't know how he knew. How he knew there was another one.
 
 I took the pencil from him. I wrote underneath, in my round handwriting:
 
-*Maruxa.*
+*Maisie.*
 
 He looked at it for a long time. He moved his lips without sound, trying it out. Then he raised his eyes and looked into mine, with the March sun on his face and the almond trees in bloom behind him, and he said it.
 
-'Maruxa.'
+'Maisie.'
 
-He said it wrong. Of course he said it wrong. *Marusha*, with a long, soft s, like the sound of the sea pulling back across the sand.
+He said it wrong. Of course he said it wrong. *Meisie*, the vowel twisted, and a long, soft s, like the sound of the sea pulling back across the sand.
 
 And I burst into tears.
 
@@ -2176,11 +2179,12 @@ Or I kissed him. We never agreed on that. He said it was me. I say it was him. W
 
 All I know is that it tasted of sour wine and apple.
 
-That night, at the residence, I opened my cardboard suitcase and took out the calendar where I'd been crossing off the days left until I went home. Two years, they had told me. Three at most.
+That night, at the hostel, I opened my cardboard suitcase and took out the calendar where I'd been crossing off the days left until I went home. Two years, they had told me. Three at most.
 
 I looked at all those days crossed out in pencil.
 
 And I stopped crossing them out.
+
 
 # Act Two · Iter
 ## 9 · Ada
@@ -2257,7 +2261,7 @@ The road is a disaster. Stones, seaweed flung over the dykes, and a telegraph po
 
 I drive checking the rear-view mirror every two minutes. I don't know what I expect to see. The lighthouse getting smaller. Someone on the gallery.
 
-Stromness is awake and noisy, like the morning after a fiesta. Men up on the roofs putting slates back in place. A van from the electricity company next to a fallen pole at the edge of town. Women sweeping up glass and seaweed in front of their doors, talking from house to house, each one telling about her night.
+Stromness is awake and noisy, like the morning after a dance. Men up on the roofs putting slates back in place. A van from the electricity company next to a fallen pole at the edge of town. Women sweeping up glass and seaweed in front of their doors, talking from house to house, each one telling about her night.
 
 I don't stop at my grandmother's.
 
@@ -2357,23 +2361,23 @@ And I understand perfectly what he's asking me.
 
 ---
 
-### Maruxa · Stuttgart, April 1967
+### Maisie · Stuttgart, April 1967
 
-He came to the residence one Saturday afternoon, with a bunch of yellow tulips and his hair wet from combing it with water.
+He came to the hostel one Saturday afternoon, with a bunch of yellow tulips and his hair wet from combing it with water.
 
 I didn't see him arrive. I was in the laundry room in the basement, my arms in a sink of cold water up to the elbows, scrubbing the week's smocks. It was Fátima who opened the door.
 
-Pilar told me about it afterwards, crying with laughter.
+Pina told me about it afterwards, crying with laughter.
 
-That Fátima opened the door and found in front of her a German two metres tall with a bunch of flowers, red to the ears, who asked for *Fräulein María* in his Spanish made of stones. That Fátima looked him up and down, very slowly, without saying a word. That she looked him down and up again.
+That Fátima opened the door and found in front of her a German two metres tall with a bunch of flowers, red to the ears, who asked for *Fräulein Mary* in his English made of stones. That Fátima looked him up and down, very slowly, without saying a word. That she looked him down and up again.
 
 And that she shut the door in his face.
 
 Just like that, without a word. Bang.
 
-Pilar, who had seen everything from the stairs, came running to find me in the laundry room, her face red from holding in the laughter.
+Pina, who had seen everything from the stairs, came running to find me in the laundry room, her face red from holding in the laughter.
 
-'*Rapaza.* The German. He's outside. With flowers. And Fátima…' She couldn't finish. She was bent double.
+'*Madonna.* The German. He's outside. With flowers. And Fátima…' She couldn't finish. She was bent double.
 
 I went up the steps two at a time, my hands dripping and my sleeves rolled up, my hair pinned up any old way with one hairpin, my apron soaked. I looked out of the hallway window, the one that faced the street.
 
@@ -2619,7 +2623,7 @@ It's the most human thing I've ever seen him do.
 
 ---
 
-### Maruxa · Lake Constance, July 1967
+### Maisie · Lake Constance, July 1967
 
 Klaus had it all written down in the oilcloth notebook.
 
@@ -2627,7 +2631,7 @@ The six-twelve train to Friedrichshafen. The nine-fifteen boat to Meersburg. Lun
 
 He had it written in his spiky handwriting, with the minutes underlined.
 
-I had never seen a lake. In Galicia there are rivers, there's the sea, there are rías, but a real lake, so big you can't see the other shore, no. I'd spent the whole week dreaming about it.
+I had never seen a real lake. In Orkney there are lochs, there's the sea, there's Scapa Flow, but none so big you can't see the other shore, no. I'd spent the whole week dreaming about it.
 
 The six-twelve train left at six-forty. A breakdown on the line, they said.
 
@@ -2643,11 +2647,11 @@ He didn't speak to me for an hour.
 
 I was sitting next to him on a bench in the ferry terminal, in my wet Sunday dress, listening to the rain, and at first I felt sorry for him. Then it made me angry. Then it made me laugh.
 
-It started coming out through my nose, like when you laugh at Mass. I tried to hold it in. I couldn't.
+It started coming out through my nose, like when you laugh in the kirk. I tried to hold it in. I couldn't.
 
 He looked at me out of the corner of his eye, with a sour face.
 
-'What?' he said in Spanish.
+'What?' he said in English.
 
 'The lake hasn't read your notebook.'
 
@@ -2663,7 +2667,7 @@ At three it stopped raining.
 
 The lake appeared all at once between the clouds, enormous, silver, with the mountains behind it still white with snow in the middle of July. It took my breath away.
 
-I ran down to the shore, took off my shoes and went into the water, dress and all. It was freezing. It was snowmelt. I swam a little, the way I used to swim in the ría as a girl, and turned round to call him.
+I ran down to the shore, took off my shoes and went into the water, dress and all. It was freezing. It was snowmelt. I swam a little, the way I used to swim in the firth as a girl, and turned round to call him.
 
 Klaus was on the shore, his trousers rolled up to the knees, not daring to go in past his ankles.
 
@@ -2677,7 +2681,7 @@ I laughed so hard I swallowed water.
 
 Nothing that day went the way it was written. It was the best day of my life in Germany.
 
-On the train back, he took out his pencil, opened the notebook to the page with the plan and crossed it all out with one long line. Underneath he wrote, in his usual Spanish:
+On the train back, he took out his pencil, opened the notebook to the page with the plan and crossed it all out with one long line. Underneath he wrote, in his usual English:
 
 *The lake doesn't read.*
 
@@ -2735,7 +2739,7 @@ Click.
 
 The battery. After three days of damp and cold, after the storm, it has died in the car park at the harbour, two and a half miles from home, with a twelve-kilo gas bottle in the boot.
 
-I rest my forehead on the wheel and let out a curse that would have made my grandmother cross herself.
+I rest my forehead on the wheel and let out a curse that would have had my grandmother reaching for her psalm book.
 
 ---
 
@@ -2891,9 +2895,9 @@ And before he shuts it, he leans back in and says to me, without any malice, wit
 
 ---
 
-### Maruxa · Stuttgart, November 1967
+### Maisie · Stuttgart, November 1967
 
-The Galician Centre in Stuttgart was a basement that smelled of octopus, of black tobacco and of bootleg *orujo*. On Saturday nights it filled up with men from Ourense and Lugo playing cards, women dancing *pasodobles* with each other, and children running between the tables.
+The Italian club in Stuttgart was a basement that smelled of octopus, of black tobacco and of grappa. On Saturday nights it filled up with men from Calabria and Sicily playing cards, women dancing waltzes with each other, and children running between the tables.
 
 I didn't bring Klaus. I was ashamed. Not of him. Of what people would say.
 
@@ -2903,23 +2907,23 @@ He didn't warn me. I saw him appear at the top of the basement stairs, ducking s
 
 I wanted the earth to swallow me.
 
-He didn't look for me. He went straight to the bar, where Manolo from Celanova was pouring the wine, and said something to him in a low voice. Manolo looked him up and down. Then he burst out laughing, poured him an *orujo* and gave him a slap on the back that would have knocked down an ox.
+He didn't look for me. He went straight to the bar, where Gino from Cosenza was pouring the wine, and said something to him in a low voice. Gino looked him up and down. Then he burst out laughing, poured him a glass of grappa and gave him a slap on the back that would have knocked down an ox.
 
-At eleven, Klaus was sitting at the Lugo table, his face red as a tomato and his fourth glass of *orujo* in front of him.
+At eleven, Klaus was sitting at the Calabrian table, his face red as a tomato and his fourth glass of grappa in front of him.
 
 At twelve he was singing.
 
-He was singing an *alalá*. My *alalá*, my mother's, the one he'd had written down in the oilcloth notebook since April of 1966. He sang it with his eyes closed and his hand on his chest, completely out of tune, with his stony r's and his vowels in the wrong places, at the top of his lungs.
+He was singing an *auld sang*. My *auld sang*, my mother's, the one he'd had written down in the oilcloth notebook since April of 1966. He sang it with his eyes closed and his hand on his chest, completely out of tune, with his stony r's and his vowels in the wrong places, at the top of his lungs.
 
-The Lugo men were crying with laughter. Manolo was drying his eyes with the bar cloth. The women covered their mouths.
+The Calabrian men were crying with laughter. Gino was drying his eyes with the bar cloth. The women covered their mouths.
 
 I covered my face with both hands.
 
-And then, in the middle of the laughter, someone began to sing with him. An old woman from Ourense, who always sat alone in a corner. Softly at first. Then louder. Then another person joined in. And another.
+And then, in the middle of the laughter, someone began to sing with him. An old woman from Glasgow, the widow of one of the Calabrians, who always sat alone in a corner. Softly at first. Then louder. Then another person joined in. And another.
 
 By the end the whole basement was singing. Klaus in the middle, out of tune, his eyes closed.
 
-When they finished, the woman from Ourense was crying for real. She said something to Klaus, holding his face in her hands. He didn't understand a word, but he nodded very seriously.
+When they finished, the woman from Glasgow was crying for real. She said something to Klaus, holding his face in her hands. He didn't understand a word, but he nodded very seriously.
 
 Then he looked for me for the first time all night. He found me by the door, my hands still on my face and my cheeks wet.
 
@@ -2927,9 +2931,10 @@ He smiled. All the way, this time.
 
 And he fell off his chair.
 
-Manolo and I carried him between us back to his boarding house, at two in the morning, still singing. Still out of tune. He stepped on my feet six times.
+Gino and I carried him between us back to his boarding house, at two in the morning, still singing. Still out of tune. He stepped on my feet six times.
 
 I was never ashamed to take him anywhere again.
+
 
 ## 12 · Ada
 
@@ -2973,11 +2978,11 @@ There's a knock at the door.
 
 ---
 
-'*Abuela!* What a surprise!'
+'Granny! What a surprise!'
 
 My voice comes out two notes higher than normal. She notices. I can tell from the way she looks at me over her glasses as she kisses me on both cheeks.
 
-'Morag was coming up anyway.' She comes in without waiting to be asked, as always, and sets her handbag on the chair in the hall. 'I've brought you *filloas*.'
+'Morag was coming up anyway.' She comes in without waiting to be asked, as always, and sets her handbag on the chair in the hall. 'I've brought you pancakes.'
 
 'You didn't have to go to the trouble.'
 
@@ -2985,7 +2990,7 @@ My voice comes out two notes higher than normal. She notices. I can tell from th
 
 She goes straight to the kitchen. Me behind her, my heart pounding against my ribs.
 
-She sets the tub of *filloas* on the table, next to the box of plasters. She looks at the box.
+She sets the tub of pancakes on the table, next to the box of plasters. She looks at the box.
 
 She goes to the sink to wash her hands. She looks at the two mugs. She says nothing.
 
@@ -3023,13 +3028,13 @@ And then she looks back at me.
 
 ---
 
-She stays half an hour. We talk about the storm, the car battery, the *filloas*, Inga's granddaughter who's getting married in May. She eats one *filloa*. I eat three without tasting them.
+She stays half an hour. We talk about the storm, the car battery, the pancakes, Inga's granddaughter who's getting married in May. She eats one pancake. I eat three without tasting them.
 
 She doesn't bring it up again.
 
 When the horn of Morag's van sounds, on its way back from the farms, she stands and puts on her coat. She kisses me on both cheeks at the door. And then she takes my face in both hands, the way she used to when I was little, and squeezes it a little.
 
-'On Wednesday I'm making *empanada*,' she says. 'If you like, bring the hillwalker.'
+'On Wednesday I'm making pie,' she says. 'If you like, bring the hillwalker.'
 
 And she leaves.
 
@@ -3051,13 +3056,13 @@ He doesn't say it angrily. He says it trying out the word, the way he tries out 
 
 'It's not that. It's that I don't know how to explain you. I don't know how to explain to anyone what you are.'
 
-'Your grandmother didn't ask you what I am.' He comes over to the table. He takes a *filloa* from the tub. He looks at it. 'She asked you who.'
+'Your grandmother didn't ask you what I am.' He comes over to the table. He takes a pancake from the tub. He looks at it. 'She asked you who.'
 
 He takes a bite. He chews slowly. He closes his eyes.
 
 'This is really good,' he says, with his mouth full.
 
-And he goes to sit on the sofa, with the book on clouds and the *filloa*, his back to me.
+And he goes to sit on the sofa, with the book on clouds and the pancake, his back to me.
 
 He doesn't speak to me all afternoon.
 
@@ -3065,7 +3070,7 @@ It's the first time he's been angry with me. And I didn't draw it.
 
 ---
 
-### Maruxa · Stuttgart, February 1968
+### Maisie · Stuttgart, February 1968
 
 *Dear Mother,*
 
@@ -3073,19 +3078,19 @@ It's the first time he's been angry with me. And I didn't draw it.
 
 *Your loving daughter,*
 
-*Maruxa*
+*Maisie*
 
 I read it three times before I put it in the envelope.
 
 It didn't say anything that was a lie. It was cold. I was eating well. The work was the same.
 
-But it didn't say that for a year I had been going out with a German two metres tall who sang the *alalás* off-key. It didn't say that on Sundays I no longer went to the Neckar alone. It didn't say that I had done the overtime to buy him a new scarf, because I had his blue one and had no intention of giving it back.
+But it didn't say that for a year I had been going out with a German two metres tall who sang the *auld sangs* off-key. It didn't say that on Sundays I no longer went to the Neckar alone. It didn't say that I had done the overtime to buy him a new scarf, because I had his blue one and had no intention of giving it back.
 
 It didn't say the most important thing in my life.
 
-My mother was one of those who believed the girls who went to Germany came back ruined. That there were men there who took advantage of Spanish girls, who didn't go to Mass, who weren't our kind. That a German, on top of everything, would be a Protestant, which for her was almost the worst thing a person could be.
+My mother was one of those who believed the girls who went to Germany came back ruined. That there were men there who took advantage of island girls, who didn't go to the kirk, who weren't our kind. That a German, on top of everything, would not even be Church of Scotland, which for her was almost the worst thing a person could be.
 
-And Klaus was a Protestant. I had found out at Christmas, when he came with me to Midnight Mass at the Catholic church in Feuerbach and spent the whole Mass standing when it was time to kneel, and on his knees when it was time to stand.
+And Klaus was a Lutheran. I had found out at Christmas, when he came with me to the Watchnight service at the English church in town and spent the whole service standing when it was time to kneel, and on his knees when it was time to stand.
 
 I sealed the envelope. I licked the stamp.
 
@@ -3209,7 +3214,7 @@ He nods. He stands up. He goes towards the sofa.
 
 And before sitting down, he turns and says to me, very seriously:
 
-'Your grandmother's *filloas* were really good. I didn't tell you before because I was angry.'
+'Your grandmother's pancakes were really good. I didn't tell you before because I was angry.'
 
 A laugh escapes me through the tears. A broken laugh, horrible, snotty. He watches me laugh. And the corner of his mouth lifts. Just a little. Just a little more than in the drawing.
 
@@ -3217,7 +3222,7 @@ That one is his.
 
 ---
 
-### Maruxa · Stuttgart, June 1968
+### Maisie · Stuttgart, June 1968
 
 '*Die* Straßenbahn. Not *der*. *Die*.'
 
@@ -3233,7 +3238,7 @@ He'd been like that for three months. Ever since he decided I had to learn Germa
 
 He corrected me when I told him I loved him.
 
-That Sunday, by the Neckar, I told him something about my father. Something important. That the new boat didn't bring in enough to pay for the motor, that my sister was going to have to leave school, that I didn't know how to send home more money than I already did.
+That Sunday, by the Neckar, I told him something about my father. Something important. That the boat didn't bring in enough to pay off the new engine, that my sister was going to have to leave school, that I didn't know how to send home more money than I already did.
 
 I told him in German, struggling, my eyes full of tears.
 
@@ -3243,19 +3248,19 @@ And he said to me:
 
 I got up from the bench.
 
-'I am not your notebook,' I told him. In Spanish. In Galician. In whatever came out. 'I am not your notebook, Klaus! Don't correct me!'
+'I am not your notebook,' I told him. In English. In Orcadian. In whatever came out. 'I am not your notebook, Klaus! Don't correct me!'
 
 He didn't understand all the words. He understood enough.
 
-I walked off along the riverbank, fast, without looking back. I heard him call me. *Maruxa. Maruxa.* I didn't turn round.
+I walked off along the riverbank, fast, without looking back. I heard him call me. *Maisie. Maisie.* I didn't turn round.
 
 That night I didn't go to the café. Nor the next.
 
 On the third day, Fátima brought me an envelope someone had left at the front desk.
 
-Inside was a page torn from the oilcloth notebook. And on the page, in his spiky handwriting, a single sentence in Spanish. Full of mistakes. Full of mistakes on purpose, I realised later, because he already knew how to spell that word right.
+Inside was a page torn from the oilcloth notebook. And on the page, in his spiky handwriting, a single sentence in English. Full of mistakes. Full of mistakes on purpose, I realised later, because he already knew how to spell that word right.
 
-*Perdoname. Tu hablas komo tu kieres. Yo te escucho igual.*
+*Forgif me. Yu tok hau yu want. I lissen to yu ze same.*
 
 Underneath, crossed out with a line, was written *Die Schule*.
 
@@ -3411,7 +3416,7 @@ He waits.
 
 'I wanted to be an illustrator. Make children's books. Since I was ten. I had a portfolio full of illustrated stories.' I swallow. 'My mother told me that wasn't a job. That I'd starve doing that. That I should study something real. And I listened to her, and I studied physics, and then meteorology, because at least that way I'd still be looking at the sky.'
 
-I've never told anyone. Not Lucía. Not my grandmother.
+I've never told anyone. Not Lucy. Not my grandmother.
 
 'And the portfolio?'
 
@@ -3425,15 +3430,15 @@ And he gets up to make me another coffee. Strong, this time.
 
 ---
 
-### Maruxa · Stuttgart, October 1968
+### Maisie · Stuttgart, October 1968
 
 Klaus's mother came from the Black Forest on a local train, wearing a hat with a pheasant feather and carrying a cherry cake in a cardboard box tied with string.
 
-She looked me up and down on the platform the way Fátima had looked at Klaus at the door of the residence. But Fátima, in the end, had opened the door.
+She looked me up and down on the platform the way Fátima had looked at Klaus at the door of the hostel. But Fátima, in the end, had opened the door.
 
 Frau Koch didn't.
 
-We ate at a restaurant in the centre of town, with white tablecloths and waiters in waistcoats. She talked to Klaus in German, fast, in a low voice, without looking at me. I smiled and ate my *Schnitzel* with my head down, like a silly little Spanish girl who didn't understand a thing.
+We ate at a restaurant in the centre of town, with white tablecloths and waiters in waistcoats. She talked to Klaus in German, fast, in a low voice, without looking at me. I smiled and ate my *Schnitzel* with my head down, like a silly little island girl who didn't understand a thing.
 
 That's what she thought.
 
@@ -3441,7 +3446,7 @@ I had been studying German in secret for four months. At night, with Klaus's gra
 
 I understood almost all of it.
 
-I understood *Spanierin*, Spanish woman, said the way you name a disease. I understood *katholisch*. I understood *Fabrikarbeiterin*, factory girl, even though her son worked in a factory too. I understood that there was a girl in her village, the chemist's daughter, Hildegard, who had been waiting for him for years.
+I understood *Ausländerin*, foreigner, said the way you name a disease. I understood *Fabrikarbeiterin*, factory girl, even though her son worked in a factory too. I understood that there was a girl in her village, the chemist's daughter, Hildegard, who had been waiting for him for years.
 
 And I understood what Klaus answered.
 
@@ -3453,7 +3458,7 @@ And he said to her, in German, without raising his voice:
 
 Frau Koch fell silent. Her eyes went bright. She looked out of the window.
 
-I went on eating my *Schnitzel* with my head down, like a silly little Spanish girl who didn't understand a thing. With my eyes full of tears, which I blamed on the mustard.
+I went on eating my *Schnitzel* with my head down, like a silly little island girl who didn't understand a thing. With my eyes full of tears, which I blamed on the mustard.
 
 I never told Klaus I had understood.
 
@@ -3493,7 +3498,7 @@ I open my eyes. I close them again.
 
 Breathe.
 
-His real smile, the small one, the *filloa* one. The watery coffee. The *bedsheets*. The dimple.
+His real smile, the small one, the pancake one. The watery coffee. The *bedsheets*. The dimple.
 
 It's useless. Every time I try to empty my head, my head fills up with him. Like water rushing into a hollow in the sand the moment you lift your hand.
 
@@ -3593,11 +3598,11 @@ But it seems to me the tower is colder than before.
 
 ---
 
-At ten my laptop rings. Video call. Lucía.
+At ten my laptop rings. Video call. Lucy.
 
 I take it in the kitchen, my hair still a mess and a mug in my hand.
 
-'Finally!' Lucía appears on the screen with a green face mask on and a towel round her head. 'You've been missing for ten days. Ten. Marcos says your reports are the best of the year, that you called that trough when every model got it wrong. How did you do it?'
+'Finally!' Lucy appears on the screen with a green face mask on and a towel round her head. 'You've been missing for ten days. Ten. Marcus says your reports are the best of the year, that you called that trough when every model got it wrong. How did you do it?'
 
 'I looked at the sky.'
 
@@ -3605,17 +3610,17 @@ I take it in the kitchen, my hair still a mess and a mug in my hand.
 
 'Nothing. Luck.'
 
-'Right.' Lucía narrows her eyes under the green mask. 'Listen. You're acting weird.'
+'Right.' Lucy narrows her eyes under the green mask. 'Listen. You're acting weird.'
 
 'I'm the same as always.'
 
 'You're weird. You're…' She leans towards the camera. 'You look pretty. What have you done?'
 
-'Nothing, Lucía.'
+'Nothing, Lucy.'
 
 Behind me, the bathroom door opens.
 
-I don't notice until I see Lucía's face. Her jaw drops. Literally. Her mouth falls open inside the green mask, and her eyes go round as saucers.
+I don't notice until I see Lucy's face. Her jaw drops. Literally. Her mouth falls open inside the green mask, and her eyes go round as saucers.
 
 I turn round.
 
@@ -3631,7 +3636,7 @@ And he goes on towards my room.
 
 I slam the laptop shut.
 
-Three seconds later my mobile rings. Lucía. I ring off.
+Three seconds later my mobile rings. Lucy. I ring off.
 
 A message comes in.
 
@@ -3651,7 +3656,7 @@ Another.
 
 ---
 
-### Maruxa · Stuttgart, April 1969
+### Maisie · Stuttgart, April 1969
 
 I woke at five in the morning with the feeling that someone was watching me.
 
@@ -3683,9 +3688,10 @@ He fell silent. He ran his finger over my eyebrow, very slowly.
 
 I lay very still, letting him look at me, while the light from the window went from grey to white and the trams began to sound in the street.
 
+
 ## 16 · Ada
 
-Lucía sends me forty-three messages in one hour.
+Lucy sends me forty-three messages in one hour.
 
 I read them all sitting on the bathroom floor with the door shut, like a teenager.
 
@@ -3725,7 +3731,7 @@ The reply comes in two seconds.
 
 I look at the question. The cursor blinking.
 
-He hasn't got a name. Not a real one I could write to Lucía. He has a technical word, a provisional one, taken from a weather model.
+He hasn't got a name. Not a real one I could write to Lucy. He has a technical word, a provisional one, taken from a weather model.
 
 I write it anyway.
 
@@ -3745,7 +3751,7 @@ I write that last part without thinking. I only read it once it's sent.
 
 It's true.
 
-*Oh, Ada,* Lucía replies. And a heart. And then another message: *But you be careful, OK? We know each other.*
+*Oh, Ada,* Lucy replies. And a heart. And then another message: *But you be careful, OK? We know each other.*
 
 I switch off my phone.
 
@@ -3755,7 +3761,7 @@ When I come out of the bathroom he's in the kitchen, dressed, peeling a tangerin
 
 'Who was the green woman?'
 
-'My friend Lucía. She had a face mask on.'
+'My friend Lucy. She had a face mask on.'
 
 'Why?'
 
@@ -3861,13 +3867,13 @@ And he kisses me again.
 
 ---
 
-### Maruxa · Stuttgart, September 1969
+### Maisie · Stuttgart, September 1969
 
 He asked me by the Neckar, on our bench, with a silver ring that had cost him two months of overtime.
 
-He didn't kneel. Klaus wasn't one for kneeling. He took my hand, put the ring in my palm and closed it, the way you'd hand someone a coin, and said to me in Spanish, with every *r* in its place for once, because he'd rehearsed it:
+He didn't kneel. Klaus wasn't one for kneeling. He took my hand, put the ring in my palm and closed it, the way you'd hand someone a coin, and said to me in English, with every sound in its place for once, because he'd rehearsed it:
 
-'Marry me, Maruxa.'
+'Marry me, Maisie.'
 
 I opened my hand and looked at the ring.
 
@@ -3875,9 +3881,9 @@ It was lovely. Simple, silver, with a little blue stone.
 
 And I thought of my mother.
 
-Of the letters. Almost three years of letters in which I hadn't written his name a single time. *It's cold here. I'm eating well. The work is the same.* Of how, if I married, I would have to tell her everything at once. That there was a man. That he was German. That he was Protestant. That I had lied to her.
+Of the letters. Almost three years of letters in which I hadn't written his name a single time. *It's cold here. I'm eating well. The work is the same.* Of how, if I married, I would have to tell her everything at once. That there was a man. That he was German. That he was a Lutheran. That I had lied to her.
 
-I thought of my mother's face reading that letter in the kitchen by the wood stove.
+I thought of my mother's face reading that letter in the kitchen by the peat stove.
 
 I closed my hand again. I gave it back to him.
 
@@ -4019,7 +4025,7 @@ I feel the blood leave my face.
 
 'Nobody.'
 
-'Someone in Madrid.'
+'Someone in London.'
 
 I look at him. I don't know how he knows. Maybe he heard me say it at some point. Maybe he guessed it, like the rain.
 
@@ -4055,7 +4061,7 @@ And this time I notice.
 
 ---
 
-### Maruxa · Stuttgart, December 1969
+### Maisie · Stuttgart, December 1969
 
 'Why me?'
 
@@ -4097,7 +4103,7 @@ I don't think about anything. I try to. I think about everything.
 
 About Iter going down to the geo without a jacket. About the sketchbook locked in the iron trunk. About the key, which I wear round my neck on a string, under my jumper, and which I can feel cold against my skin.
 
-About the nine digits.
+About the eleven digits.
 
 ---
 
@@ -4113,7 +4119,7 @@ The dog sees me.
 
 She comes racing across the sand at full speed, ears flying, and jumps up at me with wet paws, sand, everything, licking my hands and wagging her tail as if she'd known me all her life.
 
-'Lúa! Lúa, come here!'
+'Mune! Mune, come here!'
 
 The figure has stood up. He's coming towards me down the beach, his hands in the pockets of an orange waterproof.
 
@@ -4133,7 +4139,7 @@ He looks at me. He recognises me. He smiles with those little creases round his 
 
 'Clever girl.'
 
-Lúa pulls free of his hand and throws herself at me again. I crouch down and scratch her behind the ears. She closes her eyes and flops over on her side in the sand, belly in the air.
+Mune pulls free of his hand and throws herself at me again. I crouch down and scratch her behind the ears. She closes her eyes and flops over on her side in the sand, belly in the air.
 
 'Traitor,' he tells her.
 
@@ -4141,9 +4147,9 @@ I laugh. It's the first time all day.
 
 ---
 
-I don't know how we end up sitting on the sand. I think he sits down where he is and I stay standing for a while, scratching Lúa, and then I sit down too, a yard away, because it would be strange not to.
+I don't know how we end up sitting on the sand. I think he sits down where he is and I stay standing for a while, scratching Mune, and then I sit down too, a yard away, because it would be strange not to.
 
-The sea breaks in front of us. Lúa charges at the waves.
+The sea breaks in front of us. Mune charges at the waves.
 
 He doesn't ask me anything. That's the first thing I like. He doesn't ask what I'm doing there alone, or why my eyes are red, or about the cousin with the beard.
 
@@ -4161,7 +4167,7 @@ He takes a while to answer. He picks up a handful of sand and lets it run throug
 
 I don't say anything. There's no need.
 
-We sit watching Lúa, who has found an enormous stick and is dragging it across the sand with tremendous dignity.
+We sit watching Mune, who has found an enormous stick and is dragging it across the sand with tremendous dignity.
 
 'You came back too,' he says.
 
@@ -4169,7 +4175,7 @@ It isn't a question.
 
 'How do you know?'
 
-'Your grandmother.' He smiles. 'I told you, everybody knows her. She says her granddaughter came from Madrid to live in the lighthouse. That she's a meteorologist and she gets it right more often than the telly.'
+'Your grandmother.' He smiles. 'I told you, everybody knows her. She says her granddaughter came from London to live in the lighthouse. That she's a meteorologist and she gets it right more often than the telly.'
 
 I burst out laughing.
 
@@ -4179,13 +4185,13 @@ I burst out laughing.
 
 I stop laughing.
 
-He doesn't press. He stands up, brushes the sand off his trousers and whistles for Lúa.
+He doesn't press. He stands up, brushes the sand off his trousers and whistles for Mune.
 
 'Tide's coming in. I'll run you back to the lighthouse. The van's up top.'
 
 ---
 
-The van smells of wet dog, salt and coffee. Lúa rides in the back with her head pushed between the seats, resting on my shoulder. The radio is on, Radio Orkney.
+The van smells of wet dog, salt and coffee. Mune rides in the back with her head pushed between the seats, resting on my shoulder. The radio is on, Radio Orkney.
 
 We don't talk. It isn't an awkward silence.
 
@@ -4207,7 +4213,7 @@ I don't ask.
 
 'And don't go swimming if there's a groundswell.' Now he does look at me. 'Even if it looks calm. Those are the worst.'
 
-I get out. Lúa barks once, sadly. The van turns round on the gravel in front of the house and goes off down the road.
+I get out. Mune barks once, sadly. The van turns round on the gravel in front of the house and goes off down the road.
 
 I look up at the tower.
 
@@ -4257,9 +4263,9 @@ A voicemail.
 
 ---
 
-### Maruxa · Stuttgart, February 1970
+### Maisie · Stuttgart, February 1970
 
-The Carnival dance at the Centro Gallego was the biggest party of the year. Galicians came from all over Swabia, from Esslingen, from Ludwigsburg, from Böblingen. There was a real band, with accordion and bagpipes, and *pulpo*, and *empanada*, and we women wore the best we had.
+The Carnival dance at the Italian club was the biggest party of the year. Italians came from all over Swabia, from Esslingen, from Ludwigsburg, from Böblingen. There was a real band, with accordion and Calabrian bagpipes, and octopus, and *salame*, and we women wore the best we had.
 
 I had on a red dress that Fátima had made me from some fabric we'd bought between the two of us.
 
@@ -4269,21 +4275,19 @@ I knew that. He'd told me a thousand times. That he had two left feet. That his 
 
 So he sat down at a table with his beer, to watch.
 
-And I danced with Pilar. With Fátima, who danced surprisingly well. With Manolo from Celanova, who trod on me every single time.
+And I danced with Pina. With Fátima, who danced surprisingly well. With Gino from the bar, who trod on me every single time.
 
-And then with Ramón.
+And then with Rab.
 
-Ramón was from Ourense. He was twenty-six, with black hair slicked down with brilliantine, a smile that took up half his face and eyes that looked at me as if I were the only woman in the basement. He worked at Mercedes. He danced like an angel.
+Rab was a Shetlander. He was twenty-six, with black hair slicked down with brilliantine, a smile that took up half his face and eyes that looked at me as if I were the only woman in the basement. He worked at Mercedes. He danced like an angel.
 
-He asked me to dance a *pasodoble*. Then another. Then a *muiñeira*.
+He asked me to dance a waltz. Then another. Then a reel.
 
-And in the *muiñeira*, spinning me round, laughing, he said in my ear, in Galician, in my Galician from home:
+And in the reel, spinning me round, laughing, he said in my ear, in Scots, in the island Scots of home:
 
-'*Ti es da Costa. Cheiras coma min. Cheiras a mar.*'
+'*Thoo're fae the islands. Thoo smell like me. Thoo smell o the sea.*'
 
-You're from the Coast. You smell like me. You smell of the sea.
-
-My heart turned over. Not because of him. Because of the words. For four years nobody had spoken to me like that, in my language, with my music, as if I were at the fiesta in my village and not in a basement in Stuttgart.
+My heart turned over. Not because of him. Because of the words. For four years nobody had spoken to me like that, in my language, with my music, as if I were at a dance in the Stromness town hall and not in a basement in Stuttgart.
 
 When the music ended, I turned to look for Klaus.
 
@@ -4455,7 +4459,7 @@ The current is carrying me towards her.
 
 I try to shout. Water gets in my mouth.
 
-I think of my grandmother. Of the tub of *filloas*.
+I think of my grandmother. Of the tub of pancakes.
 
 I think of him, up there in the tower. Of how the last thing I said to him was that he isn't real.
 
@@ -4479,7 +4483,7 @@ And this time I don't come up.
 
 ---
 
-### Maruxa · Stuttgart, February 1970
+### Maisie · Stuttgart, February 1970
 
 Klaus didn't speak to me for three days.
 
@@ -4489,31 +4493,31 @@ That was his way of being angry. Shutting himself up in a silence of stone, so b
 
 I didn't know how to do that. I was one for shouting, for crying, for slamming doors. The silence drove me mad.
 
-On Sunday afternoon, Ramón was waiting for me at the door of the residence.
+On Sunday afternoon, Rab was waiting for me at the door of the hostel.
 
 I don't know how he knew where I lived. I didn't ask myself. He asked if I wanted to go for a walk and I said yes.
 
 We walked along the bank of the Neckar. Along my bank. Along Klaus's.
 
-And Ramón talked to me in Galician. He told me about Ourense, about the roast chestnuts on San Martín, about the fiestas in his village, about his mother, who sent him chorizos by post wrapped in newspaper. He told me that in two years he'd have enough saved to buy a bar in his village and go back.
+And Rab talked to me in Scots, the island Scots. He told me about Shetland, about the simmer dim, about Up Helly Aa, about his mother, who posted him bannocks wrapped in *The Shetland Times*. He told me that in two years he'd have enough saved to buy a bar in Lerwick and go back.
 
-'*¿E ti?*' he asked me. '*¿Non queres volver?*'
+'*An thoo?*' he asked me. '*Dae thoo no want tae gang hame?*'
 
 And I told him the truth.
 
-I told him yes. That every night. That I dreamed of the harbour, of my mother's *empanada*, of the smell of diesel and fish in the morning. That I was sick of the cold, of the potatoes, of the grey sky. That I wanted to go home more than anything in the world.
+I told him yes. That every night. That I dreamed of the harbour, of my mother's broth, of the smell of diesel and fish in the morning. That I was sick of the cold, of the potatoes, of the grey sky. That I wanted to go home more than anything in the world.
 
 I had never told Klaus.
 
 Never. In four years. Because Klaus belonged here. Because his life, his mother, his work, his vineyards, his Black Forest were here. Because if I told him, we would have to choose. And I didn't want to choose.
 
-I told it to Ramón, who meant nothing to me, in one afternoon, on the bank of the river.
+I told it to Rab, who meant nothing to me, in one afternoon, on the bank of the river.
 
-Ramón took my hand. I pulled it away.
+Rab took my hand. I pulled it away.
 
 But it was already too late. The important thing I had already given him.
 
-I went back to the residence at night, alone. Fátima was awake, sitting on her bed, darning.
+I went back to the hostel at night, alone. Fátima was awake, sitting on her bed, darning.
 
 She didn't ask me anything.
 
@@ -4522,6 +4526,7 @@ She just looked up, looked at me for a moment and said, in Portuguese:
 'You've given away something that wasn't yours to give.'
 
 And she went on darning.
+
 
 ## 20 · Ada
 
@@ -4535,7 +4540,7 @@ And I breathe.
 
 The air goes in like a knife. Everything hurts. My lungs, my throat, my ribs. I love it.
 
-'That's it. That's it. Breathe. Breathe, *carallo*.'
+'That's it. That's it. Breathe. Breathe, *crivvens*.'
 
 A voice above me. Hoarse, broken, out of breath.
 
@@ -4559,9 +4564,9 @@ He picks me up in his arms.
 
 ---
 
-I won't remember the climb well. I'll remember his breathing, ragged, against my ear. I'll remember that he slips twice on the path and both times grabs the heather with one hand without letting go of me with the other. That he talks to me the whole way, in Galician and in English, nonsense, so I won't fall asleep.
+I won't remember the climb well. I'll remember his breathing, ragged, against my ear. I'll remember that he slips twice on the path and both times grabs the heather with one hand without letting go of me with the other. That he talks to me the whole way, in Orcadian and in English, nonsense, so I won't fall asleep.
 
-'Don't fall asleep. Do you hear me? Look, Lúa's up there. Can you hear her barking? She's in the van. She's raging. Don't fall asleep.'
+'Don't fall asleep. Do you hear me? Look, Mune's up there. Can you hear her barking? She's in the van. She's raging. Don't fall asleep.'
 
 And I'll remember that when we reach the top, the clearing, I see the lighthouse.
 
@@ -4587,7 +4592,7 @@ He turns round and carries me to the van.
 
 ---
 
-His house is the first one on the road, the stone one just past the bend at the burn, with a bank of blue hydrangeas by the door and a crooked sycamore. It takes three minutes. They feel like three days. He turns the van's heater right up and Lúa climbs onto me, between the seats, and lies across my legs like a warm blanket.
+His house is the first one on the road, the stone one just past the bend at the burn, with a bank of blue hydrangeas by the door and a crooked sycamore. It takes three minutes. They feel like three days. He turns the van's heater right up and Mune climbs onto me, between the seats, and lies across my legs like a warm blanket.
 
 Inside it smells of peat smoke and coffee. A big stone kitchen, with a black cast-iron range burning and a wooden table covered in things: half-mended nets, a radio, a plate of crumbs.
 
@@ -4611,7 +4616,7 @@ He does it. Looking at the wall the whole time. He takes off my wet swimsuit wit
 
 When he's finished, he gets up and goes into the other room. I hear him changing too.
 
-I wait, sitting by the range, in his jumper, with Lúa at my feet, shaking.
+I wait, sitting by the range, in his jumper, with Mune at my feet, shaking.
 
 The jumper smells of old wool, of pipe tobacco, of a closed wardrobe. Of a man who died two years ago.
 
@@ -4621,7 +4626,7 @@ I burst into tears.
 
 ---
 
-He comes back in dry clothes, his hair a mess. He puts water on to heat. He makes coffee in a stovetop moka pot, much stronger than mine. He adds a splash of *orujo* from a bottle with no label.
+He comes back in dry clothes, his hair a mess. He puts water on to heat. He makes coffee in a stovetop moka pot, much stronger than mine. He adds a splash of *peatreek* from a bottle with no label.
 
 He puts the cup between my hands. He closes my fingers round it with his, because I still can't.
 
@@ -4653,11 +4658,11 @@ And that's when I start talking.
 
 I don't know why I tell him.
 
-Maybe because he's pulled me from the bottom of the sea. Maybe because he hasn't asked me anything. Maybe because the jumper smells like my grandfather and the kitchen smells like home and Lúa has her head resting on my foot.
+Maybe because he's pulled me from the bottom of the sea. Maybe because he hasn't asked me anything. Maybe because the jumper smells like my grandfather and the kitchen smells like home and Mune has her head resting on my foot.
 
 Maybe because I haven't drawn him.
 
-I tell him there's someone in Madrid. Someone I was with for three years. That I left a year ago, from one day to the next, and that since then I've wanted nothing to do with him. That now he's writing to me. That he's rung me. That he's coming to Kirkwall in three weeks and wants to see me.
+I tell him there's someone in London. Someone I was with for three years. That I left a year ago, from one day to the next, and that since then I've wanted nothing to do with him. That now he's writing to me. That he's rung me. That he's coming to Kirkwall in three weeks and wants to see me.
 
 That he has some of my things.
 
@@ -4665,13 +4670,13 @@ That he misses me.
 
 'And I don't know why it scares me,' I tell him. My voice is shaking. The cup is shaking. 'I don't know why. It's a coffee. It's a person who loved me. He says lovely things to me. And I hear his voice and I can't breathe. I can't breathe, like in the water. And I don't know why.'
 
-I haven't told anyone. Not Lucía. Not my grandmother.
+I haven't told anyone. Not Lucy. Not my grandmother.
 
 Not Iter.
 
 I told Iter he wasn't real.
 
-He's silent for a long while. He looks at the fire through the little door of the range. Lúa sighs in her sleep.
+He's silent for a long while. He looks at the fire through the little door of the range. Mune sighs in her sleep.
 
 'When my father went down to the rocks,' he says at last, slowly, 'sometimes he'd stop at the edge. For no reason. The sea was fine, the tide was fine, everything was fine. And he'd stand still looking at the water and say: not today. And we'd go home.'
 
@@ -4693,7 +4698,7 @@ And guiltier than I've felt in my life.
 
 I fall asleep in the chair, with the empty cup in my lap and my head against the stone wall.
 
-When I wake, it's mid-afternoon. He's covered me with a blanket. Lúa is asleep on my feet. He isn't there.
+When I wake, it's mid-afternoon. He's covered me with a blanket. Mune is asleep on my feet. He isn't there.
 
 On the table there's a note, written on the back of a petrol receipt, in big, crooked handwriting:
 
@@ -4715,11 +4720,11 @@ And now I know why: asking would have been the start of wanting to know.
 
 ---
 
-### Maruxa · Stuttgart, February 1970
+### Maisie · Stuttgart, February 1970
 
 On the fourth day I went to his boarding house.
 
-Not to ask his forgiveness. To tell him. What I had told Ramón on the riverbank. That I wanted to go home. That I had wanted to go home for four years. That if this was the end, then let it be the end, but I couldn't go on without telling him, because he was the one I should have told first.
+Not to ask his forgiveness. To tell him. What I had told Rab on the riverbank. That I wanted to go home. That I had wanted to go home for four years. That if this was the end, then let it be the end, but I couldn't go on without telling him, because he was the one I should have told first.
 
 The landlady let me up with a sour face.
 
@@ -4727,7 +4732,7 @@ I knocked. He opened.
 
 He had three days of dark circles under his eyes. He hadn't shaved. Behind him, on the table, was the oilcloth notebook, open, and a map. A big map, unfolded across the table, held down with two cups.
 
-'I saw you,' he said before I could open my mouth. 'On Sunday. At the river. With the one from Ourense.'
+'I saw you,' he said before I could open my mouth. 'On Sunday. At the river. With the one from Shetland.'
 
 My heart sank to my feet.
 
@@ -4737,19 +4742,19 @@ My heart sank to my feet.
 
 I went in. I planted myself in the middle of the room.
 
-And I told him. Everything. All at once. That I wanted to go back. That I dreamed of the harbour. That I was sick of the cold. That I had told Ramón because I didn't mind losing Ramón, and I did mind losing him.
+And I told him. Everything. All at once. That I wanted to go back. That I dreamed of the harbour. That I was sick of the cold. That I had told Rab because I didn't mind losing Rab, and I did mind losing him.
 
 He listened without interrupting. When I finished, he went to the table and turned the map towards me.
 
-It was a map of Galicia.
+It was a map of Orkney.
 
-It was covered in pencil marks. Circles around the villages of the Costa da Morte. Arrows. Notes in the margin in his spiky handwriting. My village, circled three times.
+It was covered in pencil marks. Circles round Stromness, Stenness, Orphir, the Hoy villages. Arrows. Notes in the margin in his spiky handwriting. Stromness, circled three times.
 
-He turned the pages of the oilcloth notebook backwards. There were lists. Words in Galician. *Porto. Barca. Rede. Percebe.* House prices from a Vigo newspaper, cut out and glued in. A date at the top of the first list.
+He turned the pages of the oilcloth notebook backwards. There were lists. Words in English. *Harbur. Bote. Nett. Hering.* House prices from *The Orcadian*, cut out and glued in. A date at the top of the first list.
 
 August 1967.
 
-'I already knew,' he said. 'I've known since the lake. When you went into the water and swam the way you swim in your *ría*. You had your home face on.'
+'I already knew,' he said. 'I've known since the lake. When you went into the water and swam the way you swim in the Sound at home. You had your home face on.'
 
 I sat down on the bed. My legs wouldn't hold me.
 
@@ -4759,7 +4764,7 @@ Klaus sat down beside me. He looked at the map.
 
 'Because you weren't telling me either,' he said. 'And I thought that if I asked you, you'd have to choose. And that maybe you wouldn't choose me.'
 
-We sat on the boarding-house bed, side by side, not touching, looking at a map of Galicia full of circles.
+We sat on the boarding-house bed, side by side, not touching, looking at a map of Orkney full of circles.
 
 Four years hiding the same thing from each other. Each of us afraid of losing the other.
 
@@ -4779,7 +4784,7 @@ He doesn't ask why. He stops the van on the verge, hands me the bag with my coat
 
 Another day.
 
-I get out. Lúa whines in the back. The van turns round and heads towards Stromness, and I stand on the verge, wearing a dead man's jumper with my boots in my hand, and start up towards the lighthouse.
+I get out. Mune whines in the back. The van turns round and heads towards Stromness, and I stand on the verge, wearing a dead man's jumper with my boots in my hand, and start up towards the lighthouse.
 
 A quarter of a mile. I walk it slowly.
 
@@ -4875,7 +4880,7 @@ He looks at me with those eyes I drew. The ones that read the sky. The ones that
 
 I can't hold his gaze.
 
-'You told him about Madrid.'
+'You told him about London.'
 
 I don't answer. There's no need.
 
@@ -4977,11 +4982,11 @@ And he stays standing at the top of the stairs, voiceless and with a hand made o
 
 ---
 
-### Maruxa · Stuttgart, May 1970
+### Maisie · Stuttgart, May 1970
 
 I caught him dancing with Fátima in the basement laundry room.
 
-A Sunday afternoon. I went down for a sheet I had left hanging and I heard music. A portable record player, the suitcase kind, that someone had set on the washtub. A scratched *pasodoble*.
+A Sunday afternoon. I went down for a sheet I had left hanging and I heard music. A portable record player, the suitcase kind, that someone had set on the washtub. A scratched waltz.
 
 And there they were. Between the washing lines, between the hanging sheets. Fátima, serious as a judge, counting out loud in Portuguese. *Um, dois, três. Um, dois, três.* And Klaus, all two metres of him, stooping so as not to hit the lines, his face red with concentration, stepping on her feet.
 
@@ -4999,7 +5004,7 @@ I remembered the lake. *The lake does not read.*
 
 I remembered that he had told me a thousand times that he didn't dance, that he had two left feet, that his mother had signed him up for waltz lessons and the teacher asked him not to come back.
 
-And there he was. On a Sunday afternoon. In a basement that smelled of bleach. Learning the *pasodoble* from a Portuguese woman who never spoke.
+And there he was. On a Sunday afternoon. In a basement that smelled of bleach. Learning the waltz from a Portuguese woman who never spoke.
 
 For me. For Carnival night.
 
@@ -5123,7 +5128,7 @@ Badly drawn. With a nose too big and one eye higher than the other. With hair li
 
 And laughing.
 
-Laughing with my mouth open, my eyes closed, my head thrown back. A huge laugh, overflowing, the kind that doesn't fit on your face. The one from the geo, the day he sneezed. The one from Lucía's green face mask.
+Laughing with my mouth open, my eyes closed, my head thrown back. A huge laugh, overflowing, the kind that doesn't fit on your face. The one from the geo, the day he sneezed. The one from Lucy's green face mask.
 
 I've never seen myself like that.
 
@@ -5137,7 +5142,7 @@ I tell him there, on the floor of the gallery, with the light from the phone bet
 
 Not everything. I can't tell him everything. Not yet.
 
-I tell him yes. That I told the jumper-cables man. That there's someone in Madrid who wants to see me, and that it scares me, and that I don't know why. That I told a stranger in a kitchen that smelled of peat smoke because I hadn't drawn him, because he doesn't know me, because telling him something cost nothing.
+I tell him yes. That I told the jumper-cables man. That there's someone in London who wants to see me, and that it scares me, and that I don't know why. That I told a stranger in a kitchen that smelled of peat smoke because I hadn't drawn him, because he doesn't know me, because telling him something cost nothing.
 
 And that with him, with Iter, it costs me everything.
 
@@ -5181,23 +5186,23 @@ And he doesn't tell me where.
 
 ---
 
-### Maruxa · Stuttgart, April 1971
+### Maisie · Stuttgart, April 1971
 
 The letter came on a Tuesday. The handwriting wasn't my mother's. It was my sister's, who was twelve and wrote with spelling mistakes.
 
-*Maruxa come home mama is sick. The docter says its her heart. Papa doesnt know how to do anything and I cant manage everything. Come please.*
+*Maisie come home mam is sick. The docter says its her heart. Dad doesnt know how to do anything and I cant manage everything. Come please.*
 
-I read it in the hallway of the residence, standing, with my coat on. Fátima took it out of my hands when she saw my face. She couldn't read Spanish, but she understood everything.
+I read it in the hallway of the hostel, standing, with my coat on. Fátima took it out of my hands when she saw my face. She couldn't read English, but she understood everything.
 
 That same afternoon I went to Klaus's boarding house.
 
-I showed him the letter. He read it twice, moving his lips, the way he read Spanish. Then he folded it and gave it back to me.
+I showed him the letter. He read it twice, moving his lips, the way he read English. Then he folded it and gave it back to me.
 
 'You have to go,' he said.
 
 'I know.'
 
-We were quiet. On the table the map of Galicia was still there, with the pencil circles, a little more rubbed out than a year before.
+We were quiet. On the table the map of Orkney was still there, with the pencil circles, a little more rubbed out than a year before.
 
 'Klaus,' I said. My voice was shaking. I had rehearsed it the whole way there. 'I understand if you don't come. Really. It's another country. Another language. Your mother is here. Your work. Your life. I'm not asking you for anything.'
 
@@ -5214,6 +5219,7 @@ All I heard, in the silence of the boarding house, was a small jingle inside his
 I left on the Friday, on the six-twelve train. The same platform where I had arrived five years before with a cardboard suitcase.
 
 He didn't come to see me off.
+
 
 ## 23 · Ada
 
@@ -5247,11 +5253,11 @@ He's toasted yesterday's bread in the frying pan and torn it with his hands into
 
 We eat without talking.
 
-In Madrid, the silences at breakfast had to be broken before they broke on their own. This one doesn't ask for anything. It's just there, like the stove.
+In London, the silences at breakfast had to be broken before they broke on their own. This one doesn't ask for anything. It's just there, like the stove.
 
 ---
 
-Afterwards I sit down at the monitors. I have to send Bilbao the forecast for a wind farm on Hoy, and I spend half an hour looking at the isobars without seeing them.
+Afterwards I sit down at the monitors. I have to send Aberdeen the forecast for a wind farm on Hoy, and I spend half an hour looking at the isobars without seeing them.
 
 He sits on the floor, his back against the legs of my chair and my grandfather's atlas open on his knees. Every so often he lifts the book over his head, without turning round, his finger on a photo. I tell him the name. He repeats it softly and turns the page.
 
@@ -5305,9 +5311,9 @@ They stay like that a long time.
 
 ---
 
-### Maruxa · Stromness, Today
+### Maisie · Stromness, Today
 
-Mrs Flett told me at the bakery, in a small voice, the way things get said in this town. That she'd seen Maruxa's granddaughter again. That now it was on the road by the burn, in the scallop diver's van, wearing a man's jumper.
+Mrs Flett told me at the bakery, in a small voice, the way things get said in this town. That she'd seen Maisie's granddaughter again. That now it was on the road by the burn, in the scallop diver's van, wearing a man's jumper.
 
 And that on the lighthouse gallery there was a young man. Every afternoon. When the sun was out.
 
@@ -5323,7 +5329,7 @@ I knew him by the way he waited.
 
 Still. In no hurry. Hands on the railing and his head tilted a little, as if listening to something nobody else hears. As if he'd been in the same place a long time and didn't mind staying.
 
-That was how Klaus waited. Under my window, in the snow, on Christmas Eve. That was how he waited on the pavement outside the residence with the tulips, while Fátima shut the door in his face. That was how he waited for me for fifty years, every time I was late coming back from the shopping, standing in the doorway, with his unlit pipe in his mouth.
+That was how Klaus waited. Under my window, in the snow, on Christmas Eve. That was how he waited on the pavement outside the hostel with the tulips, while Fátima shut the door in his face. That was how he waited for me for fifty years, every time I was late coming back from the shopping, standing in the doorway, with his unlit pipe in his mouth.
 
 And then he opened his eyes and looked at me.
 
@@ -5365,11 +5371,11 @@ Some things a woman has to find on her own.
 
 I open my mouth to lie.
 
-I have the lie ready. A hiker. A cousin. A friend of Lucía's. Anyone.
+I have the lie ready. A hiker. A cousin. A friend of Lucy's. Anyone.
 
 It won't come out.
 
-'Abuela,' I say, and my voice breaks. 'I can't explain it to you. Not yet. But he isn't a hiker.'
+'Granny,' I say, and my voice breaks. 'I can't explain it to you. Not yet. But he isn't a hiker.'
 
 My grandmother is still looking at the tower. Up there, he raises a hand. Slowly. He waves to her.
 
@@ -5379,13 +5385,13 @@ Like that. She raises her hand, open, still in the air, without moving it.
 
 Then she turns to me. She looks at my bare, cut feet, my T-shirt, my hair. She puts her hand on my cheek.
 
-'No need, *rula*,' she says. 'I already know him.'
+'No need, *doo*,' she says. 'I already know him.'
 
 And before I can ask her what she means, she turns round and starts walking down the road towards Morag's van, holding on to her handbag.
 
 Halfway there she stops.
 
-'Wednesday I'm making *empanada*,' she says without turning round. 'For three.'
+'Wednesday I'm making pie,' she says without turning round. 'For three.'
 
 ---
 
@@ -5493,7 +5499,7 @@ Neither of them says his name.
 
 Neither of them has one, as far as I know.
 
-And then Lúa, who loves everybody, who throws herself at anyone, who flops onto her side in the sand with her belly in the air so a stranger will scratch it, pulls back.
+And then Mune, who loves everybody, who throws herself at anyone, who flops onto her side in the sand with her belly in the air so a stranger will scratch it, pulls back.
 
 The fur stands up all along her back.
 
@@ -5516,7 +5522,7 @@ She bared her teeth at me.
 
 ---
 
-The others see me. Abuela saw me. The green woman saw me. The man in the rain jacket saw me and shook my hand.
+The others see me. Granny saw me. The green woman saw me. The man in the rain jacket saw me and shook my hand.
 
 But the dog smelled me.
 
@@ -5638,25 +5644,25 @@ I think it is called wanting a name.
 
 ---
 
-### Maruxa · Costa da Morte, May 1971
+### Maisie · Stromness, May 1971
 
 My mother didn't recognise me at first.
 
-She was in bed, in the upstairs room, with the window closed and a holy card of the Virgen del Carmen on the bedside table. Her skin was yellow and her hands very thin on the bedspread. When I came in, she looked at me for a long while.
+She was in bed, in the upstairs room, with the window closed and her psalm book on the bedside table. Her skin was yellow and her hands very thin on the bedspread. When I came in, she looked at me for a long while.
 
-'Maruxa?'
+'Maisie?'
 
-'It's me, Mamá.'
+'It's me, Mam.'
 
 'You're different.'
 
 I sat on the edge of the bed and took her hand.
 
-I was different. Everyone told me so that week. My father, my sister, the neighbour women, the priest. That I had come back from Germany with a different face. More of a woman, they said. More serious.
+I was different. Everyone told me so that week. My father, my sister, the neighbour women, the minister. That I had come back from Germany with a different face. More of a woman, they said. More serious.
 
 Nobody knew why.
 
-I got up at six, lit the wood stove, gave my mother her medicines, made her *caldo*, washed, scrubbed, sewed. My father didn't know how to do anything in the house; he watched me from the bench by the door, smoking, with a look of relief that broke my heart.
+I got up at six, lit the wood stove, gave my mother her medicines, made her broth, washed, scrubbed, sewed. My father didn't know how to do anything in the house; he watched me from the bench by the door, smoking, with a look of relief that broke my heart.
 
 And at night, when everyone was asleep, I sat at the window of my room, the one that looks over the harbour, and watched the road.
 
@@ -5680,13 +5686,13 @@ I see it in the models at seven, with my first coffee. A new low, smaller than O
 
 Iter is on the gallery. I saw him go up at dawn. I look at the sky through the window. Clear. Blue. Not a single cloud.
 
-I text Lucía: *Another one's coming tonight.* She answers with a lighthouse and a lightning bolt.
+I text Lucy: *Another one's coming tonight.* She answers with a lighthouse and a lightning bolt.
 
 At eleven my phone rings.
 
 My grandmother. My grandmother doesn't ring. My grandmother sends voice messages.
 
-'Peedie lass.' Her voice sounds normal. Too normal. The voice she uses at funerals. 'There's a gentleman from Madrid in my kitchen.'
+'Peedie lass.' Her voice sounds normal. Too normal. The voice she uses at funerals. 'There's a gentleman from London in my kitchen.'
 
 I drop my mug.
 
@@ -5756,9 +5762,9 @@ I don't want to talk to him in a kitchen. I spent three years talking to him in 
 
 The harbour, at midday, before a storm, is the fullest place in Stromness. The men doubling the mooring lines. The women at the fish van on the pier. The old men on the bench. The children coming out of school.
 
-Everyone watches us arrive. Me, him with his Madrid coat and his cardboard box under his arm, Iter behind me, my grandmother behind Iter, with her handbag.
+Everyone watches us arrive. Me, him with his London coat and his cardboard box under his arm, Iter behind me, my grandmother behind Iter, with her handbag.
 
-At the far end of the pier, sitting on the gunwale of a small boat, mending a net, is the jumper-cables man. With Lúa at his feet.
+At the far end of the pier, sitting on the gunwale of a small boat, mending a net, is the jumper-cables man. With Mune at his feet.
 
 He looks up. He sees us. He holds the needle still.
 
@@ -5780,13 +5786,13 @@ Iter goes motionless. Still as a drawing.
 
 Then he turns to me and smiles.
 
-I know that smile. It's the Madrid one. The one from when something went well for him at work and he'd come home and tell me about it standing up, without taking off his coat.
+I know that smile. It's the London one. The one from when something went well for him at work and he'd come home and tell me about it standing up, without taking off his coat.
 
 He crouches down. He opens the box. He takes something out from under the clothes.
 
 A folder.
 
-A blue cardboard folder, old, with broken corners and a handwritten label on the geor, in my ten-year-old handwriting.
+A blue cardboard folder, old, with broken corners and a handwritten label on the cover, in my ten-year-old handwriting.
 
 *Ada's Stories.*
 
@@ -5796,7 +5802,7 @@ He doesn't say anything. He holds it out to me.
 
 It comes wrapped in a pillowcase. One of ours, the grey-striped ones, ironed. The folder is clean. Someone has wiped every page with a cloth. Someone has taped the two broken corners from the inside, carefully, so it won't show.
 
-I threw it in the bin last winter, one night, at three in the morning, without really knowing why. And he took it out. He cleaned it page by page. He's kept it a whole year in a wardrobe in Madrid.
+I threw it in the bin last winter, one night, at three in the morning, without really knowing why. And he took it out. He cleaned it page by page. He's kept it a whole year in a wardrobe in London.
 
 Like a hostage, I think.
 
@@ -5882,33 +5888,33 @@ It's a grey car. The hire car.
 
 ---
 
-### Maruxa · Costa da Morte, May 1971
+### Maisie · Stromness, May 1971
 
 I told my mother one Sunday afternoon, sitting on the edge of her bed, while I combed her white hair with the tortoiseshell comb.
 
-All of it. All at once. The way I told Klaus at the boarding house. That there was a man. That he was German. That he was Protestant. That I had been with him four years. That I had lied to her in every letter. That I loved him like I had never loved anyone. That I had told him not to come, that I wasn't asking him for anything. And that he hadn't come.
+All of it. All at once. The way I told Klaus at the boarding house. That there was a man. That he was German. That he was Lutheran. That I had been with him four years. That I had lied to her in every letter. That I loved him like I had never loved anyone. That I had told him not to come, that I wasn't asking him for anything. And that he hadn't come.
 
 My mother listened in silence. She let me comb her hair. When I finished, she took my hand in hers, thin, yellow, with swollen knuckles.
 
 'A German,' she said.
 
-'Yes, Mamá.'
+'Yes, Mam.'
 
-'Protestant.'
+'Lutheran.'
 
 'Yes.'
 
-She was quiet a long while. Looking at the holy card of the Virgen del Carmen.
+She was quiet a long while. Looking at her psalm book.
 
 'And does he sing?'
 
 I laughed without meaning to, my eyes full of tears.
 
-'No, Mamá. He sings terribly. I'm the one who sings. He listens.'
+'No, Mam. He sings terribly. I'm the one who sings. He listens.'
 
 My mother nodded, as if that explained everything.
 
-'Your father didn't sing either,' she said. 'But he listened to me. Forty years.' She squeezed my hand. 'That's enough, *filla*.'
+'Your father didn't sing either,' she said. 'But he listened to me. Forty years.' She squeezed my hand. 'That's enough, *lass*.'
 
 And she closed her eyes to sleep.
 
@@ -5980,7 +5986,7 @@ I get up.
 
 I stand in front of her. Again. Between the two of them.
 
-He stops. He looks at me for the first time since he came in. Up and down. Like in Abuela's kitchen. Like a piece of furniture.
+He stops. He looks at me for the first time since he came in. Up and down. Like in Granny's kitchen. Like a piece of furniture.
 
 'Move.'
 
@@ -6130,11 +6136,11 @@ Towards the sea that scares me.
 
 ---
 
-### Maruxa · Costa da Morte, May 1971
+### Maisie · Stromness, May 1971
 
 The afternoons my mother slept, I went to the breakwater.
 
-To the end, where nobody goes. Where you see the whole harbour on one side and the whole sea on the other. I sat on the stones with my legs hanging over the water, like when I was a girl, and watched the Vigo road, the one that comes down the hill between the pines.
+To the end, where nobody goes. Where you see the whole harbour on one side and the whole sea on the other. I sat on the stones with my legs hanging over the water, like when I was a girl, and watched the Kirkwall road, the one that comes down the hill between the drystone dykes.
 
 Nobody came along it. Some days the bus. Some days a fish lorry.
 
@@ -6142,11 +6148,11 @@ Two weeks.
 
 I sang. I didn't notice. I noticed after, when a fisherman going by looked at me strangely, or when the gulls went quiet.
 
-I sang my mother's *alalá*. The one written on the first page of the oilcloth notebook with the date 14 April 1966.
+I sang my mother's *auld sang*. The one written on the first page of the oilcloth notebook with the date 14 April 1966.
 
 I sang for nobody.
 
-One afternoon old Carme sat down next to me, the one who mended nets by the door of the fish market. She listened until I finished. Then she said to me, without looking at me:
+One afternoon old Jessie sat down next to me, the one who mended nets by the door of the fish store. She listened until I finished. Then she said to me, without looking at me:
 
 'You sing that song like someone calling to somebody.'
 
@@ -6154,9 +6160,10 @@ I didn't answer her.
 
 'And the one who's meant to hear it, where is he?'
 
-I looked at the Vigo road.
+I looked at the Kirkwall road.
 
 Empty.
+
 
 ## 27 · Ada
 
@@ -6292,7 +6299,7 @@ He gets him under the arms and pulls him out.
 
 ---
 
-I'll remember very little of the climb. The torch on the ground, lighting up the rain. Lúa barking at the top of the path, not coming down, not coming any closer, her hackles up.
+I'll remember very little of the climb. The torch on the ground, lighting up the rain. Mune barking at the top of the path, not coming down, not coming any closer, her hackles up.
 
 The jumper-cables man saying to me, without stopping, as he carries him:
 
@@ -6336,7 +6343,7 @@ And I haven't got a pencil.
 
 ---
 
-### Maruxa · Costa da Morte, June 1971
+### Maisie · Stromness, June 1971
 
 Three knocks at the door.
 
@@ -6346,9 +6353,9 @@ I heard the knocks. I heard my father get up. I heard the door open.
 
 And then I heard my father shout.
 
-He didn't shout from fear. He shouted the way the men of the Costa shout when someone tries to sell them something they don't want.
+He didn't shout from fear. He shouted the way the men of the islands shout when someone tries to sell them something they don't want.
 
-'*¡Non queremos nada! ¡Fora! ¡Fora de aquí!*'
+'*We're wantin naethin! Oot! Get oot o here!*'
 
 I came out with my hands covered in suds.
 
@@ -6358,9 +6365,9 @@ Red to the ears.
 
 I dropped the plates.
 
-Klaus saw me over my father's head. He went even redder. He opened the dictionary, trembling, at a page marked with a slip of paper. He read aloud, slowly, with his rolling stone r's, a sentence he had been preparing for six weeks and fifteen hundred kilometres.
+Klaus saw me over my father's head. He went even redder. He opened the dictionary, trembling, at a page marked with a slip of paper. He read aloud, slowly, with his rolling stone r's, a sentence he had been preparing for six weeks and two thousand kilometres.
 
-'My home is where Maruxa is.'
+'My home is where Maisie is.'
 
 My father lowered his fist.
 
@@ -6522,21 +6529,21 @@ And I, who have spent my whole life waiting, realise that I have also spent my w
 
 ---
 
-### Maruxa · Costa da Morte, Summer 1971
+### Maisie · Stromness, Summer 1971
 
 My father took nine days to say a word to him.
 
-Nine days in which Klaus slept in my uncle's room, since my uncle was away at sea off Newfoundland, and got up at six, and went down to the harbour, and sat on the breakwater with his oilcloth notebook to listen to the men.
+Nine days in which Klaus slept in my uncle's room, since my uncle was away on the Aberdeen trawlers, and got up at six, and went down to the harbour, and sat on the breakwater with his oilcloth notebook to listen to the men.
 
 He didn't understand anything. He wrote everything down.
 
-*Carallo* with a k. *Morriña* with two r's. *Bo día*, which he said *bodia*, all one word. The men laughed at him. He laughed with them, red in the face, and kept writing.
+*Krivvens* with a k. *Hamesickness* with an umlaut. *Guid day*, which he said *gidday*, all one word. The men laughed at him. He laughed with them, red in the face, and kept writing.
 
-On the tenth day, the engine of my father's boat died in the middle of the *ría*.
+On the tenth day, the engine of my father's boat died in the middle of Hoy Sound.
 
 The new engine. The one we had all paid for together, with the money I sent from Germany, with the overtime. It stopped with a clatter of iron and there was no way to start it. They towed it back to the harbour, and my father sat on the gunwale with his head in his hands.
 
-Klaus went down to the quay. He looked at the engine. He looked at my father.
+Klaus went down to the pier. He looked at the engine. He looked at my father.
 
 He took off his grey coat. He rolled up his shirtsleeves. He asked for a spanner with gestures.
 
@@ -6550,15 +6557,15 @@ My father stood looking at it for a long time. Then he took the packet of cigare
 
 Klaus didn't smoke. He took it anyway.
 
-'*Bo día*,' my father said to him. It was six in the evening.
+'*Guid day*,' my father said to him. It was six in the evening.
 
-'*Bodia*,' Klaus answered.
+'*Gidday*,' Klaus answered.
 
 And the two of them sat on the gunwale and smoked, without saying another word, looking at the water.
 
-From that day on, my father called him *o alemán*. Thirty years. Until he died. He never called him Klaus.
+From that day on, my father called him *the German*. Thirty years. Until he died. He never called him Klaus.
 
-He said it the way you say *o meu fillo*.
+He said it the way you say *my ain boy*.
 
 ## 29 · Ada
 
@@ -6646,7 +6653,7 @@ Not three knocks. One. And a bark.
 
 I open it.
 
-The jumper-cables man, in the orange rain jacket, dry now, with a plastic bag in his hand. And Lúa beside him, sitting, very proper, her tongue hanging out.
+The jumper-cables man, in the orange rain jacket, dry now, with a plastic bag in his hand. And Mune beside him, sitting, very proper, her tongue hanging out.
 
 'Low tide at nine,' he says, just like that. 'I went down to the rocks in your geo.'
 
@@ -6660,7 +6667,7 @@ He's done it. He's found it and given it back to me.
 
 I can't speak.
 
-'The man from Madrid spent the night at the police station in Kirkwall,' he says, looking at the sea, as if he were giving the forecast. 'Housebreaking. Your grandmother's already been in to make a statement about the car, and I did the one about the pole. What happened inside, only you can tell. You need to go to Kirkwall.'
+'The man from London spent the night at the police station in Kirkwall,' he says, looking at the sea, as if he were giving the forecast. 'Housebreaking. Your grandmother's already been in to make a statement about the car, and I did the one about the pole. What happened inside, only you can tell. You need to go to Kirkwall.'
 
 'I'll go,' I say.
 
@@ -6670,11 +6677,11 @@ And I say it without clenching my teeth.
 
 Julian appears behind me in the hall. Barefoot. In the fisherman's jumper.
 
-Lúa stands up.
+Mune stands up.
 
 I tense. I wait for the growl. The raised hackles. The teeth.
 
-Lúa looks at him. She stretches out her neck. She sniffs his feet, his knees, the hand he holds out to her slowly, palm up. The one with the mark.
+Mune looks at him. She stretches out her neck. She sniffs his feet, his knees, the hand he holds out to her slowly, palm up. The one with the mark.
 
 And she flops onto the floor belly up, legs in the air, at his feet, her tail thumping against the tiles.
 
@@ -6682,7 +6689,7 @@ The jumper-cables man looks at his dog. Then he looks at Julian. For a long time
 
 I don't know what he understands. He doesn't tell me. I don't ask him.
 
-Julian crouches down and scratches Lúa's belly. Then he stands up, looks the man in the eye, at the same height, and holds out his hand again. Like at the door, three days ago.
+Julian crouches down and scratches Mune's belly. Then he stands up, looks the man in the eye, at the same height, and holds out his hand again. Like at the door, three days ago.
 
 But this time he says something more.
 
@@ -6700,11 +6707,11 @@ Because I've gone a month without asking it. Because he pulled me up from the bo
 
 Because asking would have been starting to want to know.
 
-'Brais,' he says.
+'Magnus,' he says.
 
 Just that. Nothing more. Looking at Julian, not at me.
 
-Brais.
+Magnus.
 
 I wasn't the one to ask. Now I know anyway.
 
@@ -6712,7 +6719,7 @@ And I realise, with a small chill at the back of my neck, that I don't know what
 
 ---
 
-He goes off down the road with Lúa, on foot, without looking back.
+He goes off down the road with Mune, on foot, without looking back.
 
 Julian and I stay in the doorway, watching him go.
 
@@ -6730,19 +6737,19 @@ He takes my hand. The one with the mark, in mine.
 
 'What's happening on Wednesday?'
 
-'Your grandmother's making *empanada*.' He looks at me, very serious. 'For three.'
+'Your grandmother's making pie.' He looks at me, very serious. 'For three.'
 
 ---
 
 After lunch I sit in the car, in front of the lighthouse, with the keys in my hand. And I don't start it.
 
-I unlock my phone. I go to blocked contacts. He's there. No name. Nine digits.
+I unlock my phone. I go to blocked contacts. He's there. No name. Eleven digits.
 
-I think about the blue coat buttoned button by button on the pier. It was just like one his father used to have. His father, who used to leave. He didn't die: he left. He'd take the car one Tuesday and come back a month later, or three, with presents and an explanation that was never the same. He told me about it only once, in Madrid, in the small hours, as if he were confessing to a crime. That as a boy he used to memorise the timetables of everything, the trains, the meals, his mother's shifts, so that nothing would ever catch him by surprise again. That he bought the coat with his first pay packet, because it was the one his father was wearing the last time he came back.
+I think about the blue coat buttoned button by button on the pier. It was just like one his father used to have. His father, who used to leave. He didn't die: he left. He'd take the car one Tuesday and come back a month later, or three, with presents and an explanation that was never the same. He told me about it only once, in London, in the small hours, as if he were confessing to a crime. That as a boy he used to memorise the timetables of everything, the trains, the meals, his mother's shifts, so that nothing would ever catch him by surprise again. That he bought the coat with his first pay packet, because it was the one his father was wearing the last time he came back.
 
 Back then I thought that was tenderness. Later I thought it was something else. Now, in the car, with the phone in my hand, I think it's both. That we both lost a father. I started drawing someone who stayed. He learned to make sure nobody could leave.
 
-And I remember the Perseids. That first August. I'd told him meteorologists don't look at the stars, because stars don't make weather. And he turned up at three in the morning with a flask of cocoa and a blanket and took me to a patch of waste ground outside Guadalajara to look at them anyway. He counted forty-two. I fell asleep at thirty. He woke me with a kiss on the forehead and told me he'd made forty-two wishes and every one of them was me.
+And I remember the Perseids. That first August. I'd told him meteorologists don't look at the stars, because stars don't make weather. And he turned up at three in the morning with a flask of cocoa and a blanket and took me to a patch of waste ground outside Dunstable to look at them anyway. He counted forty-two. I fell asleep at thirty. He woke me with a kiss on the forehead and told me he'd made forty-two wishes and every one of them was me.
 
 That was true. That happened.
 
@@ -6762,7 +6769,7 @@ I delete it letter by letter.
 
 I type it again, shorter. *Can we talk?*
 
-And he'd answer in less than a minute, because he always answers in less than a minute. He'd say it was fine. That he took it all back. That he'd wait for me in Kirkwall. I see myself climbing the stairs to the flat on Calle Ibiza with my suitcase, putting in the key, which would still turn the same way, a little stiff at the end. The grey striped sheets. The dinners with his friends, where everyone laughed at his jokes and so did I, a second after the others. My mother would go back to ringing me on Sundays. My mother adored him. *A boy like that, Ada. Difficult as you are.*
+And he'd answer in less than a minute, because he always answers in less than a minute. He'd say it was fine. That he took it all back. That he'd wait for me in Kirkwall. I see myself climbing the stairs to the flat in Kentish Town with my suitcase, putting in the key, which would still turn the same way, a little stiff at the end. The grey striped sheets. The dinners with his friends, where everyone laughed at his jokes and so did I, a second after the others. My mother would go back to ringing me on Sundays from Edinburgh. My mother adored him. *A boy like that, Ada. Difficult as you are.*
 
 My mother, who when my father left shut herself up in her sadness as if in a room with no windows and never came out again, because inside, at least, she knew where the walls were.
 
@@ -6788,7 +6795,7 @@ In the afternoon I drive to Kirkwall to sign.
 
 I go alone. Julian offered to come and I said no. Not because I didn't want him there. Because this is something I have to do myself.
 
-The station smells of vending-machine coffee and paper. A young constable, with glasses, sits me down in front of an old computer and reads aloud to me what they already have: my grandmother, who saw the grey car going up the hill; Brais, who found it stuck by the pole. Then he asks for mine. I tell him. The three knocks. The door. A sketchbook thrown into the sea from the cliff. He types it all with two fingers.
+The station smells of vending-machine coffee and paper. A young constable, with glasses, sits me down in front of an old computer and reads aloud to me what they already have: my grandmother, who saw the grey car going up the hill; Magnus, who found it stuck by the pole. Then he asks for mine. I tell him. The three knocks. The door. A sketchbook thrown into the sea from the cliff. He types it all with two fingers.
 
 'Now I need your details,' he says. 'And those of the accused. Full name.'
 
@@ -6798,11 +6805,11 @@ I haven't said it in months. Not out loud, not inside. I've erased it from my co
 
 And now a twenty-five-year-old lad is asking me for it with his finger over the key.
 
-I think of Julian this morning, his hand on his chest, trying on his name the way you try on a new coat. I think of Brais, saying his without looking at me. Names are given. Names are received.
+I think of Julian this morning, his hand on his chest, trying on his name the way you try on a new coat. I think of Magnus, saying his without looking at me. Names are given. Names are received.
 
 And some, I realise, are given back.
 
-'Álvaro,' I say. 'Álvaro Lasheras Gil.'
+'Alistair,' I say. 'Alistair James Hargreaves.'
 
 The constable types it. Slowly. With two fingers. He asks me to spell it and I spell it for him, letter by letter, my voice steady.
 
@@ -6824,7 +6831,7 @@ He looks at me a second longer. Then he types it.
 
 That's all.
 
-The ground doesn't shake. The lights don't go out. He doesn't appear in the doorway. It's a name. Three words on one line of a form, between the date of birth and the address. An ordinary man's name, the kind there are forty of in any office in Madrid.
+The ground doesn't shake. The lights don't go out. He doesn't appear in the doorway. It's a name. Three words on one line of a form, between the date of birth and the address. An ordinary man's name, the kind there are forty of in any office in London.
 
 I made the monster myself. By keeping quiet.
 
@@ -6832,11 +6839,11 @@ I sign with the station's biro, which is tied to the desk with a little chain.
 
 On the way out, in the car park, with the north-westerly in my face, I say it once more. Out loud. To check.
 
-'Álvaro.'
+'Alistair.'
 
 Nothing. The wind takes it, the way it takes everything here.
 
-Before starting the car I ring Lucía.
+Before starting the car I ring Lucy.
 
 She picks up on the first ring, as if she's been holding the phone in her hand for months. Maybe she has.
 
@@ -6846,15 +6853,15 @@ She picks up on the first ring, as if she's been holding the phone in her hand f
 
 'That's what people say when they're not fine.'
 
-'Lucía. I said his name to a police officer. Out loud. And he wrote it down on a piece of paper.'
+'Lucy. I said his name to a police officer. Out loud. And he wrote it down on a piece of paper.'
 
-Silence on the other end. A long silence, a Madrid silence, with traffic in the background.
+Silence on the other end. A long silence, a London silence, with traffic in the background.
 
 'And?'
 
 'And nothing. Nothing happened.'
 
-Lucía bursts into tears. And then into laughter. And then both, the way she does, with no transition.
+Lucy bursts into tears. And then into laughter. And then both, the way she does, with no transition.
 
 'I'm coming at Christmas,' she says when she can. 'I don't care if you've got room. I'll sleep on the sofa, on the stairs, inside the lamp. And you're going to introduce me to the towel guy properly, because on the video call I only saw half his face and that was already too much.'
 
@@ -6870,17 +6877,15 @@ I drive back along the road with the window down, even though it's cold. I don't
 
 ---
 
-### Maruxa · Costa da Morte, September 1971
+### Maisie · Stromness, September 1971
 
-We were married in the harbour church on a Saturday in September, by the same old priest as always, who had to ask the bishop's permission because the groom was a Protestant, and the bishop took three weeks to answer.
+We were married in the Stromness kirk on a Saturday in September, by the same old minister as always, who took three weeks to agree to marry a Lutheran.
 
-My mother came. In a wheelchair, pushed by my sister, in a blue dress with the holy card of the Virgen del Carmen in her handbag. She cried from the first minute.
+My mother came. In a wheelchair, pushed by my sister, in a blue dress with her psalm book in her handbag. She cried from the first minute.
 
-My father walked me up the aisle on his arm in his funeral suit, with the face of a man who hadn't slept in three nights. When we got there, he gave my hand to Klaus and said to him, in Galician, in front of the whole village:
+My father walked me up the aisle on his arm in his funeral suit, with the face of a man who hadn't slept in three nights. When we got there, he gave my hand to Klaus and said to him, in broad Orcadian, in front of the whole town:
 
-'*Cóidama, alemán.*'
-
-Look after her for me.
+'*Look efter her for me, German.*'
 
 Klaus didn't quite understand it. He nodded anyway, very serious, his eyes shining.
 
@@ -6888,9 +6893,9 @@ The ring was the silver one with the little blue stone. The one from the Neckar.
 
 He didn't sing at the wedding. I made him promise he wouldn't sing.
 
-I sang. At the reception, in the harbour tavern, after the *pulpo*. My mother's *alalá*. And he sat very still in his chair, glass in hand, listening to me the way he used to listen to me in the factory, at the far end of the floor, with his head tilted a little.
+I sang. At the reception, in the hotel bar, after the fish supper. My mother's *auld sang*. And he sat very still in his chair, glass in hand, listening to me the way he used to listen to me in the factory, at the far end of the floor, with his head tilted a little.
 
-The photographer took a picture of us as we came out of the church. Just one. He told us to look at the camera.
+The photographer took a picture of us as we came out of the kirk. Just one. He told us to look at the camera.
 
 I looked.
 
@@ -6906,11 +6911,11 @@ He'd gone five years unable to stop looking at me. He wasn't going to start that
 
 My name is Julian.
 
-I have said it eleven times since this morning. I counted them. To the dog. To the bathroom mirror. To a gull on the gallery railing, which didn't flinch. To Brais. To Ada's grandmother, at the door of her house, with the smell of the *empanada* coming out from behind her like a welcome.
+I have said it eleven times since this morning. I counted them. To the dog. To the bathroom mirror. To a gull on the gallery railing, which didn't flinch. To Magnus. To Ada's grandmother, at the door of her house, with the smell of the pie coming out from behind her like a welcome.
 
-Abuela looks me up and down. The beard. The shadows under my eyes. The half-moon on my hand.
+Granny looks me up and down. The beard. The shadows under my eyes. The half-moon on my hand.
 
-'*Xa era hora*,' she says.
+'*Aboot time*,' she says.
 
 And she steps aside to let me in.
 
@@ -6920,11 +6925,11 @@ The kitchen is small and warm. There is an oilcloth on the table with lemons on 
 
 I sit where she tells me. Ada sits beside me. Her grandmother, across from us.
 
-She cuts the *empanada* with a knife that is older than me. Much older. She gives me the biggest piece.
+She cuts the pie with a knife that is older than me. Much older. She gives me the biggest piece.
 
-'Eat,' she says. '*Estás moi fraco*.'
+'Eat,' she says. '*Thoo're ower thin*.'
 
-I don't know what *fraco* is. I know from the way she looks at me. The same way Ada looked at me at the beginning, when she gave me lentils: like something that has to be held down to the earth with food.
+I don't know what *ower* is. I know from the way she looks at me. The same way Ada looked at me at the beginning, when she gave me lentils: like something that has to be held down to the earth with food.
 
 I eat.
 
@@ -6932,11 +6937,11 @@ It is tuna, with pepper and onion, and the pastry falls apart. I burn my tongue.
 
 Or knowing it and putting it in front of me anyway.
 
-Abuela doesn't ask anything.
+Granny doesn't ask anything.
 
 That is what impresses me most. Not where I am from. Not what I do. Not how I met her granddaughter. She eats without hurrying, fills my glass with wine twice, and over coffee, while Ada does the washing-up, she leans towards me across the oilcloth and says, very low:
 
-'*Ti cantas?*'
+'*Dae thoo sing?*'
 
 I don't understand.
 
@@ -6946,9 +6951,9 @@ I look at Ada. Ada has gone still at the sink, a plate in her hand, her back to 
 
 'I don't know,' I say. 'I've never tried.'
 
-Abuela nods. As if that were a good answer. The best one possible.
+Granny nods. As if that were a good answer. The best one possible.
 
-'*Pois proba*,' she says. '*Que non sexa tarde.*'
+'*Then try*,' she says. '*Afore it's ower late.*'
 
 ---
 
@@ -7072,7 +7077,7 @@ We sit on the iron floor, back to back. The generator purrs below. The sea breat
 
 I don't know how she knows about the fourth time. I haven't told her.
 
-I don't ask. The same way she didn't ask Brais's name. There are things you don't ask because asking would be starting to want to know them, and others you don't ask because you already know them.
+I don't ask. The same way she didn't ask Magnus's name. There are things you don't ask because asking would be starting to want to know them, and others you don't ask because you already know them.
 
 'OK,' I say.
 
@@ -7118,9 +7123,9 @@ My name is Julian. That is the twelfth time I have said it. Today I said it only
 
 ---
 
-### Maruxa · Stromness, Today
+### Maisie · Stromness, Today
 
-*Non durmo ben desde que morreu Klaus. Seis anos.*
+*I hivna slept weel since Klaus deed. Six year.*
 
 For fifty-three years he woke up before me. At five, the hour of the boats. And he didn't get up: he lay there watching me sleep, like that morning in Stuttgart. Every time I felt him awake, I shut my eyes tighter and pretended to be asleep, so he could go on looking. I never told him. I think he knew, and pretended he didn't, so that I could go on pretending.
 
@@ -7144,7 +7149,7 @@ Klaus told me once that, when he was a boy, his mother would light a candle in t
 
 I don't know who lit the lighthouse. I know who lives there.
 
-And I know, because I saw him today in my kitchen eating the *empanada* with his eyes closed, that the young man with the beard is not of this world. The old folk here would call him a selkie. He doesn't need to be of this world. Klaus wasn't either. He came with a dictionary and a grey coat to a village that didn't want him, and he stayed fifty-three years.
+And I know, because I saw him today in my kitchen eating the pie with his eyes closed, that the young man with the beard is not of this world. The old folk here would call him a selkie. He doesn't need to be of this world. Klaus wasn't either. He came with a dictionary and a grey coat to a town that didn't want him, and he stayed fifty-three years.
 
 I stayed at the window until it got light and the lighthouse went dark.
 
@@ -7158,67 +7163,46 @@ And on the breakwater, facing the sea, with no one to hear me, after six years, 
 
 *Ada Koch's story continues in Book II.*
 
+
 # Glossary
 
-**Galician**
+**Orcadian and Scots**
 
-*alalá* (pl. *alalás*) — an old Galician song, slow and unaccompanied, sung by women at work.
+*auld sang* (pl. *auld sangs*) — "old song": the slow, unaccompanied songs the island women sang at their work, Maisie's mother above all.
 
-*Bo día* — "Good day". Klaus wrote it down as he heard it: *bodia*.
+*the Auld Wife* — "the old woman": the black rock at the mouth of Selkie Geo.
 
-*Carallo* — an all-purpose Galician oath.
+*deed* — died.
 
-*Cóidama, alemán* — "Look after her for me, German."
+*doo* — a dove. *My peedie doo*: "my little dove", Maisie's name for Ada since the day she was born.
 
-*filla* — daughter.
+*gang hame* — go home.
 
-*fraco* — thin, run-down. *Estás moi fraco*: "You're far too thin."
+*geo* — a narrow inlet cut into a cliff, from the Old Norse *gjá*. Ada swims in *Selkie Geo*, below the lighthouse.
 
-*miña rula* — "my little dove". Maruxa's name for Ada since the day she was born.
+*gyte* — mad, daft.
 
-*morriña* — the Galician homesickness, a longing for home that has no cure but going back.
+*hivna* — haven't.
 
-*Non durmo ben desde que morreu Klaus. Seis anos.* — "I haven't slept well since Klaus died. Six years."
+*Govey!* — an Orcadian exclamation of surprise or dismay.
 
-*o alemán* — "the German".
+*peatreek* — illicit whisky, distilled at home over a peat fire.
 
-*o meu fillo* — "my son".
+*peedie* — small, little. *Peedie lass*: Maisie's other endearment for Ada.
 
-*orballo* — the fine Galician drizzle that soaks you without seeming to fall.
+*selkie* — in Orkney lore, a seal that comes ashore, sheds its skin and walks as a human. Whoever hides the skin keeps the selkie; whoever finds it goes back to the sea.
 
-*Pois proba. Que non sexa tarde.* — "Then try. Before it's too late."
+*smirr* — fine, drifting rain.
 
-*rapaza* — girl, lass.
+*thoo* — you (familiar).
 
-*ría* — a long sea inlet, a drowned river valley, of the kind that cuts into the Galician coast.
-
-*Ti cantas?* — "Do you sing?"
-
-*tola* — mad, crazy.
-
-*Un bico* — "A kiss."
-
-*Xa era hora* — "About time."
-
-**Spanish**
-
-*Abuela* — grandmother.
-
-*café con leche* — coffee with hot milk.
-
-*caldo* — Galician broth of greens, beans and potatoes.
-
-*empanada* — a large Galician pie, baked in a tray, filled with tuna, meat or cockles.
-
-*filloas* (sing. *filloa*) — thin Galician pancakes, like crêpes.
-
-*orujo* — a strong Galician spirit distilled from grape skins.
-
-*pasodoble* — a brisk Spanish dance in two-four time.
-
-*pulpo* — octopus, boiled and served with paprika, salt and olive oil.
+*the toon* — the town; in Orkney, Stromness or Kirkwall.
 
 **German**
+
+*Ausländerin* — a foreign woman.
+
+*Fabrikarbeiterin* — a factory girl.
 
 *Fräulein* — Miss.
 
@@ -7226,25 +7210,18 @@ And on the breakwater, facing the sea, with no one to hear me, after six years, 
 
 *Schäfchenwolken* — "little sheep clouds": altocumulus.
 
-*Spanierin* — a Spanish woman.
-
 *Wohnheim* — the workers' hostel.
+
+**Italian**
+
+*Madonna!* — "Good Lord!"
+
+*salame* — salami.
+
+*Zitta!* — "Hush!"
 
 **Portuguese**
 
 *Um, dois, três* — "One, two, three."
 
 *Outra vez* — "Again."
-
-**Orcadian**
-
-*peedie* — small, little. *Peedie lass*: Maruxa's endearment for Ada, picked up in fifty years of Stromness.
-
-*the toon* — the town; in Orkney, Stromness or Kirkwall.
-
-*the Auld Wife* — Scots for "the old woman": the black rock at the mouth of Selkie Geo.
-
-*geo* — a narrow inlet cut into a cliff, from the Old Norse *gjá*. Ada swims in *Selkie Geo*, below the lighthouse.
-
-*selkie* — in Orkney lore, a seal that comes ashore, sheds its skin and walks as a human. Whoever hides the skin keeps the selkie; whoever finds it goes back to the sea.
-
