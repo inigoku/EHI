@@ -29,7 +29,7 @@ import argparse
 from pathlib import Path
 
 import pymupdf
-from PIL import Image, ImageFilter
+from PIL import Image, ImageChops, ImageFilter
 from reportlab.lib import colors
 from reportlab.lib.units import inch
 from reportlab.pdfbase import pdfmetrics
@@ -69,17 +69,19 @@ LANGS = {
         interior_pdf=BASE / "Tales_of_Tarel_6x9.pdf",
         front_pdf=BASE / "Tales_of_Tarel_front_cover.pdf",
         wrap_pdf=BASE / "Tales_of_Tarel_hardcover_wrap.pdf",
-        title="Fables of Tarel",
-        subtitle="Tales of the Boundary",
+        title="The Inner Horizon",
+        subtitle="Volume III: Fables from Tarel",
         author="Íñigo Barrera Barceló",
-        title_lines=["Fables of Tarel"],
+        title_lines=["The Inner", "Horizon"],
+        kicker="Thirty tales from the city of Tarel",
+        ebook=BASE / "imagenes" / "Tales_of_Tarel_cubierta_ebook.jpg",
         blurb=(
             "Tarel is a city that learned to live with the water that leaves: each "
-            "story in this book looks at that same boundary from a different angle "
-            "-birth, memory, love, loss, grief, companionship."
+            "story in this book looks at that same boundary from a different angle: "
+            "birth, memory, love, loss, grief, companionship."
         ),
         blurb2=(
-            "Twenty-eight tales that embody, as fables, the same questions as the essay "
+            "Thirty tales that embody, as fables, the same questions as the essay "
             "The Inner Horizon, with the archivist of Tarel as guide: they need not "
             "be read in order, each one stands alone, like the knots of a net that "
             "can be read from any point."
@@ -151,6 +153,8 @@ TITLE = "Cuentos de Tarel"
 SUBTITLE = "Fábulas de la Frontera"
 AUTHOR = "Íñigo Barrera Barceló"
 TITLE_LINES = ["Cuentos de Tarel"]
+KICKER = ""
+EBOOK = None
 FRONT_PDF = LANGS["es"]["front_pdf"]
 WRAP_PDF = LANGS["es"]["wrap_pdf"]
 INTERIOR_PDF = LANGS["es"]["interior_pdf"]
@@ -166,13 +170,11 @@ BLURB2 = (
     "nudos de una red que se puede leer desde cualquier punto."
 )
 
-# Paleta muestreada de la propia ilustración de portada: el crema del
-# paspartú de la acuarela (que además coincide casi exacto con el crema ya
-# usado en el resto de la trilogía), la tinta-teal del cielo y el sepia
-# cálido de los aros oxidados de amarre.
-SAND = colors.HexColor("#f7efe2")    # campo de fondo, igual que el paspartú
-INK = colors.HexColor("#2b4a52")     # título, texto principal
-RUST = colors.HexColor("#8a6a4a")    # filete, kicker, subtítulo
+# Paleta de la serie (la misma que la cubierta del poemario): rótulo crema y
+# turquesa pálido sobre óleo azul verdoso oscuro.
+SAND = colors.HexColor("#0a1016")    # fondo de seguridad detrás de la pintura
+INK = colors.HexColor("#f2ede4")     # texto principal (crema)
+RUST = colors.HexColor("#cfe3e2")    # filete, subtítulo, kicker (turquesa pálido)
 
 
 def source_image() -> Path:
@@ -187,6 +189,65 @@ def upscaled(target_h_px: int) -> Image.Image:
         im = im.resize((round(im.width * factor), round(im.height * factor)), Image.LANCZOS)
         im = im.filter(ImageFilter.UnsharpMask(radius=1.6, percent=55, threshold=2))
     return im
+
+
+def grain(im: Image.Image, strength: int = 7) -> Image.Image:
+    """Grano finísimo: ayuda a que la ampliación no se vea plana al imprimir."""
+    noise = Image.effect_noise(im.size, strength).convert("L")
+    noise = Image.merge("RGB", (noise, noise, noise))
+    return ImageChops.overlay(im, noise.point(lambda v: 118 + (v - 128) // 3))
+
+
+def vertical_veil(im: Image.Image, top_frac: float, bottom_frac: float,
+                  top_alpha: float, bottom_alpha: float,
+                  top_falloff: float = 0.85, bottom_falloff: float = 1.1) -> Image.Image:
+    """Oscurece arriba y abajo para que el rótulo se lea."""
+    w, h = im.size
+    veil = Image.new("L", (1, h), 0)
+    px = veil.load()
+    for y in range(h):
+        a = 0.0
+        if y < h * top_frac:
+            a = top_alpha * (1 - y / (h * top_frac)) ** top_falloff
+        tail = h * (1 - bottom_frac)
+        if y > tail:
+            a = max(a, bottom_alpha * ((y - tail) / (h * bottom_frac)) ** bottom_falloff)
+        px[0, y] = int(255 * a)
+    veil = veil.resize((w, h))
+    dark = Image.new("RGB", (w, h), (10, 16, 22))
+    return Image.composite(dark, im, veil)
+
+
+# Pulgadas de cielo que se añaden por arriba: en la pintura los tejados
+# empiezan hacia el 18 % de la altura, justo donde van el título y el
+# subtítulo, y así quedan un poco más abajo, sin tocar la escena.
+SKY_PAD_IN = 0.9
+
+
+def cover_field(width_in: float, height_in: float, flip: bool = False) -> Image.Image:
+    """Encuadra la pintura al tamaño pedido sin deformarla, prolongando el
+    cielo por arriba y recortando lo que sobre por abajo (barro oscuro)."""
+    w_px, h_px = round(width_in * DPI), round(height_in * DPI)
+    pad_px = round(SKY_PAD_IN * DPI)
+    im = upscaled(h_px)
+    scale = w_px / im.width
+    im = im.resize((w_px, round(im.height * scale)), Image.LANCZOS)
+    # el cielo nuevo sale de las primeras filas, estiradas y desenfocadas
+    strip = im.crop((0, 0, w_px, 48)).resize((w_px, pad_px), Image.BICUBIC)
+    strip = strip.filter(ImageFilter.GaussianBlur(6))
+    field = Image.new("RGB", (w_px, pad_px + im.height))
+    field.paste(strip, (0, 0))
+    field.paste(im, (0, pad_px))
+    # costura: un pequeño degradado entre el cielo nuevo y la pintura
+    seam = 70
+    blend = Image.new("L", (w_px, seam))
+    for y in range(seam):
+        blend.paste(int(255 * y / seam), (0, y, w_px, y + 1))
+    top_part = field.crop((0, pad_px - seam, w_px, pad_px))
+    under = im.crop((0, 0, w_px, seam))
+    field.paste(Image.composite(under, top_part, blend), (0, pad_px - seam))
+    field = field.crop((0, 0, w_px, h_px))
+    return field.transpose(Image.FLIP_LEFT_RIGHT) if flip else field
 
 
 def caps(cv, cx: float, y: float, text: str, font: str, size: float, color,
@@ -217,44 +278,44 @@ def wrapped(text: str, font: str, size: float, width: float) -> list[str]:
     return out
 
 
-def draw_plate(cv, cx: float, top_y: float, plate_w: float, plate_h: float) -> float:
-    """Dibuja la ilustración centrada en cx, con el borde superior en
-    top_y, escalada para caber en plate_w x plate_h sin recortar (la
-    imagen ya trae su propio paspartú y borde, así que se muestra entera,
-    no a sangre). cx/top_y/plate_w/plate_h van en puntos, como el resto de
-    esta función de texto. Devuelve el borde inferior real tras el
-    escalado, también en puntos."""
-    plate_w_in, plate_h_in = plate_w / inch, plate_h / inch
-    im = upscaled(round(plate_h_in * DPI))
-    src_w_in, src_h_in = im.width / DPI, im.height / DPI
-    scale = min(plate_w_in / src_w_in, plate_h_in / src_h_in)
-    draw_w, draw_h = src_w_in * scale * inch, src_h_in * scale * inch
-    tmp = IMG / "_portada_plate.jpg"
-    im.save(tmp, "JPEG", quality=95, subsampling=0, dpi=(DPI, DPI))
-    x0 = cx - draw_w / 2
-    y0 = top_y - draw_h
-    cv.drawImage(str(tmp), x0, y0, width=draw_w, height=draw_h, mask=None)
-    return y0
+def halo_caps(cv, cx: float, y: float, text: str, font: str, size: float,
+              color, spacing: float) -> None:
+    """Subtítulo con un velo oscuro y suave detrás: sobre las crestas claras de
+    la pintura el texto crema se perdía."""
+    t = text.upper()
+    w = pdfmetrics.stringWidth(t, font, size) + spacing * max(0, len(t) - 1)
+    cv.saveState()
+    cv.setFillColor(colors.HexColor("#0a1016"))
+    for pad_x, pad_y, alpha in ((26, 13, 0.10), (20, 10, 0.16), (14, 8, 0.24), (9, 6, 0.34)):
+        cv.setFillAlpha(alpha)
+        cv.roundRect(cx - w / 2 - pad_x, y - pad_y + size * 0.30,
+                     w + 2 * pad_x, size + 2 * pad_y - 4, 8, stroke=0, fill=1)
+    cv.restoreState()
+    caps(cv, cx, y, text, font, size, color, spacing)
 
 
 def front_text(cv, x0: float, y0: float, w: float, h: float) -> None:
+    """Rotula la cubierta dentro del rectángulo de corte que se le pasa."""
     cx = x0 + w / 2
-    y = y0 + h - 1.0 * inch
-    for line in TITLE_LINES:
-        caps(cv, cx, y, line, R, 28, INK, 4.0)
-        y -= 36
-
-    plate_top = y - 0.18 * inch
-    plate_bottom = draw_plate(cv, cx, plate_top, w - 1.3 * inch, h - 3.05 * inch)
-
-    y = plate_bottom - 0.34 * inch
+    y = y0 + h - 0.95 * inch
+    for i, line in enumerate(TITLE_LINES):
+        caps(cv, cx, y, line, R, 34, INK, 7.5)
+        if i < len(TITLE_LINES) - 1:
+            y -= 40
+    y -= 26
     cv.setStrokeColor(RUST)
     cv.setLineWidth(1.0)
     cv.line(cx - 46, y, cx + 46, y)
     y -= 22
-    caps(cv, cx, y, SUBTITLE, R, 9.5, RUST, 2.0)
-    y -= 26
-    caps(cv, cx, y, AUTHOR, R, 12.5, INK, 3.6)
+    halo_caps(cv, cx, y, SUBTITLE, R, 10.5, INK, 3.0)
+
+    y = y0 + 0.78 * inch
+    caps(cv, cx, y, AUTHOR, R, 14.5, INK, 4.2)
+    if KICKER:
+        y -= 22
+        cv.setFont(IT, 9.8)
+        cv.setFillColor(RUST)
+        cv.drawCentredString(cx, y, KICKER)
 
 
 def back_text(cv, x0: float, y0: float, w: float, h: float) -> None:
@@ -288,12 +349,14 @@ def spine_text(cv, cx: float, y0: float, h: float, spine_w: float) -> None:
     cv.rotate(-90)
     cv.setFillColor(INK)
     cv.setFont(R, 12)
-    cv.drawCentredString(0, -4, f"{TITLE.upper()}   ·   {AUTHOR.upper()}")
+    vol = SUBTITLE.split(":")[0].upper() if SUBTITLE.startswith("Volume ") else ""
+    mid = f"   ·   {vol}" if vol else ""
+    cv.drawCentredString(0, -4, f"{TITLE.upper()}{mid}   ·   {AUTHOR.upper()}")
     cv.restoreState()
 
 
 def select_lang(lang: str) -> None:
-    global TITLE, SUBTITLE, AUTHOR, TITLE_LINES, BLURB, BLURB2
+    global TITLE, SUBTITLE, AUTHOR, TITLE_LINES, BLURB, BLURB2, KICKER, EBOOK
     global FRONT_PDF, WRAP_PDF, INTERIOR_PDF, COVER_LABEL, WRAP_LABEL
     cfg = LANGS[lang]
     TITLE = cfg["title"]
@@ -302,6 +365,8 @@ def select_lang(lang: str) -> None:
     TITLE_LINES = cfg["title_lines"]
     BLURB = cfg["blurb"]
     BLURB2 = cfg["blurb2"]
+    KICKER = cfg.get("kicker", "")
+    EBOOK = cfg.get("ebook")
     FRONT_PDF = cfg["front_pdf"]
     WRAP_PDF = cfg["wrap_pdf"]
     INTERIOR_PDF = cfg["interior_pdf"]
@@ -315,10 +380,12 @@ WRAP_LABEL = LANGS["es"]["wrap_label"]
 
 def build_front() -> None:
     w_in, h_in = TRIM_W + 2 * BLEED, TRIM_H + 2 * BLEED
+    art = grain(vertical_veil(cover_field(w_in, h_in), 0.26, 0.22, 0.50, 0.62))
+    tmp = IMG / "_portada_frontal.jpg"
+    art.save(tmp, "JPEG", quality=94, subsampling=0, dpi=(DPI, DPI))
     cv = rl_canvas.Canvas(str(FRONT_PDF), pagesize=(w_in * inch, h_in * inch))
     cv.setTitle(f"{TITLE} — {COVER_LABEL}")
-    cv.setFillColor(SAND)
-    cv.rect(0, 0, w_in * inch, h_in * inch, stroke=0, fill=1)
+    cv.drawImage(str(tmp), 0, 0, width=w_in * inch, height=h_in * inch, mask=None)
     front_text(cv, BLEED * inch, BLEED * inch, TRIM_W * inch, TRIM_H * inch)
     cv.save()
     print(f"{FRONT_PDF.relative_to(ROOT)}  —  {w_in} x {h_in} pulgadas")
@@ -330,10 +397,29 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
     w_in = force_w or (2 * side + spine_in)
     h_in = force_h or (TRIM_H + 2 * (WRAP + BLEED))
 
+    canvas_px = (round(w_in * DPI), round(h_in * DPI))
+    field = Image.new("RGB", canvas_px, (10, 16, 22))
+    # Cubierta a la derecha; contra a la izquierda con la misma pintura
+    # volteada bajo un lavado de tinta para que el texto se lea; lomo en tinta
+    # plana, que es lo que mejor aguanta el doblez de la bisagra.
+    half_in = (w_in - spine_in) / 2
+    front = cover_field(half_in, h_in)
+    back = cover_field(half_in, h_in, flip=True)
+    field.paste(back, (0, 0))
+    field.paste(front, (canvas_px[0] - front.width, 0))
+    art = vertical_veil(field, 0.24, 0.20, 0.50, 0.60)
+    wash = Image.new("RGB", (back.width, canvas_px[1]), (11, 18, 25))
+    art.paste(Image.blend(art.crop((0, 0, back.width, canvas_px[1])), wash, 0.74), (0, 0))
+    spine_x0 = round((w_in - spine_in) / 2 * DPI)
+    spine_x1 = spine_x0 + round(spine_in * DPI)
+    art.paste(Image.new("RGB", (spine_x1 - spine_x0, canvas_px[1]), (13, 21, 28)), (spine_x0, 0))
+    art = grain(art)
+    tmp = IMG / "_cubierta_wrap.jpg"
+    art.save(tmp, "JPEG", quality=92, subsampling=0, dpi=(DPI, DPI))
+
     cv = rl_canvas.Canvas(str(WRAP_PDF), pagesize=(w_in * inch, h_in * inch))
     cv.setTitle(f"{TITLE} — {WRAP_LABEL}")
-    cv.setFillColor(SAND)
-    cv.rect(0, 0, w_in * inch, h_in * inch, stroke=0, fill=1)
+    cv.drawImage(str(tmp), 0, 0, width=w_in * inch, height=h_in * inch, mask=None)
 
     trim_y = (WRAP + BLEED) * inch
     trim_h = TRIM_H * inch
@@ -345,6 +431,18 @@ def build_wrap(pages: int, force_w: float | None, force_h: float | None) -> None
     cv.save()
     print(f"{WRAP_PDF.relative_to(ROOT)}  —  {w_in:.3f} x {h_in:.3f} pulgadas "
           f"(lomo {spine_in:.3f}\" para {pages} páginas)")
+
+
+def build_ebook(out: Path) -> None:
+    """Portada del EPUB (1600 x 2560, 1:1,6) a partir del frente sin sangre."""
+    page = pymupdf.open(FRONT_PDF)[0]
+    clip = pymupdf.Rect(BLEED * 72, BLEED * 72, (BLEED + TRIM_W) * 72, (BLEED + TRIM_H) * 72)
+    zoom = 2560 / (TRIM_H * 72)
+    pix = page.get_pixmap(matrix=pymupdf.Matrix(zoom, zoom), clip=clip)
+    im = Image.frombytes("RGB", (pix.width, pix.height), pix.samples)
+    left = (im.width - 1600) // 2
+    im.crop((left, 0, left + 1600, 2560)).save(out, quality=92)
+    print(f"{out.relative_to(ROOT)}  —  1600 x 2560 px")
 
 
 def main() -> int:
@@ -372,6 +470,8 @@ def main() -> int:
         if args.paginas is None:
             print(f"  (lomo calculado sobre {pages} páginas reales del interior)")
         build_wrap(pages, args.ancho, args.alto)
+        if EBOOK:
+            build_ebook(EBOOK)
     return 0
 
 

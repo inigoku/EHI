@@ -342,7 +342,10 @@ def build(lang: str = "es") -> None:
 
     # ---- imágenes y fuentes
     plates = [p.pid for b in books for p in b.poems] + [closing.pid]
-    media = {"images/cubierta.jpg": IMG / "_portada_frontal.jpg"}
+    # portada del ebook con el rótulo ya compuesto (build_cover.py -> front pdf);
+    # si no existe, la pintura a secas.
+    _ebook_cover = IMG / f"{get_out_path(lang).stem}_cubierta_ebook.jpg"
+    media = {"images/cubierta.jpg": _ebook_cover if _ebook_cover.exists() else IMG / "_portada_frontal.jpg"}
     if not media["images/cubierta.jpg"].exists():
         media["images/cubierta.jpg"] = IMG / "portada_2k.jpg"
     for pid in plates:

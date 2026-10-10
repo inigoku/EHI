@@ -104,7 +104,7 @@ base = {k: v for k, v in toc.items() if k != "chapters"}
 
 # body_leading: slightly tighter leading to stay under the 550 pages KDP
 # allows for hardcover.
-t1 = dict(base, subtitle="Essay · Volume I", running_title="THE INNER HORIZON", gutter_in=0.82,
+t1 = dict(base, title="The Inner Horizon", subtitle="Volume I: Essay", running_title="THE INNER HORIZON", gutter_in=0.82,
           body_leading=16.0,
           uid="urn:uuid:el-horizonte-interior-tomo1-ensayo-en",
           cover_image="imagenes/The_Inner_Horizon_Tomo1_Essay_cubierta_ebook.jpg",
@@ -119,7 +119,7 @@ for c in ENS:
         c2["chapter_number"] = CUARTA[int(n)]
     t1["chapters"].append(c2)
 
-t2 = dict(base, title="Topological Readings", subtitle="The Inner Horizon · Volume II",
+t2 = dict(base, title="The Inner Horizon", subtitle="Volume II: Topological Readings",
           running_title="TOPOLOGICAL READINGS", chapter_word="Reading", gutter_in=0.62,
           uid="urn:uuid:el-horizonte-interior-tomo2-lecturas-en",
           cover_image="imagenes/The_Inner_Horizon_Tomo2_Readings_cubierta_ebook.jpg",
@@ -135,6 +135,9 @@ for c in LECT:
     c2["chapter_number"] = NUM_LECT[n]
     c2["section"] = ""   # no repeated "Topological Readings" header on every reading
     t2["chapters"].append(c2)
+
+t1["chapters"].insert(0, {"id": "intro_vol1", "content_file": "en/intro_vol1.en.md"})
+t2["chapters"].insert(0, {"id": "intro_vol2", "content_file": "en/intro_vol2.en.md"})
 
 unico = dict(toc); unico["chapters"] = [with_replace(c, UNICO) for c in toc["chapters"]]
 

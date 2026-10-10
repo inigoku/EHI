@@ -428,7 +428,8 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
         iid = "img-" + re.sub(r"[^a-zA-Z0-9]", "-", epub_path)
         ext = epub_path.rsplit(".", 1)[-1]
         mt = {"png": "image/png", "jpg": "image/jpeg", "jpeg": "image/jpeg"}.get(ext, "application/octet-stream")
-        manifest_xml += f'\n<item id="{iid}" href="{epub_path}" media-type="{mt}"/>'
+        cover_prop = ' properties="cover-image"' if epub_path == "images/cover.jpg" else ""
+        manifest_xml += f'\n<item id="{iid}" href="{epub_path}" media-type="{mt}"{cover_prop}/>'
     spine_xml = "\n".join(f'<itemref idref="{sid}"/>' for sid in spine_ids)
 
     opf = f"""<?xml version="1.0" encoding="utf-8"?>
