@@ -108,9 +108,9 @@ I answered with another voice message, saying yes to everything, though we both 
 
 ---
 
-In the afternoon, when I'd finished, I did what I always do. I opened the notebook.
+In the afternoon, when I'd finished, I did what I always do. I opened the sketchbook.
 
-In the closet I have a box full of black notebooks, all the same. Twenty-three years of notebooks. Almost all of it is clouds, because I draw the sky the way other women draw flowers. But in the margins, in the corners, in any empty space, there he is.
+In the closet I have a box full of black sketchbooks, all the same. Twenty-three years of sketchbooks. Almost all of it is clouds, because I draw the sky the way other women draw flowers. But in the margins, in the corners, in any empty space, there he is.
 
 I know how it sounds. A grown woman who has spent her whole life drawing the same man. I started drawing him at nine, when he was still a boy, and he grew up with me. I've never given him a name. Almost no one has seen him.
 
@@ -146,7 +146,7 @@ Even in three words I could hear his voice. The way he had of saying my name: th
 
 I hadn't told anyone in Madrid where I lived now. I wondered who had told him. Then I wondered why it mattered so much to me.
 
-I set the phone face down on the table, on top of the notebook, as if I could cover it up.
+I set the phone face down on the table, on top of the sketchbook, as if I could cover it up.
 
 I didn't answer.
 
@@ -154,7 +154,7 @@ That night I didn't eat dinner.
 
 I put water on for tea and watched the pot until it boiled, without moving, and then I turned off the burner and didn't make it. My stomach was clenched like a fist. Not even the smell of the bread I'd bought that morning tempted me.
 
-I tidied the kitchen, which was already tidy. I sorted the notebooks in the box by year. I did all the things a woman does when she doesn't want to think about something, and that something sits down beside her anyway, patiently, to wait until she's done.
+I tidied the kitchen, which was already tidy. I sorted the sketchbooks in the box by year. I did all the things a woman does when she doesn't want to think about something, and that something sits down beside her anyway, patiently, to wait until she's done.
 
 I tried to breathe the way the psychologist taught me. Four seconds in, four holding, four out. On the third round I realized I was counting too fast, as if I wanted to get it over with. I gave up.
 
@@ -162,7 +162,7 @@ The house was making noises I'd never heard. Or that I'd always heard and never 
 
 I curled up on the couch with the blanket up to my chin. I turned on only the small lamp, the one on the table. I like that light. It makes the house seem smaller and more mine.
 
-And I opened the notebook again.
+And I opened the sketchbook again.
 
 I don't know why. For the same reason, I suppose, that as a girl I used to crawl under the sheets with a flashlight when there was a storm. Because it was mine. Because it was the only thing in the house nobody could touch.
 
@@ -176,13 +176,13 @@ I heard myself and felt embarrassed. A thirty-two-year-old woman talking to a dr
 
 But there was no one. Only me, the wind, and him.
 
-I hugged the notebook to my chest and rested my head against the back of the couch. I thought I wouldn't be able to sleep. I thought about the message, about the nine digits, about his way of writing without a greeting, as if one weren't needed. I thought about everything I'd left there, and everything I'd brought with me without realizing.
+I hugged the sketchbook to my chest and rested my head against the back of the couch. I thought I wouldn't be able to sleep. I thought about the message, about the nine digits, about his way of writing without a greeting, as if one weren't needed. I thought about everything I'd left there, and everything I'd brought with me without realizing.
 
 And then I thought about the eyes in the drawing. About how they waited without hurry. About what it would be like for someone to look at me like that, for real, just once.
 
 I don't know when I fell asleep.
 
-I woke at three in the morning to a gust of wind that made the windowpanes shake. The lamp was still on. The notebook had slipped into my lap, open to the same page.
+I woke at three in the morning to a gust of wind that made the windowpanes shake. The lamp was still on. The sketchbook had slipped into my lap, open to the same page.
 
 I got up and went to the window, barefoot, with the blanket over my shoulders.
 
@@ -428,15 +428,15 @@ When I'd dried the last glass, she wiped her hands on her apron and went to the 
 
 She stuffed it all into my bag. Then she helped me into my coat, as if I were eight, and buttoned the top button.
 
-The notebook was peeking out of my pocket. I always carry it with me. She saw it and touched it with her fingertip.
+The sketchbook was peeking out of my pocket. I always carry it with me. She saw it and touched it with her fingertip.
 
-"And that notebook?"
+"And that sketchbook?"
 
 "Clouds. The usual."
 
 She looked me in the eye. For a second I had the feeling she could see through the black covers, through the clouds, all the way to the corner of the page where a pair of dark eyes was waiting for me.
 
-Only once, in my whole life, had my grandmother seen that drawing. I was twelve and spending the summer in this house. I left the notebook open on the kitchen table and, when I came back from the beach, she was looking at it. She didn't scold me. She only asked who he was. I told her nobody, that I'd made him up, red as a tomato.
+Only once, in my whole life, had my grandmother seen that drawing. I was twelve and spending the summer in this house. I left the sketchbook open on the kitchen table and, when I came back from the beach, she was looking at it. She didn't scold me. She only asked who he was. I told her nobody, that I'd made him up, red as a tomato.
 
 *Well, you make him up very well*, she told me then. *He has the face of a good person.*
 
@@ -584,11 +584,11 @@ I tried. I got into bed at eleven with a book I didn't read and turned off the l
 
 My phone was on the nightstand, face down. I hadn't looked at it since the afternoon before. I hadn't answered. I wasn't going to answer.
 
-At one-thirty I gave up. I pulled the thick sweatshirt on over my pajamas, went down to the kitchen, switched on the small lamp and took out the notebook.
+At one-thirty I gave up. I pulled the thick sweatshirt on over my pajamas, went down to the kitchen, switched on the small lamp and took out the sketchbook.
 
 Drawing is the only thing that truly calms me. More than swimming. More than breathing and counting the way the psychologist taught me. When I draw, there's no past and no future. Only the line I'm making, and the next one, and the next. It's like swimming in the October sea, but without the cold.
 
-I opened the notebook to a blank page. Not a corner, not a margin. A whole page, clean, the kind I usually save for the important clouds.
+I opened the sketchbook to a blank page. Not a corner, not a margin. A whole page, clean, the kind I usually save for the important clouds.
 
 And I started to draw him.
 
@@ -608,7 +608,7 @@ Just like that, in those words. This one stays. Not like my father, who left tha
 
 This one stays.
 
-From then on I drew him in every notebook. He grew up with me, without my planning it. At eleven I gave him a scar on his left eyebrow, because the boys in adventure books always had one. I thought it was the most romantic thing in the world. At thirteen I erased it, embarrassed, and never gave it back to him.
+From then on I drew him in every sketchbook. He grew up with me, without my planning it. At eleven I gave him a scar on his left eyebrow, because the boys in adventure books always had one. I thought it was the most romantic thing in the world. At thirteen I erased it, embarrassed, and never gave it back to him.
 
 At sixteen I drew him for the first time as a boy I liked. With his lips parted, looking at me. I spent a whole afternoon on that drawing, my heart beating in my ears. And then I tore out the page and ripped it into tiny pieces, red with shame, as if someone could see inside me.
 
@@ -616,13 +616,13 @@ Then came the real boyfriends. The ones from college, the ones from Madrid. I fe
 
 Only once did I try to show him to someone.
 
-I was twenty and head over heels for a boy in my department who played guitar at parties and wrote me bad poems on napkins. One night, in his student apartment, I showed him my notebooks. The clouds first. And then, with my heart in my mouth, a page where he was, sitting on a dock, looking at the water.
+I was twenty and head over heels for a boy in my department who played guitar at parties and wrote me bad poems on napkins. One night, in his student apartment, I showed him my sketchbooks. The clouds first. And then, with my heart in my mouth, a page where he was, sitting on a dock, looking at the water.
 
 "And who's this?" he asked, laughing. "Your imaginary boyfriend?"
 
-He didn't mean it badly. I know that. He was a sweet, clumsy boy who didn't know what he was holding. But I shut the notebook so fast I caught my finger, and I never showed it to him again. Not to him or anyone.
+He didn't mean it badly. I know that. He was a sweet, clumsy boy who didn't know what he was holding. But I shut the sketchbook so fast I caught my finger, and I never showed it to him again. Not to him or anyone.
 
-Since then the notebooks have lived in a box at the back of the closet, like love letters you never send.
+Since then the sketchbooks have lived in a box at the back of the closet, like love letters you never send.
 
 I never gave him a name. Giving him a name felt like too much. Like admitting something I didn't want to admit even to myself.
 
@@ -662,7 +662,7 @@ I ran my fingertip along the edge of his jaw. Barely touching the graphite, so I
 
 I pulled my hand away.
 
-I closed the notebook. I left both hands on its black covers, as if I were keeping in something that might escape.
+I closed the sketchbook. I left both hands on its black covers, as if I were keeping in something that might escape.
 
 It was three-thirty in the morning. Outside, the wind wasn't whistling anymore. It was roaring. I looked out the window and saw that the rain had started falling sideways, almost horizontal, hitting the glass like handfuls of gravel.
 
@@ -826,7 +826,7 @@ The noise was constant. Wind, sea, wind. Things banging outside and I didn't kno
 
 I didn't get up to fasten it. I didn't dare open the door.
 
-I had the notebook on my knees, closed. I didn't open it. I was a little embarrassed to open it, after the night before. Like when you've sent someone a message that was too honest and the next day you don't dare look at your phone.
+I had the sketchbook on my knees, closed. I didn't open it. I was a little embarrassed to open it, after the night before. Like when you've sent someone a message that was too honest and the next day you don't dare look at your phone.
 
 So I didn't move. I listened.
 
@@ -884,11 +884,11 @@ I think he would have told me to look.
 
 I thought that I had never had that. That I'd had other things. Loves that leave your heart in pieces and loves that leave your head full of doubts. But never that. Never someone who would cross half of Europe just to stay.
 
-I hugged the notebook to my chest, without opening it, as if it were a teddy bear. Ridiculous. A thirty-two-year-old woman hugging a sketchbook in the middle of a storm.
+I hugged the sketchbook to my chest, without opening it, as if it were a teddy bear. Ridiculous. A thirty-two-year-old woman hugging a sketchbook in the middle of a storm.
 
 But I didn't let go.
 
-I thought, for the first time in a long time, that I was very alone. Not alone the way I liked to be, with the sea and my notebooks and my silence. Truly alone. Alone the way you are in a small boat in the middle of the night.
+I thought, for the first time in a long time, that I was very alone. Not alone the way I liked to be, with the sea and my sketchbooks and my silence. Truly alone. Alone the way you are in a small boat in the middle of the night.
 
 And I wanted, wanted terribly, for someone to knock on the door.
 
@@ -970,7 +970,7 @@ Like someone who had stood there for a whole hour, still, listening.
 
 I froze.
 
-I didn't breathe. I didn't move a finger. I stayed on the sofa, the blanket over my legs and the notebook pressed against my chest, listening with my whole body.
+I didn't breathe. I didn't move a finger. I stayed on the sofa, the blanket over my legs and the sketchbook pressed against my chest, listening with my whole body.
 
 Wind. Sea. The loose shutter, one, two, one, two.
 
@@ -984,7 +984,7 @@ I let my breath out. I laughed at myself a little, nervous.
 
 Knock. Knock. Knock.
 
-I leapt to my feet. The blanket fell to the floor. The notebook didn't. I was gripping it so hard my fingers hurt.
+I leapt to my feet. The blanket fell to the floor. The sketchbook didn't. I was gripping it so hard my fingers hurt.
 
 Now, yes. Now there was no doubt. Three even knocks, spaced out, patient. Knuckles. Someone's knocks.
 
@@ -1112,7 +1112,7 @@ The flashlight began to tremble in my hand. The beam danced over his face, over 
 
 I knew that face.
 
-I knew it better than my own. I had drawn it a thousand times. Ten thousand. I had drawn it the night before, at three in the morning, on a whole page of a black-covered notebook that at that very moment I was clutching to my chest, so hard my breastbone hurt.
+I knew it better than my own. I had drawn it a thousand times. Ten thousand. I had drawn it the night before, at three in the morning, on a whole page of a black-covered sketchbook that at that very moment I was clutching to my chest, so hard my breastbone hurt.
 
 I looked at his mouth.
 
@@ -1294,7 +1294,7 @@ The wet shirt clung to his back like a second skin, and when he pulled it off ov
 
 I hadn't drawn that mole.
 
-Or I had. Maybe I had. Maybe in some margin, in some notebook from ten years ago, a pencil dot that slipped out of me. I didn't know. I still don't.
+Or I had. Maybe I had. Maybe in some margin, in some sketchbook from ten years ago, a pencil dot that slipped out of me. I didn't know. I still don't.
 
 I turned around before he finished. My face was burning.
 
@@ -1348,7 +1348,7 @@ I turned around to cut more bread. I wasn't hungry. I needed him not to see my f
 
 I set a cup of tea in front of him. He took it with both hands, the same way I hold cups when I'm cold.
 
-I sat across from him, on the other side of the table, the notebook closed on my knees. And I started asking him questions. Like a scientist. Like a madwoman.
+I sat across from him, on the other side of the table, the sketchbook closed on my knees. And I started asking him questions. Like a scientist. Like a madwoman.
 
 "How old are you?"
 
@@ -1436,7 +1436,7 @@ That night I slept in my room with the door locked and a chair wedged under the 
 
 Well. Slept is saying a lot.
 
-I spent the night sitting on the bed, with the flashlight on and the notebook in my hands. Without opening it. I didn't dare. I was afraid of what I might find inside. Or of what I might not.
+I spent the night sitting on the bed, with the flashlight on and the sketchbook in my hands. Without opening it. I didn't dare. I was afraid of what I might find inside. Or of what I might not.
 
 I could still feel the warmth of his skin on my fingertip. I rubbed my hand against my pajamas, several times, and the warmth wouldn't go away.
 
@@ -1552,7 +1552,7 @@ I still have it. It's in the wardrobe in my room, folded, on the top shelf. It s
 
 When some light came in through the crack in the shutter, gray and dirty, I couldn't take it anymore.
 
-I opened the notebook.
+I opened the sketchbook.
 
 My heart was beating in my fingertips as I turned the pages. Clouds. Clouds. An August cumulonimbus. And then the full page, the one from Tuesday night.
 
@@ -1562,13 +1562,13 @@ Standing, hands in the pockets of the dark jacket. Wet hair over his forehead. H
 
 He hadn't disappeared from the paper. I don't know what I'd expected. For the page to be blank, I guess. Like in the movies, where the portrait goes empty when the character steps out of the frame.
 
-But no. He was still in the notebook. And, if nothing had changed during the night, he was also still in my kitchen.
+But no. He was still in the sketchbook. And, if nothing had changed during the night, he was also still in my kitchen.
 
-I sat on the bed for a while, the notebook open on my knees, not daring to move. Outside, the wind had dropped a little. It wasn't roaring anymore. It moaned, long and tired, like someone who has screamed all night and has no voice left.
+I sat on the bed for a while, the sketchbook open on my knees, not daring to move. Outside, the wind had dropped a little. It wasn't roaring anymore. It moaned, long and tired, like someone who has screamed all night and has no voice left.
 
 I moved the chair away from the door. Turned the key. The click of the lock sounded enormous in the silence.
 
-I went out into the hallway barefoot, the notebook pressed against my chest.
+I went out into the hallway barefoot, the sketchbook pressed against my chest.
 
 ---
 
@@ -1614,7 +1614,7 @@ I poured him a cup. He tasted it and wrinkled his nose, and then tasted it again
 
 I hid behind my cup.
 
-Then I sat across from him, like the night before. I put the notebook on the table, between us. Closed.
+Then I sat across from him, like the night before. I put the sketchbook on the table, between us. Closed.
 
 And then I did the only thing I could think of. What any scientist would do.
 
@@ -1622,7 +1622,7 @@ Compare.
 
 ---
 
-I opened the notebook to Tuesday's page and turned it toward the light. I looked at him. At the drawing. At him.
+I opened the sketchbook to Tuesday's page and turned it toward the light. I looked at him. At the drawing. At him.
 
 It was the same face. Not similar. The same.
 
@@ -1640,7 +1640,7 @@ He did it without asking.
 
 I looked for his eyebrow.
 
-At eleven I had drawn him a scar right there, on his left eyebrow. A thin white line that split it in two. I drew it in every notebook for two years, proud of it. At thirteen it seemed like a little-girl thing and I erased it. I never gave it back to him.
+At eleven I had drawn him a scar right there, on his left eyebrow. A thin white line that split it in two. I drew it in every sketchbook for two years, proud of it. At thirteen it seemed like a little-girl thing and I erased it. I never gave it back to him.
 
 His eyebrow was whole. Not a mark. Not a shadow.
 
@@ -1654,7 +1654,7 @@ I looked at his mouth. Slowly. Longer than I should have.
 
 It was the new one.
 
-Not the one from the last ten years. Not the one from all the notebooks I keep in the box in the closet. The one from that night. The one I drew a few hours before someone knocked on my door.
+Not the one from the last ten years. Not the one from all the sketchbooks I keep in the box in the closet. The one from that night. The one I drew a few hours before someone knocked on my door.
 
 I had to grab the edge of the table.
 
@@ -1664,13 +1664,13 @@ I had to grab the edge of the table.
 
 I didn't answer. I couldn't. I got up, went to my room and came back with the cardboard box from the closet. I set it on the table, between the cups, and opened it.
 
-Twenty-three years of black notebooks. They smelled of old paper, of graphite, of the damp in the closet.
+Twenty-three years of black sketchbooks. They smelled of old paper, of graphite, of the damp in the closet.
 
 He looked at them with an expression I couldn't read.
 
 I started taking them out and flipping through them fast, going backward. Him at twenty, sitting on a dock. Him at sixteen, in profile. Him with the scar, at twelve, with a wooden sword that made me laugh in spite of everything. Him without the scar. Him at nine, the very first, sitting on his rock, looking at the sea.
 
-Each notebook held a period of my life. I saw it there, with the notebooks open on the table like cards from a deck. The one from the year of college entrance exams, full of nervous clouds and of him studying next to me, with an open book I never finished drawing. The one from Hamburg, the Erasmus winter, with him walking through the snow by the river, his jacket collar turned up, because I was so cold and so lonely that I drew him with me. The one from Madrid, the first year, when everything was lovely, with him almost hidden, tiny, in the corners, as if he were embarrassed to be there.
+Each sketchbook held a period of my life. I saw it there, with the sketchbooks open on the table like cards from a deck. The one from the year of college entrance exams, full of nervous clouds and of him studying next to me, with an open book I never finished drawing. The one from Hamburg, the Erasmus winter, with him walking through the snow by the river, his jacket collar turned up, because I was so cold and so lonely that I drew him with me. The one from Madrid, the first year, when everything was lovely, with him almost hidden, tiny, in the corners, as if he were embarrassed to be there.
 
 And then, the one from Madrid in the last few years.
 
@@ -1678,7 +1678,7 @@ Almost empty. Clouds without him. Whole pages without a single margin filled. It
 
 I turned those pages fast.
 
-He said nothing. But when I looked up, he was looking at me, not at the notebooks. And there was something in his eyes that looked a lot like sorrow.
+He said nothing. But when I looked up, he was looking at me, not at the sketchbooks. And there was something in his eyes that looked a lot like sorrow.
 
 A knot formed in my throat.
 
@@ -1686,7 +1686,7 @@ And then I remembered the mole.
 
 The small mole below his left shoulder, the one I had seen the night before when he took off his wet shirt.
 
-I looked for it. I searched through every notebook, page by page, for more than an hour, while he watched me in silence and the coffee went cold in the cups. I searched the backs, the shoulders, the quick sketches in the margins.
+I looked for it. I searched through every sketchbook, page by page, for more than an hour, while he watched me in silence and the coffee went cold in the cups. I searched the backs, the shoulders, the quick sketches in the margins.
 
 I didn't find it.
 
@@ -1708,17 +1708,17 @@ He held his breath. So did I.
 
 We stayed like that for a second. Two. My finger on his back and the whole world silent, even the wind.
 
-Then I took my hand away and he pulled the sweater down without a word, and sat down again, and I sat down again, and the two of us looked at the notebooks instead of at each other.
+Then I took my hand away and he pulled the sweater down without a word, and sat down again, and I sat down again, and the two of us looked at the sketchbooks instead of at each other.
 
 My hands were shaking. I hid them under the table.
 
 ---
 
-I picked up Tuesday's notebook again. I opened it to the first page, without thinking.
+I picked up Tuesday's sketchbook again. I opened it to the first page, without thinking.
 
-There it was, in my usual handwriting, the same as in every notebook since I was a girl:
+There it was, in my usual handwriting, the same as in every sketchbook since I was a girl:
 
-*This notebook belongs to Ada Koch. If you find it, please give it back to me.*
+*This sketchbook belongs to Ada Koch. If you find it, please give it back to me.*
 
 My grandmother taught me to write it, because when I was little I lost them everywhere. On the bus, at the beach, in the school cafeteria. Ever since, I write it in all of them.
 
@@ -1764,7 +1764,7 @@ Because I understood.
 
 He didn't know where he came from because I had never drawn where he came from. He didn't know his age because I had never decided it. He had no name because I had never given him one.
 
-He knew what was in the notebook. A rock. The sea. Clouds, heaps of clouds. My name on the first page.
+He knew what was in the sketchbook. A rock. The sea. Clouds, heaps of clouds. My name on the first page.
 
 And my hand.
 
@@ -1858,7 +1858,7 @@ The storm lasted all that day and a good part of the following night.
 
 I don't remember the hours well. I remember loose things, like photos from a roll of film someone had developed out of order.
 
-I remember putting the notebooks back in the box, one by one, with a care I'd never had before. As if each one were now a house with someone inside.
+I remember putting the sketchbooks back in the box, one by one, with a care I'd never had before. As if each one were now a house with someone inside.
 
 I remember lighting the stove with him watching me, very attentive, following every gesture with his eyes. How I opened the little door. How I set the pine cones underneath and the logs on top. How I blew. When I finished, he crouched beside me and watched the fire catch with the same look of wonder as the night before.
 
@@ -2024,7 +2024,7 @@ The smile I had drawn two nights before.
 
 I looked at it. I thought I could spend my whole life looking at that smile. And it frightened me so much to have thought it that I got up to put wood on the fire, even though it didn't need any.
 
-When I sat down again, he was looking at the notebook, closed on the table.
+When I sat down again, he was looking at the sketchbook, closed on the table.
 
 "Will you draw me tomorrow?" he asked.
 
@@ -2233,11 +2233,11 @@ Because you don't have shoes. Because you don't have a name. Because you don't h
 
 He looked at his feet. He nodded, as if that were a real reason. I felt a little wretched.
 
-I picked up my bag, the car keys, the list I'd made on the back of an envelope. And then I stopped at the door, looking at the notebook on the kitchen table.
+I picked up my bag, the car keys, the list I'd made on the back of an envelope. And then I stopped at the door, looking at the sketchbook on the kitchen table.
 
 I didn't know whether to take it with me.
 
-I didn't know anything about the rules. Whether he could be far from the notebook. Whether the notebook had to be near him, or near me, or near neither of us. If I dropped it in a puddle in the village, what would happen to him?
+I didn't know anything about the rules. Whether he could be far from the sketchbook. Whether the sketchbook had to be near him, or near me, or near neither of us. If I dropped it in a puddle in the village, what would happen to him?
 
 I left it on the table. Then I went back and put it in the sideboard drawer. Then I took it out and put it back on the table, because in the drawer it felt like I was locking him up.
 
@@ -2289,7 +2289,7 @@ I paid so fast I got my PIN wrong twice, and I threw the bags into the car any o
 
 I drove back too fast.
 
-At every bend I thought the same thing. That I'd open the door and the kitchen would be empty. The fisherman's sweater folded on the chair. My sweatpants. Nothing else. That I'd open the notebook and the drawing would still be there, on its page, the same as always.
+At every bend I thought the same thing. That I'd open the door and the kitchen would be empty. The fisherman's sweater folded on the chair. My sweatpants. Nothing else. That I'd open the sketchbook and the drawing would still be there, on its page, the same as always.
 
 When I parked in front of the lighthouse, I didn't get out right away. I sat with my hands on the wheel, looking at the oak door.
 
@@ -2487,7 +2487,7 @@ He didn't answer.
 
 I fell silent.
 
-He was right. In all my notebooks, on every page, I had always drawn him facing the sea. Sitting on his rock. Standing on a pier. Leaning on a railing. Never in it. Never wet. Never swimming.
+He was right. In all my sketchbooks, on every page, I had always drawn him facing the sea. Sitting on his rock. Standing on a pier. Leaning on a railing. Never in it. Never wet. Never swimming.
 
 It had never occurred to me.
 
@@ -2813,7 +2813,7 @@ I put the bag on the table. The kitchen was empty. The coffee cold in the pot. T
 
 I looked in the living room. In my room. In the bathroom. I ran up the hundred and twelve steps of the tower with my heart in my mouth, and the gallery was empty, the wind whistling.
 
-I came down even faster. I went straight to the table. The notebook.
+I came down even faster. I went straight to the table. The sketchbook.
 
 It was there. Open to his page. And he was in the drawing, all of him, with his jacket and his hands and his mouth about to smile.
 
@@ -3101,7 +3101,7 @@ At eleven at night he still wasn't speaking to me.
 
 He was on the sofa, with the book on clouds open to the same page for two hours. He wasn't reading. He was looking at the stove. His mouth was set hard and there was a crease between his brows that I had never drawn on him and that, all at once, I couldn't bear to see.
 
-I was at the kitchen table with the notebook open. Pretending to draw clouds.
+I was at the kitchen table with the sketchbook open. Pretending to draw clouds.
 
 I couldn't stop looking at him.
 
@@ -3137,7 +3137,7 @@ I saw him from the kitchen. A man with a huge smile on his face and eyes full of
 
 It was the most horrible thing I had ever seen.
 
-He turned toward me. He saw the pencil in my hand. The open notebook.
+He turned toward me. He saw the pencil in my hand. The open sketchbook.
 
 "This isn't mine," he said.
 
@@ -3173,7 +3173,7 @@ We were silent for a long time. Me sitting, him standing. The stove crackling. T
 
 I didn't know what to say.
 
-"You can change my face," he went on. "I know that. You can put a smile on me. But you can't put the wanting to smile in me. That's not in your notebook."
+"You can change my face," he went on. "I know that. You can put a smile on me. But you can't put the wanting to smile in me. That's not in your sketchbook."
 
 He touched his chest, in the center.
 
@@ -3197,7 +3197,7 @@ He kept looking at me. Waiting for something.
 
 "That you won't touch my face again without asking me."
 
-My face. He didn't say the notebook. He didn't say the drawing. He said my face, as if they were the same thing. And they were.
+My face. He didn't say the sketchbook. He didn't say the drawing. He said my face, as if they were the same thing. And they were.
 
 "I promise."
 
@@ -3381,7 +3381,7 @@ I watched him from the table. He was at the window again, his forehead almost pr
 
 I hadn't given him that.
 
-It wasn't in any notebook. That way of looking at the world, of trusting what he saw over what he was told, of giving things names of bread and sheep. It wasn't mine. It was his.
+It wasn't in any sketchbook. That way of looking at the world, of trusting what he saw over what he was told, of giving things names of bread and sheep. It wasn't mine. It was his.
 
 And it was then, with the mug of watery coffee in my hands, at six forty in the morning, that I realized I was lost.
 
@@ -3395,7 +3395,7 @@ He turned around.
 
 He thought about it a long time. Much longer than necessary. He sat down across from me, his elbows on the table.
 
-"Something of yours," he said. "Something that isn't in the notebooks."
+"Something of yours," he said. "Something that isn't in the sketchbooks."
 
 My breath caught.
 
@@ -3413,7 +3413,7 @@ I had never told anyone. Not Lucía. Not my grandmother.
 
 "I threw it away."
 
-Iter took a while to answer. Then he reached across the table and laid his hand on the black notebook, which sat closed between us.
+Iter took a while to answer. Then he reached across the table and laid his hand on the black sketchbook, which sat closed between us.
 
 "This one you didn't throw away," he said.
 
@@ -3483,7 +3483,7 @@ His face in the water of the cove, his hair plastered to his forehead.
 
 Four out.
 
-His voice. *Something of yours that isn't in the notebooks.*
+His voice. *Something of yours that isn't in the sketchbooks.*
 
 I opened my eyes. I closed them again.
 
@@ -3507,7 +3507,7 @@ And I could see, a little above my shoulder, a shadow.
 
 Not a figure. Not a face. Just a darker smudge in the reflection, elongated, leaning toward me. Like someone bending down from above to look at something small, very closely.
 
-The way I bend over the notebook when I draw him.
+The way I bend over the sketchbook when I draw him.
 
 I turned around.
 
@@ -3905,7 +3905,7 @@ We slept apart. Him on the sofa, me in my room with the door open. Neither of us
 
 I didn't draw anything in those four days. Not a single cloud. I didn't need to.
 
-On the fifth day, in the morning, I found him sitting at the kitchen table with the notebook open in front of him.
+On the fifth day, in the morning, I found him sitting at the kitchen table with the sketchbook open in front of him.
 
 My heart stopped.
 
@@ -3913,7 +3913,7 @@ My heart stopped.
 
 He wasn't drawing in it. Iter didn't draw. He was looking at it.
 
-The notebook was open to his page, the one from the Tuesday of the storm. Him standing, his hands in the pockets of the dark jacket. His hair wet. His mouth about to smile.
+The sketchbook was open to his page, the one from the Tuesday of the storm. Him standing, his hands in the pockets of the dark jacket. His hair wet. His mouth about to smile.
 
 Iter was looking at it with his forehead creased, elbows on the table and hands at his temples, like a child in front of a math problem.
 
@@ -3935,7 +3935,7 @@ For twenty-three years, every time I drew his eyes, I drew them looking at me. W
 
 "I don't know," I said. "I suppose so."
 
-He nodded. He closed the notebook. He laid both hands on top of it, flat.
+He nodded. He closed the sketchbook. He laid both hands on top of it, flat.
 
 "Then I don't know if I love you," he said.
 
@@ -3957,7 +3957,7 @@ I didn't know.
 
 "When you kissed me in the tower," I said, and my voice broke, "you told me it was yours. That I hadn't drawn that."
 
-"Not the kiss." He looked at his hands on the notebook. "But wanting to kiss you… I don't know where that comes from. I don't know if I brought it with me from before. From in here."
+"Not the kiss." He looked at his hands on the sketchbook. "But wanting to kiss you… I don't know where that comes from. I don't know if I brought it with me from before. From in here."
 
 He tapped the black covers gently with his knuckles.
 
@@ -3983,7 +3983,7 @@ I didn't say it.
 
 I remembered my grandmother telling how my grandfather took nine months to speak to her. As long as it takes.
 
-I reached out and slid the notebook from under his hands. He let me. I held it tight against my chest.
+I reached out and slid the sketchbook from under his hands. He let me. I held it tight against my chest.
 
 "I promise," I said.
 
@@ -3991,7 +3991,7 @@ It was the second promise I'd made him. The first had been not to touch his face
 
 ---
 
-I took the notebook up to the tower. I put it away in the lighthouse keepers' iron trunk, the one under the lamp, with the old manuals and the spare wicks nobody uses anymore. I wrapped it in a cloth so it wouldn't get damp. I closed the padlock.
+I took the sketchbook up to the tower. I put it away in the lighthouse keepers' iron trunk, the one under the lamp, with the old manuals and the spare wicks nobody uses anymore. I wrapped it in a cloth so it wouldn't get damp. I closed the padlock.
 
 I went down the hundred and twelve steps with the key clenched in my fist, so tight it left a mark on my palm.
 
@@ -4091,7 +4091,7 @@ I walked for an hour. The path climbs and drops among yellow gorse, with the sea
 
 I didn't think about anything. I tried. I thought about everything.
 
-About Iter going down to the cove without a jacket. About the notebook locked in the iron trunk. About the key, which I wore around my neck on a string, under my sweater, and which I could feel cold against my skin.
+About Iter going down to the cove without a jacket. About the sketchbook locked in the iron trunk. About the key, which I wore around my neck on a string, under my sweater, and which I could feel cold against my skin.
 
 About the nine digits.
 
@@ -4345,7 +4345,7 @@ It came out as a shout. It surprised me more than him. He didn't move. He looked
 
 "Iter, I'm begging you."
 
-"I asked you not to draw me. And you don't draw me. You've put the notebook in a trunk with a padlock and you wear the key around your neck." He pointed at my chest, where the string showed under my sweater. "I'm here, with no notebook, not knowing if tomorrow I'll still love you. And you won't even let me know who's calling you."
+"I asked you not to draw me. And you don't draw me. You've put the sketchbook in a trunk with a padlock and you wear the key around your neck." He pointed at my chest, where the string showed under my sweater. "I'm here, with no sketchbook, not knowing if tomorrow I'll still love you. And you won't even let me know who's calling you."
 
 "It's my life."
 
@@ -4365,7 +4365,7 @@ I didn't think it. It came from somewhere very deep, very ugly, that I didn't kn
 
 He went still.
 
-"You're not real, Iter. You're a drawing. You're something I made in a notebook because I was alone. You have no past, you have no name, you have no right to ask me anything." My voice was shaking. All of me was shaking. "You want to know who's calling me? Someone real. Someone who exists without me."
+"You're not real, Iter. You're a drawing. You're something I made in a sketchbook because I was alone. You have no past, you have no name, you have no right to ask me anything." My voice was shaking. All of me was shaking. "You want to know who's calling me? Someone real. Someone who exists without me."
 
 Silence.
 
@@ -4904,7 +4904,7 @@ I reached the top. I knelt in front of the iron trunk. I put the key in the padl
 
 It opened.
 
-I took the notebook out of its cloth.
+I took the sketchbook out of its cloth.
 
 Iter appeared at the top of the stairs. Panting. His hands bleeding. He stopped on the last step when he saw what I was holding.
 
@@ -4914,7 +4914,7 @@ Iter appeared at the top of the stairs. Panting. His hands bleeding. He stopped 
 
 "Ada. You promised me."
 
-I opened the notebook to his page. I took the eraser out of the pocket of another man's sweatpants.
+I opened the sketchbook to his page. I took the eraser out of the pocket of another man's sweatpants.
 
 I don't know what I wanted to do. I didn't think. I only wanted him to be quiet. To stop looking at me like that. To stop knowing.
 
@@ -4966,7 +4966,7 @@ It bounced on the iron floor of the gallery, once, twice, and rolled to the edge
 
 I had no voice either.
 
-I stayed on my knees in front of the open trunk, the notebook in my hands, looking at him.
+I stayed on my knees in front of the open trunk, the sketchbook in my hands, looking at him.
 
 And he stayed standing at the top of the stairs, voiceless and with a hand made of air, looking at me.
 
@@ -5014,9 +5014,9 @@ We stayed like that a long time. Me on my knees. Him standing. The wind whistlin
 
 He was the one who moved.
 
-He crossed the gallery. He knelt in front of me, on the other side of the open notebook. He looked at me. He opened his mouth. Nothing.
+He crossed the gallery. He knelt in front of me, on the other side of the open sketchbook. He looked at me. He opened his mouth. Nothing.
 
-And then he reached out the hand he had left, the left one, and laid it on mine. The one holding the notebook.
+And then he reached out the hand he had left, the left one, and laid it on mine. The one holding the sketchbook.
 
 He didn't take it away. He left it there.
 
@@ -5096,7 +5096,7 @@ He kept looking at the back of his hand for a long time. Then he closed it into 
 
 Then he took the pencil from me.
 
-He took it from my fingers gently, with the new hand. And he took the notebook from me too. He closed it. He set it on the floor, between the two of us. And he opened it at the end. At the last blank page.
+He took it from my fingers gently, with the new hand. And he took the sketchbook from me too. He closed it. He set it on the floor, between the two of us. And he opened it at the end. At the last blank page.
 
 "What are you doing?"
 
@@ -5110,7 +5110,7 @@ He looked at me. He drew. He looked at me.
 
 It took him half an hour. Outside, night fell. I turned on my phone's flashlight so he could see, and held it over the paper with a trembling hand.
 
-When he finished, he turned the notebook toward me.
+When he finished, he turned the sketchbook toward me.
 
 It was me.
 
@@ -5324,7 +5324,7 @@ And then he opened his eyes and looked at me.
 
 And I knew him by his face, too.
 
-I had seen it once. Twenty years ago. In a notebook with black covers that my granddaughter left open on my kitchen table, one summer. A young man her age, drawn in the corner of a page, with dark eyes and a mouth about to smile.
+I had seen it once. Twenty years ago. In a sketchbook with black covers that my granddaughter left open on my kitchen table, one summer. A young man her age, drawn in the corner of a page, with dark eyes and a mouth about to smile.
 
 *He has a good person's face*, I told her. And she went red as a tomato and told me she was making him up.
 
@@ -5545,7 +5545,7 @@ She put the coffee pot on the stove. She turned around. Her eyes were red.
 
 "Iter. What I did..."
 
-"It hurt. It still hurts. And I'm angry. And I love you." I counted on my fingers, so I wouldn't forget any of them. "The three things. I don't know if I love you because of the notebook or because of me. But the other two are mine for sure."
+"It hurt. It still hurts. And I'm angry. And I love you." I counted on my fingers, so I wouldn't forget any of them. "The three things. I don't know if I love you because of the sketchbook or because of me. But the other two are mine for sure."
 
 She didn't say anything. She came to the table. She sat down across from me.
 
@@ -5565,7 +5565,7 @@ She laughed and cried at the same time. I have seen her do it several times now.
 
 Then she got up. She went up to the tower. I heard her open the iron trunk.
 
-She came down with the notebook.
+She came down with the sketchbook.
 
 She put it on the table, in front of me. On top she put the key to the padlock, with the string.
 
@@ -5573,17 +5573,17 @@ She put it on the table, in front of me. On top she put the key to the padlock, 
 
 I didn't understand.
 
-"The notebook. It's yours. I'm not going to touch it. I don't know what you have to do with it, and I'm not going to tell you. Keep it. Hide it. Burn it, if you want."
+"The sketchbook. It's yours. I'm not going to touch it. I don't know what you have to do with it, and I'm not going to tell you. Keep it. Hide it. Burn it, if you want."
 
 "If I burn it, I burn."
 
 "I know." Her voice shook. "That's why it's yours. It can't go on being mine."
 
-I looked at the notebook. The black covers. The bent corner. Her name on the first page, in her girl's handwriting.
+I looked at the sketchbook. The black covers. The bent corner. Her name on the first page, in her girl's handwriting.
 
 My whole life was inside that. And she was giving it to me.
 
-I don't know if I understood it then. I think I understand it now, while I tell it. That she wasn't giving me a notebook. She was giving me the pencil. She was giving me the only thing that made her stronger than me.
+I don't know if I understood it then. I think I understand it now, while I tell it. That she wasn't giving me a sketchbook. She was giving me the pencil. She was giving me the only thing that made her stronger than me.
 
 I took it. I put it inside my jacket, against my chest.
 
@@ -5701,7 +5701,7 @@ He didn't ask. He looked at my face.
 
 "It's him," I said.
 
-He took his jacket from the coat rack. He put it on. He touched his chest, on the inside, where he'd been carrying the notebook for three days. I didn't know he carried it there. I knew it at that moment, from the gesture.
+He took his jacket from the coat rack. He put it on. He touched his chest, on the inside, where he'd been carrying the sketchbook for three days. I didn't know he carried it there. I knew it at that moment, from the gesture.
 
 "I'm coming with you," he said.
 
@@ -5985,7 +5985,7 @@ He laughed. And he pushed me.
 
 It wasn't a blow. It was a shove on the chest, with his open hand, the way you push a curtain aside.
 
-And the notebook fell out of my jacket.
+And the sketchbook fell out of my jacket.
 
 ---
 
@@ -5999,13 +5999,13 @@ He turned the pages. Slowly. Me at twenty. Me with the scar. Me sitting on the r
 
 He looked up. He looked at my face.
 
-He looked at the notebook again.
+He looked at the sketchbook again.
 
 I saw him understand it. Or not understand it. I saw something move in his face, under the smile.
 
 "What is this?" he said. He wasn't smiling anymore. "You draw him? You've been drawing him for years? And then you find him in some village and bring him home?" He laughed, an ugly laugh, with no music. "Ada. You're sick. Do you know that? I always told you. You and your little drawings."
 
-"Give me the notebook," Ada said.
+"Give me the sketchbook," Ada said.
 
 I didn't recognize her voice.
 
@@ -6013,7 +6013,7 @@ I didn't recognize her voice.
 
 "Give it to me."
 
-And he turned around and went out the open door, into the wind, with the notebook in his hand.
+And he turned around and went out the open door, into the wind, with the sketchbook in his hand.
 
 ---
 
@@ -6023,7 +6023,7 @@ The clearing was a whirl of water and night. The wind pushed me sideways as soon
 
 He was at the edge of the cliff. Where the path to the cove starts. Where I spent a whole day shouting Ada's name.
 
-He was holding the notebook up high. The pages were flapping like a trapped bird.
+He was holding the sketchbook up high. The pages were flapping like a trapped bird.
 
 "No!" Ada shouted.
 
@@ -6091,7 +6091,7 @@ I saw him understand it. Not all at once. In layers, the way you understand bad 
 
 He turned to Ada.
 
-Ada was on her knees beside me, with her hands on mine, unable to hold them. He looked at her. It wasn't the look from the kitchen, or from the harbor, or any of the ones I had seen on him. It was the look of a child who has gotten lost in a train station and has just understood that nobody is coming to find him. He looked at her the way you look at a stranger. He knew she drew: three years calling it little drawings. What he didn't know was who. That since she was a girl, in the margins of all her notebooks, another man had been waiting for her. And that next to him she had stopped drawing him. He had never known her.
+Ada was on her knees beside me, with her hands on mine, unable to hold them. He looked at her. It wasn't the look from the kitchen, or from the harbor, or any of the ones I had seen on him. It was the look of a child who has gotten lost in a train station and has just understood that nobody is coming to find him. He looked at her the way you look at a stranger. He knew she drew: three years calling it little drawings. What he didn't know was who. That since she was a girl, in the margins of all her sketchbooks, another man had been waiting for her. And that next to him she had stopped drawing him. He had never known her.
 
 He opened his mouth. It was shaking.
 
@@ -6163,9 +6163,9 @@ A page went past me, plastered to the rock by the rain. I tore it free. A hand. 
 
 Another, farther down, caught on a gorse bush. A cloud. Just a cloud. I left it.
 
-The notebook.
+The sketchbook.
 
-Where was the notebook.
+Where was the sketchbook.
 
 ---
 
@@ -6183,7 +6183,7 @@ I grabbed it.
 
 And the wave arrived at the same moment.
 
-It didn't knock me down. It lifted me. Like a giant hand grabbing me by the waist and lifting me off the ground. I hugged the notebook to my chest with both arms and let it carry me, because letting go wasn't an option.
+It didn't knock me down. It lifted me. Like a giant hand grabbing me by the waist and lifting me off the ground. I hugged the sketchbook to my chest with both arms and let it carry me, because letting go wasn't an option.
 
 And then the wave pulled back.
 
@@ -6193,7 +6193,7 @@ And me with it.
 
 This time I wasn't afraid.
 
-It's strange to say. I remember every second and I don't remember being afraid. I remember the cold, which wasn't cold but a blow. I remember the notebook against my chest, wet, soft, like a bird. I remember thinking with total clarity: if I let go, it's gone. If I let go, he's gone.
+It's strange to say. I remember every second and I don't remember being afraid. I remember the cold, which wasn't cold but a blow. I remember the sketchbook against my chest, wet, soft, like a bird. I remember thinking with total clarity: if I let go, it's gone. If I let go, he's gone.
 
 I couldn't swim with my arms full. I kicked. I went under. I came up. I went under.
 
@@ -6225,7 +6225,7 @@ He was afraid of the sea. He had always been afraid of it. I saw it in his eyes,
 
 He'd gone in anyway.
 
-"Let go of it," he said. I don't know how, with that gray mouth. His voice came out broken, drowned, from very far away. "The notebook. Let go of it. Hold on."
+"Let go of it," he said. I don't know how, with that gray mouth. His voice came out broken, drowned, from very far away. "The sketchbook. Let go of it. Hold on."
 
 "No."
 
@@ -6247,7 +6247,7 @@ It was five meters away.
 
 He saw it too.
 
-I don't know how we got there. I know it wasn't by swimming. It was pushing, pulling, swallowing the sea, with one wave that helped us and another that nearly killed us. I know I smashed my hip against the stone and it didn't hurt. I know I grabbed the step with one hand and with the other I was still clutching the notebook.
+I don't know how we got there. I know it wasn't by swimming. It was pushing, pulling, swallowing the sea, with one wave that helped us and another that nearly killed us. I know I smashed my hip against the stone and it didn't hurt. I know I grabbed the step with one hand and with the other I was still clutching the sketchbook.
 
 And I know he pushed me from below, upward, toward the rock, out of the water.
 
@@ -6305,7 +6305,7 @@ You could barely see him. A silhouette of smoke in the shape of a man. Through h
 
 He wasn't breathing. Or he was breathing so little you couldn't tell.
 
-I knelt beside him, soaked, shaking, my knees bleeding, the notebook in my hands.
+I knelt beside him, soaked, shaking, my knees bleeding, the sketchbook in my hands.
 
 I opened it.
 
@@ -6375,7 +6375,7 @@ And when she erased my hand I watched it go. First the nails. Then the fingers. 
 
 This was the same. But all of me.
 
-All I had were my eyes. Not much. Just enough to see her kneeling beside me with the ruined notebook in her hands, her eyes searching the kitchen for something, desperate.
+All I had were my eyes. Not much. Just enough to see her kneeling beside me with the ruined sketchbook in her hands, her eyes searching the kitchen for something, desperate.
 
 "I don't have a pencil." She said it the way you say there's no air. "I dropped it in the tower. I dropped it down the stairs. I don't have..."
 
@@ -6399,7 +6399,7 @@ She took it.
 
 ---
 
-She didn't draw in the notebook. The notebook was pulp.
+She didn't draw in the sketchbook. The sketchbook was pulp.
 
 She took the blue folder from the table. She opened it to the last page. *The Boy Who Stays.* The boy on his rock, looking at the sea.
 
@@ -6481,7 +6481,7 @@ The way I waited for her in the tower. Asking me for permission with her eyes.
 
 I took her face in both hands. The one with the mark and the other one.
 
-I don't know what I wanted to say to her. Many things. That I had been afraid in the sea. That she had gone into the water for me with a notebook against her chest, in a heavy swell, the way I went in for her the day of the rocks. That the other one had watched me come apart and had left when she told him to, and that I was glad. That I loved her. That I think I loved her with a part that isn't on any paper.
+I don't know what I wanted to say to her. Many things. That I had been afraid in the sea. That she had gone into the water for me with a sketchbook against her chest, in a heavy swell, the way I went in for her the day of the rocks. That the other one had watched me come apart and had left when she told him to, and that I was glad. That I loved her. That I think I loved her with a part that isn't on any paper.
 
 Something else came out.
 
@@ -6645,9 +6645,9 @@ The jumper-cables man, in the orange rain jacket, dry now, with a plastic bag in
 
 He held out the bag.
 
-Inside there were pages. Loose pages, crumpled, soaked, stained with salt and seaweed. Seventeen. I counted them later. Pages from the notebook that the wind had torn out and the sea had left among the stones with the tide.
+Inside there were pages. Loose pages, crumpled, soaked, stained with salt and seaweed. Seventeen. I counted them later. Pages from the sketchbook that the wind had torn out and the sea had left among the stones with the tide.
 
-A cloud. Another cloud. Him at twelve with the wooden sword. Him on the dock in Hamburg. My handwriting on the first page: *This notebook belongs to Ada Koch. If you find it, please give it back to me.*
+A cloud. Another cloud. Him at twelve with the wooden sword. Him on the dock in Hamburg. My handwriting on the first page: *This sketchbook belongs to Ada Koch. If you find it, please give it back to me.*
 
 He had done it. He had found it and given it back to me.
 
@@ -6781,7 +6781,7 @@ In the afternoon I went to Cee to sign.
 
 I went alone. Julian offered to come and I said no. Not because I didn't want him there. Because this was something I had to do myself.
 
-The post smelled of vending-machine coffee and paper. A young officer, with glasses, sat me down in front of an old computer and read aloud to me what they already had: my grandmother, who had seen the gray car going up the hill; Brais, who had found it stuck by the eucalyptus. Then he asked for mine. I told him. The three knocks. The door. A notebook thrown into the sea from the cliff. He typed it all with two fingers.
+The post smelled of vending-machine coffee and paper. A young officer, with glasses, sat me down in front of an old computer and read aloud to me what they already had: my grandmother, who had seen the gray car going up the hill; Brais, who had found it stuck by the eucalyptus. Then he asked for mine. I told him. The three knocks. The door. A sketchbook thrown into the sea from the cliff. He typed it all with two fingers.
 
 "Now I need your details," he said. "And those of the accused. Full name."
 
@@ -6969,7 +6969,7 @@ It didn't take long. She hadn't really slept in days. She fell asleep in the bed
 
 I took the pencil from her. I pulled the blanket up over her. I went downstairs.
 
-The iron trunk was at the top, in the lantern, under the lamp. The same one where Ada had locked the notebook away with a padlock. It didn't have a padlock anymore. Inside there were things belonging to the keepers who lived here before her. A cap. A logbook with its covers swollen from the damp. And two manuals, in old-fashioned Spanish, with pen-and-ink drawings: *Instructions for the Lighting Service* and *On the Auxiliary Generator Set*.
+The iron trunk was at the top, in the lantern, under the lamp. The same one where Ada had locked the sketchbook away with a padlock. It didn't have a padlock anymore. Inside there were things belonging to the keepers who lived here before her. A cap. A logbook with its covers swollen from the damp. And two manuals, in old-fashioned Spanish, with pen-and-ink drawings: *Instructions for the Lighting Service* and *On the Auxiliary Generator Set*.
 
 I had read them all the way through. Three times. On the nights she slept and I didn't.
 

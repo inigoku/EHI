@@ -38,7 +38,7 @@ The Spanish is the authority. Translate everything; never summarize, cut, merge 
 - *la mujer verde* (Lucía in a green face mask) → the green woman.
 - *la de Ramiro* → Ramiro's wife.
 - *el faro* → the lighthouse; *la galería* → the gallery (the iron balcony round the lantern); *la linterna* → the lantern; *la torre* → the tower.
-- *el cuaderno* → the notebook. *el baúl* → the trunk. *la goma* → the eraser. *la contraventana* → the shutter.
+- *el cuaderno* (Ada's, where she draws) → the sketchbook, echoing the series title; Klaus's *cuaderno de hule* → the oilcloth notebook. *el baúl* → the trunk. *la goma* → the eraser. *la contraventana* → the shutter.
 - *Cuentos de Ada* → *Ada's Stories*. *El niño que se queda* → *The Boy Who Stays*.
 - *dibujitos* (Álvaro's belittling word) → "little drawings"; "Tú y tus dibujitos" → "You and your little drawings."
 - "Aaada" (Álvaro's drawn-out way of saying her name) → keep "Aaada".
