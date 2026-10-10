@@ -5,7 +5,7 @@ import base64, json, os, sys
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "..", "Los_Amantes_de_la_Espiral.md")
-ACTS = ["Primer acto · El faro", "Segundo acto · Iter", "Tercer acto · Julian"]
+ACTS = ["Primer acto · El faro", "Segundo acto · Iter", "Tercer acto · El nombre"]
 
 
 def load(path):
