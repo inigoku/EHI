@@ -6862,46 +6862,6 @@ Yo sí lo entiendo.
 
 Llevaba cinco años sin poder dejar de mirarme. No iba a empezar ese día.
 
-## Maruxa · La primera noche
-
-Klaus se murió un martes de marzo, a las cuatro y diez de la tarde, en el hospital de Cee, con la radio puesta porque quería oír el parte de la mar.
-
-De eso no voy a hablar. Eso es suyo.
-
-Voy a hablar de la primera noche.
-
-Volví a casa con mi hija. Mi hija quería quedarse conmigo en la cama. Le dije que no, que me apañaba. Le hice una tortilla que no se comió y la mandé a dormir a la habitación de arriba. Yo me fui a la nuestra.
-
-La cama estaba hecha. La había hecho yo esa mañana, antes de ir al hospital, porque Klaus decía que una cama sin hacer es una casa que se ha rendido. Su almohada tenía todavía la forma de su cabeza. No la toqué.
-
-Me acosté en mi lado, de cara a la pared, como siempre. Y cerré los ojos.
-
-Hay una cosa que no le he contado nunca a nadie. Ni a mi hija. Ni a Ada.
-
-Durante cincuenta y tres años, Klaus se despertó antes que yo. Siempre. A las cinco, a las cinco y media, la hora de los barcos. Y no se levantaba. Se quedaba mirándome dormir. Lo sé porque la primera vez que lo pillé, en Stuttgart, le pregunté qué miraba, y me dijo que miraba que yo existía.
-
-Y yo, desde entonces, cada mañana, cuando notaba que se despertaba, cerraba los ojos más fuerte y respiraba hondo y me hacía la dormida. Para que pudiera seguir mirando. Cincuenta y tres años. Nunca se lo dije. Creo que él lo sabía. Creo que hacía como que no lo sabía, para que yo pudiera seguir haciéndome la dormida.
-
-Así nos quisimos. Fingiendo los dos a la vez.
-
-Esa primera noche me desperté a las cinco. La hora de los barcos.
-
-Y no había nadie mirándome.
-
-Lo noté antes de abrir los ojos. El aire de la habitación estaba quieto de otra manera. Nadie respiraba al otro lado. Nadie esperaba.
-
-Me quedé con los ojos cerrados mucho rato, haciéndome la dormida. Por costumbre. Por si acaso.
-
-Luego los abrí.
-
-Y lloré. No por él. Él estaba donde estaba. Lloré por mí. Porque me había pasado la vida fingiendo estar dormida para que alguien pudiera mirarme, y ahora ya no hacía falta fingir, y no sabía qué hacer con los ojos abiertos.
-
-Me levanté. Hice café. Dos tazas, sin pensar. Me bebí las dos.
-
-Seis años llevo así. Despertándome a las cinco, abriendo los ojos en una habitación donde nadie me mira.
-
-Y seis años sin cantar. Porque cantar también era una manera de dejar que me mirara.
-
 ## 30 · Julian
 
 Me llamo Julian.
@@ -7121,6 +7081,14 @@ Me llamo Julian. Es la duodécima vez que lo digo. Hoy lo he dicho solo para mí
 ### Maruxa · Costa da Morte, hoy
 
 Non durmo ben desde que morreu Klaus. Seis anos.
+
+Cincuenta y tres años se despertó antes que yo. A las cinco, la hora de los barcos. Y no se levantaba: se quedaba mirándome dormir, como aquella mañana de Stuttgart. Yo, cada vez que lo notaba despierto, cerraba los ojos más fuerte y me hacía la dormida, para que pudiera seguir mirando. Nunca se lo dije. Creo que él lo sabía, y hacía como que no, para que yo pudiera seguir fingiendo.
+
+Así nos quisimos. Fingiendo los dos a la vez.
+
+La primera noche sin él volví del hospital a una cama que había hecho yo por la mañana, porque Klaus decía que una cama sin hacer es una casa que se ha rendido. Me desperté a las cinco y no había nadie mirándome. Lo noté antes de abrir los ojos: el aire de la habitación estaba quieto de otra manera. Me quedé mucho rato haciéndome la dormida. Por costumbre. Por si acaso. Luego me levanté e hice café. Dos tazas, sin pensar. Me bebí las dos.
+
+Tampoco he vuelto a cantar. Cantar también era una manera de dejar que me mirara.
 
 Me levanto a las tres, a las cuatro, y me siento en la ventana de la cocina con la luz apagada, a mirar el puerto. Las barcas. El espigón. El monte negro contra el cielo negro. Y arriba del monte, donde acaba la tierra, el faro.
 
