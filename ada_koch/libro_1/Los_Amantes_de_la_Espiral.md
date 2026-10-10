@@ -7088,8 +7088,6 @@ Así nos quisimos. Fingiendo los dos a la vez.
 
 La primera noche sin él volví del hospital a una cama que había hecho yo por la mañana, porque Klaus decía que una cama sin hacer es una casa que se ha rendido. Me desperté a las cinco y no había nadie mirándome. Lo noté antes de abrir los ojos: el aire de la habitación estaba quieto de otra manera. Me quedé mucho rato haciéndome la dormida. Por costumbre. Por si acaso. Luego me levanté e hice café. Dos tazas, sin pensar. Me bebí las dos.
 
-Tampoco he vuelto a cantar. Cantar también era una manera de dejar que me mirara.
-
 Me levanto a las tres, a las cuatro, y me siento en la ventana de la cocina con la luz apagada, a mirar el puerto. Las barcas. El espigón. El monte negro contra el cielo negro. Y arriba del monte, donde acaba la tierra, el faro.
 
 Apagado. Siempre apagado. Desde el ochenta y siete.
