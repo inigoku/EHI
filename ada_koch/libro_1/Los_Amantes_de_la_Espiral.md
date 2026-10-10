@@ -3680,12 +3680,6 @@ Se calló. Me pasó el dedo por la ceja, muy despacio.
 
 Me quedé muy quieta, dejándome mirar, mientras la luz de la ventana iba pasando de gris a blanca y los tranvías empezaban a sonar en la calle.
 
-En cincuenta y tres años me miró así muchas mañanas. Yo siempre fingía estar dormida, para que pudiera seguir haciéndolo.
-
-Ahora que no está, a veces me despierto a las cinco con la sensación de que alguien me mira.
-
-No abro los ojos. Por si acaso.
-
 ## 16 · Ada
 
 Lucía me mandó cuarenta y tres mensajes en una hora.
