@@ -18,7 +18,7 @@ Puse los pies en el suelo y el frío de las baldosas me subió por las piernas. 
 
 Cogí el móvil para mirar la boya. Trece grados.
 
-Sonreí sola. Mi abuela diría que estoy tola. Que bañarse en octubre es cosa de locas y de alemanes. Como yo soy medio alemana, lo tengo medio perdonado.
+Sonreí sola. Mi abuela diría que estoy tola. Que bañarse en octubre es cosa de locas y de alemanes. Como yo tengo un cuarto de alemana, lo tengo un cuarto perdonado.
 
 ---
 
@@ -66,7 +66,7 @@ Soy meteoróloga. Trabajo desde la cocina, con tres monitores sobre la mesa de m
 
 Me hice un café con leche y abrí el modelo europeo.
 
-Cada noche se lanza cincuenta y una veces, cada vez con los datos un poco cambiados, para ver cuánto puede equivocarse. Se llaman iteraciones. Normalmente se separan como los hilos de una trenza deshecha. Me gusta mirarlas. Me gusta pensar que el futuro tiene cincuenta y una formas y que una sola llegará a pasar.
+Cada noche se lanza cincuenta y una veces, cada vez con los datos un poco cambiados, para ver cuánto puede equivocarse. En el oficio se llaman miembros del ensemble. Yo los llamo iteraciones, desde la facultad, porque me suena a algo que vuelve. Normalmente se separan como los hilos de una trenza deshecha. Me gusta mirarlas. Me gusta pensar que el futuro tiene cincuenta y una formas y que una sola llegará a pasar.
 
 Aquella mañana casi todas apuntaban al mismo sitio. Aquí.
 
@@ -358,13 +358,19 @@ Porque esa es la parte que yo más quiero. No la boda. No el final feliz. Esa. U
 
 —Estuvimos juntos cinco años allí —siguió—. Y luego tu bisabuela se puso mala y yo tuve que volver. Le dije que lo entendía si no venía. Que era otro país, otra lengua, otra vida. Que no le pedía nada.
 
-—Y vino.
+—¿Y?
 
-—Tres semanas después. Llamó a la puerta de casa de mis padres con una maleta de cartón y un diccionario. Mi padre casi le pega, porque pensaba que era un vendedor. —Se rió otra vez, y luego se puso seria—. Y me dijo que su casa era donde estuviera yo. Que ya había vivido bastante lejos de su casa.
+Se levantó a mirar la masa.
+
+—Y eso ya otro día, que se me pasa la empanada.
+
+Siempre hace lo mismo. Llega al andén de Stuttgart, a ella sola con la maleta, y se levanta. Me lo ha contado mil veces y nunca me ha contado esa parte. Sé que él vino, porque está en la foto del aparador y porque yo me apellido Koch. Pero no sé cómo. Ni cuándo. Ni si dudó. Cuando se lo pregunto, se ríe y me dice que hay cosas que no se cuentan, que se cantan, y que yo ya no canto.
+
+Koch es el apellido de mi madre. Lo llevo delante desde el invierno en que mi padre se fue a Vigo. Mi madre fue al registro esa misma semana y pidió que le dieran la vuelta a mis apellidos. El de mi padre se quedó detrás, donde no se ve. No lo he echado de menos ni un día.
 
 Nos quedamos calladas. Fuera, el viento hacía vibrar los cristales.
 
-Cuando era pequeña, pensaba que el amor era eso. Que algún día alguien cruzaría media Europa con una maleta de cartón para llamar a mi puerta. Ahora tengo treinta y dos años y ya no lo pienso. O lo pienso, pero me da vergüenza pensarlo.
+Cuando era pequeña, pensaba que el amor era eso. Que algún día alguien cruzaría media Europa para llamar a mi puerta. Ahora tengo treinta y dos años y ya no lo pienso. O lo pienso, pero me da vergüenza pensarlo.
 
 —¿Y tú? —preguntó mi abuela de repente.
 
@@ -746,7 +752,7 @@ Soy meteoróloga. Tenía encima de la cabeza la borrasca más grande del año. N
 
 ---
 
-El barómetro de la pared, el viejo de aguja que venía con la casa, marcaba una presión que no le había visto nunca. Había caído treinta y dos milibares en veinticuatro horas. Para que una borrasca se considere explosiva bastan veinticuatro.
+El barómetro de la pared, el viejo de aguja que venía con la casa, marcaba una presión que no le había visto nunca. Había caído treinta y dos milibares en veinticuatro horas. A esta latitud, para que una borrasca se considere explosiva, bastan diecinueve.
 
 Era un monstruo. Un monstruo precioso.
 
@@ -856,7 +862,7 @@ Las velas se fueron gastando. La estufa también. No me levanté a echarle leña
 
 Pensé en mi abuela, sola en su casa de ventanas azules. La imaginé sentada en su cocina con la radio de pilas, rezando bajito, o no rezando, o cantando sin darse cuenta como cantaba en la fábrica de Stuttgart.
 
-Pensé en mi abuelo llamando a su puerta con una maleta de cartón.
+Pensé en mi abuelo, que un día llamó a la puerta de mi abuela de una manera que ella nunca me ha querido contar.
 
 Fue él quien me enseñó las nubes.
 
@@ -1002,7 +1008,7 @@ Y yo era la única casa en dos kilómetros.
 
 Pensé también, durante un instante absurdo, en Madrid.
 
-En las tres palabras del mensaje. En alguien que se sube a un coche de noche y conduce seiscientos kilómetros para llamar a mi puerta, como mi abuelo llamó a la de mi abuela con su maleta de cartón.
+En las tres palabras del mensaje. En alguien que se sube a un coche de noche y conduce seiscientos kilómetros para llamar a mi puerta, como mi abuelo, de alguna manera, llamó un día a la de mi abuela.
 
 No supe si lo que sentí fue esperanza o miedo. No me paré a averiguarlo.
 
@@ -1213,8 +1219,6 @@ Lo vi alejarse por la nave vacía, alto, con la cabeza un poco agachada para no 
 Y yo, que llevaba nueve meses huyendo de esa mirada, se la sostuve.
 
 Era él.
-
-Era el niño de la roca. El que se queda.
 
 ## 6 · Ada
 
@@ -1960,7 +1964,7 @@ Abrí las iteraciones. Las cincuenta y una versiones del modelo, cada una con su
 
 —Cincuenta y un futuros.
 
-—Cincuenta y una iteraciones. Así las llamamos. Las miras todas juntas y ves cuáles se parecen y cuáles se separan. Así sabes cuánto puedes fiarte.
+—Cincuenta y una iteraciones. Así las llamo yo. Los demás dicen miembros del ensemble, que suena a orquesta. Las miras todas juntas y ves cuáles se parecen y cuáles se separan. Así sabes cuánto puedes fiarte.
 
 Se quedó mirando las líneas mucho rato. Con el ceño un poco fruncido. Con esa concentración suya que empezaba a conocer.
 
@@ -2534,7 +2538,7 @@ Seguía en el último escalón. Pero ya no miraba el mar. Me miraba a mí. Con l
 
 Entonces llegó la ola.
 
-No era grande. Era una ola de fondo, de esas que deja el temporal, que se levanta de la nada en una cala tranquila. Me pilló de lado, me hundió, me revolcó contra la arena. Tragé agua. Salí tosiendo, riendo, con el pelo en la cara, perfectamente bien.
+No era grande. Era una ola de fondo, de esas que deja el temporal, que se levanta de la nada en una cala tranquila. Me pilló de lado, me hundió, me revolcó contra la arena. Tragué agua. Salí tosiendo, riendo, con el pelo en la cara, perfectamente bien.
 
 Y lo vi venir corriendo.
 
@@ -2666,7 +2670,7 @@ Klaus estaba en la orilla, con los pantalones remangados hasta las rodillas, sin
 
 Un hombre de dos metros, que había apuntado en un cuaderno hasta el minuto del baño, y no sabía nadar.
 
-Me reí tanto que tragé agua.
+Me reí tanto que tragué agua.
 
 Ese día no salió nada como estaba escrito. Fue el mejor día de mi vida en Alemania.
 
@@ -3874,7 +3878,7 @@ Era precioso. Sencillo, de plata, con una piedrecita azul.
 
 Y pensé en mi madre.
 
-En las cartas. Dieciocho meses de cartas en las que yo no había escrito su nombre ni una sola vez. *Aquí hace frío. Como bien. El trabajo es el mismo.* En que si me casaba, tendría que contárselo todo de golpe. Que había un hombre. Que era alemán. Que era protestante. Que le había mentido.
+En las cartas. Casi tres años de cartas en las que yo no había escrito su nombre ni una sola vez. *Aquí hace frío. Como bien. El trabajo es el mismo.* En que si me casaba, tendría que contárselo todo de golpe. Que había un hombre. Que era alemán. Que era protestante. Que le había mentido.
 
 Pensé en la cara de mi madre leyendo esa carta en la cocina de leña.
 
@@ -4880,7 +4884,7 @@ No contesté. No hacía falta.
 
 Se quedó inmóvil. El viento le movía la ropa mojada, el pelo. Las manos le goteaban sangre sobre la hierba.
 
-—A mí me dijiste que no era real —dijo, muy bajo—. Y a él, que no es nada tuyo, se lo has dado.
+—A mí me dijiste que no era real —dijo, muy bajo—. Y a él se lo cuentas.
 
 ---
 
@@ -5328,7 +5332,7 @@ Hay cosas que una tiene que encontrarse sola.
 
 ---
 
-## 23 · Ada (continúa)
+### Ada · El faro, hoy
 
 Abrí la boca para mentir.
 
@@ -5478,7 +5482,7 @@ Ada me dijo que no había que hacerle caso. Que los perros a veces se asustan de
 
 No le creí.
 
-Yo he visto a esa perra tumbarse panza arriba para una desconocida en la arena. Desde la galería. Lo vi todo. Una perra así no le enseña los dientes a nadie por nada.
+Ada me contó que esa perra se tumbó panza arriba para ella en la arena de la playa grande, sin conocerla de nada. Una perra así no le enseña los dientes a nadie por nada.
 
 Me enseñó los dientes a mí.
 
@@ -6336,7 +6340,7 @@ Rojo hasta las orejas.
 
 Se me cayeron los platos.
 
-Klaus me vio por encima de la cabeza de mi padre. Se puso todavía más rojo. Abrió el diccionario, temblando, por una página marcada con un papelito. Leyó en voz alta, despacio, con sus erres de piedra, una frase que había preparado durante tres semanas y mil quinientos kilómetros.
+Klaus me vio por encima de la cabeza de mi padre. Se puso todavía más rojo. Abrió el diccionario, temblando, por una página marcada con un papelito. Leyó en voz alta, despacio, con sus erres de piedra, una frase que había preparado durante seis semanas y mil quinientos kilómetros.
 
 —Mi casa es donde está Maruxa.
 
@@ -6424,7 +6428,7 @@ La marca que me hice yo. La que elegí. La dibujó porque la ha visto, porque la
 
 Noté cómo volvía. En el sitio exacto.
 
-La cicatriz del alambre no la dibujó. No podía. Esa la borró ella misma en la torre, y no la vio volver, porque no volvió. Los cortes de las rocas tampoco. Se perdieron con la mano en la galería.
+La cicatriz del alambre también la dibujó. Esa la perdí en la galería, cuando me devolvió la mano desde el papel. Ahora la dibujaba desde lo que había visto. Pequeña, en el nudillo. Y volvió. Los cortes de las rocas no: esos no los vio nunca, me los curé solo, de noche.
 
 Eso también está bien. Eso también es verdad.
 
@@ -6574,11 +6578,11 @@ Yo había preparado un discurso. Lo había ensayado a las cuatro de la madrugada
 
 No me salió nada de eso.
 
-—Hay una figura matemática —dije—. Un fractal. Se llama el conjunto de Julia. Cuando la dibujas, cambia entera según el punto del que partes. Nunca sale igual dos veces. Puedes pasarte la vida dibujándola y siempre te sorprende.
+—Hay una figura matemática —dije—. Un fractal. Se llama el conjunto de Julia. Depende de un número. Cambias ese número un poquito, una cifra de nada, y sale una figura completamente distinta. Como los modelos del tiempo. Puedes pasarte la vida dibujándola y siempre te sorprende.
 
 Él escuchaba con el ceño un poco fruncido. Como escucha las nubes.
 
-—Tú tampoco sales igual dos veces —dije—. Llevo un mes intentando dibujarte y me sorprendes cada mañana.
+—Contigo me pasa lo mismo —dije—. Cambia una cosa de nada y eres otro. Llevo un mes intentando dibujarte y me sorprendes cada mañana.
 
 Tragué saliva.
 
@@ -6628,7 +6632,7 @@ Lo había hecho. Lo había encontrado y me lo había devuelto.
 
 No pude hablar.
 
-—El de Madrid pasó la noche en el cuartel de Cee —dijo él, mirando al mar, como quien da el parte del tiempo—. Allanamiento. Tu abuela ya ha ido a declarar. Dicen que tienes que ir tú también, a firmar.
+—El de Madrid pasó la noche en el cuartel de Cee —dijo él, mirando al mar, como quien da el parte del tiempo—. Allanamiento. Tu abuela ya ha ido a declarar lo del coche, y yo lo del eucalipto. Lo de dentro solo lo puedes contar tú. Tienes que ir a Cee.
 
 —Iré —dije.
 
@@ -6694,9 +6698,9 @@ No lo dijo como en la galería, con esa constatación que me heló la sangre. Lo
 
 Me cogió de la mano. La de la marca en la mía.
 
-—Mañana es miércoles —dijo.
+—El miércoles —dijo.
 
-—¿Y?
+—¿Qué pasa el miércoles?
 
 —Tu abuela hace empanada. —Me miró, muy serio—. Para tres.
 
@@ -6730,7 +6734,7 @@ Por la tarde fui a Cee a firmar.
 
 Fui sola. Julian se ofreció a venir y le dije que no. No porque no lo quisiera allí. Porque esto tenía que hacerlo yo.
 
-El cuartel olía a café de máquina y a papel. Un guardia joven, con gafas, me hizo sentar delante de un ordenador viejo y me leyó en voz alta la declaración de mi abuela. Allanamiento. Daños. Un cuaderno arrojado al mar desde el acantilado. Lo escribía todo con dos dedos.
+El cuartel olía a café de máquina y a papel. Un guardia joven, con gafas, me hizo sentar delante de un ordenador viejo y me leyó en voz alta lo que ya tenían: mi abuela, que había visto el coche gris subir la cuesta; Brais, que lo había encontrado atascado junto al eucalipto. Luego me pidió lo mío. Se lo conté. Los tres golpes. La puerta. Un cuaderno arrojado al mar desde el acantilado. Lo escribía todo con dos dedos.
 
 —Ahora necesito sus datos —dijo—. Y los del denunciado. Nombre completo.
 
@@ -6778,7 +6782,7 @@ Al salir, en el aparcamiento, con el viento del noroeste en la cara, lo dije una
 
 Nada. Se lo llevó el viento, como se lo lleva todo aquí.
 
-Volví por la carretera de la costa con la ventanilla bajada, aunque hacía frío. No me acordé de él hasta Corcubón. Y solo para darme cuenta de que no me había acordado.
+Volví por la carretera de la costa con la ventanilla bajada, aunque hacía frío. No me acordé de él hasta Corcubión. Y solo para darme cuenta de que no me había acordado.
 
 ---
 
@@ -6790,7 +6794,7 @@ Mi madre vino. En silla de ruedas, empujada por mi hermana, con un vestido azul 
 
 Mi padre me llevó del brazo hasta el altar con el traje de los entierros y una cara de no haber dormido en tres noches. Cuando llegamos, le dio mi mano a Klaus y le dijo, en gallego, delante de todo el pueblo:
 
-—Coidámola, alemán.
+—Cóidama, alemán.
 
 Cuídamela.
 
@@ -6876,7 +6880,7 @@ Ada iba callada. Le cogí la mano. La apretó.
 
 —¿Y cantaba?
 
-Se rió. Por primera vez en tres días. Con la cabeza echada hacia atrás.
+Se rió. Por primera vez en una semana. Con la cabeza echada hacia atrás.
 
 —Fatal. Cantaba fatal. Pero se quedó.
 
@@ -6884,11 +6888,11 @@ Se rió. Por primera vez en tres días. Con la cabeza echada hacia atrás.
 
 Aquella noche esperé a que se durmiera.
 
-No tardó. Llevaba tres días sin dormir de verdad. Se quedó dormida en la cama de arriba con el lápiz rojo todavía en la mano y la hoja de *El niño que se queda* boca abajo en la mesilla, conmigo dibujado por detrás.
+No tardó. Llevaba días sin dormir de verdad. Se quedó dormida en la cama de arriba con el lápiz rojo todavía en la mano y la hoja de *El niño que se queda* boca abajo en la mesilla, conmigo dibujado por detrás.
 
 Le quité el lápiz. Le subí la manta. Bajé.
 
-El baúl de hierro estaba en el cuarto de las herramientas, debajo de la escalera de caracol. Ada lo había abierto el primer día y lo había vuelto a cerrar. Dentro había cosas de los fareros que vivieron aquí antes que ella. Una gorra. Un libro de registro con las tapas hinchadas por la humedad. Y dos manuales, en castellano antiguo, con dibujos a plumilla: *Instrucciones para el servicio del alumbrado* y *Del grupo electrógeno auxiliar*.
+El baúl de hierro estaba arriba, en la linterna, debajo de la lámpara. El mismo donde Ada había encerrado el cuaderno con candado. Ya no tenía candado. Dentro había cosas de los fareros que vivieron aquí antes que ella. Una gorra. Un libro de registro con las tapas hinchadas por la humedad. Y dos manuales, en castellano antiguo, con dibujos a plumilla: *Instrucciones para el servicio del alumbrado* y *Del grupo electrógeno auxiliar*.
 
 Los había leído enteros. Tres veces. Las noches que ella dormía y yo no.
 
@@ -6896,7 +6900,7 @@ No sé por qué. Creo que ya entonces sabía que algún día iba a querer hacer 
 
 ---
 
-El generador estaba en la caseta de atrás. Oxidado. Con una capa de polvo y de nidos.
+El grupo auxiliar de la lámpara estaba en la caseta de atrás. No el pequeño de la casa, el que Ada enciende cada vez que se va la luz: el otro, el grande, el que nadie había arrancado desde el ochenta y siete. Oxidado. Con una capa de polvo y de nidos.
 
 Lo limpié. Le cambié el aceite con una lata que había en la estantería y que olía a viejo pero servía. Purgué el gasoil. Comprobé los cables uno a uno, con la linterna en la boca, como explicaba el dibujo de la página cuarenta.
 
@@ -6924,7 +6928,7 @@ Subí los ciento doce escalones de la torre.
 
 Los conté. Los había subido muchas veces con ella, de día, para mirar el mar. Nunca de noche. Nunca solo.
 
-Arriba, la linterna. La lente grande, de cristal tallado en anillos, como una cebolla de vidrio del tamaño de un hombre. Ada la limpiaba los domingos con un trapo y vinagre. Decía que era la cosa más bonita que había visto nunca. Decía que nadie la había encendido desde 1987, cuando automatizaron el de Fisterra y este se quedó sin oficio.
+Arriba, la linterna. La lente grande, de cristal tallado en anillos, como una cebolla de vidrio del tamaño de un hombre. Ada le había quitado la funda la semana anterior, para enseñármela. Decía que era la cosa más bonita que había visto nunca. Decía que nadie la había encendido desde 1987, cuando automatizaron el de Fisterra y este se quedó sin oficio.
 
 Cerré el circuito. Como decía la página doce.
 
@@ -6974,7 +6978,7 @@ Miré abajo. Al pueblo. A una ventana pequeña del puerto, la única que seguía
 
 ---
 
-Nos sentamos en el suelo de hierro, espalda contra espalda, como en el muelle de Hamburgo de su dibujo. El generador ronroneaba abajo. El mar respiraba. La luz giraba.
+Nos sentamos en el suelo de hierro, espalda contra espalda. El generador ronroneaba abajo. El mar respiraba. La luz giraba.
 
 —Algún día lo encenderé yo —dijo ella, de pronto.
 
