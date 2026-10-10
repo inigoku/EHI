@@ -22,7 +22,7 @@ I smile to myself. My grandmother would say I'm *tola*. That swimming in October
 
 ---
 
-The path down to the cove runs between heather and loose stones. At this hour it's still night, so I wear a head torch, like a miner. I know by heart the three spots where, if you put a foot wrong, you go over. The first few months I went down with my heart in my mouth. Now I go down thinking about other things.
+The path down to the geo runs between heather and loose stones. On the Ordnance Survey map it says *Selkie Geo*; nobody here calls it anything but the geo, a cleft in the cliff with a scrap of shingle at the bottom. At this hour it's still night, so I wear a head torch, like a miner. I know by heart the three spots where, if you put a foot wrong, you go over. The first few months I went down with my heart in my mouth. Now I go down thinking about other things.
 
 It smells of salt, of seaweed, of wet heather. It smells of cold.
 
@@ -290,7 +290,7 @@ I hold on to her a little longer than usual. She just pats my back, like when I 
 
 'Liar. Your hair's wet.'
 
-I laugh. It's true. I went down to the cove at seven, though the sea was already too rough to swim far. I only went in up to my waist. But I went in.
+I laugh. It's true. I went down to the geo at seven, though the sea was already too rough to swim far. I only went in up to my waist. But I went in.
 
 'You're *tola*,' she says, and pushes me towards the kitchen. 'Just like your grandfather.'
 
@@ -520,7 +520,7 @@ It's a routine I've learnt the hard way, winter by winter, even though I've only
 
 I work with the wind against me, my hair a mess, my cheeks burning with cold and my hands full of splinters. I like it. There's something about getting a house ready for a storm that makes you feel the house is truly yours. That you're protecting it. That it's protecting you.
 
-Before it gets dark I go down to the cove one last time.
+Before it gets dark I go down to the geo one last time.
 
 Not to swim. The sea is already too rough, with waves reaching the rock where I leave my towel and pulling back, dragging stones with a sound like teeth. I go down only to look at it. To say goodbye to it calmly, the way you say goodbye to someone before a fight you know is going to happen.
 
@@ -534,7 +534,7 @@ I freeze.
 
 It's the rock. The one from my first drawing, when I was nine. The rock where the boy sat to look at the sea. With its round shape and its step, identical, as if I'd traced it.
 
-It can't be. At nine I had never been out to Breckness. Holidays at my grandmother's were down by the harbour, or at Warebeth, on the town side of the headland. I had never climbed up to the lighthouse. I had never come down to this cove.
+It can't be. At nine I had never been out to Breckness. Holidays at my grandmother's were down by the harbour, or at Warebeth, on the town side of the headland. I had never climbed up to the lighthouse. I had never come down to this geo.
 
 I tell myself all rocks look alike. That my memory is playing tricks on me, the way it always does. That I'm cold and tired and have spent two days thinking about him too much.
 
@@ -804,7 +804,7 @@ Now nobody looks for it. And I'm up here, alone, watching the storm from inside 
 
 Before I go down I do something I haven't done in a year.
 
-I untie one of the ropes of the cover and lift the canvas by a corner.
+I untie one of the ropes of the geor and lift the canvas by a corner.
 
 Underneath is the lens. I've never seen it up close. It's huge, taller than me, a glass beehive made of stacked rings and prisms, hundreds of pieces cut by hand surrounding an empty space in the centre, where the light used to be. Even though nothing is lit, the glass gathers the little grey daylight of the storm and gives it back multiplied, in reflections that tremble on my hands and on my face.
 
@@ -1910,7 +1910,7 @@ He rests the palm of his hand on the glass.
 
 I go over and stand beside him. So close that our arms brush through the wool. Neither of us moves away.
 
-'It's the same one,' I tell him. 'When the storm passes, I'll take you to the cove. I'll teach you to swim.'
+'It's the same one,' I tell him. 'When the storm passes, I'll take you to the geo. I'll teach you to swim.'
 
 'Is it cold?'
 
@@ -2421,7 +2421,7 @@ She said nothing more. But I slept the way I hadn't slept in months.
 
 It takes me three days to take him to the sea.
 
-Not because of him. Because of the sea. After a storm like that, the cove takes a while to settle. The water stays murky, churned up, with a groundswell that pulls at your ankles even when the surface looks calm. I know because I check it every morning from the window, with my coffee, while he sleeps on the sofa with his feet hanging off the end.
+Not because of him. Because of the sea. After a storm like that, the geo takes a while to settle. The water stays murky, churned up, with a groundswell that pulls at your ankles even when the surface looks calm. I know because I check it every morning from the window, with my coffee, while he sleeps on the sofa with his feet hanging off the end.
 
 That's new too. That he sleeps. The second night he fell asleep sitting up, his head against the back of the chair, and I put the blanket over him and he didn't wake. He breathed with his mouth a little open. His eyelashes were impossibly long.
 
@@ -2447,7 +2447,7 @@ We go down the path in single file, me in front. I show him the three places whe
 
 Halfway down, I realise he isn't following me any more.
 
-I turn round. He has stopped at the bend where you can see the whole cove. He's standing still, his hands in the pockets of his new trousers, looking at the water.
+I turn round. He has stopped at the bend where you can see the whole geo. He's standing still, his hands in the pockets of his new trousers, looking at the water.
 
 'Are you coming?'
 
@@ -2457,7 +2457,7 @@ He doesn't move.
 
 ---
 
-There's an odd silence in the cove, a Sunday silence. Not even gulls. Only the water breaking softly on the shore, with a sound like pots and pans.
+There's an odd silence in the geo, a Sunday silence. Not even gulls. Only the water breaking softly on the shore, with a sound like pots and pans.
 
 I leave the towel on my rock. I take off my coat, my boots, my jumper. I stand there in my swimsuit with goosebumps all over and turn towards him; he's still on the last step of the path, ten yards from the water, with his trainers on.
 
@@ -2511,7 +2511,7 @@ He says it so calmly. So clearly. I stare at him with my mouth open.
 
 'Of course I know. I know you.'
 
-It slips out. I realise as soon as I've said it. He looks at me for the first time since we reached the cove, with something new in his eyes.
+It slips out. I realise as soon as I've said it. He looks at me for the first time since we reached the geo, with something new in his eyes.
 
 'You know my face,' he says.
 
@@ -2541,7 +2541,7 @@ He's still on the last step. But he isn't looking at the sea any more. He's look
 
 Then the wave comes.
 
-It isn't big. It's a groundswell wave, the kind the storm leaves behind, that rises out of nowhere in a calm cove. It catches me from the side, pulls me under, tumbles me against the sand. I swallow water. I come up coughing, laughing, my hair in my face, perfectly fine.
+It isn't big. It's a groundswell wave, the kind the storm leaves behind, that rises out of nowhere in a calm geo. It catches me from the side, pulls me under, tumbles me against the sand. I swallow water. I come up coughing, laughing, my hair in my face, perfectly fine.
 
 And I see him coming at a run.
 
@@ -2567,7 +2567,7 @@ And then he sneezes. In my face.
 
 I laugh so hard I have to hold on to him to keep from going under.
 
-The cold, the fright, the tension, all of it bursts out of me in a peal of laughter that echoes round the whole cove. He watches me laugh with an offended look, his hair plastered to his forehead and his brows drawn together, and that makes me laugh even harder.
+The cold, the fright, the tension, all of it bursts out of me in a peal of laughter that echoes round the whole geo. He watches me laugh with an offended look, his hair plastered to his forehead and his brows drawn together, and that makes me laugh even harder.
 
 'It's not funny,' he says.
 
@@ -2595,7 +2595,7 @@ Not to swim. To look at him.
 
 We climb the path in silence. Him in front this time, the towel over his shoulders like a cape, leaving a trail of water on the stones.
 
-At the bend where you can see the cove, he stops. He turns to look at the sea, smooth again now, innocent, as if nothing had happened.
+At the bend where you can see the geo, he stops. He turns to look at the sea, smooth again now, innocent, as if nothing had happened.
 
 'Tomorrow,' he says.
 
@@ -3117,7 +3117,7 @@ I don't think about it much. If I thought about it, I wouldn't do it. I turn the
 
 And I finish it.
 
-Two strokes. One on each side. The corner lifting all the way. A little shading on the cheek, where the dimple shows when he laughs. A whole smile, open, the one I saw on him in the water of the cove before he sneezed.
+Two strokes. One on each side. The corner lifting all the way. A little shading on the cheek, where the dimple shows when he laughs. A whole smile, open, the one I saw on him in the water of the geo before he sneezed.
 
 I look up.
 
@@ -3483,7 +3483,7 @@ His hands on the wire of the shutter.
 
 Four holding.
 
-His face in the water of the cove, his hair plastered to his forehead.
+His face in the water of the geo, his hair plastered to his forehead.
 
 Four out.
 
@@ -3901,7 +3901,7 @@ But he never took the ring out of his coat pocket. I could hear it clink against
 
 For four days we're happy.
 
-There's no other way to say it. Four days of kisses in the kitchen with the coffee pot bubbling. Of kisses on the tower stairs, on step fifty-seven, which has become our step because that's where he caught up with me the first time I ran up. Of kisses in the cove, with the water up to our knees, him shivering with cold and denying he's cold.
+There's no other way to say it. Four days of kisses in the kitchen with the coffee pot bubbling. Of kisses on the tower stairs, on step fifty-seven, which has become our step because that's where he caught up with me the first time I ran up. Of kisses in the geo, with the water up to our knees, him shivering with cold and denying he's cold.
 
 He learns to swim. Badly. Like a dog. But he learns.
 
@@ -4037,7 +4037,7 @@ I get up. I pick up the cups, both of them, even though his is half full. I take
 
 He doesn't answer.
 
-When I turn off the tap and turn round, he isn't in the kitchen any more. I hear the front door. Through the window I see him going down the path to the cove, his hands in his pockets, no jacket, towards the sea that frightens him.
+When I turn off the tap and turn round, he isn't in the kitchen any more. I hear the front door. Through the window I see him going down the path to the geo, his hands in his pockets, no jacket, towards the sea that frightens him.
 
 The phone vibrates on the worktop.
 
@@ -4087,7 +4087,7 @@ And I didn't fully understand it until many years later, the day of his funeral,
 
 ## 18 · Ada
 
-I don't follow him to the cove. I put on my boots and my coat and go out the other way, along the cliff path that runs east, towards Warebeth.
+I don't follow him to the geo. I put on my boots and my coat and go out the other way, along the cliff path that runs east, towards Warebeth.
 
 I need to walk. I need the wind in my face until the message goes out of my head. *Can I ring you? It's important.*
 
@@ -4095,7 +4095,7 @@ I walk for an hour. The path climbs and drops through the heather, with the sea 
 
 I don't think about anything. I try to. I think about everything.
 
-About Iter going down to the cove without a jacket. About the sketchbook locked in the iron trunk. About the key, which I wear round my neck on a string, under my jumper, and which I can feel cold against my skin.
+About Iter going down to the geo without a jacket. About the sketchbook locked in the iron trunk. About the key, which I wear round my neck on a string, under my jumper, and which I can feel cold against my skin.
 
 About the nine digits.
 
@@ -4201,7 +4201,7 @@ I don't ask.
 
 'Thanks,' I say, just that.
 
-'It's slack water at dawn tomorrow,' he says, looking out through the windscreen. 'I'm diving off the rocks in your cove. There's good scallops there. In case you see a man going over the side of a boat and get a fright.'
+'It's slack water at dawn tomorrow,' he says, looking out through the windscreen. 'I'm diving off the rocks in your geo. There's good scallops there. In case you see a man going over the side of a boat and get a fright.'
 
 'I won't get a fright.'
 
@@ -4409,7 +4409,7 @@ I don't look at the buoy.
 
 The path is wet. The wind pushes at my back. It's still dark.
 
-In the cove, the sea looks calm.
+In the geo, the sea looks calm.
 
 Looks.
 
@@ -4431,7 +4431,7 @@ I swim harder. Further. Towards *a Vella*.
 
 Halfway there I feel the water pulling.
 
-Not towards the shore. Outwards. Towards the side of the rock, where the cove opens onto the Sound. A slow, enormous current that can't be seen from above and that takes hold of my legs like a hand.
+Not towards the shore. Outwards. Towards the side of the rock, where the geo opens onto the Sound. A slow, enormous current that can't be seen from above and that takes hold of my legs like a hand.
 
 I turn round to go back.
 
@@ -4539,7 +4539,7 @@ The air goes in like a knife. Everything hurts. My lungs, my throat, my ribs. I 
 
 A voice above me. Hoarse, broken, out of breath.
 
-I open my eyes. Everything is grey and blurred and full of salt. But I see the orange. An orange drysuit, streaming, on a body kneeling beside me on the stones of the cove. I see a bearded face running with water. Light eyes, wide open, with something in them I've never seen there before.
+I open my eyes. Everything is grey and blurred and full of salt. But I see the orange. An orange drysuit, streaming, on a body kneeling beside me on the stones of the geo. I see a bearded face running with water. Light eyes, wide open, with something in them I've never seen there before.
 
 Fear.
 
@@ -4697,7 +4697,7 @@ When I wake, it's mid-afternoon. He's covered me with a blanket. Lúa is asleep 
 
 On the table there's a note, written on the back of a petrol receipt, in big, crooked handwriting:
 
-*Gone to get your things from the cove. Back soon. Don't leave without eating.*
+*Gone to get your things from the geo. Back soon. Don't leave without eating.*
 
 It isn't signed.
 
@@ -4767,7 +4767,7 @@ Four years hiding the same thing from each other. Each of us afraid of losing th
 
 He drops me off at the bend at the burn because I ask him to.
 
-He doesn't ask why. He stops the van on the verge, hands me the bag with my coat and my boots, collected from the cove, and sits looking straight ahead with his hands on the wheel.
+He doesn't ask why. He stops the van on the verge, hands me the bag with my coat and my boots, collected from the geo, and sits looking straight ahead with his hands on the wheel.
 
 'The jumper,' I say, starting to take it off.
 
@@ -4789,7 +4789,7 @@ I'm rehearsing what I'm going to say to him.
 
 I don't get the chance to say anything.
 
-I see him before I reach the clearing. He isn't in the house. He's at the edge of the cliff, where the path down to the cove begins. Standing. His back to me. Looking at the sea.
+I see him before I reach the clearing. He isn't in the house. He's at the edge of the cliff, where the path down to the geo begins. Standing. His back to me. Looking at the sea.
 
 His clothes are soaked up to his chest.
 
@@ -5123,7 +5123,7 @@ Badly drawn. With a nose too big and one eye higher than the other. With hair li
 
 And laughing.
 
-Laughing with my mouth open, my eyes closed, my head thrown back. A huge laugh, overflowing, the kind that doesn't fit on your face. The one from the cove, the day he sneezed. The one from Lucía's green face mask.
+Laughing with my mouth open, my eyes closed, my head thrown back. A huge laugh, overflowing, the kind that doesn't fit on your face. The one from the geo, the day he sneezed. The one from Lucía's green face mask.
 
 I've never seen myself like that.
 
@@ -5786,7 +5786,7 @@ He crouches down. He opens the box. He takes something out from under the clothe
 
 A folder.
 
-A blue cardboard folder, old, with broken corners and a handwritten label on the cover, in my ten-year-old handwriting.
+A blue cardboard folder, old, with broken corners and a handwritten label on the geor, in my ten-year-old handwriting.
 
 *Ada's Stories.*
 
@@ -6028,7 +6028,7 @@ We both go after him.
 
 The clearing is a whirl of water and night. The wind pushes me sideways as soon as I go out. The rain cuts my face. Above, the tower is a shadow against a black sky that is moving.
 
-He is at the edge of the cliff. Where the path to the cove starts. Where I spent a whole day shouting Ada's name.
+He is at the edge of the cliff. Where the path to the geo starts. Where I spent a whole day shouting Ada's name.
 
 He is holding the sketchbook up high. The pages are flapping like a trapped bird.
 
@@ -6118,7 +6118,7 @@ He gets up like a much older man. He stands for a second looking at the grass. T
 
 She doesn't watch him go. She is already running.
 
-I see her go down the path. Towards the cove. Towards the sea. In the dark. With the groundswell. Running after the white pages the wind is carrying towards the water.
+I see her go down the path. Towards the geo. Towards the sea. In the dark. With the groundswell. Running after the white pages the wind is carrying towards the water.
 
 After me.
 
@@ -6178,7 +6178,7 @@ Where is the sketchbook.
 
 I see it from the last bend.
 
-Down in the cove. Not in the water yet. Wedged between two stones at the water's edge, open, its pages beating in the wind. Every time a wave comes in, the foam licks it. Every time it pulls back, it tugs at it.
+Down in the geo. Not in the water yet. Wedged between two stones at the water's edge, open, its pages beating in the wind. Every time a wave comes in, the foam licks it. Every time it pulls back, it tugs at it.
 
 The next one is going to take it.
 
@@ -6228,7 +6228,7 @@ His face is running, like pencil in water. His eyes are blurring at the edges, h
 
 Terrified.
 
-He's afraid of the sea. He has always been afraid of it. I saw it in his eyes, in the cove, that first day, in his new trainers. And he's in it. In a heavy swell. Being erased. Afraid.
+He's afraid of the sea. He has always been afraid of it. I saw it in his eyes, in the geo, that first day, in his new trainers. And he's in it. In a heavy swell. Being erased. Afraid.
 
 He's come in anyway.
 
@@ -6274,7 +6274,7 @@ He can't come up. He has no hands.
 
 And then a light.
 
-Up above. On the cliff. A torch, a strong one, sweeping the rocks, the water, the cove. And a voice, shouting my name over the wind.
+Up above. On the cliff. A torch, a strong one, sweeping the rocks, the water, the geo. And a voice, shouting my name over the wind.
 
 And a bark.
 
@@ -6648,7 +6648,7 @@ I open it.
 
 The jumper-cables man, in the orange rain jacket, dry now, with a plastic bag in his hand. And Lúa beside him, sitting, very proper, her tongue hanging out.
 
-'Low tide at nine,' he says, just like that. 'I went down to the rocks in your cove.'
+'Low tide at nine,' he says, just like that. 'I went down to the rocks in your geo.'
 
 He holds out the bag.
 
@@ -7020,7 +7020,7 @@ The bulb inside lights up. First orange. Then white. Then so white I have to shu
 
 And the lens begins to turn.
 
-Slowly. With a creak of old gears that grows smoother. And the light comes out through the glass rings as a beam, a long white arm that sweeps the sea, the rocks, the cove, the road, the town down below with its four lights, the hill, and comes back to the sea.
+Slowly. With a creak of old gears that grows smoother. And the light comes out through the glass rings as a beam, a long white arm that sweeps the sea, the rocks, the geo, the road, the town down below with its four lights, the hill, and comes back to the sea.
 
 Once every twelve seconds.
 
@@ -7162,7 +7162,7 @@ And on the breakwater, facing the sea, with no one to hear me, after six years, 
 
 **Galician**
 
-*a Vella* — "the Old Woman". Ada's name for the rock at the mouth of her cove.
+*a Vella* — "the Old Woman". Ada's name for the rock at the mouth of her geo.
 
 *alalá* (pl. *alalás*) — an old Galician song, slow and unaccompanied, sung by women at work.
 
@@ -7243,6 +7243,8 @@ And on the breakwater, facing the sea, with no one to hear me, after six years, 
 *peedie* — small, little. *Peedie lass*: Maruxa's endearment for Ada, picked up in fifty years of Stromness.
 
 *the toon* — the town; in Orkney, Stromness or Kirkwall.
+
+*geo* — a narrow inlet cut into a cliff, from the Old Norse *gjá*. Ada swims in *Selkie Geo*, below the lighthouse.
 
 *selkie* — in Orkney lore, a seal that comes ashore, sheds its skin and walks as a human. Whoever hides the skin keeps the selkie; whoever finds it goes back to the sea.
 
