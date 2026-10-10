@@ -22,16 +22,16 @@ KDP_EPUB = os.path.join(ROOT, "edicion_kdp", "El_Horizonte_Interior.epub")
 OUT = os.path.join(HERE, "..", "en", "The_Lovers_of_the_Spiral.epub")
 
 TITLE = "The Lovers of the Spiral"
-SERIES = "The Notebook of Ada Koch · Book I"
+SERIES = "The Sketchbook of Ada Koch · Book I"
 AUTHOR = "Íñigo Barrera Barceló"
 AUTHOR_SORT = "Barrera Barceló, Íñigo"
-SERIES_NAME = "The Notebook of Ada Koch"
+SERIES_NAME = "The Sketchbook of Ada Koch"
 SERIES_INDEX = 1
 PUB_DATE = "2026-10-10"
 SUBJECTS = ["Romance fiction", "Magical realism", "Galicia (Spain)"]
 DESCRIPTION = ("Ada Koch, a meteorologist, lives alone in a lighthouse on Galicia's Costa da Morte "
                "and has spent twenty-three years drawing the same man. One stormy night, he knocks "
-               "on her door. Book One of The Notebook of Ada Koch.")
+               "on her door. Book One of The Sketchbook of Ada Koch.")
 
 # ---------- CSS: la de la edición KDP + separador de escena ----------
 CSS = """

@@ -1,6 +1,6 @@
 ---
 title: "The Lovers of the Spiral"
-subtitle: "The Notebook of Ada Koch · Book I"
+subtitle: "The Sketchbook of Ada Koch · Book I"
 author: "Íñigo Barrera Barceló"
 lang: en-US
 ---
