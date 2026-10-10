@@ -11,3 +11,6 @@ Saga romántica en cuatro libros para Kindle.
     - `en/The_Lovers_of_the_Spiral.md`, `.docx`, `.epub`.
     - `en/TRANSLATION_GUIDE.md` — criterios y glosario (rayas → comillas, gallego sin traducir, *el de las pinzas* → *the jumper-cables man*…).
     - `scripts/build_epub_en.py` — misma maqueta que la edición española. `python3 ada_koch/libro_1/scripts/build_epub_en.py`
+  - `en_gb/` — edición británica localizada en Orkney (Stromness, el faro ficticio de Breckness), según la guía de localización del autor: inglés británico, presente narrativo para Ada e Iter/Julian, comillas simples, dialecto orcadiano en boca de los vecinos, tormentas Ailsa y Brodie, glosario final. El pasado de Maruxa (Vigo, Stuttgart, Galicia 1971) no se mueve; el puente es Flotta, 1976.
+    - `en_gb/The_Lovers_of_the_Spiral.md`, `.docx`, `.epub`; `en_gb/ORKNEY_BIBLE.md` — biblia de adaptación.
+    - `scripts/build_epub_gb.py` — `python3 ada_koch/libro_1/scripts/build_epub_gb.py`
