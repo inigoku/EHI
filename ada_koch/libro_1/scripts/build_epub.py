@@ -10,6 +10,7 @@ Uso:  python3 ada_koch/libro_1/scripts/build_epub.py
 import os
 import re
 import subprocess
+import uuid
 import zipfile
 
 from ebooklib import epub
@@ -23,6 +24,14 @@ OUT = os.path.join(HERE, "..", "Los_Amantes_de_la_Espiral.epub")
 TITLE = "Los Amantes de la Espiral"
 SERIES = "El Cuaderno de Ada Koch · Libro I"
 AUTHOR = "Íñigo Barrera Barceló"
+AUTHOR_SORT = "Barrera Barceló, Íñigo"
+SERIES_NAME = "El Cuaderno de Ada Koch"
+SERIES_INDEX = 1
+PUB_DATE = "2026-10-10"
+SUBJECTS = ["Ficción romántica", "Realismo mágico", "Galicia"]
+DESCRIPTION = ("Ada Koch, meteoróloga, vive sola en un faro de la Costa da Morte y lleva "
+               "veintitrés años dibujando al mismo hombre. Una noche de temporal, él llama a "
+               "su puerta. Primer libro de la saga El Cuaderno de Ada Koch.")
 
 # ---------- CSS: la de la edición KDP + separador de escena ----------
 CSS = """
@@ -45,6 +54,11 @@ p { text-align: justify; margin: 0 0 0.9em 0; }
 .titlepage p, .dedication p, .colophon p, .parttitle h1 { text-align: center; }
 .scenebreak { text-align: center; color: #3c6e71; margin: 1.2em 0; text-indent: 0; }
 .end { text-align: center; margin-top: 2em; }
+nav ol { list-style-type: none; padding-left: 1.2em; margin: 0.2em 0; }
+nav > ol { padding-left: 0; }
+nav li { margin: 0.25em 0; }
+nav a { color: #22282c; text-decoration: none; }
+nav > ol > li > a { font-weight: bold; color: #3c6e71; }
 """
 
 # ---------- fuente markdown -> actos y capítulos ----------
@@ -80,11 +94,16 @@ def md_to_xhtml(text):
 
 # ---------- libro ----------
 book = epub.EpubBook()
-book.set_identifier("los-amantes-de-la-espiral-ibb-2026")
+BOOK_UUID = "urn:uuid:" + str(uuid.uuid5(uuid.NAMESPACE_URL, "ehi/ada_koch/los-amantes-de-la-espiral"))
+book.set_identifier(BOOK_UUID)
 book.set_title(TITLE)
 book.set_language("es")
 book.add_author(AUTHOR)
-book.add_metadata("DC", "description", "El Cuaderno de Ada Koch, Libro I.")
+book.add_metadata("DC", "description", DESCRIPTION)
+book.add_metadata("DC", "date", PUB_DATE)
+book.add_metadata("DC", "rights", f"© 2026 {AUTHOR}")
+for subj in SUBJECTS:
+    book.add_metadata("DC", "subject", subj)
 
 book.add_item(epub.EpubItem(uid="style", file_name="styles/style.css", media_type="text/css", content=CSS))
 
@@ -150,4 +169,62 @@ book.add_item(nav)
 book.spine = spine
 
 epub.write_epub(OUT, book)
+
+
+# ---------- retoques de metadatos e índice que ebooklib no expone ----------
+def postprocess(path):
+    with zipfile.ZipFile(path) as z:
+        files = {n: z.read(n) for n in z.namelist()}
+
+    opf = files["EPUB/content.opf"].decode("utf-8")
+    # autor con orden de catálogo y rol; serie (EPUB 3 + calibre, que Kindle también lee)
+    opf = opf.replace(
+        '<dc:creator id="creator">' + AUTHOR + '</dc:creator>',
+        '<dc:creator id="creator">' + AUTHOR + '</dc:creator>\n'
+        '    <meta refines="#creator" property="file-as">' + AUTHOR_SORT + '</meta>\n'
+        '    <meta refines="#creator" property="role" scheme="marc:relators">aut</meta>\n'
+        '    <meta property="belongs-to-collection" id="serie">' + SERIES_NAME + '</meta>\n'
+        '    <meta refines="#serie" property="collection-type">series</meta>\n'
+        '    <meta refines="#serie" property="group-position">' + str(SERIES_INDEX) + '</meta>\n'
+        '    <meta name="calibre:series" content="' + SERIES_NAME + '"/>\n'
+        '    <meta name="calibre:series_index" content="' + str(SERIES_INDEX) + '"/>')
+    opf = opf.replace("<dc:language>es</dc:language>", "<dc:language>es-ES</dc:language>")
+    # tipo MIME de fuentes según EPUB 3.3
+    opf = opf.replace('media-type="application/x-font-ttf"', 'media-type="font/ttf"')
+    # guía EPUB 2 (Kindle la usa para «Ir al principio»)
+    opf = opf.replace("</package>",
+                      '  <guide>\n'
+                      '    <reference type="title-page" title="Portada" href="text/title.xhtml"/>\n'
+                      '    <reference type="toc" title="Índice" href="nav.xhtml"/>\n'
+                      '    <reference type="text" title="Comienzo" href="text/chap_01.xhtml"/>\n'
+                      '  </guide>\n</package>')
+    files["EPUB/content.opf"] = opf.encode("utf-8")
+
+    ncx = files["EPUB/toc.ncx"].decode("utf-8")
+    ncx = ncx.replace('content="0" name="dtb:depth"', 'content="2" name="dtb:depth"')
+    files["EPUB/toc.ncx"] = ncx.encode("utf-8")
+
+    nav = files["EPUB/nav.xhtml"].decode("utf-8")
+    nav = nav.replace("<title>" + TITLE + "</title>", "<title>Índice</title>")
+    nav = re.sub(r'(<nav epub:type="toc"[^>]*>\s*)<h2>[^<]*</h2>', r"\1<h2>Índice</h2>", nav)
+    nav = nav.replace("</body>",
+                      '    <nav epub:type="landmarks" id="landmarks" hidden="">\n'
+                      '      <h2>Puntos de referencia</h2>\n'
+                      '      <ol>\n'
+                      '        <li><a epub:type="titlepage" href="text/title.xhtml">Portada</a></li>\n'
+                      '        <li><a epub:type="toc" href="nav.xhtml">Índice</a></li>\n'
+                      '        <li><a epub:type="bodymatter" href="text/chap_01.xhtml">Comienzo</a></li>\n'
+                      '      </ol>\n'
+                      '    </nav>\n  </body>')
+    files["EPUB/nav.xhtml"] = nav.encode("utf-8")
+
+    tmp = path + ".tmp"
+    with zipfile.ZipFile(tmp, "w") as z:
+        z.writestr(zipfile.ZipInfo("mimetype"), files.pop("mimetype"), compress_type=zipfile.ZIP_STORED)
+        for name, data in files.items():
+            z.writestr(name, data, compress_type=zipfile.ZIP_DEFLATED)
+    os.replace(tmp, path)
+
+
+postprocess(OUT)
 print("EPUB:", os.path.abspath(OUT), "capítulos:", n)
