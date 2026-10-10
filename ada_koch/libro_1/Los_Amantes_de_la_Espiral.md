@@ -5232,6 +5232,42 @@ Me tapé la cara con la almohada para no despertarlo con la risa.
 
 ---
 
+No me dio buenos días. Me apartó el pelo de la cara con un dedo, lo justo para verme los dos ojos, y se levantó a hacer café.
+
+Lo oí desde la cama. La cafetera. Un cajón. Otro cajón. Una cucharilla contra las baldosas. Una palabrota en voz baja, de las mías.
+
+Cuando llegué a la cocina había dos tazas en la mesa. El café era casi transparente, color de té. Me había visto hacerlo todas las mañanas y se había quedado con todo menos con la cantidad.
+
+Me lo bebí entero. No le dije nada.
+
+Había tostado en la sartén el pan del día anterior y lo había partido con las manos en trozos pequeños, como lo partía siempre. Luego peló una mandarina con toda su paciencia, hilo blanco a hilo blanco, la abrió en dos y me dio la mitad sin mirarme, como se pasa la sal.
+
+Comimos sin hablar.
+
+En Madrid los silencios del desayuno había que romperlos antes de que se rompieran solos. Este no pedía nada. Estaba ahí, como la estufa.
+
+---
+
+Después me senté a los monitores. Tenía que mandar a Bilbao la predicción de un parque eólico de Lugo, y estuve media hora mirando las isobaras sin verlas.
+
+Él se sentó en el suelo, con la espalda contra las patas de mi silla y el atlas de mi abuelo abierto sobre las rodillas. De vez en cuando levantaba el libro por encima de la cabeza, sin volverse, con el dedo encima de una foto. Yo le decía el nombre. Él lo repetía bajito y pasaba la página.
+
+*Mammatus. Pileus. Virga.*
+
+En algún momento dejó caer la cabeza hacia atrás, contra mi rodilla. Le puse la mano en el pelo y seguí escribiendo con la otra.
+
+Me di cuenta al enviar el informe, mirándome la mano enredada en su pelo. Llevábamos semanas pidiéndonos permiso para todo. Para tocarnos el brazo. Para corregir una palabra. Para mirarnos demasiado rato. Dos personas educadísimas en una casa demasiado grande.
+
+Esa mañana se nos había olvidado a los dos.
+
+Una sola vez, al pasar una página, lo vi mirar la puerta de la torre. Un segundo. Luego volvió a las nubes.
+
+No le pregunté. Tenía su cabeza en la rodilla y el sol en la mesa, y no quise saber nada que no fuera eso.
+
+Luego se levantó, me dio un beso en la coronilla y salió de la cocina.
+
+---
+
 A las once oí el motor.
 
 El mismo traqueteo de chapa vieja. La furgoneta del pan.
@@ -5263,14 +5299,6 @@ Y él, como si lo notara, abrió los ojos y la miró a ella.
 Doscientos metros. El viento. Las gaviotas.
 
 Se quedaron así mucho rato.
-
-Dejé el café en la mesa. Salí descalza, en camiseta, por la explanada mojada, sin abrigo, sin nada. Bajé el camino corriendo. Las piedras me cortaban los pies.
-
-Llegué a su lado sin aliento.
-
-No me miró. Seguía mirando la torre.
-
-—¿Quién es ese? —preguntó.
 
 ---
 
@@ -5312,11 +5340,15 @@ Solo sé una cosa, porque la viví.
 
 Cuando un hombre espera así, no se va.
 
-Oí a mi nieta bajar el camino corriendo. Descalza. Sin abrigo. Con el pelo como una nube de tormenta.
+Oí a mi nieta bajar el camino corriendo. Descalza, sobre las piedras. Sin abrigo. Con el pelo como una nube de tormenta.
 
 Llegó a mi lado sin aire.
 
-No la miré. Seguí mirando la torre. Le pregunté quién era, aunque ya lo sabía. Porque a veces hay que preguntar las cosas para que la otra persona aprenda a contestarlas.
+No la miré. Seguí mirando la torre.
+
+—¿Quién es ese? —le pregunté.
+
+Ya lo sabía. Pero a veces hay que preguntar las cosas para que la otra persona aprenda a contestarlas.
 
 No le voy a decir nunca que lo conocí.
 
@@ -5326,7 +5358,7 @@ Hay cosas que una tiene que encontrarse sola.
 
 ---
 
-### Ada · El faro, hoy
+### 23 · Ada (continúa)
 
 Abrí la boca para mentir.
 
@@ -6588,7 +6620,11 @@ Se le llenaron los ojos.
 
 Nunca le había visto llorar. Nunca le había dibujado lágrimas. Le cayeron dos, una de cada ojo, despacio, hasta la barba.
 
-—Julian —repitió. Probando. Como probó las lentejas, el café, la mandarina, la palabra *Iter*. Pero esta vez no lo probó en la boca. Lo probó en el pecho. Lo vi—. Julian.
+—Julian —repitió.
+
+Probando. Como probó las lentejas, el café, la mandarina, la palabra *Iter*. Pero esta vez no lo probó en la boca. Lo probó en el pecho. Lo vi.
+
+—Julian.
 
 Se puso la mano en el pecho. En el centro. Donde me dijo una vez que estaba lo que yo no podía dibujar.
 
@@ -6702,7 +6738,7 @@ Pensé en el abrigo azul abrochado botón a botón en el muelle. Era igual que u
 
 Yo entonces pensé que era ternura. Después pensé que era otra cosa. En el coche, con el móvil en la mano, pensé que eran las dos. Que a los dos se nos fue un padre. Yo me puse a dibujar a alguien que se quedaba. Él aprendió a que nadie pudiera irse.
 
-Y me acordé de las Perseidas. El primer agosto. Yo le había dicho que los meteorólogos no miramos las estrellas, porque las estrellas no hacen tiempo, y él apareció a las tres de la mañana con un termo de cacao y una manta y me llevó a un descampado de Guadalajara a mirarlas igual. Contó cuarenta y dos. Yo me dormí en la treinta. Me despertó con un beso en la frente y me dijo que había pedido cuarenta y dos deseos y que todos eran yo.
+Y me acordé de las Perseidas. El primer agosto. Yo le había dicho que los meteorólogos no miramos las estrellas, porque las estrellas no hacen tiempo. Y él apareció a las tres de la mañana con un termo de cacao y una manta y me llevó a un descampado de Guadalajara a mirarlas igual. Contó cuarenta y dos. Yo me dormí en la treinta. Me despertó con un beso en la frente y me dijo que había pedido cuarenta y dos deseos y que todos eran yo.
 
 Eso fue verdad. Eso pasó.
 
@@ -6792,7 +6828,7 @@ Firmé con el bolígrafo del cuartel, que estaba atado a la mesa con una cadenit
 
 Al salir, en el aparcamiento, con el viento del noroeste en la cara, lo dije una vez más. En voz alta. Para comprobar.
 
-Álvaro.
+—Álvaro.
 
 Nada. Se lo llevó el viento, como se lo lleva todo aquí.
 
