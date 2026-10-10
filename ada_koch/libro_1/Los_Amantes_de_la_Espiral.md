@@ -142,6 +142,8 @@ Lo había borrado de la agenda casi un año antes, el día que dejé Madrid. Bor
 
 Me quedé mirando la pantalla. Tres palabras, sin saludo, como si hubiéramos hablado ayer. Sentí algo en el pecho que no supe nombrar. Cansancio, quizá. O tristeza. Un año entero aprendiendo a no esperar sus mensajes, y bastaban tres palabras para que todo volviera a moverse por dentro.
 
+Hasta en tres palabras le oía la voz. La manera que tenía de decir mi nombre: la primera a larga, la segunda cayendo, como se le dice a una niña que ha vuelto a manchar el mantel. *Aaada.* Durante tres años creí que era cariño.
+
 No le había contado a nadie de Madrid dónde vivía ahora. Me pregunté quién se lo habría dicho. Luego me pregunté por qué me importaba tanto.
 
 Dejé el móvil boca abajo sobre la mesa, encima del cuaderno, como si pudiera taparlo.
@@ -2074,7 +2076,15 @@ El móvil vibró sobre la mesa. Una vez. Otra. Otra. Había vuelto la cobertura 
 
 Lucía, preguntando si estaba viva. Marcos, con un emoticono de un faro. Tres audios de mi abuela.
 
-Nada más.
+Y uno más. Del número sin nombre.
+
+*Ada. Perdona lo del otro día, no era forma de escribirte después de tanto tiempo. Sé que no quieres saber nada de mí y lo entiendo. He visto lo de la borrasca en las noticias. Solo quería saber que estás bien. No te molesto más.*
+
+Lo leí tres veces.
+
+Era él. El de los primeros meses. El que se acordaba de que no tomo azúcar y me esperaba con el paraguas a la salida del metro. Durante un segundo me alegré de que se acordara de mí. Durante el segundo siguiente me odié por haberme alegrado.
+
+No contesté. Tampoco lo borré.
 
 Escuché el primer audio de mi abuela con el teléfono pegado a la oreja. *Nena, ¿estás bien? Dime algo, que no duermo. Miña rula, dime algo.*
 
@@ -4036,7 +4046,7 @@ Lo giré sin pensar.
 
 El número sin nombre. Un mensaje nuevo.
 
-*Tengo que verte. Es importante.*
+*Perdona. Te dije que no te molestaría y te molesto. Es que ha pasado algo. ¿Puedo llamarte? Es importante.*
 
 Apreté los dientes.
 
@@ -4078,7 +4088,7 @@ Y no la entendí del todo hasta muchos años después, el día de su entierro, c
 
 No lo seguí a la cala. Me puse las botas y el abrigo y salí por el otro lado, por el camino del acantilado que va hacia el norte, hacia la playa grande.
 
-Necesitaba andar. Necesitaba que me diera el viento en la cara hasta que se me fuera el mensaje de la cabeza. *Tengo que verte. Es importante.*
+Necesitaba andar. Necesitaba que me diera el viento en la cara hasta que se me fuera el mensaje de la cabeza. *¿Puedo llamarte? Es importante.*
 
 Anduve una hora. El camino sube y baja entre tojos amarillos, con el mar a la derecha, abajo, rompiendo contra las rocas negras. Las gaviotas se quedaban quietas en el aire, a mi altura, mirándome pasar.
 
@@ -5740,13 +5750,23 @@ Me paré en mitad del muelle. Me di la vuelta. Lo miré a él.
 
 —Di lo que tengas que decir.
 
-Sonrió. Dejó la caja en el suelo, entre los dos.
+No me contestó. Dejó la caja en el suelo, entre los dos, y pasó a mi lado como si yo no estuviera.
 
-—Tus cosas. Ropa, el perfume que te regalé, unos libros. Te fuiste tan deprisa… —Abrió las manos, inocente—. Me preocupé mucho, Ada. Tu madre también. Todos nos preocupamos. Te fuiste sin explicar nada, sin despedirte, como si hubiera pasado algo horrible.
+Fue hacia Iter.
 
-No contesté.
+Lo miró de cerca. No con desprecio. Con curiosidad. Como se mira un animal raro detrás de un cristal. Le puso la mano en el hombro, la mano del reloj caro, con suavidad, como a un amigo, y se inclinó y le dijo algo al oído.
 
-—Y hay una cosa más.
+No lo oí. Nadie lo oyó.
+
+Iter se quedó inmóvil. Como al principio, cuando todavía no sabía moverse si yo no lo dibujaba.
+
+Luego él se volvió hacia mí y sonrió.
+
+Esa sonrisa la conocía. Era la de Madrid. La de cuando algo le salía bien en el trabajo y llegaba a casa y me lo contaba de pie, sin quitarse el abrigo.
+
+El abrigo de paño azul era igual que uno que tenía su padre. Su padre, que se iba. No se murió: se iba. Cogía el coche un martes y volvía un mes después, o tres, con regalos y una explicación que nunca era la misma. Me lo contó una sola vez, en Madrid, de madrugada, como si confesara un crimen. Que de niño se aprendía los horarios de todo, los trenes, las comidas, los turnos de su madre, para que nada volviera a pillarlo por sorpresa. Que el abrigo se lo compró con el primer sueldo, porque era el que llevaba su padre la última vez que volvió.
+
+Yo entonces pensé que era ternura. Después pensé que era otra cosa. Ahora, en el muelle, con todo el pueblo mirando, pensé que eran las dos. Que a los dos se nos fue un padre. Yo me puse a dibujar a alguien que se quedaba. Él aprendió a que nadie pudiera irse.
 
 Se agachó. Abrió la caja. Sacó algo de debajo de la ropa.
 
@@ -5758,25 +5778,23 @@ Una carpeta de cartón azul, vieja, con las esquinas rotas y una etiqueta escrit
 
 Se me paró el corazón.
 
-—La tiraste a la basura el último invierno —dijo, con voz suave—. ¿Te acuerdas? Una noche. Yo la saqué. Sabía que te arrepentirías. Siempre te arrepientes, Ada. —Me la tendió—. Yo te conozco.
+—La tiraste a la basura el último invierno —dijo, con voz suave—. Una noche, a las tres. Te vi desde la ventana de la cocina. Bajé en pijama. Estaba debajo de una bolsa de cáscaras de naranja. La limpié con un trapo, hoja por hoja. La guardé en el armario, debajo de las sábanas, para que no cogiera humedad. —Me la tendió—. No te la devolví porque sabía que te daría vergüenza. Quería que un día pudieras tenerla sin tener que pedírmela. Yo te conozco.
 
 Yo te conozco.
 
-Miré la carpeta. Miré su mano sujetándola. Su mano, limpia, con el reloj caro, con las uñas cortadas. La mano que la había sacado de la basura y la había guardado un año entero en un armario de Madrid, esperando el momento de devolvérmela.
+Miré la carpeta. Miré su mano sujetándola. La mano que la había sacado de la basura y la había guardado un año entero en un armario de Madrid.
 
-Como un rehén.
+Como un rehén, pensé.
+
+Y en cuanto lo pensé supe que no era solo eso. Que también la había limpiado hoja por hoja, a las tres de la mañana, en pijama. Que las dos cosas cabían en la misma mano. Eso era lo peor.
 
 Alargué la mano y la cogí.
 
 Él no la soltó enseguida. La mantuvo un segundo, los dos agarrando la carpeta, mirándome a los ojos.
 
-Luego la soltó. Sonriendo.
+Luego la soltó.
 
-—Siempre has tenido demasiada imaginación —dijo, bajito, solo para mí—. Mira dónde te ha traído. Un faro. Una abuela. Y… —miró a Iter— esto.
-
-Apreté la carpeta contra el pecho.
-
-—Vuelve conmigo —dijo—. Aquí no tienes nada. Te estás escondiendo del mundo. Yo te conozco, Ada. Sé lo que te pasa cuando estás sola demasiado tiempo. Empiezas a ver cosas.
+—Siempre has tenido demasiada imaginación —dijo, bajito, solo para mí. Y miró a Iter.
 
 Noté a Iter moverse detrás de mí. Un paso. Sin tocarme.
 
@@ -5784,17 +5802,23 @@ Levanté la mano. Sin mirarlo. Solo la mano. Y él se paró.
 
 Esto lo tenía que hacer yo.
 
+—Vuelve conmigo, Ada.
+
+Así. Con la primera a larga y la segunda cayendo. Como se le dice a una niña que ha vuelto a manchar el mantel. Se me erizó la nuca. No era el nombre. Era la manera.
+
 —No —dije.
 
 Él arqueó las cejas.
 
-—Ada…
+—Aaada…
 
 —No.
 
 Más alto. Lo bastante para que lo oyeran los viejos del banco. La mujer de la lonja dejó de pesar sardinas. Un niño se paró con la mochila a medio poner.
 
 —No vuelvo. No quiero un café. No quiero tus cosas. —Le di una patada a la caja de cartón. Suave. Lo justo para que se deslizara hacia sus pies—. Esta me la quedo. —Levanté la carpeta—. Es mía. Siempre fue mía.
+
+Y al decirlo supe que también le estaba quitando lo único que había hecho bien. Me la quedé igual.
 
 Se le borró la sonrisa.
 
@@ -6022,13 +6046,33 @@ No sé qué vio. Un hombre que se deshacía. Un hombre a través del cual se ve�
 
 Lo vio.
 
-Se le cayó la sonrisa. Toda. De golpe. Abrió la boca. Dio un paso atrás. Otro.
+Se le cayó la sonrisa. Toda. De golpe. Dio un paso atrás.
 
-Y echó a correr hacia su coche gris, resbalando en la hierba, cayéndose, levantándose, sin volverse.
+Y no se fue. Se quedó quieto bajo la lluvia, a dos metros, con la mano todavía abierta.
 
-No me importó.
+—¿Qué eres? —dijo.
 
-Porque Ada ya no estaba a mi lado.
+No había rabia en la voz. Había miedo. Y otra cosa: la primera pregunta de verdad que le oí hacer.
+
+—Lo que ella dibujó —le dije.
+
+Me costó. Ya casi no tenía boca.
+
+Él se volvió hacia Ada. Ada estaba de rodillas a mi lado, con las manos sobre las mías, sin poder agarrarlas. La miró como se mira a una desconocida. Vi cómo lo entendía: que había vivido tres años con una mujer que dibujaba a otro hombre en los márgenes de un cuaderno, cada noche, y nunca lo había sabido. Que no la había conocido nunca.
+
+—Ada… —dijo.
+
+Ella se levantó.
+
+—Vete.
+
+No lo gritó. Lo dijo con la lluvia corriéndole por la cara, como se dice la hora.
+
+Él abrió la boca. La cerró.
+
+Y se fue. Andando hacia su coche gris, resbalando en la hierba, sin volverse.
+
+Ella no lo miró irse. Ya estaba corriendo.
 
 La vi bajar por el sendero. Hacia la cala. Hacia el mar. En la oscuridad. Con mar de fondo. Corriendo detrás de las hojas blancas que el viento se llevaba hacia el agua.
 
@@ -6372,7 +6416,7 @@ Vi su cara cuando me vio la cara entera. Cuando la niebla se fue de mis hombros,
 
 No dijo nada.
 
-No salió corriendo, como el otro.
+No se fue, como el otro.
 
 Solo se pasó la mano por la cara, despacio, de la frente a la barbilla, como quien se quita el agua.
 
@@ -6394,7 +6438,7 @@ Como yo la esperé a ella en la torre. Pidiéndome permiso con los ojos.
 
 Le cogí la cara con las dos manos. La de la marca y la otra.
 
-No sé qué quería decirle. Muchas cosas. Que había pasado miedo en el mar. Que se había metido en el agua por mí con un cuaderno contra el pecho, con mar de fondo, como yo me metí por ella el día de las rocas. Que el otro me había visto deshacerme y había huido, y que me alegraba. Que la quería. Que creo que la quería con una parte que no está en ningún papel.
+No sé qué quería decirle. Muchas cosas. Que había pasado miedo en el mar. Que se había metido en el agua por mí con un cuaderno contra el pecho, con mar de fondo, como yo me metí por ella el día de las rocas. Que el otro me había visto deshacerme y se había ido cuando ella se lo dijo, y que me alegraba. Que la quería. Que creo que la quería con una parte que no está en ningún papel.
 
 Me salió otra cosa.
 
@@ -6657,6 +6701,22 @@ Y algunos, me di cuenta, se devuelven.
 —Álvaro —dije—. Álvaro Lasheras Gil.
 
 El guardia lo tecleó. Despacio. Con dos dedos. Me pidió que se lo deletreara y se lo deletreé, letra a letra, con la voz firme.
+
+—¿Relación con el denunciado?
+
+No contesté.
+
+Tres años. El abrigo azul. La carpeta limpia hoja por hoja. *Te echo de menos, Ada. Mucho.*
+
+—Ninguna —dije.
+
+El guardia levantó la vista de la pantalla.
+
+—¿Ninguna? —Lo dijo despacio, como un aviso—. Si es su expareja, conviene que conste. Cambia las cosas.
+
+—Ninguna.
+
+Me miró un segundo más. Luego lo tecleó.
 
 Eso fue todo.
 
