@@ -524,11 +524,11 @@ Before it gets dark I go down to the geo one last time.
 
 Not to swim. The sea is already too rough, with waves reaching the rock where I leave my towel and pulling back, dragging stones with a sound like teeth. I go down only to look at it. To say goodbye to it calmly, the way you say goodbye to someone before a fight you know is going to happen.
 
-I sit at the top of the path, on a flat stone, hugging my knees to my chest. The wind blows my hair into my face and makes my eyes water. Below, *a Vella* takes the blows of the waves, black and gleaming, unmoved, the way she's been taking them since before Stromness existed.
+I sit at the top of the path, on a flat stone, hugging my knees to my chest. The wind blows my hair into my face and makes my eyes water. Below, the Auld Wife takes the blows of the waves, black and gleaming, unmoved, the way she's been taking them since before Stromness existed.
 
 And then I see it. The other one.
 
-A small rock, to the left of *a Vella*, half hidden in the foam. Round on top, flat, with a kind of step on one side, like a seat. I've been swimming here for a year and have never noticed it.
+A small rock, to the left of the Auld Wife, half hidden in the foam. Round on top, flat, with a kind of step on one side, like a seat. I've been swimming here for a year and have never noticed it.
 
 I freeze.
 
@@ -2527,7 +2527,7 @@ And I go into the water alone.
 
 The cold takes my breath away, as always. This time I'm grateful for it.
 
-I swim towards *a Vella* with furious strokes, splashing more than I need to. I'm thinking unfair things. That he's a coward. That I made him, that I know what he'll like. Who does he think he is, telling me no.
+I swim towards the Auld Wife with furious strokes, splashing more than I need to. I'm thinking unfair things. That he's a coward. That I made him, that I know what he'll like. Who does he think he is, telling me no.
 
 Halfway there I stop and float, panting.
 
@@ -4427,7 +4427,7 @@ I go into the water. The cold bites. I wait for the three seconds.
 
 They don't come. The cold comes, but the calm doesn't. My head is still full. *You're not real.* *I miss you.* *Did you draw him.* *Then he's free.*
 
-I swim harder. Further. Towards *a Vella*.
+I swim harder. Further. Towards the Auld Wife.
 
 Halfway there I feel the water pulling.
 
@@ -4449,7 +4449,7 @@ I swallow water. I cough. I swallow more.
 
 A swell, one of the long ones, lifts me and drops me. It pulls me under. I come up. I don't know where the shore is. Everything is grey. The sky, the water, the foam.
 
-*A Vella* is on my left, black, enormous, with the waves smashing against her in white explosions.
+The Auld Wife is on my left, black, enormous, with the waves smashing against her in white explosions.
 
 The current is carrying me towards her.
 
@@ -6248,7 +6248,7 @@ We come up.
 
 And I see the rock.
 
-His. The small one, to the left of *a Vella*, the round one, the one with the step. The boy's rock.
+His. The small one, to the left of the Auld Wife, the round one, the one with the step. The boy's rock.
 
 It's five yards away.
 
@@ -7162,8 +7162,6 @@ And on the breakwater, facing the sea, with no one to hear me, after six years, 
 
 **Galician**
 
-*a Vella* — "the Old Woman". Ada's name for the rock at the mouth of her geo.
-
 *alalá* (pl. *alalás*) — an old Galician song, slow and unaccompanied, sung by women at work.
 
 *Bo día* — "Good day". Klaus wrote it down as he heard it: *bodia*.
@@ -7243,6 +7241,8 @@ And on the breakwater, facing the sea, with no one to hear me, after six years, 
 *peedie* — small, little. *Peedie lass*: Maruxa's endearment for Ada, picked up in fifty years of Stromness.
 
 *the toon* — the town; in Orkney, Stromness or Kirkwall.
+
+*the Auld Wife* — Scots for "the old woman": the black rock at the mouth of Selkie Geo.
 
 *geo* — a narrow inlet cut into a cliff, from the Old Norse *gjá*. Ada swims in *Selkie Geo*, below the lighthouse.
 

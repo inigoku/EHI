@@ -22,6 +22,7 @@ Stromness ever since; Klaus died there six years ago.
 |---|---|
 | the lighthouse (abandoned, dark since 1987) | **the Breckness light**: a fictional lighthouse on the Breckness headland, west of Stromness, facing Hoy Sound. Decommissioned in 1987. Ada lives in the keeper's house at the foot of the tower. Across the Sound: the hills of Hoy. |
 | the village / el pueblo | **Stromness** (the town; locals say "the toon" rarely). The harbour, the pier, the breakwater, the street of stone houses. |
+| the rock at the mouth of the cove (*a Vella*) | **the Auld Wife** |
 | the cove below the lighthouse | **the geo** — *Selkie Geo* on the Ordnance Survey map (Orcadian *geo*: a narrow inlet in a cliff, from Old Norse *gjá*). |
 | the big beach (*la playa grande*) | **Warebeth** (the beach between Breckness and Stromness). |
 | the road from lighthouse to village (4 km of curves, pines, eucalyptus) | the road into Stromness: **two and a half miles** of single-track between drystone dykes, sheep and fields of a green that doesn't exist in Madrid. No trees to speak of. |
