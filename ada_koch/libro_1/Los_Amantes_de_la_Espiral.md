@@ -5778,23 +5778,21 @@ Una carpeta de cartón azul, vieja, con las esquinas rotas y una etiqueta escrit
 
 Se me paró el corazón.
 
-—La tiraste a la basura el último invierno —dijo, con voz suave—. Una noche, a las tres. Te vi desde la ventana de la cocina. Bajé en pijama. Estaba debajo de una bolsa de cáscaras de naranja. La limpié con un trapo, hoja por hoja. La guardé en el armario, debajo de las sábanas, para que no cogiera humedad. —Me la tendió—. No te la devolví porque sabía que te daría vergüenza. Quería que un día pudieras tenerla sin tener que pedírmela. Yo te conozco.
+No dijo nada. Me la tendió.
 
-Yo te conozco.
+Venía envuelta en una funda de almohada. Una de las nuestras, las de rayas grises, planchada. La carpeta estaba limpia. Alguien había pasado un trapo por cada hoja. Alguien había pegado con celo, por dentro, las dos esquinas rotas, con cuidado, para que no se notara.
 
-Miré la carpeta. Miré su mano sujetándola. La mano que la había sacado de la basura y la había guardado un año entero en un armario de Madrid.
+Yo la había tirado a la basura el último invierno, una noche, a las tres, sin saber muy bien por qué. Y él la había sacado. La había limpiado hoja por hoja. La había guardado un año entero en un armario de Madrid.
 
 Como un rehén, pensé.
 
-Y en cuanto lo pensé supe que no era solo eso. Que también la había limpiado hoja por hoja, a las tres de la mañana, en pijama. Que las dos cosas cabían en la misma mano. Eso era lo peor.
+Y en cuanto lo pensé supe que no era solo eso. Que también la había envuelto en una funda planchada. Que las dos cosas cabían en la misma mano. Eso era lo peor.
 
 Alargué la mano y la cogí.
 
-Él no la soltó enseguida. La mantuvo un segundo, los dos agarrando la carpeta, mirándome a los ojos.
+Él no la soltó enseguida. La mantuvo un segundo, los dos agarrando la carpeta, mirándome a los ojos. Sonriendo.
 
-Luego la soltó.
-
-—Siempre has tenido demasiada imaginación —dijo, bajito, solo para mí. Y miró a Iter.
+Luego la soltó. Y volvió a mirar a Iter. Solo eso. Lo miró a él y me miró a mí, y no hizo falta que dijera nada.
 
 Noté a Iter moverse detrás de mí. Un paso. Sin tocarme.
 
@@ -5826,7 +5824,11 @@ No de golpe. Despacio. Como se borra el sol detrás de un cirro. Y debajo vi, du
 
 Luego la sonrisa volvió. Más fina.
 
-—Muy bien —dijo. Recogió la caja. Se puso el abrigo de paño azul—. Como quieras. Pero esto no se queda así, Ada. Ya hablaremos.
+Recogió la caja. Se puso el abrigo de paño azul y se lo abrochó entero, botón a botón, sin prisa, mirándome.
+
+—Hasta luego, Aaada.
+
+Con la primera a larga.
 
 Y se fue andando por el muelle, despacio, sin volverse, hacia el coche que había dejado delante de la iglesia.
 
@@ -6058,9 +6060,25 @@ No había rabia en la voz. Había miedo. Y otra cosa: la primera pregunta de ver
 
 Me costó. Ya casi no tenía boca.
 
-Él se volvió hacia Ada. Ada estaba de rodillas a mi lado, con las manos sobre las mías, sin poder agarrarlas. La miró como se mira a una desconocida. Vi cómo lo entendía: que había vivido tres años con una mujer que dibujaba a otro hombre en los márgenes de un cuaderno, cada noche, y nunca lo había sabido. Que no la había conocido nunca.
+Él no se movió. Luego sí. Dio un paso hacia mí. Otro. Se agachó delante, con el abrigo azul arrastrando por el barro, y alargó la mano. La misma mano. Como se acerca la mano a algo que quema.
 
-—Ada… —dijo.
+Me tocó el hombro. Donde me lo había tocado en el puerto.
+
+Su mano entró en mí. No entera. Como entra en el agua turbia: notó algo, un frío, una resistencia blanda, y luego nada. La retiró como si le hubiera mordido. Se la miró. La giró. Se miró la palma mojada como si fuera de otro.
+
+Luego miró al acantilado. Al sitio exacto donde había abierto la mano.
+
+Lo vi entenderlo. No de una vez. Por capas, como se entiende una mala noticia por teléfono. Primero se le quedó la cara en blanco. Luego se le aflojó la boca. Luego algo en los hombros, que siempre llevaba altos, cuadrados, de hombre que entra en una sala y la ocupa, se le vino abajo.
+
+—Lo he tirado yo —dijo. Muy bajo. No me lo decía a mí.
+
+Se volvió hacia Ada.
+
+Ada estaba de rodillas a mi lado, con las manos sobre las mías, sin poder agarrarlas. Él la miró. No era la mirada de la cocina, ni la del puerto, ni ninguna de las que yo le había visto. Era la de un niño que se ha perdido en una estación y acaba de entender que nadie va a venir a buscarlo. La miró como se mira a una desconocida. Tres años durmiendo al lado de una mujer que cada noche, en los márgenes de un cuaderno, dibujaba a otro hombre. Y él no lo había sabido nunca. No la había conocido nunca.
+
+Abrió la boca. Le temblaba.
+
+—Ada, yo…
 
 Ella se levantó.
 
@@ -6068,9 +6086,11 @@ Ella se levantó.
 
 No lo gritó. Lo dijo con la lluvia corriéndole por la cara, como se dice la hora.
 
-Él abrió la boca. La cerró.
+Él no se movió.
 
-Y se fue. Andando hacia su coche gris, resbalando en la hierba, sin volverse.
+—Vete —repitió ella, más bajo.
+
+Se levantó como un hombre mucho más viejo. Se quedó un segundo mirando la hierba. Luego se fue, andando hacia su coche gris, resbalando, sin volverse. Sin la sonrisa. Sin la de debajo. Sin ninguna.
 
 Ella no lo miró irse. Ya estaba corriendo.
 
