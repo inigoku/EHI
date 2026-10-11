@@ -1,4 +1,4 @@
-# Translation guide — *El hombre que esperaba* → *The Man Who Waited*
+# Translation guide — *El hombre que esperaba* → *The Man I Was Waiting For*
 
 Target: US English, commercial romance for women (Kindle), literary but warm. Close first person.
 The Spanish is the authority. Translate everything; never summarize, cut, merge or add.
