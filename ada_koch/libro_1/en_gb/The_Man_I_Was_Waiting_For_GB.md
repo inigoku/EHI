@@ -4155,7 +4155,7 @@ The sea breaks in front of us. Mune charges at the waves.
 
 He doesn't ask me anything. That's the first thing I like. He doesn't ask what I'm doing there alone, or why my eyes are red, or about the cousin with the beard.
 
-I look at him sideways. Sitting on the sand with his forearms on his knees, broad, still, smelling of salt and diesel. In my pocket I'm carrying another man's message, *It's important*, and I feel disgust: for his hurry, for his expensive cologne, for the mouth that kissed me a thousand times to shut me up. And in the same place as the disgust, without permission, a wanting is born in me that I don't know where to put. To close that yard. To rest my forehead on that chest and stay there.
+I look at him sideways. Sitting on the sand with his forearms on his knees, broad, still, smelling of salt and diesel. There's dried salt on the back of his neck, where his hair begins, a fine white crust, and I sit staring at it like a daftie, wondering what it would taste like. It's cold, and he gives off heat like a stone that's been in the sun all day; I can feel it from here. I think, without meaning to, that all it would take is crossing that yard. That I could rest my forehead on that chest and stay there. In my pocket I'm carrying another man's message, *It's important*, and for a few minutes I forget it's there.
 
 He does the talking. Small things. That the water off this beach is the best on the coast for scallops, but only on a flat calm day, and that he's had his licence for three years. That before that he worked on a rig in the North Sea, off Norway, three weeks on and three off, making a lot of money and not seeing the sun in winter.
 
@@ -4789,7 +4789,7 @@ He doesn't ask why. He stops the van on the verge, hands me the bag with my coat
 
 Another day.
 
-He says it looking me in the face, and that's when I realise that under his father's jumper I've nothing on, and that my skin is burning, all of it at once, under the wool.
+He says it looking me in the face, and that's when I realise that I've nothing on under his father's jumper, and that my skin is burning, all of it at once, under the wool.
 
 I get out. Mune whines in the back. The van turns round and heads towards Stromness, and I stand on the verge, wearing a dead man's jumper with my boots in my hand, and start up towards the lighthouse.
 
@@ -5385,7 +5385,7 @@ Some things a woman has to find on her own.
 
 ---
 
-### 23 · Ada (continued)
+### Ada
 
 I open my mouth to lie.
 

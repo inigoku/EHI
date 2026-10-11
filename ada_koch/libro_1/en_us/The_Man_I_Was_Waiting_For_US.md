@@ -4153,7 +4153,7 @@ The sea broke in front of us. Lúa charged at the waves.
 
 He didn't ask me anything. That was the first thing I liked. He didn't ask me what I was doing there alone, or why my eyes were red, or about the cousin with the beard.
 
-I looked at him sideways. Sitting on the sand with his forearms on his knees, broad, still, smelling of salt and diesel. In my pocket I carried another man's message, *It's important*, and I felt disgust: for his hurry, for his expensive cologne, for the mouth that had kissed me a thousand times to shut me up. And in the same place as the disgust, without permission, a wanting was born in me that I didn't know where to put. To close that meter. To rest my forehead on that chest and stay there.
+I looked at him sideways. Sitting on the sand with his forearms on his knees, broad, still, smelling of salt and diesel. There was dried salt on the back of his neck, where his hair began, a fine white crust, and I sat there staring at it like a fool, wondering what it would taste like. It was cold, and he gave off heat like a stone that's been in the sun all day; I could feel it from where I was. I thought, without meaning to, that all it would take was crossing that meter. That I could rest my forehead on that chest and stay there. In my pocket I carried another man's message, *It's important*, and for a few minutes I forgot it was there.
 
 He did the talking. Small things. That this beach was the best on the coast for goose barnacles, but only at a very low tide, and that he'd had his license for three years. That before that he'd worked on an oil platform in the North Sea, off Norway, three weeks on and three off, making a lot of money and not seeing the sun in winter.
 
@@ -4789,7 +4789,7 @@ He didn't ask why. He stopped the van on the shoulder, handed me the bag with my
 
 Another day.
 
-He said it looking me in the face, and that was when I realized that under his father's sweater I had nothing on, and that my skin was burning, all of it at once, under the wool.
+He said it looking me in the face, and that was when I realized that I had nothing on under his father's sweater, and that my skin was burning, all of it at once, under the wool.
 
 I got out. Lúa whined in the back. The van turned around and headed toward the village, and I stood on the shoulder, wearing a dead man's sweater with my boots in my hand, and started up toward the lighthouse.
 
@@ -5384,7 +5384,7 @@ Some things a woman has to find on her own.
 
 ---
 
-### 23 · Ada (continued)
+### Ada
 
 I opened my mouth to lie.
 

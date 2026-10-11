@@ -4154,7 +4154,7 @@ El mar rompía delante de nosotros. Lúa corría contra las olas.
 
 Él no me preguntó nada. Eso fue lo primero que me gustó. No me preguntó qué hacía allí sola, ni por qué tenía los ojos rojos, ni por el primo con barba.
 
-Lo miré de reojo. Sentado en la arena con los antebrazos sobre las rodillas, ancho, quieto, oliendo a sal y a gasoil. En el bolsillo yo llevaba el mensaje de otro hombre, *Es importante*, y me dio asco: de su prisa, de su colonia cara, de la boca que me había besado mil veces para callarme. Y en el mismo sitio del asco, sin permiso, me nacieron unas ganas que no supe dónde meter. De acercarme ese metro. De apoyar la frente en aquel pecho y quedarme ahí.
+Lo miré de reojo. Sentado en la arena con los antebrazos sobre las rodillas, ancho, quieto, oliendo a sal y a gasoil. Tenía sal seca en la nuca, en el nacimiento del pelo, una costra blanca y fina, y yo me quedé mirándola como una tonta, pensando a qué sabría. Hacía frío y él desprendía calor como una piedra que ha estado todo el día al sol; lo notaba desde allí. Pensé, sin querer pensarlo, que bastaba con cruzar ese metro. Que podría apoyar la frente en aquel pecho y quedarme ahí. En el bolsillo yo llevaba el mensaje de otro hombre, *Es importante*, y durante unos minutos se me olvidó que lo llevaba.
 
 Se puso a hablar él. De cosas pequeñas. De que esa playa era la mejor de la costa para el percebe, pero solo con la marea muy baja, y que él tenía licencia desde hacía tres años. Que antes trabajaba en una plataforma petrolífera en el mar del Norte, en Noruega, tres semanas dentro y tres fuera, ganando mucho dinero y no viendo el sol en invierno.
 
@@ -4790,7 +4790,7 @@ No preguntó por qué. Paró la furgoneta en el arcén, me dio la bolsa con mi a
 
 Otro día.
 
-Me lo dijo mirándome a la cara, y fue entonces cuando me di cuenta de que debajo del jersey de su padre no llevaba nada, y de que me ardía la piel, toda a la vez, debajo de la lana.
+Me lo dijo mirándome a la cara, y fue entonces cuando me di cuenta de que yo no llevaba nada debajo del jersey de su padre, y de que me ardía la piel, toda a la vez, debajo de la lana.
 
 Bajé. Lúa gimió detrás. La furgoneta dio la vuelta y se fue hacia el pueblo, y yo me quedé en el arcén, con el jersey de un muerto puesto y las botas en la mano, y empecé a subir hacia el faro.
 
@@ -5386,7 +5386,7 @@ Hay cosas que una tiene que encontrarse sola.
 
 ---
 
-### 23 · Ada (continúa)
+### Ada
 
 Abrí la boca para mentir.
 
