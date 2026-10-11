@@ -8,7 +8,7 @@ lang: en-GB
 # Act One · The Lighthouse
 ## 1 · Ada
 
-Last night I dreamt of him.
+The night before it all began, I dreamt of him.
 
 Not the boy on the rock. The man. He knocked three times at a door that was mine and wasn't, and when I opened it he was there, on the threshold, dripping, his dark hair plastered to his forehead and the whole sea behind him. He didn't say anything. He looked at me the way you look at something you've been searching for a long time.
 
@@ -1294,7 +1294,7 @@ I look.
 
 The wet shirt clings to his back like a second skin, and when he pulls it off over his head I see the muscles moving under his skin, his shoulder blades, the curve of his spine. His skin gleams in the candlelight, goose-pimpled with cold. He has a small mole below his left shoulder.
 
-I haven't drawn that mole. I dreamt it.
+I haven't drawn that mole. I dreamt it. And I don't know who put it in my dream.
 
 Or I have. Maybe I have. Maybe in some margin, in some sketchbook from ten years ago, a pencil dot that slipped out of me. I don't know. I'm not sure I'll ever know.
 
@@ -4155,6 +4155,8 @@ The sea breaks in front of us. Mune charges at the waves.
 
 He doesn't ask me anything. That's the first thing I like. He doesn't ask what I'm doing there alone, or why my eyes are red, or about the cousin with the beard.
 
+I look at him sideways. Sitting on the sand with his forearms on his knees, broad, still, smelling of salt and diesel. In my pocket I'm carrying another man's message, *It's important*, and I feel disgust: for his hurry, for his expensive cologne, for the mouth that kissed me a thousand times to shut me up. And in the same place as the disgust, without permission, a wanting is born in me that I don't know where to put. To close that yard. To rest my forehead on that chest and stay there.
+
 He does the talking. Small things. That the water off this beach is the best on the coast for scallops, but only on a flat calm day, and that he's had his licence for three years. That before that he worked on a rig in the North Sea, off Norway, three weeks on and three off, making a lot of money and not seeing the sun in winter.
 
 'So why did you come back?'
@@ -4786,6 +4788,8 @@ He doesn't ask why. He stops the van on the verge, hands me the bag with my coat
 'I know.' He finally looks at me. 'Give it back another day.'
 
 Another day.
+
+He says it looking me in the face, and that's when I realise that under his father's jumper I've nothing on, and that my skin is burning, all of it at once, under the wool.
 
 I get out. Mune whines in the back. The van turns round and heads towards Stromness, and I stand on the verge, wearing a dead man's jumper with my boots in my hand, and start up towards the lighthouse.
 
@@ -5501,7 +5505,7 @@ They stand like that. Each with the other's thing in his hands.
 
 Silence.
 
-The jumper-cables man nods slowly. He looks for me over Iter's shoulder. He finds me in the hall, in a towel, my hair full of lather. He doesn't smile. I press the towel to my chest and feel my skin burning, all of it at once, under the cloth.
+The jumper-cables man nods slowly. He looks for me over Iter's shoulder. He finds me in the hall, in a towel, my hair full of lather. He doesn't smile.
 
 Then he holds out his hand.
 
@@ -5855,8 +5859,6 @@ And as I say it I know I'm also taking from him the only thing he's done right. 
 His smile goes out.
 
 Little by little. The way the sun goes out behind a cirrus. And underneath I see, for a second, a face the whole town sees too. That my grandmother sees. That the jumper-cables man sees from his boat, because he stands up.
-
-I watch him get to his feet on the gunwale, broad, the needle still in his hand and the net falling from his knees, and something low and hot rises in me along with him. In front of the man I shared a bed with for three years I feel disgust: for his buttoned coat, for his expensive cologne, for the mouth that kissed me a thousand times to shut me up. And at the same time, without permission, a wanting I don't know where to put, to cross the pier and rest my forehead on the chest of the man who mends nets.
 
 Then the smile comes back. Thinner.
 

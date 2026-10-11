@@ -8,7 +8,7 @@ lang: es-ES
 # Primer acto · El faro
 ## 1 · Ada
 
-Esa noche soñé con él.
+La noche antes de que empezara todo, soñé con él.
 
 No con el niño de la roca. Con el hombre. Llamaba tres veces a una puerta que era la mía y no lo era, y cuando abría estaba allí, en el umbral, chorreando, con el pelo oscuro pegado a la frente y el mar entero detrás. No decía nada. Me miraba como se mira algo que se ha buscado mucho tiempo.
 
@@ -1292,7 +1292,7 @@ Miré.
 
 La camisa mojada se le pegaba a la espalda como una segunda piel, y cuando se la quitó por encima de la cabeza vi el movimiento de los músculos bajo la piel, los omóplatos, la curva de la columna. La piel brillaba a la luz de las velas, erizada de frío. Tenía un lunar pequeño debajo del hombro izquierdo.
 
-Yo no había dibujado ese lunar. Lo había soñado.
+Yo no había dibujado ese lunar. Lo había soñado. Y no sabía quién me lo había puesto en el sueño.
 
 O sí. Quizá sí. Quizá en algún margen, en algún cuaderno de hace diez años, un punto de lápiz que se me escapó. No lo sabía. No lo sé todavía.
 
@@ -4154,6 +4154,8 @@ El mar rompía delante de nosotros. Lúa corría contra las olas.
 
 Él no me preguntó nada. Eso fue lo primero que me gustó. No me preguntó qué hacía allí sola, ni por qué tenía los ojos rojos, ni por el primo con barba.
 
+Lo miré de reojo. Sentado en la arena con los antebrazos sobre las rodillas, ancho, quieto, oliendo a sal y a gasoil. En el bolsillo yo llevaba el mensaje de otro hombre, *Es importante*, y me dio asco: de su prisa, de su colonia cara, de la boca que me había besado mil veces para callarme. Y en el mismo sitio del asco, sin permiso, me nacieron unas ganas que no supe dónde meter. De acercarme ese metro. De apoyar la frente en aquel pecho y quedarme ahí.
+
 Se puso a hablar él. De cosas pequeñas. De que esa playa era la mejor de la costa para el percebe, pero solo con la marea muy baja, y que él tenía licencia desde hacía tres años. Que antes trabajaba en una plataforma petrolífera en el mar del Norte, en Noruega, tres semanas dentro y tres fuera, ganando mucho dinero y no viendo el sol en invierno.
 
 —¿Y por qué volviste?
@@ -4787,6 +4789,8 @@ No preguntó por qué. Paró la furgoneta en el arcén, me dio la bolsa con mi a
 —Ya. —Me miró por fin—. Me lo devuelves otro día.
 
 Otro día.
+
+Me lo dijo mirándome a la cara, y fue entonces cuando me di cuenta de que debajo del jersey de su padre no llevaba nada, y de que me ardía la piel, toda a la vez, debajo de la lana.
 
 Bajé. Lúa gimió detrás. La furgoneta dio la vuelta y se fue hacia el pueblo, y yo me quedé en el arcén, con el jersey de un muerto puesto y las botas en la mano, y empecé a subir hacia el faro.
 
@@ -5502,7 +5506,7 @@ Se quedaron así. Cada uno con lo del otro en las manos.
 
 Silencio.
 
-El de las pinzas asintió despacio. Me buscó con los ojos por encima del hombro de Iter. Me encontró en el pasillo, en toalla, con el pelo lleno de espuma. No sonrió. Yo apreté la toalla contra el pecho y noté que me ardía la piel, toda a la vez, debajo de la tela.
+El de las pinzas asintió despacio. Me buscó con los ojos por encima del hombro de Iter. Me encontró en el pasillo, en toalla, con el pelo lleno de espuma. No sonrió.
 
 Luego alargó la mano.
 
@@ -5855,8 +5859,6 @@ Y al decirlo supe que también le estaba quitando lo único que había hecho bie
 Se le borró la sonrisa.
 
 Poco a poco. Como se borra el sol detrás de un cirro. Y debajo vi, durante un segundo, una cara que todo el pueblo vio también. Que mi abuela vio. Que el de las pinzas vio desde su barca, porque se levantó.
-
-Lo vi ponerse de pie en la borda, ancho, con la aguja todavía en la mano y la red cayéndole de las rodillas, y algo bajo y caliente se me levantó por dentro con él. Delante del hombre con el que había compartido cama tres años sentí asco: de su abrigo abrochado, de su colonia cara, de la boca que me había besado mil veces para callarme. Y al mismo tiempo, sin permiso, unas ganas que no supe dónde meter de cruzar el muelle y apoyar la frente en el pecho del que cosía redes.
 
 Luego la sonrisa volvió. Más fina.
 

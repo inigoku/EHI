@@ -8,7 +8,7 @@ lang: en-US
 # Act One · The Lighthouse
 ## 1 · Ada
 
-That night I dreamed of him.
+The night before it all began, I dreamed of him.
 
 Not the boy on the rock. The man. He knocked three times at a door that was mine and wasn't, and when I opened it he was there, on the threshold, dripping, his dark hair plastered to his forehead and the whole sea behind him. He didn't say anything. He looked at me the way you look at something you've been searching for a long time.
 
@@ -1292,7 +1292,7 @@ I looked.
 
 The wet shirt clung to his back like a second skin, and when he pulled it off over his head I saw the muscles moving under his skin, his shoulder blades, the curve of his spine. His skin gleamed in the candlelight, goose-pimpled with cold. He had a small mole below his left shoulder.
 
-I hadn't drawn that mole. I had dreamed it.
+I hadn't drawn that mole. I had dreamed it. And I didn't know who had put it in my dream.
 
 Or I had. Maybe I had. Maybe in some margin, in some sketchbook from ten years ago, a pencil dot that slipped out of me. I didn't know. I still don't.
 
@@ -4153,6 +4153,8 @@ The sea broke in front of us. Lúa charged at the waves.
 
 He didn't ask me anything. That was the first thing I liked. He didn't ask me what I was doing there alone, or why my eyes were red, or about the cousin with the beard.
 
+I looked at him sideways. Sitting on the sand with his forearms on his knees, broad, still, smelling of salt and diesel. In my pocket I carried another man's message, *It's important*, and I felt disgust: for his hurry, for his expensive cologne, for the mouth that had kissed me a thousand times to shut me up. And in the same place as the disgust, without permission, a wanting was born in me that I didn't know where to put. To close that meter. To rest my forehead on that chest and stay there.
+
 He did the talking. Small things. That this beach was the best on the coast for goose barnacles, but only at a very low tide, and that he'd had his license for three years. That before that he'd worked on an oil platform in the North Sea, off Norway, three weeks on and three off, making a lot of money and not seeing the sun in winter.
 
 "So why did you come back?"
@@ -4786,6 +4788,8 @@ He didn't ask why. He stopped the van on the shoulder, handed me the bag with my
 "I know." He finally looked at me. "Give it back another day."
 
 Another day.
+
+He said it looking me in the face, and that was when I realized that under his father's sweater I had nothing on, and that my skin was burning, all of it at once, under the wool.
 
 I got out. Lúa whined in the back. The van turned around and headed toward the village, and I stood on the shoulder, wearing a dead man's sweater with my boots in my hand, and started up toward the lighthouse.
 
@@ -5500,7 +5504,7 @@ They stood like that. Each with the other's thing in his hands.
 
 Silence.
 
-The jumper-cables man nodded slowly. He looked for me over Iter's shoulder. He found me in the hall, in a towel, my hair full of lather. He didn't smile. I pressed the towel to my chest and felt my skin burning, all of it at once, under the cloth.
+The jumper-cables man nodded slowly. He looked for me over Iter's shoulder. He found me in the hall, in a towel, my hair full of lather. He didn't smile.
 
 Then he held out his hand.
 
@@ -5852,8 +5856,6 @@ And as I said it I knew I was also taking from him the only thing he'd done righ
 His smile went out.
 
 Little by little. The way the sun goes out behind a cirrus. And underneath I saw, for a second, a face the whole village saw too. That my grandmother saw. That the jumper-cables man saw from his boat, because he stood up.
-
-I watched him get to his feet on the gunwale, broad, the needle still in his hand and the net falling from his knees, and something low and hot rose in me along with him. In front of the man I had shared a bed with for three years I felt disgust: for his buttoned coat, for his expensive cologne, for the mouth that had kissed me a thousand times to shut me up. And at the same time, without permission, a wanting I didn't know where to put, to cross the pier and rest my forehead on the chest of the man who mended nets.
 
 Then the smile came back. Thinner.
 
