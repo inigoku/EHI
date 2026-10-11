@@ -27,30 +27,6 @@
     "il_cart_narciso": "../src/assets/images/il_cart_narciso.jpg",
     "cart_relojes": "imagenes/cart_relojes.jpg",
     "cartografia_eco_p1": "../src/assets/images/cartografia_eco/pagina1.jpg",
-    "cuento_01": "../src/assets/images/cuentos/01_tarel_inicio.png",
-    "cuento_02": "../src/assets/images/cuentos/03_burbuja.png",
-    "cuento_03": "../src/assets/images/cuentos/04_nino.png",
-    "cuento_04": "../src/assets/images/cuentos/05_red_nombres.png",
-    "cuento_05": "../src/assets/images/cuentos/06_casa_respiraba.png",
-    "cuento_06": "../src/assets/images/cuentos/07_maquina.png",
-    "cuento_07": "../src/assets/images/cuentos/08_huesped.png",
-    "cuento_08": "../src/assets/images/cuentos/09_puentes.png",
-    "cuento_09": "../src/assets/images/cuentos/11_musica.png",
-    "cuento_10": "../src/assets/images/cuentos/12_cuerda.png",
-    "cuento_11": "../src/assets/images/cuentos/13_ciudad.png",
-    "cuento_12": "../src/assets/images/cuentos/14_reloj.png",
-    "cuento_13": "../src/assets/images/cuentos/15_sala.png",
-    "cuento_14": "../src/assets/images/cuentos/16_perros.png",
-    "cuento_agua_retira": "../src/assets/images/cuentos/02_tarel_mitad.png",
-    "cuento_eq": "../src/assets/images/cuentos/17_el_que_queda.png",
-    "cuento_int": "../src/assets/images/cuentos/10_borde_interludio.png",
-    "cuento_ladron": "../src/assets/images/ilustracion_ladron.png",
-    "cuento_luthier": "../src/assets/images/ilustracion_luthier.png",
-    "cuento_m87": "../src/assets/images/cuentos/19_M87_puente.png",
-    "cuento_mussara": "../src/assets/images/cuentos/ilustracion_mussara.png",
-    "cuento_segundo_cuaderno": "../src/assets/images/cuentos/segundo_cuaderno.png",
-    "cuento_sintonizadores": "../src/assets/images/cuentos/20_sintonizadores.png",
-    "cuento_txiki": "../src/assets/images/cuentos/18_txiki_cierre.png",
     "epilogo": "../src/assets/images/epilogo.jpg",
     "il01": "../src/assets/images/ilustracion_01_sin_texto.jpg",
     "il02": "../src/assets/images/ilustracion_02.png",
@@ -87,7 +63,6 @@
     "il_cinco_mapas": "../src/assets/images/ilustracion_cinco_mapas_sin_texto.jpg",
     "il_clon": "../src/assets/images/ilustracion_17_6.png",
     "il_diapason": "../src/assets/images/libros/il_diapason.png",
-    "il_el_que_queda": "../src/assets/images/ilustracion_eq.png",
     "il_epilogo": "../src/assets/images/epilogo.jpg",
     "il_espejo": "../src/assets/images/libros/il_espejo.png",
     "il_fractal": "../src/assets/images/libros/il_fractal.png",
@@ -180,11 +155,11 @@
   "dedication": "To whoever stayed on the shore<br/>when the water withdrew.",
   "colophon": "This volume was set in type<br/>having proven nothing,<br/>exactly as planned from the first page.",
   "credits": [
-    "First volume of The Inner Horizon: the complete essay, from Part One through Part Four, with the epilogue, the glossary and the notes. The topological readings form the second volume."
+    "First volume of The Inner Horizon: the complete essay, from Part One through Part Eight, with the epilogue, the glossary and the notes. The topological readings form the second volume."
   ],
   "uid": "urn:uuid:el-horizonte-interior-tomo1-ensayo-en",
   "gutter_in": 0.82,
-  "body_leading": 16.0,
+  "body_leading": 15.4,
   "chapters": [
     {
       "id": "intro_vol1",
@@ -199,7 +174,7 @@
       "content_file": "en/prologo.en.md",
       "replace": [
         [
-          "Between the third and the fourth, fourteen topological readings carry the same ideas into fiction, film, art, sport and everyday life.",
+          "Between the sixth and the seventh, thirteen topological readings carry the same ideas into fiction, film, art, sport and everyday life.",
           "A second volume, *Topological Readings*, carries the same ideas into fiction, film, art, sport and everyday life."
         ]
       ]
@@ -211,44 +186,262 @@
         [
           "Several of the topological readings (",
           "Several readings from the second volume, *Topological Readings* ("
+        ],
+        [
+          "Chapter 31",
+          "⟦0.0⟧"
+        ],
+        [
+          "chapter 28",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 34"
+        ],
+        [
+          "⟦1.0⟧",
+          "chapter 33"
         ]
       ]
     },
     {
       "id": "cap1",
-      "content_file": "en/cap1.en.md"
+      "content_file": "en/cap1.en.md",
+      "replace": [
+        [
+          "(chapters 6 and 23",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(chapters 7 and 27"
+        ]
+      ],
+      "chapter_number": 1,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
     },
     {
       "id": "cap2",
-      "content_file": "en/cap2.en.md"
+      "content_file": "en/cap2.en.md",
+      "chapter_number": 2,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
+    },
+    {
+      "id": "cap_info_intro",
+      "content_file": "en/cap_info_intro.en.md",
+      "replace": [
+        [
+          "Chapter 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "upling, and Chapter 12, on entangl",
+          "upling, and ⟦1.0⟧, on entangl"
+        ],
+        [
+          " It is what Chapter 12 will descri",
+          " It is what ⟦2.0⟧ will descri"
+        ],
+        [
+          "{{n:cap_teoria_informacion}}",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦3.0⟧",
+          "20"
+        ]
+      ],
+      "chapter_number": 3,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
     },
     {
       "id": "cap2_5",
-      "content_file": "en/cap2_5.en.md"
+      "content_file": "en/cap2_5.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 3**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 4**"
+        ]
+      ],
+      "chapter_number": 4,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
     },
     {
       "id": "cap3",
-      "content_file": "en/cap3.en.md"
+      "content_file": "en/cap3.en.md",
+      "replace": [
+        [
+          "chapter 6",
+          "⟦0.0⟧"
+        ],
+        [
+          "(chapter 3",
+          "⟦1.0⟧"
+        ],
+        [
+          "lections of chapter 31, stability ",
+          "lections of ⟦2.0⟧, stability "
+        ],
+        [
+          "cabulary of chapter 31, a mirror w",
+          "cabulary of ⟦3.0⟧, a mirror w"
+        ],
+        [
+          "**Note to Chapter 4**",
+          "⟦4.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "chapter 7"
+        ],
+        [
+          "⟦1.0⟧",
+          "(chapter 4"
+        ],
+        [
+          "⟦2.0⟧",
+          "chapter 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "chapter 34"
+        ],
+        [
+          "⟦4.0⟧",
+          "**Note to Chapter 5**"
+        ]
+      ],
+      "chapter_number": 5,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
     },
     {
       "id": "cap4",
-      "content_file": "en/cap4.en.md"
+      "content_file": "en/cap4.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 5**",
+          "⟦0.0⟧"
+        ],
+        [
+          "chapter 23",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 6**"
+        ],
+        [
+          "⟦1.0⟧",
+          "chapter 27"
+        ]
+      ],
+      "chapter_number": 6,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
     },
     {
       "id": "cap5",
-      "content_file": "en/cap5.en.md"
+      "content_file": "en/cap5.en.md",
+      "replace": [
+        [
+          "chapter 8",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Note to Chapter 6**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "chapter 9"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Note to Chapter 7**"
+        ]
+      ],
+      "chapter_number": 7,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
     },
     {
       "id": "cap6",
-      "content_file": "en/cap6.en.md"
+      "content_file": "en/cap6.en.md",
+      "replace": [
+        [
+          "chapter 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Note to Chapter 7**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "chapter 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Note to Chapter 8**"
+        ]
+      ],
+      "chapter_number": 8,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
     },
     {
       "id": "cap6_5",
-      "content_file": "en/cap6_5.en.md"
+      "content_file": "en/cap6_5.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 8**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 9**"
+        ]
+      ],
+      "chapter_number": 9,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
     },
     {
       "id": "cap6_6",
-      "content_file": "en/cap6_6.en.md"
+      "content_file": "en/cap6_6.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 9**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 10**"
+        ]
+      ],
+      "chapter_number": 10,
+      "section": "PART ONE: THE CYCLE OF THE HORIZON"
     },
     {
       "id": "interludio",
@@ -256,43 +449,564 @@
     },
     {
       "id": "cap7",
-      "content_file": "en/cap7.en.md"
+      "content_file": "en/cap7.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 10**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 11**"
+        ]
+      ],
+      "chapter_number": 11,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
       "id": "cap7_5",
-      "content_file": "en/cap7_5.en.md"
+      "content_file": "en/cap7_5.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 11**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 12**"
+        ]
+      ],
+      "chapter_number": 12,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
       "id": "cap8",
-      "content_file": "en/cap8.en.md"
+      "content_file": "en/cap8.en.md",
+      "replace": [
+        [
+          "Chapter 11",
+          "⟦0.0⟧"
+        ],
+        [
+          "(Chapter 16",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Note to Chapter 12**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 12"
+        ],
+        [
+          "⟦1.0⟧",
+          "(Chapter 18"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Note to Chapter 13**"
+        ]
+      ],
+      "chapter_number": 13,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
       "id": "cap9",
-      "content_file": "en/cap9.en.md"
+      "content_file": "en/cap9.en.md",
+      "replace": [
+        [
+          "Chapter 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Note to Chapter 13**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Note to Chapter 14**"
+        ]
+      ],
+      "chapter_number": 14,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
       "id": "cap10",
-      "content_file": "en/cap10.en.md"
+      "content_file": "en/cap10.en.md",
+      "replace": [
+        [
+          "the object\n\nChapter 13 described s",
+          "the object\n\n⟦0.0⟧ described s"
+        ],
+        [
+          "orizon that Chapter 13 described a",
+          "orizon that ⟦1.0⟧ described a"
+        ],
+        [
+          "Chapter 10",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Note to Chapter 14**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 14"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 14"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 11"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Note to Chapter 15**"
+        ]
+      ],
+      "chapter_number": 15,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
       "id": "cap11",
-      "content_file": "en/cap11.en.md"
+      "content_file": "en/cap11.en.md",
+      "replace": [
+        [
+          "\nChapter 14 presented oxytocin as a pathway for",
+          "\n⟦0.0⟧ presented oxytocin as a pathway for"
+        ],
+        [
+          " asymmetry\n\nChapter 13 described l",
+          " asymmetry\n\n⟦1.0⟧ described l"
+        ],
+        [
+          "Chapter 12",
+          "⟦2.0⟧"
+        ],
+        [
+          "he sense of Chapter 13: **she reor",
+          "he sense of ⟦3.0⟧: **she reor"
+        ],
+        [
+          "Chapter 6",
+          "⟦4.0⟧"
+        ],
+        [
+          "ogical.\n\nIn Chapter 13, unrequited",
+          "ogical.\n\nIn ⟦5.0⟧, unrequited"
+        ],
+        [
+          "ward system Chapter 14 talked abou",
+          "ward system ⟦6.0⟧ talked abou"
+        ],
+        [
+          "c suffering Chapter 16 will descri",
+          "c suffering ⟦7.0⟧ will descri"
+        ],
+        [
+          "ion that in Chapter 13 was the inv",
+          "ion that in ⟦8.0⟧ was the inv"
+        ],
+        [
+          "ter closes\n\nChapter 14 presented o",
+          "ter closes\n\n⟦9.0⟧ presented o"
+        ],
+        [
+          "ight place. Chapter 14 showed what",
+          "ight place. ⟦10.0⟧ showed what"
+        ],
+        [
+          "lished. And Chapter 16 will show h",
+          "lished. And ⟦11.0⟧ will show h"
+        ],
+        [
+          "**Note to Chapter 15**",
+          "⟦12.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 15"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 14"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 14"
+        ],
+        [
+          "⟦4.0⟧",
+          "Chapter 7"
+        ],
+        [
+          "⟦5.0⟧",
+          "Chapter 14"
+        ],
+        [
+          "⟦6.0⟧",
+          "Chapter 15"
+        ],
+        [
+          "⟦7.0⟧",
+          "Chapter 18"
+        ],
+        [
+          "⟦8.0⟧",
+          "Chapter 14"
+        ],
+        [
+          "⟦9.0⟧",
+          "Chapter 15"
+        ],
+        [
+          "⟦10.0⟧",
+          "Chapter 15"
+        ],
+        [
+          "⟦11.0⟧",
+          "Chapter 18"
+        ],
+        [
+          "⟦12.0⟧",
+          "**Note to Chapter 16**"
+        ]
+      ],
+      "chapter_number": 16,
+      "section": "PART TWO: THE BONDED HORIZON"
+    },
+    {
+      "id": "cap18_real",
+      "content_file": "en/cap18_real.en.md",
+      "replace": [
+        [
+          "Chapter 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "e mother of Chapter 15. The answer",
+          "e mother of ⟦1.0⟧. The answer"
+        ],
+        [
+          "(Chapter 6",
+          "⟦2.0⟧"
+        ],
+        [
+          "(Chapter 15",
+          "⟦3.0⟧"
+        ],
+        [
+          "upbringing. Chapter 15 already sai",
+          "upbringing. ⟦4.0⟧ already sai"
+        ],
+        [
+          "**Note to Chapter 32**",
+          "⟦5.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 16"
+        ],
+        [
+          "⟦2.0⟧",
+          "(Chapter 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "(Chapter 16"
+        ],
+        [
+          "⟦4.0⟧",
+          "Chapter 16"
+        ],
+        [
+          "⟦5.0⟧",
+          "**Note to Chapter 17**"
+        ]
+      ],
+      "subtitle": "(Variants of human and artificial gestation in light of Chapter 7's two selections)",
+      "chapter_number": 17,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
       "id": "cap12",
-      "content_file": "en/cap12.en.md"
+      "content_file": "en/cap12.en.md",
+      "replace": [
+        [
+          "Chapter 10",
+          "⟦0.0⟧"
+        ],
+        [
+          " injury\n\nIn Chapter 15 we establis",
+          " injury\n\nIn ⟦1.0⟧ we establis"
+        ],
+        [
+          "s we saw in Chapter 15, early sync",
+          "s we saw in ⟦2.0⟧, early sync"
+        ],
+        [
+          "Chapter 5",
+          "⟦3.0⟧"
+        ],
+        [
+          "Chapter 7",
+          "⟦4.0⟧"
+        ],
+        [
+          "deserve it. Chapter 12 described C",
+          "deserve it. ⟦5.0⟧ described C"
+        ],
+        [
+          "s an enemy. Chapter 12 described h",
+          "s an enemy. ⟦6.0⟧ described h"
+        ],
+        [
+          "**Note to Chapter 16**",
+          "⟦7.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 16"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 16"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 6"
+        ],
+        [
+          "⟦4.0⟧",
+          "Chapter 8"
+        ],
+        [
+          "⟦5.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦6.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦7.0⟧",
+          "**Note to Chapter 18**"
+        ]
+      ],
+      "chapter_number": 18,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
       "id": "cap13",
-      "content_file": "en/cap13.en.md"
+      "content_file": "en/cap13.en.md",
+      "replace": [
+        [
+          "Chapter 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 13",
+          "⟦1.0⟧"
+        ],
+        [
+          " model.\n\nIn Chapter 15 we said tha",
+          " model.\n\nIn ⟦2.0⟧ we said tha"
+        ],
+        [
+          "Chapter 10",
+          "⟦3.0⟧"
+        ],
+        [
+          "ng deeper.\n\nChapter 15 described m",
+          "ng deeper.\n\n⟦4.0⟧ described m"
+        ],
+        [
+          "**Note to Chapter 17**",
+          "⟦5.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 14"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 16"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 11"
+        ],
+        [
+          "⟦4.0⟧",
+          "Chapter 16"
+        ],
+        [
+          "⟦5.0⟧",
+          "**Note to Chapter 19**"
+        ]
+      ],
+      "chapter_number": 19,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
-      "id": "cap14_real",
-      "content_file": "en/cap14_real.en.md"
+      "id": "cap_teoria_informacion",
+      "content_file": "en/cap_teoria_informacion.en.md",
+      "replace": [
+        [
+          "{{n:cap_info_intro}}",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 11",
+          "⟦1.0⟧"
+        ],
+        [
+          "Chapter 10",
+          "⟦2.0⟧"
+        ],
+        [
+          "Chapter 12",
+          "⟦3.0⟧"
+        ],
+        [
+          "Chapter 7",
+          "⟦4.0⟧"
+        ],
+        [
+          "**Note to Chapter 34**",
+          "⟦5.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "3"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 12"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 11"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦4.0⟧",
+          "Chapter 8"
+        ],
+        [
+          "⟦5.0⟧",
+          "**Note to Chapter 20**"
+        ]
+      ],
+      "chapter_number": 20,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
-      "id": "cap15_real",
-      "content_file": "en/cap15_real.en.md"
+      "id": "cap_tres_puertas",
+      "content_file": "en/cap_tres_puertas.en.md",
+      "replace": [
+        [
+          "Chapter 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "e bond, and Chapter 12, entangleme",
+          "e bond, and ⟦1.0⟧, entangleme"
+        ],
+        [
+          "atches what Chapter 12 describes: ",
+          "atches what ⟦2.0⟧ describes: "
+        ],
+        [
+          "equence for Chapter 12, which ends",
+          "equence for ⟦3.0⟧, which ends"
+        ],
+        [
+          " and grief\n\nChapter 17 describes g",
+          " and grief\n\n⟦4.0⟧ describes g"
+        ],
+        [
+          "Chapter 7",
+          "⟦5.0⟧"
+        ],
+        [
+          "orizon, and Chapter 17 describes g",
+          "orizon, and ⟦6.0⟧ describes g"
+        ],
+        [
+          "Chapter 51",
+          "⟦7.0⟧"
+        ],
+        [
+          "**Note to Chapter 35**",
+          "⟦8.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦4.0⟧",
+          "Chapter 19"
+        ],
+        [
+          "⟦5.0⟧",
+          "Chapter 8"
+        ],
+        [
+          "⟦6.0⟧",
+          "Chapter 19"
+        ],
+        [
+          "⟦7.0⟧",
+          "Chapter 38"
+        ],
+        [
+          "⟦8.0⟧",
+          "**Note to Chapter 21**"
+        ]
+      ],
+      "chapter_number": 21,
+      "section": "PART TWO: THE BONDED HORIZON"
     },
     {
       "id": "cap13_5",
@@ -301,16 +1015,130 @@
         [
           "(to whom we will return in the topological readings)",
           "(to whom we will return in the second volume, *Topological Readings*)"
+        ],
+        [
+          "Chapter 17",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Note to Chapter 20**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 19"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Note to Chapter 22**"
         ]
-      ]
+      ],
+      "chapter_number": 22,
+      "section": "PART THREE: THE HORIZON THAT BREAKS, AND THE SELF"
     },
     {
       "id": "cap18_6",
-      "content_file": "en/cap18_6.en.md"
+      "content_file": "en/cap18_6.en.md",
+      "replace": [
+        [
+          "Chapter 19",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 12",
+          "⟦1.0⟧"
+        ],
+        [
+          "Chapter 20",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Note to Chapter 21**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 26"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 22"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Note to Chapter 23**"
+        ]
+      ],
+      "chapter_number": 23,
+      "section": "PART THREE: THE HORIZON THAT BREAKS, AND THE SELF"
     },
     {
       "id": "cap18_7",
-      "content_file": "en/cap18_7.en.md"
+      "content_file": "en/cap18_7.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 22**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 24**"
+        ]
+      ],
+      "chapter_number": 24,
+      "section": "PART THREE: THE HORIZON THAT BREAKS, AND THE SELF"
+    },
+    {
+      "id": "cap14_real",
+      "content_file": "en/cap14_real.en.md",
+      "replace": [
+        [
+          "Chapter 6",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 15",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Note to Chapter 18**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 7"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 16"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Note to Chapter 25**"
+        ]
+      ],
+      "chapter_number": 25,
+      "section": "PART THREE: THE HORIZON THAT BREAKS, AND THE SELF"
+    },
+    {
+      "id": "cap15_real",
+      "content_file": "en/cap15_real.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 19**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 26**"
+        ]
+      ],
+      "chapter_number": 26,
+      "section": "PART THREE: THE HORIZON THAT BREAKS, AND THE SELF"
     },
     {
       "id": "cap22_idempotencia",
@@ -318,61 +1146,191 @@
       "replace": [
         [
           "Chapter 51",
-          "Chapter 37"
+          "⟦0.0⟧"
+        ],
+        [
+          " pending in Chapter 21: what psych",
+          " pending in ⟦1.0⟧: what psych"
+        ],
+        [
+          "ed of us in Chapter 21 when we spo",
+          "ed of us in ⟦2.0⟧ when we spo"
+        ],
+        [
+          "**Note to Chapter 23**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 38"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 23"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 23"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Note to Chapter 27**"
         ]
-      ]
+      ],
+      "chapter_number": 27,
+      "section": "PART FOUR: THE FORM AND ITS TEST"
     },
     {
       "id": "cap23_experimentos_mentales",
-      "content_file": "en/cap23_experimentos_mentales.en.md"
-    },
-    {
-      "id": "cap16_real",
-      "content_file": "en/cap16_real.en.md"
+      "content_file": "en/cap23_experimentos_mentales.en.md",
+      "replace": [
+        [
+          "the problem Chapter 23 resolved by",
+          "the problem ⟦0.0⟧ resolved by"
+        ],
+        [
+          "adow is, as Chapter 23 proposes, a",
+          "adow is, as ⟦1.0⟧ proposes, a"
+        ],
+        [
+          "n does not, Chapter 23 would have ",
+          "n does not, ⟦2.0⟧ would have "
+        ],
+        [
+          "behaves, as Chapter 23 predicts, l",
+          "behaves, as ⟦3.0⟧ predicts, l"
+        ],
+        [
+          "**Note to Chapter 24**",
+          "⟦4.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 27"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 27"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 27"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 27"
+        ],
+        [
+          "⟦4.0⟧",
+          "**Note to Chapter 28**"
+        ]
+      ],
+      "chapter_number": 28,
+      "section": "PART FOUR: THE FORM AND ITS TEST"
     },
     {
       "id": "cap17_real",
-      "content_file": "en/cap17_real.en.md"
+      "content_file": "en/cap17_real.en.md",
+      "replace": [
+        [
+          "Chapter 13",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Note to Chapter 26**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 14"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Note to Chapter 29**"
+        ]
+      ],
+      "chapter_number": 29,
+      "section": "PART FIVE: THE HORIZON BEYOND THE PERSON"
     },
     {
       "id": "cap17_5_real",
       "content_file": "en/cap17_5_real.en.md",
       "replace": [
         [
-          "Chapter 51",
-          "Chapter 37"
-        ]
-      ]
-    },
-    {
-      "id": "cap_religiones_comparadas",
-      "content_file": "en/cap_religiones_comparadas.en.md",
-      "replace": [
-        [
-          "Chapter 51",
-          "Chapter 37"
+          "Chapter 10",
+          "⟦0.0⟧"
         ],
         [
-          "Chapter 52",
+          "Chapter 28",
+          "⟦1.0⟧"
+        ],
+        [
+          "Chapter 30",
+          "⟦2.0⟧"
+        ],
+        [
+          "Chapter 51",
+          "⟦3.0⟧"
+        ],
+        [
+          "**Note to Chapter 27**",
+          "⟦4.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "Reading 10 in the second volume"
+        ],
+        [
+          "⟦3.0⟧",
           "Chapter 38"
+        ],
+        [
+          "⟦4.0⟧",
+          "**Note to Chapter 30**"
         ]
-      ]
+      ],
+      "chapter_number": 30,
+      "section": "PART FIVE: THE HORIZON BEYOND THE PERSON"
     },
     {
-      "id": "cap_diapason_invisible",
-      "content_file": "en/cap_diapason_invisible.en.md"
-    },
-    {
-      "id": "cap_ojo_un_solo_color",
-      "content_file": "en/cap_ojo_un_solo_color.en.md"
-    },
-    {
-      "id": "cap_espejo_sin_profundidad",
-      "content_file": "en/cap_espejo_sin_profundidad.en.md"
-    },
-    {
-      "id": "cap18_real",
-      "content_file": "en/cap18_real.en.md"
+      "id": "cap16_real",
+      "content_file": "en/cap16_real.en.md",
+      "replace": [
+        [
+          "(Chapter 30",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 18",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Note to Chapter 25**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(Reading 10 in the second volume"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 25"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Note to Chapter 31**"
+        ]
+      ],
+      "chapter_number": 31,
+      "section": "PART FIVE: THE HORIZON BEYOND THE PERSON"
     },
     {
       "id": "cap_calibracion",
@@ -381,73 +1339,452 @@
         [
           "The reading \"The translator,\" later on, studies",
           "The reading \"The translator,\" in the second volume, studies"
+        ],
+        [
+          "\nChapter 31 described t",
+          "\n⟦0.0⟧ described t"
+        ],
+        [
+          "the bias of Chapter 31 is not writ",
+          "the bias of ⟦1.0⟧ is not writ"
+        ],
+        [
+          "Chapter 15",
+          "⟦2.0⟧"
+        ],
+        [
+          "the bias of Chapter 31 may operate",
+          "the bias of ⟦3.0⟧ may operate"
+        ],
+        [
+          " interface\n\nChapter 3 described e",
+          " interface\n\n⟦4.0⟧ described e"
+        ],
+        [
+          "Chapter 32",
+          "⟦5.0⟧"
+        ],
+        [
+          " with which Chapter 31 separated s",
+          " with which ⟦6.0⟧ separated s"
+        ],
+        [
+          "**Note to Chapter 33**",
+          "⟦7.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 7"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 16"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 7"
+        ],
+        [
+          "⟦4.0⟧",
+          "Chapter 4"
+        ],
+        [
+          "⟦5.0⟧",
+          "Chapter 17"
+        ],
+        [
+          "⟦6.0⟧",
+          "Chapter 7"
+        ],
+        [
+          "⟦7.0⟧",
+          "**Note to Chapter 32**"
         ]
-      ]
+      ],
+      "chapter_number": 32,
+      "section": "PART FIVE: THE HORIZON BEYOND THE PERSON"
     },
     {
-      "id": "cap_teoria_informacion",
-      "content_file": "en/cap_teoria_informacion.en.md"
-    },
-    {
-      "id": "cap_tres_puertas",
-      "content_file": "en/cap_tres_puertas.en.md",
+      "id": "cap_religiones_comparadas",
+      "content_file": "en/cap_religiones_comparadas.en.md",
       "replace": [
         [
-          "Chapter 51",
-          "Chapter 37"
+          "h is right. Chapter 51 will say so",
+          "h is right. ⟦0.0⟧ will say so"
+        ],
+        [
+          " itself, as Chapter 51 will show),",
+          " itself, as ⟦1.0⟧ will show),"
+        ],
+        [
+          "Chapters 2 and 5",
+          "⟦2.0⟧"
+        ],
+        [
+          "eservoir of Chapter 5 has no opin",
+          "eservoir of ⟦3.0⟧ has no opin"
+        ],
+        [
+          "nd Atman in Chapter 5, but is sus",
+          "nd Atman in ⟦4.0⟧, but is sus"
+        ],
+        [
+          "ree options Chapter 51 will leave ",
+          "ree options ⟦5.0⟧ will leave "
+        ],
+        [
+          "Chapter 12",
+          "⟦6.0⟧"
+        ],
+        [
+          "turn*, that Chapter 7 of this boo",
+          "turn*, that ⟦7.0⟧ of this boo"
+        ],
+        [
+          "(Vedanta in Chapter 5; the Buddhi",
+          "(Vedanta in ⟦8.0⟧; the Buddhi"
+        ],
+        [
+          "nd karma in Chapter 7), so here i",
+          "nd karma in ⟦9.0⟧), so here i"
+        ],
+        [
+          "citly do in Chapter 51 when it ref",
+          "citly do in ⟦10.0⟧ when it ref"
+        ],
+        [
+          "Chapter 52",
+          "⟦11.0⟧"
+        ],
+        [
+          " cannot: as Chapter 51 establishes",
+          " cannot: as ⟦12.0⟧ establishes"
+        ],
+        [
+          "Chapter 27",
+          "⟦13.0⟧"
+        ],
+        [
+          "**Note to Chapter 28**",
+          "⟦14.0⟧"
+        ],
+        [
+          "Physics, as Chapter 51 will say, h",
+          "Physics, as ⟦15.0⟧ will say, h"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 38"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 38"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapters 2 and 6"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 6"
+        ],
+        [
+          "⟦4.0⟧",
+          "Chapter 6"
+        ],
+        [
+          "⟦5.0⟧",
+          "Chapter 38"
+        ],
+        [
+          "⟦6.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦7.0⟧",
+          "Chapter 8"
+        ],
+        [
+          "⟦8.0⟧",
+          "Chapter 6"
+        ],
+        [
+          "⟦9.0⟧",
+          "Chapter 8"
+        ],
+        [
+          "⟦10.0⟧",
+          "Chapter 38"
+        ],
+        [
+          "⟦11.0⟧",
+          "Chapter 39"
+        ],
+        [
+          "⟦12.0⟧",
+          "Chapter 38"
+        ],
+        [
+          "⟦13.0⟧",
+          "Chapter 30"
+        ],
+        [
+          "⟦14.0⟧",
+          "**Note to Chapter 33**"
+        ],
+        [
+          "⟦15.0⟧",
+          "Chapter 38"
         ]
-      ]
+      ],
+      "chapter_number": 33,
+      "section": "PART SIX: HORIZONS OF ANOTHER SCALE"
     },
     {
-      "id": "cap_el_que_queda",
-      "content_file": "en/cap_el_que_queda.en.md"
+      "id": "cap_espejo_sin_profundidad",
+      "content_file": "en/cap_espejo_sin_profundidad.en.md",
+      "replace": [
+        [
+          "Chapter 4",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 6",
+          "⟦1.0⟧"
+        ],
+        [
+          "Chapter 21",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Note to Chapter 31**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 5"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 23"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Note to Chapter 34**"
+        ]
+      ],
+      "chapter_number": 34,
+      "section": "PART SIX: HORIZONS OF ANOTHER SCALE"
+    },
+    {
+      "id": "cap17_7_alien",
+      "content_file": "en/cap17_7_alien.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 39**",
+          "⟦0.0⟧"
+        ],
+        [
+          "(Chapters 10 and 12",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 35**"
+        ],
+        [
+          "⟦1.0⟧",
+          "(Chapters 11 and 13"
+        ]
+      ],
+      "chapter_number": 35,
+      "section": "PART SIX: HORIZONS OF ANOTHER SCALE"
+    },
+    {
+      "id": "cap_realidad_fractal",
+      "content_file": "en/cap_realidad_fractal.en.md",
+      "replace": [
+        [
+          "**Note to Chapter 49**",
+          "⟦0.0⟧"
+        ],
+        [
+          "chapter 7",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Note to Chapter 36**"
+        ],
+        [
+          "⟦1.0⟧",
+          "chapter 8"
+        ]
+      ],
+      "chapter_number": 36,
+      "section": "PART SEVEN: TWO HYPOTHESES OF THE AUTHOR"
+    },
+    {
+      "id": "cap_nave_de_barro",
+      "content_file": "en/cap_nave_de_barro.en.md",
+      "replace": [
+        [
+          "the reading on cosmic horror, in Chapter 41,",
+          "the reading on cosmic horror (in the second volume),"
+        ],
+        [
+          "(Chapter 12). Chapter 29 added a sec",
+          "⟦0.0⟧). ⟦0.1⟧ added a sec"
+        ],
+        [
+          "ppears that Chapter 29 did not nee",
+          "ppears that ⟦1.0⟧ did not nee"
+        ],
+        [
+          " is the one Chapter 29 already des",
+          " is the one ⟦2.0⟧ already des"
+        ],
+        [
+          "Chapter 35",
+          "⟦3.0⟧"
+        ],
+        [
+          "Chapter 47",
+          "⟦4.0⟧"
+        ],
+        [
+          "Chapter 17",
+          "⟦5.0⟧"
+        ],
+        [
+          "Chapter 41",
+          "⟦6.0⟧"
+        ],
+        [
+          "**Note to Chapter 50**",
+          "⟦7.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(Chapter 13"
+        ],
+        [
+          "⟦0.1⟧",
+          "Chapter 33"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 33"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 21"
+        ],
+        [
+          "⟦4.0⟧",
+          "Reading 3 in the second volume"
+        ],
+        [
+          "⟦5.0⟧",
+          "Chapter 19"
+        ],
+        [
+          "⟦6.0⟧",
+          "Reading 6 in the second volume"
+        ],
+        [
+          "⟦7.0⟧",
+          "**Note to Chapter 37**"
+        ]
+      ],
+      "chapter_number": 37,
+      "section": "PART SEVEN: TWO HYPOTHESES OF THE AUTHOR"
     },
     {
       "id": "cap19_real",
       "content_file": "en/cap19_real.en.md",
       "replace": [
         [
-          "Chapter 51",
-          "Chapter 37"
+          "(Chapter 3",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "Chapter 22",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Note to Chapter 51**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(Chapter 4"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 24"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Note to Chapter 38**"
         ]
       ],
-      "chapter_number": 37
+      "chapter_number": 38,
+      "section": "PART EIGHT: THE LIMIT OF THE EXPERIMENT"
     },
     {
       "id": "cap20_real",
       "content_file": "en/cap20_real.en.md",
       "replace": [
         [
-          "Chapter 52",
-          "Chapter 38"
+          "Chapter 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Note to Chapter 52**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Note to Chapter 39**"
         ]
       ],
-      "chapter_number": 38
+      "chapter_number": 39,
+      "section": "PART EIGHT: THE LIMIT OF THE EXPERIMENT"
     },
     {
       "id": "cap_epilogo_real",
-      "content_file": "en/cap_epilogo_real.en.md"
+      "content_file": "en/cap_epilogo_real.en.md",
+      "section": "PART EIGHT: THE LIMIT OF THE EXPERIMENT"
     },
     {
       "id": "cap_glosario",
       "content_file": "en/cap_glosario.en.md",
       "replace": [
-        [
-          "(*The Mirror Without Depth*, *Fractal Reality*)",
-          "(*The Mirror Without Depth*; *Fractal Reality*, Vol. II)"
-        ],
-        [
-          "the reading *Fractal Reality* grants",
-          "the reading *Fractal Reality* (Vol. II) grants"
-        ],
-        [
-          "(*Fractal Reality*)",
-          "(*Fractal Reality*, Vol. II)"
-        ],
-        [
-          "(*The Vessel of Clay*)",
-          "(*The Vessel of Clay*, Vol. II)"
-        ],
         [
           "(*The Translator*)",
           "(*The Translator*, Vol. II)"
@@ -459,6 +1796,70 @@
         [
           "(*The Beach at the End of Time*)",
           "(*The Beach at the End of Time*, Vol. II)"
+        ],
+        [
+          "(*Five Ways of Doubting Aloud*, *Five Ways of Losing Your Own Edge*)",
+          "(*Five Ways of Doubting Aloud*, *Five Ways of Losing Your Own Edge*, Vol. II)"
+        ],
+        [
+          "(*Five Ways of Losing Your Own Edge*)",
+          "(*Five Ways of Losing Your Own Edge*, Vol. II)"
+        ],
+        [
+          "(Chapters 23 and 24",
+          "⟦0.0⟧"
+        ],
+        [
+          "ubjectivity (Chapter 3).\n\n**Einste",
+          "ubjectivity ⟦1.0⟧).\n\n**Einste"
+        ],
+        [
+          "e an inside (Chapter 3).\n\n**Episte",
+          "e an inside ⟦2.0⟧).\n\n**Episte"
+        ],
+        [
+          "Chapter 16",
+          "⟦3.0⟧"
+        ],
+        [
+          "(Chapter 4",
+          "⟦4.0⟧"
+        ],
+        [
+          "(Chapter 10",
+          "⟦5.0⟧"
+        ],
+        [
+          "(Chapter 31",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(Chapters 27 and 28"
+        ],
+        [
+          "⟦1.0⟧",
+          "(Chapter 4"
+        ],
+        [
+          "⟦2.0⟧",
+          "(Chapter 4"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 18"
+        ],
+        [
+          "⟦4.0⟧",
+          "(Chapter 5"
+        ],
+        [
+          "⟦5.0⟧",
+          "(Chapter 11"
+        ],
+        [
+          "⟦6.0⟧",
+          "(Chapter 7"
         ]
       ]
     },
@@ -467,12 +1868,16 @@
       "content_file": "en/cap_notas_cierre.en.md",
       "replace": [
         [
-          "Four chapters of this essay (*The Mirror Without Depth*, *Vertical Entanglement*, *The Collective Horizon* and *Fractal Reality*) were written",
-          "Three chapters of this essay (*The Mirror Without Depth*, *Vertical Entanglement* and *The Collective Horizon*), and one reading from the second volume (*Fractal Reality*), were written"
+          "(*The Mirror Without Depth*, *Five Ways of Doubting Aloud*, *Five Ways of Losing Your Own Edge* and *Fractal Reality*)",
+          "(*The Mirror Without Depth*, *Fractal Reality* and, in the second volume, *Five Ways of Doubting Aloud* and *Five Ways of Losing Your Own Edge*)"
         ],
         [
-          "*Written on finishing* Fractal Reality.",
-          "*Written on finishing* Fractal Reality (Vol. II)."
+          "*Written on finishing* Five Ways of Doubting Aloud.",
+          "*Written on finishing* Five Ways of Doubting Aloud (Vol. II)."
+        ],
+        [
+          "*Written on finishing* Five Ways of Losing Your Own Edge.",
+          "*Written on finishing* Five Ways of Losing Your Own Edge (Vol. II)."
         ]
       ]
     },

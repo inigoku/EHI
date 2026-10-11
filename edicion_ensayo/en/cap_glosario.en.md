@@ -6,7 +6,7 @@ chapterNumber: Glossary
 
 **Advaita Vedanta**: the Indian philosophical school holding the non-duality of the individual self (*atman*) and the absolute (*Brahman*); in the book, the vocabulary for the identity between horizon and reservoir.
 
-**Aggregation (political)**: a belonging that does not compromise the individual's survival if the structure it belongs to dissolves; contrasted with composition (*The Collective Horizon*).
+**Aggregation (political)**: a belonging that does not compromise the individual's survival if the structure it belongs to dissolves; contrasted with composition (*Five Ways of Losing Your Own Edge*).
 
 **Amplitude**: a horizon's capacity to hold more perspectives without its boundary breaking; it can grow (what the traditions call sainthood) without the horizon changing in nature or level (*Fractal Reality*).
 
@@ -42,13 +42,13 @@ chapterNumber: Glossary
 
 **Closure**: in topology, the operation that completes a set by adding its limit points; it is idempotent, because closing twice adds nothing. The book uses it to describe the already-condensed horizon and to define the reservoir as what has not yet closed, R = X ∖ ⋃ᵢ Eᵢ (Chapters 23 and 24).
 
-**Collective horizon**: the "we" that condenses when many individual horizons adopt the same idea as an organizing principle (*The Collective Horizon*).
+**Collective horizon**: the "we" that condenses when many individual horizons adopt the same idea as an organizing principle (*The Wounded Horizon*).
 
-**Composition (political)**: a belonging that does compromise the individual's survival, because losing the group feels like losing part of oneself; the shape the collective horizon takes when it captures one's own boundary (*The Collective Horizon*).
+**Composition (political)**: a belonging that does compromise the individual's survival, because losing the group feels like losing part of oneself; the shape the collective horizon takes when it captures one's own boundary (*Five Ways of Losing Your Own Edge*).
 
 **Condensation**: the unrepeatable act by which a horizon forms from the reservoir; in the chapter on AI, what no amount of training can substitute for (*The Mirror Without Depth*).
 
-**Condensation of a movement**: the discontinuous phase transition by which scattered discontent suddenly coalesces into a named collective boundary (*The Collective Horizon*).
+**Condensation of a movement**: the discontinuous phase transition by which scattered discontent suddenly coalesces into a named collective boundary (*The Wounded Horizon*).
 
 **Continuing bonds**: a concept from grief theory according to which the relationship with the deceased is not dissolved, but reorganized within the architecture of the one who remains.
 
@@ -60,7 +60,7 @@ chapterNumber: Glossary
 
 **Deterministic chaos**: what happens when a system obeys exact laws and still becomes unpredictable, because no one can measure its initial conditions with infinite precision; the three-body problem is the classic case (*The Beach at the End of Time*).
 
-**Dharma**: in Buddhism and Hinduism, the very weave of the world, with which correct behavior does nothing more than come into consonance, without obedience (*Vertical Entanglement*).
+**Dharma**: in Buddhism and Hinduism, the very weave of the world, with which correct behavior does nothing more than come into consonance, without obedience (*Five Maps of the Same Horizon*).
 
 **Dopamine**: the key neurotransmitter in reward anticipation; it calibrates the rate of temporal integration and the subjective density of time.
 
@@ -84,7 +84,7 @@ chapterNumber: Glossary
 
 **Encapsulation**: the boundary separating a system's public interface from its private state, so that the outside can only read what the system exposes; the architectural condition for there to be an inside (Chapter 3).
 
-**Epistemological absolute**: what is ultimate not because there is nothing behind it, but because from here one cannot look behind it; the status the reading *Fractal Reality* grants the upstairs neighbor.
+**Epistemological absolute**: what is ultimate not because there is nothing behind it, but because from here one cannot look behind it; the status the chapter *Fractal Reality* grants the upstairs neighbor.
 
 **ER=EPR**: Maldacena and Susskind's conjecture that quantum entanglement (EPR) is equivalent to an Einstein-Rosen bridge (ER).
 
@@ -92,7 +92,7 @@ chapterNumber: Glossary
 
 **Existential encapsulation**: the limit of access separating a system's private internal state from the public interface it shows the outside world; a necessary (though not sufficient) architectural condition for a system to have anything like subjectivity. Current language models lack it: every weight and every intermediate variable can be read from outside.
 
-**Fanaticism**: the capture of one's own boundary by an idea, to the point that doubting it feels like dying a little; in contemplative practice, what happens when the technique continues but the silence no longer tolerates questions (*Vertical Entanglement*, *The Collective Horizon*).
+**Fanaticism**: the capture of one's own boundary by an idea, to the point that doubting it feels like dying a little; in contemplative practice, what happens when the technique continues but the silence no longer tolerates questions (*Five Ways of Doubting Aloud*, *Five Ways of Losing Your Own Edge*).
 
 **Flow**: a state of maximal integration in which the horizon operates at its optimal capacity with no friction between structure and environment.
 
@@ -100,7 +100,7 @@ chapterNumber: Glossary
 
 **Fractal of interiorities**: a universe with no first level and no last, in which every horizon is creature upward and creator downward (*Fractal Reality*).
 
-**Grace**: love that precedes merit and that, in one of the five religious architectures described, closes the gap between what is and what should be (*Vertical Entanglement*).
+**Grace**: love that precedes merit and that, in one of the five religious architectures described, closes the gap between what is and what should be (*Five Maps of the Same Horizon*).
 
 **Gravitational time dilation**: the slowing of time near an event horizon; applied to consciousness, a metaphor for how density of integration alters subjective time.
 
@@ -114,7 +114,7 @@ chapterNumber: Glossary
 
 **Horizon**: in the book, the boundary separating the private state of an individual consciousness from everything else; it condenses once and cannot be manufactured by accumulating data or training (see Event Horizon).
 
-**Horizon of origin**: the personal horizon, prior to the reservoir and external to it, that some traditions place on the other side of vertical entanglement (*Vertical Entanglement*).
+**Horizon of origin**: the personal horizon, prior to the reservoir and external to it, that some traditions place on the other side of vertical entanglement (*Five Maps of the Same Horizon*).
 
 **Hysteresis**: the property by which a system retains the effect of its history; in the book, the difficulty of changing the topology of a horizon once formed.
 
@@ -160,9 +160,9 @@ chapterNumber: Glossary
 
 **Reservoir**: the formless background of possibility from which horizons arise and to which they return; equivalent to the quantum vacuum or to the ocean in the book's metaphor.
 
-**Sacralizing the neighbor**: treating a horizontal horizon (human, correctable, revisable) with the intransigence that should be reserved only for what declares itself, from the outset, unquestionable (*The Collective Horizon*).
+**Sacralizing the neighbor**: treating a horizontal horizon (human, correctable, revisable) with the intransigence that should be reserved only for what declares itself, from the outset, unquestionable (*Five Ways of Losing Your Own Edge*).
 
-**Samadhi**: the instant when vertical correlation becomes indistinguishable from identity (*Vertical Entanglement*).
+**Samadhi**: the instant when vertical correlation becomes indistinguishable from identity (*Five Maps of the Same Horizon*).
 
 **Scale gap**: the difference in magnitude between quantum phenomena and neural ones, which makes a direct reduction difficult and which the horizon model approaches through structural analogy.
 
@@ -200,6 +200,6 @@ chapterNumber: Glossary
 
 **Vectors of vertical entanglement**: the ascending one, from the creature toward the scale that contains it, calls for emptying and silence; the descending one, from the higher scale toward what it contains, calls for form: symbol, story, body (*The Vessel of Clay*).
 
-**Vertical entanglement**: a sustained correlation between a horizon and something beyond its boundary, with no observable channel of confirmation; the name the book gives to prayer, meditation and contemplative practice (*Vertical Entanglement*).
+**Vertical entanglement**: a sustained correlation between a horizon and something beyond its boundary, with no observable channel of confirmation; the name the book gives to prayer, meditation and contemplative practice (*Five Maps of the Same Horizon*).
 
 **Vessel**: the form, made of the material of the floor below, that allows a higher scale to manifest in a lower one without overwhelming it; what the traditions call incarnation (*The Vessel of Clay*).

@@ -94,6 +94,18 @@ That diffuse asymmetry now has a concrete case study in artificial intelligence.
 
 ---
 
+## The collective horizon: when many condense into one
+
+The caveat above does not rule out collective horizons on a smaller scale: movements, parties, crowds. They are not society as a whole, which was never born and crossed no threshold; they are what condenses when thousands of horizons that do not know one another share, without ever having met, the same configuration.
+
+That is a political movement before it has a name, a leader or a flag. Before condensation there is only scattered discontent: thousands of grievances without a common boundary, a reservoir of disorganized indignation. Condensation happens when something (an image, a phrase, an injustice caught on video) suddenly draws an edge: this is what we demand, this is who we are, this is the line that separates us from those who don't share the demand. It is a discontinuous phase transition, like the one that separates liquid water from ice: the discontent was dissolved, "liquid," and suddenly it freezes into a shape with edges.
+
+A newly condensed collective horizon is fragile, like any newborn horizon. It can dissolve again into the reservoir of diffuse discontent it came from, if the edge that defined it does not hold, or it can consolidate, become entangled with other horizons (parties, unions, existing institutions) and survive long beyond the generation that condensed it.
+
+What happens when that edge stops being something one holds and starts holding the one who holds it (fanaticism) is studied in the reading “Five ways of losing one's own edge” (Chapter 30).
+
+---
+
 ## Collective trauma as shared geometry
 
 Individual trauma is encapsulated information that deforms the geometry of the horizon. Collective trauma (wars, genocides, slavery) works analogously, but on the scale of entire populations.

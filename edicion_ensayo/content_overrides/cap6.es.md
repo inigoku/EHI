@@ -7,7 +7,7 @@ illustrationTitle: La evaporación
 illustrationDescription: Un lago que se evapora. El agua sube como vapor con forma de rostros, casas, árboles —memorias que se disuelven. En el cielo, nubes con patrones que no son aleatorios.
 ---
 
-> *El agua regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
+> *Había una ciudad junto a un agua que se retiró, y un archivista que guardó lo que el agua dejó. El agua regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
 
 Stephen Hawking descubrió en 1974 que los agujeros negros no son eternos. Nada los destruye desde fuera: el vacío cuántico, perturbado por el horizonte, genera un flujo constante de radiación que les va drenando la masa. La temperatura de esa radiación es inversamente proporcional a la masa: cuanto más pequeño es el agujero negro, más caliente y más brillante. La evaporación se acelera a sí misma.
 
@@ -34,6 +34,10 @@ Durante casi cuarenta años, esta paradoja fue el problema más famoso de la fí
 > **En física esto se llama:** la paradoja de la información de los agujeros negros.
 
 La solución que hoy parece más probable, aunque no está demostrada, es que la información no se destruye al desaparecer el horizonte, sino que sufre un proceso de *scrambling*: se dispersa y se entrelaza de forma irreversible con el entorno exterior, perdiendo su coherencia local pero permaneciendo conservada globalmente en la física del reservorio.
+
+Esa conservación tiene calendario. Durante la primera mitad de la vida del agujero negro, la radiación de Hawking es térmica: lleva una entropía creciente y ninguna correlación recuperable con lo que cayó dentro. Pasado el llamado *tiempo de Page*, más o menos a la mitad de esa vida, la radiación deja de ser puro ruido: cada partícula que escapa queda entrelazada también con la que salió antes, y lo que emite el horizonte ya no es solo pérdida, sino correlación. Por eso la pregunta por lo que queda tiene dos respuestas según el momento: mientras el horizonte está en su primera mitad, nada cruza su frontera de vuelta; solo después empieza a haber, en principio, algo legible.
+
+> **En física esto se llama:** tiempo de Page, el punto de la evaporación a partir del cual la entropía de la radiación deja de crecer y empieza a disminuir.
 
 ### En sus últimas fracciones de segundo
 

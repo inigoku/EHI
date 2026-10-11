@@ -27,30 +27,6 @@
     "il_cart_narciso": "../src/assets/images/il_cart_narciso.jpg",
     "cart_relojes": "imagenes/cart_relojes.jpg",
     "cartografia_eco_p1": "../src/assets/images/cartografia_eco/pagina1.jpg",
-    "cuento_01": "../src/assets/images/cuentos/01_tarel_inicio.png",
-    "cuento_02": "../src/assets/images/cuentos/03_burbuja.png",
-    "cuento_03": "../src/assets/images/cuentos/04_nino.png",
-    "cuento_04": "../src/assets/images/cuentos/05_red_nombres.png",
-    "cuento_05": "../src/assets/images/cuentos/06_casa_respiraba.png",
-    "cuento_06": "../src/assets/images/cuentos/07_maquina.png",
-    "cuento_07": "../src/assets/images/cuentos/08_huesped.png",
-    "cuento_08": "../src/assets/images/cuentos/09_puentes.png",
-    "cuento_09": "../src/assets/images/cuentos/11_musica.png",
-    "cuento_10": "../src/assets/images/cuentos/12_cuerda.png",
-    "cuento_11": "../src/assets/images/cuentos/13_ciudad.png",
-    "cuento_12": "../src/assets/images/cuentos/14_reloj.png",
-    "cuento_13": "../src/assets/images/cuentos/15_sala.png",
-    "cuento_14": "../src/assets/images/cuentos/16_perros.png",
-    "cuento_agua_retira": "../src/assets/images/cuentos/02_tarel_mitad.png",
-    "cuento_eq": "../src/assets/images/cuentos/17_el_que_queda.png",
-    "cuento_int": "../src/assets/images/cuentos/10_borde_interludio.png",
-    "cuento_ladron": "../src/assets/images/ilustracion_ladron.png",
-    "cuento_luthier": "../src/assets/images/ilustracion_luthier.png",
-    "cuento_m87": "../src/assets/images/cuentos/19_M87_puente.png",
-    "cuento_mussara": "../src/assets/images/cuentos/ilustracion_mussara.png",
-    "cuento_segundo_cuaderno": "../src/assets/images/cuentos/segundo_cuaderno.png",
-    "cuento_sintonizadores": "../src/assets/images/cuentos/20_sintonizadores.png",
-    "cuento_txiki": "../src/assets/images/cuentos/18_txiki_cierre.png",
     "epilogo": "../src/assets/images/epilogo.jpg",
     "il01": "../src/assets/images/ilustracion_01.png",
     "il02": "../src/assets/images/ilustracion_02.png",
@@ -87,7 +63,6 @@
     "il_cinco_mapas": "../src/assets/images/ilustracion_cinco_mapas.jpg",
     "il_clon": "../src/assets/images/ilustracion_17_6.png",
     "il_diapason": "../src/assets/images/libros/il_diapason.png",
-    "il_el_que_queda": "../src/assets/images/ilustracion_eq.png",
     "il_epilogo": "../src/assets/images/epilogo.jpg",
     "il_espejo": "../src/assets/images/libros/il_espejo.png",
     "il_fractal": "../src/assets/images/libros/il_fractal.png",
@@ -178,47 +153,267 @@
     },
     {
       "id": "prologo",
-      "content_file": "../content/ensayo/prologo.es.md"
+      "content_file": "content_overrides/prologo.es.md"
     },
     {
       "id": "cap_nota_autor",
-      "content_file": "../content/ensayo/cap_nota_autor.es.md"
+      "content_file": "../content/ensayo/cap_nota_autor.es.md",
+      "replace": [
+        [
+          "El capítulo 31",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítulo 28",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítulo 34"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 33"
+        ]
+      ]
     },
     {
       "id": "cap1",
-      "content_file": "../content/ensayo/cap1.es.md"
+      "content_file": "../content/ensayo/cap1.es.md",
+      "replace": [
+        [
+          "(capítulos 6 y 23",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítulos 7 y 27"
+        ]
+      ],
+      "chapter_number": 1,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
     {
       "id": "cap2",
-      "content_file": "../content/ensayo/cap2.es.md"
+      "content_file": "../content/ensayo/cap2.es.md",
+      "chapter_number": 2,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
+    },
+    {
+      "id": "cap_info_intro",
+      "content_file": "content_overrides/cap_info_intro.es.md",
+      "replace": [
+        [
+          "el capítulo 10",
+          "⟦0.0⟧"
+        ],
+        [
+          " neuronal y el capítulo 12 al hablar d",
+          " neuronal y ⟦1.0⟧ al hablar d"
+        ],
+        [
+          ". Es lo que el capítulo 12 describirá ",
+          ". Es lo que ⟦2.0⟧ describirá "
+        ],
+        [
+          "{{n:cap_teoria_informacion}}",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítulo 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 13"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítulo 13"
+        ],
+        [
+          "⟦3.0⟧",
+          "20"
+        ]
+      ],
+      "chapter_number": 3,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
     {
       "id": "cap2_5",
-      "content_file": "../content/ensayo/cap2_5.es.md"
+      "content_file": "../content/ensayo/cap2_5.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 3**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 4**"
+        ]
+      ],
+      "chapter_number": 4,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
     {
       "id": "cap3",
-      "content_file": "../content/ensayo/cap3.es.md"
+      "content_file": "../content/ensayo/cap3.es.md",
+      "replace": [
+        [
+          "el capítulo 6",
+          "⟦0.0⟧"
+        ],
+        [
+          "(capítulo 3",
+          "⟦1.0⟧"
+        ],
+        [
+          "selecciones del capítulo 31, estabilida",
+          "selecciones ⟦2.0⟧, estabilida"
+        ],
+        [
+          "vocabulario del capítulo 31, un espejo ",
+          "vocabulario ⟦3.0⟧, un espejo "
+        ],
+        [
+          "**Nota al Capítulo 4**",
+          "⟦4.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítulo 7"
+        ],
+        [
+          "⟦1.0⟧",
+          "(capítulo 4"
+        ],
+        [
+          "⟦2.0⟧",
+          "del capítulo 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "del capítulo 34"
+        ],
+        [
+          "⟦4.0⟧",
+          "**Nota al Capítulo 5**"
+        ]
+      ],
+      "chapter_number": 5,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
     {
       "id": "cap4",
-      "content_file": "../content/ensayo/cap4.es.md"
+      "content_file": "../content/ensayo/cap4.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 5**",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítulo 23",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 6**"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 27"
+        ]
+      ],
+      "chapter_number": 6,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
     {
       "id": "cap5",
-      "content_file": "../content/ensayo/cap5.es.md"
+      "content_file": "content_overrides/cap5.es.md",
+      "replace": [
+        [
+          "el capítulo 8",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítulo 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 6**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítulo 9"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítulo 7**"
+        ]
+      ],
+      "chapter_number": 7,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
     {
       "id": "cap6",
-      "content_file": "content_overrides/cap6.es.md"
+      "content_file": "content_overrides/cap6.es.md",
+      "replace": [
+        [
+          "el capítulo 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 7**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítulo 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota al Capítulo 8**"
+        ]
+      ],
+      "chapter_number": 8,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
     {
       "id": "cap6_5",
-      "content_file": "../content/ensayo/cap6_5.es.md"
+      "content_file": "../content/ensayo/cap6_5.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 8**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 9**"
+        ]
+      ],
+      "chapter_number": 9,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
     {
       "id": "cap6_6",
-      "content_file": "../content/ensayo/cap6_6.es.md"
+      "content_file": "../content/ensayo/cap6_6.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 9**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 10**"
+        ]
+      ],
+      "chapter_number": 10,
+      "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
     {
       "id": "interludio",
@@ -226,187 +421,1615 @@
     },
     {
       "id": "cap7",
-      "content_file": "../content/ensayo/cap7.es.md"
+      "content_file": "../content/ensayo/cap7.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 10**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 11**"
+        ]
+      ],
+      "chapter_number": 11,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
       "id": "cap7_5",
-      "content_file": "../content/ensayo/cap7_5.es.md"
+      "content_file": "../content/ensayo/cap7_5.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 11**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 12**"
+        ]
+      ],
+      "chapter_number": 12,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
       "id": "cap8",
-      "content_file": "../content/ensayo/cap8.es.md"
+      "content_file": "../content/ensayo/cap8.es.md",
+      "replace": [
+        [
+          "en el capítulo 11",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítulo 16",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 12**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 12"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 18"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítulo 13**"
+        ]
+      ],
+      "chapter_number": 13,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
       "id": "cap9",
-      "content_file": "../content/ensayo/cap9.es.md"
+      "content_file": "../content/ensayo/cap9.es.md",
+      "replace": [
+        [
+          "El capítulo 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 13**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítulo 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota al Capítulo 14**"
+        ]
+      ],
+      "chapter_number": 14,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
       "id": "cap10",
-      "content_file": "../content/ensayo/cap10.es.md"
+      "content_file": "../content/ensayo/cap10.es.md",
+      "replace": [
+        [
+          "El capítulo 13",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítulo 13",
+          "⟦1.0⟧"
+        ],
+        [
+          "el capítulo 10",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 14**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítulo 14"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 14"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítulo 11"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítulo 15**"
+        ]
+      ],
+      "chapter_number": 15,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
       "id": "cap11",
-      "content_file": "../content/ensayo/cap11.es.md"
-    },
-    {
-      "id": "cap12",
-      "content_file": "../content/ensayo/cap12.es.md"
-    },
-    {
-      "id": "cap13",
-      "content_file": "../content/ensayo/cap13.es.md"
-    },
-    {
-      "id": "cap14_real",
-      "content_file": "../content/ensayo/cap14_real.es.md"
-    },
-    {
-      "id": "cap15_real",
-      "content_file": "../content/ensayo/cap15_real.es.md"
-    },
-    {
-      "id": "cap13_5",
-      "content_file": "../content/ensayo/cap13_5.es.md"
-    },
-    {
-      "id": "cap18_6",
-      "content_file": "../content/ensayo/cap18_6.es.md"
-    },
-    {
-      "id": "cap18_7",
-      "content_file": "../content/ensayo/cap18_7.es.md"
-    },
-    {
-      "id": "cap22_idempotencia",
-      "content_file": "../content/ensayo/cap22_idempotencia.es.md"
-    },
-    {
-      "id": "cap23_experimentos_mentales",
-      "content_file": "../content/ensayo/cap23_experimentos_mentales.es.md"
-    },
-    {
-      "id": "cap16_real",
-      "content_file": "../content/ensayo/cap16_real.es.md"
-    },
-    {
-      "id": "cap17_real",
-      "content_file": "../content/ensayo/cap17_real.es.md"
-    },
-    {
-      "id": "cap17_5_real",
-      "content_file": "../content/ensayo/cap17_5_real.es.md"
-    },
-    {
-      "id": "cap_religiones_comparadas",
-      "content_file": "../content/ensayo/cap_religiones_comparadas.es.md"
-    },
-    {
-      "id": "cap_diapason_invisible",
-      "content_file": "../content/ensayo/cap_diapason_invisible.es.md"
-    },
-    {
-      "id": "cap_ojo_un_solo_color",
-      "content_file": "../content/ensayo/cap_ojo_un_solo_color.es.md"
-    },
-    {
-      "id": "cap_espejo_sin_profundidad",
-      "content_file": "../content/ensayo/cap_espejo_sin_profundidad.es.md"
+      "content_file": "../content/ensayo/cap11.es.md",
+      "replace": [
+        [
+          "\nEl capítulo 14 presentó la oxitocina como una vía ",
+          "\n⟦0.0⟧ presentó la oxitocina como una vía "
+        ],
+        [
+          "El capítulo 13",
+          "⟦1.0⟧"
+        ],
+        [
+          "y el 12",
+          "⟦2.0⟧"
+        ],
+        [
+          "del capítulo 13",
+          "⟦3.0⟧"
+        ],
+        [
+          "del capítulo 6",
+          "⟦4.0⟧"
+        ],
+        [
+          "En el capítulo 13",
+          "⟦5.0⟧"
+        ],
+        [
+          "el capítulo 14",
+          "⟦6.0⟧"
+        ],
+        [
+          "el capítulo 16",
+          "⟦7.0⟧"
+        ],
+        [
+          "en el capítulo 13",
+          "⟦8.0⟧"
+        ],
+        [
+          "ulo cierra\n\nEl capítulo 14 presentó la",
+          "ulo cierra\n\n⟦9.0⟧ presentó la"
+        ],
+        [
+          "o correcto. El capítulo 14 mostró qué ",
+          "o correcto. ⟦10.0⟧ mostró qué "
+        ],
+        [
+          "Y el 16",
+          "⟦11.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 15**",
+          "⟦12.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítulo 15"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítulo 14"
+        ],
+        [
+          "⟦2.0⟧",
+          "y el 13"
+        ],
+        [
+          "⟦3.0⟧",
+          "del capítulo 14"
+        ],
+        [
+          "⟦4.0⟧",
+          "del capítulo 7"
+        ],
+        [
+          "⟦5.0⟧",
+          "En el capítulo 14"
+        ],
+        [
+          "⟦6.0⟧",
+          "el capítulo 15"
+        ],
+        [
+          "⟦7.0⟧",
+          "el capítulo 18"
+        ],
+        [
+          "⟦8.0⟧",
+          "en el capítulo 14"
+        ],
+        [
+          "⟦9.0⟧",
+          "El capítulo 15"
+        ],
+        [
+          "⟦10.0⟧",
+          "El capítulo 15"
+        ],
+        [
+          "⟦11.0⟧",
+          "Y el 18"
+        ],
+        [
+          "⟦12.0⟧",
+          "**Nota al Capítulo 16**"
+        ]
+      ],
+      "chapter_number": 16,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
       "id": "cap18_real",
-      "content_file": "../content/ensayo/cap18_real.es.md"
+      "content_file": "content_overrides/cap18_real.es.md",
+      "replace": [
+        [
+          "del capítulo 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítulo 15",
+          "⟦1.0⟧"
+        ],
+        [
+          "el capítulo 6",
+          "⟦2.0⟧"
+        ],
+        [
+          "(capítulo 15",
+          "⟦3.0⟧"
+        ],
+        [
+          "El capítulo 15",
+          "⟦4.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 32**",
+          "⟦5.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "del capítulo 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítulo 16"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítulo 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "(capítulo 16"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítulo 16"
+        ],
+        [
+          "⟦5.0⟧",
+          "**Nota al Capítulo 17**"
+        ]
+      ],
+      "subtitle": "(Variantes de gestación humana y artificial ante las dos selecciones del capítulo 7)",
+      "chapter_number": 17,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
-      "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.es.md"
+      "id": "cap12",
+      "content_file": "../content/ensayo/cap12.es.md",
+      "replace": [
+        [
+          "en el capítulo 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "En el capítulo 15",
+          "⟦1.0⟧"
+        ],
+        [
+          "en el capítulo 15",
+          "⟦2.0⟧"
+        ],
+        [
+          "El capítulo 5",
+          "⟦3.0⟧"
+        ],
+        [
+          "el capítulo 7",
+          "⟦4.0⟧"
+        ],
+        [
+          " merecerla. El capítulo 12 describió l",
+          " merecerla. ⟦5.0⟧ describió l"
+        ],
+        [
+          "ra enemigo. El capítulo 12 describió e",
+          "ra enemigo. ⟦6.0⟧ describió e"
+        ],
+        [
+          "**Nota al Capítulo 16**",
+          "⟦7.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "En el capítulo 16"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítulo 16"
+        ],
+        [
+          "⟦3.0⟧",
+          "El capítulo 6"
+        ],
+        [
+          "⟦4.0⟧",
+          "el capítulo 8"
+        ],
+        [
+          "⟦5.0⟧",
+          "El capítulo 13"
+        ],
+        [
+          "⟦6.0⟧",
+          "El capítulo 13"
+        ],
+        [
+          "⟦7.0⟧",
+          "**Nota al Capítulo 18**"
+        ]
+      ],
+      "chapter_number": 18,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
+    },
+    {
+      "id": "cap13",
+      "content_file": "../content/ensayo/cap13.es.md",
+      "replace": [
+        [
+          "El capítulo 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "en el capítulo 13",
+          "⟦1.0⟧"
+        ],
+        [
+          "En el capítulo 15",
+          "⟦2.0⟧"
+        ],
+        [
+          "en el capítulo 10",
+          "⟦3.0⟧"
+        ],
+        [
+          "El capítulo 15",
+          "⟦4.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 17**",
+          "⟦5.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítulo 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "en el capítulo 14"
+        ],
+        [
+          "⟦2.0⟧",
+          "En el capítulo 16"
+        ],
+        [
+          "⟦3.0⟧",
+          "en el capítulo 11"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítulo 16"
+        ],
+        [
+          "⟦5.0⟧",
+          "**Nota al Capítulo 19**"
+        ]
+      ],
+      "chapter_number": 19,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
       "id": "cap_teoria_informacion",
-      "content_file": "../content/ensayo/cap_teoria_informacion.es.md"
+      "content_file": "content_overrides/cap_teoria_informacion.es.md",
+      "replace": [
+        [
+          "{{n:cap_info_intro}}",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítulo 11",
+          "⟦1.0⟧"
+        ],
+        [
+          "El capítulo 10",
+          "⟦2.0⟧"
+        ],
+        [
+          "y el 12",
+          "⟦3.0⟧"
+        ],
+        [
+          "El capítulo 7",
+          "⟦4.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 34**",
+          "⟦5.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "3"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 12"
+        ],
+        [
+          "⟦2.0⟧",
+          "El capítulo 11"
+        ],
+        [
+          "⟦3.0⟧",
+          "y el 13"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítulo 8"
+        ],
+        [
+          "⟦5.0⟧",
+          "**Nota al Capítulo 20**"
+        ]
+      ],
+      "chapter_number": 20,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
       "id": "cap_tres_puertas",
-      "content_file": "../content/ensayo/cap_tres_puertas.es.md"
+      "content_file": "content_overrides/cap_tres_puertas.es.md",
+      "replace": [
+        [
+          "El capítulo 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "y el 12",
+          "⟦1.0⟧"
+        ],
+        [
+          " con lo que el capítulo 12 describe: e",
+          " con lo que ⟦2.0⟧ describe: e"
+        ],
+        [
+          "uencia para el capítulo 12, que termin",
+          "uencia para ⟦3.0⟧, que termin"
+        ],
+        [
+          "El capítulo 17",
+          "⟦4.0⟧"
+        ],
+        [
+          "El capítulo 7",
+          "⟦5.0⟧"
+        ],
+        [
+          "y el 17",
+          "⟦6.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 35**",
+          "⟦7.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítulo 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "y el 13"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítulo 13"
+        ],
+        [
+          "⟦3.0⟧",
+          "el capítulo 13"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítulo 19"
+        ],
+        [
+          "⟦5.0⟧",
+          "El capítulo 8"
+        ],
+        [
+          "⟦6.0⟧",
+          "y el 19"
+        ],
+        [
+          "⟦7.0⟧",
+          "**Nota al Capítulo 21**"
+        ]
+      ],
+      "chapter_number": 21,
+      "section": "SEGUNDA PARTE: EL HORIZONTE EN VÍNCULO"
     },
     {
-      "id": "cap_el_que_queda",
-      "content_file": "../content/ensayo/cap_el_que_queda.es.md"
+      "id": "cap13_5",
+      "content_file": "content_overrides/cap13_5.es.md",
+      "replace": [
+        [
+          "En el capítulo 17",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 20**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "En el capítulo 19"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota al Capítulo 22**"
+        ]
+      ],
+      "chapter_number": 22,
+      "section": "TERCERA PARTE: EL HORIZONTE QUE SE ROMPE Y EL SUJETO"
     },
     {
-      "id": "cap17_6_real",
-      "content_file": "../content/lecturas/cap17_6_real.es.md"
+      "id": "cap18_6",
+      "content_file": "content_overrides/cap18_6.es.md",
+      "replace": [
+        [
+          "en el capítulo 19",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítulo 12",
+          "⟦1.0⟧"
+        ],
+        [
+          "el capítulo 20",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 21**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 26"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítulo 13"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítulo 22"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítulo 23**"
+        ]
+      ],
+      "chapter_number": 23,
+      "section": "TERCERA PARTE: EL HORIZONTE QUE SE ROMPE Y EL SUJETO"
     },
     {
-      "id": "cap_blade_runner",
-      "content_file": "../content/lecturas/cap_blade_runner.es.md"
+      "id": "cap18_7",
+      "content_file": "../content/ensayo/cap18_7.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 22**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 24**"
+        ]
+      ],
+      "chapter_number": 24,
+      "section": "TERCERA PARTE: EL HORIZONTE QUE SE ROMPE Y EL SUJETO"
+    },
+    {
+      "id": "cap14_real",
+      "content_file": "content_overrides/cap14_real.es.md",
+      "replace": [
+        [
+          "En el capítulo 6",
+          "⟦0.0⟧"
+        ],
+        [
+          "En el capítulo 15",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 18**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "En el capítulo 7"
+        ],
+        [
+          "⟦1.0⟧",
+          "En el capítulo 16"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítulo 25**"
+        ]
+      ],
+      "chapter_number": 25,
+      "section": "TERCERA PARTE: EL HORIZONTE QUE SE ROMPE Y EL SUJETO"
+    },
+    {
+      "id": "cap15_real",
+      "content_file": "../content/ensayo/cap15_real.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 19**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 26**"
+        ]
+      ],
+      "chapter_number": 26,
+      "section": "TERCERA PARTE: EL HORIZONTE QUE SE ROMPE Y EL SUJETO"
+    },
+    {
+      "id": "cap22_idempotencia",
+      "content_file": "content_overrides/cap22_idempotencia.es.md",
+      "replace": [
+        [
+          " pendientes en el capítulo 21: qué es la ",
+          " pendientes ⟦0.0⟧: qué es la "
+        ],
+        [
+          "n junguiana en el capítulo 21 cuando habl",
+          "n junguiana ⟦1.0⟧ cuando habl"
+        ],
+        [
+          "**Nota al Capítulo 23**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 23"
+        ],
+        [
+          "⟦1.0⟧",
+          "en el capítulo 23"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítulo 27**"
+        ]
+      ],
+      "chapter_number": 27,
+      "section": "CUARTA PARTE: LA FORMA Y SU PRUEBA"
+    },
+    {
+      "id": "cap23_experimentos_mentales",
+      "content_file": "../content/ensayo/cap23_experimentos_mentales.es.md",
+      "replace": [
+        [
+          "roblema que el capítulo 23 resolvió po",
+          "roblema que ⟦0.0⟧ resolvió po"
+        ],
+        [
+          "omo propone el capítulo 23, un complej",
+          "omo propone ⟦1.0⟧, un complej"
+        ],
+        [
+          "umática no, el capítulo 23 tendría alg",
+          "umática no, ⟦2.0⟧ tendría alg"
+        ],
+        [
+          "omo predice el capítulo 23, como un ho",
+          "omo predice ⟦3.0⟧, como un ho"
+        ],
+        [
+          "**Nota al Capítulo 24**",
+          "⟦4.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítulo 27"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 27"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítulo 27"
+        ],
+        [
+          "⟦3.0⟧",
+          "el capítulo 27"
+        ],
+        [
+          "⟦4.0⟧",
+          "**Nota al Capítulo 28**"
+        ]
+      ],
+      "chapter_number": 28,
+      "section": "CUARTA PARTE: LA FORMA Y SU PRUEBA"
+    },
+    {
+      "id": "cap17_real",
+      "content_file": "../content/ensayo/cap17_real.es.md",
+      "replace": [
+        [
+          "del capítulo 13",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 26**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "del capítulo 14"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota al Capítulo 29**"
+        ]
+      ],
+      "chapter_number": 29,
+      "section": "QUINTA PARTE: EL HORIZONTE MÁS ALLÁ DE LA PERSONA"
+    },
+    {
+      "id": "cap17_5_real",
+      "content_file": "content_overrides/cap17_5_real.es.md",
+      "replace": [
+        [
+          "en el capítulo 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítulo 28",
+          "⟦1.0⟧"
+        ],
+        [
+          "en el capítulo 30",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 27**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítulo 45"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítulo 30**"
+        ]
+      ],
+      "chapter_number": 30,
+      "section": "QUINTA PARTE: EL HORIZONTE MÁS ALLÁ DE LA PERSONA"
+    },
+    {
+      "id": "cap16_real",
+      "content_file": "content_overrides/cap16_real.es.md",
+      "replace": [
+        [
+          "(capítulo 30",
+          "⟦0.0⟧"
+        ],
+        [
+          "El capítulo 18",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 25**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítulo 45"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítulo 25"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítulo 31**"
+        ]
+      ],
+      "chapter_number": 31,
+      "section": "QUINTA PARTE: EL HORIZONTE MÁS ALLÁ DE LA PERSONA"
+    },
+    {
+      "id": "cap_calibracion",
+      "content_file": "../content/lecturas/cap_calibracion.es.md",
+      "replace": [
+        [
+          "El capítulo 31",
+          "⟦0.0⟧"
+        ],
+        [
+          "a: el sesgo del capítulo 31 no está esc",
+          "a: el sesgo ⟦1.0⟧ no está esc"
+        ],
+        [
+          "el capítulo 15",
+          "⟦2.0⟧"
+        ],
+        [
+          "ue el sesgo del capítulo 31 puede opera",
+          "ue el sesgo ⟦3.0⟧ puede opera"
+        ],
+        [
+          "a interfaz\n\nEl capítulo 3 describió l",
+          "a interfaz\n\n⟦4.0⟧ describió l"
+        ],
+        [
+          "El capítulo 32",
+          "⟦5.0⟧"
+        ],
+        [
+          " con la que el capítulo 31 separó esta",
+          " con la que ⟦6.0⟧ separó esta"
+        ],
+        [
+          "**Nota al Capítulo 33**",
+          "⟦7.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítulo 7"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítulo 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítulo 16"
+        ],
+        [
+          "⟦3.0⟧",
+          "del capítulo 7"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítulo 4"
+        ],
+        [
+          "⟦5.0⟧",
+          "El capítulo 17"
+        ],
+        [
+          "⟦6.0⟧",
+          "el capítulo 7"
+        ],
+        [
+          "⟦7.0⟧",
+          "**Nota al Capítulo 32**"
+        ]
+      ],
+      "chapter_number": 32,
+      "section": "QUINTA PARTE: EL HORIZONTE MÁS ALLÁ DE LA PERSONA"
+    },
+    {
+      "id": "cap_religiones_comparadas",
+      "content_file": "content_overrides/cap_religiones_comparadas.es.md",
+      "replace": [
+        [
+          "capítulos 2 y 5",
+          "⟦0.0⟧"
+        ],
+        [
+          " reservorio del capítulo 5 no tiene op",
+          " reservorio ⟦1.0⟧ no tiene op"
+        ],
+        [
+          "man y Atman del capítulo 5, sino que s",
+          "man y Atman ⟦2.0⟧, sino que s"
+        ],
+        [
+          "el capítulo 12",
+          "⟦3.0⟧"
+        ],
+        [
+          "torno*, que el capítulo 7 de este lib",
+          "torno*, que ⟦4.0⟧ de este lib"
+        ],
+        [
+          "(el vedanta en el capítulo 5; el ciclo b",
+          "(el vedanta ⟦5.0⟧; el ciclo b"
+        ],
+        [
+          "en el capítulo 7",
+          "⟦6.0⟧"
+        ],
+        [
+          "el capítulo 27",
+          "⟦7.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 28**",
+          "⟦8.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "capítulos 2 y 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítulo 6"
+        ],
+        [
+          "⟦2.0⟧",
+          "del capítulo 6"
+        ],
+        [
+          "⟦3.0⟧",
+          "el capítulo 13"
+        ],
+        [
+          "⟦4.0⟧",
+          "el capítulo 8"
+        ],
+        [
+          "⟦5.0⟧",
+          "en el capítulo 6"
+        ],
+        [
+          "⟦6.0⟧",
+          "en el capítulo 8"
+        ],
+        [
+          "⟦7.0⟧",
+          "el capítulo 30"
+        ],
+        [
+          "⟦8.0⟧",
+          "**Nota al Capítulo 33**"
+        ]
+      ],
+      "chapter_number": 33,
+      "section": "SEXTA PARTE: HORIZONTES DE OTRA ESCALA"
+    },
+    {
+      "id": "cap_espejo_sin_profundidad",
+      "content_file": "content_overrides/cap_espejo_sin_profundidad.es.md",
+      "replace": [
+        [
+          "del capítulo 4",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítulo 6",
+          "⟦1.0⟧"
+        ],
+        [
+          "en el capítulo 21",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 31**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "del capítulo 5"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítulo 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítulo 23"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítulo 34**"
+        ]
+      ],
+      "chapter_number": 34,
+      "section": "SEXTA PARTE: HORIZONTES DE OTRA ESCALA"
     },
     {
       "id": "cap17_7_alien",
-      "content_file": "content_overrides/cap17_7_alien.es.md"
+      "content_file": "content_overrides/cap17_7_alien.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 39**",
+          "⟦0.0⟧"
+        ],
+        [
+          "(capítulos 10 y 12",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 35**"
+        ],
+        [
+          "⟦1.0⟧",
+          "(capítulos 11 y 13"
+        ]
+      ],
+      "chapter_number": 35,
+      "section": "SEXTA PARTE: HORIZONTES DE OTRA ESCALA"
     },
     {
-      "id": "cap_three_body",
-      "content_file": "../content/lecturas/cap_three_body.es.md"
+      "id": "cap17_6_real",
+      "content_file": "../content/lecturas/cap17_6_real.es.md",
+      "replace": [
+        [
+          "en el capítulo 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "en el capítulo 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "en el capítulo 31",
+          "⟦2.0⟧"
+        ],
+        [
+          "en el capítulo 26",
+          "⟦3.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 37**",
+          "⟦4.0⟧"
+        ],
+        [
+          "(capítulo 31",
+          "⟦5.0⟧"
+        ],
+        [
+          "(capítulo 26",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "en el capítulo 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítulo 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "en el capítulo 29"
+        ],
+        [
+          "⟦4.0⟧",
+          "**Nota al Capítulo 36**"
+        ],
+        [
+          "⟦5.0⟧",
+          "(capítulo 7"
+        ],
+        [
+          "⟦6.0⟧",
+          "(capítulo 29"
+        ]
+      ],
+      "chapter_number": 36,
+      "section": "LECTURAS TOPOLÓGICAS"
     },
     {
-      "id": "cap17_8_cosmic",
-      "content_file": "content_overrides/cap17_8_cosmic.es.md"
-    },
-    {
-      "id": "cap_matrix",
-      "content_file": "../content/lecturas/cap_matrix.es.md"
-    },
-    {
-      "id": "cap_cartografia_singularidades",
-      "content_file": "content_overrides/cap_cartografia_singularidades.es.md"
-    },
-    {
-      "id": "cap_historia_relevo",
-      "content_file": "../content/lecturas/cap_historia_relevo.es.md"
-    },
-    {
-      "id": "cap_traductor",
-      "content_file": "../content/lecturas/cap_traductor.es.md"
-    },
-    {
-      "id": "cap_lenguaje_entrelazamiento",
-      "content_file": "../content/lecturas/cap_lenguaje_entrelazamiento.es.md"
+      "id": "cap_blade_runner",
+      "content_file": "../content/lecturas/cap_blade_runner.es.md",
+      "replace": [
+        [
+          "en el capítulo 4",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítulo 31",
+          "⟦1.0⟧"
+        ],
+        [
+          "En el capítulo 37",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 38**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 5"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítulo 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "En el capítulo 36"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítulo 37**"
+        ]
+      ],
+      "chapter_number": 37,
+      "section": "LECTURAS TOPOLÓGICAS"
     },
     {
       "id": "cap_maquina_tiempo",
-      "content_file": "../content/lecturas/cap_maquina_tiempo.es.md"
+      "content_file": "../content/lecturas/cap_maquina_tiempo.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 47**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 38**"
+        ]
+      ],
+      "chapter_number": 38,
+      "section": "LECTURAS TOPOLÓGICAS"
     },
     {
       "id": "cap_horizonte_prestado",
-      "content_file": "../content/lecturas/cap_horizonte_prestado.es.md"
+      "content_file": "../content/lecturas/cap_horizonte_prestado.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 48**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 39**"
+        ]
+      ],
+      "chapter_number": 39,
+      "section": "LECTURAS TOPOLÓGICAS"
+    },
+    {
+      "id": "cap_three_body",
+      "content_file": "../content/lecturas/cap_three_body.es.md",
+      "chapter_number": 40,
+      "section": "LECTURAS TOPOLÓGICAS"
+    },
+    {
+      "id": "cap17_8_cosmic",
+      "content_file": "content_overrides/cap17_8_cosmic.es.md",
+      "replace": [
+        [
+          "En el capítulo 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "En el capítulo 6"
+        ]
+      ],
+      "chapter_number": 41,
+      "section": "LECTURAS TOPOLÓGICAS"
+    },
+    {
+      "id": "cap_matrix",
+      "content_file": "../content/lecturas/cap_matrix.es.md",
+      "replace": [
+        [
+          "En el capítulo 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "En el capítulo 6"
+        ]
+      ],
+      "chapter_number": 42,
+      "section": "LECTURAS TOPOLÓGICAS"
+    },
+    {
+      "id": "cap_lenguaje_entrelazamiento",
+      "content_file": "content_overrides/cap_lenguaje_entrelazamiento.es.md",
+      "replace": [
+        [
+          "(capítulo 39",
+          "⟦0.0⟧"
+        ],
+        [
+          "de lenguaje en el capítulo 31, aunque por",
+          "de lenguaje ⟦1.0⟧, aunque por"
+        ],
+        [
+          "en el capítulo 21",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 46**",
+          "⟦3.0⟧"
+        ],
+        [
+          "del capítulo 4",
+          "⟦4.0⟧"
+        ],
+        [
+          "al descrito en el capítulo 31. Si la teor",
+          "al descrito ⟦5.0⟧. Si la teor"
+        ],
+        [
+          "en el capítulo 45",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítulo 35"
+        ],
+        [
+          "⟦1.0⟧",
+          "en el capítulo 34"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítulo 23"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítulo 43**"
+        ],
+        [
+          "⟦4.0⟧",
+          "del capítulo 5"
+        ],
+        [
+          "⟦5.0⟧",
+          "en el capítulo 34"
+        ],
+        [
+          "⟦6.0⟧",
+          "en el capítulo 47"
+        ]
+      ],
+      "chapter_number": 43,
+      "section": "LECTURAS TOPOLÓGICAS"
+    },
+    {
+      "id": "cap_diapason_invisible",
+      "content_file": "content_overrides/cap_diapason_invisible.es.md",
+      "replace": [
+        [
+          "\nEl capítulo 28 llamó entre",
+          "\n⟦0.0⟧ llamó entre"
+        ],
+        [
+          " «debería». El capítulo 28 mostró que ",
+          " «debería». ⟦1.0⟧ mostró que "
+        ],
+        [
+          "**Nota al Capítulo 29**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítulo 33"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítulo 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítulo 44**"
+        ]
+      ],
+      "chapter_number": 44,
+      "section": "LECTURAS TOPOLÓGICAS"
+    },
+    {
+      "id": "cap_ojo_un_solo_color",
+      "content_file": "content_overrides/cap_ojo_un_solo_color.es.md",
+      "replace": [
+        [
+          "en el capítulo 27",
+          "⟦0.0⟧"
+        ],
+        [
+          "El capítulo 25",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 30**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 30"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítulo 31"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítulo 45**"
+        ]
+      ],
+      "chapter_number": 45,
+      "section": "LECTURAS TOPOLÓGICAS"
+    },
+    {
+      "id": "cap_cartografia_singularidades",
+      "content_file": "content_overrides/cap_cartografia_singularidades.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 43**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 46**"
+        ]
+      ],
+      "chapter_number": 46,
+      "section": "LECTURAS TOPOLÓGICAS"
+    },
+    {
+      "id": "cap_traductor",
+      "content_file": "../content/lecturas/cap_traductor.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 45**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 47**"
+        ]
+      ],
+      "chapter_number": 47,
+      "section": "LECTURAS TOPOLÓGICAS"
+    },
+    {
+      "id": "cap_historia_relevo",
+      "content_file": "../content/lecturas/cap_historia_relevo.es.md",
+      "replace": [
+        [
+          "**Nota al Capítulo 44**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítulo 48**"
+        ]
+      ],
+      "chapter_number": 48,
+      "section": "LECTURAS TOPOLÓGICAS"
     },
     {
       "id": "cap_realidad_fractal",
-      "content_file": "../content/lecturas/cap_realidad_fractal.es.md"
+      "content_file": "content_overrides/cap_realidad_fractal.es.md",
+      "chapter_number": 49,
+      "section": "SÉPTIMA PARTE: DOS HIPÓTESIS DEL AUTOR"
     },
     {
       "id": "cap_nave_de_barro",
-      "content_file": "../content/lecturas/cap_nave_de_barro.es.md"
+      "content_file": "content_overrides/cap_nave_de_barro.es.md",
+      "replace": [
+        [
+          "(capítulo 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "El capítulo 29",
+          "⟦1.0⟧"
+        ],
+        [
+          "imetría que el capítulo 29 no necesita",
+          "imetría que ⟦2.0⟧ no necesita"
+        ],
+        [
+          "a describió el capítulo 29: el movimie",
+          "a describió ⟦3.0⟧: el movimie"
+        ],
+        [
+          "el capítulo 35",
+          "⟦4.0⟧"
+        ],
+        [
+          "el capítulo 47",
+          "⟦5.0⟧"
+        ],
+        [
+          "el capítulo 17",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítulo 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítulo 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítulo 33"
+        ],
+        [
+          "⟦3.0⟧",
+          "el capítulo 33"
+        ],
+        [
+          "⟦4.0⟧",
+          "el capítulo 21"
+        ],
+        [
+          "⟦5.0⟧",
+          "el capítulo 38"
+        ],
+        [
+          "⟦6.0⟧",
+          "el capítulo 19"
+        ]
+      ],
+      "chapter_number": 50,
+      "section": "SÉPTIMA PARTE: DOS HIPÓTESIS DEL AUTOR"
     },
     {
       "id": "cap19_real",
-      "content_file": "../content/ensayo/cap19_real.es.md"
+      "content_file": "../content/ensayo/cap19_real.es.md",
+      "replace": [
+        [
+          "(capítulo 3",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítulo 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "en el capítulo 22",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítulo 4"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítulo 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítulo 24"
+        ]
+      ],
+      "chapter_number": 51,
+      "section": "OCTAVA PARTE: EL LÍMITE DEL EXPERIMENTO"
     },
     {
       "id": "cap20_real",
-      "content_file": "../content/ensayo/cap20_real.es.md"
+      "content_file": "../content/ensayo/cap20_real.es.md",
+      "replace": [
+        [
+          "el capítulo 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítulo 11"
+        ]
+      ],
+      "chapter_number": 52,
+      "section": "OCTAVA PARTE: EL LÍMITE DEL EXPERIMENTO"
     },
     {
       "id": "cap_epilogo_real",
-      "content_file": "content_overrides/cap_epilogo_real.es.md"
+      "content_file": "content_overrides/cap_epilogo_real.es.md",
+      "section": "OCTAVA PARTE: EL LÍMITE DEL EXPERIMENTO"
     },
     {
       "id": "cap_glosario",
-      "content_file": "../content/ensayo/cap_glosario.es.md"
+      "content_file": "content_overrides/cap_glosario.es.md",
+      "replace": [
+        [
+          "(capítulos 23 y 24",
+          "⟦0.0⟧"
+        ],
+        [
+          "(capítulo 10",
+          "⟦1.0⟧"
+        ],
+        [
+          "(capítulo 31",
+          "⟦2.0⟧"
+        ],
+        [
+          "ubjetividad (capítulo 3).\n\n**Empatí",
+          "ubjetividad ⟦3.0⟧).\n\n**Empatí"
+        ],
+        [
+          "a un dentro (capítulo 3).\n\n**Encaps",
+          "a un dentro ⟦4.0⟧).\n\n**Encaps"
+        ],
+        [
+          "el capítulo 16",
+          "⟦5.0⟧"
+        ],
+        [
+          "(capítulo 4",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítulos 27 y 28"
+        ],
+        [
+          "⟦1.0⟧",
+          "(capítulo 11"
+        ],
+        [
+          "⟦2.0⟧",
+          "(capítulo 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "(capítulo 4"
+        ],
+        [
+          "⟦4.0⟧",
+          "(capítulo 4"
+        ],
+        [
+          "⟦5.0⟧",
+          "el capítulo 18"
+        ],
+        [
+          "⟦6.0⟧",
+          "(capítulo 5"
+        ]
+      ]
     },
     {
       "id": "cap_notas_cierre",
-      "content_file": "../content/ensayo/cap_notas_cierre.es.md"
+      "content_file": "content_overrides/cap_notas_cierre.es.md"
     },
     {
       "id": "cap_notas_referencias",

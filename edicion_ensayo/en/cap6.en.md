@@ -7,7 +7,7 @@ illustrationTitle: Evaporation
 illustrationDescription: A lake evaporating. The water rises as vapor in the shape of faces, houses, trees —memories dissolving. In the sky, clouds with patterns that are not random.
 ---
 
-> *The water came back at night. Without warning. Without signs. In the morning the inhabitants found the shore where it had always been. The same mud. The same stones. The same line of salt on the low walls. No one could say whether the water had brought anything with it. No one could say whether it had left anything behind.*
+> *There was a city beside a water that withdrew, and an archivist who kept what the water left behind. The water came back at night. Without warning. Without signs. In the morning the inhabitants found the shore where it had always been. The same mud. The same stones. The same line of salt on the low walls. No one could say whether the water had brought anything with it. No one could say whether it had left anything behind.*
 
 In 1974 Stephen Hawking discovered that black holes are not eternal. Nothing destroys them from outside: the quantum vacuum, disturbed by the horizon, generates a constant flow of radiation that slowly drains their mass. The temperature of that radiation is inversely proportional to the mass: the smaller the black hole, the hotter and brighter it is. Evaporation accelerates itself.
 
@@ -34,6 +34,10 @@ For almost forty years this paradox was the most famous problem in theoretical p
 > **In physics this is called:** the black hole information paradox.
 
 The solution that seems most likely today, although it is not proven, is that information is not destroyed when the horizon disappears but undergoes a process of *scrambling*: it disperses and becomes irreversibly entangled with the outside environment, losing its local coherence while remaining globally conserved in the physics of the reservoir.
+
+That conservation has a calendar. During the first half of the black hole's life, Hawking radiation is thermal: it carries growing entropy and no recoverable correlation with what fell in. After the so-called *Page time*, roughly halfway through that life, the radiation stops being pure noise: each escaping particle becomes entangled with the radiation that left before it, and what the horizon emits is no longer only loss but correlation. So the question of what remains has two answers depending on the moment: while the horizon is in its first half, nothing crosses its boundary back; only afterwards does there begin to be, in principle, something legible.
+
+> **In physics this is called:** Page time, the point in the evaporation after which the entropy of the radiation stops growing and begins to decrease.
 
 ### In its last fractions of a second
 

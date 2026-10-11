@@ -110,7 +110,7 @@ This would have three important consequences.
 
 **Third: communication is imperfect in principle.** When you describe a pain, you transmit not the pain, but a classical description (words, gestures) of a state that cannot be copied. The receiver reconstructs something, but that something is not your pain: it is their interpretation of your description, filtered through their own architecture.
 
-The story that follows, "The one who remains," stages the question this theorem leaves open: if a mind could be transferred to another substrate, would what arrives on the other side be that mind, or an instance faithful enough?
+The question this theorem leaves open is this: if a mind could be transferred to another substrate, would what arrives on the other side be that mind, or an instance faithful enough?
 
 ### The warning, and a classical version
 

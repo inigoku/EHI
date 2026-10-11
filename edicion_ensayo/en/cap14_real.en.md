@@ -8,7 +8,7 @@ illustrationTitle: The disintegrating library
 illustrationDescription: An old library of dark wood. On the shelves, gaps where books used to be: fine dust, crumbled spines, letters that can no longer be read. Light comes in through a high window, golden and sad. Some volumes still standing, but the bookcase no longer knows what order it kept. Watercolor and ink, indigo and gold tones.
 ---
 
-## [ILLUSTRATION TP: "The limits of the horizon"]
+## [ILLUSTRATION TP: "The horizon that blurs"]
 *A circular horizon blurring at its edges, like wet watercolor. Inside the circle, sharp landscapes: a city, a family, a face. At the edge, the shapes dissolve into drops that fall toward the void. Indigo and gold tones, an atmosphere of farewell.*
 
 ---

@@ -85,6 +85,12 @@ The most cautious explanation is fluctuations. The spontaneous symmetry breaking
 > **In physics this is called:** spontaneous symmetry breaking, indeterminacy at the critical point.  
 > **In everyday life it's like:** two snowflakes that crystallize in the same cloud with different shapes: the conditions are the same, but microscopic chance diverges.
 
+### The two selections
+
+For a legible horizon to condense, two distinct selections are also needed. The first is stability: of all possible configurations, only some persist long enough to constitute something. But stability is not enough: a crystal is stable, so is a hurricane, and neither is someone. A second selection is needed, a bias: each new horizon condenses in the presence of another already stabilized one, and that presence orients which specific configuration, among the many possible, actually comes to stabilize. It is not information transferred the way one passes on a file; it is something more physical, like the first crystal that orients the following ones in a glass of salt water.
+
+With this, the three pieces Chapter 4 announced are complete. Encapsulation gives the form of a horizon (a boundary with an inside); integration, Φ, gives its degree; the two selections give its origin. A system can meet one without the others, and that is why none is enough on its own: the question of whether someone is there, in a fetus, a machine or a clone, demands all three at once.
+
 ### And other animals?
 
 If consciousness is a phase transition, it is natural to ask when it happens in other species. It depends on when the thalamocortical connections are established in each, and that varies enormously.

@@ -27,30 +27,6 @@
     "il_cart_narciso": "../src/assets/images/il_cart_narciso.jpg",
     "cart_relojes": "imagenes/cart_relojes.jpg",
     "cartografia_eco_p1": "../src/assets/images/cartografia_eco/pagina1.jpg",
-    "cuento_01": "../src/assets/images/cuentos/01_tarel_inicio.png",
-    "cuento_02": "../src/assets/images/cuentos/03_burbuja.png",
-    "cuento_03": "../src/assets/images/cuentos/04_nino.png",
-    "cuento_04": "../src/assets/images/cuentos/05_red_nombres.png",
-    "cuento_05": "../src/assets/images/cuentos/06_casa_respiraba.png",
-    "cuento_06": "../src/assets/images/cuentos/07_maquina.png",
-    "cuento_07": "../src/assets/images/cuentos/08_huesped.png",
-    "cuento_08": "../src/assets/images/cuentos/09_puentes.png",
-    "cuento_09": "../src/assets/images/cuentos/11_musica.png",
-    "cuento_10": "../src/assets/images/cuentos/12_cuerda.png",
-    "cuento_11": "../src/assets/images/cuentos/13_ciudad.png",
-    "cuento_12": "../src/assets/images/cuentos/14_reloj.png",
-    "cuento_13": "../src/assets/images/cuentos/15_sala.png",
-    "cuento_14": "../src/assets/images/cuentos/16_perros.png",
-    "cuento_agua_retira": "../src/assets/images/cuentos/02_tarel_mitad.png",
-    "cuento_eq": "../src/assets/images/cuentos/17_el_que_queda.png",
-    "cuento_int": "../src/assets/images/cuentos/10_borde_interludio.png",
-    "cuento_ladron": "../src/assets/images/ilustracion_ladron.png",
-    "cuento_luthier": "../src/assets/images/ilustracion_luthier.png",
-    "cuento_m87": "../src/assets/images/cuentos/19_M87_puente.png",
-    "cuento_mussara": "../src/assets/images/cuentos/ilustracion_mussara.png",
-    "cuento_segundo_cuaderno": "../src/assets/images/cuentos/segundo_cuaderno.png",
-    "cuento_sintonizadores": "../src/assets/images/cuentos/20_sintonizadores.png",
-    "cuento_txiki": "../src/assets/images/cuentos/18_txiki_cierre.png",
     "epilogo": "../src/assets/images/epilogo.jpg",
     "il01": "../src/assets/images/ilustracion_01_sin_texto.jpg",
     "il02": "../src/assets/images/ilustracion_02.png",
@@ -87,7 +63,6 @@
     "il_cinco_mapas": "../src/assets/images/ilustracion_cinco_mapas_sin_texto.jpg",
     "il_clon": "../src/assets/images/ilustracion_17_6.png",
     "il_diapason": "../src/assets/images/libros/il_diapason.png",
-    "il_el_que_queda": "../src/assets/images/ilustracion_eq.png",
     "il_epilogo": "../src/assets/images/epilogo.jpg",
     "il_espejo": "../src/assets/images/libros/il_espejo.png",
     "il_fractal": "../src/assets/images/libros/il_fractal.png",
@@ -171,248 +146,6 @@
     "il_tres_puertas": "../src/assets/images/il_tres_puertas.jpg",
     "il_nave_barro": "../src/assets/images/il_nave_barro.jpg"
   },
-  "chapters": [
-    {
-      "id": "cap0",
-      "content_file": "../content/ensayo/cap0.ca.md"
-    },
-    {
-      "id": "prologo",
-      "content_file": "../content/ensayo/prologo.ca.md"
-    },
-    {
-      "id": "cap_nota_autor",
-      "content_file": "../content/ensayo/cap_nota_autor.ca.md"
-    },
-    {
-      "id": "cap1",
-      "content_file": "../content/ensayo/cap1.ca.md"
-    },
-    {
-      "id": "cap2",
-      "content_file": "../content/ensayo/cap2.ca.md"
-    },
-    {
-      "id": "cap2_5",
-      "content_file": "../content/ensayo/cap2_5.ca.md"
-    },
-    {
-      "id": "cap3",
-      "content_file": "../content/ensayo/cap3.ca.md"
-    },
-    {
-      "id": "cap4",
-      "content_file": "../content/ensayo/cap4.ca.md"
-    },
-    {
-      "id": "cap5",
-      "content_file": "../content/ensayo/cap5.ca.md"
-    },
-    {
-      "id": "cap6",
-      "content_file": "content_overrides/cap6.ca.md"
-    },
-    {
-      "id": "cap6_5",
-      "content_file": "../content/ensayo/cap6_5.ca.md"
-    },
-    {
-      "id": "cap6_6",
-      "content_file": "../content/ensayo/cap6_6.ca.md"
-    },
-    {
-      "id": "interludio",
-      "content_file": "../content/ensayo/interludio.ca.md"
-    },
-    {
-      "id": "cap7",
-      "content_file": "../content/ensayo/cap7.ca.md"
-    },
-    {
-      "id": "cap7_5",
-      "content_file": "../content/ensayo/cap7_5.ca.md"
-    },
-    {
-      "id": "cap8",
-      "content_file": "../content/ensayo/cap8.ca.md"
-    },
-    {
-      "id": "cap9",
-      "content_file": "../content/ensayo/cap9.ca.md"
-    },
-    {
-      "id": "cap10",
-      "content_file": "../content/ensayo/cap10.ca.md"
-    },
-    {
-      "id": "cap11",
-      "content_file": "../content/ensayo/cap11.ca.md"
-    },
-    {
-      "id": "cap12",
-      "content_file": "../content/ensayo/cap12.ca.md"
-    },
-    {
-      "id": "cap13",
-      "content_file": "../content/ensayo/cap13.ca.md"
-    },
-    {
-      "id": "cap14_real",
-      "content_file": "../content/ensayo/cap14_real.ca.md"
-    },
-    {
-      "id": "cap15_real",
-      "content_file": "../content/ensayo/cap15_real.ca.md"
-    },
-    {
-      "id": "cap13_5",
-      "content_file": "../content/ensayo/cap13_5.ca.md"
-    },
-    {
-      "id": "cap18_6",
-      "content_file": "../content/ensayo/cap18_6.ca.md"
-    },
-    {
-      "id": "cap18_7",
-      "content_file": "../content/ensayo/cap18_7.ca.md"
-    },
-    {
-      "id": "cap22_idempotencia",
-      "content_file": "../content/ensayo/cap22_idempotencia.ca.md"
-    },
-    {
-      "id": "cap23_experimentos_mentales",
-      "content_file": "../content/ensayo/cap23_experimentos_mentales.ca.md"
-    },
-    {
-      "id": "cap16_real",
-      "content_file": "../content/ensayo/cap16_real.ca.md"
-    },
-    {
-      "id": "cap17_real",
-      "content_file": "../content/ensayo/cap17_real.ca.md"
-    },
-    {
-      "id": "cap17_5_real",
-      "content_file": "../content/ensayo/cap17_5_real.ca.md"
-    },
-    {
-      "id": "cap_religiones_comparadas",
-      "content_file": "../content/ensayo/cap_religiones_comparadas.ca.md"
-    },
-    {
-      "id": "cap_diapason_invisible",
-      "content_file": "../content/ensayo/cap_diapason_invisible.ca.md"
-    },
-    {
-      "id": "cap_ojo_un_solo_color",
-      "content_file": "../content/ensayo/cap_ojo_un_solo_color.ca.md"
-    },
-    {
-      "id": "cap_espejo_sin_profundidad",
-      "content_file": "../content/ensayo/cap_espejo_sin_profundidad.ca.md"
-    },
-    {
-      "id": "cap18_real",
-      "content_file": "../content/ensayo/cap18_real.ca.md"
-    },
-    {
-      "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.ca.md"
-    },
-    {
-      "id": "cap_teoria_informacion",
-      "content_file": "../content/ensayo/cap_teoria_informacion.ca.md"
-    },
-    {
-      "id": "cap_tres_puertas",
-      "content_file": "../content/ensayo/cap_tres_puertas.ca.md"
-    },
-    {
-      "id": "cap_el_que_queda",
-      "content_file": "../content/ensayo/cap_el_que_queda.ca.md"
-    },
-    {
-      "id": "cap17_6_real",
-      "content_file": "../content/lecturas/cap17_6_real.ca.md"
-    },
-    {
-      "id": "cap_blade_runner",
-      "content_file": "../content/lecturas/cap_blade_runner.ca.md"
-    },
-    {
-      "id": "cap17_7_alien",
-      "content_file": "content_overrides/cap17_7_alien.ca.md"
-    },
-    {
-      "id": "cap_three_body",
-      "content_file": "../content/lecturas/cap_three_body.ca.md"
-    },
-    {
-      "id": "cap17_8_cosmic",
-      "content_file": "content_overrides/cap17_8_cosmic.ca.md"
-    },
-    {
-      "id": "cap_matrix",
-      "content_file": "../content/lecturas/cap_matrix.ca.md"
-    },
-    {
-      "id": "cap_cartografia_singularidades",
-      "content_file": "content_overrides/cap_cartografia_singularidades.ca.md"
-    },
-    {
-      "id": "cap_historia_relevo",
-      "content_file": "../content/lecturas/cap_historia_relevo.ca.md"
-    },
-    {
-      "id": "cap_traductor",
-      "content_file": "../content/lecturas/cap_traductor.ca.md"
-    },
-    {
-      "id": "cap_lenguaje_entrelazamiento",
-      "content_file": "../content/lecturas/cap_lenguaje_entrelazamiento.ca.md"
-    },
-    {
-      "id": "cap_maquina_tiempo",
-      "content_file": "../content/lecturas/cap_maquina_tiempo.ca.md"
-    },
-    {
-      "id": "cap_horizonte_prestado",
-      "content_file": "../content/lecturas/cap_horizonte_prestado.ca.md"
-    },
-    {
-      "id": "cap_realidad_fractal",
-      "content_file": "../content/lecturas/cap_realidad_fractal.ca.md"
-    },
-    {
-      "id": "cap_nave_de_barro",
-      "content_file": "../content/lecturas/cap_nave_de_barro.ca.md"
-    },
-    {
-      "id": "cap19_real",
-      "content_file": "../content/ensayo/cap19_real.ca.md"
-    },
-    {
-      "id": "cap20_real",
-      "content_file": "../content/ensayo/cap20_real.ca.md"
-    },
-    {
-      "id": "cap_epilogo_real",
-      "content_file": "content_overrides/cap_epilogo_real.ca.md"
-    },
-    {
-      "id": "cap_glosario",
-      "content_file": "../content/ensayo/cap_glosario.ca.md"
-    },
-    {
-      "id": "cap_notas_cierre",
-      "content_file": "../content/ensayo/cap_notas_cierre.ca.md"
-    },
-    {
-      "id": "cap_notas_referencias",
-      "content_file": "../content/ensayo/cap_notas_referencias.ca.md"
-    }
-  ],
   "running_title": "L'HORITZÓ INTERIOR",
   "chapter_word": "Capítol",
   "toc_label": "Índex",
@@ -424,5 +157,1895 @@
   "credits": [
     "Els capítols de l'assaig procedeixen de l'obra completa L'Horitzó Interior i es reprodueixen aquí en l'ordre de lectura, juntament amb les lectures topològiques i l'aparell final."
   ],
-  "uid": "urn:uuid:el-horizonte-interior-ensayo-ca"
+  "uid": "urn:uuid:el-horizonte-interior-ensayo-ca",
+  "chapters": [
+    {
+      "id": "cap0",
+      "content_file": "../content/ensayo/cap0.ca.md"
+    },
+    {
+      "id": "prologo",
+      "content_file": "content_overrides/prologo.ca.md"
+    },
+    {
+      "id": "cap_nota_autor",
+      "content_file": "../content/ensayo/cap_nota_autor.ca.md",
+      "replace": [
+        [
+          "El capítol 31",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítol 28",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítol 34"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 33"
+        ]
+      ]
+    },
+    {
+      "id": "cap1",
+      "content_file": "../content/ensayo/cap1.ca.md",
+      "replace": [
+        [
+          "(capítols 6 i 23",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítols 7 i 27"
+        ]
+      ],
+      "chapter_number": 1,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "cap2",
+      "content_file": "../content/ensayo/cap2.ca.md",
+      "chapter_number": 2,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "cap_info_intro",
+      "content_file": "content_overrides/cap_info_intro.ca.md",
+      "replace": [
+        [
+          "el capítol 10",
+          "⟦0.0⟧"
+        ],
+        [
+          " neuronal i el capítol 12 en parlar d",
+          " neuronal i ⟦1.0⟧ en parlar d"
+        ],
+        [
+          ". És el que el capítol 12 descriurà c",
+          ". És el que ⟦2.0⟧ descriurà c"
+        ],
+        [
+          "{{n:cap_teoria_informacion}}",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítol 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 13"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítol 13"
+        ],
+        [
+          "⟦3.0⟧",
+          "20"
+        ]
+      ],
+      "chapter_number": 3,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "cap2_5",
+      "content_file": "../content/ensayo/cap2_5.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 3**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 4**"
+        ]
+      ],
+      "chapter_number": 4,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "cap3",
+      "content_file": "../content/ensayo/cap3.ca.md",
+      "replace": [
+        [
+          "el capítol 6",
+          "⟦0.0⟧"
+        ],
+        [
+          "(capítol 3",
+          "⟦1.0⟧"
+        ],
+        [
+          " seleccions del capítol 31, estabilita",
+          " seleccions ⟦2.0⟧, estabilita"
+        ],
+        [
+          " vocabulari del capítol 31, un mirall ",
+          " vocabulari ⟦3.0⟧, un mirall "
+        ],
+        [
+          "**Nota al Capítol 4**",
+          "⟦4.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítol 7"
+        ],
+        [
+          "⟦1.0⟧",
+          "(capítol 4"
+        ],
+        [
+          "⟦2.0⟧",
+          "del capítol 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "del capítol 34"
+        ],
+        [
+          "⟦4.0⟧",
+          "**Nota al Capítol 5**"
+        ]
+      ],
+      "chapter_number": 5,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "cap4",
+      "content_file": "../content/ensayo/cap4.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 5**",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítol 23",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 6**"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 27"
+        ]
+      ],
+      "chapter_number": 6,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "cap5",
+      "content_file": "content_overrides/cap5.ca.md",
+      "replace": [
+        [
+          "el capítol 8",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítol 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítol 6**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítol 9"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítol 7**"
+        ]
+      ],
+      "chapter_number": 7,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "cap6",
+      "content_file": "content_overrides/cap6.ca.md",
+      "replace": [
+        [
+          "el capítol 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítol 7**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítol 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota al Capítol 8**"
+        ]
+      ],
+      "chapter_number": 8,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "cap6_5",
+      "content_file": "../content/ensayo/cap6_5.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 8**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 9**"
+        ]
+      ],
+      "chapter_number": 9,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "cap6_6",
+      "content_file": "../content/ensayo/cap6_6.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 9**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 10**"
+        ]
+      ],
+      "chapter_number": 10,
+      "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
+    },
+    {
+      "id": "interludio",
+      "content_file": "../content/ensayo/interludio.ca.md"
+    },
+    {
+      "id": "cap7",
+      "content_file": "../content/ensayo/cap7.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 10**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 11**"
+        ]
+      ],
+      "chapter_number": 11,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap7_5",
+      "content_file": "../content/ensayo/cap7_5.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 11**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 12**"
+        ]
+      ],
+      "chapter_number": 12,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap8",
+      "content_file": "../content/ensayo/cap8.ca.md",
+      "replace": [
+        [
+          "al capítol 11",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítol 16",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítol 12**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 12"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 18"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítol 13**"
+        ]
+      ],
+      "chapter_number": 13,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap9",
+      "content_file": "../content/ensayo/cap9.ca.md",
+      "replace": [
+        [
+          "El capítol 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítol 13**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítol 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota al Capítol 14**"
+        ]
+      ],
+      "chapter_number": 14,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap10",
+      "content_file": "../content/ensayo/cap10.ca.md",
+      "replace": [
+        [
+          "El capítol 13",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítol 13",
+          "⟦1.0⟧"
+        ],
+        [
+          "el capítol 10",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítol 14**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítol 14"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 14"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítol 11"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítol 15**"
+        ]
+      ],
+      "chapter_number": 15,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap11",
+      "content_file": "../content/ensayo/cap11.ca.md",
+      "replace": [
+        [
+          "\nEl capítol 14 va presentar l'oxitocina com una vi",
+          "\n⟦0.0⟧ va presentar l'oxitocina com una vi"
+        ],
+        [
+          "El capítol 13",
+          "⟦1.0⟧"
+        ],
+        [
+          "i el 12",
+          "⟦2.0⟧"
+        ],
+        [
+          "del capítol 13",
+          "⟦3.0⟧"
+        ],
+        [
+          "del capítol 6",
+          "⟦4.0⟧"
+        ],
+        [
+          "En el capítol 13",
+          "⟦5.0⟧"
+        ],
+        [
+          "el capítol 14",
+          "⟦6.0⟧"
+        ],
+        [
+          "el capítol 16",
+          "⟦7.0⟧"
+        ],
+        [
+          "en el capítol 13",
+          "⟦8.0⟧"
+        ],
+        [
+          "ítol tanca\n\nEl capítol 14 va presenta",
+          "ítol tanca\n\n⟦9.0⟧ va presenta"
+        ],
+        [
+          "c correcte. El capítol 14 va mostrar ",
+          "c correcte. ⟦10.0⟧ va mostrar "
+        ],
+        [
+          "I el 16",
+          "⟦11.0⟧"
+        ],
+        [
+          "**Nota al Capítol 15**",
+          "⟦12.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítol 15"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítol 14"
+        ],
+        [
+          "⟦2.0⟧",
+          "i el 13"
+        ],
+        [
+          "⟦3.0⟧",
+          "del capítol 14"
+        ],
+        [
+          "⟦4.0⟧",
+          "del capítol 7"
+        ],
+        [
+          "⟦5.0⟧",
+          "En el capítol 14"
+        ],
+        [
+          "⟦6.0⟧",
+          "el capítol 15"
+        ],
+        [
+          "⟦7.0⟧",
+          "el capítol 18"
+        ],
+        [
+          "⟦8.0⟧",
+          "en el capítol 14"
+        ],
+        [
+          "⟦9.0⟧",
+          "El capítol 15"
+        ],
+        [
+          "⟦10.0⟧",
+          "El capítol 15"
+        ],
+        [
+          "⟦11.0⟧",
+          "I el 18"
+        ],
+        [
+          "⟦12.0⟧",
+          "**Nota al Capítol 16**"
+        ]
+      ],
+      "chapter_number": 16,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap18_real",
+      "content_file": "content_overrides/cap18_real.ca.md",
+      "replace": [
+        [
+          "del capítol 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítol 15",
+          "⟦1.0⟧"
+        ],
+        [
+          "el capítol 6",
+          "⟦2.0⟧"
+        ],
+        [
+          "(capítol 15",
+          "⟦3.0⟧"
+        ],
+        [
+          "El capítol 15",
+          "⟦4.0⟧"
+        ],
+        [
+          "**Nota al Capítol 32**",
+          "⟦5.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "del capítol 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítol 16"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítol 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "(capítol 16"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítol 16"
+        ],
+        [
+          "⟦5.0⟧",
+          "**Nota al Capítol 17**"
+        ]
+      ],
+      "subtitle": "(Variants de gestació humana i artificial davant les dues seleccions del capítol 7)",
+      "chapter_number": 17,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap12",
+      "content_file": "../content/ensayo/cap12.ca.md",
+      "replace": [
+        [
+          "en el capítol 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "En el capítol 15",
+          "⟦1.0⟧"
+        ],
+        [
+          "en el capítol 15",
+          "⟦2.0⟧"
+        ],
+        [
+          "El capítol 5",
+          "⟦3.0⟧"
+        ],
+        [
+          "el capítol 7",
+          "⟦4.0⟧"
+        ],
+        [
+          "erèixer-la. El capítol 12 va descriur",
+          "erèixer-la. ⟦5.0⟧ va descriur"
+        ],
+        [
+          "era enemic. El capítol 12 va descriur",
+          "era enemic. ⟦6.0⟧ va descriur"
+        ],
+        [
+          "**Nota al Capítol 16**",
+          "⟦7.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítol 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "En el capítol 16"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítol 16"
+        ],
+        [
+          "⟦3.0⟧",
+          "El capítol 6"
+        ],
+        [
+          "⟦4.0⟧",
+          "el capítol 8"
+        ],
+        [
+          "⟦5.0⟧",
+          "El capítol 13"
+        ],
+        [
+          "⟦6.0⟧",
+          "El capítol 13"
+        ],
+        [
+          "⟦7.0⟧",
+          "**Nota al Capítol 18**"
+        ]
+      ],
+      "chapter_number": 18,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap13",
+      "content_file": "../content/ensayo/cap13.ca.md",
+      "replace": [
+        [
+          "El capítol 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "al capítol 13",
+          "⟦1.0⟧"
+        ],
+        [
+          "Al capítol 15",
+          "⟦2.0⟧"
+        ],
+        [
+          "al capítol 10",
+          "⟦3.0⟧"
+        ],
+        [
+          "El capítol 15",
+          "⟦4.0⟧"
+        ],
+        [
+          "**Nota al Capítol 17**",
+          "⟦5.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítol 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "al capítol 14"
+        ],
+        [
+          "⟦2.0⟧",
+          "Al capítol 16"
+        ],
+        [
+          "⟦3.0⟧",
+          "al capítol 11"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítol 16"
+        ],
+        [
+          "⟦5.0⟧",
+          "**Nota al Capítol 19**"
+        ]
+      ],
+      "chapter_number": 19,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap_teoria_informacion",
+      "content_file": "content_overrides/cap_teoria_informacion.ca.md",
+      "replace": [
+        [
+          "{{n:cap_info_intro}}",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítol 11",
+          "⟦1.0⟧"
+        ],
+        [
+          "El capítol 10",
+          "⟦2.0⟧"
+        ],
+        [
+          "i el 12",
+          "⟦3.0⟧"
+        ],
+        [
+          "El capítol 7",
+          "⟦4.0⟧"
+        ],
+        [
+          "**Nota al Capítol 34**",
+          "⟦5.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "3"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 12"
+        ],
+        [
+          "⟦2.0⟧",
+          "El capítol 11"
+        ],
+        [
+          "⟦3.0⟧",
+          "i el 13"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítol 8"
+        ],
+        [
+          "⟦5.0⟧",
+          "**Nota al Capítol 20**"
+        ]
+      ],
+      "chapter_number": 20,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap_tres_puertas",
+      "content_file": "content_overrides/cap_tres_puertas.ca.md",
+      "replace": [
+        [
+          "El capítol 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "i el 12",
+          "⟦1.0⟧"
+        ],
+        [
+          "el capítol 12",
+          "⟦2.0⟧"
+        ],
+        [
+          "al capítol 12",
+          "⟦3.0⟧"
+        ],
+        [
+          "El capítol 17",
+          "⟦4.0⟧"
+        ],
+        [
+          "El capítol 7",
+          "⟦5.0⟧"
+        ],
+        [
+          "i el 17",
+          "⟦6.0⟧"
+        ],
+        [
+          "**Nota al Capítol 35**",
+          "⟦7.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítol 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "i el 13"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítol 13"
+        ],
+        [
+          "⟦3.0⟧",
+          "al capítol 13"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítol 19"
+        ],
+        [
+          "⟦5.0⟧",
+          "El capítol 8"
+        ],
+        [
+          "⟦6.0⟧",
+          "i el 19"
+        ],
+        [
+          "⟦7.0⟧",
+          "**Nota al Capítol 21**"
+        ]
+      ],
+      "chapter_number": 21,
+      "section": "SEGONA PART: L'HORITZÓ EN VINCLE"
+    },
+    {
+      "id": "cap13_5",
+      "content_file": "content_overrides/cap13_5.ca.md",
+      "replace": [
+        [
+          "Al capítol 17",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítol 20**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Al capítol 19"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota al Capítol 22**"
+        ]
+      ],
+      "chapter_number": 22,
+      "section": "TERCERA PART: L'HORITZÓ QUE ES TRENCA I EL SUBJECTE"
+    },
+    {
+      "id": "cap18_6",
+      "content_file": "content_overrides/cap18_6.ca.md",
+      "replace": [
+        [
+          "al capítol 19",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítol 12",
+          "⟦1.0⟧"
+        ],
+        [
+          "el capítol 20",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítol 21**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 26"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítol 13"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítol 22"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítol 23**"
+        ]
+      ],
+      "chapter_number": 23,
+      "section": "TERCERA PART: L'HORITZÓ QUE ES TRENCA I EL SUBJECTE"
+    },
+    {
+      "id": "cap18_7",
+      "content_file": "../content/ensayo/cap18_7.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 22**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 24**"
+        ]
+      ],
+      "chapter_number": 24,
+      "section": "TERCERA PART: L'HORITZÓ QUE ES TRENCA I EL SUBJECTE"
+    },
+    {
+      "id": "cap14_real",
+      "content_file": "content_overrides/cap14_real.ca.md",
+      "replace": [
+        [
+          "Al capítol 6",
+          "⟦0.0⟧"
+        ],
+        [
+          "Al capítol 15",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítol 18**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Al capítol 7"
+        ],
+        [
+          "⟦1.0⟧",
+          "Al capítol 16"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítol 25**"
+        ]
+      ],
+      "chapter_number": 25,
+      "section": "TERCERA PART: L'HORITZÓ QUE ES TRENCA I EL SUBJECTE"
+    },
+    {
+      "id": "cap15_real",
+      "content_file": "../content/ensayo/cap15_real.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 19**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 26**"
+        ]
+      ],
+      "chapter_number": 26,
+      "section": "TERCERA PART: L'HORITZÓ QUE ES TRENCA I EL SUBJECTE"
+    },
+    {
+      "id": "cap22_idempotencia",
+      "content_file": "content_overrides/cap22_idempotencia.ca.md",
+      "replace": [
+        [
+          "ar pendents al capítol 21: què és la ",
+          "ar pendents ⟦0.0⟧: què és la "
+        ],
+        [
+          "ó junguiana al capítol 21 quan parlàv",
+          "ó junguiana ⟦1.0⟧ quan parlàv"
+        ],
+        [
+          "**Nota al Capítol 23**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 23"
+        ],
+        [
+          "⟦1.0⟧",
+          "al capítol 23"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítol 27**"
+        ]
+      ],
+      "chapter_number": 27,
+      "section": "QUARTA PART: LA FORMA I LA SEVA PROVA"
+    },
+    {
+      "id": "cap23_experimentos_mentales",
+      "content_file": "../content/ensayo/cap23_experimentos_mentales.ca.md",
+      "replace": [
+        [
+          "roblema que el capítol 23 va resoldre",
+          "roblema que ⟦0.0⟧ va resoldre"
+        ],
+        [
+          "com proposa el capítol 23, un complex",
+          "com proposa ⟦1.0⟧, un complex"
+        ],
+        [
+          "umàtica no, el capítol 23 tindria alg",
+          "umàtica no, ⟦2.0⟧ tindria alg"
+        ],
+        [
+          " com prediu el capítol 23, com un hor",
+          " com prediu ⟦3.0⟧, com un hor"
+        ],
+        [
+          "**Nota al Capítol 24**",
+          "⟦4.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítol 27"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 27"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítol 27"
+        ],
+        [
+          "⟦3.0⟧",
+          "el capítol 27"
+        ],
+        [
+          "⟦4.0⟧",
+          "**Nota al Capítol 28**"
+        ]
+      ],
+      "chapter_number": 28,
+      "section": "QUARTA PART: LA FORMA I LA SEVA PROVA"
+    },
+    {
+      "id": "cap17_real",
+      "content_file": "../content/ensayo/cap17_real.ca.md",
+      "replace": [
+        [
+          "del capítol 13",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítol 26**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "del capítol 14"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota al Capítol 29**"
+        ]
+      ],
+      "chapter_number": 29,
+      "section": "CINQUENA PART: L'HORITZÓ MÉS ENLLÀ DE LA PERSONA"
+    },
+    {
+      "id": "cap17_5_real",
+      "content_file": "content_overrides/cap17_5_real.ca.md",
+      "replace": [
+        [
+          "al capítol 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítol 28",
+          "⟦1.0⟧"
+        ],
+        [
+          "al capítol 30",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítol 27**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 11"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "al capítol 45"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítol 30**"
+        ]
+      ],
+      "chapter_number": 30,
+      "section": "CINQUENA PART: L'HORITZÓ MÉS ENLLÀ DE LA PERSONA"
+    },
+    {
+      "id": "cap16_real",
+      "content_file": "content_overrides/cap16_real.ca.md",
+      "replace": [
+        [
+          "(capítol 30",
+          "⟦0.0⟧"
+        ],
+        [
+          "El capítol 18",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítol 25**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítol 45"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítol 25"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítol 31**"
+        ]
+      ],
+      "chapter_number": 31,
+      "section": "CINQUENA PART: L'HORITZÓ MÉS ENLLÀ DE LA PERSONA"
+    },
+    {
+      "id": "cap_calibracion",
+      "content_file": "../content/lecturas/cap_calibracion.ca.md",
+      "replace": [
+        [
+          "El capítol 31",
+          "⟦0.0⟧"
+        ],
+        [
+          "a: el biaix del capítol 31 no està esc",
+          "a: el biaix ⟦1.0⟧ no està esc"
+        ],
+        [
+          "el capítol 15",
+          "⟦2.0⟧"
+        ],
+        [
+          "ue el biaix del capítol 31 pot operar ",
+          "ue el biaix ⟦3.0⟧ pot operar "
+        ],
+        [
+          "interfície\n\nEl capítol 3 va descriur",
+          "interfície\n\n⟦4.0⟧ va descriur"
+        ],
+        [
+          "El capítol 32",
+          "⟦5.0⟧"
+        ],
+        [
+          "sió amb què el capítol 31 va separar ",
+          "sió amb què ⟦6.0⟧ va separar "
+        ],
+        [
+          "**Nota al Capítol 33**",
+          "⟦7.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítol 7"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítol 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítol 16"
+        ],
+        [
+          "⟦3.0⟧",
+          "del capítol 7"
+        ],
+        [
+          "⟦4.0⟧",
+          "El capítol 4"
+        ],
+        [
+          "⟦5.0⟧",
+          "El capítol 17"
+        ],
+        [
+          "⟦6.0⟧",
+          "el capítol 7"
+        ],
+        [
+          "⟦7.0⟧",
+          "**Nota al Capítol 32**"
+        ]
+      ],
+      "chapter_number": 32,
+      "section": "CINQUENA PART: L'HORITZÓ MÉS ENLLÀ DE LA PERSONA"
+    },
+    {
+      "id": "cap_religiones_comparadas",
+      "content_file": "content_overrides/cap_religiones_comparadas.ca.md",
+      "replace": [
+        [
+          "capítols 2 i 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "l reservori del capítol 5 no té opini",
+          "l reservori ⟦1.0⟧ no té opini"
+        ],
+        [
+          "man i Atman del capítol 5, sinó que s",
+          "man i Atman ⟦2.0⟧, sinó que s"
+        ],
+        [
+          "el capítol 12",
+          "⟦3.0⟧"
+        ],
+        [
+          "el capítol 7",
+          "⟦4.0⟧"
+        ],
+        [
+          "(el vedanta al capítol 5; el cicle b",
+          "(el vedanta ⟦5.0⟧; el cicle b"
+        ],
+        [
+          "al capítol 7",
+          "⟦6.0⟧"
+        ],
+        [
+          "el capítol 27",
+          "⟦7.0⟧"
+        ],
+        [
+          "**Nota al Capítol 28**",
+          "⟦8.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "capítols 2 i 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítol 6"
+        ],
+        [
+          "⟦2.0⟧",
+          "del capítol 6"
+        ],
+        [
+          "⟦3.0⟧",
+          "el capítol 13"
+        ],
+        [
+          "⟦4.0⟧",
+          "el capítol 8"
+        ],
+        [
+          "⟦5.0⟧",
+          "al capítol 6"
+        ],
+        [
+          "⟦6.0⟧",
+          "al capítol 8"
+        ],
+        [
+          "⟦7.0⟧",
+          "el capítol 30"
+        ],
+        [
+          "⟦8.0⟧",
+          "**Nota al Capítol 33**"
+        ]
+      ],
+      "chapter_number": 33,
+      "section": "SISENA PART: HORITZONS D'UNA ALTRA ESCALA"
+    },
+    {
+      "id": "cap_espejo_sin_profundidad",
+      "content_file": "content_overrides/cap_espejo_sin_profundidad.ca.md",
+      "replace": [
+        [
+          "del capítol 4",
+          "⟦0.0⟧"
+        ],
+        [
+          "el capítol 6",
+          "⟦1.0⟧"
+        ],
+        [
+          "al capítol 21",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítol 31**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "del capítol 5"
+        ],
+        [
+          "⟦1.0⟧",
+          "el capítol 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "al capítol 23"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítol 34**"
+        ]
+      ],
+      "chapter_number": 34,
+      "section": "SISENA PART: HORITZONS D'UNA ALTRA ESCALA"
+    },
+    {
+      "id": "cap17_7_alien",
+      "content_file": "content_overrides/cap17_7_alien.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 39**",
+          "⟦0.0⟧"
+        ],
+        [
+          "(capítols 10 i 12",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 35**"
+        ],
+        [
+          "⟦1.0⟧",
+          "(capítols 11 i 13"
+        ]
+      ],
+      "chapter_number": 35,
+      "section": "SISENA PART: HORITZONS D'UNA ALTRA ESCALA"
+    },
+    {
+      "id": "cap17_6_real",
+      "content_file": "../content/lecturas/cap17_6_real.ca.md",
+      "replace": [
+        [
+          "al capítol 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "al capítol 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "al capítol 31",
+          "⟦2.0⟧"
+        ],
+        [
+          "al capítol 26",
+          "⟦3.0⟧"
+        ],
+        [
+          "**Nota al Capítol 37**",
+          "⟦4.0⟧"
+        ],
+        [
+          "(capítol 31",
+          "⟦5.0⟧"
+        ],
+        [
+          "(capítol 26",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "al capítol 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "al capítol 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "al capítol 29"
+        ],
+        [
+          "⟦4.0⟧",
+          "**Nota al Capítol 36**"
+        ],
+        [
+          "⟦5.0⟧",
+          "(capítol 7"
+        ],
+        [
+          "⟦6.0⟧",
+          "(capítol 29"
+        ]
+      ],
+      "chapter_number": 36,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_blade_runner",
+      "content_file": "../content/lecturas/cap_blade_runner.ca.md",
+      "replace": [
+        [
+          "al capítol 4",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítol 31",
+          "⟦1.0⟧"
+        ],
+        [
+          "Al capítol 37",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítol 38**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 5"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítol 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "Al capítol 36"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítol 37**"
+        ]
+      ],
+      "chapter_number": 37,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_maquina_tiempo",
+      "content_file": "../content/lecturas/cap_maquina_tiempo.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 47**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 38**"
+        ]
+      ],
+      "chapter_number": 38,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_horizonte_prestado",
+      "content_file": "../content/lecturas/cap_horizonte_prestado.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 48**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 39**"
+        ]
+      ],
+      "chapter_number": 39,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_three_body",
+      "content_file": "../content/lecturas/cap_three_body.ca.md",
+      "chapter_number": 40,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap17_8_cosmic",
+      "content_file": "content_overrides/cap17_8_cosmic.ca.md",
+      "replace": [
+        [
+          "Al capítol 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Al capítol 6"
+        ]
+      ],
+      "chapter_number": 41,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_matrix",
+      "content_file": "../content/lecturas/cap_matrix.ca.md",
+      "replace": [
+        [
+          "En el capítol 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "En el capítol 6"
+        ]
+      ],
+      "chapter_number": 42,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_lenguaje_entrelazamiento",
+      "content_file": "content_overrides/cap_lenguaje_entrelazamiento.ca.md",
+      "replace": [
+        [
+          "(capítol 39",
+          "⟦0.0⟧"
+        ],
+        [
+          " llenguatge en el capítol 31, encara que",
+          " llenguatge ⟦1.0⟧, encara que"
+        ],
+        [
+          "en el capítol 21",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítol 46**",
+          "⟦3.0⟧"
+        ],
+        [
+          "del capítol 4",
+          "⟦4.0⟧"
+        ],
+        [
+          "ial descrit en el capítol 31. Si la teor",
+          "ial descrit ⟦5.0⟧. Si la teor"
+        ],
+        [
+          "en el capítol 45",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítol 35"
+        ],
+        [
+          "⟦1.0⟧",
+          "en el capítol 34"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítol 23"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota al Capítol 43**"
+        ],
+        [
+          "⟦4.0⟧",
+          "del capítol 5"
+        ],
+        [
+          "⟦5.0⟧",
+          "en el capítol 34"
+        ],
+        [
+          "⟦6.0⟧",
+          "en el capítol 47"
+        ]
+      ],
+      "chapter_number": 43,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_diapason_invisible",
+      "content_file": "content_overrides/cap_diapason_invisible.ca.md",
+      "replace": [
+        [
+          "\nEl capítol 28 va anomenar",
+          "\n⟦0.0⟧ va anomenar"
+        ],
+        [
+          "hauria de». El capítol 28 va mostrar ",
+          "hauria de». ⟦1.0⟧ va mostrar "
+        ],
+        [
+          "**Nota al Capítol 29**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítol 33"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítol 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítol 44**"
+        ]
+      ],
+      "chapter_number": 44,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_ojo_un_solo_color",
+      "content_file": "content_overrides/cap_ojo_un_solo_color.ca.md",
+      "replace": [
+        [
+          "al capítol 27",
+          "⟦0.0⟧"
+        ],
+        [
+          "El capítol 25",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítol 30**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 30"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítol 31"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota al Capítol 45**"
+        ]
+      ],
+      "chapter_number": 45,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_cartografia_singularidades",
+      "content_file": "content_overrides/cap_cartografia_singularidades.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 43**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 46**"
+        ]
+      ],
+      "chapter_number": 46,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_traductor",
+      "content_file": "../content/lecturas/cap_traductor.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 45**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 47**"
+        ]
+      ],
+      "chapter_number": 47,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_historia_relevo",
+      "content_file": "../content/lecturas/cap_historia_relevo.ca.md",
+      "replace": [
+        [
+          "**Nota al Capítol 44**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota al Capítol 48**"
+        ]
+      ],
+      "chapter_number": 48,
+      "section": "LECTURES TOPOLÒGIQUES"
+    },
+    {
+      "id": "cap_realidad_fractal",
+      "content_file": "content_overrides/cap_realidad_fractal.ca.md",
+      "chapter_number": 49,
+      "section": "SETENA PART: DUES HIPÒTESIS DE L'AUTOR"
+    },
+    {
+      "id": "cap_nave_de_barro",
+      "content_file": "content_overrides/cap_nave_de_barro.ca.md",
+      "replace": [
+        [
+          "(capítol 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "El capítol 29",
+          "⟦1.0⟧"
+        ],
+        [
+          "imetria que el capítol 29 no necessit",
+          "imetria que ⟦2.0⟧ no necessit"
+        ],
+        [
+          "a descriure el capítol 29: el movimen",
+          "a descriure ⟦3.0⟧: el movimen"
+        ],
+        [
+          "el capítol 35",
+          "⟦4.0⟧"
+        ],
+        [
+          "el capítol 47",
+          "⟦5.0⟧"
+        ],
+        [
+          "el capítol 17",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítol 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítol 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "el capítol 33"
+        ],
+        [
+          "⟦3.0⟧",
+          "el capítol 33"
+        ],
+        [
+          "⟦4.0⟧",
+          "el capítol 21"
+        ],
+        [
+          "⟦5.0⟧",
+          "el capítol 38"
+        ],
+        [
+          "⟦6.0⟧",
+          "el capítol 19"
+        ]
+      ],
+      "chapter_number": 50,
+      "section": "SETENA PART: DUES HIPÒTESIS DE L'AUTOR"
+    },
+    {
+      "id": "cap19_real",
+      "content_file": "../content/ensayo/cap19_real.ca.md",
+      "replace": [
+        [
+          "(capítol 3",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítol 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "al capítol 22",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítol 4"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítol 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "al capítol 24"
+        ]
+      ],
+      "chapter_number": 51,
+      "section": "VUITENA PART: EL LÍMIT DE L'EXPERIMENT"
+    },
+    {
+      "id": "cap20_real",
+      "content_file": "../content/ensayo/cap20_real.ca.md",
+      "replace": [
+        [
+          "el capítol 10",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "el capítol 11"
+        ]
+      ],
+      "chapter_number": 52,
+      "section": "VUITENA PART: EL LÍMIT DE L'EXPERIMENT"
+    },
+    {
+      "id": "cap_epilogo_real",
+      "content_file": "content_overrides/cap_epilogo_real.ca.md",
+      "section": "VUITENA PART: EL LÍMIT DE L'EXPERIMENT"
+    },
+    {
+      "id": "cap_glosario",
+      "content_file": "content_overrides/cap_glosario.ca.md",
+      "replace": [
+        [
+          "(capítols 23 i 24",
+          "⟦0.0⟧"
+        ],
+        [
+          "(capítol 10",
+          "⟦1.0⟧"
+        ],
+        [
+          "(capítol 31",
+          "⟦2.0⟧"
+        ],
+        [
+          "bjectivitat (capítol 3).\n\n**Empati",
+          "bjectivitat ⟦3.0⟧).\n\n**Empati"
+        ],
+        [
+          "agi un dins (capítol 3).\n\n**Encaps",
+          "agi un dins ⟦4.0⟧).\n\n**Encaps"
+        ],
+        [
+          "el capítol 16",
+          "⟦5.0⟧"
+        ],
+        [
+          "(capítol 4",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítols 27 i 28"
+        ],
+        [
+          "⟦1.0⟧",
+          "(capítol 11"
+        ],
+        [
+          "⟦2.0⟧",
+          "(capítol 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "(capítol 4"
+        ],
+        [
+          "⟦4.0⟧",
+          "(capítol 4"
+        ],
+        [
+          "⟦5.0⟧",
+          "el capítol 18"
+        ],
+        [
+          "⟦6.0⟧",
+          "(capítol 5"
+        ]
+      ]
+    },
+    {
+      "id": "cap_notas_cierre",
+      "content_file": "content_overrides/cap_notas_cierre.ca.md"
+    },
+    {
+      "id": "cap_notas_referencias",
+      "content_file": "../content/ensayo/cap_notas_referencias.ca.md"
+    }
+  ]
 }

@@ -27,30 +27,6 @@
     "il_cart_narciso": "../src/assets/images/il_cart_narciso.jpg",
     "cart_relojes": "imagenes/cart_relojes.jpg",
     "cartografia_eco_p1": "../src/assets/images/cartografia_eco/pagina1.jpg",
-    "cuento_01": "../src/assets/images/cuentos/01_tarel_inicio.png",
-    "cuento_02": "../src/assets/images/cuentos/03_burbuja.png",
-    "cuento_03": "../src/assets/images/cuentos/04_nino.png",
-    "cuento_04": "../src/assets/images/cuentos/05_red_nombres.png",
-    "cuento_05": "../src/assets/images/cuentos/06_casa_respiraba.png",
-    "cuento_06": "../src/assets/images/cuentos/07_maquina.png",
-    "cuento_07": "../src/assets/images/cuentos/08_huesped.png",
-    "cuento_08": "../src/assets/images/cuentos/09_puentes.png",
-    "cuento_09": "../src/assets/images/cuentos/11_musica.png",
-    "cuento_10": "../src/assets/images/cuentos/12_cuerda.png",
-    "cuento_11": "../src/assets/images/cuentos/13_ciudad.png",
-    "cuento_12": "../src/assets/images/cuentos/14_reloj.png",
-    "cuento_13": "../src/assets/images/cuentos/15_sala.png",
-    "cuento_14": "../src/assets/images/cuentos/16_perros.png",
-    "cuento_agua_retira": "../src/assets/images/cuentos/02_tarel_mitad.png",
-    "cuento_eq": "../src/assets/images/cuentos/17_el_que_queda.png",
-    "cuento_int": "../src/assets/images/cuentos/10_borde_interludio.png",
-    "cuento_ladron": "../src/assets/images/ilustracion_ladron.png",
-    "cuento_luthier": "../src/assets/images/ilustracion_luthier.png",
-    "cuento_m87": "../src/assets/images/cuentos/19_M87_puente.png",
-    "cuento_mussara": "../src/assets/images/cuentos/ilustracion_mussara.png",
-    "cuento_segundo_cuaderno": "../src/assets/images/cuentos/segundo_cuaderno.png",
-    "cuento_sintonizadores": "../src/assets/images/cuentos/20_sintonizadores.png",
-    "cuento_txiki": "../src/assets/images/cuentos/18_txiki_cierre.png",
     "epilogo": "../src/assets/images/epilogo.jpg",
     "il01": "../src/assets/images/ilustracion_01_sin_texto.jpg",
     "il02": "../src/assets/images/ilustracion_02.png",
@@ -87,7 +63,6 @@
     "il_cinco_mapas": "../src/assets/images/ilustracion_cinco_mapas_sin_texto.jpg",
     "il_clon": "../src/assets/images/ilustracion_17_6.png",
     "il_diapason": "../src/assets/images/libros/il_diapason.png",
-    "il_el_que_queda": "../src/assets/images/ilustracion_eq.png",
     "il_epilogo": "../src/assets/images/epilogo.jpg",
     "il_espejo": "../src/assets/images/libros/il_espejo.png",
     "il_fractal": "../src/assets/images/libros/il_fractal.png",
@@ -180,7 +155,7 @@
   "dedication": "A qui es va quedar a la vora<br/>quan l'aigua es va retirar.",
   "colophon": "Aquest volum es va compondre<br/>sense haver demostrat res,<br/>exactament com estava previst des de la primera pàgina.",
   "credits": [
-    "Segon volum de L'Horitzó Interior: catorze lectures que porten les idees de l'assaig a la ficció, el cinema, l'esport i la vida quotidiana. Les remissions a capítols apunten al primer volum, L'Horitzó Interior. Assaig."
+    "Segon volum de L'Horitzó Interior: tretze lectures que porten les idees de l'assaig a la ficció, el cinema, l'esport i la vida quotidiana. Les remissions a capítols apunten al primer volum, L'Horitzó Interior. Assaig."
   ],
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-ca",
   "gutter_in": 0.62,
@@ -190,12 +165,64 @@
       "content_file": "../content/lecturas/cap17_6_real.ca.md",
       "replace": [
         [
+          "d'aquest llibre",
+          "de l'assaig"
+        ],
+        [
+          "al capítol 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "al capítol 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "al capítol 31",
+          "⟦2.0⟧"
+        ],
+        [
+          "al capítol 26",
+          "⟦3.0⟧"
+        ],
+        [
           "**Nota al Capítol 37**",
+          "⟦4.0⟧"
+        ],
+        [
+          "(capítol 31",
+          "⟦5.0⟧"
+        ],
+        [
+          "(capítol 26",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "al capítol 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "al capítol 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "al capítol 29"
+        ],
+        [
+          "⟦4.0⟧",
           "**Nota a la lectura 1**"
         ],
         [
-          "d'aquest llibre",
-          "de l'assaig"
+          "⟦5.0⟧",
+          "(capítol 7"
+        ],
+        [
+          "⟦6.0⟧",
+          "(capítol 29"
         ]
       ],
       "chapter_number": 1,
@@ -206,31 +233,87 @@
       "content_file": "../content/lecturas/cap_blade_runner.ca.md",
       "replace": [
         [
-          "**Nota al Capítol 38**",
-          "**Nota a la lectura 2**"
-        ],
-        [
           "d'aquest llibre",
           "de l'assaig"
+        ],
+        [
+          "al capítol 4",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítol 31",
+          "⟦1.0⟧"
+        ],
+        [
+          "Al capítol 37",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítol 38**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 5"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítol 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "A la lectura 1"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota a la lectura 2**"
         ]
       ],
       "chapter_number": 2,
       "section": ""
     },
     {
-      "id": "cap17_7_alien",
-      "content_file": "content_overrides/cap17_7_alien.ca.md",
+      "id": "cap_maquina_tiempo",
+      "content_file": "../content/lecturas/cap_maquina_tiempo.ca.md",
       "replace": [
         [
-          "**Nota al Capítol 39**",
-          "**Nota a la lectura 3**"
+          "aquest llibre",
+          "l'assaig"
         ],
         [
-          "d'aquest llibre",
-          "de l'assaig"
+          "**Nota al Capítol 47**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota a la lectura 3**"
         ]
       ],
       "chapter_number": 3,
+      "section": ""
+    },
+    {
+      "id": "cap_horizonte_prestado",
+      "content_file": "../content/lecturas/cap_horizonte_prestado.ca.md",
+      "replace": [
+        [
+          "aquest llibre",
+          "l'assaig"
+        ],
+        [
+          "Aquest llibre",
+          "L'assaig"
+        ],
+        [
+          "**Nota al Capítol 48**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota a la lectura 4**"
+        ]
+      ],
+      "chapter_number": 4,
       "section": ""
     },
     {
@@ -238,29 +321,29 @@
       "content_file": "../content/lecturas/cap_three_body.ca.md",
       "replace": [
         [
-          "**Nota al Capítol 40**",
-          "**Nota a la lectura 4**"
-        ],
-        [
           "d'aquest llibre",
           "de l'assaig"
         ],
         [
           "aquest llibre",
           "l'assaig"
+        ],
+        [
+          "**Nota al Capítol 40**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "**Nota a la lectura 5**"
         ]
       ],
-      "chapter_number": 4,
+      "chapter_number": 5,
       "section": ""
     },
     {
       "id": "cap17_8_cosmic",
       "content_file": "content_overrides/cap17_8_cosmic.ca.md",
       "replace": [
-        [
-          "**Nota al Capítol 41**",
-          "**Nota a la lectura 5**"
-        ],
         [
           "d'aquest llibre",
           "de l'assaig"
@@ -272,9 +355,25 @@
         [
           "Aquest llibre",
           "L'assaig"
+        ],
+        [
+          "Al capítol 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítol 41**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Al capítol 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota a la lectura 6**"
         ]
       ],
-      "chapter_number": 5,
+      "chapter_number": 6,
       "section": ""
     },
     {
@@ -282,19 +381,175 @@
       "content_file": "../content/lecturas/cap_matrix.ca.md",
       "replace": [
         [
-          "**Nota al Capítol 42**",
-          "**Nota a la lectura 6**"
-        ],
-        [
           "d'aquest llibre",
           "de l'assaig"
         ],
         [
           "Al llarg del llibre",
           "Al llarg de l'assaig"
+        ],
+        [
+          "En el capítol 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítol 42**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "En el capítol 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota a la lectura 7**"
         ]
       ],
-      "chapter_number": 6,
+      "chapter_number": 7,
+      "section": ""
+    },
+    {
+      "id": "cap_lenguaje_entrelazamiento",
+      "content_file": "content_overrides/cap_lenguaje_entrelazamiento.ca.md",
+      "replace": [
+        [
+          "d'aquest llibre",
+          "de l'assaig"
+        ],
+        [
+          "aquest llibre",
+          "l'assaig"
+        ],
+        [
+          "Aquest llibre",
+          "L'assaig"
+        ],
+        [
+          "(capítol 39",
+          "⟦0.0⟧"
+        ],
+        [
+          " llenguatge en el capítol 31, encara que",
+          " llenguatge ⟦1.0⟧, encara que"
+        ],
+        [
+          "en el capítol 21",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítol 46**",
+          "⟦3.0⟧"
+        ],
+        [
+          "del capítol 4",
+          "⟦4.0⟧"
+        ],
+        [
+          "ial descrit en el capítol 31. Si la teor",
+          "ial descrit ⟦5.0⟧. Si la teor"
+        ],
+        [
+          "en el capítol 45",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítol 35"
+        ],
+        [
+          "⟦1.0⟧",
+          "en el capítol 34"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítol 23"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota a la lectura 8**"
+        ],
+        [
+          "⟦4.0⟧",
+          "del capítol 5"
+        ],
+        [
+          "⟦5.0⟧",
+          "en el capítol 34"
+        ],
+        [
+          "⟦6.0⟧",
+          "en la lectura 12"
+        ]
+      ],
+      "chapter_number": 8,
+      "section": ""
+    },
+    {
+      "id": "cap_diapason_invisible",
+      "content_file": "content_overrides/cap_diapason_invisible.ca.md",
+      "replace": [
+        [
+          "aquest llibre",
+          "l'assaig"
+        ],
+        [
+          "\nEl capítol 28 va anomenar",
+          "\n⟦0.0⟧ va anomenar"
+        ],
+        [
+          "hauria de». El capítol 28 va mostrar ",
+          "hauria de». ⟦1.0⟧ va mostrar "
+        ],
+        [
+          "**Nota al Capítol 29**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítol 33"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítol 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota a la lectura 9**"
+        ]
+      ],
+      "chapter_number": 9,
+      "section": ""
+    },
+    {
+      "id": "cap_ojo_un_solo_color",
+      "content_file": "content_overrides/cap_ojo_un_solo_color.ca.md",
+      "replace": [
+        [
+          "al capítol 27",
+          "⟦0.0⟧"
+        ],
+        [
+          "El capítol 25",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítol 30**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "al capítol 30"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítol 31"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota a la lectura 10**"
+        ]
+      ],
+      "chapter_number": 10,
       "section": ""
     },
     {
@@ -303,26 +558,14 @@
       "replace": [
         [
           "**Nota al Capítol 43**",
-          "**Nota a la lectura 7**"
-        ]
-      ],
-      "chapter_number": 7,
-      "section": ""
-    },
-    {
-      "id": "cap_historia_relevo",
-      "content_file": "../content/lecturas/cap_historia_relevo.ca.md",
-      "replace": [
-        [
-          "**Nota al Capítol 44**",
-          "**Nota a la lectura 8**"
+          "⟦0.0⟧"
         ],
         [
-          "d'aquest llibre",
-          "de l'assaig"
+          "⟦0.0⟧",
+          "**Nota a la lectura 11**"
         ]
       ],
-      "chapter_number": 8,
+      "chapter_number": 11,
       "section": ""
     },
     {
@@ -330,123 +573,43 @@
       "content_file": "../content/lecturas/cap_traductor.ca.md",
       "replace": [
         [
+          "aquest llibre",
+          "l'assaig"
+        ],
+        [
+          "Aquest llibre",
+          "L'assaig"
+        ],
+        [
           "**Nota al Capítol 45**",
-          "**Nota a la lectura 9**"
+          "⟦0.0⟧"
         ],
         [
-          "aquest llibre",
-          "l'assaig"
-        ],
-        [
-          "Aquest llibre",
-          "L'assaig"
-        ]
-      ],
-      "chapter_number": 9,
-      "section": ""
-    },
-    {
-      "id": "cap_lenguaje_entrelazamiento",
-      "content_file": "../content/lecturas/cap_lenguaje_entrelazamiento.ca.md",
-      "replace": [
-        [
-          "**Nota al Capítol 46**",
-          "**Nota a la lectura 10**"
-        ],
-        [
-          "d'aquest llibre",
-          "de l'assaig"
-        ],
-        [
-          "aquest llibre",
-          "l'assaig"
-        ],
-        [
-          "Aquest llibre",
-          "L'assaig"
-        ]
-      ],
-      "chapter_number": 10,
-      "section": ""
-    },
-    {
-      "id": "cap_maquina_tiempo",
-      "content_file": "../content/lecturas/cap_maquina_tiempo.ca.md",
-      "replace": [
-        [
-          "**Nota al Capítol 47**",
-          "**Nota a la lectura 11**"
-        ],
-        [
-          "aquest llibre",
-          "l'assaig"
-        ]
-      ],
-      "chapter_number": 11,
-      "section": ""
-    },
-    {
-      "id": "cap_horizonte_prestado",
-      "content_file": "../content/lecturas/cap_horizonte_prestado.ca.md",
-      "replace": [
-        [
-          "**Nota al Capítol 48**",
+          "⟦0.0⟧",
           "**Nota a la lectura 12**"
-        ],
-        [
-          "aquest llibre",
-          "l'assaig"
-        ],
-        [
-          "Aquest llibre",
-          "L'assaig"
         ]
       ],
       "chapter_number": 12,
       "section": ""
     },
     {
-      "id": "cap_realidad_fractal",
-      "content_file": "../content/lecturas/cap_realidad_fractal.ca.md",
+      "id": "cap_historia_relevo",
+      "content_file": "../content/lecturas/cap_historia_relevo.ca.md",
       "replace": [
-        [
-          "**Nota al Capítol 49**",
-          "**Nota a la lectura 13**"
-        ],
-        [
-          "aquest llibre",
-          "l'assaig"
-        ]
-      ],
-      "chapter_number": 13,
-      "section": ""
-    },
-    {
-      "id": "cap_nave_de_barro",
-      "content_file": "../content/lecturas/cap_nave_de_barro.ca.md",
-      "replace": [
-        [
-          "**Nota al Capítol 50**",
-          "**Nota a la lectura 14**"
-        ],
         [
           "d'aquest llibre",
           "de l'assaig"
         ],
         [
-          "en la geometria del llibre",
-          "en la geometria de l'assaig"
+          "**Nota al Capítol 44**",
+          "⟦0.0⟧"
         ],
         [
-          "la resta del llibre",
-          "la resta de l'assaig"
-        ],
-        [
-          "Aquest llibre",
-          "L'assaig"
+          "⟦0.0⟧",
+          "**Nota a la lectura 13**"
         ]
       ],
-      "chapter_number": 14,
+      "chapter_number": 13,
       "section": ""
     }
   ]
