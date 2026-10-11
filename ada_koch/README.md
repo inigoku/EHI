@@ -2,7 +2,7 @@
 
 Saga romántica en cuatro libros para Kindle.
 
-- `libro_1/` — *Los Amantes de la Espiral* (Libro I), manuscrito completo en tres actos, 30 capítulos con los fragmentos de Maruxa. Unas 59.000 palabras.
+- `libro_1/` — *Los Amantes de la Espiral* (Libro I), manuscrito completo en tres actos, 30 capítulos con los fragmentos de Maruxa. Unas 57.000 palabras.
   - `Los_Amantes_de_la_Espiral.md` — texto fuente.
   - `Los_Amantes_de_la_Espiral.docx` — versión para revisar en Word.
   - `Los_Amantes_de_la_Espiral.epub` — versión para Kindle.
@@ -14,3 +14,5 @@ Saga romántica en cuatro libros para Kindle.
   - `en_gb/` — edición británica de Orkney, sin rastro de España: Ada creció en Edimburgo y vive en el faro (ficticio) de Breckness, junto a Stromness; Maisie, su abuela, es de Stromness y trabajó de 1966 a 1971 en una fábrica alemana de Glasgow, donde conoció a Klaus. Presente narrativo para Ada e Iter/Julian, comillas simples, orcadiano con mesura, Storm Ailsa y Storm Brodie, glosario final.
     - `en_gb/The_Lovers_of_the_Spiral.md`, `.docx`, `.epub`; `en_gb/ORKNEY_BIBLE.md` y `en_gb/TRANSPOSITION.md` — biblia de adaptación (la segunda manda).
     - `scripts/build_epub_gb.py` — `python3 ada_koch/libro_1/scripts/build_epub_gb.py`
+- `libro_2/desde_libro_1/` — el resto del antiguo capítulo 30 (Julian dice su nombre once veces, la comida en casa de la abuela, la vuelta al faro), en `es.md`, `en.md` y `en_gb.md`. El libro I termina ahora con «Me llamo Ada.».
+- `libro_3/desde_libro_1/` — la noche en que Julian enciende el faro y el último fragmento de la abuela, que lo ve y canta en el espigón.
