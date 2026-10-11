@@ -1,5 +1,7 @@
 # Orkney edition — adaptation bible
 
+> **Superseded in part by `TRANSPOSITION.md`** (no trace of Spain or Galicia: Maisie from Stromness, Glasgow 1966–71, Gran, Magnus, Mune, Alistair Laing). Where they conflict, TRANSPOSITION.md wins.
+
 *The Lovers of the Spiral* (Book I of *The Sketchbook of Ada Koch*), British English, relocated to Orkney.
 You are adapting the existing US English translation (`en/The_Lovers_of_the_Spiral.md`). The Spanish original
 (`Los_Amantes_de_la_Espiral.md`) is the authority on meaning; check it whenever the English seems off.
