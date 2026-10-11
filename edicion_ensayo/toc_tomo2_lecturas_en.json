@@ -196,6 +196,14 @@
         [
           "**Note to Chapter 37**",
           "**Note to Reading 1**"
+        ],
+        [
+          "This book's",
+          "The essay's"
+        ],
+        [
+          "this book",
+          "the essay"
         ]
       ],
       "chapter_number": 1,
@@ -212,6 +220,10 @@
         [
           "**Note to Chapter 38**",
           "**Note to Reading 2**"
+        ],
+        [
+          "this book's",
+          "the essay's"
         ]
       ],
       "chapter_number": 2,
@@ -224,6 +236,10 @@
         [
           "**Note to Chapter 39**",
           "**Note to Reading 3**"
+        ],
+        [
+          "this book",
+          "the essay"
         ]
       ],
       "chapter_number": 3,
@@ -236,6 +252,14 @@
         [
           "**Note to Chapter 40**",
           "**Note to Reading 4**"
+        ],
+        [
+          "This book's",
+          "The essay's"
+        ],
+        [
+          "this book",
+          "the essay"
         ]
       ],
       "chapter_number": 4,
@@ -248,6 +272,14 @@
         [
           "**Note to Chapter 41**",
           "**Note to Reading 5**"
+        ],
+        [
+          "this book",
+          "the essay"
+        ],
+        [
+          "This book",
+          "The essay"
         ]
       ],
       "chapter_number": 5,
@@ -260,6 +292,14 @@
         [
           "**Note to Chapter 42**",
           "**Note to Reading 6**"
+        ],
+        [
+          "this book's",
+          "the essay's"
+        ],
+        [
+          "Throughout the book",
+          "Throughout the essay"
         ]
       ],
       "chapter_number": 6,
@@ -284,6 +324,10 @@
         [
           "**Note to Chapter 44**",
           "**Note to Reading 8**"
+        ],
+        [
+          "this book's",
+          "the essay's"
         ]
       ],
       "chapter_number": 8,
@@ -296,6 +340,14 @@
         [
           "**Note to Chapter 45**",
           "**Note to Reading 9**"
+        ],
+        [
+          "this book",
+          "the essay"
+        ],
+        [
+          "This book",
+          "The essay"
         ]
       ],
       "chapter_number": 9,
@@ -316,6 +368,18 @@
         [
           "**Note to Chapter 46**",
           "**Note to Reading 10**"
+        ],
+        [
+          "this book's",
+          "the essay's"
+        ],
+        [
+          "this book",
+          "the essay"
+        ],
+        [
+          "This book",
+          "The essay"
         ]
       ],
       "chapter_number": 10,
@@ -328,6 +392,10 @@
         [
           "**Note to Chapter 47**",
           "**Note to Reading 11**"
+        ],
+        [
+          "this book",
+          "the essay"
         ]
       ],
       "chapter_number": 11,
@@ -340,6 +408,14 @@
         [
           "**Note to Chapter 48**",
           "**Note to Reading 12**"
+        ],
+        [
+          "this book",
+          "the essay"
+        ],
+        [
+          "This book",
+          "The essay"
         ]
       ],
       "chapter_number": 12,
@@ -352,6 +428,10 @@
         [
           "**Note to Chapter 49**",
           "**Note to Reading 13**"
+        ],
+        [
+          "this book",
+          "the essay"
         ]
       ],
       "chapter_number": 13,
@@ -372,6 +452,18 @@
         [
           "**Note to Chapter 50**",
           "**Note to Reading 14**"
+        ],
+        [
+          "this book's",
+          "the essay's"
+        ],
+        [
+          "the rest of the book",
+          "the rest of the essay"
+        ],
+        [
+          "This book",
+          "The essay"
         ]
       ],
       "chapter_number": 14,

@@ -559,28 +559,6 @@ class Builder:
                 y -= PROSE_LEAD
             y -= 7
 
-        # Append QR code and URL if requested
-        if with_qr:
-            y -= 20  # Extra space after paragraphs
-
-            # Interactive-version label (localized)
-            cv.setFont(IT, 10.0)
-            cv.setFillColor(INK)
-            cv.drawString(x0, y, get_text(CURRENT_LANG, "interactive_version_label"))
-            y -= 20
-
-            # QR code
-            qr_path = IMG / "qr_url.png"
-            if qr_path.exists():
-                qr_size = 100  # puntos
-                cv.drawImage(str(qr_path), x0, y - qr_size, width=qr_size, height=qr_size,
-                            preserveAspectRatio=True, anchor="lb")
-                y -= qr_size + 10
-
-            # URL below QR
-            cv.setFont(R, 9.0)
-            cv.drawString(x0, y, "ehi-pi.vercel.app")
-
         self.end_page()
 
     # ---- aperturas de libro
@@ -905,7 +883,7 @@ def run(toc: list[Entry] | None, lang: str = "es") -> Builder:
     b.prose_section(illus_title, paras, level=2, running=illus_title)
     b.first_line_index()
     about_title = get_about_title()
-    b.prose_section(about_title, get_about(), level=2, running=about_title, with_qr=True)
+    b.prose_section(about_title, get_about(), level=2, running=about_title)
 
     b.colophon()
     b.save()

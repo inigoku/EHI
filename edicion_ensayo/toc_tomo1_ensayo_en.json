@@ -296,7 +296,13 @@
     },
     {
       "id": "cap13_5",
-      "content_file": "en/cap13_5.en.md"
+      "content_file": "en/cap13_5.en.md",
+      "replace": [
+        [
+          "(to whom we will return in the topological readings)",
+          "(to whom we will return in the second volume, *Topological Readings*)"
+        ]
+      ]
     },
     {
       "id": "cap18_6",
@@ -370,7 +376,13 @@
     },
     {
       "id": "cap_calibracion",
-      "content_file": "en/cap_calibracion.en.md"
+      "content_file": "en/cap_calibracion.en.md",
+      "replace": [
+        [
+          "The reading \"The translator,\" later on, studies",
+          "The reading \"The translator,\" in the second volume, studies"
+        ]
+      ]
     },
     {
       "id": "cap_teoria_informacion",
@@ -418,11 +430,51 @@
     },
     {
       "id": "cap_glosario",
-      "content_file": "en/cap_glosario.en.md"
+      "content_file": "en/cap_glosario.en.md",
+      "replace": [
+        [
+          "(*The Mirror Without Depth*, *Fractal Reality*)",
+          "(*The Mirror Without Depth*; *Fractal Reality*, Vol. II)"
+        ],
+        [
+          "the reading *Fractal Reality* grants",
+          "the reading *Fractal Reality* (Vol. II) grants"
+        ],
+        [
+          "(*Fractal Reality*)",
+          "(*Fractal Reality*, Vol. II)"
+        ],
+        [
+          "(*The Vessel of Clay*)",
+          "(*The Vessel of Clay*, Vol. II)"
+        ],
+        [
+          "(*The Translator*)",
+          "(*The Translator*, Vol. II)"
+        ],
+        [
+          "(*The Protocol and the Bridge*)",
+          "(*The Protocol and the Bridge*, Vol. II)"
+        ],
+        [
+          "(*The Beach at the End of Time*)",
+          "(*The Beach at the End of Time*, Vol. II)"
+        ]
+      ]
     },
     {
       "id": "cap_notas_cierre",
-      "content_file": "en/cap_notas_cierre.en.md"
+      "content_file": "en/cap_notas_cierre.en.md",
+      "replace": [
+        [
+          "Four chapters of this essay (*The Mirror Without Depth*, *Vertical Entanglement*, *The Collective Horizon* and *Fractal Reality*) were written",
+          "Three chapters of this essay (*The Mirror Without Depth*, *Vertical Entanglement* and *The Collective Horizon*), and one reading from the second volume (*Fractal Reality*), were written"
+        ],
+        [
+          "*Written on finishing* Fractal Reality.",
+          "*Written on finishing* Fractal Reality (Vol. II)."
+        ]
+      ]
     },
     {
       "id": "cap_notas_referencias",

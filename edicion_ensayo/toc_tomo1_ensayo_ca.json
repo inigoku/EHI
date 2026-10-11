@@ -292,7 +292,13 @@
     },
     {
       "id": "cap13_5",
-      "content_file": "../content/ensayo/cap13_5.ca.md"
+      "content_file": "../content/ensayo/cap13_5.ca.md",
+      "replace": [
+        [
+          "(a la qual tornarem a les lectures topològiques)",
+          "(a la qual tornarem al segon volum, *Lectures topològiques*)"
+        ]
+      ]
     },
     {
       "id": "cap18_6",
@@ -344,7 +350,13 @@
     },
     {
       "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.ca.md"
+      "content_file": "../content/lecturas/cap_calibracion.ca.md",
+      "replace": [
+        [
+          "La lectura «El traductor», més endavant, estudia",
+          "La lectura «El traductor», al segon volum, estudia"
+        ]
+      ]
     },
     {
       "id": "cap_teoria_informacion",
@@ -386,11 +398,51 @@
     },
     {
       "id": "cap_glosario",
-      "content_file": "../content/ensayo/cap_glosario.ca.md"
+      "content_file": "../content/ensayo/cap_glosario.ca.md",
+      "replace": [
+        [
+          "(*El mirall sense profunditat*, *La realitat fractal*)",
+          "(*El mirall sense profunditat*; *La realitat fractal*, volum II)"
+        ],
+        [
+          "la lectura *La realitat fractal* concedeix",
+          "la lectura *La realitat fractal* (volum II) concedeix"
+        ],
+        [
+          "(*La realitat fractal*)",
+          "(*La realitat fractal*, volum II)"
+        ],
+        [
+          "(*La nau de fang*)",
+          "(*La nau de fang*, volum II)"
+        ],
+        [
+          "(*El traductor*)",
+          "(*El traductor*, volum II)"
+        ],
+        [
+          "(*El protocol i el pont*)",
+          "(*El protocol i el pont*, volum II)"
+        ],
+        [
+          "(*La platja al final del temps*)",
+          "(*La platja al final del temps*, volum II)"
+        ]
+      ]
     },
     {
       "id": "cap_notas_cierre",
-      "content_file": "../content/ensayo/cap_notas_cierre.ca.md"
+      "content_file": "../content/ensayo/cap_notas_cierre.ca.md",
+      "replace": [
+        [
+          "Quatre capítols d'aquest assaig (*El mirall sense profunditat*, *L'entrellaçament vertical*, *L'horitzó col·lectiu* i *La realitat fractal*) es van escriure",
+          "Tres capítols d'aquest assaig (*El mirall sense profunditat*, *L'entrellaçament vertical* i *L'horitzó col·lectiu*), i una lectura del segon volum (*La realitat fractal*), es van escriure"
+        ],
+        [
+          "*Escrita en tancar* La realitat fractal.",
+          "*Escrita en tancar* La realitat fractal (volum II)."
+        ]
+      ]
     },
     {
       "id": "cap_notas_referencias",

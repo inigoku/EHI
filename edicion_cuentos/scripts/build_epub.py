@@ -115,10 +115,8 @@ def strip_web_only_markers(body: str) -> str:
     """Same web-only markers generate_book_pdf.markdown_to_flowables
     handles -- a simulation heading with no static equivalent becomes a
     short note, and a sidebar's bracketed label becomes a plain caption."""
-    body = SIMULATION_HEADING_RE.sub(
-        "*(Simulación interactiva disponible en la edición web.)*", body)
-    body = SIMULATION_HEADING_EN_RE.sub(
-        "*(Interactive simulation available in the web edition.)*", body)
+    body = SIMULATION_HEADING_RE.sub("", body)
+    body = SIMULATION_HEADING_EN_RE.sub("", body)
     body = SIDEBOX_RE.sub(r"\1", body)
     body = SIDEBOX_EN_RE.sub(r"\1", body)
     return body

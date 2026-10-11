@@ -85,7 +85,37 @@ T1 = {
          "Several readings from the second volume, *Topological Readings* (")],
     "prologo.en.md": [("Between the third and the fourth, fourteen topological readings carry the same ideas into fiction, film, art, sport and everyday life.",
                        "A second volume, *Topological Readings*, carries the same ideas into fiction, film, art, sport and everyday life.")],
+    "cap_calibracion.en.md": [
+        ('The reading "The translator," later on, studies', 'The reading "The translator," in the second volume, studies')],
+    "cap13_5.en.md": [
+        ("(to whom we will return in the topological readings)",
+         "(to whom we will return in the second volume, *Topological Readings*)")],
+    "cap_glosario.en.md": [
+        ("(*The Mirror Without Depth*, *Fractal Reality*)", "(*The Mirror Without Depth*; *Fractal Reality*, Vol. II)"),
+        ("the reading *Fractal Reality* grants", "the reading *Fractal Reality* (Vol. II) grants"),
+        ("(*Fractal Reality*)", "(*Fractal Reality*, Vol. II)"),
+        ("(*The Vessel of Clay*)", "(*The Vessel of Clay*, Vol. II)"),
+        ("(*The Translator*)", "(*The Translator*, Vol. II)"),
+        ("(*The Protocol and the Bridge*)", "(*The Protocol and the Bridge*, Vol. II)"),
+        ("(*The Beach at the End of Time*)", "(*The Beach at the End of Time*, Vol. II)")],
+    "cap_notas_cierre.en.md": [
+        ("Four chapters of this essay (*The Mirror Without Depth*, *Vertical Entanglement*, *The Collective Horizon* and *Fractal Reality*) were written",
+         "Three chapters of this essay (*The Mirror Without Depth*, *Vertical Entanglement* and *The Collective Horizon*), and one reading from the second volume (*Fractal Reality*), were written"),
+        ("*Written on finishing* Fractal Reality.", "*Written on finishing* Fractal Reality (Vol. II).")],
 }
+
+# "este libro" / "this book" en las Lecturas: ahí el libro del que se habla es el ensayo.
+ESSAY = [("this book's", "the essay's"), ("This book's", "The essay's"),
+         ("Throughout the book", "Throughout the essay"), ("the rest of the book", "the rest of the essay"),
+         ("this book", "the essay"), ("This book", "The essay")]
+
+def essay_refs(text):
+    out = []
+    for a, b in ESSAY:
+        if a in text:
+            out.append((a, b))
+            text = text.replace(a, b)
+    return out
 
 # ---- tomo II ------------------------------------------------------------
 T2 = {}
@@ -131,7 +161,7 @@ for c in LECT:
     n = int(fm(c)["chapterNumber"])
     nota = f"**Note to Chapter {n}**"
     extra = [(nota, f"**Note to Reading {NUM_LECT[n]}**")] if nota in (BASE / c["content_file"]).read_text(encoding="utf-8") else []
-    c2 = with_replace(c, T2, refs(body(c), 2) + extra)
+    c2 = with_replace(c, T2, refs(body(c), 2) + extra + essay_refs(body(c)))
     c2["chapter_number"] = NUM_LECT[n]
     c2["section"] = ""   # no repeated "Topological Readings" header on every reading
     t2["chapters"].append(c2)

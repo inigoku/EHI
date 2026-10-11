@@ -285,7 +285,13 @@
     },
     {
       "id": "cap13_5",
-      "content_file": "../content/ensayo/cap13_5.es.md"
+      "content_file": "../content/ensayo/cap13_5.es.md",
+      "replace": [
+        [
+          "(a la que volveremos en las lecturas topológicas)",
+          "(a la que volveremos en el segundo tomo, *Lecturas topológicas*)"
+        ]
+      ]
     },
     {
       "id": "cap18_6",
@@ -371,7 +377,13 @@
     },
     {
       "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.es.md"
+      "content_file": "../content/lecturas/cap_calibracion.es.md",
+      "replace": [
+        [
+          "La lectura «El traductor», más adelante, estudia",
+          "La lectura «El traductor», en el segundo tomo, estudia"
+        ]
+      ]
     },
     {
       "id": "cap_teoria_informacion",
@@ -419,11 +431,51 @@
     },
     {
       "id": "cap_glosario",
-      "content_file": "../content/ensayo/cap_glosario.es.md"
+      "content_file": "../content/ensayo/cap_glosario.es.md",
+      "replace": [
+        [
+          "(*El espejo sin profundidad*, *La realidad fractal*)",
+          "(*El espejo sin profundidad*; *La realidad fractal*, tomo II)"
+        ],
+        [
+          "la lectura *La realidad fractal* concede",
+          "la lectura *La realidad fractal* (tomo II) concede"
+        ],
+        [
+          "(*La realidad fractal*)",
+          "(*La realidad fractal*, tomo II)"
+        ],
+        [
+          "(*La nave de barro*)",
+          "(*La nave de barro*, tomo II)"
+        ],
+        [
+          "(*El traductor*)",
+          "(*El traductor*, tomo II)"
+        ],
+        [
+          "(*El protocolo y el puente*)",
+          "(*El protocolo y el puente*, tomo II)"
+        ],
+        [
+          "(*La playa al final del tiempo*)",
+          "(*La playa al final del tiempo*, tomo II)"
+        ]
+      ]
     },
     {
       "id": "cap_notas_cierre",
-      "content_file": "../content/ensayo/cap_notas_cierre.es.md"
+      "content_file": "../content/ensayo/cap_notas_cierre.es.md",
+      "replace": [
+        [
+          "Cuatro capítulos de este ensayo (*El espejo sin profundidad*, *El entrelazamiento vertical*, *El horizonte colectivo* y *La realidad fractal*) se escribieron",
+          "Tres capítulos de este ensayo (*El espejo sin profundidad*, *El entrelazamiento vertical* y *El horizonte colectivo*), y una lectura del segundo tomo (*La realidad fractal*), se escribieron"
+        ],
+        [
+          "*Escrita al cierre de* La realidad fractal.",
+          "*Escrita al cierre de* La realidad fractal (tomo II)."
+        ]
+      ]
     },
     {
       "id": "cap_notas_referencias",

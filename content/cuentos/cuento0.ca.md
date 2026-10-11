@@ -78,7 +78,7 @@ L'arxivista anota i deixa forats. Els forats formen part de l'arxiu.
 
 ### Nota de tancament
 
-Tarel i el qui queda són el mateix experiment explicat des de dos extrems: l'aigua que se'n va i el que queda quan ja no hi és. Entremig, vint variacions sobre la mateixa pregunta.
+Tarel i el qui queda són el mateix experiment explicat des de dos extrems: l'aigua que se'n va i el que queda quan ja no hi és. Entremig, i al voltant, totes les altres variacions sobre la mateixa pregunta.
 
 La pregunta no té una sola resposta. Té moltes respostes petites, parcials, contradictòries entre elles. Això també és una resposta.
 

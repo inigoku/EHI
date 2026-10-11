@@ -192,6 +192,10 @@
         [
           "**Nota al Capítol 37**",
           "**Nota a la lectura 1**"
+        ],
+        [
+          "d'aquest llibre",
+          "de l'assaig"
         ]
       ],
       "chapter_number": 1,
@@ -204,6 +208,10 @@
         [
           "**Nota al Capítol 38**",
           "**Nota a la lectura 2**"
+        ],
+        [
+          "d'aquest llibre",
+          "de l'assaig"
         ]
       ],
       "chapter_number": 2,
@@ -216,6 +224,10 @@
         [
           "**Nota al Capítol 39**",
           "**Nota a la lectura 3**"
+        ],
+        [
+          "d'aquest llibre",
+          "de l'assaig"
         ]
       ],
       "chapter_number": 3,
@@ -228,6 +240,14 @@
         [
           "**Nota al Capítol 40**",
           "**Nota a la lectura 4**"
+        ],
+        [
+          "d'aquest llibre",
+          "de l'assaig"
+        ],
+        [
+          "aquest llibre",
+          "l'assaig"
         ]
       ],
       "chapter_number": 4,
@@ -240,6 +260,18 @@
         [
           "**Nota al Capítol 41**",
           "**Nota a la lectura 5**"
+        ],
+        [
+          "d'aquest llibre",
+          "de l'assaig"
+        ],
+        [
+          "A la tercera part del llibre",
+          "A la tercera part de l'assaig"
+        ],
+        [
+          "Aquest llibre",
+          "L'assaig"
         ]
       ],
       "chapter_number": 5,
@@ -252,6 +284,14 @@
         [
           "**Nota al Capítol 42**",
           "**Nota a la lectura 6**"
+        ],
+        [
+          "d'aquest llibre",
+          "de l'assaig"
+        ],
+        [
+          "Al llarg del llibre",
+          "Al llarg de l'assaig"
         ]
       ],
       "chapter_number": 6,
@@ -276,6 +316,10 @@
         [
           "**Nota al Capítol 44**",
           "**Nota a la lectura 8**"
+        ],
+        [
+          "d'aquest llibre",
+          "de l'assaig"
         ]
       ],
       "chapter_number": 8,
@@ -288,6 +332,14 @@
         [
           "**Nota al Capítol 45**",
           "**Nota a la lectura 9**"
+        ],
+        [
+          "aquest llibre",
+          "l'assaig"
+        ],
+        [
+          "Aquest llibre",
+          "L'assaig"
         ]
       ],
       "chapter_number": 9,
@@ -300,6 +352,18 @@
         [
           "**Nota al Capítol 46**",
           "**Nota a la lectura 10**"
+        ],
+        [
+          "d'aquest llibre",
+          "de l'assaig"
+        ],
+        [
+          "aquest llibre",
+          "l'assaig"
+        ],
+        [
+          "Aquest llibre",
+          "L'assaig"
         ]
       ],
       "chapter_number": 10,
@@ -312,6 +376,10 @@
         [
           "**Nota al Capítol 47**",
           "**Nota a la lectura 11**"
+        ],
+        [
+          "aquest llibre",
+          "l'assaig"
         ]
       ],
       "chapter_number": 11,
@@ -324,6 +392,14 @@
         [
           "**Nota al Capítol 48**",
           "**Nota a la lectura 12**"
+        ],
+        [
+          "aquest llibre",
+          "l'assaig"
+        ],
+        [
+          "Aquest llibre",
+          "L'assaig"
         ]
       ],
       "chapter_number": 12,
@@ -336,6 +412,10 @@
         [
           "**Nota al Capítol 49**",
           "**Nota a la lectura 13**"
+        ],
+        [
+          "aquest llibre",
+          "l'assaig"
         ]
       ],
       "chapter_number": 13,
@@ -348,6 +428,22 @@
         [
           "**Nota al Capítol 50**",
           "**Nota a la lectura 14**"
+        ],
+        [
+          "d'aquest llibre",
+          "de l'assaig"
+        ],
+        [
+          "en la geometria del llibre",
+          "en la geometria de l'assaig"
+        ],
+        [
+          "la resta del llibre",
+          "la resta de l'assaig"
+        ],
+        [
+          "Aquest llibre",
+          "L'assaig"
         ]
       ],
       "chapter_number": 14,

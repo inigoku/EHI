@@ -186,6 +186,10 @@
         [
           "**Nota al Capítulo 37**",
           "**Nota a la lectura 1**"
+        ],
+        [
+          "de este libro",
+          "del ensayo"
         ]
       ],
       "chapter_number": 1,
@@ -202,6 +206,10 @@
         [
           "**Nota al Capítulo 38**",
           "**Nota a la lectura 2**"
+        ],
+        [
+          "de este libro",
+          "del ensayo"
         ]
       ],
       "chapter_number": 2,
@@ -214,6 +222,10 @@
         [
           "**Nota al Capítulo 39**",
           "**Nota a la lectura 3**"
+        ],
+        [
+          "de este libro",
+          "del ensayo"
         ]
       ],
       "chapter_number": 3,
@@ -226,6 +238,14 @@
         [
           "**Nota al Capítulo 40**",
           "**Nota a la lectura 4**"
+        ],
+        [
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "este libro",
+          "el ensayo"
         ]
       ],
       "chapter_number": 4,
@@ -238,6 +258,18 @@
         [
           "**Nota al Capítulo 41**",
           "**Nota a la lectura 5**"
+        ],
+        [
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "En la tercera parte del libro",
+          "En la tercera parte del ensayo"
+        ],
+        [
+          "Este libro",
+          "El ensayo"
         ]
       ],
       "chapter_number": 5,
@@ -250,6 +282,14 @@
         [
           "**Nota al Capítulo 42**",
           "**Nota a la lectura 6**"
+        ],
+        [
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "A lo largo del libro",
+          "A lo largo del ensayo"
         ]
       ],
       "chapter_number": 6,
@@ -274,6 +314,10 @@
         [
           "**Nota al Capítulo 44**",
           "**Nota a la lectura 8**"
+        ],
+        [
+          "de este libro",
+          "del ensayo"
         ]
       ],
       "chapter_number": 8,
@@ -286,6 +330,14 @@
         [
           "**Nota al Capítulo 45**",
           "**Nota a la lectura 9**"
+        ],
+        [
+          "este libro",
+          "el ensayo"
+        ],
+        [
+          "Este libro",
+          "El ensayo"
         ]
       ],
       "chapter_number": 9,
@@ -306,6 +358,18 @@
         [
           "**Nota al Capítulo 46**",
           "**Nota a la lectura 10**"
+        ],
+        [
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "este libro",
+          "el ensayo"
+        ],
+        [
+          "Este libro",
+          "El ensayo"
         ]
       ],
       "chapter_number": 10,
@@ -318,6 +382,10 @@
         [
           "**Nota al Capítulo 47**",
           "**Nota a la lectura 11**"
+        ],
+        [
+          "este libro",
+          "el ensayo"
         ]
       ],
       "chapter_number": 11,
@@ -330,6 +398,14 @@
         [
           "**Nota al Capítulo 48**",
           "**Nota a la lectura 12**"
+        ],
+        [
+          "este libro",
+          "el ensayo"
+        ],
+        [
+          "Este libro",
+          "El ensayo"
         ]
       ],
       "chapter_number": 12,
@@ -342,6 +418,10 @@
         [
           "**Nota al Capítulo 49**",
           "**Nota a la lectura 13**"
+        ],
+        [
+          "este libro",
+          "el ensayo"
         ]
       ],
       "chapter_number": 13,
@@ -366,6 +446,22 @@
         [
           "**Nota al Capítulo 50**",
           "**Nota a la lectura 14**"
+        ],
+        [
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "en la geometría del libro",
+          "en la geometría del ensayo"
+        ],
+        [
+          "el resto del libro",
+          "el resto del ensayo"
+        ],
+        [
+          "Este libro",
+          "El ensayo"
         ]
       ],
       "chapter_number": 14,

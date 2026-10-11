@@ -87,7 +87,39 @@ T1 = {
          "Diverses lectures del segon volum, *Lectures topològiques* (")],
     "prologo.ca.md": [("Entre la tercera i la quarta, catorze lectures topològiques porten les mateixes idees a la ficció, el cinema, l'art, l'esport i la vida quotidiana.",
                        "Un segon volum, *Lectures topològiques*, porta les mateixes idees a la ficció, el cinema, l'art, l'esport i la vida quotidiana.")],
+    "cap_calibracion.ca.md": [
+        ("La lectura «El traductor», més endavant, estudia", "La lectura «El traductor», al segon volum, estudia")],
+    "cap13_5.ca.md": [
+        ("(a la qual tornarem a les lectures topològiques)",
+         "(a la qual tornarem al segon volum, *Lectures topològiques*)")],
+    "cap_glosario.ca.md": [
+        ("(*El mirall sense profunditat*, *La realitat fractal*)", "(*El mirall sense profunditat*; *La realitat fractal*, volum II)"),
+        ("la lectura *La realitat fractal* concedeix", "la lectura *La realitat fractal* (volum II) concedeix"),
+        ("(*La realitat fractal*)", "(*La realitat fractal*, volum II)"),
+        ("(*La nau de fang*)", "(*La nau de fang*, volum II)"),
+        ("(*El traductor*)", "(*El traductor*, volum II)"),
+        ("(*El protocol i el pont*)", "(*El protocol i el pont*, volum II)"),
+        ("(*La platja al final del temps*)", "(*La platja al final del temps*, volum II)")],
+    "cap_notas_cierre.ca.md": [
+        ("Quatre capítols d'aquest assaig (*El mirall sense profunditat*, *L'entrellaçament vertical*, *L'horitzó col·lectiu* i *La realitat fractal*) es van escriure",
+         "Tres capítols d'aquest assaig (*El mirall sense profunditat*, *L'entrellaçament vertical* i *L'horitzó col·lectiu*), i una lectura del segon volum (*La realitat fractal*), es van escriure"),
+        ("*Escrita en tancar* La realitat fractal.", "*Escrita en tancar* La realitat fractal (volum II).")],
 }
+
+# "aquest llibre" a les Lectures: aquí el llibre de què es parla és l'assaig.
+ESSAY = [("d'aquest llibre", "de l'assaig"), ("D'aquest llibre", "De l'assaig"),
+         ("Al llarg del llibre", "Al llarg de l'assaig"), ("A la tercera part del llibre", "A la tercera part de l'assaig"),
+         ("en la geometria del llibre", "en la geometria de l'assaig"), ("la resta del llibre", "la resta de l'assaig"),
+         ("aquest llibre", "l'assaig"), ("Aquest llibre", "L'assaig")]
+
+def essay_refs(text):
+    out = []
+    for a, b in ESSAY:
+        if a in text:
+            out.append((a, b))
+            text = text.replace(a, b)
+    return out
+
 
 # ---- tom II ---------------------------------------------------------------
 T2 = {}
@@ -133,7 +165,7 @@ for c in LECT:
     n = int(fm(c)["chapterNumber"])
     nota = f"**Nota al Capítol {n}**"
     extra = [(nota, f"**Nota a la lectura {NUM_LECT[n]}**")] if nota in (BASE / c["content_file"]).read_text(encoding="utf-8") else []
-    c2 = with_replace(c, T2, refs(body(c), 2) + extra)
+    c2 = with_replace(c, T2, refs(body(c), 2) + extra + essay_refs(body(c)))
     c2["chapter_number"] = NUM_LECT[n]
     c2["section"] = ""   # sense la capçalera «Lectures topològiques» repetida a cada lectura
     t2["chapters"].append(c2)

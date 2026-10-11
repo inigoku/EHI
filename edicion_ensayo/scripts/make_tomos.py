@@ -90,7 +90,38 @@ T1 = {
          "Varias lecturas del segundo tomo, *Lecturas topológicas* (")],
     "prologo.es.md": [("Entre la tercera y la cuarta, catorce lecturas topológicas llevan las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.",
                        "Un segundo tomo, *Lecturas topológicas*, lleva las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana.")],
+    "cap_calibracion.es.md": [
+        ("La lectura «El traductor», más adelante, estudia", "La lectura «El traductor», en el segundo tomo, estudia")],
+    "cap13_5.es.md": [
+        ("(a la que volveremos en las lecturas topológicas)",
+         "(a la que volveremos en el segundo tomo, *Lecturas topológicas*)")],
+    "cap_glosario.es.md": [
+        ("(*El espejo sin profundidad*, *La realidad fractal*)", "(*El espejo sin profundidad*; *La realidad fractal*, tomo II)"),
+        ("la lectura *La realidad fractal* concede", "la lectura *La realidad fractal* (tomo II) concede"),
+        ("(*La realidad fractal*)", "(*La realidad fractal*, tomo II)"),
+        ("(*La nave de barro*)", "(*La nave de barro*, tomo II)"),
+        ("(*El traductor*)", "(*El traductor*, tomo II)"),
+        ("(*El protocolo y el puente*)", "(*El protocolo y el puente*, tomo II)"),
+        ("(*La playa al final del tiempo*)", "(*La playa al final del tiempo*, tomo II)")],
+    "cap_notas_cierre.es.md": [
+        ("Cuatro capítulos de este ensayo (*El espejo sin profundidad*, *El entrelazamiento vertical*, *El horizonte colectivo* y *La realidad fractal*) se escribieron",
+         "Tres capítulos de este ensayo (*El espejo sin profundidad*, *El entrelazamiento vertical* y *El horizonte colectivo*), y una lectura del segundo tomo (*La realidad fractal*), se escribieron"),
+        ("*Escrita al cierre de* La realidad fractal.", "*Escrita al cierre de* La realidad fractal (tomo II).")],
 }
+
+# "este libro" / "this book" en las Lecturas: ahí el libro del que se habla es el ensayo.
+ESSAY = [("de este libro", "del ensayo"), ("De este libro", "Del ensayo"),
+         ("A lo largo del libro", "A lo largo del ensayo"), ("En la tercera parte del libro", "En la tercera parte del ensayo"),
+         ("en la geometría del libro", "en la geometría del ensayo"), ("el resto del libro", "el resto del ensayo"),
+         ("este libro", "el ensayo"), ("Este libro", "El ensayo")]
+
+def essay_refs(text):
+    out = []
+    for a, b in ESSAY:
+        if a in text:
+            out.append((a, b))
+            text = text.replace(a, b)
+    return out
 
 # ---- tomo II --------------------------------------------------------------
 T2 = {}
@@ -136,7 +167,7 @@ for c in LECT:
     n = int(fm(c)["chapterNumber"])
     nota = f"**Nota al Capítulo {n}**"
     extra = [(nota, f"**Nota a la lectura {NUM_LECT[n]}**")] if nota in (BASE / c["content_file"]).read_text(encoding="utf-8") else []
-    c2 = with_replace(c, T2, refs(body(c), 2) + extra)
+    c2 = with_replace(c, T2, refs(body(c), 2) + extra + essay_refs(body(c)))
     c2["chapter_number"] = NUM_LECT[n]
     c2["section"] = ""   # sin la cabecera «Lecturas topológicas» repetida en cada lectura
     t2["chapters"].append(c2)

@@ -79,7 +79,7 @@ El archivista anota y deja huecos. Los huecos son parte del archivo.
 
 ### Nota de cierre
 
-Tarel y el que queda son el mismo experimento contado desde dos extremos: el agua que se va y lo que queda cuando ya no está. Entre medias, veinte variaciones sobre la misma pregunta.
+Tarel y el que queda son el mismo experimento contado desde dos extremos: el agua que se va y lo que queda cuando ya no está. Entre medias, y alrededor, todas las demás variaciones sobre la misma pregunta.
 
 La pregunta no tiene una sola respuesta. Tiene muchas respuestas pequeñas, parciales, contradictorias entre sí. Eso también es una respuesta.
 
