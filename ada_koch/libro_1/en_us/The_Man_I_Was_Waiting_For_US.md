@@ -2753,7 +2753,7 @@ I opened the door.
 
 He didn't give me time to say no. He went off toward a white van, old, its paint eaten by the salt air, parked two spaces down. He came back with a red-and-black set of cables coiled over his shoulder, like a snake.
 
-He opened my hood without asking. He opened his. He clamped on the cables with the ease of someone who's done it a thousand times, hardly looking, talking to me over his shoulder.
+He opened my hood without asking. He opened his. He clamped on the cables with the ease of someone who's done it a thousand times, hardly looking, talking to me over his shoulder. He had his sleeves pushed up to the elbow. His forearms were tanned, with a white scar running across one of them from side to side, and I looked at it longer than I needed to.
 
 "After a storm like that, half the batteries in the village die. This is my fourth this week."
 
@@ -4123,7 +4123,7 @@ She came racing across the sand at full speed, ears flying, and jumped up on me 
 
 The figure had stood up. He was coming toward me down the beach, his hands in the pockets of an orange rain jacket.
 
-I recognized him before I saw his face. By the rain jacket. By the way he walked, in no hurry.
+I recognized him before I saw his face. By the rain jacket, open, his T-shirt pressed to his chest by the wind. By the way he walked, in no hurry.
 
 The jumper-cables man.
 
@@ -4613,7 +4613,7 @@ He stood still for a moment. Then he knelt in front of me.
 
 I nodded.
 
-He did it. Looking at the wall the whole time. He took off my wet swimsuit with a gentleness I didn't expect from such big hands, wrapped me in the dry towel, pulled the sweater over my head the way a mother does with a child, put the socks on me. He didn't touch me once more than he had to.
+He did it. Looking at the wall the whole time. He took off my wet swimsuit with a gentleness I didn't expect from such big hands, wrapped me in the dry towel, pulled the sweater over my head the way a mother does with a child, put the socks on me. He didn't touch me once more than he had to. And even so, shaking with cold and fear, I felt every one of the times he touched me.
 
 When he finished, he got up and went into the other room. I heard him changing too.
 
@@ -4663,11 +4663,13 @@ Maybe because he had pulled me from the bottom of the sea. Maybe because he hadn
 
 Maybe because I hadn't drawn him.
 
-I told him there was someone in Madrid. Someone I'd been with for three years. That I left a year ago, from one day to the next, and that since then I hadn't wanted anything to do with him. That now he was writing to me. That he had called me. That he was coming to A Coruña in three weeks and wanted to see me.
+I told him there was someone in Madrid. Someone I'd been with for three years. That I left a year ago, from one day to the next, and that since then I hadn't wanted anything to do with him. That now he was writing to me. That he had called me. That he was coming to A Coruña in six days and wanted to see me.
 
 That he had some of my things.
 
 That he missed me.
+
+As I was telling him, I realized I was looking at his hands. He had them on the table, open, cracked with salt, still, asking for nothing. I thought of other hands, always clean, always dry, that knew exactly where to press so it would seem like a caress. My stomach clenched with disgust. And then, in the same place, with something else. I wanted to take one of those cracked hands and put it to my face. I didn't. But the wanting stayed with me all afternoon.
 
 "And I don't know why it scares me," I told him. My voice was shaking. The cup was shaking. "I don't know why. It's a coffee. It's a person who loved me. He says lovely things to me. And I hear his voice and I can't breathe. I can't breathe, like in the water. And I don't know why."
 
@@ -5498,7 +5500,7 @@ They stood like that. Each with the other's thing in his hands.
 
 Silence.
 
-The jumper-cables man nodded slowly. He looked for me over Iter's shoulder. He found me in the hall, in a towel, my hair full of lather. He didn't smile.
+The jumper-cables man nodded slowly. He looked for me over Iter's shoulder. He found me in the hall, in a towel, my hair full of lather. He didn't smile. I pressed the towel to my chest and felt my skin burning, all of it at once, under the cloth.
 
 Then he held out his hand.
 
@@ -5850,6 +5852,8 @@ And as I said it I knew I was also taking from him the only thing he'd done righ
 His smile went out.
 
 Little by little. The way the sun goes out behind a cirrus. And underneath I saw, for a second, a face the whole village saw too. That my grandmother saw. That the jumper-cables man saw from his boat, because he stood up.
+
+I watched him get to his feet on the gunwale, broad, the needle still in his hand and the net falling from his knees, and something low and hot rose in me along with him. In front of the man I had shared a bed with for three years I felt disgust: for his buttoned coat, for his expensive cologne, for the mouth that had kissed me a thousand times to shut me up. And at the same time, without permission, a wanting I didn't know where to put, to cross the pier and rest my forehead on the chest of the man who mended nets.
 
 Then the smile came back. Thinner.
 

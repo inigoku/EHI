@@ -2754,7 +2754,7 @@ Abrí la puerta.
 
 No me dio tiempo a decir que no. Se fue hacia una furgoneta blanca, vieja, con la pintura comida por el salitre, aparcada dos plazas más allá. Volvió con unos cables rojos y negros enrollados al hombro, como una culebra.
 
-Abrió mi capó sin preguntar. Abrió el suyo. Conectó las pinzas con la soltura de quien lo ha hecho mil veces, sin mirar casi, mientras me hablaba por encima del hombro.
+Abrió mi capó sin preguntar. Abrió el suyo. Conectó las pinzas con la soltura de quien lo ha hecho mil veces, sin mirar casi, mientras me hablaba por encima del hombro. Llevaba las mangas subidas hasta el codo. Tenía los antebrazos morenos, con una cicatriz blanca que le cruzaba uno de lado a lado, y me fijé en ella más rato del que hacía falta.
 
 —Después de un temporal así se mueren la mitad de las baterías del pueblo. Llevo cuatro esta semana.
 
@@ -4124,7 +4124,7 @@ Vino corriendo por la arena a toda velocidad, con las orejas al viento, y se me 
 
 La figura se había levantado. Venía hacia mí por la playa, con las manos en los bolsillos de un chubasquero naranja.
 
-Lo reconocí antes de verle la cara. Por el chubasquero. Por la forma de andar, sin prisa.
+Lo reconocí antes de verle la cara. Por el chubasquero, abierto, con la camiseta pegada al pecho por el viento. Por la forma de andar, sin prisa.
 
 El de las pinzas.
 
@@ -4614,7 +4614,7 @@ Me miré las manos. Estaban blancas, casi azules. No podía cerrarlas.
 
 Asentí.
 
-Lo hizo. Mirando a la pared todo el rato. Me quitó el bañador mojado con una delicadeza que no esperaba de unas manos tan grandes, me envolvió en la toalla seca, me metió el jersey por la cabeza como se lo mete una madre a un niño, me puso los calcetines. No me rozó ni una vez más de lo necesario.
+Lo hizo. Mirando a la pared todo el rato. Me quitó el bañador mojado con una delicadeza que no esperaba de unas manos tan grandes, me envolvió en la toalla seca, me metió el jersey por la cabeza como se lo mete una madre a un niño, me puso los calcetines. No me rozó ni una vez más de lo necesario. Y aun así, temblando de frío y de miedo, noté cada una de las veces que me rozó.
 
 Cuando terminó, se levantó y se fue a la otra habitación. Oí cómo se cambiaba él también.
 
@@ -4664,11 +4664,13 @@ Quizá porque me había sacado del fondo del mar. Quizá porque no me había pre
 
 Quizá porque no lo había dibujado.
 
-Le conté que había alguien en Madrid. Alguien con quien estuve tres años. Que me fui hace uno, de un día para otro, y que desde entonces no había querido saber nada de él. Que ahora me escribía. Que me había llamado. Que iba a venir a A Coruña en tres semanas y quería verme.
+Le conté que había alguien en Madrid. Alguien con quien estuve tres años. Que me fui hace uno, de un día para otro, y que desde entonces no había querido saber nada de él. Que ahora me escribía. Que me había llamado. Que iba a venir a A Coruña en seis días y quería verme.
 
 Que tenía cosas mías.
 
 Que me echaba de menos.
+
+Mientras se lo contaba me di cuenta de que le estaba mirando las manos. Las tenía sobre la mesa, abiertas, agrietadas de sal, quietas, sin pedir nada. Pensé en otras manos, siempre limpias, siempre secas, que sabían exactamente dónde apretar para que pareciera una caricia. Se me encogió el estómago de asco. Y luego, en el mismo sitio, de otra cosa. Me dieron ganas de coger una de aquellas manos agrietadas y ponérmela en la cara. No lo hice. Pero las ganas se quedaron conmigo toda la tarde.
 
 —Y yo no sé por qué me da miedo —le dije. Me temblaba la voz. Me temblaba la taza—. No sé por qué. Es un café. Es una persona que me quiso. Me dice cosas bonitas. Y yo oigo su voz y me quedo sin aire. Me quedo sin aire, como en el agua. Y no sé por qué.
 
@@ -5500,7 +5502,7 @@ Se quedaron así. Cada uno con lo del otro en las manos.
 
 Silencio.
 
-El de las pinzas asintió despacio. Me buscó con los ojos por encima del hombro de Iter. Me encontró en el pasillo, en toalla, con el pelo lleno de espuma. No sonrió.
+El de las pinzas asintió despacio. Me buscó con los ojos por encima del hombro de Iter. Me encontró en el pasillo, en toalla, con el pelo lleno de espuma. No sonrió. Yo apreté la toalla contra el pecho y noté que me ardía la piel, toda a la vez, debajo de la tela.
 
 Luego alargó la mano.
 
@@ -5853,6 +5855,8 @@ Y al decirlo supe que también le estaba quitando lo único que había hecho bie
 Se le borró la sonrisa.
 
 Poco a poco. Como se borra el sol detrás de un cirro. Y debajo vi, durante un segundo, una cara que todo el pueblo vio también. Que mi abuela vio. Que el de las pinzas vio desde su barca, porque se levantó.
+
+Lo vi ponerse de pie en la borda, ancho, con la aguja todavía en la mano y la red cayéndole de las rodillas, y algo bajo y caliente se me levantó por dentro con él. Delante del hombre con el que había compartido cama tres años sentí asco: de su abrigo abrochado, de su colonia cara, de la boca que me había besado mil veces para callarme. Y al mismo tiempo, sin permiso, unas ganas que no supe dónde meter de cruzar el muelle y apoyar la frente en el pecho del que cosía redes.
 
 Luego la sonrisa volvió. Más fina.
 

@@ -2755,7 +2755,7 @@ I open the door.
 
 He doesn't give me time to say no. He goes off towards a white van, old, its paint eaten by the salt air, parked two spaces down. He comes back with a red-and-black set of cables coiled over his shoulder, like a snake.
 
-He opens my bonnet without asking. He opens his. He clamps on the cables with the ease of someone who's done it a thousand times, hardly looking, talking to me over his shoulder.
+He opens my bonnet without asking. He opens his. He clamps on the cables with the ease of someone who's done it a thousand times, hardly looking, talking to me over his shoulder. He has his sleeves pushed up to the elbow. His forearms are weathered brown, with a white scar running across one of them from side to side, and I look at it longer than I need to.
 
 'After a storm like that, half the batteries in the toon die. This is my fourth this week.'
 
@@ -4125,7 +4125,7 @@ She comes racing across the sand at full speed, ears flying, and jumps up at me 
 
 The figure has stood up. He's coming towards me down the beach, his hands in the pockets of an orange waterproof.
 
-I recognise him before I see his face. By the waterproof. By the way he walks, in no hurry.
+I recognise him before I see his face. By the waterproof, open, his T-shirt pressed to his chest by the wind. By the way he walks, in no hurry.
 
 The jumper-cables man.
 
@@ -4613,7 +4613,7 @@ He stands still for a moment. Then he kneels in front of me.
 
 I nod.
 
-He does it. Looking at the wall the whole time. He takes off my wet swimsuit with a gentleness I don't expect from such big hands, wraps me in the dry towel, pulls the jumper over my head the way a mother does with a child, puts the socks on me. He doesn't touch me once more than he has to.
+He does it. Looking at the wall the whole time. He takes off my wet swimsuit with a gentleness I don't expect from such big hands, wraps me in the dry towel, pulls the jumper over my head the way a mother does with a child, puts the socks on me. He doesn't touch me once more than he has to. And even so, shaking with cold and fear, I feel every one of the times he touches me.
 
 When he's finished, he gets up and goes into the other room. I hear him changing too.
 
@@ -4663,11 +4663,13 @@ Maybe because he's pulled me from the bottom of the sea. Maybe because he hasn't
 
 Maybe because I haven't drawn him.
 
-I tell him there's someone in London. Someone I was with for three years. That I left a year ago, from one day to the next, and that since then I've wanted nothing to do with him. That now he's writing to me. That he's rung me. That he's coming to Kirkwall in three weeks and wants to see me.
+I tell him there's someone in London. Someone I was with for three years. That I left a year ago, from one day to the next, and that since then I've wanted nothing to do with him. That now he's writing to me. That he's rung me. That he's coming to Kirkwall in six days and wants to see me.
 
 That he has some of my things.
 
 That he misses me.
+
+As I tell him, I realise I'm looking at his hands. He has them on the table, open, cracked with salt, still, asking for nothing. I think of other hands, always clean, always dry, that knew exactly where to press so it would seem like a caress. My stomach clenches with disgust. And then, in the same place, with something else. I want to take one of those cracked hands and put it to my face. I don't. But the wanting stays with me all afternoon.
 
 'And I don't know why it scares me,' I tell him. My voice is shaking. The cup is shaking. 'I don't know why. It's a coffee. It's a person who loved me. He says lovely things to me. And I hear his voice and I can't breathe. I can't breathe, like in the water. And I don't know why.'
 
@@ -5499,7 +5501,7 @@ They stand like that. Each with the other's thing in his hands.
 
 Silence.
 
-The jumper-cables man nods slowly. He looks for me over Iter's shoulder. He finds me in the hall, in a towel, my hair full of lather. He doesn't smile.
+The jumper-cables man nods slowly. He looks for me over Iter's shoulder. He finds me in the hall, in a towel, my hair full of lather. He doesn't smile. I press the towel to my chest and feel my skin burning, all of it at once, under the cloth.
 
 Then he holds out his hand.
 
@@ -5853,6 +5855,8 @@ And as I say it I know I'm also taking from him the only thing he's done right. 
 His smile goes out.
 
 Little by little. The way the sun goes out behind a cirrus. And underneath I see, for a second, a face the whole town sees too. That my grandmother sees. That the jumper-cables man sees from his boat, because he stands up.
+
+I watch him get to his feet on the gunwale, broad, the needle still in his hand and the net falling from his knees, and something low and hot rises in me along with him. In front of the man I shared a bed with for three years I feel disgust: for his buttoned coat, for his expensive cologne, for the mouth that kissed me a thousand times to shut me up. And at the same time, without permission, a wanting I don't know where to put, to cross the pier and rest my forehead on the chest of the man who mends nets.
 
 Then the smile comes back. Thinner.
 
