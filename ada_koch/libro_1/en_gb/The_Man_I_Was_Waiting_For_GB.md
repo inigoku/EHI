@@ -4671,7 +4671,7 @@ That he has some of my things.
 
 That he misses me.
 
-As I tell him, I realise I'm looking at his hands. He has them on the table, open, cracked with salt, still, asking for nothing. I think of other hands, always clean, always dry, that knew exactly where to press so it would seem like a caress. My stomach clenches with disgust. And then, in the same place, with something else. I want to take one of those cracked hands and put it to my face. I don't. But the wanting stays with me all afternoon.
+As I tell him, I realise I'm looking at his hands. He has them on the table, open, cracked with salt, still, asking for nothing. I think of other hands, always clean, always dry, that never stayed still without asking for something in return. My stomach clenches with disgust. And then, in the same place, with something else. I want to take one of those cracked hands and put it to my face. I don't. But the wanting stays with me all afternoon.
 
 'And I don't know why it scares me,' I tell him. My voice is shaking. The cup is shaking. 'I don't know why. It's a coffee. It's a person who loved me. He says lovely things to me. And I hear his voice and I can't breathe. I can't breathe, like in the water. And I don't know why.'
 
@@ -5191,7 +5191,7 @@ When he slides into me, we both go still. I feel his heart against my chest, rac
 
 We move together, not knowing at first, then knowing. I dig my fingers into his back, into the mole I didn't draw on him. He learns fast what makes me close my eyes, and does it again, and again, until the sea outside and the sea inside are the same sea and my voice breaks against his shoulder.
 
-He follows, with a long shudder, saying my name as if it were the first word he ever learned.
+Then he comes undone, with a long shudder, saying my name as if it were the first word he ever learned.
 
 Afterwards we lie tangled together, sweating in the cold, listening to the tide.
 

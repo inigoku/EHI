@@ -28,10 +28,8 @@ AUTHOR_SORT = "Barrera Barceló, Íñigo"
 SERIES_NAME = "El Cuaderno de Ada Koch"
 SERIES_INDEX = 1
 PUB_DATE = "2026-10-10"
-SUBJECTS = ["Ficción romántica", "Realismo mágico", "Galicia"]
-DESCRIPTION = ("Ada Koch, meteoróloga, vive sola en un faro de la Costa da Morte y lleva "
-               "veintitrés años dibujando al mismo hombre. Una noche de temporal, él llama a "
-               "su puerta. Primer libro de la saga El Cuaderno de Ada Koch.")
+SUBJECTS = ['Ficción romántica', 'Romántica sensual', 'Realismo mágico', 'Triángulo amoroso', 'Galicia']
+DESCRIPTION = ('Ada Koch lleva veintitrés años dibujando al mismo hombre en los márgenes de sus cuadernos. Nunca le ha puesto nombre. Nunca se lo ha enseñado a nadie. La noche en que el peor temporal del año golpea el faro de la Costa da Morte donde vive sola, alguien llama tres veces a la puerta: un hombre empapado que no sabe quién es y que tiene la cara que ella terminó de dibujar esa madrugada. Entre el hombre que solo existe porque ella lo imaginó y el percebeiro que la saca del mar sin preguntarle nada, mientras el pasado que dejó en Madrid sube la cuesta a buscarla, Ada tendrá que decidir qué es real y a quién se entrega. Y su abuela, que también esperó a un hombre, sabe más de lo que cuenta. Romántica sensual con realismo mágico. Primer libro de la saga El Cuaderno de Ada Koch.')
 
 # ---------- CSS: la de la edición KDP + separador de escena ----------
 CSS = """

@@ -640,7 +640,7 @@ Tardé horas. El viento golpeaba la casa y yo no lo oía.
 
 Dibujé el cuello de la camisa, un poco abierto. La línea de la clavícula, que se adivinaba debajo. Dibujé sus hombros, anchos pero no demasiado, de los que te imaginas apoyando la cabeza. Dibujé sus manos, que siempre me cuestan, que nunca me salen. Esa noche me salieron. Grandes, de dedos largos, con los nudillos marcados. Manos de alguien que sabe hacer cosas.
 
-Las miré mucho rato. Me pregunté cómo serían sobre mi piel. Si serían ásperas o suaves. Si serían lentas. Me imaginé una en la nuca, debajo del pelo. La otra bajando por la espalda, vértebra a vértebra, sin prisa, hasta quedarse quieta en la curva de la cintura, justo donde empieza el pijama.
+Las estuve mirando. Me pregunté cómo serían sobre mi piel. Si serían ásperas o suaves. Si serían lentas. Me imaginé una en la nuca, debajo del pelo. La otra bajando por la espalda, vértebra a vértebra, sin prisa, hasta quedarse quieta en la curva de la cintura, justo donde empieza el pijama.
 
 Noté que me ardían las mejillas y me reí sola, bajito, en mi cocina, a las tres de la mañana. Qué tonta. Una mujer hecha y derecha sonrojándose por unas manos de grafito.
 
@@ -1366,7 +1366,7 @@ Miró hacia la ventana. Al negro. Al ruido.
 
 —¿Cómo te llamas?
 
-Se quedó callado mucho rato. Bebió un sorbo de té. Hizo un gesto raro con la boca, de sorpresa, como si el sabor le hubiera pillado desprevenido. Luego me miró.
+Se quedó callado. Bebió un sorbo de té. Hizo un gesto raro con la boca, de sorpresa, como si el sabor le hubiera pillado desprevenido. Luego me miró.
 
 —No tengo nombre.
 
@@ -1518,7 +1518,7 @@ No era de piedra. Pilar se equivocaba. Tenía tanta sangre en las venas que le g
 
 Retiré la mano. Me temblaba un poco. Taché *corason* y escribí al lado, con mi letra redonda de colegio de monjas: *corazón*.
 
-Él miró la palabra mucho rato. Luego la repitió en voz baja, con su acento de piedras rodando.
+Él miró la palabra sin parpadear. Luego la repitió en voz baja, con su acento de piedras rodando.
 
 —Corazón.
 
@@ -1736,7 +1736,7 @@ Lo sabía como sabía la forma de su nariz. Como sabía su ceja sin cicatriz. Po
 
 —Dime qué recuerdas —le pedí. La voz me salió muy baja—. Lo que sea. Lo primero que recuerdes.
 
-Cerró los ojos. Estuvo así mucho rato. Fuera, el viento se había convertido en lluvia mansa, y se oía caer sobre el tejado como arena.
+Cerró los ojos. Estuvo así un buen rato. Fuera, el viento se había convertido en lluvia mansa, y se oía caer sobre el tejado como arena.
 
 —Una roca —dijo al fin—. Estoy sentado en una roca. Delante está el mar.
 
@@ -1892,7 +1892,7 @@ Fue un sonido bajo, sorprendido, un poco ronco. Me llegó directo al estómago.
 
 Nunca había dibujado su risa. No se puede dibujar una risa. Pero si hubiera podido, habría sonado así.
 
-Después de comer se acercó a la ventana grande, la que da al mar, y se quedó allí de pie mucho rato.
+Después de comer se acercó a la ventana grande, la que da al mar, y se quedó allí de pie, sin moverse.
 
 Yo había abierto un poco la contraventana para que entrara luz. Fuera, el temporal seguía, pero ya se podía mirar. El cielo era de un gris sucio, bajo, que corría hacia el este a toda velocidad. Y debajo, el mar. Blanco todavía, enorme, rompiendo contra el acantilado en explosiones de espuma que subían y subían y se deshacían en el aire.
 
@@ -1966,7 +1966,7 @@ Abrí las iteraciones. Las cincuenta y una versiones del modelo, cada una con su
 
 —Cincuenta y una iteraciones. Así las llamo yo. Los demás dicen miembros del ensemble, que suena a orquesta. Las miras todas juntas y ves cuáles se parecen y cuáles se separan. Así sabes cuánto puedes fiarte.
 
-Se quedó mirando las líneas mucho rato. Con el ceño un poco fruncido. Con esa concentración suya que empezaba a conocer.
+Se quedó mirando las líneas. Con el ceño un poco fruncido. Con esa concentración suya que empezaba a conocer.
 
 —¿Y cuál es la verdadera?
 
@@ -2096,7 +2096,7 @@ Le contesté con un mensaje escrito. Me temblaban un poco los dedos.
 
 *Estoy bien, abuela. Ha sido largo, pero estoy bien. Sola y tranquila.*
 
-Miré la palabra «sola» mucho rato antes de enviarlo.
+Dudé sobre la palabra «sola» antes de enviarlo.
 
 Iter se giró desde la ventana. Me miró, con el sol detrás, y dijo buenos días con esa voz ronca que ya empezaba a esperar.
 
@@ -3162,7 +3162,7 @@ Se quedó de pie, respirando fuerte. Se tocó otra vez la boca. Era la suya.
 
 ---
 
-Estuvimos callados mucho rato. Yo sentada, él de pie. La estufa crepitando. El mar abajo.
+Estuvimos callados un buen rato. Yo sentada, él de pie. La estufa crepitando. El mar abajo.
 
 —Lo siento —dije al fin—. Lo siento mucho. Pensaba que… Estabas triste. No quería que estuvieras triste por mi culpa.
 
@@ -4672,7 +4672,7 @@ Que tenía cosas mías.
 
 Que me echaba de menos.
 
-Mientras se lo contaba me di cuenta de que le estaba mirando las manos. Las tenía sobre la mesa, abiertas, agrietadas de sal, quietas, sin pedir nada. Pensé en otras manos, siempre limpias, siempre secas, que sabían exactamente dónde apretar para que pareciera una caricia. Se me encogió el estómago de asco. Y luego, en el mismo sitio, de otra cosa. Me dieron ganas de coger una de aquellas manos agrietadas y ponérmela en la cara. No lo hice. Pero las ganas se quedaron conmigo toda la tarde.
+Mientras se lo contaba me di cuenta de que le estaba mirando las manos. Las tenía sobre la mesa, abiertas, agrietadas de sal, quietas, sin pedir nada. Pensé en otras manos, siempre limpias, siempre secas, que nunca se quedaban quietas sin pedir algo a cambio. Se me encogió el estómago de asco. Y luego, en el mismo sitio, de otra cosa. Me dieron ganas de coger una de aquellas manos agrietadas y ponérmela en la cara. No lo hice. Pero las ganas se quedaron conmigo toda la tarde.
 
 —Y yo no sé por qué me da miedo —le dije. Me temblaba la voz. Me temblaba la taza—. No sé por qué. Es un café. Es una persona que me quiso. Me dice cosas bonitas. Y yo oigo su voz y me quedo sin aire. Me quedo sin aire, como en el agua. Y no sé por qué.
 
@@ -5106,7 +5106,7 @@ Era la mano que yo había dibujado. Solo eso.
 
 No supe qué decir. Acababa de devolverle la mano y le había quitado lo único suyo que tenía en ella.
 
-Se quedó mirando el dorso de la mano mucho rato. Luego la cerró en un puño y la apretó contra el pecho.
+Se quedó mirando el dorso de la mano. Luego la cerró en un puño y la apretó contra el pecho.
 
 —No pasa nada —dijo. Y me di cuenta de que me estaba consolando a mí—. Me haré otras.
 
@@ -5192,7 +5192,7 @@ Cuando entró en mí, los dos nos quedamos quietos. Le sentí el corazón contra
 
 Nos movimos juntos, al principio sin saber, luego sabiendo. Le clavé los dedos en la espalda, en el lunar que yo no le había dibujado. Él aprendió deprisa lo que me hacía cerrar los ojos, y lo repitió, y lo repitió, hasta que el mar de fuera y el de dentro fueron el mismo y se me rompió la voz contra su hombro.
 
-Él vino detrás, con un temblor largo, diciendo mi nombre como si fuera la primera palabra que había aprendido.
+Luego se deshizo él, con un temblor largo, diciendo mi nombre como si fuera la primera palabra que había aprendido.
 
 Luego nos quedamos enredados, sudando en el frío, escuchando la marea.
 
@@ -5438,7 +5438,7 @@ Abrí la conversación. Escribí una sola palabra.
 
 *No.*
 
-La miré mucho rato. Dos letras. Después de un año de silencio.
+La miré sin pulsar nada. Dos letras. Después de un año de silencio.
 
 Pulsé enviar.
 
@@ -5636,7 +5636,7 @@ En la panadería había tres mujeres. Se callaron cuando entré. Me miraron como
 
 —Una barra —dije.
 
-La panadera me la dio. Me cobró. Me miró la cara mucho rato.
+La panadera me la dio. Me cobró. Me miró la cara sin disimular.
 
 —Tú eres el primo de la del faro —dijo una de las mujeres, la más vieja.
 
