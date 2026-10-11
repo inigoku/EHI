@@ -4931,7 +4931,7 @@ Then he opens his mouth to say something, my name, anything.
 
 And no voice comes out.
 
-I watch him try. I watch the muscles in his neck tighten, his Adam's apple move, his lips shape the A, the D, the A.
+I watch him try. I watch the muscles of his neck go taut, I watch his Adam's apple move, I watch his lips make the A, the D, the A.
 
 Nothing. Silence. Not a sound.
 
@@ -4957,7 +4957,7 @@ There's pain. A pain so big, so clean, that it goes through me like the cold of 
 
 And there's a question.
 
-The same one I asked him the first day, on the doormat, when he was dripping wet and didn't know who he was. Now he's giving it back to me.
+The same one I asked him the first day, on the doormat, when he was dripping wet and didn't know who he was. Now he returns it to me.
 
 *Who are you?*
 
@@ -5119,7 +5119,7 @@ Badly drawn. With a nose too big and one eye higher than the other. With hair li
 
 And laughing.
 
-Laughing with my mouth open, my eyes closed, my head thrown back. A huge laugh, overflowing, the kind that doesn't fit on your face. The one from the geo, the day he sneezed. The one from Lucy's green face mask.
+Laughing with my mouth open, my eyes closed, my head thrown back. A huge laugh, spilling over, the kind your face is too small to hold. The one from the geo, the day he sneezed. The one from Lucy's green face mask.
 
 I've never seen myself like that.
 
@@ -5498,17 +5498,17 @@ And she bares her teeth at Iter.
 # Act Three · The Name
 ## 24 · Iter
 
-The dog knows something I don't know.
+The dog knows something I do not know.
 
-That is the first thing I think when the van leaves and the man in the orange rain jacket takes away his father's jumper and his dog, who keeps growling at me from the back window with the fur up on her back.
+That is the first thing I think when the van leaves and the man in the orange rain jacket takes away his father's jumper and his dog, who growls and growls at me from the back window with the fur up on her back.
 
-Ada tells me not to pay attention to it. That dogs sometimes get scared of tall people, or of the smell of another house, or of nothing.
+Ada tells me not to listen to it. That dogs are sometimes afraid of tall people, or of the smell of another house, or of nothing.
 
-I don't believe her.
+I do not believe her.
 
-Ada told me that dog lay belly-up for her on the sand at Warebeth, without knowing her at all. A dog like that doesn't bare her teeth at anyone for nothing.
+Ada told me that dog lay belly-up for her on the sand at Warebeth, without knowing her at all. A dog like that does not show her teeth to anyone for nothing.
 
-She bared her teeth at me.
+She showed her teeth to me.
 
 ---
 
@@ -5516,13 +5516,13 @@ The others see me. Gran saw me. The green woman saw me. The man in the rain jack
 
 But the dog smelled me.
 
-And she didn't like what she smelled.
+And she did not like what she smelled.
 
 ---
 
 The night on the gallery she gave me back my hand, and my voice, and we went to bed together, and it is the best thing that has happened to me since I knocked on her door.
 
-But I haven't told her.
+But I have not told her.
 
 That I am angry.
 
@@ -5530,35 +5530,35 @@ That I am angry.
 
 I tell her the next morning. In the kitchen. She is making coffee, with her back to me.
 
-'I'm angry.'
+'I am angry.'
 
 She goes still with the coffee pot in her hand.
 
-'About the tower,' I say. 'It hasn't gone away. I thought it would go away last night. It hasn't gone away.'
+'About the tower,' I say. 'It has not gone away. I thought it would go away last night. It has not gone away.'
 
-She doesn't turn round. I see her shoulders shaking.
+She does not turn round. I see her shoulders shake.
 
 'You've got the right,' she says.
 
-'I know I've got the right. I'm not asking you. I'm telling you.'
+'I know I have the right. I am not asking you. I am telling you.'
 
 She puts the coffee pot on the hob. She turns round. Her eyes are red.
 
 'Iter. What I did—'
 
-'It hurt. It still hurts. And I'm angry. And I love you.' I count on my fingers, so I won't forget any of them. 'The three things. I don't know if I love you because of the sketchbook or because of me. But the other two are mine for sure.'
+'It hurt. It still hurts. And I am angry. And I love you.' I count on my fingers, so I will not forget any of them. 'The three things. I do not know if I love you because of the sketchbook or because of me. But the other two are mine. I am sure.'
 
-She doesn't say anything. She comes to the table. She sits down across from me.
+She does not say anything. She comes to the table. She sits down across from me.
 
 And then she tells me about the sea.
 
-That she didn't go into the water to die. That she is telling me because I spent a whole day on the rocks thinking that, and she doesn't want me to keep thinking it. That she went in because her head was full of noise and the cold was the only thing that made it quiet. That it was a stupid thing, that she knows it, that she has never done anything so stupid.
+That she did not go into the water to die. That she is telling me because I spent a whole day on the rocks thinking that, and she does not want me to think it any more. That she went in because her head was full of noise and the cold was the only thing that made it quiet. That it was a stupid thing, that she knows it, that she has never done anything so stupid.
 
 'I didn't want to die,' she says. 'I wanted everything to be quiet.'
 
 I believe her. She has the face she has when she tells the truth, which is a tired face.
 
-'The next time you have noise,' I tell her, 'tell me. I don't know how to make it quiet. But I can make weak coffee.'
+'The next time you have noise,' I tell her, 'tell me. I do not know how to make it quiet. But I can make weak coffee.'
 
 She laughs and cries at the same time. I have seen her do it several times now. I think it is a thing only she does.
 
@@ -5572,7 +5572,7 @@ She puts it on the table, in front of me. On top she puts the key to the padlock
 
 'It's yours,' she says.
 
-I don't understand.
+I do not understand.
 
 'The sketchbook. It's yours. I'm not going to touch it. I don't know what you have to do with it, and I'm not going to tell you. Keep it. Hide it. Burn it, if you want.'
 
@@ -5584,25 +5584,25 @@ I look at the sketchbook. The black covers. The bent corner. Her name on the fir
 
 My whole life is inside that. And she is giving it to me.
 
-I don't know if I understand it yet. I think I will understand it later, when I tell it. That she isn't giving me a sketchbook. She is giving me the pencil. She is giving me the only thing that made her stronger than me.
+I think I understand it now, while I tell it. That she is not giving me a sketchbook. She is giving me the pencil. She is giving me the only thing that made her stronger than me.
 
 I take it. I put it inside my jacket, against my chest.
 
-'Don't ask me where I keep it,' I tell her.
+'Do not ask me where I keep it,' I tell her.
 
 'I won't ask you.'
 
-And she doesn't ask me.
+And she does not ask me.
 
 ---
 
 That afternoon I go into Stromness alone.
 
-I don't ask her. I tell her. She nods from the table, with her eyes on the monitors, and I see her clench her teeth. But she gives me money for the bread.
+I do not ask her. I tell her. She nods from the table, with her eyes on the monitors, and I see her clench her teeth. But she gives me money for the bread.
 
 Two and a half miles. I walk them counting the steps. Six thousand eight hundred and twelve. I see cows. I see a tractor. I see a very old man sitting on a chair at the door of his house who waves to me with his cap, and I wave to him the same way, and I am happy the whole way.
 
-In the bakery there are three women. They go quiet when I come in. They look at me the way people look at the clouds when they don't know if it's going to rain.
+In the bakery there are three women. They stop talking when I come in. They look at me the way people look at the clouds when they do not know if it is going to rain.
 
 'A loaf,' I say.
 
@@ -5610,7 +5610,7 @@ The baker woman gives it to me. She charges me. She looks at my face a long time
 
 'You'll be the cousin of the lass at the lighthouse,' one of the women says, the oldest one.
 
-'I'm not her cousin.'
+'I am not her cousin.'
 
 They look at each other.
 
@@ -5620,15 +5620,15 @@ I open my mouth.
 
 I have nothing to put inside it.
 
-Iter is not a name. It is a thing that happens to a weather model. I can't say it out loud in front of three women with bread.
+Iter is not a name. It is a thing that happens to a weather model. I cannot say it aloud in front of three women with bread.
 
 I close my mouth. I leave with the loaf under my arm.
 
-I hear them laughing behind me, softly, not meanly. Then one of them says something under her breath, about the sea, about me coming out of it. And another one says a word. *Selkie.*
+I hear them laugh behind me, softly, not meanly. Then one of them says something very low, about the sea, about me coming out of it. And another one says a word. *Selkie.*
 
-I don't know that word. I keep it.
+I do not know that word. I keep it.
 
-I go back to the lighthouse with the bread and with a new thing inside me that I don't know the name of. It is heavy. It is like when the sky turns the colour of slate and it isn't raining yet.
+I go back to the lighthouse with the bread and with a new thing inside me that I do not know the name of. It is heavy. It is like when the sky turns the colour of slate and it is not raining yet.
 
 I think it is called wanting a name.
 
@@ -5920,7 +5920,7 @@ Ada goes stiff as stone by the table, with the blue folder open, with the boy on
 
 'Don't open it,' she says.
 
-Three more knocks. Harder. These ones don't wait.
+Three more knocks. Harder. These do not wait.
 
 'Ada.' The voice from outside, over the wind. Soft. Tired. Broken by the cold. 'Ada, please. I've run out of road. There's a telegraph pole down at the bend by the burn. I can't get back down. I just want you to let me in until it passes.'
 
@@ -5932,17 +5932,17 @@ She has the face from before the storm. When the sky turns green.
 
 'Don't open it,' she says again. Very low.
 
-I don't open it.
+I do not open it.
 
 I go to the door. I stand in front of it. With my back to the wood, looking at her.
 
-I don't know why I do it. Nobody drew it for me. It comes from the same place that made me go down to the rocks to look for her.
+I do not know why I do it. Nobody drew it for me. It comes from the same place that made me go down to the rocks to look for her.
 
 The door shakes against my back.
 
 ---
 
-I don't know how long he knocks. The wind is rising. The rain is hitting the windows sideways. He knocks, and he talks, and his voice keeps changing.
+I do not know how long he knocks. The wind is rising. The rain is hitting the windows sideways. He knocks, and he talks, and his voice changes and changes.
 
 First it is soft. *Ada, please, I'm freezing.*
 
@@ -5954,11 +5954,11 @@ And then he stops talking.
 
 And the bolt, the iron one, the one you have to push with both hands, creaks.
 
-And the door flies open and knocks me to the floor.
+And the door opens all at once and throws me to the floor.
 
-I didn't shoot the bolt right. Me. When we came back from the harbour. I pushed it wrong, in a hurry, with my head on the blue folder. I didn't know you had to push it all the way. Nobody told me.
+I did not close the bolt well. Me. When we came back from the harbour. I pushed it wrong, in a hurry, with my head on the blue folder. I did not know you had to push it to the end. Nobody told me.
 
-Or they did. Ada told me once. And I didn't write it down anywhere.
+Or they did. Ada told me once. And I did not write it anywhere.
 
 ---
 
@@ -5966,9 +5966,9 @@ He comes in with the wind. With the rain. Dripping, his blue coat soaked, his ha
 
 Like me the first night.
 
-But he doesn't stay on the doormat.
+But he does not stay on the doormat.
 
-He steps over me. He doesn't look at me. He goes straight towards her, and she has stood up and is backing towards the kitchen with the folder against her chest.
+He steps over me. He does not look at me. He goes straight towards her, and she has stood up and is walking backwards towards the kitchen with the folder against her chest.
 
 'See?' he says, opening his arms, smiling. 'That wasn't so hard.'
 
@@ -5982,11 +5982,11 @@ He stops. He looks at me for the first time since he came in. Up and down. Like 
 
 'No.'
 
-It is Ada's word. The one she said to him at the harbour. I borrow it. I don't think she minds.
+It is Ada's word. The one she said to him at the harbour. I borrow it. I do not think she minds.
 
 He laughs. And he pushes me.
 
-It isn't a blow. It is a shove on the chest, with his open hand, the way you push a curtain aside.
+It is not a blow. It is a shove on the chest, with his open hand, the way you push a curtain aside.
 
 And the sketchbook falls out of my jacket.
 
@@ -6006,11 +6006,11 @@ He looks at the sketchbook again.
 
 I see him understand it. Or not understand it. I see something move in his face, under the smile.
 
-'What is this?' he says. He isn't smiling any more. 'You draw him? You've been drawing him for years? And then you find him in some village and bring him home?' He laughs, an ugly laugh, with no music. 'Ada. You're ill. Do you know that? I always told you. You and your little drawings.'
+'What is this?' he says. He is not smiling any more. 'You draw him? You've been drawing him for years? And then you find him in some village and bring him home?' He laughs, an ugly laugh, with no music. 'Ada. You're ill. Do you know that? I always told you. You and your little drawings.'
 
 'Give me the sketchbook,' Ada says.
 
-I don't recognise her voice.
+I do not recognise her voice.
 
 'This?' He holds it up. He shakes it. 'This is what matters to you? More than three years? More than me?'
 
@@ -6020,13 +6020,13 @@ And he turns round and goes out of the open door, into the wind, with the sketch
 
 ---
 
-We both go after him.
+We both follow him.
 
 The clearing is a whirl of water and night. The wind pushes me sideways as soon as I go out. The rain cuts my face. Above, the tower is a shadow against a black sky that is moving.
 
 He is at the edge of the cliff. Where the path to the geo starts. Where I spent a whole day shouting Ada's name.
 
-He is holding the sketchbook up high. The pages are flapping like a trapped bird.
+He holds the sketchbook high. The pages are flapping like a trapped bird.
 
 'No!' Ada shouts.
 
@@ -6040,7 +6040,7 @@ And he opens his hand.
 
 ---
 
-I don't see it fall.
+I do not see it fall.
 
 I feel it.
 
@@ -6052,25 +6052,25 @@ They are going. Both of them. Not from the fingertips, like in the tower. Everyw
 
 Then I understand it whole. The rules I have been learning one by one, swallowing water, the way you learn to swim. They all go past me at once, while they come true.
 
-What Ada traces on the paper, I am. The nose, the eyes, the hands. If she draws me a smile, the mouth smiles. If she rubs out my mouth, I have no voice.
+What Ada traces on the paper, I am. The nose, the eyes, the hands. If she draws me a smile, the mouth smiles. If she erases my mouth, I have no voice.
 
-What I live is not on the paper. The coffee, the cold of the sea, the first time something hurt me. That she can't draw or rub out. But if she redraws a whole part of me, it comes back the way it was on the paper, and what I lived stays outside. Like the scar from the wire.
+What I live is not on the paper. The coffee, the cold of the sea, the first time something hurt me. That she cannot draw or erase. But if she redraws a whole part of me, it comes back the way it was on the paper, and what I lived stays outside. Like the scar from the wire.
 
 And if the paper gets wet, I get wet inside. If the paper tears, I tear.
 
-I have known it for weeks. What I didn't know is that it feels like this.
+I have known it for weeks. What I did not know is that it feels like this.
 
 I fall to my knees on the grass.
 
 He sees me.
 
-I don't know what he sees. A man coming apart. A man you can see the rain through. Something that can't be. Something that for three years he told Ada didn't exist, that she was making it up, that she was ill.
+I do not know what he sees. A man coming apart. A man you can see the rain through. Something that cannot be. Something that for three years he told Ada did not exist, that she was making it up, that she was ill.
 
 He sees it.
 
 His smile falls. All of it. All at once. He takes a step back.
 
-And he doesn't leave. He stands still in the rain, two yards away, with his hand still open.
+And he does not leave. He stands still in the rain, two yards away, with his hand still open.
 
 'What are you?' he says.
 
@@ -6080,21 +6080,21 @@ There is no anger in his voice. There is fear. And something else: the first rea
 
 It is hard. I have almost no mouth left.
 
-He doesn't move. Then he does. He takes a step towards me. Another. He crouches in front of me, his blue coat dragging in the mud, and he reaches out his hand. The same hand. The way you bring your hand close to something that burns.
+He does not move. Then he moves. He takes a step towards me. Another. He crouches in front of me, his blue coat dragging in the mud, and he reaches out his hand. The same hand. The way you bring your hand close to something that burns.
 
-He touches my shoulder. Where he touched it at the harbour. Where he said in my ear what he said, which I haven't told Ada and am not going to tell here. Not yet.
+He touches my shoulder. Where he touched it at the harbour. Where he said in my ear what he said, which I have not told Ada and am not going to tell here. Not yet.
 
 His hand goes into me. Not all the way. The way it goes into muddy water: he feels something, a cold, a soft resistance, and then nothing. He pulls it back as if it has bitten him. He looks at it. He turns it over. He looks at his wet palm as if it were someone else's.
 
 Then he looks at the cliff. At the exact spot where he opened his hand.
 
-I see him understand it. Not all at once. In layers, the way you understand bad news on the phone. First his face goes blank. Then his mouth goes slack. Then something in his shoulders, which he always keeps high, squared, a man who walks into a room and takes it over, comes down.
+I see him understand it. Not all at once. In layers, the way you understand bad news on the phone. First his face goes blank. Then his mouth goes slack. Then something in his shoulders, which he always keeps high, squared, a man who walks into a room and takes it, comes down.
 
-'I threw it,' he says. Very low. He isn't saying it to me.
+'I threw it,' he says. Very low. He is not saying it to me.
 
 He turns to Ada.
 
-Ada is on her knees beside me, with her hands on mine, unable to hold them. He looks at her. It isn't the look from the kitchen, or from the harbour, or any of the ones I have seen on him. It is the look of a child who has got lost in a railway station and has just understood that nobody is coming to find him. He looks at her the way you look at a stranger. He knew she drew: three years calling it little drawings. What he didn't know was who. That since she was a girl, in the margins of all her sketchbooks, another man had been waiting for her. And that next to him she had stopped drawing him. He never knew her.
+Ada is on her knees beside me, with her hands on mine, unable to hold them. He looks at her. It is not the look from the kitchen, or from the harbour, or any of the ones I have seen on him. It is the look of a child who has got lost in a railway station and has just understood that nobody is coming to find him. He looks at her the way you look at a stranger. He knew she drew: three years calling it little drawings. What he did not know was who. That since she was a girl, in the margins of all her sketchbooks, another man had been waiting for her. And that next to him she had stopped drawing him. He never knew her.
 
 He opens his mouth. It is shaking.
 
@@ -6104,21 +6104,21 @@ She stands up.
 
 'Go.'
 
-She doesn't shout it. She says it with the rain running down her face, the way you say the time.
+She does not shout it. She says it with the rain running down her face, the way you say the time.
 
-He doesn't move.
+He does not move.
 
 'Go,' she says again, lower.
 
 He gets up like a much older man. He stands for a second looking at the grass. Then he leaves, walking towards his grey car, slipping, without turning round. Without the smile. Without the one underneath. Without any.
 
-She doesn't watch him go. She is already running.
+She does not watch him go. She is already running.
 
 I see her go down the path. Towards the geo. Towards the sea. In the dark. With the groundswell. Running after the white pages the wind is carrying towards the water.
 
 After me.
 
-I get up. I don't know with what legs. I can't see them well any more.
+I get up. I do not know with what legs. I cannot see them well any more.
 
 And I go down after her.
 
@@ -6372,7 +6372,7 @@ It is being in the fog. You hear everything, but far away, as if through a wall 
 
 Nothing hurts. There is nowhere for it to hurt.
 
-It has happened to me once before. When Ada erased my mouth on the gallery I didn't go quiet. Quiet is when you have the words and don't say them. I had the words and nowhere to put them. It was like being inside a room with no door, shouting, and the shout not even reaching the wall.
+It has happened to me once before. When Ada erased my mouth on the gallery I did not go quiet. Quiet is when you have the words and do not say them. I had the words and nowhere to put them. It was like being inside a room with no door, shouting, and the shout not even reaching the wall.
 
 And when she erased my hand I watched it go. First the nails. Then the fingers. I saw the railing through me. There was no pain. That was the worst part. If it hurts, there is something that hurts. There, there was nothing.
 
@@ -6396,13 +6396,13 @@ He holds it out to Ada.
 
 She looks at him. He looks at her.
 
-They don't say anything else.
+They do not say anything else.
 
 She takes it.
 
 ---
 
-She doesn't draw in the sketchbook. The sketchbook is pulp.
+She does not draw in the sketchbook. The sketchbook is pulp.
 
 She takes the blue folder from the table. She opens it to the last page. *The Boy Who Stays.* The boy on his rock, looking at the sea.
 
@@ -6412,15 +6412,15 @@ And she begins.
 
 ---
 
-I don't know how to tell what I feel. I am going to try.
+I do not know how to tell what I feel. I try, now, while I tell it.
 
 It is as if someone were turning on the lights in a house, room by room.
 
-First the eyes. I feel them clear. The fog pulls back a little. I see her for real, her hair dripping, her face scrunched up in concentration, biting her lip.
+First the eyes. I feel them clear. The fog goes back a little. I see her truly, her hair dripping, her face tight with attention, biting her lip.
 
 Then the face. The eyebrows. The nose, crooked to the left.
 
-Then something I don't expect.
+Then something I do not expect.
 
 The beard.
 
@@ -6430,7 +6430,7 @@ The shadows under my eyes. The ones from the nights without sleep.
 
 The hair longer than in Tuesday's drawing. Because it has grown. Because she has watched it grow.
 
-She isn't drawing me the way she imagined me.
+She is not drawing me the way she imagined me.
 
 She is drawing me the way she has seen me.
 
@@ -6438,7 +6438,7 @@ She is drawing me the way she has seen me.
 
 She takes a long time over the hands.
 
-Hands are always hard for her. I have heard her say so a thousand times. This time she doesn't complain. She draws slowly. The long fingers. The knuckles.
+Hands are always hard for her. I have heard her say so a thousand times. This time she does not complain. She draws slowly. The long fingers. The knuckles.
 
 And on the back of the right one, between the thumb and the index finger, a small half-moon.
 
@@ -6452,17 +6452,17 @@ She draws the scar from the wire too. I lost that one on the gallery, when she g
 
 I have never been so glad of a wound.
 
-What she has seen, she gives back to me. What she didn't see is gone. And what I live from now on will be mine.
+What she has seen, she gives back to me. What she did not see is gone. And what I live from now on will be mine.
 
 ---
 
-The man in the rain jacket doesn't move the whole time. He kneels on the other side of the blanket, his hands on his knees, watching me come back.
+The man in the rain jacket does not move the whole time. He kneels on the other side of the blanket, his hands on his knees, watching me come back.
 
 I see his face when he sees my whole face. When the fog leaves my shoulders, my chest, my legs. When he stops seeing the tiles through me.
 
-He doesn't say anything.
+He does not say anything.
 
-He doesn't leave, like the other one.
+He does not leave, like the other one.
 
 He just runs his hand over his face, from forehead to chin, to wipe off the water.
 
@@ -6474,17 +6474,17 @@ I breathe.
 
 That is the first thing. An enormous gulp of air that hurts all through my chest, that tastes of salt and stove smoke and her.
 
-I cough. Seawater comes out of my mouth. I roll onto my side. I prop myself up on my hands.
+I cough. Seawater comes out of my mouth. I roll onto my side. I lift myself on my hands.
 
 I have hands.
 
-Ada lets go of the carpenter's pencil. She stays on her knees, looking at me, her hands open on her thighs, not touching me. Waiting.
+Ada drops the carpenter's pencil. She stays on her knees, looking at me, her hands open on her thighs, not touching me. Waiting.
 
 The way I waited for her in the tower. Asking me for permission with her eyes.
 
 I take her face in both hands. The one with the mark and the other one.
 
-I don't know what I want to say to her. Many things. That I was afraid in the sea. That she went into the water for me with a sketchbook against her chest, in a heavy swell, the way I went in for her the day of the rocks. That the other one watched me come apart and left when she told him to, and that I am glad. That I love her. That I think I love her with a part that isn't on any paper.
+I do not know what I want to say to her. Many things. That I was afraid in the sea. That she went into the water for me with a sketchbook against her chest, in a heavy swell, the way I went in for her the day of the rocks. That the other one watched me come apart and left when she told him to, and that I am glad. That I love her. That I think I love her with a part that is not on any paper.
 
 Something else comes out.
 
@@ -6492,11 +6492,11 @@ Something else comes out.
 
 She looks at me. Her mouth open. Her eyes full.
 
-And she bursts out laughing. The laugh from the drawing. The one with the big nose and one eye higher than the other. The one I did of her on the gallery.
+And she begins to laugh. The laugh from the drawing. The one with the big nose and one eye higher than the other. The one I did of her on the gallery.
 
 'I drew you the way you are,' she says.
 
-'I know,' I say. 'That's why.'
+'I know,' I say. 'That is why.'
 
 And we both laugh, on the kitchen floor, soaked, shaking, while the wind beats against the shutter I fixed and the man in the orange rain jacket gets up, picks up his torch and goes towards the door without making a sound.
 
@@ -6508,11 +6508,11 @@ And he nods. Once. The way you greet another man in the harbour who has also gon
 
 Then he leaves.
 
-Ada pushes the wet hair off my forehead. The cowlick. It springs back up.
+Ada pushes the wet hair off my forehead. The cowlick. It stands up again.
 
 'I have to give you a name,' she says.
 
-She doesn't ask me. She tells me.
+She does not ask me. She tells me.
 
 And I, who have spent my whole life waiting, realise that I have also spent my whole life waiting for that.
 
@@ -6527,6 +6527,8 @@ Nine days in which Klaus slept in my uncle's room, since my uncle was away at se
 He didn't understand anything. He wrote everything down.
 
 *Krivvens* with a k. *Hamesickness* with an umlaut. *Guid day*, which he said *gidday*, all one word. The men laughed at him. He laughed with them, red in the face, and kept writing.
+
+At school they had taken the tawse to us for talking like that. Proper English, the master said, or nothing. It took a German with an oilcloth notebook to show me our words were worth writing down.
 
 On the tenth day, the engine of my father's boat died in the middle of Hoy Sound.
 
@@ -6598,7 +6600,7 @@ I've prepared a speech. I rehearsed it at four in the morning in front of the st
 
 None of it comes out.
 
-'There's a mathematical figure,' I say. 'A fractal. It's called the Julia set. It depends on a number. You change that number a tiny bit, one little digit, and you get a completely different figure. Like the weather models. You can spend your whole life drawing it and it always surprises you.'
+'There's a mathematical figure,' I say. 'A fractal. It's called the Julia set. You get it by iterating: the same small sum, over and over. It depends on a number. You change that number a tiny bit, one little digit, and you get a completely different figure. Like the weather models. You can spend your whole life drawing it and it always surprises you.'
 
 He's listening with his brow slightly furrowed. The way he listens to the clouds.
 
@@ -6612,7 +6614,7 @@ He goes very still.
 
 And then I say what I haven't rehearsed. What comes out of a place I didn't know I had, the same place *you're not real* came out of, but from the other side.
 
-'I'm not putting it on you. I'm giving it to you. The names you put on things are so they won't go away. This one is yours, so you can take it with you wherever you want to go.'
+'I'm not pinning it on you. I'm giving it to you. The names you pin on things are there so they can't leave. This one is yours, so you can take it with you wherever you want to go.'
 
 He doesn't say anything.
 
@@ -6900,7 +6902,7 @@ He'd gone five years unable to stop looking at me. He wasn't going to start that
 
 My name is Julian.
 
-I have said it eleven times since this morning. I counted them. To the dog. To the bathroom mirror. To a gull on the gallery railing, which didn't flinch. To Magnus. To Ada's grandmother, at the door of her house, with the smell of the pie coming out from behind her like a welcome.
+I have said it eleven times since this morning. I counted them. To the dog. To the bathroom mirror. To a gull on the gallery railing, which did not move. To Magnus. To Ada's grandmother, at the door of her house, with the smell of the pie coming out from behind her like a welcome.
 
 Gran looks me up and down. The beard. The shadows under my eyes. The half-moon on my hand.
 
@@ -6918,27 +6920,27 @@ She cuts the pie with a knife that is older than me. Much older. She gives me th
 
 'Eat,' she says. '*Thoo're ower thin*.'
 
-I don't know what *ower* is. I know from the way she looks at me. The same way Ada looked at me at the beginning, when she gave me lentils: like something that has to be held down to the earth with food.
+I do not know what *ower* is. I know from the way she looks at me. The same way Ada looked at me at the beginning, when she gave me lentils: like something that has to be held down to the earth with food.
 
 I eat.
 
-It is tuna, with pepper and onion, and the pastry falls apart. I burn my tongue. I don't mind. It is the first time I have eaten something made by someone who isn't Ada. The first time someone has put a plate in front of me without knowing where I come from.
+It is tuna, with pepper and onion, and the pastry falls apart. I burn my tongue. I do not mind. It is the first time I have eaten something made by someone who is not Ada. The first time someone has put a plate in front of me without knowing where I come from.
 
 Or knowing it and putting it in front of me anyway.
 
-Gran doesn't ask anything.
+Gran does not ask anything.
 
 That is what impresses me most. Not where I am from. Not what I do. Not how I met her granddaughter. She eats without hurrying, fills my glass with wine twice, and over coffee, while Ada does the washing-up, she leans towards me across the oilcloth and says, very low:
 
 '*Dae thoo sing?*'
 
-I don't understand.
+I do not understand.
 
 'Do you sing?' she repeats, in plain English.
 
 I look at Ada. Ada has gone still at the sink, a plate in her hand, her back to us.
 
-'I don't know,' I say. 'I've never tried.'
+'I do not know,' I say. 'I have never tried.'
 
 Gran nods. As if that were a good answer. The best one possible.
 
@@ -6946,7 +6948,7 @@ Gran nods. As if that were a good answer. The best one possible.
 
 ---
 
-We walk back to the lighthouse, with the evening coming down.
+We walk back to the lighthouse, with the evening falling.
 
 Ada is quiet. I take her hand. She squeezes it.
 
@@ -6966,19 +6968,19 @@ She laughs. For the first time in a week. With her head thrown back.
 
 That night I wait for her to fall asleep.
 
-It doesn't take long. She hasn't really slept in days. She falls asleep in the bed upstairs with the red pencil still in her hand and the page of *The Boy Who Stays* face down on the bedside table, with me drawn on the back.
+It does not take long. She has not really slept in days. She falls asleep in the bed upstairs with the red pencil still in her hand and the page of *The Boy Who Stays* face down on the bedside table, with me drawn on the back.
 
 I take the pencil from her. I pull the duvet up over her. I go downstairs.
 
-The iron trunk is at the top, in the lantern, under the lamp. The same one where Ada locked the sketchbook away with a padlock. It hasn't got a padlock any more. Inside there are things belonging to the keepers who lived here before her. A cap. A logbook with its covers swollen from the damp. And two manuals, in old-fashioned English, with pen-and-ink drawings: *Instructions for the Lighting Service* and *On the Auxiliary Generator Set*.
+The iron trunk is at the top, in the lantern, under the lamp. The same one where Ada locked the sketchbook away with a padlock. It has no padlock any more. Inside there are things belonging to the keepers who lived here before her. A cap. A logbook with its covers swollen from the damp. And two manuals, in old-fashioned English, with pen-and-ink drawings: *Instructions for the Lighting Service* and *On the Auxiliary Generator Set*.
 
-I have read them all the way through. Three times. On the nights she slept and I didn't.
+I have read them to the end. Three times. On the nights she slept and I did not.
 
 I think even then I knew that one day I would want to do this.
 
 ---
 
-The auxiliary generator for the lamp is in the shed out the back. Not the small one for the house, the one Ada turns on every time the power goes off: the other one, the big one, the one nobody has started since eighty-seven. Rusted. With a layer of dust and nests.
+The auxiliary generator for the lamp is in the shed behind the house. Not the small one for the house, the one Ada turns on every time the power fails: the other one, the big one, the one nobody has started since eighty-seven. Rusted. With a layer of dust and nests.
 
 I clean it. I change the oil with a can that is on the shelf and smells old but works. I bleed the diesel. I check the wires one by one, with the torch in my mouth, the way the drawing on page forty shows.
 
@@ -7020,11 +7022,11 @@ Once every twelve seconds.
 
 I watch it with my mouth open.
 
-It is the first thing I have done in the world that nobody drew me doing.
+It is the first thing I have done in the world that nobody drew.
 
 ---
 
-I don't hear her come up.
+I do not hear her come up.
 
 I notice because, in the glass of the lantern, I see something move behind me. I turn round.
 
@@ -7034,25 +7036,25 @@ She comes over to the railing. She watches the light turn.
 
 She has spent a month living in a dark lighthouse. She has spent her whole life living in the dark. I know because she has told me, in pieces, at night, by the light of the stove. I know what a cumulonimbus is and I know what a woman who has stopped singing is.
 
-'I lit it so you'd see it when you came back,' I say. 'But you came back sooner.'
+'I lit it so you would see it when you came back,' I say. 'But you came back sooner.'
 
 'Came back from where?'
 
-'I don't know.' I shrug. 'From wherever you were.'
+'I do not know.' I shrug. 'From wherever you were.'
 
-A sound escapes her. I don't know if it is laughing or crying. Both.
+A sound comes out of her. I do not know if it is laughing or crying. Both.
 
 The beam passes over us. It lights up our whole faces for a second. It goes away again.
 
 'Thank you,' she says.
 
-'It's not for you.' I push her hair out of her face. 'Well, yes. But not only.'
+'It is not for you.' I push her hair out of her face. 'Well, yes. But not only.'
 
 'Who else is it for?'
 
 I look down. At the town. At a small window by the harbour, the only one still lit at that hour, above the net house.
 
-'For anyone who's looking.'
+'For anyone who is looking.'
 
 ---
 
@@ -7064,9 +7066,9 @@ We sit on the iron floor, back to back. The generator purrs below. The sea breat
 
 'No.' She shakes her head against the back of my neck. 'I want to learn it on my own. Like you. With the wet manual and black hands. I want it to start for me the fourth time.'
 
-I don't know how she knows about the fourth time. I haven't told her.
+I do not know how she knows about the fourth time. I have not told her.
 
-I don't ask. The same way she didn't ask Magnus's name. There are things you don't ask because asking would be starting to want to know them, and others you don't ask because you already know them.
+I do not ask. The same way she did not ask Magnus's name. There are things you do not ask because asking would be starting to want to know them, and others you do not ask because you already know them.
 
 'OK,' I say.
 
@@ -7078,13 +7080,13 @@ I don't ask. The same way she didn't ask Magnus's name. There are things you don
 
 I nod.
 
-We stay like that a long time. Until it starts getting light behind the hill. Until she falls asleep again, against me, with her mouth a little open.
+We stay like that a long time. Until it begins to be light behind the hill. Until she falls asleep again, against me, with her mouth a little open.
 
 She snores once. Softly.
 
 ---
 
-Before switching it off, I get up to look at the sea one last time from up here.
+Before I switch it off, I stand up to look at the sea one last time from up here.
 
 In the glass of the lantern, with the dawn behind it, I can see the reflection of the tower, the railing, Ada asleep on the floor wrapped in my jumper.
 
@@ -7106,7 +7108,7 @@ I switch off the circuit. The lens stops. The light goes out.
 
 I pick Ada up in my arms and carry her down the hundred and twelve steps, one by one, without waking her.
 
-I don't look at the glass again.
+I do not look at the glass again.
 
 My name is Julian. That is the twelfth time I have said it. Today I said it only to myself.
 
@@ -7189,6 +7191,8 @@ And on the breakwater, facing the sea, with no one to hear me, after six years, 
 *smirr* — fine, drifting rain.
 
 *thoo* — you (familiar). *Dae thoo sing?*: "Do you sing?"
+
+*tawse* — the leather strap Scottish schoolteachers used on pupils' hands.
 
 *the toon* — the town; in Orkney, Stromness or Kirkwall.
 
