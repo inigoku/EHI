@@ -8,7 +8,21 @@ lang: es-ES
 # Primer acto · El faro
 ## 1 · Ada
 
-Me desperté antes que la alarma, como casi siempre desde que vivo sola.
+Esa noche soñé con él.
+
+No con el niño de la roca. Con el hombre. Llamaba tres veces a una puerta que era la mía y no lo era, y cuando abría estaba allí, en el umbral, chorreando, con el pelo oscuro pegado a la frente y el mar entero detrás. No decía nada. Me miraba como se mira algo que se ha buscado mucho tiempo.
+
+Entraba sin que yo se lo pidiera. Dejaba un charco en las baldosas. Me apartaba el pelo de la cara con un dedo, y yo notaba el frío del agua en su mano y, debajo del frío, el calor.
+
+Me besaba despacio. Sabía a sal. Sus manos, grandes, de dedos largos, me encontraban la nuca, luego la espalda, luego la piel de la cintura por debajo de la camiseta, y se quedaban allí, abiertas, como si mi cuerpo fuera un sitio al que llevaba años intentando volver. Yo le quitaba la camisa mojada. Tenía un lunar debajo del hombro izquierdo. Me acuerdo de pensar, dentro del sueño, que ese lunar yo no se lo había dibujado nunca.
+
+Me llevaba contra la pared y yo me abría a él como se abre una ventana en un temporal, de una vez, sin poder cerrarla después. Le decía que sí antes de que preguntara. Él decía algo contra mi cuello. Mi nombre, creo. Con una voz que yo no le había oído nunca, porque nunca se la había dibujado.
+
+Y entonces, en lo más hondo, cuando ya no había pared ni puerta ni frío, se apartaba un poco, me miraba muy serio y decía:
+
+—Ya voy.
+
+Me desperté antes que la alarma, como casi siempre desde que vivo sola. Esta vez, con el corazón golpeándome las costillas y las sábanas enredadas en las piernas.
 
 En Madrid nunca me pasaba. Allí dormía hasta que alguien me despertaba, y ese alguien decidía también la hora. Aquí el cuerpo se despierta solo, a las seis y media, como si tuviera prisa por comprobar que el mar sigue en su sitio.
 
@@ -1278,7 +1292,7 @@ Miré.
 
 La camisa mojada se le pegaba a la espalda como una segunda piel, y cuando se la quitó por encima de la cabeza vi el movimiento de los músculos bajo la piel, los omóplatos, la curva de la columna. La piel brillaba a la luz de las velas, erizada de frío. Tenía un lunar pequeño debajo del hombro izquierdo.
 
-Yo no había dibujado ese lunar.
+Yo no había dibujado ese lunar. Lo había soñado.
 
 O sí. Quizá sí. Quizá en algún margen, en algún cuaderno de hace diez años, un punto de lápiz que se me escapó. No lo sabía. No lo sé todavía.
 

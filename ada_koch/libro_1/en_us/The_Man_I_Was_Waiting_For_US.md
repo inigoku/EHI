@@ -8,7 +8,21 @@ lang: en-US
 # Act One · The Lighthouse
 ## 1 · Ada
 
-I woke before the alarm, the way I almost always do since I started living alone.
+That night I dreamed of him.
+
+Not the boy on the rock. The man. He knocked three times at a door that was mine and wasn't, and when I opened it he was there, on the threshold, dripping, his dark hair plastered to his forehead and the whole sea behind him. He didn't say anything. He looked at me the way you look at something you've been searching for a long time.
+
+He came in without my asking. He left a puddle on the tiles. He brushed my hair off my face with one finger, and I felt the cold of the water on his hand and, under the cold, the heat.
+
+He kissed me, taking his time. He tasted of salt. His hands, big, long-fingered, found the nape of my neck, then my back, then the skin of my waist under my T-shirt, and stayed there, spread open, as if my body were a place he had been trying to get back to for years. I took off his wet shirt. He had a mole below his left shoulder. I remember thinking, inside the dream, that I had never drawn that mole on him.
+
+He backed me against the wall and I opened to him the way a window opens in a storm, all at once, with no way to close it afterward. I told him yes before he asked. He said something against my neck. My name, I think. In a voice I had never heard from him, because I had never drawn it for him.
+
+And then, at the deepest point, when there was no wall or door or cold left, he drew back a little, looked at me very seriously, and said:
+
+"I'm on my way."
+
+I woke before the alarm, the way I almost always do since I started living alone. This time with my heart pounding against my ribs and the sheets tangled around my legs.
 
 In Madrid it never happened. There I slept until someone woke me, and that someone decided the time, too. Here my body wakes on its own, at six thirty, as if it were in a hurry to check that the sea is still where it belongs.
 
@@ -512,13 +526,7 @@ Yes, Abuela. I am. Twenty-three years later, I still am.
 
 ---
 
-I spent the afternoon getting the lighthouse ready for what was coming.
-
-It's a routine I've learned the hard way, winter by winter, even though I've only had one. Check the shutters one by one and close the ones facing west. Haul firewood up from the shed and stack it by the stove, all the way to the ceiling. Fill the tank of the generator, which is old and temperamental and coughs like a smoker before it starts. Bring in the porch chair, the pot of rosemary, the clothesline.
-
-I worked with the wind against me, my hair a mess, my cheeks burning with cold and my hands full of splinters. I liked it. There's something about getting a house ready for a storm that makes you feel the house is truly yours. That you're protecting it. That it's protecting you.
-
-Before it got dark I went down to the cove one last time.
+I spent the afternoon battening down the lighthouse against what was coming. Before it got dark I went down to the cove one last time.
 
 Not to swim. The sea was already too rough, with waves reaching the rock where I leave my towel and pulling back, dragging stones with a sound like teeth. I went down only to look at it. To say goodbye to it calmly, the way you say goodbye to someone before a fight you know is going to happen.
 
@@ -540,7 +548,7 @@ I told myself that several times while I climbed back up to the lighthouse, with
 
 I didn't turn around to look at it. I was afraid it would still look the same.
 
-By the time I finished, it was night. I took a shower, put on my flannel pajamas and my thick socks, and heated up a bowl of my grandmother's broth. It tasted of turnip greens, of potato, of Sundays when I was little. I drank it standing by the window, both hands around the bowl, looking at the dark.
+By the time I came back up, it was night. I took a shower, put on my flannel pajamas and my thick socks, and heated up a bowl of my grandmother's broth. It tasted of turnip greens, of potato, of Sundays when I was little. I drank it standing by the window, both hands around the bowl, looking at the dark.
 
 You couldn't see anything. You could only hear it. The sea had changed its voice. It wasn't breathing anymore. It was roaring.
 
@@ -548,7 +556,7 @@ At nine Lucía video-called me, the way she'd promised the day before. She appea
 
 "Let's see this lighthouse," she said. "Show me. I want to see if it's still standing."
 
-I gave her a tour with my phone. The stove, the firewood stacked to the ceiling, my grandmother's candles lined up on the table like soldiers, the black window.
+I gave her a tour with my phone. The stove, the black window, the sea you couldn't see but could hear.
 
 "You look like a Brontë novel," she said. "All you need is a dark gentleman knocking on the door in the middle of the storm."
 
@@ -565,8 +573,6 @@ I laughed. I laughed a lot, more than the joke deserved, and Lucía looked at me
 "Well, that's a shame." She leaned back on the sofa and took a sip from her glass. "When you look so pretty with your hair long."
 
 I went quiet for a second. Nobody had told me I looked pretty in a long time. Not even me.
-
-We talked a while longer. About work, about Marcos and his plaid shirt, about her son's school, about a show I absolutely had to watch. Small things, warm things, the kind that remind you there's a normal life somewhere, waiting for you.
 
 Before hanging up, she got serious.
 
@@ -634,7 +640,7 @@ It took me hours. The wind was battering the house and I didn't hear it.
 
 I drew the collar of his shirt, a little open. The line of his collarbone, just visible underneath. I drew his shoulders, broad but not too broad, the kind you imagine resting your head on. I drew his hands, which are always hard for me, which never come out right. That night they came out right. Big, long-fingered, with prominent knuckles. The hands of someone who knows how to do things.
 
-I looked at them for a long time. I wondered what they would feel like on my skin. Whether they'd be rough or gentle. Whether they'd be slow.
+I looked at them for a long time. I wondered what they would feel like on my skin. Whether they'd be rough or gentle. Whether they'd be slow. I imagined one at the nape of my neck, under my hair. The other moving down my back, vertebra by vertebra, unhurried, until it came to rest in the curve of my waist, right where my pajamas begin.
 
 I felt my cheeks burning and laughed to myself, softly, in my kitchen, at three in the morning. How silly. A grown woman blushing over a pair of graphite hands.
 
@@ -776,10 +782,6 @@ I felt strangely light. As if someone had closed a door that had been open for d
 
 ---
 
-I spent the morning doing small things with my hands.
-
-I filled jugs with water in case the pump failed. I set my grandmother's candles on the table, next to the box of matches. I checked the shutters again, one by one, with the wind pinning me against the wall every time I stuck my head out the door. The rain soaked me in ten seconds.
-
 At noon I climbed the tower.
 
 It's a hundred and twelve spiral steps, stone worn down in the middle by a hundred years of lighthouse keepers going up and down. I climbed them with my hand on the cold wall. The higher I went, the louder the noise grew. The wind whistled through the cracks in the lantern, at the very top, like an out-of-tune organ.
@@ -857,8 +859,6 @@ But I left it behind my ear anyway.
 ---
 
 I don't know how much time went by. An hour. Two. The kitchen clock had stopped when the power went, its hands stuck at two minutes past seven, and I didn't feel like looking at my phone.
-
-The candles burned down. The stove did too. I didn't get up to add wood.
 
 I thought of my grandmother, alone in her house with the blue windows. I pictured her sitting in her kitchen with the battery radio, praying softly, or not praying, or singing without realizing it the way she used to sing in the factory in Stuttgart.
 
@@ -1292,7 +1292,7 @@ I looked.
 
 The wet shirt clung to his back like a second skin, and when he pulled it off over his head I saw the muscles moving under his skin, his shoulder blades, the curve of his spine. His skin gleamed in the candlelight, goose-pimpled with cold. He had a small mole below his left shoulder.
 
-I hadn't drawn that mole.
+I hadn't drawn that mole. I had dreamed it.
 
 Or I had. Maybe I had. Maybe in some margin, in some sketchbook from ten years ago, a pencil dot that slipped out of me. I didn't know. I still don't.
 
@@ -3901,7 +3901,17 @@ There's no other way to say it. Four days of kisses in the kitchen with the coff
 
 He learned to swim. Badly. Like a dog. But he learned.
 
-We slept apart. Him on the sofa, me in my room with the door open. Neither of us suggested it. Neither of us moved. At night I could hear him breathing from my bed, and I knew he could hear me.
+We slept apart. Him on the sofa, me in my room with the door open. Neither of us suggested it.
+
+On the third night we almost didn't stop. It was on the sofa, with the stove lit and the plaid blanket sliding to the floor. He kissed me the way he did everything, learning, and then he wasn't learning anything anymore: he knew. I slid my hands under his sweater and he caught his breath, as if I were the cold. He laid me back on the cushions without taking his eyes off me, and his hand found the skin at my waist and stayed there, spread open, trembling a little, asking my permission without words. I arched my back against it. He brought his mouth down to my neck and said my name there, against my pulse.
+
+I was the one who stopped. I told myself I didn't know why. I did know: I was afraid that if I gave myself completely, the pencil would stop being mine.
+
+He drew back without a word of complaint. He sat on the floor, his back against the sofa and his breathing ragged, and reached up over his shoulder to take my hand.
+
+"Whenever you want," he said.
+
+That night I didn't leave my bed either. I could hear him breathing from there, and I knew he could hear me.
 
 I didn't draw anything in those four days. Not a single cloud. I didn't need to.
 
@@ -5164,7 +5174,19 @@ It wasn't mine. It never had been.
 
 He led me to my room without letting go of my mouth. We fell onto the bed any which way, laughing, bumping into each other, half-dressed. And then we stopped laughing.
 
-It was slow. It was clumsy. It was the first time for him and not for me, and yet I was the one trembling. He touched me the way he had always looked at me: learning. As if my skin were a weather map and he had to read all of it. Every time I held my breath, he stopped, and looked at me, and waited. And then he went on.
+I undid his pants with clumsy fingers, still sticky with salt. He took mine off without hurrying, kneeling at the foot of the bed, the way you take the cover off something that might break, and stayed there looking at me in the blue light coming through the window. He didn't say anything. Nobody had ever looked at me like that: as if I were the one who had just appeared in the world.
+
+It was slow. It was clumsy. It was the first time for him and not for me, and yet I was the one trembling. He touched me the way he had always looked at me: learning. As if my skin were a weather map and he had to read all of it. His mouth in the hollow of my collarbone. The new hand moving down my belly, unhurried, asking. Every time I held my breath, he stopped, and looked at me, and waited. And then he went on, a little lower, a little deeper, until I stopped holding anything in.
+
+When he slid into me, we both went still. I felt his heart against my chest, racing, just like mine. He opened his eyes in the dark and looked for me, and I held his face between my hands so he wouldn't have to look.
+
+"Ada," he said. Just that. In the voice I had given back to him that same afternoon.
+
+We moved together, not knowing at first, then knowing. I dug my fingers into his back, into the mole I hadn't drawn on him. He learned fast what made me close my eyes, and did it again, and again, until the sea outside and the sea inside were the same sea and my voice broke against his shoulder.
+
+He followed, with a long shudder, saying my name as if it were the first word he had ever learned.
+
+Afterward we lay tangled together, sweating in the cold, listening to the tide.
 
 At some point, in the dark, I took his hand. The new one. I ran my lips over the clean knuckles.
 
