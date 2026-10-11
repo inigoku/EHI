@@ -2,9 +2,9 @@
 
 > **Superseded in part by `TRANSPOSITION.md`** (no trace of Spain or Galicia: Maisie from Stromness, Glasgow 1966–71, Gran, Magnus, Mune, Alistair Laing). Where they conflict, TRANSPOSITION.md wins.
 
-*The Man I Drew* (Book I of *The Sketchbook of Ada Koch*), British English, relocated to Orkney.
-You are adapting the existing US English translation (`en/The_Man_I_Drew.md`). The Spanish original
-(`El_hombre_que_dibuje.md`) is the authority on meaning; check it whenever the English seems off.
+*The Man Who Waited* (Book I of *The Sketchbook of Ada Koch*), British English, relocated to Orkney.
+You are adapting the existing US English translation (`en/The_Man_Who_Waited.md`). The Spanish original
+(`El_hombre_que_esperaba.md`) is the authority on meaning; check it whenever the English seems off.
 
 The author's brief, in four lines: British English throughout, no exceptions. Spanish, German and Portuguese stay untranslated
 and in italics; Galician speech and names are rendered in Orcadian Scots (see §6, §8). Orkney is a real place, not a backdrop. The voices keep their soul;

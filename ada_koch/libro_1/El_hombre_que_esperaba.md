@@ -1,5 +1,5 @@
 ---
-title: "El hombre que dibujé"
+title: "El hombre que esperaba"
 subtitle: "El Cuaderno de Ada Koch · Libro I"
 author: "Íñigo Barrera Barceló"
 lang: es-ES

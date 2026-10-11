@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""EPUB de «El hombre que dibujé» con la maqueta de la edición KDP de El Horizonte Interior.
+"""EPUB de «El hombre que esperaba» con la maqueta de la edición KDP de El Horizonte Interior.
 
 Misma hoja de estilo (Lora, colores, márgenes), misma portada, misma estructura de
 ficheros (title / capítulos / colofón) y mismo índice. Las fuentes se toman del
@@ -17,11 +17,11 @@ from ebooklib import epub
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
-SRC_MD = os.path.join(HERE, "..", "El_hombre_que_dibuje.md")
+SRC_MD = os.path.join(HERE, "..", "El_hombre_que_esperaba.md")
 KDP_EPUB = os.path.join(ROOT, "edicion_kdp", "El_Horizonte_Interior.epub")
-OUT = os.path.join(HERE, "..", "El_hombre_que_dibuje.epub")
+OUT = os.path.join(HERE, "..", "El_hombre_que_esperaba.epub")
 
-TITLE = "El hombre que dibujé"
+TITLE = "El hombre que esperaba"
 SERIES = "El Cuaderno de Ada Koch · Libro I"
 AUTHOR = "Íñigo Barrera Barceló"
 AUTHOR_SORT = "Barrera Barceló, Íñigo"

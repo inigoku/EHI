@@ -1,5 +1,5 @@
 ---
-title: "The Man I Drew"
+title: "The Man Who Waited"
 subtitle: "The Sketchbook of Ada Koch · Book I"
 author: "Íñigo Barrera Barceló"
 lang: en-US
