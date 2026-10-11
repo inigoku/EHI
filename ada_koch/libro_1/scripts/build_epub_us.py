@@ -5,7 +5,7 @@ Misma hoja de estilo (Lora, colores, márgenes), misma portada, misma estructura
 ficheros (title / capítulos / colofón) y mismo índice. Las fuentes se toman del
 EPUB de edicion_kdp para que ambas ediciones sean idénticas tipográficamente.
 
-Uso:  python3 ada_koch/libro_1/scripts/build_epub_en.py
+Uso:  python3 ada_koch/libro_1/scripts/build_epub_us.py
 """
 import os
 import re
@@ -17,9 +17,9 @@ from ebooklib import epub
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
-SRC_MD = os.path.join(HERE, "..", "en", "The_Man_I_Drew.md")
+SRC_MD = os.path.join(HERE, "..", "en_us", "The_Man_I_Drew_US.md")
 KDP_EPUB = os.path.join(ROOT, "edicion_kdp", "El_Horizonte_Interior.epub")
-OUT = os.path.join(HERE, "..", "en", "The_Man_I_Drew.epub")
+OUT = os.path.join(HERE, "..", "en_us", "The_Man_I_Drew_US.epub")
 
 TITLE = "The Man I Drew"
 SERIES = "The Sketchbook of Ada Koch · Book I"

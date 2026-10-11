@@ -1,4 +1,4 @@
-# For Book II — rest of chapter 30 (Orkney edition)
+# For Book II — rest of chapter 30 (GB, Orkney)
 
 ## Julian
 

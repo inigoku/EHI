@@ -1,4 +1,4 @@
-# For Book III — the lighthouse lit (Orkney edition)
+# For Book III — the lighthouse lit (GB, Orkney)
 
 That night I wait for her to fall asleep.
 

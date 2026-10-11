@@ -1,4 +1,4 @@
-# For Book III — the lighthouse lit (US edition)
+# For Book III — the lighthouse lit (US)
 
 That night I waited for her to fall asleep.
 

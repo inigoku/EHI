@@ -1,4 +1,4 @@
-# For Book II — rest of chapter 30 (US edition)
+# For Book II — rest of chapter 30 (US)
 
 ## Julian
 
