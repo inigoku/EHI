@@ -119,7 +119,9 @@ with zipfile.ZipFile(KDP_EPUB) as z:
                                     media_type="application/x-font-ttf",
                                     content=z.read(f"EPUB/fonts/{fname}")))
 
-spine = []
+with open(os.path.join(HERE, "..", "cover", "cover_en.jpg"), "rb") as fh:
+    book.set_cover("images/cover.jpg", fh.read())
+spine = [("cover", "yes")]
 
 title_html = epub.EpubHtml(title="Title Page", file_name="text/title.xhtml", lang="en")
 title_html.set_content(
@@ -202,11 +204,19 @@ def postprocess(path):
     # guía EPUB 2 (Kindle la usa para «Ir al principio»)
     opf = opf.replace("</package>",
                       '  <guide>\n'
+                      '    <reference type=\"cover\" title=\"Cubierta\" href=\"cover.xhtml\"/>\n'
                       '    <reference type="title-page" title="Title Page" href="text/title.xhtml"/>\n'
                       '    <reference type="toc" title="Contents" href="nav.xhtml"/>\n'
                       '    <reference type="text" title="Start" href="text/chap_01.xhtml"/>\n'
                       '  </guide>\n</package>')
+    opf = opf.replace('<itemref idref="cover" linear="no"/>', '<itemref idref="cover"/>')
     files["EPUB/content.opf"] = opf.encode("utf-8")
+    files["EPUB/cover.xhtml"] = (
+        "<?xml version='1.0' encoding='utf-8'?>\n<!DOCTYPE html>\n"
+        '<html xmlns="http://www.w3.org/1999/xhtml" xmlns:epub="http://www.idpf.org/2007/ops" lang="en" xml:lang="en">'
+        '<head><title>Cover</title><style>html,body{margin:0;padding:0;height:100%;text-align:center}img{max-width:100%;max-height:100%}</style></head>'
+        '<body epub:type="cover"><img src="images/cover.jpg" alt="Cover: ' + TITLE + ', ' + AUTHOR + '"/></body></html>'
+    ).encode("utf-8")
 
     ncx = files["EPUB/toc.ncx"].decode("utf-8")
     ncx = ncx.replace('content="0" name="dtb:depth"', 'content="2" name="dtb:depth"')
