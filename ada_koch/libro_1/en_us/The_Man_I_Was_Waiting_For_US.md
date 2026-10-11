@@ -16,7 +16,7 @@ I lay still for a moment under the comforter, listening. The wind was still gent
 
 I put my feet on the floor and the cold of the tiles climbed up my legs. I love that cold. It reminds me that the house is mine, that nobody has turned the heat on for me or told me to put on some slippers.
 
-I picked up my phone to check the buoy. Thirteen degrees.
+I picked up my phone to check the buoy. Sixteen degrees.
 
 I smiled to myself. My grandmother would say I'm tola. That swimming in October is for madwomen and Germans. Since I'm a quarter German, a quarter of it is forgiven.
 
@@ -522,11 +522,11 @@ Before it got dark I went down to the cove one last time.
 
 Not to swim. The sea was already too rough, with waves reaching the rock where I leave my towel and pulling back, dragging stones with a sound like teeth. I went down only to look at it. To say goodbye to it calmly, the way you say goodbye to someone before a fight you know is going to happen.
 
-I sat at the top of the path, on a flat stone, hugging my knees to my chest. The wind blew my hair into my face and made my eyes water. Below, *a Vella* took the blows of the waves, black and gleaming, unmoved, the way she's been taking them since before the village existed.
+I sat at the top of the path, on a flat stone, hugging my knees to my chest. The wind blew my hair into my face and made my eyes water. Below, *A Vella* took the blows of the waves, black and gleaming, unmoved, the way she's been taking them since before the village existed.
 
 And then I saw it. The other one.
 
-A small rock, to the left of *a Vella*, half hidden in the foam. Round on top, flat, with a kind of step on one side, like a seat. I'd been swimming there for a year and had never noticed it.
+A small rock, to the left of *A Vella*, half hidden in the foam. Round on top, flat, with a kind of step on one side, like a seat. I'd been swimming there for a year and had never noticed it.
 
 I froze.
 
@@ -1910,7 +1910,7 @@ I went over and stood beside him. So close that our arms brushed through the woo
 
 "Is it cold?"
 
-"Very. Thirteen degrees."
+"Very. Fifteen degrees."
 
 "And you like it?"
 
@@ -2523,7 +2523,7 @@ And I went into the water alone.
 
 The cold took my breath away, as always. This time I was grateful for it.
 
-I swam toward *a Vella* with furious strokes, splashing more than I needed to. I was thinking unfair things. That he was a coward. That I had made him, that I knew what he would like. Who did he think he was, telling me no.
+I swam toward *A Vella* with furious strokes, splashing more than I needed to. I was thinking unfair things. That he was a coward. That I had made him, that I knew what he would like. Who did he think he was, telling me no.
 
 Halfway there I stopped and floated, panting.
 
@@ -3257,7 +3257,7 @@ Underneath, crossed out with a line, was written *Die Schule*.
 
 I went to the café that same afternoon. He was sitting at our table, the one by the window, with two cups in front of him.
 
-He never corrected me again. Not in fifty-three years.
+He never corrected me again. Not in fifty-two years.
 
 I, on the other hand, learned perfect German. On my own. To spite him.
 
@@ -4303,7 +4303,7 @@ The beep at the end of the message.
 
 I stayed sitting on the edge of the tub with the phone in my hand.
 
-The twelfth of November. Three weeks away.
+The twelfth of November. Six days away.
 
 A Coruña is an hour and a half from the lighthouse by car.
 
@@ -4423,7 +4423,7 @@ I went into the water. The cold bit me. I waited for the three seconds.
 
 They didn't come. The cold came, but the calm didn't. My head was still full. *You're not real.* *I miss you.* *Did you draw him.* *Then he's free.*
 
-I swam harder. Farther. Toward *a Vella*.
+I swam harder. Farther. Toward *A Vella*.
 
 Halfway there I felt the water pulling.
 
@@ -4439,7 +4439,7 @@ It got farther away.
 
 ---
 
-I don't know how long I swam. A minute. Five. My arms got tired. My legs went numb. The water was thirteen degrees, or twelve, and I had been in it too long.
+I don't know how long I swam. A minute. Five. My arms got tired. My legs went numb. The water was fifteen degrees, or fourteen, and I had been in it too long.
 
 I swallowed water. I coughed. I swallowed more.
 
@@ -5024,7 +5024,7 @@ I didn't understand.
 
 He nodded toward the page. His erased hand on the paper, a white hole with edges smudged with graphite. His mouth, a gray smear.
 
-Then he pointed at the pencil, which had fallen to the floor beside the eraser. Then he pointed at me.
+Then he pointed at the pencil, which had fallen to the floor by the trunk. Then he pointed at me.
 
 And he nodded.
 
@@ -5527,7 +5527,7 @@ That I was angry.
 
 ---
 
-I told her the next morning. In the kitchen. She was making coffee, with her back to me.
+The first morning I didn't tell her. She was happy, and so was I, and I didn't want to break it. I told her the morning after the dog. In the kitchen. She was making coffee, with her back to me.
 
 "I'm angry."
 
@@ -5989,13 +5989,13 @@ And the sketchbook fell out of my jacket.
 
 ---
 
-It fell on the floor between the three of us. Open. To a page from when she was sixteen. Me, in profile, with my lips parted, looking at something outside the paper.
+It fell on the floor between the three of us. Open. To my page. Tuesday's. All of me, facing out, looking at something outside the paper.
 
 He looked at it.
 
 He bent down. He picked it up before I did.
 
-He turned the pages. Slowly. Me at twenty. Me with the scar. Me sitting on the rock. Me. Me. Me.
+He turned the pages. Slowly. Me on the rock in the cove. Me from behind, looking at the sea. Me waiting. Me. Me. Me.
 
 He looked up. He looked at my face.
 
@@ -6053,7 +6053,7 @@ What Ada traces on the paper, I am. The nose, the eyes, the hands. If she draws 
 
 What I live is not on the paper. The coffee, the cold of the sea, the first time something hurt me. That she can't draw or erase. But if she redraws a whole part of me, it comes back the way it was on the paper, and what I lived stays outside. Like the scar from the wire.
 
-And if the paper gets wet, I get wet inside. If the paper tears, I tear.
+And if the paper gets wet, I get wet inside. If the paper tears, I tear. And I don't live in every sketchbook in the box: I live in that one, the one with Tuesday's page, where she finished me.
 
 I had known it for weeks. What I didn't know was that it felt like this.
 
@@ -6159,7 +6159,7 @@ The pages were flying toward the sea like white gulls, and every one of them was
 
 The path was a river. I fell at the first bend. I got up with my knees bleeding. I fell at the second. I didn't feel a thing. Up above, the wind was howling in the tower like an animal.
 
-A page went past me, plastered to the rock by the rain. I tore it free. A hand. His hand at twelve, holding the wooden sword. I tucked it into my bra, against my skin, without knowing why.
+A page went past me, plastered to the rock by the rain. I tore it free. A hand. His hand, on its own, one of the studies I used to do at night before he came. I tucked it into my bra, against my skin, without knowing why.
 
 Another, farther down, caught on a gorse bush. A cloud. Just a cloud. I left it.
 
@@ -6241,7 +6241,7 @@ We came up.
 
 And I saw the rock.
 
-His. The small one, to the left of *a Vella*, the round one, the one with the step. The boy's rock.
+His. The small one, to the left of *A Vella*, the round one, the one with the step. The boy's rock.
 
 It was five meters away.
 
@@ -6377,7 +6377,7 @@ This was the same. But all of me.
 
 All I had were my eyes. Not much. Just enough to see her kneeling beside me with the ruined sketchbook in her hands, her eyes searching the kitchen for something, desperate.
 
-"I don't have a pencil." She said it the way you say there's no air. "I dropped it in the tower. I dropped it down the stairs. I don't have..."
+"I don't have a pencil." She said it the way you say there's no air. "They're upstairs, in the tower. There isn't time. I don't have..."
 
 The man in the rain jacket was in the doorway. I saw him from the side, blurry, like an orange smudge.
 
@@ -6647,9 +6647,11 @@ He held out the bag.
 
 Inside there were pages. Loose pages, crumpled, soaked, stained with salt and seaweed. Seventeen. I counted them later. Pages from the sketchbook that the wind had torn out and the sea had left among the stones with the tide.
 
-A cloud. Another cloud. Him at twelve with the wooden sword. Him on the dock in Hamburg. My handwriting on the first page: *This sketchbook belongs to Ada Koch. If you find it, please give it back to me.*
+A cloud. Another cloud. Him on the rock in the cove. Him from behind, looking at the sea. My handwriting on the first page: *This sketchbook belongs to Ada Koch. If you find it, please give it back to me.*
 
 He had done it. He had found it and given it back to me.
+
+I looked through them for his face, and I thought what I still didn't dare ask out loud. Whether he was still bound to that ruined paper, or to the sheet from the blue folder where I had drawn him again, or to nothing at all now. That night nothing had hurt him. Nothing of him had been erased. I put it away for another day.
 
 I couldn't speak.
 
@@ -6675,7 +6677,7 @@ The jumper-cables man looked at his dog. Then he looked at Julian. For a long ti
 
 I don't know what he understood. He didn't tell me. I didn't ask him.
 
-Julian crouched down and scratched Lúa's belly. Then he stood up, looked the man in the eye, at the same height, and held out his hand again. Like at the door, three days before.
+Julian crouched down and scratched Lúa's belly. Then he stood up, looked the man in the eye, at the same height, and held out his hand again. Like at the door, five days before.
 
 But this time he said something more.
 

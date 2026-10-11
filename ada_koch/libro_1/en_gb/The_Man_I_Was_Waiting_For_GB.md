@@ -3259,7 +3259,7 @@ Underneath, crossed out with a line, was written *Die Schule*.
 
 I went to the cafe that same afternoon. He was sitting at our table, the one by the window, with two cups in front of him.
 
-He never corrected me again. Not in fifty-three years.
+He never corrected me again. Not in fifty-two years.
 
 I, on the other hand, learned perfect German. On my own. To spite him.
 
@@ -4303,7 +4303,7 @@ The beep at the end of the message.
 
 I stay sitting on the edge of the bath with the phone in my hand.
 
-12 November. Three weeks away.
+12 November. Six days away.
 
 Kirkwall is half an hour from the lighthouse by car.
 
@@ -5025,7 +5025,7 @@ I don't understand.
 
 He nods towards the page. His erased hand on the paper, a white hole with edges smudged with graphite. His mouth, a grey smear.
 
-Then he points at the pencil, which has fallen to the floor beside the rubber. Then he points at me.
+Then he points at the pencil, which has fallen to the floor by the trunk. Then he points at me.
 
 And he nods.
 
@@ -5528,7 +5528,7 @@ That I am angry.
 
 ---
 
-I tell her the next morning. In the kitchen. She is making coffee, with her back to me.
+The first morning I do not tell her. She is happy, and so am I, and I do not want to break it. I tell her the morning after the dog. In the kitchen. She is making coffee, with her back to me.
 
 'I am angry.'
 
@@ -5992,13 +5992,13 @@ And the sketchbook falls out of my jacket.
 
 ---
 
-It falls on the floor between the three of us. Open. To a page from when she was sixteen. Me, in profile, with my lips parted, looking at something outside the paper.
+It falls on the floor between the three of us. Open. To my page. Tuesday's. All of me, facing out, looking at something outside the paper.
 
 He looks at it.
 
 He bends down. He picks it up before I do.
 
-He turns the pages. Slowly. Me at twenty. Me with the scar. Me sitting on the rock. Me. Me. Me.
+He turns the pages. Slowly. Me on the rock in the geo. Me from behind, looking at the sea. Me waiting. Me. Me. Me.
 
 He looks up. He looks at my face.
 
@@ -6056,7 +6056,7 @@ What Ada traces on the paper, I am. The nose, the eyes, the hands. If she draws 
 
 What I live is not on the paper. The coffee, the cold of the sea, the first time something hurt me. That she cannot draw or erase. But if she redraws a whole part of me, it comes back the way it was on the paper, and what I lived stays outside. Like the scar from the wire.
 
-And if the paper gets wet, I get wet inside. If the paper tears, I tear.
+And if the paper gets wet, I get wet inside. If the paper tears, I tear. And I do not live in every sketchbook in the box: I live in that one, the one with Tuesday's page, where she finished me.
 
 I have known it for weeks. What I did not know is that it feels like this.
 
@@ -6162,7 +6162,7 @@ The pages are flying towards the sea like white gulls, and every one of them is 
 
 The path is a river. I fall at the first bend and get up with my knees bleeding. I fall at the second. I don't feel a thing. Up above, the wind is howling in the tower like an animal.
 
-A page goes past me, plastered to the rock by the rain. I tear it free. A hand. His hand at twelve, holding the wooden sword. I tuck it into my bra, against my skin, without knowing why.
+A page goes past me, plastered to the rock by the rain. I tear it free. A hand. His hand, on its own, one of the studies I used to do at night before he came. I tuck it into my bra, against my skin, without knowing why.
 
 Another, further down, is caught on a clump of heather. A cloud. Just a cloud. I leave it.
 
@@ -6380,7 +6380,7 @@ This is the same. But all of me.
 
 All I have are my eyes. Not much. Just enough to see her kneeling beside me with the ruined sketchbook in her hands, her eyes searching the kitchen for something, desperate.
 
-'I haven't got a pencil.' She says it the way you say there's no air. 'I dropped it in the tower. I dropped it down the stairs. I haven't got—'
+'I haven't got a pencil.' She says it the way you say there's no air. 'They're upstairs, in the tower. There isn't time. I haven't got—'
 
 The man in the rain jacket is in the doorway. I see him from the side, blurry, like an orange smudge.
 
@@ -6652,9 +6652,11 @@ He holds out the bag.
 
 Inside there are pages. Loose pages, crumpled, soaked, stained with salt and seaweed. Seventeen; I'll count them later. Pages from the sketchbook that the wind tore out and the sea left among the stones with the tide.
 
-A cloud. Another cloud. Him at twelve with the wooden sword. Him on the quay in Hamburg. My handwriting on the first page: *This sketchbook belongs to Ada Koch. If you find it, please give it back to me.*
+A cloud. Another cloud. Him on the rock in the geo. Him from behind, looking at the sea. My handwriting on the first page: *This sketchbook belongs to Ada Koch. If you find it, please give it back to me.*
 
 He's done it. He's found it and given it back to me.
+
+I look through them for his face, and I think what I still don't dare ask out loud. Whether he's still bound to that ruined paper, or to the sheet from the blue folder where I drew him again, or to nothing at all now. Last night nothing hurt him. Nothing of him was erased. I put it away for another day.
 
 I can't speak.
 
@@ -6680,7 +6682,7 @@ The jumper-cables man looks at his dog. Then he looks at Julian. For a long time
 
 I don't know what he understands. He doesn't tell me. I don't ask him.
 
-Julian crouches down and scratches Mune's belly. Then he stands up, looks the man in the eye, at the same height, and holds out his hand again. Like at the door, three days ago.
+Julian crouches down and scratches Mune's belly. Then he stands up, looks the man in the eye, at the same height, and holds out his hand again. Like at the door, five days ago.
 
 But this time he says something more.
 

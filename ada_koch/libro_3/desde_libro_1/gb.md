@@ -152,7 +152,7 @@ My name is Julian. That is the twelfth time I have said it. Today I said it only
 
 *I hivna slept weel since Klaus deed. Six year.*
 
-For fifty-three years he woke up before me. At five, the hour of the boats. And he didn't get up: he lay there watching me sleep, like that morning in Glasgow. Every time I felt him awake, I shut my eyes tighter and pretended to be asleep, so he could go on looking. I never told him. I think he knew, and pretended he didn't, so that I could go on pretending.
+For fifty-one years he woke up before me. At five, the hour of the boats. And he didn't get up: he lay there watching me sleep, like that morning in Glasgow. Every time I felt him awake, I shut my eyes tighter and pretended to be asleep, so he could go on looking. I never told him. I think he knew, and pretended he didn't, so that I could go on pretending.
 
 That is how we loved each other. Both of us pretending at once.
 
@@ -174,7 +174,7 @@ Klaus told me once that, when he was a boy, his mother would light a candle in t
 
 I don't know who lit the lighthouse. I know who lives there.
 
-And I know, because I saw him today in my kitchen eating the pie with his eyes closed, that the young man with the beard is not of this world. The old folk here would call him a selkie. He doesn't need to be of this world. Klaus wasn't either. He came with a dictionary and a grey coat to a town that didn't want him, and he stayed fifty-three years.
+And I know, because I saw him today in my kitchen eating the pie with his eyes closed, that the young man with the beard is not of this world. The old folk here would call him a selkie. He doesn't need to be of this world. Klaus wasn't either. He came with a dictionary and a grey coat to a town that didn't want him, and he stayed almost fifty years.
 
 I stayed at the window until it got light and the lighthouse went dark.
 

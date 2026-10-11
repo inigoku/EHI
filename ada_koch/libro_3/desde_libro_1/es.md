@@ -154,7 +154,7 @@ Me llamo Julian. Es la duodécima vez que lo digo. Hoy lo he dicho solo para mí
 
 Non durmo ben desde que morreu Klaus. Seis anos.
 
-Cincuenta y tres años se despertó antes que yo. A las cinco, la hora de los barcos. Y no se levantaba: se quedaba mirándome dormir, como aquella mañana de Stuttgart. Yo, cada vez que lo notaba despierto, cerraba los ojos más fuerte y me hacía la dormida, para que pudiera seguir mirando. Nunca se lo dije. Creo que él lo sabía, y hacía como que no, para que yo pudiera seguir fingiendo.
+Cincuenta y un años se despertó antes que yo. A las cinco, la hora de los barcos. Y no se levantaba: se quedaba mirándome dormir, como aquella mañana de Stuttgart. Yo, cada vez que lo notaba despierto, cerraba los ojos más fuerte y me hacía la dormida, para que pudiera seguir mirando. Nunca se lo dije. Creo que él lo sabía, y hacía como que no, para que yo pudiera seguir fingiendo.
 
 Así nos quisimos. Fingiendo los dos a la vez.
 
@@ -176,7 +176,7 @@ Klaus me contó una vez que, cuando era niño, su madre encendía una vela en la
 
 No sé quién ha encendido el faro. Sé quién vive allí.
 
-Y sé, porque lo he visto hoy en mi cocina comiéndose la empanada con los ojos cerrados, que el muchacho de la barba no es de este mundo. Ni falta que le hace. Klaus tampoco lo era. Llegó con un diccionario y un abrigo gris a un pueblo que no lo quería, y se quedó cincuenta y tres años.
+Y sé, porque lo he visto hoy en mi cocina comiéndose la empanada con los ojos cerrados, que el muchacho de la barba no es de este mundo. Ni falta que le hace. Klaus tampoco lo era. Llegó con un diccionario y un abrigo gris a un pueblo que no lo quería, y se quedó casi cincuenta años.
 
 Seguí en la ventana hasta que amaneció y la luz se apagó.
 

@@ -16,7 +16,7 @@ Estuve un momento quieta bajo el edredón, escuchando. El viento todavía era su
 
 Puse los pies en el suelo y el frío de las baldosas me subió por las piernas. Me encanta ese frío. Me recuerda que la casa es mía, que nadie ha encendido la calefacción por mí ni me ha dicho que me ponga unas zapatillas.
 
-Cogí el móvil para mirar la boya. Trece grados.
+Cogí el móvil para mirar la boya. Dieciséis grados.
 
 Sonreí sola. Mi abuela diría que estoy tola. Que bañarse en octubre es cosa de locas y de alemanes. Como yo tengo un cuarto de alemana, lo tengo un cuarto perdonado.
 
@@ -522,11 +522,11 @@ Antes de que se hiciera de noche bajé a la cala una última vez.
 
 No para bañarme. El mar ya estaba demasiado bravo, con olas que llegaban hasta la roca donde dejo la toalla y se retiraban arrastrando piedras con un ruido de dientes. Bajé solo para mirarlo. Para despedirme de él tranquila, como se despide una de alguien antes de una pelea que sabe que va a pasar.
 
-Me senté en lo alto del sendero, sobre una piedra plana, con las rodillas abrazadas contra el pecho. El viento me echaba el pelo a la cara y me hacía llorar los ojos. Abajo, *a Vella* aguantaba los golpes de las olas, negra y brillante, impasible, como lleva aguantándolos desde antes de que existiera el pueblo.
+Me senté en lo alto del sendero, sobre una piedra plana, con las rodillas abrazadas contra el pecho. El viento me echaba el pelo a la cara y me hacía llorar los ojos. Abajo, *A Vella* aguantaba los golpes de las olas, negra y brillante, impasible, como lleva aguantándolos desde antes de que existiera el pueblo.
 
 Y entonces la vi. A la otra.
 
-Una roca pequeña, a la izquierda de *a Vella*, medio escondida entre la espuma. Redonda por arriba, plana, con una especie de escalón en un lado, como un asiento. Llevaba un año bañándome allí y nunca me había fijado en ella.
+Una roca pequeña, a la izquierda de *A Vella*, medio escondida entre la espuma. Redonda por arriba, plana, con una especie de escalón en un lado, como un asiento. Llevaba un año bañándome allí y nunca me había fijado en ella.
 
 Me quedé helada.
 
@@ -1910,7 +1910,7 @@ Me acerqué y me puse a su lado. Tan cerca que nuestros brazos se rozaban a trav
 
 —¿Hace frío?
 
-—Mucho. Trece grados.
+—Mucho. Quince grados.
 
 —¿Y a ti te gusta?
 
@@ -2524,7 +2524,7 @@ Y me metí en el agua sola.
 
 El frío me cortó la respiración como siempre. Esta vez lo agradecí.
 
-Nadé hacia *a Vella* con brazadas rabiosas, salpicando más de la cuenta. Iba pensando cosas injustas. Que era un cobarde. Que yo lo había hecho, que yo sabía lo que le iba a gustar. Que quién se creía que era para decirme que no.
+Nadé hacia *A Vella* con brazadas rabiosas, salpicando más de la cuenta. Iba pensando cosas injustas. Que era un cobarde. Que yo lo había hecho, que yo sabía lo que le iba a gustar. Que quién se creía que era para decirme que no.
 
 A mitad de camino me paré y floté, jadeando.
 
@@ -3258,7 +3258,7 @@ Debajo, tachado con una raya, estaba escrito *Die Schule*.
 
 Fui al café esa misma tarde. Estaba sentado en nuestra mesa, la de la ventana, con dos tazas delante.
 
-Nunca más me corrigió. Ni en cincuenta y tres años.
+Nunca más me corrigió. Ni en cincuenta y dos años.
 
 Yo, en cambio, aprendí alemán perfecto. Por mi cuenta. Para darle en las narices.
 
@@ -4304,7 +4304,7 @@ Pitó el final del mensaje.
 
 Seguí sentada en el borde de la bañera con el móvil en la mano.
 
-Doce de noviembre. Faltaban tres semanas.
+Doce de noviembre. Faltaban seis días.
 
 A Coruña está a hora y media del faro en coche.
 
@@ -4424,7 +4424,7 @@ Entré en el agua. El frío me mordió. Esperé los tres segundos.
 
 No llegaron. El frío llegó, pero la calma no. La cabeza seguía llena. *No eres real.* *Te echo de menos.* *Lo dibujaste tú.* *Entonces es libre.*
 
-Nadé más fuerte. Más lejos. Hacia *a Vella*.
+Nadé más fuerte. Más lejos. Hacia *A Vella*.
 
 A mitad de camino noté que el agua tiraba.
 
@@ -4440,7 +4440,7 @@ Se alejaba.
 
 ---
 
-No sé cuánto tiempo nadé. Un minuto. Cinco. Se me cansaron los brazos. Se me entumecieron las piernas. El agua estaba a trece grados, o a doce, y yo llevaba demasiado tiempo dentro.
+No sé cuánto tiempo nadé. Un minuto. Cinco. Se me cansaron los brazos. Se me entumecieron las piernas. El agua estaba a quince grados, o a catorce, y yo llevaba demasiado tiempo dentro.
 
 Tragué agua. Tosí. Tragué más.
 
@@ -4586,7 +4586,7 @@ Dio media vuelta y me llevó a la furgoneta.
 
 Su casa era la primera de la carretera, la de piedra que hay pasada la curva de la fuente, con un macizo de hortensias azules en la puerta y una higuera torcida. Tardamos tres minutos. Me parecieron tres días. Puso la calefacción de la furgoneta a tope y Lúa se me subió encima, entre los asientos, y se tumbó sobre mis piernas como una manta caliente.
 
-Dentro olía a leña y a café. Una cocina grande, de piedra, con una cocina bilbaina de hierro negro encendida y una mesa de madera llena de cosas: redes a medio coser, una radio, un plato con migas.
+Dentro olía a leña y a café. Una cocina grande, de piedra, con una cocina bilbaína de hierro negro encendida y una mesa de madera llena de cosas: redes a medio coser, una radio, un plato con migas.
 
 Me sentó en una silla junto al fuego. Desapareció. Volvió con los brazos llenos.
 
@@ -5026,7 +5026,7 @@ No entendí.
 
 Él señaló con la barbilla la página. Su mano borrada en el papel, un hueco blanco con los bordes sucios de grafito. Su boca, una mancha gris.
 
-Luego señaló el lápiz, que se me había caído al suelo al lado de la goma. Luego me señaló a mí.
+Luego señaló el lápiz, que se me había caído al suelo junto al baúl. Luego me señaló a mí.
 
 Y asintió.
 
@@ -5530,7 +5530,7 @@ Que estaba enfadado.
 
 ---
 
-Se lo dije a la mañana siguiente. En la cocina. Ella estaba haciendo café, de espaldas.
+La primera mañana no se lo dije. Ella estaba contenta, y yo también, y no quise romperlo. Se lo dije la mañana después de lo del perro. En la cocina. Ella estaba haciendo café, de espaldas.
 
 —Estoy enfadado.
 
@@ -5992,13 +5992,13 @@ Y el cuaderno se me cayó de la chaqueta.
 
 ---
 
-Cayó al suelo entre los tres. Abierto. Por una página de los dieciséis años. Yo, de perfil, con los labios entreabiertos, mirando algo fuera del papel.
+Cayó al suelo entre los tres. Abierto. Por mi página. La del martes. Yo entero, de frente, mirando algo fuera del papel.
 
 Él lo miró.
 
 Se agachó. Lo cogió antes que yo.
 
-Pasó las páginas. Despacio. Yo con veinte años. Yo con la cicatriz. Yo sentado en la roca. Yo. Yo. Yo.
+Pasó las páginas. Despacio. Yo en la roca de la cala. Yo de espaldas, mirando el mar. Yo esperando. Yo. Yo. Yo.
 
 Levantó la vista. Me miró la cara.
 
@@ -6056,7 +6056,7 @@ Lo que Ada traza en el papel, lo soy. La nariz, los ojos, las manos. Si me dibuj
 
 Lo que vivo no está en el papel. El café, el frío del mar, la primera vez que me dolió algo. Eso no lo puede dibujar ni borrar. Pero si me redibuja una parte entera, vuelve como era en el papel, y lo vivido se queda fuera. Como la cicatriz del alambre.
 
-Y si el papel se moja, me mojo por dentro. Si el papel se rompe, me rompo.
+Y si el papel se moja, me mojo por dentro. Si el papel se rompe, me rompo. Y no vivo en todos los cuadernos de la caja: vivo en ese, en el de la página del martes, donde me terminó.
 
 Lo sabía desde hacía semanas. Lo que no sabía era que se sentía así.
 
@@ -6162,7 +6162,7 @@ Las hojas volaban hacia el mar como gaviotas blancas, y cada una era él, y yo c
 
 El sendero era un río. Me caí en la primera curva. Me levanté con las rodillas sangrando. Me caí en la segunda. No noté nada. Arriba, el viento aullaba en la torre como un animal.
 
-Una hoja pasó a mi lado, pegada a la roca por la lluvia. La arranqué. Una mano. Su mano de los doce años, con la espada de madera. Me la metí en el sujetador, contra la piel, sin saber por qué.
+Una hoja pasó a mi lado, pegada a la roca por la lluvia. La arranqué. Una mano. Su mano, sola, uno de los estudios que yo hacía de noche antes de que llegara. Me la metí en el sujetador, contra la piel, sin saber por qué.
 
 Otra, más abajo, enganchada en un tojo. Una nube. Solo una nube. La dejé.
 
@@ -6244,7 +6244,7 @@ Salimos.
 
 Y vi la roca.
 
-La suya. La pequeña, a la izquierda de *a Vella*, la redonda, la del escalón. La roca del niño.
+La suya. La pequeña, a la izquierda de *A Vella*, la redonda, la del escalón. La roca del niño.
 
 Estaba a cinco metros.
 
@@ -6380,7 +6380,7 @@ Esto era igual. Pero entero.
 
 Lo único que tenía eran los ojos. Poco. Lo justo para verla arrodillada a mi lado con el cuaderno deshecho en las manos, buscando algo por la cocina con la mirada, desesperada.
 
-—No tengo lápiz. —Lo dijo como se dice que no hay aire—. Se me cayó en la torre. Se me cayó por la escalera. No tengo…
+—No tengo lápiz. —Lo dijo como se dice que no hay aire—. Están arriba, en la torre. No me da tiempo. No tengo…
 
 El hombre del chubasquero estaba en la puerta. Lo veía de lado, borroso, como una mancha naranja.
 
@@ -6650,9 +6650,11 @@ Me tendió la bolsa.
 
 Dentro había hojas. Hojas sueltas, arrugadas, empapadas, manchadas de sal y de algas. Diecisiete. Las conté después. Páginas del cuaderno que el viento había arrancado y el mar había dejado entre las piedras con la marea.
 
-Una nube. Otra nube. Él con doce años y la espada de madera. Él en el muelle de Hamburgo. Mi letra en la primera página: *Este cuaderno es de Ada Koch. Si lo encuentras, devuélvemelo, por favor.*
+Una nube. Otra nube. Él en la roca de la cala. Él de espaldas, mirando el mar. Mi letra en la primera página: *Este cuaderno es de Ada Koch. Si lo encuentras, devuélvemelo, por favor.*
 
 Lo había hecho. Lo había encontrado y me lo había devuelto.
+
+Las miré buscando su cara, y pensé lo que todavía no me atrevía a preguntar en voz alta. Si seguía atado a aquel papel deshecho, o a la hoja de la carpeta azul donde lo había vuelto a dibujar, o ya a nada. Esa noche no le había dolido nada. No se le había borrado nada. Lo guardé para otro día.
 
 No pude hablar.
 
@@ -6678,7 +6680,7 @@ El de las pinzas miró a su perra. Luego miró a Julian. Durante mucho rato.
 
 No sé qué entendió. No me lo dijo. No se lo pregunté.
 
-Julian se agachó y le rascó la tripa a Lúa. Luego se levantó, miró al hombre a los ojos, a la misma altura, y le tendió la mano otra vez. Como en la puerta, hacía tres días.
+Julian se agachó y le rascó la tripa a Lúa. Luego se levantó, miró al hombre a los ojos, a la misma altura, y le tendió la mano otra vez. Como en la puerta, hacía cinco días.
 
 Pero esta vez dijo algo más.
 
