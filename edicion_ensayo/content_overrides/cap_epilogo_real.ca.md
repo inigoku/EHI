@@ -126,5 +126,5 @@ Que el reservori et rebi, quan arribi el moment, amb la mateixa generositat amb 
 
 I que, mentrestant, la riba et basti.
 
-## [IL·LUSTRACIÓ epíleg: «La riba a l'horitzó»]
+## [IL·LUSTRACIÓ epilogo: «La riba a l'horitzó»]
 *La riba, amb l'aigua de tornada.*

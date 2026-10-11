@@ -624,7 +624,7 @@ def part_title_page(story: list, section: str, styles: dict) -> None:
 
 
 _INLINE_ILLUS_BLOCK_RE = re.compile(
-    r'^##\s*\[(?:ILUSTRACI[ÓO]N|ILLUSTRATION)\s*([\w.]*)?:?\s*"[^"]+"\]\s*\n'
+    r'^##\s*\[(?:ILUSTRACI[ÓO]N?|IL[·.]?LUSTRACI[ÓO]N?|ILLUSTRATION)\s*([\w.]*)?:?\s*["«“][^"»”]+["»”]\]\s*\n'
     r'(?:[ \t]*\n)*(?:[ \t]*\*[^\n]*\*[ \t]*\n)?', re.MULTILINE)
 
 
