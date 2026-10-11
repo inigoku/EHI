@@ -1,5 +1,5 @@
 ---
-title: "Los Amantes de la Espiral"
+title: "El hombre que dibujé"
 subtitle: "El Cuaderno de Ada Koch · Libro I"
 author: "Íñigo Barrera Barceló"
 lang: es-ES
@@ -6897,6 +6897,8 @@ Esa es la foto que cuelga encima de mi aparador. Mi nieta dice que es la foto m�
 Yo sí lo entiendo.
 
 Llevaba cinco años sin poder dejar de mirarme. No iba a empezar ese día.
+
+Esta mañana, limpiándole el cristal, me encontré tarareando el alalá de mi madre. Me callé enseguida. Todavía no.
 
 ## 30 · Ada
 

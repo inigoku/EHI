@@ -1,4 +1,4 @@
-# Para el libro II — resto del capítulo 30 de *Los Amantes de la Espiral*
+# Para el libro II — resto del capítulo 30 de *El hombre que dibujé*
 
 *El libro I termina con «Me llamo Ada.». Esto abre el libro II, narrado por Julian.*
 

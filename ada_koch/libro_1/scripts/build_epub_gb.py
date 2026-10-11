@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""EPUB en inglés («The Lovers of the Spiral») de «Los Amantes de la Espiral» con la maqueta de la edición KDP de El Horizonte Interior.
+"""EPUB en inglés («The Man I Drew») de «El hombre que dibujé» con la maqueta de la edición KDP de El Horizonte Interior.
 
 Misma hoja de estilo (Lora, colores, márgenes), misma portada, misma estructura de
 ficheros (title / capítulos / colofón) y mismo índice. Las fuentes se toman del
@@ -17,11 +17,11 @@ from ebooklib import epub
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
-SRC_MD = os.path.join(HERE, "..", "en_gb", "The_Lovers_of_the_Spiral.md")
+SRC_MD = os.path.join(HERE, "..", "en_gb", "The_Man_I_Drew.md")
 KDP_EPUB = os.path.join(ROOT, "edicion_kdp", "El_Horizonte_Interior.epub")
-OUT = os.path.join(HERE, "..", "en_gb", "The_Lovers_of_the_Spiral.epub")
+OUT = os.path.join(HERE, "..", "en_gb", "The_Man_I_Drew.epub")
 
-TITLE = "The Lovers of the Spiral"
+TITLE = "The Man I Drew"
 SERIES = "The Sketchbook of Ada Koch · Book I"
 AUTHOR = "Íñigo Barrera Barceló"
 AUTHOR_SORT = "Barrera Barceló, Íñigo"

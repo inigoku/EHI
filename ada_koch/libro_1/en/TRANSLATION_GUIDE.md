@@ -1,4 +1,4 @@
-# Translation guide — *Los Amantes de la Espiral* → *The Lovers of the Spiral*
+# Translation guide — *El hombre que dibujé* → *The Man I Drew*
 
 Target: US English, commercial romance for women (Kindle), literary but warm. Close first person.
 The Spanish is the authority. Translate everything; never summarize, cut, merge or add.

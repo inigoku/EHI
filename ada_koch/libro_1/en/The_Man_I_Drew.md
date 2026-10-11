@@ -1,5 +1,5 @@
 ---
-title: "The Lovers of the Spiral"
+title: "The Man I Drew"
 subtitle: "The Sketchbook of Ada Koch · Book I"
 author: "Íñigo Barrera Barceló"
 lang: en-US
@@ -6894,6 +6894,8 @@ That's the photo that hangs above my sideboard. My granddaughter says it's the m
 I understand.
 
 He'd gone five years unable to stop looking at me. He wasn't going to start that day.
+
+This morning, wiping the glass, I caught myself humming my mother's alalá. I stopped at once. Not yet.
 
 ## 30 · Ada
 
