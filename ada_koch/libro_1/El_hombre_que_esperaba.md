@@ -512,13 +512,7 @@ Sí, abuela. Sigo. Veintitrés años después, sigo.
 
 ---
 
-Pasé la tarde preparando el faro para lo que venía.
-
-Es una rutina que he aprendido a fuerza de inviernos, aunque solo llevo uno. Revisar las contraventanas una por una y cerrar las que dan al oeste. Subir leña del cobertizo y apilarla junto a la estufa, hasta el techo. Llenar el depósito del generador, que es viejo y caprichoso y tose como un fumador antes de arrancar. Meter dentro la silla del porche, la maceta de romero, la cuerda de tender.
-
-Trabajaba con el viento en contra, despeinada, con las mejillas ardiendo de frío y las manos llenas de astillas. Me gustaba. Hay algo en preparar una casa para una tormenta que te hace sentir que la casa es tuya de verdad. Que la proteges. Que te protege.
-
-Antes de que se hiciera de noche bajé a la cala una última vez.
+Pasé la tarde atrancando el faro contra lo que venía. Antes de que se hiciera de noche bajé a la cala una última vez.
 
 No para bañarme. El mar ya estaba demasiado bravo, con olas que llegaban hasta la roca donde dejo la toalla y se retiraban arrastrando piedras con un ruido de dientes. Bajé solo para mirarlo. Para despedirme de él tranquila, como se despide una de alguien antes de una pelea que sabe que va a pasar.
 
@@ -540,7 +534,7 @@ Me lo dije varias veces mientras subía de vuelta al faro, con el viento empujá
 
 No me volví a mirarla. Me daba miedo que siguiera pareciéndose.
 
-Cuando terminé, ya era de noche. Me di una ducha, me puse el pijama de franela y los calcetines gordos, y me calenté un cuenco del caldo de mi abuela. Sabía a grelos, a patata, a domingo de niña. Me lo tomé de pie junto a la ventana, con las dos manos alrededor del cuenco, mirando la oscuridad.
+Cuando subí, ya era de noche. Me di una ducha, me puse el pijama de franela y los calcetines gordos, y me calenté un cuenco del caldo de mi abuela. Sabía a grelos, a patata, a domingo de niña. Me lo tomé de pie junto a la ventana, con las dos manos alrededor del cuenco, mirando la oscuridad.
 
 No se veía nada. Solo se oía. El mar había cambiado de voz. Ya no respiraba. Rugía.
 
@@ -548,7 +542,7 @@ A las nueve me llamó Lucía por videollamada, como me había prometido el día 
 
 —A ver ese faro —dijo—. Enséñamelo. Quiero ver si sigue en pie.
 
-Le hice un recorrido con el móvil. La estufa, la leña apilada hasta el techo, las velas de mi abuela alineadas en la mesa como soldados, la ventana negra.
+Le hice un recorrido con el móvil. La estufa, la ventana negra, el mar que no se veía y se oía.
 
 —Pareces una novela de las Brontë —dijo—. Solo te falta un señor oscuro llamando a la puerta en mitad de la tormenta.
 
@@ -565,8 +559,6 @@ Me reí. Me reí mucho, más de lo que la broma merecía, y Lucía me miró por 
 —Pues es una pena. —Se recostó en el sofá y le dio un sorbo a la copa—. Con lo guapa que estás con el pelo largo.
 
 Me quedé callada un segundo. Nadie me había dicho que estaba guapa en mucho tiempo. Ni siquiera yo.
-
-Hablamos un rato más. Del trabajo, de Marcos y su camisa de cuadros, del colegio de su hijo, de una serie que tenía que ver sin falta. Cosas pequeñas, cálidas, de esas que te recuerdan que hay una vida normal en algún sitio, esperándote.
 
 Antes de colgar, se puso seria.
 
@@ -634,7 +626,7 @@ Tardé horas. El viento golpeaba la casa y yo no lo oía.
 
 Dibujé el cuello de la camisa, un poco abierto. La línea de la clavícula, que se adivinaba debajo. Dibujé sus hombros, anchos pero no demasiado, de los que te imaginas apoyando la cabeza. Dibujé sus manos, que siempre me cuestan, que nunca me salen. Esa noche me salieron. Grandes, de dedos largos, con los nudillos marcados. Manos de alguien que sabe hacer cosas.
 
-Las miré mucho rato. Me pregunté cómo serían sobre mi piel. Si serían ásperas o suaves. Si serían lentas.
+Las miré mucho rato. Me pregunté cómo serían sobre mi piel. Si serían ásperas o suaves. Si serían lentas. Me imaginé una en la nuca, debajo del pelo. La otra bajando por la espalda, vértebra a vértebra, sin prisa, hasta quedarse quieta en la curva de la cintura, justo donde empieza el pijama.
 
 Noté que me ardían las mejillas y me reí sola, bajito, en mi cocina, a las tres de la mañana. Qué tonta. Una mujer hecha y derecha sonrojándose por unas manos de grafito.
 
@@ -776,10 +768,6 @@ Me sentí extrañamente ligera. Como si alguien hubiera cerrado una puerta que l
 
 ---
 
-Pasé la mañana haciendo cosas pequeñas con las manos.
-
-Llené jarras de agua por si fallaba la bomba. Puse las velas de mi abuela en la mesa, junto a la caja de cerillas. Revisé otra vez las contraventanas, una por una, con el viento empujándome contra la pared cada vez que me asomaba a la puerta. La lluvia me empapó en diez segundos.
-
 A mediodía subí a la torre.
 
 Son ciento doce escalones de caracol, de piedra gastada en el centro por cien años de fareros subiendo y bajando. Los subí con la mano en la pared fría. A medida que subía, el ruido crecía. El viento silbaba por las rendijas de la linterna, arriba del todo, como un órgano desafinado.
@@ -857,8 +845,6 @@ Pero me lo dejé detrás de la oreja de todas formas.
 ---
 
 No sé cuánto tiempo pasó. Una hora. Dos. El reloj de la cocina se había parado cuando saltó la luz, con las agujas clavadas en las siete y dos minutos, y no me apetecía mirar el móvil.
-
-Las velas se fueron gastando. La estufa también. No me levanté a echarle leña.
 
 Pensé en mi abuela, sola en su casa de ventanas azules. La imaginé sentada en su cocina con la radio de pilas, rezando bajito, o no rezando, o cantando sin darse cuenta como cantaba en la fábrica de Stuttgart.
 
@@ -3902,7 +3888,17 @@ No hay otra manera de decirlo. Cuatro días de besos en la cocina con la cafeter
 
 Aprendió a nadar. Mal. Como un perro. Pero aprendió.
 
-Dormíamos separados. Él en el sofá, yo en mi cuarto con la puerta abierta. Ninguno de los dos lo propuso. Ninguno de los dos se movió. Por las noches lo oía respirar desde mi cama, y sabía que él me oía a mí.
+Dormíamos separados. Él en el sofá, yo en mi cuarto con la puerta abierta. Ninguno de los dos lo propuso.
+
+La tercera noche casi no paramos. Fue en el sofá, con la estufa encendida y la manta de cuadros resbalando al suelo. Me besó como lo hacía todo, aprendiendo, y luego ya no aprendía nada: sabía. Le metí las manos por debajo del jersey y él contuvo el aire, como si el frío fuera yo. Me tumbó sobre los cojines sin dejar de mirarme, y su mano encontró la piel de mi cintura y se quedó allí, abierta, temblando un poco, pidiéndome permiso sin palabras. Yo arqueé la espalda contra ella. Él bajó la boca a mi cuello y dijo mi nombre ahí, contra el pulso.
+
+Fui yo la que paró. Me dije que no sabía por qué. Sí lo sabía: tenía miedo de que, si me daba entera, el lápiz dejara de ser mío.
+
+Él se apartó sin una queja. Se quedó sentado en el suelo, con la espalda contra el sofá y la respiración rota, y me cogió la mano por encima del hombro.
+
+—Cuando tú quieras —dijo.
+
+Esa noche tampoco me moví de mi cama. Lo oía respirar desde allí, y sabía que él me oía a mí.
 
 No dibujé nada en esos cuatro días. Ni una nube. No me hacía falta.
 
@@ -5166,7 +5162,19 @@ No era mío. Nunca lo había sido.
 
 Me llevó a mi cuarto sin soltarme la boca. Nos caímos en la cama de cualquier manera, riendo, chocando, con la ropa a medias. Y luego dejamos de reír.
 
-Fue lento. Fue torpe. Fue la primera vez para él y no lo era para mí, y sin embargo era yo la que temblaba. Me tocó como me había mirado siempre: aprendiendo. Como si mi piel fuera un mapa del tiempo y él tuviera que leerlo entero. Cada vez que yo contenía el aire, él se paraba, y me miraba, y esperaba. Y luego seguía.
+Le desabroché el pantalón con los dedos torpes, todavía pegajosos de sal. Él me bajó el mío despacio, de rodillas al pie de la cama, como se le quita la funda a algo que puede romperse, y se quedó mirándome a la luz azul que entraba por la ventana. No dijo nada. Nadie me había mirado nunca así: como si la que acababa de aparecer en el mundo fuera yo.
+
+Fue lento. Fue torpe. Fue la primera vez para él y no lo era para mí, y sin embargo era yo la que temblaba. Me tocó como me había mirado siempre: aprendiendo. Como si mi piel fuera un mapa del tiempo y él tuviera que leerlo entero. La boca en el hueco de la clavícula. La mano nueva bajando por mi vientre, sin prisa, preguntando. Cada vez que yo contenía el aire, él se paraba, y me miraba, y esperaba. Y luego seguía, un poco más abajo, un poco más hondo, hasta que dejé de contener nada.
+
+Cuando entró en mí, los dos nos quedamos quietos. Le sentí el corazón contra el pecho, desbocado, igual que el mío. Abrió los ojos en la oscuridad y me buscó, y yo le sostuve la cara entre las manos para que no tuviera que buscarme.
+
+—Ada —dijo. Solo eso. Con la voz que yo le había devuelto esa misma tarde.
+
+Nos movimos juntos, al principio sin saber, luego sabiendo. Le clavé los dedos en la espalda, en el lunar que yo no le había dibujado. Él aprendió deprisa lo que me hacía cerrar los ojos, y lo repitió, y lo repitió, hasta que el mar de fuera y el de dentro fueron el mismo y se me rompió la voz contra su hombro.
+
+Él vino detrás, con un temblor largo, diciendo mi nombre como si fuera la primera palabra que había aprendido.
+
+Luego nos quedamos enredados, sudando en el frío, escuchando la marea.
 
 En algún momento, en la oscuridad, le cogí la mano. La nueva. Le pasé los labios por los nudillos limpios.
 
