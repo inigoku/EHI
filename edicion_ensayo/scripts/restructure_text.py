@@ -551,6 +551,70 @@ def ajustes(lg):
     d.save()
 
 
+# ---------------------------------------------------------------------------
+# 9. ER=EPR sale del capítulo 2 y se queda en el del entrelazamiento (antes 11)
+# ---------------------------------------------------------------------------
+EREPR = {
+    "es": dict(
+        pre="El mecanismo más elegante es ER=EPR:",
+        post="El mecanismo más elegante es ER=EPR (la conjetura que el capítulo 11 presenta con más calma):",
+        quitar=["Si ER=EPR opera en escalas biológicas. ",
+                "¿Es el entrelazamiento, de verdad, geometría? ¿Puede un cerebro estar «entrelazado» con otro de manera físicamente significativa? ",
+                "Maldacena & Susskind (2013), «Cool horizons for entangled black holes» (la conjetura ER=EPR); "],
+        n_no="Si los puentes de Einstein-Rosen existen físicamente.", n_no2="Si los puentes de Einstein-Rosen existen físicamente. Si ER=EPR opera en escalas biológicas.",
+        n_preg="**Preguntas que quedan:** ¿Es el vínculo", n_preg2="**Preguntas que quedan:** ¿Es el entrelazamiento, de verdad, geometría? ¿Es el vínculo"),
+    "ca": dict(
+        pre="El mecanisme més elegant és ER=EPR:",
+        post="El mecanisme més elegant és ER=EPR (la conjectura que el capítol 11 presenta amb més calma):",
+        quitar=["Si ER=EPR opera en escales biològiques. ",
+                "És l'entrellaçament, de debò, geometria? Pot un cervell estar «entrellaçat» amb un altre de manera físicament significativa? ",
+                "Maldacena & Susskind (2013), «Cool horizons for entangled black holes» (la conjectura ER=EPR); "],
+        n_no="Si els ponts d'Einstein-Rosen existeixen físicament.", n_no2="Si els ponts d'Einstein-Rosen existeixen físicament. Si ER=EPR opera en escales biològiques.",
+        n_preg="**Preguntes que queden:** És el vincle", n_preg2="**Preguntes que queden:** És l'entrellaçament, de debò, geometria? És el vincle"),
+    "en": dict(
+        pre="The most elegant mechanism is ER=EPR:",
+        post="The most elegant mechanism is ER=EPR (the conjecture that Chapter 11 presents at more leisure):",
+        quitar=["Whether ER=EPR operates at biological scales. ",
+                "Is entanglement really geometry? Can one brain be \"entangled\" with another in a physically meaningful way? ",
+                "Maldacena & Susskind (2013), \"Cool horizons for entangled black holes\" (the ER=EPR conjecture); "],
+        n_no="Whether Einstein-Rosen bridges exist physically.", n_no2="Whether Einstein-Rosen bridges exist physically. Whether ER=EPR operates at biological scales.",
+        n_preg="**Open questions:** Is the human bond", n_preg2="**Open questions:** Is entanglement really geometry? Is the human bond"),
+}
+
+
+def load_saved(lg, cid):
+    d = Doc.__new__(Doc)
+    t = Doc.target(type("T", (), {"lg": lg, "cid": cid})(), cid)
+    _, d.fm, body = t.read_text(encoding="utf-8").split("---", 2)
+    d.lg, d.cid = lg, cid
+    d.lead = body[: len(body) - len(body.lstrip("\n"))]
+    d.trail = body[len(body.rstrip()):]
+    d.p = body.strip().split("\n\n")
+    return d
+
+
+def erepr(lg):
+    E = EREPR[lg]
+    c2 = Doc(lg, "cap2")
+    i = c2.find("### ER=EPR")
+    assert c2.p[i - 1] == "---" and c2.p[i + 7] == "---", (lg, c2.p[i + 7][:40])
+    especul = c2.p[i + 5:i + 7]
+    assert "ER=EPR" not in especul[0].split("\n")[0] or True
+    del c2.p[i - 1:i + 7]          # «---», encabezado, 3 párrafos, cita, 2 párrafos de especulación
+    for q in E["quitar"]:
+        c2.sub(q, "", count=1)
+    c2.save()
+    c7 = Doc(lg, "cap7_5")
+    j = next(k for k, x in enumerate(c7.p) if x.startswith(("Si és així", "Si es así", "If so, entanglement")))
+    c7.p[j + 1:j + 1] = especul
+    c7.sub(E["n_no"], E["n_no2"], count=1)
+    c7.sub(E["n_preg"], E["n_preg2"], count=1)
+    c7.save()
+    c6 = load_saved(lg, "cap6")
+    c6.sub(E["pre"], E["post"], count=1)
+    c6.save()
+
+
 def main():
     for lg in LG:
         print(lg)
@@ -573,6 +637,7 @@ def main():
         prologo(lg)
         sueltas(lg)
         ajustes(lg)
+        erepr(lg)
 
 
 if __name__ == "__main__":

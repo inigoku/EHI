@@ -212,7 +212,7 @@
     },
     {
       "id": "cap2",
-      "content_file": "../content/ensayo/cap2.es.md",
+      "content_file": "content_overrides/cap2.es.md",
       "chapter_number": 2,
       "section": "PRIMERA PARTE: EL CICLO DEL HORIZONTE"
     },
@@ -381,19 +381,27 @@
       "content_file": "content_overrides/cap6.es.md",
       "replace": [
         [
-          "el capítulo 5",
+          "el capítulo 11",
           "⟦0.0⟧"
         ],
         [
-          "**Nota al Capítulo 7**",
+          "el capítulo 5",
           "⟦1.0⟧"
         ],
         [
+          "**Nota al Capítulo 7**",
+          "⟦2.0⟧"
+        ],
+        [
           "⟦0.0⟧",
-          "el capítulo 6"
+          "el capítulo 12"
         ],
         [
           "⟦1.0⟧",
+          "el capítulo 6"
+        ],
+        [
+          "⟦2.0⟧",
           "**Nota al Capítulo 8**"
         ]
       ],
@@ -454,7 +462,7 @@
     },
     {
       "id": "cap7_5",
-      "content_file": "../content/ensayo/cap7_5.es.md",
+      "content_file": "content_overrides/cap7_5.es.md",
       "replace": [
         [
           "**Nota al Capítulo 11**",

@@ -24,6 +24,7 @@ unico · es · cap5 · el capítulo 8 → el capítulo 9
 unico · es · cap5 · el capítulo 4 → el capítulo 5
 unico · es · cap5 · En el capítulo 1 → En el capítulo 1
 unico · es · cap5 · **Nota al Capítulo 6** → **Nota al Capítulo 7**
+unico · es · cap6 · el capítulo 11 → el capítulo 12
 unico · es · cap6 · el capítulo 5 → el capítulo 6
 unico · es · cap6 · **Nota al Capítulo 7** → **Nota al Capítulo 8**
 unico · es · cap6_5 · **Nota al Capítulo 8** → **Nota al Capítulo 9**
@@ -232,6 +233,7 @@ t1 · es · cap5 · el capítulo 8 → el capítulo 9
 t1 · es · cap5 · el capítulo 4 → el capítulo 5
 t1 · es · cap5 · En el capítulo 1 → En el capítulo 1
 t1 · es · cap5 · **Nota al Capítulo 6** → **Nota al Capítulo 7**
+t1 · es · cap6 · el capítulo 11 → el capítulo 12
 t1 · es · cap6 · el capítulo 5 → el capítulo 6
 t1 · es · cap6 · **Nota al Capítulo 7** → **Nota al Capítulo 8**
 t1 · es · cap6_5 · **Nota al Capítulo 8** → **Nota al Capítulo 9**
@@ -439,6 +441,7 @@ unico · ca · cap5 · el capítol 8 → el capítol 9
 unico · ca · cap5 · el capítol 4 → el capítol 5
 unico · ca · cap5 · Al capítol 1 → Al capítol 1
 unico · ca · cap5 · **Nota al Capítol 6** → **Nota al Capítol 7**
+unico · ca · cap6 · el capítol 11 → el capítol 12
 unico · ca · cap6 · el capítol 5 → el capítol 6
 unico · ca · cap6 · **Nota al Capítol 7** → **Nota al Capítol 8**
 unico · ca · cap6_5 · **Nota al Capítol 8** → **Nota al Capítol 9**
@@ -647,6 +650,7 @@ t1 · ca · cap5 · el capítol 8 → el capítol 9
 t1 · ca · cap5 · el capítol 4 → el capítol 5
 t1 · ca · cap5 · Al capítol 1 → Al capítol 1
 t1 · ca · cap5 · **Nota al Capítol 6** → **Nota al Capítol 7**
+t1 · ca · cap6 · el capítol 11 → el capítol 12
 t1 · ca · cap6 · el capítol 5 → el capítol 6
 t1 · ca · cap6 · **Nota al Capítol 7** → **Nota al Capítol 8**
 t1 · ca · cap6_5 · **Nota al Capítol 8** → **Nota al Capítol 9**
@@ -854,6 +858,7 @@ unico · en · cap5 · chapter 8 → chapter 9
 unico · en · cap5 · Chapter 4 → Chapter 5
 unico · en · cap5 · chapter 1 → chapter 1
 unico · en · cap5 · **Note to Chapter 6** → **Note to Chapter 7**
+unico · en · cap6 · Chapter 11 → Chapter 12
 unico · en · cap6 · chapter 5 → chapter 6
 unico · en · cap6 · **Note to Chapter 7** → **Note to Chapter 8**
 unico · en · cap6_5 · **Note to Chapter 8** → **Note to Chapter 9**
@@ -1063,6 +1068,7 @@ t1 · en · cap5 · chapter 8 → chapter 9
 t1 · en · cap5 · Chapter 4 → Chapter 5
 t1 · en · cap5 · chapter 1 → chapter 1
 t1 · en · cap5 · **Note to Chapter 6** → **Note to Chapter 7**
+t1 · en · cap6 · Chapter 11 → Chapter 12
 t1 · en · cap6 · chapter 5 → chapter 6
 t1 · en · cap6 · **Note to Chapter 7** → **Note to Chapter 8**
 t1 · en · cap6_5 · **Note to Chapter 8** → **Note to Chapter 9**

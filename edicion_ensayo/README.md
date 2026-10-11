@@ -291,5 +291,6 @@ al ensayo; la psique (partes III) antes de la enfermedad; lecturas solo de obras
 - `scripts/restructure.py`: orden, partes, renumeración y remisiones; genera los 9 TOC y
   `revision/remisiones_renumeradas.txt`.
 - `scripts/build_all.sh [es|ca|en]`: regenera PDFs, EPUBs y cubiertas de los tres idiomas.
-- Tomo I ilustrado: 548 / 544 / 548 páginas (es/ca/en) con interlineado 15,4 pt; sin ilustraciones 518 / 502 / 512.
-  Volumen único: 766 / 750 / 748 (700 / 690 / 692 sin ilustraciones). Tomo II: 176 / 172 / 176.
+- ER=EPR se explica solo en el capítulo del entrelazamiento (antes cap. 11); sale del capítulo 2.
+- Tomo I ilustrado: 550 / 546 / 550 páginas (es/ca/en) con interlineado 15,4 pt; sin ilustraciones 518 / 502 / 512.
+  Volumen único: 764 / 748 / 748 (700 / 690 / 692 sin ilustraciones). Tomo II: 176 / 172 / 176.

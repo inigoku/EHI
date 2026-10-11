@@ -156,30 +156,14 @@ If consciousness has the structure of a horizon, identity is not in any particul
 
 ---
 
-### ER=EPR: entanglement as geometry
-
-In 2013 Maldacena and Susskind proposed something dizzying. EPR (Einstein-Podolsky-Rosen, 1935) described quantum entanglement: two particles that have interacted maintain instantaneous correlations regardless of distance. Measuring the spin of one determines the other's at once, even if they are in different galaxies. Einstein called it "spooky action at a distance" and never fully accepted it.
-
-ER (Einstein-Rosen, the same year and the same Einstein) described wormholes: geometric connections between two regions of space-time, predicted by the Einstein-Maxwell equations. Two distant places joined by a geometric tunnel.
-
-Maldacena and Susskind proposed that they are the same phenomenon described in different languages. Entanglement would not be a mysterious correlation at a distance but a real geometric connection in space-time; quantum non-locality would have a geometric structure. Entanglement does not travel through space: it creates it.
-
-> **In physics this is called:** ER=EPR; entanglement as geometry; quantum wormholes.
-
-If entanglement is geometry, and if consciousness has the structure of a horizon, then the connections between minds might be real geometric connections in the fabric of space-time. Love, bonds or empathy would be entanglement that creates geometry. Not in the romantic sense of "we are connected," but in the literal sense that two systems sharing enough information might be joined by a geometry that physics does not yet know how to measure.
-
-Even within theoretical physics this is highly speculative, and extending it to brains is a leap no experimental evidence supports. Here it counts not as confirmation but as an exercise of imagination: a way of making precise what "bond" would mean if information really were geometry.
-
----
-
 > **Note to Chapter 2**
 >
 > **What we do know:** Black holes exist. We have photographed them and heard them sing (gravitational waves). The entropy of a black hole is proportional to the area of its horizon (Bekenstein, Hawking). General relativity correctly predicts their behavior outside the horizon. Hawking radiation is a solid prediction of theoretical physics, but it has not yet been observed in astrophysical black holes.
 >
-> **What we don't know:** What lies at the singularity. Whether the holographic principle applies to our universe (it requires specific conditions: anti-de Sitter space). Whether ER=EPR operates at biological scales. Whether soft hair fully resolves the information paradox. What happens when a black hole finishes evaporating.
+> **What we don't know:** What lies at the singularity. Whether the holographic principle applies to our universe (it requires specific conditions: anti-de Sitter space). Whether soft hair fully resolves the information paradox. What happens when a black hole finishes evaporating.
 >
-> **Open questions:** Is entanglement really geometry? Can one brain be "entangled" with another in a physically meaningful way? What remains when a black hole evaporates completely? Does the information come out scrambled, or is there something more?
+> **Open questions:** What remains when a black hole evaporates completely? Does the information come out scrambled, or is there something more?
 >
 > **If you take away only one idea:** A black hole's information is not in its interior but at its edge. As if your life were not in what happened to you but in how you relate it; and your identity were not in any of your parts but in the pattern they form together, a pattern no one can see from outside but that you feel from inside, even if you don't know where it ends.
 >
-> **Further reading:** Michell (1783); Schwarzschild (1916); Oppenheimer & Snyder (1939); Hawking (1974), "Black Hole Explosions?"; Bekenstein (1973); Maldacena (1998), "The Large N limit of superconformal field theories and supergravity"; Maldacena & Susskind (2013), "Cool horizons for entangled black holes" (the ER=EPR conjecture); Hawking, Perry & Strominger (2016), "Soft Hair on Black Holes"; Event Horizon Telescope Collaboration (2019, 2022); LIGO/Virgo Collaboration (2015–).
+> **Further reading:** Michell (1783); Schwarzschild (1916); Oppenheimer & Snyder (1939); Hawking (1974), "Black Hole Explosions?"; Bekenstein (1973); Maldacena (1998), "The Large N limit of superconformal field theories and supergravity"; Hawking, Perry & Strominger (2016), "Soft Hair on Black Holes"; Event Horizon Telescope Collaboration (2019, 2022); LIGO/Virgo Collaboration (2015–).

@@ -207,7 +207,7 @@
     },
     {
       "id": "cap2",
-      "content_file": "../content/ensayo/cap2.ca.md",
+      "content_file": "content_overrides/cap2.ca.md",
       "chapter_number": 2,
       "section": "PRIMERA PART: EL CICLE DE L'HORITZÓ"
     },
@@ -376,19 +376,27 @@
       "content_file": "content_overrides/cap6.ca.md",
       "replace": [
         [
-          "el capítol 5",
+          "el capítol 11",
           "⟦0.0⟧"
         ],
         [
-          "**Nota al Capítol 7**",
+          "el capítol 5",
           "⟦1.0⟧"
         ],
         [
+          "**Nota al Capítol 7**",
+          "⟦2.0⟧"
+        ],
+        [
           "⟦0.0⟧",
-          "el capítol 6"
+          "el capítol 12"
         ],
         [
           "⟦1.0⟧",
+          "el capítol 6"
+        ],
+        [
+          "⟦2.0⟧",
           "**Nota al Capítol 8**"
         ]
       ],
@@ -449,7 +457,7 @@
     },
     {
       "id": "cap7_5",
-      "content_file": "../content/ensayo/cap7_5.ca.md",
+      "content_file": "content_overrides/cap7_5.ca.md",
       "replace": [
         [
           "**Nota al Capítol 11**",

@@ -57,7 +57,7 @@ Hawking's original answer was brutal: yes, the information is lost; the horizon 
 
 Most physicists rejected that conclusion. Unitarity (information cannot be destroyed, only transformed) is too central to abandon. In recent decades the balance has tipped toward conservation.
 
-The most elegant mechanism is ER=EPR: the particles produced by evaporation are not simply radiated outwards but remain entangled with the interior of the horizon through Einstein-Rosen bridges, microscopic geometric connections that make the outside and the inside, in a deep sense, the same system described from two perspectives.
+The most elegant mechanism is ER=EPR (the conjecture that Chapter 11 presents at more leisure): the particles produced by evaporation are not simply radiated outwards but remain entangled with the interior of the horizon through Einstein-Rosen bridges, microscopic geometric connections that make the outside and the inside, in a deep sense, the same system described from two perspectives.
 
 The practical result is **scrambling**: the information the horizon contained mixes progressively and irreversibly with the outside field.
 

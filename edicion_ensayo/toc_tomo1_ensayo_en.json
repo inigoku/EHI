@@ -392,19 +392,27 @@
       "content_file": "en/cap6.en.md",
       "replace": [
         [
-          "chapter 5",
+          "Chapter 11",
           "⟦0.0⟧"
         ],
         [
-          "**Note to Chapter 7**",
+          "chapter 5",
           "⟦1.0⟧"
         ],
         [
+          "**Note to Chapter 7**",
+          "⟦2.0⟧"
+        ],
+        [
           "⟦0.0⟧",
-          "chapter 6"
+          "Chapter 12"
         ],
         [
           "⟦1.0⟧",
+          "chapter 6"
+        ],
+        [
+          "⟦2.0⟧",
           "**Note to Chapter 8**"
         ]
       ],

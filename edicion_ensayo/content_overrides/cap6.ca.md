@@ -57,7 +57,7 @@ La resposta original de Hawking era brutal: sí, la informació es perd; l'horit
 
 La majoria dels físics va rebutjar aquesta conclusió. La unitarietat (la informació no pot destruir-se, només transformar-se) és massa central per abandonar-la. En les últimes dècades la balança s'ha inclinat cap a la conservació.
 
-El mecanisme més elegant és ER=EPR: les partícules que produeix l'evaporació no es limiten a sortir radiades cap a l'exterior, sinó que segueixen entrellaçades amb l'interior de l'horitzó mitjançant ponts d'Einstein-Rosen, connexions geomètriques microscòpiques que fan de l'exterior i l'interior, en un sentit profund, el mateix sistema descrit des de dues perspectives.
+El mecanisme més elegant és ER=EPR (la conjectura que el capítol 11 presenta amb més calma): les partícules que produeix l'evaporació no es limiten a sortir radiades cap a l'exterior, sinó que segueixen entrellaçades amb l'interior de l'horitzó mitjançant ponts d'Einstein-Rosen, connexions geomètriques microscòpiques que fan de l'exterior i l'interior, en un sentit profund, el mateix sistema descrit des de dues perspectives.
 
 El resultat pràctic és l'**scrambling**: la informació que l'horitzó contenia es barreja progressivament i irreversiblement amb el camp exterior.
 

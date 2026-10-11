@@ -57,7 +57,7 @@ La respuesta original de Hawking era brutal: sí, la información se pierde; el 
 
 La mayoría de los físicos rechazó esa conclusión. La unitaridad (la información no puede destruirse, solo transformarse) es demasiado central para abandonarla. En las últimas décadas la balanza se ha inclinado hacia la conservación.
 
-El mecanismo más elegante es ER=EPR: las partículas que produce la evaporación no se limitan a salir radiadas al exterior, sino que siguen entrelazadas con el interior del horizonte mediante puentes de Einstein-Rosen, conexiones geométricas microscópicas que hacen del exterior y el interior, en un sentido profundo, el mismo sistema descrito desde dos perspectivas.
+El mecanismo más elegante es ER=EPR (la conjetura que el capítulo 11 presenta con más calma): las partículas que produce la evaporación no se limitan a salir radiadas al exterior, sino que siguen entrelazadas con el interior del horizonte mediante puentes de Einstein-Rosen, conexiones geométricas microscópicas que hacen del exterior y el interior, en un sentido profundo, el mismo sistema descrito desde dos perspectivas.
 
 El resultado práctico es el **scrambling**: la información que el horizonte contenía se mezcla progresiva e irreversiblemente con el campo exterior.
 
