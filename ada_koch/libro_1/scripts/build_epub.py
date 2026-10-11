@@ -23,8 +23,8 @@ OUT = os.path.join(HERE, "..", "El_hombre_que_esperaba.epub")
 
 TITLE = "El hombre que esperaba"
 SERIES = "El Cuaderno de Ada Koch · Libro I"
-AUTHOR = "Íñigo Barrera Barceló"
-AUTHOR_SORT = "Barrera Barceló, Íñigo"
+AUTHOR = "Ariadna Iturbe"
+AUTHOR_SORT = "Iturbe, Ariadna"
 SERIES_NAME = "El Cuaderno de Ada Koch"
 SERIES_INDEX = 1
 PUB_DATE = "2026-10-10"
@@ -153,7 +153,7 @@ for a_idx, (act_title, chapters) in enumerate(acts):
 col_html = epub.EpubHtml(title="Colofón", file_name="text/colophon.xhtml", lang="es")
 col_html.set_content(
     '<div class="colophon"><p>Se terminó de escribir el 10 de octubre de 2026,<br/>'
-    "en L'Hospitalet de Llobregat.</p></div>"
+    "en Barcelona.</p></div>"
 )
 link_css(col_html)
 book.add_item(col_html)

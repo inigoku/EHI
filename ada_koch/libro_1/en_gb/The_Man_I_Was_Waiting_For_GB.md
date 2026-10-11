@@ -1,7 +1,7 @@
 ---
 title: "The Man I Was Waiting For"
 subtitle: "The Sketchbook of Ada Koch · Book I"
-author: "Íñigo Barrera Barceló"
+author: "Ariadna Iturbe"
 lang: en-GB
 ---
 

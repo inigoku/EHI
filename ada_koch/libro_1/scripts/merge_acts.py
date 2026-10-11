@@ -18,6 +18,6 @@ def load(path):
 parts = [load(p) for p in sys.argv[1:4]]
 body = [f"# {n}\n" + p[p.find("\n## "):].strip() + "\n" for n, p in zip(ACTS, parts)]
 md = ('---\ntitle: "El hombre que esperaba"\nsubtitle: "El Cuaderno de Ada Koch · Libro I"\n'
-      'author: "Íñigo Barrera Barceló"\nlang: es-ES\n---\n\n' + "\n\n".join(body))
+      'author: "Ariadna Iturbe"\nlang: es-ES\n---\n\n' + "\n\n".join(body))
 open(OUT, "w", encoding="utf-8").write(md)
 print("palabras:", len(md.split()))

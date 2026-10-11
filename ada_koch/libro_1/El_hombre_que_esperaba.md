@@ -1,7 +1,7 @@
 ---
 title: "El hombre que esperaba"
 subtitle: "El Cuaderno de Ada Koch · Libro I"
-author: "Íñigo Barrera Barceló"
+author: "Ariadna Iturbe"
 lang: es-ES
 ---
 

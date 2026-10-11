@@ -23,8 +23,8 @@ OUT = os.path.join(HERE, "..", "en_gb", "The_Man_I_Was_Waiting_For_GB.epub")
 
 TITLE = "The Man I Was Waiting For"
 SERIES = "The Sketchbook of Ada Koch · Book I"
-AUTHOR = "Íñigo Barrera Barceló"
-AUTHOR_SORT = "Barrera Barceló, Íñigo"
+AUTHOR = "Ariadna Iturbe"
+AUTHOR_SORT = "Iturbe, Ariadna"
 SERIES_NAME = "The Sketchbook of Ada Koch"
 SERIES_INDEX = 1
 PUB_DATE = "2026-10-10"
@@ -163,8 +163,7 @@ for a_idx, (act_title, chapters, back_md) in enumerate(acts):
 
 col_html = epub.EpubHtml(title="Colophon", file_name="text/colophon.xhtml", lang="en")
 col_html.set_content(
-    '<div class="colophon"><p>Finished on 10 October 2026,<br/>'
-    "in L'Hospitalet de Llobregat.</p></div>"
+    '<div class="colophon"><p>Finished on 10 October 2026.</p></div>'
 )
 link_css(col_html)
 book.add_item(col_html)
