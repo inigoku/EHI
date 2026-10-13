@@ -406,6 +406,22 @@ No le des las gracias a nadie que no veas.
 
 Volví al faro con la empanada en el asiento de al lado y la frase dando vueltas, sin saber si hablaba de Álvaro o de otra cosa.
 
+En la curva de la gasolinera, a la salida del pueblo, había un coche parado en el arcén con el motor en marcha.
+
+Un BMW gris oscuro. Con los cristales de atrás tintados y el tubo de escape echando un humo blanco, quieto, en el aire frío.
+
+No lo miré al pasar. Lo miré por el retrovisor.
+
+En el parachoques de atrás, a la izquierda, tenía una abolladura. Pequeña, con la pintura saltada en forma de uña. La que le hice yo, una noche de lluvia, al dar marcha atrás contra una columna del garaje de la calle Ibiza. La que me costó dos semanas sin poder coger el coche y una conversación en la cocina que no quiero recordar.
+
+No podía ser. Hay miles de coches grises. Hay miles de abolladuras.
+
+Pisé el freno sin querer. El coche de atrás se puso en marcha. Despacio. Sin intermitente. Me adelantó en la recta de los eucaliptos, sin prisa, y por la ventanilla del conductor, que era la única sin tintar, vi un codo con la manga de un abrigo azul marino. Nada más. Un codo.
+
+Se perdió hacia Cee.
+
+Aparqué en la explanada del faro y me quedé dentro del coche con las manos en el volante hasta que la empanada se enfrió. No se lo conté a Julian. No se lo conté a nadie. Me dije que no había visto la matrícula. Era verdad. No la había querido ver.
+
 ### Maruxa · Costa da Morte, octubre de 1983
 
 Aquel otoño Xan empezó a no dormir.
@@ -1228,7 +1244,7 @@ Me senté en la escalera.
 
 Me lo contó despacio, con cuidado, como se le cuentan las cosas a los enfermos. Que Álvaro la había llamado tres veces en dos semanas. Que estaba muy preocupado. Que era tan buen chico, Ada, tan educado, siempre le había caído tan bien. Que le había contado que yo no dormía. Que vivía sola en un faro, en el fin del mundo, sin hablar con nadie. Que me había encontrado en noviembre con un hombre que nadie sabía de dónde había salido. Un hombre que se parecía, me dijo, que se parecía exactamente, a los dibujos que yo hacía de pequeña. A los de los márgenes.
 
-—Eu sei o que é iso, Ada —dijo mi madre. Y le temblaba la voz—. Eu tamén vin cousas. Cando tiña a túa idade. Cando se foi teu pai. Eu tamén vin cousas que non estaban.
+—Eu sei o que é iso, Ada —dijo mi madre. Y le temblaba la voz—. Eu tamén vin cousas. Cando era rapaza. E outra vez cando se foi teu pai. Eu tamén vin cousas que non estaban.
 
 Yo también vi cosas que no estaban.
 
@@ -1237,6 +1253,22 @@ Yo también vi cosas que no estaban.
 —Estás enferma, filla. —Muy bajo. Con una ternura que no le había oído en veinte años—. Coma min. Non é culpa túa. Ven a casa unha tempada. Ven a Santiago. Eu coídote.
 
 Estás enferma. Como yo. No es culpa tuya. Ven a casa. Yo te cuido.
+
+Y luego, sin venir a cuento, con otra voz, una voz pequeña, de niña que pregunta la hora:
+
+—Ada. ¿Segue apagada a lanterna?
+
+—¿Qué?
+
+—A do faro vello. A de arriba. ¿Segue apagada?
+
+—Claro que sí, mamá. Desde el ochenta y siete.
+
+Un silencio largo. Su respiración. El ruido de una persiana, allá en Santiago, que alguien bajaba un poco más.
+
+—Ah —dijo—. Ben.
+
+Y volvió a lo del médico, a lo de Santiago, a lo de que estaba enferma, como si no hubiera preguntado nada.
 
 No me lo decía ella. Lo reconocí en la tercera frase. Era la voz de mi madre, pero las palabras eran de otro. *Estás enferma. Siempre te lo dije.* Las mismas que gritaba él en el muelle en noviembre, con el cuaderno de Julian en la mano.
 
@@ -1426,7 +1458,7 @@ Me he arrepentido de eso más que de nada.
 
 En el tercer sueño el faro estaba encendido.
 
-Lo supe antes de abrir los ojos dentro del sueño, por la luz. Una luz blanca, enorme, que pasaba por encima de mis párpados cerrados cada pocos segundos, de izquierda a derecha, y se iba, y volvía. Como pasa la luz de un faro por una habitación de la costa en las películas. Como no ha pasado nunca por mi habitación, porque mi faro lleva apagado desde antes de que yo naciera.
+Lo supe antes de abrir los ojos dentro del sueño, por la luz. Una luz blanca, enorme, que pasaba por encima de mis párpados cerrados cada pocos segundos, de izquierda a derecha, y se iba, y volvía. Como no ha pasado nunca por mi habitación, porque mi faro lleva apagado desde antes de que yo naciera.
 
 Abrí los ojos y estaba arriba. En la linterna. Descalza en el suelo de chapa.
 
@@ -1452,7 +1484,7 @@ Y no llegó nadie a borrárselas.
 
 ---
 
-No voy a contar todo. No porque no me acuerde. Me acuerdo de todo. De cada segundo. Me acuerdo con el cuerpo, que es la memoria que no se puede borrar.
+No voy a contar todo. Me acuerdo con el cuerpo, que es la memoria que no se puede borrar.
 
 Me besó como se bebe agua después de una marea de cinco horas. Me quitó la camiseta del pijama sin dejar de besarme, a tirones, y yo le quité la suya, y la luz nos pasó por encima a los dos, por los hombros, por el pecho, y se fue.
 
@@ -1530,7 +1562,7 @@ No le contesté. Me acerqué y lo besé.
 
 Lo besé como si tuviera que borrar algo con la boca. Como se frota una mancha. Me puse encima de él antes de que terminara de despertarse, y él se rió contra mi boca, sorprendido, y luego dejó de reírse.
 
-No fue como en el sofá. En el sofá lo miré hasta el final. Me agarré a su cara como a una barandilla. Me obligué a tener los ojos abiertos, a ver su cara, a decir su nombre en voz alta dos veces para no olvidarme de quién era.
+No fue como en el sofá. En el sofá lo miré hasta el final y dije su nombre en voz alta dos veces para no olvidarme de quién era.
 
 Esta vez cerré los ojos.
 
@@ -1556,7 +1588,7 @@ Lo oí cerrar la puerta. Muy suave. Como se cierra la puerta de una habitación 
 
 Elisa se casó con el chico de Vigo un sábado de junio, en la iglesia del puerto, la misma donde me casé yo.
 
-Tenía dieciocho años. Llevaba mi vestido, arreglado por una modista de Cee, con la cintura metida y las mangas cortadas. Estaba guapísima. Estaba seria. Sonrió dos veces en toda la ceremonia, y las dos veces mirándolo a él.
+Tenía diecisiete años. Llevaba mi vestido, arreglado por una modista de Cee, con la cintura metida y las mangas cortadas. Estaba guapísima. Estaba seria. Sonrió dos veces en toda la ceremonia, y las dos veces mirándolo a él.
 
 Él estaba nervioso y contento, con un traje azul que le quedaba grande y la moto roja aparcada en la puerta de la iglesia con latas atadas detrás. Miró a Elisa en el altar. Miró a la cámara cuando se lo pidió el fotógrafo. Miró a todo el mundo.
 

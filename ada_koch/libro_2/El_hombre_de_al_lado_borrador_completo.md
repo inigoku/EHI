@@ -4,7 +4,6 @@ subtitle: "El Cuaderno de Ada Koch · Libro II"
 author: "Ariadna Iturbe"
 ---
 
-
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
@@ -1659,7 +1658,6 @@ Klaus me preguntó desde la cama si le había gustado el caldo.
 
 Y le puse la mano en la frente, que ardía, y me quedé así hasta que se durmió.
 
-
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
@@ -2077,6 +2075,22 @@ En la puerta, al despedirme, me cogió la cara con las dos manos, como hace desd
 No le des las gracias a nadie que no veas.
 
 Volví al faro con la empanada en el asiento de al lado y la frase dando vueltas, sin saber si hablaba de Álvaro o de otra cosa.
+
+En la curva de la gasolinera, a la salida del pueblo, había un coche parado en el arcén con el motor en marcha.
+
+Un BMW gris oscuro. Con los cristales de atrás tintados y el tubo de escape echando un humo blanco, quieto, en el aire frío.
+
+No lo miré al pasar. Lo miré por el retrovisor.
+
+En el parachoques de atrás, a la izquierda, tenía una abolladura. Pequeña, con la pintura saltada en forma de uña. La que le hice yo, una noche de lluvia, al dar marcha atrás contra una columna del garaje de la calle Ibiza. La que me costó dos semanas sin poder coger el coche y una conversación en la cocina que no quiero recordar.
+
+No podía ser. Hay miles de coches grises. Hay miles de abolladuras.
+
+Pisé el freno sin querer. El coche de atrás se puso en marcha. Despacio. Sin intermitente. Me adelantó en la recta de los eucaliptos, sin prisa, y por la ventanilla del conductor, que era la única sin tintar, vi un codo con la manga de un abrigo azul marino. Nada más. Un codo.
+
+Se perdió hacia Cee.
+
+Aparqué en la explanada del faro y me quedé dentro del coche con las manos en el volante hasta que la empanada se enfrió. No se lo conté a Julian. No se lo conté a nadie. Me dije que no había visto la matrícula. Era verdad. No la había querido ver.
 
 ### Maruxa · Costa da Morte, octubre de 1983
 
@@ -2920,7 +2934,7 @@ Me senté en la escalera.
 
 Me lo contó despacio, con cuidado, como se le cuentan las cosas a los enfermos. Que Álvaro la había llamado tres veces en dos semanas. Que estaba muy preocupado. Que era tan buen chico, Ada, tan educado, siempre le había caído tan bien. Que le había contado que yo no dormía. Que vivía sola en un faro, en el fin del mundo, sin hablar con nadie. Que me había encontrado en noviembre con un hombre que nadie sabía de dónde había salido. Un hombre que se parecía, me dijo, que se parecía exactamente, a los dibujos que yo hacía de pequeña. A los de los márgenes.
 
-—Eu sei o que é iso, Ada —dijo mi madre. Y le temblaba la voz—. Eu tamén vin cousas. Cando tiña a túa idade. Cando se foi teu pai. Eu tamén vin cousas que non estaban.
+—Eu sei o que é iso, Ada —dijo mi madre. Y le temblaba la voz—. Eu tamén vin cousas. Cando era rapaza. E outra vez cando se foi teu pai. Eu tamén vin cousas que non estaban.
 
 Yo también vi cosas que no estaban.
 
@@ -2929,6 +2943,22 @@ Yo también vi cosas que no estaban.
 —Estás enferma, filla. —Muy bajo. Con una ternura que no le había oído en veinte años—. Coma min. Non é culpa túa. Ven a casa unha tempada. Ven a Santiago. Eu coídote.
 
 Estás enferma. Como yo. No es culpa tuya. Ven a casa. Yo te cuido.
+
+Y luego, sin venir a cuento, con otra voz, una voz pequeña, de niña que pregunta la hora:
+
+—Ada. ¿Segue apagada a lanterna?
+
+—¿Qué?
+
+—A do faro vello. A de arriba. ¿Segue apagada?
+
+—Claro que sí, mamá. Desde el ochenta y siete.
+
+Un silencio largo. Su respiración. El ruido de una persiana, allá en Santiago, que alguien bajaba un poco más.
+
+—Ah —dijo—. Ben.
+
+Y volvió a lo del médico, a lo de Santiago, a lo de que estaba enferma, como si no hubiera preguntado nada.
 
 No me lo decía ella. Lo reconocí en la tercera frase. Era la voz de mi madre, pero las palabras eran de otro. *Estás enferma. Siempre te lo dije.* Las mismas que gritaba él en el muelle en noviembre, con el cuaderno de Julian en la mano.
 
@@ -3126,7 +3156,7 @@ Me he arrepentido de eso más que de nada.
 
 En el tercer sueño el faro estaba encendido.
 
-Lo supe antes de abrir los ojos dentro del sueño, por la luz. Una luz blanca, enorme, que pasaba por encima de mis párpados cerrados cada pocos segundos, de izquierda a derecha, y se iba, y volvía. Como pasa la luz de un faro por una habitación de la costa en las películas. Como no ha pasado nunca por mi habitación, porque mi faro lleva apagado desde antes de que yo naciera.
+Lo supe antes de abrir los ojos dentro del sueño, por la luz. Una luz blanca, enorme, que pasaba por encima de mis párpados cerrados cada pocos segundos, de izquierda a derecha, y se iba, y volvía. Como no ha pasado nunca por mi habitación, porque mi faro lleva apagado desde antes de que yo naciera.
 
 Abrí los ojos y estaba arriba. En la linterna. Descalza en el suelo de chapa.
 
@@ -3152,7 +3182,7 @@ Y no llegó nadie a borrárselas.
 
 ---
 
-No voy a contar todo. No porque no me acuerde. Me acuerdo de todo. De cada segundo. Me acuerdo con el cuerpo, que es la memoria que no se puede borrar.
+No voy a contar todo. Me acuerdo con el cuerpo, que es la memoria que no se puede borrar.
 
 Me besó como se bebe agua después de una marea de cinco horas. Me quitó la camiseta del pijama sin dejar de besarme, a tirones, y yo le quité la suya, y la luz nos pasó por encima a los dos, por los hombros, por el pecho, y se fue.
 
@@ -3230,7 +3260,7 @@ No le contesté. Me acerqué y lo besé.
 
 Lo besé como si tuviera que borrar algo con la boca. Como se frota una mancha. Me puse encima de él antes de que terminara de despertarse, y él se rió contra mi boca, sorprendido, y luego dejó de reírse.
 
-No fue como en el sofá. En el sofá lo miré hasta el final. Me agarré a su cara como a una barandilla. Me obligué a tener los ojos abiertos, a ver su cara, a decir su nombre en voz alta dos veces para no olvidarme de quién era.
+No fue como en el sofá. En el sofá lo miré hasta el final y dije su nombre en voz alta dos veces para no olvidarme de quién era.
 
 Esta vez cerré los ojos.
 
@@ -3256,7 +3286,7 @@ Lo oí cerrar la puerta. Muy suave. Como se cierra la puerta de una habitación 
 
 Elisa se casó con el chico de Vigo un sábado de junio, en la iglesia del puerto, la misma donde me casé yo.
 
-Tenía dieciocho años. Llevaba mi vestido, arreglado por una modista de Cee, con la cintura metida y las mangas cortadas. Estaba guapísima. Estaba seria. Sonrió dos veces en toda la ceremonia, y las dos veces mirándolo a él.
+Tenía diecisiete años. Llevaba mi vestido, arreglado por una modista de Cee, con la cintura metida y las mangas cortadas. Estaba guapísima. Estaba seria. Sonrió dos veces en toda la ceremonia, y las dos veces mirándolo a él.
 
 Él estaba nervioso y contento, con un traje azul que le quedaba grande y la moto roja aparcada en la puerta de la iglesia con latas atadas detrás. Miró a Elisa en el altar. Miró a la cámara cuando se lo pidió el fotógrafo. Miró a todo el mundo.
 
@@ -3297,7 +3327,6 @@ Y por encima de su hombro, por la ventana de la taberna, vi la torre del faro. A
 No la miré más. Cerré los ojos.
 
 Y por primera vez en dieciséis años, con los ojos cerrados, no vi nada que no fuera mi marido.
-
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
@@ -3347,7 +3376,7 @@ Brais miró al frente, al parabrisas.
 
 Te llevo yo.
 
-No lo preguntó. No me ofreció. Lo dijo como dice la hora de la marea.
+Lo dijo como dice la hora de la marea.
 
 Dije que no hacía falta, que tenía coche. Dijo que tenía que ir a A Coruña el jueves de todas formas, a por una pieza para el motor de la *Nai Carme*, que se había resentido del temporal. Que salía a las nueve.
 
@@ -3363,7 +3392,7 @@ La cogió once veces desde Cee hasta A Coruña. Las conté. No sé por qué las 
 
 Aparcamos en una calle de la Ciudad Vieja, delante de un portal de piedra con una placa dorada. Faltaban veinte minutos. Apagó el motor.
 
-Y nos quedamos allí. En el silencio de después del motor, que es un silencio distinto, más espeso, como el de una habitación donde alguien acaba de dejar de hablar.
+Y nos quedamos allí, en el silencio espeso de después del motor.
 
 —Teño que contarche unha cousa —dijo.
 
@@ -3519,7 +3548,7 @@ Ada se la había quitado.
 
 No por error. Ada no se equivoca en esas cosas. Se la había quitado a propósito. Para ver si podía.
 
-Y supe, sin que nadie me lo dijera, mirando aquel antebrazo limpio en el papel amarillento, que ella había querido saber si podía hacer con él lo que hizo conmigo.
+Si podía hacer con él lo que hizo conmigo.
 
 ---
 
@@ -3697,7 +3726,7 @@ No me fié. Los días sin viento en la Costa son los que más miedo me dan. Son 
 
 No había decidido nada. Llevaba siete noches decidiendo, y cada noche decidía una cosa distinta. Firmar. No firmar. Firmar y que se acabara. No firmar y que no se acabara nunca. Me dormía con una y me despertaba con la otra.
 
-La noche anterior no había decidido nada. Me había quedado en la galería hasta las tres con el PDF abierto en el móvil, leyendo la cláusula tercera una y otra vez. *Ninguna relación.* Hasta que las palabras dejaron de significar.
+La noche anterior me había quedado en la galería hasta las tres con el PDF abierto en el móvil, leyendo la cláusula tercera una y otra vez. *Ninguna relación.* Hasta que las palabras dejaron de significar.
 
 Julian no me preguntó nada en el desayuno. Llevaba unos días raro. Callado de otra manera. Como si estuviera contando algo por dentro que no me quería decir.
 
@@ -3941,13 +3970,13 @@ No me levantó la vista enseguida. Tenía la mano derecha encima de la rodilla, 
 
 Luego me miró a mí.
 
-Y supe, antes de que dijera nada, por cómo me miró, que había llegado tarde. Que no era una cosa que estuviera pensando. Que era una cosa pensada. Con la mochila hecha y el saco atado y la etiqueta de la tienda colgando.
+Y supe, antes de que dijera nada, por cómo me miró, que había llegado tarde. Que no era una cosa que estuviera pensando. Que era una cosa pensada.
 
 ---
 
 —Te elijo a ti —le dije.
 
-Así, desde la puerta, sin aire, sin quitarme el abrigo. Sin pensar en cómo sonaba. Lo dije porque llevaba cuatro kilómetros diciéndolo por dentro y ya no me cabía.
+Así, desde la puerta, sin aire. Llevaba cuatro kilómetros diciéndolo por dentro y ya no me cabía.
 
 —Te elijo a ti. Ha pasado una cosa en el muelle. Brais… Da igual. Da igual lo que haya pasado. Te elijo a ti. Siempre has sido tú.
 
@@ -4167,7 +4196,7 @@ No me preguntó nada. Se apartó para dejarme pasar y fue a la cocina y puso la 
 
 Me senté en mi silla. La de siempre. La que da a la ventana del puerto.
 
-Desde allí se veía el muelle. La lonja. La pared de la lonja, gris, con una mancha más oscura a la altura de un hombre que a lo mejor era humedad y a lo mejor no. El noray donde Brais se había sentado a esperar. Vacío.
+Desde allí se veía el muelle. La lonja. La pared blanca de la lonja, con una mancha más oscura a la altura de una cabeza que a lo mejor era humedad y a lo mejor no. El noray donde Brais se había sentado a esperar. Vacío.
 
 La abuela puso dos tazas en la mesa. Se sentó enfrente. Esperó.
 
@@ -4301,7 +4330,7 @@ Las dos hojas de mi madre las tiré. Las quemé en la cocina de leña el agosto 
 
 No se lo dije a la niña. Todavía no.
 
-Miré por la ventana. El faro estaba allí arriba, oscuro, con su torrecilla automática al lado parpadeando cada cinco segundos, verde, como un tic. Como un corazón que ya no es el suyo.
+Miré por la ventana. El faro estaba allí arriba, oscuro, con su torreta automática al lado parpadeando cada cinco segundos, blanca, fría, como un tic. Como un corazón que ya no es el suyo.
 
 Y la linterna vieja, apagada. Negra. Con el cristal de poniente sucio de sal.
 
@@ -4367,7 +4396,7 @@ Tardó mucho en hablar. Bebió media lata. Miró la punta.
 
 Luego me lo contó. Sin que yo le preguntara. Mirando el agua entre el casco y el muelle, aquella agua verde y aceitosa donde flotan las cabezas de sardina.
 
-Me contó que cuando vio la mano de aquel hombre en el brazo de Ada no pensó. Que no hubo un momento en que decidiera nada. Que estaba en la puerta de la lonja y de repente tenía al hombre contra la pared y no recordaba haber cruzado el muelle. Que lo primero que pensó, con el hombre ya contra la pared, fue en su padre. En su padre haciendo lo mismo, en ese mismo muelle, contra esa misma pared, cuando él tenía once años y lo miraba desde la puerta del bar con un Cola Cao en la mano.
+Me contó que cuando vio la mano de aquel hombre en el brazo de Ada no pensó. Que no hubo un momento en que decidiera nada. Que estaba en la puerta de la lonja y de repente tenía al hombre contra la pared y no recordaba haber cruzado el muelle. Que lo primero que pensó, con el hombre ya contra la pared, fue en su padre. En su padre haciendo lo mismo, en ese mismo muelle, contra esa misma pared, cuando él tenía doce años y lo miraba desde la puerta de la lonja. Solo que su padre había sabido parar.
 
 —E aquí ven o peor —dijo.
 
@@ -4393,7 +4422,7 @@ Lúa gimió bajito. Le puso el hocico en la rodilla.
 
 ---
 
-Yo podría haberme enfadado. Lo sé. Lo he pensado después, muchas veces, en el camino. Que un hombre de verdad, un hombre de los que salen en las películas que ve Ada, se habría levantado de la caja de pescado y le habría dado un puñetazo. O se habría ido sin decir nada. O le habría dicho que no volviera a acercarse a ella.
+Yo podría haberme enfadado. Un hombre de los que salen en las películas que ve Ada se habría levantado de la caja de pescado y le habría dado un puñetazo.
 
 Pero yo no sé ser un hombre de las películas. Yo sé lo que es querer algo que no te pertenece. Lo sé mejor que nadie.
 
@@ -4411,7 +4440,7 @@ No contestó. Le temblaba la mandíbula.
 
 Brais bajó la cabeza.
 
-Y lloró. Un hombre de ese tamaño, con esos brazos, en la cubierta de su barco, a las diez de la mañana, con una lata de cerveza en la mano buena. Lloró como lloran los hombres que no saben, con la boca cerrada y los hombros, haciendo un ruido como de motor que no arranca.
+Y lloró. Un hombre de ese tamaño, en la cubierta de su barco, a las diez de la mañana. Lloró como lloran los hombres que no saben, con la boca cerrada y los hombros, haciendo un ruido como de motor que no arranca.
 
 Yo no le puse la mano en la espalda. No me pareció que la quisiera. Me quedé sentado a su lado, en mi caja, mirando la punta, y esperé. Lúa se le subió encima.
 
@@ -4553,7 +4582,7 @@ Pensé que mi abuela lo había visto todo desde su ventana y lo había callado c
 
 —¿Qué viste tú?
 
-No especifiqué. No dije dónde, ni cuándo, ni qué. Lo pregunté así, como se tira una piedra a un pozo para ver si tiene fondo.
+No dije dónde, ni cuándo, ni qué. Lo pregunté como se tira una piedra a un pozo.
 
 Mi madre no contestó.
 
@@ -4565,11 +4594,11 @@ Tenía los ojos rojos. No de ahora. De siempre. De un año entero.
 
 ---
 
-—Tenía quince años —dijo.
+—Tenía catorce años. Iba a cumplir quince —dijo.
 
 Miraba al frente. Al mar, allá abajo, gris, con una línea de espuma en las rocas.
 
-—Fue el verano después de que se fuera el farero. El del ochenta y ocho. Ya habían puesto la luz automática, la torrecilla esa verde. El faro viejo estaba cerrado. Con un candado en la puerta. Sin nadie. Lo habían dejado así para que se cayera.
+—Fue el verano después de que se fuera el farero. El del ochenta y ocho. Ya habían puesto la luz automática, la de la torreta de hierro. El faro viejo estaba cerrado. Con un candado en la puerta. Sin nadie. Lo habían dejado así para que se cayera.
 
 Se frotó las manos.
 
@@ -4579,7 +4608,7 @@ Casi sonrió.
 
 —Una noche de agosto. Las tres, o por ahí. El chico se había ido a mear detrás de unas piedras. Yo estaba sola, tumbada boca arriba, mirando las estrellas. Y de repente vi la luz.
 
-—¿La de la torrecilla?
+—¿La de la torreta?
 
 —No. —Se volvió a mirarme. Muy seria—. La del faro viejo, Ada. La de la linterna. La que llevaba un año apagada con la lámpara desmontada y el candado en la puerta.
 
@@ -4619,7 +4648,7 @@ No era una pregunta.
 
 El cuartel de Cee es un edificio de ladrillo de los años setenta con una bandera mojada y un seto mal cortado. Dentro huele a café de máquina y a lejía.
 
-Me atendió la guardia de las gafas. La misma que había esposado a Brais en el muelle. Me sentó en un despacho con un calendario de un taller de Vimianzo y un ficus de plástico, y me puso delante el documento que había mandado la abogada de Álvaro.
+Me atendió el guardia de las gafas. El mismo que había esposado a Brais en el muelle. Me sentó en un despacho con un calendario de un taller de Vimianzo y un ficus de plástico, y me puso delante el documento que había mandado la abogada de Álvaro.
 
 El acuerdo. Él retiraba la querella por denuncia falsa. Yo retiraba la mía. Y firmábamos los dos una declaración conjunta que decía, en el apartado tercero, con letra de imprenta:
 
@@ -4629,7 +4658,7 @@ Mi madre estaba fuera, en el pasillo, sentada en una silla de plástico naranja 
 
 —No lo voy a firmar —dije.
 
-La guardia asintió. No pareció sorprendida.
+El guardia asintió. No pareció sorprendido.
 
 —Está en su derecho. —Cogió el papel—. Entonces, su denuncia sigue adelante. Y la de él contra usted. Y la de él contra el marinero por lesiones. ¿Lo entiende? Esto va a ser largo.
 
@@ -4645,7 +4674,7 @@ Lo taché. Una raya. Encima escribí:
 
 *Expareja. Vivíamos juntos.*
 
-La guardia lo leyó al revés, desde su lado de la mesa.
+El guardia lo leyó al revés, desde su lado de la mesa.
 
 —Eso cambia las cosas —dijo.
 
@@ -4661,7 +4690,7 @@ No la dije.
 
 Dije lo que pasó. Que Álvaro me agarró el brazo y me hizo daño; me remangué y le enseñé los cuatro dedos, ya amarillos. Que Brais lo apartó de mí. Que eso estuvo bien. Y que después le siguió pegando cuando Álvaro ya estaba en el suelo y ya no me podía hacer nada. Y que eso no estuvo bien. Que yo grité que parara. Que paró. Que se sentó en el noray y esperó a que lo detuvieran sin intentar irse. Y que en ningún momento, ni antes ni después, me tocó a mí.
 
-—No lo defiende usted mucho —dijo la guardia, levantando la vista del teclado.
+—No lo defiende usted mucho —dijo el guardia, levantando la vista del teclado.
 
 —No —dije—. No le hace falta que lo defienda yo. Le hace falta que diga la verdad.
 
@@ -4723,6 +4752,14 @@ Y miré la foto de la boda, allí en el aparador. A Klaus, con su traje prestado
 
 —O amor cantaba fatal —dije—. E quedouse.
 
+Esa noche Elisa no volvió a Santiago.
+
+No lo dijo. No lo preguntó. Fregué las tazas, y cuando me di la vuelta ya había subido a su cuarto de niña, el del tejado del alpendre, el que yo nunca he cambiado. Oí cómo abría la ventana. La ventana por la que se escapaba.
+
+A la mañana siguiente la encontré en la cocina a las siete, con mi bata puesta y un café en las manos, sentada en mi silla. Mirando el faro. Sin gafas.
+
+No le dije que se levantara. Me senté en la otra.
+
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
 ```
@@ -4769,7 +4806,7 @@ No había nada. Tenía las manos limpias. Pero el miedo no se fue.
 
 Subimos a las once. Ella delante, yo detrás, por la escalera estrecha que cruje en el quinto escalón y en el noveno. Llevaba el jersey gris que le está grande y unos calcetines de lana de su abuela, y al subir se le veía la parte de atrás de las rodillas.
 
-En el cuarto no encendió la luz. Dejó la puerta de la escalera abierta y por ella entraba lo poco que llega de la torrecilla, una vez cada cinco segundos, verde. Verde y oscuro. Verde y oscuro. Como si alguien abriera y cerrara un ojo.
+En el cuarto no encendió la luz. Dejó la puerta de la escalera abierta y por ella entraba lo poco que llega de la torreta, una vez cada cinco segundos, blanco. Blanco y oscuro. Blanco y oscuro. Como si alguien abriera y cerrara un ojo.
 
 Se dio la vuelta.
 
@@ -4799,7 +4836,7 @@ Cuando llegué arriba dejó de respirar.
 
 No sé cuánto tiempo estuve. No lo conté. Me acuerdo de su sabor, que es de sal y de otra cosa que no tiene nombre. Me acuerdo de cómo se le fueron cerrando los muslos alrededor de mi cara, despacio, y de cómo la mano del pelo dejó de ser barandilla y se convirtió en otra cosa. Me acuerdo de que dijo mi nombre. Muy bajo, partido en dos, como lo dijo la primera vez, la noche que yo no sabía todavía que era un nombre.
 
-Y me acuerdo de que cuando se le arqueó la espalda y se le escapó aquel ruido, aquel ruido de garganta que se le escapa, la luz verde de la torrecilla entró por la puerta y le pintó el vientre. Verde. Y oscuro.
+Y me acuerdo de que cuando se le arqueó la espalda y se le escapó aquel ruido, aquel ruido de garganta que se le escapa, la luz blanca de la torreta entró por la puerta y le pintó el vientre. Blanco. Y oscuro.
 
 ---
 
@@ -4829,7 +4866,7 @@ O eso creemos.
 
 Nos quedamos así. Encima de la colcha, sin taparnos, con el sudor enfriándose. Ella con la cabeza en mi pecho. Yo con la mano en su pelo.
 
-Verde. Oscuro. Verde. Oscuro.
+Blanco. Oscuro. Blanco. Oscuro.
 
 —Te tengo que pedir una cosa —le dije.
 
@@ -4937,7 +4974,7 @@ Bajamos la cuesta sin hablar. Lúa delante, corriendo y volviendo, corriendo y v
 
 A mitad de la cuesta se paró.
 
-Se dio la vuelta y miró el faro. Mucho tiempo. La torre blanca, con la linterna negra arriba. La torrecilla verde al lado, parpadeando. La galería con nuestras dos sillas.
+Se dio la vuelta y miró el faro. La torre blanca, con la linterna negra arriba. La torreta al lado, parpadeando. La galería con nuestras dos sillas.
 
 Yo no miré el faro. Lo miré a él mirarlo.
 
@@ -4963,11 +5000,11 @@ Vi que hablaban poco. Que Brais decía algo y Julian asentía. Que Julian se toc
 
 Y luego vi que se abrazaban.
 
-No como se abrazan los hombres aquí, con dos palmadas en la espalda y un paso atrás. Se abrazaron de verdad. Mucho tiempo. Brais con la mano vendada en la nuca de Julian. Julian con la cara en el hombro de Brais, con la mochila enorme a la espalda torciéndole el equilibrio. Dos hombres altos en la punta de un espigón, a las siete y media de la mañana, con las gaviotas gritando alrededor y las lanchas saliendo.
+No como se abrazan los hombres aquí, con dos palmadas en la espalda y un paso atrás. Se abrazaron de verdad. Brais con la mano vendada en la nuca de Julian. Julian con la cara en el hombro de Brais, con la mochila enorme a la espalda torciéndole el equilibrio. Dos hombres altos en la punta de un espigón, a las siete y media de la mañana, con las gaviotas gritando alrededor y las lanchas saliendo.
 
 Y yo allí, a treinta metros, con las manos en los bolsillos.
 
-Pensé en las noches. En los sueños. En la cicatriz que dibujé sin cicatriz. En el muelle, en la sangre en la pared de la lonja. En lo que había sentido por aquel hombre durante un mes y que se me había roto entre las manos en tres segundos.
+Pensé en lo que había sentido por aquel hombre durante meses y que se me había roto entre las manos en tres segundos.
 
 Y sentí una cosa que no esperaba sentir. Que no era celos. Que no era deseo. Que no era culpa.
 
@@ -5019,6 +5056,8 @@ Yo estaba en el espigón de enfrente. En el de las barcas pequeñas, sentada en 
 
 Había bajado a las siete, con el abrigo encima de la bata. No le había dicho a nadie que iba a bajar. Hay cosas que se miran de lejos.
 
+Elisa bajó conmigo. Lleva tres días en mi casa y no ha hablado de volver. Se puso el abrigo de Klaus, el que todavía cuelga en la entrada porque ninguna de las dos se ha atrevido a darlo, y se sentó a mi lado en el banco. Las dos mirando lo mismo. Como mirábamos el faro desde la cocina, años, sin decírnoslo.
+
 Lo vi todo. El abrazo de los dos rapaces. El beso a mi nieta delante de las de la lonja, que ya tienen tema para un mes. La mochila verde por la carretera. La mano levantada en la curva.
 
 Y a mi nieta, sola, al principio del espigón, con el jersey de pescador de su abuelo que le llega por las rodillas, con las manos en los bolsillos. Quieta. Tan quieta que una gaviota se le posó a dos metros.
@@ -5038,6 +5077,8 @@ Yo la pasé sola, la del veintiocho de mayo del ochenta y siete. Con Klaus ronca
 Nadie me cantó.
 
 A ella sí le cantaré. Pero todavía no.
+
+Elisa, a mi lado, me cogió la mano encima de la piedra fría. Una mano flaca, blanca, de no salir. Ella también conocía la canción. Tampoco la cantó.
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
@@ -5065,7 +5106,7 @@ No vino.
 
 Cumplí la promesa.
 
-Lo escribo aquí porque es lo único de lo que estoy orgullosa de esa semana. No dibujé. Ni a él, ni su mano, ni la media luna, ni la mochila verde dando bandazos por la carretera. Ni el cuaderno negro, que seguía en el cajón de los cubiertos con su hoja borrada y sus virutas. Ni un folio en blanco en el suelo de la linterna, para ver qué pasaba.
+Es lo único de lo que estoy orgullosa de esa semana. No dibujé. Ni a él, ni su mano, ni la media luna, ni la mochila verde dando bandazos por la carretera. Ni el cuaderno negro, que seguía en el cajón de los cubiertos con su hoja borrada y sus virutas. Ni un folio en blanco en el suelo de la linterna, para ver qué pasaba.
 
 Hubo noches en que las manos me lo pedían. En que me despertaba con los dedos cerrados alrededor de un lápiz que no tenía. Me levantaba y me lavaba las manos con agua fría, como mi madre cuando le temblaban, y me volvía a acostar con las manos debajo de la almohada.
 
@@ -5078,6 +5119,8 @@ No le pregunté.
 El tercer día le hice la pregunta. A mi abuela. La que llevaba haciéndome desde el muelle.
 
 Estábamos en su cocina, con la ventana del puerto empañada y la radio puesta muy bajo, una de esas emisoras de pasodobles que escucha ella. El barco de Brais no estaba en su sitio. Llevaba tres días sin estar. Salía antes del amanecer y volvía de noche, me había dicho la mujer del bar, como si tuviera prisa por estar lejos.
+
+Mi madre estaba arriba. La oíamos andar por su cuarto de niña, abrir el armario, cerrarlo. Y luego, un ruido que me hizo levantar la cabeza: una persiana subiendo. Entera, de un tirón, hasta el tope, que golpeó contra la caja. Mi abuela miró al techo y no dijo nada. En esa casa nadie ha bajado nunca una persiana. Pero mi madre la había subido igual. Por costumbre de curarse.
 
 —Abuela —dije—. ¿Yo le quería? ¿A Brais? ¿O solo le…?
 
@@ -5117,6 +5160,28 @@ Y si eso era así, ninguna respuesta me iba a servir. Ni la de mi abuela. Ni la 
 
 ---
 
+El quinto día llegó el cartero de la moto, con el casco puesto, y me hizo firmar otra vez en la máquina de la pantalla rota.
+
+Juzgado de Violencia sobre la Mujer de Corcubión. Tres folios. Los leí de pie en la puerta, con Lúa oliendo el sobre.
+
+Orden de protección. Prohibición de aproximarse a menos de quinientos metros de mi persona, de mi domicilio y de mi lugar de trabajo, que son el mismo sitio. Prohibición de comunicarse conmigo por cualquier medio. Comparecencia fijada para abril.
+
+Los mismos quinientos metros que él me ofrecía en su acuerdo, a cambio de que yo dijera que no había pasado nada. Ahora me los daba un juez. Sin que yo tuviera que decir nada que no fuera verdad.
+
+A las doce me llamó su abogada. Me habló de usted, muy seca, sin una palabra de más. Su cliente retiraba la querella por denuncia falsa. Su cliente no tenía interés en prolongar el procedimiento. Su cliente, dijo, y se le notaba que lo decía leyendo, deseaba que yo me recuperara.
+
+—¿Y la denuncia contra Brais? —le pregunté.
+
+Un silencio.
+
+—Esa sigue su curso —dijo—. Las lesiones son las lesiones, señora.
+
+Colgué. Me quedé mirando el móvil un rato. Luego busqué su nombre en la agenda, el de Álvaro, que seguía allí, con la foto de un verano en Cadaqués que nunca había tenido valor de cambiar.
+
+No lo borré. Lo dejé allí. Que se quedara, como se queda una cicatriz. Ya no hacía falta borrarlo para que no pudiera llamarme.
+
+---
+
 El sexto día, a las tres y diez de la madrugada, abrí el modelo.
 
 No por nada. No había borrasca. Había un anticiclón enorme, quieto, sobre las Azores, y una semana por delante de cielos limpios y helada en el interior. Abrí el modelo como se abre la nevera cuando no tienes hambre.
@@ -5151,7 +5216,7 @@ Pasé la animación. Hora a hora. Las isobaras se movían despacio, el anticicl�
 
 Al ritmo de un hombre que anda.
 
-No sé lo que sentí. Lo he pensado mucho desde entonces y no sé ponerle nombre. No era miedo. No era alivio. Era como cuando de niña te despertabas en el asiento de atrás del coche, de noche, en la autopista, y veías la nuca de tu padre al volante, iluminada por los faros de los otros, y te volvías a dormir sin saber a dónde íbais.
+No sé lo que sentí. No era miedo. No era alivio. Era como cuando de niña te despertabas en el asiento de atrás del coche, de noche, en la autopista, y veías la nuca de tu padre al volante, iluminada por los faros de los otros, y te volvías a dormir sin saber a dónde íbais.
 
 Alguien estaba mirando a Julian desde arriba.
 
@@ -5187,7 +5252,7 @@ Y en la espalda, debajo del hombro izquierdo, el lunar.
 
 Me senté en el suelo de la entrada. Lúa dejó de ladrar y se me pegó al costado, temblando.
 
-No era mi trazo. Lo sé como sé mi letra. Yo dibujo con líneas cortas, muchas, una encima de otra, buscando; mi profesora de la facultad decía que dibujo como quien tantea en la oscuridad. Esto era otra cosa. Líneas largas, de una vez, sin levantar el lápiz. Seguras. Lentas. La línea de alguien que no tiene prisa porque tiene todo el tiempo del mundo. La línea de alguien que ha mirado eso mismo desde ese mismo sitio miles de veces.
+No era mi trazo. Lo sé como sé mi letra. Yo dibujo con líneas cortas, muchas, una encima de otra, buscando; mi profesora de dibujo del colegio decía que dibujo como quien tantea en la oscuridad. Esto era otra cosa. Líneas largas, de una vez, sin levantar el lápiz. Seguras. Lentas. La línea de alguien que no tiene prisa porque tiene todo el tiempo del mundo. La línea de alguien que ha mirado eso mismo desde ese mismo sitio miles de veces.
 
 No era el trazo de Julian. Julian dibuja como un niño, con la lengua fuera, y las higueras le salen como brócolis.
 
