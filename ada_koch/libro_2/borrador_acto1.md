@@ -6,7 +6,7 @@
 
 La primera noche que dormí al lado de un hombre con nombre, soñé con otro.
 
-Era el muelle, de noche, sin luna. Las farolas del puerto estaban apagadas y solo había la luz amarilla de una furgoneta con las puertas de atrás abiertas. Olía a gasoil y a algas. El agua golpeaba los pilotes debajo de mis pies con un ruido de lengua.
+Era el muelle, de noche, sin luna. Las farolas del puerto estaban apagadas y solo había la luz amarilla de una furgoneta con las puertas de atrás abiertas. Olía a gasoil y a algas. Debajo de mis pies, el agua lamía los pilotes.
 
 Él salía del mar por la rampa de las barcas. Despacio, sin prisa, como si el agua fuera suya y le costara dejarla. Llevaba el neopreno bajado hasta la cintura, y el torso le brillaba de mojado bajo aquella luz de furgoneta. Ancho. Quieto incluso andando. Con la cicatriz del antebrazo que yo no le había dibujado nunca, porque nunca le había dibujado nada.
 
@@ -20,7 +20,7 @@ Con las dos manos, las agrietadas, las de sal, abiertas sobre mis caderas por en
 
 El neopreno mojado contra mis muslos. Su boca en el cuello, en el hombro, más abajo. La barba me arañaba y yo quería que me arañara más. Le bajé el neopreno con las dos manos, a tirones, torpe, porque la goma se pegaba a la piel mojada y no quería soltarlo, y él se rió contra mi pecho sin hacer ruido, solo con el aire.
 
-Me subió en brazos como me había subido por el acantilado. Igual. Sin esfuerzo y sin pedir permiso. Y yo le rodeé la cintura con las piernas y me dejé caer sobre él, despacio, entera, hasta que no quedó aire entre los dos.
+Me subió en brazos como me había subido por el acantilado. Igual. Sin esfuerzo y sin pedir permiso. Me agarré a su espalda mojada y, debajo de la palma derecha, en el omóplato, encontré una cicatriz larga, en relieve, como una costura mal hecha. Y yo le rodeé la cintura con las piernas y me dejé caer sobre él, despacio, entera, hasta que no quedó aire entre los dos.
 
 No me dijo nada en todo el rato. Ni mi nombre. Ni una palabra. Solo respiraba contra mi oído, hondo, a golpes, como respira el mar contra las rocas de la cala cuando sube la marea.
 
@@ -203,6 +203,8 @@ Encima del aparador había una foto en blanco y negro, en un marco de plata con 
 Me quedé delante de la foto más tiempo del que es educado quedarse delante de una foto en casa ajena. No sé por qué. Me pareció que aquel hombre sabía algo que yo estaba aprendiendo.
 
 —Klaus —dijo la abuela detrás de mí. Sin más. Como se dice el nombre de alguien que va a volver a cenar.
+
+Ella se llama Maruxa. Me lo había dicho Ada en la cuesta, y me había dicho también que desde que murió él ya casi nadie la llama así.
 
 Me senté donde me dijo. Ada se sentó a mi lado. Su abuela, enfrente.
 
@@ -412,7 +414,7 @@ Brais se acercó con una bolsa de malla llena de percebes, mojada, chorreando, y
 
 A Julian. No a mí.
 
-Yo estaba al lado, con las manos vacías, y él rodeó mi hombro con el brazo extendido para dársela a Julian por el otro lado, sin rozarme. Lo vi hacerlo. Vi el brazo pasar a un palmo de mi cara, con la manga del chubasquero oliendo a sal, y no tocarme.
+Yo estaba al lado, con las manos vacías, y él rodeó mi hombro con el brazo extendido para dársela a Julian por el otro lado. Lo vi hacerlo. Vi el brazo pasar junto a mi cara, con la manga del chubasquero oliendo a sal, y no tocarme.
 
 No sé si lo hizo a propósito. Me pasé la noche pensando si lo hizo a propósito.
 
@@ -570,7 +572,7 @@ Era el sueño. No parecido. Igual. La espalda ancha, mojada, brillante. La forma
 
 La cicatriz también estaba en el sueño.
 
-Me lo dije muy despacio, apoyada en la pared del recibidor. La cicatriz también estaba en el sueño. Yo la había tocado en el sueño con la palma abierta mientras él me levantaba. Y no se la había visto nunca. Nunca. Hasta ese momento.
+Me lo dije muy despacio, apoyada en la pared del recibidor. La cicatriz también estaba en el sueño. Yo la había tocado en el sueño con la palma abierta, agarrada a su espalda, mientras él me levantaba. Y no se la había visto nunca. Nunca. Hasta ese momento.
 
 Tiene que haber una explicación, pensé. Se la vi en la playa sin darme cuenta. Se la vi la noche del rescate, cuando yo estaba medio muerta y no me enteraba de nada. El cerebro guarda cosas que no sabes que has visto. Lo dicen todos los libros. El cerebro guarda.
 
@@ -1026,7 +1028,7 @@ Debajo de la mesa no había sitio para cuatro piernas.
 
 Lo noté al sentarme. Sus rodillas estaban ahí, en la oscuridad debajo del mantel, a nada de las mías. Noté el calor antes que la tela. Y retiré las piernas debajo de la silla, todo lo que pude, con los tobillos cruzados y las rodillas apretadas, como una niña en misa.
 
-Y noté que él hacía lo mismo. Al mismo tiempo. El roce del pantalón contra la pata de la silla. El hueco que se abrió debajo de la mesa, de repente, entre los dos.
+Y noté que él hacía lo mismo. Al mismo tiempo. El roce del pantalón contra la pata de la silla.
 
 Un hueco de nada. Un palmo.
 
@@ -1363,6 +1365,8 @@ Se me puso la piel de gallina en los brazos.
 —No se lo cogí —dijo deprisa—. Me dejó un audio. No lo he escuchado entero. Estaba… no sé. Raro. Dulce. Decía que te echaba de menos, que tú no estabas bien, que alguien debería vigilarte, que en ese faro te estabas volviendo loca como tu madre.
 
 Como mi madre.
+
+Mi madre se llama Elisa. Es la hija de mi abuela y de Klaus, y tiene sus ojos grises, como yo. Vive en Santiago, en el piso de siempre, con las persianas a media altura desde hace veinte años. Hablamos los domingos, cinco minutos, del tiempo. Álvaro la conoció en una comida de Navidad. Le cayó muy bien. Supo desde el primer día qué cosas decirle y en qué tono.
 
 —Lo he borrado. —Me cogió la mano otra vez—. Te lo digo porque si me ha llamado a mí, va a llamar a más gente. Va a contar su versión. Es lo que hace. Prepárate.
 
