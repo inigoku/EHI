@@ -1544,6 +1544,36 @@ No sé qué era. Lo apunto porque lo apunto todo.
 
 Ya van dos.
 
+---
+
+A las cuatro, con Ada dormida, salí de la cama y fui a buscar el cuaderno.
+
+No diré dónde lo guardo. Ni aquí. Es lo único que no apunto.
+
+No lo había abierto desde la mañana en que ella me lo dio. Lo abrí en la cocina, con la luz pequeña de la campana, y pasé de largo las hojas donde estoy yo sin mirarlas, porque mirarlas me marea. La página del martes. La de la roca. Las que el mar le devolvió a Brais pegadas con cinta.
+
+Después de la última hoja donde estoy yo, el cuaderno sigue.
+
+En blanco.
+
+Las conté. Treinta y una hojas. Por las dos caras, sesenta y dos. Sesenta y dos sitios donde no hay nadie todavía.
+
+La mujer de Le Puy venía de mil quinientos kilómetros. El chico de Sevilla, de mil. El de la barba, de la puerta de su casa.
+
+Yo vengo de la página de antes.
+
+Pasé la mano por la primera hoja en blanco. Despacio. Como Ada pasa la mano por el papel antes de empezar, que la he visto hacerlo en sueños, aunque yo no sueño.
+
+No dibujé nada. No tengo lápiz. Los lápices de esta casa son de ella, y están contados.
+
+Guardé el cuaderno donde lo guardo. Abrí la lata de las galletas danesas. Conté los billetes.
+
+Cuatrocientos veinte euros.
+
+No sé cuánto cuesta un lápiz. Sí sé cuánto cuesta ir andando a algún sitio: nada. Solo las botas.
+
+Y eso también lo apunto, aunque no sepa todavía qué es.
+
 ### Maruxa · Costa da Morte, febrero de 1980
 
 Aquel invierno Klaus tuvo una gripe que lo tumbó dos semanas, y alguien tenía que subirle la comida al farero.
