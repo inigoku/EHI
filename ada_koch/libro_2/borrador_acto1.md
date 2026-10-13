@@ -42,7 +42,7 @@ Tardé un momento en saber dónde estaba. La habitación de arriba. La ventana g
 
 Me quedé muy quieta. Con miedo a que se me notara. Como si el cuerpo pudiera hablar por mí, como si el calor que todavía tenía entre las piernas fuera a despertarlo.
 
-No se despertó. Respiraba despacio. La barba que yo le había dibujado, las pestañas que yo le había dibujado, la boca un poco abierta que yo no le había dibujado nunca así. En la palma de la mano, la media luna.
+No se despertó. Respiraba despacio. La barba que yo le había dibujado, las pestañas que yo le había dibujado, la boca un poco abierta que yo no le había dibujado nunca así. En el dorso de la mano, entre el pulgar y el índice, la media luna de mis dientes.
 
 Le había dado un nombre para que pudiera irse con él a donde quisiera. Y la primera noche, la que se fue fui yo.
 
