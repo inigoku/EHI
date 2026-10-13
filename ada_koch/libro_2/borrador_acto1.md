@@ -42,7 +42,7 @@ Tardé un momento en saber dónde estaba. La habitación de arriba. La ventana g
 
 Me quedé muy quieta. Con miedo a que se me notara. Como si el cuerpo pudiera hablar por mí, como si el calor que todavía tenía entre las piernas fuera a despertarlo.
 
-No se despertó. Respiraba despacio. La barba que yo le había dibujado, las pestañas que yo le había dibujado, la boca un poco abierta que yo no le había dibujado nunca así. En el dorso de la mano, entre el pulgar y el índice, la media luna de mis dientes.
+No se despertó. La barba que yo le había dibujado, las pestañas que yo le había dibujado, la boca un poco abierta que yo no le había dibujado nunca así. En el dorso de la mano, entre el pulgar y el índice, la media luna de mis dientes.
 
 Le había dado un nombre para que pudiera irse con él a donde quisiera. Y la primera noche, la que se fue fui yo.
 
@@ -120,13 +120,13 @@ Escribí el parte para los parques eólicos de Lugo. Contesté a Marcos. Le mand
 
 Y en un momento dado, sin darme cuenta, tenía un lápiz en la mano.
 
-Lo había cogido del bote sin decidirlo, como se coge un vaso de agua. Tenía los dedos ya colocados, el índice estirado, la muñeca suelta. La mano sabía lo que quería dibujar antes que yo. Una espalda. Una cuerda. Un neopreno bajado hasta la cintura.
+Lo había cogido del bote sin decidirlo. Tenía los dedos ya colocados, el índice estirado, la muñeca suelta. La mano sabía lo que quería dibujar antes que yo. Una espalda. Una cuerda. Un neopreno bajado hasta la cintura.
 
 No tenía dónde.
 
 El único cuaderno que contaba ya no era mío. Se lo había dado a Julian una mañana en la cocina, con la llave del candado encima, y él lo había guardado donde yo había prometido no preguntar. Me había quedado sin papel. Lo había decidido yo. Era lo justo.
 
-Dejé el lápiz en el bote. Despacio. Con la punta hacia abajo, como se deja una cosa que quema.
+Dejé el lápiz en el bote. Con la punta hacia abajo, como se deja una cosa que quema.
 
 ---
 
@@ -178,7 +178,7 @@ Xosé o Ruivo no levantó la vista de la red. Pero contestó.
 
 —Bos días, alemán.
 
-Klaus me lo contó al volver como quien cuenta que le ha tocado la lotería. Repitió la frase veinte veces, imitando la voz de Xosé, mal, fatal, con las erres en el sitio equivocado.
+Klaus me lo contó al volver, radiante. Repitió la frase veinte veces, imitando la voz de Xosé, mal, fatal, con las erres en el sitio equivocado.
 
 Aquel invierno aprendí una cosa de mi pueblo que no había aprendido en veinticinco años viviendo en él. Aquí no se gana a nadie hablando. Se gana estando. Callado, con las manos en el agua, la noche que hace falta.
 
@@ -264,7 +264,7 @@ Se rió. Por primera vez en una semana. Con la cabeza echada hacia atrás.
 
 Esa noche no podía dormir.
 
-No es raro. Desde que tengo nombre duermo peor. Antes dormía como se apaga una lámpara: de golpe, sin ruido, y me encendía igual. Ahora el sueño me cuesta. Tengo cosas dentro que no se apagan cuando cierro los ojos. La cara de la abuela. El hombre de la foto. La mano de Ada apretando la mía en la cuesta, fuerte, como se aprieta una cuerda.
+No es raro. Desde que tengo nombre duermo peor. Antes dormía como se apaga una lámpara: de golpe, sin ruido, y me encendía igual. Ahora el sueño me cuesta. Tengo cosas dentro que no se apagan cuando cierro los ojos. La cara de la abuela. El hombre de la foto. La mano de Ada apretando la mía en la cuesta, fuerte.
 
 Ada dormía de lado, de espaldas a mí. Se movía. Desde la noche del nombre se mueve mucho en sueños. Dice que sueña con el mar. La creo. Tiene el sueño de alguien que nada.
 
@@ -290,7 +290,7 @@ La comadrona le dio la vuelta, le dio en la espalda, le limpió la boca con el d
 
 Que guardan.
 
-Klaus estaba en la cocina, abajo, porque en mi casa los hombres no subían. Cuando le dejaron subir, entró agachado, con las manos a la espalda, como se entra en una iglesia que no es la tuya. Se arrodilló al lado de la cama. Él, que no se arrodillaba nunca.
+Klaus estaba en la cocina, abajo, porque en mi casa los hombres no subían. Cuando le dejaron subir, entró agachado, con las manos a la espalda. Se arrodilló al lado de la cama. Él, que no se arrodillaba nunca.
 
 La miramos los dos en silencio. Ella nos miraba a nosotros.
 
@@ -456,13 +456,13 @@ Tardó en contestar.
 
 Me quedé helada. Con la piel de gallina de los hombros a los riñones.
 
-Lo había dicho sin ninguna intención. Lo dijo como lo dice todo, como quien constata que llueve. Pero era verdad, y era la verdad más rara que había oído en mi vida. Él me conocía solo desde fuera. No tenía una hoja con mi espalda en la que comprobar si aquel punto estaba o no estaba.
+Lo había dicho sin ninguna intención. Lo dijo como lo dice todo. Pero era verdad, y era la verdad más rara que había oído en mi vida. Él me conocía solo desde fuera. No tenía una hoja con mi espalda en la que comprobar si aquel punto estaba o no estaba.
 
 Nadie la tenía.
 
 Eso pensé entonces. Nadie la tenía.
 
-Julian se inclinó y me dio un beso en el lunar. Despacio. Con los labios calientes.
+Julian se inclinó y me dio un beso en el lunar. Con los labios calientes.
 
 —Ahora sí lo tienes —dijo—. Yo ya lo he visto.
 
@@ -524,9 +524,9 @@ A las siete y diez estaba en el banco de la galería con los prismáticos del fa
 
 La furgoneta blanca estaba aparcada en el cruce. Dos figuras bajaban hacia la punta por el sendero de los percebeiros, el que yo no he bajado nunca porque no es un sendero, es una costumbre. Una naranja, delante. Una amarilla, detrás, más alta, más torpe.
 
-En la primera repisa se pararon. Brais dejó en el suelo un rollo de cuerda y se volvió hacia Julian. Le enseñó algo con las manos. Un nudo, creo. Lo hizo, lo deshizo, lo volvió a hacer despacio. Julian lo repitió. Brais negó con la cabeza. Julian lo repitió otra vez.
+En la primera repisa se pararon. Brais dejó en el suelo un rollo de cuerda y se volvió hacia Julian. Le enseñó algo con las manos. Un nudo, creo. Lo hizo, lo deshizo, lo volvió a hacer. Julian lo repitió. Brais negó con la cabeza. Julian lo repitió otra vez.
 
-Luego Brais le pasó la cuerda por la cintura. Por detrás. Le rodeó con los brazos para cerrar el nudo por delante, con la cara a un palmo de su nuca, y tiró dos veces para comprobarlo, fuerte, sin miramientos, como se comprueba un amarre.
+Luego Brais le pasó la cuerda por la cintura. Por detrás. Le rodeó con los brazos para cerrar el nudo por delante, con la cara a un palmo de su nuca, y tiró dos veces para comprobarlo, fuerte, sin miramientos.
 
 Bajé los prismáticos.
 
@@ -544,7 +544,7 @@ A la tercera vez subí a la torre.
 
 Ciento doce escalones. Desde la linterna se ve la punta entera, sin el reflejo de los cristales de la galería. Me senté en el suelo de chapa, al lado del baúl de hierro, y los miré desde allí.
 
-Trabajaban separados. Cada uno en su repisa. Brais más abajo, donde rompe, con la rasqueta y la red. Julian más arriba, donde el mar llega solo de vez en cuando, agachado, despacio, mirando las olas antes de cada movimiento como si las estuviera contando.
+Trabajaban separados. Cada uno en su repisa. Brais más abajo, donde rompe, con la rasqueta y la red. Julian más arriba, donde el mar llega solo de vez en cuando, agachado, mirando las olas antes de cada movimiento como si las estuviera contando.
 
 Supongo que las contaba.
 
@@ -572,7 +572,7 @@ Era el sueño. No parecido. Igual. La espalda ancha, mojada, brillante. La forma
 
 La cicatriz también estaba en el sueño.
 
-Me lo dije muy despacio, apoyada en la pared del recibidor. La cicatriz también estaba en el sueño. Yo la había tocado en el sueño con la palma abierta, agarrada a su espalda, mientras él me levantaba. Y no se la había visto nunca. Nunca. Hasta ese momento.
+Me lo dije en voz alta, apoyada en la pared del recibidor. La cicatriz también estaba en el sueño. Yo la había tocado en el sueño con la palma abierta, agarrada a su espalda, mientras él me levantaba. Y no se la había visto nunca. Nunca. Hasta ese momento.
 
 Tiene que haber una explicación, pensé. Se la vi en la playa sin darme cuenta. Se la vi la noche del rescate, cuando yo estaba medio muerta y no me enteraba de nada. El cerebro guarda cosas que no sabes que has visto. Lo dicen todos los libros. El cerebro guarda.
 
@@ -700,7 +700,7 @@ Tardó en contestar.
 
 Esa noche fue él quien empezó.
 
-Yo estaba en el sofá, con el portátil en las rodillas, haciendo como que repasaba el parte del día siguiente. Él se sentó a mi lado. Cerró el portátil con una mano, despacio, sin pedirme permiso. Lo dejó en el suelo.
+Yo estaba en el sofá, con el portátil en las rodillas, haciendo como que repasaba el parte del día siguiente. Él se sentó a mi lado. Cerró el portátil con una mano, sin pedirme permiso. Lo dejó en el suelo.
 
 Y me besó.
 
@@ -734,7 +734,7 @@ Abrí los ojos de golpe.
 
 Julian estaba encima de mí, con la frente sudada y la boca entreabierta, mirándome. Solo a mí. Con esa atención entera que pone en todo, como si yo fuera la única cosa del mundo que vale la pena mirar.
 
-No cerré los ojos más. Me obligué. Lo miré a él hasta el final, a su cara, a sus ojos, a la boca que decía mi nombre. Me agarré a su cara con las dos manos como quien se agarra a una barandilla en un barco que se mueve. Y funcionó. Casi. Llegué con él, mirándolo, diciendo *Julian* en voz alta, dos veces, muy claro, como se dice una cosa para que no se te olvide.
+No cerré los ojos más. Me obligué. Lo miré a él hasta el final, a su cara, a sus ojos, a la boca que decía mi nombre. Me agarré a su cara con las dos manos. Y funcionó. Casi. Llegué con él, mirándolo, diciendo *Julian* en voz alta, dos veces, muy claro.
 
 Casi funcionó.
 
@@ -744,7 +744,7 @@ Se durmió encima de mí, en el sofá, con la cara en mi cuello y el peso entero
 
 Yo no me dormí.
 
-Me quedé mirando el techo, con los dedos en su pelo, oyendo la estufa y el mar. Y me di cuenta, despacio, de lo que me había pasado en el sofá, y me dio más miedo que el sueño.
+Me quedé mirando el techo, con los dedos en su pelo, oyendo la estufa y el mar. Y me di cuenta de lo que me había pasado en el sofá, y me dio más miedo que el sueño.
 
 No había pensado en otro hombre. Había pensado en unas manos. En unas manos cortadas, de cuerda, de sal. Y esas manos las tenía Julian. Se las había hecho Brais en dos mareas, a fuerza de rocas. Y yo no sabía ya, con los ojos cerrados, de quién eran.
 
@@ -778,7 +778,7 @@ Aunque fuera más largo.
 
 El primer día, en la primera repisa, Brais me enseñó un nudo.
 
-Se llama as de guía. No me dijo el nombre. Me lo dijo Ada después, buscando en el móvil. Brais solo lo hizo delante de mí, despacio, con aquellas manos rojas de frío, y luego lo deshizo y me dio la cuerda.
+Se llama as de guía. No me dijo el nombre. Me lo dijo Ada después, buscando en el móvil. Brais solo lo hizo delante de mí, con aquellas manos rojas de frío, y luego lo deshizo y me dio la cuerda.
 
 Lo hice mal. Negó con la cabeza. Lo hice mal otra vez. Volvió a negar.
 
@@ -898,7 +898,7 @@ No se lo voy a decir.
 
 No sé por qué. Lo pienso y no lo sé. Quizá porque si se lo digo, se va a asustar, y ya se asusta bastante sola. Quizá porque no sé lo que es, y no se dice lo que no se sabe. Quizá porque es la primera cosa que sé yo y no ella.
 
-Es mi primer secreto.
+Es mi primer secreto propio. El del puerto me lo dio otro, y ese no cuenta.
 
 Pesa más que el cuaderno.
 
@@ -1138,7 +1138,7 @@ Lucía se dobló de risa en la silla y casi se cae. Julian la sujetó por la cin
 
 Me senté en la escalera y los miré. Mi amiga y mi… lo que fuera. En mi cocina. Riéndose. Y pensé que si alguien me hubiera enseñado esa imagen hace un año, en el piso de la calle Ibiza, no me la habría creído.
 
-Lucía lo adoraba. Se le notaba en todo. En cómo le corrigía, en cómo le tocaba el brazo al hablar, en cómo lo miraba cuando él no miraba, con la cabeza un poco ladeada, como se mira un cuadro que no se entiende del todo pero que te gusta.
+Lucía lo adoraba. Se le notaba en todo. En cómo le corrigía, en cómo le tocaba el brazo al hablar, en cómo lo miraba cuando él no miraba, con la cabeza un poco ladeada.
 
 Y él se dejaba adorar con una sorpresa tranquila. Como Klaus en la foto. Como si nadie le hubiera dicho que eso también le podía pasar.
 
@@ -1154,7 +1154,7 @@ Y entonces vi a Lúa.
 
 Venía corriendo por la orilla desde las rocas del norte, con las orejas al viento y una rama en la boca. Me reconoció desde lejos. Soltó la rama. Aceleró.
 
-Detrás de ella, andando despacio por la orilla, con las manos en los bolsillos del chubasquero, él.
+Detrás de ella, andando por la orilla, con las manos en los bolsillos del chubasquero, él.
 
 Lúa llegó primero. Se tiró a los pies de Julian, se levantó, se tiró a los míos, se levantó, corrió alrededor de Lucía dos veces ladrando a sus pies mojados.
 
@@ -1228,7 +1228,7 @@ Subí sola, después de desayunar, mientras Lucía se duchaba.
 
 El cerrojo de la puerta verde estaba echado. Por nuestro lado, el de la casa. Como yo lo dejo siempre. Nadie había podido pasar por ahí sin descorrerlo, y descorrerlo hace un ruido que despierta a cualquiera.
 
-Ciento doce escalones. Los subí despacio, con la mano en la pared fría, mirando cada peldaño como si fuera a encontrar algo escrito en la piedra. No había nada. Piedra gastada en el centro por cien años de fareros.
+Ciento doce escalones. Los subí con la mano en la pared fría, mirando cada peldaño como si fuera a encontrar algo escrito en la piedra. No había nada. Piedra gastada en el centro por cien años de fareros.
 
 Arriba, en la linterna, la luz entraba blanca por los cristales y el mar se veía entero, liso, de un azul de invierno. La lámpara grande, en el centro, con la funda de lona gris. El baúl. El suelo de chapa.
 
@@ -1238,7 +1238,7 @@ Había huellas.
 
 No eran las mías. Las mías son de calcetín o de zapatilla, y estaban junto al baúl, de cuando subí a ver a los dos en las rocas.
 
-Estas eran de pie descalzo. Grandes. Más grandes que las mías. Salían de la boca de la escalera y daban la vuelta despacio alrededor de la lámpara, pegadas a los cristales, como quien mira el mar desde todos los lados. Y se paraban en el lado del oeste. Justo encima de la galería. Encima de mi habitación.
+Estas eran de pie descalzo. Grandes. Más grandes que las mías. Salían de la boca de la escalera y daban la vuelta alrededor de la lámpara, pegadas a los cristales, como quien mira el mar desde todos los lados. Y se paraban en el lado del oeste. Justo encima de la galería. Encima de mi habitación.
 
 Y allí se acababan.
 
@@ -1272,7 +1272,7 @@ Xan le enseñaba cosas. Los nombres de los vientos, que en esta costa tienen tod
 
 Yo seguí limpiando los jureles.
 
-A veces, desde la ventana de la cocina, los veía volver. La barca entrando en el puerto despacio, los dos sentados en la popa, sin hablar, Klaus enorme, Xan delgado, con el sol detrás. Mi marido y el hombre que cantaba en la torre. Riendo de algo que yo no oía.
+A veces, desde la ventana de la cocina, los veía volver. La barca entrando en el puerto, los dos sentados en la popa, sin hablar, Klaus enorme, Xan delgado, con el sol detrás. Mi marido y el hombre que cantaba en la torre. Riendo de algo que yo no oía.
 
 Y yo no sabía dónde poner los ojos.
 
@@ -1328,7 +1328,7 @@ Me solté. No de golpe. Despacio. Como se saca la mano de un agua que está más
 
 ---
 
-Lucía me lo explicó despacio, como se le explica una cosa a un niño que no quiere entenderla.
+Lucía me lo explicó como se le explica una cosa a un niño que no quiere entenderla.
 
 Que la gente que no se gusta se roza. Que se toca el brazo, que se da dos besos, que se pasa la sal sin pensar dónde pone los dedos. Que a ella Brais le había dado un percebe en la mano y le había tocado los dedos sin darse cuenta, y que eso significaba exactamente nada.
 
@@ -1400,7 +1400,7 @@ La llevé al médico de Cee. Le miró los oídos, la garganta, le dio golpecitos
 
 La maestra me dijo que era muy buena, muy lista, muy callada. Que en el recreo se sentaba sola en el banco a mirar el mar.
 
-Klaus le hacía el payaso todas las noches. Le hacía caras, le cantaba fatal a propósito, se ponía mis gafas. Ella lo miraba con aquellos ojos grises suyos, atenta, educada, como se mira a un señor que hace una cosa rara en la calle.
+Klaus le hacía el payaso todas las noches. Le hacía caras, le cantaba fatal a propósito, se ponía mis gafas. Ella lo miraba con aquellos ojos grises suyos, atenta, educada.
 
 Un sábado de abril, Xan nos invitó a subir a la torre.
 
@@ -1428,7 +1428,7 @@ No se lo he contado nunca a nadie. Ni a Klaus, que estaba allí. Ni a Elisa, que
 
 El último día del año vi a los peregrinos.
 
-Eran tres. Llegaron al puerto a las once de la mañana, cuando yo estaba ayudando a Brais a descargar las cajas de la marea en la lonja. Venían por la carretera de Cee, despacio, con las mochilas enormes y unos palos de madera, y se pararon delante del mar como se para la gente delante de una cosa que lleva mucho tiempo queriendo ver y que es más pequeña de lo que pensaba.
+Eran tres. Llegaron al puerto a las once de la mañana, cuando yo estaba ayudando a Brais a descargar las cajas de la marea en la lonja. Venían por la carretera de Cee con las mochilas enormes y unos palos de madera, y se pararon delante del mar como se para la gente delante de una cosa que lleva mucho tiempo queriendo ver y que es más pequeña de lo que pensaba.
 
 Brais me dijo que van a Fisterra. Que es el final. Que vienen andando desde muy lejos, desde Santiago, y algunos desde mucho antes de Santiago, y que al llegar al faro de Fisterra queman las botas en las rocas y se bañan y se vuelven en autobús.
 
@@ -1454,7 +1454,7 @@ No contesté. Me quedé con la boca abierta, con las manos mojadas, delante de t
 
 Y pensé: de una hoja.
 
-No lo dije. La mujer me sonrió como se sonríe a alguien que no habla tu idioma y siguió andando hacia el final de la carretera.
+No lo dije. La mujer me sonrió y siguió andando hacia el final de la carretera.
 
 Los estuve mirando hasta que se perdieron en la curva. Tres personas que habían venido andando desde algún sitio.
 
@@ -1520,7 +1520,7 @@ No sabía ninguna canción entera. Sabía una. Una que Brais canturrea en las ro
 
 La canté.
 
-Fatal. Lo sé porque lo vi en las caras. La primera frase la dije demasiado alta y la segunda demasiado baja, y en la tercera me equivoqué de palabra y en la cuarta la voz me salió de un sitio que no conocía. La taberna se empezó a reír. Sin maldad. Como se ríen aquí de todo, despacio, con cariño.
+Fatal. Lo sé porque lo vi en las caras. La primera frase la dije demasiado alta y la segunda demasiado baja, y en la tercera me equivoqué de palabra y en la cuarta la voz me salió de un sitio que no conocía. La taberna se empezó a reír. Sin maldad. Como se ríen aquí de todo, con cariño.
 
 Seguí. *Ahora sigue.* Seguí.
 
@@ -1528,7 +1528,7 @@ Y a mi lado, en la quinta frase, alguien empezó a cantar conmigo.
 
 Brais.
 
-Sin mirarme. Con el vaso en la mano y los ojos en el mostrador. Bajo al principio, debajo de mi voz, sujetándola, como se sujeta una cuerda. Y luego más alto. Y luego entero.
+Sin mirarme. Con el vaso en la mano y los ojos en el mostrador. Bajo al principio, debajo de mi voz, sujetándola. Y luego más alto. Y luego entero.
 
 No sabía que cantaba así. Nadie en el pueblo lo sabía, creo, porque la taberna se calló de golpe. Tenía una voz grave, limpia, sin adornos, que no desafinaba nada. Una voz que no se parecía en nada a la del hombre que me grita *¡pégate!* en las rocas.
 
@@ -1566,7 +1566,7 @@ La mujer de Le Puy venía de mil quinientos kilómetros. El chico de Sevilla, de
 
 Yo vengo de la página de antes.
 
-Pasé la mano por la primera hoja en blanco. Despacio. Como Ada pasa la mano por el papel antes de empezar, que la he visto hacerlo en sueños, aunque yo no sueño.
+Pasé la mano por la primera hoja en blanco. Como Ada pasa la mano por el papel antes de empezar, que la he visto hacerlo en sueños, aunque yo no sueño.
 
 No dibujé nada. No tengo lápiz. Los lápices de esta casa son de ella, y están contados.
 
@@ -1592,7 +1592,7 @@ Xan me abrió la puerta de la casa del farero y se quedó parado al verme. No me
 
 Cogió la fiambrera. Le pregunté si quería que se la calentara. Dijo que no. Dijo que sí. Entramos.
 
-Mientras se calentaba el caldo me enseñó la casa. No me lo pedí. Me la enseñó como se enseña una cosa de la que uno está orgulloso sin saber por qué. La cocina, con la mesa grande de madera. La galería acristalada mirando al mar. La puerta verde de la torre.
+Mientras se calentaba el caldo me enseñó la casa. No me lo pedí. Me la enseñó, orgulloso sin saber por qué. La cocina, con la mesa grande de madera. La galería acristalada mirando al mar. La puerta verde de la torre.
 
 Encima de la mesa de la cocina había un libro grande, abierto, con las tapas de cartón. El libro de registro. Lo supe por la letra: columnas de horas, de vientos, de litros de aceite, en tinta azul. Y en el margen de la página abierta, en una letra más pequeña, más torcida, una línea que no era de horas ni de vientos.
 

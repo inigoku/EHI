@@ -138,7 +138,7 @@ No one has ever looked at me like that. That's why I draw them.
 
 Then the line of the jaw. The hair, a little long, falling over his forehead. The mouth, which never comes out the way I want. I stopped there, pencil in the air, and caught myself imagining what his voice would be like. Whether he'd speak softly. Whether he'd laugh at my bad jokes. Whether his hands would be warm.
 
-I blushed, alone, in my own kitchen. Ridiculous.
+I blushed, alone, in my own kitchen.
 
 But I didn't stop. I kept looking at him longer than anyone spends on a drawing, with that tug in my chest I sometimes feel when I finish him. As if I were missing something I've never had. As if I missed him without ever having met him.
 
@@ -332,7 +332,7 @@ While the dough rested, she set two cups of pot-brewed coffee on the table and s
 
 "Some."
 
-"Some." She clicked her tongue. "At your age I slept like a log. Of course, at your age I already had your mother and your uncle, and I got into bed so tired I fell asleep praying."
+"Some." She clicked her tongue. "At your age I slept like a log. Of course, at your age I already had your mother, and I got into bed so tired I fell asleep praying."
 
 It amused me to picture her young, worn out, praying. It amused me and made me envious. A life so full it leaves you no time to think about what's missing.
 
@@ -416,7 +416,7 @@ But she didn't push. My grandmother never pushes. She leaves the question on the
 
 To fill the silence she told me, for the umpteenth time, how my grandfather learned Galician. With an oilcloth-covered notebook where he wrote down the words he heard at the harbor, spelled however he pleased. *Carallo* spelled with a k. *Morriña* with two r's at the end. He'd learn them by heart and come out with them at the worst possible moments, in his Stuttgart accent, and the whole village would split their sides laughing.
 
-"He sang the alalás terribly," she said, her eyes wet from laughing. "Off-key like a pig. And he didn't care. He'd stand in the bow of your uncle's boat and sing at the top of his lungs, and the real Galicians would cover their ears."
+"He sang the alalás terribly," she said, her eyes wet from laughing. "Off-key like a pig. And he didn't care. He'd stand in the bow of any boat in the harbor and sing at the top of his lungs, and the real Galicians would cover their ears."
 
 "And you?"
 
@@ -884,7 +884,7 @@ I think he would have told me to look.
 
 I thought that I had never had that. That I'd had other things. Loves that leave your heart in pieces and loves that leave your head full of doubts. But never that. Never someone who would cross half of Europe just to stay.
 
-I hugged the sketchbook to my chest, without opening it, as if it were a teddy bear. Ridiculous. A thirty-two-year-old woman hugging a sketchbook in the middle of a storm.
+I hugged the sketchbook to my chest, without opening it, and stayed like that, still, in the middle of the storm.
 
 But I didn't let go.
 
@@ -1018,7 +1018,7 @@ It didn't sound impatient. That was what made me move. These weren't the knocks 
 
 ---
 
-I picked up the flashlight from the table. I thought about taking a knife from the kitchen too, and felt ridiculous. Then I thought it would be more ridiculous not to. In the end I didn't take it. Maybe because there are things you know with your body before you know them with your head.
+I picked up the flashlight from the table. I thought about taking a knife from the kitchen too. In the end I didn't take it. Maybe because there are things you know with your body before you know them with your head.
 
 I crossed the hall. The wooden floor creaked under my bare feet. The door of the keeper's house is old, solid oak, with a round peephole of thick glass at eye level and an iron bolt you have to push with both hands.
 

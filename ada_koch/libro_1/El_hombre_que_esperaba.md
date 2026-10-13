@@ -138,7 +138,7 @@ Nadie me ha mirado nunca así. Por eso los dibujo.
 
 Luego la línea de la mandíbula. El pelo, un poco largo, cayéndole sobre la frente. La boca, que nunca me sale como quiero. Me detuve ahí, con el lápiz en el aire, y me descubrí imaginando cómo sería su voz. Si hablaría bajito. Si se reiría de mis bromas malas. Si sus manos estarían calientes.
 
-Me sonrojé sola, en mi propia cocina. Ridículo.
+Me sonrojé sola, en mi propia cocina.
 
 Pero no paré. Seguí mirándolo más tiempo del que se le dedica a un dibujo, con ese tirón en el pecho que siento a veces cuando lo termino. Como si me faltara algo que nunca he tenido. Como si lo echara de menos sin haberlo conocido.
 
@@ -332,7 +332,7 @@ Mientras la masa reposaba, puso dos tazas de café de puchero en la mesa y se se
 
 —Algo.
 
-—Algo. —Chasqueó la lengua—. A tu edad yo dormía como un tronco. Claro que a tu edad ya tenía a tu madre y a tu tío, y llegaba a la cama tan cansada que me dormía rezando.
+—Algo. —Chasqueó la lengua—. A tu edad yo dormía como un tronco. Claro que a tu edad ya tenía a tu madre, y llegaba a la cama tan cansada que me dormía rezando.
 
 Me hizo gracia imaginarla joven, agotada, rezando. Me hizo gracia y me dio envidia. Una vida tan llena que no te deja tiempo para pensar en lo que te falta.
 
@@ -416,7 +416,7 @@ Pero no insistió. Mi abuela nunca insiste. Te deja la pregunta encima de la mes
 
 Para llenar el silencio me contó, por enésima vez, cómo mi abuelo aprendió gallego. Con un cuaderno de tapas de hule donde apuntaba las palabras que oía en el puerto, con la ortografía que le daba la gana. *Carallo* escrito con k. *Morriña* con dos erres al final. Se las aprendía de memoria y las soltaba en los momentos menos oportunos, con su acento de Stuttgart, y el pueblo entero se partía de risa.
 
-—Cantaba los alalás fatal —dijo, con los ojos húmedos de reírse—. Desafinaba como un cerdo. Y le daba igual. Se ponía en la proa de la barca de tu tío y cantaba a gritos, y los gallegos de verdad se tapaban los oídos.
+—Cantaba los alalás fatal —dijo, con los ojos húmedos de reírse—. Desafinaba como un cerdo. Y le daba igual. Se ponía en la proa de cualquier barca del puerto y cantaba a gritos, y los gallegos de verdad se tapaban los oídos.
 
 —¿Y tú?
 
@@ -884,7 +884,7 @@ Creo que me habría dicho que mirara.
 
 Pensé que yo nunca había tenido eso. Que había tenido otras cosas. Amores de los que te dejan el corazón hecho trizas y amores de los que te dejan la cabeza llena de dudas. Pero nunca eso. Nunca a alguien que cruzara media Europa solo para quedarse.
 
-Abracé el cuaderno contra el pecho, sin abrirlo, como si fuera un osito de peluche. Ridículo. Una mujer de treinta y dos años abrazada a un cuaderno de dibujo en mitad de un temporal.
+Abracé el cuaderno contra el pecho, sin abrirlo, y me quedé así, quieta, en mitad del temporal.
 
 Pero no lo solté.
 
@@ -1018,7 +1018,7 @@ No sonaba impaciente. Eso fue lo que me hizo moverme. No eran los golpes de algu
 
 ---
 
-Cogí la linterna de la mesa. Pensé en coger también un cuchillo de la cocina y me sentí ridícula. Luego pensé que más ridículo sería no cogerlo. Al final no lo cogí. Quizá porque hay cosas que sabes con el cuerpo antes que con la cabeza.
+Cogí la linterna de la mesa. Pensé en coger también un cuchillo de la cocina. Al final no lo cogí. Quizá porque hay cosas que sabes con el cuerpo antes que con la cabeza.
 
 Crucé el pasillo. El suelo de madera crujía bajo mis pies descalzos. La puerta de la casa del farero es antigua, de roble macizo, con una mirilla redonda de cristal grueso a la altura de los ojos y un cerrojo de hierro que hay que empujar con las dos manos.
 

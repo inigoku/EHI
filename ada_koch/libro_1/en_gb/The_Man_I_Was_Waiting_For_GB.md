@@ -138,7 +138,7 @@ No one has ever looked at me like that. That's why I draw them.
 
 Then the line of the jaw. The hair, a little long, falling over his forehead. The mouth, which never comes out the way I want. I stop there, pencil in the air, and catch myself imagining what his voice would be like. Whether he'd speak softly. Whether he'd laugh at my bad jokes. Whether his hands would be warm.
 
-I blush, alone, in my own kitchen. Ridiculous.
+I blush, alone, in my own kitchen.
 
 But I don't stop. I keep looking at him longer than anyone spends on a drawing, with that tug in my chest I sometimes feel when I finish him. As if I were missing something I've never had. As if I missed him without ever having met him.
 
@@ -332,7 +332,7 @@ While the dough rests, she sets two cups of pot-brewed coffee on the table and s
 
 'Some.'
 
-'Some.' She clicks her tongue. 'At your age I slept like a log. Of course, at your age I already had your mother and your uncle, and I got into bed so tired I fell asleep praying.'
+'Some.' She clicks her tongue. 'At your age I slept like a log. Of course, at your age I already had your mother, and I got into bed so tired I fell asleep praying.'
 
 It amuses me to picture her young, worn out, praying. It amuses me and makes me envious. A life so full it leaves you no time to think about what's missing.
 
@@ -416,7 +416,7 @@ But she doesn't push. My grandmother never pushes. She leaves the question on th
 
 To fill the silence she tells me, for the umpteenth time, how my grandfather learned to speak like us. With an oilcloth-covered notebook where he wrote down the words he heard at the harbour, spelled however he pleased. *Krivvens* spelled with two *w*s. *Hamesickness* with an umlaut on the *a*. He'd learn them by heart and come out with them at the worst possible moments, in his Stuttgart accent, and the whole town would split their sides laughing.
 
-'He sang the *auld sangs* terribly,' she says, her eyes wet from laughing. 'Off-key like a pig. And he didn't care. He'd stand in the bow of your uncle's boat and sing at the top of his lungs, and the men on the pier would cover their ears.'
+'He sang the *auld sangs* terribly,' she says, her eyes wet from laughing. 'Off-key like a pig. And he didn't care. He'd stand in the bow of any boat in the harbour and sing at the top of his lungs, and the men on the pier would cover their ears.'
 
 'And you?'
 
@@ -884,7 +884,7 @@ I think he'd have told me to look.
 
 I think that I've never had that. That I've had other things. Loves that leave your heart in pieces and loves that leave your head full of doubts. But never that. Never someone who would cross half of Europe just to stay.
 
-I hug the sketchbook to my chest, without opening it, as if it were a teddy bear. Ridiculous. A thirty-two-year-old woman hugging a sketchbook in the middle of a storm.
+I hug the sketchbook to my chest, without opening it, and stay like that, still, in the middle of the storm.
 
 But I don't let go.
 
@@ -1018,7 +1018,7 @@ It doesn't sound impatient. That's what makes me move. These aren't the knocks o
 
 ---
 
-I pick up the torch from the table. I think about taking a knife from the kitchen too, and feel ridiculous. Then I think it would be more ridiculous not to. In the end I don't take it. Maybe because there are things you know with your body before you know them with your head.
+I pick up the torch from the table. I think about taking a knife from the kitchen too. In the end I don't take it. Maybe because there are things you know with your body before you know them with your head.
 
 I cross the hall. The wooden floor creaks under my bare feet. The door of the keeper's house is old, solid oak, with a round peephole of thick glass at eye level and an iron bolt you have to push with both hands.
 
