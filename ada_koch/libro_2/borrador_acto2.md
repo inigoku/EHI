@@ -372,6 +372,40 @@ No se lo dije a Julian. Guardé el folio doblado en el bolsillo de dentro del ab
 
 No sé si para protegerlo o para protegerme.
 
+---
+
+A mediodía bajé al pueblo, a casa de mi abuela, con el folio todavía en el bolsillo de dentro del abrigo.
+
+No sé qué iba a preguntarle. Lo llevaba ensayando toda la carretera y no me salía ninguna frase que no sonara a locura. *Abuela, ¿el farero te dibujaba?* *Abuela, ¿quién era el de arriba?* *Abuela, ¿a ti también te afilaban los lápices?*
+
+Me abrió la puerta con un trapo en la mano. Estaba limpiando la foto de la boda, como cada sábado aunque fuera jueves. La había bajado del aparador y la tenía en la mesa de la cocina, boca arriba, encima del mantel de hule de los limones, y le pasaba el trapo al cristal en círculos pequeños, muy despacio, como se le pasa la mano por la cara a alguien que duerme.
+
+En el aparador, donde iba la foto, había quedado un hueco. Y en el hueco, al fondo, contra la pared, vi una botella de aguardiente sin abrir, con el tapón lacrado y la etiqueta amarilla de vieja. Y apoyado en la botella, de canto, un sobre.
+
+No lo había visto nunca. Llevaba treinta y dos años entrando en esa cocina y no lo había visto nunca, porque siempre había estado detrás de mi abuelo.
+
+Me senté. Mi abuela me puso un café delante sin preguntarme si quería. Siguió limpiando el cristal.
+
+Abrí la boca para preguntar. No me salió nada.
+
+Y ella, sin levantar la vista de la foto, sin dejar de pasar el trapo en círculos, me miró un segundo las rodillas. Los vaqueros. El polvo gris, fino, de la chapa de la linterna, que me había quedado en las dos rodillas de estar arrodillada al amanecer delante del folio, y que no me había dado cuenta de que llevaba.
+
+—Subiches á torre —dijo.
+
+No era una pregunta.
+
+Volvió a poner la foto en su sitio, en el aparador, delante de la botella y del sobre. Mi abuelo, otra vez, sin mirar a la cámara, tapando lo que había detrás.
+
+Y no dijo nada más. Me preguntó por el trabajo, por Julian, por si el rapaz seguía con las mareas. Me dio media empanada envuelta en papel de aluminio para la cena.
+
+En la puerta, al despedirme, me cogió la cara con las dos manos, como hace desde que era pequeña.
+
+—Miña rula —dijo. Y luego, muy bajo, mirándome a los ojos—. Non lle deas as grazas a ninguén que non vexas.
+
+No le des las gracias a nadie que no veas.
+
+Volví al faro con la empanada en el asiento de al lado y la frase dando vueltas, sin saber si hablaba de Álvaro o de otra cosa.
+
 ### Maruxa · Costa da Morte, octubre de 1983
 
 Aquel otoño Xan empezó a no dormir.
@@ -682,7 +716,7 @@ Y en la galería de la torre había alguien.
 
 No se lo he contado nunca a nadie más que a mi madre. Un hombre de blanco. De pie en la galería de hierro, la que da la vuelta a la linterna, con las manos en la barandilla. En un faro que llevaba veinticinco años cerrado, con la puerta de abajo atada con una cadena. Alto. Quieto. Mirando hacia abajo. No a mí: al agua blanca, donde estaba mi padre.
 
-—Era un anxo, Brais —me dijo mi madre cuando se lo conté, días después, en la cocina—. Viuña por el.
+—Era un anxo, Brais —me dijo mi madre cuando se lo conté, días después, en la cocina—. Viña por el.
 
 Venía por él.
 
