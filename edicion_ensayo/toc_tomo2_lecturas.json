@@ -340,6 +340,10 @@
       "content_file": "../content/lecturas/cap_realidad_fractal.es.md",
       "replace": [
         [
+          "el capítulo 53",
+          "el capítulo 39"
+        ],
+        [
           "**Nota al Capítulo 49**",
           "**Nota a la lectura 13**"
         ]

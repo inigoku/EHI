@@ -11,7 +11,7 @@ interface NarrationPlayerProps {
 // nothing — so chapters without narration don't show a broken player.
 export const NarrationPlayer: React.FC<NarrationPlayerProps> = ({ chapterId, language }) => {
   const [available, setAvailable] = React.useState<boolean | null>(null);
-  const src = `/audio/${chapterId}.${language}.mp3`;
+  const src = `${import.meta.env.BASE_URL}audio/${chapterId}.${language}.mp3`;
 
   React.useEffect(() => {
     let cancelled = false;

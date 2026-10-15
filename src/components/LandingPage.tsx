@@ -189,7 +189,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       {/* Background Audio (persistente entre páginas) */}
       <audio
         ref={audioRef}
-        src="/dream-in-orbit.mp3"
+        src={`${import.meta.env.BASE_URL}dream-in-orbit.mp3`}
         loop
         autoPlay
       />
@@ -202,7 +202,7 @@ export const LandingPage: React.FC<LandingPageProps> = ({
       >
         <video
           ref={videoARef}
-          src="/eHI-intro.mp4#t=1.0"
+          src={`${import.meta.env.BASE_URL}eHI-intro.mp4#t=1.0`}
           className="absolute inset-0 w-full h-full object-cover opacity-80 select-none pointer-events-none"
           autoPlay
           muted
