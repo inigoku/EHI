@@ -8,7 +8,7 @@ Amazon KDP. No incluye los cuentos ni los poemas: es el ensayo solo, completo.
 
 ## Qué hay aquí
 
-    El_Horizonte_Interior_Ensayo_6x9.pdf   el interior, 764 páginas, 6 × 9" (~15 MB)
+    El_Horizonte_Interior_Ensayo_6x9.pdf   el interior, 830 páginas, 6 × 9" (~15 MB)
     El_Horizonte_Interior_Ensayo.epub      el epub, 63 pantallas, 87 imágenes
     toc_ensayo.json                        la tabla de contenidos + mapa de ilustraciones
     scripts/build_interior_premium.py      genera el interior (maqueta "chulo")
@@ -87,8 +87,8 @@ apuntar `toc_ensayo.json` a copias locales.
 
 ## Versión sin ilustraciones (tapa blanda B/N y EPUB)
 
-    El_Horizonte_Interior_Ensayo_sin_ilustraciones_6x9.pdf          interior, 694 páginas, sin láminas ni ilustraciones en línea
-    El_Horizonte_Interior_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf  cubierta de tapa blanda (papel blanco B/N, lomo 1,563")
+    El_Horizonte_Interior_Ensayo_sin_ilustraciones_6x9.pdf          interior, 762 páginas, sin láminas ni ilustraciones en línea
+    El_Horizonte_Interior_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf  cubierta de tapa blanda (papel blanco B/N, lomo 1,716")
     El_Horizonte_Interior_Ensayo_sin_ilustraciones.epub             EPUB solo con la portada
 
     python3 scripts/build_interior_premium.py toc_ensayo.json \
@@ -105,12 +105,12 @@ El interior ilustrado también está regenerado con ellos: 764 páginas tras la 
 
 ## Dos tomos de tapa dura
 
-KDP no admite tapa dura de más de 550 páginas; el volumen único tiene 764.
+KDP no admite tapa dura de más de 550 páginas; el volumen único tiene 830.
 
-    El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf                 tomo I, 542 págs.: capítulos 0-36, cuarta parte (51-52 pasan a 37-38), epílogo, glosario y notas
-    El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapadura.pdf   lomo 1,332" (papel a color)
-    El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf               tomo II, 194 págs.: las 14 lecturas topológicas («Lectura 1-14»)
-    El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapadura.pdf lomo 0,515" (papel a color)
+    El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf                 tomo I, 550 págs.: capítulos 0-38 (51-52 pasan a 37-38), epílogo, glosario y notas
+    El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapadura.pdf   lomo 1,351" (papel a color)
+    El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf               tomo II, 260 págs.: las 14 lecturas topológicas («Lectura 1-14») y la sección «Relectura y herencia» (lecturas 15-18)
+    El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapadura.pdf lomo 0,670" (papel a color)
 
     python3 scripts/make_tomos.py          # toc_tomo1_ensayo.json, toc_tomo2_lecturas.json (y referencias de toc_ensayo.json)
     python3 scripts/build_interior_premium.py toc_tomo1_ensayo.json -o El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf
@@ -156,11 +156,11 @@ depende de las páginas).
 
 ### Los tomos sin ilustraciones (tapa blanda B/N y EPUB)
 
-    El_Horizonte_Interior_Tomo1_Ensayo_sin_ilustraciones_6x9.pdf                   510 págs.
-    El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf   lomo 1,149" (papel blanco B/N)
+    El_Horizonte_Interior_Tomo1_Ensayo_sin_ilustraciones_6x9.pdf                   518 págs.
+    El_Horizonte_Interior_Tomo1_Ensayo_cubierta_tapablanda_sin_ilustraciones.pdf   lomo 1,167" (papel blanco B/N)
     El_Horizonte_Interior_Tomo1_Ensayo_sin_ilustraciones.epub
-    El_Horizonte_Interior_Tomo2_Lecturas_sin_ilustraciones_6x9.pdf                 170 págs.
-    El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapablanda_sin_ilustraciones.pdf lomo 0,383" (papel blanco B/N)
+    El_Horizonte_Interior_Tomo2_Lecturas_sin_ilustraciones_6x9.pdf                 234 págs.
+    El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapablanda_sin_ilustraciones.pdf lomo 0,527" (papel blanco B/N)
     El_Horizonte_Interior_Tomo2_Lecturas_sin_ilustraciones.epub
     imagenes/El_Horizonte_Interior_Tomo{1_Ensayo,2_Lecturas}_cubierta_ebook.jpg     portadas del EPUB, 1600 x 2560
 
