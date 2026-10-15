@@ -156,7 +156,7 @@ chapterNumber: Glosario
 
 **Permeabilidad del horizonte**: cuánta señal ajena deja pasar un horizonte hacia dentro; el grosor de la piel emocional que el capítulo 16 asocia a la empatía y al desgaste empático.
 
-**Phi ($\Phi$)**: medida de información integrada propuesta por Giulio Tononi que el libro utiliza en los primeros capítulos como andamio intuitivo para introducir la diferencia entre integración irreducible y agregación, y que en los capítulos 53 y 54 queda sustituida formalmente por el filtro de autosemejanza causal $A(S)$ y la tríada del horizonte $(S, F, \bar{A})$.
+**Phi ($\Phi$)**: medida de información integrada propuesta por Giulio Tononi en la teoría de la información integrada (IIT): cuantifica hasta qué punto un sistema es más que la suma de sus partes, es decir, cuánta información genera el conjunto que no genera ninguna de sus particiones por separado. En los primeros capítulos del libro sirve de andamio intuitivo para distinguir la integración irreducible de la mera agregación y para medir el *grado* de un horizonte (su forma la da la encapsulación y su origen, las dos selecciones; capítulo 4). En los capítulos 53 y 54 queda sustituida formalmente por el filtro de autosemejanza causal $A(S)$ y la tríada del horizonte $(S, F, \bar{A})$.
 
 **Principio holográfico**: idea de que toda la información contenida en un volumen puede describirse por una teoría definida en su frontera.
 

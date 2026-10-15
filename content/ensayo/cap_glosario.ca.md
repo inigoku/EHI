@@ -160,7 +160,7 @@ chapterNumber: Glosario
 
 **Petjada en el buit**: correlació persistent que un horitzó deixa en el reservori després de la seva evaporació; analogia de la memòria de l'univers.
 
-**Phi ($\Phi$)**: mesura d'informació integrada proposada per Giulio Tononi que el llibre utilitza als primers capítols com a bastida intuïtiva per introduir la diferència entre integració irreductible i agregació, i que als capítols 53 i 54 queda substituïda formalment pel filtre d'autosemblança causal $A(S)$ i la tríada de l'horitzó $(S, F, \bar{A})$.
+**Phi ($\Phi$)**: mesura d'informació integrada proposada per Giulio Tononi en la teoria de la informació integrada (IIT): quantifica fins a quin punt un sistema és més que la suma de les seves parts, és a dir, quanta informació genera el conjunt que no genera cap de les seves particions per separat. Als primers capítols del llibre serveix de bastida intuïtiva per distingir la integració irreductible de la mera agregació i per mesurar el *grau* d'un horitzó (la seva forma la dona l'encapsulació i el seu origen, les dues seleccions; capítol 4). Als capítols 53 i 54 queda substituïda formalment pel filtre d'autosemblança causal $A(S)$ i la tríada de l'horitzó $(S, F, \bar{A})$.
 
 **Pont d'Einstein-Rosen**: túnel topològic en l'espai-temps que connecta dues regions; metàfora de l'entrellaçament entre horitzons de consciència.
 
