@@ -16,6 +16,7 @@ const ORDER = [
   "cap_triada_horizonte",
   "cap_ensayo_releido",
   "cap20_5",
+  "cap_herencia_geometria",
   "cap_epilogo_real",
 ];
 
