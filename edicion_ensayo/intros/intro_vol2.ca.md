@@ -20,6 +20,6 @@ Els toms són independents. Cadascun es pot llegir sol i en qualsevol ordre, i c
 
 ### Aquest tom
 
-És el segon tom. L'assaig proposa una manera de mirar, i les lectures miren. Les seves catorze lectures treuen la hipòtesi del primer tom i la posen davant de coses que es van fer sense ella, des de les últimes paraules d'un replicant fins a tres pintors i un relleu de futbol. Cadascuna és prou breu per a una sola asseguda i es tanca amb una nota que separa el que se sap del que no. Una darrera secció, «Relectura i herència», reuneix quatre capítols que tanquen l'experiment: la reformulació amb la tríada de la vora, l'energia lliure i l'acció, la relectura del llibre sencer, l'arquitectura cosmoteàndrica de Panikkar i l'herència de la geometria.
+És el segon tom. L'assaig proposa una manera de mirar, i les lectures miren. Les seves catorze lectures treuen la hipòtesi del primer tom i la posen davant de coses que es van fer sense ella, des de les últimes paraules d'un replicant fins a tres pintors i un relleu de futbol. Cadascuna és prou breu per a una sola asseguda i es tanca amb una nota que separa el que se sap del que no.
 
 Algunes lectures confirmen la hipòtesi i d'altres la tensen, i la tensió s'explica. Les referències a capítols remeten al Tom I, on les idees es construeixen per primera vegada. Pots llegir aquestes pàgines sense ell, tot i que hi trobaràs el seu vocabulari (horitzó, entrellaçament, ressonància, Phi) com a paraules ja en ús.

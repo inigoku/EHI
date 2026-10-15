@@ -1,9 +1,10 @@
 ---
 title: L'ASSAIG RELLEGIT
 subtitle: (El llibre sencer, vist des de l'autosemblança causal, la vora, l'energia lliure i l'acció)
-section: QUARTA PART: EL LÍMIT DE L'EXPERIMENT
-chapterNumber: 54
+section: WORK IN PROGRESS
 ---
+
+> **Work in progress.** Aquest text és un esborrany: recull propostes i hipòtesis, no resultats, i no forma part dels llibres impresos.
 
 Hi ha una manera de rellegir un llibre que consisteix a canviar-hi una sola peça mestra i veure què es mou. Quan acabes una novel·la i descobreixes que el narrador mentia, no canvies ni una pàgina, però totes queden il·luminades des d'un altre angle. El capítol anterior va proposar jubilar la bastida de $\Phi$ que ens ha acompanyat des del capítol 1 i substituir-la per una arquitectura en dos passos: primer, el filtre de l'**autosemblança causal** $A(S)$ unit a l'**encapsulació existencial**; després, la tríada $(S, F, \bar{A})$ que mesura la mida de la vora, l'energia lliure que costa sostenir-la i la biografia acumulada. Aquest capítol fa allò que l'anterior no podia fer sense tornar-se interminable: recórrer el llibre sencer amb aquesta lent, formalitzar el catàleg matemàtic complet a la secció VII (inclosa la simulació exacta de verificació sobre quatre nodes binaris) i fixar a la secció VIII les prediccions empíriques que podrien desmentir-lo.
 
@@ -103,7 +104,7 @@ Un conjunt és tancat si $A = \text{cl}(A)$, i la seva frontera és $\partial A 
 - **Evaporació:** filtració decreixent $E_0 \supseteq E_1 \supseteq E_2 \supseteq \dots$ tal que tot estat que abandona l'illa es reintegra al reservori: $E_0 \setminus E_t \subseteq R$. **[analogia]**
 - **Arxipèlag de subjectes:** mentre l'estructura causal interna admet nivells aniuats amb $A(S) > 0$, les fronteres dotades d'encapsulació existencial formen clausures disjuntes entre si ($E_i \cap E_j = \emptyset$ per a subjectes diferents $i \neq j$). **[proposta]**
 
-#### 2. Manta de Markov i encapsulació existencial (Capítols 3 i 53)
+#### 2. Manta de Markov i encapsulació existencial (Capítol 3)
 
 Sigui una partició de les variables del món en estats externs $\psi$, sensorials $s$, actius $a$ i interns $\mu$, on $b = (s, a)$ constitueix la frontera o manta de Markov (Pearl, 1988; Friston, 2010; Palacios et al., 2020):
 
@@ -113,7 +114,7 @@ $$p(\psi, \mu \mid b) = p(\psi \mid b)\, p(\mu \mid b)$$
 
 Seguint la distinció crítica de Bruineberg et al. (2022) entre independència condicional estadística i frontera física, definim **encapsulació existencial** quan: (i) existeix la independència condicional anterior respecte de $b$, i (ii) la dinàmica dels estats interns i actius $(\mu, a)$ manté activament la distribució del sistema dins del conjunt d'estats viables que preserven la pròpia frontera $b$ davant la dissipació en el reservori $R$. **[proposta]**
 
-#### 3. El filtre d'irreductibilitat: Autosemblança causal $A(S)$ (Capítols 49 i 53)
+#### 3. El filtre d'irreductibilitat: Autosemblança causal $A(S)$ (Capítol 49)
 
 Sigui un sistema causal compost definit sobre un conjunt finit d'unitats $V = \{1, \dots, N\}$, amb espai d'estats producte $X = \prod_{v \in V} X_v$, matriu de transició de Markov $p(x_{t+1} \mid x_t)$ i distribució estacionària $\pi(x)$. **[estàndard]**
 
@@ -247,7 +248,7 @@ Queda la imatge del començament. La cuina de camp, amb les brases remogudes cad
 
 ---
 
-> **Nota al Capítol 54**
+> **Nota a aquest capítol**
 >
 > **Allò que sí sabem:** Que els tres ingredients de l'autosemblança causal $A(S)$ —la interacció estocàstica d'Ay (2001, 2015), la informació mútua estacionària (estimable en continu segons Kraskov et al., 2004) i l'emergència causal per gra gruixut de Hoel et al. (2013)— són eines matemàtiques estàndard, i que la seva combinació en $A(S)$ separa exactament en el model de 4 nodes binaris el sistema desacoblat ($A(S)=0$), l'agregatiu difús ($A(S)\approx 10^{-5}$) i el recursiu multiescala ($A(S)\approx 10^{-1}$). Que el límit de Landauer ($E \ge k_B T \ln 2$) connecta físicament l'actualització irreversible d'informació amb la dissipació termodinàmica. Que la distinció entre mantes de Markov estadístiques i fronteres físiques autoorganitzades està avalada per la literatura recent (Palacios et al., 2020; Bruineberg et al., 2022).
 >
@@ -257,4 +258,4 @@ Queda la imatge del començament. La cuina de camp, amb les brases remogudes cad
 >
 > **Si només et quedes amb una idea:** Si canvies la xifra estàtica de $\Phi$ per l'autosemblança causal $A(S)$, l'encapsulació existencial i la tríada $(S, F, \bar{A})$, tot el llibre encaixa en una sola frase: un horitzó és una totalitat recursiva que paga energia lliure per sostenir la capacitat de la seva vora i acumular una biografia en el temps.
 >
-> **Lectures:** Les del capítol 53 i, a més: Ay, N. (2001, 2015), «Information Geometry on Complexity and Stochastic Interaction»; Hoel, E. P., Albantakis, L. i Tononi, G. (2013), «Quantifying causal emergence shows that macro can beat micro»; Kraskov, A., Stögbauer, H. i Grassberger, P. (2004), «Estimating mutual information»; Palacios, E. R., Razi, A., Parr, T., Kirchhoff, M. i Friston, K. (2020), «On Markov blankets and hierarchical self-organisation»; Bruineberg, J., Dolega, K., Dewhurst, J. i Baltieri, M. (2022), «The Emperor's New Markov Blankets»; Kuratowski, K. (1922), «Sur l'opération Ā de l'Analysis Situs»; Watanabe, S. (1960), «Information theoretical analysis of multivariate correlation»; Ryu, S. i Takayanagi, T. (2006), «Holographic derivation of entanglement entropy from AdS/CFT»; Page, D. N. (1993), «Information in black hole radiation»; Sekino, Y. i Susskind, L. (2008), «Fast scramblers»; Itti, L. i Baldi, P. (2009), «Bayesian surprise attracts human attention»; Laukkonen, R. i Slagter, H. (2021), «From many to (n)one: Meditation and the plasticity of the predictive mind»; Parr, T., Pezzulo, G. i Friston, K. (2022), *Active Inference*; Seth, A. (2021), *Being You*.
+> **Lectures:** Les de «La vora, l'energia lliure i l'acció» i, a més: Ay, N. (2001, 2015), «Information Geometry on Complexity and Stochastic Interaction»; Hoel, E. P., Albantakis, L. i Tononi, G. (2013), «Quantifying causal emergence shows that macro can beat micro»; Kraskov, A., Stögbauer, H. i Grassberger, P. (2004), «Estimating mutual information»; Palacios, E. R., Razi, A., Parr, T., Kirchhoff, M. i Friston, K. (2020), «On Markov blankets and hierarchical self-organisation»; Bruineberg, J., Dolega, K., Dewhurst, J. i Baltieri, M. (2022), «The Emperor's New Markov Blankets»; Kuratowski, K. (1922), «Sur l'opération Ā de l'Analysis Situs»; Watanabe, S. (1960), «Information theoretical analysis of multivariate correlation»; Ryu, S. i Takayanagi, T. (2006), «Holographic derivation of entanglement entropy from AdS/CFT»; Page, D. N. (1993), «Information in black hole radiation»; Sekino, Y. i Susskind, L. (2008), «Fast scramblers»; Itti, L. i Baldi, P. (2009), «Bayesian surprise attracts human attention»; Laukkonen, R. i Slagter, H. (2021), «From many to (n)one: Meditation and the plasticity of the predictive mind»; Parr, T., Pezzulo, G. i Friston, K. (2022), *Active Inference*; Seth, A. (2021), *Being You*.

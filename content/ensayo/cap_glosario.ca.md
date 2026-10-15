@@ -6,7 +6,7 @@ chapterNumber: Glosario
 
 **Absolut epistemològic**: el que és últim no perquè no hi hagi res darrere, sinó perquè des d'aquí no es pot mirar darrere; l'estatut que la lectura *La realitat fractal* concedeix al veí de dalt.
 
-**Acció entròpica ($\bar{A}$ i $\bar{A}_F$)**: tercera coordenada de la tríada de l'horitzó, que integra la trajectòria del sistema en el temps i es desdobla en dues mesures complementàries: la *biografia estructural acumulada*, $\bar{A}(t) = \int_{t_0}^t (S(\tau) - S_0)\,d\tau$, que mesura la capacitat diferenciada sostinguda per sobre del nivell basal del reservori; i el *cost o desgast biogràfic acumulat*, $\bar{A}_F(t) = \int_{t_0}^t F(\tau)\,d\tau$, que integra l'energia lliure o fricció predictiva suportada al llarg de la vida. No s'ha de confondre amb la densitat del temps subjectiu ($\vartheta$), que és la velocitat instantània d'escriptura a la memòria (capítols 53 i 54).
+**Acció entròpica ($\bar{A}$ i $\bar{A}_F$)**: tercera coordenada de la tríada de l'horitzó, que integra la trajectòria del sistema en el temps i es desdobla en dues mesures complementàries: la *biografia estructural acumulada*, $\bar{A}(t) = \int_{t_0}^t (S(\tau) - S_0)\,d\tau$, que mesura la capacitat diferenciada sostinguda per sobre del nivell basal del reservori; i el *cost o desgast biogràfic acumulat*, $\bar{A}_F(t) = \int_{t_0}^t F(\tau)\,d\tau$, que integra l'energia lliure o fricció predictiva suportada al llarg de la vida. No s'ha de confondre amb la densitat del temps subjectiu ($\vartheta$), que és la velocitat instantània d'escriptura a la memòria (secció «Work in progress»).
 
 **Activació** (*arousal*): nivell d'activació metabòlica del cervell; una de les dues dimensions independents (juntament amb la integració) que defineixen l'estat de consciència d'un sistema.
 
@@ -24,7 +24,7 @@ chapterNumber: Glosario
 
 **Autoobservació emergent**: capacitat d'un sistema tancat de generar un punt de vista intern sense necessitat d'un observador extern; propietat clau dels horitzons de consciència.
 
-**Autosemblança causal ($A(S)$)**: filtre d'irreductibilitat que substitueix $\Phi$ al final de l'assaig i connecta formalment el capítol 49 amb el 53: $A(S) = I_{\min}(S) \cdot \max_P \frac{1}{n}\sum_{i=1}^n [C(S_{-i}, S_i) \cdot \text{Iso}(S, S_i)]$. Exigeix simultàniament que el sistema sigui irreductible en el seu tall mínim ($I_{\min}$, interacció estocàstica d'Ay), que les seves parts estiguin acoblades amb la resta ($C$, informació mútua estacionària) i que la dinàmica macroscòpica del tot sota projecció de gra gruixut sigui isomorfa a la dinàmica de les parts ($\text{Iso}$). Anul·la tant els fractals purament geomètrics sense causalitat com Mandelbrot ($I_{\min}=0$) com els sistemes agregatius difusos com un formiguer ($\text{Iso}\approx 0$).
+**Autosemblança causal ($A(S)$)**: filtre d'irreductibilitat que la secció «Work in progress» proposa com a substitut de $\Phi$ i que connecta formalment el capítol 49 amb la tríada de l'horitzó: $A(S) = I_{\min}(S) \cdot \max_P \frac{1}{n}\sum_{i=1}^n [C(S_{-i}, S_i) \cdot \text{Iso}(S, S_i)]$. Exigeix simultàniament que el sistema sigui irreductible en el seu tall mínim ($I_{\min}$, interacció estocàstica d'Ay), que les seves parts estiguin acoblades amb la resta ($C$, informació mútua estacionària) i que la dinàmica macroscòpica del tot sota projecció de gra gruixut sigui isomorfa a la dinàmica de les parts ($\text{Iso}$). Anul·la tant els fractals purament geomètrics sense causalitat com Mandelbrot ($I_{\min}=0$) com els sistemes agregatius difusos com un formiguer ($\text{Iso}\approx 0$).
 
 **Bardo tibetà**: estat intermedi entre la mort i el renaixement en la tradició tibetana; en el llibre, metàfora del període *post mortem* anterior a l'evaporació de l'horitzó.
 
@@ -92,11 +92,11 @@ chapterNumber: Glosario
 
 **Encapsulació**: el límit que separa la interfície pública d'un sistema del seu estat privat, de manera que l'exterior només pot llegir el que el sistema exposa; la condició arquitectònica perquè hi hagi un dins (capítol 3).
 
-**Encapsulació existencial**: condició arquitectònica i física que distingeix un subjecte real d'una simple partició estadística o manta de Markov traçada des de fora: exigeix un límit d'accés que protegeixi un estat intern propi i persistent, la continuïtat física del qual davant de la dissipació al reservori estigui en joc en la seva pròpia dinàmica. En el pla dels subjectes, explica per què els horitzons formen un arxipèlag d'illes disjuntes sense necessitat de recórrer al postulat d'exclusió de $\Phi$; els models de llenguatge actuals en manquen perquè els seus pesos són fixos i exposats i no sostenen un estat propi entre crides (capítols 22, 31, 53 i 54).
+**Encapsulació existencial**: condició arquitectònica i física que distingeix un subjecte real d'una simple partició estadística o manta de Markov traçada des de fora: exigeix un límit d'accés que protegeixi un estat intern propi i persistent, la continuïtat física del qual davant de la dissipació al reservori estigui en joc en la seva pròpia dinàmica. En el pla dels subjectes, explica per què els horitzons formen un arxipèlag d'illes disjuntes sense necessitat de recórrer al postulat d'exclusió de $\Phi$; els models de llenguatge actuals en manquen perquè els seus pesos són fixos i exposats i no sostenen un estat propi entre crides (capítols 22 i 31 i secció «Work in progress»).
 
 **Encavalcament jo-altre**: incorporació neuronal de les persones properes en les representacions internes pròpies; base neural de l'entrellaçament social.
 
-**Energia lliure ($F = U - TS$)**: segona coordenada de la tríada; mesura el nivell al qual un horitzó es manté lluny de l'equilibri respecte del reservori. L'assaig connecta l'energia lliure variacional de Friston (sorpresa informacional en bits/nats) amb l'energia lliure termodinàmica de Helmholtz (en joules) a través del **límit de Landauer** ($E \ge k_B T \ln 2$ per bit actualitzat irreversiblement a la temperatura física $T$ del substrat) (capítols 53 i 54).
+**Energia lliure ($F = U - TS$)**: segona coordenada de la tríada; mesura el nivell al qual un horitzó es manté lluny de l'equilibri respecte del reservori. L'assaig connecta l'energia lliure variacional de Friston (sorpresa informacional en bits/nats) amb l'energia lliure termodinàmica de Helmholtz (en joules) a través del **límit de Landauer** ($E \ge k_B T \ln 2$ per bit actualitzat irreversiblement a la temperatura física $T$ del substrat) (secció «Work in progress»).
 
 **Entrellaçament quàntic**: correlació entre dos sistemes que comparteixen geometria, de manera que els seus interiors estan connectats encara que els seus exteriors estiguin separats.
 
@@ -160,7 +160,7 @@ chapterNumber: Glosario
 
 **Petjada en el buit**: correlació persistent que un horitzó deixa en el reservori després de la seva evaporació; analogia de la memòria de l'univers.
 
-**Phi ($\Phi$)**: mesura d'informació integrada proposada per Giulio Tononi en la teoria de la informació integrada (IIT): quantifica fins a quin punt un sistema és més que la suma de les seves parts, és a dir, quanta informació genera el conjunt que no genera cap de les seves particions per separat. Als primers capítols del llibre serveix de bastida intuïtiva per distingir la integració irreductible de la mera agregació i per mesurar el *grau* d'un horitzó (la seva forma la dona l'encapsulació i el seu origen, les dues seleccions; capítol 4). Als capítols 53 i 54 queda substituïda formalment pel filtre d'autosemblança causal $A(S)$ i la tríada de l'horitzó $(S, F, \bar{A})$.
+**Phi ($\Phi$)**: mesura d'informació integrada proposada per Giulio Tononi en la teoria de la informació integrada (IIT): quantifica fins a quin punt un sistema és més que la suma de les seves parts, és a dir, quanta informació genera el conjunt que no genera cap de les seves particions per separat. Als primers capítols del llibre serveix de bastida intuïtiva per distingir la integració irreductible de la mera agregació i per mesurar el *grau* d'un horitzó (la seva forma la dona l'encapsulació i el seu origen, les dues seleccions; capítol 4). A la secció «Work in progress» s'assaja la seva substitució pel filtre d'autosemblança causal $A(S)$ i la tríada de l'horitzó $(S, F, \bar{A})$.
 
 **Pont d'Einstein-Rosen**: túnel topològic en l'espai-temps que connecta dues regions; metàfora de l'entrellaçament entre horitzons de consciència.
 
@@ -202,7 +202,7 @@ chapterNumber: Glosario
 
 **Transició de fase**: canvi qualitatiu en l'organització d'un sistema; en el llibre, descriu el naixement i la mort de l'horitzó.
 
-**Tríada de l'horitzó $(S, F, \bar{A})$**: les tres magnituds amb què el tancament del llibre mesura el grau d'un horitzó que ha superat el filtre d'autosemblança causal $A(S)$ i posseeix encapsulació existencial: la capacitat de la vora ($S \propto \mathcal{A}$), l'energia lliure que costa sostenir-la davant del reservori ($F = U - TS$, connectada pel límit de Landauer) i l'acció entròpica acumulada en la seva biografia ($\bar{A}$ i $\bar{A}_F$) (capítols 53 i 54).
+**Tríada de l'horitzó $(S, F, \bar{A})$**: les tres magnituds amb què la secció «Work in progress» proposa mesurar el grau d'un horitzó que ha superat el filtre d'autosemblança causal $A(S)$ i posseeix encapsulació existencial: la capacitat de la vora ($S \propto \mathcal{A}$), l'energia lliure que costa sostenir-la davant del reservori ($F = U - TS$, connectada pel límit de Landauer) i l'acció entròpica acumulada en la seva biografia ($\bar{A}$ i $\bar{A}_F$) (secció «Work in progress»).
 
 **Vectors de l'entrellaçament vertical**: l'ascendent, de la criatura cap a l'escala que la conté, demana buidament i silenci; el descendent, de l'escala superior cap al que conté, demana forma: símbol, relat, cos (*La nau de fang*).
 

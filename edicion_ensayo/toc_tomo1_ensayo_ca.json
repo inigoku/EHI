@@ -425,24 +425,28 @@
       "content_file": "../content/ensayo/cap_glosario.ca.md",
       "replace": [
         [
-          "amb el 53:",
-          "amb la lectura 15 del segon volum:"
+          "**Acció entròpica ($\\bar{A}$ i $\\bar{A}_F$)**: tercera coordenada de la tríada de l'horitzó, que integra la trajectòria del sistema en el temps i es desdobla en dues mesures complementàries: la *biografia estructural acumulada*, $\\bar{A}(t) = \\int_{t_0}^t (S(\\tau) - S_0)\\,d\\tau$, que mesura la capacitat diferenciada sostinguda per sobre del nivell basal del reservori; i el *cost o desgast biogràfic acumulat*, $\\bar{A}_F(t) = \\int_{t_0}^t F(\\tau)\\,d\\tau$, que integra l'energia lliure o fricció predictiva suportada al llarg de la vida. No s'ha de confondre amb la densitat del temps subjectiu ($\\vartheta$), que és la velocitat instantània d'escriptura a la memòria (secció «Work in progress»).\n\n",
+          ""
         ],
         [
-          "(capítols 22, 31, 53 i 54)",
-          "(capítols 22 i 31, i lectures 15 i 16 del segon volum)"
+          "**Autosemblança causal ($A(S)$)**: filtre d'irreductibilitat que la secció «Work in progress» proposa com a substitut de $\\Phi$ i que connecta formalment el capítol 49 amb la tríada de l'horitzó: $A(S) = I_{\\min}(S) \\cdot \\max_P \\frac{1}{n}\\sum_{i=1}^n [C(S_{-i}, S_i) \\cdot \\text{Iso}(S, S_i)]$. Exigeix simultàniament que el sistema sigui irreductible en el seu tall mínim ($I_{\\min}$, interacció estocàstica d'Ay), que les seves parts estiguin acoblades amb la resta ($C$, informació mútua estacionària) i que la dinàmica macroscòpica del tot sota projecció de gra gruixut sigui isomorfa a la dinàmica de les parts ($\\text{Iso}$). Anul·la tant els fractals purament geomètrics sense causalitat com Mandelbrot ($I_{\\min}=0$) com els sistemes agregatius difusos com un formiguer ($\\text{Iso}\\approx 0$).\n\n",
+          ""
         ],
         [
-          "(capítols 53 i 54)",
-          "(lectures 15 i 16 del segon volum)"
+          "**Energia lliure ($F = U - TS$)**: segona coordenada de la tríada; mesura el nivell al qual un horitzó es manté lluny de l'equilibri respecte del reservori. L'assaig connecta l'energia lliure variacional de Friston (sorpresa informacional en bits/nats) amb l'energia lliure termodinàmica de Helmholtz (en joules) a través del **límit de Landauer** ($E \\ge k_B T \\ln 2$ per bit actualitzat irreversiblement a la temperatura física $T$ del substrat) (secció «Work in progress»).\n\n",
+          ""
         ],
         [
-          "Als capítols 53 i 54 queda",
-          "A les lectures 15 i 16 del segon volum queda"
+          "**Tríada de l'horitzó $(S, F, \\bar{A})$**: les tres magnituds amb què la secció «Work in progress» proposa mesurar el grau d'un horitzó que ha superat el filtre d'autosemblança causal $A(S)$ i posseeix encapsulació existencial: la capacitat de la vora ($S \\propto \\mathcal{A}$), l'energia lliure que costa sostenir-la davant del reservori ($F = U - TS$, connectada pel límit de Landauer) i l'acció entròpica acumulada en la seva biografia ($\\bar{A}$ i $\\bar{A}_F$) (secció «Work in progress»).\n\n",
+          ""
         ],
         [
-          "capítol 49",
-          "lectura 13 del segon volum"
+          "(capítols 22 i 31 i secció «Work in progress»)",
+          "(capítols 22 i 31)"
+        ],
+        [
+          " A la secció «Work in progress» s'assaja la seva substitució pel filtre d'autosemblança causal $A(S)$ i la tríada de l'horitzó $(S, F, \\bar{A})$.",
+          ""
         ]
       ]
     },

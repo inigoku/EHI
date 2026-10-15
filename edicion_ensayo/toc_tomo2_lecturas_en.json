@@ -180,7 +180,7 @@
   "dedication": "To whoever stayed on the shore<br/>when the water withdrew.",
   "colophon": "This volume was set in type<br/>having proven nothing,<br/>exactly as planned from the first page.",
   "credits": [
-    "Second volume of The Inner Horizon: fourteen readings that carry the essay's ideas into fiction, film, sport and everyday life. References to chapters point to the first volume, The Inner Horizon. Essay. The volume closes with the section \"Rereading and Inheritance\": four chapters that reread the book through the triad of the edge, free energy and action, and that treat the inheritance of geometry."
+    "Second volume of The Inner Horizon: fourteen readings that carry the essay's ideas into fiction, film, sport and everyday life. References to chapters point to the first volume, The Inner Horizon. Essay."
   ],
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-en",
   "gutter_in": 0.62,
@@ -350,10 +350,6 @@
       "content_file": "en/cap_realidad_fractal.en.md",
       "replace": [
         [
-          "chapter 53",
-          "reading 15"
-        ],
-        [
           "**Note to Chapter 49**",
           "**Note to Reading 13**"
         ]
@@ -380,102 +376,6 @@
       ],
       "chapter_number": 14,
       "section": ""
-    },
-    {
-      "id": "cap_triada_horizonte",
-      "content_file": "en/cap_triada_horizonte.en.md",
-      "replace": [
-        [
-          "chapter 49",
-          "reading 13"
-        ],
-        [
-          "chapter 51",
-          "chapter 37"
-        ],
-        [
-          "chapter 54",
-          "reading 16"
-        ],
-        [
-          "chapter 53",
-          "reading 15"
-        ],
-        [
-          "**Note to Chapter 53**",
-          "**Note to Reading 15**"
-        ]
-      ],
-      "chapter_number": 15,
-      "section": "REREADING AND INHERITANCE"
-    },
-    {
-      "id": "cap_ensayo_releido",
-      "content_file": "en/cap_ensayo_releido.en.md",
-      "replace": [
-        [
-          "chapter 50",
-          "reading 14"
-        ],
-        [
-          "chapter 49",
-          "reading 13"
-        ],
-        [
-          "Chapter 51",
-          "Chapter 37"
-        ],
-        [
-          "chapter 53",
-          "reading 15"
-        ],
-        [
-          "**Note to Chapter 54**",
-          "**Note to Reading 16**"
-        ]
-      ],
-      "chapter_number": 16,
-      "section": "REREADING AND INHERITANCE"
-    },
-    {
-      "id": "cap20_5",
-      "content_file": "en/cap20_5.en.md",
-      "replace": [
-        [
-          "Chapter 51",
-          "Chapter 37"
-        ],
-        [
-          "**Note to Chapter 55**",
-          "**Note to Reading 17**"
-        ]
-      ],
-      "chapter_number": 17,
-      "section": "REREADING AND INHERITANCE"
-    },
-    {
-      "id": "cap_herencia_geometria",
-      "content_file": "en/cap_herencia_geometria.en.md",
-      "replace": [
-        [
-          "Chapter 55",
-          "Reading 17"
-        ],
-        [
-          "Chapter 54",
-          "Reading 16"
-        ],
-        [
-          "chapter 55",
-          "reading 17"
-        ],
-        [
-          "**Note to Chapter 56**",
-          "**Note to Reading 18**"
-        ]
-      ],
-      "chapter_number": 18,
-      "section": "REREADING AND INHERITANCE"
     }
   ]
 }

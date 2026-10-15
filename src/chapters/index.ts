@@ -6,12 +6,15 @@ import { group5 } from "./group5";
 import { lecturasTopologicas } from "./lecturas";
 import { group6 } from "./group6";
 import { apendices } from "./apendices";
+import { workInProgress } from "./wip";
 import { cuentosList } from "./cuentos";
 import { poemasList } from "./poemas";
 import { jovenList } from "./joven";
 
 // Orden del libro: los arrays de cada archivo ya están en orden de lectura;
-// el aparato final consolidado (apendices) cierra el libro entero.
+// el aparato final consolidado (apendices) cierra el libro entero y, tras él,
+// la sección de trabajo en curso (workInProgress), sin numerar y fuera de los
+// libros impresos.
 export const allChapters: Chapter[] = [
   ...group1,
   ...group2,
@@ -20,7 +23,8 @@ export const allChapters: Chapter[] = [
   ...group5,
   ...lecturasTopologicas,
   ...group6,
-  ...apendices
+  ...apendices,
+  ...workInProgress
 ];
 
 export { cuentosList, poemasList, lecturasTopologicas, jovenList };

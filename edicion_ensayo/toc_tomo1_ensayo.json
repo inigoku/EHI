@@ -426,28 +426,36 @@
       "content_file": "../content/ensayo/cap_glosario.es.md",
       "replace": [
         [
-          "con el 53:",
-          "con la lectura 15 del segundo tomo:"
+          "**Acción entrópica ($\\bar{A}$ y $\\bar{A}_F$)**: tercera coordenada de la tríada del horizonte, que integra la trayectoria del sistema en el tiempo y se desdobla en dos medidas complementarias: la *biografía estructural acumulada*, $\\bar{A}(t) = \\int_{t_0}^t (S(\\tau) - S_0)\\,d\\tau$, que mide la capacidad diferenciada sostenida por encima del nivel basal del reservorio; y el *coste o desgaste biográfico acumulado*, $\\bar{A}_F(t) = \\int_{t_0}^t F(\\tau)\\,d\\tau$, que integra la energía libre o fricción predictiva soportada a lo largo de la vida. No debe confundirse con la densidad del tiempo subjetivo ($\\vartheta$), que es la velocidad instantánea de escritura en la memoria (sección «Work in progress»).\n\n",
+          ""
         ],
         [
-          "(capítulos 22, 31, 53 y 54)",
-          "(capítulos 22 y 31, y lecturas 15 y 16 del segundo tomo)"
+          "**Autosemejanza causal ($A(S)$)**: filtro de irreducibilidad que la sección «Work in progress» propone como sustituto de $\\Phi$ y que conecta formalmente el capítulo 49 con la tríada del horizonte: $A(S) = I_{\\min}(S) \\cdot \\max_P \\frac{1}{n}\\sum_{i=1}^n [C(S_{-i}, S_i) \\cdot \\text{Iso}(S, S_i)]$. Exige simultáneamente que el sistema sea irreducible en su corte mínimo ($I_{\\min}$, interacción estocástica de Ay), que sus partes estén acopladas al resto ($C$, información mutua estacionaria) y que la dinámica macroscópica del todo bajo proyección de grano grueso sea isomorfa a la dinámica de las partes ($\\text{Iso}$). Anula tanto a los fractales puramente geométricos sin causalidad como Mandelbrot ($I_{\\min}=0$) como a los sistemas agregativos difusos como un hormiguero ($\\text{Iso}\\approx 0$).\n\n",
+          ""
         ],
         [
-          "(capítulos 53 y 54)",
-          "(lecturas 15 y 16 del segundo tomo)"
+          "**Energía libre ($F = U - TS$)**: segunda coordenada de la tríada; mide el nivel al que un horizonte se mantiene lejos del equilibrio respecto del reservorio. El ensayo conecta la energía libre variacional de Friston (sorpresa informacional en bits/nats) con la energía libre termodinámica de Helmholtz (en julios) a través del **límite de Landauer** ($E \\ge k_B T \\ln 2$ por bit actualizado irreversiblemente a la temperatura física $T$ del sustrato) (sección «Work in progress»).\n\n",
+          ""
         ],
         [
-          "En los capítulos 53 y 54 queda",
-          "En las lecturas 15 y 16 del segundo tomo queda"
+          "**Entropía del borde (S ∝ A)**: capacidad informacional de la frontera de un horizonte, proporcional a su área (Bekenstein-Hawking); primera coordenada de la tríada, la que fija el techo del espacio privado (sección «Work in progress»).\n\n",
+          ""
         ],
         [
-          "el capítulo 49",
-          "la lectura 13 del segundo tomo"
+          "**Manta de Markov**: en el formalismo de Friston, el conjunto de estados que separa los estados internos de un sistema de los externos, de modo que solo se influyan a través de ella; la contrapartida formal de la encapsulación (sección «Work in progress»).\n\n",
+          ""
         ],
         [
-          "(capítulo 53)",
-          "(lectura 15 del segundo tomo)"
+          "**Tríada del horizonte $(S, F, \\bar{A})$**: las tres magnitudes con que la sección «Work in progress» propone medir el grado de un horizonte que ha superado el filtro de autosemejanza causal $A(S)$ y posee encapsulación existencial: la capacidad del borde ($S \\propto \\mathcal{A}$), la energía libre que cuesta sostenerlo frente al reservorio ($F = U - TS$, conectada por el límite de Landauer) y la acción entrópica acumulada en su biografía ($\\bar{A}$ y $\\bar{A}_F$) (sección «Work in progress»).\n\n",
+          ""
+        ],
+        [
+          "(capítulos 22 y 31 y sección «Work in progress»)",
+          "(capítulos 22 y 31)"
+        ],
+        [
+          " En la sección «Work in progress» se ensaya su sustitución por el filtro de autosemejanza causal $A(S)$ y la tríada del horizonte $(S, F, \\bar{A})$.",
+          ""
         ]
       ]
     },

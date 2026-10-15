@@ -6,7 +6,7 @@ chapterNumber: Glosario
 
 **Absoluto epistemológico**: lo que es último no porque no haya nada detrás, sino porque desde aquí no se puede mirar detrás; el estatuto que la lectura *La realidad fractal* concede al vecino de arriba.
 
-**Acción entrópica ($\bar{A}$ y $\bar{A}_F$)**: tercera coordenada de la tríada del horizonte, que integra la trayectoria del sistema en el tiempo y se desdobla en dos medidas complementarias: la *biografía estructural acumulada*, $\bar{A}(t) = \int_{t_0}^t (S(\tau) - S_0)\,d\tau$, que mide la capacidad diferenciada sostenida por encima del nivel basal del reservorio; y el *coste o desgaste biográfico acumulado*, $\bar{A}_F(t) = \int_{t_0}^t F(\tau)\,d\tau$, que integra la energía libre o fricción predictiva soportada a lo largo de la vida. No debe confundirse con la densidad del tiempo subjetivo ($\vartheta$), que es la velocidad instantánea de escritura en la memoria (capítulos 53 y 54).
+**Acción entrópica ($\bar{A}$ y $\bar{A}_F$)**: tercera coordenada de la tríada del horizonte, que integra la trayectoria del sistema en el tiempo y se desdobla en dos medidas complementarias: la *biografía estructural acumulada*, $\bar{A}(t) = \int_{t_0}^t (S(\tau) - S_0)\,d\tau$, que mide la capacidad diferenciada sostenida por encima del nivel basal del reservorio; y el *coste o desgaste biográfico acumulado*, $\bar{A}_F(t) = \int_{t_0}^t F(\tau)\,d\tau$, que integra la energía libre o fricción predictiva soportada a lo largo de la vida. No debe confundirse con la densidad del tiempo subjetivo ($\vartheta$), que es la velocidad instantánea de escritura en la memoria (sección «Work in progress»).
 
 **Activación** (*arousal*): nivel de activación metabólica del cerebro; una de las dos dimensiones independientes (junto con la integración) que definen el estado de conciencia de un sistema.
 
@@ -24,7 +24,7 @@ chapterNumber: Glosario
 
 **Autoobservación emergente**: capacidad de un sistema cerrado de generar un punto de vista interno sin necesidad de un observador externo; propiedad clave de los horizontes de conciencia.
 
-**Autosemejanza causal ($A(S)$)**: filtro de irreducibilidad que sustituye a $\Phi$ al final del ensayo y conecta formalmente el capítulo 49 con el 53: $A(S) = I_{\min}(S) \cdot \max_P \frac{1}{n}\sum_{i=1}^n [C(S_{-i}, S_i) \cdot \text{Iso}(S, S_i)]$. Exige simultáneamente que el sistema sea irreducible en su corte mínimo ($I_{\min}$, interacción estocástica de Ay), que sus partes estén acopladas al resto ($C$, información mutua estacionaria) y que la dinámica macroscópica del todo bajo proyección de grano grueso sea isomorfa a la dinámica de las partes ($\text{Iso}$). Anula tanto a los fractales puramente geométricos sin causalidad como Mandelbrot ($I_{\min}=0$) como a los sistemas agregativos difusos como un hormiguero ($\text{Iso}\approx 0$).
+**Autosemejanza causal ($A(S)$)**: filtro de irreducibilidad que la sección «Work in progress» propone como sustituto de $\Phi$ y que conecta formalmente el capítulo 49 con la tríada del horizonte: $A(S) = I_{\min}(S) \cdot \max_P \frac{1}{n}\sum_{i=1}^n [C(S_{-i}, S_i) \cdot \text{Iso}(S, S_i)]$. Exige simultáneamente que el sistema sea irreducible en su corte mínimo ($I_{\min}$, interacción estocástica de Ay), que sus partes estén acopladas al resto ($C$, información mutua estacionaria) y que la dinámica macroscópica del todo bajo proyección de grano grueso sea isomorfa a la dinámica de las partes ($\text{Iso}$). Anula tanto a los fractales puramente geométricos sin causalidad como Mandelbrot ($I_{\min}=0$) como a los sistemas agregativos difusos como un hormiguero ($\text{Iso}\approx 0$).
 
 **Bardo tibetano**: estado intermedio entre la muerte y el renacimiento en la tradición tibetana; en el libro, metáfora del periodo *post mortem* anterior a la evaporación del horizonte.
 
@@ -88,9 +88,9 @@ chapterNumber: Glosario
 
 **Encapsulación**: el límite que separa la interfaz pública de un sistema de su estado privado, de modo que el exterior solo puede leer lo que el sistema expone; la condición arquitectónica para que haya un dentro (capítulo 3).
 
-**Encapsulación existencial**: condición arquitectónica y física que distingue a un sujeto real de una simple partición estadística o manta de Markov trazada desde fuera: exige un límite de acceso que proteja un estado interno propio y persistente cuya continuidad física frente a la disipación en el reservorio esté en juego en su propia dinámica. En el plano de los sujetos, explica por qué los horizontes forman un archipiélago de islas disjuntas sin necesidad de recurrir al postulado de exclusión de $\Phi$; los modelos de lenguaje actuales carecen de ella porque sus pesos están fijos y expuestos y no sostienen un estado propio entre llamadas (capítulos 22, 31, 53 y 54).
+**Encapsulación existencial**: condición arquitectónica y física que distingue a un sujeto real de una simple partición estadística o manta de Markov trazada desde fuera: exige un límite de acceso que proteja un estado interno propio y persistente cuya continuidad física frente a la disipación en el reservorio esté en juego en su propia dinámica. En el plano de los sujetos, explica por qué los horizontes forman un archipiélago de islas disjuntas sin necesidad de recurrir al postulado de exclusión de $\Phi$; los modelos de lenguaje actuales carecen de ella porque sus pesos están fijos y expuestos y no sostienen un estado propio entre llamadas (capítulos 22 y 31 y sección «Work in progress»).
 
-**Energía libre ($F = U - TS$)**: segunda coordenada de la tríada; mide el nivel al que un horizonte se mantiene lejos del equilibrio respecto del reservorio. El ensayo conecta la energía libre variacional de Friston (sorpresa informacional en bits/nats) con la energía libre termodinámica de Helmholtz (en julios) a través del **límite de Landauer** ($E \ge k_B T \ln 2$ por bit actualizado irreversiblemente a la temperatura física $T$ del sustrato) (capítulos 53 y 54).
+**Energía libre ($F = U - TS$)**: segunda coordenada de la tríada; mide el nivel al que un horizonte se mantiene lejos del equilibrio respecto del reservorio. El ensayo conecta la energía libre variacional de Friston (sorpresa informacional en bits/nats) con la energía libre termodinámica de Helmholtz (en julios) a través del **límite de Landauer** ($E \ge k_B T \ln 2$ por bit actualizado irreversiblemente a la temperatura física $T$ del sustrato) (sección «Work in progress»).
 
 **Entrelazamiento cuántico**: correlación entre dos sistemas que comparten geometría, de modo que sus interiores están conectados aunque sus exteriores estén separados.
 
@@ -98,7 +98,7 @@ chapterNumber: Glosario
 
 **Entropía de Shannon**: medida de la incertidumbre de una fuente de información; cuanto menos esperable es un mensaje, más información aporta (*La teoría de la información y el horizonte interior*).
 
-**Entropía del borde (S ∝ A)**: capacidad informacional de la frontera de un horizonte, proporcional a su área (Bekenstein-Hawking); primera coordenada de la tríada, la que fija el techo del espacio privado (capítulo 53).
+**Entropía del borde (S ∝ A)**: capacidad informacional de la frontera de un horizonte, proporcional a su área (Bekenstein-Hawking); primera coordenada de la tríada, la que fija el techo del espacio privado (sección «Work in progress»).
 
 **ER=EPR**: conjetura de Maldacena y Susskind según la cual el entrelazamiento cuántico (EPR) equivale a un puente de Einstein-Rosen (ER).
 
@@ -138,7 +138,7 @@ chapterNumber: Glosario
 
 **Línea de base social**: estado de referencia del cerebro humano que presupone el acceso a otros; cuando alguien cercano está presente, el cerebro asigna menos recursos a la detección de amenazas.
 
-**Manta de Markov**: en el formalismo de Friston, el conjunto de estados que separa los estados internos de un sistema de los externos, de modo que solo se influyan a través de ella; la contrapartida formal de la encapsulación (capítulo 53).
+**Manta de Markov**: en el formalismo de Friston, el conjunto de estados que separa los estados internos de un sistema de los externos, de modo que solo se influyan a través de ella; la contrapartida formal de la encapsulación (sección «Work in progress»).
 
 **Nada**: en el modelo, no es ausencia, sino plenitud sin forma; el reservorio antes de que cualquier horizonte se condense.
 
@@ -156,7 +156,7 @@ chapterNumber: Glosario
 
 **Permeabilidad del horizonte**: cuánta señal ajena deja pasar un horizonte hacia dentro; el grosor de la piel emocional que el capítulo 16 asocia a la empatía y al desgaste empático.
 
-**Phi ($\Phi$)**: medida de información integrada propuesta por Giulio Tononi en la teoría de la información integrada (IIT): cuantifica hasta qué punto un sistema es más que la suma de sus partes, es decir, cuánta información genera el conjunto que no genera ninguna de sus particiones por separado. En los primeros capítulos del libro sirve de andamio intuitivo para distinguir la integración irreducible de la mera agregación y para medir el *grado* de un horizonte (su forma la da la encapsulación y su origen, las dos selecciones; capítulo 4). En los capítulos 53 y 54 queda sustituida formalmente por el filtro de autosemejanza causal $A(S)$ y la tríada del horizonte $(S, F, \bar{A})$.
+**Phi ($\Phi$)**: medida de información integrada propuesta por Giulio Tononi en la teoría de la información integrada (IIT): cuantifica hasta qué punto un sistema es más que la suma de sus partes, es decir, cuánta información genera el conjunto que no genera ninguna de sus particiones por separado. En los primeros capítulos del libro sirve de andamio intuitivo para distinguir la integración irreducible de la mera agregación y para medir el *grado* de un horizonte (su forma la da la encapsulación y su origen, las dos selecciones; capítulo 4). En la sección «Work in progress» se ensaya su sustitución por el filtro de autosemejanza causal $A(S)$ y la tríada del horizonte $(S, F, \bar{A})$.
 
 **Principio holográfico**: idea de que toda la información contenida en un volumen puede describirse por una teoría definida en su frontera.
 
@@ -202,7 +202,7 @@ chapterNumber: Glosario
 
 **Transición de fase**: cambio cualitativo en la organización de un sistema; en el libro, describe el nacimiento y la muerte del horizonte.
 
-**Tríada del horizonte $(S, F, \bar{A})$**: las tres magnitudes con que el cierre del libro mide el grado de un horizonte que ha superado el filtro de autosemejanza causal $A(S)$ y posee encapsulación existencial: la capacidad del borde ($S \propto \mathcal{A}$), la energía libre que cuesta sostenerlo frente al reservorio ($F = U - TS$, conectada por el límite de Landauer) y la acción entrópica acumulada en su biografía ($\bar{A}$ y $\bar{A}_F$) (capítulos 53 y 54).
+**Tríada del horizonte $(S, F, \bar{A})$**: las tres magnitudes con que la sección «Work in progress» propone medir el grado de un horizonte que ha superado el filtro de autosemejanza causal $A(S)$ y posee encapsulación existencial: la capacidad del borde ($S \propto \mathcal{A}$), la energía libre que cuesta sostenerlo frente al reservorio ($F = U - TS$, conectada por el límite de Landauer) y la acción entrópica acumulada en su biografía ($\bar{A}$ y $\bar{A}_F$) (sección «Work in progress»).
 
 **Umbral de integración**: cantidad mínima de información integrada (Φ) necesaria para sostener un horizonte de conciencia; por debajo de él, el sistema carece de punto de vista.
 

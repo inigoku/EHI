@@ -1,9 +1,10 @@
 ---
 title: EL ENSAYO RELEÍDO
 subtitle: (El libro entero, visto desde la autosemejanza causal, el borde, la energía libre y la acción)
-section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 54
+section: WORK IN PROGRESS
 ---
+
+> **Work in progress.** Este texto es un borrador: reúne propuestas e hipótesis, no resultados, y no forma parte de los libros impresos.
 
 Hay una manera de releer un libro que consiste en cambiarle una sola pieza maestra y ver qué se mueve. Cuando terminas una novela y descubres que el narrador mentía, no cambias ni una página, pero todas quedan iluminadas desde otro ángulo. El capítulo anterior propuso jubilar el andamio de $\Phi$ que nos acompañó desde el capítulo 1 y sustituirlo por una arquitectura en dos pasos: primero, el filtro de la **autosemejanza causal** $A(S)$ unido a la **encapsulación existencial**; después, la tríada $(S, F, \bar{A})$ que mide el tamaño del borde, la energía libre que cuesta sostenerlo y la biografía acumulada. Este capítulo hace lo que el anterior no podía hacer sin volverse interminable: recorrer el libro entero con esa lente, formalizar el catálogo matemático completo en la sección VII (incluida la simulación exacta de verificación sobre cuatro nodos binarios) y fijar en la sección VIII las predicciones empíricas que podrían desmentirlo.
 
@@ -103,7 +104,7 @@ Un conjunto es cerrado si $A = \text{cl}(A)$, y su frontera es $\partial A = \te
 - **Evaporación:** filtración decreciente $E_0 \supseteq E_1 \supseteq E_2 \supseteq \dots$ tal que todo estado que abandona la isla se reintegra al reservorio: $E_0 \setminus E_t \subseteq R$. **[analogía]**
 - **Archipiélago de sujetos:** mientras la estructura causal interna admite niveles anidados con $A(S) > 0$, las fronteras dotadas de encapsulación existencial forman clausuras disjuntas entre sí ($E_i \cap E_j = \emptyset$ para sujetos distintos $i \neq j$). **[propuesta]**
 
-#### 2. Manta de Markov y encapsulación existencial (Capítulos 3 y 53)
+#### 2. Manta de Markov y encapsulación existencial (Capítulo 3)
 
 Sea una partición de las variables del mundo en estados externos $\psi$, sensoriales $s$, activos $a$ e internos $\mu$, donde $b = (s, a)$ constituye la frontera o manta de Markov (Pearl, 1988; Friston, 2010; Palacios et al., 2020):
 
@@ -113,7 +114,7 @@ $$p(\psi, \mu \mid b) = p(\psi \mid b)\, p(\mu \mid b)$$
 
 Siguiendo la distinción crítica de Bruineberg et al. (2022) entre independencia condicional estadística y frontera física, definimos **encapsulación existencial** cuando: (i) existe la independencia condicional anterior respecto de $b$, y (ii) la dinámica de los estados internos y activos $(\mu, a)$ mantiene activamente la distribución del sistema dentro del conjunto de estados viables que preservan la propia frontera $b$ frente a la disipación en el reservorio $R$. **[propuesta]**
 
-#### 3. El filtro de irreducibilidad: Autosemejanza causal $A(S)$ (Capítulos 49 y 53)
+#### 3. El filtro de irreducibilidad: Autosemejanza causal $A(S)$ (Capítulo 49)
 
 Sea un sistema causal compuesto definido sobre un conjunto finito de unidades $V = \{1, \dots, N\}$, con espacio de estados producto $X = \prod_{v \in V} X_v$, matriz de transición de Markov $p(x_{t+1} \mid x_t)$ y distribución estacionaria $\pi(x)$. **[estándar]**
 
@@ -247,7 +248,7 @@ Queda la imagen del comienzo. La cocina de campo, con las brasas removidas cada 
 
 ---
 
-> **Nota al Capítulo 54**
+> **Nota a este capítulo**
 >
 > **Lo que sí sabemos:** Que los tres ingredientes de la autosemejanza causal $A(S)$ —la interacción estocástica de Ay (2001, 2015), la información mutua estacionaria (estimable en continuo según Kraskov et al., 2004) y la emergencia causal por grano grueso de Hoel et al. (2013)— son herramientas matemáticas estándar, y que su combinación en $A(S)$ separa exactamente en el modelo de 4 nodos binarios el sistema desacoplado ($A(S)=0$), el agregativo difuso ($A(S)\approx 10^{-5}$) y el recursivo multiescala ($A(S)\approx 10^{-1}$). Que el límite de Landauer ($E \ge k_B T \ln 2$) conecta físicamente la actualización irreversible de información con la disipación termodinámica. Que la distinción entre mantas de Markov estadísticas y fronteras físicas autoorganizadas está respaldada por la literatura reciente (Palacios et al., 2020; Bruineberg et al., 2022).
 >
@@ -257,4 +258,4 @@ Queda la imagen del comienzo. La cocina de campo, con las brasas removidas cada 
 >
 > **Si solo te quedas con una idea:** Si cambias la cifra estática de $\Phi$ por la autosemejanza causal $A(S)$, la encapsulación existencial y la tríada $(S, F, \bar{A})$, todo el libro encaja en una sola frase: un horizonte es una totalidad recursiva que paga energía libre para sostener la capacidad de su borde y acumular una biografía en el tiempo.
 >
-> **Lecturas:** Las del capítulo 53 y, además: Ay, N. (2001, 2015), «Information Geometry on Complexity and Stochastic Interaction»; Hoel, E. P., Albantakis, L. y Tononi, G. (2013), «Quantifying causal emergence shows that macro can beat micro»; Kraskov, A., Stögbauer, H. y Grassberger, P. (2004), «Estimating mutual information»; Palacios, E. R., Razi, A., Parr, T., Kirchhoff, M. y Friston, K. (2020), «On Markov blankets and hierarchical self-organisation»; Bruineberg, J., Dolega, K., Dewhurst, J. y Baltieri, M. (2022), «The Emperor's New Markov Blankets»; Kuratowski, K. (1922), «Sur l'opération Ā de l'Analysis Situs»; Watanabe, S. (1960), «Information theoretical analysis of multivariate correlation»; Ryu, S. y Takayanagi, T. (2006), «Holographic derivation of entanglement entropy from AdS/CFT»; Page, D. N. (1993), «Information in black hole radiation»; Sekino, Y. y Susskind, L. (2008), «Fast scramblers»; Itti, L. y Baldi, P. (2009), «Bayesian surprise attracts human attention»; Laukkonen, R. y Slagter, H. (2021), «From many to (n)one: Meditation and the plasticity of the predictive mind»; Parr, T., Pezzulo, G. y Friston, K. (2022), *Active Inference*; Seth, A. (2021), *Being You*.
+> **Lecturas:** Las de «El borde, la energía libre y la acción» y, además: Ay, N. (2001, 2015), «Information Geometry on Complexity and Stochastic Interaction»; Hoel, E. P., Albantakis, L. y Tononi, G. (2013), «Quantifying causal emergence shows that macro can beat micro»; Kraskov, A., Stögbauer, H. y Grassberger, P. (2004), «Estimating mutual information»; Palacios, E. R., Razi, A., Parr, T., Kirchhoff, M. y Friston, K. (2020), «On Markov blankets and hierarchical self-organisation»; Bruineberg, J., Dolega, K., Dewhurst, J. y Baltieri, M. (2022), «The Emperor's New Markov Blankets»; Kuratowski, K. (1922), «Sur l'opération Ā de l'Analysis Situs»; Watanabe, S. (1960), «Information theoretical analysis of multivariate correlation»; Ryu, S. y Takayanagi, T. (2006), «Holographic derivation of entanglement entropy from AdS/CFT»; Page, D. N. (1993), «Information in black hole radiation»; Sekino, Y. y Susskind, L. (2008), «Fast scramblers»; Itti, L. y Baldi, P. (2009), «Bayesian surprise attracts human attention»; Laukkonen, R. y Slagter, H. (2021), «From many to (n)one: Meditation and the plasticity of the predictive mind»; Parr, T., Pezzulo, G. y Friston, K. (2022), *Active Inference*; Seth, A. (2021), *Being You*.

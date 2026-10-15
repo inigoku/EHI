@@ -1,9 +1,10 @@
 ---
 title: EL BORDE, LA ENERGÍA LIBRE Y LA ACCIÓN
 subtitle: (Tres magnitudes y un filtro fractal para reordenar la medida de un horizonte)
-section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
-chapterNumber: 53
+section: WORK IN PROGRESS
 ---
+
+> **Work in progress.** Este texto es un borrador: reúne propuestas e hipótesis, no resultados, y no forma parte de los libros impresos.
 
 En las casas de campo de antes, el fuego no se encendía: se mantenía. Quien se levantaba primero removía las brasas de la noche, añadía dos troncos y esperaba. Si nadie lo hacía, a media mañana la cocina estaba a la temperatura del monte. Nadie decía «la cocina está caliente» como quien describe una propiedad de las paredes; decía «hay que echarle leña», porque el calor de aquella cocina no era un estado, sino un gasto.
 
@@ -119,13 +120,13 @@ Para distinguir una totalidad recursiva genuina (como un cerebro) tanto de un fr
 
 $$A(S) = I_{\min}(S) \cdot \max_{P = \{S_1, \dots, S_n\}} \frac{1}{n} \sum_{i=1}^{n} \left[ C(S_{-i}, S_i) \cdot \text{Iso}(S, S_i) \right]$$
 
-Sin entrar todavía en el aparato matricial —que queda recogido íntegro en la sección VII del capítulo 54—, la fórmula exige que se cumplan a la vez tres cosas estándar de la teoría de la información y de los sistemas dinámicos, unidas por un producto implacable en el que basta que una sola valga cero para que todo el filtro se anule:
+Sin entrar todavía en el aparato matricial —que queda recogido íntegro en la sección VII de «El ensayo releído»—, la fórmula exige que se cumplan a la vez tres cosas estándar de la teoría de la información y de los sistemas dinámicos, unidas por un producto implacable en el que basta que una sola valga cero para que todo el filtro se anule:
 
 1. **Irreducibilidad en el corte mínimo ($I_{\min}(S)$):** mide, mediante la interacción estocástica de Ay (2001, 2015), cuánta información predictiva se pierde al partir el sistema por su costura más débil. Si el sistema tiene partes desconectadas o es un patrón puramente geométrico sin tráfico causal entre sus regiones, como el conjunto de Mandelbrot, $I_{\min}(S) = 0$ y por tanto $A(S) = 0$.
 2. **Acoplamiento parte-resto ($C(S_{-i}, S_i)$):** mide la información mutua estacionaria entre cada subsistema $S_i$ y el resto del sistema $S_{-i}$. Garantiza que las partes que componen la partición estén efectivamente entrelazadas con su entorno interno.
 3. **Isomorfismo causal bajo grano grueso ($\text{Iso}(S, S_i)$):** usando el marco de emergencia causal y proyección sobreyectiva de grano grueso (*coarse-graining*) de Hoel, Albantakis y Tononi (2013), compara la matriz de transición macroscópica del sistema entero con la matriz de transición interna de cada una de sus partes. Aquí es donde cae el hormiguero: las hormigas tienen un acoplamiento local débil por feromonas ($I_{\min}$ y $C$ muy bajos), pero sobre todo la dinámica difusiva y lenta de la colonia entera no guarda ningún isomorfismo con la dinámica neurobiológica rápida de una hormiga individual ($\text{Iso} \approx 0$). En un cerebro, en cambio, el bucle de excitación, inhibición y predicción se replica funcionalmente desde los microcircuitos locales hasta las redes corticales globales, arrojando un $A(S)$ varios órdenes de magnitud superior.
 
-De este modo, el capítulo 49 y el capítulo 53 quedan soldados en una sola pieza: un sistema supera el filtro estructural cuando sus partes están causalmente integradas ($I_{\min} > 0$), acopladas al resto ($C > 0$) y reproducen a su escala la ley dinámica del conjunto ($\text{Iso} > 0$).
+De este modo, el capítulo 49 y este quedan soldados en una sola pieza: un sistema supera el filtro estructural cuando sus partes están causalmente integradas ($I_{\min} > 0$), acopladas al resto ($C > 0$) y reproducen a su escala la ley dinámica del conjunto ($\text{Iso} > 0$).
 
 ### VII. El fin del postulado de exclusión y el archipiélago de sujetos
 
@@ -155,7 +156,7 @@ Con todo, el cambio de lenguaje deja el edificio más limpio que al empezar este
 
 ---
 
-> **Nota al Capítulo 53**
+> **Nota a este capítulo**
 >
 > **Lo que sí sabemos:** La entropía de un agujero negro es proporcional al área de su horizonte (Bekenstein, Hawking). El principio de Landauer establece el coste termodinámico mínimo de borrar o actualizar irreversiblemente un bit de información ($E \ge k_B T \ln 2$), conectando la entropía informacional con la termodinámica física. La energía libre variacional (Friston, 2010) acota la sorpresa informacional en sistemas con manta de Markov. La interacción estocástica (Ay, 2001, 2015) y la emergencia causal por grano grueso (Hoel, Albantakis y Tononi, 2013) son medidas establecidas en teoría de la información y sistemas dinámicos. Bruineberg et al. (2022) y Palacios et al. (2020) han analizado formalmente el alcance y el anidamiento de las mantas de Markov.
 >

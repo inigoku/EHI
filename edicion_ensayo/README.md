@@ -140,19 +140,17 @@ las 550 páginas de la tapa dura. Tras la reorganización de la revisión C (que
 el antiguo cap. 46) vuelve a usar uno algo más prieto, 16 pt frente a los 16,4 del resto:
 542 páginas con las láminas incluidas.
 
-### Reparto de los capítulos 53-56 entre los tomos
+### Los borradores «Work in progress» no entran en los libros
 
-Con los capítulos 53 y 54 (la reformulación con la tríada y la relectura del libro) y los
-nuevos 55 y 56 (la arquitectura cosmoteándrica y la herencia de la geometría), el tomo I
-pasaba de las 550 páginas de la tapa dura (590 solo con el 53 y el 54). Los cuatro capítulos
-viajan por eso al final del tomo II, como sección «Relectura y herencia» (lecturas 15 a 18);
-el tomo I termina en el capítulo 52 (su capítulo 38), el epílogo y los apéndices. Lo hacen
-`make_tomos.py`, `make_tomos_ca.py` y `make_tomos_en.py` (constante `MOVED`); las remisiones
-«capítulo N» se reescriben solas, y las de varios capítulos a la vez del glosario, a mano en
-`T1`. Páginas con la maqueta actual y láminas: tomo I 550 (es), 540 (ca), 542 (en); tomo II
-260 (es), 248 (ca), 256 (en); volumen único 830 (es), 802 (ca), 818 (en). Los PDF de este
-directorio son anteriores a este reparto y hay que regenerarlos, con sus cubiertas (el lomo
-depende de las páginas).
+Cuatro textos del ensayo (la reformulación con la tríada del borde, la energía libre y la
+acción; el ensayo releído; la arquitectura cosmoteándrica; la herencia de la geometría) viven
+en la web como sección «Work in progress», al final de todo y sin numerar
+(`section: WORK IN PROGRESS` en su frontmatter, sin `chapterNumber`; código en
+`src/chapters/wip.ts`). Ninguno aparece en los `toc_*.json`, así que no están en ningún
+volumen impreso ni en los EPUB. El glosario impreso tampoco lleva las entradas que solo
+describen esos borradores (`_glossary_fixes()` en `make_tomos*.py` las quita al compilar) y
+las remisiones a ellos se eliminan. El mecanismo para mandar capítulos al final del tomo II
+(constante `MOVED`) queda vacío por si hace falta más adelante.
 
 ### Los tomos sin ilustraciones (tapa blanda B/N y EPUB)
 
