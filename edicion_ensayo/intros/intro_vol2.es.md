@@ -12,7 +12,7 @@ Una pregunta así no se queda en un solo registro. Cambia al pasar de la física
 
 **Tomo II, Lecturas topológicas.** La hipótesis puesta a trabajar sobre cosas que se hicieron sin ella: novelas, películas, cuadros, un partido de fútbol.
 
-**Tomo III, Fábulas de Tarel.** La misma idea contada como relatos breves, en una ciudad y a su alrededor, que aprendió a vivir con el agua que se va.
+**Tomo III, Cuentos de Tarel.** La misma idea contada como relatos breves, dentro y alrededor de una ciudad que aprendió a vivir con el agua que se va.
 
 **Tomo IV, Ecos en el borde.** La misma idea en el lenguaje del sentimiento, como poemas.
 
