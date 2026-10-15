@@ -5,7 +5,7 @@ section: QUARTA PART: EL LÍMIT DE L'EXPERIMENT
 chapterNumber: 54
 ---
 
-Hi ha una manera de rellegir un llibre que consisteix a canviar-hi una sola peça mestra i veure què es mou. Quan acabes una novel·la i descobreixes que el narrador mentia, no canvies ni una pàgina, però totes queden il·luminades des d'un altre angle. El capítol anterior va proposar jubilar la bastida de $\Phi$ que ens ha acompanyat des del capítol 1 i substituir-lo per una arquitectura en dos passos: primer, el filtre de l'**autosemblança causal** $A(S)$ unit a l'**encapsulació existencial**; després, la tríada $(S, F, \bar{A})$ que mesura la mida de la vora, l'energia lliure que costa sostenir-la i la biografia acumulada. Aquest capítol fa allò que l'anterior no podia fer sense tornar-se interminable: recórrer el llibre sencer amb aquesta lent, formalitzar el catàleg matemàtic complet a la secció VII (inclosa la simulació exacta de verificació sobre quatre nodes binaris) i fixar a la secció VIII les prediccions empíriques que podrien desmentir-lo.
+Hi ha una manera de rellegir un llibre que consisteix a canviar-hi una sola peça mestra i veure què es mou. Quan acabes una novel·la i descobreixes que el narrador mentia, no canvies ni una pàgina, però totes queden il·luminades des d'un altre angle. El capítol anterior va proposar jubilar la bastida de $\Phi$ que ens ha acompanyat des del capítol 1 i substituir-la per una arquitectura en dos passos: primer, el filtre de l'**autosemblança causal** $A(S)$ unit a l'**encapsulació existencial**; després, la tríada $(S, F, \bar{A})$ que mesura la mida de la vora, l'energia lliure que costa sostenir-la i la biografia acumulada. Aquest capítol fa allò que l'anterior no podia fer sense tornar-se interminable: recórrer el llibre sencer amb aquesta lent, formalitzar el catàleg matemàtic complet a la secció VII (inclosa la simulació exacta de verificació sobre quatre nodes binaris) i fixar a la secció VIII les prediccions empíriques que podrien desmentir-lo.
 
 No és un resum. Això és una segona lectura, i una segona lectura només val la pena si ordena allò que a la primera semblava dispers o si resol les tensions que la primera havia deixat obertes. Quan la rellegida introdueix un pont nou respecte al capítol original, va marcat com a *hipòtesi*.
 
@@ -15,7 +15,7 @@ No és un resum. Això és una segona lectura, i una segona lectura només val l
 
 **El forat negre i la seva vora (capítol 2).** Bekenstein i Hawking van lliurar la primera coordenada: $S \propto \mathcal{A}$. Rellegida en la tríada, diu que el sostre d'estats privats diferenciables que un horitzó pot sostenir el fixa l'àrea de la seva interfície, mesurada com a entropia d'entrellaçament a través de la frontera (capítol 23).
 
-**L'encapsulació i la fi del decret d'exclusió (capítols 3, 22 i 23).** Un estat privat darrere d'una interfície pública. Rellegida davant la literatura sobre mantells de Markov (Friston, 2010; Palacios et al., 2020; Bruineberg et al., 2022), aquesta peça resol la tensió que arrossegaven els capítols 22 i 23. En el pla de l'estructura causal, els mantells de Markov s'aniuen jeràrquicament i aquesta jerarquia és el que mesura $A(S)$; però en el pla dels subjectes, només constitueix un «algú» la frontera que posseeix **encapsulació existencial** (aquella l'estat propi persistent de la qual es juga la continuïtat física davant el reservori). Per això els complexos interns formen un arxipèlag d'illes disjuntes i no una nina russa de subjectes superposats, sense necessitat d'invocar el postulat d'exclusió per màxim de $\Phi$.
+**L'encapsulació i la fi del decret d'exclusió (capítols 3, 22 i 23).** Un estat privat darrere d'una interfície pública. Rellegida davant la literatura sobre les mantes de Markov (Friston, 2010; Palacios et al., 2020; Bruineberg et al., 2022), aquesta peça resol la tensió que arrossegaven els capítols 22 i 23. En el pla de l'estructura causal, les mantes de Markov s'aniuen jeràrquicament i aquesta jerarquia és el que mesura $A(S)$; però en el pla dels subjectes, només constitueix un «algú» la frontera que posseeix **encapsulació existencial** (aquella l'estat propi persistent de la qual es juga la continuïtat física davant el reservori). Per això els complexos interns formen un arxipèlag d'illes disjuntes i no una nina russa de subjectes superposats, sense necessitat d'invocar el postulat d'exclusió per màxim de $\Phi$.
 
 **El reservori i el pont de Landauer (capítols 5, 7 i 23).** El capítol 23 va definir el reservori sense misteri: $R = X \setminus \bigcup_i E_i$, tot allò que en un instant donat queda fora de les clausures condensades. Estadísticament, $R$ actua com el bany de volatilitat i incertesa davant el qual l'horitzó minimitza la seva sorpresa variacional; físicament, el límit de Landauer ($E \ge k_B T \ln 2$) tradueix cada bit d'actualització predictiva davant d'aquest reservori en energia tèrmica dissipada a la temperatura $T$ del substrat.
 
@@ -30,8 +30,8 @@ No és un resum. Això és una segona lectura, i una segona lectura només val l
 | Dimensió | Filosofia de l'horitzó | Enginyeria de programari | Física teòrica i termodinàmica | Filosofies orientals |
 |---|---|---|---|---|
 | **Irreductibilitat** | Autosemblança causal $A(S)$ + encapsulació existencial. | Arquitectura modular recursiva amb estat privat persistent. | Emergència causal multiescala fora de l'equilibri. | La xarxa d'Indra reflectida en cada nus amb centre propi. |
-| **Capacitat** | Entropia de la vora, $S \propto \mathcal{A}$. | Mida de l'espai d'estats privats (`private fields`). | Entropia de Bekenstein-Hawking. | Allò que cap a la vasa. |
-| **Nivell i cost** | Energia lliure, $F = U - TS$, i potència de manteniment. | Cost computacional i energètic de mantenir la invariant de classe. | Treball contra el bany tèrmic; límit de Landauer ($k_B T \ln 2$). | Atenció sostinguda; vigilància davant la dispersió. |
+| **Capacitat** | Entropia de la vora, $S \propto \mathcal{A}$. | Mida de l'espai d'estats privats (`private fields`). | Entropia de Bekenstein-Hawking. | Allò que hi cap, a la vasa. |
+| **Nivell i cost** | Energia lliure, $F = U - TS$, i potència de manteniment. | Cost computacional i energètic de mantenir l'invariant de classe. | Treball contra el bany tèrmic; límit de Landauer ($k_B T \ln 2$). | Atenció sostinguda; vigilància davant la dispersió. |
 | **Biografia** | Acció entròpica $\bar{A}(t)$ i desgast $\bar{A}_F(t)$. | Historial d'estats i *logs* acumulats de la instància. | Acció integrada al llarg de la trajectòria. | *Karma*, entès com a petjada causal acumulada. |
 
 ### III. L'horitzó en vincle
@@ -52,7 +52,7 @@ No és un resum. Això és una segona lectura, i una segona lectura només val l
 
 **Alzheimer (capítol 18).** És l'erosió progressiva de $S(t)$ i la fragmentació de $A(S)$ per trencament de les connexions entre escales, mentre la taxa d'escriptura $\vartheta(t)$ cau cap a zero («el temps esdevé un bassal»). El cuidador assumeix externament part de la feina de mantenir $F$, custodiant una biografia acumulada $\bar{A}$ que el pacient ja només pot habitar en el seu nucli mínim.
 
-**Parkinson (capítol 19).** L'horitzó conserva intactes la seva autosemblança causal $A(S)$, la seva capacitat $S$ i la seva biografia $\bar{A}$, però falla el canal actiu del mantell de Markov i el calibratge dopaminèrgic de la precisió $\pi_i$ amb què se sincronitzen les prediccions motores i temporals amb el món.
+**Parkinson (capítol 19).** L'horitzó conserva intactes la seva autosemblança causal $A(S)$, la seva capacitat $S$ i la seva biografia $\bar{A}$, però falla el canal actiu de la manta de Markov i el calibratge dopaminèrgic de la precisió $\pi_i$ amb què se sincronitzen les prediccions motores i temporals amb el món.
 
 **El trauma (capítol 19).** És una subvora estanca que no ha passat pel *scrambling* narratiu: una illa d'informació congelada que no s'integra en la biografia general $\bar{A}$, però que cobra un peatge constant en $\bar{A}_F$ cada vegada que un estímul reactiva el seu bucle de predicció no resolt.
 
@@ -66,7 +66,7 @@ No és un resum. Això és una segona lectura, i una segona lectura només val l
 
 **El mirall sense profunditat i les societats (capítols 25, 30 i 31).** Una societat o un formiguer manquen de subjecte per un doble motiu: la seva autosemblança causal $A(S)$ s'esfondra perquè la dinàmica lenta de l'agregat no és isomorfa a la dels individus ($\text{Iso} \approx 0$), i manquen d'encapsulació existencial. Un gran model de llenguatge actual falla en el filtre per la via arquitectònica: encara que durant l'entrenament minimitzi una funció de cost formalment anàloga a una energia lliure variacional, en inferència manca d'estat propi persistent la continuïtat física del qual depengui de la seva conducta; els seus pesos estan congelats i són públicament llegibles des de fora. No hi ha encapsulació existencial ni nivell propi $F$ que el sistema defensi per no dissoldre's.
 
-**La realitat fractal i la nau de fang (capítols 49 i 50).** La definició d'$A(S)$ formalitza per fi en quin sentit un horitzó viu és fractal i per què el conjunt de Mandelbrot no ho és en el sentit que aquí importa: a Mandelbrot hi ha autosemblança geomètrica estàtica sense trànsit causal ($I_{\min} = 0 \implies A(S) = 0$), mentre que en un horitzó real la mateixa llei de transició causal es replica de les parts al tot ($A(S) > 0$). I l'«afecte creador» del capítol 50 —la mirada que sosté un món perquè no caigui en l'oblit— té traducció directa en la segona coordenada: és el subministrament continu d'energia lliure des de l'escala superior que manté viu un estat estacionari fora de l'equilibri.
+**La realitat fractal i la nau de fang (capítols 49 i 50).** La definició d'$A(S)$ formalitza per fi en quin sentit un horitzó viu és fractal i per què el conjunt de Mandelbrot no ho és en el sentit que aquí importa: a Mandelbrot hi ha autosemblança geomètrica estàtica sense trànsit causal ($I_{\min} = 0 \implies A(S) = 0$), mentre que en un horitzó real la mateixa llei de transició causal es replica de les parts al tot ($A(S) > 0$). I l'«aferrament creador» del capítol 50 —la mirada que sosté un món perquè no caigui en l'oblit— té traducció directa en la segona coordenada: és el subministrament continu d'energia lliure des de l'escala superior que manté viu un estat estacionari fora de l'equilibri.
 
 ### VI. Casos límit, estats alterats i la còpia del relat
 
@@ -103,9 +103,9 @@ Un conjunt és tancat si $A = \text{cl}(A)$, i la seva frontera és $\partial A 
 - **Evaporació:** filtració decreixent $E_0 \supseteq E_1 \supseteq E_2 \supseteq \dots$ tal que tot estat que abandona l'illa es reintegra al reservori: $E_0 \setminus E_t \subseteq R$. **[analogia]**
 - **Arxipèlag de subjectes:** mentre l'estructura causal interna admet nivells aniuats amb $A(S) > 0$, les fronteres dotades d'encapsulació existencial formen clausures disjuntes entre si ($E_i \cap E_j = \emptyset$ per a subjectes diferents $i \neq j$). **[proposta]**
 
-#### 2. Mantell de Markov i encapsulació existencial (Capítols 3 i 53)
+#### 2. Manta de Markov i encapsulació existencial (Capítols 3 i 53)
 
-Sigui una partició de les variables del món en estats externs $\psi$, sensorials $s$, actius $a$ i interns $\mu$, on $b = (s, a)$ constitueix la frontera o mantell de Markov (Pearl, 1988; Friston, 2010; Palacios et al., 2020):
+Sigui una partició de les variables del món en estats externs $\psi$, sensorials $s$, actius $a$ i interns $\mu$, on $b = (s, a)$ constitueix la frontera o manta de Markov (Pearl, 1988; Friston, 2010; Palacios et al., 2020):
 
 $$p(\psi, \mu \mid b) = p(\psi \mid b)\, p(\mu \mid b)$$
 
@@ -131,9 +131,9 @@ $$A(S) = I_{\min}(S) \cdot \max_{P = \{S_1, \dots, S_n\}} \frac{1}{n} \sum_{i=1}
 
 on els seus tres factors són:
 
-1. **Irreductibilitat en el tall mínim ($I_{\min}$):** interacció estocàstica (Ay, 2001, 2015) avaluada en la partició $Q$ més feble del sistema i mitjanada sobre la distribució estacionària $\pi$:
+1. **Irreductibilitat en el tall mínim ($I_{\min}$):** interacció estocàstica (Ay, 2001, 2015) avaluada en la partició $Q$ més feble del sistema i promitjada sobre la distribució estacionària $\pi$:
    $$I_{\min}(S) = \min_{Q} \mathbb{E}_{x_t \sim \pi} \left[ D_{\text{KL}}\left( p(X_{t+1} \mid x_t) \;\middle\Vert{}\; \prod_{k} p_k(X_{k,t+1} \mid x_{k,t}) \right) \right]$$
-   **[estàndard]** *(Garanteix que si el sistema té parts desconnectades o manca de trànsit causal, com el conjunt de Mandelbrot, $I_{\min}(S) = 0 \implies A(S) = 0$).*
+   **[estàndard]** *(Garanteix que si el sistema té parts desconnectades o no té trànsit causal, com el conjunt de Mandelbrot, $I_{\min}(S) = 0 \implies A(S) = 0$).*
 
 2. **Acoblament part-resta ($C$):** informació mútua estacionària entre la part $S_i$ i la resta del sistema $S_{-i}$ (i no $I(X_t; X_{i,t})$, que degeneraria trivialment en l'entropia local $H(X_{i,t})$):
    $$C(S_{-i}, S_i) = I(X_{-i,t}; X_{i,t}) = \sum_{x_i, x_{-i}} \pi(x_i, x_{-i}) \log_2 \frac{\pi(x_i, x_{-i})}{\pi(x_i)\pi(x_{-i})}$$
@@ -156,23 +156,23 @@ particionat en dos mòduls simètrics $S_1 = \{1, 2\}$ i $S_2 = \{3, 4\}$, i ava
 - **1. Sistema tipus Mandelbrot ($S_{\text{Mand}}$, autosemblança geomètrica sense acoblament causal entre parts):** cada node oscil·la localment amb soroll $\epsilon = 0{,}10$ segons $q_v(x) = (1 - \epsilon)(1 - x_v) + \epsilon x_v$. La dinàmica local i la macroscòpica són simètriques ($\text{Iso} = 1{,}0$), però en no existir trànsit causal entre subsistemes resulta $I_{\min}(S_{\text{Mand}}) = 0$ i $C = 0$, la qual cosa dona exactament:
   $$\mathbf{A(S_{\text{Mand}}) = 0}$$
 
-- **2. Sistema tipus Formiguer ($S_{\text{Horm}}$, agregació difusiva de camp mitjà feble):** cada unitat combina la seva oscil·lació local ($\eta = 0{,}10$) amb un arrossegament difusiu feble de la resta de la colònia ($\varepsilon = 0{,}05$):
+- **2. Sistema tipus Formiguer ($S_{\text{Form}}$, agregació difusiva de camp mitjà feble):** cada unitat combina la seva oscil·lació local ($\eta = 0{,}10$) amb un arrossegament difusiu feble de la resta de la colònia ($\varepsilon = 0{,}05$):
   $$q_v(x) = (1 - \varepsilon)\left[(1 - \eta)(1 - x_v) + \eta x_v\right] + \varepsilon \frac{1}{3} \sum_{u \neq v} x_u$$
   El sistema presenta una irreductibilitat mínima molt baixa ($I_{\min} > 0$), un acoblament estacionari feble ($C > 0$) i una baixa semblança funcional entre la difusió lenta de l'agregat i la unitat individual, resultant en:
-  $$\mathbf{A(S_{\text{Horm}}) \approx 10^{-5}}$$
+  $$\mathbf{A(S_{\text{Form}}) \approx 10^{-5}}$$
 
-- **3. Sistema tipus Cervell ($S_{\text{Cer}}$, bucle excitació-inhibició replicat entre escales):** cada mòdul local executa un cicle excitador-inhibidor $(x_a, x_b) \to (1 - x_b, x_a)$ mentre els dos mòduls s'acoblen a escala macroscòpica seguint exactament la mateixa llei excitadora-inhibidora $(M_1, M_2) \to (1 - M_2, M_1)$ amb pes d'acoblament intermodular $\beta = 0{,}50$ i soroll tèrmic $\gamma = 0{,}05$:
+- **3. Sistema tipus Cervell ($S_{\text{Cerv}}$, bucle excitació-inhibició replicat entre escales):** cada mòdul local executa un cicle excitador-inhibidor $(x_a, x_b) \to (1 - x_b, x_a)$ mentre els dos mòduls s'acoblen a escala macroscòpica seguint exactament la mateixa llei excitadora-inhibidora $(M_1, M_2) \to (1 - M_2, M_1)$ amb pes d'acoblament intermodular $\beta = 0{,}50$ i soroll tèrmic $\gamma = 0{,}05$:
   $$q_1(x) = (1 - \gamma)\left[(1 - \beta)(1 - x_2) + \beta(1 - M_2)\right] + \frac{\gamma}{2}$$
   $$q_2(x) = (1 - \gamma)\left[(1 - \beta)x_1 + \beta(1 - M_2)\right] + \frac{\gamma}{2}$$
   $$q_3(x) = (1 - \gamma)\left[(1 - \beta)(1 - x_4) + \beta M_1\right] + \frac{\gamma}{2}$$
   $$q_4(x) = (1 - \gamma)\left[(1 - \beta)x_3 + \beta M_1\right] + \frac{\gamma}{2}$$
-  Aquí concorren simultàniament una irreductibilitat de tall mínim elevada ($I_{\min}$ alt), una informació mútua intermodular forta ($C$ alt) i un isomorfisme elevat entre la llei macroscòpica i la llei microscòpica ($\text{Iso}$ alt), la qual cosa dona un valor de $\mathbf{A(S_{\text{Cer}}) \approx 10^{-1}}$, quatre ordres de magnitud superior al del formiguer.
+  Aquí concorren simultàniament una irreductibilitat de tall mínim elevada ($I_{\min}$ alt), una informació mútua intermodular forta ($C$ alt) i un isomorfisme elevat entre la llei macroscòpica i la llei microscòpica ($\text{Iso}$ alt), la qual cosa dona un valor de $\mathbf{A(S_{\text{Cerv}}) \approx 10^{-1}}$, quatre ordres de magnitud superior al del formiguer.
 
 | Sistema ($N=4$ nodes) | $I_{\min}$ | $C(S_{-i}, S_i)$ | $\text{Iso}(S, S_i)$ | Autosemblança causal $A(S)$ |
 |---|---|---|---|---|
 | **Mandelbrot ($S_{\text{Mand}}$)** | $0$ | $0$ | $1{,}0$ | $\mathbf{0}$ |
-| **Formiguer ($S_{\text{Horm}}$)** | Molt baix ($>0$) | Molt baix ($>0$) | Baix | $\mathbf{\approx 10^{-5}}$ |
-| **Cervell ($S_{\text{Cer}}$)** | Alt | Alt | Alt | $\mathbf{\approx 10^{-1}}$ |
+| **Formiguer ($S_{\text{Form}}$)** | Molt baix ($>0$) | Molt baix ($>0$) | Baix | $\mathbf{\approx 10^{-5}}$ |
+| **Cervell ($S_{\text{Cerv}}$)** | Alt | Alt | Alt | $\mathbf{\approx 10^{-1}}$ |
 
 #### 5. Primera coordenada de la tríada: Capacitat de la vora ($S$)
 
@@ -233,15 +233,15 @@ Una lectura que no pot fallar no és una teoria, és una manera de parlar. Aques
 6. **El trauma es comporta com una subvora estanca amb cost $\bar{A}_F$ propi.** La integració terapèutica d'un record traumàtic encapsulat hauria de produir una reducció esglaonada (com a transició de fase en obrir-se el compartiment al *scrambling* narratiu, i no com un pendent suau) en el cost fisiològic basal, acompanyada d'un augment en la capacitat lliure $S(t)$ disponible per a tasques presents.
 7. **L'encapsulació existencial altera la conducta d'un agent artificial.** Un sistema artificial dotat d'un estat intern persistent la integritat física del qual depengui directament de mantenir les seves variables dins d'un rang homeostàtic davant d'un entorn volàtil desenvoluparà espontàniament conductes de preservació de la frontera i aversió al risc irreversible que no apareixen en un model de pesos fixos amb la mateixa arquitectura i funció de recompensa externa, però sense estat propi en joc.
 
-> **En la vida diària és com:** decidir si una casa és habitada mirant només els plànols de la façana o comprovant si la calor es reparteix per totes les plantes, quant marca el comptador de l'hivern i qui repara el teulat quan neva.
+> **En la vida diària és com:** decidir si una casa està habitada mirant només els plànols de la façana o comprovant si la calor es reparteix per totes les plantes, quant marca el comptador de l'hivern i qui repara el teulat quan neva.
 
 ### IX. Què es guanya i què es perd
 
-**Allò que es guanya.** Emancipar per complet l'assaig de la teoria de Tononi i del seu postulat d'exclusió, tancant la bretxa entre la intuïció fractal del capítol 49 i el formalisme del final del llibre. Una distinció matemàtica exacta (verificada en el model de quatre nodes) entre un fractal geomètric mort, un formiguer agregatiu i un cervell recursiu. Un pont físic sense buits —el límit de Landauer— entre la sorpresa informacional i la despesa termodinàmica. I una separació clara entre la riquesa d'una vida ($\bar{A}$) i allò que ha fet mal de sostenir-la ($\bar{A}_F$).
+**Allò que es guanya.** Emancipar per complet l'assaig de la teoria de Tononi i del seu postulat d'exclusió, tancant la bretxa entre la intuïció fractal del capítol 49 i el formalisme del final del llibre. Una distinció matemàtica exacta (verificada en el model de quatre nodes) entre un fractal geomètric mort, un formiguer agregatiu i un cervell recursiu. Un pont físic sense buits —el límit de Landauer— entre la sorpresa informacional i la despesa termodinàmica. I una separació clara entre la riquesa d'una vida ($\bar{A}$) i quant ha fet mal de sostenir-la ($\bar{A}_F$).
 
 **Allò que es perd.** La falsa comoditat de resumir una ànima en una sola lletra grega. Ara calen un filtre multiescala ($A(S)$ amb encapsulació existencial) i tres coordenades per començar a parlar amb rigor.
 
-**Allò que no es toca.** La textura íntima del dins. Cap equació de la secció VII no diu per què fa mal pagar la factura de Landauer ni per què el silenci del reservori fa vertigen quan ens asomem a la vora. El capítol 51 ho va dir així: el mapa no és el territori. Aquesta rellegida no esborra aquesta frontera; neteja el vidre per mirar-la millor.
+**Allò que no es toca.** La textura íntima del dins. Cap equació de la secció VII no diu per què fa mal pagar la factura de Landauer ni per què el silenci del reservori fa vertigen quan ens inclinem sobre la vora. El capítol 51 ho va dir així: el mapa no és el territori. Aquesta rellegida no esborra aquesta frontera; neteja el vidre per mirar-la millor.
 
 Queda la imatge del començament. La cuina de camp, amb les brases remogudes cada matí, no és més que un cas petit. Però és un cas honrat: un dins que s'organitza a totes les seves escales, una despesa que es paga bit a bit i soca a soca, uns anys que s'acumulen a les parets. Si l'assaig sencer té una tesi que resisteixi tots els canvis de llenguatge, és aquesta: que estar viu, i estar conscient, no és un estat que es posseeix, sinó una frontera que se sosté en el temps.
 
@@ -249,7 +249,7 @@ Queda la imatge del començament. La cuina de camp, amb les brases remogudes cad
 
 > **Nota al Capítol 54**
 >
-> **Allò que sí sabem:** Que els tres ingredients de l'autosemblança causal $A(S)$ —la interacció estocàstica d'Ay (2001, 2015), la informació mútua estacionària (estimable en continu segons Kraskov et al., 2004) i l'emergència causal per gra gruixut de Hoel et al. (2013)— són eines matemàtiques estàndard, i que la seva combinació en $A(S)$ separa exactament en el model de 4 nodes binaris el sistema desacoblat ($A(S)=0$), l'agregatiu difús ($A(S)\approx 10^{-5}$) i el recursiu multiescala ($A(S)\approx 10^{-1}$). Que el límit de Landauer ($E \ge k_B T \ln 2$) connecta físicament l'actualització irreversible d'informació amb la dissipació termodinàmica. Que la distinció entre mantells de Markov estadístics i fronteres físiques autoorganitzades està recolzada per la literatura recent (Palacios et al., 2020; Bruineberg et al., 2022).
+> **Allò que sí sabem:** Que els tres ingredients de l'autosemblança causal $A(S)$ —la interacció estocàstica d'Ay (2001, 2015), la informació mútua estacionària (estimable en continu segons Kraskov et al., 2004) i l'emergència causal per gra gruixut de Hoel et al. (2013)— són eines matemàtiques estàndard, i que la seva combinació en $A(S)$ separa exactament en el model de 4 nodes binaris el sistema desacoblat ($A(S)=0$), l'agregatiu difús ($A(S)\approx 10^{-5}$) i el recursiu multiescala ($A(S)\approx 10^{-1}$). Que el límit de Landauer ($E \ge k_B T \ln 2$) connecta físicament l'actualització irreversible d'informació amb la dissipació termodinàmica. Que la distinció entre mantes de Markov estadístiques i fronteres físiques autoorganitzades està avalada per la literatura recent (Palacios et al., 2020; Bruineberg et al., 2022).
 >
 > **Allò que no sabem:** Si les set prediccions de la secció VIII es confirmaran en escalar les mesures a connectomes complets i cohorts clíniques. Fins a quin punt la temperatura efectiva de l'actualització sinàptica s'acosta al límit inferior de Landauer o opera diversos ordres de magnitud per sobre per ineficiència biològica.
 >
