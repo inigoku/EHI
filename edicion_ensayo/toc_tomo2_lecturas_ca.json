@@ -180,7 +180,7 @@
   "dedication": "A qui es va quedar a la vora<br/>quan l'aigua es va retirar.",
   "colophon": "Aquest volum es va compondre<br/>sense haver demostrat res,<br/>exactament com estava previst des de la primera pàgina.",
   "credits": [
-    "Segon volum de L'Horitzó Interior: catorze lectures que porten les idees de l'assaig a la ficció, el cinema, l'esport i la vida quotidiana. Les remissions a capítols apunten al primer volum, L'Horitzó Interior. Assaig. Tanca el volum la secció «Relectura i herència»: quatre capítols que rellegeixen el llibre amb la tríada de la vora, l'energia lliure i l'acció, i que tracten l'herència de la geometria."
+    "Segon volum de L'Horitzó Interior: catorze lectures que porten les idees de l'assaig a la ficció, el cinema, l'esport i la vida quotidiana. Les remissions a capítols apunten al primer volum, L'Horitzó Interior. Assaig."
   ],
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-ca",
   "gutter_in": 0.62,
@@ -350,10 +350,6 @@
       "content_file": "../content/lecturas/cap_realidad_fractal.ca.md",
       "replace": [
         [
-          "capítol 53",
-          "lectura 15"
-        ],
-        [
           "**Nota al Capítol 49**",
           "**Nota a la lectura 13**"
         ]
@@ -380,98 +376,6 @@
       ],
       "chapter_number": 14,
       "section": ""
-    },
-    {
-      "id": "cap_triada_horizonte",
-      "content_file": "../content/ensayo/cap_triada_horizonte.ca.md",
-      "replace": [
-        [
-          "capítol 49",
-          "lectura 13"
-        ],
-        [
-          "capítol 51",
-          "capítol 37"
-        ],
-        [
-          "capítol 54",
-          "lectura 16"
-        ],
-        [
-          "capítol 53",
-          "lectura 15"
-        ],
-        [
-          "**Nota al Capítol 53**",
-          "**Nota a la lectura 15**"
-        ]
-      ],
-      "chapter_number": 15,
-      "section": "RELECTURA I HERÈNCIA"
-    },
-    {
-      "id": "cap_ensayo_releido",
-      "content_file": "../content/ensayo/cap_ensayo_releido.ca.md",
-      "replace": [
-        [
-          "capítol 50",
-          "lectura 14"
-        ],
-        [
-          "capítol 49",
-          "lectura 13"
-        ],
-        [
-          "capítol 51",
-          "capítol 37"
-        ],
-        [
-          "capítol 53",
-          "lectura 15"
-        ],
-        [
-          "**Nota al Capítol 54**",
-          "**Nota a la lectura 16**"
-        ]
-      ],
-      "chapter_number": 16,
-      "section": "RELECTURA I HERÈNCIA"
-    },
-    {
-      "id": "cap20_5",
-      "content_file": "../content/ensayo/cap20_5.ca.md",
-      "replace": [
-        [
-          "capítol 51",
-          "capítol 37"
-        ],
-        [
-          "**Nota al Capítol 55**",
-          "**Nota a la lectura 17**"
-        ]
-      ],
-      "chapter_number": 17,
-      "section": "RELECTURA I HERÈNCIA"
-    },
-    {
-      "id": "cap_herencia_geometria",
-      "content_file": "../content/ensayo/cap_herencia_geometria.ca.md",
-      "replace": [
-        [
-          "capítol 55",
-          "lectura 17"
-        ],
-        [
-          "capítol 54",
-          "lectura 16"
-        ],
-        [
-          "**Nota al Capítol 56**",
-          "**Nota a la lectura 18**"
-        ]
-      ],
-      "chapter_number": 18,
-      "section": "RELECTURA I HERÈNCIA"
     }
   ]
 }

@@ -54,8 +54,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         c.section.includes("SEGUNDA PARTE") || 
         c.section.includes("TERCERA PARTE") || 
         c.section.includes("CUARTA PARTE") ||
-        c.section.includes("INTERLUDIO") ||
-        c.id === "cap20_5"
+        c.section.includes("INTERLUDIO")
       )
     );
   }, []);
@@ -79,8 +78,6 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
         color = "orange";
       } else if (ch.section?.includes("INTERLUDIO")) {
         color = "cyan";
-      } else if (ch.id === "cap20_5") {
-        color = "amber";
       }
       
       return {
@@ -176,7 +173,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
           };
           return mapping[poema.id] || "cap13";
         }
-        return "cap20_5"; // poema_glosario
+        return "cap13"; // poema_glosario (glosa la serie "La arquitectura con un hueco", acuñada en este capítulo)
       })();
 
       const parentNode = nodes.find(n => n.id === parentId);

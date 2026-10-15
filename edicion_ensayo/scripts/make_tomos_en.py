@@ -32,9 +32,9 @@ def body(ch):
 def key(ch):
     return Path(ch["content_file"]).name
 
-# Capítulos de cierre (relectura formal y herencia) que, para no pasar de las 550
-# páginas de la tapa dura, viajan al final del tomo II como lecturas 15-18.
-MOVED = (53, 54, 55, 56)
+# Mecanismo para mandar capítulos del ensayo al final del tomo II (como lecturas
+# 15 en adelante). Hoy está vacío.
+MOVED = ()   # vacío: los borradores de la sección «Work in progress» no entran en los libros
 SEC_MOVED = "REREADING AND INHERITANCE"
 def _is_lect(c): return fm(c).get("section") == "TOPOLOGICAL READINGS"
 def _is_moved(c): return fm(c).get("chapterNumber", "").isdigit() and int(fm(c)["chapterNumber"]) in MOVED
@@ -88,11 +88,6 @@ def refs(text, tomo):
 
 # ---- tomo I -----------------------------------------------------------
 T1 = {
-    "cap_glosario.en.md": [
-        ('(chapters 22, 31, 53 and 54)', '(chapters 22 and 31, and Readings 15 and 16 in the second volume)'),
-        ('(chapters 53 and 54)', '(Readings 15 and 16 in the second volume)'),
-        ('In chapters 53 and 54 it is', 'In Readings 15 and 16 of the second volume it is'),
-    ],
     "cap_nota_autor.en.md": [
         ("Several of the topological readings (",
          "Several readings from the second volume, *Topological Readings* (")],
@@ -105,6 +100,33 @@ T2 = {}
 
 # ---- single volume: the source text already carries its numbering ------
 UNICO = {}
+
+# ---- el glosario impreso no incluye la sección «Work in progress» ------------
+_GLOS_KEY = 'cap_glosario.en.md'
+_WIP_HEADS = ['Entropic action', 'Causal self-similarity', 'Free energy', 'Horizon triad', 'Entropy of the edge', 'Markov blanket']
+_GLOS_SUBS = [('\\(chapters 22 and 31 and the "Work in progress" section\\)', '(chapters 22 and 31)'), (' The "Work in progress" section explores[^\\n]*', '')]
+
+def _glossary_fixes():
+    """Quita del glosario impreso las entradas que solo describen los borradores
+    y las remisiones a ellos en las demás."""
+    ch = next(c for c in toc["chapters"] if key(c) == _GLOS_KEY)
+    text = body(ch)
+    out = []
+    for line in text.split("\n"):
+        if any(line.startswith("**" + h) for h in _WIP_HEADS):
+            out.append((line + "\n\n", ""))
+    for pat, rep in _GLOS_SUBS:
+        for m in re.finditer(pat, text):
+            out.append((m.group(0), rep))
+    return out
+
+def _apply(text, pairs):
+    for a, b in pairs:
+        text = text.replace(a, b)
+    return text
+
+T1[_GLOS_KEY] = _glossary_fixes()
+UNICO[_GLOS_KEY] = _glossary_fixes()
 
 def with_replace(ch, table, extra=()):
     ch = copy.deepcopy(ch)
@@ -126,7 +148,7 @@ t1 = dict(base, title="The Inner Horizon", subtitle="Volume I: Essay", running_t
                    "readings form the second volume."])
 t1["chapters"] = []
 for c in ENS:
-    c2 = with_replace(c, T1, refs(body(c), 1))
+    c2 = with_replace(c, T1, refs(_apply(body(c), T1.get(key(c), [])), 1))
     n = fm(c).get("chapterNumber", "")
     if n.isdigit() and int(n) in CUARTA:
         c2["chapter_number"] = CUARTA[int(n)]
@@ -138,9 +160,7 @@ t2 = dict(base, title="The Inner Horizon", subtitle="Volume II: Topological Read
           cover_image="imagenes/The_Inner_Horizon_Tomo2_Readings_cubierta_ebook.jpg",
           credits=["Second volume of The Inner Horizon: fourteen readings that carry the essay's "
                    "ideas into fiction, film, sport and everyday life. References to chapters point "
-                   "to the first volume, The Inner Horizon. Essay. The volume closes with the section "
-                   "\"Rereading and Inheritance\": four chapters that reread the book through the triad of the "
-                   "edge, free energy and action, and that treat the inheritance of geometry."])
+                   "to the first volume, The Inner Horizon. Essay."])
 t2["chapters"] = []
 for c in LECT + MOVED_CH:
     n = int(fm(c)["chapterNumber"])

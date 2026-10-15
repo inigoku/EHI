@@ -20,6 +20,6 @@ Los tomos son independientes. Cada uno puede leerse solo y en cualquier orden, y
 
 ### Este tomo
 
-Es el primer tomo, y el que carga con el peso. Enuncia la hipótesis y la construye en cuatro partes: cómo surge, vive y se disuelve un horizonte; qué ocurre cuando dos horizontes comparten una geometría; los casos difíciles, desde la enfermedad y los animales hasta las mentes artificiales, la fe y la política; y, por último, lo que el experimento no puede decir y para qué sirve de todos modos. Tiene treinta y nueve capítulos numerados, un epílogo, un glosario y notas. La relectura formal del libro y sus reflexiones sobre la herencia cierran el segundo tomo.
+Es el primer tomo, y el que carga con el peso. Enuncia la hipótesis y la construye en cuatro partes: cómo surge, vive y se disuelve un horizonte; qué ocurre cuando dos horizontes comparten una geometría; los casos difíciles, desde la enfermedad y los animales hasta las mentes artificiales, la fe y la política; y, por último, lo que el experimento no puede decir y para qué sirve de todos modos. Tiene treinta y nueve capítulos numerados, un epílogo, un glosario y notas.
 
 No hace falta saber física para leerlo. El primer capítulo se escribió para un lector que no sabe ninguna. Los otros tres tomos se apoyan en este y te remiten a él para el argumento, pero ninguno es un resumen ni una glosa. Donde este tomo argumenta, los demás llevan el argumento a otra parte para ver si se sostiene.

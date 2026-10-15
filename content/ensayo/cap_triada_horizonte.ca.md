@@ -1,9 +1,10 @@
 ---
 title: LA VORA, L'ENERGIA LLIURE I L'ACCIÓ
 subtitle: (Tres magnituds i un filtre fractal per reordenar la mesura d'un horitzó)
-section: QUARTA PART: EL LÍMIT DE L'EXPERIMENT
-chapterNumber: 53
+section: WORK IN PROGRESS
 ---
+
+> **Work in progress.** Aquest text és un esborrany: recull propostes i hipòtesis, no resultats, i no forma part dels llibres impresos.
 
 A les cases de pagès d'abans, el foc no s'encenia: es mantenia. Qui s'aixecava primer removia les brases de la nit, hi afegia dos troncs i esperava. Si ningú ho feia, a mig matí la cuina era a la temperatura de la muntanya. Ningú no deia «la cuina és calenta» com qui descriu una propietat de les parets; deia «cal posar-hi llenya», perquè la calor d'aquella cuina no era un estat, sinó una despesa.
 
@@ -119,13 +120,13 @@ Per distingir una totalitat recursiva genuïna (com un cervell) tant d'un fracta
 
 $$A(S) = I_{\min}(S) \cdot \max_{P = \{S_1, \dots, S_n\}} \frac{1}{n} \sum_{i=1}^{n} \left[ C(S_{-i}, S_i) \cdot \text{Iso}(S, S_i) \right]$$
 
-Sense entrar encara en l'aparell matricial —que queda recollit íntegre a la secció VII del capítol 54—, la fórmula exigeix que es compleixin alhora tres coses estàndard de la teoria de la informació i dels sistemes dinàmics, combinades en un producte, de manera que n'hi ha prou que un sol factor valgui zero perquè tot el filtre s'anul·li:
+Sense entrar encara en l'aparell matricial —que queda recollit íntegre a la secció VII de «L'assaig rellegit»—, la fórmula exigeix que es compleixin alhora tres coses estàndard de la teoria de la informació i dels sistemes dinàmics, combinades en un producte, de manera que n'hi ha prou que un sol factor valgui zero perquè tot el filtre s'anul·li:
 
 1. **Irreductibilitat en el tall mínim ($I_{\min}(S)$):** mesura, mitjançant la interacció estocàstica d'Ay (2001, 2015), quanta informació predictiva es perd en partir el sistema per la seva costura més feble. Si el sistema té parts desconnectades o és un patró purament geomètric sense trànsit causal entre les regions, com el conjunt de Mandelbrot, $I_{\min}(S) = 0$ i per tant $A(S) = 0$.
 2. **Acoblament part-resta ($C(S_{-i}, S_i)$):** mesura la informació mútua estacionària entre cada subsistema $S_i$ i la resta del sistema $S_{-i}$. Garanteix que les parts que componen la partició estiguin realment acoblades a la resta del sistema.
 3. **Isomorfisme causal sota gra gruixut ($\text{Iso}(S, S_i)$):** fent servir el marc d'emergència causal i projecció sobrejectiva de gra gruixut (*coarse-graining*) de Hoel, Albantakis i Tononi (2013), compara la matriu de transició macroscòpica del sistema sencer amb la matriu de transició interna de cadascuna de les seves parts. Aquí és on cau el formiguer: les formigues tenen un acoblament local feble per feromones ($I_{\min}$ i $C$ molt baixos), però sobretot la dinàmica difusiva i lenta de la colònia sencera no guarda cap isomorfisme amb la dinàmica neurobiològica ràpida d'una formiga individual ($\text{Iso} \approx 0$). En un cervell, en canvi, el bucle d'excitació, inhibició i predicció es replica funcionalment des dels microcircuits locals fins a les xarxes corticals globals, i dona una $A(S)$ diversos ordres de magnitud superior.
 
-D'aquesta manera, el capítol 49 i el capítol 53 queden soldats en una sola peça: un sistema supera el filtre estructural quan les seves parts estan causalment integrades ($I_{\min} > 0$), acoblades a la resta ($C > 0$) i reprodueixen a la seva escala la llei dinàmica del conjunt ($\text{Iso} > 0$).
+D'aquesta manera, el capítol 49 i aquest queden soldats en una sola peça: un sistema supera el filtre estructural quan les seves parts estan causalment integrades ($I_{\min} > 0$), acoblades a la resta ($C > 0$) i reprodueixen a la seva escala la llei dinàmica del conjunt ($\text{Iso} > 0$).
 
 ### VII. La fi del postulat d'exclusió i l'arxipèlag de subjectes
 
@@ -155,7 +156,7 @@ Tot amb tot, el canvi de llenguatge deixa l'edifici més net que en començar aq
 
 ---
 
-> **Nota al Capítol 53**
+> **Nota a aquest capítol**
 >
 > **El que sí sabem:** L'entropia d'un forat negre és proporcional a l'àrea del seu horitzó (Bekenstein, Hawking). El principi de Landauer estableix el cost termodinàmic mínim d'esborrar o actualitzar irreversiblement un bit d'informació ($E \ge k_B T \ln 2$), i connecta l'entropia informacional amb la termodinàmica física. L'energia lliure variacional (Friston, 2010) acota la sorpresa informacional en sistemes amb manta de Markov. La interacció estocàstica (Ay, 2001, 2015) i l'emergència causal per gra gruixut (Hoel, Albantakis i Tononi, 2013) són mesures establertes en teoria de la informació i sistemes dinàmics. Bruineberg et al. (2022) i Palacios et al. (2020) han analitzat formalment l'abast i el niament de les mantes de Markov.
 >

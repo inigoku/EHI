@@ -1,11 +1,12 @@
 ---
 title: THE INHERITANCE OF GEOMETRY
 subtitle: (Or: The Flame, the Riverbed, and the Memory of the Reservoir)
-section: PART FOUR: THE LIMIT OF THE EXPERIMENT
-chapterNumber: 56
+section: WORK IN PROGRESS
 ---
 
-Chapters 7 and 8 left behind a sentence the book has never stopped using: no soul transmigrates. Chapter 55 added another: what a horizon leaves behind when it evaporates is threefold. What is left is what any reader does on arriving here: take the sentence seriously to the end and demand an accounting. What exactly passes from one horizon to another, if nothing passes that could be called "someone"? How much of it is physics, how much is biology and relationship, and how much is a wager?
+> **Work in progress.** This text is a draft: it gathers proposals and hypotheses, not results, and is not part of the printed books.
+
+Chapters 7 and 8 left behind a sentence the book has never stopped using: no soul transmigrates. "The Cosmotheandric Architecture" added another: what a horizon leaves behind when it evaporates is threefold. What is left is what any reader does on arriving here: take the sentence seriously to the end and demand an accounting. What exactly passes from one horizon to another, if nothing passes that could be called "someone"? How much of it is physics, how much is biology and relationship, and how much is a wager?
 
 This chapter does not repeat the bardo or the karma of chapter 7. It does the bookkeeping.
 
@@ -23,7 +24,7 @@ Three claims that tend to be sold together must be pulled apart.
 
 **First: information is not destroyed.** This is the unitarity of quantum mechanics, and chapter 7 already told its story: Hawking believed black holes destroyed it, most physicists rejected that conclusion, and today it is held that the radiation preserves the correlations, mixed up by *scrambling*. Proposals such as the "soft hair" of the horizon (Hawking, Perry, and Strominger, 2016) suggest where it might be stored, though they remain under debate. We should be exact about its standing: it is a very well-founded expectation, not a demonstrated fact for real black holes. Recent calculations in models of quantum gravity (Penington, 2019, among others) reproduce the Page curve (Page, 1993), and this is the strongest result in its favor, but they are models, not brains or astrophysical black holes.
 
-**Second: conserved does not mean accessible.** The lake that swallows a ship preserves, in principle, the information of the hull: temperature, microturbulence, currents. In practice, that information is so scrambled that recovering it would demand a precision and a length of time that no observation will ever reach. "The water is no longer the same" is true in the sense in which an exact equality between two states of a chaotic system is true: formally correct, useless to anyone who wants to read the wake. Chapter 54 said as much when speaking of death: the accumulated biography $\bar{A}$ stops growing, but the correlations it imprinted are not erased; they become illegible.
+**Second: conserved does not mean accessible.** The lake that swallows a ship preserves, in principle, the information of the hull: temperature, microturbulence, currents. In practice, that information is so scrambled that recovering it would demand a precision and a length of time that no observation will ever reach. "The water is no longer the same" is true in the sense in which an exact equality between two states of a chaotic system is true: formally correct, useless to anyone who wants to read the wake. "The Essay Reread" said as much when speaking of death: the accumulated biography $\bar{A}$ stops growing, but the correlations it imprinted are not erased; they become illegible.
 
 **Third: what is conserved conditions the next condensation.** This is the claim the book calls karma, and it is the one with no support of its own. That information persists in the field does not imply that a future horizon, condensing hundreds of kilometers and years away, receives from it any measurable bias. That part is a hypothesis of the experiment, and the rest of this chapter treats it as such.
 
@@ -49,7 +50,7 @@ There are four channels, and they do not have the same support.
 
 On the transgenerational part of the second row, we must be cautious. A study by Rachel Yehuda and her team (2015) found in the children of Holocaust survivors a different methylation of the *FKBP5* gene compared with a control group, and it was circulated as proof that trauma is inherited in the genes. The sample was small (thirty-two survivors and twenty-two children), it did not fully separate the effect of upbringing from that of biology, and the literature itself speaks of highly complex interactions among experience, genetics, and epigenetics. It is a clue, not a closed fact.
 
-The three dimensions of chapter 55 fit this table. The Cosmos is genetic and gestational inheritance; the Anthropos, relational inheritance; the Theos, the trace in the reservoir. And it is no accident that the dimension richest in consolation is the one with the least support, and the one with the most support is the most intimate.
+The three dimensions of "The Cosmotheandric Architecture" fit this table. The Cosmos is genetic and gestational inheritance; the Anthropos, relational inheritance; the Theos, the trace in the reservoir. And it is no accident that the dimension richest in consolation is the one with the least support, and the one with the most support is the most intimate.
 
 ### V. The Vacant Channel
 
@@ -67,7 +68,7 @@ A critic objected that Peter cannot understand the gesture without remembering t
 
 ### VII. Initial Conditions, Not Biography
 
-Chapter 54 closed the dilemma of the copy with a distinction: a new instance can reproduce at $t_0$ the capacity $S$ and the structure $A(S)$, but its biography $\bar{A}$ and its wear $\bar{A}_F$ start from zero. Inheritance fits within that same distinction. What arrives from another horizon is never the integral, but the **initial conditions** of the condensation.
+"The Essay Reread" closed the dilemma of the copy with a distinction: a new instance can reproduce at $t_0$ the capacity $S$ and the structure $A(S)$, but its biography $\bar{A}$ and its wear $\bar{A}_F$ start from zero. Inheritance fits within that same distinction. What arrives from another horizon is never the integral, but the **initial conditions** of the condensation.
 
 Put as a formula, and marking it for what it is, a **[hypothesis]**: if the reservoir at the moment of condensing depends on the history of previous horizons through the four channels, $R_t = R_t(\text{history})$, the probability that a configuration $E$ condenses is
 
@@ -95,7 +96,7 @@ And what has always been there remains intact: the texture of the inside. No equ
 
 ---
 
-> **Note to Chapter 56**
+> **Note to this chapter**
 >
 > **What we do know:** That some one hundred and seventeen billion human beings have been born (an estimate from the Population Reference Bureau, with great uncertainty for the period before records). That unitarity is a well-founded expectation of quantum mechanics and that recent calculations in models of quantum gravity reproduce the Page curve. That genetic inheritance and the influence of the gestational and relational environment on development are well documented. That the image of the flame that continues without identity appears in the *Milindapañha*.
 >
@@ -105,4 +106,4 @@ And what has always been there remains intact: the texture of the inside. No equ
 >
 > **If you only take away one idea:** No soul travels with its baggage, but no evaporation leaves the world blank. To be born is to condense upon an environment that others shaped; to die is to leave a riverbed a little deeper for those who come after. What is inherited are initial conditions, never a biography.
 >
-> **Readings:** *Milindapañha* ("The Questions of King Milinda," trans. T. W. Rhys Davids in *Sacred Books of the East*); Hawking, S. W., Perry, M. J. and Strominger, A. (2016), "Soft Hair on Black Holes"; Page, D. N. (1993), "Average entropy of a subsystem"; Penington, G. (2019; published in *JHEP*, 2020), "Entanglement wedge reconstruction and the information paradox"; Yehuda, R. et al. (2015), "Holocaust exposure induced intergenerational effects on FKBP5 methylation"; Andersen, S. M. and Chen, S. (2002), "The relational self: an interpersonal social-cognitive theory"; Population Reference Bureau, "How many people have ever lived on Earth?"; Wyman, J. H., "An Enemy of Fate," *Fringe* (season 5, episode 13); chapters 7, 8, 17, 28, 31, 54, and 55 of this book.
+> **Readings:** *Milindapañha* ("The Questions of King Milinda," trans. T. W. Rhys Davids in *Sacred Books of the East*); Hawking, S. W., Perry, M. J. and Strominger, A. (2016), "Soft Hair on Black Holes"; Page, D. N. (1993), "Average entropy of a subsystem"; Penington, G. (2019; published in *JHEP*, 2020), "Entanglement wedge reconstruction and the information paradox"; Yehuda, R. et al. (2015), "Holocaust exposure induced intergenerational effects on FKBP5 methylation"; Andersen, S. M. and Chen, S. (2002), "The relational self: an interpersonal social-cognitive theory"; Population Reference Bureau, "How many people have ever lived on Earth?"; Wyman, J. H., "An Enemy of Fate," *Fringe* (season 5, episode 13); chapters 7, 8, 17, 28 and 31 of this book, and "The Essay Reread" and "The Cosmotheandric Architecture".

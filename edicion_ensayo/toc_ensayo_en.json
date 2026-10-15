@@ -397,28 +397,38 @@
       "content_file": "en/cap20_real.en.md"
     },
     {
-      "id": "cap_triada_horizonte",
-      "content_file": "en/cap_triada_horizonte.en.md"
-    },
-    {
-      "id": "cap_ensayo_releido",
-      "content_file": "en/cap_ensayo_releido.en.md"
-    },
-    {
-      "id": "cap20_5",
-      "content_file": "en/cap20_5.en.md"
-    },
-    {
-      "id": "cap_herencia_geometria",
-      "content_file": "en/cap_herencia_geometria.en.md"
-    },
-    {
       "id": "cap_epilogo_real",
       "content_file": "en/cap_epilogo_real.en.md"
     },
     {
       "id": "cap_glosario",
-      "content_file": "en/cap_glosario.en.md"
+      "content_file": "en/cap_glosario.en.md",
+      "replace": [
+        [
+          "**Causal self-similarity ($A(S)$)**: an irreducibility filter that that the \"Work in progress\" section proposes in place of $\\Phi$, and formally connects chapter 49 with the horizon triad: $A(S) = I_{\\min}(S) \\cdot \\max_P \\frac{1}{n}\\sum_{i=1}^n [C(S_{-i}, S_i) \\cdot \\text{Iso}(S, S_i)]$. It requires simultaneously that the system be irreducible at its minimum cut ($I_{\\min}$, Ay's stochastic interaction), that its parts be coupled to the rest ($C$, stationary mutual information), and that the macroscopic dynamics of the whole under coarse-graining be isomorphic to the dynamics of the parts ($\\text{Iso}$). It rules out both purely geometric fractals without causality, such as Mandelbrot ($I_{\\min}=0$), and diffuse aggregative systems, such as an anthill ($\\text{Iso}\\approx 0$).\n\n",
+          ""
+        ],
+        [
+          "**Entropic action ($\\bar{A}$ and $\\bar{A}_F$)**: third coordinate of the horizon triad, which integrates the system's trajectory over time and splits into two complementary measures: the *accumulated structural biography*, $\\bar{A}(t) = \\int_{t_0}^t (S(\\tau) - S_0)\\,d\\tau$, which measures the differentiated capacity sustained above the reservoir's baseline level; and the *accumulated biographical cost or wear*, $\\bar{A}_F(t) = \\int_{t_0}^t F(\\tau)\\,d\\tau$, which integrates the free energy or predictive friction endured over a lifetime. It should not be confused with the density of subjective time ($\\vartheta$), which is the instantaneous rate of writing into memory (\"Work in progress\" section).\n\n",
+          ""
+        ],
+        [
+          "**Free energy ($F = U - TS$)**: second coordinate of the triad; it measures the level at which a horizon holds itself far from equilibrium with respect to the reservoir. The essay connects Friston's variational free energy (informational surprise, in bits/nats) with Helmholtz's thermodynamic free energy (in joules) through the **Landauer limit** ($E \\ge k_B T \\ln 2$ per irreversibly updated bit at the substrate's physical temperature $T$) (\"Work in progress\" section).\n\n",
+          ""
+        ],
+        [
+          "**Horizon triad $(S, F, \\bar{A})$**: the three magnitudes with which the book's closing measures the degree of a horizon that has passed the causal self-similarity filter $A(S)$ and possesses existential encapsulation: the capacity of the edge ($S \\propto \\mathcal{A}$), the free energy it costs to sustain it against the reservoir ($F = U - TS$, connected by the Landauer limit), and the entropic action accumulated in its biography ($\\bar{A}$ and $\\bar{A}_F$) (\"Work in progress\" section).\n\n",
+          ""
+        ],
+        [
+          "(chapters 22 and 31 and the \"Work in progress\" section)",
+          "(chapters 22 and 31)"
+        ],
+        [
+          " The \"Work in progress\" section explores replacing it with the causal self-similarity filter $A(S)$ and the horizon triad $(S, F, \\bar{A})$.",
+          ""
+        ]
+      ]
     },
     {
       "id": "cap_notas_cierre",

@@ -1,11 +1,12 @@
 ---
 title: LA HERÈNCIA DE LA GEOMETRIA
 subtitle: (O: La flama, la llera i la memòria del reservori)
-section: QUARTA PART: EL LÍMIT DE L'EXPERIMENT
-chapterNumber: 56
+section: WORK IN PROGRESS
 ---
 
-Els capítols 7 i 8 van deixar escrita una frase que el llibre no ha deixat d'usar: cap ànima no transmigra. El capítol 55 n'hi va afegir una altra: allò que un horitzó deixa en evaporar-se és triple. Falta el que fa qualsevol lector en arribar aquí: prendre's la frase seriosament fins al final i demanar-li comptes. Què és exactament el que passa d'un horitzó a un altre, si no passa res que es pugui anomenar «algú»? Quant d'això és física, quant és biologia i relació, i quant és aposta?
+> **Work in progress.** Aquest text és un esborrany: recull propostes i hipòtesis, no resultats, i no forma part dels llibres impresos.
+
+Els capítols 7 i 8 van deixar escrita una frase que el llibre no ha deixat d'usar: cap ànima no transmigra. «L'arquitectura cosmoteàndrica» n'hi va afegir una altra: allò que un horitzó deixa en evaporar-se és triple. Falta el que fa qualsevol lector en arribar aquí: prendre's la frase seriosament fins al final i demanar-li comptes. Què és exactament el que passa d'un horitzó a un altre, si no passa res que es pugui anomenar «algú»? Quant d'això és física, quant és biologia i relació, i quant és aposta?
 
 Aquest capítol no repeteix el bardo ni el karma del capítol 7. Fa la comptabilitat.
 
@@ -23,7 +24,7 @@ Cal separar tres afirmacions que solen vendre's juntes.
 
 **Primera: la informació no es destrueix.** És la unitarietat de la mecànica quàntica, i el capítol 7 ja en va explicar la història: Hawking va creure que els forats negres la destruïen, la majoria dels físics van rebutjar aquesta conclusió, i avui se sosté que la radiació conserva les correlacions, remenades per l'*scrambling*. Propostes com el *soft hair* (pèl suau) de l'horitzó (Hawking, Perry i Strominger, 2016) suggereixen on podria quedar emmagatzemada, tot i que continuen en discussió. Convé ser exactes amb l'estatut: és una expectativa molt fonamentada, no un fet demostrat per a forats negres reals. Els càlculs recents en models de gravetat quàntica (Penington, 2019, entre d'altres) reprodueixen la corba de Page (1993), i és el resultat més sòlid a favor, però són models, no cervells ni forats negres astrofísics.
 
-**Segona: conservada no vol dir accessible.** El llac que s'empassa un vaixell conserva, en principi, la informació del buc: temperatura, microturbulència, corrents. A la pràctica, aquesta informació està tan remenada que recuperar-la exigiria una precisió i un temps que cap observació no assolirà. «L'aigua ha deixat de ser la mateixa» és veritat en el sentit en què ho és una igualtat exacta entre dos estats d'un sistema caòtic: formalment certa, inútil per a qui vulgui llegir l'estela. El capítol 54 ho va deixar dit en parlar de la mort: la biografia acumulada $\bar{A}$ deixa de créixer, però les correlacions que va imprimir no s'esborren, es tornen il·legibles.
+**Segona: conservada no vol dir accessible.** El llac que s'empassa un vaixell conserva, en principi, la informació del buc: temperatura, microturbulència, corrents. A la pràctica, aquesta informació està tan remenada que recuperar-la exigiria una precisió i un temps que cap observació no assolirà. «L'aigua ha deixat de ser la mateixa» és veritat en el sentit en què ho és una igualtat exacta entre dos estats d'un sistema caòtic: formalment certa, inútil per a qui vulgui llegir l'estela. «L'assaig rellegit» ho va deixar dit en parlar de la mort: la biografia acumulada $\bar{A}$ deixa de créixer, però les correlacions que va imprimir no s'esborren, es tornen il·legibles.
 
 **Tercera: allò conservat condiciona la condensació següent.** Aquesta és l'afirmació que el llibre anomena karma, i és la que no té avalament propi. Que la informació persisteixi en el camp no implica que un horitzó futur, que es condensa a centenars de quilòmetres i anys de distància, en rebi cap biaix mesurable. Aquesta part és una hipòtesi de l'experiment, i la resta d'aquest capítol la tracta com a tal.
 
@@ -49,7 +50,7 @@ Hi ha quatre canals, i no tenen el mateix avalament.
 
 Sobre la part transgeneracional de la segona fila cal ser prudents. Un estudi de Rachel Yehuda i el seu equip (2015) va trobar en fills de supervivents de l'Holocaust una metilació diferent del gen *FKBP5* respecte d'un grup de control, i es va difondre com la prova que el trauma s'hereta en els gens. La mostra era petita (trenta-dos supervivents i vint-i-dos fills), no separava del tot l'efecte de la criança del de la biologia, i la mateixa literatura parla d'interaccions molt complexes entre experiència, genètica i epigenètica. És una pista, no un fet tancat.
 
-Les tres dimensions del capítol 55 encaixen en aquesta taula. El Cosmos és l'herència genètica i gestacional; l'Àntropos, la relacional; el Theos, la petjada al reservori. I no per casualitat, la dimensió més rica en consol és la de menys avalament, i la de més avalament és la més íntima.
+Les tres dimensions de «L'arquitectura cosmoteàndrica» encaixen en aquesta taula. El Cosmos és l'herència genètica i gestacional; l'Àntropos, la relacional; el Theos, la petjada al reservori. I no per casualitat, la dimensió més rica en consol és la de menys avalament, i la de més avalament és la més íntima.
 
 ### V. La llera buida
 
@@ -67,7 +68,7 @@ Un crític va objectar que Peter no pot entendre el gest sense recordar la líni
 
 ### VII. Condicions inicials, no biografia
 
-El capítol 54 va tancar el dilema de la còpia amb una distinció: una instància nova pot reproduir en $t_0$ la capacitat $S$ i l'estructura $A(S)$, però la seva biografia $\bar{A}$ i el seu desgast $\bar{A}_F$ arrenquen de zero. L'herència cap en aquesta mateixa distinció. El que arriba d'un altre horitzó no és mai la integral, sinó les **condicions inicials** de la condensació.
+«L'assaig rellegit» va tancar el dilema de la còpia amb una distinció: una instància nova pot reproduir en $t_0$ la capacitat $S$ i l'estructura $A(S)$, però la seva biografia $\bar{A}$ i el seu desgast $\bar{A}_F$ arrenquen de zero. L'herència cap en aquesta mateixa distinció. El que arriba d'un altre horitzó no és mai la integral, sinó les **condicions inicials** de la condensació.
 
 Dit amb una fórmula, i marcant-la com allò que és, una **[hipòtesi]**: si el reservori en el moment de condensar-se depèn de la història dels horitzons previs a través dels quatre canals, $R_t = R_t(\text{història})$, la probabilitat que es condensi una configuració $E$ és
 
@@ -95,7 +96,7 @@ I resta intacte allò de sempre: la textura del dins. Cap equació d'aquest cap�
 
 ---
 
-> **Nota al Capítol 56**
+> **Nota a aquest capítol**
 >
 > **El que sí sabem:** Que han nascut uns cent disset mil milions de seres humans (estimació del Population Reference Bureau, amb una incertesa gran per al període anterior als registres). Que la unitarietat és una expectativa fonamentada de la mecànica quàntica i que càlculs recents en models de gravetat quàntica reprodueixen la corba de Page. Que l'herència genètica i la influència de l'entorn gestacional i relacional sobre el desenvolupament estan ben documentades. Que la imatge de la flama que continua sense identitat apareix al *Milindapañha*.
 >
@@ -105,4 +106,4 @@ I resta intacte allò de sempre: la textura del dins. Cap equació d'aquest cap�
 >
 > **Si només et quedes amb una idea:** Cap ànima no viatja amb el seu equipatge, però cap evaporació no deixa el món en blanc. Néixer és condensar-se sobre un entorn que altres van modelar; morir és deixar una llera una mica més fonda per als qui vindran. El que s'hereta són condicions inicials, mai una biografia.
 >
-> **Lectures:** *Milindapañha* («Les preguntes del rei Milinda», trad. de T. W. Rhys Davids a *Sacred Books of the East*); Hawking, S. W., Perry, M. J. i Strominger, A. (2016), «Soft Hair on Black Holes»; Page, D. N. (1993), «Average entropy of a subsystem»; Penington, G. (2019; publicat a *JHEP*, 2020), «Entanglement wedge reconstruction and the information paradox»; Yehuda, R. et al. (2015), «Holocaust exposure induced intergenerational effects on FKBP5 methylation»; Andersen, S. M. i Chen, S. (2002), «The relational self: an interpersonal social-cognitive theory»; Population Reference Bureau, «How many people have ever lived on Earth?»; Wyman, J. H., «An Enemy of Fate», *Fringe* (temporada 5, episodi 13); els capítols 7, 8, 17, 28, 31, 54 i 55 d'aquest llibre.
+> **Lectures:** *Milindapañha* («Les preguntes del rei Milinda», trad. de T. W. Rhys Davids a *Sacred Books of the East*); Hawking, S. W., Perry, M. J. i Strominger, A. (2016), «Soft Hair on Black Holes»; Page, D. N. (1993), «Average entropy of a subsystem»; Penington, G. (2019; publicat a *JHEP*, 2020), «Entanglement wedge reconstruction and the information paradox»; Yehuda, R. et al. (2015), «Holocaust exposure induced intergenerational effects on FKBP5 methylation»; Andersen, S. M. i Chen, S. (2002), «The relational self: an interpersonal social-cognitive theory»; Population Reference Bureau, «How many people have ever lived on Earth?»; Wyman, J. H., «An Enemy of Fate», *Fringe* (temporada 5, episodi 13); els capítols 7, 8, 17, 28 i 31 d'aquest llibre, i «L'assaig rellegit» i «L'arquitectura cosmoteàndrica».

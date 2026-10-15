@@ -33,9 +33,9 @@ def body(ch):
 def key(ch):
     return Path(ch["content_file"]).name
 
-# Capítulos de cierre (relectura formal y herencia) que, para no pasar de las 550
-# páginas de la tapa dura, viajan al final del tomo II como lecturas 15-18.
-MOVED = (53, 54, 55, 56)
+# Mecanismo para mandar capítulos del ensayo al final del tomo II (como lecturas
+# 15 en adelante). Hoy está vacío.
+MOVED = ()   # vacío: los borradores de la sección «Work in progress» no entran en los libros
 SEC_MOVED = "RELECTURA I HERÈNCIA"
 def _is_lect(c): return fm(c).get("section") == "LECTURES TOPOLÒGIQUES"
 def _is_moved(c): return fm(c).get("chapterNumber", "").isdigit() and int(fm(c)["chapterNumber"]) in MOVED
@@ -90,12 +90,6 @@ def refs(text, tomo):
 
 # ---- tom I ---------------------------------------------------------------
 T1 = {
-    "cap_glosario.ca.md": [
-        ('amb el 53:', 'amb la lectura 15 del segon volum:'),
-        ('(capítols 22, 31, 53 i 54)', '(capítols 22 i 31, i lectures 15 i 16 del segon volum)'),
-        ('(capítols 53 i 54)', '(lectures 15 i 16 del segon volum)'),
-        ('Als capítols 53 i 54 queda', 'A les lectures 15 i 16 del segon volum queda'),
-    ],
     "cap_nota_autor.ca.md": [
         ("Diverses de les lectures topològiques (",
          "Diverses lectures del segon volum, *Lectures topològiques* (")],
@@ -108,6 +102,33 @@ T2 = {}
 
 # ---- volum únic: el text font ja porta la seva numeració ------------------
 UNICO = {}
+
+# ---- el glosario impreso no incluye la sección «Work in progress» ------------
+_GLOS_KEY = 'cap_glosario.ca.md'
+_WIP_HEADS = ['Acció entròpica', 'Autosemblança causal', 'Energia lliure', "Tríada de l'horitzó", 'Entropia de la vora', 'Manta de Markov']
+_GLOS_SUBS = [('\\(capítols 22 i 31 i secció «Work in progress»\\)', '(capítols 22 i 31)'), (' A la secció «Work in progress»[^\\n]*', '')]
+
+def _glossary_fixes():
+    """Quita del glosario impreso las entradas que solo describen los borradores
+    y las remisiones a ellos en las demás."""
+    ch = next(c for c in toc["chapters"] if key(c) == _GLOS_KEY)
+    text = body(ch)
+    out = []
+    for line in text.split("\n"):
+        if any(line.startswith("**" + h) for h in _WIP_HEADS):
+            out.append((line + "\n\n", ""))
+    for pat, rep in _GLOS_SUBS:
+        for m in re.finditer(pat, text):
+            out.append((m.group(0), rep))
+    return out
+
+def _apply(text, pairs):
+    for a, b in pairs:
+        text = text.replace(a, b)
+    return text
+
+T1[_GLOS_KEY] = _glossary_fixes()
+UNICO[_GLOS_KEY] = _glossary_fixes()
 
 def with_replace(ch, table, extra=()):
     ch = copy.deepcopy(ch)
@@ -129,7 +150,7 @@ t1 = dict(base, subtitle="Assaig · Volum I", running_title="L'HORITZÓ INTERIOR
                    "segon volum."])
 t1["chapters"] = []
 for c in ENS:
-    c2 = with_replace(c, T1, refs(body(c), 1))
+    c2 = with_replace(c, T1, refs(_apply(body(c), T1.get(key(c), [])), 1))
     n = fm(c).get("chapterNumber", "")
     if n.isdigit() and int(n) in CUARTA:
         c2["chapter_number"] = CUARTA[int(n)]
@@ -141,9 +162,7 @@ t2 = dict(base, title="Lectures topològiques", subtitle="L'Horitzó Interior ·
           cover_image="imagenes/El_Horitzo_Interior_Tom2_Lectures_cubierta_ebook.jpg",
           credits=["Segon volum de L'Horitzó Interior: catorze lectures que porten les idees de "
                    "l'assaig a la ficció, el cinema, l'esport i la vida quotidiana. Les remissions a "
-                   "capítols apunten al primer volum, L'Horitzó Interior. Assaig. Tanca el volum la secció "
-                   "«Relectura i herència»: quatre capítols que rellegeixen el llibre amb la tríada de la vora, "
-                   "l'energia lliure i l'acció, i que tracten l'herència de la geometria."])
+                   "capítols apunten al primer volum, L'Horitzó Interior. Assaig."])
 t2["chapters"] = []
 for c in LECT + MOVED_CH:
     n = int(fm(c)["chapterNumber"])

@@ -1,9 +1,10 @@
 ---
 title: THE EDGE, FREE ENERGY AND ACTION
 subtitle: (Three magnitudes and a fractal filter to reorder the measure of a horizon)
-section: PART FOUR: THE LIMIT OF THE EXPERIMENT
-chapterNumber: 53
+section: WORK IN PROGRESS
 ---
+
+> **Work in progress.** This text is a draft: it gathers proposals and hypotheses, not results, and is not part of the printed books.
 
 In the farmhouses of old, the fire was not lit: it was kept. Whoever got up first stirred the embers of the night, added two logs and waited. If nobody did, by mid-morning the kitchen was at the temperature of the hillside. Nobody said "the kitchen is warm" the way one describes a property of the walls; they said "we need to put more wood on," because the warmth of that kitchen was not a state but an expense.
 
@@ -119,13 +120,13 @@ To distinguish a genuine recursive totality (such as a brain) both from an inert
 
 $$A(S) = I_{\min}(S) \cdot \max_{P = \{S_1, \dots, S_n\}} \frac{1}{n} \sum_{i=1}^{n} \left[ C(S_{-i}, S_i) \cdot \text{Iso}(S, S_i) \right]$$
 
-Without yet entering the matrix apparatus, which is set out in full in section VII of chapter 54, the formula requires that three standard things from information theory and dynamical systems hold at once, combined in a product, so that if any single factor is zero the whole filter vanishes:
+Without yet entering the matrix apparatus, which is set out in full in section VII of "The Essay Reread", the formula requires that three standard things from information theory and dynamical systems hold at once, combined in a product, so that if any single factor is zero the whole filter vanishes:
 
 1. **Irreducibility at the minimum cut ($I_{\min}(S)$):** it measures, through Ay's stochastic interaction (2001, 2015), how much predictive information is lost when the system is split along its weakest seam. If the system has disconnected parts or is a purely geometric pattern without causal traffic between its regions, like the Mandelbrot set, $I_{\min}(S) = 0$ and therefore $A(S) = 0$.
 2. **Part-rest coupling ($C(S_{-i}, S_i)$):** it measures the stationary mutual information between each subsystem $S_i$ and the rest of the system $S_{-i}$. It guarantees that the parts making up the partition are genuinely coupled to the rest of the system.
 3. **Causal isomorphism under coarse-graining ($\text{Iso}(S, S_i)$):** using the framework of causal emergence and surjective coarse-graining projection of Hoel, Albantakis and Tononi (2013), it compares the macroscopic transition matrix of the whole system with the internal transition matrix of each of its parts. This is where the anthill fails: ants have a weak local coupling through pheromones ($I_{\min}$ and $C$ very low), but above all the slow, diffuse dynamics of the entire colony bears no isomorphism to the fast neurobiological dynamics of an individual ant ($\text{Iso} \approx 0$). In a brain, by contrast, the loop of excitation, inhibition and prediction is functionally replicated from local microcircuits up to global cortical networks, yielding an $A(S)$ several orders of magnitude higher.
 
-In this way, chapter 49 and chapter 53 are welded into a single piece: a system passes the structural filter when its parts are causally integrated ($I_{\min} > 0$), coupled to the rest ($C > 0$) and reproduce at their scale the dynamical law of the whole ($\text{Iso} > 0$).
+In this way, chapter 49 and this one are welded into a single piece: a system passes the structural filter when its parts are causally integrated ($I_{\min} > 0$), coupled to the rest ($C > 0$) and reproduce at their scale the dynamical law of the whole ($\text{Iso} > 0$).
 
 ### VII. The end of the exclusion postulate and the archipelago of subjects
 
@@ -155,7 +156,7 @@ All the same, the change of language leaves the edifice cleaner than it was at t
 
 ---
 
-> **Note to Chapter 53**
+> **Note to this chapter**
 >
 > **What we do know:** The entropy of a black hole is proportional to the area of its horizon (Bekenstein, Hawking). Landauer's principle establishes the minimum thermodynamic cost of erasing or irreversibly updating a bit of information ($E \ge k_B T \ln 2$), connecting informational entropy with physical thermodynamics. Variational free energy (Friston, 2010) bounds informational surprise in systems with a Markov blanket. Stochastic interaction (Ay, 2001, 2015) and causal emergence through coarse-graining (Hoel, Albantakis and Tononi, 2013) are established measures in information theory and dynamical systems. Bruineberg et al. (2022) and Palacios et al. (2020) have formally analyzed the scope and nesting of Markov blankets.
 >

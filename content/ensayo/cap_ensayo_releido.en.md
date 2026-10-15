@@ -1,9 +1,10 @@
 ---
 title: THE ESSAY REREAD
 subtitle: (The whole book, seen through causal self-similarity, the edge, free energy and action)
-section: PART FOUR: THE LIMIT OF THE EXPERIMENT
-chapterNumber: 54
+section: WORK IN PROGRESS
 ---
+
+> **Work in progress.** This text is a draft: it gathers proposals and hypotheses, not results, and is not part of the printed books.
 
 There is a way of rereading a book that consists of changing a single keystone and watching what moves. When you finish a novel and discover that the narrator was lying, you change not one page, yet every page is lit from another angle. The previous chapter proposed retiring the scaffold of $\Phi$ that has accompanied us since chapter 1 and replacing it with an architecture in two steps: first, the filter of **causal self-similarity** $A(S)$ joined to **existential encapsulation**; then, the triad $(S, F, \bar{A})$ that measures the size of the edge, the free energy it costs to sustain it, and the accumulated biography. This chapter does what the previous one could not do without becoming interminable: it walks the entire book with that lens, formalizes the complete mathematical catalogue in section VII (including the exact verification simulation on four binary nodes), and sets out in section VIII the empirical predictions that could refute it.
 
@@ -103,7 +104,7 @@ A set is closed if $A = \text{cl}(A)$, and its boundary is $\partial A = \text{c
 - **Evaporation:** a decreasing filtration $E_0 \supseteq E_1 \supseteq E_2 \supseteq \dots$ such that every state that leaves the island is reintegrated into the reservoir: $E_0 \setminus E_t \subseteq R$. **[analogy]**
 - **Archipelago of subjects:** while the internal causal structure admits nested levels with $A(S) > 0$, the boundaries endowed with existential encapsulation form closures that are disjoint from one another ($E_i \cap E_j = \emptyset$ for distinct subjects $i \neq j$). **[proposal]**
 
-#### 2. Markov Blanket and Existential Encapsulation (Chapters 3 and 53)
+#### 2. Markov Blanket and Existential Encapsulation (Chapter 3)
 
 Consider a partition of the world's variables into external states $\psi$, sensory states $s$, active states $a$ and internal states $\mu$, where $b = (s, a)$ constitutes the boundary or Markov blanket (Pearl, 1988; Friston, 2010; Palacios et al., 2020):
 
@@ -113,7 +114,7 @@ $$p(\psi, \mu \mid b) = p(\psi \mid b)\, p(\mu \mid b)$$
 
 Following the critical distinction of Bruineberg et al. (2022) between statistical conditional independence and physical boundary, we define **existential encapsulation** when: (i) the above conditional independence holds with respect to $b$, and (ii) the dynamics of the internal and active states $(\mu, a)$ actively keep the system's distribution within the set of viable states that preserve the boundary $b$ itself against dissipation into the reservoir $R$. **[proposal]**
 
-#### 3. The Irreducibility Filter: Causal Self-Similarity $A(S)$ (Chapters 49 and 53)
+#### 3. The Irreducibility Filter: Causal Self-Similarity $A(S)$ (Chapter 49)
 
 Consider a composite causal system defined over a finite set of units $V = \{1, \dots, N\}$, with product state space $X = \prod_{v \in V} X_v$, Markov transition matrix $p(x_{t+1} \mid x_t)$ and stationary distribution $\pi(x)$. **[standard]**
 
@@ -247,7 +248,7 @@ The image from the beginning remains. The country kitchen, with its embers stirr
 
 ---
 
-> **Note to Chapter 54**
+> **Note to this chapter**
 >
 > **What we do know:** That the three ingredients of causal self-similarity $A(S)$ —Ay's stochastic interaction (2001, 2015), stationary mutual information (estimable in the continuous case according to Kraskov et al., 2004) and the causal emergence by coarse-graining of Hoel et al. (2013)— are standard mathematical tools, and that their combination in $A(S)$ separates exactly, in the 4-binary-node model, the decoupled system ($A(S)=0$), the diffuse aggregative one ($A(S)\approx 10^{-5}$) and the multiscale recursive one ($A(S)\approx 10^{-1}$). That the Landauer limit ($E \ge k_B T \ln 2$) physically connects the irreversible updating of information with thermodynamic dissipation. That the distinction between statistical Markov blankets and self-organizing physical boundaries is backed by recent literature (Palacios et al., 2020; Bruineberg et al., 2022).
 >
@@ -257,4 +258,4 @@ The image from the beginning remains. The country kitchen, with its embers stirr
 >
 > **If you only take away one idea:** If you swap the static figure of $\Phi$ for causal self-similarity $A(S)$, existential encapsulation and the triad $(S, F, \bar{A})$, the whole book fits into a single sentence: a horizon is a recursive totality that pays free energy to sustain the capacity of its edge and to accumulate a biography over time.
 >
-> **Readings:** Those of chapter 53 and, in addition: Ay, N. (2001, 2015), "Information Geometry on Complexity and Stochastic Interaction"; Hoel, E. P., Albantakis, L. and Tononi, G. (2013), "Quantifying causal emergence shows that macro can beat micro"; Kraskov, A., Stögbauer, H. and Grassberger, P. (2004), "Estimating mutual information"; Palacios, E. R., Razi, A., Parr, T., Kirchhoff, M. and Friston, K. (2020), "On Markov blankets and hierarchical self-organisation"; Bruineberg, J., Dolega, K., Dewhurst, J. and Baltieri, M. (2022), "The Emperor's New Markov Blankets"; Kuratowski, K. (1922), "Sur l'opération Ā de l'Analysis Situs"; Watanabe, S. (1960), "Information theoretical analysis of multivariate correlation"; Ryu, S. and Takayanagi, T. (2006), "Holographic derivation of entanglement entropy from AdS/CFT"; Page, D. N. (1993), "Information in black hole radiation"; Sekino, Y. and Susskind, L. (2008), "Fast scramblers"; Itti, L. and Baldi, P. (2009), "Bayesian surprise attracts human attention"; Laukkonen, R. and Slagter, H. (2021), "From many to (n)one: Meditation and the plasticity of the predictive mind"; Parr, T., Pezzulo, G. and Friston, K. (2022), *Active Inference*; Seth, A. (2021), *Being You*.
+> **Readings:** Those of "The Edge, Free Energy and Action" and, in addition: Ay, N. (2001, 2015), "Information Geometry on Complexity and Stochastic Interaction"; Hoel, E. P., Albantakis, L. and Tononi, G. (2013), "Quantifying causal emergence shows that macro can beat micro"; Kraskov, A., Stögbauer, H. and Grassberger, P. (2004), "Estimating mutual information"; Palacios, E. R., Razi, A., Parr, T., Kirchhoff, M. and Friston, K. (2020), "On Markov blankets and hierarchical self-organisation"; Bruineberg, J., Dolega, K., Dewhurst, J. and Baltieri, M. (2022), "The Emperor's New Markov Blankets"; Kuratowski, K. (1922), "Sur l'opération Ā de l'Analysis Situs"; Watanabe, S. (1960), "Information theoretical analysis of multivariate correlation"; Ryu, S. and Takayanagi, T. (2006), "Holographic derivation of entanglement entropy from AdS/CFT"; Page, D. N. (1993), "Information in black hole radiation"; Sekino, Y. and Susskind, L. (2008), "Fast scramblers"; Itti, L. and Baldi, P. (2009), "Bayesian surprise attracts human attention"; Laukkonen, R. and Slagter, H. (2021), "From many to (n)one: Meditation and the plasticity of the predictive mind"; Parr, T., Pezzulo, G. and Friston, K. (2022), *Active Inference*; Seth, A. (2021), *Being You*.
