@@ -15,6 +15,7 @@ const ORDER = [
   "cap20_real",
   "cap_triada_horizonte",
   "cap_ensayo_releido",
+  "cap20_5",
   "cap_epilogo_real",
 ];
 
