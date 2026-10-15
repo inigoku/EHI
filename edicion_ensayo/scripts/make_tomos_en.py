@@ -32,17 +32,25 @@ def body(ch):
 def key(ch):
     return Path(ch["content_file"]).name
 
-LECT = [c for c in toc["chapters"] if fm(c).get("section") == "TOPOLOGICAL READINGS"]
-ENS = [c for c in toc["chapters"] if fm(c).get("section") != "TOPOLOGICAL READINGS"]
-NUM_LECT = {int(fm(c)["chapterNumber"]): i + 1 for i, c in enumerate(LECT)}   # 37..50 -> 1..14
+# Capítulos de cierre (relectura formal y herencia) que, para no pasar de las 550
+# páginas de la tapa dura, viajan al final del tomo II como lecturas 15-18.
+MOVED = (53, 54, 55, 56)
+SEC_MOVED = "REREADING AND INHERITANCE"
+def _is_lect(c): return fm(c).get("section") == "TOPOLOGICAL READINGS"
+def _is_moved(c): return fm(c).get("chapterNumber", "").isdigit() and int(fm(c)["chapterNumber"]) in MOVED
+LECT = [c for c in toc["chapters"] if _is_lect(c)]
+MOVED_CH = [c for c in toc["chapters"] if _is_moved(c)]
+ENS = [c for c in toc["chapters"] if not _is_lect(c) and not _is_moved(c)]
+_LECT_MAX = max(int(fm(c)["chapterNumber"]) for c in LECT)
+NUM_LECT = {int(fm(c)["chapterNumber"]): i + 1 for i, c in enumerate(LECT + MOVED_CH)}   # 37..50 -> 1..14; 53..56 -> 15..18
 # Part Four goes after the readings in the single volume and after Part Three
 # in tomo I: 51-52 become the two numbers right after the last essay chapter
 # that precedes them.
 _ens_nums = [int(fm(c)["chapterNumber"]) for c in ENS if fm(c).get("chapterNumber", "").isdigit()]
 _last_before = max(n for n in _ens_nums if n < min(NUM_LECT))
-CUARTA = {n: _last_before + 1 + i for i, n in enumerate(sorted(n for n in _ens_nums if n > max(NUM_LECT)))}
+CUARTA = {n: _last_before + 1 + i for i, n in enumerate(sorted(n for n in _ens_nums if n > _LECT_MAX))}
 
-_REF = re.compile(r'\(?Chapter (\d+)\)?')
+_REF = re.compile(r'\(?[Cc]hapter (\d+)\)?')
 
 def refs(text, tomo):
     """(old, new) pairs for the "Chapter N" references that change in TOMO."""
@@ -53,11 +61,11 @@ def refs(text, tomo):
         if n in NUM_LECT and text[max(0, m.start() - 8):m.start()] == "Note to ":
             continue   # "Note to Chapter N" is changed separately, to "Note to Reading k"
         if n in CUARTA:
-            new = old.replace(f"Chapter {n}", f"Chapter {CUARTA[n]}")
+            new = re.sub(r'([Cc])hapter \d+', lambda mm: f"{mm.group(1)}hapter {CUARTA[n]}", old)
         elif n in NUM_LECT:
             k = NUM_LECT[n]
             paren = old.startswith("(")
-            new = f"Reading {k}"
+            new = ("Reading" if re.search(r'C(?=hapter)', old) else "reading") + f" {k}"
             if tomo == 1:
                 new += " in the second volume"
             if paren:
@@ -80,6 +88,11 @@ def refs(text, tomo):
 
 # ---- tomo I -----------------------------------------------------------
 T1 = {
+    "cap_glosario.en.md": [
+        ('(chapters 22, 31, 53 and 54)', '(chapters 22 and 31, and Readings 15 and 16 in the second volume)'),
+        ('(chapters 53 and 54)', '(Readings 15 and 16 in the second volume)'),
+        ('In chapters 53 and 54 it is', 'In Readings 15 and 16 of the second volume it is'),
+    ],
     "cap_nota_autor.en.md": [
         ("Several of the topological readings (",
          "Several readings from the second volume, *Topological Readings* (")],
@@ -125,15 +138,17 @@ t2 = dict(base, title="The Inner Horizon", subtitle="Volume II: Topological Read
           cover_image="imagenes/The_Inner_Horizon_Tomo2_Readings_cubierta_ebook.jpg",
           credits=["Second volume of The Inner Horizon: fourteen readings that carry the essay's "
                    "ideas into fiction, film, sport and everyday life. References to chapters point "
-                   "to the first volume, The Inner Horizon. Essay."])
+                   "to the first volume, The Inner Horizon. Essay. The volume closes with the section "
+                   "\"Rereading and Inheritance\": four chapters that reread the book through the triad of the "
+                   "edge, free energy and action, and that treat the inheritance of geometry."])
 t2["chapters"] = []
-for c in LECT:
+for c in LECT + MOVED_CH:
     n = int(fm(c)["chapterNumber"])
     nota = f"**Note to Chapter {n}**"
     extra = [(nota, f"**Note to Reading {NUM_LECT[n]}**")] if nota in (BASE / c["content_file"]).read_text(encoding="utf-8") else []
     c2 = with_replace(c, T2, refs(body(c), 2) + extra)
     c2["chapter_number"] = NUM_LECT[n]
-    c2["section"] = ""   # no repeated "Topological Readings" header on every reading
+    c2["section"] = (SEC_MOVED if _is_moved(c) else "")   # no repeated "Topological Readings" header on every reading
     t2["chapters"].append(c2)
 
 t1["chapters"].insert(0, {"id": "intro_vol1", "content_file": "en/intro_vol1.en.md"})

@@ -33,17 +33,25 @@ def body(ch):
 def key(ch):
     return Path(ch["content_file"]).name
 
-LECT = [c for c in toc["chapters"] if fm(c).get("section") == "LECTURES TOPOLÒGIQUES"]
-ENS = [c for c in toc["chapters"] if fm(c).get("section") != "LECTURES TOPOLÒGIQUES"]
-NUM_LECT = {int(fm(c)["chapterNumber"]): i + 1 for i, c in enumerate(LECT)}   # 37..50 -> 1..14
+# Capítulos de cierre (relectura formal y herencia) que, para no pasar de las 550
+# páginas de la tapa dura, viajan al final del tomo II como lecturas 15-18.
+MOVED = (53, 54, 55, 56)
+SEC_MOVED = "RELECTURA I HERÈNCIA"
+def _is_lect(c): return fm(c).get("section") == "LECTURES TOPOLÒGIQUES"
+def _is_moved(c): return fm(c).get("chapterNumber", "").isdigit() and int(fm(c)["chapterNumber"]) in MOVED
+LECT = [c for c in toc["chapters"] if _is_lect(c)]
+MOVED_CH = [c for c in toc["chapters"] if _is_moved(c)]
+ENS = [c for c in toc["chapters"] if not _is_lect(c) and not _is_moved(c)]
+_LECT_MAX = max(int(fm(c)["chapterNumber"]) for c in LECT)
+NUM_LECT = {int(fm(c)["chapterNumber"]): i + 1 for i, c in enumerate(LECT + MOVED_CH)}   # 37..50 -> 1..14; 53..56 -> 15..18
 # La quarta part va darrere de les lectures en el volum únic i darrere de la
 # tercera part en el tom I: 51-52 passen a ser els dos següents al darrer
 # capítol de l'assaig que els precedeix.
 _ens_nums = [int(fm(c)["chapterNumber"]) for c in ENS if fm(c).get("chapterNumber", "").isdigit()]
 _last_before = max(n for n in _ens_nums if n < min(NUM_LECT))
-CUARTA = {n: _last_before + 1 + i for i, n in enumerate(sorted(n for n in _ens_nums if n > max(NUM_LECT)))}
+CUARTA = {n: _last_before + 1 + i for i, n in enumerate(sorted(n for n in _ens_nums if n > _LECT_MAX))}
 
-_REF = re.compile(r'\(?Cap[ií]tol (\d+)\)?')
+_REF = re.compile(r'\(?[Cc]ap[ií]tol (\d+)\)?')
 
 def refs(text, tomo):
     """Parells (vell, nou) per a les remissions «Capítol N» que canvien a TOMO."""
@@ -54,11 +62,11 @@ def refs(text, tomo):
         if n in NUM_LECT and text[max(0, m.start() - 8):m.start()] == "Nota al ":
             continue   # «Nota al Capítol N» es canvia a part, per «Nota a la lectura k»
         if n in CUARTA:
-            new = re.sub(r'Cap[ií]tol \d+', f"Capítol {CUARTA[n]}", old)
+            new = re.sub(r'([Cc])ap[ií]tol \d+', lambda mm: f"{mm.group(1)}apítol {CUARTA[n]}", old)
         elif n in NUM_LECT:
             k = NUM_LECT[n]
             paren = old.startswith("(")
-            new = f"lectura {k}"
+            new = ("Lectura" if re.search(r'C(?=ap[ií]tol)', old) else "lectura") + f" {k}"
             if tomo == 1:
                 new += " del segon volum"
             if paren:
@@ -82,6 +90,12 @@ def refs(text, tomo):
 
 # ---- tom I ---------------------------------------------------------------
 T1 = {
+    "cap_glosario.ca.md": [
+        ('amb el 53:', 'amb la lectura 15 del segon volum:'),
+        ('(capítols 22, 31, 53 i 54)', '(capítols 22 i 31, i lectures 15 i 16 del segon volum)'),
+        ('(capítols 53 i 54)', '(lectures 15 i 16 del segon volum)'),
+        ('Als capítols 53 i 54 queda', 'A les lectures 15 i 16 del segon volum queda'),
+    ],
     "cap_nota_autor.ca.md": [
         ("Diverses de les lectures topològiques (",
          "Diverses lectures del segon volum, *Lectures topològiques* (")],
@@ -127,15 +141,17 @@ t2 = dict(base, title="Lectures topològiques", subtitle="L'Horitzó Interior ·
           cover_image="imagenes/El_Horitzo_Interior_Tom2_Lectures_cubierta_ebook.jpg",
           credits=["Segon volum de L'Horitzó Interior: catorze lectures que porten les idees de "
                    "l'assaig a la ficció, el cinema, l'esport i la vida quotidiana. Les remissions a "
-                   "capítols apunten al primer volum, L'Horitzó Interior. Assaig."])
+                   "capítols apunten al primer volum, L'Horitzó Interior. Assaig. Tanca el volum la secció "
+                   "«Relectura i herència»: quatre capítols que rellegeixen el llibre amb la tríada de la vora, "
+                   "l'energia lliure i l'acció, i que tracten l'herència de la geometria."])
 t2["chapters"] = []
-for c in LECT:
+for c in LECT + MOVED_CH:
     n = int(fm(c)["chapterNumber"])
     nota = f"**Nota al Capítol {n}**"
     extra = [(nota, f"**Nota a la lectura {NUM_LECT[n]}**")] if nota in (BASE / c["content_file"]).read_text(encoding="utf-8") else []
     c2 = with_replace(c, T2, refs(body(c), 2) + extra)
     c2["chapter_number"] = NUM_LECT[n]
-    c2["section"] = ""   # sense la capçalera «Lectures topològiques» repetida a cada lectura
+    c2["section"] = (SEC_MOVED if _is_moved(c) else "")   # sense la capçalera «Lectures topològiques» repetida a cada lectura
     t2["chapters"].append(c2)
 
 t1["chapters"].insert(0, {"id": "intro_vol1", "content_file": "intros/intro_vol1.ca.md"})

@@ -405,6 +405,14 @@
       "content_file": "en/cap_ensayo_releido.en.md"
     },
     {
+      "id": "cap20_5",
+      "content_file": "en/cap20_5.en.md"
+    },
+    {
+      "id": "cap_herencia_geometria",
+      "content_file": "en/cap_herencia_geometria.en.md"
+    },
+    {
       "id": "cap_epilogo_real",
       "content_file": "en/cap_epilogo_real.en.md"
     },

@@ -418,68 +418,6 @@
       "chapter_number": 38
     },
     {
-      "id": "cap_triada_horizonte",
-      "content_file": "../content/ensayo/cap_triada_horizonte.es.md",
-      "replace": [
-        [
-          "del capítulo 49",
-          "de la lectura 13 del segundo tomo"
-        ],
-        [
-          "del capítulo 54",
-          "del capítulo 40"
-        ],
-        [
-          "del capítulo 51",
-          "del capítulo 37"
-        ],
-        [
-          "el capítulo 49",
-          "la lectura 13 del segundo tomo"
-        ],
-        [
-          "el capítulo 51",
-          "el capítulo 37"
-        ],
-        [
-          "el capítulo 53",
-          "el capítulo 39"
-        ],
-        [
-          "al Capítulo 53",
-          "al Capítulo 39"
-        ]
-      ],
-      "chapter_number": 39
-    },
-    {
-      "id": "cap_ensayo_releido",
-      "content_file": "../content/ensayo/cap_ensayo_releido.es.md",
-      "replace": [
-        [
-          "del capítulo 50",
-          "de la lectura 14 del segundo tomo"
-        ],
-        [
-          "del capítulo 49",
-          "de la lectura 13 del segundo tomo"
-        ],
-        [
-          "del capítulo 53",
-          "del capítulo 39"
-        ],
-        [
-          "El capítulo 51",
-          "El capítulo 37"
-        ],
-        [
-          "al Capítulo 54",
-          "al Capítulo 40"
-        ]
-      ],
-      "chapter_number": 40
-    },
-    {
       "id": "cap_epilogo_real",
       "content_file": "content_overrides/cap_epilogo_real.es.md"
     },
@@ -488,12 +426,28 @@
       "content_file": "../content/ensayo/cap_glosario.es.md",
       "replace": [
         [
+          "con el 53:",
+          "con la lectura 15 del segundo tomo:"
+        ],
+        [
+          "(capítulos 22, 31, 53 y 54)",
+          "(capítulos 22 y 31, y lecturas 15 y 16 del segundo tomo)"
+        ],
+        [
+          "(capítulos 53 y 54)",
+          "(lecturas 15 y 16 del segundo tomo)"
+        ],
+        [
+          "En los capítulos 53 y 54 queda",
+          "En las lecturas 15 y 16 del segundo tomo queda"
+        ],
+        [
           "el capítulo 49",
           "la lectura 13 del segundo tomo"
         ],
         [
           "(capítulo 53)",
-          "(capítulo 39)"
+          "(lectura 15 del segundo tomo)"
         ]
       ]
     },
