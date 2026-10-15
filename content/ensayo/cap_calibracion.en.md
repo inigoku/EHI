@@ -1,8 +1,8 @@
 ---
 title: THE HORIZON'S CALIBRATION
 subtitle: (Orientation, identity, and sex are neither a choice nor an error)
-section: TOPOLOGICAL READINGS
-chapterNumber: 44
+section: PART THREE: THE LIMITS OF THE HORIZON
+chapterNumber: 33
 illustrationId: il_calibracion
 illustrationTitle: The horizon's calibration
 illustrationDescription: A spherical horizon with several internal axes of light crossing at its center, each a different color, none subordinate to the others. From outside, other horizons project beams trying to force those axes into a single external pattern, without succeeding. The central horizon stays stable, coherent, lit from within.
