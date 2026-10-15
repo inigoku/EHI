@@ -99,6 +99,9 @@ def main() -> int:
                     help="Idioma de los textos de cubierta (volumen único).")
     ap.add_argument("--sin-ilustraciones", action="store_true",
                     help="Cubierta para el interior sin ilustraciones (papel blanco B/N).")
+    ap.add_argument("--lomo-por-pagina", type=float, default=None,
+                    help="Grosor por página fijado a mano (p. ej. 0.00235 para papel "
+                         "blanco reciclado según KDP). El PDF sale con sufijo _reciclado.")
     args = ap.parse_args()
     global WRAP_PDF, SPINE_PER_PAGE
     if args.idioma != "es":
@@ -115,6 +118,9 @@ def main() -> int:
         WRAP_PDF = tomos[args.tomo]["wrap_bn"]
         SPINE_PER_PAGE = 0.002252           # sin láminas: papel blanco B/N
         hc.INTERIOR_PDF = tomos[args.tomo]["interior_bn"]
+    if args.lomo_por_pagina:
+        SPINE_PER_PAGE = args.lomo_por_pagina
+        WRAP_PDF = WRAP_PDF.with_name(WRAP_PDF.stem + "_reciclado.pdf")
     src = hc.source_image()
     if not src.exists():
         raise SystemExit(

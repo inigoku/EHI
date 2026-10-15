@@ -206,44 +206,49 @@ TEXTS = {
         ),
     },
     "en": {
-        "title": "Echoes at the Edge",
-        "subtitle": "Lyric of the Emotional Threshold",
+        "title": "The Inner Horizon",
+        "subtitle": "Volume IV: Echoes at the Edge",
         "author": "Íñigo Barrera Barceló",
         "publisher": "Íñigo Barrera Barceló",
         "rights": "© Íñigo Barrera Barceló. All rights reserved.",
         "isbn": "",
         "keywords": "poetry, poems, grief, The Inner Horizon",
-        "intro_title": "From the Shore",
+        "intro_title": "The Work in Four Volumes",
         "intro": [
-            "This volume gathers the twenty-one poems and the glossary that close "
-            "*The Inner Horizon*. In the complete work they appear interspersed between "
-            "the essay and the stories; here they stand together, for the first time, "
-            "and read straight through they tell a different story.",
+            '*The Inner Horizon* is one work told four times.',
 
-            "They stand together because they do not defend a hypothesis: they "
-            "inhabit it. They ask what it feels like to stand inside a boundary, "
-            "what hurts when it cracks, and what remains when the water on the "
-            "other side recedes.",
+            'Its premise is a game with a single rule. Suppose that consciousness has the structure of an event horizon, the boundary of a Hawking micro black hole, and follow the supposition wherever it leads. It is a thought experiment, and the work never claims more for it. Where the idea lights something up, the work says so. Where it breaks, the work says that too.',
 
-            "Each poem opens on an odd-numbered page, facing its illustration. The "
-            "plates come from the work's illustrated and chamber editions, and are "
-            "listed one by one at the end.",
+            'A question like this will not keep to one register. It changes as it passes from physics to grief, from grief to a film, from a film to a kitchen at dawn. So the work was written in four voices, and each voice became a volume.',
 
-            "You do not need to have read *The Inner Horizon* to read this. At most, "
-            "you need to have once stood on a shore watching the water leave, not "
-            "knowing if it would return, and not knowing what it might bring back.",
+            '**Volume I, Essay.** The argument itself: the hypothesis, built chapter by chapter, and the point where it stops.',
+
+            '**Volume II, Topological Readings.** The hypothesis put to work on things that were made without it: novels, films, paintings, a football match.',
+
+            '**Volume III, Fables from Tarel.** The same idea told as short narratives, in and around a city that learned to live with the water that leaves.',
+
+            '**Volume IV, Echoes at the Edge.** The same idea in the language of feeling, as poems.',
+
+            'The volumes are independent. Each can be read alone and in any order, and none asks you to finish another first. Together they say one thing four times, and what changes from one telling to the next is where the weight falls.',
+
+            '**This volume.** This is the fourth volume, and the shortest. The essay argues, the readings test and the tales narrate; the poems inhabit. They do not defend the hypothesis. They ask what it feels like to stand inside a boundary, what hurts when it cracks, and what remains when the water on the other side recedes. Twenty-one poems and an intimate glossary, in three books, close the work.',
+
+            "Each poem opens on an odd-numbered page, facing its illustration. The plates come from the work's illustrated and chamber editions, and are listed one by one at the end.",
+
+            'You do not need to have read the other volumes to read this one. At most, you need to have once stood on a shore watching the water leave, not knowing if it would return, and not knowing what it might bring back.',
         ],
         "about": [
             "*The Inner Horizon* is a thought experiment: what would happen if "
             "consciousness had the structure of a Hawking micro black hole. The work "
-            "develops that question along three paths at once. A twenty-six-chapter "
-            "essay that moves from black hole thermodynamics and the quantum vacuum to "
-            "Integrated Information Theory, by way of ancient Taoist wisdom. Sixteen "
-            "stories that embody those concepts in the city of Tarel, suspended over a "
-            "water that recedes one day. And this anthology, which translates the same "
-            "thing into the language of feeling.",
+            "develops that question in four volumes. A thirty-nine-chapter essay that "
+            "moves from black hole thermodynamics and the quantum vacuum to Integrated "
+            "Information Theory, by way of ancient Taoist wisdom. Fourteen topological "
+            "readings that test the idea against fiction, film, art and sport. Thirty "
+            "tales that embody it in the city of Tarel, over a water that recedes one "
+            "day. And this volume, which translates the same thing into the language "
+            "of feeling.",
 
-            "The three paths are independent and lead to the same place. You can enter "
+            "The four volumes are independent and lead to the same place. You can enter "
             "through any of them.",
 
             "**Íñigo Barrera Barceló** wrote *The Inner Horizon* over several years, in "
@@ -257,7 +262,7 @@ TEXTS = {
             "interactive version.",
         ],
         "illustrations_title": "The Illustrations",
-        "about_title": "About This Anthology",
+        "about_title": "About This Volume",
         "credits_title": "Credits",
         "credits_text": (
             f"<p><em>Echoes at the Edge. Lyric of the Emotional Threshold</em></p>"
@@ -288,12 +293,12 @@ TEXTS = {
                 "objects — the wave, the house, the tuning fork, the bowl — drawn on "
                 "graph paper.",
         },
-        "kicker": "A poetry anthology from The Inner Horizon",
+        "kicker": "Twenty-one poems and an intimate glossary",
         "anthology_label": "A poetry anthology",
         "essay_title": "The Inner Horizon",
         "interactive_version_label": "Interactive version:",
         "source_from_label": "from",
-        "title_lines": ["Echoes at", "the Edge"],
+        "title_lines": ["The Inner", "Horizon"],
         "cover_suffix": "cover",
         "wrap_suffix": "hardcover wrap",
         "blurb": (

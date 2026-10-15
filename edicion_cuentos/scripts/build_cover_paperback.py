@@ -51,7 +51,9 @@ PAPERBACK = {
 
 TRIM_W, TRIM_H = hc.TRIM_W, hc.TRIM_H
 BLEED = hc.BLEED
-SPINE_PER_PAGE = hc.SPINE_PER_PAGE
+# Interior en blanco y negro sobre papel blanco: 0,002252"/página. (La
+# constante de hc, 0,002347, es la del papel premium a color de la tapa dura.)
+SPINE_PER_PAGE = 0.002252
 inch = hc.inch
 
 
@@ -62,10 +64,28 @@ def build_wrap(wrap_pdf: Path, wrap_label: str, pages: int,
     w_in = force_w or (2 * side + spine_in)
     h_in = force_h or (TRIM_H + 2 * BLEED)
 
+    # Pintura a sangre: cubierta a la derecha; contra a la izquierda con la
+    # misma pintura volteada bajo un lavado de tinta; lomo en tinta plana.
+    canvas_px = (round(w_in * hc.DPI), round(h_in * hc.DPI))
+    field = hc.Image.new("RGB", canvas_px, (10, 16, 22))
+    half_in = (w_in - spine_in) / 2
+    front = hc.cover_field(half_in, h_in)
+    back = hc.cover_field(half_in, h_in, flip=True)
+    field.paste(back, (0, 0))
+    field.paste(front, (canvas_px[0] - front.width, 0))
+    art = hc.vertical_veil(field, 0.24, 0.20, 0.50, 0.60)
+    wash = hc.Image.new("RGB", (back.width, canvas_px[1]), (11, 18, 25))
+    art.paste(hc.Image.blend(art.crop((0, 0, back.width, canvas_px[1])), wash, 0.74), (0, 0))
+    sx0 = round((w_in - spine_in) / 2 * hc.DPI)
+    sx1 = sx0 + round(spine_in * hc.DPI)
+    art.paste(hc.Image.new("RGB", (sx1 - sx0, canvas_px[1]), (13, 21, 28)), (sx0, 0))
+    art = hc.grain(art)
+    tmp = hc.IMG / "_cubierta_paperback.jpg"
+    art.save(tmp, "JPEG", quality=92, subsampling=0, dpi=(hc.DPI, hc.DPI))
+
     cv = hc.rl_canvas.Canvas(str(wrap_pdf), pagesize=(w_in * inch, h_in * inch))
     cv.setTitle(f"{hc.TITLE} — {wrap_label}")
-    cv.setFillColor(hc.SAND)
-    cv.rect(0, 0, w_in * inch, h_in * inch, stroke=0, fill=1)
+    cv.drawImage(str(tmp), 0, 0, width=w_in * inch, height=h_in * inch, mask=None)
 
     trim_y = BLEED * inch
     trim_h = TRIM_H * inch

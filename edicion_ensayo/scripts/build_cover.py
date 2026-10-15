@@ -186,6 +186,22 @@ def wrapped(text: str, font: str, size: float, width: float) -> list[str]:
     return out
 
 
+def halo_caps(cv, cx: float, y: float, text: str, font: str, size: float,
+              color, spacing: float) -> None:
+    """Subtítulo con un velo oscuro y suave detrás: sobre las crestas claras de
+    la pintura el texto crema se perdía."""
+    t = text.upper()
+    w = pdfmetrics.stringWidth(t, font, size) + spacing * max(0, len(t) - 1)
+    cv.saveState()
+    cv.setFillColor(colors.HexColor("#0a1016"))
+    for pad_x, pad_y, alpha in ((26, 13, 0.10), (20, 10, 0.16), (14, 8, 0.24), (9, 6, 0.34)):
+        cv.setFillAlpha(alpha)
+        cv.roundRect(cx - w / 2 - pad_x, y - pad_y + size * 0.30,
+                     w + 2 * pad_x, size + 2 * pad_y - 4, 8, stroke=0, fill=1)
+    cv.restoreState()
+    caps(cv, cx, y, text, font, size, color, spacing)
+
+
 def front_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     cx = x0 + w / 2
     y = y0 + h - 1.35 * inch
@@ -197,7 +213,7 @@ def front_text(cv, x0: float, y0: float, w: float, h: float) -> None:
     cv.setLineWidth(1.0)
     cv.line(cx - 46, y, cx + 46, y)
     y -= 26
-    caps(cv, cx, y, SUBTITLE, R, 9.5, GOLD, 2.0)
+    halo_caps(cv, cx, y, SUBTITLE, R, 9.5, SAND, 2.0)
 
     y = y0 + 1.30 * inch
     caps(cv, cx, y, AUTHOR, R, 14.5, SAND, 4.2)
@@ -238,7 +254,9 @@ def spine_text(cv, cx: float, y0: float, h: float, spine_w: float) -> None:
     cv.rotate(-90)
     cv.setFillColor(SAND)
     cv.setFont(R, 12)
-    cv.drawCentredString(0, -4, f"{TITLE.upper()}   ·   {AUTHOR.upper()}")
+    vol = SUBTITLE.split(":")[0].upper() if SUBTITLE.startswith("Volume ") else ""
+    mid = f"   ·   {vol}" if vol else ""
+    cv.drawCentredString(0, -4, f"{TITLE.upper()}{mid}   ·   {AUTHOR.upper()}")
     cv.restoreState()
 
 
@@ -400,11 +418,11 @@ TOMOS_EN = {
         wrap_bn=BASE / "The_Inner_Horizon_Tomo1_Essay_cubierta_tapablanda_sin_ilustraciones.pdf",
         interior_bn=BASE / "The_Inner_Horizon_Tomo1_Essay_sin_ilustraciones_6x9.pdf",
         title="The Inner Horizon", title_lines=["The Inner", "Horizon"],
-        subtitle="Essay · Volume I",
+        subtitle="Volume I: Essay",
         kicker="An essay on physics, consciousness and the limits of the self",
         blurb=LANGS["en"]["blurb"],
         blurb2=(
-            "Forty-six chapters that cross neuroscience, information theory "
+            "Thirty-nine chapters that cross neuroscience, information theory "
             "and theoretical physics without ever abandoning the simplest "
             "question: what it means for there to be someone in there. With "
             "the epilogue, the glossary and the complete apparatus of notes. "
@@ -418,9 +436,9 @@ TOMOS_EN = {
         ebook=IMG / "The_Inner_Horizon_Tomo2_Readings_cubierta_ebook.jpg",
         wrap_bn=BASE / "The_Inner_Horizon_Tomo2_Readings_cubierta_tapablanda_sin_ilustraciones.pdf",
         interior_bn=BASE / "The_Inner_Horizon_Tomo2_Readings_sin_ilustraciones_6x9.pdf",
-        title="Topological Readings", title_lines=["Topological", "Readings"],
+        title="The Inner Horizon", title_lines=["The Inner", "Horizon"],
         art=IMG / "portada_lecturas.jpg",   # cinta de Möbius de agua
-        subtitle="The Inner Horizon · Volume II",
+        subtitle="Volume II: Topological Readings",
         kicker="The essay's ideas in fiction, film and everyday life",
         blurb=(
             "A clone that isn't the mare it copies, a replicant crying in "

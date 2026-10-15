@@ -94,6 +94,10 @@ _CJK_FALLBACK_AVAILABLE = False
 def register_fonts() -> None:
     for _style, (name, fname) in FAMILY.items():
         pdfmetrics.registerFont(TTFont(name, str(FONTS / fname)))
+    # Sin la familia, las marcas <b> e <i> del texto (cursivas de títulos,
+    # negritas de términos) no cambian de fuente y todo sale en redonda.
+    pdfmetrics.registerFontFamily("Eco", normal="Eco", bold="Eco-Sb",
+                                  italic="Eco-It", boldItalic="Eco-SbIt")
     # Sin esto, reportlab referencia Helvetica en cada página aunque no se
     # use, y KDP marca esa fuente como no incrustada.
     rl_config.canvas_basefontname = FAMILY["R"][1]
@@ -164,7 +168,7 @@ STRINGS = {
     },
     "en": {
         "rights": "All rights reserved.",
-        "provenance": ("These twenty-eight stories are drawn from the complete work The Inner "
+        "provenance": ("These thirty tales are drawn from the complete work The Inner "
                         "Horizon and are reproduced here in their reading order, from "
                         "origin to end, by way of the bonds between them."),
         "illus_credit": "The illustrations are drawn from the illustrated edition of the same work.",
