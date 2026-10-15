@@ -176,7 +176,7 @@
   "gutter_in": 0.62,
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-es",
   "credits": [
-    "Segundo tomo de El Horizonte Interior: catorce lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
+    "Segundo tomo de El Horizonte Interior: catorce lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo. Cierra el tomo la sección «Relectura y herencia»: cuatro capítulos que releen el libro con la tríada del borde, la energía libre y la acción, y que tratan la herencia de la geometría."
   ],
   "chapters": [
     {
@@ -345,7 +345,7 @@
       "replace": [
         [
           "el capítulo 53",
-          "el capítulo 39"
+          "la lectura 15"
         ],
         [
           "**Nota al Capítulo 49**",
@@ -378,6 +378,110 @@
       ],
       "chapter_number": 14,
       "section": ""
+    },
+    {
+      "id": "cap_triada_horizonte",
+      "content_file": "../content/ensayo/cap_triada_horizonte.es.md",
+      "replace": [
+        [
+          "del capítulo 49",
+          "de la lectura 13"
+        ],
+        [
+          "del capítulo 54",
+          "de la lectura 16"
+        ],
+        [
+          "del capítulo 51",
+          "del capítulo 37"
+        ],
+        [
+          "el capítulo 49",
+          "la lectura 13"
+        ],
+        [
+          "el capítulo 51",
+          "el capítulo 37"
+        ],
+        [
+          "el capítulo 53",
+          "la lectura 15"
+        ],
+        [
+          "**Nota al Capítulo 53**",
+          "**Nota a la lectura 15**"
+        ]
+      ],
+      "chapter_number": 15,
+      "section": "RELECTURA Y HERENCIA"
+    },
+    {
+      "id": "cap_ensayo_releido",
+      "content_file": "../content/ensayo/cap_ensayo_releido.es.md",
+      "replace": [
+        [
+          "del capítulo 50",
+          "de la lectura 14"
+        ],
+        [
+          "del capítulo 49",
+          "de la lectura 13"
+        ],
+        [
+          "del capítulo 53",
+          "de la lectura 15"
+        ],
+        [
+          "El capítulo 51",
+          "El capítulo 37"
+        ],
+        [
+          "**Nota al Capítulo 54**",
+          "**Nota a la lectura 16**"
+        ]
+      ],
+      "chapter_number": 16,
+      "section": "RELECTURA Y HERENCIA"
+    },
+    {
+      "id": "cap20_5",
+      "content_file": "../content/ensayo/cap20_5.es.md",
+      "replace": [
+        [
+          "en el capítulo 51",
+          "en el capítulo 37"
+        ],
+        [
+          "**Nota al Capítulo 55**",
+          "**Nota a la lectura 17**"
+        ]
+      ],
+      "chapter_number": 17,
+      "section": "RELECTURA Y HERENCIA"
+    },
+    {
+      "id": "cap_herencia_geometria",
+      "content_file": "../content/ensayo/cap_herencia_geometria.es.md",
+      "replace": [
+        [
+          "del capítulo 55",
+          "de la lectura 17"
+        ],
+        [
+          "El capítulo 55",
+          "La lectura 17"
+        ],
+        [
+          "El capítulo 54",
+          "La lectura 16"
+        ],
+        [
+          "**Nota al Capítulo 56**",
+          "**Nota a la lectura 18**"
+        ]
+      ],
+      "chapter_number": 18,
+      "section": "RELECTURA Y HERENCIA"
     }
   ]
 }

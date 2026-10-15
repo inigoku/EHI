@@ -413,38 +413,34 @@
       "chapter_number": 38
     },
     {
-      "id": "cap_triada_horizonte",
-      "content_file": "en/cap_triada_horizonte.en.md",
-      "replace": [
-        [
-          "Chapter 53",
-          "Chapter 39"
-        ]
-      ],
-      "chapter_number": 39
-    },
-    {
-      "id": "cap_ensayo_releido",
-      "content_file": "en/cap_ensayo_releido.en.md",
-      "replace": [
-        [
-          "Chapter 51",
-          "Chapter 37"
-        ],
-        [
-          "Chapter 54",
-          "Chapter 40"
-        ]
-      ],
-      "chapter_number": 40
-    },
-    {
       "id": "cap_epilogo_real",
       "content_file": "en/cap_epilogo_real.en.md"
     },
     {
       "id": "cap_glosario",
-      "content_file": "en/cap_glosario.en.md"
+      "content_file": "en/cap_glosario.en.md",
+      "replace": [
+        [
+          "(chapters 22, 31, 53 and 54)",
+          "(chapters 22 and 31, and Readings 15 and 16 in the second volume)"
+        ],
+        [
+          "(chapters 53 and 54)",
+          "(Readings 15 and 16 in the second volume)"
+        ],
+        [
+          "In chapters 53 and 54 it is",
+          "In Readings 15 and 16 of the second volume it is"
+        ],
+        [
+          "chapter 49",
+          "reading 13 in the second volume"
+        ],
+        [
+          "chapter 53",
+          "reading 15 in the second volume"
+        ]
+      ]
     },
     {
       "id": "cap_notas_cierre",

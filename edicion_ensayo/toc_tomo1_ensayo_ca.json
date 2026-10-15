@@ -308,7 +308,13 @@
     },
     {
       "id": "cap22_idempotencia",
-      "content_file": "../content/ensayo/cap22_idempotencia.ca.md"
+      "content_file": "../content/ensayo/cap22_idempotencia.ca.md",
+      "replace": [
+        [
+          "capítol 51",
+          "capítol 37"
+        ]
+      ]
     },
     {
       "id": "cap23_experimentos_mentales",
@@ -324,11 +330,31 @@
     },
     {
       "id": "cap17_5_real",
-      "content_file": "../content/ensayo/cap17_5_real.ca.md"
+      "content_file": "../content/ensayo/cap17_5_real.ca.md",
+      "replace": [
+        [
+          "capítol 51",
+          "capítol 37"
+        ]
+      ]
     },
     {
       "id": "cap_religiones_comparadas",
-      "content_file": "../content/ensayo/cap_religiones_comparadas.ca.md"
+      "content_file": "../content/ensayo/cap_religiones_comparadas.ca.md",
+      "replace": [
+        [
+          "capítol 51)",
+          "capítol 37)"
+        ],
+        [
+          "capítol 51",
+          "capítol 37"
+        ],
+        [
+          "capítol 52",
+          "capítol 38"
+        ]
+      ]
     },
     {
       "id": "cap_diapason_invisible",
@@ -356,7 +382,13 @@
     },
     {
       "id": "cap_tres_puertas",
-      "content_file": "../content/ensayo/cap_tres_puertas.ca.md"
+      "content_file": "../content/ensayo/cap_tres_puertas.ca.md",
+      "replace": [
+        [
+          "capítol 51",
+          "capítol 37"
+        ]
+      ]
     },
     {
       "id": "cap_el_que_queda",
@@ -385,34 +417,34 @@
       "chapter_number": 38
     },
     {
-      "id": "cap_triada_horizonte",
-      "content_file": "../content/ensayo/cap_triada_horizonte.ca.md",
-      "replace": [
-        [
-          "Capítol 53",
-          "Capítol 39"
-        ]
-      ],
-      "chapter_number": 39
-    },
-    {
-      "id": "cap_ensayo_releido",
-      "content_file": "../content/ensayo/cap_ensayo_releido.ca.md",
-      "replace": [
-        [
-          "Capítol 54",
-          "Capítol 40"
-        ]
-      ],
-      "chapter_number": 40
-    },
-    {
       "id": "cap_epilogo_real",
       "content_file": "content_overrides/cap_epilogo_real.ca.md"
     },
     {
       "id": "cap_glosario",
-      "content_file": "../content/ensayo/cap_glosario.ca.md"
+      "content_file": "../content/ensayo/cap_glosario.ca.md",
+      "replace": [
+        [
+          "amb el 53:",
+          "amb la lectura 15 del segon volum:"
+        ],
+        [
+          "(capítols 22, 31, 53 i 54)",
+          "(capítols 22 i 31, i lectures 15 i 16 del segon volum)"
+        ],
+        [
+          "(capítols 53 i 54)",
+          "(lectures 15 i 16 del segon volum)"
+        ],
+        [
+          "Als capítols 53 i 54 queda",
+          "A les lectures 15 i 16 del segon volum queda"
+        ],
+        [
+          "capítol 49",
+          "lectura 13 del segon volum"
+        ]
+      ]
     },
     {
       "id": "cap_notas_cierre",
