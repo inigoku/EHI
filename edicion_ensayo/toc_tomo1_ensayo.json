@@ -180,6 +180,10 @@
   ],
   "chapters": [
     {
+      "id": "intro_vol1",
+      "content_file": "intros/intro_vol1.es.md"
+    },
+    {
       "id": "cap0",
       "content_file": "../content/ensayo/cap0.es.md"
     },
@@ -371,7 +375,7 @@
     },
     {
       "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.es.md"
+      "content_file": "../content/ensayo/cap_calibracion.es.md"
     },
     {
       "id": "cap_teoria_informacion",

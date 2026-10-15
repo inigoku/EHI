@@ -138,6 +138,9 @@ for c in LECT:
     c2["section"] = ""   # sense la capçalera «Lectures topològiques» repetida a cada lectura
     t2["chapters"].append(c2)
 
+t1["chapters"].insert(0, {"id": "intro_vol1", "content_file": "intros/intro_vol1.ca.md"})
+t2["chapters"].insert(0, {"id": "intro_vol2", "content_file": "intros/intro_vol2.ca.md"})
+
 unico = dict(toc); unico["chapters"] = [with_replace(c, UNICO) for c in toc["chapters"]]
 
 for name, data in (("toc_tomo1_ensayo_ca.json", t1), ("toc_tomo2_lecturas_ca.json", t2), ("toc_ensayo_ca.json", unico)):

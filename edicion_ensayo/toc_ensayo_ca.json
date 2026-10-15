@@ -318,7 +318,7 @@
     },
     {
       "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.ca.md"
+      "content_file": "../content/ensayo/cap_calibracion.ca.md"
     },
     {
       "id": "cap_teoria_informacion",
@@ -395,6 +395,14 @@
     {
       "id": "cap20_real",
       "content_file": "../content/ensayo/cap20_real.ca.md"
+    },
+    {
+      "id": "cap_triada_horizonte",
+      "content_file": "../content/ensayo/cap_triada_horizonte.ca.md"
+    },
+    {
+      "id": "cap_ensayo_releido",
+      "content_file": "../content/ensayo/cap_ensayo_releido.ca.md"
     },
     {
       "id": "cap_epilogo_real",

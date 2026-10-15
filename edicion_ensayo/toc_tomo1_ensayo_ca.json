@@ -187,6 +187,10 @@
   "body_leading": 16.0,
   "chapters": [
     {
+      "id": "intro_vol1",
+      "content_file": "intros/intro_vol1.ca.md"
+    },
+    {
       "id": "cap0",
       "content_file": "../content/ensayo/cap0.ca.md"
     },
@@ -344,7 +348,7 @@
     },
     {
       "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.ca.md"
+      "content_file": "../content/ensayo/cap_calibracion.ca.md"
     },
     {
       "id": "cap_teoria_informacion",
@@ -379,6 +383,28 @@
         ]
       ],
       "chapter_number": 38
+    },
+    {
+      "id": "cap_triada_horizonte",
+      "content_file": "../content/ensayo/cap_triada_horizonte.ca.md",
+      "replace": [
+        [
+          "Capítol 53",
+          "Capítol 39"
+        ]
+      ],
+      "chapter_number": 39
+    },
+    {
+      "id": "cap_ensayo_releido",
+      "content_file": "../content/ensayo/cap_ensayo_releido.ca.md",
+      "replace": [
+        [
+          "Capítol 54",
+          "Capítol 40"
+        ]
+      ],
+      "chapter_number": 40
     },
     {
       "id": "cap_epilogo_real",

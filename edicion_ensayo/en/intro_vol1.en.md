@@ -20,6 +20,6 @@ The volumes are independent. Each can be read alone and in any order, and none a
 
 ### This volume
 
-This is the first volume, and the one that carries the load. It states the hypothesis and builds it in four parts: how a horizon arises, lives and dissolves; what happens when two horizons share a geometry; the hard cases, from illness and animals to artificial minds, faith and politics; and last, what the experiment cannot say and what it is good for all the same. It has thirty-nine numbered chapters, an epilogue, a glossary and notes.
+This is the first volume, and the one that carries the load. It states the hypothesis and builds it in four parts: how a horizon arises, lives and dissolves; what happens when two horizons share a geometry; the hard cases, from illness and animals to artificial minds, faith and politics; and last, what the experiment cannot say and what it is good for all the same. It has forty-one numbered chapters, an epilogue, a glossary and notes.
 
 You do not need physics to read it. The first chapter was written for a reader who has none. The other three volumes lean on this one and send you back to it for the argument, but none of them is a summary or a gloss. Where this volume argues, the others take the argument somewhere else to see whether it holds.

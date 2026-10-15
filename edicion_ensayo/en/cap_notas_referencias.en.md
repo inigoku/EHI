@@ -39,6 +39,8 @@ Asimov, I. (1955). *The End of Eternity*. Doubleday.
 
 Aspect, A., Dalibard, J., & Roger, G. (1982). Experimental Test of Bell's Inequalities Using Time-Varying Analyzers. *Physical Review Letters*, 49(25).
 
+Ay, N. (2001). Information Geometry on Complexity and Stochastic Interaction. *MPI MIS Preprint*, 95/2001. Published in expanded form in Ay, N. (2015), *Entropy*, 17(4), 2432–2458.
+
 Baars, B.J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
 
 Bailey, J.M., & Pillard, R.C. (1991). A Genetic Study of Male Sexual Orientation. *Archives of General Psychiatry*, 48(12).
@@ -62,6 +64,8 @@ Bostrom, N. (2003). Are You Living in a Computer Simulation? *Philosophical Quar
 Bostrom, N. (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford University Press.
 
 Bradshaw, J. (2017). *The Animals Among Us: How Pets Make Us Human*. Basic Books.
+
+Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's New Markov Blankets. *Behavioral and Brain Sciences*, 45, e183.
 
 Burke, S. (2018). *Semiosis*. Tor Books.
 
@@ -143,6 +147,8 @@ Forsythe, A., Williams, T., & Reilly, R.G. (2017). What paint can tell us: A fra
 
 Friedman, J., Morris, M.S., Novikov, I.D., et al. (1990). Cauchy problem in spacetimes with closed timelike curves. *Physical Review D*, 42(6).
 
+Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
+
 Fukushima, H., Terasawa, Y., & Umeda, S. (2011). Association between interoception and empathy: Evidence from heartbeat-evoked brain potential. *International Journal of Psychophysiology*, 79(2).
 
 Ganna, A., et al. (2019). Large-scale GWAS reveals insights into the genetic architecture of same-sex sexual behavior. *Science*, 365(6456).
@@ -181,6 +187,8 @@ Hazan, C., & Shaver, P. (1987). Romantic Love Conceptualized as an Attachment Pr
 
 Hesse, H. (1922). *Siddhartha*.
 
+Hoel, E.P., Albantakis, L., & Tononi, G. (2013). Quantifying causal emergence shows that macro can beat micro. *Proceedings of the National Academy of Sciences*, 110(49), 19790–19795.
+
 Hume, D. (1748). *An Enquiry Concerning Human Understanding*. A. Millar.
 
 Imperato-McGinley, J., Guerrero, L., Gautier, T., & Peterson, R.E. (1974). Steroid 5α-Reductase Deficiency in Man: An Inherited Form of Male Pseudohermaphroditism. *Science*, 186(4170).
@@ -205,7 +213,11 @@ Klimecki, O.M., Leiberg, S., Ricard, M., & Singer, T. (2014). Differential patte
 
 Koestler, A. (1940). *Darkness at Noon*.
 
+Kraskov, A., Stögbauer, H., & Grassberger, P. (2004). Estimating mutual information. *Physical Review E*, 69(6), 066138.
+
 Kuratowski, K. (1922). Sur l'opération Ā de l'Analysis Situs. *Fundamenta Mathematicae*, 3.
+
+Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183–191.
 
 Le Bon, G. (1895). *Psychologie des foules*. Félix Alcan.
 
@@ -264,6 +276,8 @@ Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg.
 Otto, R. (1917). *Das Heilige*.
 
 Page, D.N. (1993). Information in black hole radiation. *Physical Review Letters*, 71(23).
+
+Palacios, E.R., Razi, A., Parr, T., Kirchhoff, M., & Friston, K. (2020). On Markov blankets and hierarchical self-organisation. *Journal of Theoretical Biology*, 486, 110089.
 
 Panksepp, J. (1998). *Affective Neuroscience: The Foundations of Human and Animal Emotions*. Oxford University Press.
 
