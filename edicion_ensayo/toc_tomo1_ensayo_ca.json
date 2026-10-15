@@ -381,6 +381,28 @@
       "chapter_number": 38
     },
     {
+      "id": "cap_triada_horizonte",
+      "content_file": "../content/ensayo/cap_triada_horizonte.ca.md",
+      "replace": [
+        [
+          "Capítol 53",
+          "Capítol 39"
+        ]
+      ],
+      "chapter_number": 39
+    },
+    {
+      "id": "cap_ensayo_releido",
+      "content_file": "../content/ensayo/cap_ensayo_releido.ca.md",
+      "replace": [
+        [
+          "Capítol 54",
+          "Capítol 40"
+        ]
+      ],
+      "chapter_number": 40
+    },
+    {
       "id": "cap_epilogo_real",
       "content_file": "content_overrides/cap_epilogo_real.ca.md"
     },
