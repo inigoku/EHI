@@ -153,24 +153,24 @@ $$p(x' \mid x) = \prod_{v=1}^{4} q_v(x)^{x'_v} \left(1 - q_v(x)\right)^{1 - x'_v
 
 partitioned into two symmetric modules $S_1 = \{1, 2\}$ and $S_2 = \{3, 4\}$, and evaluated under the coarse-graining projection by logical OR gate / majority vote of each module, $M_1 = \max(x_1, x_2)$ and $M_2 = \max(x_3, x_4)$:
 
-- **1. Mandelbrot-type system ($S_{\text{Mand}}$, geometric self-similarity without causal coupling between parts):** each node oscillates locally with noise $\epsilon = 0{,}10$ according to $q_v(x) = (1 - \epsilon)(1 - x_v) + \epsilon x_v$. The local and macroscopic dynamics are symmetric ($\text{Iso} = 1{,}0$), but since there is no causal traffic between subsystems, $I_{\min}(S_{\text{Mand}}) = 0$ and $C = 0$, which yields exactly:
+- **1. Mandelbrot-type system ($S_{\text{Mand}}$, geometric self-similarity without causal coupling between parts):** each node oscillates locally with noise $\epsilon = 0.10$ according to $q_v(x) = (1 - \epsilon)(1 - x_v) + \epsilon x_v$. The local and macroscopic dynamics are symmetric ($\text{Iso} = 1.0$), but since there is no causal traffic between subsystems, $I_{\min}(S_{\text{Mand}}) = 0$ and $C = 0$, which yields exactly:
   $$\mathbf{A(S_{\text{Mand}}) = 0}$$
 
-- **2. Anthill-type system ($S_{\text{Ant}}$, weak mean-field diffusive aggregation):** each unit combines its local oscillation ($\eta = 0{,}10$) with a weak diffusive drag from the rest of the colony ($\varepsilon = 0{,}05$):
+- **2. Anthill-type system ($S_{\text{Ant}}$, weak mean-field diffusive aggregation):** each unit combines its local oscillation ($\eta = 0.10$) with a weak diffusive drag from the rest of the colony ($\varepsilon = 0.05$):
   $$q_v(x) = (1 - \varepsilon)\left[(1 - \eta)(1 - x_v) + \eta x_v\right] + \varepsilon \frac{1}{3} \sum_{u \neq v} x_u$$
   The system exhibits a very low minimum irreducibility ($I_{\min} > 0$), a weak stationary coupling ($C > 0$) and a low functional similarity between the slow diffusion of the aggregate and the individual unit, resulting in:
   $$\mathbf{A(S_{\text{Ant}}) \approx 10^{-5}}$$
 
-- **3. Brain-type system ($S_{\text{Brain}}$, excitation-inhibition loop replicated across scales):** each local module runs an excitatory-inhibitory cycle $(x_a, x_b) \to (1 - x_b, x_a)$ while the two modules couple at the macroscopic scale following exactly the same excitatory-inhibitory law $(M_1, M_2) \to (1 - M_2, M_1)$ with an intermodular coupling weight $\beta = 0{,}50$ and thermal noise $\gamma = 0{,}05$:
+- **3. Brain-type system ($S_{\text{Brain}}$, excitation-inhibition loop replicated across scales):** each local module runs an excitatory-inhibitory cycle $(x_a, x_b) \to (1 - x_b, x_a)$ while the two modules couple at the macroscopic scale following exactly the same excitatory-inhibitory law $(M_1, M_2) \to (1 - M_2, M_1)$ with an intermodular coupling weight $\beta = 0.50$ and thermal noise $\gamma = 0.05$:
   $$q_1(x) = (1 - \gamma)\left[(1 - \beta)(1 - x_2) + \beta(1 - M_2)\right] + \frac{\gamma}{2}$$
   $$q_2(x) = (1 - \gamma)\left[(1 - \beta)x_1 + \beta(1 - M_2)\right] + \frac{\gamma}{2}$$
   $$q_3(x) = (1 - \gamma)\left[(1 - \beta)(1 - x_4) + \beta M_1\right] + \frac{\gamma}{2}$$
   $$q_4(x) = (1 - \gamma)\left[(1 - \beta)x_3 + \beta M_1\right] + \frac{\gamma}{2}$$
-  Here there concur simultaneously a high minimum-cut irreducibility ($I_{\min}$ high), a strong intermodular mutual information ($C$ high) and a high isomorphism between the macroscopic law and the microscopic law ($\text{Iso}$ high), yielding a value of $\mathbf{A(S_{\text{Brain}}) \approx 10^{-1}}$, four orders of magnitude above that of the anthill.
+  Here a high minimum-cut irreducibility ($I_{\min}$ high), a strong intermodular mutual information ($C$ high) and a high isomorphism between the macroscopic law and the microscopic law ($\text{Iso}$ high) all concur at once, yielding a value of $\mathbf{A(S_{\text{Brain}}) \approx 10^{-1}}$, four orders of magnitude above that of the anthill.
 
 | System ($N=4$ nodes) | $I_{\min}$ | $C(S_{-i}, S_i)$ | $\text{Iso}(S, S_i)$ | Causal self-similarity $A(S)$ |
 |---|---|---|---|---|
-| **Mandelbrot ($S_{\text{Mand}}$)** | $0$ | $0$ | $1{,}0$ | $\mathbf{0}$ |
+| **Mandelbrot ($S_{\text{Mand}}$)** | $0$ | $0$ | $1.0$ | $\mathbf{0}$ |
 | **Anthill ($S_{\text{Ant}}$)** | Very low ($>0$) | Very low ($>0$) | Low | $\mathbf{\approx 10^{-5}}$ |
 | **Brain ($S_{\text{Brain}}$)** | High | High | High | $\mathbf{\approx 10^{-1}}$ |
 
