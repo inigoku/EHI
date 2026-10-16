@@ -18,7 +18,7 @@ illustrationDescription: El Archivista, encapuchado y con farolillo y cuaderno, 
 ---
 
 ## [ILUSTRACIÓN tarel_agua_p2: "Página 2"]
-*Un remo toca fondo de barro; barcas varadas en ángulos torcidos al amanecer; Kema señala una franja oscura bajo su casa mientras el Archivista toma nota. "Antes no estaba. El agua lo sabe." "¿Qué sabe?" "Cuándo soltar... y cuándo quedarse."*
+*Un remo toca fondo de barro; barcas varadas en ángulos torcidos al amanecer; Kema señala una franja oscura bajo su casa mientras el Archivista toma nota. "Antes no estaba. El agua lo cubría. El agua lo sabe." "¿Qué sabe?" "Cuándo soltar... y cuándo quedarse."*
 
 ---
 

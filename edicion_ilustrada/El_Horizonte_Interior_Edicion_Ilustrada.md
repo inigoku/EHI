@@ -79,7 +79,7 @@ Por eso el cambio no llegó como falta, sino como extrañeza. El remo tocó fond
 
 Yo era archivista. Miraba despacio lo que aún no pedía nombre.
 
-—Antes no estaba —dijo Kema, señalando el borde oscuro bajo su casa—. El agua lo sabe.
+—Antes no estaba —dijo Kema, señalando el borde oscuro bajo su casa—. El agua lo cubría. El agua lo sabe.
 —¿Qué sabe?
 —Cuándo soltar... y cuándo quedarse.
 

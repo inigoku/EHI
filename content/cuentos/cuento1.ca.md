@@ -14,7 +14,7 @@ La ciutat flotava sobre una llacuna salabrosa tan antiga que ningú recordava un
 
 Jo era arxivista: mirava a poc a poc allò que encara no demanava nom.
 
-—Abans això no hi era —va dir la Kema un matí, assenyalant la vora fosca que havia quedat sota casa seva—. L'aigua ho sap.
+—Abans això no hi era —va dir la Kema un matí, assenyalant la vora fosca que havia quedat sota casa seva—. L'aigua ho cobria. L'aigua ho sap.
 —Què sap?
 —Quan deixar anar... i quan quedar-se.
 
