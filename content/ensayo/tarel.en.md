@@ -1,6 +1,6 @@
 ---
 title: THE HABIT OF WATER
-subtitle: (A Tale of Tarel)
+subtitle: Full version
 section: PART ONE: THE CYCLE OF THE HORIZON
 ---
 

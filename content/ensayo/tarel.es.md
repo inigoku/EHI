@@ -1,6 +1,6 @@
 ---
 title: LA COSTUMBRE DEL AGUA
-subtitle: (Cuento de Tarel)
+subtitle: Versión completa
 section: PRIMERA PARTE: EL CICLO DEL HORIZONTE
 linkedCuentosId: cuento1
 illustrationId: cuento_01

@@ -1,5 +1,6 @@
 ---
 title: THE HABIT OF WATER
+subtitle: Short version
 ---
 
 The water began to recede without warning.

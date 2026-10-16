@@ -1,6 +1,6 @@
 ---
 title: EL COSTUM DE L'AIGUA
-subtitle: (Conte de Tarel)
+subtitle: Versió completa
 section: PRIMERA PART: EL CICLE DE L'HORITZÓ
 linkedCuentosId: cuento1
 illustrationId: cuento_01
