@@ -155,6 +155,10 @@
   ],
   "chapters": [
     {
+      "id": "intro_vol2",
+      "content_file": "intros/intro_vol2.es.md"
+    },
+    {
       "id": "cap17_6_real",
       "content_file": "../content/lecturas/cap17_6_real.es.md",
       "replace": [

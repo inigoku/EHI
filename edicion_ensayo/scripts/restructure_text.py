@@ -17,7 +17,7 @@ nueva. Los capítulos que no existían antes se citan con {{n:id}}.
 import json, os, re, subprocess, sys
 from pathlib import Path
 
-BASE = "9d21b5d"
+BASE = "3a9c33a899e140d7bff16ebddcc26ac7ce450239"
 ROOT = Path(__file__).resolve().parent.parent          # edicion_ensayo/
 REPO = ROOT.parent
 LG = ("es", "ca", "en")
@@ -34,6 +34,8 @@ def toc_files(lg):
 
 
 FILES = {lg: toc_files(lg) for lg in LG}
+# Sustituciones que el TOC de la base ya aplica al texto impreso (p. ej. entradas del glosario que solo valen para la web)
+REPL = {lg: {c["id"]: c["replace"] for c in json.loads(git_show(f"edicion_ensayo/{TOCS[lg]}"))["chapters"] if c.get("replace")} for lg in LG}
 
 
 class Doc:
@@ -41,6 +43,9 @@ class Doc:
         self.lg, self.cid = lg, cid
         s = git_show(FILES[lg][cid])
         _, self.fm, body = s.split("---", 2)
+        for a, b in REPL[lg].get(cid, []):
+            assert a in body, (lg, cid, a[:50])
+            body = body.replace(a, b, 1)
         self.lead = body[: len(body) - len(body.lstrip("\n"))]
         self.trail = body[len(body.rstrip()):]
         self.p = body.strip().split("\n\n")

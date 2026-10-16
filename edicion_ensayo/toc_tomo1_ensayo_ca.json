@@ -159,8 +159,12 @@
   ],
   "uid": "urn:uuid:el-horizonte-interior-tomo1-ensayo-ca",
   "gutter_in": 0.82,
-  "body_leading": 15.4,
+  "body_leading": 15.2,
   "chapters": [
+    {
+      "id": "intro_vol1",
+      "content_file": "intros/intro_vol1.ca.md"
+    },
     {
       "id": "cap0",
       "content_file": "../content/ensayo/cap0.ca.md"
@@ -1338,7 +1342,7 @@
     },
     {
       "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.ca.md",
+      "content_file": "../content/ensayo/cap_calibracion.ca.md",
       "replace": [
         [
           "La lectura «El traductor», més endavant, estudia",
@@ -1826,12 +1830,16 @@
           "agi un dins ⟦4.0⟧).\n\n**Encaps"
         ],
         [
-          "el capítol 16",
+          "(capítols 22 i 31",
           "⟦5.0⟧"
         ],
         [
-          "(capítol 4",
+          "el capítol 16",
           "⟦6.0⟧"
+        ],
+        [
+          "capítol 4",
+          "⟦7.0⟧"
         ],
         [
           "⟦0.0⟧",
@@ -1855,11 +1863,15 @@
         ],
         [
           "⟦5.0⟧",
-          "el capítol 18"
+          "(capítols 24 i 7"
         ],
         [
           "⟦6.0⟧",
-          "(capítol 5"
+          "el capítol 18"
+        ],
+        [
+          "⟦7.0⟧",
+          "capítol 5"
         ]
       ]
     },

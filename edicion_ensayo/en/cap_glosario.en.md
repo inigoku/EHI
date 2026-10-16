@@ -90,7 +90,7 @@ chapterNumber: Glossary
 
 **Event horizon**: the boundary beyond which information cannot escape; applied to consciousness, the limit between what the system integrates and what remains outside.
 
-**Existential encapsulation**: the limit of access separating a system's private internal state from the public interface it shows the outside world; a necessary (though not sufficient) architectural condition for a system to have anything like subjectivity. Current language models lack it: every weight and every intermediate variable can be read from outside.
+**Existential encapsulation**: the architectural and physical condition that distinguishes a real subject from a mere statistical partition or Markov blanket drawn from outside: it requires an access boundary that protects a persistent internal state of its own, whose physical continuity against dissipation into the reservoir is at stake in its own dynamics. At the level of subjects, it explains why horizons form an archipelago of disjoint islands without needing to appeal to $\Phi$'s exclusion postulate; current language models lack it because their weights are fixed and exposed and they do not sustain a state of their own between calls (chapters 22 and 31).
 
 **Fanaticism**: the capture of one's own boundary by an idea, to the point that doubting it feels like dying a little; in contemplative practice, what happens when the technique continues but the silence no longer tolerates questions (*Five Ways of Doubting Aloud*, *Five Ways of Losing Your Own Edge*).
 
@@ -146,7 +146,7 @@ chapterNumber: Glossary
 
 **Phase transition**: a qualitative change in the organization of a system; in the book, it describes the birth and death of the horizon.
 
-**Phi (Φ)**: the quantity of integrated information; in the book, it measures a horizon's *degree*. Its form comes from encapsulation and its origin, from the two selections (Chapter 4).
+**Phi ($\Phi$)**: a measure of integrated information proposed by Giulio Tononi in integrated information theory (IIT): it quantifies the extent to which a system is more than the sum of its parts, that is, how much information the whole generates that none of its partitions generates separately. In the early chapters of the book it serves as an intuitive scaffold for distinguishing irreducible integration from mere aggregation and for measuring the *degree* of a horizon (its form is given by encapsulation and its origin by the two selections; chapter 4).
 
 **Protocol**: the specific code (a language, a syntax, agreed-upon signals) with which an already-condensed horizon tries to make itself known outward; sometimes it must be built, sometimes it decides who counts as someone, sometimes it must be earned (*The Protocol and the Bridge*).
 

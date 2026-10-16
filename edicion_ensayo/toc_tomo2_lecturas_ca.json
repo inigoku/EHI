@@ -161,6 +161,10 @@
   "gutter_in": 0.62,
   "chapters": [
     {
+      "id": "intro_vol2",
+      "content_file": "intros/intro_vol2.ca.md"
+    },
+    {
       "id": "cap17_6_real",
       "content_file": "../content/lecturas/cap17_6_real.ca.md",
       "replace": [

@@ -148,12 +148,16 @@
   },
   "running_title": "EL HORIZONTE INTERIOR",
   "gutter_in": 0.82,
-  "body_leading": 15.4,
+  "body_leading": 15.0,
   "uid": "urn:uuid:el-horizonte-interior-tomo1-ensayo-es",
   "credits": [
     "Primer tomo de El Horizonte Interior: el ensayo completo, de la primera a la octava parte, con el epílogo, el glosario y las notas. Las lecturas topológicas forman el segundo tomo."
   ],
   "chapters": [
+    {
+      "id": "intro_vol1",
+      "content_file": "intros/intro_vol1.es.md"
+    },
     {
       "id": "cap0",
       "content_file": "../content/ensayo/cap0.es.md"
@@ -1331,7 +1335,7 @@
     },
     {
       "id": "cap_calibracion",
-      "content_file": "../content/lecturas/cap_calibracion.es.md",
+      "content_file": "../content/ensayo/cap_calibracion.es.md",
       "replace": [
         [
           "La lectura «El traductor», más adelante, estudia",
@@ -1819,12 +1823,16 @@
           "a un dentro ⟦4.0⟧).\n\n**Encaps"
         ],
         [
-          "el capítulo 16",
+          "(capítulos 22 y 31",
           "⟦5.0⟧"
         ],
         [
-          "(capítulo 4",
+          "el capítulo 16",
           "⟦6.0⟧"
+        ],
+        [
+          "capítulo 4",
+          "⟦7.0⟧"
         ],
         [
           "⟦0.0⟧",
@@ -1848,11 +1856,15 @@
         ],
         [
           "⟦5.0⟧",
-          "el capítulo 18"
+          "(capítulos 24 y 7"
         ],
         [
           "⟦6.0⟧",
-          "(capítulo 5"
+          "el capítulo 18"
+        ],
+        [
+          "⟦7.0⟧",
+          "capítulo 5"
         ]
       ]
     },

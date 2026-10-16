@@ -79,7 +79,7 @@ export const RelationsGraph: React.FC<RelationsGraphProps> = ({
       } else if (ch.section?.includes("INTERLUDIO")) {
         color = "cyan";
       }
-
+      
       return {
         id: ch.id,
         chapterNumber: ch.chapterNumber || String(idx + 1),

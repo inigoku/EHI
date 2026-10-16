@@ -22,7 +22,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 REPO = ROOT.parent
-BASE = "9d21b5d"
+BASE = "3a9c33a899e140d7bff16ebddcc26ac7ce450239"
 LG = ("es", "ca", "en")
 SFX = {"es": "", "ca": "_ca", "en": "_en"}
 sys.path.insert(0, str(ROOT / "scripts"))
@@ -534,7 +534,7 @@ def build(lg):
     report = {}
     base_unico = prune({k: v for k, v in BASE_TOC[lg].items() if k != "chapters"})
     cfgs = {"unico": base_unico,
-            "t1": dict(prune({k: v for k, v in BASE_T1[lg].items() if k != "chapters"}), body_leading=15.4),
+            "t1": dict(prune({k: v for k, v in BASE_T1[lg].items() if k != "chapters"}), body_leading={"es": 15.0, "ca": 15.2, "en": 15.4}[lg]),
             "t2": prune({k: v for k, v in BASE_T2[lg].items() if k != "chapters"})}
     a, b = CREDITS["t1"][lg]
     c = cfgs["t1"]["credits"]; assert any(a in x for x in c), (lg, a)
@@ -547,10 +547,10 @@ def build(lg):
         rep = []
         toc = dict(cfgs[E])
         toc["chapters"] = [chapter_entry(lg, E, cid, rep) for cid in ORDER[E]]
-        if lg == "en" and E == "t1":
-            toc["chapters"].insert(0, {"id": "intro_vol1", "content_file": "en/intro_vol1.en.md"})
-        if lg == "en" and E == "t2":
-            toc["chapters"].insert(0, {"id": "intro_vol2", "content_file": "en/intro_vol2.en.md"})
+        if E in ("t1", "t2"):
+            src = (BASE_T1 if E == "t1" else BASE_T2)[lg]["chapters"][0]
+            assert src["id"] == ("intro_vol1" if E == "t1" else "intro_vol2"), (lg, E, src["id"])
+            toc["chapters"].insert(0, dict(src))
         (ROOT / names[E]).write_text(json.dumps(toc, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         report[E] = rep
         print(f"{names[E]}: {len(toc['chapters'])} capítulos, {len(rep)} remisiones")

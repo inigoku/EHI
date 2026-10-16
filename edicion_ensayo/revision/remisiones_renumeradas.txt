@@ -209,8 +209,9 @@ unico · es · cap_glosario · (capítulo 10 → (capítulo 11
 unico · es · cap_glosario · (capítulo 31 → (capítulo 7
 unico · es · cap_glosario · (capítulo 3 → (capítulo 4
 unico · es · cap_glosario · (capítulo 3 → (capítulo 4
+unico · es · cap_glosario · (capítulos 22 y 31 → (capítulos 24 y 7
 unico · es · cap_glosario · el capítulo 16 → el capítulo 18
-unico · es · cap_glosario · (capítulo 4 → (capítulo 5
+unico · es · cap_glosario · capítulo 4 → capítulo 5
 t1 · es · cap_nota_autor · El capítulo 31 → El capítulo 34
 t1 · es · cap_nota_autor · el capítulo 28 → el capítulo 33
 t1 · es · cap1 · (capítulos 6 y 23 → (capítulos 7 y 27
@@ -383,8 +384,9 @@ t1 · es · cap_glosario · (capítulo 10 → (capítulo 11
 t1 · es · cap_glosario · (capítulo 31 → (capítulo 7
 t1 · es · cap_glosario · (capítulo 3 → (capítulo 4
 t1 · es · cap_glosario · (capítulo 3 → (capítulo 4
+t1 · es · cap_glosario · (capítulos 22 y 31 → (capítulos 24 y 7
 t1 · es · cap_glosario · el capítulo 16 → el capítulo 18
-t1 · es · cap_glosario · (capítulo 4 → (capítulo 5
+t1 · es · cap_glosario · capítulo 4 → capítulo 5
 t2 · es · cap17_6_real · en el capítulo 12 → en el capítulo 13
 t2 · es · cap17_6_real · en el capítulo 4 → en el capítulo 5
 t2 · es · cap17_6_real · en el capítulo 31 → en el capítulo 7
@@ -626,8 +628,9 @@ unico · ca · cap_glosario · (capítol 10 → (capítol 11
 unico · ca · cap_glosario · (capítol 31 → (capítol 7
 unico · ca · cap_glosario · (capítol 3 → (capítol 4
 unico · ca · cap_glosario · (capítol 3 → (capítol 4
+unico · ca · cap_glosario · (capítols 22 i 31 → (capítols 24 i 7
 unico · ca · cap_glosario · el capítol 16 → el capítol 18
-unico · ca · cap_glosario · (capítol 4 → (capítol 5
+unico · ca · cap_glosario · capítol 4 → capítol 5
 t1 · ca · cap_nota_autor · El capítol 31 → El capítol 34
 t1 · ca · cap_nota_autor · el capítol 28 → el capítol 33
 t1 · ca · cap1 · (capítols 6 i 23 → (capítols 7 i 27
@@ -800,8 +803,9 @@ t1 · ca · cap_glosario · (capítol 10 → (capítol 11
 t1 · ca · cap_glosario · (capítol 31 → (capítol 7
 t1 · ca · cap_glosario · (capítol 3 → (capítol 4
 t1 · ca · cap_glosario · (capítol 3 → (capítol 4
+t1 · ca · cap_glosario · (capítols 22 i 31 → (capítols 24 i 7
 t1 · ca · cap_glosario · el capítol 16 → el capítol 18
-t1 · ca · cap_glosario · (capítol 4 → (capítol 5
+t1 · ca · cap_glosario · capítol 4 → capítol 5
 t2 · ca · cap17_6_real · al capítol 12 → al capítol 13
 t2 · ca · cap17_6_real · al capítol 4 → al capítol 5
 t2 · ca · cap17_6_real · al capítol 31 → al capítol 7
@@ -1042,8 +1046,9 @@ unico · en · cap20_real · **Note to Chapter 52** → **Note to Chapter 52**
 unico · en · cap_glosario · (Chapters 23 and 24 → (Chapters 27 and 28
 unico · en · cap_glosario · (Chapter 3 → (Chapter 4
 unico · en · cap_glosario · (Chapter 3 → (Chapter 4
+unico · en · cap_glosario · (chapters 22 and 31 → (chapters 24 and 7
 unico · en · cap_glosario · Chapter 16 → Chapter 18
-unico · en · cap_glosario · (Chapter 4 → (Chapter 5
+unico · en · cap_glosario · chapter 4 → chapter 5
 unico · en · cap_glosario · (Chapter 10 → (Chapter 11
 unico · en · cap_glosario · (Chapter 31 → (Chapter 7
 t1 · en · cap_nota_autor · Chapter 31 → Chapter 34
@@ -1217,8 +1222,9 @@ t1 · en · cap20_real · **Note to Chapter 52** → **Note to Chapter 39**
 t1 · en · cap_glosario · (Chapters 23 and 24 → (Chapters 27 and 28
 t1 · en · cap_glosario · (Chapter 3 → (Chapter 4
 t1 · en · cap_glosario · (Chapter 3 → (Chapter 4
+t1 · en · cap_glosario · (chapters 22 and 31 → (chapters 24 and 7
 t1 · en · cap_glosario · Chapter 16 → Chapter 18
-t1 · en · cap_glosario · (Chapter 4 → (Chapter 5
+t1 · en · cap_glosario · chapter 4 → chapter 5
 t1 · en · cap_glosario · (Chapter 10 → (Chapter 11
 t1 · en · cap_glosario · (Chapter 31 → (Chapter 7
 t2 · en · cap17_6_real · Chapter 12 → Chapter 13

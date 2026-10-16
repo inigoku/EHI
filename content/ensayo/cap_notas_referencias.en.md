@@ -27,6 +27,8 @@ Aron, A., & Aron, E.N. (1986). Love and the expansion of self: Understanding att
 
 Aspect, A., Dalibard, J., & Roger, G. (1982). Experimental Test of Bell's Inequalities Using Time-Varying Analyzers. *Physical Review Letters*, 49(25).
 
+Ay, N. (2001). Information Geometry on Complexity and Stochastic Interaction. *MPI MIS Preprint*, 95/2001. Published in expanded form in Ay, N. (2015), *Entropy*, 17(4), 2432–2458.
+
 Baars, B.J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
 
 Beach, T.G., et al. (2012). Circle of Willis atherosclerosis: Association with Alzheimer's disease, neuritic plaques and neurofibrillary tangles. *Acta Neuropathologica*, 123(1).
@@ -52,6 +54,8 @@ Bostrom, N. (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford Univ
 Bradshaw, J. (2017). *The Animals Among Us: How Pets Make Us Human*. Basic Books.
 
 Bredesen, D.E. (2014). Reversal of cognitive decline: A novel therapeutic program. *Aging*, 6(9).
+
+Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's New Markov Blankets. *Behavioral and Brain Sciences*, 45, e183.
 
 Casimir, H.B.G. (1948). On the Attraction Between Two Perfectly Conducting Plates. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen*, 51.
 
@@ -93,6 +97,8 @@ Fisher, H. (2004). *Why We Love: The Nature and Chemistry of Romantic Love*. Hen
 
 Friedman, J., Morris, M.S., Novikov, I.D., et al. (1990). Cauchy problem in spacetimes with closed timelike curves. *Physical Review D*, 42(6).
 
+Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
+
 Fukushima, H., Terasawa, Y., & Umeda, S. (2011). Association between interoception and empathy: Evidence from heartbeat-evoked brain potential. *International Journal of Psychophysiology*, 79(2).
 
 Godfrey-Smith, P. (2016). *Other Minds: The Octopus, the Sea, and the Deep Origins of Consciousness*. Farrar, Straus and Giroux.
@@ -113,6 +119,8 @@ Hazan, C., & Shaver, P. (1987). Romantic Love Conceptualized as an Attachment Pr
 
 Hodges, J.R., & Patterson, K. (2007). Semantic dementia and fluent primary progressive aphasia. *Brain*, 130(4).
 
+Hoel, E.P., Albantakis, L., & Tononi, G. (2013). Quantifying causal emergence shows that macro can beat micro. *Proceedings of the National Academy of Sciences*, 110(49), 19790–19795.
+
 Hossenfelder, S. (2018). *Lost in Math: How Beauty Leads Physics Astray*. Basic Books.
 
 Hume, D. (1748). *An Enquiry Concerning Human Understanding*. A. Millar.
@@ -122,6 +130,10 @@ Jung, C.G. (1951). *Aion: Researches into the Phenomenology of the Self*. Prince
 Klass, D., Silverman, P.R., & Nickman, S.L. (1996). *Continuing Bonds: New Understandings of Grief*. Taylor & Francis.
 
 Klimecki, O.M., Leiberg, S., Ricard, M., & Singer, T. (2014). Differential pattern of functional brain plasticity after compassion and empathy training. *Social Cognitive and Affective Neuroscience*, 9(6).
+
+Kraskov, A., Stögbauer, H., & Grassberger, P. (2004). Estimating mutual information. *Physical Review E*, 69(6), 066138.
+
+Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183–191.
 
 Le Bon, G. (1895). *Psychologie des foules*. Félix Alcan.
 
@@ -150,6 +162,8 @@ O'Connor, M.F. (2019). Grief: A brief history of research on how body, mind, and
 O'Sullivan, S.S., et al. (2009). Impulsive-compulsive behaviors in Parkinson's disease. *Brain*, 132(11).
 
 Oppenheimer, J.R., & Snyder, H. (1939). On Continued Gravitational Contraction. *Physical Review*, 56(5).
+
+Palacios, E.R., Razi, A., Parr, T., Kirchhoff, M., & Friston, K. (2020). On Markov blankets and hierarchical self-organisation. *Journal of Theoretical Biology*, 486, 110089.
 
 Panksepp, J. (1998). *Affective Neuroscience: The Foundations of Human and Animal Emotions*. Oxford University Press.
 

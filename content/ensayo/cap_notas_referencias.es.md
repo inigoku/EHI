@@ -39,11 +39,15 @@ Asimov, I. (1955). *The End of Eternity*. Doubleday. (Trad. esp.: *El fin de la 
 
 Aspect, A., Dalibard, J., & Roger, G. (1982). Experimental Test of Bell's Inequalities Using Time-Varying Analyzers. *Physical Review Letters*, 49(25).
 
+Ay, N. (2001). Information Geometry on Complexity and Stochastic Interaction. *MPI MIS Preprint*, 95/2001. Publicado en versión ampliada en Ay, N. (2015), *Entropy*, 17(4), 2432–2458.
+
 Baars, B.J. (1988). *A Cognitive Theory of Consciousness*. Cambridge University Press.
 
 Bailey, J.M., & Pillard, R.C. (1991). A Genetic Study of Male Sexual Orientation. *Archives of General Psychiatry*, 48(12).
 
 Bekenstein, J.D. (1973). Black Holes and Entropy. *Physical Review D*, 7(8).
+
+Bekenstein, J.D. (1981). Universal upper bound on the entropy-to-energy ratio for bounded systems. *Physical Review D*, 23(2).
 
 Bekoff, M. (2007). *The Emotional Lives of Animals*. New World Library.
 
@@ -63,6 +67,8 @@ Bostrom, N. (2014). *Superintelligence: Paths, Dangers, Strategies*. Oxford Univ
 
 Bradshaw, J. (2017). *The Animals Among Us: How Pets Make Us Human*. Basic Books.
 
+Bruineberg, J., Dolega, K., Dewhurst, J., & Baltieri, M. (2022). The Emperor's New Markov Blankets. *Behavioral and Brain Sciences*, 45, e183.
+
 Burke, S. (2018). *Semiosis*. Tor Books.
 
 Casimir, H.B.G. (1948). On the Attraction Between Two Perfectly Conducting Plates. *Proceedings of the Koninklijke Nederlandse Akademie van Wetenschappen*, 51.
@@ -78,6 +84,8 @@ Coan, J.A., & Beckes, L. (2011). Social baseline theory. In: *Handbook of Person
 Coan, J.A., & Sbarra, D.A. (2015). Social baseline theory: The social regulation of risk and effort. *Current Opinion in Psychology*, 1.
 
 Coeckelbergh, M. (2023). *La filosofía política de la inteligencia artificial*. Cátedra.
+
+Coffman, V., Kundu, J., & Wootters, W.K. (2000). Distributed entanglement. *Physical Review A*, 61(5).
 
 Colapinto, J. (2000). *As Nature Made Him: The Boy Who Was Raised as a Girl*. HarperCollins.
 
@@ -143,6 +151,12 @@ Forsythe, A., Williams, T., & Reilly, R.G. (2017). What paint can tell us: A fra
 
 Friedman, J., Morris, M.S., Novikov, I.D., et al. (1990). Cauchy problem in spacetimes with closed timelike curves. *Physical Review D*, 42(6).
 
+Friston, K. (2010). The free-energy principle: a unified brain theory? *Nature Reviews Neuroscience*, 11(2), 127–138.
+
+Friston, K. (2013). Life as we know it. *Journal of The Royal Society Interface*, 10(86).
+
+Friston, K., Wiese, W., & Hobson, J.A. (2020). Sentience and the origins of consciousness: From Cartesian duality to Markovian monism. *Entropy*, 22(5).
+
 Fukushima, H., Terasawa, Y., & Umeda, S. (2011). Association between interoception and empathy: Evidence from heartbeat-evoked brain potential. *International Journal of Psychophysiology*, 79(2).
 
 Ganna, A., et al. (2019). Large-scale GWAS reveals insights into the genetic architecture of same-sex sexual behavior. *Science*, 365(6456).
@@ -171,6 +185,8 @@ Hasson, U., et al. (2012). Brain-to-brain coupling: A mechanism for sharing and 
 
 Hawking, S.W. (1974). Black Hole Explosions? *Nature*, 248(5443).
 
+Hawking, S.W. (1975). Particle creation by black holes. *Communications in Mathematical Physics*, 43(3).
+
 Hawking, S.W. (1992). Chronology protection conjecture. *Physical Review D*, 46(2).
 
 Hawking, S.W., Perry, M.J., & Strominger, A. (2016). Soft Hair on Black Holes. *Physical Review Letters*, 116(23).
@@ -181,9 +197,13 @@ Hazan, C., & Shaver, P. (1987). Romantic Love Conceptualized as an Attachment Pr
 
 Hesse, H. (1922). *Siddhartha*.
 
+Hoel, E.P., Albantakis, L., & Tononi, G. (2013). Quantifying causal emergence shows that macro can beat micro. *Proceedings of the National Academy of Sciences*, 110(49), 19790–19795.
+
 Hume, D. (1748). *An Enquiry Concerning Human Understanding*. A. Millar.
 
 Imperato-McGinley, J., Guerrero, L., Gautier, T., & Peterson, R.E. (1974). Steroid 5α-Reductase Deficiency in Man: An Inherited Form of Male Pseudohermaphroditism. *Science*, 186(4170).
+
+Itti, L., & Baldi, P. (2009). Bayesian surprise attracts human attention. *Vision Research*, 49(10).
 
 Jackson, R.R., & Cross, F.R. (2011). Spider cognition. *Advances in Insect Physiology*, 41.
 
@@ -191,9 +211,13 @@ Jacobsen, J.-H., et al. (2015). Why musical memory can be preserved in advanced 
 
 Jung, C.G. (1951). *Aion: Researches into the Phenomenology of the Self*. Princeton University Press.
 
+Kadanoff, L.P. (1966). Scaling laws for Ising models near T_c. *Physics Physique Fizika*, 2(6).
+
 Kant, I. (1790). *Kritik der Urteilskraft*. Lagarde und Friederich. (Trad. esp.: *Crítica del juicio*).
 
 Kinsey, A.C., Pomeroy, W.B., & Martin, C.E. (1948). *Sexual Behavior in the Human Male*. W.B. Saunders.
+
+Kirchhoff, M., Parr, T., Palacios, E., Friston, K., & Kiverstein, J. (2018). The Markov blankets of life: autonomy, active inference and the free energy principle. *Journal of The Royal Society Interface*, 15(138).
 
 Kitwood, T. (1997). *Dementia Reconsidered: The Person Comes First*. Open University Press.
 
@@ -205,7 +229,13 @@ Klimecki, O.M., Leiberg, S., Ricard, M., & Singer, T. (2014). Differential patte
 
 Koestler, A. (1940). *Darkness at Noon*. (Trad. esp.: *El cero y el infinito*).
 
+Kraskov, A., Stögbauer, H., & Grassberger, P. (2004). Estimating mutual information. *Physical Review E*, 69(6), 066138.
+
 Kuratowski, K. (1922). Sur l'opération Ā de l'Analysis Situs. *Fundamenta Mathematicae*, 3.
+
+Landauer, R. (1961). Irreversibility and Heat Generation in the Computing Process. *IBM Journal of Research and Development*, 5(3), 183–191.
+
+Laukkonen, R.E., & Slagter, H.A. (2021). From many to (n)one: Meditation and the plasticity of the predictive mind. *Neuroscience & Biobehavioral Reviews*, 128.
 
 Le Bon, G. (1895). *Psychologie des foules*. Félix Alcan.
 
@@ -230,6 +260,8 @@ Lutz, A., Greischar, L.L., Rawlings, N.B., Ricard, M., & Davidson, R.J. (2004). 
 Maldacena, J. (1998). The Large N limit of superconformal field theories and supergravity. *Advances in Theoretical and Mathematical Physics*, 2.
 
 Maldacena, J., & Susskind, L. (2013). Cool horizons for entangled black holes. *Fortschritte der Physik*, 61(9).
+
+Maldacena, J., Shenker, S.H., & Stanford, D. (2016). A bound on chaos. *Journal of High Energy Physics*, 2016(8).
 
 Mandelbrot, B.B. (1982). *The Fractal Geometry of Nature*. W.H. Freeman.
 
@@ -257,23 +289,35 @@ O'Sullivan, S.S., et al. (2009). Impulsive-compulsive behaviors in Parkinson's d
 
 Oizumi, M., Albantakis, L., & Tononi, G. (2014). From the phenomenology to the mechanisms of consciousness: Integrated Information Theory 3.0. *PLoS Computational Biology*, 10(5).
 
+Oizumi, M., Tsuchiya, N., & Amari, S. (2016). Unified framework for information integration based on information geometry. *Proceedings of the National Academy of Sciences*, 113(51).
+
 Oppenheimer, J.R., & Snyder, H. (1939). On Continued Gravitational Contraction. *Physical Review*, 56(5).
 
 Orwell, G. (1949). *Nineteen Eighty-Four*. Secker & Warburg. (Trad. esp.: *1984*).
 
 Otto, R. (1917). *Das Heilige*. (Trad. esp.: *Lo santo*).
 
+Page, D.N. (1993). Average entropy of a subsystem. *Physical Review Letters*, 71(9).
+
 Page, D.N. (1993). Information in black hole radiation. *Physical Review Letters*, 71(23).
+
+Palacios, E.R., Razi, A., Parr, T., Kirchhoff, M., & Friston, K. (2020). On Markov blankets and hierarchical self-organisation. *Journal of Theoretical Biology*, 486, 110089.
 
 Panksepp, J. (1998). *Affective Neuroscience: The Foundations of Human and Animal Emotions*. Oxford University Press.
 
 Parnas, D.L. (1972). On the criteria to be used in decomposing systems into modules. *Communications of the ACM*, 15(12).
+
+Parr, T., Pezzulo, G., & Friston, K.J. (2022). *Active Inference: The Free Energy Principle in Mind, Brain, and Behavior*. MIT Press.
+
+Pearl, J. (1988). *Probabilistic Reasoning in Intelligent Systems*. Morgan Kaufmann.
 
 Perarnau, M. (2014). *Herr Pep*.
 
 Pettigrew, T.F., & Tropp, L.R. (2006). A meta-analytic test of intergroup contact theory. *Journal of Personality and Social Psychology*, 90(5).
 
 Poincaré, H. (1890). Sur le problème des trois corps et les équations de la dynamique. *Acta Mathematica*, 13.
+
+Prigogine, I. (1977). *Time, Structure and Fluctuations*. Conferencia con motivo del Premio Nobel de Química.
 
 Richardson, J. (1991–2007). *A Life of Picasso* (3 vols.). Random House.
 
@@ -294,6 +338,8 @@ Sacks, O. (1973). *Awakenings*. Duckworth.
 Sacks, O. (2007). *Musicophilia: Tales of Music and the Brain*. Knopf. (Trad. esp.: *Musicofilia*, Anagrama, 2009).
 
 Sax, L. (2002). How common is intersex? A response to Anne Fausto-Sterling. *Journal of Sex Research*, 39(3).
+
+Schrödinger, E. (1944). *What Is Life? The Physical Aspect of the Living Cell*. Cambridge University Press. (Trad. esp.: *¿Qué es la vida?*, Tusquets).
 
 Schwarzschild, K. (1916). Über das Gravitationsfeld eines Massenpunktes nach der Einsteinschen Theorie. *Sitzungsberichte der Königlich Preussischen Akademie der Wissenschaften*, 189–196.
 
@@ -351,6 +397,8 @@ Tuan, Y.-F. (1974). *Topophilia: A Study of Environmental Perception, Attitudes,
 
 Turban, J.L., Beckwith, N., Reisner, S.L., & Keuroghlian, A.S. (2020). Association Between Recalled Exposure to Gender Identity Conversion Efforts and Psychological Distress and Suicide Attempts Among Transgender Adults. *JAMA Psychiatry*, 77(1).
 
+Unruh, W.G. (1976). Notes on black-hole evaporation. *Physical Review D*, 14(4).
+
 van der Kolk, B. (2014). *The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma*. Viking.
 
 Van Raamsdonk, M. (2010). Building up spacetime with quantum entanglement. *General Relativity and Gravitation*, 42(10).
@@ -360,6 +408,8 @@ Vilsmeier, J.K., Kossmeier, M., Voracek, M., & Tran, U.S. (2023). The fraternal 
 Volkow, N.D., et al. (2016). Neurobiologic Advances from the Brain Disease Model of Addiction. *New England Journal of Medicine*, 374(4).
 
 Vonnegut, K. (1969). *Slaughterhouse-Five*. Delacorte Press. (Trad. esp.: *Matadero cinco*).
+
+Watanabe, S. (1960). Information theoretical analysis of multivariate correlation. *IBM Journal of Research and Development*, 4(1).
 
 Wegner, D.M. (1987). Transactive Memory: A Contemporary Analysis of the Group Mind. En B. Mullen y G.R. Goethals (eds.), *Theories of Group Behavior*. Springer.
 

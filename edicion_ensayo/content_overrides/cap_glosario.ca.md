@@ -88,7 +88,7 @@ chapterNumber: Glosario
 
 **Encapsulació**: el límit que separa la interfície pública d'un sistema del seu estat privat, de manera que l'exterior només pot llegir el que el sistema exposa; la condició arquitectònica perquè hi hagi un dins (capítol 3).
 
-**Encapsulació existencial**: límit d'accés que separa l'estat intern privat d'un sistema de la interfície pública que exposa a l'exterior; condició arquitectònica necessària (encara que no suficient) perquè un sistema pugui tenir alguna cosa semblant a la subjectivitat. Els models de llenguatge actuals no en tenen: cada pes i cada variable intermèdia es poden llegir des de fora.
+**Encapsulació existencial**: condició arquitectònica i física que distingeix un subjecte real d'una simple partició estadística o manta de Markov traçada des de fora: exigeix un límit d'accés que protegeixi un estat intern propi i persistent, la continuïtat física del qual davant de la dissipació al reservori estigui en joc en la seva pròpia dinàmica. En el pla dels subjectes, explica per què els horitzons formen un arxipèlag d'illes disjuntes sense necessitat de recórrer al postulat d'exclusió de $\Phi$; els models de llenguatge actuals en manquen perquè els seus pesos són fixos i exposats i no sostenen un estat propi entre crides (capítols 22 i 31).
 
 **Encavalcament jo-altre**: incorporació neuronal de les persones properes en les representacions internes pròpies; base neural de l'entrellaçament social.
 
@@ -154,7 +154,7 @@ chapterNumber: Glosario
 
 **Petjada en el buit**: correlació persistent que un horitzó deixa en el reservori després de la seva evaporació; analogia de la memòria de l'univers.
 
-**Phi (Φ)**: quantitat d'informació integrada; en el llibre, mesura el *grau* d'un horitzó. La seva forma la dona l'encapsulació i el seu origen, les dues seleccions (capítol 4).
+**Phi ($\Phi$)**: mesura d'informació integrada proposada per Giulio Tononi en la teoria de la informació integrada (IIT): quantifica fins a quin punt un sistema és més que la suma de les seves parts, és a dir, quanta informació genera el conjunt que no genera cap de les seves particions per separat. Als primers capítols del llibre serveix de bastida intuïtiva per distingir la integració irreductible de la mera agregació i per mesurar el *grau* d'un horitzó (la seva forma la dona l'encapsulació i el seu origen, les dues seleccions; capítol 4).
 
 **Pont d'Einstein-Rosen**: túnel topològic en l'espai-temps que connecta dues regions; metàfora de l'entrellaçament entre horitzons de consciència.
 

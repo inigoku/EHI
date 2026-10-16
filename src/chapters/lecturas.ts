@@ -36,7 +36,6 @@ const ORDER = [
   "cap_historia_relevo",
   "cap_traductor",
   "cap_lenguaje_entrelazamiento",
-  "cap_calibracion",
   "cap_maquina_tiempo",
   "cap_horizonte_prestado",
   // Lecturas de los cuatro últimos libros

@@ -40,6 +40,10 @@
   },
   "chapters": [
     {
+      "id": "intro_vol3",
+      "content_file": "intro_vol3.es.md"
+    },
+    {
       "id": "cuento0",
       "content_file": "../content/cuentos/cuento0.es.md"
     },

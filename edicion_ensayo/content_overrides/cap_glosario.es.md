@@ -84,7 +84,7 @@ chapterNumber: Glosario
 
 **Encapsulación**: el límite que separa la interfaz pública de un sistema de su estado privado, de modo que el exterior solo puede leer lo que el sistema expone; la condición arquitectónica para que haya un dentro (capítulo 3).
 
-**Encapsulación existencial**: límite de acceso que separa el estado interno privado de un sistema de la interfaz pública que expone al exterior; condición arquitectónica necesaria (aunque no suficiente) para que un sistema pueda tener algo parecido a la subjetividad. Los modelos de lenguaje actuales carecen de ella: cada peso y cada variable intermedia pueden leerse desde fuera.
+**Encapsulación existencial**: condición arquitectónica y física que distingue a un sujeto real de una simple partición estadística o manta de Markov trazada desde fuera: exige un límite de acceso que proteja un estado interno propio y persistente cuya continuidad física frente a la disipación en el reservorio esté en juego en su propia dinámica. En el plano de los sujetos, explica por qué los horizontes forman un archipiélago de islas disjuntas sin necesidad de recurrir al postulado de exclusión de $\Phi$; los modelos de lenguaje actuales carecen de ella porque sus pesos están fijos y expuestos y no sostienen un estado propio entre llamadas (capítulos 22 y 31).
 
 **Entrelazamiento cuántico**: correlación entre dos sistemas que comparten geometría, de modo que sus interiores están conectados aunque sus exteriores estén separados.
 
@@ -146,7 +146,7 @@ chapterNumber: Glosario
 
 **Permeabilidad del horizonte**: cuánta señal ajena deja pasar un horizonte hacia dentro; el grosor de la piel emocional que el capítulo 16 asocia a la empatía y al desgaste empático.
 
-**Phi (Φ)**: cantidad de información integrada; en el libro, mide el *grado* de un horizonte. Su forma la da la encapsulación y su origen, las dos selecciones (capítulo 4).
+**Phi ($\Phi$)**: medida de información integrada propuesta por Giulio Tononi en la teoría de la información integrada (IIT): cuantifica hasta qué punto un sistema es más que la suma de sus partes, es decir, cuánta información genera el conjunto que no genera ninguna de sus particiones por separado. En los primeros capítulos del libro sirve de andamio intuitivo para distinguir la integración irreducible de la mera agregación y para medir el *grado* de un horizonte (su forma la da la encapsulación y su origen, las dos selecciones; capítulo 4).
 
 **Principio holográfico**: idea de que toda la información contenida en un volumen puede describirse por una teoría definida en su frontera.
 
