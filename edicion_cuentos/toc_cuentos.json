@@ -50,7 +50,8 @@
     {
       "id": "cuento1",
       "content_file": "../content/cuentos/cuento1.es.md",
-      "illustration": "cuento_01"
+      "illustration": "cuento_01",
+      "subtitle": ""
     },
     {
       "id": "cuento_ladron",

@@ -27,30 +27,6 @@
     "il_cart_narciso": "../src/assets/images/il_cart_narciso.jpg",
     "cart_relojes": "imagenes/cart_relojes.jpg",
     "cartografia_eco_p1": "../src/assets/images/cartografia_eco/pagina1.jpg",
-    "cuento_01": "../src/assets/images/cuentos/01_tarel_inicio.png",
-    "cuento_02": "../src/assets/images/cuentos/03_burbuja.png",
-    "cuento_03": "../src/assets/images/cuentos/04_nino.png",
-    "cuento_04": "../src/assets/images/cuentos/05_red_nombres.png",
-    "cuento_05": "../src/assets/images/cuentos/06_casa_respiraba.png",
-    "cuento_06": "../src/assets/images/cuentos/07_maquina.png",
-    "cuento_07": "../src/assets/images/cuentos/08_huesped.png",
-    "cuento_08": "../src/assets/images/cuentos/09_puentes.png",
-    "cuento_09": "../src/assets/images/cuentos/11_musica.png",
-    "cuento_10": "../src/assets/images/cuentos/12_cuerda.png",
-    "cuento_11": "../src/assets/images/cuentos/13_ciudad.png",
-    "cuento_12": "../src/assets/images/cuentos/14_reloj.png",
-    "cuento_13": "../src/assets/images/cuentos/15_sala.png",
-    "cuento_14": "../src/assets/images/cuentos/16_perros.png",
-    "cuento_agua_retira": "../src/assets/images/cuentos/02_tarel_mitad.png",
-    "cuento_eq": "../src/assets/images/cuentos/17_el_que_queda.png",
-    "cuento_int": "../src/assets/images/cuentos/10_borde_interludio.png",
-    "cuento_ladron": "../src/assets/images/ilustracion_ladron.png",
-    "cuento_luthier": "../src/assets/images/ilustracion_luthier.png",
-    "cuento_m87": "../src/assets/images/cuentos/19_M87_puente.png",
-    "cuento_mussara": "../src/assets/images/cuentos/ilustracion_mussara.png",
-    "cuento_segundo_cuaderno": "../src/assets/images/cuentos/segundo_cuaderno.png",
-    "cuento_sintonizadores": "../src/assets/images/cuentos/20_sintonizadores.png",
-    "cuento_txiki": "../src/assets/images/cuentos/18_txiki_cierre.png",
     "epilogo": "../src/assets/images/epilogo.jpg",
     "il01": "../src/assets/images/ilustracion_01_sin_texto.jpg",
     "il02": "../src/assets/images/ilustracion_02.png",
@@ -87,7 +63,6 @@
     "il_cinco_mapas": "../src/assets/images/ilustracion_cinco_mapas_sin_texto.jpg",
     "il_clon": "../src/assets/images/ilustracion_17_6.png",
     "il_diapason": "../src/assets/images/libros/il_diapason.png",
-    "il_el_que_queda": "../src/assets/images/ilustracion_eq.png",
     "il_epilogo": "../src/assets/images/epilogo.jpg",
     "il_espejo": "../src/assets/images/libros/il_espejo.png",
     "il_fractal": "../src/assets/images/libros/il_fractal.png",
@@ -180,7 +155,7 @@
   "dedication": "To whoever stayed on the shore<br/>when the water withdrew.",
   "colophon": "This volume was set in type<br/>having proven nothing,<br/>exactly as planned from the first page.",
   "credits": [
-    "Second volume of The Inner Horizon: fourteen readings that carry the essay's ideas into fiction, film, sport and everyday life. References to chapters point to the first volume, The Inner Horizon. Essay."
+    "Second volume of The Inner Horizon: thirteen readings that carry the essay's ideas into fiction, film, sport and everyday life. References to chapters point to the first volume, The Inner Horizon. Essay."
   ],
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-en",
   "gutter_in": 0.62,
@@ -194,8 +169,68 @@
       "content_file": "en/cap17_6_real.en.md",
       "replace": [
         [
+          "This book's",
+          "The essay's"
+        ],
+        [
+          "this book",
+          "the essay"
+        ],
+        [
+          "Chapter 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "resented in Chapter 31, the equine",
+          "resented in ⟦2.0⟧, the equine"
+        ],
+        [
+          "s we saw in Chapter 26. Cambiaso, ",
+          "s we saw in ⟦3.0⟧. Cambiaso, "
+        ],
+        [
           "**Note to Chapter 37**",
+          "⟦4.0⟧"
+        ],
+        [
+          "(Chapter 31",
+          "⟦5.0⟧"
+        ],
+        [
+          "(Chapter 26",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "Chapter 29"
+        ],
+        [
+          "⟦4.0⟧",
           "**Note to Reading 1**"
+        ],
+        [
+          "⟦5.0⟧",
+          "(Chapter 7"
+        ],
+        [
+          "⟦6.0⟧",
+          "(Chapter 29"
         ]
       ],
       "chapter_number": 1,
@@ -206,11 +241,39 @@
       "content_file": "en/cap_blade_runner.en.md",
       "replace": [
         [
+          "this book's",
+          "the essay's"
+        ],
+        [
+          "Chapter 4",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 31",
+          "⟦1.0⟧"
+        ],
+        [
           "Chapter 37",
-          "Reading 1"
+          "⟦2.0⟧"
         ],
         [
           "**Note to Chapter 38**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 5"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "Reading 1"
+        ],
+        [
+          "⟦3.0⟧",
           "**Note to Reading 2**"
         ]
       ],
@@ -218,11 +281,19 @@
       "section": ""
     },
     {
-      "id": "cap17_7_alien",
-      "content_file": "en/cap17_7_alien.en.md",
+      "id": "cap_maquina_tiempo",
+      "content_file": "en/cap_maquina_tiempo.en.md",
       "replace": [
         [
-          "**Note to Chapter 39**",
+          "this book",
+          "the essay"
+        ],
+        [
+          "**Note to Chapter 47**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Note to Reading 3**"
         ]
       ],
@@ -230,11 +301,23 @@
       "section": ""
     },
     {
-      "id": "cap_three_body",
-      "content_file": "en/cap_three_body.en.md",
+      "id": "cap_horizonte_prestado",
+      "content_file": "en/cap_horizonte_prestado.en.md",
       "replace": [
         [
-          "**Note to Chapter 40**",
+          "this book",
+          "the essay"
+        ],
+        [
+          "This book",
+          "The essay"
+        ],
+        [
+          "**Note to Chapter 48**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Note to Reading 4**"
         ]
       ],
@@ -242,11 +325,23 @@
       "section": ""
     },
     {
-      "id": "cap17_8_cosmic",
-      "content_file": "en/cap17_8_cosmic.en.md",
+      "id": "cap_three_body",
+      "content_file": "en/cap_three_body.en.md",
       "replace": [
         [
-          "**Note to Chapter 41**",
+          "This book's",
+          "The essay's"
+        ],
+        [
+          "this book",
+          "the essay"
+        ],
+        [
+          "**Note to Chapter 40**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Note to Reading 5**"
         ]
       ],
@@ -254,15 +349,211 @@
       "section": ""
     },
     {
-      "id": "cap_matrix",
-      "content_file": "en/cap_matrix.en.md",
+      "id": "cap17_8_cosmic",
+      "content_file": "en/cap17_8_cosmic.en.md",
       "replace": [
         [
-          "**Note to Chapter 42**",
+          "this book",
+          "the essay"
+        ],
+        [
+          "This book",
+          "The essay"
+        ],
+        [
+          "Chapter 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Note to Chapter 41**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 6"
+        ],
+        [
+          "⟦1.0⟧",
           "**Note to Reading 6**"
         ]
       ],
       "chapter_number": 6,
+      "section": ""
+    },
+    {
+      "id": "cap_matrix",
+      "content_file": "en/cap_matrix.en.md",
+      "replace": [
+        [
+          "this book's",
+          "the essay's"
+        ],
+        [
+          "Throughout the book",
+          "Throughout the essay"
+        ],
+        [
+          "Chapter 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Note to Chapter 42**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Note to Reading 7**"
+        ]
+      ],
+      "chapter_number": 7,
+      "section": ""
+    },
+    {
+      "id": "cap_lenguaje_entrelazamiento",
+      "content_file": "en/cap_lenguaje_entrelazamiento.en.md",
+      "replace": [
+        [
+          "this book's",
+          "the essay's"
+        ],
+        [
+          "this book",
+          "the essay"
+        ],
+        [
+          "This book",
+          "The essay"
+        ],
+        [
+          "(Chapter 39",
+          "⟦0.0⟧"
+        ],
+        [
+          "e models in Chapter 31, though for",
+          "e models in ⟦1.0⟧, though for"
+        ],
+        [
+          "Chapter 21",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Note to Chapter 46**",
+          "⟦3.0⟧"
+        ],
+        [
+          "now:** That Chapter 4's criterion",
+          "now:** That ⟦4.0⟧'s criterion"
+        ],
+        [
+          "escribed in Chapter 31. Whether in",
+          "escribed in ⟦5.0⟧. Whether in"
+        ],
+        [
+          "Chapter 45",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(Chapter 35"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 34"
+        ],
+        [
+          "⟦2.0⟧",
+          "Chapter 23"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Note to Reading 8**"
+        ],
+        [
+          "⟦4.0⟧",
+          "Chapter 5"
+        ],
+        [
+          "⟦5.0⟧",
+          "Chapter 34"
+        ],
+        [
+          "⟦6.0⟧",
+          "Reading 12"
+        ]
+      ],
+      "chapter_number": 8,
+      "section": ""
+    },
+    {
+      "id": "cap_diapason_invisible",
+      "content_file": "en/cap_diapason_invisible.en.md",
+      "replace": [
+        [
+          "this book",
+          "the essay"
+        ],
+        [
+          "\nChapter 28 called vert",
+          "\n⟦0.0⟧ called vert"
+        ],
+        [
+          "on its own. Chapter 28 showed that",
+          "on its own. ⟦1.0⟧ showed that"
+        ],
+        [
+          "**Note to Chapter 29**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 33"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Note to Reading 9**"
+        ]
+      ],
+      "chapter_number": 9,
+      "section": ""
+    },
+    {
+      "id": "cap_ojo_un_solo_color",
+      "content_file": "en/cap_ojo_un_solo_color.en.md",
+      "replace": [
+        [
+          "Chapter 27",
+          "⟦0.0⟧"
+        ],
+        [
+          "Chapter 25",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Note to Chapter 30**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "Chapter 30"
+        ],
+        [
+          "⟦1.0⟧",
+          "Chapter 31"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Note to Reading 10**"
+        ]
+      ],
+      "chapter_number": 10,
       "section": ""
     },
     {
@@ -271,62 +562,10 @@
       "replace": [
         [
           "**Note to Chapter 43**",
-          "**Note to Reading 7**"
-        ]
-      ],
-      "chapter_number": 7,
-      "section": ""
-    },
-    {
-      "id": "cap_historia_relevo",
-      "content_file": "en/cap_historia_relevo.en.md",
-      "replace": [
-        [
-          "**Note to Chapter 44**",
-          "**Note to Reading 8**"
-        ]
-      ],
-      "chapter_number": 8,
-      "section": ""
-    },
-    {
-      "id": "cap_traductor",
-      "content_file": "en/cap_traductor.en.md",
-      "replace": [
-        [
-          "**Note to Chapter 45**",
-          "**Note to Reading 9**"
-        ]
-      ],
-      "chapter_number": 9,
-      "section": ""
-    },
-    {
-      "id": "cap_lenguaje_entrelazamiento",
-      "content_file": "en/cap_lenguaje_entrelazamiento.en.md",
-      "replace": [
-        [
-          "(Chapter 39)",
-          "(Reading 3)"
+          "⟦0.0⟧"
         ],
         [
-          "Chapter 45)",
-          "Reading 9)"
-        ],
-        [
-          "**Note to Chapter 46**",
-          "**Note to Reading 10**"
-        ]
-      ],
-      "chapter_number": 10,
-      "section": ""
-    },
-    {
-      "id": "cap_maquina_tiempo",
-      "content_file": "en/cap_maquina_tiempo.en.md",
-      "replace": [
-        [
-          "**Note to Chapter 47**",
+          "⟦0.0⟧",
           "**Note to Reading 11**"
         ]
       ],
@@ -334,11 +573,23 @@
       "section": ""
     },
     {
-      "id": "cap_horizonte_prestado",
-      "content_file": "en/cap_horizonte_prestado.en.md",
+      "id": "cap_traductor",
+      "content_file": "en/cap_traductor.en.md",
       "replace": [
         [
-          "**Note to Chapter 48**",
+          "this book",
+          "the essay"
+        ],
+        [
+          "This book",
+          "The essay"
+        ],
+        [
+          "**Note to Chapter 45**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Note to Reading 12**"
         ]
       ],
@@ -346,35 +597,23 @@
       "section": ""
     },
     {
-      "id": "cap_realidad_fractal",
-      "content_file": "en/cap_realidad_fractal.en.md",
+      "id": "cap_historia_relevo",
+      "content_file": "en/cap_historia_relevo.en.md",
       "replace": [
         [
-          "**Note to Chapter 49**",
+          "this book's",
+          "the essay's"
+        ],
+        [
+          "**Note to Chapter 44**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Note to Reading 13**"
         ]
       ],
       "chapter_number": 13,
-      "section": ""
-    },
-    {
-      "id": "cap_nave_de_barro",
-      "content_file": "en/cap_nave_de_barro.en.md",
-      "replace": [
-        [
-          "Chapter 41",
-          "Reading 5"
-        ],
-        [
-          "Chapter 47",
-          "Reading 11"
-        ],
-        [
-          "**Note to Chapter 50**",
-          "**Note to Reading 14**"
-        ]
-      ],
-      "chapter_number": 14,
       "section": ""
     }
   ]

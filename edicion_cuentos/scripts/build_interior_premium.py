@@ -762,7 +762,7 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         body = re.sub(r"(?:\s*^---\s*)+\Z", "\n", body, flags=re.MULTILINE)
 
         title = chapter.get("title") or frontmatter.get("title") or chapter["id"]
-        subtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
+        subtitle = chapter["subtitle"] if "subtitle" in chapter else frontmatter.get("subtitle")
         section = chapter.get("section") or frontmatter.get("section")
         chapter_number = frontmatter.get("chapterNumber")
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")

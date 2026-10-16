@@ -4,9 +4,10 @@ section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
 chapterNumber: Epílogo
 illustrationId: il_orilla
 illustrationTitle: La orilla
-illustrationDescription: La misma vista de Tarel que al principio, pero ahora el agua ha vuelto. Pilotes húmedos, cuerdas oxidadas, barcas podridas. El agua tiene color distinto, textura distinta. El archivista, ahora viejo, en el muelle. Manos abiertas, vacías. En el agua, reflejos que no corresponden al cielo: correlaciones del scrambling, huellas de Tarel.
+illustrationDescription: La orilla de la ciudad, ahora con el agua de vuelta. Pilotes húmedos, cuerdas oxidadas, barcas podridas. El agua tiene color distinto, textura distinta. El archivista, ahora viejo, en el muelle. Manos abiertas, vacías. En el agua, reflejos que no corresponden al cielo: correlaciones del scrambling, huellas de la ciudad.
 ---
 
+*Había una ciudad junto a un agua que se retiró, y un archivista que guardó lo que el agua dejó.*  
 *El agua regresó de noche. Sin anuncio. Sin señales.*  
 *Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos.*  
 *Nadie supo decir si el agua había traído algo consigo.*  

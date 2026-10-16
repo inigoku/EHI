@@ -78,7 +78,7 @@ The archivist takes notes and leaves hollows. The hollows are part of the archiv
 
 ### Closing Note
 
-Tarel and the one who remains are the same experiment told from two extremes: the water that leaves and what remains when it is no longer there. In between, twenty variations on the same question.
+Tarel and the one who remains are the same experiment told from two extremes: the water that leaves and what remains when it is no longer there. In between, and around them, all the other variations on the same question.
 
 The question does not have a single answer. It has many small, partial answers, contradictory among themselves. That too is an answer.
 

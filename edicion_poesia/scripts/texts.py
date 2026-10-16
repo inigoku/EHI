@@ -22,8 +22,7 @@ TEXTS = {
             "qué queda cuando el agua del otro lado se retira.",
 
             "Cada poema abre en página impar, con su ilustración enfrente. Las láminas "
-            "vienen de las ediciones ilustrada y de cámara de la obra, y al final se "
-            "relacionan una a una.",
+            "se relacionan una a una al final del volumen.",
 
             "No hace falta haber leído *El Horizonte Interior* para leer esto. Hace "
             "falta, como mucho, haberse quedado alguna vez en una orilla mirando el "
@@ -47,10 +46,6 @@ TEXTS = {
             "dedicado a Montse y a Gerard, por aguantarle todos los días con una "
             "sonrisa. Varios de los poemas de este volumen llevan sus nombres, o los "
             "llevan sin decirlo.",
-
-            "La obra completa —ensayo, cuentos, poemas, edición joven y las "
-            "ilustraciones de las que salen estas láminas— puede leerse también en su "
-            "versión interactiva.",
         ],
         "illustrations_title": "Las ilustraciones",
         "about_title": "Sobre esta antología",
@@ -62,8 +57,8 @@ TEXTS = {
             f"<p>Los veintiún poemas y el glosario proceden de la sección de poesía "
             f"de El Horizonte Interior y se reproducen aquí en el orden en que la "
             f"obra los presenta.</p>"
-            f"<p>Las ilustraciones proceden de las ediciones ilustrada y de cámara "
-            f"de la misma obra. Al final del volumen se relacionan una a una.</p>"
+            f"<p>Las ilustraciones pertenecen a la misma obra. Al final del volumen "
+            f"se relacionan una a una.</p>"
             f"<p>Compuesto en Source Serif Pro.</p>"
             f"<p>ISBN: 9798175383530</p>"
         ),
@@ -87,7 +82,6 @@ TEXTS = {
         "kicker": "Antología poética de El Horizonte Interior",
         "anthology_label": "Antología poética",
         "essay_title": "El Horizonte Interior",
-        "interactive_version_label": "Versión interactiva:",
         "source_from_label": "de",
         "title_lines": ["Ecos en", "el borde"],
         "cover_suffix": "cubierta",
@@ -124,8 +118,7 @@ TEXTS = {
             "queda quan l'aigua de l'altre costat es retira.",
 
             "Cada poema obre en pàgina senar, amb la seva il·lustració davant. Les "
-            "làmines provenen de les edicions il·lustrada i de cambra de l'obra, i "
-            "al final es relacionen una a una.",
+            "làmines es relacionen una a una al final del volum.",
 
             "No cal haver llegit *L'Horitzó Interior* per llegir això. Cal, com a molt, "
             "haver-se quedat alguna vegada a una vora mirant l'aigua anar-se'n, sense saber "
@@ -149,10 +142,6 @@ TEXTS = {
             "dedicat a Montse i a Gerard, per aguantar-li tots els dies amb un "
             "somriure. Diversos dels poemes d'aquest volum porten els seus noms, o els "
             "porten sense dir-ho.",
-
-            "L'obra completa —assaig, contes, poemes, edició jove i les "
-            "il·lustracions de les quals surten aquestes làmines— pot llegir-se també en la seva "
-            "versió interactiva.",
         ],
         "illustrations_title": "Les il·lustracions",
         "about_title": "Sobre aquesta antologia",
@@ -164,8 +153,8 @@ TEXTS = {
             f"<p>Els vint-i-un poemes i el glossari provenen de la secció de poesia "
             f"de L'Horitzó Interior i es reprodueixen aquí en l'ordre en què l'obra els "
             f"presenta.</p>"
-            f"<p>Les il·lustracions provenen de les edicions il·lustrada i de cambra "
-            f"de la mateixa obra. Al final del volum es relacionen una a una.</p>"
+            f"<p>Les il·lustracions pertanyen a la mateixa obra. Al final del volum "
+            f"es relacionen una a una.</p>"
             f"<p>Compost en Source Serif Pro.</p>"
             f"<p>ISBN: 9798175383530</p>"
         ),
@@ -189,7 +178,6 @@ TEXTS = {
         "kicker": "Antologia poètica de L'Horitzó Interior",
         "anthology_label": "Antologia poètica",
         "essay_title": "L'Horitzó Interior",
-        "interactive_version_label": "Versió interactiva:",
         "source_from_label": "de",
         "title_lines": ["Ecos a", "la vora"],
         "cover_suffix": "coberta",
@@ -233,7 +221,7 @@ TEXTS = {
 
             '**This volume.** This is the fourth volume, and the shortest. The essay argues, the readings test and the tales narrate; the poems inhabit. They do not defend the hypothesis. They ask what it feels like to stand inside a boundary, what hurts when it cracks, and what remains when the water on the other side recedes. Twenty-one poems and an intimate glossary, in three books, close the work.',
 
-            "Each poem opens on an odd-numbered page, facing its illustration. The plates come from the work's illustrated and chamber editions, and are listed one by one at the end.",
+            "Each poem opens on an odd-numbered page, facing its illustration. The plates are listed one by one at the end of the volume.",
 
             'You do not need to have read the other volumes to read this one. At most, you need to have once stood on a shore watching the water leave, not knowing if it would return, and not knowing what it might bring back.',
         ],
@@ -256,10 +244,6 @@ TEXTS = {
             "dedicated to Montse and to Gerard, for putting up with him every day with "
             "a smile. Several of the poems in this volume carry their names, or carry "
             "them without saying so.",
-
-            "The complete work — essay, stories, poems, young edition, and the "
-            "illustrations these plates are drawn from — can also be read in its "
-            "interactive version.",
         ],
         "illustrations_title": "The Illustrations",
         "about_title": "About This Volume",
@@ -271,8 +255,8 @@ TEXTS = {
             f"<p>The twenty-one poems and the glossary come from the poetry section "
             f"of The Inner Horizon and are reproduced here in the order the work "
             f"presents them.</p>"
-            f"<p>The illustrations come from the illustrated and chamber editions of "
-            f"the same work. They are listed one by one at the end of the volume.</p>"
+            f"<p>The illustrations belong to the same work. They are listed one by one "
+            f"at the end of the volume.</p>"
             f"<p>Set in Source Serif Pro.</p>"
             f"<p>ISBN: [pending assignment]</p>"
         ),
@@ -296,7 +280,6 @@ TEXTS = {
         "kicker": "Twenty-one poems and an intimate glossary",
         "anthology_label": "A poetry anthology",
         "essay_title": "The Inner Horizon",
-        "interactive_version_label": "Interactive version:",
         "source_from_label": "from",
         "title_lines": ["The Inner", "Horizon"],
         "cover_suffix": "cover",

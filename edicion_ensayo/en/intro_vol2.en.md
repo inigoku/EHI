@@ -20,6 +20,6 @@ The volumes are independent. Each can be read alone and in any order, and none a
 
 ### This volume
 
-This is the second volume. The essay proposes a way of looking, and the readings look. Its fourteen readings take the hypothesis out of the first volume and set it against things that were made without it, from a replicant's last words to three painters and a football relay. Each is short enough for one sitting and closes with a note that separates what is known from what is not.
+This is the second volume. The essay proposes a way of looking, and the readings look. Its thirteen readings take the hypothesis out of the first volume and set it against things that were made without it, from a replicant's last words to three painters and a football relay. Each is short enough for one sitting and closes with a note that separates what is known from what is not.
 
 Some readings confirm the hypothesis and some strain it, and the strain is reported. References to chapters point back to Volume I, where the ideas are first built. You can read these pages without it, though you will meet its vocabulary (horizon, entanglement, resonance, Phi) as words already in use.

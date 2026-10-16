@@ -65,7 +65,7 @@ except AttributeError:
 
 FRONTMATTER_RE = re.compile(r"\A---\r?\n(.*?)\r?\n---\r?\n?(.*)\Z", re.DOTALL)
 INLINE_ILLUS_RE = re.compile(
-    r'^##\s*\[(?:ILUSTRACI[ÓO]N|ILLUSTRATION)\s*([\w.]*)?:?\s*"([^"]+)"\]', re.IGNORECASE)
+    r'^##\s*\[(?:ILUSTRACI[ÓO]N?|IL[·.]?LUSTRACI[ÓO]N?|ILLUSTRATION)\s*([\w.]*)?:?\s*["«“]([^"»”]+)["»”]\]', re.IGNORECASE)
 
 # Illustration ids for real, copyrighted or public-domain works reproduced under
 # quotation right (derecho de cita) — these are the only ones whose caption

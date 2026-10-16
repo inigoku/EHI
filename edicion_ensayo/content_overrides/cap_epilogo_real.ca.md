@@ -4,9 +4,10 @@ section: QUARTA PART: EL LÍMIT DE L'EXPERIMENT
 chapterNumber: Epílogo
 illustrationId: il_orilla
 illustrationTitle: La riba
-illustrationDescription: La mateixa vista de Tarel que al principi, però ara l'aigua ha tornat. Pilots humits, cordes oxidades, barques podrides. L'aigua té un color diferent, una textura diferent. L'arxivista, ara vell, al moll. Mans obertes, buides. A l'aigua, reflexos que no corresponen al cel: correlacions de l'scrambling, petjades de Tarel.
+illustrationDescription: La vora de la ciutat, ara amb l'aigua de tornada. Pilots humits, cordes oxidades, barques podrides. L'aigua té un color diferent, una textura diferent. L'arxivista, ara vell, al moll. Mans obertes, buides. A l'aigua, reflexos que no corresponen al cel: correlacions de l'scrambling, petjades de la ciutat.
 ---
 
+*Hi havia una ciutat vora una aigua que es va retirar, i un arxivista que va guardar el que l'aigua va deixar.*  
 *L'aigua va tornar de nit. Sense avís. Sense senyals.*  
 *Al matí els habitants van trobar la riba on sempre havia estat. El mateix llot. Les mateixes pedres. La mateixa línia de sal als murs baixos.*  
 *Ningú no va saber dir si l'aigua havia portat res amb ella.*  

@@ -1,5 +1,6 @@
 ---
 title: EL COSTUM DE L'AIGUA
+subtitle: Versió breu
 linkedChapterId: tarel
 illustrationId: cuento_01
 illustrationTitle: Tarel abans de l'aigua

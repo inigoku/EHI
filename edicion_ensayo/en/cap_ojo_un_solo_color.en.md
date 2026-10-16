@@ -1,5 +1,5 @@
 ---
-title: THE COLLECTIVE HORIZON
+title: FIVE WAYS OF LOSING YOUR OWN EDGE
 subtitle: (The one-colored eye: on political belonging and fanaticism)
 section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 30
@@ -9,11 +9,7 @@ illustrationTitle: The one-colored eye
 illustrationDescription: A crowd seen from above, dyed entirely the same color, arranged so that it forms a single giant eye looking at the viewer. At the edge of the iris, a lone figure of another color is beginning to step out of the picture.
 ---
 
-As we saw in Chapter 27, an adopted idea is not stored like an object: it becomes an organizing principle, the criterion by which the horizon evaluates any new information. What this chapter asks is what happens when the idea that organizes the horizon points not upward, toward a reservoir or a horizon of origin, but sideways: toward thousands of horizons that do not know one another and share, without ever having met, the same configuration.
-
-That is a political movement before it has a name, a leader or a flag. Before condensation there is only scattered discontent: thousands of grievances without a common boundary, a reservoir of disorganized indignation. Condensation happens when something (an image, a phrase, an injustice caught on video) suddenly draws an edge: this is what we demand, this is who we are, this is the line that separates us from those who don't share the demand. It is a discontinuous phase transition, like the one that separates liquid water from ice: the discontent was dissolved, "liquid," and suddenly it freezes into a shape with edges.
-
-A newly condensed collective horizon is fragile, like any newborn horizon. It can dissolve again into the reservoir of diffuse discontent it came from, if the edge that defined it does not hold, or it can consolidate, become entangled with other horizons (parties, unions, existing institutions) and survive long beyond the generation that condensed it.
+As we saw in Chapter 27, an adopted idea is not stored like an object: it becomes an organizing principle, the criterion by which the horizon evaluates any new information. Chapter 25 called collective horizon what condenses when thousands of horizons that do not know one another share, without ever having met, the same configuration. What this reading asks is what happens when the idea that organizes the horizon points not upward, toward a reservoir or a horizon of origin, but sideways, toward that collective horizon.
 
 Software design has a vocabulary for distinguishing kinds of relationship that turns out to be surprisingly precise here. An association is the most basic relationship: two horizons know each other, cooperate on something specific, and their life cycles are independent; voting once for a party, without one's identity depending on that vote, is an association. An aggregation is a whole-part relationship in which the parts survive the dissolution of the whole: belonging to a party, a union or a movement and remaining completely oneself if that structure disappears tomorrow. A composition is the strongest relationship of belonging: the life cycle of the part is inextricably bound to that of the whole. When the collective horizon becomes a composition, the boundary between "I" and "we" stops being a metaphor. If the party loses, something inside me loses; if the movement dissolves, something inside me dissolves with it. What remains is no longer an individual with a political opinion, but a part that cannot survive the destruction of the whole on its own.
 

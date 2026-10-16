@@ -7,7 +7,7 @@ illustrationTitle: L'evaporació
 illustrationDescription: Un llac que s'evapora. L'aigua puja com a vapor amb forma de rostres, cases, arbres —memòries que es dissolen. Al cel, núvols amb patrons que no són aleatoris.
 ---
 
-> *L'aigua va tornar de nit. Sense avís. Sense senyals. Al matí els habitants van trobar la vora on sempre havia estat. El mateix fang. Les mateixes pedres. La mateixa línia de sal als murs baixos. Ningú va saber dir si l'aigua havia portat res amb ella. Ningú va saber dir si havia deixat res enrere.*
+> *Hi havia una ciutat vora una aigua que es va retirar, i un arxivista que va guardar el que l'aigua va deixar. L'aigua va tornar de nit. Sense avís. Sense senyals. Al matí els habitants van trobar la vora on sempre havia estat. El mateix fang. Les mateixes pedres. La mateixa línia de sal als murs baixos. Ningú va saber dir si l'aigua havia portat res amb ella. Ningú va saber dir si havia deixat res enrere.*
 
 Stephen Hawking va descobrir el 1974 que els forats negres no són eterns. Res no els destrueix des de fora: el buit quàntic, pertorbat per l'horitzó, genera un flux constant de radiació que els va drenant la massa. La temperatura d'aquesta radiació és inversament proporcional a la massa: com més petit és el forat negre, més calent i més brillant. L'evaporació s'accelera a si mateixa.
 
@@ -35,6 +35,10 @@ Durant gairebé quaranta anys, aquesta paradoxa va ser el problema més famós d
 
 La solució que avui sembla més probable, tot i que no està demostrada, és que la informació no es destrueix en desaparèixer l'horitzó, sinó que pateix un procés d'*scrambling*: es dispersa i s'entrellaça de manera irreversible amb l'entorn exterior, perdent la seva coherència local però romanent conservada globalment en la física del reservori.
 
+Aquesta conservació té calendari. Durant la primera meitat de la vida del forat negre, la radiació de Hawking és tèrmica: porta una entropia creixent i cap correlació recuperable amb allò que hi va caure. Passat l'anomenat *temps de Page*, més o menys a la meitat d'aquesta vida, la radiació deixa de ser pur soroll: cada partícula que s'escapa queda entrellaçada també amb la que va sortir abans, i el que emet l'horitzó ja no és només pèrdua, sinó correlació. Per això la pregunta pel que queda té dues respostes segons el moment: mentre l'horitzó és en la seva primera meitat, res no creua la seva frontera de tornada; només després comença a haver-hi, en principi, alguna cosa llegible.
+
+> **En física, això s'anomena:** temps de Page, el punt de l'evaporació a partir del qual l'entropia de la radiació deixa de créixer i comença a disminuir.
+
 ### En les seves últimes fraccions de segon
 
 En les seves últimes fraccions de segon, la temperatura es dispara. L'horitzó minva i la frontera entre el dins i el fora es torna cada cop més tènue, fins que, en el règim de Planck, la física semiclàssica deixa de valer i el que passa a continuació, senzillament, es desconeix.
@@ -53,7 +57,7 @@ La resposta original de Hawking era brutal: sí, la informació es perd; l'horit
 
 La majoria dels físics va rebutjar aquesta conclusió. La unitarietat (la informació no pot destruir-se, només transformar-se) és massa central per abandonar-la. En les últimes dècades la balança s'ha inclinat cap a la conservació.
 
-El mecanisme més elegant és ER=EPR: les partícules que produeix l'evaporació no es limiten a sortir radiades cap a l'exterior, sinó que segueixen entrellaçades amb l'interior de l'horitzó mitjançant ponts d'Einstein-Rosen, connexions geomètriques microscòpiques que fan de l'exterior i l'interior, en un sentit profund, el mateix sistema descrit des de dues perspectives.
+El mecanisme més elegant és ER=EPR (la conjectura que el capítol 11 presenta amb més calma): les partícules que produeix l'evaporació no es limiten a sortir radiades cap a l'exterior, sinó que segueixen entrellaçades amb l'interior de l'horitzó mitjançant ponts d'Einstein-Rosen, connexions geomètriques microscòpiques que fan de l'exterior i l'interior, en un sentit profund, el mateix sistema descrit des de dues perspectives.
 
 El resultat pràctic és l'**scrambling**: la informació que l'horitzó contenia es barreja progressivament i irreversiblement amb el camp exterior.
 

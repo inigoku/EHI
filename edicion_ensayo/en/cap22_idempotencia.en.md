@@ -7,6 +7,8 @@ illustrationTitle: The idempotence of being
 illustrationDescription: An archipelago seen from above, islands of different sizes joined by fine bridges of golden light over a dark sea that is, in turn, the reservoir from which the islands condense.
 ---
 
+*This chapter and the next make up the formal part of the book: the topology that underlies everything before it and the thought experiments that test it. Whoever prefers to follow the thread without the technical detail can go straight to the fifth part.*
+
 ## I. The wave and its edge
 
 Where does a wave end?

@@ -4,9 +4,10 @@ section: PART FOUR: THE LIMIT OF THE EXPERIMENT
 chapterNumber: Epilogue
 illustrationId: il_orilla
 illustrationTitle: The shore
-illustrationDescription: The same view of Tarel as at the beginning, but now the water has returned. Wet pilings, rusted ropes, rotten boats. The water has a different color, a different texture. The archivist, now old, on the dock. Open hands, empty. In the water, reflections that do not match the sky: correlations of the scrambling, traces of Tarel.
+illustrationDescription: The shore of the city, now with the water returned. Wet pilings, rusted ropes, rotten boats. The water has a different color, a different texture. The archivist, now old, on the dock. Open hands, empty. In the water, reflections that do not match the sky: correlations of the scrambling, traces of the city.
 ---
 
+*There was a city beside a water that withdrew, and an archivist who kept what the water left behind.*  
 *The water came back at night. Without announcement. Without signs.*  
 *In the morning the inhabitants found the shore where it had always been. The same mud. The same stones. The same salt line on the low walls.*  
 *No one could say whether the water had brought anything with it.*  

@@ -94,6 +94,7 @@ export const cuentosList: Chapter[] = ORDER.map((id) => {
   if (enRaw) {
     const en = parseFrontmatter(enRaw);
     chapter.titleEn = en.data.title;
+    if (en.data.subtitle) chapter.subtitleEn = en.data.subtitle;
     chapter.contentEn = en.content;
   }
 
@@ -101,6 +102,7 @@ export const cuentosList: Chapter[] = ORDER.map((id) => {
   if (caRaw) {
     const ca = parseFrontmatter(caRaw);
     chapter.titleCa = ca.data.title;
+    if (ca.data.subtitle) chapter.subtitleCa = ca.data.subtitle;
     chapter.contentCa = ca.content;
   }
 

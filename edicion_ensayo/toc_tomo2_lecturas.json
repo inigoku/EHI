@@ -27,30 +27,6 @@
     "il_cart_narciso": "../src/assets/images/il_cart_narciso.jpg",
     "cart_relojes": "imagenes/cart_relojes.jpg",
     "cartografia_eco_p1": "../src/assets/images/cartografia_eco/pagina1.jpg",
-    "cuento_01": "../src/assets/images/cuentos/01_tarel_inicio.png",
-    "cuento_02": "../src/assets/images/cuentos/03_burbuja.png",
-    "cuento_03": "../src/assets/images/cuentos/04_nino.png",
-    "cuento_04": "../src/assets/images/cuentos/05_red_nombres.png",
-    "cuento_05": "../src/assets/images/cuentos/06_casa_respiraba.png",
-    "cuento_06": "../src/assets/images/cuentos/07_maquina.png",
-    "cuento_07": "../src/assets/images/cuentos/08_huesped.png",
-    "cuento_08": "../src/assets/images/cuentos/09_puentes.png",
-    "cuento_09": "../src/assets/images/cuentos/11_musica.png",
-    "cuento_10": "../src/assets/images/cuentos/12_cuerda.png",
-    "cuento_11": "../src/assets/images/cuentos/13_ciudad.png",
-    "cuento_12": "../src/assets/images/cuentos/14_reloj.png",
-    "cuento_13": "../src/assets/images/cuentos/15_sala.png",
-    "cuento_14": "../src/assets/images/cuentos/16_perros.png",
-    "cuento_agua_retira": "../src/assets/images/cuentos/02_tarel_mitad.png",
-    "cuento_eq": "../src/assets/images/cuentos/17_el_que_queda.png",
-    "cuento_int": "../src/assets/images/cuentos/10_borde_interludio.png",
-    "cuento_ladron": "../src/assets/images/ilustracion_ladron.png",
-    "cuento_luthier": "../src/assets/images/ilustracion_luthier.png",
-    "cuento_m87": "../src/assets/images/cuentos/19_M87_puente.png",
-    "cuento_mussara": "../src/assets/images/cuentos/ilustracion_mussara.png",
-    "cuento_segundo_cuaderno": "../src/assets/images/cuentos/segundo_cuaderno.png",
-    "cuento_sintonizadores": "../src/assets/images/cuentos/20_sintonizadores.png",
-    "cuento_txiki": "../src/assets/images/cuentos/18_txiki_cierre.png",
     "epilogo": "../src/assets/images/epilogo.jpg",
     "il01": "../src/assets/images/ilustracion_01.png",
     "il02": "../src/assets/images/ilustracion_02.png",
@@ -87,7 +63,6 @@
     "il_cinco_mapas": "../src/assets/images/ilustracion_cinco_mapas.jpg",
     "il_clon": "../src/assets/images/ilustracion_17_6.png",
     "il_diapason": "../src/assets/images/libros/il_diapason.png",
-    "il_el_que_queda": "../src/assets/images/ilustracion_eq.png",
     "il_epilogo": "../src/assets/images/epilogo.jpg",
     "il_espejo": "../src/assets/images/libros/il_espejo.png",
     "il_fractal": "../src/assets/images/libros/il_fractal.png",
@@ -176,7 +151,7 @@
   "gutter_in": 0.62,
   "uid": "urn:uuid:el-horizonte-interior-tomo2-lecturas-es",
   "credits": [
-    "Segundo tomo de El Horizonte Interior: catorce lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
+    "Segundo tomo de El Horizonte Interior: trece lecturas que llevan las ideas del ensayo a la ficción, el cine, el deporte y la vida cotidiana. Las referencias a capítulos remiten al primer tomo, El Horizonte Interior. Ensayo."
   ],
   "chapters": [
     {
@@ -188,8 +163,64 @@
       "content_file": "../content/lecturas/cap17_6_real.es.md",
       "replace": [
         [
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "en el capítulo 12",
+          "⟦0.0⟧"
+        ],
+        [
+          "en el capítulo 4",
+          "⟦1.0⟧"
+        ],
+        [
+          "en el capítulo 31",
+          "⟦2.0⟧"
+        ],
+        [
+          "en el capítulo 26",
+          "⟦3.0⟧"
+        ],
+        [
           "**Nota al Capítulo 37**",
+          "⟦4.0⟧"
+        ],
+        [
+          "(capítulo 31",
+          "⟦5.0⟧"
+        ],
+        [
+          "(capítulo 26",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 13"
+        ],
+        [
+          "⟦1.0⟧",
+          "en el capítulo 5"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítulo 7"
+        ],
+        [
+          "⟦3.0⟧",
+          "en el capítulo 29"
+        ],
+        [
+          "⟦4.0⟧",
           "**Nota a la lectura 1**"
+        ],
+        [
+          "⟦5.0⟧",
+          "(capítulo 7"
+        ],
+        [
+          "⟦6.0⟧",
+          "(capítulo 29"
         ]
       ],
       "chapter_number": 1,
@@ -200,11 +231,39 @@
       "content_file": "../content/lecturas/cap_blade_runner.es.md",
       "replace": [
         [
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "en el capítulo 4",
+          "⟦0.0⟧"
+        ],
+        [
+          "del capítulo 31",
+          "⟦1.0⟧"
+        ],
+        [
           "En el capítulo 37",
-          "En la lectura 1"
+          "⟦2.0⟧"
         ],
         [
           "**Nota al Capítulo 38**",
+          "⟦3.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 5"
+        ],
+        [
+          "⟦1.0⟧",
+          "del capítulo 7"
+        ],
+        [
+          "⟦2.0⟧",
+          "En la lectura 1"
+        ],
+        [
+          "⟦3.0⟧",
           "**Nota a la lectura 2**"
         ]
       ],
@@ -212,11 +271,19 @@
       "section": ""
     },
     {
-      "id": "cap17_7_alien",
-      "content_file": "content_overrides/cap17_7_alien.es.md",
+      "id": "cap_maquina_tiempo",
+      "content_file": "../content/lecturas/cap_maquina_tiempo.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 39**",
+          "este libro",
+          "el ensayo"
+        ],
+        [
+          "**Nota al Capítulo 47**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Nota a la lectura 3**"
         ]
       ],
@@ -224,11 +291,23 @@
       "section": ""
     },
     {
-      "id": "cap_three_body",
-      "content_file": "../content/lecturas/cap_three_body.es.md",
+      "id": "cap_horizonte_prestado",
+      "content_file": "../content/lecturas/cap_horizonte_prestado.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 40**",
+          "este libro",
+          "el ensayo"
+        ],
+        [
+          "Este libro",
+          "El ensayo"
+        ],
+        [
+          "**Nota al Capítulo 48**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Nota a la lectura 4**"
         ]
       ],
@@ -236,11 +315,23 @@
       "section": ""
     },
     {
-      "id": "cap17_8_cosmic",
-      "content_file": "content_overrides/cap17_8_cosmic.es.md",
+      "id": "cap_three_body",
+      "content_file": "../content/lecturas/cap_three_body.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 41**",
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "este libro",
+          "el ensayo"
+        ],
+        [
+          "**Nota al Capítulo 40**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Nota a la lectura 5**"
         ]
       ],
@@ -248,15 +339,215 @@
       "section": ""
     },
     {
-      "id": "cap_matrix",
-      "content_file": "../content/lecturas/cap_matrix.es.md",
+      "id": "cap17_8_cosmic",
+      "content_file": "content_overrides/cap17_8_cosmic.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 42**",
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "En la tercera parte del libro",
+          "En la tercera parte del ensayo"
+        ],
+        [
+          "Este libro",
+          "El ensayo"
+        ],
+        [
+          "En el capítulo 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 41**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "En el capítulo 6"
+        ],
+        [
+          "⟦1.0⟧",
           "**Nota a la lectura 6**"
         ]
       ],
       "chapter_number": 6,
+      "section": ""
+    },
+    {
+      "id": "cap_matrix",
+      "content_file": "../content/lecturas/cap_matrix.es.md",
+      "replace": [
+        [
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "A lo largo del libro",
+          "A lo largo del ensayo"
+        ],
+        [
+          "En el capítulo 5",
+          "⟦0.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 42**",
+          "⟦1.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "En el capítulo 6"
+        ],
+        [
+          "⟦1.0⟧",
+          "**Nota a la lectura 7**"
+        ]
+      ],
+      "chapter_number": 7,
+      "section": ""
+    },
+    {
+      "id": "cap_lenguaje_entrelazamiento",
+      "content_file": "content_overrides/cap_lenguaje_entrelazamiento.es.md",
+      "replace": [
+        [
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "este libro",
+          "el ensayo"
+        ],
+        [
+          "Este libro",
+          "El ensayo"
+        ],
+        [
+          "(capítulo 39",
+          "⟦0.0⟧"
+        ],
+        [
+          "de lenguaje en el capítulo 31, aunque por",
+          "de lenguaje ⟦1.0⟧, aunque por"
+        ],
+        [
+          "en el capítulo 21",
+          "⟦2.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 46**",
+          "⟦3.0⟧"
+        ],
+        [
+          "del capítulo 4",
+          "⟦4.0⟧"
+        ],
+        [
+          "al descrito en el capítulo 31. Si la teor",
+          "al descrito ⟦5.0⟧. Si la teor"
+        ],
+        [
+          "en el capítulo 45",
+          "⟦6.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "(capítulo 35"
+        ],
+        [
+          "⟦1.0⟧",
+          "en el capítulo 34"
+        ],
+        [
+          "⟦2.0⟧",
+          "en el capítulo 23"
+        ],
+        [
+          "⟦3.0⟧",
+          "**Nota a la lectura 8**"
+        ],
+        [
+          "⟦4.0⟧",
+          "del capítulo 5"
+        ],
+        [
+          "⟦5.0⟧",
+          "en el capítulo 34"
+        ],
+        [
+          "⟦6.0⟧",
+          "en la lectura 12"
+        ]
+      ],
+      "chapter_number": 8,
+      "section": ""
+    },
+    {
+      "id": "cap_diapason_invisible",
+      "content_file": "content_overrides/cap_diapason_invisible.es.md",
+      "replace": [
+        [
+          "este libro",
+          "el ensayo"
+        ],
+        [
+          "\nEl capítulo 28 llamó entre",
+          "\n⟦0.0⟧ llamó entre"
+        ],
+        [
+          " «debería». El capítulo 28 mostró que ",
+          " «debería». ⟦1.0⟧ mostró que "
+        ],
+        [
+          "**Nota al Capítulo 29**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "El capítulo 33"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítulo 33"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota a la lectura 9**"
+        ]
+      ],
+      "chapter_number": 9,
+      "section": ""
+    },
+    {
+      "id": "cap_ojo_un_solo_color",
+      "content_file": "content_overrides/cap_ojo_un_solo_color.es.md",
+      "replace": [
+        [
+          "en el capítulo 27",
+          "⟦0.0⟧"
+        ],
+        [
+          "El capítulo 25",
+          "⟦1.0⟧"
+        ],
+        [
+          "**Nota al Capítulo 30**",
+          "⟦2.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
+          "en el capítulo 30"
+        ],
+        [
+          "⟦1.0⟧",
+          "El capítulo 31"
+        ],
+        [
+          "⟦2.0⟧",
+          "**Nota a la lectura 10**"
+        ]
+      ],
+      "chapter_number": 10,
       "section": ""
     },
     {
@@ -265,62 +556,10 @@
       "replace": [
         [
           "**Nota al Capítulo 43**",
-          "**Nota a la lectura 7**"
-        ]
-      ],
-      "chapter_number": 7,
-      "section": ""
-    },
-    {
-      "id": "cap_historia_relevo",
-      "content_file": "../content/lecturas/cap_historia_relevo.es.md",
-      "replace": [
-        [
-          "**Nota al Capítulo 44**",
-          "**Nota a la lectura 8**"
-        ]
-      ],
-      "chapter_number": 8,
-      "section": ""
-    },
-    {
-      "id": "cap_traductor",
-      "content_file": "../content/lecturas/cap_traductor.es.md",
-      "replace": [
-        [
-          "**Nota al Capítulo 45**",
-          "**Nota a la lectura 9**"
-        ]
-      ],
-      "chapter_number": 9,
-      "section": ""
-    },
-    {
-      "id": "cap_lenguaje_entrelazamiento",
-      "content_file": "../content/lecturas/cap_lenguaje_entrelazamiento.es.md",
-      "replace": [
-        [
-          "en el capítulo 45)",
-          "en la lectura 9)"
+          "⟦0.0⟧"
         ],
         [
-          "(capítulo 39)",
-          "(lectura 3)"
-        ],
-        [
-          "**Nota al Capítulo 46**",
-          "**Nota a la lectura 10**"
-        ]
-      ],
-      "chapter_number": 10,
-      "section": ""
-    },
-    {
-      "id": "cap_maquina_tiempo",
-      "content_file": "../content/lecturas/cap_maquina_tiempo.es.md",
-      "replace": [
-        [
-          "**Nota al Capítulo 47**",
+          "⟦0.0⟧",
           "**Nota a la lectura 11**"
         ]
       ],
@@ -328,11 +567,23 @@
       "section": ""
     },
     {
-      "id": "cap_horizonte_prestado",
-      "content_file": "../content/lecturas/cap_horizonte_prestado.es.md",
+      "id": "cap_traductor",
+      "content_file": "../content/lecturas/cap_traductor.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 48**",
+          "este libro",
+          "el ensayo"
+        ],
+        [
+          "Este libro",
+          "El ensayo"
+        ],
+        [
+          "**Nota al Capítulo 45**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Nota a la lectura 12**"
         ]
       ],
@@ -340,39 +591,23 @@
       "section": ""
     },
     {
-      "id": "cap_realidad_fractal",
-      "content_file": "../content/lecturas/cap_realidad_fractal.es.md",
+      "id": "cap_historia_relevo",
+      "content_file": "../content/lecturas/cap_historia_relevo.es.md",
       "replace": [
         [
-          "**Nota al Capítulo 49**",
+          "de este libro",
+          "del ensayo"
+        ],
+        [
+          "**Nota al Capítulo 44**",
+          "⟦0.0⟧"
+        ],
+        [
+          "⟦0.0⟧",
           "**Nota a la lectura 13**"
         ]
       ],
       "chapter_number": 13,
-      "section": ""
-    },
-    {
-      "id": "cap_nave_de_barro",
-      "content_file": "../content/lecturas/cap_nave_de_barro.es.md",
-      "replace": [
-        [
-          "en el capítulo 41",
-          "en la lectura 5"
-        ],
-        [
-          "el capítulo 47",
-          "la lectura 11"
-        ],
-        [
-          "el capítulo 41",
-          "la lectura 5"
-        ],
-        [
-          "**Nota al Capítulo 50**",
-          "**Nota a la lectura 14**"
-        ]
-      ],
-      "chapter_number": 14,
       "section": ""
     }
   ]

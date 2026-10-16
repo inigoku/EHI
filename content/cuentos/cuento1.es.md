@@ -1,5 +1,6 @@
 ---
 title: LA COSTUMBRE DEL AGUA
+subtitle: Versión breve
 linkedChapterId: tarel
 illustrationId: cuento_01
 illustrationTitle: Tarel antes del agua

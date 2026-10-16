@@ -20,6 +20,6 @@ Els toms són independents. Cadascun es pot llegir sol i en qualsevol ordre, i c
 
 ### Aquest tom
 
-És el primer tom, i el que porta el pes. Enuncia la hipòtesi i la construeix en quatre parts: com sorgeix, viu i es dissol un horitzó; què passa quan dos horitzons comparteixen una geometria; els casos difícils, des de la malaltia i els animals fins a les ments artificials, la fe i la política; i, finalment, el que l'experiment no pot dir i per a què serveix tot i això. Té trenta-nou capítols numerats, un epíleg, un glossari i notes.
+És el primer tom, i el que porta el pes. Enuncia la hipòtesi i la construeix en vuit parts: com sorgeix, viu i es dissol un horitzó; què passa quan dos horitzons comparteixen una geometria; què passa quan un horitzó es trenca, i què és el subjecte; el marc formal, que es pot saltar; l'horitzó més enllà de la persona, en els animals, els llocs, les idees i la injustícia; l'horitzó a una altra escala, en la religió, les ments artificials i la vida extraterrestre; dues hipòtesis de l'autor; i, finalment, el que l'experiment no pot dir i per a què serveix tot i això. Té trenta-nou capítols numerats, un epíleg, un glossari i notes.
 
 No cal saber física per llegir-lo. El primer capítol es va escriure per a un lector que no en sap gens. Els altres tres toms s'hi recolzen i t'hi remeten per a l'argument, però cap no és un resum ni una glossa. Allà on aquest tom argumenta, els altres porten l'argument a una altra banda per veure si es manté.

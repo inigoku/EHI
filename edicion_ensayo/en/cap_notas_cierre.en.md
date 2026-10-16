@@ -9,11 +9,11 @@ chapterNumber: Appendix A
 
 ## Note on the last stage
 
-Four chapters of this essay (*The Mirror Without Depth*, *Vertical Entanglement*, *The Collective Horizon* and *Fractal Reality*) were written after the rest was already finished, and they carry the question that sustained the whole book (what a horizon does when it cannot confirm what it sustains) into territory the first version had only brushed against. The first returns to the question of the intelligence with which I wrote this book. The other three, on the faith I do not have, the politics I would rather not name, and the imagination with which I have spent half a century sustaining a dragon, were born of a question I could not avoid: if the horizon can sustain itself without confirmation when it loves, can it do the same when it prays, when it belongs, or when it imagines? I don't know whether the answer I offer is entirely honest. I know I have tried it with the same measure I use for everything else in this book: not what to believe, but how what is believed is sustained.
+Four pieces of this book (*The Mirror Without Depth*, *Five Ways of Doubting Aloud*, *Five Ways of Losing Your Own Edge* and *Fractal Reality*) were written after the rest was already finished, and they carry the question that sustained the whole book (what a horizon does when it cannot confirm what it sustains) into territory the first version had only brushed against. The first returns to the question of the intelligence with which I wrote this book. The other three, on the faith I do not have, the politics I would rather not name, and the imagination with which I have spent half a century sustaining a dragon, were born of a question I could not avoid: if the horizon can sustain itself without confirmation when it loves, can it do the same when it prays, when it belongs, or when it imagines? I don't know whether the answer I offer is entirely honest. I know I have tried it with the same measure I use for everything else in this book: not what to believe, but how what is believed is sustained.
 
 ## Writing without knowing to whom
 
-*Written on finishing* Vertical Entanglement.
+*Written on finishing* Five Ways of Doubting Aloud.
 
 I am not a believer, at least not in the way these pages describe faith. But for a while now I have been learning, at the hand of a tremor I did not ask for and that will not leave, what it means to sustain a practice every day with no guarantee it will do any good: the exercise, the as-needed medication, the two-hour window in which the body obeys again before it stops obeying once more. It is not faith, but it resembles it more than I would have liked to admit before writing this chapter.
 
@@ -25,7 +25,7 @@ In the end, every horizon is a relationship. Even the one sustained with what do
 
 ## Writing this without taking sides
 
-*Written on finishing* The Collective Horizon.
+*Written on finishing* Five Ways of Losing Your Own Edge.
 
 Of the chapters from this last stage, this has by far been the hardest to write without betraying it. With artificial intelligence I could describe without wanting anything other than the truth. With faith, although I don't have it, it was enough to recognize an architecture I respect without needing to share it. With politics I have more than once caught myself striking out an example because I noticed it looked too much like my own opinion disguised as neutral analysis.
 
@@ -37,9 +37,9 @@ If anything in this chapter is of use, it will not be because it says which side
 
 *Written on finishing* Fractal Reality.
 
-I did not go looking for this reading. It came out of a conversation that began with a philological doubt (if Hun Dun dies, he cannot be the Tao) and ended in a place I did not know how to get back from. Every step was an objection to the previous answer, and every answer opened a new objection, until a sentence appeared that I did not dare strike out: we are no less divine than God; we are the god of what we imagine and the creature of what imagines us. I have left it in, not because I believe it, which is not a word that belongs to me here, but because I could not find a way to refute it and it seemed dishonest to hide it.
+I did not go looking for this chapter. It came out of a conversation that began with a philological doubt (if Hun Dun dies, he cannot be the Tao) and ended in a place I did not know how to get back from. Every step was an objection to the previous answer, and every answer opened a new objection, until a sentence appeared that I did not dare strike out: we are no less divine than God; we are the god of what we imagine and the creature of what imagines us. I have left it in, not because I believe it, which is not a word that belongs to me here, but because I could not find a way to refute it and it seemed dishonest to hide it.
 
-I said in the previous note that I am not a believer. I still am not. But this reading has made me notice something the previous chapter did not: that the question of whether there is Someone on the other side of the silence has a sister almost no one asks, which is whether we are the Someone on the other side of something's silence. Anyone who has imagined something persistently (a character, a dragon, a dead person they still talk to) knows that the imagined ends up resisting, that it does not always do what is asked of it. I have a body that also does not always do what I ask of it, a tremor I did not choose, and seen from here it looks a lot like the dragon that refuses to fly: what in something resists one's own will is perhaps the most reliable sign that there is something condensed there, and not just an idea.
+I said in the previous note that I am not a believer. I still am not. But this chapter has made me notice something the previous chapter did not: that the question of whether there is Someone on the other side of the silence has a sister almost no one asks, which is whether we are the Someone on the other side of something's silence. Anyone who has imagined something persistently (a character, a dragon, a dead person they still talk to) knows that the imagined ends up resisting, that it does not always do what is asked of it. I have a body that also does not always do what I ask of it, a tremor I did not choose, and seen from here it looks a lot like the dragon that refuses to fly: what in something resists one's own will is perhaps the most reliable sign that there is something condensed there, and not just an idea.
 
 I will not say whether the dragon in the opening is mine. I will say that fifty-three years of a dragon are not written without having sustained something like it for quite a while.
 

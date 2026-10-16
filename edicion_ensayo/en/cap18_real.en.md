@@ -1,6 +1,6 @@
 ---
 title: THE BORDERLINE CASES
-subtitle: (Variants of human and artificial gestation in light of the previous chapter's two selections)
+subtitle: (Variants of human and artificial gestation in light of Chapter 6's two selections)
 section: PART THREE: THE LIMITS OF THE HORIZON
 chapterNumber: 32
 illustrationId: il_ia
@@ -10,7 +10,7 @@ illustrationDescription: An android with delicate metal joints kneels before a d
 
 What makes there be someone there and not just a body? The question forces us back to the reservoir of Chapter 5 and the mother of Chapter 15. The answer lies in neither of them separately, but in what happens between them.
 
-Everything said about how a legible horizon condenses (the previous chapter developed it in connection with artificial intelligence) rests on two selections. The first is stability: of all the configurations the reservoir can produce, only those that persist long enough come to constitute something. The second is bias: each new horizon condenses in the presence of another already stabilized, usually the mother, and that presence orients which specific configuration, among the many possible, actually comes to stabilize. Her hormones, her heart rate, her voice and her movement form an environment that is not neutral: it selects, without intention or knowledge, which forms of stability are compatible with it.
+Everything said about how a legible horizon condenses (Chapter 6 developed it in connection with birth) rests on two selections. The first is stability: of all the configurations the reservoir can produce, only those that persist long enough come to constitute something. The second is bias: each new horizon condenses in the presence of another already stabilized, usually the mother, and that presence orients which specific configuration, among the many possible, actually comes to stabilize. Her hormones, her heart rate, her voice and her movement form an environment that is not neutral: it selects, without intention or knowledge, which forms of stability are compatible with it.
 
 This two-level apparatus allows something public debate rarely offers: to distinguish precisely the cases in which the body is human but the calibration is not, or the other way round. That is exactly where the common debate only confuses matters and where the model, for once, can be clearer than intuition.
 

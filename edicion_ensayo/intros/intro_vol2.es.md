@@ -20,6 +20,6 @@ Los tomos son independientes. Cada uno puede leerse solo y en cualquier orden, y
 
 ### Este tomo
 
-Es el segundo tomo. El ensayo propone una manera de mirar, y las lecturas miran. Sus catorce lecturas sacan la hipótesis del primer tomo y la ponen frente a cosas que se hicieron sin ella, desde las últimas palabras de un replicante hasta tres pintores y un relevo de fútbol. Cada una es lo bastante breve para una sola sentada y cierra con una nota que separa lo que se sabe de lo que no.
+Es el segundo tomo. El ensayo propone una manera de mirar, y las lecturas miran. Sus trece lecturas sacan la hipótesis del primer tomo y la ponen frente a cosas que se hicieron sin ella, desde las últimas palabras de un replicante hasta tres pintores y un relevo de fútbol. Cada una es lo bastante breve para una sola sentada y cierra con una nota que separa lo que se sabe de lo que no.
 
 Algunas lecturas confirman la hipótesis y otras la tensan, y la tensión se cuenta. Las referencias a capítulos remiten al Tomo I, donde las ideas se construyen por primera vez. Puedes leer estas páginas sin él, aunque encontrarás su vocabulario (horizonte, entrelazamiento, resonancia, Phi) como palabras ya en uso.

@@ -6,7 +6,7 @@ chapterNumber: Glossary
 
 **Advaita Vedanta**: the Indian philosophical school holding the non-duality of the individual self (*atman*) and the absolute (*Brahman*); in the book, the vocabulary for the identity between horizon and reservoir.
 
-**Aggregation (political)**: a belonging that does not compromise the individual's survival if the structure it belongs to dissolves; contrasted with composition (*The Collective Horizon*).
+**Aggregation (political)**: a belonging that does not compromise the individual's survival if the structure it belongs to dissolves; contrasted with composition (*Five Ways of Losing Your Own Edge*).
 
 **Amplitude**: a horizon's capacity to hold more perspectives without its boundary breaking; it can grow (what the traditions call sainthood) without the horizon changing in nature or level (*Fractal Reality*).
 
@@ -30,8 +30,6 @@ chapterNumber: Glossary
 
 **Buddhism**: the contemplative tradition that teaches *anatta* (non-self) and the interdependence of all phenomena; in the book, a source of vocabulary for describing the non-separation between horizons.
 
-**Causal self-similarity ($A(S)$)**: an irreducibility filter that that the "Work in progress" section proposes in place of $\Phi$, and formally connects chapter 49 with the horizon triad: $A(S) = I_{\min}(S) \cdot \max_P \frac{1}{n}\sum_{i=1}^n [C(S_{-i}, S_i) \cdot \text{Iso}(S, S_i)]$. It requires simultaneously that the system be irreducible at its minimum cut ($I_{\min}$, Ay's stochastic interaction), that its parts be coupled to the rest ($C$, stationary mutual information), and that the macroscopic dynamics of the whole under coarse-graining be isomorphic to the dynamics of the parts ($\text{Iso}$). It rules out both purely geometric fractals without causality, such as Mandelbrot ($I_{\min}=0$), and diffuse aggregative systems, such as an anthill ($\text{Iso}\approx 0$).
-
 **Channel capacity**: the maximum amount of information a channel can transmit with an error as small as desired; by analogy, the limit of integration a horizon's architecture imposes (*Information Theory and the Inner Horizon*).
 
 **Chikhai**: the first phase of the Tibetan Bardo, immediately after death; equivalent, in the model, to the terminal gamma burst, the last peak of integration before the horizon dissolves.
@@ -44,13 +42,13 @@ chapterNumber: Glossary
 
 **Closure**: in topology, the operation that completes a set by adding its limit points; it is idempotent, because closing twice adds nothing. The book uses it to describe the already-condensed horizon and to define the reservoir as what has not yet closed, R = X ∖ ⋃ᵢ Eᵢ (Chapters 23 and 24).
 
-**Collective horizon**: the "we" that condenses when many individual horizons adopt the same idea as an organizing principle (*The Collective Horizon*).
+**Collective horizon**: the "we" that condenses when many individual horizons adopt the same idea as an organizing principle (*The Wounded Horizon*).
 
-**Composition (political)**: a belonging that does compromise the individual's survival, because losing the group feels like losing part of oneself; the shape the collective horizon takes when it captures one's own boundary (*The Collective Horizon*).
+**Composition (political)**: a belonging that does compromise the individual's survival, because losing the group feels like losing part of oneself; the shape the collective horizon takes when it captures one's own boundary (*Five Ways of Losing Your Own Edge*).
 
 **Condensation**: the unrepeatable act by which a horizon forms from the reservoir; in the chapter on AI, what no amount of training can substitute for (*The Mirror Without Depth*).
 
-**Condensation of a movement**: the discontinuous phase transition by which scattered discontent suddenly coalesces into a named collective boundary (*The Collective Horizon*).
+**Condensation of a movement**: the discontinuous phase transition by which scattered discontent suddenly coalesces into a named collective boundary (*The Wounded Horizon*).
 
 **Continuing bonds**: a concept from grief theory according to which the relationship with the deceased is not dissolved, but reorganized within the architecture of the one who remains.
 
@@ -62,7 +60,7 @@ chapterNumber: Glossary
 
 **Deterministic chaos**: what happens when a system obeys exact laws and still becomes unpredictable, because no one can measure its initial conditions with infinite precision; the three-body problem is the classic case (*The Beach at the End of Time*).
 
-**Dharma**: in Buddhism and Hinduism, the very weave of the world, with which correct behavior does nothing more than come into consonance, without obedience (*Vertical Entanglement*).
+**Dharma**: in Buddhism and Hinduism, the very weave of the world, with which correct behavior does nothing more than come into consonance, without obedience (*Five Maps of the Same Horizon*).
 
 **Dopamine**: the key neurotransmitter in reward anticipation; it calibrates the rate of temporal integration and the subjective density of time.
 
@@ -86,17 +84,15 @@ chapterNumber: Glossary
 
 **Encapsulation**: the boundary separating a system's public interface from its private state, so that the outside can only read what the system exposes; the architectural condition for there to be an inside (Chapter 3).
 
-**Entropic action ($\bar{A}$ and $\bar{A}_F$)**: third coordinate of the horizon triad, which integrates the system's trajectory over time and splits into two complementary measures: the *accumulated structural biography*, $\bar{A}(t) = \int_{t_0}^t (S(\tau) - S_0)\,d\tau$, which measures the differentiated capacity sustained above the reservoir's baseline level; and the *accumulated biographical cost or wear*, $\bar{A}_F(t) = \int_{t_0}^t F(\tau)\,d\tau$, which integrates the free energy or predictive friction endured over a lifetime. It should not be confused with the density of subjective time ($\vartheta$), which is the instantaneous rate of writing into memory ("Work in progress" section).
-
-**Epistemological absolute**: what is ultimate not because there is nothing behind it, but because from here one cannot look behind it; the status the reading *Fractal Reality* grants the upstairs neighbor.
+**Epistemological absolute**: what is ultimate not because there is nothing behind it, but because from here one cannot look behind it; the status the chapter *Fractal Reality* grants the upstairs neighbor.
 
 **ER=EPR**: Maldacena and Susskind's conjecture that quantum entanglement (EPR) is equivalent to an Einstein-Rosen bridge (ER).
 
 **Event horizon**: the boundary beyond which information cannot escape; applied to consciousness, the limit between what the system integrates and what remains outside.
 
-**Existential encapsulation**: the architectural and physical condition that distinguishes a real subject from a mere statistical partition or Markov blanket drawn from outside: it requires an access boundary that protects a persistent internal state of its own, whose physical continuity against dissipation into the reservoir is at stake in its own dynamics. At the level of subjects, it explains why horizons form an archipelago of disjoint islands without needing to appeal to $\Phi$'s exclusion postulate; current language models lack it because their weights are fixed and exposed and they do not sustain a state of their own between calls (chapters 22 and 31 and the "Work in progress" section).
+**Existential encapsulation**: the architectural and physical condition that distinguishes a real subject from a mere statistical partition or Markov blanket drawn from outside: it requires an access boundary that protects a persistent internal state of its own, whose physical continuity against dissipation into the reservoir is at stake in its own dynamics. At the level of subjects, it explains why horizons form an archipelago of disjoint islands without needing to appeal to $\Phi$'s exclusion postulate; current language models lack it because their weights are fixed and exposed and they do not sustain a state of their own between calls (chapters 22 and 31).
 
-**Fanaticism**: the capture of one's own boundary by an idea, to the point that doubting it feels like dying a little; in contemplative practice, what happens when the technique continues but the silence no longer tolerates questions (*Vertical Entanglement*, *The Collective Horizon*).
+**Fanaticism**: the capture of one's own boundary by an idea, to the point that doubting it feels like dying a little; in contemplative practice, what happens when the technique continues but the silence no longer tolerates questions (*Five Ways of Doubting Aloud*, *Five Ways of Losing Your Own Edge*).
 
 **Flow**: a state of maximal integration in which the horizon operates at its optimal capacity with no friction between structure and environment.
 
@@ -104,9 +100,7 @@ chapterNumber: Glossary
 
 **Fractal of interiorities**: a universe with no first level and no last, in which every horizon is creature upward and creator downward (*Fractal Reality*).
 
-**Free energy ($F = U - TS$)**: second coordinate of the triad; it measures the level at which a horizon holds itself far from equilibrium with respect to the reservoir. The essay connects Friston's variational free energy (informational surprise, in bits/nats) with Helmholtz's thermodynamic free energy (in joules) through the **Landauer limit** ($E \ge k_B T \ln 2$ per irreversibly updated bit at the substrate's physical temperature $T$) ("Work in progress" section).
-
-**Grace**: love that precedes merit and that, in one of the five religious architectures described, closes the gap between what is and what should be (*Vertical Entanglement*).
+**Grace**: love that precedes merit and that, in one of the five religious architectures described, closes the gap between what is and what should be (*Five Maps of the Same Horizon*).
 
 **Gravitational time dilation**: the slowing of time near an event horizon; applied to consciousness, a metaphor for how density of integration alters subjective time.
 
@@ -120,9 +114,7 @@ chapterNumber: Glossary
 
 **Horizon**: in the book, the boundary separating the private state of an individual consciousness from everything else; it condenses once and cannot be manufactured by accumulating data or training (see Event Horizon).
 
-**Horizon of origin**: the personal horizon, prior to the reservoir and external to it, that some traditions place on the other side of vertical entanglement (*Vertical Entanglement*).
-
-**Horizon triad $(S, F, \bar{A})$**: the three magnitudes with which the book's closing measures the degree of a horizon that has passed the causal self-similarity filter $A(S)$ and possesses existential encapsulation: the capacity of the edge ($S \propto \mathcal{A}$), the free energy it costs to sustain it against the reservoir ($F = U - TS$, connected by the Landauer limit), and the entropic action accumulated in its biography ($\bar{A}$ and $\bar{A}_F$) ("Work in progress" section).
+**Horizon of origin**: the personal horizon, prior to the reservoir and external to it, that some traditions place on the other side of vertical entanglement (*Five Maps of the Same Horizon*).
 
 **Hysteresis**: the property by which a system retains the effect of its history; in the book, the difficulty of changing the topology of a horizon once formed.
 
@@ -154,7 +146,7 @@ chapterNumber: Glossary
 
 **Phase transition**: a qualitative change in the organization of a system; in the book, it describes the birth and death of the horizon.
 
-**Phi ($\Phi$)**: a measure of integrated information proposed by Giulio Tononi in integrated information theory (IIT): it quantifies the extent to which a system is more than the sum of its parts, that is, how much information the whole generates that none of its partitions generates separately. In the early chapters of the book it serves as an intuitive scaffold for distinguishing irreducible integration from mere aggregation and for measuring the *degree* of a horizon (its form is given by encapsulation and its origin by the two selections; chapter 4). The "Work in progress" section explores replacing it with the causal self-similarity filter $A(S)$ and the horizon triad $(S, F, \bar{A})$.
+**Phi ($\Phi$)**: a measure of integrated information proposed by Giulio Tononi in integrated information theory (IIT): it quantifies the extent to which a system is more than the sum of its parts, that is, how much information the whole generates that none of its partitions generates separately. In the early chapters of the book it serves as an intuitive scaffold for distinguishing irreducible integration from mere aggregation and for measuring the *degree* of a horizon (its form is given by encapsulation and its origin by the two selections; chapter 4).
 
 **Protocol**: the specific code (a language, a syntax, agreed-upon signals) with which an already-condensed horizon tries to make itself known outward; sometimes it must be built, sometimes it decides who counts as someone, sometimes it must be earned (*The Protocol and the Bridge*).
 
@@ -168,9 +160,9 @@ chapterNumber: Glossary
 
 **Reservoir**: the formless background of possibility from which horizons arise and to which they return; equivalent to the quantum vacuum or to the ocean in the book's metaphor.
 
-**Sacralizing the neighbor**: treating a horizontal horizon (human, correctable, revisable) with the intransigence that should be reserved only for what declares itself, from the outset, unquestionable (*The Collective Horizon*).
+**Sacralizing the neighbor**: treating a horizontal horizon (human, correctable, revisable) with the intransigence that should be reserved only for what declares itself, from the outset, unquestionable (*Five Ways of Losing Your Own Edge*).
 
-**Samadhi**: the instant when vertical correlation becomes indistinguishable from identity (*Vertical Entanglement*).
+**Samadhi**: the instant when vertical correlation becomes indistinguishable from identity (*Five Maps of the Same Horizon*).
 
 **Scale gap**: the difference in magnitude between quantum phenomena and neural ones, which makes a direct reduction difficult and which the horizon model approaches through structural analogy.
 
@@ -208,6 +200,6 @@ chapterNumber: Glossary
 
 **Vectors of vertical entanglement**: the ascending one, from the creature toward the scale that contains it, calls for emptying and silence; the descending one, from the higher scale toward what it contains, calls for form: symbol, story, body (*The Vessel of Clay*).
 
-**Vertical entanglement**: a sustained correlation between a horizon and something beyond its boundary, with no observable channel of confirmation; the name the book gives to prayer, meditation and contemplative practice (*Vertical Entanglement*).
+**Vertical entanglement**: a sustained correlation between a horizon and something beyond its boundary, with no observable channel of confirmation; the name the book gives to prayer, meditation and contemplative practice (*Five Maps of the Same Horizon*).
 
 **Vessel**: the form, made of the material of the floor below, that allows a higher scale to manifest in a lower one without overwhelming it; what the traditions call incarnation (*The Vessel of Clay*).

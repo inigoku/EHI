@@ -45,6 +45,10 @@ In 2013, the physicists Maldacena and Susskind proposed something surprising: th
 
 If so, entanglement is geometry: a real connection in the fabric of spacetime. No information travels through the tunnel (signals cannot be sent faster than light), but the connection exists as a curvature of space, as real as any other.
 
+If entanglement is geometry, and if consciousness has the structure of a horizon, then the connections between minds might be real geometric connections in the fabric of space-time. Love, bonds or empathy would be entanglement that creates geometry. Not in the romantic sense of "we are connected," but in the literal sense that two systems sharing enough information might be joined by a geometry that physics does not yet know how to measure.
+
+Even within theoretical physics this is highly speculative, and extending it to brains is a leap no experimental evidence supports. Here it counts not as confirmation but as an exercise of imagination: a way of making precise what "bond" would mean if information really were geometry.
+
 ### Decoherence: why we don't see entanglement
 
 If entanglement is so real, why don't we see it in everyday life? Why don't tables, chairs or bodies seem entangled with anything?
@@ -98,9 +102,9 @@ The most sensible position is agnosticism. We don't know whether the brain uses 
 >
 > **What we do know:** Quantum entanglement is real and experimentally verified. Bell's inequalities are violated. ER=EPR is a conjecture supported by theoretical models, without experimental verification. Quantum teleportation works. Decoherence explains why we don't see macroscopic quantum effects.
 >
-> **What we don't know:** Whether Einstein-Rosen bridges exist physically. Whether entanglement between brains is detectable. Whether the mind depends on quantum processes.
+> **What we don't know:** Whether Einstein-Rosen bridges exist physically. Whether ER=EPR operates at biological scales. Whether entanglement between brains is detectable. Whether the mind depends on quantum processes.
 >
-> **Open questions:** Is the human bond "entanglement" in the physical sense or only a formal metaphor? Can biology protect quantum coherence in the brain? What limits does decoherence impose on the quantum mind?
+> **Open questions:** Is entanglement really geometry? Is the human bond "entanglement" in the physical sense or only a formal metaphor? Can biology protect quantum coherence in the brain? What limits does decoherence impose on the quantum mind?
 >
 > **If you take away only one idea:** Two things that once touched can remain correlated even when far apart, as long as the noise of the world doesn't undo the bond. Perhaps love works like that.
 >

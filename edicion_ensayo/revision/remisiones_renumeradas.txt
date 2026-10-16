@@ -1,0 +1,1263 @@
+# Remisiones renumeradas (generado por scripts/restructure.py)
+
+Edición · idioma · capítulo · antes → después
+
+unico · es · cap_nota_autor · El capítulo 31 → El capítulo 34
+unico · es · cap_nota_autor · el capítulo 28 → el capítulo 33
+unico · es · cap1 · (capítulos 6 y 23 → (capítulos 7 y 27
+unico · es · cap1 · **Nota al Capítulo 1** → **Nota al Capítulo 1**
+unico · es · cap2 · **Nota al Capítulo 2** → **Nota al Capítulo 2**
+unico · es · cap_info_intro · el capítulo 10 → el capítulo 11
+unico · es · cap_info_intro · el capítulo 12 → el capítulo 13
+unico · es · cap_info_intro · el capítulo 12 → el capítulo 13
+unico · es · cap_info_intro · {{n:cap_teoria_informacion}} → 20
+unico · es · cap2_5 · **Nota al Capítulo 3** → **Nota al Capítulo 4**
+unico · es · cap3 · el capítulo 6 → el capítulo 7
+unico · es · cap3 · del capítulo 1 → del capítulo 1
+unico · es · cap3 · (capítulo 3 → (capítulo 4
+unico · es · cap3 · del capítulo 31 → del capítulo 7
+unico · es · cap3 · del capítulo 31 → del capítulo 34
+unico · es · cap3 · **Nota al Capítulo 4** → **Nota al Capítulo 5**
+unico · es · cap4 · **Nota al Capítulo 5** → **Nota al Capítulo 6**
+unico · es · cap4 · el capítulo 23 → el capítulo 27
+unico · es · cap5 · el capítulo 8 → el capítulo 9
+unico · es · cap5 · el capítulo 4 → el capítulo 5
+unico · es · cap5 · En el capítulo 1 → En el capítulo 1
+unico · es · cap5 · **Nota al Capítulo 6** → **Nota al Capítulo 7**
+unico · es · cap6 · el capítulo 11 → el capítulo 12
+unico · es · cap6 · el capítulo 5 → el capítulo 6
+unico · es · cap6 · **Nota al Capítulo 7** → **Nota al Capítulo 8**
+unico · es · cap6_5 · **Nota al Capítulo 8** → **Nota al Capítulo 9**
+unico · es · cap6_6 · **Nota al Capítulo 9** → **Nota al Capítulo 10**
+unico · es · interludio · en el capítulo 1 → en el capítulo 1
+unico · es · cap7 · **Nota al Capítulo 10** → **Nota al Capítulo 11**
+unico · es · cap7_5 · **Nota al Capítulo 11** → **Nota al Capítulo 12**
+unico · es · cap8 · en el capítulo 11 → en el capítulo 12
+unico · es · cap8 · el capítulo 16 → el capítulo 18
+unico · es · cap8 · **Nota al Capítulo 12** → **Nota al Capítulo 13**
+unico · es · cap9 · El capítulo 10 → El capítulo 11
+unico · es · cap9 · **Nota al Capítulo 13** → **Nota al Capítulo 14**
+unico · es · cap10 · El capítulo 13 → El capítulo 14
+unico · es · cap10 · el capítulo 13 → el capítulo 14
+unico · es · cap10 · el capítulo 10 → el capítulo 11
+unico · es · cap10 · **Nota al Capítulo 14** → **Nota al Capítulo 15**
+unico · es · cap11 · El capítulo 14 → El capítulo 15
+unico · es · cap11 · El capítulo 13 → El capítulo 14
+unico · es · cap11 · y el 12 → y el 13
+unico · es · cap11 · del capítulo 13 → del capítulo 14
+unico · es · cap11 · del capítulo 6 → del capítulo 7
+unico · es · cap11 · En el capítulo 13 → En el capítulo 14
+unico · es · cap11 · el capítulo 14 → el capítulo 15
+unico · es · cap11 · el capítulo 16 → el capítulo 18
+unico · es · cap11 · en el capítulo 13 → en el capítulo 14
+unico · es · cap11 · El capítulo 14 → El capítulo 15
+unico · es · cap11 · El capítulo 14 → El capítulo 15
+unico · es · cap11 · Y el 16 → Y el 18
+unico · es · cap11 · **Nota al Capítulo 15** → **Nota al Capítulo 16**
+unico · es · cap18_real · del capítulo 5 → del capítulo 6
+unico · es · cap18_real · del capítulo 15 → del capítulo 16
+unico · es · cap18_real · el capítulo 6 → el capítulo 7
+unico · es · cap18_real · (capítulo 15 → (capítulo 16
+unico · es · cap18_real · El capítulo 15 → El capítulo 16
+unico · es · cap18_real · **Nota al Capítulo 32** → **Nota al Capítulo 17**
+unico · es · cap12 · en el capítulo 10 → en el capítulo 11
+unico · es · cap12 · En el capítulo 15 → En el capítulo 16
+unico · es · cap12 · en el capítulo 15 → en el capítulo 16
+unico · es · cap12 · El capítulo 5 → El capítulo 6
+unico · es · cap12 · el capítulo 7 → el capítulo 8
+unico · es · cap12 · El capítulo 12 → El capítulo 13
+unico · es · cap12 · del capítulo 1 → del capítulo 1
+unico · es · cap12 · El capítulo 12 → El capítulo 13
+unico · es · cap12 · **Nota al Capítulo 16** → **Nota al Capítulo 18**
+unico · es · cap13 · El capítulo 12 → El capítulo 13
+unico · es · cap13 · en el capítulo 13 → en el capítulo 14
+unico · es · cap13 · En el capítulo 15 → En el capítulo 16
+unico · es · cap13 · en el capítulo 10 → en el capítulo 11
+unico · es · cap13 · El capítulo 15 → El capítulo 16
+unico · es · cap13 · **Nota al Capítulo 17** → **Nota al Capítulo 19**
+unico · es · cap_teoria_informacion · {{n:cap_info_intro}} → 3
+unico · es · cap_teoria_informacion · el capítulo 2 → el capítulo 2
+unico · es · cap_teoria_informacion · el capítulo 11 → el capítulo 12
+unico · es · cap_teoria_informacion · El capítulo 10 → El capítulo 11
+unico · es · cap_teoria_informacion · y el 12 → y el 13
+unico · es · cap_teoria_informacion · El capítulo 7 → El capítulo 8
+unico · es · cap_teoria_informacion · **Nota al Capítulo 34** → **Nota al Capítulo 20**
+unico · es · cap_tres_puertas · El capítulo 10 → El capítulo 11
+unico · es · cap_tres_puertas · y el 12 → y el 13
+unico · es · cap_tres_puertas · el capítulo 12 → el capítulo 13
+unico · es · cap_tres_puertas · el capítulo 12 → el capítulo 13
+unico · es · cap_tres_puertas · El capítulo 17 → El capítulo 19
+unico · es · cap_tres_puertas · El capítulo 7 → El capítulo 8
+unico · es · cap_tres_puertas · y el 17 → y el 19
+unico · es · cap_tres_puertas · el capítulo 51 → el capítulo 51
+unico · es · cap_tres_puertas · **Nota al Capítulo 35** → **Nota al Capítulo 21**
+unico · es · cap13_5 · En el capítulo 17 → En el capítulo 19
+unico · es · cap13_5 · **Nota al Capítulo 20** → **Nota al Capítulo 22**
+unico · es · cap18_6 · en el capítulo 19 → en el capítulo 26
+unico · es · cap18_6 · del capítulo 12 → del capítulo 13
+unico · es · cap18_6 · el capítulo 20 → el capítulo 22
+unico · es · cap18_6 · **Nota al Capítulo 21** → **Nota al Capítulo 23**
+unico · es · cap18_7 · **Nota al Capítulo 22** → **Nota al Capítulo 24**
+unico · es · cap14_real · En el capítulo 6 → En el capítulo 7
+unico · es · cap14_real · En el capítulo 15 → En el capítulo 16
+unico · es · cap14_real · **Nota al Capítulo 18** → **Nota al Capítulo 25**
+unico · es · cap15_real · **Nota al Capítulo 19** → **Nota al Capítulo 26**
+unico · es · cap22_idempotencia · el capítulo 1 → el capítulo 1
+unico · es · cap22_idempotencia · el capítulo 51 → el capítulo 51
+unico · es · cap22_idempotencia · en el capítulo 21 → en el capítulo 23
+unico · es · cap22_idempotencia · en el capítulo 21 → en el capítulo 23
+unico · es · cap22_idempotencia · **Nota al Capítulo 23** → **Nota al Capítulo 27**
+unico · es · cap23_experimentos_mentales · el capítulo 23 → el capítulo 27
+unico · es · cap23_experimentos_mentales · el capítulo 23 → el capítulo 27
+unico · es · cap23_experimentos_mentales · el capítulo 23 → el capítulo 27
+unico · es · cap23_experimentos_mentales · el capítulo 23 → el capítulo 27
+unico · es · cap23_experimentos_mentales · **Nota al Capítulo 24** → **Nota al Capítulo 28**
+unico · es · cap17_real · del capítulo 13 → del capítulo 14
+unico · es · cap17_real · **Nota al Capítulo 26** → **Nota al Capítulo 29**
+unico · es · cap17_5_real · en el capítulo 10 → en el capítulo 11
+unico · es · cap17_5_real · el capítulo 28 → el capítulo 33
+unico · es · cap17_5_real · en el capítulo 30 → en el capítulo 45
+unico · es · cap17_5_real · en el capítulo 51 → en el capítulo 51
+unico · es · cap17_5_real · **Nota al Capítulo 27** → **Nota al Capítulo 30**
+unico · es · cap16_real · (capítulo 30 → (capítulo 45
+unico · es · cap16_real · El capítulo 18 → El capítulo 25
+unico · es · cap16_real · **Nota al Capítulo 25** → **Nota al Capítulo 31**
+unico · es · cap_calibracion · El capítulo 31 → El capítulo 7
+unico · es · cap_calibracion · del capítulo 31 → del capítulo 7
+unico · es · cap_calibracion · el capítulo 15 → el capítulo 16
+unico · es · cap_calibracion · del capítulo 31 → del capítulo 7
+unico · es · cap_calibracion · El capítulo 3 → El capítulo 4
+unico · es · cap_calibracion · El capítulo 32 → El capítulo 17
+unico · es · cap_calibracion · el capítulo 31 → el capítulo 7
+unico · es · cap_calibracion · **Nota al Capítulo 33** → **Nota al Capítulo 32**
+unico · es · cap_religiones_comparadas · El capítulo 51 → El capítulo 51
+unico · es · cap_religiones_comparadas · en el capítulo 51 → en el capítulo 51
+unico · es · cap_religiones_comparadas · capítulos 2 y 5 → capítulos 2 y 6
+unico · es · cap_religiones_comparadas · del capítulo 5 → del capítulo 6
+unico · es · cap_religiones_comparadas · del capítulo 5 → del capítulo 6
+unico · es · cap_religiones_comparadas · el capítulo 51 → el capítulo 51
+unico · es · cap_religiones_comparadas · el capítulo 12 → el capítulo 13
+unico · es · cap_religiones_comparadas · el capítulo 7 → el capítulo 8
+unico · es · cap_religiones_comparadas · en el capítulo 5 → en el capítulo 6
+unico · es · cap_religiones_comparadas · en el capítulo 7 → en el capítulo 8
+unico · es · cap_religiones_comparadas · en el capítulo 51 → en el capítulo 51
+unico · es · cap_religiones_comparadas · el capítulo 52 → el capítulo 52
+unico · es · cap_religiones_comparadas · el capítulo 51 → el capítulo 51
+unico · es · cap_religiones_comparadas · el capítulo 27 → el capítulo 30
+unico · es · cap_religiones_comparadas · **Nota al Capítulo 28** → **Nota al Capítulo 33**
+unico · es · cap_religiones_comparadas · el capítulo 51 → el capítulo 51
+unico · es · cap_espejo_sin_profundidad · del capítulo 4 → del capítulo 5
+unico · es · cap_espejo_sin_profundidad · el capítulo 6 → el capítulo 7
+unico · es · cap_espejo_sin_profundidad · en el capítulo 21 → en el capítulo 23
+unico · es · cap_espejo_sin_profundidad · **Nota al Capítulo 31** → **Nota al Capítulo 34**
+unico · es · cap17_7_alien · **Nota al Capítulo 39** → **Nota al Capítulo 35**
+unico · es · cap17_7_alien · (capítulos 10 y 12 → (capítulos 11 y 13
+unico · es · cap17_6_real · en el capítulo 12 → en el capítulo 13
+unico · es · cap17_6_real · en el capítulo 4 → en el capítulo 5
+unico · es · cap17_6_real · en el capítulo 31 → en el capítulo 7
+unico · es · cap17_6_real · en el capítulo 26 → en el capítulo 29
+unico · es · cap17_6_real · **Nota al Capítulo 37** → **Nota al Capítulo 36**
+unico · es · cap17_6_real · (capítulo 31 → (capítulo 7
+unico · es · cap17_6_real · (capítulo 26 → (capítulo 29
+unico · es · cap_blade_runner · en el capítulo 4 → en el capítulo 5
+unico · es · cap_blade_runner · del capítulo 31 → del capítulo 7
+unico · es · cap_blade_runner · En el capítulo 37 → En el capítulo 36
+unico · es · cap_blade_runner · **Nota al Capítulo 38** → **Nota al Capítulo 37**
+unico · es · cap_maquina_tiempo · **Nota al Capítulo 47** → **Nota al Capítulo 38**
+unico · es · cap_horizonte_prestado · **Nota al Capítulo 48** → **Nota al Capítulo 39**
+unico · es · cap_three_body · **Nota al Capítulo 40** → **Nota al Capítulo 40**
+unico · es · cap17_8_cosmic · En el capítulo 5 → En el capítulo 6
+unico · es · cap17_8_cosmic · **Nota al Capítulo 41** → **Nota al Capítulo 41**
+unico · es · cap_matrix · En el capítulo 5 → En el capítulo 6
+unico · es · cap_matrix · **Nota al Capítulo 42** → **Nota al Capítulo 42**
+unico · es · cap_lenguaje_entrelazamiento · (capítulo 39 → (capítulo 35
+unico · es · cap_lenguaje_entrelazamiento · en el capítulo 31 → en el capítulo 34
+unico · es · cap_lenguaje_entrelazamiento · en el capítulo 21 → en el capítulo 23
+unico · es · cap_lenguaje_entrelazamiento · **Nota al Capítulo 46** → **Nota al Capítulo 43**
+unico · es · cap_lenguaje_entrelazamiento · del capítulo 4 → del capítulo 5
+unico · es · cap_lenguaje_entrelazamiento · en el capítulo 31 → en el capítulo 34
+unico · es · cap_lenguaje_entrelazamiento · en el capítulo 45 → en el capítulo 47
+unico · es · cap_diapason_invisible · El capítulo 28 → El capítulo 33
+unico · es · cap_diapason_invisible · El capítulo 28 → El capítulo 33
+unico · es · cap_diapason_invisible · **Nota al Capítulo 29** → **Nota al Capítulo 44**
+unico · es · cap_ojo_un_solo_color · en el capítulo 27 → en el capítulo 30
+unico · es · cap_ojo_un_solo_color · El capítulo 25 → El capítulo 31
+unico · es · cap_ojo_un_solo_color · **Nota al Capítulo 30** → **Nota al Capítulo 45**
+unico · es · cap_cartografia_singularidades · **Nota al Capítulo 43** → **Nota al Capítulo 46**
+unico · es · cap_traductor · **Nota al Capítulo 45** → **Nota al Capítulo 47**
+unico · es · cap_historia_relevo · **Nota al Capítulo 44** → **Nota al Capítulo 48**
+unico · es · cap_realidad_fractal · **Nota al Capítulo 49** → **Nota al Capítulo 49**
+unico · es · cap_realidad_fractal · en el capítulo 2 → en el capítulo 2
+unico · es · cap_nave_de_barro · (capítulo 12 → (capítulo 13
+unico · es · cap_nave_de_barro · El capítulo 29 → El capítulo 33
+unico · es · cap_nave_de_barro · el capítulo 29 → el capítulo 33
+unico · es · cap_nave_de_barro · el capítulo 29 → el capítulo 33
+unico · es · cap_nave_de_barro · en el capítulo 41 → en el capítulo 41
+unico · es · cap_nave_de_barro · el capítulo 35 → el capítulo 21
+unico · es · cap_nave_de_barro · el capítulo 47 → el capítulo 38
+unico · es · cap_nave_de_barro · el capítulo 17 → el capítulo 19
+unico · es · cap_nave_de_barro · el capítulo 41 → el capítulo 41
+unico · es · cap_nave_de_barro · **Nota al Capítulo 50** → **Nota al Capítulo 50**
+unico · es · cap19_real · (capítulo 3 → (capítulo 4
+unico · es · cap19_real · del capítulo 4 → del capítulo 5
+unico · es · cap19_real · en el capítulo 22 → en el capítulo 24
+unico · es · cap19_real · **Nota al Capítulo 51** → **Nota al Capítulo 51**
+unico · es · cap20_real · el capítulo 10 → el capítulo 11
+unico · es · cap20_real · **Nota al Capítulo 52** → **Nota al Capítulo 52**
+unico · es · cap_glosario · (capítulos 23 y 24 → (capítulos 27 y 28
+unico · es · cap_glosario · (capítulo 10 → (capítulo 11
+unico · es · cap_glosario · (capítulo 31 → (capítulo 7
+unico · es · cap_glosario · (capítulo 3 → (capítulo 4
+unico · es · cap_glosario · (capítulo 3 → (capítulo 4
+unico · es · cap_glosario · (capítulos 22 y 31 → (capítulos 24 y 7
+unico · es · cap_glosario · el capítulo 16 → el capítulo 18
+unico · es · cap_glosario · capítulo 4 → capítulo 5
+t1 · es · cap_nota_autor · El capítulo 31 → El capítulo 34
+t1 · es · cap_nota_autor · el capítulo 28 → el capítulo 33
+t1 · es · cap1 · (capítulos 6 y 23 → (capítulos 7 y 27
+t1 · es · cap1 · **Nota al Capítulo 1** → **Nota al Capítulo 1**
+t1 · es · cap2 · **Nota al Capítulo 2** → **Nota al Capítulo 2**
+t1 · es · cap_info_intro · el capítulo 10 → el capítulo 11
+t1 · es · cap_info_intro · el capítulo 12 → el capítulo 13
+t1 · es · cap_info_intro · el capítulo 12 → el capítulo 13
+t1 · es · cap_info_intro · {{n:cap_teoria_informacion}} → 20
+t1 · es · cap2_5 · **Nota al Capítulo 3** → **Nota al Capítulo 4**
+t1 · es · cap3 · el capítulo 6 → el capítulo 7
+t1 · es · cap3 · del capítulo 1 → del capítulo 1
+t1 · es · cap3 · (capítulo 3 → (capítulo 4
+t1 · es · cap3 · del capítulo 31 → del capítulo 7
+t1 · es · cap3 · del capítulo 31 → del capítulo 34
+t1 · es · cap3 · **Nota al Capítulo 4** → **Nota al Capítulo 5**
+t1 · es · cap4 · **Nota al Capítulo 5** → **Nota al Capítulo 6**
+t1 · es · cap4 · el capítulo 23 → el capítulo 27
+t1 · es · cap5 · el capítulo 8 → el capítulo 9
+t1 · es · cap5 · el capítulo 4 → el capítulo 5
+t1 · es · cap5 · En el capítulo 1 → En el capítulo 1
+t1 · es · cap5 · **Nota al Capítulo 6** → **Nota al Capítulo 7**
+t1 · es · cap6 · el capítulo 11 → el capítulo 12
+t1 · es · cap6 · el capítulo 5 → el capítulo 6
+t1 · es · cap6 · **Nota al Capítulo 7** → **Nota al Capítulo 8**
+t1 · es · cap6_5 · **Nota al Capítulo 8** → **Nota al Capítulo 9**
+t1 · es · cap6_6 · **Nota al Capítulo 9** → **Nota al Capítulo 10**
+t1 · es · interludio · en el capítulo 1 → en el capítulo 1
+t1 · es · cap7 · **Nota al Capítulo 10** → **Nota al Capítulo 11**
+t1 · es · cap7_5 · **Nota al Capítulo 11** → **Nota al Capítulo 12**
+t1 · es · cap8 · en el capítulo 11 → en el capítulo 12
+t1 · es · cap8 · el capítulo 16 → el capítulo 18
+t1 · es · cap8 · **Nota al Capítulo 12** → **Nota al Capítulo 13**
+t1 · es · cap9 · El capítulo 10 → El capítulo 11
+t1 · es · cap9 · **Nota al Capítulo 13** → **Nota al Capítulo 14**
+t1 · es · cap10 · El capítulo 13 → El capítulo 14
+t1 · es · cap10 · el capítulo 13 → el capítulo 14
+t1 · es · cap10 · el capítulo 10 → el capítulo 11
+t1 · es · cap10 · **Nota al Capítulo 14** → **Nota al Capítulo 15**
+t1 · es · cap11 · El capítulo 14 → El capítulo 15
+t1 · es · cap11 · El capítulo 13 → El capítulo 14
+t1 · es · cap11 · y el 12 → y el 13
+t1 · es · cap11 · del capítulo 13 → del capítulo 14
+t1 · es · cap11 · del capítulo 6 → del capítulo 7
+t1 · es · cap11 · En el capítulo 13 → En el capítulo 14
+t1 · es · cap11 · el capítulo 14 → el capítulo 15
+t1 · es · cap11 · el capítulo 16 → el capítulo 18
+t1 · es · cap11 · en el capítulo 13 → en el capítulo 14
+t1 · es · cap11 · El capítulo 14 → El capítulo 15
+t1 · es · cap11 · El capítulo 14 → El capítulo 15
+t1 · es · cap11 · Y el 16 → Y el 18
+t1 · es · cap11 · **Nota al Capítulo 15** → **Nota al Capítulo 16**
+t1 · es · cap18_real · del capítulo 5 → del capítulo 6
+t1 · es · cap18_real · del capítulo 15 → del capítulo 16
+t1 · es · cap18_real · el capítulo 6 → el capítulo 7
+t1 · es · cap18_real · (capítulo 15 → (capítulo 16
+t1 · es · cap18_real · El capítulo 15 → El capítulo 16
+t1 · es · cap18_real · **Nota al Capítulo 32** → **Nota al Capítulo 17**
+t1 · es · cap12 · en el capítulo 10 → en el capítulo 11
+t1 · es · cap12 · En el capítulo 15 → En el capítulo 16
+t1 · es · cap12 · en el capítulo 15 → en el capítulo 16
+t1 · es · cap12 · El capítulo 5 → El capítulo 6
+t1 · es · cap12 · el capítulo 7 → el capítulo 8
+t1 · es · cap12 · El capítulo 12 → El capítulo 13
+t1 · es · cap12 · del capítulo 1 → del capítulo 1
+t1 · es · cap12 · El capítulo 12 → El capítulo 13
+t1 · es · cap12 · **Nota al Capítulo 16** → **Nota al Capítulo 18**
+t1 · es · cap13 · El capítulo 12 → El capítulo 13
+t1 · es · cap13 · en el capítulo 13 → en el capítulo 14
+t1 · es · cap13 · En el capítulo 15 → En el capítulo 16
+t1 · es · cap13 · en el capítulo 10 → en el capítulo 11
+t1 · es · cap13 · El capítulo 15 → El capítulo 16
+t1 · es · cap13 · **Nota al Capítulo 17** → **Nota al Capítulo 19**
+t1 · es · cap_teoria_informacion · {{n:cap_info_intro}} → 3
+t1 · es · cap_teoria_informacion · el capítulo 2 → el capítulo 2
+t1 · es · cap_teoria_informacion · el capítulo 11 → el capítulo 12
+t1 · es · cap_teoria_informacion · El capítulo 10 → El capítulo 11
+t1 · es · cap_teoria_informacion · y el 12 → y el 13
+t1 · es · cap_teoria_informacion · El capítulo 7 → El capítulo 8
+t1 · es · cap_teoria_informacion · **Nota al Capítulo 34** → **Nota al Capítulo 20**
+t1 · es · cap_tres_puertas · El capítulo 10 → El capítulo 11
+t1 · es · cap_tres_puertas · y el 12 → y el 13
+t1 · es · cap_tres_puertas · el capítulo 12 → el capítulo 13
+t1 · es · cap_tres_puertas · el capítulo 12 → el capítulo 13
+t1 · es · cap_tres_puertas · El capítulo 17 → El capítulo 19
+t1 · es · cap_tres_puertas · El capítulo 7 → El capítulo 8
+t1 · es · cap_tres_puertas · y el 17 → y el 19
+t1 · es · cap_tres_puertas · el capítulo 51 → el capítulo 38
+t1 · es · cap_tres_puertas · **Nota al Capítulo 35** → **Nota al Capítulo 21**
+t1 · es · cap13_5 · En el capítulo 17 → En el capítulo 19
+t1 · es · cap13_5 · **Nota al Capítulo 20** → **Nota al Capítulo 22**
+t1 · es · cap18_6 · en el capítulo 19 → en el capítulo 26
+t1 · es · cap18_6 · del capítulo 12 → del capítulo 13
+t1 · es · cap18_6 · el capítulo 20 → el capítulo 22
+t1 · es · cap18_6 · **Nota al Capítulo 21** → **Nota al Capítulo 23**
+t1 · es · cap18_7 · **Nota al Capítulo 22** → **Nota al Capítulo 24**
+t1 · es · cap14_real · En el capítulo 6 → En el capítulo 7
+t1 · es · cap14_real · En el capítulo 15 → En el capítulo 16
+t1 · es · cap14_real · **Nota al Capítulo 18** → **Nota al Capítulo 25**
+t1 · es · cap15_real · **Nota al Capítulo 19** → **Nota al Capítulo 26**
+t1 · es · cap22_idempotencia · el capítulo 1 → el capítulo 1
+t1 · es · cap22_idempotencia · el capítulo 51 → el capítulo 38
+t1 · es · cap22_idempotencia · en el capítulo 21 → en el capítulo 23
+t1 · es · cap22_idempotencia · en el capítulo 21 → en el capítulo 23
+t1 · es · cap22_idempotencia · **Nota al Capítulo 23** → **Nota al Capítulo 27**
+t1 · es · cap23_experimentos_mentales · el capítulo 23 → el capítulo 27
+t1 · es · cap23_experimentos_mentales · el capítulo 23 → el capítulo 27
+t1 · es · cap23_experimentos_mentales · el capítulo 23 → el capítulo 27
+t1 · es · cap23_experimentos_mentales · el capítulo 23 → el capítulo 27
+t1 · es · cap23_experimentos_mentales · **Nota al Capítulo 24** → **Nota al Capítulo 28**
+t1 · es · cap17_real · del capítulo 13 → del capítulo 14
+t1 · es · cap17_real · **Nota al Capítulo 26** → **Nota al Capítulo 29**
+t1 · es · cap17_5_real · en el capítulo 10 → en el capítulo 11
+t1 · es · cap17_5_real · el capítulo 28 → el capítulo 33
+t1 · es · cap17_5_real · en el capítulo 30 → en la lectura 10 del segundo tomo
+t1 · es · cap17_5_real · en el capítulo 51 → en el capítulo 38
+t1 · es · cap17_5_real · **Nota al Capítulo 27** → **Nota al Capítulo 30**
+t1 · es · cap16_real · (capítulo 30 → (lectura 10 del segundo tomo
+t1 · es · cap16_real · El capítulo 18 → El capítulo 25
+t1 · es · cap16_real · **Nota al Capítulo 25** → **Nota al Capítulo 31**
+t1 · es · cap_calibracion · El capítulo 31 → El capítulo 7
+t1 · es · cap_calibracion · del capítulo 31 → del capítulo 7
+t1 · es · cap_calibracion · el capítulo 15 → el capítulo 16
+t1 · es · cap_calibracion · del capítulo 31 → del capítulo 7
+t1 · es · cap_calibracion · El capítulo 3 → El capítulo 4
+t1 · es · cap_calibracion · El capítulo 32 → El capítulo 17
+t1 · es · cap_calibracion · el capítulo 31 → el capítulo 7
+t1 · es · cap_calibracion · **Nota al Capítulo 33** → **Nota al Capítulo 32**
+t1 · es · cap_religiones_comparadas · El capítulo 51 → El capítulo 38
+t1 · es · cap_religiones_comparadas · en el capítulo 51 → en el capítulo 38
+t1 · es · cap_religiones_comparadas · capítulos 2 y 5 → capítulos 2 y 6
+t1 · es · cap_religiones_comparadas · del capítulo 5 → del capítulo 6
+t1 · es · cap_religiones_comparadas · del capítulo 5 → del capítulo 6
+t1 · es · cap_religiones_comparadas · el capítulo 51 → el capítulo 38
+t1 · es · cap_religiones_comparadas · el capítulo 12 → el capítulo 13
+t1 · es · cap_religiones_comparadas · el capítulo 7 → el capítulo 8
+t1 · es · cap_religiones_comparadas · en el capítulo 5 → en el capítulo 6
+t1 · es · cap_religiones_comparadas · en el capítulo 7 → en el capítulo 8
+t1 · es · cap_religiones_comparadas · en el capítulo 51 → en el capítulo 38
+t1 · es · cap_religiones_comparadas · el capítulo 52 → el capítulo 39
+t1 · es · cap_religiones_comparadas · el capítulo 51 → el capítulo 38
+t1 · es · cap_religiones_comparadas · el capítulo 27 → el capítulo 30
+t1 · es · cap_religiones_comparadas · **Nota al Capítulo 28** → **Nota al Capítulo 33**
+t1 · es · cap_religiones_comparadas · el capítulo 51 → el capítulo 38
+t1 · es · cap_espejo_sin_profundidad · del capítulo 4 → del capítulo 5
+t1 · es · cap_espejo_sin_profundidad · el capítulo 6 → el capítulo 7
+t1 · es · cap_espejo_sin_profundidad · en el capítulo 21 → en el capítulo 23
+t1 · es · cap_espejo_sin_profundidad · **Nota al Capítulo 31** → **Nota al Capítulo 34**
+t1 · es · cap17_7_alien · **Nota al Capítulo 39** → **Nota al Capítulo 35**
+t1 · es · cap17_7_alien · (capítulos 10 y 12 → (capítulos 11 y 13
+t1 · es · cap_realidad_fractal · **Nota al Capítulo 49** → **Nota al Capítulo 36**
+t1 · es · cap_realidad_fractal · en el capítulo 2 → en el capítulo 2
+t1 · es · cap_nave_de_barro · (capítulo 12 → (capítulo 13
+t1 · es · cap_nave_de_barro · El capítulo 29 → El capítulo 33
+t1 · es · cap_nave_de_barro · el capítulo 29 → el capítulo 33
+t1 · es · cap_nave_de_barro · el capítulo 29 → el capítulo 33
+t1 · es · cap_nave_de_barro · el capítulo 35 → el capítulo 21
+t1 · es · cap_nave_de_barro · el capítulo 47 → la lectura 3 del segundo tomo
+t1 · es · cap_nave_de_barro · el capítulo 17 → el capítulo 19
+t1 · es · cap_nave_de_barro · el capítulo 41 → la lectura 6 del segundo tomo
+t1 · es · cap_nave_de_barro · **Nota al Capítulo 50** → **Nota al Capítulo 37**
+t1 · es · cap19_real · (capítulo 3 → (capítulo 4
+t1 · es · cap19_real · del capítulo 4 → del capítulo 5
+t1 · es · cap19_real · en el capítulo 22 → en el capítulo 24
+t1 · es · cap19_real · **Nota al Capítulo 51** → **Nota al Capítulo 38**
+t1 · es · cap20_real · el capítulo 10 → el capítulo 11
+t1 · es · cap20_real · **Nota al Capítulo 52** → **Nota al Capítulo 39**
+t1 · es · cap_glosario · (capítulos 23 y 24 → (capítulos 27 y 28
+t1 · es · cap_glosario · (capítulo 10 → (capítulo 11
+t1 · es · cap_glosario · (capítulo 31 → (capítulo 7
+t1 · es · cap_glosario · (capítulo 3 → (capítulo 4
+t1 · es · cap_glosario · (capítulo 3 → (capítulo 4
+t1 · es · cap_glosario · (capítulos 22 y 31 → (capítulos 24 y 7
+t1 · es · cap_glosario · el capítulo 16 → el capítulo 18
+t1 · es · cap_glosario · capítulo 4 → capítulo 5
+t2 · es · cap17_6_real · en el capítulo 12 → en el capítulo 13
+t2 · es · cap17_6_real · en el capítulo 4 → en el capítulo 5
+t2 · es · cap17_6_real · en el capítulo 31 → en el capítulo 7
+t2 · es · cap17_6_real · en el capítulo 26 → en el capítulo 29
+t2 · es · cap17_6_real · **Nota al Capítulo 37** → **Nota a la lectura 1**
+t2 · es · cap17_6_real · (capítulo 31 → (capítulo 7
+t2 · es · cap17_6_real · (capítulo 26 → (capítulo 29
+t2 · es · cap_blade_runner · en el capítulo 4 → en el capítulo 5
+t2 · es · cap_blade_runner · del capítulo 31 → del capítulo 7
+t2 · es · cap_blade_runner · En el capítulo 37 → En la lectura 1
+t2 · es · cap_blade_runner · **Nota al Capítulo 38** → **Nota a la lectura 2**
+t2 · es · cap_maquina_tiempo · **Nota al Capítulo 47** → **Nota a la lectura 3**
+t2 · es · cap_horizonte_prestado · **Nota al Capítulo 48** → **Nota a la lectura 4**
+t2 · es · cap_three_body · **Nota al Capítulo 40** → **Nota a la lectura 5**
+t2 · es · cap17_8_cosmic · En el capítulo 5 → En el capítulo 6
+t2 · es · cap17_8_cosmic · **Nota al Capítulo 41** → **Nota a la lectura 6**
+t2 · es · cap_matrix · En el capítulo 5 → En el capítulo 6
+t2 · es · cap_matrix · **Nota al Capítulo 42** → **Nota a la lectura 7**
+t2 · es · cap_lenguaje_entrelazamiento · (capítulo 39 → (capítulo 35
+t2 · es · cap_lenguaje_entrelazamiento · en el capítulo 31 → en el capítulo 34
+t2 · es · cap_lenguaje_entrelazamiento · en el capítulo 21 → en el capítulo 23
+t2 · es · cap_lenguaje_entrelazamiento · **Nota al Capítulo 46** → **Nota a la lectura 8**
+t2 · es · cap_lenguaje_entrelazamiento · del capítulo 4 → del capítulo 5
+t2 · es · cap_lenguaje_entrelazamiento · en el capítulo 31 → en el capítulo 34
+t2 · es · cap_lenguaje_entrelazamiento · en el capítulo 45 → en la lectura 12
+t2 · es · cap_diapason_invisible · El capítulo 28 → El capítulo 33
+t2 · es · cap_diapason_invisible · El capítulo 28 → El capítulo 33
+t2 · es · cap_diapason_invisible · **Nota al Capítulo 29** → **Nota a la lectura 9**
+t2 · es · cap_ojo_un_solo_color · en el capítulo 27 → en el capítulo 30
+t2 · es · cap_ojo_un_solo_color · El capítulo 25 → El capítulo 31
+t2 · es · cap_ojo_un_solo_color · **Nota al Capítulo 30** → **Nota a la lectura 10**
+t2 · es · cap_cartografia_singularidades · **Nota al Capítulo 43** → **Nota a la lectura 11**
+t2 · es · cap_traductor · **Nota al Capítulo 45** → **Nota a la lectura 12**
+t2 · es · cap_historia_relevo · **Nota al Capítulo 44** → **Nota a la lectura 13**
+unico · ca · cap_nota_autor · El capítol 31 → El capítol 34
+unico · ca · cap_nota_autor · el capítol 28 → el capítol 33
+unico · ca · cap1 · (capítols 6 i 23 → (capítols 7 i 27
+unico · ca · cap1 · **Nota al Capítol 1** → **Nota al Capítol 1**
+unico · ca · cap2 · **Nota al Capítol 2** → **Nota al Capítol 2**
+unico · ca · cap_info_intro · el capítol 10 → el capítol 11
+unico · ca · cap_info_intro · el capítol 12 → el capítol 13
+unico · ca · cap_info_intro · el capítol 12 → el capítol 13
+unico · ca · cap_info_intro · {{n:cap_teoria_informacion}} → 20
+unico · ca · cap2_5 · **Nota al Capítol 3** → **Nota al Capítol 4**
+unico · ca · cap3 · el capítol 6 → el capítol 7
+unico · ca · cap3 · del capítol 1 → del capítol 1
+unico · ca · cap3 · (capítol 3 → (capítol 4
+unico · ca · cap3 · del capítol 31 → del capítol 7
+unico · ca · cap3 · del capítol 31 → del capítol 34
+unico · ca · cap3 · **Nota al Capítol 4** → **Nota al Capítol 5**
+unico · ca · cap4 · **Nota al Capítol 5** → **Nota al Capítol 6**
+unico · ca · cap4 · el capítol 23 → el capítol 27
+unico · ca · cap5 · el capítol 8 → el capítol 9
+unico · ca · cap5 · el capítol 4 → el capítol 5
+unico · ca · cap5 · Al capítol 1 → Al capítol 1
+unico · ca · cap5 · **Nota al Capítol 6** → **Nota al Capítol 7**
+unico · ca · cap6 · el capítol 11 → el capítol 12
+unico · ca · cap6 · el capítol 5 → el capítol 6
+unico · ca · cap6 · **Nota al Capítol 7** → **Nota al Capítol 8**
+unico · ca · cap6_5 · **Nota al Capítol 8** → **Nota al Capítol 9**
+unico · ca · cap6_6 · **Nota al Capítol 9** → **Nota al Capítol 10**
+unico · ca · interludio · al capítol 1 → al capítol 1
+unico · ca · cap7 · **Nota al Capítol 10** → **Nota al Capítol 11**
+unico · ca · cap7_5 · **Nota al Capítol 11** → **Nota al Capítol 12**
+unico · ca · cap8 · al capítol 11 → al capítol 12
+unico · ca · cap8 · el capítol 16 → el capítol 18
+unico · ca · cap8 · **Nota al Capítol 12** → **Nota al Capítol 13**
+unico · ca · cap9 · El capítol 10 → El capítol 11
+unico · ca · cap9 · **Nota al Capítol 13** → **Nota al Capítol 14**
+unico · ca · cap10 · El capítol 13 → El capítol 14
+unico · ca · cap10 · el capítol 13 → el capítol 14
+unico · ca · cap10 · el capítol 10 → el capítol 11
+unico · ca · cap10 · **Nota al Capítol 14** → **Nota al Capítol 15**
+unico · ca · cap11 · El capítol 14 → El capítol 15
+unico · ca · cap11 · El capítol 13 → El capítol 14
+unico · ca · cap11 · i el 12 → i el 13
+unico · ca · cap11 · del capítol 13 → del capítol 14
+unico · ca · cap11 · del capítol 6 → del capítol 7
+unico · ca · cap11 · En el capítol 13 → En el capítol 14
+unico · ca · cap11 · el capítol 14 → el capítol 15
+unico · ca · cap11 · el capítol 16 → el capítol 18
+unico · ca · cap11 · en el capítol 13 → en el capítol 14
+unico · ca · cap11 · El capítol 14 → El capítol 15
+unico · ca · cap11 · El capítol 14 → El capítol 15
+unico · ca · cap11 · I el 16 → I el 18
+unico · ca · cap11 · **Nota al Capítol 15** → **Nota al Capítol 16**
+unico · ca · cap18_real · del capítol 5 → del capítol 6
+unico · ca · cap18_real · del capítol 15 → del capítol 16
+unico · ca · cap18_real · el capítol 6 → el capítol 7
+unico · ca · cap18_real · (capítol 15 → (capítol 16
+unico · ca · cap18_real · El capítol 15 → El capítol 16
+unico · ca · cap18_real · **Nota al Capítol 32** → **Nota al Capítol 17**
+unico · ca · cap12 · en el capítol 10 → en el capítol 11
+unico · ca · cap12 · En el capítol 15 → En el capítol 16
+unico · ca · cap12 · en el capítol 15 → en el capítol 16
+unico · ca · cap12 · El capítol 5 → El capítol 6
+unico · ca · cap12 · el capítol 7 → el capítol 8
+unico · ca · cap12 · El capítol 12 → El capítol 13
+unico · ca · cap12 · del capítol 1 → del capítol 1
+unico · ca · cap12 · El capítol 12 → El capítol 13
+unico · ca · cap12 · **Nota al Capítol 16** → **Nota al Capítol 18**
+unico · ca · cap13 · El capítol 12 → El capítol 13
+unico · ca · cap13 · al capítol 13 → al capítol 14
+unico · ca · cap13 · Al capítol 15 → Al capítol 16
+unico · ca · cap13 · al capítol 10 → al capítol 11
+unico · ca · cap13 · El capítol 15 → El capítol 16
+unico · ca · cap13 · **Nota al Capítol 17** → **Nota al Capítol 19**
+unico · ca · cap_teoria_informacion · {{n:cap_info_intro}} → 3
+unico · ca · cap_teoria_informacion · el capítol 2 → el capítol 2
+unico · ca · cap_teoria_informacion · el capítol 11 → el capítol 12
+unico · ca · cap_teoria_informacion · El capítol 10 → El capítol 11
+unico · ca · cap_teoria_informacion · i el 12 → i el 13
+unico · ca · cap_teoria_informacion · El capítol 7 → El capítol 8
+unico · ca · cap_teoria_informacion · **Nota al Capítol 34** → **Nota al Capítol 20**
+unico · ca · cap_tres_puertas · El capítol 10 → El capítol 11
+unico · ca · cap_tres_puertas · i el 12 → i el 13
+unico · ca · cap_tres_puertas · el capítol 12 → el capítol 13
+unico · ca · cap_tres_puertas · al capítol 12 → al capítol 13
+unico · ca · cap_tres_puertas · El capítol 17 → El capítol 19
+unico · ca · cap_tres_puertas · El capítol 7 → El capítol 8
+unico · ca · cap_tres_puertas · i el 17 → i el 19
+unico · ca · cap_tres_puertas · el capítol 51 → el capítol 51
+unico · ca · cap_tres_puertas · **Nota al Capítol 35** → **Nota al Capítol 21**
+unico · ca · cap13_5 · Al capítol 17 → Al capítol 19
+unico · ca · cap13_5 · **Nota al Capítol 20** → **Nota al Capítol 22**
+unico · ca · cap18_6 · al capítol 19 → al capítol 26
+unico · ca · cap18_6 · del capítol 12 → del capítol 13
+unico · ca · cap18_6 · el capítol 20 → el capítol 22
+unico · ca · cap18_6 · **Nota al Capítol 21** → **Nota al Capítol 23**
+unico · ca · cap18_7 · **Nota al Capítol 22** → **Nota al Capítol 24**
+unico · ca · cap14_real · Al capítol 6 → Al capítol 7
+unico · ca · cap14_real · Al capítol 15 → Al capítol 16
+unico · ca · cap14_real · **Nota al Capítol 18** → **Nota al Capítol 25**
+unico · ca · cap15_real · **Nota al Capítol 19** → **Nota al Capítol 26**
+unico · ca · cap22_idempotencia · el capítol 1 → el capítol 1
+unico · ca · cap22_idempotencia · el capítol 51 → el capítol 51
+unico · ca · cap22_idempotencia · al capítol 21 → al capítol 23
+unico · ca · cap22_idempotencia · al capítol 21 → al capítol 23
+unico · ca · cap22_idempotencia · **Nota al Capítol 23** → **Nota al Capítol 27**
+unico · ca · cap23_experimentos_mentales · el capítol 23 → el capítol 27
+unico · ca · cap23_experimentos_mentales · el capítol 23 → el capítol 27
+unico · ca · cap23_experimentos_mentales · el capítol 23 → el capítol 27
+unico · ca · cap23_experimentos_mentales · el capítol 23 → el capítol 27
+unico · ca · cap23_experimentos_mentales · **Nota al Capítol 24** → **Nota al Capítol 28**
+unico · ca · cap17_real · del capítol 13 → del capítol 14
+unico · ca · cap17_real · **Nota al Capítol 26** → **Nota al Capítol 29**
+unico · ca · cap17_5_real · al capítol 10 → al capítol 11
+unico · ca · cap17_5_real · el capítol 28 → el capítol 33
+unico · ca · cap17_5_real · al capítol 30 → al capítol 45
+unico · ca · cap17_5_real · al capítol 51 → al capítol 51
+unico · ca · cap17_5_real · **Nota al Capítol 27** → **Nota al Capítol 30**
+unico · ca · cap16_real · (capítol 30 → (capítol 45
+unico · ca · cap16_real · El capítol 18 → El capítol 25
+unico · ca · cap16_real · **Nota al Capítol 25** → **Nota al Capítol 31**
+unico · ca · cap_calibracion · El capítol 31 → El capítol 7
+unico · ca · cap_calibracion · del capítol 31 → del capítol 7
+unico · ca · cap_calibracion · el capítol 15 → el capítol 16
+unico · ca · cap_calibracion · del capítol 31 → del capítol 7
+unico · ca · cap_calibracion · El capítol 3 → El capítol 4
+unico · ca · cap_calibracion · El capítol 32 → El capítol 17
+unico · ca · cap_calibracion · el capítol 31 → el capítol 7
+unico · ca · cap_calibracion · **Nota al Capítol 33** → **Nota al Capítol 32**
+unico · ca · cap_religiones_comparadas · El capítol 51 → El capítol 51
+unico · ca · cap_religiones_comparadas · al capítol 51 → al capítol 51
+unico · ca · cap_religiones_comparadas · capítols 2 i 5 → capítols 2 i 6
+unico · ca · cap_religiones_comparadas · del capítol 5 → del capítol 6
+unico · ca · cap_religiones_comparadas · del capítol 5 → del capítol 6
+unico · ca · cap_religiones_comparadas · el capítol 51 → el capítol 51
+unico · ca · cap_religiones_comparadas · el capítol 12 → el capítol 13
+unico · ca · cap_religiones_comparadas · el capítol 7 → el capítol 8
+unico · ca · cap_religiones_comparadas · al capítol 5 → al capítol 6
+unico · ca · cap_religiones_comparadas · al capítol 7 → al capítol 8
+unico · ca · cap_religiones_comparadas · al capítol 51 → al capítol 51
+unico · ca · cap_religiones_comparadas · el capítol 52 → el capítol 52
+unico · ca · cap_religiones_comparadas · el capítol 51 → el capítol 51
+unico · ca · cap_religiones_comparadas · el capítol 27 → el capítol 30
+unico · ca · cap_religiones_comparadas · **Nota al Capítol 28** → **Nota al Capítol 33**
+unico · ca · cap_religiones_comparadas · el capítol 51 → el capítol 51
+unico · ca · cap_espejo_sin_profundidad · del capítol 4 → del capítol 5
+unico · ca · cap_espejo_sin_profundidad · el capítol 6 → el capítol 7
+unico · ca · cap_espejo_sin_profundidad · al capítol 21 → al capítol 23
+unico · ca · cap_espejo_sin_profundidad · **Nota al Capítol 31** → **Nota al Capítol 34**
+unico · ca · cap17_7_alien · **Nota al Capítol 39** → **Nota al Capítol 35**
+unico · ca · cap17_7_alien · (capítols 10 i 12 → (capítols 11 i 13
+unico · ca · cap17_6_real · al capítol 12 → al capítol 13
+unico · ca · cap17_6_real · al capítol 4 → al capítol 5
+unico · ca · cap17_6_real · al capítol 31 → al capítol 7
+unico · ca · cap17_6_real · al capítol 26 → al capítol 29
+unico · ca · cap17_6_real · **Nota al Capítol 37** → **Nota al Capítol 36**
+unico · ca · cap17_6_real · (capítol 31 → (capítol 7
+unico · ca · cap17_6_real · (capítol 26 → (capítol 29
+unico · ca · cap_blade_runner · al capítol 4 → al capítol 5
+unico · ca · cap_blade_runner · del capítol 31 → del capítol 7
+unico · ca · cap_blade_runner · Al capítol 37 → Al capítol 36
+unico · ca · cap_blade_runner · **Nota al Capítol 38** → **Nota al Capítol 37**
+unico · ca · cap_maquina_tiempo · **Nota al Capítol 47** → **Nota al Capítol 38**
+unico · ca · cap_horizonte_prestado · **Nota al Capítol 48** → **Nota al Capítol 39**
+unico · ca · cap_three_body · **Nota al Capítol 40** → **Nota al Capítol 40**
+unico · ca · cap17_8_cosmic · Al capítol 5 → Al capítol 6
+unico · ca · cap17_8_cosmic · **Nota al Capítol 41** → **Nota al Capítol 41**
+unico · ca · cap_matrix · En el capítol 5 → En el capítol 6
+unico · ca · cap_matrix · **Nota al Capítol 42** → **Nota al Capítol 42**
+unico · ca · cap_lenguaje_entrelazamiento · (capítol 39 → (capítol 35
+unico · ca · cap_lenguaje_entrelazamiento · en el capítol 31 → en el capítol 34
+unico · ca · cap_lenguaje_entrelazamiento · en el capítol 21 → en el capítol 23
+unico · ca · cap_lenguaje_entrelazamiento · **Nota al Capítol 46** → **Nota al Capítol 43**
+unico · ca · cap_lenguaje_entrelazamiento · del capítol 4 → del capítol 5
+unico · ca · cap_lenguaje_entrelazamiento · en el capítol 31 → en el capítol 34
+unico · ca · cap_lenguaje_entrelazamiento · en el capítol 45 → en el capítol 47
+unico · ca · cap_diapason_invisible · El capítol 28 → El capítol 33
+unico · ca · cap_diapason_invisible · El capítol 28 → El capítol 33
+unico · ca · cap_diapason_invisible · **Nota al Capítol 29** → **Nota al Capítol 44**
+unico · ca · cap_ojo_un_solo_color · al capítol 27 → al capítol 30
+unico · ca · cap_ojo_un_solo_color · El capítol 25 → El capítol 31
+unico · ca · cap_ojo_un_solo_color · **Nota al Capítol 30** → **Nota al Capítol 45**
+unico · ca · cap_cartografia_singularidades · **Nota al Capítol 43** → **Nota al Capítol 46**
+unico · ca · cap_traductor · **Nota al Capítol 45** → **Nota al Capítol 47**
+unico · ca · cap_historia_relevo · **Nota al Capítol 44** → **Nota al Capítol 48**
+unico · ca · cap_realidad_fractal · **Nota al Capítol 49** → **Nota al Capítol 49**
+unico · ca · cap_realidad_fractal · al capítol 2 → al capítol 2
+unico · ca · cap_nave_de_barro · (capítol 12 → (capítol 13
+unico · ca · cap_nave_de_barro · El capítol 29 → El capítol 33
+unico · ca · cap_nave_de_barro · el capítol 29 → el capítol 33
+unico · ca · cap_nave_de_barro · el capítol 29 → el capítol 33
+unico · ca · cap_nave_de_barro · al capítol 41 → al capítol 41
+unico · ca · cap_nave_de_barro · el capítol 35 → el capítol 21
+unico · ca · cap_nave_de_barro · el capítol 47 → el capítol 38
+unico · ca · cap_nave_de_barro · el capítol 17 → el capítol 19
+unico · ca · cap_nave_de_barro · el capítol 41 → el capítol 41
+unico · ca · cap_nave_de_barro · **Nota al Capítol 50** → **Nota al Capítol 50**
+unico · ca · cap19_real · (capítol 3 → (capítol 4
+unico · ca · cap19_real · del capítol 4 → del capítol 5
+unico · ca · cap19_real · al capítol 22 → al capítol 24
+unico · ca · cap19_real · **Nota al Capítol 51** → **Nota al Capítol 51**
+unico · ca · cap20_real · el capítol 10 → el capítol 11
+unico · ca · cap20_real · **Nota al Capítol 52** → **Nota al Capítol 52**
+unico · ca · cap_glosario · (capítols 23 i 24 → (capítols 27 i 28
+unico · ca · cap_glosario · (capítol 10 → (capítol 11
+unico · ca · cap_glosario · (capítol 31 → (capítol 7
+unico · ca · cap_glosario · (capítol 3 → (capítol 4
+unico · ca · cap_glosario · (capítol 3 → (capítol 4
+unico · ca · cap_glosario · (capítols 22 i 31 → (capítols 24 i 7
+unico · ca · cap_glosario · el capítol 16 → el capítol 18
+unico · ca · cap_glosario · capítol 4 → capítol 5
+t1 · ca · cap_nota_autor · El capítol 31 → El capítol 34
+t1 · ca · cap_nota_autor · el capítol 28 → el capítol 33
+t1 · ca · cap1 · (capítols 6 i 23 → (capítols 7 i 27
+t1 · ca · cap1 · **Nota al Capítol 1** → **Nota al Capítol 1**
+t1 · ca · cap2 · **Nota al Capítol 2** → **Nota al Capítol 2**
+t1 · ca · cap_info_intro · el capítol 10 → el capítol 11
+t1 · ca · cap_info_intro · el capítol 12 → el capítol 13
+t1 · ca · cap_info_intro · el capítol 12 → el capítol 13
+t1 · ca · cap_info_intro · {{n:cap_teoria_informacion}} → 20
+t1 · ca · cap2_5 · **Nota al Capítol 3** → **Nota al Capítol 4**
+t1 · ca · cap3 · el capítol 6 → el capítol 7
+t1 · ca · cap3 · del capítol 1 → del capítol 1
+t1 · ca · cap3 · (capítol 3 → (capítol 4
+t1 · ca · cap3 · del capítol 31 → del capítol 7
+t1 · ca · cap3 · del capítol 31 → del capítol 34
+t1 · ca · cap3 · **Nota al Capítol 4** → **Nota al Capítol 5**
+t1 · ca · cap4 · **Nota al Capítol 5** → **Nota al Capítol 6**
+t1 · ca · cap4 · el capítol 23 → el capítol 27
+t1 · ca · cap5 · el capítol 8 → el capítol 9
+t1 · ca · cap5 · el capítol 4 → el capítol 5
+t1 · ca · cap5 · Al capítol 1 → Al capítol 1
+t1 · ca · cap5 · **Nota al Capítol 6** → **Nota al Capítol 7**
+t1 · ca · cap6 · el capítol 11 → el capítol 12
+t1 · ca · cap6 · el capítol 5 → el capítol 6
+t1 · ca · cap6 · **Nota al Capítol 7** → **Nota al Capítol 8**
+t1 · ca · cap6_5 · **Nota al Capítol 8** → **Nota al Capítol 9**
+t1 · ca · cap6_6 · **Nota al Capítol 9** → **Nota al Capítol 10**
+t1 · ca · interludio · al capítol 1 → al capítol 1
+t1 · ca · cap7 · **Nota al Capítol 10** → **Nota al Capítol 11**
+t1 · ca · cap7_5 · **Nota al Capítol 11** → **Nota al Capítol 12**
+t1 · ca · cap8 · al capítol 11 → al capítol 12
+t1 · ca · cap8 · el capítol 16 → el capítol 18
+t1 · ca · cap8 · **Nota al Capítol 12** → **Nota al Capítol 13**
+t1 · ca · cap9 · El capítol 10 → El capítol 11
+t1 · ca · cap9 · **Nota al Capítol 13** → **Nota al Capítol 14**
+t1 · ca · cap10 · El capítol 13 → El capítol 14
+t1 · ca · cap10 · el capítol 13 → el capítol 14
+t1 · ca · cap10 · el capítol 10 → el capítol 11
+t1 · ca · cap10 · **Nota al Capítol 14** → **Nota al Capítol 15**
+t1 · ca · cap11 · El capítol 14 → El capítol 15
+t1 · ca · cap11 · El capítol 13 → El capítol 14
+t1 · ca · cap11 · i el 12 → i el 13
+t1 · ca · cap11 · del capítol 13 → del capítol 14
+t1 · ca · cap11 · del capítol 6 → del capítol 7
+t1 · ca · cap11 · En el capítol 13 → En el capítol 14
+t1 · ca · cap11 · el capítol 14 → el capítol 15
+t1 · ca · cap11 · el capítol 16 → el capítol 18
+t1 · ca · cap11 · en el capítol 13 → en el capítol 14
+t1 · ca · cap11 · El capítol 14 → El capítol 15
+t1 · ca · cap11 · El capítol 14 → El capítol 15
+t1 · ca · cap11 · I el 16 → I el 18
+t1 · ca · cap11 · **Nota al Capítol 15** → **Nota al Capítol 16**
+t1 · ca · cap18_real · del capítol 5 → del capítol 6
+t1 · ca · cap18_real · del capítol 15 → del capítol 16
+t1 · ca · cap18_real · el capítol 6 → el capítol 7
+t1 · ca · cap18_real · (capítol 15 → (capítol 16
+t1 · ca · cap18_real · El capítol 15 → El capítol 16
+t1 · ca · cap18_real · **Nota al Capítol 32** → **Nota al Capítol 17**
+t1 · ca · cap12 · en el capítol 10 → en el capítol 11
+t1 · ca · cap12 · En el capítol 15 → En el capítol 16
+t1 · ca · cap12 · en el capítol 15 → en el capítol 16
+t1 · ca · cap12 · El capítol 5 → El capítol 6
+t1 · ca · cap12 · el capítol 7 → el capítol 8
+t1 · ca · cap12 · El capítol 12 → El capítol 13
+t1 · ca · cap12 · del capítol 1 → del capítol 1
+t1 · ca · cap12 · El capítol 12 → El capítol 13
+t1 · ca · cap12 · **Nota al Capítol 16** → **Nota al Capítol 18**
+t1 · ca · cap13 · El capítol 12 → El capítol 13
+t1 · ca · cap13 · al capítol 13 → al capítol 14
+t1 · ca · cap13 · Al capítol 15 → Al capítol 16
+t1 · ca · cap13 · al capítol 10 → al capítol 11
+t1 · ca · cap13 · El capítol 15 → El capítol 16
+t1 · ca · cap13 · **Nota al Capítol 17** → **Nota al Capítol 19**
+t1 · ca · cap_teoria_informacion · {{n:cap_info_intro}} → 3
+t1 · ca · cap_teoria_informacion · el capítol 2 → el capítol 2
+t1 · ca · cap_teoria_informacion · el capítol 11 → el capítol 12
+t1 · ca · cap_teoria_informacion · El capítol 10 → El capítol 11
+t1 · ca · cap_teoria_informacion · i el 12 → i el 13
+t1 · ca · cap_teoria_informacion · El capítol 7 → El capítol 8
+t1 · ca · cap_teoria_informacion · **Nota al Capítol 34** → **Nota al Capítol 20**
+t1 · ca · cap_tres_puertas · El capítol 10 → El capítol 11
+t1 · ca · cap_tres_puertas · i el 12 → i el 13
+t1 · ca · cap_tres_puertas · el capítol 12 → el capítol 13
+t1 · ca · cap_tres_puertas · al capítol 12 → al capítol 13
+t1 · ca · cap_tres_puertas · El capítol 17 → El capítol 19
+t1 · ca · cap_tres_puertas · El capítol 7 → El capítol 8
+t1 · ca · cap_tres_puertas · i el 17 → i el 19
+t1 · ca · cap_tres_puertas · el capítol 51 → el capítol 38
+t1 · ca · cap_tres_puertas · **Nota al Capítol 35** → **Nota al Capítol 21**
+t1 · ca · cap13_5 · Al capítol 17 → Al capítol 19
+t1 · ca · cap13_5 · **Nota al Capítol 20** → **Nota al Capítol 22**
+t1 · ca · cap18_6 · al capítol 19 → al capítol 26
+t1 · ca · cap18_6 · del capítol 12 → del capítol 13
+t1 · ca · cap18_6 · el capítol 20 → el capítol 22
+t1 · ca · cap18_6 · **Nota al Capítol 21** → **Nota al Capítol 23**
+t1 · ca · cap18_7 · **Nota al Capítol 22** → **Nota al Capítol 24**
+t1 · ca · cap14_real · Al capítol 6 → Al capítol 7
+t1 · ca · cap14_real · Al capítol 15 → Al capítol 16
+t1 · ca · cap14_real · **Nota al Capítol 18** → **Nota al Capítol 25**
+t1 · ca · cap15_real · **Nota al Capítol 19** → **Nota al Capítol 26**
+t1 · ca · cap22_idempotencia · el capítol 1 → el capítol 1
+t1 · ca · cap22_idempotencia · el capítol 51 → el capítol 38
+t1 · ca · cap22_idempotencia · al capítol 21 → al capítol 23
+t1 · ca · cap22_idempotencia · al capítol 21 → al capítol 23
+t1 · ca · cap22_idempotencia · **Nota al Capítol 23** → **Nota al Capítol 27**
+t1 · ca · cap23_experimentos_mentales · el capítol 23 → el capítol 27
+t1 · ca · cap23_experimentos_mentales · el capítol 23 → el capítol 27
+t1 · ca · cap23_experimentos_mentales · el capítol 23 → el capítol 27
+t1 · ca · cap23_experimentos_mentales · el capítol 23 → el capítol 27
+t1 · ca · cap23_experimentos_mentales · **Nota al Capítol 24** → **Nota al Capítol 28**
+t1 · ca · cap17_real · del capítol 13 → del capítol 14
+t1 · ca · cap17_real · **Nota al Capítol 26** → **Nota al Capítol 29**
+t1 · ca · cap17_5_real · al capítol 10 → al capítol 11
+t1 · ca · cap17_5_real · el capítol 28 → el capítol 33
+t1 · ca · cap17_5_real · al capítol 30 → a la lectura 10 del segon volum
+t1 · ca · cap17_5_real · al capítol 51 → al capítol 38
+t1 · ca · cap17_5_real · **Nota al Capítol 27** → **Nota al Capítol 30**
+t1 · ca · cap16_real · (capítol 30 → (lectura 10 del segon volum
+t1 · ca · cap16_real · El capítol 18 → El capítol 25
+t1 · ca · cap16_real · **Nota al Capítol 25** → **Nota al Capítol 31**
+t1 · ca · cap_calibracion · El capítol 31 → El capítol 7
+t1 · ca · cap_calibracion · del capítol 31 → del capítol 7
+t1 · ca · cap_calibracion · el capítol 15 → el capítol 16
+t1 · ca · cap_calibracion · del capítol 31 → del capítol 7
+t1 · ca · cap_calibracion · El capítol 3 → El capítol 4
+t1 · ca · cap_calibracion · El capítol 32 → El capítol 17
+t1 · ca · cap_calibracion · el capítol 31 → el capítol 7
+t1 · ca · cap_calibracion · **Nota al Capítol 33** → **Nota al Capítol 32**
+t1 · ca · cap_religiones_comparadas · El capítol 51 → El capítol 38
+t1 · ca · cap_religiones_comparadas · al capítol 51 → al capítol 38
+t1 · ca · cap_religiones_comparadas · capítols 2 i 5 → capítols 2 i 6
+t1 · ca · cap_religiones_comparadas · del capítol 5 → del capítol 6
+t1 · ca · cap_religiones_comparadas · del capítol 5 → del capítol 6
+t1 · ca · cap_religiones_comparadas · el capítol 51 → el capítol 38
+t1 · ca · cap_religiones_comparadas · el capítol 12 → el capítol 13
+t1 · ca · cap_religiones_comparadas · el capítol 7 → el capítol 8
+t1 · ca · cap_religiones_comparadas · al capítol 5 → al capítol 6
+t1 · ca · cap_religiones_comparadas · al capítol 7 → al capítol 8
+t1 · ca · cap_religiones_comparadas · al capítol 51 → al capítol 38
+t1 · ca · cap_religiones_comparadas · el capítol 52 → el capítol 39
+t1 · ca · cap_religiones_comparadas · el capítol 51 → el capítol 38
+t1 · ca · cap_religiones_comparadas · el capítol 27 → el capítol 30
+t1 · ca · cap_religiones_comparadas · **Nota al Capítol 28** → **Nota al Capítol 33**
+t1 · ca · cap_religiones_comparadas · el capítol 51 → el capítol 38
+t1 · ca · cap_espejo_sin_profundidad · del capítol 4 → del capítol 5
+t1 · ca · cap_espejo_sin_profundidad · el capítol 6 → el capítol 7
+t1 · ca · cap_espejo_sin_profundidad · al capítol 21 → al capítol 23
+t1 · ca · cap_espejo_sin_profundidad · **Nota al Capítol 31** → **Nota al Capítol 34**
+t1 · ca · cap17_7_alien · **Nota al Capítol 39** → **Nota al Capítol 35**
+t1 · ca · cap17_7_alien · (capítols 10 i 12 → (capítols 11 i 13
+t1 · ca · cap_realidad_fractal · **Nota al Capítol 49** → **Nota al Capítol 36**
+t1 · ca · cap_realidad_fractal · al capítol 2 → al capítol 2
+t1 · ca · cap_nave_de_barro · (capítol 12 → (capítol 13
+t1 · ca · cap_nave_de_barro · El capítol 29 → El capítol 33
+t1 · ca · cap_nave_de_barro · el capítol 29 → el capítol 33
+t1 · ca · cap_nave_de_barro · el capítol 29 → el capítol 33
+t1 · ca · cap_nave_de_barro · el capítol 35 → el capítol 21
+t1 · ca · cap_nave_de_barro · el capítol 47 → la lectura 3 del segon volum
+t1 · ca · cap_nave_de_barro · el capítol 17 → el capítol 19
+t1 · ca · cap_nave_de_barro · el capítol 41 → la lectura 6 del segon volum
+t1 · ca · cap_nave_de_barro · **Nota al Capítol 50** → **Nota al Capítol 37**
+t1 · ca · cap19_real · (capítol 3 → (capítol 4
+t1 · ca · cap19_real · del capítol 4 → del capítol 5
+t1 · ca · cap19_real · al capítol 22 → al capítol 24
+t1 · ca · cap19_real · **Nota al Capítol 51** → **Nota al Capítol 38**
+t1 · ca · cap20_real · el capítol 10 → el capítol 11
+t1 · ca · cap20_real · **Nota al Capítol 52** → **Nota al Capítol 39**
+t1 · ca · cap_glosario · (capítols 23 i 24 → (capítols 27 i 28
+t1 · ca · cap_glosario · (capítol 10 → (capítol 11
+t1 · ca · cap_glosario · (capítol 31 → (capítol 7
+t1 · ca · cap_glosario · (capítol 3 → (capítol 4
+t1 · ca · cap_glosario · (capítol 3 → (capítol 4
+t1 · ca · cap_glosario · (capítols 22 i 31 → (capítols 24 i 7
+t1 · ca · cap_glosario · el capítol 16 → el capítol 18
+t1 · ca · cap_glosario · capítol 4 → capítol 5
+t2 · ca · cap17_6_real · al capítol 12 → al capítol 13
+t2 · ca · cap17_6_real · al capítol 4 → al capítol 5
+t2 · ca · cap17_6_real · al capítol 31 → al capítol 7
+t2 · ca · cap17_6_real · al capítol 26 → al capítol 29
+t2 · ca · cap17_6_real · **Nota al Capítol 37** → **Nota a la lectura 1**
+t2 · ca · cap17_6_real · (capítol 31 → (capítol 7
+t2 · ca · cap17_6_real · (capítol 26 → (capítol 29
+t2 · ca · cap_blade_runner · al capítol 4 → al capítol 5
+t2 · ca · cap_blade_runner · del capítol 31 → del capítol 7
+t2 · ca · cap_blade_runner · Al capítol 37 → A la lectura 1
+t2 · ca · cap_blade_runner · **Nota al Capítol 38** → **Nota a la lectura 2**
+t2 · ca · cap_maquina_tiempo · **Nota al Capítol 47** → **Nota a la lectura 3**
+t2 · ca · cap_horizonte_prestado · **Nota al Capítol 48** → **Nota a la lectura 4**
+t2 · ca · cap_three_body · **Nota al Capítol 40** → **Nota a la lectura 5**
+t2 · ca · cap17_8_cosmic · Al capítol 5 → Al capítol 6
+t2 · ca · cap17_8_cosmic · **Nota al Capítol 41** → **Nota a la lectura 6**
+t2 · ca · cap_matrix · En el capítol 5 → En el capítol 6
+t2 · ca · cap_matrix · **Nota al Capítol 42** → **Nota a la lectura 7**
+t2 · ca · cap_lenguaje_entrelazamiento · (capítol 39 → (capítol 35
+t2 · ca · cap_lenguaje_entrelazamiento · en el capítol 31 → en el capítol 34
+t2 · ca · cap_lenguaje_entrelazamiento · en el capítol 21 → en el capítol 23
+t2 · ca · cap_lenguaje_entrelazamiento · **Nota al Capítol 46** → **Nota a la lectura 8**
+t2 · ca · cap_lenguaje_entrelazamiento · del capítol 4 → del capítol 5
+t2 · ca · cap_lenguaje_entrelazamiento · en el capítol 31 → en el capítol 34
+t2 · ca · cap_lenguaje_entrelazamiento · en el capítol 45 → en la lectura 12
+t2 · ca · cap_diapason_invisible · El capítol 28 → El capítol 33
+t2 · ca · cap_diapason_invisible · El capítol 28 → El capítol 33
+t2 · ca · cap_diapason_invisible · **Nota al Capítol 29** → **Nota a la lectura 9**
+t2 · ca · cap_ojo_un_solo_color · al capítol 27 → al capítol 30
+t2 · ca · cap_ojo_un_solo_color · El capítol 25 → El capítol 31
+t2 · ca · cap_ojo_un_solo_color · **Nota al Capítol 30** → **Nota a la lectura 10**
+t2 · ca · cap_cartografia_singularidades · **Nota al Capítol 43** → **Nota a la lectura 11**
+t2 · ca · cap_traductor · **Nota al Capítol 45** → **Nota a la lectura 12**
+t2 · ca · cap_historia_relevo · **Nota al Capítol 44** → **Nota a la lectura 13**
+unico · en · cap_nota_autor · Chapter 31 → Chapter 34
+unico · en · cap_nota_autor · chapter 28 → chapter 33
+unico · en · cap1 · (chapters 6 and 23 → (chapters 7 and 27
+unico · en · cap1 · **Note to Chapter 1** → **Note to Chapter 1**
+unico · en · cap2 · **Note to Chapter 2** → **Note to Chapter 2**
+unico · en · cap_info_intro · Chapter 10 → Chapter 11
+unico · en · cap_info_intro · Chapter 12 → Chapter 13
+unico · en · cap_info_intro · Chapter 12 → Chapter 13
+unico · en · cap_info_intro · {{n:cap_teoria_informacion}} → 20
+unico · en · cap2_5 · **Note to Chapter 3** → **Note to Chapter 4**
+unico · en · cap3 · chapter 6 → chapter 7
+unico · en · cap3 · chapter 1 → chapter 1
+unico · en · cap3 · (chapter 3 → (chapter 4
+unico · en · cap3 · chapter 31 → chapter 7
+unico · en · cap3 · chapter 31 → chapter 34
+unico · en · cap3 · **Note to Chapter 4** → **Note to Chapter 5**
+unico · en · cap4 · **Note to Chapter 5** → **Note to Chapter 6**
+unico · en · cap4 · chapter 23 → chapter 27
+unico · en · cap5 · chapter 8 → chapter 9
+unico · en · cap5 · Chapter 4 → Chapter 5
+unico · en · cap5 · chapter 1 → chapter 1
+unico · en · cap5 · **Note to Chapter 6** → **Note to Chapter 7**
+unico · en · cap6 · Chapter 11 → Chapter 12
+unico · en · cap6 · chapter 5 → chapter 6
+unico · en · cap6 · **Note to Chapter 7** → **Note to Chapter 8**
+unico · en · cap6_5 · **Note to Chapter 8** → **Note to Chapter 9**
+unico · en · cap6_6 · **Note to Chapter 9** → **Note to Chapter 10**
+unico · en · interludio · chapter 1 → chapter 1
+unico · en · cap7 · **Note to Chapter 10** → **Note to Chapter 11**
+unico · en · cap7_5 · **Note to Chapter 11** → **Note to Chapter 12**
+unico · en · cap8 · Chapter 11 → Chapter 12
+unico · en · cap8 · (Chapter 16 → (Chapter 18
+unico · en · cap8 · **Note to Chapter 12** → **Note to Chapter 13**
+unico · en · cap9 · Chapter 10 → Chapter 11
+unico · en · cap9 · **Note to Chapter 13** → **Note to Chapter 14**
+unico · en · cap10 · Chapter 13 → Chapter 14
+unico · en · cap10 · Chapter 13 → Chapter 14
+unico · en · cap10 · Chapter 10 → Chapter 11
+unico · en · cap10 · **Note to Chapter 14** → **Note to Chapter 15**
+unico · en · cap11 · Chapter 14 → Chapter 15
+unico · en · cap11 · Chapter 13 → Chapter 14
+unico · en · cap11 · Chapter 12 → Chapter 13
+unico · en · cap11 · Chapter 13 → Chapter 14
+unico · en · cap11 · Chapter 6 → Chapter 7
+unico · en · cap11 · Chapter 13 → Chapter 14
+unico · en · cap11 · Chapter 14 → Chapter 15
+unico · en · cap11 · Chapter 16 → Chapter 18
+unico · en · cap11 · Chapter 13 → Chapter 14
+unico · en · cap11 · Chapter 14 → Chapter 15
+unico · en · cap11 · Chapter 14 → Chapter 15
+unico · en · cap11 · Chapter 16 → Chapter 18
+unico · en · cap11 · **Note to Chapter 15** → **Note to Chapter 16**
+unico · en · cap18_real · Chapter 5 → Chapter 6
+unico · en · cap18_real · Chapter 15 → Chapter 16
+unico · en · cap18_real · (Chapter 6 → (Chapter 7
+unico · en · cap18_real · (Chapter 15 → (Chapter 16
+unico · en · cap18_real · Chapter 15 → Chapter 16
+unico · en · cap18_real · **Note to Chapter 32** → **Note to Chapter 17**
+unico · en · cap12 · Chapter 10 → Chapter 11
+unico · en · cap12 · Chapter 15 → Chapter 16
+unico · en · cap12 · Chapter 15 → Chapter 16
+unico · en · cap12 · Chapter 5 → Chapter 6
+unico · en · cap12 · Chapter 7 → Chapter 8
+unico · en · cap12 · Chapter 12 → Chapter 13
+unico · en · cap12 · Chapter 1 → Chapter 1
+unico · en · cap12 · Chapter 12 → Chapter 13
+unico · en · cap12 · **Note to Chapter 16** → **Note to Chapter 18**
+unico · en · cap13 · Chapter 12 → Chapter 13
+unico · en · cap13 · Chapter 13 → Chapter 14
+unico · en · cap13 · Chapter 15 → Chapter 16
+unico · en · cap13 · Chapter 10 → Chapter 11
+unico · en · cap13 · Chapter 15 → Chapter 16
+unico · en · cap13 · **Note to Chapter 17** → **Note to Chapter 19**
+unico · en · cap_teoria_informacion · {{n:cap_info_intro}} → 3
+unico · en · cap_teoria_informacion · Chapter 2 → Chapter 2
+unico · en · cap_teoria_informacion · Chapter 11 → Chapter 12
+unico · en · cap_teoria_informacion · Chapter 10 → Chapter 11
+unico · en · cap_teoria_informacion · Chapter 12 → Chapter 13
+unico · en · cap_teoria_informacion · Chapter 7 → Chapter 8
+unico · en · cap_teoria_informacion · **Note to Chapter 34** → **Note to Chapter 20**
+unico · en · cap_tres_puertas · Chapter 10 → Chapter 11
+unico · en · cap_tres_puertas · Chapter 12 → Chapter 13
+unico · en · cap_tres_puertas · Chapter 12 → Chapter 13
+unico · en · cap_tres_puertas · Chapter 12 → Chapter 13
+unico · en · cap_tres_puertas · Chapter 17 → Chapter 19
+unico · en · cap_tres_puertas · Chapter 7 → Chapter 8
+unico · en · cap_tres_puertas · Chapter 17 → Chapter 19
+unico · en · cap_tres_puertas · Chapter 51 → Chapter 51
+unico · en · cap_tres_puertas · **Note to Chapter 35** → **Note to Chapter 21**
+unico · en · cap13_5 · Chapter 17 → Chapter 19
+unico · en · cap13_5 · **Note to Chapter 20** → **Note to Chapter 22**
+unico · en · cap18_6 · Chapter 19 → Chapter 26
+unico · en · cap18_6 · Chapter 12 → Chapter 13
+unico · en · cap18_6 · Chapter 20 → Chapter 22
+unico · en · cap18_6 · **Note to Chapter 21** → **Note to Chapter 23**
+unico · en · cap18_7 · **Note to Chapter 22** → **Note to Chapter 24**
+unico · en · cap14_real · Chapter 6 → Chapter 7
+unico · en · cap14_real · Chapter 15 → Chapter 16
+unico · en · cap14_real · **Note to Chapter 18** → **Note to Chapter 25**
+unico · en · cap15_real · **Note to Chapter 19** → **Note to Chapter 26**
+unico · en · cap22_idempotencia · Chapter 1 → Chapter 1
+unico · en · cap22_idempotencia · Chapter 51 → Chapter 51
+unico · en · cap22_idempotencia · Chapter 21 → Chapter 23
+unico · en · cap22_idempotencia · Chapter 21 → Chapter 23
+unico · en · cap22_idempotencia · **Note to Chapter 23** → **Note to Chapter 27**
+unico · en · cap23_experimentos_mentales · Chapter 23 → Chapter 27
+unico · en · cap23_experimentos_mentales · Chapter 23 → Chapter 27
+unico · en · cap23_experimentos_mentales · Chapter 23 → Chapter 27
+unico · en · cap23_experimentos_mentales · Chapter 23 → Chapter 27
+unico · en · cap23_experimentos_mentales · **Note to Chapter 24** → **Note to Chapter 28**
+unico · en · cap17_real · Chapter 13 → Chapter 14
+unico · en · cap17_real · **Note to Chapter 26** → **Note to Chapter 29**
+unico · en · cap17_5_real · Chapter 10 → Chapter 11
+unico · en · cap17_5_real · Chapter 28 → Chapter 33
+unico · en · cap17_5_real · Chapter 30 → Chapter 45
+unico · en · cap17_5_real · Chapter 51 → Chapter 51
+unico · en · cap17_5_real · **Note to Chapter 27** → **Note to Chapter 30**
+unico · en · cap16_real · (Chapter 30 → (Chapter 45
+unico · en · cap16_real · Chapter 18 → Chapter 25
+unico · en · cap16_real · **Note to Chapter 25** → **Note to Chapter 31**
+unico · en · cap_calibracion · Chapter 31 → Chapter 7
+unico · en · cap_calibracion · Chapter 31 → Chapter 7
+unico · en · cap_calibracion · Chapter 15 → Chapter 16
+unico · en · cap_calibracion · Chapter 31 → Chapter 7
+unico · en · cap_calibracion · Chapter 3 → Chapter 4
+unico · en · cap_calibracion · Chapter 32 → Chapter 17
+unico · en · cap_calibracion · Chapter 31 → Chapter 7
+unico · en · cap_calibracion · **Note to Chapter 33** → **Note to Chapter 32**
+unico · en · cap_religiones_comparadas · Chapter 51 → Chapter 51
+unico · en · cap_religiones_comparadas · Chapter 51 → Chapter 51
+unico · en · cap_religiones_comparadas · Chapters 2 and 5 → Chapters 2 and 6
+unico · en · cap_religiones_comparadas · Chapter 5 → Chapter 6
+unico · en · cap_religiones_comparadas · Chapter 5 → Chapter 6
+unico · en · cap_religiones_comparadas · Chapter 51 → Chapter 51
+unico · en · cap_religiones_comparadas · Chapter 12 → Chapter 13
+unico · en · cap_religiones_comparadas · Chapter 7 → Chapter 8
+unico · en · cap_religiones_comparadas · Chapter 5 → Chapter 6
+unico · en · cap_religiones_comparadas · Chapter 7 → Chapter 8
+unico · en · cap_religiones_comparadas · Chapter 51 → Chapter 51
+unico · en · cap_religiones_comparadas · Chapter 52 → Chapter 52
+unico · en · cap_religiones_comparadas · Chapter 51 → Chapter 51
+unico · en · cap_religiones_comparadas · Chapter 27 → Chapter 30
+unico · en · cap_religiones_comparadas · **Note to Chapter 28** → **Note to Chapter 33**
+unico · en · cap_religiones_comparadas · Chapter 51 → Chapter 51
+unico · en · cap_espejo_sin_profundidad · Chapter 4 → Chapter 5
+unico · en · cap_espejo_sin_profundidad · Chapter 6 → Chapter 7
+unico · en · cap_espejo_sin_profundidad · Chapter 21 → Chapter 23
+unico · en · cap_espejo_sin_profundidad · **Note to Chapter 31** → **Note to Chapter 34**
+unico · en · cap17_7_alien · **Note to Chapter 39** → **Note to Chapter 35**
+unico · en · cap17_7_alien · (Chapters 10 and 12 → (Chapters 11 and 13
+unico · en · cap17_6_real · Chapter 12 → Chapter 13
+unico · en · cap17_6_real · Chapter 4 → Chapter 5
+unico · en · cap17_6_real · Chapter 31 → Chapter 7
+unico · en · cap17_6_real · Chapter 26 → Chapter 29
+unico · en · cap17_6_real · **Note to Chapter 37** → **Note to Chapter 36**
+unico · en · cap17_6_real · (Chapter 31 → (Chapter 7
+unico · en · cap17_6_real · (Chapter 26 → (Chapter 29
+unico · en · cap_blade_runner · Chapter 4 → Chapter 5
+unico · en · cap_blade_runner · Chapter 31 → Chapter 7
+unico · en · cap_blade_runner · Chapter 37 → Chapter 36
+unico · en · cap_blade_runner · **Note to Chapter 38** → **Note to Chapter 37**
+unico · en · cap_maquina_tiempo · **Note to Chapter 47** → **Note to Chapter 38**
+unico · en · cap_horizonte_prestado · **Note to Chapter 48** → **Note to Chapter 39**
+unico · en · cap_three_body · **Note to Chapter 40** → **Note to Chapter 40**
+unico · en · cap17_8_cosmic · Chapter 5 → Chapter 6
+unico · en · cap17_8_cosmic · **Note to Chapter 41** → **Note to Chapter 41**
+unico · en · cap_matrix · Chapter 5 → Chapter 6
+unico · en · cap_matrix · **Note to Chapter 42** → **Note to Chapter 42**
+unico · en · cap_lenguaje_entrelazamiento · (Chapter 39 → (Chapter 35
+unico · en · cap_lenguaje_entrelazamiento · Chapter 31 → Chapter 34
+unico · en · cap_lenguaje_entrelazamiento · Chapter 21 → Chapter 23
+unico · en · cap_lenguaje_entrelazamiento · **Note to Chapter 46** → **Note to Chapter 43**
+unico · en · cap_lenguaje_entrelazamiento · Chapter 4 → Chapter 5
+unico · en · cap_lenguaje_entrelazamiento · Chapter 31 → Chapter 34
+unico · en · cap_lenguaje_entrelazamiento · Chapter 45 → Chapter 47
+unico · en · cap_diapason_invisible · Chapter 28 → Chapter 33
+unico · en · cap_diapason_invisible · Chapter 28 → Chapter 33
+unico · en · cap_diapason_invisible · **Note to Chapter 29** → **Note to Chapter 44**
+unico · en · cap_ojo_un_solo_color · Chapter 27 → Chapter 30
+unico · en · cap_ojo_un_solo_color · Chapter 25 → Chapter 31
+unico · en · cap_ojo_un_solo_color · **Note to Chapter 30** → **Note to Chapter 45**
+unico · en · cap_cartografia_singularidades · **Note to Chapter 43** → **Note to Chapter 46**
+unico · en · cap_traductor · **Note to Chapter 45** → **Note to Chapter 47**
+unico · en · cap_historia_relevo · **Note to Chapter 44** → **Note to Chapter 48**
+unico · en · cap_realidad_fractal · **Note to Chapter 49** → **Note to Chapter 49**
+unico · en · cap_realidad_fractal · chapter 7 → chapter 8
+unico · en · cap_realidad_fractal · chapter 2 → chapter 2
+unico · en · cap_nave_de_barro · (Chapter 12 → (Chapter 13
+unico · en · cap_nave_de_barro · Chapter 29 → Chapter 33
+unico · en · cap_nave_de_barro · Chapter 29 → Chapter 33
+unico · en · cap_nave_de_barro · Chapter 29 → Chapter 33
+unico · en · cap_nave_de_barro · Chapter 41 → Chapter 41
+unico · en · cap_nave_de_barro · Chapter 35 → Chapter 21
+unico · en · cap_nave_de_barro · Chapter 47 → Chapter 38
+unico · en · cap_nave_de_barro · Chapter 17 → Chapter 19
+unico · en · cap_nave_de_barro · Chapter 41 → Chapter 41
+unico · en · cap_nave_de_barro · **Note to Chapter 50** → **Note to Chapter 50**
+unico · en · cap19_real · (Chapter 3 → (Chapter 4
+unico · en · cap19_real · Chapter 4 → Chapter 5
+unico · en · cap19_real · Chapter 22 → Chapter 24
+unico · en · cap19_real · **Note to Chapter 51** → **Note to Chapter 51**
+unico · en · cap20_real · Chapter 10 → Chapter 11
+unico · en · cap20_real · **Note to Chapter 52** → **Note to Chapter 52**
+unico · en · cap_glosario · (Chapters 23 and 24 → (Chapters 27 and 28
+unico · en · cap_glosario · (Chapter 3 → (Chapter 4
+unico · en · cap_glosario · (Chapter 3 → (Chapter 4
+unico · en · cap_glosario · (chapters 22 and 31 → (chapters 24 and 7
+unico · en · cap_glosario · Chapter 16 → Chapter 18
+unico · en · cap_glosario · chapter 4 → chapter 5
+unico · en · cap_glosario · (Chapter 10 → (Chapter 11
+unico · en · cap_glosario · (Chapter 31 → (Chapter 7
+t1 · en · cap_nota_autor · Chapter 31 → Chapter 34
+t1 · en · cap_nota_autor · chapter 28 → chapter 33
+t1 · en · cap1 · (chapters 6 and 23 → (chapters 7 and 27
+t1 · en · cap1 · **Note to Chapter 1** → **Note to Chapter 1**
+t1 · en · cap2 · **Note to Chapter 2** → **Note to Chapter 2**
+t1 · en · cap_info_intro · Chapter 10 → Chapter 11
+t1 · en · cap_info_intro · Chapter 12 → Chapter 13
+t1 · en · cap_info_intro · Chapter 12 → Chapter 13
+t1 · en · cap_info_intro · {{n:cap_teoria_informacion}} → 20
+t1 · en · cap2_5 · **Note to Chapter 3** → **Note to Chapter 4**
+t1 · en · cap3 · chapter 6 → chapter 7
+t1 · en · cap3 · chapter 1 → chapter 1
+t1 · en · cap3 · (chapter 3 → (chapter 4
+t1 · en · cap3 · chapter 31 → chapter 7
+t1 · en · cap3 · chapter 31 → chapter 34
+t1 · en · cap3 · **Note to Chapter 4** → **Note to Chapter 5**
+t1 · en · cap4 · **Note to Chapter 5** → **Note to Chapter 6**
+t1 · en · cap4 · chapter 23 → chapter 27
+t1 · en · cap5 · chapter 8 → chapter 9
+t1 · en · cap5 · Chapter 4 → Chapter 5
+t1 · en · cap5 · chapter 1 → chapter 1
+t1 · en · cap5 · **Note to Chapter 6** → **Note to Chapter 7**
+t1 · en · cap6 · Chapter 11 → Chapter 12
+t1 · en · cap6 · chapter 5 → chapter 6
+t1 · en · cap6 · **Note to Chapter 7** → **Note to Chapter 8**
+t1 · en · cap6_5 · **Note to Chapter 8** → **Note to Chapter 9**
+t1 · en · cap6_6 · **Note to Chapter 9** → **Note to Chapter 10**
+t1 · en · interludio · chapter 1 → chapter 1
+t1 · en · cap7 · **Note to Chapter 10** → **Note to Chapter 11**
+t1 · en · cap7_5 · **Note to Chapter 11** → **Note to Chapter 12**
+t1 · en · cap8 · Chapter 11 → Chapter 12
+t1 · en · cap8 · (Chapter 16 → (Chapter 18
+t1 · en · cap8 · **Note to Chapter 12** → **Note to Chapter 13**
+t1 · en · cap9 · Chapter 10 → Chapter 11
+t1 · en · cap9 · **Note to Chapter 13** → **Note to Chapter 14**
+t1 · en · cap10 · Chapter 13 → Chapter 14
+t1 · en · cap10 · Chapter 13 → Chapter 14
+t1 · en · cap10 · Chapter 10 → Chapter 11
+t1 · en · cap10 · **Note to Chapter 14** → **Note to Chapter 15**
+t1 · en · cap11 · Chapter 14 → Chapter 15
+t1 · en · cap11 · Chapter 13 → Chapter 14
+t1 · en · cap11 · Chapter 12 → Chapter 13
+t1 · en · cap11 · Chapter 13 → Chapter 14
+t1 · en · cap11 · Chapter 6 → Chapter 7
+t1 · en · cap11 · Chapter 13 → Chapter 14
+t1 · en · cap11 · Chapter 14 → Chapter 15
+t1 · en · cap11 · Chapter 16 → Chapter 18
+t1 · en · cap11 · Chapter 13 → Chapter 14
+t1 · en · cap11 · Chapter 14 → Chapter 15
+t1 · en · cap11 · Chapter 14 → Chapter 15
+t1 · en · cap11 · Chapter 16 → Chapter 18
+t1 · en · cap11 · **Note to Chapter 15** → **Note to Chapter 16**
+t1 · en · cap18_real · Chapter 5 → Chapter 6
+t1 · en · cap18_real · Chapter 15 → Chapter 16
+t1 · en · cap18_real · (Chapter 6 → (Chapter 7
+t1 · en · cap18_real · (Chapter 15 → (Chapter 16
+t1 · en · cap18_real · Chapter 15 → Chapter 16
+t1 · en · cap18_real · **Note to Chapter 32** → **Note to Chapter 17**
+t1 · en · cap12 · Chapter 10 → Chapter 11
+t1 · en · cap12 · Chapter 15 → Chapter 16
+t1 · en · cap12 · Chapter 15 → Chapter 16
+t1 · en · cap12 · Chapter 5 → Chapter 6
+t1 · en · cap12 · Chapter 7 → Chapter 8
+t1 · en · cap12 · Chapter 12 → Chapter 13
+t1 · en · cap12 · Chapter 1 → Chapter 1
+t1 · en · cap12 · Chapter 12 → Chapter 13
+t1 · en · cap12 · **Note to Chapter 16** → **Note to Chapter 18**
+t1 · en · cap13 · Chapter 12 → Chapter 13
+t1 · en · cap13 · Chapter 13 → Chapter 14
+t1 · en · cap13 · Chapter 15 → Chapter 16
+t1 · en · cap13 · Chapter 10 → Chapter 11
+t1 · en · cap13 · Chapter 15 → Chapter 16
+t1 · en · cap13 · **Note to Chapter 17** → **Note to Chapter 19**
+t1 · en · cap_teoria_informacion · {{n:cap_info_intro}} → 3
+t1 · en · cap_teoria_informacion · Chapter 2 → Chapter 2
+t1 · en · cap_teoria_informacion · Chapter 11 → Chapter 12
+t1 · en · cap_teoria_informacion · Chapter 10 → Chapter 11
+t1 · en · cap_teoria_informacion · Chapter 12 → Chapter 13
+t1 · en · cap_teoria_informacion · Chapter 7 → Chapter 8
+t1 · en · cap_teoria_informacion · **Note to Chapter 34** → **Note to Chapter 20**
+t1 · en · cap_tres_puertas · Chapter 10 → Chapter 11
+t1 · en · cap_tres_puertas · Chapter 12 → Chapter 13
+t1 · en · cap_tres_puertas · Chapter 12 → Chapter 13
+t1 · en · cap_tres_puertas · Chapter 12 → Chapter 13
+t1 · en · cap_tres_puertas · Chapter 17 → Chapter 19
+t1 · en · cap_tres_puertas · Chapter 7 → Chapter 8
+t1 · en · cap_tres_puertas · Chapter 17 → Chapter 19
+t1 · en · cap_tres_puertas · Chapter 51 → Chapter 38
+t1 · en · cap_tres_puertas · **Note to Chapter 35** → **Note to Chapter 21**
+t1 · en · cap13_5 · Chapter 17 → Chapter 19
+t1 · en · cap13_5 · **Note to Chapter 20** → **Note to Chapter 22**
+t1 · en · cap18_6 · Chapter 19 → Chapter 26
+t1 · en · cap18_6 · Chapter 12 → Chapter 13
+t1 · en · cap18_6 · Chapter 20 → Chapter 22
+t1 · en · cap18_6 · **Note to Chapter 21** → **Note to Chapter 23**
+t1 · en · cap18_7 · **Note to Chapter 22** → **Note to Chapter 24**
+t1 · en · cap14_real · Chapter 6 → Chapter 7
+t1 · en · cap14_real · Chapter 15 → Chapter 16
+t1 · en · cap14_real · **Note to Chapter 18** → **Note to Chapter 25**
+t1 · en · cap15_real · **Note to Chapter 19** → **Note to Chapter 26**
+t1 · en · cap22_idempotencia · Chapter 1 → Chapter 1
+t1 · en · cap22_idempotencia · Chapter 51 → Chapter 38
+t1 · en · cap22_idempotencia · Chapter 21 → Chapter 23
+t1 · en · cap22_idempotencia · Chapter 21 → Chapter 23
+t1 · en · cap22_idempotencia · **Note to Chapter 23** → **Note to Chapter 27**
+t1 · en · cap23_experimentos_mentales · Chapter 23 → Chapter 27
+t1 · en · cap23_experimentos_mentales · Chapter 23 → Chapter 27
+t1 · en · cap23_experimentos_mentales · Chapter 23 → Chapter 27
+t1 · en · cap23_experimentos_mentales · Chapter 23 → Chapter 27
+t1 · en · cap23_experimentos_mentales · **Note to Chapter 24** → **Note to Chapter 28**
+t1 · en · cap17_real · Chapter 13 → Chapter 14
+t1 · en · cap17_real · **Note to Chapter 26** → **Note to Chapter 29**
+t1 · en · cap17_5_real · Chapter 10 → Chapter 11
+t1 · en · cap17_5_real · Chapter 28 → Chapter 33
+t1 · en · cap17_5_real · Chapter 30 → Reading 10 in the second volume
+t1 · en · cap17_5_real · Chapter 51 → Chapter 38
+t1 · en · cap17_5_real · **Note to Chapter 27** → **Note to Chapter 30**
+t1 · en · cap16_real · (Chapter 30 → (Reading 10 in the second volume
+t1 · en · cap16_real · Chapter 18 → Chapter 25
+t1 · en · cap16_real · **Note to Chapter 25** → **Note to Chapter 31**
+t1 · en · cap_calibracion · Chapter 31 → Chapter 7
+t1 · en · cap_calibracion · Chapter 31 → Chapter 7
+t1 · en · cap_calibracion · Chapter 15 → Chapter 16
+t1 · en · cap_calibracion · Chapter 31 → Chapter 7
+t1 · en · cap_calibracion · Chapter 3 → Chapter 4
+t1 · en · cap_calibracion · Chapter 32 → Chapter 17
+t1 · en · cap_calibracion · Chapter 31 → Chapter 7
+t1 · en · cap_calibracion · **Note to Chapter 33** → **Note to Chapter 32**
+t1 · en · cap_religiones_comparadas · Chapter 51 → Chapter 38
+t1 · en · cap_religiones_comparadas · Chapter 51 → Chapter 38
+t1 · en · cap_religiones_comparadas · Chapters 2 and 5 → Chapters 2 and 6
+t1 · en · cap_religiones_comparadas · Chapter 5 → Chapter 6
+t1 · en · cap_religiones_comparadas · Chapter 5 → Chapter 6
+t1 · en · cap_religiones_comparadas · Chapter 51 → Chapter 38
+t1 · en · cap_religiones_comparadas · Chapter 12 → Chapter 13
+t1 · en · cap_religiones_comparadas · Chapter 7 → Chapter 8
+t1 · en · cap_religiones_comparadas · Chapter 5 → Chapter 6
+t1 · en · cap_religiones_comparadas · Chapter 7 → Chapter 8
+t1 · en · cap_religiones_comparadas · Chapter 51 → Chapter 38
+t1 · en · cap_religiones_comparadas · Chapter 52 → Chapter 39
+t1 · en · cap_religiones_comparadas · Chapter 51 → Chapter 38
+t1 · en · cap_religiones_comparadas · Chapter 27 → Chapter 30
+t1 · en · cap_religiones_comparadas · **Note to Chapter 28** → **Note to Chapter 33**
+t1 · en · cap_religiones_comparadas · Chapter 51 → Chapter 38
+t1 · en · cap_espejo_sin_profundidad · Chapter 4 → Chapter 5
+t1 · en · cap_espejo_sin_profundidad · Chapter 6 → Chapter 7
+t1 · en · cap_espejo_sin_profundidad · Chapter 21 → Chapter 23
+t1 · en · cap_espejo_sin_profundidad · **Note to Chapter 31** → **Note to Chapter 34**
+t1 · en · cap17_7_alien · **Note to Chapter 39** → **Note to Chapter 35**
+t1 · en · cap17_7_alien · (Chapters 10 and 12 → (Chapters 11 and 13
+t1 · en · cap_realidad_fractal · **Note to Chapter 49** → **Note to Chapter 36**
+t1 · en · cap_realidad_fractal · chapter 7 → chapter 8
+t1 · en · cap_realidad_fractal · chapter 2 → chapter 2
+t1 · en · cap_nave_de_barro · (Chapter 12 → (Chapter 13
+t1 · en · cap_nave_de_barro · Chapter 29 → Chapter 33
+t1 · en · cap_nave_de_barro · Chapter 29 → Chapter 33
+t1 · en · cap_nave_de_barro · Chapter 29 → Chapter 33
+t1 · en · cap_nave_de_barro · Chapter 35 → Chapter 21
+t1 · en · cap_nave_de_barro · Chapter 47 → Reading 3 in the second volume
+t1 · en · cap_nave_de_barro · Chapter 17 → Chapter 19
+t1 · en · cap_nave_de_barro · Chapter 41 → Reading 6 in the second volume
+t1 · en · cap_nave_de_barro · **Note to Chapter 50** → **Note to Chapter 37**
+t1 · en · cap19_real · (Chapter 3 → (Chapter 4
+t1 · en · cap19_real · Chapter 4 → Chapter 5
+t1 · en · cap19_real · Chapter 22 → Chapter 24
+t1 · en · cap19_real · **Note to Chapter 51** → **Note to Chapter 38**
+t1 · en · cap20_real · Chapter 10 → Chapter 11
+t1 · en · cap20_real · **Note to Chapter 52** → **Note to Chapter 39**
+t1 · en · cap_glosario · (Chapters 23 and 24 → (Chapters 27 and 28
+t1 · en · cap_glosario · (Chapter 3 → (Chapter 4
+t1 · en · cap_glosario · (Chapter 3 → (Chapter 4
+t1 · en · cap_glosario · (chapters 22 and 31 → (chapters 24 and 7
+t1 · en · cap_glosario · Chapter 16 → Chapter 18
+t1 · en · cap_glosario · chapter 4 → chapter 5
+t1 · en · cap_glosario · (Chapter 10 → (Chapter 11
+t1 · en · cap_glosario · (Chapter 31 → (Chapter 7
+t2 · en · cap17_6_real · Chapter 12 → Chapter 13
+t2 · en · cap17_6_real · Chapter 4 → Chapter 5
+t2 · en · cap17_6_real · Chapter 31 → Chapter 7
+t2 · en · cap17_6_real · Chapter 26 → Chapter 29
+t2 · en · cap17_6_real · **Note to Chapter 37** → **Note to Reading 1**
+t2 · en · cap17_6_real · (Chapter 31 → (Chapter 7
+t2 · en · cap17_6_real · (Chapter 26 → (Chapter 29
+t2 · en · cap_blade_runner · Chapter 4 → Chapter 5
+t2 · en · cap_blade_runner · Chapter 31 → Chapter 7
+t2 · en · cap_blade_runner · Chapter 37 → Reading 1
+t2 · en · cap_blade_runner · **Note to Chapter 38** → **Note to Reading 2**
+t2 · en · cap_maquina_tiempo · **Note to Chapter 47** → **Note to Reading 3**
+t2 · en · cap_horizonte_prestado · **Note to Chapter 48** → **Note to Reading 4**
+t2 · en · cap_three_body · **Note to Chapter 40** → **Note to Reading 5**
+t2 · en · cap17_8_cosmic · Chapter 5 → Chapter 6
+t2 · en · cap17_8_cosmic · **Note to Chapter 41** → **Note to Reading 6**
+t2 · en · cap_matrix · Chapter 5 → Chapter 6
+t2 · en · cap_matrix · **Note to Chapter 42** → **Note to Reading 7**
+t2 · en · cap_lenguaje_entrelazamiento · (Chapter 39 → (Chapter 35
+t2 · en · cap_lenguaje_entrelazamiento · Chapter 31 → Chapter 34
+t2 · en · cap_lenguaje_entrelazamiento · Chapter 21 → Chapter 23
+t2 · en · cap_lenguaje_entrelazamiento · **Note to Chapter 46** → **Note to Reading 8**
+t2 · en · cap_lenguaje_entrelazamiento · Chapter 4 → Chapter 5
+t2 · en · cap_lenguaje_entrelazamiento · Chapter 31 → Chapter 34
+t2 · en · cap_lenguaje_entrelazamiento · Chapter 45 → Reading 12
+t2 · en · cap_diapason_invisible · Chapter 28 → Chapter 33
+t2 · en · cap_diapason_invisible · Chapter 28 → Chapter 33
+t2 · en · cap_diapason_invisible · **Note to Chapter 29** → **Note to Reading 9**
+t2 · en · cap_ojo_un_solo_color · Chapter 27 → Chapter 30
+t2 · en · cap_ojo_un_solo_color · Chapter 25 → Chapter 31
+t2 · en · cap_ojo_un_solo_color · **Note to Chapter 30** → **Note to Reading 10**
+t2 · en · cap_cartografia_singularidades · **Note to Chapter 43** → **Note to Reading 11**
+t2 · en · cap_traductor · **Note to Chapter 45** → **Note to Reading 12**
+t2 · en · cap_historia_relevo · **Note to Chapter 44** → **Note to Reading 13**

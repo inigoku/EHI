@@ -112,7 +112,7 @@ KDP no admite tapa dura de más de 550 páginas; el volumen único tiene 766.
     El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf               tomo II, 198 págs.: las 14 lecturas topológicas («Lectura 1-14»)
     El_Horizonte_Interior_Tomo2_Lecturas_cubierta_tapadura.pdf lomo 0,525" (papel a color)
 
-    python3 scripts/make_tomos.py          # toc_tomo1_ensayo.json, toc_tomo2_lecturas.json (y referencias de toc_ensayo.json)
+    python3 scripts/restructure_text.py && python3 scripts/restructure.py   # reordena y renumera los 9 TOC
     python3 scripts/build_interior_premium.py toc_tomo1_ensayo.json -o El_Horizonte_Interior_Tomo1_Ensayo_6x9.pdf
     python3 scripts/build_interior_premium.py toc_tomo2_lecturas.json -o El_Horizonte_Interior_Tomo2_Lecturas_6x9.pdf
     python3 scripts/build_cover.py --tomo 1
@@ -287,3 +287,22 @@ cargadores de capítulos (`group1.ts`, `lecturas.ts`, `poemas.ts`, `cuentos.ts`)
 leen `*.ca.md` con el mismo mecanismo de *fallback* a castellano que ya
 tenían para inglés. Los cuentos y poemas ya traían su `.ca.md` de antes;
 el ensayo los trae ahora.
+
+
+## Reestructuración de octubre de 2026 (nueva progresión)
+
+Aplica `revision/propuesta_estructura.md` con las decisiones del autor: sin el
+cuento «El que queda» ni referencias a Tarel; «Horizontes alienígenas» pasa entero
+al ensayo; la psique (partes III) antes de la enfermedad; lecturas solo de obras
+(13 lecturas en el tomo II).
+
+- Ensayo: 35 capítulos en el volumen único (36-48 lecturas, 49-50 parte VII, 51-52 parte VIII);
+  tomo I: 39 capítulos (VII = 36-37, VIII = 38-39); tomo II: lecturas 1-13.
+- `scripts/restructure_text.py`: cirugías de texto (idempotentes, parten del commit base 9d21b5d)
+  hacia `content_overrides/` (es/ca) y `en/`. `content/` no se toca.
+- `scripts/restructure.py`: orden, partes, renumeración y remisiones; genera los 9 TOC y
+  `revision/remisiones_renumeradas.txt`.
+- `scripts/build_all.sh [es|ca|en]`: regenera PDFs, EPUBs y cubiertas de los tres idiomas.
+- ER=EPR se explica solo en el capítulo del entrelazamiento (antes cap. 11); sale del capítulo 2.
+- Tomo I ilustrado: 550 / 548 / 550 páginas (es/ca/en) con interlineado 15,0 / 15,2 / 15,4 pt; sin ilustraciones 518 / 502 / 512.
+  Volumen único: 764 / 748 / 748 (700 / 690 / 692 sin ilustraciones). Tomo II: 176 / 172 / 176.

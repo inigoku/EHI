@@ -332,7 +332,7 @@ TOMOS = {
         subtitle="Ensayo · Tomo I",
         kicker="Un ensayo sobre física, conciencia y los límites del yo",
         blurb=BLURB,
-        blurb2=("Treinta y cinco capítulos que cruzan neurociencia, teoría de la información y "
+        blurb2=("Treinta y nueve capítulos que cruzan neurociencia, teoría de la información y "
                 "física teórica sin abandonar nunca la pregunta más simple: qué significa que haya "
                 "alguien ahí dentro. Con el epílogo, el glosario y el aparato completo de notas. "
                 "Las lecturas topológicas forman el segundo tomo."),
@@ -350,7 +350,7 @@ TOMOS = {
         kicker="Las ideas del ensayo en la ficción, el cine y la vida cotidiana",
         blurb=("Un clon que no es la yegua que copia, un replicante que llora bajo la lluvia, "
                "un primer contacto sin idioma común, una máquina del tiempo que no deja volver: "
-               "catorce lecturas que ponen a prueba la hipótesis del horizonte fuera del laboratorio."),
+               "trece lecturas que ponen a prueba la hipótesis del horizonte fuera del laboratorio."),
         blurb2=("Cada lectura toma una obra, un caso o una pregunta y la mira con las herramientas "
                 "del primer tomo —encapsulación, entrelazamiento, reservorio— para ver qué ilumina "
                 "y dónde se rompe. Se pueden leer en cualquier orden."),
@@ -443,7 +443,7 @@ TOMOS_EN = {
         blurb=(
             "A clone that isn't the mare it copies, a replicant crying in "
             "the rain, a first contact with no shared language, a time "
-            "machine that won't let you return: fourteen readings that put "
+            "machine that won't let you return: thirteen readings that put "
             "the horizon hypothesis to the test outside the lab."
         ),
         blurb2=(
@@ -491,7 +491,7 @@ TOMOS_CA = {
         blurb=(
             "Un clon que no és la egua que copia, un replicant que plora "
             "sota la pluja, un primer contacte sense idioma comú, una "
-            "màquina del temps que no deixa tornar: catorze lectures que "
+            "màquina del temps que no deixa tornar: tretze lectures que "
             "posen a prova la hipòtesi de l'horitzó fora del laboratori."
         ),
         blurb2=(
