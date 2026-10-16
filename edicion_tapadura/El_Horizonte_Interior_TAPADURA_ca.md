@@ -18,7 +18,7 @@ Jo era arxiver. O això deia el meu nomenament. En realitat mirava a poc a poc a
 
 Vaig anotar la primera franja de fang sense urgència, com qui corregeix un mapa antic sense saber encara quina ciutat quedarà a l'altra banda de la tinta. Em vaig equivocar en la primera xifra: vaig escriure que l'aigua havia baixat un pam, i n'eren dos. Vaig trigar una setmana a adonar-me'n, i per aleshores ja hi havia dates errònies copiades en tres pàgines diferents. No les vaig corregir totes. Algunes es van quedar malament, i encara hi són.
 
-—Abans no hi era —va dir Kema, assenyalant la vora fosca sota casa seva—. L'aigua ho cobria. L'aigua ho sap.
+—Abans no hi era —va dir Kema, assenyalant la vora fosca sota casa seva—. L'aigua ho sap.
 
 —Què sap? —vaig preguntar.
 

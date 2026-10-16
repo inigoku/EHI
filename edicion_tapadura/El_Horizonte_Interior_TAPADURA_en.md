@@ -18,7 +18,7 @@ I was the archivist. Or so my appointment said. In truth I watched, slowly, what
 
 I noted the first strip of mud without urgency, the way one corrects an old map without yet knowing what city will remain on the far side of the ink. I got the first figure wrong: I wrote that the water had dropped a handspan, and it was two. It took me a week to notice, and by then the wrong dates had already been copied onto three different pages. I did not correct them all. Some stayed wrong, and remain so.
 
-"It wasn't there before," said Kema, pointing to the dark edge beneath her house. "The water covered it. The water knows."
+"It wasn't there before," said Kema, pointing to the dark edge beneath her house. "The water knows."
 
 "Knows what?" I asked.
 
