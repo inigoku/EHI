@@ -3379,6 +3379,8 @@ Luego dijo, en gallego, mirando a la jueza:
 
 Y se sentó.
 
+La funcionaria de la mesa pulsó una tecla sin levantar la vista, y la tele se apagó. Un punto de luz en el centro, un segundo, y luego negro. En el cristal oscuro se reflejaba la sala: la jueza, los bancos, la ventana, yo. Álvaro no se despidió. Nadie le había preguntado si quería.
+
 La jueza dijo que la sentencia la tendrían las partes por escrito en unos días. Pero el abogado de oficio de Brais, el chico de Carballo que habla deprisa, me dijo en el pasillo, sin que yo le preguntara, que sería una multa. Seis meses, a diez euros al día. Y la indemnización por la nariz. Y los antecedentes.
 
 —Podría haber sido mucho peor —dijo—. Lo que dijo usted le ayudó. Y lo que dijo él, más.
@@ -3575,7 +3577,7 @@ Creciendo igual.
 
 ## 24 · Ada
 
-Lucía llegó el veinte de junio en un Clio de alquiler con el maletero lleno de cosas que no hacían falta: un flotador de unicornio, dos bolsas de embutido de León, una cafetera eléctrica «porque la tuya es del Pleistoceno», un ventilador, y Hugo.
+Lucía llegó el veinte de junio en un Ibiza de alquiler con el maletero lleno de cosas que no hacían falta: un flotador de unicornio, dos bolsas de embutido de León, una cafetera eléctrica «porque la tuya es del Pleistoceno», un ventilador, y Hugo.
 
 Hugo tiene cinco años y no se había creído nunca que yo viviera en un faro. Se bajó del coche, miró la torre de arriba abajo con la cabeza tan echada hacia atrás que se cayó de culo en la grava, y desde el suelo dijo:
 
