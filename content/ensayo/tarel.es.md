@@ -22,7 +22,7 @@ Yo era archivista. O eso decía mi nombramiento. En realidad miraba despacio lo 
 
 Anoté la primera franja de barro sin urgencia, como quien corrige un mapa antiguo sin saber todavía qué ciudad quedará al otro lado de la corrección.
 
-—Antes no estaba —dijo Kema, señalando el borde oscuro bajo su casa—. El agua lo cubría. El agua lo sabe.
+—Antes no estaba —dijo Kema, señalando el borde oscuro bajo su casa—. El agua lo sabe.
 —¿Qué sabe?
 —Cuándo soltar... y cuándo quedarse.
 

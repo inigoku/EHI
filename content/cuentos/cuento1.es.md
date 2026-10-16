@@ -14,7 +14,7 @@ La ciudad flotaba sobre una laguna salobre tan antigua que nadie recordaba un pr
 
 Yo era archivista: miraba despacio lo que aún no pedía nombre.
 
-—Antes esto no estaba —dijo Kema una mañana, señalando el borde oscuro que había quedado bajo su casa—. El agua lo cubría. El agua lo sabe.
+—Antes esto no estaba —dijo Kema una mañana, señalando el borde oscuro que había quedado bajo su casa—. El agua lo sabe.
 —¿Qué sabe?
 —Cuándo soltar... y cuándo quedarse.
 

@@ -18,7 +18,7 @@ I was an archivist. Or so my appointment said. In reality, I looked slowly at wh
 
 I noted the first strip of mud without urgency, like someone correcting an ancient map without yet knowing what city will remain on the other side of the correction.
 
-"It wasn't there before," Kema said, pointing to the dark edge beneath her house. "The water covered it. The water knows."
+"It wasn't there before," Kema said, pointing to the dark edge beneath her house. "The water knows."
 "Knows what?"
 "When to let go... and when to stay."
 

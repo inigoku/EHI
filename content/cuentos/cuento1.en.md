@@ -10,7 +10,7 @@ The city floated on a brackish lagoon so ancient that no one remembered a beginn
 
 I was an archivist: I watched slowly what did not yet ask for a name.
 
-—This wasn't here before —said Kema one morning, pointing to the dark edge left beneath her house—. The water covered it. The water knows.
+—This wasn't here before —said Kema one morning, pointing to the dark edge left beneath her house—. The water knows.
 —What does it know?
 —When to let go... and when to stay.
 
