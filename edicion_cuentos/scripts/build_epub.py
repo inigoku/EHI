@@ -394,7 +394,7 @@ def build_epub(toc_path: Path, output_path: Path, sin_ilustraciones: bool = Fals
         body = strip_web_index(body)
 
         ctitle = chapter.get("title") or frontmatter.get("title") or chapter["id"]
-        csubtitle = chapter.get("subtitle") or frontmatter.get("subtitle")
+        csubtitle = chapter["subtitle"] if "subtitle" in chapter else frontmatter.get("subtitle")
         section = chapter.get("section") or frontmatter.get("section")
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")
 
