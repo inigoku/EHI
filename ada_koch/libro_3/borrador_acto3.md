@@ -972,7 +972,7 @@ Así. Abierta. Con la palma hacia arriba. A la altura de la cadera. Sin girar la
 
 La miré.
 
-Era la mano que yo había mirado durante meses. Cosiendo redes. Atando el as de guía en el muelle. Cerrada en un puño, en la cara de Álvaro. La mano que no me había tocado nunca. Ni en la lancha, ni en los sueños, ni en la sala del juzgado de Corcubón, a tres metros, cuando dije en voz alta delante de todos que lo había deseado.
+Era la mano que yo había mirado durante meses. Cosiendo redes. Atando el as de guía en el muelle. Cerrada en un puño, en la cara de Álvaro. La mano que no me había tocado nunca. Ni en la lancha, ni en los sueños, ni en la sala del juzgado de Corcubión, a tres metros, cuando dije en voz alta delante de todos que lo había deseado.
 
 Ancha. Con las cicatrices blancas de los percebes en los nudillos. Con la piel de la palma dura como una suela.
 
