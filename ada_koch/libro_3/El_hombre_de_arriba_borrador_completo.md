@@ -5231,6 +5231,14 @@ Me lo pensé.
 
 Y cerró la nevera, y la vaca se movió un poco con el golpe, y el dibujo se quedó un poco torcido, y así se ha quedado.
 
+Luego miró la taza de los barcos en el alféizar, con la rama dentro y las tres hojas abiertas hacia la luz.
+
+—¿Y esa? —preguntó—. ¿Dónde la plantamos?
+
+No lo pensé.
+
+—Junto a la tapia, donde da el sol de la tarde —dije—. En febrero.
+
 ---
 
 ### Maruxa · Costa da Morte, hoy
