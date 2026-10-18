@@ -52,6 +52,10 @@ p { text-align: justify; margin: 0 0 0.9em 0; }
 .titlepage p, .dedication p, .colophon p, .parttitle h1 { text-align: center; }
 .scenebreak { text-align: center; color: #3c6e71; margin: 1.2em 0; text-indent: 0; }
 .end { text-align: center; margin-top: 2em; }
+.interludio { page-break-before: always; margin-top: 3em; }
+.interludio h2 { text-align: center; font-style: italic; font-weight: normal; color: #3c6e71;
+  border-top: 1px solid #3c6e71; border-bottom: 1px solid #3c6e71;
+  padding: 0.5em 0; margin: 0 15% 1.8em 15%; page-break-after: avoid; }
 nav ol { list-style-type: none; padding-left: 1.2em; margin: 0.2em 0; }
 nav > ol { padding-left: 0; }
 nav li { margin: 0.25em 0; }
@@ -83,10 +87,14 @@ for act_chunk in re.split(r"^# ", md, flags=re.M)[1:]:
 
 def md_to_xhtml(text):
     """Convierte el cuerpo de un capítulo: ### -> h2 (como las secciones KDP), --- -> separador."""
+    # cambio de voz (interludios de Maruxa/Maisie y regreso a Ada): página nueva, rótulo centrado entre filetes
+    text = re.sub(r"(?:^---\s*\n\s*)?^### ((?:Maruxa|Maisie|Ada)\b[^\n]*)\n",
+                  lambda m: '\n<div class="interludio"><h2>' + m.group(1).strip() + '</h2></div>\n\n',
+                  text, flags=re.M)
     text = re.sub(r"^### ", "## ", text, flags=re.M)
     html = subprocess.run(["pandoc", "-f", "markdown", "-t", "html5", "--wrap=none"],
                           input=text, capture_output=True, text=True, check=True).stdout
-    html = re.sub(r"<h2[^>]*>", "<h2>", html)
+    html = re.sub(r"<h2 id=[^>]*>", "<h2>", html)
     html = html.replace("<hr />", '<p class="scenebreak">* * *</p>')
     html = html.replace("<p><strong>END OF BOOK I</strong></p>", '<p class="end"><strong>END OF BOOK I</strong></p>')
     html = re.sub(r"<p><em>(Ada Koch(?:'|’)s story continues[^<]*)</em></p>", r'<p class="end"><em>\1</em></p>', html)
