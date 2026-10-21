@@ -124,7 +124,7 @@ def back(x0, y0):
 \draw[oro, line width=0.7pt] ($(O)+({cx - 0.47},{y0 + TRIM_H - 1.82})$) -- ++(0.94,0);
 \node[anchor=north, text width=4.4in, align=justify] at ($(O)+({cx},{y0 + TRIM_H - 2.15})$) {{\color{{crema}}\fontsize{{11.6}}{{16.2}}\selectfont {paras}}};
 \node[anchor=north, text width=4.4in, align=center] at ($(O)+({cx},{y0 + 3.00})$) {{\color{{oro}}\fontsize{{10.8}}{{14}}\selectfont\itshape Segunda edición, ilustrada: una lámina a página completa\\ al comienzo de cada capítulo.}};
-\fill[white] ($(O)+({x0 + TRIM_W - 2.35},{y0 + 0.4})$) rectangle ++(2.0,1.2);
+\fill[white] ($(O)+({x0 + TRIM_W - 2.25},{y0 + 0.25})$) rectangle ++(2.0,1.2);
 """
 
 def spine(cx, y0, spine_w):

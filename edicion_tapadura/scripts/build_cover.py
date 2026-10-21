@@ -251,7 +251,7 @@ def back_text(cv, x0: float, y0: float, w: float, h: float, S: dict) -> None:
         y -= 8
     # hueco reservado para el código de barras de KDP: 2 x 1,2" en la esquina
     cv.setFillColor(colors.white)
-    cv.rect(x0 + w - 2.0 * inch, y0 + 0.35 * inch, 1.7 * inch, 1.0 * inch,
+    cv.rect(x0 + w - 2.25 * inch, y0 + 0.25 * inch, 2.0 * inch, 1.2 * inch,
             stroke=0, fill=1)
 
 
