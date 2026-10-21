@@ -310,3 +310,7 @@ al ensayo; la psique (partes III) antes de la enfermedad; lecturas solo de obras
 ### Tarel vuelve al ensayo (octubre 2026)
 
 Se restituyen los nombres retirados el 20-sep-2026 (cap. de la muerte, epílogo «La orilla», conclusión cósmica y cartografía de singularidades; Luthier sigue sin nombrar) y se incluye la versión breve de «La costumbre del agua» (`content_overrides/tarel.*`, sin subtítulo) entre el prólogo y la nota del autor, en único y Tomo I. Para no pasar de 550 págs. el Tomo I usa `body_leading` 14.4/14.8/15.0 (es/ca/en).
+
+### Maquetación de capítulos y secciones (octubre 2026)
+
+Cada capítulo abre en página impar con título, ilustración (en línea, hasta el 40 % del marco) y texto; ya no hay lámina a página completa en el verso. La sección agrupa capítulos: su nombre sale solo en su portadilla (lámina del primer capítulo + nombre), sin repetirse sobre cada capítulo, y ese primer capítulo abre sin la lámina. Volumen único 738/728/726 págs. (es/ca/en), Tomo I 532/528/530, Tomo II 172/170/172; el Tomo I vuelve al interlineado original (15,0/15,2/15,4).
