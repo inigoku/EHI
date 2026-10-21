@@ -602,13 +602,21 @@ def toc_page(story: list, toc: dict) -> None:
     story.append(toc)
 
 
-def part_title_page(story: list, section: str, styles: dict) -> None:
-    """Portadilla de parte: una impar sin folio ni cabecera, con el nombre de
-    la parte («PRIMERA PARTE») y su título, antes del primer capítulo."""
+def part_title_page(story: list, section: str, styles: dict, image_bytes: Optional[bytes] = None) -> None:
+    """Portadilla de parte: una impar sin folio ni cabecera, con la lámina de
+    la parte (si la hay), el nombre («PRIMERA PARTE») y su título. El capítulo
+    siguiente empieza en la impar de enfrente, sin repetir esa lámina."""
     kicker, _, name = section.partition(":")
     story.append(ForceParity(1, TEXT_H))
     story.append(SetFolio(False))
-    story.append(Spacer(1, TEXT_H * 0.36))
+    if image_bytes:
+        story.append(Spacer(1, TEXT_H * 0.06))
+        img = gbp.make_image_flowable(image_bytes, TEXT_W * 0.92, TEXT_H * 0.58)
+        img.hAlign = "CENTER"
+        story.append(img)
+        story.append(Spacer(1, 20))
+    else:
+        story.append(Spacer(1, TEXT_H * 0.36))
     if name.strip():
         story.append(SmallCapsFlowable(kicker.strip(), IT, 10, AMBER, spacing=2.4,
                                         align="center", space_after=12))
@@ -619,7 +627,7 @@ def part_title_page(story: list, section: str, styles: dict) -> None:
                            ParagraphStyle("PartTitle", parent=styles["ChapterTitle"],
                                           alignment=1, fontSize=19, leading=24)))
     story.append(WaveDivider(46, GOLD, space_before=12))
-    story.append(ForceParity(0, TEXT_H))
+    story.append(ForceParity(1, TEXT_H))
     story.append(SetFolio(True))
 
 
@@ -839,11 +847,6 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         chapter_number = str(chapter.get("chapter_number", frontmatter.get("chapterNumber") or "")) or None
         illustration_ref = chapter.get("illustration") or frontmatter.get("illustrationId")
 
-        if section and section != last_part:
-            last_part = section
-            if section_sizes.get(section, 0) > 1:
-                part_title_page(story, section, styles)
-
         # Si una ilustración en línea es la misma imagen que la lámina del
         # capítulo, se omite: saldría dos veces seguidas.
         if illustration_ref and not sin_ilustraciones:
@@ -854,9 +857,15 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             image_source = illustrations.get(illustration_ref, illustration_ref)
             illustration_bytes = gbp.load_image_bytes(image_source, base_dir, ca_bundle)
 
-        if illustration_bytes:
-            story.append(ForceParity(0, TEXT_H))
-            story.append(FullFramePlate(illustration_bytes, 0, TEXT_W, TEXT_H))
+        # Portadilla de parte: la lámina del primer capítulo pasa a ella (con
+        # el nombre de la parte) y ese capítulo abre sin repetirla.
+        if section and section != last_part:
+            last_part = section
+            if section_sizes.get(section, 0) > 1:
+                part_title_page(story, section, styles, illustration_bytes)
+                illustration_bytes = None
+
+        # Cada capítulo empieza en página impar: título, ilustración y texto.
         story.append(ForceParity(1, TEXT_H))
 
         if str(chapter_number).strip().isdigit():
@@ -866,8 +875,7 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
         story.append(ChapterMarker(title=title, section=section, toc_text=toc_text))
 
         story.append(Spacer(1, 2))
-        if section:
-            story.append(SmallCapsFlowable(section, IT, 8.6, AMBER, spacing=1.5, space_after=10))
+        # La sección agrupa capítulos: su nombre va en su portadilla, no en cada capítulo.
         label = chapter_label(chapter_number)
         if label:
             story.append(SmallCapsFlowable(label, R, 8.6, AMBER, spacing=2.6, space_after=8))
@@ -876,6 +884,11 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             story.append(Paragraph(gbp.escape_xml(subtitle), styles["ChapterSubtitle"]))
         story.append(HRFlowable(width=42, thickness=0.9, color=GOLD, hAlign="LEFT",
                                  spaceBefore=6, spaceAfter=16))
+        if illustration_bytes:
+            img = gbp.make_image_flowable(illustration_bytes, TEXT_W, TEXT_H * 0.40)
+            img.hAlign = "CENTER"
+            story.append(img)
+            story.append(Spacer(1, 16))
         flowables = gbp.markdown_to_flowables(body, styles, illustrations, base_dir,
                                               TEXT_W, ca_bundle)
         # Nada de espacio al final del capítulo: si cae al pie, desborda solo

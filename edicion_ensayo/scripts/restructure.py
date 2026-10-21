@@ -534,7 +534,7 @@ def build(lg):
     report = {}
     base_unico = prune({k: v for k, v in BASE_TOC[lg].items() if k != "chapters"})
     cfgs = {"unico": base_unico,
-            "t1": dict(prune({k: v for k, v in BASE_T1[lg].items() if k != "chapters"}), body_leading={"es": 14.4, "ca": 14.8, "en": 15.0}[lg]),
+            "t1": dict(prune({k: v for k, v in BASE_T1[lg].items() if k != "chapters"}), body_leading={"es": 15.0, "ca": 15.2, "en": 15.4}[lg]),
             "t2": prune({k: v for k, v in BASE_T2[lg].items() if k != "chapters"})}
     a, b = CREDITS["t1"][lg]
     c = cfgs["t1"]["credits"]; assert any(a in x for x in c), (lg, a)
