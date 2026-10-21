@@ -306,3 +306,7 @@ al ensayo; la psique (partes III) antes de la enfermedad; lecturas solo de obras
 - ER=EPR se explica solo en el capítulo del entrelazamiento (antes cap. 11); sale del capítulo 2.
 - Tomo I ilustrado: 550 / 548 / 550 páginas (es/ca/en) con interlineado 15,0 / 15,2 / 15,4 pt; sin ilustraciones 518 / 502 / 512.
   Volumen único: 764 / 748 / 748 (700 / 690 / 692 sin ilustraciones). Tomo II: 176 / 172 / 176.
+
+### Tarel vuelve al ensayo (octubre 2026)
+
+Se restituyen los nombres retirados el 20-sep-2026 (cap. de la muerte, epílogo «La orilla», conclusión cósmica y cartografía de singularidades; Luthier sigue sin nombrar) y se incluye la versión breve de «La costumbre del agua» (`content_overrides/tarel.*`, sin subtítulo) entre el prólogo y la nota del autor, en único y Tomo I. Para no pasar de 550 págs. el Tomo I usa `body_leading` 14.4/14.8/15.0 (es/ca/en).
