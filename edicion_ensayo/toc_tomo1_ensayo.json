@@ -27,6 +27,7 @@
     "il_cart_narciso": "../src/assets/images/il_cart_narciso.jpg",
     "cart_relojes": "imagenes/cart_relojes.jpg",
     "cartografia_eco_p1": "../src/assets/images/cartografia_eco/pagina1.jpg",
+    "cuento_01": "../src/assets/images/cuentos/01_tarel_inicio.png",
     "epilogo": "../src/assets/images/epilogo.jpg",
     "il01": "../src/assets/images/ilustracion_01.png",
     "il02": "../src/assets/images/ilustracion_02.png",
@@ -171,6 +172,10 @@
           "Un segundo tomo, *Lecturas topológicas*, lleva las mismas ideas a la ficción, el cine, el arte, el deporte y la vida cotidiana."
         ]
       ]
+    },
+    {
+      "id": "tarel",
+      "content_file": "content_overrides/tarel.es.md"
     },
     {
       "id": "cap_nota_autor",

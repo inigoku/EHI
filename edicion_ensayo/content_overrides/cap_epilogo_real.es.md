@@ -4,11 +4,10 @@ section: CUARTA PARTE: EL LÍMITE DEL EXPERIMENTO
 chapterNumber: Epílogo
 illustrationId: il_orilla
 illustrationTitle: La orilla
-illustrationDescription: La orilla de la ciudad, ahora con el agua de vuelta. Pilotes húmedos, cuerdas oxidadas, barcas podridas. El agua tiene color distinto, textura distinta. El archivista, ahora viejo, en el muelle. Manos abiertas, vacías. En el agua, reflejos que no corresponden al cielo: correlaciones del scrambling, huellas de la ciudad.
+illustrationDescription: La misma vista de Tarel que al principio, pero ahora el agua ha vuelto. Pilotes húmedos, cuerdas oxidadas, barcas podridas. El agua tiene color distinto, textura distinta. El archivista, ahora viejo, en el muelle. Manos abiertas, vacías. En el agua, reflejos que no corresponden al cielo: correlaciones del scrambling, huellas de Tarel.
 ---
 
-*Había una ciudad junto a un agua que se retiró, y un archivista que guardó lo que el agua dejó.*  
-*El agua regresó de noche. Sin anuncio. Sin señales.*  
+*El agua de Tarel regresó de noche. Sin anuncio. Sin señales.*  
 *Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos.*  
 *Nadie supo decir si el agua había traído algo consigo.*  
 *Nadie supo decir si había dejado algo atrás.*
@@ -45,13 +44,13 @@ Es algo más modesto que una conquista del conocimiento y, creo, más valioso: u
 
 Y tú, lector, has hecho algo que yo no podía hacer solo: has **cerrado el circuito**. Un experimento de pensamiento es una invitación a que alguien más entre en el laboratorio, mire por el mismo microscopio y diga lo que ve. Cada conciencia que ha seguido estos capítulos ha sido, en cierto sentido, un nuevo horizonte observando el reservorio. Leer es un acto de cocreación: sin ti, estas páginas son solo tinta o píxeles; contigo, se convierten en correlaciones, en patrones de activación neuronal que quizá, solo quizá, resonaron con algo que ya sabías, pero no podías nombrar.
 
-Me pregunto a menudo qué orilla habrás construido tú mientras leías. Porque no todos los lectores leen el mismo libro: cada uno lee el libro que su horizonte puede contener en ese momento. Quien ha perdido hace poco a una persona querida habrá leído el capítulo del duelo con una intensidad que yo no podía prever al escribirlo. Quien trabaja con enfermos de Alzheimer habrá visto en la contracción del horizonte una descripción precisa de algo que vive cada día. Quien programa inteligencia artificial habrá sentido un escalofrío ante la pregunta de si una máquina puede tener un horizonte de sucesos. El libro que has leído no existe en mi ordenador: existe en el espacio que se ha abierto entre mi texto y tu lectura, en esa interfaz donde la información deja de ser mía para ser nuestra, aunque sea por un instante.
+Me pregunto a menudo qué Tarel habrás construido tú mientras leías. Porque no todos los lectores leen el mismo libro: cada uno lee el libro que su horizonte puede contener en ese momento. Quien ha perdido hace poco a una persona querida habrá leído el capítulo del duelo con una intensidad que yo no podía prever al escribirlo. Quien trabaja con enfermos de Alzheimer habrá visto en la contracción del horizonte una descripción precisa de algo que vive cada día. Quien programa inteligencia artificial habrá sentido un escalofrío ante la pregunta de si una máquina puede tener un horizonte de sucesos. El libro que has leído no existe en mi ordenador: existe en el espacio que se ha abierto entre mi texto y tu lectura, en esa interfaz donde la información deja de ser mía para ser nuestra, aunque sea por un instante.
 
 ---
 
 ## La pregunta que queda
 
-Pero volvamos a la orilla, a la mañana en que el agua regresó.
+Pero volvamos a Tarel, a la orilla, a la mañana en que el agua regresó.
 
 La pregunta no es solo filosófica; es física en el sentido más estricto. Cuando un agujero negro de Hawking se evapora, la información que cayó en él no se destruye: se conserva en las correlaciones del campo cuántico que queda. Pero esas correlaciones han sufrido el *scrambling*, están mezcladas de tal manera que recuperar la información original exigiría medir un número de partículas proporcional a la entropía del agujero, algo que ningún observador finito puede hacer. La información está ahí, pero no es accesible. No es lo mismo que no existir, pero tampoco que estar disponible.
 
@@ -59,7 +58,7 @@ La pregunta no es solo filosófica; es física en el sentido más estricto. Cuan
 
 ¿Y qué pasa con la conciencia? Si la conciencia es información organizada de una manera particular, un patrón de correlaciones que genera un horizonte de sucesos interno, cuando ese horizonte se evapora, la información que lo constituía vuelve al reservorio. Pero ¿vuelve el patrón? ¿La organización? ¿La forma?
 
-Aquí es donde esta metáfora se vuelve incómodamente precisa. Cuando el agua se retiró, dejó al descubierto la estructura de la ciudad: las calles, los muros, los cimientos. Cuando volvió, lo cubrió todo de nuevo. Pero el agua que volvió no era la misma que se había ido: las moléculas eran otras, y otras la temperatura, el color, la salinidad, la densidad del plancton. La ciudad sumergida conservaba la misma estructura, pero ahora estaba en otro medio, en contacto con agua nueva. Si algo de la «ciudad» volvió con el agua, no fue la ciudad como estructura arquitectónica, sino como perturbación, como alteración del campo, como patrón de correlaciones que el agua nueva llevaba ahora sin saberlo.
+Aquí es donde la metáfora de Tarel se vuelve incómodamente precisa. Cuando el agua se retiró, dejó al descubierto la estructura de la ciudad: las calles, los muros, los cimientos. Cuando volvió, lo cubrió todo de nuevo. Pero el agua que volvió no era la misma que se había ido: las moléculas eran otras, y otras la temperatura, el color, la salinidad, la densidad del plancton. La ciudad sumergida conservaba la misma estructura, pero ahora estaba en otro medio, en contacto con agua nueva. Si algo de la «ciudad» volvió con el agua, no fue la ciudad como estructura arquitectónica, sino como perturbación, como alteración del campo, como patrón de correlaciones que el agua nueva llevaba ahora sin saberlo.
 
 Quizá esto sea lo más parecido a una respuesta que puedo ofrecer: lo que sobrevive no es la forma, sino la **diferencia**. La ciudad existió como una perturbación del campo, y esa perturbación dejó rastro; no la ciudad misma, sino el hecho de que hubo una ciudad. Como una piedra que cae en un estanque: la piedra se hunde, pero las ondas siguen propagándose. Mirando las ondas no puedes recuperar la piedra, pero sí saber que hubo una, cuándo cayó y qué tamaño tenía. La información sobre la piedra queda repartida en el patrón de las ondas. El agua no «recuerda» la piedra, pero la conserva en su forma.
 
@@ -109,13 +108,13 @@ No sé quién eres, lector. No sé si has llegado aquí de un tirón, en una noc
 
 Es lo más íntimo que puede hacer quien escribe: hablar al oído de alguien a quien no conoce y confiar en que las palabras, ondas de aire, de luz o de tinta, encontrarán un receptor que las complete. Es un acto de fe, no muy distinto del que supone vivir sabiendo que vas a morir: confiar en que el mensaje importa aunque no sepas quién lo recibirá ni qué hará con él.
 
-Te dejo, pues, con la imagen del archivista: el que se quedó en la orilla cuando el agua se retiró y siguió allí cuando el agua volvió. No porque fuera un héroe, ni un necio, sino porque no sabía qué otra cosa hacer. Su trabajo, archivar lo que la ciudad había sido, ya no tenía sentido práctico, porque la ciudad ya no existía. Pero él seguía archivando, porque archivar era su manera de decir: estuvo aquí, importó, hubo un antes.
+Te dejo, pues, con la imagen del archivista de Tarel: el que se quedó en la orilla cuando el agua se retiró y siguió allí cuando el agua volvió. No porque fuera un héroe, ni un necio, sino porque no sabía qué otra cosa hacer. Su trabajo, archivar lo que la ciudad había sido, ya no tenía sentido práctico, porque la ciudad ya no existía. Pero él seguía archivando, porque archivar era su manera de decir: estuvo aquí, importó, hubo un antes.
 
 Ese archivista soy yo, escribiendo este libro. Soy yo y es cada lector que llega a la última página y siente la necesidad de contarle a alguien lo que ha leído, de escribirlo en un diario, de cambiar algo en su vida o, sencillamente, de quedarse en silencio un rato más de lo habitual. El archivo no está en estas páginas, sino en la red de correlaciones que este texto ha generado en el campo de la cultura: en las conversaciones que provocará, en las preguntas que sembrará, en las noches de insomnio en que alguien mirará al techo y pensará: ¿y si mi conciencia fuera de verdad un agujero negro de Hawking?
 
 No te pido que creas en el experimento; el experimento no necesita creyentes. Solo te pido que lo pruebes, que lo habites, que lo dejes actuar en tu horizonte el tiempo suficiente para ver si cambia algo. Si no cambia nada, déjalo ir, como se deja una piedra que no sirve para construir. Si cambia algo, aunque sea un matiz o una pregunta nueva, el experimento habrá cumplido su única promesa: hacerte más preciso, más consciente de la forma de tu propia conciencia, más dueño de tu horizonte aunque sepas que no lo elegiste y que no puedes impedir que se evapore.
 
-El agua sigue ahí, moviéndose con las mareas, llevando consigo una información que no puede leer. La ciudad sigue ahí, bajo el agua, en forma de correlaciones, de huellas, de silencios. El archivista sigue en el muelle, ya viejo, con las manos abiertas y vacías, mirando reflejos que no corresponden al cielo. Y nosotros, tú y yo, que hemos compartido este viaje, seguimos aquí, en la orilla, entre dos aguas, en el borde exacto donde la información se hace conciencia y la conciencia se hace pregunta.
+El agua de Tarel sigue ahí, moviéndose con las mareas, llevando consigo una información que no puede leer. La ciudad sigue ahí, bajo el agua, en forma de correlaciones, de huellas, de silencios. El archivista sigue en el muelle, ya viejo, con las manos abiertas y vacías, mirando reflejos que no corresponden al cielo. Y nosotros, tú y yo, que hemos compartido este viaje, seguimos aquí, en la orilla, entre dos aguas, en el borde exacto donde la información se hace conciencia y la conciencia se hace pregunta.
 
 No sé si algo volvió con el agua, ni si algo se fue para siempre. Puedo vivir con esa ignorancia. De hecho, creo que solo la ignorancia permite vivir de verdad, porque saberlo todo sería como estar muerto: un estado sin sorpresa y sin futuro. La vida es la duda en movimiento; la muerte es, quizá, la duda resuelta, o quizá solo la duda transformada en algo que no sabemos nombrar.
 

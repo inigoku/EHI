@@ -7,7 +7,7 @@ illustrationTitle: Evaporation
 illustrationDescription: A lake evaporating. The water rises as vapor in the shape of faces, houses, trees —memories dissolving. In the sky, clouds with patterns that are not random.
 ---
 
-> *There was a city beside a water that withdrew, and an archivist who kept what the water left behind. The water came back at night. Without warning. Without signs. In the morning the inhabitants found the shore where it had always been. The same mud. The same stones. The same line of salt on the low walls. No one could say whether the water had brought anything with it. No one could say whether it had left anything behind.*
+> *The water of Tarel came back at night. Without warning. Without signs. In the morning the inhabitants found the shore where it had always been. The same mud. The same stones. The same line of salt on the low walls. No one could say whether the water had brought anything with it. No one could say whether it had left anything behind.*
 
 In 1974 Stephen Hawking discovered that black holes are not eternal. Nothing destroys them from outside: the quantum vacuum, disturbed by the horizon, generates a constant flow of radiation that slowly drains their mass. The temperature of that radiation is inversely proportional to the mass: the smaller the black hole, the hotter and brighter it is. Evaporation accelerates itself.
 
@@ -97,7 +97,7 @@ Did anything of the city come back with the water?
 
 **Advaita Vedanta**: the city never stopped being water. The jīva, the individual consciousness, was Brahman with superimposed limits, and those limits were māyā: its separation was only apparent. The wave is a pattern of movement in a continuous medium. When it breaks there is no return: an apparent localization simply ceases. Nothing of the city came back because the city was the water all along.
 
-**Taoism**: the city was a name. Zhuangzi would not say that those correlations remain in the field. He would say the question assumes the city was something more than water. Chapter 16 of the *Tao Te Ching* says it: all things return to their root, and that return is called stillness. No memory, no correlation, no imprint. To die is to return to one's destiny, which consists in having no destiny.
+**Taoism**: the city was a name. Zhuangzi would not say that the correlations of Tarel remain in the field. He would say the question assumes the city was something more than water. Chapter 16 of the *Tao Te Ching* says it: all things return to their root, and that return is called stillness. No memory, no correlation, no imprint. To die is to return to one's destiny, which consists in having no destiny.
 
 **Buddhism**: something came back, but no longer as a city. The doctrine of anattā, non-self, rejects both eternalism and annihilationism. There is no substance that transmigrates, but there is no complete dissolution either. What continues is karma, which is not a moral debt but a causal pattern without an owner. The flame of one candle lights another, and the second is not the first, but neither is it something entirely different: there is causal continuity without substantial identity.
 
@@ -123,7 +123,7 @@ The physical part is a direct consequence of the conservation of information; ca
 
 ### What the question reveals
 
-On the substantial level (did the city come back as an entity?), all the traditions say no. There is no remnant with an identity and no self that persists.
+On the substantial level (did Tarel come back as an entity?), all the traditions say no. There is no remnant with an identity and no self that persists.
 
 On the causal level (did the city influence the water that came back?), they all say yes. The field after evaporation is not identical to the one before: there is an imprint, though a nameless one.
 
@@ -133,7 +133,7 @@ What the question reveals, once asked, is that we want the city to have come bac
 
 ### The closing of the cycle
 
-The inhabitants found the shore exactly where it had been. The same mud, the same stones. There were no signs that the water had taken anything or left anything.
+The inhabitants of Tarel found the shore exactly where it had been. The same mud, the same stones. There were no signs that the water had taken anything or left anything.
 
 But the water was not the same. The quantum field in which its molecules move had been altered in ways no instrument can fully measure. The correlations were there, present in the mathematics and inaccessible in practice.
 

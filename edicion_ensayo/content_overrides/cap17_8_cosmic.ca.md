@@ -90,9 +90,9 @@ El mite lovecraftià fa exactament el contrari: presenta la trobada amb allò in
 
 En aquesta lectura, el sagrat és el que la cultura acumula (en forma de ritual, símbol, mite i tradició) perquè els horitzons fràgils sobrevisquin al contacte amb allò que els desborda. És enginyeria de la distància segura: la versió estabilitzada i transmissible del terror còsmic, el mateix senyal amb el vidre protector posat.
 
-### Conclusió: la solitud davant l'oceà aliè
+### Conclusió: la solitud de Tarel i l'oceà aliè
 
-Aquest llibre ha tractat el reservori com un fons neutre, ni hostil ni acollidor.
+L'arxivista de Tarel anotava amb cura la retirada de l'aigua; donava per fet que l'aigua tenia el costum d'anar-se'n i tornar. La nostra hipòtesi tracta el reservori com un fons neutre, ni hostil ni acollidor.
 
 Però, si incloem les topologies lovecraftianes en el límit del nostre experiment, ens enfrontem a la possibilitat més gèlida de totes: que les lleis que ho mantenen tot al seu lloc no siguin un bressol neutral, sinó una quarantena.
 

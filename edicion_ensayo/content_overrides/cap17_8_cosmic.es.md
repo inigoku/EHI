@@ -90,9 +90,9 @@ El mito lovecraftiano hace justo lo contrario: presenta el encuentro con lo inco
 
 En esta lectura, lo sagrado es lo que la cultura acumula (en forma de ritual, símbolo, mito y tradición) para que los horizontes frágiles sobrevivan al contacto con lo que los desborda. Es ingeniería de la distancia segura: la versión estabilizada y transmisible del terror cósmico, la misma señal con el cristal protector puesto.
 
-### Conclusión: la soledad frente al océano ajeno
+### Conclusión: la soledad de Tarel y el océano ajeno
 
-Este libro ha tratado el reservorio como un fondo neutro, ni hostil ni acogedor.
+El archivista de Tarel anotaba con cuidado la retirada del agua; daba por hecho que el agua tenía la costumbre de irse y volver. Nuestra hipótesis trata el reservorio como un fondo neutro, ni hostil ni acogedor.
 
 Pero, si incluimos las topologías lovecraftianas en el límite de nuestro experimento, nos enfrentamos a la posibilidad más gélida de todas: que las leyes que lo mantienen todo en su sitio no sean una cuna neutral, sino una cuarentena.
 

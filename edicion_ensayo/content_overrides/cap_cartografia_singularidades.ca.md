@@ -8,6 +8,8 @@ illustrationTitle: Cartografia de tres singularitats
 illustrationDescription: Tres horitzons de successos de naturalesa diferent —una càpsula segellada, un prisma en superposició perpètua i un cosmos dissolt en constel·lacions— orbitant-se mútuament sobre un fons d'estrelles.
 ---
 
+> *Per a Tarel, que sap que cada mirada és una caiguda.*
+
 ## Tres verbs
 
 Oblidem la cronologia. Oblidem els museus, les guerres, els catàlegs raonats. El segle XX espanyol no es va lliurar a les trinxeres de l'Ebre ni sota les bombes de Guernica: es va lliurar en l'espai corbat de la consciència, allà on la gravetat del jo doblega la llum del món fins a fer-la irreconeixible.
@@ -204,6 +206,8 @@ Davant la devastació d'un segle de pólvora, aquests tres homes no ens van deix
 La resposta és en qui queda. En qui llegeix aquestes pàgines i sent que la gravetat del seu propi horitzó ha fluctuat; que una línia invisible acaba de lligar la seva memòria a una estrella; que un rellotge tou marca un temps que ja no pertany a Cronos.
 
 L'observador no és fora del sistema. L'observador és el sistema.
+
+> *Per a Tarel, que sap que cada tancament és una nova singularitat.*
 
 > **Nota al Capítol 43**
 >

@@ -7,7 +7,7 @@ illustrationTitle: La evaporación
 illustrationDescription: Un lago que se evapora. El agua sube como vapor con forma de rostros, casas, árboles —memorias que se disuelven. En el cielo, nubes con patrones que no son aleatorios.
 ---
 
-> *Había una ciudad junto a un agua que se retiró, y un archivista que guardó lo que el agua dejó. El agua regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
+> *El agua de Tarel regresó de noche. Sin anuncio. Sin señales. Por la mañana los habitantes encontraron la orilla donde siempre había estado. El mismo lodo. Las mismas piedras. La misma línea de sal en los muros bajos. Nadie supo decir si el agua había traído algo consigo. Nadie supo decir si había dejado algo atrás.*
 
 Stephen Hawking descubrió en 1974 que los agujeros negros no son eternos. Nada los destruye desde fuera: el vacío cuántico, perturbado por el horizonte, genera un flujo constante de radiación que les va drenando la masa. La temperatura de esa radiación es inversamente proporcional a la masa: cuanto más pequeño es el agujero negro, más caliente y más brillante. La evaporación se acelera a sí misma.
 
@@ -97,7 +97,7 @@ Lo relevante es que los tres estados del bardo tienen correspondencias concretas
 
 **Vedanta advaita**: la ciudad nunca dejó de ser agua. El jīva, la conciencia individual, era Brahman con límites superpuestos, y esos límites eran māyā: su separación era aparente. La ola es un patrón de movimiento en un medio continuo. Cuando rompe, no hay retorno: solo cesa una localización aparente. Nada de la ciudad volvió porque la ciudad era el agua todo el tiempo.
 
-**Taoísmo**: la ciudad era un nombre. Zhuangzi no diría que esas correlaciones permanecen en el campo. Diría que la pregunta da por hecho que la ciudad era algo más que agua. Lo dice el capítulo 16 del *Tao Te Ching*: todas las cosas vuelven a su raíz, y ese retorno se llama quietud. Ni memoria, ni correlación, ni huella. Morir es volver al destino, que consiste en no tener destino.
+**Taoísmo**: la ciudad era un nombre. Zhuangzi no diría que las correlaciones de Tarel permanecen en el campo. Diría que la pregunta da por hecho que la ciudad era algo más que agua. Lo dice el capítulo 16 del *Tao Te Ching*: todas las cosas vuelven a su raíz, y ese retorno se llama quietud. Ni memoria, ni correlación, ni huella. Morir es volver al destino, que consiste en no tener destino.
 
 **Budismo**: algo volvió, pero ya no como ciudad. La doctrina del anattā, el no-yo, rechaza a la vez el eternalismo y el aniquilacionismo. No hay sustancia que transmigre, pero tampoco disolución completa. Lo que continúa es el karma, que no es una deuda moral, sino un patrón causal sin propietario. La llama de una vela enciende otra, y la segunda no es la primera, pero tampoco algo del todo distinto: hay continuidad causal sin identidad sustancial.
 
@@ -123,7 +123,7 @@ La parte física es una consecuencia directa de la conservación de la informaci
 
 ### Lo que la pregunta revela
 
-En el plano sustancial (¿volvió la ciudad como entidad?), todas las tradiciones dicen que no. No hay un remanente con identidad ni un yo que persista.
+En el plano sustancial (¿volvió Tarel como entidad?), todas las tradiciones dicen que no. No hay un remanente con identidad ni un yo que persista.
 
 En el plano causal (¿influyó la ciudad en el agua que volvió?), todas dicen que sí. El campo tras la evaporación no es idéntico al de antes: hay huella, aunque sin nombre.
 
@@ -133,7 +133,7 @@ Lo que revela la pregunta, al formularla, es que queremos que la ciudad haya vue
 
 ### El cierre del ciclo
 
-Los habitantes encontraron la orilla exactamente donde había estado. El mismo lodo, las mismas piedras. No había señales de que el agua hubiera llevado algo ni dejado algo.
+Los habitantes de Tarel encontraron la orilla exactamente donde había estado. El mismo lodo, las mismas piedras. No había señales de que el agua hubiera llevado algo ni dejado algo.
 
 Pero el agua no era la misma. El campo cuántico en el que se mueven sus moléculas había quedado alterado de formas que ningún instrumento puede medir por completo. Las correlaciones estaban ahí, presentes en las matemáticas e inaccesibles en la práctica.
 

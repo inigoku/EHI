@@ -7,7 +7,7 @@ illustrationTitle: L'evaporació
 illustrationDescription: Un llac que s'evapora. L'aigua puja com a vapor amb forma de rostres, cases, arbres —memòries que es dissolen. Al cel, núvols amb patrons que no són aleatoris.
 ---
 
-> *Hi havia una ciutat vora una aigua que es va retirar, i un arxivista que va guardar el que l'aigua va deixar. L'aigua va tornar de nit. Sense avís. Sense senyals. Al matí els habitants van trobar la vora on sempre havia estat. El mateix fang. Les mateixes pedres. La mateixa línia de sal als murs baixos. Ningú va saber dir si l'aigua havia portat res amb ella. Ningú va saber dir si havia deixat res enrere.*
+> *L'aigua de Tarel va tornar de nit. Sense avís. Sense senyals. Al matí els habitants van trobar la vora on sempre havia estat. El mateix fang. Les mateixes pedres. La mateixa línia de sal als murs baixos. Ningú va saber dir si l'aigua havia portat res amb ella. Ningú va saber dir si havia deixat res enrere.*
 
 Stephen Hawking va descobrir el 1974 que els forats negres no són eterns. Res no els destrueix des de fora: el buit quàntic, pertorbat per l'horitzó, genera un flux constant de radiació que els va drenant la massa. La temperatura d'aquesta radiació és inversament proporcional a la massa: com més petit és el forat negre, més calent i més brillant. L'evaporació s'accelera a si mateixa.
 
@@ -97,7 +97,7 @@ Alguna cosa de la ciutat va tornar amb l'aigua?
 
 **Vedanta advaita**: la ciutat mai va deixar de ser aigua. El jīva, la consciència individual, era Brahman amb límits superposats, i aquests límits eren māyā: la seva separació era aparent. L'onada és un patró de moviment en un medi continu. Quan es trenca, no hi ha retorn: només cessa una localització aparent. Res de la ciutat va tornar perquè la ciutat era l'aigua tota l'estona.
 
-**Taoisme**: la ciutat era un nom. Zhuangzi no diria que aquestes correlacions romanen en el camp. Diria que la pregunta dona per fet que la ciutat era alguna cosa més que aigua. Ho diu el capítol 16 del *Tao Te Ching*: totes les coses tornen a la seva arrel, i aquest retorn s'anomena quietud. Ni memòria, ni correlació, ni empremta. Morir és tornar al destí, que consisteix a no tenir destí.
+**Taoisme**: la ciutat era un nom. Zhuangzi no diria que les correlacions de Tarel romanen en el camp. Diria que la pregunta dona per fet que la ciutat era alguna cosa més que aigua. Ho diu el capítol 16 del *Tao Te Ching*: totes les coses tornen a la seva arrel, i aquest retorn s'anomena quietud. Ni memòria, ni correlació, ni empremta. Morir és tornar al destí, que consisteix a no tenir destí.
 
 **Budisme**: alguna cosa va tornar, però ja no com a ciutat. La doctrina de l'anattā, el no-jo, rebutja alhora l'eternalisme i l'aniquilacionisme. No hi ha substància que transmigri, però tampoc dissolució completa. El que continua és el karma, que no és un deute moral, sinó un patró causal sense propietari. La flama d'una espelma n'encén una altra, i la segona no és la primera, però tampoc alguna cosa del tot diferent: hi ha continuïtat causal sense identitat substancial.
 
@@ -123,7 +123,7 @@ La part física és una conseqüència directa de la conservació de la informac
 
 ### El que la pregunta revela
 
-En el pla substancial (va tornar la ciutat com a entitat?), totes les tradicions diuen que no. No hi ha un romanent amb identitat ni un jo que persisteixi.
+En el pla substancial (va tornar Tarel com a entitat?), totes les tradicions diuen que no. No hi ha un romanent amb identitat ni un jo que persisteixi.
 
 En el pla causal (va influir la ciutat en l'aigua que va tornar?), totes diuen que sí. El camp després de l'evaporació no és idèntic al d'abans: hi ha empremta, encara que sense nom.
 
@@ -133,7 +133,7 @@ El que revela la pregunta, en formular-la, és que volem que la ciutat hagi torn
 
 ### El tancament del cicle
 
-Els habitants van trobar la vora exactament on havia estat. El mateix fang, les mateixes pedres. No hi havia senyals que l'aigua hagués portat res ni deixat res.
+Els habitants de Tarel van trobar la vora exactament on havia estat. El mateix fang, les mateixes pedres. No hi havia senyals que l'aigua hagués portat res ni deixat res.
 
 Però l'aigua no era la mateixa. El camp quàntic en què es mouen les seves molècules havia quedat alterat de maneres que cap instrument no pot mesurar del tot. Les correlacions eren allà, presents en les matemàtiques i inaccessibles a la pràctica.
 

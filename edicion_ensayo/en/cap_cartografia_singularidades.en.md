@@ -8,6 +8,8 @@ illustrationTitle: Cartography of three singularities
 illustrationDescription: Three event horizons of different natures — a sealed capsule, a prism in perpetual superposition, and a cosmos dissolved into constellations — orbiting one another against a starry background.
 ---
 
+> *For Tarel, who knows that every gaze is a fall.*
+
 ## Three verbs
 
 Let us forget chronology. Let us forget the museums, the wars, the catalogues raisonnés. The Spanish twentieth century was not fought in the trenches of the Ebro or under the bombs of Guernica: it was fought in the curved space of consciousness, there where the gravity of the self bends the light of the world until it becomes unrecognizable.
@@ -204,6 +206,8 @@ Faced with the devastation of a century of gunpowder, these three men left us no
 The answer lies in the one who remains. In the one reading these pages and feeling that the gravity of their own horizon has fluctuated; that an invisible line has just tied their memory to a star; that a soft clock marks a time that no longer belongs to Chronos.
 
 The observer is not outside the system. The observer is the system.
+
+> *For Tarel, who knows that every closing is a new singularity.*
 
 > **Note to Chapter 43**
 >

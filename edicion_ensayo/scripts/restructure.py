@@ -28,7 +28,7 @@ SFX = {"es": "", "ca": "_ca", "en": "_en"}
 sys.path.insert(0, str(ROOT / "scripts"))
 
 # ------------------------------------------------------------------ estructura
-FRONT = ["cap0", "prologo", "cap_nota_autor"]
+FRONT = ["cap0", "prologo", "tarel", "cap_nota_autor"]
 I = ["cap1", "cap2", "cap_info_intro", "cap2_5", "cap3", "cap4", "cap5", "cap6", "cap6_5", "cap6_6"]
 INTER = ["interludio"]
 II = ["cap7", "cap7_5", "cap8", "cap9", "cap10", "cap11", "cap18_real", "cap12", "cap13",
@@ -526,7 +526,7 @@ def prune(cfg):
     """Fuera las láminas de los cuentos: este volumen no los lleva."""
     cfg = dict(cfg)
     cfg["illustrations"] = {k: v for k, v in cfg.get("illustrations", {}).items()
-                            if not k.startswith("cuento_") and k != "il_el_que_queda"}
+                            if (not k.startswith("cuento_") or k == "cuento_01") and k != "il_el_que_queda"}
     return cfg
 
 

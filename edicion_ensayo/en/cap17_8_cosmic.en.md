@@ -90,9 +90,9 @@ The Lovecraftian myth does exactly the opposite: it presents the encounter with 
 
 On this reading, the sacred is what culture accumulates (in the form of ritual, symbol, myth and tradition) so that fragile horizons survive contact with what overwhelms them. It is the engineering of safe distance: the stabilized, transmissible version of cosmic horror, the same signal with the protective glass installed.
 
-### Conclusion: solitude before the alien ocean
+### Conclusion: Tarel's loneliness and the alien ocean
 
-This book has treated the reservoir as a neutral background, neither hostile nor welcoming.
+The archivist of Tarel noted the retreat of the water with care; he took for granted that the water had a habit of leaving and returning. This book has treated the reservoir as a neutral background, neither hostile nor welcoming.
 
 But if we include Lovecraftian topologies at the limit of our experiment, we face the coldest possibility of all: that the laws keeping everything in place are not a neutral cradle, but a quarantine.
 

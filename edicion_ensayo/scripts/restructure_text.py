@@ -620,6 +620,94 @@ def erepr(lg):
     c6.save()
 
 
+# ---------------------------------------------------------------------------
+# 10. Vuelve Tarel al ensayo: se restituyen los nombres (retirados el 20-sep) y la obertura breve
+# ---------------------------------------------------------------------------
+TAREL = {
+    "es": {
+        "cap6": [("Había una ciudad junto a un agua que se retiró, y un archivista que guardó lo que el agua dejó. El agua regresó de noche.", "El agua de Tarel regresó de noche."),
+                 ("Zhuangzi no diría que esas correlaciones permanecen", "Zhuangzi no diría que las correlaciones de Tarel permanecen"),
+                 ("(¿volvió la ciudad como entidad?)", "(¿volvió Tarel como entidad?)"),
+                 ("Los habitantes encontraron la orilla exactamente", "Los habitantes de Tarel encontraron la orilla exactamente")],
+        "cap_epilogo_real": [("*Había una ciudad junto a un agua que se retiró, y un archivista que guardó lo que el agua dejó.*  \n*El agua regresó de noche.", "*El agua de Tarel regresó de noche."),
+                 ("qué orilla habrás construido", "qué Tarel habrás construido"),
+                 ("Pero volvamos a la orilla, a la mañana", "Pero volvamos a Tarel, a la orilla, a la mañana"),
+                 ("Aquí es donde esta metáfora se vuelve", "Aquí es donde la metáfora de Tarel se vuelve"),
+                 ("con la imagen del archivista: el que", "con la imagen del archivista de Tarel: el que"),
+                 ("El agua sigue ahí, moviéndose", "El agua de Tarel sigue ahí, moviéndose")],
+        "epi_desc": [("La orilla de la ciudad, ahora con el agua de vuelta.", "La misma vista de Tarel que al principio, pero ahora el agua ha vuelto."), ("huellas de la ciudad", "huellas de Tarel")],
+        "cap17_8_cosmic": [("### Conclusión: la soledad frente al océano ajeno", "### Conclusión: la soledad de Tarel y el océano ajeno"),
+                 ("Este libro ha tratado el reservorio como un fondo neutro", "El archivista de Tarel anotaba con cuidado la retirada del agua; daba por hecho que el agua tenía la costumbre de irse y volver. Nuestra hipótesis trata el reservorio como un fondo neutro")],
+        "carto": ("> *Para Tarel, que sabe que cada mirada es una caída.*", "> *Para Tarel, que sabe que cada cierre es una nueva singularidad.*", "> **Nota al"),
+    },
+    "ca": {
+        "cap6": [("Hi havia una ciutat vora una aigua que es va retirar, i un arxivista que va guardar el que l'aigua va deixar. L'aigua va tornar de nit.", "L'aigua de Tarel va tornar de nit."),
+                 ("Zhuangzi no diria que aquestes correlacions romanen", "Zhuangzi no diria que les correlacions de Tarel romanen"),
+                 ("(va tornar la ciutat com a entitat?)", "(va tornar Tarel com a entitat?)"),
+                 ("Els habitants van trobar la vora exactament", "Els habitants de Tarel van trobar la vora exactament")],
+        "cap_epilogo_real": [("*Hi havia una ciutat vora una aigua que es va retirar, i un arxivista que va guardar el que l'aigua va deixar.*  \n*L'aigua va tornar de nit.", "*L'aigua de Tarel va tornar de nit."),
+                 ("quina riba hauràs construït", "quin Tarel hauràs construït"),
+                 ("Però tornem a la riba, al matí", "Però tornem a Tarel, a la riba, al matí"),
+                 ("Aquí és on aquesta metàfora es torna", "Aquí és on la metàfora de Tarel es torna"),
+                 ("amb la imatge de l'arxivista: el que", "amb la imatge de l'arxivista de Tarel: el que"),
+                 ("L'aigua continua allà, movent-se", "L'aigua de Tarel continua allà, movent-se")],
+        "epi_desc": [("La vora de la ciutat, ara amb l'aigua de tornada.", "La mateixa vista de Tarel que al principi, però ara l'aigua ha tornat."), ("petjades de la ciutat", "petjades de Tarel")],
+        "cap17_8_cosmic": [("### Conclusió: la solitud davant l'oceà aliè", "### Conclusió: la solitud de Tarel i l'oceà aliè"),
+                 ("Aquest llibre ha tractat el reservori com un fons neutre", "L'arxivista de Tarel anotava amb cura la retirada de l'aigua; donava per fet que l'aigua tenia el costum d'anar-se'n i tornar. La nostra hipòtesi tracta el reservori com un fons neutre")],
+        "carto": ("> *Per a Tarel, que sap que cada mirada és una caiguda.*", "> *Per a Tarel, que sap que cada tancament és una nova singularitat.*", "> **Nota al"),
+    },
+    "en": {
+        "cap6": [("There was a city beside a water that withdrew, and an archivist who kept what the water left behind. The water came back at night.", "The water of Tarel came back at night."),
+                 ("those correlations remain in the field", "the correlations of Tarel remain in the field"),
+                 ("(did the city come back as an entity?)", "(did Tarel come back as an entity?)"),
+                 ("The inhabitants found the shore exactly", "The inhabitants of Tarel found the shore exactly")],
+        "cap_epilogo_real": [("*There was a city beside a water that withdrew, and an archivist who kept what the water left behind.*  \n*The water came back at night.", "*The water of Tarel came back at night."),
+                 ("what shore you will have built", "what Tarel you will have built"),
+                 ("But let us return to the shore, to the morning", "But let us return to Tarel, to the shore, to the morning"),
+                 ("This is where this metaphor becomes", "This is where the metaphor of Tarel becomes"),
+                 ("the image of the archivist: the one who", "the image of the archivist of Tarel: the one who"),
+                 ("The water is still there, moving", "The water of Tarel is still there, moving")],
+        "epi_desc": [("The shore of the city, now with the water returned.", "The same view of Tarel as at the beginning, but now the water has returned."), ("traces of the city", "traces of Tarel")],
+        "cap17_8_cosmic": [("### Conclusion: solitude before the alien ocean", "### Conclusion: Tarel's loneliness and the alien ocean"),
+                 ("This book has treated the reservoir as a neutral background", "The archivist of Tarel noted the retreat of the water with care; he took for granted that the water had a habit of leaving and returning. This book has treated the reservoir as a neutral background")],
+        "carto": ("> *For Tarel, who knows that every gaze is a fall.*", "> *For Tarel, who knows that every closing is a new singularity.*", "> **Note to"),
+    },
+}
+
+
+def tarel(lg):
+    T = TAREL[lg]
+    d = load_saved(lg, "cap6")
+    for a, b in T["cap6"]:
+        d.sub(a, b, count=1)
+    d.save()
+    d = load_saved(lg, "cap_epilogo_real")
+    for a, b in T["cap_epilogo_real"]:
+        d.sub(a, b, count=1)
+    for a, b in T["epi_desc"]:
+        d.subfm(a, b)
+    d.save()
+    d = Doc(lg, "cap17_8_cosmic")
+    for a, b in T["cap17_8_cosmic"]:
+        d.sub(a, b, count=1)
+    d.save()
+    d = Doc(lg, "cap_cartografia_singularidades")
+    first, last, nota = T["carto"]
+    d.p.insert(0, first)
+    j = next(k for k, x in enumerate(d.p) if x.startswith(nota))
+    d.p.insert(j, last)
+    d.save()
+    # la obertura breve de Cuentos de Tarel, sin subtítulo, como pieza de entrada
+    src = (REPO / "content" / "cuentos" / f"cuento1.{lg}.md").read_text(encoding="utf-8")
+    _, fm, body = src.split("---", 2)
+    fm = "\n".join(l for l in fm.split("\n") if not l.startswith(("subtitle:", "linkedChapterId:", "linkedCuentosId:")))
+    out = Doc.__new__(Doc)
+    out.lg, out.cid = lg, "tarel"
+    out.fm, out.lead, out.trail = fm, "\n\n", "\n"
+    out.p = body.strip().split("\n\n")
+    out.save()
+
+
 def main():
     for lg in LG:
         print(lg)
@@ -643,6 +731,7 @@ def main():
         sueltas(lg)
         ajustes(lg)
         erepr(lg)
+        tarel(lg)
 
 
 if __name__ == "__main__":

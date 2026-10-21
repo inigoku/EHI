@@ -4,11 +4,10 @@ section: QUARTA PART: EL LÍMIT DE L'EXPERIMENT
 chapterNumber: Epílogo
 illustrationId: il_orilla
 illustrationTitle: La riba
-illustrationDescription: La vora de la ciutat, ara amb l'aigua de tornada. Pilots humits, cordes oxidades, barques podrides. L'aigua té un color diferent, una textura diferent. L'arxivista, ara vell, al moll. Mans obertes, buides. A l'aigua, reflexos que no corresponen al cel: correlacions de l'scrambling, petjades de la ciutat.
+illustrationDescription: La mateixa vista de Tarel que al principi, però ara l'aigua ha tornat. Pilots humits, cordes oxidades, barques podrides. L'aigua té un color diferent, una textura diferent. L'arxivista, ara vell, al moll. Mans obertes, buides. A l'aigua, reflexos que no corresponen al cel: correlacions de l'scrambling, petjades de Tarel.
 ---
 
-*Hi havia una ciutat vora una aigua que es va retirar, i un arxivista que va guardar el que l'aigua va deixar.*  
-*L'aigua va tornar de nit. Sense avís. Sense senyals.*  
+*L'aigua de Tarel va tornar de nit. Sense avís. Sense senyals.*  
 *Al matí els habitants van trobar la riba on sempre havia estat. El mateix llot. Les mateixes pedres. La mateixa línia de sal als murs baixos.*  
 *Ningú no va saber dir si l'aigua havia portat res amb ella.*  
 *Ningú no va saber dir si havia deixat res enrere.*
@@ -45,13 +44,13 @@ Si has arribat fins aquí, has recorregut amb mi un territori que no figurava en
 
 I tu, lector, has fet alguna cosa que jo no podia fer sol: has **tancat el circuit**. Un experiment de pensament és una invitació perquè algú més entri al laboratori, miri pel mateix microscopi i digui el que veu. Cada consciència que ha seguit aquests capítols ha estat, en cert sentit, un nou horitzó observant el reservori. Llegir és un acte de cocreació: sense tu, aquestes pàgines són només tinta o píxels; amb tu, es converteixen en correlacions, en patrons d'activació neuronal que potser, només potser, van ressonar amb alguna cosa que ja sabies, però no podies anomenar.
 
-Em pregunto sovint quina riba hauràs construït tu mentre llegies. Perquè no tots els lectors llegeixen el mateix llibre: cadascú llegeix el llibre que el seu horitzó pot contenir en aquell moment. Qui ha perdut fa poc una persona estimada haurà llegit el capítol del dol amb una intensitat que jo no podia preveure en escriure'l. Qui treballa amb malalts d'alzheimer haurà vist en la contracció de l'horitzó una descripció precisa d'alguna cosa que viu cada dia. Qui programa intel·ligència artificial haurà sentit un calfred davant la pregunta de si una màquina pot tenir un horitzó de successos. El llibre que has llegit no existeix al meu ordinador: existeix a l'espai que s'ha obert entre el meu text i la teva lectura, en aquesta interfície on la informació deixa de ser meva per ser nostra, encara que sigui per un instant.
+Em pregunto sovint quin Tarel hauràs construït tu mentre llegies. Perquè no tots els lectors llegeixen el mateix llibre: cadascú llegeix el llibre que el seu horitzó pot contenir en aquell moment. Qui ha perdut fa poc una persona estimada haurà llegit el capítol del dol amb una intensitat que jo no podia preveure en escriure'l. Qui treballa amb malalts d'alzheimer haurà vist en la contracció de l'horitzó una descripció precisa d'alguna cosa que viu cada dia. Qui programa intel·ligència artificial haurà sentit un calfred davant la pregunta de si una màquina pot tenir un horitzó de successos. El llibre que has llegit no existeix al meu ordinador: existeix a l'espai que s'ha obert entre el meu text i la teva lectura, en aquesta interfície on la informació deixa de ser meva per ser nostra, encara que sigui per un instant.
 
 ---
 
 ## La pregunta que queda
 
-Però tornem a la riba, al matí en què l'aigua va tornar.
+Però tornem a Tarel, a la riba, al matí en què l'aigua va tornar.
 
 La pregunta no és només filosòfica; és física en el sentit més estricte. Quan un forat negre de Hawking s'evapora, la informació que hi va caure no es destrueix: es conserva en les correlacions del camp quàntic que queda. Però aquestes correlacions han patit l'*scrambling*, estan barrejades de tal manera que recuperar la informació original exigiria mesurar un nombre de partícules proporcional a l'entropia del forat, alguna cosa que cap observador finit no pot fer. La informació hi és, però no és accessible. No és el mateix que no existir, però tampoc que estar disponible.
 
@@ -59,7 +58,7 @@ Va tornar alguna cosa de la ciutat amb l'aigua? Les idees més avançades de la 
 
 I què passa amb la consciència? Si la consciència és informació organitzada d'una manera particular, un patró de correlacions que genera un horitzó de successos intern, quan aquest horitzó s'evapora, la informació que el constituïa torna al reservori. Però torna el patró? L'organització? La forma?
 
-Aquí és on aquesta metàfora es torna incòmodament precisa. Quan l'aigua es va retirar, va deixar al descobert l'estructura de la ciutat: els carrers, els murs, els fonaments. Quan va tornar, ho va cobrir tot de nou. Però l'aigua que va tornar no era la mateixa que se n'havia anat: les molècules eren unes altres, i unes altres la temperatura, el color, la salinitat, la densitat del plàncton. La ciutat submergida conservava la mateixa estructura, però ara era en un altre medi, en contacte amb aigua nova. Si alguna cosa de la «ciutat» va tornar amb l'aigua, no va ser la ciutat com a estructura arquitectònica, sinó com a pertorbació, com a alteració del camp, com a patró de correlacions que l'aigua nova portava ara sense saber-ho.
+Aquí és on la metàfora de Tarel es torna incòmodament precisa. Quan l'aigua es va retirar, va deixar al descobert l'estructura de la ciutat: els carrers, els murs, els fonaments. Quan va tornar, ho va cobrir tot de nou. Però l'aigua que va tornar no era la mateixa que se n'havia anat: les molècules eren unes altres, i unes altres la temperatura, el color, la salinitat, la densitat del plàncton. La ciutat submergida conservava la mateixa estructura, però ara era en un altre medi, en contacte amb aigua nova. Si alguna cosa de la «ciutat» va tornar amb l'aigua, no va ser la ciutat com a estructura arquitectònica, sinó com a pertorbació, com a alteració del camp, com a patró de correlacions que l'aigua nova portava ara sense saber-ho.
 
 Potser això és el que més s'assembla a una resposta que puc oferir: el que sobreviu no és la forma, sinó la **diferència**. La ciutat va existir com una pertorbació del camp, i aquesta pertorbació va deixar rastre; no la ciutat mateixa, sinó el fet que hi va haver una ciutat. Com una pedra que cau en un estany: la pedra s'enfonsa, però les ones continuen propagant-se. Mirant les ones no pots recuperar la pedra, però sí saber que n'hi va haver una, quan va caure i quina mida tenia. La informació sobre la pedra queda repartida en el patró de les ones. L'aigua no «recorda» la pedra, però la conserva en la seva forma.
 
@@ -109,13 +108,13 @@ No sé qui ets, lector. No sé si has arribat fins aquí d'una tirada, en una ni
 
 És el més íntim que pot fer qui escriu: parlar a l'orella d'algú que no coneix i confiar que les paraules, ones d'aire, de llum o de tinta, trobaran un receptor que les completi. És un acte de fe, no gaire diferent del que suposa viure sabent que et moriràs: confiar que el missatge importa encara que no sàpigues qui el rebrà ni què en farà.
 
-Et deixo, doncs, amb la imatge de l'arxivista: el que es va quedar a la riba quan l'aigua es va retirar i hi va continuar quan l'aigua va tornar. No perquè fos un heroi, ni un neci, sinó perquè no sabia quina altra cosa fer. La seva feina, arxivar el que la ciutat havia estat, ja no tenia sentit pràctic, perquè la ciutat ja no existia. Però ell continuava arxivant, perquè arxivar era la seva manera de dir: va ser-hi, va importar, hi va haver un abans.
+Et deixo, doncs, amb la imatge de l'arxivista de Tarel: el que es va quedar a la riba quan l'aigua es va retirar i hi va continuar quan l'aigua va tornar. No perquè fos un heroi, ni un neci, sinó perquè no sabia quina altra cosa fer. La seva feina, arxivar el que la ciutat havia estat, ja no tenia sentit pràctic, perquè la ciutat ja no existia. Però ell continuava arxivant, perquè arxivar era la seva manera de dir: va ser-hi, va importar, hi va haver un abans.
 
 Aquest arxivista sóc jo, escrivint aquest llibre. Sóc jo i és cada lector que arriba a l'última pàgina i sent la necessitat d'explicar a algú el que ha llegit, d'escriure-ho en un diari, de canviar alguna cosa en la seva vida o, senzillament, de quedar-se en silenci una estona més de l'habitual. L'arxiu no és en aquestes pàgines, sinó en la xarxa de correlacions que aquest text ha generat en el camp de la cultura: en les converses que provocarà, en les preguntes que sembrarà, en les nits d'insomni en què algú mirarà el sostre i pensarà: i si la meva consciència fos de debò un forat negre de Hawking?
 
 No et demano que creguis en l'experiment; l'experiment no necessita creients. Només et demano que el provis, que l'habitis, que el deixis actuar en el teu horitzó el temps suficient per veure si canvia alguna cosa. Si no canvia res, deixa'l anar, com es deixa una pedra que no serveix per construir. Si canvia alguna cosa, encara que sigui un matís o una pregunta nova, l'experiment haurà complert l'única promesa que feia: fer-te més precís, més conscient de la forma de la teva pròpia consciència, més amo del teu horitzó encara que sàpigues que no el vas triar i que no pots impedir que s'evapori.
 
-L'aigua continua allà, movent-se amb les marees, portant amb ella una informació que no pot llegir. La ciutat continua allà, sota l'aigua, en forma de correlacions, de petjades, de silencis. L'arxivista continua al moll, ja vell, amb les mans obertes i buides, mirant reflexos que no corresponen al cel. I nosaltres, tu i jo, que hem compartit aquest viatge, continuem aquí, a la riba, entre dues aigües, a la vora exacta on la informació es fa consciència i la consciència es fa pregunta.
+L'aigua de Tarel continua allà, movent-se amb les marees, portant amb ella una informació que no pot llegir. La ciutat continua allà, sota l'aigua, en forma de correlacions, de petjades, de silencis. L'arxivista continua al moll, ja vell, amb les mans obertes i buides, mirant reflexos que no corresponen al cel. I nosaltres, tu i jo, que hem compartit aquest viatge, continuem aquí, a la riba, entre dues aigües, a la vora exacta on la informació es fa consciència i la consciència es fa pregunta.
 
 No sé si alguna cosa va tornar amb l'aigua, ni si alguna cosa se'n va anar per sempre. Puc viure amb aquesta ignorància. De fet, crec que només la ignorància permet viure de debò, perquè saber-ho tot seria com estar mort: un estat sense sorpresa i sense futur. La vida és el dubte en moviment; la mort és, potser, el dubte resolt, o potser només el dubte transformat en alguna cosa que no sabem anomenar.
 
