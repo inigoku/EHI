@@ -314,3 +314,5 @@ Se restituyen los nombres retirados el 20-sep-2026 (cap. de la muerte, epílogo 
 ### Maquetación de capítulos y secciones (octubre 2026)
 
 Cada capítulo abre en página impar con título, ilustración (en línea, hasta el 40 % del marco) y texto; ya no hay lámina a página completa en el verso. La sección agrupa capítulos: su nombre sale solo en su portadilla (lámina del primer capítulo + nombre), sin repetirse sobre cada capítulo, y ese primer capítulo abre sin la lámina. Volumen único 738/728/726 págs. (es/ca/en), Tomo I 532/528/530, Tomo II 172/170/172; el Tomo I vuelve al interlineado original (15,0/15,2/15,4).
+
+Actualización: los capítulos conservan todas sus láminas (también el primero de cada sección) y las portadillas de sección llevan una lámina propia, `imagenes/portadilla_<id del primer capítulo>.jpg` (prompts en `prompts_portadillas.md`); si falta el fichero, la portadilla sale solo con el nombre. Tomo I: 540/534/534 págs. (es/ca/en); único: 738/728/726.
