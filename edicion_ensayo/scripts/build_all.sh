@@ -10,6 +10,7 @@ build() { # lg suf toc name tomoflag
   python3 scripts/build_epub_ensayo.py $toc -o ${name}.epub
   python3 scripts/build_epub_ensayo.py $toc -o ${name}_sin_ilustraciones.epub --sin-ilustraciones
   python3 scripts/build_cover.py $tomo --idioma $lg
+  python3 scripts/build_cover_paperback.py $tomo --idioma $lg
   python3 scripts/build_cover_paperback.py $tomo --idioma $lg --sin-ilustraciones
 }
 one() {
