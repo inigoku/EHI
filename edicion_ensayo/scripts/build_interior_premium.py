@@ -857,13 +857,20 @@ def build_pdf(toc_path: Path, output_path: Path, ca_bundle: Optional[str] = None
             image_source = illustrations.get(illustration_ref, illustration_ref)
             illustration_bytes = gbp.load_image_bytes(image_source, base_dir, ca_bundle)
 
-        # Portadilla de parte: la lámina del primer capítulo pasa a ella (con
-        # el nombre de la parte) y ese capítulo abre sin repetirla.
+        # Portadilla de sección: nombre + lámina propia, que se busca en
+        # imagenes/portadilla_<id del primer capítulo>.(jpg|png|webp). Si aún no
+        # existe, sale solo el nombre. Los capítulos conservan siempre la suya.
         if section and section != last_part:
             last_part = section
             if section_sizes.get(section, 0) > 1:
-                part_title_page(story, section, styles, illustration_bytes)
-                illustration_bytes = None
+                part_img = None
+                if not sin_ilustraciones:
+                    for ext in ("jpg", "jpeg", "png", "webp"):
+                        cand = base_dir / "imagenes" / f"portadilla_{chapter['id']}.{ext}"
+                        if cand.exists():
+                            part_img = cand.read_bytes()
+                            break
+                part_title_page(story, section, styles, part_img)
 
         # Cada capítulo empieza en página impar: título, ilustración y texto.
         story.append(ForceParity(1, TEXT_H))
